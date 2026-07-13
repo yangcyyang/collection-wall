@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """
-F001 Phase 1.5：书签 watcher 的菜单栏开关。
+F001 Phase 1.5：书签 watcher 的菜单栏开关，产品名「上墙」。
 
 这是 launchd 常驻 watcher 的"遥控器"——不重写 watcher.py，只是通过
-launchctl 控制 ~/Library/LaunchAgents/com.cy.bookmark-watcher.plist。
+launchctl 控制 ~/Library/LaunchAgents/com.cy.bookmark-watcher.plist
+（LaunchAgent Label 沿用旧名，避免迁移成本；"上墙"只是这个菜单栏
+App 的显示名和内部标识 com.cy.shangqiang）。
 
 用法：
     .venv/bin/python3 menubar_app.py
@@ -15,6 +17,7 @@ from pathlib import Path
 
 import rumps
 
+APP_NAME = "com.cy.shangqiang"  # 内部标识；LaunchAgent Label 保持不变，避免迁移成本
 LABEL = "com.cy.bookmark-watcher"
 UID = subprocess.run(["id", "-u"], capture_output=True, text=True).stdout.strip()
 PLIST_PATH = Path.home() / "Library/LaunchAgents" / f"{LABEL}.plist"
@@ -82,21 +85,21 @@ def recent_captures(n=3):
 
 class WatcherMenuBarApp(rumps.App):
     def __init__(self):
-        super().__init__("⚪ 收藏墙", quit_button=None)
+        super().__init__(APP_NAME, title="⚪ 上墙", quit_button=None)
         self._pause_timer = None
         self._pause_until = None
 
         self.status_item = rumps.MenuItem("状态：检查中…")
-        self.toggle_item = rumps.MenuItem("暂停监听", callback=self.on_toggle)
+        self.toggle_item = rumps.MenuItem("暂停上墙", callback=self.on_toggle)
         self.pause30_item = rumps.MenuItem(
             f"暂停 {PAUSE_MINUTES} 分钟", callback=self.on_pause_30min
         )
-        self.recent_menu = rumps.MenuItem("最近上墙")
-        self.open_wall_item = rumps.MenuItem("打开收藏墙网站", callback=self.on_open_wall)
+        self.recent_menu = rumps.MenuItem("最近上墙：")
+        self.open_wall_item = rumps.MenuItem("打开收藏墙", callback=self.on_open_wall)
         self.autostart_item = rumps.MenuItem(
             "开机自启", callback=self.on_toggle_autostart
         )
-        self.quit_item = rumps.MenuItem("退出菜单栏 App", callback=self.on_quit)
+        self.quit_item = rumps.MenuItem("退出「上墙」", callback=self.on_quit)
 
         self.menu = [
             self.status_item,
@@ -121,17 +124,17 @@ class WatcherMenuBarApp(rumps.App):
     def refresh(self, _sender):
         running = is_running()
         if self._pause_until:
-            self.title = "🟡 收藏墙"
+            self.title = "🟡 上墙"
             self.status_item.title = f"状态：已暂停，将在 {self._pause_until} 自动恢复"
-            self.toggle_item.title = "立即恢复监听"
+            self.toggle_item.title = "立即恢复上墙"
         elif running:
-            self.title = "🟢 收藏墙"
-            self.status_item.title = "状态：监听中"
-            self.toggle_item.title = "暂停监听"
+            self.title = "🟢 上墙"
+            self.status_item.title = "上墙中 ✓"
+            self.toggle_item.title = "暂停上墙"
         else:
-            self.title = "⚪ 收藏墙"
+            self.title = "⚪ 上墙"
             self.status_item.title = "状态：已停止"
-            self.toggle_item.title = "恢复监听"
+            self.toggle_item.title = "恢复上墙"
 
         self.autostart_item.state = is_autostart_enabled()
         self._rebuild_recent_menu()
@@ -172,14 +175,14 @@ class WatcherMenuBarApp(rumps.App):
         self._pause_until = resume_at.strftime("%H:%M")
         self.refresh(None)
         rumps.notification(
-            "收藏墙 watcher", "已暂停", f"将在 {self._pause_until} 自动恢复监听"
+            "上墙", "已暂停", f"将在 {self._pause_until} 自动恢复上墙"
         )
 
     def _resume_from_pause(self, _sender):
         self._cancel_pause()
         start_watcher()
         self.refresh(None)
-        rumps.notification("收藏墙 watcher", "已恢复", "书签监听已自动恢复")
+        rumps.notification("上墙", "已恢复", "书签监听已自动恢复")
 
     def _cancel_pause(self):
         if self._pause_timer:
