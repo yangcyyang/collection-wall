@@ -2,3 +2,4 @@ requests>=2.31.0
 playwright>=1.40.0
 watchdog>=3.0.0
 Pillow>=10.0.0
+rumps>=0.4.0
