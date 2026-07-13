@@ -131,6 +131,34 @@ class GitSyncTests(unittest.TestCase):
         self.assertTrue(timers[0].started)
         self.assertEqual(timers[0].delay, 300)
 
+    def test_flush_reschedules_after_sync_failure(self):
+        """R-3: push 失败不能只记日志不重排，否则要等下一次成功采集才会补推。"""
+        timers = []
+
+        def timer_factory(delay, callback):
+            timer = FakeTimer(delay, callback)
+            timers.append(timer)
+            return timer
+
+        def failing_sync(_repo):
+            raise RuntimeError("network down")
+
+        scheduler = DebouncedGitSync(
+            Path("/repo"),
+            delay_seconds=300,
+            timer_factory=timer_factory,
+            sync=failing_sync,
+        )
+
+        scheduler.schedule()
+        self.assertEqual(len(timers), 1)
+
+        timers[0].callback()  # simulate the timer firing -> _flush()
+
+        self.assertEqual(len(timers), 2, "a retry timer should be scheduled after failure")
+        self.assertTrue(timers[1].started)
+        self.assertEqual(timers[1].delay, 300)
+
     def test_capture_success_schedules_sync(self):
         scheduled = []
         scheduler = SimpleNamespace(schedule=lambda: scheduled.append(True))

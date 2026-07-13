@@ -21,6 +21,7 @@ PIPELINE_ROOT = Path(__file__).parent
 REPO_ROOT = PIPELINE_ROOT.parent
 DATA_DIR = REPO_ROOT / "data" / "tools"
 COVERS_DIR = DATA_DIR / "covers"
+MAX_RETRY_ATTEMPTS = 5
 LOG_DIR = PIPELINE_ROOT / "logs"
 ENV_FILE = PIPELINE_ROOT / ".env"
 SCREENSHOT_DIR = Path(os.path.expanduser(os.environ.get("SCREENSHOT_DIR", "~/Pictures/bookmark-captures")))
@@ -319,6 +320,55 @@ def find_existing_record(url):
             return rec
     return None
 
+def find_failed_records(max_retry_attempts=MAX_RETRY_ATTEMPTS):
+    """列出还没超过重试上限的失败记录，供 watcher 的重试循环调用。"""
+    if not DATA_DIR.exists():
+        return []
+    out = []
+    for f in DATA_DIR.glob("*.json"):
+        try:
+            rec = json.loads(f.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        if rec.get("capture_status") == "failed" and rec.get("retry_count", 0) < max_retry_attempts:
+            out.append(rec)
+    return out
+
+# ---------- Step 3b: write a failed placeholder (R-1: 不静默丢收藏) ----------
+def write_failed_record(url, record_id, error_msg, pd=None, retry_count=0, my_notes=""):
+    """抓取/分析失败时写占位记录，而不是直接丢弃这条收藏。
+    前端 site/src/pages/index.astro 已经认 capture_status === "failed" 显示重试提示。
+    不在这里推进 git 同步（保持"失败采集不发布"的安全边界），留给 retry_failed_loop 重试成功后正常发布。"""
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    title = (pd or {}).get("title") or ""
+    record = {
+        "id": record_id,
+        "url": url,
+        "name": title[:80] or urlparse(url).netloc,
+        "headline": "",
+        "category": "🔬 其他",
+        "subcategory": "",
+        "tags": [],
+        "capabilities": [],
+        "scenarios": [],
+        "search_keywords": [],
+        "alternatives": {"replaces": [], "similar_to": [], "pairs_with": []},
+        "tech_highlights": [],
+        "cover": None,
+        "status": "🆕 待试",
+        "visit_count": 0,
+        "last_visited": None,
+        "added_at": datetime.now().isoformat(timespec="seconds"),
+        "my_notes": my_notes,
+        "capture_status": "failed",
+        "capture_error": str(error_msg)[:300],
+        "retry_count": retry_count,
+    }
+    (DATA_DIR / f"{record_id}.json").write_text(
+        json.dumps(record, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    return record
+
 # ---------- Step 4: write JSON record ----------
 def write_json_record(url, analysis, screenshot_bytes, history, record_id, my_notes=""):
     DATA_DIR.mkdir(parents=True, exist_ok=True)
@@ -357,6 +407,7 @@ def write_json_record(url, analysis, screenshot_bytes, history, record_id, my_no
         "last_visited": history.get("last_visited"),
         "added_at": datetime.now().isoformat(timespec="seconds"),
         "my_notes": my_notes,
+        "capture_status": "ok",
     }
     if analysis.get("_stars"):
         record["github_stars"] = analysis["_stars"]
@@ -369,13 +420,19 @@ def write_json_record(url, analysis, screenshot_bytes, history, record_id, my_no
 # ---------- Main ----------
 def main():
     if len(sys.argv) < 2:
-        print("Usage: capture.py <URL>")
+        print("Usage: capture.py <URL> [--retry-count N]")
         sys.exit(1)
     url = sys.argv[1].strip()
     if not (url.startswith("http://") or url.startswith("https://")):
         url = "https://" + url
+    retry_count = 0
+    if "--retry-count" in sys.argv:
+        try:
+            retry_count = int(sys.argv[sys.argv.index("--retry-count") + 1])
+        except (ValueError, IndexError):
+            pass
 
-    log(f"📸 抓取 {url}")
+    log(f"📸 抓取 {url}" + (f"（第 {retry_count} 次重试）" if retry_count else ""))
 
     existing = find_existing_record(url)
     record_id = existing["id"] if existing else str(uuid.uuid4())
@@ -388,6 +445,7 @@ def main():
     except Exception as e:
         log(f"❌ 抓取失败: {e}")
         notify("❌ 收藏失败", f"抓取失败: {str(e)[:100]}")
+        write_failed_record(url, record_id, e, retry_count=retry_count, my_notes=my_notes)
         sys.exit(2)
 
     SCREENSHOT_DIR.mkdir(parents=True, exist_ok=True)
@@ -402,6 +460,7 @@ def main():
     except Exception as e:
         log(f"❌ AI 分析失败: {e}")
         notify("❌ 收藏失败", f"AI 分析失败: {str(e)[:100]}")
+        write_failed_record(url, record_id, e, pd=pd, retry_count=retry_count, my_notes=my_notes)
         sys.exit(3)
     log(f"  → {analysis.get('name')} | {analysis.get('category')} / {analysis.get('subcategory') or '—'}")
 

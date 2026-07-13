@@ -126,7 +126,8 @@ class DebouncedGitSync:
             else:
                 self.logger("  ⏭ data/tools 无变化，跳过推送")
         except Exception as exc:
-            self.logger(f"  ⚠ Git 自动同步失败，保留本地数据待下次重试: {exc}")
+            self.logger(f"  ⚠ Git 自动同步失败，{int(self.delay_seconds)} 秒后自动重试: {exc}")
+            self.schedule()
 
 
 def run_capture_and_schedule(

@@ -18,6 +18,7 @@ from datetime import datetime
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 from git_sync import DebouncedGitSync, normalize_sync_delay, run_capture_and_schedule
+import capture as capture_module
 
 BROWSER_ROOTS = {
     "Chrome": Path.home() / "Library/Application Support/Google/Chrome",
@@ -182,21 +183,21 @@ def load_last_processed():
 def save_last_processed(t):
     LAST_PROCESSED_FILE.write_text(json.dumps({"last_processed": t}))
 
-def trigger_capture(url):
-    log(f"  ⚡ 触发: {url}")
+def trigger_capture(url, retry_count=0):
+    log(f"  ⚡ 触发: {url}" + (f"（重试第 {retry_count} 次）" if retry_count else ""))
+    cmd = [PYTHON, CAPTURE_SCRIPT, url]
+    if retry_count:
+        cmd += ["--retry-count", str(retry_count)]
     if _git_sync is not None:
         def capture_then_sync():
-            returncode = run_capture_and_schedule(
-                [PYTHON, CAPTURE_SCRIPT, url],
-                _git_sync,
-            )
+            returncode = run_capture_and_schedule(cmd, _git_sync)
             if returncode != 0:
                 log(f"  ⚠ capture 失败 (rc={returncode})，不触发 Git 同步: {url}")
 
         threading.Thread(target=capture_then_sync, daemon=True).start()
         return
     subprocess.Popen(
-        [PYTHON, CAPTURE_SCRIPT, url],
+        cmd,
         stdout=subprocess.DEVNULL,
         stderr=subprocess.DEVNULL,
         start_new_session=True,
@@ -373,21 +374,25 @@ def rediscover_loop(observer, handler, watched_dirs):
         except Exception as e:
             log(f"⚠ rediscover 出错: {e}")
 
-# ─── B 任务: 分类自学反馈 (每 30min 跑一次) ─────────────────────────
-FEEDBACK_COLLECTOR = PROJECT_ROOT / "feedback_collector.py"
-
-def feedback_loop():
-    """每 30 分钟跑一次 feedback_collector.py,从 Notion 收集用户手工改的分类。"""
+# ─── R-1: 定期重试失败的采集 (每 30min 跑一次) ────────────────────────
+def retry_failed_loop():
+    """每 30 分钟扫一次 data/tools 里 capture_status=="failed" 且未超重试上限的记录，
+    重新跑一次 capture.py。重试成功会把同一条记录覆盖成 capture_status: "ok",
+    走正常流程触发 Git 同步、正式上墙。"""
     time.sleep(120)  # 启动后等 2 分钟再开始,避免和首次 process_changes 抢资源
     while True:
         try:
-            subprocess.run(
-                [PYTHON, str(FEEDBACK_COLLECTOR)],
-                stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
-                timeout=300,
-            )
+            failed = capture_module.find_failed_records()
+            if failed:
+                log(f"🔁 发现 {len(failed)} 条失败收藏，开始重试")
+                for rec in failed:
+                    url = rec.get("url")
+                    if not url:
+                        continue
+                    trigger_capture(url, retry_count=rec.get("retry_count", 0) + 1)
+                    time.sleep(STAGGER_DELAY)
         except Exception as e:
-            log(f"⚠ feedback_collector 出错: {e}")
+            log(f"⚠ retry_failed_loop 出错: {e}")
         time.sleep(1800)  # 30 min
 
 # ─── C 任务: 每日健康自检 (每 24h 跑一次) ─────────────────────────
@@ -525,10 +530,10 @@ def main():
     http_t = threading.Thread(target=_start_http_receiver, daemon=True)
     http_t.start()
 
-    # 后台线程: B 任务 - 分类反馈学习 (每 30min)
-    fb_t = threading.Thread(target=feedback_loop, daemon=True)
-    fb_t.start()
-    log("  📚 反馈学习就位 (每 30min 扫 Notion 手工改动)")
+    # 后台线程: R-1 - 定期重试失败的采集 (每 30min)
+    retry_t = threading.Thread(target=retry_failed_loop, daemon=True)
+    retry_t.start()
+    log("  🔁 失败重试就位 (每 30min 扫失败收藏)")
 
     # 后台线程: C 任务 - 每日健康自检 (每 24h)
     hc_t = threading.Thread(target=healthcheck_loop, daemon=True)
