@@ -1,0 +1,56 @@
+{
+  "id": "09b115f0-8a1d-4245-90d8-7c67a9856424",
+  "url": "https://linux.do/",
+  "name": "Linux.do",
+  "headline": "Linux 爱好者社区，技术讨论与资源分享",
+  "intro": "Linux.do 是一个专注于 Linux 操作系统及相关技术的社区论坛。用户可以在其中讨论 Linux 发行版、命令行技巧、系统配置、软件开发、开源项目等话题。社区氛围活跃，适合从新手到专家的各级别用户。网站提供问答、教程、资源分享等功能，是 Linux 爱好者获取信息和交流经验的重要平台。",
+  "category": "📚 知识与学习",
+  "subcategory": "学习平台",
+  "tags": [
+    "Linux",
+    "社区",
+    "论坛",
+    "开源",
+    "技术讨论",
+    "系统管理",
+    "编程"
+  ],
+  "capabilities": [
+    "发布技术问题",
+    "分享教程资源",
+    "参与话题讨论",
+    "获取系统帮助",
+    "交流开发经验"
+  ],
+  "scenarios": [
+    "在学习 Linux 系统时",
+    "遇到 Linux 配置问题时",
+    "想了解开源项目时",
+    "寻找 Linux 相关资源时"
+  ],
+  "search_keywords": [
+    "Linux 社区",
+    "Linux 论坛",
+    "Linux 问答",
+    "Linux 教程",
+    "Linux 技术交流",
+    "开源社区",
+    "Linux 帮助",
+    "Linux 资源"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [
+      "Reddit r/linux",
+      "Stack Overflow Linux"
+    ],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/09b115f0-8a1d-4245-90d8-7c67a9856424.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-13T17:42:53",
+  "my_notes": ""
+}
