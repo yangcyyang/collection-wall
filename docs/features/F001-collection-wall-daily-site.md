@@ -163,6 +163,10 @@ cy 每天会发现值得收藏的网站/工具，也需要固定来源的 AI 日
 | R-3 | P3 | git push 失败只记日志不重排 | 与 R-1 同批修（_flush 失败后重新 schedule，一行改动）；单用户风险低 |
 | R-4 | P4 | visit_count 只查 Default Profile 的 History | 记入 Phase 2+ backlog |
 
+整改结果：R-1/R-2/R-3 已修复（commit 5e40e9a，含回归测试，10/10 通过），Pi 2026-07-13 复核放行——
+失败→占位→30 分钟重试→成功→上墙 闭环无断点，重试上限 5 次不会静默丢失。
+复核新增建议（进 Phase 2+ backlog）：R-5(P4) git push 重排无退避上限，远端永久不可用时每 5 分钟重试一次，建议 3 次后降级为本地告警。
+
 ## Open Questions
 
 - [x] Obsidian vault 具体路径 → `OrbitOS-CN/400知识库/`
