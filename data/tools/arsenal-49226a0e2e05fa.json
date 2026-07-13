@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-49226a0e2e05fa",
+  "url": "https://github.com/tw93/kami",
+  "name": "Kami",
+  "headline": "AI内容排版与文档生成系统，为大模型产出提供专业设计模板",
+  "intro": "AI内容排版与文档生成系统，为大模型产出提供专业设计模板",
+  "category": "🛠️ 办公与效率",
+  "subcategory": "PPT 演示",
+  "tags": [
+    "文字",
+    "排版",
+    "生成",
+    "开源",
+    "免费",
+    "中文",
+    "英文",
+    "AI生成"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Kami",
+    "🛠️ 办公与效率",
+    "PPT 演示",
+    "文字",
+    "排版",
+    "生成",
+    "开源",
+    "免费"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "skill",
+    "HTML"
+  ],
+  "cover": "covers/arsenal-49226a0e2e05fa.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 148,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：适用于Claude Code: \\`npx skills add tw93/kami -a claude-code -g -y\\`；Claude Desktop: 下载ZIP包手动安装。",
+  "source": "xiaoer-tools-wall"
+}

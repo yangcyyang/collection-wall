@@ -1,0 +1,33 @@
+{
+  "id": "github-cc0ec658bf53b3",
+  "url": "https://github.com/snarktank/ralph",
+  "name": "snarktank/ralph",
+  "headline": "Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete.",
+  "intro": "Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete.",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "TypeScript"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "snarktank/ralph",
+    "TypeScript"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 21003"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-04-12T16:41:51Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

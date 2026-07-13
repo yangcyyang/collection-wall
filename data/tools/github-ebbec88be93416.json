@@ -1,0 +1,46 @@
+{
+  "id": "github-ebbec88be93416",
+  "url": "https://github.com/chthollyphile/folia-major",
+  "name": "chthollyphile/folia-major",
+  "headline": "专注于绚丽的歌词动画效果的本地音乐/navidrome/第三方网易云播放器",
+  "intro": "专注于绚丽的歌词动画效果的本地音乐/navidrome/第三方网易云播放器",
+  "category": "🛠️ 办公与效率",
+  "subcategory": "",
+  "tags": [
+    "ai",
+    "music",
+    "music-player",
+    "navidrome-client",
+    "netease-music",
+    "player",
+    "pwa",
+    "react"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "chthollyphile/folia-major",
+    "TypeScript",
+    "ai",
+    "music",
+    "music-player",
+    "navidrome-client",
+    "netease-music",
+    "player"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 1303"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-02T12:22:45Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

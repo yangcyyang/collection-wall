@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-70fa18e10375c9",
+  "url": "https://otter.ai",
+  "name": "Otter.ai",
+  "headline": "AI 智能会议助手，自动转录、总结与管理会议记录",
+  "intro": "AI 智能会议助手，自动转录、总结与管理会议记录",
+  "category": "🔊 声音",
+  "subcategory": "语音",
+  "tags": [
+    "AI生成",
+    "会议记录",
+    "实时转录",
+    "自动总结",
+    "在线工具",
+    "桌面app",
+    "浏览器扩展",
+    "免费试用"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Otter.ai",
+    "🔊 声音",
+    "语音",
+    "AI生成",
+    "会议记录",
+    "实时转录",
+    "自动总结",
+    "在线工具"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-70fa18e10375c9.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

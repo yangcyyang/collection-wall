@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-f4c8d34f2b32a4",
+  "url": "https://github.com/st-tech/ppf-contact-solver",
+  "name": "PPF Contact Solver",
+  "headline": "GPU加速的物理接触求解器，支持壳体、固体与杆件的高精度模拟",
+  "intro": "GPU加速的物理接触求解器，支持壳体、固体与杆件的高精度模拟",
+  "category": "🌐 网页与代码",
+  "subcategory": "开发工具",
+  "tags": [
+    "3D",
+    "代码",
+    "生成",
+    "模拟",
+    "开源",
+    "桌面app",
+    "API",
+    "AI生成"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "PPF Contact Solver",
+    "🌐 网页与代码",
+    "开发工具",
+    "3D",
+    "代码",
+    "生成",
+    "模拟",
+    "开源"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "library",
+    "Python"
+  ],
+  "cover": "covers/arsenal-f4c8d34f2b32a4.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 162,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：运行Docker命令 (e.g., docker run ghcr.io/st-tech/ppf-contact-solver-compiled-sigasia-2024:latest) 或使用Windows原生可执行文件",
+  "source": "xiaoer-tools-wall"
+}

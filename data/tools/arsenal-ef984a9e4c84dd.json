@@ -1,0 +1,45 @@
+{
+  "id": "arsenal-ef984a9e4c84dd",
+  "url": "https://github.com/greensock/gsap-skills",
+  "name": "GSAP AI Skills",
+  "headline": "帮助 AI 智能体学习和生成 GSAP 动画代码，掌握最佳实践",
+  "intro": "帮助 AI 智能体学习和生成 GSAP 动画代码，掌握最佳实践",
+  "category": "🌐 网页与代码",
+  "subcategory": "AI 编程助手",
+  "tags": [
+    "AI生成",
+    "代码",
+    "开源",
+    "英文",
+    "Agent",
+    "大模型",
+    "开发工具"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "GSAP AI Skills",
+    "🌐 网页与代码",
+    "AI 编程助手",
+    "AI生成",
+    "代码",
+    "开源",
+    "英文",
+    "Agent"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "skill"
+  ],
+  "cover": "covers/arsenal-ef984a9e4c84dd.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 185,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：供 AI 智能体学习和集成, 无需用户安装运行",
+  "source": "xiaoer-tools-wall"
+}

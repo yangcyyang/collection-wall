@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-65b4117c341372",
+  "url": "https://github.com/kekingcn/kkFileView",
+  "name": "kkFileView",
+  "headline": "通用文档在线预览解决方案，支持Office、PDF、图片、音视频及代码文件",
+  "intro": "通用文档在线预览解决方案，支持Office、PDF、图片、音视频及代码文件",
+  "category": "🌐 网页与代码",
+  "subcategory": "开发工具",
+  "tags": [
+    "在线工具",
+    "开源",
+    "免费",
+    "文档预览",
+    "文件转换",
+    "API",
+    "中文",
+    "Office"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "kkFileView",
+    "🌐 网页与代码",
+    "开发工具",
+    "在线工具",
+    "开源",
+    "免费",
+    "文档预览",
+    "文件转换"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "app",
+    "Java"
+  ],
+  "cover": "covers/arsenal-65b4117c341372.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 225,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：git clone 项目，运行 /server/src/main/java/cn/keking/ServerMain.java 的 main 方法启动服务，访问 http://localhost:8012/",
+  "source": "xiaoer-tools-wall"
+}

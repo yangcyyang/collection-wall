@@ -1,0 +1,33 @@
+{
+  "id": "github-46c62ac2a757cf",
+  "url": "https://github.com/jackwener/OpenTeamFormat",
+  "name": "jackwener/OpenTeamFormat",
+  "headline": "Portable format for Raft/Slock team and agent templates",
+  "intro": "Portable format for Raft/Slock team and agent templates",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "JavaScript"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "jackwener/OpenTeamFormat",
+    "JavaScript"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 18"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-03T14:15:53Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

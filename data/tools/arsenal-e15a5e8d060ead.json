@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-e15a5e8d060ead",
+  "url": "https://github.com/zanwei/design-dna/blob/main/README.zh-CN.md",
+  "name": "design-dna",
+  "headline": "编程智能体 UI 设计 DNA 提取与生成工具，将设计量化为系统、风格与视觉特效。",
+  "intro": "编程智能体 UI 设计 DNA 提取与生成工具，将设计量化为系统、风格与视觉特效。",
+  "category": "🎨 视觉创作",
+  "subcategory": "图像生成",
+  "tags": [
+    "代码",
+    "网页",
+    "提取",
+    "生成",
+    "设计系统",
+    "开源",
+    "AI生成",
+    "CLI工具"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "design-dna",
+    "🎨 视觉创作",
+    "图像生成",
+    "代码",
+    "网页",
+    "提取",
+    "生成",
+    "设计系统"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "skill",
+    "TypeScript"
+  ],
+  "cover": "covers/arsenal-e15a5e8d060ead.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 266,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：npx skills add zanwei/design-dna",
+  "source": "xiaoer-tools-wall"
+}

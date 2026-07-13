@@ -1,0 +1,28 @@
+{
+  "id": "seed-07",
+  "url": "https://example-capture-failed.test/",
+  "name": "",
+  "headline": "",
+  "intro": "",
+  "category": "🔬 其他",
+  "subcategory": "",
+  "tags": [],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T09:05:00",
+  "my_notes": "seed data, 抓取失败用例",
+  "capture_status": "failed",
+  "capture_error": "page.goto timeout after 30000ms",
+  "source": "seed"
+}

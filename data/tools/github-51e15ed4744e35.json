@@ -1,0 +1,33 @@
+{
+  "id": "github-51e15ed4744e35",
+  "url": "https://github.com/binggandata/bggg-skills",
+  "name": "binggandata/bggg-skills",
+  "headline": "Open-source Codex skills from BGGG",
+  "intro": "Open-source Codex skills from BGGG",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "Python"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "binggandata/bggg-skills",
+    "Python"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 531"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-03T15:45:48Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

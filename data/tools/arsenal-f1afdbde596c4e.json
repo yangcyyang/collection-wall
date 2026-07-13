@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-f1afdbde596c4e",
+  "url": "https://github.com/Pluviobyte/video-production-skills",
+  "name": "AI Video Production Skills",
+  "headline": "可复用的AI视频制作技能库，涵盖创作、动效、片头与质检",
+  "intro": "可复用的AI视频制作技能库，涵盖创作、动效、片头与质检",
+  "category": "🤖 AI 大模型",
+  "subcategory": "多模态",
+  "tags": [
+    "视频",
+    "AI生成",
+    "生成",
+    "剪辑",
+    "检测",
+    "开源",
+    "Awesome合集",
+    "库"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "AI Video Production Skills",
+    "🤖 AI 大模型",
+    "多模态",
+    "视频",
+    "AI生成",
+    "生成",
+    "剪辑",
+    "检测"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "skill",
+    "Python"
+  ],
+  "cover": "covers/arsenal-f1afdbde596c4e.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 246,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：使用 npx skills CLI 安装，例如: npx skills add https://github.com/Pluviobyte/video-production-skills --list",
+  "source": "xiaoer-tools-wall"
+}

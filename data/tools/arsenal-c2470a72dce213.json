@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-c2470a72dce213",
+  "url": "https://github.com/sparkjsdev/spark",
+  "name": "Spark",
+  "headline": "THREE.js 实时 3D Gaussian Splatting 渲染器, 适用于 WebGL2 应用",
+  "intro": "THREE.js 实时 3D Gaussian Splatting 渲染器, 适用于 WebGL2 应用",
+  "category": "🌐 网页与代码",
+  "subcategory": "开发工具",
+  "tags": [
+    "3D",
+    "渲染",
+    "实时",
+    "开源",
+    "免费",
+    "WebGL",
+    "JavaScript",
+    "库/框架"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Spark",
+    "🌐 网页与代码",
+    "开发工具",
+    "3D",
+    "渲染",
+    "实时",
+    "开源",
+    "免费"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "library",
+    "TypeScript"
+  ],
+  "cover": "covers/arsenal-c2470a72dce213.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 225,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：npm install @sparkjsdev/spark",
+  "source": "xiaoer-tools-wall"
+}

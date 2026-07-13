@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-f3a6b1cab6a423",
+  "url": "https://www.behance.net",
+  "name": "Behance",
+  "headline": "全球创意作品展示与发现平台，连接设计师与雇主，发现设计灵感。",
+  "intro": "全球创意作品展示与发现平台，连接设计师与雇主，发现设计灵感。",
+  "category": "🌟 灵感与审美",
+  "subcategory": "设计灵感",
+  "tags": [
+    "图像",
+    "视频",
+    "3D",
+    "展示",
+    "搜索",
+    "招聘",
+    "在线工具",
+    "付费"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Behance",
+    "🌟 灵感与审美",
+    "设计灵感",
+    "图像",
+    "视频",
+    "3D",
+    "展示",
+    "搜索"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-f3a6b1cab6a423.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

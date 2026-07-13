@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-d8fb2e1549dc4d",
+  "url": "https://3min.top/",
+  "name": "3MinTop",
+  "headline": "AI 读书伴侣, 快速总结书籍精华, 支持 EPUB/PDF 阅读与思维导图。",
+  "intro": "AI 读书伴侣, 快速总结书籍精华, 支持 EPUB/PDF 阅读与思维导图。",
+  "category": "📚 知识与学习",
+  "subcategory": "电子书",
+  "tags": [
+    "文字",
+    "总结",
+    "阅读",
+    "PDF",
+    "EPUB",
+    "AI生成",
+    "在线工具",
+    "免费"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "3MinTop",
+    "📚 知识与学习",
+    "电子书",
+    "文字",
+    "总结",
+    "阅读",
+    "PDF",
+    "EPUB"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-d8fb2e1549dc4d.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

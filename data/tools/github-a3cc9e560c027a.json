@@ -1,0 +1,46 @@
+{
+  "id": "github-a3cc9e560c027a",
+  "url": "https://github.com/yaojingang/GEOFlow",
+  "name": "yaojingang/GEOFlow",
+  "headline": "Open-source GEO content engineering and multi-site distribution system with AI tasks, RAG/semantic chunking, analytics, GEOFlow Agent and WordPress target publishing.",
+  "intro": "Open-source GEO content engineering and multi-site distribution system with AI tasks, RAG/semantic chunking, analytics, GEOFlow Agent and WordPress target publishing.",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "ai",
+    "cms",
+    "content-automation",
+    "geo",
+    "openai-compatible",
+    "php",
+    "postgresql",
+    "seo"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "yaojingang/GEOFlow",
+    "PHP",
+    "ai",
+    "cms",
+    "content-automation",
+    "geo",
+    "openai-compatible",
+    "php"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 2874"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-05-23T16:00:42Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

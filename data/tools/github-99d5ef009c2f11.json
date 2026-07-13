@@ -1,0 +1,33 @@
+{
+  "id": "github-99d5ef009c2f11",
+  "url": "https://github.com/maka-agent/maka-agent",
+  "name": "maka-agent/maka-agent",
+  "headline": "Maka — local-first AI desktop assistant",
+  "intro": "Maka — local-first AI desktop assistant",
+  "category": "🌐 网页与代码",
+  "subcategory": "",
+  "tags": [
+    "TypeScript"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "maka-agent/maka-agent",
+    "TypeScript"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 641"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-06-21T03:36:47Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

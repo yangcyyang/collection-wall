@@ -1,0 +1,33 @@
+{
+  "id": "github-9dc2f60038215d",
+  "url": "https://github.com/houshifang/image",
+  "name": "houshifang/image",
+  "headline": "给互联网设计师的 AI 图片提示词灵感库，覆盖 APP、运营、海报、插画、品牌与电商等设计场景，每张图都配有可直接复制的 AI 提示词，让灵感随取随用，全部由 image2 完成",
+  "intro": "给互联网设计师的 AI 图片提示词灵感库，覆盖 APP、运营、海报、插画、品牌与电商等设计场景，每张图都配有可直接复制的 AI 提示词，让灵感随取随用，全部由 image2 完成",
+  "category": "🎨 视觉创作",
+  "subcategory": "",
+  "tags": [
+    "JavaScript"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "houshifang/image",
+    "JavaScript"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 186"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-05-06T18:12:50Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

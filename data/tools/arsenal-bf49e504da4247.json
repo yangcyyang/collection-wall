@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-bf49e504da4247",
+  "url": "https://github.com/huohuoer/wechat-cli",
+  "name": "wechat-cli",
+  "headline": "微信聊天记录命令行工具，本地数据查询与LLM集成",
+  "intro": "微信聊天记录命令行工具，本地数据查询与LLM集成",
+  "category": "🌐 网页与代码",
+  "subcategory": "CLI 工具",
+  "tags": [
+    "微信",
+    "聊天记录",
+    "数据查询",
+    "命令行",
+    "LLM集成",
+    "开源",
+    "免费",
+    "本地数据"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "wechat-cli",
+    "🌐 网页与代码",
+    "CLI 工具",
+    "微信",
+    "聊天记录",
+    "数据查询",
+    "命令行",
+    "LLM集成"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "cli",
+    "Python"
+  ],
+  "cover": "covers/arsenal-bf49e504da4247.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 136,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：npm install -g @canghe_ai/wechat-cli",
+  "source": "xiaoer-tools-wall"
+}

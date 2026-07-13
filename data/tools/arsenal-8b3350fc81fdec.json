@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-8b3350fc81fdec",
+  "url": "https://pixabay.com/",
+  "name": "Pixabay",
+  "headline": "免费高清图片、视频与音乐素材库，提供免版税数字内容下载",
+  "intro": "免费高清图片、视频与音乐素材库，提供免版税数字内容下载",
+  "category": "🎨 视觉创作",
+  "subcategory": "设计资源",
+  "tags": [
+    "图像",
+    "视频",
+    "音频",
+    "素材",
+    "免费",
+    "在线工具",
+    "搜索",
+    "下载"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Pixabay",
+    "🎨 视觉创作",
+    "设计资源",
+    "图像",
+    "视频",
+    "音频",
+    "素材",
+    "免费"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-8b3350fc81fdec.jpg",
+  "status": "🔍 偶尔",
+  "visit_count": 5,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

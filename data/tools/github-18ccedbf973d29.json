@@ -1,0 +1,43 @@
+{
+  "id": "github-18ccedbf973d29",
+  "url": "https://github.com/BloopAI/vibe-kanban",
+  "name": "BloopAI/vibe-kanban",
+  "headline": "Get 10X more out of Claude Code, Codex or any coding agent",
+  "intro": "Get 10X more out of Claude Code, Codex or any coding agent",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "agent",
+    "ai-agents",
+    "kanban",
+    "management",
+    "task-manager",
+    "Rust"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "BloopAI/vibe-kanban",
+    "Rust",
+    "agent",
+    "ai-agents",
+    "kanban",
+    "management",
+    "task-manager"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 27344"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-04T08:00:03Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

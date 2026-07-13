@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-8deba5c4a92669",
+  "url": "https://pixelrag.ai/",
+  "name": "PixelRAG",
+  "headline": "Wikipedia 视觉搜索工具，支持图像和文本检索",
+  "intro": "Wikipedia 视觉搜索工具，支持图像和文本检索",
+  "category": "🛠️ 办公与效率",
+  "subcategory": "其他效率",
+  "tags": [
+    "搜索",
+    "视觉搜索",
+    "AI搜索",
+    "Wikipedia",
+    "在线工具",
+    "免费",
+    "英文",
+    "知识检索"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "PixelRAG",
+    "🛠️ 办公与效率",
+    "其他效率",
+    "搜索",
+    "视觉搜索",
+    "AI搜索",
+    "Wikipedia",
+    "在线工具"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-8deba5c4a92669.jpg",
+  "status": "🆕 待试",
+  "visit_count": 1,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

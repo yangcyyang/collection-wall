@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-6e18aa23e1f0d1",
+  "url": "https://github.com/heygen-com/hyperframes",
+  "name": "HyperFrames",
+  "headline": "基于 HTML 渲染视频的开源框架，专为 AI Agents 构建。",
+  "intro": "基于 HTML 渲染视频的开源框架，专为 AI Agents 构建。",
+  "category": "🌐 网页与代码",
+  "subcategory": "AI 编程助手",
+  "tags": [
+    "视频生成",
+    "AI生成",
+    "开源",
+    "框架",
+    "HTML",
+    "动画",
+    "CLI工具",
+    "TypeScript"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "HyperFrames",
+    "🌐 网页与代码",
+    "AI 编程助手",
+    "视频生成",
+    "AI生成",
+    "开源",
+    "框架",
+    "HTML"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "library",
+    "TypeScript"
+  ],
+  "cover": "covers/arsenal-6e18aa23e1f0d1.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 142,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：使用 \\`npx skills add heygen-com/hyperframes\\` 命令，将 HyperFrames 技能集成至 AI 代理。",
+  "source": "xiaoer-tools-wall"
+}

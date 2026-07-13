@@ -1,0 +1,46 @@
+{
+  "id": "seed-04",
+  "url": "https://ui.shadcn.com/",
+  "name": "shadcn/ui",
+  "headline": "可复制粘贴的开源 React 组件库",
+  "intro": "不是传统 npm 包，而是把组件源码直接生成到你项目里的组件集合，基于 Radix + Tailwind，方便二次定制，是当下最流行的前端组件方案之一。",
+  "category": "🌐 网页与代码",
+  "subcategory": "组件 / UI 库",
+  "tags": [
+    "React组件",
+    "Tailwind",
+    "开源"
+  ],
+  "capabilities": [
+    "生成可定制组件源码",
+    "配套设计 token"
+  ],
+  "scenarios": [
+    "搭前端项目缺组件库时"
+  ],
+  "search_keywords": [
+    "shadcn",
+    "react组件库",
+    "tailwind组件"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [
+      "Radix UI",
+      "Ant Design"
+    ],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "源码级可定制",
+    "Tailwind CSS 驱动"
+  ],
+  "cover": "covers/seed-04.jpg",
+  "status": "📦 常用",
+  "visit_count": 22,
+  "last_visited": "2026-07-11",
+  "added_at": "2026-04-20T16:00:00",
+  "my_notes": "",
+  "github_stars": 78000,
+  "source": "seed"
+}

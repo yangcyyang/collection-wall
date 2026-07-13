@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-3afb6caccf0c69",
+  "url": "https://www.deepl.com",
+  "name": "DeepL",
+  "headline": "AI 翻译平台，支持文本、语音和媒体翻译，并提供 API 接口",
+  "intro": "AI 翻译平台，支持文本、语音和媒体翻译，并提供 API 接口",
+  "category": "✍️ 文字写作",
+  "subcategory": "翻译润色",
+  "tags": [
+    "翻译",
+    "文字",
+    "音频",
+    "AI生成",
+    "在线工具",
+    "API",
+    "付费",
+    "浏览器扩展"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "DeepL",
+    "✍️ 文字写作",
+    "翻译润色",
+    "翻译",
+    "文字",
+    "音频",
+    "AI生成",
+    "在线工具"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-3afb6caccf0c69.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

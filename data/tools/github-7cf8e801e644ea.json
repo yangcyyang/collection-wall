@@ -1,0 +1,33 @@
+{
+  "id": "github-7cf8e801e644ea",
+  "url": "https://github.com/jackwener/llm-wiki",
+  "name": "jackwener/llm-wiki",
+  "headline": "Agent-native persistent knowledge management — compile knowledge once, query forever.",
+  "intro": "Agent-native persistent knowledge management — compile knowledge once, query forever.",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "TypeScript"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "jackwener/llm-wiki",
+    "TypeScript"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 87"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-04-20T17:20:25Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

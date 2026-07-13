@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-a7583b458c409b",
+  "url": "https://ponder.ing/",
+  "name": "Ponder",
+  "headline": "AI驱动的知识工作空间，助力深度思考、研究分析与信息管理",
+  "intro": "AI驱动的知识工作空间，助力深度思考、研究分析与信息管理",
+  "category": "📚 知识与学习",
+  "subcategory": "学习平台",
+  "tags": [
+    "AI生成",
+    "知识管理",
+    "文献综述",
+    "研究工具",
+    "笔记",
+    "PDF处理",
+    "在线工具",
+    "试用"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Ponder",
+    "📚 知识与学习",
+    "学习平台",
+    "AI生成",
+    "知识管理",
+    "文献综述",
+    "研究工具",
+    "笔记"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-a7583b458c409b.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

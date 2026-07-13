@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-d56052493e7fb6",
+  "url": "https://github.com/raphaelsalaja/audio",
+  "name": "Audio Kits",
+  "headline": "声明式网页音频合成库，轻松创建浏览器内音效与合成器",
+  "intro": "声明式网页音频合成库，轻松创建浏览器内音效与合成器",
+  "category": "🔊 声音",
+  "subcategory": "音乐生成",
+  "tags": [
+    "音频",
+    "生成",
+    "开源",
+    "免费",
+    "英文",
+    "API",
+    "CLI 工具",
+    "无需登录"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Audio Kits",
+    "🔊 声音",
+    "音乐生成",
+    "音频",
+    "生成",
+    "开源",
+    "免费",
+    "英文"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "library",
+    "TypeScript"
+  ],
+  "cover": "covers/arsenal-d56052493e7fb6.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 187,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：npm install @web-kits/audio",
+  "source": "xiaoer-tools-wall"
+}

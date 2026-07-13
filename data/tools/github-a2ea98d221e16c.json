@@ -1,0 +1,46 @@
+{
+  "id": "github-a2ea98d221e16c",
+  "url": "https://github.com/liyupi/ai-guide",
+  "name": "liyupi/ai-guide",
+  "headline": "程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享 OpenClaw 保姆级教程、大模型玩法（DeepSeek / GPT / Gemini / Claude / GLM）、最新 AI 资讯、Prompt 提示词大全、AI 知识百科（Agent Skills / RAG / MCP / A2A）、AI 编程教程（Harness Engineering）、AI 工具用法（Cursor / Claude Code / TRAE / Codex / Copilot）、AI 开发框架教程（Spring AI / LangChain）、AI 产品变现指南，帮你快速掌握 AI 技术",
+  "intro": "程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享 OpenClaw 保姆级教程、大模型玩法（DeepSeek / GPT / Gemini / Claude / GLM）、最新 AI 资讯、Prompt 提示词大全、AI 知识百科（Agent Skills / RAG / MCP / A2A）、AI 编程教程（Harness Engineering）、AI 工具用法（Cursor / Claude Code / TRAE / Codex / Copilot）、AI 开发框架教程（Spring AI / LangChain）、AI 产品变现指南，帮你快速掌握 AI 技术",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "ai",
+    "artificial-intelligence",
+    "chatgpt",
+    "claude",
+    "codex",
+    "cursor",
+    "deep-learning",
+    "deepseek"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "liyupi/ai-guide",
+    "JavaScript",
+    "ai",
+    "artificial-intelligence",
+    "chatgpt",
+    "claude",
+    "codex",
+    "cursor"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 17147"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-01-25T15:57:24Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

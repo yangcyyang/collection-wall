@@ -1,0 +1,180 @@
+---
+import "../styles/global.css";
+import { getTools } from "../lib/tools";
+import { selectFeaturedTools } from "../lib/tool-order.mjs";
+import { categoryCounts } from "../lib/tool-filter.mjs";
+
+const tools = await getTools();
+const categories = categoryCounts(tools);
+const frequentTools = selectFeaturedTools(
+  tools.filter((tool) => ["⭐ 高频", "📦 常用"].includes(tool.status ?? "")),
+);
+const recentTools = tools.filter((tool) => !frequentTools.includes(tool));
+const hasFrequentSection = frequentTools.length >= 3;
+const visibleTools = hasFrequentSection ? recentTools : tools;
+
+function statusClass(status?: string) {
+  if (status?.includes("高频")) return "frequent";
+  if (status?.includes("常用")) return "common";
+  if (status?.includes("偶尔")) return "occasional";
+  return "new";
+}
+
+function categoryIcon(category?: string) {
+  return category?.split(" ")[0] ?? "🧭";
+}
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="cy 的工具收藏墙" />
+    <title>收藏墙 · 工具库</title>
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="site-header">
+        <div>
+          <p class="eyebrow">个人工具库</p>
+          <h1>收藏墙</h1>
+          <p class="intro">把常用工具留在看得见的地方，随时回顾、随手打开。</p>
+        </div>
+        <p class="record-count">{tools.length} 条已收录</p>
+      </header>
+
+      <nav class="tabs" aria-label="站点栏目">
+        <a class="tab is-active" href="#collection-wall">收藏墙</a>
+        <span class="tab is-disabled">每日日报 · 即将开放</span>
+        <span class="tab is-disabled">知识总结 · 即将开放</span>
+      </nav>
+
+      {tools.length === 0 ? (
+        <section class="empty-state" aria-labelledby="empty-title">
+          <p class="empty-icon">✦</p>
+          <h2 id="empty-title">还没有收藏</h2>
+          <p>在 Chrome 收藏一个网站，等待同步后它会出现在这里。</p>
+          <button type="button" data-sync-notice>查看同步说明</button>
+        </section>
+      ) : (
+        <>
+          <section class="wall-layout" aria-label="收藏筛选与卡片区">
+            <aside class="category-sidebar" aria-label="按分类筛选">
+              <div class="sidebar-heading">
+                <p class="eyebrow">分类浏览</p>
+                <span>{categories.length} 类</span>
+              </div>
+              <div class="category-list">
+                <button class="category-button is-selected" type="button" data-category-filter="">
+                  <span>全部工具</span><em>{tools.length}</em>
+                </button>
+                {categories.map(({ category, count }) => <button class="category-button" type="button" data-category-filter={category}>
+                  <span>{category}</span><em>{count}</em>
+                </button>)}
+              </div>
+            </aside>
+
+            <div class="wall-content">
+              <div class="search-row">
+                <label class="search-box">
+                  <span class="search-icon" aria-hidden="true">⌕</span>
+                  <input type="search" data-tool-search placeholder="搜索名称、定位或标签" autocomplete="off" />
+                </label>
+                <p><strong data-match-count>{tools.length}</strong> 条匹配</p>
+              </div>
+              <p class="filter-empty" data-filter-empty hidden>没有找到匹配的工具，换个词或分类试试。</p>
+
+          {hasFrequentSection && (
+            <section id="collection-wall" class="tool-section" data-section="frequent" aria-labelledby="frequent-title">
+              <div class="section-heading">
+                <div>
+                  <p class="eyebrow">快速回到高频工具</p>
+                  <h2 id="frequent-title">常用精华</h2>
+                </div>
+                <p>{frequentTools.length} 条高频 / 常用</p>
+              </div>
+              <div class="tool-grid">
+                {frequentTools.map((tool) => <article class:list={["tool-card", { "is-failed": tool.capture_status === "failed" }]} data-tool data-category={tool.category} data-search={[tool.name, tool.headline, ...(tool.tags ?? [])].filter(Boolean).join(" ").toLowerCase()}>
+                  <div class="cover-wrap">
+                    {tool.cover ? <img src={`/${tool.cover}`} alt="" loading="lazy" /> : <div class="cover-fallback" aria-hidden="true">{categoryIcon(tool.category)}</div>}
+                  </div>
+                  <div class="card-content">
+                    <div class="card-meta"><span class="category">{tool.category}</span><span class:list={["status", statusClass(tool.status)]}>{tool.status}</span></div>
+                    <h3><a href={tool.url} target="_blank" rel="noreferrer">{tool.name}</a></h3>
+                    <p>{tool.headline || "尚待补充用途说明"}</p>
+                    <div class="tag-list">{(tool.tags ?? []).slice(0, 8).map((tag) => <span>{tag}</span>)}</div>
+                  </div>
+                </article>)}
+              </div>
+            </section>
+          )}
+
+          <section class="tool-section" data-section="recent" aria-labelledby="recent-title">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">按最近加入排序</p>
+                <h2 id="recent-title">{hasFrequentSection ? "最近收藏" : "全部收藏"}</h2>
+              </div>
+              <p>{visibleTools.length} 条</p>
+            </div>
+            <div class="tool-grid">
+              {visibleTools.map((tool) => <article class:list={["tool-card", { "is-failed": tool.capture_status === "failed" }]} data-tool data-category={tool.category} data-search={[tool.name, tool.headline, ...(tool.tags ?? [])].filter(Boolean).join(" ").toLowerCase()}>
+                <div class="cover-wrap">
+                  {tool.cover ? <img src={`/${tool.cover}`} alt="" loading="lazy" /> : <div class="cover-fallback" aria-hidden="true">{categoryIcon(tool.category)}</div>}
+                </div>
+                <div class="card-content">
+                  <div class="card-meta"><span class="category">{tool.category}</span><span class:list={["status", statusClass(tool.status)]}>{tool.status}</span></div>
+                  <h3><a href={tool.url} target="_blank" rel="noreferrer">{tool.name}</a></h3>
+                  <p>{tool.capture_status === "failed" ? "这条收藏暂时未抓取成功。" : tool.headline || "尚待补充用途说明"}</p>
+                  {tool.capture_status === "failed" ? <button type="button" class="retry-button" data-retry>重新同步</button> : <div class="tag-list">{(tool.tags ?? []).slice(0, 8).map((tag) => <span>{tag}</span>)}</div>}
+                </div>
+              </article>)}
+            </div>
+          </section>
+            </div>
+          </section>
+        </>
+      )}
+    </main>
+    <footer class="site-footer">
+      <p><strong>数据来源说明</strong>：部分数据源自 <a href="https://xiaoer-tools-wall.vercel.app/" target="_blank" rel="noreferrer">xiaoer's 私人弹药库</a>，在此致谢并保留原站链接。</p>
+    </footer>
+    <script>
+      const categoryButtons = document.querySelectorAll("[data-category-filter]");
+      const searchInput = document.querySelector("[data-tool-search]");
+      const cards = document.querySelectorAll("[data-tool]");
+      const sections = document.querySelectorAll("[data-section]");
+      const matchCount = document.querySelector("[data-match-count]");
+      const filterEmpty = document.querySelector("[data-filter-empty]");
+      let category = "";
+
+      function refreshCards() {
+        const query = searchInput?.value.trim().toLowerCase() ?? "";
+        let visibleCount = 0;
+        cards.forEach((card) => {
+          const matchesCategory = !category || card.dataset.category === category;
+          const matchesQuery = !query || (card.dataset.search ?? "").includes(query);
+          card.hidden = !(matchesCategory && matchesQuery);
+          if (!card.hidden) visibleCount += 1;
+        });
+        sections.forEach((section) => {
+          section.hidden = !section.querySelector("[data-tool]:not([hidden])");
+        });
+        if (matchCount) matchCount.textContent = String(visibleCount);
+        if (filterEmpty) filterEmpty.hidden = visibleCount > 0;
+      }
+
+      categoryButtons.forEach((button) => button.addEventListener("click", () => {
+        const nextCategory = button.dataset.categoryFilter ?? "";
+        category = category === nextCategory ? "" : nextCategory;
+        categoryButtons.forEach((item) => item.classList.toggle("is-selected", item === button));
+        if (!category) categoryButtons[0]?.classList.add("is-selected");
+        refreshCards();
+      }));
+      searchInput?.addEventListener("input", refreshCards);
+      document.querySelectorAll("[data-retry], [data-sync-notice]").forEach((button) => button.addEventListener("click", () => {
+        window.alert("首版为静态站，请在本地 watcher 完成一次同步后再刷新页面。");
+      }));
+    </script>
+  </body>
+</html>

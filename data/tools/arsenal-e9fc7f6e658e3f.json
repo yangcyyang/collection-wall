@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-e9fc7f6e658e3f",
+  "url": "https://paper.design/docs/svg",
+  "name": "Paper",
+  "headline": "在线 SVG 矢量图形编辑与生成工具,支持 AI 辅助设计",
+  "intro": "在线 SVG 矢量图形编辑与生成工具,支持 AI 辅助设计",
+  "category": "🎨 视觉创作",
+  "subcategory": "图像处理",
+  "tags": [
+    "SVG",
+    "矢量图",
+    "图像编辑",
+    "图像生成",
+    "AI生成",
+    "在线工具",
+    "设计",
+    "矢量绘图"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Paper",
+    "🎨 视觉创作",
+    "图像处理",
+    "SVG",
+    "矢量图",
+    "图像编辑",
+    "图像生成",
+    "AI生成"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-e9fc7f6e658e3f.jpg",
+  "status": "🆕 待试",
+  "visit_count": 1,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

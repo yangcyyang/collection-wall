@@ -1,0 +1,39 @@
+{
+  "id": "seed-08",
+  "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+  "name": "Awesome Selfhosted",
+  "headline": "开源自托管软件清单合集",
+  "intro": "GitHub 上按分类整理的自托管开源软件大合集，涵盖从笔记、CMS 到监控工具的各类可自部署方案，是找开源替代品的常用入口。",
+  "category": "📦 资源集合",
+  "subcategory": "Awesome 合集",
+  "tags": [
+    "开源",
+    "自托管",
+    "工具合集"
+  ],
+  "capabilities": [
+    "按分类查找自托管方案"
+  ],
+  "scenarios": [
+    "想找某类工具的开源替代时"
+  ],
+  "search_keywords": [
+    "awesome list",
+    "自托管",
+    "开源软件合集"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/seed-08.jpg",
+  "status": "🔍 偶尔",
+  "visit_count": 4,
+  "last_visited": "2026-06-28",
+  "added_at": "2026-05-01T08:00:00",
+  "my_notes": "",
+  "github_stars": 210000,
+  "source": "seed"
+}

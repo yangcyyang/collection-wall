@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-de0067882a1a69",
+  "url": "https://github.com/op7418/guizang-ppt-skill",
+  "name": "guizang-ppt-skill",
+  "headline": "AI Agent 驱动的网页 PPT 技能,生成杂志风或瑞士国际主义 HTML 演示文稿",
+  "intro": "AI Agent 驱动的网页 PPT 技能,生成杂志风或瑞士国际主义 HTML 演示文稿",
+  "category": "🎨 视觉创作",
+  "subcategory": "图像生成",
+  "tags": [
+    "AI生成",
+    "PPT",
+    "网页",
+    "模板",
+    "排版",
+    "开源",
+    "中文",
+    "在线工具"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "guizang-ppt-skill",
+    "🎨 视觉创作",
+    "图像生成",
+    "AI生成",
+    "PPT",
+    "网页",
+    "模板",
+    "排版"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "skill",
+    "HTML"
+  ],
+  "cover": "covers/arsenal-de0067882a1a69.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 136,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：npx skills add https://github.com/op7418/guizang-ppt-skill --skill guizang-ppt-skill",
+  "source": "xiaoer-tools-wall"
+}

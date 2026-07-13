@@ -1,0 +1,45 @@
+{
+  "id": "github-e311f3d8bf0413",
+  "url": "https://github.com/Hmbown/CodeWhale",
+  "name": "Hmbown/CodeWhale",
+  "headline": "Open-source, community-driven agent harness",
+  "intro": "Open-source, community-driven agent harness",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "cli",
+    "deepseek",
+    "llm",
+    "rust",
+    "terminal",
+    "tui",
+    "Rust"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Hmbown/CodeWhale",
+    "Rust",
+    "cli",
+    "deepseek",
+    "llm",
+    "rust",
+    "terminal",
+    "tui"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 39703"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-05-05T12:41:33Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

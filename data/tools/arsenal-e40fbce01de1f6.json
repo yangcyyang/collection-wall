@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-e40fbce01de1f6",
+  "url": "https://context.reverso.net",
+  "name": "Reverso Context",
+  "headline": "提供多语言语境翻译与词典查询的工具，帮助用户深入理解词汇和短语的地道用法。",
+  "intro": "提供多语言语境翻译与词典查询的工具，帮助用户深入理解词汇和短语的地道用法。",
+  "category": "✍️ 文字写作",
+  "subcategory": "翻译润色",
+  "tags": [
+    "翻译",
+    "词典",
+    "语境翻译",
+    "语言学习",
+    "双语",
+    "在线工具",
+    "桌面app",
+    "免费"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Reverso Context",
+    "✍️ 文字写作",
+    "翻译润色",
+    "翻译",
+    "词典",
+    "语境翻译",
+    "语言学习",
+    "双语"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-e40fbce01de1f6.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

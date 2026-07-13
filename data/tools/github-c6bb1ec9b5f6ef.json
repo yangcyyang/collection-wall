@@ -1,0 +1,33 @@
+{
+  "id": "github-c6bb1ec9b5f6ef",
+  "url": "https://github.com/jackwener/boss-cli",
+  "name": "jackwener/boss-cli",
+  "headline": "A CLI for BOSS 直聘 — search jobs, view recommendations, manage applications via reverse-engineered API",
+  "intro": "A CLI for BOSS 直聘 — search jobs, view recommendations, manage applications via reverse-engineered API",
+  "category": "🛠️ 办公与效率",
+  "subcategory": "",
+  "tags": [
+    "Python"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "jackwener/boss-cli",
+    "Python"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 831"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-05-14T09:53:13Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

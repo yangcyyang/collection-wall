@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-5b64cb9e5aabad",
+  "url": "https://matrix.tencent.com/ai-detect",
+  "name": "Zhuque AI 检测助手",
+  "headline": "专业AI生成内容检测工具，快速准确识别AIGC文本与图像",
+  "intro": "专业AI生成内容检测工具，快速准确识别AIGC文本与图像",
+  "category": "🤖 AI 大模型",
+  "subcategory": "多模态",
+  "tags": [
+    "文字",
+    "图像",
+    "视频",
+    "检测",
+    "免费",
+    "双语",
+    "在线工具",
+    "AI生成"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Zhuque AI 检测助手",
+    "🤖 AI 大模型",
+    "多模态",
+    "文字",
+    "图像",
+    "视频",
+    "检测",
+    "免费"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-5b64cb9e5aabad.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

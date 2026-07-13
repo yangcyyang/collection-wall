@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-453cb49f45b2d3",
+  "url": "https://huggingface.co/",
+  "name": "Hugging Face",
+  "headline": "AI/ML 模型、数据集与应用的全球协作平台，致力于开源AI社区的创新与民主化。",
+  "intro": "AI/ML 模型、数据集与应用的全球协作平台，致力于开源AI社区的创新与民主化。",
+  "category": "🤖 AI 大模型",
+  "subcategory": "多模态",
+  "tags": [
+    "AI生成",
+    "模型托管",
+    "数据集",
+    "AI应用",
+    "协作",
+    "开源",
+    "在线工具",
+    "API"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Hugging Face",
+    "🤖 AI 大模型",
+    "多模态",
+    "AI生成",
+    "模型托管",
+    "数据集",
+    "AI应用",
+    "协作"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-453cb49f45b2d3.jpg",
+  "status": "🆕 待试",
+  "visit_count": 2,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-e6b8b3472c774c",
+  "url": "https://www.aiarty.com/",
+  "name": "Aiarty",
+  "headline": "AI桌面图片视频增强与智能抠图工具，提升画质、视频去噪和背景移除。",
+  "intro": "AI桌面图片视频增强与智能抠图工具，提升画质、视频去噪和背景移除。",
+  "category": "🎨 视觉创作",
+  "subcategory": "图像处理",
+  "tags": [
+    "图像",
+    "视频",
+    "抠图",
+    "修图",
+    "增强",
+    "去噪",
+    "桌面app",
+    "AI生成"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Aiarty",
+    "🎨 视觉创作",
+    "图像处理",
+    "图像",
+    "视频",
+    "抠图",
+    "修图",
+    "增强"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-e6b8b3472c774c.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

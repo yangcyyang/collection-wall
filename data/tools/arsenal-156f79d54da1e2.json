@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-156f79d54da1e2",
+  "url": "https://gitpets.com/",
+  "name": "GitPets",
+  "headline": "GitHub 开源智能编程助手集合，发现并集成虚拟代码宠物到编辑器。",
+  "intro": "GitHub 开源智能编程助手集合，发现并集成虚拟代码宠物到编辑器。",
+  "category": "🎨 视觉创作",
+  "subcategory": "3D",
+  "tags": [
+    "代码",
+    "AI生成",
+    "编程",
+    "编辑器",
+    "GitHub",
+    "智能助手",
+    "开源",
+    "在线工具"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "GitPets",
+    "🎨 视觉创作",
+    "3D",
+    "代码",
+    "AI生成",
+    "编程",
+    "编辑器",
+    "GitHub"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-156f79d54da1e2.jpg",
+  "status": "🆕 待试",
+  "visit_count": 1,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "github-b54d5030bd7672",
+  "url": "https://github.com/addyosmani/bg-remove",
+  "name": "addyosmani/bg-remove",
+  "headline": "Free image background removal - private, client-side and powered by Transformers.js",
+  "intro": "Free image background removal - private, client-side and powered by Transformers.js",
+  "category": "🎨 视觉创作",
+  "subcategory": "",
+  "tags": [
+    "background-image",
+    "background-image-remover",
+    "background-remover",
+    "images",
+    "TypeScript"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "addyosmani/bg-remove",
+    "TypeScript",
+    "background-image",
+    "background-image-remover",
+    "background-remover",
+    "images"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 994"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-02-03T06:37:38Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

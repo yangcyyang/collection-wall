@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-5fd75a328d02df",
+  "url": "https://tldv.io/",
+  "name": "tl;dv",
+  "headline": "AI 驱动的会议记录与总结工具，支持 Zoom/Meet/Teams",
+  "intro": "AI 驱动的会议记录与总结工具，支持 Zoom/Meet/Teams",
+  "category": "🛠️ 办公与效率",
+  "subcategory": "其他效率",
+  "tags": [
+    "视频",
+    "文字",
+    "总结",
+    "转录",
+    "翻译",
+    "免费",
+    "浏览器扩展",
+    "AI生成"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "tl;dv",
+    "🛠️ 办公与效率",
+    "其他效率",
+    "视频",
+    "文字",
+    "总结",
+    "转录",
+    "翻译"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-5fd75a328d02df.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

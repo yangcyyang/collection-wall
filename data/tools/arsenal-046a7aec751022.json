@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-046a7aec751022",
+  "url": "https://github.com/megh-bari/pattern-craft",
+  "name": "Pattern Craft",
+  "headline": "100+ 现代 CSS 背景图案与渐变代码,轻松为网站和应用添加专业级背景",
+  "intro": "100+ 现代 CSS 背景图案与渐变代码,轻松为网站和应用添加专业级背景",
+  "category": "🌟 灵感与审美",
+  "subcategory": "配色",
+  "tags": [
+    "代码",
+    "网页",
+    "开源",
+    "免费",
+    "在线工具",
+    "模板",
+    "CSS",
+    "Tailwind"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Pattern Craft",
+    "🌟 灵感与审美",
+    "配色",
+    "代码",
+    "网页",
+    "开源",
+    "免费",
+    "在线工具"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "app",
+    "TypeScript"
+  ],
+  "cover": "covers/arsenal-046a7aec751022.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 184,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：git clone https://github.com/megh-bari/pattern-craft.git && cd pattern-craft && npm install && npm run dev",
+  "source": "xiaoer-tools-wall"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-16b8c316652c9f",
+  "url": "https://www.perplexity.ai",
+  "name": "Perplexity AI",
+  "headline": "AI驱动的对话式搜索引擎，提供带引用的实时答案",
+  "intro": "AI驱动的对话式搜索引擎，提供带引用的实时答案",
+  "category": "🤖 AI 大模型",
+  "subcategory": "大模型对话",
+  "tags": [
+    "AI搜索引擎",
+    "对话式AI",
+    "研究助手",
+    "实时信息",
+    "引用来源",
+    "大型语言模型",
+    "知识发现",
+    "智能问答"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Perplexity AI",
+    "🤖 AI 大模型",
+    "大模型对话",
+    "AI搜索引擎",
+    "对话式AI",
+    "研究助手",
+    "实时信息",
+    "引用来源"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-16b8c316652c9f.jpg",
+  "status": "📦 常用",
+  "visit_count": 27,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

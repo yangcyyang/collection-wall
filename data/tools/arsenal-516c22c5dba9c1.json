@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-516c22c5dba9c1",
+  "url": "https://chatgpt.com",
+  "name": "ChatGPT",
+  "headline": "智能对话AI聊天机器人，支持文本生成与图像创作",
+  "intro": "智能对话AI聊天机器人，支持文本生成与图像创作",
+  "category": "🤖 AI 大模型",
+  "subcategory": "大模型对话",
+  "tags": [
+    "文字",
+    "图像",
+    "生成",
+    "对话",
+    "总结",
+    "免费",
+    "在线工具",
+    "AI生成"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "ChatGPT",
+    "🤖 AI 大模型",
+    "大模型对话",
+    "文字",
+    "图像",
+    "生成",
+    "对话",
+    "总结"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-516c22c5dba9c1.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

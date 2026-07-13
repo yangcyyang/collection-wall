@@ -1,0 +1,46 @@
+{
+  "id": "github-9915c1c5f4cec4",
+  "url": "https://github.com/icip-cas/PPTAgent",
+  "name": "icip-cas/PPTAgent",
+  "headline": "An Agentic Framework for Reflective PowerPoint Generation",
+  "intro": "An Agentic Framework for Reflective PowerPoint Generation",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "agent",
+    "agentic-ai",
+    "llm",
+    "mcp",
+    "openclaw",
+    "presentation",
+    "slide",
+    "Python"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "icip-cas/PPTAgent",
+    "Python",
+    "agent",
+    "agentic-ai",
+    "llm",
+    "mcp",
+    "openclaw",
+    "presentation"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 4800"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-06-07T14:37:07Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

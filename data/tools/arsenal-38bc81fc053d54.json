@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-38bc81fc053d54",
+  "url": "https://akira.sachi.dev/",
+  "name": "Akira",
+  "headline": "现代 Next.js 全栈应用模板，内置认证与支付功能",
+  "intro": "现代 Next.js 全栈应用模板，内置认证与支付功能",
+  "category": "🌐 网页与代码",
+  "subcategory": "开发工具",
+  "tags": [
+    "网页",
+    "代码",
+    "部署",
+    "生成",
+    "模板",
+    "付费",
+    "开源",
+    "英文"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Akira",
+    "🌐 网页与代码",
+    "开发工具",
+    "网页",
+    "代码",
+    "部署",
+    "生成",
+    "模板"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-38bc81fc053d54.jpg",
+  "status": "🆕 待试",
+  "visit_count": 1,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

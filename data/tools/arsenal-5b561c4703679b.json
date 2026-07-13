@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-5b561c4703679b",
+  "url": "https://aws.amazon.com/pm/q-developer",
+  "name": "Amazon Q Developer",
+  "headline": "AWS 智能代码助手，用生成式 AI 提升开发者生产力",
+  "intro": "AWS 智能代码助手，用生成式 AI 提升开发者生产力",
+  "category": "🌐 网页与代码",
+  "subcategory": "AI 编程助手",
+  "tags": [
+    "AI生成",
+    "代码",
+    "网页",
+    "生成",
+    "搜索",
+    "部署",
+    "在线工具",
+    "SaaS"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Amazon Q Developer",
+    "🌐 网页与代码",
+    "AI 编程助手",
+    "AI生成",
+    "代码",
+    "网页",
+    "生成",
+    "搜索"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-5b561c4703679b.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

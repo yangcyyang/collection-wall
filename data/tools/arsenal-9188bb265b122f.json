@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-9188bb265b122f",
+  "url": "https://github.com/fogsightai/fogsight",
+  "name": "Fogsight",
+  "headline": "LLM驱动的AI动画生成引擎，可将概念转为高水平动画",
+  "intro": "LLM驱动的AI动画生成引擎，可将概念转为高水平动画",
+  "category": "🎨 视觉创作",
+  "subcategory": "视频生成",
+  "tags": [
+    "AI生成",
+    "动画",
+    "视频",
+    "生成",
+    "开源",
+    "在线工具",
+    "中文",
+    "英文"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Fogsight",
+    "🎨 视觉创作",
+    "视频生成",
+    "AI生成",
+    "动画",
+    "视频",
+    "生成",
+    "开源"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "agent",
+    "JavaScript"
+  ],
+  "cover": "covers/arsenal-9188bb265b122f.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 134,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：git clone https://github.com/fogsightai/fogsight.git && cd fogsight && pip install -r requirements.txt && python start_fogsight.py",
+  "source": "xiaoer-tools-wall"
+}

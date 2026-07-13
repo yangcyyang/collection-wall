@@ -1,0 +1,45 @@
+{
+  "id": "github-b92602274d6abd",
+  "url": "https://github.com/phuryn/pm-skills",
+  "name": "phuryn/pm-skills",
+  "headline": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+  "intro": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "agent-skill-repository",
+    "agent-skills",
+    "agentic-skills",
+    "claude-code-marketplace",
+    "claude-code-plugins",
+    "claude-cowork-plugin",
+    "product-management"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "phuryn/pm-skills",
+    "agent-skill-repository",
+    "agent-skills",
+    "agentic-skills",
+    "claude-code-marketplace",
+    "claude-code-plugins",
+    "claude-cowork-plugin",
+    "product-management"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 23523"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-06-10T14:11:40Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

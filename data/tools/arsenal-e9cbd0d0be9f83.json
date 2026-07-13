@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-e9cbd0d0be9f83",
+  "url": "https://brm.io/matter-js/",
+  "name": "Matter.js",
+  "headline": "为网页提供 2D 刚体物理引擎，用 JavaScript 实现逼真交互动画",
+  "intro": "为网页提供 2D 刚体物理引擎，用 JavaScript 实现逼真交互动画",
+  "category": "🌐 网页与代码",
+  "subcategory": "开发工具",
+  "tags": [
+    "代码",
+    "网页",
+    "生成",
+    "编辑",
+    "开源",
+    "免费",
+    "英文",
+    "API"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Matter.js",
+    "🌐 网页与代码",
+    "开发工具",
+    "代码",
+    "网页",
+    "生成",
+    "编辑",
+    "开源"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-e9cbd0d0be9f83.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-06949f46af0a7f",
+  "url": "https://www.tunee.ai/",
+  "name": "Tunee",
+  "headline": "AI音乐智能体，通过自然对话创作音乐和音乐视频",
+  "intro": "AI音乐智能体，通过自然对话创作音乐和音乐视频",
+  "category": "🔊 声音",
+  "subcategory": "音乐生成",
+  "tags": [
+    "AI音乐生成",
+    "对话式AI",
+    "音乐创作",
+    "音乐视频",
+    "免版税音乐",
+    "音轨分离",
+    "智能作曲",
+    "多模态输入"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Tunee",
+    "🔊 声音",
+    "音乐生成",
+    "AI音乐生成",
+    "对话式AI",
+    "音乐创作",
+    "音乐视频",
+    "免版税音乐"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-06949f46af0a7f.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

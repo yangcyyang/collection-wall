@@ -1,0 +1,42 @@
+{
+  "id": "seed-05",
+  "url": "https://coolors.co/",
+  "name": "Coolors",
+  "headline": "快速生成与探索配色方案的工具",
+  "intro": "按空格键随机生成配色方案，支持锁定喜欢的颜色继续生成，也可从图片提取配色，是配色阶段的常用小工具。",
+  "category": "🌟 灵感与审美",
+  "subcategory": "配色 / 渐变",
+  "tags": [
+    "配色",
+    "调色板",
+    "取色"
+  ],
+  "capabilities": [
+    "随机生成配色",
+    "从图片提取色板",
+    "导出色值"
+  ],
+  "scenarios": [
+    "定视觉规范配色时"
+  ],
+  "search_keywords": [
+    "配色工具",
+    "coolors",
+    "调色板生成"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [
+      "Adobe Color"
+    ],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/seed-05.jpg",
+  "status": "🆕 待试",
+  "visit_count": 1,
+  "last_visited": "2026-07-05",
+  "added_at": "2026-07-05T11:20:00",
+  "my_notes": "",
+  "source": "seed"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "arsenal-36eaa05ddb08de",
+  "url": "https://github.com/dososo/chinese-traditional-patterns",
+  "name": "Wenyang",
+  "headline": "开源中国传统纹样图录项目，提供高清图片与结构化设计资源",
+  "intro": "开源中国传统纹样图录项目，提供高清图片与结构化设计资源",
+  "category": "🌟 灵感与审美",
+  "subcategory": "设计灵感",
+  "tags": [
+    "图像",
+    "设计资源",
+    "素材集",
+    "开源",
+    "免费",
+    "双语",
+    "数据集",
+    "在线工具"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Wenyang",
+    "🌟 灵感与审美",
+    "设计灵感",
+    "图像",
+    "设计资源",
+    "素材集",
+    "开源",
+    "免费"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "dataset"
+  ],
+  "cover": "covers/arsenal-36eaa05ddb08de.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 228,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：直接浏览仓库文件或访问 wenyang.net；数据可通过 fetch/urllib.request 接口获取。",
+  "source": "xiaoer-tools-wall"
+}

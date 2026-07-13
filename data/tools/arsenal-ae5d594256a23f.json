@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-ae5d594256a23f",
+  "url": "https://www.usebruno.com/",
+  "name": "Bruno",
+  "headline": "Git-native 开源 API 客户端,支持 REST/GraphQL/gRPC/Websocket,本地优先的开发者工具",
+  "intro": "Git-native 开源 API 客户端,支持 REST/GraphQL/gRPC/Websocket,本地优先的开发者工具",
+  "category": "🛠️ 办公与效率",
+  "subcategory": "其他效率",
+  "tags": [
+    "代码",
+    "网页",
+    "检测",
+    "编辑",
+    "免费",
+    "开源",
+    "桌面app",
+    "英文"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Bruno",
+    "🛠️ 办公与效率",
+    "其他效率",
+    "代码",
+    "网页",
+    "检测",
+    "编辑",
+    "免费"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-ae5d594256a23f.jpg",
+  "status": "🆕 待试",
+  "visit_count": 1,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

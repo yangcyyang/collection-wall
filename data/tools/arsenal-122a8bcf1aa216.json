@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-122a8bcf1aa216",
+  "url": "https://material.io/design",
+  "name": "Material Design",
+  "headline": "Google开源设计系统，提供UI/UX指南、组件和工具，构建美观产品。",
+  "intro": "Google开源设计系统，提供UI/UX指南、组件和工具，构建美观产品。",
+  "category": "🌐 网页与代码",
+  "subcategory": "组件",
+  "tags": [
+    "设计系统",
+    "UI设计",
+    "UX设计",
+    "组件库",
+    "设计规范",
+    "开源",
+    "在线工具",
+    "指南"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Material Design",
+    "🌐 网页与代码",
+    "组件",
+    "设计系统",
+    "UI设计",
+    "UX设计",
+    "组件库",
+    "设计规范"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-122a8bcf1aa216.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

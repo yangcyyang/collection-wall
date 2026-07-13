@@ -1,0 +1,46 @@
+{
+  "id": "arsenal-bd53d100349d45",
+  "url": "https://github.com/elder-plinius/CL4R1T4S",
+  "name": "CL4R1T4S",
+  "headline": "泄露的大模型系统提示词集合，揭示AI内部运作与偏见",
+  "intro": "泄露的大模型系统提示词集合，揭示AI内部运作与偏见",
+  "category": "🤖 AI 大模型",
+  "subcategory": "提示词工程",
+  "tags": [
+    "开源",
+    "资源集合",
+    "系统提示词",
+    "大模型",
+    "信息泄露",
+    "AI透明度",
+    "提示工程",
+    "红队"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "CL4R1T4S",
+    "🤖 AI 大模型",
+    "提示词工程",
+    "开源",
+    "资源集合",
+    "系统提示词",
+    "大模型",
+    "信息泄露"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "dataset"
+  ],
+  "cover": "covers/arsenal-bd53d100349d45.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 134,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：直接浏览GitHub仓库文件，无需安装任何软件",
+  "source": "xiaoer-tools-wall"
+}

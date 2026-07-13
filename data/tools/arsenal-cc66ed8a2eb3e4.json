@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-cc66ed8a2eb3e4",
+  "url": "https://github.com/jasonkneen/tiny-world-builder",
+  "name": "tiny-world-builder",
+  "headline": "在线体素沙盒世界建造工具，支持Minecraft风格的场景搭建",
+  "intro": "在线体素沙盒世界建造工具，支持Minecraft风格的场景搭建",
+  "category": "🌐 网页与代码",
+  "subcategory": "开发工具",
+  "tags": [
+    "3D",
+    "网页",
+    "生成",
+    "编辑",
+    "开源",
+    "免费",
+    "在线工具",
+    "无需登录"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "tiny-world-builder",
+    "🌐 网页与代码",
+    "开发工具",
+    "3D",
+    "网页",
+    "生成",
+    "编辑",
+    "开源"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "app",
+    "HTML"
+  ],
+  "cover": "covers/arsenal-cc66ed8a2eb3e4.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 141,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：直接在浏览器中打开 tiny-world-builder.html, 或通过 \\`python3 -m http.server 8000\\` 启动本地服务器访问",
+  "source": "xiaoer-tools-wall"
+}

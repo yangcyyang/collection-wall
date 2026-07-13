@@ -1,0 +1,46 @@
+{
+  "id": "github-bdc8355520d1d5",
+  "url": "https://github.com/mack-a/v2ray-agent",
+  "name": "mack-a/v2ray-agent",
+  "headline": "Xray、Tuic、hysteria2、sing-box 八合一一键脚本",
+  "intro": "Xray、Tuic、hysteria2、sing-box 八合一一键脚本",
+  "category": "🛠️ 办公与效率",
+  "subcategory": "",
+  "tags": [
+    "cloudflare",
+    "grpc-cloudflare",
+    "httpupgrade",
+    "hysteria2",
+    "nginx",
+    "reality",
+    "reality-grpc",
+    "shell"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "mack-a/v2ray-agent",
+    "Shell",
+    "cloudflare",
+    "grpc-cloudflare",
+    "httpupgrade",
+    "hysteria2",
+    "nginx",
+    "reality"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 21472"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-04-27T16:20:24Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

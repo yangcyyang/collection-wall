@@ -1,0 +1,41 @@
+{
+  "id": "github-9e6da24e26fa6a",
+  "url": "https://github.com/jindrapetrik/jpexs-decompiler",
+  "name": "jindrapetrik/jpexs-decompiler",
+  "headline": "JPEXS Free Flash Decompiler",
+  "intro": "JPEXS Free Flash Decompiler",
+  "category": "🌐 网页与代码",
+  "subcategory": "",
+  "tags": [
+    "decompiler",
+    "editor",
+    "flash",
+    "swf",
+    "Java"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "jindrapetrik/jpexs-decompiler",
+    "Java",
+    "decompiler",
+    "editor",
+    "flash",
+    "swf"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 5747"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2024-11-07T08:02:36Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

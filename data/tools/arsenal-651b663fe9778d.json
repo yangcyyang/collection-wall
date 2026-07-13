@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-651b663fe9778d",
+  "url": "https://skillsmp.com/",
+  "name": "SkillsMP",
+  "headline": "开源 AI 代理技能市场，兼容 Claude Code, Codex CLI 与 ChatGPT",
+  "intro": "开源 AI 代理技能市场，兼容 Claude Code, Codex CLI 与 ChatGPT",
+  "category": "🤖 AI 大模型",
+  "subcategory": "多模态",
+  "tags": [
+    "代码",
+    "搜索",
+    "开源",
+    "在线工具",
+    "API",
+    "AI生成",
+    "GitHub",
+    "英文"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "SkillsMP",
+    "🤖 AI 大模型",
+    "多模态",
+    "代码",
+    "搜索",
+    "开源",
+    "在线工具",
+    "API"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-651b663fe9778d.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

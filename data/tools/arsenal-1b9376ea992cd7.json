@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-1b9376ea992cd7",
+  "url": "https://github.com/Piebald-AI/claude-code-system-prompts",
+  "name": "Claude Code System Prompts",
+  "headline": "Anthropic Claude Code AI开发助手系统提示词集合，深度揭示Agent核心配置",
+  "intro": "Anthropic Claude Code AI开发助手系统提示词集合，深度揭示Agent核心配置",
+  "category": "🤖 AI 大模型",
+  "subcategory": "多模态",
+  "tags": [
+    "代码",
+    "生成",
+    "开源",
+    "英文",
+    "在线工具",
+    "Awesome合集",
+    "AI生成",
+    "Agent"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Claude Code System Prompts",
+    "🤖 AI 大模型",
+    "多模态",
+    "代码",
+    "生成",
+    "开源",
+    "英文",
+    "在线工具"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "dataset",
+    "JavaScript"
+  ],
+  "cover": "covers/arsenal-1b9376ea992cd7.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 220,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：直接浏览此 GitHub 仓库，或 \\`git clone\\` 下载提示词文件以供参考和使用。",
+  "source": "xiaoer-tools-wall"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-55595af108e270",
+  "url": "https://fireflies.ai",
+  "name": "Fireflies.ai",
+  "headline": "AI会议助手，自动转录、总结、搜索和分析团队对话，提升会议效率。",
+  "intro": "AI会议助手，自动转录、总结、搜索和分析团队对话，提升会议效率。",
+  "category": "🛠️ 办公与效率",
+  "subcategory": "其他效率",
+  "tags": [
+    "文字",
+    "音频",
+    "总结",
+    "搜索",
+    "转录",
+    "AI生成",
+    "在线工具",
+    "桌面app"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Fireflies.ai",
+    "🛠️ 办公与效率",
+    "其他效率",
+    "文字",
+    "音频",
+    "总结",
+    "搜索",
+    "转录"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-55595af108e270.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

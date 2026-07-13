@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-4c46f252a729b9",
+  "url": "https://trae.ai",
+  "name": "TRAE",
+  "headline": "AI 驱动的协作式代码生成工具,助力开发者更快交付项目。",
+  "intro": "AI 驱动的协作式代码生成工具,助力开发者更快交付项目。",
+  "category": "🌐 网页与代码",
+  "subcategory": "AI 编程助手",
+  "tags": [
+    "代码",
+    "网页",
+    "生成",
+    "AI生成",
+    "桌面app",
+    "在线工具",
+    "移动app",
+    "协作"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "TRAE",
+    "🌐 网页与代码",
+    "AI 编程助手",
+    "代码",
+    "网页",
+    "生成",
+    "AI生成",
+    "桌面app"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-4c46f252a729b9.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-32200fe21588d7",
+  "url": "https://martini.story-flow.art/",
+  "name": "Martini",
+  "headline": "AI创意画布,整合Sora/Runway等多模型,实现视频、图像与音频生成和团队协作",
+  "intro": "AI创意画布,整合Sora/Runway等多模型,实现视频、图像与音频生成和团队协作",
+  "category": "🎨 视觉创作",
+  "subcategory": "图像生成",
+  "tags": [
+    "图像",
+    "视频",
+    "音频",
+    "生成",
+    "编辑",
+    "协作",
+    "免费",
+    "付费"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Martini",
+    "🎨 视觉创作",
+    "图像生成",
+    "图像",
+    "视频",
+    "音频",
+    "生成",
+    "编辑"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-32200fe21588d7.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

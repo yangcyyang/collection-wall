@@ -1,0 +1,46 @@
+{
+  "id": "github-94ad5f4592f78c",
+  "url": "https://github.com/FFmpeg/FFmpeg",
+  "name": "FFmpeg/FFmpeg",
+  "headline": "Mirror of https://git.ffmpeg.org/ffmpeg.git",
+  "intro": "Mirror of https://git.ffmpeg.org/ffmpeg.git",
+  "category": "🎨 视觉创作",
+  "subcategory": "",
+  "tags": [
+    "audio",
+    "c",
+    "ffmpeg",
+    "fft",
+    "hevc",
+    "hls",
+    "matroska",
+    "mp4"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "FFmpeg/FFmpeg",
+    "C",
+    "audio",
+    "c",
+    "ffmpeg",
+    "fft",
+    "hevc",
+    "hls"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 61972"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2025-11-17T05:33:33Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

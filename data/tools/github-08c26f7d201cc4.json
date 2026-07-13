@@ -1,0 +1,46 @@
+{
+  "id": "github-08c26f7d201cc4",
+  "url": "https://github.com/Priivacy-ai/spec-kitty",
+  "name": "Priivacy-ai/spec-kitty",
+  "headline": "Spec-Driven Development for serious software developers. Spec Coding with with Claude, Cursor, Gemini, Codex. Kanban dashboard, git worktrees, auto-merge and more.",
+  "intro": "Spec-Driven Development for serious software developers. Spec Coding with with Claude, Cursor, Gemini, Codex. Kanban dashboard, git worktrees, auto-merge and more.",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "agentic-coding",
+    "ai-agents",
+    "ai-coding-workflow",
+    "ai-development-dashboard",
+    "ai-progress-tracking",
+    "ai-workflow",
+    "claude-code",
+    "code-workflow"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Priivacy-ai/spec-kitty",
+    "Python",
+    "agentic-coding",
+    "ai-agents",
+    "ai-coding-workflow",
+    "ai-development-dashboard",
+    "ai-progress-tracking",
+    "ai-workflow"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 1406"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-04T07:59:35Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

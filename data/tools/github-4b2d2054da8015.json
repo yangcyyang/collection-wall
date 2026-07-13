@@ -1,0 +1,33 @@
+{
+  "id": "github-4b2d2054da8015",
+  "url": "https://github.com/jackwener/wechat-article-to-markdown",
+  "name": "jackwener/wechat-article-to-markdown",
+  "headline": "微信公众号文章抓取 & Markdown 转换工具",
+  "intro": "微信公众号文章抓取 & Markdown 转换工具",
+  "category": "🌐 网页与代码",
+  "subcategory": "",
+  "tags": [
+    "Python"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "jackwener/wechat-article-to-markdown",
+    "Python"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 939"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-05-14T09:53:17Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

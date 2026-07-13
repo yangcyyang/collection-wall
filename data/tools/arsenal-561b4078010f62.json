@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-561b4078010f62",
+  "url": "https://github.com/features/copilot",
+  "name": "GitHub Copilot",
+  "headline": "AI驱动的代码助手，在IDE和终端中智能生成、补全代码，加速开发者工作流。",
+  "intro": "AI驱动的代码助手，在IDE和终端中智能生成、补全代码，加速开发者工作流。",
+  "category": "🌐 网页与代码",
+  "subcategory": "AI 编程助手",
+  "tags": [
+    "AI生成",
+    "代码",
+    "生成",
+    "补全",
+    "编辑",
+    "总结",
+    "付费",
+    "试用"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "GitHub Copilot",
+    "🌐 网页与代码",
+    "AI 编程助手",
+    "AI生成",
+    "代码",
+    "生成",
+    "补全",
+    "编辑"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-561b4078010f62.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 134,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-ad904a51b17698",
+  "url": "https://github.com/google/skills",
+  "name": "Google Skills Agent",
+  "headline": "为 Google 产品和技术提供 AI 智能体能力，实现自动化任务与集成。",
+  "intro": "为 Google 产品和技术提供 AI 智能体能力，实现自动化任务与集成。",
+  "category": "🌐 网页与代码",
+  "subcategory": "开发工具",
+  "tags": [
+    "开源",
+    "AI生成",
+    "代码",
+    "API",
+    "自动化",
+    "英文",
+    "免费",
+    "Python"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Google Skills Agent",
+    "🌐 网页与代码",
+    "开发工具",
+    "开源",
+    "AI生成",
+    "代码",
+    "API",
+    "自动化"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "agent",
+    "Python"
+  ],
+  "cover": "covers/arsenal-ad904a51b17698.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 217,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：克隆仓库后，根据官方文档指引安装依赖并集成到 Agent 项目中。",
+  "source": "xiaoer-tools-wall"
+}

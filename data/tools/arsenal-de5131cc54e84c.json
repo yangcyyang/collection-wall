@@ -1,0 +1,43 @@
+{
+  "id": "arsenal-de5131cc54e84c",
+  "url": "https://www.suno.ai",
+  "name": "Suno",
+  "headline": "AI 音乐生成器，将你的想象力转化为歌曲，支持文本转音乐。",
+  "intro": "AI 音乐生成器，将你的想象力转化为歌曲，支持文本转音乐。",
+  "category": "🔊 声音",
+  "subcategory": "音乐生成",
+  "tags": [
+    "音频",
+    "生成",
+    "AI生成",
+    "在线工具",
+    "免费",
+    "英文",
+    "编辑"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Suno",
+    "🔊 声音",
+    "音乐生成",
+    "音频",
+    "生成",
+    "AI生成",
+    "在线工具",
+    "免费"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-de5131cc54e84c.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

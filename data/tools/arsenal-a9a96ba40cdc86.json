@@ -1,0 +1,46 @@
+{
+  "id": "arsenal-a9a96ba40cdc86",
+  "url": "https://github.com/zanwei/design-dna",
+  "name": "design-dna",
+  "headline": "将参考 UI 转为设计 DNA，提取设计代币与视觉风格，实现智能 UI 生成。",
+  "intro": "将参考 UI 转为设计 DNA，提取设计代币与视觉风格，实现智能 UI 生成。",
+  "category": "🌐 网页与代码",
+  "subcategory": "开发工具",
+  "tags": [
+    "AI生成",
+    "UI设计",
+    "设计系统",
+    "设计代币",
+    "代码生成",
+    "开源",
+    "命令行工具",
+    "双语"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "design-dna",
+    "🌐 网页与代码",
+    "开发工具",
+    "AI生成",
+    "UI设计",
+    "设计系统",
+    "设计代币",
+    "代码生成"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "skill"
+  ],
+  "cover": "covers/arsenal-a9a96ba40cdc86.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 235,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：通过 npx skills 命令安装为代理技能：\\`npx skills add zanwei/design-dna\\`。",
+  "source": "xiaoer-tools-wall"
+}

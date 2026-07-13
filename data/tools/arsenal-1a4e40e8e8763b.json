@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-1a4e40e8e8763b",
+  "url": "https://github.com/alchaincyf/huashu-design",
+  "name": "Huashu Design",
+  "headline": "基于 AI Agent 的 HTML 原生设计技能,生成高保真原型、动画与幻灯片",
+  "intro": "基于 AI Agent 的 HTML 原生设计技能,生成高保真原型、动画与幻灯片",
+  "category": "🌐 网页与代码",
+  "subcategory": "开发工具",
+  "tags": [
+    "图像",
+    "视频",
+    "网页",
+    "PPT",
+    "生成",
+    "AI生成",
+    "开源",
+    "双语"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Huashu Design",
+    "🌐 网页与代码",
+    "开发工具",
+    "图像",
+    "视频",
+    "网页",
+    "PPT",
+    "生成"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "skill",
+    "HTML"
+  ],
+  "cover": "covers/arsenal-1a4e40e8e8763b.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 134,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：npx skills add alchaincyf/huashu-design",
+  "source": "xiaoer-tools-wall"
+}

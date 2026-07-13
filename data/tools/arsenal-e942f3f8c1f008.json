@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-e942f3f8c1f008",
+  "url": "https://github.com/benchflow-ai/awesome-evals",
+  "name": "awesome-evals",
+  "headline": "AI Agent评估资源精选合集，涵盖论文、工具与基准测试",
+  "intro": "AI Agent评估资源精选合集，涵盖论文、工具与基准测试",
+  "category": "🤖 AI 大模型",
+  "subcategory": "多模态",
+  "tags": [
+    "Awesome合集",
+    "Agent",
+    "AI生成",
+    "评估",
+    "基准测试",
+    "开源",
+    "英文",
+    "在线工具"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "awesome-evals",
+    "🤖 AI 大模型",
+    "多模态",
+    "Awesome合集",
+    "Agent",
+    "AI生成",
+    "评估",
+    "基准测试"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "awesome 合集",
+    "Markdown"
+  ],
+  "cover": "covers/arsenal-e942f3f8c1f008.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 244,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：直接浏览，无需安装或运行代码",
+  "source": "xiaoer-tools-wall"
+}

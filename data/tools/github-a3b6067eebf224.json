@@ -1,0 +1,46 @@
+{
+  "id": "github-a3b6067eebf224",
+  "url": "https://github.com/shadcn-ui/ui",
+  "name": "shadcn-ui/ui",
+  "headline": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
+  "intro": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
+  "category": "🎨 视觉创作",
+  "subcategory": "",
+  "tags": [
+    "base-ui",
+    "components",
+    "laravel",
+    "nextjs",
+    "radix-ui",
+    "react",
+    "shadcn",
+    "tailwindcss"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "shadcn-ui/ui",
+    "TypeScript",
+    "base-ui",
+    "components",
+    "laravel",
+    "nextjs",
+    "radix-ui",
+    "react"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 118875"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-05-23T13:31:38Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

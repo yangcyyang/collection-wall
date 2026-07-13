@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-c7f5d122518b05",
+  "url": "https://imgur.com",
+  "name": "Imgur",
+  "headline": "热门图片与梗图分享平台，发现全球有趣视觉内容",
+  "intro": "热门图片与梗图分享平台，发现全球有趣视觉内容",
+  "category": "🎮 兴趣娱乐",
+  "subcategory": "趣味",
+  "tags": [
+    "图像",
+    "视频",
+    "分享",
+    "搜索",
+    "免费",
+    "在线工具",
+    "社区",
+    "梗图"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Imgur",
+    "🎮 兴趣娱乐",
+    "趣味",
+    "图像",
+    "视频",
+    "分享",
+    "搜索",
+    "免费"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-c7f5d122518b05.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

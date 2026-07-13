@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-75607550ec2a94",
+  "url": "https://www.runninghub.cn/",
+  "name": "RunningHub",
+  "headline": "云端ComfyUI智能创作平台，赋能AIGC应用与工作流",
+  "intro": "云端ComfyUI智能创作平台，赋能AIGC应用与工作流",
+  "category": "🎨 视觉创作",
+  "subcategory": "图像生成",
+  "tags": [
+    "AIGC",
+    "ComfyUI",
+    "云端",
+    "AI绘画",
+    "AI视频",
+    "工作流",
+    "模型",
+    "GPU算力"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "RunningHub",
+    "🎨 视觉创作",
+    "图像生成",
+    "AIGC",
+    "ComfyUI",
+    "云端",
+    "AI绘画",
+    "AI视频"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-75607550ec2a94.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

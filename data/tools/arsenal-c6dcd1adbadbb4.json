@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-c6dcd1adbadbb4",
+  "url": "https://github.com/mattzh72/articraft",
+  "name": "Articraft",
+  "headline": "Agentic 系统,利用 LLM 程序化生成可扩展的可动 3D 资产",
+  "intro": "Agentic 系统,利用 LLM 程序化生成可扩展的可动 3D 资产",
+  "category": "🤖 AI 大模型",
+  "subcategory": "多模态",
+  "tags": [
+    "3D",
+    "生成",
+    "开源",
+    "英文",
+    "AI生成",
+    "桌面app",
+    "代码",
+    "API"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Articraft",
+    "🤖 AI 大模型",
+    "多模态",
+    "3D",
+    "生成",
+    "开源",
+    "英文",
+    "AI生成"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "agent",
+    "Python"
+  ],
+  "cover": "covers/arsenal-c6dcd1adbadbb4.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 152,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：首先安装 uv 和 just。在仓库根目录运行 \\`just setup\\`。然后配置 OpenAI/Gemini/Anthropic 等 API 密钥。使用 \\`uv run articraft generate\\` 命令通过提示词生成 3D 资产。",
+  "source": "xiaoer-tools-wall"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "arsenal-a746ed5815f11f",
+  "url": "https://github.com/NathanUA/U-2-Net",
+  "name": "U-2-Net",
+  "headline": "基于深度学习的图像分割与显著目标检测模型，用于高质量背景移除",
+  "intro": "基于深度学习的图像分割与显著目标检测模型，用于高质量背景移除",
+  "category": "🛠️ 办公与效率",
+  "subcategory": "笔记",
+  "tags": [
+    "图像",
+    "抠图",
+    "背景移除",
+    "检测",
+    "生成",
+    "AI生成",
+    "开源"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "U-2-Net",
+    "🛠️ 办公与效率",
+    "笔记",
+    "图像",
+    "抠图",
+    "背景移除",
+    "检测",
+    "生成"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "library",
+    "Python"
+  ],
+  "cover": "covers/arsenal-a746ed5815f11f.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 134,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：git clone https://github.com/NathanUA/U-2-Net.git && pip install -r U-2-Net/requirements.txt",
+  "source": "xiaoer-tools-wall"
+}

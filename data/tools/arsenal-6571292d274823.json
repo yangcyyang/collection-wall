@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-6571292d274823",
+  "url": "https://www.osirisai.live/?lat=43.7802&lon=47.2133&zoom=1.82&layers=cctv%2Clive_news%2Cnews_intel%2Cearthquakes%2Cglobal_incidents%2Cday_night",
+  "name": "OSIRIS",
+  "headline": "开源全球情报分析平台，实时监控航空、CCTV和地缘政治事件",
+  "intro": "开源全球情报分析平台，实时监控航空、CCTV和地缘政治事件",
+  "category": "🛠️ 办公与效率",
+  "subcategory": "其他效率",
+  "tags": [
+    "在线工具",
+    "免费",
+    "开源",
+    "OSINT",
+    "情报分析",
+    "实时监控",
+    "网络侦察",
+    "威胁情报"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "OSIRIS",
+    "🛠️ 办公与效率",
+    "其他效率",
+    "在线工具",
+    "免费",
+    "开源",
+    "OSINT",
+    "情报分析"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-6571292d274823.jpg",
+  "status": "📦 常用",
+  "visit_count": 13,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "github-16389f32495280",
+  "url": "https://github.com/bytedance/deer-flow",
+  "name": "bytedance/deer-flow",
+  "headline": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+  "intro": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "agent",
+    "agentic",
+    "agentic-framework",
+    "agentic-workflow",
+    "ai",
+    "ai-agents",
+    "deep-research",
+    "harness"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "bytedance/deer-flow",
+    "Python",
+    "agent",
+    "agentic",
+    "agentic-framework",
+    "agentic-workflow",
+    "ai",
+    "ai-agents"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 76812"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-04-09T12:03:19Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

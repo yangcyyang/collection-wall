@@ -1,0 +1,46 @@
+{
+  "id": "github-c45bf202eddbb6",
+  "url": "https://github.com/opensquilla/opensquilla",
+  "name": "opensquilla/opensquilla",
+  "headline": "OpenSquilla — Token-Efficient AI Agent with same budget, higher intelligence density",
+  "intro": "OpenSquilla — Token-Efficient AI Agent with same budget, higher intelligence density",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "agent",
+    "ai",
+    "ai-agents",
+    "deep-learning",
+    "foundation-models",
+    "llm",
+    "mcp",
+    "memory"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "opensquilla/opensquilla",
+    "Python",
+    "agent",
+    "ai",
+    "ai-agents",
+    "deep-learning",
+    "foundation-models",
+    "llm"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 5782"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-06-09T07:01:24Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

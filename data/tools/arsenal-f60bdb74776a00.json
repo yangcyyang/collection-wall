@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-f60bdb74776a00",
+  "url": "https://www.autocli.ai/",
+  "name": "AutoCLI.ai",
+  "headline": "AI驱动的命令行工具，将任意网站内容转化为结构化数据，简化网页数据提取与AI代理集成",
+  "intro": "AI驱动的命令行工具，将任意网站内容转化为结构化数据，简化网页数据提取与AI代理集成",
+  "category": "🌐 网页与代码",
+  "subcategory": "CLI 工具",
+  "tags": [
+    "CLI",
+    "数据提取",
+    "AI生成",
+    "在线工具",
+    "API",
+    "免费",
+    "网页",
+    "SaaS"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "AutoCLI.ai",
+    "🌐 网页与代码",
+    "CLI 工具",
+    "CLI",
+    "数据提取",
+    "AI生成",
+    "在线工具",
+    "API"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-f60bdb74776a00.jpg",
+  "status": "🆕 待试",
+  "visit_count": 1,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

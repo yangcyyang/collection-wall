@@ -1,0 +1,46 @@
+{
+  "id": "github-bc44689cd7e34d",
+  "url": "https://github.com/cnfjlhj/ai-collab-playbook",
+  "name": "cnfjlhj/ai-collab-playbook",
+  "headline": "Practical AI collaboration playbook for research, writing, reading, and coding: article, prompts, agent rules, and reusable skills.",
+  "intro": "Practical AI collaboration playbook for research, writing, reading, and coding: article, prompts, agent rules, and reusable skills.",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "ai",
+    "ai-collaboration",
+    "ai-workflow",
+    "claude-code",
+    "codex",
+    "coding-agent",
+    "coding-workflow",
+    "playbook"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "cnfjlhj/ai-collab-playbook",
+    "Python",
+    "ai",
+    "ai-collaboration",
+    "ai-workflow",
+    "claude-code",
+    "codex",
+    "coding-agent"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 412"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-04-27T16:16:37Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

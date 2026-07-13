@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-f543520f0b8245",
+  "url": "https://github.com/pewdiepie-archdaemon/odysseus",
+  "name": "Odysseus",
+  "headline": "自托管AI工作区，提供类似ChatGPT和Claude的多模态对话与智能体功能。",
+  "intro": "自托管AI工作区，提供类似ChatGPT和Claude的多模态对话与智能体功能。",
+  "category": "🌐 网页与代码",
+  "subcategory": "部署",
+  "tags": [
+    "开源",
+    "免费",
+    "自托管",
+    "AI生成",
+    "多模态",
+    "Agent",
+    "大模型对话",
+    "本地部署"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Odysseus",
+    "🌐 网页与代码",
+    "部署",
+    "开源",
+    "免费",
+    "自托管",
+    "AI生成",
+    "多模态"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "app",
+    "JavaScript"
+  ],
+  "cover": "covers/arsenal-f543520f0b8245.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 202,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：git clone https://github.com/pewdiepie-archdaemon/odysseus.git && cd odysseus && 运行安装脚本或Docker Compose",
+  "source": "xiaoer-tools-wall"
+}

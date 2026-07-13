@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-291d5eb46511b7",
+  "url": "https://github.com/Leonxlnx/taste-skill",
+  "name": "Taste-Skill",
+  "headline": "提升AI生成内容的设计品味,打造高质量前端界面。",
+  "intro": "提升AI生成内容的设计品味,打造高质量前端界面。",
+  "category": "🌟 灵感与审美",
+  "subcategory": "设计灵感",
+  "tags": [
+    "AI生成",
+    "代码",
+    "网页",
+    "设计",
+    "前端",
+    "开源",
+    "英文",
+    "CLI工具"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Taste-Skill",
+    "🌟 灵感与审美",
+    "设计灵感",
+    "AI生成",
+    "代码",
+    "网页",
+    "设计",
+    "前端"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "skill",
+    "Shell"
+  ],
+  "cover": "covers/arsenal-291d5eb46511b7.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 208,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：npx skills add https://github.com/Leonxlnx/taste-skill",
+  "source": "xiaoer-tools-wall"
+}

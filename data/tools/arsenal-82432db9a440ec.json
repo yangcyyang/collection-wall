@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-82432db9a440ec",
+  "url": "https://github.com/Warma10032/easytts",
+  "name": "easytts",
+  "headline": "智能文本转语音服务，支持多角色有声小说制作与说话人识别",
+  "intro": "智能文本转语音服务，支持多角色有声小说制作与说话人识别",
+  "category": "🔊 声音",
+  "subcategory": "语音",
+  "tags": [
+    "音频",
+    "生成",
+    "配音",
+    "识别",
+    "开源",
+    "桌面app",
+    "在线工具",
+    "AI生成"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "easytts",
+    "🔊 声音",
+    "语音",
+    "音频",
+    "生成",
+    "配音",
+    "识别",
+    "开源"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "app",
+    "Python"
+  ],
+  "cover": "covers/arsenal-82432db9a440ec.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 134,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：git clone https://github.com/Warma10032/easytts.git && cd easytts && uv sync",
+  "source": "xiaoer-tools-wall"
+}

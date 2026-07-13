@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-2387c8857ccde3",
+  "url": "https://openai.com",
+  "name": "OpenAI",
+  "headline": "领先的AI研究与产品开发公司，专注于通用人工智能AGI与创新产品",
+  "intro": "领先的AI研究与产品开发公司，专注于通用人工智能AGI与创新产品",
+  "category": "🤖 AI 大模型",
+  "subcategory": "多模态",
+  "tags": [
+    "AI模型",
+    "语言模型",
+    "图像生成",
+    "AI研究",
+    "产品开发",
+    "在线工具",
+    "API",
+    "SaaS"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "OpenAI",
+    "🤖 AI 大模型",
+    "多模态",
+    "AI模型",
+    "语言模型",
+    "图像生成",
+    "AI研究",
+    "产品开发"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-2387c8857ccde3.jpg",
+  "status": "🆕 待试",
+  "visit_count": 2,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

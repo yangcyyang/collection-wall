@@ -1,0 +1,46 @@
+{
+  "id": "arsenal-be910c7c301201",
+  "url": "https://github.com/helloianneo/ian-xiaohei-illustrations",
+  "name": "Ian Xiaohei Illustrations",
+  "headline": "AI Agent 驱动的中文文章配图工具，生成怪诞手绘插画",
+  "intro": "AI Agent 驱动的中文文章配图工具，生成怪诞手绘插画",
+  "category": "🤖 AI 大模型",
+  "subcategory": "多模态",
+  "tags": [
+    "图像",
+    "生成",
+    "插画",
+    "AI生成",
+    "手绘",
+    "中文",
+    "开源",
+    "免费"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Ian Xiaohei Illustrations",
+    "🤖 AI 大模型",
+    "多模态",
+    "图像",
+    "生成",
+    "插画",
+    "AI生成",
+    "手绘"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "skill"
+  ],
+  "cover": "covers/arsenal-be910c7c301201.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 189,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：git clone 仓库后，复制 skill 目录到 Codex skills 文件夹。",
+  "source": "xiaoer-tools-wall"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-ef1984057caeba",
+  "url": "https://github.com/rullerzhou-afk/clawd-on-desk",
+  "name": "Clawd on Desk",
+  "headline": "像素桌面宠物，实时监控 AI 编程代理状态并提供趣味反馈",
+  "intro": "像素桌面宠物，实时监控 AI 编程代理状态并提供趣味反馈",
+  "category": "🌐 网页与代码",
+  "subcategory": "AI 编程助手",
+  "tags": [
+    "桌面app",
+    "开源",
+    "免费",
+    "AI编程辅助",
+    "像素艺术",
+    "动画",
+    "多语言",
+    "监控"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Clawd on Desk",
+    "🌐 网页与代码",
+    "AI 编程助手",
+    "桌面app",
+    "开源",
+    "免费",
+    "AI编程辅助",
+    "像素艺术"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "app",
+    "JavaScript"
+  ],
+  "cover": "covers/arsenal-ef1984057caeba.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 134,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：git clone https://github.com/rullerzhou-afk/clawd-on-desk.git && cd clawd-on-desk && npm install",
+  "source": "xiaoer-tools-wall"
+}

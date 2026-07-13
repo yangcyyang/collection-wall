@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-9bf2f34056ffdb",
+  "url": "https://github.com/rullerzhou-afk/pet-forge",
+  "name": "pet-forge",
+  "headline": "构建 SVG/APNG 桌面宠物工具包，含矢量化动画与AI生成指南",
+  "intro": "构建 SVG/APNG 桌面宠物工具包，含矢量化动画与AI生成指南",
+  "category": "🎨 视觉创作",
+  "subcategory": "图像生成",
+  "tags": [
+    "图像",
+    "代码",
+    "生成",
+    "转换",
+    "开源",
+    "英文",
+    "AI生成",
+    "模板"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "pet-forge",
+    "🎨 视觉创作",
+    "图像生成",
+    "图像",
+    "代码",
+    "生成",
+    "转换",
+    "开源"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "skill",
+    "JavaScript"
+  ],
+  "cover": "covers/arsenal-9bf2f34056ffdb.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 134,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：克隆仓库后，运行 \\`npm install\\` 和 \\`pip install\\` 依赖。",
+  "source": "xiaoer-tools-wall"
+}

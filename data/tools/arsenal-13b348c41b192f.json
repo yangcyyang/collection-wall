@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-13b348c41b192f",
+  "url": "https://hemingwayapp.com",
+  "name": "Hemingway Editor",
+  "headline": "提高英文写作简洁性和可读性的在线工具,AI 辅助优化语法与文风。",
+  "intro": "提高英文写作简洁性和可读性的在线工具,AI 辅助优化语法与文风。",
+  "category": "✍️ 文字写作",
+  "subcategory": "写作助手",
+  "tags": [
+    "文字",
+    "检测",
+    "编辑",
+    "修正",
+    "排版",
+    "免费",
+    "付费",
+    "在线工具"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Hemingway Editor",
+    "✍️ 文字写作",
+    "写作助手",
+    "文字",
+    "检测",
+    "编辑",
+    "修正",
+    "排版"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-13b348c41b192f.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

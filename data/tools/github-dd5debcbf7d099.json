@@ -1,0 +1,43 @@
+{
+  "id": "github-dd5debcbf7d099",
+  "url": "https://github.com/iamtouchskyer/opc",
+  "name": "iamtouchskyer/opc",
+  "headline": "OPC — One Person Company. A full team in a single Claude Code skill. Adaptive agent orchestrator with 11 built-in roles, 4 modes, and adversarial quality control.",
+  "intro": "OPC — One Person Company. A full team in a single Claude Code skill. Adaptive agent orchestrator with 11 built-in roles, 4 modes, and adversarial quality control.",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "agent-orchestration",
+    "ai-agent",
+    "claude-code",
+    "multi-agent",
+    "skill",
+    "Shell"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "iamtouchskyer/opc",
+    "Shell",
+    "agent-orchestration",
+    "ai-agent",
+    "claude-code",
+    "multi-agent",
+    "skill"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 178"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-04T08:00:30Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

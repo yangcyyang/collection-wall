@@ -1,0 +1,44 @@
+{
+  "id": "seed-02",
+  "url": "https://gamma.app/",
+  "name": "Gamma",
+  "headline": "AI 一键生成 PPT / 网页 / 文档的排版工具",
+  "intro": "输入大纲或一句话主题，AI 自动生成带排版的演示文稿、网页或文档，支持后续手动微调，适合快速出初稿。",
+  "category": "🛠️ 办公与效率",
+  "subcategory": "PPT 演示",
+  "tags": [
+    "AI生成PPT",
+    "排版",
+    "快速出稿"
+  ],
+  "capabilities": [
+    "大纲转PPT",
+    "AI配图排版",
+    "导出多种格式"
+  ],
+  "scenarios": [
+    "赶时间要一版初稿时",
+    "不想手动排版时"
+  ],
+  "search_keywords": [
+    "AI做PPT",
+    "gamma app",
+    "自动排版"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [
+      "Beautiful.ai",
+      "Tome"
+    ],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/seed-02.jpg",
+  "status": "📦 常用",
+  "visit_count": 15,
+  "last_visited": "2026-07-08",
+  "added_at": "2026-06-10T14:30:00",
+  "my_notes": "",
+  "source": "seed"
+}

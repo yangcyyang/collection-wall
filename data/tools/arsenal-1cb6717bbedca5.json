@@ -1,0 +1,46 @@
+{
+  "id": "arsenal-1cb6717bbedca5",
+  "url": "https://github.com/AdamWawrzynkowskiGF/Mousecape-TahoeSupport",
+  "name": "Mousecape",
+  "headline": "macOS 鼠标光标自定义工具，支持动画效果与主题管理",
+  "intro": "macOS 鼠标光标自定义工具，支持动画效果与主题管理",
+  "category": "🎨 视觉创作",
+  "subcategory": "设计资源",
+  "tags": [
+    "图像",
+    "编辑",
+    "生成",
+    "免费",
+    "开源",
+    "英文",
+    "桌面app",
+    "macOS"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Mousecape",
+    "🎨 视觉创作",
+    "设计资源",
+    "图像",
+    "编辑",
+    "生成",
+    "免费",
+    "开源"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "app"
+  ],
+  "cover": "covers/arsenal-1cb6717bbedca5.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 208,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：从 GitHub Releases 下载 .dmg 或 .zip 包安装",
+  "source": "xiaoer-tools-wall"
+}

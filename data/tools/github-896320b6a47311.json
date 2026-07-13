@@ -1,0 +1,46 @@
+{
+  "id": "github-896320b6a47311",
+  "url": "https://github.com/galacean/effects-runtime",
+  "name": "galacean/effects-runtime",
+  "headline": "It can load and render cool animation effects",
+  "intro": "It can load and render cool animation effects",
+  "category": "🎨 视觉创作",
+  "subcategory": "",
+  "tags": [
+    "2d",
+    "3d",
+    "animation",
+    "effects",
+    "html5",
+    "javascript",
+    "typescript",
+    "webgl"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "galacean/effects-runtime",
+    "TypeScript",
+    "2d",
+    "3d",
+    "animation",
+    "effects",
+    "html5",
+    "javascript"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 726"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-09T13:06:35Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

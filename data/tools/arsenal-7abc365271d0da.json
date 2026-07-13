@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-7abc365271d0da",
+  "url": "https://apimart.ai/zh",
+  "name": "APIMart",
+  "headline": "统一AI API聚合平台，兼容OpenAI SDK，低价访问全球顶级AI模型",
+  "intro": "统一AI API聚合平台，兼容OpenAI SDK，低价访问全球顶级AI模型",
+  "category": "🤖 AI 大模型",
+  "subcategory": "多模态",
+  "tags": [
+    "API",
+    "AI生成",
+    "中转",
+    "多模型",
+    "付费",
+    "中文",
+    "英文",
+    "在线工具"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "APIMart",
+    "🤖 AI 大模型",
+    "多模态",
+    "API",
+    "AI生成",
+    "中转",
+    "多模型",
+    "付费"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-7abc365271d0da.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

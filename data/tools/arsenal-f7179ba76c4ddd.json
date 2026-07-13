@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-f7179ba76c4ddd",
+  "url": "https://cartesian.app/",
+  "name": "The Interactive Handbook on Data Structures and Algorithms",
+  "headline": "交互式数据结构与算法学习平台，提供可视化、代码回放与Python环境，辅助编程面试。",
+  "intro": "交互式数据结构与算法学习平台，提供可视化、代码回放与Python环境，辅助编程面试。",
+  "category": "📚 知识与学习",
+  "subcategory": "学习平台",
+  "tags": [
+    "学习",
+    "编程",
+    "可视化",
+    "交互式",
+    "在线工具",
+    "付费",
+    "英文",
+    "代码"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "The Interactive Handbook on Data Structu",
+    "📚 知识与学习",
+    "学习平台",
+    "学习",
+    "编程",
+    "可视化",
+    "交互式",
+    "在线工具"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-f7179ba76c4ddd.jpg",
+  "status": "🆕 待试",
+  "visit_count": 1,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

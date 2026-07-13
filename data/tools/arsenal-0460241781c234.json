@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-0460241781c234",
+  "url": "https://github.com/adobe/react-spectrum",
+  "name": "React Spectrum",
+  "headline": "React UI组件库，构建自适应、无障碍的用户体验",
+  "intro": "React UI组件库，构建自适应、无障碍的用户体验",
+  "category": "🌐 网页与代码",
+  "subcategory": "组件",
+  "tags": [
+    "代码",
+    "网页",
+    "开源",
+    "免费",
+    "英文",
+    "设计系统",
+    "UI组件",
+    "可访问性"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "React Spectrum",
+    "🌐 网页与代码",
+    "组件",
+    "代码",
+    "网页",
+    "开源",
+    "免费",
+    "英文"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "library",
+    "TypeScript"
+  ],
+  "cover": "covers/arsenal-0460241781c234.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 199,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：npm install @react-spectrum/package-name 或 yarn add @react-spectrum/package-name",
+  "source": "xiaoer-tools-wall"
+}

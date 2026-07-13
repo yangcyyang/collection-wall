@@ -1,0 +1,46 @@
+{
+  "id": "github-25ac97f8ee5969",
+  "url": "https://github.com/Jane-xiaoer/claude-skill-web-clone",
+  "name": "Jane-xiaoer/claude-skill-web-clone",
+  "headline": "Methodology for faithfully cloning any website (static / React / WebGL) — without copying AI-hallucinated code. Real source first.",
+  "intro": "Methodology for faithfully cloning any website (static / React / WebGL) — without copying AI-hallucinated code. Real source first.",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "claude-code",
+    "claude-code-skill",
+    "methodology",
+    "reverse-engineering",
+    "skill",
+    "web-cloning",
+    "webgl",
+    "JavaScript"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Jane-xiaoer/claude-skill-web-clone",
+    "JavaScript",
+    "claude-code",
+    "claude-code-skill",
+    "methodology",
+    "reverse-engineering",
+    "skill",
+    "web-cloning"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 725"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-03T15:26:20Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

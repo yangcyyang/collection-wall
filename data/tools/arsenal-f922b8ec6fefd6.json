@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-f922b8ec6fefd6",
+  "url": "https://github.com/guokaigdg/animal-island-ui",
+  "name": "Animal Island UI",
+  "headline": "受《动物森友会》启发的 React UI 组件库，打造可爱风格界面",
+  "intro": "受《动物森友会》启发的 React UI 组件库，打造可爱风格界面",
+  "category": "🎨 视觉创作",
+  "subcategory": "设计资源",
+  "tags": [
+    "网页",
+    "代码",
+    "排版",
+    "生成",
+    "开源",
+    "免费",
+    "React",
+    "组件库"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Animal Island UI",
+    "🎨 视觉创作",
+    "设计资源",
+    "网页",
+    "代码",
+    "排版",
+    "生成",
+    "开源"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "library",
+    "TypeScript"
+  ],
+  "cover": "covers/arsenal-f922b8ec6fefd6.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 182,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：通过 npm 或 yarn 安装，如 \\`npm install animal-island-ui\\`，然后在 React 项目中导入使用",
+  "source": "xiaoer-tools-wall"
+}

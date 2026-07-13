@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-6fc54d16c60c21",
+  "url": "https://z-pay.cn/?uid=2868",
+  "name": "ZPAY 支付",
+  "headline": "为个人与个体户提供免营业执照的支付宝/微信支付接口，快速实现网站收款结算。",
+  "intro": "为个人与个体户提供免营业执照的支付宝/微信支付接口，快速实现网站收款结算。",
+  "category": "🌍 出海与基建",
+  "subcategory": "跨境支付",
+  "tags": [
+    "收款",
+    "支付接口",
+    "个人结算",
+    "微信支付",
+    "支付宝",
+    "API",
+    "在线工具",
+    "中文"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "ZPAY 支付",
+    "🌍 出海与基建",
+    "跨境支付",
+    "收款",
+    "支付接口",
+    "个人结算",
+    "微信支付",
+    "支付宝"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

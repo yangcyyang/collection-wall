@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-f524c842f87e6c",
+  "url": "https://www.anthropic.com/product/claude",
+  "name": "Claude",
+  "headline": "Anthropic开发的系列AI大语言模型，提供安全、可靠的智能对话与文本生成服务",
+  "intro": "Anthropic开发的系列AI大语言模型，提供安全、可靠的智能对话与文本生成服务",
+  "category": "🤖 AI 大模型",
+  "subcategory": "大模型对话",
+  "tags": [
+    "AI生成",
+    "文字",
+    "对话",
+    "总结",
+    "创作",
+    "免费试用",
+    "在线工具",
+    "英文"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Claude",
+    "🤖 AI 大模型",
+    "大模型对话",
+    "AI生成",
+    "文字",
+    "对话",
+    "总结",
+    "创作"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-f524c842f87e6c.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

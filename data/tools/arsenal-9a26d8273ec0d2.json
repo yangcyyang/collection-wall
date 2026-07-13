@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-9a26d8273ec0d2",
+  "url": "https://github.com/iternal-technologies-partners/blockify-agentic-data-optimization",
+  "name": "Blockify",
+  "headline": "企业级 RAG 与 Agentic 搜索的数据优化平台",
+  "intro": "企业级 RAG 与 Agentic 搜索的数据优化平台",
+  "category": "🌐 网页与代码",
+  "subcategory": "开发工具",
+  "tags": [
+    "RAG",
+    "Agent",
+    "数据优化",
+    "语义搜索",
+    "知识管理",
+    "AI生成",
+    "API",
+    "开源"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Blockify",
+    "🌐 网页与代码",
+    "开发工具",
+    "RAG",
+    "Agent",
+    "数据优化",
+    "语义搜索",
+    "知识管理"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "agent",
+    "Python"
+  ],
+  "cover": "covers/arsenal-9a26d8273ec0d2.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 247,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：git clone https://github.com/iternal-technologies-partners/blockify-agentic-data-optimization.git && cd blockify-agentic-data-optimization/blockify-skill-for-claude-code/skills/blockify-integration &&",
+  "source": "xiaoer-tools-wall"
+}

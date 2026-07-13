@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-8b97b9a45ae80f",
+  "url": "https://openrouter.ai",
+  "name": "OpenRouter",
+  "headline": "LLM API 统一接口, 优选模型与价格, 提升服务稳定性",
+  "intro": "LLM API 统一接口, 优选模型与价格, 提升服务稳定性",
+  "category": "🌍 出海与基建",
+  "subcategory": "API 中转",
+  "tags": [
+    "API",
+    "LLM接口",
+    "API中转",
+    "模型聚合",
+    "成本优化",
+    "高可用",
+    "SaaS",
+    "英文"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "OpenRouter",
+    "🌍 出海与基建",
+    "API 中转",
+    "API",
+    "LLM接口",
+    "API中转",
+    "模型聚合",
+    "成本优化"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-8b97b9a45ae80f.jpg",
+  "status": "📦 常用",
+  "visit_count": 12,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-36e25b4db399e0",
+  "url": "https://github.com/OfficialIncubo/BeatDrop-Music-Visualizer",
+  "name": "BeatDrop",
+  "headline": "基于 MilkDrop2 引擎的 Windows 音乐可视化工具",
+  "intro": "基于 MilkDrop2 引擎的 Windows 音乐可视化工具",
+  "category": "🎨 视觉创作",
+  "subcategory": "视频生成",
+  "tags": [
+    "音乐可视化",
+    "音频可视化",
+    "生成艺术",
+    "MilkDrop",
+    "VJ",
+    "桌面app",
+    "开源",
+    "免费"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "BeatDrop",
+    "🎨 视觉创作",
+    "视频生成",
+    "音乐可视化",
+    "音频可视化",
+    "生成艺术",
+    "MilkDrop",
+    "VJ"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "app",
+    "C++"
+  ],
+  "cover": "covers/arsenal-36e25b4db399e0.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 263,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：下载并运行 Windows 版可执行文件，或克隆仓库后使用 Visual Studio 编译",
+  "source": "xiaoer-tools-wall"
+}

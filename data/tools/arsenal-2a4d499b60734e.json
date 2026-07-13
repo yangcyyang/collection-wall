@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-2a4d499b60734e",
+  "url": "https://designs.ai/",
+  "name": "Designs.AI",
+  "headline": "一体化AI多模态内容创作平台，快速生成营销图片、视频、文案、设计和演示文稿。",
+  "intro": "一体化AI多模态内容创作平台，快速生成营销图片、视频、文案、设计和演示文稿。",
+  "category": "🎨 视觉创作",
+  "subcategory": "图像生成",
+  "tags": [
+    "图像",
+    "视频",
+    "文字",
+    "音频",
+    "PPT",
+    "设计",
+    "AI生成",
+    "在线工具"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Designs.AI",
+    "🎨 视觉创作",
+    "图像生成",
+    "图像",
+    "视频",
+    "文字",
+    "音频",
+    "PPT"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-2a4d499b60734e.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

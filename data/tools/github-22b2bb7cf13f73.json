@@ -1,0 +1,46 @@
+{
+  "id": "github-22b2bb7cf13f73",
+  "url": "https://github.com/h0x91b/dev-3.0",
+  "name": "h0x91b/dev-3.0",
+  "headline": "Mission control for the One Person Studio — run a fleet of AI coding agents in parallel without losing your mind. Kanban + git worktrees + tmux for Claude Code, Codex, Gemini CLI, OpenCode and any shell agent. Not an IDE.",
+  "intro": "Mission control for the One Person Studio — run a fleet of AI coding agents in parallel without losing your mind. Kanban + git worktrees + tmux for Claude Code, Codex, Gemini CLI, OpenCode and any shell agent. Not an IDE.",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "agent-orchestration",
+    "ai-agents",
+    "ai-coding",
+    "bun",
+    "claude-code",
+    "codex",
+    "developer-tools",
+    "electrobun"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "h0x91b/dev-3.0",
+    "TypeScript",
+    "agent-orchestration",
+    "ai-agents",
+    "ai-coding",
+    "bun",
+    "claude-code",
+    "codex"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 219"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-04T08:00:13Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

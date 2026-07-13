@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-b94d4f574b8634",
+  "url": "https://github.com/TetsuakiBaba/p5MediaPipe",
+  "name": "p5MediaPipe",
+  "headline": "基于 p5.js 的 MediaPipe WebAI 示例集，助力快速开发视觉感知应用",
+  "intro": "基于 p5.js 的 MediaPipe WebAI 示例集，助力快速开发视觉感知应用",
+  "category": "🌟 灵感与审美",
+  "subcategory": "艺术创意编程",
+  "tags": [
+    "代码",
+    "网页",
+    "图像",
+    "视频",
+    "检测",
+    "识别",
+    "开源",
+    "免费"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "p5MediaPipe",
+    "🌟 灵感与审美",
+    "艺术创意编程",
+    "代码",
+    "网页",
+    "图像",
+    "视频",
+    "检测"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "app",
+    "JavaScript"
+  ],
+  "cover": "covers/arsenal-b94d4f574b8634.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 136,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：克隆仓库后，运行\\`npm install\\`安装依赖，然后根据\\`README\\`指示运行示例。",
+  "source": "xiaoer-tools-wall"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "seed-01",
+  "url": "https://www.midjourney.com/",
+  "name": "Midjourney",
+  "headline": "文本生成高质量图像的 AI 绘画工具",
+  "intro": "通过 Discord/网页输入文字提示词生成图像的生成式 AI 工具，以美术质感和风格化著称，是设计参考、灵感图、氛围图的常用生成来源。",
+  "category": "🎨 视觉创作",
+  "subcategory": "图像生成",
+  "tags": [
+    "AI绘画",
+    "文生图",
+    "灵感图",
+    "氛围图"
+  ],
+  "capabilities": [
+    "根据文字提示词生成图像",
+    "调整风格参数",
+    "图生图"
+  ],
+  "scenarios": [
+    "找不到合适的参考图时",
+    "做提案氛围板时"
+  ],
+  "search_keywords": [
+    "AI画图",
+    "文生图",
+    "midjourney",
+    "ai art"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [
+      "Stable Diffusion",
+      "DALL-E"
+    ],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/seed-01.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 45,
+  "last_visited": "2026-07-10",
+  "added_at": "2026-06-01T10:00:00",
+  "my_notes": "",
+  "source": "seed"
+}

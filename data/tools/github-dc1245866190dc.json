@@ -1,0 +1,45 @@
+{
+  "id": "github-dc1245866190dc",
+  "url": "https://github.com/MemPalace/mempalace",
+  "name": "MemPalace/mempalace",
+  "headline": "The best-benchmarked open-source AI memory system. And it's free.",
+  "intro": "The best-benchmarked open-source AI memory system. And it's free.",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "ai",
+    "chromadb",
+    "llm",
+    "mcp",
+    "memory",
+    "python",
+    "Python"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "MemPalace/mempalace",
+    "Python",
+    "ai",
+    "chromadb",
+    "llm",
+    "mcp",
+    "memory",
+    "python"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 57239"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-04-13T10:04:33Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

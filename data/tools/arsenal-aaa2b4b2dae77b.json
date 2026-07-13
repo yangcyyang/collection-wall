@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-aaa2b4b2dae77b",
+  "url": "https://github.com/huangserva/3DCellForge",
+  "name": "3DCellForge",
+  "headline": "AI驱动的交互式3D细胞生成与探索工作室",
+  "intro": "AI驱动的交互式3D细胞生成与探索工作室",
+  "category": "🎨 视觉创作",
+  "subcategory": "3D",
+  "tags": [
+    "3D",
+    "图像",
+    "生成",
+    "探索",
+    "开源",
+    "AI生成",
+    "在线工具",
+    "双语"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "3DCellForge",
+    "🎨 视觉创作",
+    "3D",
+    "图像",
+    "生成",
+    "探索",
+    "开源",
+    "AI生成"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "app",
+    "JavaScript"
+  ],
+  "cover": "covers/arsenal-aaa2b4b2dae77b.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 136,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：git clone https://github.com/huangserva/3DCellForge.git; cd 3DCellForge; npm install; npm run dev",
+  "source": "xiaoer-tools-wall"
+}

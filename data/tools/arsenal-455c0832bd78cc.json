@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-455c0832bd78cc",
+  "url": "https://github.com/StarTrail-org/PixelRAG",
+  "name": "PixelRAG",
+  "headline": "可扩展像素级搜索,增强多模态RAG视觉理解与AI代理能力",
+  "intro": "可扩展像素级搜索,增强多模态RAG视觉理解与AI代理能力",
+  "category": "🌐 网页与代码",
+  "subcategory": "开发工具",
+  "tags": [
+    "搜索",
+    "多模态",
+    "RAG",
+    "视觉",
+    "AI生成",
+    "开源",
+    "API",
+    "网页"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "PixelRAG",
+    "🌐 网页与代码",
+    "开发工具",
+    "搜索",
+    "多模态",
+    "RAG",
+    "视觉",
+    "AI生成"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "agent",
+    "Python"
+  ],
+  "cover": "covers/arsenal-455c0832bd78cc.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 228,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：pip install pixelrag",
+  "source": "xiaoer-tools-wall"
+}

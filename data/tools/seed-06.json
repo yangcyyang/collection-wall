@@ -1,0 +1,31 @@
+{
+  "id": "seed-06",
+  "url": "https://www.awesome-tech-example.dev/",
+  "name": "示例：无封面工具",
+  "headline": "用于验收 AC-U3 的无封面占位数据",
+  "intro": "该条记录用于验证：封面截图缺失时，卡片应用分类图标兜底展示，不留空白、不裂图。",
+  "category": "🔬 其他",
+  "subcategory": "",
+  "tags": [
+    "seed",
+    "AC-U3"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "无封面测试"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T09:00:00",
+  "my_notes": "seed data, 无封面用例",
+  "source": "seed"
+}

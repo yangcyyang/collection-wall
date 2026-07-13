@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-d813a252d8b0f7",
+  "url": "https://www.animaapp.com/",
+  "name": "Anima",
+  "headline": "AI驱动设计转代码平台，支持Figma设计稿生成网站与应用，并能克隆网站",
+  "intro": "AI驱动设计转代码平台，支持Figma设计稿生成网站与应用，并能克隆网站",
+  "category": "🌐 网页与代码",
+  "subcategory": "部署",
+  "tags": [
+    "网页",
+    "代码",
+    "AI生成",
+    "在线工具",
+    "SaaS",
+    "转换",
+    "设计",
+    "免费试用"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Anima",
+    "🌐 网页与代码",
+    "部署",
+    "网页",
+    "代码",
+    "AI生成",
+    "在线工具",
+    "SaaS"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-d813a252d8b0f7.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

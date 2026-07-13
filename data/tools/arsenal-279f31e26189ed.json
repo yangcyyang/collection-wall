@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-279f31e26189ed",
+  "url": "https://gitbutler.com/",
+  "name": "GitButler",
+  "headline": "Git-backed 变更管理工具，赋能 AI 编程工作流与高级分支管理",
+  "intro": "Git-backed 变更管理工具，赋能 AI 编程工作流与高级分支管理",
+  "category": "🌐 网页与代码",
+  "subcategory": "AI 编程助手",
+  "tags": [
+    "代码",
+    "编辑",
+    "生成",
+    "开源",
+    "桌面app",
+    "CLI工具",
+    "AI生成",
+    "英文"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "GitButler",
+    "🌐 网页与代码",
+    "AI 编程助手",
+    "代码",
+    "编辑",
+    "生成",
+    "开源",
+    "桌面app"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-279f31e26189ed.jpg",
+  "status": "🆕 待试",
+  "visit_count": 2,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

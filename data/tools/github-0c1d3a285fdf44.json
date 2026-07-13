@@ -1,0 +1,33 @@
+{
+  "id": "github-0c1d3a285fdf44",
+  "url": "https://github.com/vercel-labs/zerolang",
+  "name": "vercel-labs/zerolang",
+  "headline": "The Programming Language for Agents",
+  "intro": "The Programming Language for Agents",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "C"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "vercel-labs/zerolang",
+    "C"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 5192"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-05-20T17:31:03Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-13d96f6971fff6",
+  "url": "https://github.com/anthropics/claude-code",
+  "name": "Claude Code",
+  "headline": "终端AI编程助手，自然语言驱动代码生成与Git管理",
+  "intro": "终端AI编程助手，自然语言驱动代码生成与Git管理",
+  "category": "🌐 网页与代码",
+  "subcategory": "AI 编程助手",
+  "tags": [
+    "代码",
+    "生成",
+    "编辑",
+    "开源",
+    "英文",
+    "在线工具",
+    "AI生成",
+    "自动化"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Claude Code",
+    "🌐 网页与代码",
+    "AI 编程助手",
+    "代码",
+    "生成",
+    "编辑",
+    "开源",
+    "英文"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "agent",
+    "Shell"
+  ],
+  "cover": "covers/arsenal-13d96f6971fff6.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 134,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：curl -fsSL https://claude.ai/install.sh | bash",
+  "source": "xiaoer-tools-wall"
+}

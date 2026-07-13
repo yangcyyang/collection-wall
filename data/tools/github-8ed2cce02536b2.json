@@ -1,0 +1,33 @@
+{
+  "id": "github-8ed2cce02536b2",
+  "url": "https://github.com/tinyhumansai/openhuman",
+  "name": "tinyhumansai/openhuman",
+  "headline": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
+  "intro": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "Rust"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "tinyhumansai/openhuman",
+    "Rust"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 34688"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-05-17T14:15:55Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

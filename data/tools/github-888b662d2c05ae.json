@@ -1,0 +1,46 @@
+{
+  "id": "github-888b662d2c05ae",
+  "url": "https://github.com/Jane-xiaoer/xiaoer-videolab",
+  "name": "Jane-xiaoer/xiaoer-videolab",
+  "headline": "One click on the toolbar grabs the current page's video into ~/Downloads — local yt-dlp daemon, 1800+ sites. 小耳抓视频：一键把当前页视频抓到本地。",
+  "intro": "One click on the toolbar grabs the current page's video into ~/Downloads — local yt-dlp daemon, 1800+ sites. 小耳抓视频：一键把当前页视频抓到本地。",
+  "category": "🎨 视觉创作",
+  "subcategory": "",
+  "tags": [
+    "bilibili",
+    "chrome-extension",
+    "launchd",
+    "macos",
+    "manifest-v3",
+    "privacy-friendly",
+    "video-downloader",
+    "youtube-dl"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Jane-xiaoer/xiaoer-videolab",
+    "JavaScript",
+    "bilibili",
+    "chrome-extension",
+    "launchd",
+    "macos",
+    "manifest-v3",
+    "privacy-friendly"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 568"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-03T15:28:03Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

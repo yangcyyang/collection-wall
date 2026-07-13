@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-be3018e3febc1b",
+  "url": "https://lasso.timokuilder.com/",
+  "name": "Lasso",
+  "headline": "一个交互式在线音乐创作工具，通过在网格上绘制循环生成旋律与节奏。",
+  "intro": "一个交互式在线音乐创作工具，通过在网格上绘制循环生成旋律与节奏。",
+  "category": "🔊 声音",
+  "subcategory": "音乐生成",
+  "tags": [
+    "音频",
+    "生成",
+    "编辑",
+    "免费",
+    "在线工具",
+    "英文",
+    "艺术创意编程",
+    "无需登录"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Lasso",
+    "🔊 声音",
+    "音乐生成",
+    "音频",
+    "生成",
+    "编辑",
+    "免费",
+    "在线工具"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-be3018e3febc1b.jpg",
+  "status": "🆕 待试",
+  "visit_count": 2,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

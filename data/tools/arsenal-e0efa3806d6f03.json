@@ -1,0 +1,46 @@
+{
+  "id": "arsenal-e0efa3806d6f03",
+  "url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-image-gen",
+  "name": "Baoyu Agent 图像生成",
+  "headline": "为 AI Agent 提供多模态图像生成能力,基于大模型驱动的视觉创作技能。",
+  "intro": "为 AI Agent 提供多模态图像生成能力,基于大模型驱动的视觉创作技能。",
+  "category": "🎨 视觉创作",
+  "subcategory": "图像生成",
+  "tags": [
+    "图像",
+    "生成",
+    "AI生成",
+    "开源",
+    "Agent",
+    "API",
+    "多模态"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Baoyu Agent 图像生成",
+    "🎨 视觉创作",
+    "图像生成",
+    "图像",
+    "生成",
+    "AI生成",
+    "开源",
+    "Agent"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "skill",
+    "TypeScript"
+  ],
+  "cover": "covers/arsenal-e0efa3806d6f03.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 202,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：克隆 Baoyu 仓库，并按文档配置作为 Agent 技能使用",
+  "source": "xiaoer-tools-wall"
+}

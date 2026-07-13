@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-407c0db6d92174",
+  "url": "https://artsandculture.google.com",
+  "name": "Google Arts & Culture",
+  "headline": "探索全球博物馆、艺术品与文化遗产的在线平台，提供虚拟展览和高清图像。",
+  "intro": "探索全球博物馆、艺术品与文化遗产的在线平台，提供虚拟展览和高清图像。",
+  "category": "🌐 网页与代码",
+  "subcategory": "开发工具",
+  "tags": [
+    "图像",
+    "搜索",
+    "探索",
+    "在线工具",
+    "SaaS",
+    "英文",
+    "免费",
+    "无需登录"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Google Arts & Culture",
+    "🌐 网页与代码",
+    "开发工具",
+    "图像",
+    "搜索",
+    "探索",
+    "在线工具",
+    "SaaS"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-407c0db6d92174.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

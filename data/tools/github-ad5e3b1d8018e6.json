@@ -1,0 +1,39 @@
+{
+  "id": "github-ad5e3b1d8018e6",
+  "url": "https://github.com/DayuanJiang/next-ai-draw-io",
+  "name": "DayuanJiang/next-ai-draw-io",
+  "headline": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
+  "intro": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "ai",
+    "diagrams",
+    "productivity",
+    "TypeScript"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "DayuanJiang/next-ai-draw-io",
+    "TypeScript",
+    "ai",
+    "diagrams",
+    "productivity"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 33365"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-06-08T15:45:39Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

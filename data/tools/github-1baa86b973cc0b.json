@@ -1,0 +1,43 @@
+{
+  "id": "github-1baa86b973cc0b",
+  "url": "https://github.com/siddharthvaddem/openscreen",
+  "name": "siddharthvaddem/openscreen",
+  "headline": "Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.",
+  "intro": "Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.",
+  "category": "🌐 网页与代码",
+  "subcategory": "",
+  "tags": [
+    "electron",
+    "open-source",
+    "pixijs",
+    "screen-capture",
+    "screen-recorder",
+    "TypeScript"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "siddharthvaddem/openscreen",
+    "TypeScript",
+    "electron",
+    "open-source",
+    "pixijs",
+    "screen-capture",
+    "screen-recorder"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 39299"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-04-05T03:41:51Z",
+  "my_notes": "仓库已归档",
+  "source": "github-stars"
+}

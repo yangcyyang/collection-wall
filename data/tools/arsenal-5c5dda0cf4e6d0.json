@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-5c5dda0cf4e6d0",
+  "url": "https://github.com/xai-org/x-algorithm",
+  "name": "x-algorithm",
+  "headline": "X 平台推荐算法,基于 Grok 的开源社交内容推荐系统。",
+  "intro": "X 平台推荐算法,基于 Grok 的开源社交内容推荐系统。",
+  "category": "🌐 网页与代码",
+  "subcategory": "开发工具",
+  "tags": [
+    "代码",
+    "推荐系统",
+    "内容生成",
+    "机器学习",
+    "开源",
+    "英文",
+    "Agent",
+    "AI生成"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "x-algorithm",
+    "🌐 网页与代码",
+    "开发工具",
+    "代码",
+    "推荐系统",
+    "内容生成",
+    "机器学习",
+    "开源"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "agent",
+    "Rust"
+  ],
+  "cover": "covers/arsenal-5c5dda0cf4e6d0.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 153,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：克隆仓库, 安装 Rust & Python 依赖, 参考 \\`phoenix/run_pipeline.py\\` 运行推理管道。",
+  "source": "xiaoer-tools-wall"
+}

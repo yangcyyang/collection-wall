@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-bb0dc81dd5fd22",
+  "url": "https://screen.studio/",
+  "name": "Screen Studio",
+  "headline": "macOS 专业屏幕录制工具,自动变焦和动画,制作精美产品演示与教程",
+  "intro": "macOS 专业屏幕录制工具,自动变焦和动画,制作精美产品演示与教程",
+  "category": "🎨 视觉创作",
+  "subcategory": "视频生成",
+  "tags": [
+    "视频",
+    "录制",
+    "剪辑",
+    "桌面app",
+    "付费",
+    "macOS",
+    "屏幕录制",
+    "自动变焦"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Screen Studio",
+    "🎨 视觉创作",
+    "视频生成",
+    "视频",
+    "录制",
+    "剪辑",
+    "桌面app",
+    "付费"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-bb0dc81dd5fd22.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

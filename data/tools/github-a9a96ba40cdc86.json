@@ -1,0 +1,46 @@
+{
+  "id": "github-a9a96ba40cdc86",
+  "url": "https://github.com/zanwei/design-dna",
+  "name": "zanwei/design-dna",
+  "headline": "Turn reference UIs (images, screenshots, URLs) into quantified Design DNA JSON—tokens, qualitative style, visual effects—then generate matching UI from your content.",
+  "intro": "Turn reference UIs (images, screenshots, URLs) into quantified Design DNA JSON—tokens, qualitative style, visual effects—then generate matching UI from your content.",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "agent-skills",
+    "claude-skills",
+    "codex-skills",
+    "cursor-skills",
+    "design-dna",
+    "design-system",
+    "design-tokens",
+    "skills-cli"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "zanwei/design-dna",
+    "agent-skills",
+    "claude-skills",
+    "codex-skills",
+    "cursor-skills",
+    "design-dna",
+    "design-system",
+    "design-tokens"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 1010"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-05T18:08:54Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

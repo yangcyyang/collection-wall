@@ -1,0 +1,46 @@
+{
+  "id": "github-a3f3964dc45d27",
+  "url": "https://github.com/JimLiu/baoyu-design",
+  "name": "JimLiu/baoyu-design",
+  "headline": "Run Claude Design locally as an Agent Skill — Cursor, Claude Code & more. Produce polished UI mockups, prototypes, decks & wireframes as self-contained HTML, without claude.ai/design. Best with Opus 4.8.",
+  "intro": "Run Claude Design locally as an Agent Skill — Cursor, Claude Code & more. Produce polished UI mockups, prototypes, decks & wireframes as self-contained HTML, without claude.ai/design. Best with Opus 4.8.",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "agent-skills",
+    "claude",
+    "claude-code",
+    "claude-design",
+    "cursor",
+    "design",
+    "prototyping",
+    "ui-design"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "JimLiu/baoyu-design",
+    "JavaScript",
+    "agent-skills",
+    "claude",
+    "claude-code",
+    "claude-design",
+    "cursor",
+    "design"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 2541"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-06-19T07:22:25Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

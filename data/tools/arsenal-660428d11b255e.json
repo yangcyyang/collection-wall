@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-660428d11b255e",
+  "url": "https://github.com/Anionex/banana-slides",
+  "name": "Banana Slides",
+  "headline": "AI驱动的智能PPT生成器，一键创建专业演示文稿",
+  "intro": "AI驱动的智能PPT生成器，一键创建专业演示文稿",
+  "category": "🛠️ 办公与效率",
+  "subcategory": "PPT 演示",
+  "tags": [
+    "PPT",
+    "AI生成",
+    "演示文稿",
+    "文档识别",
+    "视频",
+    "开源",
+    "在线工具",
+    "编辑"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Banana Slides",
+    "🛠️ 办公与效率",
+    "PPT 演示",
+    "PPT",
+    "AI生成",
+    "演示文稿",
+    "文档识别",
+    "视频"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "app",
+    "Python"
+  ],
+  "cover": "covers/arsenal-660428d11b255e.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 134,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：git clone repo && cd repo && cp .env.example .env (配置API Key) && docker-compose up -d",
+  "source": "xiaoer-tools-wall"
+}

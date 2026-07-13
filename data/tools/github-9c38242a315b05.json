@@ -1,0 +1,46 @@
+{
+  "id": "github-9c38242a315b05",
+  "url": "https://github.com/T8RIN/ImageToolbox",
+  "name": "T8RIN/ImageToolbox",
+  "headline": "🖼️ Image Toolbox is a powerful app for advanced image manipulation. It offers dozens of features, from basic tools like crop and draw to filters, OCR, and a wide range of image processing options",
+  "intro": "🖼️ Image Toolbox is a powerful app for advanced image manipulation. It offers dozens of features, from basic tools like crop and draw to filters, OCR, and a wide range of image processing options",
+  "category": "🎨 视觉创作",
+  "subcategory": "",
+  "tags": [
+    "ai",
+    "android",
+    "background-removal",
+    "crop",
+    "edit-photo",
+    "exif",
+    "f-droid",
+    "filter-image"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "T8RIN/ImageToolbox",
+    "Kotlin",
+    "ai",
+    "android",
+    "background-removal",
+    "crop",
+    "edit-photo",
+    "exif"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 13709"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2025-12-02T13:46:18Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

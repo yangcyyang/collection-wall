@@ -1,0 +1,33 @@
+{
+  "id": "github-c738e0baa29089",
+  "url": "https://github.com/xxww0098/Memora",
+  "name": "xxww0098/Memora",
+  "headline": "Memora — AI-powered persona memory desktop app built with Tauri 2 + React + Rust",
+  "intro": "Memora — AI-powered persona memory desktop app built with Tauri 2 + React + Rust",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "Rust"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "xxww0098/Memora",
+    "Rust"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 3"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-04-12T13:34:59Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

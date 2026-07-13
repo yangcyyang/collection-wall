@@ -1,0 +1,37 @@
+{
+  "id": "github-6130d7521c5303",
+  "url": "https://github.com/jackwener/CS-Awesome-Courses",
+  "name": "jackwener/CS-Awesome-Courses",
+  "headline": "计算机的优秀课程",
+  "intro": "计算机的优秀课程",
+  "category": "🌐 网页与代码",
+  "subcategory": "",
+  "tags": [
+    "awesome",
+    "courses",
+    "learning"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "jackwener/CS-Awesome-Courses",
+    "awesome",
+    "courses",
+    "learning"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 1630"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-05-14T09:53:12Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

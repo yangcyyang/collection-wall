@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-a6405ae2ac0b51",
+  "url": "https://happycapy.ai/",
+  "name": "Happycapy",
+  "headline": "基于浏览器的 AI Agent 平台，自动化你的日常任务",
+  "intro": "基于浏览器的 AI Agent 平台，自动化你的日常任务",
+  "category": "🤖 AI 大模型",
+  "subcategory": "多模态",
+  "tags": [
+    "AI生成",
+    "AI Agent",
+    "在线工具",
+    "自动化",
+    "任务委托",
+    "SaaS",
+    "英文",
+    "沙盒环境"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Happycapy",
+    "🤖 AI 大模型",
+    "多模态",
+    "AI生成",
+    "AI Agent",
+    "在线工具",
+    "自动化",
+    "任务委托"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-a6405ae2ac0b51.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

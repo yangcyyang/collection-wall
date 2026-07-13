@@ -1,0 +1,33 @@
+{
+  "id": "github-f226959a357fcf",
+  "url": "https://github.com/karpathy/autoresearch",
+  "name": "karpathy/autoresearch",
+  "headline": "AI agents running research on single-GPU nanochat training automatically",
+  "intro": "AI agents running research on single-GPU nanochat training automatically",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "Python"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "karpathy/autoresearch",
+    "Python"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 90867"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-03-22T01:33:28Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

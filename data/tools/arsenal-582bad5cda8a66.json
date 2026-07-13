@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-582bad5cda8a66",
+  "url": "https://github.com/cartesiancs/map3d",
+  "name": "map3d",
+  "headline": "使用 React-Three-Fiber 生成城市 3D 地图，含建筑和道路信息。",
+  "intro": "使用 React-Three-Fiber 生成城市 3D 地图，含建筑和道路信息。",
+  "category": "🌐 网页与代码",
+  "subcategory": "组件",
+  "tags": [
+    "3D",
+    "生成",
+    "开源",
+    "免费",
+    "在线工具",
+    "TypeScript",
+    "React",
+    "Three.js"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "map3d",
+    "🌐 网页与代码",
+    "组件",
+    "3D",
+    "生成",
+    "开源",
+    "免费",
+    "在线工具"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "app",
+    "TypeScript"
+  ],
+  "cover": "covers/arsenal-582bad5cda8a66.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 144,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：git clone https://github.com/cartesiancs/map3d.git && cd map3d && npm install && npm run dev",
+  "source": "xiaoer-tools-wall"
+}

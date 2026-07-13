@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-c0c04c6f38afb3",
+  "url": "https://github.com/OpenCoworkAI/open-codesign",
+  "name": "Open CoDesign",
+  "headline": "开源AI设计工具，将提示词转换为原型、幻灯片与PDF，支持多模型本地运行",
+  "intro": "开源AI设计工具，将提示词转换为原型、幻灯片与PDF，支持多模型本地运行",
+  "category": "🎨 视觉创作",
+  "subcategory": "图像生成",
+  "tags": [
+    "AI生成",
+    "原型",
+    "网页",
+    "PDF",
+    "PPT",
+    "桌面app",
+    "开源",
+    "多模型"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Open CoDesign",
+    "🎨 视觉创作",
+    "图像生成",
+    "AI生成",
+    "原型",
+    "网页",
+    "PDF",
+    "PPT"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "app",
+    "TypeScript"
+  ],
+  "cover": "covers/arsenal-c0c04c6f38afb3.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 134,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：下载预编译的桌面应用安装包，或通过 Homebrew / winget / Scoop 等包管理器安装。",
+  "source": "xiaoer-tools-wall"
+}

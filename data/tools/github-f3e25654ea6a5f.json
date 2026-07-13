@@ -1,0 +1,46 @@
+{
+  "id": "github-f3e25654ea6a5f",
+  "url": "https://github.com/op7418/CodePilot",
+  "name": "op7418/CodePilot",
+  "headline": "A multi-model AI agent desktop client — connect any AI provider, extend with MCP & skills, control from your phone. Built with Electron + Next.js.",
+  "intro": "A multi-model AI agent desktop client — connect any AI provider, extend with MCP & skills, control from your phone. Built with Electron + Next.js.",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "ai",
+    "anthropic",
+    "claude",
+    "claude-code",
+    "desktop-app",
+    "electron",
+    "gui",
+    "nextjs"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "op7418/CodePilot",
+    "TypeScript",
+    "ai",
+    "anthropic",
+    "claude",
+    "claude-code",
+    "desktop-app",
+    "electron"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 6124"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-02-28T12:46:04Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "github-fb3c4d0045a99b",
+  "url": "https://github.com/preset-io/agor",
+  "name": "preset-io/agor",
+  "headline": "Agor - team command center for all things agentic",
+  "intro": "Agor - team command center for all things agentic",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "agent-orchestration",
+    "agentic",
+    "ai-agents",
+    "ai-coding",
+    "ai-pair-programming",
+    "canvas",
+    "claude-code",
+    "codex"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "preset-io/agor",
+    "TypeScript",
+    "agent-orchestration",
+    "agentic",
+    "ai-agents",
+    "ai-coding",
+    "ai-pair-programming",
+    "canvas"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 1322"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-04T07:59:06Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

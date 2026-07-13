@@ -1,0 +1,41 @@
+{
+  "id": "github-8c6343b0a6817f",
+  "url": "https://github.com/jeeinn/tauri-markdown",
+  "name": "jeeinn/tauri-markdown",
+  "headline": "A simple local markdown tool, use Tauri & Vditor & Vue3",
+  "intro": "A simple local markdown tool, use Tauri & Vditor & Vue3",
+  "category": "🌐 网页与代码",
+  "subcategory": "",
+  "tags": [
+    "markdown",
+    "tauri",
+    "vditor",
+    "vue",
+    "JavaScript"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "jeeinn/tauri-markdown",
+    "JavaScript",
+    "markdown",
+    "tauri",
+    "vditor",
+    "vue"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 77"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-06-21T15:19:40Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

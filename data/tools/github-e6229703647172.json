@@ -1,0 +1,46 @@
+{
+  "id": "github-e6229703647172",
+  "url": "https://github.com/HKUDS/DeepTutor",
+  "name": "HKUDS/DeepTutor",
+  "headline": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+  "intro": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "ai-agents",
+    "ai-tutor",
+    "clawdbot",
+    "cli-tool",
+    "deepresearch",
+    "interactive-learning",
+    "large-language-models",
+    "multi-agent-systems"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "HKUDS/DeepTutor",
+    "Python",
+    "ai-agents",
+    "ai-tutor",
+    "clawdbot",
+    "cli-tool",
+    "deepresearch",
+    "interactive-learning"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 25474"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-05-03T17:25:05Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

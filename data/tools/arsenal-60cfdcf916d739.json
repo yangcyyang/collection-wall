@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-60cfdcf916d739",
+  "url": "https://xairouter.com/",
+  "name": "XAI Router",
+  "headline": "大语言模型统一API网关，提供高并发低延迟的企业级AI服务",
+  "intro": "大语言模型统一API网关，提供高并发低延迟的企业级AI服务",
+  "category": "🌍 出海与基建",
+  "subcategory": "API 中转",
+  "tags": [
+    "API",
+    "中转",
+    "API网关",
+    "SaaS",
+    "多租户",
+    "负载均衡",
+    "兼容OpenAI",
+    "中文"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "XAI Router",
+    "🌍 出海与基建",
+    "API 中转",
+    "API",
+    "中转",
+    "API网关",
+    "SaaS",
+    "多租户"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-60cfdcf916d739.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

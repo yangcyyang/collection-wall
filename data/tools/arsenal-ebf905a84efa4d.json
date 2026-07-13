@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-ebf905a84efa4d",
+  "url": "https://www.grammarly.com",
+  "name": "Grammarly",
+  "headline": "AI写作助手,语法拼写检查,文本润色增强",
+  "intro": "AI写作助手,语法拼写检查,文本润色增强",
+  "category": "✍️ 文字写作",
+  "subcategory": "写作助手",
+  "tags": [
+    "文字",
+    "润色",
+    "检测",
+    "校对",
+    "生成",
+    "免费",
+    "付费",
+    "AI生成"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Grammarly",
+    "✍️ 文字写作",
+    "写作助手",
+    "文字",
+    "润色",
+    "检测",
+    "校对",
+    "生成"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-ebf905a84efa4d.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

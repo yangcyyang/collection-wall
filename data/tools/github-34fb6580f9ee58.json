@@ -1,0 +1,46 @@
+{
+  "id": "github-34fb6580f9ee58",
+  "url": "https://github.com/AQBot-Desktop/AQBot",
+  "name": "AQBot-Desktop/AQBot",
+  "headline": "☁️ 轻量级高性能跨平台AI对话 + AI网关桌面客户端 | Lightweight, high-performance cross-platform AI dialogue + AI gateway desktop client",
+  "intro": "☁️ 轻量级高性能跨平台AI对话 + AI网关桌面客户端 | Lightweight, high-performance cross-platform AI dialogue + AI gateway desktop client",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "ai",
+    "ai-client",
+    "ai-desktop",
+    "ai-gateway",
+    "ai-platform",
+    "openclaw",
+    "tauri",
+    "tauri-app"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "AQBot-Desktop/AQBot",
+    "TypeScript",
+    "ai",
+    "ai-client",
+    "ai-desktop",
+    "ai-gateway",
+    "ai-platform",
+    "openclaw"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 703"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-05-10T10:21:02Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

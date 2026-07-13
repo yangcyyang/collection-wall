@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-f72aa38a5d3f0c",
+  "url": "https://prowritingaid.com",
+  "name": "ProWritingAid",
+  "headline": "专业的英文写作助手,提供语法、风格和故事结构检测,助力提升写作质量。",
+  "intro": "专业的英文写作助手,提供语法、风格和故事结构检测,助力提升写作质量。",
+  "category": "📚 知识与学习",
+  "subcategory": "学习平台",
+  "tags": [
+    "文字",
+    "检测",
+    "编辑",
+    "润色",
+    "免费",
+    "付费",
+    "在线工具",
+    "浏览器扩展"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "ProWritingAid",
+    "📚 知识与学习",
+    "学习平台",
+    "文字",
+    "检测",
+    "编辑",
+    "润色",
+    "免费"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-f72aa38a5d3f0c.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

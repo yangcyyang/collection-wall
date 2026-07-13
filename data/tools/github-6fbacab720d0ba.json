@@ -1,0 +1,33 @@
+{
+  "id": "github-6fbacab720d0ba",
+  "url": "https://github.com/OpenBMB/PilotDeck",
+  "name": "OpenBMB/PilotDeck",
+  "headline": "Task-oriented AI Agent productivity platform",
+  "intro": "Task-oriented AI Agent productivity platform",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "TypeScript"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "OpenBMB/PilotDeck",
+    "TypeScript"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 3808"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-05-28T14:32:44Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

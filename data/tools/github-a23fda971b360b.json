@@ -1,0 +1,46 @@
+{
+  "id": "github-a23fda971b360b",
+  "url": "https://github.com/alfredolopez80/multi-agent-ralph-loop",
+  "name": "alfredolopez80/multi-agent-ralph-loop",
+  "headline": "Autonomous orchestration framework for Claude Code with MemPalace-inspired memory (4-layer stack, 818-token wake-up), parallel-first Agent Teams (6 teammates), Aristotle First Principles methodology, and 4-stage quality gates. 925+ tests, 22 active hooks, automatic learning pipeline.",
+  "intro": "Autonomous orchestration framework for Claude Code with MemPalace-inspired memory (4-layer stack, 818-token wake-up), parallel-first Agent Teams (6 teammates), Aristotle First Principles methodology, and 4-stage quality gates. 925+ tests, 22 active hooks, automatic learning pipeline.",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "ai-orchestration",
+    "automation",
+    "bats-testing",
+    "claude-code",
+    "code-quality",
+    "codex",
+    "codex-cli",
+    "dynamic-contexts"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "alfredolopez80/multi-agent-ralph-loop",
+    "Shell",
+    "ai-orchestration",
+    "automation",
+    "bats-testing",
+    "claude-code",
+    "code-quality",
+    "codex"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 140"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-04T07:59:50Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

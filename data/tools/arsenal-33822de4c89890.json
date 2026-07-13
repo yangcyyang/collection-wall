@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-33822de4c89890",
+  "url": "https://github.com/cclank/cell-architecture-studio",
+  "name": "Cell Architecture Studio",
+  "headline": "交互式 3D 细胞结构画廊,基于 React 和 Three.js 的生物教育工具",
+  "intro": "交互式 3D 细胞结构画廊,基于 React 和 Three.js 的生物教育工具",
+  "category": "🌐 网页与代码",
+  "subcategory": "3D",
+  "tags": [
+    "3D",
+    "生物",
+    "教育",
+    "学习",
+    "交互",
+    "React",
+    "开源",
+    "网页应用"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Cell Architecture Studio",
+    "🌐 网页与代码",
+    "3D",
+    "生物",
+    "教育",
+    "学习",
+    "交互",
+    "React"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "app",
+    "TypeScript"
+  ],
+  "cover": "covers/arsenal-33822de4c89890.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 136,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：克隆仓库后运行 \\`npm install\\` 安装依赖，再用 \\`npm run dev\\` 启动本地开发服务器。",
+  "source": "xiaoer-tools-wall"
+}

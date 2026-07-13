@@ -1,0 +1,43 @@
+{
+  "id": "arsenal-8cd7ea6606cda9",
+  "url": "https://promptcard.net/",
+  "name": "PromptCard",
+  "headline": "将图片反向解析成 AI 绘图提示词的 Chrome 扩展工具",
+  "intro": "将图片反向解析成 AI 绘图提示词的 Chrome 扩展工具",
+  "category": "🎨 视觉创作",
+  "subcategory": "图像生成",
+  "tags": [
+    "文字",
+    "提取",
+    "生成",
+    "免费",
+    "浏览器扩展",
+    "AI生成",
+    "英文"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "PromptCard",
+    "🎨 视觉创作",
+    "图像生成",
+    "文字",
+    "提取",
+    "生成",
+    "免费",
+    "浏览器扩展"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 1,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

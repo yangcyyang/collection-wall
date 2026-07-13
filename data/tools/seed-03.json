@@ -1,0 +1,44 @@
+{
+  "id": "seed-03",
+  "url": "https://dribbble.com/",
+  "name": "Dribbble",
+  "headline": "设计师作品展示与灵感发现社区",
+  "intro": "全球设计师上传作品的社区平台，按标签/颜色/风格浏览界面设计、插画、品牌等灵感案例，也是招聘设计师的常用渠道。",
+  "category": "🌟 灵感与审美",
+  "subcategory": "设计灵感",
+  "tags": [
+    "设计灵感",
+    "UI灵感",
+    "作品集"
+  ],
+  "capabilities": [
+    "按标签浏览设计作品",
+    "关注设计师",
+    "按颜色搜索"
+  ],
+  "scenarios": [
+    "找不到设计方向时",
+    "想看同行怎么做时"
+  ],
+  "search_keywords": [
+    "设计灵感",
+    "dribbble",
+    "UI参考"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [
+      "Behance",
+      "Pinterest"
+    ],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/seed-03.jpg",
+  "status": "🔍 偶尔",
+  "visit_count": 5,
+  "last_visited": "2026-06-20",
+  "added_at": "2026-05-15T09:00:00",
+  "my_notes": "",
+  "source": "seed"
+}

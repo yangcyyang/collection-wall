@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-f7a17e2ff6e18b",
+  "url": "https://huggingface.co/chat/",
+  "name": "HuggingChat",
+  "headline": "集成了多种开源AI模型的免费聊天应用，提供智能模型选择与直接对话功能。",
+  "intro": "集成了多种开源AI模型的免费聊天应用，提供智能模型选择与直接对话功能。",
+  "category": "🤖 AI 大模型",
+  "subcategory": "大模型对话",
+  "tags": [
+    "文字",
+    "对话",
+    "生成",
+    "搜索",
+    "免费",
+    "开源",
+    "在线工具",
+    "AI生成"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "HuggingChat",
+    "🤖 AI 大模型",
+    "大模型对话",
+    "文字",
+    "对话",
+    "生成",
+    "搜索",
+    "免费"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-f7a17e2ff6e18b.jpg",
+  "status": "🆕 待试",
+  "visit_count": 2,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "github-c133b93b912dff",
+  "url": "https://github.com/earendil-works/pi",
+  "name": "earendil-works/pi",
+  "headline": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+  "intro": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "TypeScript"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "earendil-works/pi",
+    "TypeScript"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 69761"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-04-27T16:35:24Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

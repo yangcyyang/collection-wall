@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-deb32f01a2f54a",
+  "url": "https://www.wordtune.com",
+  "name": "Wordtune",
+  "headline": "AI写作助手, 提供文本改写、润色、语法检查与内容总结, 助你自信表达",
+  "intro": "AI写作助手, 提供文本改写、润色、语法检查与内容总结, 助你自信表达",
+  "category": "✍️ 文字写作",
+  "subcategory": "写作助手",
+  "tags": [
+    "文字",
+    "AI生成",
+    "编辑",
+    "检测",
+    "总结",
+    "翻译",
+    "免费",
+    "浏览器扩展"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Wordtune",
+    "✍️ 文字写作",
+    "写作助手",
+    "文字",
+    "AI生成",
+    "编辑",
+    "检测",
+    "总结"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-deb32f01a2f54a.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

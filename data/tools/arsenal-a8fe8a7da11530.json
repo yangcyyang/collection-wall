@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-a8fe8a7da11530",
+  "url": "https://github.com/davidhckh/portfolio-2025",
+  "name": "Portfolio (2025)",
+  "headline": "基于 Vue 3 的个人作品集网站,集成轻量级 3D 与着色器演示",
+  "intro": "基于 Vue 3 的个人作品集网站,集成轻量级 3D 与着色器演示",
+  "category": "🌟 灵感与审美",
+  "subcategory": "艺术创意编程",
+  "tags": [
+    "网页",
+    "代码",
+    "开源",
+    "英文",
+    "双语",
+    "在线工具",
+    "模板",
+    "3D"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Portfolio (2025)",
+    "🌟 灵感与审美",
+    "艺术创意编程",
+    "网页",
+    "代码",
+    "开源",
+    "英文",
+    "双语"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "app",
+    "TypeScript"
+  ],
+  "cover": "covers/arsenal-a8fe8a7da11530.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 157,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：git clone https://github.com/davidhckh/portfolio-2025.git && cd portfolio-2025 && npm install && npm run dev",
+  "source": "xiaoer-tools-wall"
+}

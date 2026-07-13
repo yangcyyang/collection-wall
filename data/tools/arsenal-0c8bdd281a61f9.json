@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-0c8bdd281a61f9",
+  "url": "https://www.spotify.com/",
+  "name": "Spotify",
+  "headline": "全球领先的音乐播客流媒体平台，海量歌曲与定制歌单",
+  "intro": "全球领先的音乐播客流媒体平台，海量歌曲与定制歌单",
+  "category": "🎮 兴趣娱乐",
+  "subcategory": "趣味",
+  "tags": [
+    "音频",
+    "播放",
+    "搜索",
+    "免费",
+    "付费",
+    "在线工具",
+    "桌面app",
+    "浏览器扩展"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Spotify",
+    "🎮 兴趣娱乐",
+    "趣味",
+    "音频",
+    "播放",
+    "搜索",
+    "免费",
+    "付费"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-0c8bdd281a61f9.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

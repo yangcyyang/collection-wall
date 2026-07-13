@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-d8b211954adc7e",
+  "url": "https://pitch.com/",
+  "name": "Pitch",
+  "headline": "AI 辅助的在线演示文稿平台，支持团队协作创建与分享专业幻灯片",
+  "intro": "AI 辅助的在线演示文稿平台，支持团队协作创建与分享专业幻灯片",
+  "category": "🛠️ 办公与效率",
+  "subcategory": "PPT 演示",
+  "tags": [
+    "PPT",
+    "生成",
+    "编辑",
+    "排版",
+    "协作",
+    "演示",
+    "在线工具",
+    "SaaS"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Pitch",
+    "🛠️ 办公与效率",
+    "PPT 演示",
+    "PPT",
+    "生成",
+    "编辑",
+    "排版",
+    "协作"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-d8b211954adc7e.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

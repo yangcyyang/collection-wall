@@ -1,0 +1,46 @@
+{
+  "id": "arsenal-9549cb4c721558",
+  "url": "https://github.com/mindfold-ai/Trellis/blob/main/README_CN.md",
+  "name": "Trellis",
+  "headline": "开源AI代理工作流框架，规范AI代码生成与管理",
+  "intro": "开源AI代理工作流框架，规范AI代码生成与管理",
+  "category": "🌐 网页与代码",
+  "subcategory": "AI 编程助手",
+  "tags": [
+    "开源",
+    "免费",
+    "AI生成",
+    "代码",
+    "CLI工具",
+    "中文",
+    "英文"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Trellis",
+    "🌐 网页与代码",
+    "AI 编程助手",
+    "开源",
+    "免费",
+    "AI生成",
+    "代码",
+    "CLI工具"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "agent",
+    "TypeScript"
+  ],
+  "cover": "covers/arsenal-9549cb4c721558.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 200,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：npm install -g @mindfoldhq/trellis@latest",
+  "source": "xiaoer-tools-wall"
+}

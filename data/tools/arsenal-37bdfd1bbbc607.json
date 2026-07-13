@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-37bdfd1bbbc607",
+  "url": "https://lumalabs.ai",
+  "name": "Luma",
+  "headline": "AI 创意智能代理，赋能多模态内容生成与协作，提升创意团队效率。",
+  "intro": "AI 创意智能代理，赋能多模态内容生成与协作，提升创意团队效率。",
+  "category": "🎨 视觉创作",
+  "subcategory": "视频生成",
+  "tags": [
+    "图像",
+    "视频",
+    "音频",
+    "3D",
+    "生成",
+    "AI生成",
+    "在线工具",
+    "API"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Luma",
+    "🎨 视觉创作",
+    "视频生成",
+    "图像",
+    "视频",
+    "音频",
+    "3D",
+    "生成"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-37bdfd1bbbc607.jpg",
+  "status": "🆕 待试",
+  "visit_count": 1,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

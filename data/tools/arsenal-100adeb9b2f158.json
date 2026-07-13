@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-100adeb9b2f158",
+  "url": "https://github.com/nexu-io/html-anything",
+  "name": "HTML Anything",
+  "headline": "本地 AI Agent 驱动的 HTML 编辑器，智能生成多种格式内容",
+  "intro": "本地 AI Agent 驱动的 HTML 编辑器，智能生成多种格式内容",
+  "category": "🎨 视觉创作",
+  "subcategory": "图像生成",
+  "tags": [
+    "网页",
+    "代码",
+    "AI生成",
+    "编辑",
+    "生成",
+    "开源",
+    "桌面app",
+    "双语"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "HTML Anything",
+    "🎨 视觉创作",
+    "图像生成",
+    "网页",
+    "代码",
+    "AI生成",
+    "编辑",
+    "生成"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "app",
+    "TypeScript"
+  ],
+  "cover": "covers/arsenal-100adeb9b2f158.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 147,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：克隆仓库后，运行 \\`pnpm install && pnpm dev\\`。需确保 PATH 中有 AI 编程 CLI。",
+  "source": "xiaoer-tools-wall"
+}

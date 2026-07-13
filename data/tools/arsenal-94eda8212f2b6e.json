@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-94eda8212f2b6e",
+  "url": "https://github.com/iamlukethedev/Claw3D",
+  "name": "Claw3D",
+  "headline": "开源 3D 虚拟办公空间，实时可视化 AI 智能体协作",
+  "intro": "开源 3D 虚拟办公空间，实时可视化 AI 智能体协作",
+  "category": "🤖 AI 大模型",
+  "subcategory": "多模态",
+  "tags": [
+    "3D",
+    "开源",
+    "英文",
+    "在线工具",
+    "AI智能体",
+    "可视化",
+    "游戏开发",
+    "Web"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Claw3D",
+    "🤖 AI 大模型",
+    "多模态",
+    "3D",
+    "开源",
+    "英文",
+    "在线工具",
+    "AI智能体"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "app",
+    "TypeScript"
+  ],
+  "cover": "covers/arsenal-94eda8212f2b6e.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 233,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：克隆仓库后运行 \\`npm install\\` 安装依赖，然后 \\`npm run dev\\` 启动项目。",
+  "source": "xiaoer-tools-wall"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "github-2c053f79bef5b5",
+  "url": "https://github.com/filecxx/FileCentipede",
+  "name": "filecxx/FileCentipede",
+  "headline": "Cross-platform internet upload/download manager for HTTP(S), FTP(S), SSH, magnet-link, BitTorrent, m3u8, ed2k, and online videos.  WebDAV client, FTP client, SSH client.",
+  "intro": "Cross-platform internet upload/download manager for HTTP(S), FTP(S), SSH, magnet-link, BitTorrent, m3u8, ed2k, and online videos.  WebDAV client, FTP client, SSH client.",
+  "category": "🎨 视觉创作",
+  "subcategory": "",
+  "tags": [
+    "bittorrent-client",
+    "bt",
+    "download",
+    "download-manager",
+    "download-videos",
+    "ftp-client",
+    "http-client",
+    "libtorrent"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "filecxx/FileCentipede",
+    "C++",
+    "bittorrent-client",
+    "bt",
+    "download",
+    "download-manager",
+    "download-videos",
+    "ftp-client"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 10894"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2024-11-11T10:51:50Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

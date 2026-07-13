@@ -1,0 +1,45 @@
+{
+  "id": "github-6cde00f1105ef9",
+  "url": "https://github.com/mcncarl/agent-memory-vault",
+  "name": "mcncarl/agent-memory-vault",
+  "headline": "Markdown-first shared memory vault for Claude Code and Codex with SQLite, Zvec, Git, closeout, and audit",
+  "intro": "Markdown-first shared memory vault for Claude Code and Codex with SQLite, Zvec, Git, closeout, and audit",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "agent-memory",
+    "claude-code",
+    "codex",
+    "obsidian",
+    "sqlite",
+    "vector-search",
+    "Python"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "mcncarl/agent-memory-vault",
+    "Python",
+    "agent-memory",
+    "claude-code",
+    "codex",
+    "obsidian",
+    "sqlite",
+    "vector-search"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 145"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-03T15:39:50Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

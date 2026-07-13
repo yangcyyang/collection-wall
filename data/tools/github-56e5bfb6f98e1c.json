@@ -1,0 +1,43 @@
+{
+  "id": "github-56e5bfb6f98e1c",
+  "url": "https://github.com/mindfold-ai/Trellis",
+  "name": "mindfold-ai/Trellis",
+  "headline": "The best agent harness.",
+  "intro": "The best agent harness.",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "agentic-coding",
+    "ai-workflow",
+    "claudecode",
+    "codex",
+    "harness",
+    "TypeScript"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "mindfold-ai/Trellis",
+    "TypeScript",
+    "agentic-coding",
+    "ai-workflow",
+    "claudecode",
+    "codex",
+    "harness"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 12322"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-10T17:38:27Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

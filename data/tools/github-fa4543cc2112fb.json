@@ -1,0 +1,46 @@
+{
+  "id": "github-fa4543cc2112fb",
+  "url": "https://github.com/chuspeeism/dashiAI-ppt-skill",
+  "name": "chuspeeism/dashiAI-ppt-skill",
+  "headline": "An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTML, PDF, and PPTX.",
+  "intro": "An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTML, PDF, and PPTX.",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "agent-skill",
+    "ai-agent",
+    "ai-ppt",
+    "claude",
+    "claude-code",
+    "html-presentation",
+    "ppt",
+    "pptx"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "chuspeeism/dashiAI-ppt-skill",
+    "JavaScript",
+    "agent-skill",
+    "ai-agent",
+    "ai-ppt",
+    "claude",
+    "claude-code",
+    "html-presentation"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 2476"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-09T07:33:49Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

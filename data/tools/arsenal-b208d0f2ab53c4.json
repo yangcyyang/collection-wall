@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-b208d0f2ab53c4",
+  "url": "https://poe.com/",
+  "name": "Poe",
+  "headline": "聚合多款顶尖AI大模型聊天平台，支持私聊与群聊",
+  "intro": "聚合多款顶尖AI大模型聊天平台，支持私聊与群聊",
+  "category": "🤖 AI 大模型",
+  "subcategory": "大模型对话",
+  "tags": [
+    "文字",
+    "聊天",
+    "生成",
+    "付费",
+    "试用",
+    "在线工具",
+    "AI生成",
+    "SaaS"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Poe",
+    "🤖 AI 大模型",
+    "大模型对话",
+    "文字",
+    "聊天",
+    "生成",
+    "付费",
+    "试用"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-b208d0f2ab53c4.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

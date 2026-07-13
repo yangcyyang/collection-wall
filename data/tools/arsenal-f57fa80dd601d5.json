@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-f57fa80dd601d5",
+  "url": "https://app.klingai.com/",
+  "name": "可灵 Kling AI",
+  "headline": "快手自研AI视频生成大模型，开启高效便捷艺术视频创作",
+  "intro": "快手自研AI视频生成大模型，开启高效便捷艺术视频创作",
+  "category": "🎨 视觉创作",
+  "subcategory": "视频生成",
+  "tags": [
+    "AI视频",
+    "图像生成",
+    "文生视频",
+    "图生视频",
+    "大模型",
+    "快手",
+    "AIGC",
+    "视频创作"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "可灵 Kling AI",
+    "🎨 视觉创作",
+    "视频生成",
+    "AI视频",
+    "图像生成",
+    "文生视频",
+    "图生视频",
+    "大模型"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-f57fa80dd601d5.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

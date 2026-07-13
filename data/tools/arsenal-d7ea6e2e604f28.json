@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-d7ea6e2e604f28",
+  "url": "https://github.com/lightningpixel/modly",
+  "name": "Modly",
+  "headline": "免费本地AI桌面应用，将照片转为3D模型",
+  "intro": "免费本地AI桌面应用，将照片转为3D模型",
+  "category": "🎨 视觉创作",
+  "subcategory": "3D",
+  "tags": [
+    "3D 模型生成",
+    "AI 图像转3D",
+    "本地运行",
+    "开源",
+    "桌面应用",
+    "GPU加速",
+    "隐私保护",
+    "免费"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Modly",
+    "🎨 视觉创作",
+    "3D",
+    "3D 模型生成",
+    "AI 图像转3D",
+    "本地运行",
+    "开源",
+    "桌面应用"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "app",
+    "TypeScript"
+  ],
+  "cover": "covers/arsenal-d7ea6e2e604f28.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 134,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：前往GitHub Releases页面下载适用于Windows或Linux的安装包",
+  "source": "xiaoer-tools-wall"
+}

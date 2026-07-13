@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-9603638d64b71b",
+  "url": "https://windsurf.ai",
+  "name": "Windsurf",
+  "headline": "面向开发者和企业的高级 AI 编程助手，提供 AI-native IDE",
+  "intro": "面向开发者和企业的高级 AI 编程助手，提供 AI-native IDE",
+  "category": "🌐 网页与代码",
+  "subcategory": "AI 编程助手",
+  "tags": [
+    "AI生成",
+    "代码",
+    "生成",
+    "编辑",
+    "桌面app",
+    "SaaS",
+    "付费",
+    "企业级"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Windsurf",
+    "🌐 网页与代码",
+    "AI 编程助手",
+    "AI生成",
+    "代码",
+    "生成",
+    "编辑",
+    "桌面app"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-9603638d64b71b.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-0f9de0b4b19391",
+  "url": "https://quillbot.com",
+  "name": "QuillBot",
+  "headline": "综合AI写作与多媒体创作平台,支持文本改写、AI检测和图像生成。",
+  "intro": "综合AI写作与多媒体创作平台,支持文本改写、AI检测和图像生成。",
+  "category": "🔊 声音",
+  "subcategory": "音乐生成",
+  "tags": [
+    "文字",
+    "图像",
+    "改写",
+    "语法检查",
+    "生成",
+    "检测",
+    "在线工具",
+    "AI生成"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "QuillBot",
+    "🔊 声音",
+    "音乐生成",
+    "文字",
+    "图像",
+    "改写",
+    "语法检查",
+    "生成"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-0f9de0b4b19391.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

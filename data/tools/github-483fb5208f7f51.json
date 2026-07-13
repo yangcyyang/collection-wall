@@ -1,0 +1,33 @@
+{
+  "id": "github-483fb5208f7f51",
+  "url": "https://github.com/mucsbr/ppt-agent-workflow-san",
+  "name": "mucsbr/ppt-agent-workflow-san",
+  "headline": "渐进交互式ppt生成skill",
+  "intro": "渐进交互式ppt生成skill",
+  "category": "🌐 网页与代码",
+  "subcategory": "",
+  "tags": [
+    "JavaScript"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "mucsbr/ppt-agent-workflow-san",
+    "JavaScript"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 614"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-06-11T01:49:42Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

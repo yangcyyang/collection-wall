@@ -1,0 +1,33 @@
+{
+  "id": "github-b4bcdd04bf1727",
+  "url": "https://github.com/jackwener/wx-cli",
+  "name": "jackwener/wx-cli",
+  "headline": "WeChat local data CLI with daemon architecture",
+  "intro": "WeChat local data CLI with daemon architecture",
+  "category": "🛠️ 办公与效率",
+  "subcategory": "",
+  "tags": [
+    "Rust"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "jackwener/wx-cli",
+    "Rust"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 3894"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-04-18T14:37:53Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

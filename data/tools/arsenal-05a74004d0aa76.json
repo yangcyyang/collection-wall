@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-05a74004d0aa76",
+  "url": "https://github.com/earthtojake/text-to-cad",
+  "name": "text-to-cad",
+  "headline": "AI智能体CAD技能集,实现文本到3D模型和机器人硬件设计",
+  "intro": "AI智能体CAD技能集,实现文本到3D模型和机器人硬件设计",
+  "category": "🤖 AI 大模型",
+  "subcategory": "多模态",
+  "tags": [
+    "3D",
+    "AI生成",
+    "代码",
+    "生成",
+    "开源",
+    "在线工具",
+    "API",
+    "转换"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "text-to-cad",
+    "🤖 AI 大模型",
+    "多模态",
+    "3D",
+    "AI生成",
+    "代码",
+    "生成",
+    "开源"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "agent",
+    "JavaScript"
+  ],
+  "cover": "covers/arsenal-05a74004d0aa76.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 160,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：npx skills add earthtojake/text-to-cad",
+  "source": "xiaoer-tools-wall"
+}

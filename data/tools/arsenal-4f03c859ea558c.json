@@ -1,0 +1,46 @@
+{
+  "id": "arsenal-4f03c859ea558c",
+  "url": "https://github.com/alexmcdonnell-airtable/hyperagent-public-skills",
+  "name": "Hyperagent Public Skills",
+  "headline": "免费开源 Hyperagent 技能库，赋能 AI Agent 自动化多样任务与内容生成",
+  "intro": "免费开源 Hyperagent 技能库，赋能 AI Agent 自动化多样任务与内容生成",
+  "category": "🌐 网页与代码",
+  "subcategory": "开发工具",
+  "tags": [
+    "AI生成",
+    "自动化",
+    "Agent",
+    "技能",
+    "免费",
+    "开源",
+    "JSON模板",
+    "API集成"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Hyperagent Public Skills",
+    "🌐 网页与代码",
+    "开发工具",
+    "AI生成",
+    "自动化",
+    "Agent",
+    "技能",
+    "免费"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "skill"
+  ],
+  "cover": "covers/arsenal-4f03c859ea558c.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 225,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：下载 JSON 文件，并通过 Hyperagent 平台加载使用",
+  "source": "xiaoer-tools-wall"
+}

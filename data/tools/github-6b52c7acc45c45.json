@@ -1,0 +1,45 @@
+{
+  "id": "github-6b52c7acc45c45",
+  "url": "https://github.com/yizhiyanhua-ai/fireworks-tech-graph",
+  "name": "yizhiyanhua-ai/fireworks-tech-graph",
+  "headline": "Generate production-quality SVG+PNG technical diagrams from natural language. 7 styles, UML support, and AI/Agent workflow patterns.",
+  "intro": "Generate production-quality SVG+PNG technical diagrams from natural language. 7 styles, UML support, and AI/Agent workflow patterns.",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "agent-workflows",
+    "ai",
+    "claude-code",
+    "developer-tools",
+    "diagrams",
+    "svg",
+    "Python"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "yizhiyanhua-ai/fireworks-tech-graph",
+    "Python",
+    "agent-workflows",
+    "ai",
+    "claude-code",
+    "developer-tools",
+    "diagrams",
+    "svg"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 8582"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-06-20T17:14:38Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

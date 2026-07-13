@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-d8ff876dfb1ead",
+  "url": "https://github.com/nexu-io/open-design",
+  "name": "Open Design",
+  "headline": "本地运行、开源的 AI 驱动设计工具，集成多种编码助手生成网页、应用原型",
+  "intro": "本地运行、开源的 AI 驱动设计工具，集成多种编码助手生成网页、应用原型",
+  "category": "🌐 网页与代码",
+  "subcategory": "开发工具",
+  "tags": [
+    "AI生成",
+    "网页",
+    "原型设计",
+    "代码",
+    "开源",
+    "桌面app",
+    "设计系统",
+    "本地运行"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Open Design",
+    "🌐 网页与代码",
+    "开发工具",
+    "AI生成",
+    "网页",
+    "原型设计",
+    "代码",
+    "开源"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "app",
+    "TypeScript"
+  ],
+  "cover": "covers/arsenal-d8ff876dfb1ead.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 134,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：git clone 仓库，使用 pnpm 安装依赖，并通过 pnpm tools-dev 启动本地设计工作流。",
+  "source": "xiaoer-tools-wall"
+}

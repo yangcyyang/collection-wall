@@ -1,0 +1,45 @@
+{
+  "id": "github-0460241781c234",
+  "url": "https://github.com/adobe/react-spectrum",
+  "name": "adobe/react-spectrum",
+  "headline": "A collection of libraries and tools that help you build adaptive, accessible, and robust user experiences.",
+  "intro": "A collection of libraries and tools that help you build adaptive, accessible, and robust user experiences.",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "accessibility",
+    "design-systems",
+    "react",
+    "react-components",
+    "ui-components",
+    "wai-aria",
+    "TypeScript"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "adobe/react-spectrum",
+    "TypeScript",
+    "accessibility",
+    "design-systems",
+    "react",
+    "react-components",
+    "ui-components",
+    "wai-aria"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 15657"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-06-11T16:58:22Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

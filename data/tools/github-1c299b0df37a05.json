@@ -1,0 +1,33 @@
+{
+  "id": "github-1c299b0df37a05",
+  "url": "https://github.com/multica-ai/multica",
+  "name": "multica-ai/multica",
+  "headline": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+  "intro": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "Go"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "multica-ai/multica",
+    "Go"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 39913"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-04-09T15:07:47Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

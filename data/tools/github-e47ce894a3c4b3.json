@@ -1,0 +1,33 @@
+{
+  "id": "github-e47ce894a3c4b3",
+  "url": "https://github.com/chenhg5/cc-connect",
+  "name": "chenhg5/cc-connect",
+  "headline": "Bridge local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Feishu/Lark, DingTalk, Slack, Telegram, Discord, LINE, WeChat Work). Chat with your AI dev assistant from anywhere — no public IP required for most platforms.",
+  "intro": "Bridge local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Feishu/Lark, DingTalk, Slack, Telegram, Discord, LINE, WeChat Work). Chat with your AI dev assistant from anywhere — no public IP required for most platforms.",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "Go"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "chenhg5/cc-connect",
+    "Go"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 13835"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-05-06T18:10:30Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

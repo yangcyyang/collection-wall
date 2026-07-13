@@ -1,0 +1,46 @@
+{
+  "id": "github-f16b4a0310f115",
+  "url": "https://github.com/yangzongzhuan/RuoYi-fast",
+  "name": "yangzongzhuan/RuoYi-fast",
+  "headline": ":tada: (RuoYi)官方仓库 基于SpringBoot的权限管理系统 易读易懂、界面简洁美观。 核心技术采用Spring、MyBatis、Shiro没有任何其它重度依赖。直接运行即可用",
+  "intro": ":tada: (RuoYi)官方仓库 基于SpringBoot的权限管理系统 易读易懂、界面简洁美观。 核心技术采用Spring、MyBatis、Shiro没有任何其它重度依赖。直接运行即可用",
+  "category": "🌐 网页与代码",
+  "subcategory": "",
+  "tags": [
+    "activiti",
+    "bootstrap",
+    "bootstrap-table",
+    "druid",
+    "hplus",
+    "hutool",
+    "java",
+    "jquery"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "yangzongzhuan/RuoYi-fast",
+    "HTML",
+    "activiti",
+    "bootstrap",
+    "bootstrap-table",
+    "druid",
+    "hplus",
+    "hutool"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 507"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-05-30T14:36:04Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

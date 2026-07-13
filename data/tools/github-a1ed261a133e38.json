@@ -1,0 +1,33 @@
+{
+  "id": "github-a1ed261a133e38",
+  "url": "https://github.com/sdi2200262/agentic-project-management",
+  "name": "sdi2200262/agentic-project-management",
+  "headline": "A framework for managing complex projects with spec-driven multi-agent workflows.",
+  "intro": "A framework for managing complex projects with spec-driven multi-agent workflows.",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "JavaScript"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "sdi2200262/agentic-project-management",
+    "JavaScript"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 2354"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-06-13T06:52:35Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

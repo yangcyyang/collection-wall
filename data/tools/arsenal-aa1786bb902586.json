@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-aa1786bb902586",
+  "url": "https://mistral.ai/",
+  "name": "Mistral AI",
+  "headline": "企业级AI平台，提供大型语言模型与定制化AI解决方案",
+  "intro": "企业级AI平台，提供大型语言模型与定制化AI解决方案",
+  "category": "🤖 AI 大模型",
+  "subcategory": "大模型对话",
+  "tags": [
+    "AI生成",
+    "大型语言模型",
+    "企业级",
+    "SaaS",
+    "API",
+    "模型训练",
+    "定制化",
+    "英文"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Mistral AI",
+    "🤖 AI 大模型",
+    "大模型对话",
+    "AI生成",
+    "大型语言模型",
+    "企业级",
+    "SaaS",
+    "API"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-aa1786bb902586.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

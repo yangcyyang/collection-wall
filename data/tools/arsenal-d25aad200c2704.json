@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-d25aad200c2704",
+  "url": "https://github.com/lixiaolin94/skills",
+  "name": "Claude Agent Skills",
+  "headline": "AI 代理技能集合,为 Claude Code 赋能",
+  "intro": "AI 代理技能集合,为 Claude Code 赋能",
+  "category": "🌐 网页与代码",
+  "subcategory": "AI 编程助手",
+  "tags": [
+    "AI生成",
+    "Agent",
+    "代码",
+    "开源",
+    "免费",
+    "英文",
+    "提取",
+    "周报"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Claude Agent Skills",
+    "🌐 网页与代码",
+    "AI 编程助手",
+    "AI生成",
+    "Agent",
+    "代码",
+    "开源",
+    "免费"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "skill",
+    "Shell"
+  ],
+  "cover": "covers/arsenal-d25aad200c2704.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 235,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：通过 npm 安装 skills CLI 后，使用 \\`npx skills add <repo_url>\\` 安装整个技能库或指定技能",
+  "source": "xiaoer-tools-wall"
+}

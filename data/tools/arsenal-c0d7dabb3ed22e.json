@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-c0d7dabb3ed22e",
+  "url": "https://animejs.com/",
+  "name": "Anime.js",
+  "headline": "快速灵活的 JavaScript 动画引擎，用于创建网页动效和交互。",
+  "intro": "快速灵活的 JavaScript 动画引擎，用于创建网页动效和交互。",
+  "category": "🌐 网页与代码",
+  "subcategory": "组件",
+  "tags": [
+    "网页",
+    "代码",
+    "生成",
+    "编辑",
+    "免费",
+    "开源",
+    "API",
+    "英文"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Anime.js",
+    "🌐 网页与代码",
+    "组件",
+    "网页",
+    "代码",
+    "生成",
+    "编辑",
+    "免费"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-c0d7dabb3ed22e.jpg",
+  "status": "🆕 待试",
+  "visit_count": 2,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：npm i animejs",
+  "source": "xiaoer-tools-wall"
+}

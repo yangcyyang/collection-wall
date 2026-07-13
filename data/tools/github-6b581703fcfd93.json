@@ -1,0 +1,39 @@
+{
+  "id": "github-6b581703fcfd93",
+  "url": "https://github.com/codephage2020/slock-desktop",
+  "name": "codephage2020/slock-desktop",
+  "headline": "Slock workspace client for macOS.",
+  "intro": "Slock workspace client for macOS.",
+  "category": "🛠️ 办公与效率",
+  "subcategory": "",
+  "tags": [
+    "desktop-app",
+    "rust",
+    "slock",
+    "Rust"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "codephage2020/slock-desktop",
+    "Rust",
+    "desktop-app",
+    "rust",
+    "slock"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 27"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-04-25T07:24:49Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

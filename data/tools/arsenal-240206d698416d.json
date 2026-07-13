@@ -1,0 +1,44 @@
+{
+  "id": "arsenal-240206d698416d",
+  "url": "https://learnopencode.com/",
+  "name": "OpenCode",
+  "headline": "免费开源AI编程助手与实战教程，用AI写代码、改Bug、自动化办公。",
+  "intro": "免费开源AI编程助手与实战教程，用AI写代码、改Bug、自动化办公。",
+  "category": "🌐 网页与代码",
+  "subcategory": "AI 编程助手",
+  "tags": [
+    "代码",
+    "生成",
+    "免费",
+    "开源",
+    "中文",
+    "国产",
+    "AI生成",
+    "编程助手"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "OpenCode",
+    "🌐 网页与代码",
+    "AI 编程助手",
+    "代码",
+    "生成",
+    "免费",
+    "开源",
+    "中文"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-240206d698416d.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

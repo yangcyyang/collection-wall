@@ -1,0 +1,46 @@
+{
+  "id": "github-82d9a3e2f37b37",
+  "url": "https://github.com/sipyourdrink-ltd/bernstein",
+  "name": "sipyourdrink-ltd/bernstein",
+  "headline": "Audit-grade multi-agent orchestration for CLI coding agents (Claude Code, Codex, Gemini CLI, +40 more). HMAC-chained audit log, signed agent cards, per-artefact lineage, air-gap deploy. The orchestrator your compliance team will sign off on. https://bernstein.run",
+  "intro": "Audit-grade multi-agent orchestration for CLI coding agents (Claude Code, Codex, Gemini CLI, +40 more). HMAC-chained audit log, signed agent cards, per-artefact lineage, air-gap deploy. The orchestrator your compliance team will sign off on. https://bernstein.run",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "agent-framework",
+    "agent-orchestrator",
+    "agentic-ai",
+    "ai-agents",
+    "ai-coding",
+    "aider",
+    "anthropic",
+    "claude-code"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "sipyourdrink-ltd/bernstein",
+    "Python",
+    "agent-framework",
+    "agent-orchestrator",
+    "agentic-ai",
+    "ai-agents",
+    "ai-coding",
+    "aider"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 659"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-04T07:59:03Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

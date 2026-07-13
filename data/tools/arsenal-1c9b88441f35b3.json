@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-1c9b88441f35b3",
+  "url": "https://github.com/nolangz/pixel2motion",
+  "name": "Pixel2Motion",
+  "headline": "AI 动效工具，将栅格 Logo 转为平滑 SVG 动画和 HTML 演示",
+  "intro": "AI 动效工具，将栅格 Logo 转为平滑 SVG 动画和 HTML 演示",
+  "category": "🎨 视觉创作",
+  "subcategory": "3D",
+  "tags": [
+    "图像",
+    "视频",
+    "代码",
+    "AI生成",
+    "开源",
+    "转换",
+    "动效",
+    "英文"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Pixel2Motion",
+    "🎨 视觉创作",
+    "3D",
+    "图像",
+    "视频",
+    "代码",
+    "AI生成",
+    "开源"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "skill",
+    "Python"
+  ],
+  "cover": "covers/arsenal-1c9b88441f35b3.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 225,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：git clone 仓库, pip install pillow numpy playwright, 然后运行 Python 脚本。",
+  "source": "xiaoer-tools-wall"
+}

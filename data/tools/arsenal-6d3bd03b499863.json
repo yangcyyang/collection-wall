@@ -1,0 +1,47 @@
+{
+  "id": "arsenal-6d3bd03b499863",
+  "url": "https://github.com/calesthio/OpenMontage",
+  "name": "OpenMontage",
+  "headline": "开源 Agentic 视频制作系统，通过 AI 助手自动化视频生产流程",
+  "intro": "开源 Agentic 视频制作系统，通过 AI 助手自动化视频生产流程",
+  "category": "🤖 AI 大模型",
+  "subcategory": "多模态",
+  "tags": [
+    "视频",
+    "AI生成",
+    "开源",
+    "Agent",
+    "文本转视频",
+    "视频制作",
+    "多模态",
+    "API"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "OpenMontage",
+    "🤖 AI 大模型",
+    "多模态",
+    "视频",
+    "AI生成",
+    "开源",
+    "Agent",
+    "文本转视频"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "agent",
+    "Python"
+  ],
+  "cover": "covers/arsenal-6d3bd03b499863.jpg",
+  "status": "⭐ 高频",
+  "visit_count": 248,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "使用方式：git clone https://github.com/calesthio/OpenMontage.git && cd OpenMontage && pip install -r requirements.txt",
+  "source": "xiaoer-tools-wall"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "github-e4a146211fbdce",
+  "url": "https://github.com/kevinchin12/ImageLens",
+  "name": "kevinchin12/ImageLens",
+  "headline": "一个可以帮你快速反推出网页上图片的提示词，并快速生图测试提示词效果的插件。A Chrome extension to reverse-engineer prompts from web images and instantly validate them via live generation.",
+  "intro": "一个可以帮你快速反推出网页上图片的提示词，并快速生图测试提示词效果的插件。A Chrome extension to reverse-engineer prompts from web images and instantly validate them via live generation.",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "ai-tools",
+    "browser-extension",
+    "chrome-extension",
+    "gemini",
+    "generative-ai",
+    "image-analysis",
+    "image-generation",
+    "image-to-prompt"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "kevinchin12/ImageLens",
+    "JavaScript",
+    "ai-tools",
+    "browser-extension",
+    "chrome-extension",
+    "gemini",
+    "generative-ai",
+    "image-analysis"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 142"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-05-09T12:43:57Z",
+  "my_notes": "",
+  "source": "github-stars"
+}

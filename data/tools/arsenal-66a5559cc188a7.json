@@ -1,0 +1,43 @@
+{
+  "id": "arsenal-66a5559cc188a7",
+  "url": "https://tonejs.github.io/",
+  "name": "Tone.js",
+  "headline": "轻量级 JavaScript Web Audio 框架，用于在浏览器中创建交互式音乐和音频应用",
+  "intro": "轻量级 JavaScript Web Audio 框架，用于在浏览器中创建交互式音乐和音频应用",
+  "category": "🔊 声音",
+  "subcategory": "音频处理",
+  "tags": [
+    "音频",
+    "生成",
+    "合成",
+    "调度",
+    "JavaScript",
+    "开源",
+    "API"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Tone.js",
+    "🔊 声音",
+    "音频处理",
+    "音频",
+    "生成",
+    "合成",
+    "调度",
+    "JavaScript"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": "covers/arsenal-66a5559cc188a7.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-12T08:05:07.855Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

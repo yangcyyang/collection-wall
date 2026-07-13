@@ -1,0 +1,46 @@
+{
+  "id": "github-3113b966f9473d",
+  "url": "https://github.com/jackwener/OpenCLI",
+  "name": "jackwener/OpenCLI",
+  "headline": "Make Any Website into CLI & Use your logged-in browser by AI agent.",
+  "intro": "Make Any Website into CLI & Use your logged-in browser by AI agent.",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "ai-agent",
+    "ai-agents",
+    "ai-tools",
+    "browser-automation",
+    "browser-use",
+    "cli",
+    "playwright",
+    "JavaScript"
+  ],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "jackwener/OpenCLI",
+    "JavaScript",
+    "ai-agent",
+    "ai-agents",
+    "ai-tools",
+    "browser-automation",
+    "browser-use",
+    "cli"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "GitHub ★ 26505"
+  ],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-03-26T01:32:00Z",
+  "my_notes": "",
+  "source": "github-stars"
+}
