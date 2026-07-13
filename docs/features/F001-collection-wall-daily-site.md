@@ -124,6 +124,12 @@ cy 每天会发现值得收藏的网站/工具，也需要固定来源的 AI 日
 
 关键词搜索、标签筛选、单条分享、移动端适配、IM 推送摘要。
 
+优化项（cy 2026-07-13 提出，排在菜单栏开关之后）：
+- 卡片 hover 动效对齐参考站：上浮 + 8px 实心硬阴影。实现直接复用本地克隆
+  `/Users/cy/Projects/website-clones/xiaoer-tools-wall-clone/components/ToolCard.tsx:18`
+  （`hover:-translate-y-0.5` + `hover:shadow-[8px_8px_0_var(--card-shadow)]` + hard-card 基础样式），
+  移植到 `site/src/styles/global.css` 的 `.tool-card`，替换现有柔和投影。
+
 ## Dependencies（待 cy 提供）
 
 1. **DeepSeek API key**：Phase 1 开始前给到即可（Phase 0 不需要）。给到后写入本地 `.env`，不进 git、不贴聊天记录归档
