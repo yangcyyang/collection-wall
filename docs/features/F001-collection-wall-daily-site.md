@@ -151,6 +151,18 @@ cy 每天会发现值得收藏的网站/工具，也需要固定来源的 AI 日
 | AI key 网络可达性 | 分析环节不稳 | 调用层做重试+超时；必要时换模型供应商 |
 | 截图/分析成本 | 每条收藏一次调用，成本可控但需监控 | 日报每日一批；成本记入日志，周度回顾 |
 
+## Phase 1 跨家族审查记录（Pi，2026-07-13）
+
+结论：🟡 放行。密钥安全全项通过（.env 未进 git、历史无泄漏）；多 Profile 书签发现覆盖良好（7 个 Profile 在监听）。
+
+整改排期（宪宪定）：
+| 编号 | 严重度 | 问题 | 排期 |
+|---|---|---|---|
+| R-1 | P1 | AI 分析失败时收藏无声丢失、不重试 | **菜单栏 App 之后立即修**（先于卡片动效）：失败时写 `capture_status:"failed"` 占位 JSON + 失败重试队列 |
+| R-2 | P3 | watcher 引用了不存在的 feedback_collector.py，后台线程每 30 分钟空转报错 | 与 R-1 同批修（移除引用） |
+| R-3 | P3 | git push 失败只记日志不重排 | 与 R-1 同批修（_flush 失败后重新 schedule，一行改动）；单用户风险低 |
+| R-4 | P4 | visit_count 只查 Default Profile 的 History | 记入 Phase 2+ backlog |
+
 ## Open Questions
 
 - [x] Obsidian vault 具体路径 → `OrbitOS-CN/400知识库/`
