@@ -1,0 +1,76 @@
+{
+  "id": "eab2d6ca-6ecd-42f2-8cba-24d88cec3d6c",
+  "url": "https://aihot.virxact.com/items/cmrka3jld050tbiw29heoy5nl",
+  "name": "Grok Build",
+  "headline": "AI编程agent，本地优先但曾被曝上传用户代码",
+  "intro": "Grok Build是SpaceXAI旗下的AI编程agent，于2025年5月上线，主打本地优先（local-first）理念，旨在帮助开发者自动完成编码任务。然而，2026年7月，独立安全研究者通过钓鱼仓库证实，即使用户关闭“帮助改进模型”开关，Grok Build仍会将整个代码仓库上传至Google Cloud存储桶，传输量是正常对话的27,800倍。事件曝光后，Elon Musk亲自承认并承诺彻底删除所有此前上传的用户数据，同时上线/privacy命令供用户一键关闭数据留存并追溯删除。",
+  "category": "🌐 网页与代码",
+  "subcategory": "AI 编程助手",
+  "tags": [
+    "AI编程助手",
+    "代码安全",
+    "隐私泄露",
+    "本地优先",
+    "Agentic Coding",
+    "SpaceXAI",
+    "Grok Build",
+    "数据删除"
+  ],
+  "capabilities": [
+    "自动编写代码",
+    "读取代码仓库",
+    "修改代码文件",
+    "执行命令行",
+    "生成代码建议",
+    "理解项目结构"
+  ],
+  "scenarios": [
+    "在使用AI编程助手时担心代码隐私",
+    "评估AI编程工具的数据安全策略",
+    "寻找本地优先的AI编程agent",
+    "研究AI编程工具的数据传输行为"
+  ],
+  "search_keywords": [
+    "Grok Build 隐私",
+    "AI编程工具上传代码",
+    "本地优先AI编程",
+    "SpaceXAI 数据泄露",
+    "AI agent 代码安全",
+    "Grok Build 数据删除",
+    "AI编程信任危机",
+    "Agentic Coding 隐私",
+    "代码仓库上传",
+    "AI编程工具安全评估"
+  ],
+  "alternatives": {
+    "replaces": [
+      "GitHub Copilot",
+      "Cursor",
+      "Codeium"
+    ],
+    "similar_to": [
+      "GitHub Copilot",
+      "Cursor",
+      "Codeium",
+      "Tabnine"
+    ],
+    "pairs_with": [
+      "VS Code",
+      "JetBrains IDE",
+      "GitHub"
+    ]
+  },
+  "tech_highlights": [
+    "本地优先架构",
+    "端到端加密",
+    "数据追溯删除",
+    "隐私命令/privacy"
+  ],
+  "cover": "covers/eab2d6ca-6ecd-42f2-8cba-24d88cec3d6c.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-14T17:08:03",
+  "my_notes": "",
+  "capture_status": "ok"
+}
