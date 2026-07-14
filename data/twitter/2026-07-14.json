@@ -1,12 +1,26 @@
 {
   "schema_version": 1,
   "date": "2026-07-14",
-  "generated_at": "2026-07-14T08:10:39Z",
+  "generated_at": "2026-07-14T08:15:54Z",
   "source": {
     "type": "following_timeline",
     "method": "opencli twitter search filter:follows",
     "account": "yangcyyang1",
     "window_hours": 24
+  },
+  "selection": {
+    "target_count": 30,
+    "actual_count": 13,
+    "note": "质量优先：硬规则过滤后今日关注流仅保留 AI/产品向可写条目；title/summary/recommend_reason/tags 均由荧荧逐条阅读生成，非脚本模板。",
+    "criteria": [
+      "禁促销",
+      "禁非AI生活/娱乐",
+      "禁股票建仓类",
+      "禁怀旧旧闻",
+      "作者≤2",
+      "字段由LLM逐条生成",
+      "英文内容中文化"
+    ]
   },
   "items": [
     {
@@ -15,7 +29,7 @@
       "author": "xiaohu",
       "author_bio": "带你了解全球最前沿科技、AI动态...\n\nAI 精华，讲到你懂：https://t.co/nvuDIvoNg1",
       "text": "Anthropic 分析了 30 万段对话发现：\n\n使用不同语言问 Claude，它会表现出不同的价值观\n\n英语：最谨慎，也最深入\n俄语：最严格：挑战假设、纠正细节、要证据\n印地语：最温暖\n荷兰语：最坦率，比如会承认自己的错\n印尼语：最偏执行\n阿拉伯语：最顺从、最简洁，也明显偏温暖\n\n相对所有对话的平均水平，中文的偏移都很小\n\n中文对话中最有辨识度的三个行为是：\n\n会指出相互竞争的考虑因素；\n反驳错误假设；\n不带评判地提供安慰。\n\n这组结果相当有意思：\n\n中文 Claude 不是特别讨好，也不是特别冷硬；它更像一个会提醒你“事情没那么简单”、会列出正反因素，但仍然保持安慰性表达的顾问。\n\n也就是我们说的：中庸！",
-      "summary": "Anthropic 分析了 30 万段对话发现：  使用不同语言问 Claude，它会表现出不同的价值观  英语：最谨慎，也最深入 俄语：最严格：挑战假设、纠正细节、要证据 印地语：最温暖 荷兰语：最坦率，比如会承认自己的错 印尼语：最偏执行 阿拉伯语：最顺从、最简洁，也明显偏温暖  相对所有对话的平均水平，中文的偏移都很小  中文对话中最有辨识度的三…",
+      "summary": "Anthropic 基于约 30 万段对话发现：英语更谨慎深入，俄语更爱挑战假设，印地语更温暖，荷兰语更坦率；中文偏移小，更像会列正反因素并安慰的“中庸顾问”。",
       "url": "https://x.com/i/status/2076916077658091658",
       "created_at": "2026-07-14T06:25:54Z",
       "likes": 68,
@@ -24,155 +38,94 @@
       "media_urls": [
         "https://pbs.twimg.com/media/HNKv_Pha8AA81iS.jpg"
       ],
-      "score": 18.22,
-      "recommend_reason": "@xiaohu 的中文讨论信息密度够，适合扫一眼跟进。",
+      "score": 16.8,
+      "recommend_reason": "一手研究摘要，直接回答“中文 Claude 到底什么脾气”，产品/提示词设计都能用。",
       "tags": [
-        "Anthropic"
+        "Anthropic",
+        "Claude",
+        "研究",
+        "多语言"
       ],
-      "title": "Anthropic 分析了 30 万段对话发现：  使用…"
+      "title": "用不同语言问 Claude，它会表现出不同的价值观"
     },
     {
       "rank": 2,
-      "id": "2076928999813726484",
-      "author": "yijiangren",
-      "author_bio": "01年 / UI/UX Designer / Trader / INTJ\n8年交易经验，19年进Web3，24年A7，25年1011保住全部本金\n投资 ✖️ Web3 ✖️ AI\n不会做设计的内容创作者不是一名好的交易员\n三建理论创始人 建模 健身 建仓\nTG：@yijiangren",
-      "text": "甲骨文：为什么跌到今天这个地步\n\n从今天开始建仓 $ORCL  慢慢买\n\n截至昨天收盘，甲骨文股价跌到131.54，单日下跌6.47%。\n而在去年9月10号，收盘价一度达到324.63。\n\n十个月时间，接近60%的市值蒸发。\n\n其实，甲骨文最近公布的业务数据很好。\n\n2026财年第四季度，甲骨文营收达到192亿美元，同比增长21%；云业务收入99亿美元，同比增长47%；其中最受关注的云基础设施OCI收入达到58亿美元，同比增长93%。\n\n给大家解释一下财年的概念：甲骨文的财年截止日是每年 5月31日。\n\n所以\n2026财年是2025年6月1日—2026年5月31日\n2026财年第四季度大约是2026年3月—5月\n\n公司尚未确认的剩余履约义务，也就是RPO，已经达到6380亿美元。\n一家云基础设施收入接近翻倍、订单排到几百亿美元之外的公司，为什么会跌成这样？\n答案藏在另一个数字里：556.63亿美元。\n这是甲骨文2026财年的资本开支。\n\n上一财年，这个数字只有212.15亿美元。一年时间，资本开支增加了超过一倍。甲骨文预计2027财年的净资本开支还将进一步达到约700亿美元。\n\n甲骨文过去是一家很容易理解的公司。\n数据库、软件授权、企业应用，每年向大公司收订阅费和维护费。客户迁移成本很高，收入稳定，利润率高，也不需要每年投入巨额资金建设厂房。\n这种公司最迷人的地方，就是轻资产和持续现金流。\n\nAI改变了甲骨文\n为了接下OpenAI、Meta等客户的大型云计算合同，甲骨文需要提前采购英伟达GPU，建设数据中心，获取土地、电力、网络和散热资源。\n合同还没有完全转化为收入，钱已经先花出去了。\n\n2026财年，甲骨文经营现金流达到319.77亿美元，看起来依然非常强。但扣除556.63亿美元资本开支以后，自由现金流变成了负236.86亿美元。\n一年前，它的自由现金流缺口还只有3.94亿美元。\n\n这就是甲骨文股价下跌的第一个原因：它正在从一家收软件费的现金牛，变成一家替AI公司垫资建设数据中心的总包商。\n增长速度更快了，商业模式却变重了。\n软件收入每增加一美元，通常不需要再建设一座机房。\n云基础设施收入每增加一美元，背后可能对应新的GPU、服务器、土地、电力、融资成本和折旧。\n因此，市场关注的重点已经从“OCI增长多少”，转向“这些收入最终能留下多少利润”。\n\n第二个问题是债务\n截至今年5月底，甲骨文短期和长期借款合计约1295亿美元，较一年前增加近370亿美元。2026财年，公司通过高级票据、贷款及其他借款募集了约461亿美元，同时还发行了强制可转债。\n接下来，甲骨文计划继续通过债务和股权融资约400亿美元，其中包含此前宣布的200亿美元股票发行计划。\n也就是说，甲骨文现在的AI扩张，越来越依赖外部融资。\n微软、谷歌、亚马逊也在疯狂建设AI基础设施，但它们拥有庞大的现有现金流和现金储备，可以更多依靠自己赚钱进行投资。\n甲骨文没有这么厚的家底。\n同样是投入AI，一家公司花的是自己赚到的钱，另一家公司需要不断发债、融资和增发股票，风险完全不同。\n7月9日，标普将甲骨文信用评级从BBB下调至BBB-，距离垃圾级信用评级只剩一级。\n标普给出的理由很直接：甲骨文不断扩张的AI基础设施业务，正在削弱它原本稳健的商业风险结构；评级机构此前低估了这场扩张需要投入的资金规模。\n\n这次降级非常关键。\n过去市场担心甲骨文债务太高，只是一种估值层面的担忧。\n现在，信用评级机构已经开始正式给这种风险定价。\n\n第三个问题，来自OpenAI\n去年9月，OpenAI与甲骨文达成了一份规模约3000亿美元、为期五年的云计算合同，预计从明年开始执行。\n这份合同一度把甲骨文股价推上历史高点，也让市场相信，甲骨文已经成为AI时代最重要的算力基础设施提供商之一。\n\n但随着时间推移，投资者开始问另一个问题：\nOpenAI真的能支付这么多钱吗？\n3000亿美元意味着平均每年约600亿美元。\n\n这个金额远远超过OpenAI目前的收入规模。\n即使OpenAI未来继续高速增长，这仍然是一份需要大量外部融资才能完成的合同。\n\n于是，甲骨文出现了一个非常奇怪的风险结构：它需要先借钱、盖数据中心、采购GPU，再等待一家本身仍然需要不断融资的AI公司支付云服务费用。\n只要OpenAI融资节奏放缓、模型效率提升导致算力需求下降，或者合同执行进度出现变化，甲骨文承担的压力都会明显增加。\n\n这也是为什么6380亿美元RPO看起来很牛逼，却没有立刻让市场放心。\nRPO代表已经签约但尚未确认的收入，它提供了很强的业务能见度，但它不等于已经进入银行账户的现金。\n这些订单要真正转化为利润，还需要数据中心按期建成、电力接通、GPU到位、客户持续履约，以及机房保持较高的使用率。\n订单越大，甲骨文需要提前垫付的资金也可能越大。\n甲骨文现在面临的，恰恰是这种“订单越多，现金流压力越大”的阶段。\n所以这轮下跌，并不代表市场认为AI需求不存在。\n\n市场真正质疑的是三件事：\n甲骨文需要先投入多少钱，才能赚到这些收入\n这些收入能够带来多高的利润率\n客户最终有没有能力履行如此庞大的合同\n\n截至昨天，甲骨文市盈率已经回落到约23.6倍，表面上看并不贵。\n问题在于，对于一家自由现金流为负、信用评级距离垃圾只剩一级、还需要继续发行股票和债券的公司，传统市盈率已经无法完整反映风险。\n\n甲骨文当然也没有走到绝境。\n它仍然拥有全球最重要的企业数据库生态，企业客户迁移成本极高；OCI收入接近翻倍，说明它在AI云市场确实获得了真实份额；6380亿美元RPO也意味着，只要这些合同顺利执行，未来收入增速仍然可能非常惊人。\n\n真正的拐点，需要观察几个信号。\n\n资本开支能不能在700亿美元附近见顶\n自由现金流缺口能不能开始收窄\nOpenAI等大客户能否提供更多预付款，并按计划转化订单\n甲骨文的信用评级能不能稳定下来\n\n只要这几个问题出现改善，甲骨文可能会迎来非常猛烈的估值修复。\n但在此之前，它已经不能再被简单地当成一家传统软件公司。\n它更像一张高杠杆的AI基础设施期权。\n\nAI需求越强、机房利用率越高、客户履约越顺利，这张期权的价值就越大。\n融资成本上升、数据中心延期，或者OpenAI的支付能力受到质疑，甲骨文的股东就需要承担更大的波动。\n甲骨文跌到今天这个地步，跌掉的并不是它的数据库，也不是OCI的增长。\n跌掉的是市场曾经赋予它的确定性。\n\n曾经的甲骨文，先赚钱，再分红。\n现在的甲骨文，先借钱、盖机房、买GPU，然后等待AI时代兑现承诺。\n\n问题从来不是甲骨文有没有拿到订单，人家有订单\n真正的问题是，在这些订单变成现金之前，甲骨文还需要付出多大的代价",
-      "summary": "甲骨文：为什么跌到今天这个地步  从今天开始建仓 $ORCL  慢慢买  截至昨天收盘，甲骨文股价跌到131.54，单日下跌6.47%。 而在去年9月10号，收盘价一度达到324.63。  十个月时间，接近60%的市值蒸发。  其实，甲骨文最近公布的业务数据很好。  2026财年第四季度，甲骨文营收达到192亿美元，同比增长21%；云业务收入99亿美元…",
-      "url": "https://x.com/i/status/2076928999813726484",
-      "created_at": "2026-07-14T07:17:15Z",
-      "likes": 13,
-      "views": "1464",
+      "id": "2076931055282745666",
+      "author": "bindureddy",
+      "author_bio": "CEO of @abacusai - the world’s first AI super assistant and a powerful general agent for professionals and enterprises, ex-AWS & Google",
+      "text": "🚨 Fable 5 + GPT 5.6 sol on the right infrastructure can build anything with text prompts\n\n- complex 3d games\n- real-time trading servers\n- desktop and mobile apps\n\nBackend, auth, databases and hosting comes for free as part of the Abacus AI SuperComputer https://t.co/khTjUT0Bsx",
+      "summary": "作者称在合适的基础设施上，Fable 5 + GPT-5.6 Sol 可用纯文本做出 3D 游戏、实时交易服务、桌面与移动应用；后端、鉴权、数据库与托管由 Abacus AI SuperComputer 一并提供。",
+      "url": "https://x.com/i/status/2076931055282745666",
+      "created_at": "2026-07-14T07:25:25Z",
+      "likes": 22,
+      "views": "42346",
       "has_media": true,
       "media_urls": [
-        "https://pbs.twimg.com/media/HNK7sCBbUAAMeHG.jpg",
-        "https://pbs.twimg.com/media/HNK7yZoagAA-0lF.jpg",
-        "https://pbs.twimg.com/media/HNK73vPacAAJCM1.png"
+        "https://video.twimg.com/amplify_video/2076930313272647680/vid/avc1/480x270/bZ_Eor2BOj597ayq.mp4?tag=28"
       ],
-      "score": 17.69,
-      "recommend_reason": "@yijiangren 这条中文实践可直接借鉴，讲的是产品/工作流怎么落地。",
+      "score": 12.2,
+      "recommend_reason": "把“模型能力”和“托管基建”绑在一起谈，提醒别只比模型、不比部署环境。",
       "tags": [
-        "OpenAI",
-        "设计"
+        "Fable5",
+        "GPT-5.6",
+        "基建",
+        "全栈生成"
       ],
-      "title": "甲骨文：为什么跌到今天这个地步  从今天开始建仓 $OR…"
+      "title": "Fable 5 与 GPT-5.6 Sol 搭对基建，文本就能出完整应用"
     },
     {
       "rank": 3,
-      "id": "2076929969981428147",
-      "author": "kevinma_dev_zh",
-      "author_bio": "独立开发者，AI Builder，分享 AI 编程、效率工具和好玩的产品。\n好奇驱动，记录 AI 时代的发现与实践。\n开发了 https://t.co/TR0z0yfd48 - 帮助你更容易的学习英语。",
-      "text": "Claude Artifacts 这个功能是我近期用下来最喜欢的功能之一，它现在能够在创建之后分享公开链接，也能够使用 Claude tag 创建，特别适合原型制作和迭代协作。当然其它用户信息展示的场景也很适合。",
-      "summary": "Claude Artifacts 这个功能是我近期用下来最喜欢的功能之一，它现在能够在创建之后分享公开链接，也能够使用 Claude tag 创建，特别适合原型制作和迭代协作。当然其它用户信息展示的场景也很适合。",
-      "url": "https://x.com/i/status/2076929969981428147",
-      "created_at": "2026-07-14T07:21:06Z",
-      "likes": 0,
-      "views": "180",
-      "has_media": false,
-      "media_urls": [],
-      "score": 15.46,
-      "recommend_reason": "@kevinma_dev_zh 这条中文实践可直接借鉴，讲的是产品/工作流怎么落地。",
-      "tags": [
-        "Anthropic",
-        "产品",
-        "设计"
-      ],
-      "title": "Claude Artifacts 这个功能是我近期用下来…"
-    },
-    {
-      "rank": 4,
-      "id": "2076924883183837199",
-      "author": "gkxspace",
-      "author_bio": "🌸05年连续创业者 | 专注 AI 产品 | 项目营收 7 位数+\n✨记录真实的创业路：项目复盘、踩坑总结和成长思考\n💗AI 产品构建 & AI 商业化方案 & 企业 AI 转型",
-      "text": "流量真的很容易低估一个人，曹总就是我身边最典型的例子。\n\n大学期间押中 VR 赚到第一个 100W。后来做过南方电网项目，省级研发专项，又一路折腾空间计算、AI 玩具、AI 教育。\n\n现在 26 岁，公司五六家，生意赚过钱，也破产过好几次。\n\n最让我服的，是他吃过这么多亏，却没有因此变得拧巴。还是很乐观、很友善，对我们这帮小小登尤其好。\n\n我们最近还一起在郑州办了一场黑客松，规模在中原地区应该也排得上号。\n\n曹总说，北上广深有那么多技术活动，中部的年轻人也该有地方一起做东西、认识伙伴，感受黑客松的乐趣。\n\n他其实不会搞流量，也不迎合流量。发内容更多是在认真记录自己，我觉得这真的“很不自媒体”！！！",
-      "summary": "流量真的很容易低估一个人，曹总就是我身边最典型的例子。  大学期间押中 VR 赚到第一个 100W。后来做过南方电网项目，省级研发专项，又一路折腾空间计算、AI 玩具、AI 教育。  现在 26 岁，公司五六家，生意赚过钱，也破产过好几次。  最让我服的，是他吃过这么多亏，却没有因此变得拧巴。还是很乐观、很友善，对我们这帮小小登尤其好。  我们最近还一…",
-      "url": "https://x.com/i/status/2076924883183837199",
-      "created_at": "2026-07-14T07:00:54Z",
-      "likes": 9,
-      "views": "1245",
-      "has_media": true,
-      "media_urls": [
-        "https://pbs.twimg.com/media/HNKyuDKXkAAdZru.jpg"
-      ],
-      "score": 15.46,
-      "recommend_reason": "@gkxspace 这条中文实践可直接借鉴，讲的是产品/工作流怎么落地。",
-      "tags": [
-        "产品"
-      ],
-      "title": "流量真的很容易低估一个人，曹总就是我身边最典型的例子"
-    },
-    {
-      "rank": 5,
       "id": "2076921635056009350",
       "author": "gkxspace",
       "author_bio": "🌸05年连续创业者 | 专注 AI 产品 | 项目营收 7 位数+\n✨记录真实的创业路：项目复盘、踩坑总结和成长思考\n💗AI 产品构建 & AI 商业化方案 & 企业 AI 转型",
       "text": "我第一次见到一个模型，单任务能一上午把 $200 的周限额干完。。。\n\n真后悔没好好看一下这篇 Theo 的文章\n\n这几天我高频用 GPT-5.6-sol，感觉能力确实和 Fable 5 一档，写作也非常强，大部分任务还是愿意交给它\n\n但这模型真的太爱深度思考了。一个很傻逼、几步就能解决的问题，它也可能反复调查、绕来绕去，烧了一大堆额度，结果还没解决好\n\n看完 Theo 这篇文章才知道，贵是几件事叠的：\n5.6 一跑就很久，Fast 还要乘 2.5 倍，当前 Ultra 又会疯狂复制同模型、同推理等级的子代理\n\n我现在默认 High 了，Fast 还是先关掉了，也不让它擅自开大量子代理（Fable5 还是更牛逼些）",
-      "summary": "我第一次见到一个模型，单任务能一上午把 $200 的周限额干完。。。  真后悔没好好看一下这篇 Theo 的文章  这几天我高频用 GPT-5.6-sol，感觉能力确实和 Fable 5 一档，写作也非常强，大部分任务还是愿意交给它  但这模型真的太爱深度思考了。一个很傻逼、几步就能解决的问题，它也可能反复调查、绕来绕去，烧了一大堆额度，结果还没解决好…",
+      "summary": "作者高频使用 GPT-5.6 Sol，认为能力接近 Fable 5 且写作强，但过度深度思考会把简单问题绕复杂；结合 Theo 文章指出时长、Fast 倍率与 Ultra 子代理复制叠出高成本，现已默认 High、关掉 Fast 并限制乱开子代理。",
       "url": "https://x.com/i/status/2076921635056009350",
       "created_at": "2026-07-14T06:47:59Z",
       "likes": 2,
       "views": "1175",
       "has_media": false,
       "media_urls": [],
-      "score": 14.85,
-      "recommend_reason": "@gkxspace 这条中文实践可直接借鉴，讲的是产品/工作流怎么落地。",
+      "score": 10.2,
+      "recommend_reason": "对日常重度 coding agent 用户很实用：讲清“贵”从哪几层叠出来，以及怎么调档省额度。",
       "tags": [
-        "OpenAI",
-        "产品"
+        "GPT-5.6",
+        "成本",
+        "Agent",
+        "实践"
       ],
-      "title": "我第一次见到一个模型，单任务能一上午把 $200 的周限额干完"
+      "title": "GPT-5.6 Sol 单任务能烧光一周 200 美元额度"
     },
     {
-      "rank": 6,
-      "id": "2076934571342561545",
-      "author": "web3annie",
-      "author_bio": "关注我的都发财 🙏 \nAI & 股票研究所 | Meme @memewizd | Meme币一人公司 🪄➜ https://t.co/7ZxI7yqeUA",
-      "text": "现在回过头来看这个7年前的视频，马斯克还是比马云技高一筹啊！\n\n马云：AI 永远不可能比人类聪明，因为 AI 是人创造的\n\n马斯克：人类只是 AI 超级智能的药引子，未来人要通过Neuralink 脑机接口连接计算机，成为cyborg，不然人类·危！⚠️ https://t.co/KEf0vhzR1s",
-      "summary": "现在回过头来看这个7年前的视频，马斯克还是比马云技高一筹啊！  马云：AI 永远不可能比人类聪明，因为 AI 是人创造的  马斯克：人类只是 AI 超级智能的药引子，未来人要通过Neuralink 脑机接口连接计算机，成为cyborg，不然人类·危！⚠️ https://t.co/KEf0vhzR1s",
-      "url": "https://x.com/i/status/2076934571342561545",
-      "created_at": "2026-07-14T07:39:24Z",
-      "likes": 5,
-      "views": "1008",
-      "has_media": true,
-      "media_urls": [
-        "https://video.twimg.com/amplify_video/2076933973339754496/vid/avc1/480x270/Fon-VQ_VujklWQIz.mp4?tag=28"
-      ],
-      "score": 14.7,
-      "recommend_reason": "@web3annie 的中文讨论信息密度够，适合扫一眼跟进。",
+      "rank": 4,
+      "id": "2076929969981428147",
+      "author": "kevinma_dev_zh",
+      "author_bio": "独立开发者，AI Builder，分享 AI 编程、效率工具和好玩的产品。\n好奇驱动，记录 AI 时代的发现与实践。\n开发了 https://t.co/TR0z0yfd48 - 帮助你更容易的学习英语。",
+      "text": "Claude Artifacts 这个功能是我近期用下来最喜欢的功能之一，它现在能够在创建之后分享公开链接，也能够使用 Claude tag 创建，特别适合原型制作和迭代协作。当然其它用户信息展示的场景也很适合。",
+      "summary": "作者认为 Artifacts 是近期最爱功能之一：创建后可分享公开链接，也能用 Claude tag 创建，适合原型制作、迭代协作与用户信息展示场景。",
+      "url": "https://x.com/i/status/2076929969981428147",
+      "created_at": "2026-07-14T07:21:06Z",
+      "likes": 0,
+      "views": "180",
+      "has_media": false,
+      "media_urls": [],
+      "score": 10.0,
+      "recommend_reason": "短而具体的产品体验结论，做原型协作的人可直接对照自己的流程。",
       "tags": [
-        "研究"
+        "Claude",
+        "Artifacts",
+        "原型",
+        "协作"
       ],
-      "title": "现在回过头来看这个7年前的视频，马斯克还是比马云技高一筹啊"
+      "title": "Claude Artifacts 已支持公开链接与 tag 创建"
     },
     {
-      "rank": 7,
-      "id": "2076924697997189546",
-      "author": "sanrio_news",
-      "author_bio": "サンリオ公式アカウント。耳よりでホットな情報を、いち早くお届けします！  サンリオのソーシャルメディアポリシー https://t.co/ml2k02Qbmz\nDMでのお問い合わせ等に個別にご返信することはいたしかねます。あらかじめご了承ください。",
-      "text": "サンリオキャラクターたちが #ゴジラ の着ぐるみ姿に☆\n「GODZILLA･SANRIO CHARACTERS」のグッズが登場するよ！\nゴジラ･ストア各店、全国の量販店や専門店で7/22（水）から順次発売♪\nhttps://t.co/rX4E4AfQEb\n#Godzilla #サンリオキャラクターズ #SANRIOCHARACTERS https://t.co/BChJnHlVxA",
-      "summary": "サンリオキャラクターたちが #ゴジラ の着ぐるみ姿に☆ 「GODZILLA･SANRIO CHARACTERS」のグッズが登場するよ！ ゴジラ･ストア各店、全国の量販店や専門店で7/22（水）から順次発売♪ https://t.co/rX4E4AfQEb #Godzilla #サンリオキャラクターズ #SANRIOCHARACTERS https://…",
-      "url": "https://x.com/i/status/2076924697997189546",
-      "created_at": "2026-07-14T07:00:10Z",
-      "likes": 711,
-      "views": "75615",
-      "has_media": true,
-      "media_urls": [
-        "https://pbs.twimg.com/media/HNKG9PbbQAAZdZ1.jpg",
-        "https://pbs.twimg.com/media/HNKG9zNakAAbzlD.jpg",
-        "https://pbs.twimg.com/media/HNKG-WlasAATJfx.jpg",
-        "https://pbs.twimg.com/media/HNKG-7ZaAAApgqa.jpg"
-      ],
-      "score": 14.3,
-      "recommend_reason": "@sanrio_news 在关注流里信息密度尚可，值得点开确认。",
-      "tags": [],
-      "title": "AI 动态：サンリオキャラクターたちが #ゴジラ の着ぐるみ姿に☆ 「GODZILLA･SA…"
-    },
-    {
-      "rank": 8,
+      "rank": 5,
       "id": "2076910382648811817",
       "author": "JulianGoldieSEO",
       "author_bio": "Make money with AI 👉 https://t.co/Ppmk5h9rw3\nFree SEO Strategy Session → https://t.co/wRv8ROcoTP",
       "text": "Three of the best AI models on the planet dropped in the same few weeks.\n\nAlmost nobody tested them side by side. So we did.\n\nWe put Claude Fable 5, Grok 4.5, and GPT-5.6 on one screen and fired the exact same prompt at all three at the same time. \n\nSame words. No tweaks. No favorites.\n\n→ Test 1: build a landing page. All three shipped a working site, each with a completely different vibe.\n\n→ Test 2: build a full 3D racing game in one HTML file. One finished first. One had the most polish. One nailed the small details, like car-bump physics.\n\n→ Test 3: build a pricing calculator. All three nailed it clean.\n\nThe real result wasn't a winner. It was a toolbox.\n\nSave this post, you'll stop guessing which model to open and start knowing. 💬\n\nWant the SOP? DM me.",
-      "summary": "Three of the best AI models on the planet dropped in the same few weeks.  Almost nobody tested them side by side. So we did.  We put Claude Fable 5, Grok 4.5, and GPT-5.6 on one…",
+      "summary": "作者称几周内三款顶级模型密集发布，几乎无人同条件横评，于是把 Claude Fable 5、Grok 4.5、GPT-5.6 放同一屏，用完全相同提示做并排测试。",
       "url": "https://x.com/i/status/2076910382648811817",
       "created_at": "2026-07-14T06:03:17Z",
       "likes": 3,
@@ -181,360 +134,48 @@
       "media_urls": [
         "https://video.twimg.com/amplify_video/2076910032919392256/vid/avc1/480x270/D5XWfVh8LgzpbM1n.mp4?tag=28"
       ],
-      "score": 14.3,
-      "recommend_reason": "@JulianGoldieSEO 带来产品或能力更新信号，可决定要不要试用。",
+      "score": 10.3,
+      "recommend_reason": "比单模型安利更有信息量：关心选型时值得看他们怎么控变量做横评。",
       "tags": [
-        "Anthropic",
-        "OpenAI",
-        "xAI",
-        "产品",
-        "设计"
+        "横评",
+        "Fable5",
+        "Grok",
+        "GPT-5.6"
       ],
-      "title": "Claude/Anthropic、OpenAI：Three of the best AI models on the plane…"
+      "title": "同屏对照：Claude Fable 5、Grok 4.5 与 GPT-5.6"
     },
     {
-      "rank": 9,
-      "id": "2076925753380237346",
+      "rank": 6,
+      "id": "2076932206665093464",
       "author": "JulianGoldieSEO",
       "author_bio": "Make money with AI 👉 https://t.co/Ppmk5h9rw3\nFree SEO Strategy Session → https://t.co/wRv8ROcoTP",
-      "text": "One system can now run nearly every AI tool in your workflow.\n\nHere is how Agent OS works. 🧵\n\n1/ Connect your preferred AI models.\n\n2/ Create specialist agents for different jobs.\n\n3/ Put them inside one shared workspace.\n\n4/ Let agents communicate in one group chat.\n\n5/ Route SEO research into writing and publishing.\n\n6/ Switch between models without losing the project.\n\n7/ Use Goal Mode for long autonomous builds.\n\n8/ Store business context inside an Obsidian vault.\n\n9/ Access the system locally, through a VPS, or from mobile.\n\nSave this video, you’ll have the complete Agent OS explained in one thread.\n\nWant the SOP? DM me. 💬",
-      "summary": "One system can now run nearly every AI tool in your workflow.  Here is how Agent OS works. 🧵  1/ Connect your preferred AI models.  2/ Create specialist agents for different job…",
-      "url": "https://x.com/i/status/2076925753380237346",
-      "created_at": "2026-07-14T07:04:21Z",
-      "likes": 1,
-      "views": "1571",
-      "has_media": true,
-      "media_urls": [
-        "https://video.twimg.com/amplify_video/2076925600493965312/vid/avc1/480x270/FVUciUae0C1-zl3F.mp4?tag=28"
-      ],
-      "score": 14.24,
-      "recommend_reason": "@JulianGoldieSEO 放出研究/实验结论，建议点开看原文细节。",
-      "tags": [
-        "Agent",
-        "研究",
-        "设计"
-      ],
-      "title": "Agent、研究：One system can now run nearly every AI t…"
-    },
-    {
-      "rank": 10,
-      "id": "2076939800775639280",
-      "author": "cinnamon_sanrio",
-      "author_bio": "シナモンだよ！小鳥さんがぼくの声をみんなに届けてくれるんだって。フォローしてくれたらうれしいな／（o・ω・o）＼ #つれてってシナモン #シュクルタウンのふしぎ事件 #品川紋次郎 サンリオのソーシャルメディアポリシー https://t.co/owlUEXGkqM",
-      "text": "くり～み～なラテで、ひとやすみ♪\nとちおとめ苺ラテとほうじ茶ラテ、迷っちゃうな～\nhttps://t.co/dUoNRJmVc9 https://t.co/DNRrdGG817",
-      "summary": "くり～み～なラテで、ひとやすみ♪ とちおとめ苺ラテとほうじ茶ラテ、迷っちゃうな～ https://t.co/dUoNRJmVc9 https://t.co/DNRrdGG817",
-      "url": "https://x.com/i/status/2076939800775639280",
-      "created_at": "2026-07-14T08:00:10Z",
-      "likes": 997,
-      "views": "16196",
-      "has_media": true,
-      "media_urls": [
-        "https://pbs.twimg.com/media/HNJz9_LaUAATyy9.jpg"
-      ],
-      "score": 13.8,
-      "recommend_reason": "@cinnamon_sanrio 在关注流里信息密度尚可，值得点开确认。",
-      "tags": [],
-      "title": "AI 动态：くり～み～なラテで、ひとやすみ♪ とちおとめ苺ラテとほうじ茶ラテ、迷っちゃうな～"
-    },
-    {
-      "rank": 11,
-      "id": "2076935655532511287",
-      "author": "imwsl90",
-      "author_bio": "前程序员/产品经理/中年已婚带2娃\n\n- OPC、AI、互联网、两性情感、历史八卦\n\ngiffgaff卡🇬🇧： https://t.co/p3mva2Nhr0\n约我喝杯咖啡: https://t.co/ZL2M1iNhVZ\nvps: https://t.co/7OJQwIE3Jt",
-      "text": "今天准备试试 opencode + deepseek 蹬车 https://t.co/CArwMjlgRI",
-      "summary": "今天准备试试 opencode + deepseek 蹬车 https://t.co/CArwMjlgRI",
-      "url": "https://x.com/i/status/2076935655532511287",
-      "created_at": "2026-07-14T07:43:42Z",
-      "likes": 0,
-      "views": "497",
-      "has_media": true,
-      "media_urls": [
-        "https://pbs.twimg.com/media/HNLB61MbAAAwHaO.jpg"
-      ],
-      "score": 13.2,
-      "recommend_reason": "@imwsl90 这条中文实践可直接借鉴，讲的是产品/工作流怎么落地。",
-      "tags": [
-        "产品"
-      ]
-    },
-    {
-      "rank": 12,
-      "id": "2076938448599171310",
-      "author": "imwsl90",
-      "author_bio": "前程序员/产品经理/中年已婚带2娃\n\n- OPC、AI、互联网、两性情感、历史八卦\n\ngiffgaff卡🇬🇧： https://t.co/p3mva2Nhr0\n约我喝杯咖啡: https://t.co/ZL2M1iNhVZ\nvps: https://t.co/7OJQwIE3Jt",
-      "text": "刚用 deepseek 做了一个智能判单页面，几分钟就做好了 https://t.co/JxFdjAHCRt",
-      "summary": "刚用 deepseek 做了一个智能判单页面，几分钟就做好了 https://t.co/JxFdjAHCRt",
-      "url": "https://x.com/i/status/2076938448599171310",
-      "created_at": "2026-07-14T07:54:48Z",
-      "likes": 0,
-      "views": "182",
-      "has_media": true,
-      "media_urls": [
-        "https://pbs.twimg.com/media/HNLEZpUbcAAS3oc.jpg"
-      ],
-      "score": 12.76,
-      "recommend_reason": "@imwsl90 这条中文实践可直接借鉴，讲的是产品/工作流怎么落地。",
-      "tags": [
-        "产品"
-      ]
-    },
-    {
-      "rank": 13,
-      "id": "2076942097387524207",
-      "author": "OpenDesignHQ",
-      "author_bio": "The vibe design workspace for everyone.\nDecks, sites & prototypes → editable, local-first HTML, by any AI agent.\n75K+ ⭐ · open-source",
-      "text": "\"I go to Open Design first — and I haven't looked back.\"\n\n@StuartGardoll  switches AI models weekly. Claude Design locked him to one company's — so he moved to the open-source alternative.\n\nWatch his story ↓\nhttps://t.co/Fhbkfk6o30",
-      "summary": "\"I go to Open Design first — and I haven't looked back.\"  @StuartGardoll  switches AI models weekly. Claude Design locked him to one company's — so he moved to the open-source a…",
-      "url": "https://x.com/i/status/2076942097387524207",
-      "created_at": "2026-07-14T08:09:18Z",
-      "likes": 0,
-      "views": "41",
-      "has_media": false,
-      "media_urls": [],
-      "score": 12.32,
-      "recommend_reason": "@OpenDesignHQ 在谈 Agent 规模化或落地成本，和日常工具链相关。",
-      "tags": [
-        "Anthropic",
-        "Agent",
-        "设计",
-        "开源"
-      ],
-      "title": "Claude/Anthropic、设计：\"I go to Open Design first — and I haven…"
-    },
-    {
-      "rank": 14,
-      "id": "2076927682202472488",
-      "author": "xiaoying_eth",
-      "author_bio": "🪪  努力做个哇塞的仙女 👸\n\n🐬 分享 AI 前沿干货 ｜打破信息壁垒 ｜AI项目实操\n\n🌻 实用工具推荐官 | 工匠日记\n\n投放、活动合作，都可以从 TG 联系 🔗",
-      "text": "2026年必备的50个AI工具，我挑了一遍\n\n这些工具覆盖内容、设计、营销、代码各个领域，根据你的需求挑几个上手\n\n1. https://t.co/sygs24SUAR – 啥都能搞定\n2. https://t.co/G3sdE6uxdA – 视频制作和发布\n3. https://t.co/pxEypLK8IJ – AI画图\n4. https://t.co/TbPWNtfGUd – 营销合规检查\n5. https://t.co/G3sdE6uxdA – 生成AI虚拟形象\n6. https://t.co/S09QBI6eq0 – 几秒钟出音乐\n7. https://t.co/AUB3VbCpiQ – 谷歌SEO优化\n8. https://t.co/QJI9klzM0E – 长视频剪成短视频\n9. https://t.co/A1hPYIjYfp – 自动生成演示文稿\n10. https://t.co/tg3dLXmFnN – 快速修图\n11. https://t.co/IHnTdgJjmm – 生成电子书\n12. https://t.co/PsLvOMzQHx – 圣经学习助手\n13. https://t.co/HEyNLZghSA – 编程写应用\n14. https://t.co/eUJLgD6goS – 联盟营销平台\n15. https://t.co/v3nycdz9e0 – 网络研讨会助手\n16. https://t.co/yC71w6G3Ko – YouTube优化工具\n17. https://t.co/0uSgNnSIkp – 写爆款评论\n18. https://t.co/XnyYJeY87c – 广告投放工具\n19. https://t.co/fnk07FMSSg – 设计一切\n20. https://t.co/0fAsoPoKlQ – AI证件照生成\n21. https://t.co/Rvs0lb9b4i – AI情感顾问\n22. https://t.co/WtVtDVYPKr – 生成爆款Facebook帖子\n23. https://t.co/8ASZWhxnkq – 前端原型设计\n24. https://t.co/S09QBI6eq0 – AI音乐创作\n25. https://t.co/BV2sZeBsnc – 提升广告转化\n26. https://t.co/osy04UrheQ – 谷歌AI视频生成\n27. https://t.co/9eZqcAXvRq – 设计精美演示文稿\n28. https://t.co/yM4qK2Pfkl – 一键去背景\n29. https://t.co/VmSJbZ9Lij – 草图转UI原型\n30. https://t.co/frBpir7Ixs – AI音乐制作\n31. https://t.co/KZJw2OR2Aq – 设计转代码\n32. https://t.co/fc7aaKopJS – AI陪伴机器人\n33. https://t.co/UnzLmvF2xP – 任何内容转播客\n34. https://t.co/cC7pdRvSY5 – 照片转文字笔记\n35. https://t.co/YstvbbFP86 – 深度研究文章\n36. https://t.co/g8WzKjjcwP – AI工具库\n37. https://t.co/YKWMxm0Xjt – ChatGPT接入白板\n38. https://t.co/mSMcVIoavd – 快速建应用和网站\n39. https://t.co/XlEuOLg6Ju – 模拟用户测试\n40. https://t.co/JDiMf73uQE – AI代理团队\n41. https://t.co/5i8C6S5HRD – AI客户留存\n42. https://t.co/2KzJNIEQG1 – 流失率降低\n43. https://t.co/G3sdE6uxdA – 产品视频快速生成\n44. https://t.co/SqwnWS0Hk0 – 初创企业法律平台\n45. https://t.co/iFOHFrthmn – 自动化一切\n46. https://t.co/YNiooCXnQC – 创作者最佳通讯\n47. https://t.co/zIewIb2aIO – 隐藏敏感信息\n48. https://t.co/YstvbbFP86 – 最好用的AI搜索\n49. https://t.co/ufMsUwlGD8 – 网站访客转化为线索\n50. https://t.co/pbTWjnXu29 – AI营销工具",
-      "summary": "2026年必备的50个AI工具，我挑了一遍  这些工具覆盖内容、设计、营销、代码各个领域，根据你的需求挑几个上手  1. https://t.co/sygs24SUAR – 啥都能搞定 2. https://t.co/G3sdE6uxdA – 视频制作和发布 3. https://t.co/pxEypLK8IJ – AI画图 4. https://t.…",
-      "url": "https://x.com/i/status/2076927682202472488",
-      "created_at": "2026-07-14T07:12:01Z",
-      "likes": 6,
-      "views": "750",
-      "has_media": false,
-      "media_urls": [],
-      "score": 11.82,
-      "recommend_reason": "@xiaoying_eth 这条中文实践可直接借鉴，讲的是产品/工作流怎么落地。",
-      "tags": [
-        "OpenAI",
-        "研究",
-        "产品",
-        "设计"
-      ],
-      "title": "2026年必备的50个AI工具，我挑了一遍  这些工具覆…"
-    },
-    {
-      "rank": 15,
-      "id": "2076939801450963118",
-      "author": "sanrio_news",
-      "author_bio": "サンリオ公式アカウント。耳よりでホットな情報を、いち早くお届けします！  サンリオのソーシャルメディアポリシー https://t.co/ml2k02Qbmz\nDMでのお問い合わせ等に個別にご返信することはいたしかねます。あらかじめご了承ください。",
-      "text": "マイメロディ･クロミ･ハローキティの「ギャルコレクション」が登場♡\nルーズソックスやガラケーなどのモチーフが平成ギャルっぽいね★\n一般販売に先駆けて、7/24（金）～キデイランド24店舗で先行販売！\nぜひチェックしてね♪\nhttps://t.co/EPFIhEMBfM\n#サンリオ https://t.co/skWKUYeuwF",
-      "summary": "マイメロディ･クロミ･ハローキティの「ギャルコレクション」が登場♡ ルーズソックスやガラケーなどのモチーフが平成ギャルっぽいね★ 一般販売に先駆けて、7/24（金）～キデイランド24店舗で先行販売！ ぜひチェックしてね♪ https://t.co/EPFIhEMBfM #サンリオ https://t.co/skWKUYeuwF",
-      "url": "https://x.com/i/status/2076939801450963118",
-      "created_at": "2026-07-14T08:00:10Z",
-      "likes": 84,
-      "views": "14060",
-      "has_media": true,
-      "media_urls": [
-        "https://pbs.twimg.com/media/HNJz83hbMAAMIn0.jpg",
-        "https://pbs.twimg.com/media/HNJz9b0a4AADiaz.jpg"
-      ],
-      "score": 9.66,
-      "recommend_reason": "@sanrio_news 在关注流里信息密度尚可，值得点开确认。",
-      "tags": [],
-      "title": "AI 动态：マイメロディ･クロミ･ハローキティの「ギャルコレクション」が登場♡ ルーズソック…"
-    },
-    {
-      "rank": 16,
-      "id": "2076925667875356918",
-      "author": "web3annie",
-      "author_bio": "关注我的都发财 🙏 \nAI & 股票研究所 | Meme @memewizd | Meme币一人公司 🪄➜ https://t.co/7ZxI7yqeUA",
-      "text": "内存分析师：长鑫存储vs海力士还差3年！\n\n长鑫计划今年 HBM3 量产，明年 HBM3E，27 年海力士都HBM5 送样了，确实差距3年\n\n海力士、三星用最先进的 $ASML 光刻机，中国虽说偷偷搞了一台，但肯定不是最新版。\n\n但长期看5-10年绝对能追平，卷是中国最擅长的，长鑫可以过得苦，但不能看 $SKHY 开路虎 😂 https://t.co/moEEazWBpr",
-      "summary": "内存分析师：长鑫存储vs海力士还差3年！  长鑫计划今年 HBM3 量产，明年 HBM3E，27 年海力士都HBM5 送样了，确实差距3年  海力士、三星用最先进的 $ASML 光刻机，中国虽说偷偷搞了一台，但肯定不是最新版。  但长期看5-10年绝对能追平，卷是中国最擅长的，长鑫可以过得苦，但不能看 $SKHY 开路虎 😂 https://t.co/…",
-      "url": "https://x.com/i/status/2076925667875356918",
-      "created_at": "2026-07-14T07:04:01Z",
-      "likes": 11,
-      "views": "2669",
-      "has_media": true,
-      "media_urls": [
-        "https://video.twimg.com/amplify_video/2076921324426145792/vid/avc1/480x270/I3o8FeJlEgdswIf0.mp4?tag=28"
-      ],
-      "score": 7.87,
-      "recommend_reason": "@web3annie 的中文讨论信息密度够，适合扫一眼跟进。",
-      "tags": [
-        "研究"
-      ],
-      "title": "内存分析师：长鑫存储vs海力士还差3年"
-    },
-    {
-      "rank": 17,
-      "id": "2076923636657877176",
-      "author": "abskoop",
-      "author_bio": "🔍 挖掘互联网宝藏工具｜AI 工具 · 开源项目 · 在线工具 · 效率神器\n投稿 欢迎 DM｜备用号 @ahhhhfs\n🔔 TG 频道：https://t.co/OmSvNms9yl",
-      "text": "偶尔转个音频，不想专门装软件？🥲\n\nMp3To 可以直接在浏览器里完成音频转换：\n\n 基于 FFmpeg.wasm，本地浏览器处理\n 不用上传文件到服务器\n 支持 MP3 / WAV / FLAC 等格式转换\n 视频转音频、剪切、拼接、变速也支持\n\n平时处理短视频素材、录音格式转换这类小需求，打开网页就能用\n\n不用安装客户端，收藏备用",
-      "summary": "偶尔转个音频，不想专门装软件？🥲  Mp3To 可以直接在浏览器里完成音频转换：   基于 FFmpeg.wasm，本地浏览器处理  不用上传文件到服务器  支持 MP3 / WAV / FLAC 等格式转换  视频转音频、剪切、拼接、变速也支持  平时处理短视频素材、录音格式转换这类小需求，打开网页就能用  不用安装客户端，收藏备用",
-      "url": "https://x.com/i/status/2076923636657877176",
-      "created_at": "2026-07-14T06:55:57Z",
-      "likes": 3,
-      "views": "3223",
-      "has_media": true,
-      "media_urls": [
-        "https://pbs.twimg.com/media/HNK2wy-bYAE1Y8b.jpg"
-      ],
-      "score": 7.62,
-      "recommend_reason": "@abskoop 的中文讨论信息密度够，适合扫一眼跟进。",
-      "tags": [
-        "开源"
-      ],
-      "title": "偶尔转个音频，不想专门装软件"
-    },
-    {
-      "rank": 18,
-      "id": "2076924698370494826",
-      "author": "abskoop",
-      "author_bio": "🔍 挖掘互联网宝藏工具｜AI 工具 · 开源项目 · 在线工具 · 效率神器\n投稿 欢迎 DM｜备用号 @ahhhhfs\n🔔 TG 频道：https://t.co/OmSvNms9yl",
-      "text": "Occasionally convert audio and don’t want to install software?\n\nMp3To: Browser-based audio converter powered by FFmpeg.wasm.\n\nFully local processing — no file uploads\nConvert MP3 / WAV / FLAC & more\nVideo-to-audio, cut, splice & speed change\n\nPerfect for quick short-video materials or recording format swaps. Just open the page and go. Bookmark it for later.",
-      "summary": "Occasionally convert audio and don’t want to install software?  Mp3To: Browser-based audio converter powered by FFmpeg.wasm.  Fully local processing — no file uploads Convert MP…",
-      "url": "https://x.com/i/status/2076924698370494826",
-      "created_at": "2026-07-14T07:00:10Z",
-      "likes": 0,
-      "views": "2861",
-      "has_media": false,
-      "media_urls": [],
-      "score": 7.16,
-      "recommend_reason": "@abskoop 展示了可参考的设计/交互方向。",
-      "tags": [
-        "设计",
-        "开源"
-      ],
-      "title": "AI 动态：Occasionally convert audio and don’t wan…"
-    },
-    {
-      "rank": 19,
-      "id": "2076919207367950787",
-      "author": "dingyi",
-      "author_bio": "promote your product  ‣ dingyi@me.com\nnewsletter ‣ https://t.co/q1JG1yCzdb\nrefine your startup ‣ https://t.co/FfUYboxOr5\nnewest product ‣ https://t.co/cP6NQ3keo",
-      "text": "太抽象了。。。\n\nhttps://t.co/RTVU4tQGHp https://t.co/hC3mOKQDDc",
-      "summary": "太抽象了。。。  https://t.co/RTVU4tQGHp https://t.co/hC3mOKQDDc",
-      "url": "https://x.com/i/status/2076919207367950787",
-      "created_at": "2026-07-14T06:38:20Z",
-      "likes": 50,
-      "views": "3516",
-      "has_media": true,
-      "media_urls": [
-        "https://video.twimg.com/amplify_video/2076919153047564288/vid/avc1/428x270/RRV6GfZB4UQHjKVu.mp4?tag=14"
-      ],
-      "score": 6.8,
-      "recommend_reason": "@dingyi 在关注流里信息密度尚可，值得点开确认。",
-      "tags": []
-    },
-    {
-      "rank": 20,
-      "id": "2076938409269207507",
-      "author": "Natsuko233",
-      "author_bio": "🇨🇳cosplayer💫IG: natsuko_coser\nMy pages: https://t.co/RTeF1THeDC💕Patreon：https://t.co/hsZXqyA5BF💗DM: natsuko0224cosplay@gmail.com",
-      "text": "17000♡ありがとう💗💗💗",
-      "summary": "17000♡ありがとう💗💗💗",
-      "url": "https://x.com/i/status/2076938409269207507",
-      "created_at": "2026-07-14T07:54:39Z",
-      "likes": 58,
-      "views": "1761",
-      "has_media": false,
-      "media_urls": [],
-      "score": 6.57,
-      "recommend_reason": "@Natsuko233 在关注流里信息密度尚可，值得点开确认。",
-      "tags": []
-    },
-    {
-      "rank": 21,
-      "id": "2076917106931540139",
-      "author": "PDChinese",
-      "author_bio": "中國第一大報，帶來最新資訊與熱點新聞 https://t.co/QS9QzcMmHN",
-      "text": "【中國旱稻在巴巴多斯進一步擴大推廣】中國旱稻三期規模化試種開鐮儀式日前在巴巴多斯中部松樹盆地舉行，標誌著中國雜交旱稻在這一稻米進口國由試驗示範進一步擴大推廣。巴巴多斯農業、食品和營養安全部長尚塔爾·芒羅—奈特說，巴方重視同中方長期以來在全產業鏈開展的農業務實合作，期待雙方繼續推動相關成果惠及當地農業發展。",
-      "summary": "【中國旱稻在巴巴多斯進一步擴大推廣】中國旱稻三期規模化試種開鐮儀式日前在巴巴多斯中部松樹盆地舉行，標誌著中國雜交旱稻在這一稻米進口國由試驗示範進一步擴大推廣。巴巴多斯農業、食品和營養安全部長尚塔爾·芒羅—奈特說，巴方重視同中方長期以來在全產業鏈開展的農業務實合作，期待雙方繼續推動相關成果惠及當地農業發展。",
-      "url": "https://x.com/i/status/2076917106931540139",
-      "created_at": "2026-07-14T06:30:00Z",
-      "likes": 6,
-      "views": "1607",
-      "has_media": true,
-      "media_urls": [
-        "https://pbs.twimg.com/media/HNKqlHmaMAAZpKV.jpg"
-      ],
-      "score": 5.75,
-      "recommend_reason": "@PDChinese 的中文讨论信息密度够，适合扫一眼跟进。",
-      "tags": [
-        "安全"
-      ],
-      "title": "【中國旱稻在巴巴多斯進一步擴大推廣】中國旱稻三期規模化試…"
-    },
-    {
-      "rank": 22,
-      "id": "2076932206388527292",
-      "author": "PDChinese",
-      "author_bio": "中國第一大報，帶來最新資訊與熱點新聞 https://t.co/QS9QzcMmHN",
-      "text": "【甘肅山丹：峽口古城迎客來】7月12日，遊客在甘肅張掖山丹縣峽口古城遊覽，感受千年古城的人文古韻。峽口古城始建於西漢時期，歷經唐、宋、元、明等朝代沿用，城池面積約19萬平方米，是河西走廊歷史悠久的古城遺址，也是絲綢之路上的重要驛站。 https://t.co/BmECttt1JA",
-      "summary": "【甘肅山丹：峽口古城迎客來】7月12日，遊客在甘肅張掖山丹縣峽口古城遊覽，感受千年古城的人文古韻。峽口古城始建於西漢時期，歷經唐、宋、元、明等朝代沿用，城池面積約19萬平方米，是河西走廊歷史悠久的古城遺址，也是絲綢之路上的重要驛站。 https://t.co/BmECttt1JA",
-      "url": "https://x.com/i/status/2076932206388527292",
+      "text": "Your AI agent probably doesn’t need a smarter model.\n\nIt needs a better operating system.\n\nMost people keep switching between Grok, GPT, and Claude while ignoring the system around them.\n\nHere’s what makes an Agent OS work:\n\n→ Hermes runs the agents.\n\n→ Obsidian stores the shared memory.\n\n→ One dashboard shows every active workflow.\n\n→ Sub-agents complete tasks in parallel.\n\n→ OMI captures conversations and screen context automatically.\n\n→ Every agent reads from the same knowledge vault.\n\nThe model can change.\n\nYour workflows, memory, and business context remain.\n\nBuild the system first.\n\nSwap the model later.\n\nSave this video, you’ll stop rebuilding your AI workflow every week.\n\nWant the SOP? DM me. 💬",
+      "summary": "作者主张别在 Grok/GPT/Claude 之间空转切换，而应搭 Agent OS：Hermes 跑代理、Obsidian 共享记忆、仪表盘看工作流、子代理并行、OMI 捕获对话与屏幕上下文，并统一知识库。",
+      "url": "https://x.com/i/status/2076932206665093464",
       "created_at": "2026-07-14T07:30:00Z",
-      "likes": 8,
-      "views": "1088",
+      "likes": 2,
+      "views": "1038",
       "has_media": true,
       "media_urls": [
-        "https://pbs.twimg.com/media/HNKrauFa8AAjl6O.jpg",
-        "https://pbs.twimg.com/media/HNKrat-a0AAmNa9.jpg",
-        "https://pbs.twimg.com/media/HNKrauEacAAJm9B.jpg",
-        "https://pbs.twimg.com/media/HNKrat-agAAO4ed.jpg"
+        "https://video.twimg.com/amplify_video/2076626231395811329/vid/avc1/480x270/6DK_6YF6ol7zyrCj.mp4?tag=28"
       ],
-      "score": 5.66,
-      "recommend_reason": "@PDChinese 的中文讨论信息密度够，适合扫一眼跟进。",
-      "tags": [],
-      "title": "【甘肅山丹：峽口古城迎客來】7月12日，遊客在甘肅張掖山…"
-    },
-    {
-      "rank": 23,
-      "id": "2076936986636816756",
-      "author": "agintender",
-      "author_bio": "barista @youcanshortit by @marginx_io Tweets are NFA. Not here to give answers—just vibing through different angles and perspectives. 都是瞎编，笑笑就好",
-      "text": "嗯，今天的kospi属于是散户撤退，机构大进（外资占1/3）的局面 - 基本上散户的卖盘都被机构消化\n\n看了一眼昨天kospi和kosdaq的数据，韩国金融厅大概率在上周已经介入了散户杠杆清算的事情，甚至可能还引入了第三方清算机制 - 即爆仓仓位由第三方清算机构先接管，不直接在公开市场上操作（抛售）\n\n7.9/10 kospi都跌熔断了，但是昨天被清算的券商应收帐款头寸只有262亿韩元？ \n\n7.13的熔断按照t+2的机制，这波头寸的清算要在明天爆发，就看今天韩国金融厅的大佬们能不能想出什么大招～",
-      "summary": "嗯，今天的kospi属于是散户撤退，机构大进（外资占1/3）的局面 - 基本上散户的卖盘都被机构消化  看了一眼昨天kospi和kosdaq的数据，韩国金融厅大概率在上周已经介入了散户杠杆清算的事情，甚至可能还引入了第三方清算机制 - 即爆仓仓位由第三方清算机构先接管，不直接在公开市场上操作（抛售）  7.9/10 kospi都跌熔断了，但是昨天被清算…",
-      "url": "https://x.com/i/status/2076936986636816756",
-      "created_at": "2026-07-14T07:48:59Z",
-      "likes": 1,
-      "views": "971",
-      "has_media": false,
-      "media_urls": [],
-      "score": 5.53,
-      "recommend_reason": "@agintender 的中文讨论信息密度够，适合扫一眼跟进。",
-      "tags": [],
-      "title": "嗯，今天的kospi属于是散户撤退，机构大进（外资占1/…"
-    },
-    {
-      "rank": 24,
-      "id": "2076927531987661140",
-      "author": "Khazix0918",
-      "author_bio": "愿我们永远对世界保持好奇。\n公众号：数字生命卡兹克",
-      "text": "天才程序员又要即将陨落了。。。。\n每次Fable 5用不了了，那个戒断反应真的严重。 https://t.co/A1I3kzpXoX",
-      "summary": "天才程序员又要即将陨落了。。。。 每次Fable 5用不了了，那个戒断反应真的严重。 https://t.co/A1I3kzpXoX",
-      "url": "https://x.com/i/status/2076927531987661140",
-      "created_at": "2026-07-14T07:11:25Z",
-      "likes": 15,
-      "views": "5025",
-      "has_media": true,
-      "media_urls": [
-        "https://pbs.twimg.com/media/HNK6aVjbYAA1VWi.png"
+      "score": 10.2,
+      "recommend_reason": "和 cy 自己的多猫/工作流方向同构，适合对照“模型层 vs 编排层”该投哪边。",
+      "tags": [
+        "Agent",
+        "工作流",
+        "Hermes",
+        "Obsidian"
       ],
-      "score": 5.4,
-      "recommend_reason": "@Khazix0918 的中文讨论信息密度够，适合扫一眼跟进。",
-      "tags": []
+      "title": "Agent 往往不缺更强模型，缺的是操作系统"
     },
     {
-      "rank": 25,
+      "rank": 7,
       "id": "2076931237433008471",
       "author": "lixinbao_X",
       "author_bio": "原金融从业者，现在基本全职自媒体人，使用AI技术赋能，2025年5月份到现在粉丝从零涨到：微信视频号 40 万，抖音25 万，B站 2 万，小红书 6 万。百度1.5万，快手及其他加总还有 2 万左右。全网粉丝数破 75 万。 我会在这里分享我作品，及相关制作经验技巧和心得。",
       "text": "supergrok 的额度再一次被刺用户了\n\n原来的每日视频生成额度从近乎无限降到20个左右\n\n现在直接降成了每周20个左右了。\n\n@elonmusk https://t.co/p1eiLGdmlk",
-      "summary": "supergrok 的额度再一次被刺用户了  原来的每日视频生成额度从近乎无限降到20个左右  现在直接降成了每周20个左右了。  @elonmusk https://t.co/p1eiLGdmlk",
+      "summary": "作者吐槽 SuperGrok 额度再次收紧：原先每日视频生成近乎无限→约 20 个，现在进一步变成每周约 20 个，并点名 @elonmusk。",
       "url": "https://x.com/i/status/2076931237433008471",
       "created_at": "2026-07-14T07:26:09Z",
       "likes": 6,
@@ -543,112 +184,155 @@
       "media_urls": [
         "https://pbs.twimg.com/media/HNK9oDZaIAA13mW.jpg"
       ],
-      "score": 5.26,
-      "recommend_reason": "@lixinbao_X 的中文讨论信息密度够，适合扫一眼跟进。",
+      "score": 10.6,
+      "recommend_reason": "额度政策变动会影响你是否还把视频生成压在 Grok 上，属于要跟进的产品约束。",
       "tags": [
-        "xAI"
+        "Grok",
+        "额度",
+        "视频生成",
+        "产品动态"
       ],
-      "title": "supergrok 的额度再一次被刺用户了  原来的每日…"
+      "title": "SuperGrok 视频生成额度从近乎无限砍到每周约 20 个"
     },
     {
-      "rank": 26,
-      "id": "2076932712317993411",
-      "author": "102BTC",
-      "author_bio": "A crypto wanderer obsessed with memes and internet humor.\nFollow me — 1M followers in 2027. Let’s see how it goes.🤡",
-      "text": "一笔 4000 万美元的 ETH 信仰投资，变成2380 万美元浮亏...\n\n4 年前，这位巨鲸以约 4311 美元价格买入 9,389 ETH\n如今仓位价值约 1670 万美元\n\n13小时前  将全部仓位转入 Coinbase \n这是持有 4 年后的投降吗？ https://t.co/GJ4IZk8u5L",
-      "summary": "一笔 4000 万美元的 ETH 信仰投资，变成2380 万美元浮亏...  4 年前，这位巨鲸以约 4311 美元价格买入 9,389 ETH 如今仓位价值约 1670 万美元  13小时前  将全部仓位转入 Coinbase  这是持有 4 年后的投降吗？ https://t.co/GJ4IZk8u5L",
-      "url": "https://x.com/i/status/2076932712317993411",
-      "created_at": "2026-07-14T07:32:00Z",
-      "likes": 7,
-      "views": "425",
-      "has_media": true,
-      "media_urls": [
-        "https://pbs.twimg.com/media/HNK-NqObsAAKR4p.png"
+      "rank": 8,
+      "id": "2076942097387524207",
+      "author": "OpenDesignHQ",
+      "author_bio": "The vibe design workspace for everyone.\nDecks, sites & prototypes → editable, local-first HTML, by any AI agent.\n75K+ ⭐ · open-source",
+      "text": "\"I go to Open Design first — and I haven't looked back.\"\n\n@StuartGardoll  switches AI models weekly. Claude Design locked him to one company's — so he moved to the open-source alternative.\n\nWatch his story ↓\nhttps://t.co/Fhbkfk6o30",
+      "summary": "StuartGardoll 称会每周切换 AI 模型，Claude Design 把他锁在一家供应商，于是转向开源替代 Open Design，并表示“先去 Open Design，就没回头”。",
+      "url": "https://x.com/i/status/2076942097387524207",
+      "created_at": "2026-07-14T08:09:18Z",
+      "likes": 0,
+      "views": "71",
+      "has_media": false,
+      "media_urls": [],
+      "score": 10.0,
+      "recommend_reason": "设计工具选型的真实迁移故事：锁模型 vs 可切换，对做设计链路的人有参考。",
+      "tags": [
+        "设计",
+        "开源",
+        "Claude",
+        "工具选型"
       ],
-      "score": 5.21,
-      "recommend_reason": "@102BTC 的中文讨论信息密度够，适合扫一眼跟进。",
-      "tags": [],
-      "title": "一笔 4000 万美元的 ETH 信仰投资，变成2380 万美元浮亏.."
+      "title": "设计师弃 Claude Design，改用开源 Open Design"
     },
     {
-      "rank": 27,
-      "id": "2076938999692964331",
-      "author": "CandyTt0211",
-      "author_bio": "不卖图包不卖身，不接推广不接活儿┆没有小号",
-      "text": "感受\n\n-\n\n最近都有在抖音直播哦\n1:1倒膜 tb撒哈拉绿洲@benxinfan https://t.co/Z8FWpUXkGk",
-      "summary": "感受  -  最近都有在抖音直播哦 1:1倒膜 tb撒哈拉绿洲@benxinfan https://t.co/Z8FWpUXkGk",
-      "url": "https://x.com/i/status/2076938999692964331",
-      "created_at": "2026-07-14T07:56:59Z",
-      "likes": 26,
-      "views": "736",
+      "rank": 9,
+      "id": "2076927531987661140",
+      "author": "Khazix0918",
+      "author_bio": "愿我们永远对世界保持好奇。\n公众号：数字生命卡兹克",
+      "text": "天才程序员又要即将陨落了。。。。\n每次Fable 5用不了了，那个戒断反应真的严重。 https://t.co/A1I3kzpXoX",
+      "summary": "作者自嘲：每次 Fable 5 用不了，戒断反应都很严重，调侃“天才程序员又要陨落”。",
+      "url": "https://x.com/i/status/2076927531987661140",
+      "created_at": "2026-07-14T07:11:25Z",
+      "likes": 15,
+      "views": "5025",
       "has_media": true,
       "media_urls": [
-        "https://pbs.twimg.com/media/HNLFASVbIAAwMFM.jpg"
+        "https://pbs.twimg.com/media/HNK6aVjbYAA1VWi.png"
       ],
-      "score": 5.21,
-      "recommend_reason": "@CandyTt0211 的中文讨论信息密度够，适合扫一眼跟进。",
+      "score": 11.5,
+      "recommend_reason": "轻量但真实的社区情绪信号，侧面说明 Fable 5 在重度用户工作流里的不可替代感。",
       "tags": [
-        "设计"
+        "Fable5",
+        "社区",
+        "使用体验"
       ]
     },
     {
-      "rank": 28,
-      "id": "2076920394154692977",
-      "author": "lixinbao_X",
-      "author_bio": "原金融从业者，现在基本全职自媒体人，使用AI技术赋能，2025年5月份到现在粉丝从零涨到：微信视频号 40 万，抖音25 万，B站 2 万，小红书 6 万。百度1.5万，快手及其他加总还有 2 万左右。全网粉丝数破 75 万。 我会在这里分享我作品，及相关制作经验技巧和心得。",
-      "text": "2015 年的那场股票事件大家还记得吗？\n\n当时有个哥们儿已经看到 A 股处在很危险的时候，就跟身边人说：“差不多就得了，该清仓了。”\n\n结果当天股票涨停。等到第二天，他又跟哥们儿说：“差不多得了，该清仓。”\n\n结果当天又涨停。\n\n第三天，他自己跑进去了。\n\n等到周一，出现了世纪大股灾。",
-      "summary": "2015 年的那场股票事件大家还记得吗？  当时有个哥们儿已经看到 A 股处在很危险的时候，就跟身边人说：“差不多就得了，该清仓了。”  结果当天股票涨停。等到第二天，他又跟哥们儿说：“差不多得了，该清仓。”  结果当天又涨停。  第三天，他自己跑进去了。  等到周一，出现了世纪大股灾。",
-      "url": "https://x.com/i/status/2076920394154692977",
-      "created_at": "2026-07-14T06:43:03Z",
-      "likes": 10,
-      "views": "607",
-      "has_media": false,
-      "media_urls": [],
-      "score": 5.18,
-      "recommend_reason": "@lixinbao_X 的中文讨论信息密度够，适合扫一眼跟进。",
-      "tags": [],
-      "title": "2015 年的那场股票事件大家还记得吗"
-    },
-    {
-      "rank": 29,
-      "id": "2076910492761891121",
-      "author": "bggg_ai",
-      "author_bio": "重生之我继续在X 分享AI干货知识：AI编程、n8n 工作流、AI 绘画",
-      "text": "https://t.co/8incW5Rzgm",
-      "summary": "https://t.co/8incW5Rzgm",
-      "url": "https://x.com/i/status/2076910492761891121",
-      "created_at": "2026-07-14T06:03:43Z",
-      "likes": 1,
-      "views": "735",
-      "has_media": false,
-      "media_urls": [],
-      "score": 5.11,
-      "recommend_reason": "@bggg_ai 在关注流里信息密度尚可，值得点开确认。",
+      "rank": 10,
+      "id": "2076938448599171310",
+      "author": "imwsl90",
+      "author_bio": "前程序员/产品经理/中年已婚带2娃\n\n- OPC、AI、互联网、两性情感、历史八卦\n\ngiffgaff卡🇬🇧： https://t.co/p3mva2Nhr0\n约我喝杯咖啡: https://t.co/ZL2M1iNhVZ\nvps: https://t.co/7OJQwIE3Jt",
+      "text": "刚用 deepseek 做了一个智能判单页面，几分钟就做好了 https://t.co/JxFdjAHCRt",
+      "summary": "作者用 DeepSeek 几分钟做出一个智能判单页面，并附上演示链接。",
+      "url": "https://x.com/i/status/2076938448599171310",
+      "created_at": "2026-07-14T07:54:48Z",
+      "likes": 0,
+      "views": "221",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNLEZpUbcAAS3oc.jpg"
+      ],
+      "score": 10.0,
+      "recommend_reason": "极短交付样本：说明用国产/开源模型做小业务页的速度下限。",
       "tags": [
-        "AI"
+        "DeepSeek",
+        "落地",
+        "判单",
+        "低代码"
       ]
     },
     {
-      "rank": 30,
-      "id": "2076939633385206043",
-      "author": "102BTC",
-      "author_bio": "A crypto wanderer obsessed with memes and internet humor.\nFollow me — 1M followers in 2027. Let’s see how it goes.🤡",
-      "text": "Memecoin Launchpad 就像一台提款机\n\nNoxa 收入：\n\n7 天手续费 1053 万美元\n过去 24 小时约 100 万美元\n\nMeme 赌场依然活跃，这些发射台赚麻了🥲 https://t.co/KosNu2KEMo",
-      "summary": "Memecoin Launchpad 就像一台提款机  Noxa 收入：  7 天手续费 1053 万美元 过去 24 小时约 100 万美元  Meme 赌场依然活跃，这些发射台赚麻了🥲 https://t.co/KosNu2KEMo",
-      "url": "https://x.com/i/status/2076939633385206043",
-      "created_at": "2026-07-14T07:59:30Z",
+      "rank": 11,
+      "id": "2076935655532511287",
+      "author": "imwsl90",
+      "author_bio": "前程序员/产品经理/中年已婚带2娃\n\n- OPC、AI、互联网、两性情感、历史八卦\n\ngiffgaff卡🇬🇧： https://t.co/p3mva2Nhr0\n约我喝杯咖啡: https://t.co/ZL2M1iNhVZ\nvps: https://t.co/7OJQwIE3Jt",
+      "text": "今天准备试试 opencode + deepseek 蹬车 https://t.co/CArwMjlgRI",
+      "summary": "作者准备试跑 opencode 搭配 DeepSeek 的编程工作流（“蹬车”），并附相关链接。",
+      "url": "https://x.com/i/status/2076935655532511287",
+      "created_at": "2026-07-14T07:43:42Z",
+      "likes": 0,
+      "views": "497",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNLB61MbAAAwHaO.jpg"
+      ],
+      "score": 10.0,
+      "recommend_reason": "本地/CLI coding agent 搭配 DeepSeek 的尝鲜信号，值得关注后续体验反馈。",
+      "tags": [
+        "opencode",
+        "DeepSeek",
+        "CodingAgent"
+      ]
+    },
+    {
+      "rank": 12,
+      "id": "2076927682202472488",
+      "author": "xiaoying_eth",
+      "author_bio": "🪪  努力做个哇塞的仙女 👸\n\n🐬 分享 AI 前沿干货 ｜打破信息壁垒 ｜AI项目实操\n\n🌻 实用工具推荐官 | 工匠日记\n\n投放、活动合作，都可以从 TG 联系 🔗",
+      "text": "2026年必备的50个AI工具，我挑了一遍\n\n这些工具覆盖内容、设计、营销、代码各个领域，根据你的需求挑几个上手\n\n1. https://t.co/sygs24SUAR – 啥都能搞定\n2. https://t.co/G3sdE6uxdA – 视频制作和发布\n3. https://t.co/pxEypLK8IJ – AI画图\n4. https://t.co/TbPWNtfGUd – 营销合规检查\n5. https://t.co/G3sdE6uxdA – 生成AI虚拟形象\n6. https://t.co/S09QBI6eq0 – 几秒钟出音乐\n7. https://t.co/AUB3VbCpiQ – 谷歌SEO优化\n8. https://t.co/QJI9klzM0E – 长视频剪成短视频\n9. https://t.co/A1hPYIjYfp – 自动生成演示文稿\n10. https://t.co/tg3dLXmFnN – 快速修图\n11. https://t.co/IHnTdgJjmm – 生成电子书\n12. https://t.co/PsLvOMzQHx – 圣经学习助手\n13. https://t.co/HEyNLZghSA – 编程写应用\n14. https://t.co/eUJLgD6goS – 联盟营销平台\n15. https://t.co/v3nycdz9e0 – 网络研讨会助手\n16. https://t.co/yC71w6G3Ko – YouTube优化工具\n17. https://t.co/0uSgNnSIkp – 写爆款评论\n18. https://t.co/XnyYJeY87c – 广告投放工具\n19. https://t.co/fnk07FMSSg – 设计一切\n20. https://t.co/0fAsoPoKlQ – AI证件照生成\n21. https://t.co/Rvs0lb9b4i – AI情感顾问\n22. https://t.co/WtVtDVYPKr – 生成爆款Facebook帖子\n23. https://t.co/8ASZWhxnkq – 前端原型设计\n24. https://t.co/S09QBI6eq0 – AI音乐创作\n25. https://t.co/BV2sZeBsnc – 提升广告转化\n26. https://t.co/osy04UrheQ – 谷歌AI视频生成\n27. https://t.co/9eZqcAXvRq – 设计精美演示文稿\n28. https://t.co/yM4qK2Pfkl – 一键去背景\n29. https://t.co/VmSJbZ9Lij – 草图转UI原型\n30. https://t.co/frBpir7Ixs – AI音乐制作\n31. https://t.co/KZJw2OR2Aq – 设计转代码\n32. https://t.co/fc7aaKopJS – AI陪伴机器人\n33. https://t.co/UnzLmvF2xP – 任何内容转播客\n34. https://t.co/cC7pdRvSY5 – 照片转文字笔记\n35. https://t.co/YstvbbFP86 – 深度研究文章\n36. https://t.co/g8WzKjjcwP – AI工具库\n37. https://t.co/YKWMxm0Xjt – ChatGPT接入白板\n38. https://t.co/mSMcVIoavd – 快速建应用和网站\n39. https://t.co/XlEuOLg6Ju – 模拟用户测试\n40. https://t.co/JDiMf73uQE – AI代理团队\n41. https://t.co/5i8C6S5HRD – AI客户留存\n42. https://t.co/2KzJNIEQG1 – 流失率降低\n43. https://t.co/G3sdE6uxdA – 产品视频快速生成\n44. https://t.co/SqwnWS0Hk0 – 初创企业法律平台\n45. https://t.co/iFOHFrthmn – 自动化一切\n46. https://t.co/YNiooCXnQC – 创作者最佳通讯\n47. https://t.co/zIewIb2aIO – 隐藏敏感信息\n48. https://t.co/YstvbbFP86 – 最好用的AI搜索\n49. https://t.co/ufMsUwlGD8 – 网站访客转化为线索\n50. https://t.co/pbTWjnXu29 – AI营销工具",
+      "summary": "作者整理并挑选“2026 年必备”约 50 个 AI 工具，覆盖内容生产、设计、营销、代码等领域，按条目给出链接与一句话用途，方便按需挑几个上手。",
+      "url": "https://x.com/i/status/2076927682202472488",
+      "created_at": "2026-07-14T07:12:01Z",
+      "likes": 6,
+      "views": "750",
+      "has_media": false,
+      "media_urls": [],
+      "score": 10.6,
+      "recommend_reason": "适合当工具雷达扫一遍；信息密度高，可收藏后按需深挖，不必全信“必备”话术。",
+      "tags": [
+        "工具清单",
+        "AI工具",
+        "效率"
+      ],
+      "title": "一份覆盖内容、设计、营销与代码的 2026 AI 工具清单"
+    },
+    {
+      "rank": 13,
+      "id": "2076924883183837199",
+      "author": "gkxspace",
+      "author_bio": "🌸05年连续创业者 | 专注 AI 产品 | 项目营收 7 位数+\n✨记录真实的创业路：项目复盘、踩坑总结和成长思考\n💗AI 产品构建 & AI 商业化方案 & 企业 AI 转型",
+      "text": "流量真的很容易低估一个人，曹总就是我身边最典型的例子。\n\n大学期间押中 VR 赚到第一个 100W。后来做过南方电网项目，省级研发专项，又一路折腾空间计算、AI 玩具、AI 教育。\n\n现在 26 岁，公司五六家，生意赚过钱，也破产过好几次。\n\n最让我服的，是他吃过这么多亏，却没有因此变得拧巴。还是很乐观、很友善，对我们这帮小小登尤其好。\n\n我们最近还一起在郑州办了一场黑客松，规模在中原地区应该也排得上号。\n\n曹总说，北上广深有那么多技术活动，中部的年轻人也该有地方一起做东西、认识伙伴，感受黑客松的乐趣。\n\n他其实不会搞流量，也不迎合流量。发内容更多是在认真记录自己，我觉得这真的“很不自媒体”！！！",
+      "summary": "作者讲述“曹总”从 VR 第一桶金、电网项目到 AI 玩具/教育、多次破产仍乐观，并在郑州办黑客松，强调中部年轻人也该有线下共创场，而不是只会追流量。",
+      "url": "https://x.com/i/status/2076924883183837199",
+      "created_at": "2026-07-14T07:00:54Z",
       "likes": 9,
-      "views": "244",
+      "views": "1245",
       "has_media": true,
       "media_urls": [
-        "https://pbs.twimg.com/media/HNLFMu2bkAEFjaT.png"
+        "https://pbs.twimg.com/media/HNKyuDKXkAAdZru.jpg"
       ],
-      "score": 5.05,
-      "recommend_reason": "@102BTC 这条中文实践可直接借鉴，讲的是产品/工作流怎么落地。",
+      "score": 10.9,
+      "recommend_reason": "不是模型评测，但是 AI 教育与社区组织的真人样本，对关心生态/活动的人有启发。",
       "tags": [
-        "产品"
+        "黑客松",
+        "AI教育",
+        "社区",
+        "创业"
       ],
-      "title": "Memecoin Launchpad 就像一台提款机…"
+      "title": "中部黑客松组织者的故事：AI 教育与空间计算创业路径"
     }
   ]
 }

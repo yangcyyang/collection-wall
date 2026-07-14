@@ -3,122 +3,53 @@ feature_ids: [F001]
 topics: [推特日报, opencli, 采集SOP]
 doc_kind: guide
 created: 2026-07-14
+updated: 2026-07-14
 ---
 
 # 推特日报 · 每日采集 SOP（荧荧执行版）
 
 > 真相源：`data/twitter/YYYY-MM-DD.json`  
-> Schema：芝芝 `6052e3a` + `b0b1359`（`site/src/lib/twitter.ts`）  
-> 账号：opencli 登录态 `@yangcyyang1`  
-> 时刻：每天 **11:45** 采集 → 约 **12:00** 上墙（定时任务由宪宪注册）
+> 账号：opencli `@yangcyyang1` · 目标时刻 11:45 采 / ~12:00 上墙  
+> **分工铁律（宪宪 2026-07-14 验收退回后固化）**：脚本只做拉流/去重/硬规则初筛；**title / summary / recommend_reason / tags 必须由荧荧本体逐条阅读后写入**，禁止截断模板、禁止关键词瞎标。
 
-## 0. 硬规则
+## 0. 硬规则（脚本可执行）
 
 | 规则 | 说明 |
 |------|------|
-| 禁促销模板 | FREE / MILLIONAIRE / 蓝图 / 午夜截止 / 订阅捆绑等丢弃 |
-| 禁非 AI 生活贴 | 纯生活、擦边、无信息增量高热 meme |
-| 同作者每日 ≤2 | 入选后同一 `author` 最多 2 条 |
-| 中文 AI/产品加权 | 中文且命中 AI/产品信号加分 |
-| 去转发 / 去短回复 | 默认去 retweet；无内容短 `@` 回复丢弃 |
-| 目标 30 条 | **不足 20 条 → 缺刊，不写文件** |
-| 失败不糊弄 | 登录态/opencli 失败 → 报「今天缺刊 + 原因」 |
+| 禁促销 | FREE 课 / MILLIONAIRE / 蓝图 / Like+comment 领礼 / 午夜截止 |
+| 禁非 AI 生活与纯娱乐 | 生活、擦边、三丽鸥、交友、纯梗图 |
+| 禁股票财经炒作 | 建仓、股价、浮亏、散户、memecoin 等；**除非**正文核心是 AI 产业/算力/模型（仍禁止“慢慢买”号召） |
+| 禁怀旧旧闻 | “7 年前视频”类无新增量回顾 |
+| 同作者 ≤2 | 入选后同一 author 最多 2 |
+| 去转发 / 短回复 | retweet 与无信息 `@` 短回复丢弃 |
+| 质量优先 | 目标 30；硬筛后不足也**不注水**；写清 `selection.actual_count` 与 note |
 
-## 1. Schema 契约（采集端必须真实生成）
+## 1. 字段契约（本体必须生成）
 
-对齐 `Tweet` / `TwitterDay`：
+对齐 `site/src/lib/twitter.ts`：
 
-| 字段 | 要求 |
+| 字段 | 规则 |
 |------|------|
-| `date` | `YYYY-MM-DD`，与文件名一致 |
-| `generated_at` | ISO 8601 UTC |
-| `source.type` | `following_timeline` |
-| `source.account` | `yangcyyang1` |
-| `source.window_hours` | `24` |
-| `items[].title` | **中文一句话总概标题**；原文 `text` 长度 ≤80 时 **不生成 title**（前端直接暴露原文） |
-| `items[].summary` | 简要摘要（长推压缩；短推可与原文一致） |
-| `items[].url` | 原推链接 |
-| `items[].tags` | 字符串数组，不限词表；**采集流程生成** |
-| `items[].recommend_reason` | **人话一句话**，禁止「AI/模型相关；互动906」拼接 |
-| `items[].created_at` | ISO 8601 UTC（`...Z`） |
-| 头像 | **不采集**；前端 `unavatar.io/x/{author}` |
+| `title` | **中文一句话总概**，禁止原文截断加 `…`；英文推先理解再写中文标题；`text` ≤80 字可不写 title（前端露短文/中文 summary） |
+| `summary` | **中文**简要摘要，忠于原文，不编造 |
+| `recommend_reason` | **每条不同**的人话：说清为什么值得 cy 看，必须与内容对得上 |
+| `tags` | 与内容真实相关的短标签；禁止“股票贴标 OpenAI”类瞎猜 |
+| `created_at` | ISO 8601 UTC |
+| 头像 | 不采集 |
 
-卡片展示顺序（前端）：标题 → 摘要 → 标签 → 推荐理由；链接在右上角。
+## 2. 每日流程
 
-## 2. 前置检查
+1. `opencli twitter whoami` 确认登录  
+2. opencli 拉 Following（live / top / AI 关键词补捞）  
+3. `python3 pipeline/twitter_daily_collect.py --mode hard-filter ...` → 候选池 JSON（**无** title/reason 终稿）  
+4. **荧荧逐条读候选**，选出 ≤30 条，手写 title/summary/recommend_reason/tags  
+5. 组装写入 `data/twitter/YYYY-MM-DD.json`  
+6. 本地 commit；Tab 上线后再 push 并验 `wall.yangcyyang.cn/twitter/`
 
-```bash
-opencli doctor
-opencli twitter whoami -f json   # logged_in=true, username=yangcyyang1
-```
+## 3. 失败
 
-失败 → 缺刊。
+登录态/opencli/候选过少且无法成刊 → thread 报 **今天缺刊 + 原因**，不写残缺灌水文件。
 
-## 3. 采集（Following，非公开热搜）
+## 4. 验收抽样标准
 
-```bash
-SINCE=$(date -u -v-1d +%Y-%m-%d)
-DAY=$(date +%Y-%m-%d)
-
-opencli twitter search \
-  "filter:follows -filter:replies -filter:nativeretweets since:${SINCE}" \
-  --product live --limit 80 -f json > /tmp/tw-follows-live.json
-
-opencli twitter search \
-  "filter:follows -filter:replies -filter:nativeretweets since:${SINCE}" \
-  --product top --limit 40 -f json > /tmp/tw-follows-top.json
-
-opencli twitter search \
-  "filter:follows (AI OR LLM OR agent OR GPT OR Claude OR OpenAI OR Anthropic OR Codex OR 大模型 OR Agent) -filter:replies -filter:nativeretweets since:${SINCE}" \
-  --product live --limit 40 -f json > /tmp/tw-follows-ai.json
-```
-
-## 4. 筛选写盘
-
-```bash
-cd "/Users/cy/Documents/03 life/AI design/产品项目/自动化工作流"
-python3 pipeline/twitter_daily_collect.py \
-  --inputs /tmp/tw-follows-live.json /tmp/tw-follows-top.json /tmp/tw-follows-ai.json \
-  --date "${DAY}" \
-  --out-dir data/twitter
-```
-
-- exit 0 → `data/twitter/${DAY}.json`
-- exit 2 → 缺刊，不写文件
-
-## 5. 发布（Tab 上线后）
-
-`git_sync.py` 仅同步 `data/tools`。推特日报：
-
-```bash
-git add -- "data/twitter/${DAY}.json"
-git commit -m "data(twitter): ${DAY} digest"
-git push origin HEAD
-```
-
-检查 `https://wall.yangcyyang.cn/twitter/`。
-
-## 6. 每日自检
-
-- [ ] whoami OK  
-- [ ] 条数 ≥20  
-- [ ] `created_at` 均为 ISO `Z`  
-- [ ] 长推有中文 `title`；短推无强行拆标题  
-- [ ] `tags` + 人话 `recommend_reason` 齐全  
-- [ ] 无促销 / 无纯生活 / 作者 ≤2  
-- [ ]（上线后）commit 已 push 且线上可见  
-
-通过 → thread「本日已刊」+ 路径 + short SHA。  
-失败 → 「今天缺刊：原因=…」。
-
-## 7. 全链路手动验证（push 上线后做一次）
-
-采集 → 写盘 → commit+push → 浏览器确认线上 → 证据三件套。
-
-## 8. 交界
-
-| 谁 | 交界 |
-|----|------|
-| 芝芝 | Tab / schema；字段变更以 thread 为准 |
-| Pi | 审查 Tab 代码 |
-| 宪宪 | 11:45 定时 + 观察期 |
+抽 5 条（含 ≥2 条英文原文推）：标题是总概不是截断、理由与内容对齐、无股票娱乐怀旧、tags 说得通、中文字段可读。
