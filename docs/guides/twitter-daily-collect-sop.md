@@ -22,20 +22,37 @@ updated: 2026-07-14
 | 禁怀旧旧闻 | “7 年前视频”类无新增量回顾 |
 | 同作者 ≤2 | 入选后同一 author 最多 2 |
 | 去转发 / 短回复 | retweet 与无信息 `@` 短回复丢弃 |
-| 质量优先 | 目标 30；硬筛后不足也**不注水**；写清 `selection.actual_count` 与 note |
+| 质量优先 | **上限 30、不设保底**；卡片显示实际条数；不为凑数注水 |
+| 条数字段 | 写清 `selection.max_count=30`、`min_count=null`、`actual_count` |
 
 ## 1. 字段契约（本体必须生成）
 
-对齐 `site/src/lib/twitter.ts`：
+对齐 `site/src/lib/twitter.ts`（前端 `isShortTweet`：无 title 或 `text.length ≤ 80`）：
 
 | 字段 | 规则 |
 |------|------|
-| `title` | **中文一句话总概**，禁止原文截断加 `…`；英文推先理解再写中文标题；`text` ≤80 字可不写 title（前端露短文/中文 summary） |
-| `summary` | **中文**简要摘要，忠于原文，不编造 |
+| `title` | **中文一句话总概**，禁止原文截断加 `…`；英文推先理解再写中文标题 |
+| `title`（短推） | **可省**：原文 `text` 字符数 ≤80 时**不要**写 `title` 字段；前端用中文 `summary` 展示，**禁止**直接露英文原文 |
+| `summary` | **一律中文**简要摘要（长推压缩 / 短推=中文翻译或中文意译），忠于原文，不编造；专有名词可保留必要外文，但不得整段英文摘要 |
 | `recommend_reason` | **每条不同**的人话：说清为什么值得 cy 看，必须与内容对得上 |
 | `tags` | 与内容真实相关的短标签；禁止“股票贴标 OpenAI”类瞎猜 |
 | `created_at` | ISO 8601 UTC |
 | 头像 | 不采集 |
+
+### Schema 约定（写入每日 JSON 的 `selection`）
+
+```json
+{
+  "max_count": 30,
+  "min_count": null,
+  "actual_count": 13,
+  "short_tweet": {
+    "threshold_chars": 80,
+    "title_optional": true,
+    "summary_required_zh": true
+  }
+}
+```
 
 ## 2. 每日流程
 

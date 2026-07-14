@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "date": "2026-07-14",
-  "generated_at": "2026-07-14T08:15:54Z",
+  "generated_at": "2026-07-14T08:18:42Z",
   "source": {
     "type": "following_timeline",
     "method": "opencli twitter search filter:follows",
@@ -11,7 +11,7 @@
   "selection": {
     "target_count": 30,
     "actual_count": 13,
-    "note": "质量优先：硬规则过滤后今日关注流仅保留 AI/产品向可写条目；title/summary/recommend_reason/tags 均由荧荧逐条阅读生成，非脚本模板。",
+    "note": "质量优先：上限30不保底。本日 actual_count=13。title/summary/recommend_reason/tags 由荧荧逐条生成；短推可省 title、summary 必须中文。",
     "criteria": [
       "禁促销",
       "禁非AI生活/娱乐",
@@ -20,7 +20,23 @@
       "作者≤2",
       "字段由LLM逐条生成",
       "英文内容中文化"
-    ]
+    ],
+    "max_count": 30,
+    "min_count": null,
+    "rules": [
+      "上限30条，不设保底；卡片区块显示实际条数",
+      "质量优先，不为凑数注水",
+      "作者每日≤2",
+      "短推（原文≤80字）可省 title，summary 必须是中文（英文短推要译成中文）",
+      "长推 title/summary/recommend_reason/tags 由采集猫逐条阅读生成",
+      "禁促销、非AI生活娱乐、股票建仓炒作、怀旧旧闻"
+    ],
+    "short_tweet": {
+      "threshold_chars": 80,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "note": "短推可省 title 字段；前端用 summary（中文）展示，勿直接露英文原文"
+    }
   },
   "items": [
     {
@@ -54,7 +70,7 @@
       "author": "bindureddy",
       "author_bio": "CEO of @abacusai - the world’s first AI super assistant and a powerful general agent for professionals and enterprises, ex-AWS & Google",
       "text": "🚨 Fable 5 + GPT 5.6 sol on the right infrastructure can build anything with text prompts\n\n- complex 3d games\n- real-time trading servers\n- desktop and mobile apps\n\nBackend, auth, databases and hosting comes for free as part of the Abacus AI SuperComputer https://t.co/khTjUT0Bsx",
-      "summary": "作者称在合适的基础设施上，Fable 5 + GPT-5.6 Sol 可用纯文本做出 3D 游戏、实时交易服务、桌面与移动应用；后端、鉴权、数据库与托管由 Abacus AI SuperComputer 一并提供。",
+      "summary": "作者称：在合适的基建上，Fable 5 搭配 GPT-5.6 Sol 可用纯文字提示做出三维游戏、实时交易服务、桌面与手机应用；后端、登录鉴权、数据库和托管可由阿巴库斯的一体化算力平台一并提供。",
       "url": "https://x.com/i/status/2076931055282745666",
       "created_at": "2026-07-14T07:25:25Z",
       "likes": 22,
@@ -200,7 +216,7 @@
       "author": "OpenDesignHQ",
       "author_bio": "The vibe design workspace for everyone.\nDecks, sites & prototypes → editable, local-first HTML, by any AI agent.\n75K+ ⭐ · open-source",
       "text": "\"I go to Open Design first — and I haven't looked back.\"\n\n@StuartGardoll  switches AI models weekly. Claude Design locked him to one company's — so he moved to the open-source alternative.\n\nWatch his story ↓\nhttps://t.co/Fhbkfk6o30",
-      "summary": "StuartGardoll 称会每周切换 AI 模型，Claude Design 把他锁在一家供应商，于是转向开源替代 Open Design，并表示“先去 Open Design，就没回头”。",
+      "summary": "设计师斯图尔特称自己会每周换用不同人工智能模型，克劳德设计工具把他锁死在单一厂商，于是改用开源的开放设计工具；他表示“现在先打开源设计，就没再回头”。",
       "url": "https://x.com/i/status/2076942097387524207",
       "created_at": "2026-07-14T08:09:18Z",
       "likes": 0,
@@ -215,7 +231,7 @@
         "Claude",
         "工具选型"
       ],
-      "title": "设计师弃 Claude Design，改用开源 Open Design"
+      "title": "设计师弃单一厂商设计工具，改用开源开放设计"
     },
     {
       "rank": 9,
