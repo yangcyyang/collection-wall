@@ -22,7 +22,7 @@ const { day } = Astro.props;
             <a class="tweet-link" href={item.url} target="_blank" rel="noreferrer">跳转原推 →</a>
           </div>
           {isShortTweet(item) ? (
-            <p class="tweet-summary tweet-original">{item.text}</p>
+            <p class="tweet-summary tweet-original">{item.summary}</p>
           ) : (
             <>
               <h3 class="tweet-title">{item.title}</h3>
