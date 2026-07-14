@@ -1,13 +1,7 @@
 ---
 import "../styles/global.css";
-import {
-  getTwitterDays,
-  splitRecentAndArchive,
-  tagCounts,
-  formatDayLabel,
-  formatTime,
-  avatarUrl,
-} from "../lib/twitter";
+import { getTwitterDays, splitRecentAndArchive, tagCounts } from "../lib/twitter";
+import TwitterDayGroup from "../components/TwitterDayGroup.astro";
 
 const days = await getTwitterDays();
 const { recent, archive } = splitRecentAndArchive(days);
@@ -56,68 +50,14 @@ const totalItems = days.reduce((sum, day) => sum + day.items.length, 0);
           )}
 
           <section class="twitter-timeline" aria-label="最近日报">
-            {recent.map((day) => (
-              <div class="day-group" data-day>
-                <div class="day-heading">
-                  <h2>{formatDayLabel(day.date)}</h2>
-                  <p>{day.items.length} 条</p>
-                </div>
-                <div class="tweet-list">
-                  {day.items.map((item) => (
-                    <article class="tweet-card" data-tweet data-tags={(item.tags ?? []).join(",")}>
-                      <img class="tweet-avatar" src={avatarUrl(item.author)} alt="" loading="lazy" />
-                      <div class="tweet-body">
-                        <div class="tweet-meta">
-                          <span class="tweet-time">{formatTime(item.created_at)}</span>
-                          <span class="tweet-author">@{item.author}</span>
-                          <span class="tweet-score">热度{Math.round(item.score)}</span>
-                        </div>
-                        <p class="tweet-summary">{item.summary}</p>
-                        <p class="tweet-reason">{item.recommend_reason}</p>
-                        <div class="tweet-footer">
-                          <div class="tag-list">{(item.tags ?? []).map((tag) => <span>{tag}</span>)}</div>
-                          <a class="tweet-link" href={item.url} target="_blank" rel="noreferrer">跳转原推 →</a>
-                        </div>
-                      </div>
-                    </article>
-                  ))}
-                </div>
-              </div>
-            ))}
+            {recent.map((day) => <TwitterDayGroup day={day} />)}
           </section>
 
           {archive.length > 0 && (
             <details class="archive-section">
               <summary>更早归档（{archive.length} 天）</summary>
               <section class="twitter-timeline">
-                {archive.map((day) => (
-                  <div class="day-group" data-day>
-                    <div class="day-heading">
-                      <h2>{formatDayLabel(day.date)}</h2>
-                      <p>{day.items.length} 条</p>
-                    </div>
-                    <div class="tweet-list">
-                      {day.items.map((item) => (
-                        <article class="tweet-card" data-tweet data-tags={(item.tags ?? []).join(",")}>
-                          <img class="tweet-avatar" src={avatarUrl(item.author)} alt="" loading="lazy" />
-                          <div class="tweet-body">
-                            <div class="tweet-meta">
-                              <span class="tweet-time">{formatTime(item.created_at)}</span>
-                              <span class="tweet-author">@{item.author}</span>
-                              <span class="tweet-score">热度{Math.round(item.score)}</span>
-                            </div>
-                            <p class="tweet-summary">{item.summary}</p>
-                            <p class="tweet-reason">{item.recommend_reason}</p>
-                            <div class="tweet-footer">
-                              <div class="tag-list">{(item.tags ?? []).map((tag) => <span>{tag}</span>)}</div>
-                              <a class="tweet-link" href={item.url} target="_blank" rel="noreferrer">跳转原推 →</a>
-                            </div>
-                          </div>
-                        </article>
-                      ))}
-                    </div>
-                  </div>
-                ))}
+                {archive.map((day) => <TwitterDayGroup day={day} />)}
               </section>
             </details>
           )}

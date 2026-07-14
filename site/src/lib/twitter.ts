@@ -8,6 +8,7 @@ export type Tweet = {
   author_bio?: string;
   text: string;
   summary: string;
+  title?: string;
   url: string;
   created_at: string;
   likes: number;
@@ -18,6 +19,12 @@ export type Tweet = {
   recommend_reason: string;
   tags?: string[];
 };
+
+const SHORT_TWEET_THRESHOLD = 80;
+
+export function isShortTweet(item: Tweet) {
+  return !item.title || item.text.length <= SHORT_TWEET_THRESHOLD;
+}
 
 export type TwitterDay = {
   date: string;

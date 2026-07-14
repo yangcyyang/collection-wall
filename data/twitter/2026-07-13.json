@@ -26,7 +26,8 @@
       "recommend_reason": "AI/模型相关；互动906",
       "tags": [
         "Anthropic"
-      ]
+      ],
+      "title": "Anthropic 分析 30 万对话：Claude 的价值观表达因模型和语言而异"
     },
     {
       "rank": 2,
@@ -48,7 +49,8 @@
       "tags": [
         "Anthropic",
         "OpenAI"
-      ]
+      ],
+      "title": "Codex 命令面板新增导入功能，可直接迁移 Claude Code / Cowork 配置"
     },
     {
       "rank": 3,
@@ -69,7 +71,8 @@
         "Anthropic",
         "OpenAI",
         "Google"
-      ]
+      ],
+      "title": "评论：大厂应效仿 Grok 和 Muse Spark，靠低价高性能模型抢占市场"
     },
     {
       "rank": 4,
@@ -91,7 +94,8 @@
       "tags": [
         "硬件",
         "产品动态"
-      ]
+      ],
+      "title": "NVIDIA GTC 柏林站限时优惠开票，聚焦 AI、加速计算与机器人"
     },
     {
       "rank": 5,
@@ -110,7 +114,8 @@
       "recommend_reason": "AI/模型相关；产品/发布信号；互动93",
       "tags": [
         "产品动态"
-      ]
+      ],
+      "title": "Box CEO：智能成本下降才是 Agent 大规模落地的关键"
     },
     {
       "rank": 6,
@@ -134,7 +139,8 @@
         "Anthropic",
         "OpenAI",
         "Google"
-      ]
+      ],
+      "title": "ChatGPT 5.6 Sol Pro 无提示解出 Claude Fable 5 出的宝可梦填字游戏"
     },
     {
       "rank": 7,
@@ -175,7 +181,8 @@
       "recommend_reason": "互动202；有图/媒体",
       "tags": [
         "Google"
-      ]
+      ],
+      "title": "Google 用 Antigravity「预测过去」技能复原古罗马盗窃案与人脉网络"
     },
     {
       "rank": 9,
@@ -196,7 +203,8 @@
       "recommend_reason": "AI/模型相关；互动98；有图/媒体",
       "tags": [
         "开源"
-      ]
+      ],
+      "title": "仅看视频、无先验知识，AI 推导出机械装置背后的数学原理"
     },
     {
       "rank": 10,
@@ -257,7 +265,8 @@
       "tags": [
         "Anthropic",
         "Google"
-      ]
+      ],
+      "title": "Claude Fable 5 Max 制作首批 150 只宝可梦填字游戏"
     },
     {
       "rank": 13,
@@ -320,7 +329,8 @@
       "tags": [
         "Anthropic",
         "产品动态"
-      ]
+      ],
+      "title": "用 mock UI 代替纯文字沟通，作者分享和 Claude 做交互设计的新流程"
     },
     {
       "rank": 16,
@@ -343,7 +353,8 @@
         "Anthropic",
         "OpenAI",
         "产品动态"
-      ]
+      ],
+      "title": "测评：GPT-5.6 加持的 Codex 工作流在某项能力上反超 Claude"
     },
     {
       "rank": 17,
@@ -385,7 +396,8 @@
         "Anthropic",
         "OpenAI",
         "xAI"
-      ]
+      ],
+      "title": "促销贴：「五步做到七位数」付费蓝图限时优惠（营销广告）"
     },
     {
       "rank": 19,
@@ -427,7 +439,8 @@
         "Anthropic",
         "OpenAI",
         "xAI"
-      ]
+      ],
+      "title": "作者分享「双引擎」配置：在 Claude Code 里切换 GPT/GLM/Grok 复用订阅"
     },
     {
       "rank": 21,
@@ -448,7 +461,8 @@
         "Anthropic",
         "OpenAI",
         "产品动态"
-      ]
+      ],
+      "title": "作者反思：Claude 和 OpenAI 额度大战打乱了自己的产品开发节奏"
     },
     {
       "rank": 22,
@@ -468,7 +482,8 @@
       "tags": [
         "Google",
         "xAI"
-      ]
+      ],
+      "title": "评测：Grok 4.5 已经可以替代 Haiku 投入实际使用"
     },
     {
       "rank": 23,
@@ -491,7 +506,8 @@
       "tags": [
         "Google",
         "产品动态"
-      ]
+      ],
+      "title": "台积电加建先进封装厂，SemiAnalysis 曝 Rubin Ultra 机柜或延期一年以上"
     },
     {
       "rank": 24,
@@ -512,7 +528,8 @@
       "recommend_reason": "AI/模型相关；产品/发布信号；有图/媒体",
       "tags": [
         "产品动态"
-      ]
+      ],
+      "title": "线上分享：「Skills 不赚钱、Agent 才性感」，Agent 能为产品导流"
     },
     {
       "rank": 25,
@@ -533,7 +550,8 @@
       "recommend_reason": "AI/模型相关；互动31；有图/媒体",
       "tags": [
         "研究"
-      ]
+      ],
+      "title": "案例：无脚本语音 Agent 30 秒内自然挽回一次弃单"
     },
     {
       "rank": 26,
@@ -554,7 +572,8 @@
       "recommend_reason": "AI/模型相关；互动22；有图/媒体",
       "tags": [
         "研究"
-      ]
+      ],
+      "title": "微软 Aurora 1.5 气象基础模型新增 22 个变量与小时级预测"
     },
     {
       "rank": 27,
@@ -576,7 +595,8 @@
       "tags": [
         "Anthropic",
         "Google"
-      ]
+      ],
+      "title": "Claude Fable 5 Max 只用大卫·李嘉图的词汇改写 Sabrina Carpenter 歌词"
     },
     {
       "rank": 28,
@@ -595,7 +615,8 @@
       "recommend_reason": "AI/模型相关",
       "tags": [
         "OpenAI"
-      ]
+      ],
+      "title": "OpenAI 生物安全赏金计划开放，越狱 GPT-5.6 最高奖 5 万美元"
     },
     {
       "rank": 29,
@@ -614,7 +635,8 @@
       "recommend_reason": "互动78",
       "tags": [
         "OpenAI"
-      ]
+      ],
+      "title": "作者分享：摔伤后仍坚持骑车通勤（非 AI 内容）"
     },
     {
       "rank": 30,
