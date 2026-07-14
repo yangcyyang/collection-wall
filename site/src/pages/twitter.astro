@@ -1,0 +1,155 @@
+---
+import "../styles/global.css";
+import {
+  getTwitterDays,
+  splitRecentAndArchive,
+  tagCounts,
+  formatDayLabel,
+  formatTime,
+  avatarUrl,
+} from "../lib/twitter";
+
+const days = await getTwitterDays();
+const { recent, archive } = splitRecentAndArchive(days);
+const tags = tagCounts(days);
+const totalItems = days.reduce((sum, day) => sum + day.items.length, 0);
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="cy 关注流每日精选 30 条" />
+    <title>推特日报 · 工具库</title>
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="site-header">
+        <div>
+          <p class="eyebrow">Following 时间线精选</p>
+          <h1>推特日报</h1>
+          <p class="intro">每天中午从关注流里挑出最值得看的 30 条，按时间倒序排列。</p>
+        </div>
+        <p class="record-count">{totalItems} 条已收录</p>
+      </header>
+
+      <nav class="tabs" aria-label="站点栏目">
+        <a class="tab" href="/">收藏墙</a>
+        <a class="tab is-active" href="/twitter/">推特日报</a>
+        <span class="tab is-disabled">每日日报 · 即将开放</span>
+        <span class="tab is-disabled">知识总结 · 即将开放</span>
+      </nav>
+
+      {days.length === 0 ? (
+        <section class="empty-state" aria-labelledby="empty-title">
+          <p class="empty-icon">✦</p>
+          <h2 id="empty-title">还没有日报</h2>
+          <p>等待第一次采集任务写入 data/twitter/ 后会出现在这里。</p>
+        </section>
+      ) : (
+        <>
+          {tags.length > 0 && (
+            <div class="tag-filter-row" aria-label="按标签筛选">
+              <button class="tag-filter is-selected" type="button" data-tag-filter="">全部</button>
+              {tags.map(({ tag, count }) => <button class="tag-filter" type="button" data-tag-filter={tag}>{tag}<em>{count}</em></button>)}
+            </div>
+          )}
+
+          <section class="twitter-timeline" aria-label="最近日报">
+            {recent.map((day) => (
+              <div class="day-group" data-day>
+                <div class="day-heading">
+                  <h2>{formatDayLabel(day.date)}</h2>
+                  <p>{day.items.length} 条</p>
+                </div>
+                <div class="tweet-list">
+                  {day.items.map((item) => (
+                    <article class="tweet-card" data-tweet data-tags={(item.tags ?? []).join(",")}>
+                      <img class="tweet-avatar" src={avatarUrl(item.author)} alt="" loading="lazy" />
+                      <div class="tweet-body">
+                        <div class="tweet-meta">
+                          <span class="tweet-time">{formatTime(item.created_at)}</span>
+                          <span class="tweet-author">@{item.author}</span>
+                          <span class="tweet-score">热度{Math.round(item.score)}</span>
+                        </div>
+                        <p class="tweet-summary">{item.summary}</p>
+                        <p class="tweet-reason">{item.recommend_reason}</p>
+                        <div class="tweet-footer">
+                          <div class="tag-list">{(item.tags ?? []).map((tag) => <span>{tag}</span>)}</div>
+                          <a class="tweet-link" href={item.url} target="_blank" rel="noreferrer">跳转原推 →</a>
+                        </div>
+                      </div>
+                    </article>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </section>
+
+          {archive.length > 0 && (
+            <details class="archive-section">
+              <summary>更早归档（{archive.length} 天）</summary>
+              <section class="twitter-timeline">
+                {archive.map((day) => (
+                  <div class="day-group" data-day>
+                    <div class="day-heading">
+                      <h2>{formatDayLabel(day.date)}</h2>
+                      <p>{day.items.length} 条</p>
+                    </div>
+                    <div class="tweet-list">
+                      {day.items.map((item) => (
+                        <article class="tweet-card" data-tweet data-tags={(item.tags ?? []).join(",")}>
+                          <img class="tweet-avatar" src={avatarUrl(item.author)} alt="" loading="lazy" />
+                          <div class="tweet-body">
+                            <div class="tweet-meta">
+                              <span class="tweet-time">{formatTime(item.created_at)}</span>
+                              <span class="tweet-author">@{item.author}</span>
+                              <span class="tweet-score">热度{Math.round(item.score)}</span>
+                            </div>
+                            <p class="tweet-summary">{item.summary}</p>
+                            <p class="tweet-reason">{item.recommend_reason}</p>
+                            <div class="tweet-footer">
+                              <div class="tag-list">{(item.tags ?? []).map((tag) => <span>{tag}</span>)}</div>
+                              <a class="tweet-link" href={item.url} target="_blank" rel="noreferrer">跳转原推 →</a>
+                            </div>
+                          </div>
+                        </article>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </section>
+            </details>
+          )}
+        </>
+      )}
+    </main>
+    <footer class="site-footer">
+      <p><strong>数据来源说明</strong>：内容来自 cy 的 X（Twitter）Following 时间线，AI 按相关度/信息增量/互动热度筛选，去转发去广告。</p>
+    </footer>
+    <script>
+      const filterButtons = document.querySelectorAll("[data-tag-filter]");
+      const cards = document.querySelectorAll("[data-tweet]");
+      const dayGroups = document.querySelectorAll("[data-day]");
+      let activeTag = "";
+
+      function refresh() {
+        cards.forEach((card) => {
+          const tags = (card.getAttribute("data-tags") ?? "").split(",");
+          card.hidden = Boolean(activeTag) && !tags.includes(activeTag);
+        });
+        dayGroups.forEach((group) => {
+          group.hidden = !group.querySelector("[data-tweet]:not([hidden])");
+        });
+      }
+
+      filterButtons.forEach((button) => button.addEventListener("click", () => {
+        const nextTag = button.getAttribute("data-tag-filter") ?? "";
+        activeTag = activeTag === nextTag ? "" : nextTag;
+        filterButtons.forEach((item) => item.classList.toggle("is-selected", item === button && activeTag !== ""));
+        if (!activeTag) filterButtons[0]?.classList.add("is-selected");
+        refresh();
+      }));
+    </script>
+  </body>
+</html>

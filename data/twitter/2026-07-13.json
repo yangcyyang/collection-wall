@@ -1,0 +1,641 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T17:24:56Z",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window": "approx_last_24h_since_2026-07-12"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "id": "2076719540785012872",
+      "author": "AnthropicAI",
+      "author_bio": "We're an AI safety and research company that builds reliable, interpretable, and steerable AI systems. Talk to our AI assistant @claudeai on https://t.co/FhDI3K",
+      "text": "In previous research, we found that Claude expresses over 3,000 values, like honesty and warmth. In new work, we asked how the values Claude expresses vary between Claude models and across languages.\n\nWe analyzed 300K+ anonymized conversations to find out.https://t.co/PgxsMXipt5",
+      "summary": "In previous research, we found that Claude expresses over 3,000 values, like honesty and warmth. In new work, we asked how the values Claude expresses vary between Claude models…",
+      "url": "https://x.com/i/status/2076719540785012872",
+      "created_at": "2026-07-13T17:24:56Z",
+      "likes": 906,
+      "views": "95477",
+      "has_media": false,
+      "media_urls": [],
+      "score": 23.0,
+      "recommend_reason": "AI/模型相关；互动906",
+      "tags": [
+        "Anthropic"
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "2076685755888574519",
+      "author": "jxnlco",
+      "author_bio": "vibes @openai",
+      "text": "Import is now available in the Codex! \n\nExisting Codex users can now access the Claude Code / Cowork import tool directly through the command palette (vs prior only in Settings page).\n\nOpen the command palette with Cmd+K (Mac) or Ctrl+K (Windows).\n\nIf you want to try our sol with your existing configs just try this out",
+      "summary": "Import is now available in the Codex!   Existing Codex users can now access the Claude Code / Cowork import tool directly through the command palette (vs prior only in Settings …",
+      "url": "https://x.com/i/status/2076685755888574519",
+      "created_at": "2026-07-13T15:10:41Z",
+      "likes": 182,
+      "views": "10798",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNHem21b0AAkUuB.png"
+      ],
+      "score": 22.4,
+      "recommend_reason": "AI/模型相关；互动182；有图/媒体",
+      "tags": [
+        "Anthropic",
+        "OpenAI"
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "2076673529572147229",
+      "author": "bindureddy",
+      "author_bio": "CEO of @abacusai - the world’s first AI super assistant and a powerful general agent for professionals and enterprises, ex-AWS & Google",
+      "text": "Big cloud including Amazon and Microsoft are panicking about Anthropic and OpenAI \n\nIt’s simple - Do what Grok and Muse spark just did \n\nRelease cheap and performant models - eat into their API margins",
+      "summary": "Big cloud including Amazon and Microsoft are panicking about Anthropic and OpenAI   It’s simple - Do what Grok and Muse spark just did   Release cheap and performant models - ea…",
+      "url": "https://x.com/i/status/2076673529572147229",
+      "created_at": "2026-07-13T14:22:06Z",
+      "likes": 126,
+      "views": "8423",
+      "has_media": false,
+      "media_urls": [],
+      "score": 21.23,
+      "recommend_reason": "AI/模型相关；产品/发布信号；互动126",
+      "tags": [
+        "Anthropic",
+        "OpenAI",
+        "Google"
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "2076690662196490454",
+      "author": "nvidia",
+      "author_bio": "The official handle for NVIDIA. Blog: https://t.co/JAn5eKOTBT Support: https://t.co/6ln5FVnA2o All our social media: https://t.co/Uc56dL57Dh",
+      "text": "What’s the saying about the early bird and the worm? 🐦🪱\n\n#NVIDIAGTC Berlin discounted pricing is available for a limited time only - join us for the latest in AI, accelerated computing, robotics, simulation, and more. https://t.co/1IHCGu1sKZ",
+      "summary": "What’s the saying about the early bird and the worm? 🐦🪱  #NVIDIAGTC Berlin discounted pricing is available for a limited time only - join us for the latest in AI, accelerated co…",
+      "url": "https://x.com/i/status/2076690662196490454",
+      "created_at": "2026-07-13T15:30:11Z",
+      "likes": 133,
+      "views": "30633",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2076690623378214912/vid/avc1/480x270/ridbGt_xMDWBWEIw.mp4?tag=14"
+      ],
+      "score": 20.45,
+      "recommend_reason": "AI/模型相关；产品/发布信号；互动133；有图/媒体",
+      "tags": [
+        "硬件",
+        "产品动态"
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "2076688119404081650",
+      "author": "levie",
+      "author_bio": "ceo @box - your business lives in content. unleash it with AI",
+      "text": "The best way you’re going to continue to get large scale agentic adoption is by continuing to bring down the cost of intelligence. More use-cases open up for AI every time you can have lower cost tokens (for the same or better level of capability).\n\nAlmost all information work in the future will involve an agent somewhere in the workflow creating, processing, reviewing, or classifying data in some way. This will happen sooner *or* later depending on the cost of tokens of frontier models. \n\nWhether this happens from closed or open models is somewhat incidental, but the key is just that it happens. It’s great to see so much innovation and different approaches in AI right now as there are so many more use cases to power.",
+      "summary": "The best way you’re going to continue to get large scale agentic adoption is by continuing to bring down the cost of intelligence. More use-cases open up for AI every time you c…",
+      "url": "https://x.com/i/status/2076688119404081650",
+      "created_at": "2026-07-13T15:20:05Z",
+      "likes": 93,
+      "views": "25459",
+      "has_media": false,
+      "media_urls": [],
+      "score": 20.15,
+      "recommend_reason": "AI/模型相关；产品/发布信号；互动93",
+      "tags": [
+        "产品动态"
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "2076699061449568583",
+      "author": "goodside",
+      "author_bio": "Screenshots of chatbots since 2022.\nFormerly: Google DeepMind, Scale.",
+      "text": "ChatGPT 5.6 Sol Pro solves an empty crossword puzzle (made by Claude Fable 5 Max) with the first 150 Pokemon without any individual numbered clues: https://t.co/oCjgVfYoNE",
+      "summary": "ChatGPT 5.6 Sol Pro solves an empty crossword puzzle (made by Claude Fable 5 Max) with the first 150 Pokemon without any individual numbered clues: https://t.co/oCjgVfYoNE",
+      "url": "https://x.com/i/status/2076699061449568583",
+      "created_at": "2026-07-13T16:03:34Z",
+      "likes": 161,
+      "views": "14263",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNHqyinWsAISihu.jpg",
+        "https://pbs.twimg.com/media/HNHqyisXAAAGMKV.jpg"
+      ],
+      "score": 19.85,
+      "recommend_reason": "AI/模型相关；互动161；有图/媒体",
+      "tags": [
+        "Anthropic",
+        "OpenAI",
+        "Google"
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "2076723486723371325",
+      "author": "gdb",
+      "author_bio": "President & Co-Founder @OpenAI",
+      "text": "Sol for web design:",
+      "summary": "Sol for web design:",
+      "url": "https://x.com/i/status/2076723486723371325",
+      "created_at": "2026-07-13T17:40:37Z",
+      "likes": 195,
+      "views": "19617",
+      "has_media": false,
+      "media_urls": [],
+      "score": 18.75,
+      "recommend_reason": "产品/发布信号；互动195",
+      "tags": [
+        "OpenAI",
+        "产品动态"
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "2076686114631340046",
+      "author": "GoogleDeepMind",
+      "author_bio": "The engine room of @Google. Building AI safely and responsibly to solve the world’s most complex problems. Join us: https://t.co/jUHQA27iBL",
+      "text": "Here’s how we used the Predicting the Past Skill in Google @Antigravity to track down a Roman ring thief, map an ancient cult across Europe, and reconstruct the networks of people visiting a Greek oracle. 🧵 https://t.co/Qz8lXnxbkJ",
+      "summary": "Here’s how we used the Predicting the Past Skill in Google @Antigravity to track down a Roman ring thief, map an ancient cult across Europe, and reconstruct the networks of peop…",
+      "url": "https://x.com/i/status/2076686114631340046",
+      "created_at": "2026-07-13T15:12:07Z",
+      "likes": 202,
+      "views": "34056",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/tweet_video/HNHeSZPXEAAsKsx.mp4"
+      ],
+      "score": 18.3,
+      "recommend_reason": "互动202；有图/媒体",
+      "tags": [
+        "Google"
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "2076711723437068491",
+      "author": "DilumSanjaya",
+      "author_bio": "Software Engineer | Showcasing unique AI applications for Science & Engineering\n\n💡Open Source \nhttps://t.co/02nVJK3OQK\nhttps://t.co/fzTHdVmiYr\n\n🎬\nhttps://t.co/c",
+      "text": "Made this while testing if AI can work out the math behind a mechanism\n\nJust from watching a video, no prior knowledge\n\nThere's a real possibility we can use similar techniques to reconstruct historical mechanisms we have little detail or missing sketches for https://t.co/lhlzERQc6t",
+      "summary": "Made this while testing if AI can work out the math behind a mechanism  Just from watching a video, no prior knowledge  There's a real possibility we can use similar techniques …",
+      "url": "https://x.com/i/status/2076711723437068491",
+      "created_at": "2026-07-13T16:53:52Z",
+      "likes": 98,
+      "views": "3403",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2076709908519755779/vid/avc1/476x270/78v4lTTpQ8YBY1Zk.mp4?tag=28"
+      ],
+      "score": 17.73,
+      "recommend_reason": "AI/模型相关；互动98；有图/媒体",
+      "tags": [
+        "开源"
+      ]
+    },
+    {
+      "rank": 10,
+      "id": "2076696938918084809",
+      "author": "sama",
+      "author_bio": "AI is cool i guess",
+      "text": "clarity is nice",
+      "summary": "clarity is nice",
+      "url": "https://x.com/i/status/2076696938918084809",
+      "created_at": "2026-07-13T15:55:08Z",
+      "likes": 5074,
+      "views": "342242",
+      "has_media": false,
+      "media_urls": [],
+      "score": 17.0,
+      "recommend_reason": "互动5074",
+      "tags": [
+        "OpenAI"
+      ]
+    },
+    {
+      "rank": 11,
+      "id": "2076685930002538875",
+      "author": "gdb",
+      "author_bio": "President & Co-Founder @OpenAI",
+      "text": "you can just create things",
+      "summary": "you can just create things",
+      "url": "https://x.com/i/status/2076685930002538875",
+      "created_at": "2026-07-13T15:11:23Z",
+      "likes": 995,
+      "views": "92036",
+      "has_media": false,
+      "media_urls": [],
+      "score": 17.0,
+      "recommend_reason": "互动995",
+      "tags": [
+        "OpenAI"
+      ]
+    },
+    {
+      "rank": 12,
+      "id": "2076682600274387402",
+      "author": "goodside",
+      "author_bio": "Screenshots of chatbots since 2022.\nFormerly: Google DeepMind, Scale.",
+      "text": "Claude Fable 5 (Max) creates a crossword puzzle of the first 150 Pokémon: https://t.co/Ks9hrLW7oZ",
+      "summary": "Claude Fable 5 (Max) creates a crossword puzzle of the first 150 Pokémon: https://t.co/Ks9hrLW7oZ",
+      "url": "https://x.com/i/status/2076682600274387402",
+      "created_at": "2026-07-13T14:58:09Z",
+      "likes": 87,
+      "views": "7922",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNHb0XnWMAAsEWO.jpg",
+        "https://pbs.twimg.com/media/HNHb0XoWQAARtpA.jpg"
+      ],
+      "score": 15.55,
+      "recommend_reason": "AI/模型相关；互动87；有图/媒体",
+      "tags": [
+        "Anthropic",
+        "Google"
+      ]
+    },
+    {
+      "rank": 13,
+      "id": "2076690060699684905",
+      "author": "elonmusk",
+      "author_bio": "Starmind",
+      "text": "Literally true https://t.co/tcgsHNdytq",
+      "summary": "Literally true https://t.co/tcgsHNdytq",
+      "url": "https://x.com/i/status/2076690060699684905",
+      "created_at": "2026-07-13T15:27:48Z",
+      "likes": 41491,
+      "views": "2181580",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/ext_tw_video/2076249705260986368/pu/vid/avc1/298x270/dJsTYvUeDQM7OBT-.mp4?tag=26"
+      ],
+      "score": 15.3,
+      "recommend_reason": "互动41491；有图/媒体",
+      "tags": [
+        "xAI"
+      ]
+    },
+    {
+      "rank": 14,
+      "id": "2076701457462788388",
+      "author": "Hokunaimeko",
+      "author_bio": "Fantia：https://t.co/Hnq86es5Dv\n\nHokunaimekoです、日本のcosplayerと写真女优です。商用利用禁止とさせて頂きます。無断転載はご遠慮ください。",
+      "text": "https://t.co/ZwW11jD5OE https://t.co/Hr0z5uspQp",
+      "summary": "https://t.co/ZwW11jD5OE https://t.co/Hr0z5uspQp",
+      "url": "https://x.com/i/status/2076701457462788388",
+      "created_at": "2026-07-13T16:13:05Z",
+      "likes": 331,
+      "views": "6880",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNHs75pakAEYtI4.jpg",
+        "https://pbs.twimg.com/media/HNHs70LbsAANwyq.jpg"
+      ],
+      "score": 15.14,
+      "recommend_reason": "互动331；有图/媒体",
+      "tags": []
+    },
+    {
+      "rank": 15,
+      "id": "2076711305797619933",
+      "author": "kevinma_dev_zh",
+      "author_bio": "独立开发者，AI Builder，分享 AI 编程、效率工具和好玩的产品。\n好奇驱动，记录 AI 时代的发现与实践。\n开发了 https://t.co/TR0z0yfd48 - 帮助你更容易的学习英语。",
+      "text": "这个思路很好，恰好我最近也在这么做。用 mock UI 代替纯 Markdown 文本来做需求交互，效果很好。其实前几天也分享过，可能关注到的朋友不多。\n\n具体来讲，我在做 UI 交互优化或者新需求时，会和 Claude 反复讨论交互设计。过去就是我们俩凭空想象地交流，没有视觉确认的环节，聊得差不多了就让它直接做出来，看效果再迭代。\n\n最近换了一种方式。讨论到差不多、或者它给我几个可选方案时，我让它先做 mock UI，就是单个 HTML 文件，把几种不同方案以及不同状态下的交互都呈现出来。因为它直接在我的代码库里写 mock，能读到我 app 的真实界面和 design tokens，做出来的 mock 可用度很高。然后我们对着 mock 继续讨论，最终定稿，它再拿着定稿去写代码。\n\n比 Markdown 高效不少，最终做出来的还原度也高很多。\nClaude 还有一个好处是 artifacts 功能。不管在电脑前还是用手机远程看，都能直接在浏览器里预览效果。",
+      "summary": "这个思路很好，恰好我最近也在这么做。用 mock UI 代替纯 Markdown 文本来做需求交互，效果很好。其实前几天也分享过，可能关注到的朋友不多。  具体来讲，我在做 UI 交互优化或者新需求时，会和 Claude 反复讨论交互设计。过去就是我们俩凭空想象地交流，没有视觉确认的环节，聊得差不多了就让它直接做出来，看效果再迭代。  最近换了一种方式…",
+      "url": "https://x.com/i/status/2076711305797619933",
+      "created_at": "2026-07-13T16:52:13Z",
+      "likes": 6,
+      "views": "904",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNH0CODaoAUDgyF.jpg"
+      ],
+      "score": 15.06,
+      "recommend_reason": "AI/模型相关；产品/发布信号；有图/媒体",
+      "tags": [
+        "Anthropic",
+        "产品动态"
+      ]
+    },
+    {
+      "rank": 16,
+      "id": "2076683071852572797",
+      "author": "JulianGoldieSEO",
+      "author_bio": "Make money with AI 👉 https://t.co/Ppmk5h9rw3\nFree SEO Strategy Session → https://t.co/wRv8ROcoTP",
+      "text": "GPT-5.6 JUST TURNED CHATGPT INTO A FULL AI WORKSTATION\n\nI tested the new Codex workflow, and one feature completely outperformed Claude.\n\nWhat I Built:\n\n→ A modern AI Profit Boardroom website from an existing page\n\n→ A working habit tracker with interactive features\n\n→ A Hermes Agent installation directly from GitHub\n\nWhat It Automated:\n\n✓ Controlled my computer and published a personalized Skool post\n\n✓ Found my latest SEO video inside Descript and removed filler words\n\n✓ Added zooms, effects, animations, CTAs, FAQs, and custom images\n\nThe biggest win was computer use.\n\nIt was slow, but it completed the public post perfectly, personalized it around SEO, and worked in the background while other projects kept running.\n\nGPT-5.6 Sol on extra-high effort is where this becomes seriously useful.",
+      "summary": "GPT-5.6 JUST TURNED CHATGPT INTO A FULL AI WORKSTATION  I tested the new Codex workflow, and one feature completely outperformed Claude.  What I Built:  → A modern AI Profit Boa…",
+      "url": "https://x.com/i/status/2076683071852572797",
+      "created_at": "2026-07-13T15:00:01Z",
+      "likes": 8,
+      "views": "1903",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2076229570957881344/vid/avc1/480x270/ylsuJANtpDCuGZSn.mp4?tag=28"
+      ],
+      "score": 14.98,
+      "recommend_reason": "AI/模型相关；产品/发布信号；有图/媒体",
+      "tags": [
+        "Anthropic",
+        "OpenAI",
+        "产品动态"
+      ]
+    },
+    {
+      "rank": 17,
+      "id": "2076701663344435698",
+      "author": "Hokunaimeko",
+      "author_bio": "Fantia：https://t.co/Hnq86es5Dv\n\nHokunaimekoです、日本のcosplayerと写真女优です。商用利用禁止とさせて頂きます。無断転載はご遠慮ください。",
+      "text": "https://t.co/eL8s8jDehy https://t.co/XExyNbYedV",
+      "summary": "https://t.co/eL8s8jDehy https://t.co/XExyNbYedV",
+      "url": "https://x.com/i/status/2076701663344435698",
+      "created_at": "2026-07-13T16:13:54Z",
+      "likes": 203,
+      "views": "4270",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNHtD8ub0AEpdzN.jpg"
+      ],
+      "score": 14.93,
+      "recommend_reason": "互动203；有图/媒体",
+      "tags": []
+    },
+    {
+      "rank": 18,
+      "id": "2076680091804078440",
+      "author": "JulianGoldieSEO",
+      "author_bio": "Make money with AI 👉 https://t.co/Ppmk5h9rw3\nFree SEO Strategy Session → https://t.co/wRv8ROcoTP",
+      "text": "🚨 𝗠𝗜𝗟𝗟𝗜𝗢𝗡𝗔𝗜𝗥𝗘 𝗠𝗢𝗡𝗗𝗔𝗬! 𝗙𝗥𝗘𝗘 \"𝗙𝗔𝗦𝗧 𝗙𝗜𝗩𝗘 𝗧𝗢 𝟳-𝗙𝗜𝗚𝗨𝗥𝗘𝗦\" 𝗠𝗢𝗡𝗘𝗬 𝗕𝗟𝗨𝗘𝗣𝗥𝗜𝗡𝗧 + 𝗔𝗡𝗡𝗨𝗔𝗟 𝗙𝗢𝗨𝗡𝗗𝗘𝗥𝗦 𝗗𝗘𝗔𝗟. 𝗙𝗜𝗥𝗦𝗧 𝟱 𝗢𝗡𝗟𝗬. 𝗚𝗢𝗡𝗘 𝗔𝗧 𝗠𝗜𝗗𝗡𝗜𝗚𝗛𝗧 𝗣𝗧\n→ https://t.co/Ppmk5h9rw3\n\n🚨 𝗧𝗛𝗘 𝗘𝗫𝗔𝗖𝗧 𝟱 𝗦𝗧𝗔𝗚𝗘𝗦 𝗨𝗡𝗗𝗘𝗥𝗡𝗘𝗔𝗧𝗛 𝗠𝗬 𝟰𝟱𝟬𝗞/𝗠𝗢𝗡𝗧𝗛 𝗢𝗣𝗘𝗥𝗔𝗧𝗜𝗢𝗡. 𝗥𝗨𝗡 𝗧𝗛𝗘𝗠 𝗔𝗡𝗗 𝗔𝗧 𝗠𝗜𝗡𝗜𝗠𝗨𝗠 𝗬𝗢𝗨 𝗦𝗣𝗘𝗘𝗗 𝗨𝗣 𝗬𝗢𝗨𝗥 𝗙𝗜𝗥𝗦𝗧 $𝟭𝟬𝗞. 𝗟𝗜𝗙𝗘𝗧𝗜𝗠𝗘 𝗣𝗥𝗜𝗖𝗘 𝗟𝗢𝗖𝗞. → https://t.co/Ppmk5h9rw3\n\n🚨 𝟱 𝗦𝗘𝗔𝗧𝗦. 𝗧𝗢𝗗𝗔𝗬 𝗢𝗡𝗟𝗬. 𝗠𝗜𝗗𝗡𝗜𝗚𝗛𝗧 𝗣𝗧, 𝗧𝗛𝗘𝗡 𝗜𝗧 𝗩𝗔𝗡𝗜𝗦𝗛𝗘𝗦. → https://t.co/Ppmk5h9rw3\n\nIt's Millionaire Monday again.\n\nAnd I want to answer the question I get asked a lot.\n\n\"Julian, if you were me, starting from nothing, what would YOU actually do?\"\n\nNot \"what's possible.\" Not \"what are the options.\" What would you do, in order, starting today.\n\nSo I put it together in a money blueprint. Five stages. One playbook. It's called Fast Five to 7-Figures, and it's free for the first 5 who join today.\n\n👉 Claim Fast Five to 7-Figures when you join today (first 5) → https://t.co/Ppmk5h9rw3\n\nI mean, no one can promise a million. Took me years. But being in the AI game for a while now, here's what I would do to get my first 7-figures faster.\n\nThe five stages inside are the same ones underneath my 450K/month operation. And they're the same five whether the next milestone in front of you is your first $10K or your first million.\n\nThe sequence doesn't change with the altitude.\n\nRun it, and at minimum you're speeding up your first $10K, and the exact same stages keep working at a compound rate.\n\n🎯 𝗛𝗘𝗥𝗘'𝗦 𝗪𝗛𝗔𝗧 𝗜𝗧 𝗜𝗦 𝗜𝗡 𝗔 𝗡𝗨𝗧𝗦𝗛𝗘𝗟𝗟:\n\n✅ 𝗧𝗵𝗲 𝗧𝗮𝗿𝗴𝗲𝘁 𝗟𝗼𝗰𝗸. The niches actually paying for AI work right now, and how to lock yours in one sitting instead of three weeks of \"researching.\" Speed starts with a decision, not a spreadsheet.\n\n✅ 𝗧𝗵𝗲 𝗢𝗳𝗳𝗲𝗿 𝗕𝘂𝗶𝗹𝗱. One service, one price, one clear deliverable, packaged so you're selling something concrete by day two. Businesses don't buy potential. They buy packages.\n\n✅ 𝗧𝗵𝗲 𝗔𝗴𝗲𝗻𝘁 𝗜𝗻𝘀𝘁𝗮𝗹𝗹. The one agent that delivers your offer, wired into your Agent OS before your first pitch goes out. So when a client says yes, the fulfillment already exists.\n\n✅ 𝗧𝗵𝗲 𝗖𝗹𝗶𝗲𝗻𝘁 𝗖𝗹𝗼𝘀𝗲. Who to approach first, what to send, and the proposal that gets a yes. The shortest honest path from \"I have an offer\" to \"someone's paying me.\"\n\n✅ 𝗧𝗵𝗲 𝗢𝗽𝗲𝗿𝗮𝘁𝗼𝗿'𝘀 𝗦𝗲𝗮𝘁. The part most people get backwards. You don't scale by doing the delivery. The agents execute, the drafts, the sequences, the production, and your job moves up a level: reviewing the output, making the judgment calls, deciding what's good enough to ship. You're not just the human in the loop doing the work.\n\nYou're the one directing it. That's not a shortcut, it's a promotion. Your judgment becomes the most valuable thing in the operation, because it's the one thing that can't be automated and the only thing clients pay a premium for.\n\nLock the target. Build the offer. Install the agent. Close the client. Take the operator's seat.\n\nFive stages, each one feeding the next, at whatever scale you're playing at.\n\n👉 Get the Fast Five + the full machine → https://t.co/Ppmk5h9rw3\n\n💎 𝗔𝗡𝗗 𝗧𝗛𝗘 𝗔𝗡𝗡𝗨𝗔𝗟 𝗙𝗢𝗨𝗡𝗗𝗘𝗥𝗦 𝗗𝗘𝗔𝗟 𝗜𝗦 𝗧𝗛𝗘 𝗠𝗔𝗖𝗛𝗜𝗡𝗘 𝗬𝗢𝗨 𝗥𝗨𝗡 𝗜𝗧 𝗢𝗡:\n✅ The Agent OS with GPT-5.6, Claude, Hermes, and Grok on one screen\n✅ The 115+ Agency SOPs ... $25,000 value\n✅ The Commercial License, so what you build can be sold ... $5,000 value\n✅ Sales Team SOP ... $15,000 value\n✅ Custom GPT Collection ... $8,000 value\n✅ Private Vlog and Podcast Archive ... $12,000 value\n✅ 189+ Thumbnails + Tweet Library + Ad Swipe File ... $25,500 value\n✅ SEO Elite Circle (1 year) ... $997 value\n✅ $1,000 Agency Credit\n✅ 2 Bonus Memberships (partner and VA) ... $798 value\n✅ All Future Courses FREE ... $5,000+ value\n✅ Lifetime Price Lock at $399 ... Priceless\n\n📦 𝗣𝗟𝗨𝗦 𝗘𝗩𝗘𝗥𝗬𝗧𝗛𝗜𝗡𝗚 𝗜𝗡𝗦𝗜𝗗𝗘 𝗧𝗛𝗘 𝗕𝗢𝗔𝗥𝗗𝗥𝗢𝗢𝗠:\n✅ OpenClaw + Claude + Hermes courses\n✅ AI Avatar Clone ($600/day proven)\n✅ $5K High Ticket Formula\n✅ 105 Agency-Level Prompts (every prompt priced for revenue)\n✅ 1,000+ n8n automations (entire workflow vault)\n👉 Daily Q&A with custom video tutorials\n👉 5 live coaching calls every week with me\n👉 Unlimited support and 4,000 members shipping alongside you\n👉 30+ new trainings per week\n👉 $8K+ monthly giveaways\n\n🎯 𝗣𝗥𝗢𝗢𝗙 𝗙𝗥𝗢𝗠 𝗜𝗡𝗦𝗜𝗗𝗘:\n✅ A 61-year-old non-coder built 8 agents inside.\n✅ A member made $15K in a single hour.\n\nNeither of them started aiming at 7 figures. They started with stage one, and the stages did the rest.\n\n5 seats. Today only. Midnight PT, then it's gone.\n\n👉 Go Annual + claim Fast Five to 7-Figures → https://t.co/Ppmk5h9rw3",
+      "summary": "🚨 𝗠𝗜𝗟𝗟𝗜𝗢𝗡𝗔𝗜𝗥𝗘 𝗠𝗢𝗡𝗗𝗔𝗬! 𝗙𝗥𝗘𝗘 \"𝗙𝗔𝗦𝗧 𝗙𝗜𝗩𝗘 𝗧𝗢 𝟳-𝗙𝗜𝗚𝗨𝗥𝗘𝗦\" 𝗠𝗢𝗡𝗘𝗬 𝗕𝗟𝗨𝗘𝗣𝗥𝗜𝗡𝗧 + 𝗔𝗡𝗡𝗨𝗔𝗟 𝗙𝗢𝗨𝗡𝗗𝗘𝗥𝗦 𝗗𝗘𝗔𝗟. 𝗙𝗜𝗥𝗦𝗧 𝟱 𝗢𝗡𝗟𝗬. 𝗚𝗢𝗡𝗘 𝗔𝗧 𝗠𝗜𝗗𝗡𝗜𝗚𝗛𝗧 𝗣𝗧 → https://t.co/Ppmk5h9rw3  🚨 𝗧𝗛𝗘 𝗘𝗫𝗔𝗖𝗧 𝟱 𝗦𝗧𝗔𝗚𝗘𝗦 𝗨𝗡𝗗…",
+      "url": "https://x.com/i/status/2076680091804078440",
+      "created_at": "2026-07-13T14:48:11Z",
+      "likes": 4,
+      "views": "1840",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/tweet_video/HNHZh2paMAAx6F4.mp4"
+      ],
+      "score": 14.77,
+      "recommend_reason": "AI/模型相关；产品/发布信号；有图/媒体",
+      "tags": [
+        "Anthropic",
+        "OpenAI",
+        "xAI"
+      ]
+    },
+    {
+      "rank": 19,
+      "id": "2076703322593964263",
+      "author": "hazey_haleyy",
+      "author_bio": "Join my 🌶 page below ⬇️ backup @hazeyhaleyx",
+      "text": "Do you like tan lines?? ☺️ https://t.co/udsVQyjDUL",
+      "summary": "Do you like tan lines?? ☺️ https://t.co/udsVQyjDUL",
+      "url": "https://x.com/i/status/2076703322593964263",
+      "created_at": "2026-07-13T16:20:30Z",
+      "likes": 242,
+      "views": "2349",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNHuqmJW0AEn0eV.jpg"
+      ],
+      "score": 14.67,
+      "recommend_reason": "互动242；有图/媒体",
+      "tags": []
+    },
+    {
+      "rank": 20,
+      "id": "2076698165231976783",
+      "author": "JulianGoldieSEO",
+      "author_bio": "Make money with AI 👉 https://t.co/Ppmk5h9rw3\nFree SEO Strategy Session → https://t.co/wRv8ROcoTP",
+      "text": "STOP PAYING FOR THE SAME AI TWICE.\n\nMost people are juggling tabs, API keys, subscriptions, and token limits for no reason.\n\nHere's the setup that fixes it:\n\nThe Dual Engine Coder:\n\n→ Run GPT 5.6 inside Claude Code using your existing ChatGPT login.\n\n→ Switch between GPT 5.6, GLM 5.2, Claude, or Grok mid-build without changing tools.\n\n→ Keep every project, preview, and edit inside one shared workspace.\n\nWhy it matters:\n\n✓ No separate API keys just to start building.\n\n✓ No losing projects every time you switch AI models.\n\n✓ No panic when one frontier model hits token limits or disappears.\n\nWhat I built with it:\n\n✔ SEO websites\n\n✔ Habit tracker apps\n\n✔ Interactive games\n\n✔ AI-generated images\n\nAll from one dashboard with persistent history and built-in memory.\n\nThe biggest upgrade isn't a new AI model.\n\nIt's finally having one workflow that survives every new model release.",
+      "summary": "STOP PAYING FOR THE SAME AI TWICE.  Most people are juggling tabs, API keys, subscriptions, and token limits for no reason.  Here's the setup that fixes it:  The Dual Engine Cod…",
+      "url": "https://x.com/i/status/2076698165231976783",
+      "created_at": "2026-07-13T16:00:00Z",
+      "likes": 4,
+      "views": "1481",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2076600330805301248/vid/avc1/480x270/kMG_KGEO3X5yE4Pj.mp4?tag=28"
+      ],
+      "score": 14.67,
+      "recommend_reason": "AI/模型相关；产品/发布信号；有图/媒体",
+      "tags": [
+        "Anthropic",
+        "OpenAI",
+        "xAI"
+      ]
+    },
+    {
+      "rank": 21,
+      "id": "2076689038732648497",
+      "author": "kevinma_dev_zh",
+      "author_bio": "独立开发者，AI Builder，分享 AI 编程、效率工具和好玩的产品。\n好奇驱动，记录 AI 时代的发现与实践。\n开发了 https://t.co/TR0z0yfd48 - 帮助你更容易的学习英语。",
+      "text": "最近 Claude 和 OpenAI 打架，一会儿要延长 Fable 5 订阅额度了，一会儿另一个要 Reset 了，搞得人想把这些额度都用上做点事情，不然就亏了，搞得人心态乱乱的，然后我的产品开发计划也被打乱，把一些未来重要但优先级不高的事情也翻出来做。\n\n这让我意识到自己已经被他们打乱了注意力了，还是要按照自己的节奏去做，额度用的完就用，用不完就算了。",
+      "summary": "最近 Claude 和 OpenAI 打架，一会儿要延长 Fable 5 订阅额度了，一会儿另一个要 Reset 了，搞得人想把这些额度都用上做点事情，不然就亏了，搞得人心态乱乱的，然后我的产品开发计划也被打乱，把一些未来重要但优先级不高的事情也翻出来做。  这让我意识到自己已经被他们打乱了注意力了，还是要按照自己的节奏去做，额度用的完就用，用不完就算了。",
+      "url": "https://x.com/i/status/2076689038732648497",
+      "created_at": "2026-07-13T15:23:44Z",
+      "likes": 11,
+      "views": "1141",
+      "has_media": false,
+      "media_urls": [],
+      "score": 14.61,
+      "recommend_reason": "AI/模型相关；产品/发布信号",
+      "tags": [
+        "Anthropic",
+        "OpenAI",
+        "产品动态"
+      ]
+    },
+    {
+      "rank": 22,
+      "id": "2076720426089369678",
+      "author": "bindureddy",
+      "author_bio": "CEO of @abacusai - the world’s first AI super assistant and a powerful general agent for professionals and enterprises, ex-AWS & Google",
+      "text": "Grok 4.5 is a pretty good replacement for Haiku and is actually usable in the real world\n\nVery glad to see Grok being useful 🚀",
+      "summary": "Grok 4.5 is a pretty good replacement for Haiku and is actually usable in the real world  Very glad to see Grok being useful 🚀",
+      "url": "https://x.com/i/status/2076720426089369678",
+      "created_at": "2026-07-13T17:28:27Z",
+      "likes": 51,
+      "views": "2839",
+      "has_media": false,
+      "media_urls": [],
+      "score": 14.5,
+      "recommend_reason": "AI/模型相关；互动51",
+      "tags": [
+        "Google",
+        "xAI"
+      ]
+    },
+    {
+      "rank": 23,
+      "id": "2076694161676460046",
+      "author": "yijiangren",
+      "author_bio": "01年 / UI/UX Designer / Trader / INTJ\n8年交易经验，19年进Web3，24年A7，25年1011保住全部本金\n投资 ✖️ Web3 ✖️ AI\n不会做设计的内容创作者不是一名好的交易员\n三建理论创始人 建模 健身 建仓\nTG：@yijiangren",
+      "text": "台积电再建两座先进封装厂，Rubin Ultra 的真相更清楚\n\n前几天我写了一篇：Rubin Ultra 延期， $NVDA  和黄仁勋可能正在撞击 AI 机柜的物理极限。\n\nSemiAnalysis 爆料，为明年 Rubin Ultra 准备的 Kyber NVL144 机柜架构，可能因为超复杂 PCB 中板的制造难度，被推迟超过12个月，延后到后年。\n原本用于过渡的 NVL72×2，据称也因为大客户不愿接受而被取消；依赖光互连的更大规模方案，量产节奏同样存在不确定性。\n大家可能不知道 SemiAnalysis 是什么。\n再解释一下：大家可以理解成终极形态的白毛股神，可以用一篇文章来影响市场的存在。\n\n英伟达当时的回应只有一句：我们的路线图保持不变。\n\n也就是说，供应链研究机构爆料具体产品可能延迟，英伟达否认总体路线发生变化，却没有逐项回答 Kyber 的量产时间和具体架构。\n\n而今天，台积电又给出了另一条非常重要的信息。\n台湾科技主管部门披露，台积电将在嘉义科学园区再增加两座先进封装厂，使其在当地规划的先进封装厂总数达到四座。首座已经进入量产，第二座也将陆续投产；新一轮扩建预计带来超过3000亿新台币的年产值和9000多个就业岗位。\n这条消息看起来像是在证明 AI 产业一片繁荣。\n实际上，它和 Rubin Ultra 的延期传闻并不矛盾。\n恰恰相反。\n它进一步说明 AI 需求仍然很强，先进封装却已经成为整个产业链最紧张、也最难突破的环节之一。\n\n今天发生了什么\n目前没有证据显示，英伟达原本决定让 Rubin Ultra 使用 CoPoS，随后又因为技术不成熟，临时切回 CoWoS-L。\n\n现有供应链报道一直认为，Rubin Ultra 仍将采用台积电 N3P 制程和 CoWoS-L 先进封装。真正可能发生变化的，是英伟达放进一个封装里的计算 Die 数量和封装规模。\n\n原始规划中的 Rubin Ultra 非常激进：在一个超级封装里放入四颗大型计算 Die，配合大量 HBM4E，形成远大于普通 Rubin GPU 的封装结构。\n\nSemiAnalysis 后来称，这个四 Die 方案已经因为制造执行和封装难度被取消，新版 Rubin Ultra 可能缩回双 Die，封装尺寸和实际性能也随之降低。\n这项调整至今没有得到英伟达和台积电正式确认。\n\n但如果消息属实，改变的是英伟达的产品设计，而不是台积电突然切换了整条技术路线。\n更准确地说：台积电继续使用 CoWoS-L，英伟达把原本过于巨大的封装缩小，让它更容易生产、更容易控制良率，也更有机会保住明年的产品窗口。\n所以英伟达说“路线图保持不变”，和 Rubin Ultra 内部规格发生变化，并不一定互相冲突。\n产品还叫 Rubin Ultra，发布时间也可以暂时不变。\n至于明年真正交付的 Rubin Ultra，是否还是最初公布的那个版本，则是另一回事。\n\n台积电自己已经承认，这不是普通的扩产问题\n大家看到台积电增加两座先进封装厂，会觉得问题马上就解决了。\n\n这里需要区分两种瓶颈：\n一种是产能不够\n另一种是技术本身太难\n\n多建两座工厂，可以增加 CoWoS 的产量，解决更多客户排队、设备不足和封装产线紧张的问题。\n但如果一个封装本身过大，出现基板翘曲、机械应力、热膨胀、散热和良率问题，仅仅增加厂房数量并不能立刻解决。\n台积电在今年第一季度电话会上已经明确表示，先进封装产能依然非常紧张，需要与外部封测厂共同扩产。\n\n当分析师进一步询问超大AI芯片可能面对的翘曲、机械应力和热限制时，魏哲家也承认，这些都是先进封装正在面对的真实技术挑战。\n这句话很重要。\n因为它说明 Rubin Ultra 的问题，即便最终没有 SemiAnalysis 描述得那么严重，也不完全是空穴来风。\n\n台积电可以不断扩大产能，但产能扩张解决的是“能够生产多少”。\nRubin Ultra 面对的则可能是“这个东西到底能不能以合理良率、合理成本稳定量产”。\n\n一个是数量问题\n一个是物理问题\n\n英伟达同时在芯片封装和整机柜两头撞墙\n这也是前几天那篇文章最重要的逻辑。\n大家看英伟达，习惯盯着GPU制程、CUDA、算力和HBM。\n但从 Blackwell 开始，英伟达交付的已经不是一块孤立的GPU。\n它卖的是一整套 AI 系统：GPU、CPU、HBM、NVLink、交换芯片、网卡、PCB、连接器、电源、液冷、光通信、软件，最后再把这些东西塞进一个机柜。\n\n英伟达的目标，是让整个机柜像一颗巨型芯片一样工作。\n这意味着前端芯片设计成功，只代表第一关通过。\n\n台积电还要把多颗巨大芯片和HBM封装在一起\n服务器厂商要把这些封装安装进机柜\n铜连接和光连接要保证数据能够高速传输\n电力系统要给兆瓦级机柜供电\n液冷系统还要把这些电最终变成的热量带走\n\n现在暴露出来的是两层问题\n\n第一层是 Rubin Ultra 的四 Die 超大封装，可能在台积电的 CoWoS-L 环节遇到翘曲、良率和制造难度\n\n第二层是 Kyber 机柜的超大型 PCB 中板，可能在线路、信号完整性、供电、散热和批量生产环节遇到问题\n\n芯片规格缩水，本来可以通过增加机柜里的 GPU 数量补回来。\n但负责提高机柜密度的 Kyber，又被曝可能延期。\n如果两条传闻同时成立，英伟达面对的将是：单颗封装没有原计划那么强，单一计算域也没有原计划扩张得那么快。\n这才是市场真正应该关注的地方。\n\n台积电扩产，对英伟达意味着什么\n对英伟达今年的收入，这件事影响依然有限。\n基础版 Vera Rubin 已经进入量产，合作伙伴产品预计从今年下半年开始供应。它使用的是更成熟的 NVL72 路线，目前不在 Rubin Ultra 和 Kyber 延期传闻的核心范围内。\nBlackwell、Blackwell Ultra 和基础版 Rubin 的需求，也不会因为明年的高阶机柜存在不确定性就突然消失。\n甚至短期看，产品迭代变慢，可能延长现有平台的销售周期。\n客户继续购买已经验证的 Blackwell 和 Rubin 系统，OEM 继续使用成熟生产线，英伟达仍然可以维持很强的收入兑现。\n台积电今天继续扩建先进封装厂，也意味着它没有看到 AI 客户大规模砍单的迹象。\n真正的压力集中在明年以后。\n英伟达向市场讲的是一年一代。\n如果每一代产品都需要更大的封装、更高的机柜密度、更复杂的供电和更激进的互连，那么年度迭代速度最终会受到整个供应链的约束。\n英伟达可以一年设计一代GPU。\n台积电的封装、PCB供应商的良率、电力系统和数据中心，却未必能够每年完成一次工业革命。\n\n对台积电来说，反而是一次权力扩张\n从台积电的角度看，Rubin Ultra 是否缩水，并不会动摇先进封装的长期价值。\n英伟达缩小一个封装，不代表 CoWoS 需求下降。\nAMD、Google、Amazon、微软以及各种定制ASIC，也都需要先进制程、HBM和先进封装。\n英伟达的一部分需求即使发生调整，产能也可能被其他客户迅速填满。\n这正是台积电最强的地方。\n它不需要押注某一个GPU架构。\n无论最后赢的是英伟达、AMD、TPU还是Trainium，大部分先进芯片依然要回到台积电的制造和封装体系里。\n今天继续建设两座先进封装厂，本质上是在告诉市场：\n未来AI产业争夺的不只有晶圆产能，还有谁能够把越来越多的芯片真正封装成一个可用系统。\n当然，扩产也会带来更高资本开支、设备折旧和爬坡成本。\n但从战略位置看，台积电正在把自己的护城河从先进制程继续延伸到系统级封装。\n以前台积电负责把芯片造出来。\n以后台积电越来越接近负责把一台AI计算机的核心部分拼起来。\n\n对 $MU 、海力士和 $SNDK \n这里是大家最关心的部分。\n首先，Rubin Ultra 的传闻不能简单理解成 HBM 利空。\n基础版 Rubin 的 HBM4 需求仍在兑现。美光已经宣布，为 Vera Rubin 设计的36GB 12层HBM4已经进入量产出货。\n因此，今年直接受到影响的概率不高。\n真正需要观察的是明年的 HBM4E 增量。\n如果 Rubin Ultra 从四 Die 缩减为双 Die，单个GPU封装可以搭载的HBM4E数量可能低于原始规划。\n但一颗GPU性能下降以后，客户也可能需要购买更多GPU和更多机柜，最终的HBM总量未必按照同样比例下降。\n所以对海力士和美光更合理的判断是：\n今年HBM4逻辑没有被破坏。\n明年HBM4E的单机价值量和增量预期，需要重新观察。\n\n至于 $SNDK，单独说一下。\nSanDisk的核心业务是NAND闪存和数据存储，并不是HBM供应商。\n它会受到整个存储周期、AI数据中心SSD需求和市场情绪影响，但Rubin Ultra规格变化对它的传导远没有海力士和美光直接。\n不能因为三个标的最近一起涨，就把它们放在完全相同的产业逻辑里。\n\n对 CRDO、ALAB 和铜连接\n兄弟们看到CPO和Kyber可能延期，第一反应是利好 $CRDO 和 $ALAB。\n这个方向有一定道理，但需要加上边界。\n如果超高密度机柜和部分CPO方案晚一年落地，AEC、Retimer、PCIe、CXL和现有以太网架构的生命周期，确实可能被延长。\nCredo目前同时布局AI scale-up与scale-out连接，包括高速Retimer、AEC和光DSP；Astera Labs则覆盖PCIe、CXL、以太网和多种机柜级连接方案。\n但是Kyber出问题的核心之一，本身就是铜连接和超复杂PCB正在逼近极限。\n所以这件事不能被理解成光失败了，铜赢了。\n更准确的理解是现有铜连接方案可能继续活得更久，但更高密度的AI机柜最终仍然需要光。\nCRDO和ALAB短期可能受益于架构过渡期延长，以及更多普通机柜之间产生的连接需求。\n但它们受益的是系统被迫继续分散，而不是物理限制已经消失。\n\n对光模块和 CPO\nCPO内部互连的兑现时间，可能因此向后移动。\n如果Kyber和更大规模的scale-up系统无法按原计划量产，原本建立在明年CPO快速放量上的估值，需要重新计算。\n但这里仍要区分两个市场。\n一个是机柜内部、交换芯片附近的CPO和scale-up光连接。\n另一个是机柜之间、集群之间的scale-out光网络。\n如果单个机柜无法容纳原计划中的算力，云厂商就需要建设更多机柜，再通过交换机和光模块把这些机柜连接起来。\n这样一来，机柜内部CPO可能延迟，机柜之间的800G、1.6T和scale-out光连接需求，反而可能更强。\n英伟达今年已经与Lumentum和Coherent签署长期战略合作，并投资扩大光学技术和制造能力，说明英伟达没有放弃光互连的长期方向。\n光不会消失。\n区别只在于，最激进的光互连架构什么时候能够真正量产。\n\n对800V、电力和液冷\nKyber和兆瓦级机柜，是800V直流供电的重要应用场景。\n英伟达此前计划从2027年开始推动支持1MW及以上IT机柜的800V直流架构，以降低铜用量、转换损耗和供电系统占用空间。\n如果高密度Kyber机柜延期，部分专门押注明年800V快速放量的公司，收入节奏也可能后移。\n但数据中心的总电力和液冷需求未必下降。\n假设一台超高密度机柜无法按期交付，客户可能需要用更多普通机柜完成同样的计算。\n更多机柜意味着更多网络节点、更大占地，以及更多电力和制冷设施。\n因此，这件事对电力和液冷产业链的影响，是产品结构和兑现时间发生变化。\n并不是整个需求逻\n辑消失。\n\n对 AMD、TPU 和 Trainium\n这是竞争对手最需要的东西：时间。\n英伟达的护城河依然很深。\nCUDA、NVLink、软件工具、开发者生态和大规模部署经验，不会因为一个产品传闻就消失。\n但竞争对手并不需要一次性击败英伟达。\n\nGoogle只需要把更多内部负载迁移到TPU\nAmazon只需要让更多客户接受Trainium\nAMD只需要把Helios和后续产品按时交付\n\nKyber每推迟一个季度，它们就多一个季度完善软件、提高良率、扩大产能和验证客户。\n有意思的是，台积电扩产也会同时帮助这些竞争对手。\n台积电是英伟达的制造伙伴，也是AMD和大量定制ASIC的制造伙伴。\n英伟达如果因为产品过于激进而释放部分先进封装资源，其他AI芯片公司可能成为接盘者。\n对英伟达是竞争压力。\n对台积电却未必是坏事。\n\n对整个AI交易意味着什么\n今天台积电的扩产消息，让这件事的性质更加清楚了。\nRubin Ultra传闻并不代表AI需求崩塌。\n台积电仍在加速建设先进封装产能，基础版Rubin已经进入生产，美光的HBM4也开始出货。\n真正发生变化的是：\n市场正在从“有没有需求”，转向“供应链能不能把需求变成产品”。\n前几年AI交易看的是GPU数量。\n\n接下来看的会是：\n\n先进封装良率能不能提高\nHBM能不能按时供应\nPCB和连接器能不能承载更高速率\n液冷能不能带走热量\n电网能不能支撑兆瓦级机柜\n光连接什么时候能够真正替代部分铜连接\n\n英伟达依然是AI世界最强的公司\n台积电也正在继续扩大它几乎无法替代的制造能力\n\n但这两家公司共同面对的对手，已经不只是竞争企业。\n\n还有基板的翘曲、材料的应力、铜线的损耗、机柜的温度和电力系统的承载能力\n\n过去市场认为，只要台积电能造出GPU，海力士能供应HBM，AI算力就能继续线性增长。\n\n现在大家开始意识到，芯片能够被设计出来，只代表人类在图纸上赢了\n能不能把它稳定地封装、连接、供电、冷却并批量交付，才决定这场AI工业革命最终能走多快",
+      "summary": "台积电再建两座先进封装厂，Rubin Ultra 的真相更清楚  前几天我写了一篇：Rubin Ultra 延期， $NVDA  和黄仁勋可能正在撞击 AI 机柜的物理极限。  SemiAnalysis 爆料，为明年 Rubin Ultra 准备的 Kyber NVL144 机柜架构，可能因为超复杂 PCB 中板的制造难度，被推迟超过12个月，延后到后…",
+      "url": "https://x.com/i/status/2076694161676460046",
+      "created_at": "2026-07-13T15:44:05Z",
+      "likes": 23,
+      "views": "3086",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNHj3hIbYAABB4_.png",
+        "https://pbs.twimg.com/media/HNHknpWacAAnRG5.png"
+      ],
+      "score": 13.44,
+      "recommend_reason": "AI/模型相关；产品/发布信号；互动23；有图/媒体",
+      "tags": [
+        "Google",
+        "产品动态"
+      ]
+    },
+    {
+      "rank": 24,
+      "id": "2076680340190511478",
+      "author": "GoSailGlobal",
+      "author_bio": "Show In Public ｜ SaaS 出海 ｜ 克尔凯郭尔种草🌿\n\nSkills hub：https://t.co/x1VU8wWNj1\n博客：https://t.co/ajYYIXGqFg\n\n🤝 合作DM：GoSail_AI\n📮：m17551076169@gmail.com\n\nMCN：collab@gosail",
+      "text": "今天突发奇想弄了第一次GOSAIL Club线上会议\n\nskills一听就不能赚钱\n\nagent就不一样了，听起来高大上\n\n那skills能干嘛呢？能搞流量，能提效，能给你后端产品引流 https://t.co/jchXtSpUPJ",
+      "summary": "今天突发奇想弄了第一次GOSAIL Club线上会议  skills一听就不能赚钱  agent就不一样了，听起来高大上  那skills能干嘛呢？能搞流量，能提效，能给你后端产品引流 https://t.co/jchXtSpUPJ",
+      "url": "https://x.com/i/status/2076680340190511478",
+      "created_at": "2026-07-13T14:49:10Z",
+      "likes": 3,
+      "views": "931",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNHZPy5XwAA_yzf.png"
+      ],
+      "score": 12.92,
+      "recommend_reason": "AI/模型相关；产品/发布信号；有图/媒体",
+      "tags": [
+        "产品动态"
+      ]
+    },
+    {
+      "rank": 25,
+      "id": "2076707569016684947",
+      "author": "ecomchasedimond",
+      "author_bio": "Driven $200 million in email revenue for clients. Partner at a 7-figure Ecommerce Email Marketing Agency. Join 100,423 marketers & get my email secrets FREE ⬇️",
+      "text": "Was on a call last week where a client played me a recording of one of their voice agents recovering a cart.\n\n30 seconds, no script, no hold music. \n\nJust a shopper explaining why she hadn't checked out, and the agent having a real conversation with her.\n\nI've been in email for a decade, and I sat there listening like it was the first time I'd heard someone use the phone for retention. Because in a way it was.\n\nThat's what @OutcraftAI does: it calls the shoppers who tried to give you money, within minutes of them dropping off, with full context of what they were buying.\n\nUsed to cost $100K a year in call center overhead. Works at $30 AOV now.\n\nEmail works best in combination with ALL your other channels and especially this one.\n\nEvery cart that ignored your 3rd email today was recoverable. → https://t.co/J28zhbxo22",
+      "summary": "Was on a call last week where a client played me a recording of one of their voice agents recovering a cart.  30 seconds, no script, no hold music.   Just a shopper explaining w…",
+      "url": "https://x.com/i/status/2076707569016684947",
+      "created_at": "2026-07-13T16:37:22Z",
+      "likes": 31,
+      "views": "3190",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNHyVJoaoAEScOa.jpg"
+      ],
+      "score": 12.85,
+      "recommend_reason": "AI/模型相关；互动31；有图/媒体",
+      "tags": [
+        "研究"
+      ]
+    },
+    {
+      "rank": 26,
+      "id": "2076698167085584804",
+      "author": "Azure",
+      "author_bio": "Limitless innovation. ☁️ Follow along for the latest news and resources from the official #MicrosoftAzure team. For help, contact @AzureSupport.",
+      "text": "Aurora 1.5 adds 22 more variables, hourly temporal resolution, and probabilistic ensemble forecasting to the Aurora foundation model, making it more useful for real-world weather, climate, and energy applications. Learn more: https://t.co/xYxONAfT9t https://t.co/DhmVRfhpzj",
+      "summary": "Aurora 1.5 adds 22 more variables, hourly temporal resolution, and probabilistic ensemble forecasting to the Aurora foundation model, making it more useful for real-world weathe…",
+      "url": "https://x.com/i/status/2076698167085584804",
+      "created_at": "2026-07-13T16:00:00Z",
+      "likes": 22,
+      "views": "5534",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2076686643944202240/vid/avc1/518x270/3B5KBC7KFBUho422.mp4?tag=14"
+      ],
+      "score": 12.64,
+      "recommend_reason": "AI/模型相关；互动22；有图/媒体",
+      "tags": [
+        "研究"
+      ]
+    },
+    {
+      "rank": 27,
+      "id": "2076726589853704535",
+      "author": "goodside",
+      "author_bio": "Screenshots of chatbots since 2022.\nFormerly: Google DeepMind, Scale.",
+      "text": "That’s that me, Ricardo: Claude Fable 5 Max paraphrases the lyrics of Sabrina Carpenter’s Espresso using only verified bigrams from the writings of 18th-19th century British economist David Ricardo https://t.co/n1nFHz2VjU",
+      "summary": "That’s that me, Ricardo: Claude Fable 5 Max paraphrases the lyrics of Sabrina Carpenter’s Espresso using only verified bigrams from the writings of 18th-19th century British eco…",
+      "url": "https://x.com/i/status/2076726589853704535",
+      "created_at": "2026-07-13T17:52:57Z",
+      "likes": 31,
+      "views": "1532",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNID01IW0AAKLvE.jpg"
+      ],
+      "score": 12.54,
+      "recommend_reason": "AI/模型相关；互动31；有图/媒体",
+      "tags": [
+        "Anthropic",
+        "Google"
+      ]
+    },
+    {
+      "rank": 28,
+      "id": "2076728266812178617",
+      "author": "jxnlco",
+      "author_bio": "vibes @openai",
+      "text": "OpenAI’s Bio Bounty Program is now ongoing.\n\nFind a universal jailbreak against our biosafety safeguards: up to $50,000. GPT-5.6 is in scope, with GPT-5.5 open through July 27.\n\nResearchers can apply here: https://t.co/uiy4hZBQbF",
+      "summary": "OpenAI’s Bio Bounty Program is now ongoing.  Find a universal jailbreak against our biosafety safeguards: up to $50,000. GPT-5.6 is in scope, with GPT-5.5 open through July 27. …",
+      "url": "https://x.com/i/status/2076728266812178617",
+      "created_at": "2026-07-13T17:59:37Z",
+      "likes": 10,
+      "views": "791",
+      "has_media": false,
+      "media_urls": [],
+      "score": 12.4,
+      "recommend_reason": "AI/模型相关",
+      "tags": [
+        "OpenAI"
+      ]
+    },
+    {
+      "rank": 29,
+      "id": "2076699522512961761",
+      "author": "jxnlco",
+      "author_bio": "vibes @openai",
+      "text": "My body is still super sore form getting hit Friday. Had to ride my bike to work again to make sure my brain isn’t scared of biking\n\n😭😭😭",
+      "summary": "My body is still super sore form getting hit Friday. Had to ride my bike to work again to make sure my brain isn’t scared of biking  😭😭😭",
+      "url": "https://x.com/i/status/2076699522512961761",
+      "created_at": "2026-07-13T16:05:24Z",
+      "likes": 78,
+      "views": "4329",
+      "has_media": false,
+      "media_urls": [],
+      "score": 11.04,
+      "recommend_reason": "互动78",
+      "tags": [
+        "OpenAI"
+      ]
+    },
+    {
+      "rank": 30,
+      "id": "2076719425550746067",
+      "author": "taiyo_ai_gakuse",
+      "author_bio": "AI Agent領域で大阪万博登壇。Solo-built kirigami hit $60,000 ARR. 100人規模の「AI PLAY GUILD」代表 https://t.co/RIpQYkIB3X MCP展開中。大学生",
+      "text": "Open AI Build Week Hackthon出るよ！ https://t.co/7WfZs61xmi",
+      "summary": "Open AI Build Week Hackthon出るよ！ https://t.co/7WfZs61xmi",
+      "url": "https://x.com/i/status/2076719425550746067",
+      "created_at": "2026-07-13T17:24:29Z",
+      "likes": 0,
+      "views": "312",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNH9N9kaYAAT43-.jpg"
+      ],
+      "score": 10.8,
+      "recommend_reason": "AI/模型相关；有图/媒体",
+      "tags": [
+        "研究"
+      ]
+    }
+  ]
+}
