@@ -116,8 +116,9 @@ h3 a:focus-visible, .category-button:focus-visible, .search-box:focus-within, .r
 .day-heading h2 { font-size: var(--font-size-title); }
 .day-heading p { color: var(--color-text-secondary); font-size: var(--font-size-caption); }
 .tweet-list { display: grid; gap: var(--spacing-md); }
-.tweet-card { background: var(--color-surface); border: var(--border-width) solid var(--color-border); border-radius: var(--radius-card); box-shadow: var(--shadow-card); display: flex; gap: var(--spacing-md); padding: var(--spacing-md); transition: box-shadow var(--duration-hover); }
+.tweet-card { background: var(--color-surface); border: var(--border-width) solid var(--color-border); border-radius: var(--radius-card); box-shadow: var(--shadow-card); cursor: pointer; display: flex; gap: var(--spacing-md); padding: var(--spacing-md); transition: box-shadow var(--duration-hover); }
 .tweet-card:hover { box-shadow: var(--shadow-card-hover); }
+.tweet-card:focus-visible { outline: var(--outline-width) solid var(--color-brand); outline-offset: var(--outline-width); }
 .tweet-card[hidden] { display: none; }
 .tweet-avatar { background: var(--color-bg); border-radius: 999px; flex-shrink: 0; height: 2.75rem; width: 2.75rem; }
 .tweet-body { min-width: 0; flex: 1; }
@@ -126,7 +127,7 @@ h3 a:focus-visible, .category-button:focus-visible, .search-box:focus-within, .r
 .tweet-score { background: var(--color-bg); border-radius: var(--radius-card); padding: 0 var(--spacing-xs); }
 .tweet-title { font-size: var(--font-size-body); font-weight: 700; margin-bottom: var(--spacing-xs); overflow-wrap: anywhere; }
 .tweet-summary { color: var(--color-text-secondary); margin-bottom: var(--spacing-sm); overflow-wrap: anywhere; }
-.tweet-summary.tweet-original { color: var(--color-text-primary); font-weight: 700; }
+.tweet-summary.tweet-fulltext { color: var(--color-text-primary); font-weight: 700; }
 .tag-list { margin-bottom: var(--spacing-sm); }
 .tweet-reason { border-top: var(--border-width) dashed var(--color-border); color: var(--color-text-secondary); font-size: var(--font-size-caption); margin-bottom: 0; padding-top: var(--spacing-sm); }
 .tweet-link { color: var(--color-brand); font-size: var(--font-size-caption); margin-left: auto; text-decoration: none; white-space: nowrap; }

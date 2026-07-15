@@ -90,6 +90,25 @@ const totalItems = days.reduce((sum, day) => sum + day.items.length, 0);
         if (!activeTag) filterButtons[0]?.classList.add("is-selected");
         refresh();
       }));
+
+      function openTweet(card) {
+        const url = card.getAttribute("data-tweet-url");
+        if (url) window.open(url, "_blank", "noopener,noreferrer");
+      }
+
+      cards.forEach((card) => {
+        card.addEventListener("click", (event) => {
+          if (event.target.closest("a, .tag-list")) return;
+          openTweet(card);
+        });
+        card.addEventListener("keydown", (event) => {
+          if (event.target !== card) return;
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            openTweet(card);
+          }
+        });
+      });
     </script>
   </body>
 </html>

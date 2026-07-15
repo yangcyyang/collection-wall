@@ -20,7 +20,7 @@ export type Tweet = {
   tags?: string[];
 };
 
-const SHORT_TWEET_THRESHOLD = 80;
+const SHORT_TWEET_THRESHOLD = 200;
 
 export function isShortTweet(item: Tweet) {
   return !item.title || item.text.length <= SHORT_TWEET_THRESHOLD;
