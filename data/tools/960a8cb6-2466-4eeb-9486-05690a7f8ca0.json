@@ -1,0 +1,70 @@
+{
+  "id": "960a8cb6-2466-4eeb-9486-05690a7f8ca0",
+  "url": "https://simonmy.com/posts/giffgaff-esim-mod-apk.html",
+  "name": "Giffgaff eSIM直装版",
+  "headline": "直接安装APK获取Giffgaff eSIM激活码，无需Root或额外工具",
+  "intro": "Giffgaff eSIM直装版是一个修改后的Giffgaff官方APK，通过绕过设备eSIM检测并提取激活码，让用户在非原生eSIM设备上也能获取Giffgaff eSIM。相比HookEuicc方案，它更稳定、安装更简单，只需直接安装APK即可使用。适用于新卡申请或换卡场景，激活码可通过分享面板复制，配合eSTK、5ber等设备使用。",
+  "category": "🔬 其他",
+  "subcategory": "",
+  "tags": [
+    "Giffgaff",
+    "eSIM",
+    "直装版",
+    "APK修改",
+    "激活码",
+    "非原生eSIM",
+    "绕过检测"
+  ],
+  "capabilities": [
+    "绕过eSIM设备检测",
+    "提取eSIM激活码",
+    "分享激活码至其他应用",
+    "安装修改版APK",
+    "支持新卡申请",
+    "支持换卡操作"
+  ],
+  "scenarios": [
+    "在非原生eSIM设备上申请Giffgaff eSIM时",
+    "当HookEuicc方案不稳定或兼容性差时",
+    "需要快速获取eSIM激活码时",
+    "在Android设备上使用eSIM时"
+  ],
+  "search_keywords": [
+    "Giffgaff eSIM直装版",
+    "Giffgaff eSIM绕过检测",
+    "Giffgaff APK修改版",
+    "非原生eSIM设备获取Giffgaff",
+    "Giffgaff eSIM激活码提取",
+    "Giffgaff eSIM安装教程",
+    "Giffgaff eSIM 2026",
+    "Giffgaff eSIM直装APK下载"
+  ],
+  "alternatives": {
+    "replaces": [
+      "HookEuicc + LSPatch方案"
+    ],
+    "similar_to": [
+      "Giffgaff eSIM官方App",
+      "Giffgaff eSIM抓包方案"
+    ],
+    "pairs_with": [
+      "eSTK",
+      "5ber",
+      "9eSIM",
+      "EasyEUICC"
+    ]
+  },
+  "tech_highlights": [
+    "APK反编译与修改",
+    "绕过eSIM能力检测",
+    "系统分享面板集成",
+    "无需Root权限"
+  ],
+  "cover": "covers/960a8cb6-2466-4eeb-9486-05690a7f8ca0.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-15T20:57:30",
+  "my_notes": "",
+  "capture_status": "ok"
+}
