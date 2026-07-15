@@ -1,0 +1,81 @@
+{
+  "id": "7a6f9d40-8d60-40aa-b1c3-092e7341f582",
+  "url": "https://www.starryblu.com/launchIndex?inviteCode=MXKK00Q",
+  "name": "Starryblu",
+  "headline": "一站式全球智能金融APP，免费开户、最优汇率、返现、AI智能管家",
+  "intro": "Starryblu 是一款受新加坡金融管理局（MAS）监管的一站式全球金融应用，提供免费开户、多币种管理、国际汇款、消费返现及AI智能代理服务。用户可快速开立全球账户，以最优汇率向210多个国家汇款，并享受高达100%的消费返现。AI Agent可自动执行交易，简化财务管理。资金安全存放于合作银行，符合PCI数据安全标准。",
+  "category": "🌍 出海与基建",
+  "subcategory": "跨境支付",
+  "tags": [
+    "全球账户",
+    "多币种",
+    "国际汇款",
+    "返现",
+    "AI金融",
+    "MAS监管",
+    "免费开户",
+    "跨境支付"
+  ],
+  "capabilities": [
+    "开立全球账户",
+    "管理多币种",
+    "发送国际汇款",
+    "获取最优汇率",
+    "获得消费返现",
+    "使用AI自动交易",
+    "提取现金",
+    "保护资金安全"
+  ],
+  "scenarios": [
+    "在进行国际汇款时",
+    "管理多币种资金时",
+    "出国旅行消费时",
+    "寻求最优汇率时",
+    "希望获得消费返现时",
+    "需要AI辅助财务管理时"
+  ],
+  "search_keywords": [
+    "Starryblu",
+    "全球账户",
+    "多币种账户",
+    "国际汇款",
+    "最优汇率",
+    "返现",
+    "AI金融",
+    "MAS监管",
+    "免费开户",
+    "跨境支付",
+    "新加坡金融",
+    "海外消费"
+  ],
+  "alternatives": {
+    "replaces": [
+      "传统银行国际汇款",
+      "Wise",
+      "Revolut"
+    ],
+    "similar_to": [
+      "Wise",
+      "Revolut",
+      "PayPal"
+    ],
+    "pairs_with": [
+      "旅行预订平台",
+      "跨境电商",
+      "外汇交易工具"
+    ]
+  },
+  "tech_highlights": [
+    "AI Agent自动化交易",
+    "MAS监管合规",
+    "PCI数据安全认证",
+    "实时汇率引擎"
+  ],
+  "cover": "covers/7a6f9d40-8d60-40aa-b1c3-092e7341f582.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-15T23:16:22",
+  "my_notes": "",
+  "capture_status": "ok"
+}
