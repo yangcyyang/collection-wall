@@ -5,6 +5,13 @@
   title / summary / recommend_reason / tags **不得**由本脚本模板生成。
   本脚本只负责：合并 opencli JSON、硬规则过滤、作者封顶、输出候选池。
 
+短推契约（2026-07-15 cy 拍板 A）：
+  SHORT_TWEET_THRESHOLD = 200（字符数 = len(text.strip())）
+  短推：不生成 title
+  - 中文正文 → summary 填原文全文（可清 t.co 尾巴）
+  - 英文正文 → summary 填完整中文翻译（全文翻译，非摘要）
+  长推：中文 title + 中文摘要
+
 用法：
   python3 pipeline/twitter_daily_collect.py \\
     --mode hard-filter \\
@@ -25,6 +32,8 @@ from typing import Any
 
 MAX_PER_AUTHOR = 2
 MIN_CANDIDATES = 8
+# 与 SOP / 前端 isShortTweet 对齐（2026-07-15：80 → 200）
+SHORT_TWEET_THRESHOLD = 200
 
 PROMO = re.compile(
     r"(MILLIONAIRE|BLUEPRINT|FIRST\s*5|STOP PAYING|7-FIGURE|FREE\s+AI\s+Course|"
@@ -127,6 +136,8 @@ def main() -> int:
         if counts.get(author, 0) >= args.max_per_author:
             rejected["author_cap"] = rejected.get("author_cap", 0) + 1
             continue
+        text = (t.get("text") or "").strip()
+        is_short = len(text) <= SHORT_TWEET_THRESHOLD
         candidates.append(
             {
                 "id": str(t.get("id")),
@@ -139,6 +150,8 @@ def main() -> int:
                 "views": t.get("views"),
                 "has_media": t.get("has_media"),
                 "media_urls": t.get("media_urls") or [],
+                "char_len": len(text),
+                "is_short": is_short,
                 # intentionally empty — Agent fills these after reading
                 "title": None,
                 "summary": None,
@@ -151,11 +164,16 @@ def main() -> int:
     out = {
         "mode": "hard-filter",
         "pool": len(pool),
+        "short_tweet_threshold": SHORT_TWEET_THRESHOLD,
         "candidates": candidates,
         "rejected": rejected,
         "instruction": (
-            "Agent must read each candidate and fill title/summary/"
-            "recommend_reason/tags in Chinese; do not use truncation templates."
+            f"Agent fills title/summary/recommend_reason/tags after reading. "
+            f"If len(text)<={SHORT_TWEET_THRESHOLD}: omit title; "
+            "Chinese text → summary=full original (strip t.co tails); "
+            "English text → summary=full Chinese translation (not a short abstract). "
+            f"If len(text)>{SHORT_TWEET_THRESHOLD}: Chinese one-line title + Chinese abstract. "
+            "Never use truncation templates."
         ),
     }
     Path(args.out).write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
