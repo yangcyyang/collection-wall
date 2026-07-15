@@ -1,0 +1,75 @@
+{
+  "id": "7328d267-abb5-41d2-b52f-3ca763f82da2",
+  "url": "https://feralui.dev/gradients",
+  "name": "FeralUI Gradient Builder",
+  "headline": "从传统日本色彩中生成柔和分层渐变的工具",
+  "intro": "FeralUI Gradient Builder 是一个在线渐变生成器，灵感来自传统日本色彩。它提供多种渐变类型（如 Flow、Mesh、Linear、Radial 等），支持实时编辑颜色、比例、扭曲、漩涡、速度等参数，并可一键导出为 CSS、图片或文本。内置预设如 Iridescent cloud、Opal 等，适合设计师快速创建柔和、有层次的渐变背景。",
+  "category": "🎨 视觉创作",
+  "subcategory": "图像生成",
+  "tags": [
+    "渐变生成",
+    "日本色彩",
+    "实时编辑",
+    "CSS导出",
+    "设计工具",
+    "色彩工具",
+    "FeralUI"
+  ],
+  "capabilities": [
+    "生成渐变",
+    "编辑颜色",
+    "调整参数",
+    "导出CSS",
+    "导出图片",
+    "保存预设",
+    "分享渐变"
+  ],
+  "scenarios": [
+    "在设计网页背景时",
+    "在制作UI界面时",
+    "在寻找配色灵感时",
+    "在创建品牌视觉时",
+    "在制作海报或插图时"
+  ],
+  "search_keywords": [
+    "渐变生成器",
+    "日本色彩渐变",
+    "柔和渐变",
+    "CSS渐变",
+    "在线渐变工具",
+    "渐变背景",
+    "色彩渐变",
+    "FeralUI",
+    "gradient builder",
+    "japanese colors gradient"
+  ],
+  "alternatives": {
+    "replaces": [
+      "CSS Gradient",
+      "Gradient Generator"
+    ],
+    "similar_to": [
+      "Coolors",
+      "ColorSpace",
+      "Gradient Hunt"
+    ],
+    "pairs_with": [
+      "Figma",
+      "CSS代码",
+      "设计稿"
+    ]
+  },
+  "tech_highlights": [
+    "实时预览",
+    "一键导出",
+    "多种渐变类型",
+    "开源MIT许可"
+  ],
+  "cover": "covers/7328d267-abb5-41d2-b52f-3ca763f82da2.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-16T01:43:10",
+  "my_notes": "",
+  "capture_status": "ok"
+}
