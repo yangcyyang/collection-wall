@@ -1,0 +1,72 @@
+{
+  "id": "fc66f082-4146-4f5d-9e23-0ddc5a675620",
+  "url": "https://namethatui.com/",
+  "name": "NameThatUI",
+  "headline": "UI元素的视觉词典，帮你命名并精准提示AI",
+  "intro": "NameThatUI 是一个视觉词典，帮助设计师和开发者识别用户界面中的各种元素，并学习它们的真实名称和API符号。通过浏览或搜索UI元素，你可以快速找到其标准名称，并复制精确的提示词用于AI编程助手。网站覆盖macOS和Web平台，包含从基础控件到复杂布局的丰富示例。",
+  "category": "🎨 视觉创作",
+  "subcategory": "设计资源",
+  "tags": [
+    "UI元素",
+    "视觉词典",
+    "命名",
+    "设计资源",
+    "前端开发",
+    "提示词",
+    "macOS",
+    "Web"
+  ],
+  "capabilities": [
+    "识别UI元素",
+    "查找标准名称",
+    "获取API符号",
+    "复制提示词",
+    "浏览示例",
+    "搜索UI组件"
+  ],
+  "scenarios": [
+    "在设计UI时",
+    "编写前端代码时",
+    "与AI对话需要精确描述时",
+    "学习UI组件命名时",
+    "准备设计规范时"
+  ],
+  "search_keywords": [
+    "UI元素名称",
+    "UI组件命名",
+    "视觉词典",
+    "UI术语",
+    "前端UI库",
+    "macOS UI控件",
+    "Web UI组件",
+    "设计系统命名",
+    "UI提示词",
+    "UI元素识别"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [
+      "UI Patterns",
+      "Component Gallery",
+      "UI Names"
+    ],
+    "pairs_with": [
+      "Cursor",
+      "GitHub Copilot",
+      "Figma"
+    ]
+  },
+  "tech_highlights": [
+    "视觉搜索",
+    "跨平台覆盖",
+    "AI提示词集成",
+    "实时更新"
+  ],
+  "cover": "covers/fc66f082-4146-4f5d-9e23-0ddc5a675620.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-15T21:04:15",
+  "my_notes": "",
+  "capture_status": "ok"
+}
