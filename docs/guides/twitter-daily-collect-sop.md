@@ -13,28 +13,43 @@ updated: 2026-07-15
 > 节奏（2026-07-15 芝芝协调 / cy 推进）：**每天两次** · **12:00** 与 **00:00**（北京时间；定时由宪宪注册）  
 > **分工铁律**：脚本只做拉流/去重/硬规则初筛/日文件合并；**title / summary / recommend_reason / tags 必须由荧荧本体逐条阅读后写入**。
 
-## 0. 节奏与窗口
+## 0. 节奏、窗口与目标日期（硬边界）
+
+时区一律 **Asia/Shanghai（北京时间）**。
+
+| 场次 | 触发（北京） | 内容窗口（北京） | 写入文件 |
+|------|--------------|------------------|----------|
+| **午场** | **12:00** | **当天 00:00–12:00** | **当天** `data/twitter/YYYY-MM-DD.json`（通常新建） |
+| **夜场** | **00:00** | **前一天 12:00–24:00** | **前一天** 同路径文件（**追加** + id 去重） |
+
+**禁止**：夜场把推文写进「新日历日」文件——否则日期分组会串块。  
+夜场在 00:00 刚过时，`date +%Y-%m-%d` 已是新一天，**目标日必须用「昨天」**。
 
 | 项 | 规则 |
 |----|------|
-| 触发 | 每天 **12:00**、**00:00** 各一次（取代旧的 11:45 单次） |
-| 窗口 | 每次只采 **近 12 小时**（`since` 取约 12 小时前的 UTC 日期边界即可；opencli 用 `since:YYYY-MM-DD` 时按实际运行时刻覆盖近 12h 内容，并依赖 id 去重） |
-| 单次上限 | **15 条、不保底**（硬筛后不足也接受；不为凑数注水） |
-| 单日总上限 | **30 条、不保底**（两次合计；已达 30 则本批只补未收录 id，满了可提前停） |
-| 写入方式 | **追加 + 按推文 `id` 去重**，**禁止整文件覆盖**抹掉同日另一趟结果 |
-| 文件 | 仍写 `data/twitter/YYYY-MM-DD.json`（北京日期）；00:00 那趟通常写**刚结束的日历日**还是**新日历日**——以运行时刻的北京日期为准：`date +%Y-%m-%d` |
+| 触发 | 每天 **12:00**、**00:00**（取代 11:45） |
+| 单次上限 | **15、不保底** |
+| 单日总上限 | **30、不保底**（两场合计；满 30 停止新增） |
+| 写入 | **追加 + 按 `id` 去重**；禁止覆盖抹掉另一场 |
+| 结果 | 每个日历日文件在午夜夜场后收满完整 24h（上半场+下半场） |
 
-### opencli 采集示例（12h）
+### 解析目标日（推荐脚本）
 
 ```bash
-# 近 12 小时：用「半天前」的 since 日期（UTC），再靠筛选与 id 去重收紧
-SINCE=$(date -u -v-12H +%Y-%m-%d 2>/dev/null || date -u -d '12 hours ago' +%Y-%m-%d)
-DAY=$(TZ=Asia/Shanghai date +%Y-%m-%d)
+# slot=noon | midnight
+eval "$(python3 pipeline/twitter_daily_collect.py --mode resolve-slot --slot noon)"
+# 导出：TARGET_DATE / WINDOW_START / WINDOW_END / DAY_FILE / SLOT
+# noon     → TARGET_DATE=今天,  WINDOW=今天 00:00–12:00
+# midnight → TARGET_DATE=昨天,  WINDOW=昨天 12:00–24:00
 
 opencli twitter search \
-  "filter:follows -filter:replies -filter:nativeretweets since:${SINCE}" \
+  "filter:follows -filter:replies -filter:nativeretweets since:${SINCE_DATE}" \
   --product live --limit 80 -f json > /tmp/tw-live.json
-# … AI 关键词补捞等同前
+# … 硬筛 → 逐条写字段（≤15）→
+python3 pipeline/twitter_daily_collect.py --mode merge-day \
+  --day-file "data/twitter/${TARGET_DATE}.json" \
+  --batch /tmp/batch-items.json \
+  --date "${TARGET_DATE}"
 ```
 
 ## 1. 硬规则（脚本可执行）
@@ -73,6 +88,8 @@ opencli twitter search \
   "min_count": null,
   "window_hours": 12,
   "runs_per_day": 2,
+  "slot": "noon|midnight",
+  "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
   "merge": "append_dedupe_by_id",
   "actual_count": 18,
   "short_tweet": {
@@ -86,28 +103,29 @@ opencli twitter search \
 
 ## 3. 每日流程（每趟触发都跑）
 
-1. `opencli twitter whoami`  
-2. 拉 Following（近 12 小时窗口）  
-3. `python3 pipeline/twitter_daily_collect.py --mode hard-filter ...` → 候选池  
-4. 荧荧逐条生成字段，**本批 ≤15 条**  
-5. **合并日文件**（推荐脚本）：
+1. 判定场次 **noon / midnight**（定时提示词或运行时刻）  
+2. `resolve-slot` 得到 `TARGET_DATE`（**00:00 必须是昨天**）  
+3. `opencli twitter whoami`  
+4. 拉 Following，覆盖该场 12h 窗口  
+5. hard-filter → 荧荧逐条字段，**本批 ≤15**  
+6. **merge-day** 写入 `data/twitter/${TARGET_DATE}.json`：
 
 ```bash
 python3 pipeline/twitter_daily_collect.py --mode merge-day \
-  --day-file "data/twitter/${DAY}.json" \
+  --day-file "data/twitter/${TARGET_DATE}.json" \
   --batch /tmp/batch-items.json \
-  --date "${DAY}" \
+  --date "${TARGET_DATE}" \
+  --slot noon \
   --per-run-max 15 \
   --day-max 30
 ```
 
-   - 读已有 `items[]`（若无则新建壳）  
-   - 按 `id` 去重；本批新 id 追加  
-   - 刷新 `selection.actual_count`、`generated_at`、`window_hours=12` 等  
-6. `git add data/twitter/${DAY}.json` → commit → push  
-7. 验 `https://wall.yangcyyang.cn/twitter/` 当天区块条数增加/更新  
+   - 读已有 `items[]`（无则新建）  
+   - 按 `id` 去重追加  
+   - 刷新 `selection`（含 `slot`、`window_hours=12`）  
+7. commit + push → 验线上对应日期区块  
 
-前端**不改**：同一天文件追加后按时间倒序自然显示。
+前端**不改**：按文件名日期分组，夜场追加进「昨天」不会串到「今天」。
 
 ## 4. 失败
 

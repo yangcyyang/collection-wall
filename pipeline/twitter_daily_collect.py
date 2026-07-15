@@ -1,27 +1,24 @@
 #!/usr/bin/env python3
-"""推特日报：硬规则初筛 + 单日 JSON 追加去重。
+"""推特日报：硬规则初筛 + 单日 JSON 追加去重 + 场次目标日解析。
 
 重要：
   title / summary / recommend_reason / tags **不得**由本脚本模板生成。
   hard-filter 只产出候选池；字段由 Agent 填写后，用 merge-day 并入日文件。
 
-节奏（2026-07-15）：
-  每天 12:00 / 00:00 各一趟；窗口约 12 小时；
-  每趟上限 15、单日上限 30（均不保底）；
-  同日文件 append + 按 id 去重，禁止覆盖抹掉另一趟。
+节奏（2026-07-15，宪宪日期边界）：
+  12:00 午场：窗口=当天 00:00–12:00（北京），写**当天**文件（新建/覆盖式首写）
+  00:00 夜场：窗口=前一天 12:00–24:00（北京），**追加前一天**文件（禁止写新日历日）
+  每趟上限 15、单日上限 30（均不保底）；append + id 去重
 
 短推契约：
   SHORT_TWEET_THRESHOLD = 200
   短推无 title；中文 summary=全文；英文 summary=完整中文翻译
 
 用法：
-  python3 pipeline/twitter_daily_collect.py --mode hard-filter \\
-    --inputs a.json b.json --out /tmp/cands.json
-
+  python3 pipeline/twitter_daily_collect.py --mode resolve-slot --slot noon|midnight
+  python3 pipeline/twitter_daily_collect.py --mode hard-filter --inputs ... --out ...
   python3 pipeline/twitter_daily_collect.py --mode merge-day \\
-    --day-file data/twitter/2026-07-15.json \\
-    --batch /tmp/batch-items.json \\
-    --date 2026-07-15
+    --day-file data/twitter/YYYY-MM-DD.json --batch batch.json --date YYYY-MM-DD --slot noon
 """
 
 from __future__ import annotations
@@ -30,9 +27,12 @@ import argparse
 import json
 import re
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
+from zoneinfo import ZoneInfo
+
+SHANGHAI = ZoneInfo("Asia/Shanghai")
 
 MAX_PER_AUTHOR = 2
 MIN_CANDIDATES = 5  # 12h 窗口略放宽「候选过少」门槛
@@ -65,6 +65,57 @@ AI_SIGNAL = re.compile(
     re.I,
 )
 NON_AI_NEWS = re.compile(r"(旱稻|古城迎客|機動車|兩岸進出口|减脂餐|冷笑话)", re.I)
+
+
+def resolve_slot(
+    slot: str, now: datetime | None = None
+) -> dict[str, str]:
+    """解析场次 → 目标日与窗口（北京时间）。
+
+    noon:     target=今天, window=今天 00:00–12:00
+    midnight: target=昨天, window=昨天 12:00–24:00
+    """
+    slot = slot.strip().lower()
+    if slot not in ("noon", "midnight"):
+        raise ValueError("slot must be noon or midnight")
+    now = now or datetime.now(SHANGHAI)
+    if now.tzinfo is None:
+        now = now.replace(tzinfo=SHANGHAI)
+    else:
+        now = now.astimezone(SHANGHAI)
+
+    today = now.date()
+    if slot == "noon":
+        target = today
+        window_start = datetime(today.year, today.month, today.day, 0, 0, tzinfo=SHANGHAI)
+        window_end = datetime(today.year, today.month, today.day, 12, 0, tzinfo=SHANGHAI)
+    else:
+        target = today - timedelta(days=1)
+        window_start = datetime(
+            target.year, target.month, target.day, 12, 0, tzinfo=SHANGHAI
+        )
+        window_end = datetime(
+            target.year, target.month, target.day, 0, 0, tzinfo=SHANGHAI
+        ) + timedelta(days=1)
+
+    target_s = target.isoformat()
+    return {
+        "SLOT": slot,
+        "TARGET_DATE": target_s,
+        "WINDOW_START": window_start.isoformat(),
+        "WINDOW_END": window_end.isoformat(),
+        "SINCE_DATE": window_start.astimezone(timezone.utc).date().isoformat(),
+        "DAY_FILE": f"data/twitter/{target_s}.json",
+    }
+
+
+def mode_resolve_slot(args: argparse.Namespace) -> int:
+    info = resolve_slot(args.slot)
+    # shell-friendly exports
+    for k, v in info.items():
+        print(f"export {k}={v}")
+    print(json.dumps(info, ensure_ascii=False), file=sys.stderr)
+    return 0
 
 
 def load_json_tweets(path: Path) -> list[dict[str, Any]]:
@@ -314,6 +365,7 @@ def mode_merge_day(args: argparse.Namespace) -> int:
     src["account"] = src.get("account") or "yangcyyang1"
     src["window_hours"] = WINDOW_HOURS
     src["method"] = src.get("method") or "opencli twitter search filter:follows"
+    slot = (args.slot or "").strip().lower() or None
     day["selection"] = {
         "target_count": day_max,
         "max_count": day_max,
@@ -321,6 +373,8 @@ def mode_merge_day(args: argparse.Namespace) -> int:
         "min_count": None,
         "window_hours": WINDOW_HOURS,
         "runs_per_day": 2,
+        "slot": slot,
+        "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
         "merge": "append_dedupe_by_id",
         "actual_count": len(merged),
         "last_batch_added": added,
@@ -328,8 +382,9 @@ def mode_merge_day(args: argparse.Namespace) -> int:
         "last_batch_skipped_author": skipped_author,
         "last_batch_skipped_day_cap": skipped_cap,
         "note": (
-            f"双次采集/日；窗口{WINDOW_HOURS}h；每趟≤{per_run_max}；"
-            f"单日≤{day_max}不保底；追加按id去重。"
+            f"双次采集/日；窗口{WINDOW_HOURS}h；"
+            f"noon→当天文件，midnight→前一天文件；"
+            f"每趟≤{per_run_max}；单日≤{day_max}不保底；追加按id去重。"
         ),
         "short_tweet": {
             "threshold_chars": SHORT_TWEET_THRESHOLD,
@@ -365,7 +420,7 @@ def main() -> int:
     ap.add_argument(
         "--mode",
         default="hard-filter",
-        choices=["hard-filter", "merge-day"],
+        choices=["hard-filter", "merge-day", "resolve-slot"],
     )
     ap.add_argument("--inputs", nargs="+", help="opencli JSON dumps (hard-filter)")
     ap.add_argument("--out", help="candidate pool output (hard-filter)")
@@ -373,10 +428,20 @@ def main() -> int:
     ap.add_argument("--day-file", help="data/twitter/YYYY-MM-DD.json (merge-day)")
     ap.add_argument("--batch", help="batch items JSON (merge-day)")
     ap.add_argument("--date", help="YYYY-MM-DD (merge-day)")
+    ap.add_argument(
+        "--slot",
+        choices=["noon", "midnight"],
+        help="run slot: noon|midnight (resolve-slot / merge-day metadata)",
+    )
     ap.add_argument("--per-run-max", type=int, default=PER_RUN_MAX)
     ap.add_argument("--day-max", type=int, default=DAY_MAX)
     args = ap.parse_args()
 
+    if args.mode == "resolve-slot":
+        if not args.slot:
+            print("resolve-slot needs --slot noon|midnight", file=sys.stderr)
+            return 1
+        return mode_resolve_slot(args)
     if args.mode == "hard-filter":
         if not args.inputs or not args.out:
             print("hard-filter needs --inputs and --out", file=sys.stderr)
