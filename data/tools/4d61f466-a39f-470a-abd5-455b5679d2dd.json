@@ -1,0 +1,70 @@
+{
+  "id": "4d61f466-a39f-470a-abd5-455b5679d2dd",
+  "url": "https://h5.kitesim.co/#/pages/order/order",
+  "name": "Kitesim",
+  "headline": "一键连接全球，享受无缝通信的eSIM服务",
+  "intro": "Kitesim 是一个提供全球eSIM服务的平台，用户可以通过一键连接，享受无缝的国际通信体验。该服务支持多种设备，无需物理SIM卡，即可在出国旅行或跨境工作时保持网络连接。平台提供简单的注册和登录流程，用户只需输入邮箱和密码即可开始使用。",
+  "category": "🌍 出海与基建",
+  "subcategory": "VPN / 网络",
+  "tags": [
+    "eSIM",
+    "全球通信",
+    "国际漫游",
+    "虚拟SIM卡",
+    "跨境网络",
+    "移动数据",
+    "旅行上网"
+  ],
+  "capabilities": [
+    "提供全球eSIM服务",
+    "一键连接网络",
+    "支持多设备",
+    "无需物理SIM卡",
+    "简化注册流程"
+  ],
+  "scenarios": [
+    "在出国旅行时",
+    "在跨境工作时",
+    "需要国际网络连接时",
+    "避免高额漫游费时"
+  ],
+  "search_keywords": [
+    "eSIM",
+    "全球eSIM",
+    "国际eSIM",
+    "虚拟SIM卡",
+    "出国上网",
+    "跨境通信",
+    "国际漫游",
+    "旅行网络",
+    "Kitesim",
+    "一键连接"
+  ],
+  "alternatives": {
+    "replaces": [
+      "传统国际漫游",
+      "物理SIM卡"
+    ],
+    "similar_to": [
+      "Airalo",
+      "Holafly",
+      "Ubigi"
+    ],
+    "pairs_with": [
+      "旅行规划工具",
+      "国际支付服务"
+    ]
+  },
+  "tech_highlights": [
+    "eSIM技术",
+    "一键连接",
+    "多设备兼容"
+  ],
+  "cover": "covers/4d61f466-a39f-470a-abd5-455b5679d2dd.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-15T22:25:30",
+  "my_notes": "",
+  "capture_status": "ok"
+}
