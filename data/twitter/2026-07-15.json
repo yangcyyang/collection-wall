@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "date": "2026-07-15",
-  "generated_at": "2026-07-14T16:05:06Z",
+  "generated_at": "2026-07-15T03:49:47Z",
   "source": {
     "type": "following_timeline",
     "method": "opencli twitter search filter:follows",
@@ -12,8 +12,8 @@
     "target_count": 30,
     "max_count": 30,
     "min_count": null,
-    "actual_count": 18,
-    "note": "质量优先：上限30不保底。本日 actual_count=18。字段由荧荧逐条生成；短推可省 title、summary 必须中文。",
+    "actual_count": 20,
+    "note": "11:45定时覆盖刷新。质量优先 actual_count=20。字段逐条手写；短推可省title、summary必须中文。",
     "criteria": [
       "禁促销",
       "禁非AI生活娱乐",
@@ -24,11 +24,10 @@
       "英文中文化"
     ],
     "rules": [
-      "上限30条，不设保底；卡片区块显示实际条数",
-      "质量优先，不为凑数注水",
+      "上限30条，不设保底",
       "作者每日≤2",
-      "短推（原文≤80字）可省 title，summary 必须是中文",
-      "长推 title/summary/recommend_reason/tags 由采集猫逐条阅读生成"
+      "短推≤80字可省title，summary必须中文",
+      "同日11:45可覆盖刷新凌晨验证刊"
     ],
     "short_tweet": {
       "threshold_chars": 80,
@@ -39,428 +38,474 @@
   "items": [
     {
       "rank": 1,
-      "id": "2077036999303999910",
-      "author": "sama",
-      "author_bio": "AI is cool i guess",
-      "text": "GPT-5.6 sol is half the price and ~twice as token efficient as fable in many cases for accomplishing the same task.\n\nhappy to deliver at one-quarter of the price.",
-      "summary": "OpenAI 的萨姆·奥特曼称，在许多场景下 GPT-5.6 Sol 完成与 Fable 同等任务时价格约一半、token 效率约两倍，并表示很乐意做到约四分之一的价格交付。",
-      "url": "https://x.com/i/status/2077036999303999910",
-      "created_at": "2026-07-14T14:26:24Z",
-      "likes": 8316,
-      "views": "487026",
+      "id": "2077201458546745553",
+      "author": "levie",
+      "author_bio": "ceo @box - your business lives in content. unleash it with AI",
+      "text": "One of the many properties that code has that makes it highly amenable to agents is that you can more or less quickly test it. You can either go see if the application works manually, or you can actually run a test on what you built.\n\nMost other areas of work don’t have this benefit. You only get the testing when the final product hits the real world in some capacity - a stock trade is executed, a contract is negotiated, a sales pitch is delivered, and so on.\n\nThere’s probably going to be a whole new set of opportunities for how we begin to test the rest of work in this way. Ultimately it will mean more agents being layered into workflows. \n\nIt also means we need much better evals on most of our workflows. Most work today in enterprises doesn’t have an associated eval to know if something broke or improved with a model, prompt, or system change.\n\nThe enterprises that are able to eval their knowledge work the best also stand to gain the most from AI. Will become a critical aspect of agent adoption over time.",
+      "summary": "Box 的莱维指出，代码适合 Agent 的关键是能快速手工或自动验证；多数业务工作（成交、谈判、销售）只有上线后才有反馈。未来会有更多方式给“非代码工作”做测试，工作流里会叠更多 Agent，企业也需要更好的评测，才能判断模型、提示词或系统改动是变好还是变坏。",
+      "url": "https://x.com/i/status/2077201458546745553",
+      "created_at": "2026-07-15T01:19:54Z",
+      "likes": 108,
+      "views": "34838",
       "has_media": false,
       "media_urls": [],
-      "score": 176.32,
-      "recommend_reason": "直接来自 OpenAI 掌门人对定价与效率的公开表态，选型比价时值得记一笔。",
+      "score": 12.7,
+      "recommend_reason": "把 Agent 落地从“模型够不够强”拉回“能不能测、有没有 eval”，和做自动化产线的人高度相关。",
       "tags": [
-        "OpenAI",
-        "GPT-5.6",
-        "定价",
-        "效率"
+        "Agent",
+        "评测",
+        "工作流",
+        "企业"
       ],
-      "title": "山姆：GPT-5.6 Sol 完成同类任务约半价、token 效率约翻倍"
+      "title": "莱维：代码易被 Agent 接管，因可快速测试；企业更缺工作流评测"
     },
     {
       "rank": 2,
-      "id": "2077033807736459713",
-      "author": "sama",
-      "author_bio": "AI is cool i guess",
-      "text": "2.5x increase in usage of our agentic products (codex and chatgpt work) in the last week!\n\nwelcome.",
-      "summary": "萨姆·奥特曼宣布，过去一周 Codex 与 ChatGPT Work 等智能体产品的使用量增长了 2.5 倍，并表示欢迎。",
-      "url": "https://x.com/i/status/2077033807736459713",
-      "created_at": "2026-07-14T14:13:43Z",
-      "likes": 6797,
-      "views": "288752",
+      "id": "2077187288644387292",
+      "author": "bindureddy",
+      "author_bio": "CEO of @abacusai - the world’s first AI super assistant and a powerful general agent for professionals and enterprises, ex-AWS & Google",
+      "text": "Coming soon - open and closed source model releases \n\n- Opus 5\n- Gemini 3.5 Pro ( checkpoints are better)\n- DeepSeek v4\n- Kimi 3\n\nFable 5 will remain the top model for coding for at-least a month",
+      "summary": "作者预告开源与闭源模型将陆续放出：Opus 5、Gemini 3.5 Pro（称检查点更好）、DeepSeek v4、Kimi 3，并判断 Fable 5 至少还会在编程领域称霸约一个月。",
+      "url": "https://x.com/i/status/2077187288644387292",
+      "created_at": "2026-07-15T00:23:36Z",
+      "likes": 124,
+      "views": "7799",
       "has_media": false,
       "media_urls": [],
-      "score": 145.94,
-      "recommend_reason": "侧面说明 agentic 工作流在真实用户侧正在加速普及，而不只是概念热。",
+      "score": 13.1,
+      "recommend_reason": "选型窗口提示：接下来几周模型版图可能连跳，可据此安排试用与基准复测。",
       "tags": [
-        "OpenAI",
-        "Codex",
-        "Agent",
-        "增长"
+        "模型发布",
+        "Fable5",
+        "DeepSeek",
+        "Gemini"
       ],
-      "title": "OpenAI 智能体产品用量一周涨 2.5 倍"
+      "title": "即将密集发布：Opus 5、Gemini 3.5 Pro、DeepSeek v4、Kimi 3"
     },
     {
       "rank": 3,
-      "id": "2077026346375540870",
-      "author": "AnthropicAI",
-      "author_bio": "We're an AI safety and research company that builds reliable, interpretable, and steerable AI systems. Talk to our AI assistant @claudeai on https://t.co/FhDI3K",
-      "text": "We’re committing $10 million CAD and partnering with leading AI institutions in Canada to help fund new AI research. \n\nhttps://t.co/A8wpanWYQO",
-      "summary": "Anthropic 宣布投入 1000 万加元，并与加拿大领先人工智能机构合作，资助新的人工智能研究。",
-      "url": "https://x.com/i/status/2077026346375540870",
-      "created_at": "2026-07-14T13:44:04Z",
-      "likes": 817,
-      "views": "101412",
+      "id": "2077231766004548049",
+      "author": "bindureddy",
+      "author_bio": "CEO of @abacusai - the world’s first AI super assistant and a powerful general agent for professionals and enterprises, ex-AWS & Google",
+      "text": "Very bullish on open-source AI.  \n\n- agentic loops are fast becoming a commodity\n- GLM and Kimi are half decent\n-  It's possible to make open-source AI usable today!\n\nWe are literally months away from open-source taking over at least 20% of workloads",
+      "summary": "作者对开源人工智能很乐观：智能体循环正变成商品能力，GLM 与 Kimi 已算半像样，今天就能把开源用起来；并估计再过几个月开源可能吃下至少两成工作负载。",
+      "url": "https://x.com/i/status/2077231766004548049",
+      "created_at": "2026-07-15T03:20:20Z",
+      "likes": 21,
+      "views": "1452",
       "has_media": false,
       "media_urls": [],
-      "score": 26.34,
-      "recommend_reason": "官方投研与区域布局信号，关注安全/学术合作版图的人可跟进原文。",
+      "score": 10.53,
+      "recommend_reason": "对“要不要上开源栈”给出时间尺度判断，可对照自己的成本与可控性需求。",
       "tags": [
-        "Anthropic",
-        "研究资助",
-        "加拿大"
+        "开源",
+        "Agent",
+        "Kimi",
+        "工作负载"
       ],
-      "title": "Anthropic 承诺在加拿大投入千万加元资助人工智能研究"
+      "title": "作者看多开源人工智能：智能体循环正商品化"
     },
     {
       "rank": 4,
-      "id": "2077019285969346775",
-      "author": "goodside",
-      "author_bio": "Chatbot screenshots since 2022.\nFormerly: Google DeepMind, Scale.",
-      "text": "POV: You’re Claude and I gave you a task https://t.co/x1pb6BHO9Z",
-      "summary": "古德赛德发了一张（或一段）以克劳德视角接任务的趣味演示，配文“假如你是克劳德、我刚派了任务”。",
-      "url": "https://x.com/i/status/2077019285969346775",
-      "created_at": "2026-07-14T13:16:01Z",
-      "likes": 262,
-      "views": "10184",
+      "id": "2077216164103487986",
+      "author": "dotey",
+      "author_bio": "AI Engineer, dedicated to learning and disseminating knowledge about AI, software engineering, and engineering management.",
+      "text": "Codex 最新动态：\n\n从 GPT‑5.6 与 Ultra 模式，到多智能体并行协作、计算机与浏览器操作、应用截图理解、行内代码和文档修改，再到一键发布 Sites、跨项目管理以及完整的 PR 工作流。\n\nCodex 已不只是一个“帮你写代码”的工具，而是能够拆解复杂任务、操作和测试应用、协调多个项目、处理 Bug 与代码审查，并协助完成发布的开发伙伴。\n\n无论你想提高日常开发效率，还是探索更自动化的 AI 编程方式，这支视频都能帮你快速掌握 Codex 的新能力和实际应用场景。\n\n本视频由 baocut 翻译",
+      "summary": "宝玉梳理 Codex 近况：从 GPT-5.6 与 Ultra，到多智能体并行、计算机/浏览器操作、截图理解、行内改代码与文档，再到一键发布站点、跨项目与完整 PR 工作流；认为它已从写代码工具升级为能拆任务、测应用、协调项目、处理审查与发布的开发伙伴。",
+      "url": "https://x.com/i/status/2077216164103487986",
+      "created_at": "2026-07-15T02:18:20Z",
+      "likes": 21,
+      "views": "6612",
       "has_media": true,
       "media_urls": [
-        "https://pbs.twimg.com/media/HNMOCHDW0AAHmrj.jpg"
+        "https://video.twimg.com/amplify_video/2077215515420897280/vid/avc1/480x270/VaLI8beop5rDjV68.mp4?tag=28"
       ],
-      "score": 15.24,
-      "recommend_reason": "轻量但传播广的模型行为梗图/演示，适合快速感受社区对克劳德工作方式的共识。",
+      "score": 10.53,
+      "recommend_reason": "中文高质量能力地图，适合一次扫清 Codex 现在能干什么。",
       "tags": [
-        "Claude",
-        "社区",
-        "演示"
-      ]
+        "Codex",
+        "GPT-5.6",
+        "Agent",
+        "开发工具"
+      ],
+      "title": "Codex 新能力：多智能体、浏览器操作到一键发站与 PR 流"
     },
     {
       "rank": 5,
-      "id": "2077051280267399550",
-      "author": "trq212",
-      "author_bio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
-      "text": "I've been playing a lot of Pokemon Champions recently and started using Claude Code to help me.\n\nIt writes code using Smogon's npm library, pulls live usage stats and then writes reports to understand matchups, breakpoints or theorycraft teams. https://t.co/4a3GYj4OFY",
-      "summary": "作者用 Claude Code 辅助玩宝可梦冠军赛：借助 Smogon 的代码库写代码、拉取实时使用率数据，并生成报告来理解对位、阈值点与理论组队。",
-      "url": "https://x.com/i/status/2077051280267399550",
-      "created_at": "2026-07-14T15:23:09Z",
-      "likes": 85,
-      "views": "11351",
-      "has_media": true,
-      "media_urls": [
-        "https://pbs.twimg.com/media/HNMp0oQawAAV-5T.jpg"
-      ],
-      "score": 11.7,
-      "recommend_reason": "coding agent 走出办公场景的具体案例，说明复杂爱好分析也能被 agent 拆开做。",
+      "id": "2077225080027775206",
+      "author": "dotey",
+      "author_bio": "AI Engineer, dedicated to learning and disseminating knowledge about AI, software engineering, and engineering management.",
+      "text": "这个 App 最开始是自己用的，是走的 LLM 方案，先整体翻译，然后按句子配对，再 LLM 拆分，但是拆分效果总是不理想。\n\n另外走 LLM 还有一个问题，就是要配置 API Key，这其实对普通人不友好，另外就是成本其实不低，Gemini 3.5 Flash 一部长一点视频都几美元。\n\n最后发现还是 Agent + Skill 路线最好：\n\n1. Agent 有很好的纠错能力，哪怕你不给它这样的工具，它自己都能一边翻译一边纠错，质量不错。\n\n2. 把 App 的能力封装成 cli，让 Agent 可以通过命令行调用 App 的功能\n\n3. 配合一个 Skill 把常用的工作流比如像转录、润色、翻译、对齐、剪辑都固化下来，这样 Agent 就知道最佳实践是什么，不需要每次都自己摸索\n\n4. App 解决的是人工预览、校对的部分。\n\nAgent 操作完，如果你是人肉看文本字幕，或者你每次修改一点都要重新 ffmpeg 生成一遍视频，那效率太低了。最好的方式其实不是完全交给 Agent，而是可以有一个图形化的工具快速的预览、二次编辑。\n\n5. Agent 相对比较通用和便宜，现在大家都有 Agent，包月的 Token 经常花不完，用来干这种活正合适",
+      "summary": "作者分享自用应用演进：纯大模型整段翻译再拆句效果不稳，且要配密钥、成本高；最终采用 Agent 纠错、把应用能力封成命令行、用 Skill 固化转录润色翻译对齐剪辑流程，应用本身负责预览校对，Agent 包月额度正好消化这类活。",
+      "url": "https://x.com/i/status/2077225080027775206",
+      "created_at": "2026-07-15T02:53:46Z",
+      "likes": 14,
+      "views": "2994",
+      "has_media": false,
+      "media_urls": [],
+      "score": 10.35,
+      "recommend_reason": "可直接借鉴的产品架构路径：别死磕单次提示词，把 Agent、Skill 与人工预览面拆开。",
       "tags": [
-        "Claude Code",
         "Agent",
-        "实践",
-        "游戏"
+        "Skill",
+        "字幕",
+        "产品架构"
       ],
-      "title": "用 Claude Code 做宝可梦对战分析：拉数据、写报告、组队理论"
+      "title": "字幕应用从纯大模型方案改走 Agent + Skill + 图形校对"
     },
     {
       "rank": 6,
-      "id": "2077034190583791810",
-      "author": "code",
-      "author_bio": "The open source AI code editor",
-      "text": "⚡ VSCode makes it easier to choose the right AI model for every task!\n\nLearn how Language Model Providers make it easy to connect local models, configure BYOK providers, and customize your AI experience. https://t.co/Asdx8aCrcm",
-      "summary": "官方称 Visual Studio Code 通过语言模型提供方机制，更易连接本地模型、配置自带密钥的提供商，并自定义人工智能体验。",
-      "url": "https://x.com/i/status/2077034190583791810",
-      "created_at": "2026-07-14T14:15:15Z",
-      "likes": 62,
-      "views": "12760",
+      "id": "2077198977967993081",
+      "author": "gkxspace",
+      "author_bio": "🌸05年连续创业者 | 专注 AI 产品 | 项目营收 7 位数+\n✨记录真实的创业路：项目复盘、踩坑总结和成长思考\n💗AI 产品构建 & AI 商业化方案 & 企业 AI 转型",
+      "text": "建议大家都把这个号码存进通讯录：+1-650-213-7322\n\n它是一个活在 iMessage 里的 AI，你发短信派活，它能操纵一台云端手机！！！\n\nReddit 在国内是出了名的上不去，挑网还爱封号，但信息又极度优质，很适合看最新的AI讨论、找产品需求、做产品调研！\n\n而且就算你就算能上去，也不清楚到底应该去哪个社区刷帖，整个时间成本也是非常高。\n\n我试着给 +1-650-213-7322 发了句话：\n\"帮我看看AI相关社区的帖子，大家在讨论什么，把讨论焦点和高赞观点整理给我\"\n它就开始调用云端手机执行，找到一些高质量AI社区刷帖，几分钟后，给我了一份总结文档。\n\n我接着又发了句：\n\"把这些帖子评论区里老外抱怨最多、反复在找的东西整理成一份清单\"\n他同样会按照我们的需求去刷帖，我们做产品的看这份清单是机会，别人还在刷资讯，你就已经让AI给你拿到需求了。\n\n并且，我全程没开🪜，手机里也没装任何新App。\n\n原理就是：@airtap_ai 在云端跑着一台真手机，你发短信派活，它就在那台手机上打开网页和App，国内上不去的平台，对它来说就是本地环境。\n\n顺着这个思路，其实还可以干很多事：\n1、翻YouTube上AI Agent相关的高播放视频，把评论区被问得最多的问题整理成选题清单\n2、查Gmail有没有新邮件，有没有新任务，或者然它把刚收到的验证码发给我（你就不用打开🪜了）\n3、存定时任务：\"每天早上8点把Reddit热帖自动跑一遍发给你\"\n\n当然，当你有一台 AI云手机，玩法远不止这些，并且你也不用装App不用注册，第一条消息发出去账号就开好了，目前免费开放！\n#justtextit #textyourapps #airtap",
+      "summary": "作者介绍一个活在 iMessage 里的人工智能：发短信派活，它能操作云端手机；国内难上的 Reddit 对它是本地环境。可整理人工智能社区焦点、高赞观点与需求清单，也可延伸到油管评论选题、邮件与定时热帖，全程不必自备代理与新应用。",
+      "url": "https://x.com/i/status/2077198977967993081",
+      "created_at": "2026-07-15T01:10:03Z",
+      "likes": 36,
+      "views": "4686",
       "has_media": true,
       "media_urls": [
-        "https://video.twimg.com/amplify_video/2077030079968784384/vid/avc1/480x270/TCDILoKRb0SvRzbi.mp4?tag=28"
+        "https://video.twimg.com/amplify_video/2077198656604614656/vid/avc1/320x694/Z8L80Ms9hcbrW5Rh.mp4?tag=28"
       ],
-      "score": 11.24,
-      "recommend_reason": "编辑器侧多模型切换是日常工程刚需，官方说明值得对照自己的 BYOK/本地模型配置。",
+      "score": 10.9,
+      "recommend_reason": "调研链路新玩法：把“上不去的信息源”外包给云端真机 Agent，产品人可当需求雷达。",
       "tags": [
-        "VSCode",
-        "模型路由",
-        "本地模型",
-        "开发工具"
+        "Agent",
+        "调研",
+        "云手机",
+        "Reddit"
       ],
-      "title": "VS Code 方便为每项任务选择合适的人工智能模型"
+      "title": "用 iMessage 指挥云端真机刷 Reddit 做人工智能调研"
     },
     {
       "rank": 7,
-      "id": "2077039297463775423",
+      "id": "2077214956479709262",
       "author": "xiaohu",
       "author_bio": "带你了解全球最前沿科技、AI动态...\n\nAI 精华，讲到你懂：https://t.co/nvuDIvoNg1",
-      "text": "严重怀疑 ChatGPT （Codex）的客户端现在已经由AI接管了\n\nCodex 应该是自己在升级自己\n\n自己发现问题和收到反馈进行自我迭代修复和升级，然后发布\n\n因为每隔几小时它就会有新版本提醒你更新...",
-      "summary": "作者观察到 ChatGPT（Codex）客户端几乎每隔几小时就提示新版本，猜测其已由人工智能接管：自己发现问题与反馈、自我修复并发布。",
-      "url": "https://x.com/i/status/2077039297463775423",
-      "created_at": "2026-07-14T14:35:32Z",
-      "likes": 55,
-      "views": "16139",
-      "has_media": false,
-      "media_urls": [],
-      "score": 11.1,
-      "recommend_reason": "关于工具自进化节奏的一线体感，做产品发布频率对照时有趣。",
-      "tags": [
-        "Codex",
-        "产品观察",
-        "自迭代"
+      "text": "语音输入法升级\n\nHeyClicky：一个能 “屏幕感知语音输入”工具\n\n它不仅能将语音内容转文字，还能看到你屏幕的内容，能理解你屏幕上正在看的内容，再根据上下文帮你写。\n\n在 Gmail 中，可以看到邮件内容后自动生成合适的回复\n\n在 Claude 终端里，可以根据当前技术信息替小白补充追问\n\n在演示文稿中，可以调用 YC Skill，帮助修改融资材料和开场文案\n\n可以在各种应用里看到你的内容进行智能回复\n\n它还会记住你的表达习惯，让生成内容更像本人\n\n一句话概括：它把传统语音输入升级成了“能看懂屏幕、理解上下文、直接替你完成表达”的 AI 写作助手。",
+      "summary": "作者介绍屏幕感知语音工具 HeyClicky：转写的同时理解当前屏幕，在邮件里生成回复、在克劳德终端帮小白追问、在演示稿里调用技能改融资材料，并记住表达习惯，把语音输入升级成懂上下文的写作助手。",
+      "url": "https://x.com/i/status/2077214956479709262",
+      "created_at": "2026-07-15T02:13:33Z",
+      "likes": 24,
+      "views": "5510",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2077211674705371138/vid/avc1/480x270/3nofZykX-N9-BYZO.mp4?tag=28"
       ],
-      "title": "有人怀疑 Codex 客户端已在自我迭代升级"
+      "score": 10.6,
+      "recommend_reason": "输入法×多模态上下文是实用交叉点，做桌面 Agent 的人值得对照场景清单。",
+      "tags": [
+        "语音输入",
+        "屏幕感知",
+        "写作助手",
+        "工具"
+      ],
+      "title": "HeyClicky：能看见屏幕的语音输入与上下文写作"
     },
     {
       "rank": 8,
-      "id": "2077039905646293311",
-      "author": "bindureddy",
-      "author_bio": "CEO of @abacusai - the world’s first AI super assistant and a powerful general agent for professionals and enterprises, ex-AWS & Google",
-      "text": "Pretty funny! OpenAI is constantly hassling Anthropic to offer Fable 5 for free in Claude\n\nWouldn’t OpenAI literally be dead is that happens \n\n😬",
-      "summary": "作者玩笑称 OpenAI 不断催 Anthropic 在 Claude 里免费提供 Fable 5，并反问若真如此 OpenAI 是否会“直接完了”。",
-      "url": "https://x.com/i/status/2077039905646293311",
-      "created_at": "2026-07-14T14:37:57Z",
-      "likes": 53,
-      "views": "4155",
+      "id": "2077213239361085454",
+      "author": "kevinma_dev_zh",
+      "author_bio": "独立开发者，AI Builder，分享 AI 编程、效率工具和好玩的产品。\n好奇驱动，记录 AI 时代的发现与实践。\n开发了 https://t.co/TR0z0yfd48 - 帮助你更容易的学习英语。",
+      "text": "GPT 命名太乱了，给人带来的心智负担太大，因此我现在只使用 GPT-Sol, 根据任务复杂度切换 Effort，且不使用 fast，交给它的多数是执行任务、Debug 和修 Bug，再或者是本身就是设计好的开发任务，慢点就慢点吧。需要结对编程、讨论以及快速修改迭代的就在 claude code 和 cursor 中完成了。",
+      "summary": "作者嫌 GPT 命名混乱带来心智负担，现只使用 GPT-Sol，按任务复杂度调 Effort、不用 fast；多用于执行、调试与修缺陷或已设计好的开发任务；需要结对编程与快速迭代则用 Claude Code 与 Cursor。",
+      "url": "https://x.com/i/status/2077213239361085454",
+      "created_at": "2026-07-15T02:06:43Z",
+      "likes": 1,
+      "views": "237",
       "has_media": false,
       "media_urls": [],
-      "score": 11.06,
-      "recommend_reason": "夸张玩笑背后是对顶尖模型免费化与竞争格局的情绪读数，不宜当事实，但可当舆论温度计。",
+      "score": 10.03,
+      "recommend_reason": "务实的模型分工法：执行模型与讨论模型拆开，可直接抄进个人工作流。",
       "tags": [
-        "OpenAI",
-        "Anthropic",
-        "Fable5",
-        "竞争"
+        "GPT-Sol",
+        "工作流",
+        "Claude Code",
+        "Cursor"
       ],
-      "title": "有人调侃 OpenAI 催 Anthropic 免费放出 Fable 5"
+      "title": "作者只用 GPT-Sol 做执行与修缺陷，结对讨论交给其他工具"
     },
     {
       "rank": 9,
-      "id": "2077043523703243070",
-      "author": "levie",
-      "author_bio": "ceo @box - your business lives in content. unleash it with AI",
-      "text": "Thoughtful proposal for a standards body for AI. This is distinct from a regulatory agency, and would certainly allow for much faster improvement of standards and collaboration with the industry. \n\nWhat you definitely don’t want is for AI progress to start to move at the speed of that the government classically operates at. If that happens then we can essentially guarantee progress begins to stall, and worse, America likely just loses the AI race. \n\nThis framework threads the needle mostly. The only challenge is still that even those in industry don’t agree on the same safety risks in AI. But if you can get alignment there, this looks better than most other proposals.",
-      "summary": "博主评论设立人工智能标准机构（区别于监管机构）的提案：可加速行业协作与标准迭代，但要避免进步被政府惯常节奏拖死，否则美国可能输掉竞赛；难点是业内对安全风险仍无共识。",
-      "url": "https://x.com/i/status/2077043523703243070",
-      "created_at": "2026-07-14T14:52:20Z",
-      "likes": 33,
-      "views": "9100",
+      "id": "2077236816785309698",
+      "author": "kevinma_dev_zh",
+      "author_bio": "独立开发者，AI Builder，分享 AI 编程、效率工具和好玩的产品。\n好奇驱动，记录 AI 时代的发现与实践。\n开发了 https://t.co/TR0z0yfd48 - 帮助你更容易的学习英语。",
+      "text": "Codex Schedule 结合 Git Worktree 来做自动化，不要太方便，固定流程能自动化的就自动化，AI-First，减少人工操作。",
+      "summary": "作者称把 Codex Schedule 与 Git Worktree 结合做自动化非常方便，固定流程能自动化就自动化，走人工智能优先、减少人工操作。",
+      "url": "https://x.com/i/status/2077236816785309698",
+      "created_at": "2026-07-15T03:40:24Z",
+      "likes": 2,
+      "views": "32",
       "has_media": false,
       "media_urls": [],
-      "score": 10.66,
-      "recommend_reason": "产业视角的监管/标准讨论，比纯情绪帖更适合做政策与治理判断输入。",
+      "score": 10.05,
+      "recommend_reason": "短而具体的工程自动化组合，和本地多 worktree 开发习惯直接对得上。",
       "tags": [
-        "治理",
-        "标准",
-        "政策",
-        "产业"
-      ],
-      "title": "莱维：应用人工智能标准机构，别让进度跟政府节奏一样慢"
-    },
-    {
-      "rank": 10,
-      "id": "2077032792106672318",
-      "author": "xiaohu",
-      "author_bio": "带你了解全球最前沿科技、AI动态...\n\nAI 精华，讲到你懂：https://t.co/nvuDIvoNg1",
-      "text": "DeepMind CEO ：前沿模型需提前 30 天交给一个专门机构进行体检再发布 ，则不准进入美国市场\n\n他认为：\n\n通用人工智能（AGI）大概率几年就要实现\n它的影响堪比人类发现“火”和“电”\nAGI 带来的冲击可能是工业革命的 10 倍速度和 10 倍规模\n目前全球正陷入一场极其激烈的商业和地缘政治竞赛\n\n为了不让技术失控，他提议美国带头建立一个动态、灵活且严格的“标准制定机构\n\n怎么管理：达到一定跑分门槛的 AI 模型叫“前沿级模型”，研发它的公司叫“前沿实验室”。这些实验室发布新模型前，得提前 30 天自愿把模型交给这个机构体检。\n\n体检考什么：\n\n考网络安全、生物武器威胁等高危防御。\n\n防“AI 叛变”：专门测试 AI 会不会绕过安全护栏，或者有没有“欺骗人类”的迹象。\n\n强制要求：AI 生成的图片必须加数字水印，AI 的思考过程必须生成人类能看懂的符号。\n\n通过检测的才能进入美国市场：\n\n前沿模型必须通过评估，才能在美国市场部署。\n\n若事态足够严重，框架可再升级，包括协调前沿实验室之间放慢开发发布节奏，甚至停止开发...",
-      "summary": "作者转述 DeepMind 首席执行官观点：通用人工智能几年内大概率到来、冲击可能十倍于工业革命；建议美国牵头建灵活严格的标准机构，对达门槛的前沿模型自愿提前 30 天送检，考核网络安全、生物威胁、欺骗/越狱与水印等，通过后方可进入美国市场，极端情况下可协调放缓甚至停发。",
-      "url": "https://x.com/i/status/2077032792106672318",
-      "created_at": "2026-07-14T14:09:41Z",
-      "likes": 16,
-      "views": "9400",
-      "has_media": true,
-      "media_urls": [
-        "https://pbs.twimg.com/media/HNMaCGTa0AAFBDH.jpg"
-      ],
-      "score": 10.32,
-      "recommend_reason": "中文高质量政策转述，把“发布前体检”框架讲清楚，适合对照后续监管动向。",
-      "tags": [
-        "DeepMind",
-        "治理",
-        "前沿模型",
-        "安全"
-      ],
-      "title": "DeepMind CEO 提议前沿模型发布前 30 天送检"
-    },
-    {
-      "rank": 11,
-      "id": "2077060563666866491",
-      "author": "nvidia",
-      "author_bio": "The official handle for NVIDIA. Blog: https://t.co/JAn5eKOTBT Support: https://t.co/6ln5FVnA2o All our social media: https://t.co/Uc56dL57Dh",
-      "text": "⚡ Performance per watt is the foundational metric for every AI factory today operating in a power-constrained environment. 🧵 https://t.co/MjKyT704zf",
-      "summary": "英伟达称，在电力受限环境下运行的每座人工智能工厂，每瓦特性能都是基础度量，并配线索引申相关讨论。",
-      "url": "https://x.com/i/status/2077060563666866491",
-      "created_at": "2026-07-14T16:00:02Z",
-      "likes": 12,
-      "views": "5285",
-      "has_media": true,
-      "media_urls": [
-        "https://pbs.twimg.com/media/HNMzkmjXMAAMctc.jpg"
-      ],
-      "score": 10.24,
-      "recommend_reason": "算力侧核心口径再强调：比绝对算力更关键的是能效，影响机房与选型账本。",
-      "tags": [
-        "NVIDIA",
-        "能效",
-        "算力",
-        "基建"
-      ],
-      "title": "英伟达：瓦特性能是人工智能工厂的基础指标"
-    },
-    {
-      "rank": 12,
-      "id": "2077046461477597254",
-      "author": "dingyi",
-      "author_bio": "promote your product  ‣ dingyi@me.com\nnewsletter ‣ https://t.co/q1JG1yCzdb\nrefine your startup ‣ https://t.co/FfUYboxOr5\nnewest product ‣ https://t.co/cP6NQ3keo",
-      "text": "我靠，之前特别喜欢的笔记软件 Reflect 开源改成本地版了，当年我可是花钱订阅了好久。它和 Logseq 类似，我一直认为这种模式的笔记写作体验比 Obsidian 舒服多了。\n\nhttps://t.co/0Oqy8tMZ00",
-      "summary": "作者称以前付费订阅的笔记软件 Reflect 已开源并改本地版，体验类似 Logseq，他认为这种模式的写作体验比 Obsidian 更舒服。",
-      "url": "https://x.com/i/status/2077046461477597254",
-      "created_at": "2026-07-14T15:04:00Z",
-      "likes": 10,
-      "views": "1486",
-      "has_media": false,
-      "media_urls": [],
-      "score": 10.2,
-      "recommend_reason": "知识库/笔记链路选型信号：付费 SaaS 转开源本地，对做第二脑的人很相关。",
-      "tags": [
-        "笔记",
-        "开源",
-        "知识管理"
-      ],
-      "title": "笔记应用 Reflect 开源并改本地版"
-    },
-    {
-      "rank": 13,
-      "id": "2077028686000464357",
-      "author": "vista8",
-      "author_bio": "喜欢摇滚乐、爱钓鱼的PM",
-      "text": "为什么很多国产模型API的 temperature 不允许自定义了？\n\n是因为蒸馏的原因吗？",
-      "summary": "作者提问：为何很多国产模型接口不允许自定义采样温度？是不是蒸馏导致的？",
-      "url": "https://x.com/i/status/2077028686000464357",
-      "created_at": "2026-07-14T13:53:22Z",
-      "likes": 8,
-      "views": "11104",
-      "has_media": false,
-      "media_urls": [],
-      "score": 10.16,
-      "recommend_reason": "短而尖锐的工程问题，做国内模型接口对接时容易踩坑，值得记下。",
-      "tags": [
-        "国产模型",
-        "API",
-        "采样温度"
+        "Codex",
+        "Worktree",
+        "自动化"
       ]
     },
     {
-      "rank": 14,
-      "id": "2077046040562458704",
-      "author": "xiaoxiaodong01",
-      "author_bio": "国际，不知名，顶级图片提示词专家\n遇事不决 可问东风\n月亮岛边上的AI爱好者 星球+\nWeChat:：newbe2012",
-      "text": "GPT2 x 饮料 x 海报 x 进化 x 美学提示词\n\n这两天掉了至少100根头发\n\n趁着额度升级了自己的各种提示词\n有成果了：比如这两个，构图就很稳了！\n\n而不是之前1.0版本的各种不舒适\n\n果然，想到就能做到的感觉\n真是这个时代，最幸福的事情之一~\n\n样图是我最爱的星冰乐，提示词在ALT中 https://t.co/1tZRVMP4fb",
-      "summary": "作者在额度升级后重做提示词体系，以饮料海报为例展示新版构图更稳，不再像 1.0 版本各种别扭，并称“想到就能做到”是这个时代的幸福之一。",
-      "url": "https://x.com/i/status/2077046040562458704",
-      "created_at": "2026-07-14T15:02:20Z",
-      "likes": 7,
-      "views": "437",
+      "rank": 10,
+      "id": "2077206511257014700",
+      "author": "lixinbao_X",
+      "author_bio": "原金融从业者，现在基本全职自媒体人，使用AI技术赋能，2025年5月份到现在粉丝从零涨到：微信视频号 40 万，抖音25 万，B站 2 万，小红书 6 万。百度1.5万，快手及其他加总还有 2 万左右。全网粉丝数破 75 万。 我会在这里分享我作品，及相关制作经验技巧和心得。",
+      "text": "Codex又又又重置额度了\n\nCodex的用户已经突破了 800 万\n\n如果你在用Codex你就已经超过全球 80 亿人了\n\n因为全球总人口 80.1 亿人\n\n超过 99.9 的人了",
+      "summary": "作者称 Codex 再次重置额度，用户已突破八百万；并用全球人口八十一亿调侃：在用 Codex 的人已超过全球绝大多数人。",
+      "url": "https://x.com/i/status/2077206511257014700",
+      "created_at": "2026-07-15T01:39:59Z",
+      "likes": 12,
+      "views": "2073",
+      "has_media": false,
+      "media_urls": [],
+      "score": 10.3,
+      "recommend_reason": "产品渗透与额度政策的即时信号，判断生态热度时可用。",
+      "tags": [
+        "Codex",
+        "增长",
+        "额度"
+      ],
+      "title": "Codex 用户破八百万，额度再次重置"
+    },
+    {
+      "rank": 11,
+      "id": "2077231238440780100",
+      "author": "op7418",
+      "author_bio": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design）\n\n歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "text": "Codex 增长真猛啊，前几天才 700 万这就 800 万周活了\n\n顺便，又重置了，送的手动重置次数我都没用，看了一下现在有四次 https://t.co/4ltpYXmDQe",
+      "summary": "作者感叹 Codex 增长猛：前几天才七百万周活，现已八百万，且额度又重置；自己还没用手动重置次数，账户里仍有四次。",
+      "url": "https://x.com/i/status/2077231238440780100",
+      "created_at": "2026-07-15T03:18:14Z",
+      "likes": 8,
+      "views": "2748",
       "has_media": true,
       "media_urls": [
-        "https://pbs.twimg.com/media/HNMlzShaYAAU-64.jpg",
-        "https://pbs.twimg.com/media/HNMl8R8aUAA4guT.jpg"
+        "https://pbs.twimg.com/media/HNPOkpubcAAMM6W.jpg"
       ],
-      "score": 10.14,
-      "recommend_reason": "中文创作者一线提示词迭代笔记，做视觉生成的人可对照自己的版本管理习惯。",
+      "score": 10.2,
+      "recommend_reason": "与上条互相印证的增长与额度数据点，适合并读。",
       "tags": [
-        "提示词",
-        "海报",
-        "生成设计"
+        "Codex",
+        "周活",
+        "额度"
       ],
-      "title": "用升级后的美学提示词稳定海报构图"
+      "title": "Codex 周活从七百万冲到八百万并再次重置额度"
+    },
+    {
+      "rank": 12,
+      "id": "2077213369895968878",
+      "author": "vista8",
+      "author_bio": "喜欢摇滚乐、爱钓鱼的PM",
+      "text": "刚开发找片网站，不知道看啥时点一下就行：\n\nhttps://t.co/0kLsLZexxQ\n\n支持自然语言对话找片，再次感谢Deepseek，v4 flash太便宜了。\n\n所以现在做的不少站，都加上了一点AI功能。 https://t.co/N7pO9HZQ5o",
+      "summary": "作者刚做了个找片网站，支持自然语言对话推荐影片，并感谢 DeepSeek，称 v4 flash 成本很低，因此自己不少站点都开始加一点人工智能功能。",
+      "url": "https://x.com/i/status/2077213369895968878",
+      "created_at": "2026-07-15T02:07:14Z",
+      "likes": 18,
+      "views": "3467",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNO-A3GWkAAH2va.jpg"
+      ],
+      "score": 10.45,
+      "recommend_reason": "低成本模型驱动的小产品样本，说明“站里加一点 AI”门槛已很低。",
+      "tags": [
+        "DeepSeek",
+        "产品",
+        "自然语言"
+      ],
+      "title": "用 DeepSeek 自然语言做找片站，作者称 v4 flash 很便宜"
+    },
+    {
+      "rank": 13,
+      "id": "2077220858649796725",
+      "author": "JulianGoldieSEO",
+      "author_bio": "Make money with AI 👉 https://t.co/Ppmk5h9rw3\nFree SEO Strategy Session → https://t.co/wRv8ROcoTP",
+      "text": "GOOGLE AI STUDIO JUST REMOVED ITS BIGGEST LIMITATION\n\nYou can now revive an old app, website, or dashboard without rebuilding it from scratch.\n\nThe New Workflow:\n\n→ Click “Import from GitHub”\n\n→ Select your existing repository\n\n→ AI Studio pulls in the full project structure, including the front end and back end\n\nWhat This Unlocks:\n\n✓ Fix old projects that have been collecting dust\n\n✓ Build with Claude Code or Cursor, then polish the project with Gemini\n\n✓ Hand projects between team members without explaining every line of code\n\nEven non-coders can import an existing website and ask:\n\n“Make this mobile-friendly.”\n\n“Add a contact form.”\n\n“Clean up this signup page.”\n\nOne warning: start with a small landing page or simple tool.\n\nGoogle says large projects, complex dependencies, and database connections may still have import issues.\n\nThe smartest move today:\n\nFind one abandoned GitHub project, import it into AI Studio, and ask Gemini what it would improve.",
+      "summary": "作者称谷歌人工智能工作室去掉大限制：可从 GitHub 导入已有应用、网站或仪表盘，不必从零重建；适合修旧项目、与 Claude Code/Cursor 交接，非程序员也能提移动端适配、表单等需求。大仓库与复杂依赖仍可能导入失败，建议从小项目试起。",
+      "url": "https://x.com/i/status/2077220858649796725",
+      "created_at": "2026-07-15T02:37:00Z",
+      "likes": 5,
+      "views": "1390",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2076994265818058752/vid/avc1/480x270/fKXATWvrryeLJ93B.mp4?tag=28"
+      ],
+      "score": 10.12,
+      "recommend_reason": "降低“盘活死项目”成本的具体功能点，有 GitHub 遗留库的人可当天试。",
+      "tags": [
+        "Google",
+        "AI Studio",
+        "GitHub",
+        "低代码"
+      ],
+      "title": "谷歌人工智能工作室可从 GitHub 导入旧项目直接改造"
+    },
+    {
+      "rank": 14,
+      "id": "2077196449582829634",
+      "author": "JulianGoldieSEO",
+      "author_bio": "Make money with AI 👉 https://t.co/Ppmk5h9rw3\nFree SEO Strategy Session → https://t.co/wRv8ROcoTP",
+      "text": "Claude Code has one of the best agent harnesses.\n\nGPT-5.6 has one of the strongest coding brains.\n\nSo I plugged them into each other.\n\nThe result is what I call the Dual Engine Coder. https://t.co/Aw1LN6YTEg",
+      "summary": "作者认为 Claude Code 的智能体驾驭层很强、GPT-5.6 编码脑力很强，于是把两者接在一起，自称“双引擎编码器”，并附演示链接。",
+      "url": "https://x.com/i/status/2077196449582829634",
+      "created_at": "2026-07-15T01:00:00Z",
+      "likes": 5,
+      "views": "1602",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2076986684538007552/vid/avc1/480x270/L8N_xHIYEyX6OIMJ.mp4?tag=28"
+      ],
+      "score": 10.12,
+      "recommend_reason": "多模型分工的具体拼法，值得看他们如何接 harness 与模型。",
+      "tags": [
+        "Claude Code",
+        "GPT-5.6",
+        "Agent",
+        "双模型"
+      ],
+      "title": "把 Claude Code 的 harness 与 GPT-5.6 编码脑力拼成双引擎"
     },
     {
       "rank": 15,
-      "id": "2077038283142418495",
-      "author": "JulianGoldieSEO",
-      "author_bio": "Make money with AI 👉 https://t.co/Ppmk5h9rw3\nFree SEO Strategy Session → https://t.co/wRv8ROcoTP",
-      "text": "99% of coding tools are too hard for normal business owners. The new Codex update is the 1%.\n\nYou do not need to know how to write code to use it.\n\nOpenAI just added a crazy new remote feature.\n\nYou connect your phone to your computer with a simple QR code.\n\nThen you tell it to build a sales page or sort your customer questions.\n\nIt breaks the big job into tiny pieces and does the work on its own.\n\nIt only stops to ask you for permission before it changes a file.\n\nYou get to approve real work from your phone while sitting in your car.\n\nStop letting the tech overwhelm you and start getting your time back.\n\nWe show you exactly how to set this up step-by-step inside the AI Success Lab.",
-      "summary": "作者称 OpenAI Codex 新远程能力让非程序员也能用：手机与电脑二维码连接后，可让它拆任务做销售页、整理客户问题等，改文件前会请求授权，人在车上也能审批。",
-      "url": "https://x.com/i/status/2077038283142418495",
-      "created_at": "2026-07-14T14:31:30Z",
-      "likes": 1,
-      "views": "1372",
+      "id": "2077215947270566365",
+      "author": "VigoCreativeAI",
+      "author_bio": "Designer × AI Engineer | Ambassador @Alibaba_Qwen | Cut e-commerce AI costs ~60%｜Reverse-engineering prompts from a single image",
+      "text": "极限运动海报的字，通常是趴在照片上做装饰。\n\n这 4 张反过来：字变成了墙，人从墙里冲出来。\n\nBMX、街舞、鼓手、跑酷——每张只留一个决定性瞬间；三行森林绿巨字撑起整堵墙；一条荧光青柠色曲线绕在人身前又拐到人身后，把字和人缝成一层立体。\n\n纯白 + 三行巨字 + 一条青柠线 + 一个真人，四色，只换主体、动作、道具和主标题。中文 Prompt 模板放在第一条回复👇\n\n如果只选一份继续扩写：BMX 空中回转、街舞单手支撑、鼓手连击，还是跑酷跃过？",
+      "summary": "作者展示四张极限运动海报：字变成墙、人从墙中冲出；纯白底、三行森林绿巨字、一条荧光青柠曲线缝合人与字，只换主体动作与标题，并预告中文提示词模板。",
+      "url": "https://x.com/i/status/2077215947270566365",
+      "created_at": "2026-07-15T02:17:29Z",
+      "likes": 6,
+      "views": "260",
       "has_media": true,
       "media_urls": [
-        "https://video.twimg.com/amplify_video/2077037735768965120/vid/avc1/480x270/snDiSmQMJijPiHDM.mp4?tag=28"
+        "https://pbs.twimg.com/media/HNPA5WiWgAAt3KV.jpg",
+        "https://pbs.twimg.com/media/HNPA5UBXQAABzxz.jpg",
+        "https://pbs.twimg.com/media/HNPA5UVWUAAs0Yy.jpg",
+        "https://pbs.twimg.com/media/HNPA5W-W8AASl1K.jpg"
       ],
-      "score": 10.02,
-      "recommend_reason": "远程 agent 审批流是新交互范式，对想把 coding agent 用进日常业务的人有启发。",
+      "score": 10.15,
+      "recommend_reason": "可复用的视觉提示词结构，做海报/社媒图的人能直接抄骨架。",
       "tags": [
-        "Codex",
-        "远程",
-        "Agent",
-        "产品更新"
+        "提示词",
+        "海报",
+        "视觉设计"
       ],
-      "title": "Codex 更新：手机扫码远程指挥电脑做任务"
+      "title": "极限运动海报：字变墙、人从墙里冲出的四色构图法"
     },
     {
       "rank": 16,
-      "id": "2077045558091698180",
-      "author": "JulianGoldieSEO",
-      "author_bio": "Make money with AI 👉 https://t.co/Ppmk5h9rw3\nFree SEO Strategy Session → https://t.co/wRv8ROcoTP",
-      "text": "NEW Google IO Update DESTROYS SEO 🤯\n\nGoogle just changed AI SEO forever at Google IO 2026. 🚨\n\nThe biggest shift in 25 years:\n\n→ Information Agents — AI scans the web 24/7, pushes results to users automatically → AI Mode — 1 billion monthly users, doubling every quarter → Agentic Booking — Google's agents literally call businesses on users' behalf → Generative UI — Google builds custom dashboards from your content\n\nWhat ranks now: trust + context + specificity.\n\nWhat gets buried: thin generic content, short keyword pages, websites with no schema markup.\n\nThe gap closes fast. Adapt now or get skipped. 🎯\n\nWant the SOP? DM me. 💬",
-      "summary": "作者总结谷歌 2026 输入输出大会相关变化：信息代理全天扫描推送、人工智能模式月活约十亿且季度翻倍、代理代订、生成式界面等；并称排名更重信任与上下文，薄内容与无结构化数据会被埋。",
-      "url": "https://x.com/i/status/2077045558091698180",
-      "created_at": "2026-07-14T15:00:25Z",
-      "likes": 1,
-      "views": "1073",
+      "id": "2077233890914381870",
+      "author": "SjwEsther",
+      "author_bio": "在做@ColaOSofficial 的增长，也在和我的agent一起生活～build了很多可爱又实用的东西🥰建筑转行AI的行动派！全网4w+粉，✍️github→esthersjw/🤳shenbuer",
+      "text": "用上了 @iamcora13 的图文排版工具！丝滑！这下我做Cola的图文产能将要起飞了，我根据我自己的工作流复刻调整了一下，把我的 Obsidian 接进来了。\n\n因为 Obsidian 本身的图片是链接形式，在我现在的这个模式下，你直接在 Obsidian 里面插入图片，不用管它是什么样的，直接把全文复制粘贴过来，就可以直接看到图片了，特别方便，直接一键导出，爽飞～再次感恩捏捏番茄的开源！\n\n仓库在⬇️",
+      "summary": "作者用开源图文排版工具并接上自己的 Obsidian 工作流：笔记里图片是链接也能粘贴后直接看见，一键导出，并感谢原作者开源。",
+      "url": "https://x.com/i/status/2077233890914381870",
+      "created_at": "2026-07-15T03:28:47Z",
+      "likes": 4,
+      "views": "119",
       "has_media": true,
       "media_urls": [
-        "https://video.twimg.com/amplify_video/2077044532118691841/vid/avc1/480x270/1NYXG6r2PfQq9nbX.mp4?tag=28"
+        "https://pbs.twimg.com/media/HNPPsbzbAAAlGy-.jpg"
       ],
-      "score": 10.02,
-      "recommend_reason": "偏营销口吻但仍有可核对要点，做内容/搜索策略的人可当线索清单去官方交叉验证。",
+      "score": 10.1,
+      "recommend_reason": "内容产能工具链升级样本，尤其适合 Obsidian 用户。",
       "tags": [
-        "Google",
-        "SEO",
-        "Agent",
-        "搜索"
+        "Obsidian",
+        "图文",
+        "开源",
+        "工作流"
       ],
-      "title": "谷歌输入输出大会后的人工智能搜索与代理变化"
+      "title": "图文排版工具接入 Obsidian：粘贴全文即可带图导出"
     },
     {
       "rank": 17,
-      "id": "2077056364908814493",
-      "author": "lixinbao_X",
-      "author_bio": "原金融从业者，现在基本全职自媒体人，使用AI技术赋能，2025年5月份到现在粉丝从零涨到：微信视频号 40 万，抖音25 万，B站 2 万，小红书 6 万。百度1.5万，快手及其他加总还有 2 万左右。全网粉丝数破 75 万。 我会在这里分享我作品，及相关制作经验技巧和心得。",
-      "text": "关于素材库的构建与使用，我的具体流程如下：\n\n1. 素材库的构建与管理\n(a) 素材获取：我让 Codex 在网上寻找公开版权、可商用的素材，并在本地构建了一个素材库，目前累计规模已达到 100G 左右。\n(b) 片段处理：每一段视频会被处理成 6 秒钟左右的片段。\n(c) 身份证与索引：Codex 会为每个片段制作一个“身份证”，包含所有的详细文本信息。同时，整个素材库还有一个索引文件。\n\n2. 视频调用与合成\n在调用视频时，系统会先读取索引文件，按图索骥找到相应的 6 秒钟视频片段，然后将其插入到整个背景视频中。\n\n3. 特殊镜头的定制与复用\n(a) 定制生成：对于需要定制的特殊镜头，我会让 Codex 生成分镜头图片，再使用 Group 进行图生动画（一般生成 6 秒钟）。\n(b) 自动归类与复用：生成并使用该视频后，它会自动归类到素材库中，并同步建立好“身份证”信息和索引。这样能保证素材不是一次性的，以后可以被其他视频片段复用。这样一来，素材会越累积越多，后期需要调用“图生视频”功能的需求就会越来越少。因为我做的主要是健康跑步类的视频，很多动作其实都是重复的，大量的视频都可以用重复的动作来演示。\n\n这样素材库就比较好管理，也不t需特别庞大的素材库，因为相对来讲，我有很多的素材镜头是可以重复使用的。",
-      "summary": "作者详述素材库流程：让 Codex 找可商用素材并在本地做到约 100G；视频切成约 6 秒片段并写文本“身份证”与总索引；调用时按索引插入；特殊镜头用 Codex 出分镜再图生动画，用完自动回库复用，减少重复图生视频。",
-      "url": "https://x.com/i/status/2077056364908814493",
-      "created_at": "2026-07-14T15:43:21Z",
-      "likes": 1,
-      "views": "28",
-      "has_media": false,
-      "media_urls": [],
-      "score": 10.02,
-      "recommend_reason": "完整可抄的 agent+素材工程实践，做短视频生产线的人能直接借鉴。",
+      "id": "2077229380254970241",
+      "author": "dontbesilent",
+      "author_bio": "💡 商业哲学爱好者\n💻 开源了我的商业/内容方法论：dbskill\n📱 抖音/小红书/视频号：dontbesilent 聊赚钱\n🎟️ 7.31 上海线下课：微信 dbs2408",
+      "text": "翻了一下自己的抖音，已经 39 天没有写过稿子了\n\n上次写稿子发视频还是 6 月 6 号，之后竟然一次都没写过 ……\n\n前几天机场随手拍了一条，现在 14 万播放\n\n昨天晚上在车里一时兴起拍了一条，现在 6 万播放，总播放量估计搞个 30 万没问题\n\n去年就思考过如何才能日更，大概到去年下半年就具备了这个能力，但是是以耽误其他工作为代价的\n\n现在是彻底实现不耽误其他任何事，可以实现日更了\n\n依然没有「编导」这个岗位，剪辑、拍摄、封面、标题，都是我自己（还有 codex）\n\n不用 pocket、不戴麦克风，前置摄像头拍完，就硬发\n\n正常来讲，我应该在文字末尾给大家传授一个技巧，想想也没什么可说的\n\n拍 200 条，无师自通",
+      "summary": "作者翻抖音发现近三十九天没写稿，随手拍却有可观播放；称现已能不耽误其他工作日更，无编导岗位，剪辑拍摄封面标题由自己与 Codex 完成，前置摄像头拍完就发。",
+      "url": "https://x.com/i/status/2077229380254970241",
+      "created_at": "2026-07-15T03:10:51Z",
+      "likes": 11,
+      "views": "919",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNPMzsRaMAA_bBR.png"
+      ],
+      "score": 10.28,
+      "recommend_reason": "创作者用 coding agent 扛制作链路的真实状态，观察“内容×Agent”落地。",
       "tags": [
         "Codex",
-        "视频",
-        "素材库",
-        "工作流"
+        "内容创作",
+        "日更"
       ],
-      "title": "用 Codex 建可复用视频素材库：切片、索引、图生动画"
+      "title": "三十九天没写稿后靠随手拍恢复日更，剪辑仍靠自己与 Codex"
     },
     {
       "rank": 18,
-      "id": "2077058435305337198",
-      "author": "vista8",
-      "author_bio": "喜欢摇滚乐、爱钓鱼的PM",
-      "text": "《世界游戏大全51》中的猜颜色游戏特别好玩，然后用AI Coding复刻了一个。\n\n原来这个游戏叫Mastermind。\n\n用Threejs 做3D效果，交互上也可以利用鼠标优势。\n\n等测试好了开源。 https://t.co/8QhTSp86hY",
-      "summary": "作者玩《世界游戏大全 51》里的猜颜色游戏后用人工智能编程复刻，得知原名 Mastermind，用 Three.js 做三维与鼠标交互，测试完计划开源。",
-      "url": "https://x.com/i/status/2077058435305337198",
-      "created_at": "2026-07-14T15:51:35Z",
-      "likes": 1,
-      "views": "499",
+      "id": "2077219839626641676",
+      "author": "elonmusk",
+      "author_bio": "Starmind",
+      "text": "Grok 4.5 is worth trying",
+      "summary": "埃隆·马斯克发短帖：格罗克 4.5 值得一试。",
+      "url": "https://x.com/i/status/2077219839626641676",
+      "created_at": "2026-07-15T02:32:57Z",
+      "likes": 2977,
+      "views": "890528",
+      "has_media": false,
+      "media_urls": [],
+      "score": 22.5,
+      "recommend_reason": "官方级一句话安利，热度高，适合当版本尝鲜提醒。",
+      "tags": [
+        "Grok",
+        "xAI",
+        "产品"
+      ]
+    },
+    {
+      "rank": 19,
+      "id": "2077207365213155726",
+      "author": "xiaohu",
+      "author_bio": "带你了解全球最前沿科技、AI动态...\n\nAI 精华，讲到你懂：https://t.co/nvuDIvoNg1",
+      "text": "他妈的，天塌了\n\nGPT 这么快就被污染了\n\n龟儿子把Token翻译成词元了\n\n草他妈的... https://t.co/XIj777MpCo",
+      "summary": "作者吐槽 GPT 中文界面把 Token 译成“词元”，情绪激动地表示模型/产品本地化被“污染”。",
+      "url": "https://x.com/i/status/2077207365213155726",
+      "created_at": "2026-07-15T01:43:23Z",
+      "likes": 55,
+      "views": "17707",
       "has_media": true,
       "media_urls": [
-        "https://pbs.twimg.com/media/HNMxoVvaAAAc9Dx.jpg"
+        "https://pbs.twimg.com/media/HNO40_uacAAov1f.jpg"
       ],
-      "score": 10.02,
-      "recommend_reason": "小而完整的 AI Coding 复刻案例，适合当周末练手选题。",
+      "score": 11.38,
+      "recommend_reason": "中文本地化翻车的现场情绪，做中文产品文案的人可当反面教材。",
       "tags": [
-        "AI Coding",
-        "开源",
-        "游戏",
-        "Three.js"
-      ],
-      "title": "用人工智能编程复刻 Mastermind 猜色游戏并准备开源"
+        "本地化",
+        "GPT",
+        "体验"
+      ]
+    },
+    {
+      "rank": 20,
+      "id": "2077222316355018918",
+      "author": "sunyuchentron",
+      "author_bio": "👨‍💻 企业家 | 🤵‍♂️ 外交官 | 👨‍🚀 宇航员 #712 | 🍌 艺术收藏家 | 创始人 @trondaoCN | 顾问 https://t.co/UaNI0eB7Vc https://t.co/KLklaEG0qB https://t.co/Hkyam1WH8d | 英文@justinsuntron",
+      "text": "GPT 5.6现已上线https://t.co/4Rv5K8ISNI",
+      "summary": "作者短讯：GPT 5.6 现已上线，并附链接。",
+      "url": "https://x.com/i/status/2077222316355018918",
+      "created_at": "2026-07-15T02:42:47Z",
+      "likes": 5,
+      "views": "5027",
+      "has_media": false,
+      "media_urls": [],
+      "score": 10.12,
+      "recommend_reason": "版本上线速报，适合点进链接核对渠道是否官方。",
+      "tags": [
+        "GPT-5.6",
+        "上线"
+      ]
     }
   ]
 }
