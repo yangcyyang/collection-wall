@@ -9,6 +9,336 @@
   },
   "items": [
     {
+      "id": "2077782120232350205",
+      "author": "levie",
+      "author_bio": "ceo @box - your business lives in content. unleash it with AI",
+      "text": "Here’s another awesome use-case for what we can now do with our unstructured data because of AI agents. \n\nBox now works with Databricks so you can take structured data from enterprise content (like contracts, financial document, supply chain data) and connect that data into Databricks. \n\nThis means that I can now query large document datasets without moving or reprocessing that content. And you can connect the data with any other system, like your ERP data, CRM, or product analytics. This opens up a ton of new use-cases for enterprise content. \n\nAll possible because of headless software and agents.",
+      "url": "https://x.com/i/status/2077782120232350205",
+      "created_at": "2026-07-16T15:47:15Z",
+      "likes": 15,
+      "views": "4293",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "Box CEO 称因 AI agent 与无头软件，Box 现可与 Databricks 打通：合同、财务、供应链等企业内容抽出结构化数据后接入 Databricks，无需搬迁或重处理即可查询，并与 ERP/CRM/产品分析等系统连接，打开企业内容新用例。",
+      "recommend_reason": "企业内容库与湖仓直连，是 agent 时代数据底座的具体产品形态。",
+      "tags": [
+        "Agent",
+        "企业AI",
+        "Box",
+        "Databricks"
+      ],
+      "title": "Box × Databricks：企业非结构化内容可直接接进数仓查询",
+      "rank": 1
+    },
+    {
+      "id": "2077781824026079649",
+      "author": "VigoCreativeAI",
+      "author_bio": "Designer × AI Engineer | Ambassador @Alibaba_Qwen | Cut e-commerce AI costs ~60%｜Reverse-engineering prompts from a single image",
+      "text": "Called it this afternoon. K3 went live tonight.\n\nOpened Kimi and the model picker tells the story before any press release does:\n\n▸ K3 · Max — chat & agent, flagship all-rounder\n▸ K3 Swarm · Max — massive parallel search + batch processing in one session\n▸ Up to 1M context\n\nBut the real signal isn't the specs. It's the new homepage line: \"Hey work, let's build something.\"\n\nThis isn't a bigger chatbot. It's Kimi repositioning as an agent workbench — one model you talk to, one swarm you delegate to.\n\nFor creators, \"batch processing\" is the phrase to watch. Style validation, prompt matrices, mass variations — everything we run serially today is exactly what a swarm parallelizes.\n\nEarly testers are putting it at Opus-tier, some runs touching Fable territory. No official model card yet, so file that under vibes — but the vibes are loud.\n\nRunning my pipeline tests on Swarm mode tonight. Breakdown this week.\n\nThat \"3\" was never subtle. Neither is this.",
+      "url": "https://x.com/i/status/2077781824026079649",
+      "created_at": "2026-07-16T15:46:04Z",
+      "likes": 2,
+      "views": "310",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNXDjNFXkAAKQu1.jpg"
+      ],
+      "summary": "作者称下午就预判晚上 K3 上线：选择器显示 K3 Max（对话与 agent 旗舰）与 K3 Swarm Max（海量并行搜索+批处理），上下文最高 1M。真正信号是主页「Hey work, let's build something」——Kimi 在把自己定位成 agent 工作台，而不是更大聊天机器人。创作者应盯 batch/swarm 并行；早期测试有人放到 Opus 档甚至摸到 Fable，尚无官方 model card。",
+      "recommend_reason": "从产品壳与双形态读 Kimi 战略，比单纯参数传闻更可操作。",
+      "tags": [
+        "Kimi K3",
+        "Agent",
+        "Swarm",
+        "产品"
+      ],
+      "title": "Kimi K3 上线：Max / Swarm 双形态，主页文案已转向 agent 工作台",
+      "rank": 2
+    },
+    {
+      "id": "2077781034868130064",
+      "author": "disinfeqt",
+      "author_bio": "designer, developer, cofounder @dinehq\nmaking https://t.co/PLpmMLA9bD / https://t.co/EinMd5Kkuz / https://t.co/mKAha6OC2n",
+      "text": "最近两个例子还是感受到了 Fable 5 的实力，一个是 Mise 中假期 OOO 的设计，之前的模型都没法让跨天的横条完美显示；另一个是 Poche 的 SPA+SSR 的混合架构。这些问题不算难，每一代模型我都会问一次，但只有 Fable 是一次搞定的。",
+      "url": "https://x.com/i/status/2077781034868130064",
+      "created_at": "2026-07-16T15:42:56Z",
+      "likes": 1,
+      "views": "79",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "最近两个例子还是感受到了 Fable 5 的实力，一个是 Mise 中假期 OOO 的设计，之前的模型都没法让跨天的横条完美显示；另一个是 Poche 的 SPA+SSR 的混合架构。这些问题不算难，每一代模型我都会问一次，但只有 Fable 是一次搞定的。",
+      "recommend_reason": "用真实产品边角 case 对比代际，比榜单更能说明“一次做对”的差异。",
+      "tags": [
+        "Fable 5",
+        "编程模型",
+        "前端",
+        "架构"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2077780623872196758",
+      "author": "goodside",
+      "author_bio": "Screenshots of chatbots since 2022.\nFormerly: Google DeepMind, Scale.",
+      "text": "The video was created simply by providing feedback on Claude's iterative attempts at the video, without any guidance on the technical aspects of how to create it. See here for the prompts: https://t.co/u12omE0Qvg",
+      "url": "https://x.com/i/status/2077780623872196758",
+      "created_at": "2026-07-16T15:41:18Z",
+      "likes": 1,
+      "views": "417",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "作者说明该视频是通过不断给 Claude 的视频尝试提供反馈完成的，并未指导如何在技术层面制作；并附上提示词链接。",
+      "recommend_reason": "补全上一条：成片路径是自然语言迭代，而不是剪辑软件说明书。",
+      "tags": [
+        "Claude Fable 5",
+        "视频生成",
+        "提示词"
+      ],
+      "title": "Fable 5 视频只靠迭代反馈，不讲技术细节也能成片",
+      "rank": 4
+    },
+    {
+      "id": "2077779745165672685",
+      "author": "LufzzLiz",
+      "author_bio": "用代码表达思想，用 AI 拓展想象，从生活汲取能量。\n探索阅读与创造的边界。输出有温度的洞察。 致力于降低 AI 使用门槛，让更多人受益。\n某大厂架构师-多模态、模型私有化领域\n关注AI产品、AI结合教育、艺术创作领域\n📮: lanshulan007@gmail.com",
+      "text": "Kimi-K3 确实不错，测评下来感觉与海外SOTA模型差距是在缩小的，恭喜Kimi-K3 和GLM-5.2 ,国产之光。\n就是跑的有点慢，还特意充了钱，才把我的测评任务跑完！\n\n其中，托举大力神杯这个测评我觉得kimi-k3做很好，仅次于fable-5 👍 https://t.co/lskb0pFoig",
+      "url": "https://x.com/i/status/2077779745165672685",
+      "created_at": "2026-07-16T15:37:49Z",
+      "likes": 3,
+      "views": "842",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2077778865515311104/vid/avc1/518x270/eY5rpDchxDU6PC3K.mp4?tag=29"
+      ],
+      "summary": "Kimi-K3 确实不错，测评下来感觉与海外SOTA模型差距是在缩小的，恭喜Kimi-K3 和GLM-5.2 ,国产之光。就是跑的有点慢，还特意充了钱，才把我的测评任务跑完！其中，托举大力神杯这个测评我觉得kimi-k3做很好，仅次于fable-5 👍",
+      "recommend_reason": "自测体感+速度槽点并存，对 K3/GLM-5.2 的落地预期更诚实。",
+      "tags": [
+        "Kimi K3",
+        "GLM-5.2",
+        "评测",
+        "国产模型"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2077778714377756747",
+      "author": "jxnlco",
+      "author_bio": "vibes @openai",
+      "text": "new algo, same me\n\ni’m jason. i work on developer experience for Codex at OpenAI. before that, i built Instructor and spent a lot of time helping people use language models to build real things.\n\nthese days, my job is somewhere between talking to developers, finding the interesting things people are building, fixing what feels broken, and working with Creative to tell those stories a little better.\n\ni’m especially excited about voice. talking to your computer should feel as natural as thinking out loud, whether you’re writing code, making something, or halfway through another task.\n\nthings you’ll get from me:\n• Codex experiments, tips, skills, and questionable automations\n• people using coding agents for art, music, hardware, and other unexpected things\n• developer feedback, open source, and whatever still feels painful\n• occasional attempts to learn something new\n\nthings i want from you: what are you building? what should Codex do better? anyone using agents with, music, or other creative tools?\n\nreply and introduce yourself 👇",
+      "url": "https://x.com/i/status/2077778714377756747",
+      "created_at": "2026-07-16T15:33:43Z",
+      "likes": 160,
+      "views": "4806",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "Jason 宣布加入 OpenAI 做 Codex 开发者体验：此前做 Instructor、帮人用语言模型落地；现在介于跟开发者聊天、找有趣项目、修体验痛点、和 Creative 讲故事之间。他尤其看好语音交互，计划分享 Codex 实验/技巧/skill、创意向 coding agent、开源反馈，并征求大家在建什么、Codex 该更好哪里。",
+      "recommend_reason": "工具链作者进 Codex 团队，后续会直接喂 DX 与 skill 生态信号。",
+      "tags": [
+        "OpenAI",
+        "Codex",
+        "开发者体验",
+        "Instructor"
+      ],
+      "title": "Instructor 作者 Jason 入职 OpenAI，负责 Codex 开发者体验",
+      "rank": 6
+    },
+    {
+      "id": "2077778175027810697",
+      "author": "goodside",
+      "author_bio": "Screenshots of chatbots since 2022.\nFormerly: Google DeepMind, Scale.",
+      "text": "Claude Fable 5 creates a 20s loop of VHS-style footage of someone wandering the Backrooms until they come across a TV playing the same video they're recording https://t.co/hcmjXeyx4P",
+      "url": "https://x.com/i/status/2077778175027810697",
+      "created_at": "2026-07-16T15:31:34Z",
+      "likes": 30,
+      "views": "2688",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2077777774396207104/vid/avc1/360x270/_uXZZXL65STE8_mj.mp4?tag=29"
+      ],
+      "summary": "Claude Fable 5 生成一段 20 秒 VHS 风格循环：有人在后室游荡，直到撞见一台电视正在播放他们正在录的同一段画面。",
+      "recommend_reason": "自指循环视频是生成视频可控性与创意上限的直观 demo。",
+      "tags": [
+        "Claude Fable 5",
+        "视频生成",
+        "演示"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2077776355685703756",
+      "author": "SjwEsther",
+      "author_bio": "在做@ColaOSofficial 的增长，也在和我的agent一起生活～build了很多可爱又实用的东西🥰建筑转行AI的行动派！全网4w+粉，✍️github→esthersjw/🤳shenbuer",
+      "text": "挑战用30秒教你给codex换皮肤↓ https://t.co/COcmlvNX49",
+      "url": "https://x.com/i/status/2077776355685703756",
+      "created_at": "2026-07-16T15:24:21Z",
+      "likes": 7,
+      "views": "296",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2077776283845754880/vid/avc1/320x426/VfFiADCJn2kVjRle.mp4?tag=29"
+      ],
+      "summary": "挑战用30秒教你给codex换皮肤↓",
+      "recommend_reason": "短视频教程形态，直接降低 Codex 个性化门槛。",
+      "tags": [
+        "Codex",
+        "教程",
+        "皮肤",
+        "开发者工具"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2077772317028229312",
+      "author": "naval",
+      "author_bio": "Incompressible",
+      "text": "From our team at Impossible Research - an agent harness that plays games, writes code, reasons like a physicist, and saturates the ARC-AGI-3 benchmark.",
+      "url": "https://x.com/i/status/2077772317028229312",
+      "created_at": "2026-07-16T15:08:18Z",
+      "likes": 361,
+      "views": "66120",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "来自我们 Impossible Research 团队——一款能玩游戏、写代码、像物理学家一样推理，并在 ARC-AGI-3 基准上打满的 agent harness。",
+      "recommend_reason": "Naval 侧团队直接秀 harness 能力面，ARC-AGI-3 饱和是硬信号。",
+      "tags": [
+        "Agent",
+        "harness",
+        "ARC-AGI",
+        "Impossible Research"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2077770568305406068",
+      "author": "vista8",
+      "author_bio": "喜欢摇滚乐、爱钓鱼的PM",
+      "text": "Kimi K3 一句话复刻的网站，增加了测试，加了几个风格。\n\n复刻的是昨天分享的前端UI学习网站。\n\nhttps://t.co/UkYynyZ9NB\n\n改天写一个详细评测，模型真的牛逼！ https://t.co/dnbjpGCXjV",
+      "url": "https://x.com/i/status/2077770568305406068",
+      "created_at": "2026-07-16T15:01:21Z",
+      "likes": 9,
+      "views": "3249",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNW436Ka8AApK5a.jpg"
+      ],
+      "summary": "Kimi K3 一句话复刻的网站，增加了测试，加了几个风格。复刻的是昨天分享的前端UI学习网站。改天写一个详细评测，模型真的牛逼！",
+      "recommend_reason": "用可复核的一句话复刻前端站展示 K3 的工程交付，而不是空喊 SOTA。",
+      "tags": [
+        "Kimi K3",
+        "前端",
+        "复刻",
+        "评测"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2077768114067112050",
+      "author": "xiaoxiaodong01",
+      "author_bio": "国际，不知名，顶级图片提示词专家\n遇事不决 可问东风\n月亮岛边上的AI爱好者 星球+\nWeChat:：newbe2012",
+      "text": "GPT2 x 人像 x 杂志封面 x 光影 x 美学提示词\n\n努力了这一周\n基本实现人像提示词自由了\n\n想要怎样就怎样的境界，终于达到了\n艺术成分确实...可以有点高了\n\n不像以前的小孩作品了\n现在真是 不管提示词适用范围：各行各业\n\n而且稳定！！！稳定压倒一切，做提示词俺就追求如此！ https://t.co/8fJd4ldPv9",
+      "url": "https://x.com/i/status/2077768114067112050",
+      "created_at": "2026-07-16T14:51:36Z",
+      "likes": 14,
+      "views": "657",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNW3FIrbMAE2zlB.jpg",
+        "https://pbs.twimg.com/media/HNW3DVybYAA0L9l.jpg"
+      ],
+      "summary": "GPT2 x 人像 x 杂志封面 x 光影 x 美学提示词。努力了这一周，基本实现人像提示词自由了。想要怎样就怎样的境界，终于达到了，艺术成分可以有点高了。不像以前的小孩作品了，现在真是不管提示词适用范围：各行各业。而且稳定！！！稳定压倒一切，做提示词俺就追求如此！",
+      "recommend_reason": "提示词工程周记：人像杂志风稳定出图，是创作者侧真实产能信号。",
+      "tags": [
+        "图像生成",
+        "提示词",
+        "人像",
+        "GPT"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2077767649124352493",
+      "author": "oran_ge",
+      "author_bio": "we are already living in science fiction. building the os for it",
+      "text": "太震惊了，Kimi K3 竟然是一个超大的 2.8T 的开源模型。\n2.8 T 这个参数量可能已经超过了 Opus...照着 Fable 去了\n这是很多国内公司在下半年的计划...现在 Kimi 已经训出来了\n中国开源模型距离世界一线模型的差距可能已经减少到 6 个月内",
+      "url": "https://x.com/i/status/2077767649124352493",
+      "created_at": "2026-07-16T14:49:45Z",
+      "likes": 144,
+      "views": "29241",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "太震惊了，Kimi K3 竟然是一个超大的 2.8T 的开源模型。2.8 T 这个参数量可能已经超过了 Opus...照着 Fable 去了。这是很多国内公司在下半年的计划...现在 Kimi 已经训出来了。中国开源模型距离世界一线模型的差距可能已经减少到 6 个月内。",
+      "recommend_reason": "把 K3 的量级、开源属性与中美差距窗口一次说清，便于对齐产业判断。",
+      "tags": [
+        "Kimi K3",
+        "开源",
+        "大模型",
+        "中国AI"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2077762676932165996",
+      "author": "polynoamial",
+      "author_bio": "Researching reasoning @OpenAI | Co-created Libratus/Pluribus superhuman poker AIs, CICERO Diplomacy AI, and OpenAI o-series 🍓 reasoning models",
+      "text": "2023: LLMs struggle with 4th grade word problems\n2024: LLMs can do high school math\n2025: LLMs get a gold medal at the IMO\n\nNow, GPT-5.6 solves famous frontier math/stat questions. The IMO is today and 5.6 one-shotting a perfect score isn't even news.\n\nWhere will we be next year?",
+      "url": "https://x.com/i/status/2077762676932165996",
+      "created_at": "2026-07-16T14:29:59Z",
+      "likes": 643,
+      "views": "43219",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "作者按年回顾：2023 语言模型还卡在四年级应用题，2024 能做高中数学，2025 拿到 IMO 金牌；如今 GPT-5.6 能解著名前沿数学/统计题，IMO 当天 5.6 一次满分甚至算不上新闻，并追问明年会到哪一步。",
+      "recommend_reason": "一线推理研究者用时间线压缩能力跃迁，比单次跑分更有体感。",
+      "tags": [
+        "GPT-5.6",
+        "数学推理",
+        "OpenAI",
+        "IMO"
+      ],
+      "title": "OpenAI 研究员盘点：GPT-5.6 已把奥数满分变成不再是新闻的事",
+      "rank": 13
+    },
+    {
+      "id": "2077755292419576086",
+      "author": "real_kai42",
+      "author_bio": "独立开发者，20k stars 开源项目 Qwerty Learner 作者，《Web Worker 播客》主播\n\n仅聊技术和生活，仅代表个人观点，不太擅长文字，但话痨∠(｀ω´*) \n\n主页/咨询服务/内推 : https://t.co/ZCsVg4sr1t\nex @Microsoft @BytedanceTalk ",
+      "text": "憋了太久了，终于能聊 k3！\n\n天天被问，现在可以正面回答，Kimi Code 是用 K3+Kimi Code 构建的，用多了 K3，感觉 claude/gpt有点流口水（菜）\n\n好消息：K3 终于发了，大家可以一起嗨了\n坏消息：我得跟大家一起抢 K3 的容量了😭，我已急哭\n\n🛫🛫🛫",
+      "url": "https://x.com/i/status/2077755292419576086",
+      "created_at": "2026-07-16T14:00:39Z",
+      "likes": 459,
+      "views": "55453",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "憋了太久了，终于能聊 k3！天天被问，现在可以正面回答，Kimi Code 是用 K3+Kimi Code 构建的，用多了 K3，感觉 claude/gpt有点流口水（菜）。好消息：K3 终于发了，大家可以一起嗨了；坏消息：我得跟大家一起抢 K3 的容量了，我已急哭。",
+      "recommend_reason": "一线开发者实感：Kimi Code 自举在 K3 上，并点出发版即拥挤的容量现实。",
+      "tags": [
+        "Kimi K3",
+        "Kimi Code",
+        "编程模型"
+      ],
+      "rank": 14
+    },
+    {
+      "id": "2077749895021367503",
+      "author": "dingyi",
+      "author_bio": "promote your product  ‣ dingyi@me.com\nnewsletter ‣ https://t.co/q1JG1yCzdb\nrefine your startup ‣ https://t.co/FfUYboxOr5\nnewest product ‣ https://t.co/cP6NQ3keo",
+      "text": "卧槽 Twitter 也要开源了，让 OpenAI 看看什么才叫 Open！",
+      "url": "https://x.com/i/status/2077749895021367503",
+      "created_at": "2026-07-16T13:39:12Z",
+      "likes": 12,
+      "views": "5478",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "卧槽 Twitter 也要开源了，让 OpenAI 看看什么才叫 Open！",
+      "recommend_reason": "用对比吐槽点出开源话语权争夺，轻但戳中产业敏感点。",
+      "tags": [
+        "开源",
+        "OpenAI",
+        "Twitter",
+        "产业吐槽"
+      ],
+      "rank": 15
+    },
+    {
       "id": "2077543234189091136",
       "author": "dingyi",
       "author_bio": "promote your product  ‣ dingyi@me.com\nnewsletter ‣ https://t.co/q1JG1yCzdb\nrefine your startup ‣ https://t.co/FfUYboxOr5\nnewest product ‣ https://t.co/cP6NQ3keo",
@@ -27,7 +357,7 @@
         "社区",
         "token"
       ],
-      "rank": 1
+      "rank": 16
     },
     {
       "id": "2077542457974411629",
@@ -51,7 +381,7 @@
         "硬件",
         "vibe coding"
       ],
-      "rank": 2
+      "rank": 17
     },
     {
       "id": "2077541915227222100",
@@ -73,7 +403,7 @@
         "SWE",
         "xAI"
       ],
-      "rank": 3
+      "rank": 18
     },
     {
       "id": "2077540972422946823",
@@ -98,10 +428,10 @@
         "日本"
       ],
       "title": "英伟达：日本大银行从评估人工智能转向建设基础设施",
-      "rank": 4
+      "rank": 19
     }
   ],
-  "generated_at": "2026-07-16T04:03:49Z",
+  "generated_at": "2026-07-16T16:04:09Z",
   "selection": {
     "target_count": 30,
     "max_count": 30,
@@ -109,11 +439,11 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 4,
-    "last_batch_added": 4,
+    "actual_count": 19,
+    "last_batch_added": 15,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
