@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-16",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2077543234189091136",
+      "author": "dingyi",
+      "author_bio": "promote your product  ‣ dingyi@me.com\nnewsletter ‣ https://t.co/q1JG1yCzdb\nrefine your startup ‣ https://t.co/FfUYboxOr5\nnewest product ‣ https://t.co/cP6NQ3keo",
+      "text": "vibe coding 患者和钓鱼佬何其相似啊。加了一些两个群体的微信群，这帮人竟然惊人的一致。\n\n都喜欢在群里晒战绩：一个说今天钓了多少鱼，一个说今天蹬了多少亿 token。群里只要有人发了新钓位、钓到多少鱼，一群人立马蜂拥而至。只要一有新模型，Vibe coding 患者也是一起冲上去。",
+      "summary": "作者调侃 vibe coding 玩家和钓鱼佬很像：群里晒战绩，一个晒钓了多少鱼，一个晒蹬了多少亿 token；有新钓位或新模型就一起冲。",
+      "url": "https://x.com/i/status/2077543234189091136",
+      "created_at": "2026-07-15T23:58:00Z",
+      "likes": 42,
+      "views": "6564",
+      "has_media": false,
+      "media_urls": [],
+      "score": 11.05,
+      "recommend_reason": "社区文化镜像很准，用玩笑点出工具圈的从众与刷量心态。",
+      "tags": [
+        "vibe coding",
+        "社区",
+        "token"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2077542457974411629",
+      "author": "vista8",
+      "author_bio": "喜欢摇滚乐、爱钓鱼的PM",
+      "text": "OpenAI 出的硬件Vibe Coding键盘真好看。\n\n但价格不美丽，等大华强北。\n\n😁 https://t.co/1FOCV6sKWa",
+      "summary": "作者称 OpenAI 出的硬件 vibe coding 键盘很好看，但价格不美丽，等山寨供应链降价。",
+      "url": "https://x.com/i/status/2077542457974411629",
+      "created_at": "2026-07-15T23:54:55Z",
+      "likes": 26,
+      "views": "8047",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNTpGQLbEAAytfx.jpg",
+        "https://pbs.twimg.com/media/HNTpZcIbkAAf8Bq.jpg"
+      ],
+      "score": 10.65,
+      "recommend_reason": "硬件周边信号：编程与 AI 工作流开始渗入实体产品设计。",
+      "tags": [
+        "OpenAI",
+        "硬件",
+        "vibe coding"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2077541915227222100",
+      "author": "SpaceXAI",
+      "author_bio": "",
+      "text": "Grok 4.5 at #2 on Proximal's FrontierSWE benchmark across implementation and performance, and #1 on research abilities",
+      "summary": "格罗克 4.5 在 Proximal 的 FrontierSWE 基准上实现与性能维度排第二，研究能力维度排第一。",
+      "url": "https://x.com/i/status/2077541915227222100",
+      "created_at": "2026-07-15T23:52:46Z",
+      "likes": 913,
+      "views": "101206",
+      "has_media": false,
+      "media_urls": [],
+      "score": 22.5,
+      "recommend_reason": "公开基准排名速报，适合快速判断 Grok 4.5 在软件工程与研究任务上的相对位置。",
+      "tags": [
+        "Grok",
+        "基准",
+        "SWE",
+        "xAI"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2077540972422946823",
+      "author": "nvidia",
+      "author_bio": "The official handle for NVIDIA. Blog: https://t.co/JAn5eKOTBT Support: https://t.co/6ln5FVnA2o All our social media: https://t.co/Uc56dL57Dh",
+      "text": "Japan's biggest banks spent the last few years evaluating AI. Now they're building the infrastructure for it. 🏭\n\nWe're working with Mizuho, SMFG, Rakuten Bank, and MUFG NICOS to build the AI factories making that possible — using NVIDIA Nemotron open models and Agent Toolkit to turn regulated financial data into intelligence.",
+      "summary": "英伟达称日本最大几家银行过去几年一直在评估人工智能，现在开始建设配套基础设施；并提到与瑞穗、三井住友金融集团、乐天等合作推进相关部署。",
+      "url": "https://x.com/i/status/2077540972422946823",
+      "created_at": "2026-07-15T23:49:01Z",
+      "likes": 232,
+      "views": "31258",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNTogRaXcAAEKRA.jpg"
+      ],
+      "score": 15.8,
+      "recommend_reason": "金融侧从「试点」进到「基建」的产业信号，观察算力与银行落地节奏。",
+      "tags": [
+        "NVIDIA",
+        "金融",
+        "基建",
+        "日本"
+      ],
+      "title": "英伟达：日本大银行从评估人工智能转向建设基础设施",
+      "rank": 4
+    }
+  ],
+  "generated_at": "2026-07-16T04:03:49Z",
+  "selection": {
+    "target_count": 30,
+    "max_count": 30,
+    "per_run_max": 15,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 4,
+    "last_batch_added": 4,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤15；单日≤30不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
