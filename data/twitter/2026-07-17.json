@@ -1,0 +1,378 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-17",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2077963600770273285",
+      "author": "imwsl90",
+      "author_bio": "前程序员/产品经理/中年已婚带2娃\n\n- OPC、AI、互联网、两性情感、历史八卦\n\ngiffgaff卡🇬🇧： https://t.co/p3mva2Nhr0\n约我喝杯咖啡: https://t.co/ZL2M1iNhVZ\nvps: https://t.co/7OJQwIE3Jt",
+      "text": "毫无波澜的用Claude / codex / opencode + deepseek \n\n不为别的\n\n我尊重科学\n\n一分投入、一分收获\n\n如果一个产品pr太多，大概率会翻车",
+      "url": "https://x.com/i/status/2077963600770273285",
+      "created_at": "2026-07-17T03:48:23Z",
+      "likes": 0,
+      "views": "233",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "毫无波澜的用Claude / codex / opencode + deepseek。不为别的，我尊重科学：一分投入、一分收获。如果一个产品pr太多，大概率会翻车",
+      "recommend_reason": "用成本-收益泼冷水，对冲模型营销泡沫。",
+      "tags": [
+        "Claude",
+        "Codex",
+        "DeepSeek",
+        "性价比"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2077959202627285056",
+      "author": "op7418",
+      "author_bio": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design）\n\n歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "text": "Codex 昨晚的更新在交互上终于对味了：\n\n1. 左上角的切换：从 Work 和 Codex 切换成 ChatGPT 和 Codex\n\n2. 历史聊天整合：ChatGPT 的历史聊天全部并进了左边“最近聊天”里面，你可以筛选是普通聊天还是 ChatGPT Work 的任务\n\n3. 顶部导航：分了 Chat 和 Work 两个 Tab，交互逻辑跟网页版和移动端一致了 https://t.co/e7kCJAVYH7",
+      "url": "https://x.com/i/status/2077959202627285056",
+      "created_at": "2026-07-17T03:30:55Z",
+      "likes": 8,
+      "views": "2515",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNZki4KbAAABRFV.jpg"
+      ],
+      "summary": "Codex 昨晚更新：左上角从 Work/Codex 改成 ChatGPT/Codex；ChatGPT 历史并进左侧最近聊天并可筛选普通聊天或 Work 任务；顶部分 Chat 与 Work 两个 Tab，交互与网页/移动端一致。",
+      "recommend_reason": "产品壳对齐是采用率信号，比又一个功能清单更可感知。",
+      "tags": [
+        "Codex",
+        "ChatGPT",
+        "产品",
+        "交互"
+      ],
+      "title": "Codex 客户端交互对齐 ChatGPT：侧栏历史与 Chat/Work 双 Tab",
+      "rank": 2
+    },
+    {
+      "id": "2077958972011638964",
+      "author": "PDChinese",
+      "author_bio": "中國第一大報，帶來最新資訊與熱點新聞 https://t.co/QS9QzcMmHN",
+      "text": "【中國企業發布全球最大規模的開源模型Kimi K3】中國企業16日發布全球最大規模的開源模型Kimi K3，參數規模達2.8萬億，標誌著中國人工智能模型發展邁出新的一步。據介紹，Kimi K3原生支持視覺理解，具備100萬詞元上下文窗口，面向軟件工程、知識工作、深度研究、多模態理解等複雜任務場景進行優化。 https://t.co/YlIOpPvFDL",
+      "url": "https://x.com/i/status/2077958972011638964",
+      "created_at": "2026-07-17T03:30:00Z",
+      "likes": 4,
+      "views": "671",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNZdA1bbIAAnbH1.jpg"
+      ],
+      "summary": "【中国企业发布全球最大规模的开源模型Kimi K3】中国企业16日发布全球最大规模的开源模型Kimi K3，参数规模达2.8万亿，标志着中国人工智能模型发展迈出新的一步。据介绍，Kimi K3原生支持视觉理解，具备100万词元上下文窗口，面向软件工程、知识工作、深度研究、多模态理解等复杂任务场景进行优化。",
+      "recommend_reason": "官方通稿口径速览：参数、上下文与目标场景一次对齐。",
+      "tags": [
+        "Kimi K3",
+        "开源",
+        "中国AI",
+        "多模态"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2077958971990933782",
+      "author": "JulianGoldieSEO",
+      "author_bio": "Make money with AI 👉 https://t.co/Ppmk5h9rw3\nFree SEO Strategy Session → https://t.co/wRv8ROcoTP",
+      "text": "You can now control Codex from your phone.\n\nConnect the ChatGPT app to your Mac or Windows PC using a one-to-one QR pairing.\n\nThen watch tasks, approve actions and check progress while Codex runs on your computer. https://t.co/XMJT1unTIX",
+      "url": "https://x.com/i/status/2077958971990933782",
+      "created_at": "2026-07-17T03:30:00Z",
+      "likes": 2,
+      "views": "994",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2077705740761096192/vid/avc1/480x270/RFg8lqBnCO9YW4r5.mp4?tag=29"
+      ],
+      "summary": "现在可以用手机控制 Codex：通过一对一二维码把 ChatGPT App 连到 Mac/Windows，然后在 Codex 于电脑上跑任务时查看任务、批准操作并检查进度。",
+      "recommend_reason": "移动端审批闭环补齐，远程 agent 操作更像「在岗」。",
+      "tags": [
+        "Codex",
+        "ChatGPT",
+        "移动端",
+        "远程控制"
+      ],
+      "title": "ChatGPT App 扫码配对电脑：手机遥控 Codex 任务",
+      "rank": 4
+    },
+    {
+      "id": "2077958925287076219",
+      "author": "goodside",
+      "author_bio": "Screenshots of chatbots since 2022.\nFormerly: Google DeepMind, Scale.",
+      "text": "Claude Fable 5 imagines attending an art gallery exhibit titled “Pedaling Pelican,” showing (what it imagines to be) attempts by earlier LLMs at drawing SVG images of a pelican riding a bicycle. https://t.co/e8xE0McsTb",
+      "url": "https://x.com/i/status/2077958925287076219",
+      "created_at": "2026-07-17T03:29:49Z",
+      "likes": 46,
+      "views": "1977",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2077958898942631936/vid/avc1/320x320/6xR6DS_iwVXQHGoO.mp4?tag=29"
+      ],
+      "summary": "Claude Fable 5 想象自己参观名为 “Pedaling Pelican” 的画廊展，展出（它想象中）早期语言模型尝试用 SVG 画鹈鹕骑自行车的失败作品。",
+      "recommend_reason": "经典 pelican-bike 梗被做成代际对照展，视频生成+评测文化一身。",
+      "tags": [
+        "Claude Fable 5",
+        "SVG",
+        "演示",
+        "评测文化"
+      ],
+      "title": "Fable 5 脑补美术展：早期模型画「骑自行车的鹈鹕」SVG 有多崩",
+      "rank": 5
+    },
+    {
+      "id": "2077957959947374720",
+      "author": "yangyi",
+      "author_bio": "",
+      "text": "所谓的FDE，就是潜在一个业务生态里\n然后用最基本的半人工模式去跑成绩\n用一个月跑通流程\n用两个月确认Loop效果\n第三个月就可以搭建SaaS构建CLI，帮助Agent降低幻觉，并沉淀所有数据，做数据可视化\n\n周期可能可以缩短（取决于数据回收确认周期）\n但任何FDE都逃不过这三件事\n先半人工，然后确认效果，最后Agent自动化\n\n确认效果，要有3个相同方向的信号，才是真正的确认，单一的成功并不能证明存在系统性优势\n\n如果你把流程做反了，想着先自动化，再拿结果\n那么大概率会失败\n因为业务流程里有许许多多细节的理解和处理\n不了解这些 贸然自动化 很容易出现人类幻觉 导致失败",
+      "url": "https://x.com/i/status/2077957959947374720",
+      "created_at": "2026-07-17T03:25:58Z",
+      "likes": 4,
+      "views": "850",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNZh3PqbAAA21BY.jpg",
+        "https://pbs.twimg.com/media/HNZh-qPaoAAK5V_.jpg",
+        "https://pbs.twimg.com/media/HNZjTjdasAANen1.jpg"
+      ],
+      "summary": "作者定义 FDE：潜入业务生态，先半人工跑成绩——一个月跑通流程，两个月确认 Loop，第三个月才搭 SaaS/CLI 降幻觉并沉淀数据可视化。周期可缩短，但逃不过先半人工、确认效果、再自动化；确认要有三个同向信号，单一成功不算系统性优势。反过来先自动化再找结果，容易因不懂业务细节而失败。",
+      "recommend_reason": "把 Agent 落地顺序钉死，适合反「先全自动再碰业务」的幻觉。",
+      "tags": [
+        "FDE",
+        "Agent",
+        "落地",
+        "方法论"
+      ],
+      "title": "FDE 三步：半人工跑通 → 多信号确认 Loop → 再 Agent 自动化",
+      "rank": 6
+    },
+    {
+      "id": "2077955236048879724",
+      "author": "vista8",
+      "author_bio": "喜欢摇滚乐、爱钓鱼的PM",
+      "text": "如果只能推荐一个去 AI 味设计Skill。\n\n那必须是大神 emil 的作品，而且动效超赞。\n\n安装指令：\nnpx skills add emilkowalski/skill https://t.co/gJnR22Icee",
+      "url": "https://x.com/i/status/2077955236048879724",
+      "created_at": "2026-07-17T03:15:09Z",
+      "likes": 12,
+      "views": "2118",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNZguaKa8AAFeuF.jpg"
+      ],
+      "summary": "如果只能推荐一个去 AI 味设计 Skill，那必须是大神 emil 的作品，而且动效超赞。安装指令：npx skills add emilkowalski/skill",
+      "recommend_reason": "可安装的设计 skill 直链，去 AI 味有具体入口。",
+      "tags": [
+        "Skill",
+        "设计",
+        "去AI味",
+        "前端"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2077951092948889803",
+      "author": "wshuyi",
+      "author_bio": "Teach AI for Science on https://t.co/EjMt9Lde9B\n\nYoutube: https://t.co/OofaON17z1\n\nSubstack: https://t.co/IIleagZfwW\n\n知识星球：https://t.co/kyzMiDmFWb",
+      "text": "I just published How Do You Turn an Article into an ‘Infinite Canvas’ Prezi-Style Presentation with an AI Skill? https://t.co/pdhHcX4TVN",
+      "url": "https://x.com/i/status/2077951092948889803",
+      "created_at": "2026-07-17T02:58:41Z",
+      "likes": 0,
+      "views": "279",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "我刚发布了文章：如何用 AI Skill 把一篇文章变成「无限画布」式 Prezi 风格演示文稿？",
+      "recommend_reason": "文章→演示 skill 路径清晰，可直接跟做。",
+      "tags": [
+        "Skill",
+        "演示",
+        "Prezi",
+        "工作流"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2077950188493386230",
+      "author": "xiaoxiaodong01",
+      "author_bio": "国际，不知名，顶级图片提示词专家\n遇事不决 可问东风\n月亮岛边上的AI爱好者 星球+\nWeChat:：newbe2012",
+      "text": "GPT2 x 大暑 x 节气 x 朦胧 x 写意 x 美学提示词\n\n成员提示词，6千套提示词，全面升级\n这周要完成\n\n对这个事情因为太热血了\n因为所有提示词，肉眼所见的被GPT-5.6全面优化起来了\n\n更稳定、更兼容、构图更稳定、更好的色彩逻辑\n\n港真，我更爱做提示词了\n\n确实是喜欢，看到美图就激动。\n\n提示词见评论区 ⤵️",
+      "url": "https://x.com/i/status/2077950188493386230",
+      "created_at": "2026-07-17T02:55:06Z",
+      "likes": 6,
+      "views": "507",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNZcpyOa8AApyfC.jpg",
+        "https://pbs.twimg.com/media/HNZbsvqaMAA4ze0.jpg",
+        "https://pbs.twimg.com/media/HNZbvrDbAAAsVGe.jpg",
+        "https://pbs.twimg.com/media/HNZbx7baoAAgsKj.jpg"
+      ],
+      "summary": "GPT2 x 大暑 x 节气 x 朦胧 x 写意 x 美学提示词。成员提示词，6千套提示词，全面升级，这周要完成。对这个事情因为太热血了，因为所有提示词，肉眼所见的被GPT-5.6全面优化起来了：更稳定、更兼容、构图更稳定、更好的色彩逻辑。港真，我更爱做提示词了，确实是喜欢，看到美图就激动。提示词见评论区。",
+      "recommend_reason": "创作者侧把 GPT-5.6 用在提示词库升级，稳定与色彩逻辑是实感指标。",
+      "tags": [
+        "图像生成",
+        "提示词",
+        "GPT-5.6",
+        "节气"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2077949836158984235",
+      "author": "VigoCreativeAI",
+      "author_bio": "Designer × AI Engineer | Ambassador @Alibaba_Qwen | Cut e-commerce AI costs ~60%｜Reverse-engineering prompts from a single image",
+      "text": "24 FPS usually sounds like a video spec.\n\nFor a world model, it marks a threshold: generation becomes fast enough to respond to your movement.\n\nThis AlayaWorld demo is being generated while the camera moves. The street continues to unfold, the viewpoint responds in real time, and the environment remains coherent as you explore.\n\nThat small shift completely changes the role of the user.\n\nYou are inside the generation loop, deciding where the world goes next.\n\nAlayaWorld can start from text, an image, or a video, then stream a 720p world at 24 FPS. You can move through the scene, adjust the camera, and use prompts to cast spells, summon creatures, or trigger new events while generation continues.\n\nThe difficult part is keeping the world stable after the first few seconds.\n\nAlayaWorld combines spatial memory, compressed frame history, drift-resistant training, and four-step generation to support more than one minute of continuous exploration.\n\nThe 15B model weights and inference code are already open under Apache 2.0. Training code, data, and the deployment pipeline are planned for release later this month.\n\nA video can show you a world.\n\nAlayaWorld lets you step into one.\n\n@alayastd\n\nGitHub: https://t.co/mW6wpdzo3Q\n\nProject: https://t.co/7P2bzbDFGB",
+      "url": "https://x.com/i/status/2077949836158984235",
+      "created_at": "2026-07-17T02:53:42Z",
+      "likes": 8,
+      "views": "195",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2077949020429815808/vid/avc1/476x270/979cG2Y65iqVhGLc.mp4?tag=29"
+      ],
+      "summary": "作者指出 24FPS 对世界模型意味着生成够快、能跟人手动。AlayaWorld demo 在相机移动时实时展开街道、保持场景连贯；可从文本/图/视频启动，流式 720p@24FPS，边探索边用提示词触发事件。难点在前几秒后仍稳住世界：结合空间记忆、压缩帧历史、抗漂移训练与四步生成支持一分钟以上连续探索。15B 权重与推理代码已 Apache 2.0 开源，训练与部署管线本月稍后放出。",
+      "recommend_reason": "世界模型从「看一段视频」切到「走进生成循环」，且有开源权重可跟。",
+      "tags": [
+        "世界模型",
+        "开源",
+        "AlayaWorld",
+        "实时生成"
+      ],
+      "title": "AlayaWorld：开源世界模型 720p/24FPS 可边走边生成",
+      "rank": 10
+    },
+    {
+      "id": "2077946922908991707",
+      "author": "ianneo_ai",
+      "author_bio": "死磕 taste 的产品设计师，小黑饲养员\n前 Dribbble 中国区 #1：https://t.co/Ca5Z76OMpx\nIndie Builders：https://t.co/w6WGlWW8YB",
+      "text": "最近的AI有问题呀，几小时过去了，大半时间都在思考中，慢是真的慢，出来的东西还有问题，然后一看额度都快用完了",
+      "url": "https://x.com/i/status/2077946922908991707",
+      "created_at": "2026-07-17T02:42:07Z",
+      "likes": 4,
+      "views": "353",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "最近的AI有问题呀，几小时过去了，大半时间都在思考中，慢是真的慢，出来的东西还有问题，然后一看额度都快用完了",
+      "recommend_reason": "推理变慢+额度双杀的用户现场，提醒别只看峰值能力。",
+      "tags": [
+        "推理",
+        "额度",
+        "体验",
+        "吐槽"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2077945200069275855",
+      "author": "bindureddy",
+      "author_bio": "CEO of @abacusai - the world’s first AI super assistant and a powerful AI SuperComputer for professionals and enterprises, ex-AWS & Google",
+      "text": "Kimi K3 is not really Opus class! \n\nNot on long context multi-turn complex agentic loops",
+      "url": "https://x.com/i/status/2077945200069275855",
+      "created_at": "2026-07-17T02:35:16Z",
+      "likes": 73,
+      "views": "5754",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "Kimi K3 并不是真正的 Opus 级！尤其不在长上下文、多轮、复杂 agentic 循环上。",
+      "recommend_reason": "用最痛的 agent 场景泼冷水，比榜单互吹更有信息量。",
+      "tags": [
+        "Kimi K3",
+        "Agent",
+        "评测",
+        "Opus"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2077942300517507431",
+      "author": "xiaohu",
+      "author_bio": "带你了解全球最前沿科技、AI动态...\n\nAI 精华，讲到你懂：https://t.co/nvuDIvoNg1",
+      "text": "月之暗面发布 Kimi K3：全球首个 3 万亿级开放模型 \n\n根据评分来看，K3 的整体水平还比不过 Claude Fable 5 和 GPT 5.6 Sol 这两个最强的闭源模型\n\n但是和GPT 5.5和Opus 4.8不相上下\n\n但是相比上代 K2.6 的官方价是输入未命中 $0.95、输出 $4.00\n\nK3 分别涨到 $3.00 和 $15.00，涨了两到三倍\n\n详细：https://t.co/5LUf77Bjy5",
+      "url": "https://x.com/i/status/2077942300517507431",
+      "created_at": "2026-07-17T02:23:45Z",
+      "likes": 21,
+      "views": "6362",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "月之暗面发布 Kimi K3，号称全球首个 3 万亿级开放模型。评分整体不及 Claude Fable 5 与 GPT 5.6 Sol，但与 GPT 5.5、Opus 4.8 不相上下；相对上代 K2.6 输入未命中 $0.95/输出 $4.00，K3 涨到 $3.00/$15.00，涨了两到三倍。",
+      "recommend_reason": "能力档位与价格跳变同框，便于判断开源顶流的性价比叙事。",
+      "tags": [
+        "Kimi K3",
+        "开源",
+        "定价",
+        "评测"
+      ],
+      "title": "Kimi K3 开源发布：逼近 GPT-5.5/Opus，官方价却涨了 2–3 倍",
+      "rank": 13
+    },
+    {
+      "id": "2077942239343571298",
+      "author": "oran_ge",
+      "author_bio": "we are already living in science fiction. building the os for it",
+      "text": "Arena 这个指标有点离谱了…\n如果开源模型能超过 Fable 这么多…\n那 A 社还有什么价值…",
+      "url": "https://x.com/i/status/2077942239343571298",
+      "created_at": "2026-07-17T02:23:30Z",
+      "likes": 31,
+      "views": "14092",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "Arena 这个指标有点离谱了…如果开源模型能超过 Fable 这么多…那 A 社还有什么价值…",
+      "recommend_reason": "一句话戳穿排行榜与闭源旗舰体感的落差，适合对齐预期。",
+      "tags": [
+        "Arena",
+        "Fable",
+        "Anthropic",
+        "基准"
+      ],
+      "rank": 14
+    },
+    {
+      "id": "2077937212793262357",
+      "author": "songguoxiansen",
+      "author_bio": "关注AI技术：LLM、AI编程、AI图像、AI视频等。 \n免费提示词：https://t.co/jvdn30HNI5\n微信公众号：松果先森，扣666进AI群\nAI交流TG群：https://t.co/KvkfTq1G9H",
+      "text": "谷歌以后再也没有NotebookLM了\n\n谷歌已经停用了这个产品名字\n\n记住这个新的名字：Gemini Notebook\n\n现在NotebookLM已更名为：Gemini Notebook",
+      "url": "https://x.com/i/status/2077937212793262357",
+      "created_at": "2026-07-17T02:03:32Z",
+      "likes": 3,
+      "views": "1798",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "谷歌以后再也没有NotebookLM了。谷歌已经停用了这个产品名字。记住这个新的名字：Gemini Notebook。现在NotebookLM已更名为：Gemini Notebook",
+      "recommend_reason": "产品更名快讯，NotebookLM 品牌并入 Gemini 叙事。",
+      "tags": [
+        "Google",
+        "Gemini Notebook",
+        "NotebookLM",
+        "产品"
+      ],
+      "rank": 15
+    }
+  ],
+  "generated_at": "2026-07-17T04:02:25Z",
+  "selection": {
+    "target_count": 30,
+    "max_count": 30,
+    "per_run_max": 15,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 15,
+    "last_batch_added": 15,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤15；单日≤30不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
