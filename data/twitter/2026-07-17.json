@@ -9,6 +9,315 @@
   },
   "items": [
     {
+      "id": "2078147628471390221",
+      "author": "huangyun_122",
+      "author_bio": "Every great AI journey starts with a single Prompt\nvx: huangyun_122",
+      "text": "OpenCode + DS / Kimi / Grok, AI 就像水电一样，Windows 右键弄个开关，系统级别让 Agent 能力流进来 https://t.co/tOAGSNrqlj",
+      "url": "https://x.com/i/status/2078147628471390221",
+      "created_at": "2026-07-17T15:59:39Z",
+      "likes": 1,
+      "views": "60",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNcPzQAaoAAlCCP.png"
+      ],
+      "summary": "OpenCode + DS / Kimi / Grok，AI 就像水电一样，Windows 右键弄个开关，系统级别让 Agent 能力流进来。",
+      "recommend_reason": "把 agent 做成系统级开关的产品想象，方向清晰。",
+      "tags": [
+        "OpenCode",
+        "Agent",
+        "Windows",
+        "工作流"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2078146956430586245",
+      "author": "jxnlco",
+      "author_bio": "vibes @openai",
+      "text": "Where is the OpenAI soccer team? Where is the OpenAI jazz band? Where's the OpenAI competitive League of Legends esports league? Where is the OpenAI ping pong team? \n\nWe are so early.",
+      "url": "https://x.com/i/status/2078146956430586245",
+      "created_at": "2026-07-17T15:56:59Z",
+      "likes": 10,
+      "views": "587",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "OpenAI 的足球队在哪？爵士乐队呢？英雄联盟战队呢？乒乓球队呢？我们还太早了。",
+      "recommend_reason": "用公司文化梗点出「还 early」，轻但戳中大厂氛围缺口。",
+      "tags": [
+        "OpenAI",
+        "公司文化",
+        "社区"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2078144569594761591",
+      "author": "AndrewYNg",
+      "author_bio": "Co-Founder of Coursera; Stanford CS adjunct faculty. Former head of Baidu AI Group/Google Brain. #ai #machinelearning, #deeplearning #MOOCs",
+      "text": "New course: Build LLM applications that respond to user requests quickly by running on hardware designed for fast inference. This short course was built with  @Cerebras and taught by @zhennydez, @duerr_seb, and  @MilksandMatcha.\n\nWhen a model generates text, much of the time is spent moving its weights out of memory and into the compute units. Inference-optimized hardware minimizes that movement, making token generation several times faster than on a typical GPU setup. In this course, the hardware you'll use is Cerebras' Wafer-Scale Engine, which is designed for fast inference by keeping the model's weights close to the compute units.\n\nFast inference makes lengthy agentic workflows go faster, and also unlocks latency-sensitive, real-time applications like live translation and voice agents.\n\nSkills you'll gain:\n- Compare how GPUs, TPUs, and Cerebras' Wafer-Scale Engine each handle the memory-to-compute bottleneck\n- Build real-time applications powered by fast inference, including personalizing a webpage and running a multi-step workflow to analyze market signals\n- Adopt concrete habits for agentic coding with fast inference, keeping your sessions focused and steering the model more effectively\n\nMy teams use Cerebras for several applications that are latency sensitive. Join and build LLM applications that respond quickly:\nhttps://t.co/P8vchGAr22",
+      "url": "https://x.com/i/status/2078144569594761591",
+      "created_at": "2026-07-17T15:47:30Z",
+      "likes": 26,
+      "views": "8483",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2078144281685233664/vid/avc1/480x270/PAOH83qxNDiXf5n8.mp4?tag=29"
+      ],
+      "summary": "新课与 Cerebras 合作，教在为快速推理设计的硬件上构建低延迟 LLM 应用。核心瓶颈是权重从内存搬到计算单元；推理优化硬件（如 Cerebras Wafer-Scale Engine）把权重靠近算力，token 生成可比常规 GPU 快数倍。适合加速长 agent 工作流与实时语音/翻译。技能包括对比 GPU/TPU/Cerebras 瓶颈、构建实时应用、以及在高速推理下的 agent 编码习惯。",
+      "recommend_reason": "把「快推理」从口号落到硬件与课程入口，对实时 agent 有直接用处。",
+      "tags": [
+        "吴恩达",
+        "Cerebras",
+        "推理",
+        "Agent"
+      ],
+      "title": "吴恩达新课：用 Cerebras 晶圆级引擎做快速推理 LLM 应用",
+      "rank": 3
+    },
+    {
+      "id": "2078142611647316035",
+      "author": "vista8",
+      "author_bio": "喜欢摇滚乐、爱钓鱼的PM",
+      "text": "AI 创业有一个特别大的坑是要提前准备预防白嫖党、逆向Hack。\n\n已听到好几朋友公司案例，损失惨重。",
+      "url": "https://x.com/i/status/2078142611647316035",
+      "created_at": "2026-07-17T15:39:43Z",
+      "likes": 15,
+      "views": "1860",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "AI 创业有一个特别大的坑是要提前准备预防白嫖党、逆向Hack。已听到好几朋友公司案例，损失惨重。",
+      "recommend_reason": "安全与滥用防护不是后补项，朋友圈案例说明已踩雷。",
+      "tags": [
+        "AI创业",
+        "安全",
+        "逆向",
+        "滥用"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2078140377421234208",
+      "author": "GoSailGlobal",
+      "author_bio": "Show In Public ｜ SaaS 出海 ｜ 克尔凯郭尔种草🌿\n\nSkills hub：https://t.co/x1VU8wWNj1\n博客：https://t.co/ajYYIXGqFg\n\n🤝 合作DM：GoSail_AI\n📮：m17551076169@gmail.com\n\nMCN：collab@gosail",
+      "text": "Kimi K3 很厉害，下个模型还会更厉害\n\n但不管模型怎么变，总有一些东西是模型层永远无法提供的\n\n这些才是稀缺的，最应该花精力去做的",
+      "url": "https://x.com/i/status/2078140377421234208",
+      "created_at": "2026-07-17T15:30:50Z",
+      "likes": 0,
+      "views": "306",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "Kimi K3 很厉害，下个模型还会更厉害。但不管模型怎么变，总有一些东西是模型层永远无法提供的。这些才是稀缺的，最应该花精力去做的。",
+      "recommend_reason": "提醒别只追模型版本，稀缺能力在模型层之上。",
+      "tags": [
+        "Kimi K3",
+        "产品",
+        "稀缺性",
+        "策略"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2078139206946459853",
+      "author": "levie",
+      "author_bio": "ceo @box - your business lives in content. unleash it with AI",
+      "text": "This post is key. The cheaper AI gets, the more opportunity there is for the entire ecosystem  - especially including end-customers - to benefit.\n\nEverything is bottlenecked by being able to successfully and cost effectively deploy AI in real workloads. Any time we can lower the cost of AI, the total usage goes up. When that happens, the value accrues to all layers of the stack, as noted.\n\nThe only modification is I think as AI gets more efficient, demand even for the frontier closed models can go up too. You often need the strongest model possible for the orchestration of a task, then you can farm out work to cheaper or more tuned models for the bulk of tokens. \n\nThis efficiency gain can ironically lead to even more frontier spend in the process because you can cost effectively deploy AI against more tasks. The thing at most risk is margins, which is fair, and in general it seems that intelligence eventually should converge with the margins of the infrastructure stack.\n\nAnyway, super fun times to see competition play out to drive down the cost of AI.",
+      "url": "https://x.com/i/status/2078139206946459853",
+      "created_at": "2026-07-17T15:26:11Z",
+      "likes": 71,
+      "views": "11348",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "Box CEO 认为：AI 越便宜，真实工作负载部署越容易，总用量上升，价值在栈各层累积。补充观点是效率提升后，对最强闭源模型的需求也可能上升——编排常需最强模型，再把大体量 token 分给更便宜或专用模型。效率讽刺地可能推高前沿模型开支，真正承压的是利润率；智能最终会向基础设施栈的利润水平收敛。",
+      "recommend_reason": "把「降价→放量→编排仍要旗舰」讲清楚，适合校准商业叙事。",
+      "tags": [
+        "AI经济",
+        "成本",
+        "前沿模型",
+        "生态"
+      ],
+      "title": "AI 越便宜，全栈用量越大；强模型反而可能更吃香",
+      "rank": 6
+    },
+    {
+      "id": "2078138245662327231",
+      "author": "huangyun_122",
+      "author_bio": "Every great AI journey starts with a single Prompt\nvx: huangyun_122",
+      "text": "每天夸一夸 OpenCode + Deepseek V4, 在 windows 上用起来毫无心理负担，不用心惊胆战被封\n\n就连启动时长超过 10秒都要抽一抽它 https://t.co/AGrJH0f0V5",
+      "url": "https://x.com/i/status/2078138245662327231",
+      "created_at": "2026-07-17T15:22:22Z",
+      "likes": 1,
+      "views": "518",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNcHif3bEAAzaPa.jpg"
+      ],
+      "summary": "每天夸一夸 OpenCode + Deepseek V4，在 Windows 上用起来毫无心理负担，不用心惊胆战被封。就连启动时长超过 10 秒都要抽一抽它。",
+      "recommend_reason": "Windows 侧「能稳着用」的体感，对选型比功能表更有用。",
+      "tags": [
+        "OpenCode",
+        "DeepSeek",
+        "Windows",
+        "Coding Agent"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2078138047426871539",
+      "author": "imwsl90",
+      "author_bio": "前程序员/产品经理/中年已婚带2娃\n\n- OPC、AI、互联网、两性情感、历史八卦\n\n🇬🇧giffgaff手机卡： https://t.co/p3mva2Nhr0\n🤖chatgpt代充:   https://t.co/8raUHeVgYO\n🪜vps:   https://t.co/7OJQwIE3Jt",
+      "text": "家人们都睡去了\n\n我开始试一试grok build",
+      "url": "https://x.com/i/status/2078138047426871539",
+      "created_at": "2026-07-17T15:21:35Z",
+      "likes": 0,
+      "views": "355",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "家人们都睡去了。我开始试一试 grok build。",
+      "recommend_reason": "开源 coding agent 刚放出当晚的即时试用信号。",
+      "tags": [
+        "grok-build",
+        "试用",
+        "Coding Agent"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2078128415727841535",
+      "author": "bindureddy",
+      "author_bio": "CEO of @abacusai - the world’s first AI super assistant and a powerful AI SuperComputer for professionals and enterprises, ex-AWS & Google",
+      "text": "Kimi 3 is great but it’s a 3T model \n\nFrontier models will need to be 10T models \n\nFable 5 is a 10T model \n\nGemini, Grok and OpenAI will soon have 10T versions as well",
+      "url": "https://x.com/i/status/2078128415727841535",
+      "created_at": "2026-07-17T14:43:18Z",
+      "likes": 158,
+      "views": "8574",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "Kimi 3 很棒，但它是 3 万亿参数模型。前沿模型需要到 10 万亿。Fable 5 是 10T 模型。Gemini、Grok 和 OpenAI 很快也会有 10T 版本。",
+      "recommend_reason": "用参数量级给 K3/Fable 和闭源阵营画坐标，比榜单互吹更利落。",
+      "tags": [
+        "Kimi K3",
+        "Fable 5",
+        "参数规模",
+        "前沿模型"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2078123113427120564",
+      "author": "xiaoxiaodong01",
+      "author_bio": "国际，不知名，顶级图片提示词专家\n遇事不决 可问东风\n月亮岛边上的AI爱好者 星球+\nWeChat:：newbe2012",
+      "text": "GPT2 x 巨字 x 纯色 x 演讲海报 x 美学提示词\n\n围绕企业，常见活动，需要用途\n今天做了几百组提示词的优化\n\n字体和排版进一步优化了\n\n如果老板安排我做活动ppt\n我立马先整理好Markdown\n然后用小小东的风格提示词\n\n结合起来，一次批量生成多个系列\n或者生成多个创意\n\n省心、省力！\n\n本组提示词见评论区⤵️",
+      "url": "https://x.com/i/status/2078123113427120564",
+      "created_at": "2026-07-17T14:22:14Z",
+      "likes": 13,
+      "views": "833",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNb4ySbbQAAX1qF.jpg",
+        "https://pbs.twimg.com/media/HNb47lDaYAARCJM.jpg",
+        "https://pbs.twimg.com/media/HNb5FhBbUAASLw0.jpg",
+        "https://pbs.twimg.com/media/HNb5IozbkAAMcEi.jpg"
+      ],
+      "summary": "GPT2 x 巨字 x 纯色 x 演讲海报 x 美学提示词。围绕企业常见活动用途，今天做了几百组提示词优化，字体和排版进一步优化。若老板安排活动 PPT：先整理 Markdown，再用小小东风格提示词，一次批量生成多个系列或创意。本组提示词见评论区。",
+      "recommend_reason": "Markdown + 风格提示词的活动海报工作流，可直接复用。",
+      "tags": [
+        "提示词",
+        "海报",
+        "GPT图像",
+        "PPT"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2078122272305405961",
+      "author": "JamesAI",
+      "author_bio": "🚀 做过产品，踩过坑，亏过百万，也赚过\n📖 记录真实的赚钱过程，研究副业、出海方法，分享真实经历",
+      "text": "这行做的越久，越佩服manus。反而行业里面很多人觉得人家没技术含量。\n\n说实话，AI这种野蛮生长期，蝇营狗苟的商业模式太多了。真正靠产品赚到大钱的，屈指可数。\n\n大部分程序员知道的也就是web2的学院派做法，比如精益创业，增长黑客什么的。\n\n无非再加个中转站，甚至不少人还觉得中转站是个批发转零售的模式，全然不知里面其实全靠号池，黑卡，逆向，投毒，注水，数据贩卖，注册机等等灰黑方法赚钱。\n\n还有纯拿补贴的玩法，有的地方政府扶持AI，算力有补贴，比如补3%，消耗100万算力政府补3万。那就定价永远对标市场最低价，赚的不是用户钱，就是赚政府或公司的补贴钱，然后走量。\n\n又或者政府要OPC做业绩，那就直接各个城市招免费的主理人，每周各种组织线下闭门会，看上去是卖课，其实卖多少就是个零花钱，回头就和政府说自己覆盖几十个城市，几万人的OPC私域，然后拿园区补贴和扶持基金。\n\n抑或是AI进社区，进学校，进革命老区，反正各种薅，再搭配个中转站走量，卖课的钱，灰产的钱，羊毛的钱，客户的钱全赚了。\n\n又或者是倒卖H200，一张卡就快20万，一台机器原价几百万，到了国内再翻一倍。\n\n更别说那些做NSFW的。\n\n总之AI这口饭，认真讲AI的少，认真做AI的少，哪还有什么初心，初心就是赚钱，想尽一切办法赚钱。\n\n而换个角度，如果你不愿意沉沦，只要足够认真，一样可以名利双收。",
+      "url": "https://x.com/i/status/2078122272305405961",
+      "created_at": "2026-07-17T14:18:54Z",
+      "likes": 7,
+      "views": "602",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "作者说做得越久越佩服 Manus，而行业很多人觉得其「没技术含量」。指出野蛮生长期蝇营狗苟模式多：号池/黑卡/逆向等中转站灰产、算力补贴套利、OPC 假覆盖拿园区补贴、倒卖 H200、NSFW 等；认真做产品的少。并认为不愿沉沦、足够认真仍可名利双收。",
+      "recommend_reason": "产业侧冷水：把灰产与补贴套利摊开，反衬真产品路径。",
+      "tags": [
+        "Manus",
+        "AI商业",
+        "中转站",
+        "产业观察"
+      ],
+      "title": "AI 野蛮生长期：佩服 Manus，警惕中转站与补贴套利",
+      "rank": 11
+    },
+    {
+      "id": "2078114346320941458",
+      "author": "SjwEsther",
+      "author_bio": "在做@ColaOSofficial 的增长，也在和我的agent一起生活～build了很多可爱又实用的东西🥰建筑转行AI的行动派！全网4w+粉，✍️github→esthersjw/🤳shenbuer",
+      "text": "今天在线下分享，发现每个人学AI都是需要有人推一把的，可能就是在某个时刻被推了一把之后ta才有可能在AI世界里面不停获得正反馈，希望以后多多做推别人一把的不二\n（不是推下山的推🤡",
+      "url": "https://x.com/i/status/2078114346320941458",
+      "created_at": "2026-07-17T13:47:24Z",
+      "likes": 11,
+      "views": "459",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "今天在线下分享，发现每个人学 AI 都是需要有人推一把的，可能就是在某个时刻被推了一把之后 ta 才有可能在 AI 世界里面不停获得正反馈，希望以后多多做推别人一把的不二（不是推下山的推）。",
+      "recommend_reason": "学习动机的「推一把」洞察，比又一篇工具清单更贴近人。",
+      "tags": [
+        "AI学习",
+        "社区",
+        "正反馈"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2078104898663481637",
+      "author": "xiaohu",
+      "author_bio": "带你了解全球最前沿科技、AI动态...\n\nAI 精华，讲到你懂：https://t.co/nvuDIvoNg1",
+      "text": "LiveKit 针对 Gemma 4 31B 进行优化\n\n在实时语音方面比 GPT-4.1 快 5 倍、成本六分之一\n\nLiveKit 上线一项新服务：在自家推理平台 LiveKit Inference 上跑 Google 新一代大模型 Gemma 4 31B\n\n跟 GPT-4.1 比：接话延迟低 5.2 倍（首字 192 毫秒对 1006 毫秒）、成本便宜约 83%（大概六分之一）\n\n酒店前台场景测试任务完成率 88%，超过 GPT-4.1（73%）和 Gemini 2.5 Flash（64%）...",
+      "url": "https://x.com/i/status/2078104898663481637",
+      "created_at": "2026-07-17T13:09:51Z",
+      "likes": 11,
+      "views": "4439",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2078104529917411328/vid/avc1/480x270/VHz5qMy9AhLLSGEL.mp4?tag=29"
+      ],
+      "summary": "LiveKit 在自家 Inference 上线 Google Gemma 4 31B，实时语音相对 GPT-4.1：接话延迟约低 5.2 倍（首字 192ms vs 1006ms）、成本约便宜 83%（约六分之一）；酒店前台场景任务完成率 88%，高于 GPT-4.1 的 73% 与 Gemini 2.5 Flash 的 64%。",
+      "recommend_reason": "开源系实时语音的具体延迟/成本/任务完成率三件套，可直接对照选型。",
+      "tags": [
+        "LiveKit",
+        "Gemma 4",
+        "语音",
+        "推理"
+      ],
+      "title": "LiveKit 跑 Gemma 4 31B：语音比 GPT-4.1 快约 5 倍、成本约 1/6",
+      "rank": 13
+    },
+    {
+      "id": "2078100231603060797",
+      "author": "AI_Jasonyu",
+      "author_bio": "👋 AI & 出海& Saas & APP & 海外手机卡eSIM实操干货分享 📈 8年产品经验 | 单款产品营收 $200k+ （全自然流量 ）💻 代表作：@PaywallPro1 付费墙Agent：https://t.co/YJBXCadlR1 🍼 2胎爸爸 | 私信聊合作/咨询：jasonyu110",
+      "text": "兄弟们，马斯克的SpaceX AI 把自己的 AI 编程工具开源了。\n\n项目叫 grok-build，跑在终端里的 AI 编码 agent，跟 Claude Code 一个路子，能读代码库、改文件、跑命令、联网搜。纯 Rust 写的，Apache 2.0 协议，商用随便用。\n\n上线就 1.4 万 star，想白嫖开源 coding agent 的可以去瞅瞅。\n\nhttps://t.co/dsybX7y0hD\n\n我翻了下文档，功能齐得有点夸张，在 Claude Code 里用的那套它基本都有:\n\n1、斜杠命令、键盘快捷键、主题设置\n2、MCP 服务器、技能、插件、钩子\n3、无头模式,能塞进脚本和 CI 里跑\n4、沙箱,agent 乱跑命令有兜底\n5、还能通过 ACP 协议嵌进编辑器用",
+      "url": "https://x.com/i/status/2078100231603060797",
+      "created_at": "2026-07-17T12:51:19Z",
+      "likes": 7,
+      "views": "1914",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "作者称 SpaceX AI 开源终端 AI 编程工具 grok-build，路线类似 Claude Code：读代码库、改文件、跑命令、联网搜索；纯 Rust、Apache 2.0。上线即 1.4 万 star。文档功能含斜杠命令/快捷键/主题、MCP/技能/插件/钩子、无头模式进 CI、沙箱兜底，以及 ACP 嵌编辑器。",
+      "recommend_reason": "开源 coding agent 新选项，能力清单对齐 Claude Code 用户习惯。",
+      "tags": [
+        "grok-build",
+        "开源",
+        "Coding Agent",
+        "Rust"
+      ],
+      "title": "SpaceX AI 开源终端 coding agent：grok-build（Rust/Apache 2.0）",
+      "rank": 14
+    },
+    {
       "id": "2077963600770273285",
       "author": "imwsl90",
       "author_bio": "前程序员/产品经理/中年已婚带2娃\n\n- OPC、AI、互联网、两性情感、历史八卦\n\ngiffgaff卡🇬🇧： https://t.co/p3mva2Nhr0\n约我喝杯咖啡: https://t.co/ZL2M1iNhVZ\nvps: https://t.co/7OJQwIE3Jt",
@@ -27,7 +336,7 @@
         "DeepSeek",
         "性价比"
       ],
-      "rank": 1
+      "rank": 15
     },
     {
       "id": "2077959202627285056",
@@ -51,7 +360,7 @@
         "交互"
       ],
       "title": "Codex 客户端交互对齐 ChatGPT：侧栏历史与 Chat/Work 双 Tab",
-      "rank": 2
+      "rank": 16
     },
     {
       "id": "2077958972011638964",
@@ -74,7 +383,7 @@
         "中国AI",
         "多模态"
       ],
-      "rank": 3
+      "rank": 17
     },
     {
       "id": "2077958971990933782",
@@ -98,7 +407,7 @@
         "远程控制"
       ],
       "title": "ChatGPT App 扫码配对电脑：手机遥控 Codex 任务",
-      "rank": 4
+      "rank": 18
     },
     {
       "id": "2077958925287076219",
@@ -122,7 +431,7 @@
         "评测文化"
       ],
       "title": "Fable 5 脑补美术展：早期模型画「骑自行车的鹈鹕」SVG 有多崩",
-      "rank": 5
+      "rank": 19
     },
     {
       "id": "2077957959947374720",
@@ -148,7 +457,7 @@
         "方法论"
       ],
       "title": "FDE 三步：半人工跑通 → 多信号确认 Loop → 再 Agent 自动化",
-      "rank": 6
+      "rank": 20
     },
     {
       "id": "2077955236048879724",
@@ -171,7 +480,7 @@
         "去AI味",
         "前端"
       ],
-      "rank": 7
+      "rank": 21
     },
     {
       "id": "2077951092948889803",
@@ -192,7 +501,7 @@
         "Prezi",
         "工作流"
       ],
-      "rank": 8
+      "rank": 22
     },
     {
       "id": "2077950188493386230",
@@ -218,7 +527,7 @@
         "GPT-5.6",
         "节气"
       ],
-      "rank": 9
+      "rank": 23
     },
     {
       "id": "2077949836158984235",
@@ -242,7 +551,7 @@
         "实时生成"
       ],
       "title": "AlayaWorld：开源世界模型 720p/24FPS 可边走边生成",
-      "rank": 10
+      "rank": 24
     },
     {
       "id": "2077946922908991707",
@@ -263,7 +572,7 @@
         "体验",
         "吐槽"
       ],
-      "rank": 11
+      "rank": 25
     },
     {
       "id": "2077945200069275855",
@@ -284,7 +593,7 @@
         "评测",
         "Opus"
       ],
-      "rank": 12
+      "rank": 26
     },
     {
       "id": "2077942300517507431",
@@ -306,7 +615,7 @@
         "评测"
       ],
       "title": "Kimi K3 开源发布：逼近 GPT-5.5/Opus，官方价却涨了 2–3 倍",
-      "rank": 13
+      "rank": 27
     },
     {
       "id": "2077942239343571298",
@@ -327,7 +636,7 @@
         "Anthropic",
         "基准"
       ],
-      "rank": 14
+      "rank": 28
     },
     {
       "id": "2077937212793262357",
@@ -348,10 +657,10 @@
         "NotebookLM",
         "产品"
       ],
-      "rank": 15
+      "rank": 29
     }
   ],
-  "generated_at": "2026-07-17T04:02:25Z",
+  "generated_at": "2026-07-17T16:02:47Z",
   "selection": {
     "target_count": 30,
     "max_count": 30,
@@ -359,13 +668,13 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 15,
-    "last_batch_added": 15,
+    "actual_count": 29,
+    "last_batch_added": 14,
     "last_batch_skipped_dup": 0,
-    "last_batch_skipped_author": 0,
+    "last_batch_skipped_author": 1,
     "last_batch_skipped_day_cap": 0,
     "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤15；单日≤30不保底；追加按id去重。",
     "short_tweet": {
