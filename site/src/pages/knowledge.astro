@@ -1,0 +1,112 @@
+---
+import "../styles/global.css";
+import { getKnowledgeDays, TYPE_META, CONFIDENCE_LABEL, obsidianUrl } from "../lib/knowledge";
+import { formatDayLabel } from "../lib/twitter";
+
+const { days, pool } = await getKnowledgeDays();
+const totalItems = days.reduce((sum, day) => sum + day.items.length, 0);
+const typesPresent = [...new Set(days.flatMap((d) => d.items.map((i) => i.type)))];
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="OrbitOS 知识库最近入库的原子知识单元" />
+    <title>知识总结 · 工具库</title>
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="site-header">
+        <div>
+          <p class="eyebrow">OrbitOS 知识库 · 近期入库</p>
+          <h1>知识总结</h1>
+          <p class="intro">最近入库的原子知识单元：技能、方法论、概念与方案，全部带来源溯源。</p>
+        </div>
+        <p class="record-count">本期 {totalItems} 条 · 库存 {pool.toLocaleString()} 条</p>
+      </header>
+
+      <nav class="tabs" aria-label="站点栏目">
+        <a class="tab" href="/">收藏墙</a>
+        <a class="tab" href="/twitter/">推特日报</a>
+        <span class="tab is-disabled">每日日报 · 即将开放</span>
+        <a class="tab is-active" href="/knowledge/">知识总结</a>
+      </nav>
+
+      {days.length === 0 ? (
+        <section class="empty-state" aria-labelledby="empty-title">
+          <p class="empty-icon">✦</p>
+          <h2 id="empty-title">还没有知识卡片</h2>
+          <p>运行 pipeline/knowledge_export.py 生成 data/knowledge/recent.json 后会出现在这里。</p>
+        </section>
+      ) : (
+        <>
+          <div class="tag-filter-row" aria-label="按类型筛选">
+            <button class="tag-filter is-selected" type="button" data-tag-filter="">全部</button>
+            {typesPresent.map((t) => (
+              <button class="tag-filter" type="button" data-tag-filter={t}>{TYPE_META[t]?.label ?? t}</button>
+            ))}
+          </div>
+
+          <section class="twitter-timeline knowledge-timeline" aria-label="最近入库">
+            {days.map((day) => (
+              <div class="day-group" data-day>
+                <div class="day-heading">
+                  <h2>{formatDayLabel(day.date).split(" ")[0]}</h2>
+                  <p>{formatDayLabel(day.date).split(" ")[1]} · 入库 {day.items.length} 条</p>
+                </div>
+                <div class="timeline-items">
+                  {day.items.map((item) => (
+                    <article class={`timeline-item ${TYPE_META[item.type]?.className ?? ""}`} data-tweet data-tags={item.type}>
+                      <span class="timeline-time"><b class="type-badge">{TYPE_META[item.type]?.label ?? item.type}</b></span>
+                      <span class="timeline-rail"><i class="timeline-dot"></i></span>
+                      <div class="tweet-card">
+                        <div class="tweet-body">
+                          <h3 class="tweet-title">{item.title}</h3>
+                          {item.summary && <p class="tweet-summary">{item.summary}</p>}
+                          {item.points.length > 0 && (
+                            <ul class="k-points">{item.points.map((p) => <li>{p}</li>)}</ul>
+                          )}
+                          <p class="tweet-reason">来源：{item.source || "未知"} · {CONFIDENCE_LABEL[item.confidence] ?? item.confidence}
+                            {" · "}<a class="tweet-link" href={obsidianUrl(item.vault_path)}>在 Obsidian 打开 →</a>
+                          </p>
+                        </div>
+                      </div>
+                    </article>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </section>
+        </>
+      )}
+    </main>
+    <footer class="site-footer">
+      <p><strong>数据来源说明</strong>：内容来自 OrbitOS 400知识库的标准知识单元（active 状态），由导出脚本按入库日期截取，摘要与要点为原文规则截取。</p>
+    </footer>
+    <script>
+      const filterButtons = document.querySelectorAll("[data-tag-filter]");
+      const cards = document.querySelectorAll("[data-tweet]");
+      const dayGroups = document.querySelectorAll("[data-day]");
+      let activeTag = "";
+
+      function refresh() {
+        cards.forEach((card) => {
+          const tags = (card.getAttribute("data-tags") ?? "").split(",");
+          card.hidden = Boolean(activeTag) && !tags.includes(activeTag);
+        });
+        dayGroups.forEach((group) => {
+          group.hidden = !group.querySelector("[data-tweet]:not([hidden])");
+        });
+      }
+
+      filterButtons.forEach((button) => button.addEventListener("click", () => {
+        const nextTag = button.getAttribute("data-tag-filter") ?? "";
+        activeTag = activeTag === nextTag ? "" : nextTag;
+        filterButtons.forEach((item) => item.classList.toggle("is-selected", item === button && activeTag !== ""));
+        if (!activeTag) filterButtons[0]?.classList.add("is-selected");
+        refresh();
+      }));
+    </script>
+  </body>
+</html>

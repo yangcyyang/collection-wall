@@ -141,6 +141,20 @@ h3 a:focus-visible, .category-button:focus-visible, .search-box:focus-within, .r
 .tweet-reason { border-top: var(--border-width) dashed var(--color-border); color: var(--color-text-secondary); font-size: var(--font-size-caption); margin-bottom: 0; padding-top: var(--spacing-sm); }
 .tweet-link { color: var(--color-brand); font-size: var(--font-size-caption); margin-left: auto; text-decoration: none; white-space: nowrap; }
 .tweet-link:hover { text-decoration: underline; }
+.knowledge-timeline { --tl-time-w: 4.4rem; }
+.knowledge-timeline .timeline-item { cursor: default; }
+.timeline-item { --unit-color: var(--color-brand); --unit-bg: var(--color-bg); }
+.t-skl { --unit-color: #176b50; --unit-bg: #e6f4ef; }
+.t-mth { --unit-color: #246b89; --unit-bg: #e8f1f5; }
+.t-con { --unit-color: #806279; --unit-bg: #f3ecf1; }
+.t-sol { --unit-color: #4c6380; --unit-bg: #eaeef3; }
+.t-qst { --unit-color: #8a6424; --unit-bg: #f6f0e3; }
+.t-opi { --unit-color: #a04d5e; --unit-bg: #f8ecee; }
+.t-cas { --unit-color: #5a5f6b; --unit-bg: #eceef1; }
+.knowledge-timeline .timeline-dot { background: var(--unit-color); }
+.type-badge { background: var(--unit-bg); border-radius: var(--radius-card); color: var(--unit-color); display: inline-block; font-size: 0.72rem; font-weight: 700; padding: 0.2rem 0.5rem; white-space: nowrap; }
+.k-points { color: var(--color-text-primary); margin: 0 0 var(--spacing-sm); padding-left: 1.2rem; }
+.k-points li { margin-bottom: var(--spacing-xs); }
 .archive-section { border-top: var(--border-width) solid var(--color-border); margin-top: var(--spacing-lg); padding-top: var(--spacing-md); }
 .archive-section summary { color: var(--color-text-secondary); cursor: pointer; font-size: var(--font-size-caption); padding: var(--spacing-sm) 0; }
 .archive-section summary:hover { color: var(--color-brand); }
