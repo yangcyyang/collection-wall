@@ -1,16 +1,17 @@
 ---
 import { formatDayLabel, formatTime, avatarUrl, isShortTweet, type TwitterDay } from "../lib/twitter";
 
-type Props = { day: TwitterDay };
-const { day } = Astro.props;
+type Props = { day: TwitterDay; defaultOpen?: boolean };
+const { day, defaultOpen = false } = Astro.props;
 const [dateLabel, weekdayLabel] = formatDayLabel(day.date).split(" ");
 ---
 
-<div class="day-group" data-day>
-  <div class="day-heading">
+<details class="day-group" data-day open={defaultOpen}>
+  <summary class="day-heading">
+    <span class="day-toggle-icon" aria-hidden="true">▾</span>
     <h2>{dateLabel}</h2>
     <p>{weekdayLabel} · {day.items.length} 条</p>
-  </div>
+  </summary>
   <div class="timeline-items">
     {day.items.map((item) => (
       <article class="timeline-item" data-tweet data-tags={(item.tags ?? []).join(",")} data-tweet-url={item.url} role="link" tabindex="0">
@@ -39,4 +40,4 @@ const [dateLabel, weekdayLabel] = formatDayLabel(day.date).split(" ");
       </article>
     ))}
   </div>
-</div>
+</details>

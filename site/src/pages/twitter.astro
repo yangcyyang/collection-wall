@@ -50,7 +50,7 @@ const totalItems = days.reduce((sum, day) => sum + day.items.length, 0);
           )}
 
           <section class="twitter-timeline" aria-label="最近日报">
-            {recent.map((day) => <TwitterDayGroup day={day} />)}
+            {recent.map((day, index) => <TwitterDayGroup day={day} defaultOpen={index === 0} />)}
           </section>
 
           {archive.length > 0 && (
