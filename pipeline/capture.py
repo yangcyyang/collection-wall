@@ -43,10 +43,13 @@ def load_env():
     return env
 
 ENV = load_env()
-DEEPSEEK_API_KEY = ENV.get("DEEPSEEK_API_KEY", "")
-DEEPSEEK_BASE_URL = ENV.get("DEEPSEEK_BASE_URL", "https://api.deepseek.com").rstrip("/")
-if not DEEPSEEK_API_KEY:
-    raise SystemExit("❌ .env 缺必需字段: DEEPSEEK_API_KEY")
+# AI 分析后端：AI_* 优先，DEEPSEEK_* 回退（2026-07-18 DeepSeek 402 后切 kimi-for-coding）
+AI_API_KEY = ENV.get("AI_API_KEY") or ENV.get("DEEPSEEK_API_KEY", "")
+AI_BASE_URL = (ENV.get("AI_BASE_URL") or ENV.get("DEEPSEEK_BASE_URL", "https://api.deepseek.com")).rstrip("/")
+AI_MODEL = ENV.get("AI_MODEL", "deepseek-chat")
+AI_TEMPERATURE = float(ENV.get("AI_TEMPERATURE", "0.3"))  # kimi-for-coding 只允许 1
+if not AI_API_KEY:
+    raise SystemExit("❌ .env 缺必需字段: AI_API_KEY (或 DEEPSEEK_API_KEY)")
 
 # ---------- Chromium browser history (unchanged from spike) ----------
 BROWSER_HISTORIES = {
@@ -285,16 +288,16 @@ og:description: {pd['og_desc']}
 {pd['page_text']}
 """
     resp = requests.post(
-        f"{DEEPSEEK_BASE_URL}/chat/completions",
+        f"{AI_BASE_URL}/chat/completions",
         headers={
-            "Authorization": f"Bearer {DEEPSEEK_API_KEY}",
+            "Authorization": f"Bearer {AI_API_KEY}",
             "Content-Type": "application/json",
         },
         json={
-            "model": "deepseek-chat",
+            "model": AI_MODEL,
             "messages": [{"role": "user", "content": prompt}],
             "response_format": {"type": "json_object"},
-            "temperature": 0.3,
+            "temperature": AI_TEMPERATURE,
         },
         timeout=60,
     )
@@ -454,7 +457,7 @@ def main():
     if pd["screenshot"]:
         (SCREENSHOT_DIR / f"{ts}_{domain}.jpg").write_bytes(pd["screenshot"])
 
-    log("🧠 DeepSeek 分析...")
+    log("🧠 AI 分析...")
     try:
         analysis = analyze(url, pd)
     except Exception as e:

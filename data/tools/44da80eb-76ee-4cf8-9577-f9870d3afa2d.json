@@ -1,0 +1,82 @@
+{
+  "id": "44da80eb-76ee-4cf8-9577-f9870d3afa2d",
+  "url": "https://www.bilibili.com/video/BV14TKn6DEe3/?spm_id_from=333.1007.tianma.1-3-3.click&vd_source=c2029517d74ef0075d9f828f22970bc6",
+  "name": "Bilibili",
+  "headline": "中文弹幕视频社区与年轻人文化平台",
+  "intro": "Bilibili（哔哩哔哩）是中国领先的年轻人文化社区与综合视频平台，用户可以观看、投稿、分享动画、游戏、音乐、影视、知识等各类视频，并通过实时弹幕与内容互动。平台以 UP 主创作生态为核心，支持直播、番剧、纪录片、漫画等多元内容，也是鬼畜、二创、知识教程等亚文化的重要发源地。",
+  "category": "🔬 其他",
+  "subcategory": "",
+  "tags": [
+    "弹幕视频",
+    "UP主",
+    "鬼畜",
+    "番剧",
+    "直播",
+    "二创",
+    "知识区",
+    "ACG社区"
+  ],
+  "capabilities": [
+    "观看高清视频",
+    "发送实时弹幕",
+    "上传原创视频",
+    "关注UP主动态",
+    "直播互动打赏",
+    "追番追剧",
+    "收藏点赞投币",
+    "分区搜索浏览"
+  ],
+  "scenarios": [
+    "在追番剧或电影时",
+    "在关注UP主新投稿时",
+    "在找鬼畜/恶搞剪辑时",
+    "在学习教程/知识区内容时",
+    "在直播互动时"
+  ],
+  "search_keywords": [
+    "Bilibili",
+    "B站",
+    "哔哩哔哩",
+    "弹幕视频网站",
+    "鬼畜视频平台",
+    "UP主创作社区",
+    "ACG视频站",
+    "番剧在线观看",
+    "知识视频",
+    "直播弹幕平台",
+    "视频投稿平台",
+    "二次元社区"
+  ],
+  "alternatives": {
+    "replaces": [
+      "优酷",
+      "爱奇艺",
+      "腾讯视频"
+    ],
+    "similar_to": [
+      "AcFun",
+      "Niconico",
+      "YouTube",
+      "西瓜视频"
+    ],
+    "pairs_with": [
+      "OBS Studio",
+      "剪映",
+      "必剪",
+      "哔哩哔哩漫画"
+    ]
+  },
+  "tech_highlights": [
+    "实时弹幕引擎",
+    "DASH/HLS 自适应流",
+    "P2P/CDN 混合分发",
+    "创作者激励系统"
+  ],
+  "cover": "covers/44da80eb-76ee-4cf8-9577-f9870d3afa2d.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-18T18:52:53",
+  "my_notes": "",
+  "capture_status": "ok"
+}
