@@ -1,0 +1,372 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-18",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2078326489221829042",
+      "author": "bindureddy",
+      "author_bio": "CEO of @abacusai - the world’s first AI super assistant and a powerful AI SuperComputer for professionals and enterprises, ex-AWS & Google",
+      "text": "Use the best, most cost optimized model based on your use-case\n\nbrowser use - 5.6 sol\nchat - 3.5 flash\nagentic (simple) - grok 4.5\nagentic (medium) - kimi k3\nagentic (complex) - fable 5\ndesign - 5.6 sol\ncoding - fable 5 and sol \nvoice - elevenLabs\nvideo - seedance 2.0\nimage - GPT 2.0\nocr - flash lite",
+      "url": "https://x.com/i/status/2078326489221829042",
+      "created_at": "2026-07-18T03:50:23Z",
+      "likes": 11,
+      "views": "942",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "作者建议按用例选最省的最强组合：浏览器用 5.6 Sol，聊天用 3.5 Flash，简单 agent 用 Grok 4.5，中等用 Kimi K3，复杂用 Fable 5；设计用 Sol，编程用 Fable 与 Sol，语音 ElevenLabs，视频 Seedance 2.0，图像 GPT 2.0，OCR 用 Flash Lite。",
+      "recommend_reason": "可执行的多模型路由表，比「一个模型打天下」更贴近真实工作流。",
+      "tags": [
+        "模型路由",
+        "成本",
+        "Agent",
+        "选型"
+      ],
+      "title": "按场景选模型：浏览器用 Sol，简单 Agent 用 Grok，复杂用 Fable",
+      "rank": 1
+    },
+    {
+      "id": "2078326224594849828",
+      "author": "yangyi",
+      "author_bio": "",
+      "text": "ai一来 大家都变了\n测试去写代码\n程序想干产品\n产品要学营销\n营销想当老板\n老板做自媒体\n自媒体干评测",
+      "url": "https://x.com/i/status/2078326224594849828",
+      "created_at": "2026-07-18T03:49:20Z",
+      "likes": 3,
+      "views": "394",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "ai一来 大家都变了：测试去写代码，程序想干产品，产品要学营销，营销想当老板，老板做自媒体，自媒体干评测。",
+      "recommend_reason": "角色错位连环吐槽，一眼看见行业焦虑结构。",
+      "tags": [
+        "AI社会",
+        "职业",
+        "社区"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2078320950488297917",
+      "author": "thsottiaux",
+      "author_bio": "Codex & ChatGPT @OpenAI",
+      "text": "Oops... I did it again. \n\nEnjoy reset usage limits for all paid users for Codex and ChatGPT Work. Super grateful for an incredible team who is iterating at lightspeed and keeping the infra up as we scale faster than ever.\n\nEnjoy the weekend! https://t.co/WIuS07doKA",
+      "url": "https://x.com/i/status/2078320950488297917",
+      "created_at": "2026-07-18T03:28:22Z",
+      "likes": 3495,
+      "views": "113692",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNetqdibQAA0L_c.jpg"
+      ],
+      "summary": "作者调侃「Oops… I did it again」：所有付费用户的 Codex 与 ChatGPT Work 用量限额再次重置，感谢团队光速迭代并在扩容时稳住基础设施，祝周末愉快。",
+      "recommend_reason": "额度重置是真·生产力事件，比空洞功能清单更影响本周手感。",
+      "tags": [
+        "Codex",
+        "ChatGPT Work",
+        "额度",
+        "OpenAI"
+      ],
+      "title": "Codex / ChatGPT Work 全付费用户额度再重置，周末继续卷",
+      "rank": 3
+    },
+    {
+      "id": "2078320911934247272",
+      "author": "xiaohu",
+      "author_bio": "带你了解全球最前沿科技、AI动态...\n\nAI 精华，讲到你懂：https://t.co/nvuDIvoNg1",
+      "text": "就在刚刚\n\nCodex 再次重置了一周额度...\n\n😅",
+      "url": "https://x.com/i/status/2078320911934247272",
+      "created_at": "2026-07-18T03:28:13Z",
+      "likes": 17,
+      "views": "2824",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "就在刚刚，Codex 再次重置了一周额度…😅",
+      "recommend_reason": "与官方侧重置同框，中文用户现场体感补全。",
+      "tags": [
+        "Codex",
+        "额度",
+        "OpenAI"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2078320566923125230",
+      "author": "gkxspace",
+      "author_bio": "🌸05年连续创业者 | 专注 AI 产品 | 项目营收 7 位数+\n✨记录真实的创业路：项目复盘、踩坑总结和成长思考\n💗AI 产品构建 & AI 商业化方案 & 企业 AI 转型",
+      "text": "现在靠 AI 视频搞钱的人是真多：漫剧、带货、短剧、接商单，隔三差五就能刷到晒收益的。\n\n但干过的都知道，这行最烧钱的是废片。当想法没琢磨好就生成，一条能用的片子背后需要废好几条，钱就是这样耗没的。\n\n所以 Higgsfield 这个更新，对干这行的人是实打实的：\nSupercomputer 里的 LLM 对话免费了，头脑风暴、写 prompt、写脚本、拆分镜，聊多久都不扣积分，积分只需要生成时花。\n\n等于把最烧钱的试错环节挪进了免费区，使用方式就变成：\n先免费聊到每个镜头都想清楚，prompt 磨到位，再按生成，废片率直接打下来。\n\n当然，视频、图片生成和顶级模型还是要收费，但成本结构确实友好了一大截。",
+      "url": "https://x.com/i/status/2078320566923125230",
+      "created_at": "2026-07-18T03:26:51Z",
+      "likes": 3,
+      "views": "491",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "作者观察 AI 视频赚钱多但废片最烧钱。Higgsfield 更新：Supercomputer 里 LLM 对话免费，头脑风暴、写 prompt/脚本/分镜不扣积分，积分只在生成时花；先免费聊清镜头再生成，废片率可降。视频/图片与顶级模型仍收费，但成本结构更友好。",
+      "recommend_reason": "把「试错免费、生成付费」讲清楚，对 AI 视频成本结构很实在。",
+      "tags": [
+        "Higgsfield",
+        "AI视频",
+        "成本",
+        "产品"
+      ],
+      "title": "Higgsfield 把脚本/分镜 LLM 对话改免费，废片成本下移",
+      "rank": 5
+    },
+    {
+      "id": "2078320455845573109",
+      "author": "GoSailGlobal",
+      "author_bio": "Show In Public ｜ SaaS 出海 ｜ 克尔凯郭尔种草🌿\n\nSkills hub：https://t.co/x1VU8wWNj1\n博客：https://t.co/ajYYIXGqFg\n\n🤝 合作DM：GoSail_AI\n📮：m17551076169@gmail.com\n\nMCN：collab@gosail",
+      "text": "问了kaifu老师@kaifulee 两问题\n\n1、国内基模相比海外基模，存在的机会点\n\n2、AI native 和 AI Native Company到底是啥\n\n🥹录的视频一般 哈哈 见谅 https://t.co/FS9uAqNMaX",
+      "url": "https://x.com/i/status/2078320455845573109",
+      "created_at": "2026-07-18T03:26:24Z",
+      "likes": 0,
+      "views": "254",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2078316892008366080/vid/avc1/320x568/d6Wg4Y5VcqcctXaU.mp4?tag=29"
+      ],
+      "summary": "问了李开复老师两个问题：1）国内基模相对海外基模的机会点；2）AI native 与 AI Native Company 到底是什么。附视频，自嘲录得一般。",
+      "recommend_reason": "产业口径源头访谈，两个问题都卡在战略关键词上。",
+      "tags": [
+        "基模",
+        "AI Native",
+        "李开复",
+        "访谈"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2078319826263474481",
+      "author": "elonmusk",
+      "author_bio": "Starmind",
+      "text": "Try Grok 4.5",
+      "url": "https://x.com/i/status/2078319826263474481",
+      "created_at": "2026-07-18T03:23:54Z",
+      "likes": 1197,
+      "views": "596036",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "试试 Grok 4.5。",
+      "recommend_reason": "马斯克亲自点名推 Grok 4.5，传播与产品信号合一。",
+      "tags": [
+        "Grok 4.5",
+        "xAI",
+        "产品"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2078312719367971010",
+      "author": "oran_ge",
+      "author_bio": "we are already living in science fiction. building the os for it",
+      "text": "Fable 5 今天正式确定永久会包含在 Max 计划中\n如果我们站在多年以后的未来看向现在\nFable 5 不过是智能发展史上的一粒普通的尘埃\n只是 A 社实在太抓马太喜欢搞事情了\n其实没有 A 社也会有 O 社 K 社训练出这样的模型\n大模型和大多数技术一样，是人类集体智慧和极致工程的产物\n并没有什么独家秘籍",
+      "url": "https://x.com/i/status/2078312719367971010",
+      "created_at": "2026-07-18T02:55:40Z",
+      "likes": 7,
+      "views": "2538",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "Fable 5 今天正式确定永久包含在 Max 计划中。若站在多年后的未来回看，Fable 5 不过是智能史上普通尘埃；只是 Anthropic 太抓马。没有 A 社也会有 O 社/K 社训出类似模型——大模型是集体智慧与极致工程，并无独家秘籍。",
+      "recommend_reason": "把「永久进订阅」从营销叙事拉回技术史常识，降温刚好。",
+      "tags": [
+        "Fable 5",
+        "Anthropic",
+        "产业观察"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2078310751878647932",
+      "author": "thsottiaux",
+      "author_bio": "Codex & ChatGPT @OpenAI",
+      "text": "GPT-5.6 Sol confirmed to be an extremely good model",
+      "url": "https://x.com/i/status/2078310751878647932",
+      "created_at": "2026-07-18T02:47:51Z",
+      "likes": 5078,
+      "views": "292768",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "GPT-5.6 Sol 已被证实是一款非常优秀的模型。",
+      "recommend_reason": "OpenAI Codex 侧核心人物一句话定调，信息密度极高。",
+      "tags": [
+        "GPT-5.6 Sol",
+        "OpenAI",
+        "评测"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2078308525265273126",
+      "author": "JulianGoldieSEO",
+      "author_bio": "Make money with AI 👉 https://t.co/Ppmk5h9rw3\nFree SEO Strategy Session → https://t.co/wRv8ROcoTP",
+      "text": "Google AI Studio just got 3 free updates that almost nobody is talking about.\n\nThey're simple.\n\nThey're practical.\n\nAnd they make AI Studio much more than a place to test prompts. https://t.co/v3py7AS9RS",
+      "url": "https://x.com/i/status/2078308525265273126",
+      "created_at": "2026-07-18T02:39:00Z",
+      "likes": 7,
+      "views": "1377",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2078066976501694464/vid/avc1/480x270/NkWoKkPDJ9UXi7Sg.mp4?tag=29"
+      ],
+      "summary": "作者称 Google AI Studio 刚上了三个几乎没人讨论的免费更新：简单、实用，让 AI Studio 远不只是测提示词的地方。",
+      "recommend_reason": "免费产品面更新信号，适合 builder 跟进能力边界。",
+      "tags": [
+        "Google AI Studio",
+        "产品",
+        "免费",
+        "Builder"
+      ],
+      "title": "Google AI Studio 三个免费更新：从试 prompt 走向可交付",
+      "rank": 10
+    },
+    {
+      "id": "2078307057862906189",
+      "author": "LufzzLiz",
+      "author_bio": "用代码表达思想，用 AI 拓展想象，从生活汲取能量。\n探索阅读与创造的边界。输出有温度的洞察。 致力于降低 AI 使用门槛，让更多人受益。\n某大厂架构师-多模态、模型私有化领域\n关注AI产品、AI结合教育、艺术创作领域\n📮: lanshulan007@gmail.com",
+      "text": "哈哈，还不到19号，claude就宣布继续续杯fable 5 ，max及以上订阅用户永久可以用fable 5了\n\n感谢GPT-5.6、kimi k3 ，让claude 没了fable 5，其他啥也不是😂",
+      "url": "https://x.com/i/status/2078307057862906189",
+      "created_at": "2026-07-18T02:33:10Z",
+      "likes": 0,
+      "views": "303",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "哈哈，还不到 19 号，Claude 就宣布继续续杯 Fable 5，Max 及以上订阅用户永久可用 Fable 5 了。感谢 GPT-5.6、Kimi K3，让 Claude 没了 Fable 5 其他啥也不是😂",
+      "recommend_reason": "竞品压力下的订阅定调，吐槽里带着产业真相。",
+      "tags": [
+        "Fable 5",
+        "Claude",
+        "竞争",
+        "订阅"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2078305954605772954",
+      "author": "vista8",
+      "author_bio": "喜欢摇滚乐、爱钓鱼的PM",
+      "text": "厉害了，Kimi K3 真可以一句话开发个在线视频编辑器...\n\n提示词：“用乔木goal和PRD skill写一个在线版的视频编辑工具，类似capcut(剪映)网页版，域名叫 cut .qiaomu.ai ，用乔木开发skill开发”\n\n虽然很粗糙，导出也有问题，但做到这种程度也是出乎意料。\n\n在线Demo：https://t.co/R1Crim5D6m\n开源地址：https://t.co/DN3w9sJDjb",
+      "url": "https://x.com/i/status/2078305954605772954",
+      "created_at": "2026-07-18T02:28:47Z",
+      "likes": 6,
+      "views": "1734",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNeaPDxaQAA9Joy.jpg",
+        "https://pbs.twimg.com/media/HNefVE_bYAA7uxF.jpg"
+      ],
+      "summary": "作者用乔木 goal/PRD/开发 skill，一句话要 K3 做类似剪映网页版的在线视频编辑器（域名 cut.qiaomu.ai）。虽粗糙、导出有问题，完成度仍超预期，并附在线 Demo 与开源地址。",
+      "recommend_reason": "可点开的交付物比空口 SOTA 更硬，展示 K3 工程交付上限。",
+      "tags": [
+        "Kimi K3",
+        "视频编辑",
+        "Skill",
+        "Demo"
+      ],
+      "title": "Kimi K3 一句话搓出在线视频编辑器 Demo（含开源）",
+      "rank": 12
+    },
+    {
+      "id": "2078303477630148741",
+      "author": "op7418",
+      "author_bio": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design）\n\n歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "text": "果不其然，Claude 宣布 Fable 5 将会长期内置在 max 和 team premium 的计划里面，限额是 50%。\n\n估计是由于 OpenAI 和 Kimi K3 的推出的压力带来的，这次不延期直接内置了。\n\nPRO 和其他 team 会员只能通过积分访问。会一次性获得 100 美元的积分 https://t.co/nvLvBIyAsc",
+      "url": "https://x.com/i/status/2078303477630148741",
+      "created_at": "2026-07-18T02:18:56Z",
+      "likes": 54,
+      "views": "23876",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNed_pZbEAAdxne.jpg"
+      ],
+      "summary": "果不其然，Claude 宣布 Fable 5 将会长期内置在 Max 和 Team Premium 计划里，限额 50%。估计是 OpenAI 与 Kimi K3 的压力，这次不延期直接内置。Pro 和其他 Team 会员只能靠积分访问，会一次性获得 100 美元积分。",
+      "recommend_reason": "订阅结构与竞品压力一次说清，选型决策信息完整。",
+      "tags": [
+        "Claude Fable 5",
+        "Anthropic",
+        "订阅",
+        "定价"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2078283170269757454",
+      "author": "xiaoxiaodong01",
+      "author_bio": "国际，不知名，顶级图片提示词专家\n遇事不决 可问东风\n月亮岛边上的AI爱好者 星球+\nWeChat:：newbe2012",
+      "text": "GPT2 x 旧报纸 x 信息图 x 早安 x 美学提示词\n\n其实一大早起来了\n再等tibo 做AI 算力百亿补贴\n\n其实出了两个版本的旧报纸风格\n先发布这款带有彩色插画的吧\n\nGPT-image2 只要遇到日报这种词汇\n感觉立马美学模式，都被日报牵着走了\n神奇\n\n提示词见评论区吧  👇 https://t.co/eblZuV9DJH",
+      "url": "https://x.com/i/status/2078283170269757454",
+      "created_at": "2026-07-18T00:58:15Z",
+      "likes": 8,
+      "views": "1012",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNeLKZmaAAAWB1r.jpg",
+        "https://pbs.twimg.com/media/HNeLKZwaMAAlO11.jpg",
+        "https://pbs.twimg.com/media/HNeLNCYbgAATJo4.jpg",
+        "https://pbs.twimg.com/media/HNeLOktbwAApqxO.jpg"
+      ],
+      "summary": "GPT2 x 旧报纸 x 信息图 x 早安 x 美学提示词。一大早起来，还等 tibo 做 AI 算力百亿补贴；出了两版旧报纸风，先发带彩色插画这款。GPT-image2 只要碰到「日报」这类词就容易进入美学模式，挺神奇。提示词见评论区。",
+      "recommend_reason": "图像提示词与「日报」语义的趣味耦合，创作者可直接跟风格。",
+      "tags": [
+        "图像生成",
+        "提示词",
+        "信息图",
+        "GPT"
+      ],
+      "rank": 14
+    },
+    {
+      "id": "2078267832748704191",
+      "author": "kumiko_shiraki",
+      "author_bio": "AIで仕事をやりやすく | Claude/ChatGPT/NotebookLMで仕事環境を整える | 著書３冊(MdN) | 公認会計士(BIG4)→シンガポール在住の経営者＆２児の母",
+      "text": "【Gemini Notebook】突然の名称変更でXがざわついてますが中身もパワーアップするらしくたのしみ！↓\n01 Google連携による情報収集\n02 AIがコードを書いてデータ分析\n03 実務で使える多彩な成果物\n04 プロジェクトを整理するフォルダ機能 https://t.co/qMVQ6ryla9",
+      "url": "https://x.com/i/status/2078267832748704191",
+      "created_at": "2026-07-17T23:57:18Z",
+      "likes": 15,
+      "views": "2657",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNd8ASGbQAAwGlI.jpg",
+        "https://pbs.twimg.com/media/HNd8BLobEAASOO_.jpg",
+        "https://pbs.twimg.com/media/HNd8DBWbQAAZIOD.jpg",
+        "https://pbs.twimg.com/media/HNd8D_paMAA7LMx.jpg"
+      ],
+      "summary": "【Gemini Notebook】突然改名让 X 上吵起来，但内容也在加力，值得期待：① Google 联动做信息收集；② AI 写代码做数据分析；③ 实务向多样产出物；④ 用文件夹整理项目。",
+      "recommend_reason": "NotebookLM 品牌并入后的能力清单，产品跟进用。",
+      "tags": [
+        "Gemini Notebook",
+        "Google",
+        "NotebookLM",
+        "产品"
+      ],
+      "rank": 15
+    }
+  ],
+  "generated_at": "2026-07-18T04:03:06Z",
+  "selection": {
+    "target_count": 30,
+    "max_count": 30,
+    "per_run_max": 15,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 15,
+    "last_batch_added": 15,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤15；单日≤30不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
