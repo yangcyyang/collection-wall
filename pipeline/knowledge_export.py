@@ -59,6 +59,10 @@ def extract_card(path: Path, vault_root: Path) -> dict | None:
     title_m = H1_RE.search(body)
     if not title_m:
         return None
+    title = title_m.group(1).strip()
+    head = body[:600]
+    if title.startswith("thread_") or ("message_id:" in head and "user_id:" in head):
+        return None  # session 元数据碎片卡（CLB 提取事故模式），不进导出
     section_m = SECTION_RE.search(body)
     summary = re.sub(r"\s+", " ", section_m.group(1)).strip() if section_m else ""
     points = [p.strip()[:POINT_LEN_MAX] for p in POINT_RE.findall(body)[:POINTS_MAX]]
@@ -66,7 +70,7 @@ def extract_card(path: Path, vault_root: Path) -> dict | None:
     return {
         "unit_id": meta["unit_id"],
         "type": meta["unit_type"],
-        "title": title_m.group(1).strip(),
+        "title": title,
         "summary": summary[:SUMMARY_MAX],
         "points": points,
         "source": Path(meta.get("source_file", "")).name.removesuffix(".md"),
