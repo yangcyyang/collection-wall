@@ -49,12 +49,13 @@ const typesPresent = [...new Set(days.flatMap((d) => d.items.map((i) => i.type))
           </div>
 
           <section class="twitter-timeline knowledge-timeline" aria-label="最近入库">
-            {days.map((day) => (
-              <div class="day-group" data-day>
-                <div class="day-heading">
+            {days.map((day, index) => (
+              <details class="day-group" data-day open={index === 0}>
+                <summary class="day-heading">
+                  <span class="day-toggle-icon" aria-hidden="true">▾</span>
                   <h2>{formatDayLabel(day.date).split(" ")[0]}</h2>
                   <p>{formatDayLabel(day.date).split(" ")[1]} · 入库 {day.items.length} 条</p>
-                </div>
+                </summary>
                 <div class="timeline-items">
                   {day.items.map((item) => (
                     <article class={`timeline-item ${TYPE_META[item.type]?.className ?? ""}`} data-tweet data-tags={item.type}>
@@ -75,7 +76,7 @@ const typesPresent = [...new Set(days.flatMap((d) => d.items.map((i) => i.type))
                     </article>
                   ))}
                 </div>
-              </div>
+              </details>
             ))}
           </section>
         </>
@@ -100,12 +101,26 @@ const typesPresent = [...new Set(days.flatMap((d) => d.items.map((i) => i.type))
         });
       }
 
+      const autoOpened = new Set();
+      function syncAutoExpand() {
+        autoOpened.forEach((el) => { el.open = false; });
+        autoOpened.clear();
+        if (!activeTag) return;
+        dayGroups.forEach((el) => {
+          if (el.hidden || el.open) return;
+          if (!el.querySelector("[data-tweet]:not([hidden])")) return;
+          el.open = true;
+          autoOpened.add(el);
+        });
+      }
+
       filterButtons.forEach((button) => button.addEventListener("click", () => {
         const nextTag = button.getAttribute("data-tag-filter") ?? "";
         activeTag = activeTag === nextTag ? "" : nextTag;
         filterButtons.forEach((item) => item.classList.toggle("is-selected", item === button && activeTag !== ""));
         if (!activeTag) filterButtons[0]?.classList.add("is-selected");
         refresh();
+        syncAutoExpand();
       }));
     </script>
   </body>
