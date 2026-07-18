@@ -78,7 +78,7 @@ def extract_card(path: Path, vault_root: Path) -> dict | None:
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--days", type=int, default=14)
+    ap.add_argument("--days", type=int, default=30)
     ap.add_argument("--vault-dir", default=DEFAULT_VAULT_UNITS)
     ap.add_argument("--out", default="data/knowledge/recent.json")
     args = ap.parse_args()

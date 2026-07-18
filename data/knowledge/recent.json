@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-18T09:23:10Z",
-  "window_days": 14,
-  "cutoff": "2026-07-04",
-  "total_pool": 8737,
-  "count": 20,
+  "generated_at": "2026-07-18T10:08:41Z",
+  "window_days": 30,
+  "cutoff": "2026-06-18",
+  "total_pool": 9102,
+  "count": 264,
   "items": [
     {
       "unit_id": "SKL-20260716-INBOX-001",
@@ -277,6 +277,742 @@
       "vault_path": "400知识库/事实知识库/10_内容单元/CAS_案例/单人技术服务者可用AI内容流水线把内容时间压缩到20分钟.md"
     },
     {
+      "unit_id": "UNIT-thread_m-CLB-SOL-004",
+      "type": "SOL",
+      "title": "thread_mpfm4oeie3wki9lw_context_20260521_67f3628ac",
+      "summary": "- message_id: `0001779374392798-000091-0c6be422`",
+      "points": [
+        "message_id: `0001779374392798-000091-0c6be422`",
+        "user_id: `default-user`"
+      ],
+      "source": "thread_mpfm4oeie3wki9lw_context_20260521_67f3628acbce",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SOL_方案/UNIT-thread_m-CLB-SOL-004.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-SOL-001",
+      "type": "SOL",
+      "title": "thread_slock_23b3d5468683c61de1_context_20260508_5",
+      "summary": "- message_id: `0001778251535000-000990-20be96a6`",
+      "points": [
+        "message_id: `0001778251535000-000990-20be96a6`",
+        "user_id: `default-user`",
+        "菜单显示：[1] 启动 → [2] 安装 → [4] 查看状态…（跳过了[3]）"
+      ],
+      "source": "thread_slock_23b3d5468683c61de1_context_20260508_5b245f593ab8",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SOL_方案/UNIT-thread_s-CLB-SOL-001.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-SOL-004",
+      "type": "SOL",
+      "title": "thread_slock_a51c6608992db46bc1_context_20260516_d",
+      "summary": "- message_id: `0001778902690000-001347-7d093bf2`",
+      "points": [
+        "message_id: `0001778902690000-001347-7d093bf2`",
+        "user_id: `default-user`"
+      ],
+      "source": "thread_slock_a51c6608992db46bc1_context_20260516_d23ef2ee4d9c",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SOL_方案/UNIT-thread_s-CLB-SOL-004.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-SOL-005",
+      "type": "SOL",
+      "title": "thread_slock_eca267bb56f7bc7239_context_20260504_b",
+      "summary": "- message_id: `0001777886910000-000602-583215e6`",
+      "points": [
+        "message_id: `0001777886910000-000602-583215e6`",
+        "user_id: `default-user`"
+      ],
+      "source": "thread_slock_eca267bb56f7bc7239_context_20260504_b6a4d2a99833",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SOL_方案/UNIT-thread_s-CLB-SOL-005.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-SOL-007",
+      "type": "SOL",
+      "title": "thread_slock_eca267bb56f7bc7239_context_20260504_b",
+      "summary": "- message_id: `0001777887150000-000607-82060145`",
+      "points": [
+        "message_id: `0001777887150000-000607-82060145`",
+        "user_id: `default-user`",
+        "Ch 1 金句补全（加了引号）"
+      ],
+      "source": "thread_slock_eca267bb56f7bc7239_context_20260504_b6a4d2a99833",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SOL_方案/UNIT-thread_s-CLB-SOL-007.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-SOL-008",
+      "type": "SOL",
+      "title": "thread_slock_eca267bb56f7bc7239_context_20260504_b",
+      "summary": "- message_id: `0001777887195000-000608-4da3fa75`",
+      "points": [
+        "message_id: `0001777887195000-000608-4da3fa75`",
+        "user_id: `default-user`",
+        "**事实错误修正**（3处）："
+      ],
+      "source": "thread_slock_eca267bb56f7bc7239_context_20260504_b6a4d2a99833",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SOL_方案/UNIT-thread_s-CLB-SOL-008.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-SOL-009",
+      "type": "SOL",
+      "title": "thread_slock_eca267bb56f7bc7239_context_20260504_b",
+      "summary": "- message_id: `0001777887418000-000609-2c6c602e`",
+      "points": [
+        "message_id: `0001777887418000-000609-2c6c602e`",
+        "user_id: `default-user`",
+        "✅ Ch 1 金句补全引号：\"而是已经在发生。\""
+      ],
+      "source": "thread_slock_eca267bb56f7bc7239_context_20260504_b6a4d2a99833",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SOL_方案/UNIT-thread_s-CLB-SOL-009.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-SOL-010",
+      "type": "SOL",
+      "title": "thread_slock_eca267bb56f7bc7239_context_20260504_b",
+      "summary": "- message_id: `0001777902254000-000611-5fac6917`",
+      "points": [
+        "message_id: `0001777902254000-000611-5fac6917`",
+        "user_id: `default-user`",
+        "Ch 1 标题：`工位上消失的 时间` → `工位上消失的时间`（删多余空格）"
+      ],
+      "source": "thread_slock_eca267bb56f7bc7239_context_20260504_b6a4d2a99833",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SOL_方案/UNIT-thread_s-CLB-SOL-010.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-SOL-011",
+      "type": "SOL",
+      "title": "thread_slock_a51c6608992db46bc1_context_20260516_d",
+      "summary": "- message_id: `0001778903293000-001357-095c6722`",
+      "points": [
+        "message_id: `0001778903293000-001357-095c6722`",
+        "user_id: `default-user`"
+      ],
+      "source": "thread_slock_a51c6608992db46bc1_context_20260516_d23ef2ee4d9c",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SOL_方案/UNIT-thread_s-CLB-SOL-011.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-SOL-013",
+      "type": "SOL",
+      "title": "thread_slock_23b3d5468683c61de1_context_20260508_5",
+      "summary": "- message_id: `0001778252307000-001007-ac1f93fa`",
+      "points": [
+        "message_id: `0001778252307000-001007-ac1f93fa`",
+        "user_id: `default-user`"
+      ],
+      "source": "thread_slock_23b3d5468683c61de1_context_20260508_5b245f593ab8",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SOL_方案/UNIT-thread_s-CLB-SOL-013.md"
+    },
+    {
+      "unit_id": "UNIT-thread_m-CLB-SKL-001",
+      "type": "SKL",
+      "title": "thread_mozyqh6a89gza3ld_context_20260510_00b788465",
+      "summary": "- message_id: `0001778431695009-000024-a8ff532c`",
+      "points": [
+        "message_id: `0001778431695009-000024-a8ff532c`",
+        "user_id: `default-user`",
+        "**suckless lock** —— 来自 [suckless.org](https://tools.suckless.org/slock/) 的极简 X1"
+      ],
+      "source": "thread_mozyqh6a89gza3ld_context_20260510_00b788465788",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SKL_技能经验/UNIT-thread_m-CLB-SKL-001.md"
+    },
+    {
+      "unit_id": "UNIT-thread_m-CLB-SKL-002",
+      "type": "SKL",
+      "title": "thread_mp7ap0hcnk6ki2ea_context_20260515_1ac1b6de3",
+      "summary": "- message_id: `0001778866899907-000003-bf42041a`",
+      "points": [
+        "message_id: `0001778866899907-000003-bf42041a`",
+        "user_id: `default-user`"
+      ],
+      "source": "thread_mp7ap0hcnk6ki2ea_context_20260515_1ac1b6de3a44",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SKL_技能经验/UNIT-thread_m-CLB-SKL-002.md"
+    },
+    {
+      "unit_id": "UNIT-thread_m-CLB-SKL-003",
+      "type": "SKL",
+      "title": "thread_mpakxelgbbbnziwi_context_20260503_f2e54f877",
+      "summary": "- message_id: `0001777831571000-000007-21054341`",
+      "points": [
+        "message_id: `0001777831571000-000007-21054341`",
+        "user_id: `default-user`",
+        "**A卷** → 科普入门（认知地图：产业→微观→案例→心态）"
+      ],
+      "source": "thread_mpakxelgbbbnziwi_context_20260503_f2e54f877817",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SKL_技能经验/UNIT-thread_m-CLB-SKL-003.md"
+    },
+    {
+      "unit_id": "UNIT-thread_m-CLB-SKL-004",
+      "type": "SKL",
+      "title": "thread_mpakxelgbbbnziwi_context_20260503_f2e54f877",
+      "summary": "- message_id: `0001777902598000-000008-bc276011`",
+      "points": [
+        "message_id: `0001777902598000-000008-bc276011`",
+        "user_id: `default-user`"
+      ],
+      "source": "thread_mpakxelgbbbnziwi_context_20260503_f2e54f877817",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SKL_技能经验/UNIT-thread_m-CLB-SKL-004.md"
+    },
+    {
+      "unit_id": "UNIT-thread_m-CLB-SKL-006",
+      "type": "SKL",
+      "title": "thread_mpfm4oeie3wki9lw_context_20260521_67f3628ac",
+      "summary": "- message_id: `0001779374558244-000094-28a419c5`",
+      "points": [
+        "message_id: `0001779374558244-000094-28a419c5`",
+        "user_id: `default-user`"
+      ],
+      "source": "thread_mpfm4oeie3wki9lw_context_20260521_67f3628acbce",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SKL_技能经验/UNIT-thread_m-CLB-SKL-006.md"
+    },
+    {
+      "unit_id": "UNIT-thread_m-CLB-SKL-008",
+      "type": "SKL",
+      "title": "thread_mpfm4oeie3wki9lw_context_20260521_67f3628ac",
+      "summary": "- message_id: `0001779374857139-000097-ac6e3b9b`",
+      "points": [
+        "message_id: `0001779374857139-000097-ac6e3b9b`",
+        "user_id: `default-user`"
+      ],
+      "source": "thread_mpfm4oeie3wki9lw_context_20260521_67f3628acbce",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SKL_技能经验/UNIT-thread_m-CLB-SKL-008.md"
+    },
+    {
+      "unit_id": "UNIT-thread_m-CLB-SKL-009",
+      "type": "SKL",
+      "title": "thread_mpfm4oeie3wki9lw_context_20260521_67f3628ac",
+      "summary": "- message_id: `0001779374857201-000098-0ad52f40`",
+      "points": [
+        "message_id: `0001779374857201-000098-0ad52f40`",
+        "user_id: `default-user`"
+      ],
+      "source": "thread_mpfm4oeie3wki9lw_context_20260521_67f3628acbce",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SKL_技能经验/UNIT-thread_m-CLB-SKL-009.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-SKL-002",
+      "type": "SKL",
+      "title": "thread_slock_23b3d5468683c61de1_context_20260508_5",
+      "summary": "- message_id: `0001778251631000-000991-1cfd0a48`",
+      "points": [
+        "message_id: `0001778251631000-000991-1cfd0a48`",
+        "user_id: `default-user`",
+        "菜单：[1]启动 → [2]安装 → [3]查看状态 → [4]编辑配置 → [5]配置Key → [6]更新 → [7]停止 → [8]说明"
+      ],
+      "source": "thread_slock_23b3d5468683c61de1_context_20260508_5b245f593ab8",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SKL_技能经验/UNIT-thread_s-CLB-SKL-002.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-SKL-007",
+      "type": "SKL",
+      "title": "thread_slock_a51c6608992db46bc1_context_20260516_d",
+      "summary": "- message_id: `0001778903193000-001353-1d60f5d4`",
+      "points": [
+        "message_id: `0001778903193000-001353-1d60f5d4`",
+        "user_id: `default-user`"
+      ],
+      "source": "thread_slock_a51c6608992db46bc1_context_20260516_d23ef2ee4d9c",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SKL_技能经验/UNIT-thread_s-CLB-SKL-007.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-SKL-009",
+      "type": "SKL",
+      "title": "thread_slock_a51c6608992db46bc1_context_20260516_d",
+      "summary": "- message_id: `0001778903244000-001355-53dc2f2b`",
+      "points": [
+        "message_id: `0001778903244000-001355-53dc2f2b`",
+        "user_id: `default-user`"
+      ],
+      "source": "thread_slock_a51c6608992db46bc1_context_20260516_d23ef2ee4d9c",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SKL_技能经验/UNIT-thread_s-CLB-SKL-009.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-SKL-010",
+      "type": "SKL",
+      "title": "thread_slock_a51c6608992db46bc1_context_20260516_d",
+      "summary": "- message_id: `0001778903260000-001356-98d0d520`",
+      "points": [
+        "message_id: `0001778903260000-001356-98d0d520`",
+        "user_id: `default-user`"
+      ],
+      "source": "thread_slock_a51c6608992db46bc1_context_20260516_d23ef2ee4d9c",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SKL_技能经验/UNIT-thread_s-CLB-SKL-010.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-SKL-011",
+      "type": "SKL",
+      "title": "thread_slock_23b3d5468683c61de1_context_20260508_5",
+      "summary": "- message_id: `0001778252263000-001005-f9b34392`",
+      "points": [
+        "message_id: `0001778252263000-001005-f9b34392`",
+        "user_id: `default-user`"
+      ],
+      "source": "thread_slock_23b3d5468683c61de1_context_20260508_5b245f593ab8",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SKL_技能经验/UNIT-thread_s-CLB-SKL-011.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-SKL-012",
+      "type": "SKL",
+      "title": "thread_slock_23b3d5468683c61de1_context_20260508_5",
+      "summary": "- message_id: `0001778252272000-001006-3af29308`",
+      "points": [
+        "message_id: `0001778252272000-001006-3af29308`",
+        "user_id: `default-user`",
+        "创建飞书应用 → 获取 App ID + App Secret"
+      ],
+      "source": "thread_slock_23b3d5468683c61de1_context_20260508_5b245f593ab8",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SKL_技能经验/UNIT-thread_s-CLB-SKL-012.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-SKL-013",
+      "type": "SKL",
+      "title": "thread_slock_a51c6608992db46bc1_context_20260516_d",
+      "summary": "- message_id: `0001778903353000-001359-0d352640`",
+      "points": [
+        "message_id: `0001778903353000-001359-0d352640`",
+        "user_id: `default-user`",
+        "把 `{hasCliBlock && <CliOutputBlock ... />}` 这一整块注释掉/删掉 — CLI Output 从主对话消失"
+      ],
+      "source": "thread_slock_a51c6608992db46bc1_context_20260516_d23ef2ee4d9c",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SKL_技能经验/UNIT-thread_s-CLB-SKL-013.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-SKL-014",
+      "type": "SKL",
+      "title": "thread_slock_a51c6608992db46bc1_context_20260516_d",
+      "summary": "- message_id: `0001778903559000-001361-e1cc562e`",
+      "points": [
+        "message_id: `0001778903559000-001361-e1cc562e`",
+        "user_id: `default-user`"
+      ],
+      "source": "thread_slock_a51c6608992db46bc1_context_20260516_d23ef2ee4d9c",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SKL_技能经验/UNIT-thread_s-CLB-SKL-014.md"
+    },
+    {
+      "unit_id": "UNIT-thread_m-CLB-QST-003",
+      "type": "QST",
+      "title": "thread_mp7ap0hcnk6ki2ea_context_20260515_1ac1b6de3",
+      "summary": "- message_id: `0001778867371092-000004-d91fa40e`",
+      "points": [
+        "message_id: `0001778867371092-000004-d91fa40e`",
+        "user_id: `default-user`"
+      ],
+      "source": "thread_mp7ap0hcnk6ki2ea_context_20260515_1ac1b6de3a44",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/QST_问题/UNIT-thread_m-CLB-QST-003.md"
+    },
+    {
+      "unit_id": "UNIT-thread_m-CLB-QST-005",
+      "type": "QST",
+      "title": "thread_mpfm4oeie3wki9lw_context_20260521_67f3628ac",
+      "summary": "- message_id: `0001779374392849-000092-db3b0f3e`",
+      "points": [
+        "message_id: `0001779374392849-000092-db3b0f3e`",
+        "user_id: `default-user`",
+        "**叙事**：痛点驱动型"
+      ],
+      "source": "thread_mpfm4oeie3wki9lw_context_20260521_67f3628acbce",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/QST_问题/UNIT-thread_m-CLB-QST-005.md"
+    },
+    {
+      "unit_id": "UNIT-thread_m-CLB-QST-007",
+      "type": "QST",
+      "title": "thread_mpfm4oeie3wki9lw_context_20260521_67f3628ac",
+      "summary": "- message_id: `0001779374641889-000096-297ea5f0`",
+      "points": [
+        "message_id: `0001779374641889-000096-297ea5f0`",
+        "user_id: `default-user`"
+      ],
+      "source": "thread_mpfm4oeie3wki9lw_context_20260521_67f3628acbce",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/QST_问题/UNIT-thread_m-CLB-QST-007.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-QST-003",
+      "type": "QST",
+      "title": "thread_slock_a51c6608992db46bc1_context_20260516_d",
+      "summary": "- message_id: `0001778902674000-001346-dc9f42bd`",
+      "points": [
+        "message_id: `0001778902674000-001346-dc9f42bd`",
+        "user_id: `default-user`"
+      ],
+      "source": "thread_slock_a51c6608992db46bc1_context_20260516_d23ef2ee4d9c",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/QST_问题/UNIT-thread_s-CLB-QST-003.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-QST-004",
+      "type": "QST",
+      "title": "thread_slock_eca267bb56f7bc7239_context_20260504_b",
+      "summary": "- message_id: `0001777886871000-000600-60114106`",
+      "points": [
+        "message_id: `0001777886871000-000600-60114106`",
+        "user_id: `default-user`"
+      ],
+      "source": "thread_slock_eca267bb56f7bc7239_context_20260504_b6a4d2a99833",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/QST_问题/UNIT-thread_s-CLB-QST-004.md"
+    },
+    {
+      "unit_id": "UNIT-thread_m-CLB-OPI-010",
+      "type": "OPI",
+      "title": "thread_mpfm4oeie3wki9lw_context_20260521_67f3628ac",
+      "summary": "- message_id: `0001779374923652-000099-8bea90ad`",
+      "points": [
+        "message_id: `0001779374923652-000099-8bea90ad`",
+        "user_id: `default-user`"
+      ],
+      "source": "thread_mpfm4oeie3wki9lw_context_20260521_67f3628acbce",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/OPI_观点/UNIT-thread_m-CLB-OPI-010.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-OPI-002",
+      "type": "OPI",
+      "title": "thread_slock_eca267bb56f7bc7239_context_20260504_b",
+      "summary": "- message_id: `0001777886699000-000594-81863f9e`",
+      "points": [
+        "message_id: `0001777886699000-000594-81863f9e`",
+        "user_id: `default-user`",
+        "国外 7 家（Midjourney/Cursor/ElevenLabs/Lovable/Bolt/Base44/Lemonade）"
+      ],
+      "source": "thread_slock_eca267bb56f7bc7239_context_20260504_b6a4d2a99833",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/OPI_观点/UNIT-thread_s-CLB-OPI-002.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-OPI-006",
+      "type": "OPI",
+      "title": "thread_slock_23b3d5468683c61de1_context_20260508_5",
+      "summary": "- message_id: `0001778251833000-000998-680a8fea`",
+      "points": [
+        "message_id: `0001778251833000-000998-680a8fea`",
+        "user_id: `default-user`",
+        "**DeepSeek**：env var = `DEEPSEEK_API_KEY`，Key 格式 `sk-xxx`"
+      ],
+      "source": "thread_slock_23b3d5468683c61de1_context_20260508_5b245f593ab8",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/OPI_观点/UNIT-thread_s-CLB-OPI-006.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-OPI-008",
+      "type": "OPI",
+      "title": "thread_slock_a51c6608992db46bc1_context_20260516_d",
+      "summary": "- message_id: `0001778903236000-001354-efd88c71`",
+      "points": [
+        "message_id: `0001778903236000-001354-efd88c71`",
+        "user_id: `default-user`"
+      ],
+      "source": "thread_slock_a51c6608992db46bc1_context_20260516_d23ef2ee4d9c",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/OPI_观点/UNIT-thread_s-CLB-OPI-008.md"
+    },
+    {
+      "unit_id": "UNIT-thread_m-CLB-MTH-001",
+      "type": "MTH",
+      "title": "thread_mpfm4oeie3wki9lw_context_20260521_67f3628ac",
+      "summary": "- message_id: `0001779373548708-000083-cb2c5e6d`",
+      "points": [
+        "message_id: `0001779373548708-000083-cb2c5e6d`",
+        "user_id: `default-user`"
+      ],
+      "source": "thread_mpfm4oeie3wki9lw_context_20260521_67f3628acbce",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/UNIT-thread_m-CLB-MTH-001.md"
+    },
+    {
+      "unit_id": "UNIT-thread_m-CLB-MTH-002",
+      "type": "MTH",
+      "title": "thread_mpfm4oeie3wki9lw_context_20260521_67f3628ac",
+      "summary": "- message_id: `0001779373667167-000085-f24be170`",
+      "points": [
+        "message_id: `0001779373667167-000085-f24be170`",
+        "user_id: `default-user`"
+      ],
+      "source": "thread_mpfm4oeie3wki9lw_context_20260521_67f3628acbce",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/UNIT-thread_m-CLB-MTH-002.md"
+    },
+    {
+      "unit_id": "UNIT-thread_m-CLB-MTH-003",
+      "type": "MTH",
+      "title": "thread_mpfm4oeie3wki9lw_context_20260521_67f3628ac",
+      "summary": "- message_id: `0001779373667346-000087-39cd21e8`",
+      "points": [
+        "message_id: `0001779373667346-000087-39cd21e8`",
+        "user_id: `default-user`"
+      ],
+      "source": "thread_mpfm4oeie3wki9lw_context_20260521_67f3628acbce",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/UNIT-thread_m-CLB-MTH-003.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-MTH-002",
+      "type": "MTH",
+      "title": "thread_slock_a51c6608992db46bc1_context_20260516_d",
+      "summary": "- message_id: `0001778902575000-001343-bfb03a56`",
+      "points": [
+        "message_id: `0001778902575000-001343-bfb03a56`",
+        "user_id: `default-user`"
+      ],
+      "source": "thread_slock_a51c6608992db46bc1_context_20260516_d23ef2ee4d9c",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/UNIT-thread_s-CLB-MTH-002.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-MTH-006",
+      "type": "MTH",
+      "title": "thread_slock_a51c6608992db46bc1_context_20260516_d",
+      "summary": "- message_id: `0001778903089000-001352-9865cb17`",
+      "points": [
+        "message_id: `0001778903089000-001352-9865cb17`",
+        "user_id: `default-user`"
+      ],
+      "source": "thread_slock_a51c6608992db46bc1_context_20260516_d23ef2ee4d9c",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/UNIT-thread_s-CLB-MTH-006.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-MTH-010",
+      "type": "MTH",
+      "title": "thread_slock_23b3d5468683c61de1_context_20260508_5",
+      "summary": "- message_id: `0001778252215000-001004-d8d93f6f`",
+      "points": [
+        "message_id: `0001778252215000-001004-d8d93f6f`",
+        "user_id: `default-user`",
+        "菜单显示正确 [0-11]"
+      ],
+      "source": "thread_slock_23b3d5468683c61de1_context_20260508_5b245f593ab8",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/UNIT-thread_s-CLB-MTH-010.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-MTH-014",
+      "type": "MTH",
+      "title": "thread_slock_23b3d5468683c61de1_context_20260508_5",
+      "summary": "- message_id: `0001778252333000-001008-bef12c7f`",
+      "points": [
+        "message_id: `0001778252333000-001008-bef12c7f`",
+        "user_id: `default-user`",
+        "路径：`u-Hermes/web/platforms.html` + `u-claw/web/platforms.html`（两个产品各一份，内容基本相同，只在"
+      ],
+      "source": "thread_slock_23b3d5468683c61de1_context_20260508_5b245f593ab8",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/UNIT-thread_s-CLB-MTH-014.md"
+    },
+    {
+      "unit_id": "UNIT-thread_m-CLB-CON-002",
+      "type": "CON",
+      "title": "thread_mozyqh6a89gza3ld_context_20260510_00b788465",
+      "summary": "- message_id: `0001778431748847-000027-d89b5aa9`",
+      "points": [
+        "message_id: `0001778431748847-000027-d89b5aa9`",
+        "user_id: `default-user`",
+        "**Chat is the workspace** —— 频道/DM/Thread 就是工作界面，人和 Agent 共享同一个上下文，协作零开销"
+      ],
+      "source": "thread_mozyqh6a89gza3ld_context_20260510_00b788465788",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/UNIT-thread_m-CLB-CON-002.md"
+    },
+    {
+      "unit_id": "UNIT-thread_m-CLB-CON-011",
+      "type": "CON",
+      "title": "thread_mpfm4oeie3wki9lw_context_20260521_67f3628ac",
+      "summary": "- message_id: `0001779374923958-000101-2a32d2dd`",
+      "points": [
+        "message_id: `0001779374923958-000101-2a32d2dd`",
+        "user_id: `default-user`"
+      ],
+      "source": "thread_mpfm4oeie3wki9lw_context_20260521_67f3628acbce",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/UNIT-thread_m-CLB-CON-011.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-CON-001",
+      "type": "CON",
+      "title": "thread_slock_a51c6608992db46bc1_context_20260516_d",
+      "summary": "- message_id: `0001778902539000-001342-f6d2a62a`",
+      "points": [
+        "message_id: `0001778902539000-001342-f6d2a62a`",
+        "user_id: `default-user`",
+        "主消息只写结论、状态、下一步，控制在 2-4 句"
+      ],
+      "source": "thread_slock_a51c6608992db46bc1_context_20260516_d23ef2ee4d9c",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/UNIT-thread_s-CLB-CON-001.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-CON-003",
+      "type": "CON",
+      "title": "thread_slock_23b3d5468683c61de1_context_20260508_5",
+      "summary": "- message_id: `0001778251717000-000994-3f272c6c`",
+      "points": [
+        "message_id: `0001778251717000-000994-3f272c6c`",
+        "user_id: `default-user`",
+        "OpenRouter（推荐）"
+      ],
+      "source": "thread_slock_23b3d5468683c61de1_context_20260508_5b245f593ab8",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/UNIT-thread_s-CLB-CON-003.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-CON-004",
+      "type": "CON",
+      "title": "thread_slock_23b3d5468683c61de1_context_20260508_5",
+      "summary": "- message_id: `0001778251725000-000995-c2425476`",
+      "points": [
+        "message_id: `0001778251725000-000995-c2425476`",
+        "user_id: `default-user`"
+      ],
+      "source": "thread_slock_23b3d5468683c61de1_context_20260508_5b245f593ab8",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/UNIT-thread_s-CLB-CON-004.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-CON-005",
+      "type": "CON",
+      "title": "thread_slock_23b3d5468683c61de1_context_20260508_5",
+      "summary": "- message_id: `0001778251816000-000997-173f7dec`",
+      "points": [
+        "message_id: `0001778251816000-000997-173f7dec`",
+        "user_id: `default-user`",
+        "5. DeepSeek"
+      ],
+      "source": "thread_slock_23b3d5468683c61de1_context_20260508_5b245f593ab8",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/UNIT-thread_s-CLB-CON-005.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-CON-006",
+      "type": "CON",
+      "title": "thread_slock_eca267bb56f7bc7239_context_20260504_b",
+      "summary": "- message_id: `0001777887137000-000606-b9188bde`",
+      "points": [
+        "message_id: `0001777887137000-000606-b9188bde`",
+        "user_id: `default-user`",
+        "Ch 2 加回了 \"AI 产业链的本质…\" 金句"
+      ],
+      "source": "thread_slock_eca267bb56f7bc7239_context_20260504_b6a4d2a99833",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/UNIT-thread_s-CLB-CON-006.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-CON-007",
+      "type": "CON",
+      "title": "thread_slock_23b3d5468683c61de1_context_20260508_5",
+      "summary": "- message_id: `0001778251946000-001000-a58f9c73`",
+      "points": [
+        "message_id: `0001778251946000-001000-a58f9c73`",
+        "user_id: `default-user`",
+        "DeepSeek（推荐，国内）"
+      ],
+      "source": "thread_slock_23b3d5468683c61de1_context_20260508_5b245f593ab8",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/UNIT-thread_s-CLB-CON-007.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-CON-008",
+      "type": "CON",
+      "title": "thread_slock_23b3d5468683c61de1_context_20260508_5",
+      "summary": "- message_id: `0001778252070000-001001-140ebfdc`",
+      "points": [
+        "message_id: `0001778252070000-001001-140ebfdc`",
+        "user_id: `default-user`",
+        "DeepSeek（推荐，国内）"
+      ],
+      "source": "thread_slock_23b3d5468683c61de1_context_20260508_5b245f593ab8",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/UNIT-thread_s-CLB-CON-008.md"
+    },
+    {
+      "unit_id": "UNIT-thread_s-CLB-CON-009",
+      "type": "CON",
+      "title": "thread_slock_23b3d5468683c61de1_context_20260508_5",
+      "summary": "- message_id: `0001778252113000-001002-a6e81678`",
+      "points": [
+        "message_id: `0001778252113000-001002-a6e81678`",
+        "user_id: `default-user`"
+      ],
+      "source": "thread_slock_23b3d5468683c61de1_context_20260508_5b245f593ab8",
+      "confidence": "medium",
+      "ingested_at": "2026-07-05",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/UNIT-thread_s-CLB-CON-009.md"
+    },
+    {
       "unit_id": "UNIT-20260704-INBOX-MTH-001",
       "type": "MTH",
       "title": "多 Agent 协作应先划边界再交接带料最后指定合流责任人",
@@ -305,6 +1041,2900 @@
       "confidence": "high",
       "ingested_at": "2026-07-04",
       "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/Context是Agent系统中的主变量而不是附属配置.md"
+    },
+    {
+      "unit_id": "UNIT-20260703-CLIP-MTH-001",
+      "type": "MTH",
+      "title": "多 Agent 并行前先隔离工作空间并消除写冲突",
+      "summary": "多 agent 并行不是越多越好，前提是每个 agent 的执行空间彼此独立，且不会同时写同一份关键状态。",
+      "points": [
+        "先拆任务边界。",
+        "再确认是否存在共享写入对象。",
+        "能隔离工作空间时再并行。"
+      ],
+      "source": "Agentic Engineering 概念（上）：Agent 的底层逻辑",
+      "confidence": "high",
+      "ingested_at": "2026-07-03",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/多Agent并行前先隔离工作空间并消除写冲突.md"
+    },
+    {
+      "unit_id": "UNIT-20260703-INBOX-CON-001",
+      "type": "CON",
+      "title": "源码支撑型 Wiki 应同时提供引用与增量更新",
+      "summary": "“源码支撑型 Wiki” 不只是自动写文档，而是要求每个知识页都能回到源码证据，并且在源码变化后继续增量刷新。",
+      "points": [
+        "引用：每页都能指向实际文件路径或代码位置。",
+        "导航：不是单页摘要，而是成体系的章节结构。",
+        "更新：源码变了之后，Wiki 也能持续刷新，而不是一次性生成后腐烂。"
+      ],
+      "source": "openwiki-guide",
+      "confidence": "high",
+      "ingested_at": "2026-07-03",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/源码支撑型Wiki应同时提供引用与增量更新.md"
+    },
+    {
+      "unit_id": "UNIT-20260701-INBOX-001",
+      "type": "MTH",
+      "title": "复杂PPT系统应先映射为六个不可约环节",
+      "summary": "当一个 PPT 生产系统已经堆出很多 skill、渲染器和规则文件时，先不要继续加能力，而要把系统重新映射回六个不可约环节：",
+      "points": [
+        "提信息",
+        "排逻辑",
+        "定布局"
+      ],
+      "source": "做 PPT 的本质只有 6 步",
+      "confidence": "high",
+      "ingested_at": "2026-07-01",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/复杂PPT系统应先映射为六个不可约环节.md"
+    },
+    {
+      "unit_id": "MTH-20260627-CODEX-001",
+      "type": "MTH",
+      "title": "进行中的 Codex 线程应延后一轮入库",
+      "summary": "做 Codex 增量扫描时，不能把“当前正在执行本轮扫描的线程”直接当成已完成来源入库。它应先留在索引层，等线程结束并形成稳定结论后，再由下一轮扫描导入。",
+      "points": [
+        "先按时间窗和风险桶列出本轮新增线程。",
+        "再区分已完成线程与当前进行中的活动线程。",
+        "已完成绿色线程可以写批次摘要或来源卡。"
+      ],
+      "source": "20260627-codex-green-batch-每日扫描边界与日报线程挑样",
+      "confidence": "high",
+      "ingested_at": "2026-06-27",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/进行中的 Codex 线程应延后一轮入库-20260627.md"
+    },
+    {
+      "unit_id": "SKL-20260625-CODEX-001",
+      "type": "SKL",
+      "title": "dry-run与哈希去重的增量验证链",
+      "summary": "做会话采集自动化时，不要一上来就写正式知识库。先用 dry-run 证明来源是否重复，再用 content hash 证明快照是否变化，最后用 lint 证明新增文件没有把结构继续弄脏。",
+      "points": [
+        "`Clowder`：对本地 `thread-context` 跑 dry-run，先判断是否命中已归档来源。",
+        "`Slock`：对外部导出或日志算 SHA256，只登记新 hash。",
+        "`Codex`：按时间窗和风险桶做批次摘要，避免逐线程重复处理。"
+      ],
+      "source": "20260625-codex-green-batch-每日扫描增量来源挑样",
+      "confidence": "high",
+      "ingested_at": "2026-06-25",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SKL_技能经验/dry-run与哈希去重的增量验证链-20260625.md"
+    },
+    {
+      "unit_id": "MTH-20260625-CODEX-001",
+      "type": "MTH",
+      "title": "元数据先行的每日扫描法",
+      "summary": "先用索引、时间窗、风险桶和来源注册表判断“这轮到底有没有新增”，只有在元数据证明值得深入时，才读取正文级摘要源。",
+      "points": [
+        "先刷新来源索引，锁定新增时间窗。",
+        "再按红黄绿闸门切分线程和文件类型。",
+        "对 `Clowder` 先跑 dry-run，对 `Slock` 先算 hash，对 `Codex` 先做批次登记。"
+      ],
+      "source": "20260625-codex-green-batch-每日扫描增量来源挑样",
+      "confidence": "high",
+      "ingested_at": "2026-06-25",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/元数据先行的每日扫描法-20260625.md"
+    },
+    {
+      "unit_id": "SOL-20260623-SCYS-001",
+      "type": "SOL",
+      "title": "AI 产品落地五阶段",
+      "summary": "用 AI 编程工具做产品时，如何从想法变成现实？",
+      "points": [
+        "**结构化文档驱动**：MRD→PRD→TDD 的依赖传递",
+        "**AI 行为约束**：用 cursor-guidelines.md 给 AI \"立规矩\"",
+        "**Prompt 模板化**：即插即用的 Prompt 模板"
+      ],
+      "source": "AI 做产品？你是否也遇到了这些坎？.pdf",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SOL_方案/AI产品落地五阶段-20260623.md"
+    },
+    {
+      "unit_id": "UNIT-20260623-CLIP-003",
+      "type": "SOL",
+      "title": "AI服务客单价升级三层产品矩阵",
+      "summary": "如果 AI 服务只有一个单品，通常会同时卡在获客、交付和利润率上。",
+      "points": [
+        "引流品：低门槛、低风险，先换来信任和首批数据。",
+        "利润品：真正赚钱的培训、陪跑、内训或方案交付。",
+        "明星品：展示能力上限的大项目或咨询服务，用来抬高认知和客单价。"
+      ],
+      "source": "AI 在传统生意老板眼中的不一样",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SOL_方案/AI服务客单价升级三层产品矩阵.md"
+    },
+    {
+      "unit_id": "SOL-20260623-SCYS-002",
+      "type": "SOL",
+      "title": "AI 赋能自媒体四形式",
+      "summary": "打造 IP 时，如何用 AI 高效生产多种内容形式？",
+      "points": [
+        "**不同受众不同偏好**：有的喜欢图文，有的喜欢视频",
+        "**AI 降低生产成本**：即使不是专业人士，也能高效生产",
+        "**全流程 AI 赋能**：从选题到内容生成到配图"
+      ],
+      "source": "AI赋能自媒体与IP打造.pdf",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SOL_方案/AI赋能自媒体四形式-20260623.md"
+    },
+    {
+      "unit_id": "SOL-20260623-MAO-003",
+      "type": "SOL",
+      "title": "三大法宝",
+      "summary": "中国革命胜利的法宝是什么？",
+      "points": [
+        "**联盟**：统一战线（团结盟友）",
+        "**力量**：武装斗争（自己的武装力量）",
+        "**组织**：党的建设（领导核心）"
+      ],
+      "source": "《共产党人》发刊词",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SOL_方案/三大法宝-20260623.md"
+    },
+    {
+      "unit_id": "SOL-20260623-MAO-007",
+      "type": "SOL",
+      "title": "人民民主专政",
+      "summary": "革命胜利后，建立什么样的国家？",
+      "points": [
+        "**工人阶级领导**：不是资产阶级领导",
+        "**工农联盟为基础**：不是少数人的政权",
+        "为什么\"工人阶级领导\"是必要的（领导权）"
+      ],
+      "source": "将革命进行到底",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SOL_方案/人民民主专政-20260623.md"
+    },
+    {
+      "unit_id": "SOL-20260623-MAO-008",
+      "type": "SOL",
+      "title": "人民民主专政：工人阶级领导",
+      "summary": "人民民主专政由谁领导？",
+      "points": [
+        "**工人阶级领导**：不是资产阶级领导",
+        "**共产党领导**：不是其他政党领导",
+        "为什么\"工人阶级领导\"是必要的（最有远见、大公无私、最富于革命的彻底性）"
+      ],
+      "source": "论人民民主专政",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SOL_方案/人民民主专政-工人阶级领导-20260623.md"
+    },
+    {
+      "unit_id": "SOL-20260623-SCYS-004",
+      "type": "SOL",
+      "title": "出海新手找需求三方法",
+      "summary": "出海新手最难的不是怎么做，而是做什么。",
+      "points": [
+        "**平台**：Reddit、Facebook、TikTok 等",
+        "**用户**：自媒体、独立开发者、KOL、实体商家",
+        "**需求**：找需求、找潜在客户、创作内容、追热点、宣传品牌"
+      ],
+      "source": "大家好，我是这次web-出海站的航海教练：子扬.pdf",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SOL_方案/出海新手找需求三方法-20260623.md"
+    },
+    {
+      "unit_id": "SOL-20260623-MAO-004",
+      "type": "SOL",
+      "title": "新民主主义经济纲领",
+      "summary": "新民主主义革命胜利后，经济怎么搞？",
+      "points": [
+        "**消灭封建**：土地改革，消灭封建土地制度",
+        "**消灭垄断**：没收官僚资本，消灭垄断资本",
+        "**保护民族资本**：保护民族工商业，发展资本主义"
+      ],
+      "source": "目前形势和我们的任务",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SOL_方案/新民主主义经济纲领-20260623.md"
+    },
+    {
+      "unit_id": "SOL-20260623-MAO-001",
+      "type": "SOL",
+      "title": "根据地经济建设方针",
+      "summary": "在敌人封锁、战争环境下的根据地，如何搞经济建设？",
+      "points": [
+        "**农业优先**：在战争环境下，粮食是第一位的",
+        "**多种经济并存**：国营、合作社、私人同时发展",
+        "**对外贸易管制**：国家经营必要的商品流通"
+      ],
+      "source": "我们的经济政策",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SOL_方案/根据地经济建设方针-20260623.md"
+    },
+    {
+      "unit_id": "SOL-20260623-MAO-002",
+      "type": "SOL",
+      "title": "民族统一战线（抗日）",
+      "summary": "日本帝国主义要变中国为殖民地，民族矛盾上升为主要矛盾，怎么办？",
+      "points": [
+        "**主要矛盾变化**：民族矛盾上升为主要矛盾，阶级矛盾降为次要",
+        "**联盟范围扩大**：从工农联盟扩大到包括民族资产阶级在内的更广泛联盟",
+        "为什么\"工农共和国\"要改为\"人民共和国\""
+      ],
+      "source": "论反对日本帝国主义的策略",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SOL_方案/民族统一战线-抗日-20260623.md"
+    },
+    {
+      "unit_id": "SOL-20260623-SCYS-003",
+      "type": "SOL",
+      "title": "独立开发者选品策略",
+      "summary": "独立开发者如何选品才能赚钱？",
+      "points": [
+        "多看榜单，观察成功产品的市场表现",
+        "借鉴同行思路，优秀案例是最好的老师",
+        "[[GoogleSEO关键因素]]"
+      ],
+      "source": "专为独立开发者打造：Google SEO 实战指南.pdf",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SOL_方案/独立开发者选品策略-20260623.md"
+    },
+    {
+      "unit_id": "SOL-20260623-MAO-010",
+      "type": "SOL",
+      "title": "目前形势和我们的任务：统一战线",
+      "summary": "解放战争时期，统一战线怎么做？",
+      "points": [
+        "**联合被压迫阶级**：团结一切可以团结的力量",
+        "**打倒独裁政府**：集中力量打倒蒋介石",
+        "为什么\"联合被压迫阶级\"是必要的（团结力量）"
+      ],
+      "source": "目前形势和我们的任务",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SOL_方案/目前形势和我们的任务-统一战线-20260623.md"
+    },
+    {
+      "unit_id": "SOL-20260623-MAO-006",
+      "type": "SOL",
+      "title": "论联合政府：一般纲领",
+      "summary": "联合政府的一般纲领是什么？",
+      "points": [
+        "**政治民主**：几个革命阶级联合专政",
+        "**经济改革**：节制资本，平均地权",
+        "**文化进步**：民族的科学的大众的文化"
+      ],
+      "source": "论联合政府",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SOL_方案/论联合政府-一般纲领-20260623.md"
+    },
+    {
+      "unit_id": "SOL-20260623-MAO-005",
+      "type": "SOL",
+      "title": "论联合政府：具体纲领",
+      "summary": "联合政府的具体纲领是什么？",
+      "points": [
+        "**政治民主**：废止一党专政，建立联合政府",
+        "**经济改革**：土地改革，发展工业",
+        "**社会进步**：人民自由，民族平等"
+      ],
+      "source": "论联合政府",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SOL_方案/论联合政府-具体纲领-20260623.md"
+    },
+    {
+      "unit_id": "SOL-20260623-MAO-009",
+      "type": "SOL",
+      "title": "论联合政府：土地改革",
+      "summary": "联合政府的土地政策是什么？",
+      "points": [
+        "**耕者有其田**：农民要有自己的土地",
+        "**解放农民**：农民要从封建剥削中解放出来",
+        "为什么\"耕者有其田\"是必要的（农民要有自己的土地）"
+      ],
+      "source": "论联合政府",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SOL_方案/论联合政府-土地改革-20260623.md"
+    },
+    {
+      "unit_id": "SKL-20260623-SCYS-002",
+      "type": "SKL",
+      "title": "AI 公众号文章创作流程",
+      "summary": "用 AI 工具高效生产公众号文章，保留个人风格，去除 AI 味。",
+      "points": [
+        "**标题数据库构建**：收集 300+ 咪蒙 10 万+ 爆款标题",
+        "**智能体训练**：用 Monica 平台训练专属标题生成器",
+        "**个性化生成**：输入主题和核心观点，自动生成高点击率标题"
+      ],
+      "source": "AI赋能自媒体与IP打造.pdf",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SKL_技能经验/AI公众号文章创作流程-20260623.md"
+    },
+    {
+      "unit_id": "SKL-20260623-SCYS-003",
+      "type": "SKL",
+      "title": "Google SEO 关键因素",
+      "summary": "Google SEO 的核心因素和实践技巧。",
+      "points": [
+        "**用户行为影响排名**：优化内容和页面体验，减少用户快速跳出",
+        "**内部链接优化**：合理布局站内链接，提高权重传递和页面关联性",
+        "长尾关键词布局**：覆盖用户真实搜索习惯"
+      ],
+      "source": "专为独立开发者打造：Google SEO 实战指南.pdf",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SKL_技能经验/GoogleSEO关键因素-20260623.md"
+    },
+    {
+      "unit_id": "SKL-20260623-MAO-001",
+      "type": "SKL",
+      "title": "以多打少",
+      "summary": "> \"每战集中绝对优势兵力（两倍、三倍、四倍、有时甚至是五倍或六倍于敌之兵力），四面包围敌人，力求全歼，不使漏网。\"",
+      "points": [
+        "**集中**：在局部形成绝对优势（2-6倍）",
+        "**包围**：四面包围，不使漏网",
+        "**全歼**：力求全歼，不打击溃战"
+      ],
+      "source": "集中优势兵力，各个歼灭敌人",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SKL_技能经验/以多打少-20260623.md"
+    },
+    {
+      "unit_id": "SKL-20260623-SCYS-001",
+      "type": "SKL",
+      "title": "知识管理三要素",
+      "summary": "知识管理不是资料收集，而是对有用知识的系统化管理。",
+      "points": [
+        "追溯自己的成就，倒退需要的能力",
+        "过时的知识直接删除或不管",
+        "资料收集 ≠ 知识管理"
+      ],
+      "source": "6年来，我从职场做副业...成为1人公司.pdf",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SKL_技能经验/知识管理三要素-20260623.md"
+    },
+    {
+      "unit_id": "QST-20260623-MAO-001",
+      "type": "QST",
+      "title": "和平问题与民主问题",
+      "summary": "1937 年，西安事变后，国共关系出现转机。但党内对和平和民主问题存在不同看法。",
+      "points": [
+        "**和平问题**：和平实现了，还会不会被破坏？",
+        "**民主问题**：和平之后，要不要争取民主？",
+        "QST-GEN：和平实现了，下一步干什么？"
+      ],
+      "source": "为争取千百万群众进入抗日民族统一战线而斗争",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/QST_问题/和平问题-民主问题-20260623.md"
+    },
+    {
+      "unit_id": "UNIT-20260623-CLIP-001",
+      "type": "OPI",
+      "title": "AI服务要卖贵先重做商业模式而不是堆工具能力",
+      "summary": "AI 服务的价格上限，更多取决于你把它放进了什么商业结构，而不是你演示了多少工具能力。",
+      "points": [
+        "判断一个 AI 服务为什么总卖不高",
+        "审查一个 ToB AI 方案是在卖工具，还是在卖业务结果",
+        "设计产品定位、定价和升级路径"
+      ],
+      "source": "AI 在传统生意老板眼中的不一样",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/OPI_观点/AI服务要卖贵先重做商业模式而不是堆工具能力.md"
+    },
+    {
+      "unit_id": "OPI-20260623-MAO-007",
+      "type": "OPI",
+      "title": "为人民利益而死重于泰山",
+      "summary": "> \"人固有一死，或重于泰山，或轻于鸿毛。为人民利益而死，就比泰山还重；替法西斯卖力，替剥削人民和压迫人民的人去死，就比鸿毛还轻。\"",
+      "points": [
+        "**人固有一死**：人都会死",
+        "**死的价值不同**：有的重于泰山，有的轻于鸿毛",
+        "**为人民利益而死**：重于泰山"
+      ],
+      "source": "为人民服务",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/OPI_观点/为人民利益而死重于泰山-20260623.md"
+    },
+    {
+      "unit_id": "OPI-20260623-MAO-004",
+      "type": "OPI",
+      "title": "亡国论不对，速胜论也不对",
+      "summary": "> \"亡国论是不对的，速胜论也是不对的。\"",
+      "points": [
+        "看不到中国的优势（大国、进步、多助）",
+        "只看到日本的优势（小国、退步、寡助）",
+        "看不到日本的优势"
+      ],
+      "source": "论持久战",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/OPI_观点/亡国论不对速胜论也不对-20260623.md"
+    },
+    {
+      "unit_id": "OPI-20260623-MAO-002",
+      "type": "OPI",
+      "title": "将革命进行到底",
+      "summary": "> \"如果要使革命半途而废，那就是违背人民的意志。\"",
+      "points": [
+        "**革命不能妥协**：反动派不会自动退出历史舞台",
+        "**革命不能退让**：妥协退让会导致革命失败",
+        "**必须坚决**：将革命进行到底"
+      ],
+      "source": "将革命进行到底",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/OPI_观点/将革命进行到底-20260623.md"
+    },
+    {
+      "unit_id": "OPI-20260623-MAO-009",
+      "type": "OPI",
+      "title": "将革命进行到底：坚决彻底",
+      "summary": "> \"如果要使革命半途而废，那就是违背人民的意志。\"",
+      "points": [
+        "**不能半途而废**：革命不能半途而废",
+        "**要坚决彻底**：革命要坚决彻底",
+        "**违背人民意志**：半途而废就是违背人民意志"
+      ],
+      "source": "将革命进行到底",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/OPI_观点/将革命进行到底-坚决彻底-20260623.md"
+    },
+    {
+      "unit_id": "OPI-20260623-MAO-006",
+      "type": "OPI",
+      "title": "上帝是人民",
+      "summary": "> \"我们一定要坚持下去，一定要不断地工作，我们也会感动上帝的。这个上帝不是别人，就是全中国的人民大众。\"",
+      "points": [
+        "**上帝不是天上的神**：上帝不是别人",
+        "**上帝是人民大众**：全中国的人民大众",
+        "**感动上帝**：坚持工作，感动人民大众"
+      ],
+      "source": "愚公移山",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/OPI_观点/愚公移山-上帝是人民-20260623.md"
+    },
+    {
+      "unit_id": "OPI-20260623-MAO-001",
+      "type": "OPI",
+      "title": "愚公移山：下定决心，不怕牺牲",
+      "summary": "> \"下定决心，不怕牺牲，排除万难，去争取胜利。\"",
+      "points": [
+        "**愚公精神**：不怕困难，坚持到底",
+        "**人民力量**：全国人民大众是\"上帝\"，感动他们就能胜利",
+        "**必胜信念**：革命一定要胜利"
+      ],
+      "source": "愚公移山",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/OPI_观点/愚公移山-下定决心不怕牺牲-20260623.md"
+    },
+    {
+      "unit_id": "OPI-20260623-MAO-008",
+      "type": "OPI",
+      "title": "最后胜利是中国的",
+      "summary": "> \"中国会亡吗？答复：不会亡，最后胜利是中国的。\"",
+      "points": [
+        "**中国不会亡**：中国不会亡国",
+        "**最后胜利是中国的**：最后胜利属于中国",
+        "**理由**：敌小我大、敌退步我进步、敌寡助我多助"
+      ],
+      "source": "论持久战",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/OPI_观点/最后胜利是中国的-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-SCYS-004",
+      "type": "MTH",
+      "title": "AI 编程协同八原则",
+      "summary": "用 AI 编程工具（如 Cursor）做产品时，需要遵循 8 个原则来保证质量和效率。",
+      "points": [
+        "**AI 是助手不是决策者**：开发者要扮演架构师、质检员、整合者",
+        "**输入质量决定输出质量**：Prompt 要清晰、具体、上下文丰富",
+        "**分而治之降低复杂度**：拆解为小任务块，控制风险"
+      ],
+      "source": "AI 做产品？你是否也遇到了这些坎？.pdf",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/AI编程协同八原则-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-005",
+      "type": "MTH",
+      "title": "一般和个别相结合，领导和群众相结合",
+      "summary": "> \"我们共产党人无论进行何项工作，有两个方法是必须采用的，一是一般和个别相结合，二是领导和群众相结合。\"",
+      "points": [
+        "**从一般到个别**：先有号召，再有试点，最后推广",
+        "**从群众中来，到群众中去**：先听群众意见，再集中决策，再回到群众中执行",
+        "为什么\"试点\"很重要（从一般到个别）"
+      ],
+      "source": "关于领导方法的若干问题",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/一般和个别相结合-领导和群众相结合-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-031",
+      "type": "MTH",
+      "title": "中央和地方的关系",
+      "summary": "> \"中央和地方的关系也是一个矛盾。解决这个矛盾，目前要注意的是，应当在巩固中央统一领导的前提下，扩大一点地方的权力，给地方更多的独立性，让地方办更多的事情。\"",
+      "points": [
+        "**中央统一领导**：不能没有中央",
+        "**地方因地制宜**：不能没有地方",
+        "**扩大地方权力**：给地方更多的独立性"
+      ],
+      "source": "论十大关系",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/中央和地方关系-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-048",
+      "type": "MTH",
+      "title": "人存地存、人失地失",
+      "summary": "> \"以歼灭敌人有生力量为主要目标，不以保守或夺取城市和地方为主要目标。\"",
+      "points": [
+        "**有生力量是根本**：有生力量比地盘更重要",
+        "**地盘可以失而复得**：地盘失去了可以再夺回来",
+        "**有生力量失去了就难恢复**：有生力量失去了就很难恢复"
+      ],
+      "source": "集中优势兵力，各个歼灭敌人",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/人存地存人失地失-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-026",
+      "type": "MTH",
+      "title": "人民民主专政方法",
+      "summary": "> \"对人民内部的民主方面和对反动派的专政方面，互相结合起来，就是人民民主专政。\"",
+      "points": [
+        "**对人民民主**：人民内部用民主方法",
+        "**对敌人专政**：反动派用专政方法",
+        "为什么\"对人民民主\"是必要的（教育自己和改造自己）"
+      ],
+      "source": "论人民民主专政",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/人民民主专政方法-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-014",
+      "type": "MTH",
+      "title": "健全党委制",
+      "summary": "> \"党委制是保证集体领导、防止个人包办的党的重要制度。\"",
+      "points": [
+        "**党委制是集体领导制度**：不是个人专断",
+        "**防止个人包办**：不要一个人说了算",
+        "**保证集体决策**：重大问题由党委集体讨论决定"
+      ],
+      "source": "关于健全党委制",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/健全党委制-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-053",
+      "type": "MTH",
+      "title": "党和非党的关系",
+      "summary": "> \"究竟是一个党好，还是几个党好？现在看来，恐怕是几个党好。不但过去如此，而且将来也可以如此，就是长期共存，互相监督。\"",
+      "points": [
+        "**几个党好**：不是一个党好，而是几个党好",
+        "**长期共存**：共产党和民主党派要长期共存",
+        "**互相监督**：共产党和民主党派要互相监督"
+      ],
+      "source": "论十大关系",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/党和非党关系-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-006",
+      "type": "MTH",
+      "title": "党委会的工作方法",
+      "summary": "毛泽东在 1949 年提出党委会的十二条工作方法：",
+      "points": [
+        "**民主集中**：把问题摆到桌面上来，互通情报",
+        "**调查研究**：不懂的要问下级，胸中有\"数\"",
+        "**统筹兼顾**：学会\"弹钢琴\"，注意团结"
+      ],
+      "source": "党委会的工作方法",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/党委会的工作方法-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-020",
+      "type": "MTH",
+      "title": "党的建设",
+      "summary": "> \"建设一个全国范围的、广大群众性的、思想上政治上组织上完全巩固的布尔什维克化的中国共产党。\"",
+      "points": [
+        "**思想建设**：用马克思列宁主义武装全党",
+        "**政治建设**：正确的政治路线",
+        "**组织建设**：严密的组织纪律"
+      ],
+      "source": "《共产党人》发刊词",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/党的建设-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-043",
+      "type": "MTH",
+      "title": "关心群众生活",
+      "summary": "> \"我们应该深刻地注意群众生活的问题，从土地、劳动问题，到柴米油盐问题。\"",
+      "points": [
+        "**群众生活是大事**：从土地、劳动到柴米油盐",
+        "**关心群众才能动员群众**：只有关心群众，群众才会支持你",
+        "**工作方法要对**：不能只喊口号，要解决实际问题"
+      ],
+      "source": "关心群众生活，注意工作方法",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/关心群众生活-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-019",
+      "type": "MTH",
+      "title": "农民运动考察方法",
+      "summary": "> \"我这回到湖南，实地考察了湘潭、湘乡、衡山、醴陵、长沙五县的情况。从一月四日起至二月五日止，共三十二天，在乡下，在县城，召集有经验的农民和农运工作同志开调查会，仔细听他们的报告，所得材料不少。\"",
+      "points": [
+        "**实地考察**：不要只看报告，要亲自到现场",
+        "**开调查会**：找有经验的人，仔细听报告",
+        "**收集材料**：所得材料不少"
+      ],
+      "source": "湖南农民运动考察报告",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/农民运动考察方法-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-038",
+      "type": "MTH",
+      "title": "又团结又斗争",
+      "summary": "> \"在和反共顽固派斗争时，是利用矛盾，争取多数，反对少数，各个击破；是有理，有利，有节。\"",
+      "points": [
+        "**团结**：对同盟者要团结",
+        "**斗争**：对同盟者的反动面要斗争",
+        "**有理有利有节**：斗争要有节制"
+      ],
+      "source": "论政策",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/又团结又斗争-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-018",
+      "type": "MTH",
+      "title": "各阶级分析方法",
+      "summary": "> \"谁是我们的敌人？谁是我们的朋友？这个问题是革命的首要问题。\"",
+      "points": [
+        "**分清敌友**：革命的首要问题",
+        "**阶级分析**：用阶级分析法分清敌友",
+        "**团结朋友**：团结真正的朋友"
+      ],
+      "source": "中国社会各阶级的分析",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/各阶级分析-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-062",
+      "type": "MTH",
+      "title": "团结-批评-团结",
+      "summary": "> \"在一九四二年，我们曾经把解决人民内部矛盾的这种民主的方法，具体化为一个公式，叫做'团结——批评——团结'。讲详细一点，就是从团结的愿望出发，经过批评或者斗争使矛盾得到解决，从而在新的基础上达到新的团结。\"",
+      "points": [
+        "**从团结出发**：批评的目的是团结，不是打击",
+        "**通过批评达到团结**：批评是手段，团结是目的",
+        "为什么\"团结\"是出发点（目的）"
+      ],
+      "source": "关于正确处理人民内部矛盾的问题",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/团结-批评-团结-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-021",
+      "type": "MTH",
+      "title": "实事求是",
+      "summary": "> \"实事'就是客观存在着的一切事物，'是'就是客观事物的内部联系，即规律性，'求'就是我们去研究。\"",
+      "points": [
+        "**实事**：客观存在着的一切事物",
+        "**是**：客观事物的内部联系，即规律性",
+        "**求**：我们去研究"
+      ],
+      "source": "改造我们的学习",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/实事求是-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-028",
+      "type": "MTH",
+      "title": "实践检验真理",
+      "summary": "> \"人的正确思想，只能从社会实践中来，只能从社会的生产斗争、阶级斗争和科学实验这三项实践中来。\"",
+      "points": [
+        "**思想从实践中来**：不是从天上掉下来的，也不是头脑里固有的",
+        "**思想要回到实践中去检验**：看是否能得到预期的成功",
+        "**成功的就是正确的**：失败了的就是错误的"
+      ],
+      "source": "人的正确思想是从哪里来的？",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/实践检验真理-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-032",
+      "type": "MTH",
+      "title": "帝国主义是纸老虎",
+      "summary": "> \"从本质上看，从长期上看，从战略上看，必须如实地把帝国主义和一切反动派，都看成纸老虎。\"",
+      "points": [
+        "**本质上看**：帝国主义违背人民利益，必然失败",
+        "**长期上看**：帝国主义终将灭亡",
+        "**战略上看**：帝国主义没有什么了不起"
+      ],
+      "source": "关于帝国主义和一切反动派是不是真老虎的问题",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/帝国主义是纸老虎-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-024",
+      "type": "MTH",
+      "title": "战略上藐视、战术上重视",
+      "summary": "> \"在战略上我们要藐视一切敌人，在战术上我们要重视一切敌人。\"",
+      "points": [
+        "**信心**：战略上藐视，建立必胜信心",
+        "**方法**：战术上重视，认真对待每一个敌人",
+        "为什么\"战略上藐视\"是必要的（建立信心）"
+      ],
+      "source": "关于帝国主义和一切反动派是不是真老虎的问题",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/战略上藐视战术上重视-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-002",
+      "type": "MTH",
+      "title": "战略退却",
+      "summary": "> \"战略退却，是劣势军队处在优势军队进攻面前，因为顾到不能迅速地击破其进攻，为了保存军力，待机破敌，而采取的一个有计划的战略步骤。\"",
+      "points": [
+        "**退却不是逃跑**：退却是有计划的战略步骤",
+        "**退却是为了保存力量**：不能硬拼，要保存实力",
+        "**退却是为了待机破敌**：退却后寻找更好的进攻机会"
+      ],
+      "source": "中国革命战争的战略问题",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/战略退却-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-066",
+      "type": "MTH",
+      "title": "持久战方法",
+      "summary": "> \"抗日战争是持久战，最后胜利是中国的——这就是我们的结论。\"",
+      "points": [
+        "**不能速胜**：敌强我弱，不能速胜",
+        "**不会亡国**：敌小我大、敌退步我进步、敌寡助我多助",
+        "**持久战是方法**：用时间换空间，消耗敌人"
+      ],
+      "source": "论持久战",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/持久战-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-013",
+      "type": "MTH",
+      "title": "放下包袱、开动机器",
+      "summary": "> \"为了争取新的胜利，要在党的干部中间提倡放下包袱和开动机器。\"",
+      "points": [
+        "放下成功包袱（不要因为成功而骄傲）",
+        "放下失败包袱（不要因为失败而气馁）",
+        "放下经验包袱（不要因为经验而固步自封）"
+      ],
+      "source": "学习和时局",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/放下包袱开动机器-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-033",
+      "type": "MTH",
+      "title": "文化大革命",
+      "summary": "> \"无产阶级专政下继续革命。\"",
+      "points": [
+        "**社会主义社会仍然有阶级斗争**：不能\"革命到头\"",
+        "**革命对象在党内**：走资本主义道路的当权派",
+        "**群众运动是形式**：通过群众运动打倒走资派"
+      ],
+      "source": "论无产阶级专政下继续革命",
+      "confidence": "medium",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/文化大革命-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-011",
+      "type": "MTH",
+      "title": "文艺为工农兵服务",
+      "summary": "> \"我们的文艺是为什么人的？我们的文艺是为人民大众的，首先是为工农兵的，为工农兵而创作，为工农兵所利用的。\"",
+      "points": [
+        "**文艺是为人民大众的**：不是为少数人的",
+        "**首先是为工农兵的**：工农兵是人民的主体",
+        "**为工农兵而创作**：文艺创作要面向工农兵"
+      ],
+      "source": "在延安文艺座谈会上的讲话",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/文艺为工农兵服务-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-056",
+      "type": "MTH",
+      "title": "社会主义社会阶级斗争为纲",
+      "summary": "> \"阶级斗争是纲，其余都是目。\"",
+      "points": [
+        "**阶级斗争是纲**：一切工作的中心",
+        "**其余都是目**：其他工作都要围绕阶级斗争",
+        "**纲举目张**：抓住纲，目就自然张开"
+      ],
+      "source": "论无产阶级专政下继续革命",
+      "confidence": "medium",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/无产阶级专政下继续革命-社会主义社会阶级斗争为纲-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-SCYS-002",
+      "type": "MTH",
+      "title": "时间模块化管理",
+      "summary": "> \"不要觉得当你辞职之后，成为自由职业者之后，你的时间就比之前要充裕了，这是一个错觉。\"",
+      "points": [
+        "**自由 ≠ 充裕**：没有约束后，时间利用率反而降低",
+        "**模块化管理**：把一天分成多个时间模块",
+        "**质量优先**：高质量时间段做高价值事情"
+      ],
+      "source": "6年来，我从职场做副业...成为1人公司.pdf",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/时间模块化管理-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-039",
+      "type": "MTH",
+      "title": "有的放矢",
+      "summary": "> \"马克思列宁主义理论和中国革命实际，怎样互相联系呢？拿一句通俗的话来讲，就是'有的放矢'。\"",
+      "points": [
+        "**理论是箭**：马克思列宁主义理论是箭",
+        "**实际是靶**：中国革命实际是靶",
+        "**有的放矢**：用箭射靶，理论要用来解决实际问题"
+      ],
+      "source": "改造我们的学习",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/有的放矢-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-030",
+      "type": "MTH",
+      "title": "歼灭战",
+      "summary": "> \"每战集中绝对优势兵力（两倍、三倍、四倍、有时甚至是五倍或六倍于敌之兵力），四面包围敌人，力求全歼，不使漏网。\"",
+      "points": [
+        "**集中绝对优势兵力**：两倍、三倍、四倍、五倍、六倍",
+        "**四面包围**：不使漏网",
+        "**力求全歼**：不是击溃，而是歼灭"
+      ],
+      "source": "集中优势兵力，各个歼灭敌人",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/歼灭战-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-069",
+      "type": "MTH",
+      "title": "民主与集中",
+      "summary": "> \"没有民主，不可能有正确的集中，因为大家意见分歧，没有统一的认识，集中制就建立不起来。\"",
+      "points": [
+        "**民主是集中的基础**：没有民主就不可能有正确的集中",
+        "**集中是民主的目的**：民主不是目的，集中正确的意见才是目的",
+        "**先民主后集中**：先让大家充分发表意见，再集中正确的意见"
+      ],
+      "source": "在扩大的中央工作会议上的讲话",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/民主集中制-七千人大会-民主与集中-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-055",
+      "type": "MTH",
+      "title": "让人讲话",
+      "summary": "> \"让人讲话，天不会塌下来，自己也不会垮台。不让人讲话呢？那就难免有一天要垮台。\"",
+      "points": [
+        "**让人讲话是民主**：让人讲话，天不会塌下来",
+        "**不让人讲话是专断**：不让人讲话，迟早要垮台",
+        "**民主是集中的基础**：没有民主就不可能有正确的集中"
+      ],
+      "source": "在扩大的中央工作会议上的讲话",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/民主集中制-七千人大会-让人讲话-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-049",
+      "type": "MTH",
+      "title": "汉族和少数民族的关系",
+      "summary": "> \"我们着重反对大汉族主义。地方民族主义也要反对，但是那一般地不是重点。\"",
+      "points": [
+        "**汉族是多数**：汉族占中国人口的大多数",
+        "**少数民族是少数**：少数民族占中国人口的少数",
+        "**反对大汉族主义**：汉族不能歧视少数民族"
+      ],
+      "source": "论十大关系",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/汉族和少数民族关系-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-023",
+      "type": "MTH",
+      "title": "沿海工业和内地工业的关系",
+      "summary": "> \"好好地利用和发展沿海的工业老底子，可以使我们更有力量来发展和支持内地工业。\"",
+      "points": [
+        "**沿海工业有基础**：沿海工业是老底子，有技术和人才",
+        "**内地工业要发展**：内地工业是新发展，要支持",
+        "**沿海支持内地**：利用沿海工业，支持内地工业"
+      ],
+      "source": "论十大关系",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/沿海和内地工业关系-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-044",
+      "type": "MTH",
+      "title": "游击战争战略",
+      "summary": "> \"游击战争的战略问题是在这样的情况之下发生的……游击战争就从战术范围跑了出来向战略敲门。\"",
+      "points": [
+        "**游击战争是战术**：小规模、灵活、分散",
+        "**游击战争更是战略**：在战略上有重要意义",
+        "**游击战争和正规战争配合**：游击战争辅助正规战争"
+      ],
+      "source": "抗日游击战争的战略问题",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/游击战争战略-20260623.md"
+    },
+    {
+      "unit_id": "UNIT-20260623-CLIP-002",
+      "type": "MTH",
+      "title": "熟行业切入AI服务的长板迁移法",
+      "summary": "做 AI 服务时，不要一上来就从最抽象的“通用 AI 能力”出发，而要先从自己真正理解的行业和已经验证过的长板切入。",
+      "points": [
+        "先盘清楚自己在哪个行业有真实认知、资源或交付经验。",
+        "再找一个已经在别处跑通的成熟模式，看能否迁移到当前还不成熟的市场。",
+        "最后把自己的长板叠加上去，例如获客、渠道、运营、产品设计或技术交付。"
+      ],
+      "source": "AI 在传统生意老板眼中的不一样",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/熟行业切入AI服务的长板迁移法.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-009",
+      "type": "MTH",
+      "title": "物质变精神、精神变物质",
+      "summary": "> \"对于物质可以变成精神，精神可以变成物质这样日常生活中常见的飞跃现象，也觉得不可理解。\"",
+      "points": [
+        "**认识从实践中来**：物质变精神",
+        "**认识到实践中去**：精神变物质",
+        "为什么\"物质可以变成精神\"（从实践中产生认识）"
+      ],
+      "source": "人的正确思想是从哪里来的？",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/物质变精神-精神变物质-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-022",
+      "type": "MTH",
+      "title": "理论联系实际",
+      "summary": "> \"马克思列宁主义理论和中国革命实际，怎样互相联系呢？拿一句通俗的话来讲，就是'有的放矢'。\"",
+      "points": [
+        "**理论是箭**：马克思列宁主义理论是箭",
+        "**实际是靶**：中国革命实际是靶",
+        "**有的放矢**：用箭射靶，理论要用来解决实际问题"
+      ],
+      "source": "整顿党的作风",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/理论联系实际-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-041",
+      "type": "MTH",
+      "title": "三大实践",
+      "summary": "> \"人的正确思想，只能从社会实践中来，只能从社会的生产斗争、阶级斗争和科学实验这三项实践中来。\"",
+      "points": [
+        "**实践是来源**：正确的思想只能从实践中来",
+        "**三大实践**：生产斗争、阶级斗争、科学实验",
+        "为什么\"实践是来源\"（人的正确思想只能从实践中来）"
+      ],
+      "source": "人的正确思想是从哪里来的？",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/生产斗争阶级斗争科学实验-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-054",
+      "type": "MTH",
+      "title": "百花齐放",
+      "summary": "> \"百花齐放、百家争鸣的方针，是促进艺术发展和科学进步的方针，是促进我国的社会主义文化繁荣的方针。\"",
+      "points": [
+        "**艺术要百花齐放**：不同的形式和风格可以自由发展",
+        "**科学要百家争鸣**：不同的学派可以自由争论",
+        "**不能用行政命令**：不能用行政力量强制推行一种风格"
+      ],
+      "source": "关于正确处理人民内部矛盾的问题",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/百花齐放-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-052",
+      "type": "MTH",
+      "title": "战略进攻",
+      "summary": "> \"中国人民的革命战争，现在已经达到了一个转折点。这是蒋介石的二十年反革命统治由发展到消灭的转折点。\"",
+      "points": [
+        "**转折点到来**：解放战争已经到达转折点",
+        "**战略进攻开始**：由战略防御转入战略进攻",
+        "**蒋介石必败**：蒋介石的统治由发展到消灭"
+      ],
+      "source": "目前形势和我们的任务",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/目前形势和我们的任务-战略进攻-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-067",
+      "type": "MTH",
+      "title": "新民主主义三大经济纲领",
+      "summary": "> \"没收封建阶级的土地归农民所有，没收蒋介石、宋子文、孔祥熙、陈立夫为首的垄断资本归新民主主义的国家所有，保护民族工商业。\"",
+      "points": [
+        "**土地改革**：没收封建阶级的土地归农民所有",
+        "**没收官僚资本**：没收垄断资本归国家所有",
+        "**保护民族工商业**：保护民族资产阶级的工商业"
+      ],
+      "source": "目前形势和我们的任务",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/目前形势和我们的任务-新民主主义三大经济纲领-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-001",
+      "type": "MTH",
+      "title": "积极防御",
+      "summary": "> \"积极防御，又叫攻势防御，又叫决战防御。消极防御，又叫专守防御，又叫单纯防御。消极防御实际上是假防御，只有积极防御才是真防御，才是为了反攻和进攻的防御。\"",
+      "points": [
+        "**防御不是目的**：防御是为了反攻和进攻",
+        "**消极防御是假防御**：只防不攻，最终防不住",
+        "**积极防御是真防御**：在防御中寻找进攻机会"
+      ],
+      "source": "中国革命战争的战略问题",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/积极防御-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-004",
+      "type": "MTH",
+      "title": "策略原则：论政策",
+      "summary": "> \"既须对于反对抗日的亲日派大地主大资产阶级和主张抗日的英美派大地主大资产阶级加以区别，又须对于主张抗日但动摇的英美派大地主大资产阶级和坚决抗日但不反共的民族资产阶级加以区别。\"",
+      "points": [
+        "**发展进步势力**：工农小资产阶级是基本力量",
+        "**争取中间势力**：民族资产阶级是可以争取的",
+        "**孤立顽固势力**：大地主大资产阶级是要孤立的"
+      ],
+      "source": "论政策",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/策略原则-论政策-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-SCYS-003",
+      "type": "MTH",
+      "title": "系统思维四步骤",
+      "summary": "> \"任何关键词都是1个系统，无论多简单的关键词，你必须先承认它是一个系统。\"",
+      "points": [
+        "**万物皆系统**：任何关键词都是一个系统",
+        "**系统可拆解**：拆解后得到要素",
+        "**系统可优化**：运行后发现BUG，优化后提升效率"
+      ],
+      "source": "6年来，我从职场做副业...成为1人公司.pdf",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/系统思维四步骤-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-012",
+      "type": "MTH",
+      "title": "组织起来",
+      "summary": "> \"把群众力量组织起来，这是一种方针。\"",
+      "points": [
+        "**群众力量是分散的**：个体力量有限",
+        "**组织起来力量大**：合作社可以集中力量",
+        "**合作社是道路**：走集体化道路"
+      ],
+      "source": "组织起来",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/组织起来-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-045",
+      "type": "MTH",
+      "title": "经济建设和国防建设的关系",
+      "summary": "> \"国防不可不有。……可靠的办法就是把军政费用降到一个适当的比例，增加经济建设费用。\"",
+      "points": [
+        "**国防不可不有**：国防是必要的",
+        "**经济建设是基础**：只有经济建设搞好了，国防建设才有基础",
+        "**降低军政费用**：把军政费用降到一个适当的比例"
+      ],
+      "source": "论十大关系",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/经济建设和国防建设关系-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-015",
+      "type": "MTH",
+      "title": "统筹兼顾",
+      "summary": "> \"我们的方针是统筹兼顾、适当安排。\"",
+      "points": [
+        "**统筹兼顾**：不能只顾一头，要兼顾各方面",
+        "**适当安排**：根据具体情况，合理安排",
+        "**调动一切积极因素**：把消极因素转化为积极因素"
+      ],
+      "source": "关于正确处理人民内部矛盾的问题",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/统筹兼顾-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-059",
+      "type": "MTH",
+      "title": "民主与专政",
+      "summary": "> \"对人民内部的民主方面和对反动派的专政方面，互相结合起来，就是人民民主专政。\"",
+      "points": [
+        "**对人民民主**：人民内部用民主方法",
+        "**对敌人专政**：反动派用专政方法",
+        "**两者结合**：民主和专政互相结合"
+      ],
+      "source": "论人民民主专政",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/论人民民主专政-民主与专政-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-064",
+      "type": "MTH",
+      "title": "中国和外国的关系",
+      "summary": "> \"我们的方针是，一切民族、一切国家的长处都要学，政治、经济、科学、技术、文学、艺术的一切真正好的东西都要学。\"",
+      "points": [
+        "**一切民族的长处都要学**：不是只学苏联，也不是只学西方",
+        "**但是必须有分析有批判地学**：不能盲目照搬",
+        "**不能一切照抄**：要结合中国实际"
+      ],
+      "source": "论十大关系",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/论十大关系-中国和外国关系-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-060",
+      "type": "MTH",
+      "title": "是非关系",
+      "summary": "> \"党内党外都要分清是非。\"",
+      "points": [
+        "**分清是非**：对就是对，错就是错",
+        "**对犯错误的人要帮助**：不是打击，而是帮助",
+        "**团结-批评-团结**：从团结出发，经过批评，达到新的团结"
+      ],
+      "source": "论十大关系",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/论十大关系-是非关系-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-068",
+      "type": "MTH",
+      "title": "重工业轻工业农业关系",
+      "summary": "> \"重工业是我国建设的重点。必须优先发展生产资料的生产，这是已经定了的。但是决不可以因此忽视生活资料尤其是粮食的生产。\"",
+      "points": [
+        "**重工业是重点**：必须优先发展",
+        "**轻工业和农业不能忽视**：生活资料也很重要",
+        "**多发展农业轻工业**：可以为重工业积累资金"
+      ],
+      "source": "论十大关系",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/论十大关系-重工业轻工业农业-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-058",
+      "type": "MTH",
+      "title": "人民战争",
+      "summary": "> \"人民，只有人民，才是创造世界历史的动力。\"",
+      "points": [
+        "**人民是动力**：人民是创造世界历史的动力",
+        "**人民战争**：依靠人民进行战争",
+        "**人民胜利**：人民的战争必然胜利"
+      ],
+      "source": "论联合政府",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/论联合政府-人民战争-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-007",
+      "type": "MTH",
+      "title": "调动一切积极因素",
+      "summary": "> \"提出这十个问题，都是围绕着一个基本方针，就是要把国内外一切积极因素调动起来，为社会主义事业服务。\"",
+      "points": [
+        "**统筹兼顾**：不能只顾一头，要兼顾各方面",
+        "**调动积极因素**：把消极因素转化为积极因素",
+        "为什么\"多发展农业、轻工业\"（为重工业积累资金）"
+      ],
+      "source": "论十大关系",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/调动一切积极因素-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-034",
+      "type": "MTH",
+      "title": "调查就是解决问题",
+      "summary": "> \"你对于那个问题不能解决吗？那末，你就去调查那个问题的现状和它的历史吧！你完完全全调查明白了，你对那个问题就有解决的办法了。\"",
+      "points": [
+        "**问题不能解决**：是因为不了解问题",
+        "**调查问题**：了解问题的现状和历史",
+        "**就有解决办法**：调查清楚了，办法就有了"
+      ],
+      "source": "反对本本主义",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/调查就是解决问题-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-SCYS-001",
+      "type": "MTH",
+      "title": "超级个体十能力模型",
+      "summary": "从职场到自由职业者、超级个体、1人公司，需要掌握 10 个赚钱能力。",
+      "points": [
+        "**从职场到超级个体**：需要从\"只管一件事\"变成\"管所有事\"",
+        "**能力可迁移**：一个能力可以用在多个场景",
+        "**系统思维**：把人生看作一个可以无限优化的系统"
+      ],
+      "source": "6年来，我从职场做副业...成为1人公司.pdf",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/超级个体十能力-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-035",
+      "type": "MTH",
+      "title": "长期共存、互相监督",
+      "summary": "> \"长期共存、互相监督这个口号，也是我国具体的历史条件的产物。\"",
+      "points": [
+        "**长期共存**：共产党和民主党派要长期共存",
+        "**互相监督**：共产党和民主党派要互相监督",
+        "**共存**：不是一党专政，而是多党共存"
+      ],
+      "source": "关于正确处理人民内部矛盾的问题",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/长期共存互相监督-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-025",
+      "type": "MTH",
+      "title": "阶级斗争长期性",
+      "summary": "> \"社会主义社会是一个相当长的历史阶段。在社会主义这个历史阶段中，还存在着阶级、阶级矛盾和阶级斗争，存在着社会主义同资本主义两条道路的斗争，存在着资本主义复辟的危险性。\"",
+      "points": [
+        "**社会主义社会相当长**：不是短期的",
+        "**阶级斗争仍然存在**：不是没有阶级斗争",
+        "**资本主义复辟危险**：存在资本主义复辟的危险性"
+      ],
+      "source": "论无产阶级专政下继续革命",
+      "confidence": "medium",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/阶级斗争长期性-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-029",
+      "type": "MTH",
+      "title": "革命对象：走资本主义道路当权派",
+      "summary": "> \"党内走资本主义道路的当权派。\"",
+      "points": [
+        "**革命对象在党内**：不是党外的敌人",
+        "**走资本主义道路**：不是走社会主义道路",
+        "**当权派**：不是普通党员"
+      ],
+      "source": "论无产阶级专政下继续革命",
+      "confidence": "medium",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/革命对象-走资本主义道路当权派-20260623.md"
+    },
+    {
+      "unit_id": "MTH-20260623-MAO-003",
+      "type": "MTH",
+      "title": "领导责任论",
+      "summary": "> \"无产阶级怎样经过它的政党实现对于全国各革命阶级的政治领导呢？\"",
+      "points": [
+        "**方向正确**：提出正确的口号和目标",
+        "**以身作则**：自己先做到，才能领导别人",
+        "为什么\"口号\"很重要（方向指引）"
+      ],
+      "source": "中国共产党在抗日时期的任务",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/领导责任论-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-022",
+      "type": "CON",
+      "title": "两类矛盾：敌我矛盾和人民内部矛盾",
+      "summary": "> \"在我们的面前有两类社会矛盾，这就是敌我之间的矛盾和人民内部矛盾。这是性质完全不同的两类矛盾。\"",
+      "points": [
+        "**正面（区分两类矛盾）**：敌我矛盾用专政方法，人民内部矛盾用民主方法",
+        "**反面（混淆两类矛盾）**：把人民内部矛盾当敌我矛盾处理",
+        "**碰撞后的理解**：区分两类矛盾是正确处理矛盾的前提"
+      ],
+      "source": "关于正确处理人民内部矛盾的问题",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/两类矛盾-敌我矛盾和人民内部矛盾-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-010",
+      "type": "CON",
+      "title": "中国革命两步走",
+      "summary": "> \"中国革命的历史进程，必须分为两步，其第一步是民主主义的革命，其第二步是社会主义的革命，这是性质不同的两个革命过程。\"",
+      "points": [
+        "**正面（两步走）**：先搞民主主义革命，再搞社会主义革命",
+        "**反面（毕其功于一役）**：一步到位搞社会主义革命",
+        "**碰撞后的理解**：两个阶段不能合并，必须分步走"
+      ],
+      "source": "中国革命和中国共产党",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/中国革命两步走-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-019",
+      "type": "CON",
+      "title": "中国革命的动力",
+      "summary": "> \"中国革命的动力是什么？……无产阶级、农民阶级、城市小资产阶级、民族资产阶级。\"",
+      "points": [
+        "**正面（革命动力）**：无产阶级、农民阶级、城市小资产阶级、民族资产阶级",
+        "**反面（革命对象）**：帝国主义、封建主义、官僚资本主义",
+        "**碰撞后的理解**：分清动力和对象，才能团结真正的朋友"
+      ],
+      "source": "中国革命和中国共产党",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/中国革命动力-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-029",
+      "type": "CON",
+      "title": "中国革命战争特点",
+      "summary": "> \"中国革命战争的特点是什么？……中国是一个政治经济发展不平衡的半殖民地的大国，而又经过了一九二四年至一九二七年的革命。\"",
+      "points": [
+        "**正面（特点分析）**：根据中国革命战争的特点制定战略战术",
+        "**反面（照搬经验）**：照搬苏联或其他国家的经验",
+        "**碰撞后的理解**：必须根据自己的特点制定战略战术"
+      ],
+      "source": "中国革命战争的战略问题",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/中国革命战争特点-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-003",
+      "type": "CON",
+      "title": "中国革命的对象、任务、动力",
+      "summary": "毛泽东在《中国革命和中国共产党》中系统阐述了中国革命的基本问题：",
+      "points": [
+        "1939 年，抗日战争进入相持阶段",
+        "党内对中国革命的基本问题存在模糊认识",
+        "毛泽东系统阐述，为全党提供理论指导"
+      ],
+      "source": "中国革命和中国共产党",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/中国革命的对象-任务-动力-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-009",
+      "type": "CON",
+      "title": "完全彻底为人民服务",
+      "summary": "> \"我们这个队伍完全是为着解放人民的，是彻底地为人民的利益工作的。\"",
+      "points": [
+        "**完全**：不是部分，而是全部",
+        "**彻底**：不是表面，而是深入",
+        "**正面（为人民服务）**：为人民利益而死，重于泰山"
+      ],
+      "source": "为人民服务",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/为人民服务-完全彻底-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-026",
+      "type": "CON",
+      "title": "主观主义",
+      "summary": "> \"主观主义是一种不正派的学风，它是反对马克思列宁主义的，它是和共产党不能并存的。\"",
+      "points": [
+        "**正面（理论联系实际）**：从实际出发，理论联系实际",
+        "**反面（主观主义）**：从主观出发，理论脱离实际",
+        "**碰撞后的理解**：主观主义是学风问题，是思想路线问题"
+      ],
+      "source": "改造我们的学习",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/主观主义-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-016",
+      "type": "CON",
+      "title": "人民内部矛盾",
+      "summary": "> \"在我们的面前有两类社会矛盾，这就是敌我之间的矛盾和人民内部矛盾。这是性质完全不同的两类矛盾。\"",
+      "points": [
+        "**正面（区分两类矛盾）**：敌我矛盾用专政方法，人民内部矛盾用民主方法",
+        "**反面（混淆两类矛盾）**：把人民内部矛盾当敌我矛盾处理",
+        "**碰撞后的理解**：区分两类矛盾是正确处理矛盾的前提"
+      ],
+      "source": "关于正确处理人民内部矛盾的问题",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/人民内部矛盾-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-005",
+      "type": "CON",
+      "title": "党八股",
+      "summary": "> \"主观主义和宗派主义怎样拿党八股做它们的宣传工具，或表现形式。我们反对主观主义和宗派主义，如果不连党八股也给以清算，那它们就还有一个藏身的地方。\"",
+      "points": [
+        "**正面（新文风）**：言之有物、有的放矢、语言生动",
+        "**反面（党八股）**：空话连篇、无的放矢、语言无味",
+        "**碰撞后的理解**：党八股是主观主义和宗派主义的表现形式，反对党八股就是反对主观主义和宗派主义"
+      ],
+      "source": "反对党八股",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/党八股-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-032",
+      "type": "CON",
+      "title": "农民运动",
+      "summary": "> \"很短的时间内，将有几万万农民从中国中部、南部和北部各省起来，其势如暴风骤雨，迅猛异常，无论什么大的力量都将压抑不住。\"",
+      "points": [
+        "**农民是革命力量**：农民是革命的重要力量",
+        "**农民运动势不可挡**：其势如暴风骤雨",
+        "**农民运动是好的**：不是\"糟得很\"，而是\"好得很\""
+      ],
+      "source": "湖南农民运动考察报告",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/农民运动-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-006",
+      "type": "CON",
+      "title": "单纯军事观点",
+      "summary": "> \"单纯军事观点在红军一部分同志中非常发展。\"",
+      "points": [
+        "**正面（正确观点）**：军事是为政治服务的，红军是执行政治任务的武装集团",
+        "**反面（单纯军事观点）**：军事好就行，政治无所谓",
+        "**碰撞后的理解**：军事和政治是统一的，军事是为政治服务的"
+      ],
+      "source": "关于纠正党内的错误思想",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/单纯军事观点-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-012",
+      "type": "CON",
+      "title": "地主阶级",
+      "summary": "> \"在经济落后的半殖民地的中国，地主阶级和买办阶级完全是国际资产阶级的附庸，其生存和发展，是附属于帝国主义的。\"",
+      "points": [
+        "**正面（革命派）**：要推翻地主阶级",
+        "**反面（地主阶级）**：要维护自己的利益",
+        "**碰撞后的理解**：地主阶级是革命的对象，不是革命的动力"
+      ],
+      "source": "中国社会各阶级的分析",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/地主阶级-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-014",
+      "type": "CON",
+      "title": "宗派主义",
+      "summary": "> \"对内的宗派主义倾向产生了排内性，妨碍党内的统一和团结；对外的宗派主义倾向产生了排外性，妨碍党团结全国人民的事业。\"",
+      "points": [
+        "**正面（反对宗派主义）**：团结党内同志，团结党外人士",
+        "**反面（宗派主义）**：排斥异己，拉帮结派",
+        "**碰撞后的理解**：宗派主义是主观主义在组织关系上的表现"
+      ],
+      "source": "整顿党的作风",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/宗派主义-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-033",
+      "type": "CON",
+      "title": "小资产阶级",
+      "summary": "> \"小资产阶级。如自耕农，手工业主，小知识阶层——学生界、小学教员、小员司、小事务员、小律师，小商人等都属于这一类。\"",
+      "points": [
+        "**正面（革命动力）**：小资产阶级是革命的动力之一",
+        "**反面（动摇性）**：小资产阶级有动摇性",
+        "**碰撞后的理解**：小资产阶级可以参加革命，但需要引导"
+      ],
+      "source": "中国社会各阶级的分析",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/小资产阶级-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-011",
+      "type": "CON",
+      "title": "工农武装割据",
+      "summary": "> \"工农武装割据的思想，是共产党和割据地方的工农群众必须充分具备的一个重要的思想。\"",
+      "points": [
+        "**正面（工农武装割据）**：武装、土地、根据地三者结合",
+        "**反面（单纯军事）**：只搞武装，不搞土地革命和根据地建设",
+        "**碰撞后的理解**：三者缺一不可，武装是保障，土地是内容，根据地是依托"
+      ],
+      "source": "井冈山的斗争",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/工农武装割据-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-023",
+      "type": "CON",
+      "title": "感性认识",
+      "summary": "> \"无数客观外界的现象通过人的眼、耳、鼻、舌、身这五个官能反映到自己的头脑中来，开始是感性认识。\"",
+      "points": [
+        "**感性认识是起点**：认识从感性认识开始",
+        "**感性认识是表面的**：只能认识事物的现象、各个片面和外部联系",
+        "**感性认识需要深化**：感性认识需要发展到理性认识"
+      ],
+      "source": "人的正确思想是从哪里来的？",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/感性认识-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-041",
+      "type": "CON",
+      "title": "战争规律",
+      "summary": "> \"战争的规律——这是任何指导战争的人不能不研究和不能不解决的问题。\"",
+      "points": [
+        "**战争有规律**：战争不是随机的，是有规律的",
+        "**规律是发展的**：战争规律是发展的，不是固定的",
+        "**要研究规律**：指导战争的人必须研究战争规律"
+      ],
+      "source": "中国革命战争的战略问题",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/战争规律-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-042",
+      "type": "CON",
+      "title": "教条主义",
+      "summary": "> \"我们学的是马克思主义，但是我们中的许多人，他们学马克思主义的方法是直接违反马克思主义的。这就是说，他们违背了马克思、恩格斯、列宁、斯大林所谆谆告诫人们的一条基本原则：理论和实际统一。\"",
+      "points": [
+        "**教条主义是错误的**：只从书本出发，不从实际出发",
+        "**马克思主义要结合实际**：不能照搬照抄",
+        "**理论要联系实际**：理论脱离实际就是教条主义"
+      ],
+      "source": "整顿党的作风",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/教条主义-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-039",
+      "type": "CON",
+      "title": "新民主主义政治",
+      "summary": "> \"新民主主义的政权组织，应该采取民主集中制，由各级人民代表大会决定大政方针，选举政府。\"",
+      "points": [
+        "**正面（民主集中制）**：既有民主又有集中",
+        "**反面（独裁或散漫）**：要么独裁要么散漫",
+        "**碰撞后的理解**：民主集中制是民主和集中的统一"
+      ],
+      "source": "论联合政府",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/新民主主义政治-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-007",
+      "type": "CON",
+      "title": "新民主主义文化",
+      "summary": "> \"民族的科学的大众的文化，就是人民大众反帝反封建的文化，就是新民主主义的文化，就是中华民族的新文化。\"",
+      "points": [
+        "1940 年，抗日战争时期",
+        "党内对文化性质存在模糊认识",
+        "毛泽东系统阐述新民主主义文化"
+      ],
+      "source": "新民主主义论",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/新民主主义文化-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-030",
+      "type": "CON",
+      "title": "新民主主义经济",
+      "summary": "> \"大银行、大工业、大商业，归这个共和国的国家所有。……在无产阶级领导下的新民主主义共和国的国营经济是社会主义的性质，是整个国民经济的领导力量。\"",
+      "points": [
+        "**正面（新民主主义经济）**：国营经济领导，多种经济成分并存",
+        "**反面（资本主义经济）**：资本主义私有制主导",
+        "**碰撞后的理解**：新民主主义经济是过渡形态，不是最终形态"
+      ],
+      "source": "新民主主义论",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/新民主主义经济-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-024",
+      "type": "CON",
+      "title": "无产阶级专政下继续革命",
+      "summary": "> \"无产阶级专政下继续革命。\"",
+      "points": [
+        "**无产阶级专政是前提**：先有无产阶级专政",
+        "**继续革命是必要**：在无产阶级专政条件下还要继续革命",
+        "**革命对象是走资派**：党内走资本主义道路的当权派"
+      ],
+      "source": "论无产阶级专政下继续革命",
+      "confidence": "medium",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/无产阶级专政下继续革命-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-013",
+      "type": "CON",
+      "title": "旧民主主义和新民主主义",
+      "summary": "> \"中国革命的历史特点，是分为民主主义和社会主义两个步骤，而其第一步现在已不是一般的民主主义，而是中国式的、特殊的、新式的民主主义，而是新民主主义。\"",
+      "points": [
+        "**正面（新民主主义）**：无产阶级领导，属于世界无产阶级社会主义革命的一部分",
+        "**反面（旧民主主义）**：资产阶级领导，属于旧的世界资产阶级民主主义革命的一部分",
+        "**碰撞后的理解**：新民主主义是新式的民主主义，不是旧式的民主主义"
+      ],
+      "source": "新民主主义论",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/旧民主主义和新民主主义-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-037",
+      "type": "CON",
+      "title": "本本主义",
+      "summary": "> \"我们说马克思主义是对的，决不是因为马克思这个人是什么'先哲'，而是因为他的理论，在我们的实践中，在我们的斗争中，证明了是对的。\"",
+      "points": [
+        "**本本主义是错误的**：只从书本出发，不从实际出发",
+        "**马克思主义要经过实践检验**：不是因为马克思说是对的就对",
+        "**调查研究是正确方法**：没有调查就没有发言权"
+      ],
+      "source": "反对本本主义",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/本本主义-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-034",
+      "type": "CON",
+      "title": "民族资产阶级",
+      "summary": "> \"民族资产阶级是带两重性的阶级。\"",
+      "points": [
+        "**正面（革命性）**：民族资产阶级有革命要求",
+        "**反面（妥协性）**：民族资产阶级有妥协倾向",
+        "**碰撞后的理解**：民族资产阶级可以参加革命，但不能领导革命"
+      ],
+      "source": "中国革命和中国共产党",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/民族资产阶级-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-036",
+      "type": "CON",
+      "title": "理性认识",
+      "summary": "> \"这种感性认识的材料积累多了，就会产生一个飞跃，变成了理性认识，这就是思想。\"",
+      "points": [
+        "**理性认识是深化**：从感性认识深化到理性认识",
+        "**理性认识是本质**：认识事物的本质、全体和内部联系",
+        "**理性认识需要检验**：理性认识需要回到实践中去检验"
+      ],
+      "source": "人的正确思想是从哪里来的？",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/理性认识-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-020",
+      "type": "CON",
+      "title": "直接经验和间接经验",
+      "summary": "> \"一切真知都是从直接经验发源的。但人不能事事直接经验，事实上多数的知识都是间接经验的东西。\"",
+      "points": [
+        "**直接经验是基础**：一切真知都是从直接经验发源的",
+        "**间接经验是补充**：人不能事事直接经验，多数知识是间接经验",
+        "**间接经验也是别人的直接经验**：在人则为间接经验者，在人则仍为直接经验"
+      ],
+      "source": "实践论",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/直接经验和间接经验-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-025",
+      "type": "CON",
+      "title": "矛盾的斗争性",
+      "summary": "> \"矛盾的斗争性是无条件的、绝对的。\"",
+      "points": [
+        "**斗争性是无条件的**：矛盾的斗争性不需要条件",
+        "**斗争性是绝对的**：矛盾的斗争性贯穿于过程的始终",
+        "**斗争性是普遍的**：矛盾的斗争性存在于一切事物中"
+      ],
+      "source": "矛盾论",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/矛盾的斗争性-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-028",
+      "type": "CON",
+      "title": "社会主义社会主要矛盾",
+      "summary": "> \"社会主义社会是一个相当长的历史阶段。在社会主义这个历史阶段中，还存在着阶级、阶级矛盾和阶级斗争，存在着社会主义同资本主义两条道路的斗争，存在着资本主义复辟的危险性。\"",
+      "points": [
+        "**主要矛盾是阶级斗争**：不是生产关系和生产力的矛盾",
+        "**阶级斗争是纲**：一切工作都要围绕阶级斗争",
+        "**纲举目张**：抓住阶级斗争，其他问题自然解决"
+      ],
+      "source": "论无产阶级专政下继续革命",
+      "confidence": "medium",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/社会主义社会主要矛盾-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-008",
+      "type": "CON",
+      "title": "红色政权存在条件",
+      "summary": "> \"一国之内，在四围白色政权的包围中，有一小块或若干小块红色政权的区域长期地存在着，这是世界各国从来没有的事。这种奇事的发生，有其独特的原因。\"",
+      "points": [
+        "1928 年，井冈山时期",
+        "党内对红色政权能否存在存在疑问",
+        "毛泽东分析了红色政权能够存在的条件"
+      ],
+      "source": "中国的红色政权为什么能够存在？",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/红色政权存在条件-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-004",
+      "type": "CON",
+      "title": "联合政府",
+      "summary": "> \"中国急需把各党各派和无党无派的代表人物团结在一起，成立民主的临时的联合政府，以便实行民主的改革，克服目前的危机，动员和统一全中国的抗日力量，有力地和同盟国配合作战，打败日本侵略者。\"",
+      "points": [
+        "1945 年，抗日战争即将胜利",
+        "国民党一党专政，压制民主",
+        "中国共产党主张建立联合政府"
+      ],
+      "source": "论联合政府",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/联合政府-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-002",
+      "type": "CON",
+      "title": "自由主义",
+      "summary": "> \"自由主义取消思想斗争，主张无原则的和平，结果是腐朽庸俗的作风发生，使党和革命团体的某些组织和某些个人在政治上腐化起来。\"",
+      "points": [
+        "**正面（思想斗争）**：有原则、有争论、有批评",
+        "**反面（自由主义）**：无原则、无争论、无批评",
+        "**碰撞后的理解**：自由主义不是\"宽容\"，而是\"放弃原则\""
+      ],
+      "source": "反对自由主义",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/自由主义-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-017",
+      "type": "CON",
+      "title": "认识过程两个飞跃",
+      "summary": "> \"人们在社会实践中从事各项斗争，有了丰富的经验，有成功的，有失败的。无数客观外界的现象通过人的眼、耳、鼻、舌、身这五个官能反映到自己的头脑中来，开始是感性认识。这种感性认识的材料积累多了，就会产生一个飞跃，变成了理性认识，这就是思想。这是一个认识过程。这是整个认识过程的第一个阶段，即由客观物质到主观精神的阶段，由存",
+      "points": [
+        "**正面（两个飞跃）**：认识要经过两个飞跃才能完成",
+        "**反面（一个飞跃）**：只停留在感性认识或理性认识",
+        "**碰撞后的理解**：认识不是一次完成的，需要多次反复"
+      ],
+      "source": "人的正确思想是从哪里来的？",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/认识过程两个飞跃-20260623.md"
+    },
+    {
+      "unit_id": "CON-20260623-MAO-018",
+      "type": "CON",
+      "title": "革命高潮",
+      "summary": "> \"星星之火，可以燎原。\"",
+      "points": [
+        "**革命力量弱小**：目前红军力量还很弱小",
+        "**革命高潮即将到来**：全国都布满了干柴，很快就会燃成烈火",
+        "**星星之火可以燎原**：弱小的力量可以发展壮大"
+      ],
+      "source": "星星之火，可以燎原",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/革命高潮-20260623.md"
+    },
+    {
+      "unit_id": "CAS-20260623-MAO-001",
+      "type": "CAS",
+      "title": "西安事变",
+      "summary": "1936 年 12 月 12 日，张学良、杨虎城发动西安事变，扣押蒋介石。",
+      "points": [
+        "**共产党主张和平解决**：不杀蒋介石，逼蒋抗日",
+        "**蒋介石被迫接受条件**：联共抗日",
+        "**但蒋介石可能翻脸**：声明中仍有攻击性语言"
+      ],
+      "source": "关于蒋介石声明的声明",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CAS_案例/西安事变-20260623.md"
+    },
+    {
+      "unit_id": "CAS-20260623-MAO-002",
+      "type": "CAS",
+      "title": "重庆谈判：针锋相对",
+      "summary": "1945 年 8 月，抗日战争胜利后，蒋介石三次电邀毛泽东赴重庆谈判。",
+      "points": [
+        "**去**：争取政治主动，表明和平诚意",
+        "**谈**：在谈判桌上坚持原则，不作无原则让步",
+        "**打**：谈判期间，军事上不放松警惕"
+      ],
+      "source": "关于重庆谈判",
+      "confidence": "high",
+      "ingested_at": "2026-06-23",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CAS_案例/重庆谈判-针锋相对-20260623.md"
+    },
+    {
+      "unit_id": "SOL-20260622-MAO-001",
+      "type": "SOL",
+      "title": "农村包围城市",
+      "summary": "中国革命走什么路？照搬苏联城市暴动，还是另辟蹊径？",
+      "points": [
+        "**敌强我弱**：敌人在城市力量强大，红军在城市站不住脚",
+        "**农村是薄弱环节**：敌人在农村统治薄弱，红军可以生存发展",
+        "**农民是主力**：农民占中国人口绝大多数，是革命的主力军"
+      ],
+      "source": "中国的红色政权为什么能够存在？",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SOL_方案/农村包围城市-20260622.md"
+    },
+    {
+      "unit_id": "SOL-20260622-MAO-004",
+      "type": "SOL",
+      "title": "十大军事原则",
+      "summary": "解放战争中，如何以弱胜强，打败国民党？",
+      "points": [
+        "**先弱后强**：从最容易的地方突破，积累力量再打强敌",
+        "**集中兵力**：在每一个具体战斗中形成绝对优势",
+        "**歼灭为主**：以消灭敌人有生力量为目标，不计较一城一地得失"
+      ],
+      "source": "目前形势和我们的任务",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SOL_方案/十大军事原则-20260622.md"
+    },
+    {
+      "unit_id": "SOL-20260622-MAO-003",
+      "type": "SOL",
+      "title": "新民主主义革命纲领",
+      "summary": "中国革命的目标是什么？建立什么样的国家？",
+      "points": [
+        "**分步走**：不急于求成，先完成民主革命，再进行社会主义革命",
+        "**联合专政**：不搞一阶级专政，而是多个革命阶级联合专政",
+        "为什么不能\"毕其功于一役\"（两个阶段性质不同）"
+      ],
+      "source": "新民主主义论",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SOL_方案/新民主主义革命纲领-20260622.md"
+    },
+    {
+      "unit_id": "SOL-20260622-MAO-002",
+      "type": "SOL",
+      "title": "统一战线",
+      "summary": "面对强大的敌人，单靠自己的力量不够，怎么办？",
+      "points": [
+        "**分清敌友**：用阶级分析法找出谁是朋友、谁是敌人",
+        "**团结朋友**：把所有愿意反对共同敌人的力量团结起来",
+        "**争取中间派**：把动摇不定的力量争取到自己这边"
+      ],
+      "source": "中国共产党在民族战争中的地位",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SOL_方案/统一战线-20260622.md"
+    },
+    {
+      "unit_id": "SKL-20260622-MAO-002",
+      "type": "SKL",
+      "title": "批评与自我批评",
+      "summary": "> \"对于我们，经常地检讨工作，在检讨中推广民主作风，不惧怕批评和自我批评，实行'知无不言，言无不尽'，'言者无罪，闻者足戒'，'有则改之，无则加勉'。\"",
+      "points": [
+        "**知无不言**：看到问题就要说出来，不要藏着掖着",
+        "**言无不尽**：说就要说透，不要吞吞吐吐",
+        "**言者无罪**：说错了不要紧，不要打击报复"
+      ],
+      "source": "整顿党的作风",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SKL_技能经验/批评与自我批评-20260622.md"
+    },
+    {
+      "unit_id": "SKL-20260622-MAO-004",
+      "type": "SKL",
+      "title": "群众动员技术",
+      "summary": "> \"这个政治上动员军民的问题，实在太重要了。我们之所以不惜反反复复地说到这一点，实在是没有这一点就没有胜利。\"",
+      "points": [
+        "**讲清楚目的**：为什么要这样做",
+        "**讲清楚方法**：怎样做",
+        "**讲清楚困难**：会遇到什么困难"
+      ],
+      "source": "论持久战",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SKL_技能经验/群众动员技术-20260622.md"
+    },
+    {
+      "unit_id": "SKL-20260622-MAO-003",
+      "type": "SKL",
+      "title": "调查研究技术",
+      "summary": "> \"你对于那个问题不能解决吗？那末，你就去调查那个问题的现状和它的历史吧！你完完全全调查明白了，你对那个问题就有解决的办法了。\"",
+      "points": [
+        "**调查要有提纲**：不能漫无目的",
+        "**要亲自出马**：不能单靠书面报告",
+        "**要深入**：不能走马观花"
+      ],
+      "source": "反对本本主义",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SKL_技能经验/调查研究技术-20260622.md"
+    },
+    {
+      "unit_id": "SKL-20260622-MAO-001",
+      "type": "SKL",
+      "title": "集中优势兵力，各个歼灭敌人",
+      "summary": "> \"每战集中绝对优势兵力（两倍、三倍、四倍、有时甚至是五倍或六倍于敌之兵力），四面包围敌人，力求全歼，不使漏网。\"",
+      "points": [
+        "**集中**：在决定性的时间和地点，集中绝对优势兵力",
+        "**包围**：四面包围敌人，不使漏网",
+        "**歼灭**：以歼灭敌人有生力量为主要目标，不以保守或夺取城市为主要目标"
+      ],
+      "source": "集中优势兵力，各个歼灭敌人",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SKL_技能经验/集中优势兵力各个歼灭-20260622.md"
+    },
+    {
+      "unit_id": "QST-20260622-MAO-001",
+      "type": "QST",
+      "title": "中国革命的道路是什么？",
+      "summary": "1930 年，红军力量弱小，党内对中国革命走什么路存在严重分歧：",
+      "points": [
+        "**城市中心论**：照搬苏联经验，以城市暴动为主要方式",
+        "**农村包围城市**：在农村建立根据地，逐步发展壮大",
+        "中国是半殖民地半封建社会，农民占人口绝大多数，革命的主力是谁？"
+      ],
+      "source": "星星之火，可以燎原",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/QST_问题/中国革命的道路是什么-20260622.md"
+    },
+    {
+      "unit_id": "QST-20260622-MAO-002",
+      "type": "QST",
+      "title": "如何处理人民内部矛盾？",
+      "summary": "1957 年，社会主义改造基本完成，中国进入社会主义社会。但社会矛盾并没有消失，反而以新的形式出现：",
+      "points": [
+        "工人阶级和农民阶级之间有矛盾",
+        "领导和被领导之间有矛盾",
+        "知识分子和工农之间有矛盾"
+      ],
+      "source": "关于正确处理人民内部矛盾的问题",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/QST_问题/如何处理人民内部矛盾-20260622.md"
+    },
+    {
+      "unit_id": "QST-20260622-MAO-003",
+      "type": "QST",
+      "title": "如何处理党内矛盾？",
+      "summary": "1929 年，红四军党内存在各种非无产阶级思想：单纯军事观点、极端民主化、非组织观点、绝对平均主义、主观主义、个人主义、流寇思想、盲动主义残余。",
+      "points": [
+        "党内存在错误思想，怎么办？",
+        "是用组织手段（处分、开除）还是用教育手段？",
+        "如何区分敌我矛盾和党内矛盾？"
+      ],
+      "source": "关于纠正党内的错误思想",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/QST_问题/如何处理党内矛盾-20260622.md"
+    },
+    {
+      "unit_id": "UNIT-20260622-CLIP-001",
+      "type": "OPI",
+      "title": "AI原生团队的竞争力来自重写工作流程而不只是加码工具使用",
+      "summary": "AI 原生团队的核心优势，不是谁会多写几个提示词，而是谁更敢把工作流重新拆开并重建。",
+      "points": [
+        "判断该不该做",
+        "验证做得对不对",
+        "管理异步任务切换"
+      ],
+      "source": "Anthropic 负责人：最 AI 化的产品团队如何工作丨Lenny's Podcast",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/OPI_观点/AI原生团队的竞争力来自重写工作流程而不只是加码工具使用.md"
+    },
+    {
+      "unit_id": "OPI-20260622-MAO-002",
+      "type": "OPI",
+      "title": "为人民服务",
+      "summary": "> \"我们这个队伍完全是为着解放人民的，是彻底地为人民的利益工作的。\"",
+      "points": [
+        "**为人民利益而死，就比泰山还重**：死的价值不在于\"怎么死\"，在于\"为谁死\"",
+        "**为法西斯卖力，剥削人民压迫人民而死，就比鸿毛还轻**：这就是\"重于泰山\"和\"轻于鸿毛\"的区别",
+        "**为人民的利益坚持好的，为人民的利益改正错的**：不怕批评，不怕改正错误"
+      ],
+      "source": "为人民服务",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/OPI_观点/为人民服务-20260622.md"
+    },
+    {
+      "unit_id": "OPI-20260622-MAO-003",
+      "type": "OPI",
+      "title": "兵民是胜利之本",
+      "summary": "> \"战争的伟力之最深厚的根源，存在于民众之中。\"",
+      "points": [
+        "**武器是重要因素，但不是决定因素**：决定战争胜负的是人，不是武器",
+        "**动员了全国的老百姓，就造成了陷敌于灭顶之灾的汪洋大海**：人民战争的力量是无穷的",
+        "**军队的基础在士兵**：没有进步的政治精神贯注于军队之中，就不能达到真正的官兵一致"
+      ],
+      "source": "论持久战",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/OPI_观点/兵民是胜利之本-20260622.md"
+    },
+    {
+      "unit_id": "OPI-20260622-MAO-001",
+      "type": "OPI",
+      "title": "星星之火，可以燎原",
+      "summary": "1930 年，红军力量弱小，很多人对革命前途悲观。毛泽东提出：现在的力量虽然小，但它是有生命力的，就像星星之火，终将燎原。",
+      "points": [
+        "**表层主张**：革命力量虽小但有前途，不要悲观",
+        "**背后假设**：事物发展的规律是从小到大、从弱到强；新生事物必然战胜腐朽事物",
+        "**成立的立场条件**：这个判断站在唯物辩证法的立场上——矛盾的运动方向是新事物取代旧事物"
+      ],
+      "source": "星星之火，可以燎原",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/OPI_观点/星星之火可以燎原-20260622.md"
+    },
+    {
+      "unit_id": "OPI-20260622-MAO-004",
+      "type": "OPI",
+      "title": "继续革命论",
+      "summary": "> \"无产阶级专政下继续革命。\"",
+      "points": [
+        "**社会主义社会仍然有阶级**：不是\"无阶级社会\"",
+        "**阶级斗争仍然存在**：资产阶级就在党内",
+        "**必须继续革命**：不能\"革命到头\""
+      ],
+      "source": "论无产阶级专政下继续革命",
+      "confidence": "medium",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/OPI_观点/继续革命论-20260622.md"
+    },
+    {
+      "unit_id": "MTH-20260622-MAO-010",
+      "type": "MTH",
+      "title": "不同质的矛盾用不同质的方法解决",
+      "summary": "> \"用不同的方法去解决不同的矛盾，这是马克思列宁主义者必须严格地遵守的一个原则。\"",
+      "points": [
+        "**矛盾是特殊的**：每个事物的矛盾都有自己的特点",
+        "**方法必须特殊**：用不同的方法解决不同的矛盾",
+        "**不能照搬**：不能用一个公式套所有问题"
+      ],
+      "source": "矛盾论",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/不同质的矛盾用不同质的方法解决-20260622.md"
+    },
+    {
+      "unit_id": "MTH-20260622-MAO-015",
+      "type": "MTH",
+      "title": "两个飞跃：从实践到认识，从认识到实践",
+      "summary": "> \"人的正确思想，只能从社会实践中来，只能从社会的生产斗争、阶级斗争和科学实验这三项实践中来。\"",
+      "points": [
+        "**第一个飞跃**：从实践到认识（感性→理性）",
+        "**第二个飞跃**：从认识到实践（理性→实践检验）",
+        "**多次反复**：一个正确的认识往往需要多次反复才能完成"
+      ],
+      "source": "人的正确思想是从哪里来的？",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/两个飞跃-从实践到认识从认识到实践-20260622.md"
+    },
+    {
+      "unit_id": "MTH-20260622-MAO-011",
+      "type": "MTH",
+      "title": "内因决定论：外因通过内因起作用",
+      "summary": "> \"事物发展的根本原因，不是在事物的外部而是在事物的内部，在于事物内部的矛盾性。\"",
+      "points": [
+        "**内因是根据**：事物发展的根本动力来自内部矛盾",
+        "**外因是条件**：外部环境提供条件，但不决定方向",
+        "**外因通过内因起作用**：同样的外部条件，不同的内因导致不同的结果"
+      ],
+      "source": "矛盾论",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/内因决定论-外因通过内因起作用-20260622.md"
+    },
+    {
+      "unit_id": "MTH-20260622-MAO-001",
+      "type": "MTH",
+      "title": "实践→认识→再实践的认识论循环",
+      "summary": "认识的发展不是直线式的，而是螺旋上升的循环：",
+      "points": [
+        "**感性认识**（实践→感觉和印象）：通过实践接触事物的表面现象",
+        "**理性认识**（感觉和印象→概念和判断）：通过思考抓住事物的本质和内部联系",
+        "**再实践**（理性认识→实践）：用理论指导实践，检验和发展理论"
+      ],
+      "source": "实践论",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/实践-认识-再实践的认识论循环-20260622.md"
+    },
+    {
+      "unit_id": "UNIT-20260622-INBOX-001",
+      "type": "MTH",
+      "title": "循环工程把提示词升级为可证据化改进系统",
+      "summary": "循环工程不是追求一次性完美提示词，而是设计一个能反复运行、持续变好的 AI 制品系统。",
+      "points": [
+        "触发器：何时启动循环。",
+        "执行：Agent 做什么。",
+        "证据：如何判断输出是否真的变好。"
+      ],
+      "source": "循环工程-PM入门指南",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/循环工程把提示词升级为可证据化改进系统.md"
+    },
+    {
+      "unit_id": "MTH-20260622-MAO-008",
+      "type": "MTH",
+      "title": "战略持久战",
+      "summary": "> \"抗日战争是持久战，最后胜利是中国的——这就是我们的结论。\"",
+      "points": [
+        "**战略防御**：敌强我弱，以空间换时间",
+        "**战略相持**：力量对比变化，消耗敌人",
+        "**战略反攻**：力量逆转，全面反攻"
+      ],
+      "source": "论持久战",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/战略持久战-论持久战-20260622.md"
+    },
+    {
+      "unit_id": "MTH-20260622-MAO-002",
+      "type": "MTH",
+      "title": "抓主要矛盾的方法",
+      "summary": "在复杂事物的发展过程中，有许多矛盾存在，其中必有一种是主要矛盾，它的存在和发展规定或影响着其他矛盾的存在和发展。",
+      "points": [
+        "**找**：在众多矛盾中识别出起决定作用的主要矛盾",
+        "**抓**：集中力量解决主要矛盾，不被次要矛盾分散注意力",
+        "**转**：注意主要矛盾和次要矛盾在一定条件下的转化"
+      ],
+      "source": "矛盾论",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/抓主要矛盾的方法-20260622.md"
+    },
+    {
+      "unit_id": "MTH-20260622-MAO-012",
+      "type": "MTH",
+      "title": "持久战三阶段",
+      "summary": "> \"中日战争既然是持久战，最后胜利又将是属于中国的，那末，就可以合理地设想，这种持久战，将具体地表现于三个阶段之中。\"",
+      "points": [
+        "**不能速胜**：敌强我弱，不可能一下子打败敌人",
+        "**不会亡国**：敌小我大、敌退步我进步、敌寡助我多助",
+        "**必经相持**：力量对比的变化需要时间，相持阶段是关键"
+      ],
+      "source": "论持久战",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/持久战三阶段-20260622.md"
+    },
+    {
+      "unit_id": "MTH-20260622-MAO-005",
+      "type": "MTH",
+      "title": "改造学习：反对主观主义",
+      "summary": "> \"不注重研究现状，不注重研究历史，不注重马克思列宁主义的应用，这些都是极坏的作风。\"",
+      "points": [
+        "**向下扎根**：学习的起点是实际问题（现状、历史），不是书本理论",
+        "**向外检验**：学习的效果由实际应用来检验，不是由考试成绩来检验",
+        "为什么\"有的放矢\"（用马克思主义之\"矢\"射中国革命之\"的\"）"
+      ],
+      "source": "改造我们的学习",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/改造学习-反对主观主义-20260622.md"
+    },
+    {
+      "unit_id": "MTH-20260622-MAO-014",
+      "type": "MTH",
+      "title": "整顿三风：反对主观主义、宗派主义、党八股",
+      "summary": "> \"我们要完成打倒敌人的任务，必须完成这个整顿党内作风的任务。\"",
+      "points": [
+        "**主观主义是根源**：宗派主义和党八股都是主观主义的表现",
+        "**学风是关键**：整顿学风（主观主义）是整顿党风和文风的基础",
+        "**团结是目的**：整顿作风的目的是团结全党，统一思想"
+      ],
+      "source": "整顿党的作风",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/整顿三风-反对主观主义宗派主义党八股-20260622.md"
+    },
+    {
+      "unit_id": "MTH-20260622-MAO-016",
+      "type": "MTH",
+      "title": "民主集中制：七千人大会",
+      "summary": "> \"没有民主，不可能有正确的集中，因为大家意见分歧，没有统一的认识，集中制就建立不起来。\"",
+      "points": [
+        "**民主是集中的基础**：没有民主，就不可能有正确的集中",
+        "**集中是民主的目的**：民主不是目的，集中正确的意见才是目的",
+        "**先民主后集中**：先让大家充分发表意见，再集中正确的意见"
+      ],
+      "source": "在扩大的中央工作会议上的讲话",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/民主集中制-七千人大会-20260622.md"
+    },
+    {
+      "unit_id": "UNIT-20260622-CLIP-002",
+      "type": "MTH",
+      "title": "研究型提示词应补同行评审暴露偏差与薄弱证据",
+      "summary": "研究型提示词如果只有“搜集并总结”，很容易把来源偏差、事实错配和自信幻觉一起带进结论。",
+      "points": [
+        "先让多个视角并行生成观点、证据和矛盾地图。",
+        "再让系统对自己的结论做同行评审，显式打置信度、找最弱环节、查偏差和缺失视角。",
+        "先定义 3-5 个互相补充的视角，而不是只要一个“综合总结”。"
+      ],
+      "source": "The Stanford STORM Method How to Make Claude Research Like a PhD in Minutes",
+      "confidence": "medium",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/研究型提示词应补同行评审暴露偏差与薄弱证据.md"
+    },
+    {
+      "unit_id": "MTH-20260622-MAO-018",
+      "type": "MTH",
+      "title": "经济建设为革命战争服务",
+      "summary": "> \"在现在的阶段上，经济建设必须是环绕着革命战争这个中心任务的。革命战争是当前的中心任务，经济建设事业是为着它的，是环绕着它的，是服从于它的。\"",
+      "points": [
+        "**中心任务不能丢**：革命战争是当前的中心任务",
+        "**经济建设是手段**：经济建设是为革命战争服务的",
+        "**两者要结合**：不能只搞革命不搞经济，也不能只搞经济不搞革命"
+      ],
+      "source": "必须注意经济工作",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/经济建设为革命战争服务-20260622.md"
+    },
+    {
+      "unit_id": "MTH-20260622-MAO-007",
+      "type": "MTH",
+      "title": "群众工作方法：关心群众生活",
+      "summary": "> \"我们应该深刻地注意群众生活的问题，从土地、劳动问题，到柴米油盐问题。\"",
+      "points": [
+        "**要群众跟你干，先帮群众解决问题**：群众不会因为你的口号响亮就跟你走，他们看的是你能不能帮他们解决实际困难",
+        "**从小事做起**：不是只关心\"大事\"（革命、战争），也要关心\"小事\"（盐、米、房子、衣）",
+        "**真心实意为群众谋利益**：不是做样子，而是真正解决问题"
+      ],
+      "source": "关心群众生活，注意工作方法",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/群众工作方法-关心群众生活-20260622.md"
+    },
+    {
+      "unit_id": "MTH-20260622-MAO-004",
+      "type": "MTH",
+      "title": "群众路线方法：从群众中来，到群众中去",
+      "summary": "> \"在我党的一切实际工作中，凡属正确的领导，必须是从群众中来，到群众中去。\"",
+      "points": [
+        "**从群众中来**：将群众的分散的无系统的意见集中起来，化为系统的意见",
+        "**到群众中去**：将系统的意见再回到群众中去，向群众解释和宣传",
+        "**检验**：在群众实践中检验这些意见是否正确"
+      ],
+      "source": "关于领导方法的若干问题",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/群众路线方法-从群众中来到群众中去-20260622.md"
+    },
+    {
+      "unit_id": "MTH-20260622-MAO-009",
+      "type": "MTH",
+      "title": "论十大关系：统筹兼顾方法",
+      "summary": "> \"提出这十个问题，都是围绕着一个基本方针，就是要把国内外一切积极因素调动起来，为社会主义事业服务。\"",
+      "points": [
+        "**重工业和轻工业、农业的关系**：不能只重重工业，忽视轻工业和农业",
+        "**沿海工业和内地工业的关系**：充分利用沿海工业基地",
+        "**经济建设和国防建设的关系**：国防建设要服从经济建设"
+      ],
+      "source": "论十大关系",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/论十大关系-统筹兼顾方法-20260622.md"
+    },
+    {
+      "unit_id": "MTH-20260622-MAO-003",
+      "type": "MTH",
+      "title": "调查研究方法：没有调查就没有发言权",
+      "summary": "> \"你对于某个问题没有调查，就停止你对于某个问题的发言权。\"",
+      "points": [
+        "**定对象**：明确要调查什么问题",
+        "**找对人**：找了解实际情况的人（不是坐在办公室里想）",
+        "**口问手写**：亲自问、亲自记，不能只听汇报"
+      ],
+      "source": "反对本本主义",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/调查研究方法-没有调查就没有发言权-20260622.md"
+    },
+    {
+      "unit_id": "MTH-20260622-MAO-013",
+      "type": "MTH",
+      "title": "防御中的进攻，持久中的速决，内线中的外线",
+      "summary": "> \"在战略上是内线的持久的防御战，在战役和战斗上是外线的速决的进攻战。\"",
+      "points": [
+        "**战略劣势不等于战术劣势**：在整体上处于劣势时，可以在局部创造优势",
+        "**战术胜利积累成战略胜利**：每一次小的胜利，积累成最终的胜利",
+        "为什么\"集中优势兵力，各个歼灭敌人\"（在局部创造优势）"
+      ],
+      "source": "论持久战",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/防御中的进攻-持久中的速决-内线中的外线-20260622.md"
+    },
+    {
+      "unit_id": "MTH-20260622-MAO-006",
+      "type": "MTH",
+      "title": "阶级分析法：谁是敌人，谁是朋友",
+      "summary": "> \"谁是我们的敌人？谁是我们的朋友？这个问题是革命的首要问题。\"",
+      "points": [
+        "**画地图**：把所有相关方列出来",
+        "**看利益**：每个方在这件事上的利益是什么",
+        "**分三类**："
+      ],
+      "source": "中国社会各阶级的分析",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/阶级分析法-谁是敌人谁是朋友-20260622.md"
+    },
+    {
+      "unit_id": "MTH-20260622-MAO-017",
+      "type": "MTH",
+      "title": "革命先锋论",
+      "summary": "> \"乡村中一向苦战奋斗的主要力量是贫农。从秘密时期到公开时期，贫农都在那里积极奋斗。他们最听共产党的领导。他们和土豪劣绅是死对头。他们毫不迟疑地向土豪劣绅营垒进攻。\"",
+      "points": [
+        "**贫农最革命**：因为贫农受压迫最深，最需要改变现状",
+        "**贫农是主力**：农民协会中，贫农占大多数",
+        "**贫农最听党的话**：因为党代表贫农的利益"
+      ],
+      "source": "湖南农民运动考察报告",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/革命先锋论-20260622.md"
+    },
+    {
+      "unit_id": "CON-20260622-MAO-007",
+      "type": "CON",
+      "title": "两种宇宙观：形而上学与辩证法",
+      "summary": "> \"在人类的认识史中，从来就有关于宇宙发展法则的两种见解，一种是形而上学的见解，一种是辩证法的见解，形成了互相对立的两种宇宙观。\"",
+      "points": [
+        "古希腊：赫拉克利特（辩证法）vs 巴门尼德（形而上学）",
+        "黑格尔：唯心辩证法",
+        "马克思：唯物辩证法（把黑格尔倒过来）"
+      ],
+      "source": "矛盾论",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/两种宇宙观-形而上学与辩证法-20260622.md"
+    },
+    {
+      "unit_id": "CON-20260622-MAO-004",
+      "type": "CON",
+      "title": "人民民主专政",
+      "summary": "> \"总结我们的经验，集中到一点，就是工人阶级（经过共产党）领导的以工农联盟为基础的人民民主专政。\"",
+      "points": [
+        "1949 年，国民党政权即将崩溃，新中国即将成立",
+        "需要明确\"新中国是什么样的国家\"",
+        "这是对\"新民主主义论\"的制度化落实"
+      ],
+      "source": "论人民民主专政",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/人民民主专政-20260622.md"
+    },
+    {
+      "unit_id": "CON-20260622-MAO-012",
+      "type": "CON",
+      "title": "农村阶级划分",
+      "summary": "毛泽东在 1933 年提出农村阶级划分的具体标准：",
+      "points": [
+        "1933 年，土地改革中发生偏向（错划、漏划）",
+        "毛泽东写此文作为划分标准",
+        "中央工农民主政府通过，作为正式标准"
+      ],
+      "source": "怎样分析农村阶级",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/农村阶级划分-20260622.md"
+    },
+    {
+      "unit_id": "CON-20260622-MAO-011",
+      "type": "CON",
+      "title": "农民运动：暴风骤雨",
+      "summary": "> \"目前农民运动的兴起是一个极大的问题。很短的时间内，将有几万万农民从中国中部、南部和北部各省起来，其势如暴风骤雨，迅猛异常，无论什么大的力量都将压抑不住。\"",
+      "points": [
+        "1924-1927 年大革命时期，农民运动蓬勃发展",
+        "党内对农民运动存在严重分歧：",
+        "毛泽东亲自到湖南考察 32 天，用事实反驳右派"
+      ],
+      "source": "湖南农民运动考察报告",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/农民运动-暴风骤雨-20260622.md"
+    },
+    {
+      "unit_id": "CON-20260622-MAO-001",
+      "type": "CON",
+      "title": "实践是认识的基础",
+      "summary": "人的认识不是从天上掉下来的，也不是头脑里固有的，而是从社会实践中产生的。**实践是认识的唯一来源**。",
+      "points": [
+        "马克思以前的唯物论（如费尔巴哈）离开人的社会性和历史发展去观察认识问题，不了解认识对社会实践的依赖关系",
+        "马克思在《关于费尔巴哈的提纲》中第一次提出实践观点",
+        "毛泽东在 1937 年延安时期将这一观点系统化，针对党内教条主义和经验主义的错误"
+      ],
+      "source": "实践论",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/实践是认识的基础-20260622.md"
+    },
+    {
+      "unit_id": "CON-20260622-MAO-005",
+      "type": "CON",
+      "title": "感性认识与理性认识",
+      "summary": "认识的发展经历两个阶段：",
+      "points": [
+        "马克思在《关于费尔巴哈的提纲》中提出实践观点",
+        "列宁在《唯物主义和经验批判主义》中发展了认识论",
+        "毛泽东在 1937 年针对党内教条主义（跳过感性直接用理性）和经验主义（停在感性不上升到理性）而系统阐述"
+      ],
+      "source": "实践论",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/感性认识与理性认识-20260622.md"
+    },
+    {
+      "unit_id": "CON-20260622-MAO-003",
+      "type": "CON",
+      "title": "新民主主义",
+      "summary": "新民主主义是毛泽东在 1940 年提出的中国革命理论，指中国革命既不是旧式的资产阶级民主革命，也不是社会主义革命，而是一种新型的民主革命。",
+      "points": [
+        "1940 年抗日战争时期，国共合作中共产党需要明确自己的政治主张",
+        "针对\"中国向何处去\"的问题，毛泽东系统阐述了新民主主义理论",
+        "这是对孙中山三民主义的继承和发展，同时区别于蒋介石的假三民主义"
+      ],
+      "source": "新民主主义论",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/新民主主义-20260622.md"
+    },
+    {
+      "unit_id": "CON-20260622-MAO-006",
+      "type": "CON",
+      "title": "真理的标准只能是社会实践",
+      "summary": "> \"判定认识或理论之是否真理，不是依主观上觉得如何而定，而是依客观上社会实践的结果如何而定。真理的标准只能是社会的实践。\"",
+      "points": [
+        "马克思在《关于费尔巴哈的提纲》中提出：\"人的思维是否具有客观的真理性，这不是一个理论的问题，而是一个实践的问题。\"",
+        "列宁在《唯物主义和经验批判主义》中进一步发展",
+        "毛泽东在 1937 年针对党内教条主义（用书本检验真理）而强调"
+      ],
+      "source": "实践论",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/真理的标准只能是社会实践-20260622.md"
+    },
+    {
+      "unit_id": "CON-20260622-MAO-010",
+      "type": "CON",
+      "title": "真老虎与纸老虎",
+      "summary": "> \"从本质上看，从长期上看，从战略上看，必须如实地把帝国主义和一切反动派，都看成纸老虎。从这点上，建立我们的战略思想。另一方面，它们又是活的铁的真的老虎，它们会吃人的。从这点上，建立我们的策略思想和战术思想。\"",
+      "points": [
+        "**正面**：从战略上看，帝国主义是纸老虎（终将失败）",
+        "**反面**：从战术上看，帝国主义是真老虎（会吃人）",
+        "**碰撞后的理解**：战略上藐视敌人，战术上重视敌人"
+      ],
+      "source": "关于帝国主义和一切反动派是不是真老虎的问题",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/真老虎与纸老虎-20260622.md"
+    },
+    {
+      "unit_id": "CON-20260622-MAO-002",
+      "type": "CON",
+      "title": "矛盾的普遍性与特殊性",
+      "summary": "**矛盾的普遍性**：矛盾存在于一切事物发展的过程中，矛盾贯串于每一事物发展过程的始终。没有矛盾就没有世界。",
+      "points": [
+        "列宁在《谈谈辩证法问题》中指出对立统一是辩证法的核心",
+        "毛泽东在 1937 年延安时期针对党内教条主义（不懂矛盾特殊性）和经验主义（不懂矛盾普遍性）而系统阐述",
+        "这是继《实践论》之后的第二篇哲学论文，解决的是\"怎样分析问题\"的方法论"
+      ],
+      "source": "矛盾论",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/矛盾的普遍性与特殊性-20260622.md"
+    },
+    {
+      "unit_id": "CON-20260622-MAO-008",
+      "type": "CON",
+      "title": "矛盾诸方面的同一性和斗争性",
+      "summary": "> \"一切矛盾着的方面都因一定条件具备着不同一性，所以称为矛盾。然而又具备着同一性，所以互相联结。\"",
+      "points": [
+        "矛盾双方互为存在的前提（没有甲方就没有乙方）",
+        "矛盾双方在一定条件下互相转化（甲方可以变成乙方）",
+        "矛盾双方始终在斗争"
+      ],
+      "source": "矛盾论",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/矛盾诸方面的同一性和斗争性-20260622.md"
+    },
+    {
+      "unit_id": "CON-20260622-MAO-009",
+      "type": "CON",
+      "title": "社会主义社会的基本矛盾",
+      "summary": "> \"在社会主义社会中，基本的矛盾仍然是生产关系和生产力之间的矛盾，上层建筑和经济基础之间的矛盾。\"",
+      "points": [
+        "1956 年社会主义改造基本完成，中国进入社会主义社会",
+        "但社会矛盾并没有消失，反而以新的形式出现",
+        "斯大林否认社会主义社会有矛盾，毛泽东纠正了这个错误"
+      ],
+      "source": "关于正确处理人民内部矛盾的问题",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/社会主义社会的基本矛盾-20260622.md"
+    },
+    {
+      "unit_id": "CAS-20260622-MAO-001",
+      "type": "CAS",
+      "title": "井冈山根据地",
+      "summary": "1927 年秋收起义失败后，毛泽东率领部队上井冈山，建立了中国第一个农村革命根据地。",
+      "points": [
+        "**地理优势**：井冈山位于湘赣边界，敌人统治薄弱",
+        "**群众基础**：当地农民有革命积极性",
+        "**土地革命**：实行\"打土豪、分田地\"，动员农民"
+      ],
+      "source": "井冈山的斗争",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CAS_案例/井冈山根据地-20260622.md"
+    },
+    {
+      "unit_id": "CAS-20260622-MAO-002",
+      "type": "CAS",
+      "title": "延安整风运动",
+      "summary": "1942-1945 年，中国共产党在延安开展整风运动，目的是反对主观主义、宗派主义和党八股。",
+      "points": [
+        "**反对主观主义**：整顿学风，理论联系实际",
+        "**反对宗派主义**：整顿党风，维护团结",
+        "**反对党八股**：整顿文风，反对空话套话"
+      ],
+      "source": "整顿党的作风",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CAS_案例/延安整风运动-20260622.md"
+    },
+    {
+      "unit_id": "CAS-20260622-MAO-004",
+      "type": "CAS",
+      "title": "遵义会议",
+      "summary": "1935 年 1 月，红军长征途中，在遵义召开中央政治局扩大会议。",
+      "points": [
+        "**批判了\"左\"倾军事路线**：第五次反\"围剿\"失败的根本原因是军事指挥错误",
+        "**确立了毛泽东的领导地位**：结束了\"左\"倾路线在党中央的统治",
+        "**挽救了党，挽救了红军**：遵义会议是党的历史上一个生死攸关的转折点"
+      ],
+      "source": "中国革命战争的战略问题",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CAS_案例/遵义会议-20260622.md"
+    },
+    {
+      "unit_id": "CAS-20260622-MAO-003",
+      "type": "CAS",
+      "title": "重庆谈判",
+      "summary": "1945 年 8 月，抗日战争胜利后，蒋介石三次电邀毛泽东赴重庆谈判。毛泽东决定亲赴重庆。",
+      "points": [
+        "**去**：争取政治主动，表明和平诚意",
+        "**谈**：在谈判桌上坚持原则，不作无原则让步",
+        "**打**：谈判期间，军事上不放松警惕"
+      ],
+      "source": "关于重庆谈判",
+      "confidence": "high",
+      "ingested_at": "2026-06-22",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CAS_案例/重庆谈判-20260622.md"
+    },
+    {
+      "unit_id": "UNIT-20260621-MIG-009",
+      "type": "SOL",
+      "title": "暴力出图模式",
+      "summary": "```",
+      "points": [
+        "时间紧，需要快速出效果",
+        "内容已经非常确定，不需要再改",
+        "重点是视觉冲击，不是内容逻辑"
+      ],
+      "source": "",
+      "confidence": "medium",
+      "ingested_at": "2026-06-21",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SOL_方案/暴力出图模式-20260621.md"
+    },
+    {
+      "unit_id": "UNIT-20260621-MIG-005",
+      "type": "SKL",
+      "title": "prompt-enhance 图片提示词改写增强",
+      "summary": "```",
+      "points": [
+        "\"不要文字\"",
+        "\"纯白背景\"",
+        "\"竖版 9:16\""
+      ],
+      "source": "",
+      "confidence": "medium",
+      "ingested_at": "2026-06-21",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SKL_技能经验/prompt-enhance图片提示词改写-20260621.md"
+    },
+    {
+      "unit_id": "UNIT-20260621-MIG-011",
+      "type": "SKL",
+      "title": "经验教训与踩坑总结",
+      "summary": "### 1. 内容先行",
+      "points": [
+        "[[PPT Agent 生产流程]]",
+        "[[三个确认门]]",
+        "[[耗时对比：传统 vs AI Agent]]"
+      ],
+      "source": "",
+      "confidence": "medium",
+      "ingested_at": "2026-06-21",
+      "vault_path": "400知识库/事实知识库/10_内容单元/SKL_技能经验/经验教训与踩坑总结-20260621.md"
+    },
+    {
+      "unit_id": "UNIT-20260621-MIG-007",
+      "type": "QST",
+      "title": "传统做 PPT 的痛点",
+      "summary": "| 痛点 | 描述 |",
+      "points": [
+        "产品经理：懂业务逻辑，做出来像 Word 搬运工",
+        "设计师：视觉效果好，但不懂业务重点",
+        "外包：沟通成本高，来回改稿效率低"
+      ],
+      "source": "",
+      "confidence": "medium",
+      "ingested_at": "2026-06-21",
+      "vault_path": "400知识库/事实知识库/10_内容单元/QST_问题/传统做PPT的痛点-20260621.md"
+    },
+    {
+      "unit_id": "UNIT-20260621-MIG-001",
+      "type": "OPI",
+      "title": "AI 做 PPT 的展望",
+      "summary": "**90% 自动化的部分**：",
+      "points": [
+        "大纲生成（outline-architect 已实现）",
+        "策划稿渲染（sandun-ppt 已实现）",
+        "风格选择（style-selector 已实现）"
+      ],
+      "source": "",
+      "confidence": "medium",
+      "ingested_at": "2026-06-21",
+      "vault_path": "400知识库/事实知识库/10_内容单元/OPI_观点/AI做PPT的展望-20260621.md"
+    },
+    {
+      "unit_id": "UNIT-20260621-MIG-002",
+      "type": "MTH",
+      "title": "Anti-Slop 规则",
+      "summary": "### 1. 标题必须是行动判断句",
+      "points": [
+        "[[PPT Agent 生产流程]]",
+        "[[三个确认门]]",
+        "[[经验教训与踩坑总结]]"
+      ],
+      "source": "",
+      "confidence": "medium",
+      "ingested_at": "2026-06-21",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/Anti-Slop规则-20260621.md"
+    },
+    {
+      "unit_id": "UNIT-20260621-MIG-003",
+      "type": "MTH",
+      "title": "Bento Grid 卡片系统",
+      "summary": "AI 理解\"卡片组合\"比理解\"自由排版\"容易 100 倍。",
+      "points": [
+        "放几个卡片？",
+        "每个多大？",
+        "里面放什么内容？"
+      ],
+      "source": "",
+      "confidence": "medium",
+      "ingested_at": "2026-06-21",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/Bento-Grid卡片系统-20260621.md"
+    },
+    {
+      "unit_id": "UNIT-20260621-MIG-004",
+      "type": "MTH",
+      "title": "Outfill 铺底图模式",
+      "summary": "| 条件 | 用卡片 | 用铺底 |",
+      "points": [
+        "案例展示页（客户实景图铺底 + 半透明文字层）",
+        "情感冲击页（数据可视化铺底 + 核心数字高亮）",
+        "产品展示页（产品图铺底 + 功能要点浮层）"
+      ],
+      "source": "",
+      "confidence": "medium",
+      "ingested_at": "2026-06-21",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/Outfill铺底图模式-20260621.md"
+    },
+    {
+      "unit_id": "UNIT-20260621-MIG-006",
+      "type": "MTH",
+      "title": "三个确认门",
+      "summary": "| 确认门 | 位置 | 确认内容 | 不确认的后果 |",
+      "points": [
+        "[ ] 受众是谁？（决定措辞深度）",
+        "[ ] 目标是什么？（决定说服路径）",
+        "[ ] 章节结构合理吗？（逻辑递进）"
+      ],
+      "source": "",
+      "confidence": "medium",
+      "ingested_at": "2026-06-21",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/三个确认门-20260621.md"
+    },
+    {
+      "unit_id": "UNIT-20260621-MIG-008",
+      "type": "MTH",
+      "title": "内容与设计分离",
+      "summary": "传统方式的错误：一开始就纠结\"用什么模板\"、\"什么配色\"、\"什么字体\"。",
+      "points": [
+        "内容阶段：逻辑对不对？证据够不够？",
+        "结构阶段：信息清不清楚？层级明不明？",
+        "视觉阶段：好不好看？品牌一不一致？"
+      ],
+      "source": "",
+      "confidence": "medium",
+      "ingested_at": "2026-06-21",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/内容与设计分离-20260621.md"
+    },
+    {
+      "unit_id": "UNIT-20260621-MIG-010",
+      "type": "MTH",
+      "title": "画布预览 vs 静态截图",
+      "summary": "| 维度 | 静态截图 | 画布预览 |",
+      "points": [
+        "[[PPT Agent 生产流程]]",
+        "[[Bento Grid 卡片系统]]"
+      ],
+      "source": "",
+      "confidence": "medium",
+      "ingested_at": "2026-06-21",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/画布预览vs静态截图-20260621.md"
+    },
+    {
+      "unit_id": "UNIT-20260621-MIG-012",
+      "type": "CAS",
+      "title": "耗时对比：传统 vs AI Agent",
+      "summary": "| 阶段 | 传统方式 | AI Agent | 提升 |",
+      "points": [
+        "[[传统做 PPT 的痛点]]",
+        "[[PPT Agent 生产流程]]",
+        "[[经验教训与踩坑总结]]"
+      ],
+      "source": "",
+      "confidence": "medium",
+      "ingested_at": "2026-06-21",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CAS_案例/耗时对比传统vsAI-20260621.md"
+    },
+    {
+      "unit_id": "UNIT-20260620-INBOX-CON-001",
+      "type": "CON",
+      "title": "xyflow：面向节点式 UI 的现成画布交互层",
+      "summary": "xyflow 是一个面向节点连线界面的开源交互层，用来承接“拖拽节点、连接边、缩放画布、查看小地图”这类工作流编辑器基础能力。",
+      "points": [
+        "它解决的是画布交互层，不直接解决业务编排逻辑。",
+        "适合工作流编辑器、知识图谱、Agent 编排图、数据管道等节点式界面。",
+        "当产品核心难点是节点交互而不是自研渲染引擎时，优先复用这类成熟库比从零写更稳。"
+      ],
+      "source": "xyflow使用指南",
+      "confidence": "high",
+      "ingested_at": "2026-06-20",
+      "vault_path": "400知识库/事实知识库/10_内容单元/CON_概念/UNIT-20260620-INBOX-CON-001.md"
+    },
+    {
+      "unit_id": "UNIT-20260618-INBOX-MTH-001",
+      "type": "MTH",
+      "title": "Loop Engineering：把人从逐句提示迁移到循环设计",
+      "summary": "Loop Engineering 不是继续优化单次提示词，而是在 Harness 之上设计一套会自己发现任务、交付、验证、持久化和调度的循环系统。",
+      "points": [
+        "四层栈要分清：`Prompt` 解决一次怎么说，`Context` 解决当前看什么，`Harness` 解决单次运行怎么武装，`Loop` 解决怎么让系统持续转",
+        "一个可运行循环至少包含五个动作：发现、交付、验证、持久化、调度。",
+        "六个基础零件要齐：`Automations`、`Worktrees`、`Skills`、`Connectors`、`Sub-agents`、`Memory`。"
+      ],
+      "source": "橙皮书-Loop-Engineering-完整摘要",
+      "confidence": "high",
+      "ingested_at": "2026-06-18",
+      "vault_path": "400知识库/事实知识库/10_内容单元/MTH_方法论/UNIT-20260618-INBOX-MTH-001.md"
     }
   ]
 }
