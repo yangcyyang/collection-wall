@@ -71,7 +71,10 @@ const totalItems = days.reduce((sum, day) => sum + day.items.length, 0);
       const filterButtons = document.querySelectorAll("[data-tag-filter]");
       const cards = document.querySelectorAll("[data-tweet]");
       const dayGroups = document.querySelectorAll("[data-day]");
+      const archiveSection = document.querySelector(".archive-section");
+      const collapsibles = archiveSection ? [...dayGroups, archiveSection] : [...dayGroups];
       let activeTag = "";
+      const autoOpened = new Set();
 
       function refresh() {
         cards.forEach((card) => {
@@ -83,12 +86,25 @@ const totalItems = days.reduce((sum, day) => sum + day.items.length, 0);
         });
       }
 
+      function syncAutoExpand() {
+        autoOpened.forEach((el) => { el.open = false; });
+        autoOpened.clear();
+        if (!activeTag) return;
+        collapsibles.forEach((el) => {
+          if (el.hidden || el.open) return;
+          if (!el.querySelector("[data-tweet]:not([hidden])")) return;
+          el.open = true;
+          autoOpened.add(el);
+        });
+      }
+
       filterButtons.forEach((button) => button.addEventListener("click", () => {
         const nextTag = button.getAttribute("data-tag-filter") ?? "";
         activeTag = activeTag === nextTag ? "" : nextTag;
         filterButtons.forEach((item) => item.classList.toggle("is-selected", item === button && activeTag !== ""));
         if (!activeTag) filterButtons[0]?.classList.add("is-selected");
         refresh();
+        syncAutoExpand();
       }));
 
       function openTweet(card) {
