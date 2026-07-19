@@ -9,6 +9,350 @@
   },
   "items": [
     {
+      "id": "2078871988228260253",
+      "author": "bindureddy",
+      "author_bio": "CEO of @abacusai - the world’s first AI super assistant and a powerful AI SuperComputer for professionals and enterprises, ex-AWS & Google",
+      "text": "Prediction - OpenAI and Anthropic are going push hard to ban open source AI 💀\n\nOf course, they will want to monopolize and make the trillions \n\nEveryone else is gong to have to fight back and prevent the ban",
+      "url": "https://x.com/i/status/2078871988228260253",
+      "created_at": "2026-07-19T15:58:00Z",
+      "likes": 9,
+      "views": "635",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "作者预测 OpenAI 与 Anthropic 会强力推动封禁开源 AI 以垄断并赚万亿；其余所有人得反击并阻止禁令。",
+      "recommend_reason": "开源政策博弈的尖锐预期，适合对齐监管叙事。",
+      "tags": [
+        "开源",
+        "监管",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "title": "预测：OpenAI/Anthropic 将强推封禁开源 AI，其余人要反击",
+      "rank": 1
+    },
+    {
+      "id": "2078869237796352062",
+      "author": "dotey",
+      "author_bio": "AI Engineer, dedicated to learning and disseminating knowledge about AI, software engineering, and engineering management.",
+      "text": "FDE 就是模型公司的阳谋：先让人去帮企业落地 Agent 卖 Token，把企业知识沉淀成 Skills，然后把这些 Skills 内化到模型。\n\n接下来企业就不需要那么多人了，如果因为效率提升带来了业务的拓展，那皆大欢喜，如果业务并没有拓展，那就只有财源广进降本增效了。\n\n未来各行各业都要被 AI 卷了，懂 AI 的软件工程师反而因为 FDE 还能苟延残喘一段。\n\nAI 能力越强竟然越来越有些悲观，虽然未来是美好的，但转型过程中是残酷的。",
+      "url": "https://x.com/i/status/2078869237796352062",
+      "created_at": "2026-07-19T15:47:04Z",
+      "likes": 8,
+      "views": "1874",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "作者称 FDE 是模型公司阳谋：先派人帮企业落地 Agent 卖 Token，把企业知识沉淀成 Skills，再内化进模型。之后企业可能不需要那么多人；业务扩展则双赢，否则主要是降本。各行各业将被 AI 卷，懂 AI 的软件工程师因 FDE 还能苟延；能力越强作者越悲观，转型残酷。",
+      "recommend_reason": "把 FDE 从岗位名还原成商业闭环，值得对照自己的交付路径。",
+      "tags": [
+        "FDE",
+        "Agent",
+        "Skills",
+        "产业"
+      ],
+      "title": "FDE 阳谋：卖 Token 落地 Agent → Skills → 内化进模型",
+      "rank": 2
+    },
+    {
+      "id": "2078864191683969212",
+      "author": "levie",
+      "author_bio": "ceo @box - your business lives in content. unleash it with AI",
+      "text": "Good post if you’re trying to understand AI diffusion. Progress driven by AI will ultimately be rate limited by its interaction with the real world. \n\nThe reason coding, for instance, has been adopted so quickly is you can write a near infinite amount of code, test it, and run it -and it can add value- without anyone in the outside world ever having to do anything differently. A single person, from a computer, can just make something work end-to-end differently.\n\nThis is not true for life sciences, where new drug development eventually needs to be tested for years. Doing a sale, which requires going back and forth with a prospect. Or even a contract, which has to be negotiated on the other side by your counterparty. \n\n“An AI will hand you a genuinely clever design for a jet turbine blade. It might be far more likely to work than anything your engineers came up with. It'll still probably fail, because that's the base rate at the edge of what anyone knows. The only way to find out is to build the blade and try to break it.\n\nThat's the real limit on learning, and it doesn't care how smart you are. Coming up with ideas was never the hard part. The hard part is how fast reality answers them.”\n\nIncidentally, this is why you need an applied AI that actually takes intelligence and makes it useful within the workflows of existing industries. Model outputs -alone- are not enough in most cases. You need to actually change the underlying workflows, and you need systems to deal with the realities of the real world feedback loops that are in these industries.\n\nThis is why there’s so much opportunity in the applied AI layer.",
+      "url": "https://x.com/i/status/2078864191683969212",
+      "created_at": "2026-07-19T15:27:01Z",
+      "likes": 39,
+      "views": "7376",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "Box CEO 认为 AI 带来的进步终将被与真实世界的交互限速。编程采纳快，因可无限写测跑且不必外界立刻改变；生命科学需多年试验，销售/合同需对方来回。AI 可给出聪明喷气叶片设计，仍要真造真试才能知成败——那才是学习边界，与模型多聪明无关。",
+      "recommend_reason": "用「代码 vs 叶片」说清扩散瓶颈，校准对全行业自动化的预期。",
+      "tags": [
+        "AI扩散",
+        "产业",
+        "物理世界",
+        "瓶颈"
+      ],
+      "title": "AI 扩散的真正限速：与真实世界的交互成本",
+      "rank": 3
+    },
+    {
+      "id": "2078863520691810383",
+      "author": "huangyun_122",
+      "author_bio": "Every great AI journey starts with a single Prompt\nvx: huangyun_122",
+      "text": "就翻译工作来说，Codex Sol 明显比 Claude Fable 耐烧",
+      "url": "https://x.com/i/status/2078863520691810383",
+      "created_at": "2026-07-19T15:24:21Z",
+      "likes": 0,
+      "views": "362",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "就翻译工作来说，Codex Sol 明显比 Claude Fable 耐烧。",
+      "recommend_reason": "垂直任务（翻译）上的额度/质量体感，选型可参考。",
+      "tags": [
+        "Codex",
+        "Sol",
+        "Fable",
+        "翻译"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2078862957296103606",
+      "author": "LinusEkenstam",
+      "author_bio": "AI Evangelist & Optimist. Latest AI News, Trends and learn how to use AI tools to augment your abilities. collab@linusekenstam.com for partnerships 🤝",
+      "text": "Swedish real-estate platform Hemnet are using pre-baked AI generated \"styling\" images for listing photos.\nEach photo gets 2 versions extra:\n\n> Clean room (basically the room as is without furniture) > Re-styled room in japandi/scandi style.\n\nEvery single photo on listings now has this. \n\nA perfect use-case of AI to drive sales/interest on listings without the potential buyer having to do anything.",
+      "url": "https://x.com/i/status/2078862957296103606",
+      "created_at": "2026-07-19T15:22:07Z",
+      "likes": 10,
+      "views": "2151",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNman6NWYAAwgvJ.jpg",
+        "https://pbs.twimg.com/media/HNmapyXWAAEj-j1.jpg",
+        "https://pbs.twimg.com/media/HNmarr4W8AAz6St.jpg"
+      ],
+      "summary": "瑞典房产平台 Hemnet 给挂牌照片预烘焙 AI「造型」图：每张额外两版——空房（去家具）与 Japandi/北欧重装风。所有挂牌照都有，买家无需操作即可对比，用 AI 提升挂牌兴趣与转化。",
+      "recommend_reason": "垂直场景里「零用户操作」的 AI 嵌入样板，比对话框更像产品。",
+      "tags": [
+        "房地产",
+        "图像生成",
+        "产品",
+        "北欧"
+      ],
+      "title": "瑞典房产站 Hemnet：每张房源图自带 AI 清空/Japandi 重装两版",
+      "rank": 5
+    },
+    {
+      "id": "2078856226256158766",
+      "author": "WareAi996",
+      "author_bio": "AI Agent 公司合伙人 | 实测可落地的各种 AI 工具和工作流 \n\n只说真实结果：什么能用、什么翻车、什么不值得浪费时间\n\n上推交交朋友，聊聊天",
+      "text": "我发现只要一开子智能体，速度和效率立马掉个 50%，现阶段不要追求这玩意，纯折磨人",
+      "url": "https://x.com/i/status/2078856226256158766",
+      "created_at": "2026-07-19T14:55:22Z",
+      "likes": 0,
+      "views": "10",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "我发现只要一开子智能体，速度和效率立马掉个 50%，现阶段不要追求这玩意，纯折磨人。",
+      "recommend_reason": "多 agent 并行的现场反例：现阶段先保吞吐。",
+      "tags": [
+        "多Agent",
+        "性能",
+        "工程",
+        "体验"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2078844742608285753",
+      "author": "yangyi",
+      "author_bio": "",
+      "text": "天天都说这ai那agent的\n你们根本没意识到身份证正在系统性升值\n谁能搞定村里三大姑八大姨\n谁掌握分发权",
+      "url": "https://x.com/i/status/2078844742608285753",
+      "created_at": "2026-07-19T14:09:44Z",
+      "likes": 2,
+      "views": "2062",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "天天都说这 ai 那 agent 的。你们根本没意识到身份证正在系统性升值。谁能搞定村里三大姑八大姨，谁掌握分发权。",
+      "recommend_reason": "把「分发」从算法拉回线下社会关系，冷但刺。",
+      "tags": [
+        "分发",
+        "身份",
+        "社会",
+        "AI"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2078844198351167759",
+      "author": "dingyi",
+      "author_bio": "promote your product  ‣ dingyi@me.com\nnewsletter ‣ https://t.co/q1JG1yCzdb\nrefine your startup ‣ https://t.co/FfUYboxOr5\nnewest product ‣ https://t.co/cP6NQ3keo",
+      "text": "阿里千问的新版官网很好看，网站和后台都改版了，新设计比之前好看多了。\n\nQwen3.8 很快将发布并开源，参数 2.4T，正在以\"天\"为单位进化，可能是除了 Fable 5 外最强的模型。\n\n目前 Qwen3.8-Max 预览版已上线阿里 Token Plan、Qoder 及 QoderWork，限时优惠白天 credits 消耗 1 折，夜间更低。\n\n之前的 198 元/月的套餐变成团队版了，现在只要 150元/月，新增的个人版低至每月 39 元起。必须买一个试试了！\n\nhttps://t.co/OTixqHUnsI",
+      "url": "https://x.com/i/status/2078844198351167759",
+      "created_at": "2026-07-19T14:07:34Z",
+      "likes": 20,
+      "views": "7050",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNmJxdWbcAAP3C9.jpg",
+        "https://pbs.twimg.com/media/HNmJxoLa8AANJKY.jpg",
+        "https://pbs.twimg.com/media/HNmJx10aEAAvRjL.jpg",
+        "https://pbs.twimg.com/media/HNmJyCRa8AAToQo.jpg"
+      ],
+      "summary": "阿里千问新版官网与后台改版更好看。Qwen3.8 即将发布并开源，参数 2.4T，以「天」为单位进化，作者称可能是除 Fable 5 外最强。Qwen3.8-Max 预览已上线 Token Plan/Qoder/QoderWork，限时 credits 白天 1 折、夜间更低；套餐调整为团队版约 150 元/月、个人版约 39 元起。",
+      "recommend_reason": "国产旗舰规格+价格入口一次对齐，选型可跟。",
+      "tags": [
+        "Qwen",
+        "开源",
+        "阿里",
+        "定价"
+      ],
+      "title": "千问官网改版；Qwen3.8 将开源 2.4T，Max 预览已上线",
+      "rank": 8
+    },
+    {
+      "id": "2078841089285652566",
+      "author": "lixinbao_X",
+      "author_bio": "原金融从业者，现在基本全职自媒体人，使用AI技术赋能，2025年5月份到现在粉丝从零涨到：微信视频号 40 万，抖音25 万，B站 2 万，小红书 6 万。百度1.5万，快手及其他加总还有 2 万左右。全网粉丝数破 75 万。 我会在这里分享我作品，及相关制作经验技巧和心得。",
+      "text": "最近 Codex 总是重置\n\n大家为了用而用了\n\n我觉得我都成了 ChatGPT 服务器的压力测试员了",
+      "url": "https://x.com/i/status/2078841089285652566",
+      "created_at": "2026-07-19T13:55:13Z",
+      "likes": 9,
+      "views": "1268",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "最近 Codex 总是重置。大家为了用而用了。我觉得我都成了 ChatGPT 服务器的压力测试员了。",
+      "recommend_reason": "额度狂欢的用户体感，点破「重置驱动」的短期行为。",
+      "tags": [
+        "Codex",
+        "额度",
+        "OpenAI",
+        "体验"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2078835207315304504",
+      "author": "xiaoxiaodong01",
+      "author_bio": "国际，不知名，顶级图片提示词专家\n遇事不决 可问东风\n月亮岛边上的AI爱好者 星球+\nWeChat:：newbe2012",
+      "text": "GPT2 x 邀请函 x 婚礼 x  质感 x 美学提示词\n\n特别尝试用1:2长度尺寸\n其实，GPT-image2的高度的长度，你甚至可以规定：\n超级长！\n\n之前有用GPT-image2做过超长的图片\n\n其实都挺好\n\n对于这种邀请函\n这几天婚礼和会议、活动的开发及几百种\n\n质感确实蹭蹭蹭的提升，这两天更新到成员提示词库\n\n提示词如何落地，是我接下来的重点。",
+      "url": "https://x.com/i/status/2078835207315304504",
+      "created_at": "2026-07-19T13:31:50Z",
+      "likes": 10,
+      "views": "709",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNmBmC3aAAEW35u.jpg",
+        "https://pbs.twimg.com/media/HNmA4GzaEAAtsd5.jpg"
+      ],
+      "summary": "GPT2 x 邀请函 x 婚礼 x 质感 x 美学提示词。尝试 1:2 长尺寸；GPT-image2 甚至可规定超级长，超长图也可用。婚礼/会议/活动邀请函质感提升明显，已更新成员提示词库；提示词如何落地是接下来重点。",
+      "recommend_reason": "长画幅邀请函的可复制路径，活动场景直接用。",
+      "tags": [
+        "图像生成",
+        "提示词",
+        "邀请函",
+        "婚礼"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2078835092332670989",
+      "author": "thinkszyg",
+      "author_bio": "15yr PM. Fired myself. Hired 10 AIs. AI Agents BLTeam 笔记。真实战、真干货持续分享。GitHub: https://t.co/Kf62C8j8Nd 开源中国传统纹样图录项目维护者。",
+      "text": "「灵剪」现已开源，任何能跑命令的 agent 都能驱动 ↓\nhttps://t.co/OxRzBkhIYI https://t.co/xo5fCpl2cT",
+      "url": "https://x.com/i/status/2078835092332670989",
+      "created_at": "2026-07-19T13:31:23Z",
+      "likes": 1,
+      "views": "116",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2078835020459110400/vid/avc1/480x270/QWEd5r5J1bsd7cxM.mp4?tag=29"
+      ],
+      "summary": "「灵剪」现已开源，任何能跑命令的 agent 都能驱动。",
+      "recommend_reason": "可被任意 agent CLI 驱动的开源剪辑入口，拼装友好。",
+      "tags": [
+        "开源",
+        "剪辑",
+        "Agent",
+        "工具"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2078826753049694697",
+      "author": "GoSailGlobal",
+      "author_bio": "Show In Public ｜ SaaS 出海 ｜ 克尔凯郭尔种草🌿\n\nSkills hub：https://t.co/x1VU8wWNj1\n博客：https://t.co/ajYYIXGqFg\n\n🤝 合作DM：GoSail_AI\n📮：m17551076169@gmail.com\n\nMCN：collab@gosail",
+      "text": "单看融资，AI 泡沫已经很大\n但看兑现比例，更透支未来的是具身机器人\n\nAI 的泡沫，建立在已经爆发的需求上\nChatGPT 几亿用户，Cursor、Perplexity 在赚钱\n\n具身机器人的泡沫，建立在对未来十年的预期上\n估值上百亿，量产、成本、泛化，一样没验证\n\n风险从轻到重排：\n- 基础设施 → 应用 → Agent → 自动驾驶 → 人形机器人\n\n越往后，押注越远，兑现越慢\n\n去了waic，很多机器人公司不可一世",
+      "url": "https://x.com/i/status/2078826753049694697",
+      "created_at": "2026-07-19T12:58:15Z",
+      "likes": 2,
+      "views": "863",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "作者对比：单看融资 AI 泡沫大，但兑现比例上更透支未来的是具身机器人。AI 泡沫建在 ChatGPT 数亿用户、Cursor/Perplexity 已赚钱上；机器人估值上百亿，量产/成本/泛化未验证。风险由轻到重：基础设施→应用→Agent→自动驾驶→人形机器人。WAIC 上不少机器人公司姿态高。",
+      "recommend_reason": "用兑现距离给赛道排雷，区分「已赚钱」与「讲十年」。",
+      "tags": [
+        "泡沫",
+        "机器人",
+        "AI产业",
+        "WAIC"
+      ],
+      "title": "AI 泡沫建在已爆发需求上；具身机器人更透支十年预期",
+      "rank": 12
+    },
+    {
+      "id": "2078822030196019377",
+      "author": "gkxspace",
+      "author_bio": "🌸05年连续创业者 | 专注 AI 产品 | 项目营收 7 位数+\n✨记录真实的创业路：项目复盘、踩坑总结和成长思考\n💗AI 产品构建 & AI 商业化方案 & 企业 AI 转型",
+      "text": "没什么技术背景、但天天在用 AI 的，真的很值得看看这个《深入理解 AI Agent》\n\n今天一天居然涨了 2k star，我自己翻了一下，也让 AI 去学了一遍，写得是真好\n\n平时我们用 AI 会有很多疑问：\n为什么上下文一长就变笨、为什么工具调用老翻车、为什么有的 Agent 好用有的像人工智障\n\n这本书讲的就是这层底下的东西，而且是从工程应用的角度讲，每章还配着能跑的实验代码\n\n可以把 Github 链接丢给 Codex 让 AI 带着你学一遍，这个真的很值得学一学！",
+      "url": "https://x.com/i/status/2078822030196019377",
+      "created_at": "2026-07-19T12:39:29Z",
+      "likes": 91,
+      "views": "8350",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNl1a0hW8AAlE47.jpg"
+      ],
+      "summary": "作者推荐《深入理解 AI Agent》：非技术背景但天天用 AI 的人也值得看。一天涨 2k star；讲清上下文一长变笨、工具调用翻车、Agent 好坏差异等底层，并配可跑实验代码。建议把 GitHub 丢给 Codex 让 AI 带学。",
+      "recommend_reason": "把日常用 AI 的疑惑压到可跑工程课上，学习路径清晰。",
+      "tags": [
+        "AI Agent",
+        "开源",
+        "教程",
+        "工程"
+      ],
+      "title": "《深入理解 AI Agent》一天 +2k star：用工程视角拆「变笨/翻车」",
+      "rank": 13
+    },
+    {
+      "id": "2078820450944327872",
+      "author": "gkxspace",
+      "author_bio": "🌸05年连续创业者 | 专注 AI 产品 | 项目营收 7 位数+\n✨记录真实的创业路：项目复盘、踩坑总结和成长思考\n💗AI 产品构建 & AI 商业化方案 & 企业 AI 转型",
+      "text": "没想到啊，那个审核 skill 发布 4 天，快 300 star 了\n\n说明被\"内容违规！！！\"搞破防的人是真的多，哈哈哈\n\n不过我发现很多人拿到手不知道怎么用，今天展开讲讲它到底在帮你干什么：\n\n你发内容之前，把稿子丢给 AI，它会告诉你哪句可能踩线、依据哪条规则、怎么改还能保住语气。\n\n底层大概两块：\n1、数据汇总：爬了很多权威规则，也收了不少大佬的踩坑经验\n2、智能判断：关键词 + 语义理解，再按平台规则让大模型下结论，不会因为某个词就判违规\n\n3、内容修改：踩线内容替换写法，保住你的语气和钩子，只拆违规的实质，改完自动复检\n\n另外，我觉得很多人忽略了最有价值的：沉淀。\n你的行业背景、账号内容、自己踩过的坑，都能记进本地规则库。\n下次审会带着你的历史一起判，越用越懂你的号。\n\n等之后也会更新更多平台和规范，以及封面审核等，为你的自媒体之路添砖加瓦！！！\n\nhttps://t.co/X1M8g76CJk",
+      "url": "https://x.com/i/status/2078820450944327872",
+      "created_at": "2026-07-19T12:33:12Z",
+      "likes": 17,
+      "views": "2417",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNl0KrGXcAAEETE.jpg"
+      ],
+      "summary": "作者审核 skill 发布 4 天近 300 star。用法：发前丢稿，指出踩线句、规则依据、如何改仍保语气。底层：权威规则与踩坑汇总 + 关键词/语义按平台下结论 + 改写复检。更强调把行业背景、账号、历史坑沉淀进本地规则库，越用越懂号。",
+      "recommend_reason": "自媒体「内容违规」痛点的可安装解法，沉淀规则比单次检测更有复利。",
+      "tags": [
+        "Skill",
+        "内容审核",
+        "自媒体",
+        "合规"
+      ],
+      "title": "内容审核 Skill 4 天近 300 star：踩线预判 + 改写 + 本地规则沉淀",
+      "rank": 14
+    },
+    {
+      "id": "2078815923679703464",
+      "author": "JulianGoldieSEO",
+      "author_bio": "Make money with AI 👉 https://t.co/Ppmk5h9rw3\nFree SEO Strategy Session → https://t.co/wRv8ROcoTP",
+      "text": "Gemini 3.5 Pro: Google built its new flagship model, tested it, then threw the whole thing away and started over.\n\nRebuilding a model that size burns months and enormous money. Nobody does that for a small upgrade. Here's what the leaks say is coming:\n\n→ A 2 MILLION token context window. An entire codebase or a year of meeting notes in one shot\n\n→ Deep Think reasoning: the current version already hit gold-medal level at the Math Olympiad\n\n→ Autonomous workflows: give it a goal, it chains the steps and clicks through tools itself\n\n→ Rumored drop: July 17th. Not confirmed\n\nThe drama: one leak says it beats Fable 5 at code. Another says it trails. Neither showed proof.\n\nMeanwhile, Flash is live today and beats the old Pro at 4x the speed.\n\nThey scrapped \"good enough\" to chase something bigger.\n\nSave this.",
+      "url": "https://x.com/i/status/2078815923679703464",
+      "created_at": "2026-07-19T12:15:13Z",
+      "likes": 4,
+      "views": "1928",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2078815774589014016/vid/avc1/480x270/OrCFK3oNAn3i7D57.mp4?tag=29"
+      ],
+      "summary": "作者称 Google 建了新旗舰、测完推倒重来。泄漏：200 万 token 上下文、Deep Think 推理（现版已达奥数金牌级）、自主工作流可链式点工具；传闻 7/17 发布未确认。关于是否击败 Fable 5 代码两边矛盾无证；Flash 已上线且比旧 Pro 快约 4 倍。",
+      "recommend_reason": "旗舰「重做」本身是强信号，规格清单便于跟官方对照。",
+      "tags": [
+        "Gemini 3.5",
+        "Google",
+        "传闻",
+        "上下文"
+      ],
+      "title": "Gemini 3.5 Pro 传闻：推倒重来、2M 上下文、Deep Think、自主工作流",
+      "rank": 15
+    },
+    {
       "id": "2078687965149336024",
       "author": "bindureddy",
       "author_bio": "CEO of @abacusai - the world’s first AI super assistant and a powerful AI SuperComputer for professionals and enterprises, ex-AWS & Google",
@@ -28,7 +372,7 @@
         "ChatLLM"
       ],
       "title": "按场景选模型：设计用 Sol，难 Agent 用 Sol/Fable，简单 Agent 用 Grok",
-      "rank": 1
+      "rank": 16
     },
     {
       "id": "2078685245122195590",
@@ -49,7 +393,7 @@
         "AI影响",
         "报告"
       ],
-      "rank": 2
+      "rank": 17
     },
     {
       "id": "2078684808067293238",
@@ -71,7 +415,7 @@
         "架构"
       ],
       "title": "Anthropic 内部：旧 harness 流水线变薄，新层更像「选阵型的教练」",
-      "rank": 3
+      "rank": 18
     },
     {
       "id": "2078682197712932891",
@@ -93,7 +437,7 @@
         "梁文锋"
       ],
       "title": "DeepSeek 融资后梁文锋身家约 360 亿美元：押在大模型本身的首富叙事",
-      "rank": 4
+      "rank": 19
     },
     {
       "id": "2078680925987291374",
@@ -117,7 +461,7 @@
         "视频",
         "Listenhub"
       ],
-      "rank": 5
+      "rank": 20
     },
     {
       "id": "2078677845073899640",
@@ -138,7 +482,7 @@
         "社区",
         "分享"
       ],
-      "rank": 6
+      "rank": 21
     },
     {
       "id": "2078673094940745759",
@@ -162,7 +506,7 @@
         "工程"
       ],
       "title": "李博杰《深入理解 AI Agent》全开源：28 个可跑项目 + PDF",
-      "rank": 7
+      "rank": 22
     },
     {
       "id": "2078672688189669767",
@@ -184,7 +528,7 @@
         "风控"
       ],
       "title": "Replybot 矩阵四雷区：秒回、次次评、营销名、同质回复",
-      "rank": 8
+      "rank": 23
     },
     {
       "id": "2078666523233972633",
@@ -211,7 +555,7 @@
         "社区"
       ],
       "title": "WaytoAGI 直播盘点：10 个 AI Coding 作品 + 2 个 FDE 案例",
-      "rank": 9
+      "rank": 24
     },
     {
       "id": "2078666187026911488",
@@ -233,7 +577,7 @@
         "Agent"
       ],
       "title": "给自己建一套「个人 eval set」：用日常任务摸模型边界",
-      "rank": 10
+      "rank": 25
     },
     {
       "id": "2078662408382697813",
@@ -256,7 +600,7 @@
         "性能",
         "工程"
       ],
-      "rank": 11
+      "rank": 26
     },
     {
       "id": "2078657941876703724",
@@ -280,7 +624,7 @@
         "产品图",
         "电商"
       ],
-      "rank": 12
+      "rank": 27
     },
     {
       "id": "2078656424289485300",
@@ -304,7 +648,7 @@
         "传闻"
       ],
       "title": "传闻 Gemini 3.5 Pro：2M 上下文 + Deep Think + 自主工具流",
-      "rank": 13
+      "rank": 28
     },
     {
       "id": "2078649724710658309",
@@ -327,7 +671,7 @@
         "创意",
         "约束"
       ],
-      "rank": 14
+      "rank": 29
     },
     {
       "id": "2078646024151917027",
@@ -351,10 +695,10 @@
         "ChatGPT"
       ],
       "title": "清醒数字：仅 2.2% 美国家庭为 AI 付费，消费端仍是荒地",
-      "rank": 15
+      "rank": 30
     }
   ],
-  "generated_at": "2026-07-19T04:02:45Z",
+  "generated_at": "2026-07-19T16:04:03Z",
   "selection": {
     "target_count": 30,
     "max_count": 30,
@@ -362,10 +706,10 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 15,
+    "actual_count": 30,
     "last_batch_added": 15,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
