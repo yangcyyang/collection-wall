@@ -19,6 +19,8 @@
   python3 pipeline/twitter_daily_collect.py --mode hard-filter --inputs ... --out ...
   python3 pipeline/twitter_daily_collect.py --mode merge-day \\
     --day-file data/twitter/YYYY-MM-DD.json --batch batch.json --date YYYY-MM-DD --slot noon
+  python3 pipeline/twitter_daily_collect.py --mode normalize-tags \\
+    --twitter-dir data/twitter
 """
 
 from __future__ import annotations
@@ -33,6 +35,8 @@ from typing import Any
 from zoneinfo import ZoneInfo
 
 SHANGHAI = ZoneInfo("Asia/Shanghai")
+ROOT = Path(__file__).resolve().parent
+TAG_ALIASES_PATH = ROOT / "tag_aliases.json"
 
 MAX_PER_AUTHOR = 2
 MIN_CANDIDATES = 5  # 12h 窗口略放宽「候选过少」门槛
@@ -40,6 +44,72 @@ SHORT_TWEET_THRESHOLD = 200
 PER_RUN_MAX = 15
 DAY_MAX = 30
 WINDOW_HOURS = 12
+
+_TAG_ALIAS_CACHE: dict[str, str] | None = None
+
+
+def _load_tag_aliases() -> dict[str, str]:
+    global _TAG_ALIAS_CACHE
+    if _TAG_ALIAS_CACHE is not None:
+        return _TAG_ALIAS_CACHE
+    if not TAG_ALIASES_PATH.exists():
+        _TAG_ALIAS_CACHE = {}
+        return _TAG_ALIAS_CACHE
+    raw = json.loads(TAG_ALIASES_PATH.read_text(encoding="utf-8"))
+    mapping = raw.get("map") if isinstance(raw, dict) else {}
+    if not isinstance(mapping, dict):
+        mapping = {}
+    # expand lookups: original, lower, compact
+    table: dict[str, str] = {}
+    for src, dst in mapping.items():
+        if not isinstance(src, str) or not isinstance(dst, str):
+            continue
+        canon = dst.strip()
+        if not canon:
+            continue
+        for key in (src, src.strip(), src.lower(), re.sub(r"[\s_\-]+", "", src.lower())):
+            if key:
+                table[key] = canon
+        for key in (canon, canon.lower(), re.sub(r"[\s_\-]+", "", canon.lower())):
+            if key:
+                table[key] = canon
+    _TAG_ALIAS_CACHE = table
+    return table
+
+
+def normalize_tag(tag: str) -> str:
+    raw = str(tag or "").strip()
+    if not raw:
+        return raw
+    table = _load_tag_aliases()
+    for key in (raw, raw.lower(), re.sub(r"[\s_\-]+", "", raw.lower())):
+        if key in table:
+            return table[key]
+    return raw
+
+
+def normalize_tags(tags: Any) -> list[str]:
+    if not isinstance(tags, list):
+        return []
+    out: list[str] = []
+    seen: set[str] = set()
+    for t in tags:
+        n = normalize_tag(str(t))
+        if not n:
+            continue
+        # de-dupe by casefold to avoid OpenAI/openai duplicates
+        k = n.casefold()
+        if k in seen:
+            continue
+        seen.add(k)
+        out.append(n)
+    return out
+
+
+def normalize_item_tags(item: dict[str, Any]) -> dict[str, Any]:
+    if "tags" in item:
+        item["tags"] = normalize_tags(item.get("tags"))
+    return item
 
 PROMO = re.compile(
     r"(MILLIONAIRE|BLUEPRINT|FIRST\s*5|STOP PAYING|7-FIGURE|FREE\s+AI\s+Course|"
@@ -342,11 +412,15 @@ def mode_merge_day(args: argparse.Namespace) -> int:
         if author_counts.get(a, 0) >= MAX_PER_AUTHOR:
             skipped_author += 1
             continue
-        by_id[tid] = it
+        by_id[tid] = normalize_item_tags(dict(it))
         author_counts[a] = author_counts.get(a, 0) + 1
         added += 1
 
     merged = list(by_id.values())
+    # also normalize tags on pre-existing items (keeps day file consistent)
+    for it in merged:
+        if isinstance(it, dict):
+            normalize_item_tags(it)
 
     def sort_key(it: dict[str, Any]):
         dt = _parse_time(str(it.get("created_at") or ""))
@@ -415,12 +489,61 @@ def mode_merge_day(args: argparse.Namespace) -> int:
     return 0
 
 
+def mode_normalize_tags(args: argparse.Namespace) -> int:
+    """回填：规范化 data/twitter/*.json 中的 tags。"""
+    twitter_dir = Path(args.twitter_dir or "data/twitter")
+    if not twitter_dir.exists():
+        print(f"twitter dir missing: {twitter_dir}", file=sys.stderr)
+        return 1
+    files = sorted(twitter_dir.glob("*.json"))
+    changed_files = 0
+    items_touched = 0
+    before_unique: set[str] = set()
+    after_unique: set[str] = set()
+    for path in files:
+        day = json.loads(path.read_text(encoding="utf-8"))
+        items = day.get("items") or []
+        file_changed = False
+        for it in items:
+            if not isinstance(it, dict):
+                continue
+            old = list(it.get("tags") or [])
+            for t in old:
+                before_unique.add(str(t))
+            normalize_item_tags(it)
+            new = list(it.get("tags") or [])
+            for t in new:
+                after_unique.add(str(t))
+            if old != new:
+                file_changed = True
+                items_touched += 1
+        if file_changed:
+            path.write_text(
+                json.dumps(day, ensure_ascii=False, indent=2) + "\n",
+                encoding="utf-8",
+            )
+            changed_files += 1
+    print(
+        json.dumps(
+            {
+                "twitter_dir": str(twitter_dir),
+                "files_changed": changed_files,
+                "items_touched": items_touched,
+                "unique_tags_before": len(before_unique),
+                "unique_tags_after": len(after_unique),
+            },
+            ensure_ascii=False,
+        )
+    )
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument(
         "--mode",
         default="hard-filter",
-        choices=["hard-filter", "merge-day", "resolve-slot"],
+        choices=["hard-filter", "merge-day", "resolve-slot", "normalize-tags"],
     )
     ap.add_argument("--inputs", nargs="+", help="opencli JSON dumps (hard-filter)")
     ap.add_argument("--out", help="candidate pool output (hard-filter)")
@@ -435,6 +558,11 @@ def main() -> int:
     )
     ap.add_argument("--per-run-max", type=int, default=PER_RUN_MAX)
     ap.add_argument("--day-max", type=int, default=DAY_MAX)
+    ap.add_argument(
+        "--twitter-dir",
+        default="data/twitter",
+        help="day JSON directory (normalize-tags)",
+    )
     args = ap.parse_args()
 
     if args.mode == "resolve-slot":
@@ -452,6 +580,8 @@ def main() -> int:
             print("merge-day needs --day-file --batch --date", file=sys.stderr)
             return 1
         return mode_merge_day(args)
+    if args.mode == "normalize-tags":
+        return mode_normalize_tags(args)
     return 1
 
 

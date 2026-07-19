@@ -94,7 +94,7 @@
       "recommend_reason": "Skill 形态的非编程用例样本，观察复杂推理任务如何被封装。",
       "tags": [
         "Claude",
-        "Fable5",
+        "Fable 5",
         "Skill",
         "应用"
       ],
@@ -218,8 +218,7 @@
       "recommend_reason": "提示词工程的务实经验：范围收窄换稳定性。",
       "tags": [
         "提示词",
-        "海报",
-        "GPT图像"
+        "图像生成"
       ],
       "title": "GPT 图像海报提示词：缩小适用范围后构图更稳",
       "rank": 8
@@ -244,7 +243,7 @@
       "tags": [
         "端侧AI",
         "苹果",
-        "千问",
+        "Qwen",
         "政策"
       ],
       "title": "网信办备案端侧生成式人工智能，千问接入苹果智能",
@@ -411,7 +410,7 @@
         "Agent",
         "Skill",
         "字幕",
-        "产品架构"
+        "产品"
       ],
       "title": "字幕应用从纯大模型方案改走 Agent + Skill + 图形校对"
     },
@@ -454,7 +453,7 @@
       "recommend_reason": "降低“盘活死项目”成本的具体功能点，有 GitHub 遗留库的人可当天试。",
       "tags": [
         "Google",
-        "AI Studio",
+        "Google AI Studio",
         "GitHub",
         "低代码"
       ],
@@ -528,7 +527,7 @@
       "recommend_reason": "可复用的视觉提示词结构，做海报/社媒图的人能直接抄骨架。",
       "tags": [
         "提示词",
-        "海报",
+        "图像生成",
         "视觉设计"
       ],
       "title": "极限运动海报：字变墙、人从墙里冲出的四色构图法"
@@ -598,7 +597,7 @@
       "score": 10.03,
       "recommend_reason": "务实的模型分工法：执行模型与讨论模型拆开，可直接抄进个人工作流。",
       "tags": [
-        "GPT-Sol",
+        "GPT-5.6 Sol",
         "工作流",
         "Claude Code",
         "Cursor"
@@ -740,7 +739,7 @@
       "recommend_reason": "选型窗口提示：接下来几周模型版图可能连跳，可据此安排试用与基准复测。",
       "tags": [
         "模型发布",
-        "Fable5",
+        "Fable 5",
         "DeepSeek",
         "Gemini"
       ],

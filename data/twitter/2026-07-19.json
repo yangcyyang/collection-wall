@@ -46,7 +46,7 @@
       "tags": [
         "FDE",
         "Agent",
-        "Skills",
+        "Skill",
         "产业"
       ],
       "title": "FDE 阳谋：卖 Token 落地 Agent → Skills → 内化进模型",
@@ -89,8 +89,8 @@
       "recommend_reason": "垂直任务（翻译）上的额度/质量体感，选型可参考。",
       "tags": [
         "Codex",
-        "Sol",
-        "Fable",
+        "GPT-5.6 Sol",
+        "Fable 5",
         "翻译"
       ],
       "rank": 4
@@ -135,7 +135,7 @@
       "summary": "我发现只要一开子智能体，速度和效率立马掉个 50%，现阶段不要追求这玩意，纯折磨人。",
       "recommend_reason": "多 agent 并行的现场反例：现阶段先保吞吐。",
       "tags": [
-        "多Agent",
+        "Agent",
         "性能",
         "工程",
         "体验"
@@ -274,7 +274,7 @@
       "tags": [
         "泡沫",
         "机器人",
-        "AI产业",
+        "产业",
         "WAIC"
       ],
       "title": "AI 泡沫建在已爆发需求上；具身机器人更透支十年预期",
@@ -296,7 +296,7 @@
       "summary": "作者推荐《深入理解 AI Agent》：非技术背景但天天用 AI 的人也值得看。一天涨 2k star；讲清上下文一长变笨、工具调用翻车、Agent 好坏差异等底层，并配可跑实验代码。建议把 GitHub 丢给 Codex 让 AI 带学。",
       "recommend_reason": "把日常用 AI 的疑惑压到可跑工程课上，学习路径清晰。",
       "tags": [
-        "AI Agent",
+        "Agent",
         "开源",
         "教程",
         "工程"
@@ -458,7 +458,7 @@
       "tags": [
         "Codex",
         "Skill",
-        "视频",
+        "AI视频",
         "Listenhub"
       ],
       "rank": 20
@@ -500,7 +500,7 @@
       "summary": "新书全开源：正文+PDF+10 章代码，公式 Agent=LLM+上下文+工具。含 28 个可跑项目，从上下文消融、工具调用到 Coding Agent、自我进化、多 Agent、多模态；还有 0.6B 本地+工具演示，以及上下文/KV/压缩/记忆/RAG 对比。",
       "recommend_reason": "系统学 Agent 的免费硬货，原理与代码齐。",
       "tags": [
-        "AI Agent",
+        "Agent",
         "开源",
         "教程",
         "工程"
@@ -621,7 +621,6 @@
       "tags": [
         "图像生成",
         "提示词",
-        "产品图",
         "电商"
       ],
       "rank": 27
@@ -666,7 +665,7 @@
       "summary": "把《白鲸》里 1009 个长度≥12 字母的不重复词排成纵横字谜，整体拼成鲸鱼形状。Claude Fable 5 Max 一次生成。",
       "recommend_reason": "超长约束 + 图形排布的硬 demo，一眼看出 Fable 5 的可控创意上限。",
       "tags": [
-        "Claude Fable 5",
+        "Fable 5",
         "演示",
         "创意",
         "约束"

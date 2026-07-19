@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "description": "推特日报标签近义合并：lookup 时先精确、再 lower、再去空白/下划线/连字符。值为规范展示名。",
+  "map": {
+    "Fable5": "Fable 5",
+    "Fable 5": "Fable 5",
+    "Claude Fable 5": "Fable 5",
+    "Fable": "Fable 5",
+    "fable5": "Fable 5",
+    "fable 5": "Fable 5",
+    "claude fable 5": "Fable 5",
+    "fable": "Fable 5",
+
+    "CodingAgent": "Coding Agent",
+    "Coding Agent": "Coding Agent",
+    "codingagent": "Coding Agent",
+    "coding agent": "Coding Agent",
+
+    "opencode": "OpenCode",
+    "OpenCode": "OpenCode",
+
+    "AICoding": "AI Coding",
+    "AI Coding": "AI Coding",
+    "aicoding": "AI Coding",
+    "ai coding": "AI Coding",
+
+    "harness": "Harness",
+    "Harness": "Harness",
+
+    "grok-build": "Grok Build",
+    "Grok Build": "Grok Build",
+    "GrokBuild": "Grok Build",
+    "grokbuild": "Grok Build",
+
+    "GLM 5.2": "GLM-5.2",
+    "GLM-5.2": "GLM-5.2",
+    "glm 5.2": "GLM-5.2",
+    "glm-5.2": "GLM-5.2",
+
+    "GPT-Sol": "GPT-5.6 Sol",
+    "GPT-5.6 Sol": "GPT-5.6 Sol",
+    "gpt-sol": "GPT-5.6 Sol",
+    "gpt-5.6 sol": "GPT-5.6 Sol",
+    "Sol": "GPT-5.6 Sol",
+    "sol": "GPT-5.6 Sol",
+
+    "AI Studio": "Google AI Studio",
+    "Google AI Studio": "Google AI Studio",
+    "ai studio": "Google AI Studio",
+    "google ai studio": "Google AI Studio",
+
+    "NotebookLM": "Gemini Notebook",
+    "Gemini Notebook": "Gemini Notebook",
+    "notebooklm": "Gemini Notebook",
+    "gemini notebook": "Gemini Notebook",
+
+    "Skills": "Skill",
+    "Skill": "Skill",
+    "skills": "Skill",
+    "skill": "Skill",
+
+    "AI Agent": "Agent",
+    "ai agent": "Agent",
+    "多Agent": "Agent",
+    "Agent": "Agent",
+
+    "产品动态": "产品",
+    "产品架构": "产品",
+    "产品": "产品",
+
+    "产业观察": "产业",
+    "产业策略": "产业",
+    "产业吐槽": "产业",
+    "AI产业": "产业",
+    "产业": "产业",
+
+    "视频生成": "AI视频",
+    "视频编辑": "AI视频",
+    "视频": "AI视频",
+    "AI视频": "AI视频",
+
+    "评测文化": "评测",
+    "横评": "评测",
+    "基准": "评测",
+    "评测": "评测",
+
+    "使用体验": "体验",
+    "体验": "体验",
+
+    "GPT图像": "图像生成",
+    "海报": "图像生成",
+    "产品图": "图像生成",
+    "图像生成": "图像生成",
+
+    "限额": "额度",
+    "额度": "额度",
+
+    "千问": "Qwen",
+    "Qwen": "Qwen",
+    "qwen": "Qwen",
+
+    "token": "Token",
+    "Token": "Token",
+
+    "开发者工具": "开发工具",
+    "开发工具": "开发工具",
+    "工具清单": "工具",
+    "工具选型": "工具",
+    "工具": "工具"
+  }
+}

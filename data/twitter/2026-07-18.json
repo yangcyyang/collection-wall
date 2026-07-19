@@ -185,7 +185,7 @@
         "Mole",
         "Mac",
         "产品",
-        "AICoding"
+        "AI Coding"
       ],
       "title": "Mole 四个 Aha：蓝牙低电提醒、清 86G、常亮控 Agent、iPhone 电量",
       "rank": 8
@@ -205,7 +205,7 @@
       "recommend_reason": "把「封锁 vs 扩散」说成可执行产业策略，而不是口号。",
       "tags": [
         "开源",
-        "产业策略",
+        "产业",
         "Kimi K3",
         "竞争"
       ],
@@ -248,7 +248,7 @@
       "recommend_reason": "评测是否公平的关键变量：官方壳 vs 自选 harness。",
       "tags": [
         "Kimi K3",
-        "GLM 5.2",
+        "GLM-5.2",
         "评测",
         "Agent"
       ],
@@ -270,9 +270,9 @@
       "summary": "作者拆账：从 20 日起 Fable 5 限额再减 25%，相当于相对此前活动期缩水一半。因 5 月至 7/19 会员周限额提高 50%（总限额约为正常 150%），所以 Fable 5 实际约为原应得的 75%；活动结束后 Fable 5 与总限额在 100/200 美元档都会再减约 50%，整体缩水。",
       "recommend_reason": "订阅文案看不清的额度算术，选型前必读。",
       "tags": [
-        "Claude Fable 5",
+        "Fable 5",
         "Anthropic",
-        "限额",
+        "额度",
         "订阅"
       ],
       "title": "Fable 5「进订阅」背后：活动结束后限额整体约砍半",
@@ -514,7 +514,7 @@
       "tags": [
         "Fable 5",
         "Anthropic",
-        "产业观察"
+        "产业"
       ],
       "rank": 23
     },
@@ -601,7 +601,7 @@
       "recommend_reason": "可点开的交付物比空口 SOTA 更硬，展示 K3 工程交付上限。",
       "tags": [
         "Kimi K3",
-        "视频编辑",
+        "AI视频",
         "Skill",
         "Demo"
       ],
@@ -624,7 +624,7 @@
       "summary": "果不其然，Claude 宣布 Fable 5 将会长期内置在 Max 和 Team Premium 计划里，限额 50%。估计是 OpenAI 与 Kimi K3 的压力，这次不延期直接内置。Pro 和其他 Team 会员只能靠积分访问，会一次性获得 100 美元积分。",
       "recommend_reason": "订阅结构与竞品压力一次说清，选型决策信息完整。",
       "tags": [
-        "Claude Fable 5",
+        "Fable 5",
         "Anthropic",
         "订阅",
         "定价"
@@ -678,7 +678,6 @@
       "tags": [
         "Gemini Notebook",
         "Google",
-        "NotebookLM",
         "产品"
       ],
       "rank": 30

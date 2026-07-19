@@ -176,7 +176,7 @@
       "summary": "家人们都睡去了。我开始试一试 grok build。",
       "recommend_reason": "开源 coding agent 刚放出当晚的即时试用信号。",
       "tags": [
-        "grok-build",
+        "Grok Build",
         "试用",
         "Coding Agent"
       ],
@@ -223,8 +223,7 @@
       "recommend_reason": "Markdown + 风格提示词的活动海报工作流，可直接复用。",
       "tags": [
         "提示词",
-        "海报",
-        "GPT图像",
+        "图像生成",
         "PPT"
       ],
       "rank": 10
@@ -246,7 +245,7 @@
         "Manus",
         "AI商业",
         "中转站",
-        "产业观察"
+        "产业"
       ],
       "title": "AI 野蛮生长期：佩服 Manus，警惕中转站与补贴套利",
       "rank": 11
@@ -309,7 +308,7 @@
       "summary": "作者称 SpaceX AI 开源终端 AI 编程工具 grok-build，路线类似 Claude Code：读代码库、改文件、跑命令、联网搜索；纯 Rust、Apache 2.0。上线即 1.4 万 star。文档功能含斜杠命令/快捷键/主题、MCP/技能/插件/钩子、无头模式进 CI、沙箱兜底，以及 ACP 嵌编辑器。",
       "recommend_reason": "开源 coding agent 新选项，能力清单对齐 Claude Code 用户习惯。",
       "tags": [
-        "grok-build",
+        "Grok Build",
         "开源",
         "Coding Agent",
         "Rust"
@@ -425,10 +424,10 @@
       "summary": "Claude Fable 5 想象自己参观名为 “Pedaling Pelican” 的画廊展，展出（它想象中）早期语言模型尝试用 SVG 画鹈鹕骑自行车的失败作品。",
       "recommend_reason": "经典 pelican-bike 梗被做成代际对照展，视频生成+评测文化一身。",
       "tags": [
-        "Claude Fable 5",
+        "Fable 5",
         "SVG",
         "演示",
-        "评测文化"
+        "评测"
       ],
       "title": "Fable 5 脑补美术展：早期模型画「骑自行车的鹈鹕」SVG 有多崩",
       "rank": 19
@@ -632,9 +631,9 @@
       "recommend_reason": "一句话戳穿排行榜与闭源旗舰体感的落差，适合对齐预期。",
       "tags": [
         "Arena",
-        "Fable",
+        "Fable 5",
         "Anthropic",
-        "基准"
+        "评测"
       ],
       "rank": 28
     },
@@ -654,7 +653,6 @@
       "tags": [
         "Google",
         "Gemini Notebook",
-        "NotebookLM",
         "产品"
       ],
       "rank": 29

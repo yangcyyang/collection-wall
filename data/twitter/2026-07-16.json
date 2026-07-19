@@ -89,8 +89,8 @@
       "summary": "作者说明该视频是通过不断给 Claude 的视频尝试提供反馈完成的，并未指导如何在技术层面制作；并附上提示词链接。",
       "recommend_reason": "补全上一条：成片路径是自然语言迭代，而不是剪辑软件说明书。",
       "tags": [
-        "Claude Fable 5",
-        "视频生成",
+        "Fable 5",
+        "AI视频",
         "提示词"
       ],
       "title": "Fable 5 视频只靠迭代反馈，不讲技术细节也能成片",
@@ -157,8 +157,8 @@
       "summary": "Claude Fable 5 生成一段 20 秒 VHS 风格循环：有人在后室游荡，直到撞见一台电视正在播放他们正在录的同一段画面。",
       "recommend_reason": "自指循环视频是生成视频可控性与创意上限的直观 demo。",
       "tags": [
-        "Claude Fable 5",
-        "视频生成",
+        "Fable 5",
+        "AI视频",
         "演示"
       ],
       "rank": 7
@@ -182,7 +182,7 @@
         "Codex",
         "教程",
         "皮肤",
-        "开发者工具"
+        "开发工具"
       ],
       "rank": 8
     },
@@ -201,7 +201,7 @@
       "recommend_reason": "Naval 侧团队直接秀 harness 能力面，ARC-AGI-3 饱和是硬信号。",
       "tags": [
         "Agent",
-        "harness",
+        "Harness",
         "ARC-AGI",
         "Impossible Research"
       ],
@@ -334,7 +334,7 @@
         "开源",
         "OpenAI",
         "Twitter",
-        "产业吐槽"
+        "产业"
       ],
       "rank": 15
     },
@@ -355,7 +355,7 @@
       "tags": [
         "vibe coding",
         "社区",
-        "token"
+        "Token"
       ],
       "rank": 16
     },
@@ -399,7 +399,7 @@
       "recommend_reason": "公开基准排名速报，适合快速判断 Grok 4.5 在软件工程与研究任务上的相对位置。",
       "tags": [
         "Grok",
-        "基准",
+        "评测",
         "SWE",
         "xAI"
       ],

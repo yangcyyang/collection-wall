@@ -21,6 +21,57 @@ export type Tweet = {
 };
 
 const SHORT_TWEET_THRESHOLD = 200;
+const RECENT_DAYS = 7;
+const twitterDirectory = resolve(process.cwd(), "../data/twitter");
+const tagAliasesPath = resolve(process.cwd(), "../pipeline/tag_aliases.json");
+
+type AliasFile = { map?: Record<string, string> };
+
+let aliasTable: Map<string, string> | null = null;
+
+function compactKey(s: string) {
+  return s.toLowerCase().replace(/[\s_\-]+/g, "");
+}
+
+async function loadAliasTable() {
+  if (aliasTable) return aliasTable;
+  const table = new Map<string, string>();
+  try {
+    const raw = JSON.parse(await readFile(tagAliasesPath, "utf8")) as AliasFile;
+    for (const [src, dst] of Object.entries(raw.map ?? {})) {
+      const canon = dst.trim();
+      if (!canon) continue;
+      for (const key of [src, src.trim(), src.toLowerCase(), compactKey(src), canon, canon.toLowerCase(), compactKey(canon)]) {
+        if (key) table.set(key, canon);
+      }
+    }
+  } catch {
+    // missing aliases file: keep tags as-is
+  }
+  aliasTable = table;
+  return table;
+}
+
+export function normalizeTag(tag: string, table: Map<string, string>) {
+  const raw = tag.trim();
+  if (!raw) return raw;
+  return table.get(raw) ?? table.get(raw.toLowerCase()) ?? table.get(compactKey(raw)) ?? raw;
+}
+
+export function normalizeTags(tags: string[] | undefined, table: Map<string, string>) {
+  if (!tags?.length) return [];
+  const out: string[] = [];
+  const seen = new Set<string>();
+  for (const tag of tags) {
+    const n = normalizeTag(String(tag), table);
+    if (!n) continue;
+    const k = n.toLowerCase();
+    if (seen.has(k)) continue;
+    seen.add(k);
+    out.push(n);
+  }
+  return out;
+}
 
 export function isShortTweet(item: Tweet) {
   return !item.title || item.text.length <= SHORT_TWEET_THRESHOLD;
@@ -32,9 +83,6 @@ export type TwitterDay = {
   items: Tweet[];
 };
 
-const RECENT_DAYS = 7;
-const twitterDirectory = resolve(process.cwd(), "../data/twitter");
-
 export async function getTwitterDays(): Promise<TwitterDay[]> {
   let files: string[] = [];
   try {
@@ -43,11 +91,15 @@ export async function getTwitterDays(): Promise<TwitterDay[]> {
     return [];
   }
 
+  const table = await loadAliasTable();
   const days = await Promise.all(files
     .filter((file) => file.endsWith(".json"))
     .map(async (file) => JSON.parse(await readFile(resolve(twitterDirectory, file), "utf8")) as TwitterDay));
 
   for (const day of days) {
+    for (const item of day.items) {
+      item.tags = normalizeTags(item.tags, table);
+    }
     day.items.sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
   }
 

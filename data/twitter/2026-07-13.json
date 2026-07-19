@@ -93,7 +93,7 @@
       "recommend_reason": "AI/模型相关；产品/发布信号；互动133；有图/媒体",
       "tags": [
         "硬件",
-        "产品动态"
+        "产品"
       ],
       "title": "NVIDIA GTC 柏林站限时优惠开票，聚焦 AI、加速计算与机器人"
     },
@@ -113,7 +113,7 @@
       "score": 20.15,
       "recommend_reason": "AI/模型相关；产品/发布信号；互动93",
       "tags": [
-        "产品动态"
+        "产品"
       ],
       "title": "Box CEO：智能成本下降才是 Agent 大规模落地的关键"
     },
@@ -159,7 +159,7 @@
       "recommend_reason": "产品/发布信号；互动195",
       "tags": [
         "OpenAI",
-        "产品动态"
+        "产品"
       ]
     },
     {
@@ -328,7 +328,7 @@
       "recommend_reason": "AI/模型相关；产品/发布信号；有图/媒体",
       "tags": [
         "Anthropic",
-        "产品动态"
+        "产品"
       ],
       "title": "用 mock UI 代替纯文字沟通，作者分享和 Claude 做交互设计的新流程"
     },
@@ -352,7 +352,7 @@
       "tags": [
         "Anthropic",
         "OpenAI",
-        "产品动态"
+        "产品"
       ],
       "title": "测评：GPT-5.6 加持的 Codex 工作流在某项能力上反超 Claude"
     },
@@ -460,7 +460,7 @@
       "tags": [
         "Anthropic",
         "OpenAI",
-        "产品动态"
+        "产品"
       ],
       "title": "作者反思：Claude 和 OpenAI 额度大战打乱了自己的产品开发节奏"
     },
@@ -505,7 +505,7 @@
       "recommend_reason": "AI/模型相关；产品/发布信号；互动23；有图/媒体",
       "tags": [
         "Google",
-        "产品动态"
+        "产品"
       ],
       "title": "台积电加建先进封装厂，SemiAnalysis 曝 Rubin Ultra 机柜或延期一年以上"
     },
@@ -527,7 +527,7 @@
       "score": 12.92,
       "recommend_reason": "AI/模型相关；产品/发布信号；有图/媒体",
       "tags": [
-        "产品动态"
+        "产品"
       ],
       "title": "线上分享：「Skills 不赚钱、Agent 才性感」，Agent 能为产品导流"
     },

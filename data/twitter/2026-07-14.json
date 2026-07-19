@@ -82,7 +82,7 @@
       "score": 12.2,
       "recommend_reason": "把“模型能力”和“托管基建”绑在一起谈，提醒别只比模型、不比部署环境。",
       "tags": [
-        "Fable5",
+        "Fable 5",
         "GPT-5.6",
         "基建",
         "全栈生成"
@@ -153,8 +153,8 @@
       "score": 10.3,
       "recommend_reason": "比单模型安利更有信息量：关心选型时值得看他们怎么控变量做横评。",
       "tags": [
-        "横评",
-        "Fable5",
+        "评测",
+        "Fable 5",
         "Grok",
         "GPT-5.6"
       ],
@@ -205,8 +205,8 @@
       "tags": [
         "Grok",
         "额度",
-        "视频生成",
-        "产品动态"
+        "AI视频",
+        "产品"
       ],
       "title": "SuperGrok 视频生成额度从近乎无限砍到每周约 20 个"
     },
@@ -229,7 +229,7 @@
         "设计",
         "开源",
         "Claude",
-        "工具选型"
+        "工具"
       ],
       "title": "设计师弃单一厂商设计工具，改用开源开放设计"
     },
@@ -251,9 +251,9 @@
       "score": 11.5,
       "recommend_reason": "轻量但真实的社区情绪信号，侧面说明 Fable 5 在重度用户工作流里的不可替代感。",
       "tags": [
-        "Fable5",
+        "Fable 5",
         "社区",
-        "使用体验"
+        "体验"
       ]
     },
     {
@@ -298,9 +298,9 @@
       "score": 10.0,
       "recommend_reason": "本地/CLI coding agent 搭配 DeepSeek 的尝鲜信号，值得关注后续体验反馈。",
       "tags": [
-        "opencode",
+        "OpenCode",
         "DeepSeek",
-        "CodingAgent"
+        "Coding Agent"
       ]
     },
     {
@@ -319,7 +319,7 @@
       "score": 10.6,
       "recommend_reason": "适合当工具雷达扫一遍；信息密度高，可收藏后按需深挖，不必全信“必备”话术。",
       "tags": [
-        "工具清单",
+        "工具",
         "AI工具",
         "效率"
       ],
