@@ -1,0 +1,381 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-19",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2078687965149336024",
+      "author": "bindureddy",
+      "author_bio": "CEO of @abacusai - the world’s first AI super assistant and a powerful AI SuperComputer for professionals and enterprises, ex-AWS & Google",
+      "text": "Best Model For The Use Case\n\ndesign - GPT 5.6 sol\nchat -  Flash 3.5\nagentic (simple) - Grok 4.5\nagentic (medium) - Sonnet 4.6 / Kimi\nagentic (hard) - Sol / Fable\npdf - Grok 4.5\nimage - GPT 2.0\nvideo - Seedance 2.0\nvoice - Hume / 11Labs\nmusic - Suno\n\nUse all the best models in one place and automatically route to them on ChatLLM",
+      "url": "https://x.com/i/status/2078687965149336024",
+      "created_at": "2026-07-19T03:46:45Z",
+      "likes": 21,
+      "views": "4549",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "作者给出用例路由：设计 GPT 5.6 Sol，聊天 Flash 3.5，简单 agent Grok 4.5，中等 Sonnet 4.6/Kimi，困难 Sol/Fable，PDF Grok 4.5，图 GPT 2.0，视频 Seedance 2.0，语音 Hume/11Labs，音乐 Suno；并称可在 ChatLLM 一处自动路由。",
+      "recommend_reason": "可执行的多模型分工表，比「一个模型打天下」更贴近真实成本。",
+      "tags": [
+        "模型路由",
+        "成本",
+        "选型",
+        "ChatLLM"
+      ],
+      "title": "按场景选模型：设计用 Sol，难 Agent 用 Sol/Fable，简单 Agent 用 Grok",
+      "rank": 1
+    },
+    {
+      "id": "2078685245122195590",
+      "author": "xiaohu",
+      "author_bio": "带你了解全球最前沿科技、AI动态...\n\nAI 精华，讲到你懂：https://t.co/nvuDIvoNg1",
+      "text": "a16z 报告：软件股正在被抛售，但市场只杀没有护城河的那一半\n\na16z 的「本周图表」栏目最近一期，用近 20 张数据图挑了当下四个最流行的担忧，一个一个摆数据：软件公司要被 AI 团灭、便宜模型会把前沿大模型拖垮、AI 正在抢走人的工作、数据中心正在推高你家的电费。\n\n详细：https://t.co/rZUeMzwTtK",
+      "url": "https://x.com/i/status/2078685245122195590",
+      "created_at": "2026-07-19T03:35:57Z",
+      "likes": 3,
+      "views": "769",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "a16z 报告：软件股被抛售，但市场只杀没有护城河的那一半。近 20 张图回应四大担忧：软件公司要被 AI 团灭、便宜模型拖垮前沿大模型、AI 抢工作、数据中心推高电费。",
+      "recommend_reason": "用数据拆流行恐慌，适合对照自己持仓/赛道判断。",
+      "tags": [
+        "a16z",
+        "软件",
+        "AI影响",
+        "报告"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2078684808067293238",
+      "author": "xiaohu",
+      "author_bio": "带你了解全球最前沿科技、AI动态...\n\nAI 精华，讲到你懂：https://t.co/nvuDIvoNg1",
+      "text": "Anthropic 内部对谈：Harness 那套外壳流程，正在被拆掉\n\n套在模型外面那层代码（harness）正在变薄：它编码的是「模型做不到什么」的假设，而这些假设正在随着模型能力的提升而过期...\n\n旧 harness 像一条写死的流水线，每个工位干什么、什么时候传给下一位，全是排好的。新长出来的这层更像一个会挑战术的教练：它不站在流水线上，它决定这场仗用哪种阵型打。\n\n详细：https://t.co/4zPXh2p42L",
+      "url": "https://x.com/i/status/2078684808067293238",
+      "created_at": "2026-07-19T03:34:12Z",
+      "likes": 3,
+      "views": "971",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "套在模型外的 harness 正在变薄：它编码的是「模型做不到什么」的假设，正随能力提升过期。旧 harness 像写死流水线；新长出的层更像挑战术的教练，决定用哪种阵型打仗，而非站在工位上传交接。",
+      "recommend_reason": "点出 agent 外壳与模型能力共演化，架构选型的关键隐喻。",
+      "tags": [
+        "Harness",
+        "Anthropic",
+        "Agent",
+        "架构"
+      ],
+      "title": "Anthropic 内部：旧 harness 流水线变薄，新层更像「选阵型的教练」",
+      "rank": 3
+    },
+    {
+      "id": "2078682197712932891",
+      "author": "lixinbao_X",
+      "author_bio": "原金融从业者，现在基本全职自媒体人，使用AI技术赋能，2025年5月份到现在粉丝从零涨到：微信视频号 40 万，抖音25 万，B站 2 万，小红书 6 万。百度1.5万，快手及其他加总还有 2 万左右。全网粉丝数破 75 万。 我会在这里分享我作品，及相关制作经验技巧和心得。",
+      "text": "DeepSeek 一轮融资，直接把梁文锋送上了 AI 首富的位置。\n\n据最新测算，梁文锋身家已经来到 360 亿美元，不仅翻了一倍，还超过了 Anthropic 和 OpenAI 联合创始人的个人财富。\n\n有意思的是，这笔财富和传统互联网富豪不太一样。\n\n马化腾、马云的资产来自庞大的商业帝国；黄仁勋靠芯片；而梁文锋几乎把财富都押在了一家公司——DeepSeek。\n\n如果估值能持续兑现，中国 AI 第一次真正跑出了一个靠大模型本身诞生的世界级超级富豪。\n\n这也说明，现在资本市场押注的，已经不只是 AI 能不能赚钱，而是谁能成为未来 AI 基础设施的入口。",
+      "url": "https://x.com/i/status/2078682197712932891",
+      "created_at": "2026-07-19T03:23:50Z",
+      "likes": 8,
+      "views": "434",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "作者称 DeepSeek 一轮融资使梁文锋测算身家约 360 亿美元，翻倍并超过 Anthropic/OpenAI 联合创始人个人财富。与马化腾/马云帝国、黄仁勋芯片不同，财富几乎押在 DeepSeek 一家；若估值兑现，中国 AI 首次跑出靠大模型本身的世界级富豪，资本押的是谁能成为 AI 基础设施入口。",
+      "recommend_reason": "产业财富结构信号：入口权比「AI 能不能赚钱」更被下注。",
+      "tags": [
+        "DeepSeek",
+        "融资",
+        "产业",
+        "梁文锋"
+      ],
+      "title": "DeepSeek 融资后梁文锋身家约 360 亿美元：押在大模型本身的首富叙事",
+      "rank": 4
+    },
+    {
+      "id": "2078680925987291374",
+      "author": "vista8",
+      "author_bio": "喜欢摇滚乐、爱钓鱼的PM",
+      "text": "Codex 调用 Listenhub Cli + 免费视频素材库 pexels 写一个skill，一句话生成类似视频。 https://t.co/USX9V9bjK2",
+      "url": "https://x.com/i/status/2078680925987291374",
+      "created_at": "2026-07-19T03:18:47Z",
+      "likes": 14,
+      "views": "1577",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2078680356799307776/vid/avc1/320x568/ycfLj5Q2-2EkaxDh.mp4?tag=29",
+        "https://pbs.twimg.com/media/HNj1RuEbMAAJuPJ.jpg"
+      ],
+      "summary": "Codex 调用 Listenhub CLI + 免费视频素材库 Pexels 写一个 skill，一句话生成类似视频。",
+      "recommend_reason": "可复现的 skill 组合路径：CLI + 素材库 = 一句话成片。",
+      "tags": [
+        "Codex",
+        "Skill",
+        "视频",
+        "Listenhub"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2078677845073899640",
+      "author": "vista8",
+      "author_bio": "喜欢摇滚乐、爱钓鱼的PM",
+      "text": "昨天的直播，因参加waic会后 after party，全程旁听。\n\n我们金牌主持人元子 @yuanzi_owO 超强！什么状况都能罩住，推荐关注。\n\n12 位分享人顺利完成直播秀，听众纷纷要回放链接，信息密度极高。\n\n姚老师整理了所有分享介绍和链接，推荐收藏关注这些分享者。",
+      "url": "https://x.com/i/status/2078677845073899640",
+      "created_at": "2026-07-19T03:06:32Z",
+      "likes": 11,
+      "views": "2593",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "昨天直播因参加 WAIC after party 全程旁听。金牌主持人元子控场超强，推荐关注。12 位分享人顺利完成，听众要回放，信息密度极高。姚老师整理了所有分享介绍和链接，推荐收藏关注这些分享者。",
+      "recommend_reason": "给昨夜高密度分享补上入口与人物线索。",
+      "tags": [
+        "WAIC",
+        "直播",
+        "社区",
+        "分享"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2078673094940745759",
+      "author": "IndieDevHailey",
+      "author_bio": "独立开发者 · AI Builder\nAI × 全栈 × 增长\nGoViralX｜连接品牌与 KOL\n商务合作：hailey_le_1",
+      "text": "🚀 28个真实可跑项目！AI Agent实战圣经开源\n\n李博杰新书《深入理解 AI Agent：设计原理与工程实践》全开源！仓库包含全书正文+PDF+10章配套代码，核心公式：Agent = LLM + 上下文 + 工具。\n\n- 28个可跑项目，从基础上下文消融、工具调用，到Coding Agent、自我进化、多Agent协作、多模态实时交互，全是生产级实操\n- 小模型也能干大事：0.6B本地部署+强工具能力演示\n- 上下文/KV Cache/压缩/记忆/RAG实战，效果直观对比\n- 代码+PDF免费下，亲手跑一遍就懂工程竞争力在哪\n\n真正把原理讲透、代码跑通的稀缺货。想系统学Agent的别错过！",
+      "url": "https://x.com/i/status/2078673094940745759",
+      "created_at": "2026-07-19T02:47:40Z",
+      "likes": 1,
+      "views": "332",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2078672774294577152/vid/avc1/460x270/4wc6BXHoSPTF5UM7.mp4?tag=29"
+      ],
+      "summary": "新书全开源：正文+PDF+10 章代码，公式 Agent=LLM+上下文+工具。含 28 个可跑项目，从上下文消融、工具调用到 Coding Agent、自我进化、多 Agent、多模态；还有 0.6B 本地+工具演示，以及上下文/KV/压缩/记忆/RAG 对比。",
+      "recommend_reason": "系统学 Agent 的免费硬货，原理与代码齐。",
+      "tags": [
+        "AI Agent",
+        "开源",
+        "教程",
+        "工程"
+      ],
+      "title": "李博杰《深入理解 AI Agent》全开源：28 个可跑项目 + PDF",
+      "rank": 7
+    },
+    {
+      "id": "2078672688189669767",
+      "author": "yangyi",
+      "author_bio": "",
+      "text": "就我近日对replybot的观察\n结合之前做replybot的经验\n\n我觉得做矩阵自动化回复有几个点需要注意\n\n1、时效问题\n帖子发完 秒回 基本都是bot\n2、频数问题\n一个人的帖子 次次都有评论 bot\n3、名字问题\nbot名字完全品牌营销号 bot\n4、相似生成\n同一条tweet 回复很类似的话 bot\n\n解决策略：\n- 设置时效间隔 （一般1.5-3min我觉得都好）\n- 降低回复频数 （同一人的帖子可以写个rule，或者过一遍网关判断要不要回）\n- 名字尽量用 昵称+产品 更像个独立开发者\n- 用不同模型跑多矩阵 或者system prompt里增加更多人设信息来干扰生成结果\n\n现在这些bot唯一做的比较好的地方\n就是使用 简短+提问+臭屁 的策略\n\n这也是我之前跑的时候获得的共识策略",
+      "url": "https://x.com/i/status/2078672688189669767",
+      "created_at": "2026-07-19T02:46:03Z",
+      "likes": 2,
+      "views": "959",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "作者总结自动化回复注意点：秒回像 bot、同一人帖子次次评像 bot、纯品牌名像 bot、同 tweet 回复雷同像 bot。策略：1.5–3 分钟间隔、降频/网关筛选、昵称+产品、多模型/人设干扰生成；短+提问+臭屁仍是有效策略。",
+      "recommend_reason": "实战过的反检测清单，做增长自动化可直接对照。",
+      "tags": [
+        "自动化",
+        "Replybot",
+        "增长",
+        "风控"
+      ],
+      "title": "Replybot 矩阵四雷区：秒回、次次评、营销名、同质回复",
+      "rank": 8
+    },
+    {
+      "id": "2078666523233972633",
+      "author": "yaojingang",
+      "author_bio": "AI营销与教育科技创业者  \n持续开源GEOFlow / YAO Skills / AI Tools  \n周更《姚金刚认知随笔》：https://t.co/IOUcygwMdR",
+      "text": "昨晚听了WaytoAGI未来硅世界直播，12位分享者，分享了10个AI Coding 作品 + 2个FDE案例分享，很多有意思的作品，也很有启发\n\n1、小耳 FM、Omia，作者小耳，音乐动态可视化工具与支持 100 多种格式的极简阅读器，产品非常有质感\n\n2、Watchless，这是一个 Skill，作者陈自欣，可以将长视频和播客转成带关键画面的图文总结\n\n3、亲子习惯养成小程序，作者发愤的草莓，通过积分、神兽孵化和心愿兑换，引导孩子主动打卡，场景很具体\n\n4、AI 私域运营工具，作者老袁，可以在个人微信和企业微信中自动维护客户、识别购买意向并转交销售，商业闭环已经跑通\n\n5、白板解释视频工具，作者余向华，可以把文字、文档或网页自动生成带配音和字幕的白板讲解视频，很适合知识科普\n\n6、AI 亲子语言闪卡，作者 Nerissa，拍摄物品即可生成外语单词、短句、发音和可打印闪卡，设计很克制\n\n7、Crewclaw，作者彭超，这是一个数字员工招聘和管理平台，形态很像数字员工的 App Store\n\n8、3D 导演台，作者萌唛象，可以用手机陀螺仪操控 3D 摄像机，快速生成适合 AI 视频的镜头，项目很好玩\n\n9、公众号编辑器、拼豆制作工具，作者书同文，一个解决公众号图片和排版问题，一个能把图片自动转换成拼豆制作方案，都来自自己的真实需求\n\n10、AI 内容工作室，作者 Ellie，可以自动完成素材筛选、脚本、字幕、剪辑和转场，对内容创作者很实用\n\n两个FDE分享和案例：\n\n11、鞋服智能详情页FDE，分享者Lyon，通过驻场梳理斯凯奇的业务流程，用 AI 完成商品识别、模板匹配和批量套版，将准确率从 85% 提升到 95%，随后复用到安踏\n\n12、企业AI FDE交付案例，分享者 Derrick，结合数十个企业项目，总结了国企、医院、律所等场景中的需求诊断、本地部署、数据安全和规模化交付经验",
+      "url": "https://x.com/i/status/2078666523233972633",
+      "created_at": "2026-07-19T02:21:33Z",
+      "likes": 41,
+      "views": "4427",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNjnen7akAAz3T1.jpg",
+        "https://pbs.twimg.com/media/HNjnifWaUAArWgU.jpg",
+        "https://pbs.twimg.com/media/HNjnvKta8AEPrN2.jpg",
+        "https://pbs.twimg.com/media/HNjnzlcbMAACjID.jpg"
+      ],
+      "summary": "昨晚 WaytoAGI 未来硅世界直播 12 位分享：含小耳 FM/Omia、Watchless 长视频图文 skill、亲子习惯小程序、私域运营工具、白板讲解视频、语言闪卡、Crewclaw 数字员工商店、3D 导演台、公众号/拼豆工具、内容流水线；FDE 侧有鞋服智能详情页（准确率 85%→95%）与国企/医院/律所规模化交付经验。",
+      "recommend_reason": "高密度作品清单，可当本周 AI 应用雷达图收藏。",
+      "tags": [
+        "AI Coding",
+        "FDE",
+        "作品集",
+        "社区"
+      ],
+      "title": "WaytoAGI 直播盘点：10 个 AI Coding 作品 + 2 个 FDE 案例",
+      "rank": 9
+    },
+    {
+      "id": "2078666187026911488",
+      "author": "zarazhangrui",
+      "author_bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "text": "Everyone should develop their \"personal eval set\" for AI models: a few tasks that are actually relevant to your day-to-day work/life\n\nThe industry benchmarks help but they might not reflect what will make it actually useful to you\n\nYou find the model's capability boundary by poking at it & bumping into it for fun",
+      "url": "https://x.com/i/status/2078666187026911488",
+      "created_at": "2026-07-19T02:20:13Z",
+      "likes": 59,
+      "views": "3150",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "作者建议每个人为自己准备个人评测集：几项真正贴近日常工作/生活的任务。行业基准有用，但不一定反映对你真正有用的能力；通过不断戳模型、撞边界，才找到能力边界。",
+      "recommend_reason": "把评测从排行榜拉回个人工作流，选型决策更落地。",
+      "tags": [
+        "评测",
+        "选型",
+        "方法论",
+        "Agent"
+      ],
+      "title": "给自己建一套「个人 eval set」：用日常任务摸模型边界",
+      "rank": 10
+    },
+    {
+      "id": "2078662408382697813",
+      "author": "WareAi996",
+      "author_bio": "AI Agent 公司合伙人 | 实测可落地的各种 AI 工具和工作流 \n\n只说真实结果：什么能用、什么翻车、什么不值得浪费时间\n\n上推交交朋友，聊聊天",
+      "text": "现在 codex 慢很大一部分原因是装了一些额外的能力，要么删除，要么自己重构个轻量级 https://t.co/ilawm1yYSc",
+      "url": "https://x.com/i/status/2078662408382697813",
+      "created_at": "2026-07-19T02:05:12Z",
+      "likes": 0,
+      "views": "3",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNjkTx9bgAAaGKR.jpg"
+      ],
+      "summary": "现在 Codex 慢很大一部分原因是装了一些额外的能力，要么删除，要么自己重构个轻量级。",
+      "recommend_reason": "性能排查第一刀：减 skill/能力膨胀，别先骂模型。",
+      "tags": [
+        "Codex",
+        "Skill",
+        "性能",
+        "工程"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2078657941876703724",
+      "author": "xiaoxiaodong01",
+      "author_bio": "国际，不知名，顶级图片提示词专家\n遇事不决 可问东风\n月亮岛边上的AI爱好者 星球+\nWeChat:：newbe2012",
+      "text": "GPT2 x 柔光拍摄 x 产品美图 x 美学提示词\n\n把你家的产品，用这个提示词，一键成为漂亮的产品海报\n\n光影和质感、最适吸引我~\n\n清爽日系，果然耐看！\n除了法律能阻止我用AI做美图，其他没有任何理由\n————我不用AI来作产品图。\n\n提示词见图片ALT属性 https://t.co/3g4jpsKPIm",
+      "url": "https://x.com/i/status/2078657941876703724",
+      "created_at": "2026-07-19T01:47:27Z",
+      "likes": 7,
+      "views": "512",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNjfw0GaEAAxk6e.jpg",
+        "https://pbs.twimg.com/media/HNjgKi2aIAAhFrx.jpg"
+      ],
+      "summary": "GPT2 x 柔光拍摄 x 产品美图 x 美学提示词。把你家产品用这个提示词一键变成漂亮产品海报；光影质感、清爽日系耐看。除了法律能阻止用 AI 做美图，其他没有不用 AI 的理由。提示词见图片 ALT。",
+      "recommend_reason": "产品海报可直接套的提示词路径，电商侧立刻能用。",
+      "tags": [
+        "图像生成",
+        "提示词",
+        "产品图",
+        "电商"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2078656424289485300",
+      "author": "JulianGoldieSEO",
+      "author_bio": "Make money with AI 👉 https://t.co/Ppmk5h9rw3\nFree SEO Strategy Session → https://t.co/wRv8ROcoTP",
+      "text": "The rumored Gemini 3.5 Pro specs are enormous.\n\n→ 2M token context\n→ Roughly 1.5M words\n→ Double the previous context\n→ Deep Think reasoning\n→ Autonomous tool workflows\n→ Full-project memory\n\nIf confirmed, it could process entire codebases in one pass. https://t.co/qajmvgA2oK",
+      "url": "https://x.com/i/status/2078656424289485300",
+      "created_at": "2026-07-19T01:41:25Z",
+      "likes": 3,
+      "views": "2218",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2078653491313270784/vid/avc1/480x270/3liPqGXg68SJTPL1.mp4?tag=29"
+      ],
+      "summary": "作者汇总传闻规格：200 万 token 上下文（约 150 万词，为前代两倍）、Deep Think 推理、自主工具工作流、全项目记忆；若确认或可一次处理整个代码库。",
+      "recommend_reason": "规格传闻集中列表，便于跟官方确认时对照。",
+      "tags": [
+        "Gemini 3.5",
+        "Google",
+        "上下文",
+        "传闻"
+      ],
+      "title": "传闻 Gemini 3.5 Pro：2M 上下文 + Deep Think + 自主工具流",
+      "rank": 13
+    },
+    {
+      "id": "2078649724710658309",
+      "author": "goodside",
+      "author_bio": "Screenshots of chatbots since 2022.\nFormerly: Google DeepMind, Scale.",
+      "text": "Crossword layout of all 1,009 distinct words of 12 or more letters in Moby Dick, arranged in the shape of a whale\n\nOne-shot by Claude Fable 5 Max https://t.co/iYCCuOwKTS",
+      "url": "https://x.com/i/status/2078649724710658309",
+      "created_at": "2026-07-19T01:14:48Z",
+      "likes": 133,
+      "views": "7087",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNjY6J4XEAAS479.jpg"
+      ],
+      "summary": "把《白鲸》里 1009 个长度≥12 字母的不重复词排成纵横字谜，整体拼成鲸鱼形状。Claude Fable 5 Max 一次生成。",
+      "recommend_reason": "超长约束 + 图形排布的硬 demo，一眼看出 Fable 5 的可控创意上限。",
+      "tags": [
+        "Claude Fable 5",
+        "演示",
+        "创意",
+        "约束"
+      ],
+      "rank": 14
+    },
+    {
+      "id": "2078646024151917027",
+      "author": "GoSailGlobal",
+      "author_bio": "Show In Public ｜ SaaS 出海 ｜ 克尔凯郭尔种草🌿\n\nSkills hub：https://t.co/x1VU8wWNj1\n博客：https://t.co/ajYYIXGqFg\n\n🤝 合作DM：GoSail_AI\n📮：m17551076169@gmail.com\n\nMCN：collab@gosail",
+      "text": "一个让整个 AI 行业清醒的数字：只有 2.2% 的美国家庭在为 AI 产品付费\n\n这意味着 97.8% 的普通人还没有觉得 AI 值得每月掏 20 美元\n\n行业内的人天天刷 AI 新闻，觉得 AI 已经改变一切了，但普通消费者的体感完全是另一个世界\n\n对比一下：Netflix 渗透率超过 60%，Spotify 超过 40%，ChatGPT Plus 的 2.2% 连零头都算不上\n\n问题出在哪？可能是产品形态还停留在对话框阶段，离真正融入日常工作流还有很远的距离\n\n也可能是大部分人试了免费版之后觉得\"够用了\"\n\n这个数字对投资人的意义比对用户大得多：$110B 的行业收入绝大部分来自企业端，消费端还是一片荒地\n\n你身边有多少非科技行业的人在为 AI 付费？",
+      "url": "https://x.com/i/status/2078646024151917027",
+      "created_at": "2026-07-19T01:00:06Z",
+      "likes": 3,
+      "views": "815",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNjViwcasAAdqm2.jpg"
+      ],
+      "summary": "作者引用：只有 2.2% 美国家庭为 AI 产品付费，97.8% 仍觉得不值每月 20 美元。对比 Netflix>60%、Spotify>40%。行业内人刷新闻觉得 AI 改变一切，消费者体感另一世界。问题或在对话框形态未融入工作流，或免费版「够用了」。对投资人意义更大：约 1100 亿美元行业收入主靠企业端。",
+      "recommend_reason": "用渗透率泼冷水，校准 ToC vs ToB 叙事。",
+      "tags": [
+        "付费渗透",
+        "消费AI",
+        "产业",
+        "ChatGPT"
+      ],
+      "title": "清醒数字：仅 2.2% 美国家庭为 AI 付费，消费端仍是荒地",
+      "rank": 15
+    }
+  ],
+  "generated_at": "2026-07-19T04:02:45Z",
+  "selection": {
+    "target_count": 30,
+    "max_count": 30,
+    "per_run_max": 15,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 15,
+    "last_batch_added": 15,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤15；单日≤30不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
