@@ -1,0 +1,375 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-20",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2079046240957014210",
+      "author": "dingyi",
+      "author_bio": "promote your product  ‣ dingyi@me.com\nnewsletter ‣ https://t.co/q1JG1yCzdb\nrefine your startup ‣ https://t.co/FfUYboxOr5\nnewest product ‣ https://t.co/cP6NQ3keo",
+      "text": "昨天帮儿子 P 他的照片，也就是换个背景什么的，我教他打开 GPT 怎么操作，他只是平静地说：哦学会了。他不知道什么是 Photoshop 没经历过以前打开软件、使用魔术棒工具那些东西，现在小孩一开始接触的就是 AI 工具，所以对他来说显得平平无奇。\n\n可能再过几年更年轻的一代，看到上古时代的代码编辑器也会惊讶：哇原来以前真的是这样手写代码的啊！",
+      "url": "https://x.com/i/status/2079046240957014210",
+      "created_at": "2026-07-20T03:30:25Z",
+      "likes": 9,
+      "views": "1137",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "昨天帮儿子换照片背景，教他用 GPT，他平静说「哦学会了」。他不知 Photoshop、魔术棒那些流程，一上来就是 AI，所以平平无奇。再过几年年轻人看到上古代码编辑器可能会惊讶：原来以前真是手写代码的。",
+      "recommend_reason": "代际工具栈断代观察，比功能清单更有时代感。",
+      "tags": [
+        "ChatGPT",
+        "教育",
+        "代际",
+        "工具"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2079039533715521984",
+      "author": "imwsl90",
+      "author_bio": "前程序员/产品经理/中年已婚带2娃\n\n- OPC、AI、互联网、两性情感、历史八卦\n\n🇬🇧giffgaff手机卡： https://t.co/p3mva2Nhr0\n🤖chatgpt代充:   https://t.co/8raUHeVgYO\n🪜vps:   https://t.co/7OJQwIE3Jt",
+      "text": "我不怀念没有AI的时代，没有AI的时代，做事情犹如刀耕火种，非常伤身体\n\n有了AI，很多事情变得非常简单，就连写代码也变得简单，工作也没有变得那么伤身体了 \n\n我不怀念没有AI的时代，就像我不怎么怀念2000s一样\n\n一想到2000s就想到了我的窘迫，什么都没有，连希望似乎都没有",
+      "url": "https://x.com/i/status/2079039533715521984",
+      "created_at": "2026-07-20T03:03:46Z",
+      "likes": 9,
+      "views": "920",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "我不怀念没有 AI 的时代：那时做事像刀耕火种、伤身体。有了 AI，写代码也简单，工作没那么伤身。就像不怎么怀念 2000s——一想到就是窘迫，连希望都少。",
+      "recommend_reason": "反怀旧的 AI 生产力叙事，对照「伤身体」的真实成本。",
+      "tags": [
+        "体验",
+        "工作流",
+        "Agent"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2079038592827937199",
+      "author": "PDChinese",
+      "author_bio": "中國第一大報，帶來最新資訊與熱點新聞 https://t.co/QS9QzcMmHN",
+      "text": "【“風和”模型全球開源計劃啟動】17日，在2026世界人工智能大會氣象專會上，中國氣象局發布人工智能氣象服務系統“風和”大語言模型，並啟動“風和”全球開源計劃。\n\n此舉旨在通過開放共享推動氣象人工智能走向世界，服務全球防災減災合作與可持續發展，同時匯聚開發者、科研機構和國際夥伴共建生態。\n\n當前，“風和”不僅為全國氣象服務業務提供基礎支撐，為國內公眾提供個性化、智能化氣象信息查詢、氣象服務建議和氣象風險預警，也深度融入全球全民早期預警倡議，其國際版已上線並融入氣象智能預警方案“媽祖”，為全球用戶提供中英文智能問答、天氣查詢和風險分析服務。",
+      "url": "https://x.com/i/status/2079038592827937199",
+      "created_at": "2026-07-20T03:00:01Z",
+      "likes": 8,
+      "views": "1004",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNo1Xika0AA43LH.jpg"
+      ],
+      "summary": "WAIC 气象专会上，中国气象局发布 AI 气象服务系统「风和」大语言模型并启动全球开源，推动气象 AI 开放共享与防灾减灾合作。国内支撑气象业务与公众智能查询/预警；国际版上线并融入「妈祖」预警方案，提供中英文智能问答与风险分析。",
+      "recommend_reason": "垂直行业大模型+开源+国际预警的官方动作，值得关注。",
+      "tags": [
+        "开源",
+        "大模型",
+        "气象",
+        "WAIC"
+      ],
+      "title": "中国气象局「风和」大模型启动全球开源计划",
+      "rank": 3
+    },
+    {
+      "id": "2079037351129694309",
+      "author": "xiaohu",
+      "author_bio": "带你了解全球最前沿科技、AI动态...\n\nAI 精华，讲到你懂：https://t.co/nvuDIvoNg1",
+      "text": "你在中转站选的模型可能被偷偷调包：输入一个随机数，就能验明正身\n\n像 OpenRouter 这样的聚合商，一个入口接入几百个模型，确实省事。但你点的只是一个名字，请求最后落到哪台机器、上面跑的是什么，你完全看不见，也没有任何凭证。\n\n布拉格经济大学的 Tomáš Bruckner 想出了一个巧办法：让 AI 说个随机数，光看它怎么答，就能认出它是谁。\n\n这招利用的是 AI 一个出了名的毛病：它说不出真正的随机数。你让它 1 到 100 随便挑，它翻来覆去就挑那一两个，而且每家模型的「口头禅数字」还不一样：GPT-4o 最偏爱 42（37 和 57 也常说），Claude Sonnet 5 几乎只说 47，Qwen3-Max 更绝，30 次采样每一次都答 42。\n\n以前大家都把这当缺陷、研究怎么修，这篇论文反过来，把它当成了指纹。\n\n详细内容：https://t.co/H32YwvEyeX",
+      "url": "https://x.com/i/status/2079037351129694309",
+      "created_at": "2026-07-20T02:55:05Z",
+      "likes": 12,
+      "views": "3364",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "聚合商入口只显示名字，实际跑什么看不见。布拉格经济大学提出：让 AI 报 1–100 随机数，利用「说不出真随机」的口头禅数字当指纹——如 GPT-4o 爱 42，Claude Sonnet 爱 47，Qwen3-Max 30 次全是 42。缺陷变识别凭证。",
+      "recommend_reason": "可操作的验模型手段，用中转站的人该会。",
+      "tags": [
+        "中转站",
+        "评测",
+        "OpenRouter",
+        "安全"
+      ],
+      "title": "中转站模型可能被调包：让 AI 报随机数当指纹",
+      "rank": 4
+    },
+    {
+      "id": "2079032553273762257",
+      "author": "dingyi",
+      "author_bio": "promote your product  ‣ dingyi@me.com\nnewsletter ‣ https://t.co/q1JG1yCzdb\nrefine your startup ‣ https://t.co/FfUYboxOr5\nnewest product ‣ https://t.co/cP6NQ3keo",
+      "text": "这尼玛和 VPS 一样，只要火了，一群黄牛先冲进去扫货，然后断货了人们只能去闲鱼高价买。\n\n大模型已经没有护城河了，国产模型很快就能赶上甚至超越。\n\n但是算力、芯片这些东西以后只会越来越贵，今年 PC 笔记本的价格都让 Macbook 更有性价比了。",
+      "url": "https://x.com/i/status/2079032553273762257",
+      "created_at": "2026-07-20T02:36:01Z",
+      "likes": 4,
+      "views": "2818",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "像 VPS 一样，火了就被黄牛扫货，断货只能闲鱼高价买。大模型已没护城河，国产模型很快能赶超；但算力、芯片只会更贵，今年 PC 本价格都让 MacBook 更有性价比。",
+      "recommend_reason": "模型同质化 vs 算力稀缺的结构判断，一针见血。",
+      "tags": [
+        "算力",
+        "国产模型",
+        "成本",
+        "产业"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2079024245401911421",
+      "author": "bindureddy",
+      "author_bio": "CEO of @abacusai - the world’s first AI super assistant and a powerful AI SuperComputer for professionals & enterprises, open-source AI zealot, ex-AWS & Google",
+      "text": "Kimi K3 is better for discovering cybersecurity issues than Fable or Sol - both of which have been nerfed\n\nThis is a huge shame. It already makes the US instantly uncompetitive in this sector\n\nThe US govt is now actively killing the tech and AI sector and jeopardizing the entire economy in the process",
+      "url": "https://x.com/i/status/2079024245401911421",
+      "created_at": "2026-07-20T02:03:01Z",
+      "likes": 86,
+      "views": "5124",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "作者称 Kimi K3 在发现网络安全问题上好于 Fable 与 Sol（二者被 nerf）。认为这是美国在该领域瞬间丧失竞争力，并批评政府在扼杀科技与 AI 部门、危及经济。",
+      "recommend_reason": "垂直能力（安全审计）上的体感对比，选型时别只看通用榜。",
+      "tags": [
+        "Kimi K3",
+        "Fable 5",
+        "网络安全",
+        "评测"
+      ],
+      "title": "Kimi K3 挖网络安全问题强过被削的 Fable/Sol",
+      "rank": 6
+    },
+    {
+      "id": "2079023486580801588",
+      "author": "JulianGoldieSEO",
+      "author_bio": "Make money with AI 👉 https://t.co/Ppmk5h9rw3\nFree SEO Strategy Session → https://t.co/wRv8ROcoTP",
+      "text": "YOUR PHONE CAN NOW RUN A 27B AI MODEL.\n\nMost people think powerful AI needs the cloud.\n\nThey just got proven wrong.\n\nHere's what changed:\n\n→ PrismML compressed a 27B model from ~54GB down to 3.9GB\n\n→ It runs directly on a phone with no internet required\n\n→ Built from Qwen 3.6 27B using a new 1-bit compression technique\n\nWhat you actually get:\n\n✓ 262K token context window\n\n✓ Multimodal (images + text)\n\n✓ On-device reasoning\n\n✓ Structured tool calling\n\n✓ Around 11 tokens/sec on an iPhone 17 Pro Max\n\nThe tradeoff:\n\n✔ Reasoning, math, and coding stay surprisingly strong\n\n✔ Vision, instruction following, and factual recall take the biggest hit\n\n✔ Independent benchmark verification is still pending\n\nThe biggest breakthrough isn't a smarter model.\n\nIt's fitting serious AI in your pocket without sending your data anywhere.",
+      "url": "https://x.com/i/status/2079023486580801588",
+      "created_at": "2026-07-20T02:00:00Z",
+      "likes": 6,
+      "views": "1378",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2078777190922297344/vid/avc1/480x270/A99trWxjWp8dCPS-.mp4?tag=29"
+      ],
+      "summary": "PrismML 将约 54GB 的 27B 模型压到 3.9GB，可在手机无网上跑（基于 Qwen 3.6 27B 的 1-bit 压缩）。约 262K 上下文、多模态、端侧推理与工具调用；iPhone 17 Pro Max 约 11 tok/s。推理/数学/代码仍强，视觉与事实召回受损，独立基准待验。",
+      "recommend_reason": "端侧大模型的尺寸突破，隐私与离线场景打开。",
+      "tags": [
+        "端侧AI",
+        "Qwen",
+        "压缩",
+        "手机"
+      ],
+      "title": "手机可跑 27B：PrismML 把模型压到 3.9GB 离线推理",
+      "rank": 7
+    },
+    {
+      "id": "2079015550622331349",
+      "author": "disinfeqt",
+      "author_bio": "designer, developer, cofounder @dinehq\nmaking https://t.co/PLpmMLA9bD / https://t.co/EinMd5Kkuz / https://t.co/mKAha6OC2n",
+      "text": "I actually hated the writing style of GPT-5.6 Terra/Luna so much that I switched back to using Gemini on Poche.",
+      "url": "https://x.com/i/status/2079015550622331349",
+      "created_at": "2026-07-20T01:28:28Z",
+      "likes": 0,
+      "views": "146",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "我太讨厌 GPT-5.6 Terra/Luna 的文风了，已经切回在 Poche 上用 Gemini。",
+      "recommend_reason": "文风偏好也会驱动换模，不只是分数。",
+      "tags": [
+        "GPT-5.6",
+        "Gemini",
+        "体验",
+        "文风"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2079013991834337774",
+      "author": "marclou",
+      "author_bio": "⭐️ https://t.co/MZc8tGa5LQ $30K/m\n📈 https://t.co/3EDxln5U2Q $21K/m\n🏴‍☠️ https://t.co/YBGJuAtsOC $15K/m\n🧑‍💻 https://t.co/Y30jsaI4oH $9K/m\n⚡️ https://t.co/vatLDmi",
+      "text": "I love this, so I made a minimalist version for myself.\n\nWhen an agent is running in Codex, Pac-Man is eating 👾 and becomes all big and green 🤢 when the agent is done, so I know it's time to prompt again.\n\nOn hover, the notch expands to show the list of running and completed threads.\n\n@edwardluox came up with a banger, and I think the Codex team should consider adding this natively because it's really nice 🤗",
+      "url": "https://x.com/i/status/2079013991834337774",
+      "created_at": "2026-07-20T01:22:16Z",
+      "likes": 189,
+      "views": "28065",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2079013815417724928/vid/avc1/320x568/SmO1B4dZDKrYs89N.mp4?tag=29"
+      ],
+      "summary": "作者做了极简版：Codex 里 agent 运行时 Pac-Man 在吃豆，完成后变大变绿提示可继续 prompt；悬停展开显示运行中与已完成线程。认为 Codex 团队可考虑原生支持。",
+      "recommend_reason": "agent 状态可视化的小而美方案，可复制到自家工作台。",
+      "tags": [
+        "Codex",
+        "Agent",
+        "体验",
+        "产品"
+      ],
+      "title": "Codex 跑任务时用吃豆人状态：忙着吃、做完变绿",
+      "rank": 9
+    },
+    {
+      "id": "2078995815037821084",
+      "author": "xiaoxiaodong01",
+      "author_bio": "国际，不知名，顶级图片提示词专家\n遇事不决 可问东风\n月亮岛边上的AI爱好者 星球+\nWeChat:：newbe2012",
+      "text": "GPT2 x 早安 x 轮廓柔化 x 残影 x 美学提示词\n\n早安！新的一周开始了！\n\n这几天测试了grok 和 gemini\n其实用来做作提示词，都是有素质的了\n\n不过量大管（一点点）饱，目前还是chatGPT这边热烈大方\n\n今天开始上架优化之后提示词，先睡个回笼觉。 https://t.co/GtalVNoJOz",
+      "url": "https://x.com/i/status/2078995815037821084",
+      "created_at": "2026-07-20T00:10:02Z",
+      "likes": 30,
+      "views": "2213",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNoTWm6bsAA5zNr.jpg",
+        "https://pbs.twimg.com/media/HNoTA5_bEAA5Vyr.jpg",
+        "https://pbs.twimg.com/media/HNoTCiWbgAAB2We.jpg",
+        "https://pbs.twimg.com/media/HNoTHUWacAAN57u.jpg"
+      ],
+      "summary": "GPT2 x 早安 x 轮廓柔化 x 残影 x 美学提示词。早安，新的一周。测试了 Grok 与 Gemini 做提示词都有素质，但量大管饱仍是 ChatGPT 更热烈大方；今天开始上架优化后的提示词。",
+      "recommend_reason": "多模型做提示词的横向体感，创作者侧实用。",
+      "tags": [
+        "提示词",
+        "图像生成",
+        "ChatGPT",
+        "Grok"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2078993319343046771",
+      "author": "GoSailGlobal",
+      "author_bio": "Show In Public ｜ SaaS 出海 ｜ 克尔凯郭尔种草🌿\n\nSkills hub：https://t.co/x1VU8wWNj1\n博客：https://t.co/ajYYIXGqFg\n\n🤝 合作DM：GoSail_AI\n📮：m17551076169@gmail.com\n\nMCN：collab@gosail",
+      "text": "阿里悄悄上线了一个可能改变 AI 编程工具格局的东西：Qwen Token Plan\n\n一个订阅，直接在 Claude Code、Codex、Cursor、OpenCode、Qwen Code、Hermes 和 OpenClaw 里跑多个前沿模型\n\n这个打法很聪明：不跟各家 IDE 抢用户入口，而是做底层的模型供应商，把自己嵌入所有工具链\n\n开发者最头疼的问题之一就是每个平台一个订阅、一个计费、一套 API，Qwen 直接打通了\n\n定价策略也很激进，中国模型的成本优势在这种订阅模式下会被进一步放大\n\n这本质上是在走 OpenRouter 的路线，但带着自家模型的成本优势\n\n当一个中国公司的订阅计划覆盖了所有主流 AI 编程工具，开发者的选择逻辑会发生根本变化\n\n你会为了省钱切换到 Qwen 的统一订阅吗？",
+      "url": "https://x.com/i/status/2078993319343046771",
+      "created_at": "2026-07-20T00:00:07Z",
+      "likes": 8,
+      "views": "2115",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNoRaAFaoAAmEd1.jpg"
+      ],
+      "summary": "阿里上线 Qwen Token Plan：一份订阅可在 Claude Code、Codex、Cursor、OpenCode、Qwen Code、Hermes、OpenClaw 跑多前沿模型。不做 IDE 入口、做底层模型供应商；用成本优势走类 OpenRouter 路线，开发者计费与 API 碎片化被打通。",
+      "recommend_reason": "编程工具链计费统一的关键产品动作，选型逻辑会变。",
+      "tags": [
+        "Qwen",
+        "Codex",
+        "Cursor",
+        "订阅"
+      ],
+      "title": "阿里 Qwen Token Plan：一订阅打通 Claude Code/Codex/Cursor 等",
+      "rank": 11
+    },
+    {
+      "id": "2078993294642594080",
+      "author": "JulianGoldieSEO",
+      "author_bio": "Make money with AI 👉 https://t.co/Ppmk5h9rw3\nFree SEO Strategy Session → https://t.co/wRv8ROcoTP",
+      "text": "China just dropped the biggest open AI model ever... and I already replaced part of my Agent OS with it.\n\nMost people are still comparing chatbots. They're missing what happens when you plug this into real AI workflows.\n\nWhat Kimi K3 actually brings:\n\n→ 2.8 trillion parameters, making it the largest open-weight model released.\n\n→ Up to a 1M token context window, up from 256K.\n\n→ Beats Claude Opus 4.8 on multiple benchmarks.\n\nWhere it surprised me:\n\n✓ #1 on the Design Arena leaderboard.\n\n✓ Huge leap in 3D game generation compared to the previous Kimi release.\n\n✓ Agent workflows ran smoothly inside Hermes with memory and existing automations.\n\nReality check:\n\n✔ Website generation still looks generic without good prompts.\n\n✔ Add proper design instructions and the quality jumps immediately.\n\nThe biggest advantage isn't the benchmark.\n\nIt's being able to swap frontier models into your own Agent OS the day they launch instead of waiting for one AI company to catch up.",
+      "url": "https://x.com/i/status/2078993294642594080",
+      "created_at": "2026-07-20T00:00:01Z",
+      "likes": 3,
+      "views": "1403",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2078776247568732160/vid/avc1/480x270/ay-fdBwnHkDStZaB.mp4?tag=29"
+      ],
+      "summary": "作者称 K3 为最大开源权重模型之一（2.8T、上下文至 1M），多基准超过 Claude Opus 4.8；Design Arena 第一、3D 游戏生成跃升，Hermes 里 agent 工作流顺。网站生成仍需好设计指令。最大优势是当日即可换进自有 Agent OS，不必等单一厂商。",
+      "recommend_reason": "开源旗舰进真实工作流的即时替换叙事。",
+      "tags": [
+        "Kimi K3",
+        "开源",
+        "Agent",
+        "评测"
+      ],
+      "title": "Kimi K3 开源权重接入 Agent OS：2.8T、1M 上下文",
+      "rank": 12
+    },
+    {
+      "id": "2078992778449850769",
+      "author": "levie",
+      "author_bio": "ceo @box - your business lives in content. unleash it with AI",
+      "text": "In a world where there are strong open source alternatives that are only just behind the frontier models, you make yourself less secure and competitive by gatekeeping access to frontier model capabilities.\n\nIf you play this out, even if America could fully ban access to open source models, other ecosystems wouldn't have that ban and they'd have a leg up on access to those models. They could use them against us -or just use them to better defend themselves- and our own companies wouldn't be able to keep up.\n\nThe calculus of what you do about AI regulation simply must change to account for the fact that open weights models are far stronger than many expected.",
+      "url": "https://x.com/i/status/2078992778449850769",
+      "created_at": "2026-07-19T23:57:58Z",
+      "likes": 179,
+      "views": "32286",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "Box CEO：在开源只落后前沿一点点时，锁死前沿能力反而更不安全、更没竞争力。即便美国全面禁开源，其他生态仍可拿到并用来进攻或自保，美国公司跟不上。AI 监管算账必须承认开源权重模型远比预期更强。",
+      "recommend_reason": "把开源与监管博弈讲成竞争动力学，不是口号。",
+      "tags": [
+        "开源",
+        "监管",
+        "产业",
+        "竞争"
+      ],
+      "title": "强开源近在咫尺时，封锁前沿模型只会让自家更不设防",
+      "rank": 13
+    },
+    {
+      "id": "2078992168581284106",
+      "author": "GoSailGlobal",
+      "author_bio": "Show In Public ｜ SaaS 出海 ｜ 克尔凯郭尔种草🌿\n\nSkills hub：https://t.co/x1VU8wWNj1\n博客：https://t.co/ajYYIXGqFg\n\n🤝 合作DM：GoSail_AI\n📮：m17551076169@gmail.com\n\nMCN：collab@gosail",
+      "text": "AI 音乐平台 Suno 被黑客攻破，泄露的源码揭开了整个训练数据的来源清单\n\n11.3 万小时 YouTube Music 内容、6.2 万小时 Pond5 音乐、1.2 万小时 Deezer、还有计划爬取 100 万小时播客\n\n这些数字直接写在代码注释里，连藏都没藏\n\n更严重的是 6000 万用户的邮箱、手机号和 Stripe 支付信息也一起泄露了\n\nSuno 的回应是\"去年 11 月已经发现并控制了这次事件\"，但他们没有通知任何用户\n\n这件事的意义远超 Suno 本身：整个 AI 音乐行业的训练数据合法性问题被摆到了台面上\n\nSpotify 刚删了 7500 万首 AI 歌曲，现在 Suno 的源码证实了这些模型到底是怎么训练出来的\n\n当训练数据的来源从\"我们不便透露\"变成了\"黑客帮你透露\"，这个行业的信任危机才刚开始\n\n你还敢把自己的音乐上传到 AI 平台吗？",
+      "url": "https://x.com/i/status/2078992168581284106",
+      "created_at": "2026-07-19T23:55:33Z",
+      "likes": 8,
+      "views": "1703",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNoQW_7bUAANKN2.jpg"
+      ],
+      "summary": "AI 音乐平台 Suno 被攻破：源码显示 11.3 万小时 YouTube Music、6.2 万小时 Pond5、1.2 万小时 Deezer、计划爬 100 万小时播客；6000 万用户邮箱手机与 Stripe 信息一并泄露。公司称去年 11 月已控制但未通知用户。训练数据合法性被摆上台面，信任危机刚开始。",
+      "recommend_reason": "训练数据与隐私双重暴雷，行业合规分水岭事件。",
+      "tags": [
+        "Suno",
+        "安全",
+        "训练数据",
+        "合规"
+      ],
+      "title": "Suno 源码泄露训练数据清单与 6000 万用户信息",
+      "rank": 14
+    },
+    {
+      "id": "2078987522927972695",
+      "author": "elonmusk",
+      "author_bio": "Starmind",
+      "text": "Try Grok 4.5!",
+      "url": "https://x.com/i/status/2078987522927972695",
+      "created_at": "2026-07-19T23:37:05Z",
+      "likes": 3289,
+      "views": "1472149",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "试试 Grok 4.5！",
+      "recommend_reason": "马斯克亲自推 Grok 4.5，传播与产品信号合一。",
+      "tags": [
+        "Grok 4.5",
+        "xAI",
+        "产品"
+      ],
+      "rank": 15
+    }
+  ],
+  "generated_at": "2026-07-20T04:03:26Z",
+  "selection": {
+    "target_count": 30,
+    "max_count": 30,
+    "per_run_max": 15,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 15,
+    "last_batch_added": 15,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤15；单日≤30不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
