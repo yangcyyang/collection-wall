@@ -9,6 +9,339 @@
   },
   "items": [
     {
+      "id": "2079230029201031357",
+      "author": "abskoop",
+      "author_bio": "🔍 挖掘互联网宝藏工具｜AI 工具 · 开源项目 · 在线工具 · 效率神器\n投稿 欢迎 DM｜备用号 @ahhhhfs\n🔔 TG 频道：https://t.co/OmSvNms9yl",
+      "text": "推荐一款干净好用的免费工具：AI YouTube Transcript\n\n免费、无需注册，直接粘贴 YouTube 链接就能提取视频已有的公开字幕。\n\n支持关键词搜索、点击时间戳跳转，还能一键导出 TXT / SRT / VTT。\n\n适合做笔记、内容整理、字幕处理。",
+      "url": "https://x.com/i/status/2079230029201031357",
+      "created_at": "2026-07-20T15:40:43Z",
+      "likes": 8,
+      "views": "2218",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNroOXiaUAAIYSS.jpg"
+      ],
+      "summary": "推荐免费工具 AI YouTube Transcript：无需注册，粘贴链接提取已有公开字幕；支持关键词搜索、时间戳跳转，导出 TXT/SRT/VTT，适合笔记与内容整理。",
+      "recommend_reason": "干净可复用的字幕工具，内容工作流刚需。",
+      "tags": [
+        "工具",
+        "YouTube",
+        "字幕",
+        "免费"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2079226156155568515",
+      "author": "levie",
+      "author_bio": "ceo @box - your business lives in content. unleash it with AI",
+      "text": "Depending on which path is taken here, this would be very unfortunate. In the more extreme bans, we would be asymmetrically disadvantaging ourselves. \n\nAmerica would reduce the options for AI models in our market, whereas the rest of the world would keep gaining access to both closed and open models. \n\nWe’d have fewer options for driving down the cost of AI, tuning models to industry-specific use-cases, improving the security of systems, and keeping competitive dynamics going to keep pushing the frontier of research. All bad outcomes.\n\nThis should at least be a wake up call for American OSS investment.",
+      "url": "https://x.com/i/status/2079226156155568515",
+      "created_at": "2026-07-20T15:25:20Z",
+      "likes": 48,
+      "views": "8409",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "Box CEO：路径若走极端禁令，美国将减少可选 AI 模型，世界其他地区仍能同时获得闭源与开源；美国更难压低成本、按行业微调、加强安全与保持研究竞争。至少应唤醒美国对开源软件投资的重视。",
+      "recommend_reason": "从成本与竞争动态补全禁令的副作用清单。",
+      "tags": [
+        "开源",
+        "监管",
+        "产业",
+        "美国"
+      ],
+      "title": "更极端的禁令会不对称伤美国：选项更少、成本更高、竞争变钝",
+      "rank": 2
+    },
+    {
+      "id": "2079225776545968166",
+      "author": "zarazhangrui",
+      "author_bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "text": "There are basically two kinds of companies now. The ones built before coding agents showed up, scrambling to retrofit. And the ones founded after. \n\nThe second type is different from day one:\n- Teams under ten people because they actually don't need more\n- Work organized by projects, not departments\n- Each person closes their own loop\n- Almost no internal meetings",
+      "url": "https://x.com/i/status/2079225776545968166",
+      "created_at": "2026-07-20T15:23:49Z",
+      "likes": 41,
+      "views": "1846",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "作者：coding agent 出现前创立的公司忙于改造；之后创立的从第一天就不同——团队常不到十人、按项目而非部门组织、每人闭环自己的活、几乎没有内部会。",
+      "recommend_reason": "组织设计的前/后 agent 分野，创业与改造路径对照清晰。",
+      "tags": [
+        "Coding Agent",
+        "组织",
+        "创业",
+        "产品"
+      ],
+      "title": "两类公司：coding agent 前后创立，组织形态从第一天就不同",
+      "rank": 3
+    },
+    {
+      "id": "2079221588705099788",
+      "author": "nvidia",
+      "author_bio": "The official handle for NVIDIA. Blog: https://t.co/JAn5eKOTBT Support: https://t.co/6ln5FVnA2o All our social media: https://t.co/Uc56dL57Dh",
+      "text": "NVIDIA is advancing graphics and simulation with agentic and physical AI at #SIGGRAPH2026.\n\nFrom open models to real-time simulation, AI and graphics breakthroughs are transforming media, content creation, and robotics.\n\nRead the latest announcements. 👇\nhttps://t.co/TuuwW8QdkH https://t.co/Dywx9XGdJI",
+      "url": "https://x.com/i/status/2079221588705099788",
+      "created_at": "2026-07-20T15:07:11Z",
+      "likes": 131,
+      "views": "20390",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2079221565019865088/vid/avc1/508x270/YHX_U1q_fE7XcZYZ.mp4?tag=14"
+      ],
+      "summary": "英伟达称在 SIGGRAPH2026 以 agentic AI 与物理 AI 推进图形与仿真：从开源模型到实时仿真，AI 与图形突破正在改变媒体、内容创作与机器人。",
+      "recommend_reason": "官方信号：图形管线与机器人仿真正在被 agent 化。",
+      "tags": [
+        "NVIDIA",
+        "Agent",
+        "仿真",
+        "机器人"
+      ],
+      "title": "NVIDIA SIGGRAPH2026：用 agentic 与物理 AI 推图形与仿真",
+      "rank": 4
+    },
+    {
+      "id": "2079221234718630178",
+      "author": "Khazix0918",
+      "author_bio": "愿我们永远对世界保持好奇。\n公众号：数字生命卡兹克",
+      "text": "可能很多人不知道，其实现在做代码Review最牛逼的，是ChatGPT网页版上的GPT-5.6 Sol Pro模式。\n其Review水平和深度，让Fable 5都甘拜下风。。。 https://t.co/Cc48oQdR16",
+      "url": "https://x.com/i/status/2079221234718630178",
+      "created_at": "2026-07-20T15:05:47Z",
+      "likes": 67,
+      "views": "11113",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNrgMLUbsAAOume.jpg"
+      ],
+      "summary": "可能很多人不知道，现在做代码 Review 最牛的是 ChatGPT 网页版上的 GPT-5.6 Sol Pro 模式。其 Review 水平和深度让 Fable 5 都甘拜下风。",
+      "recommend_reason": "垂直场景（Code Review）的体感对比，选型别只看通用榜。",
+      "tags": [
+        "GPT-5.6 Sol",
+        "Fable 5",
+        "评测",
+        "Code Review"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2079217955737637352",
+      "author": "zarazhangrui",
+      "author_bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "text": "A pattern I keep seeing: the most AI-driven employees pay for the best tools out of pocket. Which means if the company doesn't provide them, your best people are piping company data into external tools on personal cards",
+      "url": "https://x.com/i/status/2079217955737637352",
+      "created_at": "2026-07-20T14:52:45Z",
+      "likes": 86,
+      "views": "5280",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "作者反复看到：最 AI 驱动的员工自费买最好的工具；公司不提供时，最优秀的人会用个人卡把公司数据送进外部工具。",
+      "recommend_reason": "企业 AI 采购与数据安全的真实摩擦点，管理侧必看。",
+      "tags": [
+        "企业AI",
+        "安全",
+        "工具",
+        "组织"
+      ],
+      "title": "AI 驱动员工自掏腰包买工具：公司不配则数据流进个人卡外置服务",
+      "rank": 6
+    },
+    {
+      "id": "2079217040880279691",
+      "author": "bindureddy",
+      "author_bio": "CEO of @abacusai - the world’s first AI super assistant and a powerful AI SuperComputer for professionals & enterprises, open-source AI zealot, ex-AWS & Google",
+      "text": "Wow - woke up to some really bad news \n\nThe nightmare scenario is coming true - the US may ban open source models \n\nEurope and China will dominate the global AI market and kill the US - If this happens",
+      "url": "https://x.com/i/status/2079217040880279691",
+      "created_at": "2026-07-20T14:49:07Z",
+      "likes": 197,
+      "views": "7749",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "作者称醒来看到坏消息：美国可能禁止开源模型。若成真，欧洲与中国将主导全球 AI 市场并削弱美国。",
+      "recommend_reason": "开源禁令议题升温时的一线从业者反应，政策风向标。",
+      "tags": [
+        "开源",
+        "监管",
+        "产业",
+        "美国"
+      ],
+      "title": "噩梦成真：美国或禁开源模型，作者称将拱手让出全球 AI 市场",
+      "rank": 7
+    },
+    {
+      "id": "2079216152342073756",
+      "author": "lxfater",
+      "author_bio": "我在用 AI 协助我创业，走向自由 github 维护 3w star 项目，写过 1200w 浏览文章，公众号：铁锤人 微信：tiechuiren101，📮：lxfater@gmail.com",
+      "text": "多亏了Kimi K3,  fable突然间安全到可以长期使用了🤣",
+      "url": "https://x.com/i/status/2079216152342073756",
+      "created_at": "2026-07-20T14:45:35Z",
+      "likes": 7,
+      "views": "1208",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "多亏了 Kimi K3，Fable 突然间安全到可以长期使用了。",
+      "recommend_reason": "竞品压力改写订阅安全预期的轻松吐槽，产业侧真实。",
+      "tags": [
+        "Kimi K3",
+        "Fable 5",
+        "竞争",
+        "订阅"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2079212777395073353",
+      "author": "jxnlco",
+      "author_bio": "vibes @openai",
+      "text": "Is it that models have a soul and we suppress like others bring it out. \n\nOr have others trained a soul into the model.",
+      "url": "https://x.com/i/status/2079212777395073353",
+      "created_at": "2026-07-20T14:32:10Z",
+      "likes": 71,
+      "views": "4959",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "模型是本来有灵魂被我们压抑、而有些人能把它引出来？还是别人把灵魂训练进了模型？",
+      "recommend_reason": "对齐与角色扮演之争的哲学短问，引发对调教路径的思考。",
+      "tags": [
+        "对齐",
+        "模型",
+        "社区"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2079212152561537412",
+      "author": "xiaoxiaodong01",
+      "author_bio": "国际，不知名，顶级图片提示词专家\n遇事不决 可问东风\n月亮岛边上的AI爱好者 星球+\nWeChat:：newbe2012",
+      "text": "GPT2 x 商业 x 海报 x 活动 x 美学提示词\n\n随机调取了，这一周，自己优化的海报提示词\n\n是有点东西了~\n\n真可以直接用了！\n\n比如我是一个老总，公司要举办活动或者会议\n从中调取自己喜欢的风格\n\n加上活动文字相关信息\n嘉宾之类的图片信息\n配合提示词\n\n轻松获取自己满意的活动海报！！！\n\n这周也要开源几十组，该赛道的出来~爱了爱了",
+      "url": "https://x.com/i/status/2079212152561537412",
+      "created_at": "2026-07-20T14:29:41Z",
+      "likes": 9,
+      "views": "889",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNrXKDPbQAAtIpB.jpg",
+        "https://pbs.twimg.com/media/HNrXMPPaMAA6I6u.jpg",
+        "https://pbs.twimg.com/media/HNrXNR8aYAAwXAB.jpg",
+        "https://pbs.twimg.com/media/HNrXN9sbUAEMFNe.jpg"
+      ],
+      "summary": "GPT2 x 商业 x 海报 x 活动 x 美学提示词。本周优化的海报提示词已可直接用：选风格 + 活动文字与嘉宾图，配合提示词轻松出活动海报。本周也会开源几十组相关提示词。",
+      "recommend_reason": "活动海报可直接落地的提示词路径，商务场景刚需。",
+      "tags": [
+        "提示词",
+        "图像生成",
+        "产品"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2079211860512190966",
+      "author": "xiaohu",
+      "author_bio": "带你了解全球最前沿科技、AI动态...\n\nAI 精华，讲到你懂：https://t.co/nvuDIvoNg1",
+      "text": "中国 AI 模型追上美国前沿了吗？\n中美 AI 差距到底如何？\n\n之暗面放出 2.8 万亿参数的 Kimi K3 之后，很多人都认为「中国 AI 追平美国了」\n\n甚至有人说只差45天...\n\n scaling01 独立分析者 Lisan al Gaib 用 Epoch 的能力指数（ECI）重新评测一轮：\n\n中美AI差距不是 45 天，是 160 天（近6个月）\n\nhttps://t.co/cgsgVIdPyU",
+      "url": "https://x.com/i/status/2079211860512190966",
+      "created_at": "2026-07-20T14:28:32Z",
+      "likes": 14,
+      "views": "5863",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "Kimi K3 2.8T 放出后有人说中国已追平、只差 45 天。独立分析者用 Epoch 能力指数（ECI）复评：中美差距约 160 天（近 6 个月），不是 45 天。",
+      "recommend_reason": "用公开能力指数降温「追平」叙事，数字可核对。",
+      "tags": [
+        "Kimi K3",
+        "评测",
+        "中美",
+        "产业"
+      ],
+      "title": "ECI 复评：中美 AI 差距约 160 天，不是 45 天",
+      "rank": 11
+    },
+    {
+      "id": "2079211489844695366",
+      "author": "taiyo_ai_gakuse",
+      "author_bio": "AI Agent領域で大阪万博登壇。Solo-built kirigami hit $60,000 ARR. 100人規模の「AI PLAY GUILD」代表 https://t.co/RIpQYkIB3X MCP展開中。大学生",
+      "text": "Claude CodeやCodex、Cursorにこのskillsを入れるだけで下記のようなスライドが作れる。\n\nプロのデザイナーによりhtml2pptx skillsのスライドテンプレートを拡充中。👀\n\n自社テンプレートカスタム機能も近日中に公開します！\nhttps://t.co/ZjQ8XkUl7D",
+      "url": "https://x.com/i/status/2079211489844695366",
+      "created_at": "2026-07-20T14:27:03Z",
+      "likes": 20,
+      "views": "1976",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "在 Claude Code、Codex、Cursor 里装这些 skills 就能做出如下幻灯片。专业设计师正扩充 html2pptx skills 的模板；自社模板自定义功能近日公开。",
+      "recommend_reason": "可安装的幻灯片 skill 链路，多端 IDE 可复用。",
+      "tags": [
+        "Skill",
+        "Codex",
+        "Cursor",
+        "PPT"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2079208964248506534",
+      "author": "vista8",
+      "author_bio": "喜欢摇滚乐、爱钓鱼的PM",
+      "text": "learnui 网站更新了，把getdesign的74个知名网站都用k3生成了预览。\n\n如果以后不知道网站用什么风格，可以学习参考。\n\n另外技巧，要求AI给网站增加PWA支持，这样能把网站安装为MacOS应用，提升打开率。\n\n网站地址：https://t.co/ghcv9j70D8 https://t.co/Nx0G74qYwI",
+      "url": "https://x.com/i/status/2079208964248506534",
+      "created_at": "2026-07-20T14:17:01Z",
+      "likes": 16,
+      "views": "2764",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNrVFxRXYAAI-pr.jpg"
+      ],
+      "summary": "learnui 网站更新，把 getdesign 的 74 个知名网站都用 K3 生成了预览，方便学风格。另：让 AI 给网站加 PWA，可安装为 macOS 应用提升打开率。",
+      "recommend_reason": "K3 批量复刻风格库 + PWA 安装小技巧，设计与分发双收益。",
+      "tags": [
+        "Kimi K3",
+        "设计",
+        "前端",
+        "PWA"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2079208557275427186",
+      "author": "lixinbao_X",
+      "author_bio": "原金融从业者，现在基本全职自媒体人，使用AI技术赋能，2025年5月份到现在粉丝从零涨到：微信视频号 40 万，抖音25 万，B站 2 万，小红书 6 万。百度1.5万，快手及其他加总还有 2 万左右。全网粉丝数破 75 万。 我会在这里分享我作品，及相关制作经验技巧和心得。",
+      "text": "我个人觉得在 AI 时代\n\n与其是看各种教程\n\n或者是进各种各样的付费社群\n\n真不如花 200 美金去买一个 Codex 的会员\n\n真正用起来\n\n把你脑袋里的各种奇思妙想让 Codex 实现\n\n比上任何付费课程、进任何付费社群都管用。",
+      "url": "https://x.com/i/status/2079208557275427186",
+      "created_at": "2026-07-20T14:15:24Z",
+      "likes": 11,
+      "views": "607",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "AI 时代与其看各种教程、进付费社群，真不如花 200 美金买 Codex 会员，真正用起来，把脑子里的奇思妙想让 Codex 实现，比任何付费课和社群都管用。",
+      "recommend_reason": "反课程消费主义的实践派建议，对照成本很直接。",
+      "tags": [
+        "Codex",
+        "学习",
+        "订阅",
+        "体验"
+      ],
+      "rank": 14
+    },
+    {
+      "id": "2079206653493383420",
+      "author": "lixinbao_X",
+      "author_bio": "原金融从业者，现在基本全职自媒体人，使用AI技术赋能，2025年5月份到现在粉丝从零涨到：微信视频号 40 万，抖音25 万，B站 2 万，小红书 6 万。百度1.5万，快手及其他加总还有 2 万左右。全网粉丝数破 75 万。 我会在这里分享我作品，及相关制作经验技巧和心得。",
+      "text": "这两天，我把视频制作的工作流彻底重构了一下。\n\n之前使用 Hermes，后来又用 Codex 拼拼凑凑，勉强能跑，但中间的冗余环节太多了，导致整个流程出现了很多内耗和自我博弈打架的情况。修修补补下来发现还是不行，最后只能让它在学习原有工作流的基础上，彻底进行重构。\n\n最近这两天，我一直在花大量的时间，让它帮我梳理整个工作流的系统架构。光是系统架构层面，我就花了两天时间，让它反反复复地进行修改和调整，同时把中间各种环节给调顺。这个逻辑架构一旦调顺了之后，后面就可以设置个目标，让它自己去搭建了。\n\n我觉得，工作流前期的流程架构，一定是我们需要重度参与的环节。至于架构打好之后，后面的实现端，其实 Codex 实现起来比我要好得多得多。",
+      "url": "https://x.com/i/status/2079206653493383420",
+      "created_at": "2026-07-20T14:07:50Z",
+      "likes": 12,
+      "views": "593",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "作者用 Hermes/Codex 拼流程冗余内耗后彻底重构。花两天反复梳理系统架构、理顺环节；架构顺了再设目标让它自建。结论：前期流程架构要人重度参与，实现端 Codex 往往强于自己。",
+      "recommend_reason": "人机分工边界说得清楚：架构归人、实现归 agent。",
+      "tags": [
+        "Codex",
+        "工作流",
+        "Agent",
+        "工程"
+      ],
+      "title": "视频工作流重构：架构必须人重度参与，实现交给 Codex",
+      "rank": 15
+    },
+    {
       "id": "2079046240957014210",
       "author": "dingyi",
       "author_bio": "promote your product  ‣ dingyi@me.com\nnewsletter ‣ https://t.co/q1JG1yCzdb\nrefine your startup ‣ https://t.co/FfUYboxOr5\nnewest product ‣ https://t.co/cP6NQ3keo",
@@ -27,7 +360,7 @@
         "代际",
         "工具"
       ],
-      "rank": 1
+      "rank": 16
     },
     {
       "id": "2079039533715521984",
@@ -47,7 +380,7 @@
         "工作流",
         "Agent"
       ],
-      "rank": 2
+      "rank": 17
     },
     {
       "id": "2079038592827937199",
@@ -71,7 +404,7 @@
         "WAIC"
       ],
       "title": "中国气象局「风和」大模型启动全球开源计划",
-      "rank": 3
+      "rank": 18
     },
     {
       "id": "2079037351129694309",
@@ -93,7 +426,7 @@
         "安全"
       ],
       "title": "中转站模型可能被调包：让 AI 报随机数当指纹",
-      "rank": 4
+      "rank": 19
     },
     {
       "id": "2079032553273762257",
@@ -114,7 +447,7 @@
         "成本",
         "产业"
       ],
-      "rank": 5
+      "rank": 20
     },
     {
       "id": "2079024245401911421",
@@ -136,7 +469,7 @@
         "评测"
       ],
       "title": "Kimi K3 挖网络安全问题强过被削的 Fable/Sol",
-      "rank": 6
+      "rank": 21
     },
     {
       "id": "2079023486580801588",
@@ -160,7 +493,7 @@
         "手机"
       ],
       "title": "手机可跑 27B：PrismML 把模型压到 3.9GB 离线推理",
-      "rank": 7
+      "rank": 22
     },
     {
       "id": "2079015550622331349",
@@ -181,7 +514,7 @@
         "体验",
         "文风"
       ],
-      "rank": 8
+      "rank": 23
     },
     {
       "id": "2079013991834337774",
@@ -205,7 +538,7 @@
         "产品"
       ],
       "title": "Codex 跑任务时用吃豆人状态：忙着吃、做完变绿",
-      "rank": 9
+      "rank": 24
     },
     {
       "id": "2078995815037821084",
@@ -231,7 +564,7 @@
         "ChatGPT",
         "Grok"
       ],
-      "rank": 10
+      "rank": 25
     },
     {
       "id": "2078993319343046771",
@@ -255,7 +588,7 @@
         "订阅"
       ],
       "title": "阿里 Qwen Token Plan：一订阅打通 Claude Code/Codex/Cursor 等",
-      "rank": 11
+      "rank": 26
     },
     {
       "id": "2078993294642594080",
@@ -279,7 +612,7 @@
         "评测"
       ],
       "title": "Kimi K3 开源权重接入 Agent OS：2.8T、1M 上下文",
-      "rank": 12
+      "rank": 27
     },
     {
       "id": "2078992778449850769",
@@ -301,7 +634,7 @@
         "竞争"
       ],
       "title": "强开源近在咫尺时，封锁前沿模型只会让自家更不设防",
-      "rank": 13
+      "rank": 28
     },
     {
       "id": "2078992168581284106",
@@ -325,7 +658,7 @@
         "合规"
       ],
       "title": "Suno 源码泄露训练数据清单与 6000 万用户信息",
-      "rank": 14
+      "rank": 29
     },
     {
       "id": "2078987522927972695",
@@ -345,10 +678,10 @@
         "xAI",
         "产品"
       ],
-      "rank": 15
+      "rank": 30
     }
   ],
-  "generated_at": "2026-07-20T04:03:26Z",
+  "generated_at": "2026-07-20T16:03:37Z",
   "selection": {
     "target_count": 30,
     "max_count": 30,
@@ -356,10 +689,10 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 15,
+    "actual_count": 30,
     "last_batch_added": 15,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
