@@ -1,0 +1,396 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-21",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2079402164988895293",
+      "author": "levie",
+      "author_bio": "ceo @box - your business lives in content. unleash it with AI",
+      "text": "Multi-model agentic systems clearly are the future. Great post by cursor. Their new research shows that a frontier model as a planner and orchestrator with a workhorse cheaper model can materially lower the cost of total tokens on a project, resulting in a 15X cost improvement.\n\n“Few moments in a large task genuinely require frontier intelligence, such as the original decomposition, the design decisions, and certain trade-offs. Once a frontier planner has collapsed the ambiguity into a detailed, explicit instruction, less expensive models simply have to follow it.”\n\nThis is increasingly becoming the core design pattern of complex agents, because the tokens used on large amounts of work on many tasks don’t require the same intelligence threshold as the planning step. By routing to different models based on where you are in the task, you get much greater efficiency overall. \n\nThis provides the template for where the applied layer in AI will differentiate. You can only drive this efficiency if you know the domain well and have the ability to work with multiple model tiers; companies that can do this will across coding, finance, legal, healthcare, life sciences, and other critical spaces will be in a strong position to get larger workloads that would otherwise be too expensive for the customer to deploy.",
+      "url": "https://x.com/i/status/2079402164988895293",
+      "created_at": "2026-07-21T03:04:44Z",
+      "likes": 44,
+      "views": "9443",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "Box CEO 点评 Cursor 研究：多模型 agent 是方向——用前沿模型做规划/编排，用更便宜的 workhorse 执行，可显著降低项目总 token 成本（文中称约 15 倍）。大任务中真正需要前沿智能的节点少，一旦规划把歧义压成明确指令，便宜模型足以执行；按任务阶段路由模型，是应用层差异化与控制成本的关键能力。",
+      "recommend_reason": "把「规划贵、执行便宜」讲成可落地架构，对 agent 产品成本结构很关键。",
+      "tags": [
+        "Cursor",
+        "多模型",
+        "Agent",
+        "成本",
+        "编排",
+        "Box"
+      ],
+      "title": "Cursor 研究：前沿模型规划+廉价模型执行，项目 token 成本可降约 15 倍",
+      "rank": 1
+    },
+    {
+      "id": "2079399859531252028",
+      "author": "op7418",
+      "author_bio": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design）\n\n歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "text": "特朗普正在尝试限制甚至禁止中国顶尖的 AI 模型。比如去年，他们就想把多个中国 AI 实验室和大学实验室列入实体清单。\n\n他们想通过采购规则、实体清单和舆论压制等“软封锁”手段，来降低中国顶尖模型在美国企业中的采用率。\n\n但这个说法跟前几天 OpenAI 新的战略分析负责人提出的一些方法是一致的，感觉整篇报道是拼凑出来的：\n\n就是有一些捕风捉影的传言，加上当时 OpenAI 新任分析负责人披露的信息，最后拼凑出了这么一篇报道。",
+      "url": "https://x.com/i/status/2079399859531252028",
+      "created_at": "2026-07-21T02:55:34Z",
+      "likes": 6,
+      "views": "4913",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNuCqoCbwAASV-2.jpg"
+      ],
+      "summary": "归藏转述并质疑：特朗普团队试图限制中国顶尖 AI 模型在美采用，手段包括采购规则、实体清单与舆论压制等「软封锁」；同时提醒报道或混杂传言与 OpenAI 新任战略分析负责人公开信息，需交叉验证。",
+      "recommend_reason": "模型竞争进入政策与采购层，读信源时要拆清事实与拼凑叙事。",
+      "tags": [
+        "地缘政治",
+        "中国AI",
+        "实体清单",
+        "OpenAI",
+        "产业"
+      ],
+      "title": "美方或用实体清单与采购规则软封锁中国顶尖 AI 模型",
+      "rank": 2
+    },
+    {
+      "id": "2079398398080500063",
+      "author": "op7418",
+      "author_bio": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design）\n\n歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "text": "昨天 Twitter 上讨论最热的一条内容，超过了两千万次浏览。\n\nAnthropic 的一个数学家用 Fable 5 随手证明了一个雅可比猜想的反例。\n\n这个猜想 87 年来一直没有人能证明是对是错，甚至还上过 21 世纪 18 大数学难题名单。\n\n随后，OpenAI 的人在他们内部的 Codex 版本（不联网的版本）中，也独立证明了类似的反例。\n\n这说明这确实是 Fable 5或者更高等级的 GPT 模型可以独立证明出来的数学难题。\n\n而且 有意思的事，这个问题一直是张益唐博士的博士论文想要解决的问题。\n\n当时张益唐因为他教授提出的一个引理，试图从这个方向去解决这个题，结果一直无法证明，导致毕业后长期找不到工作，只能在快餐店打工，甚至无家可归。\n\n后来他靠证明“素数间的有界间隙”才一举成名。\n\n很有意思的是，当年他的导师给了他一个错误的引理去证明这事，而现在 AI 随手就给解决了。顺便大家还讨论了一下学术界“有毒导师”的问题。\n\n这明明是一个非常难的数学问题，但这哥们儿就随手发了一条推特，里面只有一串公式，没有什么期刊，也没有什么论文，甚至连 Twitter 的字符限制都没超过，而且还获得了两千万的浏览量。从传播学上也是一个非常值得讨论的例子。",
+      "url": "https://x.com/i/status/2079398398080500063",
+      "created_at": "2026-07-21T02:49:46Z",
+      "likes": 15,
+      "views": "5774",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNuBmbNbcAAFB_C.jpg"
+      ],
+      "summary": "归藏梳理热议：Anthropic 数学家用 Fable 5 给出雅可比猜想反例（该猜想困扰约 87 年）；OpenAI 侧在不联网的内部 Codex 也独立证出类似反例。讨论还勾连张益唐博士论文曾卡在相关方向、以及「有毒导师」话题；问题本身极难，却以一条公式推特获数千万浏览，传播路径同样值得看。",
+      "recommend_reason": "前沿模型冲击数学难题的传播事件，也是「AI 能否做硬科学」的舆论切片。",
+      "tags": [
+        "Fable 5",
+        "数学",
+        "雅可比猜想",
+        "Anthropic",
+        "OpenAI",
+        "科研"
+      ],
+      "title": "Fable 5 被称随手证出雅可比猜想反例，OpenAI 内部也独立复现",
+      "rank": 3
+    },
+    {
+      "id": "2079386113064739073",
+      "author": "xiaohu",
+      "author_bio": "带你了解全球最前沿科技、AI动态...\n\nAI 精华，讲到你懂：https://t.co/nvuDIvoNg1",
+      "text": "努力打造、完善自己的业务\n\n而不是天天疲于追逐什么更新的模型\n\n管好你的注意力",
+      "url": "https://x.com/i/status/2079386113064739073",
+      "created_at": "2026-07-21T02:00:57Z",
+      "likes": 31,
+      "views": "3465",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "努力打造、完善自己的业务，而不是天天疲于追逐什么更新的模型。管好你的注意力。",
+      "recommend_reason": "模型焦虑的解药：注意力回到业务闭环，而不是版本号。",
+      "tags": [
+        "注意力",
+        "产品",
+        "模型焦虑",
+        "方法论"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2079381435732160899",
+      "author": "Khazix0918",
+      "author_bio": "愿我们永远对世界保持好奇。\n公众号：数字生命卡兹克",
+      "text": "啊？开着GPT-5.6 Sol Ultra干个AIHOT的聚类工程任务，因为发现现在市面上SOTA的论文效果也不是很好，于是让它自己去做知识图谱和数学层面的底层突破，目标希望能在聚类算法上达到SOTA。\n然后，跑了6个小时，直接给我还剩92%的Codex周额度蹬完了...尼玛？？？ https://t.co/rVwYFxqMD7",
+      "url": "https://x.com/i/status/2079381435732160899",
+      "created_at": "2026-07-21T01:42:21Z",
+      "likes": 53,
+      "views": "19498",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNtxfW_bsAAO0MC.png"
+      ],
+      "summary": "啊？开着 GPT-5.6 Sol Ultra 干个 AIHOT 的聚类工程任务，因为发现现在市面上 SOTA 的论文效果也不是很好，于是让它自己去做知识图谱和数学层面的底层突破，目标希望能在聚类算法上达到 SOTA。然后，跑了 6 个小时，直接给我还剩 92% 的 Codex 周额度蹬完了...尼玛？？？",
+      "recommend_reason": "长程 agent 任务把周额度烧光的真实账单，提醒设预算与止损。",
+      "tags": [
+        "Codex",
+        "GPT-5.6 Sol",
+        "额度",
+        "Agent",
+        "聚类",
+        "成本"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2079375927767871665",
+      "author": "yaojingang",
+      "author_bio": "AI营销与教育科技创业者  \n持续开源GEOFlow / YAO Skills / AI Tools  \n周更《姚金刚认知随笔》：https://t.co/IOUcygwMdR",
+      "text": "经好友拔刀刘同意，将他们近期抓取的国内各大AI平台数据集进行开源\n清洗后的数据集、论文预印本以及第一份分析报告，已推送到GitHub仓库，地址见评论区\n\n这应该是面向国内各大AI平台的最新、最全的一份公开GEO原始数据集\n包括了豆包、DeepSeek、元宝、千问、Kimi、文心、百度AI等8个AI平台的AI搜索结果、信源特征数据\n\n这份数据包括：\n1、620 个标准问题，覆盖 6 个研究维度、31 种有效问题类型，包括行业、提问意图、提示风格、时间敏感度、触发强度和极端真实场景；\n2、214,119 条 AI 引用观察，精确去重后保留 189,845 条。这里统计的是回答中的引用来源与摘要，现有数据不含完整回答原文；\n3、引用记录归并为 9,878 个规范域名信源、107,659 个规范页面；211,248 条记录带有效 HTTP URL，占 98.66%；\n4、信源按 9 个一级类型、39 个二级类型完成分类，去重引用的分类覆盖率达到 99.77%；\n5、原始数据、清洗表和分析集市都已保留，可用 JSONL、Parquet 和 DuckDB 直接查询，也附了字段字典、清洗规则和质量报告；\n6、64 个原始分片全部通过 SHA-256 校验，清洗过程保留原值、异常标记和追溯字段，方便复现和继续加工\n\n这几天对数据进行了二次清洗、标注和加工，并输出第一份可视化分析，一些有意思的发现和洞察\n1、各大AI平台的信源头部效应非常明显，Top 10 信源贡献了 41.47% 的去重引用，抖音、腾讯网、今日头条、百度百科排在前四\n2、平台与社区类信源只占 4.68% 的域名，却拿到 29.63% 的去重引用，内容分发平台在 AI 引用生态里的权重很高\n3、品牌与企业官网只贡献 4.33% 的去重引用；加上政府与公共机构，主体自有来源合计 9.06%。品牌自有内容还有很大的可见度空间\n4、跨平台共识并没有想象中高，66 个平台组合中，最高的“问题 × 页面”Jaccard 相似度也只有 34.94%，还有 11 个组合完全没有共享的问题与页面。单个平台的经验不能直接外推到其他平台\n5、内容新鲜度很明显，在发布时间可靠的页面中，88.77% 来自 2025 或 2026 年；29.57% 的页面标题带年份，23.06% 带榜单或排行。时效信号和决策型内容值得继续验证\n\n欢迎留言补充关心的问题，我可以抽空基于这些关心的问题，再做一份数据分析报告",
+      "url": "https://x.com/i/status/2079375927767871665",
+      "created_at": "2026-07-21T01:20:28Z",
+      "likes": 90,
+      "views": "6844",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNtslwPawAAXaxx.jpg",
+        "https://pbs.twimg.com/media/HNtsq9Ra8AA2DMU.jpg",
+        "https://pbs.twimg.com/media/HNts0SobMAIt8B3.jpg",
+        "https://pbs.twimg.com/media/HNttBTZa8AAuEhq.jpg"
+      ],
+      "summary": "经授权开源国内主流 AI 平台 GEO 原始数据（豆包、DeepSeek、元宝、千问、Kimi、文心等 8 家）：620 个标准问题、约 21 万条引用观察（去重后约 19 万）、近万规范域名信源；附清洗表、分析集市与可视化洞察，可 JSONL/Parquet/DuckDB 查询。发现包括头部信源集中、社区分发权重大、跨平台共识低、内容偏新等。",
+      "recommend_reason": "国内 AI 搜索引用生态的可复现底座，做 GEO/内容可见度研究的一手料。",
+      "tags": [
+        "GEO",
+        "数据集",
+        "开源",
+        "AI搜索",
+        "DeepSeek",
+        "Kimi"
+      ],
+      "title": "国内八大 AI 平台 GEO 原始数据集开源：62 万引用观察可复现",
+      "rank": 6
+    },
+    {
+      "id": "2079367218438324367",
+      "author": "OfficialLoganK",
+      "author_bio": "Member of technical staff, working on Gemini, @GoogleAIStudio, the Gemini API, & Kaggle. My views!",
+      "text": "We just landed some big infra upgrades for the Gemini Batch API: \n\n- p95 latency decreased by 80%\n-p99 latency decreased by 68%\n- batch success rate is now &gt;99.998%\n- 98% reduction in batch expirations \n- added support for partial batches\n\ngreat work by the team to land this!!",
+      "url": "https://x.com/i/status/2079367218438324367",
+      "created_at": "2026-07-21T00:45:52Z",
+      "likes": 1050,
+      "views": "55386",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "Gemini Batch API 完成基础设施升级：p95 延迟降 80%、p99 降 68%，批处理成功率超过 99.998%，批过期减少 98%，并支持 partial batches。",
+      "recommend_reason": "批量推理可用性是生产关键指标，这份数字比口号更有参考价值。",
+      "tags": [
+        "Gemini",
+        "Batch API",
+        "Google",
+        "基础设施",
+        "延迟"
+      ],
+      "title": "Gemini Batch API 大幅降延迟：p95 降 80%，成功率超 99.998%",
+      "rank": 7
+    },
+    {
+      "id": "2079317901085941976",
+      "author": "dotey",
+      "author_bio": "AI Engineer, dedicated to learning and disseminating knowledge about AI, software engineering, and engineering management.",
+      "text": "Claude Code 更新加入了屏幕阅读器模式（Screen Reader Mode），让使用 VoiceOver、NVDA 等辅助工具的视障开发者也能用上 AI 编程助手。\n\n启用屏幕阅读器模式后，会把 Claude Code 原来那套终端界面，进度动画、方框边框、实时刷新，全部替换成纯文本逐行输出。屏幕阅读器可以按顺序读出每一行内容，包括你的输入、Claude 的回复、工具调用状态、权限请求，每种内容都有明确的文本标签（you:、claude:、tool:、Permission Required: 等），方便跳转和检索。\n\n原来的菜单和权限确认也做了适配。箭头键选择的菜单变成了编号列表，输入数字回车就行；是否确认变成输入 y/n。Claude 需要你注意的时候，比如回复完成或者等你授权，终端会响铃提醒，不用一直盯着屏幕。\n\n开启方式有三种：\n1. 启动时加 --ax-screen-reader 参数(claude --ax-screen-reader)\n2. 设置环境变量 CLAUDE_AX_SCREEN_READER=1\n3. 或者在配置文件里写 \"axScreenReader\": true。\n\n需要 v2.1.181 或更高版本。\n\n除了屏幕阅读器模式，这次还加了几个相关的无障碍设置：屏幕放大镜用户可以设置环境变量保持原生光标可见，prefersReducedMotion 可以关掉动画，还有专门的色盲友好主题（dark-daltonized 和 light-daltonized）。",
+      "url": "https://x.com/i/status/2079317901085941976",
+      "created_at": "2026-07-20T21:29:54Z",
+      "likes": 18,
+      "views": "14130",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "Claude Code 新增 Screen Reader Mode：把动画/边框/实时刷新的终端 UI 换成纯文本逐行输出，并给输入、回复、工具调用、权限请求打标签，兼容 VoiceOver/NVDA。菜单改编号、确认改 y/n，重要节点响铃；另有光标可见、减少动效、色盲友好主题。开启：`--ax-screen-reader`、环境变量或配置 `axScreenReader`，需 v2.1.181+。",
+      "recommend_reason": "无障碍不是边角料：把 agent CLI 做成可读文本，是真正扩大可用人群。",
+      "tags": [
+        "Claude Code",
+        "无障碍",
+        "可访问性",
+        "开发工具",
+        "Anthropic"
+      ],
+      "title": "Claude Code 上线屏幕阅读器模式，视障开发者可用 AI 编程助手",
+      "rank": 8
+    },
+    {
+      "id": "2079287727413989695",
+      "author": "JulianGoldieSEO",
+      "author_bio": "Make money with AI 👉 https://t.co/Ppmk5h9rw3\nFree SEO Strategy Session → https://t.co/wRv8ROcoTP",
+      "text": "Google quietly gave NotebookLM a major upgrade.\n\nIt is now called Gemini Notebook.\n\nBut the rename is not the real story.\n\nEvery notebook can now get its own secure cloud computer. https://t.co/On9btNNHK3",
+      "url": "https://x.com/i/status/2079287727413989695",
+      "created_at": "2026-07-20T19:30:00Z",
+      "likes": 13,
+      "views": "2057",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2079101276957343744/vid/avc1/480x270/ea2BR-D76oQWvJPe.mp4?tag=29"
+      ],
+      "summary": "有人称 Google 静默升级 NotebookLM 并更名为 Gemini Notebook；更名之外，重点是每个 notebook 可获得独立的安全云电脑环境。",
+      "recommend_reason": "知识笔记本从「读资料」走向「可运行环境」，产品形态变化值得跟。",
+      "tags": [
+        "Gemini Notebook",
+        "Gemini",
+        "Google",
+        "云电脑",
+        "产品"
+      ],
+      "title": "NotebookLM 更名 Gemini Notebook，笔记本可配安全云电脑",
+      "rank": 9
+    },
+    {
+      "id": "2079278653997809984",
+      "author": "NousResearch",
+      "author_bio": "A bunch of nerds making progress toward open source AI\nhttps://t.co/vrD0aDJeto",
+      "text": "Hermes Agent v0.19.0: The Quicksilver Release\n\nChangelog below https://t.co/lu8blWg8RB",
+      "url": "https://x.com/i/status/2079278653997809984",
+      "created_at": "2026-07-20T18:53:56Z",
+      "likes": 2205,
+      "views": "519359",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2079275078831751168/vid/avc1/320x320/SBCGHQQOGwxMLNvS.mp4?tag=29"
+      ],
+      "summary": "Hermes Agent v0.19.0「Quicksilver」版本发布，更新说明见链接。",
+      "recommend_reason": "开源 agent 栈持续迭代，关注 changelog 里的能力跃迁点。",
+      "tags": [
+        "Hermes",
+        "NousResearch",
+        "Agent",
+        "开源",
+        "发布"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2079261553136734239",
+      "author": "elonmusk",
+      "author_bio": "Starmind",
+      "text": "Grok for Excel is now live",
+      "url": "https://x.com/i/status/2079261553136734239",
+      "created_at": "2026-07-20T17:45:59Z",
+      "likes": 12807,
+      "views": "2175754",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "Grok for Excel 现已上线。",
+      "recommend_reason": "Grok 切入办公表格场景，产品覆盖面扩大的一手信号。",
+      "tags": [
+        "Grok",
+        "Excel",
+        "xAI",
+        "产品发布"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2079257735724749188",
+      "author": "python_xxt",
+      "author_bio": "AI | Life | Investing | 思考，是为了不被动地活着",
+      "text": "广而告之\n\nKimi 3 的集群功能，请大家慎用…\n\n我刚发现，我今天的一个调研prompt，直接把我199套餐，全月的额度用光了，一个prompt  199块钱 …\n\n只是跑一个调研…\n🤦‍♂️",
+      "url": "https://x.com/i/status/2079257735724749188",
+      "created_at": "2026-07-20T17:30:49Z",
+      "likes": 42,
+      "views": "16606",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "广而告之：Kimi 3 的集群功能，请大家慎用…我刚发现，我今天的一个调研 prompt，直接把我 199 套餐，全月的额度用光了，一个 prompt 199 块钱 …只是跑一个调研…",
+      "recommend_reason": "集群/高并发能力的真实账单提醒，选型前先算清额度单位。",
+      "tags": [
+        "Kimi",
+        "集群",
+        "额度",
+        "成本",
+        "调研"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2079256626771665098",
+      "author": "AnthropicAI",
+      "author_bio": "We're an AI safety and research company that builds reliable, interpretable, and steerable AI systems. Talk to our AI assistant @claudeai on https://t.co/FhDI3K",
+      "text": "We're offering grants of up to $50,000 in Claude usage credits to researchers accelerating cures for rare diseases.\n\nThis is our first focused call within AI for Science, our program supporting scientists using Claude to speed up discovery. https://t.co/rZEmwh07cd",
+      "url": "https://x.com/i/status/2079256626771665098",
+      "created_at": "2026-07-20T17:26:25Z",
+      "likes": 4700,
+      "views": "597563",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "Anthropic 在 AI for Science 计划下发布首个专项征集：向加速罕见病治疗研究的科研人员提供最高 5 万美元 Claude 用量额度，支持用 Claude 加快发现。",
+      "recommend_reason": "大厂把模型额度做成科研资助，AI for Science 从口号落到可申请资源。",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "AI科研",
+        "罕见病",
+        "资助"
+      ],
+      "title": "Anthropic 面向罕见病研究最高提供 5 万美元 Claude 用量资助",
+      "rank": 13
+    },
+    {
+      "id": "2079245017491640534",
+      "author": "dotey",
+      "author_bio": "AI Engineer, dedicated to learning and disseminating knowledge about AI, software engineering, and engineering management.",
+      "text": "看工作内容吧，对我来说还不行，Opus 4.6 的写作、Opus 4.8 的设计和 Fable 5 对于疑难问题的处理目前都是难以替代的。\n\n昨天我在测试转录一个播客音频的时候，时间戳总是对不上，我把这音频传到火山引擎云端转录，一样会时间戳对不上。\n\n问 GPT 5.6 Sol，它认为是 VAD 切分的问题，修复后仍然不行。\n\n问 Fable 5，它定位到是因为 MP3 是 VBR（变码率）文件，导致时间估算失败。简单修改就解决了这个问题。\n\n类似的问题遇到过几次，比如上一次在做 Speaker 识别，性能不好，也是 Fable 5 搞定的，之前其他模型效果并不好。PR（https://t.co/R6dOHIGneb）\n\n普通场景差距不大，极端场景才能看出来差别。",
+      "url": "https://x.com/i/status/2079245017491640534",
+      "created_at": "2026-07-20T16:40:17Z",
+      "likes": 75,
+      "views": "17634",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "作者认为普通场景多模型差距不大：写作偏 Opus 4.6、设计偏 Opus 4.8、疑难排障偏 Fable 5。播客转录时间戳对不齐时，火山云与 Sol 修 VAD 仍失败；Fable 5 指出 MP3 VBR 导致时间估算错误，改后解决。说话人识别等极端问题也曾靠 Fable 5 过关。",
+      "recommend_reason": "用具体排障案例说明：选模型要看极端场景，而不是平均分。",
+      "tags": [
+        "Fable 5",
+        "Opus",
+        "模型对比",
+        "音频转录",
+        "工程实践"
+      ],
+      "title": "Fable 5 定位 MP3 VBR 导致播客时间戳错位，极端场景显差距",
+      "rank": 14
+    },
+    {
+      "id": "2079239701391675404",
+      "author": "vista8",
+      "author_bio": "喜欢摇滚乐、爱钓鱼的PM",
+      "text": "目前用的最多的AI Coding工具是Codex。\n\n但它的前端审美太差了，发现一个OpenCodex项目。\n\n让你的Codex 随时切换非OpenAI模型。\n\n比如用Kimi K3（OAuth）、Grok 4.5（OAuth） 、GLM 5.2 等。\n\nK3做前端设计，弄好后切 GPT sol5.6 做后端，甚至还能随时切Grok 4.5 搜 X 信息。\n\n这个项目太棒了！\n\n地址见评论区",
+      "url": "https://x.com/i/status/2079239701391675404",
+      "created_at": "2026-07-20T16:19:09Z",
+      "likes": 252,
+      "views": "34731",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNrvna8WYAExiUS.jpg",
+        "https://pbs.twimg.com/media/HNrxTapWgAEPoWV.jpg"
+      ],
+      "summary": "目前用的最多的 AI Coding 工具是 Codex。但它的前端审美太差了，发现一个 OpenCodex 项目。让你的 Codex 随时切换非 OpenAI 模型。比如用 Kimi K3（OAuth）、Grok 4.5（OAuth）、GLM 5.2 等。K3 做前端设计，弄好后切 GPT sol5.6 做后端，甚至还能随时切 Grok 4.5 搜 X 信息。这个项目太棒了！地址见评论区。",
+      "recommend_reason": "真实工作流：用多模型分工（前端/后端/搜 X）补 Codex 短板，可直接试。",
+      "tags": [
+        "Codex",
+        "OpenCodex",
+        "多模型",
+        "Kimi",
+        "Grok",
+        "编程Agent"
+      ],
+      "rank": 15
+    }
+  ],
+  "generated_at": "2026-07-21T04:03:19Z",
+  "selection": {
+    "target_count": 30,
+    "max_count": 30,
+    "per_run_max": 15,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 15,
+    "last_batch_added": 15,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤15；单日≤30不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
