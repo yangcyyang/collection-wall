@@ -177,3 +177,24 @@ h3 a:focus-visible, .category-button:focus-visible, .search-box:focus-within, .r
   .search-box { min-width: 0; width: 100%; }
   .tool-grid { grid-template-columns: 1fr; }
 }
+
+/* 标签分类 Tab + 分页（推特日报） */
+.tag-browser { border-bottom: var(--border-width) solid var(--color-border); }
+.category-tabs { display: flex; flex-wrap: wrap; gap: var(--spacing-sm); padding: var(--spacing-lg) 0 var(--spacing-md); }
+.category-tab { background: transparent; border: var(--border-width) solid var(--color-border); border-radius: var(--radius-card); color: var(--color-text-secondary); cursor: pointer; font: inherit; font-size: var(--font-size-caption); padding: var(--spacing-xs) var(--spacing-md); display: inline-flex; align-items: center; gap: var(--spacing-xs); }
+.category-tab em { font-style: normal; opacity: 0.65; }
+.category-tab:hover { color: var(--color-brand); border-color: var(--color-brand); }
+.category-tab.is-selected { background: var(--color-brand); border-color: var(--color-brand); color: var(--color-surface); font-weight: 700; }
+.category-tab.is-selected em { opacity: 0.85; }
+.category-tab:focus-visible { outline: var(--outline-width) solid var(--color-brand); outline-offset: var(--outline-width); }
+.tag-browser .tag-filter-row { border-bottom: 0; padding-top: var(--spacing-md); }
+.tag-filter { cursor: pointer; }
+.tag-more { background: transparent; border: 0; color: var(--color-brand); cursor: pointer; font: inherit; font-size: var(--font-size-caption); padding: var(--spacing-xs) var(--spacing-sm); }
+.pager { display: flex; align-items: center; justify-content: center; gap: var(--spacing-md); padding: var(--spacing-lg) 0; }
+.pager-btn { background: var(--color-surface); border: var(--border-width) solid var(--color-border); border-radius: var(--radius-card); color: var(--color-text-primary); cursor: pointer; font: inherit; font-size: var(--font-size-caption); padding: var(--spacing-xs) var(--spacing-md); }
+.pager-btn:hover:not(:disabled) { border-color: var(--color-brand); color: var(--color-brand); }
+.pager-btn:disabled { opacity: 0.4; cursor: default; }
+.pager-status { color: var(--color-text-secondary); font-size: var(--font-size-caption); }
+
+/* hidden 属性必须压过组件自身 display，否则折叠/分页失效 */
+[hidden] { display: none !important; }

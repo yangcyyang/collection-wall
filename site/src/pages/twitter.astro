@@ -1,12 +1,29 @@
 ---
 import "../styles/global.css";
-import { getTwitterDays, splitRecentAndArchive, tagCounts } from "../lib/twitter";
+import { getTwitterDays, splitRecentAndArchive, tagCounts, getTagCategories } from "../lib/twitter";
 import TwitterDayGroup from "../components/TwitterDayGroup.astro";
 
 const days = await getTwitterDays();
 const { recent, archive } = splitRecentAndArchive(days);
-const tags = tagCounts(days);
+const cats = await getTagCategories();
+const tags = tagCounts(days, cats);
 const totalItems = days.reduce((sum, day) => sum + day.items.length, 0);
+
+const TOP_TAGS = 20;
+// tags 已按频次降序：算每个标签在其类别内的排名 + 每类标签种类数
+const perCatRank = new Map<string, number>();
+const catTagCount = new Map<string, number>();
+for (const t of tags) {
+  const seen = catTagCount.get(t.category) ?? 0;
+  perCatRank.set(t.tag, seen);
+  catTagCount.set(t.category, seen + 1);
+}
+const categoryTabs = [
+  { key: "all", label: "全部", count: tags.length },
+  ...cats.order
+    .filter((k) => (catTagCount.get(k) ?? 0) > 0)
+    .map((k) => ({ key: k, label: cats.labels[k] ?? k, count: catTagCount.get(k) ?? 0 })),
+];
 ---
 
 <html lang="zh-CN">
@@ -43,24 +60,40 @@ const totalItems = days.reduce((sum, day) => sum + day.items.length, 0);
       ) : (
         <>
           {tags.length > 0 && (
-            <div class="tag-filter-row" aria-label="按标签筛选">
-              <button class="tag-filter is-selected" type="button" data-tag-filter="">全部</button>
-              {tags.map(({ tag, count }) => <button class="tag-filter" type="button" data-tag-filter={tag}>{tag}<em>{count}</em></button>)}
+            <div class="tag-browser">
+              <nav class="category-tabs" aria-label="按类别筛选">
+                {categoryTabs.map((c, i) => (
+                  <button class={i === 0 ? "category-tab is-selected" : "category-tab"} type="button" data-category-tab={c.key}>{c.label}<em>{c.count}</em></button>
+                ))}
+              </nav>
+              <div class="tag-filter-row" aria-label="按标签筛选">
+                <button class="tag-filter is-selected" type="button" data-tag-filter="">全部</button>
+                {tags.map(({ tag, count, category }, gi) => (
+                  <button class="tag-filter" type="button" data-tag-filter={tag} data-category={category} data-grank={gi} data-crank={perCatRank.get(tag) ?? 0} hidden={gi >= TOP_TAGS}>{tag}<em>{count}</em></button>
+                ))}
+                <button class="tag-more" type="button" hidden>更多 ▾</button>
+              </div>
             </div>
           )}
 
           <section class="twitter-timeline" aria-label="最近日报">
-            {recent.map((day, index) => <TwitterDayGroup day={day} defaultOpen={index === 0} />)}
+            {recent.map((day, index) => <TwitterDayGroup day={day} categories={cats} defaultOpen={index === 0} />)}
           </section>
 
           {archive.length > 0 && (
             <details class="archive-section">
               <summary>更早归档（{archive.length} 天）</summary>
               <section class="twitter-timeline">
-                {archive.map((day) => <TwitterDayGroup day={day} />)}
+                {archive.map((day) => <TwitterDayGroup day={day} categories={cats} />)}
               </section>
             </details>
           )}
+
+          <nav class="pager" hidden aria-label="分页导航">
+            <button class="pager-btn" type="button" data-pager-prev>← 上一页</button>
+            <span class="pager-status"></span>
+            <button class="pager-btn" type="button" data-pager-next>下一页 →</button>
+          </nav>
         </>
       )}
     </main>
@@ -68,28 +101,52 @@ const totalItems = days.reduce((sum, day) => sum + day.items.length, 0);
       <p><strong>数据来源说明</strong>：内容来自 cy 的 X（Twitter）Following 时间线，AI 按相关度/信息增量/互动热度筛选，去转发去广告。</p>
     </footer>
     <script>
+      const PAGE = 30;
+      const TOP = 20;
+      const categoryTabs = document.querySelectorAll("[data-category-tab]");
       const filterButtons = document.querySelectorAll("[data-tag-filter]");
+      const tagButtons = [...filterButtons].filter((b) => b.getAttribute("data-tag-filter"));
+      const moreBtn = document.querySelector(".tag-more");
       const cards = document.querySelectorAll("[data-tweet]");
       const dayGroups = document.querySelectorAll("[data-day]");
       const archiveSection = document.querySelector(".archive-section");
+      const pager = document.querySelector(".pager");
+      const pagerStatus = document.querySelector(".pager-status");
+      const pagerPrev = document.querySelector("[data-pager-prev]");
+      const pagerNext = document.querySelector("[data-pager-next]");
       const collapsibles = archiveSection ? [...dayGroups, archiveSection] : [...dayGroups];
+
+      let activeCategory = "all";
       let activeTag = "";
+      let page = 1;
+      let tagsExpanded = false;
       const autoOpened = new Set();
 
-      function refresh() {
-        cards.forEach((card) => {
-          const tags = (card.getAttribute("data-tags") ?? "").split(",");
-          card.hidden = Boolean(activeTag) && !tags.includes(activeTag);
+      function applyTagVisibility() {
+        tagButtons.forEach((b) => {
+          const inScope = activeCategory === "all" || b.dataset.category === activeCategory;
+          const rank = activeCategory === "all" ? Number(b.dataset.grank) : Number(b.dataset.crank);
+          b.hidden = !inScope || (!tagsExpanded && rank >= TOP);
         });
-        dayGroups.forEach((group) => {
-          group.hidden = !group.querySelector("[data-tweet]:not([hidden])");
-        });
+        const scopeCount = tagButtons.filter((b) => activeCategory === "all" || b.dataset.category === activeCategory).length;
+        if (moreBtn) {
+          moreBtn.hidden = scopeCount <= TOP;
+          moreBtn.textContent = tagsExpanded ? "收起 ▴" : `更多 ${Math.max(0, scopeCount - TOP)} ▾`;
+        }
+      }
+
+      function isMatch(card) {
+        const tags = (card.getAttribute("data-tags") ?? "").split(",");
+        const catList = (card.getAttribute("data-categories") ?? "").split(",");
+        const okCat = activeCategory === "all" || catList.includes(activeCategory);
+        const okTag = !activeTag || tags.includes(activeTag);
+        return okCat && okTag;
       }
 
       function syncAutoExpand() {
         autoOpened.forEach((el) => { el.open = false; });
         autoOpened.clear();
-        if (!activeTag) return;
+        if (activeCategory === "all" && !activeTag) return;
         collapsibles.forEach((el) => {
           if (el.hidden || el.open) return;
           if (!el.querySelector("[data-tweet]:not([hidden])")) return;
@@ -98,14 +155,60 @@ const totalItems = days.reduce((sum, day) => sum + day.items.length, 0);
         });
       }
 
+      function refresh() {
+        const filtering = activeCategory !== "all" || Boolean(activeTag);
+        if (!filtering) {
+          cards.forEach((card) => { card.hidden = false; });
+          if (pager) pager.hidden = true;
+        } else {
+          const list = [...cards].filter(isMatch);
+          const pages = Math.max(1, Math.ceil(list.length / PAGE));
+          if (page > pages) page = pages;
+          if (page < 1) page = 1;
+          const start = (page - 1) * PAGE;
+          cards.forEach((card) => { card.hidden = true; });
+          list.slice(start, start + PAGE).forEach((card) => { card.hidden = false; });
+          if (pager) {
+            pager.hidden = false;
+            pagerStatus.textContent = `第 ${page} / ${pages} 页 · 共 ${list.length} 条`;
+            pagerPrev.disabled = page <= 1;
+            pagerNext.disabled = page >= pages;
+          }
+        }
+        dayGroups.forEach((group) => { group.hidden = !group.querySelector("[data-tweet]:not([hidden])"); });
+        syncAutoExpand();
+      }
+
+      categoryTabs.forEach((btn) => btn.addEventListener("click", () => {
+        activeCategory = btn.dataset.categoryTab ?? "all";
+        categoryTabs.forEach((b) => b.classList.toggle("is-selected", b === btn));
+        activeTag = "";
+        tagsExpanded = false;
+        page = 1;
+        filterButtons.forEach((b) => b.classList.toggle("is-selected", (b.getAttribute("data-tag-filter") ?? "") === ""));
+        applyTagVisibility();
+        refresh();
+      }));
+
       filterButtons.forEach((button) => button.addEventListener("click", () => {
         const nextTag = button.getAttribute("data-tag-filter") ?? "";
         activeTag = activeTag === nextTag ? "" : nextTag;
+        page = 1;
         filterButtons.forEach((item) => item.classList.toggle("is-selected", item === button && activeTag !== ""));
-        if (!activeTag) filterButtons[0]?.classList.add("is-selected");
+        if (!activeTag) {
+          const allBtn = [...filterButtons].find((b) => (b.getAttribute("data-tag-filter") ?? "") === "");
+          if (allBtn) allBtn.classList.add("is-selected");
+        }
         refresh();
-        syncAutoExpand();
       }));
+
+      if (moreBtn) moreBtn.addEventListener("click", () => {
+        tagsExpanded = !tagsExpanded;
+        applyTagVisibility();
+      });
+
+      if (pagerPrev) pagerPrev.addEventListener("click", () => { page = Math.max(1, page - 1); refresh(); window.scrollTo({ top: 0, behavior: "smooth" }); });
+      if (pagerNext) pagerNext.addEventListener("click", () => { page += 1; refresh(); window.scrollTo({ top: 0, behavior: "smooth" }); });
 
       function openTweet(card) {
         const url = card.getAttribute("data-tweet-url");
@@ -125,6 +228,8 @@ const totalItems = days.reduce((sum, day) => sum + day.items.length, 0);
           }
         });
       });
+
+      applyTagVisibility();
     </script>
   </body>
 </html>

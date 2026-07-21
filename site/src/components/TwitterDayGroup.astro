@@ -1,8 +1,8 @@
 ---
-import { formatDayLabel, formatTime, avatarUrl, isShortTweet, type TwitterDay } from "../lib/twitter";
+import { formatDayLabel, formatTime, avatarUrl, isShortTweet, categoryOf, type TwitterDay, type TagCategories } from "../lib/twitter";
 
-type Props = { day: TwitterDay; defaultOpen?: boolean };
-const { day, defaultOpen = false } = Astro.props;
+type Props = { day: TwitterDay; defaultOpen?: boolean; categories?: TagCategories };
+const { day, defaultOpen = false, categories } = Astro.props;
 const [dateLabel, weekdayLabel] = formatDayLabel(day.date).split(" ");
 ---
 
@@ -14,7 +14,7 @@ const [dateLabel, weekdayLabel] = formatDayLabel(day.date).split(" ");
   </summary>
   <div class="timeline-items">
     {day.items.map((item) => (
-      <article class="timeline-item" data-tweet data-tags={(item.tags ?? []).join(",")} data-tweet-url={item.url} role="link" tabindex="0">
+      <article class="timeline-item" data-tweet data-tags={(item.tags ?? []).join(",")} data-categories={categories ? [...new Set((item.tags ?? []).map((t) => categoryOf(t, categories)))].join(",") : ""} data-tweet-url={item.url} role="link" tabindex="0">
         <span class="timeline-time">{formatTime(item.created_at)}</span>
         <span class="timeline-rail"><i class="timeline-dot"></i></span>
         <div class="tweet-card">

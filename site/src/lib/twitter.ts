@@ -113,7 +113,7 @@ export function splitRecentAndArchive(days: TwitterDay[]) {
   };
 }
 
-export function tagCounts(days: TwitterDay[]) {
+export function tagCounts(days: TwitterDay[], cats?: TagCategories) {
   const counts = new Map<string, number>();
   for (const day of days) {
     for (const item of day.items) {
@@ -124,7 +124,7 @@ export function tagCounts(days: TwitterDay[]) {
   }
   return [...counts.entries()]
     .sort((a, b) => b[1] - a[1])
-    .map(([tag, count]) => ({ tag, count }));
+    .map(([tag, count]) => ({ tag, count, category: cats?.map[tag] ?? "other" }));
 }
 
 export function formatDayLabel(date: string) {
@@ -144,4 +144,27 @@ export function formatTime(createdAt: string) {
 
 export function avatarUrl(author: string) {
   return `https://unavatar.io/x/${author}`;
+}
+
+export type TagCategories = {
+  order: string[];
+  labels: Record<string, string>;
+  map: Record<string, string>;
+};
+
+const tagCategoriesPath = resolve(process.cwd(), "../pipeline/tag_categories.json");
+let categoryTable: TagCategories | null = null;
+
+export async function getTagCategories(): Promise<TagCategories> {
+  if (categoryTable) return categoryTable;
+  try {
+    categoryTable = JSON.parse(await readFile(tagCategoriesPath, "utf8")) as TagCategories;
+  } catch {
+    categoryTable = { order: [], labels: {}, map: {} };
+  }
+  return categoryTable;
+}
+
+export function categoryOf(tag: string, cats: TagCategories) {
+  return cats.map[tag] ?? "other";
 }
