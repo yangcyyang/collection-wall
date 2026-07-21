@@ -9,6 +9,365 @@
   },
   "items": [
     {
+      "id": "2079590123038204255",
+      "author": "OfficialLoganK",
+      "author_bio": "Member of technical staff, working on Gemini, @GoogleAIStudio, the Gemini API, & Kaggle. My views!",
+      "text": "Say hello to Gemini 3.6 Flash, designed to be higher intelligence, more token efficient, and with a new lower price, based directly on developer feedback!\n\n3.6 Flash continues our progress towards models that are deeply usable in real world scenarios! https://t.co/U2PwriHMX5",
+      "url": "https://x.com/i/status/2079590123038204255",
+      "created_at": "2026-07-21T15:31:36Z",
+      "likes": 1034,
+      "views": "46838",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNwo7c1a8AA5h9d.jpg"
+      ],
+      "summary": "Google 侧发布 Gemini 3.6 Flash：按开发者反馈设计，强调更高智能、更高 token 效率与更低价格，继续朝「真实场景好用」推进。",
+      "recommend_reason": "Flash 系正从便宜快变成「智能+效率+价格」三轴同时压。",
+      "tags": [
+        "Gemini",
+        "Flash",
+        "Google",
+        "产品发布",
+        "定价"
+      ],
+      "title": "Gemini 3.6 Flash：更高智能、更省 token、更低价",
+      "rank": 1
+    },
+    {
+      "id": "2079589698490572961",
+      "author": "GoogleDeepMind",
+      "author_bio": "The engine room of @Google. Building AI safely and responsibly to solve the world’s most complex problems. Join us: https://t.co/jUHQA27iBL",
+      "text": "We’re rolling out three new models to make AI agents faster, smarter, and cheaper at scale:\n\n🔵 Gemini 3.6 Flash: It uses fewer tokens than 3.5 Flash to deliver higher quality work at the exact same cost.\n\n🔵 Gemini 3.5 Flash-Lite: A fast, cost-effective option for everyday tasks like processing documents and agentic search.\n\n🔵 Gemini 3.5 Flash Cyber: A cybersecurity model built to find and patch critical software vulnerabilities.",
+      "url": "https://x.com/i/status/2079589698490572961",
+      "created_at": "2026-07-21T15:29:55Z",
+      "likes": 402,
+      "views": "49217",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/tweet_video/HNwoY8MW8AAubRO.mp4"
+      ],
+      "summary": "Google DeepMind 推出面向 agent 规模化的三款模型：Gemini 3.6 Flash（比 3.5 Flash 更少 token 更高质量、同价）；3.5 Flash-Lite（文档处理与 agentic search 等日常任务）；3.5 Flash Cyber（找漏洞与打补丁的网络安全模型）。",
+      "recommend_reason": "同一天把通用 Flash、轻量版和网安专用模型打包，agent 成本与场景矩阵更完整。",
+      "tags": [
+        "Gemini",
+        "DeepMind",
+        "Agent",
+        "网络安全",
+        "产品发布"
+      ],
+      "title": "DeepMind 连发三模型：3.6 Flash、Flash-Lite 与安全向 Cyber",
+      "rank": 2
+    },
+    {
+      "id": "2079584667284418896",
+      "author": "nvidia",
+      "author_bio": "The official handle for NVIDIA. Blog: https://t.co/JAn5eKOTBT Support: https://t.co/6ln5FVnA2o All our social media: https://t.co/Uc56dL57Dh",
+      "text": "NVIDIA Spectrum-6, a 102.4-terabit-per-second Ethernet switch built for the Vera Rubin platform, is now arriving across the world's gigascale AI factories.\n\n@CoreWeave, @Microsoft, @Nebius, @SpaceXAI and @Tesla are among the first to bring in Spectrum-6 to accelerate their AI factories.\n\nRead the Blog: https://t.co/rm3rYQMPGc",
+      "url": "https://x.com/i/status/2079584667284418896",
+      "created_at": "2026-07-21T15:09:56Z",
+      "likes": 140,
+      "views": "44302",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNwrOy1XEAAgAza.jpg"
+      ],
+      "summary": "面向 Vera Rubin 平台的 NVIDIA Spectrum-6（102.4 Tbps 以太网交换机）开始进入全球超大规模 AI 工厂；CoreWeave、Microsoft、Nebius、SpaceXAI、Tesla 等为首批用户。",
+      "recommend_reason": "算力瓶颈正从芯片蔓延到网络交换，这是 AI 工厂基础设施的关键一环。",
+      "tags": [
+        "NVIDIA",
+        "网络",
+        "AI工厂",
+        "基础设施",
+        "Vera Rubin"
+      ],
+      "title": "NVIDIA Spectrum-6 102.4Tbps 交换机开始交付 AI 工厂",
+      "rank": 3
+    },
+    {
+      "id": "2079546645302129032",
+      "author": "gkxspace",
+      "author_bio": "🌸05年连续创业者 | 专注 AI 产品 | 项目营收 7 位数+\n✨记录真实的创业路：项目复盘、踩坑总结和成长思考\n💗AI 产品构建 & AI 商业化方案 & 企业 AI 转型",
+      "text": "兄弟们，Codex 被彻底打开了。。。\n\nopencodex 这个开源项目，能把各家的 AI 订阅同时塞进 Codex 里：Grok、Kimi、Claude、Gemini、DeepSeek......\n\n全部出现在 Codex 原生的模型选择列表里。\n\n我太喜欢 Codex 的插件了，不过之前第三方模型切换都不太友好，但这个用起来真很方便。\n\n之前想用 Grok 的时候用不了，刚买的 Kimi 199 套餐也只能闲着（官方客户端我是真用不惯）。\n\n现在：\n1、npm install -g @bitkyc08/opencodex\n2、ocx init 走个交互配置\n3、xAI、Kimi 直接 OAuth 登录，key 都不用配\n4、打开 Codex，模型列表里全都有了\n5、推荐大家试一试 Grok 4.5，又快又准，很爽，国产模型也可以很方便接进来，也很方便切换。",
+      "url": "https://x.com/i/status/2079546645302129032",
+      "created_at": "2026-07-21T12:38:51Z",
+      "likes": 199,
+      "views": "32385",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNwF5F2W8AEvvGB.png"
+      ],
+      "summary": "介绍开源 opencodex：把 Grok、Kimi、Claude、Gemini、DeepSeek 等订阅统一进 Codex 原生模型选择；npm 全局安装后交互初始化，xAI/Kimi 可 OAuth，无需手配 key，便于在 Codex 插件体验里切模型。",
+      "recommend_reason": "把多订阅接到 Codex 的实用胶水，解决「想用别家模型但客户端别扭」。",
+      "tags": [
+        "Codex",
+        "opencodex",
+        "多模型",
+        "Grok",
+        "Kimi",
+        "开源"
+      ],
+      "title": "opencodex 把 Grok/Kimi/Claude 等订阅塞进 Codex 模型列表",
+      "rank": 4
+    },
+    {
+      "id": "2079539583134363680",
+      "author": "gkxspace",
+      "author_bio": "🌸05年连续创业者 | 专注 AI 产品 | 项目营收 7 位数+\n✨记录真实的创业路：项目复盘、踩坑总结和成长思考\n💗AI 产品构建 & AI 商业化方案 & 企业 AI 转型",
+      "text": "Kimi K3 和 Qwen3.8 前后发新模型，都说自己仅落后 Fable5，K3 套餐现在抢都抢不到，千问还是随便买，我干脆买来测一测到底有没有那么强！！！\n\n结果让我很震惊，某些情况下国产模型做的比 Fable5 还好，并且 Qwen3.8 同一个任务比 Fable5、K3便宜5-10倍，详细聊一聊：\n\n第一个活，让 Qwen3.8、KimiK3、Fable5 复刻 macOS，同样一条一条 prompt（具体对比参考视频）：\n\nQwen 3.8 做的最好，一口气写1500 多行代码，菜单栏、Dock 弹性动画、可拖拽窗口等基础的不说，Spotlight、终端、通知中心全都真的能用。这是三板中能做得最全的，UI 也是最舒服的。\n\n第二个活，让它写一个植物大战僵尸那样的塔防游戏。植物、僵尸、阳光经济、10 波进攻，最后一波有僵王坐镇，每条路还配了救场小推车。点开就能玩，同样一句话完成。\n\n中间还顺手让它搓了个黄金矿工，像素怀旧风，放钩抓金块、炸药、道具商店、关卡倒计时全有，一次成型零报错。\n\n然后计算了一下Token消耗和价格，这几个活加起来，Qwen3.8 花 4 毛钱，我以为自己少数了俩零，Fable 5 折算 5块4，K3 收了我 3块4。。。\n同样的题三个模型的测试下来都能交货，但测完我的结论是：\n国产这俩说仅落后 Fable 5，还真不算吹，差距已经缩小。但价格上 Qwen3.8 确实香，限时优惠+39 块上车不限购，烧 token 多但还是最便宜，而且这还只是预览版，2.4T 参数的正式版说是很快开源。\n\n所以说，国产模型现在都很不错，兄弟们，你会选哪家呢🤔",
+      "url": "https://x.com/i/status/2079539583134363680",
+      "created_at": "2026-07-21T12:10:47Z",
+      "likes": 76,
+      "views": "40407",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2079538533870501888/vid/avc1/520x270/M06YMXKRCDCjJt95.mp4?tag=29"
+      ],
+      "summary": "作者横向测 Kimi K3、Qwen3.8 与 Fable5：复刻 macOS UI、塔防与黄金矿工等任务都能交付；Qwen3.8 在完整度与 UI 上表现突出，三任务合计约 0.4 元，而 Fable5 约 5.4 元、K3 约 3.4 元。结论是国产「仅落后 Fable」不虚，Qwen 性价比突出且预览版后还有更大开源版本。",
+      "recommend_reason": "带价格账单的同题三模对比，比口号更利于选型。",
+      "tags": [
+        "Kimi",
+        "Qwen",
+        "Fable 5",
+        "评测",
+        "成本",
+        "编程"
+      ],
+      "title": "实测 K3/Qwen3.8/Fable5：国产能交货，Qwen 成本低一个数量级",
+      "rank": 5
+    },
+    {
+      "id": "2079532080338444536",
+      "author": "abskoop",
+      "author_bio": "🔍 挖掘互联网宝藏工具｜AI 工具 · 开源项目 · 在线工具 · 效率神器\n投稿 欢迎 DM｜备用号 @ahhhhfs\n🔔 TG 频道：https://t.co/OmSvNms9yl",
+      "text": "AI 把网站写完了，谁来负责测试？😢\n\nReplay QA：输入网址就能自动探索页面、生成 Playwright 测试、录制 Bug 现场，并整理错误根因和修复建议，直接交给 Cursor / Claude Code\n\n还能连接 GitHub，在 PR 更新时自动检查\n\n不用手写测试脚本，正好补上 Vibe Coding 的验收环节",
+      "url": "https://x.com/i/status/2079532080338444536",
+      "created_at": "2026-07-21T11:40:58Z",
+      "likes": 25,
+      "views": "8119",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNv7K5TbEAAnOPa.jpg"
+      ],
+      "summary": "AI 把网站写完了，谁来负责测试？Replay QA：输入网址就能自动探索页面、生成 Playwright 测试、录制 Bug 现场，并整理错误根因和修复建议，直接交给 Cursor / Claude Code。还能连接 GitHub，在 PR 更新时自动检查。不用手写测试脚本，正好补上 Vibe Coding 的验收环节。",
+      "recommend_reason": "补上 vibe coding 缺的验收环：自动测 + 录屏 + 丢回 coding agent。",
+      "tags": [
+        "测试",
+        "Playwright",
+        "工具",
+        "Cursor",
+        "Claude Code",
+        "QA"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2079520256088039761",
+      "author": "yetone",
+      "author_bio": "Built: avante.nvim\n\nBuilding:\n\nhttps://t.co/pfq9srNgsd\n\nhttps://t.co/fpGnPR5t9C\n\nhttps://t.co/cBN1yzJPIG\n\nhttps://t.co/6ERz2HMx0f\n\nhttps://t.co/QhQRLD4zQo\n\nhttp",
+      "text": "我疯了，我让 GPT 5.6 Sol 加一个前端交互，结果给我回归了无数个前端 bug。是的，无数个陈年老 bug 都被它回归了。果断下单了另外一个 Claude Code Max x20 的账号。",
+      "url": "https://x.com/i/status/2079520256088039761",
+      "created_at": "2026-07-21T10:53:59Z",
+      "likes": 225,
+      "views": "64136",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "我疯了，我让 GPT 5.6 Sol 加一个前端交互，结果给我回归了无数个前端 bug。是的，无数个陈年老 bug 都被它回归了。果断下单了另外一个 Claude Code Max x20 的账号。",
+      "recommend_reason": "agent 改前端「修一个回归一堆」的真实踩坑，选型要用回归成本计价。",
+      "tags": [
+        "GPT-5.6 Sol",
+        "Claude Code",
+        "前端",
+        "回归",
+        "编程Agent"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2079504027390562479",
+      "author": "oran_ge",
+      "author_bio": "we are already living in science fiction. building the os for it",
+      "text": "仅次于 Fable 的模型，到底有几个？\n模型在正式发布之前，大家都是仅次于 Fable，一旦都发布了，就只有一个仅次于 Fable 了。\nhhh\n刚好，今天 Cola 也上线了一个仅次于 Fable 的模型，July ，今日对会员限时免费，欢迎体验。\n本来想对所有人开放体验的，可是没想到这个仅次于的 Fable 的模型，会员都喜欢用，现在已经都要排队使用了，建议大家还是错峰使用。\n看来这个模型有点东西，至少也是个 Opus 级别的模型吧。\n别的不说，这个模型的思考深度和回复长度都跟 Fable 很像。",
+      "url": "https://x.com/i/status/2079504027390562479",
+      "created_at": "2026-07-21T09:49:30Z",
+      "likes": 28,
+      "views": "18563",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNvh43BaEAAsgsj.jpg"
+      ],
+      "summary": "作者调侃发布前人人自称仅次于 Fable，发齐后只能有一个第二。Cola 上线 July 模型对会员限时免费，却因太受欢迎要排队；体感思考深度与回复长度接近 Fable，至少 Opus 级。",
+      "recommend_reason": "营销话术遇真上线的现实校正，也是新模型排队热度的信号。",
+      "tags": [
+        "Fable 5",
+        "Cola",
+        "模型发布",
+        "评测",
+        "产品"
+      ],
+      "title": "「仅次于 Fable」发布后只剩一个：Cola July 会员限免却排队",
+      "rank": 8
+    },
+    {
+      "id": "2079490879916744881",
+      "author": "yetone",
+      "author_bio": "Built: avante.nvim\n\nBuilding:\n\nhttps://t.co/pfq9srNgsd\n\nhttps://t.co/fpGnPR5t9C\n\nhttps://t.co/cBN1yzJPIG\n\nhttps://t.co/6ERz2HMx0f\n\nhttps://t.co/QhQRLD4zQo\n\nhttp",
+      "text": "经过我发现，GPT 5.6 Sol 做前端不是审美不好，是他很糊弄。感觉 GPT 就是一个本身写后端的人，懂点前端语法跟框架的使用，然后就顺手写一写，但是他不在乎前端长什么样，就是糊弄，又不是不能用。整体来说就是一个会写前端的后端工程师。一口气得罪两个职业。抱歉。",
+      "url": "https://x.com/i/status/2079490879916744881",
+      "created_at": "2026-07-21T08:57:15Z",
+      "likes": 199,
+      "views": "33150",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "经过我发现，GPT 5.6 Sol 做前端不是审美不好，是他很糊弄。感觉 GPT 就是一个本身写后端的人，懂点前端语法跟框架的使用，然后就顺手写一写，但是他不在乎前端长什么样，就是糊弄，又不是不能用。整体来说就是一个会写前端的后端工程师。一口气得罪两个职业。抱歉。",
+      "recommend_reason": "把「前端丑」归因成工程态度而非能力上限，模型分工更清晰。",
+      "tags": [
+        "GPT-5.6 Sol",
+        "前端",
+        "模型对比",
+        "工程实践"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2079470842694807677",
+      "author": "xiaohu",
+      "author_bio": "带你了解全球最前沿科技、AI动态...\n\nAI 精华，讲到你懂：https://t.co/nvuDIvoNg1",
+      "text": "通义发布 Qwen-Audio-3.0-TTS 语音模型\n\n一段参考音能说 16 种语言和 20 种方言\n\n首包延迟做到 300 毫秒级\n\n同一段参考音可以跨 16 种语言念，音色不走样：CV3-Eval 上说话人相似度 16 个语种全部排第一，Plus 平均 82.75 分（百分制，越接近 100 越像本人）。\n\nhttps://t.co/o5ydiY1Yzg",
+      "url": "https://x.com/i/status/2079470842694807677",
+      "created_at": "2026-07-21T07:37:38Z",
+      "likes": 87,
+      "views": "11427",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "通义发布 Qwen-Audio-3.0-TTS 语音模型。一段参考音能说 16 种语言和 20 种方言。首包延迟做到 300 毫秒级。同一段参考音可以跨 16 种语言念，音色不走样：CV3-Eval 上说话人相似度 16 个语种全部排第一，Plus 平均 82.75 分（百分制，越接近 100 越像本人）。",
+      "recommend_reason": "多语种/方言零样本音色保持 + 低首包延迟，语音产品可落地性又抬一档。",
+      "tags": [
+        "Qwen",
+        "TTS",
+        "语音",
+        "通义",
+        "多语种"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2079469170283196927",
+      "author": "Khazix0918",
+      "author_bio": "愿我们永远对世界保持好奇。\n公众号：数字生命卡兹克",
+      "text": "为了让AIHOT的聚类更准一点，只能自己干标注了。。。\n所有的工作干到底层，怎么最后都是给Agent干标注呢... https://t.co/y70CvzEEPY",
+      "url": "https://x.com/i/status/2079469170283196927",
+      "created_at": "2026-07-21T07:30:59Z",
+      "likes": 61,
+      "views": "10835",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNvBxQ3bAAAr-O-.jpg"
+      ],
+      "summary": "为了让 AIHOT 的聚类更准一点，只能自己干标注了。。。所有的工作干到底层，怎么最后都是给 Agent 干标注呢...",
+      "recommend_reason": "Agent 效果最终卡在标注与数据质量，工程真相一句话戳破。",
+      "tags": [
+        "Agent",
+        "标注",
+        "聚类",
+        "数据",
+        "工程实践"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2079467925224997358",
+      "author": "xiaoying_eth",
+      "author_bio": "🪪  努力做个哇塞的仙女 👸\n\n🐬 分享 AI 前沿干货 ｜打破信息壁垒 ｜AI项目实操\n\n🌻 实用工具推荐官 | 工匠日记\n\n投放、活动合作，都可以从 TG 联系 🔗",
+      "text": "一本没什么技术背景也能看懂的《深入理解 AI Agent》，今天一天涨了 2k Star。\n\n有人认真翻了一遍，还让 AI 跟着学了一遍，结论是：这本书确实写得很好。\n\n平时用 AI 经常遇到这些问题：\n\n上下文一长，模型就开始变笨；\n工具调用频繁出错；\n有的 Agent 很好用，有的却像个傻子。\n\n这本书讲的就是这些现象背后的原理，而且不是纯理论，而是从工程实战角度展开，每一章都配了可以直接运行的代码。\n\n最简单的学法，就是把 GitHub 链接直接丢给 Codex，让 AI 带着从头学一遍。\n\n确实值得看：\n\nhttps://t.co/8Sw6MMkf6z",
+      "url": "https://x.com/i/status/2079467925224997358",
+      "created_at": "2026-07-21T07:26:02Z",
+      "likes": 30,
+      "views": "3079",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HNvBDTaa0AALqqu.jpg"
+      ],
+      "summary": "一本面向非硬核背景的 AI Agent 书一天涨约 2k Star；从工程角度解释上下文变笨、工具调用失败、Agent 好坏差异，并配可运行代码。建议把 GitHub 链接丢给 Codex 带读。",
+      "recommend_reason": "把常见踩坑连回原理，还适合用 coding agent 带着学。",
+      "tags": [
+        "Agent",
+        "教程",
+        "开源",
+        "Codex",
+        "学习"
+      ],
+      "title": "《深入理解 AI Agent》一天涨 2k Star，可丢给 Codex 带读",
+      "rank": 12
+    },
+    {
+      "id": "2079466870902817211",
+      "author": "imwsl90",
+      "author_bio": "前程序员/产品经理/中年已婚带2娃\n\n- OPC、AI、互联网、两性情感、历史八卦\n\n🇬🇧giffgaff手机卡： https://t.co/p3mva2Nhr0\n🤖chatgpt代充:   https://t.co/8raUHeVgYO\n🪜vps:   https://t.co/7OJQwIE3Jt",
+      "text": "AI降低了编程门槛\n\n但\n\n营销和推广依旧很难",
+      "url": "https://x.com/i/status/2079466870902817211",
+      "created_at": "2026-07-21T07:21:51Z",
+      "likes": 35,
+      "views": "8344",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "AI 降低了编程门槛，但营销和推广依旧很难。",
+      "recommend_reason": "能力瓶颈从写代码转移到获客，创业者该把注意力挪对地方。",
+      "tags": [
+        "AI",
+        "营销",
+        "创业",
+        "方法论"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2079446276299465185",
+      "author": "elonmusk",
+      "author_bio": "Starmind",
+      "text": "SpaceX’s massive corpus of world-class engineering data (excluding material blocked by ITAR) will be added during supplemental training of the 2T run.\n\nThis will dramatically improve Grok’s engineering capabilities.",
+      "url": "https://x.com/i/status/2079446276299465185",
+      "created_at": "2026-07-21T06:00:01Z",
+      "likes": 12086,
+      "views": "2445160",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "马斯克称：SpaceX 海量世界级工程数据（不含 ITAR 受限材料）将在 2T 规模补充训练中加入，预期显著提升 Grok 的工程能力。",
+      "recommend_reason": "把航天工程语料喂给模型，是「产业数据→能力」最直接的一手信号。",
+      "tags": [
+        "Grok",
+        "SpaceX",
+        "xAI",
+        "训练数据",
+        "工程"
+      ],
+      "title": "SpaceX 工程数据将进入 Grok 补充训练，强化工程能力",
+      "rank": 14
+    },
+    {
+      "id": "2079440005504876621",
+      "author": "Xinyu2ML",
+      "author_bio": "Scaling everything @Kimi_Moonshot. Building open frontier intelligence. Prev. PhD @CarnegieMellon. Opinions are my own. Architect. They/Them",
+      "text": "True. When I came back from the US and joined Kimi, I told my colleagues that many researchers at OpenAI and other frontier labs have access to thousands of GPUs. They were genuinely shocked. It’s incredibly hard to push frontier innovation in China when compute is so scarce.\n\nSo we are so proud that our team still made it happen.",
+      "url": "https://x.com/i/status/2079440005504876621",
+      "created_at": "2026-07-21T05:35:06Z",
+      "likes": 2377,
+      "views": "215937",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "作者从美国回加盟 Kimi 后告诉同事：OpenAI 等 frontier 实验室研究者常能用上千 GPU，国内同事很震惊；在算力极度稀缺下做前沿创新很难，因此对团队仍能交付更骄傲。",
+      "recommend_reason": "算力差距的第一人称体感，读懂中美 frontier 竞争的资源约束。",
+      "tags": [
+        "Kimi",
+        "算力",
+        "GPU",
+        "OpenAI",
+        "研究",
+        "产业"
+      ],
+      "title": "Kimi 研究员：国内算力稀缺仍做出 frontier，团队更珍惜",
+      "rank": 15
+    },
+    {
       "id": "2079402164988895293",
       "author": "levie",
       "author_bio": "ceo @box - your business lives in content. unleash it with AI",
@@ -30,7 +389,7 @@
         "Box"
       ],
       "title": "Cursor 研究：前沿模型规划+廉价模型执行，项目 token 成本可降约 15 倍",
-      "rank": 1
+      "rank": 16
     },
     {
       "id": "2079399859531252028",
@@ -55,7 +414,7 @@
         "产业"
       ],
       "title": "美方或用实体清单与采购规则软封锁中国顶尖 AI 模型",
-      "rank": 2
+      "rank": 17
     },
     {
       "id": "2079398398080500063",
@@ -81,7 +440,7 @@
         "科研"
       ],
       "title": "Fable 5 被称随手证出雅可比猜想反例，OpenAI 内部也独立复现",
-      "rank": 3
+      "rank": 18
     },
     {
       "id": "2079386113064739073",
@@ -102,7 +461,7 @@
         "模型焦虑",
         "方法论"
       ],
-      "rank": 4
+      "rank": 19
     },
     {
       "id": "2079381435732160899",
@@ -127,7 +486,7 @@
         "聚类",
         "成本"
       ],
-      "rank": 5
+      "rank": 20
     },
     {
       "id": "2079375927767871665",
@@ -156,7 +515,7 @@
         "Kimi"
       ],
       "title": "国内八大 AI 平台 GEO 原始数据集开源：62 万引用观察可复现",
-      "rank": 6
+      "rank": 21
     },
     {
       "id": "2079367218438324367",
@@ -179,7 +538,7 @@
         "延迟"
       ],
       "title": "Gemini Batch API 大幅降延迟：p95 降 80%，成功率超 99.998%",
-      "rank": 7
+      "rank": 22
     },
     {
       "id": "2079317901085941976",
@@ -202,7 +561,7 @@
         "Anthropic"
       ],
       "title": "Claude Code 上线屏幕阅读器模式，视障开发者可用 AI 编程助手",
-      "rank": 8
+      "rank": 23
     },
     {
       "id": "2079287727413989695",
@@ -227,7 +586,7 @@
         "产品"
       ],
       "title": "NotebookLM 更名 Gemini Notebook，笔记本可配安全云电脑",
-      "rank": 9
+      "rank": 24
     },
     {
       "id": "2079278653997809984",
@@ -251,7 +610,7 @@
         "开源",
         "发布"
       ],
-      "rank": 10
+      "rank": 25
     },
     {
       "id": "2079261553136734239",
@@ -272,7 +631,7 @@
         "xAI",
         "产品发布"
       ],
-      "rank": 11
+      "rank": 26
     },
     {
       "id": "2079257735724749188",
@@ -294,7 +653,7 @@
         "成本",
         "调研"
       ],
-      "rank": 12
+      "rank": 27
     },
     {
       "id": "2079256626771665098",
@@ -317,7 +676,7 @@
         "资助"
       ],
       "title": "Anthropic 面向罕见病研究最高提供 5 万美元 Claude 用量资助",
-      "rank": 13
+      "rank": 28
     },
     {
       "id": "2079245017491640534",
@@ -340,7 +699,7 @@
         "工程实践"
       ],
       "title": "Fable 5 定位 MP3 VBR 导致播客时间戳错位，极端场景显差距",
-      "rank": 14
+      "rank": 29
     },
     {
       "id": "2079239701391675404",
@@ -366,10 +725,10 @@
         "Grok",
         "编程Agent"
       ],
-      "rank": 15
+      "rank": 30
     }
   ],
-  "generated_at": "2026-07-21T04:03:19Z",
+  "generated_at": "2026-07-21T16:03:29Z",
   "selection": {
     "target_count": 30,
     "max_count": 30,
@@ -377,10 +736,10 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 15,
+    "actual_count": 30,
     "last_batch_added": 15,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
