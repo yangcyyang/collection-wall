@@ -67,7 +67,8 @@ test("最近收藏将非法时间归零，并在同一时间按 id 稳定排序"
   );
 });
 
-test("当前数据集固定展示 12 条精华，其余 641 条保留在最近收藏", async () => {
+test("当前数据集固定展示 12 条精华，其余保留在最近收藏", async () => {
+  // 数据量会随 ⌘D 采集持续增长，断言不跟具体条数绑定，只验证不随数据量变化的不变量。
   const siteDirectory = resolve(dirname(fileURLToPath(import.meta.url)), "..");
   const toolsDirectory = resolve(siteDirectory, "../data/tools");
   const files = (await readdir(toolsDirectory)).filter((file) => file.endsWith(".json"));
@@ -75,7 +76,7 @@ test("当前数据集固定展示 12 条精华，其余 641 条保留在最近�
   const eligible = tools.filter((item) => ["⭐ 高频", "📦 常用"].includes(item.status ?? ""));
   const featured = selectFeaturedTools(eligible);
 
-  assert.equal(tools.length, 653);
-  assert.equal(featured.length, 12);
-  assert.equal(tools.filter((item) => !featured.includes(item)).length, 641);
+  assert.ok(tools.length > 0, "data/tools 应该有实际数据");
+  assert.equal(featured.length, 12, "精华固定展示 12 条");
+  assert.equal(tools.filter((item) => !featured.includes(item)).length, tools.length - featured.length);
 });
