@@ -27,7 +27,7 @@ triggers:
 
 ## 2. 五步流程
 
-1. **resolve-slot**：`python3 pipeline/twitter_daily_collect.py --mode resolve-slot --slot noon|midnight`，拿到 `TARGET_DATE` / `WINDOW_START` / `WINDOW_END` / `DAY_FILE`
+1. **resolve-slot**：`python3 pipeline/twitter_daily_collect.py --mode resolve-slot --slot noon|midnight`，拿到 `TARGET_DATE` / `WINDOW_START` / `WINDOW_END` / `SINCE_DATE` / `DAY_FILE`
 2. `opencli twitter whoami` 确认登录态
 3. 拉 Following 时间线，覆盖本场 12h 窗口：`opencli twitter search "filter:follows -filter:replies -filter:nativeretweets since:${SINCE_DATE}" --product live --limit 80 -f json`
 4. hard-filter → **本体逐条阅读**写字段（title/summary/recommend_reason/tags），本批数量遵真相源上限
@@ -45,6 +45,7 @@ triggers:
 |------|------|
 | 登录态失效（`whoami` 失败） | thread 报「登录态失效」+ 停止本趟，不得跳过校验硬拉 |
 | 本趟候选/入选 0 条 | 写「本趟 0 条新增」，说明是硬筛过严还是登录态问题，不得静默跳过 |
+| `hard-filter` 退出码 2（候选 < 5） | **不是失败、不报缺刊**。按不保底规则照常走完本趟，有几条写几条；回执里标注候选过少，并顺手核一次登录态 |
 | `merge-day` 报错 / 非 0 退出 | 不得用手改 JSON 绕过；报错内容原样贴出，日文件保持报错前状态 |
 | 缺刊（任一步失败未产出） | thread 报「缺刊（本趟）+ 原因」，禁止用空文件覆盖已有日刊掩盖缺刊 |
 
