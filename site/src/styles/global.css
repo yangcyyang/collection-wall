@@ -79,8 +79,10 @@ h2 { font-size: var(--font-size-title); margin-bottom: 0; }
 .tool-section { padding: var(--spacing-lg) 0; }
 .section-heading { margin-bottom: var(--spacing-md); }
 .tool-grid { display: grid; gap: var(--spacing-md); grid-template-columns: repeat(auto-fill, minmax(var(--card-min-width), 1fr)); }
-.tool-card { background: var(--color-surface); border: var(--border-width) solid var(--color-border); border-radius: var(--radius-card); box-shadow: var(--shadow-card); min-width: 0; overflow: hidden; transition: transform var(--duration-hover), box-shadow var(--duration-hover); }
-.tool-card:hover { box-shadow: var(--shadow-card-hover); transform: translateY(var(--motion-lift)); }
+.tool-card { background: var(--color-surface); border: var(--border-width) solid var(--color-border); border-radius: var(--radius-card); box-shadow: var(--shadow-card); min-width: 0; overflow: hidden; position: relative; transition: transform var(--duration-hover), box-shadow var(--duration-hover); }
+.tool-card:hover { box-shadow: 8px 8px 0 var(--color-brand); transform: translateY(var(--motion-lift)); }
+.card-link { bottom: 0; left: 0; position: absolute; right: 0; top: 0; z-index: 1; }
+.retry-button { position: relative; z-index: 2; }
 .cover-wrap { background: var(--color-bg); height: var(--cover-height); }
 .cover-wrap img { display: block; height: 100%; object-fit: cover; width: 100%; }
 .cover-fallback { align-items: center; color: var(--color-text-secondary); display: flex; font-size: var(--icon-size); height: 100%; justify-content: center; }
@@ -95,7 +97,7 @@ h2 { font-size: var(--font-size-title); margin-bottom: 0; }
 .status.occasional { background: var(--color-badge-occasional); }
 .status.new { background: var(--color-badge-new); }
 h3 { font-size: var(--font-size-card-title); margin-bottom: var(--spacing-sm); overflow-wrap: anywhere; }
-h3 a:focus-visible, .category-button:focus-visible, .search-box:focus-within, .retry-button:focus-visible { outline: var(--outline-width) solid var(--color-brand); outline-offset: var(--outline-width); }
+.card-link:focus-visible, .category-button:focus-visible, .search-box:focus-within, .retry-button:focus-visible { outline: var(--outline-width) solid var(--color-brand); outline-offset: var(--outline-width); }
 .card-content > p { color: var(--color-text-secondary); display: -webkit-box; font-size: var(--font-size-caption); -webkit-box-orient: vertical; -webkit-line-clamp: 2; min-height: var(--card-copy-min-height); overflow: hidden; }
 .is-failed { border-color: var(--color-badge-new); }
 .retry-button { color: var(--color-brand); }

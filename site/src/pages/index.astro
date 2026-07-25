@@ -96,12 +96,13 @@ function categoryIcon(category?: string) {
               </div>
               <div class="tool-grid">
                 {frequentTools.map((tool) => <article class:list={["tool-card", { "is-failed": tool.capture_status === "failed" }]} data-tool data-category={tool.category} data-search={[tool.name, tool.headline, ...(tool.tags ?? [])].filter(Boolean).join(" ").toLowerCase()}>
+                  <a class="card-link" href={tool.url} target="_blank" rel="noreferrer" aria-label={tool.name}></a>
                   <div class="cover-wrap">
                     {tool.cover ? <img src={`/${tool.cover}`} alt="" loading="lazy" /> : <div class="cover-fallback" aria-hidden="true">{categoryIcon(tool.category)}</div>}
                   </div>
                   <div class="card-content">
                     <div class="card-meta"><span class="category">{tool.category}</span><span class:list={["status", statusClass(tool.status)]}>{tool.status}</span></div>
-                    <h3><a href={tool.url} target="_blank" rel="noreferrer">{tool.name}</a></h3>
+                    <h3>{tool.name}</h3>
                     <p>{tool.headline || "尚待补充用途说明"}</p>
                     <div class="tag-list">{(tool.tags ?? []).slice(0, 8).map((tag) => <span>{tag}</span>)}</div>
                   </div>
@@ -120,12 +121,13 @@ function categoryIcon(category?: string) {
             </div>
             <div class="tool-grid">
               {visibleTools.map((tool) => <article class:list={["tool-card", { "is-failed": tool.capture_status === "failed" }]} data-tool data-category={tool.category} data-search={[tool.name, tool.headline, ...(tool.tags ?? [])].filter(Boolean).join(" ").toLowerCase()}>
+                <a class="card-link" href={tool.url} target="_blank" rel="noreferrer" aria-label={tool.name}></a>
                 <div class="cover-wrap">
                   {tool.cover ? <img src={`/${tool.cover}`} alt="" loading="lazy" /> : <div class="cover-fallback" aria-hidden="true">{categoryIcon(tool.category)}</div>}
                 </div>
                 <div class="card-content">
                   <div class="card-meta"><span class="category">{tool.category}</span><span class:list={["status", statusClass(tool.status)]}>{tool.status}</span></div>
-                  <h3><a href={tool.url} target="_blank" rel="noreferrer">{tool.name}</a></h3>
+                  <h3>{tool.name}</h3>
                   <p>{tool.capture_status === "failed" ? "这条收藏暂时未抓取成功。" : tool.headline || "尚待补充用途说明"}</p>
                   {tool.capture_status === "failed" ? <button type="button" class="retry-button" data-retry>重新同步</button> : <div class="tag-list">{(tool.tags ?? []).slice(0, 8).map((tag) => <span>{tag}</span>)}</div>}
                 </div>
