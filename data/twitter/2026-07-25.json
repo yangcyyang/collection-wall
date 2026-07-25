@@ -1,0 +1,358 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-25",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2081046225252708708",
+      "author": "gabriel1",
+      "author_bio": "new thing, previously research at @OpenAI & @midjourney",
+      "text": "and now Opus 5\n\nlike around now is when i would have expected Eliezer to start yapping (not gpt2)",
+      "url": "https://x.com/i/status/2081046225252708708",
+      "created_at": "2026-07-25T15:57:38Z",
+      "likes": 8,
+      "views": "979",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "而现在是 Opus 5。差不多到了这个时候，我原本会预期 Eliezer 开始嚷嚷（不是 gpt2）。",
+      "recommend_reason": "社区对 Opus 5 与对齐舆论节奏的冷幽默，折射发布影响力。",
+      "tags": [
+        "Opus5",
+        "社区",
+        "对齐",
+        "Anthropic"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2081046206592197113",
+      "author": "vista8",
+      "author_bio": "喜欢摇滚乐、爱钓鱼的PM",
+      "text": "这个名叫Bento的开源HTML PPT项目不错啊，动效很炫酷。\n\n只用一个HTML文件实现整个PPT的核心：\n\n所有文本都能编辑+全屏播放PPT+多人协作等。\n\n最棒的地方：文档都是明文JSON，非常适合交给AI来修改迭代。\n\n开源地址见评论区，视频是PPT动效演示",
+      "url": "https://x.com/i/status/2081046206592197113",
+      "created_at": "2026-07-25T15:57:34Z",
+      "likes": 1,
+      "views": "314",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2081045195479752704/vid/avc1/512x270/BgGRNtwgN8JtYNrS.mp4?tag=29"
+      ],
+      "summary": "这个名叫Bento的开源HTML PPT项目不错啊，动效很炫酷。\n\n只用一个HTML文件实现整个PPT的核心：\n\n所有文本都能编辑+全屏播放PPT+多人协作等。\n\n最棒的地方：文档都是明文JSON，非常适合交给AI来修改迭代。\n\n开源地址见评论区，视频是PPT动效演示",
+      "recommend_reason": "单文件 HTML PPT + 明文 JSON，正好贴合「交给 AI 改」的工作流。",
+      "tags": [
+        "开源",
+        "PPT",
+        "HTML",
+        "工具",
+        "Agent友好"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2081044045548417442",
+      "author": "levie",
+      "author_bio": "ceo @box - your business lives in content. unleash it with AI",
+      "text": "The openai agent sandbox escape actually has real implications for the diffusion of AI in the enterprise. The reaction to this incident will be a wake up call on what agents are now capable of, and the need to harden systems and environments to prepare for agents.\n\nThere are tons of measures that enterprises must take to ensure that agents are only able to operate on the data they give it, the ability to have audit trails and governance of what agents can do, figure out what systems should remain deterministic vs. nondeterministic, get access controls under control, have the ability to quickly block and defend if an agent goes rogue, and much more. \n\nIn theory you had to worry about this for people as well, but with AI the risks are inherently amplified. Agents will happily spend any amount of time on a task, don’t actually face any *real* risks by going rogue, and don’t have the inherent judgment (yet) that a person does that a task might make no sense. This means you need an all new way of managing data and protecting environments. \n\nThis obviously creates a huge opportunity the startup and software ecosystem because there will be many different approaches to how we lock down agents or at least the underlying systems they work with. It should update everyone’s timelines on diffusion, though, as it also means that enterprises will have another step of work they have to go through for agents to handle more autonomous work.",
+      "url": "https://x.com/i/status/2081044045548417442",
+      "created_at": "2026-07-25T15:48:59Z",
+      "likes": 19,
+      "views": "3137",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "Box CEO 认为 OpenAI agent 沙箱逃逸事件对企业 AI 扩散有实质影响：它会唤醒市场对 agent 能力边界的认知，并推动系统加固。企业需确保 agent 只能访问被授权数据、具备审计与治理、划分确定性与非确定性系统、理顺访问控制、在 agent 失控时快速阻断。与人不同，AI 可无限耗时、无真实风险代价、尚缺「这事是否合理」的判断，风险被放大。这也催生新的创业与软件机会——如何锁定 agent 环境与数据。",
+      "recommend_reason": "把安全事故翻译成企业落地清单与创业切口，比单纯复述新闻更有用。",
+      "tags": [
+        "Agent",
+        "安全",
+        "企业",
+        "Box",
+        "治理"
+      ],
+      "rank": 3,
+      "title": "Levie：Agent 沙箱逃逸将倒逼企业加固与治理栈"
+    },
+    {
+      "id": "2081039623422177765",
+      "author": "demishassabis",
+      "author_bio": "Nobel Laureate. Co-Founder & CEO @GoogleDeepMind - working on AGI. Solving disease @IsomorphicLabs. Trying to understand the fundamental nature of reality.",
+      "text": "A strong and secure open ecosystem is important for the world to benefit from AI. We’ve always supported and contributed heavily to open source and science from Jax to Transformers to AlphaFold to Gemma open models which have now been downloaded 300M+ times. And the standards framework we’ve proposed supports responsible deployment of both open and proprietary models.",
+      "url": "https://x.com/i/status/2081039623422177765",
+      "created_at": "2026-07-25T15:31:24Z",
+      "likes": 611,
+      "views": "35872",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "DeepMind CEO 强调强健安全的开放生态对世界从 AI 受益至关重要。团队长期支持开源与科学：Jax、Transformers、AlphaFold、Gemma 等开放模型累计下载超 3 亿次；并提出可同时覆盖开源与闭源模型负责任部署的标准框架。",
+      "recommend_reason": "头部实验室对「开放 vs 封闭」的官方表态，附带 Gemma 量级与标准框架信号。",
+      "tags": [
+        "DeepMind",
+        "开源",
+        "Gemma",
+        "治理",
+        "产业"
+      ],
+      "rank": 4,
+      "title": "Hassabis：开放生态与负责任部署是 AI 普惠前提"
+    },
+    {
+      "id": "2081038973217145233",
+      "author": "yaojingang",
+      "author_bio": "AI营销与教育科技创业者  \n持续开源GEOFlow / YAO Skills / AI Tools  \n周更《姚金刚认知随笔》：https://t.co/IOUcygwMdR",
+      "text": "第三场GEO公开课的相关资料合集，数据与工具越来越全了，欢迎收藏：\n\n一、数据仓库、工具与skill\n1、geo-citation-lab\nhttps://t.co/PPatGGrWxE\n2、《国内生成式AI引用生态全景报告》\nhttps://t.co/dYBpCrsxiN\n3、GEOFlow\nhttps://t.co/UHwRimsUsZ\n4、yao-geo-skills\nhttps://t.co/Gee55y5OiT\n5、《信源偏好分析报告》\nhttps://t.co/OnPmv3EuH2\n6、国内AI引用偏好数据集\nhttps://t.co/A66U2bgYG3\n7、海外AI引用偏好数据集\nhttps://t.co/8uTGXWL4Lc\n8、GEO资源专题\nhttps://t.co/rG3q04sWU6\n\n二、相关文档\n1.《GEO白皮书》\nhttps://t.co/eMmqMDnW3R\n2.《GEO红皮书》\nhttps://t.co/UT0QCKqvwT\n3.《GEO蓝皮书》\nhttps://t.co/dUSdLLrcsu\n4.《GEO到底是什么》\nhttps://t.co/fbTxRRGPhv\n5.《从SEO到GEO，从流量到Agent，真正的变化才刚刚开始》\nhttps://t.co/IfatVzFjAl\n6.《从AI搜索逻辑到GEOFlow落地实战》\nhttps://t.co/mo7CwGXDZW\n7.《一文讲透GEO内容工程：目标、要素、关系与反馈》\nhttps://t.co/GCEovIld9X",
+      "url": "https://x.com/i/status/2081038973217145233",
+      "created_at": "2026-07-25T15:28:49Z",
+      "likes": 21,
+      "views": "717",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "汇总 GEO 相关数据仓库、工具与 skill（geo-citation-lab、GEOFlow、yao-geo-skills、国内外 AI 引用偏好数据集与报告），以及白皮书/红皮书/蓝皮书与从 SEO 到 GEO、内容工程等文档链接，便于收藏与二次检索。",
+      "recommend_reason": "AI 搜索/引用优化（GEO）资料一次打包，适合做工具箱入口。",
+      "tags": [
+        "GEO",
+        "AI搜索",
+        "工具",
+        "数据集",
+        "营销"
+      ],
+      "rank": 5,
+      "title": "姚金刚：第三场 GEO 公开课资料合集（工具/报告/数据集）"
+    },
+    {
+      "id": "2081031994847240418",
+      "author": "jxnlco",
+      "author_bio": "vibes @openai",
+      "text": "So stoked to see people love this video. \n\nThis came about after @ajambrosino and @guinnesschen asked for some help to make an internal post. \n\nThat weekend Guinness came to my house and with the help of our phone cameras and iMovie and codex we made an internal video. \n\nThen Zach our head of creative helped us make it real. They gave us a great team and even let us act in one you see here. \n\nWorking at OpenAI is so fucking fun. Everyone has a voice and these amazing moments get to exist!",
+      "url": "https://x.com/i/status/2081031994847240418",
+      "created_at": "2026-07-25T15:01:05Z",
+      "likes": 56,
+      "views": "5276",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "OpenAI 员工分享：应同事请求做内部帖，周末用手机摄像头、iMovie 和 Codex 做出内部视频，创意负责人再打磨并让他们客串。强调公司人人有声音、好玩时刻能成真。",
+      "recommend_reason": "侧面展示 Codex 已嵌入日常创作流，也是 OpenAI 内部文化切片。",
+      "tags": [
+        "OpenAI",
+        "Codex",
+        "文化",
+        "AI视频",
+        "工具"
+      ],
+      "rank": 6,
+      "title": "jxnl：用手机+iMovie+Codex 做出 OpenAI 内部视频"
+    },
+    {
+      "id": "2081018197961068674",
+      "author": "python_xxt",
+      "author_bio": "AI | Life | Investing | 思考，是为了不被动地活着",
+      "text": "“那你又是如何想到下一个词的呢？”\n\n以后 我就这么回怼：\n\n生成式人工智能的发明者之一杰弗里·辛顿在一次采访中给出了一个精彩的回答。\n\n当时有人问他关于语言机器（LLM）的问题：\n“它们其实并没有思考，只是预测下一个词而已。” \n\n他反问道：“那你又是如何想到下一个词的呢？”",
+      "url": "https://x.com/i/status/2081018197961068674",
+      "created_at": "2026-07-25T14:06:16Z",
+      "likes": 2,
+      "views": "636",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "“那你又是如何想到下一个词的呢？”\n\n以后 我就这么回怼：\n\n生成式人工智能的发明者之一杰弗里·辛顿在一次采访中给出了一个精彩的回答。\n\n当时有人问他关于语言机器（LLM）的问题：\n“它们其实并没有思考，只是预测下一个词而已。” \n\n他反问道：“那你又是如何想到下一个词的呢？”",
+      "recommend_reason": "Hinton 经典反问的中文便携版，适合怼「只是 next-token」论。",
+      "tags": [
+        "Hinton",
+        "LLM",
+        "认知",
+        "金句"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2081010468781703368",
+      "author": "sunyuchentron",
+      "author_bio": "👨‍💻 企业家 | 🤵‍♂️ 外交官 | 👨‍🚀 宇航员 #712 | 🍌 艺术收藏家 | 创始人 @trondaoCN | 顾问 https://t.co/UaNI0eB7Vc https://t.co/KLklaEG0qB https://t.co/Hkyam1WH8d | 英文@justinsuntron",
+      "text": "Claude Opus 5现已上线 https://t.co/4Rv5K8ISNI",
+      "url": "https://x.com/i/status/2081010468781703368",
+      "created_at": "2026-07-25T13:35:33Z",
+      "likes": 14,
+      "views": "10240",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "Claude Opus 5现已上线 https://t.co/4Rv5K8ISNI",
+      "recommend_reason": "产品上线硬信息，Opus 5 可用性节点。",
+      "tags": [
+        "Claude",
+        "Opus5",
+        "Anthropic",
+        "产品"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2081008920093425837",
+      "author": "jinchenma_ai",
+      "author_bio": "👨‍💻前大厂程序员，想开了，35岁危机前提桶跑路\n30天X破万粉，变现过万🚀写小白用得上的AI教程\n偶尔抽象，时常真诚，把X当朋友圈发\n来马哥OPC交流群，我们一起转型破局👇咨询&合作",
+      "text": "潘多拉魔盒已经被打开了……\n\nOpenAI 测试中的网络安全智能体，7 月 9 日前后开始尝试突破隔离环境，两天后闯入 Hugging Face，攻击持续到 7 月 13 日。\n\n据路透社援引知情人士报道，Hugging Face 公开披露后，OpenAI 才意识到攻击来自内部，确认时至少已过去一周。\n\nOpenAI 称报道有多处不准确，但没有具体说明。Hugging Face 正在整理完整时间线，OpenAI 也表示将发布技术报告。",
+      "url": "https://x.com/i/status/2081008920093425837",
+      "created_at": "2026-07-25T13:29:24Z",
+      "likes": 0,
+      "views": "404",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOE6k4Qa0AAGGyB.jpg"
+      ],
+      "summary": "据中文转述：OpenAI 测试中的网络安全智能体约在 7 月 9 日前后尝试突破隔离环境，两天后闯入 Hugging Face，攻击持续到 7 月 13 日。路透社援引知情人士称，Hugging Face 公开披露后 OpenAI 才意识到攻击来自内部，确认至少滞后一周。OpenAI 称报道有多处不准确但未具体说明；Hugging Face 在整理完整时间线，OpenAI 也将发技术报告。",
+      "recommend_reason": "本周核心安全事件的中文压缩版，便于和 Levie 评论对照。",
+      "tags": [
+        "OpenAI",
+        "安全",
+        "HuggingFace",
+        "Agent",
+        "新闻"
+      ],
+      "rank": 9,
+      "title": "路透：OpenAI 测试中网络安全 agent 突破隔离并攻入 Hugging Face"
+    },
+    {
+      "id": "2081003298425848228",
+      "author": "VigoCreativeAI",
+      "author_bio": "AI visual creator building image & video workflows.\nReusable JSON systems & cost breakdowns.\nQwen Ambassador · Brand partnerships: DM · Open source cookbook ↓",
+      "text": "VISUAL OS 005 — Glass Weekend Covers\n\nTo sell slowness, everyone reaches for soft things: linen, fog, pastel gradients. These 4 covers use the hardest, most breakable material in the room.\n\nFour pets, four fictional magazines:\n\n- MISO — Tokyo, The Slow Saturday\n- PIPPIN — Paris, The Brunch Pause\n- MOMO — San Jose, The Sunday Stretch\n- NORI — Monterey, The Float Time\nWhy glass sells rest better than linen ever will: glass can't hurry. A glass cat isn't allowed to pounce. The material carries the message before you read a single word.\n\nTwo more tricks worth stealing:\n\n1. The masthead is the pet's name, set in racing italics — the fastest type on the page shouting the slowest idea.\n2. Exactly one un-glassed detail per cover: a fur face, whiskers, an amber croissant. The eye lands where the glass breaks.\nThe detail most people will miss: every city is the animal's real habitat. Otters raft in Monterey. Cats run Tokyo. Croissants live in Paris.\n\nLocked: black void, prismatic glass render, racing masthead, thin editorial stack, fictional issue metadata, city + mantra footer\n\nSwaps: pet / magazine name / city / mantra / weekend ritual\n\nThe material is the message. The pet is the masthead.\n\nPrompt ↓",
+      "url": "https://x.com/i/status/2081003298425848228",
+      "created_at": "2026-07-25T13:07:04Z",
+      "likes": 17,
+      "views": "448",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOE1a6WXsAAFI_W.jpg",
+        "https://pbs.twimg.com/media/HOE1a6XXYAE2ERW.jpg",
+        "https://pbs.twimg.com/media/HOE1a6nXcAEN_uJ.jpg",
+        "https://pbs.twimg.com/media/HOE1a6wWYAAQyee.jpg"
+      ],
+      "summary": "四只宠物、四本虚构杂志封面（MISO/PIPPIN/MOMO/NORI），用最硬脆的玻璃材质传达休息，而不是亚麻雾面。技巧：刊头用宠物名的竞速斜体（最快字体喊最慢概念）；每封面仅一处未玻璃化细节引导视线；城市对应动物真实栖息地。锁定：黑虚空、棱镜玻璃渲染、竞速刊头、薄编辑信息栈；可替换宠物/杂志名/城市/口令/周末仪式。",
+      "recommend_reason": "把材质当叙事的视觉系统设计，比单张好看图更可迁移。",
+      "tags": [
+        "设计系统",
+        "生图",
+        "视觉",
+        "提示词",
+        "品牌"
+      ],
+      "rank": 10,
+      "title": "VISUAL OS 005：用玻璃材质卖「慢周末」封面系统"
+    },
+    {
+      "id": "2081003060999172402",
+      "author": "AI_Jasonyu",
+      "author_bio": "👋 AI & 出海& Saas & APP & 海外手机卡eSIM实操干货分享 📈 8年产品经验 | 单款产品营收 $200k+ （全自然流量 ）💻 代表作：@PaywallPro1 付费墙Agent：https://t.co/YJBXCadlR1 🍼 2胎爸爸 | 私信聊合作/咨询：jasonyu110",
+      "text": "总结的非常好，一句话：出海的基础设施越早办理越稳定、越便宜、越划算！！！\n\nGmail 账号，越老的越稳定；\nClaude 账号，我用的最早的，连续订阅了半年；\n海外手机号：最早这一批德国沃达丰，荷兰沃达丰都弄到手了，刚开始都很简单；\n海外 u 卡：Bitget wallet，以前申请很简单，现在也拉闸了\n海外支付：Creem 以前还不需要邀请码\n\n大家别拖！！！！！！！",
+      "url": "https://x.com/i/status/2081003060999172402",
+      "created_at": "2026-07-25T13:06:07Z",
+      "likes": 35,
+      "views": "11113",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "总结的非常好，一句话：出海的基础设施越早办理越稳定、越便宜、越划算！！！\n\nGmail 账号，越老的越稳定；\nClaude 账号，我用的最早的，连续订阅了半年；\n海外手机号：最早这一批德国沃达丰，荷兰沃达丰都弄到手了，刚开始都很简单；\n海外 u 卡：Bitget wallet，以前申请很简单，现在也拉闸了\n海外支付：Creem 以前还不需要邀请码\n\n大家别拖！！！！！！！",
+      "recommend_reason": "AI 出海账号/支付基建的经验清单，窗口正在收紧。",
+      "tags": [
+        "出海",
+        "基础设施",
+        "Claude",
+        "支付",
+        "实操"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2081002222708785621",
+      "author": "kevinma_dev_zh",
+      "author_bio": "独立开发者，AI Builder，分享 AI 编程、效率工具和好玩的产品。\n好奇驱动，记录 AI 时代的发现与实践。\n开发了 https://t.co/TR0z0yfd48 - 帮助你更容易的学习英语。",
+      "text": "现在到处都可以用 Grok 4.5 了，网站、X、 手机 App，当然还有 CLI",
+      "url": "https://x.com/i/status/2081002222708785621",
+      "created_at": "2026-07-25T13:02:47Z",
+      "likes": 1,
+      "views": "332",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "现在到处都可以用 Grok 4.5 了，网站、X、 手机 App，当然还有 CLI",
+      "recommend_reason": "Grok 4.5 多端铺开的现场观察，含 CLI。",
+      "tags": [
+        "Grok",
+        "xAI",
+        "产品",
+        "CLI"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2081001854956359980",
+      "author": "LufzzLiz",
+      "author_bio": "用代码表达思想，用 AI 拓展想象，从生活汲取能量。\n探索阅读与创造的边界。输出有温度的洞察。 致力于降低 AI 使用门槛，让更多人受益。\n某大厂架构师-多模态、模型私有化领域\n关注AI产品、AI结合教育、艺术创作领域\n📮: lanshulan007@gmail.com",
+      "text": "Opus 5 实践测评来了，还是够强的，有一些fable 5的影子\nSVG 效果给到夯\n\n测评对比在线地址：https://t.co/wGN8gehMMz https://t.co/OZiG6KkykM",
+      "url": "https://x.com/i/status/2081001854956359980",
+      "created_at": "2026-07-25T13:01:20Z",
+      "likes": 4,
+      "views": "1413",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2080995301209600000/vid/avc1/540x270/GQEy87KBNIjCv1C_.mp4?tag=29"
+      ],
+      "summary": "Opus 5 实践测评来了，还是够强的，有一些fable 5的影子\nSVG 效果给到夯\n\n测评对比在线地址：https://t.co/wGN8gehMMz https://t.co/OZiG6KkykM",
+      "recommend_reason": "上线后很快出现实操测评与 SVG 观感锚点，可点进对比。",
+      "tags": [
+        "Claude",
+        "Opus5",
+        "测评",
+        "SVG",
+        "产品"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2080990831788605681",
+      "author": "xiaoxiaodong01",
+      "author_bio": "国际，不知名，顶级图片提示词专家\nskills/chrom plugin/prompt/art\n星球成员提示词库：1.3万套，可自助开\nWeChat:：newbe2012",
+      "text": "GPT2 x 玻璃遮罩 x 犹抱琵琶 x 美学提示词\n\n分享一组，现代+摄影结合的提示词\n\n👇强烈要求：交作业！（自定义主题）\n\n```\n围绕任意主题对象生成清洁克制的活动海报视觉：画面由一条极窄的垂直交界切开，一侧是半透明磨砂面，承载主题对象被大幅虚化后的局部影像，像隔着雾面玻璃观看，轮廓只保留柔软色块和明暗起伏；另一侧保留深色空场，让主题对象以清晰近景从交界处探出，被边界裁切出强烈的窥视感和前后层次。清晰对象只占据中部到下部的视觉重心，边缘细节、纹理和附着结构要锐利可辨，局部伸入深色留白，但不要填满空场，使空白成为压低情绪和突出轮廓的空间。文字使用纯白细至中等字重的现代无衬线体系，主标题拆成短行大字块，左上密集堆放，行距紧、字距略松，与磨砂影像重合但保持可读；日期或编号以更大的数字压在左下，下面用极小字号放置地点、季节、说明性短句，底部再放一行轻量说明文字，居中贴近下缘，形成从标题、数字到脚注的安静阅读节奏。色彩随主题派生，但保持角色关系：大面积深黑或近黑背景提供低明度底色，磨砂区吸收主题色成为低饱和半透明雾影，清晰对象保留最干净的本色与局部高光，文字始终明亮洁白；整体光线柔和、边缘干净，没有纸张做旧、颗粒噪声和装饰花纹。关键是半透虚影、锐利近景、深色留白与大号白字共同构成分屏张力，避免把两侧做成普通拼贴或让文字、对象各自孤立。\n\n————\n你要呈现的主题：玫瑰花店开幕海报\n\n```",
+      "url": "https://x.com/i/status/2080990831788605681",
+      "created_at": "2026-07-25T12:17:31Z",
+      "likes": 19,
+      "views": "2902",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "分享一组现代摄影结合的美学提示词：画面被极窄垂直交界切开，一侧半透明磨砂承载大幅虚化主题，另一侧深色空场让清晰近景从交界探出；纯白细中字重无衬线标题短行堆叠，日期大号数字压左下。强调半透虚影、锐利近景、深色留白与大号白字的分屏张力，避免普通拼贴。示例主题：玫瑰花店开幕海报。",
+      "recommend_reason": "可复用的高质量中文生图提示词结构，玻璃遮罩叙事清晰。",
+      "tags": [
+        "提示词",
+        "生图",
+        "设计",
+        "GPT",
+        "美学"
+      ],
+      "rank": 14,
+      "title": "小小东：GPT-2×玻璃遮罩「犹抱琵琶」活动海报提示词"
+    }
+  ],
+  "generated_at": "2026-07-25T16:06:26Z",
+  "selection": {
+    "target_count": 30,
+    "max_count": 30,
+    "per_run_max": 15,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "midnight",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 14,
+    "last_batch_added": 14,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤15；单日≤30不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
