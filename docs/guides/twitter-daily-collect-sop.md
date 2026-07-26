@@ -95,13 +95,15 @@ python3 pipeline/twitter_daily_collect.py --mode merge-day \
 `.gitignore`；每场采集与日刊一起提交。为避免 Git 历史持续膨胀，
 池文件使用紧凑 JSON，**不保存推文全文、作者简介、图片 URL 数组或成品空字段**。
 
-池内每条只保留：
+池文件使用 `schema_version: 3`，池内每条只保留：
 
 - `id` / `author`；
-- `label`：最多 120 字的单行辨识标题，不等同全文；
+- `label`：最多 96 字的单行辨识标题，不等同全文；
 - `ref`：待发布时指向原推 URL，发布后改指
   `data/twitter/YYYY-MM-DD.json#<id>`；
-- `score` / `score_breakdown` / `status`。
+- `score` / `score_breakdown` / `status`。为避免每条重复五个长字段名，
+  `score_breakdown` 是数组，顺序由池顶层 `score_dimensions` 唯一解释；
+  `pick` 还原临时工作单时会恢复成可读字典。
 
 `pick` 必须同时传本场原始 `--inputs`，按池中的 id 还原完整工作单；
 若某个入选 id 无法还原则失败退出，禁止把截断的 `label` 当正文发布。

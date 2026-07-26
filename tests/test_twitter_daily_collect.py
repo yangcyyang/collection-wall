@@ -326,7 +326,7 @@ class TweetScoringTests(unittest.TestCase):
             output = json.loads(serialized)
 
         candidate = output["candidates"][0]
-        self.assertEqual(output["schema_version"], 2)
+        self.assertEqual(output["schema_version"], 3)
         self.assertEqual(output["score_dimensions"], list(twitter.SCORE_DIMENSIONS))
         self.assertEqual(
             set(candidate),
@@ -399,7 +399,8 @@ class TweetScoringTests(unittest.TestCase):
 
     def test_pick_applies_author_cap_and_skips_zero_or_published_items(self) -> None:
         pool = {
-            "schema_version": 2,
+            "schema_version": 3,
+            "score_dimensions": list(twitter.SCORE_DIMENSIONS),
             "candidates": [
                 {"id": "a1", "author": "author-a", "score": 100, "status": "pending"},
                 {"id": "a2", "author": "author-a", "score": 90, "status": "pending"},
@@ -414,6 +415,8 @@ class TweetScoringTests(unittest.TestCase):
                 },
             ]
         }
+        for candidate in pool["candidates"]:
+            candidate["score_breakdown"] = [1.0, 0.5, 0.3, 0.8, 0.0]
         source_tweets = [
             {
                 "id": item["id"],
@@ -452,7 +455,7 @@ class TweetScoringTests(unittest.TestCase):
 
     def test_pick_fails_closed_when_source_cannot_hydrate_selected_item(self) -> None:
         pool = {
-            "schema_version": 2,
+            "schema_version": 3,
             "score_dimensions": list(twitter.SCORE_DIMENSIONS),
             "candidates": [
                 {
@@ -490,11 +493,14 @@ class TweetScoringTests(unittest.TestCase):
 
     def test_pick_with_zero_limit_returns_an_empty_work_order(self) -> None:
         pool = {
+            "schema_version": 3,
+            "score_dimensions": list(twitter.SCORE_DIMENSIONS),
             "candidates": [
                 {
                     "id": "candidate",
                     "author": "author",
                     "score": 80,
+                    "score_breakdown": [1.0, 0.5, 0.3, 0.8, 0.0],
                     "status": "pending",
                 }
             ]
@@ -521,7 +527,8 @@ class TweetScoringTests(unittest.TestCase):
 
     def test_merge_day_marks_published_pool_items_without_leaking_pool_fields(self) -> None:
         pool = {
-            "schema_version": 2,
+            "schema_version": 3,
+            "score_dimensions": list(twitter.SCORE_DIMENSIONS),
             "candidates": [
                 {
                     "id": "picked",
@@ -538,7 +545,7 @@ class TweetScoringTests(unittest.TestCase):
                     "label": "Another OpenAI update.",
                     "ref": "https://x.com/author-b/status/waiting",
                     "score": 70,
-                    "score_breakdown": {"ai_relevance": 1.0},
+                    "score_breakdown": [1.0, 0.4, 0.2, 0.7, 0.0],
                     "status": "pending",
                 },
             ]
@@ -585,7 +592,7 @@ class TweetScoringTests(unittest.TestCase):
             "data/twitter/2026-07-26.json#picked",
         )
         self.assertNotIn("status", day["items"][0])
-        self.assertEqual(day["items"][0]["score"], 88)
+        self.assertNotIn("score", day["items"][0])
         self.assertNotIn("score_breakdown", day["items"][0])
         self.assertNotIn("label", day["items"][0])
         self.assertNotIn("ref", day["items"][0])

@@ -56,8 +56,9 @@ SHORT_TWEET_THRESHOLD = 200
 PER_RUN_MAX = 20
 DAY_MAX = 60
 WINDOW_HOURS = 12
-POOL_LABEL_MAX_CHARS = 120
+POOL_LABEL_MAX_CHARS = 96
 POOL_ONLY_FIELDS = {
+    "score",
     "status",
     "score_breakdown",
     "label",
@@ -523,17 +524,20 @@ def mode_hard_filter(args: argparse.Namespace) -> int:
                     else _source_ref(tweet_id, t.get("url"))
                 ),
                 "score": score,
-                "score_breakdown": score_breakdown,
+                "score_breakdown": [
+                    score_breakdown[dimension] for dimension in SCORE_DIMENSIONS
+                ],
                 "status": "published" if published else "pending",
             }
         )
 
     out = {
-        "schema_version": 2,
+        "schema_version": 3,
         "date": getattr(args, "date", None),
         "slot": getattr(args, "slot", None),
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "source_count": len(pool),
+        "score_dimensions": list(SCORE_DIMENSIONS),
         "candidates": candidates,
         "rejected": rejected,
     }
@@ -574,6 +578,13 @@ def mode_pick(args: argparse.Namespace) -> int:
     candidates = pool.get("candidates") if isinstance(pool, dict) else None
     if not isinstance(candidates, list):
         print("pool must be an object with candidates:[]", file=sys.stderr)
+        return 1
+    score_dimensions = pool.get("score_dimensions")
+    if score_dimensions != list(SCORE_DIMENSIONS):
+        print(
+            "pool score_dimensions must match the current scoring dimensions",
+            file=sys.stderr,
+        )
         return 1
 
     eligible = [
@@ -629,9 +640,20 @@ def mode_pick(args: argparse.Namespace) -> int:
     picked: list[dict[str, Any]] = []
     for audit_item in picked_audit:
         tweet_id = str(audit_item.get("id"))
+        breakdown_values = audit_item.get("score_breakdown")
+        if not isinstance(breakdown_values, list) or len(breakdown_values) != len(
+            score_dimensions
+        ):
+            print(
+                f"pool score_breakdown is invalid for id: {tweet_id}",
+                file=sys.stderr,
+            )
+            return 1
         work_item = dict(source_by_id[tweet_id])
         work_item["score"] = audit_item.get("score")
-        work_item["score_breakdown"] = audit_item.get("score_breakdown")
+        work_item["score_breakdown"] = dict(
+            zip(score_dimensions, breakdown_values, strict=True)
+        )
         work_item["status"] = audit_item.get("status")
         picked.append(work_item)
 
