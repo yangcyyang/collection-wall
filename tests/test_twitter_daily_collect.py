@@ -124,6 +124,88 @@ class TweetScoringTests(unittest.TestCase):
             self.assertGreater(score, 0, text)
             self.assertEqual(breakdown["ai_relevance"], 1.0, text)
 
+    def test_hard_filter_and_scorer_share_the_same_ai_signal_source(self) -> None:
+        strong_signals = [
+            "Opus 5 很强，适合复杂任务。",
+            "Llama 4 发布了新的推理模型。",
+            "Mistral 上线新的模型能力。",
+            "RAG 实践能改善检索质量。",
+            "通义发布 Qwen-Audio-3.0-TTS 语音模型。",
+            "ChatGPT5.6特别喜欢给自己加戏。",
+        ]
+
+        for text in strong_signals:
+            score, breakdown = twitter.score_tweet(
+                {"text": text, "likes": 10, "views": 1000}
+            )
+            self.assertIsNone(twitter.hard_reject({"text": text}), text)
+            self.assertGreater(score, 0, text)
+            self.assertEqual(breakdown["ai_relevance"], 1.0, text)
+
+        bare_model = {"text": "这个模型效果不错，但没有任何可验证细节。"}
+        self.assertEqual(twitter.hard_reject(bare_model), "no_ai_signal")
+        self.assertEqual(twitter.score_tweet(bare_model)[0], 0)
+
+    def test_required_signal_examples_survive_hard_filter_and_pick(self) -> None:
+        tweets = [
+            {
+                "id": "opus",
+                "author": "opus-author",
+                "text": "Opus 5 很强，适合复杂任务。",
+                "likes": 30,
+                "views": 1000,
+            },
+            {
+                "id": "qwen",
+                "author": "qwen-author",
+                "text": "通义发布 Qwen-Audio-3.0-TTS 语音模型。",
+                "likes": 30,
+                "views": 1000,
+            },
+            {
+                "id": "chatgpt",
+                "author": "chatgpt-author",
+                "text": "ChatGPT5.6特别喜欢给自己加戏。",
+                "likes": 30,
+                "views": 1000,
+            },
+            {
+                "id": "politics",
+                "author": "elonmusk",
+                "text": "They are invading just as surely as a conventional army would.",
+                "likes": 20545,
+                "views": 2897694,
+            },
+        ]
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            input_path = Path(temp_dir) / "input.json"
+            pool_path = Path(temp_dir) / "pool.json"
+            work_path = Path(temp_dir) / "work.json"
+            input_path.write_text(json.dumps(tweets), encoding="utf-8")
+            hard_filter_args = argparse.Namespace(
+                inputs=[str(input_path)],
+                out=str(pool_path),
+                max_per_author=2,
+                date="2026-07-26",
+                slot="noon",
+            )
+            twitter.mode_hard_filter(hard_filter_args)
+            pick_args = argparse.Namespace(
+                pool_file=str(pool_path),
+                out=str(work_path),
+                top_n=20,
+                max_per_author=2,
+                date="2026-07-26",
+                slot="noon",
+            )
+            twitter.mode_pick(pick_args)
+            work = json.loads(work_path.read_text(encoding="utf-8"))
+
+        self.assertEqual(
+            {item["id"] for item in work["items"]}, {"opus", "qwen", "chatgpt"}
+        )
+
     def test_hard_filter_sorts_by_score_instead_of_raw_likes(self) -> None:
         tweets = [
             {
@@ -161,14 +243,12 @@ class TweetScoringTests(unittest.TestCase):
             output = json.loads(output_path.read_text(encoding="utf-8"))
 
         self.assertEqual(result, 2)
-        self.assertEqual(
-            [item["id"] for item in output["candidates"]], ["ai", "political"]
-        )
+        self.assertEqual([item["id"] for item in output["candidates"]], ["ai"])
+        self.assertEqual(output["rejected"], {"no_ai_signal": 1})
         self.assertGreater(output["candidates"][0]["score"], 0)
         self.assertEqual(
             output["candidates"][0]["score_breakdown"]["ai_relevance"], 1
         )
-        self.assertEqual(output["candidates"][1]["score"], 0)
         self.assertTrue(
             all(item["status"] == "pending" for item in output["candidates"])
         )

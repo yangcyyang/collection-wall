@@ -144,12 +144,6 @@ ENTERTAINMENT = re.compile(
     re.I,
 )
 NOSTALGIA = re.compile(r"(7年前|2015\s*年|还记得吗)", re.I)
-AI_SIGNAL = re.compile(
-    r"(AI|LLM|GPT|Claude|OpenAI|Anthropic|Gemini|Grok|Agent|Codex|DeepSeek|"
-    r"Fable|Artifacts|opencode|大模型|智能体|模型|Cursor|ChatGPT|Hermes|"
-    r"Obsidian|NotebookLM|prompt|推理|coding agent|黑客松)",
-    re.I,
-)
 NON_AI_NEWS = re.compile(r"(旱稻|古城迎客|機動車|兩岸進出口|减脂餐|冷笑话)", re.I)
 AI_WEAK_SIGNAL_PATTERN = (
     r"(?<![A-Za-z0-9])(?:AI|AIGC|AGI|LLMs?)(?![A-Za-z0-9])|"
@@ -170,9 +164,10 @@ AI_STRONG_SIGNAL_PATTERN = (
     r"通义|千问|豆包|文心|混元|语音模型|多模态模型"
     r")"
 )
-AI_RELEVANCE_SIGNAL = re.compile(
-    f"(?:{AI_WEAK_SIGNAL_PATTERN})|(?:{AI_STRONG_SIGNAL_PATTERN})", re.I
-)
+# 硬筛门卫与打分器必须使用同一份词源；否则新模型名会在入池前被漏掉。
+AI_SIGNAL_PATTERN = f"(?:{AI_WEAK_SIGNAL_PATTERN})|(?:{AI_STRONG_SIGNAL_PATTERN})"
+AI_SIGNAL = re.compile(AI_SIGNAL_PATTERN, re.I)
+AI_RELEVANCE_SIGNAL = AI_SIGNAL
 AI_STRONG_SIGNAL = re.compile(AI_STRONG_SIGNAL_PATTERN, re.I)
 
 SCORE_DIMENSIONS = (
@@ -183,7 +178,8 @@ SCORE_DIMENSIONS = (
     "has_media",
 )
 
-
+# 当前按场次启动独立 CLI 进程，缓存仅覆盖单次运行；若迁入长驻服务，
+# 必须改用 mtime 失效或显式清缓存，避免热改 score_weights.json 未生效。
 @lru_cache(maxsize=8)
 def _load_score_config(path: Path = SCORE_WEIGHTS_PATH) -> dict[str, Any]:
     try:
@@ -250,6 +246,15 @@ def _information_density(text: str) -> float:
     return round(max(0.35, 1.0 - 0.65 * math.log10(length / 600)), 6)
 
 
+def _ai_relevance(text: str) -> float:
+    """门卫与打分器共用信号，强信号优先于泛 AI 提及。"""
+    if AI_STRONG_SIGNAL.search(text):
+        return 1.0
+    if AI_SIGNAL.search(text):
+        return 0.5
+    return 0.0
+
+
 def score_tweet(
     tweet: dict[str, Any], config_path: Path = SCORE_WEIGHTS_PATH
 ) -> tuple[float, dict[str, float]]:
@@ -260,12 +265,7 @@ def score_tweet(
     views = _metric_number(tweet.get("views"))
     normalization = config["normalization"]
 
-    if AI_STRONG_SIGNAL.search(text):
-        relevance = 1.0
-    elif AI_RELEVANCE_SIGNAL.search(text):
-        relevance = 0.5
-    else:
-        relevance = 0.0
+    relevance = _ai_relevance(text)
     popularity = min(
         1.0,
         math.log10(likes + 1)
