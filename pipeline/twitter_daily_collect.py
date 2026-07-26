@@ -34,8 +34,10 @@ from __future__ import annotations
 import argparse
 import json
 import math
+import os
 import re
 import sys
+import tempfile
 from functools import lru_cache
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -56,7 +58,6 @@ DAY_MAX = 60
 WINDOW_HOURS = 12
 POOL_LABEL_MAX_CHARS = 120
 POOL_ONLY_FIELDS = {
-    "score",
     "status",
     "score_breakdown",
     "label",
@@ -66,6 +67,34 @@ POOL_ONLY_FIELDS = {
 }
 
 _TAG_ALIAS_CACHE: dict[str, str] | None = None
+
+
+def write_json_atomically(path: Path, data: Any, *, compact: bool = False) -> None:
+    """同目录临时文件落盘后替换目标，避免状态文件半写入。"""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary_path: Path | None = None
+    try:
+        with tempfile.NamedTemporaryFile(
+            mode="w",
+            encoding="utf-8",
+            dir=path.parent,
+            prefix=f".{path.name}.",
+            suffix=".tmp",
+            delete=False,
+        ) as temporary_file:
+            temporary_path = Path(temporary_file.name)
+            if compact:
+                json.dump(data, temporary_file, ensure_ascii=False, separators=(",", ":"))
+            else:
+                json.dump(data, temporary_file, ensure_ascii=False, indent=2)
+            temporary_file.write("\n")
+            temporary_file.flush()
+            os.fsync(temporary_file.fileno())
+        os.replace(temporary_path, path)
+    except Exception:
+        if temporary_path is not None and temporary_path.exists():
+            temporary_path.unlink()
+        raise
 
 
 def _load_tag_aliases() -> dict[str, str]:
@@ -377,11 +406,7 @@ def _published_ref(date: Any, tweet_id: str) -> str:
 
 def _write_pool(path: Path, pool: dict[str, Any]) -> None:
     """候选池会进入 Git，使用紧凑 JSON 避免重复缩进体积。"""
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(
-        json.dumps(pool, ensure_ascii=False, separators=(",", ":")) + "\n",
-        encoding="utf-8",
-    )
+    write_json_atomically(path, pool, compact=True)
 
 
 def mode_resolve_slot(args: argparse.Namespace) -> int:
@@ -624,10 +649,7 @@ def mode_pick(args: argparse.Namespace) -> int:
         "items": picked,
     }
     out_path = Path(args.out)
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    out_path.write_text(
-        json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
-    )
+    write_json_atomically(out_path, out)
     print(
         json.dumps(
             {
@@ -738,7 +760,7 @@ def mode_merge_day(args: argparse.Namespace) -> int:
         if not tid:
             continue
         by_id[tid] = it
-        a = str(it.get("author") or "unknown")
+        a = str(it.get("author") or "unknown").casefold()
         author_counts[a] = author_counts.get(a, 0) + 1
 
     added = 0
@@ -755,7 +777,7 @@ def mode_merge_day(args: argparse.Namespace) -> int:
         if len(by_id) >= day_max:
             skipped_cap += 1
             continue
-        a = str(it.get("author") or "unknown")
+        a = str(it.get("author") or "unknown").casefold()
         if author_counts.get(a, 0) >= MAX_PER_AUTHOR:
             skipped_author += 1
             continue
@@ -820,10 +842,7 @@ def mode_merge_day(args: argparse.Namespace) -> int:
     }
     day["items"] = merged
 
-    day_path.parent.mkdir(parents=True, exist_ok=True)
-    day_path.write_text(
-        json.dumps(day, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
-    )
+    write_json_atomically(day_path, day)
 
     pool_published = 0
     if pool_data is not None and pool_path is not None:

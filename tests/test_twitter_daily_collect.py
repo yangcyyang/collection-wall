@@ -248,7 +248,7 @@ class TweetScoringTests(unittest.TestCase):
         self.assertEqual(output["rejected"], {"no_ai_signal": 1})
         self.assertGreater(output["candidates"][0]["score"], 0)
         self.assertEqual(
-            output["candidates"][0]["score_breakdown"]["ai_relevance"], 1
+            output["candidates"][0]["score_breakdown"][0], 1
         )
         self.assertTrue(
             all(item["status"] == "pending" for item in output["candidates"])
@@ -327,6 +327,7 @@ class TweetScoringTests(unittest.TestCase):
 
         candidate = output["candidates"][0]
         self.assertEqual(output["schema_version"], 2)
+        self.assertEqual(output["score_dimensions"], list(twitter.SCORE_DIMENSIONS))
         self.assertEqual(
             set(candidate),
             {
@@ -341,7 +342,9 @@ class TweetScoringTests(unittest.TestCase):
         )
         self.assertEqual(candidate["ref"], tweets[0]["url"])
         self.assertTrue(candidate["label"].endswith("…"))
-        self.assertLessEqual(len(candidate["label"]), 121)
+        self.assertLessEqual(len(candidate["label"]), 97)
+        self.assertEqual(len(candidate["score_breakdown"]), 5)
+        self.assertIsInstance(candidate["score_breakdown"], list)
         self.assertNotIn(long_text, serialized)
         self.assertNotIn("\n  ", serialized)
 
@@ -443,12 +446,14 @@ class TweetScoringTests(unittest.TestCase):
         self.assertEqual(result, 0)
         self.assertEqual([item["id"] for item in output["items"]], ["a1", "a2", "b1"])
         self.assertEqual(output["items"][0]["text"], "OpenAI source text for a1.")
+        self.assertIsInstance(output["items"][0]["score_breakdown"], dict)
         self.assertEqual(output["top_n"], 20)
         self.assertEqual(output["max_per_author"], 2)
 
     def test_pick_fails_closed_when_source_cannot_hydrate_selected_item(self) -> None:
         pool = {
             "schema_version": 2,
+            "score_dimensions": list(twitter.SCORE_DIMENSIONS),
             "candidates": [
                 {
                     "id": "candidate",
@@ -456,7 +461,7 @@ class TweetScoringTests(unittest.TestCase):
                     "label": "OpenAI candidate",
                     "ref": "https://x.com/author/status/candidate",
                     "score": 80,
-                    "score_breakdown": {"ai_relevance": 1.0},
+                    "score_breakdown": [1.0, 0.5, 0.3, 0.8, 0.0],
                     "status": "pending",
                 }
             ],
@@ -524,7 +529,7 @@ class TweetScoringTests(unittest.TestCase):
                     "label": "OpenAI Codex workflow update.",
                     "ref": "https://x.com/author-a/status/picked",
                     "score": 88,
-                    "score_breakdown": {"ai_relevance": 1.0},
+                    "score_breakdown": [1.0, 0.4, 0.2, 0.7, 0.0],
                     "status": "pending",
                 },
                 {
@@ -580,12 +585,51 @@ class TweetScoringTests(unittest.TestCase):
             "data/twitter/2026-07-26.json#picked",
         )
         self.assertNotIn("status", day["items"][0])
-        self.assertNotIn("score", day["items"][0])
+        self.assertEqual(day["items"][0]["score"], 88)
         self.assertNotIn("score_breakdown", day["items"][0])
         self.assertNotIn("label", day["items"][0])
         self.assertNotIn("ref", day["items"][0])
         self.assertEqual(day["selection"]["per_run_max"], 20)
         self.assertEqual(day["selection"]["max_count"], 60)
+
+    def test_merge_day_applies_author_cap_case_insensitively(self) -> None:
+        batch = {
+            "items": [
+                {"id": "one", "author": "OpenAI", "score": 90},
+                {"id": "two", "author": "openai", "score": 80},
+                {"id": "three", "author": "OPENAI", "score": 70},
+            ]
+        }
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            day_path = Path(temp_dir) / "day.json"
+            batch_path = Path(temp_dir) / "batch.json"
+            batch_path.write_text(json.dumps(batch), encoding="utf-8")
+            result = twitter.mode_merge_day(
+                argparse.Namespace(
+                    day_file=str(day_path),
+                    batch=str(batch_path),
+                    date="2026-07-26",
+                    slot="noon",
+                    per_run_max=20,
+                    day_max=60,
+                    pool_file=None,
+                )
+            )
+            day = json.loads(day_path.read_text(encoding="utf-8"))
+
+        self.assertEqual(result, 0)
+        self.assertEqual([item["id"] for item in day["items"]], ["one", "two"])
+        self.assertEqual(day["selection"]["last_batch_skipped_author"], 1)
+
+    def test_write_json_atomically_replaces_completed_file(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            output_path = Path(temp_dir) / "nested" / "result.json"
+            twitter.write_json_atomically(output_path, {"ok": True})
+            self.assertEqual(
+                json.loads(output_path.read_text(encoding="utf-8")), {"ok": True}
+            )
+            self.assertEqual(list(output_path.parent.glob("*.tmp")), [])
 
     def test_default_pool_path_uses_date_and_slot(self) -> None:
         self.assertEqual(
