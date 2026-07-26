@@ -1,0 +1,67 @@
+{
+  "id": "9c35a560-ea6b-438c-b3ad-7542a151156b",
+  "url": "https://github.com/kevinchin12/storyboard-director",
+  "name": "storyboard-director",
+  "headline": "用提示词控制的Codex技能，从故事想法生成完整分镜与视频提示词",
+  "intro": "Storyboard Director 是一套专为 Codex 设计的技能，能够将故事想法快速转化为可执行的分镜方案。它通过提示词控制，自动规划分镜脚本，创建逐镜线稿，并整合到本地 HTML 页面供团队集中审核。支持多 Agent 并行生成，确保剧情逻辑和镜头连续性。在确认线稿后，还可生成按镜头顺序排列的视频提示词，以及可选的最终画面和分镜集合图，极大提升视频前期制作效率。适用于电影、动画、广告及产品视频的故事板制作。",
+  "category": "🎨 视觉创作",
+  "subcategory": "视频生成",
+  "tags": [
+    "故事板",
+    "分镜",
+    "线稿",
+    "Codex",
+    "视频提示词",
+    "AI绘画",
+    "图像生成"
+  ],
+  "capabilities": [
+    "规划故事分镜",
+    "生成逐镜线稿",
+    "创建HTML审核页面",
+    "编写视频提示词",
+    "生成最终画面",
+    "生成分镜集合图",
+    "检查画面连续性"
+  ],
+  "scenarios": [
+    "在做视频故事板时",
+    "在需要快速出分镜线稿时",
+    "在梳理镜头连续性时",
+    "在生成视频AI提示词时",
+    "在集中审查分镜时"
+  ],
+  "search_keywords": [
+    "storyboard",
+    "分镜",
+    "线稿生成",
+    "视频提示词生成",
+    "Codex storyboard",
+    "AI故事板",
+    "故事板工具",
+    "storyboard director",
+    "分镜脚本",
+    "视频前期",
+    "镜头规划",
+    "storyboard AI"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "多Agent并行生成线稿",
+    "本地HTML审核面板",
+    "Session状态管理",
+    "支持最终画面与分镜集合图"
+  ],
+  "cover": "covers/9c35a560-ea6b-438c-b3ad-7542a151156b.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-26T17:47:44",
+  "my_notes": "",
+  "capture_status": "ok",
+  "github_stars": 10
+}
