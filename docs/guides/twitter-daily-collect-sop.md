@@ -107,7 +107,10 @@ python3 pipeline/twitter_daily_collect.py --mode merge-day \
 
 `pick` 必须同时传本场原始 `--inputs`，按池中的 id 还原完整工作单；
 若某个入选 id 无法还原则失败退出，禁止把截断的 `label` 当正文发布。
-原始临时文件丢失时，按池内 `ref` 重新拉取原推后再执行 `pick`。
+
+> **同场重跑限制**：本场的 `/tmp/tw-live.json` 是还原全文的必要输入，不是
+> 持久化状态。它被系统清理后，不能按池内截断 `label` 或 `ref` 直接重发；必须
+> 重新采集该场窗口、重新 hard-filter 与 pick，再由人工复核差异后发布。
 
 ## 2. 字段契约（本体必须生成）
 
@@ -186,4 +189,5 @@ python3 pipeline/twitter_daily_collect.py --mode merge-day \
 - 硬筛通过数与池内候选数一致，不因同作者过多而提前丢数据；
 - `pick` 不选 `score=0` 或 `status=published` 的条目；
 - 合并成功的条目在池内变成 `published`，未发布条目保持 `pending`；
-- 日文件不出现 `score`、`status`、`score_breakdown`、`label`、`ref`、`char_len`、`is_short` 等池专用字段。
+- 日文件保留有限数值的最终 `score` 作为榜单结果凭证；不出现
+  `status`、`score_breakdown`、`label`、`ref`、`char_len`、`is_short` 等池专用字段。
