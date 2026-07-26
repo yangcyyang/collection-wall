@@ -53,7 +53,13 @@ SHORT_TWEET_THRESHOLD = 200
 PER_RUN_MAX = 20
 DAY_MAX = 60
 WINDOW_HOURS = 12
-POOL_ONLY_FIELDS = {"status", "score_breakdown", "char_len", "is_short"}
+POOL_ONLY_FIELDS = {
+    "score",
+    "status",
+    "score_breakdown",
+    "char_len",
+    "is_short",
+}
 
 _TAG_ALIAS_CACHE: dict[str, str] | None = None
 
@@ -151,12 +157,18 @@ AI_WEAK_SIGNAL_PATTERN = (
 )
 AI_STRONG_SIGNAL_PATTERN = (
     r"(?<![A-Za-z0-9])(?:"
-    r"xAI|GPT(?:-\d+(?:\.\d+)?)?|Claude|Opus|Sonnet|Haiku|OpenAI|Anthropic|"
+    r"xAI|GPT(?:-?\d+(?:\.\d+)?)?|"
+    r"ChatGPT(?:-?\d+(?:\.\d+)?)?|Claude(?:-?\d+(?:\.\d+)?)?|"
+    r"Opus|Sonnet|Haiku|OpenAI|Anthropic|"
     r"Gemini|Grok|"
-    r"Agents?|Agentic|Codex|DeepSeek|Fable|Artifacts|opencode|Cursor|ChatGPT|"
-    r"Hermes|Obsidian|NotebookLM|prompts?|Llama|Mistral|RAG"
+    r"Agents?|Agentic|Codex|DeepSeek|Fable|Artifacts|opencode|Cursor|"
+    r"Hermes|Obsidian|NotebookLM|prompts?|Llama|Mistral|RAG|TTS|"
+    r"Qwen(?:-[A-Za-z0-9]+(?:\.[0-9]+)*)*"
     r")(?![A-Za-z0-9])|"
-    r"(?:大模型|智能体|模型路由|提示词|推理模型|编程助手|黑客松|微调|开源模型)"
+    r"(?:"
+    r"大模型|智能体|模型路由|提示词|推理模型|编程助手|黑客松|微调|开源模型|"
+    r"通义|千问|豆包|文心|混元|语音模型|多模态模型"
+    r")"
 )
 AI_RELEVANCE_SIGNAL = re.compile(
     f"(?:{AI_WEAK_SIGNAL_PATTERN})|(?:{AI_STRONG_SIGNAL_PATTERN})", re.I

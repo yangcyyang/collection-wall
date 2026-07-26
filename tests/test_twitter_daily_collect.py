@@ -94,6 +94,36 @@ class TweetScoringTests(unittest.TestCase):
             )
             self.assertEqual(breakdown["ai_relevance"], expected, text)
 
+    def test_model_names_allow_concatenated_version_numbers(self) -> None:
+        versioned_models = [
+            "我发现 ChatGPT5.6 特别喜欢给自己加戏。",
+            "GPT5 在这个编码任务上的结果更稳定。",
+            "Claude4 的工具调用能力有明显提升。",
+        ]
+
+        for text in versioned_models:
+            score, breakdown = twitter.score_tweet(
+                {"text": text, "likes": 10, "views": 1000}
+            )
+            self.assertGreater(score, 0, text)
+            self.assertEqual(breakdown["ai_relevance"], 1.0, text)
+
+    def test_chinese_and_local_model_names_are_strong_ai_signals(self) -> None:
+        model_posts = [
+            "通义发布 Qwen-Audio-3.0-TTS 语音模型。",
+            "千问多模态模型今天正式更新。",
+            "豆包发布新的推理能力。",
+            "文心模型上线新的工具调用能力。",
+            "混元开源了新的语音模型。",
+        ]
+
+        for text in model_posts:
+            score, breakdown = twitter.score_tweet(
+                {"text": text, "likes": 10, "views": 1000}
+            )
+            self.assertGreater(score, 0, text)
+            self.assertEqual(breakdown["ai_relevance"], 1.0, text)
+
     def test_hard_filter_sorts_by_score_instead_of_raw_likes(self) -> None:
         tweets = [
             {
@@ -340,6 +370,7 @@ class TweetScoringTests(unittest.TestCase):
             {"picked": "published", "waiting": "pending"},
         )
         self.assertNotIn("status", day["items"][0])
+        self.assertNotIn("score", day["items"][0])
         self.assertNotIn("score_breakdown", day["items"][0])
         self.assertNotIn("char_len", day["items"][0])
         self.assertNotIn("is_short", day["items"][0])

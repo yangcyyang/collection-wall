@@ -169,4 +169,4 @@ python3 pipeline/twitter_daily_collect.py --mode merge-day \
 - 硬筛通过数与池内候选数一致，不因同作者过多而提前丢数据；
 - `pick` 不选 `score=0` 或 `status=published` 的条目；
 - 合并成功的条目在池内变成 `published`，未发布条目保持 `pending`；
-- 日文件不出现 `status`、`score_breakdown`、`char_len`、`is_short` 等池专用字段。
+- 日文件不出现 `score`、`status`、`score_breakdown`、`char_len`、`is_short` 等池专用字段。
