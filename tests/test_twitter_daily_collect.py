@@ -156,14 +156,9 @@ class TweetScoringTests(unittest.TestCase):
             self.assertGreater(score, 0, text)
             self.assertEqual(breakdown["ai_relevance"], 1.0, text)
 
-        for text in (
-            "这个模型效果不错，但没有任何可验证细节。",
-            "这个模型的推理速度快很多，值得比较不同硬件上的推理成本。",
-        ):
-            tweet = {"text": text, "likes": 10, "views": 1000}
-            self.assertIsNone(twitter.hard_reject(tweet), text)
-            _, breakdown = twitter.score_tweet(tweet)
-            self.assertEqual(breakdown["ai_relevance"], 0.5, text)
+        bare_model = {"text": "这个模型效果不错，但没有任何可验证细节。"}
+        self.assertEqual(twitter.hard_reject(bare_model), "no_ai_signal")
+        self.assertEqual(twitter.score_tweet(bare_model)[0], 0)
 
     def test_required_signal_examples_survive_hard_filter_and_pick(self) -> None:
         tweets = [
@@ -611,7 +606,7 @@ class TweetScoringTests(unittest.TestCase):
             "data/twitter/2026-07-26.json#picked",
         )
         self.assertNotIn("status", day["items"][0])
-        self.assertEqual(day["items"][0]["score"], 88)
+        self.assertNotIn("score", day["items"][0])
         self.assertNotIn("score_breakdown", day["items"][0])
         self.assertNotIn("label", day["items"][0])
         self.assertNotIn("ref", day["items"][0])
@@ -635,7 +630,8 @@ class TweetScoringTests(unittest.TestCase):
             if field and "?" not in line.split(":", 1)[0]:
                 required_fields.add(field.group(1))
 
-        self.assertIn("score", required_fields)
+        self.assertNotIn("score", required_fields)
+        self.assertIn("score", twitter.DAY_FILE_EXCLUDED_FIELDS)
         self.assertFalse(
             required_fields & twitter.DAY_FILE_EXCLUDED_FIELDS,
             "day-file exclusions must not strip required site Tweet fields",

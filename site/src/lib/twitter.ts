@@ -15,7 +15,7 @@ export type Tweet = {
   views?: string;
   has_media?: boolean;
   media_urls?: string[];
-  score: number;
+  score?: number;
   recommend_reason: string;
   tags?: string[];
 };
