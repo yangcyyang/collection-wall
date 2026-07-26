@@ -1,0 +1,76 @@
+{
+  "id": "16dc7994-ce0f-48c8-8983-a7ac056cdfca",
+  "url": "http://randomiban.com/",
+  "name": "Random IBAN",
+  "headline": "Random valid IBANs for testing",
+  "intro": "Random IBAN Generator is a free online tool that creates random but structurally valid International Bank Account Numbers (IBANs) for testing purposes. It supports over 70 countries including all SEPA regions, allowing developers, QA engineers, and financial testers to generate realistic fake IBANs without using real customer data. The tool ensures correct check digits and country-specific lengths to mimic authentic IBANs for validation checks and integration tests. Additionally, it provides random tax identification numbers and bank routing numbers, making it a handy utility for various financial application testing scenarios.",
+  "category": "🌐 网页与代码",
+  "subcategory": "开发工具",
+  "tags": [
+    "IBAN generator",
+    "test IBAN",
+    "fake IBAN",
+    "banking test data",
+    "validation",
+    "random data generator",
+    "SEPA",
+    "finance"
+  ],
+  "capabilities": [
+    "generate random IBANs",
+    "support 70+ country formats",
+    "generate tax identification numbers",
+    "generate bank routing numbers",
+    "copy IBANs instantly",
+    "validate IBAN structure"
+  ],
+  "scenarios": [
+    "while testing banking software",
+    "while validating IBAN input fields",
+    "while developing payment integrations",
+    "while filling out test forms",
+    "while learning IBAN structures"
+  ],
+  "search_keywords": [
+    "random IBAN generator",
+    "test IBAN",
+    "fake IBAN",
+    "IBAN for testing",
+    "generate IBAN",
+    "international bank account number generator",
+    "IBAN validation",
+    "bank account test data",
+    "SEPA test",
+    "IBAN example",
+    "random bank account",
+    "tax ID generator"
+  ],
+  "alternatives": {
+    "replaces": [
+      "manual IBAN creation",
+      "using real IBANs for testing"
+    ],
+    "similar_to": [
+      "iban.com",
+      "bankaccountgenerator.com",
+      "fakeiban.com"
+    ],
+    "pairs_with": [
+      "payment gateway sandbox",
+      "test data suites",
+      "form validators"
+    ]
+  },
+  "tech_highlights": [
+    "client-side IBAN generation",
+    "covers all SEPA and global IBAN formats",
+    "instant copy to clipboard"
+  ],
+  "cover": "covers/16dc7994-ce0f-48c8-8983-a7ac056cdfca.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-07-26T17:09:07",
+  "my_notes": "",
+  "capture_status": "ok"
+}
