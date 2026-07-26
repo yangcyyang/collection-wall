@@ -3,6 +3,7 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 from pipeline import twitter_daily_collect as twitter
 
@@ -142,9 +143,14 @@ class TweetScoringTests(unittest.TestCase):
             self.assertGreater(score, 0, text)
             self.assertEqual(breakdown["ai_relevance"], 1.0, text)
 
-        bare_model = {"text": "这个模型效果不错，但没有任何可验证细节。"}
-        self.assertEqual(twitter.hard_reject(bare_model), "no_ai_signal")
-        self.assertEqual(twitter.score_tweet(bare_model)[0], 0)
+        for text in (
+            "这个模型效果不错，但没有任何可验证细节。",
+            "这个模型的推理速度快很多，值得比较不同硬件上的推理成本。",
+        ):
+            tweet = {"text": text, "likes": 10, "views": 1000}
+            self.assertIsNone(twitter.hard_reject(tweet), text)
+            _, breakdown = twitter.score_tweet(tweet)
+            self.assertEqual(breakdown["ai_relevance"], 0.5, text)
 
     def test_required_signal_examples_survive_hard_filter_and_pick(self) -> None:
         tweets = [
@@ -592,12 +598,28 @@ class TweetScoringTests(unittest.TestCase):
             "data/twitter/2026-07-26.json#picked",
         )
         self.assertNotIn("status", day["items"][0])
-        self.assertNotIn("score", day["items"][0])
+        self.assertEqual(day["items"][0]["score"], 88)
         self.assertNotIn("score_breakdown", day["items"][0])
         self.assertNotIn("label", day["items"][0])
         self.assertNotIn("ref", day["items"][0])
         self.assertEqual(day["selection"]["per_run_max"], 20)
         self.assertEqual(day["selection"]["max_count"], 60)
+
+    def test_normalize_tags_uses_atomic_json_writer(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            day_path = Path(temp_dir) / "2026-07-26.json"
+            day_path.write_text(
+                json.dumps({"items": [{"id": "one", "tags": ["openai", "OpenAI"]}]}),
+                encoding="utf-8",
+            )
+            with patch.object(twitter, "write_json_atomically") as write_json:
+                result = twitter.mode_normalize_tags(
+                    argparse.Namespace(twitter_dir=temp_dir)
+                )
+
+        self.assertEqual(result, 0)
+        write_json.assert_called_once()
+        self.assertEqual(write_json.call_args.args[0], day_path)
 
     def test_merge_day_applies_author_cap_case_insensitively(self) -> None:
         batch = {

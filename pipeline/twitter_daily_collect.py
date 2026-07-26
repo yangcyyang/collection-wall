@@ -58,7 +58,6 @@ DAY_MAX = 60
 WINDOW_HOURS = 12
 POOL_LABEL_MAX_CHARS = 96
 POOL_ONLY_FIELDS = {
-    "score",
     "status",
     "score_breakdown",
     "label",
@@ -181,7 +180,7 @@ NOSTALGIA = re.compile(r"(7年前|2015\s*年|还记得吗)", re.I)
 NON_AI_NEWS = re.compile(r"(旱稻|古城迎客|機動車|兩岸進出口|减脂餐|冷笑话)", re.I)
 AI_WEAK_SIGNAL_PATTERN = (
     r"(?<![A-Za-z0-9])(?:AI|AIGC|AGI|LLMs?)(?![A-Za-z0-9])|"
-    r"(?:生成式人工智能|人工智能|机器学习|深度学习|多模态)"
+    r"(?:生成式人工智能|人工智能|机器学习|深度学习|多模态|模型|推理)"
 )
 AI_STRONG_SIGNAL_PATTERN = (
     r"(?<![A-Za-z0-9])(?:"
@@ -926,10 +925,7 @@ def mode_normalize_tags(args: argparse.Namespace) -> int:
                 file_changed = True
                 items_touched += 1
         if file_changed:
-            path.write_text(
-                json.dumps(day, ensure_ascii=False, indent=2) + "\n",
-                encoding="utf-8",
-            )
+            write_json_atomically(path, day)
             changed_files += 1
     print(
         json.dumps(
