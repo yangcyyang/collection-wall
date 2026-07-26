@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "weights": {
+    "ai_relevance": 0.35,
+    "popularity": 0.25,
+    "engagement_rate": 0.2,
+    "information_density": 0.15,
+    "has_media": 0.05
+  },
+  "normalization": {
+    "popularity_log10_ceiling": 5.0,
+    "engagement_rate_ceiling": 0.05
+  }
+}

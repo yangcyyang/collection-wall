@@ -27,8 +27,10 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
 import re
 import sys
+from functools import lru_cache
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
@@ -37,6 +39,7 @@ from zoneinfo import ZoneInfo
 SHANGHAI = ZoneInfo("Asia/Shanghai")
 ROOT = Path(__file__).resolve().parent
 TAG_ALIASES_PATH = ROOT / "tag_aliases.json"
+SCORE_WEIGHTS_PATH = ROOT / "score_weights.json"
 
 MAX_PER_AUTHOR = 2
 MIN_CANDIDATES = 5  # 12h 窗口略放宽「候选过少」门槛
@@ -135,6 +138,130 @@ AI_SIGNAL = re.compile(
     re.I,
 )
 NON_AI_NEWS = re.compile(r"(旱稻|古城迎客|機動車|兩岸進出口|减脂餐|冷笑话)", re.I)
+AI_RELEVANCE_SIGNAL = re.compile(
+    r"(?<![A-Za-z0-9])(?:"
+    r"AI|xAI|LLMs?|GPT(?:-\d+(?:\.\d+)?)?|Claude|OpenAI|Anthropic|Gemini|Grok|"
+    r"Agents?|Agentic|Codex|DeepSeek|Fable|Artifacts|opencode|Cursor|ChatGPT|"
+    r"Hermes|Obsidian|NotebookLM|prompts?|Llama|Mistral"
+    r")(?![A-Za-z0-9])|"
+    r"(?:大模型|智能体|模型路由|生成式人工智能|人工智能|机器学习|深度学习|"
+    r"多模态|提示词|推理模型|编程助手|黑客松)",
+    re.I,
+)
+
+SCORE_DIMENSIONS = (
+    "ai_relevance",
+    "popularity",
+    "engagement_rate",
+    "information_density",
+    "has_media",
+)
+
+
+@lru_cache(maxsize=8)
+def _load_score_config(path: Path = SCORE_WEIGHTS_PATH) -> dict[str, Any]:
+    try:
+        config = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise RuntimeError(f"cannot load score config: {path}: {exc}") from exc
+
+    weights = config.get("weights")
+    if not isinstance(weights, dict) or set(weights) != set(SCORE_DIMENSIONS):
+        raise RuntimeError(
+            "score config weights must contain exactly: "
+            + ", ".join(SCORE_DIMENSIONS)
+        )
+    normalized_weights = {key: float(weights[key]) for key in SCORE_DIMENSIONS}
+    if any(value < 0 for value in normalized_weights.values()):
+        raise RuntimeError("score weights must be non-negative")
+    if not math.isclose(sum(normalized_weights.values()), 1.0, abs_tol=1e-9):
+        raise RuntimeError("score weights must sum to 1.0")
+
+    normalization = config.get("normalization")
+    if not isinstance(normalization, dict):
+        raise RuntimeError("score config normalization must be an object")
+    popularity_ceiling = float(normalization.get("popularity_log10_ceiling", 5.0))
+    engagement_ceiling = float(normalization.get("engagement_rate_ceiling", 0.05))
+    if popularity_ceiling <= 0 or engagement_ceiling <= 0:
+        raise RuntimeError("score normalization ceilings must be positive")
+
+    return {
+        "weights": normalized_weights,
+        "normalization": {
+            "popularity_log10_ceiling": popularity_ceiling,
+            "engagement_rate_ceiling": engagement_ceiling,
+        },
+    }
+
+
+def _metric_number(value: Any) -> float:
+    if value is None or isinstance(value, bool):
+        return 0.0
+    if isinstance(value, (int, float)):
+        return max(0.0, float(value))
+    raw = str(value).strip().replace(",", "")
+    match = re.fullmatch(r"([0-9]+(?:\.[0-9]+)?)\s*([KMB]?)", raw, re.I)
+    if not match:
+        return 0.0
+    multiplier = {
+        "": 1.0,
+        "K": 1_000.0,
+        "M": 1_000_000.0,
+        "B": 1_000_000_000.0,
+    }[match.group(2).upper()]
+    return float(match.group(1)) * multiplier
+
+
+def _information_density(text: str) -> float:
+    length = len(text.strip())
+    if length <= 0:
+        return 0.0
+    if length < 80:
+        return round(0.8 * math.sqrt(length / 80), 6)
+    if length <= 600:
+        return round(0.8 + 0.2 * ((length - 80) / 520), 6)
+    # 长文不会因字数无限加分；超过理想区间后缓慢衰减。
+    return round(max(0.35, 1.0 - 0.65 * math.log10(length / 600)), 6)
+
+
+def score_tweet(
+    tweet: dict[str, Any], config_path: Path = SCORE_WEIGHTS_PATH
+) -> tuple[float, dict[str, float]]:
+    """返回 0-100 分及归一化维度明细；无真实 AI 信号时硬归零。"""
+    config = _load_score_config(config_path)
+    text = str(tweet.get("text") or "").strip()
+    likes = _metric_number(tweet.get("likes"))
+    views = _metric_number(tweet.get("views"))
+    normalization = config["normalization"]
+
+    relevance = 1.0 if AI_RELEVANCE_SIGNAL.search(text) else 0.0
+    popularity = min(
+        1.0,
+        math.log10(likes + 1)
+        / normalization["popularity_log10_ceiling"],
+    )
+    engagement_rate = likes / views if views > 0 else 0.0
+    engagement = min(
+        1.0,
+        engagement_rate / normalization["engagement_rate_ceiling"],
+    )
+    has_media = 1.0 if tweet.get("has_media") or tweet.get("media_urls") else 0.0
+    breakdown = {
+        "ai_relevance": relevance,
+        "popularity": round(popularity, 6),
+        "engagement_rate": round(engagement, 6),
+        "information_density": _information_density(text),
+        "has_media": has_media,
+    }
+
+    if relevance == 0:
+        return 0.0, breakdown
+
+    score = sum(
+        config["weights"][dimension] * breakdown[dimension]
+        for dimension in SCORE_DIMENSIONS
+    )
+    return round(score * 100, 3), breakdown
 
 
 def resolve_slot(
@@ -248,13 +375,18 @@ def mode_hard_filter(args: argparse.Namespace) -> int:
             continue
         passed.append(t)
 
-    passed.sort(
-        key=lambda t: (int(t.get("likes") or 0), len(t.get("text") or "")),
+    scored_passed = [(t, *score_tweet(t)) for t in passed]
+    scored_passed.sort(
+        key=lambda entry: (
+            entry[1],
+            _metric_number(entry[0].get("likes")),
+            len(entry[0].get("text") or ""),
+        ),
         reverse=True,
     )
     counts: dict[str, int] = {}
     candidates: list[dict[str, Any]] = []
-    for t in passed:
+    for t, score, score_breakdown in scored_passed:
         author = str(t.get("author") or "unknown")
         if counts.get(author, 0) >= args.max_per_author:
             rejected["author_cap"] = rejected.get("author_cap", 0) + 1
@@ -275,6 +407,8 @@ def mode_hard_filter(args: argparse.Namespace) -> int:
                 "media_urls": t.get("media_urls") or [],
                 "char_len": len(text),
                 "is_short": is_short,
+                "score": score,
+                "score_breakdown": score_breakdown,
                 "title": None,
                 "summary": None,
                 "recommend_reason": None,
