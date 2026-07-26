@@ -57,7 +57,8 @@ PER_RUN_MAX = 20
 DAY_MAX = 60
 WINDOW_HOURS = 12
 POOL_LABEL_MAX_CHARS = 96
-POOL_ONLY_FIELDS = {
+# Fields removed when publishing candidate items into public day files.
+DAY_FILE_EXCLUDED_FIELDS = {
     "status",
     "score_breakdown",
     "label",
@@ -803,7 +804,9 @@ def mode_merge_day(args: argparse.Namespace) -> int:
             skipped_author += 1
             continue
         day_item = {
-            key: value for key, value in it.items() if key not in POOL_ONLY_FIELDS
+            key: value
+            for key, value in it.items()
+            if key not in DAY_FILE_EXCLUDED_FIELDS
         }
         by_id[tid] = normalize_item_tags(day_item)
         author_counts[a] = author_counts.get(a, 0) + 1
