@@ -3,15 +3,16 @@ feature_ids: [F001]
 topics: [推特日报, opencli, 采集SOP]
 doc_kind: guide
 created: 2026-07-14
-updated: 2026-07-15
+updated: 2026-07-26
 ---
 
 # 推特日报 · 每日采集 SOP（荧荧执行版）
 
-> 真相源：`data/twitter/YYYY-MM-DD.json`（**北京日历日**，一天一份）  
+> 成品真相源：`data/twitter/YYYY-MM-DD.json`（**北京日历日**，一天一份）
+> 原料池：`data/twitter/pool/YYYY-MM-DD-{noon|midnight}.json`（每场一份，进 Git）
 > 账号：opencli `@yangcyyang1`  
 > 节奏（2026-07-15 芝芝协调 / cy 推进）：**每天两次** · **12:00** 与 **00:00**（北京时间；定时由宪宪注册）  
-> **分工铁律**：脚本只做拉流/去重/硬规则初筛/日文件合并；**title / summary / recommend_reason / tags 必须由荧荧本体逐条阅读后写入**。
+> **分工铁律**：脚本做拉流/去重/硬筛/打分/入池/出单/合并；**title / summary / recommend_reason / tags 必须由荧荧本体逐条阅读后写入**。
 
 ## 0. 节奏、窗口与目标日期（硬边界）
 
@@ -28,8 +29,9 @@ updated: 2026-07-15
 | 项 | 规则 |
 |----|------|
 | 触发 | 每天 **12:00**、**00:00**（取代 11:45） |
-| 单次上限 | **15、不保底** |
-| 单日总上限 | **30、不保底**（两场合计；满 30 停止新增） |
+| 入池 | 硬筛后的候选**全量保存**，不在这里限制作者或条数 |
+| 单次工作单 | 按分数取 **≤20、不保底**；同作者最多 2 条 |
+| 单日安全阀 | **≤60、不保底**；这是异常保护，不是目标产量 |
 | 写入 | **追加 + 按 `id` 去重**；禁止覆盖抹掉另一场 |
 | 结果 | 每个日历日文件在午夜夜场后收满完整 24h（上半场+下半场） |
 
@@ -45,11 +47,27 @@ eval "$(python3 pipeline/twitter_daily_collect.py --mode resolve-slot --slot noo
 opencli twitter search \
   "filter:follows -filter:replies -filter:nativeretweets since:${SINCE_DATE}" \
   --product live --limit 80 -f json > /tmp/tw-live.json
-# … 硬筛 → 逐条写字段（≤15）→
+
+# 机器段：硬筛、打分并持久化；省略 --out 时自动使用该场标准池路径
+python3 pipeline/twitter_daily_collect.py --mode hard-filter \
+  --inputs /tmp/tw-live.json \
+  --date "${TARGET_DATE}" \
+  --slot "${SLOT}"
+
+# 本体段：按分数出工作单，此处才执行同作者 ≤2
+python3 pipeline/twitter_daily_collect.py --mode pick \
+  --pool-file "data/twitter/pool/${TARGET_DATE}-${SLOT}.json" \
+  --out /tmp/tw-work-items.json \
+  --top-n 20 \
+  --max-per-author 2
+
+# 荧荧逐条阅读、淘汰低信息条目并补齐字段，写成 /tmp/batch-items.json 后：
 python3 pipeline/twitter_daily_collect.py --mode merge-day \
   --day-file "data/twitter/${TARGET_DATE}.json" \
   --batch /tmp/batch-items.json \
-  --date "${TARGET_DATE}"
+  --date "${TARGET_DATE}" \
+  --slot "${SLOT}" \
+  --pool-file "data/twitter/pool/${TARGET_DATE}-${SLOT}.json"
 ```
 
 ## 1. 硬规则（脚本可执行）
@@ -60,9 +78,19 @@ python3 pipeline/twitter_daily_collect.py --mode merge-day \
 | 禁非 AI 生活与纯娱乐 | 生活、擦边、三丽鸥、交友、纯梗图 |
 | 禁股票财经炒作 | 建仓、股价、浮亏、散户、memecoin 等（AI 产业讨论除外，禁止「慢慢买」） |
 | 禁怀旧旧闻 | 「7 年前视频」类无新增量 |
-| 同作者 ≤2 | **单次入选**内同一 author 最多 2；合并进日文件后，若同日已有该作者 2 条则本批跳过 |
+| 同作者 ≤2 | **不在入池阶段裁剪**；`pick` 工作单和日文件合并各自执行同作者最多 2 条 |
 | 去转发 / 短回复 | retweet 与无信息 `@` 短回复丢弃 |
-| 质量优先 | 单次 ≤15、单日 ≤30，均不设保底 |
+| 质量优先 | 工作单 ≤20、不保底；本体可继续淘汰，单日 60 仅作安全阀 |
+
+### 打分的已知限制
+
+关键词打分能把明显相关内容顶上来、把明显不相关内容压下去，但**不能判断内容是否有信息量**。只要出现 `Anthropic`、`Codex`、`ChatGPT` 等强信号，吐槽、标题党、网址导航或软文也可能进入 Top 20。
+
+因此，工作单不是可直接发布的成品：荧荧仍须逐条阅读，跳过纯抱怨、无事实增量、全大写营销标题、SEO 软文及与 AI 实质无关的内容。不要为了凑数补齐 20 条；先运行一至两周，再用真实误选样本调整权重或廉价规则。
+
+### 为什么候选池进入 Git
+
+候选池是“为什么入选、为什么没入选”的审计证据，也是 Agent 卡死后可恢复的原料。它不放进 `.gitignore`；每场采集与日刊一起提交。池内只保存公开推文及评分字段，不保存 cookie、token 或登录态信息。
 
 ## 2. 字段契约（本体必须生成）
 
@@ -83,15 +111,15 @@ python3 pipeline/twitter_daily_collect.py --mode merge-day \
 
 ```json
 {
-  "max_count": 30,
-  "per_run_max": 15,
+  "max_count": 60,
+  "per_run_max": 20,
   "min_count": null,
   "window_hours": 12,
   "runs_per_day": 2,
   "slot": "noon|midnight",
   "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
   "merge": "append_dedupe_by_id",
-  "actual_count": 18,
+  "actual_count": 32,
   "short_tweet": {
     "threshold_chars": 200,
     "title_optional": true,
@@ -107,8 +135,10 @@ python3 pipeline/twitter_daily_collect.py --mode merge-day \
 2. `resolve-slot` 得到 `TARGET_DATE`（**00:00 必须是昨天**）  
 3. `opencli twitter whoami`  
 4. 拉 Following，覆盖该场 12h 窗口  
-5. hard-filter → 荧荧逐条字段，**本批 ≤15**  
-6. **merge-day** 写入 `data/twitter/${TARGET_DATE}.json`：
+5. `hard-filter` → 打分 → **全量落盘**到 `data/twitter/pool/${TARGET_DATE}-${SLOT}.json`
+6. `pick` 按分数取 **≤20**，此时才执行同作者 ≤2，产出本体工作单
+7. 荧荧逐条阅读工作单，跳过低信息内容并补齐成品字段
+8. **merge-day** 写入 `data/twitter/${TARGET_DATE}.json`，并回写池中对应条目为 `published`：
 
 ```bash
 python3 pipeline/twitter_daily_collect.py --mode merge-day \
@@ -116,14 +146,15 @@ python3 pipeline/twitter_daily_collect.py --mode merge-day \
   --batch /tmp/batch-items.json \
   --date "${TARGET_DATE}" \
   --slot noon \
-  --per-run-max 15 \
-  --day-max 30
+  --pool-file "data/twitter/pool/${TARGET_DATE}-noon.json" \
+  --per-run-max 20 \
+  --day-max 60
 ```
 
    - 读已有 `items[]`（无则新建）  
    - 按 `id` 去重追加  
    - 刷新 `selection`（含 `slot`、`window_hours=12`）  
-7. commit + push → 验线上对应日期区块  
+9. commit + push → 验线上对应日期区块
 
 前端**不改**：按文件名日期分组，夜场追加进「昨天」不会串到「今天」。
 
@@ -133,4 +164,9 @@ python3 pipeline/twitter_daily_collect.py --mode merge-day \
 
 ## 5. 验收抽样
 
-每趟抽 3–5 条（含短推/长推）：短推无 title、英文短推全译、理由对齐、同日无重复 id、作者单次 ≤2。  
+每趟抽 3–5 条（含短推/长推）：短推无 title、英文短推全译、理由对齐、同日无重复 id、作者单次 ≤2。另核对：
+
+- 硬筛通过数与池内候选数一致，不因同作者过多而提前丢数据；
+- `pick` 不选 `score=0` 或 `status=published` 的条目；
+- 合并成功的条目在池内变成 `published`，未发布条目保持 `pending`；
+- 日文件不出现 `status`、`score_breakdown`、`char_len`、`is_short` 等池专用字段。

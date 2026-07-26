@@ -139,6 +139,218 @@ class TweetScoringTests(unittest.TestCase):
             output["candidates"][0]["score_breakdown"]["ai_relevance"], 1
         )
         self.assertEqual(output["candidates"][1]["score"], 0)
+        self.assertTrue(
+            all(item["status"] == "pending" for item in output["candidates"])
+        )
+
+    def test_hard_filter_keeps_all_authors_for_the_pool(self) -> None:
+        tweets = [
+            {
+                "id": f"same-author-{index}",
+                "author": "same-author",
+                "text": f"OpenAI Codex workflow update number {index}.",
+                "likes": 30 - index,
+                "views": 1000,
+            }
+            for index in range(3)
+        ]
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            input_path = Path(temp_dir) / "input.json"
+            output_path = Path(temp_dir) / "output.json"
+            input_path.write_text(json.dumps(tweets), encoding="utf-8")
+            args = argparse.Namespace(
+                inputs=[str(input_path)],
+                out=str(output_path),
+                max_per_author=2,
+                date="2026-07-26",
+                slot="noon",
+            )
+
+            twitter.mode_hard_filter(args)
+            output = json.loads(output_path.read_text(encoding="utf-8"))
+
+        self.assertEqual(len(output["candidates"]), 3)
+        self.assertNotIn("author_cap", output["rejected"])
+        self.assertTrue(
+            all(item["status"] == "pending" for item in output["candidates"])
+        )
+
+    def test_hard_filter_rerun_preserves_published_status(self) -> None:
+        tweets = [
+            {
+                "id": "already-published",
+                "author": "researcher",
+                "text": "OpenAI Codex workflow update with practical details.",
+                "likes": 30,
+                "views": 1000,
+            }
+        ]
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            input_path = Path(temp_dir) / "input.json"
+            output_path = Path(temp_dir) / "pool.json"
+            input_path.write_text(json.dumps(tweets), encoding="utf-8")
+            output_path.write_text(
+                json.dumps(
+                    {
+                        "candidates": [
+                            {"id": "already-published", "status": "published"}
+                        ]
+                    }
+                ),
+                encoding="utf-8",
+            )
+            args = argparse.Namespace(
+                inputs=[str(input_path)],
+                out=str(output_path),
+                max_per_author=2,
+                date="2026-07-26",
+                slot="noon",
+            )
+
+            twitter.mode_hard_filter(args)
+            output = json.loads(output_path.read_text(encoding="utf-8"))
+
+        self.assertEqual(output["candidates"][0]["status"], "published")
+
+    def test_pick_applies_author_cap_and_skips_zero_or_published_items(self) -> None:
+        pool = {
+            "candidates": [
+                {"id": "a1", "author": "author-a", "score": 100, "status": "pending"},
+                {"id": "a2", "author": "author-a", "score": 90, "status": "pending"},
+                {"id": "a3", "author": "author-a", "score": 80, "status": "pending"},
+                {"id": "b1", "author": "author-b", "score": 70, "status": "pending"},
+                {"id": "zero", "author": "author-c", "score": 0, "status": "pending"},
+                {
+                    "id": "published",
+                    "author": "author-d",
+                    "score": 99,
+                    "status": "published",
+                },
+            ]
+        }
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            pool_path = Path(temp_dir) / "pool.json"
+            output_path = Path(temp_dir) / "work.json"
+            pool_path.write_text(json.dumps(pool), encoding="utf-8")
+            args = argparse.Namespace(
+                pool_file=str(pool_path),
+                out=str(output_path),
+                top_n=20,
+                max_per_author=2,
+                date="2026-07-26",
+                slot="noon",
+            )
+
+            result = twitter.mode_pick(args)
+            output = json.loads(output_path.read_text(encoding="utf-8"))
+
+        self.assertEqual(result, 0)
+        self.assertEqual([item["id"] for item in output["items"]], ["a1", "a2", "b1"])
+        self.assertEqual(output["top_n"], 20)
+        self.assertEqual(output["max_per_author"], 2)
+
+    def test_pick_with_zero_limit_returns_an_empty_work_order(self) -> None:
+        pool = {
+            "candidates": [
+                {
+                    "id": "candidate",
+                    "author": "author",
+                    "score": 80,
+                    "status": "pending",
+                }
+            ]
+        }
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            pool_path = Path(temp_dir) / "pool.json"
+            output_path = Path(temp_dir) / "work.json"
+            pool_path.write_text(json.dumps(pool), encoding="utf-8")
+            args = argparse.Namespace(
+                pool_file=str(pool_path),
+                out=str(output_path),
+                top_n=0,
+                max_per_author=2,
+                date="2026-07-26",
+                slot="noon",
+            )
+
+            twitter.mode_pick(args)
+            output = json.loads(output_path.read_text(encoding="utf-8"))
+
+        self.assertEqual(output["items"], [])
+
+    def test_merge_day_marks_published_pool_items_without_leaking_pool_fields(self) -> None:
+        pool = {
+            "candidates": [
+                {
+                    "id": "picked",
+                    "author": "author-a",
+                    "score": 88,
+                    "score_breakdown": {"ai_relevance": 1.0},
+                    "status": "pending",
+                    "char_len": 42,
+                    "is_short": True,
+                },
+                {
+                    "id": "waiting",
+                    "author": "author-b",
+                    "score": 70,
+                    "status": "pending",
+                },
+            ]
+        }
+        batch = {
+            "items": [
+                {
+                    **pool["candidates"][0],
+                    "text": "OpenAI Codex workflow update.",
+                    "summary": "OpenAI Codex 工作流更新。",
+                    "recommend_reason": "可用于评估编码工作流。",
+                    "tags": ["OpenAI"],
+                }
+            ]
+        }
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            day_path = Path(temp_dir) / "day.json"
+            pool_path = Path(temp_dir) / "pool.json"
+            batch_path = Path(temp_dir) / "batch.json"
+            pool_path.write_text(json.dumps(pool), encoding="utf-8")
+            batch_path.write_text(json.dumps(batch), encoding="utf-8")
+            args = argparse.Namespace(
+                day_file=str(day_path),
+                batch=str(batch_path),
+                date="2026-07-26",
+                slot="noon",
+                per_run_max=20,
+                day_max=60,
+                pool_file=str(pool_path),
+            )
+
+            result = twitter.mode_merge_day(args)
+            day = json.loads(day_path.read_text(encoding="utf-8"))
+            updated_pool = json.loads(pool_path.read_text(encoding="utf-8"))
+
+        self.assertEqual(result, 0)
+        self.assertEqual(
+            {item["id"]: item["status"] for item in updated_pool["candidates"]},
+            {"picked": "published", "waiting": "pending"},
+        )
+        self.assertNotIn("status", day["items"][0])
+        self.assertNotIn("score_breakdown", day["items"][0])
+        self.assertNotIn("char_len", day["items"][0])
+        self.assertNotIn("is_short", day["items"][0])
+        self.assertEqual(day["selection"]["per_run_max"], 20)
+        self.assertEqual(day["selection"]["max_count"], 60)
+
+    def test_default_pool_path_uses_date_and_slot(self) -> None:
+        self.assertEqual(
+            twitter.default_pool_path("2026-07-26", "midnight"),
+            Path("data/twitter/pool/2026-07-26-midnight.json"),
+        )
 
 
 if __name__ == "__main__":

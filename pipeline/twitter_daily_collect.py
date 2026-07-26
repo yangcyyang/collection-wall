@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
-"""推特日报：硬规则初筛 + 单日 JSON 追加去重 + 场次目标日解析。
+"""推特日报：硬规则初筛 + 本地候选池 + 单日 JSON 追加去重。
 
 重要：
   title / summary / recommend_reason / tags **不得**由本脚本模板生成。
-  hard-filter 只产出候选池；字段由 Agent 填写后，用 merge-day 并入日文件。
+  hard-filter 产出持久候选池；pick 生成工作单；字段由 Agent 填写后，
+  用 merge-day 并入日文件并回写候选状态。
 
 节奏（2026-07-15，宪宪日期边界）：
   12:00 午场：窗口=当天 00:00–12:00（北京），写**当天**文件（新建/覆盖式首写）
   00:00 夜场：窗口=前一天 12:00–24:00（北京），**追加前一天**文件（禁止写新日历日）
-  每趟上限 15、单日上限 30（均不保底）；append + id 去重
+  每趟工作单上限 20、单日安全阀 60（均不保底）；append + id 去重
 
 短推契约：
   SHORT_TWEET_THRESHOLD = 200
@@ -16,9 +17,13 @@
 
 用法：
   python3 pipeline/twitter_daily_collect.py --mode resolve-slot --slot noon|midnight
-  python3 pipeline/twitter_daily_collect.py --mode hard-filter --inputs ... --out ...
+  python3 pipeline/twitter_daily_collect.py --mode hard-filter --inputs ... \\
+    --date YYYY-MM-DD --slot noon
+  python3 pipeline/twitter_daily_collect.py --mode pick \\
+    --pool-file data/twitter/pool/YYYY-MM-DD-noon.json --out /tmp/work.json
   python3 pipeline/twitter_daily_collect.py --mode merge-day \\
-    --day-file data/twitter/YYYY-MM-DD.json --batch batch.json --date YYYY-MM-DD --slot noon
+    --day-file data/twitter/YYYY-MM-DD.json --batch batch.json --date YYYY-MM-DD \\
+    --slot noon --pool-file data/twitter/pool/YYYY-MM-DD-noon.json
   python3 pipeline/twitter_daily_collect.py --mode normalize-tags \\
     --twitter-dir data/twitter
 """
@@ -40,13 +45,15 @@ SHANGHAI = ZoneInfo("Asia/Shanghai")
 ROOT = Path(__file__).resolve().parent
 TAG_ALIASES_PATH = ROOT / "tag_aliases.json"
 SCORE_WEIGHTS_PATH = ROOT / "score_weights.json"
+POOL_ROOT = Path("data/twitter/pool")
 
 MAX_PER_AUTHOR = 2
 MIN_CANDIDATES = 5  # 12h 窗口略放宽「候选过少」门槛
 SHORT_TWEET_THRESHOLD = 200
-PER_RUN_MAX = 15
-DAY_MAX = 30
+PER_RUN_MAX = 20
+DAY_MAX = 60
 WINDOW_HOURS = 12
+POOL_ONLY_FIELDS = {"status", "score_breakdown", "char_len", "is_short"}
 
 _TAG_ALIAS_CACHE: dict[str, str] | None = None
 
@@ -318,6 +325,18 @@ def resolve_slot(
     }
 
 
+def default_pool_path(date: str, slot: str) -> Path:
+    """返回一个场次的可追溯候选池路径。"""
+    try:
+        datetime.strptime(date, "%Y-%m-%d")
+    except (TypeError, ValueError) as exc:
+        raise ValueError("date must be YYYY-MM-DD") from exc
+    normalized_slot = str(slot or "").strip().lower()
+    if normalized_slot not in ("noon", "midnight"):
+        raise ValueError("slot must be noon or midnight")
+    return POOL_ROOT / f"{date}-{normalized_slot}.json"
+
+
 def mode_resolve_slot(args: argparse.Namespace) -> int:
     info = resolve_slot(args.slot)
     # shell-friendly exports
@@ -367,6 +386,26 @@ def hard_reject(t: dict[str, Any]) -> str | None:
 
 
 def mode_hard_filter(args: argparse.Namespace) -> int:
+    out_path = Path(args.out)
+    published_ids: set[str] = set()
+    if out_path.exists():
+        try:
+            previous = json.loads(out_path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as exc:
+            print(f"invalid existing pool JSON: {out_path}: {exc}", file=sys.stderr)
+            return 1
+        previous_candidates = (
+            previous.get("candidates") if isinstance(previous, dict) else None
+        )
+        if isinstance(previous_candidates, list):
+            published_ids = {
+                str(item.get("id"))
+                for item in previous_candidates
+                if isinstance(item, dict)
+                and item.get("id")
+                and item.get("status") == "published"
+            }
+
     pool: dict[str, dict[str, Any]] = {}
     for p in args.inputs:
         path = Path(p)
@@ -396,13 +435,8 @@ def mode_hard_filter(args: argparse.Namespace) -> int:
         ),
         reverse=True,
     )
-    counts: dict[str, int] = {}
     candidates: list[dict[str, Any]] = []
     for t, score, score_breakdown in scored_passed:
-        author = str(t.get("author") or "unknown")
-        if counts.get(author, 0) >= args.max_per_author:
-            rejected["author_cap"] = rejected.get("author_cap", 0) + 1
-            continue
         text = (t.get("text") or "").strip()
         is_short = len(text) <= SHORT_TWEET_THRESHOLD
         candidates.append(
@@ -421,16 +455,24 @@ def mode_hard_filter(args: argparse.Namespace) -> int:
                 "is_short": is_short,
                 "score": score,
                 "score_breakdown": score_breakdown,
+                "status": (
+                    "published"
+                    if str(t.get("id")) in published_ids
+                    else "pending"
+                ),
                 "title": None,
                 "summary": None,
                 "recommend_reason": None,
                 "tags": [],
             }
         )
-        counts[author] = counts.get(author, 0) + 1
 
     out = {
+        "schema_version": 1,
         "mode": "hard-filter",
+        "date": getattr(args, "date", None),
+        "slot": getattr(args, "slot", None),
+        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "pool": len(pool),
         "window_hours": WINDOW_HOURS,
         "per_run_max": PER_RUN_MAX,
@@ -439,20 +481,23 @@ def mode_hard_filter(args: argparse.Namespace) -> int:
         "candidates": candidates,
         "rejected": rejected,
         "instruction": (
-            f"Select up to {PER_RUN_MAX} items (no floor). "
+            f"Run pick to select up to {PER_RUN_MAX} pending items (no floor). "
             f"If len(text)<={SHORT_TWEET_THRESHOLD}: omit title; "
             "Chinese → summary=full text; English → summary=full ZH translation. "
             f"If longer: Chinese title + abstract. "
-            f"Then merge-day into data/twitter/YYYY-MM-DD.json (append+dedupe, day max {DAY_MAX})."
+            "Then merge-day into data/twitter/YYYY-MM-DD.json "
+            f"(append+dedupe, day safety valve {DAY_MAX})."
         ),
     }
-    Path(args.out).write_text(
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(
         json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
     print(
         json.dumps(
             {
                 "pool": len(pool),
+                "pool_file": str(out_path),
                 "candidates": len(candidates),
                 "rejected": rejected,
                 "per_run_max": PER_RUN_MAX,
@@ -467,6 +512,86 @@ def mode_hard_filter(args: argparse.Namespace) -> int:
             file=sys.stderr,
         )
         return 2
+    return 0
+
+
+def mode_pick(args: argparse.Namespace) -> int:
+    """从持久候选池生成 Agent 工作单；作者上限只在这里生效。"""
+    pool_path = Path(args.pool_file)
+    if not pool_path.exists():
+        print(f"pool missing: {pool_path}", file=sys.stderr)
+        return 1
+    try:
+        pool = json.loads(pool_path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        print(f"invalid pool JSON: {pool_path}: {exc}", file=sys.stderr)
+        return 1
+    candidates = pool.get("candidates") if isinstance(pool, dict) else None
+    if not isinstance(candidates, list):
+        print("pool must be an object with candidates:[]", file=sys.stderr)
+        return 1
+
+    eligible = [
+        item
+        for item in candidates
+        if isinstance(item, dict)
+        and item.get("id")
+        and str(item.get("status") or "pending") == "pending"
+        and _metric_number(item.get("score")) > 0
+    ]
+    eligible.sort(
+        key=lambda item: (
+            _metric_number(item.get("score")),
+            _metric_number(item.get("likes")),
+            len(str(item.get("text") or "")),
+        ),
+        reverse=True,
+    )
+
+    top_n = max(0, int(args.top_n))
+    max_per_author = max(1, int(args.max_per_author))
+    author_counts: dict[str, int] = {}
+    picked: list[dict[str, Any]] = []
+    for item in eligible:
+        if len(picked) >= top_n:
+            break
+        author = str(item.get("author") or "unknown").casefold()
+        if author_counts.get(author, 0) >= max_per_author:
+            continue
+        picked.append(dict(item))
+        author_counts[author] = author_counts.get(author, 0) + 1
+
+    out = {
+        "schema_version": 1,
+        "mode": "pick",
+        "date": getattr(args, "date", None) or pool.get("date"),
+        "slot": getattr(args, "slot", None) or pool.get("slot"),
+        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "source_pool": str(pool_path),
+        "top_n": top_n,
+        "max_per_author": max_per_author,
+        "eligible_count": len(eligible),
+        "picked_count": len(picked),
+        "items": picked,
+    }
+    out_path = Path(args.out)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(
+        json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    print(
+        json.dumps(
+            {
+                "pool_file": str(pool_path),
+                "work_file": str(out_path),
+                "eligible": len(eligible),
+                "picked": len(picked),
+                "top_n": top_n,
+                "max_per_author": max_per_author,
+            },
+            ensure_ascii=False,
+        )
+    )
     return 0
 
 
@@ -488,12 +613,37 @@ def _parse_time(s: str | None) -> datetime | None:
 
 
 def mode_merge_day(args: argparse.Namespace) -> int:
-    """把本批已填字段的 items 追加进日文件，按 id 去重。"""
+    """把本批已填字段追加进日文件，并把对应池条目标为已发布。"""
     day_path = Path(args.day_file)
     batch_path = Path(args.batch)
     if not batch_path.exists():
         print(f"batch missing: {batch_path}", file=sys.stderr)
         return 1
+
+    pool_path: Path | None = None
+    pool_data: dict[str, Any] | None = None
+    explicit_pool = getattr(args, "pool_file", None)
+    if explicit_pool:
+        pool_path = Path(explicit_pool)
+        if not pool_path.exists():
+            print(f"pool missing: {pool_path}", file=sys.stderr)
+            return 1
+    elif getattr(args, "date", None) and getattr(args, "slot", None):
+        candidate_path = default_pool_path(args.date, args.slot)
+        if candidate_path.exists():
+            pool_path = candidate_path
+    if pool_path is not None:
+        try:
+            loaded_pool = json.loads(pool_path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as exc:
+            print(f"invalid pool JSON: {pool_path}: {exc}", file=sys.stderr)
+            return 1
+        if not isinstance(loaded_pool, dict) or not isinstance(
+            loaded_pool.get("candidates"), list
+        ):
+            print("pool must be an object with candidates:[]", file=sys.stderr)
+            return 1
+        pool_data = loaded_pool
 
     batch_raw = json.loads(batch_path.read_text(encoding="utf-8"))
     if isinstance(batch_raw, dict):
@@ -546,10 +696,12 @@ def mode_merge_day(args: argparse.Namespace) -> int:
     skipped_dup = 0
     skipped_author = 0
     skipped_cap = 0
+    published_ids: set[str] = set()
     for it in batch_items:
         tid = str(it.get("id"))
         if tid in by_id:
             skipped_dup += 1
+            published_ids.add(tid)
             continue
         if len(by_id) >= day_max:
             skipped_cap += 1
@@ -558,8 +710,12 @@ def mode_merge_day(args: argparse.Namespace) -> int:
         if author_counts.get(a, 0) >= MAX_PER_AUTHOR:
             skipped_author += 1
             continue
-        by_id[tid] = normalize_item_tags(dict(it))
+        day_item = {
+            key: value for key, value in it.items() if key not in POOL_ONLY_FIELDS
+        }
+        by_id[tid] = normalize_item_tags(day_item)
         author_counts[a] = author_counts.get(a, 0) + 1
+        published_ids.add(tid)
         added += 1
 
     merged = list(by_id.values())
@@ -619,6 +775,22 @@ def mode_merge_day(args: argparse.Namespace) -> int:
     day_path.write_text(
         json.dumps(day, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
+
+    pool_published = 0
+    if pool_data is not None and pool_path is not None:
+        for item in pool_data["candidates"]:
+            if not isinstance(item, dict):
+                continue
+            if str(item.get("id") or "") not in published_ids:
+                continue
+            if item.get("status") != "published":
+                item["status"] = "published"
+                pool_published += 1
+        pool_path.write_text(
+            json.dumps(pool_data, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+
     print(
         json.dumps(
             {
@@ -628,6 +800,8 @@ def mode_merge_day(args: argparse.Namespace) -> int:
                 "skipped_dup": skipped_dup,
                 "skipped_author": skipped_author,
                 "skipped_day_cap": skipped_cap,
+                "pool_file": str(pool_path) if pool_path else None,
+                "pool_published": pool_published,
             },
             ensure_ascii=False,
         )
@@ -689,18 +863,39 @@ def main() -> int:
     ap.add_argument(
         "--mode",
         default="hard-filter",
-        choices=["hard-filter", "merge-day", "resolve-slot", "normalize-tags"],
+        choices=[
+            "hard-filter",
+            "pick",
+            "merge-day",
+            "resolve-slot",
+            "normalize-tags",
+        ],
     )
     ap.add_argument("--inputs", nargs="+", help="opencli JSON dumps (hard-filter)")
-    ap.add_argument("--out", help="candidate pool output (hard-filter)")
-    ap.add_argument("--max-per-author", type=int, default=MAX_PER_AUTHOR)
+    ap.add_argument("--out", help="output JSON (hard-filter / pick)")
+    ap.add_argument(
+        "--pool-file",
+        help="persistent candidate pool (pick / merge-day status writeback)",
+    )
+    ap.add_argument(
+        "--top-n",
+        type=int,
+        default=PER_RUN_MAX,
+        help="work-order size (pick)",
+    )
+    ap.add_argument(
+        "--max-per-author",
+        type=int,
+        default=MAX_PER_AUTHOR,
+        help="same-author limit (pick)",
+    )
     ap.add_argument("--day-file", help="data/twitter/YYYY-MM-DD.json (merge-day)")
     ap.add_argument("--batch", help="batch items JSON (merge-day)")
-    ap.add_argument("--date", help="YYYY-MM-DD (merge-day)")
+    ap.add_argument("--date", help="YYYY-MM-DD (hard-filter / pick / merge-day)")
     ap.add_argument(
         "--slot",
         choices=["noon", "midnight"],
-        help="run slot: noon|midnight (resolve-slot / merge-day metadata)",
+        help="run slot: noon|midnight",
     )
     ap.add_argument("--per-run-max", type=int, default=PER_RUN_MAX)
     ap.add_argument("--day-max", type=int, default=DAY_MAX)
@@ -717,10 +912,31 @@ def main() -> int:
             return 1
         return mode_resolve_slot(args)
     if args.mode == "hard-filter":
-        if not args.inputs or not args.out:
-            print("hard-filter needs --inputs and --out", file=sys.stderr)
+        if not args.inputs:
+            print("hard-filter needs --inputs", file=sys.stderr)
             return 1
+        if not args.out:
+            if not args.date or not args.slot:
+                print(
+                    "hard-filter needs --out or both --date and --slot",
+                    file=sys.stderr,
+                )
+                return 1
+            args.out = str(default_pool_path(args.date, args.slot))
         return mode_hard_filter(args)
+    if args.mode == "pick":
+        if not args.pool_file:
+            if not args.date or not args.slot:
+                print(
+                    "pick needs --pool-file or both --date and --slot",
+                    file=sys.stderr,
+                )
+                return 1
+            args.pool_file = str(default_pool_path(args.date, args.slot))
+        if not args.out:
+            print("pick needs --out", file=sys.stderr)
+            return 1
+        return mode_pick(args)
     if args.mode == "merge-day":
         if not args.day_file or not args.batch or not args.date:
             print("merge-day needs --day-file --batch --date", file=sys.stderr)
