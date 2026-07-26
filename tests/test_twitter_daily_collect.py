@@ -57,6 +57,43 @@ class TweetScoringTests(unittest.TestCase):
             },
         )
 
+    def test_opus_hands_on_posts_are_strong_ai_signals(self) -> None:
+        opus_posts = [
+            (
+                "Opus 5 - Day 2 Insights. It is more detailed and thorough, "
+                "more expensive but overall worth it."
+            ),
+            (
+                "Tried a kinetic pavilion concept with Opus 5. It produced a "
+                "practical architectural design and realistic opening mechanism."
+            ),
+        ]
+
+        for text in opus_posts:
+            score, breakdown = twitter.score_tweet(
+                {"text": text, "likes": 10, "views": 1000}
+            )
+            self.assertGreater(score, 0)
+            self.assertEqual(breakdown["ai_relevance"], 1.0)
+
+    def test_relevance_distinguishes_weak_and_strong_ai_signals(self) -> None:
+        cases = [
+            ("AI is changing everything.", 0.5),
+            ("AIGC will change content creation.", 0.5),
+            ("AGI may arrive sooner than expected.", 0.5),
+            ("Claude Sonnet shipped a new benchmark result.", 1.0),
+            ("Haiku is faster in this hands-on test.", 1.0),
+            ("This RAG pipeline improves retrieval quality.", 1.0),
+            ("微调后模型在真实任务上的准确率更高。", 1.0),
+            ("这个开源模型的推理性能很强。", 1.0),
+        ]
+
+        for text, expected in cases:
+            _, breakdown = twitter.score_tweet(
+                {"text": text, "likes": 10, "views": 1000}
+            )
+            self.assertEqual(breakdown["ai_relevance"], expected, text)
+
     def test_hard_filter_sorts_by_score_instead_of_raw_likes(self) -> None:
         tweets = [
             {

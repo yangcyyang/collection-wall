@@ -138,16 +138,23 @@ AI_SIGNAL = re.compile(
     re.I,
 )
 NON_AI_NEWS = re.compile(r"(旱稻|古城迎客|機動車|兩岸進出口|减脂餐|冷笑话)", re.I)
-AI_RELEVANCE_SIGNAL = re.compile(
-    r"(?<![A-Za-z0-9])(?:"
-    r"AI|xAI|LLMs?|GPT(?:-\d+(?:\.\d+)?)?|Claude|OpenAI|Anthropic|Gemini|Grok|"
-    r"Agents?|Agentic|Codex|DeepSeek|Fable|Artifacts|opencode|Cursor|ChatGPT|"
-    r"Hermes|Obsidian|NotebookLM|prompts?|Llama|Mistral"
-    r")(?![A-Za-z0-9])|"
-    r"(?:大模型|智能体|模型路由|生成式人工智能|人工智能|机器学习|深度学习|"
-    r"多模态|提示词|推理模型|编程助手|黑客松)",
-    re.I,
+AI_WEAK_SIGNAL_PATTERN = (
+    r"(?<![A-Za-z0-9])(?:AI|AIGC|AGI|LLMs?)(?![A-Za-z0-9])|"
+    r"(?:生成式人工智能|人工智能|机器学习|深度学习|多模态)"
 )
+AI_STRONG_SIGNAL_PATTERN = (
+    r"(?<![A-Za-z0-9])(?:"
+    r"xAI|GPT(?:-\d+(?:\.\d+)?)?|Claude|Opus|Sonnet|Haiku|OpenAI|Anthropic|"
+    r"Gemini|Grok|"
+    r"Agents?|Agentic|Codex|DeepSeek|Fable|Artifacts|opencode|Cursor|ChatGPT|"
+    r"Hermes|Obsidian|NotebookLM|prompts?|Llama|Mistral|RAG"
+    r")(?![A-Za-z0-9])|"
+    r"(?:大模型|智能体|模型路由|提示词|推理模型|编程助手|黑客松|微调|开源模型)"
+)
+AI_RELEVANCE_SIGNAL = re.compile(
+    f"(?:{AI_WEAK_SIGNAL_PATTERN})|(?:{AI_STRONG_SIGNAL_PATTERN})", re.I
+)
+AI_STRONG_SIGNAL = re.compile(AI_STRONG_SIGNAL_PATTERN, re.I)
 
 SCORE_DIMENSIONS = (
     "ai_relevance",
@@ -234,7 +241,12 @@ def score_tweet(
     views = _metric_number(tweet.get("views"))
     normalization = config["normalization"]
 
-    relevance = 1.0 if AI_RELEVANCE_SIGNAL.search(text) else 0.0
+    if AI_STRONG_SIGNAL.search(text):
+        relevance = 1.0
+    elif AI_RELEVANCE_SIGNAL.search(text):
+        relevance = 0.5
+    else:
+        relevance = 0.0
     popularity = min(
         1.0,
         math.log10(likes + 1)
