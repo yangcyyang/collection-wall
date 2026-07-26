@@ -20,7 +20,8 @@
   python3 pipeline/twitter_daily_collect.py --mode hard-filter --inputs ... \\
     --date YYYY-MM-DD --slot noon
   python3 pipeline/twitter_daily_collect.py --mode pick \\
-    --pool-file data/twitter/pool/YYYY-MM-DD-noon.json --out /tmp/work.json
+    --pool-file data/twitter/pool/YYYY-MM-DD-noon.json --inputs /tmp/raw.json \\
+    --out /tmp/work.json
   python3 pipeline/twitter_daily_collect.py --mode merge-day \\
     --day-file data/twitter/YYYY-MM-DD.json --batch batch.json --date YYYY-MM-DD \\
     --slot noon --pool-file data/twitter/pool/YYYY-MM-DD-noon.json
@@ -53,10 +54,13 @@ SHORT_TWEET_THRESHOLD = 200
 PER_RUN_MAX = 20
 DAY_MAX = 60
 WINDOW_HOURS = 12
+POOL_LABEL_MAX_CHARS = 120
 POOL_ONLY_FIELDS = {
     "score",
     "status",
     "score_breakdown",
+    "label",
+    "ref",
     "char_len",
     "is_short",
 }
@@ -349,6 +353,37 @@ def default_pool_path(date: str, slot: str) -> Path:
     return POOL_ROOT / f"{date}-{normalized_slot}.json"
 
 
+def _pool_label(text: str) -> str:
+    """生成可审计但不保存全文的单行标题。"""
+    normalized = re.sub(r"\s+", " ", text).strip()
+    if len(normalized) <= POOL_LABEL_MAX_CHARS:
+        return normalized
+    return normalized[:POOL_LABEL_MAX_CHARS].rstrip() + "…"
+
+
+def _source_ref(tweet_id: str, url: Any) -> str:
+    """优先引用原推 URL；缺失时使用稳定的 X 状态页。"""
+    normalized_url = str(url or "").strip()
+    return normalized_url or f"https://x.com/i/web/status/{tweet_id}"
+
+
+def _published_ref(date: Any, tweet_id: str) -> str:
+    """引用成品日文件；fragment 让人工和脚本都能按 id 定位。"""
+    normalized_date = str(date or "").strip()
+    if not normalized_date:
+        return tweet_id
+    return f"data/twitter/{normalized_date}.json#{tweet_id}"
+
+
+def _write_pool(path: Path, pool: dict[str, Any]) -> None:
+    """候选池会进入 Git，使用紧凑 JSON 避免重复缩进体积。"""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        json.dumps(pool, ensure_ascii=False, separators=(",", ":")) + "\n",
+        encoding="utf-8",
+    )
+
+
 def mode_resolve_slot(args: argparse.Namespace) -> int:
     info = resolve_slot(args.slot)
     # shell-friendly exports
@@ -449,62 +484,35 @@ def mode_hard_filter(args: argparse.Namespace) -> int:
     )
     candidates: list[dict[str, Any]] = []
     for t, score, score_breakdown in scored_passed:
+        tweet_id = str(t.get("id"))
         text = (t.get("text") or "").strip()
-        is_short = len(text) <= SHORT_TWEET_THRESHOLD
+        published = tweet_id in published_ids
         candidates.append(
             {
-                "id": str(t.get("id")),
+                "id": tweet_id,
                 "author": t.get("author"),
-                "author_bio": (t.get("bio") or t.get("author_bio") or "")[:160],
-                "text": t.get("text"),
-                "url": t.get("url"),
-                "created_at": t.get("created_at"),
-                "likes": t.get("likes"),
-                "views": t.get("views"),
-                "has_media": t.get("has_media"),
-                "media_urls": t.get("media_urls") or [],
-                "char_len": len(text),
-                "is_short": is_short,
+                "label": _pool_label(text),
+                "ref": (
+                    _published_ref(getattr(args, "date", None), tweet_id)
+                    if published
+                    else _source_ref(tweet_id, t.get("url"))
+                ),
                 "score": score,
                 "score_breakdown": score_breakdown,
-                "status": (
-                    "published"
-                    if str(t.get("id")) in published_ids
-                    else "pending"
-                ),
-                "title": None,
-                "summary": None,
-                "recommend_reason": None,
-                "tags": [],
+                "status": "published" if published else "pending",
             }
         )
 
     out = {
-        "schema_version": 1,
-        "mode": "hard-filter",
+        "schema_version": 2,
         "date": getattr(args, "date", None),
         "slot": getattr(args, "slot", None),
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "pool": len(pool),
-        "window_hours": WINDOW_HOURS,
-        "per_run_max": PER_RUN_MAX,
-        "day_max": DAY_MAX,
-        "short_tweet_threshold": SHORT_TWEET_THRESHOLD,
+        "source_count": len(pool),
         "candidates": candidates,
         "rejected": rejected,
-        "instruction": (
-            f"Run pick to select up to {PER_RUN_MAX} pending items (no floor). "
-            f"If len(text)<={SHORT_TWEET_THRESHOLD}: omit title; "
-            "Chinese → summary=full text; English → summary=full ZH translation. "
-            f"If longer: Chinese title + abstract. "
-            "Then merge-day into data/twitter/YYYY-MM-DD.json "
-            f"(append+dedupe, day safety valve {DAY_MAX})."
-        ),
     }
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    out_path.write_text(
-        json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
-    )
+    _write_pool(out_path, out)
     print(
         json.dumps(
             {
@@ -552,26 +560,55 @@ def mode_pick(args: argparse.Namespace) -> int:
         and _metric_number(item.get("score")) > 0
     ]
     eligible.sort(
-        key=lambda item: (
-            _metric_number(item.get("score")),
-            _metric_number(item.get("likes")),
-            len(str(item.get("text") or "")),
-        ),
+        key=lambda item: _metric_number(item.get("score")),
         reverse=True,
     )
 
     top_n = max(0, int(args.top_n))
     max_per_author = max(1, int(args.max_per_author))
     author_counts: dict[str, int] = {}
-    picked: list[dict[str, Any]] = []
+    picked_audit: list[dict[str, Any]] = []
     for item in eligible:
-        if len(picked) >= top_n:
+        if len(picked_audit) >= top_n:
             break
         author = str(item.get("author") or "unknown").casefold()
         if author_counts.get(author, 0) >= max_per_author:
             continue
-        picked.append(dict(item))
+        picked_audit.append(item)
         author_counts[author] = author_counts.get(author, 0) + 1
+
+    source_by_id: dict[str, dict[str, Any]] = {}
+    for source_name in getattr(args, "inputs", None) or []:
+        source_path = Path(source_name)
+        if not source_path.exists():
+            print(f"WARN missing {source_path}", file=sys.stderr)
+            continue
+        for tweet in load_json_tweets(source_path):
+            tweet_id = str(tweet.get("id") or "")
+            if tweet_id:
+                source_by_id[tweet_id] = tweet
+
+    missing_ids = [
+        str(item.get("id"))
+        for item in picked_audit
+        if str(item.get("id")) not in source_by_id
+    ]
+    if missing_ids:
+        print(
+            "pick cannot hydrate full text; pass the original --inputs for ids: "
+            + ", ".join(missing_ids),
+            file=sys.stderr,
+        )
+        return 1
+
+    picked: list[dict[str, Any]] = []
+    for audit_item in picked_audit:
+        tweet_id = str(audit_item.get("id"))
+        work_item = dict(source_by_id[tweet_id])
+        work_item["score"] = audit_item.get("score")
+        work_item["score_breakdown"] = audit_item.get("score_breakdown")
+        work_item["status"] = audit_item.get("status")
+        picked.append(work_item)
 
     out = {
         "schema_version": 1,
@@ -795,13 +832,11 @@ def mode_merge_day(args: argparse.Namespace) -> int:
                 continue
             if str(item.get("id") or "") not in published_ids:
                 continue
+            item["ref"] = _published_ref(args.date, str(item.get("id")))
             if item.get("status") != "published":
                 item["status"] = "published"
                 pool_published += 1
-        pool_path.write_text(
-            json.dumps(pool_data, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
-        )
+        _write_pool(pool_path, pool_data)
 
     print(
         json.dumps(

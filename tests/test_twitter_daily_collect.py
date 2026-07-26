@@ -193,6 +193,7 @@ class TweetScoringTests(unittest.TestCase):
             twitter.mode_hard_filter(hard_filter_args)
             pick_args = argparse.Namespace(
                 pool_file=str(pool_path),
+                inputs=[str(input_path)],
                 out=str(work_path),
                 top_n=20,
                 max_per_author=2,
@@ -286,6 +287,64 @@ class TweetScoringTests(unittest.TestCase):
             all(item["status"] == "pending" for item in output["candidates"])
         )
 
+    def test_hard_filter_persists_compact_audit_records_without_full_text(self) -> None:
+        long_text = (
+            "OpenAI Codex released a detailed agent workflow with benchmarks, "
+            "implementation notes, migration guidance, and production lessons. "
+            "This trailing sentence must not be persisted in the Git-backed pool."
+        )
+        tweets = [
+            {
+                "id": "compact",
+                "author": "researcher",
+                "bio": "A long author biography that is not needed for pool audit.",
+                "text": long_text,
+                "url": "https://x.com/researcher/status/compact",
+                "likes": 30,
+                "views": 1000,
+                "has_media": True,
+                "media_urls": [
+                    "https://pbs.twimg.com/media/one.jpg",
+                    "https://pbs.twimg.com/media/two.jpg",
+                ],
+            }
+        ]
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            input_path = Path(temp_dir) / "input.json"
+            output_path = Path(temp_dir) / "pool.json"
+            input_path.write_text(json.dumps(tweets), encoding="utf-8")
+            args = argparse.Namespace(
+                inputs=[str(input_path)],
+                out=str(output_path),
+                date="2026-07-26",
+                slot="noon",
+            )
+
+            twitter.mode_hard_filter(args)
+            serialized = output_path.read_text(encoding="utf-8")
+            output = json.loads(serialized)
+
+        candidate = output["candidates"][0]
+        self.assertEqual(output["schema_version"], 2)
+        self.assertEqual(
+            set(candidate),
+            {
+                "id",
+                "author",
+                "label",
+                "ref",
+                "score",
+                "score_breakdown",
+                "status",
+            },
+        )
+        self.assertEqual(candidate["ref"], tweets[0]["url"])
+        self.assertTrue(candidate["label"].endswith("…"))
+        self.assertLessEqual(len(candidate["label"]), 121)
+        self.assertNotIn(long_text, serialized)
+        self.assertNotIn("\n  ", serialized)
+
     def test_hard_filter_rerun_preserves_published_status(self) -> None:
         tweets = [
             {
@@ -305,7 +364,14 @@ class TweetScoringTests(unittest.TestCase):
                 json.dumps(
                     {
                         "candidates": [
-                            {"id": "already-published", "status": "published"}
+                            {
+                                "id": "already-published",
+                                "status": "published",
+                                "ref": (
+                                    "data/twitter/2026-07-26.json"
+                                    "#already-published"
+                                ),
+                            }
                         ]
                     }
                 ),
@@ -323,9 +389,14 @@ class TweetScoringTests(unittest.TestCase):
             output = json.loads(output_path.read_text(encoding="utf-8"))
 
         self.assertEqual(output["candidates"][0]["status"], "published")
+        self.assertEqual(
+            output["candidates"][0]["ref"],
+            "data/twitter/2026-07-26.json#already-published",
+        )
 
     def test_pick_applies_author_cap_and_skips_zero_or_published_items(self) -> None:
         pool = {
+            "schema_version": 2,
             "candidates": [
                 {"id": "a1", "author": "author-a", "score": 100, "status": "pending"},
                 {"id": "a2", "author": "author-a", "score": 90, "status": "pending"},
@@ -340,13 +411,25 @@ class TweetScoringTests(unittest.TestCase):
                 },
             ]
         }
+        source_tweets = [
+            {
+                "id": item["id"],
+                "author": item["author"],
+                "text": f"OpenAI source text for {item['id']}.",
+                "url": f"https://x.com/{item['author']}/status/{item['id']}",
+            }
+            for item in pool["candidates"]
+        ]
 
         with tempfile.TemporaryDirectory() as temp_dir:
             pool_path = Path(temp_dir) / "pool.json"
+            source_path = Path(temp_dir) / "source.json"
             output_path = Path(temp_dir) / "work.json"
             pool_path.write_text(json.dumps(pool), encoding="utf-8")
+            source_path.write_text(json.dumps(source_tweets), encoding="utf-8")
             args = argparse.Namespace(
                 pool_file=str(pool_path),
+                inputs=[str(source_path)],
                 out=str(output_path),
                 top_n=20,
                 max_per_author=2,
@@ -359,8 +442,46 @@ class TweetScoringTests(unittest.TestCase):
 
         self.assertEqual(result, 0)
         self.assertEqual([item["id"] for item in output["items"]], ["a1", "a2", "b1"])
+        self.assertEqual(output["items"][0]["text"], "OpenAI source text for a1.")
         self.assertEqual(output["top_n"], 20)
         self.assertEqual(output["max_per_author"], 2)
+
+    def test_pick_fails_closed_when_source_cannot_hydrate_selected_item(self) -> None:
+        pool = {
+            "schema_version": 2,
+            "candidates": [
+                {
+                    "id": "candidate",
+                    "author": "author",
+                    "label": "OpenAI candidate",
+                    "ref": "https://x.com/author/status/candidate",
+                    "score": 80,
+                    "score_breakdown": {"ai_relevance": 1.0},
+                    "status": "pending",
+                }
+            ],
+        }
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            pool_path = Path(temp_dir) / "pool.json"
+            source_path = Path(temp_dir) / "source.json"
+            output_path = Path(temp_dir) / "work.json"
+            pool_path.write_text(json.dumps(pool), encoding="utf-8")
+            source_path.write_text("[]", encoding="utf-8")
+            args = argparse.Namespace(
+                pool_file=str(pool_path),
+                inputs=[str(source_path)],
+                out=str(output_path),
+                top_n=20,
+                max_per_author=2,
+                date="2026-07-26",
+                slot="noon",
+            )
+
+            result = twitter.mode_pick(args)
+
+        self.assertEqual(result, 1)
+        self.assertFalse(output_path.exists())
 
     def test_pick_with_zero_limit_returns_an_empty_work_order(self) -> None:
         pool = {
@@ -380,6 +501,7 @@ class TweetScoringTests(unittest.TestCase):
             pool_path.write_text(json.dumps(pool), encoding="utf-8")
             args = argparse.Namespace(
                 pool_file=str(pool_path),
+                inputs=[],
                 out=str(output_path),
                 top_n=0,
                 max_per_author=2,
@@ -394,20 +516,24 @@ class TweetScoringTests(unittest.TestCase):
 
     def test_merge_day_marks_published_pool_items_without_leaking_pool_fields(self) -> None:
         pool = {
+            "schema_version": 2,
             "candidates": [
                 {
                     "id": "picked",
                     "author": "author-a",
+                    "label": "OpenAI Codex workflow update.",
+                    "ref": "https://x.com/author-a/status/picked",
                     "score": 88,
                     "score_breakdown": {"ai_relevance": 1.0},
                     "status": "pending",
-                    "char_len": 42,
-                    "is_short": True,
                 },
                 {
                     "id": "waiting",
                     "author": "author-b",
+                    "label": "Another OpenAI update.",
+                    "ref": "https://x.com/author-b/status/waiting",
                     "score": 70,
+                    "score_breakdown": {"ai_relevance": 1.0},
                     "status": "pending",
                 },
             ]
@@ -449,11 +575,15 @@ class TweetScoringTests(unittest.TestCase):
             {item["id"]: item["status"] for item in updated_pool["candidates"]},
             {"picked": "published", "waiting": "pending"},
         )
+        self.assertEqual(
+            updated_pool["candidates"][0]["ref"],
+            "data/twitter/2026-07-26.json#picked",
+        )
         self.assertNotIn("status", day["items"][0])
         self.assertNotIn("score", day["items"][0])
         self.assertNotIn("score_breakdown", day["items"][0])
-        self.assertNotIn("char_len", day["items"][0])
-        self.assertNotIn("is_short", day["items"][0])
+        self.assertNotIn("label", day["items"][0])
+        self.assertNotIn("ref", day["items"][0])
         self.assertEqual(day["selection"]["per_run_max"], 20)
         self.assertEqual(day["selection"]["max_count"], 60)
 

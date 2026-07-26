@@ -9,7 +9,7 @@ updated: 2026-07-26
 # 推特日报 · 每日采集 SOP（荧荧执行版）
 
 > 成品真相源：`data/twitter/YYYY-MM-DD.json`（**北京日历日**，一天一份）
-> 原料池：`data/twitter/pool/YYYY-MM-DD-{noon|midnight}.json`（每场一份，进 Git）
+> 审计池：`data/twitter/pool/YYYY-MM-DD-{noon|midnight}.json`（每场一份，紧凑引用进 Git）
 > 账号：opencli `@yangcyyang1`  
 > 节奏（2026-07-15 芝芝协调 / cy 推进）：**每天两次** · **12:00** 与 **00:00**（北京时间；定时由宪宪注册）  
 > **分工铁律**：脚本做拉流/去重/硬筛/打分/入池/出单/合并；**title / summary / recommend_reason / tags 必须由荧荧本体逐条阅读后写入**。
@@ -57,6 +57,7 @@ python3 pipeline/twitter_daily_collect.py --mode hard-filter \
 # 本体段：按分数出工作单，此处才执行同作者 ≤2
 python3 pipeline/twitter_daily_collect.py --mode pick \
   --pool-file "data/twitter/pool/${TARGET_DATE}-${SLOT}.json" \
+  --inputs /tmp/tw-live.json \
   --out /tmp/tw-work-items.json \
   --top-n 20 \
   --max-per-author 2
@@ -90,7 +91,21 @@ python3 pipeline/twitter_daily_collect.py --mode merge-day \
 
 ### 为什么候选池进入 Git
 
-候选池是“为什么入选、为什么没入选”的审计证据，也是 Agent 卡死后可恢复的原料。它不放进 `.gitignore`；每场采集与日刊一起提交。池内只保存公开推文及评分字段，不保存 cookie、token 或登录态信息。
+候选池是“为什么入选、为什么没入选”的审计证据。它不放进
+`.gitignore`；每场采集与日刊一起提交。为避免 Git 历史持续膨胀，
+池文件使用紧凑 JSON，**不保存推文全文、作者简介、图片 URL 数组或成品空字段**。
+
+池内每条只保留：
+
+- `id` / `author`；
+- `label`：最多 120 字的单行辨识标题，不等同全文；
+- `ref`：待发布时指向原推 URL，发布后改指
+  `data/twitter/YYYY-MM-DD.json#<id>`；
+- `score` / `score_breakdown` / `status`。
+
+`pick` 必须同时传本场原始 `--inputs`，按池中的 id 还原完整工作单；
+若某个入选 id 无法还原则失败退出，禁止把截断的 `label` 当正文发布。
+原始临时文件丢失时，按池内 `ref` 重新拉取原推后再执行 `pick`。
 
 ## 2. 字段契约（本体必须生成）
 
@@ -135,8 +150,8 @@ python3 pipeline/twitter_daily_collect.py --mode merge-day \
 2. `resolve-slot` 得到 `TARGET_DATE`（**00:00 必须是昨天**）  
 3. `opencli twitter whoami`  
 4. 拉 Following，覆盖该场 12h 窗口  
-5. `hard-filter` → 打分 → **全量落盘**到 `data/twitter/pool/${TARGET_DATE}-${SLOT}.json`
-6. `pick` 按分数取 **≤20**，此时才执行同作者 ≤2，产出本体工作单
+5. `hard-filter` → 打分 → **全量紧凑落盘**到 `data/twitter/pool/${TARGET_DATE}-${SLOT}.json`
+6. `pick` 同时读取池和本场原始 `--inputs`，按分数取 **≤20**，此时才执行同作者 ≤2，产出含全文的临时工作单
 7. 荧荧逐条阅读工作单，跳过低信息内容并补齐成品字段
 8. **merge-day** 写入 `data/twitter/${TARGET_DATE}.json`，并回写池中对应条目为 `published`：
 
@@ -169,4 +184,4 @@ python3 pipeline/twitter_daily_collect.py --mode merge-day \
 - 硬筛通过数与池内候选数一致，不因同作者过多而提前丢数据；
 - `pick` 不选 `score=0` 或 `status=published` 的条目；
 - 合并成功的条目在池内变成 `published`，未发布条目保持 `pending`；
-- 日文件不出现 `score`、`status`、`score_breakdown`、`char_len`、`is_short` 等池专用字段。
+- 日文件不出现 `score`、`status`、`score_breakdown`、`label`、`ref`、`char_len`、`is_short` 等池专用字段。
