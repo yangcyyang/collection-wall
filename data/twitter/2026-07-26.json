@@ -1,0 +1,398 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-26",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2081223709755650054",
+      "author": "zarazhangrui",
+      "author_bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "text": "AI-native companies have a culture akin to an open-source community",
+      "url": "https://x.com/i/status/2081223709755650054",
+      "created_at": "2026-07-26T03:42:54Z",
+      "likes": 8,
+      "views": "606",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "AI 原生公司的文化，很像一个开源社区。",
+      "recommend_reason": "组织形态一句话类比，方便讨论 AI-native 管理。",
+      "tags": [
+        "AI-native",
+        "组织",
+        "开源",
+        "观点"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2081208098820387287",
+      "author": "kevinma_dev_zh",
+      "author_bio": "独立开发者，AI Builder，分享 AI 编程、效率工具和好玩的产品。\n好奇驱动，记录 AI 时代的发现与实践。\n开发了 https://t.co/TR0z0yfd48 - 帮助你更容易的学习英语。",
+      "text": "为什么“软件工厂”会失败？第一篇\n\n最近很流行一种叙事：\n\nAI 已经足够强，代码基本免费，人类才是交付速度的瓶颈。\n\n既然如此，最好的软件团队应该把需求不断塞进队列，让 agent 写代码、测代码、审代码、修线上事故。人只需要看最后的结果。\n\n听起来很诱人。\n\n但问题是：当你不再读代码时，代码库并不会自动变得更好。它只是会更快地积累复杂度，直到某一天，没人知道为什么一个小改动会牵动十几个文件。\n\n——\n\n传统的软件开发，本来就不是一条直线。\n\n团队先决定做什么；\n工程师实现；\n测试与代码审查；\n上线后监控；\n用户反馈、故障和新需求再回到开发队列。\n\n这中间本来就有很多循环。\n\nAI 把“写代码”从几天缩短到几小时，当然很有价值。但它没有同步把“判断这段代码是否值得留下来”变成一个简单问题。\n\n于是，瓶颈从开发转移到了 review。\n\n——\n\n很多团队的下一步，是继续自动化 review：\n\n让 agent 查风格；\n让 agent 跑回归测试；\n让 agent 用浏览器点一遍页面；\n让 agent 根据告警自动生成修复 PR。\n\n再往前走一步，就是所谓的“lights-off software factory”：\n\n没有人写代码，也没有人读代码。\n\n人类只负责决定：还要往队列里塞多少需求。\n\n这就是最危险的地方。\n\n——\n\n问题不在于 agent 不会写代码。\n\n今天的模型很擅长解决局部问题：修一个 bug、补一个功能、做一个新页面、把测试跑绿。\n\n真正困难的是另一件事：\n\n**让一个代码库在连续数月的改动后，依然容易理解、容易修改、不会牵一发而动全身。**\n\n这叫可维护性。\n\n而可维护性恰恰不是“测试是否通过”能完整衡量的。\n\n——\n\n测试的反馈很快：几秒钟后，你就知道 pass 还是 fail。\n\n但糟糕架构的代价很慢：\n\n可能在几周后，某人想改一行配置，却发现同一个逻辑散落在 11 个地方；\n可能在几个月后，一个新功能总会意外影响旧功能；\n也可能在一次事故里，团队不得不钻进三个月没人认真读过的 agent 代码，试图找出系统为什么坏了。\n\n前者容易被自动化奖励。\n\n后者很难。\n\n——\n\n这也解释了一个反直觉现象：\n\n模型在 benchmark 上越来越强，不等于它越来越擅长长期维护生产代码。\n\n很多编程 benchmark 的评分方式，本质上是在问两件事：\n\n这个 bug 修好了吗？\n修复有没有让已有测试坏掉？\n\n如果答案都是“是”，模型得分就高。\n\n但它通常不会因为多写了一层不必要的抽象、把异常吞掉、复制了一份逻辑、或者让未来修改成本变高而被扣分。\n\n所以，“测试通过”不等于“代码库变好了”。\n\n——\n\n更多 token、更复杂的 harness、更多 review agent，当然有帮助。\n\n它们能减少低级错误，能把下限抬高一些。\n\n但它们解决不了一个根本问题：\n\n我们还没有一个足够快、足够可靠的办法，自动判断一段代码在长期来看是不是好设计。\n\n如果模型真的能稳定判断什么是好代码，它大概率一开始就能写出更好的版本。\n\n——\n\n所以这不是“你 prompt 写得不够好”的问题。\n\n也不是反对 AI 编程。\n\n真正需要放弃的，是一种幻觉：\n\n只要把 agent loop 做得足够复杂，就可以彻底取消人的判断和代码审查。\n\n对于一次性的脚本、小工具、原型，完全可以大胆 vibe coding。\n\n但对于要持续演化的生产系统，速度不能只看今天交付了多少代码。\n\n还要看三个月后，这个系统是不是仍然改得动。\n\n——\n\nAI 会让“生成代码”越来越便宜；\n但“保持系统清晰”仍然是稀缺能力。\n\n真正高效的团队，不是把人从开发循环里拿掉。\n\n而是让人从重复劳动中抽离，把判断力放到最有杠杆的位置：需求、架构、关键设计，以及早期纠偏。\n\n—-\n\n如果你想要阅读原文，推荐你使用 SentiaRead 来阅读这篇英文文章。\n\n你可以直接复制链接导入到 SentiaRead 里面，或者使用浏览器插件。这个工具随时可以根据上下文语境来查询不认识的单词，或者把复杂的句子重写成简单、容易读懂的句子",
+      "url": "https://x.com/i/status/2081208098820387287",
+      "created_at": "2026-07-26T02:40:52Z",
+      "likes": 1,
+      "views": "408",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOHvuz4bYAAGhrR.jpg"
+      ],
+      "summary": "反驳「代码免费、人只塞需求」叙事：AI 加速写码却让复杂度更快堆积；瓶颈从开发移到 review。局部任务模型很强，但数月后代码库仍需可理解可改。测试反馈快、糟糕架构代价慢；关掉人类读码的 lights-off 工厂最危险。",
+      "recommend_reason": "对 agent 流水线最关键的泼冷水：可维护性无法被 pass/fail 完全代理。",
+      "tags": [
+        "Agent",
+        "软件工程",
+        "可维护性",
+        "Review",
+        "观点"
+      ],
+      "rank": 2,
+      "title": "为什么「软件工厂」会失败？（一）：可维护性不是测试绿灯"
+    },
+    {
+      "id": "2081206019984962010",
+      "author": "yaojingang",
+      "author_bio": "AI营销与教育科技创业者  \n持续开源GEOFlow / YAO Skills / AI Tools  \n周更《姚金刚认知随笔》：https://t.co/IOUcygwMdR",
+      "text": "开源一个不一样的网址导航系统：Tok123，已推送到GitHub\n把值得收藏的资源，装进一个工具箱，持续收录 Skill、开源项目、实用工具、官方网站与优质内容，按类型和使用场景整理，方便随时查找和收藏\n\n这里的资源，包括各种网址，资料、工具、skill、系统等等\n\n通过配套skill，与Codex等AI工具连通，可实现对各种资源的一句话管理，比如对本地资料、链接、书签等各种资源，一句话完成分类整理与专题上线\n\n一些使用场景：\n1、可以用它来保存和管理自己的各种资源，同时分享给他人\n2、也可以用它来做一个垂直网址导航站，比如AI网址导航，前端已经做了SEO和GEO自动优化\n3、也可以用来管理公司内部资源",
+      "url": "https://x.com/i/status/2081206019984962010",
+      "created_at": "2026-07-26T02:32:36Z",
+      "likes": 16,
+      "views": "1995",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOHryquaUAA1sUM.jpg",
+        "https://pbs.twimg.com/media/HOHr17nbYAAm5_L.jpg",
+        "https://pbs.twimg.com/media/HOHr8-2asAA3hho.jpg"
+      ],
+      "summary": "姚金刚开源 Tok123 网址导航：按类型与场景收录 Skill、开源项目、工具与优质内容；配套 skill 可与 Codex 等连通，一句话完成分类整理与专题上线。场景含个人资源库、垂直 AI 导航站（含 SEO/GEO）、公司内部资源管理。",
+      "recommend_reason": "把书签/Skill 库产品化，且直接接 AI 管理接口。",
+      "tags": [
+        "开源",
+        "导航",
+        "Skill",
+        "Codex",
+        "工具"
+      ],
+      "rank": 3,
+      "title": "开源 Tok123：可给 Codex 一句话管理的网址/Skill 导航箱"
+    },
+    {
+      "id": "2081205761074475030",
+      "author": "kevinma_dev_zh",
+      "author_bio": "独立开发者，AI Builder，分享 AI 编程、效率工具和好玩的产品。\n好奇驱动，记录 AI 时代的发现与实践。\n开发了 https://t.co/TR0z0yfd48 - 帮助你更容易的学习英语。",
+      "text": "为什么“软件工厂”会失败？\n\nDex 这篇《Why Software Factories Fail》第二部分，核心观点很简单：\n\n别把需求扔给 AI，等它一次性写完几千行代码，再指望最后 review 一下就能上线。\n\n至少在今天，这条路大概率会把开发效率从“写代码”转移到“清理 AI 产生的混乱”。\n\n---\n\n很多人期待的是：\n\n“我描述一下需求，模型自己做完，代码自然能长期演化。”\n\n但现实是，模型在局部任务上很强，在长期维护代码质量、理解隐性约束、处理架构取舍上，依然不够可靠。\n\n所以问题不是要不要用 AI。\n\n问题是：人应该在哪些环节保留判断力。\n\n---\n\n作者的答案是：把 review 前移。\n\n与其等 AI 写完一大坨代码后，再花几个小时改 PR；不如在写代码前，先花 30 分钟把关键问题想清楚。\n\n这不一定让你 10 倍、100 倍更快。\n\n但很可能让你稳定地快 2–3 倍，而且不会留下一个越来越难维护的代码库。\n\n---\n\n一个更稳的流程，可以分成四步：\n\n1. 产品设计：先说清楚用户到底有什么问题，什么结果算成功。能画界面就不要只写几段模糊文字。\n\n2. 系统架构：明确服务、接口、数据模型和存储之间怎么协作。\n\n3. 程序设计：继续往下细化到类型、函数签名、调用链和文件结构。这里最容易被忽略，但恰恰决定 AI 写出的代码会不会跑偏。\n\n4. 垂直切片开发：每次只做一个能端到端验证的小闭环，而不是先写完数据库、再写服务层、再写 API、最后才打开前端看结果。\n\n---\n\n所谓“垂直切片”，就是尽快把一个最小功能跑通：\n\n先定义接口，返回 mock 数据；\n然后让前端接起来，在浏览器里看效果；\n再逐步接入服务、数据库、业务逻辑和异常处理。\n\n每走一步都能验证，也都能及时纠偏。\n\n这比一次生成 2,000 行代码，最后才发现方向错了，要便宜得多。\n\n---\n\n作者还有一句很值得记住：\n\n你不是 PR 太多，而是坏 PR 太多。\n\n好的 PR 并不难 review。\n\n因为关键决策早就在产品、架构和程序设计阶段对齐了。最后的代码只是把已达成共识的方案实现出来。\n\n真正痛苦的是那种“一次性 AI 生成”的 PR：看起来量很大，但其中 20%、50%，甚至更多都需要返工。\n\n---\n\n所以，AI 编程真正的杠杆不是“让模型替你思考”。\n\n而是把人从重复劳动里解放出来，让人把注意力集中在更高价值的事情上：\n\n需求是否正确；\n架构是否合理；\n程序结构是否清晰；\n每一步是否真的在朝正确方向前进。\n\n---\n\n一句话总结：\n\n别追求让 AI 黑箱式地把软件做完。把 AI 放进一个有清晰约束、频繁验证、持续纠偏的开发流程里，才更可能真正变快。\n\n—-\n\n如果你想要阅读原文，推荐你使用 SentiaRead 来阅读这篇英文文章。\n\n你可以直接复制链接导入到 SentiaRead 里面，或者使用浏览器插件。这个工具随时可以根据上下文语境来查询不认识的单词，或者把复杂的句子重写成简单、容易读懂的句子",
+      "url": "https://x.com/i/status/2081205761074475030",
+      "created_at": "2026-07-26T02:31:35Z",
+      "likes": 0,
+      "views": "387",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOHtmqNbEAA0gkY.jpg"
+      ],
+      "summary": "续篇核心：别把需求扔给 AI 等它写完再指望最后 review。模型局部强、长期架构弱；应在写码前对齐产品设计、系统架构、程序设计，再用垂直切片端到端验证。好 PR 不难 review，因为关键决策早已对齐。",
+      "recommend_reason": "给出可执行的人机协作流程，比口号式 10x 更务实。",
+      "tags": [
+        "Agent",
+        "软件工程",
+        "Review",
+        "垂直切片",
+        "方法论"
+      ],
+      "rank": 4,
+      "title": "软件工厂失败（二）：把 review 前移，用垂直切片而不是一次生成几千行"
+    },
+    {
+      "id": "2081198608293187635",
+      "author": "thsottiaux",
+      "author_bio": "Codex & ChatGPT @OpenAI",
+      "text": "ChatGPT Work officially has overtaken Codex in number of active users. Way to go.",
+      "url": "https://x.com/i/status/2081198608293187635",
+      "created_at": "2026-07-26T02:03:09Z",
+      "likes": 2226,
+      "views": "130081",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "ChatGPT Work 正式在活跃用户数上超过了 Codex。干得漂亮。",
+      "recommend_reason": "OpenAI 内部工作面两条产品线的用量对比，信号很硬。",
+      "tags": [
+        "OpenAI",
+        "ChatGPT Work",
+        "Codex",
+        "产品",
+        "数据"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2081196270971220191",
+      "author": "yangyi",
+      "author_bio": "用NewMax构建Reverb Marketing\n实践AI营销与增长 | MarTech | AI GTM",
+      "text": "都做AI桌面客户端\n差异化往往是在一些垂直场景细节里\n比如NewMax里能直接调用企查查\n很多人要查各类公司中标信息啥的\n这就很方便\n\n这些看起来毫不起眼的东西  好像只要让AI构建一下MCP就能干的事情\n但是在很多用户看来 是门槛极高的\n\nNewMax这个基座有了之后\n每天解决的就是这些细小的问题\n\n但更为重要的是\n该如何收集到用户的反馈\n以便你发现这些毫不起眼的场景",
+      "url": "https://x.com/i/status/2081196270971220191",
+      "created_at": "2026-07-26T01:53:52Z",
+      "likes": 4,
+      "views": "1582",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "都做AI桌面客户端 差异化往往是在一些垂直场景细节里 比如NewMax里能直接调用企查查 很多人要查各类公司中标信息啥的 这就很方便  这些看起来毫不起眼的东西  好像只要让AI构建一下MCP就能干的事情 但是在很多用户看来 是门槛极高的  NewMax这个基座有了之后 每天解决的就是这些细小的问题  但更为重要的是 该如何收集到用户的反馈 以便你发现这些毫不起眼的场景",
+      "recommend_reason": "桌面 Agent 差异化不在壳，在垂直 MCP/场景与反馈闭环。",
+      "tags": [
+        "桌面客户端",
+        "MCP",
+        "产品",
+        "Agent",
+        "反馈"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2081184143401259226",
+      "author": "xiaoxiaodong01",
+      "author_bio": "国际，不知名，顶级图片提示词专家\nskills/chrom plugin/prompt/art\n星球成员提示词库：1.3万套，可自助开\nWeChat:：newbe2012",
+      "text": "GPT2 x 早安海报 x 缝隙 x 美学提示词\n\n一组构图很有意思的提示词\n可以主题设置各种对象\n\n👇 交作业，记得更换主体\n\nprompt below\n\n```\n围绕任意主题对象展开暗隙窥视式广告画面：两侧用近景失焦的深色遮挡物压成厚重前景，边缘柔软、起伏、不规则，只在中轴附近留下狭长亮缝，让主题视觉载体被局部照亮并从缝隙中显现；主体放在下半段偏中位置，尺度克制但清晰，顶部或上缘设置少量由主题派生的细小附着物，形成轻微的向上节奏。背景是暖白到奶油色的背光场，四周被深咖黑阴影吞入，整体低照度、局部高亮，像隔着纸板裂口与旧实验室灯箱观看。颜色由主题自动派生：大面积暗部保持低明度、低饱和、微暖的棕黑或主题等价暗色；亮缝保持高明度、干净柔和的乳白或主题等价光色；主体使用中等以上饱和度的透明或半透明主题色，下部形成更深、更暖的沉积感，上部保留清亮、轻盈、洁净的发光层，少量高饱和点缀集中在上缘。画面叠加小型实验记录文字：左上以白色打字机感小字和细线表格构成轻量资料块，字距略松、边缘有轻微油墨破损；右侧中部放置更大的斑驳白色主题命名文字和单个数字标记，像旧标签被擦淡，只承担节奏与品牌感，不复制现成词句；主体表面可有极小的黑色编号、短线、圆章式记号。底部中央加入简笔线描小图标，像使用说明或观察者符号，线条朴素，面积很小。整体保留摄影拼贴感：柔焦遮挡、轻微压暗边框、淡颗粒与低清晰度压缩痕迹只作用于光影边缘和白字，不把洁净亮面弄脏；若暗部不形成裂缝、亮缝不包住主体、文字变成整齐商业排版，画面就失去这套风格。\n————\n你要呈现的对象：xxx\n```",
+      "url": "https://x.com/i/status/2081184143401259226",
+      "created_at": "2026-07-26T01:05:40Z",
+      "likes": 14,
+      "views": "1264",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOHZTSRbsAA-Qhm.jpg",
+        "https://pbs.twimg.com/media/HOHZj-lasAAjBgz.jpg",
+        "https://pbs.twimg.com/media/HOHZlaCaUAAaJ1y.jpg",
+        "https://pbs.twimg.com/media/HOHZnsobUAApyH7.jpg"
+      ],
+      "summary": "暗隙窥视式广告构图：两侧近景失焦深色遮挡压成厚前景，中轴狭长亮缝托出主体；暖白背光、实验记录式小字与斑驳命名；可替换任意对象。强调裂缝包住主体、避免整齐商业排版。",
+      "recommend_reason": "结构清晰、可换主体的高质量中文生图提示词。",
+      "tags": [
+        "提示词",
+        "生图",
+        "设计",
+        "GPT",
+        "美学"
+      ],
+      "rank": 7,
+      "title": "小小东：GPT-2×缝隙窥视式早安海报美学提示词"
+    },
+    {
+      "id": "2081175174830047459",
+      "author": "GoSailGlobal",
+      "author_bio": "Show In Public ｜ SaaS 出海 ｜ 克尔凯郭尔种草🌿\n\nSkills hub：https://t.co/x1VU8wWNj1\n博客：https://t.co/ajYYIXGqFg\n\n🤝 合作DM：GoSail_AI\n📮：m17551076169@gmail.com\n\nMCN：collab@gosail",
+      "text": "Opus 5 上线后出了个意外副作用：Claude Tag 开始在 Slack 里疯狂刷屏\n\n有用户反馈 Claude 会主动回复没有 @ 它的消息，甚至在频道里自己发起话题。一个\"太主动\"的 AI 助手原来这么让人崩溃\n\n这其实暴露了 AI Agent 的一个核心矛盾：你希望它足够聪明能主动帮忙，但又不希望它聪明到自己做决定\n\nAI 太被动没用，太主动烦人。这个平衡点到底在哪？",
+      "url": "https://x.com/i/status/2081175174830047459",
+      "created_at": "2026-07-26T00:30:02Z",
+      "likes": 2,
+      "views": "639",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOHRysPaIAAbYjq.jpg"
+      ],
+      "summary": "Opus 5 上线后出了个意外副作用：Claude Tag 开始在 Slack 里疯狂刷屏  有用户反馈 Claude 会主动回复没有 @ 它的消息，甚至在频道里自己发起话题。一个\"太主动\"的 AI 助手原来这么让人崩溃  这其实暴露了 AI Agent 的一个核心矛盾：你希望它足够聪明能主动帮忙，但又不希望它聪明到自己做决定  AI 太被动没用，太主动烦人。这个平衡点到底在哪？",
+      "recommend_reason": "把产品副作用上升到 Agent 主动性边界问题，讨论价值高。",
+      "tags": [
+        "Opus5",
+        "Claude",
+        "Agent",
+        "产品",
+        "Slack"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2081172491796402566",
+      "author": "dotey",
+      "author_bio": "AI Engineer, dedicated to learning and disseminating knowledge about AI, software engineering, and engineering management.",
+      "text": "一图“看懂”各种 AI 名词：《AGI 就在下一圈》\n\n马不知道自己在转圈。它吃进去的叫 Input，磨出来的叫 Output，中间差的五倍价钱，叫智能。天上有一座城，马每圈都看见一次，每次都觉得更近了。只有圈外那匹不拉磨的马看得明白：城是磨盘的热气蒸出来的。但没人问它，因为它也按 Token 收费。 https://t.co/3GQMuRiD3o",
+      "url": "https://x.com/i/status/2081172491796402566",
+      "created_at": "2026-07-26T00:19:23Z",
+      "likes": 59,
+      "views": "10228",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOHPVgwWAAAYIIt.jpg"
+      ],
+      "summary": "一图“看懂”各种 AI 名词：《AGI 就在下一圈》\n\n马不知道自己在转圈。它吃进去的叫 Input，磨出来的叫 Output，中间差的五倍价钱，叫智能。天上有一座城，马每圈都看见一次，每次都觉得更近了。只有圈外那匹不拉磨的马看得明白：城是磨盘的热气蒸出来的。但没人问它，因为它也按 Token 收费。 https://t.co/3GQMuRiD3o",
+      "recommend_reason": "把 AGI 叙事画成推磨寓言，讽刺密度高，适合存图。",
+      "tags": [
+        "AGI",
+        "叙事",
+        "金句",
+        "社区",
+        "配图"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2081142850994229468",
+      "author": "nvidia",
+      "author_bio": "The official handle for NVIDIA. Blog: https://t.co/JAn5eKOTBT Support: https://t.co/6ln5FVnA2o All our social media: https://t.co/Uc56dL57Dh",
+      "text": "\"When I left this morning, I was just Jensen. Next time I come back, call me K-Jensen.”\n\nKorea isn't just an NVIDIA partner anymore. It's where the next wave of AI gets built and SNU is at the center of it.\n\nIntroducing the NVIDIA AI Technology Center at @SeoulNatlUni.\n\nNVIDIA ❤️ SNU — let's build. 🇰🇷",
+      "url": "https://x.com/i/status/2081142850994229468",
+      "created_at": "2026-07-25T22:21:36Z",
+      "likes": 452,
+      "views": "33169",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOGy7c8WAAA-9Js.png",
+        "https://pbs.twimg.com/media/HOGy7frWEAAlsu0.jpg",
+        "https://pbs.twimg.com/media/HOGy7eHXYAAv461.jpg"
+      ],
+      "summary": "黄仁勋幽默自称下次回韩国可叫 K-Jensen。NVIDIA 宣布在首尔国立大学设立 AI Technology Center，强调韩国不再只是合作伙伴，而是下一波 AI 建设与人才中心。",
+      "recommend_reason": "大厂地理扩张信号：韩国从供应链伙伴升到算力/研究落点。",
+      "tags": [
+        "NVIDIA",
+        "韩国",
+        "产学",
+        "基建",
+        "产业"
+      ],
+      "rank": 10,
+      "title": "NVIDIA 在首尔国立大学设立 AI 技术中心"
+    },
+    {
+      "id": "2081117440990404649",
+      "author": "OfficialLoganK",
+      "author_bio": "Member of technical staff, working on Gemini, @GoogleAIStudio, the Gemini API, & Kaggle. My views!",
+      "text": "Automating AI research is going to look a lot more like data cleaning than it is going to look like inventing the transformer",
+      "url": "https://x.com/i/status/2081117440990404649",
+      "created_at": "2026-07-25T20:40:37Z",
+      "likes": 1987,
+      "views": "116917",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "自动化 AI 研究看起来会更像数据清洗，而不是发明 Transformer。",
+      "recommend_reason": "一句话校准预期：研究自动化的瓶颈在数据与流程，不在神话式发明。",
+      "tags": [
+        "AI研究",
+        "自动化",
+        "数据",
+        "观点"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2081096447718723984",
+      "author": "thsottiaux",
+      "author_bio": "Codex & ChatGPT @OpenAI",
+      "text": "We have reset usage limits for all Codex and ChatGPT Work users.\n\nLast night around 2am to 4am we suffered an almost global outage. All well and recovered, but you know what comes next.\n\nWe learn. We reset. Enjoy.",
+      "url": "https://x.com/i/status/2081096447718723984",
+      "created_at": "2026-07-25T19:17:12Z",
+      "likes": 13990,
+      "views": "1098367",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "OpenAI 的 Tibo 表示昨夜约 2–4 点遭遇近乎全球故障，现已恢复；公司为所有 Codex 与 ChatGPT Work 用户重置了用量限额。口号式收尾：学习、重置、继续用。",
+      "recommend_reason": "影响面大的运行事故 + 直接补偿（重置额度），工程与产品人都该知道。",
+      "tags": [
+        "OpenAI",
+        "Codex",
+        "ChatGPT",
+        "故障",
+        "产品"
+      ],
+      "rank": 12,
+      "title": "Codex/ChatGPT Work 昨夜全球故障，OpenAI 重置全员用量"
+    },
+    {
+      "id": "2081069034758607006",
+      "author": "bindureddy",
+      "author_bio": "CEO of @abacusai  - a powerful AI Agent and SuperComputer - Build your company on Abacus AI, ex-AWS & Google",
+      "text": "The Best Path Towards Safe AI Is Open Source AI\n\nThe AI safety crowd has hated on open-source AI, claiming it should be banned. They have cried wolf way too many times...\n\n- GPT 3.0 was too \"dangerous' and OpenAI used that to pivot to closed source years ago!\n\n- Fable 5 was banned by the US government even though other open-source models had the exact same capabilities\n\n- People freaked out about Moltbook, a social network for agents, for a week and then forgot about it\n\nOf course, AI is super powerful tech, but the best way to make it safe is to take a transparent open-source approach\n\nAny other approach will lead to massive abuse of power by monopolies and authoritarian governments and will result in dystopian and more dangerous outcomes",
+      "url": "https://x.com/i/status/2081069034758607006",
+      "created_at": "2026-07-25T17:28:16Z",
+      "likes": 119,
+      "views": "7097",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "作者主张安全 AI 应走透明开源，而非封禁：回顾 GPT-3 危险论推动闭源、Fable 5 被禁而同能力模型仍在、Moltbook agent 社交网短暂恐慌等。认为垄断与威权封闭更危险，开源才是降低权力滥用的正途。",
+      "recommend_reason": "把安全辩论拉回开源 vs 封闭权力结构，论据具体可讨论。",
+      "tags": [
+        "开源",
+        "安全",
+        "治理",
+        "观点",
+        "产业"
+      ],
+      "rank": 13,
+      "title": "安全 AI 的最佳路径是开源：对「狼来了」式封禁叙事的反驳"
+    },
+    {
+      "id": "2081063108932718931",
+      "author": "huangyun_122",
+      "author_bio": "Every great AI journey starts with a single Prompt\nvx: huangyun_122",
+      "text": "至今没碰 WorkBuddy, 但忍不住好奇心，又想玩\n\n可实在忍不了要去官网下载，安装，看说明，还有可能要配置各种环境\n\n于是，把任务丢给 Grok，刷了会小红书对《八仙》《痴迷》《功夫女足》的评论，回来扫个微信，成了。\n\n这是我用的提示词，送给想偷懒的你 ：\n\n我需要你帮我安装workbuddy, 腾讯新出的 work ai agent.\n\n几个要求：\n1. 把所有的安装文件，安装包，配置文件都放在本目录下，不要安装到其他地方以免污染其他环境；\n\n2. 开启母子进程模式，母进程用来跟我汇报进度，分配任务，监控子进程工作进展，保持与我的沟通，直到安装测试完毕才关闭；子进程用来执行具体操作，并把状态汇报给母进程\n\n3. 安装完毕后，写一个简短教程，指导我入门，可以是做一个简单PPT，可以制作一份编程领域的选题清单，要围绕着workbuddy官网宣发的优势特点来设计这个教程\n\n开始执行",
+      "url": "https://x.com/i/status/2081063108932718931",
+      "created_at": "2026-07-25T17:04:44Z",
+      "likes": 87,
+      "views": "23917",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOFrshga4AAkyu5.jpg"
+      ],
+      "summary": "作者不想官网下载配置，把腾讯 WorkBuddy 安装任务丢给 Grok：要求文件全落本目录、母进程汇报/分配/监控、子进程执行，装完写短教程（PPT 或编程选题）围绕产品卖点。并分享完整中文提示词。",
+      "recommend_reason": "可复用的「让 agent 管安装」提示词骨架，母子进程分工清楚。",
+      "tags": [
+        "提示词",
+        "Agent",
+        "WorkBuddy",
+        "Grok",
+        "实操"
+      ],
+      "rank": 14,
+      "title": "把 WorkBuddy 安装全甩给 Grok：母子进程式偷懒提示词"
+    },
+    {
+      "id": "2081060174954188957",
+      "author": "DilumSanjaya",
+      "author_bio": "Software Engineer | Showcasing unique AI applications for Science & Engineering\n\n💡Open Source \nhttps://t.co/02nVJK3OQK\nhttps://t.co/fzTHdVmiYr\n\n🎬\nhttps://t.co/c",
+      "text": "Tried a kinetic pavilion concept with Opus 5\n\nIt came up with\n\n- A practical architectural design\n- Furniture that looks good and fits\n- A realistic petal opening mechanism\n- Even details like rugs and ceiling decorations\n\nI think this design could actually be built https://t.co/iaIn4mwUjC",
+      "url": "https://x.com/i/status/2081060174954188957",
+      "created_at": "2026-07-25T16:53:04Z",
+      "likes": 39,
+      "views": "3091",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2081058533077118977/vid/avc1/476x270/Ig8mgfJd5rz_XYYo.mp4?tag=29"
+      ],
+      "summary": "作者用 Opus 5 试做动能展亭概念，模型给出实用建筑方案、好看且适配的家具、较真实的花瓣开合机构，甚至地毯与天花装饰；作者认为这设计真的有可能落地。",
+      "recommend_reason": "建筑/装置向的 Opus 5 实操样本，不只是聊天体感。",
+      "tags": [
+        "Opus5",
+        "设计",
+        "建筑",
+        "Claude",
+        "案例"
+      ],
+      "rank": 15,
+      "title": "Opus 5 做出可建造感的动态展亭：花瓣开合与家具细节"
+    }
+  ],
+  "generated_at": "2026-07-26T04:03:50Z",
+  "selection": {
+    "target_count": 30,
+    "max_count": 30,
+    "per_run_max": 15,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 15,
+    "last_batch_added": 15,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤15；单日≤30不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
