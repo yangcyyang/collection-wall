@@ -1,11 +1,15 @@
 import argparse
 import json
+import re
 import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
 
 from pipeline import twitter_daily_collect as twitter
+
+
+REPO_ROOT = Path(__file__).resolve().parents[1]
 
 
 class TweetScoringTests(unittest.TestCase):
@@ -100,6 +104,12 @@ class TweetScoringTests(unittest.TestCase):
             "我发现 ChatGPT5.6 特别喜欢给自己加戏。",
             "GPT5 在这个编码任务上的结果更稳定。",
             "Claude4 的工具调用能力有明显提升。",
+            "Qwen3-Max 在中文代码任务上更稳定。",
+            "Qwen2.5-VL 多模态识别效果提升。",
+            "Llama4 的本地推理速度更快。",
+            "Gemini3 的长上下文能力继续增强。",
+            "Grok5 在实时问答里表现更好。",
+            "Mistral3 发布新的开源模型。",
         ]
 
         for text in versioned_models:
@@ -129,6 +139,9 @@ class TweetScoringTests(unittest.TestCase):
         strong_signals = [
             "Opus 5 很强，适合复杂任务。",
             "Llama 4 发布了新的推理模型。",
+            "Llama4 的本地推理速度更快。",
+            "Qwen3-Max 在中文代码任务上更稳定。",
+            "Gemini3 的长上下文能力继续增强。",
             "Mistral 上线新的模型能力。",
             "RAG 实践能改善检索质量。",
             "通义发布 Qwen-Audio-3.0-TTS 语音模型。",
@@ -604,6 +617,29 @@ class TweetScoringTests(unittest.TestCase):
         self.assertNotIn("ref", day["items"][0])
         self.assertEqual(day["selection"]["per_run_max"], 20)
         self.assertEqual(day["selection"]["max_count"], 60)
+
+    def test_day_file_exclusions_do_not_remove_required_site_tweet_fields(self) -> None:
+        type_source = (REPO_ROOT / "site/src/lib/twitter.ts").read_text(
+            encoding="utf-8"
+        )
+        match = re.search(
+            r"export type Tweet = \{\n(?P<body>.*?)\n\};",
+            type_source,
+            re.S,
+        )
+        self.assertIsNotNone(match, "Tweet type must stay parseable")
+
+        required_fields = set()
+        for line in match.group("body").splitlines():
+            field = re.match(r"\s*([A-Za-z_][A-Za-z0-9_]*)\??:", line)
+            if field and "?" not in line.split(":", 1)[0]:
+                required_fields.add(field.group(1))
+
+        self.assertIn("score", required_fields)
+        self.assertFalse(
+            required_fields & twitter.DAY_FILE_EXCLUDED_FIELDS,
+            "day-file exclusions must not strip required site Tweet fields",
+        )
 
     def test_normalize_tags_uses_atomic_json_writer(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
