@@ -14,6 +14,7 @@ from typing import Callable, Sequence
 
 COMMIT_MESSAGE = "data: sync captured bookmarks"
 MIN_SYNC_INTERVAL_SECONDS = 300
+DATA_TOOLS_PREFIX = "data/tools/"
 
 
 def normalize_sync_delay(raw_value: str | None) -> float:
@@ -43,6 +44,61 @@ def _run_git(
     return result
 
 
+def _ahead_commits(repo_root: Path, *, runner: Callable = subprocess.run) -> list[str]:
+    ahead = _run_git(
+        repo_root,
+        ["rev-list", "--reverse", "@{u}..HEAD"],
+        runner=runner,
+    )
+    return [sha for sha in ahead.stdout.splitlines() if sha.strip()]
+
+
+def _is_auto_data_commit(
+    repo_root: Path,
+    sha: str,
+    *,
+    runner: Callable = subprocess.run,
+) -> bool:
+    subject = _run_git(
+        repo_root,
+        ["log", "-1", "--format=%s", sha],
+        runner=runner,
+    ).stdout.strip()
+    if subject != COMMIT_MESSAGE:
+        return False
+
+    changed_files = _run_git(
+        repo_root,
+        ["diff-tree", "--no-commit-id", "--name-only", "-r", sha],
+        runner=runner,
+    ).stdout.splitlines()
+    return bool(changed_files) and all(
+        path == "data/tools" or path.startswith(DATA_TOOLS_PREFIX)
+        for path in changed_files
+    )
+
+
+def _assert_auto_sync_push_is_safe(
+    repo_root: Path,
+    *,
+    runner: Callable = subprocess.run,
+) -> bool:
+    commits = _ahead_commits(repo_root, runner=runner)
+    if not commits:
+        return False
+    unsafe = [
+        sha
+        for sha in commits
+        if not _is_auto_data_commit(repo_root, sha, runner=runner)
+    ]
+    if unsafe:
+        raise RuntimeError(
+            "refusing to auto-push non data/tools commits: "
+            + ", ".join(sha[:12] for sha in unsafe)
+        )
+    return True
+
+
 def sync_repo(repo_root: Path, *, runner: Callable = subprocess.run) -> bool:
     """提交并推送采集产物；没有数据变化时返回 False。"""
     repo_root = Path(repo_root)
@@ -50,6 +106,10 @@ def sync_repo(repo_root: Path, *, runner: Callable = subprocess.run) -> bool:
     _run_git(
         repo_root,
         ["rev-parse", "--abbrev-ref", "--symbolic-full-name", "@{u}"],
+        runner=runner,
+    )
+    has_safe_ahead_commits = _assert_auto_sync_push_is_safe(
+        repo_root,
         runner=runner,
     )
     _run_git(repo_root, ["add", "--", "data/tools"], runner=runner)
@@ -60,12 +120,7 @@ def sync_repo(repo_root: Path, *, runner: Callable = subprocess.run) -> bool:
     ]
     diff = runner(diff_command, capture_output=True, text=True, check=False)
     if diff.returncode == 0:
-        ahead = _run_git(
-            repo_root,
-            ["rev-list", "--count", "@{u}..HEAD"],
-            runner=runner,
-        )
-        if int(ahead.stdout.strip() or "0") == 0:
+        if not has_safe_ahead_commits:
             return False
         _run_git(repo_root, ["push"], runner=runner)
         return True

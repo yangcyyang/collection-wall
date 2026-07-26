@@ -39,6 +39,8 @@ class GitSyncTests(unittest.TestCase):
             commands.append(command)
             if command[3:] == ["rev-parse", "--abbrev-ref", "--symbolic-full-name", "@{u}"]:
                 return SimpleNamespace(returncode=0, stdout="origin/main\n", stderr="")
+            if command[3:] == ["rev-list", "--reverse", "@{u}..HEAD"]:
+                return SimpleNamespace(returncode=0, stdout="", stderr="")
             if command[3:6] == ["diff", "--cached", "--quiet"]:
                 return SimpleNamespace(returncode=1, stdout="", stderr="")
             return SimpleNamespace(returncode=0, stdout="", stderr="")
@@ -48,6 +50,7 @@ class GitSyncTests(unittest.TestCase):
         self.assertTrue(changed)
         self.assertEqual(commands, [
             ["git", "-C", "/repo", "rev-parse", "--abbrev-ref", "--symbolic-full-name", "@{u}"],
+            ["git", "-C", "/repo", "rev-list", "--reverse", "@{u}..HEAD"],
             ["git", "-C", "/repo", "add", "--", "data/tools"],
             ["git", "-C", "/repo", "diff", "--cached", "--quiet", "--", "data/tools"],
             ["git", "-C", "/repo", "commit", "-m", "data: sync captured bookmarks", "--", "data/tools"],
@@ -61,8 +64,8 @@ class GitSyncTests(unittest.TestCase):
             commands.append(command)
             if command[3:] == ["rev-parse", "--abbrev-ref", "--symbolic-full-name", "@{u}"]:
                 return SimpleNamespace(returncode=0, stdout="origin/main\n", stderr="")
-            if command[3:] == ["rev-list", "--count", "@{u}..HEAD"]:
-                return SimpleNamespace(returncode=0, stdout="0\n", stderr="")
+            if command[3:] == ["rev-list", "--reverse", "@{u}..HEAD"]:
+                return SimpleNamespace(returncode=0, stdout="", stderr="")
             return SimpleNamespace(returncode=0, stdout="", stderr="")
 
         changed = sync_repo(Path("/repo"), runner=runner)
@@ -70,21 +73,44 @@ class GitSyncTests(unittest.TestCase):
         self.assertFalse(changed)
         self.assertEqual(len(commands), 4)
 
-    def test_sync_retries_push_when_previous_commit_is_ahead(self):
+    def test_sync_retries_push_when_previous_auto_data_commit_is_ahead(self):
         commands = []
 
         def runner(command, **kwargs):
             commands.append(command)
             if command[3:] == ["rev-parse", "--abbrev-ref", "--symbolic-full-name", "@{u}"]:
                 return SimpleNamespace(returncode=0, stdout="origin/main\n", stderr="")
-            if command[3:] == ["rev-list", "--count", "@{u}..HEAD"]:
-                return SimpleNamespace(returncode=0, stdout="1\n", stderr="")
+            if command[3:] == ["rev-list", "--reverse", "@{u}..HEAD"]:
+                return SimpleNamespace(returncode=0, stdout="abc123\n", stderr="")
+            if command[3:] == ["log", "-1", "--format=%s", "abc123"]:
+                return SimpleNamespace(returncode=0, stdout="data: sync captured bookmarks\n", stderr="")
+            if command[3:] == ["diff-tree", "--no-commit-id", "--name-only", "-r", "abc123"]:
+                return SimpleNamespace(returncode=0, stdout="data/tools/example.json\n", stderr="")
             return SimpleNamespace(returncode=0, stdout="", stderr="")
 
         changed = sync_repo(Path("/repo"), runner=runner)
 
         self.assertTrue(changed)
         self.assertEqual(commands[-1], ["git", "-C", "/repo", "push"])
+
+    def test_sync_refuses_to_push_unrelated_ahead_commit(self):
+        commands = []
+
+        def runner(command, **kwargs):
+            commands.append(command)
+            if command[3:] == ["rev-parse", "--abbrev-ref", "--symbolic-full-name", "@{u}"]:
+                return SimpleNamespace(returncode=0, stdout="origin/main\n", stderr="")
+            if command[3:] == ["rev-list", "--reverse", "@{u}..HEAD"]:
+                return SimpleNamespace(returncode=0, stdout="def456\n", stderr="")
+            if command[3:] == ["log", "-1", "--format=%s", "def456"]:
+                return SimpleNamespace(returncode=0, stdout="fix: intermediate code change\n", stderr="")
+            return SimpleNamespace(returncode=0, stdout="", stderr="")
+
+        with self.assertRaises(RuntimeError):
+            sync_repo(Path("/repo"), runner=runner)
+
+        self.assertNotIn(["git", "-C", "/repo", "push"], commands)
+        self.assertNotIn(["git", "-C", "/repo", "add", "--", "data/tools"], commands)
 
     def test_sync_fails_closed_without_upstream_before_staging(self):
         commands = []
