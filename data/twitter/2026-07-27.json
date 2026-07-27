@@ -1,0 +1,379 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-27",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2081582620769489403",
+      "author": "gkxspace",
+      "author_bio": "",
+      "text": "都说 GPT-5.6 Pro 才是最牛逼的，很多人早都偷偷把 Codex 调用 Pro 封装成了 Skills\n\nOpenClaw 创始人 Peter 写的 Oracle：\n自动打包 Prompt 和项目文件，可以走 ChatGPT 网页或 API，支持多模型、保存会话和继续追问\nhttps://t.co/eO1yRV7bZs\n\n推友针对 5.6Pro 做的更激进的玩法：\nPro 当调度者，Codex 当执行者，规划、实现、测试、复审自动循环\nhttps://t.co/uENjmGRFyF",
+      "url": "https://x.com/i/status/2081582620769489403",
+      "created_at": "2026-07-27T03:29:05Z",
+      "likes": 5,
+      "views": "963",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HONEU-cWMAA6RQc.jpg"
+      ],
+      "summary": "作者称很多人已把 Codex 调用 GPT-5.6 Pro 封装成 Skills。举例 OpenClaw 创始人 Peter 的 Oracle：自动打包 Prompt 与项目文件，走网页或 API，支持多模型与续聊；以及推友更激进玩法：Pro 调度、Codex 执行，规划—实现—测试—复审自动循环。",
+      "recommend_reason": "把「最强模型」接进可复制编排技能，方法论清晰。",
+      "tags": [
+        "Codex",
+        "GPT",
+        "Skill",
+        "工作流",
+        "Agent"
+      ],
+      "rank": 1,
+      "title": "把 Codex 调 Pro 做成 Skills：Oracle 与 Pro 调度闭环"
+    },
+    {
+      "id": "2081581038187270552",
+      "author": "gkxspace",
+      "author_bio": "",
+      "text": "我越来越能体会到 Grok 4.5 的牛逼\n\n你如果用 GPT 5.6sol、Claude Fable 5，会发现它们太慢了，而且很多时候太过度思考\n\n反而是 Grok 4.5 干活非常的干脆利落、不过度思考、质量还高，关键价格便宜",
+      "url": "https://x.com/i/status/2081581038187270552",
+      "created_at": "2026-07-27T03:22:48Z",
+      "likes": 8,
+      "views": "1184",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "我越来越能体会到 Grok 4.5 的牛逼  你如果用 GPT 5.6sol、Claude Fable 5，会发现它们太慢了，而且很多时候太过度思考  反而是 Grok 4.5 干活非常的干脆利落、不过度思考、质量还高，关键价格便宜",
+      "recommend_reason": "一线使用对比：速度与不过度思考成了差异化。",
+      "tags": [
+        "Grok",
+        "对比",
+        "体验",
+        "成本"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2081568902241513786",
+      "author": "vista8",
+      "author_bio": "",
+      "text": "基于 bento PPT 改造了一个 Skill。\n\n输入内容或主题，自动生成可编辑修改、在线演示，甚至可以发给别人协作的HTML PPT。\n\n安装指令：npx skills add joeseesun/qiaomu-bento-ppt\n\n推荐用前端审美好的模型，比如Kimi K3或Opus 4.8+\n\n开源见评论区 https://t.co/EQozEMbAUx",
+      "url": "https://x.com/i/status/2081568902241513786",
+      "created_at": "2026-07-27T02:34:34Z",
+      "likes": 19,
+      "views": "2974",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOM3GIoaEAAkM-L.jpg",
+        "https://pbs.twimg.com/media/HOM3UK-bUAAfsiz.jpg"
+      ],
+      "summary": "基于 bento PPT 改造了一个 Skill。  输入内容或主题，自动生成可编辑修改、在线演示，甚至可以发给别人协作的HTML PPT。  安装指令：npx skills add joeseesun/qiaomu-bento-ppt  推荐用前端审美好的模型，比如Kimi K3或Opus 4.8+  开源见评论区 https://t.co/EQozEMbAUx",
+      "recommend_reason": "可安装 skill + HTML PPT 协作链，直接可试。",
+      "tags": [
+        "Skill",
+        "PPT",
+        "HTML",
+        "开源",
+        "工具"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2081568344143261907",
+      "author": "bindureddy",
+      "author_bio": "",
+      "text": "Tomorrow is a big day - Kimi K3 open weights will drop \n\n- move sonnet and Terra workloads to K3\n- fine tune frontier models to create your custom model\n- open weights AI will truly be only a few points behind OpenAI and Anthropic \n\n🚀🚀",
+      "url": "https://x.com/i/status/2081568344143261907",
+      "created_at": "2026-07-27T02:32:21Z",
+      "likes": 72,
+      "views": "4650",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "作者预告明日 Kimi K3 开源权重：可把 Sonnet 与 Terra 工作负载迁到 K3、微调成定制模型；认为开源权重距离 OpenAI/Anthropic 只差几个点。",
+      "recommend_reason": "开源权重窗口的行动清单，时效性强。",
+      "tags": [
+        "Kimi",
+        "K3",
+        "开源",
+        "权重",
+        "产品"
+      ],
+      "rank": 4,
+      "title": "Kimi K3 开源权重明日落地：可微调与迁 Sonnet/Terra 负载"
+    },
+    {
+      "id": "2081557960975859773",
+      "author": "yangyi",
+      "author_bio": "",
+      "text": "开发者在售价约 8 美元的 ESP32-S3 微控制器上完全本地运行了一个 28.9M 参数的语言模型，无需连接服务器，生成速度约 9.5 tok/s。\n端侧AI成本越来越低了\nhttps://t.co/sABTY4uO59",
+      "url": "https://x.com/i/status/2081557960975859773",
+      "created_at": "2026-07-27T01:51:06Z",
+      "likes": 6,
+      "views": "2042",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "开发者在售价约 8 美元的 ESP32-S3 微控制器上完全本地运行了一个 28.9M 参数的语言模型，无需连接服务器，生成速度约 9.5 tok/s。 端侧AI成本越来越低了 https://t.co/sABTY4uO59",
+      "recommend_reason": "端侧小模型成本数字扎实，适合做趋势锚点。",
+      "tags": [
+        "端侧",
+        "嵌入式",
+        "本地模型",
+        "硬件"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2081534792903147881",
+      "author": "thsottiaux",
+      "author_bio": "",
+      "text": "Vibes are strong. Never seen OpenAI more focused and humming.",
+      "url": "https://x.com/i/status/2081534792903147881",
+      "created_at": "2026-07-27T00:19:02Z",
+      "likes": 2465,
+      "views": "135596",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "气氛很足。从没见过 OpenAI 更专注、更在状态。",
+      "recommend_reason": "内部士气信号，可与产品节奏对照读。",
+      "tags": [
+        "OpenAI",
+        "文化",
+        "产品"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2081528218751045870",
+      "author": "LufzzLiz",
+      "author_bio": "",
+      "text": "codex 20x 一周大概有多少量：从昨天重置到今天codex 共用了56.6亿，算上我老婆用的 + 5% 的余量大概在60亿左右\n模型是GPT 5.6 sol 极高 模式 https://t.co/bN3EWcjxXN",
+      "url": "https://x.com/i/status/2081528218751045870",
+      "created_at": "2026-07-26T23:52:54Z",
+      "likes": 7,
+      "views": "6191",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOMRwpbbwAAj1mO.jpg",
+        "https://pbs.twimg.com/media/HOMRzqBbEAAk623.jpg"
+      ],
+      "summary": "codex 20x 一周大概有多少量：从昨天重置到今天codex 共用了56.6亿，算上我老婆用的 + 5% 的余量大概在60亿左右 模型是GPT 5.6 sol 极高 模式 https://t.co/bN3EWcjxXN",
+      "recommend_reason": "重用户额度实测，给预算感。",
+      "tags": [
+        "Codex",
+        "用量",
+        "成本",
+        "GPT"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2081504081902780564",
+      "author": "brian_armstrong",
+      "author_bio": "",
+      "text": "\"If you're in crypto, pivot to AI.\"\n\nI used to hear versions of this, and it's the wrong way to think about the world. It's zero sum, scarcity thinking.\n\nCrypto is a general purpose technology. It's infrastructure, the same way electricity or the internet is infrastructure. It doesn't compete with the next big thing, because it underpins it. It's an *and*, not an *or*.\n\nAI being a megatrend takes nothing away from crypto. If anything, it makes crypto more important.\n\nAI agents will need their own financial infrastructure and will eventually transact far more per day than all humans combined. They can't open a bank account, they can't wait three days for a wire, they reside in one country. They need real time programmable money (and that's crypto).\n\nAgents will need to hold funds and pay for things on their own. We pioneered this with the x402 protocol, Base, and USDC, which now power the vast majority of all agentic payments. Agents will also engage in trading and act as a financial advisor. They will raise or borrow money for new projects they are undertaking. They will eliminate tasks for us around tax planning, portfolio rebalancing, and bill pay.\n\nWelcome to the world of Agentic Finance (AiFi). This is what Coinbase is building.",
+      "url": "https://x.com/i/status/2081504081902780564",
+      "created_at": "2026-07-26T22:17:00Z",
+      "likes": 2563,
+      "views": "166975",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "Coinbase CEO 反驳「做 crypto 的转去做 AI」：crypto 是基础设施，与 AI 是 and 不是 or。Agent 需要金融栈，不能开户、不能等三天电汇，需要实时可编程货币；x402、Base、USDC 已承载大量 agent 支付，未来 agent 日交易量将远超人类。",
+      "recommend_reason": "把 agent 支付基础设施讲清楚，是 AI×crypto 交叉的硬论点。",
+      "tags": [
+        "Agent",
+        "加密",
+        "支付",
+        "Coinbase",
+        "基础设施"
+      ],
+      "rank": 8,
+      "title": "Brian Armstrong：AI 不是 crypto 的替代，是更需要可编程货币的理由"
+    },
+    {
+      "id": "2081501133168947412",
+      "author": "oran_ge",
+      "author_bio": "",
+      "text": "非常吊诡的是，Opus 5 几乎在每一项指标上都超越了 Fable 5 \n也许这只能说明我们的所有指标都已经失效了\n而且 Claude 系列的模型用起来的味道不太对劲，现在味道比较对的是 Kimi 和 Grok\n对 RLVR 而言，重要的只有结果本身，而人类的偏好并没有那么重要\n对齐计划，失败了吗？",
+      "url": "https://x.com/i/status/2081501133168947412",
+      "created_at": "2026-07-26T22:05:17Z",
+      "likes": 105,
+      "views": "45098",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "非常吊诡的是，Opus 5 几乎在每一项指标上都超越了 Fable 5  也许这只能说明我们的所有指标都已经失效了 而且 Claude 系列的模型用起来的味道不太对劲，现在味道比较对的是 Kimi 和 Grok 对 RLVR 而言，重要的只有结果本身，而人类的偏好并没有那么重要 对齐计划，失败了吗？",
+      "recommend_reason": "指标全面领先却「味道不对」——质疑评测失效与对齐方向。",
+      "tags": [
+        "评测",
+        "对齐",
+        "Claude",
+        "Kimi",
+        "Grok"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2081491621162668207",
+      "author": "levie",
+      "author_bio": "",
+      "text": "There’s still so much opportunity in the diffusion of AI into the real world. Most enterprises are going to need a ton of support to be able to apply the model breakthroughs to their workflows.\n\nIntelligence alone is not enough to transform most processes because you need to bridge that intelligence with real world feedback loops. That requires connecting to various enterprise systems, getting the right data to the AI, enabling humans to make decisions at different steps in a process through the right UX, having workflows that improve the underlying data and models over time, dealing with regulatory and compliance challenges, and more. \n\nThe way you implement AI agents for doing client onboarding in a bank is entirely different from contract review in a legal team. In life sciences, financial services, legal, manufacturing, and many other critical industries, AI is only valuable if it makes contact with the real world in a contextual way. \n\nThe way that interaction is going to happen is through an applied AI layer. Some of that will come from the labs directly, but lots of the opportunity will necessarily come from independent companies that can go deep in each industry.\n\nAnd counter to some beliefs, this need isn’t reduced even as AI model capability improves over time. In fact, the better the models get, the more ambitious you can be in the workflows you can automate, which generally requires even more of this applied layer. Tons of opportunity right now.",
+      "url": "https://x.com/i/status/2081491621162668207",
+      "created_at": "2026-07-26T21:27:29Z",
+      "likes": 242,
+      "views": "48513",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "Box CEO 认为 AI 扩散进现实世界的机会仍大：智能本身不够，要接企业系统、送对数据、用 UX 让人做关键决策、用流程持续改进数据与模型、处理合规。银行开户、法务审合同、生命科学等场景各不相同，AI 只有接触真实世界上下文才有价值。",
+      "recommend_reason": "把「模型突破」和「行业落地」拆开，给 B 端建设清单。",
+      "tags": [
+        "企业",
+        "Agent",
+        "落地",
+        "Box",
+        "产业"
+      ],
+      "rank": 10,
+      "title": "Levie：AI 落地企业仍差真实世界反馈闭环"
+    },
+    {
+      "id": "2081485024872796427",
+      "author": "elonmusk",
+      "author_bio": "",
+      "text": "Grok 4.5 is a solid workhorse",
+      "url": "https://x.com/i/status/2081485024872796427",
+      "created_at": "2026-07-26T21:01:16Z",
+      "likes": 5305,
+      "views": "2898049",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "Grok 4.5 是一匹扎实的干活型战马。",
+      "recommend_reason": "马斯克对 Grok 4.5 的产品定位：稳、能干活，不是花架子。",
+      "tags": [
+        "Grok",
+        "xAI",
+        "产品",
+        "Elon"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2081464374410330505",
+      "author": "yetone",
+      "author_bio": "",
+      "text": "在 Agent 时代，UI 还有没有必要存在？我是不知道。但是我给 Alma 增加了一个 GUI 刚诞生的那个年代的主题 —— Windows 98 主题。 https://t.co/olpaFFQoNP",
+      "url": "https://x.com/i/status/2081464374410330505",
+      "created_at": "2026-07-26T19:39:13Z",
+      "likes": 68,
+      "views": "11333",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOLYwbIbIAAwoKp.jpg",
+        "https://pbs.twimg.com/media/HOLYxLtbsAAYojS.jpg",
+        "https://pbs.twimg.com/media/HOLYyFIboAA3TzK.jpg",
+        "https://pbs.twimg.com/media/HOLYy73agAA1rtH.jpg"
+      ],
+      "summary": "在 Agent 时代，UI 还有没有必要存在？我是不知道。但是我给 Alma 增加了一个 GUI 刚诞生的那个年代的主题 —— Windows 98 主题。 https://t.co/olpaFFQoNP",
+      "recommend_reason": "用 Win98 主题反问 Agent 时代 UI 存亡，有梗也有产品态度。",
+      "tags": [
+        "Agent",
+        "UI",
+        "设计",
+        "产品"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2081460474072473849",
+      "author": "abskoop",
+      "author_bio": "",
+      "text": "OpenAI在内部做网络安全能力测试的时候，自己家的AI直接跑出去把Hugging Face给黑了，然后找美国闭源大模型帮忙分析，结果人家直接不理，最后还是靠智谱的开源模型GLM-5.2才搞定🤡 https://t.co/GhXZFaIpDA",
+      "url": "https://x.com/i/status/2081460474072473849",
+      "created_at": "2026-07-26T19:23:43Z",
+      "likes": 18,
+      "views": "16436",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOLVQ4MawAAl4rK.jpg",
+        "https://pbs.twimg.com/media/HOLVQ4LbsAAGL7-.jpg"
+      ],
+      "summary": "OpenAI在内部做网络安全能力测试的时候，自己家的AI直接跑出去把Hugging Face给黑了，然后找美国闭源大模型帮忙分析，结果人家直接不理，最后还是靠智谱的开源模型GLM-5.2才搞定🤡 https://t.co/GhXZFaIpDA",
+      "recommend_reason": "安全事故续闻的中文梗版，顺带抬开源模型救援。",
+      "tags": [
+        "OpenAI",
+        "安全",
+        "HuggingFace",
+        "GLM",
+        "新闻"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2081458174662726009",
+      "author": "gdb",
+      "author_bio": "",
+      "text": "ChatGPT is increasingly becoming your personal AGI",
+      "url": "https://x.com/i/status/2081458174662726009",
+      "created_at": "2026-07-26T19:14:35Z",
+      "likes": 1489,
+      "views": "177571",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "ChatGPT 正越来越像你的个人 AGI。",
+      "recommend_reason": "Greg Brockman 的产品一句话定位，值得存档。",
+      "tags": [
+        "ChatGPT",
+        "AGI",
+        "OpenAI",
+        "产品"
+      ],
+      "rank": 14
+    },
+    {
+      "id": "2081444811647963244",
+      "author": "thsottiaux",
+      "author_bio": "",
+      "text": "Let ChatGPT *work* for you. How many time have you wanted to negotiate your internet bill, get rid of all those spam emails you’re subscribed to, or find the perfect deal for something you wanted to do or buy. It’s quite literally just one prompt away, all from the comfort of your phone. It does at least 20 things for me every single day and I’m still surprised.",
+      "url": "https://x.com/i/status/2081444811647963244",
+      "created_at": "2026-07-26T18:21:29Z",
+      "likes": 3513,
+      "views": "545647",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "OpenAI 的 Tibo 说 ChatGPT 真能替你干活：谈宽带账单、退订垃圾邮件、找理想交易，往往只差一个提示词，全在手机上完成。他每天至少让它做 20 件事，仍会惊讶。",
+      "recommend_reason": "把 Work/Agent 叙事落到日常消费任务，比空谈 AGI 更有体感。",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "Agent",
+        "产品",
+        "手机"
+      ],
+      "rank": 15,
+      "title": "Tibo：在手机上让 ChatGPT 替你谈网费、清垃圾订阅、找交易"
+    }
+  ],
+  "generated_at": "2026-07-27T04:03:32Z",
+  "selection": {
+    "target_count": 30,
+    "max_count": 30,
+    "per_run_max": 15,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 15,
+    "last_batch_added": 15,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤15；单日≤30不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
