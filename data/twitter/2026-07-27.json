@@ -9,6 +9,363 @@
   },
   "items": [
     {
+      "id": "2081771120173408767",
+      "author": "ollama",
+      "author_bio": "",
+      "text": "Kimi K3 is now available on Ollama’s cloud.\n\nTo use it with Claude Code, run:\n\nollama launch claude --model kimi-k3:cloud\n\nCurrently Kimi K3 requires a Pro or Max subscription, and consumes extra usage credits. We’re quickly working on adding capacity to expand access.",
+      "url": "https://x.com/i/status/2081771120173408767",
+      "created_at": "2026-07-27T15:58:07Z",
+      "likes": 17,
+      "views": "1272",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "Ollama 宣布 Kimi K3 已在其云上可用；与 Claude Code 配合可运行 `ollama launch claude --model kimi-k3:cloud`。当前需 Pro/Max 订阅并额外耗额度，团队正扩容。",
+      "recommend_reason": "开源权重分发渠道落地，本地/云一体入口清晰。",
+      "tags": [
+        "Ollama",
+        "Kimi",
+        "K3",
+        "Claude Code",
+        "产品"
+      ],
+      "rank": 1,
+      "title": "Ollama Cloud 上线 Kimi K3，可用 ollama launch claude 对接"
+    },
+    {
+      "id": "2081767211245645842",
+      "author": "op7418",
+      "author_bio": "",
+      "text": "英伟达大规模投资 Ilya 的 SSI 公司，帮他们在未来 12 个月提高 10 倍的计算能力，这公司目前为止一个模型都没发布\n\nIlya 是真不急 https://t.co/F8txp3ATgT",
+      "url": "https://x.com/i/status/2081767211245645842",
+      "created_at": "2026-07-27T15:42:35Z",
+      "likes": 10,
+      "views": "3252",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOPr-Q3bYAAYUzz.jpg"
+      ],
+      "summary": "英伟达大规模投资 Ilya 的 SSI 公司，帮他们在未来 12 个月提高 10 倍的计算能力，这公司目前为止一个模型都没发布  Ilya 是真不急 https://t.co/F8txp3ATgT",
+      "recommend_reason": "SSI 仍零模型却获算力十倍承诺，值得盯交付节奏。",
+      "tags": [
+        "SSI",
+        "Ilya",
+        "NVIDIA",
+        "算力",
+        "新闻"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2081741445275451582",
+      "author": "op7418",
+      "author_bio": "",
+      "text": "Midjourney V8.2 这模型是真的不错啊，有非常多新颖独特的风格 https://t.co/9zOewPOe9Q",
+      "url": "https://x.com/i/status/2081741445275451582",
+      "created_at": "2026-07-27T14:00:12Z",
+      "likes": 6,
+      "views": "2843",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOPUrReboAEayfr.jpg"
+      ],
+      "summary": "Midjourney V8.2 这模型是真的不错啊，有非常多新颖独特的风格 https://t.co/9zOewPOe9Q",
+      "recommend_reason": "V8.2 风格新鲜度的现场评价。",
+      "tags": [
+        "Midjourney",
+        "生图",
+        "产品"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2081740752175153631",
+      "author": "xiaoxiaodong01",
+      "author_bio": "",
+      "text": "GPT2 x 东方极简 x ppt x 美学提示词 x 开源 x 第三弹\n\n极简、留白、侘寂美学\n共同作用后，就有了这个提示词\n\n其实这个提示词， 也可以做海报、信息图、甚至知识图鉴\n\n也可以用来小红书批量生成图片，更换尺寸就好\n\n提示词的结构，你定义后面，佐料部分，就可以得到，你想到各种...\n\n提示词见评论区 ⤵️ https://t.co/QuipOYIX4z",
+      "url": "https://x.com/i/status/2081740752175153631",
+      "created_at": "2026-07-27T13:57:26Z",
+      "likes": 12,
+      "views": "2199",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOPTfs7aQAEZsly.jpg",
+        "https://pbs.twimg.com/media/HOPTlfia0AANErV.jpg",
+        "https://pbs.twimg.com/media/HOPTn7Wa0AA097I.jpg",
+        "https://pbs.twimg.com/media/HOPTp8Ga8AALKVJ.jpg"
+      ],
+      "summary": "GPT2 x 东方极简 x ppt x 美学提示词 x 开源 x 第三弹  极简、留白、侘寂美学 共同作用后，就有了这个提示词  其实这个提示词， 也可以做海报、信息图、甚至知识图鉴  也可以用来小红书批量生成图片，更换尺寸就好  提示词的结构，你定义后面，佐料部分，就可以得到，你想到各种...  提示词见评论区 ⤵️ https://t.co/QuipOYIX4z",
+      "recommend_reason": "东方极简 PPT/信息图提示词开源第三弹，可复用结构清楚。",
+      "tags": [
+        "提示词",
+        "PPT",
+        "极简",
+        "开源",
+        "美学"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2081738124078600381",
+      "author": "code",
+      "author_bio": "",
+      "text": "🤹🏼 Turn Your Prompts into Skills!\n\nGot Prompts? Turn them to Skills in seconds with the new Migration feature in VS Code.  \n🔗https://t.co/XreNoM7qBy\n\n#vscode #prompts #developertips https://t.co/waqzJd5g70",
+      "url": "https://x.com/i/status/2081738124078600381",
+      "created_at": "2026-07-27T13:47:00Z",
+      "likes": 103,
+      "views": "11650",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2079714844832681984/vid/avc1/480x270/pih-Oii2YdI17raP.mp4?tag=29"
+      ],
+      "summary": "VS Code 官方推广新 Migration 功能：几秒内把现有 Prompts 转成 Skills，并给出文档链接。",
+      "recommend_reason": "编辑器原生把提示词资产化，降低 skill 门槛。",
+      "tags": [
+        "VSCode",
+        "Skill",
+        "提示词",
+        "工具",
+        "开发"
+      ],
+      "rank": 5,
+      "title": "VS Code：把 Prompt 一键迁移成 Skills"
+    },
+    {
+      "id": "2081730105454322151",
+      "author": "nvidia",
+      "author_bio": "",
+      "text": "Korea’s AI moment came to San Francisco last week 🇰🇷 \n\nPresident Lee Jae Myung joined @JensenHuang and some of the biggest names in technology, industry and research to accelerate Korea’s full-stack AI ambitions. https://t.co/rTcXjtJNb9",
+      "url": "https://x.com/i/status/2081730105454322151",
+      "created_at": "2026-07-27T13:15:08Z",
+      "likes": 335,
+      "views": "30631",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOPKfqsWAAAMbLj.jpg"
+      ],
+      "summary": "NVIDIA 发帖：上周在旧金山，韩国总统李在明与黄仁勋及科技/产业/研究界大咖会面，加速韩国全栈 AI 目标。",
+      "recommend_reason": "国家级 AI 叙事与 NVIDIA 绑定的现场切片。",
+      "tags": [
+        "NVIDIA",
+        "韩国",
+        "产业",
+        "基建"
+      ],
+      "rank": 6,
+      "title": "韩国总统与黄仁勋在旧金山推进全栈 AI 雄心"
+    },
+    {
+      "id": "2081730070658551884",
+      "author": "cj3214567667",
+      "author_bio": "",
+      "text": "Codex 零基础实战教程，夯爆了！15 种玩法带你速通\n\n【最全Codex入门教程，从基础配置到项目实战】\n🔗：https://t.co/SoXd151QcT https://t.co/CnDLR7yWP4",
+      "url": "https://x.com/i/status/2081730070658551884",
+      "created_at": "2026-07-27T13:15:00Z",
+      "likes": 38,
+      "views": "4480",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2081669860342509568/vid/avc1/480x270/cM8bcwp_FwGybfwn.mp4?tag=29"
+      ],
+      "summary": "Codex 零基础实战教程，夯爆了！15 种玩法带你速通  【最全Codex入门教程，从基础配置到项目实战】 🔗：https://t.co/SoXd151QcT https://t.co/CnDLR7yWP4",
+      "recommend_reason": "可转发的 Codex 入门合集入口。",
+      "tags": [
+        "Codex",
+        "教程",
+        "工具"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2081722930652917996",
+      "author": "xiaohu",
+      "author_bio": "",
+      "text": "观察：独立开发者的收入和流量都在下降\n\n我觉得随着AI 编码能力的快速提升和企业采用AI Agent更加深度和广泛\n\n一些SaaS和小型的独立应用正在快速的被蚕食，因为随手实现一些小工具和SaaS的部分功能整变的非常的容易，而大部分企业使用的SaaS有时候仅仅也只是用到其中很少的工。\n\n代替不可避免...\n\n同时我最近做了个解读站，效果还非常的好（多好就不说了），我的感觉是一些能发挥自己品味和把自己积累的经验变成产品的功能未来可能变的更加畅销。\n\n同时稀缺的内容或者更精细化的服务类型功能，可能更有市场，比如 @HiTw93 的Mole 这种解决当下AI工具产生的问题。",
+      "url": "https://x.com/i/status/2081722930652917996",
+      "created_at": "2026-07-27T12:46:37Z",
+      "likes": 9,
+      "views": "5810",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "作者观察独立开发者收入与流量下降：AI 编码与企业深度用 Agent 后，随手实现小工具/部分 SaaS 功能变容易，企业原只用到 SaaS 少数功能。替代难挡；反而品味与经验沉淀成产品、稀缺内容与精细服务更畅销（如 Mole 解决 AI 工具副作用）。",
+      "recommend_reason": "对独立开发赛道的冷静拆解，指向差异化出路。",
+      "tags": [
+        "独立开发",
+        "SaaS",
+        "Agent",
+        "产品",
+        "趋势"
+      ],
+      "rank": 8,
+      "title": "独立开发收入下滑：小 SaaS 被 Agent 随手实现蚕食"
+    },
+    {
+      "id": "2081722858338984197",
+      "author": "dingyi",
+      "author_bio": "",
+      "text": "群众的眼睛是雪亮的，如果只是写前端写 UI，Grok+Cursor 20 美金+GLM5.2+Kimi K3，一个月花不少多少钱， 顶多再来一个 GPT Plus 就够了。Claude 留给那些研究可控核聚变的大神们吧！ https://t.co/nWrjhCCZWb",
+      "url": "https://x.com/i/status/2081722858338984197",
+      "created_at": "2026-07-27T12:46:20Z",
+      "likes": 39,
+      "views": "12073",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOPC-_FbcAA9oa6.jpg"
+      ],
+      "summary": "群众的眼睛是雪亮的，如果只是写前端写 UI，Grok+Cursor 20 美金+GLM5.2+Kimi K3，一个月花不少多少钱， 顶多再来一个 GPT Plus 就够了。Claude 留给那些研究可控核聚变的大神们吧！ https://t.co/nWrjhCCZWb",
+      "recommend_reason": "一线成本分层：前端 UI 用中端栈够用，Claude 留给硬核场景。",
+      "tags": [
+        "成本",
+        "Grok",
+        "Cursor",
+        "Kimi",
+        "工作流"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2081719643186909536",
+      "author": "xiaohu",
+      "author_bio": "",
+      "text": "Claude Design 作者本人讲述 Claude Design 诞生始末\n\n以及分享 10 个实用技巧 \n\nhttps://t.co/TlFgphyzSd",
+      "url": "https://x.com/i/status/2081719643186909536",
+      "created_at": "2026-07-27T12:33:34Z",
+      "likes": 15,
+      "views": "2704",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "Claude Design 作者本人讲述 Claude Design 诞生始末  以及分享 10 个实用技巧   https://t.co/TlFgphyzSd",
+      "recommend_reason": "一手创作者复盘 + 技巧包，适合产品/设计同事。",
+      "tags": [
+        "Claude",
+        "Design",
+        "产品",
+        "技巧"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2081718698608402818",
+      "author": "huggingface",
+      "author_bio": "",
+      "text": "AI security improves when organizations share research, tools and real-world experience.\n\nWe’re joining industry leaders, including @NVIDIA, in the Open Secure AI Alliance to help organizations identify and address software vulnerabilities and strengthen critical systems.\n\nLearn more: https://t.co/AC6coLN3EV",
+      "url": "https://x.com/i/status/2081718698608402818",
+      "created_at": "2026-07-27T12:29:48Z",
+      "likes": 637,
+      "views": "29001",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOO5HeuWsAA8jB6.jpg"
+      ],
+      "summary": "Hugging Face 表示 AI 安全需要组织共享研究、工具与实战经验，宣布加入 Open Secure AI Alliance（含 NVIDIA 等行业伙伴），帮助识别软件漏洞并加固关键系统。",
+      "recommend_reason": "开源生态正式入局安全联盟，是产业协作信号。",
+      "tags": [
+        "HuggingFace",
+        "安全",
+        "开源",
+        "NVIDIA",
+        "产业"
+      ],
+      "rank": 11,
+      "title": "Hugging Face 加入 Open Secure AI Alliance，与 NVIDIA 等共建安全开源"
+    },
+    {
+      "id": "2081707296611279238",
+      "author": "python_xxt",
+      "author_bio": "",
+      "text": "我已经被震撼了，被Kimi 3的价格震撼了…\n\n不是Kimi 3用不起，\n是CodeX 更有性价比。\n\n我还是太年轻了，\n这世界变化的太快了。\n\n在Kimi 3的对比下，\nCodeX竟然显得很有性价比了\n\n真实感受",
+      "url": "https://x.com/i/status/2081707296611279238",
+      "created_at": "2026-07-27T11:44:30Z",
+      "likes": 35,
+      "views": "8172",
+      "has_media": false,
+      "media_urls": [],
+      "summary": "我已经被震撼了，被Kimi 3的价格震撼了…  不是Kimi 3用不起， 是CodeX 更有性价比。  我还是太年轻了， 这世界变化的太快了。  在Kimi 3的对比下， CodeX竟然显得很有性价比了  真实感受",
+      "recommend_reason": "价格战反转观感：Kimi 3 一出，Codex 反而显得划算。",
+      "tags": [
+        "Kimi",
+        "Codex",
+        "价格",
+        "体验"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2081696695130427604",
+      "author": "xiaoxiaodong01",
+      "author_bio": "",
+      "text": "GPT2 x 课件 x ppt x 提示词 x 开源 x 第二弹\n\n以前头疼的ppt提示词\n思路正确，结果比以前靓多了\n\n一次这么多张输出\n完整性、排版的可能性、视觉美感\n让我惊艳、呆坐原地\n\n继续打磨，继续开源ppt提示词\n\nprompt below 👇 https://t.co/ZQOxM3yQU7",
+      "url": "https://x.com/i/status/2081696695130427604",
+      "created_at": "2026-07-27T11:02:22Z",
+      "likes": 17,
+      "views": "3708",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOOrtqNasAA1ZcM.jpg",
+        "https://pbs.twimg.com/media/HOOrvYubsAA3qhO.jpg",
+        "https://pbs.twimg.com/media/HOOrwvLbsAAly04.jpg",
+        "https://pbs.twimg.com/media/HOOryR2bUAAGk5n.jpg"
+      ],
+      "summary": "GPT2 x 课件 x ppt x 提示词 x 开源 x 第二弹  以前头疼的ppt提示词 思路正确，结果比以前靓多了  一次这么多张输出 完整性、排版的可能性、视觉美感 让我惊艳、呆坐原地  继续打磨，继续开源ppt提示词  prompt below 👇 https://t.co/ZQOxM3yQU7",
+      "recommend_reason": "开源 PPT/课件提示词第二弹，批量页一致性提升。",
+      "tags": [
+        "提示词",
+        "PPT",
+        "开源",
+        "生图"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2081679581371666574",
+      "author": "VigoCreativeAI",
+      "author_bio": "",
+      "text": "Upgraded @impalementd 's workflow: stacked an OpenPose skeleton on top of the Depth pass.\n\nDepth alone nails volume and spatial layering, but limbs smear the moment they cross the body — the model has to guess where the arms went. A skeleton layered on top pins every joint in place.\n\nAlso:\n· face + hand keypoints — expressions and fingers actually track\n· two people overlapping? the skeletons keep them separate\n· same recipe: Claude builds the extraction site, Seedance renders from the combined control video\n\nDepth holds the form. The skeleton holds the motion.\n\nPrompt in the reply ↓",
+      "url": "https://x.com/i/status/2081679581371666574",
+      "created_at": "2026-07-27T09:54:22Z",
+      "likes": 15,
+      "views": "924",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2081678597459165184/vid/avc1/360x270/7xW1vJQbvkUsh_hp.mp4?tag=29"
+      ],
+      "summary": "Vigo 升级工作流：在 Depth 上叠 OpenPose 骨架。Depth 管体积与空间分层，肢体交叉时模型易猜错手臂；骨架钉住关节。另含脸/手关键点、两人重叠分离；Claude 做提取站，Seedance 从组合控制视频渲染。Depth 管形态，骨架管运动。",
+      "recommend_reason": "可控视频生成的可复制配方，问题—解法对得很准。",
+      "tags": [
+        "OpenPose",
+        "Depth",
+        "AI视频",
+        "Seedance",
+        "工作流"
+      ],
+      "rank": 14,
+      "title": "Depth + OpenPose 叠骨架：交叉肢体不再糊"
+    },
+    {
+      "id": "2081679374890479768",
+      "author": "IndieDevHailey",
+      "author_bio": "",
+      "text": "经常用 Codex、Claude Code 做网页自动化？试试 ego-lite。\n\n不是 Playwright 那种另开浏览器，而是你和 Agent 共用一个浏览器：各干各的，互不抢标签页。登录态、Cookie、扩展直接继承，不用反复登录。\n\n每个 Agent 有独立 Spaces，支持并行跑多个任务。用 JS 调用，复杂任务最高快 2.5 倍，Token 更少。支持 Codex、Claude Code、Cursor 等。\n\n目前 Mac 可用，Win/Linux 在规划。适合操作需要登录的后台、CRM、社媒等。",
+      "url": "https://x.com/i/status/2081679374890479768",
+      "created_at": "2026-07-27T09:53:33Z",
+      "likes": 23,
+      "views": "3081",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2081677841415204864/vid/avc1/492x270/YbyIFN7KGPhdAaFP.mp4?tag=29"
+      ],
+      "summary": "介绍 ego-lite：不是另开 Playwright，而是人与 Agent 共用浏览器、互不抢标签；继承登录态/Cookie/扩展。每 Agent 独立 Spaces 可并行；JS 调用，复杂任务最高约 2.5 倍快、更省 Token。支持 Codex、Claude Code、Cursor。目前 Mac 可用，适合需登录的后台/CRM/社媒。",
+      "recommend_reason": "解决「Agent 浏览器」真实痛点：登录态与并行空间。",
+      "tags": [
+        "浏览器",
+        "Agent",
+        "自动化",
+        "Codex",
+        "工具"
+      ],
+      "rank": 15,
+      "title": "ego-lite：与 Agent 共用浏览器，继承登录态做自动化"
+    },
+    {
       "id": "2081582620769489403",
       "author": "gkxspace",
       "author_bio": "",
@@ -30,7 +387,7 @@
         "工作流",
         "Agent"
       ],
-      "rank": 1,
+      "rank": 16,
       "title": "把 Codex 调 Pro 做成 Skills：Oracle 与 Pro 调度闭环"
     },
     {
@@ -52,7 +409,7 @@
         "体验",
         "成本"
       ],
-      "rank": 2
+      "rank": 17
     },
     {
       "id": "2081568902241513786",
@@ -77,7 +434,7 @@
         "开源",
         "工具"
       ],
-      "rank": 3
+      "rank": 18
     },
     {
       "id": "2081568344143261907",
@@ -99,7 +456,7 @@
         "权重",
         "产品"
       ],
-      "rank": 4,
+      "rank": 19,
       "title": "Kimi K3 开源权重明日落地：可微调与迁 Sonnet/Terra 负载"
     },
     {
@@ -121,7 +478,7 @@
         "本地模型",
         "硬件"
       ],
-      "rank": 5
+      "rank": 20
     },
     {
       "id": "2081534792903147881",
@@ -141,7 +498,7 @@
         "文化",
         "产品"
       ],
-      "rank": 6
+      "rank": 21
     },
     {
       "id": "2081528218751045870",
@@ -165,7 +522,7 @@
         "成本",
         "GPT"
       ],
-      "rank": 7
+      "rank": 22
     },
     {
       "id": "2081504081902780564",
@@ -187,7 +544,7 @@
         "Coinbase",
         "基础设施"
       ],
-      "rank": 8,
+      "rank": 23,
       "title": "Brian Armstrong：AI 不是 crypto 的替代，是更需要可编程货币的理由"
     },
     {
@@ -210,7 +567,7 @@
         "Kimi",
         "Grok"
       ],
-      "rank": 9
+      "rank": 24
     },
     {
       "id": "2081491621162668207",
@@ -232,7 +589,7 @@
         "Box",
         "产业"
       ],
-      "rank": 10,
+      "rank": 25,
       "title": "Levie：AI 落地企业仍差真实世界反馈闭环"
     },
     {
@@ -254,7 +611,7 @@
         "产品",
         "Elon"
       ],
-      "rank": 11
+      "rank": 26
     },
     {
       "id": "2081464374410330505",
@@ -280,7 +637,7 @@
         "设计",
         "产品"
       ],
-      "rank": 12
+      "rank": 27
     },
     {
       "id": "2081460474072473849",
@@ -305,7 +662,7 @@
         "GLM",
         "新闻"
       ],
-      "rank": 13
+      "rank": 28
     },
     {
       "id": "2081458174662726009",
@@ -326,7 +683,7 @@
         "OpenAI",
         "产品"
       ],
-      "rank": 14
+      "rank": 29
     },
     {
       "id": "2081444811647963244",
@@ -348,11 +705,11 @@
         "产品",
         "手机"
       ],
-      "rank": 15,
+      "rank": 30,
       "title": "Tibo：在手机上让 ChatGPT 替你谈网费、清垃圾订阅、找交易"
     }
   ],
-  "generated_at": "2026-07-27T04:03:32Z",
+  "generated_at": "2026-07-27T16:03:26Z",
   "selection": {
     "target_count": 30,
     "max_count": 30,
@@ -360,10 +717,10 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 15,
+    "actual_count": 30,
     "last_batch_added": 15,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
