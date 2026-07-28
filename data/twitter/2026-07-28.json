@@ -9,6 +9,200 @@
   },
   "items": [
     {
+      "id": "2082132646646485344",
+      "author": "vista8",
+      "author_bio": "",
+      "text": "看 Agent 调 Skill 执行路径也挺有意思。\n\n一开始想抓取飞书文档，发现需要登录，自动切换到飞书Cli执行。\n\nAI 发现文档超长（大概有20w+字），开始提取关键结构和精华内容，开始写文章。\n\n想到三年前，AutoGPT或BabyAGI等项目，任务都拆不明白。\n\nAI 进步速度太快了，但又觉得理所当然，永远不满足。 https://t.co/KxLhGCbeyP",
+      "url": "https://x.com/i/status/2082132646646485344",
+      "created_at": "2026-07-28T15:54:41Z",
+      "likes": 3,
+      "views": "277",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOU3BcyaoAAkTCY.jpg",
+        "https://pbs.twimg.com/media/HOU3i51aQAAWLuo.jpg"
+      ],
+      "score": 59.965,
+      "summary": "看 Agent 调 Skill 执行路径也挺有意思。\n\n一开始想抓取飞书文档，发现需要登录，自动切换到飞书Cli执行。\n\nAI 发现文档超长（大概有20w+字），开始提取关键结构和精华内容，开始写文章。\n\n想到三年前，AutoGPT或BabyAGI等项目，任务都拆不明白。\n\nAI 进步速度太快了，但又觉得理所当然，永远不满足。",
+      "recommend_reason": "真实 Agent 调 Skill 路径观察：登录态切换 CLI、长文提炼再写作，对比三年前 AutoGPT 任务拆解失败，体感进步很具体。",
+      "tags": [
+        "Agent",
+        "Skill",
+        "飞书",
+        "工作流",
+        "实践"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2082130149789835370",
+      "author": "jinchenma_ai",
+      "author_bio": "",
+      "text": "Google 的 Gemini 3.6 Flash 和 3.5 Flash-Lite 正式发布了，可用于生产环境。\n\n3.6 Flash 加强了复杂 Agent、多模态和代码任务，输出价从每百万 token 9 美元降到 7.5 美元。Flash-Lite 主打高吞吐，是 3.5 系列速度最快、成本最低的型号。\n\n两款都支持 100 万 token 上下文、最高 6.4 万 token 输出和原生 Computer Use。",
+      "url": "https://x.com/i/status/2082130149789835370",
+      "created_at": "2026-07-28T15:44:46Z",
+      "likes": 1,
+      "views": "109",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOU2U1nacAEFoHc.jpg"
+      ],
+      "score": 57.948,
+      "title": "Gemini 3.6 Flash 与 3.5 Flash-Lite 正式可生产：降价、百万上下文、原生 Computer Use",
+      "summary": "Google 发布 Gemini 3.6 Flash 与 3.5 Flash-Lite 并可用于生产。3.6 Flash 强化复杂 Agent、多模态与代码，输出价从 $9/百万 token 降至 $7.5；Flash-Lite 主打高吞吐与低成本。两款均支持 100 万 token 上下文、最高 6.4 万输出与原生 Computer Use。",
+      "recommend_reason": "硬核产品更新：价格、能力定位、上下文与 Computer Use 一句话齐，适合选型与成本估算。",
+      "tags": [
+        "Gemini",
+        "Google",
+        "Flash",
+        "Agent",
+        "Computer Use"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2082123925283041545",
+      "author": "elonmusk",
+      "author_bio": "",
+      "text": "Interesting. \n\nGrok 4.6 releases around August 7. This will be the 1.5T model with significantly improved SFT & RL.\n\nGrok 4.7 will be the 2.1T model released a few weeks later. This will be better than 4.6 in every way, except slightly slower to serve, albeit with even better token efficiency.",
+      "url": "https://x.com/i/status/2082123925283041545",
+      "created_at": "2026-07-28T15:20:02Z",
+      "likes": 4501,
+      "views": "939408",
+      "has_media": false,
+      "media_urls": [],
+      "score": 68.418,
+      "title": "马斯克预告 Grok 4.6 约 8/7 发布，4.7 更大更快跟进",
+      "summary": "Grok 4.6 计划约 8 月 7 日发布，为 1.5T 参数、显著强化 SFT 与 RL；几周后的 Grok 4.7 为 2.1T，全面优于 4.6，服务略慢但 token 效率更好。推文引用了 Rauch 关于 Grok 4.5 性价比的安全基准讨论。",
+      "recommend_reason": "一手路线图：参数规模、SFT/RL 强化与发布节奏，对跟踪 xAI 迭代节奏最有信息密度。",
+      "tags": [
+        "Grok",
+        "xAI",
+        "模型发布",
+        "Elon Musk",
+        "路线图"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2082122787880333596",
+      "author": "huggingface",
+      "author_bio": "",
+      "text": "Training Agents 3: Learn how to do train a local/ open weight agent with  reinforcement learning https://t.co/HKpiDR7iXG",
+      "url": "https://x.com/i/status/2082122787880333596",
+      "created_at": "2026-07-28T15:15:31Z",
+      "likes": 69,
+      "views": "6848",
+      "has_media": false,
+      "media_urls": [],
+      "score": 60.487,
+      "summary": "Training Agents 第 3 期：学习如何用强化学习训练本地/开源权重 Agent。",
+      "recommend_reason": "Hugging Face 官方 Agent 训练课程线索，开源本地 RL agent 入门入口清晰。",
+      "tags": [
+        "Hugging Face",
+        "Agent",
+        "强化学习",
+        "开源",
+        "教程"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2082118890922844549",
+      "author": "Azure",
+      "author_bio": "",
+      "text": "OTel2.0 is now available in Microsoft Foundry and the Hugging Face collection. Built by AT&T, it showcases how organizations can move AI from pilot projects to production at scale using Foundry Managed Compute, open models including Phi-4, Gemma-4, GPT-OSS, and AMD MI300X. \n\nLearn more: https://t.co/Khb6MbslcQ",
+      "url": "https://x.com/i/status/2082118890922844549",
+      "created_at": "2026-07-28T15:00:02Z",
+      "likes": 9,
+      "views": "2516",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOUsGKKXMAAfUKe.jpg"
+      ],
+      "score": 59.764,
+      "title": "Azure：OTel2.0 上线 Foundry 与 HF 合集，展示 AI 规模化上线路径",
+      "summary": "AT&T 构建的 OTel2.0 现已在 Microsoft Foundry 与 Hugging Face 合集可用；展示如何用 Foundry 托管算力与 Phi-4、Gemma-4、GPT-OSS 等开源模型及 AMD MI300X，把 AI 从试点推到规模化生产。",
+      "recommend_reason": "企业 AI 落地信号：可观测性 + 托管算力 + 开源模型组合，适合关注生产化与云厂商方案的人。",
+      "tags": [
+        "Azure",
+        "Microsoft Foundry",
+        "OTel",
+        "开源模型",
+        "生产化"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2082113317800407498",
+      "author": "YuLin807",
+      "author_bio": "",
+      "text": "我记得之前有个类似 mcp 还是其他的项目，可以让你的网页 chatGPT 接触到你的VPS 上的内容！\n\n网页端最大的缺点就是 没有办法进入你的生产环境。\n\n既然大家都讲网页端的GPT5.6 是满血版，那只需要解决这个问题就行了呗！",
+      "url": "https://x.com/i/status/2082113317800407498",
+      "created_at": "2026-07-28T14:37:53Z",
+      "likes": 2,
+      "views": "485",
+      "has_media": false,
+      "media_urls": [],
+      "score": 51.249,
+      "summary": "我记得之前有个类似 mcp 还是其他的项目，可以让你的网页 chatGPT 接触到你的VPS 上的内容！\n\n网页端最大的缺点就是 没有办法进入你的生产环境。\n\n既然大家都讲网页端的GPT5.6 是满血版，那只需要解决这个问题就行了呗！",
+      "recommend_reason": "点中网页版满血模型的核心缺口：连不上生产环境；用 MCP/本地桥接补齐的思路仍成立。",
+      "tags": [
+        "ChatGPT",
+        "MCP",
+        "网页端",
+        "生产环境",
+        "Agent"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2082112207043838298",
+      "author": "lifesinger",
+      "author_bio": "",
+      "text": "完全不赞同。至少还有务虚三杰的三样真东西：\n\n1、FateTell 算命。大模型最厉害的应用场景之一。全球有 80 亿潜在用户。现在才刚刚开始。\n\n2、YouMind 创作。大模型最基础的应用场景之一。全球有 30 亿潜在用户。随着生产力提效后，越来越多人会开始从事不需要效率的消费型创作。\n\n3、Laper 剧本。大模型最复杂的应用场景之一。全球至少有 10 亿潜在用户。人人都不仅想成为自己的导演，还想成为他人的导演。Laper 是梦想的舞台。\n\n加入务虚三杰。虽希望如豆，吾往矣。",
+      "url": "https://x.com/i/status/2082112207043838298",
+      "created_at": "2026-07-28T14:33:28Z",
+      "likes": 30,
+      "views": "9197",
+      "has_media": false,
+      "media_urls": [],
+      "score": 56.702,
+      "title": "玉伯为「务虚三杰」辩护：算命、创作、剧本才是大模型真场景",
+      "summary": "反驳看空论调，点出 FateTell（算命）、YouMind（创作）、Laper（剧本）三类产品：分别对应大模型强应用、基础消费型创作与复杂导演式剧本，潜在用户量级从十亿到八十亿，并号召加入务虚三杰。",
+      "recommend_reason": "中文圈少见的「非效率工具」AI 产品叙事，把算命/创作/剧本抬到十亿级场景，观点锋利可对照。",
+      "tags": [
+        "产品",
+        "应用场景",
+        "FateTell",
+        "YouMind",
+        "Laper"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2082112087145529504",
+      "author": "MANISH1027512",
+      "author_bio": "",
+      "text": "codex让我养成了每天关机的习惯。\n\n因为一天不关机，将会占用50+G的临时磁盘空间，而且随着使用时间持续膨胀🌚",
+      "url": "https://x.com/i/status/2082112087145529504",
+      "created_at": "2026-07-28T14:33:00Z",
+      "likes": 5,
+      "views": "1349",
+      "has_media": false,
+      "media_urls": [],
+      "score": 50.502,
+      "summary": "codex让我养成了每天关机的习惯。\n\n因为一天不关机，将会占用50+G的临时磁盘空间，而且随着使用时间持续膨胀🌚",
+      "recommend_reason": "Codex 本地临时盘膨胀的实操坑：一天不关机可占 50G+，对日常 agent 用户很有用。",
+      "tags": [
+        "Codex",
+        "磁盘",
+        "运维",
+        "开发体验"
+      ],
+      "rank": 8
+    },
+    {
       "id": "2081951686235742377",
       "author": "JulianGoldieSEO",
       "author_bio": "",
@@ -32,7 +226,7 @@
         "产品",
         "Anthropic"
       ],
-      "rank": 1
+      "rank": 9
     },
     {
       "id": "2081947649683706054",
@@ -58,7 +252,7 @@
         "可用性",
         "工程"
       ],
-      "rank": 2
+      "rank": 10
     },
     {
       "id": "2081946701661872493",
@@ -83,7 +277,7 @@
         "工具链",
         "产品对比"
       ],
-      "rank": 3
+      "rank": 11
     },
     {
       "id": "2081942464068473167",
@@ -109,7 +303,7 @@
         "Agent",
         "产品"
       ],
-      "rank": 4
+      "rank": 12
     },
     {
       "id": "2081940052154933696",
@@ -132,7 +326,7 @@
         "OpenAI",
         "产品"
       ],
-      "rank": 5
+      "rank": 13
     },
     {
       "id": "2081938548626960823",
@@ -157,7 +351,7 @@
         "Token Plan",
         "Cursor"
       ],
-      "rank": 6
+      "rank": 14
     },
     {
       "id": "2081938524962492625",
@@ -183,7 +377,7 @@
         "Cursor",
         "Agent"
       ],
-      "rank": 7
+      "rank": 15
     },
     {
       "id": "2081937697132949900",
@@ -208,7 +402,7 @@
         "安全",
         "产业"
       ],
-      "rank": 8
+      "rank": 16
     },
     {
       "id": "2081935037206065535",
@@ -233,7 +427,7 @@
         "开源",
         "本地"
       ],
-      "rank": 9
+      "rank": 17
     },
     {
       "id": "2081934832423014735",
@@ -259,10 +453,10 @@
         "可控生成",
         "产品"
       ],
-      "rank": 10
+      "rank": 18
     }
   ],
-  "generated_at": "2026-07-28T04:04:06Z",
+  "generated_at": "2026-07-28T16:03:55Z",
   "selection": {
     "target_count": 30,
     "max_count": 30,
@@ -270,11 +464,11 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 10,
-    "last_batch_added": 10,
+    "actual_count": 18,
+    "last_batch_added": 8,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
