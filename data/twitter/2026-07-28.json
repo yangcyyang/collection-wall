@@ -1,0 +1,289 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-28",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2081951686235742377",
+      "author": "JulianGoldieSEO",
+      "author_bio": "",
+      "text": "The most valuable Claude Opus 5 feature is not its intelligence.\n\nIt is the effort dial.\n\nYou can now match the model’s thinking to the task:\n\n→ Low for simple requests\n\n→ Medium for everyday work\n\n→ High for serious projects\n\n→ Extra effort for difficult reasoning\n\n→ Maximum effort for your hardest jobs\n\nOlder models did not always improve when you gave them more thinking time.\n\nOpus 5 is designed to turn added effort into stronger results more consistently.\n\nThat gives you control over speed, depth, and quality.\n\nSave this video, you’ll know exactly when to increase the effort.\n\nWant the SOP? DM me. 💬",
+      "url": "https://x.com/i/status/2081951686235742377",
+      "created_at": "2026-07-28T03:55:37Z",
+      "likes": 0,
+      "views": "899",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2081951443494502400/vid/avc1/480x270/Agfxh1-_lJCy8xs4.mp4?tag=29"
+      ],
+      "score": 54.93,
+      "title": "Claude Opus 5 的关键不是更聪明，而是努力旋钮",
+      "summary": "指出 Opus 5 最有用的是 effort dial：可按任务把思考强度调到 Low/Medium/High/Extra/Maximum；相比旧模型，加时思考更稳定地转化成更好结果，便于权衡速度、深度与质量。",
+      "recommend_reason": "把推理预算做成可调旋钮，是 agent/工作流控本控质的关键产品点。",
+      "tags": [
+        "Claude",
+        "Opus 5",
+        "推理",
+        "产品",
+        "Anthropic"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2081947649683706054",
+      "author": "jinchenma_ai",
+      "author_bio": "",
+      "text": "对于同一个模型，不同的中转站，实际体验可能差很多。\n\n有的是首个 Token 来得快，后续输出却慢；有的平时稳定，高峰期容易失败；有的用了更低精度量化，难题表现会漂。\n\nOpenRouter 给了一个评估方法，盯住 4 个指标：\n首个 Token 延迟；\n持续输出速度；\n可用性；\n量化精度。\n\n聊天场景重点看 p90/p99，批处理可看 p50。\n\n最后用自己的 Prompt 验证，再把结果写进路由、阈值和故障切换策略。",
+      "url": "https://x.com/i/status/2081947649683706054",
+      "created_at": "2026-07-28T03:39:35Z",
+      "likes": 0,
+      "views": "113",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOSQUacaMAAwtxG.jpg"
+      ],
+      "score": 52.762,
+      "title": "同一模型不同中转站：用 OpenRouter 四指标做路由",
+      "summary": "指出同模型在不同中转站体验差很大（首 token、持续输出、高峰可用性、量化精度）。建议用 OpenRouter 方法盯四指标，聊天看 p90/p99、批处理看 p50，并用自有 Prompt 验证后写入路由与故障切换策略。",
+      "recommend_reason": "可直接落地的中转站评测清单，比单纯比价更贴近真实体验。",
+      "tags": [
+        "OpenRouter",
+        "中转站",
+        "延迟",
+        "可用性",
+        "工程"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2081946701661872493",
+      "author": "yangyi",
+      "author_bio": "",
+      "text": "有人喜欢Codex 有人喜欢NewMax\n各不相同\n\nNewMax至少在集成方面比Codex顺滑很多\nGrok授权  直接就能搜索推特，生成图片和视频\nCodex咋搞？还得搞个opencodex才能弄个残疾状态 https://t.co/ue2jSEWLNU",
+      "url": "https://x.com/i/status/2081946701661872493",
+      "created_at": "2026-07-28T03:35:49Z",
+      "likes": 1,
+      "views": "725",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOSPQUiasAE0iVW.png"
+      ],
+      "score": 54.34,
+      "summary": "有人喜欢Codex 有人喜欢NewMax\n各不相同\n\nNewMax至少在集成方面比Codex顺滑很多\nGrok授权  直接就能搜索推特，生成图片和视频\nCodex咋搞？还得搞个opencodex才能弄个残疾状态",
+      "recommend_reason": "从集成完整度对比 Codex 与 NewMax，提醒“模型能力”之外还有工具链授权体验。",
+      "tags": [
+        "Codex",
+        "NewMax",
+        "Grok",
+        "工具链",
+        "产品对比"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2081942464068473167",
+      "author": "JulianGoldieSEO",
+      "author_bio": "",
+      "text": "Wait, OpenAI just killed its own browser. \n\nNine months after launch.\n\nWhy would they do that? Because they built something bigger to replace it — and it's already booking flights for people right now.\n\n→ Atlas (their standalone browser) shuts down Aug 9, 2026\n→ Everything got folded into ChatGPT itself instead\n→ A new \"cloud browser\" now runs in the background on OpenAI's servers\n→ I tested it: it booked a Manila→Bohol flight with zero copy-pasting\n\nTurns out most people never wanted a new browser. \n\nThey wanted their existing tool to just... do more.\n\nSave this video, you'll want to see this before it goes mainstream. 🔥\n\nWant the SOP? DM me",
+      "url": "https://x.com/i/status/2081942464068473167",
+      "created_at": "2026-07-28T03:18:58Z",
+      "likes": 0,
+      "views": "954",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2081941947544162304/vid/avc1/480x270/3Blqm4gSRXpBDqT-.mp4?tag=29"
+      ],
+      "score": 54.661,
+      "title": "OpenAI 关停独立浏览器 Atlas，能力并入 ChatGPT 云浏览器",
+      "summary": "称独立浏览器 Atlas 将于 2026-08-09 关停，能力并入 ChatGPT；后台云浏览器可代操作网页，作者实测能完成订票等任务。判断用户要的不是新浏览器，而是现有工具多做一步。",
+      "recommend_reason": "产品形态从独立浏览器转向 ChatGPT 内嵌云浏览器，自动化边界值得跟进。",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "浏览器",
+        "Agent",
+        "产品"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2081940052154933696",
+      "author": "thsottiaux",
+      "author_bio": "",
+      "text": "Back at the laptop. The usage limits have been reset for all paid users of Codex and ChatGPT Work. Weeeeeeeee. It's a good day!",
+      "url": "https://x.com/i/status/2081940052154933696",
+      "created_at": "2026-07-28T03:09:23Z",
+      "likes": 3447,
+      "views": "126647",
+      "has_media": false,
+      "media_urls": [],
+      "score": 75.846,
+      "summary": "回到电脑前。Codex 与 ChatGPT Work 的所有付费用户用量限额已重置。耶——好日子。",
+      "recommend_reason": "官方侧确认 Codex/ChatGPT Work 付费额度重置，今日开工可直接验证额度是否回满。",
+      "tags": [
+        "Codex",
+        "ChatGPT Work",
+        "额度",
+        "OpenAI",
+        "产品"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2081938548626960823",
+      "author": "op7418",
+      "author_bio": "",
+      "text": "Kimi K3 已经在多家推理服务上线，大家的 API 价格神奇的保持了一致\n\n但是一些  Token plan 已经开始打折了，比如 OpenCode Zen 和 Cline Pass，Cursor 给的额度估计也不低 https://t.co/E8hi7UKzHB",
+      "url": "https://x.com/i/status/2081938548626960823",
+      "created_at": "2026-07-28T03:03:25Z",
+      "likes": 5,
+      "views": "2376",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOSHtBkbAAA-33j.jpg"
+      ],
+      "score": 57.044,
+      "summary": "Kimi K3 已经在多家推理服务上线，大家的 API 价格神奇的保持了一致\n\n但是一些 Token plan 已经开始打折了，比如 OpenCode Zen 和 Cline Pass，Cursor 给的额度估计也不低",
+      "recommend_reason": "K3 开源后的分发与 Token Plan 价格战开始，选型要看渠道额度而非标价。",
+      "tags": [
+        "Kimi",
+        "K3",
+        "API",
+        "Token Plan",
+        "Cursor"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2081938524962492625",
+      "author": "gkxspace",
+      "author_bio": "",
+      "text": "我用一句话，让 Codex+Higgsfield 上线了一款能联机玩的武侠游戏！！！\n\n全球联机，进同一片水墨竹林，轻功跳屋顶、剑气波隔空对轰、连斩有称号播报，手机也能玩。\n\n整个过程我没画一张图、没写一个音符、没租一台服务器：\n1、Nano Banana Pro 出水墨剑客概念图\n2、Image to 3D 把图直接变成带骨骼的 3D 模型\n3、3D Rigging 从动作库套上出剑、轻功、疾风步\n4、Sonilo 生成古琴 BGM，Mirelo 出剑气音效\n5、代码让 Cursor 里的 Fable 5 写，它自己调 Higgsfield CLI 把这些全串起来\n6、最后 higgsfield game deploy 一条命令上线，域名和全球联机服务器全自动，再一条 publish 直接上架 marketplace\n\n以前这件事需要找游戏工作室，美术、作曲、3D建模、动画、全栈开发一个都不能少。\n\n但现在真是门槛无限低啊，想玩什么游戏直接自己做~",
+      "url": "https://x.com/i/status/2081938524962492625",
+      "created_at": "2026-07-28T03:03:19Z",
+      "likes": 12,
+      "views": "832",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2081938316144914432/vid/avc1/528x270/Kz4o5TCsJ4d4elBw.mp4?tag=29"
+      ],
+      "score": 65.364,
+      "title": "一句话驱动 Codex+Higgsfield 上线可联机武侠游戏",
+      "summary": "作者用 Codex+Higgsfield 串起水墨概念图→3D 建模绑骨→音效 BGM→Cursor/Fable 写代码→一键 deploy/publish，做出可全球联机、手机可玩的武侠游戏，强调美术/音频/服务器都未人工亲自制作。",
+      "recommend_reason": "完整展示 agent+生成式资产+部署链路，适合对照“AI 做游戏”真实门槛。",
+      "tags": [
+        "Codex",
+        "Higgsfield",
+        "游戏",
+        "Cursor",
+        "Agent"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2081937697132949900",
+      "author": "op7418",
+      "author_bio": "",
+      "text": "Anthropic 终于就关于 AI 开源生态的事发声了。\n\n先是说不主张全面禁止开源模型，然后还有三个“但是”，继续兜售他通过安全限制开源模型的套路：\n\n 1. 不向中国出售先进芯片以及先进芯片制造设备\n2. 打击工业蒸馏操作\n3. 所有足够强大的模型都必须强制通过安全测试\n\n依旧充满了对中国和中国人的敌意，同时猛拍特朗普马屁。",
+      "url": "https://x.com/i/status/2081937697132949900",
+      "created_at": "2026-07-28T03:00:02Z",
+      "likes": 6,
+      "views": "3473",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOSHLPwaEAAEOBY.jpg"
+      ],
+      "score": 57.413,
+      "summary": "Anthropic 终于就关于 AI 开源生态的事发声了。\n\n先是说不主张全面禁止开源模型，然后还有三个“但是”，继续兜售他通过安全限制开源模型的套路：\n\n1. 不向中国出售先进芯片以及先进芯片制造设备\n2. 打击工业蒸馏操作\n3. 所有足够强大的模型都必须强制通过安全测试\n\n依旧充满了对中国和中国人的敌意，同时猛拍特朗普马屁。",
+      "recommend_reason": "开源政策立场与“安全附加条件”并列，是读美方监管叙事的一手摘要。",
+      "tags": [
+        "Anthropic",
+        "开源",
+        "政策",
+        "安全",
+        "产业"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2081935037206065535",
+      "author": "IndieDevHailey",
+      "author_bio": "",
+      "text": "Tolaria：本地Markdown知识库桌面端。\n\n笔记就是普通md文件，整个库是git仓库。离线、无账号、无订阅、不锁死。\n\n作者自己拿它管一万多条笔记。键盘优先，AI直接当上下文用。\n\n开源，跨平台，装完就能跑。 https://t.co/Or3p5mqj1K",
+      "url": "https://x.com/i/status/2081935037206065535",
+      "created_at": "2026-07-28T02:49:28Z",
+      "likes": 1,
+      "views": "343",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOSDiaibwAA25v7.jpg"
+      ],
+      "score": 37.477,
+      "summary": "Tolaria：本地Markdown知识库桌面端。\n\n笔记就是普通md文件，整个库是git仓库。离线、无账号、无订阅、不锁死。\n\n作者自己拿它管一万多条笔记。键盘优先，AI直接当上下文用。\n\n开源，跨平台，装完就能跑。",
+      "recommend_reason": "本地 md+git 知识库且可直接喂 AI 上下文，适合要数据主权的人。",
+      "tags": [
+        "Tolaria",
+        "知识库",
+        "Markdown",
+        "开源",
+        "本地"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2081934832423014735",
+      "author": "gkxspace",
+      "author_bio": "",
+      "text": "卧槽，想靠 AI 视频接活赚钱的爽了！！！\n\n居然真有产品解决了目前最大的问题：可控交付\n\n品牌片、MV、短剧、产品广告，客户不会因为“这是 AI 做的”买单。\n\n他们只看角色能不能演对、镜头能不能按要求走、人物细节够不够真实、整片风格能不能统一。\n\n这也是 @TopviewAIhq 这次做 Film Studio 最牛逼的地方。\n\n表演、摄影机、3D 调度、VFX、人物细节、色彩风格，全部放到同一张无限画布里让你自己导。\n它是一套专门给 AI 电影创作者做可控镜头的电影级生成套件。\n\n做一个漂亮 demo 越来越简单，但能把客户想要的镜头做出来的人，才能把钱赚了。",
+      "url": "https://x.com/i/status/2081934832423014735",
+      "created_at": "2026-07-28T02:48:39Z",
+      "likes": 9,
+      "views": "2579",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2081933444972445696/vid/avc1/480x270/J3p8GlHlKrFyt1mS.mp4?tag=29"
+      ],
+      "score": 42.084,
+      "title": "Topview Film Studio：把 AI 视频从 demo 推到可控交付",
+      "summary": "强调客户买单看的是角色表演、镜头调度、人物细节与风格统一，而非“是不是 AI 做的”。Topview Film Studio 把表演、摄影机、3D 调度、VFX、细节与调色放在同一无限画布，定位电影级可控生成套件。",
+      "recommend_reason": "把 AI 视频竞争点从“生成一段好看的”拉回“可控交付”，产品问题定义清楚。",
+      "tags": [
+        "Topview",
+        "AI视频",
+        "Film Studio",
+        "可控生成",
+        "产品"
+      ],
+      "rank": 10
+    }
+  ],
+  "generated_at": "2026-07-28T04:04:06Z",
+  "selection": {
+    "target_count": 30,
+    "max_count": 30,
+    "per_run_max": 15,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 10,
+    "last_batch_added": 10,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤15；单日≤30不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
