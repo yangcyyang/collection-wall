@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-29",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2082495905874530652",
+      "author": "yaojingang",
+      "author_bio": "",
+      "text": "晚上和9位传统制造和消费品企业的高管聚餐，他们企业的体量大致都在几亿到几十亿这个区间\n\n其中一位分享了一个很有意思的近期数据\n他们统计到，来自抖音短视频的线索贡献，占了所有来源的50%\n\n进一步排查发现，原来是豆包近期大量引用抖音短视频，而他们恰好前几年大量通过抖音进行短视频种草\n我问，在之前抖音的获客比例占比是多少\n这位高管朋友说，大概10%左右\n\n豆包的力量，真是不容小觑",
+      "url": "https://x.com/i/status/2082495905874530652",
+      "created_at": "2026-07-29T15:58:09Z",
+      "likes": 1,
+      "views": "65",
+      "has_media": false,
+      "media_urls": [],
+      "score": 55.288,
+      "recommend_reason": "一线制造/消费品高管口述：豆包引用抖音短视频后，抖音线索占比从约10%拉到50%，AI 分发改写获客结构的硬信号。",
+      "tags": [
+        "豆包",
+        "抖音",
+        "获客",
+        "B端",
+        "AI分发"
+      ],
+      "summary": "晚上和9位传统制造和消费品企业的高管聚餐，他们企业的体量大致都在几亿到几十亿这个区间\n\n其中一位分享了一个很有意思的近期数据\n他们统计到，来自抖音短视频的线索贡献，占了所有来源的50%\n\n进一步排查发现，原来是豆包近期大量引用抖音短视频，而他们恰好前几年大量通过抖音进行短视频种草\n我问，在之前抖音的获客比例占比是多少\n这位高管朋友说，大概10%左右\n\n豆包的力量，真是不容小觑",
+      "rank": 1
+    },
+    {
+      "id": "2082492617208791053",
+      "author": "yangyi",
+      "author_bio": "",
+      "text": "但凡是做AI效率应用的，最终都逃不过人力杠杆。\n因为只有依靠人类，相同智能水平的token才能卖出更高的溢价。\n你能做图，他也能做图，大家都能做图。\n你的AI出图80分，他也80分，没差别。\n但客户之所以付你溢价，是因为你这个人为AI背书了，你会没日没夜给AI擦屁股做交付，但AI自己不会。\n\nAI效率应用的归途，就是人力杠杆，他和劳动力市场是一样的，只是被人类转手了一道。\n\n因为没有任何一个AI能帮助人类背锅或者坐牢。\n\n做AI效率应用，充其量token溢价出的毛利率也就是30-50%\n\n但你包装成人类服务，就能兜售更多。\n\n这就是做AI效率应用的终局，因为你太有用了，太实在了，也就太不值钱了。\n\n连点儿想象空间都没有，真的，傻实傻实的。",
+      "url": "https://x.com/i/status/2082492617208791053",
+      "created_at": "2026-07-29T15:45:05Z",
+      "likes": 7,
+      "views": "465",
+      "has_media": false,
+      "media_urls": [],
+      "score": 41.439,
+      "recommend_reason": "对 AI 效率产品商业模式的冷判断：差异化不在模型分，而在人类交付与责任承担。",
+      "tags": [
+        "AI应用",
+        "商业模式",
+        "人力杠杆",
+        "效率工具",
+        "产品"
+      ],
+      "title": "AI 效率应用终局：卖的是人力杠杆不是 token",
+      "summary": "作者判断：做 AI 效率应用最终绕不开人力杠杆——同样智能的 token 只有挂上人类背书与交付兜底才能卖溢价；AI 自己不背锅、不坐牢，所以纯工具毛利大约 30–50%，包装成人服务才能卖更多。结论偏尖锐：太实在反而没想象空间。",
+      "rank": 2
+    },
+    {
+      "id": "2082487656391627182",
+      "author": "vista8",
+      "author_bio": "",
+      "text": "这可能是最常见的前端 AI 味之一。\n\nClaude 为啥默认这么喜欢在卡片左侧加一个带颜色的竖线呢？\n\n早期蓝紫渐变AI味，原因是 Tailwind UI某版本默认配色是这个，AI 训练大量学习受到的影响。\n\n好奇这个带色竖线是从哪学来的呢？ https://t.co/faDqVVOkMr",
+      "url": "https://x.com/i/status/2082487656391627182",
+      "created_at": "2026-07-29T15:25:22Z",
+      "likes": 4,
+      "views": "1493",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOZ6tfuagAAHrUi.jpg"
+      ],
+      "score": 56.947,
+      "recommend_reason": "把「前端 AI 味」落到具体 UI 习惯：彩色左边框从哪学来，并回溯 Tailwind UI 默认配色对模型审美的污染路径。",
+      "tags": [
+        "Claude",
+        "前端",
+        "AI味",
+        "设计",
+        "Tailwind"
+      ],
+      "summary": "这可能是最常见的前端 AI 味之一。\n\nClaude 为啥默认这么喜欢在卡片左侧加一个带颜色的竖线呢？\n\n早期蓝紫渐变AI味，原因是 Tailwind UI某版本默认配色是这个，AI 训练大量学习受到的影响。\n\n好奇这个带色竖线是从哪学来的呢？ https://t.co/faDqVVOkMr",
+      "rank": 3
+    },
+    {
+      "id": "2082481431461384609",
+      "author": "vista8",
+      "author_bio": "",
+      "text": "Sam Altman的最新访谈，感觉信息量并不大，几个有趣的地方：\n\n1. 让 OpenAI 下决心囤算力，是因为 GPT4 ，只要搞定让模型推理能力变强，未来可以做高经济价值的任务。\n\n2. OpenAI 未来算力绝大部分会用于模型推理，万亿美元规模营收，保持一点利润率，就够支撑训练新模型。\n\n3. Altman判断，机器人领域的 ChatGPT 时刻会在接下来两三年内出现。\n\n4. OpenAI 发 GPT3 时，团队其实是想赚钱，让更多人用 API，结果真跑通的场景只有一个：文案写作。\n\n营销公司收客户 20 美元，付 OpenAI 两毛钱让 AI 写一篇落地页文案。\n\n5. ChatGPT起源，OpenAI的 Playground 测试页，用户喜欢在这里跟模型聊天，发现这点后，干脆做一个更好的“聊天”工具，原来产品叫“Chat with GPT3.5”，上线前几个小时改名为“ChatGPT”\n\nhttps://t.co/VFlZET8XI6",
+      "url": "https://x.com/i/status/2082481431461384609",
+      "created_at": "2026-07-29T15:00:38Z",
+      "likes": 2,
+      "views": "1287",
+      "has_media": false,
+      "media_urls": [],
+      "score": 52.026,
+      "recommend_reason": "信息密度高的访谈拆条，覆盖算力经济、机器人时间线与 ChatGPT 产品起源三条可复述线索。",
+      "tags": [
+        "OpenAI",
+        "Sam Altman",
+        "算力",
+        "ChatGPT",
+        "访谈"
+      ],
+      "title": "Altman 访谈要点：囤算力、推理营收与 ChatGPT 起源",
+      "summary": "整理 Sam Altman 最新访谈里仍有增量的几点：GPT-4 后因推理能力可做高价值任务而加大囤算力；未来算力主耗在推理，万亿营收+微利即可反哺训练；机器人领域 ChatGPT 时刻预计两三年内；GPT-3 时期真正跑通的付费场景几乎只有文案写作（客户付 20 美元、API 成本约两毛）；ChatGPT 来自 Playground 用户爱聊天，上线前数小时才从「Chat with GPT3.5」改名。",
+      "rank": 4
+    },
+    {
+      "id": "2082477724745298009",
+      "author": "HiTw93",
+      "author_bio": "",
+      "text": "最近在使用一种和 AICoding 更好交流的方式，椅子上一躺，按住语音输入法，把自己要做的事情、为什么要做、解决什么问题、期待长什么样子、喜欢什么样子的风格、如何来验收等等自言自语聊上几分钟，不停补充要求，然后把这些杂乱单重要的上下文一股脑给到 AI ，效果往往会比打字一句句聊好太太太多了!",
+      "url": "https://x.com/i/status/2082477724745298009",
+      "created_at": "2026-07-29T14:45:54Z",
+      "likes": 50,
+      "views": "5928",
+      "has_media": false,
+      "media_urls": [],
+      "score": 41.798,
+      "recommend_reason": "可复用的 AI 编程协作手法：语音长聊把目标/原因/验收一次倒给模型，比一句句打字更容易喂足上下文。",
+      "tags": [
+        "AI编程",
+        "提示词",
+        "语音输入",
+        "工作流",
+        "实践"
+      ],
+      "summary": "最近在使用一种和 AICoding 更好交流的方式，椅子上一躺，按住语音输入法，把自己要做的事情、为什么要做、解决什么问题、期待长什么样子、喜欢什么样子的风格、如何来验收等等自言自语聊上几分钟，不停补充要求，然后把这些杂乱单重要的上下文一股脑给到 AI ，效果往往会比打字一句句聊好太太太多了!",
+      "rank": 5
+    },
+    {
+      "id": "2082471629062619623",
+      "author": "jakevin7",
+      "author_bio": "",
+      "text": "MCP 大更新了。核心协议全面无状态化，告别 session 和长连接，更适合 serverless、边缘部署与横向扩容。\n\n之前 MCP 更像 为 agent 特制的有状态 RPC；\n现在中于更像  基础设施标准  一点了",
+      "url": "https://x.com/i/status/2082471629062619623",
+      "created_at": "2026-07-29T14:21:41Z",
+      "likes": 10,
+      "views": "4053",
+      "has_media": false,
+      "media_urls": [],
+      "score": 53.379,
+      "recommend_reason": "用一句话点出 MCP 方向：从有状态 agent RPC 走向无状态基础设施标准，利好 serverless/边缘横向扩容。",
+      "tags": [
+        "MCP",
+        "协议",
+        "Agent",
+        "serverless",
+        "基础设施"
+      ],
+      "summary": "MCP 大更新了。核心协议全面无状态化，告别 session 和长连接，更适合 serverless、边缘部署与横向扩容。\n\n之前 MCP 更像 为 agent 特制的有状态 RPC；\n现在中于更像  基础设施标准  一点了",
+      "rank": 6
+    }
+  ],
+  "generated_at": "2026-07-29T16:05:01Z",
+  "selection": {
+    "target_count": 30,
+    "max_count": 30,
+    "per_run_max": 15,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "midnight",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 6,
+    "last_batch_added": 6,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤15；单日≤30不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
