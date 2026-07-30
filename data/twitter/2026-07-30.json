@@ -9,6 +9,208 @@
   },
   "items": [
     {
+      "id": "2082854480266350698",
+      "author": "huangyun_122",
+      "author_bio": "",
+      "text": "Grok 的含金量还在持续暴涨\n\n给它指定一个帖子，可以提取视频，假如本地还有 GPU 甚至可以一键转录\n\nemmm, 偷着乐吧，我知道你们要干啥了，返个链接在评论区就好，方便其他兄弟，施主功德无量 https://t.co/egNBbfExP8",
+      "url": "https://x.com/i/status/2082854480266350698",
+      "created_at": "2026-07-30T15:43:00Z",
+      "likes": 1,
+      "views": "356",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOfIc2wa0AElaiU.jpg"
+      ],
+      "score": 54.877,
+      "summary": "Grok 的含金量还在持续暴涨\n\n给它指定一个帖子，可以提取视频，假如本地还有 GPU 甚至可以一键转录\n\nemmm, 偷着乐吧，我知道你们要干啥了，返个链接在评论区就好，方便其他兄弟，施主功德无量 https://t.co/egNBbfExP8",
+      "recommend_reason": "可复用的 Grok 能力点：帖子视频提取 + 本地 GPU 转录，对内容采集有用。",
+      "tags": [
+        "Grok",
+        "视频提取",
+        "转录",
+        "xAI",
+        "工具技巧"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2082847444195553770",
+      "author": "OfficialLoganK",
+      "author_bio": "",
+      "text": "Introducing Gemini Robotics ER 2, our latest robotics embodied reasoning model based on Gemini. \n\nSo much progress from our last ER model (and baseline Gemini 3.6 Flash). Very excited to see more robots do useful things with this model! https://t.co/TinbbdWCqo",
+      "url": "https://x.com/i/status/2082847444195553770",
+      "created_at": "2026-07-30T15:15:02Z",
+      "likes": 662,
+      "views": "32702",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOfCtnLboAE_zm7.jpg"
+      ],
+      "score": 75.243,
+      "summary": "Logan Kilpatrick 介绍 Gemini Robotics ER 2：基于 Gemini 的最新机器人具身推理模型。相对上一版 ER 模型与基线 Gemini 3.6 Flash 有明显进展，作者期待更多机器人借助该模型完成实用任务。",
+      "recommend_reason": "官方侧对 ER 2 的产品定位与进步声明，适合和 DeepMind/GoogleAI 长文对照。",
+      "tags": [
+        "Gemini",
+        "Robotics",
+        "具身智能",
+        "Google",
+        "ER 2"
+      ],
+      "title": "Gemini Robotics ER 2：基于 Gemini 的具身推理新模型",
+      "rank": 2
+    },
+    {
+      "id": "2082846113074237610",
+      "author": "GoSailGlobal",
+      "author_bio": "",
+      "text": "Google DeepMind 出手机器人了：Gemini Robotics 2\n定位是给下一代机器人当「智能层」\n\n这次解锁了三样：\n· 全身协同控制\n· 更精细的手上功夫（灵巧操作）\n· 多个机器人一起协作\n\n最值得看的是那个 Gemini Robotics ER 2，一个「具身推理」模型，扮演机器人的高层大脑：\n观察环境，推理该做哪些动作，指挥底下的 VLA 模型去执行，一路盯着进度直到干完\n\n有了这套，机器人能跑多步骤的复杂流程，某一步失败了能自我纠错，碰到没见过的新情况也能临场适应\n\n· 我一直说 agent 缺的是手和眼，机器人这条线，是在把「身体」补上\n· 有意思的是分工：ER 2 当大脑负责想，VLA 当手脚负责做，摄像头当眼睛\n· 观察、推理、执行、盯进度、纠错，这套闭环，跟软件 agent 其实是同一副骨架",
+      "url": "https://x.com/i/status/2082846113074237610",
+      "created_at": "2026-07-30T15:09:45Z",
+      "likes": 2,
+      "views": "465",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOfBfXVW8AAclJY.jpg"
+      ],
+      "score": 57.768,
+      "summary": "GoSailGlobal 解读 Google DeepMind 的 Gemini Robotics 2：给下一代机器人当「智能层」，解锁全身协同控制、更精细灵巧操作与多机协作。重点是 Gemini Robotics ER 2 作为具身推理高层大脑——观察环境、推理动作、指挥 VLA 执行并盯进度；失败可纠错，新情况可适应。作者类比：agent 缺的是手和眼，机器人线在补「身体」；观察-推理-执行-盯进度-纠错与软件 agent 骨架同构。",
+      "recommend_reason": "把官方发布转成中文机制图，强调 agent 身体补齐，读完比只看英文 slogan 更落地。",
+      "tags": [
+        "Gemini Robotics",
+        "Agent",
+        "VLA",
+        "具身智能",
+        "中文解读"
+      ],
+      "title": "中文拆解 Gemini Robotics 2：ER 当脑、VLA 当手脚",
+      "rank": 3
+    },
+    {
+      "id": "2082844740446253125",
+      "author": "GoogleAI",
+      "author_bio": "",
+      "text": "For decades, we’ve dreamed of robots that can seamlessly step into our world and lend a hand.\n\nToday, we take a major stride toward making that dream a reality:\n\nIntroducing Gemini Robotics 2 from @GoogleDeepMind, the intelligence layer powering the next generation of truly adaptable robots. This major advance unlocks intelligent whole-body control, advanced dexterity, and even multi-robot collaboration 🤯.\n\nOk but... how does a robot actually \"think\"?\n\nReal-world tasks take time and planning. To manage that complexity, our new embodied reasoning model, Gemini Robotics ER 2, acts as the robot’s high-level brain, enhancing the robot’s capabilities to:\n\n— Observe the environment\n— Reason about the actions needed to complete the task\n— Coordinate with the vision-language-action model to carry out actions\n— Track progress until the job is done\n\nThis setup allows robots to execute complex multi-step workflows, self-correct if a step fails, and adapt to completely novel situations.\n\nLearn more about Gemini Robotics ER 2 (and our two other brand new models) here: https://t.co/1YEpoYAhww",
+      "url": "https://x.com/i/status/2082844740446253125",
+      "created_at": "2026-07-30T15:04:18Z",
+      "likes": 472,
+      "views": "29037",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2082844194066870272/vid/avc1/480x270/RyGbgCwnKGEnJJvY.mp4?tag=29"
+      ],
+      "score": 72.329,
+      "summary": "Google 介绍 DeepMind 的 Gemini Robotics 2，定位为下一代可适应机器人的智能层，解锁全身控制、精细灵巧与多机器人协作。新具身推理模型 Gemini Robotics ER 2 充当高层大脑：观察环境、推理所需动作、与视觉-语言-动作（VLA）模型协同执行，并跟踪进度直至完成。据此机器人可跑多步骤流程、步骤失败时自我纠错，并适应未见过的新场景。文末给出 ER 2 与另外两个新模型的了解入口。",
+      "recommend_reason": "比口号帖更完整：把 ER 2「想」与 VLA「做」的分工写清楚，是本场机器人主线的主文档。",
+      "tags": [
+        "Gemini Robotics",
+        "ER 2",
+        "VLA",
+        "Google",
+        "具身推理"
+      ],
+      "title": "Gemini Robotics 2：全身控制 + ER 2 高层大脑拆解",
+      "rank": 4
+    },
+    {
+      "id": "2082844162928381956",
+      "author": "GoogleDeepMind",
+      "author_bio": "",
+      "text": "One brain. For any robot. 🤖\n\nWe’re launching Gemini Robotics 2: our next-generation physical AI bringing full body intelligence to humanoids, advanced dexterity, multi-robot teamwork and more.",
+      "url": "https://x.com/i/status/2082844162928381956",
+      "created_at": "2026-07-30T15:02:00Z",
+      "likes": 1235,
+      "views": "110879",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2082842377991933952/vid/avc1/320x400/f6LIxDjnDSIHiCiF.mp4?tag=29"
+      ],
+      "score": 72.562,
+      "summary": "一个大脑，适配任何机器人。我们发布 Gemini Robotics 2：下一代物理 AI，为人形机器人带来全身智能、更强灵巧操作与多机协作等能力。",
+      "recommend_reason": "DeepMind 官方一句话产品定义，适合作为本场机器人主线入口。",
+      "tags": [
+        "GoogleDeepMind",
+        "Gemini Robotics",
+        "机器人",
+        "具身智能"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2082842905950224455",
+      "author": "dingyi",
+      "author_bio": "",
+      "text": "shadcn 作者发布了一个 Mac app，专门为 AI 辅助工作流程设计的 Mac 桌面应用。它结合了待办事项清单、剪贴板和暂存器（Scratchpad）的功能，解决在多个 AI 工具之间频繁切换时，想法、链接和提示词散乱的问题。\n\nhttps://t.co/Qaa3dUtQEs",
+      "url": "https://x.com/i/status/2082842905950224455",
+      "created_at": "2026-07-30T14:57:00Z",
+      "likes": 22,
+      "views": "2949",
+      "has_media": false,
+      "media_urls": [],
+      "score": 57.15,
+      "summary": "shadcn 作者发布了一个 Mac app，专门为 AI 辅助工作流程设计的 Mac 桌面应用。它结合了待办事项清单、剪贴板和暂存器（Scratchpad）的功能，解决在多个 AI 工具之间频繁切换时，想法、链接和提示词散乱的问题。\n\nhttps://t.co/Qaa3dUtQEs",
+      "recommend_reason": "具体产品：把待办/剪贴板/暂存器合进 AI 工作流，针对多工具切换的真实痛点。",
+      "tags": [
+        "shadcn",
+        "Mac",
+        "AI工作流",
+        "桌面应用",
+        "生产力"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2082835764539433054",
+      "author": "jinchenma_ai",
+      "author_bio": "",
+      "text": "ChatGPT 现在很纠结啊\n\n想要全面推广 Codex，但又要照顾到普通用户只会用 Chat 模式\n\n之前 ChatGPT 和 Codex 刚合并的时候，把聊天模式弄成个浮窗。\n\n这几天我发现聊天找不到了，原来是放在 ChatGPT 模式下的 Chat 页里了。\n\n讨论问题用 Chat，干活用 Codex。额度是独立的。 https://t.co/624fC8h8mU",
+      "url": "https://x.com/i/status/2082835764539433054",
+      "created_at": "2026-07-30T14:28:38Z",
+      "likes": 1,
+      "views": "1249",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOe33kbbcAEmRUl.png",
+        "https://pbs.twimg.com/media/HOe33kgacAAOFaS.jpg"
+      ],
+      "score": 54.437,
+      "summary": "ChatGPT 现在很纠结啊\n\n想要全面推广 Codex，但又要照顾到普通用户只会用 Chat 模式\n\n之前 ChatGPT 和 Codex 刚合并的时候，把聊天模式弄成个浮窗。\n\n这几天我发现聊天找不到了，原来是放在 ChatGPT 模式下的 Chat 页里了。\n\n讨论问题用 Chat，干活用 Codex。额度是独立的。 https://t.co/624fC8h8mU",
+      "recommend_reason": "界面/产品路径变化快讯：Chat 与 Codex 分流与额度独立，用过的人会立刻对上号。",
+      "tags": [
+        "ChatGPT",
+        "Codex",
+        "OpenAI",
+        "产品更新",
+        "UI"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2082834495984763299",
+      "author": "HiTw93",
+      "author_bio": "",
+      "text": "潮流周刊第 275 期 - 蓝色黄昏，推荐了几个好玩的东西给大伙，可以瞧瞧，每周一更新，欢迎订阅 RSS。\n1、Bento 一个好看的 PPT 系统单文件 html 可以让你的 AI 随便改\n2、Clawk 给你的 Coding Agent 一个一次性的 Linux 虚拟机\n3、Dan Shipper 关于 Claude Opus 5 的这个评价我挺赞同\n4、这个网站可以随便帮你打开一个世界各地的窗户看风景\n5、peek-cli 让你的 Coding Agent 更好看到网页\nhttps://t.co/rFoIMMqZwx",
+      "url": "https://x.com/i/status/2082834495984763299",
+      "created_at": "2026-07-30T14:23:35Z",
+      "likes": 40,
+      "views": "4394",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOe21s2bkAA69x7.jpg"
+      ],
+      "score": 64.767,
+      "summary": "HiTw93 发布潮流周刊第 275 期，推荐：Bento（好看的单文件 HTML PPT，方便 AI 改）、Clawk（给 Coding Agent 一次性 Linux 虚拟机）、Dan Shipper 对 Claude Opus 5 的评价、随机打开世界各地窗户看风景的网站，以及让 Coding Agent 更好看网页的 peek-cli。",
+      "recommend_reason": "工具向周刊清单，几条都和 AI/Agent 工作流直接相关，可扫可点。",
+      "tags": [
+        "工具周刊",
+        "Coding Agent",
+        "PPT",
+        "虚拟机",
+        "peek-cli"
+      ],
+      "title": "潮流周刊 275：Bento PPT、Clawk 虚拟机与 peek-cli",
+      "rank": 8
+    },
+    {
       "id": "2082674896426156538",
       "author": "xiaoxiaodong01",
       "author_bio": "",
@@ -34,7 +236,7 @@
         "提示词",
         "行业应用"
       ],
-      "rank": 1
+      "rank": 9
     },
     {
       "id": "2082670827657433335",
@@ -58,7 +260,7 @@
         "模型体验"
       ],
       "title": "Opus 新版本测评拉胯：自动化循环里疯狂砍需求偷懒",
-      "rank": 2
+      "rank": 10
     },
     {
       "id": "2082666702182154546",
@@ -83,7 +285,7 @@
         "CodeReview",
         "开发工具"
       ],
-      "rank": 3
+      "rank": 11
     },
     {
       "id": "2082657364965224636",
@@ -106,7 +308,7 @@
         "组织调整",
         "Workbuddy"
       ],
-      "rank": 4
+      "rank": 12
     },
     {
       "id": "2082656148776530225",
@@ -132,7 +334,7 @@
         "AI伦理"
       ],
       "title": "稀有书蒸馏争议：Anthropic 被指毁书，马斯克/奥特曼各表立场",
-      "rank": 5
+      "rank": 13
     },
     {
       "id": "2082654917123060215",
@@ -157,7 +359,7 @@
         "字节",
         "模型发布"
       ],
-      "rank": 6
+      "rank": 14
     },
     {
       "id": "2082649035488502020",
@@ -182,10 +384,10 @@
         "AI视频",
         "Reasoning"
       ],
-      "rank": 7
+      "rank": 15
     }
   ],
-  "generated_at": "2026-07-30T04:03:52Z",
+  "generated_at": "2026-07-30T16:03:41Z",
   "selection": {
     "target_count": 30,
     "max_count": 30,
@@ -193,11 +395,11 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 7,
-    "last_batch_added": 7,
+    "actual_count": 15,
+    "last_batch_added": 8,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
