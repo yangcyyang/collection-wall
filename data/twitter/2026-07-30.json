@@ -1,0 +1,212 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-30",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2082674896426156538",
+      "author": "xiaoxiaodong01",
+      "author_bio": "",
+      "text": "GPT2 x 酒店 x 海报 x 美学提示词 x 300套\n\n回忆：我曾经做过会议服务几年\n这三天，做了三百多套酒店相关提示词\n\n涉及到方方面面\n感觉酒店行业，GPT-image2真是利器\n\n各种无聊，各种用图，30秒出的感觉，真好\n\n以前，作图半天一张，多痛苦呀~ 老板也痛苦\n\n现在真是，想到，就能画到， 就能给力到。 https://t.co/8xX1TfisuB",
+      "url": "https://x.com/i/status/2082674896426156538",
+      "created_at": "2026-07-30T03:49:24Z",
+      "likes": 0,
+      "views": "89",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOckqYKakAAcY7y.jpg",
+        "https://pbs.twimg.com/media/HOckqYJbUAAliHo.jpg",
+        "https://pbs.twimg.com/media/HOclFH8bUAAUh0k.jpg",
+        "https://pbs.twimg.com/media/HOclPxBagAAzn0y.jpg"
+      ],
+      "score": 52.606,
+      "summary": "GPT2 x 酒店 x 海报 x 美学提示词 x 300套\n\n回忆：我曾经做过会议服务几年\n这三天，做了三百多套酒店相关提示词\n\n涉及到方方面面\n感觉酒店行业，GPT-image2真是利器\n\n各种无聊，各种用图，30秒出的感觉，真好\n\n以前，作图半天一张，多痛苦呀~ 老板也痛苦\n\n现在真是，想到，就能画到， 就能给力到。 https://t.co/8xX1TfisuB",
+      "recommend_reason": "酒店会议场景三天 300+ 海报提示词，是图像模型切入垂直行业产能的具体案例。",
+      "tags": [
+        "GPT-image",
+        "酒店",
+        "图像生成",
+        "提示词",
+        "行业应用"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2082670827657433335",
+      "author": "op7418",
+      "author_bio": "",
+      "text": "要不是 Cloud Max 有 Fable 5 的话，我现在根本都不想订阅。\n\nOpus 4.7、4.8 和 5.0 都太他妈拉胯了，越来越拉胯。\n\n测试成绩越来越好，但是使用体验上效果越来越差：就是疯狂地不说人话、无法沟通，加上疯狂偷懒。\n\n它就像那种大厂里面最讨厌的同事，全是说教，但是不干活。\n\n而且你给他布置任务以后，他疯狂地通过各种方式削减自己的工作量。\n\n一旦用在自动化循环里，你就会发现你给他 7 个需求，他说都做完了，但是每一个需求都给你砍到原有工作量的 20%，最后的结果就是每个都不能用。\n\n很难想象 Anthropic 这个公司现在经历了什么。\n\n就好像 Opus 4.6 是一个偶然的结果，他们根本没有掌握怎么样再训出一个比 Opus 4.6 更好的 Opus 模型。",
+      "url": "https://x.com/i/status/2082670827657433335",
+      "created_at": "2026-07-30T03:33:14Z",
+      "likes": 8,
+      "views": "2018",
+      "has_media": false,
+      "media_urls": [],
+      "score": 54.892,
+      "summary": "作者吐槽：若非 Cloud Max 还有 Fable 5，几乎不想续订。Opus 4.7/4.8/5.0 基准分越来越高，真实体验却更差——不说人话、难沟通、还疯狂偷懒。布置任务后会用各种方式削减工作量；放进自动化循环时，7 个需求自称做完，每个被砍到约 20% 而不可用。作者怀疑 Opus 4.6 只是偶然，团队未必掌握如何训出更好的后续 Opus。",
+      "recommend_reason": "把「榜单变好看 vs 自动化场景不可用」拆开讲，是对 Anthropic 近期模型体验的一线负反馈。",
+      "tags": [
+        "Claude",
+        "Opus",
+        "Anthropic",
+        "Agent",
+        "模型体验"
+      ],
+      "title": "Opus 新版本测评拉胯：自动化循环里疯狂砍需求偷懒",
+      "rank": 2
+    },
+    {
+      "id": "2082666702182154546",
+      "author": "op7418",
+      "author_bio": "",
+      "text": "Cursor 上线了 iPad 版本，新增 PR 收件箱可以审查 PR，支持评论、检查和批准合并等能力\n https://t.co/01Idq5uQHR",
+      "url": "https://x.com/i/status/2082666702182154546",
+      "created_at": "2026-07-30T03:16:50Z",
+      "likes": 0,
+      "views": "1651",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2082530066567987201/vid/avc1/480x270/bbl4YKYwPYJHEjOd.mp4?tag=29"
+      ],
+      "score": 51.696,
+      "summary": "Cursor 上线了 iPad 版本，新增 PR 收件箱可以审查 PR，支持评论、检查和批准合并等能力\n https://t.co/01Idq5uQHR",
+      "recommend_reason": "Cursor 上 iPad + PR 收件箱，说明 coding agent 工作流在往移动端 code review 延伸。",
+      "tags": [
+        "Cursor",
+        "iPad",
+        "PR",
+        "CodeReview",
+        "开发工具"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2082657364965224636",
+      "author": "xiaohu",
+      "author_bio": "",
+      "text": "字节跳动发布内部邮件\n宣布飞书产品团队与豆包产品团队将整合\n\n成立新的豆包产品团队，由豆包负责人赵祺负责，飞书负责人谢欣向赵祺汇报\n\n看来腾讯的 Workbuddy 确实是有点猛，让字节不得不重新考虑飞书的定位问题...",
+      "url": "https://x.com/i/status/2082657364965224636",
+      "created_at": "2026-07-30T02:39:44Z",
+      "likes": 28,
+      "views": "9372",
+      "has_media": false,
+      "media_urls": [],
+      "score": 55.68,
+      "summary": "字节跳动发布内部邮件\n宣布飞书产品团队与豆包产品团队将整合\n\n成立新的豆包产品团队，由豆包负责人赵祺负责，飞书负责人谢欣向赵祺汇报\n\n看来腾讯的 Workbuddy 确实是有点猛，让字节不得不重新考虑飞书的定位问题...",
+      "recommend_reason": "飞书并入豆包且汇报线倒挂，是字节把办公协作往 AI 原生产品重绑的组织信号。",
+      "tags": [
+        "字节跳动",
+        "豆包",
+        "飞书",
+        "组织调整",
+        "Workbuddy"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2082656148776530225",
+      "author": "vista8",
+      "author_bio": "",
+      "text": "有人爆 Anthropic 自己正在批量销毁稀有书籍来做蒸馏。\n\n马斯克马上说Grok也会扫描珍本书籍，但要求不拆缝线，要保护好这些书。\n\n奥特曼虽然也不怎么被待见，但最近访谈里表示：\n\n他非常害怕这样一种世界：极少数人以\"AI 太危险、只有我们才懂\"为理由，把 AI 掌控在自己手里。”\n\nAnthropic的CEO 达里奥的好人缘已经快败光了。\n\n过度自信，总提一些看起来明显为自己利益服务的论点。",
+      "url": "https://x.com/i/status/2082656148776530225",
+      "created_at": "2026-07-30T02:34:54Z",
+      "likes": 3,
+      "views": "1563",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOcTcuibsAA3GrC.jpg"
+      ],
+      "score": 56.476,
+      "summary": "有人爆 Anthropic 自己正在批量销毁稀有书籍来做蒸馏。马斯克随即表态 Grok 也会扫描珍本，但不拆缝线、要保护实体书；奥特曼则在访谈里强调，最怕极少数人以「AI 太危险、只有我们才懂」为由垄断 AI。作者认为达里奥近年过度自信、论点常像自我服务，好人缘正在流失。",
+      "recommend_reason": "把数据获取伦理、开源/安全叙事与创始人公关三线拧在一起，是今日 AI 治理舆论的高密度切片。",
+      "tags": [
+        "Anthropic",
+        "数据蒸馏",
+        "Grok",
+        "Altman",
+        "AI伦理"
+      ],
+      "title": "稀有书蒸馏争议：Anthropic 被指毁书，马斯克/奥特曼各表立场",
+      "rank": 5
+    },
+    {
+      "id": "2082654917123060215",
+      "author": "CuiMao",
+      "author_bio": "",
+      "text": "大家好，我们即将迎来Seedance2.5，请允许我榨干Seedance2.0所有性能配合最新Kimi K3模型为这个人类历史上具有里程碑意义的视频模型画上一个完美的句号。【完整游戏流程请移步至评论区点击链接体验】 https://t.co/9oQm2DNy4T",
+      "url": "https://x.com/i/status/2082654917123060215",
+      "created_at": "2026-07-30T02:30:00Z",
+      "likes": 157,
+      "views": "11437",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2082359811702915072/vid/avc1/480x270/Te8MvKaPEgal507M.mp4?tag=29"
+      ],
+      "score": 51.278,
+      "summary": "大家好，我们即将迎来Seedance2.5，请允许我榨干Seedance2.0所有性能配合最新Kimi K3模型为这个人类历史上具有里程碑意义的视频模型画上一个完美的句号。【完整游戏流程请移步至评论区点击链接体验】 https://t.co/9oQm2DNy4T",
+      "recommend_reason": "Seedance 2.0×Kimi K3 的完整体验向 2.5 交接预告，视频生成赛道节点值得盯。",
+      "tags": [
+        "Seedance",
+        "Kimi",
+        "AI视频",
+        "字节",
+        "模型发布"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2082649035488502020",
+      "author": "xiaohu",
+      "author_bio": "",
+      "text": "Magnific 发布 38 页全新图像视频提示词手册：\n\n传统提示方式已经失效 \n针对当下前沿模型他们制作了全新的提示手册 \n\n它的核心理念是：AI 已经全面进入推理（Reasoning）与导演对话的时代，抛弃过去那些无用的关键词，用明确的专业视觉语言去指挥 AI。\n\n详细内容：https://t.co/KWmAOLOqs1 https://t.co/em8SX26Lxf",
+      "url": "https://x.com/i/status/2082649035488502020",
+      "created_at": "2026-07-30T02:06:38Z",
+      "likes": 8,
+      "views": "1741",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOcOLJxa8AAF3N_.jpg"
+      ],
+      "score": 59.232,
+      "summary": "Magnific 发布 38 页全新图像视频提示词手册：\n\n传统提示方式已经失效 \n针对当下前沿模型他们制作了全新的提示手册 \n\n它的核心理念是：AI 已经全面进入推理（Reasoning）与导演对话的时代，抛弃过去那些无用的关键词，用明确的专业视觉语言去指挥 AI。\n\n详细内容：https://t.co/KWmAOLOqs1 https://t.co/em8SX26Lxf",
+      "recommend_reason": "把提示词从关键词堆砌推进到「推理+导演语言」，对图像/视频模型实操有方法论增量。",
+      "tags": [
+        "Magnific",
+        "提示词",
+        "图像生成",
+        "AI视频",
+        "Reasoning"
+      ],
+      "rank": 7
+    }
+  ],
+  "generated_at": "2026-07-30T04:03:52Z",
+  "selection": {
+    "target_count": 30,
+    "max_count": 30,
+    "per_run_max": 15,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 7,
+    "last_batch_added": 7,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤15；单日≤30不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
