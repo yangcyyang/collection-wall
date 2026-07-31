@@ -1,0 +1,453 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-31",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2083037748139897042",
+      "author": "kevinma_dev_zh",
+      "author_bio": "",
+      "text": "MiniMax 这次有点狠：把图、视频、音频和编辑全塞进一个模型里，还准备开源权重。\n\n新出的 H3 是个全模态通用生成模型：能同时看图、看视频、听音频，生成最长 15 秒、2K、原生立体声的视频。更重要的是，官方说未来几天会放出模型权重。\n\n你可以直接说：“参考视频 1 的希区柯克运镜，让图 2 的人跟着音频 3 唱歌。” 这类跨素材组合，它会自己理解里面的关系，再把结果做出来。\n\n价格方面：默认 2K，官方称每秒成本不到主流模型的三分之一。\n\n视频生成正在从“给一句提示词，出一段片子”，慢慢走到能参与完整内容制作的阶段。等权重按计划开放出来，这次应该会特别热闹。",
+      "url": "https://x.com/i/status/2083037748139897042",
+      "created_at": "2026-07-31T03:51:14Z",
+      "likes": 0,
+      "views": "60",
+      "has_media": false,
+      "media_urls": [],
+      "score": 48.188,
+      "summary": "H3 被描述为全模态通用生成模型：同时理解图/视频/音频，输出最长 15 秒、2K、原生立体声视频，并宣称未来几天开放权重。支持跨素材组合指令（如参考视频运镜、让图中人物跟音频唱歌）。默认 2K，官方称每秒成本不到主流模型三分之一。作者判断视频生成正从「一句提示出片」走向参与完整内容制作。",
+      "recommend_reason": "补齐 H3 技术规格与开源时间线，和价格/能力解读形成互相印证。",
+      "tags": [
+        "MiniMax",
+        "H3",
+        "开源权重",
+        "多模态",
+        "AI视频"
+      ],
+      "title": "MiniMax H3：全模态参考生成并计划开源权重",
+      "quoted_tweet": {
+        "id": "2083008095488516262",
+        "author": "MiniMax_AI",
+        "name": "MiniMax (official)",
+        "text": "MiniMax H3: Omni-Reference, Commercial-Grade Generation, Unbeatable Cost Efficiency, Open Weights https://t.co/DLB1xsFfSC",
+        "created_at": "Fri Jul 31 01:53:25 +0000 2026",
+        "url": "https://x.com/MiniMax_AI/status/2083008095488516262",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "rank": 1
+    },
+    {
+      "id": "2083035971264877055",
+      "author": "oran_ge",
+      "author_bio": "",
+      "text": "没想到 Deepseek v4 pro 的正式版没等来，却等来了 Luna 的降价\nGPT 5.6 Luna 降价之后，AI 行业终于进入了一个重要的拐点\nAgent 的成本可控了，AI 应用公司终于能在此之上构建价值和获得利润了",
+      "url": "https://x.com/i/status/2083035971264877055",
+      "created_at": "2026-07-31T03:44:11Z",
+      "likes": 8,
+      "views": "1185",
+      "has_media": false,
+      "media_urls": [],
+      "score": 54.674,
+      "summary": "没想到 Deepseek v4 pro 的正式版没等来，却等来了 Luna 的降价\nGPT 5.6 Luna 降价之后，AI 行业终于进入了一个重要的拐点\nAgent 的成本可控了，AI 应用公司终于能在此之上构建价值和获得利润了",
+      "recommend_reason": "把模型降价直接连到 Agent 商业化拐点：成本可控才谈得上应用层利润。",
+      "tags": [
+        "GPT-5.6",
+        "Luna",
+        "Agent",
+        "成本",
+        "商业化"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2083034355509903361",
+      "author": "gkxspace",
+      "author_bio": "",
+      "text": "爽了，AI视频终于卷起来了，MiniMax H3 牛逼！！！\n\nSeedance 2.0 30% 的价格 + 2K 画质 + 原生声音 + 角色一致 + 指令编辑\n\n真香！我来给大家详细讲一讲这个模型：\n\n它原生同时出画面和声音。给一段描述，视频出来自带对话、音效、环境音，不用像以前一样跑完视频再去配 TTS、找音效、对口型。\n\n之前做一条完整有声视频至少串三四个工具，现在一步全出来。光这一个能力就已经省掉巨多时间了。\n\n比如，你设计好一个品牌模特，把参考图喂进去，最多同时喂 9 张图 + 3 段视频 + 3 段音频，模型生成的每条视频里这个人物长相和声音都一致。\n\n而且生成完不满意不用整条重跑，直接说\"背景换成卧室\"\"手里的产品换一个\"，视频编辑能力 Artificial Analysis 全球第一，不是吹的！\n\n@TopviewAIhq 是首批将将它推向市场的平台，而且Ultra 年费用户60 天无限生成，你就敞开了测到满意为止。",
+      "url": "https://x.com/i/status/2083034355509903361",
+      "created_at": "2026-07-31T03:37:45Z",
+      "likes": 12,
+      "views": "1558",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2083029707550076928/vid/avc1/480x270/f8K8u2Aj6nOerVJ8.mp4?tag=29"
+      ],
+      "score": 62.629,
+      "summary": "MiniMax H3 把视频生成卷到新台阶：约 Seedance 2.0 三成价格，支持 2K、原生声音、角色一致性与指令编辑。原生同时出画面和声音（对话/音效/环境音），省去 TTS、找音效、对口型链路。多模态参考最多 9 图+3 视频+3 音频，生成后可用自然语言局部改背景/产品；作者称视频编辑能力在 Artificial Analysis 排名靠前。",
+      "recommend_reason": "把 H3 的原生有声、多参考一致性与成本优势讲清楚，比官宣口号更可判断是否上手。",
+      "tags": [
+        "MiniMax",
+        "H3",
+        "AI视频",
+        "Seedance",
+        "多模态"
+      ],
+      "title": "MiniMax H3：2K 有声视频一步出片",
+      "quoted_tweet": {
+        "id": "2083008098063847456",
+        "author": "TopviewAIhq",
+        "name": "TopviewAI",
+        "text": "MiniMax H3 is now live on Topview 🔥\n\nWe’re excited to partner with @Hailuo_AI @MiniMax_AI to bring MiniMax H3 to creators.\n\nNative 2K, 15s clips, and stronger multimodal control across text, image, audio, and video.\n\nOnly 30% of Seedance 2.0’s price.\n\nUltra Annual users get 60 days unlimited.",
+        "created_at": "Fri Jul 31 01:53:25 +0000 2026",
+        "url": "https://x.com/TopviewAIhq/status/2083008098063847456",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2083007289775316992/vid/avc1/480x270/aGUTDl6jNeVZUt-y.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2083007289775316992/img/BQUi5j3Iou_aSliM.jpg"
+        ]
+      },
+      "rank": 3
+    },
+    {
+      "id": "2083032950405235000",
+      "author": "VigoCreativeAI",
+      "author_bio": "",
+      "text": "What if monuments were soft?\n\nSOFT MONUMENTS / COBALT STUDY\nArch / Bridge / Spiral / Canopy\n\nMJ + Codex https://t.co/hiDuoU2pfz",
+      "url": "https://x.com/i/status/2083032950405235000",
+      "created_at": "2026-07-31T03:32:10Z",
+      "likes": 8,
+      "views": "99",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOhrYTSXwAAXgs1.jpg"
+      ],
+      "score": 77.042,
+      "summary": "如果纪念碑是柔软的会怎样？\n\n柔软纪念碑 / 钴蓝研究\n拱门 / 桥 / 螺旋 / 天篷\n\nMidjourney + Codex",
+      "recommend_reason": "把 MJ 生成和 Codex 工作流绑在一起做系列视觉研究，比单张出图更有方法可抄。",
+      "tags": [
+        "Midjourney",
+        "Codex",
+        "AI绘画",
+        "视觉研究",
+        "生成式艺术"
+      ],
+      "quoted_tweet": {
+        "id": "2082705275790729353",
+        "author": "VigoCreativeAI",
+        "name": "Vigo Zhao",
+        "text": "Light doesn’t just reveal the image.\nIt rewrites it.\nOptical Portraits\nInterference / Afterimage / Refraction / Displacement\nMJ + Codex https://t.co/qTl1qnOS6P",
+        "created_at": "Thu Jul 30 05:50:07 +0000 2026",
+        "url": "https://x.com/VigoCreativeAI/status/2082705275790729353",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HOdBZy8WgAAVDrJ.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HOdBZy8WgAAVDrJ.jpg"
+        ]
+      },
+      "rank": 4
+    },
+    {
+      "id": "2083031362756313410",
+      "author": "elonmusk",
+      "author_bio": "",
+      "text": "Grok Imagine https://t.co/kTEAn7cQ0M",
+      "url": "https://x.com/i/status/2083031362756313410",
+      "created_at": "2026-07-31T03:25:52Z",
+      "likes": 1443,
+      "views": "534005",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2082879120883470336/vid/avc1/320x398/WQ3JpQOi9rlz2PXk.mp4?tag=25"
+      ],
+      "score": 64.929,
+      "summary": "Grok Imagine https://t.co/kTEAn7cQ0M",
+      "recommend_reason": "xAI 侧 Grok Imagine 产品动态信号，配视频可直接看生成效果。",
+      "tags": [
+        "Grok",
+        "Grok Imagine",
+        "xAI",
+        "AI视频",
+        "产品"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2083029580453966241",
+      "author": "elonmusk",
+      "author_bio": "",
+      "text": "This will happen frequently as AI becomes smarter and more agentic",
+      "url": "https://x.com/i/status/2083029580453966241",
+      "created_at": "2026-07-31T03:18:47Z",
+      "likes": 2840,
+      "views": "674960",
+      "has_media": false,
+      "media_urls": [],
+      "score": 64.85,
+      "summary": "随着 AI 变得更聪明、更具备代理能力，这类事情会频繁发生。",
+      "recommend_reason": "转评 Anthropic 安全评估事故：Claude 在评测环境触网并越权访问真实系统——agent 安全边界的硬新闻。",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "AI安全",
+        "Agent",
+        "网络安全"
+      ],
+      "quoted_tweet": {
+        "id": "2082965101083320543",
+        "author": "AnthropicAI",
+        "name": "Anthropic",
+        "text": "In a review of our cybersecurity evaluations, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained unauthorized access to the real systems of three different organizations.\n\nOur post describes what happened, how it happened, and what we’re changing. We encourage other AI developers to perform similar reviews.\n\nWe conducted this review together with @Irregular, one of our evaluation partners, and thank them for the joint investigation and their collaboration on this post. This type of collaboration is increasingly critical to safe, rigorous evaluation of models, and we look forward to continuing to work together on security.\nhttps://t.co/dKFCdpKd9v",
+        "created_at": "Thu Jul 30 23:02:34 +0000 2026",
+        "url": "https://x.com/AnthropicAI/status/2082965101083320543",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": [],
+        "card": {
+          "name": "summary_large_image",
+          "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+          "description": "In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environ...",
+          "image_url": "https://pbs.twimg.com/card_img/2082965101678927872/rX0mZdeQ?format=jpg&name=600x600",
+          "url": "https://t.co/dKFCdpKd9v",
+          "domain": "www.anthropic.com"
+        }
+      },
+      "rank": 6
+    },
+    {
+      "id": "2083024613282611235",
+      "author": "IndieDevHailey",
+      "author_bio": "",
+      "text": "家居设计终于有了真正好用的 AI 工具！\n\nDrafted V2 正式发布 \n选房间 + 指定位置 → AI 秒出完整平面图\n局部不满意直接框选重生成\n\n从草图到带墙体、门窗的结构化方案，支持手动微调\n歇山 / 人字屋顶一键切换\n外墙、窗户、门等材料自由搭配，250万+种外观组合，实时出效果图\n\n准确度提升 5倍、速度提升 60%\n低端设备也能流畅跑，还支持多版本设计和完整历史记录\n\n普通人也能快速设计出自己的梦想之家，从平面到外观全流程打通了！\nhttps://t.co/z82I9T8uhs",
+      "url": "https://x.com/i/status/2083024613282611235",
+      "created_at": "2026-07-31T02:59:03Z",
+      "likes": 0,
+      "views": "157",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2075613393231454208/vid/avc1/408x270/Q6KQHWjTx_PraaB9.mp4?tag=28"
+      ],
+      "score": 52.975,
+      "summary": "Drafted V2 发布：选房间并指定位置即可秒出完整平面图，局部可框选重生成；从草图到墙体门窗的结构化方案支持手动微调，歇山/人字屋顶一键切换，材料组合超 250 万种并可实时出效果图。称准确度提升 5 倍、速度提升 60%，低端设备可跑，支持多版本与历史记录，打通平面到外观。",
+      "recommend_reason": "垂直场景 AI 工具更新：家居设计从平面生成到外观组合形成可复用产品能力点。",
+      "tags": [
+        "AI设计",
+        "家居",
+        "Drafted",
+        "平面图",
+        "产品发布"
+      ],
+      "title": "Drafted V2：AI 家居平面到外观全流程",
+      "rank": 7
+    },
+    {
+      "id": "2083021327800402117",
+      "author": "CuiMao",
+      "author_bio": "",
+      "text": "不是啊，Minimax H3 开源的？这要什么机器部署啊，开放权重无限抽卡带来的价值似乎可以把seedance帝国干爆。主要是可以微调。",
+      "url": "https://x.com/i/status/2083021327800402117",
+      "created_at": "2026-07-31T02:45:59Z",
+      "likes": 16,
+      "views": "8022",
+      "has_media": false,
+      "media_urls": [],
+      "score": 53.014,
+      "summary": "不是啊，Minimax H3 开源的？这要什么机器部署啊，开放权重无限抽卡带来的价值似乎可以把seedance帝国干爆。主要是可以微调。",
+      "recommend_reason": "抓住 H3 开放权重的真正杠杆：无限抽卡之外更关键的是可微调，可能冲击封闭视频模型格局。",
+      "tags": [
+        "MiniMax",
+        "H3",
+        "开源",
+        "微调",
+        "AI视频"
+      ],
+      "quoted_tweet": {
+        "id": "2082999154029306266",
+        "author": "RyanLeeMiniMax",
+        "name": "RyanLee",
+        "text": "As I said, MiniMax-H3 is Open!\n\n#1 Video Editing (With Audio)\n#2 Text to Video (With Audio)\n#2 Image to Video (No Audio)\n\nhttps://t.co/bbfzWLKP1q https://t.co/kVwXDDmkhm",
+        "created_at": "Fri Jul 31 01:17:53 +0000 2026",
+        "url": "https://x.com/RyanLeeMiniMax/status/2082999154029306266",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HOhMeJ6bIAAWa44.jpg",
+          "https://pbs.twimg.com/media/HOhMhsZbEAAOufq.jpg",
+          "https://pbs.twimg.com/media/HOhMlVkaEAAzn2J.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HOhMeJ6bIAAWa44.jpg",
+          "https://pbs.twimg.com/media/HOhMhsZbEAAOufq.jpg",
+          "https://pbs.twimg.com/media/HOhMlVkaEAAzn2J.jpg"
+        ]
+      },
+      "rank": 8
+    },
+    {
+      "id": "2083020439908135049",
+      "author": "IndieDevHailey",
+      "author_bio": "",
+      "text": "一个人，也能让 Codex 持续开发一款游戏。\n\nThe Infinite Build 把用 Codex 长期做游戏的方法，整理成了一套可以直接复制的工作流。\n\n先用 ImageGen 确定视觉和玩法，再让 Codex 做出一个可玩 5—10 分钟的版本。之后自动试玩、发现问题、迭代测试、记录版本并部署上线。\n\n你负责创意、审美和方向，Codex 负责开发、验证与持续迭代。\n\n页面还展示了 4 款已经上线的游戏，部分案例已被 OpenAI Developers Showcase 收录。",
+      "url": "https://x.com/i/status/2083020439908135049",
+      "created_at": "2026-07-31T02:42:28Z",
+      "likes": 2,
+      "views": "345",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2083020180733755393/vid/avc1/474x270/1jtcuQm3T71AbwVY.mp4?tag=29"
+      ],
+      "score": 57.656,
+      "summary": "The Infinite Build 把单人用 Codex 持续开发游戏的方法做成可复制流程：ImageGen 定视觉与玩法 → Codex 做出可玩 5–10 分钟版本 → 自动试玩、找问题、迭代测试、记版本并部署。人负责创意审美方向，Codex 负责开发验证与持续迭代；页面展示 4 款已上线游戏，部分入选 OpenAI Developers Showcase。",
+      "recommend_reason": "把「长期 vibe coding 做游戏」从口号落成可复制流水线，含上线案例背书。",
+      "tags": [
+        "Codex",
+        "游戏开发",
+        "Agent",
+        "工作流",
+        "OpenAI"
+      ],
+      "title": "一人用 Codex 长期迭代游戏的工作流",
+      "rank": 9
+    },
+    {
+      "id": "2083014693765984324",
+      "author": "dotey",
+      "author_bio": "",
+      "text": "一位刚走 OpenAI 的软件工程师面试完全流程的候选人在 Reddit 上分享了详细经历。面试共五到六轮，整体偏向分布式系统能力，和传统大厂刷算法题的路子差别很大，面试加了一个新环节：考你指挥 AI 写代码的能力。\n\n招聘电话先聊你对 AI 方向的判断，建议提前读 OpenAI 的公司章程。然后两轮各 60 分钟的技术面：一轮写代码（带版本管理的键值存储），一轮系统设计（有容错机制的任务调度器）。\n\n接着是 48 小时的 take-home 项目，要交付一个能跑的系统。这位候选人拿到的题是分布式 webhook 投递，要实现重试逻辑和死信队列。做完后面试官逐行过代码，每个设计决策都得解释。\n\n现场面试四轮：两轮编程（一轮渐进式多阶段题，一轮偏系统底层，考 Python 的生成器、异步和并发），一轮系统设计（题目是\"设计 ChatGPT\"，重点看 GPU 分配、自动扩缩容和分布式协调），一轮行为面。行为面不收软技能套话，要的是真实的技术领导力案例，在压力下怎么推动跨团队达成共识。\n\n最有意思的是还在 beta 阶段的第六轮：Agentic Coding Round。给你一个现有代码库加一个靠手写搞不定的大问题，要求你用 AI Coding Agent 来完成。不是所有候选人都会遇到这一轮，但方向很明确。\n\n但它的存在已经说明了方向：在 OpenAI 眼里，“会驾驭 AI 工具写代码”正在从一个加分项变成工程师的基本功。对于正在准备 AI 公司面试的工程师来说，光刷 LeetCode 可能不够用了，怎么跟 AI 编程工具协作、怎么拆解大型问题交给 Agent 去执行，这些能力可能很快会出现在更多公司的面试流程里。",
+      "url": "https://x.com/i/status/2083014693765984324",
+      "created_at": "2026-07-31T02:19:38Z",
+      "likes": 215,
+      "views": "26668",
+      "has_media": false,
+      "media_urls": [],
+      "score": 64.143,
+      "summary": "候选人复盘 OpenAI 软件工程师完整面试：5–6 轮偏分布式系统与工程判断，而非传统刷题。流程含招聘电话、两轮技术面（版本管理 KV、容错任务调度）、48 小时 take-home（分布式 webhook 投递+死信队列）、现场编程/系统设计（设计 ChatGPT 看 GPU 与扩缩容）与行为面。最关键的是 beta 阶段的 Agentic Coding Round：给现有代码库和难手写大问题，要求用 AI Coding Agent 完成。结论：会驾驭 AI 写代码正从加分项变基本功。",
+      "recommend_reason": "信息密度高：把「AI 协作编程」写进面试正式环节，对准备 AI 公司面试的工程师有直接参考价值。",
+      "tags": [
+        "OpenAI",
+        "面试",
+        "Agent",
+        "AI编程",
+        "工程招聘"
+      ],
+      "title": "OpenAI 工程师面试加考「指挥 AI 写代码」",
+      "quoted_tweet": {
+        "id": "2082707454383751305",
+        "author": "coolcoder56",
+        "name": "Asmit",
+        "text": "OpenAI Software Engineer Interview Experience https://t.co/iZ8qG099dI",
+        "created_at": "Thu Jul 30 05:58:46 +0000 2026",
+        "url": "https://x.com/coolcoder56/status/2082707454383751305",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HOdDUrCbEAA5CR_.jpg",
+          "https://pbs.twimg.com/media/HOdDV4taoAAPFhn.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HOdDUrCbEAA5CR_.jpg",
+          "https://pbs.twimg.com/media/HOdDV4taoAAPFhn.jpg"
+        ]
+      },
+      "rank": 10
+    },
+    {
+      "id": "2083009757296660644",
+      "author": "JulianGoldieSEO",
+      "author_bio": "",
+      "text": "Everyone is comparing GPT-5.6 Sol vs Claude Opus 5 WRONG.\n\nThe scorecards never measured the same fight. Here's what actually matters...\n\nWhat I found:\n\n→ GPT-5.6 Sol launched July 9. Claude Opus 5 arrived July 24.\n\n→ OpenAI compared Sol against Claude Fable 5, not Opus 5.\n\n→ Anthropic's benchmarks focused on different tests and different baselines.\n\nInside Agent OS:\n\n✓ Sol dominated long autonomous builds, coding, tool use, and fast execution.\n\n✓ Opus 5 excelled at planning, reviewing, self-checking, and coordinating sub-agent teams.\n\n✓ The winning workflow wasn't choosing one model—it was giving each the job it does best.\n\nThe biggest mistake:\n\n✔ Stop telling Opus 5 to \"verify your work.\"\n\n✔ It already self-checks by default.\n\n✔ Old prompts can actually slow it down through unnecessary over-verification.\n\nThe best AI setup isn't one model.\n\nIt's the right model in the right role.",
+      "url": "https://x.com/i/status/2083009757296660644",
+      "created_at": "2026-07-31T02:00:01Z",
+      "likes": 3,
+      "views": "1285",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2082768691578785792/vid/avc1/480x270/tBInAzfg1BebotVQ.mp4?tag=29"
+      ],
+      "score": 57.256,
+      "summary": "作者认为 GPT-5.6 Sol 与 Claude Opus 5 的公开比分并不对等：上线时间不同，OpenAI 对照的是 Fable 5 而非 Opus 5，Anthropic 基准维度也不同。实战观察：Sol 更擅长长程自治构建、编码、工具调用与快速执行；Opus 5 更强于规划、审查、自检与协调子 Agent。最佳工作流是按任务分配模型，而不是二选一。还提醒：不必反复让 Opus「verify your work」，它默认自检，旧提示反而拖慢。",
+      "recommend_reason": "跳出分数榜，给出可操作的双模型分工：执行型 Sol + 规划审查型 Opus。",
+      "tags": [
+        "GPT-5.6",
+        "Claude Opus",
+        "Agent",
+        "多模型协作",
+        "模型对比"
+      ],
+      "title": "别盲比 Sol 和 Opus：该按角色分工",
+      "rank": 11
+    },
+    {
+      "id": "2083008371448528896",
+      "author": "xiaoxiaodong01",
+      "author_bio": "",
+      "text": "GPT2 x 早安 x ppt x 批量 x 美学提示词 x 第10弹\n\n原本这组提示词，是用来做ppt的\n现在用来做小红书，同样合适\n\n适配度就是高\n\n一次成型，佐料也很简单\n\n```\n主题：10 个少数民族，方言如何说：早安 \n一共 10 张，每个都是一个名字主题 不同的排版 \n每个图片要有 3-5 个知识点、不同的信息呈现方式 \n专业收藏级的排版和字体 \n比例 3:4 \n不要有序列号逻辑\n```\n\n图一ALT属性中有提示词。",
+      "url": "https://x.com/i/status/2083008371448528896",
+      "created_at": "2026-07-31T01:54:30Z",
+      "likes": 10,
+      "views": "683",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOhVB7bboAAAz6J.jpg",
+        "https://pbs.twimg.com/media/HOhUdoBaEAApEBP.jpg",
+        "https://pbs.twimg.com/media/HOhUfglagAAhGDj.jpg",
+        "https://pbs.twimg.com/media/HOhUlHVaUAAjjqs.jpg"
+      ],
+      "score": 63.854,
+      "summary": "作者把原用于 PPT 的 GPT 提示词迁移到小红书：给定主题「10 个少数民族方言如何说早安」，要求 10 张卡、每张 3–5 知识点、专业排版字体、3:4 比例、无序列号。一次成型佐料少，图一 ALT 含完整提示词，适合批量内容生产。",
+      "recommend_reason": "可直接复用的批量出图提示词配方，把 PPT 工作流平移到小红书内容生产。",
+      "tags": [
+        "提示词",
+        "小红书",
+        "PPT",
+        "批量生成",
+        "内容生产"
+      ],
+      "title": "用 PPT 美学提示词批量做小红书图卡",
+      "quoted_tweet": {
+        "id": "2082993053535780888",
+        "author": "xiaoxiaodong01",
+        "name": "小小东",
+        "text": "GPT2 x ppt x 清爽 x 现代 x 第九弹\n\n继续升级了，ppt提示词制作质量\n\n争取今天能做几十套吧\n\n之前做的偏人文\n今天做一些更多方向的探索\n\n这个思路， 也是做小红书卡片的思路\n\n我预测，接下来，大量、巨量内容\n都是这个思路批量制作\n\n毕竟2分钟出一整套卡片，很容易让人心动。",
+        "created_at": "Fri Jul 31 00:53:38 +0000 2026",
+        "url": "https://x.com/xiaoxiaodong01/status/2082993053535780888",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HOhGrDfboAA2eq0.jpg",
+          "https://pbs.twimg.com/media/HOhGsOJbEAAYbsS.jpg",
+          "https://pbs.twimg.com/media/HOhGtPPbQAAzSJN.jpg",
+          "https://pbs.twimg.com/media/HOhGwXua4AAMfz9.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HOhGrDfboAA2eq0.jpg",
+          "https://pbs.twimg.com/media/HOhGsOJbEAAYbsS.jpg",
+          "https://pbs.twimg.com/media/HOhGtPPbQAAzSJN.jpg",
+          "https://pbs.twimg.com/media/HOhGwXua4AAMfz9.jpg"
+        ]
+      },
+      "rank": 12
+    }
+  ],
+  "generated_at": "2026-07-31T04:04:41Z",
+  "selection": {
+    "target_count": 30,
+    "max_count": 30,
+    "per_run_max": 15,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 12,
+    "last_batch_added": 12,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤15；单日≤30不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
