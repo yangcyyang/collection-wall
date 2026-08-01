@@ -1,0 +1,487 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-01",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2083584239824761295",
+      "author": "jinchenma_ai",
+      "author_bio": "",
+      "text": "好家伙，这次把 Anthropic 的博客配图风格给复刻了。\n\n虽然 A 社这家公司政策太离谱，但他家的设计还是有一定审美的。\n\n这套提示词已经开源，Punk-Skill 同步更新。\n\n感谢 @AdrianPunk115 倾情分享， @rwayne R博帮忙更新。",
+      "url": "https://x.com/i/status/2083584239824761295",
+      "created_at": "2026-08-01T16:02:48Z",
+      "likes": 1,
+      "views": "25",
+      "has_media": false,
+      "media_urls": [],
+      "score": 64.805,
+      "summary": "好家伙，这次把 Anthropic 博客配图风格给复刻了。虽然 A 社政策离谱，但设计仍有审美。这套提示词已开源，Punk-Skill 同步更新；感谢分享与更新。",
+      "recommend_reason": "可直接拿走的 Anthropic 风格配图提示词/Skill 开源更新。",
+      "tags": [
+        "Anthropic",
+        "提示词",
+        "设计风格",
+        "Skill",
+        "开源"
+      ],
+      "quoted_tweet": {
+        "id": "2083411308855111928",
+        "author": "AdrianPunk115",
+        "name": "Adrian Punk",
+        "text": "https://t.co/3cnGNmx3ce",
+        "created_at": "Sat Aug 01 04:35:38 +0000 2026",
+        "url": "https://x.com/AdrianPunk115/status/2083411308855111928",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "rank": 1
+    },
+    {
+      "id": "2083575992992305534",
+      "author": "thedankoe",
+      "author_bio": "",
+      "text": "Nobody wants to say it, but everyone exchanged their obsession with collecting Notion templates for collecting Claude skills instead (with nothing to show for it, as always).",
+      "url": "https://x.com/i/status/2083575992992305534",
+      "created_at": "2026-08-01T15:30:02Z",
+      "likes": 290,
+      "views": "15141",
+      "has_media": false,
+      "media_urls": [],
+      "score": 67.523,
+      "summary": "没人愿意明说，但大家已经把收集 Notion 模板的执念，换成了收集 Claude Skills——结果照旧：收藏一堆，啥也没做出来。",
+      "recommend_reason": "一针见血点出 AI 工具收藏癖：技能包堆积≠产出。",
+      "tags": [
+        "Claude",
+        "Skill",
+        "工作流",
+        "吐槽"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2083568773294911788",
+      "author": "elonmusk",
+      "author_bio": "",
+      "text": "Grok 4.5 is Pareto #1 when considering speed & cost",
+      "url": "https://x.com/i/status/2083568773294911788",
+      "created_at": "2026-08-01T15:01:21Z",
+      "likes": 1964,
+      "views": "895816",
+      "has_media": false,
+      "media_urls": [],
+      "score": 62.294,
+      "summary": "综合速度与成本时，Grok 4.5 处于帕累托最优第一。",
+      "recommend_reason": "来自一线的简短模型站位信号，适合做选型对照。",
+      "tags": [
+        "Grok",
+        "Grok4.5",
+        "模型对比",
+        "性价比"
+      ],
+      "quoted_tweet": {
+        "id": "2083543305476796798",
+        "author": "GavinSBaker",
+        "name": "Gavin Baker",
+        "text": "Also happy to see that that Grok 4.5 was the best frontier model in their testing. https://t.co/l2fQNJA9PM",
+        "created_at": "Sat Aug 01 13:20:09 +0000 2026",
+        "url": "https://x.com/GavinSBaker/status/2083543305476796798",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HOo7mBlWsAEf0J3.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HOo7mBlWsAEf0J3.jpg"
+        ]
+      },
+      "rank": 3
+    },
+    {
+      "id": "2083554200043335892",
+      "author": "MANISH1027512",
+      "author_bio": "",
+      "text": "出海四件套被 Codex 集成到这个程度，这方便程度和含金量，谁懂？\n\n我一开始真没当回事，以为插件市场就是多几个工具入口。\n\n把 Stripe、Supabase、Vercel、Cloudflare 这四个装上之后才反应过来：一个 SaaS 从写代码到能收钱，要打交道的后台基本就这四个，现在全挤进同一个对话框了。\n\n装的过程比我预想的还无聊（褒义），搜名字、点 Install、跟着提示连账号，完事。\n\n插件会把这个平台的 Skill、工具连接、MCP 配置一整包塞给 Codex。以前这段是我自己翻文档、抄 schema、写一堆提示词，然后还得一遍遍纠正它“不对，Stripe 的 price 不是这么建的”。现在这段直接没了。\n\n装完也不用背命令，说人话就行：\n\n“给 Viko 加一个 Pro 年付套餐，部署上线。”\n\n它自己往下走：先读项目里的计费代码，调 Stripe 建 product 和 price，拿到返回的 ID 接着改 Supabase 的套餐表和权限，补 Webhook 和环境变量，丢给 Vercel 部署顺手读日志，最后回头核对 Cloudflare 的域名和边缘配置。\n\n中间哪一步炸了，它是带着前面所有代码、配置、执行结果继续往下修的，而不是重开一局问你“请提供更多信息”。\n\n想想以前：每做完一步，人就得当一次胶水。开后台、复制 ID、粘进环境变量、截图报错、再把报错翻译给 AI 听。四个平台之间那点信息差，全靠你手动搬。\n\n现在上一步的返回值就是下一步的输入，中转层没了。\n\n点两下的时候还以为在逛 App Store，装完发现接进来的是一整套后端基础设施。",
+      "url": "https://x.com/i/status/2083554200043335892",
+      "created_at": "2026-08-01T14:03:26Z",
+      "likes": 11,
+      "views": "1154",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOpAgkbaEAAjJQd.jpg"
+      ],
+      "score": 63.562,
+      "summary": "作者装上 Stripe、Supabase、Vercel、Cloudflare 插件后发现：SaaS 从写代码到收款的后台基本就这四个，现已挤进同一对话框。安装像 App Store：搜名字、Install、连账号；插件把 Skill、工具连接、MCP 配置整包塞给 Codex。之后用人话「给 Viko 加 Pro 年付套餐并部署」即可串起建价、改库表权限、Webhook、Vercel 部署与 Cloudflare 边缘配置，失败时带着上文继续修，不再当人工胶水搬 ID。",
+      "recommend_reason": "把「多后台手动粘贴」变成 Agent 串联执行的具体路径，含真实平台与话术。",
+      "tags": [
+        "Codex",
+        "插件",
+        "Stripe",
+        "Supabase",
+        "Vercel",
+        "Cloudflare",
+        "SaaS"
+      ],
+      "title": "Codex 插件打通 Stripe/Supabase/Vercel/Cloudflare 出海四件套",
+      "rank": 4
+    },
+    {
+      "id": "2083539791690567814",
+      "author": "xiaoxiaodong01",
+      "author_bio": "",
+      "text": "GPT2 x 菊次郎 x 夏天 x  写真 x  海报 x 美学提示词\n\n人像板块， 日系的功力\n不可忽略\n\n浅浅的模仿一下 菊次郎的夏天这部电影的海报\n\n提供人物照片，完全可以让你熟悉的主角\n成为画面焦点\n\n预测今后这种生意：遍地都是...\n也就是为人提供美图的服务\n\n现在抖音各种破百万的图片特效就是\n就是一个提示词的事情而已\n简单如呼吸",
+      "url": "https://x.com/i/status/2083539791690567814",
+      "created_at": "2026-08-01T13:06:11Z",
+      "likes": 12,
+      "views": "930",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOo4Yw9awAAlggm.jpg",
+        "https://pbs.twimg.com/media/HOo3y4HboAA0np8.jpg"
+      ],
+      "score": 63.256,
+      "summary": "GPT2 × 菊次郎的夏天 × 写真 × 海报 × 美学提示词：人像日系功力不可忽略。浅仿电影海报，提供人物照片即可让熟悉主角成为焦点。预测为人出美图的服务会遍地；抖音破百万图片特效很多就是一个提示词的事。",
+      "recommend_reason": "人像/海报方向的可抄作业，点出「特效=提示词」的内容生意。",
+      "tags": [
+        "图像生成",
+        "人像",
+        "提示词",
+        "日系美学"
+      ],
+      "quoted_tweet": {
+        "id": "2083533596644745539",
+        "author": "xiaoxiaodong01",
+        "name": "小小东",
+        "text": "GPT2 x  人像 x 锁脸 x  写真 x 美学提示词\n\n调皮一下，假如某人是是专栏作者，需要一个照片...\n\n那么写真怎么弄？\n\n纯提示词直出，而不是直接垫图逻辑出~\n\n测试了下人脸锁定，你们能看出来是谁的五官么？\n\n话说回来：chatGPT图像部分，越来越进步了\n甚至有时候在想，很多老人一辈子，最后临了，都没有一张拿得出手的照片\n\nGPT-image2在这种事情上，公益造福大众的方向，我们也可以探索一些。 \n\n提示词 在图片1ALT中",
+        "created_at": "Sat Aug 01 12:41:34 +0000 2026",
+        "url": "https://x.com/xiaoxiaodong01/status/2083533596644745539",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HOouUvaa0AAbpLK.jpg",
+          "https://pbs.twimg.com/media/HOot4OGa8AA45o_.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HOouUvaa0AAbpLK.jpg",
+          "https://pbs.twimg.com/media/HOot4OGa8AA45o_.jpg"
+        ]
+      },
+      "rank": 5
+    },
+    {
+      "id": "2083521100668096886",
+      "author": "jinchenma_ai",
+      "author_bio": "",
+      "text": "七哥又放大招了。\n\n下面这张是用 RTX 2080 8GB、标准 FP8、1024 分辨率直接跑出来的结果。\n\n你们能看出来是假的么？\n\n几千块的显卡成本可以直接出去咸鱼小红书接单子去了，根本不需要调云端大模型。 https://t.co/kUjY4n3pGT",
+      "url": "https://x.com/i/status/2083521100668096886",
+      "created_at": "2026-08-01T11:51:55Z",
+      "likes": 230,
+      "views": "65999",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOonYAQbgAA0WfI.jpg"
+      ],
+      "score": 65.5,
+      "summary": "七哥又放大招：下面这张是用 RTX 2080 8GB、标准 FP8、1024 分辨率直接跑出来的结果，看不出是假的么？几千块显卡成本就能上闲鱼/小红书接单，根本不必调云端大模型。引用：Z-Image 约 45GB 精简一键包，内置 GGUF 与 42 个风格 LoRA。",
+      "recommend_reason": "本地 8GB 显卡出图接单路径清晰，附可装包线索。",
+      "tags": [
+        "本地部署",
+        "Z-Image",
+        "LoRA",
+        "图像生成",
+        "消费级显卡"
+      ],
+      "quoted_tweet": {
+        "id": "2083431662021497274",
+        "author": "davinci_seven",
+        "name": "达芬七Seven",
+        "text": "花钱买的8G显卡，别只拿来打游戏了。我把Z-Image整理成约45GB精简一键包，内置GGUF，并从CivitAI筛选了42个风格LoRA。文章里有实际出图、8GB测试和完整安装方法。 https://t.co/Wl6tMN9G8D",
+        "created_at": "Sat Aug 01 05:56:31 +0000 2026",
+        "url": "https://x.com/davinci_seven/status/2083431662021497274",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "rank": 6
+    },
+    {
+      "id": "2083519261017072098",
+      "author": "CuiMao",
+      "author_bio": "",
+      "text": "Grok imagine video 出来的效果还真挺好的，最多支持15秒，以及几乎无人脸审查，非常看好后续的模型更新。 @imagine https://t.co/2CdK34effJ",
+      "url": "https://x.com/i/status/2083519261017072098",
+      "created_at": "2026-08-01T11:44:36Z",
+      "likes": 194,
+      "views": "23713",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2083518773118873600/vid/avc1/364x270/YV2-uNyGnRl_ZL4-.mp4?tag=25"
+      ],
+      "score": 66.798,
+      "summary": "Grok Imagine 视频效果还真挺好，最多支持 15 秒，而且几乎没有人脸审查，非常看好后续模型更新。",
+      "recommend_reason": "一线产品体感：时长上限与审查尺度，对做短视频的人直接有用。",
+      "tags": [
+        "Grok",
+        "Imagine",
+        "AI视频",
+        "审查"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2083508122023555127",
+      "author": "gkxspace",
+      "author_bio": "",
+      "text": "冷知识：Luna Max ≈ Sol Medium / Opus 5 Medium，价格为 1/6\n\n但是 Codex 的 Max 默认关闭，需要你去设置里面打开：\n\nhttps://t.co/5iI8i475qW",
+      "url": "https://x.com/i/status/2083508122023555127",
+      "created_at": "2026-08-01T11:00:20Z",
+      "likes": 119,
+      "views": "38034",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2083218207159042048/vid/avc1/388x270/wJuoAyCDhOw_CK35.mp4?tag=29"
+      ],
+      "score": 63.803,
+      "summary": "冷知识：Luna Max ≈ Sol Medium / Opus 5 Medium，价格约为 1/6。但 Codex 的 Max 默认关闭，需要去设置里打开。",
+      "recommend_reason": "一句话对照 + 默认关 Max 的设置坑，避免白交钱用不对档。",
+      "tags": [
+        "Codex",
+        "Luna Max",
+        "设置",
+        "性价比"
+      ],
+      "quoted_tweet": {
+        "id": "2083479347491680554",
+        "author": "gkxspace",
+        "name": "余温",
+        "text": "Tibo 重置了 Codex，还提到“去跑 10W个 Luna threads”，很多人可能还没感觉到 Luna 降价 80% 的价值\n\n简单说，直接把 Codex Plus 的性价比被直接打穿了。。。说 20刀 Plus 当 100刀 Pro 用毫不夸张\n\nLuna Max 的测试已经非常接近 5.6 Sol Medium / Opus 5 Medium，看这张图就知道有多恐怖了。\n\n并非说它能替代 Sol 处理所有硬任务，但日常搜代码、读文档、跑测试、批量修改、翻译整理，真的完全够用，也足够 90% 人的 AI 需求。\n\nCodex Plus 这波真的杀疯了",
+        "created_at": "Sat Aug 01 09:06:00 +0000 2026",
+        "url": "https://x.com/gkxspace/status/2083479347491680554",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HOn-yz9bMAAKt77.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HOn-yz9bMAAKt77.jpg"
+        ]
+      },
+      "rank": 8
+    },
+    {
+      "id": "2083501970971938863",
+      "author": "xiaoxiaodong01",
+      "author_bio": "",
+      "text": "GPT x ppt x 信息 x 图标 x 美学提示词\n\n第十一弹\n还是低估chatGPT，批量的能力\n因为：信息处理能力、呈现能力，真太顶了！\n\n一次生成10张ppt图片\n还能如此细节、排版丰富、信息图如此仔细\n服！\n\n发现一个秘诀：chatGPT其实可以无限生图\n更刺激了！\n\n本次作图vcr记录：\nhttps://t.co/02IHSKjuVX",
+      "url": "https://x.com/i/status/2083501970971938863",
+      "created_at": "2026-08-01T10:35:54Z",
+      "likes": 49,
+      "views": "3932",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOoVo0Qa4AMVItu.jpg",
+        "https://pbs.twimg.com/media/HOoV3u9a0AAjB_5.jpg",
+        "https://pbs.twimg.com/media/HOoV3u9a0AIzO01.jpg",
+        "https://pbs.twimg.com/media/HOoV3u7bcAATHVk.jpg"
+      ],
+      "score": 66.028,
+      "summary": "GPT × PPT × 信息 × 图标 × 美学提示词第十一弹：还是低估了 ChatGPT 的批量能力——信息处理与呈现真的顶。一次生成 10 张 PPT 图，细节、排版、信息图都够细。发现秘诀：ChatGPT 其实可以无限生图。本次作图 VCR 见链接。",
+      "recommend_reason": "可复用的批量 PPT 出图工作流，强调信息图细节与无限生图打法。",
+      "tags": [
+        "ChatGPT",
+        "PPT",
+        "批量生成",
+        "提示词",
+        "信息图"
+      ],
+      "quoted_tweet": {
+        "id": "2083114485863321746",
+        "author": "xiaoxiaodong01",
+        "name": "小小东",
+        "text": "GPT2 x ppt x 大字报 x 智能 x 美学提示词 x 第十弹\n\n实话说，GPT-image2做ppt\n吊打碳基生物的我\n\n我逐渐习惯，不带情绪，和它好好聊ppt\n而且chatGPT提供每张修改的功能\n\n强的可怕\n感觉是老板我一个任务，我有chatGPT这个小弟\n老板怎么说修改建议，我怎么传达给小弟\n\n大家都好！\n这个风格上午就做好了\n下午也做了不少这种风格，稍后一起放出来。\n\n提示词⤵️",
+        "created_at": "Fri Jul 31 08:56:10 +0000 2026",
+        "url": "https://x.com/xiaoxiaodong01/status/2083114485863321746",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HOi0z4kbYAEJvNn.jpg",
+          "https://pbs.twimg.com/media/HOi05lNa4AA4UrX.jpg",
+          "https://pbs.twimg.com/media/HOi07E_bYAI0mp_.jpg",
+          "https://pbs.twimg.com/media/HOi07E0aYAE7etF.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HOi0z4kbYAEJvNn.jpg",
+          "https://pbs.twimg.com/media/HOi05lNa4AA4UrX.jpg",
+          "https://pbs.twimg.com/media/HOi07E_bYAI0mp_.jpg",
+          "https://pbs.twimg.com/media/HOi07E0aYAE7etF.jpg"
+        ]
+      },
+      "rank": 9
+    },
+    {
+      "id": "2083490176463233169",
+      "author": "HiTw93",
+      "author_bio": "",
+      "text": "UU 远程\n我愿称之为 AICoding 年代帮忙打辅助的最好用的免费 iPhone 应用\n远程速度、清晰度、延迟都处理得非常好\n配合 Claude / Codex 手机版，真好用啊！ https://t.co/7L0D4lbkyd",
+      "url": "https://x.com/i/status/2083490176463233169",
+      "created_at": "2026-08-01T09:49:02Z",
+      "likes": 219,
+      "views": "35563",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2083490089544663040/vid/avc1/320x694/bmfExn4MH0_E7zcG.mp4?tag=29"
+      ],
+      "score": 66.383,
+      "summary": "UU 远程，我愿称之为 AI Coding 年代帮忙打辅助最好用的免费 iPhone 应用：远程速度、清晰度、延迟都处理好，配合 Claude / Codex 手机版真好用。",
+      "recommend_reason": "移动端远程桌面+手机版 coding agent 的实用组合推荐。",
+      "tags": [
+        "AI Coding",
+        "远程桌面",
+        "iPhone",
+        "Codex",
+        "Claude"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2083482607136727204",
+      "author": "VigoCreativeAI",
+      "author_bio": "",
+      "text": "ONE product image. ONE generation. ZERO editing.\n\nThis entire adidas-style landing page — the floating hero shoe, speed-driven scroll, product close-ups, hover scale-ups, and black-and-white inversions — is a single 15s run on MiniMax H3.\n\nWhat actually impressed me:\n👟 The shoe stays recognizable across every scene\n⚡ Fast transitions without losing product consistency\n🖱️ Hover interactions feel like a real website\n⬛ adidas-style grids and Three-Stripes geometry stay coherent\n\nMade with MiniMax H3 on @Hailuo_AI\n#MiniMaxH3 \n\nUnofficial adidas concept.\nFull prompt in the first comment.",
+      "url": "https://x.com/i/status/2083482607136727204",
+      "created_at": "2026-08-01T09:18:57Z",
+      "likes": 10,
+      "views": "568",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2083482047243284480/vid/avc1/480x270/ioAztUS_6Yt2DifN.mp4?tag=29"
+      ],
+      "score": 67.186,
+      "summary": "作者用 MiniMax H3 单次 15 秒生成 Adidas 风格落地页短片：悬浮英雄鞋、速度感滚动、产品特写、悬停放大与黑白反转均一次成片、零剪辑。亮点是跨镜头鞋型可识别、转场快且产品一致、交互感接近真站、三道杠几何保持连贯。附引用其游戏 CG 硬切同模型演示。",
+      "recommend_reason": "可对照看的视频模型一致性案例：单生成内硬切+品牌产品不崩。",
+      "tags": [
+        "MiniMax",
+        "H3",
+        "AI视频",
+        "一致性",
+        "Hailuo"
+      ],
+      "title": "MiniMax H3 一次 15 秒生成完整 Adidas 风落地页视频",
+      "quoted_tweet": {
+        "id": "2082775364577693905",
+        "author": "VigoCreativeAI",
+        "name": "Vigo Zhao",
+        "text": "ONE generation. SIX hard cuts. ZERO editing.\n\nThis entire game-CG fight — the frozen-rain cold open, the bullet-time orbit, every beat-synced cut — is a single 15s run on MiniMax H3.\n\nWhat actually impressed me:\n🎬 Hard cuts INSIDE one generation — most video models can't do this\n⚔️ Both fighters stay consistent across every angle\n🔊 Native audio: the bass drop lands exactly on the time-snap\n🌧️ Frozen raindrops in the cold open — pure physics flex\n\nMade with MiniMax H3 on @Hailuo_AI  #MiniMaxH3\n\nFull JSON prompt (shot list + audio timestamps) in the first comment",
+        "created_at": "Thu Jul 30 10:28:37 +0000 2026",
+        "url": "https://x.com/VigoCreativeAI/status/2082775364577693905",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2082775228279652352/vid/avc1/480x270/j4bKswevXPy750Eq.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2082775228279652352/img/1csk5pAIvDOeGPms.jpg"
+        ]
+      },
+      "rank": 11
+    },
+    {
+      "id": "2083479347491680554",
+      "author": "gkxspace",
+      "author_bio": "",
+      "text": "Tibo 重置了 Codex，还提到“去跑 10W个 Luna threads”，很多人可能还没感觉到 Luna 降价 80% 的价值\n\n简单说，直接把 Codex Plus 的性价比被直接打穿了。。。说 20刀 Plus 当 100刀 Pro 用毫不夸张\n\nLuna Max 的测试已经非常接近 5.6 Sol Medium / Opus 5 Medium，看这张图就知道有多恐怖了。\n\n并非说它能替代 Sol 处理所有硬任务，但日常搜代码、读文档、跑测试、批量修改、翻译整理，真的完全够用，也足够 90% 人的 AI 需求。\n\nCodex Plus 这波真的杀疯了",
+      "url": "https://x.com/i/status/2083479347491680554",
+      "created_at": "2026-08-01T09:06:00Z",
+      "likes": 165,
+      "views": "77401",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOn-yz9bMAAKt77.jpg"
+      ],
+      "score": 65.13,
+      "summary": "Tibo 重置 Codex 用量并鼓励周末跑 10 万 Luna threads。作者称 Luna 降价 80% 直接把 Codex Plus 性价比打穿：20 刀 Plus 当 100 刀 Pro 用并不夸张。Luna Max 测试已非常接近 5.6 Sol Medium / Opus 5 Medium；虽非一切硬任务替代，但搜代码、读文档、跑测试、批量修改、翻译整理够用，覆盖约 90% 日常 AI 需求。",
+      "recommend_reason": "把限时重置与 Luna 降价落到「日常 coding 够不够」的可操作判断。",
+      "tags": [
+        "Codex",
+        "Luna",
+        "性价比",
+        "编程Agent",
+        "OpenAI"
+      ],
+      "title": "Codex 重置额度 + Luna 降价 80%：Plus 性价比被打穿",
+      "quoted_tweet": {
+        "id": "2083395449814229287",
+        "author": "thsottiaux",
+        "name": "Tibo",
+        "text": "To celebrate a week of efficiency and let you run 100'000 Luna threads this weekend... that's right... wait for it... I have reset usage limits for Codex and ChatGPT Work.\n\nEnjoy.",
+        "created_at": "Sat Aug 01 03:32:37 +0000 2026",
+        "url": "https://x.com/thsottiaux/status/2083395449814229287",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "rank": 12
+    },
+    {
+      "id": "2083467194663571701",
+      "author": "polynoamial",
+      "author_bio": "",
+      "text": "An internal version of Astra, @OpenAI’s next major model family, solved 10 major open problems in mathematics, quantum complexity, and theoretical computer science.\n\nWe believe it will be a major step for scientific reasoning. https://t.co/iP6cyheZ7i https://t.co/jHuulDwV46",
+      "url": "https://x.com/i/status/2083467194663571701",
+      "created_at": "2026-08-01T08:17:42Z",
+      "likes": 7373,
+      "views": "1437623",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOn2XyYasAA_rAp.jpg"
+      ],
+      "score": 74.509,
+      "summary": "OpenAI 员工称下一代主力模型家族 Astra 的内部版本，在数学、量子复杂性与理论计算机科学方向上解决了 10 道重大开放问题，并包含求永久元的新电路下界；团队视其为科学推理能力的重要台阶。引用推文补充：Astra 的 10 个证明覆盖长期未解难题。",
+      "recommend_reason": "前沿模型对硬科学开放题的直接战报，比笼统「更强了」更可核实。",
+      "tags": [
+        "OpenAI",
+        "Astra",
+        "科学推理",
+        "数学",
+        "理论CS"
+      ],
+      "title": "OpenAI 下一代 Astra 内测版攻克 10 道长期开放题",
+      "quoted_tweet": {
+        "id": "2083465844735226099",
+        "author": "wjmzbmr1",
+        "name": "Lijie Chen",
+        "text": "10 proofs from our next major model Astra on long-standing open problems in mathematics and theoretical computer science (also including new circuit lower bounds for computing the permanent!)\n\nGPT-5.6 has already enabled so much exciting work in math and science. Can’t wait to see what comes next!",
+        "created_at": "Sat Aug 01 08:12:20 +0000 2026",
+        "url": "https://x.com/wjmzbmr1/status/2083465844735226099",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "rank": 13
+    }
+  ],
+  "generated_at": "2026-08-01T16:06:51Z",
+  "selection": {
+    "target_count": 30,
+    "max_count": 30,
+    "per_run_max": 15,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "midnight",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 13,
+    "last_batch_added": 13,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤15；单日≤30不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
