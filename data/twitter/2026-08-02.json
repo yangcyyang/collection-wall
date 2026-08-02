@@ -1,0 +1,435 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-02",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2083764056994017647",
+      "author": "op7418",
+      "author_bio": "",
+      "text": "Karpathy去了 Anthropic 以后，第一次发长帖。\n\n他想了一个新的测试，就是摆脱那种靠画“骑着自行车的鹈鹕”之类的测试方式，给了 Opus 5 大概 100 万个 Token 的预算，要求它生成三个渲染版本去讲述《指环王》的故事。然后 Opus 5 给他整了一个 3D 的出来。\n\n不过他提到，这中间确实暴露了一个很大的问题：\n\n在生成这种内容的时候，AI 没有办法很清楚地感知到自己的工作，因为它没办法直接看到内容本身，只能一段一段地去截图，也没办法连续地感知到截图中间的状态。所以，这确实是个问题。",
+      "url": "https://x.com/i/status/2083764056994017647",
+      "created_at": "2026-08-02T03:57:20Z",
+      "likes": 40,
+      "views": "20796",
+      "has_media": false,
+      "media_urls": [],
+      "score": 56.86,
+      "summary": "作者转述 Karpathy 去 Anthropic 后首个长帖：想摆脱「骑车鹈鹕」式测法，给 Opus 5 约百万 token 预算，用《魔戒》开篇做程序化渲染世界，并讨论世界/游戏域的感知短板。",
+      "recommend_reason": "中文圈对同主题长帖的快速转述，方便对照原文。",
+      "tags": [
+        "Karpathy",
+        "Anthropic",
+        "Opus",
+        "评测"
+      ],
+      "title": "Karpathy 去 Anthropic 后首个长帖：新测法与 Opus 5",
+      "quoted_tweet": {
+        "id": "2083749667410727319",
+        "author": "karpathy",
+        "name": "Andrej Karpathy",
+        "text": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all.\n\nI also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand.\n\nLast thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking.",
+        "created_at": "Sun Aug 02 03:00:09 +0000 2026",
+        "url": "https://x.com/karpathy/status/2083749667410727319",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2083744791876292608/vid/avc1/480x270/zPsjosnI2Knljt3-.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2083744791876292608/img/tWEKnM_bdE_nlfYD.jpg"
+        ]
+      },
+      "rank": 1
+    },
+    {
+      "id": "2083759306755977314",
+      "author": "gkxspace",
+      "author_bio": "",
+      "text": "原来 Codex 可以开 Luna Max 子代理啊，但是要自己配置，那这下彻底省钱了，让 Sol 规划 Luna 去执行：\n\n首先你要去打开 Max：\n1、Settings → Configuration\n2、Available reasoning efforts 勾选 Max\n\n接着把下面这段提示词发给 Sol：\n-----\n在以下路径创建一个名为 luna_worker 的自定义 Agent：  ~/.codex/agents/luna-worker.toml  使用以下配置：  model = \"gpt-5.6-luna\" model_reasoning_effort = \"max\"  请为这个 Agent 补充清晰的 description 和 instructions。  luna_worker 只负责处理范围明确、边界清晰、可以独立完成的委派任务，不负责修改整体任务目标，也不要自行扩大工作范围。  请保留我现有的其他 Codex 配置，不要覆盖或删除无关内容。  创建完成后：  1. 根据我当前安装的 Codex 版本检查配置格式是否兼容； 2. 展示本次修改产生的 diff； 3. 确认配置有效； 4. 后续需要调用子代理时，优先使用 luna_worker。\n-----\n\n那之后 Luna Max 就可以作为子代理，处理各种子任务，还都是独立上下文，省钱了。",
+      "url": "https://x.com/i/status/2083759306755977314",
+      "created_at": "2026-08-02T03:38:27Z",
+      "likes": 182,
+      "views": "21130",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOr-tZybcAAqTff.png",
+        "https://pbs.twimg.com/media/HOr-vSJa8AAYQ7_.png"
+      ],
+      "score": 69.74,
+      "summary": "作者说明 Codex 可开 Luna Max 子代理但需自配：Settings → Configuration 勾选 Available reasoning efforts 的 Max；再让 Sol 在 ~/.codex/agents/luna-worker.toml 建 luna_worker（model=gpt-5.6-luna、effort=max），只接边界清晰的委派任务、不改总目标。完成后检查版本兼容、展示 diff、确认生效，后续优先调用该子代理。子任务独立上下文，Sol 统筹 + Luna 干活更省钱。",
+      "recommend_reason": "可直接复制的 Codex 子代理配置路径，省钱打法写到设置项与 toml。",
+      "tags": [
+        "Codex",
+        "Luna Max",
+        "子代理",
+        "GPT-5.6 Sol",
+        "省钱",
+        "配置"
+      ],
+      "title": "Codex 把 Luna Max 配成子代理：Sol 规划、Luna 执行省钱法",
+      "quoted_tweet": {
+        "id": "2083568833164419449",
+        "author": "Tz_2022",
+        "name": "Tz",
+        "text": "这个很值得一试。。。\n\nCodex 小技巧：让 Sol 把 Luna Max 配置成专用子代理\n\n在 Codex 里，可以让 Sol 继续留在主线程负责统筹，再把任务拆给 Luna Max 处理。\n\n直接把下面这段提示词发给 Sol：\n\n-----\n请在以下路径创建一个名为 luna_worker 的自定义 Agent：  ~/.codex/agents/luna-worker.toml  使用以下配置：  model = \"gpt-5.6-luna\" model_reasoning_effort = \"max\"  请为这个 Agent 补充清晰的 description 和 instructions。  luna_worker 只负责处理范围明确、边界清晰、可以独立完成的委派任务，不负责修改整体任务目标，也不要自行扩大工作范围。  请保留我现有的其他 Codex 配置，不要覆盖或删除无关内容。  创建完成后：  1. 根据我当前安装的 Codex 版本检查配置格式是否兼容； 2. 展示本次修改产生的 diff； 3. 确认配置有效； 4. 后续需要调用子代理时，优先使用 luna_worker。\n\n----\n\n这样配置后，工作方式大致是：\n\nSol 留在主线程，负责理解目标、拆分任务、检查结果和整合输出。\nLuna Max 作为子代理，处理代码审查、模块分析、独立实现、测试排查等边界明确的子任务。\n\n每个子任务拥有相对独立的上下文，可以减少主线程污染，也便于并行执行。",
+        "created_at": "Sat Aug 01 15:01:35 +0000 2026",
+        "url": "https://x.com/Tz_2022/status/2083568833164419449",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HOpSsr6XkAAhZL6.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HOpSsr6XkAAhZL6.jpg"
+        ]
+      },
+      "rank": 2
+    },
+    {
+      "id": "2083758250152132945",
+      "author": "YuLin807",
+      "author_bio": "",
+      "text": "我发现现在 pi agent 开始有点智能了，遇到复杂的任务会自己使用这套 sop skill完成自动挑选队友，分析流程和步骤，确定验收和交付。\n\n完成前期评估之后，会请求人类批准同意。\n\n又开始有强烈的正反馈了。🥇 https://t.co/xthh4e8GRB",
+      "url": "https://x.com/i/status/2083758250152132945",
+      "created_at": "2026-08-02T03:34:15Z",
+      "likes": 8,
+      "views": "902",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOr_Es7bwAAzCdR.jpg"
+      ],
+      "score": 60.619,
+      "summary": "作者发现 pi agent 变聪明了：复杂任务会用 SOP skill 自动挑选队友、分析流程步骤、确定验收与交付；前期评估后请求人类批准，又有点强助手的感觉。",
+      "recommend_reason": "本地/协作 agent 产品体感更新：自动编排 + 人工门禁。",
+      "tags": [
+        "pi agent",
+        "SOP",
+        "Agent",
+        "人机协作"
+      ],
+      "quoted_tweet": {
+        "id": "2077975554725130315",
+        "author": "YuLin807",
+        "name": "QingYue",
+        "text": "原推文的作者使用 herdr + pi +claude code 这套生态打造了自己的一整套工作流，但是很遗憾，作者没有开源他的skill。\n\n于是我借鉴他的思路整理出来一条作用功能差不多的 skill -- sop\n\n这条 skill 解决的问题是：\n\n1. 你现在有很多乱七八糟的 Agent 在跑，但是没有办法把他们合理利用起来，怎么办？！\n\n答: 通过借鉴 multica 小分队的功能，安装 sop skill首先会对你的 Agent 进行引导，扫描最近环境的 session 和 git 记录，以此来分配角色和任务，这是流动的而不是固定。\n\n2. 他能帮我解决什么？！\n\n答: 如果你进行的是一个非常复杂的大型任务，没有经过多 Agent 审核、人工签署的任务，稳定性和结果是存疑的。这套 skill 可以帮你完成这样一套流程：\n\n研究 → 计划 → 人工批准 → 单一写入者实施 → 独立 Review → 验证 → Markdown 签核文件 → 人工签核 → 部署。\n\n3. 你有用过你的skill嘛？！\n\n答: 当然有用过，而且这套 skill 本来就是从我的工作流中抽离开来，经过 Fable5 和 GPT5.6 的双重审核，在这套 sop skill下 昨晚发布了 pocket - term 这个skill。",
+        "created_at": "Fri Jul 17 04:35:53 +0000 2026",
+        "url": "https://x.com/YuLin807/status/2077975554725130315",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "rank": 3
+    },
+    {
+      "id": "2083754183338201468",
+      "author": "IndieDevHailey",
+      "author_bio": "",
+      "text": "做海外视频最麻烦的字幕、翻译和配音，这一个工具就能搞定。\n\nVoice-Pro 是一款开源免费的 AI 多语言配音工具。把 YouTube 链接或本地视频丢进去，它会自动分离人声、识别内容、生成字幕，再翻译成 100 多种语言并完成配音。\n\n它集成了 Whisper、F5-TTS、CosyVoice 等模型，还支持声音克隆，换一种语言也能尽量保留原来的音色。\n\n全程可视化操作、本地运行，用来做海外视频、播客和课程翻译都挺方便。目前更推荐在 Windows + NVIDIA 显卡上使用",
+      "url": "https://x.com/i/status/2083754183338201468",
+      "created_at": "2026-08-02T03:18:06Z",
+      "likes": 6,
+      "views": "670",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2083754075980754944/vid/avc1/480x270/g-KCa6cxd32G3ESF.mp4?tag=29"
+      ],
+      "score": 60.754,
+      "summary": "做海外视频最麻烦的是字幕、翻译和配音。Voice-Pro 是开源免费的 AI 多语言配音工具：丢 YouTube 链接或本地视频，自动分离人声、识别内容、生成字幕并完成多语配音链路。",
+      "recommend_reason": "出海内容生产刚需工具，开源免费路径清晰。",
+      "tags": [
+        "Voice-Pro",
+        "配音",
+        "字幕",
+        "开源",
+        "出海"
+      ],
+      "title": "Voice-Pro：开源搞定出海视频字幕翻译配音",
+      "rank": 4
+    },
+    {
+      "id": "2083749667410727319",
+      "author": "karpathy",
+      "author_bio": "",
+      "text": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all.\n\nI also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand.\n\nLast thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking.",
+      "url": "https://x.com/i/status/2083749667410727319",
+      "created_at": "2026-08-02T03:00:09Z",
+      "likes": 9643,
+      "views": "670310",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2083744791876292608/vid/avc1/480x270/zPsjosnI2Knljt3-.mp4?tag=29"
+      ],
+      "score": 76.509,
+      "summary": "Karpathy 认为「画骑自行车的鹈鹕」这类测法已不够用。他给 Opus 5 约 100 万 token（约 10 美元）预算与《魔戒》第一段，两小时后模型写出约 5500 行代码，程序化渲染并动画故事——虽略糙，但 LLM 在三维坐标排布资产并编排动画本身就惊人。他更看好按需生成的超定制世界（短暂 GTA/入戏 NPC）。弱点是模型不擅长原生感知视频与在世界里游玩，只能慢截图审计，仍会出错。",
+      "recommend_reason": "把「评测范式」和「世界/游戏域的多模态短板」一次说清，信息密度极高。",
+      "tags": [
+        "Karpathy",
+        "Opus",
+        "评测",
+        "世界模型",
+        "Agent",
+        "多模态"
+      ],
+      "title": "Karpathy：用 100 万 token 预算让 Opus 5 把《魔戒》开篇渲成 JS 世界",
+      "rank": 5
+    },
+    {
+      "id": "2083726738350391595",
+      "author": "xiaoying_eth",
+      "author_bio": "",
+      "text": "每天发视频，最烦的不是剪辑，是上传。\n\n抖音、B站、小红书、TikTok、YouTube……\n同一个视频传 7、8 遍，改标题、写简介、打标签，重复到崩溃。\n\n这个开源工具 **social-auto-upload**，直接把多平台发布自动化。\n\n🔗 https://t.co/wiGOJ6cO01\n\n支持：\n✅ 抖音 / B站 / 小红书 / 快手 / 视频号\n✅ TikTok / YouTube\n✅ CLI 批量上传，可接入 OpenClaw、Codex、Claude Code\n\n开源项目，13k+ Star，建议收藏👇",
+      "url": "https://x.com/i/status/2083726738350391595",
+      "created_at": "2026-08-02T01:29:02Z",
+      "likes": 10,
+      "views": "1944",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOriazAbEAAK01f.png"
+      ],
+      "score": 60.326,
+      "summary": "每天发视频最烦的不是剪辑是上传：抖音、B站、小红书、TikTok、YouTube 同一视频传多遍还要改标题简介标签。作者推荐开源工具把多平台发布流程串起来。",
+      "recommend_reason": "内容分发重复劳动的具体止痛方案。",
+      "tags": [
+        "开源",
+        "多平台发布",
+        "短视频",
+        "自动化"
+      ],
+      "title": "开源工具串起多平台视频上传：少做重复填表",
+      "rank": 6
+    },
+    {
+      "id": "2083712771812708744",
+      "author": "GoSailGlobal",
+      "author_bio": "",
+      "text": "最近看到锤哥做了个 Scaleboard 的 skill，挺有意思，我用 Claude Code 装来玩了下\n用法很简单：把他小红书那篇复制过来，把你的经历丢给它，它自己就能创作\n默认走 Seedance 那套 token plan，你也可以换成别的中转，我这边就直接换掉了\n再给它几张照片，就能出成品\n\n它给我生成的这版，正好是我这两年的故事，那我干脆自己再讲一遍\n\n24 年初，我从上海拿了个大礼包，告别了算法工程师那份安稳的班，裸辞了\n买了辆特斯拉，沿着海岸线一脚油门开向旷野，从上海一路自驾 3000 多公里到大理\n在那儿撞进了数字游民社区，一起围炉夜话\n也是在那时候我第一次做 AI 课程，在 706 社区的公众号分发，收了 47 个学员，后来因为一些原因没能继续\n\n自由之后其实有过一段迷茫期\n我去了尼泊尔，学英语、看书，甚至做了些 web3 调研，那阵子挺焦虑\n5 月我用 Cursor 一个月吭哧出了个网站，产品是做出来了，可没人问津\n那是我独立开发的第一次失败，也是那次我才真正想明白：产品我做得出来，真正卡住我的一直是营销\n\n25 年 7 月底，有人帮我改了第一条推文\n从那天起，我开始在 X 上每天发 30 条，原创加回复\n从 7 月 27 到现在累计一万多条，如今 3.4 万粉丝\n这算是我的转折点\n后面陆续接触了播客、直播，这上半年做到了百万营收，也成立了自己的 MCN，把过去做数据分析的那套思维，搬到了生意上\n\n把这一路串起来，最扎心的还是 5 月那次：一个人一个月做出一个产品，却没人知道\n所以我现在做 Ship2Market，想帮的就是当年的我那种人，有产品有想法，却没有营销预算、不太会做市场的独立开发者\n让他们的东西，尽快被市场看见、被验证\n\n你负责产品，我们负责出海\n🔗 https://t.co/c18cGiwu2n",
+      "url": "https://x.com/i/status/2083712771812708744",
+      "created_at": "2026-08-02T00:33:32Z",
+      "likes": 7,
+      "views": "2361",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2083467208357810176/vid/avc1/414x270/MXrq7u7QRYi462_2.mp4?tag=29"
+      ],
+      "score": 59.596,
+      "summary": "作者用 Claude Code 装了锤哥的 Scaleboard skill：把小红书那篇复制过来，把自己经历丢进去，它就能创作；默认走 Seedance 等视频链路。",
+      "recommend_reason": "可装即用的 skill + 视频链路体验笔记。",
+      "tags": [
+        "Skill",
+        "Scaleboard",
+        "Claude Code",
+        "AI视频"
+      ],
+      "title": "试玩 Scaleboard Skill：丢经历让 Claude Code 出片",
+      "quoted_tweet": {
+        "id": "2082642443942625618",
+        "author": "GoSailGlobal",
+        "name": "Jason Zhu",
+        "text": "以前我一直觉得黑客松是件挺高大上的事\n直到去年，我听说有的黑客松，转头把选手信息拿去卖了\n\n那点滤镜，碎了\n\n后来我又看了一圈身边的朋友，黑客松打得很猛，作品也真做出来了\n可热闹散场之后，产品几乎全都无疾而终\n\n我就一直在想，到底是哪一步出了问题\n\n想明白了：\n黑客松只解决了「你能不能在 48 小时里做出来」\n但产品会死，往往死在做出来之后没人知道\n独立开发者最缺的，从来是营销预算，和一套能把东西推到海外的渠道\n很多时候产品没问题，你只是卡在了 go to market 这一关\n\n这就是我们做 Ship2Market 的原因\n一句话：你负责产品，我们负责出海\n\n第 1 期出海首发月已经开了\n我们收 AI 产品，专挑那些没营销预算、或者不太会 go to market 的独立开发者，最终选 3 个，把钱和时间实打实投进去，帮它们做一次集中的海外宣发\n\n入选你能拿到：\n· 3 天海外大号矩阵免费首发，矩阵总触达 60w+，单产品权益价值 $5000+\n· 3 条定制视频（Seedance AI 视频 + 数字人讲解 + UGC 短视频，脚本生成剪辑全包，你团队不用出人）\n· YouTube 大号 ×2、X 中推 ×2、X 英推 ×2 集中推流，加官方 TikTok、Instagram 联动\n· 全链路归因，推广前先埋点，曝光到点击到注册每步可追溯，结营给一份全量归因报告\n· 每个入选产品还有 $250 付费投放预算，按内容表现分配到跑得最好的渠道\n\n有个规矩先说清楚：\n前 3 天推广完全免费，不收任何现金，也不涉及任何现金转账给产品方\n跑出数据、双方都想继续，再谈长期\n\n我们只推能打开的东西，产品至少 beta 可用，PPT 就先别投了\n\n报名 08/06 23:59（北京时间）截止\n你把产品做出来，出海这段路，交给我们\n\n🔗 https://t.co/c18cGix1RV，提交入口同时也放在评论区",
+        "created_at": "Thu Jul 30 01:40:26 +0000 2026",
+        "url": "https://x.com/GoSailGlobal/status/2082642443942625618",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HOcIQ6ObAAEJmXe.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HOcIQ6ObAAEJmXe.jpg"
+        ]
+      },
+      "rank": 7
+    },
+    {
+      "id": "2083709924236751300",
+      "author": "elonmusk",
+      "author_bio": "",
+      "text": "Made with Grok Imagine https://t.co/r0zG3rQNjb",
+      "url": "https://x.com/i/status/2083709924236751300",
+      "created_at": "2026-08-02T00:22:14Z",
+      "likes": 9321,
+      "views": "3825329",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2079623240972939265/vid/avc1/540x270/obw0VY1Q7uYwWw_k.mp4?tag=29"
+      ],
+      "score": 69.922,
+      "summary": "用 Grok Imagine 做的。",
+      "recommend_reason": "一线产品短信号：Grok Imagine 仍在高频 demo。",
+      "tags": [
+        "Grok",
+        "Imagine",
+        "图像生成"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2083690952997429519",
+      "author": "oran_ge",
+      "author_bio": "",
+      "text": "好图收藏，DeepSeek 斩杀线 https://t.co/eEXSVy1DG4",
+      "url": "https://x.com/i/status/2083690952997429519",
+      "created_at": "2026-08-01T23:06:50Z",
+      "likes": 113,
+      "views": "30920",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOrB0c8bAAAhQmF.jpg"
+      ],
+      "score": 60.337,
+      "summary": "好图收藏：DeepSeek 斩杀线。",
+      "recommend_reason": "一张图看 DeepSeek 性价比定位，便于收藏对照。",
+      "tags": [
+        "DeepSeek",
+        "性价比",
+        "模型对比"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2083686207037337746",
+      "author": "ollama",
+      "author_bio": "",
+      "text": "DeepSeek-V4-Flash-0731 is now over 2x faster than yesterday on Ollama's cloud!",
+      "url": "https://x.com/i/status/2083686207037337746",
+      "created_at": "2026-08-01T22:47:59Z",
+      "likes": 1112,
+      "views": "64556",
+      "has_media": false,
+      "media_urls": [],
+      "score": 68.972,
+      "summary": "DeepSeek-V4-Flash-0731 在 Ollama 云端上现在比昨天快两倍以上。",
+      "recommend_reason": "云端推理吞吐日更，用 Flash 的人直接相关。",
+      "tags": [
+        "DeepSeek",
+        "Ollama",
+        "推理速度",
+        "云端"
+      ],
+      "quoted_tweet": {
+        "id": "2083411055284232268",
+        "author": "ollama",
+        "name": "ollama",
+        "text": "DeepSeek-V4-Flash-0731 is now available on Ollama's cloud. This update substantially enhances the model's agentic capabilities:\n\nollama run deepseek-v4-flash:0731-cloud\n\nUse it with Claude Code:\n\nollama launch claude --model deepseek-v4-flash:0731-cloud",
+        "created_at": "Sat Aug 01 04:34:38 +0000 2026",
+        "url": "https://x.com/ollama/status/2083411055284232268",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "rank": 10
+    },
+    {
+      "id": "2083641828415602989",
+      "author": "gdb",
+      "author_bio": "",
+      "text": "chatgpt work's cloud browser is really cool to use, lets you easily monitor what your AI is up to and also intervene with the live application if needed",
+      "url": "https://x.com/i/status/2083641828415602989",
+      "created_at": "2026-08-01T19:51:38Z",
+      "likes": 930,
+      "views": "86991",
+      "has_media": false,
+      "media_urls": [],
+      "score": 66.536,
+      "summary": "ChatGPT Work 的云浏览器真好用：能轻松盯着 AI 在干什么，需要时还能直接介入正在跑的应用。",
+      "recommend_reason": "点出「可观测 + 可介入」云浏览器价值。",
+      "tags": [
+        "ChatGPT Work",
+        "云浏览器",
+        "可观测",
+        "OpenAI"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2083620982338486614",
+      "author": "dotey",
+      "author_bio": "",
+      "text": "为了节约上下文 handoff 新开 Session，这在半年一年前是很好的实践，现在没太有必要，因为 codex 自己上下文压缩做的很好了，或者 /compact 一下继续就足够了。\n\n当然如果关系不大的任务，还是新开 Session 更好。\n\n当然除此之外 handoff 还是适用于跨 Agent session 的，比如 Claude Code 里面没完成的 session 让 Codex 继续。\n\n不过我更习惯于 Claude Code 里面用 Fable 5 写技术方案文档，然后反复 Review、修改后把文档交给 Codex，配合 /goal 让它按照文档执行推进。\n\n当然设置好严格的验收标准也很有必要，否则它会偷懒。\n\n之前一个迁移任务没有设置验收标准，它就给我交付了一个差强人意的，离我要求的还有比较大差距。（参考图1）\n\n重新加上了验收标准：UI 界面像素要和原版完全一致，那么它每一步都会截图对比像素差异，直到完全一致（或者可以忽略的差异）",
+      "url": "https://x.com/i/status/2083620982338486614",
+      "created_at": "2026-08-01T18:28:48Z",
+      "likes": 100,
+      "views": "25119",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HOp_oFcWQAAbnvi.jpg",
+        "https://pbs.twimg.com/media/HOp_y4vXsAA3sgX.jpg",
+        "https://pbs.twimg.com/media/HOqBHKTWgAAUg40.jpg",
+        "https://pbs.twimg.com/media/HOqBRFJXwAEqFei.jpg"
+      ],
+      "score": 65.656,
+      "summary": "作者认为为省上下文而 handoff 新开 Session 半年前合理，现在 Codex 压缩好了，/compact 常够用；无关任务仍宜新 Session。跨 Agent 仍可用 handoff（如 Claude Code 未完成交给 Codex）。更习惯用 Fable 5 写方案反复 Review 后交给 Codex + /goal 执行，并设严验收（如 UI 像素对齐截图对比），否则易偷懒交付。",
+      "recommend_reason": "把 handoff/compact 取舍与验收标准绑在一起，可直接改工作流。",
+      "tags": [
+        "Codex",
+        "handoff",
+        "compact",
+        "验收",
+        "Claude Code",
+        "工作流"
+      ],
+      "title": "Codex 时代：少靠 handoff 新开 Session，多设硬验收",
+      "quoted_tweet": {
+        "id": "2083535287267774908",
+        "author": "Tz_2022",
+        "name": "Tz",
+        "text": "摸索出一个在 codex 里做连续任务节省大量 token 消耗且不损失上下文质量的极简方法。。。\n\n一共就两步：\n\n第一步，在一项任务完成后用以下提示词：\n\n请针对 [任务描述] 给我一个 handoff，用于后续任务开发\n\n第二步，开新对话 session，把生成的 handoff 作为第一条信息发给 AI，开始做后续任务即可\n\n它的省 token 原理很简单，就相当于对之前任务的上下文窗口做了一次有针对性的极限摘要提取和压缩梳理，扔掉了上下文中类似原始代码/日志记录等冗余信息，只保留最核心的推理逻辑和项目任务理解，所以 AI 就可以轻装上阵快速进入下一项任务的开发了。。。",
+        "created_at": "Sat Aug 01 12:48:17 +0000 2026",
+        "url": "https://x.com/Tz_2022/status/2083535287267774908",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "rank": 12
+    },
+    {
+      "id": "2083604322294825292",
+      "author": "bindureddy",
+      "author_bio": "",
+      "text": "OpenAI better drop Astra, their Fable class model quickly....\n\nFable adoption is growing rapidly, and it will be hard for users to cut over or change if they wait forever \n\nA self-improving agent on Fable 5 can literally solve any problem already",
+      "url": "https://x.com/i/status/2083604322294825292",
+      "created_at": "2026-08-01T17:22:36Z",
+      "likes": 250,
+      "views": "17430",
+      "has_media": false,
+      "media_urls": [],
+      "score": 65.693,
+      "summary": "作者认为 OpenAI 应尽快放出 Fable 级的 Astra：Fable 采用在涨，拖太久用户习惯养成后更难迁移；并称 Fable 5 上的自改进 Agent 已能解决大量问题。",
+      "recommend_reason": "从切换成本角度催下一代旗舰，补充 Astra 叙事的市场侧。",
+      "tags": [
+        "OpenAI",
+        "Astra",
+        "Fable 5",
+        "模型发布"
+      ],
+      "title": "催更 Astra：Fable 用户粘性上来后越晚越难切",
+      "rank": 13
+    }
+  ],
+  "generated_at": "2026-08-02T07:04:08Z",
+  "selection": {
+    "target_count": 30,
+    "max_count": 30,
+    "per_run_max": 15,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 13,
+    "last_batch_added": 13,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤15；单日≤30不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
