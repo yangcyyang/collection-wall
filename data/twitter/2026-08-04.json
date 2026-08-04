@@ -9,6 +9,307 @@
   },
   "items": [
     {
+      "id": "2084674586462007458",
+      "author": "Alibaba_Qwen",
+      "author_bio": "",
+      "text": "Qwen-Image-3.0-Pro has made a massive leap from the previous generation, now ranking #5 globally. Appreciate the recognition! We will keep building.🚀",
+      "url": "https://x.com/i/status/2084674586462007458",
+      "created_at": "2026-08-04T16:15:27Z",
+      "likes": 93,
+      "views": "4894",
+      "has_media": false,
+      "score": 64.865,
+      "quoted_tweet": {
+        "id": "2084672571807846418",
+        "author": "arena",
+        "name": "Arena.ai",
+        "text": "More exciting news from @Alibaba_Qwen: Qwen-Image-3.0-Pro has entered the Text-to-Image Arena at #5 with 1,263 pts!\n\nThis is a strong improvement over Qwen-Image-2.0-Pro with 1,191 pts (#15 -> #5).\n\nPerformance by category also improved substantially (see post below).\n\nCongrats to @Alibaba_Qwen on another huge release!",
+        "created_at": "Tue Aug 04 16:07:27 +0000 2026",
+        "url": "https://x.com/arena/status/2084672571807846418",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HO4-VubacAAclJR.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HO4-VubacAAclJR.jpg"
+        ]
+      },
+      "summary": "Qwen-Image-3.0-Pro 相对上一代进步巨大，目前全球排名第 5。感谢认可！我们会继续打磨。🚀",
+      "recommend_reason": "官方确认图像模型进入 Arena 全球前五，是 Qwen 多模态产品线的可核验节点。",
+      "tags": [
+        "Qwen",
+        "文生图",
+        "Arena",
+        "多模态"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2084637837371351222",
+      "author": "vista8",
+      "author_bio": "",
+      "text": "推荐体验：开源一个元Skill，就是生成 Skill 的 Skill。\n\n虽然 Anthropic 官方也有skill-creator，但功能不够强大。\n\nskill初始版由我搭档姚老师，用今年泄露的claude code源码分析后创作，并研究整合了OpenAI、Gemini等官方Skill的最佳实践。\n\n无论触发率、准确性、格式校验都青出于蓝。\n\n我在此skill基础上迭代，增加了https://t.co/Y68C1pc5aQ、https://t.co/1NCaOycbqd数据源。\n\n生成skill时会先搜索这些网站的热门skill，站在巨人肩膀，经测试，生成的skill质量很不错。\n\n同时支持发布到Github，生成npx安装指令，API泄露检查，一个skill搞定生成、分享工作。\n\n安装指令：\n\nnpx skills add joeseesun/qiaomu-meta-skill\n\n开源地址：\nhttps://t.co/UvlSetOlro\n\n姚老师原版（已有2.2 star）：\nhttps://t.co/lEjfbHkjFB\n\n建议fork按自己想法修改使用，这更符合skill的理念与哲学。",
+      "url": "https://x.com/i/status/2084637837371351222",
+      "created_at": "2026-08-04T13:49:25Z",
+      "likes": 117,
+      "views": "9623",
+      "has_media": false,
+      "score": 64.686,
+      "title": "开源元 Skill：生成 Skill 的 Skill（含目录发现与发布）",
+      "summary": "vista8 开源 qiaomu-meta-skill：在姚老师版基础上整合多官方最佳实践，生成前先搜热门 skill，并支持 GitHub 发布、npx 安装指令与 API 泄露检查；安装：npx skills add joeseesun/qiaomu-meta-skill。",
+      "recommend_reason": "给出可安装的元 skill 与开源地址，比空谈「如何写 skill」更可复现。",
+      "tags": [
+        "Skill",
+        "开源",
+        "Agent",
+        "元技能"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2084610956999704776",
+      "author": "yaojingang",
+      "author_bio": "",
+      "text": "看了下下我的Codex记录，yao-meta-skill已经成为我最常用的skill之一了\n\n一个好的元skill，价值非常大，所有的这类场景，比如创建skill、迭代完善skill\n都可以极大的提升AI产出的质量\n\n下午 @vista8 说，这个元skill非常好用，但很多人还不知道它的存在\n也在此基础上，更新了一版：它是乔木 skill 创建流程的唯一权威，内部已经包含 https://t.co/G81syntVpO + SkillsMP 双目录发现、GitHub 验源、对比和综合方法。命中后不再叠加 generic skill-creator，也不需要下载或安装其他 discovery skill\n详见图二\n\n我把两个版本的元skill对应的GitHub仓库地址，放在评论区，欢迎体验",
+      "url": "https://x.com/i/status/2084610956999704776",
+      "created_at": "2026-08-04T12:02:37Z",
+      "likes": 133,
+      "views": "12646",
+      "has_media": true,
+      "score": 68.394,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HO4DOSYakAA52dY.jpg",
+        "https://pbs.twimg.com/media/HO4GKMVbsAEscH1.jpg"
+      ],
+      "title": "yao-meta-skill：把「写 Skill」本身做成可复用元流程",
+      "summary": "作者统计 Codex 使用记录后发现 yao-meta-skill 已成最高频 skill，并更新为乔木 skill 创建的权威流程：内置双目录发现、GitHub 验源与对比综合，命中后不再叠加 generic skill-creator。",
+      "recommend_reason": "把「创建/迭代 skill」从零散提示词升级成可复用元能力，对 agent 工作流很有实操价值。",
+      "tags": [
+        "Skill",
+        "元技能",
+        "Codex",
+        "Agent工作流"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2084605064916967836",
+      "author": "gkxspace",
+      "author_bio": "",
+      "text": "豆包进飞书后，飞书直接成了自媒体创作神器，打通了选题、创作、复盘全流程！！！\n\n飞书多维表格、云文档、知识库配合 CLI 够爽了，现在飞书里的豆包可以读你的资料、操作电脑、浏览器、做PPT、图片、视频......\n\n我这次直接拿“一个人+飞书做 AI 自媒体”跑了一遍：\n\n1、找选题：打开浏览器搜近期内容，最后找了 10 个公开来源，把标题、链接、发布日期、核心信息、互动数据和用户问题全部写进飞书。\n\n2、内容存档：直接建好多维表格。它自己做了 14 个字段，按照账号匹配度、热度和信息增量打分，再做出选题优先级视图和数据看板！\n\n3、创作：选中一条继续创作。它沿着表里的资料写完一篇 X 长帖，又生成了 3 套封面标题、3 组提示词和 3 张封面图，全部写回同一条记录。\n\n它搜索的资料、做的判断、生成的内容和图片，全都留在飞书里。整个过程每一步都能看、能改，包括来源、评分规则也都可以调，标题和图片不满意就让它重做。\n\n飞书负责把资料、选题和成品整理并存好，豆包负责搜索、整理、判断和创作。全自动在浏览器、文档、表格和生图工具之间调用。",
+      "url": "https://x.com/i/status/2084605064916967836",
+      "created_at": "2026-08-04T11:39:12Z",
+      "likes": 26,
+      "views": "5879",
+      "has_media": true,
+      "score": 63.187,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2084604381773864960/vid/avc1/318x270/1SDbeO_d8yApV3po.mp4?tag=29",
+        "https://pbs.twimg.com/media/HO4Aq1WbsAEc8JA.jpg",
+        "https://pbs.twimg.com/media/HO4AsmebYAAAYt9.jpg",
+        "https://pbs.twimg.com/media/HO4Ath2bkAA2WZN.jpg"
+      ],
+      "title": "豆包进飞书：一个人跑通 AI 自媒体选题到成片",
+      "summary": "作者演示飞书内豆包打通选题检索、多维表建字段打分、长帖与封面/提示词/配图回写；资料与成品都留在飞书，可审可改，浏览器与生图工具可串联调用。",
+      "recommend_reason": "少见的「办公套件 + Agent」端到端创作闭环案例，对个人内容生产有参考。",
+      "tags": [
+        "豆包",
+        "飞书",
+        "自媒体",
+        "Agent"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2084603844147958152",
+      "author": "JulianGoldieSEO",
+      "author_bio": "",
+      "text": "Hermes now runs a free 24/7 AI team using Open Code as the brain.\n\nHermes is the hands. Open Code is the free brain.\n\nDrop a task on a kanban board. Walk away.\n\nHermes splits it into subtasks and delegates the coding.\n\nFailed builds retry themselves until they're done.\n\nThis team built a full website, a mini app, and a dashboard.\n\nWhile the owner did nothing.\n\nHermes never writes the code. It just checks the work.\n\nThe orchestrator and the builder stay separate.\n\n99% of people prompt one agent, one task at a time.\n\nThe 1% run an assembly line.",
+      "url": "https://x.com/i/status/2084603844147958152",
+      "created_at": "2026-08-04T11:34:21Z",
+      "likes": 10,
+      "views": "1584",
+      "has_media": true,
+      "score": 62.438,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2084603690259042304/vid/avc1/480x270/7NqzIxqRUovL5iHs.mp4?tag=29"
+      ],
+      "title": "Hermes + Open Code：看板派工的免费 24/7 编码流水线",
+      "summary": "Hermes 负责拆任务与验收，Open Code 作免费编码大脑；任务丢看板后可自动拆分、失败重试，演示过整站/小应用/看板，强调编排与实现分离。",
+      "recommend_reason": "把「单 agent 单任务」升级成编排-建造分离的流水线叙事，代表本地 agent 编排趋势。",
+      "tags": [
+        "Hermes",
+        "OpenCode",
+        "Agent编排",
+        "自动化"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2084597706375487554",
+      "author": "op7418",
+      "author_bio": "",
+      "text": "OpenAI 发了一篇文章，回应苹果关于窃取商业机密的诉讼，没想到苹果这么草台。\n\n苹果声称今年 2 月份联系过 OpenAI 但没有收到回应。后来发现，是苹果的律师把两个亚洲姓氏搞混，把邮件发错人了。\n\n苹果还声称和 OpenAI 的总法律顾问通过话，但其实根本没有，完全是骗人的。\n\n之后苹果沉默了 5 个月，突然就提起了诉讼。\n\n苹果指控其前员工在离职后访问机密信息。但事实是，苹果在职的员工主动联系这位前员工，请他帮忙寻找对应的文件，她这才进行了访问。\n\n这一堆操作下来太搞笑了",
+      "url": "https://x.com/i/status/2084597706375487554",
+      "created_at": "2026-08-04T11:09:57Z",
+      "likes": 50,
+      "views": "24019",
+      "has_media": true,
+      "score": 62.311,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HO36d-8aEAAEtAf.jpg"
+      ],
+      "quoted_tweet": {
+        "id": "2084515811306443093",
+        "author": "OpenAINewsroom",
+        "name": "OpenAI Newsroom",
+        "text": "Apple is getting this wrong. \nhttps://t.co/IStp6WhOrS",
+        "created_at": "Tue Aug 04 05:44:32 +0000 2026",
+        "url": "https://x.com/OpenAINewsroom/status/2084515811306443093",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": [],
+        "card": {
+          "name": "summary_large_image",
+          "title": "Apple is getting this wrong",
+          "description": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
+          "image_url": "https://pbs.twimg.com/card_img/2084512787569471488/b5r9L8ow?format=jpg&name=800x320_1",
+          "url": "https://openai.com/index/apple-is-getting-this-wrong/",
+          "domain": "openai.com"
+        }
+      },
+      "title": "OpenAI 回击苹果：律师发错人还编造通话记录",
+      "summary": "作者摘要 OpenAI 回应苹果商业秘密诉讼：苹果称 2 月联系无果，实为律师混淆亚洲姓氏发错邮件；还称与 OpenAI 总法沟通过但被否认；前员工访问文件据称由在职员工主动求助触发。",
+      "recommend_reason": "把诉讼公开声明拆成可传播的事实点，便于跟踪 AI 巨头法务战。",
+      "tags": [
+        "OpenAI",
+        "Apple",
+        "诉讼",
+        "行业"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2084584703571698075",
+      "author": "yetone",
+      "author_bio": "",
+      "text": "我开源了几个 skill 后发现开源 skill 获得的收益巨大，因为大多数用户不知道效果这么好是大模型的功劳还是 skill 本身的功劳，他们会把所有的功劳给这个 skill 和作者，甚至可能唯一起作用的是 skill markdown 里的某一句话，甚至 skill markdown 里某些内容会有副作用用户都感知不出来，用户只会直夸牛逼，而且随着大模型的不停进化夸牛逼的声音会越来越大，就是躺赢啊！\n\n这就是无法量化结果的好处啊😬",
+      "url": "https://x.com/i/status/2084584703571698075",
+      "created_at": "2026-08-04T10:18:17Z",
+      "likes": 240,
+      "views": "30019",
+      "has_media": false,
+      "score": 62.91,
+      "quoted_tweet": {
+        "id": "2084555788451033259",
+        "author": "blackanger",
+        "name": "AlexZ 🦀",
+        "text": "是我太超前了吗\n\n去年写的 Rust Skill，感觉现在随着大模型发展，才变得好用了 。。。这半年我可啥都没改啊 https://t.co/fJXdkt3yW1",
+        "created_at": "Tue Aug 04 08:23:23 +0000 2026",
+        "url": "https://x.com/blackanger/status/2084555788451033259",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HO3UQ1KagAAaZ2b.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HO3UQ1KagAAaZ2b.jpg"
+        ]
+      },
+      "title": "开源 Skill 的躺赢结构：功劳归因模糊带来的复利",
+      "summary": "yetone 观察：用户常分不清效果来自大模型还是 skill，于是把赞誉给 skill 作者；模型持续进化还会放大这种归因，结果难量化反而形成开源 skill 的收益结构。",
+      "recommend_reason": "点出 skill 生态的激励扭曲与正反馈，比单纯晒 star 更有讨论密度。",
+      "tags": [
+        "Skill",
+        "开源",
+        "生态",
+        "归因"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2084562853865161071",
+      "author": "LawrenceW_Zen",
+      "author_bio": "",
+      "text": "以前玩 Claude Code 跟嗑药一样的，几乎 Mac Air 不离身的跑。\n\n特别是 opus4.6 带来的震撼至今难忘，它就像是一个稳重的大哥帮你干活，靠谱不说黑话。艹 Fable5 现在一堆黑话。比它刚出来的时候，唉，缩水一半以上，。这么贵，真不如用其他的模型了，差别越来越小。\n\n现在盯着 Claude Code 发呆。考虑下个月续不续费了。\n\n下个月开始用 Grok + DeepSeek + GPT 5.6 当主力了。",
+      "url": "https://x.com/i/status/2084562853865161071",
+      "created_at": "2026-08-04T08:51:28Z",
+      "likes": 42,
+      "views": "15785",
+      "has_media": true,
+      "score": 62.022,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HO3a16ObsAAYzxg.jpg"
+      ],
+      "title": "从 Claude Code 狂热到考虑退订：模型体验差距在缩",
+      "summary": "作者回忆 Opus 4.6 时期 Claude Code 的稳定感，吐槽当前高价模型「黑话变多、体感缩水」，并表示下月主力将切到 Grok + DeepSeek + GPT 5.6。",
+      "recommend_reason": "一线重度用户对编码模型性价比的真实换仓信号，可对照自家订阅决策。",
+      "tags": [
+        "ClaudeCode",
+        "模型体验",
+        "性价比",
+        "开发者"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2084552484648042776",
+      "author": "Alibaba_Qwen",
+      "author_bio": "",
+      "text": "Qwen3.8-Max, better and cheaper. Try it out. 👀",
+      "url": "https://x.com/i/status/2084552484648042776",
+      "created_at": "2026-08-04T08:10:16Z",
+      "likes": 1276,
+      "views": "69822",
+      "has_media": false,
+      "score": 66.94,
+      "quoted_tweet": {
+        "id": "2084293498950590839",
+        "author": "CommandCodeAI",
+        "name": "Command Code",
+        "text": "We ran a test between the new Qwen3.8-Max, Opus 5 and GPT-5.6 Sol.\n\n3 models. same prompt. one-shot with the /design command.\n\nReviewed gameplay features, UX/UI and cost.\n🔹 Qwen3.8-Max → 9/10 · $0.0248\n🔹 GPT-5.6 Sol → 9/10 · $0.150\n🔹 Opus 5 → 8.5/10 · $0.253\n\nQwen3.8-Max is approximately 4.2× cheaper than GPT-5.6, Sol, Opus 5 and has the same level of UI, UX, and gameplay.",
+        "created_at": "Mon Aug 03 15:01:09 +0000 2026",
+        "url": "https://x.com/CommandCodeAI/status/2084293498950590839",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2084293450409889792/vid/avc1/480x270/miS2aBRfLBdwM-Py.mp4?tag=14"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2084293450409889792/img/Jz5b5m888Jaj4uWX.jpg"
+        ]
+      },
+      "summary": "Qwen3.8-Max，更好更便宜。来试试。👀",
+      "recommend_reason": "官方短讯配合第三方同 prompt 成本对比（约 4.2× 更便宜同档分数），适合快速感知 Qwen 新旗舰性价比。",
+      "tags": [
+        "Qwen",
+        "模型",
+        "性价比",
+        "Qwen3.8-Max"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2084549349997150643",
+      "author": "xiaohu",
+      "author_bio": "",
+      "text": "Cloudflare 发布 @cloudflare/computer\n\n给每个 AI Agent 配一台「虚拟电脑」\n\n这台「电脑」是一份存在云端的文件系统，外加几种能操作这些文件的执行环境。\n\nAgent 每敲一条命令，自己决定派到哪个环境去跑：动文件、处理数据、管 git 仓库，在一个毫秒级启动的轻量环境里完成\n\n真需要 Linux、要装包、要跑二进制程序，才去开容器。\n\n痛点与背景：\n\n目前 AI Agent 的痛点：现在的 AI Agent（智能体）要干活（比如写代码、跑测试、处理文件），通常需要一个单独的“容器（Container）”环境。\n\n算力不够用：如果未来有数亿甚至数十亿个 AI Agent 同时在线，给每一个 Agent 都开一个独立的容器，全球的服务器算力和 CPU 根本不堪重负，成本高昂且无法扩展。\n\nCloudflare 的解决方案：给 Agent 一个“专属电脑”\n\nCloudflare 的做法是：让 Agent 做决策的那部分，和真正干重活的那部分，分开住。\n\n大脑 · 轻量环境（isolate 隔离区）占内存极小、启动毫秒级、闲下来能自动休眠，还能自己存自己的状态。看文件、改代码、管 git 仓库这类日常活，全在这里搞定。\n\n双手 · 重量环境（Container 容器）只有当 Agent 确实需要一个真的 Linux、要装第三方包、要跑真二进制程序时，才临时把活递过去。\n\nhttps://t.co/OEhnWaaATO",
+      "url": "https://x.com/i/status/2084549349997150643",
+      "created_at": "2026-08-04T07:57:48Z",
+      "likes": 98,
+      "views": "15261",
+      "has_media": false,
+      "score": 62.3,
+      "title": "Cloudflare Computer：给每个 Agent 一台可扩缩「虚拟电脑」",
+      "summary": "Cloudflare 发布 @cloudflare/computer：云端文件系统 + 多执行环境。日常文件/git/数据处理走毫秒级轻量 isolate，真要 Linux/装包/跑二进制才开容器，试图解决亿级 agent 全开容器不可扩展的问题。",
+      "recommend_reason": "直接对准 Agent 运行时成本与扩展瓶颈，是基础设施层的硬新闻。",
+      "tags": [
+        "Cloudflare",
+        "Agent",
+        "基础设施",
+        "沙箱"
+      ],
+      "rank": 10
+    },
+    {
       "id": "2084426867084566585",
       "author": "xiaoxiaodong01",
       "author_bio": "",
@@ -54,7 +355,7 @@
           "https://pbs.twimg.com/media/HOwfcxYbEAAvqEt.jpg"
         ]
       },
-      "rank": 1
+      "rank": 11
     },
     {
       "id": "2084424032762384846",
@@ -89,7 +390,7 @@
         "media_urls": [],
         "media_posters": []
       },
-      "rank": 2
+      "rank": 12
     },
     {
       "id": "2084423416493338866",
@@ -125,7 +426,7 @@
           "https://pbs.twimg.com/media/HO0EcsAXkAAdYfq.jpg"
         ]
       },
-      "rank": 3
+      "rank": 13
     },
     {
       "id": "2084420790036910459",
@@ -150,7 +451,7 @@
         "产业"
       ],
       "title": "NVIDIA：AI 成产品发现主界面，零售新收入入口",
-      "rank": 4
+      "rank": 14
     },
     {
       "id": "2084405421041963356",
@@ -187,7 +488,7 @@
           "https://pbs.twimg.com/media/HO0uUesbYAAaHzK.jpg"
         ]
       },
-      "rank": 5
+      "rank": 15
     },
     {
       "id": "2084387303959740449",
@@ -212,7 +513,7 @@
         "Slack"
       ],
       "title": "Claude Connector 一接，Claude Code 也能用你的 Gmail/日历",
-      "rank": 6
+      "rank": 16
     },
     {
       "id": "2084378415818579975",
@@ -237,7 +538,7 @@
         "实时"
       ],
       "title": "GPT-Live：边说边听，语音栈从客户端到模型重建",
-      "rank": 7
+      "rank": 17
     },
     {
       "id": "2084361778377404715",
@@ -265,7 +566,7 @@
         "验收"
       ],
       "title": "Fable 5 写方案 + Codex 执行 + Fable 验收的工作流",
-      "rank": 8
+      "rank": 18
     },
     {
       "id": "2084355533658874302",
@@ -290,7 +591,7 @@
         "Grok"
       ],
       "title": "泼冷水：DeepSeek Flash 非前沿，低于 Grok 4.5 / Muse Spark",
-      "rank": 9
+      "rank": 19
     },
     {
       "id": "2084352161404920316",
@@ -315,7 +616,7 @@
         "下一代模型"
       ],
       "title": "OpenAI 下一代模型内测：10 项长期开放数学/理论 CS 结果",
-      "rank": 10
+      "rank": 20
     },
     {
       "id": "2084325600643445095",
@@ -339,7 +640,7 @@
         "开源",
         "Nous"
       ],
-      "rank": 11
+      "rank": 21
     },
     {
       "id": "2084323332800004514",
@@ -364,26 +665,26 @@
         "Codex",
         "速度"
       ],
-      "rank": 12
+      "rank": 22
     }
   ],
-  "generated_at": "2026-08-04T15:29:23Z",
+  "generated_at": "2026-08-04T16:30:09Z",
   "selection": {
-    "target_count": 30,
-    "max_count": 30,
-    "per_run_max": 15,
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 12,
-    "last_batch_added": 12,
+    "actual_count": 22,
+    "last_batch_added": 10,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
-    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤15；单日≤30不保底；追加按id去重。",
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
     "short_tweet": {
       "threshold_chars": 200,
       "title_optional": true,
