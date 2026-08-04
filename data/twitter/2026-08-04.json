@@ -1,0 +1,394 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-04",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2084426867084566585",
+      "author": "xiaoxiaodong01",
+      "author_bio": "",
+      "text": "GPT2 x 早安 x 飘逸 x 文艺 x 美学提示词\n\n又简化了下佐料：\n\n```\n主题：早安文案+good morning + 今日宜忌 + 2026-08-04 + 城市经典元素 \n一共10个不同城市 \n避免雷同的配色、色相避免雷同、排版避免雷同 \n一共10个图片\n```\n\n这样得到不同配色逻辑的一组10张图片\n犀利！\n完整提示词在图一ALT，左下角。",
+      "url": "https://x.com/i/status/2084426867084566585",
+      "created_at": "2026-08-03T23:51:06Z",
+      "likes": 36,
+      "views": "3194",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HO1fJHiawAIHLcU.jpg",
+        "https://pbs.twimg.com/media/HO1ek02bcAAzrcl.jpg",
+        "https://pbs.twimg.com/media/HO1emckacAALzwP.jpg",
+        "https://pbs.twimg.com/media/HO1epEybkAA_I4l.jpg"
+      ],
+      "score": 64.926,
+      "summary": "作者进一步简化佐料：主题含早安文案、good morning、今日宜忌、日期与城市经典元素，一次出多张不同风格卡。",
+      "recommend_reason": "可复用的批量早安内容生产配方。",
+      "tags": [
+        "图像生成",
+        "提示词",
+        "早安",
+        "批量"
+      ],
+      "quoted_tweet": {
+        "id": "2084076286193136033",
+        "author": "xiaoxiaodong01",
+        "name": "小小东",
+        "text": "GPT2 x 早安 x 松弛 x 清透 x 美学提示词\n\n横屏就很好的排版稳定性了\n竖版其实也不错\n\n新的一周，先推荐这组提示词\n\n一个技巧，如何一次输出10张图片：\n1. 思考力度高点\n2. 作图模式开启\n3. 实在不行就work模式\n\n其次，每天批量作图，chatGPT感觉还是有限制，轻易别大量过度。\n提示词图一ALT。 https://t.co/VShKw8mSdt",
+        "created_at": "Mon Aug 03 00:38:01 +0000 2026",
+        "url": "https://x.com/xiaoxiaodong01/status/2084076286193136033",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HOwgGXnbQAA9vUC.jpg",
+          "https://pbs.twimg.com/media/HOwfX0NaoAAPpjN.jpg",
+          "https://pbs.twimg.com/media/HOwfZcsacAA4y1H.jpg",
+          "https://pbs.twimg.com/media/HOwfcxYbEAAvqEt.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HOwgGXnbQAA9vUC.jpg",
+          "https://pbs.twimg.com/media/HOwfX0NaoAAPpjN.jpg",
+          "https://pbs.twimg.com/media/HOwfZcsacAA4y1H.jpg",
+          "https://pbs.twimg.com/media/HOwfcxYbEAAvqEt.jpg"
+        ]
+      },
+      "rank": 1
+    },
+    {
+      "id": "2084424032762384846",
+      "author": "dotey",
+      "author_bio": "",
+      "text": "同一个session使用不同模型的话，通过subagent就可以，让主agent去开启subagent执行任务，并且可以指定subagent模型 https://t.co/hiazgKI5jy",
+      "url": "https://x.com/i/status/2084424032762384846",
+      "created_at": "2026-08-03T23:39:50Z",
+      "likes": 62,
+      "views": "25840",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HO1ciaMXoAAMHTZ.jpg"
+      ],
+      "score": 62.049,
+      "summary": "同一 session 想用不同模型：通过 subagent 让主 agent 开子代理执行，并可指定子代理模型。",
+      "recommend_reason": "多模型同会话的可操作手法。",
+      "tags": [
+        "subagent",
+        "多模型",
+        "Codex",
+        "工作流"
+      ],
+      "quoted_tweet": {
+        "id": "2084422225046954042",
+        "author": "luckyegmce",
+        "name": "luckye",
+        "text": "@dotey 老师，如何在一个session中用不同的模型呢",
+        "created_at": "Mon Aug 03 23:32:39 +0000 2026",
+        "url": "https://x.com/luckyegmce/status/2084422225046954042",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "rank": 2
+    },
+    {
+      "id": "2084423416493338866",
+      "author": "elonmusk",
+      "author_bio": "",
+      "text": "Grok Build update \n\nhttps://t.co/lOJK57wDP5",
+      "url": "https://x.com/i/status/2084423416493338866",
+      "created_at": "2026-08-03T23:37:23Z",
+      "likes": 5291,
+      "views": "3606910",
+      "has_media": false,
+      "media_urls": [],
+      "score": 63.003,
+      "summary": "Grok Build 更新。",
+      "recommend_reason": "Grok 构建/产品线短更新信号。",
+      "tags": [
+        "Grok",
+        "Build",
+        "xAI"
+      ],
+      "quoted_tweet": {
+        "id": "2084327099511222597",
+        "author": "cb_doge",
+        "name": "DogeDesigner",
+        "text": "🚨 NEW GROK BUILD UPDATE 🚨\n\nSpaceXAI is pushing new Grok Build updates almost daily. \n\nGrok Build v0.2.120 is now live. \n\nBug Fixes:\n• Model picker now updates the status bar and /model menu immediately, even before the first prompt creates a session.\n• Changes panel now refreshes after the agent commits on the current branch instead of showing stale unstaged files.\n• Background task completions now report the full log size and read hint even when only a short prefix was captured.\n• GitHub export on old hibernated sessions now shows a clear message to start a new chat instead of a generic error.\n\nTo download Grok Build Visit: https://t.co/O78rf2Dpaz\nTo update to Alpha Version use command: grok update --alpha\nTo update to Stable Version use command: grok update",
+        "created_at": "Mon Aug 03 17:14:40 +0000 2026",
+        "url": "https://x.com/cb_doge/status/2084327099511222597",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HO0EcsAXkAAdYfq.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HO0EcsAXkAAdYfq.jpg"
+        ]
+      },
+      "rank": 3
+    },
+    {
+      "id": "2084420790036910459",
+      "author": "nvidia",
+      "author_bio": "",
+      "text": "AI is becoming a primary interface for product discovery, opening new revenue opportunities for retailers.\n\nSee how NVIDIA is helping retailers prepare for agentic commerce, from product discovery to secure checkout, while maintaining control over pricing, payments and compliance.",
+      "url": "https://x.com/i/status/2084420790036910459",
+      "created_at": "2026-08-03T23:26:57Z",
+      "likes": 414,
+      "views": "69804",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HO1ZqMEWUAARNhb.jpg"
+      ],
+      "score": 68.622,
+      "summary": "NVIDIA 指出 AI 正成为产品发现的主界面，为零售商打开新收入机会，并展示其如何帮助零售落地。",
+      "recommend_reason": "产业侧「搜索→对话发现」转移的官方视角。",
+      "tags": [
+        "NVIDIA",
+        "零售",
+        "产品发现",
+        "产业"
+      ],
+      "title": "NVIDIA：AI 成产品发现主界面，零售新收入入口",
+      "rank": 4
+    },
+    {
+      "id": "2084405421041963356",
+      "author": "gdb",
+      "author_bio": "",
+      "text": "GPT-Live is a new architecture and stack for realtime audio:",
+      "url": "https://x.com/i/status/2084405421041963356",
+      "created_at": "2026-08-03T22:25:53Z",
+      "likes": 1474,
+      "views": "138092",
+      "has_media": false,
+      "media_urls": [],
+      "score": 65.506,
+      "summary": "GPT-Live 是面向实时音频的新架构与技术栈。",
+      "recommend_reason": "OpenAI 相关负责人的架构定性，补官方帖之外的注脚。",
+      "tags": [
+        "GPT-Live",
+        "音频",
+        "架构",
+        "OpenAI"
+      ],
+      "quoted_tweet": {
+        "id": "2084378415818579975",
+        "author": "OpenAI",
+        "name": "OpenAI",
+        "text": "GPT-Live can listen while it speaks.\n\nTo make that feel natural at ChatGPT scale, we rebuilt the voice stack from client to model.\n\nThis new architecture keeps audio flowing continuously, so deeper reasoning and tool use don't interrupt the conversation. https://t.co/53VTTsqXg0",
+        "created_at": "Mon Aug 03 20:38:34 +0000 2026",
+        "url": "https://x.com/OpenAI/status/2084378415818579975",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HO0uUesbYAAaHzK.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HO0uUesbYAAaHzK.jpg"
+        ]
+      },
+      "rank": 5
+    },
+    {
+      "id": "2084387303959740449",
+      "author": "trq212",
+      "author_bio": "",
+      "text": "I think a lot of people don't realize- if you connect a Claude Connector (e.g. your gmail, calendar, slack, etc), Claude Code will also be able to use them, including in Artifacts. https://t.co/FZ1iSHqL5m",
+      "url": "https://x.com/i/status/2084387303959740449",
+      "created_at": "2026-08-03T21:13:53Z",
+      "likes": 1384,
+      "views": "165587",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HO0ywbnasAA4F9Z.jpg"
+      ],
+      "score": 71.766,
+      "summary": "很多人没意识到：接上 Claude Connector（Gmail、日历、Slack 等）后，Claude Code 同样能访问这些连接，编码 agent 与个人工作区打通。",
+      "recommend_reason": "隐藏能力点破：连接器不仅聊天，也喂给 Code。",
+      "tags": [
+        "Claude Code",
+        "Connector",
+        "Gmail",
+        "Slack"
+      ],
+      "title": "Claude Connector 一接，Claude Code 也能用你的 Gmail/日历",
+      "rank": 6
+    },
+    {
+      "id": "2084378415818579975",
+      "author": "OpenAI",
+      "author_bio": "",
+      "text": "GPT-Live can listen while it speaks.\n\nTo make that feel natural at ChatGPT scale, we rebuilt the voice stack from client to model.\n\nThis new architecture keeps audio flowing continuously, so deeper reasoning and tool use don't interrupt the conversation. https://t.co/53VTTsqXg0",
+      "url": "https://x.com/i/status/2084378415818579975",
+      "created_at": "2026-08-03T20:38:34Z",
+      "likes": 8959,
+      "views": "906421",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HO0uUesbYAAaHzK.jpg"
+      ],
+      "score": 76.857,
+      "summary": "GPT-Live 能在说话时同时听；为在 ChatGPT 规模上做到自然，团队从客户端到模型重建了语音栈。",
+      "recommend_reason": "实时语音新架构官方说明，产品体验关键点。",
+      "tags": [
+        "GPT-Live",
+        "语音",
+        "OpenAI",
+        "实时"
+      ],
+      "title": "GPT-Live：边说边听，语音栈从客户端到模型重建",
+      "rank": 7
+    },
+    {
+      "id": "2084361778377404715",
+      "author": "dotey",
+      "author_bio": "",
+      "text": "现在我很多复杂一点的任务都是 Fable 5 写方案，Codex 去执行，Fable 5 验收，相对来说可以做出比较靠谱的方案，以及兼顾性价比。具体是这么做的：\n\n1. Fable 5 的产出是技术方案文档（图1）\n\n一方面文档方便批注修改，另一方面文档方便其他 Agent 快速上手\n\n2. 文档确认后在当前先 /compact 一次\n\n这一步不是必要的，但是有好处，因为后续还要在同一会话去验证，/compact 压缩后，节约后续的上下文空间，之所以讨论方案就马上发送 /compact，因为这时候 Prompt Caching 还在，成本低，后面缓存过期了 compact 要贵一点。\n\n3. 把文档交给 Codex （GPT-5.6 Sol xhigh）去执行（图2）\n\n如果任务明显比较复杂，我一般会加上 /goal，这样中间就不需要反复去 continue，一次性把任务完成\n\n4. Codex 完成后让 Fable 验证（图3）\n\n直接告诉 Fable 其他 Agent 已经实施了，让它确认有没有遗漏，或者方向有无偏离。\n\n如果有些遗漏之类的，把 Fable 的反馈发回给 Codex（图4），不需要新开会话，在同一个 Codex 会话，Codex 会根据反馈继续完善。\n\n---\n\n如果用 Opus 5 替代 GPT 5.6 也可以，做法上可以跟上面一样新开会话，用文档传递上下文。\n\n也可以直接让 Fable 5 开 SubAgent 并指定用 Opus 5 模型，并且要求在 SubAgent 完成任务后验证。\n\n但是我执行下来 Opus 5 不如 GPT 5.6 Sol 稳定，也不如 GPT 5.6 Token 耐用，所以宁愿麻烦一点。",
+      "url": "https://x.com/i/status/2084361778377404715",
+      "created_at": "2026-08-03T19:32:28Z",
+      "likes": 628,
+      "views": "70504",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HO0heGBXYAAFkQf.jpg",
+        "https://pbs.twimg.com/media/HO0iS1bXUAAuWW_.jpg",
+        "https://pbs.twimg.com/media/HO0icJ0WQAAoS_k.jpg",
+        "https://pbs.twimg.com/media/HO0i-FvWsAAt42o.jpg"
+      ],
+      "score": 71.72,
+      "summary": "作者复杂任务多用 Fable 5 出技术方案文档，Codex 执行，再由 Fable 5 验收，兼顾靠谱与性价比；文档既方便批注也方便其他 Agent 快速接手。",
+      "recommend_reason": "可直接抄的三角色分工与文档中转法。",
+      "tags": [
+        "Fable 5",
+        "Codex",
+        "工作流",
+        "验收"
+      ],
+      "title": "Fable 5 写方案 + Codex 执行 + Fable 验收的工作流",
+      "rank": 8
+    },
+    {
+      "id": "2084355533658874302",
+      "author": "bindureddy",
+      "author_bio": "",
+      "text": "DeepSeek Flash Is Below Grok 4.5 And Muse Spark And Is NOT A Frontier Model\n\nLots of hype on X about how DeepSeek Flash is a Fable Class Model\n\nIT IS DEFINITELY NOT.  In Practice is it WAY WORSE than Grok 4.5\n\nIt's just a very good small model that is very good at benchmark maxxing",
+      "url": "https://x.com/i/status/2084355533658874302",
+      "created_at": "2026-08-03T19:07:39Z",
+      "likes": 276,
+      "views": "51772",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HO0eA70aYAAtQKN.jpg"
+      ],
+      "score": 67.51,
+      "summary": "作者认为网上对 DeepSeek Flash 炒作过热：能力低于 Grok 4.5 与 Muse Spark，不是 frontier 模型，选型别被热度带偏。",
+      "recommend_reason": "反共识对照，避免把 Flash 当旗舰用。",
+      "tags": [
+        "DeepSeek",
+        "Flash",
+        "模型对比",
+        "Grok"
+      ],
+      "title": "泼冷水：DeepSeek Flash 非前沿，低于 Grok 4.5 / Muse Spark",
+      "rank": 9
+    },
+    {
+      "id": "2084352161404920316",
+      "author": "OpenAI",
+      "author_bio": "",
+      "text": "An internal version of our next major model produced 10 new results on long-standing open problems in mathematics and theoretical computer science, using roughly $2,000 worth of tokens at GPT-5.6 Sol API rates. https://t.co/4cgowmPOpY",
+      "url": "https://x.com/i/status/2084352161404920316",
+      "created_at": "2026-08-03T18:54:15Z",
+      "likes": 12765,
+      "views": "1340362",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2084344857267683328/vid/avc1/480x270/Opu0xO5pIJrdN7MY.mp4?tag=29"
+      ],
+      "score": 77.228,
+      "summary": "OpenAI 称下一代主力模型内部版本在数学与理论计算机科学长期开放问题上产出 10 项新结果，延续科学推理方向的进展叙事。",
+      "recommend_reason": "官方对下一代模型科学能力的直接战报。",
+      "tags": [
+        "OpenAI",
+        "科学推理",
+        "数学",
+        "下一代模型"
+      ],
+      "title": "OpenAI 下一代模型内测：10 项长期开放数学/理论 CS 结果",
+      "rank": 10
+    },
+    {
+      "id": "2084325600643445095",
+      "author": "NousResearch",
+      "author_bio": "",
+      "text": "Hermes Agent v0.20.0: The Herald Release\n\nChangelog below https://t.co/n59wxva2xZ",
+      "url": "https://x.com/i/status/2084325600643445095",
+      "created_at": "2026-08-03T17:08:42Z",
+      "likes": 3677,
+      "views": "744974",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2084323770064625664/vid/avc1/320x320/jM1RptzXTtp3InCI.mp4?tag=29"
+      ],
+      "score": 71.808,
+      "summary": "Hermes Agent v0.20.0：The Herald Release，更新日志见链接。",
+      "recommend_reason": "开源 agent 版本节点，跟进 changelog 即可。",
+      "tags": [
+        "Hermes",
+        "Agent",
+        "开源",
+        "Nous"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2084323332800004514",
+      "author": "YuLin807",
+      "author_bio": "",
+      "text": "pi ➕ deepseek v4 flash 的速度比 grok cli 还快！\n\ncodex 虽好但是慢是真的慢！\n\n看来还得回到 pi 的怀抱 https://t.co/AUwgwGcE6q",
+      "url": "https://x.com/i/status/2084323332800004514",
+      "created_at": "2026-08-03T16:59:42Z",
+      "likes": 84,
+      "views": "20936",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HO0A6hNa4AA0TZs.jpg"
+      ],
+      "score": 63.35,
+      "summary": "pi 加 DeepSeek V4 Flash 的速度比 grok cli 还快；Codex 虽好但慢，作者觉得还得回到 pi。",
+      "recommend_reason": "本地/轻量 CLI 速度体感对照，选型实用。",
+      "tags": [
+        "pi",
+        "DeepSeek",
+        "Grok",
+        "Codex",
+        "速度"
+      ],
+      "rank": 12
+    }
+  ],
+  "generated_at": "2026-08-04T15:29:23Z",
+  "selection": {
+    "target_count": 30,
+    "max_count": 30,
+    "per_run_max": 15,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 12,
+    "last_batch_added": 12,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤15；单日≤30不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
