@@ -9,6 +9,313 @@
   },
   "items": [
     {
+      "id": "2085028902427369637",
+      "author": "jxnlco",
+      "bio": "",
+      "text": "i wanted to learn trumpet, and i really love chet baker.\n\nso i asked codex to find transcriptions of his solos.\n\nthat turned into a much bigger project than i expected.\n\nit searched musicians’ websites and academic jazz archives, found legitimate sheet music and midi files, verified which recordings actually contained trumpet solos, and converted everything into notation for b♭ trumpet.\n\none midi had more than 2,000 guitar notes. codex identified the actual trumpet part instead.\n\nfor solos that were only visible in publicly available videos, it reconstructed the notation and credited the original arrangers.\n\nthen i kept asking for things:\n\nshow me the valve fingerings.\nlet me change the key and tempo.\nexplain scales like i’m a beginner.\ngive me an actual learning path.\nloop the hard parts.\nadd walking bass and backing tracks.\nbuild me a 10-minute practice session.\n\nnow i have a personal chet baker practice app with ten playable pieces, guided lessons, phrase looping, and three different backing bands.",
+      "created_at": "2026-08-05T15:43:22Z",
+      "likes": 27,
+      "views": 1874,
+      "url": "https://x.com/jxnlco/status/2085028902427369637",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 60.769,
+      "recommend_reason": "展示 coding agent 从兴趣问题一路滚成完整小产品的真实链路，而不是单次问答。",
+      "tags": [
+        "Codex",
+        "Agent",
+        "应用开发",
+        "案例"
+      ],
+      "summary": "作者想学小号并喜欢 Chet Baker，让 Codex 检索乐谱与 MIDI、核验录音中是否含小号独奏、转成 B♭ 小号记谱，再迭代指法、调性/速度、练习路径、难句循环与伴奏轨，最终做出含十首可演奏曲目、引导课、乐句循环与三套伴奏的个人练习 App。",
+      "title": "用 Codex 从 Chet Baker 独奏做出个人小号练习 App",
+      "rank": 1
+    },
+    {
+      "id": "2085019621497913728",
+      "author": "HiTw93",
+      "bio": "",
+      "text": "A Korean creator built a whole workflow around Mole. Codex runs it every morning at 9am and sends him a cleanup report.\n\n332GB of worktree junk cleared, zero photos touched.\n\nThe CLI is free and always will be. If you'd like something more polished with a bit more to it, there's the Mole Mac app.\n\nps. the Korean narration is lovely, it sent me right back to the K-dramas I grew up watching 🙏\n\nby @unclejobs_ai · https://t.co/pLIMY0QsxU",
+      "created_at": "2026-08-05T15:06:30Z",
+      "likes": 6,
+      "views": 2107,
+      "url": "https://x.com/HiTw93/status/2085019621497913728",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "Codex와 Mole만 있으면 유료 맥 청소 앱, 이제 안 사도 됩니다. 맥북을 갖고 계시다면 필수 수청.",
+        "description": "여자친구 맥북에서 찌꺼기만 332GB 나왔습니다. 사진은 한 장도 안 건드리고 비웠어요.클로드코드, 코덱스 쓰다 보면...",
+        "image_url": "https://pbs.twimg.com/card_img/2083743103010398208/e4ZMCpxZ?format=jpg&name=800x320_1",
+        "url": "https://t.co/pLIMY0QsxU",
+        "domain": "www.youtube.com"
+      },
+      "quoted_tweet": null,
+      "score": 54.424,
+      "recommend_reason": "coding agent + 本地清理工具做成日更运维的具体样板，可直接抄调度思路。",
+      "tags": [
+        "Codex",
+        "自动化",
+        "Mac",
+        "Mole"
+      ],
+      "summary": "韩国创作者用 Mole CLI 搭清理工作流，Codex 每天 9 点自动跑并发送清理报告；案例清出 332GB worktree 垃圾且不动照片。CLI 免费，另有更完整的 Mole Mac App。",
+      "title": "Codex 定时跑 Mole：清晨自动清 Mac worktree 垃圾并出报告",
+      "rank": 2
+    },
+    {
+      "id": "2085016680540066182",
+      "author": "YuLin807",
+      "bio": "",
+      "text": "codex 的 computer use 现在也可以把操作界面缩略图显示在当前的页面，之前我记得只有操作 chrome 浏览器的时候才会出现这个实时的缩略图。 https://t.co/ApuzHghqWl",
+      "created_at": "2026-08-05T14:54:49Z",
+      "likes": 0,
+      "views": 144,
+      "url": "https://x.com/YuLin807/status/2085016680540066182",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HO93mhcbMAAGrZ-.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HO93mhcbMAAGrZ-.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 52.133,
+      "recommend_reason": "小而明确的产品能力变化，说明 computer use 可视化范围在扩大。",
+      "tags": [
+        "Codex",
+        "ComputerUse",
+        "产品更新"
+      ],
+      "summary": "codex 的 computer use 现在也可以把操作界面缩略图显示在当前的页面，之前我记得只有操作 chrome 浏览器的时候才会出现这个实时的缩略图。 https://t.co/ApuzHghqWl",
+      "rank": 3
+    },
+    {
+      "id": "2085013960991105112",
+      "author": "xiaohu",
+      "bio": "",
+      "text": "Stripe 公司内部 Agent 开发实践：\n\n一个工程师一周开发出来的公司内部 AI 助手，几乎人人都在用\n\n本文讲述了 Stripe 怎么用开源的 Deep Agents 做出了给全公司非工程师的普通员工都喜欢用的 AI 助手 Kai...\n\n开箱即用、不用配任何东西、出厂就懂 Stripe 内部怎么运作的「AI 同事」。\n\nhttps://t.co/wS2N8NVu4f",
+      "created_at": "2026-08-05T14:44:00Z",
+      "likes": 43,
+      "views": 4789,
+      "url": "https://x.com/xiaohu/status/2085013960991105112",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "Stripe 公司内部 Agent 开发实践：一个工程师一周开发出来的公司内部 AI 助手，几乎人人都在用 · 小互 · AI 解读站",
+        "description": "买来的地基、自己造的护栏，和一个反直觉的坎——技能装到 150 个，模型开始变笨",
+        "image_url": "https://pbs.twimg.com/card_img/2085013447650250752/-pO7hS2B?format=png&name=800x320_1",
+        "url": "https://t.co/wS2N8NVu4f",
+        "domain": "best.xiaohu.ai"
+      },
+      "quoted_tweet": null,
+      "score": 59.443,
+      "recommend_reason": "企业内部 agent 从工程师玩具变成全员默认入口的可对照案例，并点出技能膨胀副作用。",
+      "tags": [
+        "Agent",
+        "Stripe",
+        "企业内部AI",
+        "DeepAgents"
+      ],
+      "summary": "Stripe 公司内部 Agent 开发实践：\n\n一个工程师一周开发出来的公司内部 AI 助手，几乎人人都在用\n\n本文讲述了 Stripe 怎么用开源的 Deep Agents 做出了给全公司非工程师的普通员工都喜欢用的 AI 助手 Kai...\n\n开箱即用、不用配任何东西、出厂就懂 Stripe 内部怎么运作的「AI 同事」。\n\nhttps://t.co/wS2N8NVu4f",
+      "rank": 4
+    },
+    {
+      "id": "2084996514439733719",
+      "author": "jinchenma_ai",
+      "bio": "",
+      "text": "宋宋推荐了十个好用的 skill，省流版如下：\n\n1. SkillSpector：本地扫描AI技能仓库/文件，检测提示词注入、数据外泄、权限提升等68种漏洞模式。  \n2. AgentSeal：免费本地扫描已装服务的配置与数据流，识别明文密钥、版本风险及组合出的远程执行隐患。  \n3. Semia：静态分析技能能做什么并定位越界行为（带行号证据），还能一键自动修复问题代码。  \n4. last30days：一次拉取某话题在Reddit、X、YouTube、TikTok等平台最近30天的真实讨论与数据。  \n5. humanizer：把AI写作中的33种常见痕迹（拔高、套话、破折号滥用等）逐条去掉，二次重写且不编造事实。  \n6. taste-skill：给AI生成的网页/界面注入排版、字体、留白、动效和风格变体，让界面不再像模板货。  \n7. Dashi PPT：锁定模板只换文案，快速生成12套主题、上千页组件的稳定PPT，支持HTML/PDF/可编辑PPTX导出。  \n8. workbuddy-xhs-skills：按小红书冷启动真实顺序串起10个技能，从“变现倒推”到低粉爆款内容全流程。  \n9. ecommerce-visual-copywriting-skill：先出视觉策略与分镜脚本确认方向，再生成主图/详情页文案、设计规格、出图提示词并做合规审查。  \n10. voicebox：完全本地运行的声音克隆与多轨编辑工具，支持热键语音输入，并可让智能体用你的声音说话。",
+      "created_at": "2026-08-05T13:34:41Z",
+      "likes": 7,
+      "views": 2098,
+      "url": "https://x.com/jinchenma_ai/status/2084996514439733719",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2084966880616566843",
+        "author": "songsong",
+        "name": "宋宋",
+        "text": "你还记得你装了哪些Skill么？ https://t.co/K4e8jTkCOC",
+        "created_at": "Wed Aug 05 11:36:55 +0000 2026",
+        "url": "https://x.com/songsong/status/2084966880616566843",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 55.531,
+      "recommend_reason": "把分散 skill 收成可对照清单，覆盖安全、内容、设计与本地语音几条高频线。",
+      "tags": [
+        "Skill",
+        "安全",
+        "内容创作",
+        "工具"
+      ],
+      "summary": "汇总宋宋推荐的 10 个 skill：SkillSpector/AgentSeal/Semia 做技能与配置安全扫描；last30days 拉多平台近 30 天讨论；humanizer 去 AI 写作痕迹；taste-skill 改善网页观感；Dashi PPT 模板化出片；小红书冷启动与电商视觉文案链路；voicebox 本地声音克隆。",
+      "title": "十个实用 AI Skill 速览：安全扫描、去 AI 味、PPT 到本地声线",
+      "rank": 5
+    },
+    {
+      "id": "2084995399387885937",
+      "author": "VigoCreativeAI",
+      "bio": "",
+      "text": "VISUAL OS 012 — Acid Session Bulletins\n\nOne flyer system. Four sessions, one 24-hour clock.\n\n06:40 — TIDAL PULL CLUB / harbor line / open water\n20:45 — ROLL LATE LOOP / plaza circuit / open wheels\n21:15 — BANK TURN LATE / east track / two-wheel session\n22:30 — FLOOR / SIGNAL / NIGHT / lower hall / one round more\n\nLocked:\n– every photo graded to a single electric blue, motion blur kept in\n– acid-green ultra-condensed caps, edge to edge, top of frame\n– the same face again at the bottom: time + place, oversized, cropped\n– white serif italic block dead center — the human voice in the machine\n– exactly one orange marker gesture, hand-drawn, over that block\n– small italic caps metadata in three columns, hairlines or pill outlines\n– the subject always sandwiched between headline and time slab\n\nSwaps: session / three-word headline / time+place code / marker gesture / metadata trio\n\nSame city, same day. Four different reasons to show up.\n\nPrompt ↓",
+      "created_at": "2026-08-05T13:30:15Z",
+      "likes": 5,
+      "views": 239,
+      "url": "https://x.com/VigoCreativeAI/status/2084995399387885937",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HO9kQ3jXMAAbiWu.jpg",
+        "https://pbs.twimg.com/media/HO9kQ2KXkAAF2-C.jpg",
+        "https://pbs.twimg.com/media/HO9kRDzXIAElGkR.jpg",
+        "https://pbs.twimg.com/media/HO9kQOnWwAEaUW5.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HO9kQ3jXMAAbiWu.jpg",
+        "https://pbs.twimg.com/media/HO9kQ2KXkAAF2-C.jpg",
+        "https://pbs.twimg.com/media/HO9kRDzXIAElGkR.jpg",
+        "https://pbs.twimg.com/media/HO9kQOnWwAEaUW5.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 65.304,
+      "recommend_reason": "把生成式设计从单张提示词升级成可替换变量的视觉系统，方便批量做活动视觉。",
+      "tags": [
+        "生成式设计",
+        "视觉系统",
+        "提示词",
+        "图像生成"
+      ],
+      "summary": "作者给出「Acid Session Bulletins」视觉操作系统：同一套版式锁色（电蓝底、酸绿超窄标题、白衬线中段、单次橙红手绘标记），用 session/标题/时间地点/手势/三列元数据做变量，一天四场次复用同一系统生成多张海报。",
+      "title": "VISUAL OS 012：一套酸绿×电蓝海报系统拆成可复用规则",
+      "rank": 6
+    },
+    {
+      "id": "2084992050156683292",
+      "author": "gkxspace",
+      "bio": "",
+      "text": "Codex 不重置，如果开 Fast 完全不够用，但不开 Fast 感觉太慢(个人感觉提效不止1.5x)\n\n重度用下来 200刀 一天就干掉了 50% 周限额，而且 5.6 好像也降智了一样，有点蠢......\n\n如果 Cursor 有 200 刀 Claude + 200 刀 Codex 订阅额度，我愿意每个月给他付 600 美金！！！ https://t.co/ep9vhJtV4h",
+      "created_at": "2026-08-05T13:16:56Z",
+      "likes": 17,
+      "views": 9912,
+      "url": "https://x.com/gkxspace/status/2084992050156683292",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HO9fjWhaMAAYrLW.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HO9fjWhaMAAYrLW.png"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 59.62,
+      "recommend_reason": "把 Codex Fast/限额与重度使用成本说具体了，方便判断订阅策略。",
+      "tags": [
+        "Codex",
+        "成本",
+        "订阅",
+        "开发体验"
+      ],
+      "summary": "Codex 不重置，如果开 Fast 完全不够用，但不开 Fast 感觉太慢(个人感觉提效不止1.5x)\n\n重度用下来 200刀 一天就干掉了 50% 周限额，而且 5.6 好像也降智了一样，有点蠢......\n\n如果 Cursor 有 200 刀 Claude + 200 刀 Codex 订阅额度，我愿意每个月给他付 600 美金！！！ https://t.co/ep9vhJtV4h",
+      "rank": 7
+    },
+    {
+      "id": "2084984244762210484",
+      "author": "OpenDesignHQ",
+      "bio": "",
+      "text": "Codex Design is real now.\n\nOpen Design is now live in the official Codex Plugin Directory, bringing a live design canvas directly into Codex.\n\nA detailed demo is coming soon. https://t.co/wgoimRVOpu",
+      "created_at": "2026-08-05T12:45:55Z",
+      "likes": 83,
+      "views": 11791,
+      "url": "https://x.com/OpenDesignHQ/status/2084984244762210484",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2084981653026254848/vid/avc1/440x270/iQzIGRL59z94IWXL.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2084981653026254848/img/8y8T5UkdN_46QHcR.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2082060828463747416",
+        "author": "OpenDesignHQ",
+        "name": "Open Design",
+        "text": "Open Design is coming to the Codex Plugin Marketplace.\n\nYour Codex. Your team’s Codex. One shared visual canvas.\n\nMultiplayer AI design starts here. https://t.co/Jow2BJhw5w",
+        "created_at": "Tue Jul 28 11:09:18 +0000 2026",
+        "url": "https://x.com/OpenDesignHQ/status/2082060828463747416",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2082060249888948224/vid/avc1/480x270/RYm9s6RxEoIuTJ08.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2082060249888948224/img/DQEdJhJmDUMRFANP.jpg"
+        ]
+      },
+      "score": 65.118,
+      "recommend_reason": "Codex 插件目录出现实时设计画布，是 coding agent 往多模态协作再走一步的产品信号。",
+      "tags": [
+        "Codex",
+        "设计工具",
+        "插件",
+        "OpenDesign"
+      ],
+      "summary": "Codex Design 现已成真。Open Design 已上线官方 Codex 插件目录，把实时设计画布直接带进 Codex。详细演示即将发布。",
+      "rank": 8
+    },
+    {
+      "id": "2084949023979426292",
+      "author": "gkxspace",
+      "bio": "",
+      "text": "爽了！打死我都不敢信，有公司愿意把这种东西开源！\n\nAI 视频圈最没用的就是“只放成片”，但 Higgsfield 把 95 分钟的 AI 长片《Hell Grind》完全开源了，每条提示词、每份素材，全部公开。\n\n这部片子成本 50 万美元，上过戛纳电影市场，几乎看不出 AI 感，说是实拍我都信。\n\n我翻了一圈，做 AI 视频一定要把这几条都用到自己的工作流里：\n1、prompt 别写短句碎片，人家平均一条 3000 个词，等于把分镜脚本直接写成 prompt\n\n2、画面发飘就把物理规则写进提示词：遵守重力和惯性、不要漂浮的道具，一条条明确写\n\n3、去 AI 感靠自然光描述，专门压那种过亮过假的质感\n\n4、复杂动作戏先生成一张俯视地图，再逐个机位写 prompt，镜头才不乱\n\n5、心态放平：视频前 25 分钟是从 16181 次生成里筛出来的 253 个镜头，64 抽 1，就算是专业团队要靠抽卡\n\n这就是最好的学习“AI 视频”的方法，真建议每个做内容的人都去研究一遍，冲！！！",
+      "created_at": "2026-08-05T10:25:58Z",
+      "likes": 321,
+      "views": 51631,
+      "url": "https://x.com/gkxspace/status/2084949023979426292",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2084946972663037952/vid/avc1/480x270/NwkVJTUYuDbM2TgL.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2084946972663037952/img/LQH_qy-pppg9jHfz.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2084702370764820572",
+        "author": "higgsfield",
+        "name": "Higgsfield AI 🧩",
+        "text": "Our 95-minute AI feature film, Hell Grind, is now fully open-sourced for the Higgsfield Global Film Festival. \n\nAll the prompts and assets are public.\n\nIt was made for $500,000, screened in Cannes Market, and drew coverage from The Wall Street Journal, Variety, and BBC News. https://t.co/ZC8FvrRjhn",
+        "created_at": "Tue Aug 04 18:05:51 +0000 2026",
+        "url": "https://x.com/higgsfield/status/2084702370764820572",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2084697990917476352/vid/avc1/480x270/QHDtY_d5Z2NLBVAc.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2084697990917476352/img/wfZs4FUW2HyljOy-.jpg"
+        ]
+      },
+      "score": 69.138,
+      "recommend_reason": "开源整片工作流，比只晒成片更可复盘，适合 AI 视频创作者直接抄方法。",
+      "tags": [
+        "AI视频",
+        "Higgsfield",
+        "开源",
+        "提示词"
+      ],
+      "summary": "Higgsfield 将成本约 50 万美元、曾上戛纳电影市场的 95 分钟 AI 长片《Hell Grind》开源，公开全部 prompts 与资产。作者提炼可复用工作流：把分镜写成超长 prompt（均条约 3000 词）、把物理规则写进提示词、用自然光描述去 AI 感、复杂动作先俯视地图再分机位、并接受高抽卡率（前 25 分钟约 16181 次生成筛出 253 镜）。",
+      "title": "Higgsfield 开源 95 分钟 AI 长片《Hell Grind》：提示词与素材全公开",
+      "rank": 9
+    },
+    {
       "id": "2084839110016217543",
       "author": "web3annie",
       "bio": "",
@@ -36,7 +343,7 @@
         "算力",
         "xAI"
       ],
-      "rank": 1
+      "rank": 10
     },
     {
       "id": "2084827577370427397",
@@ -90,7 +397,7 @@
         "GPT Image",
         "设计"
       ],
-      "rank": 2
+      "rank": 11
     },
     {
       "id": "2084805838250881461",
@@ -122,7 +429,7 @@
         "Codex",
         "Claude Code"
       ],
-      "rank": 3
+      "rank": 12
     },
     {
       "id": "2084771801888907621",
@@ -148,7 +455,7 @@
         "本地模型",
         "推理"
       ],
-      "rank": 4
+      "rank": 13
     },
     {
       "id": "2084748111239344556",
@@ -180,7 +487,7 @@
         "AISI",
         "Agent评测"
       ],
-      "rank": 5
+      "rank": 14
     },
     {
       "id": "2084723471054160308",
@@ -210,7 +517,7 @@
         "Qwen",
         "榜单"
       ],
-      "rank": 6
+      "rank": 15
     },
     {
       "id": "2084702370764820572",
@@ -240,7 +547,7 @@
         "电影",
         "Higgsfield"
       ],
-      "rank": 7
+      "rank": 16
     },
     {
       "id": "2084692484953915517",
@@ -269,7 +576,7 @@
         "多模态",
         "模板"
       ],
-      "rank": 8
+      "rank": 17
     },
     {
       "id": "2084688922400145694",
@@ -312,7 +619,7 @@
         "Agent",
         "业务系统"
       ],
-      "rank": 9
+      "rank": 18
     },
     {
       "id": "2084688386867228989",
@@ -341,7 +648,7 @@
         "ASR",
         "腾讯"
       ],
-      "rank": 10
+      "rank": 19
     },
     {
       "id": "2084681383113380197",
@@ -380,7 +687,7 @@
         "开源",
         "Claude Code"
       ],
-      "rank": 11
+      "rank": 20
     },
     {
       "id": "2084680562300862514",
@@ -419,7 +726,7 @@
         "Agent",
         "模型接入"
       ],
-      "rank": 12
+      "rank": 21
     },
     {
       "id": "2084676243006603496",
@@ -462,10 +769,10 @@
         "Codex",
         "协作"
       ],
-      "rank": 13
+      "rank": 22
     }
   ],
-  "generated_at": "2026-08-05T04:05:40Z",
+  "generated_at": "2026-08-05T16:05:36Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -473,11 +780,11 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 13,
-    "last_batch_added": 13,
+    "actual_count": 22,
+    "last_batch_added": 9,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
