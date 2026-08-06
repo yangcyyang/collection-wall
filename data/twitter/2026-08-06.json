@@ -1,0 +1,447 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-06",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2085213784952713401",
+      "author": "ianneo_ai",
+      "bio": "",
+      "text": "卡佬的实用的 AI 情报网站：AIHOT\n\n它可以直接接入 Agent，让 Agent 使用这条情报线\n\n以后 AI 新闻、行业动态和新工具都能交给自己的 Agent 处理，少一层复制、粘贴和人工转述\n\n对个人 AI 工作流来说，可接入的信息源比收藏网址更有用\n\nhttps://t.co/CNaVAiYxUB https://t.co/AJemJVXCc1",
+      "created_at": "2026-08-06T03:58:02Z",
+      "likes": 1,
+      "views": "33",
+      "url": "https://x.com/i/status/2085213784952713401",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPAq3xLakAA-57F.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPAq3xLakAA-57F.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "卡佬的实用的 AI 情报网站：AIHOT\n\n它可以直接接入 Agent，让 Agent 使用这条情报线\n\n以后 AI 新闻、行业动态和新工具都能交给自己的 Agent 处理，少一层复制、粘贴和人工转述\n\n对个人 AI 工作流来说，可接入的信息源比收藏网址更有用\n\nhttps://t.co/CNaVAiYxUB https://t.co/AJemJVXCc1",
+      "recommend_reason": "强调“可被 Agent 接入的情报源”比单纯收藏链接更适合自动化工作流。",
+      "tags": [
+        "AIHOT",
+        "情报",
+        "Agent",
+        "工作流"
+      ],
+      "score": 66.198,
+      "rank": 1
+    },
+    {
+      "id": "2085200776159490111",
+      "author": "levie",
+      "bio": "",
+      "text": "Correct take. 99% of tokens in the world will get consumed in an enterprise context. \n\nThey will be for writing code, combing through insane amounts of life sciences research, automating manufacturing, securing enterprises, detecting fraud, and thousands of other tasks like this that have significant economic value. This is both where the cost of AI can be most justified but also where the impact of parallel workers doing tasks on your behalf is most useful.\n\nEven the agents that most impact consumers will often be wrapped up as just end to end services where the consumer doesn’t think about there being an AI system on the other end, like faster insurance or onboarding to a bank.\n\nThe key though is it’s going to take years for diffusion of agents across the economy because workflows have to re-engineered to incorporate AI, which is a complete change to how most work happens today. Anyone who’s expecting this to happen overnight should be updating their timelines.",
+      "created_at": "2026-08-06T03:06:20Z",
+      "likes": 45,
+      "views": "10030",
+      "url": "https://x.com/i/status/2085200776159490111",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2084850318047666425",
+        "author": "infinitefun_",
+        "name": "sean lee",
+        "text": "yeah, no.\n\nthe average consumer has a near zero need for offloading cognitive work. what they need is their netflix and their doordash — your job as a consumer is literally to chill tf out and stay happy and motivated \n\nif you dont intuit this as obvious you're most likely neck-deep in a muck of motivated reasoning as a consumer founder / VC\n \nokay you can use agents to search the web and synthesize findings on what to buy. okay you have cognitive chores like filing tax returns and sifting thru email. sounds like great features to bake into google and gmail!\n\non the other hand, your job as a knowledge worker is to convert your cognition into something of economic value — and then because of competitive market dynamics, you'll also need all the cognitive amplification that's available on the market.\n\nthe biggest problems need the most cognition. the consumer takes care of problems scoped to themselves. the knowledge workers together take care problems concerning society.\n\nwhen we look back, we'll remember how AI agents helped us cure cancer, not how your agent helped you order pizza over imessage.",
+        "created_at": "Wed Aug 05 03:53:45 +0000 2026",
+        "url": "https://x.com/infinitefun_/status/2084850318047666425",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "title": "Levie：全球 99% token 将消耗在企业场景，agent 扩散仍需数年",
+      "summary": "Aaron Levie 认为全球绝大多数 token 会消耗在企业语境：写代码、梳理生命科学研究、制造自动化、安全与反欺诈等有明确经济价值的任务。企业场景最能证明 AI 成本合理性，也最适合并行 agent 代劳。即便影响消费者的 agent，也常被包装成端到端服务（如更快保险/开户），用户未必感知背后有 AI。关键约束是：工作流需要改造，agent 在经济中的扩散仍需数年。",
+      "recommend_reason": "用“token 消耗结构 + 扩散时滞”给企业 AI 叙事定锚，避免只盯 C 端聊天。",
+      "tags": [
+        "企业AI",
+        "Agent",
+        "Token",
+        "Box"
+      ],
+      "score": 58.044,
+      "rank": 2
+    },
+    {
+      "id": "2085196281379725759",
+      "author": "dontbesilent",
+      "bio": "",
+      "text": "我感到不理解的是，有人喜欢主动给自己增加创业难度\n\n放着 claude/gpt 不用，你非要研究混元模型怎么干活\n\n放着 codex 不用，你非要研究怎么解决 workbuddy 的 bug\n\n我感觉工作忙碌的创业者，应该是没有闲工夫做这个事情的\n\n创业已经很难了，不要给自己再二次增加难度\n\n你就用最好的产品就完事儿了，codex 的 plus 账号一个月还不到 150 块钱，真的回不了本吗？\n\n你认真设计一下商业模式，一个 pro 账号不到一千块，我觉得回本是不难的，这不是我“何不食肉糜”吧？",
+      "created_at": "2026-08-06T02:48:29Z",
+      "likes": 48,
+      "views": "2710",
+      "url": "https://x.com/i/status/2085196281379725759",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "title": "创业别二次加难度：优先用最好的模型与 Codex，而不是自虐式自研",
+      "summary": "作者批评有人放着 Claude/GPT 不用非研究混元、放着 Codex 不用非修 workbuddy bug，认为忙碌创业者不该给自己二次加难度。建议直接用最好的产品：Codex Plus 一个月不到 150 块，认真设计商业模式后，一个 Pro 账号不到一千块也容易回本。",
+      "recommend_reason": "把工具选型从“技术洁癖”拉回创业机会成本，提醒优先购买生产力。",
+      "tags": [
+        "创业",
+        "Codex",
+        "工具",
+        "效率"
+      ],
+      "score": 63.517,
+      "rank": 3
+    },
+    {
+      "id": "2085194288171008440",
+      "author": "op7418",
+      "bio": "",
+      "text": "天塌了！大早上起来看 DeepSeek 要涨价，还说涨幅较大。\n\n不知道具体涨幅有多大，不至于翻倍吧？虽然翻倍也很便宜就是了。 https://t.co/od6SoheihE",
+      "created_at": "2026-08-06T02:40:33Z",
+      "likes": 43,
+      "views": "12445",
+      "url": "https://x.com/i/status/2085194288171008440",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPAY11LakAESQtZ.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPAY11LakAESQtZ.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "天塌了！大早上起来看 DeepSeek 要涨价，还说涨幅较大。\n\n不知道具体涨幅有多大，不至于翻倍吧？虽然翻倍也很便宜就是了。 https://t.co/od6SoheihE",
+      "recommend_reason": "中文圈对官方涨价消息的即时反应，可与 oran_ge 的公告转发交叉印证。",
+      "tags": [
+        "DeepSeek",
+        "涨价"
+      ],
+      "score": 61.64,
+      "rank": 4
+    },
+    {
+      "id": "2085188367445332245",
+      "author": "xiaoying_eth",
+      "bio": "",
+      "text": "Fable 和 Codex 一起用开发效率真的绝了\n\n有个开源 Skill 叫 /codex-build，专门为这个组合设计的\n\nFable 负责规划和决策，Codex 写代码。中间有审核卡点，代码必须过 review 和测试才能上线\n\n装这个 Skill 就能直接用，不用自己再折腾流程了\n\nhttps://t.co/jdvKQHOLMF https://t.co/85owlx3dy0",
+      "created_at": "2026-08-06T02:17:02Z",
+      "likes": 6,
+      "views": "993",
+      "url": "https://x.com/i/status/2085188367445332245",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPATw9basAEowAk.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPATw9basAEowAk.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "Fable 和 Codex 一起用开发效率真的绝了\n\n有个开源 Skill 叫 /codex-build，专门为这个组合设计的\n\nFable 负责规划和决策，Codex 写代码。中间有审核卡点，代码必须过 review 和测试才能上线\n\n装这个 Skill 就能直接用，不用自己再折腾流程了\n\nhttps://t.co/jdvKQHOLMF https://t.co/85owlx3dy0",
+      "recommend_reason": "给出可安装的开源 Skill 分工：规划模型 + 编码模型 + 审核测试卡点。",
+      "tags": [
+        "Fable 5",
+        "Codex",
+        "Skill",
+        "工作流"
+      ],
+      "score": 59.3,
+      "rank": 5
+    },
+    {
+      "id": "2085184069302935999",
+      "author": "NousResearch",
+      "bio": "",
+      "text": "Actual is a local inference stack optimized to let you utilize your personal compute. \n\nWith its low CPU impact while inferencing and multi-platform portability, it’s a great pair for your local Hermes Agent usage.",
+      "created_at": "2026-08-06T01:59:57Z",
+      "likes": 202,
+      "views": "19893",
+      "url": "https://x.com/i/status/2085184069302935999",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2085172429895172136",
+        "author": "actualinc",
+        "name": "Actual Computer",
+        "text": "The world's best harness, Hermes Agent by @NousResearch now works with Actual out of the box.\n\nHermes is the most effective harness for every model and thats why we’re thrilled to use it natively.\n\nHermes agent users can now use their personal inference capacity from anywhere. https://t.co/irLZguVdMM",
+        "created_at": "Thu Aug 06 01:13:42 +0000 2026",
+        "url": "https://x.com/actualinc/status/2085172429895172136",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HPAD65WX0AAwpBV.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HPAD65WX0AAwpBV.jpg"
+        ]
+      },
+      "title": "Nous 推 Actual：低 CPU 占用的本地推理栈，适配 Hermes Agent",
+      "summary": "Actual 是一套本地推理栈，目标是更充分利用个人算力；推理时 CPU 占用低、支持多平台移植，官方称很适合搭配本地 Hermes Agent 使用。",
+      "recommend_reason": "本地 agent 运行时的基础设施更新，关注隐私与离线推理的人值得记一笔。",
+      "tags": [
+        "Nous",
+        "本地推理",
+        "Hermes",
+        "Agent"
+      ],
+      "score": 63.372,
+      "rank": 6
+    },
+    {
+      "id": "2085177197111992742",
+      "author": "oran_ge",
+      "bio": "",
+      "text": "卧槽，DeepSeek 终于撑不住了…\n官方宣布即将大幅涨价…\n美好的时光总是如此短暂 https://t.co/ZtgJOj5dY1",
+      "created_at": "2026-08-06T01:32:39Z",
+      "likes": 122,
+      "views": "29873",
+      "url": "https://x.com/i/status/2085177197111992742",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPAJmwZbsAAjzWM.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPAJmwZbsAAjzWM.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "卧槽，DeepSeek 终于撑不住了…\n官方宣布即将大幅涨价…\n美好的时光总是如此短暂 https://t.co/ZtgJOj5dY1",
+      "recommend_reason": "官方涨价信号会立刻改变 Flash 生态与转售盘的成本预期。",
+      "tags": [
+        "DeepSeek",
+        "涨价",
+        "API"
+      ],
+      "score": 63.065,
+      "rank": 7
+    },
+    {
+      "id": "2085171868647207208",
+      "author": "IndieDevHailey",
+      "bio": "",
+      "text": "Codex 用户都懂，经常被“剩余额度”支配：\n平时怕额度放着不用白白浪费，真正想做项目时，又怕它突然见底。\n\n与此同时，我每天都会刷到很多惊艳的 AI 产品和创意 Demo。顺手收藏，想着以后研究一下，结果收藏夹越来越满，真正做出来的却没几个。\n\n所以我做了一个实验：\n让 Airtap 自动寻找值得验证的海外 AI 创意；发现好点子后，先检查 Codex 剩余额度，额度充足就直接调用 Codex 把它做成 Demo。\n\n结果，它真的交付了一个完整可玩的小游戏。\n整个过程中，我没有守在电脑前，只通过 iMessage 发了几条指令。\n\n这就是最后做出来的效果👇",
+      "created_at": "2026-08-06T01:11:28Z",
+      "likes": 21,
+      "views": "1940",
+      "url": "https://x.com/i/status/2085171868647207208",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2085171788372447232/vid/avc1/480x270/zXRSbXN3oUVw6QMf.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2085171788372447232/img/PFkcsWkwYqhh1CEW.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "title": "用 Airtap 扫创意 + 按 Codex 额度自动出 Demo，离线指令也能交付小游戏",
+      "summary": "作者痛点是 Codex 额度焦虑（闲置浪费 vs 关键活见底）以及收藏夹堆满 AI Demo 却很少真正做出来。于是做实验：让 Airtap 自动找值得验证的海外 AI 创意；发现点子后检查 Codex 剩余额度，额度够就直接调 Codex 做成 Demo。结果交付了一款完整可玩小游戏，全程不必守在电脑前，只需通过 iMessage 发几条指令。",
+      "recommend_reason": "把“额度管理 + 创意筛选 + 无人值守交付”串成一条可复制的 agent 流水线。",
+      "tags": [
+        "Codex",
+        "Airtap",
+        "Agent",
+        "Demo",
+        "自动化"
+      ],
+      "score": 64.213,
+      "rank": 8
+    },
+    {
+      "id": "2085136390183088418",
+      "author": "CuiMao",
+      "bio": "",
+      "text": "哇！真没想到啊…浓眉大眼的 Higgsfield 掏了 300 万人民币做了一部 95分钟的AI电影，现在把整套提示词，素材和完整的流程都开源了，对 AI 电影制作感兴趣同学，来评论区link研究。 https://t.co/mJ2KrZExSq",
+      "created_at": "2026-08-05T22:50:30Z",
+      "likes": 139,
+      "views": "31160",
+      "url": "https://x.com/i/status/2085136390183088418",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2085136282846683136/vid/avc1/480x270/F3NLyuG39hfU8f0n.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2085136282846683136/img/k_m-nSiXHHPQnhl6.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2084702370764820572",
+        "author": "higgsfield",
+        "name": "Higgsfield AI 🧩",
+        "text": "Our 95-minute AI feature film, Hell Grind, is now fully open-sourced for the Higgsfield Global Film Festival. \n\nAll the prompts and assets are public.\n\nIt was made for $500,000, screened in Cannes Market, and drew coverage from The Wall Street Journal, Variety, and BBC News. https://t.co/ZC8FvrRjhn",
+        "created_at": "Tue Aug 04 18:05:51 +0000 2026",
+        "url": "https://x.com/higgsfield/status/2084702370764820572",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2084697990917476352/vid/avc1/480x270/QHDtY_d5Z2NLBVAc.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2084697990917476352/img/wfZs4FUW2HyljOy-.jpg"
+        ]
+      },
+      "summary": "哇！真没想到啊…浓眉大眼的 Higgsfield 掏了 300 万人民币做了一部 95分钟的AI电影，现在把整套提示词，素材和完整的流程都开源了，对 AI 电影制作感兴趣同学，来评论区link研究。 https://t.co/mJ2KrZExSq",
+      "recommend_reason": "高成本 AI 长片的提示词与制作流程开源，对 AI 影视生产是可复用样本。",
+      "tags": [
+        "Higgsfield",
+        "AI电影",
+        "开源",
+        "提示词"
+      ],
+      "score": 64.763,
+      "rank": 9
+    },
+    {
+      "id": "2085134141922947493",
+      "author": "oran_ge",
+      "bio": "",
+      "text": "全世界把 DeepSeek V4 Flash 卖的比官方还便宜 6 倍的总共有三家\n\nCommand Code https://t.co/iUeE7ypeCe\n\nOpenCode https://t.co/fiYNhvZMQR\n\nCola https://t.co/xr4nDGp5Z1\n\n这个价格的模型套餐使用体验是这样的：用不完，根本用不完 https://t.co/uqWwveyvIC",
+      "created_at": "2026-08-05T22:41:34Z",
+      "likes": 247,
+      "views": "30041",
+      "url": "https://x.com/i/status/2085134141922947493",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HO_hdlVawAAQgw7.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HO_hdlVawAAQgw7.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "全世界把 DeepSeek V4 Flash 卖的比官方还便宜 6 倍的总共有三家\n\nCommand Code https://t.co/iUeE7ypeCe\n\nOpenCode https://t.co/fiYNhvZMQR\n\nCola https://t.co/xr4nDGp5Z1\n\n这个价格的模型套餐使用体验是这样的：用不完，根本用不完 https://t.co/uqWwveyvIC",
+      "recommend_reason": "把 V4 Flash 的超低价转售渠道和“用不完”的体感直接摊开，方便选型比价。",
+      "tags": [
+        "DeepSeek",
+        "V4 Flash",
+        "价格",
+        "API"
+      ],
+      "score": 67.93,
+      "rank": 10
+    },
+    {
+      "id": "2085095110921097243",
+      "author": "gdb",
+      "bio": "",
+      "text": "full house for the team’s talk at Black Hat on the OpenAI-Hugging Face Incident https://t.co/vf52ssLZZc",
+      "created_at": "2026-08-05T20:06:28Z",
+      "likes": 671,
+      "views": "56072",
+      "url": "https://x.com/i/status/2085095110921097243",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HO--84pa0AA8u9L.jpg",
+        "https://pbs.twimg.com/media/HO--84iaUAA2h3S.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HO--84pa0AA8u9L.jpg",
+        "https://pbs.twimg.com/media/HO--84iaUAA2h3S.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "团队在 Black Hat 关于 OpenAI-Hugging Face 事件的分享场次爆满。",
+      "recommend_reason": "安全圈顶会关注 OpenAI 与 Hugging Face 相关事件，说明供应链/安全议题仍热。",
+      "tags": [
+        "OpenAI",
+        "HuggingFace",
+        "BlackHat",
+        "安全"
+      ],
+      "score": 71.056,
+      "rank": 11
+    },
+    {
+      "id": "2085077119328022692",
+      "author": "code",
+      "bio": "",
+      "text": "🚀Give agents visual feedback, dictate prompts in multiple languages, ask side questions, and review rendered Markdown diffs.\n\n🧵 Here's what's new in the latest @code release: https://t.co/ncWSFEidON",
+      "created_at": "2026-08-05T18:54:58Z",
+      "likes": 219,
+      "views": "20070",
+      "url": "https://x.com/i/status/2085077119328022692",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HO-uj_YWIAAoKnS.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HO-uj_YWIAAoKnS.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "最新 @code 版本新增：给 agent 视觉反馈、多语言口述提示词、追问侧边问题，以及渲染后的 Markdown diff 审阅。线程里还有完整更新说明。",
+      "recommend_reason": "编码 agent 产品的具体能力更新，直接关系到日常 agent 开发体验。",
+      "tags": [
+        "Cursor",
+        "Code",
+        "Agent",
+        "产品更新"
+      ],
+      "score": 68.758,
+      "rank": 12
+    },
+    {
+      "id": "2085034334914769203",
+      "author": "demishassabis",
+      "bio": "",
+      "text": "I’ve been working towards AGI my whole life, and as we enter this pivotal moment, I’m stepping into a new role as Chair of Google DeepMind & Chief Scientist of Alphabet. This will allow me to focus on long-term strategy, and accelerating scientific breakthroughs, including leaning into my work at Isomorphic to help cure disease.\n\nI’m excited that @koraykv will be stepping up to lead GDM as SVP, alongside @joshwoodward and our exec team. I could not be more excited and confident about our amazing next chapter! 🚀\n\nhttps://t.co/2WtlIIlTUa",
+      "created_at": "2026-08-05T16:04:58Z",
+      "likes": 16415,
+      "views": "1182005",
+      "url": "https://x.com/i/status/2085034334914769203",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "The next chapter of our AI momentum",
+        "description": "Today, Google and Alphabet CEO Sundar Pichai shared some changes with Google DeepMind teams.",
+        "image_url": "https://pbs.twimg.com/card_img/2085034398894710784/8Jq4gHf1?format=jpg&name=800x320_1",
+        "url": "https://t.co/2WtlIIlTUa",
+        "domain": "blog.google"
+      },
+      "quoted_tweet": null,
+      "title": "Hassabis 改任 DeepMind 主席兼 Alphabet 首席科学家，Koray 接掌 GDM",
+      "summary": "Demis Hassabis 宣布进入职业新阶段：出任 Google DeepMind 主席（Chair）与 Alphabet 首席科学家，更聚焦长期战略与科学突破（含 Isomorphic 疾病研究）。GDM 日常领导将由 @koraykv 升任 SVP 掌舵，并与 @joshwoodward 及高管团队并肩推进下一阶段。",
+      "recommend_reason": "顶级实验室权力结构变动，直接影响 DeepMind/Alphabet 的 AGI 与科学路线优先级。",
+      "tags": [
+        "DeepMind",
+        "Google",
+        "AGI",
+        "组织变动"
+      ],
+      "score": 58.791,
+      "rank": 13
+    }
+  ],
+  "generated_at": "2026-08-06T04:07:18Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 13,
+    "last_batch_added": 13,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
