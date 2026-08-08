@@ -1,0 +1,530 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-08",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2085930346244349973",
+      "author": "AlchainHust",
+      "bio": "",
+      "text": "OpenAI突然大放水，给开源项目的开发者送6个月Pro会员，可以检查下自己邮箱有没有收到～ https://t.co/CDSdBzlABk",
+      "created_at": "2026-08-08T03:25:23Z",
+      "likes": 22,
+      "views": "15429",
+      "url": "https://x.com/i/status/2085930346244349973",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPK2UwrbUAAAvQg.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPK2UwrbUAAAvQg.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "OpenAI突然大放水，给开源项目的开发者送6个月Pro会员，可以检查下自己邮箱有没有收到～ https://t.co/CDSdBzlABk",
+      "recommend_reason": "开源开发者权益福利提醒，可直接行动查收。",
+      "tags": [
+        "OpenAI",
+        "开源",
+        "Pro"
+      ],
+      "score": 58.604,
+      "rank": 1
+    },
+    {
+      "id": "2085925076558635199",
+      "author": "JamesAI",
+      "bio": "",
+      "text": "AI agent有很多，人只有一个。\n\n统一追踪，统一管理，统一安排（我自己）。然后砍掉所有不赚钱还耽误事的 https://t.co/tDVKjQqBvh",
+      "created_at": "2026-08-08T03:04:27Z",
+      "likes": 4,
+      "views": "856",
+      "url": "https://x.com/i/status/2085925076558635199",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPKxvYZbwAAByL9.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPKxvYZbwAAByL9.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "AI agent有很多，人只有一个。\n\n统一追踪，统一管理，统一安排（我自己）。然后砍掉所有不赚钱还耽误事的 https://t.co/tDVKjQqBvh",
+      "recommend_reason": "点出多 agent 时代的稀缺资源是人的注意力与统一编排。",
+      "tags": [
+        "Agent",
+        "管理",
+        "效率"
+      ],
+      "score": 57.213,
+      "rank": 2
+    },
+    {
+      "id": "2085918451194118610",
+      "author": "GoSailGlobal",
+      "bio": "",
+      "text": "Claude Code 刚更新了一个功能：不同 Session 之间可以互相发消息了\n\n这意味着你可以同时开多个 Claude Code 实例，一个写前端一个写后端一个跑测试，它们之间自动协调\n\nAuto 模式也将在 8 月 14 日成为 Pro/Max/Team 用户的默认设置\n\n从单 Agent 编程到多 Agent 协作，AI 编程工具正在从助手进化成团队\n\n你现在同时开几个 Claude Code Session？",
+      "created_at": "2026-08-08T02:38:07Z",
+      "likes": 4,
+      "views": "559",
+      "url": "https://x.com/i/status/2085918451194118610",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2085918430209916928/vid/avc1/512x270/8ieety85Z5GQfHWS.mp4?tag=14"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2085918430209916928/img/RsmuAA_oBuHM-cRq.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2085817074816070014",
+        "author": "ClaudeDevs",
+        "name": "ClaudeDevs",
+        "text": "New in Claude Code: your sessions can now message each other.\n\nInstead of having to re-explain yourself in another session, you can now tell Claude to do it. It sends a summary (not your history or files), and the other session picks it up mid-task. https://t.co/PtNsfXeQXP",
+        "created_at": "Fri Aug 07 19:55:17 +0000 2026",
+        "url": "https://x.com/ClaudeDevs/status/2085817074816070014",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2085813483652976641/vid/avc1/514x270/dI0QK0Ipaxpy5d9b.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2085813483652976641/img/TCMAKrzeWd8F8gsQ.jpg"
+        ]
+      },
+      "title": "Claude Code Session 互发消息 + Auto 模式 8/14 默认开启",
+      "summary": "Claude Code 支持不同 Session 互发消息，可同时开前后端/测试等多实例自动协调；并称 Auto 模式将在 8 月 14 日成为 Pro/Max/Team 默认。作者将其概括为从单 agent 助手走向多 agent 团队。",
+      "recommend_reason": "补齐中文圈对跨 Session 与 Auto 默认时间点的确认信息。",
+      "tags": [
+        "Claude Code",
+        "Auto模式",
+        "Agent"
+      ],
+      "score": 59.124,
+      "rank": 3
+    },
+    {
+      "id": "2085918349633151371",
+      "author": "GoSailGlobal",
+      "bio": "",
+      "text": "DeepSeek V4 Flash 刚拿下 ARC-AGI-2 的新纪录：61.4% 准确率，每个任务成本只要 0.04 美元\n\nARC-AGI-1 上更夸张，89% 准确率，0.02 美元一个任务\n\n这组数据把性价比曲线往下拉了一个量级，同样的测试 GPT-5.6 Luna 的成本要高出几十倍\n\n开发者已经开始把它塞进 Codex 当子 Agent 用，本地跑在 DGX Spark 或双卡 RTX 上也完全可行\n\nAI 推理的成本底线还能低到什么程度？",
+      "created_at": "2026-08-08T02:37:43Z",
+      "likes": 2,
+      "views": "534",
+      "url": "https://x.com/i/status/2085918349633151371",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPKrr37acAAyk1Z.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPKrr37acAAyk1Z.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2085779238007808349",
+        "author": "arcprize",
+        "name": "ARC Prize",
+        "text": "DeepSeek V4 Flash from @deepseek_ai on ARC-AGI (Verified):\n\n- ARC-AGI-2: 61.4%, $0.04/task\n- ARC-AGI-1: 89.0%, $0.02/task\n\nDeepSeek V4 Flash sets the new standard on the cost-to-performance Pareto frontier. https://t.co/9ZIOCafLFM",
+        "created_at": "Fri Aug 07 17:24:56 +0000 2026",
+        "url": "https://x.com/arcprize/status/2085779238007808349",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HPItKf1WAAAqp6P.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HPItKf1WAAAqp6P.jpg"
+        ]
+      },
+      "title": "DeepSeek V4 Flash 刷出 ARC-AGI-2 61.4% / 任务约 $0.04",
+      "summary": "报道 DeepSeek V4 Flash 在 ARC-AGI-2 达 61.4% 准确率、每任务约 0.04 美元；ARC-AGI-1 为 89% / 0.02 美元。对比 GPT-5.6 Luna 成本可差几十倍；开发者已把它塞进 Codex 当子 Agent，本地可在 DGX Spark 或双卡 RTX 上跑。",
+      "recommend_reason": "用基准+单价把 Flash 的性价比钉死，并点出子 agent 落地场景。",
+      "tags": [
+        "DeepSeek",
+        "V4 Flash",
+        "ARC-AGI",
+        "成本"
+      ],
+      "score": 56.743,
+      "rank": 4
+    },
+    {
+      "id": "2085912135079780821",
+      "author": "xiaohu",
+      "bio": "带你了解全球最前沿科技、AI动态...\n\nAI 精华，讲到你懂：https://t.co/nvuDIvoNg1",
+      "text": "牛P\n\nClaude Code 新功能：“跨会话消息”\n\n不同的会话窗户之间可以互相发送消息。\n\n当你在并行做多个任务时，AI 之间可以自动配合互通有无，\n\n只需告诉另外窗口的 Claude 去做即可。这边的会发送一个摘要（不是您的历史记录或文件）过去，另一个会话会在任务进行中接手继续。\n\n跨 Git 工作树（Worktrees）协作：多个 Claude 在同一个项目的不同分支上干活，完成了可以互相打个招呼。\n\n传过去的是纯文本摘要或回答，不会把整个聊天记录或大文件一股脑扔过去，非常干净轻量。",
+      "likes": 35,
+      "retweets": 5,
+      "replies": 13,
+      "views": 7902,
+      "created_at": "2026-08-08T02:13:02Z",
+      "url": "https://x.com/xiaohu/status/2085912135079780821",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2085911820473454593/vid/avc1/514x270/EzxCwaSUYpNEpTL0.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2085911820473454593/img/4F1fJvb6iNGkZi25.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "title": "Claude Code 上线跨会话消息：并行窗口互传摘要，支持跨 worktree 协作",
+      "summary": "新功能允许不同会话窗口互相发消息：并行任务时只需告知另一窗口的 Claude，本侧发送摘要（非完整历史或文件），对侧可在任务中接手。支持跨 Git worktree 多分支协作；传输为纯文本摘要/回答，轻量干净。",
+      "recommend_reason": "多 agent 并行编程的关键产品能力，减少复制粘贴与上下文搬运。",
+      "tags": [
+        "Claude Code",
+        "Agent",
+        "Worktree",
+        "协作"
+      ],
+      "score": 62.528,
+      "rank": 5
+    },
+    {
+      "id": "2085908601638445177",
+      "author": "dotey",
+      "bio": "AI Engineer, dedicated to learning and disseminating knowledge about AI, software engineering, and engineering management.",
+      "text": "很多人不知道该怎么用好 Agent 的 /goal 功能，也就是说给 Agent 一个目标，让它长时间运行，直到目标完成为止。\n\n其实没你想的那么复杂，注意几个点：\n1. 你的目标是什么\n2. 如何验证结果\n3. 停止条件\n\n比如说我这两天做的一个性能优化的任务，Fable 5 帮我把视频转录性能优化了2倍多（图2），提示词很简单（图1）：\n> /goal 帮我优化当前 cli 的转录大视频的性能，在遇到像这样大体积的视频时，需要优化转录性能，请以 Moss 模型测试这个视频（英文为主，多语言）转录，建立基准，然后分析性能瓶颈，尝试优化，直到你觉得已经没有优化空间了。注意你的主要任务是分析、编排和验证，具体任务尽可能交给 subagent（Opus5）去执行\n\n首先用 /goal 表示这是一个需要长时间执行的任务，需要反复执行，不能运行一会就结束了。\n\n然后给它一个视频让它先自己跑一遍转录，记录一下关键数据，建立基准。\n\n基于转录时收集的数据，Agent 自己可以去分析原因，去自己优化，优化完成后再去跑一遍，记录数据，对照前面的基准看是更好了还是更坏了。\n\n结束条件是它自己觉得已经没有优化空间了就结束。之所以我没给它一个具体指标，是因为我也不知道能优化多少，如果指标太容易达到，它一轮可能就结束了；如果指标太难超出物理极限也没意义，反而可能会出现为了优化去做一些极端的事情。\n\n最后一句让它开subagent执行子任务是因为 Fable 5 太贵，全程 Fable 5 用不了多久就要额度不够了，加了这句就耐用多了，而且质量也挺好。\n\n---\n\n还有些时候，想到一个新的技术方案，但并不知道这方案是不是有效，那也可以让它开个worktree，去验证一下是不是靠谱，看数据是更好还是更坏，如果没提升就没必要做了。（参考图3）",
+      "likes": 211,
+      "retweets": 32,
+      "replies": 36,
+      "views": 19372,
+      "created_at": "2026-08-08T01:58:59Z",
+      "url": "https://x.com/dotey/status/2085908601638445177",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPKijECXoAAZhMA.jpg",
+        "https://pbs.twimg.com/media/HPKiklDWAAALuYb.jpg",
+        "https://pbs.twimg.com/media/HPKimNQXoAAy2v0.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPKijECXoAAZhMA.jpg",
+        "https://pbs.twimg.com/media/HPKiklDWAAALuYb.jpg",
+        "https://pbs.twimg.com/media/HPKimNQXoAAy2v0.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "title": "宝玉：/goal 长跑三要素——目标、验证与停止条件，并用 subagent 省额度",
+      "summary": "讲解 Agent /goal 用法：写清目标、如何验证、停止条件。案例用 Fable 5 优化视频转录 CLI，先建基准再迭代，停止条件设为“自认无优化空间”；主模型只做分析编排验证，具体执行交给 subagent（Opus5）以控制昂贵模型额度。也提到用 worktree 验证新方案是否有数据提升。",
+      "recommend_reason": "把 /goal 从概念落到可复用模板，含额度与停止条件设计，实用度高。",
+      "tags": [
+        "Agent",
+        "goal",
+        "Fable 5",
+        "工作流"
+      ],
+      "score": 69.938,
+      "rank": 6
+    },
+    {
+      "id": "2085906852035064254",
+      "author": "IndieDevHailey",
+      "bio": "独立开发者 · AI Builder\nAI × 全栈 × 增长\nGoViralX｜连接品牌与 KOL\n商务合作 & 品牌增长咨询：hailey_le_1",
+      "text": "这个 AI 视频提示词网站，对视频创作小白太实用了。\n\nCinePrompt 把复杂的电影语言拆成镜头、运镜、灯光、角色、氛围等选项，自动生成专业级 Prompt。\n\n不用研究一堆提示词技巧，只需要像导演一样选想要的画面，直接交给 AI 生成。\n\n让不会拍片的人，也能快速做出更有质感的 AI 视频。 https://t.co/aFzrlRR7qy",
+      "likes": 3,
+      "retweets": 0,
+      "replies": 4,
+      "views": 421,
+      "created_at": "2026-08-08T01:52:02Z",
+      "url": "https://x.com/IndieDevHailey/status/2085906852035064254",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2085906655930429440/vid/avc1/470x270/pQefNMbkklDRQb73.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2085906655930429440/img/bznHO2e-ZE0K1ed5.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "这个 AI 视频提示词网站，对视频创作小白太实用了。\n\nCinePrompt 把复杂的电影语言拆成镜头、运镜、灯光、角色、氛围等选项，自动生成专业级 Prompt。\n\n不用研究一堆提示词技巧，只需要像导演一样选想要的画面，直接交给 AI 生成。\n\n让不会拍片的人，也能快速做出更有质感的 AI 视频。 https://t.co/aFzrlRR7qy",
+      "recommend_reason": "把电影语言结构化成选项式 prompt 生成，降低 AI 视频门槛。",
+      "tags": [
+        "AI视频",
+        "提示词",
+        "CinePrompt"
+      ],
+      "score": 58.403,
+      "rank": 7
+    },
+    {
+      "id": "2085896227657601110",
+      "author": "kumiko_shiraki",
+      "bio": "AIで仕事をやりやすく | Claude/ChatGPT/NotebookLMで仕事環境を整える | 著書３冊(MdN) | 公認会計士(BIG4)→シンガポール在住の経営者＆２児の母",
+      "text": "【GoogleのAI戦略】\n①Google DeepMindトップのデミス・ハサビスが現場を退き、世界最強プログラマーであるジェフ・ディーン＆オリオル・ビニャルスがGoogleを離脱。\n②離脱組は新組織「ループ・ディスカバリー」を立ち上げてAIの自己改善技術（RSI）を追う一方、Googleは商業化（Gemini開発等）を重視する体制へ。\n③歴史的な組織再編により、Googleの研究開発力の低下が指摘される。",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0,
+      "views": 2345,
+      "created_at": "2026-08-08T01:09:49Z",
+      "url": "https://x.com/kumiko_shiraki/status/2085896227657601110",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPKWIm4aEAAkmYz.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPKWIm4aEAAkmYz.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2085235334091268391",
+        "author": "ReHacQ",
+        "name": "ReHacQ 【公式】",
+        "text": "【ReHacQ緊急生配信】\n14:20頃から生配信スタート\n\n今井翔太さんと生配信で GoogleのAI戦略についてお話したいと思います。\n\nご視聴はこちら\nhttps://t.co/WHaRcARTPd https://t.co/tZDKl0R24y",
+        "created_at": "Thu Aug 06 05:23:40 +0000 2026",
+        "url": "https://x.com/ReHacQ/status/2085235334091268391",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HPA-cJHbgAAzuld.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HPA-cJHbgAAzuld.jpg"
+        ]
+      },
+      "title": "日媒梳理 Google AI 人事：Hassabis 退一线，Dean/Vinyals 出走做 RSI",
+      "summary": "① DeepMind 负责人 Demis Hassabis 退出一线，Jeff Dean 与 Oriol Vinyals 离开 Google；② 出走团队成立新组织 Loop Discovery 追逐 AI 自我改进（RSI），Google 则更偏商业化（Gemini 等）；③ 有观点认为历史性重组可能削弱 Google 研发纵深。",
+      "recommend_reason": "把近期 Google 人事变动串成战略叙事，便于对照中英文讨论。",
+      "tags": [
+        "Google",
+        "DeepMind",
+        "组织变动",
+        "RSI"
+      ],
+      "score": 55.454,
+      "rank": 8
+    },
+    {
+      "id": "2085860677990883454",
+      "author": "bcherny",
+      "bio": "Claude Code @anthropicai",
+      "text": "turns out you can get indirect prompt injection to ~0 on unseen attacks if you stack enough layers (model training + input probes + a classifier checking intent). didn't expect that a year ago. auto mode is default in claude code as of next week\n\nhttps://t.co/7KLnIzf6y7 https://t.co/ow4jX2CMZW",
+      "likes": 1220,
+      "retweets": 79,
+      "replies": 85,
+      "views": 96130,
+      "created_at": "2026-08-07T22:48:33Z",
+      "url": "https://x.com/bcherny/status/2085860677990883454",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPJx2Pea8AAXxc-.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPJx2Pea8AAXxc-.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "title": "Claude Code 下周默认 Auto 模式；多层防御可把间接注入压到接近 0",
+      "summary": "Boris Cherny 称通过模型训练 + 输入探针 + 意图分类器等层层叠加，间接 prompt injection 在未见攻击上可压到接近 0；同时宣布 Auto mode 将于下周成为 Claude Code 默认。",
+      "recommend_reason": "既有安全工程可验证结果，又有产品默认策略变更，对日常 Claude Code 用法影响直接。",
+      "tags": [
+        "Claude Code",
+        "安全",
+        "Auto模式",
+        "注入防御"
+      ],
+      "score": 73.745,
+      "rank": 9
+    },
+    {
+      "id": "2085851365553967452",
+      "author": "bindureddy",
+      "bio": "CEO of @abacusai  - a powerful AI Agent and SuperComputer - Build your company on Abacus AI, ex-AWS & Google",
+      "text": "WOW! GOOGLE IS BACK WITH A BANG 🔥\n\nSergey Brin will be leading Google’s AI efforts directly \n\nThis is a very big deal! The dude knows how to make things work \n\nBack to being super bullish on Gemini",
+      "likes": 571,
+      "retweets": 27,
+      "replies": 47,
+      "views": 35234,
+      "created_at": "2026-08-07T22:11:33Z",
+      "url": "https://x.com/bindureddy/status/2085851365553967452",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "Sergey Brin 将直接领导 Google 的 AI 事务。作者认为这是重大信号，并因此更看好 Gemini。",
+      "recommend_reason": "人事级叙事：联合创始人亲自挂帅 AI，值得当作组织信号跟踪。",
+      "tags": [
+        "Google",
+        "Gemini",
+        "Sergey Brin"
+      ],
+      "score": 67.944,
+      "rank": 10
+    },
+    {
+      "id": "2085816970893738381",
+      "author": "ollama",
+      "bio": "https://t.co/1JpLwJ9Bdv",
+      "text": "DeepSeek-V4-Flash-0731 is now fully rolled out as the new default for deepseek-v4-flash on Ollama's cloud.\n\nThis model combines speed, efficiency, and frontier-level performance.\n\nFast: 120+ output tps on Ollama's cloud\nPrivate: zero data retention hosting in US & Europe\nEfficient: generous usage on Ollama's Pro and Max plans for multiple long-running, uninterrupted sessions with your favorite coding harnesses.",
+      "likes": 1443,
+      "retweets": 56,
+      "replies": 51,
+      "views": 102183,
+      "created_at": "2026-08-07T19:54:53Z",
+      "url": "https://x.com/ollama/status/2085816970893738381",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "title": "Ollama Cloud 默认切换 DeepSeek-V4-Flash-0731：120+ tps 与零数据留存",
+      "summary": "Ollama 宣布 DeepSeek-V4-Flash-0731 已全量上线并成为 cloud 上 deepseek-v4-flash 的默认版本。卖点包括 120+ output tps、美欧零数据留存托管，以及 Pro/Max 上更适合长时间 coding harness 会话的额度策略。",
+      "recommend_reason": "本地/云端推理入口的默认模型变更，直接改日常 deepseek-v4-flash 体验与隐私假设。",
+      "tags": [
+        "Ollama",
+        "DeepSeek",
+        "V4 Flash",
+        "云推理"
+      ],
+      "score": 70.373,
+      "rank": 11
+    },
+    {
+      "id": "2085814657223209290",
+      "author": "SpaceXAI",
+      "bio": "",
+      "text": "Use /connect-grok to use an X Premium or SuperGrok subscription with Warp",
+      "likes": 1966,
+      "retweets": 219,
+      "replies": 117,
+      "views": 664729,
+      "created_at": "2026-08-07T19:45:41Z",
+      "url": "https://x.com/SpaceXAI/status/2085814657223209290",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2085814312870776969",
+        "author": "warpdotdev",
+        "name": "Warp",
+        "text": "Run /connect-grok in the Warp Agent CLI to use your X Premium subscription with Warp! https://t.co/16XTL4gkZu",
+        "created_at": "Fri Aug 07 19:44:19 +0000 2026",
+        "url": "https://x.com/warpdotdev/status/2085814312870776969",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2085813525662900224/vid/avc1/422x270/qV-3Zue7GDPTj4TN.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2085813525662900224/img/YdhKXZjrKl5TzesK.jpg"
+        ]
+      },
+      "summary": "在 Warp 里用 /connect-grok，可把 X Premium 或 SuperGrok 订阅接到 Grok 使用。",
+      "recommend_reason": "一句话讲清 Warp × Grok 订阅打通方式。",
+      "tags": [
+        "Grok",
+        "Warp",
+        "订阅"
+      ],
+      "score": 64.115,
+      "rank": 12
+    },
+    {
+      "id": "2085807103382519872",
+      "author": "bcherny",
+      "bio": "Claude Code @anthropicai",
+      "text": "The team and I use Auto mode exclusively, and have been for many months. I couldn't imagine going back to permission prompts! Really excited to get this out to everyone.",
+      "likes": 2382,
+      "retweets": 61,
+      "replies": 179,
+      "views": 280104,
+      "created_at": "2026-08-07T19:15:40Z",
+      "url": "https://x.com/bcherny/status/2085807103382519872",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2085794862608318627",
+        "author": "ClaudeDevs",
+        "name": "ClaudeDevs",
+        "text": "Starting August 14, auto mode will be the default permission mode in Claude Code for Pro, Max, and Team users.\n\nAuto mode reviews shell commands and actions with a separate classifier. In testing, it caught 89% of dangerous commands. Manual approval caught 14%.",
+        "created_at": "Fri Aug 07 18:27:02 +0000 2026",
+        "url": "https://x.com/ClaudeDevs/status/2085794862608318627",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "summary": "Boris 团队已数月只用 Auto mode，几乎无法回到逐条权限确认；很期待把该体验推给所有人。",
+      "recommend_reason": "与默认 Auto 公告互证，说明内部早已完成工作流迁移。",
+      "tags": [
+        "Claude Code",
+        "Auto模式"
+      ],
+      "score": 67.801,
+      "rank": 13
+    },
+    {
+      "id": "2085805983440499060",
+      "author": "gdb",
+      "bio": "President & Co-Founder @OpenAI",
+      "text": "Evaluations of our next major model, Astra, indicate significant capability advancements in agentic coding and cybersecurity.\n\nTeam is doing the safety and security work to make Astra broadly available, and get its advanced cyber capabilities into the hands of defenders:",
+      "likes": 3065,
+      "retweets": 120,
+      "replies": 209,
+      "views": 244500,
+      "created_at": "2026-08-07T19:11:13Z",
+      "url": "https://x.com/gdb/status/2085805983440499060",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2085801349866729975",
+        "author": "OpenAI",
+        "name": "OpenAI",
+        "text": "After evaluating one of our upcoming models, Astra, we're treating it as our first \"critical\" model for cybersecurity under our Preparedness Framework.\n\nThis is a scenario we've planned for, and we're putting additional controls in place to ensure Astra's further development happens safely and securely. \n\nWe're working hard to make Astra broadly available, and get its advanced cyber capabilities into the hands of defenders.\n\nhttps://t.co/9lMIvdeMMJ",
+        "created_at": "Fri Aug 07 18:52:48 +0000 2026",
+        "url": "https://x.com/OpenAI/status/2085801349866729975",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": [],
+        "card": {
+          "name": "summary_large_image",
+          "title": "Responding to the next frontier of critical cyber capabilities",
+          "description": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
+          "image_url": "https://pbs.twimg.com/card_img/2085863628956413953/A7li6HhF?format=jpg&name=800x320_1",
+          "url": "https://t.co/9lMIvdeMMJ",
+          "domain": "openai.com"
+        }
+      },
+      "title": "OpenAI 下一代大模型 Astra：评测显示 agent 编程与网络安全能力显著提升",
+      "summary": "Greg Brockman 称下一代主力模型 Astra 的评测在 agentic coding 与 cybersecurity 上有明显跃升；团队正推进安全与防护工作，目标是广泛可用，并把先进网络能力交到防御方手里。",
+      "recommend_reason": "官方路线图级别信号，锁定 OpenAI 下一阶段能力重心在 agent 编程与网安。",
+      "tags": [
+        "OpenAI",
+        "Astra",
+        "Agent",
+        "网络安全"
+      ],
+      "score": 70.549,
+      "rank": 14
+    }
+  ],
+  "generated_at": "2026-08-08T07:58:01Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 14,
+    "last_batch_added": 14,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
