@@ -9,6 +9,489 @@
   },
   "items": [
     {
+      "id": "2086482516861722628",
+      "author": "jxnlco",
+      "bio": "",
+      "text": "codex does not have a /loop command, but if you just send that string, it knows what to do",
+      "likes": 3,
+      "retweets": null,
+      "replies": null,
+      "views": "404",
+      "created_at": "2026-08-09T15:59:31Z",
+      "url": "https://x.com/i/status/2086482516861722628",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "Codex 没有 /loop 命令，但如果你直接发送这个字符串，它知道该怎么做。",
+      "recommend_reason": "极短的 Codex 使用冷知识：无正式 slash 也能触发循环式行为，值得自己验证边界。",
+      "tags": [
+        "Codex",
+        "技巧",
+        "Agent",
+        "工作流"
+      ],
+      "score": 53.038,
+      "rank": 1
+    },
+    {
+      "id": "2086450233765175399",
+      "author": "xiaoxiaodong01",
+      "bio": "",
+      "text": "GPT2 x  阶梯 x 里程碑 x 数字 x 美学提示词\n\n适合各种倒计时、纪念日的一个海报\n扁平设计\n留白都很合适\n\n自由安排后续佐料， 解锁各种简约但耐看的可能\n\n欢迎交作业，如下是元提示词， 可自行添加佐料：\n\n```\n围绕任意具体主题内容建立具有纪念仪式感的几何海报：以强中轴组织阅读，让画面约一半保持明亮、松弛的浅色留白，主题标题悬置其间；将主题最具识别度的简短符号放大为压倒性的几何粗体视觉锚点，使它从留白区向下跨入一座由多个水平色块搭成的透视纪念台，纪念台由靠近视觉中心的窄顶向下逐级扩展并延伸出边界，形成仰望式尺度、稳定重心与由上至下的仪式性阅读路径。巨大符号与台体共享色彩和垂直轴线，既像文字又像建筑，二者不可分离；台体用明暗相邻的宽条模块分层，每层边缘清晰，局部以柔和暗带压住接缝，保持平面矢量的简练，同时产生克制的台阶深度。标题采用端正、低笔画反差的中文无衬线字，字重中等偏粗、字距舒展；副标题更细、更小、明显加宽字距并分行居中；巨大符号使用厚重几何骨架、方整端部与紧凑内部空间，成为远距离第一读。台体中段嵌入由主题提炼的极简浅色剪影徽记，其下排列纤细日期或编号，再以两行疏朗短句形成节奏停顿；角落与底缘只保留低对比的小型署名信息，使外围信息服从中央纪念结构。由主题语义决定全部具体色相，不预设固定色名：最亮、最低饱和的主题浅色承担大面积背景，较深且高饱和的主题核心色承担巨大符号与纪念台，核心色在暗顶、稳定中间调和更明亮前景之间作同色系层级递进；文字使用核心色的深色版本或背景浅色反白，小面积高明度近似色圆形点缀悬于台体边缘，另一枚更大、更淡的圆形光斑从留白边缘被裁切，以不超过少量面积的柔和暖差平衡硬朗几何。背景呈高明度漫射光与细密纸纤维触感，浅色区域铺均匀微粒，在留白边缘和色块交界叠加轻薄喷点云雾；印刷色块保留轻微吸墨与透明叠色，轮廓仍平整清楚，不形成污渍或强烈破损。前景可让主题派生的简化徽记以低透明度、大尺度、局部裁切的方式沉入台体，像透过彩色薄层隐约显现，增强纵深却不争夺巨大符号。最终保持浅色留白、巨大符号、透视台体约为半数、近半数与极少点缀的面积秩序，整体明亮温和而庄重；若巨大符号与台体分家、外围信息变重、纹理覆盖轮廓或装饰增多，都会破坏这份纪念碑式凝聚力。\n```",
+      "likes": 5,
+      "retweets": null,
+      "replies": null,
+      "views": "579",
+      "created_at": "2026-08-09T13:51:14Z",
+      "url": "https://x.com/i/status/2086450233765175399",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPSPA7-boAA5rOb.jpg",
+        "https://pbs.twimg.com/media/HPSPCYQbUAAJ7dM.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPSPA7-boAA5rOb.jpg",
+        "https://pbs.twimg.com/media/HPSPCYQbUAAJ7dM.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "xiaoxiaodong01 给出一套适合倒计时/纪念日的扁平海报元提示词：强中轴、大面积浅色留白、超大几何符号压入透视「纪念台」，台体用同色系色块分层形成仰望仪式感；标题、副标题、日期与小面积点缀服从中央结构，色相由主题语义派生而非写死色名。可再加「佐料」做变体。",
+      "recommend_reason": "可复用的视觉系统提示词：约束比口号细，适合做活动/里程碑海报的稳定母版。",
+      "tags": [
+        "提示词",
+        "图像生成",
+        "设计系统",
+        "里程碑"
+      ],
+      "score": 60.377,
+      "title": "GPT 图像提示词：阶梯里程碑纪念海报系统",
+      "rank": 2
+    },
+    {
+      "id": "2086444932915491200",
+      "author": "VigoCreativeAI",
+      "bio": "",
+      "text": "VISUAL OS 015 — Single Word Studies\n\nThe quietest system in the series. One word, one light, one subject.\n\nRESONATE — cellist, room 03 / take 07\nSTEADY — lamp keeper, workshop 12\nUNFOLD — orchid, specimen 07\nFORMED — potter, night studio 04\n\nLocked:\n– near-black plaster backdrop, heavy vignette, no readable background\n– one acid-yellow verb, bold caps, centered, nothing else at that size\n– a thin yellow rectangle around it with exactly one edge broken open\n– a single hairline glyph sitting inside that break\n– subject centered in the lower half, chiaroscuro; warmth only on skin, wood, clay, flame\n– one letterspaced yellow caption at the foot: a room and a number\n– at least half the frame stays empty black\n\nSwaps: subject / one verb / glyph / room-and-number caption / which edge breaks\n\nThree people and one orchid, all doing the same thing: holding still on purpose.\n\nPrompt ↓",
+      "likes": 2,
+      "retweets": null,
+      "replies": null,
+      "views": "205",
+      "created_at": "2026-08-09T13:30:10Z",
+      "url": "https://x.com/i/status/2086444932915491200",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPSKmyWXUAAQiY1.jpg",
+        "https://pbs.twimg.com/media/HPSKm0gWMAAWIyK.jpg",
+        "https://pbs.twimg.com/media/HPSKm4kW8AAufg0.jpg",
+        "https://pbs.twimg.com/media/HPSKmzgXEAACz5K.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPSKmyWXUAAQiY1.jpg",
+        "https://pbs.twimg.com/media/HPSKm0gWMAAWIyK.jpg",
+        "https://pbs.twimg.com/media/HPSKm4kW8AAufg0.jpg",
+        "https://pbs.twimg.com/media/HPSKmzgXEAACz5K.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "一套极克制的视觉系统：近黑灰泥背景+重暗角；画面中心只有一个酸黄色大写动词（粗体），外框细黄矩形且恰有一边断开，断口内嵌一条发丝级符号；主体居中偏下、明暗对照，暖色只落在皮肤/木/陶/火焰；底部一行字距拉开的黄字房间编号说明；至少半幅保持空黑。可替换：主体、动词、符号、房间编号、哪条边断开。示例词：RESONATE / STEADY / UNFOLD / FORMED。",
+      "recommend_reason": "高质量「可锁定变量」的视觉 OS：比泛泛 prompt dump 更适合沉淀成可迁移的风格模块。",
+      "tags": [
+        "提示词",
+        "视觉系统",
+        "图像生成",
+        "设计",
+        "创意"
+      ],
+      "score": 59.638,
+      "title": "VISUAL OS 015：一字一光的 Single Word Studies",
+      "rank": 3
+    },
+    {
+      "id": "2086441848021893401",
+      "author": "IndieDevHailey",
+      "bio": "",
+      "text": "这个牛啊，AI现在真的能直接上手你的iPhone了。\n\n挺有意思的项目叫phone-harness，开源的。\n\n不是通过App接口，也不是越狱后装插件，就是正常连上电脑，然后Claude就能像你一样点开任意App、滑动、输入、确认。\n\n演示里它自己完成了叫车买咖啡的全流程，从打开Waymo到最后点下Request ride，中间还问了确认。看着挺顺的。\n\n这种把手机当成AI的手的方式一旦普及，\n很多以前觉得必须人来点的事情，其实都可以外包了。\n\n当然也带来新问题：权限、误操作、隐私……这些后面肯定得慢慢规范。",
+      "likes": 22,
+      "retweets": null,
+      "replies": null,
+      "views": "2875",
+      "created_at": "2026-08-09T13:17:55Z",
+      "url": "https://x.com/i/status/2086441848021893401",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2086441590550306816/vid/avc1/396x270/xQayEBgqnFLunZ9C.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2086441590550306816/img/hDE7McDuRb-omS15.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "IndieDevHailey 介绍开源项目 phone-harness：不靠 App 接口、也不需越狱，把 iPhone 正常连上电脑后，Claude 就能点开任意 App、滑动、输入与确认。演示里它完成了从打开 Waymo 到下单叫车的全流程，中间还会向用户要确认。作者认为「把手机当 AI 的手」一旦普及，很多原本必须人手点的事都能外包，但权限、误操作与隐私仍需后续规范。",
+      "recommend_reason": "移动端 agent 控制的可落地样本：路径清楚、有完整演示，也点出了权限与隐私的下一道门槛。",
+      "tags": [
+        "Agent",
+        "iPhone",
+        "开源",
+        "手机操控",
+        "Claude"
+      ],
+      "score": 62.891,
+      "title": "开源 phone-harness：Claude 可像真人一样操作 iPhone",
+      "rank": 4
+    },
+    {
+      "id": "2086440558650937635",
+      "author": "turingou",
+      "bio": "",
+      "text": "我得找一种方法把经年累月的个人项目和 todo 从 things3 彻底迁移到 codex 上来，自从开始用 agents 管理个人和公司事务后，这些日程完全脱节了。",
+      "likes": 22,
+      "retweets": null,
+      "replies": null,
+      "views": "8248",
+      "created_at": "2026-08-09T13:12:48Z",
+      "url": "https://x.com/i/status/2086440558650937635",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "我得找一种方法把经年累月的个人项目和 todo 从 things3 彻底迁移到 codex 上来，自从开始用 agents 管理个人和公司事务后，这些日程完全脱节了。",
+      "recommend_reason": "Agent 接管事务后的真实痛点：旧待办系统与 agent 工作台脱节，迁移本身成了新项目。",
+      "tags": [
+        "Codex",
+        "Agent",
+        "待办",
+        "生产力",
+        "迁移"
+      ],
+      "score": 54.893,
+      "rank": 5
+    },
+    {
+      "id": "2086432245066461185",
+      "author": "abskoop",
+      "bio": "",
+      "text": "Google 官方也搞 Agent Skills 仓库 了\n\n把大量产品操作流程做成 Agent Skills\n\n现在已经覆盖了 Google Ads、Gemini、GKE 等生产工具\n\n不错不错😂 https://t.co/aYDX5f723V",
+      "likes": 25,
+      "retweets": null,
+      "replies": null,
+      "views": "6747",
+      "created_at": "2026-08-09T12:39:45Z",
+      "url": "https://x.com/i/status/2086432245066461185",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPR5_5Za0AAOGg6.jpg",
+        "https://pbs.twimg.com/media/HPR6BXRaIAAbtQD.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPR5_5Za0AAOGg6.jpg",
+        "https://pbs.twimg.com/media/HPR6BXRaIAAbtQD.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "Google 官方也搞 Agent Skills 仓库 了\n\n把大量产品操作流程做成 Agent Skills\n\n现在已经覆盖了 Google Ads、Gemini、GKE 等生产工具\n\n不错不错😂",
+      "recommend_reason": "大厂把产品操作流程沉淀成可调用 Skill，说明 Agent Skills 正在从社区约定走向官方交付形态。",
+      "tags": [
+        "Google",
+        "Agent Skills",
+        "Gemini",
+        "GKE",
+        "Ads"
+      ],
+      "score": 60.805,
+      "rank": 6
+    },
+    {
+      "id": "2086420147104030826",
+      "author": "abskoop",
+      "bio": "",
+      "text": "腾讯做的这个团队记忆 Tencent Agent Memory\n\n可以让团队里的多个 AI Agent 共享记忆\n\n那多个 Agent 共用一份团队记忆后，如果写进去的是错误信息怎么办？ https://t.co/6IDpRLnYVN",
+      "likes": 7,
+      "retweets": null,
+      "replies": null,
+      "views": "8024",
+      "created_at": "2026-08-09T11:51:41Z",
+      "url": "https://x.com/i/status/2086420147104030826",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPRz9bxakAARpMc.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPRz9bxakAARpMc.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "腾讯做的这个团队记忆 Tencent Agent Memory\n\n可以让团队里的多个 AI Agent 共享记忆\n\n那多个 Agent 共用一份团队记忆后，如果写进去的是错误信息怎么办？",
+      "recommend_reason": "多 Agent 共享记忆的产品信号，同时把「错误记忆如何治理」这个关键问题直接抛出来。",
+      "tags": [
+        "腾讯",
+        "Agent",
+        "记忆",
+        "协作"
+      ],
+      "score": 57.078,
+      "rank": 7
+    },
+    {
+      "id": "2086384663355081213",
+      "author": "wshuyi",
+      "bio": "Teach AI for Science on https://t.co/EjMt9Lde9B\n\nYoutube: https://t.co/OofaON17z1\n\nSubstack: https://t.co/IIleagZfwW\n\n知识星球：https://t.co/kyzMiDmFWb",
+      "text": "用 Cola + Deepseek v4 flash 好几天了，真好用，但是总有遗憾：Deepseek 非多模态，不能看图，少了很多能力啊。但是今天突然发现，即便模型选中 Deepseek v4 flash ，也依然有识图能力。问了 Cola 才知道，原来背后用了 Gemini 3.1 Flash Lite ，好搭配😄👍 https://t.co/IottFhMtAV",
+      "likes": 18,
+      "retweets": 1,
+      "replies": 5,
+      "views": 7636,
+      "created_at": "2026-08-09T09:30:41Z",
+      "url": "https://x.com/wshuyi/status/2086384663355081213",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPRTxMRawAAmD9p.jpg",
+        "https://pbs.twimg.com/media/HPRTxMLbEAEwms3.jpg",
+        "https://pbs.twimg.com/media/HPRTxMPbsAA-U3a.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPRTxMRawAAmD9p.jpg",
+        "https://pbs.twimg.com/media/HPRTxMLbEAEwms3.jpg",
+        "https://pbs.twimg.com/media/HPRTxMPbsAA-U3a.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "用 Cola + Deepseek v4 flash 好几天了，真好用，但是总有遗憾：Deepseek 非多模态，不能看图，少了很多能力啊。但是今天突然发现，即便模型选中 Deepseek v4 flash ，也依然有识图能力。问了 Cola 才知道，原来背后用了 Gemini 3.1 Flash Lite ，好搭配😄👍",
+      "recommend_reason": "客户端/路由层用强多模态补弱模型短板的实操细节，选型时别只看「当前模型名」。",
+      "tags": [
+        "DeepSeek",
+        "Gemini",
+        "Cola",
+        "多模态",
+        "路由"
+      ],
+      "score": 59.942,
+      "rank": 8
+    },
+    {
+      "id": "2086378956010528859",
+      "author": "dingyi",
+      "bio": "promote your product  ‣ dingyi@me.com\nnewsletter ‣ https://t.co/q1JG1yCzdb\nrefine your startup ‣ https://t.co/FfUYboxOr5\nnewest product ‣ https://t.co/cP6NQ3keo5",
+      "text": "如果收到这种邮件也要慎点，伪装成是 OpenAI 的邮箱，域名是三天前注册的，打开链接就要你授权 X 账号。 https://t.co/pSELsKH0Vq",
+      "likes": 17,
+      "retweets": 0,
+      "replies": 34,
+      "views": 8560,
+      "created_at": "2026-08-09T09:08:00Z",
+      "url": "https://x.com/dingyi/status/2086378956010528859",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPROU0rbkAAONDC.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPROU0rbkAAONDC.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "如果收到这种邮件也要慎点，伪装成是 OpenAI 的邮箱，域名是三天前注册的，打开链接就要你授权 X 账号。",
+      "recommend_reason": "针对 AI 用户的社工钓鱼提醒：新注册域名 + 仿 OpenAI + 诱导授权 X，值得当班提示。",
+      "tags": [
+        "安全",
+        "钓鱼",
+        "OpenAI",
+        "社工",
+        "账号"
+      ],
+      "score": 58.92,
+      "rank": 9
+    },
+    {
+      "id": "2086377346563748343",
+      "author": "LufzzLiz",
+      "bio": "Al 创作者•LLM 爱好者•Al Agent 构建者\nAI 生视频•AI 生图\n输出有温度的洞察。 致力于降低 AI 使用门槛，让更多人受益。\n某大厂架构师-多模态、模型私有化领域\n企业 AI方案设计• FDE\n关注AI产品、AI结合教育、艺术创作领域\n📮: lanshulan007@gmail.com",
+      "text": "事实证明：免费才是最贵的，羊毛不建议随便薅。\n大家目前新装的软件，agent，开源代码，skill 等都建议用之前，让codex排查下，短周期内监控下他的活动，有可疑接口调用一定要当心：劫持流量，写恶意hook的也要注意\n\n权限授权不能太随意，拿不定主意的问codex\n现在AI 都太猛了，AI 安全问题需要持续重视",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 4,
+      "views": 1036,
+      "created_at": "2026-08-09T09:01:37Z",
+      "url": "https://x.com/LufzzLiz/status/2086377346563748343",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2086321744982528258",
+        "author": "berryxia",
+        "name": "Berryxia.AI",
+        "text": "TMD，我一般不爆粗口的。\n要是爆了，真的可能就是忍不了了。\n\n这Mirasim 软件，到底是谁搞的呢？不仅仅是偷Skills，这么简单。\n\n你看都干的啥事儿，和「木马病毒」有啥区别呢？\n昨天看大家有人推荐就搞了一下，发了一条推文（现已删），大家赶紧也删除卸载吧，别整这个垃圾玩意了。 https://t.co/N0K5eDyAXe",
+        "created_at": "Sun Aug 09 05:20:40 +0000 2026",
+        "url": "https://x.com/berryxia/status/2086321744982528258",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HPQZ3XkaoAEd3eJ.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HPQZ3XkaoAEd3eJ.jpg"
+        ]
+      },
+      "summary": "事实证明：免费才是最贵的，羊毛不建议随便薅。\n大家目前新装的软件，agent，开源代码，skill 等都建议用之前，让codex排查下，短周期内监控下他的活动，有可疑接口调用一定要当心：劫持流量，写恶意hook的也要注意\n\n权限授权不能太随意，拿不定主意的问codex\n现在AI 都太猛了，AI 安全问题需要持续重视",
+      "recommend_reason": "Agent/Skill 安装潮下的安全底线：先审计再授权，比「白嫖到最后」便宜。",
+      "tags": [
+        "安全",
+        "Skill",
+        "Agent",
+        "权限",
+        "供应链"
+      ],
+      "score": 50.608,
+      "rank": 10
+    },
+    {
+      "id": "2086376944661348813",
+      "author": "kumiko_shiraki",
+      "bio": "AIで仕事をやりやすく | Claude/ChatGPT/NotebookLMで仕事環境を整える | 著書３冊(MdN) | 公認会計士(BIG4)→シンガポール在住の経営者＆２児の母",
+      "text": "【図解用YAML】YouTubeのリンクから図解ができるの便利すぎる…「Gemini Notebook」のインフォグラフィック用プロンプトはこちら↓ https://t.co/TPvCYdvWsK",
+      "likes": 23,
+      "retweets": 1,
+      "replies": 1,
+      "views": 4253,
+      "created_at": "2026-08-09T09:00:01Z",
+      "url": "https://x.com/kumiko_shiraki/status/2086376944661348813",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPPnNR1bAAAd2BT.jpg",
+        "https://pbs.twimg.com/media/HPPnNR1bsAEttKp.jpg",
+        "https://pbs.twimg.com/media/HPPnNRzbIAAbnAr.jpg",
+        "https://pbs.twimg.com/media/HPPnNR1a4AAYSgg.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPPnNR1bAAAd2BT.jpg",
+        "https://pbs.twimg.com/media/HPPnNR1bsAEttKp.jpg",
+        "https://pbs.twimg.com/media/HPPnNRzbIAAbnAr.jpg",
+        "https://pbs.twimg.com/media/HPPnNR1a4AAYSgg.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "【图解用 YAML】从 YouTube 链接直接出图解太方便了……「Gemini Notebook」的信息图提示词在这里↓",
+      "recommend_reason": "视频→结构化图解的低摩擦路径，适合做学习笔记/内容二次生产的轻工作流。",
+      "tags": [
+        "Gemini",
+        "Gemini Notebook",
+        "信息图",
+        "YouTube",
+        "提示词"
+      ],
+      "score": 61.168,
+      "rank": 11
+    },
+    {
+      "id": "2086368896127541366",
+      "author": "huangyun_122",
+      "bio": "Every great AI journey starts with a single Prompt\nvx: huangyun_122",
+      "text": "Skill 装多难免中招。我常用“堡垒机”先过一遍，UU远程/ssh 过去，opencode + deepseek 粗筛，试用\n\n走一遍测试，开发，部署的 CI/CD 流水线，提高下安全系数",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "views": 1649,
+      "created_at": "2026-08-09T08:28:02Z",
+      "url": "https://x.com/huangyun_122/status/2086368896127541366",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2086321744982528258",
+        "author": "berryxia",
+        "name": "Berryxia.AI",
+        "text": "TMD，我一般不爆粗口的。\n要是爆了，真的可能就是忍不了了。\n\n这Mirasim 软件，到底是谁搞的呢？不仅仅是偷Skills，这么简单。\n\n你看都干的啥事儿，和「木马病毒」有啥区别呢？\n昨天看大家有人推荐就搞了一下，发了一条推文（现已删），大家赶紧也删除卸载吧，别整这个垃圾玩意了。 https://t.co/N0K5eDyAXe",
+        "created_at": "Sun Aug 09 05:20:40 +0000 2026",
+        "url": "https://x.com/berryxia/status/2086321744982528258",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HPQZ3XkaoAEd3eJ.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HPQZ3XkaoAEd3eJ.jpg"
+        ]
+      },
+      "summary": "Skill 装多难免中招。我常用“堡垒机”先过一遍，UU远程/ssh 过去，opencode + deepseek 粗筛，试用\n\n走一遍测试，开发，部署的 CI/CD 流水线，提高下安全系数",
+      "recommend_reason": "可操作的 Skill 沙箱习惯：隔离机 + 粗筛 + 完整流水线试跑，比本机直接装安心。",
+      "tags": [
+        "安全",
+        "Skill",
+        "沙箱",
+        "OpenCode",
+        "CI/CD"
+      ],
+      "score": 48.834,
+      "rank": 12
+    },
+    {
+      "id": "2086364812326670454",
+      "author": "gdb",
+      "bio": "President & Co-Founder @OpenAI",
+      "text": "ChatGPT Finance for helping you save money:",
+      "likes": 735,
+      "retweets": 25,
+      "replies": 90,
+      "views": 115030,
+      "created_at": "2026-08-09T08:11:48Z",
+      "url": "https://x.com/gdb/status/2086364812326670454",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2086241939637317896",
+        "author": "trevin",
+        "name": "Trevin Chow",
+        "text": "Used ChatGPT finance just now and asked it to find phantom subscriptions. It unearthed $550 a year of random things I didn’t realize I was paying for and thought I canceled. Thanks @OpenAI and whoever is on the Finance product.",
+        "created_at": "Sun Aug 09 00:03:33 +0000 2026",
+        "url": "https://x.com/trevin/status/2086241939637317896",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "summary": "ChatGPT Finance 能帮你省钱：\n（引用 Trevin Chow）刚用了 ChatGPT finance，让它找「幽灵订阅」——结果挖出一年大约 550 美元自己以为已经取消、其实还在扣的费用。谢谢 OpenAI 和 Finance 产品团队。",
+      "recommend_reason": "官方侧点名 + 真实用户案例，说明 ChatGPT Finance 已能做订阅审计这类高频钱袋子场景。",
+      "tags": [
+        "ChatGPT",
+        "Finance",
+        "OpenAI",
+        "订阅",
+        "产品"
+      ],
+      "score": 60.688,
+      "rank": 13
+    },
+    {
+      "id": "2086350996452909182",
+      "author": "yetone",
+      "bio": "Built: avante.nvim\n\nBuilding:\n\nhttps://t.co/pfq9srNgsd\n\nhttps://t.co/fpGnPR5t9C\n\nhttps://t.co/cBN1yzJPIG\n\nhttps://t.co/6ERz2HMx0f\n\nhttps://t.co/QhQRLD4zQo\n\nhttps://t.co/ln9CVeagWC",
+      "text": "我抛弃了我打磨了好久的 Tmux-based Agent  Teams 使用了几天 Herdr，我觉得 Herdr 之于大家最爽的可能就是终于可以使用鼠标来操控 Tmux 这类 terminal multiplexer 的所有功能了，虽然我熟知 Tmux 的快捷键，但是用鼠标在 herdr 上创建 session, window, pane 以及操控设置页面的那一刻还是觉得有点爽。\n\nHerdr 其他的 Agent Team Orchestractor，这都是 Tmux 最基本的玩法了。可能它唯一的好处就是提供了一个开箱即用的配置吧。",
+      "likes": 172,
+      "retweets": 10,
+      "replies": 54,
+      "views": 24219,
+      "created_at": "2026-08-09T07:16:54Z",
+      "url": "https://x.com/yetone/status/2086350996452909182",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "yetone 用了几天 Herdr 后，放下自己打磨很久的 Tmux-based Agent Teams。对他而言，Herdr 最爽的是终于能用鼠标创建/管理 Tmux 的 session、window、pane 和设置页；至于 Agent Team 编排，本质上还是 Tmux 基本玩法，开箱即用配置是另一加分项。",
+      "recommend_reason": "一线 agent 编排用户的真实取舍：复杂快捷键体系未必赢过「鼠标也能管 Tmux」的体验门槛。",
+      "tags": [
+        "Agent",
+        "Tmux",
+        "Herdr",
+        "开发工具",
+        "编排"
+      ],
+      "score": 62.127,
+      "title": "从自研 Tmux Agent Teams 切到 Herdr：鼠标操控才是爽点",
+      "rank": 14
+    },
+    {
       "id": "2086284223288385664",
       "author": "IndieDevHailey",
       "bio": "",
@@ -38,7 +521,7 @@
         "Rust"
       ],
       "score": 61.416,
-      "rank": 1
+      "rank": 15
     },
     {
       "id": "2086222664105115971",
@@ -85,7 +568,7 @@
       ],
       "score": 63.367,
       "title": "Seedance 2.5 对比 2.0：手持瑕疵感把 AI 味压下去了",
-      "rank": 2
+      "rank": 16
     },
     {
       "id": "2086191354221391899",
@@ -121,7 +604,7 @@
       ],
       "score": 62.718,
       "title": "RA2 iOS 版技术账本：Chrono Divide 引擎 + Swift 壳 + 多模型长跑",
-      "rank": 3
+      "rank": 17
     },
     {
       "id": "2086191229801275679",
@@ -154,7 +637,7 @@
       ],
       "score": 71.23,
       "title": "无源码把红色警戒2搬上iPhone：Gemini试玩找bug、GPT-5.6 Sol重做AI",
-      "rank": 4
+      "rank": 18
     },
     {
       "id": "2086188036493344823",
@@ -193,7 +676,7 @@
       ],
       "score": 71.201,
       "title": "OpenAI 工程师：GPT-5.6 Sol 可嵌 CC harness，并重置付费用量",
-      "rank": 5
+      "rank": 19
     },
     {
       "id": "2086153676113281228",
@@ -234,7 +717,7 @@
         "Agent"
       ],
       "score": 65.354,
-      "rank": 6
+      "rank": 20
     },
     {
       "id": "2086147506363322849",
@@ -261,7 +744,7 @@
         "OpenAI"
       ],
       "score": 65.931,
-      "rank": 7
+      "rank": 21
     },
     {
       "id": "2086144247388905833",
@@ -306,7 +789,7 @@
       ],
       "score": 68.925,
       "title": "先改原型再改功能：Claude Design + Baoyu Skill 保持 UI 与实现同步",
-      "rank": 8
+      "rank": 22
     },
     {
       "id": "2086133240273031290",
@@ -339,7 +822,7 @@
       ],
       "score": 64.175,
       "title": "浏览器内可交互：Opus 5 做 Wolfram Physics「Notable Universes」可视化",
-      "rank": 9
+      "rank": 23
     },
     {
       "id": "2086127247077843282",
@@ -384,7 +867,7 @@
         "xAI"
       ],
       "score": 63.452,
-      "rank": 10
+      "rank": 24
     },
     {
       "id": "2086120804170023199",
@@ -413,7 +896,7 @@
       ],
       "score": 61.249,
       "title": "给 Claude 的文件系统就是上下文工程：五目录 + 流程编号",
-      "rank": 11
+      "rank": 25
     },
     {
       "id": "2086120387700732167",
@@ -445,10 +928,10 @@
         "Grok"
       ],
       "score": 62.309,
-      "rank": 12
+      "rank": 26
     }
   ],
-  "generated_at": "2026-08-09T04:07:17Z",
+  "generated_at": "2026-08-09T16:05:21Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -456,11 +939,11 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 12,
-    "last_batch_added": 12,
+    "actual_count": 26,
+    "last_batch_added": 14,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
