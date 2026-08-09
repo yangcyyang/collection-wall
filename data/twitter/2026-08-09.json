@@ -1,0 +1,475 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-09",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2086284223288385664",
+      "author": "IndieDevHailey",
+      "bio": "",
+      "text": "Obscura，Rust 写的开源 Headless 浏览器，专为 AI Agent 和爬虫打造。\n\n内存仅 30MB，启动几乎秒开，支持截图、录屏、导出 PDF，还针对自动化场景优化。\n\n无需 Chromium，直接兼容 Puppeteer 和 Playwright。\n轻到离谱。\n\n大规模网页自动化，终于不用再扛 Chrome 那坨了。 https://t.co/T3xO969WSy",
+      "likes": 4,
+      "retweets": null,
+      "replies": null,
+      "views": "304",
+      "created_at": "2026-08-09T02:51:34Z",
+      "url": "https://x.com/i/status/2086284223288385664",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2086284081139175424/vid/avc1/454x270/MSoCSbG-leTBI-BS.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2086284081139175424/img/9QzbAtxzFkKAeHaR.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "Obscura，Rust 写的开源 Headless 浏览器，专为 AI Agent 和爬虫打造。\n\n内存仅 30MB，启动几乎秒开，支持截图、录屏、导出 PDF，还针对自动化场景优化。\n\n无需 Chromium，直接兼容 Puppeteer 和 Playwright。\n轻到离谱。\n\n大规模网页自动化，终于不用再扛 Chrome 那坨了。",
+      "recommend_reason": "给 agent 自动化备选运行时：轻量、兼容常见协议，值得跟进是否真能替代 Chromium 栈。",
+      "tags": [
+        "Headless",
+        "浏览器",
+        "Agent",
+        "开源",
+        "Rust"
+      ],
+      "score": 61.416,
+      "rank": 1
+    },
+    {
+      "id": "2086222664105115971",
+      "author": "gkxspace",
+      "bio": "",
+      "text": "Seedance 2.5 这真实感是真吓到我了，和 2.0 放一起对比，AI 味直接没了\n\n最先受益的就是带货和 UGC 广告，不想露脸的也可以直接搞口播号了，30 秒一条直出，连对白和环境音都是同一次生成的。\n\n看这条视频：\n同一个提示词，右边 2.0 是精修脸 + 摆 pose，一眼 AI。\n左边 2.5，镜头手持晃着、对焦慢半拍、构图还歪的，摘眼镜、比手势，完全是随手拍 vlog 的质感。\n\n我之前专门研究过怎么让 AI 视频显得真，要在提示词里故意写瑕疵：\n手持晃动、曝光变化、DV 噪点，越不完美越像真的。\n\n2.5 好像直接把这层做进模型里了。\n\nSeedance 2.5 已经在 Higgsfield 上线，并且给了 33 天无限额度。\n\n以后刷到的真人实拍，搞不好一半都是它出的😅",
+      "likes": 30,
+      "retweets": null,
+      "replies": null,
+      "views": "5101",
+      "created_at": "2026-08-08T22:46:57Z",
+      "url": "https://x.com/i/status/2086222664105115971",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2086220293681647616/vid/avc1/336x270/jik5cPqhCq3a-mFz.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2086220293681647616/img/HSqK1dHoWWmdlBHe.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2085770109889737213",
+        "author": "higgsfield",
+        "name": "Higgsfield AI 🧩",
+        "text": "33 Days of Unlimited Seedance 2.5\n\nSeedance 2.5 is LIVE on Higgsfield today.\n\nThe most capable video model yet, with 30-second scenes in a single pass, 50 references and production-ready editing.\n\nZero credit cost for 33 days. Limited-time offer. https://t.co/ldITD8TCHX",
+        "created_at": "Fri Aug 07 16:48:40 +0000 2026",
+        "url": "https://x.com/higgsfield/status/2085770109889737213",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2085769904922488834/vid/avc1/480x270/5y3LN2bcybknjxQb.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2085769904922488834/img/rSdw3S9FWQrq4Hi_.jpg"
+        ]
+      },
+      "summary": "作者同提示词对比：2.0 精修脸+摆拍一眼假；2.5 手持晃动、对焦慢半拍、构图微歪，更像随手 vlog。认为模型把「故意写瑕疵」内化了；30 秒直出含对白与环境音，适合带货/UGC；并提到 Higgsfield 上线与 33 天无限额度。",
+      "recommend_reason": "有前后对比标准的模型体感，比纯广告更能判断视频模型真实感跃迁。",
+      "tags": [
+        "Seedance",
+        "AI视频",
+        "UGC",
+        "Higgsfield",
+        "真实感"
+      ],
+      "score": 63.367,
+      "title": "Seedance 2.5 对比 2.0：手持瑕疵感把 AI 味压下去了",
+      "rank": 2
+    },
+    {
+      "id": "2086191354221391899",
+      "author": "ammaar",
+      "bio": "Lead Product + Design @GoogleAIStudio // Exploring AI and sharing everything I learn // My views • 🇵🇰 🇺🇸",
+      "text": "https://t.co/7YrLvfQyQ4\n\nRA2's source was never released so there's nothing to compile. This runs on Chrono Divide, which is Alexandru Ciucă's rebuild of the game from scratch in TypeScript. He's been at it for years. It's proprietary and he's never open sourced it, so I asked him before putting any of this out.\n\nI came to it through a Chinese fork, which is why the entire UI was in Chinese when I started.\n\nAbout 127k lines of the engine aren't mine. What I did: the Swift/WKWebView shell, the English pass, Yuri's Revenge, touch controls, and the AI, which builds on Supalosa's bot.\n\nFable 5 did the long agentic runs. Gemini 3.6 Flash can drive a computer, so I had it play skirmishes for hours and report back. That's how most of the AI bugs surfaced. It also got through 9,690 strings of translation. GPT-5.6 Sol rebuilt the AI off EA's released RA1 and Generals source.\n\nNon-commercial and unaffiliated with EA. You need your own copy of the game :) - hope it brings back some childhood memories!",
+      "likes": 33,
+      "retweets": 1,
+      "replies": 6,
+      "views": 1822,
+      "created_at": "2026-08-08T20:42:33Z",
+      "url": "https://x.com/ammaar/status/2086191354221391899",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "GitHub - ammaarreshi/RedAlert2-Mac-iOS-iPad: Red Alert 2 + Yuri's Revenge running natively on...",
+        "description": "Red Alert 2 + Yuri's Revenge running natively on iPhone and iPad. EA never released RA2's source, so this builds on Chronodivide's from-scratch TypeScript engine (via RA2WEB...",
+        "image_url": "https://pbs.twimg.com/card_img/2086191358109478912/N-LiTZL4?format=jpg&name=600x600",
+        "url": "http://github.com/ammaarreshi/RedAlert2-Mac-iOS-iPad",
+        "domain": "github.com"
+      },
+      "quoted_tweet": null,
+      "summary": "跟进帖拆解实现：底层是 Alexandru Ciucă 用 TypeScript 重写的 Chrono Divide（约 12.7 万行引擎非作者原创），作者补了 Swift/WKWebView 壳、英文化、尤里的复仇、触控与 AI；Fable 5 做长程 agent 跑测，Gemini 负责试玩与近万条翻译，Sol 参考 RA1/Generals 源码重建 AI；非商业、需自备正版。",
+      "recommend_reason": "比官宣帖更关键：说清哪些是自研、哪些靠 agent 长跑与他人引擎，可当多模型协作案例对照读。",
+      "tags": [
+        "Agent",
+        "Fable 5",
+        "GPT-5.6",
+        "Gemini",
+        "逆向工程"
+      ],
+      "score": 62.718,
+      "title": "RA2 iOS 版技术账本：Chrono Divide 引擎 + Swift 壳 + 多模型长跑",
+      "rank": 3
+    },
+    {
+      "id": "2086191229801275679",
+      "author": "ammaar",
+      "bio": "",
+      "text": "I used Fable 5 to bring Command & Conquer: Red Alert 2 + Yuri's Revenge to the iPhone and iPad!\n\nEA never released RA2's source, so there was nothing to port. Gemini 3.6 Flash play-tested it for hours, GPT-5.6 Sol rebuilt the skirmish AI.\n\nOpen sourcing it all below https://t.co/Hke9SohfWA",
+      "likes": 255,
+      "retweets": null,
+      "replies": null,
+      "views": "17130",
+      "created_at": "2026-08-08T20:42:03Z",
+      "url": "https://x.com/i/status/2086191229801275679",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2086191114558558208/vid/avc1/480x270/qRPl4r365D2Ay3pw.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2086191114558558208/img/_YQsLNjH6T4okxE3.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "作者用 Fable 5 把《红色警戒2+尤里的复仇》带到 iPhone/iPad：EA 从未开源 RA2，无现成源码可移植；Gemini 3.6 Flash 连续试玩数小时定位 AI 问题，GPT-5.6 Sol 重建遭遇战 AI，并宣布开源相关成果。",
+      "recommend_reason": "把多模型分工（试玩定位 vs 代码重建）落到经典游戏移植，既是工程故事也是产品能力演示。",
+      "tags": [
+        "GPT-5.6",
+        "Gemini",
+        "游戏AI",
+        "Agent",
+        "开源"
+      ],
+      "score": 71.23,
+      "title": "无源码把红色警戒2搬上iPhone：Gemini试玩找bug、GPT-5.6 Sol重做AI",
+      "rank": 4
+    },
+    {
+      "id": "2086188036493344823",
+      "author": "thsottiaux",
+      "bio": "",
+      "text": "That's right, GPT-5.6 Sol is awesome and can be used pretty much anywhere, including in the CC harness. \n\nTo celebrate this, together with the fact that I'm not going anywhere... I have reset usage limits for all paid users of ChatGPT Work and Codex. \n\nHave fun out there!",
+      "likes": 13003,
+      "retweets": null,
+      "replies": null,
+      "views": "2061812",
+      "created_at": "2026-08-08T20:29:22Z",
+      "url": "https://x.com/i/status/2086188036493344823",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2086173812253729118",
+        "author": "bcherny",
+        "name": "Boris Cherny",
+        "text": "@thsottiaux We are hiring if you would like to work at Anthropic!\n\nWe don’t ban people for using harnesses with other models. Almost certainly it was a different account classifier that triggered. Looking into it, thanks for escalating.",
+        "created_at": "Sat Aug 08 19:32:50 +0000 2026",
+        "url": "https://x.com/bcherny/status/2086173812253729118",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "summary": "Tibo（OpenAI）回应：GPT-5.6 Sol 几乎可在任何地方使用，包括 Claude Code harness；并宣布为所有 ChatGPT Work 与 Codex 付费用户重置用量限额。",
+      "recommend_reason": "一手产品声明：跨 harness 可用性 + 付费额度重置，对高频编码用户立即可感。",
+      "tags": [
+        "GPT-5.6 Sol",
+        "Codex",
+        "ChatGPT Work",
+        "OpenAI",
+        "Harness"
+      ],
+      "score": 71.201,
+      "title": "OpenAI 工程师：GPT-5.6 Sol 可嵌 CC harness，并重置付费用量",
+      "rank": 5
+    },
+    {
+      "id": "2086153676113281228",
+      "author": "trq212",
+      "bio": "Claude Code @anthropicai.   prev YC W20, @spc, @medialab",
+      "text": "me: Claude was used to autonomously reverse-engineer and modernize a mission-critical 1996 system with zero source access \n\nthem: incredible, what vertical? \n\nme: …consumer, handheld consumer",
+      "likes": 739,
+      "retweets": 25,
+      "replies": 36,
+      "views": 87772,
+      "created_at": "2026-08-08T18:12:49Z",
+      "url": "https://x.com/trq212/status/2086153676113281228",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2085836469428470186",
+        "author": "CameronRitz",
+        "name": "KillerCam",
+        "text": "you can now fly around Kanto freely in Pokemon Red/Blue/Yellow\n\nthis mod is basically becoming its own game at this point… 😭 https://t.co/6O5Hg1Si8p",
+        "created_at": "Fri Aug 07 21:12:21 +0000 2026",
+        "url": "https://x.com/CameronRitz/status/2085836469428470186",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2085836361127391232/vid/avc1/488x270/TxIE22NzlKuxCfpE.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2085836361127391232/img/dHqmg9AN-ixvCKqV.jpg"
+        ]
+      },
+      "summary": "「Claude 在零源码条件下自主逆向并现代化了 1996 年关键系统。」对方问垂直领域——答：消费级掌机。配图语境是宝可梦红/蓝/黄可自由飞关东的 MOD。",
+      "recommend_reason": "用段子点出 agent 逆向老系统的真实能力边界，传播度高也好记。",
+      "tags": [
+        "Claude",
+        "逆向工程",
+        "游戏",
+        "Agent"
+      ],
+      "score": 65.354,
+      "rank": 6
+    },
+    {
+      "id": "2086147506363322849",
+      "author": "jxnlco",
+      "bio": "vibes @openai",
+      "text": "today, codex\n\n1. save me $2000 a year in canceled subscriptions\n2. found 44gb of extra disk space",
+      "likes": 724,
+      "retweets": 7,
+      "replies": 71,
+      "views": 63913,
+      "created_at": "2026-08-08T17:48:18Z",
+      "url": "https://x.com/jxnlco/status/2086147506363322849",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "今天 Codex：1）帮我省下一年约 2000 美元的订阅；2）找出额外 44GB 磁盘空间。",
+      "recommend_reason": "编码 agent 的「生活实用」侧面：清订阅与扫磁盘，说明能力已溢出纯写码。",
+      "tags": [
+        "Codex",
+        "Agent",
+        "效率",
+        "OpenAI"
+      ],
+      "score": 65.931,
+      "rank": 7
+    },
+    {
+      "id": "2086144247388905833",
+      "author": "dotey",
+      "bio": "AI Engineer, dedicated to learning and disseminating knowledge about AI, software engineering, and engineering management.",
+      "text": "我在开发项目是，第一版本会先用 Claude Design 设计好 UI 原型/设计，打磨好后放到本地，配合 Baoyu-Design Skill 去维护，每次开发新功能前，不是先去实现功能，而是先修改本地的原型，原型修改确认好了后再去修改功能。\n\n后来直接把规则放到了 Agents.md/claude.md 里面，只要说修改或者增加什么功能，默认会先帮我修改原型。所以到现在为止，原型和实际功能都是保持一致的。\n\n这带来的好处是可以先低成本通过原型验证产品设计和 UI 设计。\n\n另一个好处就是 Claude Design 产出物是 React 代码和结构化的 json 数据，通过 git diff 很清晰的能看到版本变更历史，功能确定了后，agent 参考diff结果代码实现会相对比较容易。\n\nBaoyu-Design Skill\nhttps://t.co/8zkHcKkI7h",
+      "likes": 215,
+      "retweets": 26,
+      "replies": 49,
+      "views": 24991,
+      "created_at": "2026-08-08T17:35:21Z",
+      "url": "https://x.com/dotey/status/2086144247388905833",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPN18DEW4AAZjM7.jpg",
+        "https://pbs.twimg.com/media/HPN3C2tXEAAfsh_.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPN18DEW4AAZjM7.jpg",
+        "https://pbs.twimg.com/media/HPN3C2tXEAAfsh_.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2086129241511629077",
+        "author": "Jiaxi_Cui",
+        "name": "Panda@Cerul.ai",
+        "text": "@dotey 确实很好用，是一直用来做原型的方案",
+        "created_at": "Sat Aug 08 16:35:44 +0000 2026",
+        "url": "https://x.com/Jiaxi_Cui/status/2086129241511629077",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "summary": "宝玉分享工作流：首版用 Claude Design 做好 UI 原型，落地后用 Baoyu-Design Skill 维护；新功能先改本地原型再改实现，并把规则写进 Agents.md/claude.md 使 agent 默认先改原型。产出为 React+结构化 JSON，git diff 清晰，便于 agent 按 diff 落地。",
+      "recommend_reason": "可直接抄的 agent 协作范式：把设计真相源前置，降低实现漂移与返工。",
+      "tags": [
+        "Claude Design",
+        "Skill",
+        "原型驱动",
+        "Agents.md",
+        "前端"
+      ],
+      "score": 68.925,
+      "title": "先改原型再改功能：Claude Design + Baoyu Skill 保持 UI 与实现同步",
+      "rank": 8
+    },
+    {
+      "id": "2086133240273031290",
+      "author": "DilumSanjaya",
+      "bio": "Software Engineer | Showcasing unique AI applications for Science & Engineering\n\n💡Open Source \nhttps://t.co/02nVJK3OQK\nhttps://t.co/fzTHdVmiYr\n\n🎬\nhttps://t.co/cOGQInDnYV",
+      "text": "Fun interactive science app ideas | Part 11\n\nBuilt an interactive visualization of Notable Universes from Wolfram Physics.\n\nRule based evolution happens entirely in the browser\n\ncode:  Opus 5 https://t.co/4NDrRPCRsV",
+      "likes": 33,
+      "retweets": 5,
+      "replies": 2,
+      "views": 3531,
+      "created_at": "2026-08-08T16:51:37Z",
+      "url": "https://x.com/DilumSanjaya/status/2086133240273031290",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2086131937077506048/vid/avc1/476x270/jD-fUvgOEOcEvE44.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2086131937077506048/img/aY41AhEAzPiflx-p.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "作者用 Opus 5 做了基于 Wolfram Physics 的 Notable Universes 交互可视化，规则演化全在浏览器内运行，并附代码链接。",
+      "recommend_reason": "科学可视化 + 单模型端到端出活的轻案例，适合看 agent 在科研玩具上的交付质量。",
+      "tags": [
+        "Opus",
+        "可视化",
+        "Wolfram",
+        "科学计算",
+        "前端"
+      ],
+      "score": 64.175,
+      "title": "浏览器内可交互：Opus 5 做 Wolfram Physics「Notable Universes」可视化",
+      "rank": 9
+    },
+    {
+      "id": "2086127247077843282",
+      "author": "elonmusk",
+      "bio": "https://t.co/ZdBx5WABYx",
+      "text": "Major upgrade to Grok Imagine image editing",
+      "likes": 6378,
+      "retweets": 998,
+      "replies": 1160,
+      "views": 4049189,
+      "created_at": "2026-08-08T16:27:48Z",
+      "url": "https://x.com/elonmusk/status/2086127247077843282",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2085952665700151330",
+        "author": "XFreeze",
+        "name": "X Freeze",
+        "text": "You can literally just hover over any specific segment in Grok Imagine and edit it instantly https://t.co/l8Emf0uFfC",
+        "created_at": "Sat Aug 08 04:54:05 +0000 2026",
+        "url": "https://x.com/XFreeze/status/2085952665700151330",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HPLJ0l1WEAA8S9k.jpg",
+          "https://pbs.twimg.com/media/HPLJ8tpXQAIph7y.jpg",
+          "https://pbs.twimg.com/media/HPLJ8trXcAASpKh.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HPLJ0l1WEAA8S9k.jpg",
+          "https://pbs.twimg.com/media/HPLJ8tpXQAIph7y.jpg",
+          "https://pbs.twimg.com/media/HPLJ8trXcAASpKh.jpg"
+        ]
+      },
+      "summary": "Grok Imagine 的图片编辑迎来重大升级。",
+      "recommend_reason": "马斯克亲自点名 Imagine 编辑升级，可与第三方局部编辑演示交叉验证。",
+      "tags": [
+        "Grok",
+        "Imagine",
+        "图片编辑",
+        "xAI"
+      ],
+      "score": 63.452,
+      "rank": 10
+    },
+    {
+      "id": "2086120804170023199",
+      "author": "vincemask",
+      "bio": "专注 AI Coding、Agent 工作流与工程实践。",
+      "text": "Claude 用久了，我发现 Prompt 只解决了一半问题。\n\n另一半，是你的文件系统。\n\n文件乱，Claude 的上下文就容易乱。\n\n我现在基本固定成这 5 个目录：\n\n[01] system/\n放规则和约束，Claude 必须遵守。\n\n[02] context/\n放长期稳定上下文，比如工作方式、写作风格、参考资料。\n\n[03] projects/\n放正在推进的任务和项目。\n\n[04] outputs/\n放已经完成的产物。\n\n[99] archive/\n放旧内容。退出活跃上下文，但依然可以搜索。\n\n项目内部再按流程编号：\n\n00_BRIEF\n01_SOURCES\n02_NOTES\n03_DRAFTS\n04_VISUALS\n05_FINAL\n\n这样 Claude 基本不用猜：\n什么最重要、先看什么、哪些还在进行、哪些已经结束。\n\n文件名也别再用：\n\nfinal.docx\nfinal_v2.docx\nfinal_REAL.docx\n\n命名最好直接回答：\n\n什么时候？\n是什么？\n什么状态？\n\n最后记住 5 条就够了：\n\nMarkdown 写规则\n数字定义顺序\n名字表达含义\n日期负责检索\nArchive 隔离噪音\n\nAI Agent 的上下文工程，不只发生在 Prompt 里。\n\n文件系统本身，就是 Context Engineering。",
+      "likes": 5,
+      "retweets": 2,
+      "replies": 5,
+      "views": 267,
+      "created_at": "2026-08-08T16:02:12Z",
+      "url": "https://x.com/vincemask/status/2086120804170023199",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "作者认为 Prompt 只解决一半，文件系统决定上下文质量。固定 system/context/projects/outputs/archive 五目录，项目内用 00_BRIEF→05_FINAL 编号；文件名回答何时/是什么/状态；原则是 Markdown 规则、数字顺序、语义命名、日期检索、Archive 隔离噪音。",
+      "recommend_reason": "把 context engineering 落到可复制的目录约定，比空谈「管理上下文」更可执行。",
+      "tags": [
+        "Claude",
+        "上下文工程",
+        "文件系统",
+        "工作流",
+        "Agent"
+      ],
+      "score": 61.249,
+      "title": "给 Claude 的文件系统就是上下文工程：五目录 + 流程编号",
+      "rank": 11
+    },
+    {
+      "id": "2086120387700732167",
+      "author": "YuLin807",
+      "bio": "非程序员｜重度 vibe coding\n真实工作流、成本、踩坑与修复\n我的个人项目⬇️｜自由，希望与爱",
+      "text": "其实我现在使用 pi 也没有安装许多插件，一般的功能补全就用 herdr 调用其他模型当 subagent ，然后检索信息的话，有 codex 和 grok 两个模型补齐就 ok。\n\n我实在还想不出来需要哪些不行，可能我现在以纯 coding 为主，大家现在都在用哪些 好用的 pi 插件/skill https://t.co/urBqq1k6lK",
+      "likes": 32,
+      "retweets": 0,
+      "replies": 35,
+      "views": 5888,
+      "created_at": "2026-08-08T16:00:33Z",
+      "url": "https://x.com/YuLin807/status/2086120387700732167",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPNjFvMawAAEcRq.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPNjFvMawAAEcRq.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "其实我现在使用 pi 也没有安装许多插件，一般的功能补全就用 herdr 调用其他模型当 subagent ，然后检索信息的话，有 codex 和 grok 两个模型补齐就 ok。\n\n我实在还想不出来需要哪些不行，可能我现在以纯 coding 为主，大家现在都在用哪些 好用的 pi 插件/skill",
+      "recommend_reason": "中文圈 Pi 用户真实极简配置：herdr 调 subagent + Codex/Grok 补检索，可当插件选型对照。",
+      "tags": [
+        "Pi",
+        "Skill",
+        "subagent",
+        "Codex",
+        "Grok"
+      ],
+      "score": 62.309,
+      "rank": 12
+    }
+  ],
+  "generated_at": "2026-08-09T04:07:17Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 12,
+    "last_batch_added": 12,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
