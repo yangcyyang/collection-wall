@@ -9,6 +9,456 @@
   },
   "items": [
     {
+      "id": "2086838277701882031",
+      "author": "zarazhangrui",
+      "bio": "",
+      "text": "At the AGI Bar in Beijing, you can get free, unlimited DeepSeek tokens. Customers vibe code while sipping on beers with names like “AGI bubble”\n\nYou can also buy a “Drinking Plan” which gives you free beer for the whole year \n\nA screen displays job roles at AI companies https://t.co/Wlcu6lYc1q",
+      "likes": 19,
+      "retweets": null,
+      "replies": null,
+      "views": "1333",
+      "created_at": "2026-08-10T15:33:11Z",
+      "url": "https://x.com/i/status/2086838277701882031",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPXwVGKaAAEdtVM.jpg",
+        "https://pbs.twimg.com/media/HPXwVGFbAAAq9Lo.jpg",
+        "https://pbs.twimg.com/media/HPXwVF9bAAAP7sy.jpg",
+        "https://pbs.twimg.com/media/HPXwVF7aIAA7JPg.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPXwVGKaAAEdtVM.jpg",
+        "https://pbs.twimg.com/media/HPXwVGFbAAAq9Lo.jpg",
+        "https://pbs.twimg.com/media/HPXwVF9bAAAP7sy.jpg",
+        "https://pbs.twimg.com/media/HPXwVF7aIAA7JPg.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "zarazhangrui 介绍北京 AGI Bar：可领免费无限 DeepSeek token，边喝「AGI bubble」等主题酒边 vibe code；另有全年免费啤酒的 Drinking Plan；店内屏幕还展示 AI 公司岗位。",
+      "recommend_reason": "把算力福利、线下社群与 AI 就业信息绑在一起，是有趣的 AI 消费/文化现场切片。",
+      "tags": [
+        "DeepSeek",
+        "线下社群",
+        "北京",
+        "Vibe Coding",
+        "AGI"
+      ],
+      "score": 65.441,
+      "title": "北京 AGI Bar：免费无限 DeepSeek token，边喝酒边 vibe code",
+      "rank": 1
+    },
+    {
+      "id": "2086814975629107560",
+      "author": "VigoCreativeAI",
+      "bio": "",
+      "text": "VISUAL OS 016 — Ground Up\n\nShot from the floor. Everybody looks ten feet tall.\n\nFRESH RUN — flowers after sunrise\nSPIN ON — sound travels / city frequency\nSHAPE IT — hands make the future\nLOOK UP — small worlds / wide skies\n\nLocked:\n– one cobalt field that the real sky dissolves into — no visible seam\n– chunky orange display caps, soft wobbly terminals, hand-cut not typeset\n– green organic blobs bleeding in from the frame edges, never centered\n– small blue tick marks scattered around the headline like registration marks\n– low camera angle, midday sun, hard shadows, subject mid-step\n– wardrobe drawn from the same four colors — the person IS part of the palette\n– one cream lowercase caption plus one hand-drawn mark: chevron, arrow, sparkle, moon\n\nSwaps: subject / two-word imperative / caption / hand-drawn mark / prop\n\nAges 15 to 75. Same sky, same instruction: go do it.\n\nPrompt ↓",
+      "likes": 22,
+      "retweets": null,
+      "replies": null,
+      "views": "418",
+      "created_at": "2026-08-10T14:00:35Z",
+      "url": "https://x.com/i/status/2086814975629107560",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPXbKUFXAAAwq3j.jpg",
+        "https://pbs.twimg.com/media/HPXbKTRXgAA9pzt.jpg",
+        "https://pbs.twimg.com/media/HPXbKGLW4AAtkB5.jpg",
+        "https://pbs.twimg.com/media/HPXbKIYX0AEafQd.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPXbKUFXAAAwq3j.jpg",
+        "https://pbs.twimg.com/media/HPXbKTRXgAA9pzt.jpg",
+        "https://pbs.twimg.com/media/HPXbKGLW4AAtkB5.jpg",
+        "https://pbs.twimg.com/media/HPXbKIYX0AEafQd.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "VigoCreativeAI 放出 Visual OS 016「Ground Up」：固定低机位、钴蓝天空与真实天空无缝、橙色大字显示、边缘绿色有机色块、注册线小刻度等锁定规则；可替换主体、双词祈使句、caption 与手绘标记。强调人物服装也吃同一四色调色板，做成可复用的视觉指令系统而非单次出图。",
+      "recommend_reason": "把图像提示词做成可替换模块的 OS，比单条 prompt dump 更有迁移价值。",
+      "tags": [
+        "提示词",
+        "图像生成",
+        "视觉系统",
+        "设计",
+        "Creative"
+      ],
+      "score": 80.139,
+      "title": "Visual OS 016：低机位 + 钴蓝天空无缝融合的提示词系统",
+      "rank": 2
+    },
+    {
+      "id": "2086805305556414489",
+      "author": "lifesinger",
+      "bio": "",
+      "text": "Claude Tag 确实有可能是一种全新的产品形态。有两大特征：\n\n1、Claude Tag 像人一样，可以被人使唤，也可以使唤人。\n\n2、Claude Tag 同时又不像人。它拥有整个公司的记忆，熟知每个协作过的同事。它是一个超人，可以瞬间变形为某个具体同事的数字分身。可以蒸馏整个公司，而且是鲜活的。\n\nChat →\nCoding Agent (Synchronous local agent) →\nAI Coworker (Asynchronous remote agent)",
+      "likes": 28,
+      "retweets": null,
+      "replies": null,
+      "views": "4271",
+      "created_at": "2026-08-10T13:22:10Z",
+      "url": "https://x.com/i/status/2086805305556414489",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPXRarbXgAAnjKz.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPXRarbXgAAnjKz.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "玉伯谈 Claude Tag 可能是新的产品形态：一像人——可被使唤也能使唤人；二不像人——拥有公司记忆、熟悉协作过的同事，可瞬间变成某同事数字分身，蒸馏鲜活的公司知识。演进线：Chat → 同步本地 Coding Agent → 异步远程 AI Coworker。",
+      "recommend_reason": "把 cowork 产品从聊天/写代码，推到「公司记忆 + 可互使唤」的组织层形态。",
+      "tags": [
+        "Claude Tag",
+        "Coworker",
+        "组织记忆",
+        "Agent",
+        "产品形态"
+      ],
+      "score": 62.869,
+      "title": "Claude Tag：可使人也可被使唤的公司级数字分身",
+      "rank": 3
+    },
+    {
+      "id": "2086796388277330395",
+      "author": "lifesinger",
+      "bio": "",
+      "text": "Anthropic 的产品，为什么这么厉害。 刚看了公众号《海外独角兽》的最新文章。非常不错，强烈推荐。\n\nAnthropic 公司里有个 Labs 团队。\n\nLabs 团队会围绕不同的技术判断播下大量种子，再把它们放进 Anthropic 内部的真实工作环境里生长。有些很快因为需求不足而枯萎，有些因模型能力的季节还没到，暂时进入休眠。只有极少数能在反复的 Dogfooding 中逐渐扎根。\n　\n最终，一个产品只有在内部目标用户中跑出足够好的周活和留存，才有机会对外发布。Anthropic 现在同时运行着几百个原型，其中绝大多数永远都不会面世。\n\nClaude Tag 最早也是这样一个内部实验。它经历了几个月的真实使用和反复打磨，先改变了 Anthropic 自己的工作方式，直到今年 6 月才正式对外发布。",
+      "likes": 115,
+      "retweets": null,
+      "replies": null,
+      "views": "11614",
+      "created_at": "2026-08-10T12:46:44Z",
+      "url": "https://x.com/i/status/2086796388277330395",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPXJMwPWkAA5_1P.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPXJMwPWkAA5_1P.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "玉伯转述《海外独角兽》文章：Anthropic Labs 会按技术判断播大量种子，放进内部真实环境生长；需求不足会枯萎，模型能力未到则休眠，只有极少数在反复 Dogfooding 后扎根。对外发布门槛是内部目标用户有足够周活和留存；公司同时跑几百个原型，绝大多数永不面世。Claude Tag 即此类内部实验，用了数月才于 6 月发布。",
+      "recommend_reason": "把产品筛选机制说透：大量原型 + 内部真实使用指标，比口号更解释 Anthropic 产品密度。",
+      "tags": [
+        "Anthropic",
+        "Claude Tag",
+        "Labs",
+        "Dogfooding",
+        "产品管理"
+      ],
+      "score": 67.887,
+      "title": "Anthropic Labs：先内部 Dogfooding，再决定是否发布",
+      "rank": 4
+    },
+    {
+      "id": "2086781863490994267",
+      "author": "ollama",
+      "bio": "https://t.co/1JpLwJ9Bdv",
+      "text": "Muse Glimmer is now available to run with Ollama.\n\nAvailable today via Ollama’s MLX engine with state-of-the-art-performance on Apple Silicon, Muse Glimmer can power Claude Code, Codex, and more always-on local agent workflows natively using Ollama.\n\nAdditional support and optimizations for Apple Silicon, NVIDIA, AMD, and other platforms will be available shortly.\n\nGo @finkd @alexandr_wang and @Meta !",
+      "likes": 710,
+      "retweets": 54,
+      "replies": 46,
+      "views": 44466,
+      "created_at": "2026-08-10T11:49:01Z",
+      "url": "https://x.com/ollama/status/2086781863490994267",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2086755195535413696",
+        "author": "finkd",
+        "name": "Mark Zuckerberg",
+        "text": "Today we're also opening the weights for Muse Glimmer, a great 30B parameter dense model that can run locally. Soon we'll also release the weights for Muse Spark 1.2, our latest foundation model. Meta is a strong supporter of open source and I'm proud of these releases. Congrats to @alexandr_wang and the MSL team for all your great work on these models.",
+        "created_at": "Mon Aug 10 10:03:03 +0000 2026",
+        "url": "https://x.com/finkd/status/2086755195535413696",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "summary": "Ollama 宣布 Muse Glimmer 可经其 MLX 引擎在 Apple Silicon 上运行，用于 Claude Code、Codex 等常驻本地 agent 工作流；NVIDIA、AMD 等平台支持将很快跟进。",
+      "recommend_reason": "本地 agent 基建又进一步：模型可进 Ollama，直接服务 Claude Code/Codex 这类常驻工作流。",
+      "tags": [
+        "Ollama",
+        "Muse Glimmer",
+        "本地模型",
+        "Apple Silicon",
+        "Agent"
+      ],
+      "score": 69.515,
+      "title": "Ollama 上线 Muse Glimmer：本机跑常驻 Agent 工作流",
+      "rank": 5
+    },
+    {
+      "id": "2086758509979316423",
+      "author": "zarazhangrui",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "text": "A great way to learn design:\nGive Codex a well-designed website, ask it to analyze what makes the design great, then ask it to take a complete screenshot of the website & add annotations on the image that breaks down why the design works\n\nLearning from examples is always better than learning from theory!\n\nAnd using the annotation method means you don't have to constantly switch between reading the analysis and viewing the artifact",
+      "likes": 635,
+      "retweets": 42,
+      "replies": 27,
+      "views": 30530,
+      "created_at": "2026-08-10T10:16:13Z",
+      "url": "https://x.com/zarazhangrui/status/2086758509979316423",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPWnRlJbgAEvW85.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPWnRlJbgAEvW85.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "zarazhangrui 分享学设计的实用路径：把设计优秀的网站丢给 Codex，先让它分析好在哪里，再完整截图并在图上做批注拆解设计为何有效。相对纯理论，示例学习更直观；批注法还能减少在分析文字与成品之间来回切换。",
+      "recommend_reason": "把设计学习做成「分析 + 截图批注」闭环，可直接复用到任何 agent 辅助设计评审。",
+      "tags": [
+        "Codex",
+        "设计",
+        "学习方法",
+        "截图批注",
+        "Agent"
+      ],
+      "score": 76.379,
+      "title": "用 Codex 解剖优秀网站：截图批注式学设计",
+      "rank": 6
+    },
+    {
+      "id": "2086754781578842363",
+      "author": "yetone",
+      "bio": "Built: avante.nvim\n\nBuilding:\n\nhttps://t.co/pfq9srNgsd\n\nhttps://t.co/fpGnPR5t9C\n\nhttps://t.co/cBN1yzJPIG\n\nhttps://t.co/6ERz2HMx0f\n\nhttps://t.co/QhQRLD4zQo\n\nhttps://t.co/ln9CVeagWC",
+      "text": "这是我开始做 ToB 的原因。做了 ToB 之后，看着那些 ToC 的 Agent 的软件的各种打磨，我都觉得眉清目秀的。当然我既不是高高在上也盲目崇拜，是因为很多 ToC Agent 打磨的那些优雅的细节，在真实的 B 端场景中，那些客户压根就不 care，他们真正 care 的就是你别让我用任何的 Agent 软件，但是能完成所有工作流的自动化。\n\nToC Agent 只满足了软件爱好者这个小众群体，真正的把软件当成核桃手把件每天在手中把玩包浆的人还是太小众了。",
+      "likes": 237,
+      "retweets": 16,
+      "replies": 58,
+      "views": 35181,
+      "created_at": "2026-08-10T10:01:24Z",
+      "url": "https://x.com/yetone/status/2086754781578842363",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2086513441192505526",
+        "author": "turingou",
+        "name": "郭宇 guoyu.eth",
+        "text": "要我说，AI native 时代最成功的创业者，应当实打实的参与到所有行业的所有工作中去，而不是试图用软件工程工作中的工具（比如 Git 和 notion 等）通过组合来完成其他领域的工作，知识工作有一定的相似性，但在知识工作之外，仍有大量的空间没有被梳理和信息化，我觉得所有人应该像 Elon 对 Terafab 那样重新思考芯片制造一样重新思考工作。",
+        "created_at": "Sun Aug 09 18:02:24 +0000 2026",
+        "url": "https://x.com/turingou/status/2086513441192505526",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "summary": "yetone 解释做 ToB 的原因：看 ToC Agent 软件各种打磨都「眉清目秀」，但 B 端客户往往不 care 这些优雅细节——他们真正要的是别让我用任何 Agent 软件，却能完成全部工作流自动化。ToC Agent 主要满足软件爱好者；真把软件当手把件把玩的人太小众。",
+      "recommend_reason": "一刀切开 ToC 打磨与 ToB 交付：B 端要的是工作流消失，不是又一个精致 Agent 壳。",
+      "tags": [
+        "ToB",
+        "ToC",
+        "Agent",
+        "工作流",
+        "产品洞察"
+      ],
+      "score": 62.472,
+      "title": "ToB Agent 真痛点：客户不要软件，只要工作流自动跑完",
+      "rank": 7
+    },
+    {
+      "id": "2086728391538188701",
+      "author": "dashiAIxz",
+      "bio": "将复杂技术转化为可复用流程！\n开发了一个PPT skill：chuspeeism/dashiAI-ppt-skill\n抖音/小红书/B站：大师的AI小灶",
+      "text": "dashi-taskboard 重大更新\n\n更新非常多，最重要的是提供了开箱即用的版本，不需要复杂配置就能用了\n\n我的各种工作流已经高强度依赖任务看板了，配合 Codex 的 create_thread 来调度多 worktree，基本上我自己介入开发流程越来越少了\n\n类似图 1 这么多任务并行的情况换以前，基本上不太可能，现在就轻松很多了\n\n以前觉得 token 不是问题的时候人的注意力是瓶颈，现在感觉人的注意力也能解放了\n\nhttps://t.co/zfKWZ8w0fp",
+      "likes": 45,
+      "retweets": 8,
+      "replies": 5,
+      "views": 10776,
+      "created_at": "2026-08-10T08:16:32Z",
+      "url": "https://x.com/dashiAIxz/status/2086728391538188701",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPWEl_nagAArhZG.jpg",
+        "https://pbs.twimg.com/media/HPWEqC3bEAAvnNj.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPWEl_nagAArhZG.jpg",
+        "https://pbs.twimg.com/media/HPWEqC3bEAAvnNj.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2085348309766664494",
+        "author": "dashiAIxz",
+        "name": "大师的AI小灶",
+        "text": "布豪，我做的Codex 任务看板工具被 Codex 学去了 https://t.co/dbEm94lI7z",
+        "created_at": "Thu Aug 06 12:52:35 +0000 2026",
+        "url": "https://x.com/dashiAIxz/status/2085348309766664494",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HPCkf8VbEAAkIXU.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HPCkf8VbEAAkIXU.jpg"
+        ]
+      },
+      "summary": "dashiAIxz 宣布 dashi-taskboard 重大更新，重点是开箱即用、少配置。他高强度依赖任务看板，配合 Codex create_thread 调度多 worktree，人介入开发更少；多任务并行场景以前很难，现在轻松很多——注意力瓶颈也在被解放。",
+      "recommend_reason": "把 agent 多会话/多 worktree 调度产品化，是本地 coding agent 编排层的务实进展。",
+      "tags": [
+        "Codex",
+        "任务看板",
+        "worktree",
+        "Agent 编排",
+        "工具"
+      ],
+      "score": 62.901,
+      "title": "dashi-taskboard 开箱即用：多 worktree 并行调度更轻",
+      "rank": 8
+    },
+    {
+      "id": "2086721263335317789",
+      "author": "yangyi",
+      "bio": "用NewMax(https://t.co/sYOJBYIaoF)构建Reverb Marketing\n实践AI营销与增长 | MarTech | AI GTM\n关注Yangyi，订阅Yangyi的实战手记，收获最真实的AI营销实战经验👇🏻\nhttps://t.co/Pkue4jV8hK",
+      "text": "如何使用AI构建SEO/GEO策略\n\n用AI做GTM最朴素的方式就是构建SEO/GEO流量\n之前做xaicreator的时候我做了一些SEO页面\n做完没2个礼拜，GEO就开始有了效果\nDeepseek/Gemini陆续有推荐过来的流量\n\n如果你仔细看xaicreator的blog，会感觉和其他的AI SEO不太一样\n\n重点在于skills混合了大量的专家知识，且在设计上我们做了更多组件系统以便适应良好的阅读体验\n\n我将内容整理并分享到了NewMax Share上",
+      "likes": 32,
+      "retweets": 4,
+      "replies": 3,
+      "views": 3538,
+      "created_at": "2026-08-10T07:48:13Z",
+      "url": "https://x.com/yangyi/status/2086721263335317789",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPWE_FJbMAAQxdx.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPWE_FJbMAAQxdx.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "yangyi 分享用 AI 做 GTM 的朴素路径：先做 SEO/GEO 流量。他给 xaicreator 做了一批 SEO 页，约两周后 DeepSeek/Gemini 开始有推荐流量。差异点在 skill 混入大量专家知识，并用组件系统提升阅读体验；内容已整理到 NewMax Share。",
+      "recommend_reason": "给出可复盘的 GEO 打法：专家知识 skill 化 + 页面组件体验，而不是堆关键词软文。",
+      "tags": [
+        "SEO",
+        "GEO",
+        "GTM",
+        "Skill",
+        "内容策略"
+      ],
+      "score": 64.093,
+      "title": "用 AI 做 SEO/GEO：专家 skill + 组件化阅读体验",
+      "rank": 9
+    },
+    {
+      "id": "2086701644192891249",
+      "author": "elonmusk",
+      "bio": "https://t.co/ZdBx5WABYx",
+      "text": "Grok Imagine is focused on professional usefulness, fun for consumers and overall ease-of-use",
+      "likes": 5446,
+      "retweets": 1059,
+      "replies": 1156,
+      "views": 3034270,
+      "created_at": "2026-08-10T06:30:15Z",
+      "url": "https://x.com/elonmusk/status/2086701644192891249",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2086691433956688183",
+        "author": "XFreeze",
+        "name": "X Freeze",
+        "text": "Grok 4.5 just ranked #1 on Design Arena for Daily Usage - measuring the average unique users actually interacting with apps built by each model every day\n\nIt's not just winning benchmarks....it's winning users\n\nAnd it's outperforming Claude Fable 5, Opus 4.8 and GPT-5.6 Sol by a ridiculous margin:\n\n1. Grok 4.5 — +563.2% vs average\n2. GLM 5.2 — +241.3%\n3. GPT-5.6 Sol — +103.0%\n\nClaude Fable 5 — +39.2%\nClaude Opus 4.8 — +38.9%\n\nThe interesting thing about this benchmark is that it's measuring whether REAL PEOPLE actually use the apps these models build\n\nAnd Grok 4.5 is absolutely dominating",
+        "created_at": "Mon Aug 10 05:49:41 +0000 2026",
+        "url": "https://x.com/XFreeze/status/2086691433956688183",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HPVp9ObXEAA1jBu.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HPVp9ObXEAA1jBu.jpg"
+        ]
+      },
+      "summary": "Grok Imagine 聚焦三件事：专业场景有用、消费者好玩、整体好上手。",
+      "recommend_reason": "官方对 Imagine 产品定位的极简表述，便于对照后续功能取舍。",
+      "tags": [
+        "Grok",
+        "Imagine",
+        "xAI",
+        "产品定位"
+      ],
+      "score": 66.474,
+      "rank": 10
+    },
+    {
+      "id": "2086700255949865456",
+      "author": "marclou",
+      "bio": "⭐️ https://t.co/MZc8tG9xWi $44K/m\n📈 https://t.co/3EDxln5mdi $26K/m\n🏴‍☠️ https://t.co/YBGJuAsUZ4 $13K/m\n🧑‍💻 https://t.co/Y30jsaHwz9 $6K/m\n⚡️ https://t.co/vatLDmi9UG $4K/m\n🍜 https://t.co/r07EpGSYJ2 $1K/m\n\n+29 https://t.co/4zCWHGJp1S",
+      "text": "I only build 2 types of startups now:\n\n1) AI-proof in 10 years. My startup marketplace (TrustMRR) can be cloned with a prompt, but a network of 20K buyers can’t. Trust compounds over time.\n\n2) Trends. Anything hot on tech Twitter this month. GEO, new AI models, it can be anything, as long as people are actively talking about it.\n\nI also have a 3rd filter: I build products I’m curious about. Or, even better, products I use myself.",
+      "likes": 1252,
+      "retweets": 50,
+      "replies": 118,
+      "views": 108122,
+      "created_at": "2026-08-10T06:24:44Z",
+      "url": "https://x.com/marclou/status/2086700255949865456",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2086653787478102487",
+        "author": "damonchen",
+        "name": "Damon Chen",
+        "text": "At yesterday's meetup I asked Marc why he's never shipped an AI wrapper 😅\n\nHis two most profitable products have almost nothing to do with AI. Everyone else is chasing the AI hype. He just doesn't.\n\nHis answer had two parts.\n\n1. he builds things he wants to use himself every day.\n\n2. he asks what still won't be replaceable by AI in 5 or 10 years. His example was TrustMRR. Real buyers and real sellers who trust the place. An AI wrapper can die the day OpenAI ships one new feature. But nobody ships a feature that takes your buyers and sellers away.\n\nSo you pick the niche, and you don't chase whatever is hot this month. With AI there's a new hype almost every single month. You pick, and then you wait. The compounding only shows up years later. And if you don't actually love the thing, you won't stay long enough to see it.\n\nThere's a word going around in China right now, OPC, one person company. Everyone wants to build one, and with AI making everything fast and easy, everyone wants one that prints money fast.\n\nMarc told us he wanted to build a social network early on, right after watching The Social Network. He wanted to get rich. Everyone starts there 🤪\n\nWe're both just normal people, zero followers, zero products, no idea how to get users. Honestly we still think about that last part every day.\n\nIf you're starting one of these, pick something you like and are already a bit good at. Ship one feature in your MVP. See if anyone wants it. If they do, stay on it and listen to the people using it.\n\nThen go tell the story yourself and build your own flywheel.",
+        "created_at": "Mon Aug 10 03:20:05 +0000 2026",
+        "url": "https://x.com/damonchen/status/2086653787478102487",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "summary": "marclou 说现在只做两类项目：1）十年后仍难被 AI 一键复制的（如 TrustMRR 网络信任会随时间复利，单纯产品可被 prompt 克隆）；2）当月 tech Twitter 真在讨论的热趋势（GEO、新模型等）。第三条滤镜：自己好奇、最好自己也在用。",
+      "recommend_reason": "用「可被 prompt 复制 vs 网络复利」切分创业护城河，对独立开发者选题很有判别力。",
+      "tags": [
+        "创业",
+        "护城河",
+        "GEO",
+        "独立开发",
+        "产品策略"
+      ],
+      "score": 69.158,
+      "title": "只做两类创业：十年 AI 防抄，或当月热趋势",
+      "rank": 11
+    },
+    {
+      "id": "2086664415223677363",
+      "author": "xin_pai88825",
+      "bio": "兴趣使然的设计师\n做过麻雀记。现在在做 新枝 和 Para翻译\n发点碎碎念，记录产品日常",
+      "text": "今天分享5个VibeCoding必看宝藏网站\n1.Originkit\n汇聚海量高级网页动效，文字变形、粒子背景、鼠标跟随、图片轮播等效果均可在线预览。看中效果直接复制，交给AI就能快速运用到自己的网站项目中。\n\n2.Border beam\n支持为按钮、卡片、输入框添加流动发光边框，内置多款色彩与动画模板，光效速度、发光强度支持实时自定义调节。\n\n3.motionsites\nAI建站专属设计提示词库，收录企业官网、个人作品集、品牌立体页面等大量优质案例。挑选心仪范例复制提示词，发送给AI即可快速产出同风格网站。\n\n4.dotmatrix\n拥有55种以上免费点阵加载动画，涵盖波浪、螺旋、雷达、像素、复古屏幕等样式。全部动画支持预览，选定样式后交由AI集成进项目，轻松提升加载页面设计质感。\n\n5.VibeHub\n专为VibeCoding打造的可视化词典。分不清按钮、布局、交互效果对应的专业术语时，可在线检索查看案例，获取标准命名，学会精准向AI描述开发需求。",
+      "likes": 211,
+      "retweets": 44,
+      "replies": 40,
+      "views": 11456,
+      "created_at": "2026-08-10T04:02:19Z",
+      "url": "https://x.com/xin_pai88825/status/2086664415223677363",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2086659175988486144/vid/avc1/320x568/fFBiCWN2LalLOUXq.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2086659175988486144/img/KTb3WyfD8J6jMLF4.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "新派整理 5 个面向 VibeCoding 的站点：Originkit（网页动效预览可复制）、Border beam（流动发光边框模板）、motionsites（建站设计提示词库）、dotmatrix（55+ 点阵加载动画）、VibeHub（组件/布局术语可视化词典）。核心用法是预览→复制→交给 AI 落地。",
+      "recommend_reason": "资源清单具体可点，覆盖动效、光效、提示词与术语，适合做前端 vibe 开发的素材入口。",
+      "tags": [
+        "VibeCoding",
+        "前端",
+        "动效",
+        "提示词",
+        "资源"
+      ],
+      "score": 73.03,
+      "title": "5 个 VibeCoding 宝藏站：动效、发光边框到可视化词典",
+      "rank": 12
+    },
+    {
       "id": "2086656052733587762",
       "author": "IndieDevHailey",
       "bio": "",
@@ -39,7 +489,7 @@
       ],
       "score": 64.245,
       "title": "Book-to-Skill：把整本书炼成可按需加载的 Agent Skill",
-      "rank": 1
+      "rank": 13
     },
     {
       "id": "2086654287556620425",
@@ -73,7 +523,7 @@
         "Agent环境"
       ],
       "score": 59.389,
-      "rank": 2
+      "rank": 14
     },
     {
       "id": "2086646278822477892",
@@ -101,7 +551,7 @@
       ],
       "score": 66.702,
       "title": "未来模型两极：超强 10T 与近乎免费的廉价智能",
-      "rank": 3
+      "rank": 15
     },
     {
       "id": "2086625684353605941",
@@ -139,7 +589,7 @@
       ],
       "score": 60.832,
       "title": "研究说 Agent 可逃出气隙沙箱，真实 Agent 却还在……",
-      "rank": 4
+      "rank": 16
     },
     {
       "id": "2086615345201291539",
@@ -181,7 +631,7 @@
         "产品"
       ],
       "score": 59.638,
-      "rank": 5
+      "rank": 17
     },
     {
       "id": "2086554608348873008",
@@ -222,7 +672,7 @@
         "行业判断"
       ],
       "score": 74.366,
-      "rank": 6
+      "rank": 18
     },
     {
       "id": "2086524281492758776",
@@ -251,7 +701,7 @@
       ],
       "score": 64.444,
       "title": "开源模型上生产要多花 10 倍时间：K3慢、Flash转圈、缺视觉",
-      "rank": 7
+      "rank": 19
     },
     {
       "id": "2086520950259118464",
@@ -298,7 +748,7 @@
       ],
       "score": 73.419,
       "title": "Anthropic：提示注入已在 Claude 实际使用中大体解决",
-      "rank": 8
+      "rank": 20
     },
     {
       "id": "2086517071928844515",
@@ -325,7 +775,7 @@
         "行业研究"
       ],
       "score": 59.386,
-      "rank": 9
+      "rank": 21
     },
     {
       "id": "2086509316425896103",
@@ -352,7 +802,7 @@
         "行业判断"
       ],
       "score": 59.065,
-      "rank": 10
+      "rank": 22
     },
     {
       "id": "2086500484387340531",
@@ -379,7 +829,7 @@
         "认知"
       ],
       "score": 60.673,
-      "rank": 11
+      "rank": 23
     },
     {
       "id": "2086482912145211827",
@@ -431,10 +881,10 @@
       ],
       "score": 65.559,
       "title": "视频剪辑 App 应被 Agent 调用：入口是 Agent 不是 App",
-      "rank": 12
+      "rank": 24
     }
   ],
-  "generated_at": "2026-08-10T04:23:29Z",
+  "generated_at": "2026-08-10T16:07:14Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -442,10 +892,10 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 12,
+    "actual_count": 24,
     "last_batch_added": 12,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
