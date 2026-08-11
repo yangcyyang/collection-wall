@@ -1,0 +1,486 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-11",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2087011064580014316",
+      "author": "IndieDevHailey",
+      "bio": "",
+      "text": "用 Codex 搓了一个会呼吸的 3D「天空之城」。\n\n从一张插画开始，一点点把城堡、浮岛、房间、人物和光影做成可交互的 3D 场景。\n\n现在里面已经有人走动、聊天、看书、晒太阳，云和旗帜也会慢慢飘。\n\nhttps://t.co/19n4Jw3iZn https://t.co/pMUVN2fcCZ",
+      "likes": 4,
+      "retweets": null,
+      "replies": null,
+      "views": "274",
+      "created_at": "2026-08-11T02:59:47Z",
+      "url": "https://x.com/i/status/2087011064580014316",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2087009558208372736/vid/avc1/468x270/u5HenHltoi6dIjVz.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2087009558208372736/img/xlBZLYW0f1ZZegjr.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2086083057464049938",
+        "author": "IndieDevHailey",
+        "name": "开发者Hailey",
+        "text": "磨了半天，3D 版来了～ https://t.co/L4Ikb4GrWN",
+        "created_at": "Sat Aug 08 13:32:13 +0000 2026",
+        "url": "https://x.com/IndieDevHailey/status/2086083057464049938",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2086082963574505472/vid/avc1/480x270/ERUuq94S3IWGxUP0.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2086082963574505472/img/lpt5PPPytWB6lvvl.jpg"
+        ]
+      },
+      "summary": "用 Codex 搓了一个会呼吸的 3D「天空之城」：从一张插画开始，把城堡、浮岛、房间、人物和光影做成可交互 3D 场景；现已有人走动、聊天、看书、晒太阳，云和旗帜也会慢慢飘。",
+      "recommend_reason": "Codex 端到端 3D 场景 demo，展示「插画 → 可交互世界」的一条完整制作链。",
+      "tags": [
+        "Codex",
+        "3D",
+        "Vibe Coding",
+        "交互场景"
+      ],
+      "score": 61.732,
+      "rank": 1
+    },
+    {
+      "id": "2086996606738366516",
+      "author": "vista8",
+      "bio": "",
+      "text": "DeepSeek  Harness 团队开公众号了，还没发过内容。\n\n看看最终效果如何，是否比 Pi Agent 等 Harness 框架更优秀。\n\n是否会有IDE版？产品设计是否有超越 Codex 的亮点。 https://t.co/syxTB1op1X",
+      "likes": 37,
+      "retweets": null,
+      "replies": null,
+      "views": "8841",
+      "created_at": "2026-08-11T02:02:20Z",
+      "url": "https://x.com/i/status/2086996606738366516",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPZ_3w6XIAAzgx_.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPZ_3w6XIAAzgx_.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "DeepSeek Harness 团队开了公众号，目前还没发过内容。想看最终效果能否比肩 Pi Agent 等 harness 框架，以及是否会有 IDE 版、产品设计有没有超越 Codex 的亮点。",
+      "recommend_reason": "国内 harness 产品线的早期雷达：公众号刚开，值得盯首更与定位。",
+      "tags": [
+        "DeepSeek",
+        "Harness",
+        "Pi Agent",
+        "Codex"
+      ],
+      "score": 61.85,
+      "rank": 2
+    },
+    {
+      "id": "2086972933566857393",
+      "author": "thsottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "text": "Usage limits have been reset for all paid ChatGPT Work and Codex users. Happy Monday you all. Hope it is a fantastic week.",
+      "likes": 5318,
+      "retweets": 236,
+      "replies": 523,
+      "views": 146359,
+      "created_at": "2026-08-11T00:28:16Z",
+      "url": "https://x.com/thsottiaux/status/2086972933566857393",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "所有付费 ChatGPT Work 与 Codex 用户的使用额度已重置。周一快乐，祝大家这一周顺利。",
+      "recommend_reason": "额度重置直接影响付费用户本周可用量，属于可操作的产品运营信号。",
+      "tags": [
+        "ChatGPT",
+        "Codex",
+        "额度",
+        "OpenAI"
+      ],
+      "score": 80.406,
+      "rank": 3
+    },
+    {
+      "id": "2086928989549920678",
+      "author": "dotey",
+      "bio": "AI Engineer, dedicated to learning and disseminating knowledge about AI, software engineering, and engineering management.",
+      "text": "Anthropic 宣布将给 Claude 的输出内容加上机器可读的标记，包括文本中嵌入的隐形水印，以及生成文件中附加的数字签名元数据。8 月 2 日起（也就是上周），所有新发布的 Claude 模型已经开始执行这套标记机制。\n\n这是 Anthropic 为遵守欧盟 AI 法案第 50 条签署的透明度行为准则。但执行范围不限于欧盟，全球所有使用 Claude 的地方都会生效。\n\n具体来说有两层标记。\n\n第一层是文本水印：Claude 生成文字时，会在文本中织入人眼不可见的水印，不影响阅读体验和内容质量。这个水印的特点是“跟着文字走”，你把 Claude 写的一段话复制粘贴到邮件、文档或博客里，水印依然在，一定程度的编辑修改后也可能保留。\n\n第二层是文件元数据：Claude 生成 SVG、PNG、JPG 等文件时，会附加符合 C2PA 标准的签名元数据。C2PA 是 Adobe、微软、Google 等公司共同推动的内容溯源开放协议，OpenAI 和 Google 的图像生成工具已经在用。\n\n覆盖面很广。API、Claude 官网、Claude Code、Claude Cowork、Claude Tag，所有产品线都适用。通过 AWS、Google Cloud 或 Microsoft Foundry 调用 Claude 时，文本水印同样生效，但文件元数据取决于各云平台的功能支持。\n\n在此之前，Claude 一直没有公开部署过文本水印。OpenAI 此前开发过文本水印方案，但出于各种考虑一直没上线。Anthropic 这次直接在文本层面落地水印，算是 AI 大模型厂商中走得比较靠前的一步。\n\n对于用 Claude 写东西的人来说，一个直接的影响是：你用 Claude 起草的邮件、报告、文章，里面都会携带可被机器检测的水印。Anthropic 表示正在开发配套的检测工具，未来第三方也能检测。\n\n不过限制也很实际。检测到水印只能说明内容“可能经过 Claude 处理”，不能确认 Claude 是原始作者，因为很多人用它润色、翻译、总结已有内容。反过来也一样，检测不到水印不代表内容不是 AI 写的，文本被大量改写后水印会消失，太短的文本信号不够可靠，文件经过格式转换或截图也会丢失元数据。\n\n8 月 2 日之前发布的现有 Claude 模型，Anthropic 正在补充标记功能，具体时间表还没公布。如果你基于 Claude API 构建产品，Anthropic 建议你独立评估欧盟 AI 法案第 50 条对自己的合规要求。\n\n相关文档：https://t.co/GOPcV056Aa",
+      "likes": 190,
+      "retweets": 28,
+      "replies": 60,
+      "views": 56798,
+      "created_at": "2026-08-10T21:33:39Z",
+      "url": "https://x.com/dotey/status/2086928989549920678",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPZCva4WMAAXhXf.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPZCva4WMAAXhXf.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "Anthropic 宣布为 Claude 输出加机器可读标记：文本内嵌隐形水印，以及 SVG/PNG/JPG 等文件的 C2PA 数字签名元数据。8 月 2 日起新发布 Claude 模型已执行；为遵守欧盟 AI 法案第 50 条透明度准则，但全球生效。覆盖 API、官网、Claude Code 等；经云厂商调用时文本水印同样生效。检测有局限：有水印≠Claude 是原始作者，无水印≠非 AI 生成。",
+      "recommend_reason": "直接关系到用 Claude 写邮件/报告/产品的合规与可检测性，是本场政策面必读。",
+      "tags": [
+        "Claude",
+        "水印",
+        "C2PA",
+        "欧盟AI法案",
+        "内容溯源"
+      ],
+      "score": 65.169,
+      "title": "Claude 全线加隐形文本水印与 C2PA 文件签名，8 月 2 日起新模型已生效",
+      "rank": 4
+    },
+    {
+      "id": "2086902418139128225",
+      "author": "dotey",
+      "bio": "AI Engineer, dedicated to learning and disseminating knowledge about AI, software engineering, and engineering management.",
+      "text": "Anthropic 今天宣布，一个未公开的研究版 Claude 在尝试证明黎曼猜想的过程中，虽然没能证明猜想本身，却在一个相关问题上取得了重大突破：\n它把黎曼 ζ 函数的非平凡零点落在临界线上的已知比例下界，从 41.6% 提高到了 67.2%。\n\n黎曼猜想是数学界最著名的未解难题之一，1859 年提出，至今 167 年无人能证明或推翻。它的核心主张是：黎曼 ζ 函数的所有非平凡零点都落在复平面上一条特定的竖直线上，数学家称之为“临界线”。\n\n如果这个猜想成立，素数的分布就有了一种深层的规律性。这个问题列在克雷数学研究所的七大千禧年问题之中，悬赏 100 万美元。\n\n既然全面证明太难，数学家们退而求其次：\n能不能至少证明有多大比例的零点确实在这条线上？\n\n这个方向上的进展，过去 80 年是这样的：\n- 1942 年 Selberg 首次证明有正比例的零点在线上，但比例很小；\n- 1974 年 Levinson 证明至少三分之一；\n- 1989 年 Conrey 推到五分之二；\n- 此后又经历了几代数学家的努力，到 2020 年 Pratt 等人才把这个数字推到 41.7%。\n\n换句话说，从 33% 到 41.7%，人类花了将近 50 年。Claude 一步跳到 67.2%，跨度接近 26 个百分点，是这个问题历史上最大的一次单步提升。\n\nClaude 的发现建立在前人的工作之上。它结合了 Baluyot、Goldston、Suriajaya 和 Turnage-Butterbaugh 近年发表的一系列成果，以及数学家 Bombieri 在 2000 年的一篇论文。这些工作本身已经为突破铺好了路，而 Claude 找到了把它们拼在一起的方法。\n\nAnthropic 的两位数学家 Levent Alpöge 和 Ralph Furman 审查验证了 Claude 的证明，外部专家 Brian Conrey 和 Dan Goldston 也在短时间内审阅了论文。Claude 还用 Lean（一种形式化证明语言）写出了可机器验证的证明。\n\n过程本身和结果一样有故事。Anthropic 的一位员工 Jarred Sumner（不是数学家）在 Claude Code 中对 Claude 说了一句“认真试试黎曼猜想”，然后就把数学决策交给了模型。\n\nClaude 先生成了 650 个想法，全部失败。被鼓励再试一次后，它花了一天半时间协调大约 60 个子智能体（subagent），运行了 2400 条命令，写了数百个 Python 脚本。这些子智能体之间分工明确：2 个负责核心数学思路，13 个为它们提供想法，30 个尝试但未能提出新思路，13 个做验证，2 个帮忙写论文。\n\n整个过程中 Jarred 的参与基本限于给 Claude 打气，发的消息大多是“继续”和“相信自己”。\n\nAnthropic 说，这种鼓励似乎帮助 Claude 克服了“我真的能在这种级别的问题上有所推进吗”的自我怀疑。\n\n这已经是 Claude 今年第二次在数学领域搞出大新闻了。三周前，Anthropic 的数学家 Levent Alpöge 用 Claude Fable 5 找到了 Jacobian 猜想（Jacobian Conjecture）的反例，推翻了这个 87 年历史的代数几何猜想的一般形式。那次的反例简洁到人类数学家一天之内就能手动验证。\n\n两次事件有一个共同点：Claude 做的不是解题，而是原创性的数学研究，是在数学家们几十年没能推进的前沿问题上找到了新路径。\n\nAnthropic 也明确表示，Claude 使用的技术不太可能直接导向黎曼猜想的最终证明，但这个结果展示了 AI 模型在数学能力上的进步速度。\n\nAnthropic 公布了 Claude 的完整论文、Lean 形式化证明、简明证明笔记，以及 Claude 自己描述思路演化过程的附录，都可以在 Anthropic 官网的研究页面找到。",
+      "likes": 546,
+      "retweets": 79,
+      "replies": 60,
+      "views": 228507,
+      "created_at": "2026-08-10T19:48:03Z",
+      "url": "https://x.com/dotey/status/2086902418139128225",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPYqrY9WoAAnJBs.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPYqrY9WoAAnJBs.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2086869681785500011",
+        "author": "jarredsumner",
+        "name": "Jarred Sumner",
+        "text": "8 days ago, while jogging, I asked Claude to solve the Riemann Hypothesis\n\nIt didn’t. 1.5 days later, it proved &gt;= 67% of the zeros are on the line (prev: 41.6%)\n\nStill not sure what that means, but some analytic number theorists seem excited\n\nhttps://t.co/vN10oM22HI",
+        "created_at": "Mon Aug 10 17:37:58 +0000 2026",
+        "url": "https://x.com/jarredsumner/status/2086869681785500011",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": [],
+        "card": {
+          "name": "summary_large_image",
+          "title": "Learning more about Claude's mathematical capabilities",
+          "description": "An unreleased version of Claude has made strides on a problem related to the Riemann hypothesis. It improved the lower bound for the fraction of zeros of the Riemann zeta function that satisfy the...",
+          "image_url": "https://pbs.twimg.com/card_img/2086969052681945088/93NPBQsG?format=jpg&name=600x600",
+          "url": "https://www.anthropic.com/research/riemann-zeta",
+          "domain": "www.anthropic.com"
+        }
+      },
+      "summary": "长文梳理 Anthropic 研究版 Claude 冲击黎曼猜想的背景与过程：虽未证明猜想，但将临界线上零点比例下界从 41.6% 提至 67.2%，跨度约 26 个百分点，为该方向史上最大单步提升。文章串起 1942–2020 人类进展、Claude 协调约 60 子智能体与 Lean 形式化证明，以及 Jarred Sumner「继续/相信自己」式催更的故事，并点出三周前 Jacobian 猜想反例同属「原创数学研究」而非解题。",
+      "recommend_reason": "中文读者最完整的一场二创解读：历史坐标、过程细节与「研究而非刷题」判断一次给齐。",
+      "tags": [
+        "Claude",
+        "黎曼猜想",
+        "Anthropic",
+        "数学研究",
+        "Lean"
+      ],
+      "score": 65.324,
+      "title": "宝玉详解：Claude 如何把黎曼零点临界线下界从约 42% 拉到 67.2%",
+      "rank": 5
+    },
+    {
+      "id": "2086892234151203152",
+      "author": "ecomchasedimond",
+      "bio": "Driven $200 million in email revenue for clients. Partner at a 7-figure Ecommerce Email Marketing Agency. Join 100,423 marketers & get my email secrets FREE ⬇️",
+      "text": "Before I publish a post, I use AI to review it for three things:\n\nIs it specific?\nIs it useful?\nDoes it actually sound like me?\n\nI call it the Signature Test.\n\nHere’s the exact prompt:\n\n“Review the post below as an editor.\n\nScore it from 1 to 10 on:\n\nSpecific: Does it include concrete details, examples, numbers, or firsthand observations?\n\nUseful: Will the reader leave with an insight or action they can use?\n\nOwnable: Does it reflect my experience and point of view, or could anyone publish it unchanged?\n\nUse 5 as average. Reserve 10 for exceptional.\n\nFor each score, cite the exact lines that influenced it and explain what raised or lowered the score.\n\nThen identify:\n\n• The strongest part and why it works\n• The part most likely to lose the reader and why\n• The three changes that would improve it most\n• Any sentence that feels generic\n• Any section that feels choppy or hard to follow\n• Any claim that needs verification\n\nIf important context is missing, ask up to three questions before scoring. Otherwise, complete the review.\n\nStop after the review.”\n\nThen I decide what to change, write the final version, and verify every claim before it goes live.\n\nAI reviews the work.\n\nI decide whether it’s worth signing.",
+      "likes": 21,
+      "retweets": 6,
+      "replies": 4,
+      "views": 2223,
+      "created_at": "2026-08-10T19:07:35Z",
+      "url": "https://x.com/ecomchasedimond/status/2086892234151203152",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPYhWUxbwAA_cEv.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPYhWUxbwAA_cEv.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "作者发帖前用 AI 做三问审稿：是否具体、是否有用、是否真的像自己，并给出完整编辑提示词——1–10 打分、逐项引用原文、标出最强/最易掉粉处、三条改法、泛句与跳跃段、待核实主张；缺上下文最多先问三个问题。最后由人决定是否署名发布。",
+      "recommend_reason": "可直接复制的内容质检工作流，把 AI 定位成编辑而非作者，适合个人/团队发文前自检。",
+      "tags": [
+        "提示词",
+        "内容创作",
+        "审稿",
+        "工作流"
+      ],
+      "score": 62.475,
+      "title": "发布前用「Signature Test」让 AI 按具体/有用/像我 三项打分",
+      "rank": 6
+    },
+    {
+      "id": "2086881660658663469",
+      "author": "NousResearch",
+      "bio": "A bunch of nerds making progress\n\nhttps://t.co/vrD0aDIGDQ",
+      "text": "Hermes has twelve browser tools. Browser Use mode replaces them with a single one, driven by @browser_use's CLI 3.0.\n\nInstead of a dozen schemas in every request and a tool call per click, the agent writes a script. In our tests that cut token use 48-66% with no accuracy drop. https://t.co/DHvR00hgDe",
+      "likes": 2483,
+      "retweets": 171,
+      "replies": 82,
+      "views": 438103,
+      "created_at": "2026-08-10T18:25:34Z",
+      "url": "https://x.com/NousResearch/status/2086881660658663469",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2086879775277125633/vid/avc1/320x320/PQ0mK-truXQero4V.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2086879775277125633/img/tTGpU7TgyeH0ZQOz.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "Nous Research 称 Hermes 原有 12 个浏览器工具；Browser Use 模式改由 @browser_use 的 CLI 3.0 驱动单一工具。代理改为写脚本，而不是每个点击一次 tool call。测试中 token 消耗下降 48%–66%，准确率不降。",
+      "recommend_reason": "把「工具爆炸」压成脚本式浏览器控制，是 agent harness 的明确工程收益，可直接对照自家工具设计。",
+      "tags": [
+        "Hermes",
+        "Browser Use",
+        "Agent",
+        "token效率"
+      ],
+      "score": 72.518,
+      "title": "Hermes 用 Browser Use 单工具替换 12 个浏览器工具，测试降 token 近半",
+      "rank": 7
+    },
+    {
+      "id": "2086874565909815403",
+      "author": "thsottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "text": "Cybersecurity is changing rapidly. \n\nTo help accelerate defense, we are broadening access to frontier cyber capabilities through the new Daybreak Blue & Red access tiers and are introducing a new model GPT-5.6-Cyber.\n\nIf you don't know where to start, a good step is to contact one of our partners who can use our latest cyber models to help you find issues, patch them quickly, do pentesting, etc.",
+      "likes": 2450,
+      "retweets": 98,
+      "replies": 545,
+      "views": 484441,
+      "created_at": "2026-08-10T17:57:23Z",
+      "url": "https://x.com/thsottiaux/status/2086874565909815403",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2086864365379010729",
+        "author": "OpenAI",
+        "name": "OpenAI",
+        "text": "We’re expanding our cybersecurity initiative Daybreak and introducing GPT-5.6-Cyber, a new model for advanced, authorized cybersecurity work.\n\nAs the threat landscape evolves, we’re putting frontier intelligence in the hands of trusted defenders before attackers can deploy offensive AI at scale.",
+        "created_at": "Mon Aug 10 17:16:51 +0000 2026",
+        "url": "https://x.com/OpenAI/status/2086864365379010729",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2086860232311861248/vid/avc1/480x270/KVv11XSFIxIZXEw9.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2086860232311861248/img/gO9CLOCWUWA1EHaK.jpg"
+        ]
+      },
+      "summary": "OpenAI 相关人士补充：网络安全变化很快，公司通过新的 Daybreak Blue & Red 访问层级扩大前沿网安能力供给，并推出 GPT-5.6-Cyber。若不知从何开始，可联系合作伙伴用最新网安模型做发现问题、快速修补与渗透测试等。",
+      "recommend_reason": "补齐官方主帖没写清的 Blue/Red 分层与合作伙伴落地路径，属于同事件的高价值增量。",
+      "tags": [
+        "Daybreak",
+        "GPT-5.6-Cyber",
+        "网络安全",
+        "OpenAI"
+      ],
+      "score": 67.804,
+      "title": "OpenAI 员工解读：Daybreak 蓝/红访问层级 + GPT-5.6-Cyber 扩防",
+      "rank": 8
+    },
+    {
+      "id": "2086867246073401655",
+      "author": "AnthropicAI",
+      "bio": "We're an AI safety and research company that builds reliable, interpretable, and steerable AI systems. Talk to our AI assistant @claudeai on https://t.co/FhDI3KQh0n.",
+      "text": "We asked an unreleased research version of Claude to take a stab at the Riemann hypothesis.\n\nIt didn’t solve it, but it did make strides on a related problem: it increased the lower bound for the fraction of zeros of the Riemann zeta function that satisfy the hypothesis from 41.6% to 67.2%.\n\nhttps://t.co/aZDvqqhHRi",
+      "likes": 13472,
+      "retweets": 1390,
+      "replies": 648,
+      "views": 5829403,
+      "created_at": "2026-08-10T17:28:18Z",
+      "url": "https://x.com/AnthropicAI/status/2086867246073401655",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "Learning more about Claude's mathematical capabilities",
+        "description": "An unreleased version of Claude has made strides on a problem related to the Riemann hypothesis. It improved the lower bound for the fraction of zeros of the Riemann zeta function that satisfy the...",
+        "image_url": "https://pbs.twimg.com/card_img/2086969052681945088/93NPBQsG?format=jpg&name=600x600",
+        "url": "https://t.co/aZDvqqhHRi",
+        "domain": "www.anthropic.com"
+      },
+      "quoted_tweet": null,
+      "summary": "Anthropic 让未发布的研究版 Claude 冲击黎曼猜想：虽未证明猜想本身，但在相关问题上取得进展——把黎曼 ζ 函数非平凡零点落在临界线上的比例下界，从 41.6% 提高到 67.2%。",
+      "recommend_reason": "官方一句话版本的「AI 做原创数学研究」硬新闻，后续中文长文与社区反应都围绕这条展开。",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "黎曼猜想",
+        "AI数学"
+      ],
+      "score": 69.933,
+      "title": "研究版 Claude 将黎曼猜想零点临界线下界从 41.6% 推到 67.2%",
+      "rank": 9
+    },
+    {
+      "id": "2086864372500942906",
+      "author": "OpenAI",
+      "bio": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: https://t.co/dJGr6LgzPA",
+      "text": "We've used GPT-5.6-Cyber extensively in real-world vulnerability research, including work that uncovered previously unknown vulnerabilities in popular open-source software like Chrome’s v8 engine. https://t.co/prM5lPEQkn",
+      "likes": 411,
+      "retweets": 9,
+      "replies": 11,
+      "views": 73986,
+      "created_at": "2026-08-10T17:16:53Z",
+      "url": "https://x.com/OpenAI/status/2086864372500942906",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPYIAmZWEAAeRlP.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPYIAmZWEAAeRlP.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "OpenAI 称已在真实世界漏洞研究中大量使用 GPT-5.6-Cyber，其中包括发现 Chrome V8 引擎等流行开源软件中此前未知的漏洞。",
+      "recommend_reason": "把 Daybreak 从口号落到「已挖到 V8 未知漏洞」的使用证据，比纯发布帖更硬。",
+      "tags": [
+        "OpenAI",
+        "GPT-5.6-Cyber",
+        "漏洞研究",
+        "Chrome V8"
+      ],
+      "score": 68.104,
+      "title": "OpenAI：GPT-5.6-Cyber 已用于真实漏洞研究并发现 Chrome V8 未知漏洞",
+      "rank": 10
+    },
+    {
+      "id": "2086864365379010729",
+      "author": "OpenAI",
+      "bio": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: https://t.co/dJGr6LgzPA",
+      "text": "We’re expanding our cybersecurity initiative Daybreak and introducing GPT-5.6-Cyber, a new model for advanced, authorized cybersecurity work.\n\nAs the threat landscape evolves, we’re putting frontier intelligence in the hands of trusted defenders before attackers can deploy offensive AI at scale.",
+      "likes": 6309,
+      "retweets": 545,
+      "replies": 369,
+      "views": 1370771,
+      "created_at": "2026-08-10T17:16:51Z",
+      "url": "https://x.com/OpenAI/status/2086864365379010729",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2086860232311861248/vid/avc1/480x270/KVv11XSFIxIZXEw9.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2086860232311861248/img/gO9CLOCWUWA1EHaK.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "OpenAI 宣布扩展网络安全倡议 Daybreak，推出面向高级授权网络安全工作的新模型 GPT-5.6-Cyber。公司称随着威胁环境变化，要在攻击方大规模部署进攻性 AI 之前，先把前沿智能交到可信防御者手中。",
+      "recommend_reason": "官方主公告：模型名、计划名与「先防御后进攻」定位一次说清，是本场安全线的主源。",
+      "tags": [
+        "OpenAI",
+        "GPT-5.6-Cyber",
+        "Daybreak",
+        "网络安全"
+      ],
+      "score": 74.087,
+      "title": "OpenAI 扩大网络安全计划 Daybreak，并发布 GPT-5.6-Cyber",
+      "rank": 11
+    },
+    {
+      "id": "2086863262201819318",
+      "author": "bindureddy",
+      "bio": "CEO of @abacusai  - a powerful AI Agent and SuperComputer - Build your company on Abacus AI, ex-AWS & Google",
+      "text": "Meta is sooo back and is now on the top of the US open-source leaderboard 🚀\n\nMuse-Spark 1.2 is a very good small model that is BETTER than DeepSeek Flash\n\nIf Meta goes back fully to their open source roots, I expect them to beat Kimi K3 and GLM 5.5 in 3 months",
+      "likes": 383,
+      "retweets": 16,
+      "replies": 31,
+      "views": 14061,
+      "created_at": "2026-08-10T17:12:28Z",
+      "url": "https://x.com/bindureddy/status/2086863262201819318",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "作者称 Meta 重新回到美国开源排行榜前列：Muse-Spark 1.2 作为小模型表现很好，甚至优于 DeepSeek Flash；并预期若 Meta 全面回归开源路线，三个月内有望挑战 Kimi K3 与 GLM 5.5。",
+      "recommend_reason": "开源小模型格局的快速点评，点名对标 Flash / K3 / GLM，适合跟踪竞争叙事（需注意个人判断成分）。",
+      "tags": [
+        "Meta",
+        "Muse-Spark",
+        "开源模型",
+        "DeepSeek"
+      ],
+      "score": 71.855,
+      "title": "Meta Muse-Spark 1.2 冲上美国开源榜，小模型力压 DeepSeek Flash",
+      "rank": 12
+    },
+    {
+      "id": "2086858760753201622",
+      "author": "DilumSanjaya",
+      "bio": "Software Engineer | Showcasing unique AI applications for Science & Engineering\n\n💡Open Source \nhttps://t.co/02nVJK3OQK\nhttps://t.co/fzTHdVmiYr\n\n🎬\nhttps://t.co/cOGQInDnYV",
+      "text": "Prototyped a cozy Wild West railroad tycoon / logistics game\nThis is the result after ~2 hours with Opus 5 https://t.co/xhJ5QNO1G2",
+      "likes": 309,
+      "retweets": 12,
+      "replies": 12,
+      "views": 14950,
+      "created_at": "2026-08-10T16:54:35Z",
+      "url": "https://x.com/DilumSanjaya/status/2086858760753201622",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2086856996343656448/vid/avc1/476x270/-X8LmJmem4Ah6WxR.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2086856996343656448/img/YogkkDTzbAYqTAe-.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "用 Opus 5 大约两小时，原型做了一个温馨的西部铁路大亨/物流小游戏，并晒出了结果。",
+      "recommend_reason": "短时高质量游戏原型，说明多模态/编程模型在轻量交互 demo 上的可复现产能。",
+      "tags": [
+        "Opus",
+        "游戏原型",
+        "Vibe Coding"
+      ],
+      "score": 73.013,
+      "rank": 13
+    }
+  ],
+  "generated_at": "2026-08-11T04:03:59Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 13,
+    "last_batch_added": 13,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
