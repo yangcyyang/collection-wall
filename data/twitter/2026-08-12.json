@@ -9,6 +9,355 @@
   },
   "items": [
     {
+      "id": "2087562800982077492",
+      "author": "SpaceXAI",
+      "bio": "",
+      "text": "Introducing Grok 4.6.\n\nIt delivers frontier intelligence and is a significant improvement over Grok 4.5 at the same price. https://t.co/RtTbpXcb3a",
+      "likes": 5133,
+      "retweets": 743,
+      "replies": 394,
+      "views": 660273,
+      "created_at": "2026-08-12T15:32:11Z",
+      "url": "https://x.com/SpaceXAI/status/2087562800982077492",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPiC3t5awAA2WS-.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPiC3t5awAA2WS-.png"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 74.043,
+      "summary": "Grok 4.6 发布：在同等价格下相对 Grok 4.5 有明显提升，宣称达到前沿智能水平。",
+      "recommend_reason": "xAI 官方首发口径，是本窗口最硬的产品发布事实，适合作为夜场头条信号。",
+      "tags": [
+        "Grok",
+        "xAI",
+        "模型发布"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2087562803075068196",
+      "author": "SpaceXAI",
+      "bio": "",
+      "text": "Grok 4.6 is faster than comparable models and can handle much more challenging tasks than Grok 4.5.\n\nIt's half the price of other frontier models at $2/M input and $6/M output tokens.",
+      "likes": 844,
+      "retweets": 27,
+      "replies": 16,
+      "views": 29406,
+      "created_at": "2026-08-12T15:32:11Z",
+      "url": "https://x.com/SpaceXAI/status/2087562803075068196",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 73.709,
+      "summary": "Grok 4.6 宣称比同类更快、更能打高难度任务，且定价 $2/M 输入、$6/M 输出，约为其他前沿模型一半。",
+      "recommend_reason": "补齐了 4.6 的速度与价格坐标，方便和 Claude/GPT 系做横向比价。",
+      "tags": [
+        "Grok",
+        "定价",
+        "模型性能"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2087553298362699926",
+      "author": "higgsfield",
+      "bio": "",
+      "text": "Higgsfield Plugin is officially in the ChatGPT app.\n\nGenerate with Seedance 2.5, Seedance 2.0, Seedream 5.0 Pro, GPT Image 2.0, and Kling 3.0 without leaving the chat.\n\nThe Faceless Channel, Narrator, and Subtitles skills are already live inside it. https://t.co/TfObYjzoiw",
+      "likes": 136,
+      "retweets": 17,
+      "replies": 18,
+      "views": 8430,
+      "created_at": "2026-08-12T14:54:25Z",
+      "url": "https://x.com/higgsfield/status/2087553298362699926",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2087552798531702785/vid/avc1/480x270/A3bZsPlNbL5TMiA5.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2087552798531702785/img/P3DK4dx5Os2lk5ze.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 70.25,
+      "title": "Higgsfield 正式进 ChatGPT App 插件",
+      "summary": "Higgsfield 宣布插件已上架 ChatGPT App，可在对话内调用 Seedance 2.5/2.0、Seedream 5.0 Pro、GPT Image 2.0、Kling 3.0；Faceless Channel、Narrator、Subtitles 等 skills 已可用。",
+      "recommend_reason": "视频/图像工具进 ChatGPT 生态，是“模型入口→创作流水线”一体化的清晰产品信号。",
+      "tags": [
+        "ChatGPT",
+        "Higgsfield",
+        "AI视频",
+        "插件"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2087540876146835775",
+      "author": "VigoCreativeAI",
+      "bio": "",
+      "text": "VISUAL OS 018 — Paper Bloom Covers\n\nFour magazines. Four people holding something small up to the light.\n\nCRAVE — dessert designed like a city\nCURRENT — new currents beneath an old moon\nPULSE — the engineer rebuilding midnight radio\nINDEX — rare color engineered after midnight\n\nLocked:\n– oat paper field with print grain, never white\n– a heavy red masthead across the top, always cropped by the head\n– one hairline letterspaced kicker above it, a full sentence\n– strict left-facing profile, built from hard-edged facets — cut paper, no gradients\n– a cascade of overlapping petals down the right: scarlet, coral, cobalt, navy\n– left column: oversized black numeral, slab headline, typewriter body, thin red rules\n– one black starburst badge, three words maximum\n– one handwritten note, one line-engraved object, one barcode\n– the subject always holds one small thing near the face and reads it\n\nSwaps: obsession / masthead / kicker sentence / issue number / badge / engraved object\n\nSugar, tides, frequencies, seeds. Same gesture every time.\n\nPrompt ↓",
+      "likes": 11,
+      "retweets": 0,
+      "replies": 9,
+      "views": 317,
+      "created_at": "2026-08-12T14:05:04Z",
+      "url": "https://x.com/VigoCreativeAI/status/2087540876146835775",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPhvXHiXMAEPf74.jpg",
+        "https://pbs.twimg.com/media/HPhvXKMXgAEWmnH.jpg",
+        "https://pbs.twimg.com/media/HPhvXKhXMAAB9qA.jpg",
+        "https://pbs.twimg.com/media/HPhvXKSXUAAZYqn.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPhvXHiXMAEPf74.jpg",
+        "https://pbs.twimg.com/media/HPhvXKMXgAEWmnH.jpg",
+        "https://pbs.twimg.com/media/HPhvXKhXMAAB9qA.jpg",
+        "https://pbs.twimg.com/media/HPhvXKSXUAAZYqn.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 71.902,
+      "title": "一套可复用的纸花杂志封面视觉系统",
+      "summary": "作者给出 VISUAL OS 018「Paper Bloom」杂志封面配方：燕麦纸底、沉重红色刊头、左侧大数字+板式标题、右侧层叠花瓣、硬边侧面剪影，并用四个题材复用同一手势。附可替换槽位（obsession/masthead/kicker/期号/徽章/雕刻物）。",
+      "recommend_reason": "不是零散提示词，而是可迁移的 AI 视觉设计系统；对做系列封面/统一风格很有参考价值。",
+      "tags": [
+        "AI设计",
+        "提示词",
+        "视觉系统",
+        "Midjourney"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2087533369701572700",
+      "author": "turingou",
+      "bio": "",
+      "text": "最近把啵啵寄养在别人家的猫接回家，所以买了一个自动喂食器和自动猫砂盆。我想着用 Codex 把这两个东西接管进来，原本以为我需要把这两个东西的账户密码给到它。\n\n大家知道在日亚购买这些产品，总感觉是贴牌的杂牌产品，所以每个产品的 App 都设计得有点山寨。原本我想着要把这些账户密码全都发给它，结果它发现背后都在使用涂鸦 3.5 协议。\n\n然后它就在我手机上，直接使用 Computer Use，通过我的手机镜像功能来进行确认，这个也太牛逼了！",
+      "likes": 28,
+      "retweets": 0,
+      "replies": 4,
+      "views": 8961,
+      "created_at": "2026-08-12T13:35:14Z",
+      "url": "https://x.com/turingou/status/2087533369701572700",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPhofU3asAEELjE.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPhofU3asAEELjE.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 61.381,
+      "title": "Codex 用 Computer Use 接管自动喂食器与猫砂盆",
+      "summary": "作者想用 Codex 接管日亚买的自动喂食器和猫砂盆，原以为要交出各 App 账号密码；结果 Codex 识别它们走涂鸦 3.5 协议，并在手机镜像上用 Computer Use 完成确认，无需把凭据硬塞给模型。",
+      "recommend_reason": "真实家居设备场景，展示 Agent 发现协议共性 + 电脑使用能力，比空喊“能操作电脑”更有说服力。",
+      "tags": [
+        "Codex",
+        "Computer Use",
+        "智能硬件",
+        "Agent"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2087494806909968867",
+      "author": "gkxspace",
+      "bio": "🌸05年连续创业者 | 专注 AI 产品 | 项目营收 7 位数+\n✨记录真实的创业路：项目复盘、踩坑总结和成长思考\n💗AI 产品构建 & AI 商业化方案 & 企业 AI 转型",
+      "text": "最近看很多推友抱怨：Codex 额度是真的不耐用了。。。\n\n雀食，我以前 Pro 5x 爽用，现在 Pro 20x，高频用一天就能干一周大半额度。\n\n研究了一下，大家可以注意这几个地方：\n1、Fast 还是少用，额度消耗是常规的 2.5 倍。\n\n2、普通任务少用 Sol，按现在的额度费率，同样的 Token，Sol 是 Terra 的 2.5 倍、Luna 的 25 倍。\n\n3、Ultra 不要用，非常过度思考，而且很喜欢搞一堆子Agent，当然也可以限制一下子 Agent 的并行数量。\n\n4、Approve for me 模式，会再拉一个 reviewer Agent。有人翻了自己 6 周的日志，居然看到 2.35 万次自动审批、17.4 亿 Token；也有人关掉后，额度明显耐用了。\n\n突然有点想再去买 Claude 了，Fable5 现在真比 5.6sol 好太多了......",
+      "likes": 40,
+      "retweets": 3,
+      "replies": 26,
+      "views": 23930,
+      "created_at": "2026-08-12T11:02:00Z",
+      "url": "https://x.com/gkxspace/status/2087494806909968867",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPglW5vbwAA6d-w.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPglW5vbwAA6d-w.png"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2076921635056009350",
+        "author": "gkxspace",
+        "name": "余温",
+        "text": "我第一次见到一个模型，单任务能一上午把 $200 的周限额干完。。。\n\n真后悔没好好看一下这篇 Theo 的文章\n\n这几天我高频用 GPT-5.6-sol，感觉能力确实和 Fable 5 一档，写作也非常强，大部分任务还是愿意交给它\n\n但这模型真的太爱深度思考了。一个很傻逼、几步就能解决的问题，它也可能反复调查、绕来绕去，烧了一大堆额度，结果还没解决好\n\n看完 Theo 这篇文章才知道，贵是几件事叠的：\n5.6 一跑就很久，Fast 还要乘 2.5 倍，当前 Ultra 又会疯狂复制同模型、同推理等级的子代理\n\n我现在默认 High 了，Fast 还是先关掉了，也不让它擅自开大量子代理（Fable5 还是更牛逼些）",
+        "created_at": "Tue Jul 14 06:47:59 +0000 2026",
+        "url": "https://x.com/gkxspace/status/2076921635056009350",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 62.561,
+      "title": "Codex 额度不耐用的四条省流实操",
+      "summary": "作者总结 Pro 高频用户额度被快速吃光的经验：少用 Fast（约 2.5 倍消耗）、普通任务少用 Sol（相对 Terra/Luna 很贵）、慎用 Ultra 与大量子 Agent、关掉 Approve-for-me 避免自动拉 reviewer。并提到有人 6 周日志出现 2.35 万次自动审批与 17.4 亿 Token。",
+      "recommend_reason": "把模糊的“额度不耐用”拆成可执行开关，对每天高强度用 Codex 的人立刻有用。",
+      "tags": [
+        "Codex",
+        "额度",
+        "使用技巧",
+        "GPT"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2087487186102825256",
+      "author": "VigoCreativeAI",
+      "bio": "AI Artist & Designer | @Alibaba_Qwen Ambassador\nCreative Partner @Hailuo_AI\nAI visuals, design systems & creative workflows\nBusiness:  vigozhaoai@gmail.com",
+      "text": "The recipe:\n\n--sref 4102539279 3523485158 --sw 100\n\nPrompt template: \"A majestic [creature] with full [animal] anatomy, [scene with crystals], decorated with intricate glowing dots and flowing patterns, vibrant gradients, high contrast\"\n\nTip: the anatomy anchor stops the anime sref from turning animals into girls. Steal it.",
+      "likes": 4,
+      "retweets": 0,
+      "replies": 0,
+      "views": 113,
+      "created_at": "2026-08-12T10:31:43Z",
+      "url": "https://x.com/VigoCreativeAI/status/2087487186102825256",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPg-dkkWEAANJUs.jpg",
+        "https://pbs.twimg.com/media/HPg-dkqXEAAz4D3.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPg-dkkWEAANJUs.jpg",
+        "https://pbs.twimg.com/media/HPg-dkqXEAAz4D3.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 71.068,
+      "title": "用 anatomy 锚点稳住动物 sref 不崩成二次元",
+      "summary": "分享 sref 组合 `--sref 4102539279 3523485158 --sw 100`，模板强调完整动物解剖结构与晶体场景，并用 anatomy 锚点防止 anime sref 把动物画成少女。",
+      "recommend_reason": "短而可抄的出图技巧，解决 sref 风格串台的常见翻车点。",
+      "tags": [
+        "Midjourney",
+        "sref",
+        "AI绘画"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2087475502017847395",
+      "author": "CuiMao",
+      "bio": "AI Developer ｜ Qwen｜ \nGithub: https://t.co/CRpiUABbzd",
+      "text": "我目前体感测下来，Wan3 的动作控制和提示词遵从非常符合普通人的思维模式，简单的一两句描述它直接可以输出本来要老长一段词才能描述清楚的运镜， https://t.co/peEjuNsND5",
+      "likes": 85,
+      "retweets": 2,
+      "replies": 42,
+      "views": 10251,
+      "created_at": "2026-08-12T09:45:17Z",
+      "url": "https://x.com/CuiMao/status/2087475502017847395",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2087474625823592448/vid/avc1/480x270/DsLsfSNxQg5Qxc6w.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2087474625823592448/img/arhhheBmbtj3Mawy.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 65.076,
+      "summary": "我目前体感测下来，Wan3 的动作控制和提示词遵从非常符合普通人的思维模式，简单的一两句描述它直接可以输出本来要老长一段词才能描述清楚的运镜，",
+      "recommend_reason": "一线体感：Wan3 在短提示下的运镜遵从性，比堆长 prompt 更贴近普通人用法。",
+      "tags": [
+        "Wan3",
+        "AI视频",
+        "提示词遵从"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2087462124490469470",
+      "author": "IndieDevHailey",
+      "bio": "独立开发者 · AI Builder\nAI × 全栈 × 增长\nGoViralX｜连接品牌与 KOL\n商务合作 & 品牌增长咨询：hailey_le_1",
+      "text": "刚刚刷到这个开源项目 LoopX，设计思路挺干净的。\n\n专治 AI Agent 长时间跑、多 Agent 协作乱套的问题。\n\n它能做到：\n一个人管上千个 Agent 团队\n持久目标 + 自动唤醒 + 证据日志\nAgent 之间互相提 PR、互相 review\n完全本地优先，不绑死任何模型厂商\n\n不管你用 Codex、Claude Code 还是其他环境，都能接。本地优先，不引入重依赖。",
+      "likes": 14,
+      "retweets": 0,
+      "replies": 14,
+      "views": 1371,
+      "created_at": "2026-08-12T08:52:08Z",
+      "url": "https://x.com/IndieDevHailey/status/2087462124490469470",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPgnlDObEAAT7OR.jpg",
+        "https://pbs.twimg.com/media/HPgnuwRbQAEALnw.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPgnlDObEAAT7OR.jpg",
+        "https://pbs.twimg.com/media/HPgnuwRbQAEALnw.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 62.623,
+      "summary": "刚刚刷到这个开源项目 LoopX，设计思路挺干净的。\n\n专治 AI Agent 长时间跑、多 Agent 协作乱套的问题。\n\n它能做到：\n一个人管上千个 Agent 团队\n持久目标 + 自动唤醒 + 证据日志\nAgent 之间互相提 PR、互相 review\n完全本地优先，不绑死任何模型厂商\n\n不管你用 Codex、Claude Code 还是其他环境，都能接。本地优先，不引入重依赖。",
+      "recommend_reason": "本地优先的多 Agent 编排项目，直接对准长跑任务和互相 review 的痛点，值得进观察清单。",
+      "tags": [
+        "开源",
+        "Agent",
+        "LoopX",
+        "多Agent协作"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2087438544323420273",
+      "author": "thsottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "text": "Why did you switch to Codex? \n\nWhat do you like about it and what could we improve? Don’t say reset.",
+      "likes": 6777,
+      "retweets": 140,
+      "replies": 7544,
+      "views": 659488,
+      "created_at": "2026-08-12T07:18:26Z",
+      "url": "https://x.com/thsottiaux/status/2087438544323420273",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 70.381,
+      "summary": "Codex 相关负责人公开征集切换原因：你为什么换到 Codex？喜欢什么、还能改什么？（别只回“重置”）。",
+      "recommend_reason": "产品侧在公开收用户迁移反馈，说明 Codex 正处在体验迭代窗口，值得关注他们会优先修什么。",
+      "tags": [
+        "Codex",
+        "OpenAI",
+        "产品反馈"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2087433232115708106",
+      "author": "bindureddy",
+      "bio": "CEO of @abacusai  - a powerful AI Agent and SuperComputer - Build your company on Abacus AI, ex-AWS & Google",
+      "text": "New model releases are going to pick up again \n\nModels that I am most excited about \n\n- Grok 4.6 \n- GLM 5.5 \n- Deepseek v4 Pro\n\nPricing will be key for adoption",
+      "likes": 161,
+      "retweets": 4,
+      "replies": 26,
+      "views": 8599,
+      "created_at": "2026-08-12T06:57:19Z",
+      "url": "https://x.com/bindureddy/status/2087433232115708106",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 65.998,
+      "summary": "作者判断新模型发布节奏会重新加快，最期待 Grok 4.6、GLM 5.5、DeepSeek v4 Pro，并强调定价会决定采用率。",
+      "recommend_reason": "简洁的产业观察：把“下一批值得盯的模型”和“价格决定采用”放在同一句里，适合对照后续发布验证。",
+      "tags": [
+        "模型发布",
+        "Grok",
+        "DeepSeek",
+        "GLM"
+      ],
+      "rank": 11
+    },
+    {
       "id": "2087388859629994210",
       "author": "dingyi",
       "bio": "promote your product  ‣ dingyi@me.com\nnewsletter ‣ https://t.co/q1JG1yCzdb\nrefine your startup ‣ https://t.co/FfUYboxOr5\nnewest product ‣ https://t.co/cP6NQ3keo5",
@@ -56,7 +405,7 @@
         "工具"
       ],
       "title": "海外 AI 视频工具三连：Butter 可编程时间线、MOVO 模板导出、Ultramock 产品 3D 动效",
-      "rank": 1
+      "rank": 12
     },
     {
       "id": "2087386250126721534",
@@ -95,7 +444,7 @@
         "成本"
       ],
       "title": "Grok bot 初体验：能搭多 Agent 龙虾，但消耗猛、形态上 Codex 类也能覆盖",
-      "rank": 2
+      "rank": 13
     },
     {
       "id": "2087386074649952467",
@@ -128,7 +477,7 @@
         "上下文"
       ],
       "title": "Graft：给 Claude Code 一张项目地图，官方测试搜索减半、费用降 42%、耗时少 60%",
-      "rank": 3
+      "rank": 14
     },
     {
       "id": "2087385493684335064",
@@ -167,7 +516,7 @@
         "Box"
       ],
       "title": "为什么 FDE 在 AI 时代不会消失：非确定性系统 + 客户流程重塑需要常驻落地",
-      "rank": 4
+      "rank": 15
     },
     {
       "id": "2087382566336925876",
@@ -214,7 +563,7 @@
         "开源"
       ],
       "title": "Higgsfield 开源 K-pop 动作短片 Zephyr：Special：Seedance 2.5 提示词与资产全公开",
-      "rank": 5
+      "rank": 16
     },
     {
       "id": "2087382061208494290",
@@ -246,7 +595,7 @@
         "Codex",
         "Obsidian"
       ],
-      "rank": 6
+      "rank": 17
     },
     {
       "id": "2087372171484205227",
@@ -275,7 +624,7 @@
         "开发工具"
       ],
       "title": "从 Quake→Three.js 到「让 Codex 自己迭代到完成」：跨语言移植门槛在快速下降",
-      "rank": 7
+      "rank": 18
     },
     {
       "id": "2087368423089254771",
@@ -304,7 +653,7 @@
         "卡兹克"
       ],
       "title": "卡兹克给小白的 12 步 AI 上手法：语音输入 + 苏格拉底澄清 + 沉淀 Skill",
-      "rank": 8
+      "rank": 19
     },
     {
       "id": "2087339540868649472",
@@ -355,7 +704,7 @@
         "Agent"
       ],
       "title": "彭博「AI 倦怠时代」：提效后的时间被更高强度工作填满",
-      "rank": 9
+      "rank": 20
     },
     {
       "id": "2087337198492504454",
@@ -384,7 +733,7 @@
         "OpenCode"
       ],
       "title": "本地跑大模型账算清：双 DGX 约 1 万美元，按个人 API 用量要数十年回本",
-      "rank": 10
+      "rank": 21
     },
     {
       "id": "2087336844413284731",
@@ -427,7 +776,7 @@
         "团队"
       ],
       "title": "Codex / Claude Code / Manus 三队核心名单汇总：一键关注 Agent 前线",
-      "rank": 11
+      "rank": 22
     },
     {
       "id": "2087284684103537011",
@@ -466,7 +815,7 @@
         "Anthropic"
       ],
       "title": "LLM 写代码的 bug 已从 off-by-one 转向系统设计：对抗式 code review 成关键抓手",
-      "rank": 12
+      "rank": 23
     },
     {
       "id": "2087262466703286652",
@@ -493,7 +842,7 @@
         "Google",
         "里程碑"
       ],
-      "rank": 13
+      "rank": 24
     },
     {
       "id": "2087258091821949074",
@@ -525,7 +874,7 @@
         "Anthropic",
         "可追溯"
       ],
-      "rank": 14
+      "rank": 25
     },
     {
       "id": "2087254026232775052",
@@ -566,7 +915,7 @@
         "Linux",
         "OpenAI"
       ],
-      "rank": 15
+      "rank": 26
     },
     {
       "id": "2087248033906094175",
@@ -602,7 +951,7 @@
         "安装"
       ],
       "title": "ChatGPT Linux 预览版支持 Ubuntu/Debian/Fedora，提供 deb/rpm 与 x64/ARM64",
-      "rank": 16
+      "rank": 27
     },
     {
       "id": "2087231350134980830",
@@ -635,10 +984,10 @@
         "桌面应用"
       ],
       "title": "ChatGPT 桌面端 Linux 预览版上线：原生集成 ChatGPT / Work / Codex 工作流",
-      "rank": 17
+      "rank": 28
     }
   ],
-  "generated_at": "2026-08-12T04:04:17Z",
+  "generated_at": "2026-08-12T16:05:48Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -646,11 +995,11 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 17,
-    "last_batch_added": 17,
+    "actual_count": 28,
+    "last_batch_added": 11,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
