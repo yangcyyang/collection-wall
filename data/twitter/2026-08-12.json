@@ -1,0 +1,665 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-12",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2087388859629994210",
+      "author": "dingyi",
+      "bio": "promote your product  ‣ dingyi@me.com\nnewsletter ‣ https://t.co/q1JG1yCzdb\nrefine your startup ‣ https://t.co/FfUYboxOr5\nnewest product ‣ https://t.co/cP6NQ3keo5",
+      "text": "最近人们都挤进做视频这个赛道了，国内人手一个口播 skills，国外则是出现很多视频制作的工具。比如：\n\n- Butter Video - 可编程视频编辑器，能在时间线上组合动效、3D、Shader，适合团队协作。https://t.co/fWyxszQcB4\n- MOVO - 浏览器端做视频，200 多个 AI 增强模板，直接导出社交媒体内容。https://t.co/7KCGeUNvV4\n- Ultramock - 一款用于将产品界面/截图转化为 3D 视觉展示和动效视频的在线设计工具。 https://t.co/J1w0eBcXvF",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "views": 14,
+      "created_at": "2026-08-12T04:01:00Z",
+      "url": "https://x.com/dingyi/status/2087388859629994210",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "Butter Video | Online Video Editor Engineered for Creativity",
+        "description": "The first video editor and design platform built with creative code for creative teams. It's a whole new timeline.",
+        "image_url": "https://pbs.twimg.com/card_img/2087228629973626880/ede7Zxoj?format=jpg&name=600x600",
+        "url": "https://www.butter.video/",
+        "domain": "www.butter.video"
+      },
+      "quoted_tweet": {
+        "id": "2085334350925890001",
+        "author": "dingyi",
+        "name": "Ding",
+        "text": "发现这个组件库真好用，本质上视频也是由不同动画组成的，这个动画组件库就是让 agent 来生成产品宣传视频的，内置了很多非常不错的效果。\n\n尝试用它做了一个 @herdrdev 的视频，音频是用 @FishAudio 生成的。\n\nhttps://t.co/E6yoPoXpCF https://t.co/0oqWjgReXo",
+        "created_at": "Thu Aug 06 11:57:07 +0000 2026",
+        "url": "https://x.com/dingyi/status/2085334350925890001",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2085334323805429761/vid/avc1/480x270/iSSTwT4gt2NZSx7c.mp4?tag=14"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2085334323805429761/img/aXpJDi8mgTmlojux.jpg"
+        ]
+      },
+      "score": 52.113,
+      "summary": "dingyi 观察视频赛道升温：国内流行口播 skills，海外工具侧举例——Butter Video 可编程视频编辑器，时间线可组合动效/3D/Shader，偏团队协作；MOVO 浏览器端、200+ AI 增强模板直出社媒内容；Ultramock 把产品界面/截图做成 3D 展示与动效视频。附各自链接，便于选型试用。",
+      "recommend_reason": "短名单式产品雷达，适合想做产品演示/社媒视频的快速摸底。",
+      "tags": [
+        "AI视频",
+        "Butter",
+        "MOVO",
+        "Ultramock",
+        "工具"
+      ],
+      "title": "海外 AI 视频工具三连：Butter 可编程时间线、MOVO 模板导出、Ultramock 产品 3D 动效",
+      "rank": 1
+    },
+    {
+      "id": "2087386250126721534",
+      "author": "vista8",
+      "bio": "喜欢摇滚乐、爱钓鱼的PM",
+      "text": "替大家试了 Grok bot，结论：暂时没必要安装！\n\n可理解成能创建多 Agent 的龙虾，连接常用工具和软件，比如Gmail、Github等，但这些 Codex 等工具都可以啊。\n\n试用需绑定信用卡，消耗极快，三个agent打个几句话，一周32%的用量就没了。\n\n如果订阅了Grok的最高档Super Grok Heavy，可免费用，但300美刀一个月，真不便宜。\n\n等Grok模型更强一些，看后续产品迭代吧。\n\n类似产品形态有Bloome，更成熟更稳定，感兴趣可以试试",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 3,
+      "views": 543,
+      "created_at": "2026-08-12T03:50:38Z",
+      "url": "https://x.com/vista8/status/2087386250126721534",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPfg2cuXcAA00ZS.jpg",
+        "https://pbs.twimg.com/media/HPfg5hfXwAA_Ro9.jpg",
+        "https://pbs.twimg.com/media/HPfhNcdXAAA_c-E.jpg",
+        "https://pbs.twimg.com/media/HPfhzBHXIAAQmeg.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPfg2cuXcAA00ZS.jpg",
+        "https://pbs.twimg.com/media/HPfg5hfXwAA_Ro9.jpg",
+        "https://pbs.twimg.com/media/HPfhNcdXAAA_c-E.jpg",
+        "https://pbs.twimg.com/media/HPfhzBHXIAAQmeg.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 55.148,
+      "summary": "vista8 试用结论：暂时没必要装。Grok bot 可理解为能创建多 Agent 的「龙虾」，可连 Gmail/GitHub 等；但同类能力 Codex 等已有。试用要绑信用卡且消耗极快——三 agent 聊几句就吃掉一周约 32% 额度；Super Grok Heavy（$300/月）可免费用但仍贵。建议等模型与产品迭代，并提到类似形态的 Bloome 更成熟。",
+      "recommend_reason": "带真实消耗数字的冷启动评测，帮你决定要不要为 Grok bot 开卡。",
+      "tags": [
+        "Grok",
+        "Agent",
+        "xAI",
+        "评测",
+        "成本"
+      ],
+      "title": "Grok bot 初体验：能搭多 Agent 龙虾，但消耗猛、形态上 Codex 类也能覆盖",
+      "rank": 2
+    },
+    {
+      "id": "2087386074649952467",
+      "author": "IndieDevHailey",
+      "bio": "独立开发者 · AI Builder\nAI × 全栈 × 增长\nGoViralX｜连接品牌与 KOL\n商务合作 & 品牌增长咨询：hailey_le_1",
+      "text": "Claude Code最近被验证出一件事：\n不换模型、不升级套餐、不搞复杂配置，只是多给它一张项目地图，性能就能明显拉开差距。\n\n这个地图工具叫Graft，开源的，免费，GitHub星已经破1600了。\n\n它做的事情其实很朴素：提前把代码结构、模块关系整理成图谱，让AI不用每次都从头摸索。\n\n具体数据是这样的：官方测试多12分，搜索次数减半，费用降42%，耗时少60%。\n\n就是从每天都当第一天来上班变成已经在公司干满一年。\n\n在用AI写代码的人，尤其是项目稍大一点的，这个差距会很明显。\n https://t.co/cFgaAbAV4K",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 3,
+      "views": 74,
+      "created_at": "2026-08-12T03:49:56Z",
+      "url": "https://x.com/IndieDevHailey/status/2087386074649952467",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2087180087879675906/vid/avc1/326x270/30C5xPhjC4tH1akn.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2087180087879675906/img/dc0TglWT0KbW6jbr.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 53.096,
+      "summary": "IndieDevHailey 介绍开源工具 Graft（GitHub 星已破 1600）：不换模型、不升套餐，只是预先把代码结构与模块关系整理成图谱，让 AI 不用每次从头摸索。官方测试：分数多 12 分、搜索次数减半、费用降 42%、耗时少 60%。适合中大型代码库的 AI 编程场景。",
+      "recommend_reason": "低成本提效：用项目地图改善 coding agent 上下文，而不是堆更贵模型。",
+      "tags": [
+        "Claude Code",
+        "Graft",
+        "开源",
+        "代码图谱",
+        "上下文"
+      ],
+      "title": "Graft：给 Claude Code 一张项目地图，官方测试搜索减半、费用降 42%、耗时少 60%",
+      "rank": 3
+    },
+    {
+      "id": "2087385493684335064",
+      "author": "levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "text": "Good post on how to think about FDEs. The key is that FDEs are real and not going away for AI any time soon.\n\nThe reason this is happening now at a scale that has never been seen before is because AI is fundamentally about adding a non-deterministic, rapidly changing system to workflows that largely have never been automated before. This looks very little like implementing traditional software.\n\n“If you're building an AI agent for accounting in 2026, there is no established workflow, because literally nobody has ever used one of these. Nobody knows what the user journey looks like — not you, and importantly, not your customer either. They can't tell you what they want, because the thing they'd want doesn't have a shape yet.”\n\nSoftware has largely always been deterministic and once implemented effectively worked the same for customers. This meant the upfront implementation work was *relatively* uniform across similar customers, and the system wasn’t regularly being upgraded in fundamental ways. \n\nAI agents are entirely different on nearly every dimension. The customer’s business process has to change to work with agents, there is heavy -necessary- customization to get agents to work in the customers end-state process, evals need to be run constantly, the AI models are constantly changing and updates need to keep getting incorporated, the underlying harness and broader system are often changing due to customer feedback, and much more. \n\nThis is real work for the customer, systems integrators, and the applied AI vendors. Even as AI capabilities improve dramatically, this work remains (or even gets more complicated) given enterprises will just throw increasingly more complex processes at agents. Great time to be an FDE.",
+      "likes": 4,
+      "retweets": 1,
+      "replies": 2,
+      "views": 2647,
+      "created_at": "2026-08-12T03:47:38Z",
+      "url": "https://x.com/levie/status/2087385493684335064",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2087198484093149421",
+        "author": "thejessezhang",
+        "name": "Jesse Zhang",
+        "text": "https://t.co/LCU8avjBpC",
+        "created_at": "Tue Aug 11 15:24:31 +0000 2026",
+        "url": "https://x.com/thejessezhang/status/2087198484093149421",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 49.579,
+      "summary": "Box CEO Aaron Levie 回应 FDE 讨论：AI 是把非确定性、快速变化的系统塞进从未被自动化的工作流，与传统软件实施截然不同。举例：2026 做会计 AI agent 时，客户与厂商都不知道用户旅程该长什么样。传统软件一旦落地相对统一；Agent 则要求流程改造、重度定制、持续 eval、模型与 harness 不断升级。能力越强，企业只会扔更复杂流程——FDE 工作量仍在甚至更重。",
+      "recommend_reason": "从交付形态解释「为什么卖 Agent 仍要 FDE」，对 B2B AI 商业模式判断很有用。",
+      "tags": [
+        "FDE",
+        "Agent",
+        "企业AI",
+        "落地",
+        "Box"
+      ],
+      "title": "为什么 FDE 在 AI 时代不会消失：非确定性系统 + 客户流程重塑需要常驻落地",
+      "rank": 4
+    },
+    {
+      "id": "2087382566336925876",
+      "author": "gkxspace",
+      "bio": "🌸05年连续创业者 | 专注 AI 产品 | 项目营收 7 位数+\n✨记录真实的创业路：项目复盘、踩坑总结和成长思考\n💗AI 产品构建 & AI 商业化方案 & 企业 AI 转型",
+      "text": "好家伙，Seedance 2.5 居然能把动作戏做到这种程度？？？\n\n你甚至可以逐帧学习/复刻，因为 Higgsfield 刚把 K-pop 爆火的 Zephyr: Special 开源了。\n\n每个 prompt、每份素材、每个角色全公开，你可以去逐帧研究，成片质量很顶。\n\n我拆了整个项目，这几点真离谱：\n1、去 AI 脸有一套固定词库：毛孔、绒毛、碎发、左右脸不对称、皮肤哑光......（牛逼）\n\n2、角色一致性全靠参考图：每条 prompt 都要写清楚 image_1 = 谁、image_2 = 谁，参考图，角色、机甲、场地、连一罐拉面都要有自己的参考图\n\n3、风格锚直接写摄影师名字：不写\"电影感\"仨字，写 诺兰的摄影指导 + 65mm 大画幅 + 胶片颗粒 + 24fps\n\n做 AI 视频的，这就是现成的教材，项目链接我放评论区，翻起来！！！",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 2,
+      "views": 594,
+      "created_at": "2026-08-12T03:36:00Z",
+      "url": "https://x.com/gkxspace/status/2087382566336925876",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2087382390629134336/vid/avc1/628x270/UzWYURHvVI3y1LmH.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2087382390629134336/img/aLiIfHEuy6gqEBOa.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2087174944199454776",
+        "author": "higgsfield_ai",
+        "name": "Higgsfield AI 🧩",
+        "text": "Zephyr: Special, the new episode of our K-pop action series, featuring @hay_nyash, is open-sourced for the $1,000,000 Higgsfield Global Film Festival.\n\nEvery prompt and asset is now public – Seedance 2.5 pushed to the max.\n\nStudy them and build your own worlds with your favorite characters.",
+        "created_at": "Tue Aug 11 13:50:59 +0000 2026",
+        "url": "https://x.com/higgsfield_ai/status/2087174944199454776",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2087174617358274560/vid/avc1/480x270/_9nGZbH9oWEZzlnu.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2087174617358274560/img/7MmGLIvBzyy7AAb4.jpg"
+        ]
+      },
+      "score": 57.457,
+      "summary": "gkxspace 拆解 Higgsfield 为全球电影节开源的 K-pop 动作短片：每条 prompt、素材、角色全公开，可用 Seedance 2.5 逐帧学习。关键技法：①去 AI 脸词库（毛孔/绒毛/碎发/左右不对称/哑光皮肤）；②角色一致性靠参考图绑定 image_1/2；③风格锚写具体摄影师与器材（如诺兰摄影指导+65mm+胶片颗粒+24fps），而非空泛「电影感」。",
+      "recommend_reason": "成片级 AI 视频教材：开源资产 + 可复用的去 AI 感与一致性写法。",
+      "tags": [
+        "Seedance",
+        "Higgsfield",
+        "AI视频",
+        "提示词",
+        "开源"
+      ],
+      "title": "Higgsfield 开源 K-pop 动作短片 Zephyr：Special：Seedance 2.5 提示词与资产全公开",
+      "rank": 5
+    },
+    {
+      "id": "2087382061208494290",
+      "author": "AxtonLiu",
+      "bio": "《重构个体》作者 · AI 自动化架构师 · MAPS™ 框架创建者\nAI 竞争力 = 人机协作深度 × 系统设计能力\nAuthor of \"Rebuilding the Individual\" · AI Automation Architect",
+      "text": "哈哈，OpenAI 送了我 6 个月 ChatGPT Pro。\n\n他们的 Codex for Open Source 计划，专门支持开源维护者。我提交的是我的几个开源项目，主力是这套 Obsidian 可视化 Skills。\n\n当时就是自己要用，顺手开的源。自己做的东西被认可，这感觉挺好。\n\n还有谁也喜提 Pro？来晒晒你的项目呗。 https://t.co/HIywLUlru9",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 1,
+      "views": 308,
+      "created_at": "2026-08-12T03:33:59Z",
+      "url": "https://x.com/AxtonLiu/status/2087382061208494290",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPfe7CnaIAAKcy1.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPfe7CnaIAAKcy1.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 57.623,
+      "summary": "哈哈，OpenAI 送了我 6 个月 ChatGPT Pro。\n\n他们的 Codex for Open Source 计划，专门支持开源维护者。我提交的是我的几个开源项目，主力是这套 Obsidian 可视化 Skills。\n\n当时就是自己要用，顺手开的源。自己做的东西被认可，这感觉挺好。\n\n还有谁也喜提 Pro？来晒晒你的项目呗。",
+      "recommend_reason": "可操作福利线索：开源维护者可走 Codex for Open Source 申领 Pro。",
+      "tags": [
+        "OpenAI",
+        "ChatGPT Pro",
+        "开源",
+        "Codex",
+        "Obsidian"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2087372171484205227",
+      "author": "mrdoob",
+      "bio": "Award losing non creative junior vibe coder.\nMay or may not have something to do with @threejs.",
+      "text": "It's getting easier and easier to port code.\n\nPorting Quake to Three.js back in January needed a CLAUDE.md full of footguns and a lot of hand-holding.\n\nNow we can just ask Codex to port some code and it'll keep iterating until it's done.\n\nSome day we'll just click on an incompatible app and the OS will port the binary for you.",
+      "likes": 58,
+      "retweets": 4,
+      "replies": 1,
+      "views": 2208,
+      "created_at": "2026-08-12T02:54:41Z",
+      "url": "https://x.com/mrdoob/status/2087372171484205227",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 67.792,
+      "summary": "Three.js 作者 mrdoob 对比：今年 1 月把 Quake 迁到 Three.js 还需要厚厚的 CLAUDE.md 与大量手把手；现在直接让 Codex 移植代码，它会持续迭代直到做完。他进一步畅想：有一天点开不兼容应用，操作系统就能自动移植二进制。",
+      "recommend_reason": "来自真实大规模移植经验的前后对比，比口号更能说明 coding agent 进步幅度。",
+      "tags": [
+        "Codex",
+        "Three.js",
+        "代码移植",
+        "Agent",
+        "开发工具"
+      ],
+      "title": "从 Quake→Three.js 到「让 Codex 自己迭代到完成」：跨语言移植门槛在快速下降",
+      "rank": 7
+    },
+    {
+      "id": "2087368423089254771",
+      "author": "Khazix0918",
+      "bio": "愿我们永远对世界保持好奇。\n公众号：数字生命卡兹克\nAI热点网站AIHOT：https://t.co/ZF7HGbeEyB",
+      "text": "我们经常会感觉，AI 已经这么火了，可是在我日常中，跟很多别的行业的朋友们聊，大家总是会天然的觉得，用 AI，是一件很难的事情。\n有很多人，不敢开始。\n\n包括其实我日常被问的最多的问题，也是类似的：\n\n卡老师，我想学 AI、用 AI，我要怎么开始。\n所以呢，我今天就想写一个非常非常初级的小流程，如果你想用好 AI，你就按着一步一步做，不仅可以入门，也基本有了最核心的心法。\n\n1. 首先，你需要一台电脑，Mac 最好，Windows 也可以，内存不要低于 16 个 G，你一定需要一台电脑，这个是我们用好 AI 的前提。\n\n2. 如果你能使用海外产品，Google 搜索 ChatGPT，然后注册账号，冲一个月 20 美金的订阅费用，再在官网上，下载 Codex，然后安装。\n\n3. 如果你不能使用海外产品，百度搜索 WorkBuddy，下载然后登录，可以先不充会员，记得嫖一下积分。\n\n4. 在 Codex 中把模型选择为 GPT-5.6 Sol 最高，在 WorkBuddy 中选 Kimi K3。\n\n5. 下载一个语音输入法，Mac 可以使用豆包输入法，Windows 可以使用微信输入法，从此以后，你跟 AI 发送消息的时候，就不要再打字了，直接用嘴进行表达。\n\n6. 把你脑海中你现在最头疼、最不想干、最抗拒的事情，一股脑的用语音输入法说给 AI，记得用【背景、痛点、需求】的框架来去说，然后再附上一句，\"请你先不要开始干活，用苏格拉底提问法向我提问，一次只问一个问题，直到你认为已经完全理解这件事。\"\n\n7. 回答 AI 跟你提出的问题。\n\n8. 等 AI 跟你问的差不多了，输出了一个最终方案的时候，把你跟这个事情相关的所有文件，比如文档、表格、PPT、参考资料啥的，放在一个新建的文件夹里，扔给 AI，然后说，“这是我的所有的文件，请你帮我直接完成吧，遇到必须由我决定的地方，再停下来问我。”\n\n9. 调整 AI 给你的结果，千万别觉得 AI 不行然后就自己去干了，告诉 AI，哪里不对，让它去调整，如果你说不出来，也可以说 “我现在讲不出来具体原因，但我就是不喜欢，请你对比几个方向，一次问我一个问题，帮我把判断标准找出来。”\n\n10. 大概 2～3 轮，你的这个最不想做的事，AI 大概率就替你做完了。\n\n11. 跟 AI 说，帮我把刚才的整个过程和这个事情，做成一个可以供我反复使用的 Skill，以后，类似的事情，你就可以用 AI 自动化了。\n\n12. 从此以后，遇到不想干的，扔给 AI，提供你的文件和【背景、痛点、需求】，让 AI 帮你完成，同时沉淀成 Skill。\n\n好了。\n\n现在，只需要半天时间，你已经学会使用 AI 了。\n\n没错，就是如此简单。",
+      "likes": 94,
+      "retweets": 8,
+      "replies": 28,
+      "views": 6889,
+      "created_at": "2026-08-12T02:39:48Z",
+      "url": "https://x.com/Khazix0918/status/2087368423089254771",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 62.625,
+      "summary": "数字生命卡兹克写了一套极低门槛上手流程：准备 ≥16G 内存电脑；海外用 ChatGPT+Codex（GPT-5.6 Sol），国内用 WorkBuddy+Kimi K3；用语音输入法口述【背景/痛点/需求】并要求苏格拉底式一次一问；相关文件丢进文件夹让 AI 执行，只在决策点停下；2–3 轮打磨后要求沉淀为可复用 Skill。核心心法：先敢开始，再把重复事变自动化。",
+      "recommend_reason": "把「怎么开始用 AI」拆成可照做的 12 步，适合非开发者冷启动。",
+      "tags": [
+        "AI入门",
+        "Codex",
+        "Skill",
+        "工作流",
+        "卡兹克"
+      ],
+      "title": "卡兹克给小白的 12 步 AI 上手法：语音输入 + 苏格拉底澄清 + 沉淀 Skill",
+      "rank": 8
+    },
+    {
+      "id": "2087339540868649472",
+      "author": "GoSailGlobal",
+      "bio": "Show In Public ｜ SaaS 出海 ｜ 克尔凯郭尔种草🌿\n\nSkills hub：https://t.co/x1VU8wWNj1\n博客：https://t.co/ajYYIXGqFg\n\n🤝 合作DM：GoSail_AI\n📮：m17551076169@gmail.com\n\nMCN：collab@gosaillab.com",
+      "text": "Bloomberg 的\"AI 倦怠时代\"报道揭开了一个荒诞现实：卖\"AI 让你四天工作制\"概念的公司，自家员工每周干 70 到 90 个小时\n\nAnthropic、Google、Microsoft 的顶级研究员和高管连轴转 80 到 100 小时，有创业公司 CEO 连续三周睡在办公室\n\n伯克利的研究给出了关键发现：AI 用户并没有因为效率提升而减少工作，而是接了更多任务，省出来的时间全部被更高强度的工作填满\n\nAI 清除了低价值的重复劳动，空出来的时间立刻被高赌注的创新任务占据，工作周期变快，交付压力变大\n\n你身边用 AI 提效的人，是真的轻松了，还是反而更忙了？",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 1,
+      "views": 814,
+      "created_at": "2026-08-12T00:45:02Z",
+      "url": "https://x.com/GoSailGlobal/status/2087339540868649472",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPe4QBMa0AAXyRW.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPe4QBMa0AAXyRW.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2073300908008493307",
+        "author": "efipm",
+        "name": "Dr Efi Pylarinou",
+        "text": "Bloomberg: AI Is Making Silicon Valley Productive, Anxious and Afraid to Log Off \n\nThe gains get spent as more work, not less. Bloomberg's \"AI burnout era\" documents the people closest to AI working harder than ever - one startup CEO reports sleeping at the office for three straight weeks. \n\nWhen AI clears the busywork, the freed hours get refilled with higher-stakes work and faster cycles. Time saved becomes output demanded. \n\nhttps://t.co/l1sDkst5cr",
+        "created_at": "Sat Jul 04 07:00:31 +0000 2026",
+        "url": "https://x.com/efipm/status/2073300908008493307",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": [],
+        "card": {
+          "name": "summary_large_image",
+          "title": "AI Is Making Silicon Valley Productive, Anxious and Afraid to Log Off",
+          "description": "Claude Code is cutting into sleep time.",
+          "image_url": "https://pbs.twimg.com/card_img/2087159969460195328/fwYGmSgz?format=jpg&name=800x320_1",
+          "url": "https://t.co/l1sDkst5cr",
+          "domain": "www.bloomberg.com"
+        }
+      },
+      "score": 53.188,
+      "summary": "转述 Bloomberg：卖「AI 四天工作制」的公司里，员工反而周工 70–90 小时；Anthropic/Google/Microsoft 一线研究与高管 80–100 小时，有 CEO 连睡办公室三周。伯克利研究指出：AI 用户并未因效率下降工作量，而是接了更多任务——低价值劳动被清掉后，空档立刻被高赌注创新与更快交付周期占满。",
+      "recommend_reason": "纠正「AI=更轻松」叙事，用产业报道+研究把提效悖论讲清楚。",
+      "tags": [
+        "AI倦怠",
+        "生产力",
+        "职场",
+        "Bloomberg",
+        "Agent"
+      ],
+      "title": "彭博「AI 倦怠时代」：提效后的时间被更高强度工作填满",
+      "rank": 9
+    },
+    {
+      "id": "2087337198492504454",
+      "author": "LufzzLiz",
+      "bio": "Al 创作者•LLM 爱好者•Al Agent 构建者\nAI 生视频•AI 生图\n输出有温度的洞察。 致力于降低 AI 使用门槛，让更多人受益。\n某大厂架构师-多模态、模型私有化领域\n企业 AI方案设计• FDE\n关注AI产品、AI结合教育、艺术创作领域\n📮: lanshulan007@gmail.com",
+      "text": "看完这条 HN，我第一反应是：想在家里跑大模型，钱包可能比模型先跑不动 😂\n\n我们总觉得云端不够自由，买下机器才算真正拥有算力，真把账摊开，又会怀疑自己入场太早了。\n\nOpenCode 公布的数字：普通 Go 用户过去一周使用 DeepSeek V4 Flash，平均每天约 1.14 美元；一套双 DGX 约 1 万美元；按相同用量，要约 24 年回本。即使用量扩大 10 倍，也得 2.4 年。但是要想承接大量并发，还得更多服务器\nHN 评论区并没有简单否定本地部署。大家愿意为隐私、离线、固定模型和 24 小时批处理买单。省钱只适合少数高利用率场景。\n我的判断：个人开发者先买 API。把机器跑满之前，别急着拥有机器。有那个时间折腾，不如把业务先跑起来\n来源：https://t.co/zo5TsGouSF",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 3,
+      "views": 742,
+      "created_at": "2026-08-12T00:35:43Z",
+      "url": "https://x.com/LufzzLiz/status/2087337198492504454",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 50.637,
+      "summary": "LufzzLiz 转述 OpenCode/HN 账：普通 Go 用户 DeepSeek V4 Flash 约 $1.14/天；双 DGX 约 $1 万，同用量回本约 24 年，用量×10 也要约 2.4 年，且并发还要更多机器。评论区肯定隐私/离线/固定模型与批处理价值，但「省钱」只适合极高利用率。作者判断：个人开发者先买 API，机器跑满前别急着拥有算力。",
+      "recommend_reason": "用具体数字戳破「本地=更省」幻觉，决策框架清晰。",
+      "tags": [
+        "本地部署",
+        "API成本",
+        "DeepSeek",
+        "算力",
+        "OpenCode"
+      ],
+      "title": "本地跑大模型账算清：双 DGX 约 1 万美元，按个人 API 用量要数十年回本",
+      "rank": 10
+    },
+    {
+      "id": "2087336844413284731",
+      "author": "GoSailGlobal",
+      "bio": "Show In Public ｜ SaaS 出海 ｜ 克尔凯郭尔种草🌿\n\nSkills hub：https://t.co/x1VU8wWNj1\n博客：https://t.co/ajYYIXGqFg\n\n🤝 合作DM：GoSail_AI\n📮：m17551076169@gmail.com\n\nMCN：collab@gosaillab.com",
+      "text": "An Dependent Company 恭喜manus\n\n最值得关注 Agent 发展动态的御三家回归：\nOpenAI Codex、Claude Code、Manus  把三个团队的核心人员全部整理出来了，现在做一个汇总  \n\nOpenAI Codex（13人） \n领导层 @romainhuet @thsottiaux\nAPI @charlierguo\n插件生态 @coreyching\n工作流实战 @Dimillian @dkundel @nickbaumann_ @derrickcchoi @pvncher\n社区教育 @gabrielchua @reach_vb @kagigz\n安全 @fouadmatin\n\nAnthropic Claude（30+人） \n创始人 @DarioAmodei @DanielaAmodei @jackclarkSF\nClaude Code 核心@bcherny @_catwu @trq212 @felixrieseberg @amorriscode @dickson_tsai\n产品 @angjiang @jess__yan @feldman\n研究 @AmandaAskell @ch402\nDevRel @alexalbert__ @lydiahallie\n增长 @TheAmolAvasare @helloitsaustin\n\nManus / Butterfly Effect（10人） \n官方 @ManusAI @ai_manus @ManusAI_IM\n创始人 @Red_Xiao_\nCEO @peakji\n首席科学家 @hidecloud\nCPO 增长 @HenrypenmanXD\nCMO @parker_lyman\n\n三份名单，一键关注，跟上 Agent 最前线\n\n详细版：\nhttps://t.co/ogHDHTSJJs\nhttps://t.co/rQ57xifpV0\nhttps://t.co/Pp81zj2rgt",
+      "likes": 3,
+      "retweets": 1,
+      "replies": 2,
+      "views": 944,
+      "created_at": "2026-08-12T00:34:19Z",
+      "url": "https://x.com/GoSailGlobal/status/2087336844413284731",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPe1yNHW4AAPMZ0.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPe1yNHW4AAPMZ0.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2087162893796327868",
+        "author": "ManusAI",
+        "name": "Manus",
+        "text": "A Note to Our Users\n\nManus will soon resume operating as an independent company.\n\nAs part of this transition and to comply with regulatory requirements in specific jurisdictions, some users will need to back-up their data before 7:59 a.m. on August 23, 2026 (SGT) and then begin restoration starting from 8:00 a.m on August 25, 2026 (SGT) to ensure normal usage.\n\nMore information can be found in the blog post and we’ve provided detailed guides, including to understand if you’re affected, in our Help Center\n\nFor affected users, these are the key details:\n\nWe’ll notify you by email and in the Manus app. If you signed up with an Apple ID or Facebook account, please check your in-app notifications.\n\nBack up your data from now until August 23 (SGT) before 7:59 a.m. You can back up more than once, you can create new data after backing up, just run it again.  \n\nStarting from 8:00 a.m. on August 25 (SGT), the restoration portal will open. Restore your data and pick up right where you left off.\n\nAffected users will not be charged during the transition, and we will be providing welcome back bonuses.\n\nIf your account is not affected, you don’t need to do anything - keep using Manus as usual. You’ll get an in-app notification confirming this.\n\nFor those affected, we know this is disruptive and we’re sorry for the inconvenience. Supporting you through it is our top priority. In addition to the full guides in the Help Center, our customer service team is ready to help 24/7 with any questions.\n\nAs we look ahead, we couldn’t be more excited by the future. We’re preparing a series of new features that will push the boundaries of what’s possible for general AI agents once again.\n\nThank you for being with us as we go through this process together. The best is still ahead.",
+        "created_at": "Tue Aug 11 13:03:06 +0000 2026",
+        "url": "https://x.com/ManusAI/status/2087162893796327868",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 57.862,
+      "summary": "GoSail 整理 Agent「御三家」人员地图：OpenAI Codex（约 13 人，含领导层 thsottiaux、API、插件、工作流、社区、安全）；Anthropic Claude（30+，含创始人、Claude Code 核心 bcherny/trq212 等、产品与研究）；Manus/Butterfly Effect（约 10 人，创始人/CEO/首席科学家/增长）。附三份详细名单链接，方便持续跟踪。",
+      "recommend_reason": "把分散在推特上的 Agent 团队人物关系收成可订阅名单，省去自己挖人的时间。",
+      "tags": [
+        "Codex",
+        "Claude Code",
+        "Manus",
+        "Agent",
+        "团队"
+      ],
+      "title": "Codex / Claude Code / Manus 三队核心名单汇总：一键关注 Agent 前线",
+      "rank": 11
+    },
+    {
+      "id": "2087284684103537011",
+      "author": "bcherny",
+      "bio": "Claude Code @anthropicai",
+      "text": "LLMs still produce bugs, but those bugs are different than what they used to be. It’s less off-by-ones and more about system design, ui usability, missing broader context. Some kinds of coding has been solved, but not all.\n\nWhile models continue to improve, adversarial code review has been an incredibly powerful tool to catch many of these kinds of bugs.\n\nIt can be as simple as a one line prompt - “use a dynamic workflow to adversarial test every edge case in an iOS simulator”, or use Claude’s built in /code-review (or /code-review low, /code-review medium, etc.)",
+      "likes": 1957,
+      "retweets": 101,
+      "replies": 136,
+      "views": 216654,
+      "created_at": "2026-08-11T21:07:03Z",
+      "url": "https://x.com/bcherny/status/2087284684103537011",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2087139563110363419",
+        "author": "jarredsumner",
+        "name": "Jarred Sumner",
+        "text": "doesn’t happen anymore",
+        "created_at": "Tue Aug 11 11:30:23 +0000 2026",
+        "url": "https://x.com/jarredsumner/status/2087139563110363419",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 69.893,
+      "summary": "Boris Cherny 指出：模型仍会出错，但错误形态变了——更少 off-by-one，更多系统边界、UI 可用性与全局上下文缺失。部分编码任务已被解决，但并非全部。他强调对抗式代码审查很有效：可用一句话 prompt 在 iOS 模拟器动态对抗测边缘情况，或直接用 Claude 内置 /code-review（含 low/medium 等强度）。",
+      "recommend_reason": "Claude Code 核心成员对「模型还会犯什么错、怎么抓」的一线判断，可直接抄进工程流程。",
+      "tags": [
+        "Claude Code",
+        "Code Review",
+        "LLM",
+        "工程实践",
+        "Anthropic"
+      ],
+      "title": "LLM 写代码的 bug 已从 off-by-one 转向系统设计：对抗式 code review 成关键抓手",
+      "rank": 12
+    },
+    {
+      "id": "2087262466703286652",
+      "author": "OfficialLoganK",
+      "bio": "Member of technical staff, working on Gemini, @GoogleAIStudio, the Gemini API, & Kaggle. My views!",
+      "text": "1 billion Gemini app users every month\n\n1 billion downloads of the Gemma family of models\n\nOnwards!",
+      "likes": 1463,
+      "retweets": 44,
+      "replies": 195,
+      "views": 68653,
+      "created_at": "2026-08-11T19:38:46Z",
+      "url": "https://x.com/OfficialLoganK/status/2087262466703286652",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 71.461,
+      "summary": "Gemini 应用每月 10 亿用户；Gemma 系列模型累计 10 亿次下载。继续前进！",
+      "recommend_reason": "Google AI 双十亿里程碑，一句话给出消费级应用与开源模型两端体量。",
+      "tags": [
+        "Gemini",
+        "Gemma",
+        "Google",
+        "里程碑"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2087258091821949074",
+      "author": "trq212",
+      "bio": "Claude Code @anthropicai.   prev YC W20, @spc, @medialab",
+      "text": "All Claude generated text will have this embedded watermarking. For example, you could check if a PR was generated by Claude Code.\n\nThat said, it does have limitations. https://t.co/umfn6nU5up",
+      "likes": 93,
+      "retweets": 3,
+      "replies": 19,
+      "views": 16835,
+      "created_at": "2026-08-11T19:21:23Z",
+      "url": "https://x.com/trq212/status/2087258091821949074",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPduGTkaUAAQKfI.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPduGTkaUAAQKfI.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 64.721,
+      "summary": "所有 Claude 生成的文本都会嵌入这种水印。例如，你可以检查某个 PR 是否由 Claude Code 生成。不过它也有局限性。",
+      "recommend_reason": "Anthropic 侧关于生成内容可追溯性的明确信号，对开源协作与合规很关键。",
+      "tags": [
+        "Claude",
+        "水印",
+        "Claude Code",
+        "Anthropic",
+        "可追溯"
+      ],
+      "rank": 14
+    },
+    {
+      "id": "2087254026232775052",
+      "author": "thsottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "text": "We did it, finally... Codex & ChatGPT desktop, now on Linux. \n\nThanks for waiting and you can cancel that MacBook order if you got impatient. It’s that good.\n\n👀",
+      "likes": 8570,
+      "retweets": 411,
+      "replies": 926,
+      "views": 482687,
+      "created_at": "2026-08-11T19:05:13Z",
+      "url": "https://x.com/thsottiaux/status/2087254026232775052",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2087231350134980830",
+        "author": "OpenAI",
+        "name": "OpenAI",
+        "text": "Now in preview: The ChatGPT desktop app for Linux.\n\nUse ChatGPT, ChatGPT Work, and Codex where you already work and build, with your projects and browser workflows on supported Linux systems. https://t.co/OtsPt5N5QC",
+        "created_at": "Tue Aug 11 17:35:07 +0000 2026",
+        "url": "https://x.com/OpenAI/status/2087231350134980830",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2087231244073607168/vid/avc1/480x270/04-2km7hxRlO9P6i.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HPdd088aAAAEfFu.jpg"
+        ]
+      },
+      "score": 74.252,
+      "summary": "我们终于做到了……Codex 和 ChatGPT 桌面端现在上 Linux 了。谢谢等待；如果你等不及买了 MacBook，订单可以取消了——真的有那么好。👀",
+      "recommend_reason": "Codex 负责人的第一手官宣语气，比产品通稿更能说明 Linux 版优先级。",
+      "tags": [
+        "Codex",
+        "ChatGPT",
+        "Linux",
+        "OpenAI"
+      ],
+      "rank": 15
+    },
+    {
+      "id": "2087248033906094175",
+      "author": "OpenAI",
+      "bio": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: https://t.co/dJGr6LgzPA",
+      "text": "The ChatGPT desktop app is now available in preview for desktop variants of these Linux distributions:\n\n• Ubuntu 24.04 LTS and 26.04 LTS\n• Debian 13\n• Fedora 43 and 44\n\nInstall with .deb or .rpm packages for x64 or ARM64.\n\nhttps://t.co/BUiM8ttZnI",
+      "likes": 632,
+      "retweets": 55,
+      "replies": 66,
+      "views": 89212,
+      "created_at": "2026-08-11T18:41:25Z",
+      "url": "https://x.com/OpenAI/status/2087248033906094175",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "Codex in ChatGPT | AI Coding Agents for Software Engineering",
+        "description": "Codex in ChatGPT helps engineering teams build faster with AI coding agents. Complete pull requests, refactors, code reviews, automations, and more across parallel workflows.",
+        "image_url": "https://pbs.twimg.com/card_img/2084862721644961792/CnEg2Gl3?format=jpg&name=800x320_1",
+        "url": "http://openai.com/codex",
+        "domain": "openai.com"
+      },
+      "quoted_tweet": null,
+      "score": 64.798,
+      "summary": "OpenAI 补充 Linux 预览的发行版清单：Ubuntu 24.04/26.04 LTS、Debian 13、Fedora 43/44；可通过 .deb 或 .rpm 安装，覆盖 x64 与 ARM64。面向桌面变体（desktop variants）的正式安装路径。",
+      "recommend_reason": "比首发公告更落地：明确发行版与包格式，方便立刻装机验证。",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "Linux",
+        "Ubuntu",
+        "安装"
+      ],
+      "title": "ChatGPT Linux 预览版支持 Ubuntu/Debian/Fedora，提供 deb/rpm 与 x64/ARM64",
+      "rank": 16
+    },
+    {
+      "id": "2087231350134980830",
+      "author": "OpenAI",
+      "bio": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: https://t.co/dJGr6LgzPA",
+      "text": "Now in preview: The ChatGPT desktop app for Linux.\n\nUse ChatGPT, ChatGPT Work, and Codex where you already work and build, with your projects and browser workflows on supported Linux systems. https://t.co/OtsPt5N5QC",
+      "likes": 9344,
+      "retweets": 746,
+      "replies": 611,
+      "views": 1150082,
+      "created_at": "2026-08-11T17:35:07Z",
+      "url": "https://x.com/OpenAI/status/2087231350134980830",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2087231244073607168/vid/avc1/480x270/04-2km7hxRlO9P6i.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPdd088aAAAEfFu.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 75.882,
+      "summary": "OpenAI 宣布 ChatGPT 桌面应用进入 Linux 预览：在已支持的 Linux 系统上，可直接使用 ChatGPT、ChatGPT Work 与 Codex，覆盖项目协作与浏览器工作流，把 AI 编码助手带进 Linux 开发环境。",
+      "recommend_reason": "官方产品里程碑：Linux 开发者终于能原生用上 ChatGPT 桌面端与 Codex，不再只靠 Web。",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "Codex",
+        "Linux",
+        "桌面应用"
+      ],
+      "title": "ChatGPT 桌面端 Linux 预览版上线：原生集成 ChatGPT / Work / Codex 工作流",
+      "rank": 17
+    }
+  ],
+  "generated_at": "2026-08-12T04:04:17Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 17,
+    "last_batch_added": 17,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
