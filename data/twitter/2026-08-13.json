@@ -1,0 +1,490 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-13",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2087719356763672917",
+      "author": "levie",
+      "bio": "",
+      "text": "Awesome day in terms of new model releases from both Deepseek and Grok. Both of these new model updates represent huge jumps in capability at insanely low costs. \n\nThis is truly Jevons paradox for AI playing out. By bringing down the cost of AI, demand will continue to accelerate. When I talk to enterprises, they have vastly more use-cases for what they’d like agents to handle than generally what they’re able to budget for today. \n\nThey want agents to scan their codebases for security issues. They want agents to review all their documents. They want agents to process information in a large portion of their workflows. And so on. When we bring down the cost of AI or drive up capability levels, it opens up all new use cases in the enterprises, which drives even greater demand.\n\nThis is also great for the applied AI layer. The more choice of models - especially those tuned for different types (or costs) of work - the more value there is in being at the layer that can route and optimize based on the task. Great for the entire stack right now.",
+      "likes": 139,
+      "retweets": null,
+      "replies": null,
+      "views": "23271",
+      "created_at": "2026-08-13T01:54:17Z",
+      "url": "https://x.com/i/status/2087719356763672917",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPkRsP2bYAAifso.jpg",
+        "https://pbs.twimg.com/media/HPkRsPubYAA4Ciq.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPkRsP2bYAAifso.jpg",
+        "https://pbs.twimg.com/media/HPkRsPubYAA4Ciq.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2087577925919068639",
+        "author": "Yuchenj_UW",
+        "name": "Yuchen Jin",
+        "text": "3 frontier models in one day!\n\n- Grok 4.6: Fable 5-level, but 85% cheaper.\n- Qwen3.8-Max: 2.4T params, 95B active. Weights are out.\n- DeepSeek-V4-Pro-0813: weights could drop any time. Heard it’s good, not just benchmaxxing.\n\nCompetition is great for consumers and businesses.",
+        "created_at": "Wed Aug 12 16:32:17 +0000 2026",
+        "url": "https://x.com/Yuchenj_UW/status/2087577925919068639",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 65.738,
+      "summary": "Box CEO Aaron Levie 认为 DeepSeek 与 Grok 的新版本是能力大跃升且成本极低，正在上演 AI 版杰文斯悖论：更便宜/更强会释放更多企业场景（代码安全扫描、全量文档审阅、工作流信息处理），预算从“做不完”变成“想做得更多”；模型选择变多也抬高应用层路由与优化的价值。",
+      "recommend_reason": "把双模型同日降本放到企业需求与应用层结构里解释，比单条发布通稿更有决策视角。",
+      "tags": [
+        "企业AI",
+        "成本",
+        "Agent",
+        "DeepSeek",
+        "Grok"
+      ],
+      "title": "DeepSeek 与 Grok 降本放量：企业 AI 的杰文斯悖论",
+      "rank": 1
+    },
+    {
+      "id": "2087715809284239475",
+      "author": "ring_hyacinth",
+      "bio": "",
+      "text": "工作间隙用 Codex 搭了一个三星堆&金沙文物的场景，场景部分资产来自@HanyangWang 的 Funes\n\n初衷是想试试 three.js + WebGL实现海底的效果，海底的神秘感和三星堆感觉比较搭！\n\n项目还在进程中，思考如何才能做得更好一些🤔 如果没有思路了的话，就直接上线啦～ https://t.co/RQJJ6OGzZA",
+      "likes": 28,
+      "retweets": null,
+      "replies": null,
+      "views": "2385",
+      "created_at": "2026-08-13T01:40:11Z",
+      "url": "https://x.com/i/status/2087715809284239475",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2087715613905178624/vid/avc1/480x270/S9D_UGV8A5NklAcr.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2087715613905178624/img/U9v96sygkMxLoF9i.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 64.55,
+      "summary": "工作间隙用 Codex 搭了一个三星堆&金沙文物的场景，场景部分资产来自@HanyangWang 的 Funes\n\n初衷是想试试 three.js + WebGL实现海底的效果，海底的神秘感和三星堆感觉比较搭！\n\n项目还在进程中，思考如何才能做得更好一些🤔 如果没有思路了的话，就直接上线啦～",
+      "recommend_reason": "Codex + three.js/WebGL 的文化向场景原型，展示 coding agent 在交互视觉实验上的快速落地。",
+      "tags": [
+        "Codex",
+        "three.js",
+        "WebGL",
+        "创意编程"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2087668888117129637",
+      "author": "Khazix0918",
+      "bio": "",
+      "text": "在今天这个大模型更新后的疯狂的时间点，我也更新一下我自己现在的常用AI组合：\n\n首先，我未来一段时间的日常主力Vibe Coding产品，大概率就是会使用Grok Build + Grok 4.6了，突破了大模型性能、速度快、额度多的不可能三角，无敌水桶，Coding了4个小时300刀的周额度只消耗了2%你敢信，速度还比Codex快N倍，还送200刀的Cursor Ultra会员。。。。\n\n第二，ChatGPT和Codex。\n它们会继续负责最困难、绝对不能出任何差池的超大型任务，还有日常的所有办公任务、创意、内容生产，以及浏览器操控和电脑操控相关。\n\n第三，DeepSeek V4 Pro正式版。\n因为无与伦比的性价比，我会把大量不要求实时反馈的自动化任务、异步任务，还有我开发的产品比如AIHOT里面的一些自动化Agent工作交给它。\n\n至于Claude，他把我封号了，我现在只能宣布我对Claude单方面发起对等制裁了，路边一条看都不看。\n\n一想起2个月前的光景，真是各领风骚好几周啊。。。",
+      "likes": 310,
+      "retweets": null,
+      "replies": null,
+      "views": "34734",
+      "created_at": "2026-08-12T22:33:44Z",
+      "url": "https://x.com/i/status/2087668888117129637",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 65.168,
+      "summary": "作者更新常用 AI 组合：日常 Vibe Coding 倾向 Grok Build + Grok 4.6（性能/速度/额度均衡，自称 4 小时只吃掉周额度 2% 且送 Cursor Ultra）；最难任务、办公创意与浏览器/电脑操控继续 ChatGPT/Codex；大量异步与自动化 Agent 交给高性价比 DeepSeek V4 Pro；Claude 因封号被其暂时弃用。",
+      "recommend_reason": "一线创作者在双模型大更新日的真实分工表，适合对照自己的额度与任务分层。",
+      "tags": [
+        "Grok",
+        "ChatGPT",
+        "DeepSeek",
+        "工作流",
+        "VibeCoding"
+      ],
+      "title": "卡兹克更新主力组合：Grok 4.6 / ChatGPT / DeepSeek 分工",
+      "rank": 3
+    },
+    {
+      "id": "2087662930171166804",
+      "author": "oran_ge",
+      "bio": "",
+      "text": "万众期待！DeepSeek V4 Pro 0813 正式版发布\n从指标看，有两项指标 超越 Fable，多项指标超越 Opus 4.8\nFable 依然是当下难以逾越的高山\n但 V4 Pro 比 Fable 便宜 100 倍\n（涨价前，应该不至于突然涨价10倍吧） https://t.co/upHzOlx64E",
+      "likes": 83,
+      "retweets": null,
+      "replies": null,
+      "views": "23572",
+      "created_at": "2026-08-12T22:10:04Z",
+      "url": "https://x.com/i/status/2087662930171166804",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPjdneybgAAXFoU.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPjdneybgAAXFoU.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 63.468,
+      "summary": "万众期待！DeepSeek V4 Pro 0813 正式版发布\n从指标看，有两项指标 超越 Fable，多项指标超越 Opus 4.8\nFable 依然是当下难以逾越的高山\n但 V4 Pro 比 Fable 便宜 100 倍\n（涨价前，应该不至于突然涨价10倍吧）",
+      "recommend_reason": "中文圈对 V4 Pro 相对 Fable/Opus 的指标与价格锚点，方便快速建立性价比心智。",
+      "tags": [
+        "DeepSeek",
+        "模型发布",
+        "性价比"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2087640853783232562",
+      "author": "code",
+      "bio": "The open source AI code editor",
+      "text": "🔌 Agent Plugins 1.0 are now supported in @code.\n \nPackage your skills, MCP servers, and AI extensions into one installable plugin.\n \nLearn more: https://t.co/4D6tjWO3mX",
+      "likes": 224,
+      "retweets": 26,
+      "replies": 4,
+      "views": 21215,
+      "created_at": "2026-08-12T20:42:20Z",
+      "url": "https://x.com/code/status/2087640853783232562",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "Agent Plugins 1.0 in VS Code, Copilot CLI, and the Copilot app - GitHub Changelog",
+        "description": "You can now build a plugin once and use it across all compatible agent clients. We published Agent Plugins 1.0 on August 6 with AWS, Anysphere, Microsoft, OpenAI, and Vercel.…",
+        "image_url": "https://pbs.twimg.com/card_img/2087717442130948097/Tlnwo2HT?format=jpg&name=600x600",
+        "url": "https://github.blog/changelog/2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app/",
+        "domain": "github.blog"
+      },
+      "quoted_tweet": null,
+      "score": 63.492,
+      "summary": "VS Code（@code）现已支持 Agent Plugins 1.0：可把 skills、MCP servers 与 AI 扩展打包成一个可安装插件。",
+      "recommend_reason": "把技能/MCP/扩展从散落配置变成可分发插件单元，是 Agent 工具链工程化的明确一步。",
+      "tags": [
+        "VSCode",
+        "Agent",
+        "MCP",
+        "插件"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2087629560632467882",
+      "author": "bindureddy",
+      "bio": "CEO of @abacusai  - a powerful AI Agent and SuperComputer - Build your company on Abacus AI, ex-AWS & Google",
+      "text": "Wow!  DeepSeek v4 Pro is out and looks great on paper!\n\nWhile they do a fair bit of benchmark maxing,  their models can also be used safely in production workloads\n\nOpen-source AI is EXPLODING\n\nMy sense is this is a Sonnet class model. Both Grok 4.6 and DeepSeek should be live on ChatLLM",
+      "likes": 162,
+      "retweets": 10,
+      "replies": 11,
+      "views": 10877,
+      "created_at": "2026-08-12T19:57:28Z",
+      "url": "https://x.com/bindureddy/status/2087629560632467882",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPi_lxMbUAAWwAH.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPi_lxMbUAAWwAH.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 70.218,
+      "summary": "作者称 DeepSeek v4 Pro 纸面指标好看，虽有刷榜倾向但可用于生产；判断其大致是 Sonnet 级，并称 Grok 4.6 与 DeepSeek 都会很快上 ChatLLM。开源侧模型节奏明显加快。",
+      "recommend_reason": "同时覆盖 DeepSeek 可用性判断与上架预期，比纯“又出新模型”多一层实操定位。",
+      "tags": [
+        "DeepSeek",
+        "开源模型",
+        "Grok",
+        "模型选型"
+      ],
+      "title": "DeepSeek v4 Pro 上线：作者判断约 Sonnet 级",
+      "rank": 6
+    },
+    {
+      "id": "2087592096769147377",
+      "author": "NousResearch",
+      "bio": "A bunch of nerds making progress\n\nhttps://t.co/vrD0aDIGDQ",
+      "text": "Hermes profiles are now portable and shareable:\n\nRun /export to save a profile as a single file with credentials stripped: skills, memory, persona, crons, plugins, settings, desktop themes and layouts.\n\nThen /import loads the profile file, and your setup is up and running. https://t.co/NF3PuR2Yb4",
+      "likes": 1602,
+      "retweets": 107,
+      "replies": 78,
+      "views": 72206,
+      "created_at": "2026-08-12T17:28:36Z",
+      "url": "https://x.com/NousResearch/status/2087592096769147377",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2087591358206726144/vid/avc1/320x320/B1UDJOyH9G_Zmhyy.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2087591358206726144/img/lJAoZO4NDbbpD-S3.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 78.151,
+      "summary": "Nous Research 宣布 Hermes profiles 可移植分享：/export 把 skills、memory、persona、crons、plugins、设置与桌面主题打包成单文件（剥离凭证），/import 即可在新环境恢复整套配置。",
+      "recommend_reason": "Agent 工作台从“装一堆技能”升级到“一键搬迁整机人格与自动化”，是本地 Agent 产品化的关键能力。",
+      "tags": [
+        "Hermes",
+        "Nous",
+        "Agent",
+        "配置迁移"
+      ],
+      "title": "Hermes 配置文件可导出/导入，支持跨机迁移",
+      "rank": 7
+    },
+    {
+      "id": "2087591365357998136",
+      "author": "code",
+      "bio": "The open source AI code editor",
+      "text": "🚀 The latest @code release brings more flexibility to Claude sessions and auto-reload for local HTML previews.\n\n🧵 Here's what's new: https://t.co/86JAaRnuiF",
+      "likes": 379,
+      "retweets": 37,
+      "replies": 11,
+      "views": 36253,
+      "created_at": "2026-08-12T17:25:41Z",
+      "url": "https://x.com/code/status/2087591365357998136",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPidRiCXQAEGSPk.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPidRiCXQAEGSPk.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 69.519,
+      "summary": "最新 VS Code（@code）版本为 Claude 会话提供更灵活的使用方式，并为本地 HTML 预览加入自动重载。",
+      "recommend_reason": "编辑器侧对 Claude 会话与前端预览的小步产品更新，直接影响日常 coding 手感。",
+      "tags": [
+        "VSCode",
+        "Claude",
+        "开发工具"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2087586063682596905",
+      "author": "elonmusk",
+      "bio": "https://t.co/ZdBx5WABYx",
+      "text": "Grok 4.6 is objectively #1 when considering intelligence, speed & cost https://t.co/1SowBEzlJV",
+      "likes": 9645,
+      "retweets": 1019,
+      "replies": 673,
+      "views": 5832821,
+      "created_at": "2026-08-12T17:04:37Z",
+      "url": "https://x.com/elonmusk/status/2087586063682596905",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPiYdmfa4AAJASU.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPiYdmfa4AAJASU.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2087564648325530099",
+        "author": "ArtificialAnlys",
+        "name": "Artificial Analysis",
+        "text": "SpaceXAI's Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index, joining the frontier in line with GPT-5.6 Sol, with standout agentic performance at lower cost\n\nGrok 4.6 gains 5 points over Grok 4.5 on the Intelligence Index just over one month after its release, or +23 points compared to Grok 4.3. This brings SpaceXAI back to the intelligence frontier alongside OpenAI, behind only Anthropic.\n\nKey takeaways:\n➤ Grok 4.6 joins the frontier of the Artificial Analysis Intelligence Index: It scores 61, in line with GPT-5.6 Sol (max), behind Claude Opus 5 (max, 63) and Claude Fable 5 (max with fallback, 62), and just ahead of Kimi K3\n\n➤ Strong agentic performance: Grok 4.6 achieves a GDPval-AA v2 Elo of 1753, behind only Claude Opus 5 and with overlapping confidence intervals with Claude Fable 5 and Qwen3.8 Max. It scores 50.7% on 𝜏³-Banking, among the top two scores alongside Qwen3.8 Max (51.3%), and 88.4% on Terminal-Bench v2.1, in line with the leading models\n\n➤ Frontier-level intelligence at lower cost: Headline pricing is unchanged from Grok 4.5 at $2/$6 per 1M input/output tokens, 60%+ below Claude Opus 5 ($5/$25) and GPT-5.6 Sol ($5/$30). It cost $0.84 per task, the same as Kimi K3 with slightly higher intelligence, placing it on the Intelligence vs. Cost per Task Pareto frontier\n\n➤ Grok 4.6 sits at Fable 5-tier on AA-Briefcase, our private benchmark of long-horizon agentic knowledge work tasks, with an Elo of 1577 - behind the Claude Opus 5 family. It is notably turn-efficient, completing tasks in ~53 turns and ~0.5B input tokens on average vs. ~103 turns and ~2.0B input tokens for Claude Opus 5 (max)\n\nOther model details:\n➤ Context window of 500k tokens (unchanged from Grok 4.5)\n\n➤ Pricing of $2/$6 per 1M tokens of input/output; cache hits discounted to $0.5 per 1M tokens, an increase over Grok 4.5’s $0.3 per 1M tokens for cache hits\n\nCongratulations to @SpaceXAI and @elonmusk on the release!",
+        "created_at": "Wed Aug 12 15:39:31 +0000 2026",
+        "url": "https://x.com/ArtificialAnlys/status/2087564648325530099",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HPiEg4XaEAAJ4LX.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HPiEg4XaEAAJ4LX.jpg"
+        ]
+      },
+      "score": 72.687,
+      "summary": "综合智能、速度与成本后，Grok 4.6 客观上是第一。",
+      "recommend_reason": "马斯克本人对 Grok 4.6 的三轴定位口径，适合对照第三方榜单与用户实测。",
+      "tags": [
+        "Grok",
+        "xAI",
+        "模型评测"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2087583466301059567",
+      "author": "DilumSanjaya",
+      "bio": "Software Engineer | Showcasing unique AI applications for Science & Engineering\n\n💡Open Source \nhttps://t.co/02nVJK3OQK\nhttps://t.co/fzTHdVmiYr\n\n🎬\nhttps://t.co/cOGQInDnYV",
+      "text": "This portable microscope was designed by Opus 5\n\nI gave it a few simple requirements, and it generated the whole design in code\n\nLots of details and interactions\n\nIt looks sci-fi, but it can be easily 3D printed\nSome of the code can even run on a Raspberry Pi\n\nLive link ↓ https://t.co/R68VXaEZkg",
+      "likes": 243,
+      "retweets": 17,
+      "replies": 13,
+      "views": 11999,
+      "created_at": "2026-08-12T16:54:18Z",
+      "url": "https://x.com/DilumSanjaya/status/2087583466301059567",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2087581396424609801/vid/avc1/476x270/fIbeUqKuW20xUWz6.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2087581396424609801/img/GjJK7N7-5nhFBeLR.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 73.284,
+      "summary": "作者只给少量需求，让 Opus 5 用代码生成整套便携显微镜设计，含细节交互；外观偏科幻但可 3D 打印，部分代码还能跑在树莓派上，并给出 live 链接。",
+      "recommend_reason": "把 LLM 当工业/硬件设计引擎的具体案例：从自然语言需求到可制造代码，而不是只出概念图。",
+      "tags": [
+        "Claude",
+        "Opus",
+        "硬件设计",
+        "3D打印"
+      ],
+      "title": "用 Opus 5 从需求直接生成可 3D 打印显微镜设计",
+      "rank": 10
+    },
+    {
+      "id": "2087577905081823559",
+      "author": "vista8",
+      "bio": "喜欢摇滚乐、爱钓鱼的PM",
+      "text": "用Deepseek V4 Pro 0813跑了三个简单任务。\n\n1. 第一个是开发部署一个网站，需要调用3个Skill，完成网站开发，子域名解析和上线。\n\n2. 第二个是模仿60种设计风格，生成Bento卡片图展示。\n\n3. 第三个是Threejs 生成一个3D打砖块游戏。\n\n大家可以看看效果，我感觉还行。 https://t.co/4HCqAOxL5f",
+      "likes": 169,
+      "retweets": 6,
+      "replies": 33,
+      "views": 56537,
+      "created_at": "2026-08-12T16:32:12Z",
+      "url": "https://x.com/vista8/status/2087577905081823559",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2087577550243631104/vid/avc1/432x270/jHxsGDYW4nkmbqeg.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2087577550243631104/img/lzKvs_I5MnQM_LOL.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 64.913,
+      "summary": "用Deepseek V4 Pro 0813跑了三个简单任务。\n\n1. 第一个是开发部署一个网站，需要调用3个Skill，完成网站开发，子域名解析和上线。\n\n2. 第二个是模仿60种设计风格，生成Bento卡片图展示。\n\n3. 第三个是Threejs 生成一个3D打砖块游戏。\n\n大家可以看看效果，我感觉还行。",
+      "recommend_reason": "发布当日就用三组可复现任务（建站上线/风格卡/3D 小游戏）摸底 DeepSeek V4 Pro，比只看榜单更接地气。",
+      "tags": [
+        "DeepSeek",
+        "实测",
+        "Skill",
+        "前端"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2087576824159297605",
+      "author": "nvidia",
+      "bio": "The official handle for NVIDIA. Blog: https://t.co/JAn5eKOTBT Support: https://t.co/6ln5FVnA2o All our social media: https://t.co/Uc56dL57Dh",
+      "text": "Congrats to the @SpaceXAI team on the release of Grok 4.6.\n\nGrok 4.6 brings frontier intelligence, running and trained on NVIDIA GB300 NVL72 with NVLink to deliver exceptional performance, reliability and lowest token cost.",
+      "likes": 6829,
+      "retweets": 622,
+      "replies": 166,
+      "views": 516711,
+      "created_at": "2026-08-12T16:27:54Z",
+      "url": "https://x.com/nvidia/status/2087576824159297605",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2087562800982077492",
+        "author": "SpaceXAI",
+        "name": "SpaceXAI",
+        "text": "Introducing Grok 4.6.\n\nIt delivers frontier intelligence and is a significant improvement over Grok 4.5 at the same price. https://t.co/RtTbpXcb3a",
+        "created_at": "Wed Aug 12 15:32:11 +0000 2026",
+        "url": "https://x.com/SpaceXAI/status/2087562800982077492",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HPiC3t5awAA2WS-.png"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HPiC3t5awAA2WS-.png"
+        ]
+      },
+      "score": 72.284,
+      "summary": "NVIDIA 祝贺 xAI 发布 Grok 4.6，称其在 NVIDIA GB300 NVL72 与 NVLink 上训练和推理，主打前沿智能、可靠性与更低 token 成本。",
+      "recommend_reason": "芯片方背书把“模型发布”接到具体训练/推理硬件栈，对理解成本与吞吐有参考价值。",
+      "tags": [
+        "NVIDIA",
+        "Grok",
+        "GB300",
+        "基础设施"
+      ],
+      "title": "NVIDIA 祝贺 Grok 4.6：训推均在 GB300 NVL72",
+      "rank": 12
+    },
+    {
+      "id": "2087573425514537326",
+      "author": "jinchenma_ai",
+      "bio": "👨‍💻前大厂程序员，想开了，35岁危机前提桶跑路\n30天X破万粉，变现过万🚀写小白用得上的AI教程\n偶尔抽象，时常真诚，把X当朋友圈发👇咨询&合作",
+      "text": "记忆这个思路其实非常巧妙，也是我现在构建自己知识库时非常重要的一环。\n\n举个例子，我把身边经常接触的人都录入了知识库。之后每次和这些人交流、产生聊天记录，或者开完会，我都会让 Agent 把相关内容同步、梳理进去。这样一来，我就形成了和这个人的一条时间线。\n\n以后 AI 再调用我和这个人的关系时，就能够结合这条时间线，完整地看出我们之间的关系是怎么发展起来的。\n\n同理，任何你正在研究的实体，都可以用这种方式让 AI 持续维护一条时间线。这其实就是记忆的一种形态。",
+      "likes": 34,
+      "retweets": 4,
+      "replies": 21,
+      "views": 5726,
+      "created_at": "2026-08-12T16:14:24Z",
+      "url": "https://x.com/jinchenma_ai/status/2087573425514537326",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPiM6ddWoAExPj8.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPiM6ddWoAExPj8.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2087518480337928468",
+        "author": "AndoRAG",
+        "name": "Ando",
+        "text": "https://t.co/nXl6d419ug",
+        "created_at": "Wed Aug 12 12:36:04 +0000 2026",
+        "url": "https://x.com/AndoRAG/status/2087518480337928468",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 62.978,
+      "summary": "作者把常接触的人录入知识库，会后/聊天后让 Agent 同步梳理，形成与每个人的关系时间线；之后 AI 再谈及此人就能结合演化上下文。同理，任何研究对象都可维护时间线——这是记忆的一种可操作形态。",
+      "recommend_reason": "把抽象“AI 记忆”落成可复用的实体时间线维护法，对个人知识库和 CRM 式 Agent 都直接可抄。",
+      "tags": [
+        "知识库",
+        "记忆",
+        "Agent",
+        "工作流"
+      ],
+      "title": "用“人物时间线”给知识库做可持续记忆",
+      "rank": 13
+    }
+  ],
+  "generated_at": "2026-08-13T04:08:50Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 13,
+    "last_batch_added": 13,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
