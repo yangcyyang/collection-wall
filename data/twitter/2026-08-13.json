@@ -9,6 +9,476 @@
   },
   "items": [
     {
+      "id": "2087919696448561196",
+      "author": "xiaoxiaodong01",
+      "bio": "国际，不知名，顶级图片提示词专家\nskills/chrom plugin/prompt/art\n星球成员提示词库：2.2万套，可自助开\nWeChat:：newbe2012",
+      "text": "GPT2 x 婚纱 x 主角 x 批量 x 多张 x 美学提示词\n\n婚纱提示词，垫图确认主角后\n\n可以在提示词佐料中， 要求每个画面那些地方：：：避免雷同\n\n比如这组：\n我们需要变种各种可能同样被这对情侣喜欢的画面， 不同的构图、配色、场景、pose、道具、情绪逻辑\n\n这样一次 10 张生成逻辑中，你可以自由拓展创意\n\n本次提示词作图 VCR:\n\nhttps://t.co/MFAFc5y9ru",
+      "likes": 5,
+      "retweets": 0,
+      "replies": 2,
+      "views": 307,
+      "created_at": "2026-08-13T15:10:21Z",
+      "url": "https://x.com/xiaoxiaodong01/status/2087919696448561196",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPnGtjZbcAAYR8p.jpg",
+        "https://pbs.twimg.com/media/HPnGtjZaEAAwG0W.jpg",
+        "https://pbs.twimg.com/media/HPnGtjUbsAAfPYu.jpg",
+        "https://pbs.twimg.com/media/HPnGv4sbwAAzfa8.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPnGtjZbcAAYR8p.jpg",
+        "https://pbs.twimg.com/media/HPnGtjZaEAAwG0W.jpg",
+        "https://pbs.twimg.com/media/HPnGtjUbsAAfPYu.jpg",
+        "https://pbs.twimg.com/media/HPnGv4sbwAAzfa8.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 63.086,
+      "summary": "GPT2 x 婚纱 x 主角 x 批量 x 多张 x 美学提示词\n\n婚纱提示词，垫图确认主角后\n\n可以在提示词佐料中， 要求每个画面那些地方：：：避免雷同\n\n比如这组：\n我们需要变种各种可能同样被这对情侣喜欢的画面， 不同的构图、配色、场景、pose、道具、情绪逻辑\n\n这样一次 10 张生成逻辑中，你可以自由拓展创意\n\n本次提示词作图 VCR:\n\nhttps://t.co/MFAFc5y9ru",
+      "recommend_reason": "批量多图时用“变体维度清单”防雷同，是实用的垫图生图工作流细节。",
+      "tags": [
+        "AI生图",
+        "提示词",
+        "批量生成",
+        "垫图"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2087905794243064316",
+      "author": "VigoCreativeAI",
+      "bio": "",
+      "text": "VISUAL OS 019 — Field Record Covers\n\nFour people keeping records nobody asked for.\n\nVESSEL — studio index / firing 04 / clay + cobalt\nRESONANCE — tape 031 / room tone / archive B\nSPECIMEN — altitude 1840 / survey 12 / east ridge\nAFTERGLOW — field notes / 23:40 / north deck\n\nLocked:\n– one muted grey-mauve field, desaturated, no second background color\n– one mint green. That is the entire palette.\n– ultra-condensed mint caps across the top, always eclipsed by the head\n– cinematic portrait: cool ambient, warm key, skin left glossy and real\n– the subject holds one object up near the face and studies it\n– a left stack of mint caps — a code, a place, a time, a file number\n– one small mint glyph beneath the stack: circle, square, plus, star\n– a log of micro-caps at the foot: location, format, date, notes\n\nSwaps: discipline / wordmark / four-line stack / glyph / logged object\n\nA bowl, a microphone, a fern, a star chart. All of it filed by 23:40.\n\nPrompt ↓",
+      "created_at": "2026-08-13T14:15:07Z",
+      "likes": 10,
+      "views": "222",
+      "url": "https://x.com/i/status/2087905794243064316",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPm7QUfXQAAKG_1.jpg",
+        "https://pbs.twimg.com/media/HPm7QLUXMAAM53H.jpg",
+        "https://pbs.twimg.com/media/HPm7QKdWAAAeh2N.jpg",
+        "https://pbs.twimg.com/media/HPm7QLiXIAACLUw.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPm7QUfXQAAKG_1.jpg",
+        "https://pbs.twimg.com/media/HPm7QLUXMAAM53H.jpg",
+        "https://pbs.twimg.com/media/HPm7QKdWAAAeh2N.jpg",
+        "https://pbs.twimg.com/media/HPm7QLiXIAACLUw.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 76.23,
+      "title": "VISUAL OS 019：用单色调+薄荷字构建档案感封面四联",
+      "summary": "作者用一套极简视觉系统做 Field Record 封面：灰紫底+薄荷绿、超窄大写标题被头部遮挡、人物举物端详、左侧薄荷代码/地点/时间栈、底部微日志。强调锁定调色板与构图规则，让 AI 出图保持系列一致性，而不是每张各画各的。",
+      "recommend_reason": "可直接当图像/系列封面的提示词骨架：约束色板、排版层级和固定道具，比空喊“高级感”更可复用。",
+      "tags": [
+        "AI生图",
+        "提示词",
+        "视觉系统",
+        "设计"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2087886875210182940",
+      "author": "vista8",
+      "bio": "",
+      "text": "Deepseek 的Harness发布了，已安装好了。\n\n通过npm安装的，好像是一个Web UI，等后续测试下。\n\n安装方法，跟你的codex或其他agent说：\n\n“安装 https://t.co/gMpLy41Tfm” https://t.co/gnDmyFrjf8",
+      "created_at": "2026-08-13T12:59:56Z",
+      "likes": 132,
+      "views": "40193",
+      "url": "https://x.com/i/status/2087886875210182940",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2087886519948525568/vid/avc1/414x270/gOPAsd2aebrR2pRB.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2087886519948525568/img/ES2xTKqIbxghe2Rf.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 64.256,
+      "summary": "Deepseek 的Harness发布了，已安装好了。\n\n通过npm安装的，好像是一个Web UI，等后续测试下。\n\n安装方法，跟你的codex或其他agent说：\n\n“安装 https://t.co/gMpLy41Tfm”",
+      "recommend_reason": "DeepSeek Harness 发布的一线安装线索（npm + 让 Agent 代装），方便跟进评测。",
+      "tags": [
+        "DeepSeek",
+        "Harness",
+        "Agent",
+        "工具"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2087874343498039640",
+      "author": "dingyi",
+      "bio": "",
+      "text": "如果你对这个感兴趣，我做了一个收录创业公司和个人开发者产品发布视频的网站。每天自动用 Grok 搜索 X 上面的产品发布或宣传视频，可以看到当天有哪些新产品发布了，也可以学习一下人家的视频风格。\n\nhttps://t.co/D9Y3jHwVvE https://t.co/nulzOAewRs",
+      "created_at": "2026-08-13T12:10:08Z",
+      "likes": 47,
+      "views": "4982",
+      "url": "https://x.com/i/status/2087874343498039640",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPmef-bbkAAMD0B.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPmef-bbkAAMD0B.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2087388859629994210",
+        "author": "dingyi",
+        "name": "Ding",
+        "text": "最近人们都挤进做视频这个赛道了，国内人手一个口播 skills，国外则是出现很多视频制作的工具。比如：\n\n- Butter Video - 可编程视频编辑器，能在时间线上组合动效、3D、Shader，适合团队协作。https://t.co/fWyxszQcB4\n- MOVO - 浏览器端做视频，200 多个 AI 增强模板，直接导出社交媒体内容。https://t.co/7KCGeUNvV4\n- Ultramock - 一款用于将产品界面/截图转化为 3D 视觉展示和动效视频的在线设计工具。 https://t.co/J1w0eBcXvF",
+        "created_at": "Wed Aug 12 04:01:00 +0000 2026",
+        "url": "https://x.com/dingyi/status/2087388859629994210",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": [],
+        "card": {
+          "name": "summary_large_image",
+          "title": "Butter Video | Online Video Editor Engineered for Creativity",
+          "description": "The first video editor and design platform built with creative code for creative teams. It's a whole new timeline.",
+          "image_url": "https://pbs.twimg.com/card_img/2087228629973626880/ede7Zxoj?format=jpg&name=600x600",
+          "url": "https://www.butter.video/",
+          "domain": "www.butter.video"
+        }
+      },
+      "score": 64.561,
+      "summary": "如果你对这个感兴趣，我做了一个收录创业公司和个人开发者产品发布视频的网站。每天自动用 Grok 搜索 X 上面的产品发布或宣传视频，可以看到当天有哪些新产品发布了，也可以学习一下人家的视频风格。\n\nhttps://t.co/D9Y3jHwVvE https://t.co/nulzOAewRs",
+      "recommend_reason": "用 Grok 日更抓 X 产品发布视频的轻量产品，适合找灵感和竞品发布素材。",
+      "tags": [
+        "Grok",
+        "产品发现",
+        "AI视频",
+        "独立开发"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2087872366898827510",
+      "author": "marclou",
+      "bio": "",
+      "text": "AI bots data for TrustMRR:\n\n- OpenAI and Anthropic used llms.txt heavily to answer users, index pages, and train their models.\n- Markdown pages are crawled 50% of the time; AI bots still use HTML.\n- /mcp is the page that ChatGPT/Claude crawl the most to answer users.\n\nn=1M+ AI bots in the last 30 days",
+      "created_at": "2026-08-13T12:02:17Z",
+      "likes": 166,
+      "views": "21821",
+      "url": "https://x.com/i/status/2087872366898827510",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPmZweMbcAAWL3F.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPmZweMbcAAWL3F.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2087547759083901252",
+        "author": "zenorocha",
+        "name": "Zeno Rocha",
+        "text": "how to make your site readable by ai agents:\n\n1. add an llms.txt so search tools stop guessing urls\n2. check your server logs, not your analytics\n3. serve a markdown version of every page\n4. support content negotiation headers\n5. rethink your JS-only widgets",
+        "created_at": "Wed Aug 12 14:32:25 +0000 2026",
+        "url": "https://x.com/zenorocha/status/2087547759083901252",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 67.437,
+      "title": "100万+ AI 爬虫日志：llms.txt 与 /mcp 成高优先级入口",
+      "summary": "基于 TrustMRR 对 100 万+ AI bot 访问的观察：OpenAI/Anthropic 大量用 llms.txt 做回答、索引与训练；Markdown 页约一半时间被爬，其余仍吃 HTML；ChatGPT/Claude 最常爬 /mcp 来回答用户。结论是站点要对 agent 可读，而不是只看传统 SEO。",
+      "recommend_reason": "把“给 AI 可读”落到日志证据：llms.txt、Markdown 镜像和 /mcp 入口，比泛泛谈 GEO 更可执行。",
+      "tags": [
+        "llms.txt",
+        "AI爬虫",
+        "GEO",
+        "MCP"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2087864956901560676",
+      "author": "gkxspace",
+      "bio": "",
+      "text": "想用 AI 做出这种质量的视频，一定是需要仔细打磨 prompt，我最近翻了很多开源大片的资产，总结了一些通用技巧：\n\n1、去 AI 味人脸：毛孔、绒毛、碎发、左右脸不对称，可以再补\"皮肤哑光，不许油光\"，脸立刻就不一样了\n\n2、角色一致性靠参考图分工：正脸管长相、全身照管衣着、一段视频管步态，prompt 里需要对应好 image_1、2、3\n\n3、大小比例需要精细化控制，比如人家不写\"巨大的...\"，写\"机甲 5 米高，她 165cm 坐在最高点，怪物 2 米\"，尺寸全锁定，这个画面比例才不飘\n\n4、30 秒提示词别写成一大段：按 0-8s / 8-21s / 21-30s 三拍写清楚每段发生什么，再单列一块\"什么永远不许变\"：服装、道具、天气、调色，全写死\n\n5、电影感也不能写\"电影感\"：别人写的是摄影师名字（诺兰的摄影指导）+ 65mm 大画幅 + 胶片颗粒 + 24fps\n\n6、否定清单跟正面描述同样重要：不要字幕/水印、不要人造镜头光斑、不要把噪点磨成塑料感，模型爱犯的错，都写进否定清单\n\n这些全是从别人已经跑通的项目里翻出来的，收藏就完事了！\nhttps://t.co/fbNeYzJm1Y",
+      "created_at": "2026-08-13T11:32:51Z",
+      "likes": 20,
+      "views": "2360",
+      "url": "https://x.com/i/status/2087864956901560676",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2087741061083156480/vid/avc1/324x270/Ra-MLc4iYYYy1Jcf.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2087741061083156480/img/cdXB6wI3EUnqrFhF.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2087745161564492144",
+        "author": "gkxspace",
+        "name": "余温",
+        "text": "卧槽！谁不想在自己婚礼上搞这一出啊？？？\n\n我看完这段真的惊呆了！\n\n上面用 Seedance 2.5 在 Higgsfield 做的，下面是婚礼现场，新娘新郎坐在那看自己。\n\n1900 年代的老码头、古罗马斗兽场、西部片骑马追火车、假面舞会......最后落回他们真实相遇的电梯。\n\nAI 很大的意义，我觉得就在这种地方。\n\n而且，兄弟们！这绝对是一门好生意啊！！！\n\n谁结婚不想要啊？传统摄影根本拍不了这个，结婚、求婚这种事，有情感寄托，是给那两个人的，人就愿意为它掏钱。\n\n况且，这种场景多的是：求婚、金婚、纪念日、孩子的成人礼，全是人这辈子最舍得花钱的时刻......\n\nAI 视频的质量越来越高，门槛越来越低，想象空间越来越大。总之，大有可为啊兄弟们！！！",
+        "created_at": "Thu Aug 13 03:36:49 +0000 2026",
+        "url": "https://x.com/gkxspace/status/2087745161564492144",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2087741061083156480/vid/avc1/324x270/Ra-MLc4iYYYy1Jcf.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2087741061083156480/img/cdXB6wI3EUnqrFhF.jpg"
+        ]
+      },
+      "score": 64.476,
+      "title": "AI 视频出片六条：人脸去AI味、参考图分工、尺寸写死",
+      "summary": "作者从开源大片资产里提炼通用技巧：毛孔/碎发/哑光皮肤去 AI 脸；正脸/全身/步态参考图分工；用具体厘米/米锁定比例；30 秒分三拍写清事件并单列“永不改变”清单；电影感写摄影师+画幅+胶片+帧率；否定清单和正面描述同等重要。",
+      "recommend_reason": "可抄作业的 AI 视频提示词工程清单，比“更电影感一点”管用得多。",
+      "tags": [
+        "AI视频",
+        "提示词",
+        "Seedance",
+        "影像"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2087820511099203769",
+      "author": "kevinma_dev_zh",
+      "bio": "",
+      "text": "如果你也在考虑精简自己的 AGENTS.md，很推荐读一下 @mattpocockuk  的这篇文章，里面还附了一个可以直接让 Agent 帮你重构 AGENTS.md 的 Prompt：\n\nhttps://t.co/WvAD4AOlvW\n\n看完以后，我觉得其中有几个观点特别值得分享。\n\n1. 尽量不要用 /init 自动生成 AGENTS.md\n\n这一点是我过去没有意识到的。\n\n自动生成往往会追求“全面”，把项目结构、命令、技术栈、代码路径、实现方式等大量信息都塞进去。\n\n其中很多内容 Agent 本来就可以自己从代码和配置文件中发现，还有一些会随着项目演进很快过时。\n\n一旦这些过期信息长期存在于 AGENTS.md 里，每次任务都会进入上下文，反而可能干扰 Agent 的判断。\n\n2. 不要重复 Agent 可以轻易发现的信息，也尽量避免维护容易过时的实现细节\n\n比如具体代码在哪个目录、某个模块目前位于哪个文件、某项功能当前由哪个 Service 实现。\n\n代码一直在变化，这类信息很容易失效。\n\n更值得写进去的，是一些稳定、重要，同时又很难单纯从代码里推断出来的信息：\n\n项目目标、关键约束、特殊工具链，以及几乎所有任务都应该遵守的原则。\n\n那些 Agent 可以通过搜索代码找到的信息，就让它在真正需要时再去探索。\n\n3. 一个很重要的原则是 Progressive Disclosure，也就是渐进式披露\n\n不要试图把所有规则都塞进根目录的 AGENTS.md。\n\n测试规范、TypeScript 约定、API 设计、数据库规则、Git Workflow 等，都可以拆到独立文档或 Skills 中。\n\n根目录的 AGENTS.md 更适合做一个很薄的“入口”和“路由器”：\n\n做什么事情时，应该去哪里读取对应的规则和上下文。\n\n这样 Agent 只有在真正需要的时候才会加载那部分内容，可以减少上下文噪音，也能降低不同指令互相干扰的概率。\n\nMonorepo 还可以进一步使用不同目录下的 AGENTS.md，让规则跟着作用域走。\n\n--------\n\n这篇文章也让我重新理解了 AGENTS.md 的定位。\n\n以前很容易把它当成一份“尽可能完整的项目说明书”，什么都想往里面加。\n\n现在我更倾向于把它看成：\n\nAgent 每次开始工作时都会读取的一组高优先级上下文。\n\n既然它会影响几乎每一次任务，那么每增加一条内容，都值得问一句：\n\n这条信息真的值得在每一次任务里占用 Agent 的注意力吗？\n\n如果答案是否定的，就可以考虑把它交给代码本身、独立文档、Skills、Hooks，或者其他按需加载的机制。\n\n所以，AGENTS.md 值得认真写，也值得定期删。\n\n精简它的意义也不只是节省 Token。\n\n更重要的是管理 Agent 的注意力，以及有限的 Instruction Budget。\n\n很多时候，少一点，Agent 反而工作得更好。",
+      "created_at": "2026-08-13T08:36:14Z",
+      "likes": 190,
+      "views": "13962",
+      "url": "https://x.com/i/status/2087820511099203769",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "A Complete Guide To AGENTS.md",
+        "description": "Learn how to optimize your AGENTS.md file for AI coding agents. Master progressive disclosure, keep instructions focused, and maximize agent performance.",
+        "image_url": "https://pbs.twimg.com/card_img/2086381277452587008/xMP6Reem?format=jpg&name=600x600",
+        "url": "https://www.aihero.dev/a-complete-guide-to-agents-md",
+        "domain": "www.aihero.dev"
+      },
+      "quoted_tweet": null,
+      "score": 63.788,
+      "title": "精简 AGENTS.md：别 /init 堆满，用渐进披露做路由",
+      "summary": "作者转述 mattpocock 观点并补充实践：少用 /init 自动生成的“全面”文档；别写 Agent 能搜到的易过期路径/实现细节；根 AGENTS.md 做薄入口与路由器，测试/TS/API/DB 等规则拆到独立文档或 Skills，按需加载（Progressive Disclosure）。稳定该写的是目标、约束、特殊工具链和几乎总要遵守的原则。",
+      "recommend_reason": "Agent 上下文治理的实操共识：减噪声、防过期、按任务再展开规则。",
+      "tags": [
+        "AGENTS.md",
+        "Agent",
+        "上下文工程",
+        "Skill"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2087816107298316415",
+      "author": "op7418",
+      "bio": "",
+      "text": "DeepSeek V4 Pro 的 0831 版本不太对劲，他们是不是又把模型给撤了？\n\n现在的情况非常奇怪：\n\nAPI 确实是有的，在 API 的模型和价格这部分写的是 0813，但是更新日志页面完全没有提到 0813 的更新。\n\n官网上面原本关于“DeepSeek V4 Pro 更新正式版”的横幅也被撤掉了。\n\n模型的文档里写的是 0813，更新日志里却没有。\n\n因为我们没办法直接知道他们到底更没更新，只能通过官方公告来确认，但他们现在既没有发正式的公众号文章，也没有发布任何公告。\n\nArtificial Analysis 测出来的得分也很怪，V4 Pro 正式版只比 V4 Flash 高了一分，两者的得分几乎是一样的。\n\n他们现在什么也不说，测出来的得分又不对。这不让昨天熬夜测试的人都成小丑了吗？我去",
+      "created_at": "2026-08-13T08:18:44Z",
+      "likes": 52,
+      "views": "83012",
+      "url": "https://x.com/i/status/2087816107298316415",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPlpqTHbcAA2oJB.jpg",
+        "https://pbs.twimg.com/media/HPlpqhFbIAA3yyA.jpg",
+        "https://pbs.twimg.com/media/HPlpqxebYAAchdE.jpg",
+        "https://pbs.twimg.com/media/HPlprCNagAA8O0x.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPlpqTHbcAA2oJB.jpg",
+        "https://pbs.twimg.com/media/HPlpqhFbIAA3yyA.jpg",
+        "https://pbs.twimg.com/media/HPlpqxebYAAchdE.jpg",
+        "https://pbs.twimg.com/media/HPlprCNagAA8O0x.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 62.476,
+      "title": "DeepSeek V4 Pro 文档写 0813，更新日志与横幅却消失",
+      "summary": "作者质疑 DeepSeek V4 Pro：API/文档出现 0813，但更新日志没提、官网“正式版”横幅撤了；Artificial Analysis 上正式版几乎贴着 V4 Flash。官方无公告，导致依赖公告确认版本的人很被动。",
+      "recommend_reason": "模型版本与评测口径的现场疑点，提醒选型时交叉核对 API、文档、更新日志和第三方榜。",
+      "tags": [
+        "DeepSeek",
+        "模型发布",
+        "评测",
+        "版本"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2087805873888637374",
+      "author": "IndieDevHailey",
+      "bio": "",
+      "text": "刚上线就火了！\n\nClaude、Gemini、OpenAI的隐形水印？  \n这开源工具直接清干净：  \n不可见Unicode、统计信号、C2PA元数据全干掉。  \n\n文本、图片、PDF、Word、MD统统支持。  \n专治自己生成的内容，隐私更干净。  \n\nPython脚本+Agent技能，MIT免费开源。  \n开源社区速度真是离谱😂 https://t.co/sGQTLOqQbh",
+      "created_at": "2026-08-13T07:38:04Z",
+      "likes": 108,
+      "views": "7976",
+      "url": "https://x.com/i/status/2087805873888637374",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPlgV-hbsAA0zYh.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPlgV-hbsAA0zYh.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 68.244,
+      "summary": "刚上线就火了！\n\nClaude、Gemini、OpenAI的隐形水印？  \n这开源工具直接清干净：  \n不可见Unicode、统计信号、C2PA元数据全干掉。  \n\n文本、图片、PDF、Word、MD统统支持。  \n专治自己生成的内容，隐私更干净。  \n\nPython脚本+Agent技能，MIT免费开源。  \n开源社区速度真是离谱😂",
+      "recommend_reason": "指向可自用的开源去水印工具链（文本/图/文档+Agent skill），适合关心生成内容隐私与溯源的人。",
+      "tags": [
+        "开源",
+        "水印",
+        "隐私",
+        "Agent"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2087792738905518524",
+      "author": "LawrenceW_Zen",
+      "bio": "",
+      "text": "在 Ante 测评中既然提到了 Pi Coding Agent，给大家分享一下我最常用的 2 个 Extension。\n\n因为Pi 代表着极致简单的理念，所以本身不具备一些常见 Agent 的常用功能。而 Ante 则是全都搭配上了。\n\n我推荐的插件也是只推荐最有必要的：\n\n1. 「pi-web-access 」—— 必备的 Web 搜索插件：为 Pi 代理提供网页搜索、内容提取和视频理解功能。支持的搜索工具包含十几种。\n\n2. 「pi-subagents」—— Agent 必备的 SubAgent 插件：允许 Pi 将工作委派给专注于特定任务的子代理。它可用于代码审查、探索、实现、并行审计、保存的工作流、后台作业，以及任何其他需要第二或第三个模型视角才能完成的任务。\n\n少即是多，这两个基本完全够用。",
+      "created_at": "2026-08-13T06:45:52Z",
+      "likes": 25,
+      "views": "5666",
+      "url": "https://x.com/i/status/2087792738905518524",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPlTzLKbUAAxTxg.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPlTzLKbUAAxTxg.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2087464432330768579",
+        "author": "LawrenceW_Zen",
+        "name": "劳伦斯",
+        "text": "https://t.co/f9WfKmGzVQ",
+        "created_at": "Wed Aug 12 09:01:18 +0000 2026",
+        "url": "https://x.com/LawrenceW_Zen/status/2087464432330768579",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 62.426,
+      "title": "Pi Coding Agent 两个够用扩展：web-access 与 subagents",
+      "summary": "作者在 Ante 测评语境下推荐 Pi 的两个最小必要插件：pi-web-access（网页搜索/提取/视频理解，多搜索源）和 pi-subagents（子代理委派：审查、探索、实现、并行审计、后台任务）。理念是 Pi 保持极简，能力用扩展补，少即是多。",
+      "recommend_reason": "给极简 CLI Agent 补齐联网与子代理的最小组合，可直接照装。",
+      "tags": [
+        "Pi",
+        "Agent",
+        "扩展",
+        "SubAgent"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2087783863741256149",
+      "author": "dotey",
+      "bio": "",
+      "text": "最近一直在忙着把我的 App 变成跨平台的，试了几种方案还是决定用 Rust + GPUI。\n\n一开始就是用的 Electron，但是视频编辑这种场景纯网页实现性能优化还是挺不容易的，尤其是视频一长、字幕一多就会很卡，内存占用也很夸张。我不怀疑持续优化下去能是能有一个还不错的性能的，但要花不少时间精力。\n\n所以我后来就决定先做一个 Mac 版本（图1），Swift + AppKit，用 Fable 5 开发，效果特别好，跟设计稿几乎一样。必须说 Fable 5 在还原 UI 能力上是最强的，没有之一。\n\n但现在想要支持跨平台，就还得考虑其他方案。先是用 Rust 做了一个跨平台 cli 的 PoC，效果很好，音频转录和视频导出的性能比 Swift 还好，还能支持 Mac、Windows 多平台。\n\n接下来就是把 Swift 版本移植到 cli 之上，工作量还是挺大的，前期开发的功能越多，现在迁移工作就越难。初步是完成了，但接下来就是 Windows 版本的支持。\n\n再去基于 cli 开发个 windows 版本成本还是挺高，尤其是要去 windows 电脑上开发测试，各种逻辑同步想想都头大。现在 AI 让写代码变得成本很低，但是测试和验收成本还在那里，跨平台的好处就是你核心逻辑测试没问题，后面只有少量兼容性的问题需要去测试，工作量小很多。\n\n因为 cli 已经是 rust 写的，所以自然而然就会想到用 rust 的 GPUI 去做跨平台，不过决定之前肯定是要先做 PoC 验证的。\n\n跟 Fable 5 一起写了个技术方案文档，由于上个周期额度到了，后面就先让 GPT 5.6 Sol 去实现了一个 PoC 版本（图2），还不错了。\n\n今天 Grok 4.6 发布，又用 Cursor + Grok 4.6 实现了一个版本（图3），效果要差一些。Grok 4.6 有点好处就是生成的速度极快\n\n今天晚上 Claude 的额度终于刷新了，再让 Fable 去实现了一个版本（图4），相对来说是最好的一个，但离成品也还有不小的差距。\n\n经过这三个 PoC 版本，至少可行性上是没什么问题了，性能也很好，接下来就沿着这个方向走下去了。\n\n---\n\n对了，现在 BaoCut Skill 从 Windows 下也可以转录和翻译视频了：\nhttps://t.co/lU5E1qFsNe",
+      "created_at": "2026-08-13T06:10:36Z",
+      "likes": 224,
+      "views": "34726",
+      "url": "https://x.com/i/status/2087783863741256149",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPlHuTfXcAAUoHh.jpg",
+        "https://pbs.twimg.com/media/HPlLI1pXwAAAaqQ.jpg",
+        "https://pbs.twimg.com/media/HPlLaAzWwAESWu0.jpg",
+        "https://pbs.twimg.com/media/HPlLpnNWEAAY2JS.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPlHuTfXcAAUoHh.jpg",
+        "https://pbs.twimg.com/media/HPlLI1pXwAAAaqQ.jpg",
+        "https://pbs.twimg.com/media/HPlLaAzWwAESWu0.jpg",
+        "https://pbs.twimg.com/media/HPlLpnNWEAAY2JS.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 67.191,
+      "title": "视频编辑 App 跨平台：Electron→Swift→Rust CLI→GPUI 的选型路",
+      "summary": "作者分享视频编辑 App 跨平台迁移：Electron 性能吃力；先用 Swift+AppKit+Fable5 做 Mac 高保真；再用 Rust 做跨平台 CLI 提升转写/导出；最后以 CLI 为核试 Rust GPUI，并用 GPT 5.6 Sol、Grok 4.6 分别做 PoC。强调 AI 把写代码变便宜后，测试与验收仍是主成本，跨平台的价值是核心逻辑一次测、多端只扛兼容。",
+      "recommend_reason": "真实产品级跨平台取舍+多模型 PoC 对照，对“AI 写代码 vs 验收成本”说得很清楚。",
+      "tags": [
+        "跨平台",
+        "Rust",
+        "GPUI",
+        "AI编程",
+        "产品工程"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2087773087534129615",
+      "author": "bindureddy",
+      "bio": "",
+      "text": "AutoBots - Multi-LLM Self Improving Loop Are The Future\n\n- use the best LLM optimized for cost and performance\n- set a goal and a metric, AI does the rest\n- long horizon tasks can automate anything\n- Fable 5 is super powerful on large code bases\n- DeepSeek Flash is dirt cheap for simple tasks",
+      "created_at": "2026-08-13T05:27:47Z",
+      "likes": 291,
+      "views": "1819988",
+      "url": "https://x.com/i/status/2087773087534129615",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPlCiwFbUAAESnK.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPlCiwFbUAAESnK.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 65.62,
+      "title": "AutoBots：多模型自改进环才是长程自动化方向",
+      "summary": "作者主张未来是 Multi-LLM 自改进回路：按成本/性能选模型、只设目标与指标，让 AI 长程执行；大代码库用强模型（Fable 5），简单任务用便宜模型（DeepSeek Flash）。核心不是单次对话，而是目标驱动的循环。",
+      "recommend_reason": "把多模型路由和长程任务写成可操作原则，适合对照自己的 Agent 编排。",
+      "tags": [
+        "Multi-LLM",
+        "Agent",
+        "自动化",
+        "成本"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2087767524717068388",
+      "author": "yangyi",
+      "bio": "",
+      "text": "Clay的联创今天发了一个Linkedin分享了Clay内部关于AI写作的要求\n\n有四条核心原则\n原则一 · 你必须为每一句话背书\n文档整体必须代表你自己的想法，发出去之前你要确认。\n不允许出现\"那句是 AI 写的，忽略吧\"。\n\n后果分两级：被人类识破 = 尴尬；没被识破 = 团队基于你没想过的观点做决策（更严重）。\n\n原则二 · 写作即思考\n决定强调什么、如何组织，这个过程本身让你更懂题目。\n\nspec / 状态更新 / 复盘是 \"proof of thought\"——生成文件并不是目的，目的是把问题想清楚。外包给 AI 等于伪造了一份我思考过的证明。\n即使和 AI 讨论帮你想清楚了，也必须自己彻底过一遍结果。\n\n原则三 · 写的时间 > 读的时间\n短 prompt → 长输出 → 甩给读者 = 不尊重对方时间（他们自己也能问 ChatGPT）。\n\n读者多花的时间 × N 人 = 乘法成本；\n作者多花的时间 = 一次性成本，每个读者受益。\n\n原则四 · 长不等于好\n简洁是成本更高的选项，因为这注定了人类需要花时间删除。\nAI 的冗句制造了噪声，它稀释真正的内容。\n从短 prompt 生成长文，还不如直接发那个 prompt。\n只润色不扩写，虽然垃圾表达可能变少了，但意思也可能被AI磨灭了。\n\n之所以会提出这些要求，是因为AI写作面临一个根本性的问题：对于自然语言的语义传达，并不存在无损转换\n\n- \"换个说法但意思一样\"在原理上不成立。\n- 每次改写都在改变意思。\n- 改写者对\"你到底想说什么\"的表征越粗糙，损失越大——AI 只有你给它的那些 token。\n\n所以建议大家也参考这份指南做自我检查：\n\n- 如果有人逐行问\"这句什么意思\"，我每一句都答得上来吗？\n- 结构和措辞（决定了什么被强调）是我自己的选择吗？\n- 我花的时间比读者读它的时间多吗？\n- 有没有哪句删掉不损失信息？（有就删）\n- 直接发 prompt，信息量是不是差不多？（是的话就发 prompt）\n- 引用的 AI 内容都标注了吗？",
+      "created_at": "2026-08-13T05:05:41Z",
+      "likes": 62,
+      "views": "9286",
+      "url": "https://x.com/i/status/2087767524717068388",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPk8D1YbsAAXFNh.jpg",
+        "https://pbs.twimg.com/media/HPk8NOVaQAAfmZO.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPk8D1YbsAAXFNh.jpg",
+        "https://pbs.twimg.com/media/HPk8NOVaQAAfmZO.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 65.123,
+      "title": "Clay 内部 AI 写作四原则：为每句背书，写作即思考",
+      "summary": "Clay 联创分享内部 AI 写作规范：①每句话你都要能背书，被识破尴尬、没识破更糟；②写作即思考，spec/状态更新是 proof of thought，不能外包给 AI 伪造；③作者花的时间应多于读者，短 prompt 甩长文是不尊重；④长≠好，AI 冗句制造噪声。底层判断：自然语言没有无损改写，每次重写都在改意思。",
+      "recommend_reason": "团队级 AI 写作治理清单，直接可用来自检“AI 草稿有没有真想过”。",
+      "tags": [
+        "AI写作",
+        "知识工作",
+        "团队规范",
+        "Clay"
+      ],
+      "rank": 13
+    },
+    {
       "id": "2087719356763672917",
       "author": "levie",
       "bio": "",
@@ -51,7 +521,7 @@
         "Grok"
       ],
       "title": "DeepSeek 与 Grok 降本放量：企业 AI 的杰文斯悖论",
-      "rank": 1
+      "rank": 14
     },
     {
       "id": "2087715809284239475",
@@ -82,7 +552,7 @@
         "WebGL",
         "创意编程"
       ],
-      "rank": 2
+      "rank": 15
     },
     {
       "id": "2087668888117129637",
@@ -111,7 +581,7 @@
         "VibeCoding"
       ],
       "title": "卡兹克更新主力组合：Grok 4.6 / ChatGPT / DeepSeek 分工",
-      "rank": 3
+      "rank": 16
     },
     {
       "id": "2087662930171166804",
@@ -141,7 +611,7 @@
         "模型发布",
         "性价比"
       ],
-      "rank": 4
+      "rank": 17
     },
     {
       "id": "2087640853783232562",
@@ -175,7 +645,7 @@
         "MCP",
         "插件"
       ],
-      "rank": 5
+      "rank": 18
     },
     {
       "id": "2087629560632467882",
@@ -207,7 +677,7 @@
         "模型选型"
       ],
       "title": "DeepSeek v4 Pro 上线：作者判断约 Sonnet 级",
-      "rank": 6
+      "rank": 19
     },
     {
       "id": "2087592096769147377",
@@ -239,7 +709,7 @@
         "配置迁移"
       ],
       "title": "Hermes 配置文件可导出/导入，支持跨机迁移",
-      "rank": 7
+      "rank": 20
     },
     {
       "id": "2087591365357998136",
@@ -269,7 +739,7 @@
         "Claude",
         "开发工具"
       ],
-      "rank": 8
+      "rank": 21
     },
     {
       "id": "2087586063682596905",
@@ -313,7 +783,7 @@
         "xAI",
         "模型评测"
       ],
-      "rank": 9
+      "rank": 22
     },
     {
       "id": "2087583466301059567",
@@ -345,7 +815,7 @@
         "3D打印"
       ],
       "title": "用 Opus 5 从需求直接生成可 3D 打印显微镜设计",
-      "rank": 10
+      "rank": 23
     },
     {
       "id": "2087577905081823559",
@@ -376,7 +846,7 @@
         "Skill",
         "前端"
       ],
-      "rank": 11
+      "rank": 24
     },
     {
       "id": "2087576824159297605",
@@ -418,7 +888,7 @@
         "基础设施"
       ],
       "title": "NVIDIA 祝贺 Grok 4.6：训推均在 GB300 NVL72",
-      "rank": 12
+      "rank": 25
     },
     {
       "id": "2087573425514537326",
@@ -460,10 +930,10 @@
         "工作流"
       ],
       "title": "用“人物时间线”给知识库做可持续记忆",
-      "rank": 13
+      "rank": 26
     }
   ],
-  "generated_at": "2026-08-13T04:08:50Z",
+  "generated_at": "2026-08-13T16:07:35Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -471,10 +941,10 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 13,
+    "actual_count": 26,
     "last_batch_added": 13,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
