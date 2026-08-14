@@ -9,6 +9,394 @@
   },
   "items": [
     {
+      "id": "2088290227408531681",
+      "author": "abskoop",
+      "bio": "🔍 挖掘互联网宝藏工具｜AI 工具 · 开源项目 · 在线工具 · 效率神器\n投稿 欢迎 DM｜备用号 @ahhhhfs\n🔔 TG 频道：https://t.co/OmSvNms9yl",
+      "text": "想体验 DeepSeek Harness，但不想先装 Node.js、再去终端跑命令？\n\nDeepSeek Harness 桌面来了，它把官方 Harness 装进了一个 Mac / Windows 客户端里。\n\n打开软件会自动启动本地 Harness 服务，Web UI 也直接放在客户端里，不用再手动跑命令，也不用另外开浏览器。\n\nAgent、插件和模型这些能力还是官方 Harness 的，主要就是让安装和启动省事一点。\n\n👉https://t.co/b6L0o0OvtG",
+      "likes": 6,
+      "retweets": 0,
+      "replies": 2,
+      "views": 1681,
+      "created_at": "2026-08-14T15:42:43Z",
+      "url": "https://x.com/abskoop/status/2088290227408531681",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPsYbyWbsAAgkij.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPsYbyWbsAAgkij.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "title": "DeepSeek Harness 出了桌面客户端，不用先装 Node.js",
+      "summary": "不想先装 Node.js 再在终端启动的人，现在可以用 DeepSeek Harness 桌面版：把官方 Harness 装进 Mac/Windows 客户端，打开后自动起本地服务，Web UI 也嵌在客户端里。Agent、插件和模型能力仍是官方 Harness，主要省安装和启动。",
+      "recommend_reason": "DSH 昨天刚发、门槛卡在环境，这个客户端把「先装 Node」这一步砍了。",
+      "tags": [
+        "DeepSeek",
+        "Harness",
+        "产品",
+        "开源"
+      ],
+      "score": 58.504,
+      "rank": 1
+    },
+    {
+      "id": "2088287553292312968",
+      "author": "Alibaba_Qwen",
+      "bio": "Open foundation models for AGI.",
+      "text": "Qwen 3.8-Max is live on Modal, with the full 1M context window and a custom DFlash speculator under the hood.\nLove seeing our launch partner Modal go all in from Day 0!⚡️\n2.4T parameters. 1M context. Somehow, still just a Modal call away. @modal https://t.co/mxMmTSawyK",
+      "likes": 197,
+      "retweets": 18,
+      "replies": 5,
+      "views": 13886,
+      "created_at": "2026-08-14T15:32:05Z",
+      "url": "https://x.com/Alibaba_Qwen/status/2088287553292312968",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPsWOvoaYAA2xce.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPsWOvoaYAA2xce.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2087736347184263328",
+        "author": "modal",
+        "name": "Modal",
+        "text": "Qwen3.8-2.4T-A95B by @Alibaba_Qwen and @alibaba_cloud is now available on Modal.\n\nServed with a custom DFlash speculator trained on tool-call-heavy data. Full 1M context window. https://t.co/KAoS3tCmhU",
+        "created_at": "Thu Aug 13 03:01:48 +0000 2026",
+        "url": "https://x.com/modal/status/2087736347184263328",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HPkc_-qW4AEdN3t.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HPkc_-qW4AEdN3t.jpg"
+        ]
+      },
+      "title": "Qwen3.8-Max 上线 Modal：2.4T + 1M 上下文",
+      "summary": "Qwen3.8-Max（2.4T-A95B）在 Modal 上线，完整 1M 上下文，底层挂了针对工具调用训练的 DFlash speculator。Modal 是 Day-0 合作方，官方称一次调用就能用上。",
+      "recommend_reason": "比一堆「同步上线」更具体：1M 窗口和为 tool-call 定制的投机解码都写明了。",
+      "tags": [
+        "Qwen",
+        "API",
+        "Agent",
+        "产品"
+      ],
+      "score": 70.293,
+      "rank": 2
+    },
+    {
+      "id": "2088280182356611304",
+      "author": "Alibaba_Qwen",
+      "bio": "",
+      "text": "We promised open weights for Qwen3.8. Now, time to meet them! 🎉\n\n⚡ Qwen3.8-27B:\n- A native multimodal dense model. With just 27B parameters, it outperforms Qwen3.7-Plus overall and shines in real-world coding & office workflows.\n- 262K native context, easily extendable to 1M tokens via YaRN.\n- Built for builders. Highly efficient, high-quality, and licensed under Apache 2.0.\n\n🚀 The open weights for Qwen3.8-2.4T-A95B (Max-level) have also been released recently.\n\nWhether you're shipping lightweight applications with Qwen3.8-27B locally or building agents with Qwen3.8-2.4T-A95B, they're yours now!\n\nDownload, deploy, and build something we haven't imagined yet. 👀👇\n- Hugging Face：\nhttps://t.co/4kaAcqYEVj\n- ModelScope：\nhttps://t.co/eRIMZCGkhC",
+      "likes": 4135,
+      "views": "219119",
+      "created_at": "2026-08-14T15:02:48Z",
+      "url": "https://x.com/i/status/2088280182356611304",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPsKxzsbQAAJa4d.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPsKxzsbQAAJa4d.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 79.703,
+      "title": "Qwen3.8 开源权重：27B 多模态和 2.4T Max 一起放",
+      "summary": "通义宣布兑现 Qwen3.8 开源承诺：Qwen3.8-27B 是原生多模态稠密模型，27B 参数整体超过 Qwen3.7-Plus，偏真实编程和办公；原生 262K 上下文，YaRN 可扩到 1M；Apache 2.0。同时放出 Qwen3.8-2.4T-A95B（Max 级）开源权重，Hugging Face 和 ModelScope 可下。",
+      "recommend_reason": "官方把能本地跑的 27B 和 Max 级 2.4T 权重同一天摊开，规格、许可和下载入口一次齐。",
+      "tags": [
+        "Qwen",
+        "开源",
+        "多模态",
+        "Agent"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2088250109188608289",
+      "author": "SpaceXAI",
+      "bio": "",
+      "text": "Welcome to the SpaceXAI team!\n\nCursor will help us move faster on the path to the world's most useful AI, starting with software engineering and expanding into knowledge work.",
+      "likes": 8502,
+      "views": "1037870",
+      "created_at": "2026-08-14T13:03:18Z",
+      "url": "https://x.com/i/status/2088250109188608289",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2088249881718919393",
+        "author": "cursor_ai",
+        "name": "Cursor",
+        "text": "Cursor is now part of @SpaceX. \n\nToday, we have officially closed our acquisition. We will join the @SpaceXAI team to help make Grok the world's most useful AI and improve Grok Build, Grok Bot, Grok API, Cursor, and more.\n\nSpaceX has built some of the most inspiring and impressive technology in the world, and we’re grateful for the opportunity to become part of such a special company. Onwards.",
+        "created_at": "Fri Aug 14 13:02:24 +0000 2026",
+        "url": "https://x.com/cursor_ai/status/2088249881718919393",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 70.473,
+      "summary": "欢迎 Cursor 加入 SpaceXAI 团队！Cursor 会帮我们更快走向「世界上最有用的 AI」：先从软件工程开始，再扩展到知识工作。",
+      "recommend_reason": "SpaceXAI 官号接住 Cursor 已交割的收购声明，Grok Build、API 和 Cursor 以后是一家的了。",
+      "tags": [
+        "Cursor",
+        "SpaceXAI",
+        "Grok Build",
+        "产业"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2088225881475223849",
+      "author": "xiaohu",
+      "bio": "带你了解全球最前沿科技、AI动态...\n\nAI 精华，讲到你懂：https://t.co/nvuDIvoNg1",
+      "text": "OpenAI 发布 GPT-5.6 构建者指南：\n\n同样的效果，账单从 33 美元降到 1.33 美元\n\nOpenAI 发布了一份给开发者的 GPT-5.6 构建者指南，主题是怎么把 Agent 的账单砍下来：\n\n型号选哪个、推理档位开多大、三个新的 API 开关怎么用，全是能直接照着改的配置\n\n主要思想就是：不再需要“无脑上最贵的顶配模型”，通过更聪明的模型搭配、架构优化和 API 新特性，可以用骨折级的价格做出更强、更快的应用。\n\n6家已经把 Agent 跑在线上的创业公司，各交了一条实测数字。\n\n它推翻的是过去搭 Agent 的默认姿势，上最贵的旗舰模型，把推理拉满。\n\n到了 5.6 这一代，中小型号多想一会儿就能顶到上一代旗舰的水平，价钱只是零头。",
+      "likes": 63,
+      "retweets": 6,
+      "replies": 8,
+      "views": 16269,
+      "created_at": "2026-08-14T11:27:02Z",
+      "url": "https://x.com/xiaohu/status/2088225881475223849",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPrdyHmaIAETgLC.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPrdyHmaIAETgLC.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 64.034,
+      "title": "GPT-5.6 构建者指南：同样效果账单从 33 美元降到 1.33",
+      "summary": "OpenAI 发了 GPT-5.6 开发者指南，主题是砍 Agent 账单：怎么选型号、推理档开多大、三个新 API 开关怎么用。核心是别再默认上最贵旗舰并把推理拉满；5.6 这一代中小模型多想一会儿就能顶上一代旗舰。六家已上线 Agent 的公司各交了一条实测，其中同样效果从 33 美元降到 1.33 美元。",
+      "recommend_reason": "把「换代=换更贵顶配」拆开了，给的是可改配置和六家账单数字，不是口号。",
+      "tags": [
+        "OpenAI",
+        "GPT-5.6",
+        "Agent",
+        "API"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2088199058313957734",
+      "author": "op7418",
+      "bio": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design）\n\n歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "text": "15 张数据图帮你了解 DeepSeek Harness\n\n昨天 DeepSeek Harness 发布，于是就想着让 Codex 分析一下，找到了一个很好的角度，就是从一些数据上向大家介绍这个产品。\n\n确实也发现了一些很有意思的东西：\n\n插件系统与 Koishi 高度相似： 他们主打的插件系统与 Koishi 的插件平台相似度高达 75%。大概率是整个平台都挪过来了，不知道是不是他们的核心开发者入职了。\n\n大量使用 AI 开发： Codex 命名的主干 PR 达到了 21.2%，分支信息中提到 Codex 的比例有 28.2%。 猜测他们肯定用了 Claude Code 开发，只是删掉了一些 Claude 的痕迹。\n\n参考了大量外部 Agent 项目： 提到最多的外部项目是 Pi，第二多的是 Codex，之后是 Claude Code。甚至直接引用了一些 Pi 的 TypeScript 文件。\n\n高效的代码产出： 整个产品在 GitHub 上有记录的是 65 天，总共的代码产出量是 84 万行，有一万多个 commit，非常高效。\n\n交互入口的演变： 他们曾经押注 TUI，后来改成 Web UI 和 TUI 的双入口，再之后整个删除了所有的 TUI，只留下了 Web UI。\n\n开发与工程规范： 整个项目的测试代码比生产代码多很多，基本上达到了 1:1。 全仓库的 Markdown 文档也非常多，说明他们是基于文档去控制 Harness 开发的。他们有完整的工具和科学模型 schema 共 52 个，但最后只留下了一个，目的是为了减少上下文占用。\n\n社区热度与生态：从昨天发布到现在 20 小时，GitHub 已经涨到了 8 万多的 star，非常快。插件体系标签（DSH plugin）已经有 1425 个项目，但有很多并不是真正的插件，看来有不少蹭热度的。 精选清单收录了 211 个仓库，主要补充的是工具、UI 和运行的一些基础设施，甚至一上来就出现了插件市场和插件管理的插件。\n\n学术论文： 他们顺便发了一篇 88 页的论文，其中 57% 都在做一些形式化的理论推导和展示。论文主要讨论的是插件的热插拔和系统稳定性问题。",
+      "likes": 41,
+      "retweets": 3,
+      "replies": 21,
+      "views": 8016,
+      "created_at": "2026-08-14T09:40:27Z",
+      "url": "https://x.com/op7418/status/2088199058313957734",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2088198977384775680/vid/avc1/320x426/T3UM15fbULXL9SmX.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2088198977384775680/img/v4JUUemg3DAT6GNb.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 63.329,
+      "title": "15 张图拆 DeepSeek Harness：插件像 Koishi，65 天 84 万行",
+      "summary": "宝玉用 Codex 从仓库数据拆 DeepSeek Harness：插件系统和 Koishi 相似度约 75%；主干 PR 带 Codex 命名 21.2%，分支提到 Codex 28.2%，还猜用过 Claude Code 后抹了痕迹；外部项目引用最多的是 Pi，其次 Codex、Claude Code；GitHub 有记录 65 天、84 万行、一万多个 commit；入口从押注 TUI 到双入口再到删光 TUI 只留 Web UI；测试代码和生产大约 1:1。发布 20 小时 star 超 8 万，DSH plugin 标签 1425 个仓库里水分不少。另有 88 页论文，一半以上在做插件热插拔和稳定性的形式化推导。",
+      "recommend_reason": "比「又一篇介绍」更硬：相似度、PR 占比、入口演化和 star 水分都是能回仓库核对的数。",
+      "tags": [
+        "DeepSeek",
+        "Harness",
+        "Codex",
+        "开源"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2088189720472031682",
+      "author": "IndieDevHailey",
+      "bio": "独立开发者 · AI Builder\nAI × 全栈 × 增长\nGoViralX｜连接品牌与 KOL\n商务合作 & 品牌增长咨询：hailey_le_1",
+      "text": "花了差不多一天时间，用 Codex + Three.js 把一张中国古代闹市图，做成了能直接逛的 3D 场景。\n\n现在已经有河道、拱桥、古建筑、摊位、船只、NPC，主角也能自动寻路、避让行人、从桥头正常过桥，基本把走完整个闹市跑通了。\n\n目前还得继续磨：人物动作有点僵，偶尔会穿栏杆，NPC 和摊位细节也不够，担子、货物、店铺陈设都还很粗。",
+      "likes": 17,
+      "retweets": 2,
+      "replies": 9,
+      "views": 2609,
+      "created_at": "2026-08-14T09:03:20Z",
+      "url": "https://x.com/IndieDevHailey/status/2088189720472031682",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2088188739667501056/vid/avc1/476x270/HRBL9NCH9gEpKkJM.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2088188739667501056/img/cybINl_YSC5wu1fm.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 61.402,
+      "summary": "花了差不多一天时间，用 Codex + Three.js 把一张中国古代闹市图，做成了能直接逛的 3D 场景。\n\n现在已经有河道、拱桥、古建筑、摊位、船只、NPC，主角也能自动寻路、避让行人、从桥头正常过桥，基本把走完整个闹市跑通了。\n\n目前还得继续磨：人物动作有点僵，偶尔会穿栏杆，NPC 和摊位细节也不够，担子、货物、店铺陈设都还很粗。",
+      "recommend_reason": "不是「30 秒出游戏」那种空话，一天时间把寻路、过桥、避让都跑通，还老实写了穿模。",
+      "tags": [
+        "Codex",
+        "Three.js",
+        "AI Coding",
+        "3D"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2088183437178048857",
+      "author": "LufzzLiz",
+      "bio": "Al 创作者•LLM 爱好者•Al Agent 构建者\nAI 生视频•AI 生图\n输出有温度的洞察。 致力于降低 AI 使用门槛，让更多人受益。\n某大厂架构师-多模态、模型私有化领域\n企业 AI方案设计• FDE\n关注AI产品、AI结合教育、艺术创作领域\n📮: lanshulan007@gmail.com",
+      "text": "哈哈，glm 5.3 真发了，GLM-5.3 没有公布新参数量，官方写的是和 5.2 同一基座。\n\n官方声称 5.3 在不少公开编码榜上已经能跟开源第一梯队掰手腕，整体仍低于 Claude Fable 5 和 GPT-5.6 Sol。Terminal Bench 2.1 这种更老的榜已经挤在 85–89，区分度很小\n\n内部榜 Code Bench 比公开榜更值得看，因为它同时报了完成率和 token。评测挂在 Claude Code 2.1.207 上：\nMax：5.3 约 34.5%，每题大约 75K 输出 token；5.2 是 23.4%，却要大约 96K\nHigh：5.3 约 31.4%，大约 50K token，超过 Claude Opus 4.8 的 29.5% / 120K\n仍低于 Claude Fable 5 的 Max 约 39.5%\n图上还有一个细节：5.3 从 Low 到 High，token 几乎没多多少，准确率却从大约 24.5% 一下抬到 31.4%。\n所以推荐用High及以上，晚点我们来个测评",
+      "likes": 14,
+      "retweets": 2,
+      "replies": 16,
+      "views": 7815,
+      "created_at": "2026-08-14T08:38:22Z",
+      "url": "https://x.com/LufzzLiz/status/2088183437178048857",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPq1yelbEAAO-u5.jpg",
+        "https://pbs.twimg.com/media/HPq2ORTb0AAq1vK.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPq1yelbEAAO-u5.jpg",
+        "https://pbs.twimg.com/media/HPq2ORTb0AAq1vK.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2088119678594150468",
+        "author": "LufzzLiz",
+        "name": "岚叔",
+        "text": "glm 5.3  就在今天吗？，3h前唐杰回复：glm 5.3 sooon https://t.co/fkcsjkBBke",
+        "created_at": "Fri Aug 14 04:25:01 +0000 2026",
+        "url": "https://x.com/LufzzLiz/status/2088119678594150468",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HPp9nR7bEAA9c4e.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HPp9nR7bEAA9c4e.jpg"
+        ]
+      },
+      "title": "GLM-5.3 还是 5.2 同基座，Code Bench 完成率拉到 34.5%",
+      "summary": "智谱发布 GLM-5.3，官方称不换基座、只做后训练。LufzzLiz 对照内部 Code Bench（挂在 Claude Code 2.1.207）：Max 完成率约 34.5%、约 75K token，高于 5.2 的 23.4%/96K；High 约 31.4%/50K，超过 Claude Opus 4.8 的 29.5%/120K，仍低于 Fable 5 的约 39.5%。从 Low 到 High，token 几乎不涨但准确率从约 24.5% 提到 31.4%，建议用 High 及以上。公开编码榜官方称能跟开源第一梯队掰手腕，整体仍低于 Fable 5 和 GPT-5.6 Sol。",
+      "recommend_reason": "同基座后训练能涨多少，这里把完成率和 token 一起报了，比「又发一版」有对照。",
+      "tags": [
+        "GLM-5.3",
+        "智谱",
+        "AI Coding",
+        "Fable 5"
+      ],
+      "score": 60.835,
+      "rank": 8
+    },
+    {
+      "id": "2088172365750645091",
+      "author": "op7418",
+      "bio": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design）\n\n歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "text": "Twitter 完全开源了他们的推荐算法\n\n用 Codex 分析了一下，感觉跟以前我们的认知还是有不少变化的。\n\n总结了六条创作者应该做的事情：\n\n1. 应该做值得转发的原创内容。\n\n2. 尽量少用首贴写钩子，把重要内容放在第二条推串里这种发帖形式（这个和大家的认知不太一样，比较重要）。\n\n3. 应该优先争取阅读、回复、引用和关注，点赞的权重其实没有那么高。\n\n4. 拉开发帖间隔，不要频繁刷屏。\n\n5. 深耕一个垂类，不要频繁更换账号类型。\n\n6. 少做那些互动诱饵（比如互关、回复发送等），不要让别人讨厌你、对你点“不感兴趣”或举报。",
+      "likes": 71,
+      "retweets": 11,
+      "replies": 13,
+      "views": 15175,
+      "created_at": "2026-08-14T07:54:23Z",
+      "url": "https://x.com/op7418/status/2088172365750645091",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPqrcsWa0AAl7mC.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPqrcsWa0AAl7mC.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2087951962004230428",
+        "author": "XOpenSource",
+        "name": "X Open Source",
+        "text": "https://t.co/soxNY8YdP7",
+        "created_at": "Thu Aug 13 17:18:34 +0000 2026",
+        "url": "https://x.com/XOpenSource/status/2087951962004230428",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 64.254,
+      "title": "开源推荐算法后，创作者该改的六件事",
+      "summary": "宝玉用 Codex 拆了 X 刚开源的推荐算法，总结六条：做值得转发的原创；少把钩子放首帖、重要内容别塞第二条；优先阅读、回复、引用和关注，点赞权重没那么高；拉开发帖间隔；深耕一个垂类；少做互关等互动诱饵，避免被点不感兴趣或举报。",
+      "recommend_reason": "第二条反常识——「首帖钩子、重点放第二条」这套玩法，算法开源后被打脸了。",
+      "tags": [
+        "X",
+        "推荐算法",
+        "创作者",
+        "Codex"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2088171980571001338",
+      "author": "kevinma_dev_zh",
+      "bio": "独立开发者，AI Builder。\n开发了 https://t.co/TR0z0yeFeA - 帮助你更容易的学习英语。",
+      "text": "说真的, @mattpocockuk  的 grill-me，应该是我使用频率最高，同时也觉得最有用的 Skill 之一。\n\n我在做产品和技术设计时，经常会用它来帮我检查，还有哪些地方没有真正想清楚。\n\n很多时候，大的交互框架、产品流程和技术方向其实已经比较明确了，但往下落到细节，就会发现还有很多模糊的地方。有些是自己遗漏了，有些是之前压根没有想到，还有一些更常见的情况是，AI 已经给出了方案，甚至做出了 Mock UI，我看完却总觉得不太对。\n\n麻烦就在这里。\n\n我知道自己不满意，却又很难立刻说清楚，到底哪里有问题，以及我真正想要的是什么。\n\n这时候我通常会先把目前的想法、目标和已有方案告诉 Agent，然后直接来一句：grill me。\n\n接下来，Agent 就会开始不断盘问我。\n\n它会沿着设计中的一个个分支继续往下问，把那些原本模糊的地方一点点挖出来：这个功能到底解决什么问题？这个状态应该怎么处理？用户为什么要在这里做这个动作？两种方案之间你真正看重的是什么？\n\n很多问题，我其实从来没有认真想过。\n\n而在一轮轮回答这些问题的过程中，原本只是脑子里一个模糊的感觉，会逐渐变成非常具体的产品决策。\n\n这也是我觉得 grill-me 最有价值的地方。\n\n有时候你缺的并不是 AI 再给你一个方案，而是有人不断追问，帮你把自己真正想要的东西想明白。",
+      "likes": 71,
+      "retweets": 2,
+      "replies": 5,
+      "views": 16622,
+      "created_at": "2026-08-14T07:52:51Z",
+      "url": "https://x.com/kevinma_dev_zh/status/2088171980571001338",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 60.88,
+      "title": "最高频 Skill 不是给方案，是一句 grill me 把你问清楚",
+      "summary": "kevinma 说 mattpocock 的 grill-me 是他最常用的 Skill。产品和技术大框架清楚后，细节仍模糊，或 AI 已出方案、Mock UI，自己却说不出哪里不对。做法是把目标、现状和已有方案丢给 Agent，然后说 grill me，让它沿分支追问：这功能解决什么、这个状态怎么处理、用户为什么在这操作、两个方案你真正看重什么。一轮轮回答后，模糊感觉会变成具体决策。",
+      "recommend_reason": "把 Skill 从「再给一个方案」改成「逼你把没想清的说清」，可直接抄进工作流。",
+      "tags": [
+        "Skill",
+        "Agent",
+        "产品",
+        "AI Coding"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2088162882341233078",
+      "author": "LawrenceW_Zen",
+      "bio": "AI 独立开发者｜专注 AI Agent 实操｜BUILD IN PUBLIC ｜写给想入门、想做得更好的人 ｜ 先完成再完美",
+      "text": "Phone Harness 最近挺火，它让我第一次很直观地看到，Claude Code 和 Codex 这种 Agent，已经可以通过 iPhone Mirroring 去操作真实 iPhone 里的 App。\n但真放到自己的工作流里，我反而更喜欢 Airtap 这种思路。\n\n不是把自己正在用的手机交给 Agent，而是直接发条 iMessage，让另一台云手机替我把活干了。比如做内容时经常会碰到一个很碎的小问题。文章已经写完了，临发布突然发现还缺一张配图。以前我得自己打开 Canva，找版式，改尺寸，换标题，调整字体和布局，最后再导出。每一步都不难，但就是需要人工来做耗时间。这次临发布缺图，我索性把设计要求直接发到了 @airtap_ai 的iMessage号码 +1 (650) 444-9517，让它去 Canva 里把图做出来。\n\n我跟 AI 说的要求也很具体：\n\n打开 Canva，帮我做一张横版配图，主题是 Claude Code vs Cursor vs Windsurf。做成简洁科技风，三栏布局，每个产品放 3 个特点，标题突出，文字不要太多。\n\n接下来它自己在远程手机里打开 Canva，把版式、文字和布局一步步做出来。我觉得这里真正有意思的不是 AI 又会画图了。\n\n而是原来只能停在建议层面的东西，现在可以继续往设计 App 里走。我只需要把主题、内容结构和想要的视觉方向说清楚，剩下那些选版式、排文字、调布局的机械操作，可以直接交给 Airtap。\n\n以后做 AI 产品对比图、模型更新速览、工具推荐卡片、教程封面，其实都是类似的逻辑。内容每次都不一样，但没必要每次都从打开 Canva 开始重新点一遍。而且第一次做完不满意，也不用自己进去改。继续在 iMessage 里告诉它哪里要调整，它就回到 Canva 里接着改。\n\nPhone Harness 更像是让 Agent 获得操作你 iPhone 的能力。\n\nAirtap 对我更实用的一点是：我只负责把设计需求说清楚，真正进 Canva 执行的部分交给另一台云手机。",
+      "likes": 12,
+      "retweets": 3,
+      "replies": 7,
+      "views": 2298,
+      "created_at": "2026-08-14T07:16:41Z",
+      "url": "https://x.com/LawrenceW_Zen/status/2088162882341233078",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2088162610755878913/vid/avc1/548x270/gWcwIAuH12Gb1RsB.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2088162610755878913/img/u1Fodfg3tpNWd2L-.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 61.046,
+      "title": "与其把常用 iPhone 交给 Agent，不如发 iMessage 给云手机",
+      "summary": "作者觉得 Phone Harness 证明了 Claude Code / Codex 能通过 iPhone Mirroring 操作真机 App，但自己更想用 Airtap：不交出正在用的手机，而是发 iMessage 给另一台云手机干活。举例临发布缺配图，把「Claude Code vs Cursor vs Windsurf 三栏对比图」发到 Airtap 号码，它在远程 Canva 里选版式、排字、改布局；不满意继续在 iMessage 里改。Phone Harness 是给 Agent 操作你的 iPhone，Airtap 是把机械执行丢到云手机。",
+      "recommend_reason": "把「Agent 会用手机」拆成两条路：接管本机 vs 远程代劳，还拿了一个完整 Canva 用例。",
+      "tags": [
+        "Agent",
+        "Phone Harness",
+        "Codex",
+        "Claude Code"
+      ],
+      "rank": 11
+    },
+    {
       "id": "2088106472634974249",
       "author": "xiaohu",
       "bio": "",
@@ -36,7 +424,7 @@
         "Agent",
         "Skill"
       ],
-      "rank": 1
+      "rank": 12
     },
     {
       "id": "2088105299328528463",
@@ -66,7 +454,7 @@
         "Skill",
         "开源"
       ],
-      "rank": 2
+      "rank": 13
     },
     {
       "id": "2088103609477238858",
@@ -106,7 +494,7 @@
         "产品",
         "ChatGPT Work"
       ],
-      "rank": 3
+      "rank": 14
     },
     {
       "id": "2088100521261359218",
@@ -152,7 +540,7 @@
         "Harness",
         "评测"
       ],
-      "rank": 4
+      "rank": 15
     },
     {
       "id": "2088080238068580800",
@@ -200,7 +588,7 @@
         "GEO",
         "开源"
       ],
-      "rank": 5
+      "rank": 16
     },
     {
       "id": "2088014489438621990",
@@ -234,7 +622,7 @@
         "Agent",
         "AI Coding"
       ],
-      "rank": 6
+      "rank": 17
     },
     {
       "id": "2087996496088297746",
@@ -266,7 +654,7 @@
         "Agent",
         "产品"
       ],
-      "rank": 7
+      "rank": 18
     },
     {
       "id": "2087972364009308204",
@@ -298,7 +686,7 @@
         "Fable 5",
         "产品"
       ],
-      "rank": 8
+      "rank": 19
     },
     {
       "id": "2087970618167706023",
@@ -346,7 +734,7 @@
         "AI Coding",
         "评测"
       ],
-      "rank": 9
+      "rank": 20
     },
     {
       "id": "2087965142097309871",
@@ -378,7 +766,7 @@
         "Harness",
         "开源"
       ],
-      "rank": 10
+      "rank": 21
     },
     {
       "id": "2087961736712536152",
@@ -410,7 +798,7 @@
         "开发工具",
         "产品"
       ],
-      "rank": 11
+      "rank": 22
     },
     {
       "id": "2087953969498706138",
@@ -444,7 +832,7 @@
         "产品",
         "体验"
       ],
-      "rank": 12
+      "rank": 23
     },
     {
       "id": "2087952152551694780",
@@ -472,7 +860,7 @@
         "AI商业",
         "产品"
       ],
-      "rank": 13
+      "rank": 24
     },
     {
       "id": "2087949042961514983",
@@ -504,7 +892,7 @@
         "Agent",
         "Google AI Studio"
       ],
-      "rank": 14
+      "rank": 25
     },
     {
       "id": "2087947721936359705",
@@ -536,10 +924,10 @@
         "API",
         "产品"
       ],
-      "rank": 15
+      "rank": 26
     }
   ],
-  "generated_at": "2026-08-14T04:07:07Z",
+  "generated_at": "2026-08-14T16:20:58Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -547,11 +935,11 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 15,
-    "last_batch_added": 15,
+    "actual_count": 26,
+    "last_batch_added": 11,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
