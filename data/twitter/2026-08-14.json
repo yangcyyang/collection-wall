@@ -1,0 +1,566 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-14",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2088106472634974249",
+      "author": "xiaohu",
+      "bio": "",
+      "text": "ChatGPT 和 Codex 加入了 Computer History功能：\n\n打开Computer Use功能后，它会记录你在电脑上的所有操作行为\n\n并变成记忆和时间线：不截屏也不录音，只记点击、打字、切换应用这类交互事件\n\n然后它会根据你经常重复做的活或者动作，主动建议你将一些重复的操作生成技能和搞成自动化...\n\n三个用例：\n\n1. 问「我最后看的那个 Google Doc 是哪个」：它去查最近的活动记录，报出文档名和时间\n\n2. 接着问「这份文档有没有在之前那个群聊里发给 Josh 和 Priya」：它知道「之前那个群聊」指的是哪段对话，直接去查、去分享，回来报告两人已有查看权限\n\n3. 问「简单说说我今天上午时间花在哪了」：它用本地活动历史生成回顾：上午主要在推进这条发布视频（写初稿、打磨脚本、和同事改结构节奏），另外在 Codex 里做了个 3D 世界搭建器的原型，还处理了一些用量上限的反馈",
+      "created_at": "2026-08-14T03:32:32Z",
+      "likes": 8,
+      "views": "1280",
+      "url": "https://x.com/i/status/2088106472634974249",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2088105394459824128/vid/avc1/480x270/XkPgv-K08NVJb1XD.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2088105394459824128/img/qArGcHi313q1Snep.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 61.164,
+      "title": "Computer History 不截屏只记点击，还能把重复操作收成技能",
+      "summary": "小互补充 ChatGPT 和 Codex 的 Computer History：打开 Computer Use 后只记录点击、打字、切应用，不截屏不录音；会根据重复动作建议做成技能或自动化。三个用例：找回最后看的 Google Doc、确认是否已分享给某人、用本地活动生成上午时间回顾。",
+      "recommend_reason": "比官方宣布多了机制边界（不截屏）和三个可复述的用例，读完才知道这功能到底记什么。",
+      "tags": [
+        "ChatGPT",
+        "Codex",
+        "Agent",
+        "Skill"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2088105299328528463",
+      "author": "AlchainHust",
+      "bio": "",
+      "text": "是的，《DeepSeek Harness橙皮书📙》，总共120页，免费！开源！\nhttps://t.co/PU1BVrhC26\n\n这么短时间内能出这个东西，是的，当然是AI写的。我为啥要用AI写这个呢？\n\n因为我看到DeepSeek Harness说“一切皆插件”的时候，我感到很好奇，尤其想知道这部分插件和skill、MCP等概念之间的关系。\n\n看到他的四种模式：（标准模型、PTC模式、极简模式、创造模式）的时候也很困惑，我想知道这几个模式究竟是指什么，该用哪一个。\n\n以及，当然还有个很基础的问题，这个产品和Codex、Claude Code这样的coding agent之间的关系是什么样的，他们有什么不同？\n\nDeepSeek又为何这么设计。尤其当我发现dsh仓库还有开发过程中几乎所有决策过程的agent note时，如获至宝。应该是可以借此把这个产品如何走到这个状态的，意图为何，如何使用拆解清楚。\n\n于是，花费了2亿Opus 5 tokens写出来的橙皮书来了，他满足了我很大部分的好奇心，期待对你也是。",
+      "created_at": "2026-08-14T03:27:53Z",
+      "likes": 25,
+      "views": "3182",
+      "url": "https://x.com/i/status/2088105299328528463",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPpvNzqXoAEhsm-.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPpvNzqXoAEhsm-.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 64.41,
+      "title": "用 2 亿 Opus token 写出 120 页《DeepSeek Harness 橙皮书》",
+      "summary": "作者因搞不清 DeepSeek Harness「一切皆插件」和 Skill、MCP 的关系，四种模式（标准、PTC、极简、创造）该怎么选，以及它和 Codex、Claude Code 有何不同，翻了仓库里的 agent note，用约 2 亿 Opus 5 token 写成 120 页免费开源橙皮书。",
+      "recommend_reason": "今天 DSH 讨论里最有检索价值的材料：把插件、模式和设计意图一次拆开，还标明是 AI 写的。",
+      "tags": [
+        "DeepSeek",
+        "Harness",
+        "Skill",
+        "开源"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2088103609477238858",
+      "author": "thsottiaux",
+      "bio": "",
+      "text": "Work with Google docs, sheets and slides right inside ChatGPT.\n\nThis has changed how I write documents, brainstorm or proofread things. I just open it and then chat or talk my way through changes and it all happens right there in the flow.",
+      "created_at": "2026-08-14T03:21:10Z",
+      "likes": 770,
+      "views": "66324",
+      "url": "https://x.com/i/status/2088103609477238858",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2088044956091089281",
+        "author": "ChatGPT",
+        "name": "ChatGPT",
+        "text": "You probably hate tab switching. Understandable.\n\nYou can now open any @googledrive Doc, Sheet, or Slide right inside ChatGPT and work side by side without switching tabs.\n\nRolling out on web to Plus, Pro, Business, and Enterprise users in ChatGPT and ChatGPT Work. https://t.co/fz8kYwDAHN",
+        "created_at": "Thu Aug 13 23:28:06 +0000 2026",
+        "url": "https://x.com/ChatGPT/status/2088044956091089281",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2088044934536585216/vid/avc1/480x270/nhTPLMWilL4XgM9T.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2088044934536585216/img/0Kd47UCpYm697Dd-.jpg"
+        ]
+      },
+      "score": 66.996,
+      "title": "ChatGPT 里直接改 Google 文档表格幻灯片，少切标签页",
+      "summary": "ChatGPT 产品负责人反馈：现在可在 ChatGPT 里直接处理 Google Docs、Sheets 和 Slides，写文档、头脑风暴和校对都不用来回切标签。引用的官方说明是 Plus、Pro、Business、Enterprise 网页端向 ChatGPT 与 ChatGPT Work 用户推送，可打开任意 Drive 文件并排工作。",
+      "recommend_reason": "这是「工作流留在对话里」的落地：不是新模型，是把常用办公文档嵌进 ChatGPT。",
+      "tags": [
+        "ChatGPT",
+        "Google",
+        "产品",
+        "ChatGPT Work"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2088100521261359218",
+      "author": "elonmusk",
+      "bio": "",
+      "text": "Grok 4.6 will work best with the Grok Build harness. The experience will be significantly worse without it, so best to evaluate using Build. \n\nhttps://t.co/RRE8XKbiRI",
+      "created_at": "2026-08-14T03:08:53Z",
+      "likes": 2451,
+      "views": "1545237",
+      "url": "https://x.com/i/status/2088100521261359218",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary",
+        "title": "Grok",
+        "description": "Grok is an AI assistant built by SpaceXAI. Chat, create images, write code, and get real-time answers from the web and X.",
+        "image_url": "https://pbs.twimg.com/card_img/2084662236350410752/4R2ZHI01?format=png&name=420x420_2",
+        "url": "https://Grok.com/build",
+        "domain": "grok.com"
+      },
+      "quoted_tweet": {
+        "id": "2088044880379761103",
+        "author": "ArthurMacwaters",
+        "name": "Arthur MacWaters",
+        "text": "From my use so far, 4.6 seems highly optimized for Grok Build https://t.co/4jKOsjRcfV",
+        "created_at": "Thu Aug 13 23:27:48 +0000 2026",
+        "url": "https://x.com/ArthurMacwaters/status/2088044880379761103",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HPo4bcXbwAAfici.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HPo4bcXbwAAfici.jpg"
+        ]
+      },
+      "score": 65.078,
+      "summary": "Grok 4.6 搭配 Grok Build 这套 harness 效果最好。不用 Build 的体验会差很多，所以评估时最好用 Build。",
+      "recommend_reason": "模型作者把评测条件说死了：脱离 Build harness 去评 4.6，结论容易偏。",
+      "tags": [
+        "Grok",
+        "Grok Build",
+        "Harness",
+        "评测"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2088080238068580800",
+      "author": "GoSailGlobal",
+      "bio": "",
+      "text": "昨晚和UnifAPI的Jason Meng @desenmeng 聊了UnifAPI Agents：营销 agent，有意思的产品，而且我觉得定价方式很特别\n\n装一个插件，Claude、ChatGPT、Codex、OpenClaw\n 这些都能用 它把营销拆成一堆 skill，全部基于公开数据、只读： \n· SEO 审计、关键词、竞品 \n· GEO / AI 可见性：查你在 ChatGPT 和 AI 搜索的回答里被不被引用，份额被谁抢了 \n· 本地 SEO、KOL 定价、社媒监听、竞品情报 \n· 还按行业分好了：地产、律所、牙科、餐饮、医美、家政\n\n开源项目：https://t.co/G7qCKpR3Dx\n官网链接：https://t.co/Th0xvbrQn1",
+      "created_at": "2026-08-14T01:48:18Z",
+      "likes": 4,
+      "views": "558",
+      "url": "https://x.com/i/status/2088080238068580800",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPpZ5OoWsAABeIT.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPpZ5OoWsAABeIT.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2074092498692255746",
+        "author": "desenmeng",
+        "name": "Jason Meng",
+        "text": "Open-source marketing agents for Claude, ChatGPT, Codex, OpenClaw &amp; Hermes. One plugin: SEO audits, GEO / AI-visibility, local SEO, KOL pricing, social listening &amp; competitive intelligence from read-only public data over MCP. https://t.co/vgdMBynJwi",
+        "created_at": "Mon Jul 06 11:26:01 +0000 2026",
+        "url": "https://x.com/desenmeng/status/2074092498692255746",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": [],
+        "card": {
+          "name": "summary_large_image",
+          "title": "GitHub - unifapi-agent/agents: Open-source marketing agents for Claude, ChatGPT, Codex, OpenClaw &...",
+          "description": "Open-source marketing agents for Claude, ChatGPT, Codex, OpenClaw & Hermes. One plugin: SEO audits, GEO / AI-visibility, local SEO, KOL pricing, social listening & competitive intel...",
+          "image_url": "https://pbs.twimg.com/card_img/2086816833802526721/dePalZwP?format=jpg&name=600x600",
+          "url": "https://github.com/unifapi-agent/agents",
+          "domain": "github.com"
+        }
+      },
+      "score": 59.828,
+      "title": "UnifAPI 把营销拆成只读 Skill，一个插件接进多家 Agent",
+      "summary": "UnifAPI Agents 用一个插件接到 Claude、ChatGPT、Codex、OpenClaw：把营销拆成基于公开数据、只读的 Skill，覆盖 SEO、关键词、竞品、GEO/AI 可见性、本地 SEO、KOL 定价和社媒监听，并按地产、律所、牙科等行业分包。项目开源。",
+      "recommend_reason": "少见的营销 Agent 不是又一个聊天包装，而是只读公开数据加多 harness 插件，边界比较清楚。",
+      "tags": [
+        "Agent",
+        "Skill",
+        "GEO",
+        "开源"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2088014489438621990",
+      "author": "bcherny",
+      "bio": "Claude Code @anthropicai",
+      "text": "A weird experiment I've been trying the last few weeks is having Claude take over day-to-day maintenance of our apps. Seeing early signs of life that this might be possible.\n\nThe setup is straightforward: we have a Slack channel called proj-claude-maintains-apps. In it, Claude Tag runs a bunch of daily routines across iOS, Android, Desktop, web, CLI, and Agent SDK:\n\n- Crash fuzzer: open the app in a simulator and tap around to find ways to crash it, then root cause and fix the crashes\n- Dup unifier: scans the codebase for similar-yet-slightly-divergent abstractions, and puts up PRs to unify them\n- Dead-code remover: removes statically unreachable code, and adds logging to suspected dead code to check if it's really dead and if so, remove it the next day\n- Abstraction police: fixes leaky abstractions\n- a bunch more..\n\nResults have been surprisingly positive. Over the last few weeks, these routines have opened 388 PRs across our repos, 180 of which we merged after Claude Code Review + human review. We're now thinking about how to streamline this to make merging these kinds of mechanical changes easier.\n\nClaude generally gets these PRs right on the first shot, and if it doesn't, we ask Claude to tune its routines so it's better the next day. Sometimes it takes a few days of tuning. \n\nTo try a similar workflow, ask Claude Code or Tag, or create some routines directly at https://t.co/Z70hStEBH6. A few of the actual prompts I used below.\n\nHas anyone experimented with similar workflows?",
+      "likes": 2321,
+      "retweets": 122,
+      "replies": 205,
+      "views": 186818,
+      "created_at": "2026-08-13T21:27:02Z",
+      "url": "https://x.com/bcherny/status/2088014489438621990",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPoY9F3aMAASBZV.jpg",
+        "https://pbs.twimg.com/media/HPoZCdEbgAEqqfY.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPoY9F3aMAASBZV.jpg",
+        "https://pbs.twimg.com/media/HPoZCdEbgAEqqfY.png"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 72.908,
+      "title": "Claude 接管日常维护：几周开了 388 个 PR，合并 180 个",
+      "summary": "Anthropic 的 Boris Cherny 让 Claude 在 Slack 频道跑日常维护：崩溃模糊测试、重复抽象合并、死代码清理、抽象泄漏修补等。几周内跨 iOS、Android、桌面、Web、CLI 和 Agent SDK 开了 388 个 PR，经 Claude Code Review 加人工审查后合并 180 个。多数机械改动一稿能过，不过关就调 routine 隔天再试。",
+      "recommend_reason": "不是演示而是真实工程账本：频道加例行任务加评审闭环，说明 Agent 维护存量代码已经能稳定产出可合并 PR。",
+      "tags": [
+        "Claude",
+        "Claude Code",
+        "Agent",
+        "AI Coding"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2087996496088297746",
+      "author": "OpenAI",
+      "bio": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: https://t.co/dJGr6LgzPA",
+      "text": "ChatGPT can now remember your activity across the apps and websites on your computer.\n\nWith Computer History in the desktop app, future interactions feel more personalized and require less explanation. https://t.co/WHZPxPp31R",
+      "likes": 7790,
+      "retweets": 557,
+      "replies": 419,
+      "views": 1128000,
+      "created_at": "2026-08-13T20:15:32Z",
+      "url": "https://x.com/OpenAI/status/2087996496088297746",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2087996446595485696/vid/avc1/480x270/871RFOdrnuQRxX_B.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2087996446595485696/img/H3Zozzo8XjGuIawW.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 75.057,
+      "title": "ChatGPT 桌面端上线 Computer History，能记住电脑上的操作",
+      "summary": "ChatGPT 现在可以记住你在电脑上各应用和网站里的活动。桌面端的 Computer History 会让后续交互更个性化，减少反复解释上下文。",
+      "recommend_reason": "官方把「电脑操作记忆」做成产品能力，而不只是聊天记录，桌面 Agent 的上下文从这儿开始变。",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "Agent",
+        "产品"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2087972364009308204",
+      "author": "perplexity_ai",
+      "bio": "Curiosity changes everything. Download our free app on iOS, Mac, Windows, and Android.",
+      "text": "Grok 4.6 is now available in Perplexity and Perplexity Computer.\n\nOn WANDR, it sits on the Pareto frontier of performance and efficiency, matching Fable 5 results at over 60% lower cost. https://t.co/qPeWEyy97Q",
+      "likes": 412,
+      "retweets": 33,
+      "replies": 22,
+      "views": 67586,
+      "created_at": "2026-08-13T18:39:38Z",
+      "url": "https://x.com/perplexity_ai/status/2087972364009308204",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPn3zIya0AARbNq.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPn3zIya0AARbNq.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 68.268,
+      "title": "Perplexity 上线 Grok 4.6，称性价比接近 Fable 5",
+      "summary": "Grok 4.6 已进入 Perplexity 和 Perplexity Computer。官方称在 WANDR 上它处在性能与效率的帕累托前沿，能以低 60% 以上的成本接近 Fable 5 的结果。",
+      "recommend_reason": "除了「又一个渠道能用 Grok」，它给了成本和 Fable 5 对齐的具体说法，方便对照今天的速度/价格新闻。",
+      "tags": [
+        "Grok",
+        "Perplexity",
+        "Fable 5",
+        "产品"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2087970618167706023",
+      "author": "NousResearch",
+      "bio": "A bunch of nerds making progress\n\nhttps://t.co/vrD0aDIGDQ",
+      "text": "LongCat-2.0 from @Meituan_LongCat is free in Nous Portal for one week.\n\nIt is a 1.6T-parameter MoE with 1M context built for agentic coding, scores 70.8 on Terminal-Bench 2.1, and can ingest an entire codebase in one pass.\n\nTry it out at https://t.co/KCXV2EtbOa https://t.co/M2ZUP3Cs0c",
+      "likes": 383,
+      "retweets": 31,
+      "replies": 35,
+      "views": 48358,
+      "created_at": "2026-08-13T18:32:42Z",
+      "url": "https://x.com/NousResearch/status/2087970618167706023",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2087970510340509696/vid/avc1/320x320/BRBTdx2zz2_cfuz5.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2087970510340509696/img/8a0bPsXZeRHQN5XC.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2071783587205308721",
+        "author": "Meituan_LongCat",
+        "name": "Meituan LongCat",
+        "text": "Introducing LongCat-2.0 🐱\n1.6T parameters · MoE with ~48B active · 1M context\nThe full model behind Owl Alpha on @OpenRouter — now available.\n\nBuilt for agentic coding from the ground up:\n◆ LongCat Sparse Attention (LSA) — scales efficiently for 1M-context tokens\n◆ Zero-Compute Experts — dynamic activation 33B–56B per token, zero wasted compute\n◆ MOPD — three specialized expert groups (Agent / Reasoning / Interaction), gate-routed per task\n\nHow it stacks up:\n→ Terminal-Bench 2.1: 70.8\n→ SWE-bench Pro: 59.5 (GPT-5.5: 58.6)\n→ SWE-bench Multilingual: 77.3\n→ FORTE: 73.2 · RWSearch: 78.8 · BrowseComp: 79.9\n\n📖 Tech Blog: https://t.co/4KrjyKiDBn\nTry it across different scenarios 🧵👇",
+        "created_at": "Tue Jun 30 02:31:13 +0000 2026",
+        "url": "https://x.com/Meituan_LongCat/status/2071783587205308721",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HMB0LgWbUAEuDcU.jpg",
+          "https://pbs.twimg.com/media/HMB0LgaaEAA3JS5.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HMB0LgWbUAEuDcU.jpg",
+          "https://pbs.twimg.com/media/HMB0LgaaEAA3JS5.jpg"
+        ]
+      },
+      "score": 69.272,
+      "title": "美团 LongCat-2.0 上线 Nous Portal：1.6T MoE、1M 上下文，免费一周",
+      "summary": "Nous Research 宣布美团 LongCat-2.0 在 Nous Portal 免费一周。这是 1.6T 参数 MoE、1M 上下文、面向 agentic coding 的模型，Terminal-Bench 2.1 报 70.8，并能一次吃进整个代码库。引用的发布帖还给出约 48B 激活、SWE-bench Pro 59.5 等数字。",
+      "recommend_reason": "新开源超大 MoE 给了参数、上下文和 Terminal-Bench 数字，而且有一周免费窗口，值得记一笔。",
+      "tags": [
+        "开源",
+        "Agent",
+        "AI Coding",
+        "评测"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2087965142097309871",
+      "author": "ollama",
+      "bio": "https://t.co/1JpLwJ9Bdv",
+      "text": "Using @AIatMeta's Muse Glimmer all locally to process personal monthly credit card statements. \n\nYour data belongs to you! \n\nTry different agent tasks using your favorite apps / harnesses with Ollama. https://t.co/LDeCaCZHOH",
+      "likes": 221,
+      "retweets": 22,
+      "replies": 10,
+      "views": 18423,
+      "created_at": "2026-08-13T18:10:57Z",
+      "url": "https://x.com/ollama/status/2087965142097309871",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2087960109163151360/vid/avc1/348x270/1jXi02JomyZkgn6L.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2087960109163151360/img/fQ08Y_d0i_T0X7Ji.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 69.361,
+      "title": "Ollama 用本地 Muse Glimmer 处理信用卡账单，强调数据不出机",
+      "summary": "Ollama 演示用 Meta 的 Muse Glimmer 在本地处理个人月度信用卡账单，并强调数据留在本机。同时提示可用各自喜欢的应用或 harness，在 Ollama 上尝试不同 agent 任务。",
+      "recommend_reason": "把「本地模型处理敏感账单」说成可跑通的 agent 任务，比空喊隐私更具体。",
+      "tags": [
+        "Ollama",
+        "Agent",
+        "Harness",
+        "开源"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2087961736712536152",
+      "author": "code",
+      "bio": "The open source AI code editor",
+      "text": "🙌🏽 Side chats with /btw \n\nAsk questions without interrupting your workflow in the VS Code Agents window. \n\nWith /btw, you can open a side chat that shares the context of your primary chat—perfect for quick questions without disrupting your current task. https://t.co/ES0akCopIS",
+      "likes": 112,
+      "retweets": 8,
+      "replies": 0,
+      "views": 16615,
+      "created_at": "2026-08-13T17:57:25Z",
+      "url": "https://x.com/code/status/2087961736712536152",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2087961598984138752/vid/avc1/320x568/501_yA5gTHwO0N9n.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2087961598984138752/img/KnHdcsMOi_xzh5ZC.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 66.098,
+      "title": "VS Code Agents 加 /btw 侧聊：提问不打断主任务",
+      "summary": "VS Code 官方介绍 /btw：在 Agents 窗口开一条共享主对话上下文的侧聊，用来问快问题，而不打断当前主任务。",
+      "recommend_reason": "编码 Agent 的交互细节：主任务和追问拆开，比再发一条「某模型进 VS Code」更有用。",
+      "tags": [
+        "Agent",
+        "AI Coding",
+        "开发工具",
+        "产品"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2087953969498706138",
+      "author": "dotey",
+      "bio": "AI Engineer, dedicated to learning and disseminating knowledge about AI, software engineering, and engineering management.",
+      "text": "我只是作为一个“普通用户”的角度去用 DeepSeek Harness，一些感受：\n\n1. 启动方式偏极客，程序员没问题，但是普通用户估计都没有nodejs环境，很难跑起来\n\n2. 速度飞快，这点特别好\n\n3. Thinking 部分由于 Flash 模型速度过快，导致文字闪的厉害，可以做一下节流，攒一批一起显示，配合动画动效会好一点。\n\n4. Codex 右侧的多 Tab Panel 相当重要，和当前 DSH 的插件机制是很好的搭配，强烈建议借鉴下，比如我写完 PPT 还要新开窗口去预览，来回切换很麻烦，不如显示在右侧直观\n\n5. Trajectory 和 Session log 对普通用户价值不大，不需要那么重要的位置\n\n6. 现在能列出产出物很好，但最好能直接打开，能看到 diff （开箱配置好相关插件了，不要用户二次配置，当然可以关闭）\n\n7. 模型早点支持多模态吧，多模态也是 AGI 的一部分\n\n8. 一切皆插件的理念很好，普通用户的使用体验也很重要。\n\n开发者愿意去折腾插件的前提一定是你的 Agent Harness 有大量普通用户了，否则没有多少开发者坚持在上面，新鲜劲过了就没人了。\n\n插件和用户体验并不冲突，核心还是看开箱设置/出厂配置，用户第一次用不需要太多配置就能用起来，用的时候也没什么不方便，后续再慢慢折腾插件也不迟。\n\nBTW，DSH 给我做的 PPT 质量还不错。",
+      "likes": 362,
+      "retweets": 16,
+      "replies": 67,
+      "views": 73745,
+      "created_at": "2026-08-13T17:26:33Z",
+      "url": "https://x.com/dotey/status/2087953969498706138",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPnmLhhWQAAFIXD.jpg",
+        "https://pbs.twimg.com/media/HPnmblLXoAA-FRv.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPnmLhhWQAAFIXD.jpg",
+        "https://pbs.twimg.com/media/HPnmblLXoAA-FRv.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 69.735,
+      "title": "宝玉试用 DeepSeek Harness：快，但普通用户还跑不起来",
+      "summary": "宝玉以普通用户视角试用 DeepSeek Harness：启动依赖 Node.js，普通人难上手；速度快是最大优点；Thinking 因 Flash 太快文字狂闪，建议节流再配合动画；应借鉴 Codex 右侧多 Tab 预览，而不是另开窗口；Trajectory 和 Session log 对普通人太显眼；产出物应能直接打开和看 diff。他认为「一切皆插件」没问题，但先得有开箱即用的默认体验，否则开发者不愿为没用户的平台写插件。",
+      "recommend_reason": "这是今天最好的 DSH 一手体验：不吹不黑，逐条点到启动、流式显示、多面板和出厂配置。",
+      "tags": [
+        "DeepSeek",
+        "Harness",
+        "产品",
+        "体验"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2087952152551694780",
+      "author": "dashen_wang",
+      "bio": "当AGI睁开眼睛的那一刻，人类的存在便失去了所有意义\n\n🥸：「AI民科」「诗人」「作家」「屌毛」「喷子」「S/Dom」\n\n🍄：开源大模型CN拯救世界\n\n☢️：Data, data, data, go！！！\n\n这是我唯一的对外的账号。\n\n不接商单，不做任何背书。",
+      "text": "我最近给一个电商客户定制了一个挺特殊的提示词。\n\n不是让AI写标题，也不是优化详情页。\n\n而是让AI扮演一个已经付款，但是正在寻找退货理由的消费者。\n\n输入商品详情页，用户评论，客服记录，竞品差评，退款原因，售后记录。\n\n然后让它完成三件事。\n\n第一，站在用户付款后的心理状态里，寻找所有可能触发后悔，误解，失望和不信任的点。\n\n第二，把这些问题按照退货概率，利润影响，修复成本排序。\n\n第三，不是继续增加卖点，而是反过来删除和修改那些容易制造错误预期的表达。\n\n这个提示词我内部叫，反向转化审计。\n\n它优化的不是购买率。\n\n而是购买之后的正确率。\n\n因为很多电商团队一直在研究，怎么让更多人下单。\n\n但真正成熟的运营，应该同时研究一件事。\n\n哪些人根本不应该下单。\n\n嗯，转化率只是前半场。\n\n让错误的用户提前离开，可能才是利润率。",
+      "likes": 19,
+      "retweets": 0,
+      "replies": 5,
+      "views": 1338,
+      "created_at": "2026-08-13T17:19:20Z",
+      "url": "https://x.com/dashen_wang/status/2087952152551694780",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 60.841,
+      "title": "把 AI 扮成「找退货理由的买家」，做反向转化审计",
+      "summary": "作者给电商客户做了一套提示词：让 AI 扮演已付款、正在找退货理由的消费者，吃详情页、评论、客服、竞品差评和售后记录，找出会触发后悔的点，按退货概率、利润和修复成本排序，再删掉制造错误预期的文案。优化的不是下单率，而是「不该买的人别买」。",
+      "recommend_reason": "提示词用法少见：不继续堆卖点，而是用售后视角砍错误预期，直接对利润。",
+      "tags": [
+        "提示词",
+        "电商",
+        "AI商业",
+        "产品"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2087949042961514983",
+      "author": "GoogleAI",
+      "bio": "Making AI helpful for everyone. Show thinking ↓",
+      "text": "Our most intelligent workhorse model yet for coding and agents has arrived ⚡ Meet Gemini 3.7 Flash.\n\n— Crush that seemingly endless to-do list. Gemini Spark in the @geminiapp now uses 3.7 Flash. The new model can equip your personal AI agent to work even smarter for you by seamlessly handling complex, multi-step tasks across your @GoogleWorkspace apps like @gmail, @googlecalendar and @googledocs \n\n— Enjoy a smoother build experience. The model thinks more diligently, putting more effort into multi-step planning and tool calls. A more disciplined execution means less manual oversight and fewer retries across engineering workflows\n\n— Build more, spend less. 3.7 Flash is available through the end of the year with an introductory price of half the original 3.6 Flash cost per million tokens ($0.75/1M input tokens and $3.75/1M output tokens)",
+      "likes": 514,
+      "retweets": 54,
+      "replies": 37,
+      "views": 62181,
+      "created_at": "2026-08-13T17:06:58Z",
+      "url": "https://x.com/GoogleAI/status/2087949042961514983",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2087948643621888000/vid/avc1/480x270/TX6InXVySjEtnlif.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2087948643621888000/img/OGrdg-g2iTtrORJj.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 70.406,
+      "title": "Gemini 3.7 Flash 发布：定位 coding/agent 主力，年内部半价",
+      "summary": "Google 发布 Gemini 3.7 Flash，称是目前最强的 coding 与 agent 主力模型。Gemini Spark 已切换到 3.7 Flash，可跨 Gmail、Calendar、Docs 做多步任务；强调更认真的多步规划和工具调用，减少返工。年底前导入价为原 3.6 Flash 的一半：每百万 token 0.75 美元输入、3.75 美元输出。",
+      "recommend_reason": "官方同时给了 Workspace 多步场景、规划/工具调用卖点和明确半价，比一堆「Google is back」评测帖更可核对。",
+      "tags": [
+        "Google",
+        "Gemini",
+        "Agent",
+        "Google AI Studio"
+      ],
+      "rank": 14
+    },
+    {
+      "id": "2087947721936359705",
+      "author": "OpenAI",
+      "bio": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: https://t.co/dJGr6LgzPA",
+      "text": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14x the speed.\n\nLaunching first in the OpenAI API to a select group of customers with expanded access to more businesses as capacity grows. https://t.co/a5dleofiDJ",
+      "likes": 12137,
+      "retweets": 760,
+      "replies": 591,
+      "views": 1855781,
+      "created_at": "2026-08-13T17:01:43Z",
+      "url": "https://x.com/OpenAI/status/2087947721936359705",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2087946208128237568/vid/avc1/480x270/UNKeP6TxPHK32uPX.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2087946208128237568/img/wHXN7OyTUGjd05DS.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 75.793,
+      "title": "OpenAI 预览 Ultrafast：GPT-5.6 Sol 最高提速 14 倍",
+      "summary": "OpenAI 预告 Ultrafast 模式，让 GPT-5.6 Sol 最高达到约 14 倍速度。先在 API 向部分客户开放，随后随产能扩大到更多企业。",
+      "recommend_reason": "官方把「更快的 Sol」做成独立模式并先走 API，是今天速度战里能核对的硬新闻。",
+      "tags": [
+        "OpenAI",
+        "GPT-5.6 Sol",
+        "API",
+        "产品"
+      ],
+      "rank": 15
+    }
+  ],
+  "generated_at": "2026-08-14T04:07:07Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 15,
+    "last_batch_added": 15,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
