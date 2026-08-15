@@ -1,0 +1,532 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-15",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2088649029639151871",
+      "author": "HiTw93",
+      "bio": "Kaku · Pake · MiaoYan · Waza · Kami · https://t.co/PAsOstTM76",
+      "text": "为什么即使卸载了，还会出现，就是 claude 的骚操作了，对应 CLI 里这段判断，每次启动的自动注册函数最开头 会有 if (Wo().disableDeepLinkRegistration === \"disable\") return; 相当于你必须主动设置上 disableDeepLinkRegistration 这个，才不会去检查，不然每次会帮你重新生成一个",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "views": 1451,
+      "created_at": "2026-08-15T15:28:28Z",
+      "url": "https://x.com/HiTw93/status/2088649029639151871",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 49.381,
+      "summary": "为什么即使卸载了，还会出现，就是 claude 的骚操作了，对应 CLI 里这段判断，每次启动的自动注册函数最开头 会有 if (Wo().disableDeepLinkRegistration === \"disable\") return; 相当于你必须主动设置上 disableDeepLinkRegistration 这个，才不会去检查，不然每次会帮你重新生成一个",
+      "recommend_reason": "把「为什么卸了还会回来」钉到 CLI 启动时的自动注册判断上了。",
+      "tags": [
+        "Claude Code",
+        "Mac",
+        "技巧"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2088648155936268542",
+      "author": "abskoop",
+      "bio": "",
+      "text": "Anthropic 正式公布 Claude 文本水印机制了\n\n不是塞隐藏字符，而是模型生成文字时形成统计信号\n\n轻度修改的话可能还在，彻底重写才可能消失\n\n而且 Anthropic 还准备开放 Detection API https://t.co/edJrH8Fh7X",
+      "likes": 5,
+      "views": "3516",
+      "created_at": "2026-08-15T15:25:00Z",
+      "url": "https://x.com/i/status/2088648155936268542",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPxCSBHasAAXNix.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPxCSBHasAAXNix.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 56.771,
+      "summary": "Anthropic 正式公布 Claude 文本水印机制了\n\n不是塞隐藏字符，而是模型生成文字时形成统计信号\n\n轻度修改的话可能还在，彻底重写才可能消失\n\n而且 Anthropic 还准备开放 Detection API",
+      "recommend_reason": "机制写清楚了：统计信号不是藏字符，轻改可能还在，还准备开放 Detection API。",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "安全"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2088641086415900859",
+      "author": "HiTw93",
+      "bio": "",
+      "text": "终于把 Claude Code 在 Mac 应用里面拉的这个 Claude Code URL Handler app 给干掉了，没有图标很丑，一直是强迫症很讨厌的，甚至直接卸载没有用，其实你只需要在~/.claude/settings.json 里加上 disableDeepLinkRegistration = \"disable\" 即可。 https://t.co/OItRHg0Hph",
+      "likes": 93,
+      "views": "9894",
+      "created_at": "2026-08-15T14:56:54Z",
+      "url": "https://x.com/i/status/2088641086415900859",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPxXgCpaYAAy8oN.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPxXgCpaYAAy8oN.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 66.283,
+      "summary": "终于把 Claude Code 在 Mac 应用里面拉的这个 Claude Code URL Handler app 给干掉了，没有图标很丑，一直是强迫症很讨厌的，甚至直接卸载没有用，其实你只需要在~/.claude/settings.json 里加上 disableDeepLinkRegistration = \"disable\" 即可。",
+      "recommend_reason": "卸载没用、设置里一行就能关掉，这种坑最适合记一笔。",
+      "tags": [
+        "Claude Code",
+        "Mac",
+        "技巧"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2088635834354581652",
+      "author": "lixinbao_X",
+      "bio": "",
+      "text": "AI时代最容易出现的一种错觉：\n\n只懂30%，却能表达得像懂了100%。\n\n以前，一个人说不清楚，多半是真没想明白。\n现在不一样了。\n\n几个关键词丢给AI，它马上能给你补出完整结构、专业术语、案例、结论，甚至连逻辑链都严丝合缝。\n\n看起来什么都有了。\n\n但AI补出来的，很多时候只是**“答案的样子”**，不是你真正的理解。\n\n代码能跑，不代表你懂系统。\n商业方案完整，不代表市场真买单。\n文章写得专业，不代表你知道哪些条件下结论会失效。\n\n更麻烦的是，过去能力不足会直接暴露你的认知边界：不会就是写不出来、做不出来、解释不通。\n\n现在AI把这些空白全填上了。\n\n于是最危险的情况出现了：\n\n一个人的执行能力，开始远远超过他的判断能力。\n\nAI可以一天帮你写几万行代码、几十份方案、几百页材料，但如果你没有足够的专业能力去验收，生产力越高，错得可能越快。\n\n所以以后真正稀缺的，可能已经不是答案。\n\n答案会越来越便宜。\n\n真正贵的是判断力：\n\n这答案可信吗？\n隐含了什么假设？\n哪些数据没验证？\n什么情况下会翻车？\n到底能不能直接拿去执行？\n\nAI越强，这种能力反而越值钱。\n\n因为未来最可怕的无知，可能已经不像无知了。\n\n它结构完整、措辞专业、逻辑漂亮，甚至还能做成PPT。\n\nAI时代真正厉害的人，不是最会让AI回答的人，而是AI给出一个完美答案以后，他依然知道哪里不能信。",
+      "likes": 5,
+      "views": "390",
+      "created_at": "2026-08-15T14:36:02Z",
+      "url": "https://x.com/i/status/2088635834354581652",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 41.455,
+      "title": "AI 让人只懂三成就能说得像全懂",
+      "summary": "作者认为 AI 时代最容易出现的错觉是：只懂 30%，却能表达得像 100%。AI 会补上结构、术语和逻辑链，给的是「答案的样子」。执行力开始超过判断力，答案变便宜，稀缺的是验收——可信吗、假设是什么、什么情况下会翻车。真正厉害的人，是看到完美答案仍知道哪里不能信。",
+      "recommend_reason": "把「AI 补全后的无知」说具体了，比空喊独立思考有用。",
+      "tags": [
+        "认知",
+        "写作",
+        "Agent"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2088619094551769090",
+      "author": "FuSheng_0306",
+      "bio": "",
+      "text": "前天DeepSeek V4 Pro刚对硅谷贴脸开大，Grok 4.6就在同一天杀出来了，直接点燃了硅谷的AI价格战。顶级模型性能，价格接近Fable 5十分之一。\n很多人一看降价就喊AI泡沫破了。我觉得恰恰相反，这是AI真正普及的前夜。就像电一样，贵的时候只是少数人的奢侈品，价格打下来，才会变成基础设施，带来生产力大爆发。AI也是这样，智能的需求是无限的，只是过去太贵，大家用不起。\n所以说这真的是大好的时代，不管是国产的还是美国的模型，只要便宜好用，就应该把它变成咱们自己生产力。",
+      "likes": 10,
+      "views": "2803",
+      "created_at": "2026-08-15T13:29:31Z",
+      "url": "https://x.com/i/status/2088619094551769090",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2088616202377801728/vid/avc1/320x568/PF98cGDZ9gjXshEt.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2088616202377801728/img/6jlquGLyE_-3hY6A.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 59.569,
+      "title": "DeepSeek V4 Pro 和 Grok 4.6 同一天打响价格战",
+      "summary": "作者认为 DeepSeek V4 Pro 贴脸之后，Grok 4.6 同一天出来，把硅谷价格战点着了：顶级模型性能，价格接近 Fable 5 的十分之一。降价不是泡沫破裂，而是智能从奢侈品变成基础设施的前夜，该拿来当自己的生产力。",
+      "recommend_reason": "把两天内的发布收成「价格打下来才是普及」，比单独喊发布有判断。",
+      "tags": [
+        "DeepSeek",
+        "Grok",
+        "价格",
+        "模型"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2088612203826155607",
+      "author": "abskoop",
+      "bio": "",
+      "text": "腾讯QQ Bot 也支持接入 DeepSeek Harness 了 https://t.co/qBfBtPplSS",
+      "likes": 10,
+      "views": "10732",
+      "created_at": "2026-08-15T13:02:08Z",
+      "url": "https://x.com/i/status/2088612203826155607",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPw9eQza4AEXzGX.jpg",
+        "https://pbs.twimg.com/media/HPw9r0MbkAA6F_H.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPw9eQza4AEXzGX.jpg",
+        "https://pbs.twimg.com/media/HPw9r0MbkAA6F_H.png"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2088290227408531681",
+        "author": "abskoop",
+        "name": "ahhhhfs",
+        "text": "想体验 DeepSeek Harness，但不想先装 Node.js、再去终端跑命令？\n\nDeepSeek Harness 桌面来了，它把官方 Harness 装进了一个 Mac / Windows 客户端里。\n\n打开软件会自动启动本地 Harness 服务，Web UI 也直接放在客户端里，不用再手动跑命令，也不用另外开浏览器。\n\nAgent、插件和模型这些能力还是官方 Harness 的，主要就是让安装和启动省事一点。\n\n👉https://t.co/b6L0o0OvtG",
+        "created_at": "Fri Aug 14 15:42:43 +0000 2026",
+        "url": "https://x.com/abskoop/status/2088290227408531681",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HPsYbyWbsAAgkij.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HPsYbyWbsAAgkij.jpg"
+        ]
+      },
+      "score": 55.709,
+      "summary": "腾讯QQ Bot 也支持接入 DeepSeek Harness 了",
+      "recommend_reason": "DSH 已经接到 QQ Bot，说明它开始往国内常用入口长。",
+      "tags": [
+        "DeepSeek",
+        "Harness",
+        "腾讯"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2088589282516910371",
+      "author": "xiaoxiaodong01",
+      "bio": "国际，不知名，顶级图片提示词专家\nskills/chrom plugin/prompt/art\n星球成员提示词库：2.2万套，可自助开\nWeChat:：newbe2012",
+      "text": "这套DeepSeek Harness 主题：49 个中国传统色 × 亮暗 = 98 套。\n\n最满意的不是配色，是选色的方式——不问你喜欢什么颜色，问你今天想怎么工作：\n\n晨起 心流 · 午后 禅定 · 傍晚 攻坚\n深夜 爆肝 · 凌晨 夜航 · 天亮 收工\n\n这六档是算出来的，不是我编的 ↓\n▎ 暗而静 → 夜航\n▎ 暗而烈 → 爆肝\n▎ 淡而静 → 禅定\n▎ 暖而烈 → 攻坚\n▎ 暖而明 → 收工\n▎ 冷而浓 → 心流",
+      "likes": 18,
+      "retweets": 2,
+      "replies": 3,
+      "views": 2867,
+      "created_at": "2026-08-15T11:31:03Z",
+      "url": "https://x.com/xiaoxiaodong01/status/2088589282516910371",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPwoP_MbIAAJmAL.jpg",
+        "https://pbs.twimg.com/media/HPwoWBjaMAAugrE.jpg",
+        "https://pbs.twimg.com/media/HPwodMuasAApx3S.jpg",
+        "https://pbs.twimg.com/media/HPwoh1vbwAAWAsy.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPwoP_MbIAAJmAL.jpg",
+        "https://pbs.twimg.com/media/HPwoWBjaMAAugrE.jpg",
+        "https://pbs.twimg.com/media/HPwodMuasAApx3S.jpg",
+        "https://pbs.twimg.com/media/HPwoh1vbwAAWAsy.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2088441568235823603",
+        "author": "xiaoxiaodong01",
+        "name": "小小东",
+        "text": "https://t.co/kGsp6tMlWC",
+        "created_at": "Sat Aug 15 01:44:05 +0000 2026",
+        "url": "https://x.com/xiaoxiaodong01/status/2088441568235823603",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 61.667,
+      "title": "DeepSeek Harness 98 套主题按工作状态选色",
+      "summary": "49 个中国传统色乘亮暗做成 98 套 DeepSeek Harness 主题。作者强调选色不问「喜欢什么颜色」，而问今天想怎么工作：心流、禅定、攻坚、爆肝、夜航、收工六档，是按明暗和冷暖算出来的。",
+      "recommend_reason": "主题本身是小事，按工作状态而不是按审美选色，这个切口值得看。",
+      "tags": [
+        "DeepSeek",
+        "Harness",
+        "设计"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2088572330129989638",
+      "author": "Khazix0918",
+      "bio": "愿我们永远对世界保持好奇。\n公众号：数字生命卡兹克",
+      "text": "可能最近看到的最好的 DeepSeek Harness 项目。。。\n2 天 4K 星。\n充分说明了，大家虽然喜欢当极客，但是真的没人喜欢吃苦。。。\n就跟几年前的 Stable Diffusion 生态一样。\n这个 DeepSeek Harness 客户端估计过几天就能上万星了。。。",
+      "likes": 152,
+      "retweets": 15,
+      "replies": 24,
+      "views": 44912,
+      "created_at": "2026-08-15T10:23:41Z",
+      "url": "https://x.com/Khazix0918/status/2088572330129989638",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2088059987855810983",
+        "author": "WangBenson6541",
+        "name": "Benson Wang",
+        "text": "昨晚DeepSeek Harness 发布了\n我们把官方 DeepSeek Harness 打包成了一个开箱即用的桌面应用\n\n不需要安装 Node.js，也不用再通过命令行启动\n\n目前支持：\nmacOS Apple Silicon\nWindows x64\n本地运行\n自动管理 Harness 服务\n保留官方插件能力和 Web UI\n\nGitHub：https://t.co/V9YeE4ou9Y https://t.co/djIT8U0Tkh",
+        "created_at": "Fri Aug 14 00:27:50 +0000 2026",
+        "url": "https://x.com/WangBenson6541/status/2088059987855810983",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HPpHe_raMAA7dEK.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HPpHe_raMAA7dEK.jpg"
+        ]
+      },
+      "score": 59.629,
+      "summary": "可能最近看到的最好的 DeepSeek Harness 项目。。。\n2 天 4K 星。\n充分说明了，大家虽然喜欢当极客，但是真的没人喜欢吃苦。。。\n就跟几年前的 Stable Diffusion 生态一样。\n这个 DeepSeek Harness 客户端估计过几天就能上万星了。。。",
+      "recommend_reason": "两天 4K 星，引用里是免装 Node 的桌面客户端，对应 DSH 这波生态。",
+      "tags": [
+        "DeepSeek",
+        "Harness",
+        "开源"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2088531459552559466",
+      "author": "lifesinger",
+      "bio": "I am curious and honest",
+      "text": "今天文君在大理，一起约在洱海边的时光咖啡聊天。挺有感触的几个收获：\n\n1、Agent 类似网站，OpenClaw 是第一种被大众感知的建站技术。虾是个人网站。Yahoo、Google、Facebook 等大型网站还没出现。网站 -〉移动应用 -〉Agent，是技术也是产品路线。一切才刚开始。\n\n2、Agent 创业者最重要的两大能力是：能不断找到目标用户的能力、能预判技术实现路线并疯狂执行的能力。找市场 + 执行力，缺了这两个，很难成。\n\n3、Agent 产品的基础功是：用做模型的方式去做应用。由上下文、测评等构建出 Loop 循环，让 Agent 在特定领域能持续进化。很难，但有机会。\n\n4、Agent 不是孤立的。人与 LLM 共同孕育出一个个 agent。这是一种新的生命体，不是人的分身。生命体的长大需要关系，关系的构建需要环境，或者叫社群。新时代的社群产品，有大机会。\n\n5、社群里，有可能会产生神。比如 Claude Tag 就是在一个组织环境下，自然而然造出了一个组织协作环境下接近全知全能的神。神学很值得研究。\n\n以上。",
+      "likes": 56,
+      "retweets": 6,
+      "replies": 34,
+      "views": 7558,
+      "created_at": "2026-08-15T07:41:17Z",
+      "url": "https://x.com/lifesinger/status/2088531459552559466",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPv0Nr8aQAErebH.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPv0Nr8aQAErebH.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 66.005,
+      "title": "玉伯：OpenClaw 像早期建站，Agent 创业才刚开始",
+      "summary": "玉伯和文君在大理聊 Agent：OpenClaw 像第一代被大众感知的「建站」技术，虾是个人站，大平台还没出现。创业者要能持续找到用户、预判技术路线并猛执行；产品基本功是用做模型的方式做应用，靠上下文和测评把 Loop 转起来。Agent 不是人的分身，长大需要社群；组织环境里还可能长出接近全知的协作「神」，比如 Claude Tag。",
+      "recommend_reason": "不是新闻搬运，是把 Agent 放进网站→App 的产品史里，判断比口号清楚。",
+      "tags": [
+        "Agent",
+        "OpenClaw",
+        "产品",
+        "创业"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2088528506476953967",
+      "author": "jakevin7",
+      "bio": "Building https://t.co/3kGDPSgMGW & https://t.co/1aJnnxFlma  & https://t.co/IXRkk1MroF\nAI enthusiast ! Love open source! ExDatabaseer.\nApache Arrow/Datafusion/Doris PMC member",
+      "text": "很多人对 multi agent 意见很大。说有各种各样的问题。\nmultiple agent 不是银弹，不合适的场景和不合理的使用下很多时候是负效果。\n\n集群/org 组织永远都是需要治理和设计的，放在 agent 集群上也不例外。",
+      "likes": 25,
+      "retweets": 0,
+      "replies": 27,
+      "views": 5967,
+      "created_at": "2026-08-15T07:29:33Z",
+      "url": "https://x.com/jakevin7/status/2088528506476953967",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 55.964,
+      "summary": "很多人对 multi agent 意见很大。说有各种各样的问题。\nmultiple agent 不是银弹，不合适的场景和不合理的使用下很多时候是负效果。\n\n集群/org 组织永远都是需要治理和设计的，放在 agent 集群上也不例外。",
+      "recommend_reason": "不站队黑 multi-agent，直接说它不是银弹，集群一样要治理。",
+      "tags": [
+        "Agent",
+        "工程"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2088519611679748348",
+      "author": "IndieDevHailey",
+      "bio": "独立开发者 · AI Builder\nAI × 全栈 × 增长\nGoViralX｜连接品牌与 KOL\n商务合作 & 品牌增长咨询：hailey_le_1",
+      "text": "LongHorizon-Harness，直接让 Codex、Claude Code 这种 Agent 能连续干几十个小时。\n\n丢一个目标进去，它会自己拆任务、执行、检查、保存进度，失败了就恢复继续，不用每轮重新来。\n\n还能跨终端和桌面软件连续工作，并且会单独验证结果，不是 Agent 自己说做完了就算完。\n\n支持 Codex、Claude Code、DeepSeek Harness。",
+      "likes": 9,
+      "retweets": 1,
+      "replies": 13,
+      "views": 1522,
+      "created_at": "2026-08-15T06:54:12Z",
+      "url": "https://x.com/IndieDevHailey/status/2088519611679748348",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPvpG1ebMAATTrX.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPvpG1ebMAATTrX.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 60.017,
+      "summary": "LongHorizon-Harness，直接让 Codex、Claude Code 这种 Agent 能连续干几十个小时。\n\n丢一个目标进去，它会自己拆任务、执行、检查、保存进度，失败了就恢复继续，不用每轮重新来。\n\n还能跨终端和桌面软件连续工作，并且会单独验证结果，不是 Agent 自己说做完了就算完。\n\n支持 Codex、Claude Code、DeepSeek Harness。",
+      "recommend_reason": "把长程 Agent 说成可恢复、可跨软件、还单独验收，而且点名支持三套 Harness。",
+      "tags": [
+        "Agent",
+        "Harness",
+        "Codex",
+        "Claude Code"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2088501770406473926",
+      "author": "ollama",
+      "bio": "https://t.co/1JpLwJ9Bdv",
+      "text": "The new DeepSeek-V4-Pro (0813) is now fully rolled out on Ollama's cloud and included in Pro and Max subscriptions.\n\nollama run deepseek-v4-pro:cloud\n\nHosted in the US with Zero Data Retention (ZDR) and high performance.",
+      "likes": 669,
+      "retweets": 30,
+      "replies": 47,
+      "views": 43084,
+      "created_at": "2026-08-15T05:43:19Z",
+      "url": "https://x.com/ollama/status/2088501770406473926",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 68.149,
+      "title": "DeepSeek-V4-Pro 已在 Ollama 云端全量上线",
+      "summary": "DeepSeek-V4-Pro（0813）已在 Ollama 云端全量推开，含在 Pro 和 Max 订阅里。命令是 ollama run deepseek-v4-pro:cloud，美国机房，零数据留存（ZDR），官方强调高性能。",
+      "recommend_reason": "官方账号自己发的上线通知，命令和套餐边界都写清楚了。",
+      "tags": [
+        "DeepSeek",
+        "Ollama",
+        "模型",
+        "云服务"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2088493756391768252",
+      "author": "thsottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "text": "Looking for a quick restaurant reservation is now super easy in ChatGPT. Together with a bunch more ships",
+      "likes": 1450,
+      "retweets": 50,
+      "replies": 198,
+      "views": 330028,
+      "created_at": "2026-08-15T05:11:28Z",
+      "url": "https://x.com/thsottiaux/status/2088493756391768252",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2088349344248537250",
+        "author": "adamhfry",
+        "name": "Adam Fry",
+        "text": "This week's ChatGPT feature drop - Aug 14:\n\n1/ Quizzes - \"Quiz me on [topic]\" will now automatically generate quizzes right in Chat. Learn any topic!\n\n2/ Reservation search - \"I'm looking for a reservation for two next Saturday for a place with a great outdoor patio\". Nice thing is you can just describe what you want.\n\n3/ Google Drive for Paid Users - You can now add Google Drive files to your ChatGPT Library. That makes it easy to ask ChatGPT questions about those files. Just hit the + menu and \"Add from Library\"\n\n4/ Suggestions for Paid Users - Paid users will see high quality suggestions on the home page of ChatGPT\n\nWe're continuing to make answers better, allow you to pull in the right documents, and more easily discover what Chat can do. Step by step, ChatGPT gets more useful! Leave feedback in the comments.",
+        "created_at": "Fri Aug 14 19:37:37 +0000 2026",
+        "url": "https://x.com/adamhfry/status/2088349344248537250",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2088345302138777600/vid/avc1/480x270/2X6lGv07f8vsp7W1.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2088345302138777600/img/gi2i6UQ9Sg-MXRtx.jpg"
+        ]
+      },
+      "score": 64.71,
+      "summary": "在 ChatGPT 里快速订餐厅现在变得特别容易。这周还一起上了好几项功能。",
+      "recommend_reason": "ChatGPT 产品负责人点名订座，引用里还有测验和 Google Drive 入库。",
+      "tags": [
+        "ChatGPT",
+        "产品",
+        "OpenAI"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2088484972965298489",
+      "author": "elonmusk",
+      "bio": "https://t.co/ZdBx5WABYx",
+      "text": "Grok 4.6 runs The Gauntlet",
+      "likes": 7615,
+      "retweets": 1077,
+      "replies": 1285,
+      "views": 4825731,
+      "created_at": "2026-08-15T04:36:34Z",
+      "url": "https://x.com/elonmusk/status/2088484972965298489",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2088303001299529981",
+        "author": "mattshumer_",
+        "name": "Matt Shumer",
+        "text": "Grok 4.6 worked non-stop for 48 hours to build this shooter.\n\nTurns out Grok is powerful enough to run Gauntlet Loops.\n\nLet the game-making begin! https://t.co/HbpS1QmEsp",
+        "created_at": "Fri Aug 14 16:33:28 +0000 2026",
+        "url": "https://x.com/mattshumer_/status/2088303001299529981",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2088302961239752704/vid/avc1/480x270/t7u6ZBmjNDuKZVpR.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2088302961239752704/img/1JOlqsXlp8NaAh-W.jpg"
+        ]
+      },
+      "score": 61.881,
+      "summary": "Grok 4.6 跑通了 The Gauntlet。",
+      "recommend_reason": "马斯克亲自转，引用里是 Grok 4.6 连续干了 48 小时做出射击游戏。",
+      "tags": [
+        "Grok",
+        "xAI",
+        "Agent"
+      ],
+      "rank": 14
+    },
+    {
+      "id": "2088482886819394016",
+      "author": "lixinbao_X",
+      "bio": "原金融从业者，现在基本全职自媒体人，使用AI技术赋能，2025年5月份到现在粉丝从零涨到：微信视频号 40 万，抖音25 万，B站 2 万，小红书 6 万。百度1.5万，快手及其他加总还有 2 万左右。全网粉丝数破 75 万。 我会在这里分享我作品，及相关制作经验技巧和心得。",
+      "text": "国行 iPhone 的 AI，真不远了。\n\n路透爆料：苹果已经专门为中国市场训练大模型，阿里参与开发和训练。\n\n所以国行 Apple Intelligence 很可能不是简单接个千问，而是：\n\n苹果中国专属模型 + 千问 + 百度部分技术。\n\n简单任务本地跑，复杂任务上云，需要外部能力再调用合作伙伴模型。\n\n更关键的是，“Apple 智能”今年 7 月已经完成国内相关备案。\n\n现在的问题基本不是“有没有”，而是“什么时候上、能上多少”。",
+      "likes": 9,
+      "retweets": 0,
+      "replies": 8,
+      "views": 1269,
+      "created_at": "2026-08-15T04:28:17Z",
+      "url": "https://x.com/lixinbao_X/status/2088482886819394016",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPvIHMDawAEWYfl.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPvIHMDawAEWYfl.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 60.645,
+      "title": "路透：苹果为中国市场自训大模型，阿里参与",
+      "summary": "路透称苹果已专门为中国市场训练大模型，阿里参与开发和训练。国行 Apple Intelligence 可能不是简单接千问，而是苹果中国专属模型 + 千问 + 百度部分技术：简单任务本地、复杂任务上云。Apple 智能 7 月已完成国内备案，剩下是何时上、能上多少。",
+      "recommend_reason": "和路透 8 月 14 日那条对得上，把「接千问」和「自训+合作」拆开了。",
+      "tags": [
+        "Apple",
+        "阿里",
+        "大模型",
+        "中国"
+      ],
+      "rank": 15
+    }
+  ],
+  "generated_at": "2026-08-15T17:02:08Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "midnight",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 15,
+    "last_batch_added": 15,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
