@@ -1,0 +1,598 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-16",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "bio": "",
+      "media_urls": [
+        "https://pbs.twimg.com/media/HP2foH7aEAALbER.png",
+        "https://pbs.twimg.com/media/HP2foH7a4AA6yJ7.jpg"
+      ],
+      "text": "说个暴论，AI 时代，很多真正的技术大佬，都是二次元。\n\n逛一圈 B 站你会发现：\n\n前脚还在用最硬核的方式拆解 DeepSeek、手搓 Agent、研究 harness，后脚头像点开就是动漫少女。\n\n这可能不是巧合。\n\n二次元和 AI 大佬，本来就共享一种底层气质：对虚拟世界有热情，对新技术高敏感，愿意为了兴趣投入大量时间，还不太在乎主流怎么看。\n\n白天训模型，晚上追番；左手搓 Agent，右手买谷子。\n\n你以为他只是在网上冲浪，实际上人家顺手把下一代 AI 应用做出来了。\n\n所以 AI 时代最大的认知偏差之一，可能就是：\n\n看起来最宅的那群人，反而离未来最近。\n\n但比「技术大佬都是二次元」更值得注意的，是这些成果为什么越来越早出现在 B 站。\n\n对开源开发者来说，B 站不只是项目做完后发条视频的「宣传渠道」，更像一块正在形成的「首发广场」：\n\n项目不必等到完美，先把 Demo 跑出来，把思路讲给人听，把踩过的坑摊开。弹幕和评论区给出第一轮反馈，真正感兴趣的人再顺着链接走进 GitHub，提 Issue、交 PR，一起把它磨出来。\n\nGitHub 负责承载代码，B 站负责让代码先被看见、被理解，也让开发者找到最早一批愿意参与的人。\n\nB 站，正在成为国内开源开发者的成果首发地。",
+      "author": "canghe",
+      "media_posters": [
+        "https://pbs.twimg.com/media/HP2foH7aEAALbER.png",
+        "https://pbs.twimg.com/media/HP2foH7a4AA6yJ7.jpg"
+      ],
+      "has_media": true,
+      "url": "https://x.com/i/status/2089001350063653269",
+      "score": 61.109,
+      "likes": 7,
+      "created_at": "2026-08-16T14:48:28Z",
+      "card": null,
+      "id": "2089001350063653269",
+      "views": "1479",
+      "quoted_tweet": {
+        "id": "2088891377186959589",
+        "author": "canghe",
+        "name": "苍何",
+        "text": "https://t.co/EW9GE475We",
+        "created_at": "Sun Aug 16 07:31:28 +0000 2026",
+        "url": "https://x.com/canghe/status/2088891377186959589",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "title": "B 站正在变成国内开源的首发广场，而不只是做完再发视频的宣传渠道",
+      "summary": "苍何从「很多技术大佬都是二次元」说到更硬的一点：开源项目越来越早出现在 B 站。Demo 先跑起来、坑先摊开，弹幕给第一轮反馈，真感兴趣的人再进 GitHub。GitHub 承载代码，B 站负责被看见和找到第一批贡献者。",
+      "recommend_reason": "比「二次元暴论」更有用的是他把 B 站定义成开源首发场，而不是宣传尾巴。",
+      "tags": [
+        "开源",
+        "中国",
+        "认知"
+      ],
+      "rank": 1
+    },
+    {
+      "bio": "",
+      "media_urls": [],
+      "text": "AI spend is nowhere close to hitting any walls. Obviously this data is weighted toward engineering-centric companies, with the top 1% spending $7,500/mo and top 10% spending $660/mo per employee on AI. But the general trend of continued exponential growth is occurring throughout all firm types. \n\nAnd what the top 10% is doing today may easily be what the top 50% is doing in 3 years from now, at least in terms of token volume if not in dollars. This is why there’s still so much opportunity right now in the diffusion of AI in the enterprise.\n\nEspecially as token costs come down, we will throw larger portions of work at agents. They’ll be scanning all our code for security issues, testing all of our software, writing coding for much larger projects, processing nearly all data, and much more. So this trend has no end in sight.",
+      "author": "levie",
+      "media_posters": [],
+      "has_media": false,
+      "url": "https://x.com/i/status/2088995821056659901",
+      "score": 60.866,
+      "likes": 102,
+      "created_at": "2026-08-16T14:26:30Z",
+      "card": null,
+      "id": "2088995821056659901",
+      "views": "18578",
+      "quoted_tweet": {
+        "id": "2088314089659662799",
+        "author": "omooretweets",
+        "name": "Olivia Moore",
+        "text": "The median company is spending $12 / employee / month on AI \n\nThe top 1% are spending $7,500 / employee / month\n\nNot sure we've ever seen an adoption gap quite like this\n\n(h/t @tryramp data, @a16z) https://t.co/A1UIrixi1Y",
+        "created_at": "Fri Aug 14 17:17:32 +0000 2026",
+        "url": "https://x.com/omooretweets/status/2088314089659662799",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HPstmUFbEAAQdql.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HPstmUFbEAAQdql.jpg"
+        ]
+      },
+      "title": "企业 AI 花费还远没撞墙，头部和中位的差距大到像两个时代",
+      "summary": "Box CEO Aaron Levie 引用 Ramp/a16z 数据：中位公司人均每月 12 美元，头部 1% 人均 7500 美元，前 10% 人均 660 美元。样本偏工程公司，但他认为指数增长仍在各类公司发生。token 降价后，安全扫描、测试、更大项目写码、数据处理都会被丢给 Agent，这个趋势看不到头。",
+      "recommend_reason": "数字具体，而且把「没撞墙」解释成扩散还早，不是再吹一嘴 AGI。",
+      "tags": [
+        "创业",
+        "价格",
+        "Agent"
+      ],
+      "rank": 2
+    },
+    {
+      "bio": "",
+      "media_urls": [
+        "https://pbs.twimg.com/media/HP2XECqa4AEcXQ5.jpg",
+        "https://pbs.twimg.com/media/HP2XFNWa0AAlVTC.jpg",
+        "https://pbs.twimg.com/media/HP2XkzZaoAAiggi.jpg",
+        "https://pbs.twimg.com/media/HP2XLARb0AATJZJ.jpg"
+      ],
+      "text": "GPT2 x 文物 x 展览 x 仪式感 x 海报 x 美学提示词\n\n开设了一个博物馆海报频道\n提交了 409 个相关的海报提示词\n\n同一个提示词，同样灵活佐料\n比如如下是同一个提示词，只是提交了不同的佐料\n\n汤底提示词：\n\n```\n围绕任意主题对象生成一张安静而有仪式感的图文视觉：画面由大面积主题底场与一条居中的窄幅主视觉带形成强烈分栏秩序，主视觉带承载主题派生的主要形体、线性纹理或图像叙事，像被精确装裱的细密画面一样贯穿阅读路径；两侧底场保持宽阔、柔和、可呼吸，放置少量主题相关器物或符号作为轻量锚点，使视觉先读到中央的密集细节，再读到大字标题和分组信息。主题对象不要被孤立陈列，而要拆解成主形体、附着细节、信息层和小型物件四种角色，形成中心密、两侧疏、文字有停顿的展陈节奏。文字若出现，使用高瘦、清雅、留有字距的标题字，少字成列形成静默重量；说明文字用小号、整齐、克制的组块，与图像保持精确边距，像展签和日期信息嵌在色场里。色彩从主题自身的材质、季节、文化语义与情绪中提取，保留大面积清透明亮底色、较浅的主视觉承托色、清晰深浅色阶、少量高饱和强调色和浅色信息文字的角色关系；整体明亮干净、温润安静，有清晰边界和柔和印刷颗粒，纹理只增加纸面与材质触感，不让画面变脏、灰暗、烟雾化或陈旧。\n```\n\n个人最喜欢图三",
+      "author": "xiaoxiaodong01",
+      "media_posters": [
+        "https://pbs.twimg.com/media/HP2XECqa4AEcXQ5.jpg",
+        "https://pbs.twimg.com/media/HP2XFNWa0AAlVTC.jpg",
+        "https://pbs.twimg.com/media/HP2XkzZaoAAiggi.jpg",
+        "https://pbs.twimg.com/media/HP2XLARb0AATJZJ.jpg"
+      ],
+      "has_media": true,
+      "url": "https://x.com/i/status/2088992503433499013",
+      "score": 66.534,
+      "likes": 10,
+      "created_at": "2026-08-16T14:13:19Z",
+      "card": null,
+      "id": "2088992503433499013",
+      "views": "610",
+      "quoted_tweet": null,
+      "title": "同一条博物馆海报提示词，只换佐料就能排出完全不同的展陈画面",
+      "summary": "作者开了博物馆海报频道，交了 409 条相关提示词。文中贴了一段完整「汤底」：中央窄幅主视觉带加两侧可呼吸底场，主题拆成主形体、附着细节、信息层和小型物件，色彩从材质和季节提取，避免脏、灰、烟雾化。",
+      "recommend_reason": "提示词写到了构图角色和色彩分工，能直接拿去试，不是空晒图。",
+      "tags": [
+        "设计",
+        "技巧"
+      ],
+      "rank": 3
+    },
+    {
+      "bio": "",
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2088277953557729280/vid/avc1/304x270/yThGeOa9YI5EAuaA.mp4?tag=14"
+      ],
+      "text": "哇，threejs画的百变怪物脸谱，好细腻！\n这些小怪物全是代码画的，一张图都没有用。\n\nCanvas 画出抖动墨水线的每个部位，变成纹理，挂到 Three.js 2D 骨架上。\n\n一个 seed 决定长相，呼吸、眨眼、眼神乱飘全是独立时钟。\n\nClaude 帮忙写代码，几小时就做出一群活动着的小家伙。纯程序生成，看着就上瘾。\n https://t.co/BOLMtmC6w8",
+      "author": "IndieDevHailey",
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2088277953557729280/img/hbbEU50-oTLwZ03g.jpg"
+      ],
+      "has_media": true,
+      "url": "https://x.com/i/status/2088982359161074152",
+      "score": 61.769,
+      "likes": 10,
+      "created_at": "2026-08-16T13:33:00Z",
+      "card": null,
+      "id": "2088982359161074152",
+      "views": "1017",
+      "quoted_tweet": null,
+      "summary": "哇，threejs画的百变怪物脸谱，好细腻！\n这些小怪物全是代码画的，一张图都没有用。\n\nCanvas 画出抖动墨水线的每个部位，变成纹理，挂到 Three.js 2D 骨架上。\n\n一个 seed 决定长相，呼吸、眨眼、眼神乱飘全是独立时钟。\n\nClaude 帮忙写代码，几小时就做出一群活动着的小家伙。纯程序生成，看着就上瘾。",
+      "recommend_reason": "程序生成怪物脸谱把 seed、独立时钟和 Claude 写代码这几步写清楚了，能直接去看。",
+      "tags": [
+        "Claude",
+        "设计",
+        "开源"
+      ],
+      "rank": 4
+    },
+    {
+      "bio": "",
+      "media_urls": [
+        "https://pbs.twimg.com/media/HP2FfzSWEAAUj5h.jpg"
+      ],
+      "text": "对于预算不多朋友，想要省 Codex 额度的，可以试试这个方法。\n\n用 Codex 其实可以在右侧直接打开内置的浏览器，登录 ChatGPT 聊天模式。\n\n不需要执行的问题，直接在聊天模式去聊就可以了，不占用 Codex 的额度。\n\n如果想要把聊天改为执行，直接在 Codex 里面去 @ 这个聊天记录，就可以切换到 Codex 去执行了。",
+      "author": "jinchenma_ai",
+      "media_posters": [
+        "https://pbs.twimg.com/media/HP2FfzSWEAAUj5h.jpg"
+      ],
+      "has_media": true,
+      "url": "https://x.com/i/status/2088973060053352763",
+      "likes": 7,
+      "created_at": "2026-08-16T12:56:03Z",
+      "card": null,
+      "id": "2088973060053352763",
+      "views": "964",
+      "quoted_tweet": null,
+      "score": 59.939,
+      "summary": "对于预算不多朋友，想要省 Codex 额度的，可以试试这个方法。\n\n用 Codex 其实可以在右侧直接打开内置的浏览器，登录 ChatGPT 聊天模式。\n\n不需要执行的问题，直接在聊天模式去聊就可以了，不占用 Codex 的额度。\n\n如果想要把聊天改为执行，直接在 Codex 里面去 @ 这个聊天记录，就可以切换到 Codex 去执行了。",
+      "recommend_reason": "省 Codex 额度的方法很具体：右侧浏览器进 ChatGPT 聊天不算 Codex 额度，要用时再 @ 那条记录切执行。",
+      "tags": [
+        "Codex",
+        "ChatGPT",
+        "技巧"
+      ],
+      "rank": 5
+    },
+    {
+      "bio": "💡 商业哲学爱好者\n💻 开源了我的商业/内容方法论：dbskill\n📱 抖音/小红书/视频号：dontbesilent 聊赚钱\n🎟️ 9.11 深圳线下课：微信 dbs2408",
+      "media_urls": [],
+      "text": "精准获客是一种三流的创作手法，仅对四流创作者有效\n\n比如你卖 AI 落地产品\n\n四流的创作是：《10 个值得收藏的 AI 网站》，发完之后你卖不掉你的产品\n\n三流的创作就是 “精准获客”：年入多少多少万的老板注意了（点人群），再不用 AI 你就被淘汰了（戳痛点），这是我们的学员（晒案例），自从用了我们的 AI 数字人矩阵获客系统（引出产品），平均每天客资一千个（晒结果）\n\n发这种内容的结果就是，行业内每个人的短视频都长得一模一样，同质化竞争，最终引流私域之后，比谁的销售更会割草\n\n严格讲，这种套模板的创作，都不算是创作的，只是 SOP 复制粘贴\n\n三流以上的创作，才是创作\n\n旗帜鲜明地反对精准流量、精准获客\n旗帜鲜明地反对基于静态统计学特征的人群画像\n旗帜鲜明地反对一键爆款“智能体”\n旗帜鲜明地反对 AI 自动找选题\n旗帜鲜明地反对人均智能“工作台”\n旗帜鲜明地反对 SOP 化工作流创作\n旗帜鲜明地反对 Agent 拟人化\n旗帜鲜明地反对 AI 数字人获客\n旗帜鲜明地反对一键“蒸馏”某某人\n旗帜鲜明地反对滥用汉语",
+      "author": "dontbesilent",
+      "media_posters": [],
+      "has_media": false,
+      "url": "https://x.com/dontbesilent/status/2088923888583606327",
+      "score": 62.306,
+      "likes": 60,
+      "created_at": "2026-08-16T09:40:40Z",
+      "retweets": 5,
+      "replies": 4,
+      "card": null,
+      "id": "2088923888583606327",
+      "views": 5756,
+      "quoted_tweet": null,
+      "title": "精准获客是三流手法，行业短视频最后会变成同一张 SOP",
+      "summary": "卖 AI 产品时，四流是「10 个 AI 网站」合集，三流是点老板人群、戳痛点、晒学员、报客资。结果是内容同质、私域比谁更会割。作者列了一串反对：精准画像、一键爆款智能体、自动找选题、数字人获客、Agent 拟人化等。",
+      "recommend_reason": "把「看起来很会投放」的内容写成了创作降级，立场清楚。",
+      "tags": [
+        "写作",
+        "认知",
+        "创业"
+      ],
+      "rank": 6
+    },
+    {
+      "bio": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design）\n\n歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "media_urls": [
+        "https://pbs.twimg.com/media/HP1VOjpbgAAPg0u.jpg"
+      ],
+      "text": "正在给 DeepSeek Harness 做一个界面和交互美化的插件。\n\n还有一个服务商的插件，这样整个产品体验会好一点，后续也会打包成一个客户端。\n\n这主要是把 Codepilot 里面沉淀的一些资产抽离出来，然后做到这个 DeepSeek Harness 的插件里，这样整个使用体验和视觉效果都会变好不少。\n\n看了一些现有的美化插件，基本上都是改改背景图、加一两个组件效果什么的，感觉对于长期使用和用户体验没什么多大的帮助。",
+      "author": "op7418",
+      "media_posters": [
+        "https://pbs.twimg.com/media/HP1VOjpbgAAPg0u.jpg"
+      ],
+      "has_media": true,
+      "url": "https://x.com/op7418/status/2088919845236859288",
+      "score": 61.348,
+      "likes": 30,
+      "created_at": "2026-08-16T09:24:36Z",
+      "retweets": 0,
+      "replies": 13,
+      "card": null,
+      "id": "2088919845236859288",
+      "views": 10734,
+      "quoted_tweet": null,
+      "title": "美化 DeepSeek Harness 不够，op7418 要把 CodePilot 的体验资产搬进去",
+      "summary": "op7418 在给 DSH 做界面交互美化插件和服务商插件，后续打算打成客户端。他认为现有美化插件多半只换背景、加一两个组件，对长期使用帮助不大，所以把 CodePilot 里沉淀的东西抽出来。",
+      "recommend_reason": "这是作者自己的产品迁移计划，比「又一个换皮主题」有信息增量。",
+      "tags": [
+        "DeepSeek",
+        "Harness",
+        "产品",
+        "设计"
+      ],
+      "rank": 7
+    },
+    {
+      "bio": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design）\n\n歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "media_urls": [
+        "https://pbs.twimg.com/media/HP1TJUHawAAf2xt.jpg"
+      ],
+      "text": "CodePilot 这几天也有不少的更新：\n\n1. 支持了新发布的 Grok 4.6、DeepSeek V4 Pro 以及 GLM 5.3 模型。\n\n2. 支持将你 Grok 会员里的图像模型甚至视频模型的额度，也都在 CodePilot 里面使用。支持对 Twitter 进行检索。\n\n这样的话，你只要有一个 Twitter 会员，就可以在 CodePilot 里面白嫖 Grok 的图像、视频模型以及 Twitter 检索服务。",
+      "author": "op7418",
+      "media_posters": [
+        "https://pbs.twimg.com/media/HP1TJUHawAAf2xt.jpg"
+      ],
+      "has_media": true,
+      "url": "https://x.com/op7418/status/2088917575342461115",
+      "likes": 8,
+      "created_at": "2026-08-16T09:15:34Z",
+      "retweets": 0,
+      "replies": 3,
+      "card": null,
+      "id": "2088917575342461115",
+      "views": 5200,
+      "quoted_tweet": null,
+      "score": 58.171,
+      "title": "CodePilot 接上 Grok 4.6、DeepSeek V4 Pro 和 GLM 5.3，连 Grok 的图和视频额度也能用",
+      "summary": "更新两点：新模型接入；Grok 会员的图像、视频额度和 Twitter 检索可以在 CodePilot 里用。作者的说法是，有 Twitter 会员就能在里面用这些能力。",
+      "recommend_reason": "模型清单和「Grok 会员额度搬家」是可核对的产品变更。",
+      "tags": [
+        "Grok",
+        "DeepSeek",
+        "产品"
+      ],
+      "rank": 8
+    },
+    {
+      "bio": "独立开发者 · AI Builder\nAI × 全栈 × 增长\nGoViralX｜连接品牌与 KOL\n商务合作 & 品牌增长咨询：hailey_le_1",
+      "media_urls": [
+        "https://pbs.twimg.com/media/HP1ORBFasAAuHyr.jpg"
+      ],
+      "text": "DeepSeek Harness 爆火后，插件生态也跟上来了。\n\nawesome-dsh-plugin 把社区里的几百个插件整理好了。\n\nUI 增强、工具扩展、记忆系统、工作流，甚至还有摸鱼小游戏，全都有。\n\n不用自己一个个找，Agent 甚至可以帮你发现和安装插件。\n\n短短几天冲到 3.7k Star，社区响应速度真的离谱。 https://t.co/wfwKvsJzKi",
+      "author": "IndieDevHailey",
+      "media_posters": [
+        "https://pbs.twimg.com/media/HP1ORBFasAAuHyr.jpg"
+      ],
+      "has_media": true,
+      "url": "https://x.com/IndieDevHailey/status/2088912004883136770",
+      "likes": 5,
+      "created_at": "2026-08-16T08:53:26Z",
+      "retweets": 0,
+      "replies": 6,
+      "card": null,
+      "id": "2088912004883136770",
+      "views": 1085,
+      "quoted_tweet": {
+        "id": "2088825757686731123",
+        "author": "IndieDevHailey",
+        "name": "开发者Hailey",
+        "text": "DeepSeek Harness 最近爆火，但很多人卡在第一步：环境配置、命令行、依赖安装。\n\n这个开源项目直接把 DeepSeek Harness 做成了桌面 App。\n\n不用折腾 Node、终端，直接进入本地 AI Agent 工作台。\n\n支持 Sessions、项目管理、文件处理、Web Research、插件系统、Office 自动化等能力，全部整合在一个界面里。",
+        "created_at": "Sun Aug 16 03:10:43 +0000 2026",
+        "url": "https://x.com/IndieDevHailey/status/2088825757686731123",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/tweet_video/HPz_5qqaUAA3aiq.mp4"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/tweet_video_thumb/HPz_5qqaUAA3aiq.jpg"
+        ]
+      },
+      "score": 58.357,
+      "summary": "DeepSeek Harness 爆火后，插件生态也跟上来了。\n\nawesome-dsh-plugin 把社区里的几百个插件整理好了。\n\nUI 增强、工具扩展、记忆系统、工作流，甚至还有摸鱼小游戏，全都有。\n\n不用自己一个个找，Agent 甚至可以帮你发现和安装插件。\n\n短短几天冲到 3.7k Star，社区响应速度真的离谱。",
+      "recommend_reason": "给了仓库定位：几百个 DSH 插件按 UI/工具/记忆/工作流分类，几天 3.7k star。",
+      "tags": [
+        "DeepSeek",
+        "Harness",
+        "开源"
+      ],
+      "rank": 9
+    },
+    {
+      "bio": "喜欢摇滚乐、爱钓鱼的PM",
+      "media_urls": [
+        "https://pbs.twimg.com/media/HP0zv5laYAACgbS.jpg",
+        "https://pbs.twimg.com/media/HP0zzDua8AE456g.jpg",
+        "https://pbs.twimg.com/media/HP0z2GubAAAevM6.jpg",
+        "https://pbs.twimg.com/media/HP0z5NiagAAmZYH.jpg"
+      ],
+      "text": "像丁师傅说的一样，B站藏龙卧虎，有一大批优秀的 AI 产品创作者。\n\nDeepSeek Harness 插件贡献者中很多都是 B 站的UP主，一水儿的二次元头像。\n\n比如 DSH 发布当天热榜第一 colleague-skill ，第三的OpenBiliClaw全都是B站 UP主。\n\n当年二次元属于小众爱好，现在都成了各大公司的核心技术主力。\n\n试着在 DSH 装了这两个插件，用colleague-skill 生成了一个纳瓦尔Skill：\nhttps://t.co/am13D4gnJJ\n\nOpenBiliClaw也安装了，但要配置向量模型才能运行，抽空再试试。\n\n纳瓦尔说的 Build & Sell，放在开源生态里，除了 X，B站就是最重要传播宣传平台。\n\nDSH 刚开源没几天，插件生态已经这么繁荣，未来可期。",
+      "author": "vista8",
+      "media_posters": [
+        "https://pbs.twimg.com/media/HP0zv5laYAACgbS.jpg",
+        "https://pbs.twimg.com/media/HP0zzDua8AE456g.jpg",
+        "https://pbs.twimg.com/media/HP0z2GubAAAevM6.jpg",
+        "https://pbs.twimg.com/media/HP0z5NiagAAmZYH.jpg"
+      ],
+      "has_media": true,
+      "url": "https://x.com/vista8/status/2088882885394649325",
+      "score": 64.184,
+      "likes": 59,
+      "created_at": "2026-08-16T06:57:44Z",
+      "retweets": 3,
+      "replies": 26,
+      "card": null,
+      "id": "2088882885394649325",
+      "views": 14067,
+      "quoted_tweet": {
+        "id": "2088882495437812193",
+        "author": "vista8",
+        "name": "向阳乔木",
+        "text": "https://t.co/k2TLemaqMJ",
+        "created_at": "Sun Aug 16 06:56:11 +0000 2026",
+        "url": "https://x.com/vista8/status/2088882495437812193",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "title": "DeepSeek Harness 刚开源，热榜插件已经有一串来自 B 站的二次元 UP",
+      "summary": "vista8 装了 DSH 发布当天热榜第一的 colleague-skill、第三的 OpenBiliClaw，前者用来生成了一个纳瓦尔 Skill。他的判断是：开源生态除了 X，B 站正在变成国内创作者的首发和传播场。",
+      "recommend_reason": "给出了两个具体插件名和实测入口，不是空喊社区繁荣。",
+      "tags": [
+        "DeepSeek",
+        "Harness",
+        "开源",
+        "中国"
+      ],
+      "rank": 10
+    },
+    {
+      "bio": "AI Engineer, dedicated to learning and disseminating knowledge about AI, software engineering, and engineering management.",
+      "media_urls": [
+        "https://pbs.twimg.com/media/HP0uf5fWkAA0fWv.jpg"
+      ],
+      "text": "Claude Code （Claude Desktop）这个功能很好用，就是你5小时限制到了，可以自动继续，不只是主 Agent 到时间继续，子 Agent 到时间也会继续。不需要手工输入 return，也不需要重新开 subagent，可以重用之前的 subagent https://t.co/D7mbGSIKcw",
+      "author": "dotey",
+      "media_posters": [
+        "https://pbs.twimg.com/media/HP0uf5fWkAA0fWv.jpg"
+      ],
+      "has_media": true,
+      "url": "https://x.com/dotey/status/2088877534859473370",
+      "score": 61.1,
+      "likes": 36,
+      "created_at": "2026-08-16T06:36:28Z",
+      "retweets": 3,
+      "replies": 24,
+      "card": null,
+      "id": "2088877534859473370",
+      "views": 17932,
+      "quoted_tweet": {
+        "id": "2088014831605702937",
+        "author": "ClaudeDevs",
+        "name": "ClaudeDevs",
+        "text": "Hit your usage limit in Claude Code desktop? There's now an auto-continue checkbox. \n\nTurn it on, and it'll automatically continue where you left off once your limit resets. https://t.co/Zs7ZX67cly",
+        "created_at": "Thu Aug 13 21:28:23 +0000 2026",
+        "url": "https://x.com/ClaudeDevs/status/2088014831605702937",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2088014130624233472/vid/avc1/480x270/CCD8aONZeVIX4v74.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2088014130624233472/img/JC2j7izNBkgiuR8o.jpg"
+        ]
+      },
+      "summary": "Claude Code （Claude Desktop）这个功能很好用，就是你5小时限制到了，可以自动继续，不只是主 Agent 到时间继续，子 Agent 到时间也会继续。不需要手工输入 return，也不需要重新开 subagent，可以重用之前的 subagent",
+      "recommend_reason": "补了一句官方没写清的：子 Agent 到点也会续，而且能重用原来的 subagent。",
+      "tags": [
+        "Claude Code",
+        "Agent",
+        "技巧"
+      ],
+      "rank": 11
+    },
+    {
+      "bio": "Codex & ChatGPT @OpenAI",
+      "media_urls": [
+        "https://pbs.twimg.com/media/HP0iLIobAAAH8GM.jpg"
+      ],
+      "text": "On tokens and prices per token.\n\nI said I’d write more about this, so here goes: an OpenAI token != another model’s token. We compare AI prices in dollars per million tokens as if a token were a standardized unit, like a gram or a kilowatt-hour. It isn’t. Different models use and produce the exact same text using different numbers of tokens, which means a lower price per token does not necessarily mean a lower bill.\n\nImagine two identical pizzas. One is cut into 8 slices at $2 each. The other is cut into 16 slices at $1.25 each. The second place advertises cheaper slices, but the whole pizza costs $20 instead of $16. Bummer ... your stomach doesn't actually care about the number of slices you just ate.\n\nI know you are hungry now, but back to tokens. In one small comparison spanning English, technical, multilingual, and numerical text, the tokenizer we use for GPT-5.6 Sol used 766 tokens versus an estimated 1,170 for Claude Opus 5. That's a very significant difference of about 34.5% fewer tokens. You can get the same exact text, but pay for all those extra tokens. The price per token doesn't really tell this story.\n\nEven correcting for tokenizer differences misses the bigger point. What actually matters is price per successful outcome, and for that you can use benchmarks as a starting point, but really you have to try it and measure on your own use cases.\n\nThat's all. May the tokens flow.",
+      "author": "thsottiaux",
+      "media_posters": [
+        "https://pbs.twimg.com/media/HP0iLIobAAAH8GM.jpg"
+      ],
+      "has_media": true,
+      "url": "https://x.com/thsottiaux/status/2088866513008873560",
+      "score": 74.764,
+      "likes": 5084,
+      "created_at": "2026-08-16T05:52:40Z",
+      "retweets": 275,
+      "replies": 698,
+      "card": null,
+      "id": "2088866513008873560",
+      "views": 419264,
+      "quoted_tweet": null,
+      "title": "比「每百万 token 单价」更重要的是：同一段字，不同分词器会买出两份账单",
+      "summary": "作者用披萨切片比喻：不同模型的 token 不是克或度电那种标准单位。同一段文本，GPT-5.6 Sol 用了 766 token，Claude Opus 5 大约 1170，差约 34.5%。单价更低不等于账单更低。真正该比的是做成一件事的价格；基准测试只是起点，最终要在自己的用例上量。",
+      "recommend_reason": "把「便宜模型其实更贵」钉到 tokenizer 不可比这件事上，比空喊性价比有用。",
+      "tags": [
+        "OpenAI",
+        "Claude",
+        "价格",
+        "大模型"
+      ],
+      "rank": 12
+    },
+    {
+      "bio": "💡 商业哲学爱好者\n💻 开源了我的商业/内容方法论：dbskill\n📱 抖音/小红书/视频号：dontbesilent 聊赚钱\n🎟️ 9.11 深圳线下课：微信 dbs2408",
+      "media_urls": [
+        "https://pbs.twimg.com/media/HP0imqlaoAE2pt1.jpg"
+      ],
+      "text": "很多人喜欢在视频里面一上来就讲 Agent 如何如何、Skill 如何如何\n\n你要知道，对于 99% 的观众而言，他们完全不知道 Skill 这个词是啥意思，对他们来说，这个单词和看韩语没有区别\n\n你说的是：Skill 的本质其实就是一段文本\n\n观众看到的是：일이삼的本质其实就是一段文本\n\n你说这东西能出大流量么？他看不懂呀\n\n能在短视频里面提到 Skill 的几种情况：\n\n1、你是 AI 博主（且不是傻白甜那种），你的受众本来就知道这个词是啥意思\n\n2、我就是面对少量受众做所谓的高转化内容。这个内容我本身就放弃流量了\n\n3、我截图这种，20w 播放、1w 点赞，我也提到 Skill 了，但是在提到这个词之前，我讲的是「赚钱方法」\n\n你和观众说：일이삼 可以赚钱\n\n观众是不反感的，他们会主动去搜 일이삼 这个词什么意思\n\n这就是让观众接受韩语/日语/鸟语的一套方法",
+      "author": "dontbesilent",
+      "media_posters": [
+        "https://pbs.twimg.com/media/HP0imqlaoAE2pt1.jpg"
+      ],
+      "has_media": true,
+      "url": "https://x.com/dontbesilent/status/2088865226158682141",
+      "score": 66.216,
+      "likes": 60,
+      "created_at": "2026-08-16T05:47:33Z",
+      "retweets": 3,
+      "replies": 13,
+      "card": null,
+      "id": "2088865226158682141",
+      "views": 6822,
+      "quoted_tweet": null,
+      "title": "观众听不懂 Skill，你开口就讲术语，流量先死一半",
+      "summary": "陈洋说 99% 观众不知道 Skill 是什么，直接讲术语等于讲韩语。能提这个词的三种情况：受众本来就懂、你主动放弃大流量做高转化、或者先讲「赚钱方法」再引出术语，让人自己去搜。",
+      "recommend_reason": "把「为什么 Agent/Skill 视频没流量」从内容策略讲清楚了，不是再骂一嘴平台。",
+      "tags": [
+        "Agent",
+        "写作",
+        "认知"
+      ],
+      "rank": 13
+    },
+    {
+      "bio": "AI 独立开发者｜专注 AI Agent 实操｜BUILD IN PUBLIC ｜写给想入门、想做得更好的人 ｜ 先完成再完美",
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2088861599209795584/vid/avc1/444x270/UBgnVbxiWoQzEQA2.mp4?tag=29"
+      ],
+      "text": "卧槽，Agent 可以直接操作你的安卓手机！📱\n\n介绍一下：android-remote-control-mcp\n\n像人一样操作任何安卓 App手机自己跑 MCP server → 不用 root，不用数据线，不用电脑跑 ADB 中转装一次，人在外面也能遥控家里那台手机读屏、点按钮、划屏幕、打字、开 App、拍照、读通知，57 个工具全给你。\n\n立即开搞👇\nhttps://t.co/sAtV91ZmQW\n\n我在模拟器上从零跑了一遍，读一整屏的 UI 树只有 4000 字符出头，一千个 token 左右，比那些 dump XML 的方案省太多。\n\n下面是完整安装步骤，手机和模拟器两条路都写了。如果嫌麻烦其实可以用 Airtap 的云手机，直接发送短信，免安装，开箱即用。\n\n我录了一段 Agent 实际操作 Android 手机的过程，一句话丢给 Agent，它自己在模拟器里读屏、找按钮、点下去。\n\n一、手机直接装（最简单）\n\n手机浏览器打开项目的 Releases 页，下载最新的 APK（当前 v1.11.1，包 169 MB）\n\nAPK 有两个版本，按手机选：GMS 版给正常带 Google 服务的手机，不确定就选它；FOSS 版给去谷歌化的 ROM，不依赖 Google 服务。\n\n点开下载好的 APK 安装，中途会问你要不要允许「未知来源」，允许\n\n打开 App，Server 页顶部会有一条权限提示，进去把无障碍服务打开。这一项是必须的，读屏和点击全靠它，不开的话所有工具都会报错\n\nAndroid 13 以上，用 APK 侧载安装的应用，无障碍开关是灰的，点不动。去「设置 → 应用 → Android Remote Control MCP」，右上角三个点，选「允许受限设置」，验证一下指纹或密码，再回来开就正常了。\n\n相机、麦克风、定位、通知这几个是可选的，对应的工具用不上就不用给\n\n回到 Server 页点 Start。页面上会显示 IP、端口和一串 token，这三个待会儿要给 Agent\n\n二、模拟器装（没有安卓手机，或者不想拿自己手机试）\n\n先在电脑上装一台安卓模拟器。装 Android Studio 是最省事的路，它自带模拟器和 adb，建一台 Pixel 7、Android 15 的机器就行。\n\n模拟器起来之后，剩下的步骤和真机完全一样：把 APK 拖进模拟器窗口装上，打开 App 开无障碍，回 Server 页点 Start。\n\n模拟器不用管「允许受限设置」那一步，无障碍开关直接就能点。\n\n三、接进 Agent\n\n这一步别自己查文档了，把仓库链接丢给 agent，让它自己配：\n\nhttps://t.co/eHKjS7PHSR\n读一下这个仓库的 README，把它的 MCP server 配到我的 Agent 里，配完验证能连上。\n\n它会自己去看 README、写配置、跑一遍连通性检查。你只要把 App 里 Server 页显示的那串 token 和地址给它。\n\n地址给哪个，取决于你怎么连：手机和电脑在同一个 WiFi 下，就在 App 里把绑定地址改成 0.0.0.0，用它显示的局域网 IP；用模拟器就是本机地址；人不在家，在 App 里开 Remote Access 隧道，用它给的那个公网地址。\n\n仓库里还自带一个 Claude Code 插件，作用是反过来的——把手机上的通知、WiFi、地理围栏这些事件推进你的 Agent 会话里。这个也一样，让 agent 顺手一起装了。",
+      "author": "LawrenceW_Zen",
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2088861599209795584/img/WqY2kPBPEmVFkCmt.jpg"
+      ],
+      "has_media": true,
+      "url": "https://x.com/LawrenceW_Zen/status/2088861693292249570",
+      "score": 64.659,
+      "likes": 125,
+      "created_at": "2026-08-16T05:33:31Z",
+      "retweets": 22,
+      "replies": 11,
+      "card": null,
+      "id": "2088861693292249570",
+      "views": 16910,
+      "quoted_tweet": {
+        "id": "2088162882341233078",
+        "author": "LawrenceW_Zen",
+        "name": "劳伦斯",
+        "text": "Phone Harness 最近挺火，它让我第一次很直观地看到，Claude Code 和 Codex 这种 Agent，已经可以通过 iPhone Mirroring 去操作真实 iPhone 里的 App。\n但真放到自己的工作流里，我反而更喜欢 Airtap 这种思路。\n\n不是把自己正在用的手机交给 Agent，而是直接发条 iMessage，让另一台云手机替我把活干了。比如做内容时经常会碰到一个很碎的小问题。文章已经写完了，临发布突然发现还缺一张配图。以前我得自己打开 Canva，找版式，改尺寸，换标题，调整字体和布局，最后再导出。每一步都不难，但就是需要人工来做耗时间。这次临发布缺图，我索性把设计要求直接发到了 @airtap_ai 的iMessage号码 +1 (650) 444-9517，让它去 Canva 里把图做出来。\n\n我跟 AI 说的要求也很具体：\n\n打开 Canva，帮我做一张横版配图，主题是 Claude Code vs Cursor vs Windsurf。做成简洁科技风，三栏布局，每个产品放 3 个特点，标题突出，文字不要太多。\n\n接下来它自己在远程手机里打开 Canva，把版式、文字和布局一步步做出来。我觉得这里真正有意思的不是 AI 又会画图了。\n\n而是原来只能停在建议层面的东西，现在可以继续往设计 App 里走。我只需要把主题、内容结构和想要的视觉方向说清楚，剩下那些选版式、排文字、调布局的机械操作，可以直接交给 Airtap。\n\n以后做 AI 产品对比图、模型更新速览、工具推荐卡片、教程封面，其实都是类似的逻辑。内容每次都不一样，但没必要每次都从打开 Canva 开始重新点一遍。而且第一次做完不满意，也不用自己进去改。继续在 iMessage 里告诉它哪里要调整，它就回到 Canva 里接着改。\n\nPhone Harness 更像是让 Agent 获得操作你 iPhone 的能力。\n\nAirtap 对我更实用的一点是：我只负责把设计需求说清楚，真正进 Canva 执行的部分交给另一台云手机。",
+        "created_at": "Fri Aug 14 07:16:41 +0000 2026",
+        "url": "https://x.com/LawrenceW_Zen/status/2088162882341233078",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2088162610755878913/vid/avc1/548x270/gWcwIAuH12Gb1RsB.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2088162610755878913/img/u1Fodfg3tpNWd2L-.jpg"
+        ]
+      },
+      "title": "手机自己跑 MCP，不用 root 也不用电脑中转，Agent 就能点你的安卓",
+      "summary": "android-remote-control-mcp 让手机开无障碍后当 MCP server，读屏、点击、打字、开 App、读通知共 57 个工具。作者在模拟器上测过，一整屏 UI 树大约 4000 字符、一千 token。文里写了真机 APK（含 Android 13「允许受限设置」）和模拟器两条安装路径，以及把仓库丢给 Agent 自配、按局域网 / 本机 / 远程隧道选地址的接法。",
+      "recommend_reason": "不是概念帖，把无障碍灰开关、token 和三种连法都写到能照做。",
+      "tags": [
+        "Agent",
+        "开源",
+        "工程",
+        "技巧"
+      ],
+      "rank": 14
+    },
+    {
+      "bio": "AI Engineer, dedicated to learning and disseminating knowledge about AI, software engineering, and engineering management.",
+      "media_urls": [
+        "https://pbs.twimg.com/media/HPz_kpNWAAAPYTf.jpg",
+        "https://pbs.twimg.com/media/HP0FG1OXsAAyFZP.jpg",
+        "https://pbs.twimg.com/media/HP0H39uWEAANQlA.jpg",
+        "https://pbs.twimg.com/media/HP0JeR8XYAAcNdW.jpg"
+      ],
+      "text": "我最近就发现，即使聪明如 Fable 5，如果你只是给它一个目标让它优化，它可能也就是在既定的框架下想办法帮你优化到极致，但是它很难跳出既定框架，发现一条完全不同的路线。\n\n比如说最近有用户反映使用 BaoCut 转录速度慢，我就反复的用 Codex 去转录视频，然后让 Codex 或者 Fable 去分析瓶颈在哪里，该怎么优化，然后每次它们都能给我一堆理由和看起来靠谱的优化方案。\n\n比如它会建议多开启 workers（subagent），对 workers 预热之类。让它按照方案优化后，似乎有效果但是又不明显。\n\n最后还是自己去分析数据包，发现耗时长还是输出的 JSON 格式太长了，导致生成、校验时间较长。\n\n如果不用 JSON 格式，比如纯文本，或者简单的 html 格式，会更节约 token，只不过这样程序解析会很复杂，比如对字幕润色分段，输出是纯文本的话，就要做 diff 比较润色后更改的内容，还要把变更后的部分，重新对应到原始字幕的单词上。\n\n简单来说，就是以前为了让程序简单就让模型输出复杂更费 token；如果要节约 token，就可以让模型的输出简单，但是程序解析会很复杂。\n\n按照这个思路改进后，效果很明显（对比图2图3），调用次数从 33 次降低到 12 次；时间从 31 分钟降低到 18 分钟。测试张小珺那期将近 7 小时的访谈，完整润色也只需要 42 分钟。\n\n如果不走 Agent 走 Cloud 模型的话，一个小时的视频，完整的翻译校对成双语字幕，用 DeepSeek v4 Flash，成本大于是 ¥0.4元。\n\n有兴趣可以试试看效果，Mac 有专门的 App，Windows 支持 cli 或者 skill。 \nBaoCut ：https://t.co/89Wi1b3hZT",
+      "author": "dotey",
+      "media_posters": [
+        "https://pbs.twimg.com/media/HPz_kpNWAAAPYTf.jpg",
+        "https://pbs.twimg.com/media/HP0FG1OXsAAyFZP.jpg",
+        "https://pbs.twimg.com/media/HP0H39uWEAANQlA.jpg",
+        "https://pbs.twimg.com/media/HP0JeR8XYAAcNdW.jpg"
+      ],
+      "has_media": true,
+      "url": "https://x.com/dotey/status/2088838461511839844",
+      "score": 68.01,
+      "likes": 280,
+      "created_at": "2026-08-16T04:01:12Z",
+      "retweets": 30,
+      "replies": 41,
+      "card": null,
+      "id": "2088838461511839844",
+      "views": 63379,
+      "quoted_tweet": {
+        "id": "2085908601638445177",
+        "author": "dotey",
+        "name": "宝玉",
+        "text": "很多人不知道该怎么用好 Agent 的 /goal 功能，也就是说给 Agent 一个目标，让它长时间运行，直到目标完成为止。\n\n其实没你想的那么复杂，注意几个点：\n1. 你的目标是什么\n2. 如何验证结果\n3. 停止条件\n\n比如说我这两天做的一个性能优化的任务，Fable 5 帮我把视频转录性能优化了2倍多（图2），提示词很简单（图1）：\n> /goal 帮我优化当前 cli 的转录大视频的性能，在遇到像这样大体积的视频时，需要优化转录性能，请以 Moss 模型测试这个视频（英文为主，多语言）转录，建立基准，然后分析性能瓶颈，尝试优化，直到你觉得已经没有优化空间了。注意你的主要任务是分析、编排和验证，具体任务尽可能交给 subagent（Opus5）去执行\n\n首先用 /goal 表示这是一个需要长时间执行的任务，需要反复执行，不能运行一会就结束了。\n\n然后给它一个视频让它先自己跑一遍转录，记录一下关键数据，建立基准。\n\n基于转录时收集的数据，Agent 自己可以去分析原因，去自己优化，优化完成后再去跑一遍，记录数据，对照前面的基准看是更好了还是更坏了。\n\n结束条件是它自己觉得已经没有优化空间了就结束。之所以我没给它一个具体指标，是因为我也不知道能优化多少，如果指标太容易达到，它一轮可能就结束了；如果指标太难超出物理极限也没意义，反而可能会出现为了优化去做一些极端的事情。\n\n最后一句让它开subagent执行子任务是因为 Fable 5 太贵，全程 Fable 5 用不了多久就要额度不够了，加了这句就耐用多了，而且质量也挺好。\n\n---\n\n还有些时候，想到一个新的技术方案，但并不知道这方案是不是有效，那也可以让它开个worktree，去验证一下是不是靠谱，看数据是更好还是更坏，如果没提升就没必要做了。（参考图3）",
+        "created_at": "Sat Aug 08 01:58:59 +0000 2026",
+        "url": "https://x.com/dotey/status/2085908601638445177",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HPKijECXoAAZhMA.jpg",
+          "https://pbs.twimg.com/media/HPKiklDWAAALuYb.jpg",
+          "https://pbs.twimg.com/media/HPKimNQXoAAy2v0.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HPKijECXoAAZhMA.jpg",
+          "https://pbs.twimg.com/media/HPKiklDWAAALuYb.jpg",
+          "https://pbs.twimg.com/media/HPKimNQXoAAy2v0.jpg"
+        ]
+      },
+      "title": "只给 Agent 一个优化目标，它会把旧框架打磨到极致，却很难自己换一条路",
+      "summary": "宝玉用 Fable 5 / Codex 优化 BaoCut 转录，模型只会建议加 worker、预热，效果不明显。他自己查数据包后发现瓶颈是输出 JSON 太长。改成更短输出、把解析复杂度交给程序后，调用从 33 次降到 12 次，时间从 31 分钟降到 18 分钟；近 7 小时访谈完整润色约 42 分钟。结论：以前为了程序简单让模型输出复杂，现在反过来更省。",
+      "recommend_reason": "少见地带数字的 Agent 优化复盘：模型不会自己跳出「输出格式」这个框架。",
+      "tags": [
+        "Agent",
+        "Codex",
+        "Claude",
+        "工程",
+        "产品"
+      ],
+      "rank": 15
+    }
+  ],
+  "generated_at": "2026-08-16T16:06:06Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "midnight",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 15,
+    "last_batch_added": 15,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
