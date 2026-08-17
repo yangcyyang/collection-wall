@@ -1,0 +1,543 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-17",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2089194292090917355",
+      "author": "bindureddy",
+      "bio": "",
+      "text": "Open source AI will do better if it’s less hyped \n\n- GLM and DeepSeek need vision capabilities \n\n- most of them spin a lot and take forever \n\n- they are often more expensive than frontier models for moderately complex tasks\n\nThe community should stop claiming they are Fable class and instead work to improve them",
+      "likes": 37,
+      "views": "2107",
+      "created_at": "2026-08-17T03:35:09Z",
+      "url": "https://x.com/i/status/2089194292090917355",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 63.267,
+      "char_len_check": 313,
+      "title": "开源模型少吹一点：缺视觉、爱空转，复杂任务还更贵",
+      "summary": "Bindu Reddy 认为开源要少炒作：GLM 和 DeepSeek 还缺视觉能力，很多模型爱空转、跑得慢，中等复杂任务往往比前沿模型更贵。社区别再声称它们是 Fable 级，先把能力补上。",
+      "recommend_reason": "点名具体短板，不是空泛的开源立场站队。",
+      "tags": [
+        "开源",
+        "DeepSeek",
+        "GLM"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2089186557458862521",
+      "author": "lixinbao_X",
+      "bio": "",
+      "text": "微信终于开始把 AI 往最核心的地方塞了。\n\n这次灰度测试，直接碰了两个“国民级场景”：\n\n公众号 + 朋友圈。\n\n新增 3 个功能：\n\n1. 公众号 AI 总结\n    不用点文章，小微直接把你常看的公众号最近更新浓缩成几十个字。\n2. 朋友圈 AI 点评\n    长按朋友动态，AI 先替你点评，还能顺手帮你生成评论。\n3. 朋友圈 AI 帮写\n    发朋友圈不知道写啥？直接让 AI 代笔。\n\n前两个还能理解，第三个就有点魔幻了。\n\n以前朋友圈最值钱的东西，就是“这句话真是你说的”。\n\n以后可能变成：\n\n你发的朋友圈是 AI 写的，\n朋友的评论也是 AI 写的，\n你再让 AI 帮你回复。\n\n两个人社交，四个模型在上班。\n\n公众号作者可能更难受。\n\n过去怕标题不够吸引人，读者不点进去；\n以后标题写得再好，读者可能直接看完 AI 摘要就走了。\n\nAI 真正可怕的地方，不一定是替代某个 App。\n\n而是慢慢钻进 App 的每一个入口，最后把人的表达、阅读、评论，全包了。\n\n到那时候，朋友圈还叫“朋友圈”吗？\n\n可能更像——\n\nAI 代运营的人类关系网。",
+      "likes": 2,
+      "views": "192",
+      "created_at": "2026-08-17T03:04:25Z",
+      "url": "https://x.com/i/status/2089186557458862521",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/tweet_video/HP5IFJTbwAAB3Iv.mp4",
+        "https://pbs.twimg.com/media/HP5IFJVbEAEkJix.jpg",
+        "https://pbs.twimg.com/media/HP5IFJXbgAAw9hE.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/tweet_video_thumb/HP5IFJTbwAAB3Iv.jpg",
+        "https://pbs.twimg.com/media/HP5IFJVbEAEkJix.jpg",
+        "https://pbs.twimg.com/media/HP5IFJXbgAAw9hE.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 43.371,
+      "char_len_check": 482,
+      "title": "微信灰度把 AI 塞进公众号摘要和朋友圈点评、帮写",
+      "summary": "灰度三项：公众号 AI 总结、朋友圈 AI 点评、朋友圈 AI 帮写。作者担心表达和评论都被模型代劳，公众号读者看完摘要就不点进去，朋友圈变成「四个模型在上班」。",
+      "recommend_reason": "微信碰国民场景比又一个独立 App 更值得记一笔。",
+      "tags": [
+        "微信",
+        "产品",
+        "中国"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2089179586911482146",
+      "author": "DilumSanjaya",
+      "bio": "Software Engineer | Showcasing unique AI applications for Science & Engineering\n\n💡Open Source \nhttps://t.co/02nVJK3OQK\nhttps://t.co/fzTHdVmiYr\n\n🎬\nhttps://t.co/cOGQInDnYV",
+      "text": "Since a lot of you are asking about the aesthetics and how I managed to do this without any external assets, here are some tips and tricks I’ve picked up for making cozy games.\n\nI’ll also share more demos showing how these ideas can be used across different types of games.\n\n1. Cozy games are all about the overall feel, not how good each individual asset looks.\n\nIf you look closely, most of the assets here are made from primitive shapes. Focus more on how everything looks and feels together rather than making every asset detailed.\n\n2. Another trick used to hide the primitive look was adding hats to the villagers.\n\nMost of you probably thought there was a well-detailed villager model under those hats, didn’t you? 😉\n\nThis wasn’t something I came up with in the first result. It came from a later iteration where I was trying to improve the overall look.\n\n3. Add small animations like animals moving around, birds flying, or a gentle breeze. They add a lot to the cozy feeling, but don’t overdo them.\n\nThe animations should generally be slow and trigger randomly rather than constantly running on a loop.\n\n4. Use Three.js instanced meshes to make the world feel much bigger without making it too expensive to render.\n\nThe downside is that this limits interactivity, so I use a combination. Most of the trees here are instanced, except for the ones near villages that villagers are actually allowed to cut down.\n\n5. Notice how this game and the Wild West one I made feel completely different.\n\nThe colors you choose, especially for the background, trees, buildings, and environment, play a huge role in establishing that feeling.\n\nIn my experience, if the first result doesn’t get reasonably close to the aesthetic you want, it’s often better to start over with a new prompt rather than keep trying to fix it.\n\nEven if you fix individual issues, the model tends to keep generating things based on the aesthetic direction it established at the beginning.\n\n6. One limitation I’ve noticed is audio.\n\nYou can generate the entire 3D scene and UI without external assets, and LLMs can even generate audio using code. But for games like this, the generated audio usually doesn’t feel that great. I’ve tried it with both Opus and Codex.\n\nFor simpler sounds like gunshots, though, it can work surprisingly well.\n\n7. Make sure you ask the model to add the UI in the very first prompt. Then, as you iterate, make sure the UI doesn’t get bloated with too many options.\n\nFor this game, I had to spend a couple of prompts cleaning up details Opus added that weren’t actually useful in those specific moments.\n\nI’m not a game developer, so these are just things I’ve learned from doing a bunch of experiments.\n\nAs I play around with more ideas and learn new things, I’ll keep extending this list.",
+      "likes": 2,
+      "retweets": 1,
+      "replies": 0,
+      "views": 485,
+      "created_at": "2026-08-17T02:36:43Z",
+      "url": "https://x.com/DilumSanjaya/status/2089179586911482146",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 47.533,
+      "char_len_check": 2786,
+      "title": "用 Opus 做治愈向游戏：从帽子到实例化网格的七条实操",
+      "summary": "作者补充审美与工程：资产用简单几何、给村民加帽子藏细节、慢而随机的小动画、Three.js 实例化网格撑大世界、第一版审美不对就重开提示词、音频仍是短板、UI 必须写进第一条提示词。他强调自己不是游戏开发者，这些都是反复试出来的。",
+      "recommend_reason": "不只晒成品，把「为什么看起来不廉价」拆成可复用的约束。",
+      "tags": [
+        "Opus",
+        "游戏",
+        "AI Coding"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2089177118781612133",
+      "author": "gabriel1",
+      "bio": "",
+      "text": "so much easier to keep track of my life with agents\n\ni told my agent to \"make a dashboard for team visa applications, start with if im blocking or not, and update daily from email threads and the visa process website\" https://t.co/5OtAKauXt7",
+      "likes": 40,
+      "views": "4446",
+      "created_at": "2026-08-17T02:26:54Z",
+      "url": "https://x.com/i/status/2089177118781612133",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HP4-cmaagAAlGo_.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HP4-cmaagAAlGo_.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 64.592,
+      "char_len_check": 241,
+      "title": "用一句话让 Agent 从邮件和官网每日更新签证看板",
+      "summary": "Gabriel 让 Agent「做团队签证申请看板，先标出我有没有卡住别人，再每天从邮件线程和签证流程网站更新」。他说用 Agent 盯生活流程比以前轻松得多。",
+      "recommend_reason": "不是又一个写代码 demo，是把 Agent 接到签证这种又烦又真实的流程。",
+      "tags": [
+        "Agent",
+        "产品",
+        "工作流"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2089173505799774276",
+      "author": "lxfater",
+      "bio": "",
+      "text": "Deepseek已经涨价了，性价比低于gpt-5.6 -luna\n\n海外老哥8月6日说过，即使deepseek涨价，他们也能自己部署做到他们的价格。\n\n今天开始认怂了，还在尝试几种配置，希望能成功。\n\n看来DeepSeek的缓存技术可以呀！！",
+      "likes": 12,
+      "views": "4433",
+      "created_at": "2026-08-17T02:12:33Z",
+      "url": "https://x.com/i/status/2089173505799774276",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HP47it5bMAA06C6.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HP47it5bMAA06C6.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2085377844515922210",
+        "author": "thdxr",
+        "name": "dax",
+        "text": "on the upcoming deepseek price increase\n\nwe've been able to reproduce their current prices even on rented GPUs\n\nso this likely isn't because they're \"losing money\" it's traffic shaping because they are overloaded",
+        "created_at": "Thu Aug 06 14:49:57 +0000 2026",
+        "url": "https://x.com/thdxr/status/2085377844515922210",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 58.889,
+      "char_len_check": 121,
+      "summary": "Deepseek已经涨价了，性价比低于gpt-5.6 -luna\n\n海外老哥8月6日说过，即使deepseek涨价，他们也能自己部署做到他们的价格。\n\n今天开始认怂了，还在尝试几种配置，希望能成功。\n\n看来DeepSeek的缓存技术可以呀！！",
+      "recommend_reason": "涨价落地后，复现方开始认怂，侧面说明 DeepSeek 的缓存成本优势不好抄。",
+      "tags": [
+        "DeepSeek",
+        "产业",
+        "价格"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2089156376388055059",
+      "author": "GoSailGlobal",
+      "bio": "",
+      "text": "Stripe 花 $70 亿买了 OpenRouter，82 天前 OpenRouter 刚融了 $13 亿，等于翻了 5 倍\n\nOpenRouter 是 400 多个 AI 模型的统一 API 路由层，800 万开发者通过它调用不同模型\n\nStripe 买的不是一个 AI 公司，是 AI 时代的收银台：开发者已经在用 OpenRouter 选模型，现在 Stripe 直接把支付接进去，从选模型到付费一步完成\n\n当 AI Agent 开始替用户消费的时候，控制模型调用入口就是控制交易入口\n\n支付公司收购模型路由，你觉得这是 AI 时代最聪明的并购吗？\n\nhttps://t.co/ZltnNLuvM0",
+      "likes": 0,
+      "views": "574",
+      "created_at": "2026-08-17T01:04:29Z",
+      "url": "https://x.com/i/status/2089156376388055059",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HP4spw_aAAAgsYQ.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HP4spw_aAAAgsYQ.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2089088356676440483",
+        "author": "AndrewCurran_",
+        "name": "Andrew Curran",
+        "text": "Stripe has finalized an agreement to acquire OpenRouter for more than $7 billion, according to a report from Bloomberg. This is more than five times the $1.3 billion valuation from OpenRouter's funding round just 82 days ago. https://t.co/sju16xjSyB",
+        "created_at": "Sun Aug 16 20:34:12 +0000 2026",
+        "url": "https://x.com/AndrewCurran_/status/2089088356676440483",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HP3uyeYbMAAH1yG.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HP3uyeYbMAAH1yG.jpg"
+        ]
+      },
+      "score": 53.287,
+      "char_len_check": 303,
+      "title": "Bloomberg：Stripe 以超过 70 亿美元收购 OpenRouter",
+      "summary": "转述 Bloomberg 报道：Stripe 已敲定收购 OpenRouter，对价超 70 亿美元，较 82 天前 13 亿美元估值翻了五倍。OpenRouter 是 400 多个模型的统一 API 路由，作者把它理解成 Stripe 在买 AI 时代的收银台——控制模型调用入口就是控制交易入口。",
+      "recommend_reason": "若属实，这是今早最大的基础设施并购，把支付和模型路由焊在一起。",
+      "tags": [
+        "OpenRouter",
+        "Stripe",
+        "产业"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2089154560229351832",
+      "author": "GoSailGlobal",
+      "bio": "",
+      "text": "投资人 Gavin Baker 在 All-In 播客上公开喊话 Dario Amodei：\n你天天讲 AI 风险，把整个行业的舆论搞坏了\n数据中心被抗议、水印被退订、监管越来越紧\n你马上要当全球最重要公司之一的 CEO 了，能不能正面点\n\nDario 的回应有三层：\n\n第一层，不认：\n我写过 Machines of Loving Grace 就是因为觉得行业画的愿景不够鼓舞人心\n风险和好处我讲得一样多\n\n第二层，重新定义问题：\n「这本质上是一场信任危机\n普通人不信公司、不信政府、不信科技行业\n总觉得我们在想新办法坑他们」\n\n第三层，自刀：\n「对 AI 公司最准确的批评是：我们还没兑现那些改变世界的大承诺\n这完全是我们自己的问题\n你该批评的是这个，而不是什么营销话术」\n\n这段回应比他写过的任何长文都诚实\n\n原文链接：https://t.co/qJ9FXjdJat",
+      "likes": 2,
+      "views": "722",
+      "created_at": "2026-08-17T00:57:16Z",
+      "url": "https://x.com/i/status/2089154560229351832",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HP4q9IBbEAA1nSQ.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HP4q9IBbEAA1nSQ.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2088791813662638112",
+        "author": "GoSailGlobal",
+        "name": "Jason Zhu",
+        "text": "Wired 长文：AI Slop 反噬终于见效了\n\nLinkedIn 加了「疑似 AI 水文」举报按钮\nSnapchat 把纯 AI 视频踢出推荐流\nSubstack 上了 AI 检测工具查代笔\nGoogle Earth AI 修图上线即下架\nMeta Instagram 换脸功能撑了三天就关了\n\nGallup 最新数据：18-29 岁美国年轻人近半认为生成式 AI 弊大于利\n\nNYU 教授原话：「AI 革命已经发生了，所有人都讨厌它」\n\nBlock 裁员时员工说得更直接：\n「如果这工具真好用，不用逼我们也会用」\n\n消费者从来没同意过这一切\n\n当数据被拿去训练、搜索被 AI 霸占、每个软件硬塞 AI 功能，反弹才是正常反应\n\n原文链接：https://t.co/8l9gTgrWBV",
+        "created_at": "Sun Aug 16 00:55:50 +0000 2026",
+        "url": "https://x.com/GoSailGlobal/status/2088791813662638112",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HPzffVwaoAAL3ce.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HPzffVwaoAAL3ce.jpg"
+        ]
+      },
+      "score": 39.759,
+      "char_len_check": 386,
+      "title": "Gavin Baker 喊 Dario 少讲风险，Dario 把问题收成信任危机",
+      "summary": "All-In 上 Gavin Baker 指责 Dario 天天讲风险、带坏舆论。Dario 三层回应：不认自己只讲阴暗面；把反弹定义成对科技公司的信任危机；承认 AI 公司最大的批评是还没兑现改变世界的承诺。",
+      "recommend_reason": "比长文更短、也更硬的一次公开对质，适合当行业情绪切片。",
+      "tags": [
+        "Anthropic",
+        "产业",
+        "安全"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2089143488696705077",
+      "author": "thsottiaux",
+      "bio": "",
+      "text": "GPT-5.6 Sol 1M in Codex. This used to only work for API keys, but we just flipped the switch and works for usage through ChatGPT accounts now too. \n\nThe same warning applies, there is a reason the current context length is the default, we have tuned it to ~perfection. But you do you!",
+      "likes": 2965,
+      "views": "462185",
+      "created_at": "2026-08-17T00:13:16Z",
+      "url": "https://x.com/i/status/2089143488696705077",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2089082893804896524",
+        "author": "thsottiaux",
+        "name": "Tibo",
+        "text": "Here is how to enable a 1M-token context window in Codex for GPT-5.6 Sol. \n\nEven though we have tuned the context limit in Codex to be set optimally when it comes to performance and cost, this is a common ask, so here it is documented.\n\nA larger context window lets Codex retain more code, tool output, and conversation history before summarizing older material. You need a model that supports it. And GPT-5.6 Sol, for example, has a documented 1,050,000-token window. \n\nOpen ~/.codex/config.toml and add or update these settings at the top level, before any [section] headers:\n\n```\nmodel = \"gpt-5.6-sol\"\nmodel_context_window = 1000000\nmodel_auto_compact_token_limit = 900000\n```\n\nThe first setting selects the model. The second tells Codex to use a one-million-token context budget. The third starts automatic history compaction around 900,000 tokens, leaving some headroom. Restart Codex client and start a new session after saving. \n\nTo try the configuration for a single CLI session without changing your defaults:\n\n```\ncodex -m gpt-5.6-sol \\\n  -c model_context_window=1000000 \\\n  -c model_auto_compact_token_limit=900000\n```\n\nHave fun, but also know that we tuned the default carefully!",
+        "created_at": "Sun Aug 16 20:12:29 +0000 2026",
+        "url": "https://x.com/thsottiaux/status/2089082893804896524",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 68.104,
+      "char_len_check": 284,
+      "title": "Codex 的 100 万上下文现在也支持 ChatGPT 订阅账号",
+      "summary": "Tibo 说 GPT-5.6 Sol 的 1M 上下文以前只对 API key 生效，现已对 ChatGPT 账号开通。同时再警告：当前默认长度是调过的，别为开大而开大。",
+      "recommend_reason": "这是今早真正的增量——开关从 API 扩到 ChatGPT 订阅。",
+      "tags": [
+        "Codex",
+        "GPT-5.6 Sol",
+        "产品"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2089127369596383363",
+      "author": "dotey",
+      "bio": "",
+      "text": "Pi 两位作者的见解：\n\n1. 代码即真相，代码不需要记忆系统，不需要 RAG，模型很擅长理解代码结构\n\n2. Bash 工具足够用，Bash 类似于编程语言，可以任意组合；大部分时候没必要 MCP，skill + 脚本足够。 https://t.co/QGCxp2zhWb",
+      "likes": 468,
+      "views": "74356",
+      "created_at": "2026-08-16T23:09:13Z",
+      "url": "https://x.com/i/status/2089127369596383363",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2089125823294881792/vid/avc1/480x270/MHOu4Bt_XfeeN0nl.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2089125823294881792/img/Hz4iENOwiw7ZNRXc.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2088951405155426757",
+        "author": "pidotdev",
+        "name": "Pi",
+        "text": "Good morning from Vienna People of Pi 🌞\n\nSunday meditations from @badlogicgames and @mitsuhiko\n\n- On memory: code is the truth \n- Bash is all you need \n- Build context efficient tools https://t.co/yZQe6KtWgh",
+        "created_at": "Sun Aug 16 11:30:00 +0000 2026",
+        "url": "https://x.com/pidotdev/status/2088951405155426757",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2088902489793826816/vid/avc1/480x270/9ZLlRfuYEr72lkEA.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2088902489793826816/img/2p1PGDDGxJLRmUh9.jpg"
+        ]
+      },
+      "score": 68.202,
+      "char_len_check": 137,
+      "summary": "Pi 两位作者的见解：\n\n1. 代码即真相，代码不需要记忆系统，不需要 RAG，模型很擅长理解代码结构\n\n2. Bash 工具足够用，Bash 类似于编程语言，可以任意组合；大部分时候没必要 MCP，skill + 脚本足够。",
+      "recommend_reason": "把 Pi 作者的两句方法论压成可执行原则：代码即真相，Bash 比乱接 MCP 更稳。",
+      "tags": [
+        "Pi",
+        "Harness",
+        "Agent"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2089085004966207679",
+      "author": "trq212",
+      "bio": "Claude Code @anthropicai.   prev YC W20, @spc, @medialab",
+      "text": "it says a lot that the creators of three of the most iconic web frameworks: django (@simonw), flask (@mitsuhiko) and rails (@dhh) were so AI pilled so early",
+      "likes": 1389,
+      "retweets": 45,
+      "replies": 46,
+      "views": 110821,
+      "created_at": "2026-08-16T20:20:53Z",
+      "url": "https://x.com/trq212/status/2089085004966207679",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 50.667,
+      "char_len_check": 156,
+      "summary": "三套最有代表性的 Web 框架作者——Django 的 Simon Willison、Flask 的 Armin Ronacher、Rails 的 DHH——这么早就站到 AI 这边，这件事本身就很说明问题。",
+      "recommend_reason": "一条观察把三家框架作者的站队收在一起，比再列一个模型榜更有记忆点。",
+      "tags": [
+        "产业",
+        "开源",
+        "认知"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2089082893804896524",
+      "author": "thsottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "text": "Here is how to enable a 1M-token context window in Codex for GPT-5.6 Sol. \n\nEven though we have tuned the context limit in Codex to be set optimally when it comes to performance and cost, this is a common ask, so here it is documented.\n\nA larger context window lets Codex retain more code, tool output, and conversation history before summarizing older material. You need a model that supports it. And GPT-5.6 Sol, for example, has a documented 1,050,000-token window. \n\nOpen ~/.codex/config.toml and add or update these settings at the top level, before any [section] headers:\n\n```\nmodel = \"gpt-5.6-sol\"\nmodel_context_window = 1000000\nmodel_auto_compact_token_limit = 900000\n```\n\nThe first setting selects the model. The second tells Codex to use a one-million-token context budget. The third starts automatic history compaction around 900,000 tokens, leaving some headroom. Restart Codex client and start a new session after saving. \n\nTo try the configuration for a single CLI session without changing your defaults:\n\n```\ncodex -m gpt-5.6-sol \\\n  -c model_context_window=1000000 \\\n  -c model_auto_compact_token_limit=900000\n```\n\nHave fun, but also know that we tuned the default carefully!",
+      "likes": 10677,
+      "retweets": 836,
+      "replies": 781,
+      "views": 1420981,
+      "created_at": "2026-08-16T20:12:29Z",
+      "url": "https://x.com/thsottiaux/status/2089082893804896524",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 70.245,
+      "char_len_check": 1191,
+      "title": "在 Codex 里给 GPT-5.6 Sol 打开 100 万 token 上下文的配置方法",
+      "summary": "Codex 作者 Tibo 写了可复制配置：GPT-5.6 Sol 文档窗口约 105 万 token。在 ~/.codex/config.toml 顶层写 model、model_context_window=1000000、model_auto_compact_token_limit=900000；也可单次 CLI 用 -c 覆盖。他强调默认窗口是按性能和成本调过的，开大只是常见需求。",
+      "recommend_reason": "官方本人给了可复制的配置，不是二手传闻。",
+      "tags": [
+        "Codex",
+        "GPT-5.6 Sol",
+        "教程"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2089082508612673897",
+      "author": "ammaar",
+      "bio": "Lead Product + Design @GoogleAIStudio // Exploring AI and sharing everything I learn // My views • 🇵🇰 🇺🇸",
+      "text": "This took me just 3 prompts with SeedDance 2.5 in @runwayml.\n\nThe leap AI video has made in such a short amount of time is insane! https://t.co/btfH4H4rqn",
+      "likes": 171,
+      "retweets": 5,
+      "replies": 19,
+      "views": 10860,
+      "created_at": "2026-08-16T20:10:57Z",
+      "url": "https://x.com/ammaar/status/2089082508612673897",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2089081262677852160/vid/avc1/480x270/ZM2o9msnmSiYIwES.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2089081262677852160/img/7KLb6d5MKkju9LrU.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 69.903,
+      "char_len_check": 154,
+      "summary": "我在 Runway 里用 SeedDance 2.5，只写了 3 条提示词就做出这段。AI 视频在这么短时间里的进步，真的夸张。",
+      "recommend_reason": "3 条提示词出片，是视频模型这波最直观的体感样本。",
+      "tags": [
+        "AI视频",
+        "Runway",
+        "产品"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2089072890104725788",
+      "author": "dotey",
+      "bio": "AI Engineer, dedicated to learning and disseminating knowledge about AI, software engineering, and engineering management.",
+      "text": "可能是太久没用 ChatGPT 了，才发现从 ChatGPT 就能直接让它修改代码提交 PR。（我是用的 ChatGPT Pro）\n\n起因是我在做一个 Deep Research 调研，完了后就想让它基于我的代码库做一个方案，但是整个代码库都打包上传太麻烦了，我就把 GitHub 地址发给它了，没想到它自己就 clone 到本地开始分析代码了，最后给了一份很详细的结合当前代码库现状的方案。\n\n一看方案写挺好，想着干脆帮我实现吧，让它自己去提交个 PR，结果它真的就基于方案帮我实现并提交 PR 了，中间确认了一次 GitHub 操作权限。\n\n需要先在 ChatGPT 的设置的 Plugins 里面连上 GitHub 才能访问你的 GitHub Repo，以及以你的名义提交 PR。",
+      "likes": 46,
+      "retweets": 5,
+      "replies": 27,
+      "views": 21273,
+      "created_at": "2026-08-16T19:32:44Z",
+      "url": "https://x.com/dotey/status/2089072890104725788",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HP3f0zPXUAA_XM5.jpg",
+        "https://pbs.twimg.com/media/HP3f_SRXYAAAfI9.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HP3f0zPXUAA_XM5.jpg",
+        "https://pbs.twimg.com/media/HP3f_SRXYAAAfI9.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 62.743,
+      "char_len_check": 343,
+      "title": "ChatGPT 接到 GitHub 后，能自己 clone 仓库并提交 PR",
+      "summary": "宝玉用 ChatGPT Pro 做完 Deep Research 后把 GitHub 地址丢给它，模型自己 clone 本地分析并出方案，再被要求实现并提交 PR，中途确认过一次 GitHub 权限。前提是在 ChatGPT 设置的 Plugins 里连上 GitHub。",
+      "recommend_reason": "把「聊天里改代码」落到了 clone、方案、提交 PR 的完整链路。",
+      "tags": [
+        "ChatGPT",
+        "GitHub",
+        "产品"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2089033113460727968",
+      "author": "DilumSanjaya",
+      "bio": "Software Engineer | Showcasing unique AI applications for Science & Engineering\n\n💡Open Source \nhttps://t.co/02nVJK3OQK\nhttps://t.co/fzTHdVmiYr\n\n🎬\nhttps://t.co/cOGQInDnYV",
+      "text": "Tried out another cozy game idea with Opus 5\n\nThis is the result after 5 hours\n\nManaged to get a working economy, assignable tasks for villagers, and plenty of things to build https://t.co/6571rCgi6M",
+      "likes": 1009,
+      "retweets": 40,
+      "replies": 53,
+      "views": 53911,
+      "created_at": "2026-08-16T16:54:41Z",
+      "url": "https://x.com/DilumSanjaya/status/2089033113460727968",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2089030816517255168/vid/avc1/476x270/qyiHoQHdskN2SfTg.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2089030816517255168/img/QHQhyaes5Dll51Pm.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 75.195,
+      "char_len_check": 199,
+      "summary": "又拿 Opus 5 试了一个治愈向游戏点子。做了 5 小时后，已经有能跑的经济系统、可给村民派的任务，以及不少能建造的东西。",
+      "recommend_reason": "5 小时就做出经济加派工的可玩原型，比空喊 vibe coding 有画面。",
+      "tags": [
+        "Opus",
+        "游戏",
+        "AI Coding"
+      ],
+      "rank": 14
+    },
+    {
+      "id": "2089031648314806479",
+      "author": "abskoop",
+      "bio": "🔍 挖掘互联网宝藏工具｜AI 工具 · 开源项目 · 在线工具 · 效率神器\n投稿 欢迎 DM｜备用号 @ahhhhfs\n🔔 TG 频道：https://t.co/OmSvNms9yl",
+      "text": "电脑用了一整天，过几天却想不起当时具体干了什么？\n\nDayflow AI 时间追踪工具会自动记录 Mac 上的屏幕活动，并整理成时间线、Standup 和 Weekly Review。\n\n支持 Ollama / LM Studio 本地模型，也能接 Gemini、ChatGPT、Claude，开源、MIT\n\n👉https://t.co/oRb2kzCrjW https://t.co/DmwSyTli2U",
+      "likes": 28,
+      "retweets": 2,
+      "replies": 12,
+      "views": 16722,
+      "created_at": "2026-08-16T16:48:51Z",
+      "url": "https://x.com/abskoop/status/2089031648314806479",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HP27AvzaMAAiki6.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HP27AvzaMAAiki6.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 60.691,
+      "char_len_check": 203,
+      "title": "Dayflow 把 Mac 屏幕活动收成可搜索时间线，还能接本地模型",
+      "summary": "开源 MIT 的 Dayflow 会自动记录 Mac 屏幕活动，整理成时间线、Standup 和 Weekly Review；支持 Ollama / LM Studio 本地模型，也能接 Gemini、ChatGPT、Claude。",
+      "recommend_reason": "解决「忙了一天却想不起做过什么」的本地时间账本，而且能离线跑。",
+      "tags": [
+        "开源",
+        "产品",
+        "本地模型"
+      ],
+      "rank": 15
+    }
+  ],
+  "generated_at": "2026-08-17T04:08:40Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 15,
+    "last_batch_added": 15,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
