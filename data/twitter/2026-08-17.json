@@ -9,6 +9,414 @@
   },
   "items": [
     {
+      "id": "2089372554163319021",
+      "author": "LufzzLiz",
+      "bio": "",
+      "text": "给大家推荐六个DeepSeek harness 插件，都是我逐个检查并安装体验的，不踩坑\n1️⃣dshmarket 1.11.2 ：直接在 DSH 设置页里搜索、安装、更新、启停和备份插件，是整套插件生态的入口。 \n安装命令：dsh plugin --profile web add dshmarket@1.11.2\n\n2️⃣dsh-vision-router 1.5.1  给纯文本模型补上图片问答、OCR、目标定位、截图和像素分析，还能接本地 Ollama、LM Studio，也支持配置带视觉识别的模型，也支持免费的模型（注意不要发敏感信息的照片）\n安装命令：dsh plugin --profile web add dsh-vision-router@1.5.1\n\n3️⃣ dsh-TUI 0.8.0 提供 Claude Code 风格的终端界面，包含流式思考、工具审批、双栏 Diff、会话恢复和上下文进度。\n安装并启动：npm install -g @deepseek-harness-tui/dsh-tui@0.8.0 && dsh-tui\n\n4️⃣ dsh-context 0.11.2 把上下文组成、Token 趋势、压缩、裁剪和注入事件做成可视面板，特别适合排查长会话。\n安装：dsh plugin --profile web add dsh-context@0.11.2\n\n5️⃣ dsh-chat-import 0.6.0 把 Claude Code、Codex、ChatGPT、Cursor、Qoder 等 15 类历史会话导入 DSH 继续聊，并支持反向导出与备份-- 按需安装\n安装：dsh plugin --profile web add dsh-chat-import@0.6.0\n\n6️⃣ dsh-at-file 在 DSH 输入框中用 @ 搜索并引用当前工作区的文件或目录路径。交互直接、使用频率高\n安装： dsh plugin --profile web add github:omdsh-dev/dsh-at-file#2c5653ebc3240626cdad41a9c01d15d22471aed2",
+      "likes": 2,
+      "views": "405",
+      "created_at": "2026-08-17T15:23:30Z",
+      "url": "https://x.com/i/status/2089372554163319021",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HP7wxH5asAA9JIu.jpg",
+        "https://pbs.twimg.com/media/HP7w4yMaQAACsGT.jpg",
+        "https://pbs.twimg.com/media/HP7w9dIb0AE_iow.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HP7wxH5asAA9JIu.jpg",
+        "https://pbs.twimg.com/media/HP7w4yMaQAACsGT.jpg",
+        "https://pbs.twimg.com/media/HP7w9dIb0AE_iow.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2088156818505863183",
+        "author": "LufzzLiz",
+        "name": "岚叔",
+        "text": "重磅发布：为爱发电，我做了一个DeepSeek harness 插件网站，里面聚合了最近热门的143个插件，会自动收录新的插件进来，方便大家检索和安装，也会做更多新功能。\nDeepSeek harness 强在开源和插件，欢迎大家来体验\n\n这里可以按分类浏览、搜索和查看排行榜。\n每个插件都会展示仓库活跃度、Stars、许可证、Manifest 识别结果、安装命令与风险提示。遇到安装脚本、外部数据传输、Shell 权限或许可证缺失，也会直接标出来。\n如果你正在使用 DeepSeek Harness，想给它加上视觉、记忆、子 Agent、工作流或更顺手的界面，可以先来这里逛一圈。少踩坑，也更容易发现一些真正有意思的新玩法。\n\nhttps://t.co/ZNOT6prcai",
+        "created_at": "Fri Aug 14 06:52:36 +0000 2026",
+        "url": "https://x.com/LufzzLiz/status/2088156818505863183",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2088155534436560896/vid/avc1/540x270/X_AkUK0NJhUDhZR-.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2088155534436560896/img/r9EsExoQDg2qzQvG.jpg"
+        ]
+      },
+      "score": 57.546,
+      "title": "六个亲测过的 DeepSeek Harness 插件：市场、视觉、TUI、上下文",
+      "summary": "岚叔按自己装过的版本推荐六个插件：dshmarket 管搜索安装更新，dsh-vision-router 给纯文本模型补视觉和 OCR，dsh-TUI 做成 Claude Code 风格终端，dsh-context 把 token 压缩和注入变成面板，dsh-chat-import 能导入 15 类历史会话，dsh-at-file 让输入框用 @ 引用工作区文件。每条都带版本号和安装命令。",
+      "recommend_reason": "每条都有版本号和安装命令，是用过的人在指路，不是清单堆砌。",
+      "tags": [
+        "DeepSeek",
+        "Harness",
+        "开源"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2089372530381668599",
+      "author": "vincemask",
+      "bio": "",
+      "text": "DeepSeek Harness 值得关注，不只是又一个 Coding CLI：\n\n定位更接近 Grok Build，都是实验室自研 Runtime\n\nDeepSeek 开始补全自己的 Agent 执行层\n\n竞争从模型，延伸到 Harness、Skills、Tools 整套栈\n\nDeepSeek 开源 Harness，某种程度上意味着模型厂商的下一战已经开始了：不只提供模型，还要掌握模型怎么干活。",
+      "likes": 3,
+      "views": "65",
+      "created_at": "2026-08-17T15:23:24Z",
+      "url": "https://x.com/i/status/2089372530381668599",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 69.164,
+      "summary": "DeepSeek Harness 值得关注，不只是又一个 Coding CLI：\n\n定位更接近 Grok Build，都是实验室自研 Runtime\n\nDeepSeek 开始补全自己的 Agent 执行层\n\n竞争从模型，延伸到 Harness、Skills、Tools 整套栈\n\nDeepSeek 开源 Harness，某种程度上意味着模型厂商的下一战已经开始了：不只提供模型，还要掌握模型怎么干活。",
+      "recommend_reason": "把 DeepSeek Harness 从 CLI 工具重新定位成模型厂的执行层战争。",
+      "tags": [
+        "DeepSeek",
+        "Harness",
+        "Grok Build"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2089331953585607127",
+      "author": "nvidia",
+      "bio": "",
+      "text": "From accelerating scientific discovery to advancing healthcare, AI can transform every industry — but the infrastructure behind it must keep pace.\n\nAt SB Energy’s PORTS-Pike Technology Campus in Southern Ohio, NVIDIA will be the exclusive AI compute infrastructure provider, with OpenAI as the customer.\n\nThe campus project will create tens of thousands of Ohio jobs and invest hundreds of millions in the community.",
+      "likes": 563,
+      "views": "57371",
+      "created_at": "2026-08-17T12:42:10Z",
+      "url": "https://x.com/i/status/2089331953585607127",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2089331487342829862",
+        "author": "JensenHuang",
+        "name": "Jensen Huang",
+        "text": "https://t.co/WPqpdj0p2T",
+        "created_at": "Mon Aug 17 12:40:19 +0000 2026",
+        "url": "https://x.com/JensenHuang/status/2089331487342829862",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 66.62,
+      "title": "英伟达包下俄亥俄 SB Energy 园区算力，客户是 OpenAI",
+      "summary": "NVIDIA 宣布成为南俄亥俄 SB Energy PORTS-Pike 科技园的独家 AI 算力基础设施供应商，客户是 OpenAI。官方口径还带上数万个俄亥俄就业和数亿美元社区投资。",
+      "recommend_reason": "厂商标明独家基础设施并点名客户，比空讲算力竞赛更硬。",
+      "tags": [
+        "NVIDIA",
+        "OpenAI",
+        "产业"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2089326994714763665",
+      "author": "gdb",
+      "bio": "",
+      "text": "defenders can see the future, and have a narrow window to uplevel their cybersecurity practices now.\n\nkey is to uplevel fundamentals and apply the best AI tools.\n\nwhat we’re doing at OpenAI, and where other organizations can start: https://t.co/P3IMZkV234",
+      "likes": 607,
+      "views": "99404",
+      "created_at": "2026-08-17T12:22:28Z",
+      "url": "https://x.com/i/status/2089326994714763665",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "The Defender’s Window",
+        "description": "The OpenAI-Hugging Face incident was a watershed moment for cybersecurity because it gave a peek into how the capabilities of a typical threat actor will evolve in upcoming months. I’ve spoken with...",
+        "image_url": "https://pbs.twimg.com/card_img/2089320059928002560/nSo7u6i2?format=png&name=600x600",
+        "url": "https://blog.gregbrockman.com/the-defenders-window",
+        "domain": "blog.gregbrockman.com"
+      },
+      "quoted_tweet": null,
+      "score": 64.372,
+      "title": "攻防窗口正在变窄，OpenAI 让防御方先补基本功和 AI 工具",
+      "summary": "Greg Brockman 说防御方现在能看见未来一段时间的攻击能力，但窗口不宽。关键是把网络安全基本功补上，再叠最好的 AI 工具。他指向自己的文章 The Defender’s Window，讲 OpenAI 在做什么、别的组织可以从哪开始。",
+      "recommend_reason": "从 OpenAI 与 Hugging Face 那次事件往外推，谈防御方还剩多长窗口。",
+      "tags": [
+        "OpenAI",
+        "安全"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2089293234606629322",
+      "author": "yaojingang",
+      "bio": "",
+      "text": "分享12篇跟DeepSeek Harness相关的高质量学习资料，包括官方文档、Harness教程、插件文档、相关论文及解读等：\n\n1、DeepSeek Harness 官方仓库，关于源码、README、示例、架构、版本变化和社区入口的权威来源  \nhttps://t.co/WNNTxGkZu0\n\n2、DeepSeek Harness官方Web UI教程，介绍安装、启动、模型配置、工作区设置和基本使用流程  \nhttps://t.co/i8IfFSilUZ\n\n3、DeepSeek Harness第一个插件教程，从最小插件开始学习 `apply`、`inject`、配置、生命周期和 patch 加载  \nhttps://t.co/JXr1mjgtq6\n\n4、面向时空可组合性的编程范式，DeepSeek Harness底层Cordis 框架的理论基础，介绍 effect、响应式依赖、动态组合和热替换  \nhttps://t.co/nIz8XscaRT\n\n5、分层自我改进：面向任务专属可演化智能体运行框架的方法，研究任务专属 Harness 的持续改进，并使用 DeepSeek-V4-Flash-Preview 进行实验  \nhttps://t.co/PhVO3U8bJZ\n\n6、二次元头像=技术大佬？DeepSeek Harness揭开AI圈隐藏规律\nhttps://t.co/Rrd8yA59Gt\n\n7、编程智能体如何工作，从模型、系统提示词、工具调用、状态和执行循环讲解Coding Agent的运行机制  \nhttps://t.co/A12zzIgbDX\n\n8、面向长时间应用开发的智能体运行框架设计，Anthropic的长任务 Harness 实践，介绍Planner、Generator、Evaluator、任务拆分和跨会话交接  \nhttps://t.co/9q5BjEJV0b\n\n9、Harness Engineering：六层检查框架、上下文管理与工程实践，中文系统教程，覆盖Harness分层、上下文管理、约束执行、观测和恢复  \nhttps://t.co/kuCWt5KXvk\n\n10、从 DeepSeek 招聘反推：Harness 研究员到底要会什么？从DeepSeek 岗位要求整理 Agent Loop、Memory、Tools、Eval、多 Agent 和自我改进能力  \nhttps://t.co/6aigt1L1rX\n\n11、智能体运行框架工程，关于Harness Engineering全景介绍，覆盖工具、上下文、Hooks、沙箱、记忆和验证\nhttps://t.co/0kCUKYlA28\n\n12、DeepSeek Harness：从入门到插件化实践，覆盖系统架构、Profile、Bundle、插件开发、工具设计、生命周期和排错方法  \nhttps://t.co/LgNOzDDxjh",
+      "likes": 118,
+      "views": 9288,
+      "created_at": "2026-08-17T10:08:18Z",
+      "url": "https://x.com/yaojingang/status/2089293234606629322",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "GitHub - deepseek-ai/deepseek-harness: DeepSeek Harness: Everything is a Plugin.",
+        "description": "DeepSeek Harness: Everything is a Plugin. Contribute to deepseek-ai/deepseek-harness development by creating an account on GitHub.",
+        "image_url": "https://pbs.twimg.com/card_img/2088909994653515776/5vODJ5Iz?format=jpg&name=600x600",
+        "url": "https://github.com/deepseek-ai/deepseek-harness",
+        "domain": "github.com"
+      },
+      "quoted_tweet": null,
+      "score": 62.465,
+      "title": "一份 DeepSeek Harness 从官方仓库到论文的 12 篇入口",
+      "summary": "姚金刚整理了 12 份 DeepSeek Harness 资料：官方仓库、Web UI 教程、第一个插件教程、底层 Cordis 框架、分层自我改进论文、Coding Agent 机制、Anthropic 长任务 Harness，以及几篇中文系统教程和招聘反推。官方文档、插件实践和论文被放在同一张清单里。",
+      "recommend_reason": "官方仓库、插件教程和论文放在一起，比再发一条「快去学 Harness」有用。",
+      "tags": [
+        "DeepSeek",
+        "Harness",
+        "开源"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2089291174192595069",
+      "author": "IndieDevHailey",
+      "bio": "",
+      "text": "震惊了！！\n\n有人在 Reddit 上，用 Claude Opus 5 直接在浏览器里搓出了一个 AAA 级雪地模拟。\n\n百万级雪粒子、带布料物理的长袍角色、五种水系法术直接雕刻地形，还有雪地冲浪，尾流在阳光下溅起水雾。\n\n每一步脚印都会真实压出凹痕，边缘自然堆成雪垄，沟槽会慢慢回填，法术留下的弹坑是永久的。\n\n全程就一个浏览器标签页，WebGPU，没有游戏引擎，没有 3D 建模软件，纯代码。\n\n就写了一个详细 prompt，Opus 5 自己规划架构、写 shader、做物理、对着截图迭代，还把每一步决策都记下来了。\n\n9 小时，大约 400 万 token。\n\n这东西以前小工作室要花几个月才能做出来的东西。\n\n https://t.co/dWjkMMX4qE",
+      "likes": 23,
+      "views": 1755,
+      "created_at": "2026-08-17T10:00:07Z",
+      "url": "https://x.com/IndieDevHailey/status/2089291174192595069",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2089048673900810240/vid/avc1/480x270/HKEe5pAzdMKR1ZPS.mp4?tag=14"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2089048673900810240/img/kHklhe53tL4-i2f5.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 65.614,
+      "title": "有人用 Opus 5 在浏览器里搓出雪地模拟：9 小时、400 万 token",
+      "summary": "Reddit 上有人只用 Claude Opus 5，在一个浏览器标签页里做出雪地模拟：百万级雪粒子、布料长袍、五种水系法术改地形，脚印会压坑、沟槽会回填。没有游戏引擎和建模软件，全是 WebGPU 和代码。作者称 9 小时、大约 400 万 token，模型自己规划架构、写 shader、对着截图迭代。",
+      "recommend_reason": "数字写得很具体：单标签页、WebGPU、9 小时、400 万 token。",
+      "tags": [
+        "Claude",
+        "Demo"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2089285045093908954",
+      "author": "pissang1",
+      "bio": "",
+      "text": "Added support for importing .blend files—including materials, lights, cameras, subdivision modifiers, and more. Can’t stop using codex to add more and more features. #threejs #raytracing #blender #webgpu https://t.co/Ad2C81OM8P",
+      "likes": 34,
+      "views": 2072,
+      "created_at": "2026-08-17T09:35:46Z",
+      "url": "https://x.com/pissang1/status/2089285045093908954",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2089284252831813632/vid/avc1/482x270/zr9zdctAKs9KbIrb.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2089284252831813632/img/yOdAi5pf0HWsn585.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 67.132,
+      "title": "Codex 帮他把 Blender 文件直接导入进 WebGPU 光线追踪",
+      "summary": "pissang 给自己的 three.js / WebGPU 光线追踪加了 .blend 导入，材质、灯光、相机和细分修改器都能进来。他自己说停不下来，一直在用 Codex 往上叠功能。",
+      "recommend_reason": "具体到 .blend 的材质灯光都能进，不是又一句「我用 AI 写代码」。",
+      "tags": [
+        "Codex",
+        "AI Coding"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2089283921947316227",
+      "author": "dingyi",
+      "bio": "",
+      "text": "两个顶级大佬一起为你打造超精美的操作系统，还完全免费，这是多么美好的时代。\n\n最近看到很多人都入坑 Omarchy 了，如果说 3.0 之前还只是小众的玩具，那么这次 4.0 就是真正可用，可以大幅提高效率的成熟操作系统了。内置了各种 agent，全新的 quickshell 和插件系统。\n\n如果你是 AI 重度玩家，强烈建议你找一台或买一台二手的 PC 尝试一下。",
+      "likes": 56,
+      "views": 14804,
+      "created_at": "2026-08-17T09:31:18Z",
+      "url": "https://x.com/dingyi/status/2089283921947316227",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2086997507855331434",
+        "author": "tobi",
+        "name": "tobi lutke",
+        "text": "Better annotating screenshot tool coming to Omarchy Quattro. https://t.co/sWQ4Um1os1 https://t.co/rh9MH9ZbDv",
+        "created_at": "Tue Aug 11 02:05:55 +0000 2026",
+        "url": "https://x.com/tobi/status/2086997507855331434",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2086997447075581952/vid/avc1/432x270/gR8sVXAVsxP2KdMX.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2086997447075581952/img/RJhbVr2kxrKXPQWH.jpg"
+        ]
+      },
+      "score": 57.892,
+      "summary": "两个顶级大佬一起为你打造超精美的操作系统，还完全免费，这是多么美好的时代。\n\n最近看到很多人都入坑 Omarchy 了，如果说 3.0 之前还只是小众的玩具，那么这次 4.0 就是真正可用，可以大幅提高效率的成熟操作系统了。内置了各种 agent，全新的 quickshell 和插件系统。\n\n如果你是 AI 重度玩家，强烈建议你找一台或买一台二手的 PC 尝试一下。",
+      "recommend_reason": "把 4.0 和「3.0 还是玩具」切开，理由是内置 agent 和插件系统。",
+      "tags": [
+        "Agent",
+        "产品"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2089282306225930736",
+      "author": "lixinbao_X",
+      "bio": "",
+      "text": "豆包支持手机远程操控电脑 https://t.co/s0ASff1cjj",
+      "likes": 10,
+      "views": 979,
+      "created_at": "2026-08-17T09:24:53Z",
+      "url": "https://x.com/lixinbao_X/status/2089282306225930736",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HP6fLhYbsAAdxoJ.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HP6fLhYbsAAdxoJ.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 57.343,
+      "summary": "豆包支持手机远程操控电脑",
+      "recommend_reason": "豆包把远程电脑操控做到手机端，比再发一个桌面 Agent 更近日常。",
+      "tags": [
+        "豆包",
+        "产品"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2089273554030182475",
+      "author": "VigoCreativeAI",
+      "bio": "",
+      "text": "I flew a paper airplane through 6 of my visual styles.\n\nOne prompt. One continuous shot. No cuts, no editing, no After Effects.\n\nThe music changes genre in every world — lo-fi, punk, industrial, taiko, hyperpop, techno — and it was generated in the same pass as the picture. That's the part I still can't get over.\n\nWhich world would you want to live in? 👇",
+      "likes": 18,
+      "views": 728,
+      "created_at": "2026-08-17T08:50:06Z",
+      "url": "https://x.com/VigoCreativeAI/status/2089273554030182475",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2089273248433184768/vid/avc1/480x270/m15KgTwtOfelfvQC.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2089273248433184768/img/2v_Mw_Fc-Lzln7v7.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 69.876,
+      "title": "一张纸飞机穿过六种画风：一镜到底，连配乐都是同一次生成",
+      "summary": "作者用一个提示词、一镜到底，让纸飞机穿过六种视觉风格，没有剪辑也没有 After Effects。更反常的是每种世界的配乐也一起换了：lo-fi、朋克、工业、太鼓、hyperpop、techno，画面和声音是同一趟生成出来的。",
+      "recommend_reason": "真正难的不是切镜，是画面和配乐在同一次生成里换世界。",
+      "tags": [
+        "AI视频",
+        "提示词"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2089273166049009797",
+      "author": "naval",
+      "bio": "",
+      "text": "Don’t send me the report, just send me the prompt.",
+      "likes": 6641,
+      "views": 296151,
+      "created_at": "2026-08-17T08:48:34Z",
+      "url": "https://x.com/naval/status/2089273166049009797",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 72.568,
+      "summary": "别把报告发给我，直接把提示词发我就行。",
+      "recommend_reason": "一句话把「人该看什么」改成「模型该吃什么」。",
+      "tags": [
+        "提示词",
+        "Agent"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2089230495276240942",
+      "author": "dingyi",
+      "bio": "",
+      "text": "昨晚用新账号抢到了 $99/月的 SuperGrok Heavy，于是我拥有了两个 Cursor Ultra，一个是官方赠送的，一个是兑换的。现在大概是这样：\n\n- Claude 和 OpenGPT 的订阅都已取消，直接在 Cursor 里面用 Fable 5 + Sol 5.6 + Kimi 3\n- Grok Build + 近乎无限的 Grok 4.6\n- OpenCode Go （已缩水，下月退订）\n- GLM 5.3 年付套餐 + Zcode\n- 还有好多家中转站赠送的余额\n\n用不完，根本用不完。",
+      "likes": 93,
+      "views": 27446,
+      "created_at": "2026-08-17T05:59:00Z",
+      "url": "https://x.com/dingyi/status/2089230495276240942",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 59.231,
+      "title": "订阅栈从 Claude、OpenGPT 切到 Cursor 里的 Fable、Sol 和 Grok Build",
+      "summary": "丁一抢到 99 美元/月的 SuperGrok Heavy，手里变成两个 Cursor Ultra。Claude 和 OpenGPT 都退了，改在 Cursor 里用 Fable 5、Sol 5.6 和 Kimi 3，再叠加 Grok Build、近乎无限的 Grok 4.6、缩水的 OpenCode Go，以及 GLM 5.3 年付。结论就一句：用不完。",
+      "recommend_reason": "一份真实订阅账本，能看出谁被取消、谁被叠满。",
+      "tags": [
+        "Grok",
+        "Cursor",
+        "订阅"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2089229344367624193",
+      "author": "lxfater",
+      "bio": "",
+      "text": "这个插件可以将DeepSeek harness变成玻璃质感\n\n他的名字叫：DSH-Transparent-UI-Plugin\n\n你可以看到下面图片里面的顶栏、侧边栏、输入框、统计行、轨迹视图都成了磨砂玻璃片\n\n而且这个不是静态的皮肤，你还可以调节玻璃模糊度、磨砂度、背景。\n\n十分好看了，但我还有个滑动变祖的想法\n\nhttps://t.co/79B5EXqUPy",
+      "likes": 46,
+      "views": 12449,
+      "created_at": "2026-08-17T05:54:26Z",
+      "url": "https://x.com/lxfater/status/2089229344367624193",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HP5tJrua4AA6hVZ.jpg",
+        "https://pbs.twimg.com/media/HP5tb2FbMAAs9sD.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HP5tJrua4AA6hVZ.jpg",
+        "https://pbs.twimg.com/media/HP5tb2FbMAAs9sD.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2089173505799774276",
+        "author": "lxfater",
+        "name": "铁锤人",
+        "text": "Deepseek已经涨价了，性价比低于gpt-5.6 -luna\n\n海外老哥8月6日说过，即使deepseek涨价，他们也能自己部署做到他们的价格。\n\n今天开始认怂了，还在尝试几种配置，希望能成功。\n\n看来DeepSeek的缓存技术可以呀！！",
+        "created_at": "Mon Aug 17 02:12:33 +0000 2026",
+        "url": "https://x.com/lxfater/status/2089173505799774276",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HP47it5bMAA06C6.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HP47it5bMAA06C6.jpg"
+        ]
+      },
+      "score": 62.421,
+      "summary": "这个插件可以将DeepSeek harness变成玻璃质感\n\n他的名字叫：DSH-Transparent-UI-Plugin\n\n你可以看到下面图片里面的顶栏、侧边栏、输入框、统计行、轨迹视图都成了磨砂玻璃片\n\n而且这个不是静态的皮肤，你还可以调节玻璃模糊度、磨砂度、背景。\n\n十分好看了，但我还有个滑动变祖的想法",
+      "recommend_reason": "玻璃皮肤可调模糊，说明插件已经从功能补丁长到了界面层。",
+      "tags": [
+        "DeepSeek",
+        "Harness"
+      ],
+      "rank": 13
+    },
+    {
       "id": "2089194292090917355",
       "author": "bindureddy",
       "bio": "",
@@ -32,7 +440,7 @@
         "DeepSeek",
         "GLM"
       ],
-      "rank": 1
+      "rank": 14
     },
     {
       "id": "2089186557458862521",
@@ -66,7 +474,7 @@
         "产品",
         "中国"
       ],
-      "rank": 2
+      "rank": 15
     },
     {
       "id": "2089179586911482146",
@@ -94,7 +502,7 @@
         "游戏",
         "AI Coding"
       ],
-      "rank": 3
+      "rank": 16
     },
     {
       "id": "2089177118781612133",
@@ -124,7 +532,7 @@
         "产品",
         "工作流"
       ],
-      "rank": 4
+      "rank": 17
     },
     {
       "id": "2089173505799774276",
@@ -163,7 +571,7 @@
         "产业",
         "价格"
       ],
-      "rank": 5
+      "rank": 18
     },
     {
       "id": "2089156376388055059",
@@ -207,7 +615,7 @@
         "Stripe",
         "产业"
       ],
-      "rank": 6
+      "rank": 19
     },
     {
       "id": "2089154560229351832",
@@ -251,7 +659,7 @@
         "产业",
         "安全"
       ],
-      "rank": 7
+      "rank": 20
     },
     {
       "id": "2089143488696705077",
@@ -287,7 +695,7 @@
         "GPT-5.6 Sol",
         "产品"
       ],
-      "rank": 8
+      "rank": 21
     },
     {
       "id": "2089127369596383363",
@@ -330,7 +738,7 @@
         "Harness",
         "Agent"
       ],
-      "rank": 9
+      "rank": 22
     },
     {
       "id": "2089085004966207679",
@@ -357,7 +765,7 @@
         "开源",
         "认知"
       ],
-      "rank": 10
+      "rank": 23
     },
     {
       "id": "2089082893804896524",
@@ -385,7 +793,7 @@
         "GPT-5.6 Sol",
         "教程"
       ],
-      "rank": 11
+      "rank": 24
     },
     {
       "id": "2089082508612673897",
@@ -416,7 +824,7 @@
         "Runway",
         "产品"
       ],
-      "rank": 12
+      "rank": 25
     },
     {
       "id": "2089072890104725788",
@@ -450,7 +858,7 @@
         "GitHub",
         "产品"
       ],
-      "rank": 13
+      "rank": 26
     },
     {
       "id": "2089033113460727968",
@@ -481,7 +889,7 @@
         "游戏",
         "AI Coding"
       ],
-      "rank": 14
+      "rank": 27
     },
     {
       "id": "2089031648314806479",
@@ -513,10 +921,10 @@
         "产品",
         "本地模型"
       ],
-      "rank": 15
+      "rank": 28
     }
   ],
-  "generated_at": "2026-08-17T04:08:40Z",
+  "generated_at": "2026-08-17T16:08:06Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -524,11 +932,11 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 15,
-    "last_batch_added": 15,
+    "actual_count": 28,
+    "last_batch_added": 13,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
