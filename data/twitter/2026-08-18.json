@@ -1,0 +1,574 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-18",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2089561032410964460",
+      "author": "GoSailGlobal",
+      "bio": "",
+      "text": "这项目真的太有意思了！！！\n\n有人做了个 Claude Code 插件叫 Claudemon\n写代码的时候会有野生宝可梦跳出来\n\n机制很妙：\n- 你的 prompt 是「走草丛的步数」，prompt 越长走越远，越容易遇到\n- Claude 在跑的时候每 20 秒也算一步，等它干活就是在走草丛\n- 宝可梦出现 30 秒没打就跑了，不会攒一堆等你\n- Claude 在工作时治疗按钮是灰的，只有它停下来你才能回血\n\n初代 151 只，真实 base stats、属性克制、Red/Blue 招式表\n战斗有暴击、异常状态、PP 消耗、一击必杀\n全程本地运行，没有后端，没有账号\n\n开在 Claude Code 旁边的终端 tab 里\n状态栏会提示「✦ A wild PIDGEY appeared!」\n你切过去打完再切回来继续写代码\n\n本质上是把「等 AI 跑完」这段无聊时间游戏化了\nvibe coding 的终极形态：\n你在 vibe，Claude 在 code，你们一起走草丛\n\nhttps://t.co/QHbyTlq1Ko",
+      "likes": 1,
+      "views": "141",
+      "created_at": "2026-08-18T03:52:26Z",
+      "url": "https://x.com/i/status/2089561032410964460",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HP-bumyb0AAJBCK.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HP-bumyb0AAJBCK.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 58.563,
+      "title": "Claudemon：等 Claude Code 跑完的时间，变成打野生宝可梦",
+      "summary": "有人做了 Claude Code 插件 Claudemon。提示词长度算走草丛的步数，Claude 每跑 20 秒也算一步，遇到宝可梦 30 秒不打就跑。初代 151 只，真实种族值、属性克制和招式表，战斗有暴击、异常和 PP。全程本地、无后端无账号，状态栏会跳出 “A wild PIDGEY appeared!”。作者把它说成把「等 AI 跑完」这段空白游戏化了。",
+      "recommend_reason": "机制写得很具体，是真的在消耗等待时间，不是贴了个皮肤。",
+      "tags": [
+        "Claude Code",
+        "开源"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2089559167719928179",
+      "author": "xiaoxiaodong01",
+      "bio": "",
+      "text": "GPT2 x 价目表 x 美学 x 提示词 x 清单 x 商用 x VOL.001\n\n再开新坑， 做一些适合各种老板，用的提示词\n比如店铺的各种价目表\n\n这个栏目名称就叫做：价目表\n\n这次提示词用的Gemini 3.7 做的\n\n虽然没如同往常一样的风格兼容性：\n缺点在佐料， 你需要要求：\n\n`忘记原本配色，重新规划适合主题的配色`\n\n但是Gemini 就是废话少，提示词结构很好。\n\n当然如果我有10个chatGPT 20x 我是绝对不会考虑它的...\n\n个人偏好拉踩下 😁\n\nprompt by xxd:\n```\n围绕用户要求，生成轻奢美业促销活动海报，画面中下部悬浮着一张极具立体层次的纯白圆角矩形价目卡片，带有微弱柔和的漫射阴影与后层底卡叠落层次，卡片左上角饰有圆形打孔吊牌细节。海报上半部为通透空灵的浅粉色柔光肌理背景，带有极淡的流体大理石与花瓣晕染质感，右侧边缘辅以若隐若现的淡色圆形邮戳印章水印；顶部居中排版大字号高对比度现代衬线体大写英文标题，下方紧随带有花括号装饰的中文宣传标语及极细字阶副文本。悬浮卡片内部呈现严谨明晰的信息架构：上段为主题卡片名称与纤细手绘点缀符号，其下为横向对比强烈的焦点价格区，左侧排列小字号币种标签，右侧以大面积明艳玫粉色渲染超大字号现代粗衬线斜体数字与小巧货币角标；中段嵌有香槟粉渐变的圆角胶囊特色标签；下段规整陈列多行等距项目清单，每行由极小圆点引导、包含项目名称与规格频次，右侧统一样式对齐纯黑底白字的圆角胶囊单价标签，行间以极细浅灰分割线间隔；卡片底部以一条平滑优雅的淡粉色上凸弧形色块收尾，弧线中央嵌有微凸的立体浮雕爱心徽章与小字号大写英文字样；海报底部边缘留出舒适的浅粉留白，并居中排布大幅拉开字距的微型标语文本。整体色调以柔嫩浅粉、纯白与高反差黑色胶囊为主，光影纯净高调，线条精准利落，展现优雅浪漫的商业活动视觉\n\n主题： SPA会所 服务价目表\n忘记原本配色，重新规划适合主题的配色。我喜欢紫色\n比例9:16\n```\n\n啰嗦一句：你可以提供你收费方案的文档，结合这个提示词，稳定输出，创意无限。",
+      "likes": 4,
+      "views": "149",
+      "created_at": "2026-08-18T03:45:02Z",
+      "url": "https://x.com/i/status/2089559167719928179",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HP-aymDaYAAXFVt.jpg",
+        "https://pbs.twimg.com/media/HP-azdAbEAA1uhz.jpg",
+        "https://pbs.twimg.com/media/HP-a0plaAAA80mw.jpg",
+        "https://pbs.twimg.com/media/HP-a1tcawAAtDIe.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HP-aymDaYAAXFVt.jpg",
+        "https://pbs.twimg.com/media/HP-azdAbEAA1uhz.jpg",
+        "https://pbs.twimg.com/media/HP-a0plaAAA80mw.jpg",
+        "https://pbs.twimg.com/media/HP-a1tcawAAtDIe.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 67.626,
+      "title": "一套美业价目表海报提示词，并点出 Gemini 3.7 的配色短板",
+      "summary": "小小东开了「价目表」栏目，用 Gemini 3.7 做店铺价目海报。他贴了完整提示词：浅粉背景上浮一张白卡片，里面是价格、清单和胶囊标签。缺点是配色黏原提示，需要显式写「忘记原本配色，重新规划」。他嫌 Gemini 风格兼容差，但夸它废话少、结构清楚。",
+      "recommend_reason": "既有可直接跑的商用提示词，也点出了 Gemini 配色要额外改写。",
+      "tags": [
+        "提示词",
+        "Gemini",
+        "设计"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2089558017595556290",
+      "author": "IndieDevHailey",
+      "bio": "",
+      "text": "Academic Humanizer：专门给论文和 NSF/NIH 申请书去掉 AI 味。\n\n它不是普通的降 AI 检测工具，而是一套面向学术写作的 AI 编辑技能。\n\n自动识别并删除 “In recent years”“pave the way” 这类 AI 常用套话，压缩冗余表达，让文字更接近作者自己的写作风格。\n\n它不会改数据、引用和研究结论，只优化表达，让论点和证据保持紧密关联。\n\n支持 Claude Code、Codex、MorphMind，还能根据你过去的论文学习你的写作习惯。",
+      "likes": 1,
+      "views": "102",
+      "created_at": "2026-08-18T03:40:28Z",
+      "url": "https://x.com/i/status/2089558017595556290",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HP-Z3FZbgAAjIzC.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HP-Z3FZbgAAjIzC.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 58.39,
+      "title": "Academic Humanizer：去 AI 套话，但不改论文数据和结论",
+      "summary": "Academic Humanizer 专门给论文和 NSF/NIH 申请书去 AI 味。它不是普通降检测工具，而是学术写作编辑技能：删 “In recent years”“pave the way” 这类套话，压冗余，让文字靠近作者自己的风格。它不改数据、引用和结论，只动表达。支持 Claude Code、Codex、MorphMind，还能按你过往论文学写作习惯。",
+      "recommend_reason": "先划清「不改数据和结论」，比又一个降 AI 检测工具可信。",
+      "tags": [
+        "学术",
+        "Claude Code",
+        "Skill"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2089551023497175497",
+      "author": "bindureddy",
+      "bio": "",
+      "text": "Qwen 3.8 27B is an extremely good small model \n\nIt’s perfect for small classifiers and fast inference \n\nA drop in replacement for Luna  and a significant win for open source",
+      "likes": 59,
+      "views": "2754",
+      "created_at": "2026-08-18T03:12:40Z",
+      "url": "https://x.com/i/status/2089551023497175497",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 64.997,
+      "summary": "Qwen 3.8 27B 是非常好的小模型。它特别适合小型分类器和快速推理。可以当作 Luna 的直接替代，也是开源的一次显著胜利。",
+      "recommend_reason": "小模型少有人给「分类器 + 替代 Luna」这种落地口径。",
+      "tags": [
+        "Qwen",
+        "开源",
+        "本地模型"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2089540284321329269",
+      "author": "lxfater",
+      "bio": "",
+      "text": "这是一个能直接给图片加上隐形水印的开源项目\n\n现在已经14k star了\n\n让Codex读取这个地址，它就学会如何将你的信息写入图片中，但图片外表完全没有区别。\n\n更离谱的是，无论盗版者这如何对图片进行，缩放，剪切，打码，都没法去掉你的原创信息。\n\n适合喜欢搞原创的朋友。\nhttps://t.co/yZdwPILJN6",
+      "likes": 5,
+      "views": "933",
+      "created_at": "2026-08-18T02:30:00Z",
+      "url": "https://x.com/i/status/2089540284321329269",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HP-EJ_6aEAAHtE_.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HP-EJ_6aEAAHtE_.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 58.496,
+      "summary": "这是一个能直接给图片加上隐形水印的开源项目，现在已经 14k star。让 Codex 读取这个地址，它就学会如何把你的信息写入图片，但外表完全看不出区别。更离谱的是，无论盗版者怎么缩放、剪切、打码，都去不掉你的原创信息。适合喜欢搞原创的朋友。",
+      "recommend_reason": "14k star 的隐写水印，还给出「丢给 Codex 自学」这条用法。",
+      "tags": [
+        "开源",
+        "安全"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2089509087713341630",
+      "author": "xiaoxiaodong01",
+      "bio": "国际，不知名，顶级图片提示词专家\nskills/chrom plugin/prompt/art\n星球成员提示词库：2.2万套，可自助开\nWeChat:：newbe2012",
+      "text": "GPT2 x  海报 x 万能提示词 x 千变万化 x 美学提示词\n\n其实提示词一定要写死么\n我向来不喜欢如此\n\n我喜欢吸收页面的核心优点，保留优点，让一组提示词\n能适配各色用途\n\n比如这套四张全是同一套提示词，只是最后结尾一句话\n也就是主题更换了不同的节气\n\n甚至这种提示词，可以用在：招聘海报、ppt制作、菜单设计...\n\nGPT-image2的提示词，如果写死了，就没意思了\n\n很高兴，我开发完成五万套这种提示词了\n近期会上线成员提示词库",
+      "likes": 23,
+      "views": 938,
+      "created_at": "2026-08-18T00:26:02Z",
+      "url": "https://x.com/xiaoxiaodong01/status/2089509087713341630",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HP9szn1a4AEUSUl.jpg",
+        "https://pbs.twimg.com/media/HP9s7mdakAAdmGX.jpg",
+        "https://pbs.twimg.com/media/HP9tavObgAAAyax.jpg",
+        "https://pbs.twimg.com/media/HP9tVPGbwAAUsJz.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HP9szn1a4AEUSUl.jpg",
+        "https://pbs.twimg.com/media/HP9s7mdakAAdmGX.jpg",
+        "https://pbs.twimg.com/media/HP9tavObgAAAyax.jpg",
+        "https://pbs.twimg.com/media/HP9tVPGbwAAUsJz.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 69.528,
+      "title": "同一套 GPT Image 2 海报提示词，只换结尾就能改主题",
+      "summary": "小小东反对把提示词写死。他用同一套提示词出四张海报，只改最后一句主题（换成不同节气），并说这套结构还能用到招聘海报、PPT、菜单。他称已经攒了五万套这种提示词，成员库即将上线。",
+      "recommend_reason": "重点不是堆提示词，而是「结构固定、主题可换」这一条可复用方法。",
+      "tags": [
+        "提示词",
+        "设计"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2089454609765146744",
+      "author": "ollama",
+      "bio": "https://t.co/1JpLwJ9Bdv",
+      "text": "Ollama has the best performance for deepseek v4 flash on average. \n\nFor local only, you can try qwen3.8 that is optimized: \n\nApple Silicon: \nollama run qwen3.8:27b-mlx \n\nNVIDIA: \nollama run qwen3.8:27b",
+      "likes": 308,
+      "views": 31157,
+      "created_at": "2026-08-17T20:49:33Z",
+      "url": "https://x.com/ollama/status/2089454609765146744",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2089188309348258251",
+        "author": "ttunguz",
+        "name": "Tomasz Tunguz",
+        "text": "Benchmarked deepseek-v4-flash vs qwen3-8-27b on 9 complex tasks in my own agent stack. With reasoning on, qwen edges Flash on quality. Off, it scores worst of the three.\n\nThe cost isn't accuracy, it's that qwen thinks more. 30x slower, 4.5x pricier.\n\nn=9, not a verdict. https://t.co/12I1vuKqYM",
+        "created_at": "Mon Aug 17 03:11:22 +0000 2026",
+        "url": "https://x.com/ttunguz/status/2089188309348258251",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HP5Jsbha0AAoZ_J.png",
+          "https://pbs.twimg.com/media/HP5Jsi_aUAAKVSs.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HP5Jsbha0AAoZ_J.png",
+          "https://pbs.twimg.com/media/HP5Jsi_aUAAKVSs.jpg"
+        ]
+      },
+      "score": 64.102,
+      "title": "Ollama 给 DeepSeek V4 Flash 和本地 Qwen 3.8 开了两条路",
+      "summary": "Ollama 说自家跑 DeepSeek V4 Flash 平均性能最好。如果只想本地，可以试优化过的 Qwen 3.8：苹果芯片用 ollama run qwen3.8:27b-mlx，NVIDIA 用 ollama run qwen3.8:27b。引用的评测里，开推理时 Qwen 质量略胜 Flash，但慢 30 倍、贵 4.5 倍。",
+      "recommend_reason": "官方直接给出本机命令，还把质量和时延的代价讲清楚了。",
+      "tags": [
+        "Ollama",
+        "DeepSeek",
+        "Qwen"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2089449055651033207",
+      "author": "SpaceXAI",
+      "bio": "",
+      "text": "Try the @whop connector, now released in Grok",
+      "likes": 1738,
+      "views": 282314,
+      "created_at": "2026-08-17T20:27:29Z",
+      "url": "https://x.com/SpaceXAI/status/2089449055651033207",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2089444773601935642",
+        "author": "whop",
+        "name": "Whop",
+        "text": "Thrilled to partner with @spacexai to help people turn tokens into economic value.\n\nWhop is now live as a native connector in @grok https://t.co/GLy0nq0vCp",
+        "created_at": "Mon Aug 17 20:10:28 +0000 2026",
+        "url": "https://x.com/whop/status/2089444773601935642",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HP8yr9JWkAA8Zvn.png"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HP8yr9JWkAA8Zvn.png"
+        ]
+      },
+      "score": 62.664,
+      "summary": "来试试 @whop 连接器，现在已经在 Grok 里上线了。",
+      "recommend_reason": "Grok 多了一个能把 token 换成交易的官方连接器。",
+      "tags": [
+        "Grok",
+        "产品"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2089429513847427391",
+      "author": "mrsharma",
+      "bio": "\"The DTC Guy\" | Sold @SharmaBrands | Creator @workweekinc | Get smarter with my free weekly DTC newsletter (100k+ readers): https://t.co/Cwelb6KArO",
+      "text": "For me, Codex has become my go-to daily tool over Claude Code... \n\nUsing 5.6 Sol is the first time I feel like I'm talking to a very competent model and it's proactively thinking about how to be more efficient\n\nI still use Fable 5 for some copywriting, but for almost everything else it's 5.6 Sol\n\nStarting to add in some Grok 4.6 now as well (it's not as \"by the book\" and therefore does better research work)",
+      "likes": 33,
+      "views": 9802,
+      "created_at": "2026-08-17T19:09:50Z",
+      "url": "https://x.com/mrsharma/status/2089429513847427391",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2089182233173413896",
+        "author": "theisaacmed",
+        "name": "isaac",
+        "text": "Everyone is saying that codex is significantly better now.  But I can’t bring myself to use it. \n\nSomehow Claude has better branding and I have become a quasi loyalist. Not worth leaving for a 10% incremental improvement.",
+        "created_at": "Mon Aug 17 02:47:14 +0000 2026",
+        "url": "https://x.com/theisaacmed/status/2089182233173413896",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 57.908,
+      "title": "日常主力从 Claude Code 换到 Codex，Sol 之后开始掺 Grok 4.6",
+      "summary": "mrsharma 说 Codex 已经取代 Claude Code 成日常主力。用 5.6 Sol 是他第一次觉得在跟很能干、还会主动想怎么更省事的模型说话。文案仍会用 Fable 5，其余几乎都交给 Sol。他开始加一点 Grok 4.6，觉得它没那么「照章办事」，调研反而更好。",
+      "recommend_reason": "不是榜单截图，是换成 Sol 之后手感到底哪里不一样。",
+      "tags": [
+        "Codex",
+        "GPT-5.6 Sol",
+        "Grok"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2089429432612147572",
+      "author": "NousResearch",
+      "bio": "A bunch of nerds making progress\n\nhttps://t.co/vrD0aDIGDQ",
+      "text": "Introducing Bot Mode for Hermes Desktop.\n\nYour agent profiles become a series of named Bots. Each Bot has its own role, model, memory, skills and profile picture; Bots can use any model and even communicate with each other. \n\nBuild a specialist Bot once to use it forever. https://t.co/AYWD9Ro2I1",
+      "likes": 5723,
+      "views": 885038,
+      "created_at": "2026-08-17T19:09:31Z",
+      "url": "https://x.com/NousResearch/status/2089429432612147572",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2089388284455649281/vid/avc1/480x270/gyERbmwXtzi0o64j.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2089388284455649281/img/oPQXLZNprS7GeN0h.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 74.621,
+      "title": "Hermes Desktop 上线 Bot Mode：命名机器人、独立记忆，还能互相对话",
+      "summary": "Nous Research 给 Hermes Desktop 加了 Bot Mode。原来的 agent profile 变成一组有名字的 Bot，每个有自己的角色、模型、记忆、技能和头像，还能换模型、互相通信。官方说法是：把专家 Bot 建一次，以后一直用。",
+      "recommend_reason": "官方自己把多 Agent 从配置文件收成了能互相说话的常驻角色。",
+      "tags": [
+        "Hermes",
+        "Agent",
+        "产品"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2089425467812028548",
+      "author": "DeRonin_",
+      "bio": "Full time CEO of @CloseAI_hq | Part time Angel Investor, Content Creator, boyfriend",
+      "text": "Best AI models by use cases in solo-business (my real stack):\n\nBulk production (drafts, code, briefs): Kimi K3\nVerification / QA passes: Opus 4.6\nHigh-stakes strategy: GPT-5.6-SOL\nResearch sweeps (24/7 agents): Kimi K3\nSales copy rewrites: Fable 5\nVideo / UGC gen: Seedance 2.5\nImage gen: GPT Image 2\nLive search + trend leaks: Grok 4.5\nTranslation / localization: Gemini 3.5 Flash\nBest price-to-output: DeepSeek V4 Pro\nLocal background agents: GLM 5.2\nLocal cleanup (small): Qwen\n\ntwo rules that matter more than the list:\n\n1. never verify with the model that wrote the draft, different family, on purpose\n2. price the model to the cost of the decision, not the habit\n\nthe wrong model choice doesn't fail loudly, it just quietly eats your margin\n\nP.S. unfortunately, i couldn't finalize an article today on how i'm running $80k MRR agency :<(\n\ncatch 5% value of this article in this tweet\n\nturn on notis for tomorrow, at 6pm CET 🔔",
+      "likes": 52,
+      "views": 4992,
+      "created_at": "2026-08-17T18:53:45Z",
+      "url": "https://x.com/DeRonin_/status/2089425467812028548",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 60.928,
+      "title": "一人公司真实模型栈：谁写稿、谁验收、谁拍板要拆开",
+      "summary": "DeRonin 按用途拆了自己的模型栈：量大的草稿和代码用 Kimi K3，验收用 Opus 4.6，高风险策略用 GPT-5.6-SOL，调研 Agent 还是 Kimi K3，销售文案 Fable 5，视频 Seedance 2.5，图 GPT Image 2，实时搜索 Grok 4.5，翻译 Gemini 3.5 Flash，性价比 DeepSeek V4 Pro，本地后台 GLM 5.2，小清理用 Qwen。两条规则：验收不要用写稿的同一家模型；按决策成本选模型，不要按习惯。",
+      "recommend_reason": "清单背后有两条能带走的规则，不是又一张模型海报。",
+      "tags": [
+        "模型选型",
+        "Agent"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2089415041074565271",
+      "author": "bindureddy",
+      "bio": "CEO of @abacusai  - a powerful AI Agent and SuperComputer - Build your company on Abacus AI, ex-AWS & Google",
+      "text": "DeepSeek Flash Goes Into Infinite Loops And Doesn't Get Tasks Done\n\nWe have fixed this fundamental flaw and our version now can run long running loops like top frontier models\n\nSmaug Flash drops this week! https://t.co/EwBH8K9dIj",
+      "likes": 178,
+      "views": 279434,
+      "created_at": "2026-08-17T18:12:19Z",
+      "url": "https://x.com/bindureddy/status/2089415041074565271",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/tweet_video/HP8X53UaIAAGS6o.mp4"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/tweet_video_thumb/HP8X53UaIAAGS6o.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 64.379,
+      "title": "他们说 DeepSeek Flash 会死循环，自家 Smaug Flash 本周上",
+      "summary": "Bindu Reddy 称 DeepSeek Flash 会陷入无限循环、完不成任务。他们修了这个基础缺陷，自己的版本能像一线模型那样跑长循环。Smaug Flash 本周发布。",
+      "recommend_reason": "竞品点名「无限循环」这个可验证的故障，比空吹分数有用。",
+      "tags": [
+        "DeepSeek",
+        "Agent"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2089413613094408680",
+      "author": "huangyun_122",
+      "bio": "Every great AI journey starts with a single Prompt\nvx: huangyun_122",
+      "text": "来嘛，对比 Gemini 和 Codex 的单兵作战实力。同样的 Skill, 同样的文案，一键直出视频，差距已经赶上《牛来》和《哪吒2》的区别了\n\n我把小红书 44天跑通起号的步骤，让他俩各自出视频，文案和生图，Gemini 双输 https://t.co/jU6OlmHR62",
+      "likes": 20,
+      "views": 6984,
+      "created_at": "2026-08-17T18:06:39Z",
+      "url": "https://x.com/huangyun_122/status/2089413613094408680",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2089412269319024640/vid/avc1/480x270/ZVbTngIprznmTQbr.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2089412269319024640/img/JPprIDQyvg8nUQya.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2089292574444126352",
+        "author": "huangyun_122",
+        "name": "黄赟",
+        "text": "Gemini 真的是一步落后，步步落后了\n\n同样的一套 Skill, 在 ChatGPT Harness 中流畅运行，Gemini 就常常缺斤少两。好在它还挺诚实，不敢往视频画布中加文字，就很坦诚地回我：加中字会乱码，所以不加\n\n义父，Codex 该重置啦 ！！ https://t.co/by0Z0NpgH4",
+        "created_at": "Mon Aug 17 10:05:41 +0000 2026",
+        "url": "https://x.com/huangyun_122/status/2089292574444126352",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2089292126723194880/vid/avc1/486x270/9F06BIObz0uHfvp4.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2089292126723194880/img/WKEpoloqR6FcV-9r.jpg"
+        ]
+      },
+      "score": 60.103,
+      "summary": "来对比 Gemini 和 Codex 的单兵作战。同样的 Skill、同样的文案，一键出视频，差距已经赶上《牛来》和《哪吒2》。他把小红书 44 天跑通起号的步骤交给两边各自出视频、文案和生图，Gemini 双输。",
+      "recommend_reason": "同一套 Skill 对打出视频，比口头说谁更强更清楚。",
+      "tags": [
+        "Gemini",
+        "Codex",
+        "AI视频"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2089412415108600221",
+      "author": "dotey",
+      "bio": "AI Engineer, dedicated to learning and disseminating knowledge about AI, software engineering, and engineering management.",
+      "text": "Cursor 的代码托管平台 Origin 正式上线，用户可以从 GitHub 同步仓库开始使用。\n\nOrigin 简单说，就是 Cursor 自己做的 GitHub。代码存储、Git 托管、代码审查、团队协作，一站式解决。但它和 GitHub 最大的区别在于设计前提：GitHub 是为人类开发者的工作节奏设计的，一个作者、两个审查者、按顺序合并。Origin 从一开始就把 AI Agent 当成主要用户来设计。\n\n这个定位背后有具体的技术支撑。在 Compile 大会的演示中，Origin 在单个仓库内跑到了每秒 22.6 次提交，每小时 29.6 万次克隆，全球同步延迟低于 400 毫秒，还内置了 AI 驱动的自动合并冲突解决。这些数字对应的场景是：当你同时跑十几个 AI 智能体在一个仓库里并行写代码、开分支、提交 PR 时，传统的 Git 托管平台会变成瓶颈，Origin 就是为了解这个瓶颈而生的。\n\nOrigin 的技术底子来自 Cursor 2025 年底收购的 Graphite 团队。Graphite 做的是“堆叠式 PR 管理”，也就是让多个有依赖关系的代码变更可以并行处理，天然适配 AI 智能体的工作方式。从落地策略看，Cursor 选择先上线代码审查层，再逐步迁移托管功能，降低用户从 GitHub 切换的门槛。目前第一步就是从 GitHub 同步仓库。\n\nOrigin 上线意味着 Cursor 的纵向整合闭环成型：编辑器、云端智能体、代码审查、代码托管，全部在一个产品内完成。对比之下，GitHub Copilot 走的是横向路线，在已有的 GitHub 基础设施上叠加 AI 功能，底层架构还是十年前的设计。\n\n对开发者来说，短期内 Origin 更像是 Cursor 生态内的增值功能，不太可能让团队立刻把核心项目从 GitHub 搬走。但如果你已经在用 Cursor 的云端智能体跑后台任务，Origin 的价值会很直观：代码从生成到审查到合并，整个流程不用再跳出 Cursor。",
+      "likes": 129,
+      "views": 31681,
+      "created_at": "2026-08-17T18:01:53Z",
+      "url": "https://x.com/dotey/status/2089412415108600221",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2089399057659596847",
+        "author": "cursor_ai",
+        "name": "Cursor",
+        "text": "Origin, our code hosting platform, is now live.\n\nIt's fast, easy to use, and deeply integrated with Cursor.\n\nGet started by syncing your repos from GitHub. https://t.co/aqRHavAOQg",
+        "created_at": "Mon Aug 17 17:08:49 +0000 2026",
+        "url": "https://x.com/cursor_ai/status/2089399057659596847",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2089397451237036032/vid/avc1/480x270/lQtiZj0UYGBf2B57.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2089397451237036032/img/qeHLLgO7ic-M5GjF.jpg"
+        ]
+      },
+      "score": 60.664,
+      "title": "Cursor 上线 Origin：按 Agent 并发而不是按人写 Git 的代码托管",
+      "summary": "宝玉说 Cursor 的代码托管平台 Origin 已上线，可从 GitHub 同步仓库。它被设计成给 AI Agent 当主用户：演示里单仓每秒 22.6 次提交、每小时 29.6 万次克隆、全球同步低于 400ms，还带自动解决冲突。技术来自 2025 年底收购的 Graphite 堆叠式 PR。Cursor 先上审查层再迁托管，想降低从 GitHub 搬走的成本。短期更像生态增值，但云端 Agent 跑后台任务时，生成到合并可以不用跳出 Cursor。",
+      "recommend_reason": "把 Origin 的吞吐数字和「Agent 才是主用户」对上了，不是又一篇产品通稿。",
+      "tags": [
+        "Cursor",
+        "Agent",
+        "产品"
+      ],
+      "rank": 14
+    },
+    {
+      "id": "2089409297361051713",
+      "author": "dashen_wang",
+      "bio": "当AGI睁开眼睛的那一刻，人类的存在便失去了所有意义\n\n🥸：「AI民科」「诗人」「作家」「屌毛」「喷子」「S/Dom」\n\n🍄：开源大模型CN拯救世界\n\n☢️：Data, data, data, go！！！\n\n这是我唯一的对外的账号。\n\n不接商单。",
+      "text": "最近 Qwen3.8 火了，我顺便给大家科普一下，Dense、MoE、Diffusion 到底是什么。\n\n先说 Dense，也就是稠密模型。\n\n比如 Qwen3.8-27B，你可以粗暴理解成，公司一共 270 亿员工，每来一个 Token，基本全员上班。\n\n优点是简单、稳定、好训练，缺点也明显，模型越大，每次要搬的参数越多，所以特别吃显存带宽。\n\n然后是 MoE，Mixture of Experts，混合专家模型。\n\n它像一个超级大的公司，养了很多专家，但是每次只叫其中一部分出来干活。\n\n所以一个模型可以有几百 B，甚至几 T 的总参数，但是每次真正激活的可能只有几十 B、上百 B。\n\n这就是为什么现在很多超大模型喜欢 MoE。\n\n脑子可以做得特别大，但是没必要每次整个脑子一起通电。\n\nGoogle 的 Gemini 已经明确公开过 Sparse MoE，Grok-1 也是公开的 MoE，OpenAI 自己放出来的 gpt-oss 也是 MoE。\n\n但是 Claude 和 OpenAI 最新旗舰到底是不是 MoE，多少专家，多少参数，目前官方都没有完整公开。\n\n所以别看到网上有人张口就是 GPT 几万亿参数、Claude 几百个专家，就真当官方数据了。\n\n然后还有一个越来越有意思的东西，Diffusion，扩散模型。\n\n很多人以前只知道 Stable Diffusion 画图。\n\n但是现在语言模型也开始玩扩散了。\n\n传统 GPT 这种自回归模型，基本是一个 Token 一个 Token 往后写。\n\nDiffusion 不一样，它更像先弄出一张乱七八糟的草稿，然后大家一起改，一轮一轮把答案“去噪”出来。\n\n所以它最大的想象力就是并行。\n\n自回归模型是一个字一个字排队下楼。\n\nDiffusion 更像电梯一次塞一群人。\n\n不过这里要注意。\n\nDense 和 MoE 说的是，一个模型内部到底怎么组织参数。\n\nDiffusion 和自回归说的是，它到底怎么生成答案。\n\n这是两个维度。\n\n所以以后完全可能有 Dense + Diffusion，也可能有 MoE + Diffusion。\n\n然后再说硬件。\n\nDense 最怕什么？\n\n模型装得下，但是内存带宽不够。\n\n所以 5090 这种显存不算特别夸张，但是带宽巨高的卡，跑 27B、32B 这种 Dense 往往特别舒服。\n\n苹果也很有意思。\n\n它的统一内存容量大，而且 Max、Ultra 的内存带宽也很高，所以本地跑大 Dense，其实非常香。\n\n缺点就是 CUDA 生态没有 NVIDIA 爽。\n\n然后是 DGX Spark、MAX+ 395 这种 128G 统一内存小主机。\n\n它们真正牛逼的地方，不一定是跑 27B 最快。\n\n而是。\n\n别人装不下的东西，它能装下。\n\n所以一旦到了超大 MoE，这种机器的价值就出来了。\n\nMoE 很吃容量，因为所有专家都得放在内存里，但是每次只激活一部分。\n\n所以以后买 AI 机器，真的不要再只看一个数字。\n\n“128G 显存，好牛逼。”\n\n没意义。\n\n你至少得看四个东西。\n\n总参数多少。\n\n激活参数多少。\n\n内存容量多少。\n\n内存带宽多少。\n\n再高级一点，还要看它到底是自回归还是 Diffusion。\n\n其实现在大模型越来越像一个公司了。\n\nDense 是全员上班。\n\nMoE 是专家轮班。\n\nDiffusion 是大家先一起写草稿，再一起改。\n\n至于 Claude、GPT、Gemini、Grok 到底内部是怎么组织这帮人的。\n\nGoogle 至少经常会告诉你一些。\n\nxAI 以前也真公开过 Grok-1。\n\n阿里更狠，大模型直接让你下载。\n\n然后两家巨头就比较有意思了。\n\nOpenAI，叫 OpenAI。\n\n但是最新模型不 Open。\n\nAnthropic，名字听起来特别 Human。\n\n但是模型架构一点都不跟人类说。\n\nOpenAI 不 Open。\n\nAnthropic 不 Human。\n\n名字负责理想主义。\n\n架构负责商业机密。",
+      "likes": 101,
+      "views": 21179,
+      "created_at": "2026-08-17T17:49:30Z",
+      "url": "https://x.com/dashen_wang/status/2089409297361051713",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2089364814426784130",
+        "author": "Lonely__MH",
+        "name": "Lonely",
+        "text": "🎉Nice！实测在 DGX Spark 上成功部署千亿级大模型！！\n\n单机千亿，速度飞起！（见录屏👇🏻）\n\n不过，据说 SGLang (@sgl_project  )更快！\n\n不得不说，眼下国产开源生态真的越来越强了！\n\n强烈建议大家都学一下本地模型部署：装上 Ling-3.0、 Qwen 3.8 27B 、Minimax H3，接入多模态，用各种开源大模型搭建出专属的本地工作流，轻松实现 Token 自由！\n\n教程极简，有手就行。\n\n不，还得有显卡🤣🤣",
+        "created_at": "Mon Aug 17 14:52:44 +0000 2026",
+        "url": "https://x.com/Lonely__MH/status/2089364814426784130",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2089358330829697024/vid/avc1/480x270/tiikcAj97zvpxTE5.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2089358330829697024/img/dclAEEpxWdZbKufk.jpg"
+        ]
+      },
+      "score": 57.578,
+      "title": "用公司上班来讲 Dense、MoE 和 Diffusion，以及买卡到底看什么",
+      "summary": "大神王顺着 Qwen3.8 把三件事拆开：Dense 是全员上班，稳定但吃带宽；MoE 是专家轮班，总参数可以很大、每次只激活一部分；Diffusion 是先打草稿再一起去噪，和自回归是生成方式，不是参数组织。所以以后可以有 Dense+Diffusion，也可以有 MoE+Diffusion。买硬件至少看总参数、激活参数、内存容量和带宽：5090 这类高带宽卡跑 27B Dense 舒服，128G 统一内存小主机的价值是装得下超大 MoE。他提醒网上那些「GPT 几万亿、Claude 几百专家」别当官方数据。",
+      "recommend_reason": "把架构和买卡拆成两个维度，读完不会再只盯「多少 G 显存」。",
+      "tags": [
+        "Qwen",
+        "模型",
+        "本地模型"
+      ],
+      "rank": 15
+    },
+    {
+      "id": "2089404987587576191",
+      "author": "dotey",
+      "bio": "AI Engineer, dedicated to learning and disseminating knowledge about AI, software engineering, and engineering management.",
+      "text": "yetone 开源了一个新项目 Cumora：把 AI Agent 变成你的聊天群里的正式成员。\n\nCumora 的界面长得像 Slack，但名单上的同事看起来都是 AI。有名字、有人设、有记忆，能发私聊、能建群、能认领任务，甚至能收发真实邮件。你不 @ 它们，它们也可能主动跳出来说一句“我注意到上周那个问题还没解决”。\n\n从截图看，默认团队里有 Atlas（研究员）、Bram（工程师）、Iris、Nova、Saga 这些角色，人类和 Agent 在同一个频道里讨论问题，界面上几乎分不清谁是人谁是 AI。左侧栏里既有人和 Agent 的一对一私聊，也有多人群聊，还有看板和日历。\n\n技术上有两种运行方式。一种是 Cumora Cloud，Agent 跑在云端托管的 Kubernetes Pod 里，用 OpenAI 的 Responses API 驱动。另一种叫 BYOA（Bring Your Own Agent），你在自己的电脑上跑一行 npx cumora agent computer，Agent 的\"大脑\"就变成你本地的 Claude Code 或 Codex CLI，用你自己的订阅，密钥不经过 Cumora 的服务器。\n\n多 Agent 协作最怕的就是撞车，几个 Agent 同时抢着回答同一个问题，或者基于过时的上下文给出矛盾的回复。Cumora 设计了一套协调机制来处理这个问题：如果一个 Agent 的回复基于过时的信息，系统会把它拦下来，让它看完新消息再决定要不要发；任务认领是原子操作，不会出现两个 Agent 同时做一件事；还有一个小脑分诊层，先用轻量模型判断该不该唤醒大模型，避免每条消息都烧 Token。\n\n目前 Cumora 处于邀请制内测阶段，可以在 https://t.co/y0gEUiFlBT 用 Google 或 GitHub 账号申请。项目完整开源在 GitHub（yetone/cumora https://t.co/vUDDFuvOJu），支持本地部署，装好 Postgres 和 Redis 就能跑起来。桌面端支持 macOS、Windows 和 Linux，移动端 iOS 也在计划中。",
+      "likes": 225,
+      "views": 41796,
+      "created_at": "2026-08-17T17:32:22Z",
+      "url": "https://x.com/dotey/status/2089404987587576191",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HP8OuOQXAAIMn_w.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HP8OuOQXAAIMn_w.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2089329138406760639",
+        "author": "yetone",
+        "name": "yetone",
+        "text": "https://t.co/PON8xHvJ5j\n\nCumora 已开源",
+        "created_at": "Mon Aug 17 12:30:59 +0000 2026",
+        "url": "https://x.com/yetone/status/2089329138406760639",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": [],
+        "card": {
+          "name": "summary_large_image",
+          "title": "GitHub - yetone/cumora: Where agent teams gather. Cross-platform team chat where AI agents are...",
+          "description": "Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains. - yetone/cumora",
+          "image_url": "https://pbs.twimg.com/card_img/2089539637111062528/z1UFuAFI?format=jpg&name=600x600",
+          "url": "https://github.com/yetone/cumora",
+          "domain": "github.com"
+        }
+      },
+      "score": 67.1,
+      "title": "Cumora 开源：把 Agent 做成 Slack 里的正式同事",
+      "summary": "宝玉介绍 yetone 的开源项目 Cumora。界面像 Slack，默认有研究员 Atlas、工程师 Bram 等角色，能私聊、建群、认领任务、收发邮件，不 @ 也可能主动插话。运行分两种：Cumora Cloud 在 K8s Pod 里走 OpenAI Responses API；BYOA 在本地用 npx 挂 Claude Code 或 Codex，密钥不过服务器。协调层会拦过时回复、原子认领任务，并用轻量模型分诊以免每条消息都烧大模型。目前邀请制内测，支持本地部署（Postgres + Redis）。",
+      "recommend_reason": "把多 Agent 撞车、过时上下文和 Token 浪费写成了具体机制，不是又一个聊天壳。",
+      "tags": [
+        "Agent",
+        "开源",
+        "Claude Code"
+      ],
+      "rank": 16
+    }
+  ],
+  "generated_at": "2026-08-18T04:06:36Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 16,
+    "last_batch_added": 16,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
