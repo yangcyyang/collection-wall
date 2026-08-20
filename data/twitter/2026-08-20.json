@@ -9,6 +9,311 @@
   },
   "items": [
     {
+      "id": "2090469319050183160",
+      "author": "fortelabs",
+      "bio": "",
+      "text": "I gave Nick Milo my real, working Obsidian vault and asked him to read it cold, like a doctor reads an X-ray https://t.co/4gK3EOQpNP",
+      "likes": 0,
+      "views": 43,
+      "url": "https://x.com/i/status/2090469319050183160",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQLWw8mXoAEWORx.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQLWw8mXoAEWORx.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 52.3,
+      "created_at": "2026-08-20T16:01:39Z",
+      "summary": "我把自己真实在用的 Obsidian vault 交给 Nick Milo，请他像医生读 X 光片一样冷读诊断。",
+      "recommend_reason": "顶级知识管理作者用真实 vault 做冷读，比空谈方法更有对照价值。",
+      "tags": [
+        "Obsidian",
+        "知识管理"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2090463960600604762",
+      "author": "JulianGoldieSEO",
+      "bio": "",
+      "text": "Google Sheets just got an update nobody is talking about. And it turns boring data into a working app.\n\nMost teams waste hours staring at messy rows of text.\n\nNow you just type one simple sentence.\n\nGemini reads your data and builds a visual board.\n\nIt connects directly to your numbers.\n\nYou move a card on the board.\n\nYour spreadsheet updates in real time.\n\nIt works for member pipelines.\n\nIt works for content calendars.\n\nYou do not need to know how to code.\n\nJust open your file and click Create Canvas.",
+      "likes": 1,
+      "views": 827,
+      "url": "https://x.com/i/status/2090463960600604762",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2090463888861220864/vid/avc1/480x270/cbpXUyp0p4XA1-Wc.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2090463888861220864/img/s0Ngd9iR3TkJQENn.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 56.452,
+      "created_at": "2026-08-20T15:40:21Z",
+      "title": "Google Sheets 接入 Gemini：一句话把表格变成可视化看板",
+      "summary": "Google Sheets 更新后，你可以用一句话让 Gemini 读表并生成可视化看板；拖动卡片会实时回写表格数字。适用成员管线、内容日历等场景，不用写代码，打开文件点 Create Canvas 即可。",
+      "recommend_reason": "把「表格即应用」落到可拖拽看板，双向绑定数据对团队很实用。",
+      "tags": [
+        "Gemini",
+        "Google Sheets",
+        "产品"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2090460245508415491",
+      "author": "vista8",
+      "bio": "",
+      "text": "Raycast V2版本太好用了，比刚内测时好太多了。\n\nCloud 也能同步配置，也能迁移 v1 数据。\n\n最重要的是AI Chat 终于变成 Agent，且自带记忆系统。\n\n效率要起飞了！ https://t.co/1PAyWycVoU",
+      "likes": 0,
+      "views": 1499,
+      "url": "https://x.com/i/status/2090460245508415491",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQLOIzLaUAAOY-u.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQLOIzLaUAAOY-u.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 52.231,
+      "created_at": "2026-08-20T15:25:36Z",
+      "summary": "Raycast V2版本太好用了，比刚内测时好太多了。\n\nCloud 也能同步配置，也能迁移 v1 数据。\n\n最重要的是AI Chat 终于变成 Agent，且自带记忆系统。\n\n效率要起飞了！",
+      "recommend_reason": "V2 把 Chat 升成带记忆的 Agent，还补齐云同步和 v1 迁移。",
+      "tags": [
+        "Raycast",
+        "Agent",
+        "产品"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2090457103433638273",
+      "author": "vista8",
+      "bio": "",
+      "text": "Raycast V2内测版，增加了语音输入法，相当牛逼！\n\n产品设计灵活度极高，可自定义系统 Prompt。\n\n也能按不同软件，定义不同识别转写风格。\n\n能设定识别语言，哪怕不设置，识别率也很不赖（还有提升空间）。\n\n自定义快捷键，比如我设定按两下右侧Option触发。\n\n简直在教大家如何做AI语音输入法。 https://t.co/6OFEOHwoDw",
+      "likes": 4,
+      "views": 997,
+      "url": "https://x.com/i/status/2090457103433638273",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQLIttlbsAAlG6B.jpg",
+        "https://pbs.twimg.com/media/HQLI-toa4AAxOUu.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQLIttlbsAAlG6B.jpg",
+        "https://pbs.twimg.com/media/HQLI-toa4AAxOUu.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 57.665,
+      "created_at": "2026-08-20T15:13:06Z",
+      "summary": "Raycast V2内测版，增加了语音输入法，相当牛逼！\n\n产品设计灵活度极高，可自定义系统 Prompt。\n\n也能按不同软件，定义不同识别转写风格。\n\n能设定识别语言，哪怕不设置，识别率也很不赖（还有提升空间）。\n\n自定义快捷键，比如我设定按两下右侧Option触发。\n\n简直在教大家如何做AI语音输入法。",
+      "recommend_reason": "把 AI 语音输入法拆成可配置 Prompt、按应用风格和快捷键，产品细节很实。",
+      "tags": [
+        "Raycast",
+        "语音输入",
+        "产品"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2090453992052855087",
+      "author": "yaojingang",
+      "bio": "",
+      "text": "晚上研究了下反代，用国内某大厂的AI客户端来测试，不小心把它的系统提示词也给完整“反”了出来，漏洞还挺明显的\n\n提示词还是很系统，也相对复杂，三层记忆、技能与 MCP 路由、个人文件安全、交付物展示，连运行时和连接器状态都会被塞进了上下文\n\n接近6万字符的提示词体量，也暴露了重复、规则冲突和上下文成本问题\n\n（附系统提示词大纲截图）",
+      "likes": 4,
+      "views": 1272,
+      "url": "https://x.com/i/status/2090453992052855087",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQLIbOSbQAE9dG3.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQLIbOSbQAE9dG3.png"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 57.255,
+      "created_at": "2026-08-20T15:00:45Z",
+      "summary": "晚上研究了下反代，用国内某大厂的AI客户端来测试，不小心把它的系统提示词也给完整“反”了出来，漏洞还挺明显的\n\n提示词还是很系统，也相对复杂，三层记忆、技能与 MCP 路由、个人文件安全、交付物展示，连运行时和连接器状态都会被塞进了上下文\n\n接近6万字符的提示词体量，也暴露了重复、规则冲突和上下文成本问题\n\n（附系统提示词大纲截图）",
+      "recommend_reason": "从泄露的系统提示词反推商业 Agent 的记忆层、Skill/MCP 路由和上下文成本。",
+      "tags": [
+        "系统提示词",
+        "Agent",
+        "安全"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2090451287703761200",
+      "author": "abskoop",
+      "bio": "",
+      "text": "ChatGPT Ads 一口气进入 31 个欧洲核心广告市场\n\nChatGPT的广告只给 免费版 和 便宜的 Go 版 用户看\n\n目前不能自助开户，要通过 OpenAI 销售团队、代理商或技术合作伙伴投放\n\nAI 搜索广告正式进入全球化阶段\n\n难怪Google营销团队频繁在国内的平台投放出海的广告\n\n谷歌是感受到压力了？ https://t.co/cRHB9aEsjT",
+      "likes": 2,
+      "views": 4315,
+      "url": "https://x.com/i/status/2090451287703761200",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQK4ZVZbEAAl_6a.jpg",
+        "https://pbs.twimg.com/media/HQK4ba3bQAALIEn.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQK4ZVZbEAAl_6a.jpg",
+        "https://pbs.twimg.com/media/HQK4ba3bQAALIEn.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2087543301209817276",
+        "author": "abskoop",
+        "name": "ahhhhfs",
+        "text": "ChatGPT Ads 不再只是美国小范围测试了😂\n\nOpenAI 8 月 11 日正式把 Ads 扩到英国、日本、韩国、巴西和墨西哥，AI 搜索的商业化开始明显提速了 https://t.co/hpHx0tmc6f",
+        "created_at": "Wed Aug 12 14:14:42 +0000 2026",
+        "url": "https://x.com/abskoop/status/2087543301209817276",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HPhxd7rasAAwD8-.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HPhxd7rasAAwD8-.jpg"
+        ]
+      },
+      "score": 55.177,
+      "created_at": "2026-08-20T14:50:00Z",
+      "summary": "ChatGPT Ads 一口气进入 31 个欧洲核心广告市场\n\nChatGPT的广告只给 免费版 和 便宜的 Go 版 用户看\n\n目前不能自助开户，要通过 OpenAI 销售团队、代理商或技术合作伙伴投放\n\nAI 搜索广告正式进入全球化阶段\n\n难怪Google营销团队频繁在国内的平台投放出海的广告\n\n谷歌是感受到压力了？",
+      "recommend_reason": "广告只打免费/Go 用户、且走销售代理，说明 OpenAI 广告变现路线和边界。",
+      "tags": [
+        "ChatGPT",
+        "广告",
+        "商业"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2090450275274539382",
+      "author": "vincemask",
+      "bio": "",
+      "text": "很多 AI 编程框架喜欢把需求、规划、编码、\n测试串成一套固定流程。\n\n好处是流程完整，但一旦遇到特殊任务，调整起来就很麻烦。某个环节出了问题，也很难快速判断问题在哪。\n\nMatt Pocock 的思路更轻：把 Skill 做小，一个 Skill 只解决一类问题。\n\n比如：\n\n1、grill-with-docs：澄清需求，记录术语和关键决策\n\n2、to-spec：把讨论结果整理成可执行的规格\n\n3、tdd：约束测试驱动开发流程\n\n4、diagnosing-bugs：按固定步骤定位 Bug\n这些 Skill 没有强制的先后关系。可以单独使用，也可以根据任务自由组合。\n\n写新功能时，可以 grill-with-docs → to-spec → tdd；\n\n遇到线上问题，直接调用 diagnosing-bugs，没必要跑完整套流程。\n\n开发流程仍由开发者控制，Skill 只提供可复用的工程方法。\n\n好的 Skill 不需要接管整个开发过程。把经验拆得足够小、按需组合，反而更容易复用，也更容易维护。",
+      "likes": 3,
+      "views": 356,
+      "url": "https://x.com/i/status/2090450275274539382",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQLFb_RaEAEuNCu.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQLFb_RaEAEuNCu.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 43.027,
+      "created_at": "2026-08-20T14:45:58Z",
+      "title": "Matt Pocock 式 Skill：做小、可单用、按需组合",
+      "summary": "很多 AI 编程框架把需求到测试串成固定流水线，遇特殊任务难改、也难定位坏点。Matt Pocock 的思路是把 Skill 做小：grill-with-docs、to-spec、tdd、diagnosing-bugs 各管一类问题，可单用也可自由组合。开发流程仍由人掌控，Skill 只沉淀可复用方法。",
+      "recommend_reason": "把「大而全 Agent 流水线」掰成可组合小 Skill，对工程落地更务实。",
+      "tags": [
+        "Skill",
+        "工程方法",
+        "Agent"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2090447110168822128",
+      "author": "xiaoxiaodong01",
+      "bio": "",
+      "text": "GPT2 x 立体  x 模型  x 微缩 x 美学提示词 x VOL.028\n\n好喜欢这组提示词：\n\n它会把照片里的主角\n变成一个小小的纸上模型\n像被轻轻放进展台里\n\n有点像建筑沙盘\n也有点像生活我们认真拾掇起来~\n\n颜色还是从原图里来\n但会变得更柔和更耐看\n\n最后再放一点点文字\n像给这一瞬间留下一句轻轻的注解\n整张图，也就有了安静又很特别的感觉\n\nprompt by xiaoxiaodong：\n\n```\n🚗\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体结构、真实质感、自然光影和原有色彩氛围，仅进行轻微高级摄影调色，使其具有艺术杂志、独立出版物和展览摄影质感。为适配画幅，可自然扩展天空、地面或环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分提取照片中最具识别性的**主体、轮廓、姿态与叙事关系**，重构为精致的极简等距视角插画，如一件陈列在纸面上的微缩立体模型或建筑沙盘。不要机械复刻照片细节，而是以概括体块、清晰边缘、简洁层级和微型场景关系重新表达主体，使其保留一眼可辨的身份特征，同时具有安静、克制、诗意的编辑插画气质。\n\n整体采用**等距视角、微缩景观、纸面模型感**的构图逻辑：主体像被切割并安放在一小块纸面或微型基座上，周围保留大面积留白，通过体量对比、边缘裁切、轻微投影和少量微小细节建立尺度感与孤独感。可加入极少量辅助元素承托主体，但不得形成第二视觉中心。\n\n配色完全从上方原始照片中提取，优先保留最具辨识度、最有气质和最能代表主体的颜色，再将复杂色彩**归纳、提纯、柔化并统一为有限色盘**。保留原图的冷暖关系与色彩性格，但降低杂色和视觉噪声，使颜色更平静、克制、柔和、有纸上编辑插画感；通过同色深浅、邻近色关系和少量色差区分体块，不凭空加入与原图无关的固定色系。使用精细墨线、扁平色面、轻微阴影和纸张颗粒表现结构与层次。\n\n文字作为构图的一部分巧妙介入，从照片的主题、地点、动作、状态或情绪中提炼一个简短英文标题，并搭配极少量编号、短句或微型注释。文字保持细瘦、克制、现代编辑感，可沿留白边缘、主体基座、水平轴线或等距结构排列，与图形共同形成安静而精致的版式节奏。\n\n整体参考**极简等距插画、微缩立体模型、纸上景观和高级编辑设计**，呈现安静、诗意、克制、精致、具有收藏感的视觉气质。避免卡通感、高饱和撞色、与原图无关的固定配色、塑料3D感、复杂场景堆积、电商感和模板感。\n🚗\n```",
+      "likes": 56,
+      "views": 3329,
+      "url": "https://x.com/i/status/2090447110168822128",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQLBlW8bsAAsgzZ.jpg",
+        "https://pbs.twimg.com/media/HQLBmnobgAAbPcA.jpg",
+        "https://pbs.twimg.com/media/HQLBn1EawAAzAAw.jpg",
+        "https://pbs.twimg.com/media/HQLCQ9SaYAAnWya.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQLBlW8bsAAsgzZ.jpg",
+        "https://pbs.twimg.com/media/HQLBmnobgAAbPcA.jpg",
+        "https://pbs.twimg.com/media/HQLBn1EawAAzAAw.jpg",
+        "https://pbs.twimg.com/media/HQLCQ9SaYAAnWya.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2090444626285261046",
+        "author": "xiaoxiaodong01",
+        "name": "小小东",
+        "text": "GPT2 x 浮雕  x 金  x 高级 x 美学提示词 x VOL.027\n\n下半部分很妙：\n轮廓会留下来\n姿态会留下来\n关系也会留下来\n所以就算变得很极简\n你还是能一眼认出它是谁\n\n少量的金色装饰\n像光刚好停在重点元素上\n不抢戏、却很提气\n\n它既像摄影\n又像一件被收藏的纸上作品\n\n如下是完整提示词：\n\n```\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级摄影调色，使其具有艺术杂志、独立出版物与展览摄影质感。为适配画幅，可自然扩展天空、地面或环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分提取照片中最具识别性的**主体、轮廓、姿态与叙事关系**，重构为中国印压浮雕 / 纸雕凹凸质感的极简艺术海报。整体像压印在厚重乳白色纸张上，以浅浮雕、细腻阴影、极简线刻和克制层次重新概括主体，不机械复刻细节，而是保留最核心的结构特征与空间关系，使人一眼能够识别与上方为同一对象。根据主体类型，可将其转化为俯瞰、正视、微俯视或轴线延展的浅浮雕构图，并适度保留与主体相关的环境轮廓，使画面具有清晰主次、纵深秩序与博物馆展陈般的宁静感。\n\n整体以下半部分大面积乳白、暖白或浅纸色留白为基底，主体及相关元素统一以同色系浅浮雕呈现，通过压印高低差、边缘投影和细微明暗建立层次；可仅在主体最关键的局部结构或视觉焦点处加入少量哑金色细节与柔和暖白光感，用来强化核心识别点，避免颜色杂乱、过度装饰和堆砌场景。\n\n文字需转化为画面结构的一部分，而不是普通标题说明。从照片的主体身份、地点属性、主题气质、动作状态或象征意义中提炼简短文字，可使用**标题 + 关键词 + 少量编号、地点或微型注释 / 哲理金句**。文字采用克制的金色或深灰色衬线 / 高级编辑字体，可置于中央轴线、主体下方、留白边缘或与浮雕结构对齐，使其与压印主体共同形成秩序感与展览海报气质，而非后期贴上的信息层。\n\n整体风格追求**高级、宁静、极简、克制、东方美学、博物馆海报感与纸张雕塑感**。无论原图是建筑、人物、动物、植物、器物、交通工具或自然景观，下半部分都应保持真实摄影与压印浮雕重构之间清晰而优雅的视觉呼应。避免文字乱码、低清晰度、主体畸形、颜色杂乱、构图拥挤、廉价3D感和模板感。\n```",
+        "created_at": "Thu Aug 20 14:23:32 +0000 2026",
+        "url": "https://x.com/xiaoxiaodong01/status/2090444626285261046",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQK9HtNakAAKs-M.jpg",
+          "https://pbs.twimg.com/media/HQK9IsOa0AAUhMm.jpg",
+          "https://pbs.twimg.com/media/HQK9J1BbQAAcw2B.jpg",
+          "https://pbs.twimg.com/media/HQK9LLaa8AAeies.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQK9HtNakAAKs-M.jpg",
+          "https://pbs.twimg.com/media/HQK9IsOa0AAUhMm.jpg",
+          "https://pbs.twimg.com/media/HQK9J1BbQAAcw2B.jpg",
+          "https://pbs.twimg.com/media/HQK9LLaa8AAeies.jpg"
+        ]
+      },
+      "score": 68.019,
+      "created_at": "2026-08-20T14:33:24Z",
+      "title": "小小东放出微缩纸模美学提示词 VOL.028：照片变安静沙盘",
+      "summary": "这组提示词把照片主角收成纸上微缩立体模型或建筑沙盘：3:4 竖版上下对半分，上半保留原图质感，下半用等距极简插画概括轮廓与叙事，颜色从原图提纯，文字只作轻注脚。作者附了完整可复用 prompt，强调克制、留白和收藏感，避开卡通与模板感。",
+      "recommend_reason": "可直接拿去复刻的图像提示词，把「摄影+微缩插画」拆成可执行约束。",
+      "tags": [
+        "提示词",
+        "图像生成",
+        "设计"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2090440728346267930",
+      "author": "VigoCreativeAI",
+      "bio": "",
+      "text": "VISUAL OS 024 — After Hours Portals\nFour crafts. One portal system.\nSame rules. Different night.\nBLOOM — After Midnight / Fresh Cuts\nPATCH — Spin Cycle Fix / Road Tested\nCLAY — Heat Makes Form / One of One\nORBIT — Before Sunrise / Clear Skies\nLocked:\n– oversized condensed display type, cream on black, always cropped by the top edge\n– one circular reflective portal (fisheye distortion) as the sole frame\n– subject always mid-action, hands working, slightly dirty\n– distressed mint-green metal surface curving across the lower third\n– bold black secondary headline stacked against the green\n– single red rubber-stamp oval\n– small issue/volume number\n– cinematic night light + light film grain\nSwaps: craft / environment / secondary text / stamp / issue number\nReusable portal system for editorial, poster, and campaign work.\nPrompt ↓",
+      "likes": 7,
+      "views": 317,
+      "url": "https://x.com/i/status/2090440728346267930",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQK8w02WEAAAnqy.jpg",
+        "https://pbs.twimg.com/media/HQK8w27WIAAasWU.jpg",
+        "https://pbs.twimg.com/media/HQK8w6WXAAA9xzx.jpg",
+        "https://pbs.twimg.com/media/HQK8w0HXEAAyH_m.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQK8w02WEAAAnqy.jpg",
+        "https://pbs.twimg.com/media/HQK8w27WIAAasWU.jpg",
+        "https://pbs.twimg.com/media/HQK8w6WXAAA9xzx.jpg",
+        "https://pbs.twimg.com/media/HQK8w0HXEAAyH_m.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 66.954,
+      "created_at": "2026-08-20T14:08:02Z",
+      "title": "VISUAL OS 024：一套可复用的夜间门户视觉系统",
+      "summary": "Vigo 把 After Hours Portals 做成可复用视觉操作系统：四门类共用同一套规则——被裁切的奶油色浓缩大字、唯一圆形反射门户、动手中的脏手主体、薄荷绿金属下三分之一、红印章与期号。换掉工艺、环境、副标题和印章就能批量出编辑海报。",
+      "recommend_reason": "不是单张炫图，而是把锁定规则与可替换槽位写清楚的设计系统。",
+      "tags": [
+        "设计系统",
+        "提示词",
+        "视觉"
+      ],
+      "rank": 9
+    },
+    {
       "id": "2090286832319955414",
       "author": "elonmusk",
       "bio": "",
@@ -50,7 +355,7 @@
         "Grok Build",
         "产品"
       ],
-      "rank": 1
+      "rank": 10
     },
     {
       "id": "2090279328957538621",
@@ -79,7 +384,7 @@
         "开源",
         "记忆"
       ],
-      "rank": 2
+      "rank": 11
     },
     {
       "id": "2090278256306229675",
@@ -113,7 +418,7 @@
         "Agent",
         "认知"
       ],
-      "rank": 3
+      "rank": 12
     },
     {
       "id": "2090265895130321364",
@@ -141,7 +446,7 @@
         "开源",
         "3D"
       ],
-      "rank": 4
+      "rank": 13
     },
     {
       "id": "2090263512811819325",
@@ -170,7 +475,7 @@
         "Stripe",
         "产业"
       ],
-      "rank": 5
+      "rank": 14
     },
     {
       "id": "2090257538688373142",
@@ -199,7 +504,7 @@
         "设计",
         "开源"
       ],
-      "rank": 6
+      "rank": 15
     },
     {
       "id": "2090246288478814281",
@@ -241,7 +546,7 @@
         "Harness",
         "产品"
       ],
-      "rank": 7
+      "rank": 16
     },
     {
       "id": "2090234872942252135",
@@ -270,7 +575,7 @@
         "开源",
         "工具"
       ],
-      "rank": 8
+      "rank": 17
     },
     {
       "id": "2090215153245495489",
@@ -305,7 +610,7 @@
         "模型",
         "训练"
       ],
-      "rank": 9
+      "rank": 18
     },
     {
       "id": "2090173536010957128",
@@ -344,7 +649,7 @@
         "安全",
         "Codex"
       ],
-      "rank": 10
+      "rank": 19
     },
     {
       "id": "2090166128509096187",
@@ -387,7 +692,7 @@
         "Skill",
         "安全"
       ],
-      "rank": 11
+      "rank": 20
     },
     {
       "id": "2090165328290701800",
@@ -416,7 +721,7 @@
         "安全",
         "产品"
       ],
-      "rank": 12
+      "rank": 21
     },
     {
       "id": "2090144142366233008",
@@ -470,7 +775,7 @@
         "提示词",
         "设计"
       ],
-      "rank": 13
+      "rank": 22
     },
     {
       "id": "2090117512675659854",
@@ -502,26 +807,26 @@
         "开源",
         "Agent"
       ],
-      "rank": 14
+      "rank": 23
     }
   ],
-  "generated_at": "2026-08-20T06:49:05Z",
+  "generated_at": "2026-08-20T16:04:23Z",
   "selection": {
-    "target_count": 60,
-    "max_count": 60,
-    "per_run_max": 20,
+    "target_count": 30,
+    "max_count": 30,
+    "per_run_max": 15,
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 14,
-    "last_batch_added": 14,
+    "actual_count": 23,
+    "last_batch_added": 9,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
-    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤15；单日≤30不保底；追加按id去重。",
     "short_tweet": {
       "threshold_chars": 200,
       "title_optional": true,
