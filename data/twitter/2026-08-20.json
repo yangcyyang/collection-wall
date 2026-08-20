@@ -1,0 +1,532 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-20",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2090286832319955414",
+      "author": "elonmusk",
+      "bio": "",
+      "text": "Grok Build puts you in charge of your computer\n\nhttps://t.co/ppqui4IwBU",
+      "likes": 2243,
+      "views": "914867",
+      "created_at": "2026-08-20T03:56:31Z",
+      "url": "https://x.com/i/status/2090286832319955414",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "Grok Build",
+        "description": "Grok Build is now powered by Grok 4.6, our newest model — with a native subagent view, Plan Mode integration, mouse support, and a fullscreen terminal UI. Install with curl -fsSL https://x.ai/cli/i...",
+        "image_url": "https://pbs.twimg.com/card_img/2085599089140621312/oTaKva2u?format=jpg&name=600x600",
+        "url": "https://X.ai/build",
+        "domain": "x.ai"
+      },
+      "quoted_tweet": {
+        "id": "2090189407659999603",
+        "author": "XFreeze",
+        "name": "X Freeze",
+        "text": "Whenever you buy a new Windows laptop, one of the first things you should do is run Grok Build\n\nWindows and many laptop manufacturers ship PCs with a surprising amount of stuff you probably never asked for:\n\n• Trial antivirus and OEM apps\n• Preinstalled games and partner software\n• Ads, recommendations, news and widgets\n• Unnecessary startup/background apps\n• Temporary files and other clutter\n\nInstead of spending an hour digging through Windows settings and wondering what is safe to remove, let Grok Build audit the whole machine, figure out what is unnecessary and clean it up for you\n\nJust make sure it shows you the plan first and leaves drivers, security features and hardware-critical software alone\n\nStart with:\n“Audit this Windows PC and safely clean up everything unnecessary. Remove unwanted bloatware, trial software and preinstalled games, disable ads, recommendations, news/widgets and unnecessary startup/background apps, and clean temporary files. Do not touch drivers, Windows security, updates or anything required for the laptop’s hardware. Show me the plan first, then make the approved changes”\n\nA clean Windows install makes a brand-new laptop so much nicer to use",
+        "created_at": "Wed Aug 19 21:29:23 +0000 2026",
+        "url": "https://x.com/XFreeze/status/2090189407659999603",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQHXx4zbkAAiIl2.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQHXx4zbkAAiIl2.jpg"
+        ]
+      },
+      "score": 64.041,
+      "summary": "Grok Build 让你真正接管自己的电脑。",
+      "recommend_reason": "马斯克亲自推 Grok Build 管本机，引用里还给出了清 Windows 预装垃圾的可复制提示词。",
+      "tags": [
+        "Grok Build",
+        "产品"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2090279328957538621",
+      "author": "lxfater",
+      "bio": "",
+      "text": "如何让你的AI永不失忆呢？ \n\n大部分人保持AI记忆的方法就是用同一个窗口聊天，但这却是让你的AI越用越失忆的最大元凶！！ \n\nAI的上下文窗口，或者说记忆力是有限的，你不停对着一个窗口聊，它看的太多，不得不选择忘记一些东西。 当它忘记重要的事情后，给你的回答就会显得无比弱智。  \n\n下面我给你提供两个解决方案，一个手动的，一个自动的\n \n手动的方案是去管理Agent的三部分记忆：  \n\n即时记忆：把重要的信息写到Claude.md，AI永远不会忘记。 \n会话记忆：每次对话完后，要求AI记住相应的信息，需要时候AI就能回忆起来 \n长期记忆：使用llmwiki构建知识库，这种方式能记录大量信息，但AI不一定能回忆起来。  \n\n但让AI记得住信息还是不够：有时候你的AI可能会被封号（Claude），出bug记忆被清除（OpenClaw）\n\n所以，我们还需要备份AI的记忆。  这个流程手动做起来十分复杂，但幸运的是我们可以使用开源项目memmy自动化这个过程。  \n\n这个项目现在已经有快800star了！！  \n\n下面视频，我们将会了解到\n\n1. 了解这个产品的基本特性\n2. 安装并使用备份功能\n3. 验证记忆备份的安全性",
+      "likes": 49,
+      "views": "4325",
+      "created_at": "2026-08-20T03:26:42Z",
+      "url": "https://x.com/i/status/2090279328957538621",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2090279214142648320/vid/avc1/416x270/kj9pDM7U35C5wQRI.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2090279214142648320/img/dImCyEq25cQrxDub.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 67.542,
+      "title": "别把记忆塞进同一个聊天窗：Claude.md、会话回忆和 memmy 备份",
+      "summary": "岚叔说同一窗口越聊越失忆，因为上下文有限。他拆了三层：即时记忆写进 Claude.md；会话结束要求 AI 记住；长期用 llmwiki。但封号或清记忆还会丢，所以还要备份。他推荐开源项目 memmy 自动化备份，称已近 800 star，并演示安装、备份和安全性验证。",
+      "recommend_reason": "把「记忆」拆成写入、回忆和备份三步，还点了可装的开源工具。",
+      "tags": [
+        "Agent",
+        "开源",
+        "记忆"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2090278256306229675",
+      "author": "levie",
+      "bio": "",
+      "text": "There tends to be a debate between being an expert or generalist in the era of AI. So far, the experts appear to have the upper hand, and that’s not slowing down.\n\nAI makes it 10X easier to get started with any kind of task. Coding, legal work, research, financial analysis, and so on. But having the right judgment for how to direct the agent onto the right work, how to veer it to course correct it, being able to review or test the output, and having the right sense of what “good” looks like all requires a high degree of skill depending on the field.\n\nThat skill can be developed far faster due to AI for anyone interested, which is amazing for uplifting anyone in their career. But there’s no replacement to needing judgment and many of the core skills that go into most domains of work. \n\nAnd if anything, AI will be a technology that exacerbates differences in skill levels because the experts have far more leverage than ever before. Net net: don’t give up on being an expert at something.",
+      "likes": 183,
+      "views": "28782",
+      "created_at": "2026-08-20T03:22:26Z",
+      "url": "https://x.com/i/status/2090278256306229675",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2090077791278489800",
+        "author": "unclebobmartin",
+        "name": "Uncle Bob Martin",
+        "text": "It is amazing how much work it is to wrestle these agents to my will.  \n\nDon't get me wrong, it's crazy productive.  But it's also a lot of hard, focussed work.  All my software engineering and problem solving skills are brought into play -- even though I barely look at the code.",
+        "created_at": "Wed Aug 19 14:05:51 +0000 2026",
+        "url": "https://x.com/unclebobmartin/status/2090077791278489800",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 61.713,
+      "title": "AI 时代专家仍占上风：判断力决定 Agent 能不能用好",
+      "summary": "Box CEO Aaron Levie 认为，AI 让任何任务入门容易了十倍，但怎么指挥 Agent、纠偏、验收，以及知道什么叫「好」，仍依赖领域判断。技能可以用 AI 学得更快，却替代不了核心判断。AI 甚至会放大专家差距，因为专家杠杆更大。结论：别放弃成为某方面的专家。",
+      "recommend_reason": "把「会不会用 Agent」收成判断力和验收，不是再站队专家/通才。",
+      "tags": [
+        "Agent",
+        "认知"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2090265895130321364",
+      "author": "IndieDevHailey",
+      "bio": "独立开发者 · AI Builder\nAI × 全栈 × 增长\nGoViralX｜连接品牌与 KOL\n商务合作 & 品牌增长咨询：hailey_le_1",
+      "text": "腾讯混元刚开源了WorldClaw，世界之爪。\n\n你随便打一句话，它就能直接整出一个能随便逛、还能改的大3D世界。\n\n地形整体不乱，想要细节的地方也拉满，全是一个个能单独动的游戏资产，不是视频也不是高斯糊的。\n\n自己还会检查修正，穿模悬浮这些都能搞定，游戏引擎直接就能用。\n\n一句话就能造世界，牛呀～",
+      "likes": 12,
+      "views": 2204,
+      "created_at": "2026-08-20T02:33:19Z",
+      "url": "https://x.com/IndieDevHailey/status/2090265895130321364",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2090265177057062912/vid/avc1/480x270/xKWywHdE0Pj29fgN.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2090265177057062912/img/w7rJKjqxLHD6kN2K.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 60.151,
+      "summary": "腾讯混元刚开源了 WorldClaw，世界之爪。你随便打一句话，它就能直接整出一个能随便逛、还能改的大 3D 世界。地形整体不乱，想要细节的地方也拉满，全是一个个能单独动的游戏资产，不是视频也不是高斯糊的。自己还会检查修正，穿模悬浮这些都能搞定，游戏引擎直接就能用。一句话就能造世界，牛呀～",
+      "recommend_reason": "点出「可逛可改的资产世界」而不是视频或高斯糊，边界清楚。",
+      "tags": [
+        "混元",
+        "开源",
+        "3D"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2090263512811819325",
+      "author": "xiaohu",
+      "bio": "带你了解全球最前沿科技、AI动态...\n\nAI 精华，讲到你懂：https://t.co/nvuDIvoNg1",
+      "text": "Stripe 正式宣布以 75 亿美元的天价\n\n收购 AI 模型路由平台 OpenRouter\n\n对比 OpenRouter 几个月前（5月）仅 13 亿美元的估值，此次溢价极高。\n\n创始人将分得约 15 亿美元，投资人获得约 60 亿美元。\n\nOpenRouter的团队目前仅有 90 人...\n\n业务完全不受影响： 产品名称、现有架构、路线图和使命保持原样，现有用户的 API 对接方式完全不需要改动。\n\nOpenRouter 拥有超 1000 万开发者和企业用户，聚合了 400+ AI 模型，每天处理的推理量超过 10 万亿（10+ Trillion）tokens，成立以来推理量每年保持至少 10 倍的增长。。。",
+      "likes": 31,
+      "views": 7621,
+      "created_at": "2026-08-20T02:23:51Z",
+      "url": "https://x.com/xiaohu/status/2090263512811819325",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQIbkYob0AAeTKH.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQIbkYob0AAeTKH.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 62.486,
+      "title": "Stripe 75 亿美元买下 OpenRouter，产品和对接方式不变",
+      "summary": "小互转述：Stripe 正式宣布以 75 亿美元收购 AI 模型路由平台 OpenRouter，较 5 月约 13 亿美元估值溢价很高；创始人约分 15 亿，投资人约 60 亿。团队约 90 人。官方称产品名、架构、路线图和使命不变，现有 API 对接不用改。OpenRouter 聚合 400+ 模型，日推理量超 10 万亿 tokens。",
+      "recommend_reason": "金额、对价拆分和对用户「不用改对接」一次说清。",
+      "tags": [
+        "OpenRouter",
+        "Stripe",
+        "产业"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2090257538688373142",
+      "author": "GoSailGlobal",
+      "bio": "Show In Public ｜ SaaS 出海 ｜ 克尔凯郭尔种草🌿\n\nSkills hub：https://t.co/x1VU8wWNj1\n博客：https://t.co/ajYYIXGqFg\n\n🤝 合作DM：GoSail_AI\n📮：m17551076169@gmail.com\n\nMCN：collab@gosaillab.com",
+      "text": "离谱，一个做logo的技能48小时涨了849星\n\nip-as-logo-skill，一句话把任何IP做成圆润拟物风mascot，商用免费\n\n最妙的是它管得极细：轮廓限定6到10个基础形状，配色只锁三种，AI想画歪都难\n\nCursor、Codex、OpenCode一条命令就能装：npx skills add s1dashu/ip-as-logo-skill https://t.co/cahtAL6dmq",
+      "likes": 25,
+      "views": 2875,
+      "created_at": "2026-08-20T02:00:06Z",
+      "url": "https://x.com/GoSailGlobal/status/2090257538688373142",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2090257521219121152/vid/avc1/480x270/VxgATWSKS4sLq6BY.mp4?tag=14"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2090257521219121152/img/QhQHfvZJFotH40gV.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 63.257,
+      "title": "ip-as-logo-skill 两天 849 star：形状和配色都被锁死",
+      "summary": "一个把任意 IP 做成圆润拟物 mascot 的 skill，48 小时涨到 849 star，商用免费。约束很细：轮廓限定 6 到 10 个基础形状，配色只锁三种。安装：npx skills add s1dashu/ip-as-logo-skill，Cursor、Codex、OpenCode 都能用。",
+      "recommend_reason": "爆款原因写在约束上：形状和配色被锁死，AI 不容易画歪。",
+      "tags": [
+        "Skill",
+        "设计",
+        "开源"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2090246288478814281",
+      "author": "gdb",
+      "bio": "President & Co-Founder @OpenAI",
+      "text": "codex can power much more than coding tools: a tax-prep pilot processed 7,000 returns and cut preparation time by about a third.\n\nyou can build your own products on our codex open-source harness:",
+      "likes": 930,
+      "views": 110859,
+      "created_at": "2026-08-20T01:15:24Z",
+      "url": "https://x.com/gdb/status/2090246288478814281",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2090230646497251387",
+        "author": "OpenAIDevs",
+        "name": "OpenAI Developers",
+        "text": "Teams are using the open-source Codex harness to bring agents into the tools they already use, from internal apps to operations dashboards.\n\nTheir applications control the interface, context, tools, and approvals while the harness handles the agent loop.\n\nhttps://t.co/shi2vwqxh4",
+        "created_at": "Thu Aug 20 00:13:15 +0000 2026",
+        "url": "https://x.com/OpenAIDevs/status/2090230646497251387",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": [],
+        "card": {
+          "name": "summary_large_image",
+          "title": "Codex as a platform: build on the open agent harness | OpenAI Developers",
+          "description": "Build Codex into the products and workflows your users already know.",
+          "image_url": "https://pbs.twimg.com/card_img/2090230647763906560/jMFcepC5?format=jpg&name=800x320_1",
+          "url": "https://developers.openai.com/blog/codex-as-a-platform",
+          "domain": "developers.openai.com"
+        }
+      },
+      "score": 65.864,
+      "summary": "codex 能驱动的远不止编程工具：一个报税试点处理了 7000 份申报，把准备时间大约砍掉三分之一。你也可以基于他们的开源 Codex harness 做自己的产品。",
+      "recommend_reason": "把 Codex harness 从写代码扩到了有数字的业务试点。",
+      "tags": [
+        "Codex",
+        "Harness",
+        "产品"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2090234872942252135",
+      "author": "GoSailGlobal",
+      "bio": "Show In Public ｜ SaaS 出海 ｜ 克尔凯郭尔种草🌿\n\nSkills hub：https://t.co/x1VU8wWNj1\n博客：https://t.co/ajYYIXGqFg\n\n🤝 合作DM：GoSail_AI\n📮：m17551076169@gmail.com\n\nMCN：collab@gosaillab.com",
+      "text": "only-cli 做了一件很直觉的事：\n把网页变成命令行界面，让 AI agent 用 token 浏览而不是用像素\n\n一个典型网页几万 token 的 HTML\n真正有用的信息几百 token 就够了\noc 把页面蒸馏成编号列表，agent 按编号操作：\n\n$ oc open https://t.co/ArZTFuVYxi\n# Hacker News\n[1] Show HN: I built a tiny CSV toolkit\n[2] 312 comments\nactions: do <n> | raw <url>\n\n$ oc do 1\n\n实测数据（4 个真实任务）：\nraw HTML：65,372 token\noc open：1,444 token\n压缩 45 倍，多花 350ms\n\n一个 Reddit 帖子从 52,899 token 压到 477\n\n不需要浏览器插件、不需要 per-site 适配器\n一个通用蒸馏引擎处理所有静态页面\n已有 HN / Reddit / DuckDuckGo / Bing 的快捷命令\n\n安装就一行：\nnpm install -g @only-cli/oc\n\n还很早期（0 star），但思路清晰\nv0.2 加交互，v0.3 加 headless JS 渲染\n\nhttps://t.co/e03KsqpQ0Z",
+      "likes": 14,
+      "views": 1758,
+      "created_at": "2026-08-20T00:30:03Z",
+      "url": "https://x.com/GoSailGlobal/status/2090234872942252135",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQIBifib0AAjNg1.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQIBifib0AAjNg1.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 63.951,
+      "title": "only-cli：把网页蒸馏成编号列表，Agent 少吃 45 倍 token",
+      "summary": "only-cli 把网页变成命令行界面，让 Agent 吃 token 而不是像素。典型页面几万 token HTML，有用信息往往几百就够；oc 蒸馏成编号列表，用 oc do n 操作。实测 4 个任务：原始 HTML 65372 token，oc open 1444，压缩约 45 倍，多花 350ms。安装：npm install -g @only-cli/oc。还很早期，但思路清楚。",
+      "recommend_reason": "给了可核对的压缩比和安装命令，不是空谈 browser agent。",
+      "tags": [
+        "Agent",
+        "开源",
+        "工具"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2090215153245495489",
+      "author": "dotey",
+      "bio": "AI Engineer, dedicated to learning and disseminating knowledge about AI, software engineering, and engineering management.",
+      "text": "智谱联合创始人唐杰老师关于 GLM 5.3 以及模型训练的一些分享：\n\n智谱 GLM-5.3 没有换基模底座，纯靠后训练让编码能力提升 50%。\n\nGLM-5.3 模型的底座是 GLM-5.2，约 743B 参数的混合专家（MoE）模型，每次推理只激活约 40B 参数。团队花了一个月，在长周期环境中做强化学习，编码能力比 GLM-5.2 提升了 50%。\n\n这里解释一下 MoE：传统模型每次推理要跑完所有参数，MoE 相当于把模型拆成一群“专家”，每次只调用其中几个，推理速度更快、成本更低。\n\n推文中特别区分了两个概念：\n1. 总参数量决定模型学习了多少知识\n2. 激活参数量和有效深度决定模型能想多深。\n\n比如说，让模型去找安全漏洞，主要是依赖的是推理能力，能把一条二十步的推理链完整走到底，相对来说各种安全数据库是次要的。\n\n至于为什么不换底座也能大幅提升呢？\n\nAI 模型的扩展（scaling）不止堆参数这一条途径。\n\n如果梳理下这些年模型训练的发展路线：\n\n- 2020 年 Kaplan 等人的研究建议参数增长要远快于数据，GPT-3、Gopher 都是这个思路的产物。\n\n- 2022 年 DeepMind 的 Chinchilla 论文则认为参数和数据应该同步增长，参数大的模型反而是最浪费算力的。\n\n- 再后来，大家发现模型上线后推理成本远超训练成本，最优解又变成了用更小的模型训更久，比如 Llama-2-7B 每个参数喂了约 290 个 token，Gemma-2-9B 更是喂了 889 个。\n\n模型能力由很多因素决定：底座大小、预训练数据量、每次前向传播的计算量、后训练。\n\n对于现阶段，模型后训练还有很大潜力可以挖掘。",
+      "likes": 89,
+      "views": 39221,
+      "created_at": "2026-08-19T23:11:41Z",
+      "url": "https://x.com/dotey/status/2090215153245495489",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2089941544581403107",
+        "author": "jietang",
+        "name": "jietang",
+        "text": "Thoughts About Scaling Law\n\nScaling, but not only of parameters. Every model release now ends with the same question: how many parameters? It isn't a question that can be answered on its own. Parameter count is only meaningful alongside three others — how much data you have, where you intend to spend your compute, and who will run the model, under what conditions.\n\nThe field learned this the hard way. Kaplan et al. (2020) fit an exponent that told everyone to grow parameters faster than data — roughly 2.7:1 — and the industry complied: GPT-3, Gopher, MT-NLG. Hoffmann et al. (2022) redid the experiment across four hundred models and found the compute-optimal split is closer to 20 tokens per parameter, and that with sufficient compute the two should grow at the same rate rather than drifting apart. The error in the earlier fit compounded with every order of magnitude of compute, which is why the largest models of that generation were the most misallocated. The trillion-parameter round was, in retrospect, a detour the whole field took together and then reversed.\n\nChinchilla wasn't the end either. It optimized training compute for models that would be trained once and evaluated. Today a model is called billions of times a day and inference dominates lifetime cost. Put inference into the objective and the optimum moves toward smaller models trained far longer — deliberate over-training, which is what Llama-2-7B and Gemma-2-9B were doing at roughly 290 and 889 tokens per parameter.\n\nSparsity moved the target again. In a MoE model two quantities have to be kept apart: total parameters govern roughly how much the model can hold — knowledge, facts, the long tail — while activated parameters and effective depth govern roughly how far it can think, how many steps of a causal chain it can carry before it comes apart. A dense 20:1 ratio does not transfer. And the ratio isn't a single number at all: Roberts et al. (2025) find the optimal tokens-per-parameter is task-dependent, with memorization favoring more parameters and reasoning favoring more data. Follow-up work on MoE observes that at fixed TPP, pushing total parameters higher actually degrades reasoning, while activating more experts reliably helps it.\n\nThis matters for what we are building toward. Finding a vulnerability is not a retrieval problem. It doesn't come from having memorized more CVEs; it comes from carrying a twenty-step chain of inference to the end without losing the thread. That capability does not live in total parameter count.\n\nWhich brings us to this release. Total parameters appear to matter up to a threshold — enough to hold the world — after which additional capability comes from scaling elsewhere: effective depth per forward pass, and above all post-training. GLM-5.3 is our controlled experiment on that claim. Same base, same architecture, same total and activated parameters as GLM-5.2. One month of scaling long-horizon environments and RL. The gains are not marginal. Well, scaling has more than one dial. We turned the post-training one this time because it had the most slack left in it — not because the others are finished. Base model size, pretraining data, compute spent per forward pass: all of them are still on the table, and we will come back to each. What this experiment taught us is that the dials do not have to be turned together, and that the one worth turning next is rarely the one that was worth turning last. We are not done scaling. Next time, maybe mid-training, pre-training, and even more.",
+        "created_at": "Wed Aug 19 05:04:28 +0000 2026",
+        "url": "https://x.com/jietang/status/2089941544581403107",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 59.872,
+      "title": "唐杰谈 GLM-5.3：同底座后训练一个月，编码能力抬 50%",
+      "summary": "宝玉转述智谱唐杰：GLM-5.3 没换底座，仍是 GLM-5.2 那套约 743B MoE、每次激活约 40B；靠一个月长周期环境强化学习，编码能力比 5.2 提升约 50%。他区分总参数决定装了多少知识，激活参数和有效深度决定能想多深；并回顾 Kaplan、Chinchilla 到过训练小模型的路线，结论是后训练还有很大空间。",
+      "recommend_reason": "把「不换底座也能涨」讲成可核对的实验设定，不是口号。",
+      "tags": [
+        "GLM-5.3",
+        "模型",
+        "训练"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2090173536010957128",
+      "author": "thsottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "text": "Today we’re previewing Private Safety Processing, designed to let us keep offering Zero Data Retention while improving our safeguards. Even when benefiting from frontier intelligence, customers shouldn’t have to give up control of sensitive data.\n\nFor ZDR deployments, content stays on infrastructure the customer controls. Automated systems look for patterns across related interactions and return limited safety signals, without exposing the underlying prompts or responses to OpenAI employees (even me!).\n\nWe’re also developing an OpenAI-hosted option encrypted with customer-controlled keys. We’re testing this with early customers now and plan to begin rolling it out in September.",
+      "likes": 2076,
+      "views": 382332,
+      "created_at": "2026-08-19T20:26:19Z",
+      "url": "https://x.com/thsottiaux/status/2090173536010957128",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2090165328290701800",
+        "author": "OpenAI",
+        "name": "OpenAI",
+        "text": "We will continue to offer Zero Data Retention for frontier models.\n\nAs AI takes on longer, more autonomous work and delivers greater value to businesses, safety systems also need to identify risks across related interactions. \n\nTo help address those risks, we're previewing Private Safety Processing, which is designed to improve safety without giving OpenAI personnel access to the underlying content.",
+        "created_at": "Wed Aug 19 19:53:42 +0000 2026",
+        "url": "https://x.com/OpenAI/status/2090165328290701800",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQHCFkxbYAAkSFJ.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQHCFkxbYAAkSFJ.jpg"
+        ]
+      },
+      "score": 68.192,
+      "title": "Private Safety Processing：零留存部署里只回传有限安全信号",
+      "summary": "Codex 产品负责人 Tibo 补充：Private Safety Processing 是为了在继续提供 ZDR 的同时加强防护。ZDR 部署里内容留在客户控制的基础设施上，自动化系统只看相关交互的模式并回传有限安全信号，不把提示词和回复暴露给 OpenAI 员工。他们还在做客户密钥加密的 OpenAI 托管选项，已在早期客户测试，计划 9 月开始放量。",
+      "recommend_reason": "比官宣多了部署边界和 9 月时间表，企业能判断自己能不能接。",
+      "tags": [
+        "OpenAI",
+        "安全",
+        "Codex"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2090166128509096187",
+      "author": "NousResearch",
+      "bio": "A bunch of nerds making progress\n\nhttps://t.co/vrD0aDIGDQ",
+      "text": "Hermes now leverages NVIDIA's SkillEvaluator on skill installs, checking for PII, leaked secrets, Unicode smuggling, licensing and security issues before you confirm.\n\nWe pointed it at our own bundled skills first, and used what it found to improve 11 of them. https://t.co/7l1cSz9UlM",
+      "likes": 1320,
+      "views": 74488,
+      "created_at": "2026-08-19T19:56:53Z",
+      "url": "https://x.com/NousResearch/status/2090166128509096187",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQHDBGUX0AAdV-k.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQHDBGUX0AAdV-k.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2090113635683340622",
+        "author": "NVIDIAAI",
+        "name": "NVIDIA AI",
+        "text": "We benchmarked 300+ NVIDIA verified skills to see how much they actually help agents on real tasks.\n\nSame task, same model, same setup. The only difference was whether the agent had the skill.\n\nAcross the benchmarks, skills improved correctness by 41 points, effectiveness by 39, and efficiency by 35.\n\nSkillEvaluator is open source if you want to test your own skills before you ship them.",
+        "created_at": "Wed Aug 19 16:28:17 +0000 2026",
+        "url": "https://x.com/NVIDIAAI/status/2090113635683340622",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQGQwa2bEAE0QNn.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQGQwa2bEAE0QNn.jpg"
+        ]
+      },
+      "score": 75.87,
+      "title": "Hermes 装 Skill 前先过 NVIDIA SkillEvaluator，还修了自带 11 个",
+      "summary": "Nous Research 让 Hermes 在安装 skill 时调用 NVIDIA 的 SkillEvaluator，先查 PII、密钥泄露、Unicode 夹带、许可证和安全问题，再让你确认。他们先拿自带 skill 跑了一遍，并据此改掉了其中 11 个。引用里 NVIDIA 说验证过的 300+ skill 平均把正确性抬高 41 分，SkillEvaluator 已开源。",
+      "recommend_reason": "官方把「装 skill 前先安检」做成产品步骤，还用自家包做了对照实验。",
+      "tags": [
+        "Hermes",
+        "Skill",
+        "安全"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2090165328290701800",
+      "author": "OpenAI",
+      "bio": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: https://t.co/dJGr6LgzPA",
+      "text": "We will continue to offer Zero Data Retention for frontier models.\n\nAs AI takes on longer, more autonomous work and delivers greater value to businesses, safety systems also need to identify risks across related interactions. \n\nTo help address those risks, we're previewing Private Safety Processing, which is designed to improve safety without giving OpenAI personnel access to the underlying content.",
+      "likes": 3167,
+      "views": 776392,
+      "created_at": "2026-08-19T19:53:42Z",
+      "url": "https://x.com/OpenAI/status/2090165328290701800",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQHCFkxbYAAkSFJ.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQHCFkxbYAAkSFJ.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 72.993,
+      "title": "OpenAI 继续提供前沿模型 ZDR，并预告 Private Safety Processing",
+      "summary": "OpenAI 说会继续给前沿模型提供 Zero Data Retention。随着 AI 承担更长、更自主的工作，安全系统也需要识别跨多轮相关交互的风险。为此他们预告 Private Safety Processing：提升安全能力，但不把底层内容交给 OpenAI 员工查看。",
+      "recommend_reason": "企业最关心的 ZDR 没砍，还把「怎么在零留存里做安全」摊开了。",
+      "tags": [
+        "OpenAI",
+        "安全",
+        "产品"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2090144142366233008",
+      "author": "xiaoxiaodong01",
+      "bio": "国际，不知名、顶级图片提示词专家\nskills/chrom plugin/prompt/art\n星球成员提示词库：2.2万套，下方网址开\nWeChat:：newbe2012",
+      "text": "GPT2 x 复古 x 扁平 x 美学提示词 x VOL.019\n\n如果你想让文字适配你语言，可以在提示词最后一行\n补充一句，你的语言偏好\n这样就能得到更适合的版本\n\n比如“语言偏好：西班牙语”\n\n这个用法，我所有版本的提示词，都适用。\n\nXXD完整提示词 ⤵️\n\n```\n\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体结构、真实质感、自然光影和原有色彩氛围，仅进行轻微高级摄影调色，使其具有艺术杂志、独立出版物与展览摄影质感。为适配画幅，可自然扩展天空、地面或环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分提取照片中最具识别性的**主体、轮廓、姿态与叙事关系**，重构为复古现代主义平面插画。不要机械描摹细节，而是将主体概括为清晰剪影、几何色块、硬朗切面与简洁曲线，保留最关键的比例、轮廓、动作和结构特征，使其一眼能够对应上方原物。构图强调视觉重心、尺度反差、前后层级、正负形和几何节奏，可适度放大、裁切、偏置或叠压主体，用少量辅助形体建立空间，不做复杂写实场景。\n\n配色从上方照片中提取最具辨识度和精气神的颜色，重新整理为**3–5色复古限定色盘**，通过主色、深色结构色、浅色背景和少量对比色建立清晰层级。颜色可以适度提纯和艺术化转译，呈现温暖、鲜明、克制的旧印刷与现代平面设计气质，避免灰脏、霓虹、多色混杂、复杂渐变和廉价卡通感。\n\n文字建立**现代主义编辑式排版系统**，语言优先跟随用户的语言偏好与当前输入语言，不固定使用英文。从照片的主体身份、动作、情绪、场所、材质或隐喻中提炼一个简短主标题，并搭配2–4组极小辅助文字，可使用短句、地点或对象信息、编号、序列号、状态词、方向词、分类标签或微型说明，不使用年份。必要时可少量混用另一种语言作为编辑性点缀，但主信息始终以用户偏好的语言为主。文字可与几何图形形成对齐、切割、穿插、环绕、压角、纵排或跨越色块的关系，通过字号反差、粗细字重、字距与严格网格建立视觉秩序，使排版本身成为插画构图的一部分。\n\n整体呈现**真实摄影 × 复古平面插画 × 高级编辑设计**的视觉气质，简洁、鲜明、几何、时髦、克制而富有图形张力，兼具经典海报的视觉力度与当代设计系统感。避免写实插画、复杂纹理、3D渲染、UI界面感、商业素材感和模板化矢量插画。\n\n```",
+      "likes": 175,
+      "views": 13966,
+      "created_at": "2026-08-19T18:29:31Z",
+      "url": "https://x.com/xiaoxiaodong01/status/2090144142366233008",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQGvA3TasAAH3cc.jpg",
+        "https://pbs.twimg.com/media/HQGvA3RbgAA_3_D.jpg",
+        "https://pbs.twimg.com/media/HQGvA3RbAAAP0Wj.jpg",
+        "https://pbs.twimg.com/media/HQGvA3aboAAuH6f.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQGvA3TasAAH3cc.jpg",
+        "https://pbs.twimg.com/media/HQGvA3RbgAA_3_D.jpg",
+        "https://pbs.twimg.com/media/HQGvA3RbAAAP0Wj.jpg",
+        "https://pbs.twimg.com/media/HQGvA3aboAAuH6f.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2090140034926350693",
+        "author": "xiaoxiaodong01",
+        "name": "小小东",
+        "text": "GPT2 x 剪纸 x 手工  x 美学提示词 x VOL.018\n\n后续时间充足，这个系列每组提示词，我将转换成skills\n更稳定高效的提供这组提示词的使用方式\n\n期待！\n提示词在下面⤵️\n\n```\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体结构、真实质感、自然光影和原有色彩氛围，仅进行轻微高级摄影调色，使其具有艺术杂志、独立出版物和展览摄影质感。为适配画幅，可自然扩展天空、地面或环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分提取照片中最具识别性的**主体、轮廓、姿态与叙事关系**，重构为极简手工层叠剪纸与纸雕拼贴。以一个核心主体作为视觉锚点，用折叠、切割、层叠和遮挡重新概括其关键轮廓、比例与结构，不机械复刻细节；再从原图选择少量环境关系转化为前景、中景与背景纸层，通过尺度差、轴线、正负形、前后遮挡和大面积留白建立清晰层级，使主体一眼可辨，同时具有现代编辑构图的克制与秩序。\n\n配色从上方照片中提取最有辨识度、最有精气神的颜色，转化为有限而协调的纸张色组，以暖象牙或浅色纸面为基底，通过主色、深色结构色、浅色层次与极少量强调色建立空间。使用细腻哑光卡纸、可见纸纤维、清晰切边和柔和接触阴影，光线自然漫射，突出折层厚度与真实手工触感，避免塑料3D、廉价卡纸、霓虹色和复杂渐变。\n\n文字建立完整的**高级编辑式微排版系统**。从照片的主体身份、地点、动作、材质、情绪或象征意义中提炼一个简短主标题，同时搭配2–4组极小辅助文字，可灵活组合对象名称、地点信息、编号、章节标记、序列号、坐标式数字、方向词、状态词、材质词、分类标签或一句极短的诗意注释，不使用年份。主标题负责识别与情绪，小字负责秩序、节奏与精致感。\n\n文字必须与剪纸图形共同构图，可沿纸层边缘、主体轮廓、几何轴线或负空间排列，也可采用横排、竖排、旋转、宽字距、贴边、压角、跨越色块、嵌入纸层之间或与主体发生遮挡和穿插。主标题可适度转化为剪纸或折纸字形，小字则保持纤细、克制的现代编辑排版，通过字号反差和方向变化形成阅读路径，使**纸艺负责视觉记忆，微型文字负责高级秩序**。\n\n整体呈现**真实摄影 × 手工剪纸 × 高级编辑设计**的视觉气质，干净、优雅、触感细腻、现代而有收藏感。无论主体是人物、动物、植物、建筑、器物、交通工具或自然景观，都保持一个核心主体、少量纸层、大面积留白和精密微排版，避免儿童手工感、复杂堆积、重复主体、电商展示感和模板感。\n```",
+        "created_at": "Wed Aug 19 18:13:11 +0000 2026",
+        "url": "https://x.com/xiaoxiaodong01/status/2090140034926350693",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQGp3Pia0AAXOkG.jpg",
+          "https://pbs.twimg.com/media/HQGp5hwbIAAWoQm.jpg",
+          "https://pbs.twimg.com/media/HQGp7wHbkAAnlay.jpg",
+          "https://pbs.twimg.com/media/HQGp9k_aoAAmRRS.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQGp3Pia0AAXOkG.jpg",
+          "https://pbs.twimg.com/media/HQGp5hwbIAAWoQm.jpg",
+          "https://pbs.twimg.com/media/HQGp7wHbkAAnlay.jpg",
+          "https://pbs.twimg.com/media/HQGp9k_aoAAmRRS.jpg"
+        ]
+      },
+      "score": 68.972,
+      "title": "复古扁平海报提示词，最后一行加语言偏好就能换文案语种",
+      "summary": "小小东放出 VOL.019：照片上半保留，下半抽成复古现代主义平面插画，配色收成 3–5 色。关键技巧是在提示词最后补「语言偏好：西班牙语」这类一行，文案就会跟着用户语言走，不默认英文。完整提示词也贴出来了。",
+      "recommend_reason": "可复用的不只是画风，还有「语言偏好」这一行通用改法。",
+      "tags": [
+        "提示词",
+        "设计"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2090117512675659854",
+      "author": "jakevin7",
+      "bio": "Building https://t.co/3kGDPSgMGW & https://t.co/1aJnnxFlma  & https://t.co/IXRkk1MroF\nAI enthusiast ! Love open source! ExDatabaseer.\nApache Arrow/Datafusion/Doris PMC member",
+      "text": "Apache 孵化器迎来了第一个 Agent Harness 项目 —— Apache Maka (Incubating) 🎉\nhttps://t.co/oU5BK2AfcQ\n\nMaka 目前是性能最前沿的 agent 之一，持续的打磨了Harness 效果和经济性，在benchmark上取得了顶尖的分数和排名，且报告完全开源可复现。\n\n—\nMaka 将是一个完全开源&中立，自研 Harness 核心的 Agent 项目。项目由社区协作推，builder群非常活跃，项目推进速度极快。\nMaka 的仓库建于今年 5 月 27 日,到 7 月底、10 周时间：71 万行 TypeScript（其中 35 万行是测试，949 个测试文件）、2439 commits、1218 个已合并 PR、合并率 93.8%、PR 合并中位数 33.5 分钟。光 7 月就合了 943 个 PR。\n—\n\n为什么要捐给 Apache？\n\n因为 harness 这一层，正在变成各家模型厂的私产。每家都在做自己的官方 CLI，而开放模型的生态里，缺一个不偏袒任何一家、又能把开放模型性能榨到极致的 harness。\nMaka 的愿景：做最适配各种开放模型的高性能 Harness。\n这次捐献也是我们对 AI Agent 时代开源模式的一次探索\n\n如果你也在做 agent harness，欢迎来 star、提 issue，或者认领一个 good first issue：https://t.co/oU5BK2AfcQ",
+      "likes": 445,
+      "views": 42228,
+      "created_at": "2026-08-19T16:43:42Z",
+      "url": "https://x.com/jakevin7/status/2090117512675659854",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "GitHub - apache/maka: Maka — local-first AI desktop assistant",
+        "description": "Maka — local-first AI desktop assistant. Contribute to apache/maka development by creating an account on GitHub.",
+        "image_url": "https://pbs.twimg.com/card_img/2090116938630565888/EFB6k1Qj?format=jpg&name=600x600",
+        "url": "https://github.com/apache/maka",
+        "domain": "github.com"
+      },
+      "quoted_tweet": null,
+      "score": 67.123,
+      "title": "Apache 孵化器迎来首个 Agent Harness：Maka",
+      "summary": "jakevin 介绍 Apache Maka（孵化中）：自称性能前沿的自研 Harness，benchmark 报告开源可复现。仓库从 5 月 27 日到 7 月底约 10 周：71 万行 TypeScript（含 35 万行测试）、2439 commits、1218 个已合并 PR，合并中位数 33.5 分钟。捐给 Apache 的理由是：各家模型厂都在把 harness 做成私产，开放模型缺一个不偏袒任何一家的高性能 harness。",
+      "recommend_reason": "工程账本和捐献动机都写清楚了，不是又一条「某 harness 开源」通稿。",
+      "tags": [
+        "Harness",
+        "开源",
+        "Agent"
+      ],
+      "rank": 14
+    }
+  ],
+  "generated_at": "2026-08-20T06:49:05Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 14,
+    "last_batch_added": 14,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
