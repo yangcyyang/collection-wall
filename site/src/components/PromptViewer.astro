@@ -1,0 +1,112 @@
+<div class="prompt-viewer" hidden data-prompt-viewer>
+  <button type="button" class="prompt-viewer-backdrop" data-viewer-close aria-label="关闭查看器"></button>
+  <div class="prompt-viewer-dialog" role="dialog" aria-modal="true" aria-label="同组大图">
+    <button type="button" class="prompt-viewer-close" data-viewer-close>关闭</button>
+    <button type="button" class="prompt-viewer-nav is-prev" data-viewer-prev aria-label="上一张">‹</button>
+    <figure class="prompt-viewer-stage" data-viewer-stage>
+      <img data-viewer-image alt="" referrerpolicy="no-referrer" />
+      <figcaption class="prompt-viewer-status" data-viewer-status></figcaption>
+    </figure>
+    <button type="button" class="prompt-viewer-nav is-next" data-viewer-next aria-label="下一张">›</button>
+  </div>
+</div>
+
+<script>
+  const viewer = document.querySelector("[data-prompt-viewer]");
+  const imageEl = viewer?.querySelector("[data-viewer-image]");
+  const statusEl = viewer?.querySelector("[data-viewer-status]");
+  const prevBtn = viewer?.querySelector("[data-viewer-prev]");
+  const nextBtn = viewer?.querySelector("[data-viewer-next]");
+  const stage = viewer?.querySelector("[data-viewer-stage]");
+  const closeBtn = viewer?.querySelector(".prompt-viewer-close");
+
+  let urls = [];
+  let index = 0;
+  let lastTrigger = null;
+  let pointerX = 0;
+  let pointerOn = false;
+
+  function setImages(itemId) {
+    return [...document.querySelectorAll(`[data-prompt-card][data-item-id="${CSS.escape(itemId)}"]`)]
+      .map((card) => ({
+        url: card.querySelector("img")?.getAttribute("src") ?? "",
+        order: Number(card.getAttribute("data-image-index") ?? 0),
+      }))
+      .filter((item) => item.url)
+      .sort((a, b) => a.order - b.order)
+      .map((item) => item.url);
+  }
+
+  function render() {
+    if (!imageEl || !statusEl) return;
+    imageEl.src = urls[index] ?? "";
+    statusEl.textContent = urls.length ? `${index + 1} / ${urls.length}` : "";
+    const many = urls.length > 1;
+    if (prevBtn) prevBtn.hidden = !many;
+    if (nextBtn) nextBtn.hidden = !many;
+  }
+
+  function open(itemId, startIndex, trigger) {
+    urls = setImages(itemId);
+    if (!urls.length || !viewer) return;
+    index = Math.min(Math.max(startIndex, 0), urls.length - 1);
+    lastTrigger = trigger ?? null;
+    viewer.hidden = false;
+    document.body.classList.add("prompt-viewer-open");
+    render();
+    closeBtn?.focus();
+  }
+
+  function close() {
+    if (!viewer || viewer.hidden) return;
+    viewer.hidden = true;
+    document.body.classList.remove("prompt-viewer-open");
+    urls = [];
+    lastTrigger?.focus();
+    lastTrigger = null;
+  }
+
+  function step(delta) {
+    if (urls.length < 2) return;
+    index = (index + delta + urls.length) % urls.length;
+    render();
+  }
+
+  document.querySelectorAll("[data-open-viewer]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const card = button.closest("[data-prompt-card]");
+      if (!card) return;
+      open(card.getAttribute("data-item-id") ?? "", Number(card.getAttribute("data-image-index") ?? 0), button);
+    });
+  });
+
+  viewer?.querySelectorAll("[data-viewer-close]").forEach((button) => {
+    button.addEventListener("click", close);
+  });
+  prevBtn?.addEventListener("click", () => step(-1));
+  nextBtn?.addEventListener("click", () => step(1));
+
+  document.addEventListener("keydown", (event) => {
+    if (!viewer || viewer.hidden) return;
+    if (event.key === "Escape") close();
+    if (event.key === "ArrowLeft") step(-1);
+    if (event.key === "ArrowRight") step(1);
+  });
+
+  stage?.addEventListener("pointerdown", (event) => {
+    if (event.target.closest("button")) return;
+    pointerOn = true;
+    pointerX = event.clientX;
+  });
+  stage?.addEventListener("pointerup", (event) => {
+    if (!pointerOn) return;
+    pointerOn = false;
+    const delta = event.clientX - pointerX;
+    if (Math.abs(delta) >= 40) {
+      step(delta < 0 ? 1 : -1);
+      return;
+    }
+    const box = stage.getBoundingClientRect();
+    step(event.clientX < box.left + box.width / 2 ? -1 : 1);
+  });
+</script>

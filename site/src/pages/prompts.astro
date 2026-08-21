@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import PromptViewer from "../components/PromptViewer.astro";
 import { formatPromptEyebrow, getPromptCards } from "../lib/prompts";
 
 const cards = await getPromptCards();
@@ -19,7 +20,7 @@ const eyebrow = formatPromptEyebrow(cards);
         <div>
           <p class="eyebrow">{eyebrow}</p>
           <h1>提示词</h1>
-          <p class="intro">每张卡片是一张图。点底部按钮复制对应推文的生图提示词，原图可跳转推文。</p>
+          <p class="intro">每张卡片是一张图。点图片查看同一提示词的其他大图，底部按钮复制提示词，「原推」打开推文。</p>
         </div>
         <p class="record-count">{cards.length} 张图已收录</p>
       </header>
@@ -41,10 +42,10 @@ const eyebrow = formatPromptEyebrow(cards);
       ) : (
         <section class="prompt-masonry" aria-label="提示词图片墙">
           {cards.map((card) => (
-            <article class="prompt-card" data-prompt-card data-item-id={card.id}>
-              <a class="prompt-image-link" href={card.tweetUrl} target="_blank" rel="noreferrer" aria-label="查看原推">
+            <article class="prompt-card" data-prompt-card data-item-id={card.id} data-image-index={card.imageIndex}>
+              <button type="button" class="prompt-image-open" data-open-viewer aria-label="查看同组大图">
                 <img src={card.imageUrl} alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
-              </a>
+              </button>
               <div class="prompt-card-bar">
                 <a class="prompt-source" href={card.tweetUrl} target="_blank" rel="noreferrer">原推</a>
                 <button type="button" class="prompt-copy" data-copy-prompt>
@@ -60,6 +61,7 @@ const eyebrow = formatPromptEyebrow(cards);
     <footer class="site-footer">
       <p><strong>数据来源说明</strong>：图片与提示词来自 X（Twitter）公开推文，提示词按原文照录，未改写。</p>
     </footer>
+    <PromptViewer />
     <script>
       const copiedLabel = "已复制";
       const idleLabel = "复制提示词";
