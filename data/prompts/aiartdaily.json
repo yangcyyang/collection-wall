@@ -1,0 +1,364 @@
+{
+  "source": "aiartdaily",
+  "title": "AI Art Daily 平面提示词",
+  "updated_at": "2026-08-21T09:12:05Z",
+  "count": 16,
+  "items": [
+    {
+      "id": "aad-1075-retro-pixel-platform",
+      "author": "aiartdaily",
+      "url": "https://aiartdaily.substack.com/p/1075-three-tested-prompts-for-retro",
+      "created_at": "2026-08-17T07:37:29.814Z",
+      "text": "复古像素平台游戏场景",
+      "prompt": "retro pixel art video game scene, small white rabbit character standing on bright green grass facing right, long upright ears with orange inner lining, colossal orange carrot with leafy green top floating high in a solid blue sky, row of dark green pine trees along the horizon, layered blue mountain range behind them, single band of blocky white clouds across the top, grass field with fine vertical pixel texture, limited flat color palette, hard pixel edges, no anti-aliasing, side-scrolling platformer composition --ar 16:9",
+      "images": [
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/3bbccabd-13c7-4f3c-9b7b-c13e92807819_1456x816.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/3bbccabd-13c7-4f3c-9b7b-c13e92807819_1456x816.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/4f506494-9451-4628-9537-563c72fa720e_1456x816.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/4f506494-9451-4628-9537-563c72fa720e_1456x816.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/164756e6-55d5-4782-8109-196f3a1bd00b_1456x816.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/164756e6-55d5-4782-8109-196f3a1bd00b_1456x816.png"
+        }
+      ]
+    },
+    {
+      "id": "aad-1064-speckled-feather-birds",
+      "author": "aiartdaily",
+      "url": "https://aiartdaily.substack.com/p/1064-a-midjourney-prompt-breakdown",
+      "created_at": "2026-07-31T13:12:09.635Z",
+      "text": "斑点羽色鸟类插画",
+      "prompt": "Full body illustration of an owl, large orange eyes with black pupils, body predominantly white transitioning to light green with darker green and blue spots and speckles scattered across the chest and sides, prominent black tufts above the eyes curving outwards, silver grey beak, deeper green at the base of the body, two slender light brown legs with black talons, solid white background --ar 1:1 --q 2",
+      "images": [
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/8851e97f-ec11-470c-9511-0648e66665d2_1024x1024.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/8851e97f-ec11-470c-9511-0648e66665d2_1024x1024.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/85736d09-a84c-46c0-b46e-8189cb050b55_1024x1024.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/85736d09-a84c-46c0-b46e-8189cb050b55_1024x1024.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/cf70b785-bb78-4966-a6bb-23c8755e1d1c_1024x1024.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/cf70b785-bb78-4966-a6bb-23c8755e1d1c_1024x1024.png"
+        }
+      ]
+    },
+    {
+      "id": "aad-1063-magical-academy-courtyard",
+      "author": "aiartdaily",
+      "url": "https://aiartdaily.substack.com/p/1063-how-to-prompt-busy-magical-academy",
+      "created_at": "2026-07-30T13:04:05.004Z",
+      "text": "魔法学院庭院群像",
+      "prompt": "Highly detailed fantasy artwork, a chaotic courtyard scene in front of an ornate golden domed building, foreground bustling with elderly wizards in red and green robes with long white beards, a leaning wheelbarrow, an elaborate chest balanced on uneven legs, scattered magical tools and instruments, flying papers and faint magical residue filling parts of the sky, dynamic composition, painterly detail --ar 16:9 --q 2",
+      "images": [
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/b2a4005f-42ba-4759-9195-56d5a57562f1_1456x816.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/b2a4005f-42ba-4759-9195-56d5a57562f1_1456x816.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/4ae06268-3eec-4ade-be6e-a32ca269d3a7_1456x816.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/4ae06268-3eec-4ade-be6e-a32ca269d3a7_1456x816.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/4f7c01de-319e-4751-87bc-071c581f4e3d_1456x816.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/4f7c01de-319e-4751-87bc-071c581f4e3d_1456x816.png"
+        }
+      ]
+    },
+    {
+      "id": "aad-1062-vintage-jp-halftone-poster",
+      "author": "aiartdaily",
+      "url": "https://aiartdaily.substack.com/p/1062-how-to-prompt-vintage-japanese",
+      "created_at": "2026-07-29T12:55:23.052Z",
+      "text": "日本复古半色调抗议海报",
+      "prompt": "Graphic design protest poster, dominant male fist rendered in halftone dot pattern, bright red backdrop, large red Japanese katakana text reading “sutoppu” positioned to the right, minimal black Japanese text in the upper left and lower left corners, grunge appearance, visible paper texture, scratches, slight creases, aged look --ar 2:3 --q 2",
+      "images": [
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/a20a6590-3912-4a6f-8e76-a6b924eb12ad_896x1344.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/a20a6590-3912-4a6f-8e76-a6b924eb12ad_896x1344.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/49de38af-f228-4192-a819-802ced4730f8_896x1344.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/49de38af-f228-4192-a819-802ced4730f8_896x1344.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/2f3467f8-b9a3-4595-b894-8b03b70ab1b5_896x1344.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/2f3467f8-b9a3-4595-b894-8b03b70ab1b5_896x1344.png"
+        }
+      ]
+    },
+    {
+      "id": "aad-1061-industrial-smoke-mural",
+      "author": "aiartdaily",
+      "url": "https://aiartdaily.substack.com/p/1061-environmental-street-art-prompts",
+      "created_at": "2026-07-28T12:43:19.019Z",
+      "text": "工业烟雾变鸟群涂鸦墙",
+      "prompt": "Graffiti art on a textured concrete wall, factory smokestack on the left, spewing vibrant yellow and dark grey smoke, the smoke seamlessly morphs into numerous bats taking flight and dispersing across the upper and central portions of the wall, on the right a solitary child in a bold yellow coat and black trousers stands, gazing upwards, the base of the wall is stained and worn --ar 16:9 --q 2",
+      "images": [
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/9d635035-d4f5-4aad-8ca6-4a7902b91d85_1456x816.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/9d635035-d4f5-4aad-8ca6-4a7902b91d85_1456x816.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/d1cd3aed-d3ac-45b2-881c-60894e21ee7f_1456x816.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/d1cd3aed-d3ac-45b2-881c-60894e21ee7f_1456x816.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/d40ad61e-9fc2-42ca-a09c-46d3c0d3a420_1456x816.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/d40ad61e-9fc2-42ca-a09c-46d3c0d3a420_1456x816.png"
+        }
+      ]
+    },
+    {
+      "id": "aad-1050-pop-art-benday",
+      "author": "aiartdaily",
+      "url": "https://aiartdaily.substack.com/p/1050-the-printing-trick-that-built",
+      "created_at": "2026-07-13T13:08:18.669Z",
+      "text": "波普半色调印刷人像",
+      "prompt": "pop art painting of a woman with blonde curly hair, blue eyes, and red lips, looking directly forward, exaggerated long eyelashes, reddish halftone dot shading on cheeks, wearing red spherical earrings and a black top with large white polka dots, left hand with red polished nails resting on chin, abstract distressed background in teal and gold with red paint splatters, Ben-Day dot pattern, flat graphic style, offset lithography aesthetic, bold outlines --ar 3:4 --q 2",
+      "images": [
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/460adc94-04fb-444c-9e07-b037c740dba2_928x1232.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/460adc94-04fb-444c-9e07-b037c740dba2_928x1232.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/f88946b0-d9f2-4dc0-8beb-1cba3034dd24_928x1232.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/f88946b0-d9f2-4dc0-8beb-1cba3034dd24_928x1232.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/ff50bc6c-5828-434a-9904-beca9ca7bb78_896x1344.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/ff50bc6c-5828-434a-9904-beca9ca7bb78_896x1344.png"
+        }
+      ]
+    },
+    {
+      "id": "aad-1045-steampunk-robot-band",
+      "author": "aiartdaily",
+      "url": "https://aiartdaily.substack.com/p/1045-midjourney-steampunk-robot-band",
+      "created_at": "2026-07-06T13:38:57.530Z",
+      "text": "蒸汽朋克机器人乐队",
+      "prompt": "Steampunk anthropomorphic robot band, four robots in lineup, far left robot in red armor holding large red and gold horn, second robot drummer behind large bass drum with prominent spread eagle illustration on drum face, central massive horned robot heavily adorned with mechanical parts playing red electric bass guitar, far right slimmer robot in teal suit and hat playing double bass, plain light beige backdrop, visible amplifiers and musical equipment, studio band portrait composition, detailed illustration style, warm and teal color palette --ar 16:9",
+      "images": [
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/fe3be30b-35d6-426d-b737-614337df32f6_1456x816.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/fe3be30b-35d6-426d-b737-614337df32f6_1456x816.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/0e8d8125-67c4-4a5e-8f57-b78f85de9d39_1456x816.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/0e8d8125-67c4-4a5e-8f57-b78f85de9d39_1456x816.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/f383d294-01bf-412a-903b-0cf8021f0dba_1456x816.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/f383d294-01bf-412a-903b-0cf8021f0dba_1456x816.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/714993c6-1203-4e3f-837f-e7b9d5c9933b_1456x816.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/714993c6-1203-4e3f-837f-e7b9d5c9933b_1456x816.png"
+        }
+      ]
+    },
+    {
+      "id": "aad-1035-oaxacan-alebrije",
+      "author": "aiartdaily",
+      "url": "https://aiartdaily.substack.com/p/1035-generating-oaxacan-folk-art",
+      "created_at": "2026-06-22T10:47:50.905Z",
+      "text": "瓦哈卡阿莱布里赫民间生物",
+      "prompt": "A full shot of an alebrije inspired creature, standing on a dark green surface, against a dark green background. The creature is brightly colored in neon pink, blue, teal, and yellow, with intricate geometric patterns covering its entire body. Its head features large, round green eyes from which bright pink spikes radiate outwards, forming a halo like structure. The ears are large and leaf shaped with patterns. Its body has a rounded shape at the chest and is adorned with various patterns, including concentric circles and triangles. The creature has four legs with yellow clawed feet, and spiky protrusions run down its back. The lighting is even, emphasizing the vibrant colors and patterns. --ar 3:4",
+      "images": [
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/a6fc8d8d-7d1e-4171-9a44-9b88e59d1d07_928x1232.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/a6fc8d8d-7d1e-4171-9a44-9b88e59d1d07_928x1232.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/aeaeccae-0442-4cbd-aa5e-7f471beb315f_928x1232.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/aeaeccae-0442-4cbd-aa5e-7f471beb315f_928x1232.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/ad7521a9-4905-4fc9-88e2-7eb5ca0ea1cf_928x1232.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/ad7521a9-4905-4fc9-88e2-7eb5ca0ea1cf_928x1232.png"
+        }
+      ]
+    },
+    {
+      "id": "aad-1015-ligne-claire-desert",
+      "author": "aiartdaily",
+      "url": "https://aiartdaily.substack.com/p/franco-belgian-desert-scene",
+      "created_at": "2026-05-25T13:07:51.919Z",
+      "text": "法比清线沙漠连环画",
+      "prompt": "Franco-Belgian ligne claire comic art style, desert scene under an orange sky, male character with dark messy hair and flowing brown coat walking left foreground, female character with long white hair and brown coat walking centre foreground, large grey wolf walking right foreground, massive textured lizard resting on stone outcrop far right, saguaro cacti varying heights background, dry tall grasses midground, clean unbroken contours, flat colour fills, low horizon line, warm dusty palette --ar 3:2 --q 2",
+      "images": [
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/4b5746bc-e56e-4635-968a-d1b9222aee94_1344x896.jpeg",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/4b5746bc-e56e-4635-968a-d1b9222aee94_1344x896.jpeg"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/8c37cfe5-effa-4c41-8d22-c90279a9d19e_1344x896.jpeg",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/8c37cfe5-effa-4c41-8d22-c90279a9d19e_1344x896.jpeg"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/13fbfcd6-5752-4cd1-b85d-0604c424b0c9_1344x896.jpeg",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/13fbfcd6-5752-4cd1-b85d-0604c424b0c9_1344x896.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "aad-1005-dried-flower-figures",
+      "author": "aiartdaily",
+      "url": "https://aiartdaily.substack.com/p/the-dried-flower-head-that-turns",
+      "created_at": "2026-05-11T06:54:51.080Z",
+      "text": "干花头颅植物人",
+      "prompt": "Two stylized figures composed entirely of layered flower heads, petals, and foliage, dresses formed from blue, yellow, red, and pink blooms with green leaves, spiky dried red flower heads as faces, one figure holding a string leading upward to a suspended cluster of pink, yellow, and red blooms, white background, pen line art outlines defining each figure’s silhouette, botanical illustration style, flat graphic design",
+      "images": [
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/a500dc33-7b64-4006-a583-1572cd884863_928x1232.jpeg",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/a500dc33-7b64-4006-a583-1572cd884863_928x1232.jpeg"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/4cd067e6-3389-4a14-b620-fee4fa5f9651_928x1232.jpeg",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/4cd067e6-3389-4a14-b620-fee4fa5f9651_928x1232.jpeg"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/d4338d15-7c58-42eb-b448-f0222596bde3_928x1232.jpeg",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/d4338d15-7c58-42eb-b448-f0222596bde3_928x1232.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "aad-1000-symbolist-portrait",
+      "author": "aiartdaily",
+      "url": "https://aiartdaily.substack.com/p/how-to-generate-late-19th-century",
+      "created_at": "2026-05-04T06:13:15.806Z",
+      "text": "19世纪末象征主义肖像",
+      "prompt": "wide-eyed girl with bright red hair, gold crown, elaborate floral arrangement including white orange and teal flowers, large expressive warm brown eyes, full red lips, light complexion, small green orange and yellow bird on right shoulder, yellow and green pattern, blue butterfly motif, blue and green organic patterned background, Symbolist portrait painting, late 19th century, detailed oil paint texture, --ar 3:4",
+      "images": [
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/06f4f4a9-0330-48f9-8255-03a06514d6de_928x1232.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/06f4f4a9-0330-48f9-8255-03a06514d6de_928x1232.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/fbbeb5db-9787-4f56-8661-58b340092cc6_928x1232.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/fbbeb5db-9787-4f56-8661-58b340092cc6_928x1232.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/e2091863-a71d-40d5-9b8f-4289d170547f_928x1232.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/e2091863-a71d-40d5-9b8f-4289d170547f_928x1232.png"
+        }
+      ]
+    },
+    {
+      "id": "aad-990-heartbeat-flower-poster",
+      "author": "aiartdaily",
+      "url": "https://aiartdaily.substack.com/p/the-heartbeat-line-that-turns",
+      "created_at": "2026-04-20T10:32:36.101Z",
+      "text": "心跳线极简花卉海报",
+      "prompt": "simple line drawing of a red poppy flower with a heartbeat ECG line, flat vector illustration, minimal poster art style, bold red fill, black outlines, flat white background, no gradient, no shadow, no texture",
+      "images": [
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/4497880a-af4d-4d0e-ae83-7f5bd13f9ddf_1232x928.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/4497880a-af4d-4d0e-ae83-7f5bd13f9ddf_1232x928.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/b8f006c0-c4fa-42cf-99f0-83a66adc3f25_1232x928.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/b8f006c0-c4fa-42cf-99f0-83a66adc3f25_1232x928.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/14cd0a43-bb55-49a7-bbad-411d74d6a75d_1232x928.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/14cd0a43-bb55-49a7-bbad-411d74d6a75d_1232x928.png"
+        }
+      ]
+    },
+    {
+      "id": "aad-985-swiss-flat-animals",
+      "author": "aiartdaily",
+      "url": "https://aiartdaily.substack.com/p/getting-swiss-international-style",
+      "created_at": "2026-04-13T08:03:42.944Z",
+      "text": "瑞士国际主义平面动物",
+      "prompt": "a zebra swimming in the sea, minimalist vector art, flat design aesthetic, turquoise background with waves, dark green stripes on the zebra’s fur, simple lines, digital illustration, print-style artwork, symmetrical pattern, simple shapes, minimal detail, flat colors, bold outlines, high contrast, sharp edges, elegant and minimalist, high resolution, no shading, clear and crisp, detailed --ar 3:2",
+      "images": [
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/bcc3ef19-d7be-4c6c-9ec0-c9962c239ae0_1344x896.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/bcc3ef19-d7be-4c6c-9ec0-c9962c239ae0_1344x896.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/8e1c89d8-48b6-41f2-b4b3-cca198646e02_1344x896.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/8e1c89d8-48b6-41f2-b4b3-cca198646e02_1344x896.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/1c6c64bb-0d0f-4ef3-9d7b-0ba5a2d69d52_1344x896.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/1c6c64bb-0d0f-4ef3-9d7b-0ba5a2d69d52_1344x896.png"
+        }
+      ]
+    },
+    {
+      "id": "aad-925-victorian-memento-mori",
+      "author": "aiartdaily",
+      "url": "https://aiartdaily.substack.com/p/925-the-victorian-inspired-pattern",
+      "created_at": "2026-01-19T10:35:16.634Z",
+      "text": "维多利亚死亡纹样",
+      "prompt": "a seamless pattern featuring beetle, skull, and moon motifs in the style of an old, dark cottagecore print with flowers and plants on a dark background. vector art, ink illustration, hand-drawn, Victorian botanical style, roses and ferns intertwined with memento mori symbols, crescent moons in various phases, detailed insect anatomy, delicate linework, vintage apothecary aesthetic, repeating pattern design, black background with white and grey elements, intricate floral details",
+      "images": [
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/c9ca0262-cf02-4070-8396-414b10f03fb3_1232x928.jpeg",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/c9ca0262-cf02-4070-8396-414b10f03fb3_1232x928.jpeg"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/3f93b966-258a-4457-a5c9-3d3fa4db0976_1232x928.jpeg",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/3f93b966-258a-4457-a5c9-3d3fa4db0976_1232x928.jpeg"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/e94a9bfc-ed52-422c-b539-1a027924606c_1232x928.jpeg",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/e94a9bfc-ed52-422c-b539-1a027924606c_1232x928.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "aad-900-mechanical-teapot",
+      "author": "aiartdaily",
+      "url": "https://aiartdaily.substack.com/p/900-how-to-create-mechanical-linework",
+      "created_at": "2025-12-15T14:32:24.081Z",
+      "text": "机械线稿日常兵器",
+      "prompt": "Highly detailed technical illustration of a massive, futuristic mechanised tea pot, covered in intricate armour plating and gears. Equipped with multiple cannons and rugged tracked wheels, designed for rocky terrain, surrounded by a desolate wasteland landscape. Clean linework, cross-hatching for shadows, engineering schematic style, black and white, highly detailed mechanical components, rivets and panels visible, military industrial design",
+      "images": [
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/074e522a-d177-4f8c-88ab-961f092809e2_1024x1024.jpeg",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/074e522a-d177-4f8c-88ab-961f092809e2_1024x1024.jpeg"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/b76b42c1-3e04-4ca6-9f33-ff101699965b_1024x1024.jpeg",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/b76b42c1-3e04-4ca6-9f33-ff101699965b_1024x1024.jpeg"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/6e6a9e54-43c4-4223-9575-00f98362f054_1024x1024.jpeg",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/6e6a9e54-43c4-4223-9575-00f98362f054_1024x1024.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "aad-895-geometric-animal-pairs",
+      "author": "aiartdaily",
+      "url": "https://aiartdaily.substack.com/p/895-how-to-create-minimal-geometric",
+      "created_at": "2025-12-08T14:05:10.106Z",
+      "text": "极简几何动物角色",
+      "prompt": "a lion and a penguin, with simple shapes, flat design, bold colours, and an earth-toned colour palette, set against a desert background with cacti. --ar 3:2",
+      "images": [
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/bc186fdb-e01b-4654-aa56-7de58156dca4_1344x896.jpeg",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/bc186fdb-e01b-4654-aa56-7de58156dca4_1344x896.jpeg"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/1ccdc0c9-b6e7-4150-be53-3678f5dca29b_1344x896.jpeg",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/1ccdc0c9-b6e7-4150-be53-3678f5dca29b_1344x896.jpeg"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/61941e8f-6cfb-4eeb-b275-99e0ed41c83a_1344x896.jpeg",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/61941e8f-6cfb-4eeb-b275-99e0ed41c83a_1344x896.jpeg"
+        }
+      ]
+    }
+  ]
+}
