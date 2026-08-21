@@ -42,7 +42,7 @@ const eyebrow = formatPromptEyebrow(cards);
         <section class="prompt-masonry" aria-label="提示词图片墙">
           {cards.map((card) => (
             <article class="prompt-card" data-prompt-card data-item-id={card.id}>
-              <a class="prompt-image-link" href={card.tweetUrl} target="_blank" rel="noreferrer">
+              <a class="prompt-image-link" href={card.tweetUrl} target="_blank" rel="noreferrer" aria-label="查看原推">
                 <img src={card.imageUrl} alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
               </a>
               <div class="prompt-card-bar">
