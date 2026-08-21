@@ -9,6 +9,337 @@
   },
   "items": [
     {
+      "id": "2090829530592051280",
+      "author": "abskoop",
+      "bio": "",
+      "text": "ChatGPT 接入 Apple Messages了 可以读取 iMessage，还能帮你发送消息\n\nOpenAI 更新 ChatGPT 桌面版，Apple Silicon Mac 新增 Apple Messages 插件。ChatGPT Work / Codex 可搜索、读取 iMessage / SMS / RCS，整理对话、起草回复，甚至直接发送。\n\n默认仍会先让你确认内容和收件人，不会偷偷发出去。\n\n仅限苹果芯片 Mac，普通聊天窗口暂不支持。",
+      "likes": 0,
+      "views": "718",
+      "url": "https://x.com/i/status/2090829530592051280",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQPb3uWbsAA64fx.jpg",
+        "https://pbs.twimg.com/media/HQPb8qrbQAAJdLU.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQPb3uWbsAA64fx.jpg",
+        "https://pbs.twimg.com/media/HQPb8qrbQAAJdLU.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 52.854,
+      "created_at": "2026-08-21T15:53:00Z",
+      "summary": "OpenAI 更新 Apple Silicon Mac 桌面版，新增 Apple Messages 插件：ChatGPT Work / Codex 可搜索、读取 iMessage/SMS/RCS，整理对话、起草回复，甚至直接发送；默认仍会先确认内容与收件人。普通聊天窗口暂不支持。",
+      "recommend_reason": "把个人消息流接进 Agent 工作台，是桌面端权限边界与效率的一次实质推进。",
+      "tags": [
+        "ChatGPT",
+        "Apple",
+        "桌面端"
+      ],
+      "title": "ChatGPT 桌面版接入 Apple Messages：可读可起草甚至代发",
+      "rank": 1
+    },
+    {
+      "id": "2090813675867185175",
+      "author": "abskoop",
+      "bio": "",
+      "text": "Slack 已正式推出 Slack Code\n\n团队可以直接创建专门的 Code Channel，在一个频道里让 Coding Agent 拉代码、生成 Diff、展示实时 HTML Preview、接受团队反馈和 Approval，再继续修改等等 https://t.co/NnyBgek29O",
+      "likes": 1,
+      "views": "2917",
+      "url": "https://x.com/i/status/2090813675867185175",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQPZQLvbAAA6lnn.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQPZQLvbAAA6lnn.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 54.035,
+      "created_at": "2026-08-21T14:50:00Z",
+      "summary": "Slack 已正式推出 Slack Code：团队可建专门的 Code Channel，在频道里让 Coding Agent 拉代码、生成 Diff、展示实时 HTML Preview、接受反馈与 Approval 后再继续改。",
+      "recommend_reason": "把 coding agent 协作嵌进现有团队频道，比再开一个独立 IDE 插件更贴近真实协作。",
+      "tags": [
+        "Slack",
+        "Coding Agent",
+        "协作"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2090787654099227093",
+      "author": "vincemask",
+      "bio": "",
+      "text": "卧槽发现一个 LLM Wiki 思路很接近的开源项目：llm-wiki-agent。\n\n它不只是把文章、论文和项目文档丢进知识库，而是让 Agent 主动阅读、理解和整理这些资料，逐步生成结构化 Wiki，包括：\n\n来源页：保留原始资料和出处\n概念页：整理核心概念和知识点\n实体页：沉淀项目、人物、技术等信息\n交叉链接：自动建立不同知识之间的关联\n知识图谱：把零散资料连接成完整的知识网络\n\n更有意思的是，这套 Wiki 不是一次生成后就结束。\n\n随着新资料不断加入，Agent 会继续补充关联、识别重复或矛盾的信息，并基于已有内容形成新的综合结论。知识库会随着使用不断生长，而不是变成一个只负责存 Markdown 的资料仓库。\n\n这和 LLM Wiki 的核心思路很接近：知识主要服务于 LLM 和 Agent，人也可以阅读，但重点是让 Agent 能持续检索、关联和复用这些知识。\n\n如果你正在搭建一个主要给 Agent 使用的本地知识库 / LLM Wiki，llm-wiki-agent 很值得参考。",
+      "likes": 15,
+      "views": "596",
+      "url": "https://x.com/i/status/2090787654099227093",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQP4BoYbkAAfBSX.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQP4BoYbkAAfBSX.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 70.251,
+      "created_at": "2026-08-21T13:06:36Z",
+      "summary": "介绍开源项目 llm-wiki-agent：不只是把资料塞进知识库，而是让 Agent 主动阅读、整理来源页/概念页/实体页，并自动交叉链接与知识图谱；新资料进来后会继续补关联、找矛盾、形成综合结论，知识库可持续生长。作者认为其思路接近“知识主要服务 LLM/Agent”的 LLM Wiki。",
+      "recommend_reason": "把本地知识库从“存 Markdown”推进到“Agent 可持续编纂”，对搭 LLM Wiki 的人直接有参考价值。",
+      "tags": [
+        "Agent",
+        "知识库",
+        "开源"
+      ],
+      "title": "开源 llm-wiki-agent：让 Agent 自己长出结构化 Wiki",
+      "rank": 3
+    },
+    {
+      "id": "2090786108565266739",
+      "author": "dashiAIxz",
+      "bio": "",
+      "text": "DeepSeek V4 Flash 终于支持视觉能力了\n\n DeepSeek Harness 第一时间就可以用上了，方法如下，其他支持自定义模型的 Agent 方法也都差不多\n\n打开侧边设置 → 模型 → DeepSeek → 编辑 → 自定义设置 → 添加模型\n\n模型 ID 和显示名称都输入 deepseek-v4-flash-vision-exp 保存即可\n\n之后对话框模型选择列表就可以选择这个模型了\n\n如果出现「当前模型不支持图片，请切换支持图片的模型」，更新一下 DeepSeek Harness 版本即可，或者让他自己修改一下配置来支持就行",
+      "likes": 4,
+      "views": "369",
+      "url": "https://x.com/i/status/2090786108565266739",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQP2bbMbUAAuRRr.jpg",
+        "https://pbs.twimg.com/media/HQP2fkIbMAAY148.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQP2bbMbUAAuRRr.jpg",
+        "https://pbs.twimg.com/media/HQP2fkIbMAAY148.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2090730032574631962",
+        "author": "deepseek_ai",
+        "name": "DeepSeek",
+        "text": "DeepSeek-V4-Flash-Vision-Exp is now live on the DeepSeek API Platform! 🚀\n\n🔹 This experimental multimodal model matches DeepSeek-V4-Flash on text capabilities—including agents, reasoning, and world knowledge.\n🔹 On multimodal agent benchmarks, V4-Flash-Vision-Exp makes a major leap over V4-Flash, bringing multimodal agent performance close to Opus-4.8.\n\nTry it with model='deepseek-v4-flash-vision-exp'. DeepSeek Harness 0.1.1 was released today with out-of-the-box support for the new model.\n\n1/n",
+        "created_at": "Fri Aug 21 09:17:38 +0000 2026",
+        "url": "https://x.com/deepseek_ai/status/2090730032574631962",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQPAu99aoAALC1F.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQPAu99aoAALC1F.jpg"
+        ]
+      },
+      "score": 60.967,
+      "created_at": "2026-08-21T13:00:27Z",
+      "summary": "DeepSeek V4 Flash 支持视觉后，DeepSeek Harness 可马上接入：侧边设置→模型→DeepSeek→编辑→自定义设置→添加模型，模型 ID 与显示名都填 deepseek-v4-flash-vision-exp。若提示当前模型不支持图片，更新 Harness 或改配置即可。",
+      "recommend_reason": "公告之外补上可执行配置路径，省得自己摸自定义模型入口。",
+      "tags": [
+        "DeepSeek",
+        "Harness",
+        "多模态"
+      ],
+      "title": "DeepSeek Harness 立刻可用 Vision：自定义模型 ID 一行配通",
+      "rank": 4
+    },
+    {
+      "id": "2090772922818286080",
+      "author": "GoogleDeepMind",
+      "bio": "",
+      "text": "Games have been an important testbed for our AI research for over 15 years. 🎮\n\nFrom mastering Atari to reaching Grandmaster in StarCraft II, they have driven some of our biggest AI breakthroughs.\n\nOur work with SIMA taught agents how to understand 3D worlds, but learning to navigate real human dynamics takes a living, persistent universe.\n\nThrough our research partnership with @FenrisCreations, we’re exploring how to tackle open challenges in AI:\n\n🔵 Continual learning to acquire new skills without forgetting past knowledge.\n🔵 Deep memory systems that store and retrieve information far beyond today’s context windows.\n🔵 Long-horizon planning over weeks, months, or years.\n🔵 Multi-agent dynamics spanning cooperation, negotiation, economics, and emergent behaviors.\n\nOur long-term goal is to use AI to discover entirely new gameplay experiences in partnership with game developers – making games more accessible and personalized – while applying what we've learned to problems in the real world and scientific discovery.\n\nFind out more → https://t.co/fAbYdukA5A",
+      "likes": 472,
+      "views": "37434",
+      "url": "https://x.com/i/status/2090772922818286080",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQPpMRGXgAA5VnB.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQPpMRGXgAA5VnB.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 70.984,
+      "created_at": "2026-08-21T12:08:04Z",
+      "summary": "DeepMind 回顾游戏对 AI 研究的长期价值，并宣布与 Fenris Creations 研究合作，聚焦开放挑战：持续学习而不遗忘、远超当前上下文的深度记忆、跨周月年的长程规划，以及合作/谈判/经济等多智能体动态。目标是与游戏开发者共创新玩法，并把所学迁移到现实与科学发现。",
+      "recommend_reason": "把 SIMA 之后的下一步讲清楚了：从 3D 导航走向活着的持久世界与多智能体动力学。",
+      "tags": [
+        "DeepMind",
+        "游戏AI",
+        "多智能体"
+      ],
+      "title": "DeepMind 与 Fenris 合作：用持久游戏宇宙练持续学习与多智能体",
+      "rank": 5
+    },
+    {
+      "id": "2090766694897619318",
+      "author": "thsottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "text": "It's me again. I come bearing great news. \n\nFirst of all, we have hit 20M active users for Codex some time this week. Second of all, this is cause for celebration and during the day we will credit every Codex and ChatGPT Work user with a BANKED reset that you can use at your own leisure. And we will have some other good news later too!\n\nNow, on usage limits draining faster, while we're not seeing anything abnormal, we do take it incredibly seriously and there is an ongoing investigation. I will share if we do find anything and my below post is really a clarification on a specific pattern that we did see that I wanted to call out.\n\nGo do something amazing today.",
+      "likes": 15228,
+      "views": 1454876,
+      "url": "https://x.com/thsottiaux/status/2090766694897619318",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2090675027670978569",
+        "author": "thsottiaux",
+        "name": "Tibo",
+        "text": "We've investigated a few messages about codex usage limits being different. That's not something we change without engaging the community and being transparent.\n\nWhat we did see is that when talking to affected users many were using sub2api. Converting a subscription into api traffic to then re-serve or share across many users is not something we support and this type of usage gets flagged by our fraud-prevention systems.\n\nYou are completely fine if you use your subscription through Sign in With ChatGPT, either through the official clients or through one of the many OSS clients (Pi, OpenCode, ...) that support signing in with your account and using your included usage.",
+        "created_at": "Fri Aug 21 05:39:04 +0000 2026",
+        "url": "https://x.com/thsottiaux/status/2090675027670978569",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 74.639,
+      "created_at": "2026-08-21T11:43:19Z",
+      "summary": "OpenAI Codex 负责人 Tibo 宣布 Codex 本周活跃用户已达约 2000 万；随后为每位 Codex 与 ChatGPT Work 用户发放一次可自行择时使用的 banked 重置额度，并预告还有其他好消息。同时回应额度消耗变快的反馈：目前未观察到异常，但已在调查，并澄清部分异常与把订阅转成 API 流量再分发的 sub2api 用法有关。",
+      "recommend_reason": "官方口径同时给出产品规模里程碑、补偿机制和对额度争议的说明，比二手传言更可核对。",
+      "tags": [
+        "OpenAI",
+        "Codex",
+        "产品更新"
+      ],
+      "title": "Codex 周活破两千万，OpenAI 给用户发 banked 重置额度",
+      "rank": 6
+    },
+    {
+      "id": "2090746753696100617",
+      "author": "yaojingang",
+      "bio": "AI营销与教育科技创业者  \n持续开源GEOFlow / YAO Skills / AI Tools  \n周更《姚金刚认知随笔》：https://t.co/IOUcygwMdR",
+      "text": "一个海外GEO工具，最近的一个监测数据结论：ChatGPT Search开始显式选择“去具体的网站找证据”\n\n具体的表现是：\n1、带“site:”的搜索子查询占比从约 0.37% 跳到 16.8%，增长约 46 倍\n2、每次回答触发的平均搜索子查询，从约 1.08 次增加到 1.83 次\n\n相当于AI会把一次全网搜索，升级成“先广泛发现，再定向取证”的两阶段搜索，可以有效提升答案或检索质量\n\n对GEO的启发：\n1、一个页面解决一个清晰问题，确保核心渠道尤其是官网的页面覆盖广度和精准度\n2、标题、日期、作者和数据来源明确\n3、价格、参数、案例、定义单独成页\n4、保持可抓取、可索引和良好的内部链接，确保搜索爬虫抓取和识别的友好性\n5、重要结论提供原始数据与更新时间\n6、减少只有宣传口号、缺少具体事实的页面",
+      "likes": 27,
+      "views": 2287,
+      "url": "https://x.com/yaojingang/status/2090746753696100617",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 60.545,
+      "created_at": "2026-08-21T10:24:04Z",
+      "summary": "海外 GEO 工具监测称，ChatGPT Search 开始更显式地“去具体网站找证据”：带 site: 的搜索子查询占比从约 0.37% 升到 16.8%（约 46 倍），每次回答触发的平均搜索子查询从约 1.08 增到 1.83。作者据此建议内容侧一页一问、标题日期作者清晰、参数案例单独成页、可抓取可索引、结论附原始数据与更新时间。",
+      "recommend_reason": "把 AI 搜索行为变化量化出来了，对做 GEO/官网内容结构的人有直接动作建议。",
+      "tags": [
+        "ChatGPT",
+        "搜索",
+        "GEO"
+      ],
+      "title": "监测显示 ChatGPT Search 的 site: 定向取证暴增约 46 倍",
+      "rank": 7
+    },
+    {
+      "id": "2090744453103501423",
+      "author": "python_xxt",
+      "bio": "AI | Life | Investing | 思考，是为了不被动地活着",
+      "text": "两台B300\n\n3000万人民币堆在一起，可以是这个样子\n\n国内大家所说的B300通常指DGX B300整机服务器。一台DGX B300里装了8颗Blackwell Ultra芯片，单颗带288GB的HBM3e显存，8颗加起来2.1TB\n\n2.1TB什么概念？\n\n眼下最火的那几个千亿级开源大模型，满血版塞进一台机器绰绰有余，还能留出大把空间跑并发. https://t.co/zme0TkqMjR",
+      "likes": 27,
+      "views": 12000,
+      "url": "https://x.com/python_xxt/status/2090744453103501423",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQPQ_1jbUAAQFuZ.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQPQ_1jbUAAQFuZ.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 60.822,
+      "created_at": "2026-08-21T10:14:56Z",
+      "summary": "两台 DGX B300 约值三千万人民币：单台含 8 颗 Blackwell Ultra，每颗 288GB HBM3e，合计约 2.1TB 显存；作者称当下最火的满血千亿开源大模型塞进一台绰绰有余，还能留并发余量。",
+      "recommend_reason": "用具体整机规格把“本地跑满血千亿”的硬件门槛说清楚了。",
+      "tags": [
+        "GPU",
+        "Blackwell",
+        "基础设施"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2090734721655550034",
+      "author": "op7418",
+      "bio": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design）\n\n歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "text": "Deepseek 的多模态能力终于上了!\n\n是一个单独的模型，Deepseek V4 Flash Vision EXP。\n\n他们说这个模型在多模态 Agent 上的能力已经逼近了 Opus 4.8。\n\n纯文本能力跟 Deepseek V4 Flash 一样。\n\n在价格上，DeepSeek V4 Flash Vision EXP 跟 DeepSeek V4 Flash 保持一致。 https://t.co/hNClsLPcvR",
+      "likes": 37,
+      "views": 13539,
+      "url": "https://x.com/op7418/status/2090734721655550034",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQPIJUSbIAAPhYo.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQPIJUSbIAAPhYo.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2090730032574631962",
+        "author": "deepseek_ai",
+        "name": "DeepSeek",
+        "text": "DeepSeek-V4-Flash-Vision-Exp is now live on the DeepSeek API Platform! 🚀\n\n🔹 This experimental multimodal model matches DeepSeek-V4-Flash on text capabilities—including agents, reasoning, and world knowledge.\n🔹 On multimodal agent benchmarks, V4-Flash-Vision-Exp makes a major leap over V4-Flash, bringing multimodal agent performance close to Opus-4.8.\n\nTry it with model='deepseek-v4-flash-vision-exp'. DeepSeek Harness 0.1.1 was released today with out-of-the-box support for the new model.\n\n1/n",
+        "created_at": "Fri Aug 21 09:17:38 +0000 2026",
+        "url": "https://x.com/deepseek_ai/status/2090730032574631962",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQPAu99aoAALC1F.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQPAu99aoAALC1F.jpg"
+        ]
+      },
+      "score": 61.765,
+      "created_at": "2026-08-21T09:36:16Z",
+      "summary": "DeepSeek 发布独立多模态模型 V4 Flash Vision EXP：官方称多模态 Agent 能力已逼近 Opus 4.8；纯文本能力与 V4 Flash 持平，价格也与文本版保持一致。",
+      "recommend_reason": "开源阵营补上视觉短板是大事，而且价格对齐文本版，值得立刻进评测清单。",
+      "tags": [
+        "DeepSeek",
+        "多模态",
+        "开源模型"
+      ],
+      "title": "DeepSeek V4 Flash Vision EXP 上线，多模态 Agent 号称逼近 Opus 4.8",
+      "rank": 9
+    },
+    {
+      "id": "2090709994761339190",
+      "author": "Alibaba_Qwen",
+      "bio": "Open foundation models for AGI.",
+      "text": "Fresh recipes just dropped! ⚡ NVFP4 + DFlash2 for Qwen3.8-27B now in the SGLang cookbook. Thanks for the support! @sgl_project",
+      "likes": 553,
+      "views": 49948,
+      "url": "https://x.com/Alibaba_Qwen/status/2090709994761339190",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2090587564545806719",
+        "author": "sgl_project",
+        "name": "SGLang",
+        "text": "Just pushed DFlash2 (@inco_ai) recipes to the Qwen3.8 27B cookbook⚡️\n\nhttps://t.co/eAe1dFO5Sr\n\nThe community has been seeing great results with NVFP4 + DFlash2, and these recipes should be some very good starting points to play with.\n\nMore Qwen3.8 27B updates on the way 🫡 https://t.co/ciqw77qstt",
+        "created_at": "Thu Aug 20 23:51:31 +0000 2026",
+        "url": "https://x.com/sgl_project/status/2090587564545806719",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQNCTj9a8AAmPdE.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQNCTj9a8AAmPdE.jpg"
+        ]
+      },
+      "score": 65.412,
+      "created_at": "2026-08-21T07:58:00Z",
+      "summary": "Qwen 团队更新：SGLang cookbook 现已加入面向 Qwen3.8-27B 的 NVFP4 与 DFlash2 配方，并感谢 @sgl_project 支持。",
+      "recommend_reason": "推理栈配方一出，本地/集群部署的人可以直接对照 cookbook 试吞吐与精度权衡。",
+      "tags": [
+        "Qwen",
+        "SGLang",
+        "推理优化"
+      ],
+      "rank": 10
+    },
+    {
       "id": "2090650993268752744",
       "author": "Khazix0918",
       "bio": "",
@@ -53,7 +384,7 @@
         "OpenRouter",
         "AI Coding"
       ],
-      "rank": 1
+      "rank": 11
     },
     {
       "id": "2090648370306335229",
@@ -85,7 +416,7 @@
         "AI教育"
       ],
       "title": "Anthropic 公开 Claude Academy：产品课 + 通用 AI 心智",
-      "rank": 2
+      "rank": 12
     },
     {
       "id": "2090646018954240422",
@@ -110,7 +441,7 @@
         "推理"
       ],
       "title": "DeepSeek Flash：开源加速里的性价比尖兵",
-      "rank": 3
+      "rank": 13
     },
     {
       "id": "2090645882161238308",
@@ -145,7 +476,7 @@
         "PPT",
         "办公"
       ],
-      "rank": 4
+      "rank": 14
     },
     {
       "id": "2090644485369901144",
@@ -175,7 +506,7 @@
         "Agent"
       ],
       "title": "别只比 Gemini 3.7 Flash 和 Qwen 3.8，先想分层分工",
-      "rank": 5
+      "rank": 15
     },
     {
       "id": "2090643978333139153",
@@ -199,7 +530,7 @@
         "Codex",
         "产品趋势"
       ],
-      "rank": 6
+      "rank": 16
     },
     {
       "id": "2090642394580738260",
@@ -226,7 +557,7 @@
         "AI Coding",
         "Docker"
       ],
-      "rank": 7
+      "rank": 17
     },
     {
       "id": "2090640860694319453",
@@ -250,7 +581,7 @@
         "评测",
         "Agent"
       ],
-      "rank": 8
+      "rank": 18
     },
     {
       "id": "2090639341710458973",
@@ -293,7 +624,7 @@
         "Topview",
         "AI视频"
       ],
-      "rank": 9
+      "rank": 19
     },
     {
       "id": "2090639094607159690",
@@ -323,7 +654,7 @@
         "模型"
       ],
       "title": "Homura 30B：开源接力赛，不是单厂从零造模",
-      "rank": 10
+      "rank": 20
     },
     {
       "id": "2090636759637930434",
@@ -370,7 +701,7 @@
         "工程实践"
       ],
       "title": "在 Network 里看 Codex 日用量：credits / tokens / turns",
-      "rank": 11
+      "rank": 21
     },
     {
       "id": "2090635985331818920",
@@ -399,7 +730,7 @@
         "多模态",
         "产品"
       ],
-      "rank": 12
+      "rank": 22
     },
     {
       "id": "2090634335812821194",
@@ -432,7 +763,7 @@
         "开源"
       ],
       "title": "OpenAI 开源 Codex Harness，不等于整套 Codex 自托管",
-      "rank": 13
+      "rank": 23
     },
     {
       "id": "2090631723302469995",
@@ -474,7 +805,7 @@
         "图像生成",
         "产品"
       ],
-      "rank": 14
+      "rank": 24
     },
     {
       "id": "2090631644369793496",
@@ -504,26 +835,26 @@
         "Codex"
       ],
       "title": "Munder Difflin：把现有付费 CLI Agent 包成像素办公室团队",
-      "rank": 15
+      "rank": 25
     }
   ],
-  "generated_at": "2026-08-21T04:58:23Z",
+  "generated_at": "2026-08-21T16:06:29Z",
   "selection": {
-    "target_count": 60,
-    "max_count": 60,
-    "per_run_max": 20,
+    "target_count": 30,
+    "max_count": 30,
+    "per_run_max": 15,
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 15,
-    "last_batch_added": 4,
+    "actual_count": 25,
+    "last_batch_added": 10,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
-    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤15；单日≤30不保底；追加按id去重。",
     "short_tweet": {
       "threshold_chars": 200,
       "title_optional": true,
