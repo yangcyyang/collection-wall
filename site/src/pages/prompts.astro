@@ -45,7 +45,9 @@ const totalImages = imageCount(sets);
           {sets.map((set) => (
             <article class="prompt-card" data-prompt-card data-item-id={set.id}>
               <button type="button" class="prompt-image-open" data-open-viewer aria-label="查看同组大图">
-                <img src={set.images[0]} alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+                <span class="prompt-cover">
+                  <img src={set.images[0]} alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+                </span>
                 {set.images.length > 1 && <span class="prompt-count-badge">{set.images.length}张</span>}
               </button>
               <ul class="prompt-set-images" hidden>
