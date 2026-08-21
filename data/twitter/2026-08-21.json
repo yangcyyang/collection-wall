@@ -1,0 +1,388 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-21",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2090648370306335229",
+      "author": "xiaohu",
+      "bio": "",
+      "text": "Anthropic 推出 AI 学习平台 Claude Academy \n\n把公司内部已经在使用的员工培训方法整理并公开\n\n平台既有 Claude 产品课程，也提供与具体产品和模型无关的通用 AI 认知课程；\n\n和其他学校平台不一样，Claude Academy 拥有五条核心教学理念：\n\n1. AI 教育首先要增强人的自主权\n2. 长期心智比固定技巧更重要\n3. 安全使用 AI，要管理聊天框前后的完整过程\n4. 学 AI 必须动手、试错和反思\n5. 会用 AI 之后，它可以反过来加速一切学习\nhttps://t.co/E2UNMZRFQx",
+      "likes": 1,
+      "views": "480",
+      "url": "https://x.com/i/status/2090648370306335229",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "Anthropic 推出 AI 学习平台 Claude Academy 把公司内部已经在使用的员工培训方法整理并公开 · 小互 · AI 解读站",
+        "description": "Claude Academy 公开了 Anthropic 的内部训练方法：入职学习 4D，在工作中持续练习，再按风险核验并为结果负责。",
+        "image_url": "https://pbs.twimg.com/card_img/2090648370780176384/6oorVU7u?format=jpg&name=800x320_1",
+        "url": "https://t.co/E2UNMZRFQx",
+        "domain": "best.xiaohu.ai"
+      },
+      "quoted_tweet": null,
+      "score": 50.446,
+      "created_at": "2026-08-21T03:53:08Z",
+      "summary": "Anthropic 推出 Claude Academy，整理并公开内部员工培训方法；既有 Claude 产品课，也有与具体产品无关的通用 AI 认知课。五条理念：增强人的自主权、长期心智重于固定技巧、管理聊天框前后完整过程、动手试错反思、会用 AI 后反过来加速一切学习。",
+      "recommend_reason": "大厂把内部 AI 培训方法论产品化，比又一门“点哪里”教程更值得看。",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "AI教育"
+      ],
+      "title": "Anthropic 公开 Claude Academy：产品课 + 通用 AI 心智",
+      "rank": 1
+    },
+    {
+      "id": "2090646018954240422",
+      "author": "bindureddy",
+      "bio": "",
+      "text": "DeepSeek Flash is leading the open source acceleration\n\nThe price to performance is phenomenal\n\nIt's the go to model for first turn inference and costs almost nothing!\n\nUsage has sky-rocketed more than 100x in the last few weeks for everyone including Enterprises",
+      "likes": 9,
+      "views": "3671",
+      "url": "https://x.com/i/status/2090646018954240422",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 54.036,
+      "created_at": "2026-08-21T03:43:47Z",
+      "summary": "作者称 DeepSeek Flash 正领跑开源加速，性价比突出，适合首轮推理且几乎不花钱；过去几周从个人到企业用量暴涨超过 100 倍。",
+      "recommend_reason": "短讯但点明“首轮推理/低成本”使用场景，方便和贵模型做分流。",
+      "tags": [
+        "DeepSeek",
+        "开源",
+        "推理"
+      ],
+      "title": "DeepSeek Flash：开源加速里的性价比尖兵",
+      "rank": 2
+    },
+    {
+      "id": "2090645882161238308",
+      "author": "YuLin807",
+      "bio": "",
+      "text": "我看到一些 AI native 的公司，把 Agent 引入到飞书中，利用一些 skill 生成 PPT 进行预览、表达。\n\n我真是有点感叹，工作中大量耗费心力做 PPT 这种东西的目的本来是为来方便交流，让人画大量心思来做本来就是倒反天罡。\n\n现在让 AI 来生成，随用随取，用完就走，这才是他最应该的归宿，辅助理解，减少信息差。\n\n而不是一个人在那里吭哧吭哧去研究怎么写怎么画！",
+      "likes": 0,
+      "views": "118",
+      "url": "https://x.com/i/status/2090645882161238308",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2090643978333139153",
+        "author": "YuLin807",
+        "name": "QingYue",
+        "text": "模型的能力发展，先是干掉了提示词工程师，这个所谓曾经可能 AI  岗位；接下来就是 skill ，我不仅看到 codex 已经预先内置了一大堆官方 skill，是在执行任务的时候会自动调用的，而且他同时也足够聪明到自己执行一些临时编写的 skill。\n\nAI 这种普惠的东西，一定是会变的越来越容易使用的，不像早年间还要学会写各种提示词之类的。\n\n可以参考一下家用电脑/个人电脑的发展进程。",
+        "created_at": "Fri Aug 21 03:35:41 +0000 2026",
+        "url": "https://x.com/YuLin807/status/2090643978333139153",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 47.64,
+      "created_at": "2026-08-21T03:43:15Z",
+      "summary": "作者看到 AI native 公司把 Agent 接到飞书，用 skill 生成 PPT 做预览表达；感慨 PPT 本为降低沟通成本，却常被做成耗心力的手工活。更合理的归宿是 AI 随用随取、辅助理解、减少信息差，而不是人吭哧吭哧雕版式。",
+      "recommend_reason": "把“AI 做 PPT”从效率奇技拉回沟通目的本身，对办公 Agent 场景很解渴。",
+      "tags": [
+        "飞书",
+        "Agent",
+        "PPT",
+        "办公"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2090644485369901144",
+      "author": "JulianGoldieSEO",
+      "bio": "",
+      "text": "Most people are comparing Gemini 3.7 Flash vs Qwen 3.8.\n\nThey're asking the wrong question.\n\nThe real question:\n\nHow do you combine them into a business system?\n\n→ Gemini 3.7 Flash = strategy + planning + orchestration.\n\n→ Qwen 3.8 27B = production + deployment + repeatable tasks.\n\n→ Automation = moving information between systems.\n\n→ You = the final decision maker.\n\nThe future isn't one AI that does everything.\n\nIt's a stack where every layer has a job.\n\nSave this video, you'll understand how to build AI systems instead of just using AI tools.\n\nWant the SOP? DM me. 💬",
+      "likes": 0,
+      "views": "953",
+      "url": "https://x.com/i/status/2090644485369901144",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2090644373847552000/vid/avc1/480x270/TxgDwQ4AN-s_RDyh.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2090644373847552000/img/nh-tfeESk2aU3wTu.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 54.85,
+      "created_at": "2026-08-21T03:37:42Z",
+      "summary": "作者主张别把 Gemini 3.7 Flash 与 Qwen 3.8 当成二选一：前者偏策略/规划/编排，后者偏生产部署与可重复任务，中间用自动化搬信息，人做最终裁决。未来更像分层栈，而不是一个全能模型包办。",
+      "recommend_reason": "把模型对比从跑分拉回系统设计：谁做编排、谁做生产、人留在哪一层。",
+      "tags": [
+        "Gemini",
+        "Qwen",
+        "系统设计",
+        "Agent"
+      ],
+      "title": "别只比 Gemini 3.7 Flash 和 Qwen 3.8，先想分层分工",
+      "rank": 4
+    },
+    {
+      "id": "2090643978333139153",
+      "author": "YuLin807",
+      "bio": "",
+      "text": "模型的能力发展，先是干掉了提示词工程师，这个所谓曾经可能 AI  岗位；接下来就是 skill ，我不仅看到 codex 已经预先内置了一大堆官方 skill，是在执行任务的时候会自动调用的，而且他同时也足够聪明到自己执行一些临时编写的 skill。\n\nAI 这种普惠的东西，一定是会变的越来越容易使用的，不像早年间还要学会写各种提示词之类的。\n\n可以参考一下家用电脑/个人电脑的发展进程。",
+      "likes": 1,
+      "views": "198",
+      "url": "https://x.com/i/status/2090643978333139153",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 51.189,
+      "created_at": "2026-08-21T03:35:41Z",
+      "summary": "模型能力先消灭了提示词工程师这类岗位叙事；下一步轮到 skill——作者观察到 Codex 已预置大量官方 skill 并会在任务中自动调用，也足够聪明去执行临时编写的 skill。AI 会越来越容易用，可对照家用电脑从极客玩具到普通人工具的演进。",
+      "recommend_reason": "把 skill 自动调用写成下一阶段交互范式，比继续卷提示词话术更贴近产品方向。",
+      "tags": [
+        "Skill",
+        "Codex",
+        "产品趋势"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2090640860694319453",
+      "author": "dashen_wang",
+      "bio": "",
+      "text": "Google已把Gemini 3.7 Flash推到GA，官方定位是面向编程和智能体的主力模型。先别被版本号带着跑。真正该测的是你的真实任务：成功率、延迟、成本、长链路失控率。厂商榜单只能决定要不要进测试池，不能替你做上线决定。",
+      "likes": 3,
+      "views": "262",
+      "url": "https://x.com/i/status/2090640860694319453",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 54.787,
+      "created_at": "2026-08-21T03:23:18Z",
+      "summary": "Google 已将 Gemini 3.7 Flash 推到 GA，官方定位是面向编程和智能体的主力模型。先别被版本号带着跑。真正该测的是你的真实任务：成功率、延迟、成本、长链路失控率。厂商榜单只能决定要不要进测试池，不能替你做上线决定。",
+      "recommend_reason": "一句话把“GA 新闻”收束成可执行验收口径，适合直接贴进评测清单。",
+      "tags": [
+        "Gemini",
+        "评测",
+        "Agent"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2090639094607159690",
+      "author": "JulianGoldieSEO",
+      "bio": "",
+      "text": "Homura 30B wasn't built by one company from scratch.\n\nIt's more like an open-source relay race.\n\nThe chain looks like this:\n\n→ Meta releases Muse Glimmer.\n\n→ The community modifies the refusal behavior.\n\n→ Higher Labs trains an agent layer on top.\n\n→ Tool calling survives.\n\n→ The finished model becomes Homura.\n\nThat's the part most people will miss.\n\nThe interesting story isn't one new model.\n\nIt's how quickly open-source AI can be modified and specialized for a new job.\n\nSave this video, you'll see how fast the local AI ecosystem is moving.\n\nFull guide is inside the AI Profit Boardroom. DM me for the link. 💬",
+      "likes": 1,
+      "views": "1009",
+      "url": "https://x.com/i/status/2090639094607159690",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2090638491063652352/vid/avc1/480x270/Ho8AmK8Lhgc66SVg.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2090638491063652352/img/01S5fAzo_YyMAaCJ.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 56.79,
+      "created_at": "2026-08-21T03:16:17Z",
+      "summary": "Homura 的故事更像开源接力：Meta 放出 Muse Glimmer → 社区改拒绝行为 → Higher Labs 再训 agent 层并保住工具调用 → 成品成为 Homura。重点不是又一个新名字，而是开源模型被改造成专用 agent 的速度。",
+      "recommend_reason": "把“新模型发布”改写成“开源改造链路”，对判断开源 agent 化趋势更有用。",
+      "tags": [
+        "Homura",
+        "开源",
+        "Agent",
+        "模型"
+      ],
+      "title": "Homura 30B：开源接力赛，不是单厂从零造模",
+      "rank": 7
+    },
+    {
+      "id": "2090636759637930434",
+      "author": "gkxspace",
+      "bio": "",
+      "text": "原来 Codex 的额度消耗可以看得这么细啊？？？\n\n如果你觉得你的 Codex 的额度最近非常不耐用，你可以尝试一下：\n\n打开 https://t.co/LO6x7X2woO，然后在开发者工具的 Network 里搜索 daily-workspace-usage-counts。\n\n里面的 total 会列出 credits、tokens、turns，分别对应额度消耗、Token 用量和任务轮次。\n\n可以看一下自己前后几周的变化：同一个模型、同类任务，消耗有没有突然变得特别快。\n\n20X pro 周限额应该在 1B-2B 之间吧，具体还需要看你使用的模型，以及是否用了 “FAST”\n\n如果差别很大，就可以查一查是不是有问题：你的节点、是否频繁切换地区......",
+      "likes": 3,
+      "views": "1172",
+      "url": "https://x.com/i/status/2090636759637930434",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQLnY4dbIAAZrLe.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQLnY4dbIAAZrLe.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2090056975392571538",
+        "author": "Saccc_c",
+        "name": "Sac",
+        "text": "如果你的Codex近期额度消耗很快，很可能账号被风控了\n\n根据社区反馈，有下面几种可能原因：\n- IP质量低，节点多人共享导致滥用\n- 频繁切换账号，跨账号复用会话（比如切换多个plus并在同一会话继续任务）\n- 把登录凭证交给不透明的反代、中转或第三方工具\n\n当然，你也可以通过下面这个方式自测一下用量是否正常：\n\n1、先进入官方的用量页面\nhttps://t.co/24eiYrpyG6\n2、打开浏览器开发者工具并进入Network页面\n3、在 Codex 用量页面切换7天或1个月的时间范围，搜索daily-workspace-usage-counts\n4、查看preview下total里面的数值来确认消耗是否正确\n其中：\n- credits：记录的额度消耗\n- tokens：Token 用量\n- turns：任务轮次\n\n根据部分网友实测，pro20x的credits大概在5w-6w，那么Pro 5x理论约 1.25w-1.5w，plus约2500-3000",
+        "created_at": "Wed Aug 19 12:43:08 +0000 2026",
+        "url": "https://x.com/Saccc_c/status/2090056975392571538",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQFfX2KasAAlPBR.jpg",
+          "https://pbs.twimg.com/media/HQFfbCraEAApNPP.jpg",
+          "https://pbs.twimg.com/media/HQFfnFIb0AAW4cZ.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQFfX2KasAAlPBR.jpg",
+          "https://pbs.twimg.com/media/HQFfbCraEAApNPP.jpg",
+          "https://pbs.twimg.com/media/HQFfnFIb0AAW4cZ.jpg"
+        ]
+      },
+      "score": 57.505,
+      "created_at": "2026-08-21T03:07:00Z",
+      "summary": "若感觉 Codex 额度突然不耐用，可打开用量页，在开发者工具 Network 搜 daily-workspace-usage-counts，看 total 里的 credits、tokens、turns，并对比前后几周同模型同类任务是否变快消耗；还提示关注节点与地区切换。",
+      "recommend_reason": "给了可复查的具体接口名，比空喊“额度不够了”更能定位是任务变重还是账号/节点异常。",
+      "tags": [
+        "Codex",
+        "用量",
+        "工程实践"
+      ],
+      "title": "在 Network 里看 Codex 日用量：credits / tokens / turns",
+      "rank": 8
+    },
+    {
+      "id": "2090634335812821194",
+      "author": "xiaohu",
+      "bio": "",
+      "text": "OpenAI 将 Codex 的底层核心框 Harness开源  \n\n你可以轻松将Agent接入到自己业务系统中\n\n对开发者：少造一层基础设施。\n 上下文记忆、工具调用、沙箱、进度和审批机制，都可以复用 Codex 已有的开源组件。\n\n对产品：AI 可以进入现有软件\n 物流后台、工单系统、报税软件和监控看板都可以成为 Codex 的工作界面。\n\n对用户：不用把工作重新搬进聊天框。 原系统提供当前对象和业务状态，结果仍回到原来的正式记录。\n\n说清楚：OpenAI 没有把整个 Codex、模型和云服务全部开源。明确开放的是 Codex CLI、SDK、app-server 等 Harness 与接入组件；模型访问、托管服务、IDE Extension 和 Codex cloud 仍是独立部分。\n\n准确地说，开发者拿到的是 Codex 的 Agent 执行底座和接入层，不是整套 Codex 的自托管版本。\n\nhttps://t.co/RfF6PQT4xb",
+      "likes": 23,
+      "views": "2925",
+      "url": "https://x.com/i/status/2090634335812821194",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "OpenAI 开源 Codex 的 Agent Harness：把 AI 接进自己的业务系统 · 小互 · AI 解读站",
+        "description": "OpenAI 把管理上下文、工具调用、沙箱和审批的 Codex 执行底座开放出来。开发者不用从零造 Agent 框架，就能让 Codex 进入现有的看板、工单和业务后台。",
+        "image_url": "https://pbs.twimg.com/card_img/2090634208742125568/dBXoPLOM?format=jpg&name=800x320_1",
+        "url": "https://t.co/RfF6PQT4xb",
+        "domain": "best.xiaohu.ai"
+      },
+      "quoted_tweet": null,
+      "score": 59.066,
+      "created_at": "2026-08-21T02:57:22Z",
+      "summary": "OpenAI 开放的是 Codex CLI、SDK、app-server 等 Agent 执行底座与接入层，方便把上下文记忆、工具调用、沙箱和审批接到现有业务系统；模型访问、托管服务、IDE 插件与云端 Codex 仍独立。作者强调：少造一层基础设施，但别误读成“整套 Codex 全开源”。",
+      "recommend_reason": "把“Harness 开源”和“模型/云服务开源”拆开讲清楚，是今天最容易被标题党带偏的一条。",
+      "tags": [
+        "OpenAI",
+        "Codex",
+        "Harness",
+        "开源"
+      ],
+      "title": "OpenAI 开源 Codex Harness，不等于整套 Codex 自托管",
+      "rank": 9
+    },
+    {
+      "id": "2090631723302469995",
+      "author": "thsottiaux",
+      "bio": "",
+      "text": "Yay, you can now make transparent images in ChatGPT and through the API with GPT-Image-2. Here is a cactus cactus I am about to print and put on my laptop. https://t.co/1WZd2VSH8y",
+      "likes": 1448,
+      "views": "132615",
+      "url": "https://x.com/i/status/2090631723302469995",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQNqPjjbYAA1TbV.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQNqPjjbYAA1TbV.png"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2090536933571330440",
+        "author": "OpenAIDevs",
+        "name": "OpenAI Developers",
+        "text": "Transparent backgrounds are now available in preview for GPT-Image-2 in the API.\n\nGenerate reusable assets you can place on any background—for product imagery, graphic design, website mockups, and marketing campaigns. https://t.co/yRhBIYh8uP",
+        "created_at": "Thu Aug 20 20:30:19 +0000 2026",
+        "url": "https://x.com/OpenAIDevs/status/2090536933571330440",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2090536890466525184/vid/avc1/480x270/EC_slNVOKx_PmTUO.mp4?tag=14"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQMVJ0_WgAAoq7L.jpg"
+        ]
+      },
+      "score": 72.744,
+      "created_at": "2026-08-21T02:46:59Z",
+      "summary": "ChatGPT 与 GPT-Image-2 API 现已支持生成透明背景图片；作者随手做了张仙人掌贴纸准备打印贴笔记本。",
+      "recommend_reason": "透明底图是桌宠、网页设计和贴图工作流的刚需能力，官方 API 同步开放比只在聊天里能用更关键。",
+      "tags": [
+        "GPT-Image-2",
+        "图像生成",
+        "产品"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2090631644369793496",
+      "author": "GoSailGlobal",
+      "bio": "",
+      "text": "离谱！ 把美剧《办公室》搬进终端了，你的AI克隆人当经理\n\nMunder Difflin，3100多星的多agent调度台，把你已经在付费的Claude Code、Codex、Grok、Copilot这些CLI包成一个自协调团队\n\n每个agent有工位、信箱和长期记忆，2D像素办公室里实时看它们走动干活，你的克隆人Michael负责派活，你只管他一个\n\n最妙的是不用额外买API：直接跑你现有订阅的额度，MIT开源，三端都能装",
+      "likes": 3,
+      "views": "465",
+      "url": "https://x.com/i/status/2090631644369793496",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2090631627873619968/vid/avc1/446x270/MdhB0rgyEzzxw53c.mp4?tag=14"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2090631627873619968/img/kUqC133k5qHN4ROa.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 58.364,
+      "created_at": "2026-08-21T02:46:40Z",
+      "summary": "开源多 Agent 调度台 Munder Difflin（3100+ star）把 Claude Code、Codex、Grok、Copilot 等已有 CLI 订阅包成自协调团队：每人有工位、信箱和长期记忆，2D 像素办公室实时看进度，克隆人经理派活；MIT，可直接吃现有订阅额度。",
+      "recommend_reason": "不是再卖一套 API，而是复用你已在付的 CLI 额度做多 Agent 编排，切入点很务实。",
+      "tags": [
+        "Agent",
+        "开源",
+        "CLI",
+        "Codex"
+      ],
+      "title": "Munder Difflin：把现有付费 CLI Agent 包成像素办公室团队",
+      "rank": 11
+    }
+  ],
+  "generated_at": "2026-08-21T04:03:34Z",
+  "selection": {
+    "target_count": 30,
+    "max_count": 30,
+    "per_run_max": 15,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 11,
+    "last_batch_added": 11,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤15；单日≤30不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
