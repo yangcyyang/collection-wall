@@ -1,0 +1,29 @@
+{
+  "id": "arsenal-ea3a71de6e288f",
+  "url": "https://github.com/LiamGvchi/gc-minimal-zine-poster",
+  "name": "GC Minimal Zine Poster",
+  "headline": "一个 Codex 技能，生成极简杂志风格的海报提示词与图像。",
+  "intro": "一个 Codex 技能，生成极简杂志风格的海报提示词与图像。",
+  "category": "🎨 视觉创作",
+  "subcategory": "",
+  "tags": [],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "GC Minimal Zine Poster",
+    "🎨 视觉创作"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-08-21T06:17:47.741Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

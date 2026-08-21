@@ -1,0 +1,29 @@
+{
+  "id": "arsenal-0cba140c23bdd8",
+  "url": "https://github.com/ZSeven-W/dsh-noema",
+  "name": "DSH Noema",
+  "headline": "为 AI 编码 Agent 提供持久化长程记忆的插件,支持会话间知识 recall 与管理",
+  "intro": "为 AI 编码 Agent 提供持久化长程记忆的插件,支持会话间知识 recall 与管理",
+  "category": "🌐 网页与代码",
+  "subcategory": "",
+  "tags": [],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "DSH Noema",
+    "🌐 网页与代码"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-08-21T06:17:47.741Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

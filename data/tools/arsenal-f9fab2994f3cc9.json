@@ -1,0 +1,29 @@
+{
+  "id": "arsenal-f9fab2994f3cc9",
+  "url": "https://github.com/MiniMax-AI/MiniMax-Music3/blob/main/skills/music-caption-rewriter/SKILL.md",
+  "name": "Music Caption Rewriter",
+  "headline": "AI音乐描述重写器，优化音乐生成提示词，输出结构化描述。",
+  "intro": "AI音乐描述重写器，优化音乐生成提示词，输出结构化描述。",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Music Caption Rewriter",
+    "🤖 AI 大模型"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-08-21T06:17:47.741Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

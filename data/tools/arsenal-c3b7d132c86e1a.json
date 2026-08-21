@@ -1,0 +1,29 @@
+{
+  "id": "arsenal-c3b7d132c86e1a",
+  "url": "https://github.com/huangserva/ComfyUI_MiniMaxH3_Director",
+  "name": "ComfyUI MiniMax H3 Director",
+  "headline": "ComfyUI MiniMax H3 Director 工作流,支持文生视频、图生视频与视频编辑",
+  "intro": "ComfyUI MiniMax H3 Director 工作流,支持文生视频、图生视频与视频编辑",
+  "category": "🎨 视觉创作",
+  "subcategory": "",
+  "tags": [],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "ComfyUI MiniMax H3 Director",
+    "🎨 视觉创作"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-08-21T06:17:47.741Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

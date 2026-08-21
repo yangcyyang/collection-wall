@@ -1,0 +1,29 @@
+{
+  "id": "arsenal-9b77e1ca7eb198",
+  "url": "https://github.com/Alisa0808/vox-director",
+  "name": "Vox Director",
+  "headline": "AI 驱动的 Vox 风格拼贴解释性视频生成工具，自动创建脚本、动画、配音和音乐，作为 Claude 代理技能。",
+  "intro": "AI 驱动的 Vox 风格拼贴解释性视频生成工具，自动创建脚本、动画、配音和音乐，作为 Claude 代理技能。",
+  "category": "🎨 视觉创作",
+  "subcategory": "",
+  "tags": [],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Vox Director",
+    "🎨 视觉创作"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-08-21T06:17:47.741Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "arsenal-5b4b47c0db4570",
+  "url": "https://pi.dev/packages",
+  "name": "Pi Package Catalog",
+  "headline": "Pi AI 编码助手扩展目录，提升 Agent 编程与开发能力",
+  "intro": "Pi AI 编码助手扩展目录，提升 Agent 编程与开发能力",
+  "category": "🌐 网页与代码",
+  "subcategory": "",
+  "tags": [],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Pi Package Catalog",
+    "🌐 网页与代码"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-08-21T06:17:47.741Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

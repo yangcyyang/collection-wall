@@ -1,0 +1,29 @@
+{
+  "id": "arsenal-328a7b2dd544e1",
+  "url": "https://github.com/openai/codex-security",
+  "name": "Codex Security",
+  "headline": "OpenAI 代码安全 CLI 与 SDK，用于查找、验证和修复安全漏洞",
+  "intro": "OpenAI 代码安全 CLI 与 SDK，用于查找、验证和修复安全漏洞",
+  "category": "🌐 网页与代码",
+  "subcategory": "",
+  "tags": [],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Codex Security",
+    "🌐 网页与代码"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-08-21T06:17:47.741Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

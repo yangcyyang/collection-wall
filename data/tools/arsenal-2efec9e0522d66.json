@@ -1,0 +1,29 @@
+{
+  "id": "arsenal-2efec9e0522d66",
+  "url": "https://github.com/iOfficeAI/OfficeCLI/blob/main/README_zh.md",
+  "name": "OfficeCLI",
+  "headline": "专为AI智能体设计的Office命令行工具，自动化处理Word、Excel、PPT文档",
+  "intro": "专为AI智能体设计的Office命令行工具，自动化处理Word、Excel、PPT文档",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "OfficeCLI",
+    "🤖 AI 大模型"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-08-21T06:17:47.741Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

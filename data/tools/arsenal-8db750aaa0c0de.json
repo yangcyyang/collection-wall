@@ -1,0 +1,29 @@
+{
+  "id": "arsenal-8db750aaa0c0de",
+  "url": "https://github.com/GiMi-Xiaomi/gimi-illustration-skill",
+  "name": "gimi-illustration-skill",
+  "headline": "开源 AI Agent Skill，可将文章内容自动生成怪诞手绘风格配图。",
+  "intro": "开源 AI Agent Skill，可将文章内容自动生成怪诞手绘风格配图。",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "gimi-illustration-skill",
+    "🤖 AI 大模型"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-08-21T06:17:47.741Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

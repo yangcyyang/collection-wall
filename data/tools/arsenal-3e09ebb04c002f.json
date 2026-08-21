@@ -1,0 +1,29 @@
+{
+  "id": "arsenal-3e09ebb04c002f",
+  "url": "https://github.com/Vincentwei1021/video-shotcraft",
+  "name": "video-shotcraft",
+  "headline": "AI 视频制作技能，结合 Claude/Codex 驱动生成电影级产品宣传片与动效。",
+  "intro": "AI 视频制作技能，结合 Claude/Codex 驱动生成电影级产品宣传片与动效。",
+  "category": "🎨 视觉创作",
+  "subcategory": "",
+  "tags": [],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "video-shotcraft",
+    "🎨 视觉创作"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-08-21T06:17:47.741Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

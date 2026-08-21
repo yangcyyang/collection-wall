@@ -1,0 +1,29 @@
+{
+  "id": "arsenal-9aab5fab2f386c",
+  "url": "https://fm.xiaoercamera.xyz/",
+  "name": "小耳FM",
+  "headline": "沉浸式在线音乐播放器，支持自定义3D空间与音乐上传",
+  "intro": "沉浸式在线音乐播放器，支持自定义3D空间与音乐上传",
+  "category": "🔊 声音",
+  "subcategory": "",
+  "tags": [],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "小耳FM",
+    "🔊 声音"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-08-21T06:17:47.741Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}

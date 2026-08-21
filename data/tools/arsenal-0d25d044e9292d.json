@@ -1,0 +1,29 @@
+{
+  "id": "arsenal-0d25d044e9292d",
+  "url": "https://github.com/DLYZZT/pi-desktop",
+  "name": "Pi Agent Desktop",
+  "headline": "跨平台 Electron 桌面工作台，为 AI 编程 Agent 提供本地优先项目管理",
+  "intro": "跨平台 Electron 桌面工作台，为 AI 编程 Agent 提供本地优先项目管理",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [],
+  "capabilities": [],
+  "scenarios": [],
+  "search_keywords": [
+    "Pi Agent Desktop",
+    "🤖 AI 大模型"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [],
+  "cover": null,
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-08-21T06:17:47.741Z",
+  "my_notes": "",
+  "source": "xiaoer-tools-wall"
+}
