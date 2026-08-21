@@ -1,10 +1,11 @@
 ---
 import "../styles/global.css";
 import PromptViewer from "../components/PromptViewer.astro";
-import { formatPromptEyebrow, getPromptCards } from "../lib/prompts";
+import { formatPromptEyebrow, getPromptSets, imageCount } from "../lib/prompts";
 
-const cards = await getPromptCards();
-const eyebrow = formatPromptEyebrow(cards);
+const sets = await getPromptSets();
+const eyebrow = formatPromptEyebrow(sets);
+const totalImages = imageCount(sets);
 ---
 
 <html lang="zh-CN">
@@ -20,9 +21,9 @@ const eyebrow = formatPromptEyebrow(cards);
         <div>
           <p class="eyebrow">{eyebrow}</p>
           <h1>提示词</h1>
-          <p class="intro">每张卡片是一张图。点图片查看同一提示词的其他大图，底部按钮复制提示词，「原推」打开推文。</p>
+          <p class="intro">每张卡片是一套提示词。点封面查看组内大图，底部按钮复制提示词，「原推」打开推文。</p>
         </div>
-        <p class="record-count">{cards.length} 张图已收录</p>
+        <p class="record-count">{sets.length} 套 · {totalImages} 张图</p>
       </header>
 
       <nav class="tabs" aria-label="站点栏目">
@@ -33,7 +34,7 @@ const eyebrow = formatPromptEyebrow(cards);
         <a class="tab is-active" href="/prompts/">提示词</a>
       </nav>
 
-      {cards.length === 0 ? (
+      {sets.length === 0 ? (
         <section class="empty-state" aria-labelledby="empty-title">
           <p class="empty-icon">✦</p>
           <h2 id="empty-title">还没有提示词</h2>
@@ -41,18 +42,22 @@ const eyebrow = formatPromptEyebrow(cards);
         </section>
       ) : (
         <section class="prompt-masonry" aria-label="提示词图片墙">
-          {cards.map((card) => (
-            <article class="prompt-card" data-prompt-card data-item-id={card.id} data-image-index={card.imageIndex}>
+          {sets.map((set) => (
+            <article class="prompt-card" data-prompt-card data-item-id={set.id}>
               <button type="button" class="prompt-image-open" data-open-viewer aria-label="查看同组大图">
-                <img src={card.imageUrl} alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+                <img src={set.images[0]} alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+                {set.images.length > 1 && <span class="prompt-count-badge">{set.images.length}张</span>}
               </button>
+              <ul class="prompt-set-images" hidden>
+                {set.images.map((url) => <li data-set-image={url}></li>)}
+              </ul>
               <div class="prompt-card-bar">
-                <a class="prompt-source" href={card.tweetUrl} target="_blank" rel="noreferrer">原推</a>
+                <a class="prompt-source" href={set.tweetUrl} target="_blank" rel="noreferrer">原推</a>
                 <button type="button" class="prompt-copy" data-copy-prompt>
                   <span data-copy-label>复制提示词</span>
                 </button>
               </div>
-              <pre class="prompt-payload" hidden>{card.prompt}</pre>
+              <pre class="prompt-payload" hidden>{set.prompt}</pre>
             </article>
           ))}
         </section>

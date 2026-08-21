@@ -26,15 +26,10 @@
   let pointerX = 0;
   let pointerOn = false;
 
-  function setImages(itemId) {
-    return [...document.querySelectorAll(`[data-prompt-card][data-item-id="${CSS.escape(itemId)}"]`)]
-      .map((card) => ({
-        url: card.querySelector("img")?.getAttribute("src") ?? "",
-        order: Number(card.getAttribute("data-image-index") ?? 0),
-      }))
-      .filter((item) => item.url)
-      .sort((a, b) => a.order - b.order)
-      .map((item) => item.url);
+  function setImages(card) {
+    return [...card.querySelectorAll("[data-set-image]")]
+      .map((item) => item.getAttribute("data-set-image") ?? "")
+      .filter(Boolean);
   }
 
   function render() {
@@ -46,10 +41,10 @@
     if (nextBtn) nextBtn.hidden = !many;
   }
 
-  function open(itemId, startIndex, trigger) {
-    urls = setImages(itemId);
+  function open(card, trigger) {
+    urls = setImages(card);
     if (!urls.length || !viewer) return;
-    index = Math.min(Math.max(startIndex, 0), urls.length - 1);
+    index = 0;
     lastTrigger = trigger ?? null;
     viewer.hidden = false;
     document.body.classList.add("prompt-viewer-open");
@@ -76,7 +71,7 @@
     button.addEventListener("click", () => {
       const card = button.closest("[data-prompt-card]");
       if (!card) return;
-      open(card.getAttribute("data-item-id") ?? "", Number(card.getAttribute("data-image-index") ?? 0), button);
+      open(card, button);
     });
   });
 

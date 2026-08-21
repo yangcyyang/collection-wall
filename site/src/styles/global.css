@@ -201,7 +201,8 @@ h3 { font-size: var(--font-size-card-title); margin-bottom: var(--spacing-sm); o
 .prompt-masonry { column-count: 4; column-gap: var(--spacing-md); padding: var(--spacing-lg) 0; }
 .prompt-card { background: var(--color-surface); border: var(--border-width) solid var(--color-border); border-radius: var(--radius-card); box-shadow: var(--shadow-card); break-inside: avoid; display: inline-block; margin-bottom: var(--spacing-md); overflow: hidden; transition: box-shadow var(--duration-hover), transform var(--duration-hover); width: 100%; }
 .prompt-card:hover { box-shadow: var(--shadow-card-hover); transform: translateY(var(--motion-lift)); }
-.prompt-image-open { background: transparent; border: 0; cursor: zoom-in; display: block; padding: 0; width: 100%; }
+.prompt-image-open { background: transparent; border: 0; cursor: zoom-in; display: block; padding: 0; position: relative; width: 100%; }
+.prompt-count-badge { background: rgb(23 32 42 / 0.72); border-radius: var(--radius-card); color: var(--color-surface); font-size: var(--font-size-caption); padding: var(--spacing-xs) var(--spacing-sm); pointer-events: none; position: absolute; right: var(--spacing-sm); top: var(--spacing-sm); }
 .prompt-image-open:focus-visible, .prompt-source:focus-visible, .prompt-copy:focus-visible, .prompt-viewer-close:focus-visible, .prompt-viewer-nav:focus-visible { outline: var(--outline-width) solid var(--color-brand); outline-offset: var(--outline-width); }
 .prompt-card img { display: block; height: auto; width: 100%; }
 body.prompt-viewer-open { overflow: hidden; }
