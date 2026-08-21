@@ -1,8 +1,8 @@
 {
   "source": "aiartdaily",
   "title": "AI Art Daily 平面提示词",
-  "updated_at": "2026-08-21T09:12:05Z",
-  "count": 16,
+  "updated_at": "2026-08-21T18:55:36Z",
+  "count": 28,
   "items": [
     {
       "id": "aad-1075-retro-pixel-platform",
@@ -295,6 +295,94 @@
       ]
     },
     {
+      "id": "aad-980-hacker-pixel",
+      "author": "aiartdaily",
+      "url": "https://aiartdaily.substack.com/p/the-hacker-prompt-that-kept-looking",
+      "created_at": "2026-04-06T09:04:07.699Z",
+      "text": "复古像素黑客近景",
+      "prompt": "hooded hacker typing on keyboard, surrounded by computer code, pixel art style, retro game vibe, digital illustration, vector graphic design, cyberpunk color palette, flat colors, minimalistic, simple background, low resolution, high details, dark and ominous mood, close up shot, low angle view, frontal perspective, symmetrical composition, colorful palette --ar 3:4",
+      "images": [
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/4c3608be-6807-4e17-a38e-4534b0a5aa68_928x1232.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/4c3608be-6807-4e17-a38e-4534b0a5aa68_928x1232.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/798847fb-346e-47c7-b370-4abb604c8a91_928x1232.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/798847fb-346e-47c7-b370-4abb604c8a91_928x1232.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/759c0d8a-7e6f-4cb6-af4b-de2144cfcc8d_1456x816.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/759c0d8a-7e6f-4cb6-af4b-de2144cfcc8d_1456x816.png"
+        }
+      ]
+    },
+    {
+      "id": "aad-975-savannah-painting",
+      "author": "aiartdaily",
+      "url": "https://aiartdaily.substack.com/p/african-savannah-ai-art",
+      "created_at": "2026-03-30T08:45:36.207Z",
+      "text": "十九世纪萨瓦纳风景画",
+      "prompt": "a majestic elephant standing under an acacia tree, with the African savannah in the background and sailboats on the river, realistic style, with a full moon setting behind it, detailed and colorful artwork, trees with golden leaves and distant wildlife like giraffes or lions --ar 3:2",
+      "images": [
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/f2c4e2dc-7fb6-4979-8245-36e0c12a482a_1344x896.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/f2c4e2dc-7fb6-4979-8245-36e0c12a482a_1344x896.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/39c115c4-c4d1-4a32-b8af-cdfb1767986b_1344x896.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/39c115c4-c4d1-4a32-b8af-cdfb1767986b_1344x896.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/0dbd21e2-4a7e-4cfb-a7ef-43ed5b6ff9af_1344x896.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/0dbd21e2-4a7e-4cfb-a7ef-43ed5b6ff9af_1344x896.png"
+        }
+      ]
+    },
+    {
+      "id": "aad-945-cyberpunk-creature",
+      "author": "aiartdaily",
+      "url": "https://aiartdaily.substack.com/p/ai-cyberpunk-creature-portraits",
+      "created_at": "2026-02-16T17:45:59.186Z",
+      "text": "赛博花卉生物肖像",
+      "prompt": "a red snake with golden eyes, an open mouth, and sharp teeth surrounded by white flowers, against a dark blue background, shiny, glittered, hyper-detailed illustration, dark reflections, surreal, full-body, close-up, cyberpunk manga style, high resolution, high contrast, vivid colours, and a strong visual impact",
+      "images": [
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/f451ba79-0358-45eb-b843-8d69c3f04446_1232x928.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/f451ba79-0358-45eb-b843-8d69c3f04446_1232x928.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/635da0cc-d6a2-4074-82cd-4290412f6484_1232x928.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/635da0cc-d6a2-4074-82cd-4290412f6484_1232x928.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/78f30d74-53ca-4164-b8cd-baf5fc30447c_1232x928.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/78f30d74-53ca-4164-b8cd-baf5fc30447c_1232x928.png"
+        }
+      ]
+    },
+    {
+      "id": "aad-940-minimalist-animal-logos",
+      "author": "aiartdaily",
+      "url": "https://aiartdaily.substack.com/p/ai-prompts-to-create-minimalist-animal-illustrations",
+      "created_at": "2026-02-09T15:09:44.919Z",
+      "text": "手绘极简动物标志",
+      "prompt": "a simple logo design of a horse family, drawn by hand with black ink on a light beige paper background, in a simple vector style, three horses standing together showing connection, clean minimalist linework, subtle ink texture, warm natural paper tone, professional branding aesthetic, balanced composition",
+      "images": [
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/56320268-11df-4366-9653-2a8292e98c0a_1024x1024.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/56320268-11df-4366-9653-2a8292e98c0a_1024x1024.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/148b88de-13ca-4121-82f3-9eae22716376_1024x1024.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/148b88de-13ca-4121-82f3-9eae22716376_1024x1024.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/39843d7f-a95b-4380-bb28-161c09b990d1_1024x1024.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/39843d7f-a95b-4380-bb28-161c09b990d1_1024x1024.png"
+        }
+      ]
+    },
+    {
       "id": "aad-925-victorian-memento-mori",
       "author": "aiartdaily",
       "url": "https://aiartdaily.substack.com/p/925-the-victorian-inspired-pattern",
@@ -313,6 +401,50 @@
         {
           "url": "https://substack-post-media.s3.amazonaws.com/public/images/e94a9bfc-ed52-422c-b539-1a027924606c_1232x928.jpeg",
           "poster": "https://substack-post-media.s3.amazonaws.com/public/images/e94a9bfc-ed52-422c-b539-1a027924606c_1232x928.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "aad-910-narrative-desert-vector",
+      "author": "aiartdaily",
+      "url": "https://aiartdaily.substack.com/p/910-creating-narrative-desert-scenes",
+      "created_at": "2025-12-29T11:39:25.500Z",
+      "text": "叙事性废土矢量风景",
+      "prompt": "A lone robot walks with its dog through the post-apocalyptic desert wasteland. In the distance, a rusted and broken ship stands tall. This cinematic composition features a flat vector art digital painting with a dark orange sky, a golden sun, and a red sandy ground in a wide shot. --ar 3:2",
+      "images": [
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/d85a8220-7af3-4c46-b58a-7e704d120963_1344x896.jpeg",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/d85a8220-7af3-4c46-b58a-7e704d120963_1344x896.jpeg"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/8c8cef35-7951-4ec2-bd0b-2dfc3fcc3abd_1344x896.jpeg",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/8c8cef35-7951-4ec2-bd0b-2dfc3fcc3abd_1344x896.jpeg"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/607b0d73-4c3a-47b1-a85b-d7f8149c4aed_1344x896.jpeg",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/607b0d73-4c3a-47b1-a85b-d7f8149c4aed_1344x896.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "aad-905-minimalist-christmas",
+      "author": "aiartdaily",
+      "url": "https://aiartdaily.substack.com/p/905-how-to-create-minimalist-christmas",
+      "created_at": "2025-12-22T11:07:15.791Z",
+      "text": "极简圣诞卡通插画",
+      "prompt": "A cute gorilla wearing a Santa hat, sitting on the ground eating bananas in a minimalist room with a single light bulb hanging from above. There is a tiny Christmas tree. Background is beige and simple. Hand drawn with pen and ink, in a cartoon style. A simple drawing.",
+      "images": [
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/7bfdc342-0a12-4627-844c-0287d69de99b_1024x1024.jpeg",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/7bfdc342-0a12-4627-844c-0287d69de99b_1024x1024.jpeg"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/58dbf5e2-fa00-440f-88bd-f8be081ca63b_1024x1024.jpeg",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/58dbf5e2-fa00-440f-88bd-f8be081ca63b_1024x1024.jpeg"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/b0ae3307-cae2-4c62-a957-2caf700577d2_1024x1024.jpeg",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/b0ae3307-cae2-4c62-a957-2caf700577d2_1024x1024.jpeg"
         }
       ]
     },
@@ -357,6 +489,138 @@
         {
           "url": "https://substack-post-media.s3.amazonaws.com/public/images/61941e8f-6cfb-4eeb-b275-99e0ed41c83a_1344x896.jpeg",
           "poster": "https://substack-post-media.s3.amazonaws.com/public/images/61941e8f-6cfb-4eeb-b275-99e0ed41c83a_1344x896.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "aad-890-monochrome-etching",
+      "author": "aiartdaily",
+      "url": "https://aiartdaily.substack.com/p/890-ai-etching-art-tutorial-create",
+      "created_at": "2025-12-01T14:43:32.917Z",
+      "text": "单色蚀刻线稿生物",
+      "prompt": "A detailed etching of an alien, focused gaze, monochrome on white paper. The body is elongated with feathers that contrast against the stark background, creating depth and texture. Its feet holding onto something. Detailed line work and the use of negative space",
+      "images": [
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/4464fde8-65fd-4504-bd3e-54099a779bb7_1024x1024.jpeg",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/4464fde8-65fd-4504-bd3e-54099a779bb7_1024x1024.jpeg"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/6e812684-5dd5-48c6-8890-11c9feac10e9_1024x1024.jpeg",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/6e812684-5dd5-48c6-8890-11c9feac10e9_1024x1024.jpeg"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/8529d225-9624-47e0-a436-95c1e12dad42_1024x1024.jpeg",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/8529d225-9624-47e0-a436-95c1e12dad42_1024x1024.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "aad-880-linear-vector-portraits",
+      "author": "aiartdaily",
+      "url": "https://aiartdaily.substack.com/p/880-the-high-contrast-prompt-that",
+      "created_at": "2025-11-17T14:03:36.689Z",
+      "text": "高对比线性矢量肖像",
+      "prompt": "Front view of an alien with purple eyes and long hair, on a black background, vector art, flat design, 2d, with white lines for face contour outline, digital illustration, high resolution, high-definition, high-detail, high-quality, high-contrast, and high-sharpness --ar 2:3",
+      "images": [
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/65570d95-d260-4667-a7b1-49e403d5b5b9_896x1344.jpeg",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/65570d95-d260-4667-a7b1-49e403d5b5b9_896x1344.jpeg"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/44e4396a-ce2d-4f5a-81ad-9609a4ddbbf7_896x1344.jpeg",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/44e4396a-ce2d-4f5a-81ad-9609a4ddbbf7_896x1344.jpeg"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/af7bdc71-c2ff-434d-9c3a-d10d6776e1e9_896x1344.jpeg",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/af7bdc71-c2ff-434d-9c3a-d10d6776e1e9_896x1344.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "aad-855-pop-art-portraits",
+      "author": "aiartdaily",
+      "url": "https://aiartdaily.substack.com/p/855-create-stunning-pop-art-portraits-ai",
+      "created_at": "2025-10-13T12:36:50.984Z",
+      "text": "波普街头肖像海报",
+      "prompt": "tattooed woman blowing pink bubblegum, pink and black pop art, bold colors, pop surrealism, poster, pop culture references, high contrast, ink splatter effect, dark background, pink lipstick, pink lips, neck ring, tattoos, graphic illustration, vibrant magenta, rebellious attitude, close-up portrait, screen print aesthetic, contemporary street art style",
+      "images": [
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/84e1c599-1f18-4ad4-a99a-b8b11d4351b9_1024x1024.jpeg",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/84e1c599-1f18-4ad4-a99a-b8b11d4351b9_1024x1024.jpeg"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/41fd2926-a11a-49ba-85ac-feb0cc1806a6_1024x1024.jpeg",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/41fd2926-a11a-49ba-85ac-feb0cc1806a6_1024x1024.jpeg"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/b1aa2363-3850-4207-b9ff-ea8a2c9d6cec_1024x1024.jpeg",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/b1aa2363-3850-4207-b9ff-ea8a2c9d6cec_1024x1024.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "aad-850-cubist-abstract-characters",
+      "author": "aiartdaily",
+      "url": "https://aiartdaily.substack.com/p/850-how-to-create-cubist-abstract",
+      "created_at": "2025-10-06T05:08:25.956Z",
+      "text": "立体主义抽象角色",
+      "prompt": "an abstract character with butterfly wings, portrayed in the style of picasso’s cubist style, with exaggerated features and bold colors. the background is an array of warm hues. a hand holding the head wears white gloves, adding to its whimsical appearance. --ar 3:2",
+      "images": [
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/00c809bd-9217-4d86-9e97-55f293148b42_1344x896.jpeg",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/00c809bd-9217-4d86-9e97-55f293148b42_1344x896.jpeg"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/065c167f-807e-4058-9703-56c89ef37c96_1344x896.jpeg",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/065c167f-807e-4058-9703-56c89ef37c96_1344x896.jpeg"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/4395c63d-c913-49e3-bf32-6b5d52b35712_1344x896.jpeg",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/4395c63d-c913-49e3-bf32-6b5d52b35712_1344x896.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "aad-845-chinese-ink-wash",
+      "author": "aiartdaily",
+      "url": "https://aiartdaily.substack.com/p/845-traditional-chinese-ink-paintings",
+      "created_at": "2025-09-29T10:17:26.324Z",
+      "text": "传统水墨叙事人物",
+      "prompt": "An ancient soldier standing under a tree, leaning against a wooden fence with his hands on one shoulder and holding a bow in front of him. light gray background, high details, ink wash style, traditional brushwork. no text, painting in the style of traditional chinese ink painting.",
+      "images": [
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/e8352d15-e90f-4878-a2fe-c964d26a6842_1024x1024.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/e8352d15-e90f-4878-a2fe-c964d26a6842_1024x1024.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/fce233f2-d52f-424d-82a0-556a631101b9_1024x1024.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/fce233f2-d52f-424d-82a0-556a631101b9_1024x1024.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/a2b5f62d-9157-49d0-b71d-aa79c9dc9530_1024x1024.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/a2b5f62d-9157-49d0-b71d-aa79c9dc9530_1024x1024.png"
+        }
+      ]
+    },
+    {
+      "id": "aad-835-watercolor-cafe",
+      "author": "aiartdaily",
+      "url": "https://aiartdaily.substack.com/p/835-watercolor-and-ink-ai-portraits",
+      "created_at": "2025-09-15T10:34:22.249Z",
+      "text": "水彩墨线咖啡馆速写",
+      "prompt": "close-up, loose watercolor sketch and ink sketch of two men in white shirts sitting at a table with red wine glasses. one man is wearing sunglasses and holding a cigarette, while the other has short blonde hair. colorful doodles are drawn on them, and abstract lines are drawn around them. --ar 3:2",
+      "images": [
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/38245cbf-7d43-4552-a9af-a2543e3bbdb4_1344x896.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/38245cbf-7d43-4552-a9af-a2543e3bbdb4_1344x896.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/e0b79ab5-0855-4dca-b45c-ce8a430567f0_1344x896.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/e0b79ab5-0855-4dca-b45c-ce8a430567f0_1344x896.png"
+        },
+        {
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/b037f87d-948a-4dc9-a040-d4580cb2555a_1344x896.png",
+          "poster": "https://substack-post-media.s3.amazonaws.com/public/images/b037f87d-948a-4dc9-a040-d4580cb2555a_1344x896.png"
         }
       ]
     }
