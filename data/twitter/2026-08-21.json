@@ -9,6 +9,53 @@
   },
   "items": [
     {
+      "id": "2090650993268752744",
+      "author": "Khazix0918",
+      "bio": "",
+      "text": "我擦，这个牛来模型现在在OpenRouter上是免费的啊？？？\n\n多模态，1M上下文，测了一下Coding能力还很强，我觉得跟国产第一梯队是可以比一比的。。。\n\n不是，这还不赶紧先薅一波？？？\n\nhttps://t.co/DLTiRKHHFz https://t.co/ugcgWuwACy",
+      "likes": 2,
+      "views": "187",
+      "url": "https://x.com/i/status/2090650993268752744",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQN758DagAAniUP.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQN758DagAAniUP.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2090544970923184269",
+        "author": "OpenRouter",
+        "name": "OpenRouter",
+        "text": "🥷 New stealth model: Ox Alpha\n\nOx Alpha is a frontier model built for efficient coding, sustained agentic work, and real-world production use.\n\n- 1M token context window\n- Text, image, and video input\n\nTry it now and share feedback to improve the model! https://t.co/tU5lmZrO5z",
+        "created_at": "Thu Aug 20 21:02:16 +0000 2026",
+        "url": "https://x.com/OpenRouter/status/2090544970923184269",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": [],
+        "card": {
+          "name": "summary_large_image",
+          "title": "Ox Alpha - API Pricing & Providers",
+          "description": "Ox Alpha is a reasoning model designed for coding, sustained agentic work, and production workloads. 1,048,576 token context window.",
+          "image_url": "https://pbs.twimg.com/card_img/2090544973112594432/J6QSvQzc?format=jpg&name=600x600",
+          "url": "https://openrouter.ai/stealth/ox-alpha",
+          "domain": "openrouter.ai"
+        }
+      },
+      "score": 41.539,
+      "created_at": "2026-08-21T04:03:33Z",
+      "title": "OpenRouter 上的 Ox Alpha 暂时免费，1M 上下文",
+      "summary": "作者发现 OpenRouter 上的 Ox（牛来）目前免费，多模态、1M 上下文，自己测下来写代码能力能跟国产第一梯队比。引用 OpenRouter 对 Ox Alpha 的说明：面向高效编程、长程 agent 和生产负载，支持文本、图像和视频输入。",
+      "recommend_reason": "把 Cola 的 Ox 对到 OpenRouter 免费入口和 1M 窗口，方便真去试编码。",
+      "tags": [
+        "Ox",
+        "OpenRouter",
+        "AI Coding"
+      ],
+      "rank": 1
+    },
+    {
       "id": "2090648370306335229",
       "author": "xiaohu",
       "bio": "",
@@ -38,7 +85,7 @@
         "AI教育"
       ],
       "title": "Anthropic 公开 Claude Academy：产品课 + 通用 AI 心智",
-      "rank": 1
+      "rank": 2
     },
     {
       "id": "2090646018954240422",
@@ -63,7 +110,7 @@
         "推理"
       ],
       "title": "DeepSeek Flash：开源加速里的性价比尖兵",
-      "rank": 2
+      "rank": 3
     },
     {
       "id": "2090645882161238308",
@@ -98,7 +145,7 @@
         "PPT",
         "办公"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "id": "2090644485369901144",
@@ -128,7 +175,7 @@
         "Agent"
       ],
       "title": "别只比 Gemini 3.7 Flash 和 Qwen 3.8，先想分层分工",
-      "rank": 4
+      "rank": 5
     },
     {
       "id": "2090643978333139153",
@@ -152,7 +199,34 @@
         "Codex",
         "产品趋势"
       ],
-      "rank": 5
+      "rank": 6
+    },
+    {
+      "id": "2090642394580738260",
+      "author": "dingyi",
+      "bio": "",
+      "text": "通过 @dhh 的 docker 管理工具 once 安装了 https://t.co/pwMHN2JUbA 来监控服务器信息，然后让 AI 快速搞了一个插件。这用户体验爽死我了。 https://t.co/Xp0vc25zpz",
+      "likes": 12,
+      "views": "883",
+      "url": "https://x.com/i/status/2090642394580738260",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQNzqPebMAA4Gzr.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQNzqPebMAA4Gzr.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 45.702,
+      "created_at": "2026-08-21T03:29:23Z",
+      "summary": "通过 @dhh 的 docker 管理工具 once 安装了监控服务来看服务器信息，然后让 AI 快速搞了一个插件。这用户体验爽死我了。",
+      "recommend_reason": "一次把 once、监控和 AI 写插件串起来，是很具体的个人工作流而不是空赞。",
+      "tags": [
+        "AI Coding",
+        "Docker"
+      ],
+      "rank": 7
     },
     {
       "id": "2090640860694319453",
@@ -176,7 +250,50 @@
         "评测",
         "Agent"
       ],
-      "rank": 6
+      "rank": 8
+    },
+    {
+      "id": "2090639341710458973",
+      "author": "gkxspace",
+      "bio": "",
+      "text": "爽了，兄弟们，Topview 插件终于上线 Codex 了！！！\n\n市场研究 + 创意概念 + 分镜 + 图片 + 视频 + 数字人 + 配音，Codex 现在能顺着一条对话直接做下去。\n\n而且 @TopviewAIhq 给订阅用户送了 10 次 MiniMax H3。\n\n我来给大家详细讲一讲这个插件：\n1、你可以丢一条商品链接、一张产品图或者一个 brief 进去。\n它支持查 TikTok、YouTube、Amazon、Shopee 的趋势和评论，找受众痛点、正在爆的钩子，再继续做广告策略和脚本。\n\n2、里面有 100 多个创意技能：\nTikTok 产品广告、试穿广告、痛点广告、微短剧、爆款仿拍。选一个技能，附上产品和参考素材，Codex 自己做概念、拆分镜、出图、生成视频。\n\n3、插件还能直接调 Topview 里的 MiniMax H3、Seedance、Wan、Kling、Vidu、GPT Image 2。\n想做产品片、社媒短视频、数字人讲解、配音，直接说你要什么就行。\n\n以前完成这些要开五六个工具，现在 Topview 把整套能力直接装进 Codex 了。\n\n做电商、产品发布、AI 短剧和社媒视频的，这个插件真的值得收藏！！！\n\n入口：https://t.co/xlisOwePuH",
+      "likes": 18,
+      "views": "1167",
+      "url": "https://x.com/i/status/2090639341710458973",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQNv2tqaMAAXgPq.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQNv2tqaMAAXgPq.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2090469010160927024",
+        "author": "TopviewAIhq",
+        "name": "TopviewAI",
+        "text": "Topview Plugin for Codex is here: the creative execution layer for your AI workflow. \n\nTo celebrate the launch, Topview subscribers can get 10 free MiniMax H3 video generations when using the plugin.\n\nGenerate video concepts, storyboards, images, and videos directly from Codex .\n\nNo switching between AI tools. No manual setup across different creative platforms.\n\nJust install the plugin, describe what you want, and let Codex call Topview to create the asset.\n\nFrom product videos and social clips to avatar explainers and voiceovers, your AI assistant can now produce real creative outputs.\n\n#TopviewAI #Codex #AIVideo #AIMarketing #AIContentCreation",
+        "created_at": "Thu Aug 20 16:00:25 +0000 2026",
+        "url": "https://x.com/TopviewAIhq/status/2090469010160927024",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2090468947539951616/vid/avc1/480x270/8VQA6Q725kaJ23UF.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2090468947539951616/img/5Y2jx7y70gEN2ePe.jpg"
+        ]
+      },
+      "score": 67.298,
+      "created_at": "2026-08-21T03:17:15Z",
+      "title": "Topview 插件进 Codex：一条对话做完调研到成片",
+      "summary": "Topview 插件上线 Codex，可把市场研究、创意概念、分镜、出图、视频、数字人和配音串在一条对话里。支持丢商品链接、产品图或 brief，能查 TikTok、YouTube、Amazon、Shopee 的趋势和评论；内置 100 多个创意技能，并能调用 MiniMax H3、Seedance、Wan、Kling、Vidu、GPT Image 2。订阅用户送 10 次 MiniMax H3。",
+      "recommend_reason": "把电商广告整条链路装进 Codex，工具和技能清单写得很具体，不是空喊又能做视频。",
+      "tags": [
+        "Codex",
+        "Topview",
+        "AI视频"
+      ],
+      "rank": 9
     },
     {
       "id": "2090639094607159690",
@@ -206,7 +323,7 @@
         "模型"
       ],
       "title": "Homura 30B：开源接力赛，不是单厂从零造模",
-      "rank": 7
+      "rank": 10
     },
     {
       "id": "2090636759637930434",
@@ -253,7 +370,36 @@
         "工程实践"
       ],
       "title": "在 Network 里看 Codex 日用量：credits / tokens / turns",
-      "rank": 8
+      "rank": 11
+    },
+    {
+      "id": "2090635985331818920",
+      "author": "oran_ge",
+      "bio": "",
+      "text": "Cola 上线全新模型 Ox 牛来了！\n多模态，小参数，强后训练，Terra 能力级别，flash 的速度！\n\n目前限时免费体验中，欢迎体验。\n温馨提示：beta 模型没有技术支持，且可能存在一定问题，请谨慎使用。\n如有问题可以在这个帖子集中反馈。\n\n体验地址：https://t.co/K9517ktkDi https://t.co/wJmFoIegNk",
+      "likes": 28,
+      "views": "10179",
+      "url": "https://x.com/i/status/2090635985331818920",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQNt-eRbUAAkKg0.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQNt-eRbUAAkKg0.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 43.478,
+      "created_at": "2026-08-21T03:03:55Z",
+      "title": "Cola 上线 Ox：小参数多模态，限时免费",
+      "summary": "Cola 上线全新模型 Ox，定位多模态、小参数、强后训练，能力对标 Terra、速度接近 flash。目前限时免费体验；作者提醒这是 beta，没有技术支持、可能有问题，反馈集中在该帖。",
+      "recommend_reason": "新模型还在免费窗口，作者自己把 beta 风险写在前面。",
+      "tags": [
+        "Ox",
+        "多模态",
+        "产品"
+      ],
+      "rank": 12
     },
     {
       "id": "2090634335812821194",
@@ -286,7 +432,7 @@
         "开源"
       ],
       "title": "OpenAI 开源 Codex Harness，不等于整套 Codex 自托管",
-      "rank": 9
+      "rank": 13
     },
     {
       "id": "2090631723302469995",
@@ -328,7 +474,7 @@
         "图像生成",
         "产品"
       ],
-      "rank": 10
+      "rank": 14
     },
     {
       "id": "2090631644369793496",
@@ -358,26 +504,26 @@
         "Codex"
       ],
       "title": "Munder Difflin：把现有付费 CLI Agent 包成像素办公室团队",
-      "rank": 11
+      "rank": 15
     }
   ],
-  "generated_at": "2026-08-21T04:03:34Z",
+  "generated_at": "2026-08-21T04:58:23Z",
   "selection": {
-    "target_count": 30,
-    "max_count": 30,
-    "per_run_max": 15,
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
     "slot": "noon",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 11,
-    "last_batch_added": 11,
+    "actual_count": 15,
+    "last_batch_added": 4,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
-    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤15；单日≤30不保底；追加按id去重。",
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
     "short_tweet": {
       "threshold_chars": 200,
       "title_optional": true,
