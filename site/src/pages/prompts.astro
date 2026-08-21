@@ -1,0 +1,104 @@
+---
+import "../styles/global.css";
+import { formatPromptEyebrow, getPromptCards } from "../lib/prompts";
+
+const cards = await getPromptCards();
+const eyebrow = formatPromptEyebrow(cards);
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="可复制的生图提示词瀑布流" />
+    <title>提示词 · 工具库</title>
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="site-header">
+        <div>
+          <p class="eyebrow">{eyebrow}</p>
+          <h1>提示词</h1>
+          <p class="intro">每张卡片是一张图。点底部按钮复制对应推文的生图提示词，原图可跳转推文。</p>
+        </div>
+        <p class="record-count">{cards.length} 张图已收录</p>
+      </header>
+
+      <nav class="tabs" aria-label="站点栏目">
+        <a class="tab" href="/">收藏墙</a>
+        <a class="tab" href="/twitter/">推特日报</a>
+        <span class="tab is-disabled">每日日报 · 即将开放</span>
+        <a class="tab" href="/knowledge/">知识总结</a>
+        <a class="tab is-active" href="/prompts/">提示词</a>
+      </nav>
+
+      {cards.length === 0 ? (
+        <section class="empty-state" aria-labelledby="empty-title">
+          <p class="empty-icon">✦</p>
+          <h2 id="empty-title">还没有提示词</h2>
+          <p>把提示词 JSON 放到 data/prompts/ 后会出现在这里。</p>
+        </section>
+      ) : (
+        <section class="prompt-masonry" aria-label="提示词图片墙">
+          {cards.map((card) => (
+            <article class="prompt-card" data-prompt-card data-item-id={card.id}>
+              <a class="prompt-image-link" href={card.tweetUrl} target="_blank" rel="noreferrer">
+                <img src={card.imageUrl} alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+              </a>
+              <div class="prompt-card-bar">
+                <a class="prompt-source" href={card.tweetUrl} target="_blank" rel="noreferrer">原推</a>
+                <button type="button" class="prompt-copy" data-copy-prompt>
+                  <span data-copy-label>复制提示词</span>
+                </button>
+              </div>
+              <pre class="prompt-payload" hidden>{card.prompt}</pre>
+            </article>
+          ))}
+        </section>
+      )}
+    </main>
+    <footer class="site-footer">
+      <p><strong>数据来源说明</strong>：图片与提示词来自 X（Twitter）公开推文，提示词按原文照录，未改写。</p>
+    </footer>
+    <script>
+      const copiedLabel = "已复制";
+      const idleLabel = "复制提示词";
+
+      async function writeClipboard(text) {
+        if (navigator.clipboard?.writeText) {
+          await navigator.clipboard.writeText(text);
+          return;
+        }
+        const area = document.createElement("textarea");
+        area.value = text;
+        area.setAttribute("readonly", "");
+        area.style.position = "fixed";
+        area.style.left = "-9999px";
+        document.body.append(area);
+        area.select();
+        document.execCommand("copy");
+        area.remove();
+      }
+
+      document.querySelectorAll("[data-copy-prompt]").forEach((button) => {
+        button.addEventListener("click", async () => {
+          const card = button.closest("[data-prompt-card]");
+          const payload = card?.querySelector(".prompt-payload");
+          const text = payload?.textContent ?? "";
+          const label = button.querySelector("[data-copy-label]");
+          try {
+            await writeClipboard(text);
+            button.classList.add("is-copied");
+            if (label) label.textContent = copiedLabel;
+            window.setTimeout(() => {
+              button.classList.remove("is-copied");
+              if (label) label.textContent = idleLabel;
+            }, 1600);
+          } catch {
+            if (label) label.textContent = "复制失败";
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
