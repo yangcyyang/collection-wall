@@ -1,0 +1,644 @@
+{
+  "source": "xiaoxiaodong-newsletter",
+  "title": "小小东邮件风格",
+  "updated_at": "2026-08-21T07:50:29Z",
+  "count": 34,
+  "items": [
+    {
+      "id": "nl-38-故障光影信息",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/portrait__%E6%95%85%E9%9A%9C%E5%85%89%E5%BD%B1%E4%BF%A1%E6%81%AF",
+      "created_at": "2026-08-20T15:04:58Z",
+      "text": "第38期 · 故障光影信息",
+      "prompt": "围绕任意主题对象生成一张冷静、精确、带有心理张力的信息化视觉主图。主题对象作为近距离主形体占据主要视觉重量，边缘可被裁切放大，第一眼先读到一个清晰、安静、几乎凝视般稳定的核心形态；主形体的一侧保持锐利、真实、低噪点，另一侧被横向错位的透明扫描光层切开，形成多段漂移残影，像信号延迟、意识重写或数据干扰正在穿过主体。背景使用大面积深值结构场承托主体，暗部必须干净、通透、有清晰层次，不做灰脏烟雾；主体明面保持柔和中高明度，使画面在黑暗中仍有发光感。色彩从主题自身的材质、情绪与叙事语义中提取并映射到固定角色：大面积深色作为结构与压力，主体中明度色作为可识别信息，少量高饱和透明光带作为情绪冲击与视觉切口，文字与线性信息使用清亮高对比色。整体保持冷静精确、清透紧绷的情绪，强调干净色阶、透明叠层、受控饱和度和明暗断层，而不是复古、浑浊或装饰性炫光。画面中可加入极少量信息文字：顶部使用大字距、轻字重的细长标题建立距离感，中部短句小而克制，底部主标题可与一条细线性脉冲或数据波形发生融合，让文字像监测信号的一部分；字体保持现代、稀疏、呼吸感强，文字只服务于层级和节奏。表面带细微电子屏纹、水平扫描线和轻微色散，故障层必须穿过主体关键区域并造成可见位移，但仍保留核心轮廓与情绪识别。避免把主体做成普通拼贴或单纯霓虹装饰，重点是清晰实体与错位信息层之间的冲突：稳定与失真同时存在，安静中心被高速信号撕开。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/portrait/xxd-style_%E6%95%85%E9%9A%9C%E5%85%89%E5%BD%B1%E4%BF%A1%E6%81%AF_0610-1812/%E5%8F%98%E7%A7%8D-01-%E6%99%BA%E8%83%BD%E7%A9%BF%E6%88%B4%E5%81%A5%E5%BA%B7%E7%9B%91%E6%B5%8B.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/portrait/xxd-style_%E6%95%85%E9%9A%9C%E5%85%89%E5%BD%B1%E4%BF%A1%E6%81%AF_0610-1812/%E5%8F%98%E7%A7%8D-01-%E6%99%BA%E8%83%BD%E7%A9%BF%E6%88%B4%E5%81%A5%E5%BA%B7%E7%9B%91%E6%B5%8B.webp"
+        }
+      ]
+    },
+    {
+      "id": "nl-38-巨字留白冷静信息",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/poster__%E5%B7%A8%E5%AD%97%E7%95%99%E7%99%BD%E5%86%B7%E9%9D%99%E4%BF%A1%E6%81%AF__4106gg",
+      "created_at": "2026-08-20T15:04:58Z",
+      "text": "第38期 · 巨字留白冷静信息",
+      "prompt": "围绕任意主题对象生成一张以文字与留白为主导的视觉画面，让主题内容转化为压倒性的主标题字形或符号群，主形体以极大尺度占据视觉中心，笔画粗重、边缘干净、黑白关系强烈，形成第一眼的重量与秩序；次级信息以小号细字分布在主形体周围，保持宽松字距、克制行距和精确对齐，形成从顶部短句、侧边竖向注记、中心大字到下方信息栏的清晰阅读路径。背景不做具象场景，而用主题派生的浅色巨形、透明弧面或淡淡结构笔画穿过画面，像被放大的隐形文字或符号残影，承担空间层次和静默张力，同时保留大面积呼吸感。色彩从主题自身的材质、文化信号和情绪温度中提取，浅色底场占主导，结构深色承担主标题和核心信息，低饱和辅助色只用于分区、细线、微小强调和信息标签；保持高明度、低杂质、清晰色阶与少量明确对比，整体情绪清透安静、冷静精确，不做污浊旧化。画面质感应像细腻印刷纸面，轻微纤维和墨色边缘可见但不过度粗糙，所有信息层级严谨、疏密有节，避免装饰插画抢走主字形的视觉权重。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/poster/xxd-style_%E5%B7%A8%E5%AD%97%E7%95%99%E7%99%BD%E5%86%B7%E9%9D%99%E4%BF%A1%E6%81%AF_0615-2021/%E5%8F%98%E7%A7%8D-01-%E5%93%81%E7%89%8C%E5%B9%B4%E5%BA%A6%E6%8A%A5%E5%91%8A.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/poster/xxd-style_%E5%B7%A8%E5%AD%97%E7%95%99%E7%99%BD%E5%86%B7%E9%9D%99%E4%BF%A1%E6%81%AF_0615-2021/%E5%8F%98%E7%A7%8D-01-%E5%93%81%E7%89%8C%E5%B9%B4%E5%BA%A6%E6%8A%A5%E5%91%8A.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/poster/xxd-style_%E5%B7%A8%E5%AD%97%E7%95%99%E7%99%BD%E5%86%B7%E9%9D%99%E4%BF%A1%E6%81%AF_0615-2021/%E5%8F%98%E7%A7%8D-02-%E7%BE%8E%E6%9C%AF%E9%A6%86%E8%AE%B2%E5%BA%A7.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/poster/xxd-style_%E5%B7%A8%E5%AD%97%E7%95%99%E7%99%BD%E5%86%B7%E9%9D%99%E4%BF%A1%E6%81%AF_0615-2021/%E5%8F%98%E7%A7%8D-02-%E7%BE%8E%E6%9C%AF%E9%A6%86%E8%AE%B2%E5%BA%A7.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/poster/xxd-style_%E5%B7%A8%E5%AD%97%E7%95%99%E7%99%BD%E5%86%B7%E9%9D%99%E4%BF%A1%E6%81%AF_0615-2021/%E5%8F%98%E7%A7%8D-03-%E5%92%96%E5%95%A1%E6%96%B0%E5%93%81%E8%8F%9C%E5%8D%95.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/poster/xxd-style_%E5%B7%A8%E5%AD%97%E7%95%99%E7%99%BD%E5%86%B7%E9%9D%99%E4%BF%A1%E6%81%AF_0615-2021/%E5%8F%98%E7%A7%8D-03-%E5%92%96%E5%95%A1%E6%96%B0%E5%93%81%E8%8F%9C%E5%8D%95.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/poster/xxd-style_%E5%B7%A8%E5%AD%97%E7%95%99%E7%99%BD%E5%86%B7%E9%9D%99%E4%BF%A1%E6%81%AF_0615-2021/%E5%8F%98%E7%A7%8D-04-%E5%9F%8E%E5%B8%82%E6%9B%B4%E6%96%B0%E5%B1%95.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/poster/xxd-style_%E5%B7%A8%E5%AD%97%E7%95%99%E7%99%BD%E5%86%B7%E9%9D%99%E4%BF%A1%E6%81%AF_0615-2021/%E5%8F%98%E7%A7%8D-04-%E5%9F%8E%E5%B8%82%E6%9B%B4%E6%96%B0%E5%B1%95.webp"
+        }
+      ]
+    },
+    {
+      "id": "nl-38-竖条群像-暖色明快-会议海报",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/%E6%B4%BB%E5%8A%A8%E6%B5%B7%E6%8A%A5__%E7%AB%96%E6%9D%A1%E7%BE%A4%E5%83%8F%C2%B7%E6%9A%96%E8%89%B2%E6%98%8E%E5%BF%AB%C2%B7%E4%BC%9A%E8%AE%AE%E6%B5%B7%E6%8A%A5",
+      "created_at": "2026-08-20T15:04:58Z",
+      "text": "第38期 · 竖条群像·暖色明快·会议海报",
+      "prompt": "围绕任意主题对象生成一组彼此关联的写实主题图像片段，把主题拆分为约十个等宽的窄长垂直条带并排编排：每条都是从顶部到底部的独立裁切窗，承载一个不同但同属一个主题的局部与核心轮廓，条带连续相接却因错落的上沿和下沿形成明显的阶梯节拍；让一部分条带顶端或底端触及画面边界，其他条带被大块浅色空场包围，浅色空场同时出现在条带群的上方、下方和错开的空隙中，形成开阔呼吸与平面海报式的视觉中心。各条带内部的图像保持自然写实、近距离裁切和统一柔和棚拍光，主题单元在中部共享一条焦点带，局部被直线边缘截断，露出的核心细节在横向连续阅读中形成集体节奏；保留每个单元独立的尺度、姿态或方向差异，避免整齐复制。每个图像条带背后嵌入一块与其同宽同高的纯色几何底板，底板无渐变、无纹理，色相从主题语义中派生，采用高明度低饱和的洁净浅色空场，搭配数块中高饱和的主题色和少量深沉冷色承重块，暖冷交替分布，明暗对比清楚，彩色底板轻微影响片段中的环境色但不抹平材质细节；整体保持明亮、干净、克制而有亲和力的情绪，颜色以大面积浅底托住条带群，小面积高彩度色块制造节拍和视觉停顿。条带是绝对平直的矩形硬切边，边缘清晰但不加描边、阴影、立体厚度或光晕，图像轮廓在切边处自然中断，几何色块与写实细节并置，形成平面结构和真实影像之间的张力；使用干净的数字拼贴完成，不加入纸张纤维、颗粒、污渍、仿旧、漏印或随机装饰，不放文字和标识，让主题内容、条带裁切、错落边界、纯色底板和浅色留白共同承担视觉层次。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E6%B4%BB%E5%8A%A8%E6%B5%B7%E6%8A%A5/xxd-style-%E7%AB%96%E6%9D%A1%E7%BE%A4%E5%83%8F%C2%B7%E6%9A%96%E8%89%B2%E6%98%8E%E5%BF%AB%C2%B7%E4%BC%9A%E8%AE%AE%E6%B5%B7%E6%8A%A5-fc7104904719/%E5%8F%98%E7%A7%8D-01-%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C%E4%BC%9A%E8%AE%AE%E6%B5%B7%E6%8A%A5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E6%B4%BB%E5%8A%A8%E6%B5%B7%E6%8A%A5/xxd-style-%E7%AB%96%E6%9D%A1%E7%BE%A4%E5%83%8F%C2%B7%E6%9A%96%E8%89%B2%E6%98%8E%E5%BF%AB%C2%B7%E4%BC%9A%E8%AE%AE%E6%B5%B7%E6%8A%A5-fc7104904719/%E5%8F%98%E7%A7%8D-01-%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C%E4%BC%9A%E8%AE%AE%E6%B5%B7%E6%8A%A5.webp"
+        }
+      ]
+    },
+    {
+      "id": "nl-37-透视砖墙-蓝图冷光-建材海报",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/poster__%E9%80%8F%E8%A7%86%E7%A0%96%E5%A2%99%C2%B7%E8%93%9D%E5%9B%BE%E5%86%B7%E5%85%89%C2%B7%E5%BB%BA%E6%9D%90%E6%B5%B7%E6%8A%A5",
+      "created_at": "2026-08-19T15:05:00Z",
+      "text": "第37期 · 透视砖墙·蓝图冷光·建材海报",
+      "prompt": "围绕任意主题对象生成工程蓝图式广告视觉：画面以大面积深暗主题色场建立安静、理性、洁净的技术背景，主题色由未来内容派生，但必须保持高占比低明度主场、少量冷白高亮线条、局部柔和光晕与透明叠色的关系，整体明亮度集中在核心构件附近，边缘逐渐沉入暗部。核心对象被转译为半透明的透视模块墙或可拆解结构，从画面中下部向远处延展，使用细白线勾勒外轮廓、错缝分格、端面厚度和内部网格，局部实体面带轻微玻璃感与乳白发光，所有线条保留工程制图的干净、均匀、精确。背景左侧铺设低透明度数据界面、地图轮廓、二进制字符、细小图标、坐标线和横向扫描条，它们像被压入底色的技术资料，只负责制造信息深度，不抢核心对象。右上方放置竖排主标题与窄列辅助文字，字形细长、间距克制、浅色发光，形成从标题到结构体再到底部说明的斜向阅读路径；底部安排多行小字号说明和极疏的字母化品牌节奏，保持留白和秩序。画面材质应像数字屏幕上的建筑蓝图与半透明模型叠合，光从核心结构后方扩散，细线垂直下坠并穿过结构，严禁把技术信息做成热闹装饰，也不要让背景纹理浑浊或让文字压过透视结构。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/poster/xxd-style-%E9%80%8F%E8%A7%86%E7%A0%96%E5%A2%99%C2%B7%E8%93%9D%E5%9B%BE%E5%86%B7%E5%85%89%C2%B7%E5%BB%BA%E6%9D%90%E6%B5%B7%E6%8A%A5-de994c7df7d2/%E5%8F%98%E7%A7%8D-01-%E6%99%BA%E8%83%BD%E9%80%8F%E5%85%89%E7%A0%96%E6%96%B0%E5%93%81%E5%8F%91%E5%B8%83.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/poster/xxd-style-%E9%80%8F%E8%A7%86%E7%A0%96%E5%A2%99%C2%B7%E8%93%9D%E5%9B%BE%E5%86%B7%E5%85%89%C2%B7%E5%BB%BA%E6%9D%90%E6%B5%B7%E6%8A%A5-de994c7df7d2/%E5%8F%98%E7%A7%8D-01-%E6%99%BA%E8%83%BD%E9%80%8F%E5%85%89%E7%A0%96%E6%96%B0%E5%93%81%E5%8F%91%E5%B8%83.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/poster/xxd-style-%E9%80%8F%E8%A7%86%E7%A0%96%E5%A2%99%C2%B7%E8%93%9D%E5%9B%BE%E5%86%B7%E5%85%89%C2%B7%E5%BB%BA%E6%9D%90%E6%B5%B7%E6%8A%A5-de994c7df7d2/%E5%8F%98%E7%A7%8D-02-%E8%A3%85%E9%85%8D%E5%BC%8F%E5%B9%95%E5%A2%99%E7%B3%BB%E7%BB%9F%E6%8B%9B%E5%95%86.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/poster/xxd-style-%E9%80%8F%E8%A7%86%E7%A0%96%E5%A2%99%C2%B7%E8%93%9D%E5%9B%BE%E5%86%B7%E5%85%89%C2%B7%E5%BB%BA%E6%9D%90%E6%B5%B7%E6%8A%A5-de994c7df7d2/%E5%8F%98%E7%A7%8D-02-%E8%A3%85%E9%85%8D%E5%BC%8F%E5%B9%95%E5%A2%99%E7%B3%BB%E7%BB%9F%E6%8B%9B%E5%95%86.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/poster/xxd-style-%E9%80%8F%E8%A7%86%E7%A0%96%E5%A2%99%C2%B7%E8%93%9D%E5%9B%BE%E5%86%B7%E5%85%89%C2%B7%E5%BB%BA%E6%9D%90%E6%B5%B7%E6%8A%A5-de994c7df7d2/%E5%8F%98%E7%A7%8D-03-%E4%BD%8E%E7%A2%B3%E7%A0%8C%E5%9D%97%E6%8A%80%E6%9C%AF%E5%B1%95%E6%9D%BF.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/poster/xxd-style-%E9%80%8F%E8%A7%86%E7%A0%96%E5%A2%99%C2%B7%E8%93%9D%E5%9B%BE%E5%86%B7%E5%85%89%C2%B7%E5%BB%BA%E6%9D%90%E6%B5%B7%E6%8A%A5-de994c7df7d2/%E5%8F%98%E7%A7%8D-03-%E4%BD%8E%E7%A2%B3%E7%A0%8C%E5%9D%97%E6%8A%80%E6%9C%AF%E5%B1%95%E6%9D%BF.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/poster/xxd-style-%E9%80%8F%E8%A7%86%E7%A0%96%E5%A2%99%C2%B7%E8%93%9D%E5%9B%BE%E5%86%B7%E5%85%89%C2%B7%E5%BB%BA%E6%9D%90%E6%B5%B7%E6%8A%A5-de994c7df7d2/%E5%8F%98%E7%A7%8D-04-%E5%BB%BA%E7%AD%91%E6%9D%90%E6%96%99%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%B0%81%E9%9D%A2.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/poster/xxd-style-%E9%80%8F%E8%A7%86%E7%A0%96%E5%A2%99%C2%B7%E8%93%9D%E5%9B%BE%E5%86%B7%E5%85%89%C2%B7%E5%BB%BA%E6%9D%90%E6%B5%B7%E6%8A%A5-de994c7df7d2/%E5%8F%98%E7%A7%8D-04-%E5%BB%BA%E7%AD%91%E6%9D%90%E6%96%99%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%B0%81%E9%9D%A2.webp"
+        }
+      ]
+    },
+    {
+      "id": "nl-37-半面巨像-古雅留白-馆展海报",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/%E5%8D%9A%E7%89%A9%E9%A6%86__%E5%8D%8A%E9%9D%A2%E5%B7%A8%E5%83%8F%C2%B7%E5%8F%A4%E9%9B%85%E7%95%99%E7%99%BD%C2%B7%E9%A6%86%E5%B1%95%E6%B5%B7%E6%8A%A5",
+      "created_at": "2026-08-19T15:05:00Z",
+      "text": "第37期 · 半面巨像·古雅留白·馆展海报",
+      "prompt": "围绕任意主题对象生成一套沉静的馆展海报视觉：主题对象以近距离纪念碑式实体进入画面一侧，只露出半面或局部，让轮廓被边缘硬切，表面保留真实材质的细孔、磨痕、浅浮雕起伏与柔和阴影，主体占据主要视觉重量，另一侧留出宽阔安静的单色场域承接文字。背景色由主题提取为低饱和、中明度、偏温或偏灰的主场色，面积最大且保持洁净平整；主体材质使用更浅、更干、更哑的同温阶颜色，阴影只做低对比塑形；文字与小型标识使用主题派生的冷色或深色作为唯一醒目色，形成小面积清晰点位。信息排布采用博物馆展览秩序：顶部放小型机构名或符号，中上部放紧凑说明，视觉重心下方使用超大高反差衬线标题，字形细横粗竖、优雅曲线、宽松字距，标题可横跨空白并压近主体边缘，局部与主体产生遮挡或贴合，让文字像在为巨物定标。正文与地址类小字保持极小字号、整齐左齐或右齐，散落在大标题周围形成稀疏节奏。整体印刷感清洁、哑光、少色，避免强烈渐变和装饰性纹样；若主题更换，仍保持巨物切边、大片呼吸留白、冷静展览文字层级和石质般低噪细节之间的稳定关系。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%8D%9A%E7%89%A9%E9%A6%86/xxd-style-%E5%8D%8A%E9%9D%A2%E5%B7%A8%E5%83%8F%C2%B7%E5%8F%A4%E9%9B%85%E7%95%99%E7%99%BD%C2%B7%E9%A6%86%E5%B1%95%E6%B5%B7%E6%8A%A5-410786c08328/%E5%8F%98%E7%A7%8D-01-%E7%9F%B3%E5%83%8F%E5%B8%B8%E8%AE%BE%E5%B1%95%E6%B5%B7%E6%8A%A5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%8D%9A%E7%89%A9%E9%A6%86/xxd-style-%E5%8D%8A%E9%9D%A2%E5%B7%A8%E5%83%8F%C2%B7%E5%8F%A4%E9%9B%85%E7%95%99%E7%99%BD%C2%B7%E9%A6%86%E5%B1%95%E6%B5%B7%E6%8A%A5-410786c08328/%E5%8F%98%E7%A7%8D-01-%E7%9F%B3%E5%83%8F%E5%B8%B8%E8%AE%BE%E5%B1%95%E6%B5%B7%E6%8A%A5.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%8D%9A%E7%89%A9%E9%A6%86/xxd-style-%E5%8D%8A%E9%9D%A2%E5%B7%A8%E5%83%8F%C2%B7%E5%8F%A4%E9%9B%85%E7%95%99%E7%99%BD%C2%B7%E9%A6%86%E5%B1%95%E6%B5%B7%E6%8A%A5-410786c08328/%E5%8F%98%E7%A7%8D-02-%E9%9D%92%E9%93%9C%E5%99%A8%E7%89%B9%E5%B1%95%E6%B5%B7%E6%8A%A5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%8D%9A%E7%89%A9%E9%A6%86/xxd-style-%E5%8D%8A%E9%9D%A2%E5%B7%A8%E5%83%8F%C2%B7%E5%8F%A4%E9%9B%85%E7%95%99%E7%99%BD%C2%B7%E9%A6%86%E5%B1%95%E6%B5%B7%E6%8A%A5-410786c08328/%E5%8F%98%E7%A7%8D-02-%E9%9D%92%E9%93%9C%E5%99%A8%E7%89%B9%E5%B1%95%E6%B5%B7%E6%8A%A5.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%8D%9A%E7%89%A9%E9%A6%86/xxd-style-%E5%8D%8A%E9%9D%A2%E5%B7%A8%E5%83%8F%C2%B7%E5%8F%A4%E9%9B%85%E7%95%99%E7%99%BD%C2%B7%E9%A6%86%E5%B1%95%E6%B5%B7%E6%8A%A5-410786c08328/%E5%8F%98%E7%A7%8D-03-%E9%99%B6%E4%BF%91%E6%95%99%E8%82%B2%E6%B4%BB%E5%8A%A8%E6%B5%B7%E6%8A%A5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%8D%9A%E7%89%A9%E9%A6%86/xxd-style-%E5%8D%8A%E9%9D%A2%E5%B7%A8%E5%83%8F%C2%B7%E5%8F%A4%E9%9B%85%E7%95%99%E7%99%BD%C2%B7%E9%A6%86%E5%B1%95%E6%B5%B7%E6%8A%A5-410786c08328/%E5%8F%98%E7%A7%8D-03-%E9%99%B6%E4%BF%91%E6%95%99%E8%82%B2%E6%B4%BB%E5%8A%A8%E6%B5%B7%E6%8A%A5.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%8D%9A%E7%89%A9%E9%A6%86/xxd-style-%E5%8D%8A%E9%9D%A2%E5%B7%A8%E5%83%8F%C2%B7%E5%8F%A4%E9%9B%85%E7%95%99%E7%99%BD%C2%B7%E9%A6%86%E5%B1%95%E6%B5%B7%E6%8A%A5-410786c08328/%E5%8F%98%E7%A7%8D-04-%E7%8E%89%E5%99%A8%E9%A6%86%E8%97%8F%E7%BA%AA%E5%BF%B5%E6%B5%B7%E6%8A%A5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%8D%9A%E7%89%A9%E9%A6%86/xxd-style-%E5%8D%8A%E9%9D%A2%E5%B7%A8%E5%83%8F%C2%B7%E5%8F%A4%E9%9B%85%E7%95%99%E7%99%BD%C2%B7%E9%A6%86%E5%B1%95%E6%B5%B7%E6%8A%A5-410786c08328/%E5%8F%98%E7%A7%8D-04-%E7%8E%89%E5%99%A8%E9%A6%86%E8%97%8F%E7%BA%AA%E5%BF%B5%E6%B5%B7%E6%8A%A5.webp"
+        }
+      ]
+    },
+    {
+      "id": "nl-37-单线手写邀约",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/%E6%89%8B%E7%BB%98%E5%A9%9A%E7%A4%BC__%E5%8D%95%E7%BA%BF%E6%89%8B%E5%86%99%E9%82%80%E7%BA%A6",
+      "created_at": "2026-08-19T15:05:00Z",
+      "text": "第37期 · 单线手写邀约",
+      "prompt": "围绕任意主题对象生成一张亲密手写邀请感的图像，把主题转译成一封被认真画出来的小信笺：画面以大量明亮干净的留白承载情绪，所有信息都像用同一支笔一笔一笔写下；上方保留松散、略带儿童感的手写短句，中部出现醒目的弧形大标题，字母或汉字有轻微高低错位和手工粗细变化，形成第一眼的节奏焦点。标题下方用不完全笔直的细线框出主题核心图像，线框上可有一个小圆点或主题派生的简洁标记作为视觉扣子；框内只用单色线描表现主题对象与相关关系，人物、物件或符号都应被压缩成可爱的轮廓、少量实心块和轻微变形的细节，像随手画却经过排版控制。下方安排一行极小的情绪注脚，再用手写日期、地点或事件信息形成二级阅读层，底部加入两个方框回应项，其中一个被粗线勾选，让画面带有私密、俏皮、已经发生决定的仪式感。色彩从主题自身的材质、情绪和场景语义中提取，保留浅亮通风的底色、少量清晰饱和的结构墨色、极小面积强调点和干净色阶，整体明亮轻快、温暖有生气；即使主题带来更深颜色，也要保持边缘清楚、背景清透、无浑浊旧化。质感像轻微泛黄但洁净的纸面与手绘油墨，线条有自然抖动、笔压差和人手停顿，不要做成规整模板、商业矢量图或复杂彩绘插画。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E6%89%8B%E7%BB%98%E5%A9%9A%E7%A4%BC/xxd-style_%E5%8D%95%E7%BA%BF%E6%89%8B%E5%86%99%E9%82%80%E7%BA%A6_ba9a910ea9f2/%E5%8F%98%E7%A7%8D-01-%E9%87%8E%E9%A4%90%E9%82%80%E7%BA%A6.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E6%89%8B%E7%BB%98%E5%A9%9A%E7%A4%BC/xxd-style_%E5%8D%95%E7%BA%BF%E6%89%8B%E5%86%99%E9%82%80%E7%BA%A6_ba9a910ea9f2/%E5%8F%98%E7%A7%8D-01-%E9%87%8E%E9%A4%90%E9%82%80%E7%BA%A6.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E6%89%8B%E7%BB%98%E5%A9%9A%E7%A4%BC/xxd-style_%E5%8D%95%E7%BA%BF%E6%89%8B%E5%86%99%E9%82%80%E7%BA%A6_ba9a910ea9f2/%E5%8F%98%E7%A7%8D-02-%E5%85%AC%E5%9B%AD%E7%BA%AA%E5%BF%B5%E6%97%A5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E6%89%8B%E7%BB%98%E5%A9%9A%E7%A4%BC/xxd-style_%E5%8D%95%E7%BA%BF%E6%89%8B%E5%86%99%E9%82%80%E7%BA%A6_ba9a910ea9f2/%E5%8F%98%E7%A7%8D-02-%E5%85%AC%E5%9B%AD%E7%BA%AA%E5%BF%B5%E6%97%A5.webp"
+        }
+      ]
+    },
+    {
+      "id": "nl-36-婚礼巨字风景",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/%E5%A9%9A%E7%A4%BC%E9%82%80%E8%AF%B7%E5%87%BD__%E5%A9%9A%E7%A4%BC%E5%B7%A8%E5%AD%97%E9%A3%8E%E6%99%AF",
+      "created_at": "2026-08-18T15:04:51Z",
+      "text": "第36期 · 婚礼巨字风景",
+      "prompt": "围绕任意主题对象生成一张具有强烈仪式感的真实影像式邀请视觉：画面先由大面积自然或环境背景建立情绪场，背景应有明显的远近层次、天空或开阔留白、低处实体地景或空间承托，让主题主体以较小尺度出现在下方核心位置，成为情感锚点和尺度标尺；主体不抢占全画面，而是通过姿态、方向、互动关系或象征物表达故事。最醒目的图形机制是超大号极细线文字占据主要视觉重心，文字像透明建筑一样覆盖在环境之上，字距宽、笔画轻、行距紧而不拥挤，主标题形成近乎压顶的纪念性重量，下方再以更小、更淡、更规整的信息文字收束，形成从巨大宣告到安静细节的阅读路径。色彩从主题自身的场景、材质、季节和情绪中提取：大面积背景承担低饱和的结构色，保持清晰明度层级和干净暗部；主体色作为中等面积的情感色，需与环境分离但不刺眼；强调色只用于主标题或关键标识，以较小面积制造温暖、明亮、庄重的记忆点；信息文字使用高可读的浅色或主题派生中性色。整体情绪应是电影感、隆重、亲密而清透的，允许深色环境与强对比光影，但暗部必须干净，边缘清楚，不能浑浊、陈旧或灰脏。保留真实摄影质感、开阔空间、微妙颗粒、自然光压迫感和文字叠加的平面设计精度，使主题内容像一场正在发生的私人仪式，而不是普通风景插字或模板海报。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%A9%9A%E7%A4%BC%E9%82%80%E8%AF%B7%E5%87%BD/xxd-style_%E5%A9%9A%E7%A4%BC%E5%B7%A8%E5%AD%97%E9%A3%8E%E6%99%AF_0626-0759/%E5%8F%98%E7%A7%8D-01-%E5%B1%B1%E5%9D%A1%E8%AA%93%E8%A8%80%E8%AF%B7%E6%9F%AC.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%A9%9A%E7%A4%BC%E9%82%80%E8%AF%B7%E5%87%BD/xxd-style_%E5%A9%9A%E7%A4%BC%E5%B7%A8%E5%AD%97%E9%A3%8E%E6%99%AF_0626-0759/%E5%8F%98%E7%A7%8D-01-%E5%B1%B1%E5%9D%A1%E8%AA%93%E8%A8%80%E8%AF%B7%E6%9F%AC.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%A9%9A%E7%A4%BC%E9%82%80%E8%AF%B7%E5%87%BD/xxd-style_%E5%A9%9A%E7%A4%BC%E5%B7%A8%E5%AD%97%E9%A3%8E%E6%99%AF_0626-0759/%E5%8F%98%E7%A7%8D-02-%E6%B5%B7%E5%B2%B8%E8%BF%8E%E5%AE%BE%E7%89%8C.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%A9%9A%E7%A4%BC%E9%82%80%E8%AF%B7%E5%87%BD/xxd-style_%E5%A9%9A%E7%A4%BC%E5%B7%A8%E5%AD%97%E9%A3%8E%E6%99%AF_0626-0759/%E5%8F%98%E7%A7%8D-02-%E6%B5%B7%E5%B2%B8%E8%BF%8E%E5%AE%BE%E7%89%8C.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%A9%9A%E7%A4%BC%E9%82%80%E8%AF%B7%E5%87%BD/xxd-style_%E5%A9%9A%E7%A4%BC%E5%B7%A8%E5%AD%97%E9%A3%8E%E6%99%AF_0626-0759/%E5%8F%98%E7%A7%8D-03-%E6%9A%AE%E8%89%B2%E6%99%9A%E5%AE%B4%E5%B0%81%E9%9D%A2.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%A9%9A%E7%A4%BC%E9%82%80%E8%AF%B7%E5%87%BD/xxd-style_%E5%A9%9A%E7%A4%BC%E5%B7%A8%E5%AD%97%E9%A3%8E%E6%99%AF_0626-0759/%E5%8F%98%E7%A7%8D-03-%E6%9A%AE%E8%89%B2%E6%99%9A%E5%AE%B4%E5%B0%81%E9%9D%A2.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%A9%9A%E7%A4%BC%E9%82%80%E8%AF%B7%E5%87%BD/xxd-style_%E5%A9%9A%E7%A4%BC%E5%B7%A8%E5%AD%97%E9%A3%8E%E6%99%AF_0626-0759/%E5%8F%98%E7%A7%8D-04-%E8%8A%B1%E5%9B%AD%E5%9B%9E%E7%A4%BC%E5%8D%A1.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%A9%9A%E7%A4%BC%E9%82%80%E8%AF%B7%E5%87%BD/xxd-style_%E5%A9%9A%E7%A4%BC%E5%B7%A8%E5%AD%97%E9%A3%8E%E6%99%AF_0626-0759/%E5%8F%98%E7%A7%8D-04-%E8%8A%B1%E5%9B%AD%E5%9B%9E%E7%A4%BC%E5%8D%A1.webp"
+        }
+      ]
+    },
+    {
+      "id": "nl-36-大字压图清透信息",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/portrait__%E5%A4%A7%E5%AD%97%E5%8E%8B%E5%9B%BE%E6%B8%85%E9%80%8F%E4%BF%A1%E6%81%AF",
+      "created_at": "2026-08-18T15:04:51Z",
+      "text": "第36期 · 大字压图清透信息",
+      "prompt": "围绕任意主题对象生成一张以图文张力为核心的视觉作品：上部保留大面积清透留白与安静主体区，主题对象以克制的侧向或单一方向姿态成为视觉重心，轮廓被干净光场托起，边缘清晰但不过度锐化；画面中设置超大字号的标题字作为结构层，一组浅色巨字在顶部近乎贴边展开，像透明建筑骨架一样压住空间但不抢主体，另一组更深、更重的巨字横穿中段，与主体轮廓发生遮挡、切断或穿插关系，形成第一眼可见的尺度冲击。下方安排密集但规整的信息层，使用细线、窄栏、数字、短句和留白分隔建立冷静秩序，信息不喧闹，读感像展演公告或编辑版面。色彩从未来主题自身的材质、情绪与文化信号中提取，映射为大面积高明度洁净底色、少量低饱和支撑色、清晰深色结构字与更轻的透明信息字，保持清透安静、明亮通风、色阶干净的情绪；深色只承担重量和节奏，浅色承担空气感与层次，不使用浑浊、陈旧或灰脏覆盖。整体质感应像高品质印刷设计与简洁摄影融合，版心明确、边距稳定、文字间距宽而精确，主体、巨字和信息层互相压迫又保持呼吸，使主题被处理成一种有仪式感的公共视觉记忆。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/portrait/xxd-style_%E5%A4%A7%E5%AD%97%E5%8E%8B%E5%9B%BE%E6%B8%85%E9%80%8F%E4%BF%A1%E6%81%AF_0611-0900/%E5%8F%98%E7%A7%8D-01-%E7%8B%AC%E7%AB%8B%E9%9F%B3%E4%B9%90%E4%BA%BA%E8%82%96%E5%83%8F%E6%B5%B7%E6%8A%A5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/portrait/xxd-style_%E5%A4%A7%E5%AD%97%E5%8E%8B%E5%9B%BE%E6%B8%85%E9%80%8F%E4%BF%A1%E6%81%AF_0611-0900/%E5%8F%98%E7%A7%8D-01-%E7%8B%AC%E7%AB%8B%E9%9F%B3%E4%B9%90%E4%BA%BA%E8%82%96%E5%83%8F%E6%B5%B7%E6%8A%A5.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/portrait/xxd-style_%E5%A4%A7%E5%AD%97%E5%8E%8B%E5%9B%BE%E6%B8%85%E9%80%8F%E4%BF%A1%E6%81%AF_0611-0900/%E5%8F%98%E7%A7%8D-02-%E5%9F%8E%E5%B8%82%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F%E4%BA%BA%E7%89%A9%E6%B5%B7%E6%8A%A5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/portrait/xxd-style_%E5%A4%A7%E5%AD%97%E5%8E%8B%E5%9B%BE%E6%B8%85%E9%80%8F%E4%BF%A1%E6%81%AF_0611-0900/%E5%8F%98%E7%A7%8D-02-%E5%9F%8E%E5%B8%82%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F%E4%BA%BA%E7%89%A9%E6%B5%B7%E6%8A%A5.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/portrait/xxd-style_%E5%A4%A7%E5%AD%97%E5%8E%8B%E5%9B%BE%E6%B8%85%E9%80%8F%E4%BF%A1%E6%81%AF_0611-0900/%E5%8F%98%E7%A7%8D-03-%E4%B8%93%E4%B8%9A%E8%AE%B2%E5%B8%88%E8%AF%BE%E7%A8%8B%E4%BA%BA%E7%89%A9%E6%B5%B7%E6%8A%A5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/portrait/xxd-style_%E5%A4%A7%E5%AD%97%E5%8E%8B%E5%9B%BE%E6%B8%85%E9%80%8F%E4%BF%A1%E6%81%AF_0611-0900/%E5%8F%98%E7%A7%8D-03-%E4%B8%93%E4%B8%9A%E8%AE%B2%E5%B8%88%E8%AF%BE%E7%A8%8B%E4%BA%BA%E7%89%A9%E6%B5%B7%E6%8A%A5.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/portrait/xxd-style_%E5%A4%A7%E5%AD%97%E5%8E%8B%E5%9B%BE%E6%B8%85%E9%80%8F%E4%BF%A1%E6%81%AF_0611-0900/%E5%8F%98%E7%A7%8D-04-%E8%AE%BE%E8%AE%A1%E5%B8%88%E4%BD%9C%E5%93%81%E9%9B%86%E5%B0%81%E9%9D%A2%E4%BA%BA%E7%89%A9%E6%B5%B7%E6%8A%A5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/portrait/xxd-style_%E5%A4%A7%E5%AD%97%E5%8E%8B%E5%9B%BE%E6%B8%85%E9%80%8F%E4%BF%A1%E6%81%AF_0611-0900/%E5%8F%98%E7%A7%8D-04-%E8%AE%BE%E8%AE%A1%E5%B8%88%E4%BD%9C%E5%93%81%E9%9B%86%E5%B0%81%E9%9D%A2%E4%BA%BA%E7%89%A9%E6%B5%B7%E6%8A%A5.webp"
+        }
+      ]
+    },
+    {
+      "id": "nl-36-几何留白-明亮清爽-品牌海报",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/%E4%BD%93%E8%82%B2%E8%BF%90%E5%8A%A8__%E5%87%A0%E4%BD%95%E7%95%99%E7%99%BD%C2%B7%E6%98%8E%E4%BA%AE%E6%B8%85%E7%88%BD%C2%B7%E5%93%81%E7%89%8C%E6%B5%B7%E6%8A%A5",
+      "created_at": "2026-08-18T15:04:51Z",
+      "text": "第36期 · 几何留白·明亮清爽·品牌海报",
+      "prompt": "围绕任意主题对象生成明亮洁净的几何陈列画面：让大片温暖浅色墙面成为呼吸区，主题内容只以少量几何化结构和低密度文字进入画面，形成空白先行、形体随后、文字最后被读取的节奏。画面一侧设置高饱和暖色的半拱或圆角竖向色面，像建筑墙洞一样贴边展开；另一侧用深色圆弧、拱门或矩形块做沉稳锚点，底部加入主题派生的横向色块或平台，右下以阶梯、台座、叠级结构制造真实空间深度。主题对象不直接堆满画面，而被转译成干净的平面几何、建筑体块、局部植物或细长影子等附着元素，边缘清晰，尺度有意被裁切，让形体从画面边界进入并与空白互相咬合。中心文字采用极细高对比衬线或同等安静的展示字，字距宽、笔画轻、行距疏，主标题悬在空白中，下方只放极小的说明字和一条短竖线，文字像被空间托住而不是压在图形上。色彩由主题派生，但必须保持浅暖底色占最大面积、一个饱和暖色作侧墙、一个深冷色作重量锚点、一个明亮暖黄或同等高明度色作小面积活跃点；整体高明度、高饱和但不杂乱，颜色像哑光涂料和粉刷墙面吸收光线。光线从斜上方进入，形成硬朗但干净的投影，植物或细长元素的影子落在墙面和台阶上，增强夏日建筑感；表面保留细微砂浆、粉墙或纸面颗粒，干净、明亮、无旧化污渍。避免把画面填满、避免复杂装饰和厚重渐变，核心必须是大留白、几何色块、建筑台阶、稀疏字距与清晰投影共同构成的安静品牌海报感。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E4%BD%93%E8%82%B2%E8%BF%90%E5%8A%A8/xxd-style-%E5%87%A0%E4%BD%95%E7%95%99%E7%99%BD%C2%B7%E6%98%8E%E4%BA%AE%E6%B8%85%E7%88%BD%C2%B7%E5%93%81%E7%89%8C%E6%B5%B7%E6%8A%A5-c1eb07b23e43/%E5%8F%98%E7%A7%8D-03-%E6%B3%B3%E6%B1%A0%E4%BC%9A%E5%91%98%E5%8D%A1%E5%AE%A3%E4%BC%A0%E6%B5%B7%E6%8A%A5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E4%BD%93%E8%82%B2%E8%BF%90%E5%8A%A8/xxd-style-%E5%87%A0%E4%BD%95%E7%95%99%E7%99%BD%C2%B7%E6%98%8E%E4%BA%AE%E6%B8%85%E7%88%BD%C2%B7%E5%93%81%E7%89%8C%E6%B5%B7%E6%8A%A5-c1eb07b23e43/%E5%8F%98%E7%A7%8D-03-%E6%B3%B3%E6%B1%A0%E4%BC%9A%E5%91%98%E5%8D%A1%E5%AE%A3%E4%BC%A0%E6%B5%B7%E6%8A%A5.webp"
+        }
+      ]
+    },
+    {
+      "id": "nl-35-书页光门-静谧微缩-海报提示",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/portrait__%E4%B9%A6%E9%A1%B5%E5%85%89%E9%97%A8%C2%B7%E9%9D%99%E8%B0%A7%E5%BE%AE%E7%BC%A9%C2%B7%E6%B5%B7%E6%8A%A5%E6%8F%90%E7%A4%BA",
+      "created_at": "2026-08-17T15:05:03Z",
+      "text": "第35期 · 书页光门·静谧微缩·海报提示",
+      "prompt": "围绕任意主题对象生成，将主题转译为一个被打开并撑起的厚实体载体，两侧形成高耸的页状斜面，中间留出狭长的三角形发光通道，像入口、舞台和隐喻空间同时成立。整体以低位近景观看，底部放置一个极小的行走者或等价尺度标记，让巨大载体产生纪念碑感；斜面外缘贴近画面边界，底部接触粗糙地面，上方收拢成尖顶，阅读路径从暗场进入亮缝，再落到微小身影。主题内容只替换载体的语义和内部纹理，不改变“外侧厚重、内侧发亮、夹缝通向深处”的结构；内壁可承载主题派生的细密文字、纹理、符号或叙事痕迹，沿透视方向逐渐虚化，成为通道深度而不是普通装饰。画面大面积保留低明度、低饱和、洁净偏冷的暗背景，作为沉默负空间；主题派生的支撑色用于两侧实体表面，面积中等、明度高于背景、饱和度克制，呈干燥纤维、层叠边缘或可触摸的薄片质感；中心光源保持最高明度和最干净的暖白或主题近白色，向内壁柔和扩散，边缘有轻微过曝和阴影包裹，避免霓虹化。文字以白色或近白色出现，放在光门上部偏中轴处，采用压缩、错位、块面化的中文标题感，局部笔画可被光缝和透视切开；底部可有短句式小字，字距拉开，安静地嵌入暗场。材质保留真实微缩摄影般的浅景深、接触阴影、边缘磨损和轻微压缩颗粒，但清洁区与磨损区分明，不做均匀旧化。最终气质克制、静默、带探索感，核心必须是巨大页状载体开启出一束可进入的光，而不是普通物体陈列或平面排版。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/portrait/xxd-style-%E4%B9%A6%E9%A1%B5%E5%85%89%E9%97%A8%C2%B7%E9%9D%99%E8%B0%A7%E5%BE%AE%E7%BC%A9%C2%B7%E6%B5%B7%E6%8A%A5%E6%8F%90%E7%A4%BA-bc6b29668386/%E5%8F%98%E7%A7%8D-01-%E4%B9%A6%E5%BA%97%E6%96%B0%E4%B9%A6%E5%8F%91%E5%B8%83%E6%B5%B7%E6%8A%A5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/portrait/xxd-style-%E4%B9%A6%E9%A1%B5%E5%85%89%E9%97%A8%C2%B7%E9%9D%99%E8%B0%A7%E5%BE%AE%E7%BC%A9%C2%B7%E6%B5%B7%E6%8A%A5%E6%8F%90%E7%A4%BA-bc6b29668386/%E5%8F%98%E7%A7%8D-01-%E4%B9%A6%E5%BA%97%E6%96%B0%E4%B9%A6%E5%8F%91%E5%B8%83%E6%B5%B7%E6%8A%A5.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/portrait/xxd-style-%E4%B9%A6%E9%A1%B5%E5%85%89%E9%97%A8%C2%B7%E9%9D%99%E8%B0%A7%E5%BE%AE%E7%BC%A9%C2%B7%E6%B5%B7%E6%8A%A5%E6%8F%90%E7%A4%BA-bc6b29668386/%E5%8F%98%E7%A7%8D-04-%E8%AF%BB%E4%B9%A6%E4%BC%9A%E6%8B%9B%E5%8B%9F%E6%B5%B7%E6%8A%A5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/portrait/xxd-style-%E4%B9%A6%E9%A1%B5%E5%85%89%E9%97%A8%C2%B7%E9%9D%99%E8%B0%A7%E5%BE%AE%E7%BC%A9%C2%B7%E6%B5%B7%E6%8A%A5%E6%8F%90%E7%A4%BA-bc6b29668386/%E5%8F%98%E7%A7%8D-04-%E8%AF%BB%E4%B9%A6%E4%BC%9A%E6%8B%9B%E5%8B%9F%E6%B5%B7%E6%8A%A5.webp"
+        }
+      ]
+    },
+    {
+      "id": "nl-35-微缩字云图形-深蓝学术风-纪念海报设计",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/%E6%95%B0%E5%AD%97%E6%B5%B7%E6%8A%A5__%E5%BE%AE%E7%BC%A9%E5%AD%97%E4%BA%91%E5%9B%BE%E5%BD%A2%C2%B7%E6%B7%B1%E8%93%9D%E5%AD%A6%E6%9C%AF%E9%A3%8E%C2%B7%E7%BA%AA%E5%BF%B5%E6%B5%B7%E6%8A%A5%E8%AE%BE%E8%AE%A1",
+      "created_at": "2026-08-17T15:05:03Z",
+      "text": "第35期 · 微缩字云图形·深蓝学术风·纪念海报设计",
+      "prompt": "围绕具体主题内容生成。纯净深湛蓝背景中央，由微缩白文字云密集拼合构成巨大而利落的纪念数字或主题符码形态。字符字号极小且有致密排列的网格感，文字云轮廓边缘清晰锐利。大字形正中留出克制的负空间，下方垂直居中配有一行简约优雅的白字说明与顶部/底部小型品牌标识，形成高冷理性、典雅庄重、极具学院学术感的版式构图。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E6%95%B0%E5%AD%97%E6%B5%B7%E6%8A%A5/xxd-style-%E5%BE%AE%E7%BC%A9%E5%AD%97%E4%BA%91%E5%9B%BE%E5%BD%A2%C2%B7%E6%B7%B1%E8%93%9D%E5%AD%A6%E6%9C%AF%E9%A3%8E%C2%B7%E7%BA%AA%E5%BF%B5%E6%B5%B7%E6%8A%A5%E8%AE%BE%E8%AE%A1-98afc7f9c006/%E5%8F%98%E7%A7%8D-01-%E5%85%AB%E5%8D%81%E5%91%A8%E5%B9%B4%E6%A0%A1%E5%BA%86%E7%BA%AA%E5%BF%B5%E6%B5%B7%E6%8A%A5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E6%95%B0%E5%AD%97%E6%B5%B7%E6%8A%A5/xxd-style-%E5%BE%AE%E7%BC%A9%E5%AD%97%E4%BA%91%E5%9B%BE%E5%BD%A2%C2%B7%E6%B7%B1%E8%93%9D%E5%AD%A6%E6%9C%AF%E9%A3%8E%C2%B7%E7%BA%AA%E5%BF%B5%E6%B5%B7%E6%8A%A5%E8%AE%BE%E8%AE%A1-98afc7f9c006/%E5%8F%98%E7%A7%8D-01-%E5%85%AB%E5%8D%81%E5%91%A8%E5%B9%B4%E6%A0%A1%E5%BA%86%E7%BA%AA%E5%BF%B5%E6%B5%B7%E6%8A%A5.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E6%95%B0%E5%AD%97%E6%B5%B7%E6%8A%A5/xxd-style-%E5%BE%AE%E7%BC%A9%E5%AD%97%E4%BA%91%E5%9B%BE%E5%BD%A2%C2%B7%E6%B7%B1%E8%93%9D%E5%AD%A6%E6%9C%AF%E9%A3%8E%C2%B7%E7%BA%AA%E5%BF%B5%E6%B5%B7%E6%8A%A5%E8%AE%BE%E8%AE%A1-98afc7f9c006/%E5%8F%98%E7%A7%8D-04-%E5%AD%A6%E9%99%A2%E7%99%BE%E5%B9%B4%E6%A1%A3%E6%A1%88%E5%B1%95%E7%BA%AA%E5%BF%B5%E6%B5%B7%E6%8A%A5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E6%95%B0%E5%AD%97%E6%B5%B7%E6%8A%A5/xxd-style-%E5%BE%AE%E7%BC%A9%E5%AD%97%E4%BA%91%E5%9B%BE%E5%BD%A2%C2%B7%E6%B7%B1%E8%93%9D%E5%AD%A6%E6%9C%AF%E9%A3%8E%C2%B7%E7%BA%AA%E5%BF%B5%E6%B5%B7%E6%8A%A5%E8%AE%BE%E8%AE%A1-98afc7f9c006/%E5%8F%98%E7%A7%8D-04-%E5%AD%A6%E9%99%A2%E7%99%BE%E5%B9%B4%E6%A1%A3%E6%A1%88%E5%B1%95%E7%BA%AA%E5%BF%B5%E6%B5%B7%E6%8A%A5.webp"
+        }
+      ]
+    },
+    {
+      "id": "nl-35-饮料云雾清透",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/beverage__%E9%A5%AE%E6%96%99%E4%BA%91%E9%9B%BE%E6%B8%85%E9%80%8F",
+      "created_at": "2026-08-17T15:05:03Z",
+      "text": "第35期 · 饮料云雾清透",
+      "prompt": "围绕任意主题对象生成一张清爽消费品广告视觉，让主题以近距离主形体安静立在画面下方偏中位置，主体带有透明冰感与液态层次，表面贴合主题派生的图形信息；前景用一团柔软云雾状冷感附着层半遮主体中段，形成“产品从云上生出、被清凉包裹”的第一眼记忆，底部有光滑冰面般的浅反射与轻微雾化边缘。背景保持大面积高明度留白与通风感，上部是清澈开阔的浅色空气场，中下部用低对比云雾、冰面轮廓和漂浮冷气承托主体，质地干净、透明、细腻，不做脏旧纸纹。大标题以高瘦、清晰、现代的字形形成强信息柱，放在主体旁侧，字号明显大于其他文字，阅读路径从标题到主形体再到边缘短句；辅助文字沿边缘垂直排布，配细线、短分隔和小图标，制造广告感的秩序与呼吸。色彩从主题自身的材质、气味、情绪和产品语义中提取：底色承担明亮空气和洁净冷感，主体使用更饱满但透明的主题色，文字和线条使用少量高饱和清晰强调色，阴影与反射只做极浅色阶，使整体明亮轻快、清透干净、带冷饮般的即时爽感。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/beverage/xxd-style_%E9%A5%AE%E6%96%99%E4%BA%91%E9%9B%BE%E6%B8%85%E9%80%8F_0608-1718/%E5%8F%98%E7%A7%8D-01-%E9%9D%92%E6%9F%A0%E6%B0%94%E6%B3%A1%E6%B0%B4.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/beverage/xxd-style_%E9%A5%AE%E6%96%99%E4%BA%91%E9%9B%BE%E6%B8%85%E9%80%8F_0608-1718/%E5%8F%98%E7%A7%8D-01-%E9%9D%92%E6%9F%A0%E6%B0%94%E6%B3%A1%E6%B0%B4.webp"
+        }
+      ]
+    },
+    {
+      "id": "nl-34-节气蝉鸣国风版画",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/solar-term__%E8%8A%82%E6%B0%94%E8%9D%89%E9%B8%A3%E5%9B%BD%E9%A3%8E%E7%89%88%E7%94%BB",
+      "created_at": "2026-08-16T15:05:01Z",
+      "text": "第34期 · 节气蝉鸣国风版画",
+      "prompt": "围绕二十四节气主题图片生成一套可迁移的中文视觉提示词，整体方向是“节气蝉鸣国风版画”。画面第一眼要读到清晰主题和明确用途，主体、文字和留白之间形成稳定层级，不能只是普通装饰图。视觉机制使用国风版画：把主题物件、情绪线索、中文标题和小信息排版组织成完整画面，主视觉占据核心位置，辅助元素沿边缘、前景或背景形成节奏。情绪控制为蝉鸣，色彩以霜白与朱红为主，保留干净明暗关系、清楚边界和少量高记忆点强调色；材质可以有纸张、光斑、细颗粒、手写笔触或轻微印刷纹理，但不能浑浊、廉价或过度堆满。中文文字必须可读，主标题承担情绪入口，小字负责日期、祝福、用途或行动信息；文字不要随机乱码，不复制品牌商标，不使用无关英文。完成效果应像可以直接用于社媒封面、手机海报、卡片或活动物料的视觉生成提示词，重点是可执行、可替换主题、层级清楚。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/solar-term/xxd-style_%E8%8A%82%E6%B0%94%E8%9D%89%E9%B8%A3%E5%9B%BD%E9%A3%8E%E7%89%88%E7%94%BB_0612-0156/%E5%8F%98%E7%A7%8D-02-%E7%AB%8B%E7%A7%8B%E8%9D%89%E5%A3%B0.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/solar-term/xxd-style_%E8%8A%82%E6%B0%94%E8%9D%89%E9%B8%A3%E5%9B%BD%E9%A3%8E%E7%89%88%E7%94%BB_0612-0156/%E5%8F%98%E7%A7%8D-02-%E7%AB%8B%E7%A7%8B%E8%9D%89%E5%A3%B0.webp"
+        }
+      ]
+    },
+    {
+      "id": "nl-34-线字压身-冷灰克制-演出海报",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/portrait__%E7%BA%BF%E5%AD%97%E5%8E%8B%E8%BA%AB%C2%B7%E5%86%B7%E7%81%B0%E5%85%8B%E5%88%B6%C2%B7%E6%BC%94%E5%87%BA%E6%B5%B7%E6%8A%A5",
+      "created_at": "2026-08-16T15:05:01Z",
+      "text": "第34期 · 线字压身·冷灰克制·演出海报",
+      "prompt": "围绕任意主题对象生成冷静克制的单色海报视觉，让主题提供中心人物、产品、符号或事件载体，并以近距离摄影质感占据画面中上部，身体或物体轮廓略偏一侧，姿态安静、边缘被画面裁切，另一侧保留大片低明度空场，形成含蓄的观看距离。画面下半部压入极大的主题标题，使用几何无衬线骨架改造成多条平行细线组成的空心字，字宽拉长、笔画等距重复、内部留白清楚，标题横跨主体前方并遮挡局部轮廓，使文字像透明栅格压在摄影层上；标题上方放一行小号大字距字母或文字，下方放副标题与关键信息，均采用细窄字形、宽松字距和水平细线分隔，形成从静默肖像到巨大标题再到密集信息的递进阅读。颜色由主题派生但保持低饱和、低温度、明暗分明的角色关系：背景为深灰或主题暗色的哑光场，主体为柔和中间调，衣物或亮面区域承担大面积干净高光，文字与分隔线使用接近白色的清亮浅色；整体以黑白摄影、柔软侧光、轻微胶片颗粒和压缩后的印刷灰阶呈现，暗部不浑浊，高光不过曝，边缘保留真实照片的细小噪点与纸面印刷感。避免彩色霓虹、复杂装饰和夸张透视，重点保持安静主体被线性巨字覆盖、下方信息严整收束的海报张力。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/portrait/xxd-style-%E7%BA%BF%E5%AD%97%E5%8E%8B%E8%BA%AB%C2%B7%E5%86%B7%E7%81%B0%E5%85%8B%E5%88%B6%C2%B7%E6%BC%94%E5%87%BA%E6%B5%B7%E6%8A%A5-c04b52cf6662/%E5%8F%98%E7%A7%8D-01-%E7%8B%AC%E7%AB%8B%E9%9F%B3%E4%B9%90%E4%BA%BA%E6%BC%94%E5%87%BA%E6%B5%B7%E6%8A%A5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/portrait/xxd-style-%E7%BA%BF%E5%AD%97%E5%8E%8B%E8%BA%AB%C2%B7%E5%86%B7%E7%81%B0%E5%85%8B%E5%88%B6%C2%B7%E6%BC%94%E5%87%BA%E6%B5%B7%E6%8A%A5-c04b52cf6662/%E5%8F%98%E7%A7%8D-01-%E7%8B%AC%E7%AB%8B%E9%9F%B3%E4%B9%90%E4%BA%BA%E6%BC%94%E5%87%BA%E6%B5%B7%E6%8A%A5.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/portrait/xxd-style-%E7%BA%BF%E5%AD%97%E5%8E%8B%E8%BA%AB%C2%B7%E5%86%B7%E7%81%B0%E5%85%8B%E5%88%B6%C2%B7%E6%BC%94%E5%87%BA%E6%B5%B7%E6%8A%A5-c04b52cf6662/%E5%8F%98%E7%A7%8D-02-%E8%AF%9D%E5%89%A7%E9%A6%96%E6%BC%94%E5%AE%A3%E4%BC%A0%E6%B5%B7%E6%8A%A5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/portrait/xxd-style-%E7%BA%BF%E5%AD%97%E5%8E%8B%E8%BA%AB%C2%B7%E5%86%B7%E7%81%B0%E5%85%8B%E5%88%B6%C2%B7%E6%BC%94%E5%87%BA%E6%B5%B7%E6%8A%A5-c04b52cf6662/%E5%8F%98%E7%A7%8D-02-%E8%AF%9D%E5%89%A7%E9%A6%96%E6%BC%94%E5%AE%A3%E4%BC%A0%E6%B5%B7%E6%8A%A5.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/portrait/xxd-style-%E7%BA%BF%E5%AD%97%E5%8E%8B%E8%BA%AB%C2%B7%E5%86%B7%E7%81%B0%E5%85%8B%E5%88%B6%C2%B7%E6%BC%94%E5%87%BA%E6%B5%B7%E6%8A%A5-c04b52cf6662/%E5%8F%98%E7%A7%8D-03-%E5%BD%93%E4%BB%A3%E6%91%84%E5%BD%B1%E5%B1%95%E4%B8%BB%E8%A7%86%E8%A7%89%E6%B5%B7%E6%8A%A5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/portrait/xxd-style-%E7%BA%BF%E5%AD%97%E5%8E%8B%E8%BA%AB%C2%B7%E5%86%B7%E7%81%B0%E5%85%8B%E5%88%B6%C2%B7%E6%BC%94%E5%87%BA%E6%B5%B7%E6%8A%A5-c04b52cf6662/%E5%8F%98%E7%A7%8D-03-%E5%BD%93%E4%BB%A3%E6%91%84%E5%BD%B1%E5%B1%95%E4%B8%BB%E8%A7%86%E8%A7%89%E6%B5%B7%E6%8A%A5.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/portrait/xxd-style-%E7%BA%BF%E5%AD%97%E5%8E%8B%E8%BA%AB%C2%B7%E5%86%B7%E7%81%B0%E5%85%8B%E5%88%B6%C2%B7%E6%BC%94%E5%87%BA%E6%B5%B7%E6%8A%A5-c04b52cf6662/%E5%8F%98%E7%A7%8D-04-%E8%AE%BE%E8%AE%A1%E4%BD%9C%E8%80%85%E8%AE%B2%E5%BA%A7%E9%A2%84%E5%91%8A%E6%B5%B7%E6%8A%A5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/portrait/xxd-style-%E7%BA%BF%E5%AD%97%E5%8E%8B%E8%BA%AB%C2%B7%E5%86%B7%E7%81%B0%E5%85%8B%E5%88%B6%C2%B7%E6%BC%94%E5%87%BA%E6%B5%B7%E6%8A%A5-c04b52cf6662/%E5%8F%98%E7%A7%8D-04-%E8%AE%BE%E8%AE%A1%E4%BD%9C%E8%80%85%E8%AE%B2%E5%BA%A7%E9%A2%84%E5%91%8A%E6%B5%B7%E6%8A%A5.webp"
+        }
+      ]
+    },
+    {
+      "id": "nl-33-大字融景-晴日胶片-旅行海报",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/%E5%A5%B3%E6%91%84__%E5%A4%A7%E5%AD%97%E8%9E%8D%E6%99%AF%C2%B7%E6%99%B4%E6%97%A5%E8%83%B6%E7%89%87%C2%B7%E6%97%85%E8%A1%8C%E6%B5%B7%E6%8A%A5",
+      "created_at": "2026-08-15T15:05:01Z",
+      "text": "第33期 · 大字融景·晴日胶片·旅行海报",
+      "prompt": "围绕任意主题对象构建留白充足的摄影拼贴海报，让超大标题与主题影像共用同一轮廓，第一眼先读到文字压入画面的醒目关系，再进入具体内容。上方保留大片浅色纸面空域，仅在靠近影像处排布三组短小资料：每组以粗黑标签配常规字重内容，字级细小、行距紧凑、彼此拉开，形成克制的编辑秩序。主题标题使用极粗、宽阔、几何感强的无衬线字，横向铺满主要宽度，字距紧密而轮廓清楚；字的上半部伸入纸面，下半部与下方矩形影像无缝相接，影像中的天空、光色与局部细节连续填入字腔，使标题既是可读文字，也是照片向上生长的遮罩边界，不能退化成普通叠字。下方以一块边缘利落的大幅摄影区域承载场景，主题核心对象放在左下偏中，以近距离放大、略低视点和向上延伸的姿态形成强重心，局部逼近边缘；右侧保留宽阔明亮的环境空间，让远处景物逐层缩小并保持空气感，远处微小元素只用于建立尺度。影像右侧悬置一枚窄长白底编码条，以密集黑线形成干净的小型节奏，作为对大标题的轻量平衡。色彩从主题语义中派生：最大面积采用明亮、洁净、偏冷且饱和度较高的主题色，贯穿影像背景与标题内部；浅暖低饱和纸色包围其外，深近黑只用于正文、轮廓和少量阴影，再以极少量暖色细节激活视线。整体保持高明度、清透日光、清晰硬朗的晴天阴影与轻微胶片偏色，暗部略压深但不浑浊，亮部柔和不过曝。纸面具有细密、低对比的纤维与浅浮雕纹理，只作用于空白边框和留白区域；摄影保留轻微颗粒、柔化锐度与自然色偏，边界仍然整洁，不添加脏污、破损或厚重做旧。最终维持大字、照片、留白三者的强弱秩序：标题必须与影像连成一个视觉事件，左侧近景重量由右侧天空和编码条共同平衡，小字只提供安静而真实的版面气息。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%A5%B3%E6%91%84/xxd-style-%E5%A4%A7%E5%AD%97%E8%9E%8D%E6%99%AF%C2%B7%E6%99%B4%E6%97%A5%E8%83%B6%E7%89%87%C2%B7%E6%97%85%E8%A1%8C%E6%B5%B7%E6%8A%A5-f4354e45c00f/%E5%8F%98%E7%A7%8D-01-%E6%97%85%E8%A1%8C%E6%B5%B7%E6%8A%A5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%A5%B3%E6%91%84/xxd-style-%E5%A4%A7%E5%AD%97%E8%9E%8D%E6%99%AF%C2%B7%E6%99%B4%E6%97%A5%E8%83%B6%E7%89%87%C2%B7%E6%97%85%E8%A1%8C%E6%B5%B7%E6%8A%A5-f4354e45c00f/%E5%8F%98%E7%A7%8D-01-%E6%97%85%E8%A1%8C%E6%B5%B7%E6%8A%A5.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%A5%B3%E6%91%84/xxd-style-%E5%A4%A7%E5%AD%97%E8%9E%8D%E6%99%AF%C2%B7%E6%99%B4%E6%97%A5%E8%83%B6%E7%89%87%C2%B7%E6%97%85%E8%A1%8C%E6%B5%B7%E6%8A%A5-f4354e45c00f/%E5%8F%98%E7%A7%8D-02-%E6%97%85%E8%A1%8C%E6%B5%B7%E6%8A%A5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%A5%B3%E6%91%84/xxd-style-%E5%A4%A7%E5%AD%97%E8%9E%8D%E6%99%AF%C2%B7%E6%99%B4%E6%97%A5%E8%83%B6%E7%89%87%C2%B7%E6%97%85%E8%A1%8C%E6%B5%B7%E6%8A%A5-f4354e45c00f/%E5%8F%98%E7%A7%8D-02-%E6%97%85%E8%A1%8C%E6%B5%B7%E6%8A%A5.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%A5%B3%E6%91%84/xxd-style-%E5%A4%A7%E5%AD%97%E8%9E%8D%E6%99%AF%C2%B7%E6%99%B4%E6%97%A5%E8%83%B6%E7%89%87%C2%B7%E6%97%85%E8%A1%8C%E6%B5%B7%E6%8A%A5-f4354e45c00f/%E5%8F%98%E7%A7%8D-03-%E6%97%85%E8%A1%8C%E6%B5%B7%E6%8A%A5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%A5%B3%E6%91%84/xxd-style-%E5%A4%A7%E5%AD%97%E8%9E%8D%E6%99%AF%C2%B7%E6%99%B4%E6%97%A5%E8%83%B6%E7%89%87%C2%B7%E6%97%85%E8%A1%8C%E6%B5%B7%E6%8A%A5-f4354e45c00f/%E5%8F%98%E7%A7%8D-03-%E6%97%85%E8%A1%8C%E6%B5%B7%E6%8A%A5.webp"
+        }
+      ]
+    },
+    {
+      "id": "nl-33-苹果巨物通透",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/poster__%E8%8B%B9%E6%9E%9C%E5%B7%A8%E7%89%A9%E9%80%9A%E9%80%8F",
+      "created_at": "2026-08-15T15:05:01Z",
+      "text": "第33期 · 苹果巨物通透",
+      "prompt": "围绕具体主题内容生成一张强图形感商业视觉：把主题对象处理成超近距离真实摄影的巨物，上下两块被画面边界截断的主体形成挤压式框架，中间保留明亮、干净、通风的核心留白；从主体自身抽取一条细长而偏暗的识别结构，让它斜向穿过留白并连接上下两端，成为视觉轴线和记忆点。主体表面要有真实材质的微凹凸、蜡质高光、软阴影和细小颗粒，边缘带轻微失焦，整体仍保持清透新鲜。中央主标题以极大中文标题形成第一层级，字形厚重、笔画锋利收束，顶部嵌入小号拼音或注音，标题下方压一行优雅衬线外文；一笔主题派生的手写线条横跨标题，像签名一样打破正文字重。左右保留小型印章式卖点信息，底部布置极小日期、署名与版权式信息，信息密度低但位置精确。色彩从主题自身的材质、季节和情绪中提取：高明度洁净底色作为大面积光场，主体主色承担最大视觉重量并保持饱和、透明、带光泽，暗色只用于连接结构、阴影和主标题骨架，小面积清晰强调色用于手写划线与信息锚点；整体情绪明亮鲜活、温暖有生气，色阶清楚，背景不发灰，纹理表现新鲜材质而不是陈旧污渍。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/poster/xxd-style_%E8%8B%B9%E6%9E%9C%E5%B7%A8%E7%89%A9%E9%80%9A%E9%80%8F_0607-0737/%E5%8F%98%E7%A7%8D-02-%E9%9D%92%E8%8B%B9%E6%9E%9C%E4%BD%8E%E7%B3%96%E9%A5%AE%E5%93%81%E5%8C%85%E8%A3%85.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/poster/xxd-style_%E8%8B%B9%E6%9E%9C%E5%B7%A8%E7%89%A9%E9%80%9A%E9%80%8F_0607-0737/%E5%8F%98%E7%A7%8D-02-%E9%9D%92%E8%8B%B9%E6%9E%9C%E4%BD%8E%E7%B3%96%E9%A5%AE%E5%93%81%E5%8C%85%E8%A3%85.webp"
+        }
+      ]
+    },
+    {
+      "id": "nl-33-强色字压影像",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/%E7%94%B7%E6%91%84__%E5%BC%BA%E8%89%B2%E5%AD%97%E5%8E%8B%E5%BD%B1%E5%83%8F",
+      "created_at": "2026-08-15T15:05:01Z",
+      "text": "第33期 · 强色字压影像",
+      "prompt": "围绕任意主题对象生成一张强编辑感的图像：画面第一眼是高饱和主题色块的正面冲击，外层背景用低明度粗颗粒肌理和重复放大的主题字形铺成压迫感纹样，像噪点印刷从边缘向中间挤压；中间保留一块平整清洁的主色场，承载核心信息和主题对象。主题对象以近距离主形体出现，放入深色影像框内，使用黑白高反差光影，主形体的轮廓与关键表面由强侧光切出亮面，暗部干脆沉下去，形成冷静、锋利、带舞台感的视觉停顿。顶部文字采用小号信息字和超粗黑体标题的强层级，字距紧、重量重、排列像杂志封面标题；中段叠加一笔大尺度手写白色线性字形，横跨主体影像，笔画有速度感和签名感，既打断影像又把画面串起来；底部用短促粗体标题和更小的副信息收束，保持编辑秩序。色彩从主题自身的材料、情绪和文化信号中提取：主色负责大面积情绪冲击，深色负责结构和纹理压力，黑白负责主体的冷峻真实感，少量明亮字色负责瞬间记忆点；整体要高对比、清晰、干净、有热度，纹理像印刷油墨和粗糙纸面，但不能变脏或复古发灰。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E7%94%B7%E6%91%84/xxd-style_%E5%BC%BA%E8%89%B2%E5%AD%97%E5%8E%8B%E5%BD%B1%E5%83%8F_d2f3c56f64f0/%E5%8F%98%E7%A7%8D-01-%E7%94%B7%E8%A3%85%E9%A6%96%E7%A7%80%E5%B0%81%E9%9D%A2.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E7%94%B7%E6%91%84/xxd-style_%E5%BC%BA%E8%89%B2%E5%AD%97%E5%8E%8B%E5%BD%B1%E5%83%8F_d2f3c56f64f0/%E5%8F%98%E7%A7%8D-01-%E7%94%B7%E8%A3%85%E9%A6%96%E7%A7%80%E5%B0%81%E9%9D%A2.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E7%94%B7%E6%91%84/xxd-style_%E5%BC%BA%E8%89%B2%E5%AD%97%E5%8E%8B%E5%BD%B1%E5%83%8F_d2f3c56f64f0/%E5%8F%98%E7%A7%8D-02-%E9%80%A0%E5%9E%8B%E5%B8%88%E4%BD%9C%E5%93%81%E9%9B%86%E5%B0%81%E9%9D%A2.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E7%94%B7%E6%91%84/xxd-style_%E5%BC%BA%E8%89%B2%E5%AD%97%E5%8E%8B%E5%BD%B1%E5%83%8F_d2f3c56f64f0/%E5%8F%98%E7%A7%8D-02-%E9%80%A0%E5%9E%8B%E5%B8%88%E4%BD%9C%E5%93%81%E9%9B%86%E5%B0%81%E9%9D%A2.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E7%94%B7%E6%91%84/xxd-style_%E5%BC%BA%E8%89%B2%E5%AD%97%E5%8E%8B%E5%BD%B1%E5%83%8F_d2f3c56f64f0/%E5%8F%98%E7%A7%8D-03-%E6%BD%AE%E6%B5%81%E5%BF%AB%E9%97%AA%E6%B4%BB%E5%8A%A8%E6%B5%B7%E6%8A%A5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E7%94%B7%E6%91%84/xxd-style_%E5%BC%BA%E8%89%B2%E5%AD%97%E5%8E%8B%E5%BD%B1%E5%83%8F_d2f3c56f64f0/%E5%8F%98%E7%A7%8D-03-%E6%BD%AE%E6%B5%81%E5%BF%AB%E9%97%AA%E6%B4%BB%E5%8A%A8%E6%B5%B7%E6%8A%A5.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E7%94%B7%E6%91%84/xxd-style_%E5%BC%BA%E8%89%B2%E5%AD%97%E5%8E%8B%E5%BD%B1%E5%83%8F_d2f3c56f64f0/%E5%8F%98%E7%A7%8D-04-%E7%94%B7%E5%A3%AB%E5%BD%A2%E8%B1%A1%E8%AF%BE%E7%A8%8B%E6%8B%9B%E5%8B%9F.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E7%94%B7%E6%91%84/xxd-style_%E5%BC%BA%E8%89%B2%E5%AD%97%E5%8E%8B%E5%BD%B1%E5%83%8F_d2f3c56f64f0/%E5%8F%98%E7%A7%8D-04-%E7%94%B7%E5%A3%AB%E5%BD%A2%E8%B1%A1%E8%AF%BE%E7%A8%8B%E6%8B%9B%E5%8B%9F.webp"
+        }
+      ]
+    },
+    {
+      "id": "nl-32-冷静信息人物留白",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/portrait__%E5%86%B7%E9%9D%99%E4%BF%A1%E6%81%AF%E4%BA%BA%E7%89%A9%E7%95%99%E7%99%BD",
+      "created_at": "2026-08-14T15:05:25Z",
+      "text": "第32期 · 冷静信息人物留白",
+      "prompt": "围绕任意主题对象生成一张冷静、精确、带强烈编辑设计感的视觉画面：大面积明亮干净的留白作为结构底场，一侧放置被放大的标题字列，字形修长、间距疏朗，像建筑立柱一样建立秩序与记忆点；主要视觉内容集中在偏内侧的深色矩形图像区，主题对象以近距离主形体出现，轮廓清晰但情绪克制，局部可被阴影、边缘裁切或背景结构压住，形成安静的舞台感和图文之间的张力。图像区不要铺满画面，保留宽阔呼吸空间，并加入少量错位的白色切口、边角压片或遮挡块，让平面结构产生被装订、被裁切、被精密排版的感觉。信息层以细小文字、短行标题、密集参数与底部简洁信息带组成，字号对比明显，主标题有庄重的衬线气质，辅助文字细而清楚，所有文字服务于节奏、层级和尺度，不抢走主题对象。色彩从未来主题自身的材质、情绪和叙事中提取：底场保持高明度、干净、通风感，主题区使用清晰的深浅阶梯承载重量，结构暗色用于标题和信息，少量主题派生的强调色只出现在关键文字、细线或边角位置；整体维持冷静精确、清透洁净的情绪，饱和度受控，明暗对比明确，暗部保持纯净而不浑浊，避免装饰性堆叠、喧闹拼贴和普通宣传排版。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/portrait/xxd-style_%E5%86%B7%E9%9D%99%E4%BF%A1%E6%81%AF%E4%BA%BA%E7%89%A9%E7%95%99%E7%99%BD_0611-0912/%E5%8F%98%E7%A7%8D-01-%E5%BD%93%E4%BB%A3%E4%BA%BA%E5%83%8F%E7%BC%96%E8%BE%91%E6%B5%B7%E6%8A%A5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/portrait/xxd-style_%E5%86%B7%E9%9D%99%E4%BF%A1%E6%81%AF%E4%BA%BA%E7%89%A9%E7%95%99%E7%99%BD_0611-0912/%E5%8F%98%E7%A7%8D-01-%E5%BD%93%E4%BB%A3%E4%BA%BA%E5%83%8F%E7%BC%96%E8%BE%91%E6%B5%B7%E6%8A%A5.webp"
+        }
+      ]
+    },
+    {
+      "id": "nl-32-巨字实物交叠-鲜亮俏皮-科普海报",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/poster__%E5%B7%A8%E5%AD%97%E5%AE%9E%E7%89%A9%E4%BA%A4%E5%8F%A0%C2%B7%E9%B2%9C%E4%BA%AE%E4%BF%8F%E7%9A%AE%C2%B7%E7%A7%91%E6%99%AE%E6%B5%B7%E6%8A%A5",
+      "created_at": "2026-08-14T15:05:25Z",
+      "text": "第32期 · 巨字实物交叠·鲜亮俏皮·科普海报",
+      "prompt": "围绕任意主题对象展开明快、直接、略带机智感的知识传播视觉。以纯净高饱和色铺满背景，让主题语义决定主色家族与情绪温度；画面中央设置横跨大部分宽度的超大无衬线英文或拼音主题词，字形粗重、窄长、几何化，使用近白高明度色，形成稳定而醒目的骨架。将一个可被真实拍摄或逼真渲染的主题对象放大到近距离尺度，置于中下区域并越过巨字，遮住若干笔画，使文字成为对象背后的尺度标尺；对象保持清晰轮廓、自然材质、细腻表面纹理与集中的高光，不能退化成扁平图标。由左上方的强定向光塑造对象，在右下方拖出面积显著、边缘清楚而略有柔化的长投影，投影采用主色加深并降低鲜艳度后的颜色，与对象共同建立强烈斜向动势。 在巨字上方横压一行自由奔放的白色手写笔触词，笔画有速度、轻微干擦和不均匀粗细，与规整粗体形成理性和随性的反差。围绕主视觉布置少量小字号信息：顶部两组短文形成左右呼应，底部再以两组说明收束阅读，局部加入极短副题或标签；小字使用清晰的人文无衬线体，标题略加粗，正文保持紧凑行距和明确层级。对象表面或其邻近位置可叠放一段窄高、紧缩的醒目标语，让文字与实体共享焦点，但不得覆盖关键识别特征。颜色系统随主题派生：背景承担最大色域，巨字与信息文字保持洁净近白，对象使用符合主题材质的真实颜色并可与背景形成近似色融合，小面积附属细节从主题色关系中提取冷暖或互补对照，投影承担最深暗部；整体维持高亮度、高鲜艳度、强明暗分离与清洁数字印刷观感。保留开阔色面、巨字与实物交叠、长投影和四周信息块之间的张力，不添加颗粒、泛黄、污渍、复杂场景或多余装饰。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/poster/xxd-style-%E5%B7%A8%E5%AD%97%E5%AE%9E%E7%89%A9%E4%BA%A4%E5%8F%A0%C2%B7%E9%B2%9C%E4%BA%AE%E4%BF%8F%E7%9A%AE%C2%B7%E7%A7%91%E6%99%AE%E6%B5%B7%E6%8A%A5-734a3fcb79d9/%E5%8F%98%E7%A7%8D-01-%E7%95%AA%E8%8C%84%E5%B7%A5%E4%BD%9C%E6%B3%95%E5%8A%9E%E5%85%AC%E5%AE%A4%E6%B5%B7%E6%8A%A5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/poster/xxd-style-%E5%B7%A8%E5%AD%97%E5%AE%9E%E7%89%A9%E4%BA%A4%E5%8F%A0%C2%B7%E9%B2%9C%E4%BA%AE%E4%BF%8F%E7%9A%AE%C2%B7%E7%A7%91%E6%99%AE%E6%B5%B7%E6%8A%A5-734a3fcb79d9/%E5%8F%98%E7%A7%8D-01-%E7%95%AA%E8%8C%84%E5%B7%A5%E4%BD%9C%E6%B3%95%E5%8A%9E%E5%85%AC%E5%AE%A4%E6%B5%B7%E6%8A%A5.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/poster/xxd-style-%E5%B7%A8%E5%AD%97%E5%AE%9E%E7%89%A9%E4%BA%A4%E5%8F%A0%C2%B7%E9%B2%9C%E4%BA%AE%E4%BF%8F%E7%9A%AE%C2%B7%E7%A7%91%E6%99%AE%E6%B5%B7%E6%8A%A5-734a3fcb79d9/%E5%8F%98%E7%A7%8D-03-%E6%95%88%E7%8E%87%E8%AF%BE%E7%A8%8B%E6%8A%A5%E5%90%8D%E6%B5%B7%E6%8A%A5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/poster/xxd-style-%E5%B7%A8%E5%AD%97%E5%AE%9E%E7%89%A9%E4%BA%A4%E5%8F%A0%C2%B7%E9%B2%9C%E4%BA%AE%E4%BF%8F%E7%9A%AE%C2%B7%E7%A7%91%E6%99%AE%E6%B5%B7%E6%8A%A5-734a3fcb79d9/%E5%8F%98%E7%A7%8D-03-%E6%95%88%E7%8E%87%E8%AF%BE%E7%A8%8B%E6%8A%A5%E5%90%8D%E6%B5%B7%E6%8A%A5.webp"
+        }
+      ]
+    },
+    {
+      "id": "nl-31-影院白字-胶片纪实-婚礼海报",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/%E5%A9%9A%E7%A4%BC%E9%82%80%E8%AF%B7%E5%87%BD__%E5%BD%B1%E9%99%A2%E7%99%BD%E5%AD%97%C2%B7%E8%83%B6%E7%89%87%E7%BA%AA%E5%AE%9E%C2%B7%E5%A9%9A%E7%A4%BC%E6%B5%B7%E6%8A%A5",
+      "created_at": "2026-08-13T15:05:03Z",
+      "text": "第31期 · 影院白字·胶片纪实·婚礼海报",
+      "prompt": "围绕具体主题内容生成带纪实感的环境肖像海报：画面先由大面积安静留白和重复座椅般的深色模块建立秩序，主题角色安放在下半部，身体被近距离裁切，姿态自然、略带摆拍趣味，手部动作或小道具负责制造亲密互动。中上部叠加一组白色 editorial 文字，主标题使用高对比细衬线，字形修长、笔画有明显粗细变化，横向拉开，压在背景深色块与人物上方之间；上方保留一行小号窄距说明文字，下方放置数行居中短文，文字像透明胶片字幕一样嵌入场景，不做描边和装饰框。空间采用前景人物、中景重复座位、上方浅色墙面的三层关系，背景模块保持规整间距但允许边缘被裁掉，让画面有影院座席的连续感和现场深度。颜色由主题派生但遵守面积角色：大块背景使用低明度、较高饱和的冷色或深色承重，顶部留白使用明度较高的暖中性色，人物服装或核心物保留洁净高亮，少量小道具给出暖色高饱和点缀；整体明暗反差明确，皮肤和白色部分被柔和闪光提亮，阴影略深但不脏。质感保持 90 年代胶片快照与轻微扫描感，颗粒细密、边缘微软、暗部有轻微色偏和压缩，暖色渗入高光，画面干净但不过度锐化。避免把文字做成独立排版页，也避免让背景虚成空泛氛围；必须让人物、重复环境、居中文字和胶片色温互相咬合，形成像私密电影存档封面一样的记忆感。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%A9%9A%E7%A4%BC%E9%82%80%E8%AF%B7%E5%87%BD/xxd-style-%E5%BD%B1%E9%99%A2%E7%99%BD%E5%AD%97%C2%B7%E8%83%B6%E7%89%87%E7%BA%AA%E5%AE%9E%C2%B7%E5%A9%9A%E7%A4%BC%E6%B5%B7%E6%8A%A5-2847b73012f8/%E5%8F%98%E7%A7%8D-01-%E4%BB%AA%E5%BC%8F%E9%A2%84%E5%91%8A%E6%B5%B7%E6%8A%A5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%A9%9A%E7%A4%BC%E9%82%80%E8%AF%B7%E5%87%BD/xxd-style-%E5%BD%B1%E9%99%A2%E7%99%BD%E5%AD%97%C2%B7%E8%83%B6%E7%89%87%E7%BA%AA%E5%AE%9E%C2%B7%E5%A9%9A%E7%A4%BC%E6%B5%B7%E6%8A%A5-2847b73012f8/%E5%8F%98%E7%A7%8D-01-%E4%BB%AA%E5%BC%8F%E9%A2%84%E5%91%8A%E6%B5%B7%E6%8A%A5.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%A9%9A%E7%A4%BC%E9%82%80%E8%AF%B7%E5%87%BD/xxd-style-%E5%BD%B1%E9%99%A2%E7%99%BD%E5%AD%97%C2%B7%E8%83%B6%E7%89%87%E7%BA%AA%E5%AE%9E%C2%B7%E5%A9%9A%E7%A4%BC%E6%B5%B7%E6%8A%A5-2847b73012f8/%E5%8F%98%E7%A7%8D-02-%E8%BF%8E%E5%AE%BE%E7%AD%BE%E5%88%B0%E6%B5%B7%E6%8A%A5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%A9%9A%E7%A4%BC%E9%82%80%E8%AF%B7%E5%87%BD/xxd-style-%E5%BD%B1%E9%99%A2%E7%99%BD%E5%AD%97%C2%B7%E8%83%B6%E7%89%87%E7%BA%AA%E5%AE%9E%C2%B7%E5%A9%9A%E7%A4%BC%E6%B5%B7%E6%8A%A5-2847b73012f8/%E5%8F%98%E7%A7%8D-02-%E8%BF%8E%E5%AE%BE%E7%AD%BE%E5%88%B0%E6%B5%B7%E6%8A%A5.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%A9%9A%E7%A4%BC%E9%82%80%E8%AF%B7%E5%87%BD/xxd-style-%E5%BD%B1%E9%99%A2%E7%99%BD%E5%AD%97%C2%B7%E8%83%B6%E7%89%87%E7%BA%AA%E5%AE%9E%C2%B7%E5%A9%9A%E7%A4%BC%E6%B5%B7%E6%8A%A5-2847b73012f8/%E5%8F%98%E7%A7%8D-04-%E7%BA%AA%E5%BF%B5%E7%9B%B8%E5%86%8C%E5%B0%81%E9%9D%A2.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%A9%9A%E7%A4%BC%E9%82%80%E8%AF%B7%E5%87%BD/xxd-style-%E5%BD%B1%E9%99%A2%E7%99%BD%E5%AD%97%C2%B7%E8%83%B6%E7%89%87%E7%BA%AA%E5%AE%9E%C2%B7%E5%A9%9A%E7%A4%BC%E6%B5%B7%E6%8A%A5-2847b73012f8/%E5%8F%98%E7%A7%8D-04-%E7%BA%AA%E5%BF%B5%E7%9B%B8%E5%86%8C%E5%B0%81%E9%9D%A2.webp"
+        }
+      ]
+    },
+    {
+      "id": "nl-31-清透信息图",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/beverage__%E6%B8%85%E9%80%8F%E4%BF%A1%E6%81%AF%E5%9B%BE",
+      "created_at": "2026-08-13T15:05:03Z",
+      "text": "第31期 · 清透信息图",
+      "prompt": "围绕任意主题对象生成一张明亮清透的信息型视觉：让主题对象成为近距离主形体，压住画面中心视觉重量，边缘干净清晰，表面或内部呈现可被阅读的层次、质感变化和轻微透明感；主形体下方设置简洁承托关系，使对象像被展示在小型台面上，同时在主体顶部或侧缘加入一个从主题文化、情绪或事件中派生的微小象征物，形成轻巧的记忆点。背景保持大面积通风留白和细腻颗粒，光线干净、明亮，有少量镜头闪光或高光点，强化清爽仪式感。信息层使用极细的水平引导线和小圆点连接主体关键部位，左侧组织短标签，右侧组织紧凑步骤或说明，线条、文字和留白形成清晰阅读路径。主标题以优雅高反差衬线字体大尺度穿插在主体背后和上方，次级信息用轻盈无衬线，字距舒展，文字像空气中的图层而不是标签贴纸。色彩从主题自身的材质、环境和情绪中提取，保留大面积高明度洁净底色、主体较饱和的情绪色、透明浅层、清晰暗部和少量醒目强调色的面积关系；整体明亮轻快、清透干净，饱和度受控，色阶清楚，深色也保持光学洁净。最终效果是真实摄影主体与精致编辑设计融合，既像物件解剖又像优雅说明页，避免拥挤排版、厚重阴影、污浊复古色和随意装饰。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/beverage/xxd-style_%E6%B8%85%E9%80%8F%E4%BF%A1%E6%81%AF%E5%9B%BE_0611-1418/%E5%8F%98%E7%A7%8D-01-%E6%B8%85%E9%80%8F%E6%9F%91%E6%A9%98%E6%B0%94%E6%B3%A1%E9%A5%AE.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/beverage/xxd-style_%E6%B8%85%E9%80%8F%E4%BF%A1%E6%81%AF%E5%9B%BE_0611-1418/%E5%8F%98%E7%A7%8D-01-%E6%B8%85%E9%80%8F%E6%9F%91%E6%A9%98%E6%B0%94%E6%B3%A1%E9%A5%AE.webp"
+        }
+      ]
+    },
+    {
+      "id": "nl-31-微观浪涌清甜",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/%E5%A4%8F%E8%87%B3__%E5%BE%AE%E8%A7%82%E6%B5%AA%E6%B6%8C%E6%B8%85%E7%94%9C",
+      "created_at": "2026-08-13T15:05:03Z",
+      "text": "第31期 · 微观浪涌清甜",
+      "prompt": "围绕任意主题对象生成一张具有微观沉浸感的视觉广告画面：把主题自身的表面、纹理或材质放大成一个可进入的起伏场域，主形体不以完整物件陈列，而是被近距离裁切成柔软、湿润、带流动感的地貌，局部形成一道卷起的浪涌或弧形凹陷，中心放入极小的动态行动者作为尺度锚点，让观者先读到巨大材质表面的清透冲击，再发现微型动作带来的奇异趣味。主题派生的小型附着物沿表面稀疏分布，作为节奏点与真实质感证据，边缘可有水花、碎液、透明飞溅或同类材质颗粒，必须让动作与表面发生真实接触。背景以同一主题材质虚化延展，前后景有明显景深，近处细节清晰、远处柔散，整体保持明亮、清透、干净和高明度的通风感。色彩从主题自身的材质、季节情绪和语义中提取，保留大面积鲜亮情绪色作为主场、少量深浅结构色塑造凹凸、清晰高光提供湿润透明层次、极少量主题派生强调色落在附着物和动作焦点上，饱和度清爽但不过脏，暗部干净不发灰。若需要文字，使用大号轻盈衬线字与一笔有速度感的手写书法字形成主视觉张力，文字以白色或主题高明度信息色悬浮在上方留白区，小字极细、间距舒展，底部信息低调收束。整体像一场发生在主题材质内部的清甜微型运动，摄影级真实质感与广告级排版并存，画面记忆点必须是“巨大主题表面变成可滑行浪面”的瞬间。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%A4%8F%E8%87%B3/xxd-style_%E5%BE%AE%E8%A7%82%E6%B5%AA%E6%B6%8C%E6%B8%85%E7%94%9C_0614-2350/%E5%8F%98%E7%A7%8D-01-%E7%AB%8B%E6%98%A5%E9%9D%92%E8%8A%BD%E9%9C%B2%E6%B5%AA.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%A4%8F%E8%87%B3/xxd-style_%E5%BE%AE%E8%A7%82%E6%B5%AA%E6%B6%8C%E6%B8%85%E7%94%9C_0614-2350/%E5%8F%98%E7%A7%8D-01-%E7%AB%8B%E6%98%A5%E9%9D%92%E8%8A%BD%E9%9C%B2%E6%B5%AA.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%A4%8F%E8%87%B3/xxd-style_%E5%BE%AE%E8%A7%82%E6%B5%AA%E6%B6%8C%E6%B8%85%E7%94%9C_0614-2350/%E5%8F%98%E7%A7%8D-02-%E9%9B%A8%E6%B0%B4%E6%A2%A8%E8%8A%B1%E6%B0%B4%E5%B9%95.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%A4%8F%E8%87%B3/xxd-style_%E5%BE%AE%E8%A7%82%E6%B5%AA%E6%B6%8C%E6%B8%85%E7%94%9C_0614-2350/%E5%8F%98%E7%A7%8D-02-%E9%9B%A8%E6%B0%B4%E6%A2%A8%E8%8A%B1%E6%B0%B4%E5%B9%95.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%A4%8F%E8%87%B3/xxd-style_%E5%BE%AE%E8%A7%82%E6%B5%AA%E6%B6%8C%E6%B8%85%E7%94%9C_0614-2350/%E5%8F%98%E7%A7%8D-03-%E6%83%8A%E8%9B%B0%E6%9F%A0%E6%AA%AC%E7%94%B5%E6%B0%94.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%A4%8F%E8%87%B3/xxd-style_%E5%BE%AE%E8%A7%82%E6%B5%AA%E6%B6%8C%E6%B8%85%E7%94%9C_0614-2350/%E5%8F%98%E7%A7%8D-03-%E6%83%8A%E8%9B%B0%E6%9F%A0%E6%AA%AC%E7%94%B5%E6%B0%94.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%A4%8F%E8%87%B3/xxd-style_%E5%BE%AE%E8%A7%82%E6%B5%AA%E6%B6%8C%E6%B8%85%E7%94%9C_0614-2350/%E5%8F%98%E7%A7%8D-04-%E6%98%A5%E5%88%86%E8%96%84%E8%8D%B7%E8%8C%B6%E6%B6%8C.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%A4%8F%E8%87%B3/xxd-style_%E5%BE%AE%E8%A7%82%E6%B5%AA%E6%B6%8C%E6%B8%85%E7%94%9C_0614-2350/%E5%8F%98%E7%A7%8D-04-%E6%98%A5%E5%88%86%E8%96%84%E8%8D%B7%E8%8C%B6%E6%B6%8C.webp"
+        }
+      ]
+    },
+    {
+      "id": "nl-30-暖晕线描-素净庄重-节庆海报",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/%E4%B8%AD%E5%9B%BD%E7%BA%A2__%E6%9A%96%E6%99%95%E7%BA%BF%E6%8F%8F%C2%B7%E7%B4%A0%E5%87%80%E5%BA%84%E9%87%8D%C2%B7%E8%8A%82%E5%BA%86%E6%B5%B7%E6%8A%A5",
+      "created_at": "2026-08-12T15:05:35Z",
+      "text": "第30期 · 暖晕线描·素净庄重·节庆海报",
+      "prompt": "围绕任意主题内容建立高留白的纪念性图形设计，以明亮近白的纸面作为绝对主场，约三分之二空间保持安静空旷，所有信息沿一条稳定中轴由上向下形成细长、疏朗、带停顿的阅读路径；上部让主题短句逐字纵向排列，字距明显拉开，中段留出长呼吸区，下部先出现一枚主题派生的圆形光晕，再让主题最具识别度的象征物以正面、近乎对称的精细线描承接光晕，末端以较大的中文标题和极小的外文副标收束，形成文字、光、图形、标题依次递进的庄重仪式序列。圆形光晕不是孤立装饰，它从象征物顶部或核心位置升起并与轮廓轻微相接，中心明亮饱和，向外柔软羽化渐隐，在大片冷静留白中成为唯一强色焦点；未来主题决定具体色相与合理材质响应，始终由近白低彩背景占最大面积，以主题中最能表达凝聚与庆典感的高纯度色聚焦于小面积光晕，其深暗同系色承担线描与主要文字，再从主题色推导低饱和、偏冷或偏中性的辅助色潜入背景和套色边缘，保持悬殊的面积、明度与饱和度关系，使情绪克制而温暖。象征物从主题语义中提炼为一眼可辨的正面符号，保留清晰外轮廓和层层递进的内部结构，用均匀偏细的单色线条描绘，局部线网密集，内部不作大面积填色，让纸面透过图形；轮廓的横向展开承担稳定重量，细节向中轴汇聚，把柔软光团与下方精确线网连成整体。中文采用端正、略具宋体骨架的细笔画字形，主标题略放大并拉开字距，纵排短句更轻更窄；外文副标显著缩小并加宽字距，可用一条极细穿越线或轻微错位形成含蓄印刷痕迹，但不抢夺中文层级。纸面保持高调、轻薄、非光泽质感，铺满极细且均匀的彩色印刷颗粒，使近白区域仍可见微观噪点；主线与文字边缘允许极轻的冷暖套色偏移，形成细窄双色边影般的复印错版感。背景只在外围安排由主题色推导的低透明度浅色矩形与少量柔糊云团，边界半消散并被留白吞没，不建立真实场景，以远距离的淡薄色块对中轴结构作非对称平衡；颗粒同时作用于纸层与印刷层，光晕内可见更浓的颜料堆积和柔性渗开，线描核心仍须锐利可读。整体保留明亮、稀薄、克制的现代纸上印刷气质，以及柔光色块、细线符号、疏朗文字和巨大空白之间的张力，避免变成光滑洁净的数字矢量或均匀发黄的脏旧纸。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E4%B8%AD%E5%9B%BD%E7%BA%A2/xxd-style-%E6%9A%96%E6%99%95%E7%BA%BF%E6%8F%8F%C2%B7%E7%B4%A0%E5%87%80%E5%BA%84%E9%87%8D%C2%B7%E8%8A%82%E5%BA%86%E6%B5%B7%E6%8A%A5-c31d383f07c4/%E5%8F%98%E7%A7%8D-01-%E6%96%B0%E6%98%A5%E5%90%AF%E5%B2%81%E7%A5%9D%E7%A6%8F.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E4%B8%AD%E5%9B%BD%E7%BA%A2/xxd-style-%E6%9A%96%E6%99%95%E7%BA%BF%E6%8F%8F%C2%B7%E7%B4%A0%E5%87%80%E5%BA%84%E9%87%8D%C2%B7%E8%8A%82%E5%BA%86%E6%B5%B7%E6%8A%A5-c31d383f07c4/%E5%8F%98%E7%A7%8D-01-%E6%96%B0%E6%98%A5%E5%90%AF%E5%B2%81%E7%A5%9D%E7%A6%8F.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E4%B8%AD%E5%9B%BD%E7%BA%A2/xxd-style-%E6%9A%96%E6%99%95%E7%BA%BF%E6%8F%8F%C2%B7%E7%B4%A0%E5%87%80%E5%BA%84%E9%87%8D%C2%B7%E8%8A%82%E5%BA%86%E6%B5%B7%E6%8A%A5-c31d383f07c4/%E5%8F%98%E7%A7%8D-02-%E5%93%81%E7%89%8C%E5%91%A8%E5%B9%B4%E7%BA%AA%E5%BF%B5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E4%B8%AD%E5%9B%BD%E7%BA%A2/xxd-style-%E6%9A%96%E6%99%95%E7%BA%BF%E6%8F%8F%C2%B7%E7%B4%A0%E5%87%80%E5%BA%84%E9%87%8D%C2%B7%E8%8A%82%E5%BA%86%E6%B5%B7%E6%8A%A5-c31d383f07c4/%E5%8F%98%E7%A7%8D-02-%E5%93%81%E7%89%8C%E5%91%A8%E5%B9%B4%E7%BA%AA%E5%BF%B5.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E4%B8%AD%E5%9B%BD%E7%BA%A2/xxd-style-%E6%9A%96%E6%99%95%E7%BA%BF%E6%8F%8F%C2%B7%E7%B4%A0%E5%87%80%E5%BA%84%E9%87%8D%C2%B7%E8%8A%82%E5%BA%86%E6%B5%B7%E6%8A%A5-c31d383f07c4/%E5%8F%98%E7%A7%8D-03-%E9%9D%9E%E9%81%97%E7%81%AF%E4%BC%9A%E5%AF%BC%E8%A7%88.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E4%B8%AD%E5%9B%BD%E7%BA%A2/xxd-style-%E6%9A%96%E6%99%95%E7%BA%BF%E6%8F%8F%C2%B7%E7%B4%A0%E5%87%80%E5%BA%84%E9%87%8D%C2%B7%E8%8A%82%E5%BA%86%E6%B5%B7%E6%8A%A5-c31d383f07c4/%E5%8F%98%E7%A7%8D-03-%E9%9D%9E%E9%81%97%E7%81%AF%E4%BC%9A%E5%AF%BC%E8%A7%88.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E4%B8%AD%E5%9B%BD%E7%BA%A2/xxd-style-%E6%9A%96%E6%99%95%E7%BA%BF%E6%8F%8F%C2%B7%E7%B4%A0%E5%87%80%E5%BA%84%E9%87%8D%C2%B7%E8%8A%82%E5%BA%86%E6%B5%B7%E6%8A%A5-c31d383f07c4/%E5%8F%98%E7%A7%8D-04-%E6%AF%95%E4%B8%9A%E7%BA%AA%E5%BF%B5%E5%B1%95%E9%82%80%E8%AF%B7.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E4%B8%AD%E5%9B%BD%E7%BA%A2/xxd-style-%E6%9A%96%E6%99%95%E7%BA%BF%E6%8F%8F%C2%B7%E7%B4%A0%E5%87%80%E5%BA%84%E9%87%8D%C2%B7%E8%8A%82%E5%BA%86%E6%B5%B7%E6%8A%A5-c31d383f07c4/%E5%8F%98%E7%A7%8D-04-%E6%AF%95%E4%B8%9A%E7%BA%AA%E5%BF%B5%E5%B1%95%E9%82%80%E8%AF%B7.webp"
+        }
+      ]
+    },
+    {
+      "id": "nl-30-舷窗框景-温润航旅-目的地海报",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/%E8%88%AA%E7%A9%BA__%E8%88%B7%E7%AA%97%E6%A1%86%E6%99%AF%C2%B7%E6%B8%A9%E6%B6%A6%E8%88%AA%E6%97%85%C2%B7%E7%9B%AE%E7%9A%84%E5%9C%B0%E6%B5%B7%E6%8A%A5",
+      "created_at": "2026-08-12T15:05:35Z",
+      "text": "第30期 · 舷窗框景·温润航旅·目的地海报",
+      "prompt": "围绕任意具体主题内容展开，把最能代表主题的环境、对象与识别符号收纳进一个厚实圆角舷窗式中央视口，使框体既像真实交通工具内饰，又像一块克制的天气与目的地显示屏；中央框景承担绝大部分视觉重量，严格沿中轴稳定落位，外侧保留宽裕而安静的留白，上缘只放两组彼此拉开的短标签，框景下方以居中的两行行动文案收尾，末行加细直下划线，阅读顺序从顶部微型标签进入舷窗，再依次经过图标、巨大读数、主题名称、场景和底部文案。舷窗由多层连续圆角构成，外框宽厚饱满，内圈逐层收窄，顶部嵌一段短小圆角把手；边缘使用柔和倒角、细窄高光、接触暗部与向下散开的浅软投影，呈现细腻磨砂树脂或软触塑料的三维触感，不能退化成扁平描边卡片。视口内部上部留出大片清淡空气，下部集中主题场景：前景保留最具识别力的轮廓与细节，中景建立层次，远景在轻雾中压低反差并趋向同一浅色，让实体景象与界面读数自然共处；场景下沿贴近圆角边界形成稳重承托，不让复杂物件侵入上部读数的洁净区域。界面中心先放一个由主题语义派生的单线符号，再以极大、纤细、几何无衬线数字或核心指标建立第一焦点，紧接一行较小主题名称；视口底部放一行全大写或宽字距短词，与场景发生轻微压叠但保持清晰。外部说明文字采用朴素等宽或窄体无衬线，笔画均匀、黑色偏柔、字距舒展；内部文字则用浅色细字配极轻暗边或浮雕阴影，形成低调悬浮感，所有文字层级依靠尺度跳跃与间距建立，不复制现成品牌、账号或句子。色彩从未来主题提炼角色而非固定色值：背景使用主题中最安静的低饱和浅中性色并占最大面积，舷窗框取同色系更亮、更暖的近邻色，视口天空或空白区使用更清冷、更低对比的浅色，场景把主题固有色压到中低饱和与中暗明度，仅在少量识别细节保留较深暖色或自然强调色；整体保持明亮、洁净、温和、略带雾感，大片浅色包围小面积深色信息，色温差只用于分隔框体与窗内空间。表面覆盖极细、均匀、近乎触不到的砂纸或喷涂颗粒，颗粒只参与材质响应，不形成污点、划痕或陈旧纸张；采用宽大柔光从上方侧向掠过，框缘受光、凹槽压暗、场景雾化，控制高光不过曝、暗部不发黑。最终必须保住“立体舷窗框景、窗内景象与极简读数融合、窗外留白承托行动文案”这组三重关系，避免变成普通旅行照片、独立手机界面或装饰性圆角边框。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E8%88%AA%E7%A9%BA/xxd-style-%E8%88%B7%E7%AA%97%E6%A1%86%E6%99%AF%C2%B7%E6%B8%A9%E6%B6%A6%E8%88%AA%E6%97%85%C2%B7%E7%9B%AE%E7%9A%84%E5%9C%B0%E6%B5%B7%E6%8A%A5-1485b3faa15c/%E5%8F%98%E7%A7%8D-02-%E7%A7%8B%E6%97%A5%E5%B1%B1%E5%9F%8E%E5%91%A8%E6%9C%AB%E6%8C%87%E5%8D%97.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E8%88%AA%E7%A9%BA/xxd-style-%E8%88%B7%E7%AA%97%E6%A1%86%E6%99%AF%C2%B7%E6%B8%A9%E6%B6%A6%E8%88%AA%E6%97%85%C2%B7%E7%9B%AE%E7%9A%84%E5%9C%B0%E6%B5%B7%E6%8A%A5-1485b3faa15c/%E5%8F%98%E7%A7%8D-02-%E7%A7%8B%E6%97%A5%E5%B1%B1%E5%9F%8E%E5%91%A8%E6%9C%AB%E6%8C%87%E5%8D%97.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E8%88%AA%E7%A9%BA/xxd-style-%E8%88%B7%E7%AA%97%E6%A1%86%E6%99%AF%C2%B7%E6%B8%A9%E6%B6%A6%E8%88%AA%E6%97%85%C2%B7%E7%9B%AE%E7%9A%84%E5%9C%B0%E6%B5%B7%E6%8A%A5-1485b3faa15c/%E5%8F%98%E7%A7%8D-03-%E6%9E%81%E5%85%89%E5%A4%9C%E8%88%AA%E9%87%8C%E7%A8%8B%E6%B4%BB%E5%8A%A8.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E8%88%AA%E7%A9%BA/xxd-style-%E8%88%B7%E7%AA%97%E6%A1%86%E6%99%AF%C2%B7%E6%B8%A9%E6%B6%A6%E8%88%AA%E6%97%85%C2%B7%E7%9B%AE%E7%9A%84%E5%9C%B0%E6%B5%B7%E6%8A%A5-1485b3faa15c/%E5%8F%98%E7%A7%8D-03-%E6%9E%81%E5%85%89%E5%A4%9C%E8%88%AA%E9%87%8C%E7%A8%8B%E6%B4%BB%E5%8A%A8.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E8%88%AA%E7%A9%BA/xxd-style-%E8%88%B7%E7%AA%97%E6%A1%86%E6%99%AF%C2%B7%E6%B8%A9%E6%B6%A6%E8%88%AA%E6%97%85%C2%B7%E7%9B%AE%E7%9A%84%E5%9C%B0%E6%B5%B7%E6%8A%A5-1485b3faa15c/%E5%8F%98%E7%A7%8D-04-%E6%98%A5%E6%97%A5%E5%88%97%E8%BD%A6%E6%85%A2%E6%B8%B8%E6%97%A5%E5%8E%86.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E8%88%AA%E7%A9%BA/xxd-style-%E8%88%B7%E7%AA%97%E6%A1%86%E6%99%AF%C2%B7%E6%B8%A9%E6%B6%A6%E8%88%AA%E6%97%85%C2%B7%E7%9B%AE%E7%9A%84%E5%9C%B0%E6%B5%B7%E6%8A%A5-1485b3faa15c/%E5%8F%98%E7%A7%8D-04-%E6%98%A5%E6%97%A5%E5%88%97%E8%BD%A6%E6%85%A2%E6%B8%B8%E6%97%A5%E5%8E%86.webp"
+        }
+      ]
+    },
+    {
+      "id": "nl-30-白场花园-清透诗意-展览海报",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/%E6%B8%85%E6%98%8E__%E7%99%BD%E5%9C%BA%E8%8A%B1%E5%9B%AD%C2%B7%E6%B8%85%E9%80%8F%E8%AF%97%E6%84%8F%C2%B7%E5%B1%95%E8%A7%88%E6%B5%B7%E6%8A%A5",
+      "created_at": "2026-08-12T15:05:35Z",
+      "text": "第30期 · 白场花园·清透诗意·展览海报",
+      "prompt": "围绕任意主题对象组织成一套明亮展览海报视觉：画面先以大面积高明度白场建立空气感，让主题内容在上半部偏右生长为半透明框架式空间，像被剖开的轻建筑、展柜或信息容器，内部用细浅线分成多层小格、平台、通道与开口；主题派生的微小人物、器物、符号或活动痕迹散落在格子与地面上，用缩小尺度制造可观看的世界感。主要视觉从右上向中部下坠，再以柔软的斜向绿带或同等语义的生长色块向左下延伸，边缘用水彩、铅笔和淡墨混合的透明晕染处理，色块不可厚重，必须像植物、雾气或光在纸面上慢慢扩散。下半部保留安静开阔的留白，主题标题以超大、细线、低对比的中文显示字横向展开，字距宽，笔画修长，局部可带建筑般的开口与垂直秩序；其下方放置克制的英文或副标题，使用窄字距无衬线，黑色信息与绿色标题形成轻重对照。侧边可设置细长日期、编号或展期轴，方向垂直，作为安静的边界而非主角。颜色由主题派生，但角色固定：白场占据最多视觉呼吸，主体框架保持近白、浅灰、淡彩的透明层次，生长色承担最鲜活的中高饱和点，正文用少量深黑稳定阅读，局部暖淡色只作为小面积人群与室内光。整体质感应像洁净纸面上的建筑水彩与精密海报排版结合，边线轻、阴影少、对比柔和、空间明亮，不要做成厚重插画、写实摄影或拥挤商业版式。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E6%B8%85%E6%98%8E/xxd-style-%E7%99%BD%E5%9C%BA%E8%8A%B1%E5%9B%AD%C2%B7%E6%B8%85%E9%80%8F%E8%AF%97%E6%84%8F%C2%B7%E5%B1%95%E8%A7%88%E6%B5%B7%E6%8A%A5-5dbfec4d988f/%E5%8F%98%E7%A7%8D-01-%E7%AB%8B%E6%98%A5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E6%B8%85%E6%98%8E/xxd-style-%E7%99%BD%E5%9C%BA%E8%8A%B1%E5%9B%AD%C2%B7%E6%B8%85%E9%80%8F%E8%AF%97%E6%84%8F%C2%B7%E5%B1%95%E8%A7%88%E6%B5%B7%E6%8A%A5-5dbfec4d988f/%E5%8F%98%E7%A7%8D-01-%E7%AB%8B%E6%98%A5.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E6%B8%85%E6%98%8E/xxd-style-%E7%99%BD%E5%9C%BA%E8%8A%B1%E5%9B%AD%C2%B7%E6%B8%85%E9%80%8F%E8%AF%97%E6%84%8F%C2%B7%E5%B1%95%E8%A7%88%E6%B5%B7%E6%8A%A5-5dbfec4d988f/%E5%8F%98%E7%A7%8D-02-%E9%9B%A8%E6%B0%B4.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E6%B8%85%E6%98%8E/xxd-style-%E7%99%BD%E5%9C%BA%E8%8A%B1%E5%9B%AD%C2%B7%E6%B8%85%E9%80%8F%E8%AF%97%E6%84%8F%C2%B7%E5%B1%95%E8%A7%88%E6%B5%B7%E6%8A%A5-5dbfec4d988f/%E5%8F%98%E7%A7%8D-02-%E9%9B%A8%E6%B0%B4.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E6%B8%85%E6%98%8E/xxd-style-%E7%99%BD%E5%9C%BA%E8%8A%B1%E5%9B%AD%C2%B7%E6%B8%85%E9%80%8F%E8%AF%97%E6%84%8F%C2%B7%E5%B1%95%E8%A7%88%E6%B5%B7%E6%8A%A5-5dbfec4d988f/%E5%8F%98%E7%A7%8D-03-%E6%83%8A%E8%9B%B0.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E6%B8%85%E6%98%8E/xxd-style-%E7%99%BD%E5%9C%BA%E8%8A%B1%E5%9B%AD%C2%B7%E6%B8%85%E9%80%8F%E8%AF%97%E6%84%8F%C2%B7%E5%B1%95%E8%A7%88%E6%B5%B7%E6%8A%A5-5dbfec4d988f/%E5%8F%98%E7%A7%8D-03-%E6%83%8A%E8%9B%B0.webp"
+        },
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E6%B8%85%E6%98%8E/xxd-style-%E7%99%BD%E5%9C%BA%E8%8A%B1%E5%9B%AD%C2%B7%E6%B8%85%E9%80%8F%E8%AF%97%E6%84%8F%C2%B7%E5%B1%95%E8%A7%88%E6%B5%B7%E6%8A%A5-5dbfec4d988f/%E5%8F%98%E7%A7%8D-04-%E6%98%A5%E5%88%86.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E6%B8%85%E6%98%8E/xxd-style-%E7%99%BD%E5%9C%BA%E8%8A%B1%E5%9B%AD%C2%B7%E6%B8%85%E9%80%8F%E8%AF%97%E6%84%8F%C2%B7%E5%B1%95%E8%A7%88%E6%B5%B7%E6%8A%A5-5dbfec4d988f/%E5%8F%98%E7%A7%8D-04-%E6%98%A5%E5%88%86.webp"
+        }
+      ]
+    },
+    {
+      "id": "nl-29-圆窗远景-清新浪漫-旅行海报",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/poster__%E5%9C%86%E7%AA%97%E8%BF%9C%E6%99%AF%C2%B7%E6%B8%85%E6%96%B0%E6%B5%AA%E6%BC%AB%C2%B7%E6%97%85%E8%A1%8C%E6%B5%B7%E6%8A%A5",
+      "created_at": "2026-08-11T15:05:42Z",
+      "text": "第29期 · 圆窗远景·清新浪漫·旅行海报",
+      "prompt": "围绕任意主题对象生成明亮洁净的旅行纪念式图像，先建立浅灰白纸面底，保留细密纸纤维、轻微扫描噪声和局部淡墨磨损，整体高明度、低压迫，空白区域承担呼吸感。主体内容不要铺满全场，而是被放入一个偏右偏大的厚圆形窗口内，窗口外圈为低饱和浅灰半透明宽环，像印在纸上的观景孔，左侧部分被标题文字轻微压住，右下被圆形章线越界覆盖，形成画中景与版面文字互相穿插的视觉记忆。窗口内部用主题派生的远中近层组织空间：远处用冷色、低对比、柔边的连绵剪影或背景带制造空气距离，中层用更浅的主题色块和缓坡状轮廓推进，前景用高密度小点、小花、小纹样或细碎材质铺成连续地面，细节越靠前越密，边缘带有数字绘画与印刷颗粒混合的粗糙感。主题色按角色派生而非固定取色：大面积背景保持浅亮洁净，远景偏冷且雾化，中景为低饱和柔和色，前景允许一个明快暖色或甜色成为情绪主色，少量高饱和亮色只作为边线、路径或小结构强调，黑褐色只用于文字和细线。左上设置极大、细窄、宽字距的拉丁标题，分行断开并让少量字母越过圆窗边界；左侧设置细竖线与上下年份式数字形成时间轴，左下放小号粗黑中文短题和更小英文说明，右下用细线圆章承载沿圆弧排布的短字，章线和文字保持轻量、不抢走窗口景观。插画语言混合平面色块、柔焦远景、少量手绘纹理和轻度褪色印刷质感，保持宁静、清新、带游记册页气息；若缺少厚圆窗、左侧大字时间轴、右下圆章与前景密集纹理的互相制衡，画面会变成普通风景插画或普通版式。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/poster/xxd-style-%E5%9C%86%E7%AA%97%E8%BF%9C%E6%99%AF%C2%B7%E6%B8%85%E6%96%B0%E6%B5%AA%E6%BC%AB%C2%B7%E6%97%85%E8%A1%8C%E6%B5%B7%E6%8A%A5-a5c2c2c1dfda/%E5%8F%98%E7%A7%8D-03-%E8%8A%B1%E5%9B%AD%E6%B0%91%E5%AE%BF%E5%AE%A3%E4%BC%A0%E6%B5%B7%E6%8A%A5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/poster/xxd-style-%E5%9C%86%E7%AA%97%E8%BF%9C%E6%99%AF%C2%B7%E6%B8%85%E6%96%B0%E6%B5%AA%E6%BC%AB%C2%B7%E6%97%85%E8%A1%8C%E6%B5%B7%E6%8A%A5-a5c2c2c1dfda/%E5%8F%98%E7%A7%8D-03-%E8%8A%B1%E5%9B%AD%E6%B0%91%E5%AE%BF%E5%AE%A3%E4%BC%A0%E6%B5%B7%E6%8A%A5.webp"
+        }
+      ]
+    },
+    {
+      "id": "nl-29-雾化留白信息",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/%E6%B4%BB%E5%8A%A8%E6%B5%B7%E6%8A%A5__%E9%9B%BE%E5%8C%96%E7%95%99%E7%99%BD%E4%BF%A1%E6%81%AF",
+      "created_at": "2026-08-11T15:05:42Z",
+      "text": "第29期 · 雾化留白信息",
+      "prompt": "围绕任意主题对象生成一张以“清透留白中的巨大雾化主形体”为核心的图像：画面先让人读到大号、极细节制的无衬线标题字，再读到由主题转译出的近距离主形体，它像被柔光和细密颗粒喷染出来的半透明体块，边缘不靠硬轮廓成立，而靠密度渐变、雾化扩散、局部高饱和沉积和空白之间的张力成形。主形体占据主要视觉重量，可被画面裁切，只保留最有识别度的轮廓、轴线或象征结构；上方和周围保留大面积通风感空白，让信息层有冷静、精准的落点。文字系统使用强对比黑色或主题派生的深色信息色，标题极大、字距克制、横向拉开，次级文字以小字号分组散落在边缘和主形体附近，形成仪式感的阅读节奏；可加入日期、短句或主题信息，但不复制既有语义。色彩从主题自身的材质、情绪和文化信号中提取，保留大面积高明度干净底色、一个明亮轻快的情绪主色、少量更浓的颗粒强调色、清晰深色文字的角色关系；整体保持清透、明亮、洁净，饱和色主要用于雾化体块和局部重心，背景负责发光与留白，避免浑浊复古或灰脏纸感。质感呈细密喷枪颗粒、轻微印刷噪点和柔焦扩散，边界有空气感，中心结构清晰但不过度写实，使主题像被光和颜色暂时凝结成一个可阅读的符号。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E6%B4%BB%E5%8A%A8%E6%B5%B7%E6%8A%A5/xxd-style_%E9%9B%BE%E5%8C%96%E7%95%99%E7%99%BD%E4%BF%A1%E6%81%AF_2d9031b112c1/%E5%8F%98%E7%A7%8D-03-%E6%98%A5%E8%8A%82%E4%BF%83%E9%94%80.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E6%B4%BB%E5%8A%A8%E6%B5%B7%E6%8A%A5/xxd-style_%E9%9B%BE%E5%8C%96%E7%95%99%E7%99%BD%E4%BF%A1%E6%81%AF_2d9031b112c1/%E5%8F%98%E7%A7%8D-03-%E6%98%A5%E8%8A%82%E4%BF%83%E9%94%80.webp"
+        }
+      ]
+    },
+    {
+      "id": "nl-29-对向浪线-清澈开阔-发布会海报",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/%E8%88%AA%E7%A9%BA__%E5%AF%B9%E5%90%91%E6%B5%AA%E7%BA%BF%C2%B7%E6%B8%85%E6%BE%88%E5%BC%80%E9%98%94%C2%B7%E5%8F%91%E5%B8%83%E4%BC%9A%E6%B5%B7%E6%8A%A5",
+      "created_at": "2026-08-11T15:05:42Z",
+      "text": "第29期 · 对向浪线·清澈开阔·发布会海报",
+      "prompt": "围绕任意主题对象，以辽阔环境场、对向运动痕迹与中央留白共同承载信息。将主题转译为近乎满幅的连续材质表面，以高位俯视般的平面化空间弱化地平线和具体场景，让细密、方向一致的微纹理贯穿背景；上方设置一条尺度巨大、横跨全宽并从两侧被截断的弧形推进边缘，弧心向中部下压，白亮而蓬松的破碎边缘形成第一视觉冲击，其后保留一层更深的窄阴影带以增强厚度；下方以两束由边缘外进入、向内收拢并在中下部相遇的尖顶轨迹作较轻的反向回应，轨迹边缘同样呈不均匀的翻卷颗粒和半透明飞沫，二者方向相反、尺度一宽一窄，夹出安静而充足的中央区域。主题内容负责决定连续表面的真实材质、运动痕迹的物理来源及其细节，但必须保留上弧压境、下方收尖、两端裁切、中央开阔的力量关系，使第一眼先读到被两股动势围合的空间，再读到文字。文字直接落在中央较平静且局部明亮的纹理上，不加色块或边框；使用简洁低对比无衬线字形，主标题单行居中，字重中等偏细、字距明显放松，辅助信息置于其下，字号约为主标题一半、字重更轻、字距更疏，两行保持宽松间隔和同一中轴，以柔和近白色融入高光而仍清晰可读。色彩由主题语义选择一个主导色相，再在相邻色域内派生深、中、亮三级：中高明度、较高饱和且通透的主色覆盖绝大部分表面，较深同色集中在远端、裁切边缘与运动痕迹后方稳定空间，少量近白高光只用于翻卷边缘、反光和文字；局部自然光把一侧推向更亮、更洁净的派生色，另一侧保持饱满深度，不采用与主题无关的固定色值。无论主色冷暖，都维持清亮、洁净、开阔、克制的情绪与高光不过曝的层次。整体保持真实摄影般的连续光照和细腻表面响应，微纹理清楚但不锐化成噪点，白亮痕迹蓬松、湿润、边缘有自然随机性，画面不叠加无关装饰、污迹、复古颗粒或额外物件，确保宏观动势、中央留白、文字节奏与主题材质属于同一空间。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E8%88%AA%E7%A9%BA/xxd-style-%E5%AF%B9%E5%90%91%E6%B5%AA%E7%BA%BF%C2%B7%E6%B8%85%E6%BE%88%E5%BC%80%E9%98%94%C2%B7%E5%8F%91%E5%B8%83%E4%BC%9A%E6%B5%B7%E6%8A%A5-69edc12a8f52/%E5%8F%98%E7%A7%8D-04-%E6%B2%89%E6%B5%B8%E5%BC%8F%E5%8F%91%E5%B8%83%E6%B4%BB%E5%8A%A8%E9%82%80%E8%AF%B7%E6%B5%B7%E6%8A%A5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E8%88%AA%E7%A9%BA/xxd-style-%E5%AF%B9%E5%90%91%E6%B5%AA%E7%BA%BF%C2%B7%E6%B8%85%E6%BE%88%E5%BC%80%E9%98%94%C2%B7%E5%8F%91%E5%B8%83%E4%BC%9A%E6%B5%B7%E6%8A%A5-69edc12a8f52/%E5%8F%98%E7%A7%8D-04-%E6%B2%89%E6%B5%B8%E5%BC%8F%E5%8F%91%E5%B8%83%E6%B4%BB%E5%8A%A8%E9%82%80%E8%AF%B7%E6%B5%B7%E6%8A%A5.webp"
+        }
+      ]
+    },
+    {
+      "id": "nl-28-雾面留白-清冷暖灯-酒店海报",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/%E9%85%92%E5%BA%97__%E9%9B%BE%E9%9D%A2%E7%95%99%E7%99%BD%C2%B7%E6%B8%85%E5%86%B7%E6%9A%96%E7%81%AF%C2%B7%E9%85%92%E5%BA%97%E6%B5%B7%E6%8A%A5",
+      "created_at": "2026-08-10T15:04:45Z",
+      "text": "第28期 · 雾面留白·清冷暖灯·酒店海报",
+      "prompt": "围绕任意主题对象组织成克制的酒店与服务类视觉海报：画面先以大块浅冷、干净、微透明的雾面留白建立安静空间，真实场景或主题环境只在中下部与右侧逐渐显露，背景保持浅灰蓝到柔白的高明度过渡，像隔着磨砂玻璃或轻薄窗纱观看室内，边缘柔化、低反差、无粗颗粒，左侧留出大片可读区域。主题对象不必复用客房物件，而要承担“舒适场景中的小型情绪锚点”角色，放在画面右下或下侧偏边位置，体量小于环境主面，带一点主题派生的暖色或饱和点，与大面积冷静背景形成远近和冷暖对照。中部主视觉以床面、墙面、台面或主题场景的宽阔浅色平面承托文字，摄影质感柔和真实，浅景深压低细节，只保留灯光、软包、织物、金属或主题材料的关键轮廓；暖光集中在一处局部照明上，形成亲近感，但整体仍保持明亮、洁净、低饱和。文字系统采用极细、拉开字距的白色高反差衬线大字作为左侧主标题，数字或关键词明显放大，下面接一到两行较小英文或中文说明，并用一条细白横线制造停顿；顶部放两个小而清晰的品牌或合作标识，保持上方宽松留白；底部以小二维码、地址式细字或辅助说明压在边缘，信息像酒店告示一样轻声存在。颜色由未来主题派生：主底色保持高明度冷淡、低饱和、洁净透明，环境支撑色接近柔白与浅灰，局部光源给暖色，主题锚点只用少量更鲜明的主题色作为视觉落点；避免重色铺满、硬锐商业促销感和复杂装饰，让“安静留白包住真实空间，细白文字悬浮其上，右下小色点回应暖灯”的关系始终成立。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E9%85%92%E5%BA%97/xxd-style-%E9%9B%BE%E9%9D%A2%E7%95%99%E7%99%BD%C2%B7%E6%B8%85%E5%86%B7%E6%9A%96%E7%81%AF%C2%B7%E9%85%92%E5%BA%97%E6%B5%B7%E6%8A%A5-4da654a8e6af/%E5%8F%98%E7%A7%8D-04-%E6%B5%B4%E5%AE%A4%E9%A6%99%E6%B0%9B%E6%8E%A8%E5%B9%BF.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E9%85%92%E5%BA%97/xxd-style-%E9%9B%BE%E9%9D%A2%E7%95%99%E7%99%BD%C2%B7%E6%B8%85%E5%86%B7%E6%9A%96%E7%81%AF%C2%B7%E9%85%92%E5%BA%97%E6%B5%B7%E6%8A%A5-4da654a8e6af/%E5%8F%98%E7%A7%8D-04-%E6%B5%B4%E5%AE%A4%E9%A6%99%E6%B0%9B%E6%8E%A8%E5%B9%BF.webp"
+        }
+      ]
+    },
+    {
+      "id": "nl-28-阶梯色块-热烈现代-节庆海报",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/%E4%B8%AD%E5%9B%BD%E7%BA%A2__%E9%98%B6%E6%A2%AF%E8%89%B2%E5%9D%97%C2%B7%E7%83%AD%E7%83%88%E7%8E%B0%E4%BB%A3%C2%B7%E8%8A%82%E5%BA%86%E6%B5%B7%E6%8A%A5",
+      "created_at": "2026-08-10T15:04:45Z",
+      "text": "第28期 · 阶梯色块·热烈现代·节庆海报",
+      "prompt": "围绕任意主题内容建立极简庆典视觉，以明确的中央轴和大面积呼吸留白形成庄重而轻快的第一印象。上部保留接近半幅的平静色场，最上缘设置疏朗的品牌标志、年份或系列名与一组极细小说明，彼此拉开距离并按光学重量对齐；其下让一句主题短语成为最大视觉事件，采用超细、低笔画反差的几何无衬线字，字面宽阔、字距略松，以断行和明显的右移错位制造节拍，在两段文字之间保留一个醒目的圆点作为停顿，周围只放少量尺寸悬殊的微型双语信息。画面中段将主题提炼为一个极简平面符号，安置在纤细深色竖杆顶端；竖杆下方由等高矩形模块逐级向两侧扩展，构成峰顶窄、底部宽的阶梯轮廓，模块沿水平基线咬合，左右总体平衡却保留局部错层，三至四档同源明度交替穿插，使硬边色块既像像素建筑又像向上汇聚的仪式台阶。让阶梯自然接入底部的大面积纯色实地，形成从轻盈留白到密实色块的重量转换；实地中央依次排列短中文主题、超大日期或核心数字、两行细小口号和一行略醒目的中文收束语，数字与拉丁字继续使用极细骨架，局部以小号上标增加精密感，中文保持简洁清晰，最底部两角放置紧凑联络信息与方形矩阵式功能标记，维持中心仪式感和角部实用信息的尺度反差。色彩从主题语义提取单一主色家族并做自适应映射：上部以较高明度、略降饱和的主色占据最大面积，中段在符号周围短距离过渡到近白的同色浅调，阶梯用同源色的明暗与饱和度差形成节奏，底部切换为面积第二大的高饱和实色；文字以近白承担主要信息，极少量深色只用于细杆和必要细节，始终保持强烈、明快、庆祝性的扩张情绪。整体呈哑光印刷纸面，覆盖细密均匀、近看可见的微颗粒与轻微油墨噪点，浅色场更易显出纤维感，深色实地保持密实平涂；渐变柔和无明显色带，几何边缘和字形轮廓仍然利落，不添加污渍、折痕、立体光泽或写实场景。必须守住超大细字与微型文字的尺度跳跃、阶梯模块连接上下色场的结构作用，以及有限主色在浅柔留白和高饱和底场之间的面积与明度关系，避免装饰堆积削弱清晰的轴线和阅读顺序。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E4%B8%AD%E5%9B%BD%E7%BA%A2/xxd-style-%E9%98%B6%E6%A2%AF%E8%89%B2%E5%9D%97%C2%B7%E7%83%AD%E7%83%88%E7%8E%B0%E4%BB%A3%C2%B7%E8%8A%82%E5%BA%86%E6%B5%B7%E6%8A%A5-baab054ef1e9/%E5%8F%98%E7%A7%8D-01-%E5%93%81%E7%89%8C%E5%8D%81%E5%91%A8%E5%B9%B4%E7%BA%AA%E5%BF%B5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E4%B8%AD%E5%9B%BD%E7%BA%A2/xxd-style-%E9%98%B6%E6%A2%AF%E8%89%B2%E5%9D%97%C2%B7%E7%83%AD%E7%83%88%E7%8E%B0%E4%BB%A3%C2%B7%E8%8A%82%E5%BA%86%E6%B5%B7%E6%8A%A5-baab054ef1e9/%E5%8F%98%E7%A7%8D-01-%E5%93%81%E7%89%8C%E5%8D%81%E5%91%A8%E5%B9%B4%E7%BA%AA%E5%BF%B5.webp"
+        }
+      ]
+    },
+    {
+      "id": "nl-28-叶海遮显清透",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/portrait__%E5%8F%B6%E6%B5%B7%E9%81%AE%E6%98%BE%E6%B8%85%E9%80%8F",
+      "created_at": "2026-08-10T15:04:45Z",
+      "text": "第28期 · 叶海遮显清透",
+      "prompt": "围绕任意主题对象生成一张具有强烈场域沉浸感的画面：让主题派生出的重复层状元素铺满视觉空间，前景元素被明显放大并柔化，形成可进入的遮挡层；中景只露出少量关键主体或表情、符号、物件，使它像从密集环境里突然冒出，第一眼先读到大面积流动场域，随后发现被包围的核心瞬间。空间要有浅景深和压缩感，近处虚、远处轻，局部清晰点控制视线，背景不做空白装饰，而是继续用同一主题元素延展成连续海面般的节奏。色彩从主题自身的材质、季节、情绪和叙事中提取，保留大面积高明度、清透、干净的主色场，辅以更深的结构色建立层次，少量明亮强调色只落在焦点和信息节点上；整体保持明亮轻快、通风感、清晰色阶和柔和自然光，不要变成灰脏、陈旧或沉闷。画面中可加入少量文字信息，文字必须像图形一样参与构图：底部或主要视觉重心处使用粗粝手写质感的大字，边缘带有刷痕和不规则颗粒，形成有重量的记忆点；辅助文字更小、更克制，与焦点保持呼应但不抢走场域的呼吸。整体质感应像真实摄影与海报设计融合，保留自然颗粒、轻微胶片感、湿润明亮的空气和亲近的生活情绪，避免把主体孤立成普通插画或把背景处理成平面纹样。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/portrait/xxd-style_%E5%8F%B6%E6%B5%B7%E9%81%AE%E6%98%BE%E6%B8%85%E9%80%8F_0624-0254/%E5%8F%98%E7%A7%8D-01-%E5%A4%8F%E6%97%A5%E8%8F%9C%E7%94%B0.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/portrait/xxd-style_%E5%8F%B6%E6%B5%B7%E9%81%AE%E6%98%BE%E6%B8%85%E9%80%8F_0624-0254/%E5%8F%98%E7%A7%8D-01-%E5%A4%8F%E6%97%A5%E8%8F%9C%E7%94%B0.webp"
+        }
+      ]
+    },
+    {
+      "id": "nl-27-清爽人物信息层",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/portrait__%E6%B8%85%E7%88%BD%E4%BA%BA%E7%89%A9%E4%BF%A1%E6%81%AF%E5%B1%82",
+      "created_at": "2026-08-09T15:05:31Z",
+      "text": "第27期 · 清爽人物信息层",
+      "prompt": "围绕任意主题对象生成一张清爽、明亮、信息层级明确的商业视觉：画面上部由主题对象形成近距离主形体，主体被放大到具有亲近感和可信度，边缘可被画面自然裁切，姿态或结构要带有轻微停顿感，让视线先落在主体表情、轮廓或关键材质上；主体背后设置一块大面积圆角几何色域，像柔和舞台一样承托主形体，色块边缘干净、体积厚实，与主体形成清晰的前后遮挡关系。下方留出宽松浅色信息区，用高对比大字号标题建立第二视觉重心，标题分成轻重不同的两到三段，关键词使用更粗、更深的字重形成节奏，辅助短句和小型胶囊标签压在标题下方，整体像移动端品牌活动页但不依赖具体界面。色彩从主题自身的材质、情绪和语义中提取：大面积背景保持高明度、清透、温暖洁净，主体色承担真实感和重量，圆角色域使用主题派生的稳定结构色，文字使用清晰深色建立阅读力度，少量强调色只出现在小标记、角落装饰或标签中，面积小但饱和度更鲜明，使画面保持明亮轻快、干净通风、有促销活动的鲜活感。顶部可有极简导航式信息带和小图标节奏，装饰元素克制分布在边角，所有线条、阴影和色阶都要清晰，不做脏旧、烟雾、灰黄或复古纸感处理。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/portrait/xxd-style_%E6%B8%85%E7%88%BD%E4%BA%BA%E7%89%A9%E4%BF%A1%E6%81%AF%E5%B1%82_0611-0850/%E5%8F%98%E7%A7%8D-02-%E6%8A%A4%E8%82%A4%E4%BA%A7%E5%93%81%E4%BF%A1%E6%81%AF%E9%A1%B5.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/portrait/xxd-style_%E6%B8%85%E7%88%BD%E4%BA%BA%E7%89%A9%E4%BF%A1%E6%81%AF%E5%B1%82_0611-0850/%E5%8F%98%E7%A7%8D-02-%E6%8A%A4%E8%82%A4%E4%BA%A7%E5%93%81%E4%BF%A1%E6%81%AF%E9%A1%B5.webp"
+        }
+      ]
+    },
+    {
+      "id": "nl-27-素色浮雕-温润怀旧-文化地产海报",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/poster__%E7%B4%A0%E8%89%B2%E6%B5%AE%E9%9B%95%C2%B7%E6%B8%A9%E6%B6%A6%E6%80%80%E6%97%A7%C2%B7%E6%96%87%E5%8C%96%E5%9C%B0%E4%BA%A7%E6%B5%B7%E6%8A%A5",
+      "created_at": "2026-08-09T15:05:31Z",
+      "text": "第27期 · 素色浮雕·温润怀旧·文化地产海报",
+      "prompt": "围绕任意具体主题内容建立克制、纪念碑式的品牌叙事：以宽阔洁净的纸面留白包围一个内嵌的浅色纹理面板，整体沿中央轴稳定展开，上部信息轻、下部实体重，阅读顺序由两角微型署名进入中央标题，再落向占据主要视觉重量的主题浮雕，最后由底部稀疏信息收束。把主题最具辨识度的对象提炼成正面、近乎对称的素色浅浮雕，保留清楚的整体轮廓、层层退进的结构、重复细部和少量微型叙事纹样；浮雕从面板下半部向上生长，局部接近边缘却不压迫外框，材质像细腻纸浆、石膏或陶土压印，低反光、漫反射，柔和侧上方光线只在凸起边缘留下极浅亮线，在凹槽与接触处形成细薄暖灰阴影，使复杂细节依靠真实高低差显现，而不是靠彩绘描边。中央标题位于大片安静留白中，采用具有传统骨架与现代克制感的高对比中文衬线字，首行中等尺度紧凑聚合，次行显著放大并拉开字距，形成庄重停顿；标题下方配置极小号、宽字距的英文副句，再以一行较细中文说明连接文字区与浮雕区。浮雕侧边允许一枚小圆点与纤细水平引线标注主题身份，中文在上、英文在下；浮雕基座内嵌一组较大的英文品牌行与中文价值语，文字保持平面印刷感，与立体表面形成轻微层次反差。外部纸面上方两角放置体量相近的微型标识，下方以细线括号框住一组短说明与纤细英文，最底部将短字符大幅拉开，形成平静而有仪式感的结束。色彩从主题语义中提取色相角色并做派生映射：绝大面积使用主题主色趋近高明度、低饱和的浅色材料层，支撑底色与其保持微弱冷暖差和极低对比，正文使用低饱和深色保证清晰度，关键标题与基座文案仅用少量更深、更凝练的主题强调色；始终保持高明度、低彩度、柔和温暖且光学洁净，强调色不扩散成大色块。纸面可见细密纵向纤维、轻微压纹与尺度很小的自然斑驳，纹理集中在内嵌面板并随光线隐约起伏，外圈留白更平整干净；不添加统一黄褐滤镜、重颗粒或污损。最终效果应让文字、留白、浮雕和纸材像同一件精心压印的收藏级传播物，若浮雕失去低反差体积、标题挤满空间、色彩变浓或装饰增多，就会破坏这种安静而庄重的历史回望感。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/poster/xxd-style-%E7%B4%A0%E8%89%B2%E6%B5%AE%E9%9B%95%C2%B7%E6%B8%A9%E6%B6%A6%E6%80%80%E6%97%A7%C2%B7%E6%96%87%E5%8C%96%E5%9C%B0%E4%BA%A7%E6%B5%B7%E6%8A%A5-f9fdc6a929fc/%E5%8F%98%E7%A7%8D-02-%E5%9F%8E%E5%B8%82%E6%9B%B4%E6%96%B0%E5%B1%95%E8%A7%88%E4%B8%BB%E8%A7%86%E8%A7%89.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/poster/xxd-style-%E7%B4%A0%E8%89%B2%E6%B5%AE%E9%9B%95%C2%B7%E6%B8%A9%E6%B6%A6%E6%80%80%E6%97%A7%C2%B7%E6%96%87%E5%8C%96%E5%9C%B0%E4%BA%A7%E6%B5%B7%E6%8A%A5-f9fdc6a929fc/%E5%8F%98%E7%A7%8D-02-%E5%9F%8E%E5%B8%82%E6%9B%B4%E6%96%B0%E5%B1%95%E8%A7%88%E4%B8%BB%E8%A7%86%E8%A7%89.webp"
+        }
+      ]
+    },
+    {
+      "id": "nl-27-巨字信息冷静",
+      "author": "xiaoxiaodong",
+      "url": "https://vip.xiaoxiaodong.ai/#style/%E5%8D%9A%E7%89%A9%E9%A6%86__%E5%B7%A8%E5%AD%97%E4%BF%A1%E6%81%AF%E5%86%B7%E9%9D%99",
+      "created_at": "2026-08-09T15:05:31Z",
+      "text": "第27期 · 巨字信息冷静",
+      "prompt": "围绕任意主题对象生成一张以排版本身作为主形体的图像：让主题最核心的几个字词被放大成厚重、硬边、极粗的几何字块，分别占据画面边缘与低位重心，局部被边界裁切，像建筑结构一样压住留白，第一眼先读到强烈的字面重量，第二眼再进入主题说明。中尺度标题、时间信息、短句、署名式信息和小字号段落以冷静网格组织，细水平线、箭头、分隔线和极薄圆弧穿过字块与空白，制造理性、精确、带档案编排感的阅读路径。背景保持大面积高明度、洁净、通风的结构底场，轻微纸面颗粒只提供触感，不让画面变旧、变脏或浑浊。色彩从主题自身的材质、情绪和语义中提取，映射为大面积明亮底色、少量清晰结构深色、克制的辅助信息色与极小面积强调色；保持高对比、低杂色、清晰色阶和冷静精确的情绪，明亮干净而不生硬。主体内容以信息层级出现，所有图形元素都服务于巨字压场、细密信息、宽松留白和线性轨迹之间的张力。",
+      "images": [
+        {
+          "url": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%8D%9A%E7%89%A9%E9%A6%86/xxd-style_%E5%B7%A8%E5%AD%97%E4%BF%A1%E6%81%AF%E5%86%B7%E9%9D%99_0624-2143/%E5%8F%98%E7%A7%8D-03-%E5%85%AC%E5%85%B1%E8%AE%B2%E5%BA%A7%E9%A2%84%E5%91%8A.webp",
+          "poster": "https://vip.xiaoxiaodong.ai/api/object/data/full/%E5%8D%9A%E7%89%A9%E9%A6%86/xxd-style_%E5%B7%A8%E5%AD%97%E4%BF%A1%E6%81%AF%E5%86%B7%E9%9D%99_0624-2143/%E5%8F%98%E7%A7%8D-03-%E5%85%AC%E5%85%B1%E8%AE%B2%E5%BA%A7%E9%A2%84%E5%91%8A.webp"
+        }
+      ]
+    }
+  ]
+}
