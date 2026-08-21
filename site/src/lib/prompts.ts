@@ -1,6 +1,10 @@
 import { readdir, readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
+import { inferPromptType } from "./prompt-type.mjs";
+
+export { inferPromptType, promptTypeFilters, sourceLinkLabel } from "./prompt-type.mjs";
+
 export type PromptImage = {
   url: string;
   poster?: string;
@@ -24,6 +28,8 @@ export type PromptSource = {
   items: PromptItem[];
 };
 
+export type PromptType = "海报" | "插画" | "人像" | "静物" | "风景" | "字体" | "品牌" | "其他";
+
 export type PromptSet = {
   id: string;
   author: string;
@@ -31,6 +37,7 @@ export type PromptSet = {
   prompt: string;
   createdAt: string;
   source: string;
+  type: PromptType;
   images: string[];
 };
 
@@ -64,6 +71,7 @@ export function groupPromptSets(sources: PromptSource[]): PromptSet[] {
         prompt: item.prompt,
         createdAt: item.created_at,
         source: file.source,
+        type: inferPromptType(item.text, item.prompt, item.url) as PromptType,
         images,
       });
     }
