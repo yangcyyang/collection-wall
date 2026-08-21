@@ -3,9 +3,17 @@ import "../styles/global.css";
 import { getTools } from "../lib/tools";
 import { selectFeaturedTools } from "../lib/tool-order.mjs";
 import { categoryCounts } from "../lib/tool-filter.mjs";
+import { countAddedOnShanghaiDate, toolSearchBlob } from "../lib/shanghai-date.mjs";
 
 const tools = await getTools();
 const categories = categoryCounts(tools);
+const todayAddedCount = countAddedOnShanghaiDate(tools);
+const intentChips = [
+  { label: "PPT", keywords: "ppt 演示" },
+  { label: "提示词", keywords: "提示词 prompt" },
+  { label: "API", keywords: "api" },
+  { label: "视频", keywords: "视频 video" },
+];
 const frequentTools = selectFeaturedTools(
   tools.filter((tool) => ["⭐ 高频", "📦 常用"].includes(tool.status ?? "")),
 );
@@ -40,7 +48,10 @@ function categoryIcon(category?: string) {
           <h1>收藏墙</h1>
           <p class="intro">把常用工具留在看得见的地方，随时回顾、随手打开。</p>
         </div>
-        <p class="record-count">{tools.length} 条已收录</p>
+        <div class="header-stats">
+          <p class="record-count">{tools.length} 条已收录</p>
+          {todayAddedCount > 0 && <p class="today-badge">今日 +{todayAddedCount}</p>}
+        </div>
       </header>
 
       <nav class="tabs" aria-label="站点栏目">
@@ -84,6 +95,14 @@ function categoryIcon(category?: string) {
                 </label>
                 <p><strong data-match-count>{tools.length}</strong> 条匹配</p>
               </div>
+              <div class="intent-row" aria-label="按在做什么筛选">
+                <p class="eyebrow">在做什么</p>
+                <div class="intent-chips">
+                  {intentChips.map((chip) => (
+                    <button class="intent-chip" type="button" data-intent-filter={chip.keywords} aria-pressed="false">{chip.label}</button>
+                  ))}
+                </div>
+              </div>
               <p class="filter-empty" data-filter-empty hidden>没有找到匹配的工具，换个词或分类试试。</p>
 
           {hasFrequentSection && (
@@ -96,7 +115,7 @@ function categoryIcon(category?: string) {
                 <p>{frequentTools.length} 条高频 / 常用</p>
               </div>
               <div class="tool-grid">
-                {frequentTools.map((tool) => <article class:list={["tool-card", { "is-failed": tool.capture_status === "failed" }]} data-tool data-category={tool.category} data-search={[tool.name, tool.headline, ...(tool.tags ?? [])].filter(Boolean).join(" ").toLowerCase()}>
+                {frequentTools.map((tool) => <article class:list={["tool-card", { "is-failed": tool.capture_status === "failed" }]} data-tool data-category={tool.category} data-search={toolSearchBlob(tool)}>
                   <a class="card-link" href={tool.url} target="_blank" rel="noreferrer" aria-label={tool.name}></a>
                   <div class="cover-wrap">
                     {tool.cover ? <img src={`/${tool.cover}`} alt="" loading="lazy" /> : <div class="cover-fallback" aria-hidden="true">{categoryIcon(tool.category)}</div>}
@@ -121,7 +140,7 @@ function categoryIcon(category?: string) {
               <p>{visibleTools.length} 条</p>
             </div>
             <div class="tool-grid">
-              {visibleTools.map((tool) => <article class:list={["tool-card", { "is-failed": tool.capture_status === "failed" }]} data-tool data-category={tool.category} data-search={[tool.name, tool.headline, ...(tool.tags ?? [])].filter(Boolean).join(" ").toLowerCase()}>
+              {visibleTools.map((tool) => <article class:list={["tool-card", { "is-failed": tool.capture_status === "failed" }]} data-tool data-category={tool.category} data-search={toolSearchBlob(tool)}>
                 <a class="card-link" href={tool.url} target="_blank" rel="noreferrer" aria-label={tool.name}></a>
                 <div class="cover-wrap">
                   {tool.cover ? <img src={`/${tool.cover}`} alt="" loading="lazy" /> : <div class="cover-fallback" aria-hidden="true">{categoryIcon(tool.category)}</div>}
@@ -145,20 +164,27 @@ function categoryIcon(category?: string) {
     </footer>
     <script>
       const categoryButtons = document.querySelectorAll("[data-category-filter]");
+      const intentButtons = document.querySelectorAll("[data-intent-filter]");
       const searchInput = document.querySelector("[data-tool-search]");
       const cards = document.querySelectorAll("[data-tool]");
       const sections = document.querySelectorAll("[data-section]");
       const matchCount = document.querySelector("[data-match-count]");
       const filterEmpty = document.querySelector("[data-filter-empty]");
       let category = "";
+      let intent = "";
+
+      function matchesIntent(search, keywords) {
+        return !keywords || keywords.split(/\s+/).some((key) => search.includes(key));
+      }
 
       function refreshCards() {
         const query = searchInput?.value.trim().toLowerCase() ?? "";
         let visibleCount = 0;
         cards.forEach((card) => {
+          const search = card.dataset.search ?? "";
           const matchesCategory = !category || card.dataset.category === category;
-          const matchesQuery = !query || (card.dataset.search ?? "").includes(query);
-          card.hidden = !(matchesCategory && matchesQuery);
+          const matchesQuery = !query || search.includes(query);
+          card.hidden = !(matchesCategory && matchesQuery && matchesIntent(search, intent));
           if (!card.hidden) visibleCount += 1;
         });
         sections.forEach((section) => {
@@ -173,6 +199,16 @@ function categoryIcon(category?: string) {
         category = category === nextCategory ? "" : nextCategory;
         categoryButtons.forEach((item) => item.classList.toggle("is-selected", item === button));
         if (!category) categoryButtons[0]?.classList.add("is-selected");
+        refreshCards();
+      }));
+      intentButtons.forEach((button) => button.addEventListener("click", () => {
+        const nextIntent = button.dataset.intentFilter ?? "";
+        intent = intent === nextIntent ? "" : nextIntent;
+        intentButtons.forEach((item) => {
+          const selected = intent !== "" && item === button;
+          item.classList.toggle("is-selected", selected);
+          item.setAttribute("aria-pressed", selected ? "true" : "false");
+        });
         refreshCards();
       }));
       searchInput?.addEventListener("input", refreshCards);
