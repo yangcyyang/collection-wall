@@ -1,0 +1,390 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-22",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2091012486795321804",
+      "author": "JulianGoldieSEO",
+      "bio": "",
+      "text": "Gemini 3.7 Flash is Google’s new “workhorse” model.\n\nIt’s focused heavily on:\n\n→ Coding agents\n\n→ Multi-step tasks\n\n→ Tool use\n\n→ Better instruction following\n\n→ Fewer failures + retries\n\nIt also gets a 1M token context window and up to 64K output tokens. https://t.co/wQiPSyyoNc",
+      "created_at": "Sat Aug 22 04:00:00 +0000 2026",
+      "likes": 1,
+      "views": "452",
+      "url": "https://x.com/i/status/2091012486795321804",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2090789095689916416/vid/avc1/480x270/uLv4CR7-BqQ7hEJk.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2090789095689916416/img/MvsZ2mp8otyVrU-N.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 55.538,
+      "title": "Gemini 3.7 Flash：1M 上下文的干活模型",
+      "summary": "Google 把 Gemini 3.7 Flash 定位成 workhorse，侧重 coding agents、多步任务、工具调用，以及更少失败和重试；上下文 100 万 token，输出最高 6.4 万。",
+      "recommend_reason": "把 3.7 从发布口号落到 agent 和工具这几项，方便对照自己的工作流。",
+      "tags": [
+        "Gemini",
+        "Coding Agent"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2091010468987191508",
+      "author": "dashen_wang",
+      "bio": "",
+      "text": "Apache 收了个 Agent 工作台，叫 Maka。\n\n本地优先。\n\n模型消息、Tool Call、工具结果、权限判断，全部进只追加日志。UI、上下文、回放都是这个日志的投影。\n\n这个设计不新鲜，OpenAI 早期 Assistants 本来就这套存储思路。\n\n差别在于当年没谁把它当一等公民认真做。\n\n仓库：https://t.co/PSKiLnT5k8\n\n桌面、TUI、CLI 三套入口走同一个 Runtime Host，模型连接你自选，云 API、本地、网关都行。\n\n跑 Agent 想留审计、不想被托管 IDE 卡脖子的人，值得看一眼。\n\n想拿它替代 IDE 的别来。当前 macOS Apple Silicon 桌面是早期公开版，数据格式和 CLI 命令还会动。",
+      "created_at": "Sat Aug 22 03:51:59 +0000 2026",
+      "likes": 1,
+      "views": "95",
+      "url": "https://x.com/i/status/2091010468987191508",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "GitHub - apache/maka: Apache Maka (Incubating) is a local-first AI agent workspace. Model messages,...",
+        "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log. - apache/maka",
+        "image_url": "https://pbs.twimg.com/card_img/2091010463903674368/0t4VUKzM?format=jpg&name=600x600",
+        "url": "http://github.com/apache/maka",
+        "domain": "github.com"
+      },
+      "quoted_tweet": null,
+      "score": 54.204,
+      "title": "Apache 收了个本地优先的 Agent 工作台 Maka",
+      "summary": "Maka 把模型消息、Tool Call、工具结果和权限判断都写进只追加日志，UI、上下文和回放都是这份日志的投影。桌面、TUI、CLI 走同一个 Runtime Host，模型可接云 API、本地或网关。作者说适合要留审计、不想被托管 IDE 卡脖子的人，不适合拿它当 IDE；macOS Apple Silicon 桌面还是早期公开版。",
+      "recommend_reason": "日志当一等公民这点写清楚了，想自建 agent 审计的人值得看仓库。",
+      "tags": [
+        "Agent",
+        "开源",
+        "Apache"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2091007964010455389",
+      "author": "dashen_wang",
+      "bio": "",
+      "text": "OpenCode v1.18.21 昨晚发的。\n\n社区贡献者挑大梁：路由 ChatGPT 订阅限速的是 GameOn223，/connect 修认证显示的是 OpeOginni，技能全局路径文案的 TechyAditya，写 https://t.co/d4YmGcIGia 进 providers 的 bhuvan2134686。\n\n四个 PR 全是普通 GitHub 用户。\n\n也就是这条主线真在吃社区投入，不是靠 OpenAI 官方工程队支撑。\n\n能做的：把 Cloudflare AI Gateway 的 OpenAI / Anthropic passthrough 原生接通；Codex 限速按 ChatGPT 订阅档对齐；本地 connect 列表把当前真实可用的 provider 正确显示。\n\n不能做的：不是 Claude Code 那种 token 计价的轻量代理；不开源 weight，也不替厂商做合规。它只是一个把多模型路由、人均订阅差异和 IDE/桌面打包好用的客户端。\n\n适合需要把多个 AI 编程后端统一调度、又不想被某个供应商绑定死的工程师；不适合只想一键出活的小白，也不替代真用的编程 IDE。\n\n仓库：https://t.co/wVQkqRZhB4",
+      "created_at": "Sat Aug 22 03:42:02 +0000 2026",
+      "likes": 1,
+      "views": "154",
+      "url": "https://x.com/i/status/2091007964010455389",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "Ultra Secure AI Infrastructure",
+        "description": "Enterprise AI infrastructure built for security, control, and performance.",
+        "image_url": "https://pbs.twimg.com/card_img/2088427221132464128/x_4ayfMh?format=jpg&name=600x600",
+        "url": "http://SCX.ai",
+        "domain": "scx.ai"
+      },
+      "quoted_tweet": null,
+      "score": 53.756,
+      "title": "OpenCode 1.18.21：社区 PR 接通网关和限速",
+      "summary": "OpenCode v1.18.21 昨晚发布，四个 PR 都来自普通 GitHub 用户：ChatGPT 订阅限速路由、/connect 认证显示、技能全局路径文案，以及把一个 provider 写进列表。能接通 Cloudflare AI Gateway 的 OpenAI/Anthropic passthrough，Codex 限速按 ChatGPT 订阅档对齐；不是 token 计价代理，也不开源权重。",
+      "recommend_reason": "要多后端统一调度又不绑一家的人，看这次社区贡献比看版本号更有用。",
+      "tags": [
+        "OpenCode",
+        "Codex",
+        "AI Coding"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2091007303285887091",
+      "author": "OfficialLoganK",
+      "bio": "",
+      "text": "Gemini 3.7 is our fastest growing model launch to date, amazing to see the reception!!!",
+      "created_at": "Sat Aug 22 03:39:24 +0000 2026",
+      "likes": 202,
+      "views": "6344",
+      "url": "https://x.com/i/status/2091007303285887091",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 71.314,
+      "summary": "Gemini 3.7 是我们迄今增长最快的一次模型发布，反响太好了!!!",
+      "recommend_reason": "Google 自己的人报 3.7 增长，比二手传闻更接近官方口径。",
+      "tags": [
+        "Gemini",
+        "产品"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2091001986519068891",
+      "author": "xiaoxiaodong01",
+      "bio": "",
+      "text": "GPT2 x isometric x 达芬奇 x 美学提示词 x VOL.401\n\n折腾好久，终于磨完成这套提示词了\n\n灵感来自达芬奇还有宜家的产品说明书\n\n提示词：\n```\n💦\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体结构、真实质感、自然光影和原有色彩氛围，仅进行轻微高级摄影调色，使其具有艺术杂志、独立出版物和展览摄影质感。为适配画幅，可自然扩展天空、地面或环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分提取照片中最具识别性的**主体、轮廓、姿态与叙事关系**，以 **isometric 等距空间逻辑重新构建**。不是把原物简单变成3D模型，而是将主体拆解为清晰的体块、层级、切面与空间关系，在统一等距轴线中重新组合，使其兼具建筑模型般的结构秩序与编辑插画般的视觉概括。可适度调整观察角度、比例和局部结构，以更好地展示主体最有代表性的形态，但必须保持一眼可识别的身份特征。\n\n同时从照片的核心内容、动作、结构或象征关系中提炼一个**主题意象**，将其几何化、符号化并融入isometric构图。主题意象可以成为底座、切面、空间缺口、路径、包围结构或负形，让主体与其发生穿越、嵌合、悬浮、切割、承托或错层关系，使主题不是附加装饰，而是决定主体如何存在于空间中的构图机制。\n\n构图根据主体的视觉重心、轮廓走势和空间特性自适应设计，通过等距轴线、体块比例、层级错落、尺度反差、局部裁切和大面积留白建立专业秩序。主体不必机械居中，可偏置、悬浮或延伸，让isometric结构与主题意象共同形成唯一视觉中心。\n\n主体采用**高明度、清透、柔和的日系配色与细腻哑光材质**。颜色从上方照片中提取最有生命力、最能代表主体精气神的色彩重新调制，以柔白、奶油白或极浅暖色作为基础，将核心色转化为干净、明亮、轻柔的色面，通过同色深浅和少量点色区分不同体块。光影柔和而明确，用轻微明暗帮助读取结构，避免厚重3D阴影、塑料材质和灰脏色调。\n\n背景保持大量留白，并加入**达·芬奇手稿式的创作研究痕迹**：与主体相关的轮廓草图、结构拆解、局部放大、比例线、测量线、箭头、几何推演、自然观察线稿和微型注释，以极淡的铅笔、赭色墨线或褪色手稿质感若隐若现地分布在主体周围。手稿应像设计过程留下的思考轨迹，与精确的isometric主体形成“理性成品与感性研究过程”的对照，不形成第二视觉中心。\n\n文字同样围绕主题和空间结构组织。从照片的主体身份、动作、情绪或象征意义中提炼一个简短英文标题，并搭配极少量地点、状态词或微型注释。文字可以沿isometric轴线、主题意象边界、结构切面或手稿辅助线排列，横排、竖排、错位、穿插或隐藏于负形中，使文字像设计图纸和高级艺术出版物中的信息层，而不是后期贴上的标题。\n\n整体呈现**主题隐喻 × Isometric空间秩序 × 达·芬奇式研究手稿 × 日系清透色彩 × 东方留白 × 高级编辑设计**的视觉气质。无论主体是人物、动物、植物、建筑、器物、食物、交通工具或自然景观，都应以其自身结构找到最合适的等距重构方式，避免普通3D模型、游戏场景感、轴测工程图感、卡通低多边形、机械居中、电商展示感和模板感。\n\n💦\n```",
+      "created_at": "Sat Aug 22 03:18:17 +0000 2026",
+      "likes": 7,
+      "views": "806",
+      "url": "https://x.com/i/status/2091001986519068891",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQS6jpxa4AAlfjB.jpg",
+        "https://pbs.twimg.com/media/HQS6mtfbAAAYARn.jpg",
+        "https://pbs.twimg.com/media/HQS6oYFbQAAQ5rx.jpg",
+        "https://pbs.twimg.com/media/HQS6qc_aUAAvrBO.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQS6jpxa4AAlfjB.jpg",
+        "https://pbs.twimg.com/media/HQS6mtfbAAAYARn.jpg",
+        "https://pbs.twimg.com/media/HQS6oYFbQAAQ5rx.jpg",
+        "https://pbs.twimg.com/media/HQS6qc_aUAAvrBO.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2090834371423183135",
+        "author": "xiaoxiaodong01",
+        "name": "小小东",
+        "text": "GPT2 x 趣味小人 x  简化 x 美学提示词 x VOL.040\n\n今天我做的最满意的提示词\n🌷\n\n小人的出现，不是为了卖萌。\n它更像照片里的另一个视角。\n可能是在回应。\n可能是在吐槽。\n可能是在替画面说出一句没有说出口的话。\n\n所以每张图最后呈现出来的感觉都会不一样。\n因为它不是套一个固定模板，而是根据照片自己的故事生长出来。\n\n完整提示词：\n\n```\n同样处理：\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体结构、真实质感、自然光影和原有色彩氛围，仅进行轻微高级摄影调色，使其具有生活方式杂志、独立出版物和艺术摄影质感。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分先理解原图真正的**视觉核心与寓意**：判断画面最重要的不是“有什么”，而是“什么最值得被记住”——可能是一个主体、一种动作、一组关系、一处反差、一个情绪瞬间或某种象征意味。再从中提取最具识别性的**主体、轮廓、姿态、空间关系与叙事线索**，重构为“真实主体 + 黑线涂鸦小人”的趣味编辑海报。不要机械截取原图最大物体，而要保留最能代表照片精神和故事性的视觉锚点，使下半部分既能一眼对应原图，又像对原图进行了一次聪明的二次解读。\n\n真实主体保持材质与身份特征，可适度优化角度、比例、光线和色彩，使核心特征更鲜明；原图中与寓意无关的信息可以舍弃，但支撑主题的关键关系必须保留。围绕主体加入少量极简黑线涂鸦小人，小人的动作、位置和互动方式完全根据原图的形态、语境与潜在寓意自然生成，让他们像在回应、放大或反转照片原本的故事，而不是随意做动作。\n\n配色从上方照片中提取最有辨识度和精气神的颜色，可适度提纯、提亮和重新组织。背景以米白、浅色或原图中最舒适的浅色为主，保持大量留白；真实主体承担主要色彩，小人与文字以黑色或深灰细线形成对比，整体干净、轻快、克制。\n\n文字同样从原图的**核心寓意、情绪和视觉关系**中自然生长，不直接说明物体名称，也不套固定文案。将照片最值得被记住的那层意思转化成极短、轻松、聪明、略带幽默或双关的手写文字，让它像小人留下的注释、念头或一句画外音。文字可沿主体轮廓、人物动作或留白节奏自由排布，与小人和主体共同完成叙事，而不是后期贴上的标题。\n\n整体保持**真实主体、核心寓意、微型叙事、稚拙线条和大量留白**之间的平衡。无论原图是人物、动物、植物、食物、建筑、器物、交通工具或自然场景，都应先抓住“这张照片真正讲的是什么”，再决定如何重构，避免只抓物体不抓关系、只做可爱互动没有主题、卡通贴纸感、复杂装饰和模板感。\n\n💣language：english\n```",
+        "created_at": "Fri Aug 21 16:12:14 +0000 2026",
+        "url": "https://x.com/xiaoxiaodong01/status/2090834371423183135",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQQhAkAaAAAx9F4.jpg",
+          "https://pbs.twimg.com/media/HQQhzP5acAAMsin.jpg",
+          "https://pbs.twimg.com/media/HQQh3RYa8AA26OL.jpg",
+          "https://pbs.twimg.com/media/HQQiRA6aIAACbc5.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQQhAkAaAAAx9F4.jpg",
+          "https://pbs.twimg.com/media/HQQhzP5acAAMsin.jpg",
+          "https://pbs.twimg.com/media/HQQh3RYa8AA26OL.jpg",
+          "https://pbs.twimg.com/media/HQQiRA6aIAACbc5.jpg"
+        ]
+      },
+      "score": 59.423,
+      "title": "小小东 VOL.401：等距空间 × 达芬奇手稿",
+      "summary": "新一套 3:4 上下对半海报提示词：上半保留原片，下半用 isometric 体块重组主体，再叠一层达芬奇式淡手稿线和日系清透配色。作者写灵感来自达芬奇和宜家说明书，磨了很久才放出。",
+      "recommend_reason": "提示词墙作者的新系列，结构和手稿层写得很完整，可直接拿去试。",
+      "tags": [
+        "提示词",
+        "图像生成",
+        "小小东"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2091001591776124966",
+      "author": "jinchenma_ai",
+      "bio": "",
+      "text": "两台128的dgx spark，就能跑deepseek了。\n\n实现了真正的token自由！",
+      "created_at": "Sat Aug 22 03:16:43 +0000 2026",
+      "likes": 1,
+      "views": "183",
+      "url": "https://x.com/i/status/2091001591776124966",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2090998241878049042",
+        "author": "ai_xiaomu",
+        "name": "黄小木",
+        "text": "dgx spark 源源不断给我产生免费token，上午几个小时我已经把 20% 转移给 deepseek 去执行，结果并未太大差异。\n\n使用 Tailscale server 将你的 API 反代出来，走到哪都能用，X 上已经有单机跑 deepseek 的文章，小主机就是你的印钞机。 https://t.co/CSKtdi567M",
+        "created_at": "Sat Aug 22 03:03:24 +0000 2026",
+        "url": "https://x.com/ai_xiaomu/status/2090998241878049042",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQS3XeqaQAAvSYn.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQS3XeqaQAAvSYn.jpg"
+        ]
+      },
+      "score": 47.691,
+      "summary": "两台128的dgx spark，就能跑deepseek了。\n\n实现了真正的token自由！",
+      "recommend_reason": "把本地跑 DeepSeek 的硬件门槛说到具体机器，方便对成本。",
+      "tags": [
+        "DeepSeek",
+        "本地模型"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2090998895702638690",
+      "author": "gkxspace",
+      "bio": "",
+      "text": "GPT-5.6 Pro 绝对是现在最牛逼的，而且最近没有遇到降智到 5.5mini 的问题了🤔\n\n你可以把本地 Git 仓库推送到 GitHub，然后在网页端连接GitHub，直接让他读仓库。\n\n你也可以直接在 Codex 通过 skills 调用网页端 Pro：\nOpenClaw 创始人 Peter 的 Oracle：\nhttps://t.co/eO1yRV7bZs\n\n推友针对 5.6Pro 更激进的玩法，Pro 当调度者，Codex 当执行者：\nhttps://t.co/uENjmGRFyF",
+      "created_at": "Sat Aug 22 03:06:00 +0000 2026",
+      "likes": 7,
+      "views": "2771",
+      "url": "https://x.com/i/status/2090998895702638690",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQQ0FT1bUAAPrHp.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQQ0FT1bUAAPrHp.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2090355799352905994",
+        "author": "Saccc_c",
+        "name": "Sac",
+        "text": "GPT 5.6 Pro作为OpenAI目前最强大的模型，在代码开发等任务的问题解决能力都是超一流，但很多人可能还不知道如何使用它\n\n正确打开方式如下：\n\n1、将本地项目初始化为 Git 仓库并推送到你的GitHub上\n\n2、在ChatGPT网页端连接GitHub插件，选择Pro模式，并让他根据仓库代码进行后续开发。之后本地这边只需同步远端的更改即可\n\n虽然思考时间比较久，但最终效果比5.6 Sol Ultra都要好",
+        "created_at": "Thu Aug 20 08:30:34 +0000 2026",
+        "url": "https://x.com/Saccc_c/status/2090355799352905994",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQJvhCya8AA3Reh.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQJvhCya8AA3Reh.jpg"
+        ]
+      },
+      "score": 58.507,
+      "title": "用 GitHub 和 Codex skill 喂 GPT-5.6 Pro",
+      "summary": "作者觉得 GPT-5.6 Pro 最近没再掉到 5.5 mini。两种用法：本地仓库推到 GitHub，让网页端直接读；或在 Codex 里用 skill 调网页端 Pro。还提到把 Pro 当调度、Codex 当执行的更激进玩法。",
+      "recommend_reason": "Pro 调度、Codex 动手，是现在跟得上的一套分工。",
+      "tags": [
+        "GPT-5.6",
+        "Codex",
+        "Skill"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2090997637751452079",
+      "author": "jinchenma_ai",
+      "bio": "",
+      "text": "微信终于！\n\n最新版iOS微信已经支持直接预览markdown文件了。\n\n之前还有人说这是小众需求，看样子不是了哦。\n\nAI时代，有些时候变化是真的大。 https://t.co/JhggDlMmQN",
+      "created_at": "Sat Aug 22 03:01:00 +0000 2026",
+      "likes": 1,
+      "views": "311",
+      "url": "https://x.com/i/status/2090997637751452079",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQS2Yh_aEAAHnH0.jpg",
+        "https://pbs.twimg.com/media/HQS2Yh6agAAX9ZF.jpg",
+        "https://pbs.twimg.com/media/HQS2YiDbkAAgrkG.jpg",
+        "https://pbs.twimg.com/media/HQS2Yh5aUAAvYCo.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQS2Yh_aEAAHnH0.jpg",
+        "https://pbs.twimg.com/media/HQS2Yh6agAAX9ZF.jpg",
+        "https://pbs.twimg.com/media/HQS2YiDbkAAgrkG.jpg",
+        "https://pbs.twimg.com/media/HQS2Yh5aUAAvYCo.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 37.407,
+      "summary": "微信终于！\n\n最新版iOS微信已经支持直接预览markdown文件了。\n\n之前还有人说这是小众需求，看样子不是了哦。\n\nAI时代，有些时候变化是真的大。 https://t.co/JhggDlMmQN",
+      "recommend_reason": "AI 日常输出大量 md，微信能预览是很小但每天会碰到的变化。",
+      "tags": [
+        "产品",
+        "微信"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2090995946805190846",
+      "author": "GoSailGlobal",
+      "bio": "",
+      "text": "大模型公司的战场已经卷到用户教育层了\n\nClaude Academy 刚上线 全部课程免费开放 从「AI 到底是什么」的零基础入门 到每天用 Claude 的深度用户进阶 按水平分路径\n\n一天不到 800多万浏览 3.5万赞 市场对官方免费教学的需求被严重低估\n\n逻辑其实很直白 各种 AI 付费课程卖几千块 教的还是二手经验 官方直接下场把教育做成免费产品 既收割了信任又锁定了使用习惯\n\n谁教会用户用 AI 谁就拥有下一代的默认选择",
+      "created_at": "Sat Aug 22 02:54:17 +0000 2026",
+      "likes": 2,
+      "views": "718",
+      "url": "https://x.com/i/status/2090995946805190846",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2090995924571168769/vid/avc1/480x270/tcmnX_5SXGOJlF14.mp4?tag=14"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2090995924571168769/img/JbyZvyADixHdbbK_.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2090518650251804742",
+        "author": "claudeai",
+        "name": "Claude",
+        "text": "Claude Academy is now live.\n\nWhether you're figuring out what AI is or already using Claude every day, there's a path that meets you where you are. The courses and tutorials are free and open to anyone at https://t.co/WRiSRAvK6l https://t.co/llx2W0VIIy",
+        "created_at": "Thu Aug 20 19:17:40 +0000 2026",
+        "url": "https://x.com/claudeai/status/2090518650251804742",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2090517847659167745/vid/avc1/480x270/tyXLqXhe_gVOteLM.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQMDs9VbUAA9vdk.jpg"
+        ]
+      },
+      "score": 56.296,
+      "title": "Claude Academy 免费课一天八百多万浏览",
+      "summary": "Claude Academy 刚上线，从「AI 是什么」到深度用户分路径，课程全部免费。作者写一天不到八百多万浏览、3.5 万赞，觉得官方下场做教育是在收信任、锁使用习惯。",
+      "recommend_reason": "官方免费课比外面卖的二手教程更接近产品本身，值得看他们怎么教。",
+      "tags": [
+        "Claude",
+        "产品"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2090990832300241320",
+      "author": "LufzzLiz",
+      "bio": "",
+      "text": "Ox Alpha 测评完成了，哈哈，像谁我就不说了吧，测评网站展示很直观。\n做的效果是真不错，前端有提升，施瓦西黑洞的质感与kimi-k3有一拼\n最让我惊喜的点是：这个模型在本地开发测评完后，自动发布到了网上，这是第一次，之前其他模型做完，我都得单独让codex帮忙发布\n效果还不错，目前在openrouter还可以免费体验，大家可以去试试\n\n完整测评效果见网站：\nhttps://t.co/t5wxTUqkO9",
+      "created_at": "Sat Aug 22 02:33:57 +0000 2026",
+      "likes": 10,
+      "views": "2999",
+      "url": "https://x.com/i/status/2090990832300241320",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2090988816299634688/vid/avc1/546x270/DtUyY9S-32dbUlNG.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2090988816299634688/img/P8D66fWedx--_kfa.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 59.268,
+      "title": "Ox Alpha 本地测完能自动发布",
+      "summary": "作者测完 Ox Alpha，觉得前端有提升，施瓦西黑洞的质感和 kimi-k3 有一拼；本地开发测评后第一次自动发到了网上。测评站可点，OpenRouter 上还能免费体验。",
+      "recommend_reason": "少见的「测完自己上线」现场记录，而且给了可打开的效果页。",
+      "tags": [
+        "评测",
+        "Ox",
+        "OpenRouter"
+      ],
+      "rank": 10
+    }
+  ],
+  "generated_at": "2026-08-22T04:06:40Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 10,
+    "last_batch_added": 10,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
