@@ -20,6 +20,7 @@ export type PromptItem = {
   images: PromptImage[];
 };
 
+/** Local collector for xiaoxiaodong01.json: pipeline/xiaoxiaodong_collect.py */
 export type PromptSource = {
   source: string;
   title: string;

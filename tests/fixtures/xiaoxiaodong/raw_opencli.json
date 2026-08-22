@@ -1,0 +1,73 @@
+[
+  {
+    "id": "new-fence",
+    "author": "xiaoxiaodong01",
+    "url": "https://x.com/i/status/new-fence",
+    "created_at": "Mon May 11 08:00:00 +0000 2026",
+    "text": "GPT2 x 新窗 x 美学提示词\n\n完整提示词如下：\n\n```\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用 3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n```",
+    "has_media": true,
+    "media_urls": [
+      "https://pbs.twimg.com/media/NEWFENCE.jpg"
+    ],
+    "media_posters": [
+      "https://pbs.twimg.com/media/NEWFENCE.jpg"
+    ]
+  },
+  {
+    "id": "new-block",
+    "author": "xiaoxiaodong01",
+    "text": "最后一组的提示词：\n围绕任意主题对象生成一张真实生活感的相册拼贴画面，把主题拆成多个同场景碎片，并保留手绘标记与明亮颗粒，让阅读像在翻一本随手整理的私密手账。",
+    "created_at": "2026-05-12T09:00:00+00:00",
+    "media_urls": [
+      "https://pbs.twimg.com/media/NEWBLOCK.png"
+    ]
+  },
+  {
+    "id": "existing-keep",
+    "author": "xiaoxiaodong01",
+    "url": "https://x.com/i/status/existing-keep-rewritten",
+    "created_at": "2026-05-25T02:29:41+00:00",
+    "text": "attacker rewrite\n\n```\nthis must not replace the existing prompt or url\n```",
+    "media_urls": [
+      "https://pbs.twimg.com/media/HACK.jpg"
+    ]
+  },
+  {
+    "id": "skip-no-image",
+    "author": "xiaoxiaodong01",
+    "text": "有提示词但没有图\n\n```\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用 3:4竖版构图。\n```",
+    "created_at": "2026-05-13T09:00:00+00:00",
+    "media_urls": [],
+    "has_media": false
+  },
+  {
+    "id": "skip-video-only",
+    "author": "xiaoxiaodong01",
+    "text": "只有视频\n\n```\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用 3:4竖版构图。\n```",
+    "created_at": "2026-05-13T10:00:00+00:00",
+    "media_urls": [
+      "https://video.twimg.com/amplify_video/1/vid/avc1/480x270/clip.mp4"
+    ]
+  },
+  {
+    "id": "skip-no-prompt",
+    "author": "xiaoxiaodong01",
+    "text": "GPT2 x 美学提示词\n\n今天只发返图，提示词见评论区，欢迎返图",
+    "created_at": "2026-05-14T09:00:00+00:00",
+    "media_urls": [
+      "https://pbs.twimg.com/media/NOPROMPT.jpg"
+    ]
+  },
+  {
+    "id": "new-heading-block",
+    "author": {"username": "xiaoxiaodong01"},
+    "text": "# 优化版提示词\n\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。",
+    "created_at": "2026-05-15T09:00:00+00:00",
+    "images": [
+      {
+        "url": "https://pbs.twimg.com/media/HEADING.jpg",
+        "poster": "https://pbs.twimg.com/media/HEADING.jpg"
+      }
+    ]
+  }
+]
