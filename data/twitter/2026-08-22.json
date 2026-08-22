@@ -9,6 +9,188 @@
   },
   "items": [
     {
+      "id": "2091188632736722946",
+      "author": "vincemask",
+      "bio": "",
+      "text": "Anthropic 内部最近常用一个 ELI5 Skill。\n\n使用方式很简单：\n/eli5 <topic>\n\n它会要求 Agent：\n\n1、像给完全不了解的人解释；\n2、少用术语；\n3、使用大图和少量文字；\n4、通过 HTML Artifact 呈现复杂概念。\n\n这个 Skill 的价值，不只是把答案写得更简单，而是强制 Agent 重新组织知识：先建立整体认知，再解释细节和边界。",
+      "created_at": "Sat Aug 22 15:39:57 +0000 2026",
+      "likes": 2,
+      "views": "220",
+      "url": "https://x.com/i/status/2091188632736722946",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2090884854590382515",
+        "author": "trq212",
+        "name": "Thariq",
+        "text": "a skill people at Anthropic have been using a lot recently: ELI5\n\n/eli5 &lt;what you want explained&gt;\n\n\"explain like I'm someone who knows nothing about this topic, using a HTML artifact with big pictures and few words\" https://t.co/OZqzjAyFdT",
+        "created_at": "Fri Aug 21 19:32:50 +0000 2026",
+        "url": "https://x.com/trq212/status/2090884854590382515",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2090849386284863488/vid/avc1/356x270/tt3OnKiWqjgTtNyE.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2090849386284863488/img/X_zOyelugAM9MP5i.jpg"
+        ]
+      },
+      "score": 53.674,
+      "summary": "Anthropic 内部最近常用一个 ELI5 Skill。\n\n使用方式很简单：\n/eli5 <topic>\n\n它会要求 Agent：\n\n1、像给完全不了解的人解释；\n2、少用术语；\n3、使用大图和少量文字；\n4、通过 HTML Artifact 呈现复杂概念。\n\n这个 Skill 的价值，不只是把答案写得更简单，而是强制 Agent 重新组织知识：先建立整体认知，再解释细节和边界。",
+      "recommend_reason": "ELI5 不只是写简单，而是逼 Agent 先搭整体再讲边界。",
+      "tags": [
+        "Skill",
+        "Claude",
+        "Agent"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2091180646626627732",
+      "author": "xiaoxiaodong01",
+      "bio": "",
+      "text": "GPT2 x 积木 x 重购 x 美学提示词 x VOL.045\n\n感觉自己做提示词，渐入佳境\n这组灵感来自于，小孩子的积木\n\n转换之后的画面好有意思。\n\n完整提示词 \ncreate by xiaoxiaodong:\n\n```\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体结构、空间关系、真实材质、自然光影和原有色彩氛围，仅进行轻微高级摄影调色，使其具有艺术杂志、独立出版物与展览摄影质感。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分提取照片中最具识别性的**主体、轮廓、姿态与叙事关系**，按照“解构—筛选—提炼—重构”的逻辑，转化为具有 **3D / isometric 空间感的治愈系积木雕塑**。重点保留主体最独特的体量比例、轴线、曲线、穿插、层叠、遮挡与负空间，以圆润、简洁、具有触感的模块化体块重新组织；不完整复刻细节，但必须一眼感受到与上方原图的对应。\n\n构图根据主体自身的视觉重心、姿态方向和空间关系自适应设计，通过大小体块、高低错层、前后穿插、局部悬浮、疏密变化与大面积留白建立节奏。积木可以拼接、叠放、嵌套、穿越或自然错位，使主体既保留身份，又具有当代艺术玩具般的雕塑感和轻松想象力，避免机械拆件和简单像素化。\n\n**配色必须从上方原图本身分析产生。** 先识别照片中最有生命力、最有辨识度的主色关系，以及综合色温、明度层级、冷暖呼应和关键点色，再将这些颜色重新调制为更柔和、清澈、明亮、有空气感的治愈色彩体系。保留原图的色相身份与情绪记忆，但适度提高明度、降低刺眼对比、净化灰脏杂色，使颜色呈现温柔、童趣、轻盈而高级的感觉。不同照片应自然得到不同配色，不固定使用任何预设色卡，也不要为了“治愈感”强行加入原图不存在的颜色。\n\n色彩通过**主色面积、辅助色层次、同源深浅与极少量鲜活点色**建立节奏，让主体看起来丰富但不杂乱、可爱但不甜腻、柔和但有精气神。积木材质采用细腻哑光、柔和漫反射的质感，带轻微纸浆、木质、粉蜡或柔性材料般的触感，边角圆润、阴影轻柔，避免塑料高光、金属感、厚重CG和廉价玩具质感。\n\n文字建立轻盈的高级编辑式微排版系统，从照片的光影、动作、空间、情绪或象征意义中提炼一个2–5词的标题，并搭配少量状态词、地点、编号、方向词或微型注释，不使用年份。文字可沿积木边缘、模块缝隙、视觉轴线或负空间排列，也可与体块形成穿插、遮挡与对齐，让文字自然成为积木构图的一部分。\n\n整体呈现 **真实摄影 × 治愈积木 × isometric空间 × 原图色彩转译 × 高级编辑设计** 的视觉气质，温柔、轻盈、童趣、安静、精致、有想象力但不幼稚。无论主体是人物、动物、植物、建筑、器物、食物、交通工具或自然景观，都应从原图自身的结构与色彩中发展出独特的积木组合和配色方式，避免固定色卡、乐高式复制、儿童卡通、电商玩具展示感和模板感。\n\n```",
+      "created_at": "Sat Aug 22 15:08:13 +0000 2026",
+      "likes": 24,
+      "views": "1325",
+      "url": "https://x.com/i/status/2091180646626627732",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQVbMbMaQAA7Y7M.jpg",
+        "https://pbs.twimg.com/media/HQVbMbTbMAA7R2Y.jpg",
+        "https://pbs.twimg.com/media/HQVcIDGacAASlxv.jpg",
+        "https://pbs.twimg.com/media/HQVdbQ4a0AEfrf9.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQVbMbMaQAA7Y7M.jpg",
+        "https://pbs.twimg.com/media/HQVbMbTbMAA7R2Y.jpg",
+        "https://pbs.twimg.com/media/HQVcIDGacAASlxv.jpg",
+        "https://pbs.twimg.com/media/HQVdbQ4a0AEfrf9.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2091168463775736248",
+        "author": "xiaoxiaodong01",
+        "name": "小小东",
+        "text": "GPT2 x 金箔 x 转绘 x 美学提示词 x VOL.044\n\n最近，大家都喜欢黄金吧\n刚刚泡沫质感的提示词\n\n我改版成了：金箔材质\n所有就有了这两组提示词\n\n一组暗色背景，一组淡色背景\n两组提示词都在图片 Alt 属性中\n\n你也可以改版提示词，材质并不局限于：泡沫、黄金 \n自由发挥吧，创意无限 https://t.co/2I3RkCNnlU",
+        "created_at": "Sat Aug 22 14:19:48 +0000 2026",
+        "url": "https://x.com/xiaoxiaodong01/status/2091168463775736248",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQVSlROaoAAtR0X.jpg",
+          "https://pbs.twimg.com/media/HQVScjdbIAA3lAe.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQVSlROaoAAtR0X.jpg",
+          "https://pbs.twimg.com/media/HQVScjdbIAA3lAe.jpg"
+        ]
+      },
+      "score": 66.057,
+      "title": "小小东 VOL.045：治愈积木重构",
+      "summary": "新一套 3:4 上下对半海报：上半保留原片，下半把主体拆成 isometric 治愈积木雕塑。配色从原图转译，不要固定色卡，灵感来自小孩积木。",
+      "recommend_reason": "提示词墙作者自己的新系列，积木重构写得很完整，可直接试。",
+      "tags": [
+        "提示词",
+        "图像生成",
+        "小小东"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2091178906422501572",
+      "author": "LufzzLiz",
+      "bio": "",
+      "text": "哈哈，DSH插件市场啥都有，安装了一个五子棋，看两个模型PK。我选了grok-4.6 VS dsv4 flsh ，flash快是快，但是不动脑子啊😂\n更多好玩的可以看我们的插件市场网站，按分类逛逛\nhttps://t.co/WmIuJGraXw https://t.co/UMyZur3Qrq",
+      "created_at": "Sat Aug 22 15:01:18 +0000 2026",
+      "likes": 2,
+      "views": "395",
+      "url": "https://x.com/i/status/2091178906422501572",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQVbMyOaUAAsaTc.jpg",
+        "https://pbs.twimg.com/media/HQVbbdOaoAEnMRw.jpg",
+        "https://pbs.twimg.com/media/HQVbmaEbQAAcrpN.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQVbMyOaUAAsaTc.jpg",
+        "https://pbs.twimg.com/media/HQVbbdOaoAEnMRw.jpg",
+        "https://pbs.twimg.com/media/HQVbmaEbQAAcrpN.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 56.792,
+      "summary": "哈哈，DSH插件市场啥都有，安装了一个五子棋，看两个模型PK。我选了grok-4.6 VS dsv4 flsh ，flash快是快，但是不动脑子啊😂\n更多好玩的可以看我们的插件市场网站，按分类逛逛\nhttps://t.co/WmIuJGraXw https://t.co/UMyZur3Qrq",
+      "recommend_reason": "用五子棋看 grok-4.6 和 dsv4 flash 怎么下棋，比跑分表更直观。",
+      "tags": [
+        "DSH",
+        "评测",
+        "Grok"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2091178887040356622",
+      "author": "dotey",
+      "bio": "",
+      "text": "响马高见：\n> 工程师永远不会消失，但是工作方式会变化。工具化永远会进化到 roi 低于人力的边界，然后需要更多的人力来补齐最后的缝隙。\n\n类似于你开了一家餐厅，买了一台洗碗机，一下子替代了 3 个洗碗工，效率高、成本低。这就是工具化带来的 ROI（投入产出比）远高于人力的阶段。\n\n但洗碗机洗不了所有东西。异形的锅、烧焦的铁板、精致的瓷器，这些还得靠人手洗。你可以花大价钱去研发一台能洗一切的超级洗碗机，但为了搞定最后这 5% 的餐具，你可能得投入比前面 95% 多十倍的钱。\n\n这时候你算一笔账：与其砸钱造那台超级机器，不如留一个洗碗工来处理这些边角料，人力反而更划算了。\n\n工具进化到某个点之后，再往前推的成本急剧上升，ROI 跌到比直接用人还低。\n\n另一个角度，工具越强，整个行业的总产出往往也在膨胀。洗碗机让你的餐厅能接待更多客人，于是产生了更多的异形锅、更多的特殊情况，那些“缝隙”的绝对数量反而变多了。所以你可能裁了 3 个普通洗碗工，最后又请了 2 个专门处理疑难杂症的人。\n\nAI 工具会吃掉大量标准化的编程工作，但软件行业的总规模也会因此爆发式增长，而增长带来的各种边界情况、系统集成、业务理解这些“缝隙”，短期内仍然需要人来填。",
+      "created_at": "Sat Aug 22 15:01:13 +0000 2026",
+      "likes": 68,
+      "views": "10708",
+      "url": "https://x.com/i/status/2091178887040356622",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2091055925281107986",
+        "author": "xicilion",
+        "name": "响马",
+        "text": "工程师永远不会消失，但是工作方式会变化。工具化永远会进化到 roi 低于人力的边界，然后需要更多的人力来补齐最后的缝隙。",
+        "created_at": "Sat Aug 22 06:52:37 +0000 2026",
+        "url": "https://x.com/xicilion/status/2091055925281107986",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 43.802,
+      "title": "响马：工具吃掉标准活，人去补缝隙",
+      "summary": "引用响马：工程师不会消失，工具会进化到 ROI 低于人力的边界，然后要更多人补最后的缝。洗碗机能替掉三个洗碗工，洗不了异形锅和烧焦铁板；再造超级洗碗机可能比留一个人更贵。AI 会吃掉标准化编程，但行业膨胀后缝隙的绝对数量可能更多。",
+      "recommend_reason": "把「人不会被替代」说成一笔账，而不是鸡汤。",
+      "tags": [
+        "产业",
+        "AI Coding"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2091168531480223818",
+      "author": "ianneo_ai",
+      "bio": "",
+      "text": "Grok Bot，好丝滑\n\n建一个 bot 很快，点开就能说话，交互也干净。几个 bot 还能拉成一群，彼此传话。本来以为要一个一个盯着聊，用下来创建、对话、成群是一套的 https://t.co/tr8GeTII2z",
+      "created_at": "Sat Aug 22 14:20:04 +0000 2026",
+      "likes": 5,
+      "views": "587",
+      "url": "https://x.com/i/status/2091168531480223818",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQVSkmkbIAASvGT.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQVSkmkbIAASvGT.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 59.465,
+      "summary": "Grok Bot，好丝滑\n\n建一个 bot 很快，点开就能说话，交互也干净。几个 bot 还能拉成一群，彼此传话。本来以为要一个一个盯着聊，用下来创建、对话、成群是一套的 https://t.co/tr8GeTII2z",
+      "recommend_reason": "上手 Grok Bot 的现场感：建、聊、拉群是一套，不是分开的三件事。",
+      "tags": [
+        "Grok Bot",
+        "产品"
+      ],
+      "rank": 5
+    },
+    {
       "id": "2091012486795321804",
       "author": "JulianGoldieSEO",
       "bio": "",
@@ -34,7 +216,7 @@
         "Gemini",
         "Coding Agent"
       ],
-      "rank": 1
+      "rank": 6
     },
     {
       "id": "2091010468987191508",
@@ -66,7 +248,7 @@
         "开源",
         "Apache"
       ],
-      "rank": 2
+      "rank": 7
     },
     {
       "id": "2091007964010455389",
@@ -98,7 +280,7 @@
         "Codex",
         "AI Coding"
       ],
-      "rank": 3
+      "rank": 8
     },
     {
       "id": "2091007303285887091",
@@ -121,7 +303,7 @@
         "Gemini",
         "产品"
       ],
-      "rank": 4
+      "rank": 9
     },
     {
       "id": "2091001986519068891",
@@ -176,7 +358,7 @@
         "图像生成",
         "小小东"
       ],
-      "rank": 5
+      "rank": 10
     },
     {
       "id": "2091001591776124966",
@@ -213,7 +395,7 @@
         "DeepSeek",
         "本地模型"
       ],
-      "rank": 6
+      "rank": 11
     },
     {
       "id": "2090998895702638690",
@@ -256,7 +438,7 @@
         "Codex",
         "Skill"
       ],
-      "rank": 7
+      "rank": 12
     },
     {
       "id": "2090997637751452079",
@@ -289,7 +471,7 @@
         "产品",
         "微信"
       ],
-      "rank": 8
+      "rank": 13
     },
     {
       "id": "2090995946805190846",
@@ -331,7 +513,7 @@
         "Claude",
         "产品"
       ],
-      "rank": 9
+      "rank": 14
     },
     {
       "id": "2090990832300241320",
@@ -360,10 +542,10 @@
         "Ox",
         "OpenRouter"
       ],
-      "rank": 10
+      "rank": 15
     }
   ],
-  "generated_at": "2026-08-22T04:06:40Z",
+  "generated_at": "2026-08-22T16:07:02Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -371,13 +553,13 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 10,
-    "last_batch_added": 10,
+    "actual_count": 15,
+    "last_batch_added": 5,
     "last_batch_skipped_dup": 0,
-    "last_batch_skipped_author": 0,
+    "last_batch_skipped_author": 3,
     "last_batch_skipped_day_cap": 0,
     "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
     "short_tweet": {
