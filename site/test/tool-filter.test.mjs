@@ -16,6 +16,11 @@ test("搜索仅匹配名称、定位和标签", () => {
   assert.equal(matchesTool(tools[1], "agent", ""), false);
 });
 
+test("多词搜索按任一关键词匹配", () => {
+  assert.equal(matchesTool(tools[0], "ppt agent", ""), true);
+  assert.equal(matchesTool(tools[1], "ppt agent", ""), false);
+});
+
 test("分类与搜索取交集", () => {
   assert.equal(matchesTool(tools[0], "自动化", "🤖 AI 大模型"), true);
   assert.equal(matchesTool(tools[2], "自动化", "🤖 AI 大模型"), false);

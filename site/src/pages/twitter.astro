@@ -35,7 +35,8 @@ const categoryTabs = [
     <title>推特日报 · 工具库</title>
   </head>
   <body>
-    <main class="page-shell">
+    <a class="skip-link" href="#twitter-timeline">跳到列表</a>
+    <div class="page-shell">
       <header class="site-header">
         <div>
           <p class="eyebrow">Following 时间线精选</p>
@@ -48,11 +49,13 @@ const categoryTabs = [
       <SiteNav current="twitter" />
 
       {days.length === 0 ? (
+        <main id="twitter-timeline">
         <section class="empty-state" aria-labelledby="empty-title">
           <p class="empty-icon">✦</p>
           <h2 id="empty-title">还没有日报</h2>
           <p>等待第一次采集任务写入 data/twitter/ 后会出现在这里。</p>
         </section>
+        </main>
       ) : (
         <>
           {tags.length > 0 && (
@@ -72,6 +75,7 @@ const categoryTabs = [
             </div>
           )}
 
+          <main id="twitter-timeline">
           <section class="twitter-timeline" aria-label="最近日报">
             {recent.map((day, index) => <TwitterDayGroup day={day} categories={cats} defaultOpen={index === 0} />)}
           </section>
@@ -90,9 +94,10 @@ const categoryTabs = [
             <span class="pager-status"></span>
             <button class="pager-btn" type="button" data-pager-next>下一页 →</button>
           </nav>
+          </main>
         </>
       )}
-    </main>
+    </div>
     <footer class="site-footer">
       <p><strong>数据来源说明</strong>：内容来自 cy 的 X（Twitter）Following 时间线，AI 按相关度/信息增量/互动热度筛选，去转发去广告。</p>
     </footer>

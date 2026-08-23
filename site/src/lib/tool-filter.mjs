@@ -5,10 +5,14 @@ function searchableText(tool) {
     .toLowerCase();
 }
 
+export function matchesTokens(search, query = "") {
+  const keys = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  return keys.length === 0 || keys.some((key) => search.includes(key));
+}
+
 export function matchesTool(tool, query = "", category = "") {
-  const normalizedQuery = query.trim().toLowerCase();
   const matchesCategory = !category || tool.category === category;
-  return matchesCategory && (!normalizedQuery || searchableText(tool).includes(normalizedQuery));
+  return matchesCategory && matchesTokens(searchableText(tool), query);
 }
 
 export function categoryCounts(tools) {

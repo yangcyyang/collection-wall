@@ -17,7 +17,8 @@ const typesPresent = [...new Set(days.flatMap((d) => d.items.map((i) => i.type))
     <title>知识总结 · 工具库</title>
   </head>
   <body>
-    <main class="page-shell">
+    <a class="skip-link" href="#knowledge-timeline">跳到列表</a>
+    <div class="page-shell">
       <header class="site-header">
         <div>
           <p class="eyebrow">OrbitOS 知识库 · 近期入库</p>
@@ -30,11 +31,13 @@ const typesPresent = [...new Set(days.flatMap((d) => d.items.map((i) => i.type))
       <SiteNav current="knowledge" />
 
       {days.length === 0 ? (
+        <main id="knowledge-timeline">
         <section class="empty-state" aria-labelledby="empty-title">
           <p class="empty-icon">✦</p>
           <h2 id="empty-title">还没有知识卡片</h2>
           <p>运行 pipeline/knowledge_export.py 生成 data/knowledge/recent.json 后会出现在这里。</p>
         </section>
+        </main>
       ) : (
         <>
           <div class="tag-filter-row" aria-label="按类型筛选">
@@ -44,7 +47,7 @@ const typesPresent = [...new Set(days.flatMap((d) => d.items.map((i) => i.type))
             ))}
           </div>
 
-          <section class="twitter-timeline knowledge-timeline" aria-label="最近入库">
+          <main id="knowledge-timeline" class="twitter-timeline knowledge-timeline" aria-label="最近入库">
             {days.map((day, index) => (
               <details class="day-group" data-day open={index === 0}>
                 <summary class="day-heading">
@@ -74,10 +77,10 @@ const typesPresent = [...new Set(days.flatMap((d) => d.items.map((i) => i.type))
                 </div>
               </details>
             ))}
-          </section>
+          </main>
         </>
       )}
-    </main>
+    </div>
     <footer class="site-footer">
       <p><strong>数据来源说明</strong>：内容来自 OrbitOS 400知识库的标准知识单元（active 状态），由导出脚本按入库日期截取，摘要与要点为原文规则截取。</p>
     </footer>

@@ -42,7 +42,8 @@ function categoryIcon(category?: string) {
     <title>收藏墙 · 工具库</title>
   </head>
   <body>
-    <main class="page-shell">
+    <a class="skip-link" href="#collection-wall">跳到列表</a>
+    <div class="page-shell">
       <header class="site-header">
         <div>
           <p class="eyebrow">个人工具库</p>
@@ -58,12 +59,14 @@ function categoryIcon(category?: string) {
       <SiteNav current="wall" />
 
       {tools.length === 0 ? (
+        <main id="collection-wall">
         <section class="empty-state" aria-labelledby="empty-title">
           <p class="empty-icon">✦</p>
           <h2 id="empty-title">还没有收藏</h2>
           <p>在 Chrome 收藏一个网站，等待同步后它会出现在这里。</p>
           <button type="button" data-sync-notice>查看同步说明</button>
         </section>
+        </main>
       ) : (
         <>
           <section class="wall-layout" aria-label="收藏筛选与卡片区">
@@ -94,7 +97,7 @@ function categoryIcon(category?: string) {
                     autocomplete="off"
                   />
                 </label>
-                <p><strong data-match-count>{tools.length}</strong> 条匹配</p>
+                <p><strong data-match-count>{tools.length}</strong> 条匹配 · 含任一关键词</p>
               </div>
               <div class="intent-row" aria-label="按在做什么筛选">
                 <p class="eyebrow">在做什么</p>
@@ -104,10 +107,17 @@ function categoryIcon(category?: string) {
                   ))}
                 </div>
               </div>
-              <p class="filter-empty" data-filter-empty hidden>没有找到匹配的工具，换个词或分类试试。</p>
+              <div class="filter-empty" data-filter-empty hidden>
+                <p data-filter-empty-message>没有找到匹配的工具，换个词或分类试试。</p>
+                <p class="filter-empty-actions">
+                  <button type="button" class="empty-action" data-clear-search>清除搜索</button>
+                  <button type="button" class="empty-action" data-clear-filters>查看全部工具</button>
+                </p>
+              </div>
 
+          <main id="collection-wall">
           {hasFrequentSection && (
-            <section id="collection-wall" class="tool-section" data-section="frequent" aria-labelledby="frequent-title">
+            <section class="tool-section" data-section="frequent" aria-labelledby="frequent-title">
               <div class="section-heading">
                 <div>
                   <p class="eyebrow">快速回到高频工具</p>
@@ -155,11 +165,12 @@ function categoryIcon(category?: string) {
               </article>)}
             </div>
           </section>
+          </main>
             </div>
           </section>
         </>
       )}
-    </main>
+    </div>
     <footer class="site-footer">
       <p><strong>数据来源说明</strong>：部分数据源自 <a href="https://xiaoer-tools-wall.vercel.app/" target="_blank" rel="noreferrer">xiaoer's 私人弹药库</a>，在此致谢并保留原站链接。</p>
     </footer>
@@ -171,28 +182,15 @@ function categoryIcon(category?: string) {
       const sections = document.querySelectorAll("[data-section]");
       const matchCount = document.querySelector("[data-match-count]");
       const filterEmpty = document.querySelector("[data-filter-empty]");
+      const emptyMessage = document.querySelector("[data-filter-empty-message]");
+      const clearSearch = document.querySelector("[data-clear-search]");
+      const clearFilters = document.querySelector("[data-clear-filters]");
       let category = "";
       let intent = "";
 
-      function matchesIntent(search, keywords) {
-        return !keywords || keywords.split(/\s+/).some((key) => search.includes(key));
-      }
-
-      function refreshCards() {
-        const query = searchInput?.value.trim().toLowerCase() ?? "";
-        let visibleCount = 0;
-        cards.forEach((card) => {
-          const search = card.dataset.search ?? "";
-          const matchesCategory = !category || card.dataset.category === category;
-          const matchesQuery = !query || search.includes(query);
-          card.hidden = !(matchesCategory && matchesQuery && matchesIntent(search, intent));
-          if (!card.hidden) visibleCount += 1;
-        });
-        sections.forEach((section) => {
-          section.hidden = !section.querySelector("[data-tool]:not([hidden])");
-        });
-        if (matchCount) matchCount.textContent = String(visibleCount);
-        if (filterEmpty) filterEmpty.hidden = visibleCount > 0;
+      function matchesTokens(search, text) {
+        const keys = (text ?? "").trim().toLowerCase().split(/\s+/).filter(Boolean);
+        return keys.length === 0 || keys.some((key) => search.includes(key));
       }
 
       function syncCategoryState() {
@@ -201,6 +199,36 @@ function categoryIcon(category?: string) {
           item.classList.toggle("is-selected", selected);
           item.setAttribute("aria-pressed", selected ? "true" : "false");
         });
+      }
+
+      function syncIntentState() {
+        intentButtons.forEach((item) => {
+          const selected = intent !== "" && (item.dataset.intentFilter ?? "") === intent;
+          item.classList.toggle("is-selected", selected);
+          item.setAttribute("aria-pressed", selected ? "true" : "false");
+        });
+      }
+
+      function refreshCards() {
+        const rawQuery = searchInput?.value.trim() ?? "";
+        let visibleCount = 0;
+        cards.forEach((card) => {
+          const search = card.dataset.search ?? "";
+          const matchesCategory = !category || card.dataset.category === category;
+          card.hidden = !(matchesCategory && matchesTokens(search, rawQuery) && matchesTokens(search, intent));
+          if (!card.hidden) visibleCount += 1;
+        });
+        sections.forEach((section) => {
+          section.hidden = !section.querySelector("[data-tool]:not([hidden])");
+        });
+        if (matchCount) matchCount.textContent = String(visibleCount);
+        if (filterEmpty) {
+          filterEmpty.hidden = visibleCount > 0;
+          if (visibleCount === 0 && emptyMessage) {
+            emptyMessage.textContent = rawQuery ? `没有找到 “${rawQuery}”。` : "这个分类下没有匹配，查看全部工具";
+          }
+          if (clearSearch) clearSearch.hidden = !rawQuery;
+        }
       }
 
       categoryButtons.forEach((button) => button.addEventListener("click", () => {
@@ -212,14 +240,23 @@ function categoryIcon(category?: string) {
       intentButtons.forEach((button) => button.addEventListener("click", () => {
         const nextIntent = button.dataset.intentFilter ?? "";
         intent = intent === nextIntent ? "" : nextIntent;
-        intentButtons.forEach((item) => {
-          const selected = intent !== "" && item === button;
-          item.classList.toggle("is-selected", selected);
-          item.setAttribute("aria-pressed", selected ? "true" : "false");
-        });
+        syncIntentState();
         refreshCards();
       }));
       searchInput?.addEventListener("input", refreshCards);
+      clearSearch?.addEventListener("click", () => {
+        if (searchInput) searchInput.value = "";
+        refreshCards();
+        searchInput?.focus();
+      });
+      clearFilters?.addEventListener("click", () => {
+        category = "";
+        intent = "";
+        if (searchInput) searchInput.value = "";
+        syncCategoryState();
+        syncIntentState();
+        refreshCards();
+      });
       document.querySelectorAll("[data-retry], [data-sync-notice]").forEach((button) => button.addEventListener("click", () => {
         window.alert("首版为静态站，请在本地 watcher 完成一次同步后再刷新页面。");
       }));

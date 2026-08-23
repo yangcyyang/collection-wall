@@ -19,7 +19,8 @@ const typeFilters = promptTypeFilters(sets);
     <title>提示词 · 工具库</title>
   </head>
   <body>
-    <main class="page-shell">
+    <a class="skip-link" href="#prompt-masonry">跳到列表</a>
+    <div class="page-shell">
       <header class="site-header">
         <div>
           <p class="eyebrow">{eyebrow}</p>
@@ -32,11 +33,13 @@ const typeFilters = promptTypeFilters(sets);
       <SiteNav current="prompts" />
 
       {sets.length === 0 ? (
+        <main id="prompt-masonry">
         <section class="empty-state" aria-labelledby="empty-title">
           <p class="empty-icon">✦</p>
           <h2 id="empty-title">还没有提示词</h2>
           <p>把提示词 JSON 放到 data/prompts/ 后会出现在这里。</p>
         </section>
+        </main>
       ) : (
         <>
           <div class="tag-filter-row" aria-label="按图片类型筛选">
@@ -46,7 +49,7 @@ const typeFilters = promptTypeFilters(sets);
             ))}
           </div>
 
-          <section class="prompt-masonry" aria-label="提示词图片墙">
+          <main id="prompt-masonry" class="prompt-masonry" aria-label="提示词图片墙">
             {sets.map((set) => (
               <article
                 class="prompt-card"
@@ -72,10 +75,10 @@ const typeFilters = promptTypeFilters(sets);
                 <pre class="prompt-payload" hidden>{set.prompt}</pre>
               </article>
             ))}
-          </section>
+          </main>
         </>
       )}
-    </main>
+    </div>
     <footer class="site-footer">
       <p><strong>数据来源说明</strong>：图片与提示词来自小小东推文、小小东邮件、AI Art Daily 等公开来源，提示词按原文照录。</p>
     </footer>
@@ -147,7 +150,12 @@ const typeFilters = promptTypeFilters(sets);
               if (label) label.textContent = idleLabel;
             }, 1600);
           } catch {
-            if (label) label.textContent = "复制失败";
+            if (label) label.textContent = "无法复制，请选中提示词手动复制";
+            if (payload) {
+              payload.hidden = false;
+              payload.setAttribute("tabindex", "0");
+              payload.focus();
+            }
           }
         });
       });

@@ -41,6 +41,8 @@
 
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--color-bg); color: var(--color-text-primary); font-family: var(--font-cn); font-size: var(--font-size-body); }
+.skip-link { background: var(--color-surface); border-radius: var(--radius-card); color: var(--color-brand); font-size: var(--font-size-caption); left: var(--spacing-md); padding: var(--spacing-sm) var(--spacing-md); position: absolute; text-decoration: none; top: var(--spacing-md); transform: translateY(-250%); z-index: 40; }
+.skip-link:focus { outline: var(--outline-width) solid var(--color-brand); outline-offset: var(--outline-width); transform: none; }
 button, select { font: inherit; }
 button { cursor: pointer; }
 a { color: inherit; }
@@ -86,6 +88,9 @@ h2 { font-size: var(--font-size-title); margin-bottom: 0; }
 .search-box input { background: transparent; border: 0; color: var(--color-text-primary); flex: 1; font: inherit; min-width: 0; outline: 0; }
 .search-box:focus-within { border-color: var(--color-brand); box-shadow: 0 0 0 var(--outline-width) var(--color-bg); }
 .filter-empty { color: var(--color-text-secondary); margin: var(--spacing-xl) 0; text-align: center; }
+.filter-empty-actions { display: flex; flex-wrap: wrap; gap: var(--spacing-sm); justify-content: center; }
+.empty-action { background: var(--color-surface); border: var(--border-width) solid var(--color-border); border-radius: var(--radius-card); color: var(--color-brand); font-size: var(--font-size-caption); padding: var(--spacing-xs) var(--spacing-md); }
+.empty-action:focus-visible { outline: var(--outline-width) solid var(--color-brand); outline-offset: var(--outline-width); }
 .tool-section { padding: var(--spacing-lg) 0; }
 .section-heading { margin-bottom: var(--spacing-md); }
 .tool-grid { display: grid; gap: var(--spacing-md); grid-template-columns: repeat(auto-fill, minmax(var(--card-min-width), 1fr)); }
@@ -241,6 +246,8 @@ body.prompt-viewer-open { overflow: hidden; }
 .prompt-source:hover { color: var(--color-brand); text-decoration: underline; }
 .prompt-copy { background: var(--color-brand); border: 0; border-radius: var(--radius-card); color: var(--color-surface); font-size: var(--font-size-caption); padding: var(--spacing-xs) var(--spacing-md); }
 .prompt-copy.is-copied { background: var(--color-badge-frequent); }
+.prompt-payload { background: var(--color-bg); font-size: var(--font-size-caption); margin: 0; max-height: 12rem; overflow: auto; overflow-wrap: anywhere; padding: var(--spacing-md); white-space: pre-wrap; }
+.prompt-payload:focus-visible { outline: var(--outline-width) solid var(--color-brand); outline-offset: var(--outline-width); }
 
 @media (max-width: 64rem) { .prompt-masonry { column-count: 3; } }
 @media (max-width: 48rem) { .prompt-masonry { column-count: 2; } }
