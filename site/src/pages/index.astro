@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import SiteNav from "../components/SiteNav.astro";
 import { getTools } from "../lib/tools";
 import { selectFeaturedTools } from "../lib/tool-order.mjs";
 import { categoryCounts } from "../lib/tool-filter.mjs";
@@ -54,13 +55,7 @@ function categoryIcon(category?: string) {
         </div>
       </header>
 
-      <nav class="tabs" aria-label="站点栏目">
-        <a class="tab is-active" href="#collection-wall">收藏墙</a>
-        <a class="tab" href="/twitter/">推特日报</a>
-        <span class="tab is-disabled">每日日报 · 即将开放</span>
-        <a class="tab" href="/knowledge/">知识总结</a>
-        <a class="tab" href="/prompts/">提示词</a>
-      </nav>
+      <SiteNav current="wall" />
 
       {tools.length === 0 ? (
         <section class="empty-state" aria-labelledby="empty-title">
@@ -78,10 +73,10 @@ function categoryIcon(category?: string) {
                 <span>{categories.length} 类</span>
               </div>
               <div class="category-list">
-                <button class="category-button is-selected" type="button" data-category-filter="" title="全部工具">
+                <button class="category-button is-selected" type="button" data-category-filter="" title="全部工具" aria-pressed="true">
                   <span>全部工具</span><em>{tools.length}</em>
                 </button>
-                {categories.map(({ category, count }) => <button class="category-button" type="button" data-category-filter={category} title={category}>
+                {categories.map(({ category, count }) => <button class="category-button" type="button" data-category-filter={category} title={category} aria-pressed="false">
                   <span>{category}</span><em>{count}</em>
                 </button>)}
               </div>
@@ -200,11 +195,18 @@ function categoryIcon(category?: string) {
         if (filterEmpty) filterEmpty.hidden = visibleCount > 0;
       }
 
+      function syncCategoryState() {
+        categoryButtons.forEach((item) => {
+          const selected = (item.dataset.categoryFilter ?? "") === category;
+          item.classList.toggle("is-selected", selected);
+          item.setAttribute("aria-pressed", selected ? "true" : "false");
+        });
+      }
+
       categoryButtons.forEach((button) => button.addEventListener("click", () => {
         const nextCategory = button.dataset.categoryFilter ?? "";
         category = category === nextCategory ? "" : nextCategory;
-        categoryButtons.forEach((item) => item.classList.toggle("is-selected", item === button));
-        if (!category) categoryButtons[0]?.classList.add("is-selected");
+        syncCategoryState();
         refreshCards();
       }));
       intentButtons.forEach((button) => button.addEventListener("click", () => {

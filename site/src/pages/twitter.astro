@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import SiteNav from "../components/SiteNav.astro";
 import { getTwitterDays, splitRecentAndArchive, tagCounts, getTagCategories } from "../lib/twitter";
 import TwitterDayGroup from "../components/TwitterDayGroup.astro";
 
@@ -19,7 +20,7 @@ for (const t of tags) {
   catTagCount.set(t.category, seen + 1);
 }
 const categoryTabs = [
-  { key: "all", label: "全部", count: tags.length },
+  { key: "all", label: "全部", count: totalItems },
   ...cats.order
     .filter((k) => (catTagCount.get(k) ?? 0) > 0)
     .map((k) => ({ key: k, label: cats.labels[k] ?? k, count: catTagCount.get(k) ?? 0 })),
@@ -44,13 +45,7 @@ const categoryTabs = [
         <p class="record-count">{totalItems} 条已收录</p>
       </header>
 
-      <nav class="tabs" aria-label="站点栏目">
-        <a class="tab" href="/">收藏墙</a>
-        <a class="tab is-active" href="/twitter/">推特日报</a>
-        <span class="tab is-disabled">每日日报 · 即将开放</span>
-        <a class="tab" href="/knowledge/">知识总结</a>
-        <a class="tab" href="/prompts/">提示词</a>
-      </nav>
+      <SiteNav current="twitter" />
 
       {days.length === 0 ? (
         <section class="empty-state" aria-labelledby="empty-title">
@@ -64,13 +59,13 @@ const categoryTabs = [
             <div class="tag-browser">
               <nav class="category-tabs" aria-label="按类别筛选">
                 {categoryTabs.map((c, i) => (
-                  <button class={i === 0 ? "category-tab is-selected" : "category-tab"} type="button" data-category-tab={c.key}>{c.label}<em>{c.count}</em></button>
+                  <button class={i === 0 ? "category-tab is-selected" : "category-tab"} type="button" data-category-tab={c.key} aria-pressed={i === 0 ? "true" : "false"}>{c.label}<em>{c.count}</em></button>
                 ))}
               </nav>
               <div class="tag-filter-row" aria-label="按标签筛选">
-                <button class="tag-filter is-selected" type="button" data-tag-filter="">全部</button>
+                <button class="tag-filter is-selected" type="button" data-tag-filter="" aria-pressed="true">全部</button>
                 {tags.map(({ tag, count, category }, gi) => (
-                  <button class="tag-filter" type="button" data-tag-filter={tag} data-category={category} data-grank={gi} data-crank={perCatRank.get(tag) ?? 0} hidden={gi >= TOP_TAGS}>{tag}<em>{count}</em></button>
+                  <button class="tag-filter" type="button" data-tag-filter={tag} data-category={category} data-grank={gi} data-crank={perCatRank.get(tag) ?? 0} hidden={gi >= TOP_TAGS} aria-pressed="false">{tag}<em>{count}</em></button>
                 ))}
                 <button class="tag-more" type="button" hidden>更多 ▾</button>
               </div>
@@ -180,13 +175,21 @@ const categoryTabs = [
         syncAutoExpand();
       }
 
+      function syncPressed(buttons, isSelected) {
+        buttons.forEach((item) => {
+          const selected = isSelected(item);
+          item.classList.toggle("is-selected", selected);
+          item.setAttribute("aria-pressed", selected ? "true" : "false");
+        });
+      }
+
       categoryTabs.forEach((btn) => btn.addEventListener("click", () => {
         activeCategory = btn.dataset.categoryTab ?? "all";
-        categoryTabs.forEach((b) => b.classList.toggle("is-selected", b === btn));
+        syncPressed(categoryTabs, (b) => b === btn);
         activeTag = "";
         tagsExpanded = false;
         page = 1;
-        filterButtons.forEach((b) => b.classList.toggle("is-selected", (b.getAttribute("data-tag-filter") ?? "") === ""));
+        syncPressed(filterButtons, (b) => (b.getAttribute("data-tag-filter") ?? "") === "");
         applyTagVisibility();
         refresh();
       }));
@@ -195,11 +198,7 @@ const categoryTabs = [
         const nextTag = button.getAttribute("data-tag-filter") ?? "";
         activeTag = activeTag === nextTag ? "" : nextTag;
         page = 1;
-        filterButtons.forEach((item) => item.classList.toggle("is-selected", item === button && activeTag !== ""));
-        if (!activeTag) {
-          const allBtn = [...filterButtons].find((b) => (b.getAttribute("data-tag-filter") ?? "") === "");
-          if (allBtn) allBtn.classList.add("is-selected");
-        }
+        syncPressed(filterButtons, (item) => (item.getAttribute("data-tag-filter") ?? "") === activeTag);
         refresh();
       }));
 

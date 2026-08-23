@@ -1,6 +1,7 @@
 ---
 import "../styles/global.css";
 import PromptViewer from "../components/PromptViewer.astro";
+import SiteNav from "../components/SiteNav.astro";
 import { formatPromptEyebrow, getPromptSets, imageCount } from "../lib/prompts";
 import { promptTypeFilters, sourceLinkLabel } from "../lib/prompt-type.mjs";
 
@@ -28,13 +29,7 @@ const typeFilters = promptTypeFilters(sets);
         <p class="record-count" data-record-count data-total-sets={sets.length} data-total-images={totalImages}>{sets.length} 套 · {totalImages} 张图</p>
       </header>
 
-      <nav class="tabs" aria-label="站点栏目">
-        <a class="tab" href="/">收藏墙</a>
-        <a class="tab" href="/twitter/">推特日报</a>
-        <span class="tab is-disabled">每日日报 · 即将开放</span>
-        <a class="tab" href="/knowledge/">知识总结</a>
-        <a class="tab is-active" href="/prompts/">提示词</a>
-      </nav>
+      <SiteNav current="prompts" />
 
       {sets.length === 0 ? (
         <section class="empty-state" aria-labelledby="empty-title">
@@ -45,9 +40,9 @@ const typeFilters = promptTypeFilters(sets);
       ) : (
         <>
           <div class="tag-filter-row" aria-label="按图片类型筛选">
-            <button class="tag-filter is-selected" type="button" data-tag-filter="">全部<em>{sets.length}</em></button>
+            <button class="tag-filter is-selected" type="button" data-tag-filter="" aria-pressed="true">全部<em>{sets.length}</em></button>
             {typeFilters.map(({ type, count }) => (
-              <button class="tag-filter" type="button" data-tag-filter={type}>{type}<em>{count}</em></button>
+              <button class="tag-filter" type="button" data-tag-filter={type} aria-pressed="false">{type}<em>{count}</em></button>
             ))}
           </div>
 
@@ -113,8 +108,11 @@ const typeFilters = promptTypeFilters(sets);
       filterButtons.forEach((button) => button.addEventListener("click", () => {
         const nextTag = button.getAttribute("data-tag-filter") ?? "";
         activeTag = activeTag === nextTag ? "" : nextTag;
-        filterButtons.forEach((item) => item.classList.toggle("is-selected", item === button && activeTag !== ""));
-        if (!activeTag) filterButtons[0]?.classList.add("is-selected");
+        filterButtons.forEach((item) => {
+          const selected = (item.getAttribute("data-tag-filter") ?? "") === activeTag;
+          item.classList.toggle("is-selected", selected);
+          item.setAttribute("aria-pressed", selected ? "true" : "false");
+        });
         refresh();
       }));
 

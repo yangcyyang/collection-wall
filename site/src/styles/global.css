@@ -57,8 +57,8 @@ h2 { font-size: var(--font-size-title); margin-bottom: 0; }
 .tabs { display: flex; gap: var(--spacing-lg); border-bottom: var(--border-width) solid var(--color-border); padding: var(--spacing-md) 0; }
 .tab { color: var(--color-text-secondary); font-size: var(--font-size-caption); text-decoration: none; }
 .tab.is-active { color: var(--color-brand); font-weight: 700; }
-.tab.is-disabled { opacity: 0.7; }
 .tab:focus-visible { outline: var(--outline-width) solid var(--color-brand); outline-offset: var(--outline-width); }
+.nav-caption { color: var(--color-text-secondary); font-size: var(--font-size-caption); margin: 0; padding-bottom: var(--spacing-sm); }
 .wall-layout { display: grid; gap: var(--spacing-xl); grid-template-columns: var(--sidebar-width) minmax(0, 1fr); padding: var(--spacing-lg) 0; }
 .category-sidebar { align-self: start; border-right: var(--border-width) solid var(--color-border); padding-right: var(--spacing-md); position: sticky; top: var(--sidebar-top); }
 .sidebar-heading, .category-button, .search-row { align-items: center; display: flex; justify-content: space-between; }

@@ -1,0 +1,21 @@
+---
+type Props = { current: "wall" | "twitter" | "knowledge" | "prompts" };
+const { current } = Astro.props;
+const items = [
+  { id: "wall", href: "/", label: "收藏墙" },
+  { id: "twitter", href: "/twitter/", label: "推特日报" },
+  { id: "knowledge", href: "/knowledge/", label: "知识总结" },
+  { id: "prompts", href: "/prompts/", label: "提示词" },
+] as const;
+---
+
+<nav class="tabs" aria-label="站点栏目">
+  {items.map((item) => (
+    <a
+      class:list={["tab", { "is-active": current === item.id }]}
+      href={current === "wall" && item.id === "wall" ? "#collection-wall" : item.href}
+      aria-current={current === item.id ? "page" : undefined}
+    >{item.label}</a>
+  ))}
+</nav>
+<p class="nav-caption">每日日报 · 即将开放</p>
