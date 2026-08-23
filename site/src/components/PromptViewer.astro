@@ -1,5 +1,5 @@
 <div class="prompt-viewer" hidden data-prompt-viewer>
-  <button type="button" class="prompt-viewer-backdrop" data-viewer-close aria-label="关闭查看器"></button>
+  <button type="button" class="prompt-viewer-backdrop" data-viewer-close aria-label="关闭查看器" tabindex="-1"></button>
   <div class="prompt-viewer-dialog" role="dialog" aria-modal="true" aria-label="同组大图">
     <button type="button" class="prompt-viewer-close" data-viewer-close>关闭</button>
     <button type="button" class="prompt-viewer-nav is-prev" data-viewer-prev aria-label="上一张">‹</button>
@@ -41,6 +41,18 @@
     if (nextBtn) nextBtn.hidden = !many;
   }
 
+  function setBackgroundInert(on) {
+    if (!viewer) return;
+    for (const child of document.body.children) {
+      if (child === viewer || child.tagName === "SCRIPT") continue;
+      child.toggleAttribute("inert", on);
+    }
+  }
+
+  function trapFocusables() {
+    return [closeBtn, prevBtn, nextBtn].filter((el) => el && !el.hidden);
+  }
+
   function open(card, trigger) {
     urls = setImages(card);
     if (!urls.length || !viewer) return;
@@ -48,6 +60,7 @@
     lastTrigger = trigger ?? null;
     viewer.hidden = false;
     document.body.classList.add("prompt-viewer-open");
+    setBackgroundInert(true);
     render();
     closeBtn?.focus();
   }
@@ -56,6 +69,7 @@
     if (!viewer || viewer.hidden) return;
     viewer.hidden = true;
     document.body.classList.remove("prompt-viewer-open");
+    setBackgroundInert(false);
     urls = [];
     lastTrigger?.focus();
     lastTrigger = null;
@@ -86,6 +100,16 @@
     if (event.key === "Escape") close();
     if (event.key === "ArrowLeft") step(-1);
     if (event.key === "ArrowRight") step(1);
+    if (event.key !== "Tab") return;
+    const list = trapFocusables();
+    if (!list.length) return;
+    const first = list[0];
+    const last = list[list.length - 1];
+    const outside = !list.includes(document.activeElement);
+    if (list.length === 1 || outside || (event.shiftKey && document.activeElement === first) || (!event.shiftKey && document.activeElement === last)) {
+      event.preventDefault();
+      (event.shiftKey ? last : first).focus();
+    }
   });
 
   stage?.addEventListener("pointerdown", (event) => {
