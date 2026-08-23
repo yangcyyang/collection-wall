@@ -433,25 +433,265 @@
         "推理"
       ],
       "rank": 13
+    },
+    {
+      "id": "2091506344335749522",
+      "author": "python_xxt",
+      "bio": "",
+      "text": "东数西算，最近有个很有意思的现象：\n\n乌兰察布突然挤满了算力中心\n\n2024年底，当地还只有36个数据中心项目，到2026年6月已经变成89个，签约总投资超过5000亿元，运行算力达到16.5万P，其中约6.5万P在承接北京外溢算力。\n\n最直接的优势，是离北京近。\n乌兰察布距离北京只有300多公里，直达北京的光缆单向最低时延约2.1毫秒，双向约4.2毫秒。\n\n庆阳同样是“东数西算”核心节点，但距离北京接近900公里。过去做存储、备份和大模型训练，多几毫秒影响不大；现在AI算力逐渐从训练向推理扩散，实时调用、在线模型这些业务对时延越来越敏感，乌兰察布的位置就突然变得很值钱：拿着西部的成本，却接近北京的时延。\n\n第二个优势是电。\n庆阳绿电到户电价已经压到0.4元/度以内，乌兰察布部分算力中心还能做到约0.358元/度。只差4分钱，但一个100MW的数据中心一年耗电约8.76亿度，对应就是3500万元成本差；如果做到500MW级别，就是接近1.75亿元。\n\n几分钱电价差，最后是巨额现金流。\n\n而且内蒙古本身就是能源大区，过去最擅长的是把电送到东部，现在开始变成：把GPU搬到电厂旁边，再把Token送到东部。\n\n第三个优势是气候。乌兰察布年平均气温只有4℃左右，大部分时间可以利用自然冷源。数据中心除了GPU耗电，冷却系统同样是能耗大户，低温可以进一步降低用电成本。\n\n乌兰察布离北京只有300多公里，\n有低价绿电，有低温气候，还有直连北京的低时延网络。\n\n如果把北京看成一个巨大的AI算力消费中心，\n乌兰察布可能会成为北京的的“算力卫星城”。\n\n草原负责发电，\nGPU负责烧电，\n最后顺着光纤送出去的，已经不是电了。\n\n是Token~！",
+      "likes": 25,
+      "views": "4162",
+      "url": "https://x.com/i/status/2091506344335749522",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQaAuqIbIAA5CBv.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQaAuqIbIAA5CBv.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 63.688,
+      "created_at": "2026-08-23T12:42:25Z",
+      "summary": "作者梳理东数西算下乌兰察布爆发：项目从 36 个增至 89 个、运行算力约 16.5 万P。核心优势是距北京约 300 公里、光缆往返约 4.2ms，适合推理等时延敏感业务；电价可到约 0.358 元/度，叠加年均约 4℃ 的自然冷源。结论是草原发电、GPU 烧电，光纤送出的已是 Token。",
+      "recommend_reason": "把时延、电价、气候三要素算进推理业务，是少见的扎实算力地理分析。",
+      "tags": [
+        "算力",
+        "东数西算",
+        "基础设施"
+      ],
+      "title": "乌兰察布成北京“算力卫星城”：低时延 + 便宜绿电 + 自然冷源",
+      "rank": 14
+    },
+    {
+      "id": "2091501206065606773",
+      "author": "abskoop",
+      "bio": "",
+      "text": "Vercel 开了一门完整的课程：Build Your Own AI Coding Agent Harness\n\n教你从零手写一个完整、能真正干活的 AI 编码 Agent 框架 https://t.co/L3RJPJRQj8",
+      "likes": 85,
+      "views": "8316",
+      "url": "https://x.com/i/status/2091501206065606773",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQZkoUNbkAAmr1D.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQZkoUNbkAAmr1D.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 65.951,
+      "created_at": "2026-08-23T12:22:00Z",
+      "summary": "Vercel 开了一门完整的课程：Build Your Own AI Coding Agent Harness\n\n教你从零手写一个完整、能真正干活的 AI 编码 Agent 框架",
+      "recommend_reason": "从零手写可用 Agent Harness 的系统课，比零散教程更适合当学习主线。",
+      "tags": [
+        "Vercel",
+        "Agent Harness",
+        "课程"
+      ],
+      "rank": 15
+    },
+    {
+      "id": "2091463821538046360",
+      "author": "IndieDevHailey",
+      "bio": "",
+      "text": "AI做PPT又卷出新高度了。\n\nGitHub上这个Dashi PPT Skill，把AI Agent变成真正能用的PPT助手。\n\n丢份文档进去，自动拆结构生成完整PPT，浏览器里直接改：点文字、换图、滑杆调布局配色都行。12套主题、1020版式、8576可调控件，最后一键导出真·可编辑PPTX。\n\n支持Claude Code、Codex等，本地跑，内容不上传。\n\n职场汇报可以直接用，高级感满满～",
+      "likes": 32,
+      "views": "3456",
+      "url": "https://x.com/i/status/2091463821538046360",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2091463501424504832/vid/avc1/480x270/CFW51eFxeT3ops0X.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2091463501424504832/img/Jmjo-StottVg8eCy.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 63.983,
+      "created_at": "2026-08-23T09:53:27Z",
+      "summary": "AI做PPT又卷出新高度了。\n\nGitHub上这个Dashi PPT Skill，把AI Agent变成真正能用的PPT助手。\n\n丢份文档进去，自动拆结构生成完整PPT，浏览器里直接改：点文字、换图、滑杆调布局配色都行。12套主题、1020版式、8576可调控件，最后一键导出真·可编辑PPTX。\n\n支持Claude Code、Codex等，本地跑，内容不上传。\n\n职场汇报可以直接用，高级感满满～",
+      "recommend_reason": "本地可编辑 PPTX 导出这条链比“只生成图片幻灯片”更接近职场真交付。",
+      "tags": [
+        "PPT",
+        "Skill",
+        "本地工具"
+      ],
+      "rank": 16
+    },
+    {
+      "id": "2091456254669709671",
+      "author": "op7418",
+      "bio": "",
+      "text": "对比得更彻底一点：\n\nOx Alpha 模型、DeepSeek V4 Flash、Vision EXP 模型和 Claude Fable 5 模型，用同样的提示词和同样的参考图进行对比。\n\nClaude Fable 5 在排版细节和方块的色散处理上更好一点 https://t.co/mu2uEjZdTb",
+      "likes": 72,
+      "views": "22398",
+      "url": "https://x.com/i/status/2091456254669709671",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQZYHwnbAAAUNnC.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQZYHwnbAAAUNnC.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2091395283028738303",
+        "author": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "text": "Ox Alpha 多模态和代码能力真的牛皮\n\n给了他一张图片，让他用 WebGL 还原这个网页。\n\n他真的做出来了这种 3D 玻璃材质的质感和透视，非常清晰。\n\n最牛逼的是，我如果不是拿原图跟这个图片对比的话，我都以为它是直接把原图垫在下面，只有一些字体上的区别，然后文字的位置、排版细节都是一样的 https://t.co/iyoq9PMS9O",
+        "created_at": "Sun Aug 23 05:21:06 +0000 2026",
+        "url": "https://x.com/op7418/status/2091395283028738303",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQYg42ebgAA3tSA.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQYg42ebgAA3tSA.jpg"
+        ]
+      },
+      "score": 63.018,
+      "created_at": "2026-08-23T09:23:23Z",
+      "summary": "对比得更彻底一点：\n\nOx Alpha 模型、DeepSeek V4 Flash、Vision EXP 模型和 Claude Fable 5 模型，用同样的提示词和同样的参考图进行对比。\n\nClaude Fable 5 在排版细节和方块的色散处理上更好一点",
+      "recommend_reason": "同提示同参考图的四模型横评，排版细节结论可直接拿去选型。",
+      "tags": [
+        "模型对比",
+        "Claude",
+        "图像生成"
+      ],
+      "rank": 17
+    },
+    {
+      "id": "2091409407406215320",
+      "author": "VigoCreativeAI",
+      "bio": "",
+      "text": "Turn your sound ON for this one. 🔊\n\nAt 0:09 the whole world goes silent — every raindrop freezes mid-air. That cut, and every sound before it, came out of ONE MiniMax H3 generation. Zero sound design.\n\nWhat H3 pulled off:\n🌧️ Layered city noise building for 9 straight seconds\n🔇 A total audio cut at exactly 9.0s, synced to frozen rain\n🧩 Exploded view: 4 layers, 4 clicks\n🎨 3 colorway swaps, shape locked\n🔤 Every label clean: \"40 MM DRIVER\" \"ANC -45 DB\"\n\nAn ANC headphone ad where the product demo IS the audio track. You can't fake that in post — picture and sound are born together.\n\nUnlimited #MiniMaxH3 on @runwayml — go make some noise. @Hailuo_AI\n\nFull prompt in the first comment 👇",
+      "likes": 16,
+      "views": "1233",
+      "url": "https://x.com/i/status/2091409407406215320",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2091409332462362624/vid/avc1/480x270/LxwGsBiD-UAfpAWE.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2091409332462362624/img/HDTWxD3cyyvMPBT9.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2091054531140292653",
+        "author": "VigoCreativeAI",
+        "name": "Vigo Zhao",
+        "text": "A full sneaker launch spot. One prompt. One 15s generation. No After Effects.\n\nMade with MiniMax H3 — here's what it nailed:\n🎬 5 shots cut on the beat, zero post editing\n🧩 Exploded view: 4 layers separate on 4 clicks\n🎨 3 colorway swaps, shape locked, only the colors change\n🔤 Every label spelled right: \"CARBON PLATE\" \"186 G\" \"RUN WEIGHTLESS\"\n🔊 Native audio: the thump, the clicks, the bass drop — generated with the picture\n\nPackaging, motion graphics, typography, precise editing. One model, one pass.\n\nUnlimited #MiniMaxH3 on @runwayml — go make your own. @Hailuo_AI\n\nFull prompt in the first comment 👇",
+        "created_at": "Sat Aug 22 06:47:04 +0000 2026",
+        "url": "https://x.com/VigoCreativeAI/status/2091054531140292653",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2091054437720637440/vid/avc1/480x270/vRZK9MF4lPRkV1_u.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2091054437720637440/img/-LqBa1qJ-fAm673e.jpg"
+        ]
+      },
+      "score": 65.769,
+      "created_at": "2026-08-23T06:17:13Z",
+      "summary": "作者展示用一次 MiniMax H3 生成完成 ANC 耳机广告音画：城市雨声叠层 9 秒后精准静音并冻结雨滴，再接爆炸视图四层点击与配色切换；强调画面与音轨同生，不是后期硬剪。Runway 上可无限用 H3。",
+      "recommend_reason": "音画同生的产品演示比“又一个视频模型”说法更具体，能看见能力边界。",
+      "tags": [
+        "MiniMax",
+        "AI视频",
+        "音画同步"
+      ],
+      "title": "MiniMax H3 一条生成完成耳机广告：雨声叠层、9 秒静音切与爆炸视图同轨",
+      "rank": 18
+    },
+    {
+      "id": "2091407991736332689",
+      "author": "thsottiaux",
+      "bio": "",
+      "text": "Update on rate limits in Codex. \n\nWe’ve found (a) some inefficiencies when using images in long sessions with multiple compactions (b) high p95+ usage for Computer History (c) a feature that was meant to generate conversation titles that was draining a bit more usage than intended. And we have a tiger team combing through everything and shipping fixes tomorrow. We also found a novel approach to drive efficiency up significantly that is completely unrelated and we will be working on next week.\n\nAs part of some of the fixes tomorrow, we will also do a full reset of the usage for all paid subscriptions.\n\nSee you then.",
+      "likes": 12228,
+      "views": "1666113",
+      "url": "https://x.com/i/status/2091407991736332689",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2091033630147854385",
+        "author": "thsottiaux",
+        "name": "Tibo",
+        "text": "Update on rate limits in Codex. We do see that for some users the cache hit rate has been worse this week than the stable state the weeks before. This could explain that usage is draining somewhat faster for those users as hitting the cache consistently is an important component of being efficient.\n\nWe are investigating and will have an update tomorrow.",
+        "created_at": "Sat Aug 22 05:24:01 +0000 2026",
+        "url": "https://x.com/thsottiaux/status/2091033630147854385",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 73.22,
+      "created_at": "2026-08-23T06:11:36Z",
+      "summary": "Codex 团队通报限流根因：长会话多轮压缩时用图效率差、Computer History 高分位用量偏高、本应用来生成会话标题的功能额外吃用量；明日上修复并付费订阅用量全量重置，下周还有另一条提效方案。",
+      "recommend_reason": "官方口径的限流归因与重置时间表，比二手抱怨更值得跟。",
+      "tags": [
+        "Codex",
+        "限流",
+        "OpenAI"
+      ],
+      "title": "Codex 限流排查：图像长会话、Computer History 与标题功能拖累用量，付费订阅将全量重置",
+      "rank": 19
+    },
+    {
+      "id": "2091379220257603593",
+      "author": "zarazhangrui",
+      "bio": "",
+      "text": "There’s a phenomenon where talented individuals can achieve 10x their potential thanks to AI when working on their own thing \n\nBut when the same individual is put into a large organization, they at most increase their potential by 20% (and sometimes it’s even decreased)\n\nThis is why I’m seeing more and more talented people leave large companies. (The only exceptions are probably top AI labs like OpenAI/Anthropic)",
+      "likes": 807,
+      "views": "114699",
+      "url": "https://x.com/i/status/2091379220257603593",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2090815767180656839",
+        "author": "stewfortier",
+        "name": "Stew Fortier",
+        "text": "I asked someone this week why they left Google. They told me they had never seen such talent-dense teams produce so little",
+        "created_at": "Fri Aug 21 14:58:19 +0000 2026",
+        "url": "https://x.com/stewfortier/status/2090815767180656839",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 66.29,
+      "created_at": "2026-08-23T04:17:16Z",
+      "summary": "作者观察：能干的人独自做事时，AI 可把潜力放大约 10 倍；一旦进入大组织，最多大约提升 20%，有时甚至倒退。因此更多人才选择离开大公司，例外主要是 OpenAI/Anthropic 这类顶尖 AI 实验室。",
+      "recommend_reason": "把“AI 杠杆”和组织摩擦拆开讲，解释了为什么个人项目看起来更猛。",
+      "tags": [
+        "AI杠杆",
+        "组织",
+        "人才"
+      ],
+      "title": "个人用 AI 可放大十倍，大组织里往往只剩两成",
+      "rank": 20
     }
   ],
-  "generated_at": "2026-08-23T04:05:13Z",
+  "generated_at": "2026-08-23T16:08:09Z",
   "selection": {
-    "target_count": 60,
-    "max_count": 60,
-    "per_run_max": 20,
+    "target_count": 30,
+    "max_count": 30,
+    "per_run_max": 15,
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 13,
-    "last_batch_added": 13,
-    "last_batch_skipped_dup": 0,
-    "last_batch_skipped_author": 0,
+    "actual_count": 20,
+    "last_batch_added": 7,
+    "last_batch_skipped_dup": 3,
+    "last_batch_skipped_author": 1,
     "last_batch_skipped_day_cap": 0,
-    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤15；单日≤30不保底；追加按id去重。",
     "short_tweet": {
       "threshold_chars": 200,
       "title_optional": true,
