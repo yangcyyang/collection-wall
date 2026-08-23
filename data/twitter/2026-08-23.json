@@ -1,0 +1,462 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-23",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2091374796517130282",
+      "author": "xiaoxiaodong01",
+      "bio": "",
+      "text": "GPT2 x 蓝图 x 拆解 x 美学提示词 x VOL.048\n\n这组提示词做的事情，是给照片增加一层“结构视角”。\n\n它会把原本熟悉的对象重新拆开，寻找那些隐藏的关系：连接、路径、层次、空间和运行逻辑。\n\n一张普通照片，会多出一种探索感。\n你看到的不只是“它是什么”，还会开始思考“它为什么这样存在”。\n\nprompt by xiaoxiaodong:\n\n```\n🎂\n同样处理：\n\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体结构、真实质感、自然光影和原有色彩氛围，仅进行轻微高级摄影调色，使其具有艺术杂志、独立出版物和展览摄影质感。为适配画幅，可自然扩展天空、地面或环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分提取照片中最具识别性的主体、轮廓、姿态与叙事关系，重构为透明结构蓝图与高级技术图解。保留主体清晰可辨的外部轮廓，同时将部分表层转化为半透明、剖切、分层或透视状态，显露其最具代表性的内部结构、连接关系、材料层次、运动路径或空间逻辑，形成一种介于工程图纸、X-ray透视图、科学图解与未来档案之间的视觉语言。不要机械堆砌零件，而应根据主体自身属性决定“内部结构”如何被解释：器物表现组件与连接，建筑表现空间与构造，交通工具表现动力与结构，植物表现枝脉与生长，动物或人物则以姿态骨架、动作轨迹、服装层次或抽象结构表达，避免血肉化解剖。\n\n构图以主体为唯一核心，通过透明叠层、局部放大、剖面切片、爆炸分解、结构引线和精细标注建立视觉秩序。可加入极细轴线、尺寸线、节点编号、局部框选与小型结构示意，让信息围绕主体自然展开；不同层级通过线宽、透明度、虚实与疏密区分，保持大面积干净留白和清晰阅读路径，避免复杂科技UI和满版信息堆积。\n\n配色从上方照片中提取最具辨识度和精气神的主色，转化为清透、明亮、偏商务感的单色蓝图体系，以浅色背景、一个主线色和少量深浅变化完成整体。可以是清晰的蓝、绿、红、橙、紫或中性色系，不固定使用蓝色；颜色应干净、理性、有光感，通过透明叠层、线条密度和局部高亮建立层次，避免脏灰、暗沉、霓虹赛博和复杂多色。\n\n文字转化为技术注释与编辑排版的一部分。从照片的主体身份、功能、状态、动作或象征意义中提炼简短标题，并搭配少量结构编号、部件名称、状态词、尺度标记、方向说明或微型注释。文字通过引线、标尺、箭头、局部框选、纵排或边缘排版与主体发生精确关系，像工程草图中的说明系统，同时保持高级杂志式的克制与留白，不使用年份，不写大段说明。\n\n整体呈现透明结构、精密线稿、分层显影、工程秩序与编辑美学结合的高级视觉气质。无论主体是人物、动物、植物、建筑、器物、交通工具或自然对象，都应做到一眼可辨、结构有理、信息克制、层次清晰，避免普通线稿、廉价科幻HUD、过度机械化、复杂零件堆积、固定蓝色和模板感。\n🎂\n```",
+      "created_at": "Sun Aug 23 03:59:42 +0000 2026",
+      "likes": 0,
+      "views": "48",
+      "url": "https://x.com/i/status/2091374796517130282",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQYN7N5aQAAE_Fe.jpg",
+        "https://pbs.twimg.com/media/HQYN8TTaMAAZOg7.jpg",
+        "https://pbs.twimg.com/media/HQYN-CHaYAAY14-.jpg",
+        "https://pbs.twimg.com/media/HQYN_lwawAARU66.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQYN7N5aQAAE_Fe.jpg",
+        "https://pbs.twimg.com/media/HQYN8TTaMAAZOg7.jpg",
+        "https://pbs.twimg.com/media/HQYN-CHaYAAY14-.jpg",
+        "https://pbs.twimg.com/media/HQYN_lwawAARU66.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2091340055138963955",
+        "author": "xiaoxiaodong01",
+        "name": "小小东",
+        "text": "GPT2 x 立体 x 厚涂 x 3D x 美学提示词 x VOL.047\n\n升级了一个版本的提示词\n更好的主体3D  isometric 效果\n\n提示词如下 \nby xiaoxiaodong:\n\n```\n🌷\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体结构、真实质感、自然光影和原有色彩氛围，仅进行轻微高级摄影调色，使其具有艺术杂志、独立出版物与展览摄影质感。为适配画幅，可自然扩展天空、地面或环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分提取照片中最具识别性的**主体、轮廓、姿态与叙事关系**，以 **isometric / 轴测式3D空间逻辑**重构为精致的厚涂微景观。主体不是平面插画，而是具有明确体积、结构、前后关系和稳定落点的立体微缩实体；保留原物最关键的身份特征，可适度整理视角与比例，使其在统一轴测空间中更加完整、清晰、有雕塑感。\n\n主体坐落在一块由厚涂颜料形成的**主题色域**之上。色块不是普通矩形背景，而应根据原图内容转化为水面、地面、道路、草地、光带、岸线、影子或其他与主题相关的空间切片，并沿 isometric 透视方向自然延伸。主体必须与色块发生真实空间关系，可出现落地、嵌入、穿越、延伸、倒影、波纹、投影或局部越界，使二维厚涂笔触与三维主体巧妙连接。\n\n构图依据主体的体量、朝向和运动方向自适应安排，以**斜向轴测、稳定重心、前后纵深和大面积留白**建立专业空间秩序。主体通常位于色块的关键节点而非机械居中，色块承担视线引导和透视延伸；必要时可加入一组低权重的云、太阳、植物、波纹或抽象自然意象，与主体形成前后层次，但不建立第二视觉中心。\n\n绘画语言采用**立体微缩模型 × 厚涂油画 × 真实纸面**的融合方式。主体细节精致、体积清晰，周围环境则保留明显的刮刀痕迹、厚颜料堆积、起伏边缘和手工笔触；云、水、地面和光线可以具有近似浮雕般的油彩厚度，使画面产生“真实模型立在尚未干透的油画颜料上”的触觉错觉。\n\n配色从上方照片中提取**最明亮、最鲜活、最能代表主体精气神的颜色**重新调制，提高明度、纯净度和生命力，以大量清洁暖白作为呼吸空间，搭配清透主色和少量阳光般的暖色点睛。整体明亮、治愈、鲜活而高级，避免灰脏、低沉、莫兰迪化、荧光感和廉价糖果色。\n\n文字少量介入，从照片的主体、地点、情绪或象征意义中提炼简短标题，并搭配极少量副文、编号或微型注释。排版保持细致、克制，可顺应轴测方向、厚涂色块边缘或留白区域排列，与空间透视形成巧妙呼应，而不是独立贴在画面上的标题。\n\n整体呈现 **isometric 立体主体 × 厚涂色域 × 明亮治愈配色 × 真实纸张 × 大面积留白** 的视觉关系。无论主体是建筑、人物、动物、植物、器物、交通工具或自然景观，都应让三维主体真实“站立、生长或存在”于厚涂色块构成的空间中，避免平面贴图、普通插画、塑料CG、玩具模型感和模板化微景观。\n🌷\n```",
+        "created_at": "Sun Aug 23 01:41:39 +0000 2026",
+        "url": "https://x.com/xiaoxiaodong01/status/2091340055138963955",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQXuM4tbMAEfEG8.jpg",
+          "https://pbs.twimg.com/media/HQXuRkFa4AAKDfW.jpg",
+          "https://pbs.twimg.com/media/HQXuSwka0AAf6tY.jpg",
+          "https://pbs.twimg.com/media/HQXuT-zbMAA_Gi8.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQXuM4tbMAEfEG8.jpg",
+          "https://pbs.twimg.com/media/HQXuRkFa4AAKDfW.jpg",
+          "https://pbs.twimg.com/media/HQXuSwka0AAf6tY.jpg",
+          "https://pbs.twimg.com/media/HQXuT-zbMAA_Gi8.jpg"
+        ]
+      },
+      "score": 51.923,
+      "title": "小小东 VOL.048：给照片加一层结构视角",
+      "summary": "VOL.048 把熟悉对象拆开，找连接、路径、层次和运行逻辑，让普通照片多出探索感。上下分栏海报：上半原图，下半用结构图解重读同一主体。完整提示词在原帖。",
+      "recommend_reason": "墙上提示词源的新一组，结构视角比纯风格换皮有用。",
+      "tags": [
+        "提示词",
+        "设计",
+        "小小东"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2091373058913366257",
+      "author": "vista8",
+      "bio": "",
+      "text": "把自己常看的48个AI Newsletter做成了自用的iOS App。\n\n没上架，只是方便装手机里阅读。\n\n开源地址：https://t.co/tdu81svtU3 https://t.co/lSrTRyNiuZ",
+      "created_at": "Sun Aug 23 03:52:47 +0000 2026",
+      "likes": 3,
+      "views": "476",
+      "url": "https://x.com/i/status/2091373058913366257",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQYL-vqagAAj9hh.jpg",
+        "https://pbs.twimg.com/media/HQYMTiOa0AAnX16.jpg",
+        "https://pbs.twimg.com/media/HQYMrOCbQAE0S00.jpg",
+        "https://pbs.twimg.com/media/HQYMtDmbMAAO-F-.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQYL-vqagAAj9hh.jpg",
+        "https://pbs.twimg.com/media/HQYMTiOa0AAnX16.jpg",
+        "https://pbs.twimg.com/media/HQYMrOCbQAE0S00.jpg",
+        "https://pbs.twimg.com/media/HQYMtDmbMAAO-F-.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 40.187,
+      "summary": "把自己常看的48个AI Newsletter做成了自用的iOS App。\n\n没上架，只是方便装手机里阅读。\n\n开源地址：https://t.co/tdu81svtU3 https://t.co/lSrTRyNiuZ",
+      "recommend_reason": "自用 Newsletter 阅读器，开源、没上架，能直接看做法。",
+      "tags": [
+        "开源",
+        "iOS",
+        "Newsletter"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2091371856494268901",
+      "author": "dashen_wang",
+      "bio": "",
+      "text": "Grok 4.6 把 Agent 上下文拉到 50 万。\n\nxAI 8 月 12 日上线 Grok 4.6。同样的 1.5 万亿参数 V9 基座,不是新模型,是后训练重构后的升级版。\n\n重点不是分数。\n\nArtificial Analysis Intelligence Index 上,Grok 4.6 打 61 分,跟 GPT-5.6 Sol 平手,比 Claude Fable 5 低 1 分。真正动起来的是 Coding Agent 类基准:DeepSWE v1.1 +11.9、APEX-Agents +10.4、Terminal-Bench v3.0 +10.3、GDPVal-AA v2 Elo +227、AA-Briefcase Elo +264。这些是长时间、多步、跨工具的活。\n\n钱从哪来、付什么钱。\n\n买方是 Cursor、Groq Build、Grok Build、OpenRouter、Vercel、Cloudflare 这一类长程 Agent 工具方和把 Grok 4.6 嵌进自己产品的开发者。付的是每百万 token 2 美元输入、0.5 美元缓存命中、6 美元输出的标准费率,超过 20 万 token 提示直接翻倍到 4/1/12,全请求按长上下文档计。Priority Processing 通道再乘 2,定价不友好但承诺低延迟。\n\nxAI 付的是品牌 + 后训练工程。\n\n具体做法是用 Grok 4.5 自己生成 SFT 轨迹,再用工程数据和模型生成的推理数据做更长的补充训练,Agentic RL 覆盖知识工作、通用编码、内核优化、Web、CAD 这些垂直环境。本质是把现有 1.5T 模型的重心从\"会说话\"挪到\"会长时间干活\",而不是去再训一个 2 万亿参数的庞然大物。\n\n新增 xhigh 推理档位,跟原来的 low/medium/high 摆在一起。500K 上下文是这条线的真正护城河。\n\n商业路径。\n\n短中期靠 Cursor、Groq Build、OpenRouter、Vercel、Cloudflare 这些渠道分发给开发者。Cursor 是 SpaceX 6 月 600 亿美元收购的旗舰渠道,首周 2x 用量补贴是拉新的钩子。中期看 API + 自带工具调用在企业内部沉淀。远期看 SpaceXAI 品牌统一后的打包方案。\n\n失败条件。\n\n第一,Terminal-Bench v3.0 才 26%,绝对值还低,真实生产里长程任务不一定拿得稳。第二,Claude Opus 5、Fable 5、GPT-5.6 Max 在多套编码基准上仍领先,4.6 不是横扫。第三,200K 提示长度这一档价格翻倍,如果 Agent 工作流经常跨过这条线,总账不一定划算。第四,xAI 至今没发系统卡、架构细节和独立基准,1000 TOPS 这种核心数字全是自家口径。\n\n判断。\n\n这件事的真正信号不是又一个新版号,是 1.5T 模型不靠堆参数,靠后训练重构就能把 Coding Agent 整条线拉起来。xAI 在 4.5 上加了一条腿,这条腿叫\"长程 Agent + 大上下文 + 自家 Cursor 渠道\"。OpenAI 和 Anthropic 必须面对的事实是:同一档基座参数下,xAI 已经能用工程把差距缩到一个点以内,而且首发渠道捆绑的是已经花 600 亿美元买下的开发环境。",
+      "created_at": "Sun Aug 23 03:48:01 +0000 2026",
+      "likes": 3,
+      "views": "143",
+      "url": "https://x.com/i/status/2091371856494268901",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 57.775,
+      "title": "Grok 4.6：50 万上下文的长程 Agent",
+      "summary": "dashen 拆 Grok 4.6：还是 1.5T 的 V9 基座，靠后训练把 Coding Agent 基准拉起来，上下文到 50 万。分数和 GPT-5.6 Sol 持平，真正涨的是 DeepSWE、Terminal-Bench 这类长任务。渠道绑着 Cursor / OpenRouter，200K 以上提示价翻倍。判断是：不靠堆参数，靠工程把差距缩到一个点。",
+      "recommend_reason": "把 4.6 的定价、基准和失败条件写在一张纸上。",
+      "tags": [
+        "Grok",
+        "xAI",
+        "Agent"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2091370792898752788",
+      "author": "dashiAIxz",
+      "bio": "",
+      "text": "怎么说呢？总结出了一种写提示词的方法，可以不抽卡的生成这种效果的片子，一次成片，15秒。\n但…这种技巧做视频有人愿意看吗？ https://t.co/qmqlxY8ai9",
+      "created_at": "Sun Aug 23 03:43:47 +0000 2026",
+      "likes": 0,
+      "views": "25",
+      "url": "https://x.com/i/status/2091370792898752788",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2091370730223271936/vid/avc1/472x270/Oknvnusk828jXS7p.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2091370730223271936/img/sqI9QOkZGwlik2H7.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 52.029,
+      "summary": "怎么说呢？总结出了一种写提示词的方法，可以不抽卡的生成这种效果的片子，一次成片，15秒。\n但…这种技巧做视频有人愿意看吗？ https://t.co/qmqlxY8ai9",
+      "recommend_reason": "15 秒一次成片的提示词手法，带成片可以自己判断。",
+      "tags": [
+        "提示词",
+        "AI视频",
+        "生成"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2091370387904803294",
+      "author": "wangzan101",
+      "bio": "",
+      "text": "还是有人在纠结用哪个模型，用哪个 Agent 产品，其实很简单，可承担范围内，用最好的就行了。\n\n大多人真的没必要关注今天的牛来模型，明天的豹跌模型，后天的豹仓模型。\n\n安装个 Codex/Claude Code，条件允许，那么直接用官方原版，条件不允许，也尽量创造条件用官方订阅。\n\n至于其他的模型，偶尔刷一下就行，不用太关注，当你用上最好的大模型的时候，你关注的就是怎么把这件事做成。\n\n但是如果你用的是差一点的，你就会想，会不会是这个模型不行，要不换一个，要不对比一下不同模型效果？\n\n但是对普通人来说，关注不同模型效果是没啥太大意义的，如何用 AI 把自己事做好，提高自己业务能力，这才是紧要的。",
+      "created_at": "Sun Aug 23 03:42:10 +0000 2026",
+      "likes": 3,
+      "views": "160",
+      "url": "https://x.com/i/status/2091370387904803294",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2090472511473594368",
+        "author": "wangzan101",
+        "name": "王赞",
+        "text": "今天有个同学来问我大语言模型擅长什么，不擅长什么，我想了一下，不知道，于是诚实回答。\n\n我不知道他要做什么，也不知道他遇到的是什么问题，所以我没办法给出什么建议，什么解决方案。\n\n这个对我而言就是一个假问题，假问题是没有答案的，真问题才有答案。\n\n真问题是我用 Codex/Claude/DeepSeek 解决某个问题，但是我发现某些方面，某个领域的它做的比较差，这个问题你有遇到，怎么解决\n\n真问题是你做的过程中遇到的卡点，而非在做事之前所预想的一切。\n\n在做事之前自己想像的所有可能的问题，都是为自己逃避做事而找到借口。\n\n以后自己也尽量保持这个原则，去遇见真问题，提出真问题，解决真问题。",
+        "created_at": "Thu Aug 20 16:14:20 +0000 2026",
+        "url": "https://x.com/wangzan101/status/2090472511473594368",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 58.791,
+      "title": "别追模型，用得起的最好那个",
+      "summary": "王赞说别再纠结今天哪个模型、哪个 Agent。预算够就上 Codex / Claude Code 官方订阅，把注意力放在把事做成。模型差一点，人就会不停换、对比；用上最好的，关心的才是业务本身。",
+      "recommend_reason": "把选型焦虑压回去，适合正在换模型的人。",
+      "tags": [
+        "Agent",
+        "Claude",
+        "Codex"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2091369766003130455",
+      "author": "bindureddy",
+      "bio": "",
+      "text": "Anthropic's latest generation models Opus 5 and Sonnet 5 feel like legit regressions\n\nThey spin a lot, cost more and don't show many quality gains\n\nOpus 4.8 and Sonnet 4.6 are their best models - keep using them",
+      "created_at": "Sun Aug 23 03:39:42 +0000 2026",
+      "likes": 19,
+      "views": "1262",
+      "url": "https://x.com/i/status/2091369766003130455",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 60.283,
+      "title": "Opus 5 / Sonnet 5 被说成退步",
+      "summary": "Bindu Reddy 觉得 Anthropic 最新一代 Opus 5、Sonnet 5 是真退步：爱空转、更贵、质量没上去。他认为现在最好用的还是 Opus 4.8 和 Sonnet 4.6，先别急着换。",
+      "recommend_reason": "一线使用者的版本判断，和官方发版叙事对着看。",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "评测"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2091367647573360991",
+      "author": "sanbuphy",
+      "bio": "",
+      "text": "Percy Liang教授团队本周启动了535B参数Marin模型的训练工作。该项目采用11台GB200服务器，将在3个月内完成18.75T tokens数据的训练。\n其中预训练占比80%，中期训练占20%。为确保实验顺利，团队前期完成了从1.6B到27.7B参数的四个规模梯度预实验。\n整个训练过程保持完全开放，包括数据组成、训练进度和代码均公开可查。",
+      "created_at": "Sun Aug 23 03:31:17 +0000 2026",
+      "likes": 0,
+      "views": "153",
+      "url": "https://x.com/i/status/2091367647573360991",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2090918065634684997",
+        "author": "percyliang",
+        "name": "Percy Liang",
+        "text": "🚢 Marin 535B-A23B started training this week! As usual, the whole process is open.\nVoyage plan: pretraining (80%) + midtraining (20%) on 18.75T tokens on 11 x GB200 NVL72 for ~3 months (2.7e24 FLOPs).  Post-training will follow.\nBefore kicking off the run, we trained a 4-rung scaling ladder from 1.6B-A61M (48B tokens) to 27.7B-A1.2B (926B tokens) to debug issues, and to make a forecast of our hero run.  This is by far our biggest run, so definitely expecting the unexpected.",
+        "created_at": "Fri Aug 21 21:44:48 +0000 2026",
+        "url": "https://x.com/percyliang/status/2090918065634684997",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQRrhYTaIAIH3YN.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQRrhYTaIAIH3YN.jpg"
+        ]
+      },
+      "score": 30.06,
+      "summary": "Percy Liang教授团队本周启动了535B参数Marin模型的训练工作。该项目采用11台GB200服务器，将在3个月内完成18.75T tokens数据的训练。\n其中预训练占比80%，中期训练占20%。为确保实验顺利，团队前期完成了从1.6B到27.7B参数的四个规模梯度预实验。\n整个训练过程保持完全开放，包括数据组成、训练进度和代码均公开可查。",
+      "recommend_reason": "开放训练的 535B，数据和进度都能跟。",
+      "tags": [
+        "开源",
+        "预训练",
+        "Marin"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2091366920188813634",
+      "author": "vista8",
+      "bio": "",
+      "text": "强烈建议安装 Nowledge-mem，支持Codex等各种Agent。 来自 @wey_gu 团队开发。\n\n用的越多，上下文记忆越多，Vibe Coding效率和准确性越好。\n\n比如开发自用的iOS RSS阅读器，它会找上次的开发交付状态。 https://t.co/CUqCkQesfe",
+      "created_at": "Sun Aug 23 03:28:24 +0000 2026",
+      "likes": 16,
+      "views": "2124",
+      "url": "https://x.com/i/status/2091366920188813634",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQYHHwvaAAAe3s3.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQYHHwvaAAAe3s3.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2091346058660213104",
+        "author": "guoxudong_",
+        "name": "Xudong Guo",
+        "text": "Nowledge Mem 非常好用，但是上手门槛也是真的高，有些功能我是和 @wey_gu 通了半小时电话才明白是做什么的。所以近期我开启了一个新开源项目 Nowledge Mem 101，旨在用 Watch → Do → Check → Understand 的学习逻辑来帮助新人上手，目前已经上线 2 小节，欢迎给提提意见\nhttps://t.co/xTaP7EvKwD",
+        "created_at": "Sun Aug 23 02:05:30 +0000 2026",
+        "url": "https://x.com/guoxudong_/status/2091346058660213104",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": [],
+        "card": {
+          "name": "summary_large_image",
+          "title": "Nowledge Mem 101 - Nowledge Mem 101",
+          "description": "Learn to leave knowledge for your future self and your AI — by doing it for real.",
+          "image_url": "https://pbs.twimg.com/card_img/2091344322964881408/bh-kLOXz?format=jpg&name=600x600",
+          "url": "https://nmem.guoxudong.io/",
+          "domain": "nmem.guoxudong.io"
+        }
+      },
+      "score": 61.54,
+      "summary": "强烈建议安装 Nowledge-mem，支持Codex等各种Agent。 来自 @wey_gu 团队开发。\n\n用的越多，上下文记忆越多，Vibe Coding效率和准确性越好。\n\n比如开发自用的iOS RSS阅读器，它会找上次的开发交付状态。 https://t.co/CUqCkQesfe",
+      "recommend_reason": "Agent 记忆插件，现成例子是接着写自己的 iOS RSS。",
+      "tags": [
+        "Memory",
+        "Codex",
+        "开源"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2091364312128672183",
+      "author": "xiaoying_eth",
+      "bio": "",
+      "text": "现在你可以用不到4GB的显存运行2.8万亿参数的模型。\n\n有人创建了AirLLM，\n让你能够每次只加载需要的层来运行超大模型。\n\n兼容DeepSeek-V3、Llama 3.1、Kimi K3等多个模型。\n\n我来给你解释它的工作原理 👇 https://t.co/7fO488iORn",
+      "created_at": "Sun Aug 23 03:18:02 +0000 2026",
+      "likes": 2,
+      "views": "422",
+      "url": "https://x.com/i/status/2091364312128672183",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQYEwRZaAAAGYl5.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQYEwRZaAAAGYl5.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 56.639,
+      "summary": "现在你可以用不到4GB的显存运行2.8万亿参数的模型。\n\n有人创建了AirLLM，\n让你能够每次只加载需要的层来运行超大模型。\n\n兼容DeepSeek-V3、Llama 3.1、Kimi K3等多个模型。\n\n我来给你解释它的工作原理 👇 https://t.co/7fO488iORn",
+      "recommend_reason": "按层加载跑超大模型，小显存玩家可以看一眼原理。",
+      "tags": [
+        "LLM",
+        "开源",
+        "推理"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2091363799836287377",
+      "author": "lxfater",
+      "bio": "",
+      "text": "Deepseek api周末全天按低谷价格收费了\n\n未来是不是会出现很多企业，都在Token低谷期上班呢？\n\n电力低谷期=TOKEN低谷期=牛马上班时间😂",
+      "created_at": "Sun Aug 23 03:16:00 +0000 2026",
+      "likes": 5,
+      "views": "883",
+      "url": "https://x.com/i/status/2091363799836287377",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 52.929,
+      "summary": "Deepseek api周末全天按低谷价格收费了\n\n未来是不是会出现很多企业，都在Token低谷期上班呢？\n\n电力低谷期=TOKEN低谷期=牛马上班时间😂",
+      "recommend_reason": "周末低谷价，排任务的人可以挪一下。",
+      "tags": [
+        "DeepSeek",
+        "API",
+        "定价"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2091359223368315050",
+      "author": "levie",
+      "bio": "",
+      "text": "AI diffusion is far more rate limited by having good evals than most realize. The kind of evals that you see for every model release are incredibly helpful, but only tell you the shape of general AI progress and the relative capability level of models.\n\nThe far bigger space over time are evals on all the major workflows that enterprises do, down to the specifics of an individual company. \n\nThis will be a huge space over time because you can’t automate what you can’t assess the progress on. Enterprises will not be able to go just on vibes.",
+      "created_at": "Sun Aug 23 02:57:49 +0000 2026",
+      "likes": 55,
+      "views": "10595",
+      "url": "https://x.com/i/status/2091359223368315050",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2090500944979243181",
+        "author": "BrendanFoody",
+        "name": "Brendan (can/do)",
+        "text": "Not enough!\n\nIt is insane how many enterprises I meet that are spending $100M / year on inference and don't have offline evals to determine which model to use.",
+        "created_at": "Thu Aug 20 18:07:19 +0000 2026",
+        "url": "https://x.com/BrendanFoody/status/2090500944979243181",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 42.994,
+      "title": "企业落地卡在工作流评测，不在发版分数",
+      "summary": "Levie 说 AI 扩散更卡在好评测，而不是大家以为的模型能力。发版榜只能看大势；真正大的空间是企业每条工作流、甚至每家公司自己的评测。不能评估进度，就无法自动化，企业不会只靠手感上规模。",
+      "recommend_reason": "把「上模型」和「能量化这条业务」拆开了。",
+      "tags": [
+        "评测",
+        "企业",
+        "Agent"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2091357058457374797",
+      "author": "yushanshan1123",
+      "bio": "",
+      "text": "这么劲爆的吗？！\n\n跟grok说句话，他就直接给你做好APP？!\n\n好了，这下普通的程序员更要没饭吃了。\n\n我要玩，我要玩😍 https://t.co/Oa4zhFBadn",
+      "created_at": "Sun Aug 23 02:49:12 +0000 2026",
+      "likes": 11,
+      "views": "502",
+      "url": "https://x.com/i/status/2091357058457374797",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQX925LbAAAZDnh.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQX925LbAAAZDnh.png"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 66.195,
+      "summary": "这么劲爆的吗？！\n\n跟grok说句话，他就直接给你做好APP？!\n\n好了，这下普通的程序员更要没饭吃了。\n\n我要玩，我要玩😍 https://t.co/Oa4zhFBadn",
+      "recommend_reason": "Grok 对话直接出 App 的反应帖，适合当午场开胃。",
+      "tags": [
+        "Grok",
+        "App",
+        "Vibe Coding"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2091356657926512805",
+      "author": "dashen_wang",
+      "bio": "",
+      "text": "Anthropic 这周买了一张还没造的门票。\n\n英国 AI 芯片公司 Fractile 正在谈新一轮约 6 亿美元融资，投前估值 65 亿美元，是三个月前 5 月那轮 10 亿美元的六倍多。触发点是一个还没量产的合作：Anthropic 签了 2.5 亿美元的推理芯片预购协议，明确表示后续要扩单，但芯片要等到 2027 年才能交付。\n\n钱怎么出、付什么钱。\n\n买方是 Anthropic 这一类前沿大模型实验室，付的是预购承诺，买的不是现货，是未来一片能跑推理的硅。Anthropic 同时在自研芯片、与亚马逊 Trainium / 谷歌 TPU / 英伟达 GPU 平行采购，Fractile 是它压的第四张牌，不是替代，是谈判筹码。\n\n卖方逻辑很简单。Fractile 2022 年由牛津博士 Walter Goodwin 创立，技术路线叫存算一体，把 SRAM 和计算单元放在同一片 die 上，模型权重不再每次从 HBM 里搬过来。核心商业故事就一句话：HBM 现在又贵又缺，推理侧最大的钱和能耗都花在搬数据上，能绕过去的架构就值钱。\n\n交付成本。\n\nFractile 自己内部测算过 100 倍加速、90% 成本下降，都是仿真口径，不是真实数据中心数据。芯片量产前没人能独立验证。SRAM 又是高速但昂贵的单元，前沿模型几百 GB 起步的权重能否塞进片上 SRAM，公开记录里没有演示。芯片行业里死在量产和软件栈上的公司比死在硅上的多。\n\n商业路径。\n\n如果 Anthropic 的协议最终生效，证明一件事：前沿实验室愿意为单客定制 ASIC 付预购费，这条经济学能成立，Fractile 是不自研芯片但要自研经济学的实验室的现成供应商。Etched 已经先送货，Groq 已经在跑，OLIX 和 Fractile 都押在 2027。\n\n失败条件。\n\n第一，2027 推迟，估值每多等一个季度就是多一个没有收入的季度。第二，英伟达、谷歌、亚马逊在这段时间推出下一代加速器，叙事窗口被关掉。第三，Anthropic 自己的芯片团队 8 月 5 日刚组建，长期可能吃掉外部订单。\n\n判断。\n\n一个 2027 年才能出货的芯片公司，今天被一线 VC 按 65 亿定价，不是因为硅已经赢了，是因为推理成本战已经打到实验室愿意为还没造出来的东西签字。下注的是稀缺，不是性能。",
+      "created_at": "Sun Aug 23 02:47:37 +0000 2026",
+      "likes": 1,
+      "views": "215",
+      "url": "https://x.com/i/status/2091356657926512805",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 51.249,
+      "title": "Anthropic 预购还没造出来的推理芯片",
+      "summary": "英国 Fractile 新一轮约 6 亿美元、投前 65 亿，三个月估值翻六倍。触发点是 Anthropic 2.5 亿美元推理芯片预购，芯片要 2027 年才交付。路线是存算一体绕开 HBM。dashen 的判断：实验室在为还没造出来的稀缺签字，不是性能已经赢了。",
+      "recommend_reason": "把预购、估值和 2027 交付风险写清楚了。",
+      "tags": [
+        "Anthropic",
+        "芯片",
+        "推理"
+      ],
+      "rank": 13
+    }
+  ],
+  "generated_at": "2026-08-23T04:05:13Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 13,
+    "last_batch_added": 13,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
