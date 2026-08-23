@@ -1,8 +1,8 @@
 {
   "source": "xiaoxiaodong01",
   "title": "xiaoxiaodong01 提示词",
-  "updated_at": "2026-08-22T03:22:37Z",
-  "count": 112,
+  "updated_at": "2026-08-23T02:11:13Z",
+  "count": 115,
   "items": [
     {
       "id": "2090817611953270966",
@@ -2389,6 +2389,60 @@
         {
           "url": "https://pbs.twimg.com/media/HJIahVHa4AA-hQE.jpg",
           "poster": "https://pbs.twimg.com/media/HJIahVHa4AA-hQE.jpg"
+        }
+      ]
+    },
+    {
+      "id": "2055127976996749772",
+      "author": "xiaoxiaodong01",
+      "url": "https://x.com/i/status/2055127976996749772",
+      "created_at": "2026-05-15T03:27:46+00:00",
+      "text": "GPT2 x 重点字/词突出的排版 x 提示词\n\n这个汤底，素质不错\n\n但是很多人，还是停留在，我给什么风格， 就默认什么风格的阶段。\n\n其次， 小小东所有提示词，结尾部分，都可以大大方方提出超多要求。\n\n比如 这次演示图片的要求文字，很多，很长。\n\n实战中，你可以输入，如同醉酒的碎碎念，大体说清楚你的要求就好（甚至可以重复絮叨），如下就是我喝醉感觉的碎碎念要求：\n\n```\n本次用户输入主题：\n知识星球，装修中\n——————\n其他辅助信息：\n小小东的知识星球，被平台审核通过了\n开心\n小小东也希望通过星球， 有更好的传播和分享\n能给到铁粉合适的路径，一起用AI工具解决工作中的痛点\n\n星球主要定位：提示词经验、提示词实战、提示词工作流、skills，chrome 插件效率工具， 少走弯路的经验分享，还有一些整钱思路的提效...新玩法的解析。\n\n——————\n这些文字你自己理解，更好的润色和呈现， 不要原样输出， 更好的信息图逻辑输出\n\n我希望是韩系明亮背景。\n\n比例16:9\n\n大字我希望是：星球 这两个字\n其次不要有二维码元素\n当前年份是2026-05-15\n装修中，这个信息点，也很重要。\n```\n\n总结， 使用的时候， 真的可以多啰嗦， 多提要求。",
+      "prompt": "本次用户输入主题：\n知识星球，装修中\n——————\n其他辅助信息：\n小小东的知识星球，被平台审核通过了\n开心\n小小东也希望通过星球， 有更好的传播和分享\n能给到铁粉合适的路径，一起用AI工具解决工作中的痛点\n\n星球主要定位：提示词经验、提示词实战、提示词工作流、skills，chrome 插件效率工具， 少走弯路的经验分享，还有一些整钱思路的提效...新玩法的解析。\n\n——————\n这些文字你自己理解，更好的润色和呈现， 不要原样输出， 更好的信息图逻辑输出\n\n我希望是韩系明亮背景。\n\n比例16:9\n\n大字我希望是：星球 这两个字\n其次不要有二维码元素\n当前年份是2026-05-15\n装修中，这个信息点，也很重要。",
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HIVG05KawAANaYu.jpg",
+          "poster": "https://pbs.twimg.com/media/HIVG05KawAANaYu.jpg"
+        }
+      ]
+    },
+    {
+      "id": "2055953443249086706",
+      "author": "xiaoxiaodong01",
+      "url": "https://x.com/i/status/2055953443249086706",
+      "created_at": "2026-05-17T10:07:53+00:00",
+      "text": "这套 穿衣打扮 x 提示词太灵了！！🌷\n\n灵活的灵\n\n命题：一套灵感来自柠檬/天山雪莲/草莓/蓝莓的泳衣穿搭 提案\n\n得到了如下4组 有点哇噻的图片\n\n可见小小东的提示词， 向来超强的自适应能力\n\n当然， 这都是GPT-image2 的强大之处\n\n提示词佐料：\n```\n—————— \n本次用户输入： \n一套灵感来自柠檬的泳衣穿搭 提案 \n左侧大图，右侧细节展示，各种层次的信息点展示\n```\n\n汤底提示词，如下文章末尾⤵️",
+      "prompt": "—————— \n本次用户输入： \n一套灵感来自柠檬的泳衣穿搭 提案 \n左侧大图，右侧细节展示，各种层次的信息点展示",
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HIg2OzgbcAAauur.jpg",
+          "poster": "https://pbs.twimg.com/media/HIg2OzgbcAAauur.jpg"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HIg2RRMaUAAepRT.jpg",
+          "poster": "https://pbs.twimg.com/media/HIg2RRMaUAAepRT.jpg"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HIg2S6QaYAAlktd.jpg",
+          "poster": "https://pbs.twimg.com/media/HIg2S6QaYAAlktd.jpg"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HIg2VDNbIAAK02t.jpg",
+          "poster": "https://pbs.twimg.com/media/HIg2VDNbIAAK02t.jpg"
+        }
+      ]
+    },
+    {
+      "id": "2055121290974122264",
+      "author": "xiaoxiaodong01",
+      "url": "https://x.com/i/status/2055121290974122264",
+      "created_at": "2026-05-15T03:01:12+00:00",
+      "text": "GPT2 x 邀请函 x 不能邀功，可邀一切 x 提示词\n\n方式和邀请场景，相关的内容，都可以用上这套提示词\n\n越来越觉得提示词、和编程逻辑越来越类似\n\n喜欢保持灵活性和开发性\n\n比如，这个提示词，结婚的人们，可以垫图自己的婚纱\n\n然后就能轻松得到，漂亮的“私人定制”邀请函\n\n插播：今天黄道吉日：\n小小东 知识星球，被平台审核通过了， 装修进行中...\n\n如下插画佐料\n```\n本次任务：\n邀请特朗普携马斯克\n来长沙 吃臭豆腐\n\n（其他有网感的文字，有趣的表达， 你自己补充，正好他们2026-05-15 还在中国）\n\n比例3:4，风格插画，黑色线条。气质轻松愉快。\n```",
+      "prompt": "本次任务：\n邀请特朗普携马斯克\n来长沙 吃臭豆腐\n\n（其他有网感的文字，有趣的表达， 你自己补充，正好他们2026-05-15 还在中国）\n\n比例3:4，风格插画，黑色线条。气质轻松愉快。",
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HIVBK3SaYAADX9S.jpg",
+          "poster": "https://pbs.twimg.com/media/HIVBK3SaYAADX9S.jpg"
         }
       ]
     }
