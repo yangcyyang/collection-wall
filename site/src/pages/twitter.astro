@@ -211,25 +211,6 @@ const categoryTabs = [
       if (pagerPrev) pagerPrev.addEventListener("click", () => { page = Math.max(1, page - 1); refresh(); window.scrollTo({ top: 0, behavior: "smooth" }); });
       if (pagerNext) pagerNext.addEventListener("click", () => { page += 1; refresh(); window.scrollTo({ top: 0, behavior: "smooth" }); });
 
-      function openTweet(card) {
-        const url = card.getAttribute("data-tweet-url");
-        if (url) window.open(url, "_blank", "noopener,noreferrer");
-      }
-
-      cards.forEach((card) => {
-        card.addEventListener("click", (event) => {
-          if (event.target.closest("a, .tag-list")) return;
-          openTweet(card);
-        });
-        card.addEventListener("keydown", (event) => {
-          if (event.target !== card) return;
-          if (event.key === "Enter" || event.key === " ") {
-            event.preventDefault();
-            openTweet(card);
-          }
-        });
-      });
-
       applyTagVisibility();
     </script>
   </body>

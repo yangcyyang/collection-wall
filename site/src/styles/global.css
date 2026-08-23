@@ -152,6 +152,9 @@ h3 { font-size: var(--font-size-card-title); margin-bottom: var(--spacing-sm); o
 .tweet-reason { border-top: var(--border-width) dashed var(--color-border); color: var(--color-text-secondary); font-size: var(--font-size-caption); margin-bottom: 0; padding-top: var(--spacing-sm); }
 .tweet-link { color: var(--color-brand); font-size: var(--font-size-caption); margin-left: auto; text-decoration: none; white-space: nowrap; }
 .tweet-link:hover { text-decoration: underline; }
+.tweet-link:focus-visible { outline: var(--outline-width) solid var(--color-brand); outline-offset: var(--outline-width); }
+.twitter-timeline:not(.knowledge-timeline) .timeline-item { position: relative; }
+.twitter-timeline:not(.knowledge-timeline) .tweet-link::after { content: ""; inset: 0; position: absolute; z-index: 1; }
 .knowledge-timeline { --tl-time-w: 4.4rem; }
 .knowledge-timeline .timeline-item { cursor: default; }
 .timeline-item { --unit-color: var(--color-brand); --unit-bg: var(--color-bg); }
