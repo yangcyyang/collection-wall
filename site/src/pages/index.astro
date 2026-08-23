@@ -78,10 +78,10 @@ function categoryIcon(category?: string) {
                 <span>{categories.length} 类</span>
               </div>
               <div class="category-list">
-                <button class="category-button is-selected" type="button" data-category-filter="">
+                <button class="category-button is-selected" type="button" data-category-filter="" title="全部工具">
                   <span>全部工具</span><em>{tools.length}</em>
                 </button>
-                {categories.map(({ category, count }) => <button class="category-button" type="button" data-category-filter={category}>
+                {categories.map(({ category, count }) => <button class="category-button" type="button" data-category-filter={category} title={category}>
                   <span>{category}</span><em>{count}</em>
                 </button>)}
               </div>
@@ -91,7 +91,13 @@ function categoryIcon(category?: string) {
               <div class="search-row">
                 <label class="search-box">
                   <span class="search-icon" aria-hidden="true">⌕</span>
-                  <input type="search" data-tool-search placeholder="搜索名称、定位或标签" autocomplete="off" />
+                  <input
+                    type="search"
+                    data-tool-search
+                    aria-label="搜索名称、定位或标签"
+                    placeholder="例如 design-dna 或 PPT"
+                    autocomplete="off"
+                  />
                 </label>
                 <p><strong data-match-count>{tools.length}</strong> 条匹配</p>
               </div>
@@ -123,7 +129,7 @@ function categoryIcon(category?: string) {
                   <div class="card-content">
                     <div class="card-meta"><span class="category">{tool.category}</span><span class:list={["status", statusClass(tool.status)]}>{tool.status}</span></div>
                     <h3>{tool.name}</h3>
-                    <p>{tool.headline || "尚待补充用途说明"}</p>
+                    <p title={tool.headline || "尚待补充用途说明"}>{tool.headline || "尚待补充用途说明"}</p>
                     <div class="tag-list">{(tool.tags ?? []).slice(0, 8).map((tag) => <span>{tag}</span>)}</div>
                   </div>
                 </article>)}
@@ -147,8 +153,8 @@ function categoryIcon(category?: string) {
                 </div>
                 <div class="card-content">
                   <div class="card-meta"><span class="category">{tool.category}</span><span class:list={["status", statusClass(tool.status)]}>{tool.status}</span></div>
-                  <h3>{tool.name}</h3>
-                  <p>{tool.capture_status === "failed" ? "这条收藏暂时未抓取成功。" : tool.headline || "尚待补充用途说明"}</p>
+                    <h3>{tool.name}</h3>
+                    <p title={tool.capture_status === "failed" ? "这条收藏暂时未抓取成功。" : tool.headline || "尚待补充用途说明"}>{tool.capture_status === "failed" ? "这条收藏暂时未抓取成功。" : tool.headline || "尚待补充用途说明"}</p>
                   {tool.capture_status === "failed" ? <button type="button" class="retry-button" data-retry>重新同步</button> : <div class="tag-list">{(tool.tags ?? []).slice(0, 8).map((tag) => <span>{tag}</span>)}</div>}
                 </div>
               </article>)}
