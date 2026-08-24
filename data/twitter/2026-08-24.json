@@ -1,0 +1,272 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-24",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2091726763701555207",
+      "author": "xiaoxiaodong01",
+      "bio": "",
+      "text": "GPT2 x 优化 x 治愈 x 美学提示词 x VOL.055\n\n向往意大利的我\n特别用这种配色和浅浅的油画质感\n打磨出了这套提示词风格\n\n用治愈系颜色和笔触仔细拾掇：\n一束光。\n一个动作。\n一个空间关系。\n\nprompt by xiaoxiaodong:\n\n```\n😍😋 https://t.co/Apqo6WodAN",
+      "created_at": "Mon Aug 24 03:18:17 +0000 2026",
+      "likes": 20,
+      "views": "1418",
+      "url": "https://x.com/i/status/2091726763701555207",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQdNf_AaoAA5JWZ.jpg",
+        "https://pbs.twimg.com/media/HQdNf_IacAEYWFD.jpg",
+        "https://pbs.twimg.com/media/HQdNgEJbgAAl7cE.jpg",
+        "https://pbs.twimg.com/media/HQdNiBda4AAYfXU.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQdNf_AaoAA5JWZ.jpg",
+        "https://pbs.twimg.com/media/HQdNf_IacAEYWFD.jpg",
+        "https://pbs.twimg.com/media/HQdNgEJbgAAl7cE.jpg",
+        "https://pbs.twimg.com/media/HQdNiBda4AAYfXU.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 64.72,
+      "summary": "GPT2 x 优化 x 治愈 x 美学提示词 x VOL.055\n\n向往意大利的我\n特别用这种配色和浅浅的油画质感\n打磨出了这套提示词风格\n\n用治愈系颜色和笔触仔细拾掇：\n一束光。\n一个动作。\n一个空间关系。\n\nprompt by xiaoxiaodong:\n\n完整提示词见原帖图片。",
+      "recommend_reason": "小小东持续更新可复用美学提示词，这一组走意大利治愈油画风，适合直接试图。",
+      "tags": [
+        "提示词",
+        "设计",
+        "小小东"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2091716854003957993",
+      "author": "dashiAIxz",
+      "bio": "",
+      "text": "Hermes 官方因为一个定价页面的 UI 设计跟用户吵起来了\n\n作为快十年的古法设计师，这个事我还是想吐槽一下的\n\n很多时候设计本身并没有绝对的好坏，可读性、识别度固然重要，强调这一点也没什么问题\n\n但往往大部分时候这也意味着平庸，意味着毫无亮点，否则所有符合 WCAG https://t.co/7ScVBOhokM",
+      "created_at": "Mon Aug 24 02:38:54 +0000 2026",
+      "likes": 1,
+      "views": "316",
+      "url": "https://x.com/i/status/2091716854003957993",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQdEaRCb0AA20c-.jpg",
+        "https://pbs.twimg.com/media/HQdEa16agAAojLl.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQdEaRCb0AA20c-.jpg",
+        "https://pbs.twimg.com/media/HQdEa16agAAojLl.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 55.233,
+      "summary": "Hermes 官方因为一个定价页面的 UI 设计跟用户吵起来了\n\n作为快十年的古法设计师，这个事我还是想吐槽一下的\n\n很多时候设计本身并没有绝对的好坏，可读性、识别度固然重要，强调这一点也没什么问题\n\n但往往大部分时候这也意味着平庸，意味着毫无亮点，否则所有符合 WCAG",
+      "recommend_reason": "借 Hermes 定价页争论点出可读性与辨识度之外的设计张力，对 AI 产品界面有参考。",
+      "tags": [
+        "Hermes",
+        "产品设计",
+        "UI"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2091699008393842835",
+      "author": "canghe",
+      "bio": "",
+      "text": "卧槽，我的开源项目冲上趋势榜第二了，在 Codex 之下，哈哈哈。https://t.co/3uMCyPHCzm https://t.co/nhRMpC6mTq",
+      "created_at": "Mon Aug 24 01:28:00 +0000 2026",
+      "likes": 214,
+      "views": "46870",
+      "url": "https://x.com/i/status/2091699008393842835",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQc1E46a4AAmgaU.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQc1E46a4AAmgaU.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 65.489,
+      "summary": "卧槽，我的开源项目冲上趋势榜第二了，在 Codex 之下，哈哈哈。",
+      "recommend_reason": "作者项目挤进趋势榜第二且紧挨 Codex，说明这类开发者工具此刻有真实流量。",
+      "tags": [
+        "开源",
+        "趋势榜",
+        "开发工具"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2091691986977980789",
+      "author": "GoSailGlobal",
+      "bio": "",
+      "text": "无敌了,终于能实时看见Claude Code在干嘛了\n\nzoetrope,刚开源几天的可视化神器,把一次会话画成一张流动的图\n\n主agent派生了哪些子agent、每个跑了什么工具、耗时多少、成没成,全在终端里实时长出来。跑完的会话还能按原始时间戳回放\n\n纯读本地的会话记录,只读不写,什么都不上传你的机器 https://t.co/FZOxH7vfIm",
+      "created_at": "Mon Aug 24 01:00:06 +0000 2026",
+      "likes": 23,
+      "views": "2559",
+      "url": "https://x.com/i/status/2091691986977980789",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2091691970494332928/img/b4kaBfXPxKoi0unU.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2091691970494332928/img/b4kaBfXPxKoi0unU.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 63.056,
+      "summary": "无敌了,终于能实时看见Claude Code在干嘛了\n\nzoetrope,刚开源几天的可视化神器,把一次会话画成一张流动的图\n\n主agent派生了哪些子agent、每个跑了什么工具、耗时多少、成没成,全在终端里实时长出来。跑完的会话还能按原始时间戳回放\n\n纯读本地的会话记录,只读不写,什么都不上传你的机器",
+      "recommend_reason": "Claude Code 多 agent 会话终于有可读的本地可视化回放，排查编排很实用。",
+      "tags": [
+        "Claude Code",
+        "开源",
+        "可视化",
+        "Agent"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2091646922201432352",
+      "author": "bindureddy",
+      "bio": "",
+      "text": "Multiple new Anthropic models dropping in the next few days\n\n- Opus 5.1\n- Sonnet 5.1\n- Fable 5.1\n\nOpus and Sonnet will reverse the regressions and will be strictly be better than Opus 4.8 and Sonnet 4.6.  \n\nFable 5.1 will top the leaderboards.",
+      "created_at": "Sun Aug 23 22:01:01 +0000 2026",
+      "likes": 523,
+      "views": "37501",
+      "url": "https://x.com/i/status/2091646922201432352",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 67.116,
+      "title": "Anthropic 将连发 Opus/Sonnet/Fable 5.1？",
+      "summary": "有爆料称未来几天 Anthropic 会推出 Opus 5.1、Sonnet 5.1 与 Fable 5.1：前两者号称修正回归并严格强于 Opus 4.8 / Sonnet 4.6，Fable 5.1 则被说会登顶榜单。未证实，当作风向标看。",
+      "recommend_reason": "模型日程类高关注信号，哪怕是爆料也值得盯紧验证。",
+      "tags": [
+        "Anthropic",
+        "模型发布",
+        "爆料"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2091590204486451277",
+      "author": "GavinSBaker",
+      "bio": "",
+      "text": "Suspect we will start to hear about a “Pareto optimal” balance of computationally efficient humans, cheaper open-source tokens and frontier tokens.\n\nOur internal AI spend @Atreidesmgmt will be roughly 100x higher in August 2026 vs. March 2026. Still roughly doubling every month.",
+      "created_at": "Sun Aug 23 18:15:39 +0000 2026",
+      "likes": 1397,
+      "views": "2566194",
+      "url": "https://x.com/i/status/2091590204486451277",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 46.593,
+      "title": "AI 算力账单还在按月翻倍：人机与开源/前沿 token 的帕累托平衡",
+      "summary": "作者预期会出现“算力高效人类 + 更便宜开源 token + 前沿 token”的帕累托最优配比讨论。其内部 AI 开支：2026年8月约为3月的100倍，且仍大致每月翻倍。",
+      "recommend_reason": "一线投资人把 AI 成本曲线说得很硬，比空谈采用率更有决策参考。",
+      "tags": [
+        "AI成本",
+        "开源模型",
+        "投资观察"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2091580873410007202",
+      "author": "jinchenma_ai",
+      "bio": "",
+      "text": "Vibe Coding 害人啊！\n\n朋友发我一个网址，说是个人主页，让我看看。\n\n接过点开没1分钟，我新买的mac pro风扇就开始转。\n\n这是我tm第一次听见M芯片风扇转。\n\n这几天开了8个codex，一声都没吭过，\n\n结果被一个 vibe coding 的网页差点给干 ICU 去\n\n我问她你自己风扇不响么，结果她是 Air，没风扇…… https://t.co/RjkFMfb6eq",
+      "created_at": "Sun Aug 23 17:38:34 +0000 2026",
+      "likes": 10,
+      "views": "5095",
+      "url": "https://x.com/i/status/2091580873410007202",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQbIrq1boAA1p7-.png",
+        "https://pbs.twimg.com/media/HQbJUCxbgAA6e_Z.jpg",
+        "https://pbs.twimg.com/media/HQbJbZTbcAABspv.jpg",
+        "https://pbs.twimg.com/media/HQbJoX2aYAAzF_B.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQbIrq1boAA1p7-.png",
+        "https://pbs.twimg.com/media/HQbJUCxbgAA6e_Z.jpg",
+        "https://pbs.twimg.com/media/HQbJbZTbcAABspv.jpg",
+        "https://pbs.twimg.com/media/HQbJoX2aYAAzF_B.png"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 58.65,
+      "summary": "Vibe Coding 害人啊！\n\n朋友发我一个网址，说是个人主页，让我看看。\n\n接过点开没1分钟，我新买的mac pro风扇就开始转。\n\n这是我tm第一次听见M芯片风扇转。\n\n这几天开了8个codex，一声都没吭过，\n\n结果被一个 vibe coding 的网页差点给干 ICU 去\n\n我问她你自己风扇不响么，结果她是 Air，没风扇……",
+      "recommend_reason": "用真机体感提醒：Vibe Coding 产物常把性能写崩，别只看页面“能跑”。",
+      "tags": [
+        "Vibe Coding",
+        "性能",
+        "前端"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2091571293640626547",
+      "author": "yunta_tsai",
+      "bio": "",
+      "text": "Three months later, Grok’s progress is amazing, and @bot makes it even more powerful and easier to use.\n\nThis is the fidelity using the same prompt: “Explain Navier-Stokes equation and how it relates to airfoil design with actual fluid dynamics simulation.” https://t.co/AxhUbbIt8M",
+      "created_at": "Sun Aug 23 17:00:30 +0000 2026",
+      "likes": 797,
+      "views": "2481813",
+      "url": "https://x.com/i/status/2091571293640626547",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/amplify_video_thumb/2091571136723365888/img/iU3b5YWDcw_cuyug.jpg",
+        "https://pbs.twimg.com/media/HQbA3gFbYAAd2RL.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2091571136723365888/img/iU3b5YWDcw_cuyug.jpg",
+        "https://pbs.twimg.com/media/HQbA3gFbYAAd2RL.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 67.798,
+      "title": "同一提示词对比：Grok 三个月后的保真度跃迁",
+      "summary": "作者用同一提示词「解释纳维-斯托克斯方程及其与翼型设计/流体仿真的关系」对比三个月前后的 Grok 表现，并提到 @bot 让能力更好用。配对比视频/图，重点是复杂科学可视化保真度提升。",
+      "recommend_reason": "少见的同提示词纵向对比，比空喊进步更有说服力。",
+      "tags": [
+        "Grok",
+        "评测",
+        "科学可视化"
+      ],
+      "rank": 8
+    }
+  ],
+  "generated_at": "2026-08-24T04:08:53Z",
+  "selection": {
+    "target_count": 30,
+    "max_count": 30,
+    "per_run_max": 15,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 8,
+    "last_batch_added": 8,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤15；单日≤30不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
