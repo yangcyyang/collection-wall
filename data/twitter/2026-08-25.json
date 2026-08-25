@@ -1,0 +1,542 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-25",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2092090931776545001",
+      "author": "Alibaba_Qwen",
+      "bio": "",
+      "text": "Open models, open science. Qwen keeps growing steadily, and we'll always be right here with the research community.🙌 Thanks for the deep dive! @natolambert",
+      "created_at": "Tue Aug 25 03:25:21 +0000 2026",
+      "likes": 469,
+      "views": "34652",
+      "url": "https://x.com/i/status/2092090931776545001",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2091901559869165858",
+        "author": "natolambert",
+        "name": "Nathan Lambert",
+        "text": "Over the weekend I had Codex parse 500K arXiv AI/ML papers since ChatGPT to understand which open models are used for research. \n\nIn 2024, ~30% of papers mentioned an American open model and only 10% a Chinese model.\n\nToday, ~40% of papers mention a Chinese (open) LLM, and only 25-30% an American one. Chinese models are the default for research. Chinese mentions are still growing while American open models are stagnating.\n\nWhen looking at this data it's important to remember that papers substantially lag model releases, as research takes a long time. Qwen's steady growth is reflective of this, but so is Llama's lasting power.\n\nSome more observations:\n\n1. Qwen has been steadily growing, and today 1/3 of papers which mention any LLM mention qwen. OpenAI's closed models are the highest overall, at ~37%. \n\n2. Llama peaked around April of 2025 at 30% of papers which mention any LLM (including ChatGPT etc). Llama 4 was released at about the same time, and Llama has been declining since.\n\n3. Gemini and Claude are less common than the leading open models, mentioned in 10-15% of papers puts them behind all of Qwen, Llama, and DeepSeek. Open models should be and are the foundations of open research.\n\nThe % of papers mentioning any LLM have been steadily climbing since 2023.\n| Year | January | April | July | October |\n| 2023 | 10.43% | 15.39% | 18.69% | 32.18% |\n| 2024 | 29.70% | 33.93% | 35.70% | 44.25% |\n| 2025 | 39.23% | 45.28% | 44.94% | 53.52% |\n| 2026 | 55.49% | 57.26% | 53.14% | TBD\n\nNow over 50% of AI papers, from 10% in 2023.\n\nOther notes:\n- Gemma and Mistral hover around 5-10%.\n- Our beloved fully-open Olmo models have been ~1% since the first release in Jan. 2024.\n- DeepSeek has a clear jump after R1 in Jan. 2025\n- Data derived from the most popular ML arXiv categories: cs. AI, cs. CL, cs. CV, cs. LG, stat. ML\n\nJust like our downloads and derivative model data, this is updated daily on the Interconnects Open Model Dashboard.",
+        "created_at": "Mon Aug 24 14:52:52 +0000 2026",
+        "url": "https://x.com/natolambert/status/2091901559869165858",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQfskb-WQAAeflS.png",
+          "https://pbs.twimg.com/media/HQfskb6XwAEXjA-.png"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQfskb-WQAAeflS.png",
+          "https://pbs.twimg.com/media/HQfskb6XwAEXjA-.png"
+        ]
+      },
+      "score": 66.207,
+      "title": "中文开源模型已经是论文默认引用",
+      "summary": "Nathan Lambert 用 Codex 扫了 ChatGPT 以来约 50 万篇 arXiv：2024 年美国开源约 30%、中国约 10%；现在中国开源约 40%，美国 25–30%。提到 LLM 的论文里，约三分之一点名 Qwen。通义转发说继续跟研究社区站在一起。",
+      "recommend_reason": "开源格局的引用数据，比排行榜更慢、更硬。",
+      "tags": [
+        "Qwen",
+        "开源",
+        "产业"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2092090827690610914",
+      "author": "Alibaba_Qwen",
+      "bio": "",
+      "text": "Qwen3.8-27B at #9 overall on Code Arena, the only model in its size class in the top 10.😎 Small but mighty. Thanks for the recognition! @arena",
+      "created_at": "Tue Aug 25 03:24:57 +0000 2026",
+      "likes": 1003,
+      "views": "80272",
+      "url": "https://x.com/i/status/2092090827690610914",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2091920512796725272",
+        "author": "arena",
+        "name": "Arena.ai",
+        "text": "Exciting news: Qwen3.8-27B by @Alibaba_Qwen just landed in Code Arena: WebDev at #9 overall with 1595 pts. It is the only model in its size class in the top 10, and also reshapes the Pareto Frontier!\n\nIt is only 6 ranks behind the much larger Qwen3.8-Max. For scale: Gemma 4-31B which was released back in April sits at #80.\n\nCongrats to @Alibaba_Qwen on the release!\n\nSee thread for more highlights on Qwen3.8-27B.",
+        "created_at": "Mon Aug 24 16:08:10 +0000 2026",
+        "url": "https://x.com/arena/status/2091920512796725272",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQf-GoXbsAEk7aH.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQf-GoXbsAEk7aH.jpg"
+        ]
+      },
+      "score": 67.364,
+      "title": "Qwen3.8-27B 挤进 Code Arena 前十",
+      "summary": "通义转发 Arena：Qwen3.8-27B 在 Code Arena WebDev 排第 9，1595 分，同尺寸唯一进前十，只比更大的 Qwen3.8-Max 低 6 名。",
+      "recommend_reason": "小尺寸编码模型的帕累托点，比再报一个大杯有用。",
+      "tags": [
+        "Qwen",
+        "开源",
+        "编程"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2092087679240569126",
+      "author": "levie",
+      "bio": "",
+      "text": "Systems of record have never been more important than in a world where you have AI agents that will do 100X more work on these platforms than people ever did. \n\nAgents will be querying the data in these systems, processing tasks, executing workflows, collaborating with human and agent users, and more. \n\nThus, the governance, reliability, security, access controls, and business logic remain critical more than ever — the OpenAI Hugging Face incident is just a small peek into what the future will look like with agents running around trying to execute on their goals.\n\nBut this only works for the systems of record that respond with the right product experiences, APIs, and business models to support agents on and off their platform executing in these systems.\n\nHuge moment of opportunity and disruption right now in all of software.",
+      "created_at": "Tue Aug 25 03:12:26 +0000 2026",
+      "likes": 767,
+      "views": "97071",
+      "url": "https://x.com/i/status/2092087679240569126",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2091742825042030681",
+        "author": "garrytan",
+        "name": "Garry Tan",
+        "text": "Prediction: systems of record will need to become AI harnesses or face replacement by agents",
+        "created_at": "Mon Aug 24 04:22:06 +0000 2026",
+        "url": "https://x.com/garrytan/status/2091742825042030681",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 66.183,
+      "title": "Agent 时代，系统源反而更重要",
+      "summary": "Levie 说 Agent 会在系统源上干 100 倍于人的活，治理、权限、业务逻辑更关键。OpenAI 撞上 Hugging Face 只是预演。能给 Agent 提供对的 API 和商业模式的系统源才有机会。",
+      "recommend_reason": "从一次事故推到软件系统源会被 Agent 重写。",
+      "tags": [
+        "Agent",
+        "产业",
+        "产品"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2092086156221657348",
+      "author": "bindureddy",
+      "bio": "",
+      "text": "🚨 DeepSeek Flash Vision Is The New King of Open Source\n\n- DS Flash Vision is 10x cheaper than Kimi K3\n- It beats GLM 5.3 on performance \n- very good at agentic coding\n- works with images \n\nThis is the first open source model we have it in production 🚀 https://t.co/Gl4IZBu7uy",
+      "created_at": "Tue Aug 25 03:06:23 +0000 2026",
+      "likes": 850,
+      "views": "55832",
+      "url": "https://x.com/i/status/2092086156221657348",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQiVOlZaQAA-tL3.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQiVOlZaQAA-tL3.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 73.864,
+      "title": "DeepSeek Flash Vision：开源多模态又出一档便宜货",
+      "summary": "Bindu 说 DS Flash Vision 比 Kimi K3 便宜 10 倍，成绩压过 GLM 5.3，能做 agentic coding，也能看图，已经进他们的生产。这是使用者口径，不是官方系统卡。",
+      "recommend_reason": "开源多模态的价格和能不能真进生产，比再报一个榜有用。",
+      "tags": [
+        "DeepSeek",
+        "开源",
+        "多模态"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2092083241851531510",
+      "author": "xiaohu",
+      "bio": "",
+      "text": "ChatGPT 现在支持生成透明背景的图像\n\n也可以将任何照片、图像变成透明的图像\n\n所以他们搞了个可以生成自定义贴纸包的功能，可以在 ChatGPT 中生成和制作各种透明贴纸和表情包，\n\n然后还能分享到各种社交软件平台...\n\n网页/应用侧边栏，选择图片，就能看到贴纸选项.... https://t.co/plhtSSRudj",
+      "created_at": "Tue Aug 25 02:54:48 +0000 2026",
+      "likes": 102,
+      "views": "13095",
+      "url": "https://x.com/i/status/2092083241851531510",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2092081954963533824/vid/avc1/480x270/_2a2EcOeSOkWSLwa.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2092081954963533824/img/fvySojiZpUFdYPZn.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 65.67,
+      "title": "ChatGPT 能出透明底贴纸了",
+      "summary": "小互说 ChatGPT 现在能生成透明背景图，也能把已有图抠成透明，并做了自定义贴纸包，能分享到社交软件。网页或应用侧边栏选图片就能看到贴纸选项。",
+      "recommend_reason": "功能点具体，打开就能试。",
+      "tags": [
+        "ChatGPT",
+        "图像",
+        "产品"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2092058556707344708",
+      "author": "thsottiaux",
+      "bio": "",
+      "text": "Tomorrow we will bring back the 5h limit for Plus accounts across ChatGPT Work and Codex. I had mentioned this a while ago, but then postponed it.\n\nThis is necessary as (a) the 5h limit allows us to smoothen the load on our compute, allowing to keep the plan generous in terms of weekly usage and (b) users on the Plus plan are relatively casual and new users, but then also just accidentally eat through their whole weeks usage and then are confused, making it not a great experience.\n\nWe are for the upcoming months keeping the 5h limit not enabled for Pro $100 and Pro $200 subscriptions.",
+      "created_at": "Tue Aug 25 01:16:43 +0000 2026",
+      "likes": 13132,
+      "views": "2740847",
+      "url": "https://x.com/i/status/2092058556707344708",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 72.456,
+      "title": "Plus 的 ChatGPT / Codex 把 5 小时限额加回来",
+      "summary": "OpenAI 的 Tibo 说，明天起 Plus 在 ChatGPT Work 和 Codex 恢复 5 小时限额，用来平滑算力，也避免新手一上午把一周额度吃光。Pro 100/200 美元接下来几个月不加这条。",
+      "recommend_reason": "订 Plus 写代码的人，额度节奏要按这个改。",
+      "tags": [
+        "OpenAI",
+        "Codex",
+        "产品"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2092055897182990838",
+      "author": "HiTw93",
+      "bio": "",
+      "text": "潮流周刊居然第 279 期了，这期拍摄的图片来源于临安风之谷，很空旷的一个地水远处看，难得有蓝绿色那种感觉，本期内容有这些 https://t.co/edCcIoijBJ\n\n1. Cumora：非常不错的 Teams Agent 居然开源了\n2. Omarchy：最近很火的漂亮且现代的 Linux 系统\n3. MicroLighter：一个非常小的代码语法高亮的库\n4. iGhostty：iPhone 版本的命令行终端\n5. Claude Code 创业公司指南",
+      "created_at": "Tue Aug 25 01:06:09 +0000 2026",
+      "likes": 54,
+      "views": "9659",
+      "url": "https://x.com/i/status/2092055897182990838",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQh5sF_akAAqBca.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQh5sF_akAAqBca.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 63.821,
+      "title": "潮流周刊 279：开源 Teams Agent 和 Claude Code 指南",
+      "summary": "潮叔第 279 期点了五样：开源 Cumora Teams Agent、Omarchy Linux、MicroLighter 语法高亮、iGhostty iPhone 终端、Claude Code 创业公司指南。",
+      "recommend_reason": "周刊比单条工具安利更适合扫一眼。",
+      "tags": [
+        "周刊",
+        "Agent",
+        "开源"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2092054396385501364",
+      "author": "GoSailGlobal",
+      "bio": "",
+      "text": "你不用手写AGENTS.md了,你用梯度下降训练它\n\n这个脑洞我服了。backpass把你的AGENTS.md当成神经网络的权重\n\n每跑一次agent会话就是一次前向传播,留在硬盘上的transcript就是损失信号。可这个信号以前没人读,全靠你哪天想起某次失败,手动去改文件\n\nbackpass把这个闭环接上了:自动找到你仓库里真跑过的agent会话,读懂里面发生了什么,反向提出有证据支撑的改动,等于给你的记忆文件做一次梯度下降\n\n每条改动都附带真实会话里的原话,一条新规则至少要两次独立会话佐证,一次最多改五条。全程只有你点了apply它才会写\n\n纯本地,直接读七种agent的会话记录,什么都不上传,MIT开源",
+      "created_at": "Tue Aug 25 01:00:11 +0000 2026",
+      "likes": 141,
+      "views": "22708",
+      "url": "https://x.com/i/status/2092054396385501364",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2092054362331979776/vid/avc1/480x270/Ujc0dgDIIxOLJ6iM.mp4?tag=14"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2092054362331979776/img/P66PuNIMaui-Fqn-.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 66.566,
+      "title": "用真实会话给 AGENTS.md 做一次梯度下降",
+      "summary": "backpass 把 AGENTS.md 当权重，把磁盘上的 agent 会话当损失：读 transcript，反向提改动，一条规则至少两次会话佐证，一次最多改五条，你点 apply 才写。纯本地，MIT。",
+      "recommend_reason": "记忆文件终于有闭环，不是再手写一版说明。",
+      "tags": [
+        "Agent",
+        "开源",
+        "Harness"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2092053070381539464",
+      "author": "wshuyi",
+      "bio": "",
+      "text": "这些日子在中山大学开工作坊。晚上经常是我去呼呼大睡，把第二天材料准备的长程任务编好扔给 Codex 自动完成。最夸张的一个任务跑了 6 个多小时，搞定全部测试和部署。看了一下，最近 30 天实际开销换算成 API 超过 $2000.  这个月的订阅对我而言，真值啊😂👍 https://t.co/cM3zmW6P3q",
+      "created_at": "Tue Aug 25 00:54:55 +0000 2026",
+      "likes": 22,
+      "views": "5306",
+      "url": "https://x.com/i/status/2092053070381539464",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQh3KjfbwAAxdGY.jpg",
+        "https://pbs.twimg.com/media/HQh3KjeasAAIfyy.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQh3KjfbwAAxdGY.jpg",
+        "https://pbs.twimg.com/media/HQh3KjeasAAIfyy.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 60.917,
+      "title": "把第二天的工作坊扔给 Codex 跑一晚上",
+      "summary": "王树义在中大开工作坊，晚上把长程任务交给 Codex，最夸张一次跑 6 小时测完部署。近 30 天按 API 估超过 2000 美元，他说这个月订阅值了。",
+      "recommend_reason": "订阅值不值，用真实过夜任务和账单说话。",
+      "tags": [
+        "Codex",
+        "Agent",
+        "工作流"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2092048213087760532",
+      "author": "dotey",
+      "bio": "",
+      "text": "豆包这个实时双语字幕还不错👍 https://t.co/KFMksd7C0s",
+      "created_at": "Tue Aug 25 00:35:37 +0000 2026",
+      "likes": 310,
+      "views": "63446",
+      "url": "https://x.com/i/status/2092048213087760532",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQhyt3sW8AArEEY.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQhyt3sW8AArEEY.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 62.689,
+      "summary": "豆包这个实时双语字幕还不错👍 https://t.co/KFMksd7C0s",
+      "recommend_reason": "豆包实时字幕的实机截图，短、能直接看效果。",
+      "tags": [
+        "豆包",
+        "语音",
+        "产品"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2092041044431139293",
+      "author": "xiaoxiaodong01",
+      "bio": "",
+      "text": "GPT2 x 早安 x 简约 x 东方美学 x  提示词 \n\n在思考如何让作图更加高效\n而且最近觉得画面，可以更加高质量\n颜色更好\n\n实践起来。\n元气满满的一天~ \n也祝大家今天开心顺利\n\n本次提示词：\n\n```\n围绕任意主题对象构建清透、安静而带东方节令感的视觉：让大面积高明度空白成为主体环境，以数道横向舒展的半透明柔色带从画面中段延伸至下方，边缘像水汽、湿染与失焦光影般羽化，宽窄、浓淡和间距不均，局部形成轻微波面、倒影与远近层次；在空白深处安置一个由主题语义提炼的小型剪影符号，尺度克制，贴近一条纤细的色带或水平线，并带模糊的浅影，使极小叙事物与辽阔雾白形成强烈尺度反差。散落少量主题派生的狭长碎片或轻叶状笔触，方向疏密随机，用于引导视线而不填满空间。信息集中在上方一侧：英文主标题采用超大号、高挑纤细、粗细反差明显的现代衬线字，分成短行，字距舒展，形成清晰而冷静的黑色骨架；中文主题标题置于其下，使用更凝练厚重、略带书写锋芒与墨迹起伏的字形，与英文形成尺度和笔画密度反差，并用一个从主题核心符号抽取的简洁色块嵌入词组之间。下方配极小字号说明文字；另一侧放置小型日期或编号组合，数字略大，周围细字紧凑；边缘安排一列疏朗的竖向微型文字与短线间隔，保持非对称平衡。颜色不照搬固定色相，而是从未来主题的情绪、文化联想与核心对象中派生：用极浅、低饱和、接近白色的主题基调覆盖绝大部分空间，以同色系稍深且仍柔和的颜色承担水雾色带和远景层次，以少量中等饱和的主题强调色标记符号、局部笔触与文字中的图形节点，正文保持近黑；整体维持高明度、低对比、空气充足、明亮洁净的色彩情绪，强调色只作细小聚焦。表面处理保持柔滑的数码水墨与轻薄纸感，雾化区域有细微扩散和弱颗粒，文字边缘相对清晰，图形边缘适度渗化，不加入厚重污损、强烈阴影或拥挤装饰。最终阅读顺序应先见醒目的双语标题，再落到中文主题与彩色符号，随后沿水平雾带寻找微小叙事剪影，最后发现日期和边缘细字；必须保住“巨大文字与辽阔留白、极小剪影与流动色带”之间的张力。\n\n主题：早安+问候+GOOD MORNING+城市+金句+天气+2026-08-25\n\n  一共10个国家经典花朵   展示 \n\n 10个图片    \n\n每个图片都有截然不同的色相逻辑   \n\n每个国家都是对应国家的文字逻辑\n每个国家都是对应的最喜欢的颜色\n\n日系韩系小清新配色创建图片 \n```",
+      "created_at": "Tue Aug 25 00:07:07 +0000 2026",
+      "likes": 24,
+      "views": "3746",
+      "url": "https://x.com/i/status/2092041044431139293",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQhrhiqagAAcEhh.jpg",
+        "https://pbs.twimg.com/media/HQhrhjQaAAAJoNB.jpg",
+        "https://pbs.twimg.com/media/HQhrl5TakAAN4Ao.jpg",
+        "https://pbs.twimg.com/media/HQhrn2qa4AAakIZ.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQhrhiqagAAcEhh.jpg",
+        "https://pbs.twimg.com/media/HQhrhjQaAAAJoNB.jpg",
+        "https://pbs.twimg.com/media/HQhrl5TakAAN4Ao.jpg",
+        "https://pbs.twimg.com/media/HQhrn2qa4AAakIZ.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2090960491648815553",
+        "author": "xiaoxiaodong01",
+        "name": "小小东",
+        "text": "GPT2 x 早安 x 早餐 x 一次10张 x 美学提示词 \n\n之前10万人喜欢我一组提示词， 用来批量制作图片\n\n效果还是一如往常的专业稳定\n\n我喜欢要求一次输出10张，每张要求不同的信息\n这点GPT-image2 太会了\n\n完整汤底提示词，结尾你可以自行佐料：\n```\n设计一张具有高级商业审美的极简海报，核心视觉语言是“真实物象穿越几何情绪窗口”。画面中设置一个窄长的低饱和色块，作为视觉锚点和空间容器，色块颜色根据主题选择柔和浅色，如雾蓝、浅青、米白、淡粉、暖灰或浅金。将【核心物象】以真实摄影质感或精细写实方式置入色块之中，但不要完全困在色块内，要让主体局部越界、破框、延伸到留白区域，形成自然生长感和空间穿透感。背景保持极简，使用大面积白色或浅灰留白，加入几乎透明的文化纹样、线性图形、地形线、水波线、光影轮廓或抽象符号，作为若隐若现的视觉细节。整体排版要像高端地产、奢侈品、美学杂志或节气海报，文字细长、克制、字距舒展，标题可竖排，辅助信息用小字号规整排列。画面需要有东方留白、现代秩序、自然生命力、轻奢品质感。避免杂乱、避免高饱和、避免厚重阴影、避免廉价模板感。\n```",
+        "created_at": "Sat Aug 22 00:33:24 +0000 2026",
+        "url": "https://x.com/xiaoxiaodong01/status/2090960491648815553",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQSU96-aoAAex4z.jpg",
+          "https://pbs.twimg.com/media/HQSVFBjaUAElLPs.jpg",
+          "https://pbs.twimg.com/media/HQSVJsPa4AAlsQ4.jpg",
+          "https://pbs.twimg.com/media/HQSVLHrbMAACljs.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQSU96-aoAAex4z.jpg",
+          "https://pbs.twimg.com/media/HQSVFBjaUAElLPs.jpg",
+          "https://pbs.twimg.com/media/HQSVJsPa4AAlsQ4.jpg",
+          "https://pbs.twimg.com/media/HQSVLHrbMAACljs.jpg"
+        ]
+      },
+      "score": 62.381,
+      "title": "小小东：东方留白的早安图提示词",
+      "summary": "小小东新一组早安/问候海报提示词：大面积高明度留白、横向柔色带、极小剪影，双语标题带节令感。要求一次 10 张、10 国花、各走不同色相和文字逻辑。完整提示词在原帖。",
+      "recommend_reason": "墙上提示词源的新早安组，留白比堆元素难写。",
+      "tags": [
+        "提示词",
+        "设计",
+        "小小东"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2092038808607084868",
+      "author": "elonmusk",
+      "bio": "",
+      "text": "Grok @Bot can do a lot!",
+      "created_at": "Mon Aug 24 23:58:14 +0000 2026",
+      "likes": 13205,
+      "views": "21411376",
+      "url": "https://x.com/i/status/2092038808607084868",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2092020672914755841",
+        "author": "KanekoaTheGreat",
+        "name": "KanekoaTheGreat",
+        "text": "Grok Bot is insane.\n\nI asked it to find every video where Dr. Roger Seheult discusses sunlight, red light, infrared light, and mitochondria, including MedCram videos and interviews with Andrew Huberman, Eric Berg, Steven Bartlett, and others.\n\nA few minutes later it had:\n\n• Found and transcribed 38 videos into one Word document\n• Picked the 13 best clips explaining the science\n• Cut and combined them into one 19:35 video I can watch straight through\n• Created a markdown file summarizing each clip, the science it covers, and the exact timestamp in the original video\n\nNo scripts. No code.\n\nI just told it what I wanted in plain English, and it turned days of work into minutes.\n\nAs a non-coder, this is the first AI agent that actually feels like a superpower.",
+        "created_at": "Mon Aug 24 22:46:10 +0000 2026",
+        "url": "https://x.com/KanekoaTheGreat/status/2092020672914755841",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQhNVmRawAAuJBm.png"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQhNVmRawAAuJBm.png"
+        ]
+      },
+      "score": 62.285,
+      "summary": "Grok Bot 能做的事很多。",
+      "recommend_reason": "引用里是完整工作流：38 段视频转写、剪成一条、再出时间戳摘要。",
+      "tags": [
+        "Grok",
+        "Agent",
+        "产品"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2091996794419060905",
+      "author": "elonmusk",
+      "bio": "",
+      "text": "Grok Voice is used by Starlink at scale for support &amp; sales",
+      "created_at": "Mon Aug 24 21:11:17 +0000 2026",
+      "likes": 9627,
+      "views": "4918969",
+      "url": "https://x.com/i/status/2091996794419060905",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2091987541272543406",
+        "author": "SpaceXAI",
+        "name": "SpaceXAI",
+        "text": "At Starlink, we’re using Grok Voice to resolve over 15,000 inbound customer support and sales calls a day.\n\nGrok diagnoses hardware issues, ships replacements, and fulfills over 3,000 orders a week across voice calls and chat.",
+        "created_at": "Mon Aug 24 20:34:31 +0000 2026",
+        "url": "https://x.com/SpaceXAI/status/2091987541272543406",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 66.349,
+      "summary": "Grok Voice 已经在 Starlink 的客服和销售里规模化使用。",
+      "recommend_reason": "官方语音模型的落地规模，不是演示。",
+      "tags": [
+        "Grok",
+        "语音",
+        "产品"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2091996016631300366",
+      "author": "dotey",
+      "bio": "",
+      "text": "这种技术选型，我年轻的时候会选 DeepSeek Harness，现在会选 Pi。\n\n年轻的时候追求技术上的新和酷，喜欢学新的东西，总觉得什么都要用用什么都要学学，喜欢折腾，较少的考虑项目和团队。\n\n现在更追求项目需要的、稳定的、简单的，先做出来才是最重要的，能稳定运行更好。Pi 就简单稳定，DSH 还是新东西，稳定下来还要一段时间，何苦来哉。\n\n再说了，现在有 AI，测试覆盖好一点，以后要换底层其实没那么难。",
+      "created_at": "Mon Aug 24 21:08:12 +0000 2026",
+      "likes": 310,
+      "views": "78570",
+      "url": "https://x.com/i/status/2091996016631300366",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2091798706135966009",
+        "author": "LotusDecoder",
+        "name": "LotusDecoder",
+        "text": "好了，\n硬件的选择告一段落，\n开始新的软件栈纠结，\n是继续用 pi agent 做开发呢？\n还是用 deepseek harness？\n\npi 是真的简洁易懂，改改代码就上手。\ndeepseek harness 是一切皆插件，以后给到agent本体的自由度会更大吧。",
+        "created_at": "Mon Aug 24 08:04:09 +0000 2026",
+        "url": "https://x.com/LotusDecoder/status/2091798706135966009",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 61.775,
+      "title": "宝玉：现在会选 Pi，不选 DeepSeek Harness",
+      "summary": "宝玉说年轻会追新选 DSH，现在选 Pi：先做出来、简单稳定。有 AI 之后底层可换，测试覆盖好就行，不必在新 harness 上耗着。",
+      "recommend_reason": "选型从酷回到稳，说的是真实项目压力。",
+      "tags": [
+        "Agent",
+        "Harness",
+        "工程"
+      ],
+      "rank": 14
+    },
+    {
+      "id": "2091987538999197752",
+      "author": "SpaceXAI",
+      "bio": "",
+      "text": "Grok Voice Think Fast 2.0 is now #1 on the Artificial Analysis Speech-to-Speech Index.\n\nThis index measures whether voice agents can reason over the speech it hears, resolve real customer issues, and correctly complete tasks using agent tools. https://t.co/KnZ9udioNa",
+      "created_at": "Mon Aug 24 20:34:31 +0000 2026",
+      "likes": 1871,
+      "views": "2514415",
+      "url": "https://x.com/i/status/2091987538999197752",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQg5tKAWUAEV3__.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQg5tKAWUAEV3__.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 69.738,
+      "title": "Grok Voice Think Fast 2.0 上了语音任务榜第一",
+      "summary": "SpaceXAI 说 Grok Voice Think Fast 2.0 登上 Artificial Analysis 语音到语音榜第一。这个榜比的是听懂、办事、会调工具，不是只念稿。",
+      "recommend_reason": "语音 Agent 从闲聊切到真任务，口径清楚。",
+      "tags": [
+        "Grok",
+        "语音",
+        "Agent"
+      ],
+      "rank": 15
+    }
+  ],
+  "generated_at": "2026-08-25T15:40:42Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 15,
+    "last_batch_added": 15,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
