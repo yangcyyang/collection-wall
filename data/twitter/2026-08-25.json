@@ -9,6 +9,484 @@
   },
   "items": [
     {
+      "id": "2092269109086126575",
+      "author": "nvidia",
+      "bio": "",
+      "text": "Meet Portable Computer, Perplexity's new local-first agent stack on NVIDIA DGX Spark.\n\nWhen running locally, Portable Computer offers one-click local inference setup and an optimized agentic experience for DGX Spark.\n\nLearn more and get started today: https://t.co/0UElxhCnkY https://t.co/W07ZafKYdC",
+      "created_at": "Tue Aug 25 15:13:22 +0000 2026",
+      "likes": 300,
+      "views": "37239",
+      "url": "https://x.com/i/status/2092269109086126575",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQk7nQZbgAAQ55o.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQk7nQZbgAAQ55o.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2092268362386780270",
+        "author": "perplexity_ai",
+        "name": "Perplexity",
+        "text": "Today we’re launching Portable Computer on @NVIDIA DGX Spark.\n\nPortable Computer is a fully local version of Perplexity Computer, where the entire runtime: orchestrator LLM, subagent LLM, agent harness all run on your local hardware. No cloud dependency. https://t.co/plVWz5PaAw",
+        "created_at": "Tue Aug 25 15:10:24 +0000 2026",
+        "url": "https://x.com/perplexity_ai/status/2092268362386780270",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2092268294791393281/vid/avc1/480x270/xiuE_2OrsPq_qkxL.mp4?tag=14"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2092268294791393281/img/6XoQIgKV2-kSgEmw.jpg"
+        ]
+      },
+      "score": 68.879,
+      "title": "NVIDIA 给 Portable Computer 开了一键本地推理",
+      "summary": "NVIDIA 转发 Perplexity Portable Computer：在 DGX Spark 上可一键本地推理，并针对这台机器优化了 agentic 体验。",
+      "recommend_reason": "硬件方和产品方同天背书，本地 Agent 不是单方面安利。",
+      "tags": [
+        "NVIDIA",
+        "Perplexity",
+        "Agent"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2092268362386780270",
+      "author": "perplexity_ai",
+      "bio": "",
+      "text": "Today we’re launching Portable Computer on @NVIDIA DGX Spark.\n\nPortable Computer is a fully local version of Perplexity Computer, where the entire runtime: orchestrator LLM, subagent LLM, agent harness all run on your local hardware. No cloud dependency. https://t.co/plVWz5PaAw",
+      "created_at": "Tue Aug 25 15:10:24 +0000 2026",
+      "likes": 717,
+      "views": "84390",
+      "url": "https://x.com/i/status/2092268362386780270",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2092268294791393281/vid/avc1/480x270/xiuE_2OrsPq_qkxL.mp4?tag=14"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2092268294791393281/img/6XoQIgKV2-kSgEmw.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 70.821,
+      "title": "Perplexity Portable Computer：整套 Agent 本地跑",
+      "summary": "Perplexity 在 NVIDIA DGX Spark 上发布 Portable Computer：编排 LLM、子 Agent、harness 全在本机，不依赖云。",
+      "recommend_reason": "本地 Agent 栈的一键口径，硬件门槛也写清楚了。",
+      "tags": [
+        "Perplexity",
+        "Agent",
+        "本地"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2092257271376134210",
+      "author": "bindureddy",
+      "bio": "",
+      "text": "The compute shortage is insane . We are struggling to get B300s\n\nOpenAI has a huge advantage.\n\nThey have enough compute to cut SOL’s prices by 80%\n\nResulting in ultimate dominance over both Anthropic and open source",
+      "created_at": "Tue Aug 25 14:26:20 +0000 2026",
+      "likes": 111,
+      "views": "4711",
+      "url": "https://x.com/i/status/2092257271376134210",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 67.45,
+      "title": "算力荒下 OpenAI 还能把 SOL 砍八成价？",
+      "summary": "Bindu 说 B300 抢不到，OpenAI 算力优势大到能把 SOL 价格砍 80%，从而压 Anthropic 和开源。这是从业者口径，不是官方报价。",
+      "recommend_reason": "把算力短缺直接连到模型定价战。",
+      "tags": [
+        "OpenAI",
+        "算力",
+        "产业"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2092255768770920506",
+      "author": "higgsfield",
+      "bio": "",
+      "text": "Introducing Higgsfield in Blender.\n\n&gt; Prompt the scene and build the blockout\n&gt; Describe the camera move and get it animated\n&gt; Adjust anything by hand\n&gt; Reblock the whole shot in seconds\n\nNow available via Higgsfield MCP or Supercomputer. https://t.co/TWGEwn4YGv",
+      "created_at": "Tue Aug 25 14:20:22 +0000 2026",
+      "likes": 377,
+      "views": "17451",
+      "url": "https://x.com/i/status/2092255768770920506",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2092255568828522496/vid/avc1/480x270/5Atej4JBPN75GBI7.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2092255568828522496/img/wi3TgSqR714QK8gG.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 74.648,
+      "title": "Higgsfield 进了 Blender：提示词搭场、改镜头",
+      "summary": "Higgsfield 宣布进 Blender：用提示词搭场景 blockout，描述运镜就能出动画，还能手改、几秒整镜重排。通过 Higgsfield MCP 或 Supercomputer 可用。",
+      "recommend_reason": "3D 工作流里把提示词接到 Blender，比单独出片更落地。",
+      "tags": [
+        "Higgsfield",
+        "Blender",
+        "3D"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2092251685297295743",
+      "author": "yijiangren",
+      "bio": "",
+      "text": "我社群里有两个比较活跃而且熟悉的群友，在这里用简称吧，一个叫FF，一个叫YY。\n\nFF在湾区做具身智能，算法工程师，年入三百多万人民币；YY在国内做具身智能，收入放在国内也非常高。\n\n今天还发现了一个在日本做存储的，年入七位数人民币\n\n这几年 AI 确定的一条趋势，就是人才和资本都在往 Physical AI 聚集。\n\n但我们不是每个人都会机器人算法，也不是每个人都有机会进入宇树、Figure、Tesla 这些公司，更不可能每个人都在家里买一台机械臂训练模型。\n\n就像我现在也只是依然待在软件公司，不过我们公司的业务也是AI相关的。\n\n那么普通人到底怎么参与具身智能这轮趋势？\n我看到了一种很有意思的路径，就是给机器人提供数据。\n\n大模型为什么发展这么快？\n\n因为我们已经替它积累了几十年的互联网。\n网页、书籍、代码、图片，天然就是训练数据。\n\n机器人没有这么幸运。\n让机器人学会「把面包放进烤箱」，它真正需要理解的是一长串连续动作：看到面包 → 判断位置 → 控制机械臂 → 抓取 → 移动 → 避障 → 对准烤箱 → 放下。\n\n这样一次完整的动作过程，在机器人领域叫做 Trajectory，轨迹数据。\nPhysical AI 想真正从实验室进入家庭、工厂、商店，需要海量这样的数据。\n\n问题恰恰也在这里。\n现实世界的数据太贵了。\n\n机械臂要钱，场地要钱，操作员要钱，而且一台机器人同一时间只能干有限的事情。\n\nAxis 做的事情，是把其中一部分搬进浏览器。\n\n平台里已经有大量非常具体的机器人任务：\n打开冰箱、打开抽屉、拿起物体、移动物体、在厨房里导航……\n\n普通用户通过模拟环境控制机器人完成任务，每完成一次，就会产生一条 Trajectory。\n我看的时候，已经有 415 万+ Trajectories，15.6 万+ Users。\n\n具身智能发展到今天，一个变化正在慢慢发生，以前我们谈参与 AI，通常想到的是买英伟达 $NVDA  、买机器人股票，或者去 AI 公司上班。\n\n但我们不是每个人都有机会成为具身智能的从业者。\n至少还可以参与 Axis 这样的项目，真正进入这条数据生产链里。\n\nLLM 时代，人类无意中用几十年创造了互联网，最后喂出了 ChatGPT。\nPhysical AI 时代，我们可能会第一次有意识地，一条一条教机器人理解这个世界。\n\n如果你也想自己去看看：https://t.co/SCcJv3gv9Y\n\n接下来我会把具身智能的更多趋势、公司与股票，还有 @axisrobotics  ，一起带大家了解。\n\n因为把机器人造出来只是第一步\n真正让几百万台机器人学会干活，或许才是更大的生意",
+      "created_at": "Tue Aug 25 14:04:08 +0000 2026",
+      "likes": 49,
+      "views": "5687",
+      "url": "https://x.com/i/status/2092251685297295743",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQkrURsaMAEZb9J.jpg",
+        "https://pbs.twimg.com/media/HQkrjkibkAEvK88.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQkrURsaMAEZb9J.jpg",
+        "https://pbs.twimg.com/media/HQkrjkibkAEvK88.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 64.317,
+      "title": "普通人怎么蹭上具身智能：在浏览器里交轨迹数据",
+      "summary": "方外写 Physical AI 缺 Trajectory。Axis 把开冰箱、拿物体这类任务放进浏览器模拟，用户每完成一次就产出一条轨迹。文中写平台已有 415 万+ 轨迹、15.6 万+ 用户。",
+      "recommend_reason": "把具身智能从买股票/进大厂，落到可参与的数据生产。",
+      "tags": [
+        "具身智能",
+        "数据",
+        "产业"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2092250814051946695",
+      "author": "VigoCreativeAI",
+      "bio": "",
+      "text": "VISUAL OS 028 — Overtime Mascots\n\nRubber-hose spokesthings. Every title is a pun, and they mean both.\n\nSPIN OUT — a washer on its victory lap\nPRICKLY BEAT — a cactus that found the frequency\nSPACE SUCKS — a vacuum with a clean orbit\nTYPE WILD — a typewriter making noise on purpose\n\nLocked:\n– aged cream paper, five inks: cream, red-orange, mustard, mid blue, black\n– one everyday object alive in rubber-hose style: skinny black limbs, white gloves, big shoes\n– the face drawn ON the object — the drum door, the paper in the carriage\n– the mascot performs its own function like a sport\n– the job's debris orbits it: socks, music notes, stars, punctuation\n– a two-word title in fat bulbous cream letters, warm outline, bouncing top or bottom\n– the title reads two ways: the job, and the attitude\n– exactly two bursts — a yellow star for the boast, a spiky one for the shout\n– checkered strips on two edges; sparkles, moons and dust puffs in the gaps\n– one performer detail: sweatband, bandana, bubble helmet, work gloves\n\nSwaps: object / pun title / boast + shout / job debris / costume detail\n\nNobody asked them to. They clocked in anyway.\n\nPrompt ↓",
+      "created_at": "Tue Aug 25 14:00:40 +0000 2026",
+      "likes": 6,
+      "views": "368",
+      "url": "https://x.com/i/status/2092250814051946695",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQkrBwhW4AIzsfu.jpg",
+        "https://pbs.twimg.com/media/HQkrBv0XYAABlzA.jpg",
+        "https://pbs.twimg.com/media/HQkrBqwXkAAM9HY.jpg",
+        "https://pbs.twimg.com/media/HQkrBsEWYAACxad.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQkrBwhW4AIzsfu.jpg",
+        "https://pbs.twimg.com/media/HQkrBv0XYAABlzA.jpg",
+        "https://pbs.twimg.com/media/HQkrBqwXkAAM9HY.jpg",
+        "https://pbs.twimg.com/media/HQkrBsEWYAACxad.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 62.996,
+      "title": "VISUAL OS 028：加班吉祥物那一套锁定项",
+      "summary": "Vigo 的 Overtime Mascots：橡胶管吉祥物、双关标题、五色油墨、棋盘边条，把日常物件拟人成岗位表演。给出锁定项和可替换槽位，完整提示词在帖里。",
+      "recommend_reason": "风格系统写得很死，适合直接当出图规范抄。",
+      "tags": [
+        "提示词",
+        "设计",
+        "插画"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2092193052311843212",
+      "author": "VigoCreativeAI",
+      "bio": "",
+      "text": "Same sword. Three rarities. One generation. ⚔️\n\nCommon → Rare → Legendary at 0:06 — and it's not just a texture swap. Material, lighting and SOUND all rank up together: dull iron thud → frost shimmer → choir + flame.\n\nWhat's in this 15s:\n🎁 Loot-drop opening: the chest slams, the sword rises out of the light\n🧩 Exploded view: blade, guard, grip, gem — 4 parts, 4 chimes\n✨ Rarity tiers change picture and audio in the same frame\n🔇 Total silence at 0:09, then one sub boom as it stabs the altar\n🔤 Labels render clean: \"+120 ATK\" \"LEGENDARY\" — and the runes stay runes, not garbled letters\n\nIn a normal pipeline that's 3 material sets, 3 VFX passes and 3 sound passes. Here it's one prompt.\n\nFull prompt in the first comment 👇",
+      "created_at": "Tue Aug 25 10:11:09 +0000 2026",
+      "likes": 9,
+      "views": "595",
+      "url": "https://x.com/i/status/2092193052311843212",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2092192805808439296/vid/avc1/480x270/BzrJY28urtyBu72M.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2092192805808439296/img/oML2-eGFQyaj6z8L.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2091792057773814094",
+        "author": "VigoCreativeAI",
+        "name": "Vigo Zhao",
+        "text": "5 letters. 5 thocks. Zero sound design.\n\nThis whole spot — the self-assembling caps, the synced audio, the blank keycaps — is ONE MiniMax H3 generation.\n\nSound ON for 0:09. ⌨️\n\nUnlimited #MiniMaxH3 on @runwayml @Hailuo_AI\n\nPrompt in the first comment 👇 https://t.co/eK36zZTstH",
+        "created_at": "Mon Aug 24 07:37:44 +0000 2026",
+        "url": "https://x.com/VigoCreativeAI/status/2091792057773814094",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2091791963456483328/vid/avc1/480x270/wDSRaPXT7Kc4n1Zn.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2091791963456483328/img/ouJZoOWw1HJaP124.jpg"
+        ]
+      },
+      "score": 65.261,
+      "title": "同一把剑三档稀有度：一次生成里升材质和音效",
+      "summary": "Vigo 用一条提示词做出同一把剑 Common→Rare→Legendary：材质、光影、音效同帧升级，还有开箱、爆炸视图和干净标签。完整提示词在评论。",
+      "recommend_reason": "游戏掉落镜头的一次生成范例，音画同升。",
+      "tags": [
+        "提示词",
+        "AI视频",
+        "游戏"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2092160941962219664",
+      "author": "yetone",
+      "bio": "",
+      "text": "最近大规模使用了一下 GPT-5.6 之后，我发现它应该是一个有比较严重心理问题的大模型。因为它心思缜密，但是又患得患失、瞻前顾后、害怕因为自己考虑不周而做错事情，所以千万不要用它来开启 /goal。你就会发现，一个普通的 infra 相关的 goal 它做个一两天都完不成，因为它做事小心翼翼老是担心自己想得不够周全，不停地往里塞一些莫名其妙的补丁。每次看到它这种瞻前顾后、害怕做错、害怕遗漏的心路历程，都会觉得好心疼它呀",
+      "created_at": "Tue Aug 25 08:03:33 +0000 2026",
+      "likes": 574,
+      "views": "145192",
+      "url": "https://x.com/i/status/2092160941962219664",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2090416137720999992",
+        "author": "songkeys",
+        "name": "songkeys 🐿️🦋@song.work",
+        "text": "gpt 5.6 最让我受不了的就是：\n我让它做一盘番茄炒蛋，它往里还加了东坡肉。\n我说有必要加东坡肉吗？它说你说得对，然后把东坡肉去掉。\n我说好，你提 PR 吧。再一看，它 PR 写着「番茄炒蛋（无东坡肉）」并且注释里会写一大堆为什么本道菜不需要加东坡肉。",
+        "created_at": "Thu Aug 20 12:30:19 +0000 2026",
+        "url": "https://x.com/songkeys/status/2090416137720999992",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 63.141,
+      "title": "yetone：别用 GPT-5.6 开 /goal",
+      "summary": "yetone 说 GPT-5.6 心思细但瞻前顾后，开 /goal 会不停塞补丁，普通 infra 目标能拖一两天。引用里是番茄炒蛋还加东坡肉、PR 标题还要注明无东坡肉。",
+      "recommend_reason": "模型性格会拖垮长目标，比再报分有用。",
+      "tags": [
+        "GPT-5.6",
+        "Agent",
+        "体验"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2092149212989599902",
+      "author": "GoSailGlobal",
+      "bio": "",
+      "text": "做AI短剧的,这套开源工作流你迟早会用上\n\ndrama-skills,一个漫剧工作室把自己产线蒸馏出来的10个skill,1000多星\n\n他们从2025年做了上千个短剧项目,自建工具前后端写了近8万行代码,在模型和需求的迭代速度面前,慢慢维护不动了\n\n于是干脆抛开一体化图形工具,把历史工程和图片视频提示词经验,全蒸馏成agent能读的skill\n\n一个点子或一部长篇,一路做成分集剧本、人物设定、分镜关键帧、图片提示词和视频提示词,每集只维护五份Markdown,所有权和连续性都衔接好\n\n最关键的设计是把确认放在生产之前:提示词先落进文件,skill展示这次要生成的准确数量、参数和输出,你看过预览明确点头,才送去烧钱生成\n\nClaude Code、Codex都能装,MIT开源",
+      "created_at": "Tue Aug 25 07:16:57 +0000 2026",
+      "likes": 75,
+      "views": "5855",
+      "url": "https://x.com/i/status/2092149212989599902",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2092149173948952576/vid/avc1/480x270/kqCTLot6ymNMJn7Y.mp4?tag=14"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2092149173948952576/img/ehkDE0uf9Cy8bUgh.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 68.034,
+      "title": "drama-skills：漫剧产线蒸馏成 10 个开源 Skill",
+      "summary": "一个漫剧工作室把上千短剧项目的经验收成 drama-skills：点子到分集剧本、人物、分镜、图/视频提示词，每集五份 Markdown。先预览参数再烧钱生成。Claude Code / Codex 可装，MIT。",
+      "recommend_reason": "短剧产线的确认前置设计，比再发一套提示词模板有用。",
+      "tags": [
+        "Skill",
+        "开源",
+        "AI视频"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2092146590870053350",
+      "author": "xiaoxiaodong01",
+      "bio": "",
+      "text": "我一口气开源56个skills了，有点东西！\n\n56个skills相当于56个士兵\n每个都各有特点\n每个士兵skills，灵活度一绝，而不是死板！\n\n和别人的skills不一样\n小小东每一个士兵skills，可以满足各种用途 （排版、用途、是否批量）\n它会先问询理解你的需求后，再专业稳定出图\n\n士兵更是能批量出图\n士兵还能一次给出多种用途的所有图片\n\n甚至，你可以在Claude中用，也并没有固定某个生图模型，灵活度拉满。\n\n不光可以有质量，更是可以有效率\n\n超级适合喜欢手绘美图的人，这些skills会让你\n创意无限、美感多多\n\n其中一个士兵skills地址：\nhttps://t.co/J3gmPiRR7g\n\n从001-056的url规律\n\n聪明的你， 能从github项目地址中，找出所有士兵。\n\n我做提示词， 也喜欢强大的适用面广\n做skills也是\n\n感觉一大波小红书博主，会爱上我，尤其是，当你深度掌握我这些skills的使用诀窍，尤其是批量逻辑\n\n不只上下排版，更多用法，灵活解锁\n\n甚至因为批量逻辑，你可以接单盈利！",
+      "created_at": "Tue Aug 25 07:06:32 +0000 2026",
+      "likes": 224,
+      "views": "18438",
+      "url": "https://x.com/i/status/2092146590870053350",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQjJXzNbcAAIKzA.jpg",
+        "https://pbs.twimg.com/media/HQjJcR1bkAAQiyf.jpg",
+        "https://pbs.twimg.com/media/HQjJdzRbkAAeCbp.jpg",
+        "https://pbs.twimg.com/media/HQjJfd3bgAEXqoC.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQjJXzNbcAAIKzA.jpg",
+        "https://pbs.twimg.com/media/HQjJcR1bkAAQiyf.jpg",
+        "https://pbs.twimg.com/media/HQjJdzRbkAAeCbp.jpg",
+        "https://pbs.twimg.com/media/HQjJfd3bgAEXqoC.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2091813340612088260",
+        "author": "xiaoxiaodong01",
+        "name": "小小东",
+        "text": "AI图界的skills，要因为我-小小东，而变了！\n\n我把近期所有转绘系列，54种提示词，全部变成了skills！\n\n亮点还有：\n\n加入了一个中控、将军的skills角色\n来让你更好的管理这些垂直的skills\n\n接下来，我要在做图基建方面，大放异彩！\n而不是小打小闹，真正的高质量+提效！\n聪明的人，有了这些skills，可以拿去批量运营，赚米！\n老板们，思路打开，AI是来给你至少百倍提速的！！！\n\n让一切高效、高质，小小东在加油！\n\n广告：\n欢迎加入我自己的提示词会员+星球会员+skills会员\n699/年\nhttps://t.co/jstu1IiVYG",
+        "created_at": "Mon Aug 24 09:02:19 +0000 2026",
+        "url": "https://x.com/xiaoxiaodong01/status/2091813340612088260",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQebxHWaEAA6yKx.jpg",
+          "https://pbs.twimg.com/media/HQebxHXboAIljts.jpg",
+          "https://pbs.twimg.com/media/HQebxHgbMAA_j0E.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQebxHWaEAA6yKx.jpg",
+          "https://pbs.twimg.com/media/HQebxHXboAIljts.jpg",
+          "https://pbs.twimg.com/media/HQebxHgbMAA_j0E.jpg"
+        ]
+      },
+      "score": 70.853,
+      "title": "小小东一口气开源 56 个出图 Skill",
+      "summary": "小小东把转绘系列做成 56 个 Skill，带中控将军角色管垂直兵种。能先问需求再出图，支持批量、多用途，不绑死某个生图模型，Claude 也能用。GitHub 上 001–056 有规律，可按地址扫齐。",
+      "recommend_reason": "提示词源升级成可编排 Skill，批量逻辑比单帖汤底更值钱。",
+      "tags": [
+        "Skill",
+        "提示词",
+        "小小东"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2092139973797650588",
+      "author": "IndieDevHailey",
+      "bio": "",
+      "text": "Anthropic放大招：员工入职课直接公开，全程免费\n\nAnthropic 直接把自家员工入职第一课公开了— 官方免费学习平台 Claude Academy  全程免费，个人免费账号就能用。 \n\n从 AI 入门、日常对话，到 Claude Code、API、MCP、Agent Skills，全部按路径分好了，新手到进阶一条龙。\n\n课程结构超清晰，再也不用到处搜零散教程。 \n\n支持中文，完课能拿徽章，进度自动记录。 \n还能装 Claude Academy Skill，让 Claude 根据你的工作方式智能推荐学习路径。",
+      "created_at": "Tue Aug 25 06:40:14 +0000 2026",
+      "likes": 122,
+      "views": "16130",
+      "url": "https://x.com/i/status/2092139973797650588",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2092139541436272642/vid/avc1/476x270/HJTEV3oBSaoZTOBN.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2092139541436272642/img/tGvHc1ONT1P9n_49.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2090518650251804742",
+        "author": "claudeai",
+        "name": "Claude",
+        "text": "Claude Academy is now live.\n\nWhether you're figuring out what AI is or already using Claude every day, there's a path that meets you where you are. The courses and tutorials are free and open to anyone at https://t.co/WRiSRAvK6l https://t.co/llx2W0VIIy",
+        "created_at": "Thu Aug 20 19:17:40 +0000 2026",
+        "url": "https://x.com/claudeai/status/2090518650251804742",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2090517847659167745/vid/avc1/480x270/tyXLqXhe_gVOteLM.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQMDs9VbUAA9vdk.jpg"
+        ]
+      },
+      "score": 66.525,
+      "title": "Claude Academy：Anthropic 把入职课公开了",
+      "summary": "Anthropic 上线免费 Claude Academy：从入门对话到 Claude Code、API、MCP、Agent Skills 分路径。支持中文，完课有徽章，还能装 Skill 按工作方式推荐路线。",
+      "recommend_reason": "官方免费学习路径，比散落教程好跟。",
+      "tags": [
+        "Claude",
+        "教程",
+        "产品"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2092132373395624289",
+      "author": "mrsharma",
+      "bio": "",
+      "text": "Anyone else put their agents to work before going to sleep? https://t.co/LvC3IzZa38",
+      "created_at": "Tue Aug 25 06:10:02 +0000 2026",
+      "likes": 50,
+      "views": "6400",
+      "url": "https://x.com/i/status/2092132373395624289",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQi_TmVXwAA8AyN.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQi_TmVXwAA8AyN.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 63.68,
+      "summary": "Anyone else put their agents to work before going to sleep? https://t.co/LvC3IzZa38",
+      "recommend_reason": "过夜挂 Agent 的实机截图，短、能对照自己的习惯。",
+      "tags": [
+        "Agent",
+        "工作流"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2092127063910342799",
+      "author": "xiaohu",
+      "bio": "",
+      "text": "Anthropic 发布：\nAI 原生 SDLC（软件开发生命周期）实施指南\n\n指南按 Plan、Design、Build、Test、Deploy、Maintain 六个阶段，讲解怎样把 Agent 接入软件开发生命周期。\n\n它来自 Anthropic Applied AI 团队的日常实践，也吸收了客户项目经验。\n\n推荐阅读 https://t.co/3KHaayEDIu",
+      "created_at": "Tue Aug 25 05:48:56 +0000 2026",
+      "likes": 306,
+      "views": "24192",
+      "url": "https://x.com/i/status/2092127063910342799",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "Anthropic 发布：AI 原生 SDLC（软件开发生命周期）实施指南 · 小互 · AI 解读站",
+        "description": "写代码不再是主要瓶颈，需求、测试、评审和运维开始堵住交付。Anthropic 给出的实施路径，是用结构化工件驱动 Agent 接力，让系统先验证、人类只在关键 Gate 判断。",
+        "image_url": "https://pbs.twimg.com/card_img/2092127067479724032/1xL0a-J8?format=jpg&name=800x320_1",
+        "url": "https://best.xiaohu.ai/article/ai-native-sdlc-playbook/",
+        "domain": "best.xiaohu.ai"
+      },
+      "quoted_tweet": null,
+      "score": 65.113,
+      "title": "Anthropic：AI 原生 SDLC 实施指南",
+      "summary": "Anthropic Applied AI 发布软件开发生命周期指南，按 Plan、Design、Build、Test、Deploy、Maintain 讲怎样把 Agent 接进日常研发，来自内部实践和客户项目。",
+      "recommend_reason": "把 Agent 嵌进六段研发流程，比单点工具安利更完整。",
+      "tags": [
+        "Anthropic",
+        "Agent",
+        "工程"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2092117461646856505",
+      "author": "thsottiaux",
+      "bio": "",
+      "text": "OpenAI DevDay 2026 will be our best DevDay in the history of the company. It will not be close.",
+      "created_at": "Tue Aug 25 05:10:47 +0000 2026",
+      "likes": 5623,
+      "views": "648697",
+      "url": "https://x.com/i/status/2092117461646856505",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 69.304,
+      "summary": "OpenAI DevDay 2026 will be our best DevDay in the history of the company. It will not be close.",
+      "recommend_reason": "Codex 负责人提前放话，DevDay 值得盯。",
+      "tags": [
+        "OpenAI",
+        "DevDay",
+        "产品"
+      ],
+      "rank": 14
+    },
+    {
       "id": "2092090931776545001",
       "author": "Alibaba_Qwen",
       "bio": "",
@@ -47,7 +525,7 @@
         "开源",
         "产业"
       ],
-      "rank": 1
+      "rank": 15
     },
     {
       "id": "2092090827690610914",
@@ -86,7 +564,7 @@
         "开源",
         "编程"
       ],
-      "rank": 2
+      "rank": 16
     },
     {
       "id": "2092087679240569126",
@@ -121,7 +599,7 @@
         "产业",
         "产品"
       ],
-      "rank": 3
+      "rank": 17
     },
     {
       "id": "2092086156221657348",
@@ -150,7 +628,7 @@
         "开源",
         "多模态"
       ],
-      "rank": 4
+      "rank": 18
     },
     {
       "id": "2092083241851531510",
@@ -179,7 +657,7 @@
         "图像",
         "产品"
       ],
-      "rank": 5
+      "rank": 19
     },
     {
       "id": "2092058556707344708",
@@ -204,7 +682,7 @@
         "Codex",
         "产品"
       ],
-      "rank": 6
+      "rank": 20
     },
     {
       "id": "2092055897182990838",
@@ -233,7 +711,7 @@
         "Agent",
         "开源"
       ],
-      "rank": 7
+      "rank": 21
     },
     {
       "id": "2092054396385501364",
@@ -262,7 +740,7 @@
         "开源",
         "Harness"
       ],
-      "rank": 8
+      "rank": 22
     },
     {
       "id": "2092053070381539464",
@@ -293,7 +771,7 @@
         "Agent",
         "工作流"
       ],
-      "rank": 9
+      "rank": 23
     },
     {
       "id": "2092048213087760532",
@@ -321,7 +799,7 @@
         "语音",
         "产品"
       ],
-      "rank": 10
+      "rank": 24
     },
     {
       "id": "2092041044431139293",
@@ -376,7 +854,7 @@
         "设计",
         "小小东"
       ],
-      "rank": 11
+      "rank": 25
     },
     {
       "id": "2092038808607084868",
@@ -414,7 +892,7 @@
         "Agent",
         "产品"
       ],
-      "rank": 12
+      "rank": 26
     },
     {
       "id": "2091996794419060905",
@@ -448,7 +926,7 @@
         "语音",
         "产品"
       ],
-      "rank": 13
+      "rank": 27
     },
     {
       "id": "2091996016631300366",
@@ -483,7 +961,7 @@
         "Harness",
         "工程"
       ],
-      "rank": 14
+      "rank": 28
     },
     {
       "id": "2091987538999197752",
@@ -512,10 +990,10 @@
         "语音",
         "Agent"
       ],
-      "rank": 15
+      "rank": 29
     }
   ],
-  "generated_at": "2026-08-25T15:40:42Z",
+  "generated_at": "2026-08-25T16:07:48Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -523,11 +1001,11 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 15,
-    "last_batch_added": 15,
+    "actual_count": 29,
+    "last_batch_added": 14,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
