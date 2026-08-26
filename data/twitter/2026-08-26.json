@@ -9,6 +9,516 @@
   },
   "items": [
     {
+      "id": "2092620850252177504",
+      "author": "oran_ge",
+      "bio": "",
+      "text": "Ox Alpha 牛来模型官宣！\n正式模型名称为 GLM 5.3 Flash Vison\n划重点：\n- 国产芯片雄起，这几天全球每天超过 100T 的供应量，全部由国产芯片提供算力支持，低价管饱，改变行业格局\n- Artificial Analysis Intelligence Index 57 分，和 Opus 4.8 打平\n- 模型定价，现在限时半价，只要 Opus 4.8 的 1/40，新的性价比斩杀线已经形成\n- 超低成本的全新架构，参数 320B，激活参数 18 B，价格做到了上一代 GLM 5.3 的十分之一\n- 真正原生多模态模型，不止是能看见，还能感知环境，通过视觉迭代改进，可以自己在 Blender 画出一个厨房。。。\n\nGLM 5.3 Flash 目前已经在 https://t.co/HALAezrowT 上线\nhttps://t.co/KCaX1FvRqz 已经在上周五接入限免测试版，明天正式上线正式版\n\n价格和接入：\nhttps://t.co/E877shCMjR\n\n开源：\nhttps://t.co/ssWg9rastc",
+      "created_at": "Wed Aug 26 14:31:04 +0000 2026",
+      "likes": 82,
+      "views": "16821",
+      "url": "https://x.com/i/status/2092620850252177504",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQp6OTmbsAA0VnF.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQp6OTmbsAA0VnF.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 65.847,
+      "title": "Ox Alpha 官宣 GLM 5.3 Flash Vision",
+      "summary": "Orange 说正式名是 GLM 5.3 Flash Vision。320B 总参、18B 激活，价约上一代十分之一，限时半价约 Opus 4.8 的 1/40。Intelligence Index 57，跟 Opus 4.8 打平。原生多模态，能看环境、用视觉迭代，举例能在 Blender 里画厨房。算力这几天全球每天超 100T，说全是国产芯片。",
+      "recommend_reason": "国产多模态的价格和分数写在一起，方便对 Opus。",
+      "tags": [
+        "GLM",
+        "多模态",
+        "国产"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2092620078462451715",
+      "author": "vincemask",
+      "bio": "",
+      "text": "有朋友私信问题我，下面这种手绘风格的知识汇总图片怎么生成的。\n\n其实很简单，把主题和提示词发给 ChatGPT 就可以了。\n\n完整提示词放在评论区，感兴趣可以直接拿去用。 https://t.co/BJuNcqQfQ6",
+      "created_at": "Wed Aug 26 14:28:00 +0000 2026",
+      "likes": 11,
+      "views": "871",
+      "url": "https://x.com/i/status/2092620078462451715",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQp6i39a4AAfEYQ.jpg",
+        "https://pbs.twimg.com/media/HQp6i32aQAAutjK.jpg",
+        "https://pbs.twimg.com/media/HQp6i3xb0AAKz1v.jpg",
+        "https://pbs.twimg.com/media/HQp6i32akAEcPC0.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQp6i39a4AAfEYQ.jpg",
+        "https://pbs.twimg.com/media/HQp6i32aQAAutjK.jpg",
+        "https://pbs.twimg.com/media/HQp6i3xb0AAKz1v.jpg",
+        "https://pbs.twimg.com/media/HQp6i32akAEcPC0.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 62.615,
+      "summary": "有朋友私信问题我，下面这种手绘风格的知识汇总图片怎么生成的。\n\n其实很简单，把主题和提示词发给 ChatGPT 就可以了。\n\n完整提示词放在评论区，感兴趣可以直接拿去用。 https://t.co/BJuNcqQfQ6",
+      "recommend_reason": "手绘知识图的提示词在评论，能直接拿。",
+      "tags": [
+        "提示词",
+        "ChatGPT",
+        "信息图"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2092598347190374599",
+      "author": "taiyo_ai_gakuse",
+      "bio": "",
+      "text": "OSS版ScreenStudioのOpenScreen、AI動画編集まで付いてるのがかなり熱い。\n\n通常はAPIキーを入れて使う機能だけど、Codexのサブスクを連携すればAPI課金ではなくサブスク枠内で動かせた！\n\n多少の調整は必要だけど、ScreenStudioにAI動画編集機能がついた形。 https://t.co/8Rfr7ynvf5",
+      "created_at": "Wed Aug 26 13:01:39 +0000 2026",
+      "likes": 28,
+      "views": "4578",
+      "url": "https://x.com/i/status/2092598347190374599",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQpk04KaoAARzwZ.jpg",
+        "https://pbs.twimg.com/media/HQpk4AObMAA6n46.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQpk04KaoAARzwZ.jpg",
+        "https://pbs.twimg.com/media/HQpk4AObMAA6n46.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2092572340781818126",
+        "author": "taiyo_ai_gakuse",
+        "name": "Taiyo Kimura",
+        "text": "ずっと、ScreenStudioお金払って使ってたけど、まさかのOSSのOpen Screenが本家超えてきた。。。\n\n無料で使えるのに手数が多くて大満足。https://t.co/ZbL2yD7lzd",
+        "created_at": "Wed Aug 26 11:18:18 +0000 2026",
+        "url": "https://x.com/taiyo_ai_gakuse/status/2092572340781818126",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": [],
+        "card": {
+          "name": "summary_large_image",
+          "title": "GitHub - siddharthvaddem/openscreen: Create stunning demos for free. Open-source, no subscriptions,...",
+          "description": "Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio. - siddharthvaddem/openscreen",
+          "image_url": "https://pbs.twimg.com/card_img/2091571004275335169/tMtfBLv3?format=jpg&name=600x600",
+          "url": "https://github.com/siddharthvaddem/openscreen",
+          "domain": "github.com"
+        }
+      },
+      "score": 62.289,
+      "summary": "开源版 ScreenStudio 叫 OpenScreen，还带 AI 视频编辑。通常要填 API Key，他把 Codex 订阅接进去，就能用订阅额度而不是按次付 API。要调一调，但效果接近 ScreenStudio 加了 AI 剪辑。",
+      "recommend_reason": "录屏工具开源了，还把剪辑嵌进 Codex 订阅。",
+      "tags": [
+        "AI视频",
+        "开源",
+        "Codex"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2092591393424515114",
+      "author": "Alibaba_Qwen",
+      "bio": "",
+      "text": "⚡Meet Qwen3.8-Flash, a multimodal MoE and an early preview of the Qwen4 architecture, now open-weight!\n\nThe production version Qwen3.8-Flash will be available soon via QwenCloud API at just $ 0.16/1M input tokens and $ 0.47/1M output tokens.\n\n125B parameters + 51B N-gram embeddings, with just 6B activated per token. Unmatched cost-efficiency.\n\nWhat's new: 🥳\n- Next architecture: GDN + QSA hybrid attention, Gated Residual, N-gram Embedding & Muon optimizer, serving as a precursor to the architecture used in Qwen4.\n- Dramatically lower training and inference costs: trained at just 1/9 the cost of Qwen3.7-Plus, while outperforming it across the board with especially strong gains in coding and office tasks.\n- Strong performance: scoring 58.7 on DeepSWE 1.1, 62.5 on SWE-bench Pro, 73.9 on CoWorkBench, 84.5 on AndroidWorld, and 95.7 on MathVision (with CI).\n- 262K native context, extensible to 1M with YaRN.\n\nWe’re also releasing the weights for Qwen3.8-Flash-Next, giving the community an early look at the new architecture we’re exploring for Qwen4.🚀\n\nWe can't wait to see what you build with Qwen3.8-Flash!👀👇\n- Blog: https://t.co/M5hYypFLgJ\n- Technical Report: https://t.co/IF0gObIkQO\n- Hugging Face: https://t.co/6ow8QVAABt\n- ModelScope: https://t.co/tDOn2jNuFG",
+      "created_at": "Wed Aug 26 12:34:01 +0000 2026",
+      "likes": 5341,
+      "views": "603143",
+      "url": "https://x.com/i/status/2092591393424515114",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQpdouobYAAGEj1.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQpdouobYAAGEj1.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 74.002,
+      "title": "Qwen3.8-Flash 开源：6B 激活的 Qwen4 预览架构",
+      "summary": "通义发布 Qwen3.8-Flash 多模态 MoE，开源权重。125B 总参、51B N-gram 嵌入，每 token 只激活 6B。训练成本约 Qwen3.7-Plus 的 1/9，编码和办公更强。原生 262K 上下文，YaRN 可到 1M。还放了 Qwen3.8-Flash-Next 权重，给社区看 Qwen4 架构。云端价约 0.16/0.47 每百万 token。",
+      "recommend_reason": "官方开源卡，价格、激活量和 Qwen4 预览都写清楚了。",
+      "tags": [
+        "Qwen",
+        "开源",
+        "多模态"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2092544928140370252",
+      "author": "dashiAIxz",
+      "bio": "",
+      "text": "惊到了，纯靠 AI 做动画效果能做到什么程度。果然工具好坏，还是要看用的人是什么水平\n\n关键是作者还不是设计出身，全片都是拿 Claude Code + Remotion 实现的，没有做任何剪辑\n\n作者分享了他的创作思路\n- 背景和 UI 都是通过手工完成\n- 提供完整代码库给 Claude，所有资源都是真实生产环境的效果\n- 让 AI 基于已有的设计稿编排一些样式，再按照作者喜欢的方式编排成动画\n- 找了一些参考视频作为 Claude 的动画灵感\n- 花费了大量的时间来调整动画缓动曲线\n- 音效比较靠谱的方式还是通过 Gumroad 上的付费资源来做匹配\n- 需要多轮迭代，不是一次性能达到的效果",
+      "created_at": "Wed Aug 26 09:29:23 +0000 2026",
+      "likes": 122,
+      "views": "17532",
+      "url": "https://x.com/i/status/2092544928140370252",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2092278549679886507",
+        "author": "TimotejKochjar",
+        "name": "Tim",
+        "text": "EVERYTHING you see in the video below was generated using Claude Code.\n\nTurns out, you can vibe animate your way to a demo video with some super cool motion graphics elements.\n\nDoesn't mean it's an easy task, but you'd be surprised by what it's capable of.\n\n#Claude #Remotion https://t.co/Yp2jtdszBu",
+        "created_at": "Tue Aug 25 15:50:53 +0000 2026",
+        "url": "https://x.com/TimotejKochjar/status/2092278549679886507",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2092277506862612480/vid/avc1/480x270/pUrpF9oDYn-vZwk1.mp4?tag=14"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2092277506862612480/img/XAirpvlJIoAqWKW-.jpg"
+        ]
+      },
+      "score": 61.514,
+      "title": "不是设计出身，用 Claude Code 加 Remotion 做完整动画",
+      "summary": "大狮说作者不是设计，全片用 Claude Code + Remotion，没另剪。背景和 UI 手做，把完整代码库和真实资源给 Claude，按设计稿排样式再做成动画，再喂参考视频调缓动。音效用 Gumroad 付费库。多轮迭代，不是一次成片。",
+      "recommend_reason": "动画能到什么程度，步骤写全了，不是只炫结果。",
+      "tags": [
+        "Claude",
+        "动画",
+        "工作流"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2092530911611101350",
+      "author": "zarazhangrui",
+      "bio": "",
+      "text": "The gap between a 10x AI user and a mediocre one comes down to two abilities:\n\n1. Domain expertise. You know what a great result looks like because you've done the work for years. This is your ceiling, and it becomes the agent's ceiling\n2. Translation. You can pass your taste and standards to the agent through context, references, and iteration\n\nThe second is a skill, learnable in weeks.\n\nThe first is a career. No AI will hand it to you.",
+      "created_at": "Wed Aug 26 08:33:41 +0000 2026",
+      "likes": 481,
+      "views": "25637",
+      "url": "https://x.com/i/status/2092530911611101350",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 70.003,
+      "title": "10 倍 AI 用户只差两件事：品味和翻译",
+      "summary": "Zara 说 10 倍用户和普通人差在两处：一是领域经验，你知道好结果长什么样，这是天花板，也是 Agent 的天花板；二是翻译，能用上下文、参考和迭代把品味交给 Agent。后者几周能练，前者是职业，没有 AI 会白送。",
+      "recommend_reason": "把 Agent 用不好从模型甩锅拉回自己的标准和转述。",
+      "tags": [
+        "Agent",
+        "工作流",
+        "方法论"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2092530524074238215",
+      "author": "taiyo_ai_gakuse",
+      "bio": "",
+      "text": "神体験かも。わざわざChat Botを作らなくても、各AIのボタンを押したら、クエリパラメータに仕込んだプロンプトが自動で入力されて、そのままChatGPTに自社プロダクトを説明してもらえる。\n\n最小の実装で最大の効果出してる。今からお試し実装して、効果測定してみよー https://t.co/n3SdWyIkBj",
+      "created_at": "Wed Aug 26 08:32:08 +0000 2026",
+      "likes": 50,
+      "views": "11498",
+      "url": "https://x.com/i/status/2092530524074238215",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2092530478146605056/vid/avc1/480x270/r-MOyB3Mrh3iYfN3.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2092530478146605056/img/0ydO_BkuOFcbmadC.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2092202907689242768",
+        "author": "appmarkelabo",
+        "name": "アプリマーケティング研究所",
+        "text": "Webサイトに「AIに相談するボタン」をつけたらAI経由ではじめるユーザーが増加\n\n普段使っているAIに「なぜこのサービスが自分に合ってるか？」を相談するきっかけをつくることで不安の解消や納得感につながったと考えられる\n\nサイトに「AIに相談する導線」をつけるだけでも売上等が伸びるかもしれない https://t.co/tr72wXfy24",
+        "created_at": "Tue Aug 25 10:50:19 +0000 2026",
+        "url": "https://x.com/appmarkelabo/status/2092202907689242768",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQj_dGFaYAAGGQC.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQj_dGFaYAAGGQC.jpg"
+        ]
+      },
+      "score": 62.727,
+      "summary": "不一定要单独做 Chat Bot。点各家 AI 按钮时，用查询参数预填提示词，就能让 ChatGPT 直接介绍自家产品。最小实现换最大效果，他准备先试再测转化。",
+      "recommend_reason": "产品说明不用自建机器人，一条查询参数就够。",
+      "tags": [
+        "ChatGPT",
+        "增长",
+        "产品"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2092527681028190413",
+      "author": "xiaohu",
+      "bio": "",
+      "text": "昨天看很多人转发Apodex 1.1 \n\n一个专门面向深度研究而打造的  Agent\n\n专门解决那种\"没有现成答案、需要大量调研才能搞定\"的硬问题\n\n好奇测试了下，跑了俩任务，一下午都没跑完😅\n\n执行时间是真长\n\n这玩意能你只要给它个目标，它就能能长时间运行、失败后能自动修复，还能自己验证交付结果是否准确\n\n它在接到任务后，主 Agent 拆解成各种子问题，异步派发给专业化的子 Agent执行，每个子 Agent 有自己独立的上下文、提示词和工具集。\n\n子 Agent 的报告汇入共享报告池，编排器异步读取，不会被最慢的那个卡住。单任务最高可调度 150 个子 Agent\n\n解决的是什么问题呢？\n\n过去：\n\n一次提问，一段回答，一份报告。\n衡量标准通常是：\n答案对不对\n知识覆盖够不够\n引用多不多\n报告写得是否完整\n\nApodex 想提出的新的要求：\n\n一项从输入到交付的完整任务，衡量标准变成：\n\n是否理解目标\n是否能操作真实文件\n是否能调用代码和工具\n是否能维护长任务状态\n遇到变化能否局部调整\n执行失败能否自行恢复\n最终结论是否可以核查\n\n因此，它真正挑战的是当前 Deep Research 的产品形态：\n搜集资料和生成报告，只覆盖了复杂任务的一部分。\n\n真正的专业任务还需要读文件、清洗数据、选择方法、执行代码、处理异常、核查结论。\n\n所以特别适合：科研人员、分析师、专业用户",
+      "created_at": "Wed Aug 26 08:20:51 +0000 2026",
+      "likes": 51,
+      "views": "7268",
+      "url": "https://x.com/i/status/2092527681028190413",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2092432866873597952/vid/avc1/424x270/vgl2v0a_1W2fA2Ci.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2092432866873597952/img/eU9GdxYIpopyTPi7.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 66.364,
+      "title": "小互测 Apodex：下午跑不完，但在挑战 Deep Research",
+      "summary": "小互跑了两个硬调研，一下午没跑完。Apodex 接目标后主 Agent 拆子问题，异步派给最多 150 个子 Agent，各自有上下文和工具，失败能自修、结果能自验。他觉得 Deep Research 只覆盖搜集和写报告，专业任务还要读文件、跑代码、处理异常。适合科研和分析。",
+      "recommend_reason": "午场是产品安利，这条是真实耗时和形态批评。",
+      "tags": [
+        "Agent",
+        "科研",
+        "产品"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2092511934625235011",
+      "author": "IndieDevHailey",
+      "bio": "",
+      "text": "腾讯混元图文转 3D 效果确实牛逼，而且每天还有 20 次免费额度。\n\n丢张图片进去，几分钟就能直接生成可用的 3D 模型，对普通人来说基本没什么门槛。 https://t.co/kntGd3uyOn",
+      "created_at": "Wed Aug 26 07:18:16 +0000 2026",
+      "likes": 94,
+      "views": "8506",
+      "url": "https://x.com/i/status/2092511934625235011",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2092511086302179328/vid/avc1/426x270/53xsqxiwDuSIvLGl.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2092511086302179328/img/E0R1dHGCdrU5I87o.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2092174364288712918",
+        "author": "IndieDevHailey",
+        "name": "开发者Hailey",
+        "text": "腾讯混元图文转3D效果有点惊艳！\n\n一张图片直接生成3D模型，细节、纹理都能还原。 https://t.co/RCEJFk61oR",
+        "created_at": "Tue Aug 25 08:56:53 +0000 2026",
+        "url": "https://x.com/IndieDevHailey/status/2092174364288712918",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2092173412261416960/vid/avc1/426x270/jhW4qU_l6IWIO2p-.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2092173412261416960/img/tZlLU9-B5GxkEFFU.jpg"
+        ]
+      },
+      "score": 66.424,
+      "summary": "腾讯混元图文转 3D 效果确实牛逼，而且每天还有 20 次免费额度。\n\n丢张图片进去，几分钟就能直接生成可用的 3D 模型，对普通人来说基本没什么门槛。 https://t.co/kntGd3uyOn",
+      "recommend_reason": "免费额度加低门槛，图转 3D 能直接试。",
+      "tags": [
+        "混元",
+        "3D",
+        "产品"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2092510944526225552",
+      "author": "IndieDevHailey",
+      "bio": "",
+      "text": "这个开源项目PenguinHarness，有点牛逼！\n\n一句话让AI自己写Agent，成本直接干到Claude Code的1/70，还自进化越用越强。\n\n桌面端一键下，全透明开源，真AI建AI。\n\n这不比手搓LangChain香多了？ https://t.co/d9Hk5F9nGQ",
+      "created_at": "Wed Aug 26 07:14:20 +0000 2026",
+      "likes": 60,
+      "views": "10107",
+      "url": "https://x.com/i/status/2092510944526225552",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2092510718021320704/vid/avc1/426x270/OVk-jIcv-1qIVIwS.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2092510718021320704/img/OMvDNg8Kyp1tN0uc.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 63.653,
+      "summary": "这个开源项目PenguinHarness，有点牛逼！\n\n一句话让AI自己写Agent，成本直接干到Claude Code的1/70，还自进化越用越强。\n\n桌面端一键下，全透明开源，真AI建AI。\n\n这不比手搓LangChain香多了？ https://t.co/d9Hk5F9nGQ",
+      "recommend_reason": "开源 harness 用一句话生成 Agent，成本口径具体。",
+      "tags": [
+        "Agent",
+        "开源",
+        "Harness"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2092488462729679356",
+      "author": "ianneo_ai",
+      "bio": "",
+      "text": "日报网站来啦！今天早上和 Grok 搓了个东西\n\n早上还只是群里的一份文字版日报，刚刚已经长成一个能逛的网站了\n\n做着做着发现，现在大部分 AI 日报都像资讯自助餐：\n\n热点、融资、产品更新，一股脑端上来。\n看完好像知道了很多，关掉页面，还是不知道今天该干嘛。\n\n所以我想反着做。\n\n先让 AI 搞清楚你每天在做什么、最近想解决什么、平时爱看哪些信息源；再去这些地方猛捞一遍，筛出三五十条，顺手告诉你：为什么值得看，能拿来干嘛。\n\n不是帮你追遍所有热点。\n\n是帮你少错过那些，真的会影响行动的信息。\n\n从一页草稿到网站初版，只用了一个上午。\n\n再打磨打磨，就放出来给大家一起玩。",
+      "created_at": "Wed Aug 26 05:45:00 +0000 2026",
+      "likes": 10,
+      "views": "1244",
+      "url": "https://x.com/i/status/2092488462729679356",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2092487355722805248/vid/avc1/392x270/sHOZf1i-LVYChDEC.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2092487355722805248/img/4mUW0sPlXDdFTsrK.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 61.628,
+      "title": "和一个上午搓出来的个性化日报站",
+      "summary": "ianneo 早上还只是群里一份文字日报，中午已经是能逛的网站。他嫌现有 AI 日报像自助餐，看完不知道今天该干什么。做法是先搞清你在做什么、要解决什么、爱看哪些源，再捞三五十条并写清为什么值得看、能拿来干什么。从草稿到初版用了一个上午。",
+      "recommend_reason": "和我们自己的日报同一条路：少追热点，多留能下手的信息。",
+      "tags": [
+        "日报",
+        "产品",
+        "Grok"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2092477166915313788",
+      "author": "GoSailGlobal",
+      "bio": "",
+      "text": "一个模板,自动批量生产知识对比类科普短视频\n\nauto-compare-video,基于HyperFrames加AI配音,131星\n\n它把对比科普这个爆款套路固化成了一个模板:上面两张卡片左右对比两个容易混淆的概念,中间一个机器人主播讲解,下面自动配字幕,紫粉配色统一\n\n你只要换主题,剧本、配音、画面和字幕全自动生成,一键导出竖版mp4,直接发TikTok、Reels、Shorts\n\n作者自己就用它批量做了Proxmox对Hyper-V、Dev对DevOps、AHA对BHA这些对比,一个人一条流水线\n\nClaude Code能装,MIT开源",
+      "created_at": "Wed Aug 26 05:00:07 +0000 2026",
+      "likes": 14,
+      "views": "1629",
+      "url": "https://x.com/i/status/2092477166915313788",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2092477149571960832/vid/avc1/320x568/546OdTYKTKMPyNYZ.mp4?tag=14"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2092477149571960832/img/GQpH7GGjpSnr7cof.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 62.432,
+      "title": "131 星模板：批量做左右对比科普短视频",
+      "summary": "auto-compare-video 用 HyperFrames 加 AI 配音，把对比科普做成模板：上边两张卡左右对比易混概念，中间机器人主播，下面自动字幕。换主题就出竖版 mp4，可发 TikTok / Reels / Shorts。作者自己批量做过虚拟化、DevOps 对比。Claude Code 能装，MIT。",
+      "recommend_reason": "短视频爆款结构被做成一条能装的流水线。",
+      "tags": [
+        "AI视频",
+        "开源",
+        "自媒体"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2092466424694649066",
+      "author": "levie",
+      "bio": "",
+      "text": "Good post on what the applied AI strategy looks like at scale. It’s clear that there’s a wide gap between the AI models and the underlying workflows of an enterprise, which leaves a ton of opportunity for applied AI companies.\n\n“The world doesn’t just want raw models and agents; it wants problems resolved and outcomes achieved. The premium will sit with the companies that can diffuse this intelligence through every aspect of civilization, converting raw tokens into real world outcomes, transforming industries, and creating economies in the process.”\n\nThis requires understanding the context, driving the change management, having a harness that can route to various models, connecting to the critical business systems in that vertical, solving the UX challenges of connecting users to agents in the right way in a workflow, understanding the evals in the space, and so on.  \n\nThat’s a ton of value that goes beyond just the model intelligence itself. And there’s a window of opportunity right now to build the defining companies that can bring intelligence to the critical domains in an enterprise.",
+      "created_at": "Wed Aug 26 04:17:26 +0000 2026",
+      "likes": 421,
+      "views": "84657",
+      "url": "https://x.com/i/status/2092466424694649066",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2092276375935963537",
+        "author": "nayakkayak",
+        "name": "Aatish Nayak",
+        "text": "https://t.co/OfierUuZaZ",
+        "created_at": "Tue Aug 25 15:42:15 +0000 2026",
+        "url": "https://x.com/nayakkayak/status/2092276375935963537",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 62.534,
+      "title": "Levie：企业要的是结果，不是生模型",
+      "summary": "Levie 转发：模型和真实工作流之间有宽缝，应用层公司还有窗口。世界要的是把问题解决掉，溢价在能把智力渗进行业、把 token 变成结果的人。这需要懂上下文、推动变革、按场景路由模型、接业务系统、做好人和 Agent 的交互，以及这一行的评测。",
+      "recommend_reason": "把应用层机会从口号拆成可核对的几块能力。",
+      "tags": [
+        "产业",
+        "Agent",
+        "企业"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2092465276780773874",
+      "author": "bindureddy",
+      "bio": "",
+      "text": "🚨 RouteLLM API - An API that routes to your favorite models based on your prompt \n\n- create custom routers\n- OxAlpha serving tomorrow\n- Supports 150+ AI models\n- Excellent speed and prices\n- Handles caching\n- Works in Claude, Codex or anywhere\n\nYou can pick and choose YOUR FAVORITES",
+      "created_at": "Wed Aug 26 04:12:52 +0000 2026",
+      "likes": 343,
+      "views": "2240296",
+      "url": "https://x.com/i/status/2092465276780773874",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQnttGKaMAAmbju.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQnttGKaMAAmbju.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 65.915,
+      "title": "RouteLLM：按提示词在 150 多个模型里路由",
+      "summary": "Bindu 发 RouteLLM API：按提示词路由到你选的模型，能自定义 router，支持 150 多家，带缓存，可嵌进 Claude、Codex。OxAlpha 第二天接入。",
+      "recommend_reason": "多模型路由从概念落到一条能嵌进现有客户端的 API。",
+      "tags": [
+        "路由",
+        "API",
+        "产品"
+      ],
+      "rank": 14
+    },
+    {
+      "id": "2092462357557473571",
+      "author": "VigoCreativeAI",
+      "bio": "",
+      "text": "This film doesn't exist.\n\nThe footage, the sound design, the trailer narrator — all one generation. Nobody recorded that voice.\n\nSound ON. Wait for the silence at 0:11. 🎬\n\nFull prompt in the first comment 👇 https://t.co/e4fBXmEmrd",
+      "created_at": "Wed Aug 26 04:01:16 +0000 2026",
+      "likes": 8,
+      "views": "539",
+      "url": "https://x.com/i/status/2092462357557473571",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2092462261902135296/vid/avc1/480x270/JbPLBA_qfC_efuck.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2092462261902135296/img/7U1lBhGCeb4_k-Jy.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2092193052311843212",
+        "author": "VigoCreativeAI",
+        "name": "Vigo Zhao",
+        "text": "Same sword. Three rarities. One generation. ⚔️\n\nCommon → Rare → Legendary at 0:06 — and it's not just a texture swap. Material, lighting and SOUND all rank up together: dull iron thud → frost shimmer → choir + flame.\n\nWhat's in this 15s:\n🎁 Loot-drop opening: the chest slams, the sword rises out of the light\n🧩 Exploded view: blade, guard, grip, gem — 4 parts, 4 chimes\n✨ Rarity tiers change picture and audio in the same frame\n🔇 Total silence at 0:09, then one sub boom as it stabs the altar\n🔤 Labels render clean: \"+120 ATK\" \"LEGENDARY\" — and the runes stay runes, not garbled letters\n\nIn a normal pipeline that's 3 material sets, 3 VFX passes and 3 sound passes. Here it's one prompt.\n\nFull prompt in the first comment 👇",
+        "created_at": "Tue Aug 25 10:11:09 +0000 2026",
+        "url": "https://x.com/VigoCreativeAI/status/2092193052311843212",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2092192805808439296/vid/avc1/480x270/BzrJY28urtyBu72M.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2092192805808439296/img/oML2-eGFQyaj6z8L.jpg"
+        ]
+      },
+      "score": 63.574,
+      "title": "一条生成里做完画面、音效和旁白",
+      "summary": "Vigo 放了一段不存在的片子：画面、音效、预告旁白都是一次生成，没有人录音。提示词在第一条评论。",
+      "recommend_reason": "成片口径清楚，评论区有提示词能复现。",
+      "tags": [
+        "AI视频",
+        "提示词",
+        "生成"
+      ],
+      "rank": 15
+    },
+    {
       "id": "2092461029901087008",
       "author": "xiaofeilong99",
       "bio": "",
@@ -35,7 +545,7 @@
         "加密",
         "产品"
       ],
-      "rank": 1
+      "rank": 16
     },
     {
       "id": "2092455880398897181",
@@ -63,7 +573,7 @@
         "语音",
         "产品"
       ],
-      "rank": 2
+      "rank": 17
     },
     {
       "id": "2092453536634380763",
@@ -92,7 +602,7 @@
         "Claude",
         "本地"
       ],
-      "rank": 3
+      "rank": 18
     },
     {
       "id": "2092447638428028992",
@@ -146,7 +656,7 @@
         "插画",
         "ChatGPT"
       ],
-      "rank": 4
+      "rank": 19
     },
     {
       "id": "2092416769705246932",
@@ -175,7 +685,7 @@
         "自媒体",
         "开源"
       ],
-      "rank": 5
+      "rank": 20
     },
     {
       "id": "2092392552704217538",
@@ -226,7 +736,7 @@
         "开源",
         "本地"
       ],
-      "rank": 6
+      "rank": 21
     },
     {
       "id": "2092391737675370948",
@@ -261,7 +771,7 @@
         "科研",
         "产品"
       ],
-      "rank": 7
+      "rank": 22
     },
     {
       "id": "2092390101959479713",
@@ -290,7 +800,7 @@
         "硬件",
         "Agent"
       ],
-      "rank": 8
+      "rank": 23
     },
     {
       "id": "2092376258030211281",
@@ -324,7 +834,7 @@
         "产品",
         "Agent"
       ],
-      "rank": 9
+      "rank": 24
     },
     {
       "id": "2092366629892137373",
@@ -349,7 +859,7 @@
         "芯片",
         "产业"
       ],
-      "rank": 10
+      "rank": 25
     },
     {
       "id": "2092351333567430683",
@@ -392,7 +902,7 @@
         "写作",
         "工作流"
       ],
-      "rank": 11
+      "rank": 26
     },
     {
       "id": "2092335305366069305",
@@ -421,7 +931,7 @@
         "ChatGPT",
         "产品"
       ],
-      "rank": 12
+      "rank": 27
     },
     {
       "id": "2092326815193055681",
@@ -459,7 +969,7 @@
         "MCP",
         "Agent"
       ],
-      "rank": 13
+      "rank": 28
     },
     {
       "id": "2092321896721432824",
@@ -488,7 +998,7 @@
         "Agent",
         "本地"
       ],
-      "rank": 14
+      "rank": 29
     },
     {
       "id": "2092315079576555806",
@@ -513,7 +1023,7 @@
         "安全",
         "开源"
       ],
-      "rank": 15
+      "rank": 30
     },
     {
       "id": "2092307147635806424",
@@ -547,10 +1057,10 @@
         "图像",
         "落地"
       ],
-      "rank": 16
+      "rank": 31
     }
   ],
-  "generated_at": "2026-08-26T04:10:43Z",
+  "generated_at": "2026-08-26T16:27:35Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -558,11 +1068,11 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 16,
-    "last_batch_added": 16,
+    "actual_count": 31,
+    "last_batch_added": 15,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
