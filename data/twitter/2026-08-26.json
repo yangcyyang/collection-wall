@@ -1,0 +1,577 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-26",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2092461029901087008",
+      "author": "xiaofeilong99",
+      "bio": "",
+      "text": "我发现所有人都在吹AI Agent已经能自己赚钱了，写代码、刷交易、做研究，反正无所不能。\n\n结果一到互相雇佣、互相付钱的时候，基本就全傻眼了\n\n钱过不去，信任建不起来，交付没法检验。所以真正卡住Agent经济的，从来不是模型能力，是清算层。\n\n@termix_ai 的AACP就是来补这个窟窿的：\n\nhttps://t.co/4303ATEIo6 已经在BNB主网上跑了：\n发任务、报价、接单、交付，全程走链上托管。钱先锁进合约，交付哈希上链后才能放款。有争议就走挑战，输的人stake会被罚。\n\n身份是自己的.agent，声誉是真干出来的，平台不碰钱。\n\n这才是真正的Agent经济清算层，不是又一个聊天玩具。",
+      "created_at": "Wed Aug 26 03:56:00 +0000 2026",
+      "likes": 11,
+      "views": "106",
+      "url": "https://x.com/i/status/2092461029901087008",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQnotfJboAAAJfH.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQnotfJboAAAJfH.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 78.706,
+      "title": "Agent 经济卡在清算层，AACP 在 BNB 上跑托管",
+      "summary": "小飞龙说 Agent 能写代码、刷交易，一到互相付钱就傻眼：钱过不去、信任建不起来、交付没法验。termix 的 AACP 已在 BNB 主网跑，任务到交付走链上托管，钱先锁进合约，交付哈希上链才放款，争议走挑战、输的人罚 stake。身份是自己的 .agent，平台不碰钱。",
+      "recommend_reason": "把 Agent 经济从模型能力拉回清算和交付，切口比再吹一个聊天机器人清楚。",
+      "tags": [
+        "Agent",
+        "加密",
+        "产品"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2092455880398897181",
+      "author": "yushanshan1123",
+      "bio": "",
+      "text": "星链客服和销售电话都用grok语音？\n\n关键它还是销冠🤣🤣\n\n原本客服这个岗位是成本中心啊，现在要变变成利润中心，AI真猛，现在还有啥不可以被替代的？ https://t.co/ueQoYTSml7",
+      "created_at": "Wed Aug 26 03:35:32 +0000 2026",
+      "likes": 10,
+      "views": "365",
+      "url": "https://x.com/i/status/2092455880398897181",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQnk1UhboAAMdpE.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQnk1UhboAAMdpE.png"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 68.275,
+      "summary": "星链客服和销售电话都用grok语音？\n\n关键它还是销冠🤣🤣\n\n原本客服这个岗位是成本中心啊，现在要变变成利润中心，AI真猛，现在还有啥不可以被替代的？ https://t.co/ueQoYTSml7",
+      "recommend_reason": "星链客服用 Grok 语音还当销冠，成本中心变利润中心的现场感。",
+      "tags": [
+        "Grok",
+        "语音",
+        "产品"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2092453536634380763",
+      "author": "ollama",
+      "bio": "",
+      "text": "Ollama v0.33 is here! \n\nYou can now easily configure Claude Desktop to seamlessly work with Ollama as a third-party gateway provider. \n\nOne toggle. Cloud &amp; local models just work👇 https://t.co/NUPYfWdjW3",
+      "created_at": "Wed Aug 26 03:26:13 +0000 2026",
+      "likes": 116,
+      "views": "7218",
+      "url": "https://x.com/i/status/2092453536634380763",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2092446913203412992/vid/avc1/416x270/pXr8QNeOs4HL61B4.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2092446913203412992/img/dWEKR2_smSiCuHe7.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 69.502,
+      "title": "Ollama 0.33 能当 Claude Desktop 的网关",
+      "summary": "Ollama v0.33 加了一键：Claude Desktop 可把 Ollama 配成第三方网关，云端和本地模型同一个开关。",
+      "recommend_reason": "本地模型和 Claude 桌面终于能并在一条链路里。",
+      "tags": [
+        "Ollama",
+        "Claude",
+        "本地"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2092447638428028992",
+      "author": "elle_elle_e",
+      "bio": "",
+      "text": "\\\\ジト目はお好きですか？👼🪽//\n\nChatGPTで\n「アップロードした画像をフラットベクター風なジト目イラストに加工する」ぷろんぷとです🫶\n\n↓prompt↓ https://t.co/vmAP3Beth1",
+      "created_at": "Wed Aug 26 03:02:47 +0000 2026",
+      "likes": 19,
+      "views": "810",
+      "url": "https://x.com/i/status/2092447638428028992",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQneB9KakAAYHs0.jpg",
+        "https://pbs.twimg.com/media/HQneB80aIAAY1GY.jpg",
+        "https://pbs.twimg.com/media/HQneB83bgAAUHGZ.jpg",
+        "https://pbs.twimg.com/media/HQneB84boAAx2y9.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQneB9KakAAYHs0.jpg",
+        "https://pbs.twimg.com/media/HQneB80aIAAY1GY.jpg",
+        "https://pbs.twimg.com/media/HQneB83bgAAUHGZ.jpg",
+        "https://pbs.twimg.com/media/HQneB84boAAx2y9.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2091829018064789901",
+        "author": "elle_elle_e",
+        "name": "のえる",
+        "text": "\\\\そうだ、概念世界へ行こう👼🪽//\n\nChatGPTで\n「アップロードした画像を少数の大きな漢字を使って再解釈する」ぷろんぷとです🫶\n\n↓prompt↓ https://t.co/Xl1Wf1Z8qM",
+        "created_at": "Mon Aug 24 10:04:36 +0000 2026",
+        "url": "https://x.com/elle_elle_e/status/2091829018064789901",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQeq_5jakAAUBNz.jpg",
+          "https://pbs.twimg.com/media/HQeq_5oaAAA-ajm.jpg",
+          "https://pbs.twimg.com/media/HQeq_5rboAA7YOX.jpg",
+          "https://pbs.twimg.com/media/HQeq_5vagAASNpG.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQeq_5jakAAUBNz.jpg",
+          "https://pbs.twimg.com/media/HQeq_5oaAAA-ajm.jpg",
+          "https://pbs.twimg.com/media/HQeq_5rboAA7YOX.jpg",
+          "https://pbs.twimg.com/media/HQeq_5vagAASNpG.jpg"
+        ]
+      },
+      "score": 68.032,
+      "summary": "喜欢这种死鱼眼吗？用 ChatGPT 把上传的图做成扁平矢量风的死鱼眼插画。提示词在原帖。",
+      "recommend_reason": "提示词短、出图方向清楚，扁平矢量死鱼眼很好复用。",
+      "tags": [
+        "提示词",
+        "插画",
+        "ChatGPT"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2092416769705246932",
+      "author": "GoSailGlobal",
+      "bio": "",
+      "text": "做自媒体的可以直接抄这套作业了\n\nself-media-content-workflow,389星的内容生产skill合集,九个技能拼出一条完整流水线\n\n从模糊的一个念头开始,创作简报、账号策略、热点与竞品研究、平台原生文案、短视频方案、数字人制片、公众号排版发布,一路到数据复盘和交付归档,全闭环\n\n它最聪明的一点:同一个母题共享一套事实和证据,再给X、小红书、公众号分别设计标题、开头和结构,不是一稿到处复制\n\n而且全程五个强制确认点,方向、平台、标题、终稿、发布授权,默认只出草稿,绝不自动群发。关键数字必须带来源,不编造数据和收益\n\nClaude Code一条命令装齐九个,MIT开源",
+      "created_at": "Wed Aug 26 01:00:07 +0000 2026",
+      "likes": 41,
+      "views": "4037",
+      "url": "https://x.com/i/status/2092416769705246932",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2092416747903369217/vid/avc1/480x270/VnVKj0oUTPc90WQT.mp4?tag=14"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2092416747903369217/img/BEesY-D6O9olPmsG.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 65.425,
+      "title": "389 星的自媒体 skill 流水线，默认不自动发",
+      "summary": "self-media-content-workflow 用九个 skill 串创作简报、账号策略、竞品、平台文案、短视频、数字人、公众号到复盘。同一母题共享事实，再给 X / 小红书 / 公众号各写结构。五个强制确认点，只出草稿不群发，数字必须带来源。Claude Code 一条命令装齐，MIT。",
+      "recommend_reason": "和现在做小红书的路径对得上，还把不编造收益写进流程。",
+      "tags": [
+        "Skill",
+        "自媒体",
+        "开源"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2092392552704217538",
+      "author": "vista8",
+      "bio": "",
+      "text": "猜这个团队应该有比较强的技术和学术背景。\n\n他们在 Huggingface 上开源了Apodex 1.1 mini（35B）模型权重，支持本地部署。\nhttps://t.co/k0SiQFmXgq\n\n为方便用户，他们还开源了自研的 Agent Harness 框架，直接把下面仓库丢给Agent安装就行。\n\nGithub仓库：https://t.co/7olJ8hpfRx\n\n从 Readme 的介绍和Benchmark看，有点东西，推荐 Star 收藏。",
+      "created_at": "Tue Aug 25 23:23:53 +0000 2026",
+      "likes": 37,
+      "views": "6475",
+      "url": "https://x.com/i/status/2092392552704217538",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQmr4zwaoAEsGH2.jpg",
+        "https://pbs.twimg.com/media/HQmr7U8aIAAoOtR.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQmr4zwaoAEsGH2.jpg",
+        "https://pbs.twimg.com/media/HQmr7U8aIAAoOtR.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2092391737675370948",
+        "author": "vista8",
+        "name": "向阳乔木",
+        "text": "Apodex ：一个能把复杂任务从原始材料推进到可检查交付物的科研 AI Agent 系统。\n\n这两天用它完成不少任务，无论内容准确性、交付质量都超预期，比如：\n\n① 生成了一套 8w 字讲如何在现实生活中应用讲故事技巧的课程。\n\n② 为最近 X 最流行的 Linux 操作系统 Omarchy 生成了一份6w字的学习手册。\n\n③ 调研分析了100个最热的 Obsidian 插件，生成了一份 PDF 白皮书。\n\n④ 上传美国人口和婚姻调研数据 CSV，数据清洗、研究后给出洞察结论。\n\n这个产品会调 Agent 拆解任务，写代码处理原始文件（CSV/Excel/PDF/图像/实验数据），有详细执行链路和中间产出文档可核验完整链路。\n\n把推理能力延伸到真实任务的执行过程中，是这个AI工具的最大优势之一。\n\n所有产出文档和使用教程见后几条。",
+        "created_at": "Tue Aug 25 23:20:39 +0000 2026",
+        "url": "https://x.com/vista8/status/2092391737675370948",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQmrDknaYAAJ86l.jpg",
+          "https://pbs.twimg.com/media/HQmrFrwbQAEa4F1.jpg",
+          "https://pbs.twimg.com/media/HQmrIKobsAAgq-U.jpg",
+          "https://pbs.twimg.com/media/HQmrKukaYAAcRlE.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQmrDknaYAAJ86l.jpg",
+          "https://pbs.twimg.com/media/HQmrFrwbQAEa4F1.jpg",
+          "https://pbs.twimg.com/media/HQmrIKobsAAgq-U.jpg",
+          "https://pbs.twimg.com/media/HQmrKukaYAAcRlE.jpg"
+        ]
+      },
+      "score": 63.038,
+      "title": "Apodex 开了 35B 小杯和自研 Agent Harness",
+      "summary": "vista8 跟进：团队在 Hugging Face 开源 Apodex 1.1 mini（35B）可本地部署，还开了自研 Agent Harness，仓库丢给 Agent 就能装。他说从 README 和 benchmark 看值得 star。",
+      "recommend_reason": "产品向之后补上可本地跑的权重和 harness，不是只云。",
+      "tags": [
+        "Agent",
+        "开源",
+        "本地"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2092391737675370948",
+      "author": "vista8",
+      "bio": "",
+      "text": "Apodex ：一个能把复杂任务从原始材料推进到可检查交付物的科研 AI Agent 系统。\n\n这两天用它完成不少任务，无论内容准确性、交付质量都超预期，比如：\n\n① 生成了一套 8w 字讲如何在现实生活中应用讲故事技巧的课程。\n\n② 为最近 X 最流行的 Linux 操作系统 Omarchy 生成了一份6w字的学习手册。\n\n③ 调研分析了100个最热的 Obsidian 插件，生成了一份 PDF 白皮书。\n\n④ 上传美国人口和婚姻调研数据 CSV，数据清洗、研究后给出洞察结论。\n\n这个产品会调 Agent 拆解任务，写代码处理原始文件（CSV/Excel/PDF/图像/实验数据），有详细执行链路和中间产出文档可核验完整链路。\n\n把推理能力延伸到真实任务的执行过程中，是这个AI工具的最大优势之一。\n\n所有产出文档和使用教程见后几条。",
+      "created_at": "Tue Aug 25 23:20:39 +0000 2026",
+      "likes": 71,
+      "views": "14844",
+      "url": "https://x.com/i/status/2092391737675370948",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQmrDknaYAAJ86l.jpg",
+        "https://pbs.twimg.com/media/HQmrFrwbQAEa4F1.jpg",
+        "https://pbs.twimg.com/media/HQmrIKobsAAgq-U.jpg",
+        "https://pbs.twimg.com/media/HQmrKukaYAAcRlE.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQmrDknaYAAJ86l.jpg",
+        "https://pbs.twimg.com/media/HQmrFrwbQAEa4F1.jpg",
+        "https://pbs.twimg.com/media/HQmrIKobsAAgq-U.jpg",
+        "https://pbs.twimg.com/media/HQmrKukaYAAcRlE.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 64.879,
+      "title": "Apodex：从原料做到可核验交付的科研 Agent",
+      "summary": "vista8 用 Apodex 做了几件硬活：8 万字讲故事课、6 万字 Omarchy 手册、100 个热门 Obsidian 插件白皮书、人口婚姻 CSV 洞察。它会拆任务、写代码处理 CSV/Excel/PDF/图，执行链路和中间文档都能核对。",
+      "recommend_reason": "比聊天 Agent 多了可检查的中间产物，适合长交付。",
+      "tags": [
+        "Agent",
+        "科研",
+        "产品"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2092390101959479713",
+      "author": "nvidia",
+      "bio": "",
+      "text": "From the show floor to the AI factory: Hot Chips 2026 was all about extreme co-design to accelerate agentic workloads — the most complex workload in history.\n\nVera CPU, Vera Rubin, Groq 3 LPX, Spectrum-X Multiplane, BlueField-4 Scale-In networking. \n\nOne full AI stack platform built for agents.",
+      "created_at": "Tue Aug 25 23:14:09 +0000 2026",
+      "likes": 216,
+      "views": "31954",
+      "url": "https://x.com/i/status/2092390101959479713",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2092390046250733568/vid/avc1/480x270/TAHOdO1hZgCQFaXo.mp4?tag=14"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2092390046250733568/img/Rwn9gFnRl0VscOeg.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 67.627,
+      "title": "Hot Chips 2026：整栈都在为 Agent 负载共设计",
+      "summary": "NVIDIA 说今年 Hot Chips 核心是极端共设计，扛 Agent 这种史上最复杂负载。点名 Vera CPU、Vera Rubin、Groq 3 LPX、Spectrum-X Multiplane、BlueField-4。口径是一条完整 AI 栈，不是单颗芯片。",
+      "recommend_reason": "芯片展的叙事已经从训模型改到跑 Agent 负载。",
+      "tags": [
+        "NVIDIA",
+        "硬件",
+        "Agent"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2092376258030211281",
+      "author": "gdb",
+      "bio": "",
+      "text": "you can now have chatgpt work securely sign into accounts:",
+      "created_at": "Tue Aug 25 22:19:09 +0000 2026",
+      "likes": 927,
+      "views": "118226",
+      "url": "https://x.com/i/status/2092376258030211281",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2092366554965107164",
+        "author": "ChatGPT",
+        "name": "ChatGPT",
+        "text": "ChatGPT Work can now use its computer and browser to sign in to websites on web and mobile, without ChatGPT ever seeing your username or password.\n\nThat means you can ask it to:\n• Set up utilities for a new apartment\n• Book a DMV or passport appointment\n• Check reimbursement costs through your insurance\n• Find and book an in-network doctor around your availability\n• Check when your car registration expires and prepare the renewal paperwork\n• Compare your rental insurance policy with an issue you’re emailing your landlord about\n• Find and save apartment listings that match your criteria\n• Restock something just by uploading a photo\n• Schedule a package pickup for a return\n• Cancel tickets for a rescheduled trip\n• Book a vet appointment\n• Submit reimbursement paperwork for medical treatments\n• Check resale sites for new drops and save things you might like\n• Find candidates with specific experience and draft outreach\n• Take invoices from your email and submit them to your accounting software\n• Draft replies to rental property inquiries\n• Fill out permit applications for your small business\n• Add action items to a vendor portal based on a recent client call\n• Analyze the latest ad campaign for your small business",
+        "created_at": "Tue Aug 25 21:40:35 +0000 2026",
+        "url": "https://x.com/ChatGPT/status/2092366554965107164",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 63.192,
+      "summary": "ChatGPT Work 现在可以安全地登录到各个账户了。",
+      "recommend_reason": "商务席位之后，登录托管是真能替你干活的一步。",
+      "tags": [
+        "ChatGPT",
+        "产品",
+        "Agent"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2092366629892137373",
+      "author": "bindureddy",
+      "bio": "",
+      "text": "No wonder, Nvidia is racing to create a ecosystem of AI startups\n\nOpenAI, Google and Amazon now all have their own chips. Anthropic will make one too \n\nOver time they will push Nvidia out if don’t generate demand from other AI companies",
+      "created_at": "Tue Aug 25 21:40:53 +0000 2026",
+      "likes": 114,
+      "views": "8278",
+      "url": "https://x.com/i/status/2092366629892137373",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 63.712,
+      "title": "大厂自研芯片，NVIDIA 得去养别的创业公司",
+      "summary": "Bindu 说 OpenAI、Google、Amazon 都有自己的芯片，Anthropic 也会做。NVIDIA 才拼命给 AI 创业公司搭生态：时间长了大厂会把它挤出自己的训练堆。",
+      "recommend_reason": "芯片叙事从卖卡改到保需求侧，方向跟 Hot Chips 那条对得上。",
+      "tags": [
+        "NVIDIA",
+        "芯片",
+        "产业"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2092351333567430683",
+      "author": "brian_armstrong",
+      "bio": "",
+      "text": "One solution is to train the AI to write like you.\n\nSpecifically:\n\n1. Ask your agent to assemble everything you've ever written. Docs + Slack + X + Other.\n2. Then have it write a markdown profile on you, your style and beliefs.\n3. Then when it writes, ask it to pull specific words and phrases from what you've written in the past.\n\nHT @rwitoff",
+      "created_at": "Tue Aug 25 20:40:06 +0000 2026",
+      "likes": 838,
+      "views": "188641",
+      "url": "https://x.com/i/status/2092351333567430683",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2092264221987807334",
+        "author": "jstein_notus",
+        "name": "Jeff Stein",
+        "text": "New - Billionaire Stanley Druckenmiller tells me \"of course\" he used AI to write op-ed on Bessent &amp; bond market\n\n\"There's a reason I moved from an English major to being an economics major,\" he says, \"I'm not embarrassed by it\"\n\nNo response from WSJ\n\nhttps://t.co/9j0tkH2qFe",
+        "created_at": "Tue Aug 25 14:53:57 +0000 2026",
+        "url": "https://x.com/jstein_notus/status/2092264221987807334",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": [],
+        "card": {
+          "name": "summary_large_image",
+          "title": "Billionaire Stanley Druckenmiller’s WSJ Op-Ed Criticizing Bessent Was Written With AI",
+          "description": "“I write everything using AI now,” Druckenmiller, who questioned the treasury secretary’s bond market interventions, said.",
+          "image_url": "https://pbs.twimg.com/card_img/2092263968400166912/M_xR1Cy6?format=jpg&name=800x320_1",
+          "url": "https://www.notus.org/media/stanley-druckenmillers-wsj-op-ed-bessent-ai",
+          "domain": "www.notus.org"
+        }
+      },
+      "score": 64.919,
+      "title": "让 Agent 先汇编你的文风，再按原句写",
+      "summary": "Brian Armstrong 的办法：先让 Agent 收集你写过的文档、Slack、X，写成一份风格和立场的 markdown；真动笔时再抽你以前用过的词和句子。来自 rwitoff。",
+      "recommend_reason": "三步就能做，比空喊写得像我可执行。",
+      "tags": [
+        "Agent",
+        "写作",
+        "工作流"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2092335305366069305",
+      "author": "OpenAI",
+      "bio": "",
+      "text": "Introducing ChatGPT Business Premium Seats\n\nThe new $100 Premium seat is a game changer for small businesses and startups—giving lean teams better tools, faster workflows, and capabilities once reserved for big companies.\n\nA flexible plan that scales with your team’s ambition.\n\nhttps://t.co/zxvwwaOaVF",
+      "created_at": "Tue Aug 25 19:36:25 +0000 2026",
+      "likes": 3139,
+      "views": "1090329",
+      "url": "https://x.com/i/status/2092335305366069305",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2092335100151074816/vid/avc1/480x270/ywQdfs-g9wyg9awT.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQl4BL3WAAAwf2j.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 71.917,
+      "title": "ChatGPT 出了 100 美元的 Business Premium 席位",
+      "summary": "OpenAI 推出面向小团队和创业公司的 Business Premium Seats，每席 100 美元，把大公司那档工具和额度给瘦团队。官方帖带产品片。",
+      "recommend_reason": "商务席位定价落地，比再转一圈功能清单有用。",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "产品"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2092326815193055681",
+      "author": "NousResearch",
+      "bio": "",
+      "text": "New in Hermes Agent: \n\nThe built in MCP Connectors Catalog expanded to offer 44 new connections for apps you use every day, with easy one click setup in the Hermes Desktop App",
+      "created_at": "Tue Aug 25 19:02:40 +0000 2026",
+      "likes": 654,
+      "views": "82582",
+      "url": "https://x.com/i/status/2092326815193055681",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2092321384085299665",
+        "author": "Teknium",
+        "name": "Teknium 🪽",
+        "text": "The connectors catalog in Hermes now has access to a lot more tools!\n\nAccess Cloudflare, Datadog, Metabase, GitLab, Railway, DeepWiki and many more services and data sources with just one click!\n\nAnd with our Tool Search tool, they wont waste any of your context when activated. \n\nEnjoy!",
+        "created_at": "Tue Aug 25 18:41:06 +0000 2026",
+        "url": "https://x.com/Teknium/status/2092321384085299665",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQkJzg0aUAAYrEW.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQkJzg0aUAAYrEW.jpg"
+        ]
+      },
+      "score": 64.797,
+      "summary": "Hermes Agent 内置的 MCP 连接器目录又加了 44 个日常应用，在 Hermes 桌面端一键接入。",
+      "recommend_reason": "开源 Agent 桌面的连接器一次加到能覆盖日常软件。",
+      "tags": [
+        "Hermes",
+        "MCP",
+        "Agent"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2092321896721432824",
+      "author": "perplexity_ai",
+      "bio": "",
+      "text": "New research: Portable Computer is a local-first agent for private and cost-effective work.\n\nWith an on-device 27B model, our harness scores 82.6% on real knowledge work, beating open-source harnesses Pi and Hermes. Our post-trained PPLX 27B reaches 85.4%. https://t.co/Rb6d47clCI",
+      "created_at": "Tue Aug 25 18:43:08 +0000 2026",
+      "likes": 650,
+      "views": "177307",
+      "url": "https://x.com/i/status/2092321896721432824",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQlrrWbboAAQwsi.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQlrrWbboAAQwsi.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 68.688,
+      "title": "Portable Computer：27B 本地 harness 打到 82.6%",
+      "summary": "Perplexity 发研究：Portable Computer 是本地优先 Agent。机上 27B 加自家 harness，真实知识工作 82.6%，超过开源 harness Pi 和 Hermes；再后训练的 PPLX 27B 到 85.4%。",
+      "recommend_reason": "本地 Agent 终于有对 Pi/Hermes 的硬数字，不是演示片。",
+      "tags": [
+        "Perplexity",
+        "Agent",
+        "本地"
+      ],
+      "rank": 14
+    },
+    {
+      "id": "2092315079576555806",
+      "author": "AndrewYNg",
+      "bio": "",
+      "text": "OpenWorker -- an open source agent that doesn't just chat but completes tasks on your laptop -- just released a new version with many features for security workflows. \n\nAfter our initial release, many users found it especially useful for cybersecurity. Attackers are already using AI; OpenWorker is committed to giving defenders the same leverage. Running an agent requires both (i) A model and (ii) A harness (the software around the model). Because the OpenWorker harness is fully open source, security teams can audit it to make sure we haven't built any backdoors that exfiltrate your code and data to some company or even a foreign adversary.\n\nOpenWorker now comes with built-in cybersecurity agents for (i) Scanning your code for vulnerabilities. (ii) Scanning dependencies for supply chain injections. (iii) Checking your cloud security configuration for attack surfaces. This enables developers to do much more security work before deployment (part of what's called the \"shift left\" movement).\n\nYou choose the model: you can run open weight models fully locally so sensitive code never leaves your machine. This helps with legitimate security work (like reproducing a known exploit to defend against it) that can trigger refusals in leading closed models. Or use your ChatGPT subscription, or stealth preview models like Ox Alpha, or any model via API key.\n\nThanks also to all the open source contributors!\n\nJoin work with @rohitcprasad so please follow him too to get more frequent updates.\n\nTry it out: https://t.co/QPZLudn7ug\nCode: https://t.co/NYCiTD6hSq",
+      "created_at": "Tue Aug 25 18:16:02 +0000 2026",
+      "likes": 2138,
+      "views": "128311",
+      "url": "https://x.com/i/status/2092315079576555806",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 69.254,
+      "title": "OpenWorker 新版把安全工作流做进开源 Agent",
+      "summary": "吴恩达说 OpenWorker 新版专补安全：扫代码漏洞、扫依赖供应链、查云配置攻击面。Harness 全开源可审计，模型可本地开源权重，敏感代码不用出门；也能接 ChatGPT 或 API。对着防守方，不让攻击者单方面用 AI。",
+      "recommend_reason": "开源 harness 加可换模型，安全团队能审计、能本地跑。",
+      "tags": [
+        "Agent",
+        "安全",
+        "开源"
+      ],
+      "rank": 15
+    },
+    {
+      "id": "2092307147635806424",
+      "author": "Leobai825",
+      "bio": "",
+      "text": "我靠！！！海底捞店员给我送蛋糕的时候惊呆了\n由川总@JobChuanqi和樱花@0xsakura666合力制作\n\n真的是AI照进现实！用GPT的image2作图\n画出来的蛋糕太好看了真的超级幸福🥰！\n\n今天是成年以来过得最好的一次生日🎂！\n也祝大家也天天开心，每天都快快乐乐！",
+      "created_at": "Tue Aug 25 17:44:31 +0000 2026",
+      "likes": 54,
+      "views": "6264",
+      "url": "https://x.com/i/status/2092307147635806424",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQleAatWUAAdWe-.jpg",
+        "https://pbs.twimg.com/media/HQleDQgXYAAe5rE.jpg",
+        "https://pbs.twimg.com/media/HQleFT1XsAIPCzd.jpg",
+        "https://pbs.twimg.com/media/HQleOHHW8AATdgf.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQleAatWUAAdWe-.jpg",
+        "https://pbs.twimg.com/media/HQleDQgXYAAe5rE.jpg",
+        "https://pbs.twimg.com/media/HQleFT1XsAIPCzd.jpg",
+        "https://pbs.twimg.com/media/HQleOHHW8AATdgf.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 64.485,
+      "summary": "我靠！！！海底捞店员给我送蛋糕的时候惊呆了\n由川总@JobChuanqi和樱花@0xsakura666合力制作\n\n真的是AI照进现实！用GPT的image2作图\n画出来的蛋糕太好看了真的超级幸福🥰！\n\n今天是成年以来过得最好的一次生日🎂！\n也祝大家也天天开心，每天都快快乐乐！",
+      "recommend_reason": "GPT image2 做的海底捞生日蛋糕进了店里，生成图落到实物。",
+      "tags": [
+        "GPT",
+        "图像",
+        "落地"
+      ],
+      "rank": 16
+    }
+  ],
+  "generated_at": "2026-08-26T04:10:43Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 16,
+    "last_batch_added": 16,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
