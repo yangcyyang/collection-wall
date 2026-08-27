@@ -9,6 +9,126 @@
   },
   "items": [
     {
+      "id": "2093006385340408028",
+      "author": "GoSailGlobal",
+      "bio": "",
+      "text": "聊了一圈做出海的团队，发现许多团队死掉的地方出奇一致\n\n都以为最难的是 PMF 之后怎么 Scale，实际上绝大多数死在更前面：第一波 100 个真实用户到底在哪？\n\n团队真正要的东西极其具体： \n「给我 30 个真实的、深度用过产品的、能约上 Zoom 聊 15 分钟的活人，每个人至少有联系方式」\n\n而现在的 AI 给他们的是什么？ \n一万字的 ICP 画像和市场分析，写得头头是道，一个能发邮件打电话的人都没有。\n\n投流买来的量也不算数，来了就跑的只是数据，愿意跟你对话的才是 ICP\n\n从 0 到 1 的那个“1”，含金量从来不是估值或代码，而是一个个有血有肉的活人",
+      "created_at": "Thu Aug 27 16:03:03 +0000 2026",
+      "likes": 0,
+      "views": "11",
+      "url": "https://x.com/i/status/2093006385340408028",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2092598190239260736",
+        "author": "GoSailGlobal",
+        "name": "Jason Zhu",
+        "text": "我发现很多做产品的人，都会经历同一个阶段：\n疯狂加功能\n\n竞调有了\n行业雷达有了\nAI Agent 有了\n报告有了\n工作流也有了\n\n产品越来越「全面」\n\n但你问用户：\n「你为什么要用这个？」，反而答不上来。\n\n你肯定不愿意听到别人对你说：\n\n「你的产品很全面，但我看不到一个特别大的特点。」\n\n「你做的这些东西，我自己的团队早就在用了，我们甚至从来没觉得这是个产品，只是内部工具。」\n\n「作为一个用户，你现在这些功能，我一个都不需要。」\n\n这其实是很多产品人的共同问题。\n\n把「我还能做什么」当成了产品价值。\n\n最后做出来一个什么都有的产品，却没有一个用户非你不可的理由。\n\n产品早期最重要的事情，可能只有一个：\n\n找到那根最尖的钉子，先让用户因为一个点记住你",
+        "created_at": "Wed Aug 26 13:01:01 +0000 2026",
+        "url": "https://x.com/GoSailGlobal/status/2092598190239260736",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 30.694,
+      "title": "出海团队多死在「第一波 100 个真人」",
+      "summary": "聊了一圈出海团队：大家以为难在 PMF 之后怎么 Scale，其实多数死在更前面——第一波 100 个真实用户在哪。团队要的很具体：30 个深度用过、能约上 Zoom 聊 15 分钟、有联系方式的活人。AI 给的却是一万字 ICP 画像，一个能打电话的人都没有。投流来了就跑的只是数据；愿意对话的才是 ICP。0→1 的「1」是有血有肉的人，不是估值或代码。",
+      "recommend_reason": "把「AI 写分析」和「找得出能聊的活人」切开了，出海冷启动很实用。",
+      "tags": [
+        "增长",
+        "出海",
+        "产品"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2093005821655322935",
+      "author": "fortelabs",
+      "bio": "",
+      "text": "AI tends to make your decisions more predictable and your writing more average\nIn this new video, I share the 4 moves I use to fight back the AI slop https://t.co/MkcuQoGWyp",
+      "created_at": "Thu Aug 27 16:00:48 +0000 2026",
+      "likes": 0,
+      "views": "155",
+      "url": "https://x.com/i/status/2093005821655322935",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQvZs1ZXsAAd8dX.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQvZs1ZXsAAd8dX.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 35.037,
+      "title": null,
+      "summary": "AI 往往会让你的决策更可预测、写作更平庸。他在新视频里分享了自己用来对抗 AI slop 的 4 个动作。",
+      "recommend_reason": "提醒别被模型拉回平均数，有具体反制动作。",
+      "tags": [
+        "方法论",
+        "写作"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2093000020513710402",
+      "author": "YuLin807",
+      "bio": "",
+      "text": "下班第一件事，打开 codex  \n我们应该在 codex 中做点什么\n现在可以和朋友赠送 你的 codex 额度。 https://t.co/7Xtt9pMLvl",
+      "created_at": "Thu Aug 27 15:37:45 +0000 2026",
+      "likes": 0,
+      "views": "103",
+      "url": "https://x.com/i/status/2093000020513710402",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQvUanTaIAAXOkK.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQvUanTaIAAXOkK.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 52.012,
+      "title": null,
+      "summary": "下班第一件事，打开 codex  \n我们应该在 codex 中做点什么\n现在可以和朋友赠送 你的 codex 额度。 https://t.co/7Xtt9pMLvl",
+      "recommend_reason": "Codex 额度能转赠，协作/试水有新口子。",
+      "tags": [
+        "Codex",
+        "产品"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2092994215219470596",
+      "author": "vista8",
+      "bio": "",
+      "text": "Google 发布 Gemini 3.5 Transcribe：支持 85 种以上语言，实时转写延迟低于一秒\n\nGoogle 昨天发布的，感觉不用录音转文本，直接调实时API就行？\n\n支持定义专业词汇，看官方演示视频很强，支持混合输入转写（中英多种语言混杂也可以识别）\n\n这个模型感觉能让实时翻译转写产品变的更好用。",
+      "created_at": "Thu Aug 27 15:14:41 +0000 2026",
+      "likes": 10,
+      "views": "2256",
+      "url": "https://x.com/i/status/2092994215219470596",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2092993910662627329/vid/avc1/480x270/7IrRIw8LVZ9Kw58_.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2092993910662627329/img/08NMaQ-4RY9ryzMO.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 59.43,
+      "title": null,
+      "summary": "Google 发布 Gemini 3.5 Transcribe：支持 85 种以上语言，实时转写延迟低于一秒\n\nGoogle 昨天发布的，感觉不用录音转文本，直接调实时API就行？\n\n支持定义专业词汇，看官方演示视频很强，支持混合输入转写（中英多种语言混杂也可以识别）\n\n这个模型感觉能让实时翻译转写产品变的更好用。",
+      "recommend_reason": "85+ 语言、亚秒延迟，实时转写/翻译产品可以直接盯。",
+      "tags": [
+        "Gemini",
+        "语音",
+        "产品"
+      ],
+      "rank": 4
+    },
+    {
       "id": "2092831367734464621",
       "author": "lixinbao_X",
       "bio": "",
@@ -35,7 +155,7 @@
         "HuggingFace",
         "产业"
       ],
-      "rank": 1
+      "rank": 5
     },
     {
       "id": "2092829877900910944",
@@ -64,7 +184,7 @@
         "MoE",
         "硬件"
       ],
-      "rank": 2
+      "rank": 6
     },
     {
       "id": "2092827810692051421",
@@ -99,7 +219,7 @@
         "多模态",
         "国产"
       ],
-      "rank": 3
+      "rank": 7
     },
     {
       "id": "2092826289841299636",
@@ -154,7 +274,7 @@
         "Agent",
         "提示词"
       ],
-      "rank": 4
+      "rank": 8
     },
     {
       "id": "2092825185888182377",
@@ -183,7 +303,7 @@
         "Linux",
         "产品"
       ],
-      "rank": 5
+      "rank": 9
     },
     {
       "id": "2092824459166331311",
@@ -212,7 +332,7 @@
         "训练",
         "开源"
       ],
-      "rank": 6
+      "rank": 10
     },
     {
       "id": "2092819968240853220",
@@ -255,7 +375,7 @@
         "出海",
         "内容"
       ],
-      "rank": 7
+      "rank": 11
     },
     {
       "id": "2092810703442968613",
@@ -284,7 +404,7 @@
         "工具",
         "同步"
       ],
-      "rank": 8
+      "rank": 12
     },
     {
       "id": "2092808696212636008",
@@ -319,7 +439,7 @@
         "封面",
         "包豪斯"
       ],
-      "rank": 9
+      "rank": 13
     },
     {
       "id": "2092806738320015370",
@@ -348,10 +468,10 @@
         "浏览器",
         "产品"
       ],
-      "rank": 10
+      "rank": 14
     }
   ],
-  "generated_at": "2026-08-27T04:32:20Z",
+  "generated_at": "2026-08-27T16:08:00Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -359,11 +479,11 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 10,
-    "last_batch_added": 10,
+    "actual_count": 14,
+    "last_batch_added": 4,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
