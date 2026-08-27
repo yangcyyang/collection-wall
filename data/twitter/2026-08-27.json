@@ -1,0 +1,378 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-27",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2092831367734464621",
+      "author": "lixinbao_X",
+      "bio": "",
+      "text": "突发｜英伟达129亿美元收购Hugging Face，黄仁勋要把“AI界GitHub”也买下来\n\n英伟达刚交出962亿美元单季营收，几个小时后，又传出一笔更大的动作：\n\n以129亿美元，约合867亿元人民币，收购全球最大AI开源社区之一——Hugging Face。\n\n如果交易最终完成，黄仁勋买下的就不只是一个网站，而是整个开源AI世界最重要的入口之一。\n\n目前Hugging Face已经拥有约：\n\n296万个公开模型仓库\n100万个公开数据集\n144万个Spaces应用\n\nDeepSeek、Qwen、Kimi、智谱、MiniMax等大量开源模型，都把这里当成重要的发布和分发平台。\n\n它经常被称为：\n\n“AI界的GitHub”。\n\n但这笔交易从财务上看非常贵。\n\nHugging Face目前年化收入大约1.5亿美元，129亿美元收购价相当于约86倍收入。\n\n2023年融资时，它的估值还只有45亿美元。\n\n黄仁勋显然不是为了眼前这点收入。\n\n英伟达已经控制了AI最底层的GPU，又通过CUDA控制开发工具。\n\n如果再拿下Hugging Face，就等于继续向上控制：\n\n模型 → 数据集 → 开发者 → 部署 → 推理 → GPU\n\n整个链条开始连起来了。\n\n这对英伟达尤其重要。\n\n因为OpenAI、Anthropic、Google、亚马逊、微软都在自己做AI芯片，长期目标都是减少对英伟达GPU的依赖。\n\n而开源模型越繁荣，开发者越多，英伟达就越容易继续卖卡。\n\n所以从这个角度看，黄仁勋是在用开源AI，对冲闭源巨头自研芯片。\n\n而且英伟达最近已经明显进入“撒钱模式”：\n\n股权投资约990亿美元，\n另外还承诺继续投资约250亿美元，\n此前又投资OpenAI、Perplexity，以及大量AI基础设施公司。\n\n现在连Hugging Face这种开源AI的核心基础设施都想直接买下来。\n\n真正的问题已经不是：\n\n英伟达还能卖多少GPU？\n\n而是：\n\n如果从芯片、CUDA、模型工具，再到全球最大的开源模型分发平台都归英伟达控制，监管机构会不会允许一个公司把AI产业链吃到这种程度？\n\n如果这笔交易最终通过，\n\n英伟达可能就不再只是AI时代“卖铲子的人”了。\n\n它准备连矿山、工具店和交易市场一起买下来。",
+      "created_at": "Thu Aug 27 04:27:35 +0000 2026",
+      "likes": 0,
+      "views": "15",
+      "url": "https://x.com/i/status/2092831367734464621",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQs7CM6bUAAiu7d.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQs7CM6bUAAiu7d.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 53.019,
+      "title": "有人写英伟达要 129 亿美元买 Hugging Face",
+      "summary": "立新宝按这个口径写：英伟达刚报 962 亿美元单季营收后，传出 129 亿美元收购 Hugging Face。文中数字是 296 万模型、100 万数据集、144 万 Spaces，年化收入约 1.5 亿、约 86 倍收入、2023 年估值 45 亿。论证是补上模型到分发入口，对冲大厂自研芯片。未核官方公告。",
+      "recommend_reason": "即便是传闻，也把「卖铲子」往上吃一层的逻辑写清楚了。",
+      "tags": [
+        "英伟达",
+        "HuggingFace",
+        "产业"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2092829877900910944",
+      "author": "IndieDevHailey",
+      "bio": "",
+      "text": "游戏本现在能直接跑前沿大模型了，官方权重，不用极限量化。\n\nQwen3.6 35B，8G显存的4060笔记本，39 tok/s。\nDeepSeek-V4-Flash 284B，5090台式机，22-25 tok/s。\nGLM-5.2 753B，一张PRO 6000，15 tok/s。\n\nClaude Code、Codex直接本地白嫖，电费都比API便宜。\n\nBerkeley那个FreeToken，比Ollama解码快3-4倍，预填充能快到6-30倍。有现成GUI，Windows/Linux一键装，不用自己转GGUF，也不用从源码编译。\n\n模型主要吃内存，显卡负责把激活的专家算快。边缘混合模型 (MoE) 服务引擎这波真把消费级硬件盘活了。",
+      "created_at": "Thu Aug 27 04:21:40 +0000 2026",
+      "likes": 0,
+      "views": "68",
+      "url": "https://x.com/i/status/2092829877900910944",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2092828387656273920/vid/avc1/360x270/4L0PvPv6XFX_vE_a.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2092828387656273920/img/bQZNrX5sBkpK5xri.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 53.402,
+      "title": "游戏本能跑官方权重，电费比 API 便宜",
+      "summary": "Qwen3.6 35B 在 8G 4060 笔记本 39 tok/s；DeepSeek-V4-Flash 284B 在 5090 约 22–25 tok/s；GLM-5.2 753B 一张 PRO 6000 约 15 tok/s。说是官方权重，不用极限量化。Berkeley FreeToken 比 Ollama 解码快 3–4 倍、预填充最高 6–30 倍，有 GUI，不用自己转 GGUF。模型主要吃内存，显卡算激活专家。",
+      "recommend_reason": "消费级卡跑大 MoE 的速度和工具链写在一张纸上。",
+      "tags": [
+        "本地",
+        "MoE",
+        "硬件"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2092827810692051421",
+      "author": "vista8",
+      "bio": "",
+      "text": "终于揭秘，GLM-5.3-Flash 就是 X 大火的“Ox-Alpha”。\n\n实际跑了 6-7 个场景，最好玩的是让它剪辑了一整部电影，变成 3 分钟解说版。\n\n文中有所有测试提示词、制作思路和工具。\n\n最让人震惊的是，这次GLM竟然用的都是国产卡部署。\n\n这得要几十万张国产卡吧？",
+      "created_at": "Thu Aug 27 04:13:27 +0000 2026",
+      "likes": 2,
+      "views": "631",
+      "url": "https://x.com/i/status/2092827810692051421",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2092826330807271588",
+        "author": "vista8",
+        "name": "向阳乔木",
+        "text": "https://t.co/NQxI0uYwyP",
+        "created_at": "Thu Aug 27 04:07:34 +0000 2026",
+        "url": "https://x.com/vista8/status/2092826330807271588",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 51.011,
+      "title": "Ox-Alpha 揭晓：就是 GLM-5.3-Flash",
+      "summary": "向阳乔木说跑了 6–7 个场景，最好玩的是把一整部电影剪成 3 分钟解说。文里有测试提示词、思路和工具。他还写这次部署全是国产卡。",
+      "recommend_reason": "昨天官宣的 Flash，今天对上 X 上那只 Ox-Alpha。",
+      "tags": [
+        "GLM",
+        "多模态",
+        "国产"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2092826289841299636",
+      "author": "dotey",
+      "bio": "",
+      "text": "上次我说让 AI 很难跳出既定框架，有网友说是我提示词没写好，所以我最近换了一种写法，还真的有效果，简单来说就是让它基于要达到的目标，跳出框架，重新思考会有什么不一样的做法。\n\n上次我在 AI 帮我翻译完视频后，我给它提问：\n\n> 如果跳出当前架构，让你基于功能重新设计当前的翻译流程，你会采取什么不一样的做法？\n\n还别说，真的给了我一些不一样的思路。\n\n但是我看完觉得可能不太靠谱，不过口说无凭，那咱们用数据说话吧。\n\n我让它去开个 Worktree (因为还有其他任务再跑，不好开分支)去验证下：\n\n> 用一个worktree去验证你的方案，然后对比当前方案，看是否在不牺牲质量的前提下有更好性能。\n\n等它验证完，发现并没有预期那么好，但是也不是完全没价值，可以部分借鉴它的方案。\n\n有个小插曲，其实一开始我没看懂它的意思，也不知道是好还是不好，然后我去开了个 sidechat（/btw），让它给我详细的解释了一下：\n> 解释一下新的方案：值得做吗？是部分改进当前还是完全改进？具体怎么改进，请通俗易懂的给我解释一下，最好结合具体的例子\n\n听它解释完我才明白，然后把解释的内容重新给它让它基于这些信息去实施了，对于提升质量还是有帮助。\n\n至于为什么要用 sidechat，是因为这类解释的事情没必要放到主上下文，只是了解一下，除非后续需要用到一些聊出来的信息。\n\n---\n\n简单总结一下：\n\n1. 让 AI 根据目标跳出框架去思考，给出新的方案还是有帮助\n\n2. AI 给的方案不一定靠谱，还是得要有人工验证，最好是有数据为准，不能全盘接受\n\n3. 一些当前任务无关的问题可以问 sidechat",
+      "created_at": "Thu Aug 27 04:07:24 +0000 2026",
+      "likes": 13,
+      "views": "3333",
+      "url": "https://x.com/i/status/2092826289841299636",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQs0KNZWYAEWpqj.jpg",
+        "https://pbs.twimg.com/media/HQs0OyIX0AED-Jc.jpg",
+        "https://pbs.twimg.com/media/HQs1IwEX0AA4syT.jpg",
+        "https://pbs.twimg.com/media/HQs1NqwWkAAobEn.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQs0KNZWYAEWpqj.jpg",
+        "https://pbs.twimg.com/media/HQs0OyIX0AED-Jc.jpg",
+        "https://pbs.twimg.com/media/HQs1IwEX0AA4syT.jpg",
+        "https://pbs.twimg.com/media/HQs1NqwWkAAobEn.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2088838461511839844",
+        "author": "dotey",
+        "name": "宝玉",
+        "text": "我最近就发现，即使聪明如 Fable 5，如果你只是给它一个目标让它优化，它可能也就是在既定的框架下想办法帮你优化到极致，但是它很难跳出既定框架，发现一条完全不同的路线。\n\n比如说最近有用户反映使用 BaoCut 转录速度慢，我就反复的用 Codex 去转录视频，然后让 Codex 或者 Fable 去分析瓶颈在哪里，该怎么优化，然后每次它们都能给我一堆理由和看起来靠谱的优化方案。\n\n比如它会建议多开启 workers（subagent），对 workers 预热之类。让它按照方案优化后，似乎有效果但是又不明显。\n\n最后还是自己去分析数据包，发现耗时长还是输出的 JSON 格式太长了，导致生成、校验时间较长。\n\n如果不用 JSON 格式，比如纯文本，或者简单的 html 格式，会更节约 token，只不过这样程序解析会很复杂，比如对字幕润色分段，输出是纯文本的话，就要做 diff 比较润色后更改的内容，还要把变更后的部分，重新对应到原始字幕的单词上。\n\n简单来说，就是以前为了让程序简单就让模型输出复杂更费 token；如果要节约 token，就可以让模型的输出简单，但是程序解析会很复杂。\n\n按照这个思路改进后，效果很明显（对比图2图3），调用次数从 33 次降低到 12 次；时间从 31 分钟降低到 18 分钟。测试张小珺那期将近 7 小时的访谈，完整润色也只需要 42 分钟。\n\n如果不走 Agent 走 Cloud 模型的话，一个小时的视频，完整的翻译校对成双语字幕，用 DeepSeek v4 Flash，成本大于是 ¥0.4元。\n\n有兴趣可以试试看效果，Mac 有专门的 App，Windows 支持 cli 或者 skill。 \nBaoCut ：https://t.co/89Wi1b3hZT",
+        "created_at": "Sun Aug 16 04:01:12 +0000 2026",
+        "url": "https://x.com/dotey/status/2088838461511839844",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HPz_kpNWAAAPYTf.jpg",
+          "https://pbs.twimg.com/media/HP0FG1OXsAAyFZP.jpg",
+          "https://pbs.twimg.com/media/HP0H39uWEAANQlA.jpg",
+          "https://pbs.twimg.com/media/HP0JeR8XYAAcNdW.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HPz_kpNWAAAPYTf.jpg",
+          "https://pbs.twimg.com/media/HP0FG1OXsAAyFZP.jpg",
+          "https://pbs.twimg.com/media/HP0H39uWEAANQlA.jpg",
+          "https://pbs.twimg.com/media/HP0JeR8XYAAcNdW.jpg"
+        ]
+      },
+      "score": 61.632,
+      "title": "让 AI 跳出框架，再用 worktree 拿数据验",
+      "summary": "宝玉换了问法：基于目标重新设计流程，而不是在旧架构里修。新方案先开 worktree 对比质量和性能，并不如吹的好，但能部分借鉴。看不懂时用 sidechat 问清楚，再把解释喂回主任务，避免脏主上下文。",
+      "recommend_reason": "跳出框架、数据验收、sidechat 分上下文，三步都能马上用。",
+      "tags": [
+        "工作流",
+        "Agent",
+        "提示词"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2092825185888182377",
+      "author": "dingyi",
+      "bio": "",
+      "text": "昨天看到一个 Mac 应用，功能就是在 menubar 显示本地的端口，可以自定义名称，然后卖 9 美金，连试用都不给。\n\n于是我自己搞了一个 Omarchy 插件，AI 几分钟就搞完的东西，竟然还卖钱。还是 Mac 系统好啊，只要包装好看点就能卖钱，Linux 用户天天想着自己搞。。。\n\nhttps://t.co/KfFaVWWDfs https://t.co/fQn2vG4N1n",
+      "created_at": "Thu Aug 27 04:03:01 +0000 2026",
+      "likes": 3,
+      "views": "777",
+      "url": "https://x.com/i/status/2092825185888182377",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQs1apJaMAAgAoN.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQs1apJaMAAgAoN.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 39.707,
+      "title": "菜单栏看端口卖 9 美元，他用 AI 几分钟做了个插件",
+      "summary": "dingyi 看到一个 Mac 应用，只在 menubar 显示本地端口、可自定义名称，卖 9 美元还不给试用。他自己写了个 Omarchy 插件，说 AI 几分钟搞定。感叹 Mac 包装就能卖，Linux 用户习惯自己做。",
+      "recommend_reason": "小工具定价和 AI 复刻速度放在一起，很好笑也扎心。",
+      "tags": [
+        "独立开发",
+        "Linux",
+        "产品"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2092824459166331311",
+      "author": "GoSailGlobal",
+      "bio": "",
+      "text": "训练LoRA踩过坑的,会懂这个项目的价值\n\nH3多模态LoRA训练技能,针对MiniMax的H3音视频模型。它最狠的一点是不自欺\n\n很多训练流程号称支持参考条件,实际上音频被悄悄丢了、参考图根本没进训练,你还以为练好了。它把这些坑全变成可检查的工程契约:load_compatible和condition_trained分开记,音频有没有真的参与训练,单独一个标记盯着\n\n整个流程是一条十步证据链,从目标、权利、数据契约、审计,到检查点选择和推理验证。前一步的证据不成立,后一步就不许标记完成,失败直接停,绝不静默降级\n\n连生成的样片都必须过ffprobe的音视频流校验才算数,非空文件不等于练成了\n\n支持DiffSynth、AI Toolkit、SimpleTuner三种后端,MIT开源",
+      "created_at": "Thu Aug 27 04:00:08 +0000 2026",
+      "likes": 0,
+      "views": "192",
+      "url": "https://x.com/i/status/2092824459166331311",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2092824432897306625/vid/avc1/480x270/5JmoXUciAe-Qnk5g.mp4?tag=14"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2092824432897306625/img/ZmIWakcx8DL5hET2.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 36.029,
+      "title": "H3 多模态 LoRA：训练条件做成可检查契约",
+      "summary": "针对 MiniMax H3 音视频。很多流程号称吃了参考音频/图，实际没进训练。这个 skill 把 load_compatible 和 condition_trained 分开记，音频是否真参与单独打标。十条证据链，前一步不成立后一步不许完成，失败就停、不静默降级。样片还要过 ffprobe 音视频流。支持 DiffSynth、AI Toolkit、SimpleTuner，MIT。",
+      "recommend_reason": "把「以为练好了」的坑写成工程门禁，练过 LoRA 的人会懂。",
+      "tags": [
+        "LoRA",
+        "训练",
+        "开源"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2092819968240853220",
+      "author": "IndieDevHailey",
+      "bio": "",
+      "text": "做产品内容增长，客户最常问的一句话是：\n\n「我要 XXX 万保底曝光，能不能做？」\n\n当然能做。\n\n曝光是营销里最好规划的指标之一。账号够不够、发布量够不够，必要时再补一点投流，数字基本都能算出来。\n\n但一轮营销值不值，不只看最后交了多少曝光。\n\n更重要的是：\n\n做完这一轮，下一轮增长有没有更清楚。\n所以我们通常不会一上来先聊「要多少曝光」，而是先问：\n\n这轮到底要解决什么问题？要实现什么目标？\n\n同样 100 万曝光，放在不同产品阶段，意义完全不一样。\n\n刚上线，要找第一批真正会用的人。\n准备发布，要让市场先记住你是谁。\n已经跑出增长，要把有效渠道放大。\n产品成熟了，才需要更大声量，去强化品牌和品类位置。\n所以曝光没问题。\n先要定的是：\n这次曝光，到底干什么用。\n\n01 验证期：先找到谁会买单\n\n产品刚上线，最大的未知通常不是「有多少人知道」，而是：\n\n到底谁真的需要。\n\n同一个 AI Coding 产品，可以讲给不会写代码的人，也可以讲给独立开发者、专业工程师。\n\n但三类人要的东西完全不同。\n不会写代码的人想知道：我能不能不学编程也把产品做出来？\n独立开发者关心：我一个人能不能干完以前几个人的活？\n专业工程师更在意：复杂代码库、Debug、工程任务，它到底扛不扛得住？\n\n人群一变，卖点、内容、Creator、渠道、CTA 都会变。\n所以这阶段别急着铺大盘。\n先找垂直 Creator 和真实用户，小范围测场景、测说法、测内容。\n看谁点进来、谁注册、谁真用了，再看为什么。\n\n验证期要的，不是一份曝光报表。\n而是知道：\n谁会买单，什么能打动他们，下一轮的钱该往哪加。\n\n02 发布期：让市场先记住一件事\n\n产品验证过了，核心用户和场景也清楚了，才真正进入发布期。\n\n这阶段需要声量。\n但更怕声量很大，认知很散。\n\n不少 Launch 找几十个 Creator 一起发，看起来很热闹。点进去一看：有人讲技术，有人讲价格，有人罗列功能，有人说它是 Agent，有人说它是效率工具。\n\n单篇都没错。\n但加在一起，用户还是不知道这产品到底是什么。\n\n所以发布期先钉住三件事：\n\n你是谁。\n你解决什么问题。\n为什么现在值得试。\nCreator 可以有自己的表达，内容也不需要一模一样。\n但最后最好都指向同一个认知。\n\n用户记不住十个卖点。\n一轮传播下来，通常只会记住一件事。\n\n有效的 Launch，不只是发了多少帖、拿了多少曝光。\n而是做完之后，市场开始用差不多的一句话理解你。\n\n03 增长期：把跑通的路径做成系统\n\n进入增长期，任务又变了。\n\n这时候通常已经知道：谁是核心用户，什么场景有效，哪类内容能打，哪些 Creator 能持续带来高质量用户。\n接下来不是继续广撒网，而是复制。\n把路径拆开：\n\n用户 × 内容角度 × Creator × 渠道 × CTA\n比如：\n\n独立开发者 × Build Demo × 技术 Creator × X × 免费试用\n如果这套能持续带来注册，而且注册后真的会用，那后面就该扩 Creator 池、加内容供给、提发布频次，再配 Affiliate、SEO、Referral、投流，把这条路放大。\n\n这时候曝光依然重要。\n但它后面要接上：\n点击、注册、激活、留存。\n\n增长期不该每个月重新做一次 Campaign。\n而是让一套有效获客方式，稳定重复发生。\n\n做一次推广，和真正拥有一个增长渠道，是两回事。\n\n04 品牌期：从为什么用你，到为什么一直选你\n\n产品继续往后走，功能越来越难成为长期壁垒。\n\n你今天上线一个能力，对手很快也能跟上。\n参数会接近，体验也会越来越像。\n\n那用户为什么还选你？\n\n答案会慢慢从产品，转到品牌。\n\n可能你更专业、更可信、更懂某一类人。\n可能你的社区更强。\n也可能市场已经默认：做这件事，就该想到你。\n\n这时候内容不能一直围着「我们又上线了一个新功能」。\n\n要开始积累一些能留下来的东西：Founder 判断、客户结果、行业观点、用户故事、社区、研究、品牌 Campaign。\n品牌不是曝光堆出来的。\n\n更准确地说：\n\n是一个清晰认知，被长期、反复强化之后沉下来的。\n所以我们看一个新项目，通常不会先问：「准备买多少曝光？」\n\n而是先看四件事：\n\n产品现在在哪一阶段？\n这轮要解决什么问题？\n希望用户最后记住什么？\n如果有效，下一步放大什么？\n\n验证期，找答案。\n发布期，立认知。\n增长期，复制路径。\n品牌期，沉淀心智。\n\n每个阶段都需要曝光。\n只是曝光干的事情不一样。\n所以我们不反对保底曝光。\n目标清楚的时候，曝光当然越充分越好。\n\n但真正有价值的一轮增长，不该只回答「这次做了多少曝光」，还得回答：\n\n「做完之后，我们是不是更清楚下一步该怎么增长了？」\n\n如果是，那这一轮留下来的，就不只是一个数字。\n而是下一轮还能继续用的人群判断、内容方向、渠道经验和品牌认知。\n\n—— GoViralX 品牌增长观察",
+      "created_at": "Thu Aug 27 03:42:17 +0000 2026",
+      "likes": 17,
+      "views": "467",
+      "url": "https://x.com/i/status/2092819968240853220",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQsvpHwacAAHwG7.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQsvpHwacAAHwG7.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2080219114216534073",
+        "author": "IndieDevHailey",
+        "name": "开发者Hailey",
+        "text": "过去一段时间，我们没有急着扩大 GoviralX 的声量。\n\n而是通过线下顾问和项目执行，直接服务出海品牌。\n\n从市场研究、用户洞察，到创作者策略、内容设计、Campaign 执行和数据复盘，我们持续参与出海品牌的增长实践。\n\n这些经验让我们发现：\n\n品牌需要的不是更多渠道，也不是更长的 KOL 名单。\n而是能够理解商业目标、做出专业判断，并推动策略落地的增长伙伴。\n\n基于这些经验，我们重新定位了 GoviralX。\n\n现在的 GoviralX，不再只是一个 KOL 资源平台。\n\nGoviralX 是一家专注服务中国出海品牌的增长顾问与执行团队。\n\n我们通过数据分析、内容策略和海外创作者网络，帮助 AI、SaaS、科技、游戏、App 和消费品牌进入海外市场，建立认知，并探索可持续增长路径。\n\n# 从增长问题出发，而不是从 KOL 名单开始\n\n很多品牌做海外推广时，第一步往往是找达人。\n\n但我们认为，正确顺序应该是：\n先明确市场、用户和增长目标，再选择合适的渠道和创作者。\n\n我们帮助品牌判断：\n\n- 产品适合进入哪个市场？\n- 第一批目标用户是谁？\n- 希望建立怎样的品牌认知？\n- 什么内容更容易被理解和传播？\n- 如何沉淀经验持续放大？\n\nX 是 GoviralX 的核心优势渠道之一，同时我们会根据品牌目标匹配更合适的增长组合。\n\n# 6000+ 创作者，价值不在数量，而在选择\n\nGoviralX 已积累 6000+ 优质创作者资源，覆盖 AI、SaaS、科技出海、DTC、游戏等领域。\n\n我们不只看粉丝量，而是结合行业匹配度、目标市场、受众特征、内容方向和预算进行筛选。\n\n同时通过刊例数据和人工分析：\n\n内容调性、真实互动、历史表现、商业合作质量等。\n帮助品牌找到真正适合的创作者。\n\n最终提供的不是简单名单，而是一套：\n为什么选择、适合讲什么、承担什么角色、有哪些风险的判断方案。\n\n# 数据能力与品牌策略共同驱动\n\nGoviralX 团队由顶级数据工程师和拥有 4A 实战经验的品牌营销人员组成。\n\n数据团队负责分析创作者数据，评估账号质量、受众匹配度和历史表现。\n\n品牌策略团队负责理解商业目标，将需求转化为传播策略、内容方向和执行方案。\n\n从策略制定、创作者筛选，到内容协作、项目执行和效果复盘，我们推动 Campaign 真正落地。\n\n# 每一次投放，都应该留下下一次增长的答案\n\n我们不只关注曝光和点赞，更关注：\n\n- 是否触达真实目标用户？\n- 哪类内容更容易传播并建立信任？\n- 评论区是否产生有效讨论？\n- 哪些创作者值得长期合作？\n\n一次 Campaign 的价值，不只是当下的数据，更是帮助品牌找到下一阶段增长方向。\n\n# 更灵活的项目启动方式\n\n对于目标清晰、预算明确，并通过项目评估的品牌，我们可以提供合理额度的创作者费用垫付支持。\n\n帮助品牌快速锁定创作者、推进内容制作，并启动 Campaign。\n\nGoviralX 不是简单的撮合平台，我们希望成为帮助品牌减少试错成本、推动海外增长落地的长期伙伴。\n\nKOL 是手段，海外增长才是目标。\n\n如果你正在规划海外推广，可以提供：\n\n- 产品链接\n- 目标市场\n- 推广目标\n- 预算范围\n- 计划时间\n\n我们会帮助你判断：\n\n适合进入的市场、渠道、创作者类型，以及第一阶段最值得验证的增长方向。\n\nGoviralX｜让海外增长更确定\n\nhttps://t.co/VeJO0gnOmy",
+        "created_at": "Thu Jul 23 09:11:00 +0000 2026",
+        "url": "https://x.com/IndieDevHailey/status/2080219114216534073",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2080218886604255233/vid/avc1/436x270/6n0XXqW0bk10x3tm.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2080218886604255233/img/iSkGpq_W10oodQqK.jpg"
+        ]
+      },
+      "score": 70.639,
+      "title": "先问曝光干什么用，再谈保底数字",
+      "summary": "分四阶段：验证期找谁会买单，发布期让市场记住一件事，增长期复制已跑通的用户×内容×Creator×渠道，品牌期堆能留下的认知。同样 100 万曝光，阶段不同意义完全不同。结尾是 GoViralX 的增长观察。",
+      "recommend_reason": "把「要多少曝光」拆成阶段问题，比再要一份 KOL 名单清楚。",
+      "tags": [
+        "增长",
+        "出海",
+        "内容"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2092810703442968613",
+      "author": "jinchenma_ai",
+      "bio": "",
+      "text": "我靠，Xcancel 居然被 X 平台通知要求停止运营了。\n\n之前我用过这个网站，先说一下它是干嘛的。你可以把它理解成一个 X 的镜像网站。\n\n我之前设置了一个定时任务，每天把我自己发的推文同步到这个网站上，当然，拿它同步别人的推文也可以。\n\n这个方法已经稳定跑了几个月，之前都没什么问题。但从最近一个月开始，网站频繁要求做图片验证码，所以每天还得手动验证一下。\n\n结果这两天程序又出问题了，我刚才一查，发现这个网站被下了通知，现在网站上已经贴出了停止运营的通知。\n\n哎，免费同步 X 推文的方法又失效了。\n\n不过好在现在 Grok Build 出来了，打算迁移到 Grok Build 上去了。",
+      "created_at": "Thu Aug 27 03:05:28 +0000 2026",
+      "likes": 0,
+      "views": "129",
+      "url": "https://x.com/i/status/2092810703442968613",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQsnCsvaEAAZNTW.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQsnCsvaEAAZNTW.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 53.258,
+      "title": "Xcancel 被要求停运，免费镜像又断了",
+      "summary": "金辰说 X 通知 Xcancel 停止运营。这是 X 镜像站，他用定时任务把自己的推同步上去，跑了几个月。近一个月常出验证码，这两天程序又挂，打开已贴停运通知。他打算迁到 Grok Build。",
+      "recommend_reason": "免费同步 X 的路又断一条，有备选去向。",
+      "tags": [
+        "X",
+        "工具",
+        "同步"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2092808696212636008",
+      "author": "xiaoxiaodong01",
+      "bio": "",
+      "text": "GPT2 x cover x 极简 x 包豪斯 x 扁平 x 美学提示词\n\n大家呼声，自媒体和PPT的需求，不相上下\n那就本周，两个方向，都垂直开始吧\n\n争取至少能完成50套提示词吧\n\n本组提示词如下， 注意我是用———分隔了我的汤底和佐料：\n\n```\n🥲🤪🤪\n理性几何秩序里装着强烈情绪的知识型封面，先读懂标题，再看懂图形。把用户给定的标题逐字精确呈现，不改写增删、不出现错字乱码，长标题只在语义处断行；标题用极粗几何无衬线中文字体，笔画近等宽、末端切成直角、字怀收紧、字距压到近乎为零，整行先作为一块坚实矩形块面被感知，其后才被读成词；标题置于上部，四周留出大片空场，与背景拉到最大明度反差，缩略图下笔画不粘连不糊成灰块，是唯一的第一视觉；若用户另给了外文副题，紧贴其下排一行全大写、字距拉宽的小字，宽度与标题对齐成双语锁定组。画面中部由主题推导出唯一一个平面几何图形，它是标题概念的图解而非装饰，形状本身把标题的意思演示出来；只用圆、弧、三角、方、栅格、斜带、波线、散点、虚线轴与十字这类基本形，边缘全为硬切矢量边，不出现具象插画、照片、人物、产品、立体光影、渐变、噪点与纹理，图形安静克制只讲一件事。在严整的栅格构图与全局对齐中只安排一处刻意越轨：让主图形在唯一一个位置违反它自己刚建立起来的对称、对齐或闭合关系，其余全部严格归位，使画面既正确又不听话。色彩即结构：绘制前先读标题语义、受众与情绪温度，由主题选定一套具体配色并全图贯彻，含一块统摊背景的主色场、一个与之呈最大明度反差的标题色、一个承载图形的支撑色与一个极小面积的强调色；保持这组色彩角色关系与占比，主色场约七成、主图形约两成、文字与强调合计约一成，全图色数不超过四，饱和度高而干净，色块硬碰硬直接相邻，不用渐变过渡；先在灰阶下核对标题与背景反差，不足时改明度而非靠色相取胜。背景始终是一整片平坦无纹理的单色场，只负责衬托与呼吸，密度绝不高于标题。信息层极小且不编造：仅当用户提供序号、栏目词、关键词或副标题时，才分别放进天头两端对角的小字位、侧栏短词竖排与页脚细线两端的技术标记，字号约为标题的八分之一，与巨大标题形成纪念碑与说明书之间的尺度断层；未提供的文字一律留空。标题、必要文字与理解标题所需的图形部分全部收进四边约百分之八到十的安全区内，避开角标与底部遮挡；仅那处刻意越轨的形状允许压边出血，且被裁掉也不损失语义。\n——————\n主题：发生关系前 怎么判断对方 有无性病\n比例4:3\n\n一共10张图片\n每张都是各国的语言版本\n每张避免雷同的配色、避免雷同的构图逻辑、避免雷同的配图逻辑、避免雷同的创意。\n🥸😲🤨\n```",
+      "created_at": "Thu Aug 27 02:57:30 +0000 2026",
+      "likes": 4,
+      "views": "543",
+      "url": "https://x.com/i/status/2092808696212636008",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQsd1k3aQAAU4d3.jpg",
+        "https://pbs.twimg.com/media/HQsd2lbaUAAQ_UO.jpg",
+        "https://pbs.twimg.com/media/HQsd6jha8AA9n-T.jpg",
+        "https://pbs.twimg.com/media/HQsd9cFaIAAVj0z.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQsd1k3aQAAU4d3.jpg",
+        "https://pbs.twimg.com/media/HQsd2lbaUAAQ_UO.jpg",
+        "https://pbs.twimg.com/media/HQsd6jha8AA9n-T.jpg",
+        "https://pbs.twimg.com/media/HQsd9cFaIAAVj0z.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 58.875,
+      "title": "包豪斯极简封面：汤底和佐料分开写",
+      "summary": "小小东这组给自媒体/PPT 用。汤底是理性几何秩序里装情绪的知识封面：标题逐字精确、极粗无衬线、中部只留一个平面几何图、全图不超过四色、只允许一处刻意越轨。佐料这次是「发生关系前怎么判断对方有无性病」，4:3，十张各国语言版，配色构图都要避开雷同。",
+      "recommend_reason": "封面提示词把结构和主题拆开，汤底能复用到别的标题。",
+      "tags": [
+        "提示词",
+        "封面",
+        "包豪斯"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2092806738320015370",
+      "author": "xiaohu",
+      "bio": "",
+      "text": "Claude 在Cowork 推出了中内置浏览器\n\n当你的任务涉及网站时，浏览器会在 Cowork 的侧边栏中打开，Claude 会进行导航、填写表单并完成任务\n\n这个浏览器属于 Claude 自己，与你的个人浏览器（历史、书签、标签页、密码）完全隔离。\n\n你可以按需选择性同步部分网站的登录状态（支持 macOS 上的 Chrome/Edge/Firefox 以及 Windows/Linux 上的 Firefox），但银行、邮箱和单点登录（SSO）等敏感站点默认排除\n\n适用场景：适合将完整的网页任务直接“外包”给 Claude，例如跨平台收集竞品调研数据、从供应商后台批量下载当月账单，或在没有 API 接口的系统里自动填表\n\n面向 Pro、Max 和 Team 订阅用户陆续推送；Enterprise 企业管理员即日起可在后台开启\n\n跨设备支持：内置浏览器依附于桌面端运行\n\n只要你的电脑端桌面应用保持打开并联网，即使从手机端或网页端向 Claude 发送任务，它依然能调用桌面端的内置浏览器完成操作。\n\n若之前已安装 Chrome 插件，默认仍优先使用插件；其他情况下默认启用内置浏览器（可在 Settings → Cowork → Preferred browser 中自由切换）。",
+      "created_at": "Thu Aug 27 02:49:43 +0000 2026",
+      "likes": 3,
+      "views": "1757",
+      "url": "https://x.com/i/status/2092806738320015370",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2092806297305722880/vid/avc1/480x270/pf5HYtnvPhy_lokS.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2092806297305722880/img/3ESMsfNxTJkWS8-x.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 58.388,
+      "title": "Claude Cowork 自带隔离浏览器",
+      "summary": "Cowork 侧边栏会打开 Claude 自己的浏览器，能导航、填表，跟个人书签密码隔离。可按需同步部分站点登录，银行邮箱 SSO 默认排除。桌面端开着时，手机或网页下的任务也能调这个浏览器。有 Chrome 插件则仍优先插件，可在 Settings → Cowork 切换。",
+      "recommend_reason": "没 API 的后台填表、拉账单，终于能直接外包给 Claude。",
+      "tags": [
+        "Claude",
+        "浏览器",
+        "产品"
+      ],
+      "rank": 10
+    }
+  ],
+  "generated_at": "2026-08-27T04:32:20Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 10,
+    "last_batch_added": 10,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
