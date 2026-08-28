@@ -1,8 +1,11 @@
 export {
   categoryFilters,
   categoryLabel,
+  formatBeijingClock,
   formatBeijingDateTime,
+  formatNewsDayLabel,
   getNewsFeed,
+  groupNewsDays,
 } from "./news.mjs";
 
 export type NewsLinks = {
@@ -20,6 +23,11 @@ export type NewsItem = {
   summary: string;
   reason: string;
   links: NewsLinks;
+};
+
+export type NewsDay = {
+  date: string;
+  items: NewsItem[];
 };
 
 export type NewsDaily = {

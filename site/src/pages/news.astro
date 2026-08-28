@@ -1,15 +1,12 @@
 ---
 import "../styles/global.css";
+import NewsDayGroup from "../components/NewsDayGroup.astro";
 import SiteNav from "../components/SiteNav.astro";
-import {
-  categoryFilters,
-  categoryLabel,
-  formatBeijingDateTime,
-  getNewsFeed,
-} from "../lib/news.mjs";
+import { categoryFilters, getNewsFeed, groupNewsDays } from "../lib/news.mjs";
 
 const feed = await getNewsFeed();
 const items = feed.items ?? [];
+const days = groupNewsDays(items);
 const filters = categoryFilters(items);
 const aihotHome = "https://aihot.virxact.com/";
 ---
@@ -29,7 +26,7 @@ const aihotHome = "https://aihot.virxact.com/";
           <p class="eyebrow">AI 资讯精选</p>
           <h1>资讯</h1>
           <p class="intro">
-            近 24 小时 AIHOT 精选，标题链到 AIHOT 条目页，摘要与推荐理由照录原文。
+            近 24 小时 AIHOT 精选，按北京时间排成时间线，摘要与推荐理由照录原文。
             数据来源 <a href={aihotHome} target="_blank" rel="noreferrer">AIHOT</a>。
           </p>
         </div>
@@ -38,7 +35,7 @@ const aihotHome = "https://aihot.virxact.com/";
 
       <SiteNav current="news" />
 
-      {items.length === 0 ? (
+      {days.length === 0 ? (
         <main id="news-list">
           <section class="empty-state" aria-labelledby="empty-title">
             <p class="empty-icon">✦</p>
@@ -65,32 +62,8 @@ const aihotHome = "https://aihot.virxact.com/";
               <a href={feed.daily.url} target="_blank" rel="noreferrer">在 AIHOT 阅读 →</a>
             </p>
           )}
-          <main id="news-list" class="news-list" aria-label="AIHOT 精选资讯">
-            {items.map((item) => (
-              <article class="tweet-card news-card" data-news-card data-tags={item.category}>
-                <div class="tweet-body">
-                  <div class="tweet-meta">
-                    {item.category && <span class="category">{categoryLabel(item.category)}</span>}
-                    {item.source && <span>{item.source}</span>}
-                    <time datetime={item.published_at || item.discovered_at}>
-                      {formatBeijingDateTime(item.published_at || item.discovered_at)}
-                    </time>
-                  </div>
-                  <h3 class="tweet-title">
-                    {item.links.aihot ? (
-                      <a href={item.links.aihot} target="_blank" rel="noreferrer">{item.title}</a>
-                    ) : item.title}
-                  </h3>
-                  {item.summary && <p class="tweet-summary">{item.summary}</p>}
-                  {item.reason && <p class="tweet-reason">推荐理由：{item.reason}</p>}
-                  {item.links.original && (
-                    <p class="news-original">
-                      <a class="tweet-link" href={item.links.original} target="_blank" rel="noreferrer">原文 →</a>
-                    </p>
-                  )}
-                </div>
-              </article>
-            ))}
+          <main id="news-list" class="twitter-timeline news-timeline" aria-label="AIHOT 精选资讯">
+            {days.map((day, index) => <NewsDayGroup day={day} defaultOpen={index === 0} />)}
           </main>
         </>
       )}
@@ -104,12 +77,29 @@ const aihotHome = "https://aihot.virxact.com/";
     <script>
       const filterButtons = document.querySelectorAll("[data-tag-filter]");
       const cards = document.querySelectorAll("[data-news-card]");
+      const dayGroups = document.querySelectorAll("[data-day]");
       let activeTag = "";
 
       function refresh() {
         cards.forEach((card) => {
           const tags = (card.getAttribute("data-tags") ?? "").split(",");
           card.hidden = Boolean(activeTag) && !tags.includes(activeTag);
+        });
+        dayGroups.forEach((group) => {
+          group.hidden = !group.querySelector("[data-news-card]:not([hidden])");
+        });
+      }
+
+      const autoOpened = new Set();
+      function syncAutoExpand() {
+        autoOpened.forEach((el) => { el.open = false; });
+        autoOpened.clear();
+        if (!activeTag) return;
+        dayGroups.forEach((el) => {
+          if (el.hidden || el.open) return;
+          if (!el.querySelector("[data-news-card]:not([hidden])")) return;
+          el.open = true;
+          autoOpened.add(el);
         });
       }
 
@@ -122,6 +112,7 @@ const aihotHome = "https://aihot.virxact.com/";
           item.setAttribute("aria-pressed", selected ? "true" : "false");
         });
         refresh();
+        syncAutoExpand();
       }));
     </script>
   </body>
