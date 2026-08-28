@@ -3,12 +3,14 @@ import "../styles/global.css";
 import PromptViewer from "../components/PromptViewer.astro";
 import SiteNav from "../components/SiteNav.astro";
 import { formatPromptEyebrow, getPromptSets, imageCount } from "../lib/prompts";
+import { PROMPT_PAGE_SIZE, pagePromptSlice } from "../lib/prompt-gallery.mjs";
 import { promptTypeFilters, sourceLinkLabel } from "../lib/prompt-type.mjs";
 
 const sets = await getPromptSets();
 const eyebrow = formatPromptEyebrow(sets);
 const totalImages = imageCount(sets);
 const typeFilters = promptTypeFilters(sets);
+const firstPage = pagePromptSlice(sets.length, 1, PROMPT_PAGE_SIZE);
 ---
 
 <html lang="zh-CN">
@@ -50,7 +52,7 @@ const typeFilters = promptTypeFilters(sets);
           </div>
 
           <main id="prompt-masonry" class="prompt-masonry" aria-label="提示词图片墙">
-            {sets.map((set) => (
+            {sets.map((set, index) => (
               <article
                 class="prompt-card"
                 data-prompt-card
@@ -58,6 +60,7 @@ const typeFilters = promptTypeFilters(sets);
                 data-source={set.source}
                 data-tags={set.type}
                 data-image-count={set.images.length}
+                hidden={index >= firstPage.end}
               >
                 <button type="button" class="prompt-image-open" data-open-viewer aria-label="查看同组大图">
                   <img src={set.images[0]} alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
@@ -76,6 +79,11 @@ const typeFilters = promptTypeFilters(sets);
               </article>
             ))}
           </main>
+          <nav class="pager" hidden={firstPage.pages <= 1} aria-label="分页导航">
+            <button class="pager-btn" type="button" data-pager-prev disabled>← 上一页</button>
+            <span class="pager-status" data-pager-status>第 {firstPage.page} / {firstPage.pages} 页</span>
+            <button class="pager-btn" type="button" data-pager-next disabled={firstPage.pages <= 1}>下一页 →</button>
+          </nav>
         </>
       )}
     </div>
@@ -84,40 +92,87 @@ const typeFilters = promptTypeFilters(sets);
     </footer>
     <PromptViewer />
     <script>
+      import {
+        PROMPT_PAGE_SIZE,
+        pagePromptSlice,
+        parsePromptGalleryQuery,
+        serializePromptGalleryQuery,
+      } from "../lib/prompt-gallery.mjs";
+
       const copiedLabel = "已复制";
       const idleLabel = "复制提示词";
       const filterButtons = document.querySelectorAll("[data-tag-filter]");
-      const cards = document.querySelectorAll("[data-prompt-card]");
+      const cards = [...document.querySelectorAll("[data-prompt-card]")];
       const countEl = document.querySelector("[data-record-count]");
-      let activeTag = "";
+      const pager = document.querySelector(".pager");
+      const pagerStatus = document.querySelector("[data-pager-status]");
+      const pagerPrev = document.querySelector("[data-pager-prev]");
+      const pagerNext = document.querySelector("[data-pager-next]");
+      const start = parsePromptGalleryQuery(window.location.search);
+      const knownTags = new Set([...filterButtons].map((item) => item.getAttribute("data-tag-filter") ?? ""));
+      let activeTag = knownTags.has(start.tag) ? start.tag : "";
+      let page = start.page;
 
-      function refresh() {
-        let visibleSets = 0;
-        let visibleImages = 0;
-        cards.forEach((card) => {
-          const tags = (card.getAttribute("data-tags") ?? "").split(",");
-          const hide = Boolean(activeTag) && !tags.includes(activeTag);
-          card.hidden = hide;
-          if (!hide) {
-            visibleSets += 1;
-            visibleImages += Number(card.getAttribute("data-image-count") ?? 0);
-          }
-        });
-        if (countEl) {
-          countEl.textContent = `${visibleSets} 套 · ${visibleImages} 张图`;
-        }
-      }
-
-      filterButtons.forEach((button) => button.addEventListener("click", () => {
-        const nextTag = button.getAttribute("data-tag-filter") ?? "";
-        activeTag = activeTag === nextTag ? "" : nextTag;
+      function syncFilters() {
         filterButtons.forEach((item) => {
           const selected = (item.getAttribute("data-tag-filter") ?? "") === activeTag;
           item.classList.toggle("is-selected", selected);
           item.setAttribute("aria-pressed", selected ? "true" : "false");
         });
+      }
+
+      function writeQuery() {
+        const next = serializePromptGalleryQuery({ tag: activeTag, page });
+        const url = `${window.location.pathname}${next}${window.location.hash}`;
+        window.history.replaceState(null, "", url);
+      }
+
+      function refresh() {
+        const matched = cards.filter((card) => {
+          const tags = (card.getAttribute("data-tags") ?? "").split(",");
+          return !activeTag || tags.includes(activeTag);
+        });
+        const slice = pagePromptSlice(matched.length, page, PROMPT_PAGE_SIZE);
+        page = slice.page;
+        let visibleImages = 0;
+        matched.forEach((card) => {
+          visibleImages += Number(card.getAttribute("data-image-count") ?? 0);
+        });
+        cards.forEach((card) => { card.hidden = true; });
+        matched.slice(slice.start, slice.end).forEach((card) => { card.hidden = false; });
+        if (countEl) {
+          countEl.textContent = `${matched.length} 套 · ${visibleImages} 张图`;
+        }
+        if (pager && pagerStatus && pagerPrev && pagerNext) {
+          pager.hidden = slice.pages <= 1;
+          pagerStatus.textContent = `第 ${slice.page} / ${slice.pages} 页`;
+          pagerPrev.disabled = slice.page <= 1;
+          pagerNext.disabled = slice.page >= slice.pages;
+        }
+        writeQuery();
+      }
+
+      filterButtons.forEach((button) => button.addEventListener("click", () => {
+        const nextTag = button.getAttribute("data-tag-filter") ?? "";
+        activeTag = activeTag === nextTag ? "" : nextTag;
+        page = 1;
+        syncFilters();
         refresh();
       }));
+
+      if (pagerPrev) pagerPrev.addEventListener("click", () => {
+        page = Math.max(1, page - 1);
+        refresh();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+      if (pagerNext) pagerNext.addEventListener("click", () => {
+        page += 1;
+        refresh();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+
+      syncFilters();
+      refresh();
 
       async function writeClipboard(text) {
         if (navigator.clipboard?.writeText) {
