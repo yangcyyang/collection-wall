@@ -1,12 +1,8 @@
-import { readFile } from "node:fs/promises";
-import { resolve } from "node:path";
-
-import { emptyFeed } from "./news.mjs";
-
 export {
   categoryFilters,
   categoryLabel,
   formatBeijingDateTime,
+  getNewsFeed,
 } from "./news.mjs";
 
 export type NewsLinks = {
@@ -42,16 +38,3 @@ export type NewsFeed = {
   error?: string;
 };
 
-const dataFile = resolve(process.cwd(), "../data/news/aihot.json");
-
-export async function getNewsFeed(): Promise<NewsFeed> {
-  try {
-    const raw = JSON.parse(await readFile(dataFile, "utf8")) as NewsFeed;
-    if (!raw || !Array.isArray(raw.items)) {
-      return emptyFeed({ error: "资讯数据格式无效" }) as NewsFeed;
-    }
-    return raw;
-  } catch {
-    return emptyFeed({ error: "尚未采集到 AIHOT 资讯" }) as NewsFeed;
-  }
-}

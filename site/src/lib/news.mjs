@@ -1,3 +1,6 @@
+import { readFile } from "node:fs/promises";
+import { resolve } from "node:path";
+
 export const AIHOT_SOURCE = "aihot";
 export const AIHOT_TITLE = "AIHOT 精选资讯";
 export const AIHOT_HOME = "https://aihot.virxact.com/";
@@ -119,6 +122,21 @@ function mapDailyIndex(raw) {
     title: raw.leadTitle ?? "",
     url: raw.links?.aihot ?? `${AIHOT_HOME}daily/${date}`,
   };
+}
+
+export function parseNewsFeed(raw) {
+  if (!raw || !Array.isArray(raw.items)) {
+    return emptyFeed({ error: "资讯数据格式无效" });
+  }
+  return raw;
+}
+
+export async function getNewsFeed(file = resolve(process.cwd(), "../data/news/aihot.json")) {
+  try {
+    return parseNewsFeed(JSON.parse(await readFile(file, "utf8")));
+  } catch {
+    return emptyFeed({ error: "尚未采集到 AIHOT 资讯" });
+  }
 }
 
 export async function collectAihot({ fetchFn = globalThis.fetch, now = new Date() } = {}) {

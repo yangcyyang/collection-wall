@@ -9,6 +9,7 @@ import {
   emptyFeed,
   formatBeijingDateTime,
   mapApiItem,
+  parseNewsFeed,
 } from "../src/lib/news.mjs";
 
 const SAMPLE_API_ITEM = {
@@ -154,6 +155,13 @@ test("collectAihot 映射精选条目并附带最新日报索引", async () => {
     url: "https://aihot.virxact.com/daily/2026-08-28",
   });
   assert.equal(feed.updated_at, "2026-08-28T18:33:00.000Z");
+});
+
+test("parseNewsFeed 遇到无效 JSON 结构时回落空态", () => {
+  const feed = parseNewsFeed({ title: "不是列表" });
+  assert.equal(feed.count, 0);
+  assert.deepEqual(feed.items, []);
+  assert.match(feed.error, /格式无效/);
 });
 
 test("collectAihot 在 items API 失败时返回空态而不是假头条", async () => {

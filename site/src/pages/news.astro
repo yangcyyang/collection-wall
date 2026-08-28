@@ -6,7 +6,7 @@ import {
   categoryLabel,
   formatBeijingDateTime,
   getNewsFeed,
-} from "../lib/news";
+} from "../lib/news.mjs";
 
 const feed = await getNewsFeed();
 const items = feed.items ?? [];
