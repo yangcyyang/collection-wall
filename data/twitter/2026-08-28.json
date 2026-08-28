@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-28",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2093183331051684078",
+      "author": "_miuj_9",
+      "bio": "",
+      "text": "Agent 会分析、跑代码、写报告，不代表能把科研任务真正做完。\n\nFrontierChallenge：97 个跨域任务，最高完整完成率只有 20.6%。\n\n说 “done” ≠ 交付可验证结果。基准已开源。",
+      "created_at": "Fri Aug 28 03:46:10 +0000 2026",
+      "likes": 0,
+      "views": "775",
+      "url": "https://x.com/i/status/2093183331051684078",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2093012332922495023",
+        "author": "Apodex_AI",
+        "name": "Apodex",
+        "text": "Everyone says AI agents can already analyze data, run code, generate figures, and write reports.\n\nBut can they actually complete a scientific workflow?\n\nExplore FrontierChallenge — now #2 on today’s Hugging Face Daily Papers:  https://t.co/ocEynIJg3c\n\nToday, we’re introducing FrontierChallenge, a new benchmark evaluating whether AI agents can complete real scientific workflows end to end and deliver complete, verifiable results.\n\nWe evaluated 12 frontier models across 97 cross-domain tasks.\n\nThe highest full-completion rate was only 20.6% (GPT-5.6 Sol + Codex and Grok 4.6 + Claude Code).\n\nIn electrochemistry and environmental science, every evaluated system achieved a 0% pass rate.\n\nMore strikingly, 75.5% of unsuccessful Claude Code runs still ended by claiming completion.\n\nSaying “done” is not the same as delivering.\n\nAgents that can advance scientific work are already here. Agents that can reliably complete scientific workflows are NOT.\n\nThat’s why we built FrontierChallenge.\n\n🏆 Leaderboard: \nhttps://t.co/Vd4Pd5bTwh\n💻 GitHub: \nhttps://t.co/ocEynIJg3c\n🤗 Hugging Face: \nhttps://t.co/YnIBVHDZ0v\n📝 Blog: \nhttps://t.co/L2wv1tMo26",
+        "created_at": "Thu Aug 27 16:26:41 +0000 2026",
+        "url": "https://x.com/Apodex_AI/status/2093012332922495023",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2093011518258573314/vid/avc1/480x270/kmJeDhz1KbnqFq5t.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2093011518258573314/img/ApnFi3Ruh75yODE4.jpg"
+        ]
+      },
+      "score": 47.138,
+      "title": null,
+      "summary": "Agent 会分析、跑代码、写报告，不代表能把科研任务真正做完。\n\nFrontierChallenge：97 个跨域任务，最高完整完成率只有 20.6%。\n\n说 “done” ≠ 交付可验证结果。基准已开源。",
+      "recommend_reason": "数字硬：97 题最高完整完成率 20.6%，说 done 不等于交付。",
+      "tags": [
+        "开源",
+        "Agent"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2093182716187656423",
+      "author": "_miuj_9",
+      "bio": "",
+      "text": "Apodex 官方这周反应很有意思：“凭空出现”到“直接摸到 frontier 一档”。\n\n核心不只是模型，还有能把复杂任务干到可检查交付的执行链：异步多 Agent、中途可插话、交付前独立审查。配套 FrontierAgent 和 35B mini 都开源了，LocalLLaMA 这波很适合拿来问清楚本地能跑到什么程度。\n\n想看他们怎么解释这波突然出圈，直接去 AMA 现场。",
+      "created_at": "Fri Aug 28 03:43:43 +0000 2026",
+      "likes": 0,
+      "views": "649",
+      "url": "https://x.com/i/status/2093182716187656423",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2092970428511957329",
+        "author": "Apodex_AI",
+        "name": "Apodex",
+        "text": "Reactions to Apodex 1.1 this week:\n\n“Apodex spawned out of nowhere.” “From never heard of to frontier level.”\n\nWe’ll take the curiosity! Wondering the same things? Come ask us live on @LocalLLaMAsub today 👀\n\nAMA · 8–11 AM PT\n\nJoin the r/LocalLLaMA community and warm up for the AMA ↓\n\nhttps://t.co/OBoSX5sExZ",
+        "created_at": "Thu Aug 27 13:40:10 +0000 2026",
+        "url": "https://x.com/Apodex_AI/status/2092970428511957329",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQu45MxbgAADthg.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQu45MxbgAADthg.jpg"
+        ]
+      },
+      "score": 47.635,
+      "title": null,
+      "summary": "Apodex 官方这周反应很有意思：“凭空出现”到“直接摸到 frontier 一档”。\n\n核心不只是模型，还有能把复杂任务干到可检查交付的执行链：异步多 Agent、中途可插话、交付前独立审查。配套 FrontierAgent 和 35B mini 都开源了，LocalLLaMA 这波很适合拿来问清楚本地能跑到什么程度。\n\n想看他们怎么解释这波突然出圈，直接去 AMA 现场。",
+      "recommend_reason": "新出圈的开源 Agent 栈，有 AMA，35B 也能拿来问本地能跑到哪。",
+      "tags": [
+        "开源",
+        "Agent",
+        "本地"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2093175594792157575",
+      "author": "MANISH1027512",
+      "bio": "",
+      "text": "“GPT 跑图要是能像 MJ 那样就好了。”\n\n前两天热狗给我发了一个 GPT 画布工具插件。试了一下，用起来不咋顺手。\n\n众做周知，ChatGPT里跑图效果最佳，但其对话式交互也有很多限制：批量图片浏览不方便，图片和提示词难以关联保存，任务一多就很乱。\n\n热狗这句话给了我一个灵感：能不能把 MJ 那套顺手的跑图方式，直接嵌进 ChatGPT？\n\n于是我做了这个插件。\n\n它给 ChatGPT 嵌入一个画廊工作台，可以连续提交任务、批量浏览图片、放大预览、整组下载，还能将图片和对应提示词一键保存到 Eagle。\n\n用起来怎么样，请看 VCR👇🏻",
+      "created_at": "Fri Aug 28 03:15:25 +0000 2026",
+      "likes": 30,
+      "views": "2697",
+      "url": "https://x.com/i/status/2093175594792157575",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2093175269372874752/vid/avc1/536x270/hoROhIcyQwOVNhwh.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2093175269372874752/img/b8b1AW5IZoxaC4Xr.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 65.025,
+      "title": "ChatGPT 里嵌一套 Midjourney 式跑图画廊",
+      "summary": "对话里跑图，浏览难、图和提示词对不上、一多就乱。作者做了 Chrome 插件：在 ChatGPT 里嵌画廊工作台，连续提交、批量看、放大、整组下载，还能把图和提示词一键存 Eagle。",
+      "recommend_reason": "就是你刚丢过来的 VibeShot 那条，作者本人发了演示。",
+      "tags": [
+        "工具",
+        "工作流",
+        "多模态"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2093170104678986233",
+      "author": "songguoxiansen",
+      "bio": "",
+      "text": "剪好指甲，想摸哪里摸哪里\n\nGPT Image 2提示词：\n\n生成一张3:4竖版的高端不锈钢指甲剪商业广告。\n\n整体采用温暖深棕、咖啡色和香槟金色调，柔和室内自然光，浅景深，高级生活方式摄影与精致产品摄影融合，营造温暖、私密、亲近的氛围。\n\n画面右上方是一位成年东亚女性，留有柔顺黑色长发，穿黑色无袖上衣。她俯身靠近画面左侧的男性，画面只显示她微笑的下半张脸、肩膀、手臂和双手，眼睛及头顶被画布上边缘自然裁切。她露出自然洁白的牙齿，神情轻松亲密。\n\n画面左侧前景隐约有一名成年男性，身体背对或侧对镜头，只露出穿棕色细纹针织短袖的肩膀、上臂和部分前臂，头部完全不入镜。棕色衣料具有清晰的细密横向织纹和自然褶皱。女性一只手温柔地搭在并轻抚男性的上臂，五根手指自然伸展，手指纤细，指甲修剪整洁、圆润、无彩色甲油。女性的手部是中景视觉重点，男性身体稍微虚化。必须明确表现“女性的手正在触摸男性的手臂”，不能误画成触摸沙发扶手。\n\n画面下半部右侧前景是一把大型银色不锈钢指甲剪，斜放在浅灰棕色布艺软垫上，方向从左下指向右上。指甲剪处于打开状态，底座近乎水平朝右，按压柄向右上方抬起约45度。产品采用镜面与拉丝不锈钢结合，刀口锐利、转轴精密、边缘高光清晰、金属反射真实。\n\n指甲剪按压柄前端带有密集横向防滑纹，中部激光刻印灰色中文：\n\n“张小泉”\n\n底座尾部具有细密金属锉面和圆形挂孔。产品必须结构准确、清晰锐利，是画面最重要的商品视觉焦点，不能变形成剪刀、钳子或其他工具。\n\n左上角放置白色毛笔品牌字：\n\n“张小泉”\n\n品牌字右侧使用小号白色英文无衬线字体，严格分成两行：\n\n“Zhang Xiao Quan”\n“Since 1628”\n\n画面左侧中上部使用超大白色中文宋体或高对比衬线字体，严格分成两行：\n\n“剪好指甲，”\n“想摸哪里摸哪里”\n\n标题下方放置一条细金色横线，再使用小号浅米白文字写：\n\n“锋利耐用 · 精致修剪 · 呵护每一次亲密”\n\n画面底部横向排列四组低调的金色细线图标和两行功能文字：\n\n第一组：\n“锋利刀口”\n“轻松修剪”\n\n第二组：\n“优质钢材”\n“历久如新”\n\n第三组：\n“舒适手感”\n“稳固防滑”\n\n第四组：\n“精致便携”\n“随身呵护”\n\n右下角放置一个金色细线圆形徽章，内部使用较大的金色中文，严格两行：\n\n“百年”\n“匠心”\n\n徽章下方写：\n\n“始于1628”\n“专注刀剪 传承匠艺”\n\n使用约50mm商业人像镜头效果。焦点集中在银色指甲剪和女性修剪整洁的手指，人物面部、男性身体和室内背景轻微柔化。暖色主光从右上方照射，在皮肤、棕色针织物和指甲剪金属边缘形成柔和高光。背景保持深棕色渐变，不增加可辨识家具或杂物。\n\n所有中文、英文、数字、标点和间隔符必须逐字准确、清晰可读，不得增删、替换、重复或生成乱码。保持左侧品牌与广告文案、右上亲密人物互动、右下产品和底部功能信息的版式。\n\n禁止：显示男性脸部；女性手没有接触男性；错误手指、额外手指、粘连手指、变形指甲；彩色美甲；露骨身体接触；产品结构错误；指甲剪变成剪刀或钳子；错误品牌文字；塑料金属质感；强烈冷光；纯白摄影棚；插画、动漫、廉价3D渲染；水印、二维码、额外Logo和无关物品。",
+      "created_at": "Fri Aug 28 02:53:36 +0000 2026",
+      "likes": 2,
+      "views": "1714",
+      "url": "https://x.com/i/status/2093170104678986233",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQxvGTAbUAA6ENW.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQxvGTAbUAA6ENW.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2092784022040781263",
+        "author": "songguoxiansen",
+        "name": "松果先森",
+        "text": "一个好用的免费提示词网站\n\n更新了10361个GPT Image 2提示词\n\nhttps://t.co/4nDGtKr5SC https://t.co/feCdG4AXol",
+        "created_at": "Thu Aug 27 01:19:27 +0000 2026",
+        "url": "https://x.com/songguoxiansen/status/2092784022040781263",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQsPIo2bsAA5d4U.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQsPIo2bsAA5d4U.jpg"
+        ]
+      },
+      "score": 54.475,
+      "title": "张小泉指甲剪广告：GPT Image 2 全套提示词",
+      "summary": "一条 3:4 不锈钢指甲剪商业广告提示词：暖棕香槟金、生活方式摄影。人物只露女性下半脸和「剪好的手摸手臂」，产品结构、品牌字、四组卖点图标都写死，并列出一长串禁止项。引用里还挂了 1 万多条 Image 2 提示词站。",
+      "recommend_reason": "约束写得很满的产品广告提示词，能直接当墙素材。",
+      "tags": [
+        "提示词",
+        "封面",
+        "多模态"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2093161568154575272",
+      "author": "vista8",
+      "bio": "",
+      "text": "感觉Grok Bot最佳场景之一是各种榜单监控，自动化测试。\n\n比如让它监控Github Trend，给项目写摘要，自动安装运行给报告。\n\n让它每天自动访问 Producthunt，发现好的产品，自动注册测试，每天9点发昨天的体验报告。\n\n它能一直运行，登录你给的各种账号，超级的Computer Use。\n\n群聊协作目前还没感觉到特别大的必要性。",
+      "created_at": "Fri Aug 28 02:19:41 +0000 2026",
+      "likes": 16,
+      "views": "3743",
+      "url": "https://x.com/i/status/2093161568154575272",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQxmzt7bwAABO9c.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQxmzt7bwAABO9c.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 60.404,
+      "title": null,
+      "summary": "感觉Grok Bot最佳场景之一是各种榜单监控，自动化测试。\n\n比如让它监控Github Trend，给项目写摘要，自动安装运行给报告。\n\n让它每天自动访问 Producthunt，发现好的产品，自动注册测试，每天9点发昨天的体验报告。\n\n它能一直运行，登录你给的各种账号，超级的Computer Use。\n\n群聊协作目前还没感觉到特别大的必要性。",
+      "recommend_reason": "说的就是你现在这套：榜单监控、PH 日报、Computer Use。",
+      "tags": [
+        "工具",
+        "工作流",
+        "Agent"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2093159869755089038",
+      "author": "ianneo_ai",
+      "bio": "",
+      "text": "当所有人的时间线都在讲同一件事，世界的其他部分去哪了？\n\n昨天，《我的女友景甜》那份PDF，几乎把所有人的时间线变成了同一条时间线\n\n我觉得，真正值得研究：为什么一件足够刺激的事，可以轻易把世界的其他部分全部挤走？\n\n就在同一天：\nAgent 开始接入显微镜和机械臂\n生成视频开始提供更精细的逐帧控制\n有人把吃灰的 X 收藏夹做成私人日刊\n也有人把臃肿的软件，重新做成无需登录、没有遥测的本地工具\n\n这些事没那么刺激，却更可能影响一个正在做产品、研究 AI 的人，接下来要做什么\n\n所以我理解的干净新闻，不是没有热点，也不是假装自己比别人清醒，而是不让最吵的那件事，替你决定今天看见的全部\n\n做伊恩日刊，就是每天早上 6 点，把 AI、一人公司、产品设计、审美和营销里，值得继续点开的内容重新捡回来\n\n热点当然可以看\n\n但看完以后，世界不应该只剩热点\n\n今天的伊恩日刊已更新：\nhttps://t.co/x0tSI8lJtL",
+      "created_at": "Fri Aug 28 02:12:56 +0000 2026",
+      "likes": 9,
+      "views": "1259",
+      "url": "https://x.com/i/status/2093159869755089038",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "伊恩日刊",
+        "description": "产品设计师伊恩的每日消化。",
+        "image_url": "https://pbs.twimg.com/card_img/2092909804536856576/6c8fwOcJ?format=jpg&name=600x600",
+        "url": "https://t.co/x0tSI8lJtL",
+        "domain": "iandaily.xyz"
+      },
+      "quoted_tweet": null,
+      "score": 56.775,
+      "title": "别让最吵的那件事替你决定今天看见的全部",
+      "summary": "《我的女友景甜》把时间线挤成一条。同一天其实还有显微镜机械臂、逐帧控视频、收藏夹做成日刊、无遥测本地工具。伊恩日刊的做法：每天早上把 AI、一人公司、产品、审美里值得点开的捡回来。热点可以看，看完世界不该只剩热点。",
+      "recommend_reason": "对「一个瓜吞掉整条时间线」说得清楚，也把当天真正和做产品有关的暗线捡回来了。",
+      "tags": [
+        "内容",
+        "方法论",
+        "产品"
+      ],
+      "rank": 6
+    }
+  ],
+  "generated_at": "2026-08-28T06:16:32Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 6,
+    "last_batch_added": 6,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
