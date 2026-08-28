@@ -3,6 +3,7 @@ import { resolve } from "node:path";
 
 import { inferPromptType } from "./prompt-type.mjs";
 
+export { formatPromptEyebrow } from "./prompt-gallery.mjs";
 export { inferPromptType, promptTypeFilters, sourceLinkLabel } from "./prompt-type.mjs";
 
 export type PromptImage = {
@@ -29,7 +30,7 @@ export type PromptSource = {
   items: PromptItem[];
 };
 
-export type PromptType = "海报" | "插画" | "人像" | "静物" | "风景" | "字体" | "品牌" | "其他";
+export type PromptType = "海报" | "插画" | "人像" | "静物" | "风景" | "字体" | "品牌" | "信息图" | "UI" | "产品" | "场景" | "其他";
 
 export type PromptSet = {
   id: string;
@@ -43,17 +44,6 @@ export type PromptSet = {
 };
 
 const promptsDirectory = resolve(process.cwd(), "../data/prompts");
-
-function handleAt(author: string) {
-  const name = author.trim().replace(/^@/, "");
-  return name ? `@${name}` : "";
-}
-
-export function formatPromptEyebrow(sets: Pick<PromptSet, "author">[]) {
-  const authors = [...new Set(sets.map((set) => handleAt(set.author)).filter(Boolean))];
-  const lead = authors.join(" · ") || "生图提示词";
-  return authors.length ? `${lead} · 生图提示词` : lead;
-}
 
 export function imageCount(sets: PromptSet[]) {
   return sets.reduce((sum, set) => sum + set.images.length, 0);
