@@ -8,6 +8,7 @@
   },
   "scripts": {
     "import:tools": "node scripts/import-tool-sources.mjs",
+    "collect:news": "node scripts/aihot-collect.mjs",
     "prebuild": "node scripts/sync-site-covers.mjs",
     "build": "pnpm --dir site build",
     "dev": "pnpm --dir site dev",

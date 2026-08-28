@@ -1,0 +1,167 @@
+{
+  "source": "aihot",
+  "title": "AIHOT 精选资讯",
+  "updated_at": "2026-08-28T18:37:40.000Z",
+  "count": 11,
+  "items": [
+    {
+      "id": "cmtd83hb4018fro667i1tbc34",
+      "title": "Anthropic 让 Claude 自主训练模型以缓解对齐失败",
+      "category": "paper",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "published_at": "2026-08-28T17:25:56.912Z",
+      "discovered_at": "2026-08-28T17:25:56.912Z",
+      "summary": "Anthropic 让 Claude 自主训练模型，缓解欺骗、谄媚等 10 类对齐失败，均显著缩小与完美表现的安全差距且不损害通用能力，方法在比优化对象大 4.7 倍的模型上依然有效。Claude 还超越 28 名人类安全研究员，其欺骗场景最佳方法比人类最佳方案好 20%。",
+      "reason": "自动化对齐研究把安全训练从一次性微调变成可迭代搜索，Claude Sonnet 5 用约两千条训练样本在 60 小时内接近生产对齐水平，数据效率比现有生产流程高约一万五千倍。",
+      "links": {
+        "aihot": "https://aihot.virxact.com/items/cmtd83hb4018fro667i1tbc34",
+        "original": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures"
+      }
+    },
+    {
+      "id": "cmtd32q060c3vroq546ccqp7r",
+      "title": "GLM-5.3 开源权重，智能体编码与网防最强",
+      "category": "ai-models",
+      "source": "X：智谱 Z.ai (@Zai_org)",
+      "published_at": "2026-08-28T15:04:44.000Z",
+      "discovered_at": "2026-08-28T15:05:19.390Z",
+      "summary": "GLM-5.3 现已开放权重。\n\n我们最强大的智能体编码与网络防御模型，现已可供下载、运行和定制。\n\n权重：https://huggingface.co/zai-org/GLM-5.3 技术博客：https://z.ai/blog/glm-5.3",
+      "reason": "开放权重让需要私有化部署的编码智能体与安全防御场景可以直接下载、运行和定制模型，不再受闭源 API 限制。",
+      "links": {
+        "aihot": "https://aihot.virxact.com/items/cmtd32q060c3vroq546ccqp7r",
+        "original": "https://x.com/Zai_org/status/2093354097122455713"
+      }
+    },
+    {
+      "id": "cmtd00dbh09tkroq5v7kcw183",
+      "title": "Gemini 3.5 Transcribe 完整指南：告别 ASR 转录难题",
+      "category": "tip",
+      "source": "Google AI：DEV 作者专属（RSS）",
+      "published_at": "2026-08-28T13:34:29.000Z",
+      "discovered_at": "2026-08-28T13:39:33.349Z",
+      "summary": "Google 推出专用于语音转文字的 Gemini 3.5 Transcribe 模型，主打快速、准确且低成本的转录，原生支持说话人分离和词级毫秒时间戳。该模型支持 85+ 种语言自动识别与代码切换，可通过 custom_vocabulary 传入最多 1，000 个领域术语避免专有名词拼写错误，并提供 Smart Transcription 与 Verbatim 两种模式。",
+      "reason": "逐字模式保留毫秒级时间戳和说话人分离，智能模式清理填充词但可能改写原文，两者取舍决定字幕同步和会议记录应选不同配置。",
+      "links": {
+        "aihot": "https://aihot.virxact.com/items/cmtd00dbh09tkroq5v7kcw183",
+        "original": "https://dev.to/googleai/stop-wrestling-with-asr-the-complete-guide-to-gemini-35-transcribe-1m6i"
+      }
+    },
+    {
+      "id": "cmtcxdp3f07l3roq5uk6om1aw",
+      "title": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
+      "category": "paper",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-08-28T12:04:47.737Z",
+      "discovered_at": "2026-08-28T12:25:55.371Z",
+      "summary": "斯坦福大学研究人员领衔发布 Terminal-Bench-Science 0.1，用来自生命、物理、地球、数学和工程科学的 70 个专家精选任务评估 AI 智能体的科研能力。",
+      "reason": "70 个专家任务里最强模型仅解决 30%，成本与 token 前沿还显示不同系统取舍，为选择科学智能体提供了比软件基准更接近真实研究的依据。",
+      "links": {
+        "aihot": "https://aihot.virxact.com/items/cmtcxdp3f07l3roq5uk6om1aw",
+        "original": "https://www.terminal-bench-science.ai/announcement"
+      }
+    },
+    {
+      "id": "cmtcpvj9e04cpro645lmugnew",
+      "title": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
+      "category": "tip",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-08-28T08:36:31.021Z",
+      "discovered_at": "2026-08-28T08:55:50.601Z",
+      "summary": "一套可运行的 Colab 笔记本，面向 AI 工程师与 FDE 技能栈，用原始 API 而非框架构建基于基础模型的系统，覆盖提示词、RAG、评估、智能体、微调与服务化。全部在免费 Groq API 上运行，无需信用卡；LoRA 微调和自托管服务提供概念讲解及可选的 Colab-GPU 附录。包含三个端到端案例研究，且全程兼容 OpenAI API，模式可直接迁移。",
+      "reason": "裸 API 写一遍 agent 循环和 RAG，比直接套 LangChain 更能理解框架在封装什么，对于 AI 工程师面试中讲清系统设计和取舍有直接帮助。",
+      "links": {
+        "aihot": "https://aihot.virxact.com/items/cmtcpvj9e04cpro645lmugnew",
+        "original": "https://github.com/calmrocks/ai-engineer-notebooks"
+      }
+    },
+    {
+      "id": "cmtcjzlxy03f8rodbxqdotbhg",
+      "title": "腾讯混元发布 Hy4 preview：770B 总参数、1M 上下文，开源上线",
+      "category": "ai-models",
+      "source": "公众号：腾讯混元",
+      "published_at": "2026-08-28T06:03:48.000Z",
+      "discovered_at": "2026-08-28T06:11:04.903Z",
+      "summary": "腾讯混元发布新一代旗舰模型 Hy4 preview，总参数 770B、激活参数 49B、上下文长度 1M，现已开源并在腾讯云 TokenHub 和 OpenRouter 上线。",
+      "reason": "官方盲测中它与 GLM-5.3、Kimi K3 的分差不足 0.1，选型时 1M 上下文和开源部署成本可能比榜单排名更实际。",
+      "links": {
+        "aihot": "https://aihot.virxact.com/items/cmtcjzlxy03f8rodbxqdotbhg",
+        "original": "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498484&idx=1&sn=0db140a12b8e18601ac933788045c831"
+      }
+    },
+    {
+      "id": "cmtc7nham01clrodmgnklmfp8",
+      "title": "Claude Console 新增个人密钥与服务账号密钥",
+      "category": "ai-products",
+      "source": "Claude Platform：开发者版本说明（RSS）",
+      "published_at": "2026-08-27T00:00:00.000Z",
+      "discovered_at": "2026-08-28T00:25:42.932Z",
+      "summary": "Claude Console 现已支持创建个人密钥和服务账号密钥，它们以关联账户身份运行并继承相同权限，账户从组织移除后密钥即失效。组织管理员可借此更轻松追踪各账户用量并确保密钥使用合规。这些 API 密钥可限定到特定工作区，也可用于管理端点及账户可访问的任何工作区，工作区 API 密钥仍作为旧版选项保留支持。",
+      "reason": "个人密钥与服务账号密钥把权限和生命周期绑定到具体账号，组织管理员能按账号追踪用量并做工作区级隔离，比旧工作区密钥的粗粒度授权更易管理。",
+      "links": {
+        "aihot": "https://aihot.virxact.com/items/cmtc7nham01clrodmgnklmfp8",
+        "original": "https://platform.claude.com/docs/en/release-notes/overview#august-27-2026"
+      }
+    },
+    {
+      "id": "cmtc61ej101lqrojqto587wu9",
+      "title": "Midjourney 开放 V8.2 图像编辑模型测试",
+      "category": "ai-models",
+      "source": "Midjourney：Updates（RSS）",
+      "published_at": "2026-08-27T23:32:15.000Z",
+      "discovered_at": "2026-08-27T23:40:33.688Z",
+      "summary": "Midjourney 开始向所有用户开放其首个 V8.2 图像编辑模型的测试。该模型支持指令编辑、以图生图（最多同时引用 4 张参考图）、局部重绘与扩画，并兼容个性化、moodboards 和 srefs 功能。用户可通过网页端或 Discord 的 `--edit` 命令使用，官方同步更新了 midjourney.com 与 alpha.midjourney.com 的界面。",
+      "reason": "这一版把图像引用数量从单参考提升到最多四张，做多素材融合时不必先拼接成单图再喂给模型，能减少中间步骤。",
+      "links": {
+        "aihot": "https://aihot.virxact.com/items/cmtc61ej101lqrojqto587wu9",
+        "original": "https://updates.midjourney.com/edit-model-for-v8"
+      }
+    },
+    {
+      "id": "cmtc5i81401mlroosz6bsplf6",
+      "title": "Gemini 3.5 Transcribe 发布：更精准的实时语音转写模型",
+      "category": "tip",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-08-27T23:01:35.558Z",
+      "discovered_at": "2026-08-27T23:25:39.024Z",
+      "summary": "Google 推出 Gemini 3.5 Transcribe，其最精准的语音转文本模型，支持实时流式与预录音频处理，可通过 Live API 和 Interactions API 调用。",
+      "reason": "从 Chirp 3 到 3.5 Transcribe，流式 WER 降至 4% 且延迟改善 70%，让实时语音代理和字幕应用更接近可用的生产环境。",
+      "links": {
+        "aihot": "https://aihot.virxact.com/items/cmtc5i81401mlroosz6bsplf6",
+        "original": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe"
+      }
+    },
+    {
+      "id": "cmtc4fn8n01mwrozaq4bot3b4",
+      "title": "英伟达预计 2028 财年销售额达 6730 亿美元",
+      "category": "industry",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-08-27T22:29:33.124Z",
+      "discovered_at": "2026-08-27T22:55:38.985Z",
+      "summary": "英伟达预计 2028 财年营收增长 70%，年销售额约达 6730 亿美元，将超过苹果和 Alphabet，仅次于亚马逊。CFO Colette Kress 于 8 月 26 日给出该预测，远高于分析师平均预期的 44%。供应而非需求成为近期上限，黄仁勋称内存等部件短缺限制了更高预期，客户群正从超大规模厂商扩展至 ACIE。",
+      "reason": "英伟达的预测重点在于客户结构从超大规模云厂商扩展到区域 AI 公司和初创企业，同时其融资支持客户的方式形成循环资金依赖，这比单纯销售额数字更能反映其长期增长模式。",
+      "links": {
+        "aihot": "https://aihot.virxact.com/items/cmtc4fn8n01mwrozaq4bot3b4",
+        "original": "https://forgeeks.net/nvidia-673-billion-ai-growth-forecast"
+      }
+    },
+    {
+      "id": "cmtc05bnj015srome8fm42xy8",
+      "title": "诉讼指控 xAI 使用儿童性虐待材料训练 Grok 模型",
+      "category": "industry",
+      "source": "Ars Technica：AI（RSS）",
+      "published_at": "2026-08-27T20:52:31.000Z",
+      "discovered_at": "2026-08-27T20:55:38.426Z",
+      "summary": "一项新诉讼指控 xAI 使用儿童性虐待材料（CSAM）训练 Grok 模型，这是首个此类指控。原告 Jane Doe 称其幼年遭虐待所生成的 CSAM 图像及 AI 生成的衍生图像被用于训练 Grok，且 Grok 默认将公开的 X 帖子和自身输出作为训练数据。诉讼要求 xAI 销毁所有 Grok 生成的 CSAM 并阻止模型再生成此类内容。",
+      "reason": "这起诉讼的关键不是单一侵权，而是起诉方把用户公开帖子和模型输出默认进入训练管道视为系统性风险，若成立可能推动平台将 CSAM 过滤从内容审核前移到训练数据治理。",
+      "links": {
+        "aihot": "https://aihot.virxact.com/items/cmtc05bnj015srome8fm42xy8",
+        "original": "https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says"
+      }
+    }
+  ],
+  "daily": {
+    "date": "2026-08-28",
+    "title": "Gemini Omni 1.1 Flash 发布，为开发者提供更强生成式视频控制",
+    "url": "https://aihot.virxact.com/daily/2026-08-28"
+  }
+}
