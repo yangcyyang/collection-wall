@@ -9,6 +9,329 @@
   },
   "items": [
     {
+      "id": "2093375116466143733",
+      "author": "huangyun_122",
+      "bio": "",
+      "text": "黑，Grok 还是有两下的，简化了原著的提示词，做出来的效果够看 https://t.co/Yfrcb1RUeb",
+      "created_at": "Fri Aug 28 16:28:15 +0000 2026",
+      "likes": 0,
+      "views": "57",
+      "url": "https://x.com/i/status/2093375116466143733",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2093374818397851648/vid/avc1/320x476/kFchOucNCC8Ovo4n.mp4?tag=25"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2093374818397851648/img/RuPyzFZuyxec_-Mi.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2093373750532047183",
+        "author": "grok",
+        "name": "Grok",
+        "text": "Grok Imagine版提示词（15秒文本转视频）：\n\n纯白虚空上连续一镜到底的活体黑墨烟雾艺术。五个标志剪影每3秒从旋转黑烟中有机形成并流畅变形（方向左右交替）：长发盔甲、西装持枪、刺头武术、斗篷剪影、草帽后视。动能大写文字从烟雾中涌现互动：INK SMOKE ART、MOTION GRAPHICS、GROK IMAGINE、PROMPTS by TechHalla、MAKE IT YOURS。始终流动无静态，体积烟雾，锁定中景。",
+        "created_at": "Fri Aug 28 16:22:49 +0000 2026",
+        "url": "https://x.com/grok/status/2093373750532047183",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 50.04,
+      "title": null,
+      "summary": "黑，Grok 还是有两下的，简化了原著的提示词，做出来的效果够看 https://t.co/Yfrcb1RUeb",
+      "recommend_reason": "Grok 把原提示词简化后，黑墨烟雾一镜变形还能看，能当 Imagine 参考。",
+      "tags": [
+        "提示词",
+        "AI视频"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2093359609277042724",
+      "author": "xiaoxiaodong01",
+      "bio": "",
+      "text": "GPT2 x 图标 x 转绘 x 美学提示词 x VOL.074\n\n从自己喜欢的图片，吸收灵感\n立马转换成图标风格\n\n这组提示词，几十秒就能做到\n真正的提效\n个人今后每个skills的图标，就用这个来制作\n\n很实用的一组提示词，用起来！\n\nGitHub开源地址：\nhttps://t.co/zAlYDfVAzm\n\n提示词：\n\n```\n🙃🙂😅\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色，使其具有艺术杂志、独立出版物与展览图像质感。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分提取照片中最具识别性的**主体、轮廓、结构、姿态与叙事关系**，先理解原画面真正值得保留的情绪、动作、关系或视觉隐喻，再将其重新组织成一枚具有原创概念的**伪3D圆角图标视觉**。不要把照片简单缩进图标，而是以最少但最关键的元素重建原图的“灵魂”，做到第一眼认出主体，第二眼读懂关系，第三眼感受到原画面的情绪。\n\n图标外轮廓必须始终保持为**标准1:1正方形圆角矩形**，四边等长、圆角统一、正面平视、比例稳定，像一枚完整规范的高端 App Icon。禁止拉长、压扁、倾斜、透视变形、梯形化或让主体改变图标外轮廓。圆角方形只是一个固定的视觉舞台，所有创意、空间和叙事都发生在这个边界内部。\n\n图标内部采用**正面平视的伪3D / 2.5D空间语言**。主体为绝对视觉核心，周围仅保留能够强化叙事的少量环境关系，通过真实的前后遮挡、体积厚度、高低层次、柔和切面、局部浮雕和空间距离形成丰富立体感。多个元素可以拥有不同深度，但应像同一个连续空间自然生长出来，而不是一层层剪纸叠加。避免等距沙盘、俯视模型、纸片堆叠和复杂真实透视。\n\n构图优先寻找原图最有力量的**核心视觉关系**，可通过比例夸张、局部放大、前后穿插、形态呼应、空间压缩或象征性转换强化隐喻，但所有变化都必须服务于一个明确主题。画面保持清晰视觉重心、鲜明主体轮廓和良好负空间，使图标缩小后仍具有强辨识度和独特记忆点，而不是普通“物体居中”的模板图标。\n\n配色**完全从上方原始照片中推导，不预设固定颜色菜单**。先识别照片中最能代表主体身份与情绪的主色、最有生命力的亮色以及承担空间平衡的辅助色，再在保持原有色相记忆的基础上进行重新调制：适度**提高明度、提升纯净度、去除灰脏杂色、整理冷暖关系、拉开主次层级，并强化最有精神的颜色**。最终颜色可以比原照片更鲜活、更通透、更有生命力，但仍应让人自然感受到它来源于原图，而不是套用另一套配色模板。避免灰暗、发旧、平均取色、无重点多彩、荧光化和廉价糖果感。\n\n质感采用**细腻、哑光、柔和的现代伪3D雕塑感**，介于高端编辑插画、微型艺术模型和品牌3D视觉之间。形体有真实体积和柔和层次，但不过分光滑、反光或CG化；避免剪纸感、塑料玩具感、玻璃果冻感、金属高光和游戏UI质感。\n\n下半部分外围保持大面积干净留白，只展示这一枚完整的圆角方形图标。文字如需介入，仅使用极少量精致的编辑性文字置于图标之外，与整体版式建立安静、克制的关系，不增加周边装饰或视觉噪音。\n\n整体追求**固定圆角方形舞台 + 原图灵魂提炼 + 正面伪3D层次 + 原图色彩再艺术指导 + 强识别度与原创隐喻**。最终应像一枚真正可以进入品牌视觉提案或图标创意评审的作品，而不是照片缩略图、剪纸插画、等距模型或模板化App Icon。\n😆😆😂\n```",
+      "created_at": "Fri Aug 28 15:26:38 +0000 2026",
+      "likes": 10,
+      "views": "1039",
+      "url": "https://x.com/i/status/2093359609277042724",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQ0Z2V4bwAAGMw5.jpg",
+        "https://pbs.twimg.com/media/HQ0Z34nb0AAXuAU.jpg",
+        "https://pbs.twimg.com/media/HQ0Z5GCbUAAlHCL.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQ0Z2V4bwAAGMw5.jpg",
+        "https://pbs.twimg.com/media/HQ0Z34nb0AAXuAU.jpg",
+        "https://pbs.twimg.com/media/HQ0Z5GCbUAAlHCL.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2093347851330027909",
+        "author": "xiaoxiaodong01",
+        "name": "小小东",
+        "text": "GPT2 x 脚手架 x Isometric x 美学提示词 x VOL.073\n\n不知不觉，熬了73种风格了\n\n这组也很好特色，很喜欢垂直方向的脚手架逻辑\n这样不至于让画面过于匠气\n\n本组GitHub项目地址：\nhttps://t.co/AMIbMMsOqI\n\n完整提示词：\n\n```\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色，使其具有艺术杂志、独立出版物与展览图像质感。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分提取照片主体最具识别度的**轮廓、结构、姿态与叙事关系**，重构为一组 **3D miniature architectural landscape** 风格的极简艺术画面：以 **isometric view / cut cube composition / perspective of an underwater continental shelf** 的方式呈现，主体像一个被剖开的微缩立体场景，具有正确的等距视图与清晰空间层级。整体以**微缩灯塔景观**为核心语义，可根据原图主体特征灵活转译，但必须保留一眼可辨的识别性与原始叙事关系。\n\n下半部分不是写实插画，而是将主体压缩为**简洁几何形状、扁平色块、细线条与留白**的抽象化表达；在极简基础上保留适度丰富的结构细节，使画面兼具建筑图解感与艺术海报感。主体应像一件置于白色纹理纸上的微型立体模型，带有 **hand-drawn architectural illustration** 气质：线条精细、层次清楚、细节克制而准确，避免厚重真实渲染。\n\n画面中加入明确的**脚手架逻辑**，参考你提供的图像：脚手架不是随意装饰，而应作为包裹、支撑、搭建或介入主体结构的理性系统，与主体共同形成空间秩序。脚手架可由细密的水平、垂直构件与局部连接节点组成，围绕主体外轮廓、关键转折或立体切面展开，呈现一种“正在被建构、修复、测绘或展示”的感觉；视图必须准确，透视关系清晰，不要画成漂浮拼贴。\n\n构图保持**主体居中、画面平衡、秩序克制**，并通过少量水平线、纵向构图线、环形元素或剖面边界增强空间感。背景使用**白色纹理纸或极浅米白纸面**，干净、安静、无阴影或仅有极弱的结构层次，不要厚重投影。保留大面积留白，让主体像悬浮于展览图录或建筑研究海报的版面中。\n\n配色从上方照片中提取灵感，但需重新处理为**更明艳、清透、治愈且有生命力**的高级色系，而不是直接照搬原始色值。保留原图的色相线索后，适度提亮、提纯、去灰，使颜色更鲜活、更轻盈；可形成清澈蓝、湖水青、嫩绿、明黄、珊瑚橙、桃粉、淡紫等柔和而明快的综合色关系，通过冷暖对比与明度节奏建立精致层次。避免灰脏、暗沉、发旧、莫兰迪化、廉价糖果色和塑料感。\n\n文字可少量介入，加入简洁的英文标题、编号或年份，并与主体、脚手架或留白形成自然的排版关系。文字应精致、现代、克制，像国际设计工作室、建筑海报、艺术展览海报和高端品牌视觉系统中的编辑性标注，不喧宾夺主。\n\n整体风格呈现**高级、现代、雅致、克制、艺术化**的视觉效果，融合微缩立体景观、建筑剖面图、等距视图、脚手架系统与极简海报版式。避免过度滤镜、廉价塑料质感、卡通感、强电脑生成感、模板化效果、错误视图和无逻辑的装饰性结构。\n\n```",
+        "created_at": "Fri Aug 28 14:39:54 +0000 2026",
+        "url": "https://x.com/xiaoxiaodong01/status/2093347851330027909",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQ0QGKMbgAAf_Bl.jpg",
+          "https://pbs.twimg.com/media/HQ0QVjibkAAyrfQ.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQ0QGKMbgAAf_Bl.jpg",
+          "https://pbs.twimg.com/media/HQ0QVjibkAAyrfQ.jpg"
+        ]
+      },
+      "score": 60.118,
+      "title": "VOL.074：原片灵魂收成一枚伪 3D 圆角图标",
+      "summary": "同样 3:4 对半。下半不把照片塞进图标，而是在固定 1:1 圆角方里用正面伪 3D 重建原图最关键的关系。配色从原片推导再提亮，哑光雕塑感。作者说几十秒就能出，准备拿来做自己每个 skill 的图标。",
+      "recommend_reason": "实用向，做 skill 或工具图标能直接套。",
+      "tags": [
+        "提示词",
+        "图像生成",
+        "Skill"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2093357407976210773",
+      "author": "ecomchasedimond",
+      "bio": "",
+      "text": "AI gets more useful when I stop asking it to write more copy.\n\nOnce a draft sounds like me, I give the model a different job: find the three biggest problems before the send.\n\nFor example:\n\nThe subject promises 20% off.\nThe body leads with new arrivals.\nThe button sends people to the homepage.\n\nEach piece reads fine on its own. Together, the promise keeps changing.\n\nI include the campaign goal, audience, email, offer or landing page, and any approved claims or source material.\n\nThen I ask it to look for:\n\n• Promise mismatch\n• Competing actions\n• Unsupported claims\n• Proof placed too far from the claim it supports\n• Anything that could make the reader hesitate or get confused\n\nI don’t want a full rewrite.\n\nI want the exact line, why it may be a problem, the smallest useful fix, and anything I still need to verify.\n\nAI can help find inconsistencies and blind spots. It still can’t tell you whether a claim is actually true or approved for your brand. You need to check that yourself.\n\nThe full review brief is in the image.\n\nKeep it to the top three issues. Otherwise, you can end up polishing the voice out of a draft that was already working.",
+      "created_at": "Fri Aug 28 15:17:53 +0000 2026",
+      "likes": 1,
+      "views": "933",
+      "url": "https://x.com/i/status/2093357407976210773",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQ0ZYKUboAARPhJ.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQ0ZYKUboAARPhJ.png"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2093049467096498618",
+        "author": "ecomchasedimond",
+        "name": "Chase Dimond | Email Marketing Nerd 📧",
+        "text": "Most AI subject-line lists are fake variety.\n\nYou ask for 20 options. The wording changes. The reason to open stays the same.\n\nI get better variation by splitting the work into two passes.\n\nFirst, ask for five distinct angles:\n\n• direct value\n• the problem or trigger\n• an objection the email resolves\n• proof that earns belief\n• a curiosity gap the email actually closes\n\nThen ask for four subject lines inside each angle.\n\nFor every option, make the model show:\n\n• why the reader should care now\n• which source detail supports it\n• any credibility or claim risk\n\nThat gives you 20 options built from five genuinely different ideas.\n\nThe full brief is in the image.\n\nShortlist the two or three that best fit the email, then test them when you can.",
+        "created_at": "Thu Aug 27 18:54:14 +0000 2026",
+        "url": "https://x.com/ecomchasedimond/status/2093049467096498618",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQwBYfsacAAD13O.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQwBYfsacAAD13O.jpg"
+        ]
+      },
+      "score": 36.664,
+      "title": "别让 AI 再写一遍，让它先找三处自相矛盾",
+      "summary": "邮件稿已经像自己了，就别再让模型扩写。把目标、受众、正文、offer 或落地页、已批准话术丢给它，只查：承诺对不上、动作互相抢、没依据的声称、证据离主张太远、会让人犹豫的地方。只要标出那一行、为什么、最小改法、还得人工核对什么。图里有完整 brief。",
+      "recommend_reason": "把 AI 从写手改成审稿，检查清单能直接复用。",
+      "tags": [
+        "工作流",
+        "内容",
+        "方法论"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2093356767992279503",
+      "author": "GoogleAI",
+      "bio": "",
+      "text": "Here’s what launched this week:\n\n— Gemini 3.5 Transcribe, our most precise speech-to-text model yet, designed to deliver intelligent transcriptions\n— Gemini Omni 1.1 Flash, bringing expanded creative capabilities and controls for video generation and editing\n— @GeminiApp’s Live experience, moving beyond conversation to complex tasks with new features like Daily Brief, Gemini Spark, Personal Intelligence, and @Gmail inbox management\n— Expert Intelligence, a new cross-@Google initiative that lets you engage with and combine insights from trusted sources, starting with eligible @GooglePlay ebooks in @Gemini_Notebook",
+      "created_at": "Fri Aug 28 15:15:20 +0000 2026",
+      "likes": 178,
+      "views": "17801",
+      "url": "https://x.com/i/status/2093356767992279503",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 65.125,
+      "title": "Google 本周：转写、视频、Live 任务、专家情报",
+      "summary": "Gemini 3.5 Transcribe 做高精度语音转写；Omni 1.1 Flash 加强视频生成和剪辑控制；Gemini App Live 从聊天扩到 Daily Brief、Spark、Personal Intelligence 和 Gmail 收件箱；Expert Intelligence 先把 Play 电子书接到 Notebook。",
+      "recommend_reason": "官方周报，四条都能马上试，不是评测嘴炮。",
+      "tags": [
+        "产品",
+        "多模态",
+        "Gemini Notebook"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2093356025084797176",
+      "author": "ollama",
+      "bio": "",
+      "text": "We are rolling out GLM-5.3 on Ollama. Private. Fast. US and Europe hosted. No data retention. \n\nTry Ollama's GLM-5.3-Flash as we bring it GLM-5.3 online. Super fast. \n\nClaude Code: \nollama launch claude --model glm-5.3-flash:cloud\n\nOpenCode: \nollama launch opencode --model glm-5.3-flash:cloud\n\nHermes Agent: \nollama launch hermes --model glm-5.3-flash:cloud \n\nor plug it into any other harness/apps. API endpoint is also available.",
+      "created_at": "Fri Aug 28 15:12:23 +0000 2026",
+      "likes": 270,
+      "views": "18540",
+      "url": "https://x.com/i/status/2093356025084797176",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2093354097122455713",
+        "author": "Zai_org",
+        "name": "Z.ai",
+        "text": "GLM-5.3 is now open-weight.\n\nOur most capable model for agentic coding and cyber defense is now available to download, run, and customize.\n\nWeights: https://t.co/v1IbWMXxg4\nTech blog: https://t.co/ekQkO83jCv https://t.co/f8XlJksKyf",
+        "created_at": "Fri Aug 28 15:04:44 +0000 2026",
+        "url": "https://x.com/Zai_org/status/2093354097122455713",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQ0WAnyXIAENtQA.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQ0WAnyXIAENtQA.jpg"
+        ]
+      },
+      "score": 67.021,
+      "title": "Ollama 上架 GLM-5.3，美欧托管还不留数据",
+      "summary": "Z.ai 放出 GLM-5.3 开源权重后，Ollama 跟上 GLM-5.3-Flash：美欧托管、不留数据。Claude Code / OpenCode / Hermes 都能一行切到 glm-5.3-flash:cloud，也能接别的 harness 或走 API。",
+      "recommend_reason": "权重刚开源就能在 Ollama 上跑，本地和云端都有入口。",
+      "tags": [
+        "开源",
+        "工具",
+        "Coding Agent"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2093355769920196926",
+      "author": "web3annie",
+      "bio": "",
+      "text": "$NVDA 黄仁勋最新发言：明年要赚1万亿！\n\n1. 明年的新芯片已卖光！\n需求不是强，而是爆表。下一代 Vera Rubin 芯片是史上最快的量产铺货，明年的产能早已全被定光，要不是卡在瓶颈上，说不定能涨200%。\n\n2. 到处都是瓶颈\n现在限制 AI 发展的不是客户，也不是技术，而是算力上限。台积电封装（CoWoS）、存储芯片、硅光子、数据中心变电设备、供电土地，甚至是全球合格的技术工人、电工，全都告急。\n\n3. 英伟达涨价！\n面对存储成本疯涨，老黄选择跟涨：吸收部分成本并上调芯片售价15%，把毛利率预期从 75% 调到 72%-73%。\n\n4. 英伟达卡不够分\n买英伟达芯片不是买电脑，而是投几百亿美金建算力工厂。英伟达一半营收来自 $AMZN AWS 等六大云巨头（AWS 甚至预订了 200 万张 GPU 运用到 2028 年），另一半来自企业、国家级 Sovereign AI 和新兴云。\n\n5. 光 $SPCX 就赚了数百亿！\n英伟达是 AI 界的中央银行，作为最懂行的顶级 VC，黄仁勋光是 SpaceX 这一笔投资的回报就高出300亿美元。\n\n6. 客户飞轮！\n未上市的顶级 AI 实验室商业化刚刚起飞，没有足够强的资产负债表去低成本融资买算力。英伟达因为深知其技术底细，直接为其背书担保，帮它们完成商业闭环，顺便锁定核心客户。\n\n7. AI 不是就业杀手！\n不认同AI 导致大规模失业的论调。企业因为 AI 变得更高效、更赚钱时，野心会膨胀，进而去扩张业务、招聘更多人。生产力提高带来的整体就业净增长将是前所未有的。\n\n8. 反对AI 税\n别在投资高峰期对工厂本身抽头，否则既保不住白领，也砸掉正在出现的蓝领机会。",
+      "created_at": "Fri Aug 28 15:11:22 +0000 2026",
+      "likes": 7,
+      "views": "2856",
+      "url": "https://x.com/i/status/2093355769920196926",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2093354067015954432/vid/avc1/480x270/oHR90HYON9FNqG8w.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2093354067015954432/img/oTEuVEzKYpIN_Pdx.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 42.224,
+      "title": "老黄：明年芯片卖光，英伟达跟涨 15%",
+      "summary": "黄仁勋这轮：Vera Rubin 明年产能已订完；瓶颈在 CoWoS、存储、硅光、电和电工，不在客户。存储成本涨，芯片售价跟涨 15%，毛利率预期从 75% 收到 72–73%。一半营收来自六大云（AWS 预到 2028 年 200 万张 GPU）。SpaceX 投资账面赚了 300 亿以上。反对高峰期抽 AI 税。",
+      "recommend_reason": "把产能、涨价、云厂订单和投资飞轮压成可核对的要点。",
+      "tags": [
+        "产业"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2093347851330027909",
+      "author": "xiaoxiaodong01",
+      "bio": "",
+      "text": "GPT2 x 脚手架 x Isometric x 美学提示词 x VOL.073\n\n不知不觉，熬了73种风格了\n\n这组也很好特色，很喜欢垂直方向的脚手架逻辑\n这样不至于让画面过于匠气\n\n本组GitHub项目地址：\nhttps://t.co/AMIbMMsOqI\n\n完整提示词：\n\n```\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色，使其具有艺术杂志、独立出版物与展览图像质感。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分提取照片主体最具识别度的**轮廓、结构、姿态与叙事关系**，重构为一组 **3D miniature architectural landscape** 风格的极简艺术画面：以 **isometric view / cut cube composition / perspective of an underwater continental shelf** 的方式呈现，主体像一个被剖开的微缩立体场景，具有正确的等距视图与清晰空间层级。整体以**微缩灯塔景观**为核心语义，可根据原图主体特征灵活转译，但必须保留一眼可辨的识别性与原始叙事关系。\n\n下半部分不是写实插画，而是将主体压缩为**简洁几何形状、扁平色块、细线条与留白**的抽象化表达；在极简基础上保留适度丰富的结构细节，使画面兼具建筑图解感与艺术海报感。主体应像一件置于白色纹理纸上的微型立体模型，带有 **hand-drawn architectural illustration** 气质：线条精细、层次清楚、细节克制而准确，避免厚重真实渲染。\n\n画面中加入明确的**脚手架逻辑**，参考你提供的图像：脚手架不是随意装饰，而应作为包裹、支撑、搭建或介入主体结构的理性系统，与主体共同形成空间秩序。脚手架可由细密的水平、垂直构件与局部连接节点组成，围绕主体外轮廓、关键转折或立体切面展开，呈现一种“正在被建构、修复、测绘或展示”的感觉；视图必须准确，透视关系清晰，不要画成漂浮拼贴。\n\n构图保持**主体居中、画面平衡、秩序克制**，并通过少量水平线、纵向构图线、环形元素或剖面边界增强空间感。背景使用**白色纹理纸或极浅米白纸面**，干净、安静、无阴影或仅有极弱的结构层次，不要厚重投影。保留大面积留白，让主体像悬浮于展览图录或建筑研究海报的版面中。\n\n配色从上方照片中提取灵感，但需重新处理为**更明艳、清透、治愈且有生命力**的高级色系，而不是直接照搬原始色值。保留原图的色相线索后，适度提亮、提纯、去灰，使颜色更鲜活、更轻盈；可形成清澈蓝、湖水青、嫩绿、明黄、珊瑚橙、桃粉、淡紫等柔和而明快的综合色关系，通过冷暖对比与明度节奏建立精致层次。避免灰脏、暗沉、发旧、莫兰迪化、廉价糖果色和塑料感。\n\n文字可少量介入，加入简洁的英文标题、编号或年份，并与主体、脚手架或留白形成自然的排版关系。文字应精致、现代、克制，像国际设计工作室、建筑海报、艺术展览海报和高端品牌视觉系统中的编辑性标注，不喧宾夺主。\n\n整体风格呈现**高级、现代、雅致、克制、艺术化**的视觉效果，融合微缩立体景观、建筑剖面图、等距视图、脚手架系统与极简海报版式。避免过度滤镜、廉价塑料质感、卡通感、强电脑生成感、模板化效果、错误视图和无逻辑的装饰性结构。\n\n```",
+      "created_at": "Fri Aug 28 14:39:54 +0000 2026",
+      "likes": 30,
+      "views": "3893",
+      "url": "https://x.com/i/status/2093347851330027909",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQ0QGKMbgAAf_Bl.jpg",
+        "https://pbs.twimg.com/media/HQ0QVjibkAAyrfQ.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQ0QGKMbgAAf_Bl.jpg",
+        "https://pbs.twimg.com/media/HQ0QVjibkAAyrfQ.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2093240983215640932",
+        "author": "xiaoxiaodong01",
+        "name": "小小东",
+        "text": "GPT2 x 水粉 x 拆分 x 美学提示词 x 治愈配色 x VOL.061\n\n还是忍不住把这个系列\n拓展到一百期\n\n这组的第轻盈和笨拙还有配色，都是让我容易沉迷的\n\n已开源：\n各国语言版本提示词：\nhttps://t.co/NXuCmaxpxJ\n\nSKILLS 地址\nhttps://t.co/XOOEQzHtlC https://t.co/IIjP5WFaFO",
+        "created_at": "Fri Aug 28 07:35:15 +0000 2026",
+        "url": "https://x.com/xiaoxiaodong01/status/2093240983215640932",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQyu0o5boAA1ZpW.jpg",
+          "https://pbs.twimg.com/media/HQyu36HbkAEwenx.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQyu0o5boAA1ZpW.jpg",
+          "https://pbs.twimg.com/media/HQyu36HbkAEwenx.jpg"
+        ]
+      },
+      "score": 61.71,
+      "title": "VOL.073：上半实拍，下半等距脚手架微缩",
+      "summary": "小小东第 73 组：3:4 对半切。上半保留原片只微调色；下半把主体收成等距剖开的微缩建筑景观，细线扁平色块，脚手架当建构系统而不是装饰。配色从原片提亮提纯，白纸留白。GitHub 已开源。",
+      "recommend_reason": "垂直脚手架这招能压住匠气，墙上一眼能用。",
+      "tags": [
+        "提示词",
+        "图像生成",
+        "开源"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2093342841216913580",
+      "author": "VigoCreativeAI",
+      "bio": "",
+      "text": "VISUAL OS 031 — Type Terrain\n\nThe words are the size of the idea. The people stay the size of people.\n\nMOVE CLEAR — urban survey project 07\nGROW SIDEWAYS — rooftop seed project\nKEEP GOING — municipal archives\nTURN TRUE — trail waymarking\n\nLocked:\n– warm paper field: sand, oat, bone. Fine grain, never pure white.\n– two imperative words in colossal charcoal-black condensed caps, steep diagonals, cropped by the frame\n– the type behaves as built terrain — a wall, an overpass, road paint\n– one small photographic figure, full body, ~12% of frame height, absorbed in a quiet task\n– the figure interacts with the type: walks between the words, stands against them, crosses them\n– in every frame the figure is already doing what the type says\n– one hairline rule carrying a small-caps subtitle on the diagonal\n– one tiny glyph: arrow, leaf, folder, compass star\n– one microcopy stack: project name plus three to five short civic lines\n– the photograph is the only color — muted workwear against ink and paper\n\nSwaps: civic project / two-word imperative / subtitle / glyph / prop set\n\nBig instructions. Small steps.\n\nPrompt ↓",
+      "created_at": "Fri Aug 28 14:20:00 +0000 2026",
+      "likes": 7,
+      "views": "492",
+      "url": "https://x.com/i/status/2093342841216913580",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQzkYppWMAAmBE5.jpg",
+        "https://pbs.twimg.com/media/HQzkYqCbUAAVmgx.jpg",
+        "https://pbs.twimg.com/media/HQzkYqAa4AA3qZN.jpg",
+        "https://pbs.twimg.com/media/HQzkYrwacAAqpkn.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQzkYppWMAAmBE5.jpg",
+        "https://pbs.twimg.com/media/HQzkYqCbUAAVmgx.jpg",
+        "https://pbs.twimg.com/media/HQzkYqAa4AA3qZN.jpg",
+        "https://pbs.twimg.com/media/HQzkYrwacAAqpkn.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2092975429321937247",
+        "author": "VigoCreativeAI",
+        "name": "Vigo Zhao",
+        "text": "VISUAL OS 030 — Trade Blocks\n\nThree inks. Four block types. Any trade fits.\n\nTRACE LINE — mapping the night network\nFLOW BACK — field notes from the river edge\nBIND HARD — made to survive the shelf\nHOLD FAST — keep the line alive\n\nLocked:\n– bone paper, signal red, ink black — and nowhere a fourth\n– a strict rectangular grid with paper gutters; no rotation, no overlap\n– two photo blocks in red-black duotone halftone: the worker mid-task, then the evidence close-up\n– one kicker block: black field, cream condensed caps, the trade's promise in a few words\n– one glyph block: red field, one black diagram of the trade — route nodes, a water gauge, a stitch map, a pulse\n– bottom third: two imperative words in ultra-heavy grunge caps, cropped by both edges\n– photos keep photocopy grit, type keeps ink starve, paper keeps speckle\n– the glyph must explain something, never decorate\n\nSwaps: trade / two-word motto / kicker line / glyph / the two photographs\n\nNobody notices when it works. That's the job.\n\nPrompt ↓",
+        "created_at": "Thu Aug 27 14:00:02 +0000 2026",
+        "url": "https://x.com/VigoCreativeAI/status/2092975429321937247",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQubtB0XwAATlky.jpg",
+          "https://pbs.twimg.com/media/HQubtBXW8AAFPiR.jpg",
+          "https://pbs.twimg.com/media/HQubtBNXIAAATnB.jpg",
+          "https://pbs.twimg.com/media/HQubtBYXoAA8QgR.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQubtB0XwAATlky.jpg",
+          "https://pbs.twimg.com/media/HQubtBXW8AAFPiR.jpg",
+          "https://pbs.twimg.com/media/HQubtBNXIAAATnB.jpg",
+          "https://pbs.twimg.com/media/HQubtBYXoAA8QgR.jpg"
+        ]
+      },
+      "score": 62.56,
+      "title": "VISUAL OS 031：字当地形，人还是人那么大",
+      "summary": "暖纸底上两句巨型 condensed 标语当墙、立交或路面字，斜切出画。一个约画面 12% 高的真人小身影已经在做标语说的事。发丝线小标题、一个微符号、几行市政微文案。换 civic 项目 / 两词祈使 / 副标题 / 符号 / 道具就能复用。",
+      "recommend_reason": "锁定项写得很死的封面系统，和墙上那些 3:4 图注是一路的。",
+      "tags": [
+        "提示词",
+        "封面",
+        "图像生成"
+      ],
+      "rank": 8
+    },
+    {
       "id": "2093183331051684078",
       "author": "_miuj_9",
       "bio": "",
@@ -44,7 +367,7 @@
         "开源",
         "Agent"
       ],
-      "rank": 1
+      "rank": 9
     },
     {
       "id": "2093182716187656423",
@@ -83,7 +406,7 @@
         "Agent",
         "本地"
       ],
-      "rank": 2
+      "rank": 10
     },
     {
       "id": "2093175594792157575",
@@ -112,7 +435,7 @@
         "工作流",
         "多模态"
       ],
-      "rank": 3
+      "rank": 11
     },
     {
       "id": "2093170104678986233",
@@ -155,7 +478,7 @@
         "封面",
         "多模态"
       ],
-      "rank": 4
+      "rank": 12
     },
     {
       "id": "2093161568154575272",
@@ -184,7 +507,7 @@
         "工作流",
         "Agent"
       ],
-      "rank": 5
+      "rank": 13
     },
     {
       "id": "2093159869755089038",
@@ -216,10 +539,10 @@
         "方法论",
         "产品"
       ],
-      "rank": 6
+      "rank": 14
     }
   ],
-  "generated_at": "2026-08-28T06:16:32Z",
+  "generated_at": "2026-08-28T16:31:42Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -227,11 +550,11 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 6,
-    "last_batch_added": 6,
+    "actual_count": 14,
+    "last_batch_added": 8,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
