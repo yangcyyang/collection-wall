@@ -7,7 +7,10 @@ import {
   collectAihot,
   dedupItems,
   emptyFeed,
+  formatBeijingClock,
   formatBeijingDateTime,
+  formatNewsDayLabel,
+  groupNewsDays,
   mapApiItem,
   parseNewsFeed,
 } from "../src/lib/news.mjs";
@@ -173,4 +176,32 @@ test("collectAihot 在 items API 失败时返回空态而不是假头条", async
   assert.deepEqual(feed.items, []);
   assert.match(feed.error, /403 from edge/);
   assert.equal(feed.items.some((item) => item?.title), false);
+});
+
+test("groupNewsDays 按上海日历日分组，新的一天在前，日内按时间倒序", () => {
+  const days = groupNewsDays([
+    { id: "late-28", published_at: "2026-08-28T15:04:44.000Z" },
+    { id: "early-29", published_at: "2026-08-28T17:25:56.912Z" },
+    { id: "noon-28", published_at: "2026-08-28T04:00:00.000Z" },
+    { id: "via-discovered", published_at: "", discovered_at: "2026-08-27T10:52:31.000Z" },
+  ]);
+  assert.deepEqual(days.map((day) => day.date), ["2026-08-29", "2026-08-28", "2026-08-27"]);
+  assert.deepEqual(days[0].items.map((item) => item.id), ["early-29"]);
+  assert.deepEqual(days[1].items.map((item) => item.id), ["late-28", "noon-28"]);
+  assert.deepEqual(days[2].items.map((item) => item.id), ["via-discovered"]);
+});
+
+test("groupNewsDays 丢弃没有有效时间的条目，不编造日期", () => {
+  assert.deepEqual(groupNewsDays([{ id: "no-time", title: "空" }]), []);
+});
+
+test("formatNewsDayLabel 与推特日报同一套 月日 星期", () => {
+  assert.equal(formatNewsDayLabel("2026-08-28"), "8月28日 周五");
+  assert.equal(formatNewsDayLabel("2026-08-29"), "8月29日 周六");
+});
+
+test("formatBeijingClock 只报北京时分", () => {
+  assert.equal(formatBeijingClock("2026-08-28T17:25:56.912Z"), "01:25");
+  assert.equal(formatBeijingClock("2026-08-28T00:04:47.737Z"), "08:04");
+  assert.equal(formatBeijingClock(""), "");
 });

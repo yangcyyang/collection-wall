@@ -1,0 +1,63 @@
+---
+import {
+  categoryLabel,
+  formatBeijingClock,
+  formatNewsDayLabel,
+  itemTimestamp,
+} from "../lib/news.mjs";
+
+type NewsItem = {
+  id: string;
+  title: string;
+  category: string;
+  source: string;
+  published_at: string;
+  discovered_at: string;
+  summary: string;
+  reason: string;
+  links: { aihot: string; original: string };
+};
+
+type Props = { day: { date: string; items: NewsItem[] }; defaultOpen?: boolean };
+const { day, defaultOpen = false } = Astro.props;
+const [dateLabel, weekdayLabel] = formatNewsDayLabel(day.date).split(" ");
+---
+
+<details class="day-group" data-day open={defaultOpen}>
+  <summary class="day-heading">
+    <span class="day-toggle-icon" aria-hidden="true">▾</span>
+    <h2>{dateLabel}</h2>
+    <p>{weekdayLabel} · {day.items.length} 条</p>
+  </summary>
+  <div class="timeline-items">
+    {day.items.map((item) => (
+      <article class="timeline-item" data-news-card data-tags={item.category}>
+        <span class="timeline-time">{formatBeijingClock(itemTimestamp(item))}</span>
+        <span class="timeline-rail"><i class="timeline-dot"></i></span>
+        <div class="tweet-card">
+          <div class="tweet-body">
+            <div class="tweet-meta">
+              {item.category && <span class="category">{categoryLabel(item.category)}</span>}
+              {item.source && <span class="tweet-author">{item.source}</span>}
+            </div>
+            <h3 class="tweet-title">
+              {item.links.aihot ? (
+                <a href={item.links.aihot} target="_blank" rel="noreferrer">{item.title}</a>
+              ) : item.title}
+            </h3>
+            {item.summary && <p class="tweet-summary">{item.summary}</p>}
+            {item.reason && <p class="tweet-reason">推荐理由：{item.reason}</p>}
+            <p class="news-links">
+              {item.links.aihot && (
+                <a class="tweet-link" href={item.links.aihot} target="_blank" rel="noreferrer">AIHOT →</a>
+              )}
+              {item.links.original && (
+                <a class="tweet-link" href={item.links.original} target="_blank" rel="noreferrer">原文 →</a>
+              )}
+            </p>
+          </div>
+        </div>
+      </article>
+    ))}
+  </div>
+</details>

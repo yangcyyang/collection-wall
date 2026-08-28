@@ -1,6 +1,8 @@
 import { readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
+import { shanghaiDateKey } from "./shanghai-date.mjs";
+
 export const AIHOT_SOURCE = "aihot";
 export const AIHOT_TITLE = "AIHOT 精选资讯";
 export const AIHOT_HOME = "https://aihot.virxact.com/";
@@ -62,6 +64,52 @@ export function buildFeed({ items = [], updated_at, daily, error } = {}) {
 
 export function emptyFeed({ updated_at, error } = {}) {
   return buildFeed({ items: [], updated_at, error });
+}
+
+export function itemTimestamp(item) {
+  return item?.published_at || item?.discovered_at || "";
+}
+
+export function formatBeijingClock(value) {
+  if (typeof value !== "string" || !value.trim()) return "";
+  const instant = Date.parse(value);
+  if (!Number.isFinite(instant)) return "";
+  return new Intl.DateTimeFormat("zh-CN", {
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+    timeZone: "Asia/Shanghai",
+  }).format(new Date(instant));
+}
+
+export function formatNewsDayLabel(date) {
+  if (typeof date !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(date)) return "";
+  const [, month, day] = date.split("-");
+  const weekday = new Date(`${date}T12:00:00Z`).toLocaleDateString("zh-CN", {
+    weekday: "short",
+    timeZone: "Asia/Shanghai",
+  });
+  return `${Number(month)}月${Number(day)}日 ${weekday}`;
+}
+
+export function groupNewsDays(items = []) {
+  const byDate = new Map();
+  for (const item of items) {
+    const date = shanghaiDateKey(itemTimestamp(item));
+    if (!date) continue;
+    const list = byDate.get(date) ?? [];
+    list.push(item);
+    byDate.set(date, list);
+  }
+  return [...byDate.entries()]
+    .sort((a, b) => b[0].localeCompare(a[0]))
+    .map(([date, dayItems]) => ({
+      date,
+      items: [...dayItems].sort((a, b) => {
+        const time = Date.parse(itemTimestamp(b)) - Date.parse(itemTimestamp(a));
+        return time !== 0 ? time : String(b.id ?? "").localeCompare(String(a.id ?? ""));
+      }),
+    }));
 }
 
 export function formatBeijingDateTime(value) {
