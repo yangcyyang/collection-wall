@@ -9,6 +9,248 @@
   },
   "items": [
     {
+      "id": "2093733420585341145",
+      "author": "YuLin807",
+      "bio": "",
+      "text": "虽然不懂！但是我大为震撼\n\ngrok bot 这玩意好像不用搭🪜也能用？！\n\n你们有试吗？希望不是我的错觉。",
+      "created_at": "Sat Aug 29 16:12:01 +0000 2026",
+      "likes": 0,
+      "views": "46",
+      "url": "https://x.com/i/status/2093733420585341145",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2093422509416923495",
+        "author": "YuLin807",
+        "name": "QingYue",
+        "text": "grok bot @bot 介绍篇I\n\n1. 现在grok bot 不仅有免费额度，同时也可以使用 X 会员登录使用。所以大家都可以去尝试。\n\n2. 配置：grok bot 环境自带一台8核 Xeon、16G内存、大约120G盘，Debian系统云电脑，而且是图形模式，不仅bot可以操作而且你也可以方便接管。\n这个配置相当于啥水平呢，就是一台2018年的inter macmini 或者一台iPhone 16e的水平。\n\n3. 玩法：\n\n3.1 我同步过去我的Github账号然后让他帮我监督Githubissue，同时照看茶馆。\n\n3.2 我把codex/grok 使用device code 的方式登录到grok 的云电脑环境，让bot 去帮我操作Agent（消耗额度）。\n\n3.3 我让bot 使用herder 同时控制 grok 和 codex 也方便他们内部交流\n\n3.4 这就是最好玩的，我让bot 帮我安装 moshi- hook，然后配置完成之后通过Tailscale 的方式配置 moshi 的Easy pair，达成的效果就是我在moshi 上远程控制 grok bot 上的 grok 和 codex。@odd_joel \n\n一切都闭环了！Thankyou @poteto \n\n欢迎大家关注我，看我分享更多的 grok bot 玩法。",
+        "created_at": "Fri Aug 28 19:36:34 +0000 2026",
+        "url": "https://x.com/YuLin807/status/2093422509416923495",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQ1UagWbsAASm6Y.jpg",
+          "https://pbs.twimg.com/media/HQ1UafIagAACcQ1.jpg",
+          "https://pbs.twimg.com/media/HQ1UafIbQAEQkVj.jpg",
+          "https://pbs.twimg.com/media/HQ1UafNbsAAxzaU.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQ1UagWbsAASm6Y.jpg",
+          "https://pbs.twimg.com/media/HQ1UafIagAACcQ1.jpg",
+          "https://pbs.twimg.com/media/HQ1UafIbQAEQkVj.jpg",
+          "https://pbs.twimg.com/media/HQ1UafNbsAAxzaU.jpg"
+        ]
+      },
+      "score": 44.859,
+      "title": null,
+      "summary": "虽然不懂！但是我大为震撼\n\ngrok bot 这玩意好像不用搭🪜也能用？！\n\n你们有试吗？希望不是我的错觉。",
+      "recommend_reason": "引用里还有完整玩法笔记；网络可达性本身是很多人的第一道门槛。",
+      "tags": [
+        "Grok Bot",
+        "体验",
+        "工具"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2093731129820074276",
+      "author": "yaojingang",
+      "bio": "",
+      "text": "今晚的GEO公开课结束，下面是相关链接及课件：\n1、课程总结文章：\nhttps://t.co/lWLGbZgHfK\n2、GEOFlow\nhttps://t.co/UHwRimsUsZ\n3、GEOFlow示例站点\nhttps://t.co/AQjAd30iYd\n4、公开课word课件\nhttps://t.co/hStlu5pzJw\n5、公开课PPT课件\nhttps://t.co/u4TgjDLq6S\n6、官网GEO引用数据研究\nhttps://t.co/vFlJ35hpzR\n7、GEO数据集与论文仓库\nhttps://t.co/PPatGGrWxE\n8、第二届GEO大会：\nhttps://t.co/jTUfuxbQMY\n9、直播回放\n详见视频号“通往AGI之路”主页，找到回放视频",
+      "created_at": "Sat Aug 29 16:02:55 +0000 2026",
+      "likes": 7,
+      "views": "287",
+      "url": "https://x.com/i/status/2093731129820074276",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2093608745565929934",
+        "author": "yaojingang",
+        "name": "姚金刚",
+        "text": "今晚8点，今年第四次GEO公开课：如何做好官网GEO\n欢迎参加\n\n视频号直播间：#通往AGI之路视频号 \n飞书会议链接：https://t.co/eN2KeRKqM6",
+        "created_at": "Sat Aug 29 07:56:36 +0000 2026",
+        "url": "https://x.com/yaojingang/status/2093608745565929934",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 45.289,
+      "title": "GEO 公开课资料包：课件、GEOFlow、数据集与回放",
+      "summary": "姚金刚第四次 GEO 公开课（如何做好官网 GEO）结束后放出总结文、GEOFlow 与示例站、Word/PPT 课件、官网引用数据研究、数据集与论文仓、第二届 GEO 大会入口，以及「通往AGI之路」视频号回放。",
+      "recommend_reason": "做官网 GEO 的人直接能捡工具链和课件，省翻聊天记录。",
+      "tags": [
+        "GEO",
+        "公开课",
+        "营销",
+        "资料"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2093729384964485266",
+      "author": "SjwEsther",
+      "bio": "",
+      "text": "这两天带着looki出来玩，然后又给Cola接上了looki的api，天呐噜，全世界最懂我的agent突然长出了眼睛。。我真的会哭的了呜呜呜我以后真的不要坐电脑前吃饭了。。。 https://t.co/uEUd7cisa1",
+      "created_at": "Sat Aug 29 15:55:59 +0000 2026",
+      "likes": 1,
+      "views": "56",
+      "url": "https://x.com/i/status/2093729384964485266",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQ5rHfKboAAQYw8.png",
+        "https://pbs.twimg.com/media/HQ5renMaQAAxarv.png",
+        "https://pbs.twimg.com/media/HQ5rrXUa4AA28lw.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQ5rHfKboAAQYw8.png",
+        "https://pbs.twimg.com/media/HQ5renMaQAAxarv.png",
+        "https://pbs.twimg.com/media/HQ5rrXUa4AA28lw.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 60.827,
+      "title": null,
+      "summary": "这两天带着looki出来玩，然后又给Cola接上了looki的api，天呐噜，全世界最懂我的agent突然长出了眼睛。。我真的会哭的了呜呜呜我以后真的不要坐电脑前吃饭了。。。 https://t.co/uEUd7cisa1",
+      "recommend_reason": "个人 agent 接上可穿戴视觉后的一手体感，短但画面感强。",
+      "tags": [
+        "Agent",
+        "可穿戴",
+        "多模态"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2093722906023108775",
+      "author": "lixinbao_X",
+      "bio": "",
+      "text": "清华教授柳冠中一句话，把“无人时代”问住了：人去哪了？\n\n他曾追问：\n\n“无人飞机、无人驾驶、无人商店、无人酒店、无人银行，人去哪了？科技没有人还要人干嘛？”\n\n这句话放到AI大爆发的今天，更值得琢磨。\n\n无人技术当然不是坏事。\n\n矿井、消防、高空作业、重复搬运这些危险又枯燥的活，让机器去干，人少冒险，这是进步。\n\n真正值得警惕的是另一种“无人化”：\n\n银行撤掉人工窗口，老人对着手机发愁；客服全变成机器人，绕半天找不到真人；企业甚至把“人员越少”直接等同于“科技越先进”。\n\n如果机器越来越省事，人反而越来越费事，那这种智能化到底是为谁服务的？\n\nAI也不意味着所有人都会失业。\n\n旧岗位消失的同时，AI训练、机器人运维、智能体开发、低空物流等新职业也在不断出现。\n\n真正的问题不是阻止机器进来，而是：\n\n机器升级这么快，普通人能不能跟着一起升级？\n\n所以柳冠中真正反对的，并不是无人驾驶、机器人和AI。\n\n而是把“无人”本身当成科技进步的终点。\n\n科技先进不先进，最终不能只看机器有多聪明。\n\n还要看人有没有因此活得更好。",
+      "created_at": "Sat Aug 29 15:30:14 +0000 2026",
+      "likes": 1,
+      "views": "169",
+      "url": "https://x.com/i/status/2093722906023108775",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQ5l4dzaYAAUeyi.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQ5l4dzaYAAUeyi.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 58.087,
+      "title": "柳冠中问「人去哪了」：无人不该是终点",
+      "summary": "清华教授柳冠中追问无人飞机/驾驶/商店/酒店/银行之后「人去哪了」。作者区分两种无人化：危险重复劳动交给机器是进步；窗口、客服全砍掉让普通人更费事则值得警惕。新职业会涌现，关键是普通人能不能跟着升级，别把「无人」本身当成科技进步的终点。",
+      "recommend_reason": "比口号式「AI 取代论」更有分寸，适合当讨论锚点。",
+      "tags": [
+        "社会影响",
+        "无人化",
+        "观点"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2093722690049695780",
+      "author": "nvidia",
+      "bio": "",
+      "text": "Are you measuring AI infrastructure performance on how agents actually run? \n\n@SemiAnalysis_ built AgentX to do just that. \n\nVera Rubin NVL72 performance measured by NVIDIA on the SemiAnalysis AgentX workload shows up to 30x better throughput per megawatt than GB300 NVL72. \n\nLearn more ➡️ https://t.co/7GTEtxFk76",
+      "created_at": "Sat Aug 29 15:29:23 +0000 2026",
+      "likes": 78,
+      "views": "13362",
+      "url": "https://x.com/i/status/2093722690049695780",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQ5lsNyXMAAEajs.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQ5lsNyXMAAEajs.png"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 65.167,
+      "title": "SemiAnalysis AgentX：按 Agent 真实跑法测算力",
+      "summary": "NVIDIA 用 SemiAnalysis 的 AgentX 测 Vera Rubin NVL72，称同等功耗下吞吐量可比 GB300 NVL72 高约 30 倍。测的是 agent 实际跑起来的基础设施表现，而不只是传统训练/推理指标。",
+      "recommend_reason": "厂商自测也罢，Agent 工作负载基准本身值得跟一眼，尤其是功耗效率这个维度。",
+      "tags": [
+        "NVIDIA",
+        "基础设施",
+        "Agent",
+        "评测"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2093722208585847131",
+      "author": "lxfater",
+      "bio": "",
+      "text": "很快你能看到 AI 实时生成的电视剧了\n\n有人魔改了Minimax H3，让它生成视频的速度巨快，你还没看完第一秒它就生成 2 秒\n\n这会对娱乐业产生什么影响呢？\n\n首先演员将会失业，没有人会去电影院看标准化的电影\n\n以后的电影都是基于个人喜好生成的，每个人看到版本都不同。\n\n唯一值钱的就剩 IP，这些公司就靠出售 IP 版权赚钱。\n\n估计以后付个费就能生成一集专属个人的蜘蛛侠电影了",
+      "created_at": "Sat Aug 29 15:27:28 +0000 2026",
+      "likes": 4,
+      "views": "1530",
+      "url": "https://x.com/i/status/2093722208585847131",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2093528415576211819",
+        "author": "rehan_shei",
+        "name": "Rehan Sheikh",
+        "text": "Minimax H3 Max has generates video faster than you can watch it so I hooked it to a twitch livestream! Now you can watch infinite interdimensional cable - link to the stream below https://t.co/LHqHQ9dKMr",
+        "created_at": "Sat Aug 29 02:37:24 +0000 2026",
+        "url": "https://x.com/rehan_shei/status/2093528415576211819",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2093528331107143680/vid/avc1/568x270/fDe6ZVFG7WaQR5R7.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2093528331107143680/img/mGq87EK6Q6zuZq9_.jpg"
+        ]
+      },
+      "score": 34.693,
+      "title": "Minimax H3 快过观看：实时生成电视剧的苗头",
+      "summary": "有人魔改 Minimax H3，生成速度比观看还快，并挂到 Twitch 做成无限 interdimensional cable。作者推演：标准化影院内容会被个人偏好生成片冲击，IP 版权更值钱，付费生成专属一集蜘蛛侠之类的产品形态可能出现。",
+      "recommend_reason": "速度越过「实时观看」是个分水岭，娱乐业影响值得提前想。",
+      "tags": [
+        "AI视频",
+        "Minimax",
+        "娱乐",
+        "实时"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2093720233060323540",
+      "author": "lixinbao_X",
+      "bio": "",
+      "text": "AI真正可怕的，不是抢工作，而是下一代已经开始系统学了\n\n马斯克判断，未来几年AI会接管越来越多脑力工作；刘强东也早就设想，用AI和机器人把公司做到高度自动化。\n\n时间表可以争论，但趋势已经很清楚：\n\nAI正在从“工具”变成基础能力。\n\n教育部已经明确推进中小学人工智能教育，到2030年前基本形成贯通全学段的AI教育体系。\n\n这意味着，未来孩子学AI，可能就像我们这一代学电脑一样，逐渐变成必修能力。\n\n真正拉开差距的，不是谁背了多少AI知识，而是谁更会用AI学习、写作、分析和解决问题。\n\n上一代的数字鸿沟，是“会不会用电脑”。\n\n下一代很可能变成：\n\n会不会让AI替自己干活。\n\n所以现在最该教孩子的，不是疯狂报班、背提示词，而是尽早理解AI、学会使用AI，同时保留独立判断。\n\n未来未必是AI淘汰人。\n\n更可能是：\n\n会用AI的人，淘汰不会用AI的人。",
+      "created_at": "Sat Aug 29 15:19:37 +0000 2026",
+      "likes": 2,
+      "views": "294",
+      "url": "https://x.com/i/status/2093720233060323540",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQ5jc5RbwAA3ypP.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQ5jc5RbwAA3ypP.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 58.837,
+      "title": "AI 真正可怕的是下一代已经在系统学",
+      "summary": "从马斯克、刘强东的自动化判断说到教育部推进中小学 AI 教育（目标 2030 年前贯通全学段）。作者强调：拉开差距的不是背多少 AI 知识，而是会不会用 AI 学习、写作、分析和解决问题；更可能是会用 AI 的人淘汰不会用的人，而不是 AI 直接淘汰人。",
+      "recommend_reason": "把「工具焦虑」落到教育代差，观点清楚，适合存档对照。",
+      "tags": [
+        "AI教育",
+        "社会影响",
+        "观点"
+      ],
+      "rank": 7
+    },
+    {
       "id": "2093549200403308958",
       "author": "JulianGoldieSEO",
       "bio": "",
@@ -35,7 +277,7 @@
         "开源",
         "工具"
       ],
-      "rank": 1
+      "rank": 8
     },
     {
       "id": "2093548060102328508",
@@ -76,7 +318,7 @@
         "插件",
         "Agent"
       ],
-      "rank": 2
+      "rank": 9
     },
     {
       "id": "2093543076367389130",
@@ -127,7 +369,7 @@
         "信息图",
         "GPT"
       ],
-      "rank": 3
+      "rank": 10
     },
     {
       "id": "2093541555068182781",
@@ -162,7 +404,7 @@
         "Anthropic",
         "AI编程"
       ],
-      "rank": 4
+      "rank": 11
     },
     {
       "id": "2093541244903301321",
@@ -205,7 +447,7 @@
         "Cursor",
         "行业"
       ],
-      "rank": 5
+      "rank": 12
     },
     {
       "id": "2093539751127040157",
@@ -234,7 +476,7 @@
         "Skill",
         "CodeReview"
       ],
-      "rank": 6
+      "rank": 13
     },
     {
       "id": "2093539130949173648",
@@ -277,7 +519,7 @@
         "Cursor",
         "Grok"
       ],
-      "rank": 7
+      "rank": 14
     },
     {
       "id": "2093534109851435118",
@@ -306,7 +548,7 @@
         "记忆",
         "开源"
       ],
-      "rank": 8
+      "rank": 15
     },
     {
       "id": "2093532203598618679",
@@ -335,7 +577,7 @@
         "Cursor",
         "吐槽"
       ],
-      "rank": 9
+      "rank": 16
     },
     {
       "id": "2093531129391567117",
@@ -370,7 +612,7 @@
         "人像",
         "提示词"
       ],
-      "rank": 10
+      "rank": 17
     },
     {
       "id": "2093527806802276580",
@@ -399,7 +641,7 @@
         "短剧",
         "开源"
       ],
-      "rank": 11
+      "rank": 18
     },
     {
       "id": "2093526972781695310",
@@ -428,10 +670,10 @@
         "3D",
         "空间智能"
       ],
-      "rank": 12
+      "rank": 19
     }
   ],
-  "generated_at": "2026-08-29T04:22:57Z",
+  "generated_at": "2026-08-29T16:16:36Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -439,13 +681,13 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 12,
-    "last_batch_added": 12,
+    "actual_count": 19,
+    "last_batch_added": 7,
     "last_batch_skipped_dup": 0,
-    "last_batch_skipped_author": 0,
+    "last_batch_skipped_author": 1,
     "last_batch_skipped_day_cap": 0,
     "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
     "short_tweet": {
