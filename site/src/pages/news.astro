@@ -2,9 +2,11 @@
 import "../styles/global.css";
 import NewsDayGroup from "../components/NewsDayGroup.astro";
 import SiteNav from "../components/SiteNav.astro";
+import { getNewsBriefs } from "../lib/news-briefs.mjs";
 import { categoryFilters, getNewsFeed, groupNewsDays } from "../lib/news.mjs";
 
 const feed = await getNewsFeed();
+const briefs = await getNewsBriefs();
 const items = feed.items ?? [];
 const days = groupNewsDays(items);
 const filters = categoryFilters(items);
@@ -15,7 +17,7 @@ const aihotHome = "https://aihot.virxact.com/";
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="从 AIHOT 精选的近 24 小时 AI 资讯" />
+    <meta name="description" content="按北京时间日历日排列的 AIHOT 精选时间线" />
     <title>资讯 · 工具库</title>
   </head>
   <body>
@@ -26,7 +28,7 @@ const aihotHome = "https://aihot.virxact.com/";
           <p class="eyebrow">AI 资讯精选</p>
           <h1>资讯</h1>
           <p class="intro">
-            近 24 小时 AIHOT 精选，按北京时间排成时间线，摘要与推荐理由照录原文。
+            累积收录的 AIHOT 精选，按北京时间日历日排成时间线，最新一天默认展开。摘要与推荐理由照录原文。
             数据来源 <a href={aihotHome} target="_blank" rel="noreferrer">AIHOT</a>。
           </p>
         </div>
@@ -63,7 +65,7 @@ const aihotHome = "https://aihot.virxact.com/";
             </p>
           )}
           <main id="news-list" class="twitter-timeline news-timeline" aria-label="AIHOT 精选资讯">
-            {days.map((day, index) => <NewsDayGroup day={day} defaultOpen={index === 0} />)}
+            {days.map((day, index) => <NewsDayGroup day={day} brief={briefs[day.date]} defaultOpen={index === 0} />)}
           </main>
         </>
       )}
@@ -71,7 +73,7 @@ const aihotHome = "https://aihot.virxact.com/";
     <footer class="site-footer">
       <p>
         数据来源 <a href={aihotHome} target="_blank" rel="noreferrer">AIHOT</a>
-        。近 24 小时精选公开 API，供个人非商业收藏。摘要与推荐理由未改写。
+        。精选公开 API 累积收藏，供个人非商业使用。摘要与推荐理由未改写。
       </p>
     </footer>
     <script>

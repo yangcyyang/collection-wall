@@ -18,8 +18,9 @@ type NewsItem = {
   links: { aihot: string; original: string };
 };
 
-type Props = { day: { date: string; items: NewsItem[] }; defaultOpen?: boolean };
-const { day, defaultOpen = false } = Astro.props;
+type NewsBrief = { date: string; watch: string; body: string };
+type Props = { day: { date: string; items: NewsItem[] }; brief?: NewsBrief; defaultOpen?: boolean };
+const { day, brief, defaultOpen = false } = Astro.props;
 const [dateLabel, weekdayLabel] = formatNewsDayLabel(day.date).split(" ");
 ---
 
@@ -29,6 +30,15 @@ const [dateLabel, weekdayLabel] = formatNewsDayLabel(day.date).split(" ");
     <h2>{dateLabel}</h2>
     <p>{weekdayLabel} · {day.items.length} 条</p>
   </summary>
+  {brief && (
+    <aside class="news-day-brief" aria-label="每日总结">
+      <div class="news-day-brief-meta">
+        <span class="news-day-brief-label">每日总结</span>
+        <span class="news-day-brief-watch">{brief.watch}</span>
+      </div>
+      <p class="news-day-brief-body">{brief.body}</p>
+    </aside>
+  )}
   <div class="timeline-items">
     {day.items.map((item) => (
       <article class="timeline-item" data-news-card data-tags={item.category}>
