@@ -6,9 +6,16 @@ import { shanghaiDateKey } from "./shanghai-date.mjs";
 export const AIHOT_SOURCE = "aihot";
 export const AIHOT_TITLE = "AIHOT 精选资讯";
 export const AIHOT_HOME = "https://aihot.virxact.com/";
-export const AIHOT_ITEMS_URL = "https://aihot.virxact.com/api/v1/items?mode=selected&window=24h";
+export const AIHOT_ITEMS_URL = "https://aihot.virxact.com/api/v1/items?mode=selected&window=7d";
 export const AIHOT_DAILIES_URL = "https://aihot.virxact.com/api/v1/dailies?limit=1";
 export const AIHOT_USER_AGENT = "Mozilla/5.0 (compatible; collection-wall-news/1.0; +https://wall.yangcyyang.cn/)";
+
+export function aihotItemsUrl(cursor) {
+  if (!cursor) return AIHOT_ITEMS_URL;
+  const url = new URL(AIHOT_ITEMS_URL);
+  url.searchParams.set("cursor", cursor);
+  return url.href;
+}
 
 export const CATEGORY_LABELS = {
   paper: "论文",
@@ -46,6 +53,10 @@ export function dedupItems(items = []) {
     out.push(item);
   }
   return out;
+}
+
+export function mergeNewsItems(incoming = [], existing = []) {
+  return dedupItems([...incoming, ...existing].filter(Boolean));
 }
 
 export function buildFeed({ items = [], updated_at, daily, error } = {}) {
@@ -187,23 +198,60 @@ export async function getNewsFeed(file = resolve(process.cwd(), "../data/news/ai
   }
 }
 
-export async function collectAihot({ fetchFn = globalThis.fetch, now = new Date() } = {}) {
-  const updated_at = now.toISOString();
+async function fetchSelectedItems(fetchFn) {
+  const items = [];
+  const seenCursors = new Set();
+  let cursor;
   try {
-    const payload = await readJson(fetchFn, AIHOT_ITEMS_URL);
-    const items = (payload.items ?? []).map(mapApiItem);
+    while (true) {
+      if (cursor) {
+        if (seenCursors.has(cursor)) break;
+        seenCursors.add(cursor);
+      }
+      const payload = await readJson(fetchFn, aihotItemsUrl(cursor));
+      items.push(...(payload.items ?? []).map(mapApiItem).filter(Boolean));
+      const next = payload.page?.hasMore ? payload.page.nextCursor : "";
+      if (!next) break;
+      cursor = next;
+    }
+    return { items };
+  } catch (error) {
+    if (items.length === 0) throw error;
+    return { items, error };
+  }
+}
+
+function errorMessage(error) {
+  return error instanceof Error ? error.message : error ? String(error) : undefined;
+}
+
+export async function collectAihot({ fetchFn = globalThis.fetch, now = new Date(), previous } = {}) {
+  const updated_at = now.toISOString();
+  const existing = Array.isArray(previous?.items) ? previous.items : [];
+  try {
+    const fetched = await fetchSelectedItems(fetchFn);
     let daily;
     try {
-      const dailies = await readJson(fetchFn, AIHOT_DAILIES_URL);
-      daily = mapDailyIndex(dailies.items?.[0]);
+      daily = mapDailyIndex((await readJson(fetchFn, AIHOT_DAILIES_URL)).items?.[0]);
     } catch {
-      daily = undefined;
+      daily = previous?.daily;
     }
-    return buildFeed({ items, updated_at, daily });
-  } catch (error) {
-    return emptyFeed({
+    return buildFeed({
+      items: mergeNewsItems(fetched.items, existing),
       updated_at,
-      error: error instanceof Error ? error.message : String(error),
+      daily,
+      error: errorMessage(fetched.error),
     });
+  } catch (error) {
+    const message = errorMessage(error);
+    if (existing.length > 0) {
+      return buildFeed({
+        items: existing,
+        updated_at,
+        daily: previous?.daily,
+        error: message,
+      });
+    }
+    return emptyFeed({ updated_at, error: message });
   }
 }
