@@ -167,6 +167,18 @@ h3 { font-size: var(--font-size-card-title); margin-bottom: var(--spacing-sm); o
 .tweet-link:focus-visible { outline: var(--outline-width) solid var(--color-brand); outline-offset: var(--outline-width); }
 .twitter-timeline:not(.knowledge-timeline):not(.news-timeline) .timeline-item { position: relative; }
 .twitter-timeline:not(.knowledge-timeline):not(.news-timeline) .tweet-link::after { content: ""; inset: 0; position: absolute; z-index: 1; }
+.news-day-brief {
+  background: var(--color-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-left: 3px solid var(--color-brand);
+  border-radius: var(--radius-card);
+  margin: 0 0 var(--spacing-md) calc(var(--tl-time-w) + var(--tl-rail-w));
+  padding: var(--spacing-sm) var(--spacing-md);
+}
+.news-day-brief-meta { align-items: center; display: flex; flex-wrap: wrap; gap: var(--spacing-sm); margin-bottom: var(--spacing-xs); }
+.news-day-brief-label { color: var(--color-brand); font-size: var(--font-size-caption); font-weight: 700; letter-spacing: 0.04em; }
+.news-day-brief-watch { background: var(--color-bg); border-radius: var(--radius-card); color: var(--color-text-secondary); font-size: var(--font-size-caption); padding: 0 var(--spacing-sm); }
+.news-day-brief-body { color: var(--color-text-primary); font-size: var(--font-size-caption); line-height: 1.55; margin: 0; }
 .news-timeline .timeline-item { cursor: default; }
 .news-timeline .tweet-title a { color: var(--color-brand); text-decoration: none; }
 .news-timeline .tweet-title a:hover { text-decoration: underline; }

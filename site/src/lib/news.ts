@@ -7,6 +7,7 @@ export {
   getNewsFeed,
   groupNewsDays,
 } from "./news.mjs";
+export { briefForDate, getNewsBriefs, parseNewsBriefs } from "./news-briefs.mjs";
 
 export type NewsLinks = {
   aihot: string;
@@ -34,6 +35,12 @@ export type NewsDaily = {
   date: string;
   title: string;
   url: string;
+};
+
+export type NewsBrief = {
+  date: string;
+  watch: string;
+  body: string;
 };
 
 export type NewsFeed = {

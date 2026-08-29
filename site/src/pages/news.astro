@@ -2,9 +2,11 @@
 import "../styles/global.css";
 import NewsDayGroup from "../components/NewsDayGroup.astro";
 import SiteNav from "../components/SiteNav.astro";
+import { getNewsBriefs } from "../lib/news-briefs.mjs";
 import { categoryFilters, getNewsFeed, groupNewsDays } from "../lib/news.mjs";
 
 const feed = await getNewsFeed();
+const briefs = await getNewsBriefs();
 const items = feed.items ?? [];
 const days = groupNewsDays(items);
 const filters = categoryFilters(items);
@@ -63,7 +65,7 @@ const aihotHome = "https://aihot.virxact.com/";
             </p>
           )}
           <main id="news-list" class="twitter-timeline news-timeline" aria-label="AIHOT 精选资讯">
-            {days.map((day, index) => <NewsDayGroup day={day} defaultOpen={index === 0} />)}
+            {days.map((day, index) => <NewsDayGroup day={day} brief={briefs[day.date]} defaultOpen={index === 0} />)}
           </main>
         </>
       )}
