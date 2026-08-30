@@ -1,13 +1,26 @@
 <div class="prompt-viewer" hidden data-prompt-viewer>
   <button type="button" class="prompt-viewer-backdrop" data-viewer-close aria-label="关闭查看器" tabindex="-1"></button>
-  <div class="prompt-viewer-dialog" role="dialog" aria-modal="true" aria-label="同组大图">
+  <div class="prompt-viewer-dialog" role="dialog" aria-modal="true" aria-labelledby="prompt-viewer-heading">
     <button type="button" class="prompt-viewer-close" data-viewer-close>关闭</button>
-    <button type="button" class="prompt-viewer-nav is-prev" data-viewer-prev aria-label="上一张">‹</button>
-    <figure class="prompt-viewer-stage" data-viewer-stage>
-      <img data-viewer-image alt="" referrerpolicy="no-referrer" />
-      <figcaption class="prompt-viewer-status" data-viewer-status></figcaption>
-    </figure>
-    <button type="button" class="prompt-viewer-nav is-next" data-viewer-next aria-label="下一张">›</button>
+    <div class="prompt-viewer-media">
+      <button type="button" class="prompt-viewer-nav is-prev" data-viewer-prev aria-label="上一张">‹</button>
+      <figure class="prompt-viewer-stage" data-viewer-stage>
+        <img data-viewer-image alt="" referrerpolicy="no-referrer" />
+        <figcaption class="prompt-viewer-status" data-viewer-status></figcaption>
+      </figure>
+      <button type="button" class="prompt-viewer-nav is-next" data-viewer-next aria-label="下一张">›</button>
+    </div>
+    <aside class="prompt-viewer-pane">
+      <h2 id="prompt-viewer-heading" class="prompt-viewer-kicker">提示词</h2>
+      <pre class="prompt-viewer-text" data-viewer-text></pre>
+      <div class="prompt-viewer-actions">
+        <button type="button" class="prompt-copy" data-viewer-copy>
+          <span data-viewer-copy-label>复制提示词</span>
+        </button>
+        <a class="prompt-source" data-viewer-source target="_blank" rel="noreferrer">原推</a>
+      </div>
+      <p class="prompt-viewer-tags" data-viewer-tags></p>
+    </aside>
   </div>
 </div>
 
@@ -15,6 +28,11 @@
   const viewer = document.querySelector("[data-prompt-viewer]");
   const imageEl = viewer?.querySelector("[data-viewer-image]");
   const statusEl = viewer?.querySelector("[data-viewer-status]");
+  const textEl = viewer?.querySelector("[data-viewer-text]");
+  const tagsEl = viewer?.querySelector("[data-viewer-tags]");
+  const sourceEl = viewer?.querySelector("[data-viewer-source]");
+  const copyBtn = viewer?.querySelector("[data-viewer-copy]");
+  const copyLabel = viewer?.querySelector("[data-viewer-copy-label]");
   const prevBtn = viewer?.querySelector("[data-viewer-prev]");
   const nextBtn = viewer?.querySelector("[data-viewer-next]");
   const stage = viewer?.querySelector("[data-viewer-stage]");
@@ -22,6 +40,7 @@
 
   let urls = [];
   let index = 0;
+  let promptText = "";
   let lastTrigger = null;
   let pointerX = 0;
   let pointerOn = false;
@@ -50,14 +69,42 @@
   }
 
   function trapFocusables() {
-    return [closeBtn, prevBtn, nextBtn].filter((el) => el && !el.hidden);
+    return [closeBtn, prevBtn, nextBtn, copyBtn, sourceEl].filter((el) => el && !el.hidden);
+  }
+
+  async function writeClipboard(text) {
+    if (navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(text);
+      return;
+    }
+    const area = document.createElement("textarea");
+    area.value = text;
+    area.setAttribute("readonly", "");
+    area.style.position = "fixed";
+    area.style.left = "-9999px";
+    document.body.append(area);
+    area.select();
+    document.execCommand("copy");
+    area.remove();
   }
 
   function open(card, trigger) {
     urls = setImages(card);
     if (!urls.length || !viewer) return;
     index = 0;
+    promptText = card.querySelector(".prompt-payload")?.textContent ?? "";
     lastTrigger = trigger ?? null;
+    if (textEl) textEl.textContent = promptText;
+    const source = card.querySelector(".prompt-source");
+    if (sourceEl && source instanceof HTMLAnchorElement) {
+      sourceEl.href = source.href;
+      sourceEl.textContent = source.textContent || "原文";
+    }
+    if (tagsEl) {
+      const type = card.getAttribute("data-type") ?? "";
+      const facets = (card.getAttribute("data-facets") ?? "").split(",").filter(Boolean);
+      tagsEl.textContent = [type, ...facets].filter(Boolean).join(" · ");
+    }
     viewer.hidden = false;
     document.body.classList.add("prompt-viewer-open");
     setBackgroundInert(true);
@@ -71,6 +118,7 @@
     document.body.classList.remove("prompt-viewer-open");
     setBackgroundInert(false);
     urls = [];
+    promptText = "";
     lastTrigger?.focus();
     lastTrigger = null;
   }
@@ -94,6 +142,21 @@
   });
   prevBtn?.addEventListener("click", () => step(-1));
   nextBtn?.addEventListener("click", () => step(1));
+  copyBtn?.addEventListener("click", async () => {
+    if (!promptText) return;
+    try {
+      await writeClipboard(promptText);
+      copyBtn.classList.add("is-copied");
+      if (copyLabel) copyLabel.textContent = "已复制";
+      window.setTimeout(() => {
+        copyBtn.classList.remove("is-copied");
+        if (copyLabel) copyLabel.textContent = "复制提示词";
+      }, 1600);
+    } catch {
+      if (copyLabel) copyLabel.textContent = "无法复制，请选中正文";
+      textEl?.focus();
+    }
+  });
 
   document.addEventListener("keydown", (event) => {
     if (!viewer || viewer.hidden) return;
@@ -123,9 +186,6 @@
     const delta = event.clientX - pointerX;
     if (Math.abs(delta) >= 40) {
       step(delta < 0 ? 1 : -1);
-      return;
     }
-    const box = stage.getBoundingClientRect();
-    step(event.clientX < box.left + box.width / 2 ? -1 : 1);
   });
 </script>
