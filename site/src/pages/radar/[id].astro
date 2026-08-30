@@ -1,0 +1,154 @@
+---
+import "../../styles/global.css";
+import SiteNav from "../../components/SiteNav.astro";
+import { formatBeijingDateTime } from "../../lib/news.mjs";
+import {
+  getProductById,
+  getSignalById,
+  radarStaticPaths,
+  radarStatusClass,
+  sortEvidenceByDate,
+} from "../../lib/radar";
+
+export async function getStaticPaths() {
+  return radarStaticPaths();
+}
+
+const { id } = Astro.params;
+const signal = id ? await getSignalById(id) : null;
+const product = signal || !id ? null : await getProductById(id);
+
+if (!signal && !product) {
+  return new Response(null, { status: 404, statusText: "Not Found" });
+}
+
+const title = signal?.title ?? product?.name ?? id;
+const tags = signal?.tags ?? product?.tags ?? [];
+const evidence = signal ? sortEvidenceByDate(signal.evidence ?? []) : [];
+const watchNext = signal?.watch_next ?? [];
+const judgments = signal?.judgment_changes ?? [];
+const urls = Object.entries(product?.urls ?? {}).filter(([, url]) => url);
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={signal?.summary ?? product?.summary ?? title} />
+    <title>{title} · 雷达</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#radar-detail">跳到正文</a>
+    <div class="page-shell">
+      <header class="site-header">
+        <div>
+          <p class="eyebrow"><a href="/radar/">雷达</a></p>
+          <h1>{title}</h1>
+          <p class="intro">{signal?.summary ?? product?.summary}</p>
+        </div>
+        <div class="header-stats">
+          <p class="record-count">
+            score {signal?.score ?? product?.score}
+            {signal?.confidence ? ` · ${signal.confidence}` : ""}
+          </p>
+          <span class:list={["status", radarStatusClass(signal?.status ?? product?.status)]}>
+            {signal?.status ?? product?.status}
+          </span>
+        </div>
+      </header>
+
+      <SiteNav current="radar" />
+
+      <main id="radar-detail">
+        {tags.length > 0 && (
+          <div class="tag-list">{tags.map((tag) => <span>{tag}</span>)}</div>
+        )}
+
+        {signal?.why_it_matters && (
+          <section class="tool-section" aria-labelledby="why-title">
+            <div class="section-heading"><h2 id="why-title">why it matters</h2></div>
+            <div class="news-day-brief">
+              <p class="news-day-brief-body">{signal.why_it_matters}</p>
+            </div>
+          </section>
+        )}
+
+        {product?.novelty && (
+          <section class="tool-section" aria-labelledby="novelty-title">
+            <div class="section-heading"><h2 id="novelty-title">novelty</h2></div>
+            <div class="news-day-brief">
+              <p class="news-day-brief-body">{product.novelty}</p>
+            </div>
+          </section>
+        )}
+
+        {urls.length > 0 && (
+          <section class="tool-section" aria-labelledby="urls-title">
+            <div class="section-heading"><h2 id="urls-title">urls</h2></div>
+            <p class="news-links">
+              {urls.map(([key, url]) => (
+                <a class="tweet-link" href={url} target="_blank" rel="noreferrer">{key} →</a>
+              ))}
+            </p>
+          </section>
+        )}
+
+        {evidence.length > 0 && (
+          <section class="tool-section" aria-labelledby="evidence-title">
+            <div class="section-heading">
+              <h2 id="evidence-title">evidence</h2>
+              <p>{evidence.length} 条</p>
+            </div>
+            <div class="twitter-timeline news-timeline" aria-label="evidence">
+              <div class="timeline-items">
+                {evidence.map((item) => (
+                  <article class="timeline-item">
+                    <span class="timeline-time">{item.date ? formatBeijingDateTime(item.date) : ""}</span>
+                    <span class="timeline-rail"><i class="timeline-dot"></i></span>
+                    <div class="tweet-card">
+                      <div class="tweet-body">
+                        <p class="tweet-meta">
+                          {item.source && <span class="tweet-author">{item.source}</span>}
+                        </p>
+                        {item.note && <p class="tweet-summary">{item.note}</p>}
+                        {item.url && (
+                          <p class="news-links">
+                            <a class="tweet-link" href={item.url} target="_blank" rel="noreferrer">{item.url} →</a>
+                          </p>
+                        )}
+                      </div>
+                    </div>
+                  </article>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {watchNext.length > 0 && (
+          <section class="tool-section" aria-labelledby="watch-next-title">
+            <div class="section-heading"><h2 id="watch-next-title">watch next</h2></div>
+            <ul class="k-points">{watchNext.map((item) => <li>{item}</li>)}</ul>
+          </section>
+        )}
+
+        {judgments.length > 0 && (
+          <section class="tool-section" aria-labelledby="judgment-title">
+            <div class="section-heading"><h2 id="judgment-title">judgment changes</h2></div>
+            <ul class="k-points">
+              {judgments.map((item) => (
+                <li>
+                  {item.date ? `${formatBeijingDateTime(item.date)} · ` : ""}
+                  {item.change}
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+      </main>
+    </div>
+    <footer class="site-footer">
+      <p><a href="/radar/">← 返回雷达</a></p>
+    </footer>
+  </body>
+</html>

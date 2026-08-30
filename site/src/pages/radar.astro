@@ -1,0 +1,166 @@
+---
+import "../styles/global.css";
+import SiteNav from "../components/SiteNav.astro";
+import { formatBeijingDateTime } from "../lib/news.mjs";
+import {
+  emergingSignals,
+  getProducts,
+  getSignals,
+  getSignalsFeed,
+  getWatchlist,
+  homepageProducts,
+  homepageSignals,
+  radarStatusClass,
+} from "../lib/radar";
+
+const feed = await getSignalsFeed();
+const signals = await getSignals();
+const products = await getProducts();
+const watchlist = await getWatchlist();
+const topSignals = homepageSignals(signals);
+const newProducts = homepageProducts(products);
+const emerging = emergingSignals(signals);
+const hasContent = topSignals.length + newProducts.length + emerging.length + watchlist.length > 0;
+const updated = formatBeijingDateTime(feed.updated_at);
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={feed.title || "雷达"} />
+    <title>雷达 · 工具库</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#radar-list">跳到列表</a>
+    <div class="page-shell">
+      <header class="site-header">
+        <div>
+          <p class="eyebrow">{feed.source || "雷达"}</p>
+          <h1>雷达</h1>
+          {feed.title && <p class="intro">{feed.title}{updated ? ` · ${updated}` : ""}</p>}
+        </div>
+        <p class="record-count">{signals.length} 条信号 · {products.length} 个产品 · {watchlist.length} 条观察</p>
+      </header>
+
+      <SiteNav current="radar" />
+
+      {!hasContent ? (
+        <main id="radar-list">
+          <section class="empty-state" aria-labelledby="empty-title">
+            <p class="empty-icon">✦</p>
+            <h2 id="empty-title">暂时没有雷达条目</h2>
+            <p>等待 data/radar 写入 signals / products / watchlist 后会出现在这里。</p>
+          </section>
+        </main>
+      ) : (
+        <main id="radar-list">
+          {topSignals.length > 0 && (
+            <section class="tool-section" aria-labelledby="top-signals-title">
+              <div class="section-heading">
+                <h2 id="top-signals-title">TODAY'S TOP SIGNALS</h2>
+                <p>{topSignals.length} 条</p>
+              </div>
+              <div class="tool-grid">
+                {topSignals.map((item) => (
+                  <article class="tool-card">
+                    <a class="card-link" href={`/radar/${item.id}/`} aria-label={item.title}></a>
+                    <div class="card-content">
+                      <div class="card-meta">
+                        <span class="tweet-score">{item.score}</span>
+                        <span class:list={["status", radarStatusClass(item.status)]}>{item.status}</span>
+                      </div>
+                      <h3>{item.title}</h3>
+                      <p>{item.summary}</p>
+                      <div class="tag-list">{(item.tags ?? []).slice(0, 8).map((tag) => <span>{tag}</span>)}</div>
+                    </div>
+                  </article>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {newProducts.length > 0 && (
+            <section class="tool-section" aria-labelledby="new-products-title">
+              <div class="section-heading">
+                <h2 id="new-products-title">NEW PRODUCTS</h2>
+                <p>{newProducts.length} 条</p>
+              </div>
+              <div class="tool-grid">
+                {newProducts.map((item) => (
+                  <article class="tool-card">
+                    <a class="card-link" href={`/radar/${item.id}/`} aria-label={item.name}></a>
+                    <div class="card-content">
+                      <div class="card-meta">
+                        <span class="tweet-score">{item.score}</span>
+                        <span class:list={["status", radarStatusClass(item.status)]}>{item.status}</span>
+                      </div>
+                      <h3>{item.name}</h3>
+                      <p>{item.summary}</p>
+                      <div class="tag-list">{(item.tags ?? []).slice(0, 8).map((tag) => <span>{tag}</span>)}</div>
+                    </div>
+                  </article>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {emerging.length > 0 && (
+            <section class="tool-section" aria-labelledby="emerging-title">
+              <div class="section-heading">
+                <h2 id="emerging-title">EMERGING SIGNALS</h2>
+                <p>{emerging.length} 条</p>
+              </div>
+              <div class="tool-grid">
+                {emerging.map((item) => (
+                  <article class="tool-card">
+                    <a class="card-link" href={`/radar/${item.id}/`} aria-label={item.title}></a>
+                    <div class="card-content">
+                      <div class="card-meta">
+                        <span class="tweet-score">{item.score}</span>
+                        <span class:list={["status", radarStatusClass(item.status)]}>{item.status}</span>
+                      </div>
+                      <h3>{item.title}</h3>
+                      <p>{item.summary}</p>
+                      <div class="tag-list">{(item.tags ?? []).slice(0, 8).map((tag) => <span>{tag}</span>)}</div>
+                    </div>
+                  </article>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {watchlist.length > 0 && (
+            <section class="tool-section" aria-labelledby="watchlist-title">
+              <div class="section-heading">
+                <h2 id="watchlist-title">WATCHLIST</h2>
+                <p>{watchlist.length} 条</p>
+              </div>
+              <div class="tool-grid">
+                {watchlist.map((item) => {
+                  const href = item.related_signals?.[0] ? `/radar/${item.related_signals[0]}/` : "";
+                  return (
+                    <article class="tool-card">
+                      {href && <a class="card-link" href={href} aria-label={item.title}></a>}
+                      <div class="card-content">
+                        <div class="card-meta">
+                          <span class="category">{item.since ? formatBeijingDateTime(item.since) : ""}</span>
+                          <span class:list={["status", radarStatusClass(item.status)]}>{item.status}</span>
+                        </div>
+                        <h3>{item.title}</h3>
+                        <p>{item.why}</p>
+                      </div>
+                    </article>
+                  );
+                })}
+              </div>
+            </section>
+          )}
+        </main>
+      )}
+    </div>
+    <footer class="site-footer">
+      <p>数据来自 data/radar JSON，构建时读取，不另存 HTML。</p>
+    </footer>
+  </body>
+</html>
