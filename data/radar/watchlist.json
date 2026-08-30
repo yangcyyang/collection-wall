@@ -1,0 +1,77 @@
+{
+  "source": "ai-frontier-radar",
+  "title": "AI Frontier Watchlist",
+  "updated_at": "2026-08-31T01:40:00+08:00",
+  "count": 7,
+  "items": [
+    {
+      "id": "cursor-openai-nov12",
+      "title": "Cursor × OpenAI 11/12 切断",
+      "why": "日期、Astra 是否永远不进、用户默认模型会否静默切换",
+      "since": "2026-08-28T00:00:00+08:00",
+      "last_updated": "2026-08-31T00:00:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "coding-agent-supply-chain"
+      ]
+    },
+    {
+      "id": "hy4-rsi-verify",
+      "title": "Hy4 RSI 声明能否被第三方复现",
+      "why": "训练侧自我改进若成立，会改变开源模型叙事",
+      "since": "2026-08-28T00:00:00+08:00",
+      "last_updated": "2026-08-31T00:00:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "recursive-alignment-loop"
+      ]
+    },
+    {
+      "id": "agent-computer-category",
+      "title": "beafk / useagent / vicoa 谁先做出离开后还在跑",
+      "why": "同一品类三套实现，决定 persistent computer 的默认形态",
+      "since": "2026-08-29T00:00:00+08:00",
+      "last_updated": "2026-08-31T00:00:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "agent-persistent-computer"
+      ]
+    },
+    {
+      "id": "apache-maka",
+      "title": "apache/maka 会否成为本地执行记录标准",
+      "why": "ASF + 本周星速",
+      "since": "2026-08-30T00:00:00+08:00",
+      "last_updated": "2026-08-31T00:00:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "apache-maka-durable-workspace"
+      ]
+    },
+    {
+      "id": "astra-checkpoint",
+      "title": "Astra / mozaik-alpha-fdm",
+      "why": "社区传闻 vs 官方 Critical cyber 暂停 vs 不给 Cursor。只看官方。",
+      "since": "2026-08-29T00:00:00+08:00",
+      "last_updated": "2026-08-31T00:00:00+08:00",
+      "status": "watching",
+      "confidence": "low"
+    },
+    {
+      "id": "anthropic-limits-sep14",
+      "title": "Claude Code 9/14 限额落地与用量可见性",
+      "why": "产能在给 coding agent 定价",
+      "since": "2026-08-29T00:00:00+08:00",
+      "last_updated": "2026-08-31T00:00:00+08:00",
+      "status": "watching"
+    },
+    {
+      "id": "maritime-wake-cost",
+      "title": "Maritime $1/agent VM 醒来后的真实成本",
+      "why": "商业模式是否只在 sleep 时成立",
+      "since": "2026-08-30T00:00:00+08:00",
+      "last_updated": "2026-08-31T00:00:00+08:00",
+      "status": "watching"
+    }
+  ]
+}

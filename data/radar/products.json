@@ -1,0 +1,151 @@
+{
+  "source": "ai-frontier-radar",
+  "title": "AI Frontier Products",
+  "updated_at": "2026-08-31T01:40:00+08:00",
+  "count": 7,
+  "items": [
+    {
+      "id": "beafk",
+      "name": "beafk",
+      "score": 78,
+      "status": "new",
+      "first_detected": "2026-08-29T00:00:00+08:00",
+      "last_updated": "2026-08-31T00:00:00+08:00",
+      "summary": "手机遥控本机官方 CLI（Claude Code / Codex / Grok Build / Kimi Code），Tailscale 短证后离开中间人。按机器计费。",
+      "novelty": "AFK coding + machine pricing + not-in-the-middle privacy",
+      "urls": {
+        "site": "https://beafk.app",
+        "press": "https://www.einpresswire.com/article/938036896/beafk-app-launches-mobile-first-ai-coding-agent-orchestration-on-product-hunt"
+      },
+      "tags": [
+        "Agent",
+        "Mobile",
+        "Orchestration"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "omlx",
+      "name": "oMLX",
+      "score": 77,
+      "status": "new",
+      "first_detected": "2026-08-30T00:00:00+08:00",
+      "last_updated": "2026-08-31T00:00:00+08:00",
+      "summary": "Mac 本地 MLX 推理，paged SSD KV cache，把 coding agent 等待从约 90s 打到 5s。",
+      "novelty": "cache design for agents that invalidate KV constantly, not another Ollama",
+      "urls": {
+        "site": "https://omlx.ai",
+        "github": "https://github.com/jundot/omlx",
+        "ph": "https://www.producthunt.com/leaderboard/daily/2026/8/30"
+      },
+      "tags": [
+        "Local",
+        "Inference",
+        "Mac"
+      ],
+      "homepage": true,
+      "unverified": [
+        "omlx.ai claimed 21k GitHub stars"
+      ]
+    },
+    {
+      "id": "seendiff",
+      "name": "seendiff",
+      "score": 75,
+      "status": "new",
+      "first_detected": "2026-08-29T00:00:00+08:00",
+      "last_updated": "2026-08-31T00:00:00+08:00",
+      "summary": "给 coding agent 超大 diff 的本地工具：Seen vs Reviewed，并可让 agent 讲解自己的 patch。",
+      "novelty": "human checkpoint UX for AI-scale diffs",
+      "urls": {
+        "site": "https://seendiff.com",
+        "github": "https://github.com/acme-dot-bot/seendiff",
+        "ph": "https://www.producthunt.com/products/seendiff"
+      },
+      "tags": [
+        "Code Review",
+        "Agent"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "useagent",
+      "name": "useagent",
+      "score": 83,
+      "status": "new",
+      "first_detected": "2026-08-29T00:00:00+08:00",
+      "last_updated": "2026-08-31T00:00:00+08:00",
+      "summary": "把 Claude Code/Codex/OpenCode/Pi 包成引擎，隔离 Linux sandbox + 事件溯源 + HITL。8/29 新建，约 124★。",
+      "novelty": "productized cloud computer + any harness + event log",
+      "urls": {
+        "github": "https://github.com/useagenthq/useagent",
+        "docs": "https://useagent.org/docs/"
+      },
+      "tags": [
+        "Orchestration",
+        "Sandbox"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "maritime",
+      "name": "Maritime",
+      "score": 71,
+      "status": "watching",
+      "first_detected": "2026-08-30T00:00:00+08:00",
+      "last_updated": "2026-08-31T00:00:00+08:00",
+      "summary": "二次发布：每个客户的 agent 一台隔离电脑，从 $1/月起。卖给做 agent 产品的公司。",
+      "novelty": "per-end-user-agent computer as a business, not cheap VPS",
+      "urls": {
+        "site": "https://maritime.sh",
+        "ph": "https://www.producthunt.com/products/maritime"
+      },
+      "tags": [
+        "Infra",
+        "Business Model"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "superagent-mac",
+      "name": "Superagent (Mac)",
+      "score": 71,
+      "status": "new",
+      "first_detected": "2026-08-30T00:00:00+08:00",
+      "last_updated": "2026-08-31T00:00:00+08:00",
+      "summary": "Claude Code for the rest of us：本机登录态浏览器、iOS Simulator、独立 worktree、iPhone 配对。不是 Airtable Superagent，也不是 superagent.sh。",
+      "novelty": "CLI agent gets a persistent local computer",
+      "urls": {
+        "ph": "https://www.producthunt.com/products/superagent-a-home-for-your-ai-agents"
+      },
+      "tags": [
+        "Agent",
+        "Mac",
+        "Local"
+      ],
+      "homepage": false,
+      "unverified": [
+        "official domain not confirmed this scan"
+      ]
+    },
+    {
+      "id": "caddi",
+      "name": "Caddi",
+      "score": 68,
+      "status": "watching",
+      "first_detected": "2026-08-28T00:00:00+08:00",
+      "last_updated": "2026-08-31T00:00:00+08:00",
+      "summary": "屏幕共享一次 → 在真实工具上跑 hybrid agent。窗口边缘（约早 10 小时），仍是周末最强新交互。",
+      "novelty": "teach-by-showing, not RPA spec",
+      "urls": {
+        "site": "https://www.trycaddi.com/product",
+        "ph": "https://www.producthunt.com/products/caddi-3"
+      },
+      "tags": [
+        "Agent Builder",
+        "RPA"
+      ],
+      "homepage": false
+    }
+  ]
+}
