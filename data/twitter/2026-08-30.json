@@ -1,0 +1,548 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-30",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2093915471448080441",
+      "author": "YuLin807",
+      "bio": "",
+      "text": "既然grok bot 的额度用完之后云电脑就会关闭，那我只能减少对grok bot 的额度使用，从而保持云电脑的一直开机。🤣",
+      "created_at": "Sun Aug 30 04:15:26 +0000 2026",
+      "likes": 0,
+      "views": "0",
+      "url": "https://x.com/i/status/2093915471448080441",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2093679906203091136",
+        "author": "YuLin807",
+        "name": "QingYue",
+        "text": "grok bot 用了接近一天了！暂时还没有上一些其他的配置。单说一个吊打其他Agent 的体验吧，对标 codex 的浏览器操控能力。\n\ngrok bot 对自己云电脑里的谷歌浏览器操作，非常快速，我让他去帮我申请一下 openai 和 claude 的开发者资助，几乎是一路火花带闪电就做完了。\n\n当时我安排给他三个任务，他是夹带着就把开发者资助额度搞定了！很快。\n\n我现在甚至都想让他定时帮我监控闲鱼、Reddit、YouTube、HN news 哈哈哈🤣\n\n你们体验过的一定不会失望。",
+        "created_at": "Sat Aug 29 12:39:22 +0000 2026",
+        "url": "https://x.com/YuLin807/status/2093679906203091136",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 45.564,
+      "title": null,
+      "summary": "既然grok bot 的额度用完之后云电脑就会关闭，那我只能减少对grok bot 的额度使用，从而保持云电脑的一直开机。🤣",
+      "recommend_reason": "Grok Bot 额度与云电脑生命周期绑定的实操提醒，跑长任务的人要提前规划。",
+      "tags": [
+        "Grok Bot",
+        "云电脑",
+        "额度",
+        "体验"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2093909737893138564",
+      "author": "IndieDevHailey",
+      "bio": "",
+      "text": "最近这个老项目又被 AI 圈翻出来了。\n\n殆知阁古代文献，把中国古籍按儒、佛、道、医、史、易、诗等十大类整理成 TXT，整个仓库 2GB+，GitHub 2.6K Star。\n\n没什么花哨界面，就是一大批可以直接搜索、下载、喂给 AI 的古籍原文。\n\n拿来做古籍检索、RAG 知识库、国学 AI 都很合适。 https://t.co/Qk9eU6zZ01",
+      "created_at": "Sun Aug 30 03:52:39 +0000 2026",
+      "likes": 2,
+      "views": "137",
+      "url": "https://x.com/i/status/2093909737893138564",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2093909544024109056/vid/avc1/472x270/S-HBRtAq4u5CUHgH.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2093909544024109056/img/QPqzSHUlgny3WG0B.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 60.785,
+      "title": null,
+      "summary": "最近这个老项目又被 AI 圈翻出来了。\n\n殆知阁古代文献，把中国古籍按儒、佛、道、医、史、易、诗等十大类整理成 TXT，整个仓库 2GB+，GitHub 2.6K Star。\n\n没什么花哨界面，就是一大批可以直接搜索、下载、喂给 AI 的古籍原文。\n\n拿来做古籍检索、RAG 知识库、国学 AI 都很合适。 https://t.co/Qk9eU6zZ01",
+      "recommend_reason": "干净可喂模型的古籍 TXT 仓，国学 RAG 直接能用，不用自己 OCR。",
+      "tags": [
+        "古籍",
+        "RAG",
+        "数据集",
+        "开源"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2093907037348581676",
+      "author": "IndieDevHailey",
+      "bio": "",
+      "text": "AI 应用越卷，搜索底座反而越重要。\n\nMeilisearch，GitHub 59K+ Star 的开源搜索引擎，Rust 写的，主打快。\n\n支持输入即搜、拼写容错、过滤排序、地理搜索，现在还有关键词 + 语义混合搜索，也能接 LangChain、MCP。\n\n做 AI 搜索、知识库、RAG、SaaS 站内搜索，都很顺手。 https://t.co/CF2uDV3tw4",
+      "created_at": "Sun Aug 30 03:41:55 +0000 2026",
+      "likes": 3,
+      "views": "213",
+      "url": "https://x.com/i/status/2093907037348581676",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2093906619109367808/vid/avc1/480x270/zpzJmMItE8wtEKO4.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2093906619109367808/img/Q_Sir0cs8zgywDo4.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 61.25,
+      "title": null,
+      "summary": "AI 应用越卷，搜索底座反而越重要。\n\nMeilisearch，GitHub 59K+ Star 的开源搜索引擎，Rust 写的，主打快。\n\n支持输入即搜、拼写容错、过滤排序、地理搜索，现在还有关键词 + 语义混合搜索，也能接 LangChain、MCP。\n\n做 AI 搜索、知识库、RAG、SaaS 站内搜索，都很顺手。 https://t.co/CF2uDV3tw4",
+      "recommend_reason": "RAG/站内搜常被忽略的底座；混合检索+LangChain/MCP 入口写清楚了。",
+      "tags": [
+        "Meilisearch",
+        "搜索",
+        "RAG",
+        "开源"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2093905194795008429",
+      "author": "JulianGoldieSEO",
+      "bio": "",
+      "text": "A mystery AI model just topped the charts under a fake name. 🤯\n\nNobody knew who built it.\n\nFor a week, developers argued about it non-stop.\n\nThen the company finally admitted the truth.\n\nIt was https://t.co/jChI37lb6q's new model: GLM-5.3-Flash.\n\n→ Natively multimodal (text, image, video, files — all in one chat)\n→ 1 million token context window\n→ 320B total params, only 18B active at once\n→ Nearly doubled its score on agentic benchmarks\n→ Scored almost identical to Claude Opus 4.8 on real coding tasks\n\nIt wasn't hype. It was already winning before anyone knew its name.\n\nSave this video, you'll want to build with this model early. 💬\n\nWant the SOP? DM me",
+      "created_at": "Sun Aug 30 03:34:35 +0000 2026",
+      "likes": 0,
+      "views": "861",
+      "url": "https://x.com/i/status/2093905194795008429",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2093902851768774656/vid/avc1/480x270/AuCNHFsQERLvc17S.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2093902851768774656/img/hole9C0wHlx1rwCt.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 54.59,
+      "title": "匿名登顶一周后揭晓：智谱 GLM-5.3-Flash",
+      "summary": "一款以假名登顶榜单的神秘模型，一周后公司承认是智谱新模型 GLM-5.3-Flash：原生多模态（文本/图/视频/文件同聊）、100 万 token 上下文、320B 总参仅 18B 激活，agent 基准近翻倍，真实编码任务接近 Claude Opus 4.8。作者夹带引流，但规格与「先赢再露名」本身值得记一笔。",
+      "recommend_reason": "匿名登顶再官宣的路径少见；Flash 规格（MoE + 百万上下文 + 多模态）对选型有用。",
+      "tags": [
+        "智谱",
+        "GLM",
+        "模型发布",
+        "多模态"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2093903829054189922",
+      "author": "DtDt666",
+      "bio": "",
+      "text": "9月美股，重点不是某一天的数据，而是一整个月的“预期再定价”。\n\n这张日历最核心的线，其实就三条：\n就业、通胀、联储。\n\n月初先看 ADP 和非农，市场会先判断劳动力到底是在降温，还是仍然偏强。  \n如果就业强，降息预期容易被压回去，利率敏感板块就会承压。  \n如果就业弱，短期可能利好降息交易，但也会让市场担心经济放缓。\n\n中旬看 PPI、CPI、零售销售和 FOMC。\n这几组数据会决定市场到底是继续交易“降息快来了”，还是重新回到“通胀还没结束”的逻辑里。尤其是 CPI 和 PCE，一个影响情绪，一个影响联储路径，9月很多波动大概率会围绕它们展开。\n\n但这次9月不只是宏观数据月。\n科技线也很密集：Broadcom 财报、苹果秋季发布会、Meta Connect，这些事件都会影响 AI、半导体、消费电子和应用端的风险偏好。\n\n所以我觉得9月的看点，不是简单猜涨跌，而是看资金到底往哪里站队：\n是继续押 AI 主线？  \n还是转向防御和现金流？  \n是相信降息交易？  \n还是担心通胀反复？\n\n对普通投资者来说，最好的用法不是拿日历去赌数据，而是提前知道哪些时间点可能放大波动。\n上旬看就业和科技大厂催化。  \n中旬看通胀、零售和 FOMC。  \n月底看 PCE 给降息预期做最后确认。\n\n9月最大的变量是利率预期，最大的机会可能来自 AI 主线和科技事件共振。\n\n但真正决定仓位的，还是一句话：\n数据决定预期，预期决定资金方向。",
+      "created_at": "Sun Aug 30 03:29:10 +0000 2026",
+      "likes": 9,
+      "views": "2160",
+      "url": "https://x.com/i/status/2093903829054189922",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQ8KbYEaAAAqcvP.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQ8KbYEaAAAqcvP.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 44.035,
+      "title": "9 月美股日历：就业、通胀、联储 + 科技事件共振",
+      "summary": "作者把 9 月看成「预期再定价」月：上旬 ADP/非农定劳动力冷热与降息预期；中旬 PPI/CPI/零售/FOMC 决定继续押降息还是担心通胀；同步科技线有 Broadcom 财报、苹果秋季发布会、Meta Connect，牵动 AI/半导体与消费电子风险偏好。建议用日历预判波动放大时点，而不是赌单次数据方向。",
+      "recommend_reason": "把宏观三线与 AI/科技事件叠在一张月历上，做仓位节奏比瞎猜涨跌有用。",
+      "tags": [
+        "美股",
+        "宏观",
+        "AI",
+        "科技"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2093901300367069425",
+      "author": "lixinbao_X",
+      "bio": "",
+      "text": "王兴兴当年靠1万元起步，如今开始给年轻人发钱\n\n宇树科技推出“天才少年”无偿赞助计划，高中生到硕士都能申请，机器人、芯片、AGI、核聚变都不限。\n\n普通项目资助1万—2万元，特别优秀的不设上限，甚至不强制要求最终做出成果。\n\n背后原因很简单：2010年，还是学生的王兴兴，也曾拿到浙江省“新苗计划”1万元资助，这笔钱后来成了他早期科技探索的重要启动资金。\n\n16年后，宇树上市，王兴兴又把当年别人给他的那1万元，开始传给下一批年轻人。",
+      "created_at": "Sun Aug 30 03:19:07 +0000 2026",
+      "likes": 5,
+      "views": "434",
+      "url": "https://x.com/i/status/2093901300367069425",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 38.789,
+      "title": "宇树「天才少年」无偿赞助：1 万起步、优秀不设上限",
+      "summary": "宇树推出面向高中到硕士的无偿赞助：机器人、芯片、AGI、核聚变不限方向；普通项目 1–2 万，特别优秀不设上限，甚至不强制最终成果。王兴兴 dual：2010 年自己拿过浙江省「新苗计划」1 万元启动，上市后把这笔钱回传给下一批年轻人。",
+      "recommend_reason": "机器人公司回馈学生科研的具体数字与门槛，申请窗口值得转给学生党。",
+      "tags": [
+        "宇树",
+        "机器人",
+        "赞助",
+        "青年"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2093900500400038341",
+      "author": "GoSailGlobal",
+      "bio": "",
+      "text": "大多数人用AI学东西,只是看了个热闹。有个人把它做成了一套真正的私教系统\n\n这是amosblomqvist分享的、他自己用AI学习的整套配置,六百多星。它的思路值得每个想用AI学习的人抄\n\n关键区别在于,它不是让AI直接给你答案,而是把AI逼成一个合格的老师:\n\n先备课,一套teach的教学哲学,先摸清你的水平和盲区再决定怎么教\n再验证,一个researcher子agent专门核查真伪,防止AI一本正经地胡说\n再测验,学完自动出quiz,答错立刻告诉你正确答案和为什么\n再配图,遇到抽象概念,自动生成一张最简的图帮你理解\n\n等于把一次普通的AI对话,升级成一堂有备课、有事实核查、有随堂测验、有板书配图的一对一私教课\n\n它是作者的个人系统,原样分享,更值得看的是这套设计思路,而不是照搬他的配置",
+      "created_at": "Sun Aug 30 03:15:56 +0000 2026",
+      "likes": 2,
+      "views": "390",
+      "url": "https://x.com/i/status/2093900500400038341",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2093900474189811712/vid/avc1/480x270/PSBf_C5NvH4WlyRp.mp4?tag=14"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2093900474189811712/img/wrA4RyRi4ba9eo58.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 57.989,
+      "title": "把 AI 对话升级成私教课：备课、核查、测验、配图",
+      "summary": "amosblomqvist 开源了一套个人 AI 学习配置（600+ star）：不直接给答案，而是逼 AI 当老师——先 teach 摸清水平与盲区再授课，researcher 子 agent 核查真伪，学完自动出 quiz 并讲解错因，抽象概念自动生成最简配图。核心是设计思路（备课+事实核查+测验+板书），不必原样照搬配置。",
+      "recommend_reason": "用 AI 自学常停在「看热闹」；这套四段式设计值得抄思路。",
+      "tags": [
+        "学习",
+        "Agent",
+        "教学",
+        "开源"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2093896488883511385",
+      "author": "JulianGoldieSEO",
+      "bio": "",
+      "text": "HERMES APOLLO JUST TURNED VOICE AI INTO A REAL COMPUTER WORKER.\n\nYou don’t type prompts anymore.\n\nYou say what you want… and it starts building.\n\nWhat Hermes Apollo actually does:\n\n→ Talk naturally with no wake word or button holding\n\n→ Replies almost immediately when you stop speaking\n\n→ Opens apps and uses tools inside the Agent OS\n\n→ Say “Build me a landing page” and it creates the page live\n\nWhy this is different:\n\n✓ Auto Mode handles conversations and simple tasks\n\n✓ Agent Mode can write files and use local tools\n\n✓ Every conversation and creation gets saved into memory\n\n✓ Apollo automatically stops listening when you leave its tab\n\nI watched it build a working page completely hands-free in under 2 minutes.\n\nThat’s the useful version of voice AI:\n\nLess prompting.\n\nLess clicking.\n\nMore saying what you want and letting the agent actually do it.",
+      "created_at": "Sun Aug 30 03:00:00 +0000 2026",
+      "likes": 0,
+      "views": "910",
+      "url": "https://x.com/i/status/2093896488883511385",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2093607864493641728/vid/avc1/480x270/rrhqp_tGlcaiyTvk.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2093607864493641728/img/ARF8h8EXEcTuMUA6.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 53.481,
+      "title": "Hermes Apollo：免唤醒语音直接当电脑工人",
+      "summary": "Hermes Apollo 把语音 AI 接到 Agent OS：免唤醒/免长按，停说即回，可开应用、用本地工具；Auto Mode 管对话与简单任务，Agent Mode 写文件与调工具，对话与产物进记忆，离开标签页自动停听。作者称两分钟内纯语音做出落地页。卖点是少提示、少点击，把「说完就干活」落到本地 agent。",
+      "recommend_reason": "语音 Agent 从聊天盒走到真正控电脑；Auto/Agent 双模式和离页停听设计值得看。",
+      "tags": [
+        "语音",
+        "Agent",
+        "Hermes",
+        "人机交互"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2093894213482184853",
+      "author": "WareAi996",
+      "bio": "",
+      "text": "相比 Codex，Claude 在 9 月 14 日起会降低约 17%的周使用额度， Claude 250 美刀，Codex 200 美刀，大家都知道要选谁了 https://t.co/wYUmFMLefl",
+      "created_at": "Sun Aug 30 02:50:57 +0000 2026",
+      "likes": 0,
+      "views": "6",
+      "url": "https://x.com/i/status/2093894213482184853",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQ8BUGnb0AA_KWY.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQ8BUGnb0AA_KWY.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2093742321473065266",
+        "author": "ClaudeDevs",
+        "name": "ClaudeDevs",
+        "text": "Starting September 14, we're permanently raising standard weekly limits in Claude Code by 25% for Pro, Max, Team, and seat-based Enterprise plans. Until then, the current 50% increase will be in place.",
+        "created_at": "Sat Aug 29 16:47:23 +0000 2026",
+        "url": "https://x.com/ClaudeDevs/status/2093742321473065266",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 52.133,
+      "title": null,
+      "summary": "相比 Codex，Claude 在 9 月 14 日起会降低约 17%的周使用额度， Claude 250 美刀，Codex 200 美刀，大家都知道要选谁了 https://t.co/wYUmFMLefl",
+      "recommend_reason": "订阅比价讨论的话头；注意原文引用其实是 Claude 提额，作者解读偏「相对 Codex 变亏」，需对照官方说明。",
+      "tags": [
+        "Claude",
+        "Codex",
+        "订阅",
+        "用量"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2093892546410013134",
+      "author": "WareAi996",
+      "bio": "",
+      "text": "Codex 大更新，简单说就是修复 bug 后，每周的使用额度会比之前多 10% 到 50%！",
+      "created_at": "Sun Aug 30 02:44:20 +0000 2026",
+      "likes": 0,
+      "views": "7",
+      "url": "https://x.com/i/status/2093892546410013134",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2093801758665715784",
+        "author": "thsottiaux",
+        "name": "Tibo",
+        "text": "We are reseting usage for all paid users of Codex and ChatGPT Work.\n\nPlease continue reading for an update on Codex usage limits. The team has been working around the clock, going through thousands of reports and shipping fixes.\n\nDepending on how you use Codex, you should see your usage go between 10% and 50% further than before.\n\nWe really went with a fine comb, with many uncovered small things being longstanding and here is what we found and fixed:\n- Compaction. We were keeping old images during compaction, sometimes making the context large enough to trigger compaction again. After the fix, usage dropped around 10% for users making heavy use of images. Fixed.\n- Memory. Background memory workers could inherit Stop hooks and keep running when the hook wouldn’t let them finish. This affected fewer than 1% of users, with the long tail being pretty bad and we saw one example thread check whether it could stop 15,000 times. Fixed.\n- Goals. In some cases, a set /goal could finish and then keep going past the intended stop condition, or the model would keep retrying broken tools without stopping. We saw examples consume anywhere from 15% to 70% of a weekly allowance. Fixed.\n- Automations. Some custom schedules could run more frequently than configured. Fixed.\n- Subagents. Smaller models (e.g. Luna) sometimes picked more capable helpers without being explicitly asked. The same was true where the orchestrating model not running in /fast mode could request sub-agents to run /fast. Fixed.\n- Computer History. The older implementation could lead to repeatedly summarizing overlapping activity. For some cases we saw it consume up to one fifth of the weekly usage per week. Fixed.\n- Rolling task summaries. Ordinary turns were triggering extra background requests. These added about 1% to token usage. Small each time, but it adds up. We have disabled this.\n- MCP. Some tool results could be encoded twice. We also found tool instructions getting cut off and fetched again. Fixed.\n\nWe’ve also made architectural changes to prevent these from regressing and our teams will get paged if it happens regardless. We are also working on showing you directly in the app where your usage goes so you don’t have to guess.\n\nGoes without saying that we’re resetting usage limits and I hope you enjoy a very nice Saturday!",
+        "created_at": "Sat Aug 29 20:43:34 +0000 2026",
+        "url": "https://x.com/thsottiaux/status/2093801758665715784",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 44.198,
+      "title": null,
+      "summary": "Codex 大更新，简单说就是修复 bug 后，每周的使用额度会比之前多 10% 到 50%！",
+      "recommend_reason": "官方重置+修 bug 后的额度增益一句话版，方便和长帖对照。",
+      "tags": [
+        "Codex",
+        "OpenAI",
+        "用量"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2093891610350366818",
+      "author": "LawrenceW_Zen",
+      "bio": "",
+      "text": "豆包工作是字节跳动发布的重磅产品，直接整合了 coze、飞书。它是豆包面向办公场景的独立 Agent，能按目标拆解任务、调用工具、操作电脑和浏览器，并与飞书打通企业资料，直接推进完整工作流程。\n\n上手时先抓住这些重点：\n\n•  界面分三块：左侧找功能，中间下任务，右侧看过程和结果。从新工作任务开始即可。\n•  下任务时写清目标，选择本地电脑或云电脑，选择按需确认，并把文件加进输入框。提示词里写了文件名，还要确认输入框里已经出现文件卡片。\n\n•  技能用来保存并复用固定流程。连接器用来接入邮箱、会议、办公系统等外部服务。项目用来管理同一批对话、文件和规则。定时任务用来按固定时间重复执行已验证的流程。工作伙伴是预设好角色和能力的专用助手。\n\n•  第一次先完成一件能核对的事，例如分析一份 Excel：保留源文件，单独列出异常数据，注明计算口径，交付清洗表和结论摘要，再核对数字是否对应。\n\n•  一条任务跑通后，再做 PPT、会议整理、飞书协作，或改成定时执行。上传资料前先确认权限并脱敏。删除、发布、发信、付款等动作需要人工确认。\n\n先完成一个能核对结果的任务，再使用技能、连接器、项目和定时任务。产品更新较快，入口以当前页面为准。资料进得去，规则写得清，过程看得见，结果对得上。",
+      "created_at": "Sun Aug 30 02:40:37 +0000 2026",
+      "likes": 4,
+      "views": "325",
+      "url": "https://x.com/i/status/2093891610350366818",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2093135339351392407",
+        "author": "Liu_zhongxisn",
+        "name": "Drunk",
+        "text": "https://t.co/O0TPkohzt9",
+        "created_at": "Fri Aug 28 00:35:28 +0000 2026",
+        "url": "https://x.com/Liu_zhongxisn/status/2093135339351392407",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 58.095,
+      "title": "豆包工作上手：目标拆解、飞书打通与可核对交付",
+      "summary": "字节「豆包工作」整合 Coze 与飞书，面向办公的独立 Agent：按目标拆任务、调工具、操作电脑/浏览器，并接企业资料推进完整流程。界面左功能/中任务/右过程；下任务要写清目标、选本地或云电脑、确认文件卡片已进输入框。技能复用流程，连接器接外部服务，项目管对话与规则，定时任务跑已验证流程。建议先完成一件可核对的事（如 Excel 清洗），再扩到 PPT、会议整理与定时执行；删除/发布/发信/付款需人工确认。",
+      "recommend_reason": "少见的豆包工作实操清单，把技能/连接器/项目/定时任务边界划清，适合办公 Agent 入门。",
+      "tags": [
+        "豆包",
+        "Agent",
+        "飞书",
+        "办公",
+        "字节"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2093889765481554324",
+      "author": "taiyo_ai_gakuse",
+      "bio": "",
+      "text": "今日から毎週AIプロダクトを作って、コードを全て公開していくぞよ。",
+      "created_at": "Sun Aug 30 02:33:17 +0000 2026",
+      "likes": 5,
+      "views": "738",
+      "url": "https://x.com/i/status/2093889765481554324",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 31.808,
+      "title": null,
+      "summary": "从今天起每周都要做 AI 产品，并且把代码全部公开。",
+      "recommend_reason": "公开造轮子的周更宣言，适合盯独立开发者动态。",
+      "tags": [
+        "独立开发",
+        "开源",
+        "AI产品"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2093889719461634199",
+      "author": "CuiMao",
+      "bio": "",
+      "text": "与其了解他人，不如要了解自己，真的要保持充足且规律的睡眠，我每天睡 8 个小时就是昏昏沉沉的，但是一旦睡9 个小时，就是精力充沛，这多出来的一个小时相当重要。我问了下 Grok 它居然说，睡眠还有 CD ，叫睡眠周期，这个还是基因决定的，比如 7.5 个小时是一个睡眠周期，那么下一个周期就是 9 小时。如果中间 8 小时被叫醒，那么就是突然从深度睡眠中打断施法，无异于自废武功，这觉白睡了。😇😇😇。好吧。这可能就是科学吧。",
+      "created_at": "Sun Aug 30 02:33:06 +0000 2026",
+      "likes": 55,
+      "views": "5277",
+      "url": "https://x.com/i/status/2093889719461634199",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 60.672,
+      "title": "睡眠周期提醒：多睡那 1 小时可能比硬撑更重要",
+      "summary": "作者对照自身：睡 8 小时仍昏沉，睡满 9 小时才精力充沛。问 Grok 后得知睡眠按周期走（如 7.5→9 小时），中间被叫醒等于打断深度睡眠。把「多睡一小时」落到周期对齐，而不是纯意志力熬时长。",
+      "recommend_reason": "轻量生活向，但把睡眠周期讲清楚了；适合做高强度 AI 工作的人对照作息。",
+      "tags": [
+        "睡眠",
+        "健康",
+        "Grok",
+        "效率"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2093888487280013807",
+      "author": "LufzzLiz",
+      "bio": "",
+      "text": "Codex 重置了，我已经无感了，不再追求把token用完，解决我的问题就好。重点想聊聊codex的问题：\n没想到Tibo整理出来这么多问题，我认为这是不应该的，第一个compact 带图片base64的问题我们一个多月前就提了issue了，但是最近才处理完\n\n说个不好听的：如果你自家产品都不能靠codex 自动化帮你短期处理掉？！ \n那我觉得你的harness 或者模型还是不够的，继续努力吧bro",
+      "created_at": "Sun Aug 30 02:28:12 +0000 2026",
+      "likes": 3,
+      "views": "601",
+      "url": "https://x.com/i/status/2093888487280013807",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQ77aQra4AAxZxG.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQ77aQra4AAxZxG.png"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2093801758665715784",
+        "author": "thsottiaux",
+        "name": "Tibo",
+        "text": "We are reseting usage for all paid users of Codex and ChatGPT Work.\n\nPlease continue reading for an update on Codex usage limits. The team has been working around the clock, going through thousands of reports and shipping fixes.\n\nDepending on how you use Codex, you should see your usage go between 10% and 50% further than before.\n\nWe really went with a fine comb, with many uncovered small things being longstanding and here is what we found and fixed:\n- Compaction. We were keeping old images during compaction, sometimes making the context large enough to trigger compaction again. After the fix, usage dropped around 10% for users making heavy use of images. Fixed.\n- Memory. Background memory workers could inherit Stop hooks and keep running when the hook wouldn’t let them finish. This affected fewer than 1% of users, with the long tail being pretty bad and we saw one example thread check whether it could stop 15,000 times. Fixed.\n- Goals. In some cases, a set /goal could finish and then keep going past the intended stop condition, or the model would keep retrying broken tools without stopping. We saw examples consume anywhere from 15% to 70% of a weekly allowance. Fixed.\n- Automations. Some custom schedules could run more frequently than configured. Fixed.\n- Subagents. Smaller models (e.g. Luna) sometimes picked more capable helpers without being explicitly asked. The same was true where the orchestrating model not running in /fast mode could request sub-agents to run /fast. Fixed.\n- Computer History. The older implementation could lead to repeatedly summarizing overlapping activity. For some cases we saw it consume up to one fifth of the weekly usage per week. Fixed.\n- Rolling task summaries. Ordinary turns were triggering extra background requests. These added about 1% to token usage. Small each time, but it adds up. We have disabled this.\n- MCP. Some tool results could be encoded twice. We also found tool instructions getting cut off and fetched again. Fixed.\n\nWe’ve also made architectural changes to prevent these from regressing and our teams will get paged if it happens regardless. We are also working on showing you directly in the app where your usage goes so you don’t have to guess.\n\nGoes without saying that we’re resetting usage limits and I hope you enjoy a very nice Saturday!",
+        "created_at": "Sat Aug 29 20:43:34 +0000 2026",
+        "url": "https://x.com/thsottiaux/status/2093801758665715784",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 57.705,
+      "title": "Codex 重置额度背后：compact 带图等老问题才刚修",
+      "summary": "作者对 Codex 再重置额度已无感，转而吐槽产品债：Tibo 整理出一长串用量漏洞，其中 compact 仍携带图片 base64 的问题一个月前就提了 issue，最近才修好。尖锐点是——自家产品若都不能靠 Codex 自动化短期清掉这类债，说明 harness 或模型仍不够。",
+      "recommend_reason": "比「额度重置」通稿更有信息量：具体点名 compact/图片上下文浪费，并反问产品自举能力。",
+      "tags": [
+        "Codex",
+        "OpenAI",
+        "用量",
+        "Harness"
+      ],
+      "rank": 14
+    },
+    {
+      "id": "2093886580465525055",
+      "author": "yaojingang",
+      "bio": "",
+      "text": "腾讯居然也上线了GEO平台，还是通过https://t.co/rVoCxn9tad的一个独立二级域名上线了官网\n\n看官网介绍，系统实现了五大主流大模型天级监控，每日自动采集品牌提及与排名变化，让 GEO 增长可量化、可追踪\n核心完成三件事，监控、分析、优化\n\n大家怎么看腾讯入场GEO？ https://t.co/aph2I6xn2W",
+      "created_at": "Sun Aug 30 02:20:37 +0000 2026",
+      "likes": 71,
+      "views": "7440",
+      "url": "https://x.com/i/status/2093886580465525055",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQ74fA8aYAAKH39.jpg",
+        "https://pbs.twimg.com/media/HQ74phJbUAAWVAZ.jpg",
+        "https://pbs.twimg.com/media/HQ74vP4bwAAujcS.jpg",
+        "https://pbs.twimg.com/media/HQ745n3aMAA73mK.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQ74fA8aYAAKH39.jpg",
+        "https://pbs.twimg.com/media/HQ74phJbUAAWVAZ.jpg",
+        "https://pbs.twimg.com/media/HQ74vP4bwAAujcS.jpg",
+        "https://pbs.twimg.com/media/HQ745n3aMAA73mK.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 65.606,
+      "title": null,
+      "summary": "腾讯居然也上线了GEO平台，还是通过https://t.co/rVoCxn9tad的一个独立二级域名上线了官网\n\n看官网介绍，系统实现了五大主流大模型天级监控，每日自动采集品牌提及与排名变化，让 GEO 增长可量化、可追踪\n核心完成三件事，监控、分析、优化\n\n大家怎么看腾讯入场GEO？ https://t.co/aph2I6xn2W",
+      "recommend_reason": "大厂入场 GEO 的一手信号；五大模型天级监控+品牌提及排名，方便对照自己的监测方案。",
+      "tags": [
+        "GEO",
+        "腾讯",
+        "营销",
+        "监控"
+      ],
+      "rank": 15
+    },
+    {
+      "id": "2093883902771466688",
+      "author": "yangyi",
+      "bio": "",
+      "text": "当你开始AI自动化之后\n遇到的第一个问题就是人的审查是跟不上生产效率的\n第一想法就是让机器审查 通过分层降级来减少人的注意力和阻塞\n\n朋友为此搭建了一个机柜，有三台 Proxmox 服务器、两台群晖 NAS（主机 21TB，跑 MinIO、Verdaccio 和 Portainer）、九台 Mac Mini，外加一个硬盘柜。九台 Mac Mini 里有八台组成了 CI Runner 池。\n\n五台 16GB 的机器各跑 3 个并发，一台 48GB 的 M4 Pro 跑 9 个，两台 64GB 的 M4 Pro 各跑 9 个，加起来是 42 路并发的 macOS CI。\n\n但就算这样，每条MR跑全量检查，流水线依旧排队\n\n于是问题又要进一步拆分\n究竟该如何设置审查结构，什么样的任务要全量，什么样的任务只跑依赖关联项，审查的标准究竟该怎么处理\n\n当把这些规则都设定清楚之后\nHarness的自动化才刚刚开始\n\n即便这样自动化，在代码场景上，一个月的token消耗也就才200多亿\n\n所以能消耗上千亿Token的，一般做的是文本和多模态场景居多\n\n另外就是，一定有Harness在循环爆炸上下文……\n\n所以说，月耗能有大几百亿Token的，一般都是有系统工程的\n\n这年头能花费大量Token，也是一种本事",
+      "created_at": "Sun Aug 30 02:09:59 +0000 2026",
+      "likes": 2,
+      "views": "1508",
+      "url": "https://x.com/i/status/2093883902771466688",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQ72tyNbUAAfDp_.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQ72tyNbUAAfDp_.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 40.145,
+      "title": "AI 自动化之后：审查跟不上生产，就要拆审查结构",
+      "summary": "朋友机柜：3 台 Proxmox、2 台群晖 NAS、9 台 Mac Mini（8 台做 CI Runner，合计约 42 路 macOS 并发）仍排队。问题从「加机器」变成「审查怎么分层」：哪些全量、哪些只跑依赖关联、标准如何定。规则定清后 Harness 自动化才刚开始。代码场景月耗约两百亿 token，上千亿多在文本/多模态，或上下文循环爆炸。能稳花大几百亿 token，本身已是系统工程能力。",
+      "recommend_reason": "少见的真·规模化数字：并发池到审查分层再到 token 量级，做 Harness 的人可对标。",
+      "tags": [
+        "Harness",
+        "CI",
+        "自动化",
+        "工程",
+        "Token"
+      ],
+      "rank": 16
+    }
+  ],
+  "generated_at": "2026-08-30T04:17:41Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 16,
+    "last_batch_added": 16,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
