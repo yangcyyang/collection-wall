@@ -5,8 +5,10 @@ import { formatBeijingDateTime } from "../../lib/news.mjs";
 import {
   getProductById,
   getSignalById,
+  radarConfidenceLabel,
   radarStaticPaths,
   radarStatusClass,
+  radarStatusLabel,
   sortEvidenceByDate,
 } from "../../lib/radar";
 
@@ -49,10 +51,10 @@ const urls = Object.entries(product?.urls ?? {}).filter(([, url]) => url);
         <div class="header-stats">
           <p class="record-count">
             score {signal?.score ?? product?.score}
-            {signal?.confidence ? ` · ${signal.confidence}` : ""}
+            {signal?.confidence ? ` · ${radarConfidenceLabel(signal.confidence)}` : ""}
           </p>
           <span class:list={["status", radarStatusClass(signal?.status ?? product?.status)]}>
-            {signal?.status ?? product?.status}
+            {radarStatusLabel(signal?.status ?? product?.status)}
           </span>
         </div>
       </header>

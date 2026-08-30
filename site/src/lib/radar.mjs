@@ -83,11 +83,34 @@ export function sortEvidenceByDate(evidence) {
   });
 }
 
+const STATUS_LABELS = {
+  new: "新发现",
+  watching: "观察中",
+  strengthening: "加强中",
+  weakening: "减弱中",
+  confirmed_trend: "已成趋势",
+  closed: "已关闭",
+};
+
+const CONFIDENCE_LABELS = {
+  high: "高",
+  medium: "中",
+  low: "低",
+};
+
 export function radarStatusClass(status = "") {
   if (status === "new") return "new";
   if (status === "strengthening" || status === "confirmed_trend") return "frequent";
   if (status === "watching") return "common";
   return "occasional";
+}
+
+export function radarStatusLabel(status = "") {
+  return STATUS_LABELS[status] ?? status;
+}
+
+export function radarConfidenceLabel(confidence = "") {
+  return CONFIDENCE_LABELS[confidence] ?? confidence;
 }
 
 export async function radarStaticPaths() {

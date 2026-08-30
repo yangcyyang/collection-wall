@@ -11,6 +11,7 @@ import {
   homepageProducts,
   homepageSignals,
   radarStatusClass,
+  radarStatusLabel,
 } from "../lib/radar";
 
 const feed = await getSignalsFeed();
@@ -36,7 +37,7 @@ const updated = formatBeijingDateTime(feed.updated_at);
     <div class="page-shell">
       <header class="site-header">
         <div>
-          <p class="eyebrow">{feed.source || "雷达"}</p>
+          <p class="eyebrow">雷达</p>
           <h1>雷达</h1>
           {feed.title && <p class="intro">{feed.title}{updated ? ` · ${updated}` : ""}</p>}
         </div>
@@ -58,7 +59,7 @@ const updated = formatBeijingDateTime(feed.updated_at);
           {topSignals.length > 0 && (
             <section class="tool-section" aria-labelledby="top-signals-title">
               <div class="section-heading">
-                <h2 id="top-signals-title">TODAY'S TOP SIGNALS</h2>
+                <h2 id="top-signals-title">今日强信号</h2>
                 <p>{topSignals.length} 条</p>
               </div>
               <div class="tool-grid">
@@ -68,7 +69,7 @@ const updated = formatBeijingDateTime(feed.updated_at);
                     <div class="card-content">
                       <div class="card-meta">
                         <span class="tweet-score">{item.score}</span>
-                        <span class:list={["status", radarStatusClass(item.status)]}>{item.status}</span>
+                        <span class:list={["status", radarStatusClass(item.status)]}>{radarStatusLabel(item.status)}</span>
                       </div>
                       <h3>{item.title}</h3>
                       <p>{item.summary}</p>
@@ -83,7 +84,7 @@ const updated = formatBeijingDateTime(feed.updated_at);
           {newProducts.length > 0 && (
             <section class="tool-section" aria-labelledby="new-products-title">
               <div class="section-heading">
-                <h2 id="new-products-title">NEW PRODUCTS</h2>
+                <h2 id="new-products-title">新产品</h2>
                 <p>{newProducts.length} 条</p>
               </div>
               <div class="tool-grid">
@@ -93,7 +94,7 @@ const updated = formatBeijingDateTime(feed.updated_at);
                     <div class="card-content">
                       <div class="card-meta">
                         <span class="tweet-score">{item.score}</span>
-                        <span class:list={["status", radarStatusClass(item.status)]}>{item.status}</span>
+                        <span class:list={["status", radarStatusClass(item.status)]}>{radarStatusLabel(item.status)}</span>
                       </div>
                       <h3>{item.name}</h3>
                       <p>{item.summary}</p>
@@ -108,7 +109,7 @@ const updated = formatBeijingDateTime(feed.updated_at);
           {emerging.length > 0 && (
             <section class="tool-section" aria-labelledby="emerging-title">
               <div class="section-heading">
-                <h2 id="emerging-title">EMERGING SIGNALS</h2>
+                <h2 id="emerging-title">新兴信号</h2>
                 <p>{emerging.length} 条</p>
               </div>
               <div class="tool-grid">
@@ -118,7 +119,7 @@ const updated = formatBeijingDateTime(feed.updated_at);
                     <div class="card-content">
                       <div class="card-meta">
                         <span class="tweet-score">{item.score}</span>
-                        <span class:list={["status", radarStatusClass(item.status)]}>{item.status}</span>
+                        <span class:list={["status", radarStatusClass(item.status)]}>{radarStatusLabel(item.status)}</span>
                       </div>
                       <h3>{item.title}</h3>
                       <p>{item.summary}</p>
@@ -133,7 +134,7 @@ const updated = formatBeijingDateTime(feed.updated_at);
           {watchlist.length > 0 && (
             <section class="tool-section" aria-labelledby="watchlist-title">
               <div class="section-heading">
-                <h2 id="watchlist-title">WATCHLIST</h2>
+                <h2 id="watchlist-title">观察名单</h2>
                 <p>{watchlist.length} 条</p>
               </div>
               <div class="tool-grid">
@@ -145,7 +146,7 @@ const updated = formatBeijingDateTime(feed.updated_at);
                       <div class="card-content">
                         <div class="card-meta">
                           <span class="category">{item.since ? formatBeijingDateTime(item.since) : ""}</span>
-                          <span class:list={["status", radarStatusClass(item.status)]}>{item.status}</span>
+                          <span class:list={["status", radarStatusClass(item.status)]}>{radarStatusLabel(item.status)}</span>
                         </div>
                         <h3>{item.title}</h3>
                         <p>{item.why}</p>

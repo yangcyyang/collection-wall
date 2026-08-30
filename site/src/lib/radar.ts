@@ -10,8 +10,10 @@ export {
   getWatchlistFeed,
   homepageProducts,
   homepageSignals,
+  radarConfidenceLabel,
   radarStaticPaths,
   radarStatusClass,
+  radarStatusLabel,
   sortEvidenceByDate,
 } from "./radar.mjs";
 
