@@ -1,85 +1,85 @@
 {
   "source": "ai-frontier-radar",
-  "title": "AI Frontier Signals",
-  "updated_at": "2026-08-31T01:40:00+08:00",
+  "title": "前沿信号",
+  "updated_at": "2026-08-31T02:09:00+08:00",
   "count": 7,
   "items": [
     {
       "id": "agent-persistent-computer",
-      "title": "Agent 正在拥有自己的长期计算环境",
+      "title": "智能体正在拥有自己的长期计算环境",
       "type": "strong_signal",
       "score": 86,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-08-31T00:00:00+08:00",
-      "summary": "同一周末，多个独立产品把「给 agent 一台可离开的电脑」当成产品本身：手机遥控本机 CLI、本机沙箱同事、每客户一台微 VM、本地 KV 缓存把等待从 90s 打到 5s。模型不再是卖点，租户 + 持久化 + 遥控面才是。",
-      "why_it_matters": "这是交互和商业模式同时在变：人从 IDE 里盯着，变成留下一台电脑、偶尔回来检查。3–12 个月可能成为 agent 产品的默认形态。",
+      "last_updated": "2026-08-31T02:09:00+08:00",
+      "summary": "同一周末，多个独立产品把「给智能体一台可离开的电脑」当成产品本身：手机遥控本机命令行、本机沙箱同事、每个客户一台微型虚拟机、本地缓存把等待从 90 秒打到 5 秒。模型不再是卖点，租户、持久化和遥控面才是。",
+      "why_it_matters": "交互和商业模式同时在变：人从编辑器里盯着，变成留下一台电脑、偶尔回来检查。未来 3 到 12 个月，这可能成为智能体产品的默认形态。",
       "tags": [
-        "Agent",
-        "Computer Use",
-        "Orchestration",
-        "Local"
+        "智能体",
+        "电脑操控",
+        "编排",
+        "本地"
       ],
       "evidence": [
         {
           "url": "https://beafk.app",
           "source": "official",
-          "note": "beafk: phone-steer official CLIs on your machine via Tailscale",
+          "note": "beafk：用手机遥控本机上的官方命令行，走 Tailscale",
           "date": "2026-08-29T00:00:00+08:00"
         },
         {
           "url": "https://www.producthunt.com/products/superagent-a-home-for-your-ai-agents",
           "source": "producthunt",
-          "note": "Superagent Mac: local browser + iOS sim + worktrees",
+          "note": "Superagent Mac：本机浏览器、iOS 模拟器、独立工作树",
           "date": "2026-08-30T00:00:00+08:00"
         },
         {
           "url": "https://maritime.sh",
           "source": "official",
-          "note": "Maritime: dedicated computer per customer agent from $1/mo",
+          "note": "Maritime：每个客户的智能体一台隔离电脑，每月 1 美元起",
           "date": "2026-08-30T00:00:00+08:00"
         },
         {
           "url": "https://github.com/useagenthq/useagent",
           "source": "github",
-          "note": "useagent created 2026-08-29, ~124 stars, sandbox coworker",
+          "note": "useagent 于 8 月 29 日创建，约 124 星，沙箱同事",
           "date": "2026-08-29T00:00:00+08:00"
         },
         {
           "url": "https://omlx.ai",
           "source": "official",
-          "note": "oMLX paged SSD KV cache for local coding agents",
+          "note": "oMLX：给本地编程智能体做分页固态硬盘缓存",
           "date": "2026-08-30T00:00:00+08:00"
         },
         {
           "url": "https://x.com/i/status/2094109187903254553",
           "source": "community",
-          "note": "Computer Use framed as chat→coding next step-change",
+          "note": "电脑操控被一线当成「聊天到编程」之后的下一跳",
           "date": "2026-08-31T00:00:00+08:00"
         }
       ],
       "watch_next": [
-        "beafk vs useagent vs vicoa who ships overnight-run first",
-        "Maritime wake cost at $1/mo"
+        "beafk、useagent、vicoa 谁先做出离开后还在跑",
+        "Maritime 每月 1 美元醒来后的真实成本"
       ],
       "homepage": true,
       "judgment_changes": []
     },
     {
       "id": "coding-agent-supply-chain",
-      "title": "编码 Agent 的模型供应不再是中立基础设施",
+      "title": "编程智能体的模型供应不再是中立基础设施",
       "type": "strong_signal",
       "score": 82,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-28T00:00:00+08:00",
-      "last_updated": "2026-08-31T00:00:00+08:00",
-      "summary": "OpenAI 因 SpaceX 收购 Cursor，提议 2026-11-12 切断直接模型供应，并扣住 Astra。Cursor CEO 称 OpenAI 只占约 5% 流量。次日 Kimi K3 进入 Cursor。",
-      "why_it_matters": "模型接入变成并购后的控制权问题。IDE 必须双源。杀伤力小于「Cursor 没模型了」，但先例比合同本身重要。",
+      "last_updated": "2026-08-31T02:09:00+08:00",
+      "summary": "OpenAI 因 SpaceX 收购 Cursor，提议 2026 年 11 月 12 日切断直接模型供应，并扣住 Astra。Cursor 首席执行官称 OpenAI 只占约 5% 流量。次日 Kimi K3 进入 Cursor。",
+      "why_it_matters": "模型接入变成并购后的控制权问题。编程工具必须双源。杀伤力小于「Cursor 没模型了」，但先例比合同本身重要。",
       "tags": [
-        "AI Coding",
-        "Distribution",
+        "AI 编程",
+        "分发",
         "Cursor",
         "OpenAI",
         "Kimi"
@@ -88,61 +88,61 @@
         {
           "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
           "source": "official",
-          "note": "OpenAI blog, cutoff proposed Nov 12 2026, Astra withheld",
+          "note": "OpenAI 官方博客：提议 11 月 12 日切断，Astra 不供应",
           "date": "2026-08-28T00:00:00+08:00"
         },
         {
           "url": "https://x.com/OpenAI/status/2093515564786540695",
           "source": "official",
-          "note": "@OpenAI primary post",
+          "note": "OpenAI 官方帖",
           "date": "2026-08-29T00:00:00+08:00"
         },
         {
           "url": "https://x.com/mntruell/status/2093532254006063557",
           "source": "official",
-          "note": "Truell: ~5% of Cursor traffic, talking to OpenAI",
+          "note": "Truell：约占 Cursor 流量 5%，正在谈",
           "date": "2026-08-29T00:00:00+08:00"
         },
         {
           "url": "https://www.reuters.com/business/media-telecom/openai-end-partnership-with-spacexs-cursor-2026-08-29/",
           "source": "reliable",
-          "note": "Reuters; Anthropic Tom Brown more Cursor compute",
+          "note": "路透社；Anthropic 的 Tom Brown 称会给 Cursor 加算力",
           "date": "2026-08-29T00:00:00+08:00"
         },
         {
           "url": "https://x.com/Kimi_Moonshot/status/2093851949892518010",
           "source": "official",
-          "note": "Kimi K3 now in Cursor, US inference, CursorBench near frontier",
+          "note": "Kimi K3 进入 Cursor，美国推理，接近 CursorBench 前沿",
           "date": "2026-08-30T00:00:00+08:00"
         }
       ],
       "watch_next": [
-        "Nov 12 cutoff still the date?",
-        "Astra ever in Cursor?",
-        "default model silent-switch for users"
+        "11 月 12 日截止日期是否还成立",
+        "Astra 会不会永远不进 Cursor",
+        "用户默认模型会否被静默切换"
       ],
       "homepage": true,
       "judgment_changes": [
         {
           "date": "2026-08-31T00:00:00+08:00",
-          "change": "X primary posts + Kimi K3 fill reduced kill-shot reading; status strengthening as distribution-war, not product-death"
+          "change": "原帖加上 Kimi K3 补位后，判断从「产品被废」改为「分发权之争」；状态改为加强中"
         }
       ]
     },
     {
       "id": "recursive-alignment-loop",
-      "title": "递归自我改进正在离开 slide，变成可运行的研究循环",
+      "title": "递归自我改进正在离开演示稿，变成可运行的研究循环",
       "type": "strong_signal",
       "score": 80,
       "confidence": "medium",
       "status": "new",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-08-31T00:00:00+08:00",
-      "summary": "两条独立证据：Anthropic 给 Claude 48 小时 + 1 GPU 去对齐更小模型，并称效果 surprisingly well、将开源 automatic alignment；腾讯 Hy4 自称模型参与优化自身训练/推理（+31.8% 吞吐）。前者是官方研究循环，后者仍是公司声明。",
-      "why_it_matters": "若对齐/训练优化成为 agent 自己的工作，产品和安全的节奏都会变。不要把 Hy4 的 RSI 数字写成已复现事实。",
+      "last_updated": "2026-08-31T02:09:00+08:00",
+      "summary": "两条独立证据：Anthropic 给 Claude 48 小时和一块显卡去对齐更小模型，并称效果出乎意料地好、将开源自动对齐流程；腾讯 Hy4 自称模型参与优化自身训练和推理（吞吐提升 31.8%）。前者是官方研究循环，后者仍是公司声明。",
+      "why_it_matters": "若对齐和训练优化成为智能体自己的工作，产品和安全的节奏都会变。不要把 Hy4 的递归自改进数字写成已经复现的事实。",
       "tags": [
-        "Alignment",
-        "RSI",
+        "对齐",
+        "递归自改进",
         "Anthropic",
         "Hy4"
       ],
@@ -150,49 +150,49 @@
         {
           "url": "https://x.com/AnthropicAI/status/2093386528668172373",
           "source": "official",
-          "note": "Claude 48h + 1 GPU autonomous alignment of smaller models",
+          "note": "Claude 用 48 小时和一块显卡自主对齐更小模型",
           "date": "2026-08-29T00:00:00+08:00"
         },
         {
           "url": "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/",
           "source": "official",
-          "note": "Hy4 preview 770B MoE, claimed early recursive self-improvement +31.8%",
+          "note": "Hy4 预览版 7700 亿混合专家，自称早期递归自改进，吞吐 +31.8%",
           "date": "2026-08-28T00:00:00+08:00"
         },
         {
           "url": "https://huggingface.co/tencent/Hy4-preview",
           "source": "official",
-          "note": "Apache-2.0 weights",
+          "note": "Apache 2.0 权重",
           "date": "2026-08-28T00:00:00+08:00"
         },
         {
           "url": "https://news.ycombinator.com/item?id=49492632",
           "source": "community",
-          "note": "HN arguing RSI claim vs AI-2027; OpenRouter volume unverified",
+          "note": "Hacker News 在争论递归自改进声明；OpenRouter 放量未核实",
           "date": "2026-08-30T00:00:00+08:00"
         }
       ],
       "watch_next": [
-        "Anthropic alignment setup release",
-        "third-party Hy4 RSI reproduction",
-        "OpenRouter volume check"
+        "Anthropic 自动对齐流程是否开源",
+        "有没有第三方复现 Hy4 的递归自改进",
+        "OpenRouter 放量能否核对"
       ],
       "homepage": true,
       "judgment_changes": []
     },
     {
       "id": "harness-control-plane",
-      "title": "Coding harness 在加控制面，不是发新模型",
+      "title": "编程运行时在加控制面，不是发新模型",
       "type": "emerging_signal",
       "score": 72,
       "confidence": "high",
       "status": "watching",
       "first_detected": "2026-08-28T00:00:00+08:00",
-      "last_updated": "2026-08-31T00:00:00+08:00",
-      "summary": "Claude Code v2.1.251：模型切换 hook + 前台 subagent 直播到 Remote Control。Codex 0.151.0：扩展可拦截/替换 MCP 结果，per-repo plugin catalog。Grok Build 1.0.13：截断 turn 自动续写，hook 可 confirm 工具。Grok Bot 正式接 X。",
-      "why_it_matters": "长程 agent 的产品化缺口是治理、可见性和续跑，不是更大的权重。",
+      "last_updated": "2026-08-31T02:09:00+08:00",
+      "summary": "Claude Code v2.1.251：模型切换钩子，前台子智能体的工具调用可直播到远程控制。Codex 0.151.0：扩展可在 MCP 结果到达模型前拦截或替换，并支持按仓库的插件目录。Grok Build 1.0.13：截断的回合自动续写，钩子可以要求确认工具。Grok Bot 正式接上 X。",
+      "why_it_matters": "长程智能体的产品化缺口是治理、可见性和续跑，不是更大的权重。",
       "tags": [
-        "Harness",
+        "运行时",
         "MCP",
         "Claude Code",
         "Codex",
@@ -203,48 +203,48 @@
           "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.251",
           "source": "official",
           "date": "2026-08-28T00:00:00+08:00",
-          "note": "Pre/PostModelSwitch hooks, live Remote Control subagents"
+          "note": "模型切换前后钩子，远程控制可看前台子智能体"
         },
         {
           "url": "https://github.com/openai/codex/releases/tag/0.151.0",
           "source": "official",
           "date": "2026-08-29T00:00:00+08:00",
-          "note": "MCP result intercept + plugin catalogs"
+          "note": "可拦截 MCP 结果，支持按仓库插件目录"
         },
         {
           "url": "https://x.ai/build/changelog",
           "source": "official",
           "date": "2026-08-28T00:00:00+08:00",
-          "note": "Grok Build 1.0.13 truncated-turn continue + confirm hooks"
+          "note": "Grok Build 1.0.13：截断回合自动续写，钩子可确认工具"
         },
         {
           "url": "https://x.ai/news/grok-bot-and-x",
           "source": "official",
           "date": "2026-08-29T00:00:00+08:00",
-          "note": "Grok Bot first-party X connector"
+          "note": "Grok Bot 一等公民接上 X"
         }
       ],
       "watch_next": [
-        "whether intercept/hooks get copied across harnesses"
+        "拦截和钩子会不会被其他运行时抄走"
       ],
       "homepage": false,
       "judgment_changes": []
     },
     {
       "id": "physical-mcp-mhs",
-      "title": "物理世界 computer-use 正在变成新的 MCP 层",
+      "title": "物理世界的电脑操控正在变成新的工具协议层",
       "type": "emerging_signal",
       "score": 70,
       "confidence": "medium",
       "status": "watching",
       "first_detected": "2026-08-27T00:00:00+08:00",
-      "last_updated": "2026-08-31T00:00:00+08:00",
-      "summary": "Anthropic MHS（8/27 spec）后约 48 小时出现 OSS LabAIAgent gateway。DeepMind Co-Scientist 论文展示给真实 CVD 炉出配方和机器码。",
-      "why_it_matters": "软件工具协议开始向实验室仪器延伸。这周末没有新的 browser-agent 克隆潮，硬件才是新方向。",
+      "last_updated": "2026-08-31T02:09:00+08:00",
+      "summary": "Anthropic 在 8 月 27 日发布模型硬件标准预览后约 48 小时，出现开源的 LabAIAgent 网关。DeepMind 的 Co-Scientist 论文展示给真实化学气相沉积炉出配方和机器码。",
+      "why_it_matters": "软件工具协议开始向实验室仪器延伸。这周末没有新的浏览器智能体克隆潮，硬件才是新方向。",
       "tags": [
         "MHS",
-        "Computer Use",
-        "Lab",
+        "电脑操控",
+        "实验室",
         "MCP"
       ],
       "evidence": [
@@ -252,104 +252,104 @@
           "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
           "source": "official",
           "date": "2026-08-27T00:00:00+08:00",
-          "note": "MHS research preview"
+          "note": "模型硬件标准研究预览"
         },
         {
           "url": "https://arxiv.org/abs/2608.26701",
           "source": "official",
           "date": "2026-08-27T00:00:00+08:00",
-          "note": "DeepMind Co-Scientist drives lab equipment"
+          "note": "DeepMind Co-Scientist 驱动实验室设备"
         },
         {
           "url": "https://x.com/i/status/2094101328582594718",
           "source": "community",
           "date": "2026-08-30T00:00:00+08:00",
-          "note": "LabAIAgent OSS gateway two days after MHS"
+          "note": "LabAIAgent 开源网关，标准发布两天后出现"
         }
       ],
       "watch_next": [
-        "second independent MHS implementation",
-        "vendor instrument support"
+        "第二套独立的模型硬件标准实现",
+        "仪器厂商是否跟进"
       ],
       "homepage": false,
       "judgment_changes": []
     },
     {
       "id": "skills-as-distribution",
-      "title": "Skills 正在变成 agent 能力的分发层",
+      "title": "技能正在变成智能体能力的分发层",
       "type": "pattern",
       "score": 74,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-08-31T00:00:00+08:00",
-      "summary": "周末 GitHub 新库被 SKILL.md 主导（forward-implementation-first、lean-mode-skill）；archify 一周 +1.5 万星。ChatGPT Work Template Creator 与 Grok Bot 可分享模板是同一交互：example → playbook。MCP 新库很多但几乎都是 2–20 星领域插件。",
-      "why_it_matters": "第四个 CLI 不值钱。可安装的技能/模板才是分发。",
+      "last_updated": "2026-08-31T02:09:00+08:00",
+      "summary": "周末 GitHub 新库被技能文件主导；archify 一周增加约 1.5 万星。ChatGPT 工作区的模板创建器和 Grok Bot 可分享模板是同一交互：给一个例子，变成可复用剧本。MCP 新库很多，但几乎都是两星到二十星的领域插件。",
+      "why_it_matters": "第四个命令行不值钱。可安装的技能和模板才是分发。",
       "tags": [
-        "Skills",
-        "Templates",
-        "Distribution"
+        "技能",
+        "模板",
+        "分发"
       ],
       "evidence": [
         {
           "url": "https://github.com/Vuk97/forward-implementation-first",
           "source": "github",
           "date": "2026-08-29T00:00:00+08:00",
-          "note": "skill against bookkeeping pathology, 67 stars"
+          "note": "防止长程智能体给自己做记账的技能，67 星"
         },
         {
           "url": "https://github.com/tt-a1i/archify",
           "source": "github",
           "date": "2026-08-30T00:00:00+08:00",
-          "note": "v2.16.0, ~+14875 stars this week"
+          "note": "v2.16.0，本周约增 1.5 万星"
         },
         {
           "url": "https://x.com/ChatGPT/status/2093424514726285341",
           "source": "official",
           "date": "2026-08-29T00:00:00+08:00",
-          "note": "ChatGPT Work Template Creator"
+          "note": "ChatGPT 工作区模板创建器"
         },
         {
           "url": "https://x.com/mntruell/status/2093390312555393050",
           "source": "official",
           "date": "2026-08-29T00:00:00+08:00",
-          "note": "Grok Bot shareable templates"
+          "note": "Grok Bot 可分享模板"
         }
       ],
       "watch_next": [
-        "skill quality vs skill spam (genpark clones)"
+        "技能质量会不会被批量克隆淹没"
       ],
       "homepage": true,
       "judgment_changes": []
     },
     {
       "id": "apache-maka-durable-workspace",
-      "title": "本地优先的 durable agent workspace 开始有 ASF 级实现",
+      "title": "本地优先、可回放的智能体工作区开始有 Apache 级实现",
       "type": "emerging_signal",
       "score": 78,
       "confidence": "high",
       "status": "watching",
       "first_detected": "2026-08-30T00:00:00+08:00",
-      "last_updated": "2026-08-31T00:00:00+08:00",
-      "summary": "apache/maka：append-only 执行记录（消息、工具、权限、终止），Desktop/TUI/eval 共用 Runtime Host，可选 Computer Use。本周约 +1876 stars。",
-      "why_it_matters": "跑几天的 agent 需要证据链。和 pydantic-ai durable_operation、agent-loop-guard 同一缺口。",
+      "last_updated": "2026-08-31T02:09:00+08:00",
+      "summary": "apache/maka：只追加的执行记录（消息、工具、权限、终止），桌面、终端和评测共用运行时，可选电脑操控。本周约增加 1876 星。",
+      "why_it_matters": "跑几天的智能体需要证据链。和 pydantic-ai 的持久化操作、agent-loop-guard 指向同一缺口。",
       "tags": [
-        "Agent",
-        "Durable",
+        "智能体",
+        "可持久化",
         "Apache",
-        "Local"
+        "本地"
       ],
       "evidence": [
         {
           "url": "https://github.com/apache/maka",
           "source": "github",
           "date": "2026-08-30T00:00:00+08:00",
-          "note": "4151 stars, +1876 this week, incubating"
+          "note": "4151 星，本周 +1876，Apache 孵化中"
         }
       ],
       "watch_next": [
-        "Linux support",
-        "whether it becomes the local execution-log standard"
+        "是否支持 Linux",
+        "会不会成为本地执行记录的标准"
       ],
       "homepage": false,
       "judgment_changes": []

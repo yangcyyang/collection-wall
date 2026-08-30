@@ -1,7 +1,7 @@
 {
   "source": "ai-frontier-radar",
-  "title": "AI Frontier Products",
-  "updated_at": "2026-08-31T01:40:00+08:00",
+  "title": "新产品",
+  "updated_at": "2026-08-31T02:09:00+08:00",
   "count": 7,
   "items": [
     {
@@ -10,17 +10,17 @@
       "score": 78,
       "status": "new",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-08-31T00:00:00+08:00",
-      "summary": "手机遥控本机官方 CLI（Claude Code / Codex / Grok Build / Kimi Code），Tailscale 短证后离开中间人。按机器计费。",
-      "novelty": "AFK coding + machine pricing + not-in-the-middle privacy",
+      "last_updated": "2026-08-31T02:09:00+08:00",
+      "summary": "用手机遥控本机上的官方命令行（Claude Code、Codex、Grok Build、Kimi Code），走你自己的 Tailscale，发一张短证然后离开中间人。按机器计费。",
+      "novelty": "离开键盘继续写代码；按机器而不是按座位收费；隐私路径不经过中间服务器",
       "urls": {
         "site": "https://beafk.app",
         "press": "https://www.einpresswire.com/article/938036896/beafk-app-launches-mobile-first-ai-coding-agent-orchestration-on-product-hunt"
       },
       "tags": [
-        "Agent",
-        "Mobile",
-        "Orchestration"
+        "智能体",
+        "手机",
+        "编排"
       ],
       "homepage": true
     },
@@ -30,22 +30,22 @@
       "score": 77,
       "status": "new",
       "first_detected": "2026-08-30T00:00:00+08:00",
-      "last_updated": "2026-08-31T00:00:00+08:00",
-      "summary": "Mac 本地 MLX 推理，paged SSD KV cache，把 coding agent 等待从约 90s 打到 5s。",
-      "novelty": "cache design for agents that invalidate KV constantly, not another Ollama",
+      "last_updated": "2026-08-31T02:09:00+08:00",
+      "summary": "Mac 本地推理。把热点缓存在内存、冷数据放固态硬盘，把编程智能体的等待从大约 90 秒打到 5 秒。",
+      "novelty": "针对智能体会反复作废上下文缓存来设计，不是又一个本地模型套壳",
       "urls": {
         "site": "https://omlx.ai",
         "github": "https://github.com/jundot/omlx",
         "ph": "https://www.producthunt.com/leaderboard/daily/2026/8/30"
       },
       "tags": [
-        "Local",
-        "Inference",
+        "本地",
+        "推理",
         "Mac"
       ],
       "homepage": true,
       "unverified": [
-        "omlx.ai claimed 21k GitHub stars"
+        "官网自称 2.1 万 GitHub 星，本次未独立核实"
       ]
     },
     {
@@ -54,17 +54,17 @@
       "score": 75,
       "status": "new",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-08-31T00:00:00+08:00",
-      "summary": "给 coding agent 超大 diff 的本地工具：Seen vs Reviewed，并可让 agent 讲解自己的 patch。",
-      "novelty": "human checkpoint UX for AI-scale diffs",
+      "last_updated": "2026-08-31T02:09:00+08:00",
+      "summary": "给编程智能体超大改动看的本地工具：滚过视口算「看过」，明确点过算「审过」，并可让智能体讲解自己的补丁。",
+      "novelty": "为人审智能体规模的代码差异重新做了检查点",
       "urls": {
         "site": "https://seendiff.com",
         "github": "https://github.com/acme-dot-bot/seendiff",
         "ph": "https://www.producthunt.com/products/seendiff"
       },
       "tags": [
-        "Code Review",
-        "Agent"
+        "代码审查",
+        "智能体"
       ],
       "homepage": true
     },
@@ -74,16 +74,16 @@
       "score": 83,
       "status": "new",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-08-31T00:00:00+08:00",
-      "summary": "把 Claude Code/Codex/OpenCode/Pi 包成引擎，隔离 Linux sandbox + 事件溯源 + HITL。8/29 新建，约 124★。",
-      "novelty": "productized cloud computer + any harness + event log",
+      "last_updated": "2026-08-31T02:09:00+08:00",
+      "summary": "把 Claude Code、Codex、OpenCode、Pi 包成引擎，隔离 Linux 沙箱，带事件溯源和人机确认。8 月 29 日新建，约 124 星。",
+      "novelty": "云电脑加任意运行时加事件日志，产品化成同事而不是又一个聊天框",
       "urls": {
         "github": "https://github.com/useagenthq/useagent",
         "docs": "https://useagent.org/docs/"
       },
       "tags": [
-        "Orchestration",
-        "Sandbox"
+        "编排",
+        "沙箱"
       ],
       "homepage": true
     },
@@ -93,39 +93,39 @@
       "score": 71,
       "status": "watching",
       "first_detected": "2026-08-30T00:00:00+08:00",
-      "last_updated": "2026-08-31T00:00:00+08:00",
-      "summary": "二次发布：每个客户的 agent 一台隔离电脑，从 $1/月起。卖给做 agent 产品的公司。",
-      "novelty": "per-end-user-agent computer as a business, not cheap VPS",
+      "last_updated": "2026-08-31T02:09:00+08:00",
+      "summary": "二次发布：每个客户的智能体一台隔离电脑，每月 1 美元起。卖给做智能体产品的公司。",
+      "novelty": "按终端用户智能体卖电脑，不是便宜虚拟机",
       "urls": {
         "site": "https://maritime.sh",
         "ph": "https://www.producthunt.com/products/maritime"
       },
       "tags": [
-        "Infra",
-        "Business Model"
+        "基础设施",
+        "商业模式"
       ],
       "homepage": true
     },
     {
       "id": "superagent-mac",
-      "name": "Superagent (Mac)",
+      "name": "Superagent（Mac）",
       "score": 71,
       "status": "new",
       "first_detected": "2026-08-30T00:00:00+08:00",
-      "last_updated": "2026-08-31T00:00:00+08:00",
-      "summary": "Claude Code for the rest of us：本机登录态浏览器、iOS Simulator、独立 worktree、iPhone 配对。不是 Airtable Superagent，也不是 superagent.sh。",
-      "novelty": "CLI agent gets a persistent local computer",
+      "last_updated": "2026-08-31T02:09:00+08:00",
+      "summary": "给不会用终端的人用的 Claude Code：本机已登录的浏览器、iOS 模拟器、独立工作树、iPhone 配对。不是 Airtable 的 Superagent，也不是安全产品 superagent.sh。",
+      "novelty": "命令行智能体得到一台持久的本地电脑",
       "urls": {
         "ph": "https://www.producthunt.com/products/superagent-a-home-for-your-ai-agents"
       },
       "tags": [
-        "Agent",
+        "智能体",
         "Mac",
-        "Local"
+        "本地"
       ],
       "homepage": false,
       "unverified": [
-        "official domain not confirmed this scan"
+        "本次未确认官方域名"
       ]
     },
     {
@@ -134,15 +134,15 @@
       "score": 68,
       "status": "watching",
       "first_detected": "2026-08-28T00:00:00+08:00",
-      "last_updated": "2026-08-31T00:00:00+08:00",
-      "summary": "屏幕共享一次 → 在真实工具上跑 hybrid agent。窗口边缘（约早 10 小时），仍是周末最强新交互。",
-      "novelty": "teach-by-showing, not RPA spec",
+      "last_updated": "2026-08-31T02:09:00+08:00",
+      "summary": "屏幕共享一次，就能在真实工具上跑混合智能体。刚出 48 小时窗口约 10 小时，仍是周末最强的新交互。",
+      "novelty": "做一遍给它看，而不是写流程自动化规格",
       "urls": {
         "site": "https://www.trycaddi.com/product",
         "ph": "https://www.producthunt.com/products/caddi-3"
       },
       "tags": [
-        "Agent Builder",
+        "智能体搭建",
         "RPA"
       ],
       "homepage": false
