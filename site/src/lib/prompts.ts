@@ -3,7 +3,7 @@ import { resolve } from "node:path";
 
 import { inferPromptType } from "./prompt-type.mjs";
 
-export { inferPromptType, promptTypeFilters, sourceLinkLabel } from "./prompt-type.mjs";
+export { inferPromptType, promptTypeFilters, sourceLinkLabel, promptFacets, promptFacetFilters } from "./prompt-type.mjs";
 
 export type PromptImage = {
   url: string;
@@ -29,7 +29,7 @@ export type PromptSource = {
   items: PromptItem[];
 };
 
-export type PromptType = "海报" | "插画" | "人像" | "静物" | "风景" | "字体" | "品牌" | "其他";
+export type PromptType = "海报" | "插画" | "人像" | "字体" | "品牌" | "信息图" | "UI" | "场景" | "未分类";
 
 export type PromptSet = {
   id: string;

@@ -3,19 +3,20 @@ import "../styles/global.css";
 import PromptViewer from "../components/PromptViewer.astro";
 import SiteNav from "../components/SiteNav.astro";
 import { formatPromptEyebrow, getPromptSets, imageCount } from "../lib/prompts";
-import { promptTypeFilters, sourceLinkLabel } from "../lib/prompt-type.mjs";
+import { promptFacetFilters, promptFacets, promptTypeFilters, sourceLinkLabel } from "../lib/prompt-type.mjs";
 
 const sets = await getPromptSets();
 const eyebrow = formatPromptEyebrow(sets);
 const totalImages = imageCount(sets);
 const typeFilters = promptTypeFilters(sets);
+const facetFilters = promptFacetFilters(sets);
 ---
 
 <html lang="zh-CN">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="可复制的生图提示词瀑布流" />
+    <meta name="description" content="可复制的生图提示词图墙" />
     <title>提示词 · 工具库</title>
   </head>
   <body>
@@ -25,7 +26,7 @@ const typeFilters = promptTypeFilters(sets);
         <div>
           <p class="eyebrow">{eyebrow}</p>
           <h1>提示词</h1>
-          <p class="intro">每张卡片是一套提示词。点封面查看组内大图，底部按钮复制提示词，「原推 / 原文」打开来源。</p>
+          <p class="intro">先刷图，点开同时看到大图和完整提示词。可用类型、标签和搜索收窄。</p>
         </div>
         <p class="record-count" data-record-count data-total-sets={sets.length} data-total-images={totalImages}>{sets.length} 套 · {totalImages} 张图</p>
       </header>
@@ -42,39 +43,54 @@ const typeFilters = promptTypeFilters(sets);
         </main>
       ) : (
         <>
+          <div class="prompt-toolbar">
+            <label class="prompt-search">
+              <span class="visually-hidden">搜索提示词正文</span>
+              <input type="search" data-prompt-search placeholder="搜索提示词正文" />
+            </label>
+          </div>
           <div class="tag-filter-row" aria-label="按图片类型筛选">
-            <button class="tag-filter is-selected" type="button" data-tag-filter="" aria-pressed="true">全部<em>{sets.length}</em></button>
+            <button class="tag-filter is-selected" type="button" data-type-filter="" aria-pressed="true">全部<em>{sets.length}</em></button>
             {typeFilters.map(({ type, count }) => (
-              <button class="tag-filter" type="button" data-tag-filter={type} aria-pressed="false">{type}<em>{count}</em></button>
+              <button class="tag-filter" type="button" data-type-filter={type} aria-pressed="false">{type}<em>{count}</em></button>
             ))}
           </div>
+          {facetFilters.length > 0 && (
+            <div class="tag-filter-row" aria-label="按标签筛选，可多选">
+              {facetFilters.map(({ facet, count }) => (
+                <button class="tag-filter" type="button" data-facet-filter={facet} aria-pressed="false">{facet}<em>{count}</em></button>
+              ))}
+            </div>
+          )}
+          <p class="prompt-empty-filter" data-filter-empty hidden>没有符合筛选的套 <button type="button" data-clear-filters>清除筛选</button></p>
 
           <main id="prompt-masonry" class="prompt-masonry" aria-label="提示词图片墙">
-            {sets.map((set) => (
+            {sets.map((set) => {
+              const facets = promptFacets(set);
+              const caption = [set.type, ...facets.slice(0, 2)].filter(Boolean).join(" · ");
+              return (
               <article
                 class="prompt-card"
                 data-prompt-card
                 data-item-id={set.id}
                 data-source={set.source}
-                data-tags={set.type}
+                data-type={set.type}
+                data-facets={facets.join(",")}
                 data-image-count={set.images.length}
               >
-                <button type="button" class="prompt-image-open" data-open-viewer aria-label="查看同组大图">
+                <button type="button" class="prompt-image-open" data-open-viewer aria-label={`查看「${caption}」大图和提示词`}>
                   <img src={set.images[0]} alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
                   {set.images.length > 1 && <span class="prompt-count-badge">{set.images.length}张</span>}
                 </button>
+                <p class="prompt-card-caption">{caption}</p>
                 <ul class="prompt-set-images" hidden>
                   {set.images.map((url) => <li data-set-image={url}></li>)}
                 </ul>
-                <div class="prompt-card-bar">
-                  <a class="prompt-source" href={set.tweetUrl} target="_blank" rel="noreferrer">{sourceLinkLabel(set.tweetUrl)}</a>
-                  <button type="button" class="prompt-copy" data-copy-prompt>
-                    <span data-copy-label>复制提示词</span>
-                  </button>
-                </div>
+                <a class="prompt-source" hidden href={set.tweetUrl} target="_blank" rel="noreferrer">{sourceLinkLabel(set.tweetUrl)}</a>
                 <pre class="prompt-payload" hidden>{set.prompt}</pre>
               </article>
-            ))}
+              );
+            })}
           </main>
         </>
       )}
@@ -84,80 +100,74 @@ const typeFilters = promptTypeFilters(sets);
     </footer>
     <PromptViewer />
     <script>
-      const copiedLabel = "已复制";
-      const idleLabel = "复制提示词";
-      const filterButtons = document.querySelectorAll("[data-tag-filter]");
+      const filterEmpty = document.querySelector("[data-filter-empty]");
+      const searchInput = document.querySelector("[data-prompt-search]");
+      const typeButtons = document.querySelectorAll("[data-type-filter]");
+      const facetButtons = document.querySelectorAll("[data-facet-filter]");
       const cards = document.querySelectorAll("[data-prompt-card]");
       const countEl = document.querySelector("[data-record-count]");
-      let activeTag = "";
+      let activeType = "";
+      const activeFacets = new Set();
 
       function refresh() {
+        const query = (searchInput?.value ?? "").trim().toLowerCase();
         let visibleSets = 0;
         let visibleImages = 0;
         cards.forEach((card) => {
-          const tags = (card.getAttribute("data-tags") ?? "").split(",");
-          const hide = Boolean(activeTag) && !tags.includes(activeTag);
+          const type = card.getAttribute("data-type") ?? "";
+          const facets = (card.getAttribute("data-facets") ?? "").split(",").filter(Boolean);
+          const prompt = (card.querySelector(".prompt-payload")?.textContent ?? "").toLowerCase();
+          const typeOk = !activeType || type === activeType;
+          const facetOk = [...activeFacets].every((facet) => facets.includes(facet));
+          const searchOk = !query || prompt.includes(query);
+          const hide = !(typeOk && facetOk && searchOk);
           card.hidden = hide;
           if (!hide) {
             visibleSets += 1;
             visibleImages += Number(card.getAttribute("data-image-count") ?? 0);
           }
         });
-        if (countEl) {
-          countEl.textContent = `${visibleSets} 套 · ${visibleImages} 张图`;
-        }
+        if (countEl) countEl.textContent = `${visibleSets} 套 · ${visibleImages} 张图`;
+        if (filterEmpty) filterEmpty.hidden = visibleSets !== 0;
       }
 
-      filterButtons.forEach((button) => button.addEventListener("click", () => {
-        const nextTag = button.getAttribute("data-tag-filter") ?? "";
-        activeTag = activeTag === nextTag ? "" : nextTag;
-        filterButtons.forEach((item) => {
-          const selected = (item.getAttribute("data-tag-filter") ?? "") === activeTag;
+      typeButtons.forEach((button) => button.addEventListener("click", () => {
+        const next = button.getAttribute("data-type-filter") ?? "";
+        activeType = activeType === next ? "" : next;
+        typeButtons.forEach((item) => {
+          const selected = (item.getAttribute("data-type-filter") ?? "") === activeType;
           item.classList.toggle("is-selected", selected);
           item.setAttribute("aria-pressed", selected ? "true" : "false");
         });
         refresh();
       }));
 
-      async function writeClipboard(text) {
-        if (navigator.clipboard?.writeText) {
-          await navigator.clipboard.writeText(text);
-          return;
-        }
-        const area = document.createElement("textarea");
-        area.value = text;
-        area.setAttribute("readonly", "");
-        area.style.position = "fixed";
-        area.style.left = "-9999px";
-        document.body.append(area);
-        area.select();
-        document.execCommand("copy");
-        area.remove();
-      }
+      facetButtons.forEach((button) => button.addEventListener("click", () => {
+        const facet = button.getAttribute("data-facet-filter") ?? "";
+        if (!facet) return;
+        if (activeFacets.has(facet)) activeFacets.delete(facet);
+        else activeFacets.add(facet);
+        const selected = activeFacets.has(facet);
+        button.classList.toggle("is-selected", selected);
+        button.setAttribute("aria-pressed", selected ? "true" : "false");
+        refresh();
+      }));
 
-      document.querySelectorAll("[data-copy-prompt]").forEach((button) => {
-        button.addEventListener("click", async () => {
-          const card = button.closest("[data-prompt-card]");
-          const payload = card?.querySelector(".prompt-payload");
-          const text = payload?.textContent ?? "";
-          const label = button.querySelector("[data-copy-label]");
-          try {
-            await writeClipboard(text);
-            button.classList.add("is-copied");
-            if (label) label.textContent = copiedLabel;
-            window.setTimeout(() => {
-              button.classList.remove("is-copied");
-              if (label) label.textContent = idleLabel;
-            }, 1600);
-          } catch {
-            if (label) label.textContent = "无法复制，请选中提示词手动复制";
-            if (payload) {
-              payload.hidden = false;
-              payload.setAttribute("tabindex", "0");
-              payload.focus();
-            }
-          }
+      searchInput?.addEventListener("input", refresh);
+      document.querySelector("[data-clear-filters]")?.addEventListener("click", () => {
+        activeType = "";
+        activeFacets.clear();
+        if (searchInput) searchInput.value = "";
+        typeButtons.forEach((item) => {
+          const selected = (item.getAttribute("data-type-filter") ?? "") === "";
+          item.classList.toggle("is-selected", selected);
+          item.setAttribute("aria-pressed", selected ? "true" : "false");
         });
+        facetButtons.forEach((item) => {
+          item.classList.remove("is-selected");
+          item.setAttribute("aria-pressed", "false");
+        });
+        refresh();
       });
     </script>
   </body>
