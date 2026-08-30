@@ -1,8 +1,14 @@
 import assert from "node:assert/strict";
 import { mkdtemp, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
-import { join } from "node:path";
+import { dirname, join, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
 import test from "node:test";
+
+const radarDir = resolve(dirname(fileURLToPath(import.meta.url)), "../../data/radar");
+const signalsFile = resolve(radarDir, "signals.json");
+const productsFile = resolve(radarDir, "products.json");
+const watchlistFile = resolve(radarDir, "watchlist.json");
 
 import {
   emergingSignals,
@@ -14,7 +20,7 @@ import {
   homepageProducts,
   homepageSignals,
   sortEvidenceByDate,
-} from "../src/lib/radar.ts";
+} from "../src/lib/radar.mjs";
 
 const missingFile = "/tmp/collection-wall-radar-missing.json";
 
@@ -27,9 +33,9 @@ test("缺失雷达 JSON 时返回空数组 / null，不抛错", async () => {
 });
 
 test("读取 data/radar 契约文件，不硬编码条目", async () => {
-  const signals = await getSignals();
-  const products = await getProducts();
-  const watchlist = await getWatchlist();
+  const signals = await getSignals(signalsFile);
+  const products = await getProducts(productsFile);
+  const watchlist = await getWatchlist(watchlistFile);
   assert.equal(signals.length, 7);
   assert.equal(products.length, 7);
   assert.equal(watchlist.length, 7);
@@ -39,10 +45,10 @@ test("读取 data/radar 契约文件，不硬编码条目", async () => {
 });
 
 test("getSignalById 按 id 取信号，未知 id 为 null", async () => {
-  const item = await getSignalById("agent-persistent-computer");
+  const item = await getSignalById("agent-persistent-computer", signalsFile);
   assert.equal(item?.id, "agent-persistent-computer");
   assert.ok((item?.evidence?.length ?? 0) >= 1);
-  assert.equal(await getSignalById("does-not-exist"), null);
+  assert.equal(await getSignalById("does-not-exist", signalsFile), null);
 });
 
 test("homepageSignals 只保留 homepage===true，按 score 降序", () => {
