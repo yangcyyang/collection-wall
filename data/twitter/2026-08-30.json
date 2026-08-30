@@ -9,6 +9,310 @@
   },
   "items": [
     {
+      "id": "2094085736601473311",
+      "author": "abskoop",
+      "bio": "",
+      "text": "Google AI Overviews 开始自动完全展开了\n\n部分 AI Overview 现在直接默认展开完整答案，不用再点Show more 才展开了\n\n自然搜索结果又被往下推一截😂 https://t.co/z95485ejVQ",
+      "created_at": "Sun Aug 30 15:32:00 +0000 2026",
+      "likes": 0,
+      "views": "2260",
+      "url": "https://x.com/i/status/2094085736601473311",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2094060964123672576/vid/avc1/332x270/O96pqArIN1fRsxQi.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2094060964123672576/img/GS25dk2AJERO22Ew.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 34.713,
+      "title": null,
+      "summary": "Google AI Overviews 开始自动完全展开了\n\n部分 AI Overview 现在直接默认展开完整答案，不用再点Show more 才展开了\n\n自然搜索结果又被往下推一截😂 https://t.co/z95485ejVQ",
+      "recommend_reason": "搜索结果页 AI Overview 默认展开，等于再挤一截自然结果，做 SEO/GEO 的人要看见。",
+      "tags": [
+        "Google",
+        "搜索",
+        "SEO"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2094082671848673690",
+      "author": "elonmusk",
+      "bio": "",
+      "text": "Grok providing schooling in El Salvador",
+      "created_at": "Sun Aug 30 15:19:49 +0000 2026",
+      "likes": 1900,
+      "views": "708300",
+      "url": "https://x.com/i/status/2094082671848673690",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2093750631437828487",
+        "author": "MTSlive",
+        "name": "MTS",
+        "text": "FULL INTERVIEW: Jen Kha says El Salvador gave every school free Grok and is deploying AI doctors. She says countries nobody expects are now outpacing America on adoption while America fights over data centers.\n\n@jkhamehl is a managing partner and head of global partnerships at @a16z. She joined @theojaffee and @sophiadew on announcement day for the $1.1B Machine Age Fund to walk through the thesis and break down why the physical layer under AI was uninvestable for 30 years and isn't anymore:\n\n00:38 why the timing of this fund says everything about the cycle\n02:40 following the nerd energy\n02:59 software's eating the world, but AI already solved software\n04:44 23% of all venture capital this year\n06:09 SpaceX public, Anthropic and OpenAI next, and what that does to LPs\n07:36 the partner who said they'd deploy the whole fund in six weeks\n10:01 the president of Korea's first and only US stop was Silicon Valley\n10:15 NVIDIA is bigger than every G7 country except the US\n12:27 South Korea, El Salvador and the countries adopting AI faster than America\n14:33 why she thinks the data center narrative got ahead of reality\n16:31 under 2% of US electricians are trained on DC power\n17:45 agents now use 5x the tokens humans do\n19:24 why these founders are a throwback, and where they're spinning out from",
+        "created_at": "Sat Aug 29 17:20:25 +0000 2026",
+        "url": "https://x.com/MTSlive/status/2093750631437828487",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2093749101489983488/vid/avc1/480x270/uvDZW0TuqLzjZlKH.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2093749101489983488/img/Dxsxf8z0epGIcSIR.jpg"
+        ]
+      },
+      "score": 60.846,
+      "title": null,
+      "summary": "Grok 正在为萨尔瓦多提供教学。",
+      "recommend_reason": "马斯克亲自转这条：引用里是 a16z 的 Jen Kha 在讲萨尔瓦多给每所学校免费 Grok、并部署 AI 医生。",
+      "tags": [
+        "Grok",
+        "教育",
+        "萨尔瓦多"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2094073396724424843",
+      "author": "yaojingang",
+      "bio": "",
+      "text": "昨晚公开课提到，AI生成的内容，其实质检非常重要\n在通过AI对内容进行AI质检时，用到的两个方法：\n一种是知识库检索方式\n一种是基于知识库进一步构建的原子指标匹配\n\nGEOFlow在践行原子方式的AI质检方案\n对应的测试数据对比：\n1、Token消耗对比，原子方式AI质检，整体Token消耗相比知识库方式，下降40%以上\n2、时间效率上，原子方式整体耗时减少20%以上\n3、准确性上，原子方式整体更优，且明确冲突召回率100%，知识库方式遇到类似问题时，结果显示，知识切片增加了检索噪声，模型没有发现该冲突\n\n不过这个方案也还有很多可以优化的工程细节，还挺有意思的",
+      "created_at": "Sun Aug 30 14:42:58 +0000 2026",
+      "likes": 14,
+      "views": "1466",
+      "url": "https://x.com/i/status/2094073396724424843",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQ-jr3kaEAAj0_b.png",
+        "https://pbs.twimg.com/media/HQ-j5FabgAAaWv8.png",
+        "https://pbs.twimg.com/media/HQ-kDupbAAAkqQe.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQ-jr3kaEAAj0_b.png",
+        "https://pbs.twimg.com/media/HQ-j5FabgAAaWv8.png",
+        "https://pbs.twimg.com/media/HQ-kDupbAAAkqQe.png"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2093731129820074276",
+        "author": "yaojingang",
+        "name": "姚金刚",
+        "text": "今晚的GEO公开课结束，下面是相关链接及课件：\n1、课程总结文章：\nhttps://t.co/lWLGbZgHfK\n2、GEOFlow\nhttps://t.co/UHwRimsUsZ\n3、GEOFlow示例站点\nhttps://t.co/AQjAd30iYd\n4、公开课word课件\nhttps://t.co/hStlu5pzJw\n5、公开课PPT课件\nhttps://t.co/u4TgjDLq6S\n6、官网GEO引用数据研究\nhttps://t.co/vFlJ35hpzR\n7、GEO数据集与论文仓库\nhttps://t.co/PPatGGrWxE\n8、第二届GEO大会：\nhttps://t.co/jTUfuxbQMY\n9、直播回放\n详见视频号“通往AGI之路”主页，找到回放视频",
+        "created_at": "Sat Aug 29 16:02:55 +0000 2026",
+        "url": "https://x.com/yaojingang/status/2093731129820074276",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 45.372,
+      "title": "GEOFlow：原子指标质检 vs 知识库检索",
+      "summary": "姚金刚补昨晚 GEO 公开课：AI 生成内容要用 AI 做质检。两条路——直接知识库检索，或从知识库再拆成原子指标去匹配。GEOFlow 走后者。对照：原子方案 Token 降 40% 以上、耗时少 20% 以上，明确冲突召回 100%；知识库切片反而引入噪声，模型没发现冲突。作者也承认工程细节还能再抠。",
+      "recommend_reason": "少见的「用 AI 查 AI 产出」对照实验，Token、时延、冲突召回三项都给了数。",
+      "tags": [
+        "GEO",
+        "质检",
+        "Token"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2094069965615935608",
+      "author": "canghe",
+      "bio": "",
+      "text": "我现在觉得，如果我坐在电脑前或者拿着手机的时候，我的 Codex 不工作，闲着，就是最大的浪费，我会有一种深深的负罪感，我不把 Codex 额度用完，然后就被义父重置，我感觉比吃了屎还难受。\n\n不知道你们会不会有这种感觉，像是吸了鸦片一样。",
+      "created_at": "Sun Aug 30 14:29:20 +0000 2026",
+      "likes": 29,
+      "views": "3828",
+      "url": "https://x.com/i/status/2094069965615935608",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 57.647,
+      "title": null,
+      "summary": "我现在觉得，如果我坐在电脑前或者拿着手机的时候，我的 Codex 不工作，闲着，就是最大的浪费，我会有一种深深的负罪感，我不把 Codex 额度用完，然后就被义父重置，我感觉比吃了屎还难受。\n\n不知道你们会不会有这种感觉，像是吸了鸦片一样。",
+      "recommend_reason": "订阅制 coding agent 在重置前把额度跑满的负罪感，很多人用 Codex 时都有。",
+      "tags": [
+        "Codex",
+        "额度",
+        "体验"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2094069278811238895",
+      "author": "taiyo_ai_gakuse",
+      "bio": "",
+      "text": "ちなみにCodexデスクトップのリモートコントロールより、Moshiのリモートコントロールの方が10倍くらい視認性良いのでマジおすすめ。 https://t.co/fuxr5Nuztd",
+      "created_at": "Sun Aug 30 14:26:36 +0000 2026",
+      "likes": 8,
+      "views": "1589",
+      "url": "https://x.com/i/status/2094069278811238895",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQ-g6IxasAAYw8d.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQ-g6IxasAAYw8d.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2093908238916100189",
+        "author": "taiyo_ai_gakuse",
+        "name": "Taiyo Kimura",
+        "text": "開発環境は、Ghostty + Herdr +  terminal-browser + terminal-code、スマホでのリモート操作はMoshi。が最強の布陣。",
+        "created_at": "Sun Aug 30 03:46:41 +0000 2026",
+        "url": "https://x.com/taiyo_ai_gakuse/status/2093908238916100189",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 58.854,
+      "title": null,
+      "summary": "顺便说一句，Moshi 的远程控制比 Codex 桌面端的远程控制可视性大概好十倍，真心推荐。 https://t.co/fuxr5Nuztd",
+      "recommend_reason": "同一作者白天刚把手机远程定在 Moshi；这则直接跟 Codex 桌面遥控做了可视性对比，还带截图。",
+      "tags": [
+        "Moshi",
+        "Codex",
+        "远程控制"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2094066357998645391",
+      "author": "VigoCreativeAI",
+      "bio": "",
+      "text": "VISUAL OS 033 — Word Corridors\n\nOne building, one word. You read it by walking.\n\nRENEW — archive conservation / project 47-A\nOUTLAST — weather log / keep the line\nTEND — field index / deeper light\nREBUILD — stage note 11 / make room\n\nLocked:\n– a one-point-perspective corridor, monochrome photograph, deep vanishing point\n– one red word distributed through the architecture: floor, far wall, ceiling — letters in true perspective\n– reading order is walking order; the largest letter sits under your feet\n– one sharp figure walking away down the center, carrying the trade's object\n– everyone else motion-blurred to ghosts\n– red is the only color in the frame\n– all microcopy is painted ON the walls, in perspective — specs, logs, pressure readings\n– one small red glyph on a wall surface\n– the corridor must belong to the trade: archive nave, storm colonnade, glasshouse, backstage\n– the word is always a verb of upkeep\n\nSwaps: trade / corridor / one verb / carried object / wall microcopy / glyph\n\nThe building already knows what it needs. Someone just painted it down.\n\nPrompt ↓",
+      "created_at": "Sun Aug 30 14:15:00 +0000 2026",
+      "likes": 12,
+      "views": "514",
+      "url": "https://x.com/i/status/2094066357998645391",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQ9MPfiXEAAuDxZ.jpg",
+        "https://pbs.twimg.com/media/HQ9MPfkWQAAVByl.jpg",
+        "https://pbs.twimg.com/media/HQ9MPflXoAAjgeR.jpg",
+        "https://pbs.twimg.com/media/HQ9MPfdW0AAE_eV.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQ9MPfiXEAAuDxZ.jpg",
+        "https://pbs.twimg.com/media/HQ9MPfkWQAAVByl.jpg",
+        "https://pbs.twimg.com/media/HQ9MPflXoAAjgeR.jpg",
+        "https://pbs.twimg.com/media/HQ9MPfdW0AAE_eV.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2093690185003246053",
+        "author": "VigoCreativeAI",
+        "name": "Vigo Zhao",
+        "text": "VISUAL OS 032 — Sticker Clubs\n\nFour tiny clubs, recruiting. Dues: enthusiasm.\n\nMAKE NOISE — zine press / small editions, big ideas\nBLOOM LATE — midnight florist / save some color\nREWIND THIS — film night / one more scene, please\nROLL BRIGHT — skate repair / fix it, wear it, go again\n\nLocked:\n– one cobalt paper field, grain visible, edge to edge\n– two stacked words in giant yellow print-textured caps with a red offset, cropped by the frame\n– one person, chest up, cut out with a thick cream sticker outline, always eclipsing the second word\n– they hold the club's object up and look straight at you — zine, bouquet, film can, wheel\n– wardrobe drawn from the poster's own palette: cobalt, yellow, red, cream\n– the sticker kit: denim pockets holding icons — cherries, orange slice, daisy, sparkle, lightning\n– exactly one red hand-drawn gesture: a loop or an arrow\n– the tagline lives on a ticket stub, nowhere else\n– warmth is mandatory — these are invitations, not ads\n\nSwaps: club / two-word title / held object / pocket icons / tagline\n\nEvery club is four stickers and one true believer.\n\nPrompt ↓",
+        "created_at": "Sat Aug 29 13:20:13 +0000 2026",
+        "url": "https://x.com/VigoCreativeAI/status/2093690185003246053",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQ5IFS7WYAAEDKG.jpg",
+          "https://pbs.twimg.com/media/HQ5IFTDXkAAMR-S.jpg",
+          "https://pbs.twimg.com/media/HQ5IFS_XsAAR9-h.jpg",
+          "https://pbs.twimg.com/media/HQ5IFS8XEAAwqoH.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQ5IFS7WYAAEDKG.jpg",
+          "https://pbs.twimg.com/media/HQ5IFTDXkAAMR-S.jpg",
+          "https://pbs.twimg.com/media/HQ5IFS_XsAAR9-h.jpg",
+          "https://pbs.twimg.com/media/HQ5IFS8XEAAwqoH.jpg"
+        ]
+      },
+      "score": 67.419,
+      "title": "VISUAL OS 033：走廊当单词，走着读完",
+      "summary": "Vigo 把 Word Corridors 收成一套可复用视觉系统：一条一点透视的单色走廊，唯一的红是一个保养动词（RENEW / OUTLAST / TEND / REBUILD）。字母按真透视铺在地板、尽头墙和天花板上，最大字母在脚下，阅读顺序就是走路顺序。画面里一个清晰的人背对镜头走向深处，其他人运动模糊成鬼影；规格、日志、气压这类微文案也全部画在墙上的透视里。四组场景分别是档案甬道、风暴柱廊、温室、后台。上一期是贴纸俱乐部，这一期换成建筑自己把要做的事写在墙上。",
+      "recommend_reason": "提示词写成「锁定约束 + 可替换槽位」，比散装审美词更适合当视觉 OS 复用。",
+      "tags": [
+        "图像生成",
+        "提示词",
+        "视觉系统"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2094066149436883003",
+      "author": "LufzzLiz",
+      "bio": "",
+      "text": "《从头开始构建大型语言模型》的作者：Sebastian Raschka 出新书了：《从头开始构建推理模型》，\n之前那一本我就很喜欢，属于必修系列\n作者为此还做了个介绍视频\n\n日常开发可以大量使用 AI，但理解底层机制仍然是一项长期复利投资。\n\n作者还开放了所有操作代码，非常值得边做边学：https://t.co/eF8uEIMm7a\n\n新书中，作者使用了一种预训练的开源基础大语言模型（Qwen3）作为基础，并在此之上实现了各种推理方法的实现。这些方法包括推理时间扩展、强化学习以及蒸馏技术。",
+      "created_at": "Sun Aug 30 14:14:10 +0000 2026",
+      "likes": 3,
+      "views": "503",
+      "url": "https://x.com/i/status/2094066149436883003",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HQ-bfmBaAAAxOqU.jpg",
+        "https://pbs.twimg.com/media/HQ-dOSRboAAwfSY.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HQ-bfmBaAAAxOqU.jpg",
+        "https://pbs.twimg.com/media/HQ-dOSRboAAwfSY.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2094057793506439492",
+        "author": "rasbt",
+        "name": "Sebastian Raschka",
+        "text": "A little video that \n- explains the relationship between conventional LLMs and reasoning models (and agents),\n- philosophizes a about \"from scratch\" approaches, \n- and explains how to install Python &amp; PyTorch requirements with uv. https://t.co/ahZHoyPa0Q",
+        "created_at": "Sun Aug 30 13:40:58 +0000 2026",
+        "url": "https://x.com/rasbt/status/2094057793506439492",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2093758866445983744/vid/avc1/480x270/enk378KIlWC5OP77.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2093758866445983744/img/JVPLSI8lAdKIiDmw.jpg"
+        ]
+      },
+      "score": 58.359,
+      "title": "Raschka 新书《从头开始构建推理模型》",
+      "summary": "《从头开始构建大型语言模型》作者 Sebastian Raschka 出了续作《从头开始构建推理模型》，并自己拍了介绍视频。做法是拿预训练开源基座 Qwen3，在上面实现推理时扩展、强化学习和蒸馏，操作代码全部公开。转推者的判断：日常开发可以大量用 AI，但把底层机制搞懂仍是长期复利。",
+      "recommend_reason": "从 LLM 到推理模型的 from-scratch 续作，基座和三种方法都写死了，适合边敲边学。",
+      "tags": [
+        "推理模型",
+        "Qwen",
+        "学习"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2094062702393983330",
+      "author": "georgesttock",
+      "bio": "",
+      "text": "I've watched this back three times and still can't fully tell it's AI.\n\nMade this end-to-end with Claude + MakeUGC — 4 minutes, $1.\n\nIt nailed the stuff that usually gives AI UGC away: hand gestures, tiny body movements, facial reactions, speech timing.\n\nIt's not just \"good AI video\" anymore.\n\nThis is starting to look like footage I could've recorded with a real creator.",
+      "created_at": "Sun Aug 30 14:00:28 +0000 2026",
+      "likes": 11,
+      "views": "795",
+      "url": "https://x.com/i/status/2094062702393983330",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/ext_tw_video/2094062676410335232/pu/vid/avc1/320x568/DOoNel3Dymr7mnp9.mp4?tag=12"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/ext_tw_video_thumb/2094062676410335232/pu/img/W1gHNCau44BqUR4O.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 64.621,
+      "title": "Claude + MakeUGC：4 分钟 1 美元做出难辨真假的 UGC",
+      "summary": "作者用 Claude 加 MakeUGC 端到端做了一条大约 4 分钟、成本 1 美元的口播片，自己回看三遍仍难确定是 AI。他说这次把 AI UGC 最容易穿帮的地方做对了：手势、细微体动、面部反应、说话时机。结论不是空喊「AI 视频变好了」，而是已经接近他会找真人创作者实拍的素材。",
+      "recommend_reason": "把 UGC 穿帮点（手、脸、口型节奏）写清楚了，比「以假乱真」口号有用。",
+      "tags": [
+        "AI视频",
+        "UGC",
+        "Claude"
+      ],
+      "rank": 8
+    },
+    {
       "id": "2093915471448080441",
       "author": "YuLin807",
       "bio": "",
@@ -42,7 +346,7 @@
         "额度",
         "体验"
       ],
-      "rank": 1
+      "rank": 9
     },
     {
       "id": "2093909737893138564",
@@ -72,7 +376,7 @@
         "数据集",
         "开源"
       ],
-      "rank": 2
+      "rank": 10
     },
     {
       "id": "2093907037348581676",
@@ -102,7 +406,7 @@
         "RAG",
         "开源"
       ],
-      "rank": 3
+      "rank": 11
     },
     {
       "id": "2093905194795008429",
@@ -132,7 +436,7 @@
         "模型发布",
         "多模态"
       ],
-      "rank": 4
+      "rank": 12
     },
     {
       "id": "2093903829054189922",
@@ -162,7 +466,7 @@
         "AI",
         "科技"
       ],
-      "rank": 5
+      "rank": 13
     },
     {
       "id": "2093901300367069425",
@@ -188,7 +492,7 @@
         "赞助",
         "青年"
       ],
-      "rank": 6
+      "rank": 14
     },
     {
       "id": "2093900500400038341",
@@ -218,7 +522,7 @@
         "教学",
         "开源"
       ],
-      "rank": 7
+      "rank": 15
     },
     {
       "id": "2093896488883511385",
@@ -248,7 +552,7 @@
         "Hermes",
         "人机交互"
       ],
-      "rank": 8
+      "rank": 16
     },
     {
       "id": "2093894213482184853",
@@ -288,7 +592,7 @@
         "订阅",
         "用量"
       ],
-      "rank": 9
+      "rank": 17
     },
     {
       "id": "2093892546410013134",
@@ -323,7 +627,7 @@
         "OpenAI",
         "用量"
       ],
-      "rank": 10
+      "rank": 18
     },
     {
       "id": "2093891610350366818",
@@ -360,7 +664,7 @@
         "办公",
         "字节"
       ],
-      "rank": 11
+      "rank": 19
     },
     {
       "id": "2093889765481554324",
@@ -385,7 +689,7 @@
         "开源",
         "AI产品"
       ],
-      "rank": 12
+      "rank": 20
     },
     {
       "id": "2093889719461634199",
@@ -411,7 +715,7 @@
         "Grok",
         "效率"
       ],
-      "rank": 13
+      "rank": 21
     },
     {
       "id": "2093888487280013807",
@@ -451,7 +755,7 @@
         "用量",
         "Harness"
       ],
-      "rank": 14
+      "rank": 22
     },
     {
       "id": "2093886580465525055",
@@ -487,7 +791,7 @@
         "营销",
         "监控"
       ],
-      "rank": 15
+      "rank": 23
     },
     {
       "id": "2093883902771466688",
@@ -518,10 +822,10 @@
         "工程",
         "Token"
       ],
-      "rank": 16
+      "rank": 24
     }
   ],
-  "generated_at": "2026-08-30T04:17:41Z",
+  "generated_at": "2026-08-30T16:04:26Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -529,11 +833,11 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 16,
-    "last_batch_added": 16,
+    "actual_count": 24,
+    "last_batch_added": 8,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
