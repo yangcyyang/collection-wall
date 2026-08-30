@@ -7,13 +7,14 @@ export {
   getSignals,
   getSignalsFeed,
   getWatchlist,
+  getWatchlistById,
   getWatchlistFeed,
   homepageProducts,
   homepageSignals,
   radarConfidenceLabel,
-  radarStaticPaths,
   radarStatusClass,
   radarStatusLabel,
+  relatedSignalLabels,
   sortEvidenceByDate,
 } from "./radar.mjs";
 

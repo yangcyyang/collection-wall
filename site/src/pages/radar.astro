@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import RadarViewer from "../components/RadarViewer.astro";
 import SiteNav from "../components/SiteNav.astro";
 import { formatBeijingDateTime } from "../lib/news.mjs";
 import {
@@ -65,7 +66,7 @@ const updated = formatBeijingDateTime(feed.updated_at);
               <div class="tool-grid">
                 {topSignals.map((item) => (
                   <article class="tool-card">
-                    <a class="card-link" href={`/radar/${item.id}/`} aria-label={item.title}></a>
+                    <button type="button" class="card-link" data-radar-open data-radar-key={`signal:${item.id}`} aria-label={item.title}></button>
                     <div class="card-content">
                       <div class="card-meta">
                         <span class="tweet-score">{item.score}</span>
@@ -90,7 +91,7 @@ const updated = formatBeijingDateTime(feed.updated_at);
               <div class="tool-grid">
                 {newProducts.map((item) => (
                   <article class="tool-card">
-                    <a class="card-link" href={`/radar/${item.id}/`} aria-label={item.name}></a>
+                    <button type="button" class="card-link" data-radar-open data-radar-key={`product:${item.id}`} aria-label={item.name}></button>
                     <div class="card-content">
                       <div class="card-meta">
                         <span class="tweet-score">{item.score}</span>
@@ -115,7 +116,7 @@ const updated = formatBeijingDateTime(feed.updated_at);
               <div class="tool-grid">
                 {emerging.map((item) => (
                   <article class="tool-card">
-                    <a class="card-link" href={`/radar/${item.id}/`} aria-label={item.title}></a>
+                    <button type="button" class="card-link" data-radar-open data-radar-key={`signal:${item.id}`} aria-label={item.title}></button>
                     <div class="card-content">
                       <div class="card-meta">
                         <span class="tweet-score">{item.score}</span>
@@ -138,28 +139,26 @@ const updated = formatBeijingDateTime(feed.updated_at);
                 <p>{watchlist.length} 条</p>
               </div>
               <div class="tool-grid">
-                {watchlist.map((item) => {
-                  const href = item.related_signals?.[0] ? `/radar/${item.related_signals[0]}/` : "";
-                  return (
-                    <article class="tool-card">
-                      {href && <a class="card-link" href={href} aria-label={item.title}></a>}
-                      <div class="card-content">
-                        <div class="card-meta">
-                          <span class="category">{item.since ? formatBeijingDateTime(item.since) : ""}</span>
-                          <span class:list={["status", radarStatusClass(item.status)]}>{radarStatusLabel(item.status)}</span>
-                        </div>
-                        <h3>{item.title}</h3>
-                        <p>{item.why}</p>
+                {watchlist.map((item) => (
+                  <article class="tool-card">
+                    <button type="button" class="card-link" data-radar-open data-radar-key={`watch:${item.id}`} aria-label={item.title}></button>
+                    <div class="card-content">
+                      <div class="card-meta">
+                        <span class="category">{item.since ? formatBeijingDateTime(item.since) : ""}</span>
+                        <span class:list={["status", radarStatusClass(item.status)]}>{radarStatusLabel(item.status)}</span>
                       </div>
-                    </article>
-                  );
-                })}
+                      <h3>{item.title}</h3>
+                      <p>{item.why}</p>
+                    </div>
+                  </article>
+                ))}
               </div>
             </section>
           )}
         </main>
       )}
     </div>
+    <RadarViewer signals={signals} products={products} watchlist={watchlist} />
     <footer class="site-footer">
       <p>数据来自 data/radar JSON，构建时读取，不另存 HTML。</p>
     </footer>

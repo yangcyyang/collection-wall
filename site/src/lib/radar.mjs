@@ -62,6 +62,14 @@ export async function getProductById(id, file = defaultProducts) {
   return (await getProducts(file)).find((item) => item.id === id) ?? null;
 }
 
+export async function getWatchlistById(id, file = defaultWatchlist) {
+  return (await getWatchlist(file)).find((item) => item.id === id) ?? null;
+}
+
+export function relatedSignalLabels(ids = [], signals = []) {
+  return ids.map((id) => signals.find((item) => item.id === id)?.title ?? id);
+}
+
 export function homepageSignals(items) {
   return items.filter((item) => item.homepage === true).sort(byScoreDesc);
 }
@@ -111,13 +119,4 @@ export function radarStatusLabel(status = "") {
 
 export function radarConfidenceLabel(confidence = "") {
   return CONFIDENCE_LABELS[confidence] ?? confidence;
-}
-
-export async function radarStaticPaths() {
-  const signals = await getSignals();
-  const products = await getProducts();
-  const ids = new Map();
-  for (const item of products) ids.set(item.id, "product");
-  for (const item of signals) ids.set(item.id, "signal");
-  return [...ids.keys()].map((id) => ({ params: { id } }));
 }

@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { mkdtemp, writeFile } from "node:fs/promises";
+import { mkdtemp, readFile, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -17,10 +17,12 @@ import {
   getSignalById,
   getSignals,
   getWatchlist,
+  getWatchlistById,
   homepageProducts,
   homepageSignals,
   radarConfidenceLabel,
   radarStatusLabel,
+  relatedSignalLabels,
   sortEvidenceByDate,
 } from "../src/lib/radar.mjs";
 
@@ -51,6 +53,37 @@ test("getSignalById 按 id 取信号，未知 id 为 null", async () => {
   assert.equal(item?.id, "agent-persistent-computer");
   assert.ok((item?.evidence?.length ?? 0) >= 1);
   assert.equal(await getSignalById("does-not-exist", signalsFile), null);
+});
+
+test("getWatchlistById 返回观察项本身，不是 related_signals[0]", async () => {
+  const item = await getWatchlistById("agent-computer-category", watchlistFile);
+  assert.equal(item?.id, "agent-computer-category");
+  assert.equal(item?.title, "beafk、useagent、vicoa 谁先做出离开后还在跑");
+  assert.ok(item?.why);
+  assert.deepEqual(item?.related_signals, ["agent-persistent-computer"]);
+  assert.notEqual(item?.id, item?.related_signals?.[0]);
+  assert.equal(await getWatchlistById("does-not-exist", watchlistFile), null);
+  assert.equal(await getWatchlistById("agent-computer-category", missingFile), null);
+});
+
+test("relatedSignalLabels 用信号标题展示，不生成详情路由", () => {
+  const labels = relatedSignalLabels(
+    ["agent-persistent-computer", "missing-id"],
+    [{ id: "agent-persistent-computer", title: "智能体正在拥有自己的长期计算环境" }],
+  );
+  assert.deepEqual(labels, ["智能体正在拥有自己的长期计算环境", "missing-id"]);
+  assert.ok(labels.every((label) => !String(label).includes("/radar/")));
+});
+
+test("雷达列表页用按钮打开弹层，不链到 /radar/{id}/", async () => {
+  const page = await readFile(new URL("../src/pages/radar.astro", import.meta.url), "utf8");
+  assert.match(page, /data-radar-open/);
+  assert.doesNotMatch(page, /href=\{`\/radar\/\$\{item\.id\}\/`\}/);
+  assert.doesNotMatch(page, /related_signals\?\.\[0\]/);
+  assert.match(page, /今日强信号/);
+  assert.match(page, /新产品/);
+  assert.match(page, /新兴信号/);
+  assert.match(page, /观察名单/);
 });
 
 test("homepageSignals 只保留 homepage===true，按 score 降序", () => {
@@ -120,6 +153,27 @@ test("data/radar JSON 状态与置信度仍是英文枚举", async () => {
       assert.ok(allowedConfidence.has(item.confidence), `${item.id} confidence ${item.confidence}`);
     }
   }
+});
+
+test("构建产物 /radar/ 用弹层展示详情，证据为外链", async (t) => {
+  const distFile = new URL("../dist/radar/index.html", import.meta.url);
+  let html;
+  try {
+    html = await readFile(distFile, "utf8");
+  } catch {
+    t.skip("尚未执行 site build");
+    return;
+  }
+  assert.match(html, /data-radar-viewer/);
+  assert.match(html, /data-radar-key="signal:agent-persistent-computer"/);
+  assert.match(html, /data-radar-key="watch:agent-computer-category"/);
+  assert.match(html, /https:\/\/beafk\.app/);
+  assert.match(html, /加强中/);
+  assert.match(html, /今日强信号/);
+  assert.match(html, /新产品/);
+  assert.match(html, /新兴信号/);
+  assert.match(html, /观察名单/);
+  assert.doesNotMatch(html, /href="\/radar\/[^"]+"/);
 });
 
 test("损坏的 JSON 与空 items 不让站点崩", async () => {

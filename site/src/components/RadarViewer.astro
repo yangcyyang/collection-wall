@@ -1,0 +1,212 @@
+---
+import { formatBeijingDateTime } from "../lib/news.mjs";
+import {
+  radarConfidenceLabel,
+  radarStatusClass,
+  radarStatusLabel,
+  relatedSignalLabels,
+  sortEvidenceByDate,
+} from "../lib/radar";
+
+const { signals = [], products = [], watchlist = [] } = Astro.props;
+---
+
+<div class="radar-viewer" hidden data-radar-viewer>
+  <button type="button" class="radar-viewer-backdrop" data-radar-close aria-label="关闭详情" tabindex="-1"></button>
+  <div class="radar-viewer-dialog" role="dialog" aria-modal="true" aria-labelledby="radar-viewer-title">
+    <button type="button" class="radar-viewer-close" data-radar-close>关闭</button>
+    <div class="radar-viewer-body" data-radar-body></div>
+  </div>
+</div>
+
+{signals.map((item) => {
+  const evidence = sortEvidenceByDate(item.evidence ?? []);
+  const watchNext = item.watch_next ?? [];
+  const judgments = item.judgment_changes ?? [];
+  const tags = item.tags ?? [];
+  return (
+    <template data-radar-template={`signal:${item.id}`}>
+      <header class="radar-viewer-header">
+        <div>
+          <h2 id="radar-viewer-title">{item.title}</h2>
+          <p class="radar-viewer-summary">{item.summary}</p>
+        </div>
+        <div class="radar-viewer-meta">
+          {item.confidence && <span class="category">{radarConfidenceLabel(item.confidence)}</span>}
+          <span class:list={["status", radarStatusClass(item.status)]}>{radarStatusLabel(item.status)}</span>
+        </div>
+      </header>
+      {tags.length > 0 && <div class="tag-list">{tags.map((tag) => <span>{tag}</span>)}</div>}
+      {item.why_it_matters && (
+        <section class="radar-viewer-section">
+          <h3>为何重要</h3>
+          <p>{item.why_it_matters}</p>
+        </section>
+      )}
+      {evidence.length > 0 && (
+        <section class="radar-viewer-section">
+          <h3>证据</h3>
+          <ul class="radar-evidence">
+            {evidence.map((entry) => (
+              <li>
+                {entry.date && <time>{formatBeijingDateTime(entry.date)}</time>}
+                {entry.source && <span class="tweet-author">{entry.source}</span>}
+                {entry.note && <p>{entry.note}</p>}
+                {entry.url && (
+                  <a class="tweet-link" href={entry.url} target="_blank" rel="noreferrer">{entry.url} →</a>
+                )}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+      {watchNext.length > 0 && (
+        <section class="radar-viewer-section">
+          <h3>接下来观察</h3>
+          <ul class="k-points">{watchNext.map((line) => <li>{line}</li>)}</ul>
+        </section>
+      )}
+      {judgments.length > 0 && (
+        <section class="radar-viewer-section">
+          <h3>判断变化</h3>
+          <ul class="k-points">
+            {judgments.map((entry) => (
+              <li>
+                {entry.date ? `${formatBeijingDateTime(entry.date)} · ` : ""}
+                {entry.change}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+    </template>
+  );
+})}
+
+{products.map((item) => {
+  const urls = Object.entries(item.urls ?? {}).filter(([, url]) => url);
+  return (
+    <template data-radar-template={`product:${item.id}`}>
+      <header class="radar-viewer-header">
+        <div>
+          <h2 id="radar-viewer-title">{item.name}</h2>
+          <p class="radar-viewer-summary">{item.summary}</p>
+        </div>
+        <div class="radar-viewer-meta">
+          <span class:list={["status", radarStatusClass(item.status)]}>{radarStatusLabel(item.status)}</span>
+        </div>
+      </header>
+      {item.novelty && (
+        <section class="radar-viewer-section">
+          <h3>新意</h3>
+          <p>{item.novelty}</p>
+        </section>
+      )}
+      {urls.length > 0 && (
+        <section class="radar-viewer-section">
+          <h3>链接</h3>
+          <p class="news-links">
+            {urls.map(([key, url]) => (
+              <a class="tweet-link" href={url} target="_blank" rel="noreferrer">{key} →</a>
+            ))}
+          </p>
+        </section>
+      )}
+    </template>
+  );
+})}
+
+{watchlist.map((item) => {
+  const related = relatedSignalLabels(item.related_signals ?? [], signals);
+  return (
+    <template data-radar-template={`watch:${item.id}`}>
+      <header class="radar-viewer-header">
+        <div>
+          <h2 id="radar-viewer-title">{item.title}</h2>
+          <p class="radar-viewer-summary">{item.why}</p>
+        </div>
+        <div class="radar-viewer-meta">
+          <span class:list={["status", radarStatusClass(item.status)]}>{radarStatusLabel(item.status)}</span>
+        </div>
+      </header>
+      {related.length > 0 && (
+        <section class="radar-viewer-section">
+          <h3>相关信号</h3>
+          <ul class="k-points">{related.map((label) => <li>{label}</li>)}</ul>
+        </section>
+      )}
+    </template>
+  );
+})}
+
+<script>
+  const viewer = document.querySelector("[data-radar-viewer]");
+  const body = viewer?.querySelector("[data-radar-body]");
+  const dialog = viewer?.querySelector(".radar-viewer-dialog");
+  const closeBtn = viewer?.querySelector(".radar-viewer-close");
+  let lastTrigger = null;
+
+  function setBackgroundInert(on) {
+    if (!viewer) return;
+    for (const child of document.body.children) {
+      if (child === viewer || child.tagName === "SCRIPT") continue;
+      child.toggleAttribute("inert", on);
+    }
+  }
+
+  function trapFocusables() {
+    if (!dialog) return [];
+    return [closeBtn, ...dialog.querySelectorAll("a[href], button")].filter((el, index, list) => {
+      return el && !el.hidden && list.indexOf(el) === index;
+    });
+  }
+
+  function open(key, trigger) {
+    const template = document.querySelector(`[data-radar-template="${CSS.escape(key)}"]`);
+    if (!template || !viewer || !body) return;
+    lastTrigger = trigger ?? null;
+    body.replaceChildren(template.content.cloneNode(true));
+    viewer.hidden = false;
+    document.body.classList.add("radar-viewer-open");
+    setBackgroundInert(true);
+    closeBtn?.focus();
+  }
+
+  function close() {
+    if (!viewer || viewer.hidden) return;
+    viewer.hidden = true;
+    document.body.classList.remove("radar-viewer-open");
+    setBackgroundInert(false);
+    body?.replaceChildren();
+    lastTrigger?.focus();
+    lastTrigger = null;
+  }
+
+  document.querySelectorAll("[data-radar-open]").forEach((button) => {
+    button.addEventListener("click", () => {
+      open(button.getAttribute("data-radar-key") ?? "", button);
+    });
+  });
+
+  viewer?.querySelectorAll("[data-radar-close]").forEach((button) => {
+    button.addEventListener("click", close);
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (!viewer || viewer.hidden) return;
+    if (event.key === "Escape") {
+      close();
+      return;
+    }
+    if (event.key !== "Tab") return;
+    const list = trapFocusables();
+    if (!list.length) return;
+    const first = list[0];
+    const last = list[list.length - 1];
+    const outside = !list.includes(document.activeElement);
+    if (list.length === 1 || outside || (event.shiftKey && document.activeElement === first) || (!event.shiftKey && document.activeElement === last)) {
+      event.preventDefault();
+      (event.shiftKey ? last : first).focus();
+    }
+  });
+</script>
