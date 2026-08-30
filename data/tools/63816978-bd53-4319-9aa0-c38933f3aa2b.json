@@ -1,0 +1,76 @@
+{
+  "id": "63816978-bd53-4319-9aa0-c38933f3aa2b",
+  "url": "https://github.com/apache/maka",
+  "name": "Maka",
+  "headline": "本地优先的 AI 代理工作空间,完整记录工具调用",
+  "intro": "Apache Maka 是一个本地优先的 AI 代理工作空间。它可以在你的机器上检查项目、在沙箱边界内运行工具,并将模型消息、工具调用和结果记录为可恢复的执行事实。通过一个 Runtime Host 统一桌面端、终端和评测环境,保证数据默认留在本地,同时支持自定义模型连接。",
+  "category": "🤖 AI 大模型",
+  "subcategory": "多模态 / Agent",
+  "tags": [
+    "agent-runtime",
+    "local-first",
+    "ai-agent",
+    "desktop",
+    "cli",
+    "event-sourcing",
+    "sandbox",
+    "tool-use"
+  ],
+  "capabilities": [
+    "检查项目代码",
+    "在沙箱中运行工具",
+    "记录模型消息与调用",
+    "管理多个模型连接",
+    "分支会话",
+    "搜索运行历史",
+    "恢复中断会话",
+    "运行可复现评测"
+  ],
+  "scenarios": [
+    "在本地运行 AI 代理时",
+    "需要审计 Agent 动作时",
+    "在终端快速执行任务时",
+    "进行可复现评测时",
+    "需要恢复中断会话时"
+  ],
+  "search_keywords": [
+    "local-first AI agent",
+    "AI agent workspace",
+    "agent runtime",
+    "tool use logging",
+    "sandboxed agent",
+    "Apache Maka",
+    "开源 AI 代理工作台",
+    "本地优先 智能体",
+    "AI 代理日志",
+    "agent desktop app",
+    "agent CLI"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [
+      "Claude Code",
+      "OpenHands",
+      "Aider"
+    ],
+    "pairs_with": [
+      "Ollama",
+      "OpenAI API",
+      "vLLM"
+    ]
+  },
+  "tech_highlights": [
+    "append-only event log",
+    "sandbox boundary",
+    "event-sourcing architecture",
+    "local-first storage"
+  ],
+  "cover": "covers/63816978-bd53-4319-9aa0-c38933f3aa2b.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-08-30T20:59:44",
+  "my_notes": "",
+  "capture_status": "ok",
+  "github_stars": 4115
+}
