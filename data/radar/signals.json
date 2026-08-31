@@ -1,20 +1,20 @@
 {
   "source": "ai-frontier-radar",
   "title": "前沿信号",
-  "updated_at": "2026-08-31T02:09:00+08:00",
+  "updated_at": "2026-08-31T08:45:00+08:00",
   "count": 7,
   "items": [
     {
       "id": "agent-persistent-computer",
       "title": "智能体正在拥有自己的长期计算环境",
       "type": "strong_signal",
-      "score": 86,
+      "score": 90,
       "confidence": "high",
-      "status": "strengthening",
+      "status": "confirmed_trend",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-08-31T02:09:00+08:00",
-      "summary": "同一周末，多个独立产品把「给智能体一台可离开的电脑」当成产品本身：手机遥控本机命令行、本机沙箱同事、每个客户一台微型虚拟机、本地缓存把等待从 90 秒打到 5 秒。模型不再是卖点，租户、持久化和遥控面才是。",
-      "why_it_matters": "交互和商业模式同时在变：人从编辑器里盯着，变成留下一台电脑、偶尔回来检查。未来 3 到 12 个月，这可能成为智能体产品的默认形态。",
+      "last_updated": "2026-08-31T08:45:00+08:00",
+      "summary": "实验室在囤 Mac 训练电脑操控，ChatGPT Work 自带可离开再续的云电脑（约 9 vCPU / 15GB），Slack/iMessage 同事产品（Almanac、OpenTag）把「机器+wiki」当成交付。加上 beafk、useagent、Maritime、Superagent Mac，智能体默认要有一台可离开的电脑，不再只是聊天框。",
+      "why_it_matters": "交互和商业模式同时在变：人从编辑器里盯着，变成留下一台电脑、偶尔回来检查。实验室侧在囤真实 Mac 做强化学习，产品侧把云电脑和工作区 wiki 做成默认交付。未来 3 到 12 个月，这可能成为智能体产品的默认形态。",
       "tags": [
         "智能体",
         "电脑操控",
@@ -22,6 +22,36 @@
         "本地"
       ],
       "evidence": [
+        {
+          "url": "https://x.com/wallstengine/status/2094155293261435063",
+          "source": "reliable",
+          "note": "The Information：OpenAI 购入数万台 Mac mini/Studio 做强化学习与电脑操控训练；Anthropic 经 AWS 租 Mac",
+          "date": "2026-08-31T00:00:00+08:00"
+        },
+        {
+          "url": "https://x.com/reach_vb/status/2094147178650308868",
+          "source": "community",
+          "note": "ChatGPT Work 自带云电脑（当时约 9 vCPU / 15GB），可离开后在网页/手机再续",
+          "date": "2026-08-31T00:00:00+08:00"
+        },
+        {
+          "url": "https://x.com/dhh/status/2094105435804467660",
+          "source": "community",
+          "note": "dhh：把 Mac 放进 Tailscale，智能体走终端，其余走电脑操控",
+          "date": "2026-08-31T00:00:00+08:00"
+        },
+        {
+          "url": "https://usealmanac.com",
+          "source": "official",
+          "note": "Almanac：Slack/iMessage 同事，wiki 预先编译，自带电脑/浏览器/终端。PH https://www.producthunt.com/products/almanac-5",
+          "date": "2026-08-28T00:00:00+08:00"
+        },
+        {
+          "url": "https://www.tryopentag.com/",
+          "source": "official",
+          "note": "OpenTag：模型无关的 Tag 同事，自带云电脑，按工作区而非座位收费",
+          "date": "2026-08-27T00:00:00+08:00"
+        },
         {
           "url": "https://beafk.app",
           "source": "official",
@@ -31,7 +61,7 @@
         {
           "url": "https://www.producthunt.com/products/superagent-a-home-for-your-ai-agents",
           "source": "producthunt",
-          "note": "Superagent Mac：本机浏览器、iOS 模拟器、独立工作树",
+          "note": "Superagent Mac：本机浏览器、iOS 模拟器、独立工作树；周日榜仍靠前",
           "date": "2026-08-30T00:00:00+08:00"
         },
         {
@@ -43,7 +73,7 @@
         {
           "url": "https://github.com/useagenthq/useagent",
           "source": "github",
-          "note": "useagent 于 8 月 29 日创建，约 124 星，沙箱同事",
+          "note": "useagent 于 8 月 29 日创建，约 129 星，沙箱同事",
           "date": "2026-08-29T00:00:00+08:00"
         },
         {
@@ -60,23 +90,28 @@
         }
       ],
       "watch_next": [
-        "beafk、useagent、vicoa 谁先做出离开后还在跑",
+        "Almanac、OpenTag 对 beafk、useagent、vicoa：谁先做出离开后还在跑",
         "Maritime 每月 1 美元醒来后的真实成本"
       ],
       "homepage": true,
-      "judgment_changes": []
+      "judgment_changes": [
+        {
+          "date": "2026-08-31T08:45:00+08:00",
+          "change": "实验室囤 Mac + ChatGPT Work 云电脑 + Slack 同事自带机器同时出现，从加强中升为已确认趋势"
+        }
+      ]
     },
     {
       "id": "coding-agent-supply-chain",
       "title": "编程智能体的模型供应不再是中立基础设施",
       "type": "strong_signal",
-      "score": 82,
+      "score": 83,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-28T00:00:00+08:00",
-      "last_updated": "2026-08-31T02:09:00+08:00",
-      "summary": "OpenAI 因 SpaceX 收购 Cursor，提议 2026 年 11 月 12 日切断直接模型供应，并扣住 Astra。Cursor 首席执行官称 OpenAI 只占约 5% 流量。次日 Kimi K3 进入 Cursor。",
-      "why_it_matters": "模型接入变成并购后的控制权问题。编程工具必须双源。杀伤力小于「Cursor 没模型了」，但先例比合同本身重要。",
+      "last_updated": "2026-08-31T08:45:00+08:00",
+      "summary": "OpenAI 因 SpaceX 收购 Cursor，提议 2026 年 11 月 12 日切断直接模型供应，并扣住 Astra。Cursor 首席执行官称 OpenAI 只占约 5% 流量。Kimi K3 在 Cursor 是 7 月 27 日既有接入；8 月 30 日 @Kimi_Moonshot 转发是切断后的供应对冲，不是新集成。社区已用 CLIProxyAPI 把 ChatGPT 订阅接到 Cursor。",
+      "why_it_matters": "模型接入变成并购后的控制权问题。编程工具必须双源。Gergely 把 Anthropic 对 Windsurf 的切断，和 Cursor 仍被当可信伙伴，放进同一框。杀伤力小于「Cursor 没模型了」，但先例比合同本身重要。",
       "tags": [
         "AI 编程",
         "分发",
@@ -110,10 +145,34 @@
           "date": "2026-08-29T00:00:00+08:00"
         },
         {
+          "url": "https://x.com/cursor_ai/status/2081848014444876166",
+          "source": "official",
+          "note": "cursor_ai 原帖（2026-07-27）：Kimi K3 进入 Cursor，美国推理，接近 CursorBench 前沿",
+          "date": "2026-07-27T00:00:00+08:00"
+        },
+        {
           "url": "https://x.com/Kimi_Moonshot/status/2093851949892518010",
           "source": "official",
-          "note": "Kimi K3 进入 Cursor，美国推理，接近 CursorBench 前沿",
+          "note": "Kimi_Moonshot 8 月 30 日转发上述 7 月 27 日原帖；切断后的供应对冲，不是 8 月 30 日新集成",
           "date": "2026-08-30T00:00:00+08:00"
+        },
+        {
+          "url": "https://x.com/hqmank/status/2094021982992187558",
+          "source": "community",
+          "note": "CLIProxyAPI：把 ChatGPT 订阅接到 Cursor Models；帖称 Tibo 公开支持",
+          "date": "2026-08-30T00:00:00+08:00"
+        },
+        {
+          "url": "https://x.com/GergelyOrosz/status/2094005394091786543",
+          "source": "reliable",
+          "note": "Gergely：Anthropic 曾在收购传闻时切断 Windsurf，Cursor 被 SpaceX 收购后是否仍是可信伙伴",
+          "date": "2026-08-30T00:00:00+08:00"
+        },
+        {
+          "url": "https://x.com/Alibaba_Qwen/status/2093227357951897687",
+          "source": "official",
+          "note": "Qwen3.8-Flash 进入 OpenCode Go；另一条编程运行时的第一方模型，同一双源模式。原在池子里当掉落",
+          "date": "2026-08-28T00:00:00+08:00"
         }
       ],
       "watch_next": [
@@ -126,6 +185,10 @@
         {
           "date": "2026-08-31T00:00:00+08:00",
           "change": "原帖加上 Kimi K3 补位后，判断从「产品被废」改为「分发权之争」；状态改为加强中"
+        },
+        {
+          "date": "2026-08-31T08:45:00+08:00",
+          "change": "Kimi_Moonshot 转发 Kimi K3 在 Cursor，是对 cursor_ai 7 月 27 日原帖（https://x.com/cursor_ai/status/2081848014444876166）的放大，不是 8 月 30 日新集成；仍是 OpenAI 切断后的供应对冲"
         }
       ]
     },
@@ -137,8 +200,8 @@
       "confidence": "medium",
       "status": "new",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-08-31T02:09:00+08:00",
-      "summary": "两条独立证据：Anthropic 给 Claude 48 小时和一块显卡去对齐更小模型，并称效果出乎意料地好、将开源自动对齐流程；腾讯 Hy4 自称模型参与优化自身训练和推理（吞吐提升 31.8%）。前者是官方研究循环，后者仍是公司声明。",
+      "last_updated": "2026-08-31T08:45:00+08:00",
+      "summary": "两条独立证据：Anthropic 给 Claude 48 小时和一块显卡去对齐更小模型，并称效果出乎意料地好、将开源自动对齐流程；腾讯 Hy4 自称模型参与优化自身训练和推理（吞吐提升 31.8%）。前者是官方研究循环，后者仍是公司声明。Hy4 在 Product Hunt 以 hunyuan-a13b 第三次上架只是分发，不是新的一级证据。",
       "why_it_matters": "若对齐和训练优化成为智能体自己的工作，产品和安全的节奏都会变。不要把 Hy4 的递归自改进数字写成已经复现的事实。",
       "tags": [
         "对齐",
@@ -177,7 +240,7 @@
         "有没有第三方复现 Hy4 的递归自改进",
         "OpenRouter 放量能否核对"
       ],
-      "homepage": true,
+      "homepage": false,
       "judgment_changes": []
     },
     {
@@ -188,8 +251,8 @@
       "confidence": "high",
       "status": "watching",
       "first_detected": "2026-08-28T00:00:00+08:00",
-      "last_updated": "2026-08-31T02:09:00+08:00",
-      "summary": "Claude Code v2.1.251：模型切换钩子，前台子智能体的工具调用可直播到远程控制。Codex 0.151.0：扩展可在 MCP 结果到达模型前拦截或替换，并支持按仓库的插件目录。Grok Build 1.0.13：截断的回合自动续写，钩子可以要求确认工具。Grok Bot 正式接上 X。",
+      "last_updated": "2026-08-31T08:45:00+08:00",
+      "summary": "Claude Code v2.1.251、Codex 0.151.0、Grok Build 1.0.13 仍是板上记录的最新稳定版，本窗口无新稳定版。OpenAI 的 Tibo 把 Codex 与 ChatGPT Work 的额度重置（太平洋时间下午 6 点）和 /fast 当成产品循环本身。",
       "why_it_matters": "长程智能体的产品化缺口是治理、可见性和续跑，不是更大的权重。",
       "tags": [
         "运行时",
@@ -222,6 +285,12 @@
           "source": "official",
           "date": "2026-08-29T00:00:00+08:00",
           "note": "Grok Bot 一等公民接上 X"
+        },
+        {
+          "url": "https://x.com/thsottiaux/status/2094144275957350900",
+          "source": "community",
+          "date": "2026-08-31T00:00:00+08:00",
+          "note": "Tibo：Codex 与 ChatGPT Work 额度重置在太平洋时间下午 6 点落地，并点名 /fast"
         }
       ],
       "watch_next": [
@@ -238,8 +307,8 @@
       "confidence": "medium",
       "status": "watching",
       "first_detected": "2026-08-27T00:00:00+08:00",
-      "last_updated": "2026-08-31T02:09:00+08:00",
-      "summary": "Anthropic 在 8 月 27 日发布模型硬件标准预览后约 48 小时，出现开源的 LabAIAgent 网关。DeepMind 的 Co-Scientist 论文展示给真实化学气相沉积炉出配方和机器码。",
+      "last_updated": "2026-08-31T08:45:00+08:00",
+      "summary": "Anthropic 在 8 月 27 日发布模型硬件标准预览后约 48 小时，出现开源的 LabAIAgent 网关。DeepMind 的 Co-Scientist 论文展示给真实化学气相沉积炉出配方和机器码。聚合账号称 Claude 经 MHS 在 QuEra 中性原子机器上把漂移激光锁回，700 次里成功 695 次——数字来自转述，本次未独立核实。",
       "why_it_matters": "软件工具协议开始向实验室仪器延伸。这周末没有新的浏览器智能体克隆潮，硬件才是新方向。",
       "tags": [
         "MHS",
@@ -265,6 +334,12 @@
           "source": "community",
           "date": "2026-08-30T00:00:00+08:00",
           "note": "LabAIAgent 开源网关，标准发布两天后出现"
+        },
+        {
+          "url": "https://x.com/SciTechera/status/2093918788877984049",
+          "source": "community",
+          "date": "2026-08-30T00:00:00+08:00",
+          "note": "聚合转述：Claude 经 MHS 在 QuEra 上恢复激光锁，声称 695/700。数字未独立核实"
         }
       ],
       "watch_next": [
@@ -278,13 +353,13 @@
       "id": "skills-as-distribution",
       "title": "技能正在变成智能体能力的分发层",
       "type": "pattern",
-      "score": 74,
+      "score": 76,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-08-31T02:09:00+08:00",
-      "summary": "周末 GitHub 新库被技能文件主导；archify 一周增加约 1.5 万星。ChatGPT 工作区的模板创建器和 Grok Bot 可分享模板是同一交互：给一个例子，变成可复用剧本。MCP 新库很多，但几乎都是两星到二十星的领域插件。",
-      "why_it_matters": "第四个命令行不值钱。可安装的技能和模板才是分发。",
+      "last_updated": "2026-08-31T08:45:00+08:00",
+      "summary": "周末 GitHub 新库仍被技能文件主导。ChatGPT 企业版可从 GitHub 导入插件市场并每日同步；Claude Design 的画板工作流被做成 /design 技能送进 Claude Code。forward-implementation-first 从 67 星到 125 星，lean-mode-skill 8 月 29 日新建 47 星。第四个命令行不值钱，可安装技能和模板才是分发。",
+      "why_it_matters": "第四个命令行不值钱。可安装的技能和模板才是分发。企业插件市场把同一层做成了日常同步的软件包。",
       "tags": [
         "技能",
         "模板",
@@ -292,10 +367,28 @@
       ],
       "evidence": [
         {
+          "url": "https://help.openai.com/en/articles/10128477-chatgpt-enterprise-edu-release-notes",
+          "source": "official",
+          "date": "2026-08-28T00:00:00+08:00",
+          "note": "ChatGPT 企业版：从 GitHub 导入插件市场并每日同步"
+        },
+        {
+          "url": "https://x.com/adocomplete/status/2094145795276873891",
+          "source": "community",
+          "date": "2026-08-31T00:00:00+08:00",
+          "note": "/design 技能把 Claude Design 画板工作流送进 Claude Code 命令行和桌面"
+        },
+        {
           "url": "https://github.com/Vuk97/forward-implementation-first",
           "source": "github",
           "date": "2026-08-29T00:00:00+08:00",
-          "note": "防止长程智能体给自己做记账的技能，67 星"
+          "note": "防止长程智能体给自己做记账的技能，67→125 星"
+        },
+        {
+          "url": "https://github.com/Timefiles404/lean-mode-skill",
+          "source": "github",
+          "date": "2026-08-29T00:00:00+08:00",
+          "note": "lean-mode-skill，8 月 29 日新建，47 星"
         },
         {
           "url": "https://github.com/tt-a1i/archify",
@@ -330,8 +423,8 @@
       "confidence": "high",
       "status": "watching",
       "first_detected": "2026-08-30T00:00:00+08:00",
-      "last_updated": "2026-08-31T02:09:00+08:00",
-      "summary": "apache/maka：只追加的执行记录（消息、工具、权限、终止），桌面、终端和评测共用运行时，可选电脑操控。本周约增加 1876 星。",
+      "last_updated": "2026-08-31T08:45:00+08:00",
+      "summary": "apache/maka：只追加的执行记录（消息、工具、权限、终止），桌面、终端和评测共用运行时，可选电脑操控。板上记录 4151 星，现 4187。社区开始按执行记录和恢复来走读，而不只是当聊天框。",
       "why_it_matters": "跑几天的智能体需要证据链。和 pydantic-ai 的持久化操作、agent-loop-guard 指向同一缺口。",
       "tags": [
         "智能体",
@@ -344,7 +437,13 @@
           "url": "https://github.com/apache/maka",
           "source": "github",
           "date": "2026-08-30T00:00:00+08:00",
-          "note": "4151 星，本周 +1876，Apache 孵化中"
+          "note": "现 4187 星（板上 4151，此次 +36），Apache 孵化中"
+        },
+        {
+          "url": "https://x.com/kamin00ntee/status/2094152200746377294",
+          "source": "community",
+          "date": "2026-08-31T00:00:00+08:00",
+          "note": "社区走读：每条模型消息、工具调用和回合结束都写成可恢复的执行记录"
         }
       ],
       "watch_next": [
