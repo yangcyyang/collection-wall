@@ -1,0 +1,424 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-31",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2094271667153564143",
+      "author": "lixinbao_X",
+      "bio": "",
+      "text": "OpenAI狂买几万台Mac，苹果竟从英伟达嘴里抢到AI生意\n\n据报道，OpenAI已经采购了数万台Mac mini和Mac Studio，用来做强化学习，训练能自己操作电脑、改代码、整理邮箱的AI Agent。\n\nAnthropic也在通过AWS租Mac mini干类似的事。\n\n为什么不用英伟达GPU？\n\n一个关键原因是苹果M系列的统一内存。CPU和GPU共享同一块内存，跑大模型和Agent任务时，少了数据来回搬运；再加上Mac mini、Mac Studio散热稳定，适合长时间满负荷运行。\n\n这波AI需求甚至把高配Mac买到缺货。\n\n英伟达也盯上了这块市场，推出DGX Spark正面竞争。\n\n当然，Mac还替代不了英伟达训练基础大模型，但在强化学习、Agent、本地AI这些细分场景里，苹果已经悄悄抢走了一块蛋糕。\n\n最戏剧的是：苹果本来没打算认真做AI服务器，结果Mac先被AI公司买成了“服务器”。",
+      "created_at": "Mon Aug 31 03:50:49 +0000 2026",
+      "likes": 0,
+      "views": "73",
+      "url": "https://x.com/i/status/2094271667153564143",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRBY-Yda0AAvZDw.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRBY-Yda0AAvZDw.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 53.887,
+      "title": "OpenAI 狂买 Mac mini/Studio 做 Agent 强化学习",
+      "summary": "报道称 OpenAI 采购数万台 Mac mini/Studio 做强化学习，训练能操作电脑、改代码、整理邮箱的 Agent；Anthropic 也在 AWS 租 Mac 干类似事。关键是 M 系列统一内存少搬运，散热适合长时间满载。高配 Mac 甚至缺货，英伟达用 DGX Spark 对打。Mac 替不了训基础大模型，但在 RL/Agent/本地 AI 细分上已切走一块蛋糕。",
+      "recommend_reason": "把「苹果意外变成 AI 服务器」说清楚了：统一内存才是 Agent 场景的理由。",
+      "tags": [
+        "OpenAI",
+        "Apple",
+        "Agent",
+        "强化学习"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2094271456129765603",
+      "author": "JulianGoldieSEO",
+      "bio": "",
+      "text": "Claude Cowork just got its own browser.\n\nNo extension. \n\nNo setup. \n\nNo handing over your tabs.\n\nSo I gave it a real task to test it live:\n\n\"Pull the latest lessons on the AI Profit Boardroom Skool page.\"\n\nHere's what it did →\n\n→ Opened its own browser in a side panel \n→ Loaded the page and read it \n→ Came back with the current modules, coaching calls and Q&A sessions \n→ Then flagged on its own that Skool pages are member-gated, so it only had the public preview\n\nThat last part is what stuck with me.\n\nIt didn't guess. \n\nIt told me exactly what it could and couldn't see. 🧠\n\nThat's the gap between an AI that clicks around and one you can actually delegate to.\n\nSave this video, you'll want it the next time a web task eats your afternoon.\n\nWant the SOP? DM me💬",
+      "created_at": "Mon Aug 31 03:49:59 +0000 2026",
+      "likes": 1,
+      "views": "703",
+      "url": "https://x.com/i/status/2094271456129765603",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2094270195099680768/vid/avc1/480x270/EXN_EDgxizdhV8VZ.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2094270195099680768/img/L3h5gaKnPsLvtGNx.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 56.04,
+      "title": "Claude Cowork 自带浏览器：侧栏打开、不交标签页",
+      "summary": "作者实测 Claude Cowork 内置浏览器：无需扩展、不用交出本机标签。任务是拉 Skool 页面最新课程，它在侧栏打开页面并读出公开模块，同时主动说明会员墙后面看不到什么——没有瞎编。",
+      "recommend_reason": "内置浏览器 + 明确「我看不见什么」，比只会乱点的代理更接近可委托。",
+      "tags": [
+        "Claude",
+        "Cowork",
+        "浏览器",
+        "Agent"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2094270799175680460",
+      "author": "dotey",
+      "bio": "",
+      "text": "原来一直都被 Anthropic 骗了吗？\n所谓 Max@20，我一直以为是有 Pro 20 倍用量，但实际上 20 倍是指每 5 小时的会话窗口期的限额是 Pro 的 20倍，周限额其实只有 100 美元计划的大约 2 倍。",
+      "created_at": "Mon Aug 31 03:47:22 +0000 2026",
+      "likes": 11,
+      "views": "2507",
+      "url": "https://x.com/i/status/2094270799175680460",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2094121392229028236",
+        "author": "SataEricUX",
+        "name": "SataEric",
+        "text": "The whole “20x” in Claude’s pricing is so misleading.\n\nThe $100 plan says 5x Pro limits, while the $200 plan says 20x Pro limits. That makes it sound like you’re getting 4x the usage.\n\nBut the 20x applies only to the 5-hour usage window. The weekly limit is basically just 2x the $100 plan.\n\nI spent way too much time digging through the internet and Reddit to figure this out. They could’ve just stated the limits directly instead of marketing it as “20x.”\n\nThat alone would’ve saved me hours of confusion.",
+        "created_at": "Sun Aug 30 17:53:41 +0000 2026",
+        "url": "https://x.com/SataEricUX/status/2094121392229028236",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 54.341,
+      "title": "Claude Max@20：20 倍只覆盖 5 小时窗，周限额约 2 倍",
+      "summary": "宝玉转述：所谓 Max@20 一直被理解成 Pro 的 20 倍总用量，其实 20 倍指每 5 小时会话窗口限额；周限额大约只有 100 美元档的 2 倍左右。",
+      "recommend_reason": "中文圈对 Claude 定价误解很广，这条把「20x」拆成窗口限额 vs 周限额。",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "定价",
+        "用量"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2094265823087022114",
+      "author": "xiaoerzhan",
+      "bio": "",
+      "text": "基于vgpu的能力\n把小耳fm国风的经典色彩\n和侵染方式还原\n\n原本我想做个交互的\n人可以参与到绘画中\n\n但是我发现人会忍不住捣鼓这个特效\n也容易把画笔落在不合适的位置\n这样就破坏了美感\n\n结论就是国风的调性下\n任何人为的参与都是多余\n\n然后就放弃，只纯粹的展示\n大家发呆的看着画面的变化就好\n\n然后我现在用agent给我配音乐+剪辑\n再也不要剪映上那些难听的音乐了\n是真开心",
+      "created_at": "Mon Aug 31 03:27:36 +0000 2026",
+      "likes": 0,
+      "views": "80",
+      "url": "https://x.com/i/status/2094265823087022114",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2094264145839280128/vid/avc1/480x270/ibkpGv2Zgip47Z3g.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2094264145839280128/img/0fm0y4q99eQBJB0P.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2093949943903830319",
+        "author": "xiaoerzhan",
+        "name": "小耳👂Jane｜Xiaoer",
+        "text": "真真是喜欢呀～～  \n\nVercel Labs 开源的 vgpu，  \n官网摆了 22 个这样的 demo： \n\n✅Black Hole —— 光被引力掰弯\n✅Earth —— 星球有云有夜灯\n✅Interactive Fluid —— 鼠标搅得动的水\n✅FFT ocean surface —— 带泡沫的真海面\n✅Particles ocean —— 深水波浪\n✅Glass Fractal —— 玻璃里裹着分形\n✅Transmission —— 玻璃折射出彩虹边\n✅Radiance Cascades —— 鼠标画到哪光到哪\n✅Next.js Flare —— logo 打体积光\n✅Raymarched fractal —— 黑暗里浮出分形\n✅Environment Map —— 金属映出全景\n✅Triangle LED Hero —— 会发光的三角灯管\n✅Clipping —— 球体被切开\n✅Instanced Rendering —— 12.5 万个方块乱动\n✅Batch Rendering —— 一次提交四组图元\n✅Anti-Aliasing —— 四种抗锯齿对比\n✅Optimized Black Hole —— 更省的黑洞\n✅Simple Gradient —— 全屏渐变\n✅Depth Estimation —— 照片算出深度\n✅MNIST Classifier —— 手写数字识别\n✅Air Painting —— 隔空擦雾\n✅Agent Radiance Cascades —— 会发光的加载动画  \n\n其中有一些曾经是TouchDesigner 热门\n有一些是热门的视觉效果 \n质量上乘\n  \n还做了给Agent的便捷安装指令\nnpx vgpu examples pull  \n\n基础视觉扒拉下来加入自己的思考和创意，\n就能用在网站首屏、视频背景、动态海报上。\n\n我这条视频就是拿里面那个 Radiance Cascades 跑的 \n请重点听下音乐，好好听  🥰\n\n官网地址见评论区。✅",
+        "created_at": "Sun Aug 30 06:32:24 +0000 2026",
+        "url": "https://x.com/xiaoerzhan/status/2093949943903830319",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2093948681154150400/vid/avc1/424x270/vF3zUv_imqs3ovOc.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2093948681154150400/img/tU1sE8w1cSkwA28l.jpg"
+        ]
+      },
+      "score": 52.623,
+      "title": "vgpu 还原国风着色：放弃交互，改用 Agent 配乐剪辑",
+      "summary": "小耳用 vgpu 还原小耳 FM 国风经典色彩与浸染。本想做人可参与的交互绘画，但发现人会乱搅特效、破坏美感，于是改成纯展示；再用 Agent 配乐和剪辑，甩掉剪映里难听的配乐。",
+      "recommend_reason": "创意向的 Agent 用法：先认清交互会毁调性，再把配乐剪辑交给 Agent。",
+      "tags": [
+        "vgpu",
+        "国风",
+        "Agent",
+        "创意"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2094265782104719537",
+      "author": "dingyi",
+      "bio": "",
+      "text": "这是因为 codex 已经帮所有人验证过最佳实践路径了，照着抄就行了。既然圆形轮子最完美，肯定没人想尝试方的、三角的。基础框架结构都一样很正常。",
+      "created_at": "Mon Aug 31 03:27:26 +0000 2026",
+      "likes": 7,
+      "views": "1802",
+      "url": "https://x.com/i/status/2094265782104719537",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2094260186240421989",
+        "author": "Xian0063",
+        "name": "Xian | 弦",
+        "text": "就像zara说的一样，打造产品的独特审美太重要了，现在千篇一律的agnet打开窗口基本都一样，我做了国内agent与codex区别，不深度测试真的不知道哪里不太一样，所以，强烈建议所有产品人，重视设计审美～抓起来设计",
+        "created_at": "Mon Aug 31 03:05:12 +0000 2026",
+        "url": "https://x.com/Xian0063/status/2094260186240421989",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 52.453,
+      "title": null,
+      "summary": "这是因为 codex 已经帮所有人验证过最佳实践路径了，照着抄就行了。既然圆形轮子最完美，肯定没人想尝试方的、三角的。基础框架结构都一样很正常。",
+      "recommend_reason": "一针见血：Agent 窗口长得像，往往是因为 Codex 路径被当成默认最佳实践在抄。",
+      "tags": [
+        "Codex",
+        "Agent",
+        "产品设计"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2094265268411470153",
+      "author": "QT9277",
+      "bio": "",
+      "text": "不想自费充AI编码API？这个GitHub项目把各类羊毛站全部汇总好了。\n\n自动同步各个中转平台额度与在线状态，适配Cursor、Claude Code，部分可以签到续命，自带配置脚本。\n\n🔗 https://t.co/umSLOqi5kl https://t.co/mPNSAcFXFA",
+      "created_at": "Mon Aug 31 03:25:24 +0000 2026",
+      "likes": 8,
+      "views": "181",
+      "url": "https://x.com/i/status/2094265268411470153",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRBTKBXaEAARjxN.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRBTKBXaEAARjxN.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 74.82,
+      "title": "GitHub 汇总 AI 编码 API 羊毛中转站",
+      "summary": "不想自费充 AI 编码 API 的话，这个仓库把各类中转/羊毛站额度与在线状态汇总好了，适配 Cursor、Claude Code，部分还能签到续命，并带配置脚本。",
+      "recommend_reason": "把分散的中转站状态收成一张表，写代码的人省得自己挨个试。",
+      "tags": [
+        "Cursor",
+        "Claude Code",
+        "羊毛",
+        "API"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2094257794866094083",
+      "author": "dotey",
+      "bio": "",
+      "text": "手写代码、手搓提示词、认真看 AI 写的代码，这都是手段，目的是软件质量，而达到目的还有更多其他手段\n\n像这种写提示词的场景，并不一定要手搓提示词，如果整理好测试数据集，设置好基准线，反复测试并给 AI 有价值的反馈，用 AI 写应该会比人写的更好\n\n写代码也是类似，定义好架构，做好自动化测试覆盖，AI 完成后人去做功能验证，测试性能和安全性，质量也可以有比较好的保障。",
+      "created_at": "Mon Aug 31 02:55:42 +0000 2026",
+      "likes": 21,
+      "views": "6248",
+      "url": "https://x.com/i/status/2094257794866094083",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2094253621294850226",
+        "author": "ethanjtch",
+        "name": "Ethan",
+        "text": "深有同感，可是套到自己身上就有很多个「但是」了。\n\n最近在做AI 视频，到了文生图这一阶段，如果让 AI 一路走到底，那收到的就是添加的账单和一堆烂图。可要是手搓提示词，一行行的看，能把我脑子给炸了……",
+        "created_at": "Mon Aug 31 02:39:07 +0000 2026",
+        "url": "https://x.com/ethanjtch/status/2094253621294850226",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 55.668,
+      "title": "手搓提示词只是手段，目标是软件质量",
+      "summary": "宝玉回应「手搓提示词会炸脑子」：写提示词、手写代码都是手段，目的是质量。提示词场景可以整理测试集、定基准、反复测并给 AI 有价值反馈；写代码则先定架构与自动化测试，人做功能/性能/安全验证。",
+      "recommend_reason": "把「要不要手搓」拉回质量闭环，比单纯站队手写或全自动更可落地。",
+      "tags": [
+        "提示词",
+        "质量",
+        "评测",
+        "工程"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2094257486069158112",
+      "author": "lixinbao_X",
+      "bio": "",
+      "text": "这一轮AI浪潮里，中美各有一家顶尖公司显得格外“反常”：苹果和拼多多。\n\n别人都在疯狂砸钱抢GPU、建数据中心、训大模型，它们却始终没有亲自下场打这场最烧钱的仗。\n\n苹果的逻辑很简单：自己不一定非要做最强大模型，但它掌握着全球最值钱的入口——iPhone。\n\n谁家的模型能进入iPhone，谁就可能瞬间获得海量用户。所以过去Google为了保住苹果默认搜索入口，每年都要支付巨额费用。AI时代也是一样，真正稀缺的可能不是模型，而是入口。\n\n拼多多也很像。\n\n国内互联网巨头都在卷大模型，它却把大量精力放在电商和Temu全球化上。至少从公开业务重心看，PDD目前依旧围绕拼多多、Temu以及商家生态扩张，并没有像阿里、腾讯、百度那样把通用大模型做成核心战略。(美国证券交易委员会⁠￼)\n\n这两家公司有一个共同点：\n\n不是什么风口都必须追。\n\n做AI当然可能吃到巨大红利，但也意味着几百亿、几千亿美元级别的长期军备竞赛。\n\n真正厉害的公司，有时候不是“什么都做”，而是非常清楚：\n\n哪些钱必须赚，哪些热闹可以不凑。\n\n这一轮AI浪潮最后也许会证明，至少一半跟风做大模型的公司，其实从一开始就没必要亲自做。",
+      "created_at": "Mon Aug 31 02:54:28 +0000 2026",
+      "likes": 1,
+      "views": "437",
+      "url": "https://x.com/i/status/2094257486069158112",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 51.844,
+      "title": "苹果与拼多多：这轮 AI 潮里两家「不凑热闹」的顶尖公司",
+      "summary": "中美各有一家显得反常：苹果和拼多多。别人砸 GPU 训大模型，它们没亲自下场最烧钱的仗。苹果握着 iPhone 入口，模型进手机才是稀缺；拼多多重心仍在电商与 Temu，没把通用大模型做成核心战略。共同点：不是风口都要追，清楚哪些钱必须赚、哪些热闹可以不凑。",
+      "recommend_reason": "把「入口 vs 模型」和「不跟风的战略克制」讲透，适合对照巨头 AI 军备叙事。",
+      "tags": [
+        "苹果",
+        "拼多多",
+        "战略",
+        "大模型"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2094254532020818191",
+      "author": "thsottiaux",
+      "bio": "",
+      "text": "For clarity, while both are called 20X, in Codex they apply specifically to weekly usage limits. And we also don't have 5h limits for both Pro plans.\n\nThe Pro 20X is quite precisely 20X the usage of the Plus subscription, so it does exactly what it says on the tin.",
+      "created_at": "Mon Aug 31 02:42:44 +0000 2026",
+      "likes": 3041,
+      "views": "224169",
+      "url": "https://x.com/i/status/2094254532020818191",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2094121392229028236",
+        "author": "SataEricUX",
+        "name": "SataEric",
+        "text": "The whole “20x” in Claude’s pricing is so misleading.\n\nThe $100 plan says 5x Pro limits, while the $200 plan says 20x Pro limits. That makes it sound like you’re getting 4x the usage.\n\nBut the 20x applies only to the 5-hour usage window. The weekly limit is basically just 2x the $100 plan.\n\nI spent way too much time digging through the internet and Reddit to figure this out. They could’ve just stated the limits directly instead of marketing it as “20x.”\n\nThat alone would’ve saved me hours of confusion.",
+        "created_at": "Sun Aug 30 17:53:41 +0000 2026",
+        "url": "https://x.com/SataEricUX/status/2094121392229028236",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 70.909,
+      "title": "Codex 的 Pro 20X：只对应周限额，且没有 5 小时窗",
+      "summary": "Tibo 澄清：Codex 与 Claude 虽都叫 20X，但 Codex 的倍数特指周用量上限；两边 Pro 计划也都没有 5 小时限额。Pro 20X 大约就是 Plus 用量的精确 20 倍，名副其实。",
+      "recommend_reason": "对照 Claude「20X 只覆盖 5 小时窗」的吐槽，把 Codex 计费口径说清楚了。",
+      "tags": [
+        "Codex",
+        "OpenAI",
+        "定价",
+        "用量"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2094253647827988627",
+      "author": "imwsl90",
+      "bio": "",
+      "text": "验证了一个新的平台 Signals\n\n目前支持接码的平台\n\n- Telegram\n- X\n- Whatsapp\n- Tiktok(国际抖音)\n- ChatGPT\n- Signals https://t.co/4PjEB9GtU0",
+      "created_at": "Mon Aug 31 02:39:13 +0000 2026",
+      "likes": 0,
+      "views": "743",
+      "url": "https://x.com/i/status/2094253647827988627",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRBIVZJa4AAJZz3.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRBIVZJa4AAJZz3.png"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2092074927927206012",
+        "author": "imwsl90",
+        "name": "卫斯理",
+        "text": "搞了张日本乐天卡，终于解决我的网络和接码问题\n\n- 网络：插卡开启漫游，google秒开，走国内网络出口东京\n\n- 接码：测试了openai/whatsapp 都很丝滑，tg还没时间测，可注册日本本土app，比如Line之类的。\n\n注意这个卡不能打电话和发短信，国内漫游流量1G每月，用完切换到低速网络，不会完全没网络。\n\n第一次年付369元，包12个月，第二年去官网续费5280日元(230人民币)\n\n需要看这个链接：https://t.co/QMK7an4K2y",
+        "created_at": "Tue Aug 25 02:21:46 +0000 2026",
+        "url": "https://x.com/imwsl90/status/2092074927927206012",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQiK-n-aoAAjnIP.jpg",
+          "https://pbs.twimg.com/media/HQiLANWbwAEKZrH.jpg",
+          "https://pbs.twimg.com/media/HQiLCOYbwAAd-ns.jpg",
+          "https://pbs.twimg.com/media/HQiLDCIbkAEzrFl.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQiK-n-aoAAjnIP.jpg",
+          "https://pbs.twimg.com/media/HQiLANWbwAEKZrH.jpg",
+          "https://pbs.twimg.com/media/HQiLCOYbwAAd-ns.jpg",
+          "https://pbs.twimg.com/media/HQiLDCIbkAEzrFl.jpg"
+        ]
+      },
+      "score": 52.196,
+      "title": "Signals 接码平台可用：含 ChatGPT / X / TG 等",
+      "summary": "作者验证新平台 Signals，目前可接码的服务包括 Telegram、X、WhatsApp、TikTok（国际）、ChatGPT，以及 Signals 自身。",
+      "recommend_reason": "注册海外 AI/社交账号时接码是刚需，多一个实测可用的选项。",
+      "tags": [
+        "接码",
+        "ChatGPT",
+        "工具"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2094252447271366730",
+      "author": "thsottiaux",
+      "bio": "",
+      "text": "What I wanted to say yesterday is that we hit 25M active users and to celebrate we have now reset usage for all paid subscriptions for ChatGPT Work and Codex.\n\nSee you soon for more news from The Reset Company.",
+      "created_at": "Mon Aug 31 02:34:27 +0000 2026",
+      "likes": 4235,
+      "views": "195468",
+      "url": "https://x.com/i/status/2094252447271366730",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2093811840258293947",
+        "author": "thsottiaux",
+        "name": "Tibo",
+        "text": "This celebration is moved to tomorrow as the button was already pressed today.",
+        "created_at": "Sat Aug 29 21:23:38 +0000 2026",
+        "url": "https://x.com/thsottiaux/status/2093811840258293947",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 74.551,
+      "title": "ChatGPT Work / Codex：庆祝 2500 万活跃用户，付费额度全重置",
+      "summary": "OpenAI 的 Tibo 说 ChatGPT Work 与 Codex 已达 2500 万活跃用户；为庆祝，所有付费订阅的用量已重置。自称 The Reset Company，并预告还有后续消息。",
+      "recommend_reason": "官方亲自宣布用量重置，付费用户当天就能感知到额度回血。",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "Codex",
+        "用量"
+      ],
+      "rank": 11
+    }
+  ],
+  "generated_at": "2026-08-31T04:02:16Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 11,
+    "last_batch_added": 11,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
