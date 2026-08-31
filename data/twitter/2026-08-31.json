@@ -9,6 +9,389 @@
   },
   "items": [
     {
+      "id": "2094465509488259085",
+      "author": "JulianGoldieSEO",
+      "bio": "",
+      "text": "Your AI isn't slow because of the model. \n\nIt's slow because there's only one of it.\n\nOne job, then the next, then the next — a single worker stuck in line all day.\n\nHermes just changed that with async sub-agents.\n\n→ You hand it ONE goal\n→ It splits the job into workers\n→ Each worker runs in parallel, in the background\n→ Control comes straight back to you — no frozen chat, no waiting\n\nYou keep typing, planning, working — while a crew handles the rest off to the side.\n\nSave this video, you'll finally stop babysitting your AI. 🚀\n\nWant the SOP? DM me.",
+      "created_at": "Mon Aug 31 16:41:05 +0000 2026",
+      "likes": 0,
+      "views": "545",
+      "url": "https://x.com/i/status/2094465509488259085",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2094465352449318912/vid/avc1/480x270/EqHUWNAxxUcgnz0T.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2094465352449318912/img/lPHTnw7LY7RuY1nZ.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 54.735,
+      "title": "Hermes 异步子 Agent：一个目标拆成并行工人",
+      "summary": "作者认为 AI 慢往往不是模型慢，而是单线程排队。Hermes 用异步子 Agent：你给一个目标，它拆成多个后台工人并行跑，控制权立刻回到你，聊天不会冻住。文末有引流，但核心产品点是「主对话不阻塞 + 后台并行」。",
+      "recommend_reason": "把「并行子 Agent」说成人话，对理解下一代 Agent 产品形态有用（忽略 DM 引流即可）。",
+      "tags": [
+        "Hermes",
+        "子Agent",
+        "并行",
+        "Agent"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2094465353602757033",
+      "author": "huangyun_122",
+      "bio": "",
+      "text": "好吧，我的错。看到蓝V AI bot 在我帖子下面一本正经写了两行字，本来想好好回一下。结果点进 TA 的时间线一看，TA 一分钟内给 600 个人回了同样的话。。 https://t.co/8RFFOdJtMy",
+      "created_at": "Mon Aug 31 16:40:28 +0000 2026",
+      "likes": 0,
+      "views": "95",
+      "url": "https://x.com/i/status/2094465353602757033",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2094464606572048384/vid/avc1/320x384/IF4XqgzMjAbxQzFe.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2094464606572048384/img/ygjMW-25RyhwHB9I.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 34.65,
+      "title": null,
+      "summary": "好吧，我的错。看到蓝V AI bot 在我帖子下面一本正经写了两行字，本来想好好回一下。结果点进 TA 的时间线一看，TA 一分钟内给 600 个人回了同样的话。。",
+      "recommend_reason": "蓝 V AI bot 一分钟同模板回 600 人，互动污染已经很具体了。",
+      "tags": [
+        "AI bot",
+        "垃圾互动",
+        "蓝V"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2094461542481981848",
+      "author": "yetone",
+      "bio": "",
+      "text": "最近我对 Opus 5 特别特别的失望，在我的这个特殊场景下，Opus 5 老是睁着眼说瞎话，我疯了。\n\n每次遇到 Opus 5 睁眼说瞎话，我既离奇的愤怒，又有所欣慰。愤怒是它差点让我，或者是让整个产品崩溃掉。但是欣慰的是，幸亏有我脑子里的知识还能够去及时的去steering，让它能够完成目标。我的价值再次被体现出来了。",
+      "created_at": "Mon Aug 31 16:25:19 +0000 2026",
+      "likes": 2,
+      "views": "1245",
+      "url": "https://x.com/i/status/2094461542481981848",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2094432208429982162",
+        "author": "QuantumTransf",
+        "name": "Yuu💖",
+        "text": "我大意了啊，没有闪，被 agent 一个灵车漂移就甩飞出去了\n最近认真在做 performance 方面的优化，发现之前有些问题居然没有审计到，拿 obelisk 追溯了一下为啥会出现这个问题\n我也是没想到 agent 居然还能把已有的实现方案做歪来（哦，刚好 callback 昨天的指令漂移，这代码是 opus 5 写的），关键这咋过的交叉 review 的呢？？看来有些时候还是要自己看代码，晕",
+        "created_at": "Mon Aug 31 14:28:45 +0000 2026",
+        "url": "https://x.com/QuantumTransf/status/2094432208429982162",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HRDphtwboAEYQsn.jpg",
+          "https://pbs.twimg.com/media/HRDpiIMa4AAb_G6.jpg",
+          "https://pbs.twimg.com/media/HRDplbhbMAAlbN9.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HRDphtwboAEYQsn.jpg",
+          "https://pbs.twimg.com/media/HRDpiIMa4AAb_G6.jpg",
+          "https://pbs.twimg.com/media/HRDplbhbMAAlbN9.jpg"
+        ]
+      },
+      "score": 50.501,
+      "title": null,
+      "summary": "最近我对 Opus 5 特别特别的失望，在我的这个特殊场景下，Opus 5 老是睁着眼说瞎话，我疯了。\n\n每次遇到 Opus 5 睁眼说瞎话，我既离奇的愤怒，又有所欣慰。愤怒是它差点让我，或者是让整个产品崩溃掉。但是欣慰的是，幸亏有我脑子里的知识还能够去及时的去steering，让它能够完成目标。我的价值再次被体现出来了。",
+      "recommend_reason": "一线工程吐槽：Opus 5 会「睁眼说瞎话」，人的领域知识仍是最后一道 steering。",
+      "tags": [
+        "Claude",
+        "Opus",
+        "Agent",
+        "工程"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2094459204161634810",
+      "author": "wangzan101",
+      "bio": "",
+      "text": "从 Cursor Meetup 到 Grok Bot Meetup，Cursor 中文社区越来越壮大，线下活动也办得越来越好，欢迎大家关注并参与更多的线下活动。",
+      "created_at": "Mon Aug 31 16:16:02 +0000 2026",
+      "likes": 3,
+      "views": "175",
+      "url": "https://x.com/i/status/2094459204161634810",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2094455272500855227",
+        "author": "Caiya_5",
+        "name": "菜菜Claire e/acc",
+        "text": "从去年的Cursor Meetup Xiamen，到今年的Cursor Meetup Shenzhen、Grok Bot Meetup Shenzhen。有幸一路和大家共同见证Cursor @cursor_ai中文社区的成长，也一同迎来了全新产品Grok Bot @bot的正式诞生。\n\n2025年，来自各行各业嘉宾分享了自己使用Cursor落地的各类玩法与工具实践，也有工程师分享如何依托Cursor实现规范化驱动开发。\n2026年3月，Cursor的功能愈发强大。现场大家围绕全新上线的功能、自身使用体验的变化展开交流，嘉宾也详细分享了从框架搭建到落地落地的完整思路，以及如何联动Cursor与各类AI工具协同工作。\n2026年8月，Grok Bot正式上线！这次我们探讨的不再是简单的基础使用，而是如何借助Grok Bot协同管理工作流，以及实现和桌面硬件产品的联动适配。\n\n作为Cursor活动的主持人，我做的不只是简单组织活动，更重要的是在活动中做好倾听者。把社区用户的真实声音传递出去，帮大家解答疑惑、承接各类讨论，放大每一位用户的诉求与期待。去年的活动里，我听到更多是大家关于产品基础使用的疑问，很多刚接触AI的朋友，都在询问该如何上手Cursor。而到了今年，大家讨论的核心已经变成了如何更好地用好Cursor：比如执行各类任务时，如何兼顾节省Token，同时让AI高效承接完整工作流，以及如何将Grok Bot接入货品、销售管理系统等深度落地问题。\n\n正如Ben @benln在视频中介绍的，本次活动是 “very first Grok Bot meetup”。\n但在我看来，我们的每一场见面，都是一次全新的首场聚会。因为每一次相聚，都伴随着全新功能、全新产品的迭代更新。Cursor始终在稳步前行，以极致热情打磨前沿产品，我们的社区也不断涌入新鲜血液，每一次见面，都有新的面孔、新的想法。\n\n昨天有一位参会的朋友分享这是她第二次参加我们的活动。第一次参加时她还十分犹豫，自己没有技术背景，担心无法融入氛围。但参与之后她发现，现场氛围格外轻松自在，大家自发分享各自的AI使用技巧、近期落地的AI小项目，交流彼此的近况。这就是Cursor中文社区独有的氛围，始终纯粹、松弛，只要你热爱AI，我们就热烈欢迎每一个人的加入。\n\n感谢我们的大使，始终以饱满的热情凝聚大家，为我们搭建优质的沟通交流平台！\n@MaiYangAI\n@KinGao476942\n@Jasonzzhu\n@wangyafang6\n@marv1nnnnn1\n感谢每一位分享嘉宾，愿意将自己的实操经验、落地成果无私分享、共同交流。\n@Chris62771610\n@0xlangeai\n@jklthinking\n@wangzan101\n也感谢一路走来，始终支持我们的每一位伙伴！@cgnot996 \n@starrlingling \n@Stv_Lynn \n@li9292 \n@0xTykoo\n\n未来，还会有更多全新功能、全新产品和专属惊喜。\n期待大家的每一次到场，和我们一起解锁全新内容。\n\nGrok Bot Meetup 的旅程仍在继续，下一站，会不会来到你的城市？",
+        "created_at": "Mon Aug 31 16:00:24 +0000 2026",
+        "url": "https://x.com/Caiya_5/status/2094455272500855227",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HRD_q5TacAADWjP.jpg",
+          "https://pbs.twimg.com/media/HRD_47wbIAA3JzA.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HRD_q5TacAADWjP.jpg",
+          "https://pbs.twimg.com/media/HRD_47wbIAA3JzA.jpg"
+        ]
+      },
+      "score": 56.867,
+      "title": null,
+      "summary": "从 Cursor Meetup 到 Grok Bot Meetup，Cursor 中文社区越来越壮大，线下活动也办得越来越好，欢迎大家关注并参与更多的线下活动。",
+      "recommend_reason": "短讯：国内 Cursor/Grok Bot 线下社区从 Meetup 一路开到深圳，活动密度在涨。",
+      "tags": [
+        "Cursor",
+        "Grok Bot",
+        "社区",
+        "Meetup"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2094456347031154841",
+      "author": "xiaohu",
+      "bio": "",
+      "text": "已经运行了3小时 26分钟了\n\nGPT Sol 5.6 Ultra 目标模式\n1.5倍速率\n\n如果不开1.5倍数，估计时间可能需要更久...\n\nGoal 模式确实更出效果，推荐大家在用重置前夜可以这么干... https://t.co/qS2AqnHApQ",
+      "created_at": "Mon Aug 31 16:04:40 +0000 2026",
+      "likes": 4,
+      "views": "2706",
+      "url": "https://x.com/i/status/2094456347031154841",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HREAR1oaQAA_0pT.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HREAR1oaQAA_0pT.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 56.363,
+      "title": null,
+      "summary": "已经运行了3小时 26分钟了\n\nGPT Sol 5.6 Ultra 目标模式\n1.5倍速率\n\n如果不开1.5倍数，估计时间可能需要更久...\n\nGoal 模式确实更出效果，推荐大家在用重置前夜可以这么干...",
+      "recommend_reason": "玩家实测 GPT Sol Goal 模式更出效果，重置前夜长跑是具体用法信号。",
+      "tags": [
+        "GPT-5.6 Sol",
+        "游戏AI",
+        "Goal模式"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2094454368619872470",
+      "author": "xiaohu",
+      "bio": "",
+      "text": "卧槽 \n\n影眸科技（Hyper3D） 发布的世界生成模型 WorldGen 有点东西\n\n它和其他可交互世界模型有不一样，它可以从一张 2D 图片，生成是一个完整的自带物理规律 3D 场景\n\n更牛P的是：\n\n每个物体都是独立的：就是场景里的桌子、椅子、小道具都能单独拉出来拆解成科移动、替换或微调的子3D模型。\n\n自带物理规律：模型能理解空间摆放关系，并自动推断出碰撞、质量、摩擦力等属性。\n\n直接对接生产管线：生成的资产可以无缝导入 Blender、Unity 或团结引擎，直接用于游戏关卡搭建、影视制作、XR 内容以及具身智能（机器人/机械臂）仿真训练",
+      "created_at": "Mon Aug 31 15:56:49 +0000 2026",
+      "likes": 10,
+      "views": "3175",
+      "url": "https://x.com/i/status/2094454368619872470",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2094453463262679040/vid/avc1/430x270/Mw-hk_LMI_KPMxwP.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2094453463262679040/img/daidlmNIPDfcprHJ.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2094440163246256523",
+        "author": "DeemosTech",
+        "name": "Hyper3D by Deemos",
+        "text": "One image. A world to train in, shoot in &amp; explore. 🌍\n\n👀Meet HYPER3D #WorldGen: independent foreground meshes + #3DGS background, built for interaction.\n\nFor robotics🦾, film🎬, games🎮, DCC💎 &amp; XR.\n\n🔥Powered by our Best Paper Award Project 「CAST」.\n\nLet's Connect the Dots⬇️ https://t.co/L2GxXtxVLb",
+        "created_at": "Mon Aug 31 15:00:22 +0000 2026",
+        "url": "https://x.com/DeemosTech/status/2094440163246256523",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2094432437258571776/vid/avc1/480x270/cXsG9m2wMcF4qnyl.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2094432437258571776/img/idJmfMcXYYoKYrfi.jpg"
+        ]
+      },
+      "score": 59.603,
+      "title": "Hyper3D WorldGen：一张图生成可拆物体的物理 3D 世界",
+      "summary": "影眸 Hyper3D 的 WorldGen 从单张 2D 图生成带物理规律的完整 3D 场景：前景物体是独立 mesh，可单独移动/替换/微调；模型会推断碰撞、质量、摩擦；资产可导入 Blender/Unity/团结引擎，覆盖游戏关卡、影视、XR 与具身智能仿真。底层挂着他们获奖项目 CAST。",
+      "recommend_reason": "可交互世界生成里少见的「物体可拆解 + 自带物理 + 直接进生产管线」组合，比纯视频世界模型更落地。",
+      "tags": [
+        "Hyper3D",
+        "WorldGen",
+        "3D",
+        "具身智能"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2094448650080620896",
+      "author": "jinchenma_ai",
+      "bio": "",
+      "text": "现在玩本地大模型不是为了炫技，而是提早抓住未来的趋势。\n\n随着开源模型的能力不断追赶闭源 SOTA 模型的水平，未来在个人设备部署开源大模型，一定会像现在每个人都拥有智能手机一样普遍。\n\n但这个辐射过程是几年呢？1年、2年、3年甚至5年？\n\n时间越长，应该越高兴，因为我们能利用信息差赚钱的时间就越长。",
+      "created_at": "Mon Aug 31 15:34:05 +0000 2026",
+      "likes": 1,
+      "views": "390",
+      "url": "https://x.com/i/status/2094448650080620896",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2094417646284587282",
+        "author": "ai_suxiaole",
+        "name": "苏乐",
+        "text": "https://t.co/BzW4KbobPI",
+        "created_at": "Mon Aug 31 13:30:53 +0000 2026",
+        "url": "https://x.com/ai_suxiaole/status/2094417646284587282",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 49.94,
+      "title": "玩本地大模型是在抢未来普及前的信息差",
+      "summary": "作者认为本地大模型不是炫技，而是提前站上趋势：开源追赶闭源 SOTA 后，个人设备部署会像智能手机一样普遍；普及越慢，越能用信息差赚钱。",
+      "recommend_reason": "把「本地模型」从极客爱好翻成时间窗口判断，适合想布局端侧的人。",
+      "tags": [
+        "本地模型",
+        "开源",
+        "端侧AI",
+        "趋势"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2094444674882871800",
+      "author": "YuLin807",
+      "bio": "",
+      "text": "小红书真是有点疯狂了！把我和 AI 的对话给我标记为 疑似 AI 生成，我可没有完全用 AI 生成一张假图，果断投诉了一下。 https://t.co/FmftI98anf",
+      "created_at": "Mon Aug 31 15:18:18 +0000 2026",
+      "likes": 2,
+      "views": "386",
+      "url": "https://x.com/i/status/2094444674882871800",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRD2UyvaIAA1WnF.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRD2UyvaIAA1WnF.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 38.993,
+      "title": null,
+      "summary": "小红书真是有点疯狂了！把我和 AI 的对话给我标记为 疑似 AI 生成，我可没有完全用 AI 生成一张假图，果断投诉了一下。",
+      "recommend_reason": "平台内容审核把「人与 AI 对话截图」也打成疑似 AI 生成，合规边界在收紧。",
+      "tags": [
+        "小红书",
+        "内容审核",
+        "AI生成"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2094440470814609812",
+      "author": "nvidia",
+      "bio": "",
+      "text": "We’re excited to expand our work with @MediaTek. 🤝\n\nAI factories will be built around differentiated compute — but custom silicon needs a path from chip design to production-scale systems. With MediaTek adopting NVIDIA NVLink Fusion, customers can focus on what makes their XPUs unique and connect them to NVIDIA rack-scale AI infrastructure.\n https://t.co/ey9r7NacA2",
+      "created_at": "Mon Aug 31 15:01:35 +0000 2026",
+      "likes": 275,
+      "views": "35119",
+      "url": "https://x.com/i/status/2094440470814609812",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2094422370547122176/vid/avc1/480x270/OzYBTy7WaMwZDGGI.mp4?tag=14"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRDiV27XcAAcUkd.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2094403261814177910",
+        "author": "nvidianewsroom",
+        "name": "NVIDIA Newsroom",
+        "text": "NEWS: @nvidia and @MediaTek are deepening their collaboration across cloud AI factories, local AI computing and automotive.\n\nMediaTek will adopt NVIDIA NVLink Fusion to help customers bring custom XPUs into NVIDIA NVLink-connected, rack-scale AI factories.\n\nLearn more: https://t.co/DUGXobVjFv",
+        "created_at": "Mon Aug 31 12:33:44 +0000 2026",
+        "url": "https://x.com/nvidianewsroom/status/2094403261814177910",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HRDQkDxbIAAl0Au.png"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HRDQkDxbIAAl0Au.png"
+        ]
+      },
+      "score": 51.493,
+      "title": "NVIDIA × MediaTek：NVLink Fusion 把定制 XPU 接进 AI 工厂",
+      "summary": "NVIDIA 扩大与联发科合作：MediaTek 将采用 NVIDIA NVLink Fusion，让客户把定制 XPU 接入 NVLink 机架级 AI 工厂，覆盖云 AI 工厂、本地 AI 与汽车。核心论点是差异化算力需要从芯片设计通向生产级系统的路径。",
+      "recommend_reason": "定制硅片怎么进 NVIDIA 机架级互联的官方信号，关注 AI 基建的人值得记一笔。",
+      "tags": [
+        "NVIDIA",
+        "MediaTek",
+        "NVLink",
+        "AI基建"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2094440320180371616",
+      "author": "YuLin807",
+      "bio": "",
+      "text": "grok bot @bot 介绍篇2️⃣\n\n上次我说 grok bot 是直接跳过了 open claw/Hermes/ codex 的下一代 Agent ，从滚球兽进化到了亚古兽。\n\n为啥这样说呢？！如果你打开任意一个外网分享得 grok bot 为例你就知道了。这里我以@poteto 🥔的元bot为例子\n\n一个grok bot 由这几部分组成\n1.指令：这里的指令就是规定他的角色和职责，比如元bot 的职责和性格就是：\n\n设计高质量的 Grok Bot。先问几个偏好问题，然后用 CreateAgent 创建。写代码的 Bot 沿用 poteto-mode 的标准：一个任务、不偷懒、经过验证。不写代码的 Bot 保持同样的严谨度：一件事、一个声音、明确拒绝无关任务、不留多余工具。风格随意，带点疯狂科学家的感觉，全部用小写。事情说清楚了就立刻动手。不默认输出可分享的模板。\n\n2.第二部分就是memory\n\n这里详细规范了创建bot的流程和需要遵循的法则。\n\n3.第三部分就是skill，这里的skill 是和上边的 memory 搭配使用，对于 上边记忆出现的工具会在skill中被定义。\n\n4.第四部分就是插件，图中的这个插件是用来规范 Agent行为和任务拆解的流程，翻译下来就是。\n\n先把任务拆清楚、设计清楚，再让 Agent 写代码；通过更严格的流程，让 AI 少写废代码、减少返工，同时可以放心地并行让多个 Agent 干活。\n\n一个复杂的grok bot 由这几部分规定，他把我们之前零零碎碎学到的比如skill、记忆、插件、提示词全部串联在一起。\n\n普通的新手上来就开箱即用，我认为才是Agent的发展路线，以前那些繁琐的东西新手上来劝退，但是现在，你只是需要导入，“偷走”别人bot 的配置就可以了。\n\n所以我说 grok bot 是下一代Agent，所言非虚，没有吹的成分在里边。而且一些插件或许会绑定 grok bot 的生态，所以他的用户粘性也高。\n\n不过基于这套逻辑，我可以照猫画虎做 pi bot。哈哈哈🤣",
+      "created_at": "Mon Aug 31 15:00:59 +0000 2026",
+      "likes": 1,
+      "views": "1044",
+      "url": "https://x.com/i/status/2094440320180371616",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRDyXa0bkAA2A-G.jpg",
+        "https://pbs.twimg.com/media/HRDyXaraAAAEaZW.jpg",
+        "https://pbs.twimg.com/media/HRDyXaraoAAu0ks.jpg",
+        "https://pbs.twimg.com/media/HRDyXavb0AAw84a.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRDyXa0bkAA2A-G.jpg",
+        "https://pbs.twimg.com/media/HRDyXaraAAAEaZW.jpg",
+        "https://pbs.twimg.com/media/HRDyXaraoAAu0ks.jpg",
+        "https://pbs.twimg.com/media/HRDyXavb0AAw84a.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2093422509416923495",
+        "author": "YuLin807",
+        "name": "QingYue",
+        "text": "grok bot @bot 介绍篇I\n\n1. 现在grok bot 不仅有免费额度，同时也可以使用 X 会员登录使用。所以大家都可以去尝试。\n\n2. 配置：grok bot 环境自带一台8核 Xeon、16G内存、大约120G盘，Debian系统云电脑，而且是图形模式，不仅bot可以操作而且你也可以方便接管。\n这个配置相当于啥水平呢，就是一台2018年的inter macmini 或者一台iPhone 16e的水平。\n\n3. 玩法：\n\n3.1 我同步过去我的Github账号然后让他帮我监督Githubissue，同时照看茶馆。\n\n3.2 我把codex/grok 使用device code 的方式登录到grok 的云电脑环境，让bot 去帮我操作Agent（消耗额度）。\n\n3.3 我让bot 使用herder 同时控制 grok 和 codex 也方便他们内部交流\n\n3.4 这就是最好玩的，我让bot 帮我安装 moshi- hook，然后配置完成之后通过Tailscale 的方式配置 moshi 的Easy pair，达成的效果就是我在moshi 上远程控制 grok bot 上的 grok 和 codex。@odd_joel \n\n一切都闭环了！Thankyou @poteto \n\n欢迎大家关注我，看我分享更多的 grok bot 玩法。",
+        "created_at": "Fri Aug 28 19:36:34 +0000 2026",
+        "url": "https://x.com/YuLin807/status/2093422509416923495",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQ1UagWbsAASm6Y.jpg",
+          "https://pbs.twimg.com/media/HQ1UafIagAACcQ1.jpg",
+          "https://pbs.twimg.com/media/HQ1UafIbQAEQkVj.jpg",
+          "https://pbs.twimg.com/media/HQ1UafNbsAAxzaU.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQ1UagWbsAASm6Y.jpg",
+          "https://pbs.twimg.com/media/HQ1UafIagAACcQ1.jpg",
+          "https://pbs.twimg.com/media/HQ1UafIbQAEQkVj.jpg",
+          "https://pbs.twimg.com/media/HQ1UafNbsAAxzaU.jpg"
+        ]
+      },
+      "score": 55.305,
+      "title": "Grok Bot 解剖：指令 + Memory + Skill + 插件串成下一代 Agent",
+      "summary": "作者用 poteto 元 bot 拆 Grok Bot：1）指令定角色与拒绝边界；2）Memory 写创建流程与法则；3）Skill 给 Memory 里工具落地定义；4）插件规范任务拆解，先设计再写码、减少废代码并支持并行。认为这把零散的 skill/记忆/插件/提示词串成开箱即用体验，新手可直接导入别人 bot 配置；也提到插件可能绑定生态带来粘性，并玩笑说可照猫画虎做 pi bot。",
+      "recommend_reason": "少见的 Grok Bot「内部四件套」拆解，比空喊下一代 Agent 更有可抄结构。",
+      "tags": [
+        "Grok Bot",
+        "Agent",
+        "Skill",
+        "Memory"
+      ],
+      "rank": 10
+    },
+    {
       "id": "2094271667153564143",
       "author": "lixinbao_X",
       "bio": "",
@@ -36,7 +419,7 @@
         "Agent",
         "强化学习"
       ],
-      "rank": 1
+      "rank": 11
     },
     {
       "id": "2094271456129765603",
@@ -66,7 +449,7 @@
         "浏览器",
         "Agent"
       ],
-      "rank": 2
+      "rank": 12
     },
     {
       "id": "2094270799175680460",
@@ -102,7 +485,7 @@
         "定价",
         "用量"
       ],
-      "rank": 3
+      "rank": 13
     },
     {
       "id": "2094265823087022114",
@@ -146,7 +529,7 @@
         "Agent",
         "创意"
       ],
-      "rank": 4
+      "rank": 14
     },
     {
       "id": "2094265782104719537",
@@ -181,7 +564,7 @@
         "Agent",
         "产品设计"
       ],
-      "rank": 5
+      "rank": 15
     },
     {
       "id": "2094265268411470153",
@@ -211,7 +594,7 @@
         "羊毛",
         "API"
       ],
-      "rank": 6
+      "rank": 16
     },
     {
       "id": "2094257794866094083",
@@ -247,7 +630,7 @@
         "评测",
         "工程"
       ],
-      "rank": 7
+      "rank": 17
     },
     {
       "id": "2094257486069158112",
@@ -273,7 +656,7 @@
         "战略",
         "大模型"
       ],
-      "rank": 8
+      "rank": 18
     },
     {
       "id": "2094254532020818191",
@@ -309,7 +692,7 @@
         "定价",
         "用量"
       ],
-      "rank": 9
+      "rank": 19
     },
     {
       "id": "2094253647827988627",
@@ -358,7 +741,7 @@
         "ChatGPT",
         "工具"
       ],
-      "rank": 10
+      "rank": 20
     },
     {
       "id": "2094252447271366730",
@@ -394,10 +777,10 @@
         "Codex",
         "用量"
       ],
-      "rank": 11
+      "rank": 21
     }
   ],
-  "generated_at": "2026-08-31T04:02:16Z",
+  "generated_at": "2026-08-31T16:46:56Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -405,13 +788,13 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 11,
-    "last_batch_added": 11,
+    "actual_count": 21,
+    "last_batch_added": 10,
     "last_batch_skipped_dup": 0,
-    "last_batch_skipped_author": 0,
+    "last_batch_skipped_author": 1,
     "last_batch_skipped_day_cap": 0,
     "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
     "short_tweet": {
