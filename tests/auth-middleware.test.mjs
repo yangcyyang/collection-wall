@@ -81,7 +81,7 @@ test("错误密码不设会话 cookie，也不放行正文", async () => {
     headers: { "content-type": "application/x-www-form-urlencoded" },
     body,
   });
-  assert.equal(response.status, 302);
+  assert.equal(response.status, 303);
   assert.match(response.headers.get("location") ?? "", /\/login\//);
   assert.match(response.headers.get("location") ?? "", /error=1/);
   assert.doesNotMatch(cookieFrom(response), new RegExp(`${COOKIE_NAME}=[^;]+`));
@@ -142,7 +142,7 @@ test("环境变量缺失时登录请求失败，不颁发 cookie", async () => {
     headers: { "content-type": "application/x-www-form-urlencoded" },
     body: new URLSearchParams({ username: "cy", password: "correct-horse" }),
   }, {});
-  assert.equal(response.status, 302);
+  assert.equal(response.status, 303);
   assert.match(response.headers.get("location") ?? "", /error=1/);
   assert.doesNotMatch(cookieFrom(response), new RegExp(`${COOKIE_NAME}=[^;]+`));
 });
@@ -155,10 +155,52 @@ test("篡改过的 cookie 视为未登录", async () => {
   assert.match(response.headers.get("location") ?? "", /\/login\//);
 });
 
-test("退出登录清除 cookie 并回到登录页", async () => {
-  const response = await handle("/logout/");
-  assert.equal(response.status, 302);
+test("POST 退出登录清除 cookie 并回到登录页", async () => {
+  const response = await handle("/logout/", { method: "POST" });
+  assert.equal(response.status, 303);
   assert.equal(new URL(response.headers.get("location"), "https://wall.example").pathname, "/login/");
   assert.match(cookieFrom(response), new RegExp(`${COOKIE_NAME}=;`));
   assert.match(cookieFrom(response), /Max-Age=0/i);
+});
+
+test("GET /logout/ 不清除会话，避免预取把人踢出去", async () => {
+  const response = await handle("/logout/");
+  assert.equal(response.status, 302);
+  assert.equal(new URL(response.headers.get("location"), "https://wall.example").pathname, "/login/");
+  assert.equal(cookieFrom(response), "");
+});
+
+test("错误用户名即使密码正确也不登录", async () => {
+  const response = await handle("/login/", {
+    method: "POST",
+    headers: { "content-type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams({ username: "not-cy", password: "correct-horse" }),
+  });
+  assert.equal(response.status, 303);
+  assert.match(response.headers.get("location") ?? "", /error=1/);
+  assert.doesNotMatch(cookieFrom(response), new RegExp(`${COOKIE_NAME}=[^;]+`));
+});
+
+test("过期或指向外站的 next 都回首页，外链不会被跟走", async () => {
+  const { createSessionToken, handleRequest } = await import("../functions/lib/auth.js");
+  const expired = await createSessionToken("cy", ENV.WALL_SESSION_SECRET, Date.now() - 8 * 24 * 60 * 60 * 1000);
+  const expiredResponse = await handle("/", { headers: { cookie: `${COOKIE_NAME}=${expired}` } });
+  assert.equal(expiredResponse.status, 302);
+
+  const login = await handle("/login/", {
+    method: "POST",
+    headers: { "content-type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams({ username: "cy", password: "correct-horse", next: "//evil.example/" }),
+  });
+  assert.equal(login.status, 303);
+  assert.equal(new URL(login.headers.get("location"), "https://wall.example").pathname, "/");
+  assert.equal(handleRequest.length, 2);
+});
+
+test("畸形 cookie 不当成 500，按未登录处理", async () => {
+  const response = await handle("/", {
+    headers: { cookie: `${COOKIE_NAME}=%E0%A4%A` },
+  });
+  assert.equal(response.status, 302);
+  assert.match(response.headers.get("location") ?? "", /\/login\//);
 });

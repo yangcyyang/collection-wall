@@ -20,5 +20,7 @@ const items = [
       aria-current={current === item.id ? "page" : undefined}
     >{item.label}</a>
   ))}
-  <a class="tab logout-tab" href="/logout/">退出</a>
+  <form class="logout-form" method="post" action="/logout/">
+    <button class="tab logout-tab" type="submit">退出</button>
+  </form>
 </nav>

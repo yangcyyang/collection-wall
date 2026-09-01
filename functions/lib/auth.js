@@ -38,7 +38,11 @@ export function parseCookies(header) {
     if (index === -1) continue;
     const key = part.slice(0, index).trim();
     const value = part.slice(index + 1).trim();
-    cookies[key] = decodeURIComponent(value);
+    try {
+      cookies[key] = decodeURIComponent(value);
+    } catch {
+      cookies[key] = value;
+    }
   }
   return cookies;
 }
@@ -96,10 +100,13 @@ export async function handleRequest(request, { env = {}, next, now = Date.now() 
   const secure = url.protocol === "https:";
 
   if (path === "/logout/") {
-    return redirect(loginUrl(url, { next: null }), {
-      status: 302,
-      headers: { "set-cookie": clearSessionCookie({ secure }) },
-    });
+    if (request.method === "POST") {
+      return redirect(loginUrl(url, { next: null }), {
+        status: 303,
+        headers: { "set-cookie": clearSessionCookie({ secure }) },
+      });
+    }
+    return redirect(loginUrl(url, { next: null }));
   }
 
   if (request.method === "POST" && path === "/login/") {
@@ -120,7 +127,17 @@ export async function handleRequest(request, { env = {}, next, now = Date.now() 
     return redirectToLogin(url, path);
   }
 
-  return next();
+  return uncached(await next());
+}
+
+async function uncached(response) {
+  const headers = new Headers(response.headers);
+  headers.set("Cache-Control", "private, no-store");
+  return new Response(response.body, {
+    status: response.status,
+    statusText: response.statusText,
+    headers,
+  });
 }
 
 async function handleLogin(request, url, env, { secure, now }) {
@@ -130,7 +147,7 @@ async function handleLogin(request, url, env, { secure, now }) {
   const nextPath = safeNextPath(String(form.get("next") || url.searchParams.get("next") || "/"));
 
   if (!(await credentialsMatch(username, password, env))) {
-    return redirect(loginUrl(url, { error: true, next: nextPath }), { status: 302 });
+    return redirect(loginUrl(url, { error: true, next: nextPath }), { status: 303 });
   }
 
   const token = await createSessionToken(username, env.WALL_SESSION_SECRET, now);

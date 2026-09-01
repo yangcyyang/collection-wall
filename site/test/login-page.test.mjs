@@ -15,7 +15,8 @@ test("登录页是中文账号密码表单，沿用站点样式而不是独立�
   assert.match(page, /账号或密码不正确/);
   assert.match(page, /method="post"/);
   assert.match(page, /action="\/login\/"/);
-  assert.match(nav, /href="\/logout\/"/);
+  assert.match(nav, /method="post"/);
+  assert.match(nav, /action="\/logout\/"/);
   assert.match(nav, /退出/);
   assert.match(css, /\.login-card/);
   assert.match(routes, /"include":\s*\[\s*"\/\*"\s*\]/);

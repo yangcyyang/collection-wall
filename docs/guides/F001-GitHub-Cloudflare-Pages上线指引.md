@@ -64,6 +64,18 @@ Build output directory: site/dist
 Environment variable: NODE_VERSION=22.12.0
 ```
 
+登录门禁还需要三条 **Production / Preview** 密钥（不要写进仓库或构建命令）：
+
+```text
+WALL_USERNAME=共享账号
+WALL_PASSWORD=共享密码
+WALL_SESSION_SECRET=足够长的随机串（openssl rand -hex 32）
+```
+
+缺任何一条时站点失败关闭：只显示登录页，登录也不会成功。改完变量后必须 Redeploy。建议把 **Settings → Runtime → Fail open / closed** 设为 **Fail closed**，避免 Functions 额度用尽时静态文件裸奔。
+
+门禁只锁 `wall.yangcyyang.cn` 的 HTTP 响应。若 GitHub 仓库仍是 Public，`data/**/*.json` 原文还在 git 里。
+
 7. 点击 **Save and Deploy**。
 8. 构建完成后先打开 `*.pages.dev` 地址，确认首页、搜索、分类筛选、封面与
    移动端布局正常。

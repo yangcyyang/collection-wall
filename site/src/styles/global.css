@@ -60,7 +60,8 @@ h2 { font-size: var(--font-size-title); margin-bottom: 0; }
 .tab { color: var(--color-text-secondary); font-size: var(--font-size-caption); text-decoration: none; }
 .tab.is-active { color: var(--color-brand); font-weight: 700; }
 .tab:focus-visible { outline: var(--outline-width) solid var(--color-brand); outline-offset: var(--outline-width); }
-.logout-tab { margin-left: auto; }
+.logout-form { margin-left: auto; }
+.logout-tab { background: none; border: 0; padding: 0; }
 .login-shell { max-width: 36rem; }
 .login-card { background: var(--color-surface); border: var(--border-width) solid var(--color-border); border-radius: var(--radius-card); box-shadow: var(--shadow-card); margin-top: var(--spacing-xl); padding: var(--spacing-xl); }
 .login-card h2 { margin-bottom: var(--spacing-md); }
