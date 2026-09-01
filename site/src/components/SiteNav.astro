@@ -1,5 +1,5 @@
 ---
-type Props = { current: "wall" | "news" | "twitter" | "knowledge" | "prompts" | "radar" };
+type Props = { current: "wall" | "news" | "twitter" | "knowledge" | "prompts" | "skills" | "radar" };
 const { current } = Astro.props;
 const items = [
   { id: "wall", href: "/", label: "收藏墙" },
@@ -7,6 +7,7 @@ const items = [
   { id: "twitter", href: "/twitter/", label: "推特日报" },
   { id: "knowledge", href: "/knowledge/", label: "知识总结" },
   { id: "prompts", href: "/prompts/", label: "提示词" },
+  { id: "skills", href: "/skills/", label: "技能" },
   { id: "radar", href: "/radar/", label: "雷达" },
 ] as const;
 ---
