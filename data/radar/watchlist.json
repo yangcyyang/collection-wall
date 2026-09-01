@@ -1,15 +1,15 @@
 {
   "source": "ai-frontier-radar",
   "title": "观察名单",
-  "updated_at": "2026-08-31T08:45:00+08:00",
-  "count": 8,
+  "updated_at": "2026-09-01T08:50:00+08:00",
+  "count": 9,
   "items": [
     {
       "id": "cursor-openai-nov12",
       "title": "Cursor 与 OpenAI 11 月 12 日切断",
       "why": "日期还在不在、Astra 会不会永远不进、用户默认模型会否被静默切换",
       "since": "2026-08-28T00:00:00+08:00",
-      "last_updated": "2026-08-31T08:45:00+08:00",
+      "last_updated": "2026-09-01T08:50:00+08:00",
       "status": "watching",
       "related_signals": [
         "coding-agent-supply-chain"
@@ -20,7 +20,7 @@
       "title": "beafk、useagent、vicoa 谁先做出离开后还在跑",
       "why": "Almanac、OpenTag 加入同一品类，和 beafk、useagent、vicoa 一起决定长期电脑的默认形态",
       "since": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-08-31T08:45:00+08:00",
+      "last_updated": "2026-09-01T08:50:00+08:00",
       "status": "watching",
       "related_signals": [
         "agent-persistent-computer"
@@ -31,7 +31,7 @@
       "title": "Hy4 递归自改进声明能否被第三方复现",
       "why": "训练侧自我改进若成立，会改变开源模型叙事。PH 第三次以 hunyuan-a13b 上架只是分发，仍无第三方 RSI 复现",
       "since": "2026-08-28T00:00:00+08:00",
-      "last_updated": "2026-08-31T08:45:00+08:00",
+      "last_updated": "2026-09-01T08:50:00+08:00",
       "status": "watching",
       "related_signals": [
         "recursive-alignment-loop"
@@ -40,9 +40,9 @@
     {
       "id": "apache-maka",
       "title": "apache/maka 会否成为本地执行记录标准",
-      "why": "Apache 基金会加本周星速",
+      "why": "Apache 基金会加本周星速；现 4324（+137/24h），仍无 Linux 公告",
       "since": "2026-08-30T00:00:00+08:00",
-      "last_updated": "2026-08-31T08:45:00+08:00",
+      "last_updated": "2026-09-01T08:50:00+08:00",
       "status": "watching",
       "related_signals": [
         "apache-maka-durable-workspace"
@@ -53,7 +53,7 @@
       "title": "Meta Project Hatch 泄漏",
       "why": "若属实：持久电脑操控 + 可分享智能体进 Messenger/WhatsApp。目前只有聚合号泄漏，无官方主帖",
       "since": "2026-08-31T08:45:00+08:00",
-      "last_updated": "2026-08-31T08:45:00+08:00",
+      "last_updated": "2026-09-01T08:50:00+08:00",
       "status": "watching",
       "confidence": "low",
       "related_signals": [
@@ -65,7 +65,7 @@
       "title": "Astra 内部检查点传闻",
       "why": "社区传闻对上官方因严重网络安全暂停、且不给 Cursor。只看官方。",
       "since": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-08-31T08:45:00+08:00",
+      "last_updated": "2026-09-01T08:50:00+08:00",
       "status": "watching",
       "confidence": "low"
     },
@@ -74,7 +74,7 @@
       "title": "Claude Code 9 月 14 日限额落地与用量可见性",
       "why": "产能在给编程智能体定价",
       "since": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-08-31T08:45:00+08:00",
+      "last_updated": "2026-09-01T08:50:00+08:00",
       "status": "watching"
     },
     {
@@ -82,8 +82,18 @@
       "title": "Maritime 每月 1 美元虚拟机醒来后的真实成本",
       "why": "商业模式是否只在休眠时成立",
       "since": "2026-08-30T00:00:00+08:00",
-      "last_updated": "2026-08-31T08:45:00+08:00",
+      "last_updated": "2026-09-01T08:50:00+08:00",
       "status": "watching"
+    },
+    {
+      "id": "outcome-priced-agents",
+      "title": "OpenAI 企业智能体按结果付费传闻",
+      "why": "聚合号称企业成功才付费、失败由 OpenAI 吃算力；无官方确认。若属实会改商业模式。",
+      "since": "2026-09-01T08:50:00+08:00",
+      "last_updated": "2026-09-01T08:50:00+08:00",
+      "status": "watching",
+      "confidence": "low",
+      "related_signals": []
     }
   ]
 }

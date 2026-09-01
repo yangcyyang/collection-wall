@@ -1,7 +1,7 @@
 {
   "source": "ai-frontier-radar",
   "title": "新产品",
-  "updated_at": "2026-08-31T08:45:00+08:00",
+  "updated_at": "2026-09-01T08:50:00+08:00",
   "count": 12,
   "items": [
     {
@@ -71,7 +71,7 @@
       "score": 77,
       "status": "new",
       "first_detected": "2026-08-30T00:00:00+08:00",
-      "last_updated": "2026-08-31T08:45:00+08:00",
+      "last_updated": "2026-09-01T08:50:00+08:00",
       "summary": "Mac 本地推理。把热点缓存在内存、冷数据放固态硬盘，把编程智能体的等待从大约 90 秒打到 5 秒。",
       "novelty": "针对智能体会反复作废上下文缓存来设计，不是又一个本地模型套壳",
       "urls": {
@@ -85,7 +85,7 @@
         "Mac"
       ],
       "homepage": true,
-      "notes": "GitHub 星已核实 21056（jundot/omlx）"
+      "notes": "GitHub 星已核实 21162（jundot/omlx）"
     },
     {
       "id": "useagent",
@@ -93,8 +93,8 @@
       "score": 83,
       "status": "new",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-08-31T08:45:00+08:00",
-      "summary": "把 Claude Code、Codex、OpenCode、Pi 包成引擎，隔离 Linux 沙箱，带事件溯源和人机确认。8 月 29 日新建，约 129 星。",
+      "last_updated": "2026-09-01T08:50:00+08:00",
+      "summary": "把 Claude Code、Codex、OpenCode、Pi 包成引擎，隔离 Linux 沙箱，带事件溯源和人机确认。8 月 29 日新建，现 151 星。",
       "novelty": "云电脑加任意运行时加事件日志，产品化成同事而不是又一个聊天框",
       "urls": {
         "github": "https://github.com/useagenthq/useagent",
@@ -104,7 +104,8 @@
         "编排",
         "沙箱"
       ],
-      "homepage": true
+      "homepage": true,
+      "notes": "GitHub 星已核实 151（useagenthq/useagent；板上 129）"
     },
     {
       "id": "opentag",
