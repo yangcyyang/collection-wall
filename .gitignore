@@ -13,6 +13,7 @@ site/public/skills/covers/
 pipeline/.env
 .env
 .dev.vars
+.wrangler/
 pipeline/logs/
 pipeline/.bookmark-baseline.json
 pipeline/.last-processed.json
