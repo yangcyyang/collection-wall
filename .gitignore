@@ -12,6 +12,7 @@ site/public/skills/covers/
 .kimi/
 pipeline/.env
 .env
+.dev.vars
 pipeline/logs/
 pipeline/.bookmark-baseline.json
 pipeline/.last-processed.json

@@ -60,6 +60,17 @@ h2 { font-size: var(--font-size-title); margin-bottom: 0; }
 .tab { color: var(--color-text-secondary); font-size: var(--font-size-caption); text-decoration: none; }
 .tab.is-active { color: var(--color-brand); font-weight: 700; }
 .tab:focus-visible { outline: var(--outline-width) solid var(--color-brand); outline-offset: var(--outline-width); }
+.logout-tab { margin-left: auto; }
+.login-shell { max-width: 36rem; }
+.login-card { background: var(--color-surface); border: var(--border-width) solid var(--color-border); border-radius: var(--radius-card); box-shadow: var(--shadow-card); margin-top: var(--spacing-xl); padding: var(--spacing-xl); }
+.login-card h2 { margin-bottom: var(--spacing-md); }
+.login-error { background: color-mix(in srgb, var(--color-badge-new) 12%, var(--color-surface)); color: var(--color-badge-new); border-radius: var(--radius-card); margin-bottom: var(--spacing-md); padding: var(--spacing-sm) var(--spacing-md); }
+.login-form { display: grid; gap: var(--spacing-md); }
+.login-form label { display: grid; gap: var(--spacing-xs); color: var(--color-text-secondary); font-size: var(--font-size-caption); }
+.login-form input { background: var(--color-bg); border: var(--border-width) solid var(--color-border); border-radius: var(--radius-card); color: var(--color-text-primary); font: inherit; padding: var(--spacing-sm) var(--spacing-md); }
+.login-form input:focus-visible { border-color: var(--color-brand); outline: var(--outline-width) solid var(--color-brand); outline-offset: var(--outline-width); }
+.login-form button { background: var(--color-brand); border: 0; border-radius: var(--radius-card); color: var(--color-surface); font-weight: 700; justify-self: start; padding: var(--spacing-sm) var(--spacing-xl); }
+.login-form button:focus-visible { outline: var(--outline-width) solid var(--color-brand); outline-offset: var(--outline-width); }
 .nav-caption { color: var(--color-text-secondary); font-size: var(--font-size-caption); margin: 0; padding-bottom: var(--spacing-sm); }
 .wall-layout { display: grid; gap: var(--spacing-xl); grid-template-columns: var(--sidebar-width) minmax(0, 1fr); padding: var(--spacing-lg) 0; }
 .category-sidebar { align-self: start; border-right: var(--border-width) solid var(--color-border); padding-right: var(--spacing-md); position: sticky; top: var(--sidebar-top); }

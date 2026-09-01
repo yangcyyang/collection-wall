@@ -1,0 +1,50 @@
+---
+import "../styles/global.css";
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="登录收藏墙" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>登录 · 收藏墙</title>
+  </head>
+  <body>
+    <div class="page-shell login-shell">
+      <header class="site-header">
+        <div>
+          <p class="eyebrow">个人工具库</p>
+          <h1>收藏墙</h1>
+          <p class="intro">请先登录后再查看收藏、资讯和其他栏目。</p>
+        </div>
+      </header>
+
+      <main class="login-card" aria-labelledby="login-title">
+        <p class="eyebrow">账号登录</p>
+        <h2 id="login-title">进入站点</h2>
+        <p class="login-error" data-login-error hidden role="alert">账号或密码不正确。</p>
+        <form class="login-form" method="post" action="/login/">
+          <input type="hidden" name="next" data-login-next value="" />
+          <label>
+            <span>账号</span>
+            <input type="text" name="username" autocomplete="username" required />
+          </label>
+          <label>
+            <span>密码</span>
+            <input type="password" name="password" autocomplete="current-password" required />
+          </label>
+          <button type="submit">登录</button>
+        </form>
+      </main>
+    </div>
+    <script is:inline>
+      const params = new URLSearchParams(window.location.search);
+      const error = document.querySelector("[data-login-error]");
+      const next = document.querySelector("[data-login-next]");
+      if (error && params.get("error") === "1") error.hidden = false;
+      const raw = params.get("next") ?? "";
+      if (next && raw.startsWith("/") && !raw.startsWith("//")) next.value = raw;
+    </script>
+  </body>
+</html>
