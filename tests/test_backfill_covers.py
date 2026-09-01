@@ -69,7 +69,7 @@ class FindMissingCoverTests(unittest.TestCase):
             data_dir = Path(tmp)
             covers = data_dir / "covers"
             covers.mkdir()
-            image = _jpeg((10, 80, 180), size=(320, 200), vary=True)
+            image = _jpeg((10, 80, 180), size=(640, 400), vary=True)
             self.assertGreater(len(image), MIN_COVER_BYTES)
             (covers / "arsenal-demo.jpg").write_bytes(image)
             _write_tool(data_dir, _base_record(cover=None))
@@ -81,7 +81,7 @@ class FindMissingCoverTests(unittest.TestCase):
             data_dir = Path(tmp)
             covers = data_dir / "covers"
             covers.mkdir()
-            image = _jpeg((200, 40, 40), size=(320, 200), vary=True)
+            image = _jpeg((200, 40, 40), size=(640, 400), vary=True)
             (covers / "arsenal-demo.jpg").write_bytes(image)
             _write_tool(data_dir, _base_record(cover="covers/arsenal-demo.jpg"))
             self.assertEqual(find_missing_cover_records(data_dir), [])
@@ -115,8 +115,29 @@ class CoverQualityTests(unittest.TestCase):
         self.assertFalse(is_usable_cover(solid))
 
     def test_accepts_varied_page_screenshot(self) -> None:
-        varied = _jpeg((240, 240, 240), size=(320, 200), vary=True)
-        self.assertTrue(is_usable_cover(varied))
+        img = Image.new("RGB", (640, 400), (240, 240, 240))
+        for y in range(400):
+            for x in range(0, 640, 2):
+                img.putpixel((x, y), ((x * 3) % 255, (y * 5) % 255, 90))
+        buf = io.BytesIO()
+        img.save(buf, format="JPEG", quality=85)
+        self.assertTrue(is_usable_cover(buf.getvalue()))
+
+    def test_rejects_tiny_square_avatar(self) -> None:
+        avatar = _jpeg((40, 90, 40), size=(266, 266), vary=True, quality=95)
+        # extra variation so this fails as an avatar, not as a solid tile
+        from PIL import Image as PILImage
+        import io as _io
+        img = PILImage.open(_io.BytesIO(avatar)).convert("RGB")
+        for y in range(img.size[1]):
+            for x in range(0, img.size[0], 3):
+                img.putpixel((x, y), ((x * 3) % 255, (y * 5) % 255, 90))
+        buf = _io.BytesIO()
+        img.save(buf, format="JPEG", quality=90)
+        avatar = buf.getvalue()
+        self.assertGreater(len(avatar), MIN_COVER_BYTES)
+        self.assertTrue(len(avatar) > 1000)
+        self.assertFalse(is_usable_cover(avatar))
 
 
 class ApplyCoverTests(unittest.TestCase):
@@ -124,7 +145,7 @@ class ApplyCoverTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             data_dir = Path(tmp)
             record_path = _write_tool(data_dir, _base_record())
-            image = _jpeg((30, 90, 200), size=(320, 200), vary=True)
+            image = _jpeg((30, 90, 200), size=(640, 400), vary=True)
             applied = apply_cover(record_path, image, data_dir=data_dir)
             self.assertEqual(applied["cover"], "covers/arsenal-demo.jpg")
             saved = load_tool_record(record_path)

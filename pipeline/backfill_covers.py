@@ -22,6 +22,7 @@ from PIL import Image
 
 DEFAULT_DATA_DIR = Path(__file__).resolve().parent.parent / "data" / "tools"
 MIN_COVER_BYTES = 2048
+MIN_COVER_EDGE = 400
 USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -100,12 +101,27 @@ def is_uniform_image(jpg_bytes: bytes, threshold: float = 0.85) -> bool:
 def is_usable_cover(image_bytes: bytes | None, min_bytes: int = MIN_COVER_BYTES) -> bool:
     if not image_bytes or len(image_bytes) <= min_bytes:
         return False
-    return not is_uniform_image(image_bytes)
+    if is_uniform_image(image_bytes):
+        return False
+    try:
+        width, height = Image.open(io.BytesIO(image_bytes)).size
+    except Exception:
+        return False
+    if max(width, height) < MIN_COVER_EDGE:
+        return False
+    if width == height and width < MIN_COVER_EDGE:
+        return False
+    return True
 
 
-def to_jpeg(raw: bytes) -> bytes | None:
+def to_jpeg(raw: bytes, max_edge: int = 1600) -> bytes | None:
     try:
         img = Image.open(io.BytesIO(raw)).convert("RGB")
+        width, height = img.size
+        longest = max(width, height)
+        if longest > max_edge:
+            scale = max_edge / longest
+            img = img.resize((max(1, int(width * scale)), max(1, int(height * scale))), Image.Resampling.LANCZOS)
         buf = io.BytesIO()
         img.save(buf, format="JPEG", quality=85)
         return buf.getvalue()
@@ -232,11 +248,13 @@ def capture_cover(page, url: str) -> tuple[bytes | None, str | None, str | None]
     except Exception:
         pass
 
-    if status >= 400 or looks_like_bot_wall(title, html):
-        image = _page_social_image(page, url) or fetch_social_image_from_html(url, html)
+    if status >= 400:
+        return None, None, f"http {status}"
+    if looks_like_bot_wall(title, html):
+        image = fetch_social_image_from_html(url)
         if is_usable_cover(image):
             return image, "og:image", None
-        return None, None, f"http {status}" if status >= 400 else "bot wall"
+        return None, None, "bot wall"
 
     screenshot = _viewport_screenshot(page)
     if screenshot and is_uniform_image(screenshot, threshold=0.85):
