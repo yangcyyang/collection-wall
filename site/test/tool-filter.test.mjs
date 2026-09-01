@@ -9,11 +9,13 @@ const tools = [
   { id: "c", name: "Note Flow", headline: "知识整理", category: "📚 知识与学习", tags: ["笔记", "自动化"] },
 ];
 
-test("搜索仅匹配名称、定位和标签", () => {
+test("搜索匹配名称、定位、标签、能力和简介", () => {
   assert.equal(matchesTool(tools[0], "agent", ""), true);
   assert.equal(matchesTool(tools[1], "图像", ""), true);
   assert.equal(matchesTool(tools[2], "自动化", ""), true);
   assert.equal(matchesTool(tools[1], "agent", ""), false);
+  assert.equal(matchesTool({ ...tools[1], capabilities: ["批量导出 PPT"] }, "ppt", ""), true);
+  assert.equal(matchesTool({ ...tools[2], intro: "适合整理 prompt" }, "prompt", ""), true);
 });
 
 test("多词搜索按任一关键词匹配", () => {

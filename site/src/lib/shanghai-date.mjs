@@ -36,6 +36,7 @@ export function toolSearchBlob(tool) {
   return [
     tool?.name,
     tool?.headline,
+    tool?.intro,
     ...(tool?.tags ?? []),
     ...(tool?.capabilities ?? []),
   ]

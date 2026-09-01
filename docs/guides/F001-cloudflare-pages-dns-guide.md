@@ -55,7 +55,16 @@ Cloudflare Pages 支持连接私有 GitHub 仓库；后续每次推送到生产�
 | `RESEND_API_KEY` | Resend HTTP API 密钥 |
 | `RESEND_FROM` | 可选。默认 `onboarding@resend.dev` 只能寄到 Resend 账号本人；用上述 Gmail 注册 Resend 后，免费测试发件人即可寄到该邮箱 |
 
-建议把 Pages Functions 的 Fail open / closed 设为 **Fail closed**，避免函数额度耗尽时静态私有页被直接放出。
+Ask AI 可选：
+
+| 变量 | 用途 |
+|---|---|
+| `GEMINI_API_KEY` | （可选）收藏墙 Ask AI 第二层用的共享 Gemini 密钥，只写在 Pages 环境变量，不要进仓库 |
+| `GEMINI_MODEL` | （可选）Gemini 模型名，默认 `gemini-2.0-flash` |
+
+缺登录密钥时，锁定页失败关闭（只显示登录页）；资讯与推特日报仍可未登录访问。建议把 Pages Functions 的 Fail open / closed 设为 **Fail closed**，避免函数额度耗尽时静态私有页被直接放出。
+
+Ask AI 是三层检索：本地语义（免费、不消耗密钥）→ 共享 Gemini（登录后可调 `/api/ask-ai`，按访客 cookie 每天 20 次）→ 额度用尽或密钥缺失/出错时回退关键词搜索。访客也可以在设置里粘贴自己的 Gemini key（只存在浏览器 localStorage，请求时代理转发，不记日志、不计入共享额度）。不配置 `GEMINI_API_KEY` 时，自然语言询问会直接走关键词回退并提示。
 
 构建完成后，先打开 Cloudflare 分配的 `*.pages.dev` 地址，确认收藏墙能显示卡片、封面和筛选。
 

@@ -1,5 +1,5 @@
 function searchableText(tool) {
-  return [tool.name, tool.headline, ...(tool.tags ?? [])]
+  return [tool.name, tool.headline, tool.intro, ...(tool.tags ?? []), ...(tool.capabilities ?? [])]
     .filter(Boolean)
     .join(" ")
     .toLowerCase();
