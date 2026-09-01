@@ -98,6 +98,7 @@ test("资讯与推特日报公开，未登录也能拿到静态响应", async ()
 test("收藏墙与技能未带 cookie 时重定向到登录并带上返回地址", async () => {
   assert.equal(isPublicPath("/"), false);
   assert.equal(isPublicPath("/skills/"), false);
+  assert.equal(isPublicPath("/api/ask-ai"), false);
 
   const home = await dispatch("/");
   assert.equal(home.status, 302);
@@ -351,6 +352,24 @@ test("忘记密码与重置路径保持公开，资讯推特仍可未登录访�
   assert.equal((await dispatch("/twitter/")).status, 200);
 });
 
+test("Ask AI 接口与收藏墙一样需要登录", async () => {
+  const locked = await dispatch("/api/ask-ai", { method: "POST", body: JSON.stringify({ query: "PPT" }), headers: { "Content-Type": "application/json" } });
+  assert.equal(locked.status, 302);
+  assert.match(locked.headers.get("Location") ?? "", /\/login\//);
+
+  const loggedIn = await dispatch("/login/", {
+    method: "POST",
+    body: loginBody("wall-user", "correct-horse", "/"),
+  });
+  const opened = await dispatch("/api/ask-ai", {
+    method: "POST",
+    cookie: sessionCookie(loggedIn),
+    body: JSON.stringify({ query: "PPT" }),
+    headers: { "Content-Type": "application/json" },
+  });
+  assert.equal(opened.status, 200);
+});
+
 test("私有静态资源不能未登录直链绕过", async () => {
   for (const path of [
     "/covers/seed-01.jpg",
@@ -358,6 +377,7 @@ test("私有静态资源不能未登录直链绕过", async () => {
     "/knowledge/",
     "/prompts/",
     "/radar/",
+    "/api/ask-ai",
   ]) {
     const response = await dispatch(path);
     assert.equal(response.status, 302, path);

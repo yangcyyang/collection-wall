@@ -5,6 +5,7 @@ import SiteNav from "../components/SiteNav.astro";
 import { getTools } from "../lib/tools";
 import { selectFeaturedTools } from "../lib/tool-order.mjs";
 import { categoryCounts } from "../lib/tool-filter.mjs";
+import { compactAskCatalog } from "../lib/ask-ai-gemini.mjs";
 import { countAddedOnShanghaiDate, toolSearchBlob } from "../lib/shanghai-date.mjs";
 
 const tools = await getTools();
@@ -16,6 +17,14 @@ const intentChips = [
   { label: "API", keywords: "api" },
   { label: "视频", keywords: "视频 video" },
 ];
+const askExamples = [
+  { label: "PPT", query: "做一份给客户看的 PPT" },
+  { label: "提示词", query: "找好用的提示词工具" },
+  { label: "API 代理", query: "需要一个 API 代理或中转" },
+  { label: "AI 视频", query: "用 AI 生成或剪辑视频" },
+];
+const askCatalog = compactAskCatalog(tools);
+const askCatalogJson = JSON.stringify(askCatalog).replaceAll("<", "\\u003c");
 const frequentTools = selectFeaturedTools(
   tools.filter((tool) => ["⭐ 高频", "📦 常用"].includes(tool.status ?? "")),
 );
@@ -88,13 +97,45 @@ function categoryIcon(category?: string) {
             </aside>
 
             <div class="wall-content">
+              <section class="ask-ai-panel" aria-label="问 AI">
+                <div class="ask-ai-heading">
+                  <div>
+                    <p class="eyebrow">三层检索 · 免费</p>
+                    <label class="ask-ai-label" for="ask-ai-query">你在做什么？</label>
+                  </div>
+                  <button type="button" class="ask-settings" data-ask-settings aria-label="Ask AI 设置">设置</button>
+                </div>
+                <textarea id="ask-ai-query" data-ask-query rows="2" placeholder="例如：做一份给客户看的 PPT"></textarea>
+                <div class="ask-ai-actions">
+                  <button type="button" class="ask-submit" data-ask-submit>Ask AI</button>
+                  <p class="ask-status" data-ask-status></p>
+                </div>
+                <div class="ask-examples" aria-label="示例">
+                  {askExamples.map((chip) => (
+                    <button class="intent-chip" type="button" data-ask-example={chip.query}>{chip.label}</button>
+                  ))}
+                </div>
+              </section>
+              <dialog class="ask-settings-dialog" data-ask-settings-dialog>
+                <p class="eyebrow">三层检索 · 免费</p>
+                <h2>Ask AI 设置</h2>
+                <p>先本地语义，不够再走 Gemini；额度用完会改关键词搜索。自备密钥只存在这台浏览器的 localStorage，除了向 Gemini 发请求外不会上传。</p>
+                <label>
+                  <span>你自己的 Gemini API Key（可选）</span>
+                  <input type="password" data-gemini-key autocomplete="off" placeholder="AIza…" />
+                </label>
+                <p class="ask-settings-actions">
+                  <button type="button" class="ask-submit" data-ask-settings-save>保存</button>
+                  <button type="button" class="empty-action" data-ask-settings-close>关闭</button>
+                </p>
+              </dialog>
               <div class="search-row">
                 <label class="search-box">
                   <span class="search-icon" aria-hidden="true">⌕</span>
                   <input
                     type="search"
                     data-tool-search
-                    aria-label="搜索名称、定位或标签"
+                    aria-label="搜索名称、标签或能力，按 / 聚焦"
                     placeholder="例如 design-dna 或 PPT"
                     autocomplete="off"
                   />
@@ -128,7 +169,7 @@ function categoryIcon(category?: string) {
                 <p>{frequentTools.length} 条高频 / 常用</p>
               </div>
               <div class="tool-grid">
-                {frequentTools.map((tool) => <article class:list={["tool-card", { "is-failed": tool.capture_status === "failed" }]} data-tool data-category={tool.category} data-search={toolSearchBlob(tool)}>
+                {frequentTools.map((tool) => <article class:list={["tool-card", { "is-failed": tool.capture_status === "failed" }]} data-tool data-tool-id={tool.id} data-category={tool.category} data-search={toolSearchBlob(tool)}>
                   <a class="card-link" href={tool.url} target="_blank" rel="noreferrer" aria-label={tool.name}></a>
                   <div class="cover-wrap">
                     {tool.cover ? <img src={`/${tool.cover}`} alt="" loading="lazy" /> : <div class="cover-fallback" aria-hidden="true">{categoryIcon(tool.category)}</div>}
@@ -137,6 +178,7 @@ function categoryIcon(category?: string) {
                     <div class="card-meta"><span class="category">{tool.category}</span><span class:list={["status", statusClass(tool.status)]}>{tool.status}</span></div>
                     <h3>{tool.name}</h3>
                     <p title={tool.headline || "尚待补充用途说明"}>{tool.headline || "尚待补充用途说明"}</p>
+                    <p class="ask-reason" data-ask-reason hidden></p>
                     <div class="tag-list">{(tool.tags ?? []).slice(0, 8).map((tag) => <span>{tag}</span>)}</div>
                   </div>
                 </article>)}
@@ -153,7 +195,7 @@ function categoryIcon(category?: string) {
               <p>{visibleTools.length} 条</p>
             </div>
             <div class="tool-grid">
-              {visibleTools.map((tool) => <article class:list={["tool-card", { "is-failed": tool.capture_status === "failed" }]} data-tool data-category={tool.category} data-search={toolSearchBlob(tool)}>
+              {visibleTools.map((tool) => <article class:list={["tool-card", { "is-failed": tool.capture_status === "failed" }]} data-tool data-tool-id={tool.id} data-category={tool.category} data-search={toolSearchBlob(tool)}>
                 <a class="card-link" href={tool.url} target="_blank" rel="noreferrer" aria-label={tool.name}></a>
                 <div class="cover-wrap">
                   {tool.cover ? <img src={`/${tool.cover}`} alt="" loading="lazy" /> : <div class="cover-fallback" aria-hidden="true">{categoryIcon(tool.category)}</div>}
@@ -162,6 +204,7 @@ function categoryIcon(category?: string) {
                   <div class="card-meta"><span class="category">{tool.category}</span><span class:list={["status", statusClass(tool.status)]}>{tool.status}</span></div>
                     <h3>{tool.name}</h3>
                     <p title={tool.capture_status === "failed" ? "这条收藏暂时未抓取成功。" : tool.headline || "尚待补充用途说明"}>{tool.capture_status === "failed" ? "这条收藏暂时未抓取成功。" : tool.headline || "尚待补充用途说明"}</p>
+                    <p class="ask-reason" data-ask-reason hidden></p>
                   {tool.capture_status === "failed" ? <button type="button" class="retry-button" data-retry>重新同步</button> : <div class="tag-list">{(tool.tags ?? []).slice(0, 8).map((tag) => <span>{tag}</span>)}</div>}
                 </div>
               </article>)}
@@ -176,92 +219,10 @@ function categoryIcon(category?: string) {
     <footer class="site-footer">
       <p><strong>数据来源说明</strong>：部分数据源自 <a href="https://xiaoer-tools-wall.vercel.app/" target="_blank" rel="noreferrer">xiaoer's 私人弹药库</a>，在此致谢并保留原站链接。</p>
     </footer>
+    <script type="application/json" id="ask-ai-catalog" set:html={askCatalogJson} />
     <script>
-      const categoryButtons = document.querySelectorAll("[data-category-filter]");
-      const intentButtons = document.querySelectorAll("[data-intent-filter]");
-      const searchInput = document.querySelector("[data-tool-search]");
-      const cards = document.querySelectorAll("[data-tool]");
-      const sections = document.querySelectorAll("[data-section]");
-      const matchCount = document.querySelector("[data-match-count]");
-      const filterEmpty = document.querySelector("[data-filter-empty]");
-      const emptyMessage = document.querySelector("[data-filter-empty-message]");
-      const clearSearch = document.querySelector("[data-clear-search]");
-      const clearFilters = document.querySelector("[data-clear-filters]");
-      let category = "";
-      let intent = "";
-
-      function matchesTokens(search, text) {
-        const keys = (text ?? "").trim().toLowerCase().split(/\s+/).filter(Boolean);
-        return keys.length === 0 || keys.some((key) => search.includes(key));
-      }
-
-      function syncCategoryState() {
-        categoryButtons.forEach((item) => {
-          const selected = (item.dataset.categoryFilter ?? "") === category;
-          item.classList.toggle("is-selected", selected);
-          item.setAttribute("aria-pressed", selected ? "true" : "false");
-        });
-      }
-
-      function syncIntentState() {
-        intentButtons.forEach((item) => {
-          const selected = intent !== "" && (item.dataset.intentFilter ?? "") === intent;
-          item.classList.toggle("is-selected", selected);
-          item.setAttribute("aria-pressed", selected ? "true" : "false");
-        });
-      }
-
-      function refreshCards() {
-        const rawQuery = searchInput?.value.trim() ?? "";
-        let visibleCount = 0;
-        cards.forEach((card) => {
-          const search = card.dataset.search ?? "";
-          const matchesCategory = !category || card.dataset.category === category;
-          card.hidden = !(matchesCategory && matchesTokens(search, rawQuery) && matchesTokens(search, intent));
-          if (!card.hidden) visibleCount += 1;
-        });
-        sections.forEach((section) => {
-          section.hidden = !section.querySelector("[data-tool]:not([hidden])");
-        });
-        if (matchCount) matchCount.textContent = String(visibleCount);
-        if (filterEmpty) {
-          filterEmpty.hidden = visibleCount > 0;
-          if (visibleCount === 0 && emptyMessage) {
-            emptyMessage.textContent = rawQuery ? `没有找到 “${rawQuery}”。` : "这个分类下没有匹配，查看全部工具";
-          }
-          if (clearSearch) clearSearch.hidden = !rawQuery;
-        }
-      }
-
-      categoryButtons.forEach((button) => button.addEventListener("click", () => {
-        const nextCategory = button.dataset.categoryFilter ?? "";
-        category = category === nextCategory ? "" : nextCategory;
-        syncCategoryState();
-        refreshCards();
-      }));
-      intentButtons.forEach((button) => button.addEventListener("click", () => {
-        const nextIntent = button.dataset.intentFilter ?? "";
-        intent = intent === nextIntent ? "" : nextIntent;
-        syncIntentState();
-        refreshCards();
-      }));
-      searchInput?.addEventListener("input", refreshCards);
-      clearSearch?.addEventListener("click", () => {
-        if (searchInput) searchInput.value = "";
-        refreshCards();
-        searchInput?.focus();
-      });
-      clearFilters?.addEventListener("click", () => {
-        category = "";
-        intent = "";
-        if (searchInput) searchInput.value = "";
-        syncCategoryState();
-        syncIntentState();
-        refreshCards();
-      });
-      document.querySelectorAll("[data-retry], [data-sync-notice]").forEach((button) => button.addEventListener("click", () => {
-        window.alert("首版为静态站，请在本地 watcher 完成一次同步后再刷新页面。");
-      }));
+      import { bindWallPage } from "../lib/ask-ai-page.mjs";
+      bindWallPage(document);
     </script>
   </body>
 </html>
