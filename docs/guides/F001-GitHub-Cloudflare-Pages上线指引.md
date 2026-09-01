@@ -64,7 +64,7 @@ Build output directory: site/dist
 Environment variable: NODE_VERSION=22.12.0
 再增加 Production/Preview 密钥（不要写入仓库）：
 WALL_USERNAME / WALL_PASSWORD / WALL_SESSION_SECRET
-忘记密码（可选）：WALL_RECOVERY_EMAIL / RESEND_API_KEY / RESEND_FROM
+忘记密码（可选）：WALL_RECOVERY_EMAIL（Cloudflare 里配置，示例 928590029@qq.com，不要写进仓库） / RESEND_API_KEY / RESEND_FROM（可选；默认 onboarding@resend.dev 只能寄到 Resend 账号本人，寄到 QQ 通常需要已验证域名）
 ```
 
 仓库若保持公开，`data/` 里的 JSON 在 GitHub 上仍可读；登录门只挡网站未登录访问。

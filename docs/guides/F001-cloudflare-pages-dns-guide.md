@@ -51,9 +51,9 @@ Cloudflare Pages 支持连接私有 GitHub 仓库；后续每次推送到生产�
 
 | 变量 | 用途 |
 |---|---|
-| `WALL_RECOVERY_EMAIL` | 允许接收魔法登录链接的邮箱 |
+| `WALL_RECOVERY_EMAIL` | 允许接收魔法登录链接的邮箱。在 Cloudflare 配置，不要写进仓库。示例：`928590029@qq.com` |
 | `RESEND_API_KEY` | Resend HTTP API 密钥 |
-| `RESEND_FROM` | 发件人。给非 Resend 账号邮箱（如 QQ）发信时必须改成已验证域名的地址；默认 `onboarding@resend.dev` 只能寄到 Resend 账号本人 |
+| `RESEND_FROM` | 可选。默认 `onboarding@resend.dev` 只能寄到 Resend 账号本人。若 Resend 账号不是上述 QQ，要寄到 QQ 通常需要已验证域名的发件人 |
 
 建议把 Pages Functions 的 Fail open / closed 设为 **Fail closed**，避免函数额度耗尽时静态私有页被直接放出。
 
