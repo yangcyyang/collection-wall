@@ -35,7 +35,17 @@ Cloudflare Pages 支持连接私有 GitHub 仓库；后续每次推送到生产�
 | Build output directory | `site/dist` |
 | Root directory | 留空（仓库根目录） |
 
-首次构建不需要部署密钥环境变量。站点读取已提交的 `data/tools/`；`pipeline/.env` 仅供本机采集，不上传到 Pages。
+站点读取已提交的 `data/tools/`；`pipeline/.env` 仅供本机采集，不上传到 Pages。
+
+登录门需要在 Cloudflare Pages 项目 **Settings → Environment variables**（Production 与 Preview 都要）写入三个密钥，不要写进仓库：
+
+| 变量 | 用途 |
+|---|---|
+| `WALL_USERNAME` | 共享登录用户名 |
+| `WALL_PASSWORD` | 共享登录密码 |
+| `WALL_SESSION_SECRET` | 签名会话 cookie 的密钥（随机长字符串） |
+
+缺任一变量时，锁定页失败关闭（只显示登录页）；资讯与推特日报仍可未登录访问。建议把 Pages Functions 的 Fail open / closed 设为 **Fail closed**，避免函数额度耗尽时静态私有页被直接放出。
 
 构建完成后，先打开 Cloudflare 分配的 `*.pages.dev` 地址，确认收藏墙能显示卡片、封面和筛选。
 

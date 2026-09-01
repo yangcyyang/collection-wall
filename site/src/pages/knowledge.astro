@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import LogoutControl from "../components/LogoutControl.astro";
 import SiteNav from "../components/SiteNav.astro";
 import { getKnowledgeDays, TYPE_META, CONFIDENCE_LABEL, obsidianUrl } from "../lib/knowledge";
 import { formatDayLabel } from "../lib/twitter";
@@ -25,7 +26,10 @@ const typesPresent = [...new Set(days.flatMap((d) => d.items.map((i) => i.type))
           <h1>知识总结</h1>
           <p class="intro">最近入库的原子知识单元：技能、方法论、概念与方案，全部带来源溯源。</p>
         </div>
-        <p class="record-count">本期 {totalItems} 条 · 库存 {pool.toLocaleString()} 条</p>
+        <div class="header-stats">
+          <p class="record-count">本期 {totalItems} 条 · 库存 {pool.toLocaleString()} 条</p>
+          <LogoutControl />
+        </div>
       </header>
 
       <SiteNav current="knowledge" />

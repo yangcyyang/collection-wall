@@ -1,6 +1,7 @@
 ---
 import "../styles/global.css";
 import PromptViewer from "../components/PromptViewer.astro";
+import LogoutControl from "../components/LogoutControl.astro";
 import SiteNav from "../components/SiteNav.astro";
 import { formatPromptEyebrow, getPromptSets, imageCount } from "../lib/prompts";
 import { promptFacetFilters, promptFacets, promptTypeFilters, sourceLinkLabel } from "../lib/prompt-type.mjs";
@@ -28,7 +29,10 @@ const facetFilters = promptFacetFilters(sets);
           <h1>提示词</h1>
           <p class="intro">先刷图，点开同时看到大图和完整提示词。可用类型、标签和搜索收窄。</p>
         </div>
-        <p class="record-count" data-record-count data-total-sets={sets.length} data-total-images={totalImages}>{sets.length} 套 · {totalImages} 张图</p>
+        <div class="header-stats">
+          <p class="record-count" data-record-count data-total-sets={sets.length} data-total-images={totalImages}>{sets.length} 套 · {totalImages} 张图</p>
+          <LogoutControl />
+        </div>
       </header>
 
       <SiteNav current="prompts" />
