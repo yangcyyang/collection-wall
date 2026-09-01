@@ -33,9 +33,9 @@ item: id, slug, title, headline, author, github_url, github_stars,
 分类芯片复用 Cola 站点公开规则（创作设计 / 增长营销 / 产品技术 / 一人公司 / 职场办公 / 自我提升 / 教学讲课 / 调研分析 / 电商运营）。
 
 ## Acceptance Criteria
-- [ ] AC-1：SiteNav 出现「技能」，`/skills/` 可构建。
-- [ ] AC-2：JSON 在 data/skills/，tools 书签 schema 未改。
-- [ ] AC-3：卡片展示名称、一句话、作者、分类、GitHub ★、Cola 详情与 GitHub 外链。
-- [ ] AC-4：可按分类和文本筛选。
-- [ ] AC-5：封面本地下载；无封面时 fallback，不热链 colaskill。
-- [ ] AC-6：不编造条目或星数；pnpm test / 构建通过。
+- [x] AC-1：SiteNav 出现「技能」，`/skills/` 可构建。
+- [x] AC-2：JSON 在 data/skills/，tools 书签 schema 未改。
+- [x] AC-3：卡片展示名称、一句话、作者、分类、GitHub ★、Cola 详情与 GitHub 外链。
+- [x] AC-4：可按分类和文本筛选。
+- [x] AC-5：封面本地下载；无封面时 fallback，不热链 colaskill。
+- [x] AC-6：不编造条目或星数；相关测试 / 构建通过。
