@@ -1,0 +1,64 @@
+{
+  "id": "14f0417e-85f4-46c5-856a-9fa5603c920c",
+  "url": "https://nv-pu-sa.pages.dev/",
+  "name": "女菩萨",
+  "headline": "X 博主精选画廊，去重备份与智能推荐",
+  "intro": "女菩萨是一个 Cloudflare Pages 上的 X（Twitter）创作者画廊：把关注过的博主做成可检索的归档库，支持按热度、蓝标、粉丝量级、最新归档和「赛博坟场」筛选，并有今日精选 Spotlight 与随机探索。当前库约 332 位博主、蓝标约三成、最高粉丝约 430 万。数据需从管理后台同步 X 关注列表，适合当作高品质账号发现和备份入口，而不是再开一个社交网络。",
+  "category": "📦 资源集合",
+  "subcategory": "工具导航",
+  "tags": [
+    "X",
+    "Twitter",
+    "博主",
+    "画廊",
+    "归档",
+    "发现",
+    "蓝标",
+    "精选"
+  ],
+  "capabilities": [
+    "浏览已归档 X 博主",
+    "按粉丝和蓝标筛选",
+    "随机探索创作者",
+    "同步关注列表备份",
+    "打开原 X 主页"
+  ],
+  "scenarios": [
+    "想找高质量 X 创作者时",
+    "备份自己的 Twitter 关注列表时",
+    "按粉丝量级刷发现时",
+    "给今日精选换一位博主时"
+  ],
+  "search_keywords": [
+    "女菩萨",
+    "X 博主画廊",
+    "Twitter 创作者归档",
+    "nv-pu-sa",
+    "蓝标博主",
+    "赛博坟场",
+    "X 关注备份",
+    "博主发现"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [
+      "Twitter Lists",
+      "Listkit",
+      "Circleboom"
+    ],
+    "pairs_with": [
+      "X / Twitter"
+    ]
+  },
+  "tech_highlights": [
+    "Cloudflare Pages",
+    "X 关注列表同步"
+  ],
+  "cover": "covers/14f0417e-85f4-46c5-856a-9fa5603c920c.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-09-01T07:04:41",
+  "my_notes": "",
+  "capture_status": "ok"
+}
