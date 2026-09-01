@@ -2,6 +2,7 @@ node_modules/
 site/node_modules/
 site/dist/
 site/public/covers/
+site/public/skills/covers/
 .astro/
 .DS_Store
 .cat-cafe/

@@ -1,0 +1,155 @@
+---
+import "../styles/global.css";
+import SiteNav from "../components/SiteNav.astro";
+import { categoryFilters, formatGithubStars, getSkills, skillSearchBlob } from "../lib/skills";
+
+const skills = await getSkills();
+const filters = categoryFilters(skills);
+const authors = new Set(skills.map((item) => item.author).filter(Boolean)).size;
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="精选 SKILL.md 技能包，按分类浏览" />
+    <title>技能 · 工具库</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#skill-grid">跳到列表</a>
+    <div class="page-shell">
+      <header class="site-header">
+        <div>
+          <p class="eyebrow">Cola Skill 精选 · SKILL.md</p>
+          <h1>技能</h1>
+          <p class="intro">浏览可安装的 AI agent 技能包。星数来自 GitHub，不是 Cola 安装量。</p>
+        </div>
+        <p class="record-count" data-record-count data-total={skills.length}>
+          {skills.length} 个技能{authors ? ` · ${authors} 位作者` : ""}
+        </p>
+      </header>
+
+      <SiteNav current="skills" />
+
+      {skills.length === 0 ? (
+        <main id="skill-grid">
+          <section class="empty-state" aria-labelledby="empty-title">
+            <p class="empty-icon">✦</p>
+            <h2 id="empty-title">还没有技能</h2>
+            <p>把技能 JSON 放到 data/skills/ 后会出现在这里。可运行 <code>pnpm collect:skills</code> 从 Cola Skill 入库。</p>
+          </section>
+        </main>
+      ) : (
+        <>
+          <div class="prompt-toolbar">
+            <label class="prompt-search">
+              <span class="visually-hidden">搜索技能名称、作者或简介</span>
+              <input type="search" data-skill-search placeholder="搜索名称、作者或一句话价值" />
+            </label>
+          </div>
+          <div class="tag-filter-row" aria-label="按分类筛选">
+            <button class="tag-filter is-selected" type="button" data-category-filter="" aria-pressed="true">全部<em>{skills.length}</em></button>
+            {filters.map(({ category, count }) => (
+              <button class="tag-filter" type="button" data-category-filter={category} aria-pressed="false">{category}<em>{count}</em></button>
+            ))}
+          </div>
+          <p class="prompt-empty-filter" data-filter-empty hidden>没有符合筛选的技能 <button type="button" data-clear-filters>清除筛选</button></p>
+
+          <main id="skill-grid" class="tool-grid skill-grid" aria-label="技能卡片">
+            {skills.map((skill) => {
+              const stars = formatGithubStars(skill.github_stars);
+              const category = skill.categories?.[0] ?? "";
+              return (
+                <article
+                  class="tool-card"
+                  data-skill
+                  data-categories={(skill.categories ?? []).join(",")}
+                  data-search={skillSearchBlob(skill)}
+                >
+                  <a class="card-link" href={skill.detail_url || `https://colaskill.com/zh/${skill.slug}`} target="_blank" rel="noreferrer" aria-label={skill.title}></a>
+                  <div class="cover-wrap">
+                    {skill.cover ? (
+                      <img src={`/${skill.cover}`} alt="" loading="lazy" />
+                    ) : (
+                      <div class="cover-fallback" aria-hidden="true">✦</div>
+                    )}
+                  </div>
+                  <div class="card-content">
+                    <div class="card-meta">
+                      {category && <span class="category">{category}</span>}
+                      {stars && <span class="status common">GitHub ★ {stars}</span>}
+                    </div>
+                    <h3>{skill.title}</h3>
+                    <p title={skill.headline || ""}>{skill.headline || "尚待补充一句话价值"}</p>
+                    <div class="tag-list">
+                      {skill.author && <span>{skill.author}</span>}
+                      {(skill.categories ?? []).slice(1, 3).map((item) => <span>{item}</span>)}
+                      {skill.github_url && (
+                        <a class="skill-github" href={skill.github_url} target="_blank" rel="noreferrer">GitHub →</a>
+                      )}
+                    </div>
+                  </div>
+                </article>
+              );
+            })}
+          </main>
+        </>
+      )}
+    </div>
+    <footer class="site-footer">
+      <p>
+        <strong>数据来源说明</strong>：条目来自
+        <a href="https://colaskill.com/zh/" target="_blank" rel="noreferrer">Cola Skill</a>
+        公开目录，JSON 在 data/skills/。卡片上的 ★ 是 GitHub stars，不是安装量。
+      </p>
+    </footer>
+    <script>
+      const searchInput = document.querySelector("[data-skill-search]");
+      const categoryButtons = document.querySelectorAll("[data-category-filter]");
+      const cards = document.querySelectorAll("[data-skill]");
+      const countEl = document.querySelector("[data-record-count]");
+      const filterEmpty = document.querySelector("[data-filter-empty]");
+      let activeCategory = "";
+
+      function refresh() {
+        const query = (searchInput?.value ?? "").trim().toLowerCase();
+        const keys = query.split(/\s+/).filter(Boolean);
+        let visible = 0;
+        cards.forEach((card) => {
+          const categories = (card.getAttribute("data-categories") ?? "").split(",").filter(Boolean);
+          const search = card.getAttribute("data-search") ?? "";
+          const categoryOk = !activeCategory || categories.includes(activeCategory);
+          const searchOk = keys.length === 0 || keys.some((key) => search.includes(key));
+          const hide = !(categoryOk && searchOk);
+          card.hidden = hide;
+          if (!hide) visible += 1;
+        });
+        if (countEl) countEl.textContent = `${visible} 个技能`;
+        if (filterEmpty) filterEmpty.hidden = visible !== 0;
+      }
+
+      categoryButtons.forEach((button) => button.addEventListener("click", () => {
+        const next = button.getAttribute("data-category-filter") ?? "";
+        activeCategory = activeCategory === next ? "" : next;
+        categoryButtons.forEach((item) => {
+          const selected = (item.getAttribute("data-category-filter") ?? "") === activeCategory;
+          item.classList.toggle("is-selected", selected);
+          item.setAttribute("aria-pressed", selected ? "true" : "false");
+        });
+        refresh();
+      }));
+
+      searchInput?.addEventListener("input", refresh);
+      document.querySelector("[data-clear-filters]")?.addEventListener("click", () => {
+        activeCategory = "";
+        if (searchInput) searchInput.value = "";
+        categoryButtons.forEach((item) => {
+          const selected = (item.getAttribute("data-category-filter") ?? "") === "";
+          item.classList.toggle("is-selected", selected);
+          item.setAttribute("aria-pressed", selected ? "true" : "false");
+        });
+        refresh();
+      });
+    </script>
+  </body>
+</html>
