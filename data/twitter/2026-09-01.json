@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-01",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2094630927729348778",
+      "author": "lixinbao_X",
+      "bio": "",
+      "text": "4秒卖一台，这只399美元的鸭子，凭什么成了最火的机器人？\n\n机器人最近最离谱的爆款，居然不是人形机器人，也不是机器狗。\n\n而是一只只有25厘米高的“机器鸭”。\n\nHugging Face旗下Pollen Robotics刚推出Microduck，售价399美元。发布后迅速卖爆，有报道称24小时订单金额就超过260万美元，后续订单交付时间已经被拉长到4—6个月。\n\n它看起来像个玩具，里面却塞了15个电机、摄像头、小型激光雷达、两个IMU，还有麦克风和扬声器。\n\n会走路、会蹲、会踢东西，嘴巴还能当夹爪叼东西，摔倒后自己爬起来，甚至还能穿上轮滑鞋满地跑。\n\n出厂直接自带7套动作。\n\n但真正让开发者兴奋的，不是它有多聪明，而是：\n\n这只鸭子基本允许你自己重新“训练”。\n\nMicroduck的软件、SDK、仿真环境和强化学习工具都是开放的。用户可以先在MuJoCo模拟器里训练动作，再把训练好的策略部署到真实机器人身上。\n\n今天让它正常走路，明天就有人训练它跳舞、狂奔、做奇怪动作。\n\n这意味着399美元买到的，不只是一个电子宠物，而是一套普通开发者也玩得起的“实体AI实验平台”。\n\n这才是Microduck最值得注意的地方。\n\n以前搞强化学习机器人，门槛通常是实验室、昂贵硬件和专业团队。\n\n现在一台iPhone的价格，就能买一只可以自己训练、自己改代码、自己换策略的机器人回家。\n\n有点像当年的树莓派。\n\n树莓派真正改变行业的，也不是因为它本身性能多强，而是因为足够便宜，大量学生、极客和开发者都买得起，于是社区开始疯狂创造。\n\nMicroduck正在复制同样的路径。\n\n它甚至没有刻意把自己包装成“家庭助理”。\n\n不会替你洗衣服，也不会给你端茶倒水，它最大的生产力可能就是在客厅里摇摇晃晃走两圈，然后摔倒再自己爬起来。\n\n但偏偏这种“小、便宜、可爱、能折腾”，反而比很多售价几万美元、天天表演后空翻的机器人更容易进入普通人的家里。\n\n人形机器人还在讨论什么时候走进家庭，\n\n399美元的机器鸭，已经有人排队等到明年了。\n\n机器人真正的“iPhone时刻”什么时候来还不好说，\n\n但它的“树莓派时刻”，可能已经开始了。",
+      "created_at": "Tue Sep 01 03:38:24 +0000 2026",
+      "likes": 0,
+      "views": "104",
+      "url": "https://x.com/i/status/2094630927729348778",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/tweet_video/HRGftXkacAAGekH.mp4",
+        "https://video.twimg.com/tweet_video/HRGftW9aMAEDahD.mp4",
+        "https://video.twimg.com/tweet_video/HRGftW7aEAAQSxK.mp4"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/tweet_video_thumb/HRGftXkacAAGekH.jpg",
+        "https://pbs.twimg.com/tweet_video_thumb/HRGftW9aMAEDahD.jpg",
+        "https://pbs.twimg.com/tweet_video_thumb/HRGftW7aEAAQSxK.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 35.722,
+      "title": "399 美元机器鸭 Microduck：机器人的树莓派时刻？",
+      "summary": "Hugging Face 旗下 Pollen Robotics 推出 25 厘米高的 Microduck，售价 399 美元，报道称 24 小时订单超 260 万美元、交付已排到 4–6 个月。硬件有 15 个电机、相机、小型激光雷达和 IMU，嘴能当夹爪；真正卖点是软件、SDK、仿真和强化学习全开放，可在 MuJoCo 训练再部署到真机。作者把它类比树莓派：便宜到学生和极客买得起，社区才会爆炸。",
+      "recommend_reason": "把爆款玩具机器人讲成「开放 RL 实验平台」，对具身智能的消费级入口判断很清楚。",
+      "tags": [
+        "具身智能",
+        "Hugging Face",
+        "强化学习",
+        "开源"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2094630914580197518",
+      "author": "taiyo_ai_gakuse",
+      "bio": "",
+      "text": "JinbaflowにZennやX、YouTubeの技術ナレッジを貯めて、開発時にCodexから呼び出せるようにしたらトークン効率も検索体験もかなり良くなったので記事にした。",
+      "created_at": "Tue Sep 01 03:38:21 +0000 2026",
+      "likes": 1,
+      "views": "377",
+      "url": "https://x.com/i/status/2094630914580197518",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2094629797989318807",
+        "author": "taiyo_ai_gakuse",
+        "name": "Taiyo Kimura",
+        "text": "https://t.co/b7p4Lg5JBJ",
+        "created_at": "Tue Sep 01 03:33:54 +0000 2026",
+        "url": "https://x.com/taiyo_ai_gakuse/status/2094629797989318807",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 49.601,
+      "title": null,
+      "summary": "把 Zenn、X、YouTube 的技术知识存进 Jinbaflow，开发时从 Codex 调用之后，token 效率和搜索体验都好了不少，所以写成了文章。",
+      "recommend_reason": "把公开技术内容存进知识库再给 Codex 调，是很具体的「降 token + 好检索」做法。",
+      "tags": [
+        "Codex",
+        "Token",
+        "知识库"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2094623245576335623",
+      "author": "vista8",
+      "bio": "",
+      "text": "推荐三个 Obsidian 插件，发现很实用：\n\n1. Copilot：给Obsidian加一个 AI Agent，支持调用本机Codex、CC等跟笔记对话，也支持 BYOK。\n\n开发者应该也在 X 上，越做越好，快成必装插件了。\n\n2. TaskNotes：利用Obsidian原生Base文件，搭建一整套任务和看板系统，还能同步谷歌日历、创建番茄钟等时间管理工具。\n\n3. Flexplorer：更好的文件夹排序管理，支持隐藏文件夹，让仓库看起来更清爽。\n\n现在 Obsidian 有Cli，很适合给AI读取当本地知识库和记忆系统。",
+      "created_at": "Tue Sep 01 03:07:52 +0000 2026",
+      "likes": 16,
+      "views": "1926",
+      "url": "https://x.com/i/status/2094623245576335623",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRGWqf5b0AAoDgH.jpg",
+        "https://pbs.twimg.com/media/HRGXIuHaYAA99PK.jpg",
+        "https://pbs.twimg.com/media/HRGYYc4bwAASdV-.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRGWqf5b0AAoDgH.jpg",
+        "https://pbs.twimg.com/media/HRGXIuHaYAA99PK.jpg",
+        "https://pbs.twimg.com/media/HRGYYc4bwAASdV-.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 62.56,
+      "title": "三个 Obsidian 插件：Copilot、TaskNotes、Flexplorer",
+      "summary": "推荐三个实用 Obsidian 插件：Copilot 给笔记加 AI Agent，可调本机 Codex、Claude Code，也支持 BYOK；TaskNotes 用原生 Base 做任务看板，还能同步谷歌日历和番茄钟；Flexplorer 改善文件夹排序和隐藏。作者还提到现在 Obsidian 有 CLI，适合当本地知识库给 AI 读。",
+      "recommend_reason": "本地笔记接 Agent 的具体插件组合，尤其 Copilot 接本机 Codex/CC，对把 Obsidian 当记忆层的人有用。",
+      "tags": [
+        "Obsidian",
+        "Agent",
+        "Codex",
+        "工具"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2094622935176888395",
+      "author": "GoSailGlobal",
+      "bio": "",
+      "text": "总结了一下我用的模型：\n\n- 日常主力：Opus 5 Low\n- 规划：Fable 5 High\n- 写代码：GPT-5.6 Sol High\n- 调研：Fable 5 High\n- 图像/视频理解(vision)：Gemini 3.7 Flash\n- 文案：Opus 4.6 、Gemini 3.7 Flash\n- 设计：Kimi K3 和 Fable 5 Low\n- 配音：ElevenLabs v3 、Minimax\n- 图像生成：GPT Images 2\n- 视频生成Seedance 2.5 和 Minimax H3",
+      "created_at": "Tue Sep 01 03:06:38 +0000 2026",
+      "likes": 8,
+      "views": "938",
+      "url": "https://x.com/i/status/2094622935176888395",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2094425738778964465",
+        "author": "EXM7777",
+        "name": "Machina",
+        "text": "here's every AI tool i use... and how they all fit together\n\nthe models:\n\n- daily driver: GPT-5.6 Sol Low\n- planning: Fable High\n- coding: GPT-5.6 Sol High\n- research: Opus 5 High\n- image and video vision: Gemini 3.7 Flash\n- design: Kimi K3 and Fable Low\n- voices: ElevenLabs v3\n- images: GPT Images 2\n- video: Seedance 2.5 and Minimax H3\n\nClaude and ChatGPT models run inside their own harnesses on max and pro subs, everything else goes through the API\n\n- research: Parallel, Perplexity, Firecrawl, /last30days and Apify\n- seo: Ahrefs, DataForSEO, Screaming Frog, Google Search Console and Porkbun\n- emails: SmartLead and Zapmail\n- analytics: Google Analytics and Posthog\n- the rest of the stack: Browser Use, Typefully, Kit, Supabase and Vercel\n\nhow it runs together:\n\nHermes or Orca as orchestrators... they spawn new worktrees and Claude Code or Codex sessions inside them\n\nplanning loop: Fable writes the initial plan with /grill-me from Matt, then GPT-5.6 Sol workers roast that plan until it holds up\n\nknowledge lives in Obsidian, memory across every agent and platform goes through mem0\n\nall of it runs on a Hetzner AX42-1 box with proper backups and security",
+        "created_at": "Mon Aug 31 14:03:03 +0000 2026",
+        "url": "https://x.com/EXM7777/status/2094425738778964465",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 56.239,
+      "title": "一套日常模型分工：Opus 写、Fable 规划、Sol 写代码",
+      "summary": "作者对照别人的工具栈，给出自己的模型分工：日常主力 Opus 5 Low，规划和调研用 Fable 5 High，写代码 GPT-5.6 Sol High，视觉 Gemini 3.7 Flash，文案 Opus 4.6 / Gemini 3.7 Flash，设计 Kimi K3 和 Fable 5 Low，配音 ElevenLabs v3 / Minimax，图 GPT Images 2，视频 Seedance 2.5 / Minimax H3。",
+      "recommend_reason": "一线用法的模型分工表，能对照自己现在用啥、缺哪一层。",
+      "tags": [
+        "Fable 5",
+        "GPT-5.6 Sol",
+        "工具",
+        "体验"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2094622841304211750",
+      "author": "JulianGoldieSEO",
+      "bio": "",
+      "text": "7 new things Google Stitch can help with:\n\n→ Real-time design streaming.\n\n→ Mid-design steering.\n\n→ Voice-controlled design.\n\n→ Design interviews.\n\n→ Multiple UI directions.\n\n→ AI Studio handoff.\n\n→ Antigravity production export.\n\nThis is not just prompt-to-interface anymore.\n\nIt is a design partner that helps you think through the product before you build it.\n\nSave this post, you'll remember the new Google Stitch update.\n\nFull Guide is available inside the AI Profit Boardroom. DM me for the link. 💬",
+      "created_at": "Tue Sep 01 03:06:16 +0000 2026",
+      "likes": 1,
+      "views": "1144",
+      "url": "https://x.com/i/status/2094622841304211750",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2094622546536894464/vid/avc1/480x270/TjftcCAfBitus7bY.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2094622546536894464/img/nfhhLi1lyBYsYJee.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 56.301,
+      "title": "Google Stitch 新增实时改稿、语音设计和多方案",
+      "summary": "Google Stitch 不再只是 prompt 出界面：支持实时设计流、中途转向、语音控制、设计访谈、一次出多套 UI、交给 AI Studio，以及导出到 Antigravity 生产。文末有 DM 引流，核心是 Stitch 在往「设计搭档」走，而不只是出一张稿。",
+      "recommend_reason": "功能清单把 Stitch 从「prompt 出界面」说成可中途转向、语音和多方案的设计搭档（忽略引流即可）。",
+      "tags": [
+        "Google Stitch",
+        "UI",
+        "Google AI Studio",
+        "产品"
+      ],
+      "rank": 5
+    }
+  ],
+  "generated_at": "2026-09-01T04:09:59Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 5,
+    "last_batch_added": 5,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
