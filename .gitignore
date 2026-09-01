@@ -1,6 +1,7 @@
 node_modules/
 site/node_modules/
 site/dist/
+.wrangler/
 site/public/covers/
 site/public/skills/covers/
 .astro/
