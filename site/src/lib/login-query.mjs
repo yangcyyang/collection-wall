@@ -4,6 +4,8 @@ export function loginQueryState(search) {
   return {
     next: safeReturnPath(params.get("next")),
     error: params.get("error") === "1",
+    sent: params.get("sent") === "1",
+    resetExpired: params.get("reset") === "expired",
   };
 }
 

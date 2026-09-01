@@ -1,5 +1,11 @@
 export const COOKIE_NAME = "wall_session";
 const SESSION_TTL_MS = 14 * 24 * 60 * 60 * 1000;
+const RESET_TTL_MS = 15 * 60 * 1000;
+const FORGOT_WINDOW_MS = 10 * 60 * 1000;
+const FORGOT_MAX_ATTEMPTS = 8;
+const forgotHits = new Map();
+const RESEND_ENDPOINT = "https://api.resend.com/emails";
+const DEFAULT_RESEND_FROM = "onboarding@resend.dev";
 
 const PUBLIC_EXACT = new Set(["/news", "/twitter", "/login", "/favicon.ico", "/favicon.svg", "/robots.txt"]);
 
@@ -30,6 +36,14 @@ export async function handleWallRequest(context) {
 
   if (isAuthPath(path, "/logout") && request.method === "POST") {
     return redirectWithCookie(new URL("/login/", url).toString(), clearCookie());
+  }
+
+  if (isAuthPath(path, "/login/forgot") && request.method === "POST") {
+    return handleForgot(request, env, url, context.waitUntil);
+  }
+
+  if (isAuthPath(path, "/login/reset") && request.method === "GET") {
+    return handleReset(request, env, url);
   }
 
   if (isAuthPath(path, "/login") && request.method === "POST") {
@@ -75,6 +89,131 @@ async function handleLogin(request, env, url) {
   return redirectWithCookie(new URL(next, url).toString(), cookie);
 }
 
+async function handleForgot(request, env, url, waitUntil) {
+  let form;
+  try {
+    form = await request.formData();
+  } catch {
+    return Response.redirect(new URL("/login/?sent=1", url).toString(), 302);
+  }
+  const next = safeReturnPath(String(form.get("next") ?? "/"));
+  const email = normalizeEmail(form.get("email"));
+  const expected = normalizeEmail(env?.WALL_RECOVERY_EMAIL);
+  const matched = expected.length > 0 && await timingSafeEqualString(email, expected);
+  const limited = isForgotRateLimited(request);
+  const sendWork = sendForgotMailIfAllowed({ env, url, expected, next, matched, limited });
+  if (typeof waitUntil === "function") waitUntil(sendWork);
+  else await sendWork;
+
+  const login = new URL("/login/", url);
+  login.searchParams.set("sent", "1");
+  if (next !== "/") login.searchParams.set("next", next);
+  return Response.redirect(login.toString(), 302);
+}
+
+async function sendForgotMailIfAllowed({ env, url, expected, next, matched, limited }) {
+  if (!matched || limited) return;
+  if (!env?.RESEND_API_KEY || !env?.WALL_SESSION_SECRET || !env?.WALL_USERNAME) {
+    console.error("wall-auth: forgot-password skipped, RESEND_API_KEY or session secrets missing");
+    return;
+  }
+  try {
+    const token = await createResetToken(env.WALL_SESSION_SECRET);
+    const reset = new URL("/login/reset/", url);
+    reset.searchParams.set("token", token);
+    if (next !== "/") reset.searchParams.set("next", next);
+    await sendResendLoginLink(env, expected, reset.toString());
+  } catch (error) {
+    console.error("wall-auth: forgot-password send failed", error);
+  }
+}
+
+async function handleReset(request, env, url) {
+  const token = url.searchParams.get("token") ?? "";
+  const next = safeReturnPath(url.searchParams.get("next") ?? "/");
+  const noStore = { "Cache-Control": "no-store", "Referrer-Policy": "no-referrer" };
+  if (!hasSecrets(env) || !await verifyResetToken(token, env.WALL_SESSION_SECRET)) {
+    return new Response(null, {
+      status: 302,
+      headers: {
+        Location: new URL("/login/?error=1&reset=expired", url).toString(),
+        ...noStore,
+      },
+    });
+  }
+  const cookie = await sessionCookie(env.WALL_USERNAME, env.WALL_SESSION_SECRET);
+  return redirectWithCookie(new URL(next, url).toString(), cookie, noStore);
+}
+
+async function createResetToken(secret, expiresAt = Date.now() + RESET_TTL_MS) {
+  const payloadB64 = base64urlEncode(JSON.stringify({ typ: "reset", e: expiresAt }));
+  const signature = await hmacSign(secret, payloadB64);
+  return `${payloadB64}.${signature}`;
+}
+
+async function verifyResetToken(token, secret) {
+  const sep = token.lastIndexOf(".");
+  if (sep <= 0) return false;
+  const payloadB64 = token.slice(0, sep);
+  const signature = token.slice(sep + 1);
+  const expected = await hmacSign(secret, payloadB64);
+  if (!await timingSafeEqualString(signature, expected)) return false;
+
+  let payload;
+  try {
+    payload = JSON.parse(new TextDecoder().decode(base64urlDecode(payloadB64)));
+  } catch {
+    return false;
+  }
+  return payload.typ === "reset" && typeof payload.e === "number" && payload.e >= Date.now();
+}
+
+async function sendResendLoginLink(env, to, resetUrl) {
+  const from = String(env.RESEND_FROM || DEFAULT_RESEND_FROM);
+  const subject = "收藏墙登录链接（15 分钟内有效）";
+  const text = [
+    "请在 15 分钟内打开下面的链接登录收藏墙。",
+    "此邮件不会发送密码，也不会修改密码。",
+    "",
+    resetUrl,
+    "",
+    "如果不是你本人操作，请忽略这封邮件。",
+  ].join("\n");
+  const safeHref = resetUrl.replaceAll("&", "&amp;").replaceAll('"', "&quot;");
+  const html = `<p>请在 15 分钟内打开下面的链接登录收藏墙。</p><p>此邮件不会发送密码，也不会修改密码。</p><p><a href="${safeHref}">打开登录链接</a></p><p>如果不是你本人操作，请忽略这封邮件。</p>`;
+
+  const response = await fetch(RESEND_ENDPOINT, {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${env.RESEND_API_KEY}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ from, to: [to], subject, html, text }),
+    signal: AbortSignal.timeout(8000),
+  });
+  if (!response.ok) {
+    throw new Error(`resend ${response.status}`);
+  }
+}
+
+function normalizeEmail(value) {
+  return String(value ?? "").trim().toLowerCase();
+}
+
+function isForgotRateLimited(request) {
+  const ip = request.headers.get("CF-Connecting-IP")
+    || request.headers.get("X-Forwarded-For")
+    || "local";
+  const now = Date.now();
+  const entry = forgotHits.get(ip);
+  if (!entry || entry.resetAt <= now) {
+    forgotHits.set(ip, { count: 1, resetAt: now + FORGOT_WINDOW_MS });
+    return false;
+  }
+  entry.count += 1;
+  return entry.count > FORGOT_MAX_ATTEMPTS;
+}
+
 async function readSession(request, env) {
   if (!hasSecrets(env)) return null;
   const raw = readCookie(request, COOKIE_NAME);
@@ -107,12 +246,13 @@ function clearCookie() {
   return `${COOKIE_NAME}=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0`;
 }
 
-function redirectWithCookie(location, cookie) {
+function redirectWithCookie(location, cookie, extra = {}) {
   return new Response(null, {
     status: 302,
     headers: {
       Location: location,
       "Set-Cookie": cookie,
+      ...extra,
     },
   });
 }

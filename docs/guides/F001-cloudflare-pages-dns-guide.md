@@ -37,15 +37,25 @@ Cloudflare Pages 支持连接私有 GitHub 仓库；后续每次推送到生产�
 
 站点读取已提交的 `data/tools/`；`pipeline/.env` 仅供本机采集，不上传到 Pages。
 
-登录门需要在 Cloudflare Pages 项目 **Settings → Environment variables**（Production 与 Preview 都要）写入三个密钥，不要写进仓库：
+登录门需要在 Cloudflare Pages 项目 **Settings → Environment variables**（Production 与 Preview 都要）写入密钥，不要写进仓库。
+
+登录必填（缺任一则锁定页失败关闭，只显示登录页；资讯与推特日报仍可未登录访问）：
 
 | 变量 | 用途 |
 |---|---|
 | `WALL_USERNAME` | 共享登录用户名 |
 | `WALL_PASSWORD` | 共享登录密码 |
-| `WALL_SESSION_SECRET` | 签名会话 cookie 的密钥（随机长字符串） |
+| `WALL_SESSION_SECRET` | 签名会话 cookie 与 15 分钟登录链接的密钥（随机长字符串） |
 
-缺任一变量时，锁定页失败关闭（只显示登录页）；资讯与推特日报仍可未登录访问。建议把 Pages Functions 的 Fail open / closed 设为 **Fail closed**，避免函数额度耗尽时静态私有页被直接放出。
+忘记密码可选（未配置时申请链接仍显示通用成功，但不发信）：
+
+| 变量 | 用途 |
+|---|---|
+| `WALL_RECOVERY_EMAIL` | 允许接收魔法登录链接的邮箱。在 Cloudflare 配置，不要写进仓库。示例：`928590029cy@gmail.com` |
+| `RESEND_API_KEY` | Resend HTTP API 密钥 |
+| `RESEND_FROM` | 可选。默认 `onboarding@resend.dev` 只能寄到 Resend 账号本人；用上述 Gmail 注册 Resend 后，免费测试发件人即可寄到该邮箱 |
+
+建议把 Pages Functions 的 Fail open / closed 设为 **Fail closed**，避免函数额度耗尽时静态私有页被直接放出。
 
 构建完成后，先打开 Cloudflare 分配的 `*.pages.dev` 地址，确认收藏墙能显示卡片、封面和筛选。
 
