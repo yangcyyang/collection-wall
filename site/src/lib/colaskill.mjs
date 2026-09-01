@@ -4,6 +4,8 @@ export const COLASKILL_HOME = "https://colaskill.com/zh/";
 export const COLASKILL_API = "https://api.colaos.ai/v1/skill-directory/skills";
 export const COLASKILL_USER_AGENT = "Mozilla/5.0 (compatible; collection-wall-skills/1.0; +https://wall.yangcyyang.cn/)";
 
+export const PROJECT_CHIP = "project";
+
 export const MARKETPLACE_CATEGORIES = [
   { id: "creative_design", zh: "创作设计" },
   { id: "growth_marketing", zh: "增长营销" },
@@ -61,29 +63,51 @@ function stringList(values) {
   return [...new Set((values ?? []).map((item) => text(item)).filter(Boolean))];
 }
 
+function englishTitle(raw) {
+  return text(raw?.i18n?.["en-US"]?.title) || text(raw?.title_en);
+}
+
 export function mapApiSkill(raw = {}) {
   const slug = text(raw.slug);
   if (!slug) return null;
-  const stars = parseGithubStars(raw.stars);
+  const stars = parseGithubStars(raw.stars ?? raw.github_stars);
   const sourceUrl = text(raw.source_url) || text(raw.homepage_url);
+  const titleZh = text(raw.title_zh) || text(raw.title) || text(raw.name) || slug;
+  const preview = text(raw.preview_image_url) || text(raw.cover_source);
+  const previews = stringList([...(raw.preview_image_urls ?? []), preview]);
+  const listingKind = text(raw.listing_kind) || "skill";
+  const chips = marketplaceCategories({
+    categories: raw.category_keys ?? raw.categories ?? [],
+    tasks: raw.task_tags ?? raw.tasks ?? [],
+    audiences: raw.user_tags ?? raw.audiences ?? [],
+  });
+  if (listingKind === "project" && !chips.includes(PROJECT_CHIP)) chips.push(PROJECT_CHIP);
+  const categoryKeys = stringList(raw.category_keys ?? raw.categories).filter((key) => !MARKETPLACE_CATEGORIES.some((item) => item.zh === key) && key !== PROJECT_CHIP);
   return {
     id: slug,
     slug,
-    title: text(raw.title) || text(raw.name) || slug,
-    headline: text(raw.result_teaser) || text(raw.description),
+    title: titleZh,
+    title_zh: titleZh,
+    title_en: englishTitle(raw),
+    headline: text(raw.headline) || text(raw.result_teaser) || text(raw.description),
+    description: text(raw.description),
     author: text(raw.author),
-    github_url: githubUrlFrom(sourceUrl),
+    github_url: githubUrlFrom(sourceUrl) || githubUrlFrom(raw.github_url),
+    stars,
     github_stars: stars,
-    categories: marketplaceCategories({
-      categories: raw.categories ?? [],
-      tasks: raw.task_tags ?? raw.tasks ?? [],
-      audiences: raw.user_tags ?? raw.audiences ?? [],
-    }),
-    license: text(raw.license_type) || "unknown",
-    detail_url: `${COLASKILL_HOME}${slug}`,
+    category_keys: categoryKeys,
+    categories: chips,
+    tags: stringList([...(raw.tags ?? []), ...(raw.user_tags ?? []), ...(raw.task_tags ?? [])]),
+    license: text(raw.license) || text(raw.license_type) || "unknown",
+    source_url: sourceUrl,
+    detail_url: `${COLASKILL_HOME}${slug}/`,
     cover: text(raw.cover),
-    cover_source: text(raw.preview_image_url) || text(raw.cover_source),
+    cover_source: preview,
+    preview_image_urls: previews,
     example_prompts: stringList(raw.guide_prompts ?? raw.example_prompts).slice(0, 8),
+    certification: text(raw.certification),
+    listing_kind: listingKind,
+    is_installable: raw.is_installable === true,
     install_url: `colaos://skills/install?slug=${encodeURIComponent(slug)}`,
     featured: raw.featured === true || raw.homepage_section === "featured",
   };
@@ -93,7 +117,7 @@ function sortSkills(items) {
   return [...items].sort((left, right) => {
     const featured = Number(Boolean(right.featured)) - Number(Boolean(left.featured));
     if (featured !== 0) return featured;
-    const stars = (right.github_stars ?? -1) - (left.github_stars ?? -1);
+    const stars = (right.stars ?? right.github_stars ?? -1) - (left.stars ?? left.github_stars ?? -1);
     if (stars !== 0) return stars;
     return (left.title ?? "").localeCompare(right.title ?? "", "zh-CN");
   });

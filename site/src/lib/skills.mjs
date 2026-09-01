@@ -1,7 +1,7 @@
 import { readdir, readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
-import { MARKETPLACE_CATEGORIES } from "./colaskill.mjs";
+import { MARKETPLACE_CATEGORIES, PROJECT_CHIP } from "./colaskill.mjs";
 
 const skillsDirectory = resolve(process.cwd(), "../data/skills");
 
@@ -62,8 +62,23 @@ export function formatGithubStars(value) {
   return String(value);
 }
 
+export function skillStars(skill) {
+  return skill?.stars ?? skill?.github_stars;
+}
+
 export function skillSearchBlob(skill) {
-  return [skill?.title, skill?.headline, skill?.author, skill?.slug, ...(skill?.categories ?? [])]
+  return [
+    skill?.title,
+    skill?.title_zh,
+    skill?.title_en,
+    skill?.headline,
+    skill?.description,
+    skill?.author,
+    skill?.slug,
+    skill?.listing_kind,
+    ...(skill?.categories ?? []),
+    ...(skill?.tags ?? []),
+  ]
     .filter(Boolean)
     .join(" ")
     .toLowerCase();
@@ -84,9 +99,13 @@ export function categoryFilters(skills) {
       counts.set(category, (counts.get(category) ?? 0) + 1);
     }
   }
-  return MARKETPLACE_CATEGORIES
+  const marketplace = MARKETPLACE_CATEGORIES
     .map(({ zh }) => ({ category: zh, count: counts.get(zh) ?? 0 }))
     .filter((item) => item.count > 0);
+  const projects = skills.filter((skill) => skill.listing_kind === "project" || (skill.categories ?? []).includes(PROJECT_CHIP)).length;
+  return projects > 0
+    ? [...marketplace, { category: PROJECT_CHIP, count: projects }]
+    : marketplace;
 }
 
 export { MARKETPLACE_CATEGORIES };

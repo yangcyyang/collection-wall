@@ -9,7 +9,7 @@ created: 2026-09-01
 # F006 点亮「技能」Tab
 
 > Status: in-progress | Owner: Cloud Agent
-> 数据来源：Cola Skill 公开目录（https://colaskill.com/zh/），JSON 为唯一真源。
+> 数据来源：Cola Skill 公开目录 API（125 listing，2026-09-01），JSON 为唯一真源。含 7 条 listing_kind=project。
 
 ## Why
 收藏墙已有提示词 / 雷达，缺一块浏览 SKILL.md 技能包的入口。Cola Skill 是 MarsWave/ColaOS 的精选市场，适合作为第一批种子。

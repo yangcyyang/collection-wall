@@ -88,16 +88,17 @@ test("分类与搜索取交集，空分类不过滤", () => {
   assert.equal(matchesSkill(skill, "", ""), true);
 });
 
-test("categoryFilters 按站点分类顺序，只露出有卡片的类", () => {
+test("categoryFilters 按站点分类顺序，只露出有卡片的类，project 另计", () => {
   const skills = [
     { categories: ["创作设计", "增长营销"] },
     { categories: ["创作设计"] },
-    { categories: ["产品技术"] },
+    { categories: ["产品技术", "project"], listing_kind: "project" },
   ];
   assert.deepEqual(categoryFilters(skills), [
     { category: "创作设计", count: 2 },
     { category: "增长营销", count: 1 },
     { category: "产品技术", count: 1 },
+    { category: "project", count: 1 },
   ]);
 });
 
@@ -128,8 +129,17 @@ test("data/skills 契约：有 slug/title，星数为整数，不含安装量", 
   for (const item of items) {
     assert.ok(item.id && item.slug && item.title, `${item.id} missing identity`);
     assert.equal("download_count" in item, false, `${item.id} leaked download_count`);
-    assert.ok(Number.isInteger(item.github_stars) && item.github_stars >= 0, `${item.id} stars`);
+    const stars = item.stars ?? item.github_stars;
+    assert.ok(Number.isInteger(stars) && stars >= 0, `${item.id} stars`);
     assert.match(item.detail_url ?? "", /colaskill\.com/);
+    assert.ok(item.listing_kind, `${item.id} missing listing_kind`);
+    assert.equal(typeof item.is_installable, "boolean", `${item.id} is_installable`);
+  }
+  if (items.length) {
+    assert.equal(items.length, 125);
+    assert.equal(items.filter((item) => item.listing_kind === "project").length, 7);
+    assert.equal(items.filter((item) => item.is_installable === true).length, 118);
+    assert.ok(items.some((item) => item.listing_kind === "project" && item.categories?.includes("project")));
   }
 });
 

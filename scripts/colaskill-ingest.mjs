@@ -6,7 +6,7 @@
  *   node scripts/colaskill-ingest.mjs
  *   node scripts/colaskill-ingest.mjs --from dump.json --out data/skills/colaskill.json
  */
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { access, mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, extname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -47,10 +47,17 @@ async function readDump(file) {
 }
 
 async function downloadCover(item, coversDir, fetchFn) {
-  const source = downloadUrl(item.cover_source);
-  if (!source || !item.slug) return item;
-  const name = coverName(item.slug, item.cover_source);
+  const source = downloadUrl(item.cover_source || item.preview_image_urls?.[0]);
+  if (!item.slug) return item;
+  const name = coverName(item.slug, item.cover_source || item.preview_image_urls?.[0] || ".png");
   const target = resolve(coversDir, name);
+  try {
+    await access(target);
+    return { ...item, cover: item.cover || `skills/covers/${name}` };
+  } catch {
+    /* download below */
+  }
+  if (!source) return item;
   try {
     const response = await fetchFn(source, { headers: { "User-Agent": "collection-wall-skills/1.0" } });
     if (!response.ok) return item;

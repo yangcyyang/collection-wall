@@ -31,6 +31,32 @@ const SAMPLE = {
   download_count: 935,
   featured: true,
   homepage_section: "featured",
+  listing_kind: "skill",
+  is_installable: true,
+  certification: "verified",
+  i18n: {
+    "en-US": { title: "Monocolor Editorial Print Image Design Skill" },
+  },
+};
+
+const PROJECT_SAMPLE = {
+  slug: "mediacrawler",
+  title: "MediaCrawler 多平台自媒体公开数据爬虫工具",
+  author: "NanmiCoder",
+  description: "开源多平台公开数据采集工具",
+  result_teaser: "输出结构化公开内容",
+  source_url: "https://github.com/NanmiCoder/MediaCrawler",
+  preview_image_url: "https://files.meetcola.com/skill-hub/previews/mediacrawler/cover.webp",
+  categories: ["engineering"],
+  user_tags: ["developer"],
+  task_tags: ["data_analysis"],
+  stars: 62362,
+  download_count: 12,
+  listing_kind: "project",
+  is_installable: false,
+  license_type: "unknown",
+  certification: "verified",
+  i18n: { "en-US": { title: "MediaCrawler" } },
 };
 
 test("marketplaceCategories 复用 Cola 站点公开分类规则，不猜类", () => {
@@ -89,11 +115,34 @@ test("mapApiSkill 用 GitHub stars，绝不把 download_count 当星数", () => 
   assert.equal("download_count" in item, false);
   assert.deepEqual(item.categories, ["创作设计"]);
   assert.equal(item.license, "mit");
-  assert.equal(item.detail_url, `${COLASKILL_HOME}mono-color-skill`);
+  assert.equal(item.detail_url, `${COLASKILL_HOME}mono-color-skill/`);
   assert.equal(item.install_url, "colaos://skills/install?slug=mono-color-skill");
   assert.deepEqual(item.example_prompts, ["帮我生成一张钴蓝海报", "生成沙丁鱼包装"]);
   assert.equal(item.cover_source, SAMPLE.preview_image_url);
   assert.equal(item.featured, true);
+  assert.equal(item.title_zh, "单色编辑印刷图像设计技能");
+  assert.equal(item.title_en, "Monocolor Editorial Print Image Design Skill");
+  assert.equal(item.description, "生成单/双色社论印刷风格原创图像");
+  assert.equal(item.stars, 926);
+  assert.equal(item.stars, item.github_stars);
+  assert.deepEqual(item.tags, ["designer", "image_design"]);
+  assert.equal(item.source_url, "https://github.com/yanliudesign/mono-color-skill");
+  assert.deepEqual(item.preview_image_urls, [SAMPLE.preview_image_url]);
+  assert.equal(item.certification, "verified");
+  assert.equal(item.listing_kind, "skill");
+  assert.equal(item.is_installable, true);
+  assert.deepEqual(item.category_keys, ["design_video"]);
+});
+
+test("project listing 保留入库，不因 is_installable=false 丢弃，并打 project chip", () => {
+  const item = mapApiSkill(PROJECT_SAMPLE);
+  assert.equal(item.slug, "mediacrawler");
+  assert.equal(item.listing_kind, "project");
+  assert.equal(item.is_installable, false);
+  assert.equal(item.stars, 62362);
+  assert.notEqual(item.stars, PROJECT_SAMPLE.download_count);
+  assert.ok(item.categories.includes("产品技术"));
+  assert.ok(item.categories.includes("project"));
 });
 
 test("没有 slug 的记录丢弃；非 GitHub 源不编造 github_url", () => {
@@ -150,7 +199,17 @@ test("collectColaskill 跟随 next_cursor 拉完目录，不设条数上限", as
   assert.ok(feed.items.some((item) => item.id === "p2-10"));
   assert.equal(urls.length, 2);
   assert.match(urls[0], /\/v1\/skill-directory\/skills\?/);
-  assert.equal(feed.items.every((item) => item.github_stars !== 935), true);
+  assert.match(urls[0], /sort=featured/);
+  assert.equal(feed.items.every((item) => item.stars !== 935), true);
+  const withProject = await collectColaskill({
+    fetchFn: async () => ({
+      ok: true,
+      json: async () => ({ ok: true, data: { items: [SAMPLE, PROJECT_SAMPLE], next_cursor: null } }),
+    }),
+    now: new Date("2026-09-01T03:38:00Z"),
+  });
+  assert.equal(withProject.count, 2);
+  assert.equal(withProject.items.find((item) => item.slug === "mediacrawler")?.listing_kind, "project");
 });
 
 test("buildSkillFeed 按 id 去重，featured 优先再按星数", () => {

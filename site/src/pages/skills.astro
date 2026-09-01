@@ -1,7 +1,7 @@
 ---
 import "../styles/global.css";
 import SiteNav from "../components/SiteNav.astro";
-import { categoryFilters, formatGithubStars, getSkills, skillSearchBlob } from "../lib/skills";
+import { categoryFilters, formatGithubStars, getSkills, skillSearchBlob, skillStars } from "../lib/skills";
 
 const skills = await getSkills();
 const filters = categoryFilters(skills);
@@ -22,7 +22,7 @@ const authors = new Set(skills.map((item) => item.author).filter(Boolean)).size;
         <div>
           <p class="eyebrow">Cola Skill 精选 · SKILL.md</p>
           <h1>技能</h1>
-          <p class="intro">浏览可安装的 AI agent 技能包。星数来自 GitHub，不是 Cola 安装量。</p>
+          <p class="intro">浏览 Cola Skill 全部公开 listing（含 skill / collection / project）。星数来自 GitHub，不是 Cola 安装量。</p>
         </div>
         <p class="record-count" data-record-count data-total={skills.length}>
           {skills.length} 个技能{authors ? ` · ${authors} 位作者` : ""}
@@ -57,8 +57,10 @@ const authors = new Set(skills.map((item) => item.author).filter(Boolean)).size;
 
           <main id="skill-grid" class="tool-grid skill-grid" aria-label="技能卡片">
             {skills.map((skill) => {
-              const stars = formatGithubStars(skill.github_stars);
-              const category = skill.categories?.[0] ?? "";
+              const stars = formatGithubStars(skillStars(skill));
+              const category = skill.listing_kind === "project"
+                ? "project"
+                : (skill.categories?.find((item) => item !== "project") ?? skill.categories?.[0] ?? "");
               return (
                 <article
                   class="tool-card"
