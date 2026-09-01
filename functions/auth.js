@@ -28,7 +28,7 @@ export async function handleWallRequest(context) {
   const url = new URL(request.url);
   const path = url.pathname;
 
-  if (isAuthPath(path, "/logout") && (request.method === "GET" || request.method === "POST")) {
+  if (isAuthPath(path, "/logout") && request.method === "POST") {
     return redirectWithCookie(new URL("/login/", url).toString(), clearCookie());
   }
 
@@ -62,11 +62,9 @@ async function handleLogin(request, env, url) {
   const next = safeReturnPath(String(form.get("next") ?? "/"));
   const username = String(form.get("username") ?? "");
   const password = String(form.get("password") ?? "");
-  const ok = hasSecrets(env)
-    && await timingSafeEqualString(username, env.WALL_USERNAME)
-    && await timingSafeEqualString(password, env.WALL_PASSWORD);
-
-  if (!ok) {
+  const userOk = hasSecrets(env) && await timingSafeEqualString(username, env.WALL_USERNAME);
+  const passOk = hasSecrets(env) && await timingSafeEqualString(password, env.WALL_PASSWORD ?? "");
+  if (!userOk || !passOk) {
     const login = new URL("/login/", url);
     login.searchParams.set("error", "1");
     login.searchParams.set("next", next);

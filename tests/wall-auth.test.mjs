@@ -1,6 +1,9 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
+import { readFile } from "node:fs/promises";
+import { resolve } from "node:path";
+
 import { COOKIE_NAME, handleWallRequest, isPublicPath } from "../functions/auth.js";
 
 const SECRETS = {
@@ -80,6 +83,24 @@ test("正确登录写入 httpOnly Secure 签名 cookie，而不是明文密码",
   assert.equal(await gated.text(), "static-ok");
 });
 
+test("退出登录只接受 POST 并清除会话 cookie", async () => {
+  const loggedIn = await dispatch("/login/", {
+    method: "POST",
+    body: loginBody("wall-user", "correct-horse", "/"),
+  });
+  const cookie = sessionCookie(loggedIn);
+  assert.equal((await dispatch("/", { cookie })).status, 200);
+
+  const logout = await dispatch("/logout/", { method: "POST", cookie });
+  assert.equal(logout.status, 302);
+  assert.match(logout.headers.get("Location") ?? "", /\/login\//);
+  assert.match(logout.headers.get("Set-Cookie") ?? "", /Max-Age=0/);
+
+  const getLogout = await dispatch("/logout/", { method: "GET", cookie });
+  assert.equal(getLogout.headers.get("Set-Cookie"), null);
+  assert.equal((await dispatch("/", { cookie })).status, 200);
+});
+
 test("错误密码拒绝登录且不发会话 cookie", async () => {
   const response = await dispatch("/login/", {
     method: "POST",
@@ -112,6 +133,17 @@ test("生产缺密钥时锁定页失败关闭，资讯仍可访问", async () =>
   assert.equal(login.status, 302);
   assert.match(login.headers.get("Location") ?? "", /error=1/);
   assert.equal(login.headers.get("Set-Cookie"), null);
+});
+
+test("_routes.json 不得把锁定静态资源排除出 Functions", async () => {
+  const routes = JSON.parse(await readFile(resolve("site/public/_routes.json"), "utf8"));
+  assert.equal(routes.version, 1);
+  assert.deepEqual(routes.include, ["/*"]);
+  const allowed = new Set(["/_astro/*", "/news", "/news/*", "/twitter", "/twitter/*"]);
+  for (const rule of routes.exclude) {
+    assert.ok(allowed.has(rule), `意外的 exclude: ${rule}`);
+  }
+  assert.ok(!routes.exclude.some((rule) => rule.includes("login") || rule.includes("covers") || rule.includes("skills")));
 });
 
 test("私有静态资源不能未登录直链绕过", async () => {

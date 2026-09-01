@@ -1,10 +1,6 @@
 ---
 import "../styles/global.css";
 import SiteNav from "../components/SiteNav.astro";
-
-const rawNext = Astro.url.searchParams.get("next") ?? "/";
-const next = rawNext.startsWith("/") && !rawNext.startsWith("//") && !rawNext.includes("://") ? rawNext : "/";
-const error = Astro.url.searchParams.get("error") === "1";
 ---
 
 <html lang="zh-CN">
@@ -27,9 +23,9 @@ const error = Astro.url.searchParams.get("error") === "1";
       <SiteNav current="login" />
 
       <main class="login-panel">
-        {error && <p class="login-error" role="alert">用户名或密码不正确。</p>}
+        <p class="login-error" role="alert" data-login-error hidden>用户名或密码不正确。</p>
         <form class="login-form" method="post" action="/login/">
-          <input type="hidden" name="next" value={next} />
+          <input type="hidden" name="next" value="/" data-login-next />
           <label>
             <span>用户名</span>
             <input name="username" type="text" autocomplete="username" required />
@@ -68,3 +64,13 @@ const error = Astro.url.searchParams.get("error") === "1";
   .login-submit:focus-visible { outline: var(--outline-width) solid var(--color-brand); outline-offset: var(--outline-width); }
   .login-error { color: #9b3a4a; margin: 0 0 var(--spacing-md); }
 </style>
+
+<script>
+  import { loginQueryState } from "../lib/login-query.mjs";
+
+  const { next, error } = loginQueryState(location.search);
+  const nextInput = document.querySelector("[data-login-next]");
+  if (nextInput instanceof HTMLInputElement) nextInput.value = next;
+  const errorEl = document.querySelector("[data-login-error]");
+  if (errorEl instanceof HTMLElement && error) errorEl.hidden = false;
+</script>
