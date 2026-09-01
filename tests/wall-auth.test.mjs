@@ -229,9 +229,18 @@ test("匹配恢复邮箱时用 mock fetch 发一封含地址和 token 链接的 
       const to = Array.isArray(payload.to) ? payload.to.join(" ") : String(payload.to);
       assert.match(to, /owner@example.com/);
       const body = `${payload.subject ?? ""}\n${payload.html ?? ""}\n${payload.text ?? ""}`;
+      assert.match(payload.subject ?? "", /15 分钟/);
       assert.match(body, /https:\/\/wall\.yangcyyang\.cn\/login\/reset\/?\?token=/);
       assert.doesNotMatch(body, /correct-horse/);
       assert.doesNotMatch(JSON.stringify(payload), /correct-horse/);
+
+      const tokenMatch = String(payload.text).match(/[?&]token=([^&\s]+)/);
+      assert.ok(tokenMatch, "邮件正文应带 token");
+      const reset = await dispatch(`/login/reset/?token=${tokenMatch[1]}`);
+      assert.equal(reset.status, 302);
+      assert.equal(reset.headers.get("Location"), "https://wall.yangcyyang.cn/");
+      const gated = await dispatch("/", { cookie: sessionCookie(reset) });
+      assert.equal(gated.status, 200);
     },
   );
 });
@@ -263,6 +272,41 @@ test("未配置 Resend 或发信失败时仍返回通用成功", async () => {
   );
 });
 
+test("waitUntil 发信时响应立刻返回通用成功", async () => {
+  let releaseFetch;
+  const fetchGate = new Promise((resolve) => {
+    releaseFetch = resolve;
+  });
+  await withMockedFetch(
+    async () => {
+      await fetchGate;
+      return new Response("{}", { status: 200 });
+    },
+    async (calls) => {
+      let pending;
+      const url = new URL("/login/forgot/", "https://wall.yangcyyang.cn");
+      const response = await handleWallRequest({
+        request: new Request(url, {
+          method: "POST",
+          body: forgotBody("owner@example.com"),
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          redirect: "manual",
+        }),
+        env: RECOVERY,
+        next: async () => new Response("static-ok", { status: 200 }),
+        waitUntil: (work) => {
+          pending = work;
+        },
+      });
+      assert.equal(response.status, 302);
+      assert.match(response.headers.get("Location") ?? "", /sent=1/);
+      releaseFetch();
+      await pending;
+      assert.equal(calls.length, 1);
+    },
+  );
+});
+
 test("过期或损坏的重置 token 不写会话 cookie", async () => {
   const expired = await signPayload(SECRETS.WALL_SESSION_SECRET, {
     typ: "reset",
@@ -270,8 +314,9 @@ test("过期或损坏的重置 token 不写会话 cookie", async () => {
   });
   const expiredRes = await dispatch(`/login/reset/?token=${expired}`);
   assert.equal(expiredRes.status, 302);
-  assert.match(expiredRes.headers.get("Location") ?? "", /\/login\/\?/);
+  assert.match(expiredRes.headers.get("Location") ?? "", /reset=expired/);
   assert.equal(expiredRes.headers.get("Set-Cookie"), null);
+  assert.match(expiredRes.headers.get("Cache-Control") ?? "", /no-store/);
 
   const bad = await dispatch("/login/reset/?token=not-a-token");
   assert.equal(bad.status, 302);
