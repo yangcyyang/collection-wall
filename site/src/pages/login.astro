@@ -23,7 +23,9 @@ import SiteNav from "../components/SiteNav.astro";
       <SiteNav current="login" />
 
       <main class="login-panel">
+        <p class="login-sent" role="status" data-login-sent hidden>如邮箱正确会收到链接。</p>
         <p class="login-error" role="alert" data-login-error hidden>用户名或密码不正确。</p>
+        <p class="login-error" role="alert" data-reset-error hidden>登录链接无效或已过期，请重新申请。</p>
         <form class="login-form" method="post" action="/login/">
           <input type="hidden" name="next" value="/" data-login-next />
           <label>
@@ -36,6 +38,17 @@ import SiteNav from "../components/SiteNav.astro";
           </label>
           <button class="login-submit" type="submit">登录</button>
         </form>
+        <details class="forgot-block" data-forgot-block>
+          <summary>忘记密码</summary>
+          <form class="login-form" method="post" action="/login/forgot/">
+            <input type="hidden" name="next" value="/" data-forgot-next />
+            <label>
+              <span>恢复邮箱</span>
+              <input name="email" type="email" autocomplete="email" required />
+            </label>
+            <button class="login-submit" type="submit">发送登录链接</button>
+          </form>
+        </details>
       </main>
     </div>
   </body>
@@ -63,14 +76,30 @@ import SiteNav from "../components/SiteNav.astro";
   }
   .login-submit:focus-visible { outline: var(--outline-width) solid var(--color-brand); outline-offset: var(--outline-width); }
   .login-error { color: #9b3a4a; margin: 0 0 var(--spacing-md); }
+  .login-sent { color: var(--color-text-secondary); margin: 0 0 var(--spacing-md); }
+  .forgot-block { margin-top: var(--spacing-lg); }
+  .forgot-block summary {
+    color: var(--color-text-secondary);
+    cursor: pointer;
+    font-size: var(--font-size-caption);
+  }
+  .forgot-block summary:hover { color: var(--color-brand); }
+  .forgot-block .login-form { margin-top: var(--spacing-md); }
 </style>
 
 <script>
   import { loginQueryState } from "../lib/login-query.mjs";
 
-  const { next, error } = loginQueryState(location.search);
-  const nextInput = document.querySelector("[data-login-next]");
-  if (nextInput instanceof HTMLInputElement) nextInput.value = next;
+  const { next, error, sent, resetExpired } = loginQueryState(location.search);
+  for (const node of document.querySelectorAll("[data-login-next], [data-forgot-next]")) {
+    if (node instanceof HTMLInputElement) node.value = next;
+  }
   const errorEl = document.querySelector("[data-login-error]");
-  if (errorEl instanceof HTMLElement && error) errorEl.hidden = false;
+  if (errorEl instanceof HTMLElement && error && !resetExpired) errorEl.hidden = false;
+  const sentEl = document.querySelector("[data-login-sent]");
+  if (sentEl instanceof HTMLElement && sent) sentEl.hidden = false;
+  const resetEl = document.querySelector("[data-reset-error]");
+  if (resetEl instanceof HTMLElement && resetExpired) resetEl.hidden = false;
+  const forgotBlock = document.querySelector("[data-forgot-block]");
+  if (forgotBlock instanceof HTMLDetailsElement && (sent || resetExpired)) forgotBlock.open = true;
 </script>

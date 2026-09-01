@@ -37,13 +37,16 @@ Cloudflare Pages 支持连接私有 GitHub 仓库；后续每次推送到生产�
 
 站点读取已提交的 `data/tools/`；`pipeline/.env` 仅供本机采集，不上传到 Pages。
 
-登录门需要在 Cloudflare Pages 项目 **Settings → Environment variables**（Production 与 Preview 都要）写入三个密钥，不要写进仓库：
+登录门需要在 Cloudflare Pages 项目 **Settings → Environment variables**（Production 与 Preview 都要）写入密钥，不要写进仓库：
 
 | 变量 | 用途 |
 |---|---|
 | `WALL_USERNAME` | 共享登录用户名 |
 | `WALL_PASSWORD` | 共享登录密码 |
-| `WALL_SESSION_SECRET` | 签名会话 cookie 的密钥（随机长字符串） |
+| `WALL_SESSION_SECRET` | 签名会话 cookie 与一次性登录链接的密钥（随机长字符串） |
+| `WALL_RECOVERY_EMAIL` | 忘记密码时允许接收魔法登录链接的邮箱 |
+| `RESEND_API_KEY` | Resend HTTP API 密钥；未配置时申请链接仍显示通用成功，但不发信 |
+| `RESEND_FROM` | 可选。发件人，默认 `onboarding@resend.dev` |
 
 缺任一变量时，锁定页失败关闭（只显示登录页）；资讯与推特日报仍可未登录访问。建议把 Pages Functions 的 Fail open / closed 设为 **Fail closed**，避免函数额度耗尽时静态私有页被直接放出。
 

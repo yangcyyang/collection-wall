@@ -62,8 +62,9 @@ Root directory: 留空（仓库根目录）
 Build command: pnpm --dir site install --frozen-lockfile && pnpm run build
 Build output directory: site/dist
 Environment variable: NODE_VERSION=22.12.0
-再增加三个 Production/Preview 密钥（不要写入仓库）：
+再增加 Production/Preview 密钥（不要写入仓库）：
 WALL_USERNAME / WALL_PASSWORD / WALL_SESSION_SECRET
+忘记密码（可选）：WALL_RECOVERY_EMAIL / RESEND_API_KEY / RESEND_FROM
 ```
 
 仓库若保持公开，`data/` 里的 JSON 在 GitHub 上仍可读；登录门只挡网站未登录访问。
