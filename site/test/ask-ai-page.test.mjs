@@ -63,6 +63,18 @@ test("本地层强匹配时不请求 Gemini", async () => {
   assert.equal(called, 0);
 });
 
+test("未配置 Gemini 时自然语言仍走本地语义", async () => {
+  const result = await runAskAi({
+    query: "帮我找适合做演示的工具",
+    catalog,
+    clientKey: "",
+    fetchAskAi: async () => ({ tier: "keyword", notice: "未配置 Gemini，已改关键词搜索" }),
+  });
+  assert.equal(result.tier, "local");
+  assert.equal(result.hits[0].id, "gamma");
+  assert.equal(result.notice, "");
+});
+
 test("额度用尽时回退关键词并带可见说明", async () => {
   const result = await runAskAi({
     query: "帮我找适合做演示的工具",

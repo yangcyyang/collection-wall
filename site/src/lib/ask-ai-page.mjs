@@ -1,10 +1,11 @@
 import { cardMatchesWallFilters } from "./ask-ai-filter.mjs";
 import { compactAskCatalog } from "./ask-ai-gemini.mjs";
-import { keywordHits, rankTools } from "./ask-ai-rank.mjs";
+import { isLocalStrong, keywordHits, rankTools } from "./ask-ai-rank.mjs";
 import { ASK_AI_NOTICES, chooseAskAiTier } from "./ask-ai-route.mjs";
 
 export { keywordHits };
 export const GEMINI_KEY_STORAGE = "collection-wall.geminiApiKey";
+const MAX_HITS = 32;
 
 export function shouldFocusSearchOnSlash(event) {
   if (event?.key !== "/") return false;
@@ -29,7 +30,7 @@ export function saveClientGeminiKey(value, storage) {
 export async function runAskAi({ query, catalog, clientKey = "", fetchAskAi }) {
   const localHits = rankTools(query, catalog);
   const tier = chooseAskAiTier({ query, localHits, canUseGemini: true });
-  if (tier === "local") return { tier: "local", hits: localHits, notice: "" };
+  if (tier === "local") return { tier: "local", hits: localHits.slice(0, MAX_HITS), notice: "" };
 
   try {
     const result = await fetchAskAi({
@@ -48,12 +49,21 @@ export async function runAskAi({ query, catalog, clientKey = "", fetchAskAi }) {
         notice: "",
       };
     }
+    if (result?.notice === ASK_AI_NOTICES.quota || result?.notice === ASK_AI_NOTICES.geminiError) {
+      return {
+        tier: "keyword",
+        hits: keywordHits(query, catalog),
+        notice: result.notice,
+      };
+    }
+    if (isLocalStrong(localHits)) return { tier: "local", hits: localHits.slice(0, MAX_HITS), notice: "" };
     return {
       tier: "keyword",
       hits: keywordHits(query, catalog),
-      notice: result?.notice || ASK_AI_NOTICES.geminiError,
+      notice: result?.notice || ASK_AI_NOTICES.missingKey,
     };
   } catch {
+    if (isLocalStrong(localHits)) return { tier: "local", hits: localHits.slice(0, MAX_HITS), notice: "" };
     return {
       tier: "keyword",
       hits: keywordHits(query, catalog),
@@ -63,15 +73,22 @@ export async function runAskAi({ query, catalog, clientKey = "", fetchAskAi }) {
 }
 
 export async function postAskAi({ query, clientKey, catalog }, fetchImpl = fetch) {
-  const response = await fetchImpl("/api/ask-ai", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ query, catalog, ...(clientKey ? { clientKey } : {}) }),
-  });
-  if (response.status === 401 || response.status === 302) {
-    return { tier: "keyword", notice: ASK_AI_NOTICES.geminiError };
+  try {
+    const response = await fetchImpl("/api/ask-ai", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ query, catalog, ...(clientKey ? { clientKey } : {}) }),
+    });
+    if (response.status === 401 || response.status === 302) {
+      return { tier: "keyword", notice: ASK_AI_NOTICES.geminiError };
+    }
+    if (!response.ok) {
+      return { tier: "keyword", notice: ASK_AI_NOTICES.missingKey };
+    }
+    return await response.json();
+  } catch {
+    return { tier: "keyword", notice: ASK_AI_NOTICES.missingKey };
   }
-  return response.json();
 }
 
 export function bindWallPage(root, options = {}) {
