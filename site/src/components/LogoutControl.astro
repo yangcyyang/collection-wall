@@ -1,0 +1,16 @@
+<form class="logout-form" method="post" action="/logout/">
+  <button type="submit">退出登录</button>
+</form>
+
+<style>
+  .logout-form { margin: 0; }
+  .logout-form button {
+    background: transparent;
+    border: 0;
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-caption);
+    padding: 0;
+  }
+  .logout-form button:hover { color: var(--color-brand); }
+  .logout-form button:focus-visible { outline: var(--outline-width) solid var(--color-brand); outline-offset: var(--outline-width); }
+</style>

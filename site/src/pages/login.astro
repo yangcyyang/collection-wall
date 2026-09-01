@@ -1,0 +1,76 @@
+---
+import "../styles/global.css";
+import SiteNav from "../components/SiteNav.astro";
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="登录后访问收藏墙" />
+    <title>登录 · 工具库</title>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <div>
+          <p class="eyebrow">个人工具库</p>
+          <h1>登录</h1>
+          <p class="intro">收藏墙、知识总结、提示词、技能和雷达需要登录。资讯和推特日报不用登录。</p>
+        </div>
+      </header>
+
+      <SiteNav current="login" />
+
+      <main class="login-panel">
+        <p class="login-error" role="alert" data-login-error hidden>用户名或密码不正确。</p>
+        <form class="login-form" method="post" action="/login/">
+          <input type="hidden" name="next" value="/" data-login-next />
+          <label>
+            <span>用户名</span>
+            <input name="username" type="text" autocomplete="username" required />
+          </label>
+          <label>
+            <span>密码</span>
+            <input name="password" type="password" autocomplete="current-password" required />
+          </label>
+          <button class="login-submit" type="submit">登录</button>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
+
+<style>
+  .login-panel { max-width: 22rem; padding: var(--spacing-xl) 0; }
+  .login-form { display: grid; gap: var(--spacing-md); }
+  .login-form label { color: var(--color-text-secondary); display: grid; font-size: var(--font-size-caption); gap: var(--spacing-xs); }
+  .login-form input {
+    background: var(--color-surface);
+    border: var(--border-width) solid var(--color-border);
+    border-radius: var(--radius-card);
+    color: var(--color-text-primary);
+    font: inherit;
+    padding: var(--spacing-sm) var(--spacing-md);
+  }
+  .login-form input:focus-visible { outline: var(--outline-width) solid var(--color-brand); outline-offset: var(--outline-width); }
+  .login-submit {
+    background: var(--color-brand);
+    border: 0;
+    border-radius: var(--radius-card);
+    color: var(--color-surface);
+    padding: var(--spacing-sm) var(--spacing-md);
+  }
+  .login-submit:focus-visible { outline: var(--outline-width) solid var(--color-brand); outline-offset: var(--outline-width); }
+  .login-error { color: #9b3a4a; margin: 0 0 var(--spacing-md); }
+</style>
+
+<script>
+  import { loginQueryState } from "../lib/login-query.mjs";
+
+  const { next, error } = loginQueryState(location.search);
+  const nextInput = document.querySelector("[data-login-next]");
+  if (nextInput instanceof HTMLInputElement) nextInput.value = next;
+  const errorEl = document.querySelector("[data-login-error]");
+  if (errorEl instanceof HTMLElement && error) errorEl.hidden = false;
+</script>

@@ -1,6 +1,7 @@
 ---
 import "../styles/global.css";
 import RadarViewer from "../components/RadarViewer.astro";
+import LogoutControl from "../components/LogoutControl.astro";
 import SiteNav from "../components/SiteNav.astro";
 import { formatBeijingDateTime } from "../lib/news.mjs";
 import {
@@ -42,7 +43,10 @@ const updated = formatBeijingDateTime(feed.updated_at);
           <h1>雷达</h1>
           {feed.title && <p class="intro">{feed.title}{updated ? ` · ${updated}` : ""}</p>}
         </div>
-        <p class="record-count">{signals.length} 条信号 · {products.length} 个产品 · {watchlist.length} 条观察</p>
+        <div class="header-stats">
+          <p class="record-count">{signals.length} 条信号 · {products.length} 个产品 · {watchlist.length} 条观察</p>
+          <LogoutControl />
+        </div>
       </header>
 
       <SiteNav current="radar" />

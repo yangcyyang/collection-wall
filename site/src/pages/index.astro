@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import LogoutControl from "../components/LogoutControl.astro";
 import SiteNav from "../components/SiteNav.astro";
 import { getTools } from "../lib/tools";
 import { selectFeaturedTools } from "../lib/tool-order.mjs";
@@ -53,6 +54,7 @@ function categoryIcon(category?: string) {
         <div class="header-stats">
           <p class="record-count">{tools.length} 条已收录</p>
           {todayAddedCount > 0 && <p class="today-badge">今日 +{todayAddedCount}</p>}
+          <LogoutControl />
         </div>
       </header>
 

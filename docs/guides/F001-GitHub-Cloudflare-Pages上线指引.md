@@ -62,7 +62,11 @@ Root directory: 留空（仓库根目录）
 Build command: pnpm --dir site install --frozen-lockfile && pnpm run build
 Build output directory: site/dist
 Environment variable: NODE_VERSION=22.12.0
+再增加三个 Production/Preview 密钥（不要写入仓库）：
+WALL_USERNAME / WALL_PASSWORD / WALL_SESSION_SECRET
 ```
+
+仓库若保持公开，`data/` 里的 JSON 在 GitHub 上仍可读；登录门只挡网站未登录访问。
 
 7. 点击 **Save and Deploy**。
 8. 构建完成后先打开 `*.pages.dev` 地址，确认首页、搜索、分类筛选、封面与
