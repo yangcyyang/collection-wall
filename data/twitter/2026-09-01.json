@@ -9,6 +9,259 @@
   },
   "items": [
     {
+      "id": "2094820933689295076",
+      "author": "SpaceXAI",
+      "bio": "",
+      "text": "LatchBio evaluated Grok’s performance on biosecurity monitoring and adversarial biological tasks.\n\nThey found that Grok 4.6 correctly detects and refuses dangerous queries, including maliciously obfuscated biological tasks, while also allowing beneficial scientific queries to be answered.\n\nWe discuss these results in a blog post:\nhttps://t.co/E8uAHqFPBQ",
+      "created_at": "Tue Sep 01 16:13:25 +0000 2026",
+      "likes": 33,
+      "views": "7323",
+      "url": "https://x.com/i/status/2094820933689295076",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "Biosecurity at the frontier",
+        "description": "LatchBio evaluated Grok's performance on biosecurity monitoring and adversarial biological tasks. They found that Grok 4.6 detects and refuses dangerous queries more reliably than any other frontier...",
+        "image_url": "https://pbs.twimg.com/card_img/2094820625085042688/uW4v2eqc?format=jpg&name=600x600",
+        "url": "https://t.co/E8uAHqFPBQ",
+        "domain": "x.ai"
+      },
+      "quoted_tweet": null,
+      "score": 58.046,
+      "title": "LatchBio：Grok 4.6 在生物安全评测上更稳",
+      "summary": "LatchBio 评估了 Grok 在生物安全监控与对抗性生物任务上的表现：Grok 4.6 能正确识别并拒绝危险查询（含被恶意混淆的生物任务），同时仍允许回答有益的科学问题。xAI 在博客「Biosecurity at the frontier」讨论了结果。",
+      "recommend_reason": "少见的 frontier 模型生物安全拒绝能力公开评测，比空喊安全更有信息量。",
+      "tags": [
+        "Grok",
+        "生物安全",
+        "xAI",
+        "评测"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2094818637324447842",
+      "author": "dotey",
+      "bio": "",
+      "text": "难怪 Claude Max 那么慢，原来是 1.5 倍消耗，所以我一般只选 Fable high 或者 Opus high。",
+      "created_at": "Tue Sep 01 16:04:17 +0000 2026",
+      "likes": 4,
+      "views": "1548",
+      "url": "https://x.com/i/status/2094818637324447842",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2094705436658385256",
+        "author": "LinearUncle",
+        "name": "LinearUncle",
+        "text": "用 Claude 千万别随手选 Max 档！\n\n否则你至少消耗 1.5 倍甚至更多的用量 （1.5x or more usage）!\n\n现在iOS/ Android/桌面的claude 客户端里，当你选择Max档位，都会警告你了！",
+        "created_at": "Tue Sep 01 08:34:28 +0000 2026",
+        "url": "https://x.com/LinearUncle/status/2094705436658385256",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 50.093,
+      "title": null,
+      "summary": "难怪 Claude Max 那么慢，原来是 1.5 倍消耗，所以我一般只选 Fable high 或者 Opus high。",
+      "recommend_reason": "呼应「别随手开 Max」：Max 至少 1.5× 用量，选档直接影响速度和额度。",
+      "tags": [
+        "Claude",
+        "用量",
+        "技巧"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2094816240376393834",
+      "author": "OfficialLoganK",
+      "bio": "",
+      "text": "My conversation with @koraykv, the lead for Google DeepMind, about the path to AGI, progress with 3.7 Flash, why we are laser focused on the frontier, and more! https://t.co/mswD8nRBT2",
+      "created_at": "Tue Sep 01 15:54:46 +0000 2026",
+      "likes": 139,
+      "views": "9600",
+      "url": "https://x.com/i/status/2094816240376393834",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2094813737534488576/vid/avc1/480x270/vQHmNOt-LaQNSJpz.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2094813737534488576/img/eRhprhAQT44GDZFw.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 51.622,
+      "title": "Logan 对话 DeepMind 负责人：AGI 路径与 3.7 Flash",
+      "summary": "OfficialLoganK 放出与 Google DeepMind 负责人 @koraykv 的对话，话题覆盖通往 AGI 的路径、3.7 Flash 进展，以及为何死磕 frontier。",
+      "recommend_reason": "DeepMind 一线视角谈 frontier 与 Flash 进度，适合跟一下官方口径。",
+      "tags": [
+        "DeepMind",
+        "Google",
+        "AGI",
+        "访谈"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2094815914621300937",
+      "author": "dotey",
+      "bio": "",
+      "text": "尤其是 Token 快刷新还有好多额度没用完之前，绞尽脑汁想给 AI 派点啥活，像极了生怕员工偷懒摸鱼的小老板",
+      "created_at": "Tue Sep 01 15:53:28 +0000 2026",
+      "likes": 13,
+      "views": "2637",
+      "url": "https://x.com/i/status/2094815914621300937",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2094814445830803631",
+        "author": "myanTokenGeek",
+        "name": "孟岩-Mike Meng",
+        "text": "现在看来，使用 AI 是一个非常累脑子的活。必须比平时站得高一层，不只是思考“这个事情怎么干”，而是得思考“这类事情是怎么干出来”、“怎么能干得更好更省力”这样的方法论问题。而这些问题以前是很少有人需要考虑、也很少有人去考虑的。这就好比，解决了书写工具的问题，就要动脑筋怎么把文章写好了。",
+        "created_at": "Tue Sep 01 15:47:38 +0000 2026",
+        "url": "https://x.com/myanTokenGeek/status/2094814445830803631",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 35.152,
+      "title": null,
+      "summary": "尤其是 Token 快刷新还有好多额度没用完之前，绞尽脑汁想给 AI 派点啥活，像极了生怕员工偷懒摸鱼的小老板",
+      "recommend_reason": "把「额度焦虑」说成管理隐喻，订阅制 AI 用户几乎都会心一笑。",
+      "tags": [
+        "AI使用",
+        "额度",
+        "吐槽"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2094815195516350754",
+      "author": "elonmusk",
+      "bio": "",
+      "text": "Grok @Bot runs on its own computer in the cloud 24/7, so it doesn’t matter if you turn off your laptop",
+      "created_at": "Tue Sep 01 15:50:37 +0000 2026",
+      "likes": 1290,
+      "views": "550497",
+      "url": "https://x.com/i/status/2094815195516350754",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2094810234908713047",
+        "author": "sriramk",
+        "name": "Sriram Krishnan",
+        "text": "one real issue I have with various agents now is \"where is this code going to run\"\n\n- does it need access to my local filesystem\n- can I fire it off from my phone and if so does it run on the cloud or needs my Mac mini fired up / synced?\n\nThe current UX metaphors around this seem to need work.",
+        "created_at": "Tue Sep 01 15:30:54 +0000 2026",
+        "url": "https://x.com/sriramk/status/2094810234908713047",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 63.619,
+      "title": null,
+      "summary": "Grok @Bot 在云端自带电脑，7×24 跑着，所以你把笔记本关掉也没关系。",
+      "recommend_reason": "直接回应「agent 代码跑在哪」的痛点：云端常驻电脑，不绑本机。",
+      "tags": [
+        "Grok Bot",
+        "Agent",
+        "云端"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2094814140544254136",
+      "author": "vista8",
+      "bio": "",
+      "text": "安装这个，瞬间把你的Obsidian变成史上最强的Epub电子书 AI 阅读器！\n\n参考一个俄罗斯项目，完全针对中文阅读改造，增加了适合阅读的字体、主题，增加大量AI辅助功能。\n\n能用你本地的Codex、Claude、Grok cli来辅助阅读，也支持配置DeepSeek、GLM、kimi等模型。\n\n开源地址见评论区",
+      "created_at": "Tue Sep 01 15:46:25 +0000 2026",
+      "likes": 8,
+      "views": "1276",
+      "url": "https://x.com/i/status/2094814140544254136",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2094810938537050112/vid/avc1/480x270/5qrXAphnn6jaHWzC.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2094810938537050112/img/bNl0HvDNOIPhtg1t.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 59.735,
+      "title": "把 Obsidian 变成中文友好的 Epub AI 阅读器",
+      "summary": "作者基于一个俄罗斯项目做了面向中文阅读的改造：合适的字体与主题，加上大量 AI 辅助。可读本地 Codex / Claude / Grok CLI，也能配 DeepSeek、GLM、Kimi 等模型，瞬间把 Obsidian 变成 Epub AI 阅读器。开源地址在评论区。",
+      "recommend_reason": "把知识库编辑器和 Epub+多模型阅读拧在一起，中文用户可直接落地。",
+      "tags": [
+        "Obsidian",
+        "Epub",
+        "开源",
+        "阅读"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2094813795742847123",
+      "author": "elonmusk",
+      "bio": "",
+      "text": "We’re giving all @Grok @Bot users another free reset on token usage",
+      "created_at": "Tue Sep 01 15:45:03 +0000 2026",
+      "likes": 4057,
+      "views": "562808",
+      "url": "https://x.com/i/status/2094813795742847123",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 66.907,
+      "title": null,
+      "summary": "我们给所有 @Grok @Bot 用户又做了一次免费的 token 用量重置。",
+      "recommend_reason": "Grok Bot 额度再送一轮免费重置，正在用的人直接相关。",
+      "tags": [
+        "Grok",
+        "Grok Bot",
+        "额度"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2094804195128013018",
+      "author": "JulianGoldieSEO",
+      "bio": "",
+      "text": "One of these AI agents is 2 days old.\n\nThe other had 6 months to get it right. →\n\nYou'd think the older one wins. \n\nNot even close.\n\nI ran Deepseek Harness vs Hermes side by side — both free, both open-source, both trying to run your whole workday.\n\n→ Deepseek Harness: browser-based, plugin-built on the Cordis framework, everything swappable\n→ Hermes: desktop app, 3-layer memory, actually learns and saves skills over time\n→ For beginners? Surprisingly, the 2-day-old tool is the gentler start — fewer breaks, simpler setup\n\nThe winner isn't who you'd guess. 🧵\n\nSave this video, you'll know exactly which agent to start with. 💬\n\nWant the SOP? DM me.",
+      "created_at": "Tue Sep 01 15:06:54 +0000 2026",
+      "likes": 0,
+      "views": "1066",
+      "url": "https://x.com/i/status/2094804195128013018",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2094803337116028928/vid/avc1/480x270/UMkbjhEir2LQ5sdD.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2094803337116028928/img/OmFBpe6Xip3oSMSl.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 54.648,
+      "title": "两天龄 Deepseek Harness vs 半年 Hermes：谁更好上手",
+      "summary": "作者并排试了两个免费开源、都想接管工作日的 agent：Deepseek Harness 基于 Cordis、浏览器端、插件可换；Hermes 是桌面端，有三层记忆、会沉淀 skills。结论偏反直觉——对新手来说，两天龄的 Deepseek Harness 更温和、少踩坑、设置更简单。",
+      "recommend_reason": "少见的同场景双开源 agent 对比，新手选型有用（略带引流，信息本身仍清楚）。",
+      "tags": [
+        "Agent",
+        "开源",
+        "DeepSeek",
+        "Hermes"
+      ],
+      "rank": 8
+    },
+    {
       "id": "2094630927729348778",
       "author": "lixinbao_X",
       "bio": "",
@@ -40,7 +293,7 @@
         "强化学习",
         "开源"
       ],
-      "rank": 1
+      "rank": 9
     },
     {
       "id": "2094630914580197518",
@@ -75,7 +328,7 @@
         "Token",
         "知识库"
       ],
-      "rank": 2
+      "rank": 10
     },
     {
       "id": "2094623245576335623",
@@ -109,7 +362,7 @@
         "Codex",
         "工具"
       ],
-      "rank": 3
+      "rank": 11
     },
     {
       "id": "2094622935176888395",
@@ -145,7 +398,7 @@
         "工具",
         "体验"
       ],
-      "rank": 4
+      "rank": 12
     },
     {
       "id": "2094622841304211750",
@@ -175,10 +428,10 @@
         "Google AI Studio",
         "产品"
       ],
-      "rank": 5
+      "rank": 13
     }
   ],
-  "generated_at": "2026-09-01T04:09:59Z",
+  "generated_at": "2026-09-01T16:16:27Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -186,13 +439,13 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 5,
-    "last_batch_added": 5,
+    "actual_count": 13,
+    "last_batch_added": 8,
     "last_batch_skipped_dup": 0,
-    "last_batch_skipped_author": 0,
+    "last_batch_skipped_author": 1,
     "last_batch_skipped_day_cap": 0,
     "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
     "short_tweet": {
