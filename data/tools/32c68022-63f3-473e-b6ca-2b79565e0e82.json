@@ -1,0 +1,58 @@
+{
+  "id": "32c68022-63f3-473e-b6ca-2b79565e0e82",
+  "url": "https://thymer.com/",
+  "name": "Thymer",
+  "headline": "笔记、任务、规划一体的智能编辑器",
+  "intro": "Thymer 自称任务、笔记与规划的 IDE：从零设计的智能文本编辑器，把大纲与写作拼在一起，面向忙碌的 maker 与团队。目前即将上线，可在官网登记早期访问名单，宣传能以思考的速度写计划或分享想法。",
+  "category": "🛠️ 办公与效率",
+  "subcategory": "笔记",
+  "tags": [
+    "笔记",
+    "任务",
+    "规划",
+    "编辑器",
+    "IDE",
+    "大纲",
+    "即将上线"
+  ],
+  "capabilities": [
+    "在同一编辑器写笔记与任务",
+    "大纲式规划大想法",
+    "申请 private beta"
+  ],
+  "scenarios": [
+    "想把 wiki、任务和笔记放进一个编辑器时",
+    "团队需要更快写计划时",
+    "在找 Notion 替代的本地编辑器时"
+  ],
+  "search_keywords": [
+    "Thymer",
+    "IDE for notes",
+    "任务笔记规划",
+    "wiki.txt",
+    "智能编辑器"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [
+      "Notion",
+      "Obsidian",
+      "Craft"
+    ],
+    "pairs_with": [
+      "Todoist",
+      "Linear"
+    ]
+  },
+  "tech_highlights": [
+    "Coming soon / private beta"
+  ],
+  "cover": "covers/32c68022-63f3-473e-b6ca-2b79565e0e82.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-09-01T07:56:52Z",
+  "my_notes": "",
+  "capture_status": "ok",
+  "source": "xiaoer-tools-wall"
+}

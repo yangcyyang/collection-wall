@@ -1,0 +1,64 @@
+{
+  "id": "56a87940-80c7-4137-8c71-938673e6cabb",
+  "url": "https://asccli.sh/",
+  "name": "asc CLI",
+  "headline": "终端自动化 App Store Connect",
+  "intro": "asc 是 App Store Connect 与 Apple Ads 的命令行工具：发版、TestFlight、元数据、签名、分析与 CI/CD 都可从终端完成。Go 单二进制，可用 Homebrew 安装。",
+  "category": "🌐 网页与代码",
+  "subcategory": "CLI 工具",
+  "tags": [
+    "App Store Connect",
+    "iOS",
+    "CLI",
+    "TestFlight",
+    "CI/CD",
+    "Apple Ads",
+    "Go"
+  ],
+  "capabilities": [
+    "命令行管理 App Store 发版",
+    "自动化 TestFlight 与元数据",
+    "处理签名与分析",
+    "接入 CI/CD",
+    "管理 Apple Ads"
+  ],
+  "scenarios": [
+    "不想点 App Store Connect 网页时",
+    "把 iOS 发版写进脚本时",
+    "给 Agent 接上架技能时"
+  ],
+  "search_keywords": [
+    "asc CLI",
+    "asccli",
+    "App Store Connect CLI",
+    "TestFlight CLI",
+    "brew install asc"
+  ],
+  "alternatives": {
+    "replaces": [
+      "fastlane deliver"
+    ],
+    "similar_to": [
+      "fastlane",
+      "xcrun altool",
+      "Transporter"
+    ],
+    "pairs_with": [
+      "ASC CLI Skills",
+      "Xcode",
+      "GitHub Actions"
+    ]
+  },
+  "tech_highlights": [
+    "Go binary",
+    "brew install asc"
+  ],
+  "cover": "covers/56a87940-80c7-4137-8c71-938673e6cabb.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-09-01T07:56:52Z",
+  "my_notes": "",
+  "capture_status": "ok",
+  "source": "xiaoer-tools-wall"
+}

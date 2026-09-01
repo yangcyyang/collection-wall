@@ -1,0 +1,60 @@
+{
+  "id": "58bc8493-0478-4b63-a554-32b556daf53e",
+  "url": "https://github.com/MkThingsHQ/mkagent",
+  "name": "MkAgent",
+  "headline": "本地优先的多界面 AI 代理工作区",
+  "intro": "MkAgent 是本地优先的 AI 代理工作区，可在桌面、WebUI 与 CLI 之间切换，强调数据留在本机。适合想自己跑代理、同时要图形界面和命令行入口的人。仓库提供 bun 安装与 electron 开发启动方式。",
+  "category": "🌐 网页与代码",
+  "subcategory": "AI 编程助手",
+  "tags": [
+    "本地优先",
+    "AI代理",
+    "桌面应用",
+    "WebUI",
+    "CLI",
+    "开源",
+    "工作区"
+  ],
+  "capabilities": [
+    "在桌面/WebUI/CLI 使用同一代理",
+    "本地运行不依赖云端工作区",
+    "配置代理工作流"
+  ],
+  "scenarios": [
+    "想把 AI 代理跑在本机时",
+    "需要桌面和 CLI 同时用时",
+    "搭建私人 agent 工作区时"
+  ],
+  "search_keywords": [
+    "MkAgent",
+    "MkThingsHQ",
+    "local-first agent",
+    "Pi-powered",
+    "桌面 AI 代理"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [
+      "Open WebUI",
+      "AnythingLLM",
+      "Continue"
+    ],
+    "pairs_with": [
+      "Ollama",
+      "Claude Code",
+      "ralphex"
+    ]
+  },
+  "tech_highlights": [
+    "local-first",
+    "Desktop + WebUI + CLI"
+  ],
+  "cover": "covers/58bc8493-0478-4b63-a554-32b556daf53e.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-09-01T07:56:52Z",
+  "my_notes": "",
+  "capture_status": "ok",
+  "source": "xiaoer-tools-wall"
+}

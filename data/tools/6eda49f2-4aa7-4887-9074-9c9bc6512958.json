@@ -1,0 +1,59 @@
+{
+  "id": "6eda49f2-4aa7-4887-9074-9c9bc6512958",
+  "url": "https://github.com/MengTo/threeui",
+  "name": "ThreeUI",
+  "headline": "开源交互式 Three.js UI 目录",
+  "intro": "ThreeUI Community 是开源的 Three.js UI 组件目录，带实时交互组件与完整社区源码，方便在 3D 网页里复用现成控件。由 MengTo 维护，适合搭 3D 产品页或交互组件时对照。",
+  "category": "🎨 视觉创作",
+  "subcategory": "3D",
+  "tags": [
+    "Three.js",
+    "UI组件",
+    "3D",
+    "开源",
+    "React",
+    "交互",
+    "组件库"
+  ],
+  "capabilities": [
+    "浏览可交互 3D UI 组件",
+    "查看社区完整源码",
+    "把组件接入 Three.js 项目"
+  ],
+  "scenarios": [
+    "给 Three.js 项目找现成 UI 时",
+    "看 3D 控件交互实现时",
+    "搭 3D 产品页需要组件时"
+  ],
+  "search_keywords": [
+    "ThreeUI",
+    "MengTo",
+    "threeui",
+    "Three.js UI",
+    "3D 组件库"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [
+      "drei",
+      "react-three-fiber",
+      "Uiverse"
+    ],
+    "pairs_with": [
+      "three.js",
+      "Three.js Journey",
+      "vgpu"
+    ]
+  },
+  "tech_highlights": [
+    "live interactive components"
+  ],
+  "cover": "covers/6eda49f2-4aa7-4887-9074-9c9bc6512958.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-09-01T07:56:52Z",
+  "my_notes": "",
+  "capture_status": "ok",
+  "source": "xiaoer-tools-wall"
+}

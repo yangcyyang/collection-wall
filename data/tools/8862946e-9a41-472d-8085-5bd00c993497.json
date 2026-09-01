@@ -1,0 +1,60 @@
+{
+  "id": "8862946e-9a41-472d-8085-5bd00c993497",
+  "url": "https://aiforui.dev/",
+  "name": "AI for UI",
+  "headline": "用 AI 做出高质量界面的课程",
+  "intro": "Emil Kowalski 的课程，教设计师与工程师用 AI 搭建界面，同时守住间距、动效与品质标准，避免模板感与廉价动画。面向想把 AI 真正用在产品 UI 上、又不想降低审美门槛的人。页面强调 Enrollment。",
+  "category": "📚 知识与学习",
+  "subcategory": "学习平台",
+  "tags": [
+    "UI课程",
+    "AI设计",
+    "界面",
+    "设计师",
+    "工程师",
+    "在线课程",
+    "英文"
+  ],
+  "capabilities": [
+    "学习用 AI 构建高质量界面",
+    "对照模板化 AI UI 的常见问题",
+    "按设计师与工程师路径练习"
+  ],
+  "scenarios": [
+    "想用 AI 做产品界面又怕廉价感时",
+    "设计师需要把 AI 纳入工作流时",
+    "工程师要提升 AI 生成 UI 品质时"
+  ],
+  "search_keywords": [
+    "AI for UI",
+    "aiforui",
+    "Emil Kowalski",
+    "AI 界面课程",
+    "设计师工程师",
+    "高质量 UI"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [
+      "Three.js Journey",
+      "Frontend Masters",
+      "Design+Code"
+    ],
+    "pairs_with": [
+      "Figma",
+      "Cursor",
+      "v0"
+    ]
+  },
+  "tech_highlights": [
+    "Emil Kowalski 主讲"
+  ],
+  "cover": "covers/8862946e-9a41-472d-8085-5bd00c993497.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-09-01T07:56:52Z",
+  "my_notes": "",
+  "capture_status": "ok",
+  "source": "xiaoer-tools-wall"
+}

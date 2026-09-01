@@ -1,0 +1,61 @@
+{
+  "id": "c9997c9d-3c0c-47cc-ade1-6d28c41cd8a5",
+  "url": "https://www.openpeeps.com/",
+  "name": "Open Peeps",
+  "headline": "免费可混搭的手绘人物插画组件库",
+  "intro": "Open Peeps 是 Pablo Stanley 的手绘人物插画库：手臂、腿、表情、服装与发型可像积木一样混搭。采用 CC0，可用于产品插画、营销、漫画、用户流与故事板，也可在 Blush 里直接使用。",
+  "category": "📦 资源集合",
+  "subcategory": "素材集",
+  "tags": [
+    "插画",
+    "人物",
+    "CC0",
+    "矢量",
+    "免费商用",
+    "Blush",
+    "手绘"
+  ],
+  "capabilities": [
+    "混搭人物部件生成角色",
+    "免费商用下载",
+    "在 Blush 中使用",
+    "用于产品与营销插画"
+  ],
+  "scenarios": [
+    "做 landing 需要人物插画时",
+    "画用户流或 persona 时",
+    "找可商用免费人物素材时"
+  ],
+  "search_keywords": [
+    "Open Peeps",
+    "Pablo Stanley",
+    "手绘人物",
+    "CC0 插画",
+    "mix and match"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [
+      "unDraw",
+      "Humaaans",
+      "Open Doodles"
+    ],
+    "pairs_with": [
+      "Figma",
+      "Blush",
+      "Illustrator"
+    ]
+  },
+  "tech_highlights": [
+    "CC0 License",
+    "mix & match vectors"
+  ],
+  "cover": "covers/c9997c9d-3c0c-47cc-ade1-6d28c41cd8a5.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-09-01T07:56:52Z",
+  "my_notes": "",
+  "capture_status": "ok",
+  "source": "xiaoer-tools-wall"
+}

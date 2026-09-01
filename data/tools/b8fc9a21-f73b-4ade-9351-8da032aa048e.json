@@ -1,0 +1,59 @@
+{
+  "id": "b8fc9a21-f73b-4ade-9351-8da032aa048e",
+  "url": "https://immense-jaguar-8615.edgespark.app/api/public/s/vgpu-ink/",
+  "name": "Ink on paper",
+  "headline": "WebGPU 纸上墨水流体解算",
+  "intro": "跑在 vgpu 上的压力投影流体解算：按住拖动换颜料，按 Beer-Lambert 吸收混合，同一份 shader 也能在无头 Node 渲成视频。浏览器拿不到 WebGPU 设备时会回退到预渲染画面。",
+  "category": "🌟 灵感与审美",
+  "subcategory": "艺术创意编程",
+  "tags": [
+    "WebGPU",
+    "流体解算",
+    "墨水",
+    "shader",
+    "创意编程",
+    "vgpu",
+    "WGSL"
+  ],
+  "capabilities": [
+    "实时墨水/颜料流体模拟",
+    "两种颜料按吸收混合",
+    "同一 shader 无头渲染视频"
+  ],
+  "scenarios": [
+    "看 WebGPU 流体与墨水效果时",
+    "学压力投影与 Jacobi 迭代时",
+    "给 vgpu 找示例时"
+  ],
+  "search_keywords": [
+    "Ink on paper",
+    "vgpu-ink",
+    "流体解算",
+    "Beer-Lambert",
+    "WebGPU ink"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [
+      "Shadertoy",
+      "Paper.js",
+      "GPGPU fluids"
+    ],
+    "pairs_with": [
+      "vgpu",
+      "Three.js Journey"
+    ]
+  },
+  "tech_highlights": [
+    "pressure projection",
+    "Beer-Lambert pigments"
+  ],
+  "cover": "covers/b8fc9a21-f73b-4ade-9351-8da032aa048e.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-09-01T07:56:52Z",
+  "my_notes": "",
+  "capture_status": "ok",
+  "source": "xiaoer-tools-wall"
+}

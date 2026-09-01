@@ -1,0 +1,61 @@
+{
+  "id": "b83a8e1b-7aa1-4e25-8163-91de2f9dc61c",
+  "url": "https://vgpu.sh/",
+  "name": "vgpu",
+  "headline": "为 Agent 设计的 WebGPU 库",
+  "intro": "vgpu 是面向 Agent 的 WebGPU 库：同一份 shader 可在浏览器和无头 Node 渲染，支持 Prompt、CLI、Skill 与 MCP，可用 npx vgpu 接入，适合把 GPU 效果交给代理驱动。",
+  "category": "🎨 视觉创作",
+  "subcategory": "3D",
+  "tags": [
+    "WebGPU",
+    "shader",
+    "AI Agent",
+    "MCP",
+    "CLI",
+    "Node",
+    "渲染"
+  ],
+  "capabilities": [
+    "同一 shader 浏览器与无头 Node 渲染",
+    "通过 CLI / Skill / MCP 接入",
+    "npx 快速安装",
+    "导出交互或视频"
+  ],
+  "scenarios": [
+    "让 Agent 生成或跑 shader 时",
+    "要无头渲染 WebGPU 画面时",
+    "把 GPU 效果接到 MCP 时"
+  ],
+  "search_keywords": [
+    "vgpu",
+    "WebGPU library",
+    "npx vgpu",
+    "MCP GPU",
+    "headless shader"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [
+      "three.js",
+      "wgpu",
+      "regl"
+    ],
+    "pairs_with": [
+      "Ink on paper",
+      "Three.js Journey",
+      "MCP clients"
+    ]
+  },
+  "tech_highlights": [
+    "Prompt · CLI · Skill · MCP",
+    "One shader, render everywhere"
+  ],
+  "cover": "covers/b83a8e1b-7aa1-4e25-8163-91de2f9dc61c.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-09-01T07:56:52Z",
+  "my_notes": "",
+  "capture_status": "ok",
+  "source": "xiaoer-tools-wall"
+}

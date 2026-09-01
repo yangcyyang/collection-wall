@@ -1,0 +1,58 @@
+{
+  "id": "a9890c58-cd77-4ad8-b2b4-dd0df401a6bc",
+  "url": "https://github.com/Nicolepcx/ai-agents-the-definitive-guide",
+  "name": "AI Agents Guide",
+  "headline": "智能体系统、评估与部署实践代码",
+  "intro": "《AI Agents The Definitive Guide》配套仓库，用 Jupyter Notebook 讲智能体系统、评估与部署，可在 Google Colab 直接打开各章，也可克隆后本地运行，适合跟着代码学 Agent 工程。",
+  "category": "🌐 网页与代码",
+  "subcategory": "AI 编程助手",
+  "tags": [
+    "AI Agents",
+    "Notebook",
+    "Colab",
+    "评估",
+    "部署",
+    "开源",
+    "教程"
+  ],
+  "capabilities": [
+    "按章节跑 Agent 实践 Notebook",
+    "在 Colab 打开各课",
+    "覆盖系统、评估与部署"
+  ],
+  "scenarios": [
+    "系统学 AI Agent 工程时",
+    "要可运行的示例代码时",
+    "对照评估与部署章节练习时"
+  ],
+  "search_keywords": [
+    "AI Agents The Definitive Guide",
+    "Nicolepcx",
+    "agent notebook",
+    "Colab agents"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [
+      "LangChain docs",
+      "LlamaIndex examples",
+      "OpenAI cookbook"
+    ],
+    "pairs_with": [
+      "Colab",
+      "LangChain",
+      "MkAgent"
+    ]
+  },
+  "tech_highlights": [
+    "Jupyter / Colab"
+  ],
+  "cover": "covers/a9890c58-cd77-4ad8-b2b4-dd0df401a6bc.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-09-01T07:56:52Z",
+  "my_notes": "",
+  "capture_status": "ok",
+  "source": "xiaoer-tools-wall"
+}

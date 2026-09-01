@@ -1,0 +1,64 @@
+{
+  "id": "a0d592d7-0057-4f47-b0d7-4fc43d614969",
+  "url": "https://skillry.dev/",
+  "name": "Skillry",
+  "headline": "精选 Agent Skills 与安装指引",
+  "intro": "Skillry 提供带示例的 Agent Skills 目录，覆盖网页、幻灯片、视频与图像等场景。可浏览技能库、申请新技能，并以 agent-first 方式安装到多种代理，适合给现有工作流补可复用能力。",
+  "category": "🛠️ 办公与效率",
+  "subcategory": "自动化",
+  "tags": [
+    "Agent Skills",
+    "自动化",
+    "多模态",
+    "工作流",
+    "AI代理",
+    "技能库",
+    "安装"
+  ],
+  "capabilities": [
+    "浏览精选 Agent Skills",
+    "按网页/幻灯片/视频/图像分类",
+    "查看示例与安装说明",
+    "连接多种 AI 代理",
+    "申请定制技能"
+  ],
+  "scenarios": [
+    "给现有 Agent 加可复用技能时",
+    "找幻灯片或视频生成技能时",
+    "给团队统一安装 agent skill 时"
+  ],
+  "search_keywords": [
+    "Skillry",
+    "Agent Skills",
+    "agent-first",
+    "技能库",
+    "PPT 技能",
+    "视频技能",
+    "安装技能"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [
+      "Claude Skills",
+      "MCP servers",
+      "Zapier"
+    ],
+    "pairs_with": [
+      "Claude",
+      "Cursor",
+      "ChatGPT"
+    ]
+  },
+  "tech_highlights": [
+    "Agent-first 安装",
+    "多代理兼容"
+  ],
+  "cover": "covers/a0d592d7-0057-4f47-b0d7-4fc43d614969.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-09-01T07:56:52Z",
+  "my_notes": "",
+  "capture_status": "ok",
+  "source": "xiaoer-tools-wall"
+}

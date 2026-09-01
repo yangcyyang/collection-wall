@@ -1,0 +1,55 @@
+{
+  "id": "4f921f53-b8b0-4a48-9930-4d0864e1bce0",
+  "url": "https://surya.website/",
+  "name": "Surya",
+  "headline": "设计师的 AI 创意技术作品集",
+  "intro": "Surya Narreddi 的个人站点：布鲁克林的设计师与创意技术人，NYU ITP 毕业，展示 AI 如何改写创作方式的作品与研究，包括用代码作画等实验。适合看独立实验方向与审美，而不是工具目录。",
+  "category": "🌟 灵感与审美",
+  "subcategory": "设计灵感",
+  "tags": [
+    "作品集",
+    "创意技术",
+    "AI创作",
+    "设计灵感",
+    "Brooklyn",
+    "ITP"
+  ],
+  "capabilities": [
+    "浏览 AI 创意实验作品",
+    "阅读研究与项目笔记",
+    "跳转相关开源与演示"
+  ],
+  "scenarios": [
+    "找 AI 与设计交叉灵感时",
+    "看独立创意技术作品集时",
+    "追踪代码作画等实验时"
+  ],
+  "search_keywords": [
+    "Surya Narreddi",
+    "surya.website",
+    "创意技术",
+    "AI 设计作品集",
+    "ITP"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [
+      "Bruno Simon",
+      "Codrops",
+      "Personal portfolios"
+    ],
+    "pairs_with": [
+      "vgpu",
+      "Three.js Journey"
+    ]
+  },
+  "tech_highlights": [],
+  "cover": "covers/4f921f53-b8b0-4a48-9930-4d0864e1bce0.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-09-01T07:56:52Z",
+  "my_notes": "",
+  "capture_status": "ok",
+  "source": "xiaoer-tools-wall"
+}

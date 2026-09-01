@@ -1,0 +1,54 @@
+{
+  "id": "1e5d004e-31f5-4e7e-9de1-bec5487784b6",
+  "url": "https://github.com/rorkai/app-store-connect-cli-skills",
+  "name": "ASC Skills",
+  "headline": "给 Agent 用的 App Store 发版技能",
+  "intro": "围绕 asc CLI 的 Agent Skills：把应用商店部署、订阅定价等操作交给代理执行，减少在 App Store Connect 里手工点选。与 asc CLI 搭配，适合把 iOS 发版写进 agent 工作流。",
+  "category": "🌐 网页与代码",
+  "subcategory": "CLI 工具",
+  "tags": [
+    "Agent Skills",
+    "App Store",
+    "asc",
+    "iOS发布",
+    "自动化",
+    "开源"
+  ],
+  "capabilities": [
+    "用技能驱动 asc CLI 发版",
+    "覆盖商店部署相关操作",
+    "给编码代理接上架流程"
+  ],
+  "scenarios": [
+    "让 Agent 帮你提交 TestFlight 时",
+    "把商店操作写成技能时",
+    "和 asc CLI 一起做 CI 时"
+  ],
+  "search_keywords": [
+    "ASC CLI skills",
+    "rorkai",
+    "app-store-connect-cli-skills",
+    "Agent Skills 发版"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [
+      "fastlane plugins",
+      "Skillry"
+    ],
+    "pairs_with": [
+      "asc CLI",
+      "Claude Code",
+      "Codex"
+    ]
+  },
+  "tech_highlights": [],
+  "cover": "covers/1e5d004e-31f5-4e7e-9de1-bec5487784b6.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-09-01T07:56:52Z",
+  "my_notes": "",
+  "capture_status": "ok",
+  "source": "xiaoer-tools-wall"
+}

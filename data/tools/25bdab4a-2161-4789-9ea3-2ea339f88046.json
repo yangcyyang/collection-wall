@@ -1,0 +1,59 @@
+{
+  "id": "25bdab4a-2161-4789-9ea3-2ea339f88046",
+  "url": "https://imageresizer.com/zh/%E5%9B%BE%E5%83%8F%E5%8E%8B%E7%BC%A9",
+  "name": "图像压缩器",
+  "headline": "免费在线压缩 JPEG 与 PNG",
+  "intro": "ImageResizer 的中文图像压缩页：拖放或选择图片即可有损压缩，宣称可缩小约 80%，支持 JPEG/PNG，单次最多 50 张、单文件 10MB。上传走 SSL，文件约 6 小时后自动删除。",
+  "category": "🎨 视觉创作",
+  "subcategory": "图像处理",
+  "tags": [
+    "图像压缩",
+    "在线工具",
+    "JPEG",
+    "PNG",
+    "免费",
+    "中文",
+    "批量"
+  ],
+  "capabilities": [
+    "在线压缩 JPEG/PNG",
+    "拖放上传",
+    "可选压缩强度",
+    "批量处理多张图"
+  ],
+  "scenarios": [
+    "网页图片需要瘦身时",
+    "不想装本地压缩软件时",
+    "批量压 PNG/JPEG 时"
+  ],
+  "search_keywords": [
+    "图像压缩器",
+    "imageresizer",
+    "在线压缩图片",
+    "JPEG PNG 压缩",
+    "免费压缩"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [
+      "TinyPNG",
+      "Squoosh",
+      "Compressor.io"
+    ],
+    "pairs_with": [
+      "ImageOptim",
+      "Figma"
+    ]
+  },
+  "tech_highlights": [
+    "lossy compression up to ~80%"
+  ],
+  "cover": "covers/25bdab4a-2161-4789-9ea3-2ea339f88046.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-09-01T07:56:52Z",
+  "my_notes": "",
+  "capture_status": "ok",
+  "source": "xiaoer-tools-wall"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "654e47c7-6c61-44f7-8fb0-c41762c33197",
+  "url": "https://surya.website/rling-qwen-to-paint-with-code",
+  "name": "AI 代码作画",
+  "headline": "用强化学习训练模型以代码画水彩",
+  "intro": "Surya 与 Cameron 用强化学习训练语言模型写代码来作画：产物是可编辑的代码而非死图，可改笔触而不只靠再提示。页面展示 Qwen 水彩实验与过程，强调代码即作品，日期为 2026 年 3 月。",
+  "category": "🌟 灵感与审美",
+  "subcategory": "艺术创意编程",
+  "tags": [
+    "强化学习",
+    "代码作画",
+    "水彩",
+    "Qwen",
+    "生成艺术",
+    "可编辑"
+  ],
+  "capabilities": [
+    "用代码而非提示生成画面",
+    "编辑生成的绘画代码",
+    "查看水彩实验过程"
+  ],
+  "scenarios": [
+    "不想只靠 prompt 改图时",
+    "研究 RL 作画时",
+    "找可编辑生成艺术案例时"
+  ],
+  "search_keywords": [
+    "Training AI to Paint with Code",
+    "Qwen watercolor",
+    "rling-qwen",
+    "代码作画",
+    "Surya"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [
+      "Processing",
+      "p5.js",
+      "Midjourney"
+    ],
+    "pairs_with": [
+      "Surya",
+      "vgpu"
+    ]
+  },
+  "tech_highlights": [
+    "reinforcement learning",
+    "editable code artefact"
+  ],
+  "cover": "covers/654e47c7-6c61-44f7-8fb0-c41762c33197.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-09-01T07:56:52Z",
+  "my_notes": "",
+  "capture_status": "ok",
+  "source": "xiaoer-tools-wall"
+}

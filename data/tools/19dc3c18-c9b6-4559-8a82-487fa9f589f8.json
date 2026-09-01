@@ -1,0 +1,62 @@
+{
+  "id": "19dc3c18-c9b6-4559-8a82-487fa9f589f8",
+  "url": "https://github.com/umputun/ralphex",
+  "name": "ralphex",
+  "headline": "扩展 Ralph 循环的自主编码代理",
+  "intro": "ralphex 把 Ralph loop 扩展为可自主执行计划的编程代理：自动跑代码、分阶段审查，面向 Claude Code、Codex 等编码代理工作流。可用 go install 或直接下载二进制运行。",
+  "category": "🌐 网页与代码",
+  "subcategory": "AI 编程助手",
+  "tags": [
+    "Ralph loop",
+    "AI代理",
+    "自动化",
+    "代码审查",
+    "Go",
+    "开源",
+    "CLI"
+  ],
+  "capabilities": [
+    "自主执行多阶段编码计划",
+    "对接 Claude Code / Codex",
+    "自动跑代码并审查",
+    "Go 安装或直接跑二进制"
+  ],
+  "scenarios": [
+    "要用 Ralph loop 跑长任务时",
+    "让编码代理连续执行计划时",
+    "给 Codex 或 Claude Code 加循环时"
+  ],
+  "search_keywords": [
+    "ralphex",
+    "Ralph loop",
+    "umputun",
+    "autonomous coding agent",
+    "ralph-wiggum",
+    "Go agent"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [
+      "Aider",
+      "OpenHands",
+      "vibe-kanban"
+    ],
+    "pairs_with": [
+      "Claude Code",
+      "Codex",
+      "MkAgent"
+    ]
+  },
+  "tech_highlights": [
+    "Go CLI",
+    "Ralph loop"
+  ],
+  "cover": "covers/19dc3c18-c9b6-4559-8a82-487fa9f589f8.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-09-01T07:56:52Z",
+  "my_notes": "",
+  "capture_status": "ok",
+  "source": "xiaoer-tools-wall"
+}

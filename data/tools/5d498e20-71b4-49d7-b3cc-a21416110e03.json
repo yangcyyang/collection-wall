@@ -1,0 +1,59 @@
+{
+  "id": "5d498e20-71b4-49d7-b3cc-a21416110e03",
+  "url": "https://huggingface.co/datasets/markov-ai/cad-1000-hours",
+  "name": "CAD 1000 Hours",
+  "headline": "千小时 CAD 屏幕操作数据集",
+  "intro": "Hugging Face 数据集 cad-1000-hours：约一千小时 CAD/BIM 软件屏幕录制与键鼠事件，用于训练 computer-use 模型。含 SolidWorks 等操作轨迹，体量约 276GB。",
+  "category": "🤖 AI 大模型",
+  "subcategory": "多模态",
+  "tags": [
+    "数据集",
+    "CAD",
+    "computer-use",
+    "屏幕录制",
+    "SolidWorks",
+    "Hugging Face",
+    "视频"
+  ],
+  "capabilities": [
+    "下载 CAD 屏幕录制数据",
+    "查看键鼠操作轨迹",
+    "训练 computer-use 模型"
+  ],
+  "scenarios": [
+    "训练 GUI/CAD 代理时",
+    "要大规模屏幕操作数据时",
+    "研究 computer-use 轨迹时"
+  ],
+  "search_keywords": [
+    "cad-1000-hours",
+    "markov-ai",
+    "computer-use dataset",
+    "SolidWorks 数据集",
+    "CAD 屏幕录制"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [
+      "OSWorld",
+      "AndroidControl",
+      "Mind2Web"
+    ],
+    "pairs_with": [
+      "Hugging Face",
+      "Qwen",
+      "computer-use agents"
+    ]
+  },
+  "tech_highlights": [
+    "screen recording + action logs"
+  ],
+  "cover": "covers/5d498e20-71b4-49d7-b3cc-a21416110e03.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-09-01T07:56:52Z",
+  "my_notes": "",
+  "capture_status": "ok",
+  "source": "xiaoer-tools-wall"
+}

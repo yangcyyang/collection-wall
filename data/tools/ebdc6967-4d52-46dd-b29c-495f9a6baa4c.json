@@ -1,0 +1,62 @@
+{
+  "id": "ebdc6967-4d52-46dd-b29c-495f9a6baa4c",
+  "url": "https://threejs-journey.com/",
+  "name": "Three.js Journey",
+  "headline": "从入门到 WebGPU 的 3D 课程",
+  "intro": "Bruno Simon 的 Three.js 在线课程，含 87 课、116 小时视频，覆盖 Three.js、WebGL、WebGPU 与 TSL，从零到进阶 3D 网页开发，并有挑战与社区。付费终身访问。",
+  "category": "📚 知识与学习",
+  "subcategory": "学习平台",
+  "tags": [
+    "Three.js",
+    "WebGL",
+    "WebGPU",
+    "TSL",
+    "3D网页",
+    "在线课程",
+    "付费",
+    "英文"
+  ],
+  "capabilities": [
+    "系统学习 Three.js 与 WebGL",
+    "跟进 WebGPU 与 TSL 新课",
+    "完成挑战与社区练习",
+    "从零做到进阶 3D 网页"
+  ],
+  "scenarios": [
+    "想系统学 Three.js 时",
+    "要从 WebGL 转到 WebGPU 时",
+    "做 3D 作品集需要完整路径时"
+  ],
+  "search_keywords": [
+    "Three.js Journey",
+    "Bruno Simon",
+    "WebGPU TSL",
+    "3D 网页课程",
+    "WebGL 教程"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [
+      "Discover Three.js",
+      "Codrops",
+      "Frontend Masters"
+    ],
+    "pairs_with": [
+      "three.js",
+      "Blender",
+      "vgpu"
+    ]
+  },
+  "tech_highlights": [
+    "116 hours of video",
+    "WebGPU & TSL"
+  ],
+  "cover": "covers/ebdc6967-4d52-46dd-b29c-495f9a6baa4c.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-09-01T07:56:52Z",
+  "my_notes": "",
+  "capture_status": "ok",
+  "source": "xiaoer-tools-wall"
+}
