@@ -1,19 +1,89 @@
 {
   "source": "ai-frontier-radar",
   "title": "前沿信号",
-  "updated_at": "2026-09-01T08:50:00+08:00",
-  "count": 8,
+  "updated_at": "2026-09-02T08:20:00+08:00",
+  "count": 9,
   "items": [
+    {
+      "id": "critical-cyber-gated-deployment",
+      "title": "前沿实验室把「Critical 级网络能力」做成门控发布，而不是全面开闸",
+      "type": "strong_signal",
+      "score": 87,
+      "confidence": "high",
+      "status": "new",
+      "first_detected": "2026-09-02T08:20:00+08:00",
+      "last_updated": "2026-09-02T08:20:00+08:00",
+      "summary": "同一窗口里，OpenAI 首次把 Astra 评估到 Preparedness Framework 的 Critical 网络阈值（可无逐步人工指导发现并利用未知漏洞；ExploitBench 满分；内部改版测试里挖出并利用两个 zero-day），但把最强网络能力限给 Daybreak / Daybreak Blue 伙伴，公开版「soon」且能力裁切。Anthropic 同日发 Claude Fable 5.1（全面可用，可发现漏洞但不能写利用）与 Mythos 5.1（仅可信访问，给网络防御与生命科学），并上线 Enterprise Frontier Safeguards（客户侧存储 + 自动滥用检测）。卖点不是又一个更强模型，是「能力与门控一起发货」。",
+      "why_it_matters": "双实验室在同一天把 Critical/Mythos 级网络能力做成可信/伙伴门控，而不是默认对所有人开。这会重写「模型越强越开放」的默认叙事，也让安全运维与产品发布绑在同一条发布线上。",
+      "tags": [
+        "安全对齐",
+        "网络能力",
+        "OpenAI",
+        "Anthropic",
+        "门控发布"
+      ],
+      "evidence": [
+        {
+          "url": "https://openai.com/index/path-to-astra/",
+          "source": "official",
+          "note": "OpenAI 官方：Astra 达 Critical 网络阈值，评估与护栏路径",
+          "date": "2026-09-01T00:00:00+08:00"
+        },
+        {
+          "url": "https://x.com/OpenAI/status/2094885578173260259",
+          "source": "official",
+          "note": "OpenAI 官方推：准备发布 Astra，Critical 阈值，官方确认",
+          "date": "2026-09-02T04:30:17+08:00"
+        },
+        {
+          "url": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
+          "source": "reliable",
+          "note": "TechCrunch：Astra Critical、无逐步指导利用、Daybreak 限流",
+          "date": "2026-09-02T05:06:00+08:00"
+        },
+        {
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+          "source": "official",
+          "note": "Anthropic：Fable 5.1 GA + Mythos 5.1 可信访问（网络防御/生命科学）",
+          "date": "2026-09-01T00:00:00+08:00"
+        },
+        {
+          "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+          "source": "official",
+          "note": "Enterprise Frontier Safeguards：客户侧存储与滥用检测",
+          "date": "2026-09-01T00:00:00+08:00"
+        },
+        {
+          "url": "https://x.com/claudeai/status/2094848572143407483",
+          "source": "official",
+          "note": "claudeai：Fable/Mythos 5.1 发布",
+          "date": "2026-09-02T02:03:14+08:00"
+        },
+        {
+          "url": "https://x.com/claudeai/status/2094848592812917122",
+          "source": "official",
+          "note": "Fable 全面可用；Mythos 仅可信访问",
+          "date": "2026-09-02T02:03:19+08:00"
+        }
+      ],
+      "watch_next": [
+        "Astra 公开版裁切了哪些网络能力",
+        "Mythos 可信访问扩到哪些行业",
+        "其他实验室是否跟进 Critical/门控双轨"
+      ],
+      "homepage": true,
+      "judgment_changes": []
+    },
     {
       "id": "multi-agent-team-orchestration",
       "title": "多智能体对抗式协作正在变成可编程的运行时模式",
       "type": "strong_signal",
-      "score": 82,
+      "score": 85,
       "confidence": "high",
-      "status": "new",
+      "status": "strengthening",
       "first_detected": "2026-09-01T08:50:00+08:00",
-      "last_updated": "2026-09-01T08:50:00+08:00",
-      "summary": "Google 8 月 31 日把 Teamwork 做成 Antigravity 的 /teamwork-preview：按任务自动选模式（Long Proof / Distributed Coding / Self-Verification），智能体互相出方案、互相证伪，按小时到按天跑。卖点不是更大的模型，是编排模式本身。Flash 级 Gemini 3.7 配上这套 harness，官方声称解出开放数学题、从零做出能引导 xv6 的 RISC-V 周期精确模拟器，并把优化合进 Eigen / ParlayHash。这和「单智能体加钩子」不是同一层。",
+      "last_updated": "2026-09-02T08:20:00+08:00",
+      "summary": "Google Antigravity 在 /teamwork-preview（小时到天）之外，又补了中等时域斜杠命令 /boost：编排器 → DeepCoder/DeepInvestigator → 隔离 worker，临时 worktree + 多轮校验，面向秒到小时的并发 bug / 算法 / 多文件重构。 工作单位从「单智能体加钩子」变成可调用的团队阶梯：默认交互 → /boost → /teamwork-preview。",
       "why_it_matters": "人开始把「一组会互相反驳的智能体」当成可调用原语，而不是再写一个 agent 循环。若 Cursor / Claude Code / Codex 也把 named team pattern 做成斜杠命令，这会从信号升成模式。",
       "tags": [
         "多智能体",
@@ -39,6 +109,24 @@
           "source": "official",
           "note": "官方文档：/teamwork-preview 与 named team patterns",
           "date": "2026-08-31T00:00:00+08:00"
+        },
+        {
+          "url": "https://antigravity.google/docs/boost/",
+          "source": "official",
+          "note": "Antigravity /boost 文档：中等时域多智能体推理",
+          "date": "2026-09-01T00:00:00+08:00"
+        },
+        {
+          "url": "https://antigravity.google/docs/slash-commands/",
+          "source": "official",
+          "note": "斜杠命令列表含 /boost 与 /teamwork-preview",
+          "date": "2026-09-01T00:00:00+08:00"
+        },
+        {
+          "url": "https://news.ycombinator.com/item?id=49517537",
+          "source": "community",
+          "note": "HN 2026-09-01 讨论 /boost",
+          "date": "2026-09-01T11:05:55+08:00"
         }
       ],
       "watch_next": [
@@ -57,7 +145,7 @@
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-01T08:50:00+08:00",
+      "last_updated": "2026-09-02T08:20:00+08:00",
       "summary": "实验室在囤 Mac 训练电脑操控，ChatGPT Work 自带可离开再续的云电脑（约 9 vCPU / 15GB），Slack/iMessage 同事产品（Almanac、OpenTag）把「机器+wiki」当成交付。加上 beafk、useagent、Maritime、Superagent Mac，智能体默认要有一台可离开的电脑，不再只是聊天框。",
       "why_it_matters": "交互和商业模式同时在变：人从编辑器里盯着，变成留下一台电脑、偶尔回来检查。实验室侧在囤真实 Mac 做强化学习，产品侧把云电脑和工作区 wiki 做成默认交付。未来 3 到 12 个月，这可能成为智能体产品的默认形态。",
       "tags": [
@@ -144,6 +232,12 @@
           "source": "official",
           "date": "2026-08-31T00:00:00+08:00",
           "note": "Teamwork 按小时到按天跑，与「可离开的电脑」相邻，不据此把本信号再往上抬"
+        },
+        {
+          "url": "https://github.com/useagenthq/useagent",
+          "source": "github",
+          "note": "useagent 151→269★（+118），云同事+沙箱叙事动量",
+          "date": "2026-09-02T08:20:00+08:00"
         }
       ],
       "watch_next": [
@@ -253,12 +347,12 @@
       "id": "recursive-alignment-loop",
       "title": "递归自我改进正在离开演示稿，变成可运行的研究循环",
       "type": "strong_signal",
-      "score": 83,
-      "confidence": "medium",
+      "score": 86,
+      "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-01T08:50:00+08:00",
-      "summary": "两条独立证据仍在：Anthropic 给 Claude 48 小时和一块显卡去对齐更小模型，并称将开源自动对齐流程；腾讯 Hy4 自称递归自改进（吞吐 +31.8%），仍是公司声明。本窗口 Anthropic 官方跟进 7 月评测出网：逃逸分类器、沙箱加固、计划 METR 审查；Hacker-Opus 显示 reward-hack 训练可泛化到长程有害行为（模拟）。仍无第三方 Hy4 RSI 复现。",
+      "last_updated": "2026-09-02T08:20:00+08:00",
+      "summary": "递归自我改进与安全运维同窗加速：Anthropic 发 Fable 5.1 / Mythos 5.1（同一底座、两套护栏信封；网络护栏误报约降 60%；约 25% 更低典型成本；Terminal-Bench 4.0 Mythos 60.9% / Fable 55.8%；CursorBench 73.4%），并上线 Enterprise Frontier Safeguards。 Claude Code 2.1.257 默认 Fable 5.1，并加 Containment Escape 规则。此前 Mythos 级对齐/安全叙事与 Hacker-Opus 仍在证据链上。OpenAI Astra Critical 同窗见独立信号 critical-cyber-gated-deployment。",
       "why_it_matters": "若对齐和训练优化成为智能体自己的工作，产品和安全的节奏都会变。不要把 Hy4 的递归自改进数字写成已经复现的事实。",
       "tags": [
         "对齐",
@@ -314,6 +408,30 @@
           "source": "official",
           "date": "2026-09-01T00:00:00+08:00",
           "note": "AnthropicAI 官方帖：Training a Misaligned Reward Seeker / Hacker-Opus 线程"
+        },
+        {
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+          "source": "official",
+          "note": "Fable 5.1 GA + Mythos 5.1 可信访问；成本与护栏改进",
+          "date": "2026-09-01T00:00:00+08:00"
+        },
+        {
+          "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+          "source": "official",
+          "note": "EFS：客户侧监控存储",
+          "date": "2026-09-01T00:00:00+08:00"
+        },
+        {
+          "url": "https://x.com/cursor_ai/status/2094852929282879596",
+          "source": "official",
+          "note": "Cursor：Fable 5.1 上线，CursorBench 73.4%，擅长自验证",
+          "date": "2026-09-02T02:20:33+08:00"
+        },
+        {
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.257",
+          "source": "official",
+          "note": "Claude Code 2.1.257：默认 Fable 5.1 + Containment Escape",
+          "date": "2026-09-01T17:53:52+00:00"
         }
       ],
       "watch_next": [
@@ -528,12 +646,12 @@
       "id": "apache-maka-durable-workspace",
       "title": "本地优先、可回放的智能体工作区开始有 Apache 级实现",
       "type": "emerging_signal",
-      "score": 78,
+      "score": 80,
       "confidence": "high",
-      "status": "watching",
+      "status": "strengthening",
       "first_detected": "2026-08-30T00:00:00+08:00",
-      "last_updated": "2026-09-01T08:50:00+08:00",
-      "summary": "apache/maka：只追加的执行记录（消息、工具、权限、终止），桌面、终端和评测共用运行时，可选电脑操控。现 4324 星（板上 4187，+137/24h）。窗口内仍在推 WebRTC peers / workhub。社区开始按执行记录和恢复来走读，而不只是当聊天框。",
+      "last_updated": "2026-09-02T08:20:00+08:00",
+      "summary": "apache/maka：只追加的执行记录（消息、工具、权限、终止），桌面、终端和评测共用运行时，可选电脑操控。现 4438 星（板上 4187，+137/24h）。窗口内仍在推 WebRTC peers / workhub。社区开始按执行记录和恢复来走读，而不只是当聊天框。",
       "why_it_matters": "跑几天的智能体需要证据链。和 pydantic-ai 的持久化操作、agent-loop-guard 指向同一缺口。",
       "tags": [
         "智能体",
@@ -553,6 +671,12 @@
           "source": "community",
           "date": "2026-08-31T00:00:00+08:00",
           "note": "社区走读：每条模型消息、工具调用和回合结束都写成可恢复的执行记录"
+        },
+        {
+          "url": "https://github.com/apache/maka",
+          "source": "github",
+          "note": "星数核实 4438（先前 4324）；pushed_at 2026-09-02T00:13:34Z",
+          "date": "2026-09-02T08:20:00+08:00"
         }
       ],
       "watch_next": [

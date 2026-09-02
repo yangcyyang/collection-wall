@@ -1,9 +1,29 @@
 {
   "source": "ai-frontier-radar",
   "title": "新产品",
-  "updated_at": "2026-09-01T08:50:00+08:00",
-  "count": 12,
+  "updated_at": "2026-09-02T08:20:00+08:00",
+  "count": 15,
   "items": [
+    {
+      "id": "murmell",
+      "name": "Murmell",
+      "score": 76,
+      "status": "new",
+      "first_detected": "2026-09-02T08:20:00+08:00",
+      "last_updated": "2026-09-02T08:20:00+08:00",
+      "summary": "共享云画布：人与 Claude Code / Codex / Kimi / OpenCode 在同一仓库并行；合上笔记本智能体还在跑。服务端强制文件预留，避免多写者互相踩；统一记忆与冻结/恢复；按机器+房间收费，自带模型密钥。",
+      "novelty": "多智能体+人并行写同一仓库时的文件预留与房间级计费，不是又一个托管壳",
+      "urls": {
+        "site": "https://murmell.com/",
+        "ph": "https://www.producthunt.com/products/murmell"
+      },
+      "tags": [
+        "多智能体",
+        "AFK",
+        "云电脑"
+      ],
+      "homepage": true
+    },
     {
       "id": "almanac",
       "name": "Almanac",
@@ -22,26 +42,6 @@
         "智能体",
         "Slack",
         "wiki"
-      ],
-      "homepage": true
-    },
-    {
-      "id": "staats",
-      "name": "Staats",
-      "score": 69,
-      "status": "new",
-      "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-08-31T08:45:00+08:00",
-      "summary": "没有仪表盘的网站分析。真正用户是编程智能体：同一智能体写功能、装追踪、给部署打标签、量前后差异，再带着证据建议下一步。网页只用来管账单和密钥。",
-      "novelty": "分析产品的界面是 MCP，不是图表",
-      "urls": {
-        "site": "https://www.staats.ai/",
-        "ph": "https://www.producthunt.com/products/staats-3"
-      },
-      "tags": [
-        "分析",
-        "MCP",
-        "编程智能体"
       ],
       "homepage": true
     },
@@ -90,11 +90,11 @@
     {
       "id": "useagent",
       "name": "useagent",
-      "score": 83,
+      "score": 85,
       "status": "new",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-01T08:50:00+08:00",
-      "summary": "把 Claude Code、Codex、OpenCode、Pi 包成引擎，隔离 Linux 沙箱，带事件溯源和人机确认。8 月 29 日新建，现 151 星。",
+      "last_updated": "2026-09-02T08:20:00+08:00",
+      "summary": "把 Claude Code、Codex、OpenCode、Pi 包成引擎，隔离 Linux 沙箱，带事件溯源和人机确认。8 月 29 日新建，现 269 星（先前 151）。",
       "novelty": "云电脑加任意运行时加事件日志，产品化成同事而不是又一个聊天框",
       "urls": {
         "github": "https://github.com/useagenthq/useagent",
@@ -105,7 +105,68 @@
         "沙箱"
       ],
       "homepage": true,
-      "notes": "GitHub 星已核实 151（useagenthq/useagent；板上 129）"
+      "notes": "GitHub 星已核实 269（useagenthq/useagent；板上 151）"
+    },
+    {
+      "id": "staats",
+      "name": "Staats",
+      "score": 69,
+      "status": "new",
+      "first_detected": "2026-08-29T00:00:00+08:00",
+      "last_updated": "2026-08-31T08:45:00+08:00",
+      "summary": "没有仪表盘的网站分析。真正用户是编程智能体：同一智能体写功能、装追踪、给部署打标签、量前后差异，再带着证据建议下一步。网页只用来管账单和密钥。",
+      "novelty": "分析产品的界面是 MCP，不是图表",
+      "urls": {
+        "site": "https://www.staats.ai/",
+        "ph": "https://www.producthunt.com/products/staats-3"
+      },
+      "tags": [
+        "分析",
+        "MCP",
+        "编程智能体"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "trustedrouter",
+      "name": "TrustedRouter",
+      "score": 73,
+      "status": "new",
+      "first_detected": "2026-09-02T08:20:00+08:00",
+      "last_updated": "2026-09-02T08:20:00+08:00",
+      "summary": "OpenAI 兼容的多模型网关，走硬件证明的 TEE 隐私路径（ZDR / 机密端到端 / fail-closed）。",
+      "novelty": "带硬件证明的隐私网关，不是普通 OpenRouter 克隆",
+      "urls": {
+        "site": "https://trustedrouter.com/",
+        "ph": "https://www.producthunt.com/products/trustedrouter",
+        "trust": "https://trust.trustedrouter.com/"
+      },
+      "tags": [
+        "网关",
+        "隐私",
+        "TEE"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "naseem",
+      "name": "Naseem",
+      "score": 66,
+      "status": "watching",
+      "first_detected": "2026-09-02T08:20:00+08:00",
+      "last_updated": "2026-09-02T08:20:00+08:00",
+      "summary": "Swift 原生 Mac 智能体 harness：文件、终端、Accessibility 电脑操控、iOS Simulator、MCP/Skills、Telegram 遥控。审批优先、可选自治。",
+      "novelty": "本机审批优先的 Mac harness；与 Superagent Mac 同品类但姿态不同",
+      "urls": {
+        "site": "https://ayman3000.github.io/naseem-app/",
+        "ph": "https://www.producthunt.com/products/naseem-2"
+      },
+      "tags": [
+        "Mac",
+        "本地",
+        "审批"
+      ],
+      "homepage": false
     },
     {
       "id": "opentag",
