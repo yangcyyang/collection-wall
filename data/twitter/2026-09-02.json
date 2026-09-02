@@ -9,6 +9,608 @@
   },
   "items": [
     {
+      "id": "2095178994438353327",
+      "author": "CuiMao",
+      "bio": "",
+      "text": "Gemini 神不知鬼不觉的出了个 3.8flash，感觉有点国企的味道了，纯纯的政治任务，不得不发， 不发下个季度就没预算，🤣🤣🤣这个模型真的不知道谷歌做训练的团队在干嘛，是彻底摆烂了吗。都说 Gemini 在憋大招，我看 Gemini 3 刚发布的巅峰时刻是彻底回不去了。",
+      "created_at": "Wed Sep 02 15:56:13 +0000 2026",
+      "likes": 7,
+      "views": "887",
+      "url": "https://x.com/i/status/2095178994438353327",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 55.007,
+      "title": null,
+      "summary": "Gemini 神不知鬼不觉的出了个 3.8flash，感觉有点国企的味道了，纯纯的政治任务，不得不发， 不发下个季度就没预算，🤣🤣🤣这个模型真的不知道谷歌做训练的团队在干嘛，是彻底摆烂了吗。都说 Gemini 在憋大招，我看 Gemini 3 刚发布的巅峰时刻是彻底回不去了。",
+      "recommend_reason": "中文圈对「高频小版本」的负面读法：像 KPI 发版而非峰值突破，和官方叙事形成对照。",
+      "tags": [
+        "Gemini",
+        "Flash",
+        "评论",
+        "中文",
+        "产品节奏"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2095178478505328918",
+      "author": "OfficialLoganK",
+      "bio": "",
+      "text": "Gemini 3.8 Flash on DeepSWE 1.1, scores 73.7%! https://t.co/JW7fhVy4He",
+      "created_at": "Wed Sep 02 15:54:10 +0000 2026",
+      "likes": 598,
+      "views": "16006",
+      "url": "https://x.com/i/status/2095178478505328918",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRORhX1akAAtpcJ.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRORhX1akAAtpcJ.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 80.056,
+      "title": null,
+      "summary": "Gemini 3.8 Flash 在 DeepSWE 1.1 上跑到 73.7%。",
+      "recommend_reason": "用具体基准分把「又一次 Flash」落到可对比数字，方便和其他 coding 模型横评。",
+      "tags": [
+        "Gemini",
+        "Flash",
+        "DeepSWE",
+        "评测",
+        "Coding"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2095177414804472160",
+      "author": "ammaar",
+      "bio": "",
+      "text": "Gemini 3.8 Flash is here! 🚀 \n\nOnly 3 weeks since the last release, we now have a flash model that beats flagship ones on a variety of benchmarks all for just $0.75 / million input tokens.\n\nAvailable today in AI Studio, Gemini app, and Antigravity.\n\nBack to shipping :) https://t.co/3p3xHKX6I4",
+      "created_at": "Wed Sep 02 15:49:56 +0000 2026",
+      "likes": 74,
+      "views": "2059",
+      "url": "https://x.com/i/status/2095177414804472160",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HROQwDpaAAAFHnk.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HROQwDpaAAAFHnk.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 76.974,
+      "title": "Gemini 3.8 Flash：$0.75/百万 input，三周再发一版",
+      "summary": "距上次 Flash 仅三周，新版宣称多项基准超过旗舰，输入价约 $0.75/百万 token；已上线 AI Studio、Gemini App 与 Antigravity。",
+      "recommend_reason": "价格+可用面（Studio/App/Antigravity）比口号更有用，适合判断能不能立刻换进工作流。",
+      "tags": [
+        "Gemini",
+        "Flash",
+        "定价",
+        "Google AI Studio",
+        "Antigravity"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2095177202380017669",
+      "author": "stitchbygoogle",
+      "bio": "",
+      "text": "Gemini 3.8 Flash has landed in Stitch! 🚀\n\nYour design partner just leveled up:\n\n👁️Attention to Detail: Screens look production-ready faster, with more detailed and realistic UI elements\n\n🖼️Richer Visuals: Generates smarter underlying image prompts, delivering visuals that better align with your page content and brand\n\n🎯 Improved Instruction Following: Grasps complex, nuanced design edits on the first try.\n\nSee the difference Gemini 3.8 Flash makes in the video below. Sound on and enjoy our new default model! 🔊👇",
+      "created_at": "Wed Sep 02 15:49:06 +0000 2026",
+      "likes": 60,
+      "views": "4280",
+      "url": "https://x.com/i/status/2095177202380017669",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2095176255897518080/vid/avc1/320x400/Fk7UQ7i9_OpDsxKX.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2095176255897518080/img/cH2X9hYQtQ-bANQ6.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2095175498967949359",
+        "author": "GoogleDeepMind",
+        "name": "Google DeepMind",
+        "text": "Two new Gemini models are here to help scale your AI agents and secure code:\n\n🔘 3.8 Flash: our most intelligent model yet with significant gains from 3.7 Flash across software engineering, agentic tasks, and multi-step reasoning.\n\n🔘 3.8 Flash Cyber: our most capable cybersecurity model with frontier-level vulnerability detection and automated patching.",
+        "created_at": "Wed Sep 02 15:42:20 +0000 2026",
+        "url": "https://x.com/GoogleDeepMind/status/2095175498967949359",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/tweet_video/HROEvCPXsAE-yJl.mp4"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/tweet_video_thumb/HROEvCPXsAE-yJl.jpg"
+        ]
+      },
+      "score": 69.05,
+      "title": "Stitch 默认模型换成 Gemini 3.8 Flash",
+      "summary": "Google Stitch 已接入 3.8 Flash：界面细节更接近可上线、配图提示更贴品牌、复杂设计改动能一次跟住指令；视频对比新旧效果。",
+      "recommend_reason": "模型发布当天就进设计工具默认位，说明 Google 在用自家产品矩阵给 Flash 做真实场景验收。",
+      "tags": [
+        "Stitch",
+        "Gemini",
+        "Flash",
+        "UI设计",
+        "Google"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2095176927879512455",
+      "author": "rowancheung",
+      "bio": "",
+      "text": "Products I use that integrate AI perfectly (use regularly)\n\n-Notion AI\n-Spotify (AI DJ)\n-Whoop\n-Slack (Slackbot)\n-X (Grok)\n\nThe ones that failed (never use):\n\n-Instagram (Meta AI)\n-Apple Intelligence\n-DoorDash (AI chatbot)\n-Gmail \"Help me write\n-Google Meet \"take notes for me”\n\nWhat else?",
+      "created_at": "Wed Sep 02 15:48:00 +0000 2026",
+      "likes": 17,
+      "views": "5508",
+      "url": "https://x.com/i/status/2095176927879512455",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 55.717,
+      "title": "常用 AI 集成 vs 几乎不用：一份个人清单",
+      "summary": "作者常用：Notion AI、Spotify AI DJ、Whoop、Slackbot、X/Grok；几乎不用：Instagram Meta AI、Apple Intelligence、DoorDash 聊天、Gmail Help me write、Google Meet 自动笔记。征集补充。",
+      "recommend_reason": "「嵌进已有习惯才留得住」比功能清单更真实，适合对照自家产品的嵌入深度。",
+      "tags": [
+        "产品",
+        "AI集成",
+        "体验",
+        "Notion",
+        "Grok"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2095175881690173885",
+      "author": "OfficialLoganK",
+      "bio": "",
+      "text": "Introducing Gemini 3.8 Flash, another jump in Gemini's agentic + coding capabilities, and our 3rd updated Flash model in only 6 weeks...\n\nThis model has been a ton of fun to work with, excited to see what you all think! https://t.co/Cj07lCBtp8",
+      "created_at": "Wed Sep 02 15:43:51 +0000 2026",
+      "likes": 2307,
+      "views": "69102",
+      "url": "https://x.com/i/status/2095175881690173885",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HROMzF5boAAlg1Y.png",
+        "https://pbs.twimg.com/media/HROMzFAaAAE2R-m.jpg",
+        "https://pbs.twimg.com/media/HROMzF_aoAExVqT.jpg",
+        "https://pbs.twimg.com/media/HROMzENaYAAHSmD.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HROMzF5boAAlg1Y.png",
+        "https://pbs.twimg.com/media/HROMzFAaAAE2R-m.jpg",
+        "https://pbs.twimg.com/media/HROMzF_aoAExVqT.jpg",
+        "https://pbs.twimg.com/media/HROMzENaYAAHSmD.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 83.111,
+      "title": "Gemini 3.8 Flash：六周内第三次 Flash 升级",
+      "summary": "Google 产品侧放出 Gemini 3.8 Flash，强调 agentic 与编程能力又一次跃升；这是六周内第三次更新 Flash。配图多张，官方邀请社区试用反馈。",
+      "recommend_reason": "Flash 迭代节奏本身就是信号：Google 在用高频小版本抢 agent/coding 体验，而不是憋大版本。",
+      "tags": [
+        "Gemini",
+        "Flash",
+        "Agent",
+        "Coding",
+        "Google"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2095175759606231439",
+      "author": "GoogleAI",
+      "bio": "",
+      "text": "We’re introducing Gemini 3.8 Flash ⚡️ built to tackle complex agentic and multi-step tasks with even greater diligence.\n\nOur most intelligent workhorse model yet delivers significant  improvements in reasoning, evolving to an AI partner that doesn’t just write code, but can also navigate complex projects.\n\nWhile solving ambiguous and high-friction tasks is immensely helpful, it can also be expensive. Fortunately, 3.8 Flash features the usual effort controls, ensuring that the amount of thinking required to accomplish the task at hand is proportional to the tokens spent.\n\nWatch Gemini 3.8 Flash combine native video understanding with advanced coding to autonomously build this 3D game, play it to find errors, and execute code changes in a seamless agentic loop in @antigravity.",
+      "created_at": "Wed Sep 02 15:43:22 +0000 2026",
+      "likes": 216,
+      "views": "16711",
+      "url": "https://x.com/i/status/2095175759606231439",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2095175557256294404/vid/avc1/480x270/8uo09noqtaW5FoIL.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2095175557256294404/img/sD68APNvyk_ljGlF.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 70.715,
+      "title": "Gemini 3.8 Flash：effort 控制 + Antigravity 闭环演示",
+      "summary": "官方定位为最智能的 workhorse：强化推理与复杂项目导航，并保留 effort 档位让思考量与 token 花销成比例。演示里结合原生视频理解与编程，在 Antigravity 里自主搭 3D 游戏、找错再改代码。",
+      "recommend_reason": "effort 控成本 +「看视频→写代码→自测→改」闭环，是 Flash 相对旗舰的实用卖点。",
+      "tags": [
+        "Gemini",
+        "Flash",
+        "Antigravity",
+        "Agent",
+        "Effort"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2095175498967949359",
+      "author": "GoogleDeepMind",
+      "bio": "",
+      "text": "Two new Gemini models are here to help scale your AI agents and secure code:\n\n🔘 3.8 Flash: our most intelligent model yet with significant gains from 3.7 Flash across software engineering, agentic tasks, and multi-step reasoning.\n\n🔘 3.8 Flash Cyber: our most capable cybersecurity model with frontier-level vulnerability detection and automated patching.",
+      "created_at": "Wed Sep 02 15:42:20 +0000 2026",
+      "likes": 651,
+      "views": "40433",
+      "url": "https://x.com/i/status/2095175498967949359",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/tweet_video/HROEvCPXsAE-yJl.mp4"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/tweet_video_thumb/HROEvCPXsAE-yJl.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 74.092,
+      "title": "Gemini 3.8 Flash 与 3.8 Flash Cyber 同发",
+      "summary": "DeepMind 同时推出两款：3.8 Flash 主打软件工程、agent 与多步推理；3.8 Flash Cyber 面向网络安全，强调前沿级漏洞发现与自动打补丁。",
+      "recommend_reason": "同一天拆出「通用 agent Flash」和「网络安全专用 Flash」，说明 Google 在垂直化安全 agent。",
+      "tags": [
+        "Gemini",
+        "Flash",
+        "Cyber",
+        "安全",
+        "DeepMind"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2095172731666833422",
+      "author": "bentossell",
+      "bio": "",
+      "text": "remove .bg is being sunset\n\nso fable made me my own (you can clone it) https://t.co/OXeBA6BLHK",
+      "created_at": "Wed Sep 02 15:31:20 +0000 2026",
+      "likes": 10,
+      "views": "1145",
+      "url": "https://x.com/i/status/2095172731666833422",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HROMe5LXYAM4ii3.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HROMe5LXYAM4ii3.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 60.781,
+      "title": null,
+      "summary": "remove.bg 即将下线，作者用 Fable 自己做了一个可克隆的替代品。",
+      "recommend_reason": "经典 SaaS 功能被模型现场复刻，是「agent 替你补工具空缺」的直观例子。",
+      "tags": [
+        "Fable 5",
+        "remove.bg",
+        "克隆",
+        "工具",
+        "Agent"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2095169323061182949",
+      "author": "GoSailGlobal",
+      "bio": "",
+      "text": "拿着别人项目充当自己作品@yanliudreamer\n（是Teams组的，但是所有作品集以及公开演讲，简历都说自己是Copilot team lead Copilot across Microsoft various products）\n\n从spotify开始到微软，还想去openai @OpenAI 和anthropic @AnthropicAI\n\n阿妍在designing\n\n微软 @Meta 设计师都被搞臭了，同公司的人爆料",
+      "created_at": "Wed Sep 02 15:17:47 +0000 2026",
+      "likes": 7,
+      "views": "1319",
+      "url": "https://x.com/i/status/2095169323061182949",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HROIYaPaYAA3-bd.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HROIYaPaYAA3-bd.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2095045826146172998",
+        "author": "GoSailGlobal",
+        "name": "Jason Zhu",
+        "text": "四重实锤：硅谷大厂AI首席设计师 @yanliudreamer \n\n1️⃣ 蒸馏 \n— reference-analysis.json 把 12 张图逐一拆解成 typography / colors / layout / style / signature_moves(招牌手法);构建脚本自述 \"DERIVED FROM 12 REFERENCES\"、\"EACH VOICE MAPS TO SPECIFIC SOURCE EVIDENCE\"\n\n这是\"蒸馏\"的教科书定义:提取他人作品的设计 DNA 重组成可复用系统。\n\n2️⃣ 未署名 \n— JSON 里 零来源字段:无 URL、无作者、无出处。脚本 board 上印着 \"SOURCE / DATE / LOCATION\" 标签,但数据里根本没填——从头就没打算署名。\n\n3️⃣ 洗白 \n— commit 56e1b0d(2026-08-31,争议爆发当天)一次性:\n\n删除全部 reference-01~12\n删除 reference-analysis.json(拆解数据)\n删除 build_reference_system_boards.py(444行构建脚本)\n改称 example-chair/cycling/zebra.png = \"original examples\"\n同日补 Add MIT license + Protect visual example assets\n\n4️⃣ 自知 \n— 脚本里那句 \"RECOMBINE THE LOGIC; DO NOT TRACE THE SOURCE\"(重组逻辑,别描摹来源)——作者清楚知道这是在别人作品基础上重组。",
+        "created_at": "Wed Sep 02 07:07:03 +0000 2026",
+        "url": "https://x.com/GoSailGlobal/status/2095045826146172998",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HRMXwR6bwAAlZJ6.jpg",
+          "https://pbs.twimg.com/media/HRMYDDqbIAA4vym.jpg",
+          "https://pbs.twimg.com/media/HRMYWAiacAAXsm8.png",
+          "https://pbs.twimg.com/media/HRMYg4JaYAAXRgV.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HRMXwR6bwAAlZJ6.jpg",
+          "https://pbs.twimg.com/media/HRMYDDqbIAA4vym.jpg",
+          "https://pbs.twimg.com/media/HRMYWAiacAAXsm8.png",
+          "https://pbs.twimg.com/media/HRMYg4JaYAAXRgV.jpg"
+        ]
+      },
+      "score": 59.423,
+      "title": "设计师履历注水：自称 Copilot lead 被同公司爆料",
+      "summary": "爆料称设计师 @yanliudreamer 实为 Teams 组，作品集与演讲却自称 Copilot team lead；从 Spotify 到微软，还想去 OpenAI/Anthropic。同司人指微软与 Meta 设计师圈都被搞臭。",
+      "recommend_reason": "AI 招人热下履历注水会越来越多；这条提醒看作品与职级时要交叉验证团队归属。",
+      "tags": [
+        "招聘",
+        "Copilot",
+        "履历",
+        "微软",
+        "社区"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2095169238713717172",
+      "author": "xiaohu",
+      "bio": "",
+      "text": "Claude Fable 5.1 提示指南：\n\n16 条提示词建议及避坑与优化指南\n一份 Agent 运行时迁移清单\n\nFable 5.1 的变化不只体现在“回答更聪明”\n它更擅长长时间执行复杂任务\n\n它在能力更强的新模型上出现了一些行为新特征，官方整理了针对各种“常见痛点”的实用解决方案：\n\n算力档位：默认 high；medium 可平替上一代且更便宜；low 甚至能越级抗衡 Opus/Sonnet。\n\n工具并发：代码/电脑操作中别单步低效调用，提示词加一句“先规划依赖，无依赖的工具一次性并发打出”。\n\n防半途停顿：复杂任务容易中途停下“求批准”，立规矩让它“非破坏性操作直接一口气跑完”。\n\n上下文避坑：新账号思考块绑定严格历史，禁止原地删改前文，多用“单轮即弃系统消息”避免报错与缓存失效。\n\n克制加戏：约束它不要改需求外的旧 Bug，文件修改优先局部编辑，别整篇重写浪费 Token。\n\nhttps://t.co/UX1ta2xpru",
+      "created_at": "Wed Sep 02 15:17:27 +0000 2026",
+      "likes": 7,
+      "views": "2413",
+      "url": "https://x.com/i/status/2095169238713717172",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "Claude Fable 5.1 提示指南：16 条提示词建议 一份 Agent 运行时迁移清单 · 小互 · AI 解读站",
+        "description": "从发布背景到 16 条官方建议，逐项解释 effort、工具循环、消息历史、长任务交付与视觉处理，并提供可直接改写使用的中英双语提示词。",
+        "image_url": "https://pbs.twimg.com/card_img/2095169191024500736/z-dv-Lco?format=jpg&name=600x600",
+        "url": "https://t.co/UX1ta2xpru",
+        "domain": "best.xiaohu.ai"
+      },
+      "quoted_tweet": null,
+      "score": 54.66,
+      "title": "Claude Fable 5.1：16 条提示与 Agent 迁移清单",
+      "summary": "小互整理官方痛点方案：effort 默认 high、medium 可平替上代更便宜；工具要规划依赖后并发；长任务防中途求批准；思考块绑历史勿原地改前文；改文件优先局部编辑别整篇重写。附双语可改写提示。",
+      "recommend_reason": "比「模型更强」更落地：直接给出 effort/工具并发/防停顿的可执行提示，迁移清单可抄。",
+      "tags": [
+        "Fable 5",
+        "Claude",
+        "提示词",
+        "Agent",
+        "指南"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2095168633559462197",
+      "author": "bot",
+      "bio": "",
+      "text": "Grok Bot is now available on Android. https://t.co/uB5u2GRHmq",
+      "created_at": "Wed Sep 02 15:15:03 +0000 2026",
+      "likes": 1533,
+      "views": "63772",
+      "url": "https://x.com/i/status/2095168633559462197",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2095168443591090176/vid/avc1/480x270/XQIfYUO2AqzH_p5c.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2095168443591090176/img/AelpW2V4CixHYLxk.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 76.023,
+      "title": null,
+      "summary": "Grok Bot 现已上线 Android。",
+      "recommend_reason": "xAI 助手从网页/桌面扩到安卓，移动端可用性是产品覆盖面的硬指标。",
+      "tags": [
+        "Grok",
+        "Android",
+        "xAI",
+        "移动端"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2095166770017649109",
+      "author": "bindureddy",
+      "bio": "",
+      "text": "Very much looking forward to Astra this week\n\n- No zero data retention. Big companies can finally access a good model!!\n\n- Likely more efficient than Fable 5.1.\n\n- OpenAI's models are awesome at browser use",
+      "created_at": "Wed Sep 02 15:07:38 +0000 2026",
+      "likes": 71,
+      "views": "3675",
+      "url": "https://x.com/i/status/2095166770017649109",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 64.741,
+      "title": "本周看 Astra：无零留存、或比 Fable 5.1 更省、浏览器用强",
+      "summary": "作者期待本周 Astra：强调没有 zero data retention（大公司终于能用上好模型）、效率可能优于 Fable 5.1，并点出 OpenAI 模型在 browser use 上的优势。",
+      "recommend_reason": "企业采购真正卡的是数据留存政策；这条把 Astra 预期钉在合规与效率，而不只是跑分。",
+      "tags": [
+        "Astra",
+        "OpenAI",
+        "数据留存",
+        "BrowserUse",
+        "Fable 5"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2095163737091280978",
+      "author": "LufzzLiz",
+      "bio": "",
+      "text": "屏住呼吸，来看下fable-5.1 的效果，请看到最后～\n和feble-5.1 交流起来真舒服，言简意赅还看不到黑话了 https://t.co/c3QQKMxysV",
+      "created_at": "Wed Sep 02 14:55:35 +0000 2026",
+      "likes": 6,
+      "views": "2065",
+      "url": "https://x.com/i/status/2095163737091280978",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2095162715144945664/vid/avc1/492x270/BcntYSJfcD-y6rV-.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2095162715144945664/img/jAt0jdESQiSFlEI7.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2095009123528319471",
+        "author": "LufzzLiz",
+        "name": "岚叔",
+        "text": "粮草充足，准备开测！ https://t.co/SsL78fI4yw",
+        "created_at": "Wed Sep 02 04:41:13 +0000 2026",
+        "url": "https://x.com/LufzzLiz/status/2095009123528319471",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HRL3nYkaEAAQI5O.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HRL3nYkaEAAQI5O.jpg"
+        ]
+      },
+      "score": 57.405,
+      "title": null,
+      "summary": "屏住呼吸，来看下fable-5.1 的效果，请看到最后～\n和feble-5.1 交流起来真舒服，言简意赅还看不到黑话了 https://t.co/c3QQKMxysV",
+      "recommend_reason": "中文用户一手体验：Fable 5.1 对话更干净、少黑话，适合对照官方发布看真实观感。",
+      "tags": [
+        "Fable 5",
+        "Claude",
+        "体验",
+        "中文",
+        "演示"
+      ],
+      "rank": 14
+    },
+    {
+      "id": "2095158875804549282",
+      "author": "code",
+      "bio": "",
+      "text": "🤖 Claude Fable 5.1 is now generally available in @code with GitHub Copilot.\n\nGive it a try today! https://t.co/NGSR822cbm",
+      "created_at": "Wed Sep 02 14:36:16 +0000 2026",
+      "likes": 79,
+      "views": "12110",
+      "url": "https://x.com/i/status/2095158875804549282",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRN-0C0boAAMAIL.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRN-0C0boAAMAIL.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2094936182945886329",
+        "author": "github",
+        "name": "GitHub",
+        "text": "Claude Fable 5.1, the latest in @AnthropicAI's Mythos model class, is now generally available in GitHub Copilot.\n\nIn our testing it showed strong performance on\n➡️ long-running coding tasks\n➡️ deep codebase research\n➡️ complex agentic workflows\n\nTry it out in the GitHub Copilot app, CLI or @code.\nhttps://t.co/J0zHuPT7xP",
+        "created_at": "Tue Sep 01 23:51:22 +0000 2026",
+        "url": "https://x.com/github/status/2094936182945886329",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2094935346639458306/vid/avc1/480x270/RLWgi2NuHBfyEBvT.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2094935346639458306/img/oYYbZ-hxrg56c4dY.jpg"
+        ]
+      },
+      "score": 64.361,
+      "title": null,
+      "summary": "Claude Fable 5.1 已在 GitHub Copilot（VS Code/@code）正式可用，欢迎试用。",
+      "recommend_reason": "Fable 进 Copilot 意味着日常写代码路径里能直接点到，比单独 API 试用门槛低。",
+      "tags": [
+        "Claude",
+        "Fable 5",
+        "Copilot",
+        "VSCode",
+        "GitHub"
+      ],
+      "rank": 15
+    },
+    {
+      "id": "2095157299979682300",
+      "author": "JulianGoldieSEO",
+      "bio": "",
+      "text": "GOOGLE ANTIGRAVITY JUST TURNED AI CHAT INTO A SOFTWARE FACTORY.\n\nAnd the most important part is buried deeper than “Generative UI.”\n\nWhat changed:\n\n→ Antigravity 2.11.0 can render working HTML artifacts directly inside chat.\n\n→ Ask it to visualize project dependencies and it builds a graph you can drag, filter and click.\n\n→ Click a node and a side panel explains what it does and what it connects to.\n\nThe bigger upgrade:\n\n✓ Chart.js + Plotly support means charts can be hovered, filtered, zoomed and downloaded.\n\n✓ KaTeX support means proper mathematical formulas can render inside artifacts.\n\n✓ Every artifact can run with zero dependencies and export as ONE standalone HTML file.\n\nThat means you can build something like:\n\nAn interactive onboarding checklist.\n\nA clickable business dashboard.\n\nA project dependency explorer.\n\nA training tool.\n\nThen email the HTML file to someone who doesn’t even have Antigravity installed.\n\nGoogle shipped remote control on August 20.\n\nBetter audio, image and Docs input on August 24.\n\nGenerative UI on August 26.\n\nThe pattern is obvious:\n\nAI agents are getting wider inputs…\n\nAnd much richer outputs.\n\nWe’re moving from asking AI to explain software…\n\nTo asking AI to build the interface we need on demand.",
+      "created_at": "Wed Sep 02 14:30:01 +0000 2026",
+      "likes": 3,
+      "views": "1207",
+      "url": "https://x.com/i/status/2095157299979682300",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2094738391808225281/vid/avc1/480x270/hIX4EmjbC-XuLo5I.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2094738391808225281/img/NAKxC34uWSa7UDtX.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 55.907,
+      "title": "Antigravity 2.11：聊天里直接出可交互 HTML Artifact",
+      "summary": "更新后可在对话内渲染可拖拽筛选的依赖图、Chart.js/Plotly 图表与 KaTeX 公式，产物零依赖导出成单个 HTML，可发给没装 Antigravity 的人。作者串起 8/20 远程控制、8/24 多模态输入、8/26 Generative UI 的节奏，认为 AI 正从「解释软件」转向「按需生成界面」。",
+      "recommend_reason": "把 Generative UI 落到可导出的单文件产物，是 agent 输出形态从文本迈向可交付物的清晰一步。",
+      "tags": [
+        "Antigravity",
+        "GenerativeUI",
+        "Artifact",
+        "Google",
+        "Agent"
+      ],
+      "rank": 16
+    },
+    {
+      "id": "2095156555100668168",
+      "author": "sunyuchentron",
+      "bio": "",
+      "text": "https://t.co/cyYBGbRgKc API现已支持通过Codex调用DeepSeek模型",
+      "created_at": "Wed Sep 02 14:27:03 +0000 2026",
+      "likes": 12,
+      "views": "30919",
+      "url": "https://x.com/i/status/2095156555100668168",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "b.ai",
+        "description": "B.AI is the foundational economic infrastructure for AI Agents. Access global top-tier AI models anonymously via our borderless payment system. We provide a unified API and settlement network,...",
+        "image_url": "https://pbs.twimg.com/card_img/2093872376178233344/qpeqcTzF?format=png&name=600x600",
+        "url": "https://B.AI",
+        "domain": "b.ai"
+      },
+      "quoted_tweet": {
+        "id": "2095091865624162665",
+        "author": "BAI_AGI",
+        "name": "B.AI",
+        "text": "📢 https://t.co/mTw8ldARw7 API 现已支持通过 Codex 调用 DeepSeek 系列模型\n\nhttps://t.co/mTw8ldARw7 Responses API 现已接入 DeepSeek 系列模型。开发者只需使用 https://t.co/mTw8ldARw7 API Key，即可在 Codex 客户端中直接调用 https://t.co/mTw8ldARw7 平台支持的 DeepSeek 系列模型。\n\n此前，https://t.co/mTw8ldARw7 已支持通过 Codex 调用 GPT 系列模型。现在，完成 API Key 与 Base URL 的极简配置，即可将 DeepSeek 与 GPT 强大的推理和代码能力无缝融入日常工作流。\n\n👉 立即体验：https://t.co/I89qQEuRQZ",
+        "created_at": "Wed Sep 02 10:10:00 +0000 2026",
+        "url": "https://x.com/BAI_AGI/status/2095091865624162665",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HRM8XYraMAAHGJt.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HRM8XYraMAAHGJt.jpg"
+        ]
+      },
+      "score": 50.212,
+      "title": null,
+      "summary": "https://t.co/cyYBGbRgKc API现已支持通过Codex调用DeepSeek模型",
+      "recommend_reason": "Codex 客户端经统一 API 打到 DeepSeek，降低「换模型还要换工具链」的摩擦。",
+      "tags": [
+        "DeepSeek",
+        "Codex",
+        "API",
+        "B.AI",
+        "开发者"
+      ],
+      "rank": 17
+    },
+    {
       "id": "2094998755515007109",
       "author": "dontbesilent",
       "bio": "",
@@ -36,7 +638,7 @@
         "教程",
         "抖音"
       ],
-      "rank": 1
+      "rank": 18
     },
     {
       "id": "2094996310743306407",
@@ -66,7 +668,7 @@
         "定价",
         "Agent"
       ],
-      "rank": 2
+      "rank": 19
     },
     {
       "id": "2094995082239979770",
@@ -91,7 +693,7 @@
         "CLI",
         "Agent"
       ],
-      "rank": 3
+      "rank": 20
     },
     {
       "id": "2094994112315564140",
@@ -127,7 +729,7 @@
         "GEO",
         "职业"
       ],
-      "rank": 4
+      "rank": 21
     },
     {
       "id": "2094993130936258800",
@@ -171,7 +773,7 @@
         "设计",
         "提示词"
       ],
-      "rank": 5
+      "rank": 22
     },
     {
       "id": "2094992364372902011",
@@ -197,7 +799,7 @@
         "消费",
         "硬件"
       ],
-      "rank": 6
+      "rank": 23
     },
     {
       "id": "2094988419722248397",
@@ -237,7 +839,7 @@
         "世界模型",
         "3D"
       ],
-      "rank": 7
+      "rank": 24
     },
     {
       "id": "2094985749657723272",
@@ -263,7 +865,7 @@
         "Transformer",
         "推理"
       ],
-      "rank": 8
+      "rank": 25
     },
     {
       "id": "2094985608288502198",
@@ -293,7 +895,7 @@
         "Agent",
         "Subagent"
       ],
-      "rank": 9
+      "rank": 26
     },
     {
       "id": "2094983743777960099",
@@ -326,7 +928,7 @@
         "系统提示",
         "版权"
       ],
-      "rank": 10
+      "rank": 27
     },
     {
       "id": "2094983639780204846",
@@ -361,7 +963,7 @@
         "xAI",
         "发布"
       ],
-      "rank": 11
+      "rank": 28
     },
     {
       "id": "2094982928371794077",
@@ -401,10 +1003,10 @@
         "评测",
         "通义"
       ],
-      "rank": 12
+      "rank": 29
     }
   ],
-  "generated_at": "2026-09-02T04:15:41Z",
+  "generated_at": "2026-09-02T16:15:32Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -412,11 +1014,11 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 12,
-    "last_batch_added": 12,
+    "actual_count": 29,
+    "last_batch_added": 17,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
