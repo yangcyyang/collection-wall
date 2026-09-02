@@ -1,4 +1,9 @@
 {
+  "2026-09-02": {
+    "date": "2026-09-02",
+    "watch": "模型",
+    "body": "今天主线是编码模型换代：Anthropic 正式发 Claude Fable 5.1（同族 Mythos 5.1 仅受限开放），已上 Claude Code，缓存读降价 75%，你日常 Cursor/Agent 编码流优先点开官方介绍和 Artificial Analysis 那条（登顶但单任务贵约 20%）。同日 Qwen3.8-Max-0902 登顶 Code Arena 且 $5/MToken 卡在 Pareto 前沿，想压编码账单可以对着试。实用侧：美团 LongCat-2.0 进 Cline 免费试用，可当 Cursor 外的一条编码 Agent 备线。行业大新闻 Nvidia 约 129 亿谈收购 Hugging Face 扫一眼就行；Google Pics / Gemini agentic 视频偏图像视频工具，兴趣再点。"
+  },
   "2026-08-31": {
     "date": "2026-08-31",
     "watch": "模型 + 技巧",
