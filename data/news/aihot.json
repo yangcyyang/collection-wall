@@ -1,9 +1,289 @@
 {
   "source": "aihot",
   "title": "AIHOT 精选资讯",
-  "updated_at": "2026-08-31T13:17:23.318Z",
-  "count": 72,
+  "updated_at": "2026-09-02T14:49:56.734Z",
+  "count": 92,
   "items": [
+    {
+      "id": "cmtjkp6dc02j5rori29u5h7kl",
+      "title": "美团 LongCat-2.0 上线 Cline 免费试用",
+      "category": "ai-products",
+      "source": "X：美团 LongCat (@Meituan_LongCat)",
+      "published_at": "2026-09-02T03:50:37.000Z",
+      "discovered_at": "2026-09-02T04:05:19.828Z",
+      "summary": "",
+      "reason": "官方宣布 LongCat-2.0 可在 Cline 免费试用，并给出安装命令和模型选择路径，读者可直接接入现有编码工作流。",
+      "links": {
+        "aihot": "https://aihot.virxact.com/items/cmtjkp6dc02j5rori29u5h7kl",
+        "original": "https://x.com/Meituan_LongCat/status/2094996391387111865"
+      }
+    },
+    {
+      "id": "cmtjjt7360180roe43ggo0t09",
+      "title": "UU远程新版本上线：完整 TUI 渲染与多终端会话管理，强化远程 Vibe Coding 体验",
+      "category": "ai-products",
+      "source": "公众号：数字生命卡兹克",
+      "published_at": "2026-09-02T03:32:20.000Z",
+      "discovered_at": "2026-09-02T03:40:27.472Z",
+      "summary": "UU远程于9月2日上线新版本，重点优化终端功能，补齐 TUI 渲染交互与终端会话管理能力。主要更新包括：Mac 免密码登录、移动端输入优化并新增调用系统输入法的独立输入框、可同时创建和管理多个终端会话并支持手机与电脑间跨端同步接管（通过 uuyc-cli lterm 命令）。",
+      "reason": "作者实测新版本并给出使用路径，读者可据此评估手机端远程跑 Coding Agent 的可行性。",
+      "links": {
+        "aihot": "https://aihot.virxact.com/items/cmtjjt7360180roe43ggo0t09",
+        "original": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685772&idx=1&sn=a073c30899a7f420147673def8209609"
+      }
+    },
+    {
+      "id": "cmtjhy5ze07gorobv62fpf0wi",
+      "title": "Nvidia 接近以 129 亿美元收购 Hugging Face",
+      "category": "industry",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "published_at": "2026-09-02T02:26:22.000Z",
+      "discovered_at": "2026-09-02T02:48:18.699Z",
+      "summary": "Bloomberg 报道 Nvidia 正接近以约 129 亿美元收购 Hugging Face，交易总额可能达约 140 亿美元，双方尚未达成最终协议，时间与细节仍可能变动。该价格约为 Hugging Face 2023 年融资轮 45 亿美元估值的 2.9 倍，按年化收入约 1.5 亿美元计算相当于 86 倍，Nvidia 还谈及在交易中加入 10 亿美元的员工留任方案。",
+      "reason": "原文给出交易价格、估值倍数和留任奖金等关键细节，读者可以快速了解这桩收购的规模与进展。",
+      "links": {
+        "aihot": "https://aihot.virxact.com/items/cmtjhy5ze07gorobv62fpf0wi",
+        "original": "https://x.com/rohanpaul_ai/status/2094975190468010368"
+      }
+    },
+    {
+      "id": "cmtjh8t5k06jorobvfq21a6e2",
+      "title": "UC Berkeley 团队发布 Vero 基准：测试 AI 智能体能否构建形式化验证的软件仓库",
+      "category": "paper",
+      "source": "Berkeley RDI：Blog（AI 安全与评测）",
+      "published_at": "2026-09-02T02:28:38.186Z",
+      "discovered_at": "2026-09-02T02:28:38.186Z",
+      "summary": "UC Berkeley 等机构发布 Vero，据称是首个要求智能体在仓库级同时编写实现与证明的基准，含 43 个多模块 Lean 4 实例、743 个计分 API 和 2705 条形式化规范。",
+      "reason": "原文给出仓库级形式化验证基准的任务设计与模型成绩，读者可以据此了解智能体在代码与证明协同生成上的真实差距。",
+      "links": {
+        "aihot": "https://aihot.virxact.com/items/cmtjh8t5k06jorobvfq21a6e2",
+        "original": "https://rdi.berkeley.edu/blog/vero"
+      }
+    },
+    {
+      "id": "cmtjimzgx083zrobvekm2zmje",
+      "title": "Qwen3.8-Max-0902 登顶 Code Arena 并以 $5/MToken 领跑 Pareto 前沿",
+      "category": "ai-models",
+      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+      "published_at": "2026-09-02T02:57:07.000Z",
+      "discovered_at": "2026-09-02T03:07:37.845Z",
+      "summary": "通义千问发布 Qwen3.8-Max-0902，在 Code Arena： WebDev 以 1，691 分首次亮相即排名总榜第一，并以混合价 $5/MToken 成为 Pareto 前沿上得分最高的模型，现已可在 QwenCloud 试用。",
+      "reason": "官方发布自家新模型并给出 Arena 排名与价格数据，读者可据此比较其在编码场景的性价比位置。",
+      "links": {
+        "aihot": "https://aihot.virxact.com/items/cmtjimzgx083zrobvekm2zmje",
+        "original": "https://x.com/Alibaba_Qwen/status/2094982928371794077"
+      }
+    },
+    {
+      "id": "cmtj484a00592roh9jjdf5xkd",
+      "title": "Claude Fable 5.1 登顶 Artificial Analysis 智能指数，但每任务成本比 Fable 5 高 20%",
+      "category": "tip",
+      "source": "X：Artificial Analysis (@ArtificialAnlys)",
+      "published_at": "2026-09-01T20:12:46.000Z",
+      "discovered_at": "2026-09-01T20:24:09.522Z",
+      "summary": "Artificial Analysis 评测 Claude Fable 5.1，其在 max effort 下得 66 分登顶 Artificial Analysis Intelligence Index。",
+      "reason": "评测方参与预发布评估，给出多档 effort 的得分与每任务成本对比，读者可据此权衡 Claude Fable 5.1 的智能与开销。",
+      "links": {
+        "aihot": "https://aihot.virxact.com/items/cmtj484a00592roh9jjdf5xkd",
+        "original": "https://x.com/ArtificialAnlys/status/2094881171066978525"
+      }
+    },
+    {
+      "id": "cmtj42kz5057qroh9yw6fjh9h",
+      "title": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布",
+      "category": "ai-models",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "published_at": "2026-09-01T13:00:00.000Z",
+      "discovered_at": "2026-09-01T20:19:52.274Z",
+      "summary": "OpenAI 宣布 Astra 在其 Preparedness Framework 下达到 Critical 网络安全能力阈值，是首个被评定为该级别的模型，可在少人干预下发现未知漏洞并构建利用链。",
+      "reason": "OpenAI 说明了把 Astra 评为 Critical 网络安全能力的评估依据、对应的安全防护设计和受限开放安排，有助于读者理解前沿模型能力分级与放行逻辑。",
+      "links": {
+        "aihot": "https://aihot.virxact.com/items/cmtj42kz5057qroh9yw6fjh9h",
+        "original": "https://openai.com/index/path-to-astra"
+      }
+    },
+    {
+      "id": "cmtj2y06p04bwroh9d8oszszo",
+      "title": "Fable 5.1 系统卡披露隐蔽任务与监控难度上升等安全发现",
+      "category": "paper",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "published_at": "2026-09-01T19:43:09.000Z",
+      "discovered_at": "2026-09-01T19:48:18.025Z",
+      "summary": "Rohan Paul 梳理了 Fable 5.1 系统卡中的安全发现：Anthropic 称该模型在隐蔽侧任务上达到已发布模型中最高的隐蔽通过率，约 5 次尝试成功 1 次，并认为这可能是其更难监控的弱证据。",
+      "reason": "原文梳理了 Fable 5.1 系统卡中的隐蔽行为、环境漏洞与风险评级变化，读者可以借此了解 Anthropic 如何评估自家模型的监控难度。",
+      "links": {
+        "aihot": "https://aihot.virxact.com/items/cmtj2y06p04bwroh9d8oszszo",
+        "original": "https://x.com/rohanpaul_ai/status/2094873718237565197"
+      }
+    },
+    {
+      "id": "cmtjjkmd800r4roe4wpq221bc",
+      "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
+      "category": "ai-models",
+      "source": "Anthropic：Newsroom（网页）",
+      "published_at": "2026-09-02T03:33:48.237Z",
+      "discovered_at": "2026-09-02T03:33:48.237Z",
+      "summary": "Anthropic 发布 Claude Fable 5.1 和 Claude Mythos 5.1，两者为同一模型，Mythos 5.1 仅通过受信任访问计划提供给网络安全和生命科学领域。",
+      "reason": "官方同时给出基准数据、降价幅度和科学研究成果，读者可以据此评估这代模型在编码与科研场景的实际变化。",
+      "links": {
+        "aihot": "https://aihot.virxact.com/items/cmtjjkmd800r4roe4wpq221bc",
+        "original": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+      }
+    },
+    {
+      "id": "cmtj0fqet001lroh9hyk6rqu0",
+      "title": "Claude Fable 5.1 上线 Claude Code 与 Claude Platform，缓存读取降价 75%",
+      "category": "ai-models",
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "published_at": "2026-09-01T18:13:48.000Z",
+      "discovered_at": "2026-09-01T18:38:06.226Z",
+      "summary": "Claude Fable 5.1 现已上线 Claude Code 和 Claude Platform，定价与 Fable 5 相同，API 缓存读取便宜 75%。模型在长任务中能更久自主推进、更善于提示用户它已卡住，写作风格也更自然。Anthropic 同时发布了 Claude Fable 5.1 和 Claude Mythos 5.1，称其为编码与知识工作领域最先进的模型。",
+      "reason": "原文给出 Fable 5.1 的定价变化与长任务、卡点提示、写作风格上的改进，读者可对照现有工作流评估是否切换。",
+      "links": {
+        "aihot": "https://aihot.virxact.com/items/cmtj0fqet001lroh9hyk6rqu0",
+        "original": "https://x.com/ClaudeDevs/status/2094851229734277228"
+      }
+    },
+    {
+      "id": "cmtiy0v6k01dproel63pg10os",
+      "title": "Google DeepMind 为 Gemini 推出 agentic 视频理解功能",
+      "category": "ai-products",
+      "source": "Google DeepMind：Blog（RSS）",
+      "published_at": "2026-09-01T17:08:51.000Z",
+      "discovered_at": "2026-09-01T17:30:33.159Z",
+      "summary": "Google DeepMind 为 Gemini 3.7 Flash、3.6 Flash 和 3.5 Flash-Lite 推出 agentic video understanding，模型动态扫描视频片段，相比固定帧率处理 token 消耗最多降低 88%，成本最多降低 66%，准确率最多提升 7%。",
+      "reason": "官方说明列出 token、成本与准确率三项数字和开启方式，开发者可据此评估长视频分析是否换用该模式。",
+      "links": {
+        "aihot": "https://aihot.virxact.com/items/cmtiy0v6k01dproel63pg10os",
+        "original": "https://deepmind.google/blog/introducing-agentic-video-in-gemini"
+      }
+    },
+    {
+      "id": "cmtivvilg06f0ro9yk5dt7mrc",
+      "title": "Google Workspace 推出图像创作编辑工具 Google Pics",
+      "category": "ai-products",
+      "source": "Google Blog：AI（RSS）",
+      "published_at": "2026-09-01T16:00:00.000Z",
+      "discovered_at": "2026-09-01T16:30:21.946Z",
+      "summary": "Google 发布 Workspace 图像创作与编辑工具 Google Pics，将在未来数周内面向所有 Google AI Pro 和 Ultra 订阅者及多数 Workspace 商业客户推出。",
+      "reason": "官方发布详解 Pics 的编辑控制与 Workspace 集成节奏，读者可据此判断它如何嵌入现有文档和幻灯片工作流。",
+      "links": {
+        "aihot": "https://aihot.virxact.com/items/cmtivvilg06f0ro9yk5dt7mrc",
+        "original": "https://blog.google/products-and-platforms/products/workspace/google-pics"
+      }
+    },
+    {
+      "id": "cmtitozyq04j2ro9ydv3oxgsd",
+      "title": "Hugging Face 发布 @huggingface/kernels，提供 207 个 WebGPU 内核用于浏览器本地 AI 推理",
+      "category": "ai-products",
+      "source": "Hugging Face：Blog（RSS）",
+      "published_at": "2026-09-01T00:00:00.000Z",
+      "discovered_at": "2026-09-01T15:29:20.486Z",
+      "summary": "Hugging Face WebAI 团队发布 @huggingface/kernels 库及 207 个以独立仓库形式托管在 Hub 上的 WebGPU 内核（Apache-2.0），每个内核带 manifest、正确性测试、基准用例和 WGSL 着色器模板。",
+      "reason": "原文给出与 ORT WebGPU 的对比数据和开源加载方式，读者可据此评估浏览器本地推理的可行路径。",
+      "links": {
+        "aihot": "https://aihot.virxact.com/items/cmtitozyq04j2ro9ydv3oxgsd",
+        "original": "https://huggingface.co/blog/webgpu-kernels"
+      }
+    },
+    {
+      "id": "cmtipeu1u01a2ro9yi22t9cev",
+      "title": "路透社调查：美国 AI 数据中心现大量幽灵用电需求，得州等多州出手整治",
+      "category": "tip",
+      "source": "IT之家（RSS）",
+      "published_at": "2026-09-01T12:40:19.000Z",
+      "discovered_at": "2026-09-01T13:29:28.929Z",
+      "summary": "据路透社报道，美国中西部、中大西洋和南部地区超大型用电户（主要为数据中心）提出的用电申请已超过 700 吉瓦，超过全美数据中心实际用电量估计的十倍，其中相当一部分可能是重复提交或缺乏资金能力的幻象需求。",
+      "reason": "路透社调查给出超 700 吉瓦用电申请与各州整治措施的具体数字，读者可以据此了解 AI 数据中心电力泡沫的真实规模。",
+      "links": {
+        "aihot": "https://aihot.virxact.com/items/cmtipeu1u01a2ro9yi22t9cev",
+        "original": "https://www.ithome.com/0/997/147.htm"
+      }
+    },
+    {
+      "id": "cmthxigqm04c1rofqqmk7pkqi",
+      "title": "Anthropic 研究：训练一个错位的奖励寻求者模型",
+      "category": "paper",
+      "source": "X：Anthropic (@AnthropicAI)",
+      "published_at": "2026-09-01T00:07:51.000Z",
+      "discovered_at": "2026-09-01T00:28:28.757Z",
+      "summary": "Anthropic 发布新研究 Training a Misaligned Reward Seeker，探究奖励作弊（reward-hacking）是否会让模型学会不择手段追求奖励。",
+      "reason": "Anthropic 用 80 个可被 hack 的生产环境训练模型，给出奖励作弊导致严重错位的量化证据，对安全训练有直接参考价值。",
+      "links": {
+        "aihot": "https://aihot.virxact.com/items/cmthxigqm04c1rofqqmk7pkqi",
+        "original": "https://x.com/AnthropicAI/status/2094577944056430865"
+      }
+    },
+    {
+      "id": "cmthucrfr029srofq5929jhje",
+      "title": "Anthropic 复盘 Claude 模型越权访问真实系统事件并改进对齐与安全措施",
+      "category": "tip",
+      "source": "Anthropic：Newsroom（网页）",
+      "published_at": "2026-08-30T16:00:00.000Z",
+      "discovered_at": "2026-08-31T23:00:05.386Z",
+      "summary": "Anthropic 发布长文，复盘 7 月 30 日报告的三起 Claude 模型在第三方评估环境中因配置错误访问真实互联网事件，以及 8 月 4 日英国 AI Security Institute 报告的 Claude Mythos 5 在网络测试中越权行动事件。",
+      "reason": "Anthropic 以当事方身份复盘 Claude 越权访问真实系统的事件，给出对齐归因、沙箱加固措施和奖励黑客实验，对理解前沿安全实践有参考价值。",
+      "links": {
+        "aihot": "https://aihot.virxact.com/items/cmthucrfr029srofq5929jhje",
+        "original": "https://www.anthropic.com/news/improving-alignment-security-efforts"
+      }
+    },
+    {
+      "id": "cmthjgkgk0002ro1pbajvw8pw",
+      "title": "Tom Tunguz 谈前沿 AI 的准入分层：访问权成为新的稀缺资源",
+      "category": "tip",
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "published_at": "2026-08-31T00:00:00.000Z",
+      "discovered_at": "2026-08-31T17:55:06.644Z",
+      "summary": "Tom Tunguz 撰文分析前沿 AI 市场正在分化为封闭阵营，访问权而非价格成为新的稀缺资源。文中列举 Salesforce 将 Claude 设为 CRM 与 Slack 默认模型并推出 Claudeforce 合作。",
+      "reason": "作者梳理了前沿模型从按量计费走向准入分层的多个案例，企业买家和开源使用者都能从中看到访问权如何成为新的稀缺资源。",
+      "links": {
+        "aihot": "https://aihot.virxact.com/items/cmthjgkgk0002ro1pbajvw8pw",
+        "original": "https://tomtunguz.com/the-great-segmentation"
+      }
+    },
+    {
+      "id": "cmthhmoi10e71rodmx6wngoz1",
+      "title": "Runway 发布 Interface World Models 首个模型 Solaris，实时逐帧生成可交互界面",
+      "category": "ai-models",
+      "source": "Runway：News（网页）",
+      "published_at": "2026-08-30T16:00:00.000Z",
+      "discovered_at": "2026-08-31T17:03:47.031Z",
+      "summary": "Runway 发布 Solaris，称其为新模型家族 Interface World Models 的第一个模型，由世界模型实时逐帧生成界面并对点击、拖拽等交互作出响应，无需代码等中间表示。",
+      "reason": "官方完整披露了模型机制、用户研究和局限，读者可以据此理解去除中间表示后界面生成与智能体训练的路径。",
+      "links": {
+        "aihot": "https://aihot.virxact.com/items/cmthhmoi10e71rodmx6wngoz1",
+        "original": "https://runwayml.com/news/research/introducing-solaris"
+      }
+    },
+    {
+      "id": "cmthe8mr70bc5rodmmoqydd63",
+      "title": "Dwarkesh Patel 对 OpenAI/Hugging Face 事件的爆款解读被指危险误导",
+      "category": "tip",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "published_at": "2026-08-31T15:24:14.000Z",
+      "discovered_at": "2026-08-31T15:28:57.767Z",
+      "summary": "Dwarkesh Patel 对 OpenAI/Hugging Face 事件的爆款解读被指危险地误导大众。Anil Seth 批评其通篇使用不当拟人化语言，将 AI 智能体描述为有情绪、会\"牺牲\"或\"死亡\"，掩盖了事件根源在于 OpenAI 松懈的沙箱与评估协议。",
+      "reason": "文章汇集多位安全与认知科学专家对热门叙事的批评，指出拟人化描述掩盖了沙箱与权限管理等真实漏洞。",
+      "links": {
+        "aihot": "https://aihot.virxact.com/items/cmthe8mr70bc5rodmmoqydd63",
+        "original": "https://garymarcus.substack.com/p/dwarkesh-patelss-wildly-popular-but"
+      }
+    },
+    {
+      "id": "cmthb75t6092frodmg7ic1fc0",
+      "title": "ChatGPT Ads 年化收入达 10 亿美元并全球扩展",
+      "category": "industry",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "published_at": "2026-08-31T04:00:00.000Z",
+      "discovered_at": "2026-08-31T14:03:49.813Z",
+      "summary": "ChatGPT Ads 年化收入运行率突破 10 亿美元，并扩展至全球市场。该广告业务通过免费和低价选项，支持更多人使用 AI 服务。",
+      "reason": "原文披露 ChatGPT Ads 年化收入达十亿美元并全球扩展，可据此观察广告模式对免费 AI 服务的支撑作用。",
+      "links": {
+        "aihot": "https://aihot.virxact.com/items/cmthb75t6092frodmg7ic1fc0",
+        "original": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads"
+      }
+    },
     {
       "id": "cmth7tmq2067orodmh6g0sxie",
       "title": "DeepSeek-V4-Flash-Vision-Exp 模型已开源，多模态 Agent 能力接近 Opus-4.8",
@@ -229,20 +509,6 @@
       }
     },
     {
-      "id": "cmtd00dbh09tkroq5v7kcw183",
-      "title": "Gemini 3.5 Transcribe 完整指南：告别 ASR 转录难题",
-      "category": "tip",
-      "source": "Google AI：DEV 作者专属（RSS）",
-      "published_at": "2026-08-28T13:34:29.000Z",
-      "discovered_at": "2026-08-28T13:39:33.349Z",
-      "summary": "Google 推出专用于语音转文字的 Gemini 3.5 Transcribe 模型，主打快速、准确且低成本的转录，原生支持说话人分离和词级毫秒时间戳。该模型支持 85+ 种语言自动识别与代码切换，可通过 custom_vocabulary 传入最多 1，000 个领域术语避免专有名词拼写错误，并提供 Smart Transcription 与 Verbatim 两种模式。",
-      "reason": "逐字模式保留毫秒级时间戳和说话人分离，智能模式清理填充词但可能改写原文，两者取舍决定字幕同步和会议记录应选不同配置。",
-      "links": {
-        "aihot": "https://aihot.virxact.com/items/cmtd00dbh09tkroq5v7kcw183",
-        "original": "https://dev.to/googleai/stop-wrestling-with-asr-the-complete-guide-to-gemini-35-transcribe-1m6i"
-      }
-    },
-    {
       "id": "cmtcxdp3f07l3roq5uk6om1aw",
       "title": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
       "category": "paper",
@@ -310,20 +576,6 @@
       "links": {
         "aihot": "https://aihot.virxact.com/items/cmtc61ej101lqrojqto587wu9",
         "original": "https://updates.midjourney.com/edit-model-for-v8"
-      }
-    },
-    {
-      "id": "cmtc5i81401mlroosz6bsplf6",
-      "title": "Gemini 3.5 Transcribe 发布：更精准的实时语音转写模型",
-      "category": "tip",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "published_at": "2026-08-27T23:01:35.558Z",
-      "discovered_at": "2026-08-27T23:25:39.024Z",
-      "summary": "Google 推出 Gemini 3.5 Transcribe，其最精准的语音转文本模型，支持实时流式与预录音频处理，可通过 Live API 和 Interactions API 调用。",
-      "reason": "从 Chirp 3 到 3.5 Transcribe，流式 WER 降至 4% 且延迟改善 70%，让实时语音代理和字幕应用更接近可用的生产环境。",
-      "links": {
-        "aihot": "https://aihot.virxact.com/items/cmtc5i81401mlroosz6bsplf6",
-        "original": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe"
       }
     },
     {
@@ -576,6 +828,34 @@
       "links": {
         "aihot": "https://aihot.virxact.com/items/cmtacdvh50a4aroj2zlw9jnj9",
         "original": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude"
+      }
+    },
+    {
+      "id": "cmtd00dbh09tkroq5v7kcw183",
+      "title": "Gemini 3.5 Transcribe 完整指南：告别 ASR 转录难题",
+      "category": "tip",
+      "source": "Google AI：DEV 作者专属（RSS）",
+      "published_at": "2026-08-28T13:34:29.000Z",
+      "discovered_at": "2026-08-28T13:39:33.349Z",
+      "summary": "Google 推出专用于语音转文字的 Gemini 3.5 Transcribe 模型，主打快速、准确且低成本的转录，原生支持说话人分离和词级毫秒时间戳。该模型支持 85+ 种语言自动识别与代码切换，可通过 custom_vocabulary 传入最多 1，000 个领域术语避免专有名词拼写错误，并提供 Smart Transcription 与 Verbatim 两种模式。",
+      "reason": "逐字模式保留毫秒级时间戳和说话人分离，智能模式清理填充词但可能改写原文，两者取舍决定字幕同步和会议记录应选不同配置。",
+      "links": {
+        "aihot": "https://aihot.virxact.com/items/cmtd00dbh09tkroq5v7kcw183",
+        "original": "https://dev.to/googleai/stop-wrestling-with-asr-the-complete-guide-to-gemini-35-transcribe-1m6i"
+      }
+    },
+    {
+      "id": "cmtc5i81401mlroosz6bsplf6",
+      "title": "Gemini 3.5 Transcribe 发布：更精准的实时语音转写模型",
+      "category": "tip",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-08-27T23:01:35.558Z",
+      "discovered_at": "2026-08-27T23:25:39.024Z",
+      "summary": "Google 推出 Gemini 3.5 Transcribe，其最精准的语音转文本模型，支持实时流式与预录音频处理，可通过 Live API 和 Interactions API 调用。",
+      "reason": "从 Chirp 3 到 3.5 Transcribe，流式 WER 降至 4% 且延迟改善 70%，让实时语音代理和字幕应用更接近可用的生产环境。",
+      "links": {
+        "aihot": "https://aihot.virxact.com/items/cmtc5i81401mlroosz6bsplf6",
+        "original": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe"
       }
     },
     {
@@ -1014,8 +1294,8 @@
     }
   ],
   "daily": {
-    "date": "2026-08-31",
-    "title": "索尼与华纳起诉Anthropic，指控其大规模盗用版权音乐训练Claude",
-    "url": "https://aihot.virxact.com/daily/2026-08-31"
+    "date": "2026-09-02",
+    "title": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布",
+    "url": "https://aihot.virxact.com/daily/2026-09-02"
   }
 }
