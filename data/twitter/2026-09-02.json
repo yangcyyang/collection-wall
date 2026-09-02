@@ -1,0 +1,431 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-02",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2094998755515007109",
+      "author": "dontbesilent",
+      "bio": "",
+      "text": "豆包安装 dbskill 的手把手教程\n\n这视频老难拍了，任何词都不能用，铺垫了好几次 “工具箱”  “技能包” 这种词，才敢说 skill 这个单词\n\n要不说做了抖音来 X 是降维打击呢\n\n教人用 Agent 安装 skill 老简单了\n\n教人给豆包安装 “技能包”，老难了 https://t.co/ikOlKenX89",
+      "created_at": "Wed Sep 02 04:00:01 +0000 2026",
+      "likes": 8,
+      "views": "399",
+      "url": "https://x.com/i/status/2094998755515007109",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2094998099727204352/vid/avc1/320x568/gqRKpctYfglwjlcf.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2094998099727204352/img/68RBxlqclfYo_MtC.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 65.264,
+      "title": null,
+      "summary": "豆包安装 dbskill 的手把手教程\n\n这视频老难拍了，任何词都不能用，铺垫了好几次 “工具箱”  “技能包” 这种词，才敢说 skill 这个单词\n\n要不说做了抖音来 X 是降维打击呢\n\n教人用 Agent 安装 skill 老简单了\n\n教人给豆包安装 “技能包”，老难了 https://t.co/ikOlKenX89",
+      "recommend_reason": "国内平台对 skill 词敏感，教程本身就是信息：豆包也能装技能包，但话术和审核环境完全不同。",
+      "tags": [
+        "豆包",
+        "Skill",
+        "教程",
+        "抖音"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2094996310743306407",
+      "author": "op7418",
+      "bio": "",
+      "text": "昨晚 Claude 发布了 Fable 5.1 和 Mythos 5.1，两者的权重相同。\n\n输入输出价格和 Fable 5 一样，缓存价格降了 75%。\n\n官方的说法是，按 token 计费的话，典型负载大约会便宜 25%，重度 Agent 负载大概会便宜 45%。\n\n但时间线上全在说 Fable 5.1 的订阅额度消耗得非常快，可能 20 分钟、半小时整个额度就用光了。\n\n而且这模型还有一些更严重的问题：\n\n不支持强制的 tool choice，更早的模型读不了它的 thinking block，导致不能中途换模型，改历史消息会让 thinking 失效。\n\n输出带有不可见的文本水印（这个之前聊过，非常恶心，会导致生成的文案质量变差）\n\nArtificial Analysis 帮 Anthropic 做预发布测评的反馈显示：即使缓存降价 75%，Fable 5.1 Max 跑完任务的实际开销依然比 Fable 5 Max 贵 20%，因为它的输出 token 大约是 Fable 5 的 1.7 倍。\n\n看起来还是挺拉胯的，反而更贵了，再加上隐形文本水印以及无法切换模型这些问题。\n\n是不是意味着一旦它触发了安全护栏，你切到 Opus 5，缓存就直接失效掉了，随后调用成本跟着大幅上涨？",
+      "created_at": "Wed Sep 02 03:50:18 +0000 2026",
+      "likes": 1,
+      "views": "1386",
+      "url": "https://x.com/i/status/2094996310743306407",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRLr7RQaUAE8zG_.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRLr7RQaUAE8zG_.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 56.511,
+      "title": "Fable 5.1：缓存降价但实测可能更贵",
+      "summary": "Claude 发 Fable/Mythos 5.1（同权重）：输入输出价同 Fable 5、缓存降 75%，官方称典型负载约便宜 25%、重度 Agent 约 45%。时间线反馈订阅额度很快烧光；还不支持强制 tool choice、旧模型读不了 thinking block、改历史会让 thinking 失效，并带不可见文本水印。Artificial Analysis 称即使缓存降价，Fable 5.1 Max 实际开销仍可能比 5 Max 贵约 20%（输出 token 约 1.7 倍）。",
+      "recommend_reason": "把「标价更便宜」和「额度/输出膨胀后更贵」摊开，对要不要立刻切 5.1 很关键。",
+      "tags": [
+        "Claude",
+        "Fable 5",
+        "定价",
+        "Agent"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2094995082239979770",
+      "author": "ianneo_ai",
+      "bio": "",
+      "text": "我好像错改 grok bot 了。 可以让 bot 去调用 CodeX cli、 Grok cli、Gemini cli，那不就更聪明了吗？",
+      "created_at": "Wed Sep 02 03:45:25 +0000 2026",
+      "likes": 1,
+      "views": "101",
+      "url": "https://x.com/i/status/2094995082239979770",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 51.691,
+      "title": null,
+      "summary": "我好像错改 grok bot 了。 可以让 bot 去调用 CodeX cli、 Grok cli、Gemini cli，那不就更聪明了吗？",
+      "recommend_reason": "把 Grok Bot 当成调度器去挂各家 CLI，是额度紧张时很自然的下一步想象。",
+      "tags": [
+        "Grok Bot",
+        "CLI",
+        "Agent"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2094994112315564140",
+      "author": "jinchenma_ai",
+      "bio": "",
+      "text": "Miles 老哥一线的思考，值得学习。\n\n一，自媒体不是可选题，是必答题。这个东西是能够撬动更大杠杆的最佳武器，唯一需要投入的成本就是时间。\n\n二，对于程序员来说，其实挺受益的，就是技术这个东西真的没那么重要。大部分程序员也达不到教主那个水平。以前钻研点技术，稍微有点壁垒，确实是因为编程有门槛。但是现在有 AI 之后，这个壁垒几乎一夜之间就不存在了。其实在我们这个环境里，重业务，重应用，没有什么技术是有绝对壁垒的。\n\n三，目前在 AI 自媒体这个领域里，还是要多往线下走一走，尤其是 FDE、咨询、社群、培训、企业服务等这样的业务。\n\n线上负责规模化，负责获取大众的注意力、建立初步信任。\n\n线下则负责建立长期信任和长期关系，理解真实需求，最终完成高价值交付。",
+      "created_at": "Wed Sep 02 03:41:34 +0000 2026",
+      "likes": 1,
+      "views": "176",
+      "url": "https://x.com/i/status/2094994112315564140",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2094835524137832934",
+        "author": "miles_mazy",
+        "name": "Miles Ma",
+        "text": "深夜爆点料，明天早上可能会删\n\n今天去和广州的一家老牌 SEO 公司的 CEO 聊天\n\n他们对 GEO 的布局早在24年年底就开始了，现在已经服务了2000多家客户，所有的工具和方法论全部开源\n\n市面上很多GEO的开源工具的源头就是他们，也孵化了很多的做 GEO 的 IP 和工作室\n\n包括我前家公司的几十个GEO项目，都是外包给他们代理来做的\n\n这年头，技术已经慢慢平权了，谁能找到客户，谁就赚钱\n\n话又说回来，他是怎么联系我的呢，通过 X 和公众号，所以这里引申出了几点：\n\n1、自媒体必须要做，国内社媒必须要做；\n\n2、信任和口碑大于一切，商业口碑会跟你一辈子；\n\n3、做技术不值钱，打工人都是零部件，如果我不是自己出来干，和他在一张桌上聊天吃饭的资格都没有；\n\n4、做产品之前，先把自己的商业化路径想清楚，不然就是自嗨，今天做这个，明天做那个，到头来什么都捞不到；\n\n5、线上的天花板很低，不做线下，那就老老实实接商单，赚点流量费，搞点社群割韭菜，或者做做交易，炒炒股，炒炒币也挺好；\n\n6、培训一定要做，不管是引流还是升单，可能一开始赚不到钱，但这是基础；\n\n7、抱团很重要，但嚷嚷的团结没用，把钱投了一起干活，只有真金白银砸下去才算抱团，变不了现的资源等于没资源；\n\n8、不要再自己去做GEO了，在你的需求没有那么多之前，把需求外包，当你的需求足够多，去买个GEO的代理就够了。\n\n碎碎念了一堆，也是感觉我自己这段时间有点心浮气躁\n\n今天聊完，反而后面的路就很清晰了，做好自己的事情，但行好事，莫问前程。",
+        "created_at": "Tue Sep 01 17:11:23 +0000 2026",
+        "url": "https://x.com/miles_mazy/status/2094835524137832934",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 34.732,
+      "title": "AI 时代：自媒体是杠杆，技术壁垒在塌",
+      "summary": "转述 Miles 一线判断：自媒体是必答题；对多数程序员技术壁垒被 AI 抹平，要重业务与应用；AI 自媒体还应走到线下（FDE/咨询/社群/培训/企服）——线上拿注意力与初信，线下做长期信任与高价值交付。",
+      "recommend_reason": "把「会模型」和「能交货」拆开，对做 AI 生意的人比又一篇模型评测更实在。",
+      "tags": [
+        "自媒体",
+        "商业化",
+        "GEO",
+        "职业"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2094993130936258800",
+      "author": "xiaoerzhan",
+      "bio": "",
+      "text": "Claude 新发模型 Fable 5.1\n\n具有艺术家能力的模型\n可能只有Claude 家\n\n我感觉他们会强调自己的艺术属性\n虽然codex写代码是强的\n\n但Claude 是强调自己的艺术创造力的训练了的\n用Fable 5.1做了个网站模版\n\n是很懂这里面的小心思小浪漫的\n缺点就是很快就花光了\n\n所以我两家都不可或缺\n我非常感谢Claude的艺术能力\n\n顺便给大家开源一个我的用法\n之前在灯下白博客分享的时候我说过\n就是如何在绘画中激发Claude的艺术能力\n\n核心就是一定要：给他艺术家身份\n提供素材给他\n然后不断强调他就是世界上最伟大的艺术家\n让他创作出惊世骇俗的作品震惊你\n\n不要拿自己的天花板去限制Claude",
+      "created_at": "Wed Sep 02 03:37:40 +0000 2026",
+      "likes": 0,
+      "views": "116",
+      "url": "https://x.com/i/status/2094993130936258800",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2094991628016484357/vid/avc1/504x270/vd8ku14Z_0ISO3Ke.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2094991628016484357/img/EDH9avN0GMqZhOwy.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2094848572143407483",
+        "author": "claudeai",
+        "name": "Claude",
+        "text": "We’re introducing Claude Fable 5.1 and Claude Mythos 5.1.\n\nThey're the world’s most advanced models for coding and knowledge work. https://t.co/8P9PSrWPi3",
+        "created_at": "Tue Sep 01 18:03:14 +0000 2026",
+        "url": "https://x.com/claudeai/status/2094848572143407483",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2094843261470793728/vid/avc1/320x320/uaptuqgbE6nO7gCB.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HRJlwmVWcAEyYzf.jpg"
+        ]
+      },
+      "score": 53.333,
+      "title": "Fable 5.1 的艺术感：给身份、给素材、别限天花板",
+      "summary": "觉得 Claude 会强调艺术创造力（相对 Codex 偏代码）。用 Fable 5.1 做网站模板感觉懂小心思，但额度消耗很快。开源用法：先给艺术家身份、提供素材，不断强调做出惊世作品，不要用自己的天花板限制它。",
+      "recommend_reason": "一手体感 + 可复用的创作提示法，适合想榨 Fable 设计能力的人。",
+      "tags": [
+        "Claude",
+        "Fable 5",
+        "设计",
+        "提示词"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2094992364372902011",
+      "author": "lixinbao_X",
+      "bio": "",
+      "text": "为什么网上突然这么多人唱空宇树机器人？看完评论区才发现，原因居然很简单：这玩意以后要是不能拿来装逼，很多人就觉得没前景。\n\n有人说，国内把机器人的一些敏感功能限制得太死，等于把最大的市场给封了。\n\n还有人更直接：\n\n机器人要是连“装逼”都不能装，那起码得便宜十倍。\n\n甚至还有人调侃，真要放开限制，未来可能又会冒出一整条地下产业链，什么美版、欧版、日版、港版配件，全给你安排上。\n\n当然，这些更多还是网友段子。\n\n但仔细想想也挺有意思。\n\n普通消费者为什么要花几万块买一台人形机器人？\n\n扫地有扫地机器人，做饭有家电，陪聊有AI，真要只是走两步、翻个跟头、握个手，确实很难形成刚需。\n\n所以现在大家真正关心的，不是机器人能不能站起来。\n\n而是它站起来以后，到底能干什么。\n\n如果最后只能在发布会上翻跟头，那再先进，也很难让普通人掏钱。\n\n宇树真正要解决的，可能不是“机器人能不能跑”。\n\n而是“普通人为什么非得买一台”。",
+      "created_at": "Wed Sep 02 03:34:37 +0000 2026",
+      "likes": 0,
+      "views": "142",
+      "url": "https://x.com/i/status/2094992364372902011",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 31.404,
+      "title": "唱空宇树：问题不是能不能跑，是凭啥买",
+      "summary": "评论区唱空宇树的一个粗暴理由：不能「装逼」就没前景；还有人说敏感功能限制等于封市场，或主张至少便宜十倍。作者认为普通人不缺扫地/做饭/陪聊替代品，发布会翻跟头形不成刚需——宇树要解的是「普通人为什么非得买一台」。",
+      "recommend_reason": "把人形机器人从技术演示拉回消费动机，比单纯刷跑酷视频清醒。",
+      "tags": [
+        "宇树",
+        "人形机器人",
+        "消费",
+        "硬件"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2094988419722248397",
+      "author": "op7418",
+      "bio": "",
+      "text": "李飞飞的 World Labs 发布了他们新的世界模型 Atlas，这个看起来比上一代厉害多了。\n\n通过一张图片就可以创建一个非常完整的 3D 空间场景，你可以在里面随意运动，它也能理解时间的演变规律。\n\n它能将一张或多张输入图像整合进一个共享的空间上下文中，让每张图像都锚定在三维空间中的具体位置，再以此继续生成后续内容，既能保证当前场景的一致性，又能想象出没有看到的内容。\n\n它主要支持三大任务：\n\n生成图像和视频：能从一张或多张参考图出发，以像素级精确的相机控制生成不同角度的图像或完整视频，最长可输出 1 分钟 1440p 的视频\n\n3D 场景重建：用一张或几十张图片重建真实的 3D 场景，直接生成点云、3D 高斯泼溅（3D Gaussian Splatting）等三维结果（图片越多还原越真实），效果甚至超过了专门针对 3D 高斯泼溅优化的模型\n\n时空仿真：能把几台普通手机拍摄的视频重新取景成“子弹时间”效果，还可以为机器人训练生成测试数据",
+      "created_at": "Wed Sep 02 03:18:56 +0000 2026",
+      "likes": 50,
+      "views": "9535",
+      "url": "https://x.com/i/status/2094988419722248397",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2094988356010881024/vid/avc1/534x270/2uZmcrFfH7RVpGYh.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2094988356010881024/img/Wneu6_E8xD0vU8t6.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2094840371675283673",
+        "author": "drfeifei",
+        "name": "Fei-Fei Li",
+        "text": "I'm so excited that our @theworldlabs  team has achieved a major milestone today! Introducing Atlas - a first of its kind multimodal world model trained from scratch! 🚀\n\nAtlas is capable of generating frames with pixel-perfect camera control, reconstructing large scenes from as few as one single input image,  simulating space-time by reframing videos, natively outputting 3D spaces from one or more input images, composing multiple posed images into a consistent 3d world, and more! This is the best camera conditioned world model ever, opening doors to many possible use cases from VFX to robotics. I'm so so so proud of our team!♥️",
+        "created_at": "Tue Sep 01 17:30:39 +0000 2026",
+        "url": "https://x.com/drfeifei/status/2094840371675283673",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 47.137,
+      "title": "World Labs Atlas：单图生成可漫游的 3D 世界",
+      "summary": "李飞飞团队 World Labs 发布世界模型 Atlas：一张（或多张）图可建成完整 3D 场景并漫游，理解时间演变；多图锚定共享空间上下文。三大能力：像素级相机控制生成图/视频（最长约 1 分钟 1440p）、单图到数十图重建点云/3DGS、手机多机视频重取景成子弹时间并可用于机器人训练数据。",
+      "recommend_reason": "世界模型从「能出片」推进到「可重建、可仿真」的具体能力清单，值得盯。",
+      "tags": [
+        "World Labs",
+        "Atlas",
+        "世界模型",
+        "3D"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2094985749657723272",
+      "author": "bindureddy",
+      "bio": "",
+      "text": "OpenAI’s Astra uses a brand new technique called a looped transformer \n\nThe model loops on the same text/turn without outputting thoughts \n\nThe is a clever optimization that will make it cheaper and more performant than Fable 👏",
+      "created_at": "Wed Sep 02 03:08:20 +0000 2026",
+      "likes": 116,
+      "views": "5444",
+      "url": "https://x.com/i/status/2094985749657723272",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 66.712,
+      "title": "OpenAI Astra：用 looped transformer 省推理成本",
+      "summary": "称 OpenAI 的 Astra 用了 looped transformer：同一轮文本上循环处理、不往外吐思维链，被认为能比 Fable 更省、更强。",
+      "recommend_reason": "少见的 Astra 技术路线爆料，把「循环同一段上下文」说成相对思维链输出的成本优化。",
+      "tags": [
+        "OpenAI",
+        "Astra",
+        "Transformer",
+        "推理"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2094985608288502198",
+      "author": "AlchainHust",
+      "bio": "",
+      "text": "Fable5.1的体感确实还挺好的。\n\n而且，很有趣的一点是，这个模型似乎会更主动的把自己放在「管理者」的角色，会更倾向做全局的规划，更频繁的启动subagent去辅助自己完成工作。 https://t.co/HE2EKIYInV",
+      "created_at": "Wed Sep 02 03:07:46 +0000 2026",
+      "likes": 4,
+      "views": "986",
+      "url": "https://x.com/i/status/2094985608288502198",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRLiSd-WMAENqYe.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRLiSd-WMAENqYe.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 39.819,
+      "title": null,
+      "summary": "Fable5.1的体感确实还挺好的。\n\n而且，很有趣的一点是，这个模型似乎会更主动的把自己放在「管理者」的角色，会更倾向做全局的规划，更频繁的启动subagent去辅助自己完成工作。 https://t.co/HE2EKIYInV",
+      "recommend_reason": "早期体感里最有辨识度的一点：更像管理者、更爱派 subagent。",
+      "tags": [
+        "Claude",
+        "Fable 5",
+        "Agent",
+        "Subagent"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2094983743777960099",
+      "author": "xiaohu",
+      "bio": "",
+      "text": "Fable 5.1 的系统提示\n\n内置了持久化文件记忆系统\n\n分为身份卡（/profile.md）、领域话题（/topics/）、进行中项目（/areas/）、人物关系（/people/）及交互偏好（/preferences.md）\n\n版权硬性红线：不完整输出 1929 年以后的歌曲歌词、诗歌、小说段落及知名艺术角色；用代码（如 SVG）绘制图形时，只要特征符合受版权保护的知名形象（例如索尼克、好饿的毛毛虫），就会直接拒绝并换成纯原创形象。\n\nhttps://t.co/lYIKtntGj0",
+      "created_at": "Wed Sep 02 03:00:22 +0000 2026",
+      "likes": 18,
+      "views": "3275",
+      "url": "https://x.com/i/status/2094983743777960099",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "CL4R1T4S/ANTHROPIC/Claude-Fable-5.1.md at main · elder-plinius/CL4R1T4S",
+        "description": "LEAKED SYSTEM PROMPTS FOR CHATGPT, CLAUDE, GEMINI, GROK, PERPLEXITY, CURSOR, LOVABLE, REPLIT, AND MORE! - AI SYSTEMS TRANSPARENCY FOR ALL! 👐 - elder-plinius/CL4R1T4S",
+        "image_url": "https://pbs.twimg.com/card_img/2094859877269282817/5wHMU1sS?format=jpg&name=600x600",
+        "url": "https://t.co/lYIKtntGj0",
+        "domain": "github.com"
+      },
+      "quoted_tweet": null,
+      "score": 56.556,
+      "title": "泄露的 Fable 5.1 系统提示：文件记忆 + 版权红线",
+      "summary": "拆 Fable 5.1 系统提示：持久化文件记忆分身份卡、topics、areas、people、preferences；版权上不完整输出 1929 年后歌词/诗歌/小说段落与知名艺术角色，用代码画受版权形象也会拒并改原创。",
+      "recommend_reason": "把记忆目录结构和版权硬拒规则写清楚，比空喊「更强」更有用。",
+      "tags": [
+        "Claude",
+        "Fable 5",
+        "系统提示",
+        "版权"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2094983639780204846",
+      "author": "elonmusk",
+      "bio": "",
+      "text": "Grok 4.7 comes out in 10 days",
+      "created_at": "Wed Sep 02 02:59:57 +0000 2026",
+      "likes": 8664,
+      "views": "931259",
+      "url": "https://x.com/i/status/2094983639780204846",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2094956748004118703",
+        "author": "tobi",
+        "name": "tobi lutke",
+        "text": "@haider1 But just look how incredible grok 4.6 is",
+        "created_at": "Wed Sep 02 01:13:05 +0000 2026",
+        "url": "https://x.com/tobi/status/2094956748004118703",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 65.635,
+      "title": null,
+      "summary": "Grok 4.7 十天后发布。",
+      "recommend_reason": "官方口吻的版本时间表，回应 tobi 对 Grok 4.6 的称赞。",
+      "tags": [
+        "Grok",
+        "xAI",
+        "发布"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2094982928371794077",
+      "author": "Alibaba_Qwen",
+      "bio": "",
+      "text": "🏆 #1 overall on Code Arena, and top of the Pareto frontier at $5/MToken. Thanks! @arena \nGive Qwen3.8-Max-0902 a spin on QwenCloud.🥳",
+      "created_at": "Wed Sep 02 02:57:07 +0000 2026",
+      "likes": 231,
+      "views": "17711",
+      "url": "https://x.com/i/status/2094982928371794077",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2094979331420504491",
+        "author": "arena",
+        "name": "Arena.ai",
+        "text": "Qwen3.8-Max-0902 by @Alibaba_Qwen just debuted at #1 overall in Code Arena: WebDev with 1,691 pts, and became the highest-scoring model on the Pareto frontier at a blended $5/MToken!\n\nOn the updated frontier, Qwen3.8-Max-0902 sits above HY4 Preview (1,629 pts at $2.08/MToken) and Qwen3.8-Flash-Next (1,620 pts at $0.39/MToken).\n\nWith this release, three models at the top of the overall leaderboard have moved off the Pareto frontier despite remaining #2–#4 overall:\n- Claude Opus 5 (Max): #2, 1,688 pts, $20/MToken\n- Kimi K3 (Max): #3, 1,674 pts, $12/MToken\n- Qwen3.8 (Max): #4, 1,669 pts, $5/MToken\n\nCongrats to the @Alibaba_Qwen team on the release!",
+        "created_at": "Wed Sep 02 02:42:50 +0000 2026",
+        "url": "https://x.com/arena/status/2094979331420504491",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HRLWQTVaYAAowQS.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HRLWQTVaYAAowQS.jpg"
+        ]
+      },
+      "score": 64.345,
+      "title": null,
+      "summary": "在 Code Arena 总榜拿下第 1，并在约 $5/MToken 价位站上 Pareto 前沿。谢谢 @arena。来 QwenCloud 试试 Qwen3.8-Max-0902。",
+      "recommend_reason": "Arena 引用里 Qwen3.8-Max-0902 WebDev 1691 分登顶，同价带压过 Opus 5 / Kimi K3 的性价比叙事。",
+      "tags": [
+        "Qwen",
+        "Code Arena",
+        "评测",
+        "通义"
+      ],
+      "rank": 12
+    }
+  ],
+  "generated_at": "2026-09-02T04:15:41Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 12,
+    "last_batch_added": 12,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
