@@ -1,12 +1,367 @@
 {
   "source": "xianyu-ai-demand",
   "title": "闲鱼 AI 需求雷达",
-  "updated_at": "2026-09-03T20:00:00+08:00",
-  "count": 0,
+  "updated_at": "2026-09-03T20:31:00+08:00",
+  "count": 16,
   "summary": {
-    "top_demands": [],
-    "price_bands": [],
-    "gaps": []
+    "top_demands": [
+      "Midjourney 账号代充/拼车（月卡代充想要数最高档）",
+      "低价提示词包（¥1 引流款，想要数断层）",
+      "按张代出图 / AI图·短视频代做（需求侧有求购，客单低）",
+      "AI短剧/漫剧/副业图书教程（搜 ChatGPT/Claude 时被图书占据）",
+      "付费课提示词二次流通（求购「某老师提示词」）"
+    ],
+    "price_bands": [
+      "提示词包：¥1–6（引流）",
+      "MJ 日卡独享：~¥4；周卡拼车：¥15–16；月卡拼车：~¥46；月卡代充：¥60–78",
+      "代出图：¥9.9 起（约0.1–1元/张量级营销）",
+      "AI 教程图书：¥8–28",
+      "求购帖标价：多为 ¥1–5（意向价，非成交价）"
+    ],
+    "gaps": [
+      "合规/可交付的「垂直场景提示词+工作流」组合（非¥1垃圾包），挂在 MJ/AI绘图品类下避开裸搜过滤",
+      "面向小白的 AI 短视频/漫剧「代做成品」标准化套餐（求购存在但供给杂、客单低，缺可信交付）",
+      "ChatGPT/Claude 账号在网页端几乎搜不到（疑似审核），Midjourney 仍畅通——可观察政策窗口，勿硬上违规账号生意"
+    ]
   },
-  "items": []
+  "items": [
+    {
+      "id": "mj-prompt-pack-1yuan",
+      "title": "Midjourney提示词ai生图咒语MJ热门词AI绘画（12000+关键词PDF）",
+      "kind": "goods",
+      "score": 92,
+      "confidence": "high",
+      "status": "hot",
+      "price": "¥1",
+      "category": "提示词包",
+      "tags": [
+        "Midjourney",
+        "提示词",
+        "引流款",
+        "虚拟货"
+      ],
+      "summary": "¥1 提示词包，647人想要，远超同页其他商品，典型引流款。",
+      "why_it_matters": "想要数断层第一，说明「低价提示词包」是闲鱼 AI 绘图侧最强需求/获客信号。",
+      "url": "https://www.goofish.com/item?id=995515224497",
+      "first_detected": "2026-09-03T20:31:00+08:00",
+      "last_updated": "2026-09-03T20:31:00+08:00"
+    },
+    {
+      "id": "mj-daichong-60",
+      "title": "Midjourney会员月卡代充｜官方直充到个人账号",
+      "kind": "account",
+      "score": 88,
+      "confidence": "high",
+      "status": "hot",
+      "price": "¥60",
+      "category": "账号代充",
+      "tags": [
+        "Midjourney",
+        "代充",
+        "月卡"
+      ],
+      "summary": "¥60 月卡代充，254人想要；同赛道 ¥78 代充亦有110人想要。",
+      "why_it_matters": "用户更想「充到自己账号」而非共享号，代充需求显著。",
+      "url": "",
+      "first_detected": "2026-09-03T20:31:00+08:00",
+      "last_updated": "2026-09-03T20:31:00+08:00"
+    },
+    {
+      "id": "want-kaobei-prompt",
+      "title": "靠背视觉AI提示词 求购某抖靠背视觉老师的ai提示词",
+      "kind": "want",
+      "score": 86,
+      "confidence": "high",
+      "status": "hot",
+      "price": "¥1",
+      "category": "求购-提示词",
+      "tags": [
+        "求购",
+        "提示词",
+        "课程衍生品",
+        "需求侧"
+      ],
+      "summary": "真实求购帖：要某抖老师课程里的 AI 提示词，标价¥1。",
+      "why_it_matters": "清晰需求侧信号——付费课提示词被拆卖/求购，可做合规整理或原作者授权包。",
+      "url": "https://www.goofish.com/item?id=1077142228190",
+      "first_detected": "2026-09-03T20:31:00+08:00",
+      "last_updated": "2026-09-03T20:31:00+08:00"
+    },
+    {
+      "id": "mj-daichong-78",
+      "title": "Midjourney月卡代充值｜MJ会员直充到自己账号",
+      "kind": "account",
+      "score": 84,
+      "confidence": "high",
+      "status": "hot",
+      "price": "¥78",
+      "category": "账号代充",
+      "tags": [
+        "Midjourney",
+        "代充",
+        "月卡"
+      ],
+      "summary": "¥78 代充，110人想要，与¥60档形成代充价格带。",
+      "why_it_matters": "代充价格带约 ¥60–78/月，高于拼车共享。",
+      "url": "",
+      "first_detected": "2026-09-03T20:31:00+08:00",
+      "last_updated": "2026-09-03T20:31:00+08:00"
+    },
+    {
+      "id": "mj-daioutu-9p9",
+      "title": "Midjourney绘图 低至0.1一张 9.9元＝10积分＝10张",
+      "kind": "service",
+      "score": 82,
+      "confidence": "high",
+      "status": "hot",
+      "price": "¥9.9",
+      "category": "代出图",
+      "tags": [
+        "Midjourney",
+        "代做",
+        "按张计费"
+      ],
+      "summary": "按张代出图服务，74人想要，低客单试水。",
+      "why_it_matters": "不想买账号的人直接买「出图结果」，服务型供给有量。",
+      "url": "",
+      "first_detected": "2026-09-03T20:31:00+08:00",
+      "last_updated": "2026-09-03T20:31:00+08:00"
+    },
+    {
+      "id": "want-ai-daizuo",
+      "title": "求购 低价求ai图ai短视频制作",
+      "kind": "want",
+      "score": 80,
+      "confidence": "medium",
+      "status": "hot",
+      "price": "¥5",
+      "category": "求购-代做",
+      "tags": [
+        "求购",
+        "AI绘图",
+        "AI短视频",
+        "代做"
+      ],
+      "summary": "买方求低价 AI 图/短视频制作，标价¥5。",
+      "why_it_matters": "需求侧愿意为「成品代做」出价，但客单极低、供给需看交付质量。",
+      "url": "",
+      "first_detected": "2026-09-03T20:31:00+08:00",
+      "last_updated": "2026-09-03T20:31:00+08:00"
+    },
+    {
+      "id": "mj-pinch-week-15",
+      "title": "Midjourney会员官方网页标准版7天共享拼车",
+      "kind": "account",
+      "score": 78,
+      "confidence": "high",
+      "status": "hot",
+      "price": "¥15.9",
+      "category": "账号拼车",
+      "tags": [
+        "Midjourney",
+        "拼车",
+        "周卡"
+      ],
+      "summary": "7天共享拼车约 ¥15–16，供给密集、回复快。",
+      "why_it_matters": "周卡拼车是 MJ 账号侧默认入门档，供给极卷。",
+      "url": "https://www.goofish.com/item?id=1030770919311",
+      "first_detected": "2026-09-03T20:31:00+08:00",
+      "last_updated": "2026-09-03T20:31:00+08:00"
+    },
+    {
+      "id": "signal-prompt-keyword-blocked",
+      "title": "网页搜索「提示词」零结果（疑似关键词过滤）",
+      "kind": "other",
+      "score": 75,
+      "confidence": "high",
+      "status": "hot",
+      "price": null,
+      "category": "平台信号",
+      "tags": [
+        "提示词",
+        "搜索过滤",
+        "平台策略"
+      ],
+      "summary": "直接搜「提示词」返回「小闲鱼没有找到你想要的宝贝」；但 Midjourney 词下提示词商品大量存在。",
+      "why_it_matters": "平台对「提示词」裸搜有过滤，运营需挂在品牌词/品类词下。",
+      "url": "https://www.goofish.com/search?q=%E6%8F%90%E7%A4%BA%E8%AF%8D",
+      "first_detected": "2026-09-03T20:31:00+08:00",
+      "last_updated": "2026-09-03T20:31:00+08:00"
+    },
+    {
+      "id": "mj-pinch-month-46",
+      "title": "Midjourney V7拼车账号共享（月卡）官方正版",
+      "kind": "account",
+      "score": 74,
+      "confidence": "high",
+      "status": "hot",
+      "price": "¥45.98",
+      "category": "账号拼车",
+      "tags": [
+        "Midjourney",
+        "拼车",
+        "月卡",
+        "V7"
+      ],
+      "summary": "月卡拼车约 ¥46，低于代充档。",
+      "why_it_matters": "拼车月卡与代充形成明显价差（约¥46 vs ¥60–78）。",
+      "url": "",
+      "first_detected": "2026-09-03T20:31:00+08:00",
+      "last_updated": "2026-09-03T20:31:00+08:00"
+    },
+    {
+      "id": "book-ai-duanju-bundle",
+      "title": "全新正版《AI短剧一本通》+《豆包AI精准赚钱》套装",
+      "kind": "course",
+      "score": 72,
+      "confidence": "high",
+      "status": "hot",
+      "price": "¥12.8",
+      "category": "教程图书",
+      "tags": [
+        "AI短剧",
+        "豆包",
+        "图书",
+        "知识付费漏斗"
+      ],
+      "summary": "图书套装41人想要；搜 ChatGPT/Claude 时大量被图书/教程占据。",
+      "why_it_matters": "英文品牌词在闲鱼常被实体书/引流课劫持，账号供给被压制。",
+      "url": "https://www.goofish.com/item?id=1065075551400",
+      "first_detected": "2026-09-03T20:31:00+08:00",
+      "last_updated": "2026-09-03T20:31:00+08:00"
+    },
+    {
+      "id": "mj-daypass-4",
+      "title": "Midjourney 独享会员1天卡｜非共享｜国内直连｜网页端",
+      "kind": "account",
+      "score": 70,
+      "confidence": "medium",
+      "status": "hot",
+      "price": "¥3.98",
+      "category": "账号日卡",
+      "tags": [
+        "Midjourney",
+        "日卡",
+        "独享"
+      ],
+      "summary": "独享日卡约 ¥4，试用不共享。",
+      "why_it_matters": "日卡满足「试一下」需求，单价极低。",
+      "url": "",
+      "first_detected": "2026-09-03T20:31:00+08:00",
+      "last_updated": "2026-09-03T20:31:00+08:00"
+    },
+    {
+      "id": "book-ai-manju",
+      "title": "全新正版《AI漫剧短剧制作速成教程》+爆款AI提效手册",
+      "kind": "course",
+      "score": 68,
+      "confidence": "medium",
+      "status": "hot",
+      "price": "¥26.9",
+      "category": "教程图书",
+      "tags": [
+        "AI漫剧",
+        "短剧",
+        "图书"
+      ],
+      "summary": "搜 ChatGPT 首页多为漫剧/短剧图书，9人想要。",
+      "why_it_matters": "「AI短剧/漫剧」教程是图书供给侧热点话术。",
+      "url": "",
+      "first_detected": "2026-09-03T20:31:00+08:00",
+      "last_updated": "2026-09-03T20:31:00+08:00"
+    },
+    {
+      "id": "book-ai-jichu-qinghua",
+      "title": "人工智能：从基础到实践（微课视频版）清华大学相关教材",
+      "kind": "goods",
+      "score": 66,
+      "confidence": "medium",
+      "status": "hot",
+      "price": "¥17",
+      "category": "教材",
+      "tags": [
+        "教材",
+        "微课",
+        "基础"
+      ],
+      "summary": "搜「Claude账号」时该书67人想要，全页无真实 Claude 账号。",
+      "why_it_matters": "Claude/ChatGPT 账号词在网页端几乎被图书淹没（疑似审核压制）。",
+      "url": "",
+      "first_detected": "2026-09-03T20:31:00+08:00",
+      "last_updated": "2026-09-03T20:31:00+08:00"
+    },
+    {
+      "id": "book-ai-chuangfu",
+      "title": "AI创富【购前请看】本店所有图书均为正版全新图书",
+      "kind": "course",
+      "score": 65,
+      "confidence": "medium",
+      "status": "hot",
+      "price": "¥12.7",
+      "category": "教程图书",
+      "tags": [
+        "创富",
+        "知识分销",
+        "虚拟产品话术"
+      ],
+      "summary": "卡片话术含虚拟产品/同城引流/知识分销。",
+      "why_it_matters": "图书店常是知识分销漏斗入口，不一定是真需求。",
+      "url": "https://www.goofish.com/item?id=1075149717612",
+      "first_detected": "2026-09-03T20:31:00+08:00",
+      "last_updated": "2026-09-03T20:31:00+08:00"
+    },
+    {
+      "id": "book-aigc-illustration",
+      "title": "AIGC创意插画设计（微课版）",
+      "kind": "goods",
+      "score": 62,
+      "confidence": "medium",
+      "status": "hot",
+      "price": "¥20",
+      "category": "教材",
+      "tags": [
+        "AIGC",
+        "插画",
+        "图书"
+      ],
+      "summary": "28人想要，仍属图书供给侧。",
+      "why_it_matters": "AIGC 插画教材有一定兴趣，但非服务型需求。",
+      "url": "",
+      "first_detected": "2026-09-03T20:31:00+08:00",
+      "last_updated": "2026-09-03T20:31:00+08:00"
+    },
+    {
+      "id": "mj-prompt-fashion",
+      "title": "midjourney各种服装风格的完整关键词 百度网盘发",
+      "kind": "goods",
+      "score": 60,
+      "confidence": "medium",
+      "status": "hot",
+      "price": "¥5.99",
+      "category": "提示词包",
+      "tags": [
+        "Midjourney",
+        "服装",
+        "提示词",
+        "网盘"
+      ],
+      "summary": "垂直品类提示词包 ¥5.99，经网盘交付。",
+      "why_it_matters": "垂直场景提示词（服装等）可差异化，避免纯¥1大杂烩。",
+      "url": "",
+      "first_detected": "2026-09-03T20:31:00+08:00",
+      "last_updated": "2026-09-03T20:31:00+08:00"
+    }
+  ],
+  "_meta": {
+    "account": "xy306461421187",
+    "profile": "/home/box/.chrome-goofish",
+    "coverage": "batch1: ChatGPT / Claude账号 / Midjourney / 提示词 / AI求购；batch2 掉登录未采完（AI绘图/写作/数字人/课程等）",
+    "blocker": "2026-09-03 登录墙（短信/扫码），无快速进入；待 cy/用户扫码后补扫",
+    "notes": [
+      "搜 ChatGPT、Claude账号 → 几乎全是实体书/教程，无真实账号卡",
+      "搜 Midjourney → 账号拼车/代充/提示词/代出图主导",
+      "搜 提示词 → 网页零结果（过滤）",
+      "搜 AI求购 → 大量 AI 摄像头/硬件噪声，夹杂少量真 AI 服务求购"
+    ]
+  }
 }
