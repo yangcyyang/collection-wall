@@ -17,3 +17,4 @@ created: 2026-07-10
 | F006 | 点亮技能 Tab（Cola Skill SKILL.md 目录） | in-progress | Cloud Agent | docs/features/F006-skill-tab.md |
 | F007 | 点亮闲鱼 Tab（AI 需求雷达） | in-progress | Cloud Agent | docs/features/F007-xianyu-tab.md |
 | F008 | 点亮小红书 Tab（AI 用户雷达） | in-progress | Cloud Agent | docs/features/F008-xiaohongshu-tab.md |
+| F009 | 点亮副业 Tab（小红书副业机会雷达） | in-progress | Cloud Agent | docs/features/F009-sidehustle-tab.md |

@@ -1,5 +1,5 @@
 ---
-type Props = { current: "wall" | "news" | "twitter" | "knowledge" | "prompts" | "skills" | "radar" | "xianyu" | "xiaohongshu" | "login" };
+type Props = { current: "wall" | "news" | "twitter" | "knowledge" | "prompts" | "skills" | "radar" | "xianyu" | "xiaohongshu" | "sidehustle" | "login" };
 const { current } = Astro.props;
 const items = [
   { id: "wall", href: "/", label: "收藏墙" },
@@ -11,6 +11,7 @@ const items = [
   { id: "radar", href: "/radar/", label: "雷达" },
   { id: "xianyu", href: "/xianyu/", label: "闲鱼" },
   { id: "xiaohongshu", href: "/xiaohongshu/", label: "小红书" },
+  { id: "sidehustle", href: "/sidehustle/", label: "副业" },
 ] as const;
 ---
 
