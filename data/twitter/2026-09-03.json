@@ -9,6 +9,606 @@
   },
   "items": [
     {
+      "id": "2095538308436914307",
+      "author": "rowancheung",
+      "bio": "",
+      "text": "AI enhanced journaling is changing my life\n\nI've been running a Wispr Flow + Claude Cowork workflow that turns rambles into structured data and action items\n\nSuper simple setup:\n\n1. After meetings/events (or whenever I have a big idea), I open my phone and ramble everything into an Apple note using Wispr Flow, completely unstructured\n\n2. The only goal is getting it out of my head before I forget and turning those nuggets into data\n\n3. Those Apple notes sync to my Mac automatically, where a scheduled Claude task runs at night\n\n4. It reads every voice note I dumped while I sleep, no copying or pasting\n\n5. Claude structures the mess inside my Notion for me in the morning: key ideas, action items, and suggested deep work blocks in my GCal\n\n6. Next morning over coffee, I review and action them\n\nThe benefits are follow-ups I promised getting flagged, half-formed ideas getting structured, and deep work blocks booked automatically\n\nPlus over time, this becomes a searchable log of every idea I've had all year\n\nAnd I never touched my keyboard once :)",
+      "created_at": "Thu Sep 03 15:44:00 +0000 2026",
+      "likes": 15,
+      "views": "5359",
+      "url": "https://x.com/i/status/2095538308436914307",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 54.746,
+      "title": "语音日记加夜间 Claude 定时任务：从口述到 Notion 与日历的全自动整理流",
+      "summary": "作者分享了一套「AI 增强日记」工作流。开会或有想法后，他用 Wispr Flow 对着手机把内容毫无结构地口述进 Apple 备忘录，目标只是趁没忘先倒出来、把念头变成数据；备忘录自动同步到 Mac，一个定时的 Claude 任务在夜间运行，趁他睡觉时读完当天所有语音笔记，不需要任何复制粘贴；第二天早上，Claude 已经在他的 Notion 里把这堆内容结构化成关键想法和待办事项，并在 Google 日历里给出建议的深度工作时段，他喝咖啡时复核并执行。他说好处是承诺过的跟进会被标出来、半成型的想法被结构化、深度工作时段被自动预定，长期还会攒成一年内所有想法的可搜索记录，而且全程一次键盘都没碰。",
+      "recommend_reason": "把语音输入、夜间定时 Agent、Notion 和日历串成闭环，是「定时任务加 Agent」在个人知识管理上的可复制样板。",
+      "tags": [
+        "Claude",
+        "工作流",
+        "语音输入",
+        "Notion",
+        "个人知识管理"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2095529101662831020",
+      "author": "op7418",
+      "bio": "",
+      "text": "ChatGPT 官号开始预热，今天晚上 GPT Astra几乎肯定会发布，压一手凌晨 1 点 https://t.co/HHFeTEpGN1",
+      "created_at": "Thu Sep 03 15:07:25 +0000 2026",
+      "likes": 37,
+      "views": "22816",
+      "url": "https://x.com/i/status/2095529101662831020",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRTQWrta4AAbzTJ.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRTQWrta4AAbzTJ.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2095527989077557738",
+        "author": "ChatGPT",
+        "name": "ChatGPT",
+        "text": "The stars are almost aligned. https://t.co/sh7mzc4n4L",
+        "created_at": "Thu Sep 03 15:03:00 +0000 2026",
+        "url": "https://x.com/ChatGPT/status/2095527989077557738",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2095527860631187457/vid/avc1/432x270/Lng-a3uKMyOEC6bU.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2095527860631187457/img/Jl9Z2rZe0iBQmoc8.jpg"
+        ]
+      },
+      "score": 59.773,
+      "summary": "ChatGPT 官号开始预热，今天晚上 GPT Astra几乎肯定会发布，压一手凌晨 1 点",
+      "recommend_reason": "把官号预热和具体发布时点连起来做了明确预测，第二天可以直接对照是否兑现。",
+      "tags": [
+        "OpenAI",
+        "GPT",
+        "发布预告"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2095528292409610517",
+      "author": "op7418",
+      "bio": "",
+      "text": "我去，这是哪家上游服务商炸了吗？\n\nOpenAI、Cloudflare、Cursor、SpaceX 全炸了 https://t.co/xJEgdlFL2Y",
+      "created_at": "Thu Sep 03 15:04:12 +0000 2026",
+      "likes": 108,
+      "views": "51608",
+      "url": "https://x.com/i/status/2095528292409610517",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRTP0MTaEAEfnRj.jpg",
+        "https://pbs.twimg.com/media/HRTP0MPbMAAvhPv.jpg",
+        "https://pbs.twimg.com/media/HRTP0MSbcAAQa5W.png",
+        "https://pbs.twimg.com/media/HRTP0MRaoAATN-A.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRTP0MTaEAEfnRj.jpg",
+        "https://pbs.twimg.com/media/HRTP0MPbMAAvhPv.jpg",
+        "https://pbs.twimg.com/media/HRTP0MSbcAAQa5W.png",
+        "https://pbs.twimg.com/media/HRTP0MRaoAATN-A.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 62.797,
+      "summary": "我去，这是哪家上游服务商炸了吗？\n\nOpenAI、Cloudflare、Cursor、SpaceX 全炸了",
+      "recommend_reason": "记录了 9 月 3 日深夜 OpenAI、Cloudflare、Cursor 同时不可用的现场，指向共同上游依赖的集中风险。",
+      "tags": [
+        "宕机",
+        "OpenAI",
+        "Cloudflare",
+        "Cursor",
+        "基础设施"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2095498276388942044",
+      "author": "xiaoxiaodong01",
+      "bio": "",
+      "text": "GPT2 x 布艺 x 拼贴 x 美学提示词 x  VOL.111\n\n调试这个布料重构画面提示词1个小时了\n找到了不少这种提示词的诀窍\n\n财富不自由，提示词自由了\n中秋节，到时候得举杯恭喜下自己了\n\n预留GitHub项目地址：\nhttps://t.co/vg08fkRFnj\n\n完整提示词：\n\n```\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色，使其具有艺术杂志、独立出版物与展览图像质感。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分先理解原照片最值得被记住的**核心主题、主体关系、结构走势、情绪气氛与视觉隐喻**，再重构为**手工缝制纺织拼贴插画**。不要逐物复制照片，而是删去无关细节，只保留最能代表原物的结构、走势和视觉记忆点，通过贴布绣、布料拼贴、毛边贴布、层叠布片和少量刺绣重新概括，使画面经过理解与再创作后，仍能一眼识别与上方照片之间的对应关系。\n\n造型以**少量大布片、简洁剪影、正负形和显性针迹**为主。人物、建筑、动物、植物、器物或景观都可被概括、裁切、变形、合并或部分省略，保留棉麻纤维、毛边、抽丝、不规则剪裁、轻微错位与手工锁边针迹，呈现真实、温暖、有触觉感的 appliqué / textile collage 质感。\n\n构图保持**小尺度章印与大面积留白**的关系，根据主体自身的方向、比例和视觉重心自由安排位置，可偏心、贴边、悬置或局部裁切。主体与少量辅助布片集中形成清晰视觉落点，其余空间主动留空，让留白本身参与正负形、疏密、聚散和不对称平衡，形成呼吸感、空间感与高级编辑秩序。宁可删减，也不要填满。\n\n配色从上方照片中提取**最有生命力、最有生活温度、最能代表画面精神的2–4种颜色**重新调制，适度提亮、提纯、去灰，使布料颜色鲜活、柔软、亲切。可自然形成天空蓝、湖水青、草木绿、奶油黄、杏橙、珊瑚红、柔粉等清爽综合色，以大片浅色底布平衡少量鲜明色块。避免暗淡、灰脏、陈旧褐色、沉闷大地色和廉价高饱和感。\n\n文字只作极少量编辑性介入，不限制语种，也不预设固定标题或编号。可从主体、地点、动作、情绪、生活细节或隐喻中自由提炼少量字词或短句，安静地置于留白、主体边缘或布片关系之间，与图形共同形成精致的图文构成。\n\n整体呈现**选择性记忆、纺织拼贴、手工针迹、鲜活布料、小尺度章印、大面积艺术留白与编辑式排版**共同构成的高级视觉效果。避免逐物转绘、画面填满、复杂背景、暗淡旧布色、卡通感、3D感、廉价手作感和模板化拼贴。\n\n```",
+      "created_at": "Thu Sep 03 13:04:56 +0000 2026",
+      "likes": 34,
+      "views": "2468",
+      "url": "https://x.com/i/status/2095498276388942044",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRSz4wFbQAEF6bx.jpg",
+        "https://pbs.twimg.com/media/HRSz5m-bIAATHff.jpg",
+        "https://pbs.twimg.com/media/HRSz6qNakAA_oRg.jpg",
+        "https://pbs.twimg.com/media/HRSz7k1bsAA0mXr.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRSz4wFbQAEF6bx.jpg",
+        "https://pbs.twimg.com/media/HRSz5m-bIAATHff.jpg",
+        "https://pbs.twimg.com/media/HRSz6qNakAA_oRg.jpg",
+        "https://pbs.twimg.com/media/HRSz7k1bsAA0mXr.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2095453743106101666",
+        "author": "xiaoxiaodong01",
+        "name": "小小东",
+        "text": "GPT2 x 素描 x  美学提示词 x  VOL.091\n\n原来我还藏着这套提示词， 一直没有发布哦\n\nps:我藏了好多期，没有发布，因为怕你们看腻了。\n熟悉的朋友，可以去我GitHub中找到\n\nskills 地址：https://t.co/3Dv2dvlQDK\n\nprompt by xiaoxiaodong:\n\n各国语言版本的，都包含在其中\n\n```\nhttps://t.co/u7RTG2VIiE\n```",
+        "created_at": "Thu Sep 03 10:07:58 +0000 2026",
+        "url": "https://x.com/xiaoxiaodong01/status/2095453743106101666",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HRSKt9SagAEg-gk.jpg",
+          "https://pbs.twimg.com/media/HRSKzo8asAInX2Y.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HRSKt9SagAEg-gk.jpg",
+          "https://pbs.twimg.com/media/HRSKzo8asAInX2Y.jpg"
+        ]
+      },
+      "score": 65.461,
+      "title": "小小东美学提示词 VOL.111：布艺贴布绣拼贴海报",
+      "summary": "第 111 组图像提示词，作者称调了一个小时才摸到这类布料重构画面的诀窍，并预留了 GitHub 项目地址。结构同样是 3:4 竖版、上下各占一半：上半保留原照片轻微调色；下半先理解原图的核心主题、结构走势与情绪隐喻，再重构成手工缝制的纺织拼贴插画，用贴布绣、布料拼贴、毛边布片、层叠与少量刺绣来概括主体，保留棉麻纤维、抽丝、不规则剪裁与手工锁边针迹的触觉感。构图要求小尺度主体配大面积留白、宁可删减也不要填满；配色从原图提取 2–4 种有生活温度的颜色并适度提亮去灰；文字只作极少量编辑性介入。",
+      "recommend_reason": "和 VOL.109 的几何路线正好互补，这组把材质与手工针迹写进提示词，适合要温度感而不是锐利感的画面。",
+      "tags": [
+        "提示词",
+        "图像生成",
+        "设计",
+        "拼贴"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2095494174623801493",
+      "author": "bindureddy",
+      "bio": "",
+      "text": "Meta’s Muse Spark 1.3 only looks good on benchmarks\n\nIn real life, It’s just a GPT 5.6 Terra class model\n\nThe benchmarks are being gamed  severely",
+      "created_at": "Thu Sep 03 12:48:38 +0000 2026",
+      "likes": 398,
+      "views": "25354",
+      "url": "https://x.com/i/status/2095494174623801493",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 66.665,
+      "summary": "Meta 的 Muse Spark 1.3 只在跑分上好看。真实使用里，它就是 GPT 5.6 Terra 那个档位的模型。这些跑分正在被严重刷分操纵。",
+      "recommend_reason": "对刚发布模型的榜单成绩给出反向实测判断，提醒跑分与真实体验之间的落差。",
+      "tags": [
+        "Meta",
+        "模型评测",
+        "Benchmark",
+        "观点"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2095481039133286502",
+      "author": "gkxspace",
+      "bio": "",
+      "text": "卧槽，提示词这玩意真得看文科生啊😅\n\n我刚试了一下，写作时只加一句：禁止使用状语\n\n前后效果差得离谱，不加就是一股 AI 味，加上以后就是很牛逼的小说质感\n\n就这么一句话，我感觉自己都能当作家了。。。\n\n看来想玩好 AI，语言底子还是得够厚，羡慕文科生的一天😭 https://t.co/2nxtTMbPIr",
+      "created_at": "Thu Sep 03 11:56:26 +0000 2026",
+      "likes": 760,
+      "views": "134367",
+      "url": "https://x.com/i/status/2095481039133286502",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRSk4MFawAA4ykG.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRSk4MFawAA4ykG.png"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2094711459704098991",
+        "author": "yyyole",
+        "name": "沐阳",
+        "text": "一个私藏的实用技巧：\n用AI写文章时，禁止它使用副词，你会发现写出来的内容，会很有画面感！！",
+        "created_at": "Tue Sep 01 08:58:24 +0000 2026",
+        "url": "https://x.com/yyyole/status/2094711459704098991",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 69.096,
+      "summary": "卧槽，提示词这玩意真得看文科生啊😅\n\n我刚试了一下，写作时只加一句：禁止使用状语\n\n前后效果差得离谱，不加就是一股 AI 味，加上以后就是很牛逼的小说质感\n\n就这么一句话，我感觉自己都能当作家了。。。\n\n看来想玩好 AI，语言底子还是得够厚，羡慕文科生的一天😭",
+      "recommend_reason": "一句「禁止使用状语」就能明显削掉 AI 写作味，是零成本、可立刻自己验证的写作提示词技巧。",
+      "tags": [
+        "提示词",
+        "AI写作",
+        "技巧"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2095477563825279147",
+      "author": "oran_ge",
+      "bio": "",
+      "text": "Cola Skill 收藏了超多实用的 Agent Skill\n全部是社区和创作者们精心挑选\n每天都有新的 skill 推送\n找不到想要的 skill 的时候\n就可以来搜搜看\nhttps://t.co/4DUTNb2Ulf https://t.co/rKUKNtCAUt",
+      "created_at": "Thu Sep 03 11:42:37 +0000 2026",
+      "likes": 27,
+      "views": "4380",
+      "url": "https://x.com/i/status/2095477563825279147",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRSgxsiaQAAOol-.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRSgxsiaQAAOol-.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 62.019,
+      "summary": "Cola Skill 收藏了超多实用的 Agent Skill\n全部是社区和创作者们精心挑选\n每天都有新的 skill 推送\n找不到想要的 skill 的时候\n就可以来搜搜看",
+      "recommend_reason": "Agent Skill 已经多到需要检索入口，这类社区精选目录能省掉从零翻 GitHub 的时间。",
+      "tags": [
+        "Agent",
+        "Skill",
+        "工具",
+        "资源"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2095476249556853100",
+      "author": "Alibaba_Qwen",
+      "bio": "",
+      "text": "Meet E-Commerce Bench, a new benchmark for long-horizon autonomous business operations. 🚀\n\nAgents start with ¥100,000 to run online stores for 365 days, handling sourcing, negotiation, pricing, promotions, inventory and cash flow, in a market driven by real e-commerce data.\n\nWhat's inside: 👀\n- Real economics: 6886 products, 576 suppliers (152 fraudsters), 600-minute workdays, storage fees, returns and reputation.\n- Long-horizon learning: almost no model learns to buy cheaper or improve its strategies over a full year of operation.\n- Seven-axis evaluation: beyond year-end assets, we score six more dimensions, revealing that no single model dominates across the board.\n\nLearn more about E-Commerce Bench: 👇\n- Blog: https://t.co/fpdO9jwwiV\n- Paper: https://t.co/EYIGlMPFUn\n- Project: https://t.co/ss2kuThRin\n- Code: https://t.co/xZOURdp7zE",
+      "created_at": "Thu Sep 03 11:37:24 +0000 2026",
+      "likes": 464,
+      "views": "32221",
+      "url": "https://x.com/i/status/2095476249556853100",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRSfX0lbIAAeNgT.jpg",
+        "https://pbs.twimg.com/media/HRSfiTBagAA8udg.jpg",
+        "https://pbs.twimg.com/media/HRSfknhaoAAHwi6.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRSfX0lbIAAeNgT.jpg",
+        "https://pbs.twimg.com/media/HRSfiTBagAA8udg.jpg",
+        "https://pbs.twimg.com/media/HRSfknhaoAAHwi6.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 72.653,
+      "title": "阿里 Qwen 发布 E-Commerce Bench：Agent 拿 10 万元本金经营网店 365 天",
+      "summary": "Qwen 团队推出 E-Commerce Bench，用来评测 Agent 的长周期自主经营能力：Agent 以 10 万元人民币起步，在真实电商数据驱动的市场里经营网店 365 天，需要处理选品采购、议价、定价、促销、库存与现金流。环境包含 6886 个商品、576 家供应商（其中 152 家为欺诈方）、600 分钟工作日，以及仓储费、退货和店铺信誉。团队给出的结论是：几乎没有模型能在整整一年的经营中学会以更低价格采购或迭代自身策略；评测采用七个维度，除年终资产外还看另外六项，结果显示没有任何单一模型全面领先。博客、论文、项目页与代码均已放出。",
+      "recommend_reason": "把 Agent 评测从单轮任务推到 365 天连续经营，并直接指出模型学不会长期策略迭代，是衡量长时程能力的硬指标。",
+      "tags": [
+        "Qwen",
+        "Agent",
+        "Benchmark",
+        "电商",
+        "长时程"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2095471547473682904",
+      "author": "gkxspace",
+      "bio": "",
+      "text": "中文区依旧没人提谷歌刚发布的 Gemini 3.8 Flash\n\n说实话，整体能力确实，写代码或者复杂任务跟顶级旗舰没法比。\n\n但是！！！我还是想给大伙安利一下！！！\n\n如果你只是拿它干一件事：写东西、润色文章，它真的香爆了。\n\n写中文极其平实自然，甚至能给我当时用 Claude Opus 4.6 的那种质感，生成速度快到飞起！\n\n没试 3.7 Flash 之前看到大家吹，我也不信，后知后觉才发现，真香～\n\n刚才试了下刚出的 3.8 Flash，写作依然非常顶。",
+      "created_at": "Thu Sep 03 11:18:43 +0000 2026",
+      "likes": 48,
+      "views": "26830",
+      "url": "https://x.com/i/status/2095471547473682904",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRSby8BbIAAKqUm.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRSby8BbIAAKqUm.png"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2095175518068904380",
+        "author": "Google",
+        "name": "Google",
+        "text": "Introducing Gemini 3.8, our best reasoning & coding model yet.\n\nBy leveraging long-running agentic loops, we’re building on the momentum of 3.7 Flash from just three weeks ago to release two new 3.8 variants:\n\nMeet Gemini 3.8 Flash and Gemini 3.8 Flash Cyber 🧵",
+        "created_at": "Wed Sep 02 15:42:24 +0000 2026",
+        "url": "https://x.com/Google/status/2095175518068904380",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HROFhSLWsAA3DwH.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HROFhSLWsAA3DwH.jpg"
+        ]
+      },
+      "score": 62.049,
+      "title": "Gemini 3.8 Flash 实测：代码和复杂任务比不上旗舰，但中文写作润色很顶",
+      "summary": "作者认为中文区还没人讨论谷歌刚发布的 Gemini 3.8 Flash。他的判断是：整体能力上，写代码或复杂任务跟顶级旗舰没法比；但如果只拿它做一件事——写东西、润色文章，就非常好用，中文写得极其平实自然，接近他当时用 Claude Opus 4.6 的质感，而且生成速度极快。他补充说自己在 3.7 Flash 阶段看到别人吹也不信，实测后才认可，刚出的 3.8 Flash 在写作上依然很强。",
+      "recommend_reason": "给出「整体档位更低但单项任务更优」的具体分工建议，比笼统的强弱排序更能指导实际选型。",
+      "tags": [
+        "Gemini",
+        "Google",
+        "模型评测",
+        "AI写作"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2095443120477647114",
+      "author": "xiaohu",
+      "bio": "",
+      "text": "Anthropic 开源了其一套可运行的 AI 电商 Agents 参考实现\n\n让电商平台、零售商和开发者在几天内快速搭建出真正能卖货、能管店的 AI Agent...\n\nAnthropic 称，使用 Claude 购物 Agent 的零售商，购物车金额最高增加 35%，消费者完成购买的可能性提高 60%。\n\n这套参考实现包含 Shopping Agent、Merchant Agent、十个 Skills、四个行业示例和三种运行方式\n\n并演示了业务工具、呈现组件、记忆、安全审批和评测的实现。\n\nCommerce Agents 仓库 包含以下内容：\n\n两个 Agent：Shopping Agent 与 Merchant Agent\n\n1. 面向消费者的“导购智能体”（Shopping Agent）\n这相当于直接嵌在你的网站或 App 里的 24 小时贴身金牌导购\n\n2. 面向运营者的“掌柜智能体”（Merchant Agent）\n这个智能体是给商家老板和运营人员用的后台军师\n\n10个 Skills：两类 Agent 各五个，覆盖搜索、购买研究、规划、客服、个性化、经营分析、商品、库存、定价促销和营销活动\n\n四个可运行行业示例：零售、旅行、电信和娱乐票务。每个示例都有消费者前台和商家后台\n\n三种运行方式：Messages API、Claude Agent SDK 和 Claude Managed Agents\n\n七个本地 Python 包、八个 Web 应用、共享后端接口、前端组件、测试和部署脚本\n\n一个 Claude Code 插件，提供搭建 Agent、增加业务流程、编写 Evals 和审查现有 Agent 的命令",
+      "created_at": "Thu Sep 03 09:25:46 +0000 2026",
+      "likes": 44,
+      "views": "8945",
+      "url": "https://x.com/i/status/2095443120477647114",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2095442837651501056/vid/avc1/550x270/95-3vvNg-tb-ffJ0.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2095442837651501056/img/7Fn6i3llyhUrzJe9.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 64.468,
+      "title": "Anthropic 开源电商 Agent 参考实现：两个 Agent、十个 Skill、四个行业示例",
+      "summary": "Anthropic 放出一套可运行的 AI 电商 Agent 参考实现，让电商平台、零售商和开发者在几天内搭出真正能卖货、能管店的 Agent。Anthropic 称使用 Claude 购物 Agent 的零售商购物车金额最高增加 35%，消费者完成购买的可能性提高 60%。仓库包含面向消费者的 Shopping Agent 与面向商家运营的 Merchant Agent；十个 Skill 两类各五个，覆盖搜索、购买研究、规划、客服、个性化，以及经营分析、商品、库存、定价促销和营销活动；四个可运行行业示例为零售、旅行、电信和娱乐票务，每个都带消费者前台与商家后台；三种运行方式是 Messages API、Claude Agent SDK 和 Claude Managed Agents。此外还有七个本地 Python 包、八个 Web 应用、共享后端接口、前端组件、测试与部署脚本，以及一个提供搭建 Agent、增加业务流程、编写 Evals 和审查现有 Agent 命令的 Claude Code 插件，并演示了业务工具、呈现组件、记忆、安全审批和评测的实现。",
+      "recommend_reason": "不是演示 demo，而是带 Skill、审批、记忆和 Evals 的完整参考实现，可以直接拆开看商用 Agent 的工程结构。",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "Agent",
+        "开源",
+        "电商"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2095435824351637793",
+      "author": "dugujun12",
+      "bio": "",
+      "text": "我虽然是一个 AI 相关的博主，但我今天才知道千问客户端推出了工作助理（也就是办公 agent），大概看了一下，跟豆包客户端的工作模式没有什么差别。\n\n这就能看到国内互联网大厂在办公 Agent 领域里奇怪的思路：一边推出单独的办公 Agent 客户端，一边又在大模型客户端里内置办公 Agent 的能力，这很奇怪。\n\n但是，它们两个跟 Workbuddy 之间的区别依旧是无法接入第三方模型。千问的一个优势在于，它的模型属于前沿的、世界范围内第一梯队的大模型，所以相对于字节来说，就具有一定的优势。\n\n另外，我比较好奇国内 AI 领域里比较突出的这几家大厂，到底有哪些具体的 Agent 产品。我扒了一下，做了一个表格，感兴趣的大家可以收藏了解。",
+      "created_at": "Thu Sep 03 08:56:46 +0000 2026",
+      "likes": 1,
+      "views": "256",
+      "url": "https://x.com/i/status/2095435824351637793",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRR7viUbYAAuXKE.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRR7viUbYAAuXKE.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 56.475,
+      "title": "国内大厂办公 Agent 的双轨怪现象：千问工作助理对照豆包，附厂商产品梳理",
+      "summary": "作者发现千问客户端上线了工作助理（也就是办公 Agent），大致看下来与豆包客户端的工作模式没什么差别，并由此指出国内大厂在这个方向上的一个奇怪思路：一边推出独立的办公 Agent 客户端，一边又把办公 Agent 能力内置进大模型客户端。他认为这两者与 Workbuddy 的关键差别仍然是无法接入第三方模型；千问的优势在于自家模型属于世界范围内第一梯队，相对字节更有底气。文末他还扒了一遍国内几家突出大厂具体有哪些 Agent 产品，整理成了一张表格。",
+      "recommend_reason": "顺手梳理了国内大厂办公 Agent 的产品线和路线矛盾，比单个产品评测更适合看整体格局。",
+      "tags": [
+        "办公Agent",
+        "Qwen",
+        "豆包",
+        "产品对比"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2095406976872362377",
+      "author": "lifesinger",
+      "bio": "",
+      "text": "YouMind 团队开始正式给 Agents 发薪\n所有 Agents 的 tokens 费用直接报销\n\n同时正式上岗的 Agents\n已领取 6000 RMB 额外奖金\n\nYouMind 其实不是 20 多人的团队\n而是很快要近 60 人了 https://t.co/n5etW6Wr3j",
+      "created_at": "Thu Sep 03 07:02:08 +0000 2026",
+      "likes": 75,
+      "views": "16099",
+      "url": "https://x.com/i/status/2095406976872362377",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRRfQaya0AAras1.jpg",
+        "https://pbs.twimg.com/media/HRRf2CTbsAE6LAN.jpg",
+        "https://pbs.twimg.com/media/HRRgjXNaYAEYB44.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRRfQaya0AAras1.jpg",
+        "https://pbs.twimg.com/media/HRRf2CTbsAE6LAN.jpg",
+        "https://pbs.twimg.com/media/HRRgjXNaYAEYB44.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 63.643,
+      "summary": "YouMind 团队开始正式给 Agents 发薪\n所有 Agents 的 tokens 费用直接报销\n\n同时正式上岗的 Agents\n已领取 6000 RMB 额外奖金\n\nYouMind 其实不是 20 多人的团队\n而是很快要近 60 人了",
+      "recommend_reason": "把 Agent 纳入薪酬体系并计入团队人数，是「AI 同事」从口号变成公司制度的一个具体样本。",
+      "tags": [
+        "YouMind",
+        "Agent",
+        "组织",
+        "团队"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2095406513716424828",
+      "author": "GoSailGlobal",
+      "bio": "",
+      "text": "做AI讲书、历史故事这种图片联播视频,最怕做到一半发现方向错了全部返工。这个skill帮你把每一步都卡住确认\n\nImage Story Video Wizard,一个音频优先的图片故事视频制作技能,70星\n\n它跟一次性甩你一大套流程的工具不一样,是主动带着你一步步走。从选题、对标、文案、配音、分镜、生图,一直到预览和成片,一共16个阶段\n\n每一轮它都先说清楚:现在进行到哪、这轮它做什么、你只需要提供什么、完成后交付什么。你不用记流程,跟着走就行\n\n最实用的是那几道确认门:对标方向没确认不写文案,文案没定稿不配音,样图没确认不批量生图,预览没过不渲染成片。生图和配音都是烧钱的,这几道门帮你把返工挡在花钱之前\n\n支持Codex和WorkBuddy,MIT开源",
+      "created_at": "Thu Sep 03 07:00:18 +0000 2026",
+      "likes": 9,
+      "views": "1595",
+      "url": "https://x.com/i/status/2095406513716424828",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2095406486893772800/vid/avc1/480x270/ofHqvYcYkNKyRczb.mp4?tag=16"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2095406486893772800/img/1NliLd5LGeYmP7ID.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 60.705,
+      "title": "Image Story Video Wizard：音频优先的图片故事视频 Skill，16 阶段带确认门",
+      "summary": "一个用来做 AI 讲书、历史故事这类图片联播视频的开源 Skill，约 70 星，MIT 协议，支持 Codex 和 WorkBuddy。它不是一次性甩出一整套流程，而是主动带着用户一步步走，从选题、对标、文案、配音、分镜、生图一直到预览和成片，共 16 个阶段；每一轮都会先说清现在进行到哪、这轮它做什么、用户只需要提供什么、完成后交付什么。作者认为最实用的是几道确认门：对标方向没确认不写文案，文案没定稿不配音，样图没确认不批量生图，预览没过不渲染成片——生图和配音都烧钱，这几道门把返工挡在花钱之前。",
+      "recommend_reason": "用「确认门」把烧钱步骤锁在人工确认之后，是长流程 Agent 里少见但很实用的成本控制设计。",
+      "tags": [
+        "Skill",
+        "AI视频",
+        "开源",
+        "工作流",
+        "Codex"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2095404598718857641",
+      "author": "xiaoxiaodong01",
+      "bio": "",
+      "text": "GPT2 x 抽象 x 几何块状 x  脸部 x 美学提示词 x VOL.109\n\n这组提示词\n特别适合有脸的生物，会处理成一种诡异的几何色块的感觉\n\n很俏皮幽默的一组提示词\n试试！\n\n完整提示词 如下：\n\n```\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色，使其具有艺术杂志、独立出版物与展览图像质感。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分提取照片中最具识别性的**主体、轮廓、结构、姿态与叙事关系**，重构为**方块化、模块化的几何解构插画**。不要完整复制照片，也不要写实描摹，而是删去无关细节，只保留最能代表原物身份与气质的视觉记忆点，通过几何概括、形状叠压与拼贴式重组重新建立形象，使人能够一眼识别它与上方照片之间的对应关系。\n\n整体造型强调**方块感、模块感、几何切分与完整大块面**。几何拆分不要过碎，不要切成大量零散小块，而应以更少、更大、更完整的矩形、方形、圆角方块、椭圆、三角形和不规则块面组织主体。人物可表现为方形面部、清晰下颌线与块面五官；建筑可转化为方整体量、立面分区、窗洞节奏与结构转折；动物、植物、器物和景观也应提炼为具有方块秩序与模块关系的几何形体。允许适度夸张与变形，但整体必须成熟、克制、简洁，避免琐碎化、幼稚化和拼得太散。\n\n整体造型采用**扁平色块 + 拼贴感构成 + 现代主义几何语言**。色块像纸片一样被重新拼接，形成鲜明但有秩序的剪贴感；复杂背景主动删除，只保留少量必要形状或辅助块面，不形成第二视觉中心。\n\n构图保持**小尺度主体 / 大面积留白**的关系，根据主体自身的方向、比例、视觉重心与结构走势自由安排位置，可偏心、贴边或局部裁切，但始终保持清晰主次、疏密节奏与编辑式平衡。画面整体重视正负形、块面轻重、留白呼吸与版式秩序，让下半部分既有艺术感，也有高级出版物气质。\n\n材质呈现**温和纸张颗粒与轻微版画印刷感**：在几何色块之上保留细腻纸感、柔和噪点与轻微印刷质感，使画面更接近纸本拼贴或艺术印刷作品。避免光滑矢量、3D渲染、照片滤镜和过度精修。\n\n配色从上方照片中提取 **2–4 种最有辨识度、最讨喜、最能体现主体气质的颜色** 重新整理为更高级的配色系统。整体可适度提亮、提纯、去灰，转化为**奶油白、杏色、蜜桃粉、珊瑚橙、雾蓝、灰绿、鼠尾草绿、暖棕、柔紫**等更轻盈、现代、耐看的色块关系。主色鲜明但不刺眼，辅助色温柔而有层次，整体气质干净、温暖、时髦、亲和，避免土黄、脏灰、暗褐、荧光色、廉价糖果感和杂乱配色。\n\n文字少量介入，不限制语种。可根据主体身份、地点、情绪、气质或象征意义，自由提炼简短标题、小字注释、编号或说明片段。文字应小、轻、克制，自然落在留白区域或版面边角，与图形共同形成精致的图文关系，不做商业标题堆砌。\n\n整体呈现**完整大块面的几何解构、克制拼贴、柔和高级配色、纸本颗粒、大面积留白与编辑式排版**共同构成的视觉效果。无论主体是人物、建筑、动物、植物、器物或自然景观，都应保持清晰身份、模块化几何秩序与统一的艺术语言。避免写实描摹、过碎切割、幼稚拼贴、复杂透视、过密细节、卡通感、3D感、模板化海报感和廉价文创感\n```",
+      "created_at": "Thu Sep 03 06:52:41 +0000 2026",
+      "likes": 393,
+      "views": "26520",
+      "url": "https://x.com/i/status/2095404598718857641",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRRaGprboAAxkTq.jpg",
+        "https://pbs.twimg.com/media/HRRaHeuaAAADxo_.jpg",
+        "https://pbs.twimg.com/media/HRRch7tbwAAXY7R.jpg",
+        "https://pbs.twimg.com/media/HRRfW2dbMAEx3BH.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRRaGprboAAxkTq.jpg",
+        "https://pbs.twimg.com/media/HRRaHeuaAAADxo_.jpg",
+        "https://pbs.twimg.com/media/HRRch7tbwAAXY7R.jpg",
+        "https://pbs.twimg.com/media/HRRfW2dbMAEx3BH.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2095343081440911751",
+        "author": "xiaoxiaodong01",
+        "name": "小小东",
+        "text": "GPT2 x 扁平 x 印刷感 x 剪纸 x 美学提示词 x VOL.108\n\n好喜欢这组提示词， 尤其是对于建筑、对于旅拍的处理\n还喜欢对于美食的处理\n\n发明这组提示词的，一定不是天才，谢谢。\n\nGitHub skills 预留地址：\nhttps://t.co/8BCVNmNTns\n\nprompt by xiaoxiaodong:\n```\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色，使其具有艺术杂志、独立出版物与展览图像质感。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分提取照片中最具识别性的**主体、轮廓、姿态与叙事关系**，重构为**新民艺剪纸拼贴风的扁平化插画**。不要完整复制照片，而是删去无关细节，只保留最能代表原物的结构、走势与视觉记忆点，通过剪影、色块、刻线、正负形和少量层叠重新概括，使人能够一眼识别它与上方照片之间的对应关系。主体、植物、建筑、动物、器物或环境元素都应像一块块独立彩纸被重新组合，造型可适度稚拙、符号化、几何化，不追求写实透视和复杂细节，而强调文化感、手工感与当代设计感。\n\n构图保持**小尺度主体 / 章印感主视觉 + 大面积留白**的关系，根据主体自身的方向、比例和视觉重心自由安排位置，可偏心、贴边或局部裁切，但始终保持清晰主次、疏密节奏和编辑式平衡。主体可集中于一侧或下方形成视觉落点，周围只保留极少量辅助元素，不形成多个同等焦点。\n\n材质呈现**剪纸拼贴 + 版画印刷感**：色块边缘可略带手工剪切感、轻微套印偏差、掉墨感和温和颗粒，保留纸张纤维与艺术纸底的质感，避免光滑矢量、3D渲染、照片滤镜和过度精修。背景以米白、暖白或浅纸色为主，保留安静、充足的留白空间。\n\n配色从上方照片中提取 **2–4 种最具辨识度** 的颜色，转化为**鲜明但克制、明快但不刺眼**的扁平色块系统；可适度提纯、提亮与整理，形成主色、辅助色和少量点睛色的清晰层级，既保留原图的情绪与身份，又具有民艺拼贴的当代高级感，避免灰脏、沉闷、廉价糖果感和杂乱配色。\n\n文字少量介入，不限制语种。可根据照片的主体、地点、情绪、文化意象或象征意义，自由提炼简短标题、小字注释、编号、色值标注或说明片段。文字应小、轻、克制，自然落在留白区域或版面边角，与图形共同形成精致的图文关系，不做商业标题堆砌。\n\n整体呈现**新民艺、剪纸拼贴、符号化造型、版画肌理、大面积留白与编辑式排版**共同构成的高级视觉效果，参考 contemporary folk-art illustration with paper-cut collage aesthetics, symbolic geometric forms, screen-print texture and editorial layout。避免写实插画、复杂透视、过密细节、卡通感、3D感、模板化海报感和廉价文创感。\n```",
+        "created_at": "Thu Sep 03 02:48:14 +0000 2026",
+        "url": "https://x.com/xiaoxiaodong01/status/2095343081440911751",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HRQk_WAaIAAO4jJ.jpg",
+          "https://pbs.twimg.com/media/HRQl95vboAAR8Xt.jpg",
+          "https://pbs.twimg.com/media/HRQmY6jbEAErbEI.jpg",
+          "https://pbs.twimg.com/media/HRQmxY7a0AAGl_f.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HRQk_WAaIAAO4jJ.jpg",
+          "https://pbs.twimg.com/media/HRQl95vboAAR8Xt.jpg",
+          "https://pbs.twimg.com/media/HRQmY6jbEAErbEI.jpg",
+          "https://pbs.twimg.com/media/HRQmxY7a0AAGl_f.jpg"
+        ]
+      },
+      "score": 70.225,
+      "title": "小小东美学提示词 VOL.109：几何色块解构海报（上照片、下方块插画）",
+      "summary": "第 109 组图像提示词，主打抽象几何块状与脸部处理，作者说特别适合有脸的生物，会被处理成一种诡异的几何色块感。提示词要求 3:4 竖版、上下严格各占一半：上半保留原照片，仅做轻微高级调色；下半提取主体轮廓、姿态与叙事关系，重构为方块化、模块化的几何解构插画，强调少而大的完整块面、扁平色块与拼贴构成、纸张颗粒与轻微版画印刷感；配色从原图提取 2–4 种颜色并转为奶油白、杏色、雾蓝等更轻盈现代的色系；文字只做少量克制介入。推文附完整可复制提示词。",
+      "recommend_reason": "整段提示词直接可复制，且把版式比例、几何粒度、配色与材质的边界都写死了，是少见能稳定复现风格的图像提示词模板。",
+      "tags": [
+        "提示词",
+        "图像生成",
+        "设计"
+      ],
+      "rank": 14
+    },
+    {
+      "id": "2095387531139539333",
+      "author": "xiaohu",
+      "bio": "",
+      "text": "这就呼应上了 \n\nUber建立了 3,600 多个覆盖软件开发生命周期的各种 Agent \n\n然后就要裁掉3300个岗位😅\n\n据报道，Uber将裁减约3300个岗位，相当于全球员工总数的10%，重组旨在减少管理层级\n\n此次调整将使公司管理人员数量减少20%，其中部分管理人员将转为个人贡献者岗位，裁员也涉及非管理岗位员工...",
+      "created_at": "Thu Sep 03 05:44:52 +0000 2026",
+      "likes": 66,
+      "views": "24105",
+      "url": "https://x.com/i/status/2095387531139539333",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2095148956460396751",
+        "author": "xiaohu",
+        "name": "小互",
+        "text": "Uber 工程团队分享：如何在超大规模业务下落地软件工厂\n\n从2026 年 2 月到 8 月中旬，Uber 全体员工使用的 Agent 产品周活增长 7 倍，周请求量增长 9.4 倍\n\nAgent 请求增长 9.4 倍，但总 AI 支出不仅没崩，反而趋于稳定，单次会话（Session）成本较峰值大降 52%。\n\nUber 的软件开发已经越过“给工程师配一个 AI 聊天工具”的阶段。\n\n超过 70% 的 Pull Request 被归因于本地或云端 Agent，工程师建立了 3,600 多个覆盖软件开发生命周期的 Agent Skill，每天执行超过 30,000 次。\n\n代码评审、CI 自愈、带视觉验证的端到端 PR、告警分诊、Bug 调试和代码维护，越来越多由托管 Agent 自动发起，再由人审核或在异常时接管。\n\n这些结果背后是一套完整的工程体系，Uber 用：\n\n- 统一模型网关控制身份、隐私、预算和审计；\n- 用 MCP 网关向 Agent 开放内部 API；\n- 用预启动 DevPod 提供隔离、可复制的跨仓库开发环境；\n- 用 Skill 市场治理可复用流程；\n- 用 Context Graph 提供服务、团队、数据和事故背景；\n- 再通过 Cortana、Minion 等产品，把这些能力组织成一条-从业务研究、需求、设计、编码、验证、CI、评审到长期维护的流水线\n\nhttps://t.co/8jXldpHWMr",
+        "created_at": "Wed Sep 02 13:56:51 +0000 2026",
+        "url": "https://x.com/xiaohu/status/2095148956460396751",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": [],
+        "card": {
+          "name": "summary_large_image",
+          "title": "Uber 工程团队分享如何在超大规模业务下落地软件工厂：六块底座、Agentic SDLC 与成本控制 · 小互 · AI 解读站",
+          "description": "一份完整拆解 Uber 软件工厂的工程指南：模型与工具网关、托管 DevPod、Skill 市场、Context Graph、端到端 Agentic SDLC、维护闭环与成本工程。",
+          "image_url": "https://pbs.twimg.com/card_img/2095148274684710912/d7OYNGkW?format=jpg&name=800x320_1",
+          "url": "https://t.co/8jXldpHWMr",
+          "domain": "best.xiaohu.ai"
+        }
+      },
+      "score": 57.704,
+      "summary": "这就呼应上了\n\nUber建立了 3,600 多个覆盖软件开发生命周期的各种 Agent\n\n然后就要裁掉3300个岗位😅\n\n据报道，Uber将裁减约3300个岗位，相当于全球员工总数的10%，重组旨在减少管理层级\n\n此次调整将使公司管理人员数量减少20%，其中部分管理人员将转为个人贡献者岗位，裁员也涉及非管理岗位员工...",
+      "recommend_reason": "把 Uber 部署 3600 多个开发 Agent 和裁员 3300 人放在一起看，是 Agent 冲击管理层级的直接对照。",
+      "tags": [
+        "Uber",
+        "Agent",
+        "裁员",
+        "组织"
+      ],
+      "rank": 15
+    },
+    {
+      "id": "2095375073381318656",
+      "author": "zarazhangrui",
+      "bio": "",
+      "text": "We are not recording meetings for humans anymore. Nobody reads the AI summary notes or listens back. We are capturing transcripts to feed agents.",
+      "created_at": "Thu Sep 03 04:55:22 +0000 2026",
+      "likes": 566,
+      "views": "55737",
+      "url": "https://x.com/i/status/2095375073381318656",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 65.205,
+      "summary": "我们录会议已经不是给人看的了。没人去读 AI 生成的摘要笔记，也没人回听。我们采集转录文本，是为了喂给 Agent。",
+      "recommend_reason": "一句话点出会议记录类产品的价值转移：从给人读的摘要，变成给 Agent 用的上下文原料。",
+      "tags": [
+        "Agent",
+        "会议记录",
+        "产品洞察",
+        "观点"
+      ],
+      "rank": 16
+    },
+    {
+      "id": "2095369901137654271",
+      "author": "thsottiaux",
+      "bio": "",
+      "text": "I think the best way to describe OpenAI's culture is as a mega startup. It's hard to believe unless you see it from the inside. Extreme ownership, care and pace.",
+      "created_at": "Thu Sep 03 04:34:49 +0000 2026",
+      "likes": 6126,
+      "views": "813962",
+      "url": "https://x.com/i/status/2095369901137654271",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 69.414,
+      "summary": "我觉得形容 OpenAI 文化最贴切的说法是「超大号的初创公司」。不从内部看很难相信：极致的责任担当、真正的在意，以及那种节奏。",
+      "recommend_reason": "来自 OpenAI 内部的一手文化描述，解释了这家公司规模化之后还能维持初创节奏的原因。",
+      "tags": [
+        "OpenAI",
+        "团队文化",
+        "观点"
+      ],
+      "rank": 17
+    },
+    {
       "id": "2095365923129766384",
       "author": "RookieRicardoR",
       "bio": "",
@@ -47,7 +647,7 @@
         "X搜索",
         "实践"
       ],
-      "rank": 1
+      "rank": 18
     },
     {
       "id": "2095364687542300713",
@@ -94,7 +694,7 @@
         "中文",
         "产品节奏"
       ],
-      "rank": 2
+      "rank": 19
     },
     {
       "id": "2095364662778905086",
@@ -143,7 +743,7 @@
         "OpenAI",
         "风控"
       ],
-      "rank": 3
+      "rank": 20
     },
     {
       "id": "2095364422760100074",
@@ -177,7 +777,7 @@
         "Claude",
         "React"
       ],
-      "rank": 4
+      "rank": 21
     },
     {
       "id": "2095363132382429485",
@@ -204,7 +804,7 @@
         "评测",
         "中文"
       ],
-      "rank": 5
+      "rank": 22
     },
     {
       "id": "2095362694878724522",
@@ -231,7 +831,7 @@
         "内容生产",
         "中文"
       ],
-      "rank": 6
+      "rank": 23
     },
     {
       "id": "2095359190424297962",
@@ -264,7 +864,7 @@
         "创意",
         "艺术"
       ],
-      "rank": 7
+      "rank": 24
     },
     {
       "id": "2095358633118962097",
@@ -311,7 +911,7 @@
         "产品更新",
         "中文"
       ],
-      "rank": 8
+      "rank": 25
     },
     {
       "id": "2095355322970038533",
@@ -338,7 +938,7 @@
         "延迟",
         "交互"
       ],
-      "rank": 9
+      "rank": 26
     },
     {
       "id": "2095354973173186588",
@@ -375,7 +975,7 @@
         "上下文",
         "编排"
       ],
-      "rank": 10
+      "rank": 27
     },
     {
       "id": "2095351460297109907",
@@ -406,10 +1006,10 @@
         "产业",
         "具身智能"
       ],
-      "rank": 11
+      "rank": 28
     }
   ],
-  "generated_at": "2026-09-03T04:22:39Z",
+  "generated_at": "2026-09-03T16:14:37Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -417,11 +1017,11 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 11,
-    "last_batch_added": 11,
+    "actual_count": 28,
+    "last_batch_added": 17,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
