@@ -98,6 +98,8 @@ test("资讯与推特日报公开，未登录也能拿到静态响应", async ()
 test("收藏墙与技能未带 cookie 时重定向到登录并带上返回地址", async () => {
   assert.equal(isPublicPath("/"), false);
   assert.equal(isPublicPath("/skills/"), false);
+  assert.equal(isPublicPath("/radar/"), false);
+  assert.equal(isPublicPath("/xianyu/"), false);
   assert.equal(isPublicPath("/api/ask-ai"), false);
 
   const home = await dispatch("/");
@@ -377,6 +379,7 @@ test("私有静态资源不能未登录直链绕过", async () => {
     "/knowledge/",
     "/prompts/",
     "/radar/",
+    "/xianyu/",
     "/api/ask-ai",
   ]) {
     const response = await dispatch(path);
