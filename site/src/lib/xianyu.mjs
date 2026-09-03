@@ -108,3 +108,25 @@ export function xianyuLaneLabel(lane = "") {
 export function demandsByLane(items, lane) {
   return asList(items).filter((item) => xianyuLane(item) === lane);
 }
+
+export function xianyuLaneSections(items, summary = {}) {
+  const normalized = normalizeSummary(summary);
+  return [
+    {
+      id: "trend",
+      title: xianyuLaneLabel("trend"),
+      items: demandsByLane(items, "trend"),
+      highlights: normalized.trend_highlights,
+      emptyTitle: "暂时没有趋势信号",
+      emptyHint: "求购、缺口、正在起来的方向会出现在这里。",
+    },
+    {
+      id: "hot",
+      title: xianyuLaneLabel("hot"),
+      items: demandsByLane(items, "hot"),
+      highlights: normalized.hot_highlights,
+      emptyTitle: "暂时没有热门商品",
+      emptyHint: "高想要数、拼车/代充/引流爆款会出现在这里。",
+    },
+  ];
+}

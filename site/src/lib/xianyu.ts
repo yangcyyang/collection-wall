@@ -7,6 +7,7 @@ export {
   xianyuKindLabel,
   xianyuLane,
   xianyuLaneLabel,
+  xianyuLaneSections,
   xianyuStatusClass,
   xianyuStatusLabel,
 } from "./xianyu.mjs";

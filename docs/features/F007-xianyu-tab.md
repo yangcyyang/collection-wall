@@ -31,7 +31,7 @@ item: id, title, kind, score, confidence, status, lane, price, category,
 
 - `kind`: `want|service|account|course|goods|other`
 - `confidence`: `high|medium|low`（页面显示 高/中/低）
-- `status`: `emerging|hot|stable|cooling`（页面显示 新兴/热门/稳定/降温）
+- `status`: `emerging|hot|stable|cooling`（页面显示 新兴/热门/稳定/降温）。`lane=trend` 的条目不要再标 `status=hot`，避免趋势栏卡片还挂「热门」徽章。
 - `lane`: `trend|hot`（页面分区：趋势 / 热门）。写入时请显式标注，这是卡片分组的唯一真源。
 - `count` 以 `items.length` 为准，写入时请同步。
 - `updated_at` / `first_detected` / `last_updated` 用 ISO8601 `+08:00`。
@@ -55,8 +55,8 @@ item: id, title, kind, score, confidence, status, lane, price, category,
 
 现有 16 条的映射：
 
-- **趋势**：`want-kaobei-prompt`、`want-ai-daizuo`（求购）；`signal-prompt-keyword-blocked`（平台过滤缺口）；`book-ai-duanju-bundle`、`book-ai-manju`、`book-ai-jichu-qinghua`、`book-ai-chuangfu`、`book-aigc-illustration`（图书/搜索方向）；`mj-prompt-fashion`（垂直提示词缺口）。
-- **热门**：`mj-prompt-pack-1yuan`（引流包）；`mj-daichong-60`、`mj-daichong-78`（代充）；`mj-daioutu-9p9`（代出图）；`mj-pinch-week-15`、`mj-pinch-month-46`、`mj-daypass-4`（拼车/日卡）。
+- **趋势**（`status=emerging`）：`want-kaobei-prompt`、`want-ai-daizuo`（求购）；`signal-prompt-keyword-blocked`（平台过滤缺口）；`book-ai-duanju-bundle`、`book-ai-manju`、`book-ai-jichu-qinghua`、`book-ai-chuangfu`、`book-aigc-illustration`（图书/搜索方向）；`mj-prompt-fashion`（垂直提示词缺口）。
+- **热门**（`status=hot`）：`mj-prompt-pack-1yuan`（引流包）；`mj-daichong-60`、`mj-daichong-78`（代充）；`mj-daioutu-9p9`（代出图）；`mj-pinch-week-15`、`mj-pinch-month-46`、`mj-daypass-4`（拼车/日卡）。
 
 ## 怎么填数据
 1. 编辑 `data/xianyu/demands.json`，往 `items` 追加对象，`id` 用稳定 slug，并写上 `lane`。

@@ -5,38 +5,18 @@ import SiteNav from "../components/SiteNav.astro";
 import XianyuViewer from "../components/XianyuViewer.astro";
 import { formatBeijingDateTime } from "../lib/news.mjs";
 import {
-  demandsByLane,
   getDemandsFeed,
   xianyuKindLabel,
+  xianyuLaneSections,
   xianyuStatusClass,
   xianyuStatusLabel,
 } from "../lib/xianyu";
 
 const feed = await getDemandsFeed();
 const items = feed.items;
-const summary = feed.summary;
-const trendItems = demandsByLane(items, "trend");
-const hotItems = demandsByLane(items, "hot");
 const hasContent = items.length > 0;
 const updated = formatBeijingDateTime(feed.updated_at);
-const sections = [
-  {
-    id: "trend",
-    title: "趋势",
-    items: trendItems,
-    highlights: summary.trend_highlights,
-    emptyTitle: "暂时没有趋势信号",
-    emptyHint: "求购、缺口、正在起来的方向会出现在这里。",
-  },
-  {
-    id: "hot",
-    title: "热门",
-    items: hotItems,
-    highlights: summary.hot_highlights,
-    emptyTitle: "暂时没有热门商品",
-    emptyHint: "高想要数、拼车/代充/引流爆款会出现在这里。",
-  },
-];
+const sections = xianyuLaneSections(items, feed.summary);
 ---
 
 <html lang="zh-CN">
@@ -83,11 +63,11 @@ const sections = [
                 <p class="intro">{section.highlights.join("、")}</p>
               )}
               {section.items.length === 0 ? (
-                <section class="empty-state" aria-labelledby={`xianyu-${section.id}-empty`}>
+                <div class="empty-state" role="status" aria-labelledby={`xianyu-${section.id}-empty`}>
                   <p class="empty-icon">✦</p>
                   <h3 id={`xianyu-${section.id}-empty`}>{section.emptyTitle}</h3>
                   <p>{section.emptyHint}</p>
-                </section>
+                </div>
               ) : (
                 <div class="tool-grid">
                   {section.items.map((item) => (

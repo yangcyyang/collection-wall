@@ -18,9 +18,31 @@ import {
   xianyuKindLabel,
   xianyuLane,
   xianyuLaneLabel,
+  xianyuLaneSections,
   xianyuStatusClass,
   xianyuStatusLabel,
 } from "../src/lib/xianyu.mjs";
+
+const TREND_IDS = [
+  "want-kaobei-prompt",
+  "want-ai-daizuo",
+  "signal-prompt-keyword-blocked",
+  "book-ai-duanju-bundle",
+  "book-ai-manju",
+  "book-ai-jichu-qinghua",
+  "book-ai-chuangfu",
+  "book-aigc-illustration",
+  "mj-prompt-fashion",
+];
+const HOT_IDS = [
+  "mj-prompt-pack-1yuan",
+  "mj-daichong-60",
+  "mj-daichong-78",
+  "mj-daioutu-9p9",
+  "mj-pinch-week-15",
+  "mj-pinch-month-46",
+  "mj-daypass-4",
+];
 
 const emptySummary = {
   top_demands: [],
@@ -54,8 +76,16 @@ test("读取 data/xianyu/demands.json 契约，不硬编码条目", async () => 
   assert.ok(Array.isArray(raw.summary.hot_highlights));
   assert.ok(raw.items.length > 0);
   assert.ok(raw.items.every((item) => item.lane === "trend" || item.lane === "hot"));
-  assert.ok(raw.items.some((item) => item.lane === "trend"));
-  assert.ok(raw.items.some((item) => item.lane === "hot"));
+  assert.deepEqual(
+    raw.items.filter((item) => item.lane === "trend").map((item) => item.id),
+    TREND_IDS,
+  );
+  assert.deepEqual(
+    raw.items.filter((item) => item.lane === "hot").map((item) => item.id),
+    HOT_IDS,
+  );
+  assert.ok(raw.items.filter((item) => item.lane === "trend").every((item) => item.status !== "hot"));
+  assert.ok(raw.items.filter((item) => item.lane === "hot").every((item) => item.status === "hot"));
 
   const feed = await getDemandsFeed(demandsFile);
   assert.equal(feed.source, raw.source);
@@ -89,6 +119,7 @@ test("getDemandById 按 id 取需求，未知 id 为 null", async () => {
 
 test("闲鱼列表页用按钮打开弹层，不链到 /xianyu/{id}/", async () => {
   const page = await readFile(new URL("../src/pages/xianyu.astro", import.meta.url), "utf8");
+  const lib = await readFile(new URL("../src/lib/xianyu.mjs", import.meta.url), "utf8");
   const viewer = await readFile(new URL("../src/components/XianyuViewer.astro", import.meta.url), "utf8");
   const nav = await readFile(new URL("../src/components/SiteNav.astro", import.meta.url), "utf8");
   const login = await readFile(new URL("../src/pages/login.astro", import.meta.url), "utf8");
@@ -97,10 +128,11 @@ test("闲鱼列表页用按钮打开弹层，不链到 /xianyu/{id}/", async () 
   assert.match(login, /闲鱼/);
   assert.match(page, /data-xianyu-open/);
   assert.match(page, /暂时没有闲鱼需求/);
-  assert.match(page, /趋势/);
-  assert.match(page, /热门/);
-  assert.match(page, /暂时没有趋势信号/);
-  assert.match(page, /暂时没有热门商品/);
+  assert.match(page, /xianyuLaneSections/);
+  assert.match(lib, /趋势/);
+  assert.match(lib, /热门/);
+  assert.match(lib, /暂时没有趋势信号/);
+  assert.match(lib, /暂时没有热门商品/);
   assert.match(page, /data\/xianyu/);
   assert.doesNotMatch(page, /href=\{`\/xianyu\/\$\{item\.id\}\/`\}/);
   assert.match(viewer, /data-xianyu-viewer/);
@@ -118,6 +150,24 @@ test("lane 以显式字段为准，缺省时按 emerging/want → 趋势、hot �
   assert.equal(xianyuLaneLabel("trend"), "趋势");
   assert.equal(xianyuLaneLabel("hot"), "热门");
   assert.equal(xianyuLaneLabel("other"), "other");
+});
+
+test("xianyuLaneSections 始终返回趋势/热门两节，空栏 items 为空", () => {
+  const onlyHot = [{ id: "a", lane: "hot", score: 90 }];
+  const sections = xianyuLaneSections(onlyHot, {
+    trend_highlights: ["求购起来了"],
+    hot_highlights: ["代充爆了"],
+  });
+  assert.deepEqual(
+    sections.map((section) => ({ id: section.id, title: section.title, ids: section.items.map((item) => item.id) })),
+    [
+      { id: "trend", title: "趋势", ids: [] },
+      { id: "hot", title: "热门", ids: ["a"] },
+    ],
+  );
+  assert.deepEqual(sections[0].highlights, ["求购起来了"]);
+  assert.deepEqual(sections[1].highlights, ["代充爆了"]);
+  assert.deepEqual(xianyuLaneSections([]).map((section) => section.items.length), [0, 0]);
 });
 
 test("demandsByLane 按 lane 分组，保持原顺序", () => {
@@ -193,12 +243,7 @@ test("构建产物 /xianyu/ 空状态可用，详情走弹层", async (t) => {
   assert.match(html, /热门/);
   assert.match(html, /data-xianyu-viewer/);
   assert.doesNotMatch(html, /href="\/xianyu\/[^"/]+\/"/);
-  if (html.includes("暂时没有闲鱼需求")) {
-    assert.match(html, /暂时没有趋势信号/);
-    assert.match(html, /暂时没有热门商品/);
-  } else {
-    assert.match(html, /data-xianyu-open/);
-    assert.match(html, /id="xianyu-trend-title"/);
-    assert.match(html, /id="xianyu-hot-title"/);
-  }
+  assert.match(html, /data-xianyu-open/);
+  assert.match(html, /id="xianyu-trend-title"/);
+  assert.match(html, /id="xianyu-hot-title"/);
 });
