@@ -1,0 +1,436 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-03",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2095365923129766384",
+      "author": "RookieRicardoR",
+      "bio": "",
+      "text": "关于 Grok Bot 的几点补充:\n\n1. 看到有人说上手之前让它安装一个 Cloudflare WARP，用于伪装机房网络，其实不用，Grok Bot 的机房自带 Cloudflare 伪装。\n\n2. 没有接入 X 搜索，它并不能帮你搜 X 上的帖子和文章，除非用你自己的开发者账号余额，它也不能帮你读 X 的文章，它目前能读是因为它很聪明的找了几个镜像站帮你读，我已经邮件反馈了尽早接入 X 搜索这事，大家也可以反馈反馈。\n\n3. 不用挂代理，国内网络就能用，手机端可以，MacoOS 端我没试，想来是可以的，它走的还是 Cursor 的服务器。",
+      "created_at": "Thu Sep 03 04:19:00 +0000 2026",
+      "likes": 1,
+      "views": "14",
+      "url": "https://x.com/i/status/2095365923129766384",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2095138363418579266",
+        "author": "RookieRicardoR",
+        "name": "耳朵",
+        "text": "今天时间线上刷到了好几次 Grok Bot，下载体验了一下，别的不说，这个 UI 太棒了，很舒服，有种苹果新产品的感觉，\n\n现在的 AI 产品，目前都必不可少的在依赖内容生态，互联网的存量内容很快就会被大家训练完，接下来争夺的就是新生的数据，马斯克的 X 和 X AI，腾讯的混元和微信公众号、字节的豆包和抖音，他们都有得天独厚的优势，\n\n最近我在使用微信读书的时候发现，我用 AI 对这本书进行提问的时候，它是直接去微信公众号搜索相关问题然后搬运给我的答案，\n\n现在美国的模型巨头，无论是 GPT 还是 Claude，它们的搜索都没有 Grok 的搜索好，因为 GPT 接的搜索服务商 Grok 也可以接，只要付钱就好了，但是 X 的搜索渠道和数据内容，会放开给 GPT 和 Claude 做训练吗？\n\n最后吐槽一下，Grok Bot 有点慢。",
+        "created_at": "Wed Sep 02 13:14:46 +0000 2026",
+        "url": "https://x.com/RookieRicardoR/status/2095138363418579266",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HRNp_1GaUAAOtC1.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HRNp_1GaUAAOtC1.jpg"
+        ]
+      },
+      "score": 69.636,
+      "title": "Grok Bot 补充：自带 Cloudflare 伪装、暂无原生 X 搜索",
+      "summary": "作者补充三点：Grok Bot 机房已自带 Cloudflare 伪装，不必再装 WARP；目前未接入 X 搜索，读帖依赖镜像站，作者已邮件反馈并建议用户跟进；国内网络可直连、不必挂代理，走 Cursor 服务器，手机端可用。",
+      "recommend_reason": "针对刚上手 Grok Bot 的常见误区给可执行更正，尤其是网络伪装与 X 搜索能力边界说清楚。",
+      "tags": [
+        "Grok",
+        "Cursor",
+        "工具",
+        "X搜索",
+        "实践"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2095364687542300713",
+      "author": "jinchenma_ai",
+      "bio": "",
+      "text": "昨天刚买完，Gemini 就出新模型了，3.8 Flash 来了。\n\n想体验的可以去试试。\n\n几块钱，哪怕只能用一个月也是赚了。 https://t.co/hniAbkzXiR",
+      "created_at": "Thu Sep 03 04:14:06 +0000 2026",
+      "likes": 0,
+      "views": "72",
+      "url": "https://x.com/i/status/2095364687542300713",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRQ6wCRacAAffK0.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRQ6wCRacAAffK0.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2095015025614393602",
+        "author": "jinchenma_ai",
+        "name": "金尘马",
+        "text": "牛逼，已激活。 https://t.co/mrTXuhHD6w",
+        "created_at": "Wed Sep 02 05:04:40 +0000 2026",
+        "url": "https://x.com/jinchenma_ai/status/2095015025614393602",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HRL8yWRbsAAlYNC.jpg",
+          "https://pbs.twimg.com/media/HRL9DSFbgAA5VO9.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HRL8yWRbsAAlYNC.jpg",
+          "https://pbs.twimg.com/media/HRL9DSFbgAA5VO9.jpg"
+        ]
+      },
+      "score": 52.046,
+      "title": null,
+      "summary": "昨天刚买完，Gemini 就出新模型了，3.8 Flash 来了。\n\n想体验的可以去试试。\n\n几块钱，哪怕只能用一个月也是赚了。",
+      "recommend_reason": "用个人采购时间线对照 Gemini 3.8 Flash 发版，提醒「小额尝鲜」窗口仍在。",
+      "tags": [
+        "Gemini",
+        "Flash",
+        "体验",
+        "中文",
+        "产品节奏"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2095364662778905086",
+      "author": "QT9277",
+      "bio": "",
+      "text": "做闲鱼虚拟资料、卡密发货的可以了解下这个开源项目 Ydisks‑Xianyu‑Helper🔥\n\n可以把大量重复运营工作做自动化： \n✅买家下单之后自动完成卡密发货，不用人工值守 \n✅接入兼容OpenAI接口，实现AI自动回复消息\n✅交易完成好评后，自动发送评价赠品 \n✅单后台统一管控多账号、商品、全部订单 \n✅内置滑块处理，尝试应对平台人机风控\n\n挂机运行，大量机械操作可以解放双手。\n\n🔗https://t.co/g5vw7t6rSx\n\n⚠️重要提醒：项目调用非公开接口，严重违反闲鱼平台规则，存在限流、封号风险。\n\n仅限技术研究，切勿直接在主力账号使用，即便小号也需要自行承担全部账号风险。",
+      "created_at": "Thu Sep 03 04:14:00 +0000 2026",
+      "likes": 4,
+      "views": "69",
+      "url": "https://x.com/i/status/2095364662778905086",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRQPPAXaYAAoFpY.jpg",
+        "https://pbs.twimg.com/media/HRQPPAZakAAhurM.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRQPPAXaYAAoFpY.jpg",
+        "https://pbs.twimg.com/media/HRQPPAZakAAhurM.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2091424198774202593",
+        "author": "QT9277",
+        "name": "阿台🕊️",
+        "text": "闲鱼卖虚拟资料别手动发货了！ \n\n免费自动发货方案，不用挂机、不用装软件，买家下单秒发消息。 \n\n🔗https://t.co/TlcSTsB1jR\n\n教程素材、网盘链接、兑换码都适配，24 小时自动值守。 \n\n省下反复复制发货的时间，专心做运营。 https://t.co/Q0btTmTzQt",
+        "created_at": "Sun Aug 23 07:16:00 +0000 2026",
+        "url": "https://x.com/QT9277/status/2091424198774202593",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2091379013403226112/vid/avc1/514x270/w0QgwwF-oIt3KcTL.mp4?tag=29",
+          "https://pbs.twimg.com/media/HQYSJP5bwAAl5Ji.png"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2091379013403226112/img/Q0PCa3lwWBUysdo1.jpg",
+          "https://pbs.twimg.com/media/HQYSJP5bwAAl5Ji.png"
+        ]
+      },
+      "score": 76.753,
+      "title": "开源闲鱼助手：卡密自动发货 + OpenAI 兼容自动回复",
+      "summary": "开源项目 Ydisks-Xianyu-Helper 面向闲鱼虚拟资料/卡密卖家，可自动卡密发货、接入兼容 OpenAI 接口做 AI 自动回复、好评后发赠品，并支持多账号统一管控与滑块处理。作者强调其调用非公开接口严重违反平台规则，有限流封号风险，仅限技术研究，勿用主力号。",
+      "recommend_reason": "把「电商运营自动化」落到可跑的开源栈，并直接点名风控与封号代价，比空谈 Agent 更可核对。",
+      "tags": [
+        "开源",
+        "闲鱼",
+        "自动化",
+        "OpenAI",
+        "风控"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2095364422760100074",
+      "author": "ianneo_ai",
+      "bio": "",
+      "text": "如果你正在用 AI 写前端，https://t.co/s5J1qrMub9 这个组件库可以先收藏\n\n里面有社区设计师做好的 React / Next.js 组件，Hero、按钮、定价页、AI Chat、动效都能直接预览\n\n看中以后，可以复制 Prompt 交给 Cursor、Claude Code 这类工具，也可以用 shadcn CLI 把代码装进项目，继续自己改\n\n比起让 AI 从零猜一个高级感页面，先给它一个靠谱组件，结果通常更可控\n\nhttps://t.co/fmQCD9jRyj",
+      "created_at": "Thu Sep 03 04:13:03 +0000 2026",
+      "likes": 1,
+      "views": "50",
+      "url": "https://x.com/i/status/2095364422760100074",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "React Components, Templates & Themes — 12,000+ Crafted UI | 21st",
+        "description": "12,000+ hand-crafted React and Tailwind CSS components, templates, and shadcn themes by real design engineers. Preview live, install with one command — for you and your AI agent.",
+        "image_url": "https://pbs.twimg.com/card_img/2093038288034476032/bhNqashK?format=jpg&name=600x600",
+        "url": "https://21st.dev",
+        "domain": "21st.dev"
+      },
+      "quoted_tweet": null,
+      "score": 57.463,
+      "title": "给前端 AI 先喂靠谱组件库，比从零猜高级感页面更稳",
+      "summary": "推荐一个面向 React/Next.js 的社区组件库：Hero、按钮、定价页、AI Chat、动效可预览；看中后可复制 Prompt 交给 Cursor/Claude Code，或用 shadcn CLI 装进项目再改。论点是先给 AI 可靠组件，结果通常比让它凭空猜高级感页面更可控。",
+      "recommend_reason": "把「AI 写前端」从玄学提示词拉回可预览的组件供给，路径具体到 Prompt 与 shadcn CLI。",
+      "tags": [
+        "前端",
+        "组件库",
+        "Cursor",
+        "Claude",
+        "React"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2095363132382429485",
+      "author": "ianneo_ai",
+      "bio": "",
+      "text": "现在做搭建 Agent的产品越来越多：选个角色，填几段提示词，接上几个工具，一个 AI 团队就创建好了\n\n但然后呢？\n\n这些 Agent 真的能干活吗？能稳定交付结果，还是只能在演示里跑通一次？\n\n能创建一个 Agent，和它真正有用，中间到底还有多少距离？",
+      "created_at": "Thu Sep 03 04:07:55 +0000 2026",
+      "likes": 1,
+      "views": "63",
+      "url": "https://x.com/i/status/2095363132382429485",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 55.137,
+      "title": null,
+      "summary": "现在做搭建 Agent的产品越来越多：选个角色，填几段提示词，接上几个工具，一个 AI 团队就创建好了\n\n但然后呢？\n\n这些 Agent 真的能干活吗？能稳定交付结果，还是只能在演示里跑通一次？\n\n能创建一个 Agent，和它真正有用，中间到底还有多少距离？",
+      "recommend_reason": "一针见血地区分「能创建 Agent」与「能稳定交付」，戳中当前 Agent 产品演示陷阱。",
+      "tags": [
+        "Agent",
+        "产品",
+        "交付",
+        "评测",
+        "中文"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2095362694878724522",
+      "author": "dugujun12",
+      "bio": "",
+      "text": "对话框里还在一句句抠文案、一张张手动排图。不一定是负责，可能是不敢派活。\n\nAI 是要一步步教的实习生。能重复的派出去：50 个标题、统一排版、脚本框架。\n\n它给你 20 个标题，你选一个。自己埋头写完，不是当老板。",
+      "created_at": "Thu Sep 03 04:06:11 +0000 2026",
+      "likes": 1,
+      "views": "4",
+      "url": "https://x.com/i/status/2095362694878724522",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 51.167,
+      "title": null,
+      "summary": "对话框里还在一句句抠文案、一张张手动排图。不一定是负责，可能是不敢派活。\n\nAI 是要一步步教的实习生。能重复的派出去：50 个标题、统一排版、脚本框架。\n\n它给你 20 个标题，你选一个。自己埋头写完，不是当老板。",
+      "recommend_reason": "把「舍不得交给 AI」说成不敢派活，并给出可复制的派活粒度（批量标题/排版/脚本）。",
+      "tags": [
+        "工作流",
+        "派活",
+        "提示",
+        "内容生产",
+        "中文"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2095359190424297962",
+      "author": "VigoCreativeAI",
+      "bio": "",
+      "text": "Every AI style transfer makes the image nicer. I wanted one that makes it mortal.\n\nThis prompt exposes any picture onto a real leaf. Sunlight does the printing, the veins cut through the image, and the whole thing fades in weeks.\n\nA woodblock storm became a Kew specimen, 1912. A gouache boy became a cottonwood leaf, 1947.\n\nA picture with an expiry date. Prompt in the first reply.",
+      "created_at": "Thu Sep 03 03:52:15 +0000 2026",
+      "likes": 1,
+      "views": "84",
+      "url": "https://x.com/i/status/2095359190424297962",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRQ2DpWb0AA9093.jpg",
+        "https://pbs.twimg.com/media/HRQ2EAgaUAEOOlt.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRQ2DpWb0AA9093.jpg",
+        "https://pbs.twimg.com/media/HRQ2EAgaUAEOOlt.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 60.009,
+      "title": "反向风格迁移：把任意图印到会凋谢的真实叶片上",
+      "summary": "作者不想要「更漂亮」的 AI 风格迁移，而是让图像变得有死亡感：提示词把任意图片投射到真实叶片上，由阳光完成「印刷」，叶脉切开画面，整幅作品会在数周内褪色。例如木版风暴变成 1912 年邱园标本，水粉男孩变成 1947 年杨树叶——带保质期的图像。提示词在第一条回复。",
+      "recommend_reason": "创意点不在滤镜好看，而在给生成图加上物理衰变与时间性，审美立场很清楚。",
+      "tags": [
+        "生成图像",
+        "提示词",
+        "风格迁移",
+        "创意",
+        "艺术"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2095358633118962097",
+      "author": "jinchenma_ai",
+      "bio": "",
+      "text": "又发现个好东西，这应该是近期 Codex 更新的一个新功能吧。\n\n把这个打开，就可以让 Codex 自动识别电脑上的一些重复性操作，然后自动生成 Skill。我已经打开了，期待一下效果。\n\n感谢逸尘大佬分享。 https://t.co/Q3yT2ye8mf",
+      "created_at": "Thu Sep 03 03:50:02 +0000 2026",
+      "likes": 0,
+      "views": "235",
+      "url": "https://x.com/i/status/2095358633118962097",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRQ1HQEawAAJqiy.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRQ1HQEawAAJqiy.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2095341842766455107",
+        "author": "gengdaJ",
+        "name": "逸尘",
+        "text": "大家一定要把Codex里面的“计算机历史记录”打开啊！！！这个功能太夯了！😋\n\n给还没用过这个功能的朋友普及一下这个是干嘛的。其实「计算机历史记录」就是早期的 Chronicle 的升级版。\n\n它利用交互事件，以及通过 macOS 辅助功能获取文本和其他上下文，来生成摘要。\n\n而且不会在历史记录中包含截图，也不会录制音频，并且隐私模式下的网页浏览活动永远不会被纳入其中。\n\n大部分电脑活动纳入记录的好处就是，很多重复性的工作会被识别到，然后直接变成图一中的「推荐Skill」。\n\n如果你发现这个Skill真的有价值，Codex就会根据计算机历史记录创建新的Skill。\n\n但是目前这个功能只对Pro、Business和Enterprise用户开放。。。所以现在真的是人手一个Pro才能玩好Codex啊😂",
+        "created_at": "Thu Sep 03 02:43:19 +0000 2026",
+        "url": "https://x.com/gengdaJ/status/2095341842766455107",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HRQWZnqbcAA_2Fg.jpg",
+          "https://pbs.twimg.com/media/HRQWkpfbcAAuUNG.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HRQWZnqbcAA_2Fg.jpg",
+          "https://pbs.twimg.com/media/HRQWkpfbcAAuUNG.jpg"
+        ]
+      },
+      "score": 52.277,
+      "title": null,
+      "summary": "又发现个好东西，这应该是近期 Codex 更新的一个新功能吧。\n\n把这个打开，就可以让 Codex 自动识别电脑上的一些重复性操作，然后自动生成 Skill。我已经打开了，期待一下效果。\n\n感谢逸尘大佬分享。",
+      "recommend_reason": "把 Codex 新能力落到「观察重复操作→自动生成 Skill」这条产品线，值得跟进实测。",
+      "tags": [
+        "Codex",
+        "Skill",
+        "自动化",
+        "产品更新",
+        "中文"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2095355322970038533",
+      "author": "gabriel1",
+      "bio": "",
+      "text": "openai cerebras will change how we work, or at least some model that's extremely fast will\n\nparallel work with agents is so much pain and people will pay so much when they taste high quality synchronous work\n\nwe'll do all interactions with a computer through a text interface then",
+      "created_at": "Thu Sep 03 03:36:53 +0000 2026",
+      "likes": 33,
+      "views": "1877",
+      "url": "https://x.com/i/status/2095355322970038533",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 62.844,
+      "title": "极速模型改变交互：并行 Agent 很痛，同步高质量更值钱",
+      "summary": "作者认为 OpenAI 与 Cerebras 这类极速模型会改变工作方式：并行多智能体协作体验痛苦，人们一旦尝到高质量同步交互就会愿意付费；未来与电脑的主要交互可能都经由文本界面完成。",
+      "recommend_reason": "点出「速度」不只是 benchmark，而是把并行 Agent 的协调税压下去，让同步共创成为默认。",
+      "tags": [
+        "OpenAI",
+        "Cerebras",
+        "Agent",
+        "延迟",
+        "交互"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2095354973173186588",
+      "author": "dotey",
+      "bio": "",
+      "text": "任何方案都有取舍，用 subagent token 消耗肯定更大，但价钱不见的更贵。要是 Fable 5 耐用谁愿意这么折腾！\n\nsubagent 是独立的上下文，任务开始前需要重新交代子任务上下文，完成后还要交接工作，这是代价；缓存倒是其次的，因为初始上下文不会太大，而且缓存只有第一次有影响，后续子agent有自己的缓存。\n\n这样带来的收益是子 agent 可以用便宜的模型，虽然 token 消耗量大，但是价格其实更便宜，如果你是 Claude Code 订阅的话，多让 Fable 指挥 Opus/Sonnet SubAgent\n体感很明显。\n\n然后由于具体子任务细节都在子agent，主agent的上下文只需要子任务的结果，这样可以节约主agent大量上下文空间，可以更专注于任务本身。\n\n这就好比你有个能力超强的员工，他当然可以什么事情都做了，但他也可以把活派给实习生，实习生做完了检查验收一下，这样能做的事情更多了",
+      "created_at": "Thu Sep 03 03:35:30 +0000 2026",
+      "likes": 14,
+      "views": "5706",
+      "url": "https://x.com/i/status/2095354973173186588",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2095348530978394421",
+        "author": "yananshi418377",
+        "name": "yanan shi",
+        "text": "@dotey subagent好像更消耗token, 以前就是这么做的",
+        "created_at": "Thu Sep 03 03:09:54 +0000 2026",
+        "url": "https://x.com/yananshi418377/status/2095348530978394421",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 55.789,
+      "title": "Subagent 更贵吗？Token 多但可用便宜模型，还能省主上下文",
+      "summary": "讨论 subagent 的取舍：独立上下文需要重交代与交接，有代价；但子任务可用更便宜模型，订阅制下由主模型指挥 Opus/Sonnet 子代理体感划算。细节留在子代理，主代理只收结果，从而节省主上下文、更专注任务编排——类比强员工把活派给实习生再验收。",
+      "recommend_reason": "把 subagent 从「更费 Token」纠偏到「单价与主上下文预算」二维账，对 Claude Code 用户很实用。",
+      "tags": [
+        "Subagent",
+        "Claude Code",
+        "成本",
+        "上下文",
+        "编排"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2095351460297109907",
+      "author": "web3annie",
+      "bio": "",
+      "text": "$NVDA 黄仁勋 G20 最新发言：\n\n1. AI是新时代的电网\nAI本质上是像电力一样的经济基础设施，以前买电按千瓦时算，以后买算力按每百万 Token算。\n\n2. AI是一座5层蛋糕，没必要非得挤着跟我抢生意\nAI产业从下到上分5层：1. 能源 → 2. 芯片 → 3. 算力基础设施 → 4. AI大模型 → 5. 数据与行业应用。\n\n找准最适合自己的那一层，尤其是第5层应用，把AI落到医疗、制造、教育里，就能享受到AI红利。\n\n3. 编程时代彻底结束，人类迎来最大的平权\n过去50年，电脑只是全球两三千万程序员的专属工具。现在不管你是刚出校园的年轻人，还是资源欠发达的地区，AI抹平了技术门槛，让每个人都能随时拥有一个顶级博士级别的智脑。\n\n4. AI不会让你失业，但会把你的野心放大10倍\n未来一两年内AGI基本就会实现，但人类不会失业。这就像你招了个MIT毕业的顶级博士，你依然需要给他定目标、给上下文、带他熟悉业务。AI替代的是打字、搜资料这种具体任务，而不是人的价值。以前要干10年的事，以后1年就能搞定。\n\n5. AI正从屏幕里走出来，重构物理世界\nAI的发展路径是：大模型 → 智能体 → 具身智能。给大模型装上能调用工具的外骨骼，装进四个轮子就是自动驾驶，装进机械臂就是智能工厂，装进实验室就是自主研发新药。AI正从纯软件，全面侵入制造业和重工业。\n\n最大的风险根本不是AI，而是因为恐惧和犹豫，最后彻底被时代淘汰！",
+      "created_at": "Thu Sep 03 03:21:32 +0000 2026",
+      "likes": 11,
+      "views": "1278",
+      "url": "https://x.com/i/status/2095351460297109907",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2095351297944047616/vid/avc1/480x270/uBTGYWk5xyOV8ZQJ.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2095351297944047616/img/dwInSY2Pb_fhtUSQ.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 63.693,
+      "title": "黄仁勋 G20：AI 像电网，五层蛋糕与具身智能路径",
+      "summary": "整理黄仁勋在 G20 相关发言要点：把 AI 比作新时代电网，计价单位走向每百万 Token；产业分能源/芯片/算力/模型/应用五层，鼓励在应用层落地；称编程门槛被抹平带来平权；强调 AI 放大野心而非直接取代人；路径是大模型→智能体→具身智能，风险更多来自因恐惧而缺席。",
+      "recommend_reason": "把产业叙事收成可传播的五层结构与落地建议，适合当作今日 AI 基建共识的速读版。",
+      "tags": [
+        "黄仁勋",
+        "NVIDIA",
+        "G20",
+        "产业",
+        "具身智能"
+      ],
+      "rank": 11
+    }
+  ],
+  "generated_at": "2026-09-03T04:22:39Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 11,
+    "last_batch_added": 11,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
