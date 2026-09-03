@@ -1,0 +1,104 @@
+---
+import "../styles/global.css";
+import LogoutControl from "../components/LogoutControl.astro";
+import SiteNav from "../components/SiteNav.astro";
+import XianyuViewer from "../components/XianyuViewer.astro";
+import { formatBeijingDateTime } from "../lib/news.mjs";
+import {
+  getDemandsFeed,
+  xianyuKindLabel,
+  xianyuStatusClass,
+  xianyuStatusLabel,
+} from "../lib/xianyu";
+
+const feed = await getDemandsFeed();
+const items = feed.items;
+const summary = feed.summary;
+const hasContent = items.length > 0;
+const hasSummary = summary.top_demands.length + summary.price_bands.length + summary.gaps.length > 0;
+const updated = formatBeijingDateTime(feed.updated_at);
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={feed.title || "闲鱼 AI 需求雷达"} />
+    <title>闲鱼 · 工具库</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#xianyu-list">跳到列表</a>
+    <div class="page-shell">
+      <header class="site-header">
+        <div>
+          <p class="eyebrow">闲鱼</p>
+          <h1>闲鱼</h1>
+          {feed.title && <p class="intro">{feed.title}{updated ? ` · ${updated}` : ""}</p>}
+        </div>
+        <div class="header-stats">
+          <p class="record-count">{items.length} 条需求</p>
+          <LogoutControl />
+        </div>
+      </header>
+
+      <SiteNav current="xianyu" />
+
+      {!hasContent ? (
+        <main id="xianyu-list">
+          <section class="empty-state" aria-labelledby="empty-title">
+            <p class="empty-icon">✦</p>
+            <h2 id="empty-title">暂时没有闲鱼需求</h2>
+            <p>等待 data/xianyu 写入 demands.json 后会出现在这里。</p>
+          </section>
+        </main>
+      ) : (
+        <main id="xianyu-list">
+          {hasSummary && (
+            <section class="tool-section" aria-labelledby="xianyu-summary-title">
+              <div class="section-heading">
+                <h2 id="xianyu-summary-title">需求摘要</h2>
+                <p>{items.length} 条</p>
+              </div>
+              {summary.top_demands.length > 0 && (
+                <p class="intro"><strong>热门需求</strong> · {summary.top_demands.join("、")}</p>
+              )}
+              {summary.price_bands.length > 0 && (
+                <p class="intro"><strong>价格带</strong> · {summary.price_bands.join("、")}</p>
+              )}
+              {summary.gaps.length > 0 && (
+                <p class="intro"><strong>缺口</strong> · {summary.gaps.join("、")}</p>
+              )}
+            </section>
+          )}
+          <section class="tool-section" aria-labelledby="xianyu-items-title">
+            <div class="section-heading">
+              <h2 id="xianyu-items-title">需求列表</h2>
+              <p>{items.length} 条</p>
+            </div>
+            <div class="tool-grid">
+              {items.map((item) => (
+                <article class="tool-card">
+                  <button type="button" class="card-link" data-xianyu-open data-xianyu-key={item.id} aria-label={item.title}></button>
+                  <div class="card-content">
+                    <div class="card-meta">
+                      <span class="tweet-score">{item.score}</span>
+                      {item.kind && <span class="category">{xianyuKindLabel(item.kind)}</span>}
+                      <span class:list={["status", xianyuStatusClass(item.status)]}>{xianyuStatusLabel(item.status)}</span>
+                    </div>
+                    <h3>{item.title}</h3>
+                    <p>{item.summary}</p>
+                    <div class="tag-list">{(item.tags ?? []).slice(0, 8).map((tag) => <span>{tag}</span>)}</div>
+                  </div>
+                </article>
+              ))}
+            </div>
+          </section>
+        </main>
+      )}
+    </div>
+    <XianyuViewer items={items} />
+    <footer class="site-footer">
+      <p>数据来自 data/xianyu JSON，构建时读取，不另存 HTML。</p>
+    </footer>
+  </body>
+</html>
