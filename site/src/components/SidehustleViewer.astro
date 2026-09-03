@@ -51,7 +51,7 @@ const { items = [] } = Astro.props;
               {sidehustleModelLabel(item.model)}
             </span>
           )}
-          {indexLabel && <span class="category">{indexLabel}</span>}
+          {indexLabel && <span class="category">副业机会指数 {item.index}</span>}
         </div>
       </header>
       {tags.length > 0 && <div class="tag-list">{tags.map((tag) => <span>{tag}</span>)}</div>}
@@ -83,6 +83,12 @@ const { items = [] } = Astro.props;
         <section class="radar-viewer-section">
           <h3>AI 如何提效</h3>
           <p>{item.ai_help}</p>
+        </section>
+      )}
+      {indexLabel && (
+        <section class="radar-viewer-section">
+          <h3>副业机会指数</h3>
+          <p>{item.index}</p>
         </section>
       )}
       {levels.length > 0 && (
