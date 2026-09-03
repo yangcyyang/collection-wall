@@ -100,6 +100,7 @@ test("收藏墙与技能未带 cookie 时重定向到登录并带上返回地址
   assert.equal(isPublicPath("/skills/"), false);
   assert.equal(isPublicPath("/radar/"), false);
   assert.equal(isPublicPath("/xianyu/"), false);
+  assert.equal(isPublicPath("/xiaohongshu/"), false);
   assert.equal(isPublicPath("/api/ask-ai"), false);
 
   const home = await dispatch("/");
@@ -380,6 +381,7 @@ test("私有静态资源不能未登录直链绕过", async () => {
     "/prompts/",
     "/radar/",
     "/xianyu/",
+    "/xiaohongshu/",
     "/api/ask-ai",
   ]) {
     const response = await dispatch(path);

@@ -1,0 +1,182 @@
+---
+import "../styles/global.css";
+import LogoutControl from "../components/LogoutControl.astro";
+import SiteNav from "../components/SiteNav.astro";
+import XiaohongshuViewer from "../components/XiaohongshuViewer.astro";
+import { formatBeijingDateTime } from "../lib/news.mjs";
+import {
+  flattenSectionItems,
+  getRadarFeed,
+  getRecentReportDates,
+  hasReportContent,
+  SECTION_KEYS,
+  SECTION_LABELS,
+  xiaohongshuDirectionClass,
+  xiaohongshuDirectionLabel,
+  xiaohongshuSignalClass,
+  xiaohongshuSignalLabel,
+} from "../lib/xiaohongshu";
+
+const feed = await getRadarFeed();
+const items = flattenSectionItems(feed);
+const hasContent = hasReportContent(feed);
+const updated = formatBeijingDateTime(feed.updated_at);
+const recentDates = await getRecentReportDates();
+const awareness = feed.awareness;
+const hasAwareness = Boolean(awareness.dominant_level || awareness.fastest_growing || awareness.note);
+const judgements = feed.summary.today_judgement;
+const topSignals = feed.summary.top_signals;
+const sections = SECTION_KEYS.map((key) => ({
+  key,
+  title: SECTION_LABELS[key],
+  items: feed.sections[key],
+  modifier: key === "hot" ? "is-hot" : key === "trends" ? "is-trend" : "",
+}));
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={feed.title || "小红书 AI 用户雷达"} />
+    <title>小红书 · 工具库</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#xiaohongshu-list">跳到列表</a>
+    <div class="page-shell">
+      <header class="site-header">
+        <div>
+          <p class="eyebrow">小红书</p>
+          <h1>小红书</h1>
+          {feed.title && <p class="intro">{feed.title}{updated ? ` · ${updated}` : ""}{feed.date ? ` · ${feed.date}` : ""}</p>}
+          {recentDates.length > 0 && (
+            <p class="intro history-dates">历史报告 · {recentDates.join(" · ")}（主视图始终读取 radar.json）</p>
+          )}
+        </div>
+        <div class="header-stats">
+          <p class="record-count">{feed.count} 条观察</p>
+          <LogoutControl />
+        </div>
+      </header>
+
+      <SiteNav current="xiaohongshu" />
+
+      {!hasContent ? (
+        <main id="xiaohongshu-list">
+          <section class="empty-state" aria-labelledby="empty-title">
+            <p class="empty-icon">✦</p>
+            <h2 id="empty-title">暂时没有小红书雷达条目</h2>
+            <p>等待 data/xiaohongshu 写入 radar.json 后会出现在这里。</p>
+          </section>
+        </main>
+      ) : (
+        <main id="xiaohongshu-list">
+          <section class="tool-section" aria-labelledby="xhs-judgement-title">
+            <div class="section-heading">
+              <h2 id="xhs-judgement-title">今日判断</h2>
+              <p>{judgements.length} 条</p>
+            </div>
+            {judgements.length > 0 ? (
+              <ul class="judgement-list">{judgements.map((line) => <li>{line}</li>)}</ul>
+            ) : (
+              <p class="section-empty">今日暂无判断</p>
+            )}
+            {topSignals.length > 0 && (
+              <p class="intro"><strong>关键信号</strong> · {topSignals.join("、")}</p>
+            )}
+          </section>
+
+          {sections.map((section) => (
+            <section class:list={["tool-section", section.modifier]} aria-labelledby={`xhs-${section.key}-title`}>
+              <div class="section-heading">
+                <h2 id={`xhs-${section.key}-title`}>{section.title}</h2>
+                <p>{section.items.length} 条</p>
+              </div>
+              {section.items.length === 0 ? (
+                <p class="section-empty">暂时没有{section.title}条目</p>
+              ) : (
+                <div class="tool-grid">
+                  {section.items.map((item, index) => (
+                    <article class="tool-card">
+                      <button type="button" class="card-link" data-xhs-open data-xhs-key={`${section.key}:${item.id || index}`} aria-label={item.title}></button>
+                      <div class="card-content">
+                        <div class="card-meta">
+                          {item.signal_strength && (
+                            <span class:list={["status", xiaohongshuSignalClass(item.signal_strength)]}>
+                              {xiaohongshuSignalLabel(item.signal_strength)}
+                            </span>
+                          )}
+                          {section.key === "trends" && item.direction && (
+                            <span class:list={["status", xiaohongshuDirectionClass(item.direction)]}>
+                              {xiaohongshuDirectionLabel(item.direction)}
+                            </span>
+                          )}
+                          {item.audience && <span class="category">{item.audience}</span>}
+                        </div>
+                        <h3>{item.title}</h3>
+                        <p>{item.summary}</p>
+                        <div class="tag-list">{(item.tags ?? []).slice(0, 8).map((tag) => <span>{tag}</span>)}</div>
+                      </div>
+                    </article>
+                  ))}
+                </div>
+              )}
+            </section>
+          ))}
+
+          <section class="tool-section" aria-labelledby="xhs-awareness-title">
+            <div class="section-heading">
+              <h2 id="xhs-awareness-title">认知层级</h2>
+            </div>
+            {hasAwareness ? (
+              <div class="awareness-block">
+                {awareness.dominant_level && <p><strong>主导层级</strong> · {awareness.dominant_level}</p>}
+                {awareness.fastest_growing && <p><strong>增长最快</strong> · {awareness.fastest_growing}</p>}
+                {awareness.note && <p>{awareness.note}</p>}
+              </div>
+            ) : (
+              <p class="section-empty">暂无认知层级摘要</p>
+            )}
+          </section>
+        </main>
+      )}
+    </div>
+    <XiaohongshuViewer items={items} />
+    <footer class="site-footer">
+      <p>数据来自 data/xiaohongshu JSON，构建时读取，不另存 HTML。</p>
+    </footer>
+  </body>
+</html>
+
+<style>
+  .tool-section.is-hot,
+  .tool-section.is-trend {
+    border-radius: var(--radius-card);
+    margin: var(--spacing-md) 0;
+    padding-left: var(--spacing-md);
+    padding-right: var(--spacing-md);
+  }
+  .tool-section.is-hot {
+    background: color-mix(in srgb, var(--color-badge-new) 10%, var(--color-surface));
+    border-left: 4px solid var(--color-badge-new);
+  }
+  .tool-section.is-trend {
+    background: color-mix(in srgb, var(--color-badge-frequent) 10%, var(--color-surface));
+    border-left: 4px solid var(--color-badge-frequent);
+  }
+  .section-empty {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-caption);
+    margin: 0;
+  }
+  .judgement-list,
+  .awareness-block {
+    color: var(--color-text-primary);
+    display: grid;
+    gap: var(--spacing-sm);
+    margin: 0;
+    padding-left: 1.2rem;
+  }
+  .awareness-block { padding-left: 0; }
+  .history-dates { font-size: var(--font-size-caption); }
+</style>
