@@ -90,10 +90,10 @@ item: id, title, summary,
 ```
 
 ## Acceptance Criteria
-- [ ] AC-1：SiteNav 出现「副业」，`/sidehustle/` 可构建并产出 `index.html`。
-- [ ] AC-2：JSON 在 `data/sidehustle/`，空 sections 显示整页空状态；分区空时该节空状态。
-- [ ] AC-3：详情用弹层，不生成 `/sidehustle/{id}/`。
-- [ ] AC-4：未登录访问 `/sidehustle/` 与小红书一样跳登录。
-- [ ] AC-5：八个中文分区 + 今日判断 + 关键信号；机会 / 值得验证视觉分离。
-- [ ] AC-6：可选字段缺失仍渲染；出现时展示 model / 成本等级 / 指数 / evidence 对象。
-- [ ] AC-7：不改 sticker-shop 或其他无关 Tab。不「修复」既有 radar.test.mjs 硬编码计数失败。
+- [x] AC-1：SiteNav 出现「副业」，`/sidehustle/` 可构建并产出 `index.html`。
+- [x] AC-2：JSON 在 `data/sidehustle/`，空 sections 显示整页空状态；分区空时该节空状态。
+- [x] AC-3：详情用弹层，不生成 `/sidehustle/{id}/`。
+- [x] AC-4：未登录访问 `/sidehustle/` 与小红书一样跳登录。
+- [x] AC-5：八个中文分区 + 今日判断 + 关键信号；机会 / 值得验证视觉分离。
+- [x] AC-6：可选字段缺失仍渲染；出现时展示 model / 成本等级 / 指数 / evidence 对象。
+- [x] AC-7：不改 sticker-shop 或其他无关 Tab。不「修复」既有 radar.test.mjs 硬编码计数失败。
