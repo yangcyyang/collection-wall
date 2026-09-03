@@ -7,16 +7,16 @@ import { formatBeijingDateTime } from "../lib/news.mjs";
 import {
   getDemandsFeed,
   xianyuKindLabel,
+  xianyuLaneSections,
   xianyuStatusClass,
   xianyuStatusLabel,
 } from "../lib/xianyu";
 
 const feed = await getDemandsFeed();
 const items = feed.items;
-const summary = feed.summary;
 const hasContent = items.length > 0;
-const hasSummary = summary.top_demands.length + summary.price_bands.length + summary.gaps.length > 0;
 const updated = formatBeijingDateTime(feed.updated_at);
+const sections = xianyuLaneSections(items, feed.summary);
 ---
 
 <html lang="zh-CN">
@@ -53,46 +53,42 @@ const updated = formatBeijingDateTime(feed.updated_at);
         </main>
       ) : (
         <main id="xianyu-list">
-          {hasSummary && (
-            <section class="tool-section" aria-labelledby="xianyu-summary-title">
+          {sections.map((section) => (
+            <section class="tool-section" aria-labelledby={`xianyu-${section.id}-title`}>
               <div class="section-heading">
-                <h2 id="xianyu-summary-title">需求摘要</h2>
-                <p>{items.length} 条</p>
+                <h2 id={`xianyu-${section.id}-title`}>{section.title}</h2>
+                <p>{section.items.length} 条</p>
               </div>
-              {summary.top_demands.length > 0 && (
-                <p class="intro"><strong>热门需求</strong> · {summary.top_demands.join("、")}</p>
+              {section.highlights.length > 0 && (
+                <p class="intro">{section.highlights.join("、")}</p>
               )}
-              {summary.price_bands.length > 0 && (
-                <p class="intro"><strong>价格带</strong> · {summary.price_bands.join("、")}</p>
-              )}
-              {summary.gaps.length > 0 && (
-                <p class="intro"><strong>缺口</strong> · {summary.gaps.join("、")}</p>
+              {section.items.length === 0 ? (
+                <div class="empty-state" role="status" aria-labelledby={`xianyu-${section.id}-empty`}>
+                  <p class="empty-icon">✦</p>
+                  <h3 id={`xianyu-${section.id}-empty`}>{section.emptyTitle}</h3>
+                  <p>{section.emptyHint}</p>
+                </div>
+              ) : (
+                <div class="tool-grid">
+                  {section.items.map((item) => (
+                    <article class="tool-card">
+                      <button type="button" class="card-link" data-xianyu-open data-xianyu-key={item.id} aria-label={item.title}></button>
+                      <div class="card-content">
+                        <div class="card-meta">
+                          <span class="tweet-score">{item.score}</span>
+                          {item.kind && <span class="category">{xianyuKindLabel(item.kind)}</span>}
+                          <span class:list={["status", xianyuStatusClass(item.status)]}>{xianyuStatusLabel(item.status)}</span>
+                        </div>
+                        <h3>{item.title}</h3>
+                        <p>{item.summary}</p>
+                        <div class="tag-list">{(item.tags ?? []).slice(0, 8).map((tag) => <span>{tag}</span>)}</div>
+                      </div>
+                    </article>
+                  ))}
+                </div>
               )}
             </section>
-          )}
-          <section class="tool-section" aria-labelledby="xianyu-items-title">
-            <div class="section-heading">
-              <h2 id="xianyu-items-title">需求列表</h2>
-              <p>{items.length} 条</p>
-            </div>
-            <div class="tool-grid">
-              {items.map((item) => (
-                <article class="tool-card">
-                  <button type="button" class="card-link" data-xianyu-open data-xianyu-key={item.id} aria-label={item.title}></button>
-                  <div class="card-content">
-                    <div class="card-meta">
-                      <span class="tweet-score">{item.score}</span>
-                      {item.kind && <span class="category">{xianyuKindLabel(item.kind)}</span>}
-                      <span class:list={["status", xianyuStatusClass(item.status)]}>{xianyuStatusLabel(item.status)}</span>
-                    </div>
-                    <h3>{item.title}</h3>
-                    <p>{item.summary}</p>
-                    <div class="tag-list">{(item.tags ?? []).slice(0, 8).map((tag) => <span>{tag}</span>)}</div>
-                  </div>
-                </article>
-              ))}
-            </div>
-          </section>
+          ))}
         </main>
       )}
     </div>
