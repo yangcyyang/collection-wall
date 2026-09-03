@@ -1,40 +1,129 @@
 {
   "source": "xianyu-ai-demand",
   "title": "闲鱼 AI 需求雷达",
-  "updated_at": "2026-09-03T21:28:00+08:00",
-  "count": 16,
+  "updated_at": "2026-09-03T21:44:00+08:00",
+  "count": 45,
   "summary": {
     "top_demands": [
-      "Midjourney 账号代充/拼车（月卡代充想要数最高档）",
-      "低价提示词包（¥1 引流款，想要数断层）",
-      "按张代出图 / AI图·短视频代做（需求侧有求购，客单低）",
-      "AI短剧/漫剧/副业图书教程（搜 ChatGPT/Claude 时被图书占据）",
-      "付费课提示词二次流通（求购「某老师提示词」）"
+      "企业/个人 AI 智能体·工作流定制（¥100 客单 + 9200人想要，全场最强付费信号）",
+      "AI 漫剧/短剧全流程（想要数 2312–3218，供给爆炸、客单被压到 ¥1–3）",
+      "AI 变现与 Agent 开发课（一人公司 1522人想要、Agent 全栈 1135人想要）",
+      "代做类服务：PPT 代做（462人想要）、数字人代做（¥9.99/10分钟）、AI 出图定制（2336人想要）",
+      "去AI味/降AIGC率工具（191人想要，学生+自媒体刚需）",
+      "科研/学术绘图素材（610人想要，付费意愿最清晰的绘图细分）",
+      "Midjourney 账号代充/拼车（¥60–78 代充，254/110人想要）",
+      "低价提示词包与 Coze 工作流合集（¥1 引流款，已白菜化）"
     ],
     "price_bands": [
-      "提示词包：¥1–6（引流）",
-      "MJ 日卡独享：~¥4；周卡拼车：¥15–16；月卡拼车：~¥46；月卡代充：¥60–78",
-      "代出图：¥9.9 起（约0.1–1元/张量级营销）",
-      "AI 教程图书：¥8–28",
-      "求购帖标价：多为 ¥1–5（意向价，非成交价）"
+      "虚拟资料/教程/提示词包：¥1–4（99% 供给锚在这里，靠想要数+私聊转化）",
+      "代做服务：PPT ¥4.9 起/10页；AI 出图定制 ¥3；数字人代做 ¥9.99/10分钟；急单设计 ¥5",
+      "工具账号/灰区号：picdoc ¥3、蝉镜/蝉豆 ¥2.5–4.5",
+      "MJ 账号：日卡 ~¥4、周卡拼车 ¥15–16、月卡拼车 ~¥46、月卡代充 ¥60–78",
+      "中价位实验档：¥20（AI写真）、¥29（模型代充+教学）、¥39.99（永久解锁）",
+      "高客单服务：¥100 智能体/工作流定制（唯一三位数且高需求）",
+      "AI 教程图书：¥8–28；求购帖标价多为 ¥1–5（意向价）"
     ],
     "gaps": [
-      "合规/可交付的「垂直场景提示词+工作流」组合（非¥1垃圾包），挂在 MJ/AI绘图品类下避开裸搜过滤",
-      "面向小白的 AI 短视频/漫剧「代做成品」标准化套餐（求购存在但供给杂、客单低，缺可信交付）",
-      "ChatGPT/Claude 账号在网页端几乎搜不到（疑似审核），Midjourney 仍畅通——可观察政策窗口，勿硬上违规账号生意"
+      "企业级 Coze/智能体工作流定制：¥100 档 9200人想要，供给少且交付难标准化——最值得做的高客单方向",
+      "脱离 ¥1 锚点的定价结构：¥20–40 档（AI写真、永久更新社群、代充+教学组合）已被验证可成交，比血拼 ¥1 资料包健康",
+      "可复购的订阅式交付（持续更新社群 298人想要）+ 按小时租工具（¥6.8/h）是新计费模式，供给还稀",
+      "技术护城河细分：UE5 实时交互数字人、科研/学术绘图、空间建模分镜——门槛高、竞争少",
+      "账号赛道勿碰：ChatGPT/Claude 账号词已被平台过滤，数字人工具号价格崩且有封号风险"
     ],
-    "trend_highlights": [
-      "付费课提示词二次流通（求购「某老师提示词」）",
-      "按张代出图 / AI图·短视频代做（需求侧有求购，客单低）",
-      "AI短剧/漫剧/副业图书教程（搜 ChatGPT/Claude 时被图书占据）",
-      "合规垂直提示词+工作流组合仍缺供给（非¥1垃圾包）"
+    "lanes_note": "hot=高想要/爆款供给；trend=求购/缺口/新兴方向",
+    "supply_tactics": [
+      "收益截图背书（如 27,466 元）",
+      "「26年X月最新」时效话术",
+      "永久更新/一次买断",
+      "原价划线（¥2980→¥7.98）",
+      "包邮+自动发货/卡密",
+      "网盘直发+私聊转化"
     ],
     "hot_highlights": [
-      "Midjourney 账号代充/拼车（月卡代充想要数最高档）",
-      "低价提示词包（¥1 引流款，想要数断层）"
+      "AI智能体工作流定制开发（扣子/coze 工作流·图像流·知识库）",
+      "2026漫剧制作视频教程 AI漫剧工作流全流程（即梦Seedance）",
+      "【26年9月最新】AI漫剧短剧制作全流程｜实操教程资料",
+      "Midjourney提示词ai生图咒语MJ热门词AI绘画（12000+关键词PDF）",
+      "一人公司AI变现实操课【0.1元秒发】超级个体·AI翻身实操课"
+    ],
+    "trend_highlights": [
+      "靠背视觉AI提示词 求购某抖靠背视觉老师的ai提示词",
+      "【去AI味工具】ALGC 降AI率+重复率 不限制使用 6.8元/小时",
+      "AI小说转漫剧/短剧Skill｜完整剧组级工具包（多Agent多Skill）",
+      "2025 AI虚拟数字人(智能体)-UE5实时语音交互教程",
+      "求购 低价求ai图ai短视频制作"
     ]
   },
   "items": [
+    {
+      "id": "coze-agent-workflow-custom-100",
+      "title": "AI智能体工作流定制开发（扣子/coze 工作流·图像流·知识库）",
+      "kind": "service",
+      "score": 98,
+      "confidence": "high",
+      "status": "emerging",
+      "price": "¥100",
+      "category": "智能体/工作流定制",
+      "tags": [
+        "Coze",
+        "扣子",
+        "Agent",
+        "工作流",
+        "企业定制",
+        "高客单"
+      ],
+      "lane": "hot",
+      "summary": "¥100 客单、9200人想要，全场最强信号；回复超快，北京。",
+      "why_it_matters": "唯一在三位数客单还有万级想要的品类——企业/个人对可交付 Agent 工作流的付费意愿远超资料包。",
+      "url": "https://www.goofish.com/item?id=927308678034",
+      "first_detected": "2026-09-03T21:32:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00"
+    },
+    {
+      "id": "ai-manju-workflow-3218",
+      "title": "2026漫剧制作视频教程 AI漫剧工作流全流程（即梦Seedance）",
+      "kind": "course",
+      "score": 95,
+      "confidence": "high",
+      "status": "emerging",
+      "price": "¥2.8",
+      "category": "漫剧教程",
+      "tags": [
+        "AI漫剧",
+        "工作流",
+        "即梦",
+        "Seedance",
+        "内容赛道"
+      ],
+      "lane": "hot",
+      "summary": "3218人想要，是内容赛道想要数最高的单品。",
+      "why_it_matters": "漫剧是当前最热内容方向，但客单被压到 ¥1–3，流量极大、变现靠后端。",
+      "url": "https://www.goofish.com/item?id=1061326863029",
+      "first_detected": "2026-09-03T21:32:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00"
+    },
+    {
+      "id": "ai-duanju-fullflow-2312",
+      "title": "【26年9月最新】AI漫剧短剧制作全流程｜实操教程资料",
+      "kind": "course",
+      "score": 93,
+      "confidence": "high",
+      "status": "hot",
+      "price": "¥1",
+      "category": "短剧教程",
+      "tags": [
+        "AI短剧",
+        "AI漫剧",
+        "全流程",
+        "引流款"
+      ],
+      "lane": "hot",
+      "summary": "¥1 全流程包，2312人想要，回复超快。",
+      "why_it_matters": "短剧赛道最大流量入口，几乎所有卖家用「最新月份+全流程」话术。",
+      "url": "https://www.goofish.com/item?id=1077425148316",
+      "first_detected": "2026-09-03T21:32:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00"
+    },
     {
       "id": "mj-prompt-pack-1yuan",
       "title": "Midjourney提示词ai生图咒语MJ热门词AI绘画（12000+关键词PDF）",
@@ -54,8 +143,96 @@
       "why_it_matters": "想要数断层第一，说明「低价提示词包」是闲鱼 AI 绘图侧最强需求/获客信号。",
       "url": "https://www.goofish.com/item?id=995515224497",
       "first_detected": "2026-09-03T20:31:00+08:00",
-      "last_updated": "2026-09-03T20:31:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00",
       "lane": "hot"
+    },
+    {
+      "id": "ai-course-yirengongsi-1522",
+      "title": "一人公司AI变现实操课【0.1元秒发】超级个体·AI翻身实操课",
+      "kind": "course",
+      "score": 91,
+      "confidence": "high",
+      "status": "hot",
+      "price": "¥1",
+      "category": "变现课",
+      "tags": [
+        "一人公司",
+        "超级个体",
+        "变现",
+        "盗版风险"
+      ],
+      "lane": "hot",
+      "summary": "1522人想要，¥1 秒发；卖家信用极好。",
+      "why_it_matters": "「一人公司/超级个体」是最强变现话题，正价课被 ¥1 盗版严重稀释。",
+      "url": "https://www.goofish.com/item?id=1055805237101",
+      "first_detected": "2026-09-03T21:32:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00"
+    },
+    {
+      "id": "ai-custom-draw-2336",
+      "title": "AI定制设计出图快 AI绘图定制服务",
+      "kind": "service",
+      "score": 90,
+      "confidence": "high",
+      "status": "hot",
+      "price": "¥3",
+      "category": "出图定制",
+      "tags": [
+        "AI绘图",
+        "定制",
+        "走量",
+        "百分百好评"
+      ],
+      "lane": "hot",
+      "summary": "¥3 出图定制，2336人想要。",
+      "why_it_matters": "出图定制走量模型成立，但单价被打到个位数，只能靠量和复购。",
+      "url": "",
+      "first_detected": "2026-09-03T21:32:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00"
+    },
+    {
+      "id": "ai-course-agent-fullstack-1135",
+      "title": "AI开发全栈实战课程 AI Agent全栈开发工程师课程",
+      "kind": "course",
+      "score": 89,
+      "confidence": "high",
+      "status": "emerging",
+      "price": "¥1",
+      "category": "技术课",
+      "tags": [
+        "Agent",
+        "全栈",
+        "开发课",
+        "技术需求"
+      ],
+      "lane": "hot",
+      "summary": "1135人想要，发货极快。",
+      "why_it_matters": "Agent 开发课需求量级最大，说明技术侧学习需求真实存在（不只是副业党）。",
+      "url": "",
+      "first_detected": "2026-09-03T21:32:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00"
+    },
+    {
+      "id": "ai-ppt-daizuo-462",
+      "title": "旗舰级AI Agent生成PPT｜AI PPT代做，10页一档，4元起",
+      "kind": "service",
+      "score": 88,
+      "confidence": "high",
+      "status": "hot",
+      "price": "¥4.9",
+      "category": "代做-PPT",
+      "tags": [
+        "PPT",
+        "代做",
+        "Agent",
+        "按页计价"
+      ],
+      "lane": "hot",
+      "summary": "¥4.9 起、462人想要，回复超快，山东。",
+      "why_it_matters": "PPT 代做是最成熟的 AI 服务变现口，按页分档已标准化。",
+      "url": "https://www.goofish.com/item?id=1075230071316",
+      "first_detected": "2026-09-03T21:32:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00"
     },
     {
       "id": "mj-daichong-60",
@@ -75,8 +252,52 @@
       "why_it_matters": "用户更想「充到自己账号」而非共享号，代充需求显著。",
       "url": "",
       "first_detected": "2026-09-03T20:31:00+08:00",
-      "last_updated": "2026-09-03T20:31:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00",
       "lane": "hot"
+    },
+    {
+      "id": "aiwrite-deai-tool-191",
+      "title": "【永久买断】本地AI文章改写神器（去AI味/降AIGC率）",
+      "kind": "goods",
+      "score": 87,
+      "confidence": "high",
+      "status": "emerging",
+      "price": "¥1",
+      "category": "去AI味工具",
+      "tags": [
+        "降AIGC率",
+        "去AI味",
+        "改写",
+        "检测规避"
+      ],
+      "lane": "hot",
+      "summary": "¥1 永久买断、191人想要、百分百好评。",
+      "why_it_matters": "「降 AI 率」是学生/自媒体刚需痛点，随检测普及会持续存在。",
+      "url": "https://www.goofish.com/item?id=1074314289438",
+      "first_detected": "2026-09-03T21:32:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00"
+    },
+    {
+      "id": "aidraw-research-610",
+      "title": "AI科研绘图素材（生物医学通用PPT科研绘图素材）",
+      "kind": "goods",
+      "score": 86,
+      "confidence": "high",
+      "status": "hot",
+      "price": "¥1",
+      "category": "科研绘图",
+      "tags": [
+        "科研",
+        "生物医学",
+        "绘图素材",
+        "学术"
+      ],
+      "lane": "hot",
+      "summary": "¥1、610人想要、百分百好评。",
+      "why_it_matters": "科研/学术是 AI 绘图里付费意愿最清晰的细分，值得做正规高客单版本。",
+      "url": "",
+      "first_detected": "2026-09-03T21:32:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00"
     },
     {
       "id": "want-kaobei-prompt",
@@ -84,7 +305,7 @@
       "kind": "want",
       "score": 86,
       "confidence": "high",
-      "status": "emerging",
+      "status": "stable",
       "price": "¥1",
       "category": "求购-提示词",
       "tags": [
@@ -97,8 +318,52 @@
       "why_it_matters": "清晰需求侧信号——付费课提示词被拆卖/求购，可做合规整理或原作者授权包。",
       "url": "https://www.goofish.com/item?id=1077142228190",
       "first_detected": "2026-09-03T20:31:00+08:00",
-      "last_updated": "2026-09-03T20:31:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00",
       "lane": "trend"
+    },
+    {
+      "id": "digital-human-daizuo-999",
+      "title": "数字人视频10分钟高清代做 1080P无水印",
+      "kind": "service",
+      "score": 85,
+      "confidence": "high",
+      "status": "hot",
+      "price": "¥9.99",
+      "category": "代做-数字人",
+      "tags": [
+        "数字人",
+        "代做",
+        "按分钟",
+        "1小时交付"
+      ],
+      "lane": "hot",
+      "summary": "¥9.99/10分钟、百分百好评、最快1小时交付，山西。",
+      "why_it_matters": "数字人代做已按分钟计价，10元档在打价格战，靠交付速度竞争。",
+      "url": "https://www.goofish.com/item?id=1078543987580",
+      "first_detected": "2026-09-03T21:32:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00"
+    },
+    {
+      "id": "deai-hourly-rental",
+      "title": "【去AI味工具】ALGC 降AI率+重复率 不限制使用 6.8元/小时",
+      "kind": "service",
+      "score": 84,
+      "confidence": "medium",
+      "status": "emerging",
+      "price": "¥6.8",
+      "category": "工具租用",
+      "tags": [
+        "降AI率",
+        "按小时",
+        "租用",
+        "新计费"
+      ],
+      "lane": "trend",
+      "summary": "¥6.8/小时按时长租工具，1人想要（早期）。",
+      "why_it_matters": "按小时租工具是新计费模式，比一次性买断更适合波峰需求，值得复制。",
+      "url": "",
+      "first_detected": "2026-09-03T21:32:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00"
     },
     {
       "id": "mj-daichong-78",
@@ -118,7 +383,7 @@
       "why_it_matters": "代充价格带约 ¥60–78/月，高于拼车共享。",
       "url": "",
       "first_detected": "2026-09-03T20:31:00+08:00",
-      "last_updated": "2026-09-03T20:31:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00",
       "lane": "hot"
     },
     {
@@ -139,8 +404,52 @@
       "why_it_matters": "不想买账号的人直接买「出图结果」，服务型供给有量。",
       "url": "",
       "first_detected": "2026-09-03T20:31:00+08:00",
-      "last_updated": "2026-09-03T20:31:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00",
       "lane": "hot"
+    },
+    {
+      "id": "novel-to-manju-skill-kit",
+      "title": "AI小说转漫剧/短剧Skill｜完整剧组级工具包（多Agent多Skill）",
+      "kind": "goods",
+      "score": 82,
+      "confidence": "medium",
+      "status": "emerging",
+      "price": "¥3.5",
+      "category": "转化链路工具",
+      "tags": [
+        "小说转漫剧",
+        "多Agent",
+        "Skill",
+        "链路"
+      ],
+      "lane": "trend",
+      "summary": "¥3.5，卖点是多 Agent/多 Skill 协作的剧组级流程。",
+      "why_it_matters": "「小说→漫剧」链路正在成型，是把散点提示词升级成流水线的方向。",
+      "url": "",
+      "first_detected": "2026-09-03T21:32:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00"
+    },
+    {
+      "id": "ue5-realtime-digital-human",
+      "title": "2025 AI虚拟数字人(智能体)-UE5实时语音交互教程",
+      "kind": "course",
+      "score": 80,
+      "confidence": "medium",
+      "status": "emerging",
+      "price": "¥1.99",
+      "category": "实时交互",
+      "tags": [
+        "UE5",
+        "实时语音",
+        "数字人",
+        "高门槛"
+      ],
+      "lane": "trend",
+      "summary": "¥1.99、84人想要、卖家信用极好。",
+      "why_it_matters": "UE5 实时交互门槛高、竞争少，是数字人里少见的技术护城河方向。",
+      "url": "",
+      "first_detected": "2026-09-03T21:32:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00"
     },
     {
       "id": "want-ai-daizuo",
@@ -148,7 +457,7 @@
       "kind": "want",
       "score": 80,
       "confidence": "medium",
-      "status": "emerging",
+      "status": "stable",
       "price": "¥5",
       "category": "求购-代做",
       "tags": [
@@ -161,8 +470,30 @@
       "why_it_matters": "需求侧愿意为「成品代做」出价，但客单极低、供给需看交付质量。",
       "url": "",
       "first_detected": "2026-09-03T20:31:00+08:00",
-      "last_updated": "2026-09-03T20:31:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00",
       "lane": "trend"
+    },
+    {
+      "id": "ai-portrait-custom-20",
+      "title": "AI个人写真定制换衣服换发型换场景",
+      "kind": "service",
+      "score": 79,
+      "confidence": "medium",
+      "status": "emerging",
+      "price": "¥20",
+      "category": "个人写真",
+      "tags": [
+        "AI写真",
+        "C端",
+        "定制",
+        "山西"
+      ],
+      "lane": "trend",
+      "summary": "¥20、96人想要。",
+      "why_it_matters": "个人写真是 C 端付费意愿最高的定制类，客单能站上两位数。",
+      "url": "",
+      "first_detected": "2026-09-03T21:32:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00"
     },
     {
       "id": "mj-pinch-week-15",
@@ -182,8 +513,94 @@
       "why_it_matters": "周卡拼车是 MJ 账号侧默认入门档，供给极卷。",
       "url": "https://www.goofish.com/item?id=1030770919311",
       "first_detected": "2026-09-03T20:31:00+08:00",
-      "last_updated": "2026-09-03T20:31:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00",
       "lane": "hot"
+    },
+    {
+      "id": "picdoc-unlimited-323",
+      "title": "picdoc无限积分科研绘图 文本转视觉一键生成",
+      "kind": "account",
+      "score": 78,
+      "confidence": "medium",
+      "status": "hot",
+      "price": "¥3",
+      "category": "工具账号",
+      "tags": [
+        "无限积分",
+        "工具号",
+        "科研绘图",
+        "灰区"
+      ],
+      "lane": "hot",
+      "summary": "¥3、323人想要。",
+      "why_it_matters": "「无限积分工具号」需求强但属灰边缘供给，有封号/合规风险，不建议自营。",
+      "url": "",
+      "first_detected": "2026-09-03T21:32:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00"
+    },
+    {
+      "id": "resource-community-subscription",
+      "title": "ai漫剧双强资源网盘交流社区（200+资源持续更新）",
+      "kind": "goods",
+      "score": 77,
+      "confidence": "medium",
+      "status": "emerging",
+      "price": "¥3.99",
+      "category": "资源社群",
+      "tags": [
+        "社群",
+        "持续更新",
+        "复购",
+        "网盘"
+      ],
+      "lane": "trend",
+      "summary": "¥3.99、298人想要。",
+      "why_it_matters": "「持续更新社群」比一次性资料更有复购结构，是资料包的升级路径。",
+      "url": "",
+      "first_detected": "2026-09-03T21:32:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00"
+    },
+    {
+      "id": "ai-novel-workflow-income",
+      "title": "AI小说赛道全部工作流 DeepSeek黑科技（收益截图背书）",
+      "kind": "goods",
+      "score": 76,
+      "confidence": "medium",
+      "status": "hot",
+      "price": "¥1",
+      "category": "工作流包",
+      "tags": [
+        "AI小说",
+        "工作流",
+        "DeepSeek",
+        "收益截图话术"
+      ],
+      "lane": "hot",
+      "summary": "¥1、用 27,466 元收益截图做背书。",
+      "why_it_matters": "「收益截图」是当前卖工作流的主流话术，可用于判断话术套路而非真实收益。",
+      "url": "",
+      "first_detected": "2026-09-03T21:32:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00"
+    },
+    {
+      "id": "chatgpt-account-keyword-filtered",
+      "title": "搜「ChatGPT账号」无账号类结果（书籍/教程占满）",
+      "kind": "other",
+      "score": 76,
+      "confidence": "high",
+      "status": "stable",
+      "category": "平台信号",
+      "tags": [
+        "账号过滤",
+        "合规",
+        "平台策略"
+      ],
+      "lane": "trend",
+      "summary": "两屏全是书籍+教程，无任何账号商品。",
+      "why_it_matters": "账号交易被平台合规过滤，账号赛道不可做；与 Midjourney 词仍畅通形成对照。",
+      "url": "https://www.goofish.com/search?q=ChatGPT%E8%B4%A6%E5%8F%B7",
+      "first_detected": "2026-09-03T21:32:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00"
     },
     {
       "id": "signal-prompt-keyword-blocked",
@@ -191,8 +608,7 @@
       "kind": "other",
       "score": 75,
       "confidence": "high",
-      "status": "emerging",
-      "price": null,
+      "status": "stable",
       "category": "平台信号",
       "tags": [
         "提示词",
@@ -203,8 +619,30 @@
       "why_it_matters": "平台对「提示词」裸搜有过滤，运营需挂在品牌词/品类词下。",
       "url": "https://www.goofish.com/search?q=%E6%8F%90%E7%A4%BA%E8%AF%8D",
       "first_detected": "2026-09-03T20:31:00+08:00",
-      "last_updated": "2026-09-03T20:31:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00",
       "lane": "trend"
+    },
+    {
+      "id": "aidraw-12k-prompts-1yuan",
+      "title": "AI绘画1.2万关键词合集（提示词/样品图/送教程）",
+      "kind": "goods",
+      "score": 74,
+      "confidence": "high",
+      "status": "hot",
+      "price": "¥1",
+      "category": "提示词包",
+      "tags": [
+        "提示词",
+        "合集",
+        "白菜化",
+        "广西"
+      ],
+      "lane": "hot",
+      "summary": "¥1（累计降价78%）、包邮、回复超快。",
+      "why_it_matters": "提示词包彻底白菜化，靠量+私聊转化，单卖已无利润。",
+      "url": "https://www.goofish.com/item?id=1000728327961",
+      "first_detected": "2026-09-03T21:32:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00"
     },
     {
       "id": "mj-pinch-month-46",
@@ -225,8 +663,30 @@
       "why_it_matters": "拼车月卡与代充形成明显价差（约¥46 vs ¥60–78）。",
       "url": "",
       "first_detected": "2026-09-03T20:31:00+08:00",
-      "last_updated": "2026-09-03T20:31:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00",
       "lane": "hot"
+    },
+    {
+      "id": "ai-space-modeling-storyboard",
+      "title": "AI建模生图 4K定制分镜 AI空间建模生图工具",
+      "kind": "service",
+      "score": 73,
+      "confidence": "medium",
+      "status": "emerging",
+      "price": "¥1",
+      "category": "空间/建筑",
+      "tags": [
+        "建模",
+        "分镜",
+        "空间设计",
+        "新兴"
+      ],
+      "lane": "trend",
+      "summary": "¥1（原¥5），卖家信用优秀。",
+      "why_it_matters": "空间/建筑分镜是 AI 绘图里较新的细分，供给还稀。",
+      "url": "",
+      "first_detected": "2026-09-03T21:32:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00"
     },
     {
       "id": "book-ai-duanju-bundle",
@@ -234,7 +694,7 @@
       "kind": "course",
       "score": 72,
       "confidence": "high",
-      "status": "emerging",
+      "status": "hot",
       "price": "¥12.8",
       "category": "教程图书",
       "tags": [
@@ -247,8 +707,74 @@
       "why_it_matters": "英文品牌词在闲鱼常被实体书/引流课劫持，账号供给被压制。",
       "url": "https://www.goofish.com/item?id=1065075551400",
       "first_detected": "2026-09-03T20:31:00+08:00",
-      "last_updated": "2026-09-03T20:31:00+08:00",
-      "lane": "trend"
+      "last_updated": "2026-09-03T21:32:00+08:00",
+      "lane": "hot"
+    },
+    {
+      "id": "coze-workflow-300-pack",
+      "title": "Ai教学视频、漫剧、工作流【300+Coze热门工作流】",
+      "kind": "goods",
+      "score": 72,
+      "confidence": "medium",
+      "status": "hot",
+      "price": "¥1",
+      "category": "工作流包",
+      "tags": [
+        "Coze",
+        "工作流合集",
+        "引流款"
+      ],
+      "lane": "hot",
+      "summary": "¥1、42人想要、回复超快。",
+      "why_it_matters": "Coze 工作流合集已成通用引流品，说明真正稀缺的是定制而非合集。",
+      "url": "",
+      "first_detected": "2026-09-03T21:32:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00"
+    },
+    {
+      "id": "ai-model-recharge-teaching-29",
+      "title": "博主同款99教学视频（变身/星素材工作流模型，不开会员一次起充）",
+      "kind": "service",
+      "score": 71,
+      "confidence": "medium",
+      "status": "stable",
+      "price": "¥29",
+      "category": "模型代充+教学",
+      "tags": [
+        "中价位",
+        "代充",
+        "教学组合",
+        "89人想要"
+      ],
+      "lane": "trend",
+      "summary": "¥29、89人想要、百分百好评。",
+      "why_it_matters": "少见的中价位（¥29）成交，靠「代充+教学」组合避开 ¥1 血战。",
+      "url": "https://www.goofish.com/item?id=1058511331251",
+      "first_detected": "2026-09-03T21:32:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00"
+    },
+    {
+      "id": "chanjing-account-supply",
+      "title": "蝉镜/蝉豆 AI数字人 账号·体验号（多条同质供给）",
+      "kind": "account",
+      "score": 70,
+      "confidence": "medium",
+      "status": "hot",
+      "price": "¥2.5",
+      "category": "工具账号",
+      "tags": [
+        "蝉镜",
+        "蝉豆",
+        "数字人",
+        "拼车号",
+        "灰区"
+      ],
+      "lane": "hot",
+      "summary": "¥2.5–4.5，累计降价 11%–36%，同质供给密集。",
+      "why_it_matters": "数字人工具号是密集红海且属账号灰区，价格已崩，风险高收益低。",
+      "url": "",
+      "first_detected": "2026-09-03T21:32:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00"
     },
     {
       "id": "mj-daypass-4",
@@ -268,8 +794,29 @@
       "why_it_matters": "日卡满足「试一下」需求，单价极低。",
       "url": "",
       "first_detected": "2026-09-03T20:31:00+08:00",
-      "last_updated": "2026-09-03T20:31:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00",
       "lane": "hot"
+    },
+    {
+      "id": "ai-duanju-single-hit-copy",
+      "title": "爆火AI短剧单片复刻教程（我在博物馆值夜班等）",
+      "kind": "goods",
+      "score": 68,
+      "confidence": "medium",
+      "status": "hot",
+      "price": "¥2.98",
+      "category": "短剧资料",
+      "tags": [
+        "短剧",
+        "爆款复刻",
+        "跟风"
+      ],
+      "lane": "hot",
+      "summary": "¥2.98、91人想要、卖家信用极好。",
+      "why_it_matters": "蹭单个爆款复刻是短剧供给侧的快速跟风模式，生命周期短。",
+      "url": "",
+      "first_detected": "2026-09-03T21:32:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00"
     },
     {
       "id": "book-ai-manju",
@@ -277,7 +824,7 @@
       "kind": "course",
       "score": 68,
       "confidence": "medium",
-      "status": "emerging",
+      "status": "hot",
       "price": "¥26.9",
       "category": "教程图书",
       "tags": [
@@ -289,8 +836,50 @@
       "why_it_matters": "「AI短剧/漫剧」教程是图书供给侧热点话术。",
       "url": "",
       "first_detected": "2026-09-03T20:31:00+08:00",
-      "last_updated": "2026-09-03T20:31:00+08:00",
-      "lane": "trend"
+      "last_updated": "2026-09-03T21:32:00+08:00",
+      "lane": "hot"
+    },
+    {
+      "id": "ai-duanju-permanent-3999",
+      "title": "AI短剧资源永久解锁 39.99一次付费",
+      "kind": "goods",
+      "score": 67,
+      "confidence": "medium",
+      "status": "stable",
+      "price": "¥39.99",
+      "category": "短剧资料",
+      "tags": [
+        "永久更新",
+        "中高价",
+        "定价实验"
+      ],
+      "lane": "trend",
+      "summary": "¥39.99、22人想要。",
+      "why_it_matters": "少数敢定 ¥40 档，靠「永久更新」撑价——是脱离 ¥1 锚点的定价实验样本。",
+      "url": "",
+      "first_detected": "2026-09-03T21:32:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00"
+    },
+    {
+      "id": "ai-manju-baomu-225",
+      "title": "【AI漫剧保姆级教程】2026年8月最新版 长期更新",
+      "kind": "course",
+      "score": 66,
+      "confidence": "medium",
+      "status": "hot",
+      "price": "¥1",
+      "category": "漫剧教程",
+      "tags": [
+        "漫剧",
+        "保姆级",
+        "长期更新"
+      ],
+      "lane": "hot",
+      "summary": "¥1、225人想要、回复超快。",
+      "why_it_matters": "漫剧教程同质化极高，价格锚死在 ¥1。",
+      "url": "",
+      "first_detected": "2026-09-03T21:32:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00"
     },
     {
       "id": "book-ai-jichu-qinghua",
@@ -298,7 +887,7 @@
       "kind": "goods",
       "score": 66,
       "confidence": "medium",
-      "status": "emerging",
+      "status": "hot",
       "price": "¥17",
       "category": "教材",
       "tags": [
@@ -310,8 +899,8 @@
       "why_it_matters": "Claude/ChatGPT 账号词在网页端几乎被图书淹没（疑似审核压制）。",
       "url": "",
       "first_detected": "2026-09-03T20:31:00+08:00",
-      "last_updated": "2026-09-03T20:31:00+08:00",
-      "lane": "trend"
+      "last_updated": "2026-09-03T21:32:00+08:00",
+      "lane": "hot"
     },
     {
       "id": "book-ai-chuangfu",
@@ -319,7 +908,7 @@
       "kind": "course",
       "score": 65,
       "confidence": "medium",
-      "status": "emerging",
+      "status": "hot",
       "price": "¥12.7",
       "category": "教程图书",
       "tags": [
@@ -331,8 +920,50 @@
       "why_it_matters": "图书店常是知识分销漏斗入口，不一定是真需求。",
       "url": "https://www.goofish.com/item?id=1075149717612",
       "first_detected": "2026-09-03T20:31:00+08:00",
-      "last_updated": "2026-09-03T20:31:00+08:00",
-      "lane": "trend"
+      "last_updated": "2026-09-03T21:32:00+08:00",
+      "lane": "hot"
+    },
+    {
+      "id": "manju-instruction-set-downgrade",
+      "title": "漫剧AI创作提示指令集（提取漫剧人物/分镜）",
+      "kind": "goods",
+      "score": 65,
+      "confidence": "medium",
+      "status": "stable",
+      "price": "¥2.88",
+      "category": "指令集",
+      "tags": [
+        "漫剧",
+        "指令集",
+        "服务下沉"
+      ],
+      "lane": "trend",
+      "summary": "¥2.88（原¥88），广东，卖家信用极好。",
+      "why_it_matters": "漫剧从「服务」下沉成「资料包」，说明服务方需要往定制/交付端上移。",
+      "url": "",
+      "first_detected": "2026-09-03T21:32:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00"
+    },
+    {
+      "id": "cognitive-store-workflow",
+      "title": "【认知便利店】工作流 160个作品 192.1万粉",
+      "kind": "goods",
+      "score": 64,
+      "confidence": "medium",
+      "status": "hot",
+      "price": "¥1.68",
+      "category": "工作流包",
+      "tags": [
+        "工作流",
+        "粉丝数据背书",
+        "福建"
+      ],
+      "lane": "hot",
+      "summary": "¥1.68，用「160作品/192万粉」做背书。",
+      "why_it_matters": "用账号数据背书是资料包差异化的常见手段。",
+      "url": "",
+      "first_detected": "2026-09-03T21:32:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00"
     },
     {
       "id": "book-aigc-illustration",
@@ -340,7 +971,7 @@
       "kind": "goods",
       "score": 62,
       "confidence": "medium",
-      "status": "emerging",
+      "status": "hot",
       "price": "¥20",
       "category": "教材",
       "tags": [
@@ -352,8 +983,8 @@
       "why_it_matters": "AIGC 插画教材有一定兴趣，但非服务型需求。",
       "url": "",
       "first_detected": "2026-09-03T20:31:00+08:00",
-      "last_updated": "2026-09-03T20:31:00+08:00",
-      "lane": "trend"
+      "last_updated": "2026-09-03T21:32:00+08:00",
+      "lane": "hot"
     },
     {
       "id": "mj-prompt-fashion",
@@ -361,7 +992,7 @@
       "kind": "goods",
       "score": 60,
       "confidence": "medium",
-      "status": "emerging",
+      "status": "stable",
       "price": "¥5.99",
       "category": "提示词包",
       "tags": [
@@ -374,20 +1005,44 @@
       "why_it_matters": "垂直场景提示词（服装等）可差异化，避免纯¥1大杂烩。",
       "url": "",
       "first_detected": "2026-09-03T20:31:00+08:00",
-      "last_updated": "2026-09-03T20:31:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00",
       "lane": "trend"
+    },
+    {
+      "id": "mj-full-course-bundle-overs",
+      "title": "Midjourney 2025全套AI绘 教程+工具+软件+提示词",
+      "kind": "course",
+      "score": 58,
+      "confidence": "medium",
+      "status": "cooling",
+      "price": "¥12.12",
+      "category": "整包教程",
+      "tags": [
+        "MJ",
+        "整包",
+        "过剩",
+        "双网盘"
+      ],
+      "lane": "trend",
+      "summary": "¥12.12、仅4人想要、双网盘直发。",
+      "why_it_matters": "MJ 整包教程已过剩，¥12 档溢价失效——供给饱和的反面样本。",
+      "url": "",
+      "first_detected": "2026-09-03T21:32:00+08:00",
+      "last_updated": "2026-09-03T21:32:00+08:00"
     }
   ],
   "_meta": {
     "account": "xy306461421187",
     "profile": "/home/box/.chrome-goofish",
-    "coverage": "batch1: ChatGPT / Claude账号 / Midjourney / 提示词 / AI求购；batch2 掉登录未采完（AI绘图/写作/数字人/课程等）",
-    "blocker": "2026-09-03 登录墙（短信/扫码），无快速进入；待 cy/用户扫码后补扫",
+    "coverage": "batch1: ChatGPT/Claude账号/Midjourney/提示词/AI求购；batch2: AI绘图/AI写作/数字人/AI课程/AI代做/AI定制/ChatGPT账号/AI短剧/AI漫剧/AI工作流",
+    "blocker": "",
     "notes": [
-      "搜 ChatGPT、Claude账号 → 几乎全是实体书/教程，无真实账号卡",
-      "搜 Midjourney → 账号拼车/代充/提示词/代出图主导",
-      "搜 提示词 → 网页零结果（过滤）",
-      "搜 AI求购 → 大量 AI 摄像头/硬件噪声，夹杂少量真 AI 服务求购"
-    ]
+      "搜「提示词」裸词网页端零结果（过滤）；挂 Midjourney/AI绘图 品类下可见",
+      "搜「ChatGPT账号」「Claude账号」无账号类商品，全是书籍/教程 —— 账号交易被合规过滤",
+      "Midjourney 词下账号拼车/代充仍畅通",
+      "「AI求购」词大量 AI 摄像头/硬件噪声，真 AI 服务求购少且标价 ¥1–5",
+      "未下单、未付款、未私聊；本轮无验证码/风控"
+    ],
+    "lane_schema": "lane: hot | trend"
   }
 }
