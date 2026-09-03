@@ -1,0 +1,1072 @@
+{
+  "source": "xiaohongshu-sidehustle",
+  "title": "小红书副业机会雷达",
+  "date": "2026-09-04",
+  "updated_at": "2026-09-04T02:34:04+08:00",
+  "count": 47,
+  "summary": {
+    "today_judgement": [
+      "今天最值得盯的不是卖课和收益截图，而是三条已出现真金白银信号的活：Codex/Agent 工作流代配置、Excel 经营表代做、无美工店铺的商品图详情页。",
+      "竞争口径：竞争越少该项分越高。PPT、一键 AI 视频、200 元小程序全包供给已经挤满评论区，指数被竞争项拉低。",
+      "伪副业已降权：一个 Skill 卖 40 万、Notion 月入 8000、数字人月入四位数课程、作业代做、无法解释谁付钱的搞钱盘点。"
+    ],
+    "top_signals": [
+      "有偿求助写 Codex Skill，评论指出实际是工作流，企业级 5-50 万、个人有偿往往只有几百。",
+      "Excel 代做帖评论出现完整需求：月度商品比价汇总表，可付费；200 元被高赞认为合理。",
+      "数字人买家只要月付、按分钟比价到 1-3 元，找到供应商后立刻喊停。",
+      "PPT 劝退帖下仍在问还接单吗、课件加急；15 元一页说明红海但需求没消失。",
+      "AI 视频分层极严重：有人 50 秒报 1200，有人 20 元都难报出，甲方原话是 AI 视频还要钱吗。"
+    ]
+  },
+  "sections": {
+    "opportunities": [
+      {
+        "id": "opp-codex-workflow-service",
+        "title": "Codex / Agent 工作流与 Skill 代配置",
+        "summary": "用户喊 Skill，实际要每天能跑的流水线。有偿求助和问价评论已出现，能讲清 Skill≠工作流的人少。",
+        "why": "工具红利下的新交付物，供需缺口在需求澄清和调通，不在写一个 md。",
+        "audience": "已会打开 Codex、配不出稳定流水线的创作者和小商家",
+        "result": "每天自动出内容/出表/出片，失败能补",
+        "offer": "单次代配置 + 垂直 Skill 包 + 一周陪跑",
+        "model": "service",
+        "ai_help": "用 Codex 生成 Skill、跑回归、写失败重试",
+        "start_cost": "low",
+        "delivery": "high",
+        "competition": "mid",
+        "index": 27,
+        "tags": ["codex", "agent", "workflow", "skill"],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a474c6f000000000f01444d?xsec_token=ABK_nC72f29GHjoiQmkW7MLFM10TQSIPSL9cAaxLzFIAE=",
+            "title": "有偿求助！技术大佬帮忙写一个codex的skill",
+            "note": "标题即付费；评论称企业工作流 5-50 万，有偿一词通常只有几百"
+          },
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a89cfbe000000001600977f?xsec_token=AB-FJCztwrSp9kmOA7UVQitjtukWlXNz7Xv_5hsBD4N7A=",
+            "title": "有没有老师接codex代做？",
+            "note": "评论礼貌问价、薪酬怎么说、同求"
+          }
+        ]
+      },
+      {
+        "id": "opp-excel-template-service",
+        "title": "Excel / 经营表格代做与可复用模板",
+        "summary": "评论区直接说可付费要月度比价汇总表；闲鱼 500 被嫌贵，200 被点赞认为合理。AI 出表成本极低，溢价在沟通。",
+        "why": "传统代做价还在，AI 已能一小时出初稿。",
+        "audience": "小商家、应急学生、做月报的职场人",
+        "result": "一张能用的对账/汇总/对比表",
+        "offer": "199 元单次含两次修改；行业模板 29-99 元",
+        "model": "service",
+        "ai_help": "GPT 规划需求 + Codex 出表",
+        "start_cost": "low",
+        "delivery": "low",
+        "competition": "mid",
+        "index": 26,
+        "tags": ["excel", "template", "ops"],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a0e67f7000000003501f21c?xsec_token=AB89cO7Li7Hgw4u_Lv_rq-vzOlNRw_j1saKdkE2fs50SQ=",
+            "title": "为什么excel代做这么贵啊",
+            "note": "评论：闲鱼500、收你200一点不贵、有人帮忙做模板吗可付费、贵的是沟通成本"
+          }
+        ]
+      },
+      {
+        "id": "opp-ai-product-image",
+        "title": "电商 AI 商品图 / 详情页代出图",
+        "summary": "无美工店铺在用生图凑详情页，评论问主图可以做吗。教程高赞，工具箱广告说明需求已被盯上。",
+        "why": "美工价未完全崩，生产成本已降。",
+        "audience": "淘宝/拼多多/抖店一人店",
+        "result": "可上架的主图+五图+详情长图",
+        "offer": "按 SKU 全套报价；行业 Prompt 包；周套餐",
+        "model": "service",
+        "ai_help": "GPT-Image 等直出，人工选图修字保品牌一致",
+        "start_cost": "low",
+        "delivery": "mid",
+        "competition": "high",
+        "index": 25,
+        "tags": ["ecommerce", "image", "gpt-image"],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a1ff3840000000038022eeb?xsec_token=ABfzf4APW5DBYlm7K6JajGhT3i31R6gPdaEvSxyhqkAbU=",
+            "title": "GPT-Image2直出电商详情页（附教程）",
+            "note": "2554赞；评论没请美工、主图可以做吗"
+          },
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a8e881b000000000b0279d5?xsec_token=AB7OQ98AQKz3mZBJfN6h-e3eEM0VHmJZYR6gaj_FdQZRQ=",
+            "title": "不是美工不会ps 也能用1张图做全套电商素材",
+            "note": "3130赞，白底扩整套素材"
+          }
+        ]
+      },
+      {
+        "id": "opp-miniapp-landing",
+        "title": "轻量小程序 / 落地页 / 作品集站代做",
+        "summary": "真实求做小程序、谁能做网页；AI 能做但认证和服务器是真成本。200 全包会亏，展示站仍可做。",
+        "why": "Vibe coding 把写页面成本打穿，上线服务仍值钱。",
+        "audience": "个体户、要作品集的求职者",
+        "result": "能打开的展示/预约页或作品集站",
+        "offer": "展示站 500-2000；作品集站套餐；不报 200 全包",
+        "model": "service",
+        "ai_help": "Codex/Cursor 出前后端，人管需求和上线",
+        "start_cost": "low",
+        "delivery": "mid",
+        "competition": "high",
+        "index": 24,
+        "tags": ["miniapp", "web", "vibe-coding"],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a7ffdb80000000005032dda?xsec_token=ABsKcb5YmyaO4iGJ84skDJU579iyBHKvdM2sEqsd528jU=",
+            "title": "本人需要制作小程序",
+            "note": "评论 200 块全包；有人指出成本在微信认证服务器域名"
+          },
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a8de1cc000000001803f7ba?xsec_token=ABatg6q8iGAHR5AfI17pQbsRC2gEvoMvwTnZI0R1scHmM=",
+            "title": "谁能做网页",
+            "note": "评论区接单人挤满，有人练手给点辛苦费就行"
+          }
+        ]
+      },
+      {
+        "id": "opp-codex-install-coaching",
+        "title": "Codex / Cursor 安装部署与跑通陪跑",
+        "summary": "12.2 万赞教程下仍在求安装包、问 Windows 怎么装、求帮。已有人挑战帮 100 人装上。不碰账号灰产。",
+        "why": "信息差在安装和第一公里，不在再讲功能。",
+        "audience": "零基础看完教程仍装不上的人",
+        "result": "本机能跑通第一个任务",
+        "offer": "远程安装 50-150；第一个 Agent 陪跑 200-500",
+        "model": "service",
+        "ai_help": "标准检查清单 + 读报错",
+        "start_cost": "low",
+        "delivery": "low",
+        "competition": "mid",
+        "index": 24,
+        "tags": ["codex", "onboarding", "info-gap"],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a080fda000000003502d325?xsec_token=ABgO9V9In9fhEjlQ7lJLx6podoQU7VbN6HSoO4VCTbUl4=",
+            "title": "40分钟学会Codex！“零基础”终级教程～",
+            "note": "12.2万赞；评论求安装包、Windows怎么装、挑战帮100人安装进度10/100"
+          },
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a7fea240000000021020d72?xsec_token=ABsKcb5YmyaO4iGJ84skDJUywQ_7UkvucMOjSo0IFvdUQ=",
+            "title": "DeepSeek Harness 代部署｜插件安装｜配置",
+            "note": "供给侧已出现代部署帖"
+          }
+        ]
+      },
+      {
+        "id": "opp-ppt-rush",
+        "title": "PPT 比赛 / 课件加急代做（去 AI 味）",
+        "summary": "今日仍有求代做；劝退帖下还在问还接单吗。15 元一页说明红海，必须限改次数。",
+        "why": "需求没消失，利润在加急和去 AI 味，不在无限改。",
+        "audience": "大学生比赛、老师课件、职场汇报加急",
+        "result": "今晚能交、看起来不像 AI 的 PPT",
+        "offer": "加急比赛 PPT 限改 N 次；课件套餐",
+        "model": "service",
+        "ai_help": "AI 出大纲和页结构，人工视觉和案例",
+        "start_cost": "low",
+        "delivery": "mid",
+        "competition": "high",
+        "index": 23,
+        "tags": ["ppt", "rush", "education"],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a98dbea0000000012036804?xsec_token=ABVJx25F1I6PjMJNShuNG89X248OByRatwvOVS2tLfUBE=",
+            "title": "如图求ppt代做！！",
+            "note": "2026-09-03；作者要20页+比赛案例；供给报价15米一张无限修"
+          },
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a81991f000000002203228b?xsec_token=ABFOTQRQwcVH-xXQIdw_QunlnGZrS4Xlz83wn8zyXViig=",
+            "title": "帮做了99＋份PPT后，想劝姐妹几句",
+            "note": "劝退帖评论仍问可以做吗、课件着急、还接单吗"
+          }
+        ]
+      },
+      {
+        "id": "opp-digital-human-monthly",
+        "title": "数字人月付选型 + 口播成片代做",
+        "summary": "买家拒绝年框，公开比价 1-3 元/分钟，找到后立刻喊停。钱在月付成片，不在年费课。",
+        "why": "真实购买行为，支付方式是新缺口。",
+        "audience": "不露脸口播的商家、知识博主、微课制作",
+        "result": "便宜可月付、分钟成本可控的口播成片",
+        "offer": "月付选型咨询；按分钟口播；微课套餐",
+        "model": "service",
+        "ai_help": "数字人 API 出镜，人工修口型和字幕",
+        "start_cost": "mid",
+        "delivery": "mid",
+        "competition": "mid",
+        "index": 23,
+        "tags": ["digital-human", "voiceover", "saas"],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a869d500000000023001770?xsec_token=AB9qWGufOKUBgtfuyLR85h_pbmHD5vDBU95LEzQUq52vY=",
+            "title": "求推荐，便宜，可月付的数字人供应商",
+            "note": "原话我要月付的、已经找到了；价格78/月、980/年、3元/分钟"
+          }
+        ]
+      },
+      {
+        "id": "opp-resume-critique",
+        "title": "AI 简历痛批 + 作品集站",
+        "summary": "求痛批、求审核热度高，但 HR 在打假 AI 味。付费点是懂岗位的人改，不是一键美化。",
+        "why": "免费评论替代部分付费，但作品集站和岗位匹配仍可卖。",
+        "audience": "转 AI PM / Agent 开发的求职者",
+        "result": "能过筛选的叙事 + 可点开的作品集",
+        "offer": "痛批 99-199；改到可投 299；作品集站打包",
+        "model": "service",
+        "ai_help": "AI 出三版叙事，人做岗位匹配",
+        "start_cost": "low",
+        "delivery": "mid",
+        "competition": "mid",
+        "index": 23,
+        "tags": ["resume", "portfolio"],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/69d65b3700000000210387bd?xsec_token=AB_t2KNARiVXF4eS1OndIuQn_regFlDmsPXtvlwkumLZ8=",
+            "title": "改到第3版的ai产品经理简历，依然求痛批",
+            "note": "1374赞，评论区无偿同行建议为主"
+          },
+          {
+            "url": "https://www.xiaohongshu.com/search_result/69f6261c000000001e00c82b?xsec_token=ABD8nWAIaHqdkJA6dRxPdMM57Ye04Lxj5xZK0ixkmTqJQ=",
+            "title": "为什么我不建议你直接用AI改简历",
+            "note": "1171赞，打假 AI 味"
+          }
+        ]
+      },
+      {
+        "id": "opp-ai-video-midtier",
+        "title": "AI 产品视频 / 漫剧承制（避开一键红海）",
+        "summary": "有人长期要 15 秒 TK 片、问产品视频一分钟多少钱；同时 20 元都有人报。只接有脚本、要一致性的中端。",
+        "why": "分层极严重，低端利润归零，中端仍有千元级。",
+        "audience": "品牌、跨境店、漫剧团队",
+        "result": "人物/产品稳定、能发出去的成片",
+        "offer": "按镜头和修改轮次报价，不报统一一分钟价",
+        "model": "service",
+        "ai_help": "生视频 + Codex 剪辑，人管一致性",
+        "start_cost": "mid",
+        "delivery": "high",
+        "competition": "high",
+        "index": 21,
+        "tags": ["ai-video", "short-drama"],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/69ad95b9000000002303b5ad?xsec_token=ABLfCvy36HYy__DIJJV-TXSsLfxIkd7yR4f2MQvH6XbOs=",
+            "title": "3分钟AI视频，收多少钱才不亏？",
+            "note": "评论：15s TK长期需要有接单的吗；产品视频一分钟大概多少；甲方AI视频还要钱吗"
+          },
+          {
+            "url": "https://www.xiaohongshu.com/search_result/69625a5700000000210309d2?xsec_token=AB3-_PGePdmUV3DX5HbfZm1b-o-KDEk1lj3PDne0jOT_g=",
+            "title": "我真的很想告诉你AI视频怎么报价！",
+            "note": "1.9万赞；评论50秒报1200，也有报20；小红书200块一两分钟"
+          }
+        ]
+      },
+      {
+        "id": "opp-vertical-digital-product",
+        "title": "垂直 Notion / Prompt / SOP 数字产品",
+        "summary": "200 粉旅行模板自称售 112 份。泛卖 Skill 已被从业者唱衰。只做具体场景，不教别人赚钱。",
+        "why": "一次制作多次卖，但通用模板红海。",
+        "audience": "旅行规划、项目经理、电商人",
+        "result": "打开就能用的系统或工作流",
+        "offer": "旅行 Notion、电商出图 SOP、垂直 Codex Skill 带案例",
+        "model": "digital",
+        "ai_help": "AI 出骨架，人做信息架构",
+        "start_cost": "low",
+        "delivery": "low",
+        "competition": "high",
+        "index": 20,
+        "tags": ["notion", "prompt", "sop"],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a961923000000002b003879?xsec_token=AB4KFRnpLgMCGLgVFm3G9ii7SFZFkZOfRgOHT4nRpGGgU=",
+            "title": "200粉，旅行模板为何已售112份？",
+            "note": "标题自述销量；评论拉取为空，需抽检店铺"
+          },
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a66b79d000000000101ecdf?xsec_token=ABgnN1RzBEZZOfdRXnxJ4rQkF1xpnNj0g_z3c2QqJ81xI=",
+            "title": "卖skill是一个极极极极差的生意……",
+            "note": "607赞，泛卖 Skill 文件被从业者唱衰"
+          }
+        ]
+      }
+    ],
+    "new_demands": [
+      {
+        "id": "new-codex-skill-workflow",
+        "title": "Codex Skill / 多 Skill 工作流代做",
+        "summary": "2026 新交付物：用户把每天自动出片/出表叫 Skill，从业者纠正这是工作流。有偿帖和问价帖同期出现。",
+        "why": "工具新能力带来的新需求，供给话术还没对齐。",
+        "audience": "创作者、小商家",
+        "result": "能每天跑的流水线",
+        "offer": "代配置而非卖一个 md",
+        "model": "service",
+        "ai_help": "拆成多 Skill 组装",
+        "start_cost": "low",
+        "delivery": "high",
+        "competition": "low",
+        "index": 27,
+        "tags": ["new", "codex"],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a474c6f000000000f01444d?xsec_token=ABK_nC72f29GHjoiQmkW7MLFM10TQSIPSL9cAaxLzFIAE=",
+            "title": "有偿求助！技术大佬帮忙写一个codex的skill",
+            "note": "评论：你这种叫 saas 不是 skill；别按一个 skill 报价"
+          }
+        ]
+      },
+      {
+        "id": "new-digital-human-monthly-pay",
+        "title": "数字人只要月付、按分钟",
+        "summary": "买家明确拒绝年费，比价到 1-3 元/分钟并成交。供给若还推年课会错过单。",
+        "audience": "要口播不露脸的商家",
+        "result": "月付可用的数字人分钟包或成片",
+        "offer": "月付选型 + 按分钟代做",
+        "model": "service",
+        "start_cost": "mid",
+        "delivery": "mid",
+        "competition": "mid",
+        "index": 23,
+        "tags": ["new", "digital-human"],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a869d500000000023001770?xsec_token=AB9qWGufOKUBgtfuyLR85h_pbmHD5vDBU95LEzQUq52vY=",
+            "title": "求推荐，便宜，可月付的数字人供应商",
+            "note": "已经找到了不用再留言；旁人跟求月付推荐"
+          }
+        ]
+      },
+      {
+        "id": "new-vibe-coding-first-app",
+        "title": "零基础 AI 编程出 App / 游戏 / 作品集",
+        "summary": "需求从学编程变成代做或陪做第一个能跑的东西。高赞教程 + Codex 代做问价同时存在。",
+        "audience": "零基础想交差或求职的人",
+        "result": "第一个能打开的 App/游戏/作品集",
+        "offer": "陪做或代做第一个可运行项目",
+        "model": "service",
+        "ai_help": "Codex/Godot/Cursor",
+        "start_cost": "low",
+        "delivery": "mid",
+        "competition": "mid",
+        "index": 24,
+        "tags": ["new", "vibe-coding"],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a89cfbe000000001600977f?xsec_token=AB-FJCztwrSp9kmOA7UVQitjtukWlXNz7Xv_5hsBD4N7A=",
+            "title": "有没有老师接codex代做？",
+            "note": "问价+同求"
+          }
+        ]
+      },
+      {
+        "id": "new-agent-harness-deploy",
+        "title": "本地 Agent / Harness 代部署",
+        "summary": "已出现 DeepSeek Harness 代部署帖和接智能体搭建订单；教程评论里 API 错误、Windows 不会装。",
+        "audience": "想跑本地 Agent 但卡在安装的人",
+        "result": "环境能跑、插件配好",
+        "offer": "代部署 + 插件安装",
+        "model": "service",
+        "start_cost": "low",
+        "delivery": "mid",
+        "competition": "low",
+        "index": 22,
+        "tags": ["new", "deploy"],
+        "signal_strength": "weak",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a7fea240000000021020d72?xsec_token=ABsKcb5YmyaO4iGJ84skDJUywQ_7UkvucMOjSo0IFvdUQ=",
+            "title": "DeepSeek Harness 代部署｜插件安装｜配置",
+            "note": "供给帖出现，需求强度仍需更多买家帖验证"
+          }
+        ]
+      }
+    ],
+    "pay_signals": [
+      {
+        "id": "pay-codex-skill-paid",
+        "title": "有偿求助！技术大佬帮忙写一个codex的skill",
+        "summary": "标题直接有偿。评论认为有偿≈几百，企业工作流才是万级；用户要的是自动批量出视频流水线。",
+        "signal_strength": "strong",
+        "model": "service",
+        "index": 26,
+        "tags": ["paid", "codex"],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a474c6f000000000f01444d?xsec_token=ABK_nC72f29GHjoiQmkW7MLFM10TQSIPSL9cAaxLzFIAE=",
+            "title": "有偿求助！技术大佬帮忙写一个codex的skill",
+            "note": "评论：有偿的意思应该到不了一千块；直接开价；预算？"
+          }
+        ]
+      },
+      {
+        "id": "pay-codex-ask-price",
+        "title": "礼貌问价 / 薪酬怎么说 / 同求",
+        "summary": "Codex 代做帖评论进入问价，不是围观。",
+        "signal_strength": "strong",
+        "model": "service",
+        "index": 25,
+        "tags": ["paid", "codex"],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a89cfbe000000001600977f?xsec_token=AB-FJCztwrSp9kmOA7UVQitjtukWlXNz7Xv_5hsBD4N7A=",
+            "title": "有没有老师接codex代做？",
+            "note": "原话礼貌问价、薪酬怎么说、同求"
+          }
+        ]
+      },
+      {
+        "id": "pay-excel-can-pay",
+        "title": "有人帮忙做模板吗……可付费",
+        "summary": "Excel 贵吗帖下出现完整经营表需求并写可付费；200 元被 227 赞认为合理。",
+        "signal_strength": "strong",
+        "model": "service",
+        "index": 26,
+        "tags": ["paid", "excel"],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a0e67f7000000003501f21c?xsec_token=AB89cO7Li7Hgw4u_Lv_rq-vzOlNRw_j1saKdkE2fs50SQ=",
+            "title": "为什么excel代做这么贵啊",
+            "note": "原话可付费；闲鱼500；收你200一点不贵"
+          }
+        ]
+      },
+      {
+        "id": "pay-ppt-20pages",
+        "title": "带案例来，20页+，非大创，是其他比赛",
+        "summary": "今日真实 PPT 单，供给已报 15 元一页无限修。",
+        "signal_strength": "strong",
+        "model": "service",
+        "index": 23,
+        "tags": ["paid", "ppt"],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a98dbea0000000012036804?xsec_token=ABVJx25F1I6PjMJNShuNG89X248OByRatwvOVS2tLfUBE=",
+            "title": "如图求ppt代做！！",
+            "note": "作者回复带案例来20页+"
+          }
+        ]
+      },
+      {
+        "id": "pay-ppt-still-asking",
+        "title": "可以做吗？还接单吗？课件比较着急",
+        "summary": "劝退帖挡不住需求，课件加急是刚需。",
+        "signal_strength": "strong",
+        "model": "service",
+        "index": 22,
+        "tags": ["paid", "ppt"],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a81991f000000002203228b?xsec_token=ABFOTQRQwcVH-xXQIdw_QunlnGZrS4Xlz83wn8zyXViig=",
+            "title": "帮做了99＋份PPT后，想劝姐妹几句",
+            "note": "评论：可以做吗、自带资料比较着急、还接单吗"
+          }
+        ]
+      },
+      {
+        "id": "pay-digital-human-found",
+        "title": "我要月付的 / 已经找到了，不用再留言了",
+        "summary": "已成交的购买行为，不是意向。旁人跟求推荐。",
+        "signal_strength": "strong",
+        "model": "service",
+        "index": 24,
+        "tags": ["paid", "digital-human"],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a869d500000000023001770?xsec_token=AB9qWGufOKUBgtfuyLR85h_pbmHD5vDBU95LEzQUq52vY=",
+            "title": "求推荐，便宜，可月付的数字人供应商",
+            "note": "买家原话已经找到了；我也很需要月付的数字人软件"
+          }
+        ]
+      },
+      {
+        "id": "pay-tk-video-retainer",
+        "title": "15s TK视频，长期需要。有接单的吗？",
+        "summary": "跨境短视频长期采购；同帖还有产品视频一分钟报价问询。",
+        "signal_strength": "strong",
+        "model": "service",
+        "index": 24,
+        "tags": ["paid", "ai-video"],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/69ad95b9000000002303b5ad?xsec_token=ABLfCvy36HYy__DIJJV-TXSsLfxIkd7yR4f2MQvH6XbOs=",
+            "title": "3分钟AI视频，收多少钱才不亏？",
+            "note": "原话长期需要有接单的吗；产品视频一分钟大概多少啊"
+          }
+        ]
+      },
+      {
+        "id": "pay-miniapp-200",
+        "title": "200块全包",
+        "summary": "接单人对「本人需要制作小程序」的报价，说明有人付钱但市场价格已被 AI 压穿。",
+        "signal_strength": "mid",
+        "model": "service",
+        "index": 18,
+        "tags": ["paid", "miniapp"],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a7ffdb80000000005032dda?xsec_token=ABsKcb5YmyaO4iGJ84skDJU579iyBHKvdM2sEqsd528jU=",
+            "title": "本人需要制作小程序",
+            "note": "评论 200 块全包；同时提醒服务器和微信认证成本"
+          }
+        ]
+      },
+      {
+        "id": "pay-ai-video-1200",
+        "title": "一条50秒报了1200一条13秒报了600",
+        "summary": "高质量 AI 短片仍有千元级成交，和 20 元报价同时存在，必须分层。",
+        "signal_strength": "mid",
+        "model": "service",
+        "index": 21,
+        "tags": ["paid", "ai-video"],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/69625a5700000000210309d2?xsec_token=AB3-_PGePdmUV3DX5HbfZm1b-o-KDEk1lj3PDne0jOT_g=",
+            "title": "我真的很想告诉你AI视频怎么报价！",
+            "note": "从业者成交价；另有报200被砍、报20的经历"
+          }
+        ]
+      },
+      {
+        "id": "pay-main-image-please",
+        "title": "主图可以做吗",
+        "summary": "电商教程下商家要代做结果；同帖工具箱广告刷屏说明需求热。",
+        "signal_strength": "mid",
+        "model": "service",
+        "index": 22,
+        "tags": ["paid", "ecommerce"],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a1ff3840000000038022eeb?xsec_token=ABfzf4APW5DBYlm7K6JajGhT3i31R6gPdaEvSxyhqkAbU=",
+            "title": "GPT-Image2直出电商详情页（附教程）",
+            "note": "原话主图可以做吗；我们店没请美工"
+          }
+        ]
+      }
+    ],
+    "ai_leverage": [
+      {
+        "id": "lev-excel-codex",
+        "title": "Excel 代做：GPT 规划 + Codex 出表",
+        "summary": "传统函数代做沟通贵；评论说 GPT+Codex 一小时搞定基础表。人只做需求澄清。",
+        "model": "service",
+        "ai_help": "降低出表时间到一小时内",
+        "start_cost": "low",
+        "delivery": "low",
+        "competition": "mid",
+        "index": 26,
+        "signal_strength": "strong",
+        "tags": ["excel", "ai-leverage"],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a0e67f7000000003501f21c?xsec_token=AB89cO7Li7Hgw4u_Lv_rq-vzOlNRw_j1saKdkE2fs50SQ=",
+            "title": "为什么excel代做这么贵啊",
+            "note": "评论：买一个gpt再下个codex，一个小时不到就差不多了"
+          }
+        ]
+      },
+      {
+        "id": "lev-ppt-ai-skeleton",
+        "title": "PPT：AI 出骨架，人去 AI 味",
+        "summary": "供给已写 AI 代做 24 小时出稿，客户要无 AI 味。杠杆在骨架，溢价在人工。",
+        "model": "service",
+        "ai_help": "降低从空白到 20 页的时间",
+        "start_cost": "low",
+        "delivery": "mid",
+        "competition": "high",
+        "index": 23,
+        "signal_strength": "mid",
+        "tags": ["ppt", "ai-leverage"],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a98dbea0000000012036804?xsec_token=ABVJx25F1I6PjMJNShuNG89X248OByRatwvOVS2tLfUBE=",
+            "title": "如图求ppt代做！！",
+            "note": "真实 20 页比赛单；供给海量"
+          }
+        ]
+      },
+      {
+        "id": "lev-ecom-image",
+        "title": "电商美工：一张白底图出整套素材",
+        "summary": "GPT-Image2 直出详情页教程过千赞，没请美工的店已在用。",
+        "model": "service",
+        "ai_help": "批量出主图详情，人做品牌一致",
+        "start_cost": "low",
+        "delivery": "mid",
+        "competition": "high",
+        "index": 25,
+        "signal_strength": "strong",
+        "tags": ["ecommerce", "ai-leverage"],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a1ff3840000000038022eeb?xsec_token=ABfzf4APW5DBYlm7K6JajGhT3i31R6gPdaEvSxyhqkAbU=",
+            "title": "GPT-Image2直出电商详情页（附教程）",
+            "note": "2554赞"
+          }
+        ]
+      },
+      {
+        "id": "lev-vibe-web",
+        "title": "网页/小程序：Vibe coding 打穿写页面成本",
+        "summary": "评论说这活用 AI 都能做，成本在认证和服务器。个人应卖上线而不是 200 全包。",
+        "model": "service",
+        "ai_help": "把展示站从按周变成按天",
+        "start_cost": "low",
+        "delivery": "mid",
+        "competition": "high",
+        "index": 24,
+        "signal_strength": "mid",
+        "tags": ["web", "ai-leverage"],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a7ffdb80000000005032dda?xsec_token=ABsKcb5YmyaO4iGJ84skDJU579iyBHKvdM2sEqsd528jU=",
+            "title": "本人需要制作小程序",
+            "note": "评论：用AI都能做，主要成本是微信认证、服务器、域名"
+          }
+        ]
+      },
+      {
+        "id": "lev-codex-edit",
+        "title": "视频剪辑：Codex 接进工作流",
+        "summary": "高赞帖讲告别手动剪片、Codex 自己剪 AI 视频。低端价格被卷，杠杆要配审美和一致性。",
+        "model": "service",
+        "ai_help": "自动剪粗剪，人管成片",
+        "start_cost": "mid",
+        "delivery": "high",
+        "competition": "high",
+        "index": 21,
+        "signal_strength": "mid",
+        "tags": ["video", "ai-leverage"],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a547f530000000022008667?xsec_token=ABc0myuyOgXwJka7D-Tmt35UEZYOyxwYP6PHzBQKAjSBM=",
+            "title": "终于告别手动剪片！我把Ai剪辑师接进工作流",
+            "note": "5773赞，把 AI 剪辑师接进工作流"
+          }
+        ]
+      }
+    ],
+    "digital_products": [
+      {
+        "id": "dig-ecom-prompt-pack",
+        "title": "电商白底图→全套详情 Prompt 包",
+        "summary": "教程收藏高，评论要主图。把提示词和验收图打成包，比再发教程更近钱。",
+        "model": "digital",
+        "audience": "无美工电商店",
+        "result": "自己能出可上架套图",
+        "offer": "按品类 Prompt + 示例图",
+        "ai_help": "快速迭代提示词",
+        "start_cost": "low",
+        "delivery": "low",
+        "competition": "high",
+        "index": 22,
+        "signal_strength": "mid",
+        "tags": ["prompt", "ecommerce"],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a4f3f1b0000000008025469?xsec_token=ABZq_luZRXcG7-OloZDysEY-nYJg2knn_IjD0KFXv2rBE=",
+            "title": "一张产品白底图，怎么做出整套电商详情页？",
+            "note": "82赞但问题本身是重复需求"
+          }
+        ]
+      },
+      {
+        "id": "dig-excel-ops-template",
+        "title": "小商家月度对账 Excel 模板",
+        "summary": "评论原话要一个月的表做商品比价和销售汇总，可付费。一次做多次卖。",
+        "model": "digital",
+        "audience": "小商家",
+        "result": "填数即出月报",
+        "offer": "对账模板 29-99 元",
+        "start_cost": "low",
+        "delivery": "low",
+        "competition": "mid",
+        "index": 25,
+        "signal_strength": "strong",
+        "tags": ["excel", "template"],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a0e67f7000000003501f21c?xsec_token=AB89cO7Li7Hgw4u_Lv_rq-vzOlNRw_j1saKdkE2fs50SQ=",
+            "title": "为什么excel代做这么贵啊",
+            "note": "评论完整描述月度表需求并写可付费"
+          }
+        ]
+      },
+      {
+        "id": "dig-vertical-codex-skill",
+        "title": "垂直 Codex Skill（带案例，不承诺赚钱）",
+        "summary": "有人有偿求 Skill，同时泛卖 Skill 被唱衰。只卖某一个能跑的垂直任务。",
+        "model": "digital",
+        "audience": "已有 Codex 的创作者",
+        "result": "一个可运行的垂直任务文件 + 案例",
+        "offer": "Skill + 3 分钟演示",
+        "start_cost": "low",
+        "delivery": "mid",
+        "competition": "mid",
+        "index": 24,
+        "signal_strength": "mid",
+        "tags": ["skill", "codex"],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a474c6f000000000f01444d?xsec_token=ABK_nC72f29GHjoiQmkW7MLFM10TQSIPSL9cAaxLzFIAE=",
+            "title": "有偿求助！技术大佬帮忙写一个codex的skill",
+            "note": "需求真实但复杂度高于一个文件"
+          }
+        ]
+      },
+      {
+        "id": "dig-resume-prompt",
+        "title": "岗位向简历叙事 Prompt + 作品集模板",
+        "summary": "喂饭级提示词高赞，同时 HR 打假 AI 味。产品要强调人审过的结构。",
+        "model": "digital",
+        "audience": "求职者",
+        "result": "可投的叙事框架",
+        "offer": "按岗位 Prompt + 作品集站模板",
+        "start_cost": "low",
+        "delivery": "low",
+        "competition": "high",
+        "index": 20,
+        "signal_strength": "mid",
+        "tags": ["resume", "prompt"],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/69b399f00000000023007b7f?xsec_token=ABqdb250lfNgntRy0cWexb7Al0o8tFFoASTV_S19WTQgM=",
+            "title": "拿下offer的AI作弊公式✅喂饭级简历提示词",
+            "note": "3545赞，数字产品有流量；需配人工审核叙事"
+          }
+        ]
+      },
+      {
+        "id": "dig-notion-travel",
+        "title": "旅行 / 项目管理 Notion 模板",
+        "summary": "200 粉自称售 112 份旅行模板。不要做教你卖模板月入 8000 的课。",
+        "model": "digital",
+        "audience": "旅行者和项目经理",
+        "result": "打开即用的 Notion 系统",
+        "offer": "单一垂直模板",
+        "start_cost": "low",
+        "delivery": "low",
+        "competition": "high",
+        "index": 20,
+        "signal_strength": "weak",
+        "tags": ["notion"],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a961923000000002b003879?xsec_token=AB4KFRnpLgMCGLgVFm3G9ii7SFZFkZOfRgOHT4nRpGGgU=",
+            "title": "200粉，旅行模板为何已售112份？",
+            "note": "标题自述销量，评论为空，信号标弱"
+          }
+        ]
+      }
+    ],
+    "services": [
+      {
+        "id": "svc-excel",
+        "title": "Excel / 表格代做",
+        "summary": "最快第一笔：评论已有可付费，200 元心理价位被高赞。",
+        "model": "service",
+        "audience": "小商家和应急表格需求",
+        "result": "能用的表",
+        "offer": "199 含两次修改",
+        "ai_help": "Codex 出表",
+        "start_cost": "low",
+        "delivery": "low",
+        "competition": "mid",
+        "index": 26,
+        "signal_strength": "strong",
+        "tags": ["service", "excel"],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a0e67f7000000003501f21c?xsec_token=AB89cO7Li7Hgw4u_Lv_rq-vzOlNRw_j1saKdkE2fs50SQ=",
+            "title": "为什么excel代做这么贵啊",
+            "note": "可付费原话 + 200 元共识"
+          }
+        ]
+      },
+      {
+        "id": "svc-codex-workflow",
+        "title": "Codex 代做 / 工作流代配置",
+        "summary": "有偿求助 + 礼貌问价，先收需求再报价。",
+        "model": "service",
+        "audience": "创作者和小商家",
+        "result": "能跑的流水线",
+        "offer": "拆需求后报价 300-800 起",
+        "start_cost": "low",
+        "delivery": "high",
+        "competition": "mid",
+        "index": 27,
+        "signal_strength": "strong",
+        "tags": ["service", "codex"],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a474c6f000000000f01444d?xsec_token=ABK_nC72f29GHjoiQmkW7MLFM10TQSIPSL9cAaxLzFIAE=",
+            "title": "有偿求助！技术大佬帮忙写一个codex的skill",
+            "note": "最强付费标题之一"
+          }
+        ]
+      },
+      {
+        "id": "svc-ppt-rush",
+        "title": "PPT 加急（必须限改）",
+        "summary": "今天仍有求代做和课件加急。不限改会被 15 元/页卷死。",
+        "model": "service",
+        "audience": "比赛和课件加急",
+        "result": "今晚能交的 PPT",
+        "offer": "加急套餐限改 2-3 次",
+        "start_cost": "low",
+        "delivery": "mid",
+        "competition": "high",
+        "index": 23,
+        "signal_strength": "strong",
+        "tags": ["service", "ppt"],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a98dbea0000000012036804?xsec_token=ABVJx25F1I6PjMJNShuNG89X248OByRatwvOVS2tLfUBE=",
+            "title": "如图求ppt代做！！",
+            "note": "2026-09-03 真实单"
+          }
+        ]
+      },
+      {
+        "id": "svc-ecom-set",
+        "title": "电商套图代出",
+        "summary": "商家无美工，先做 3 套样品再接 SKU。",
+        "model": "service",
+        "audience": "一人电商店",
+        "result": "可上架套图",
+        "offer": "单 SKU 全套；周套餐",
+        "start_cost": "low",
+        "delivery": "mid",
+        "competition": "high",
+        "index": 25,
+        "signal_strength": "mid",
+        "tags": ["service", "ecommerce"],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a1ff3840000000038022eeb?xsec_token=ABfzf4APW5DBYlm7K6JajGhT3i31R6gPdaEvSxyhqkAbU=",
+            "title": "GPT-Image2直出电商详情页（附教程）",
+            "note": "主图可以做吗"
+          }
+        ]
+      },
+      {
+        "id": "svc-portfolio-site",
+        "title": "展示型网页 / 作品集站",
+        "summary": "谁能做网页供给多，走 48h 出站+源码。不要 200 全包小程序。",
+        "model": "service",
+        "audience": "求职者和个体展示",
+        "result": "可访问站点",
+        "offer": "48h 作品集站",
+        "start_cost": "low",
+        "delivery": "mid",
+        "competition": "high",
+        "index": 24,
+        "signal_strength": "mid",
+        "tags": ["service", "web"],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a8de1cc000000001803f7ba?xsec_token=ABatg6q8iGAHR5AfI17pQbsRC2gEvoMvwTnZI0R1scHmM=",
+            "title": "谁能做网页",
+            "note": "真实求助，供给过密"
+          }
+        ]
+      }
+    ],
+    "content": [
+      {
+        "id": "cnt-codex-pitfalls",
+        "title": "Codex 踩坑实操账号",
+        "summary": "12.2 万赞教程下仍求安装、问 Windows、求帮。可持续做安装/权限/API 报错系列。",
+        "model": "traffic",
+        "audience": "零基础 AI 编程用户",
+        "result": "装上并能跑第一个任务",
+        "offer": "内容引流安装陪跑",
+        "start_cost": "low",
+        "delivery": "low",
+        "competition": "mid",
+        "index": 24,
+        "signal_strength": "strong",
+        "tags": ["content", "codex"],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a080fda000000003502d325?xsec_token=ABgO9V9In9fhEjlQ7lJLx6podoQU7VbN6HSoO4VCTbUl4=",
+            "title": "40分钟学会Codex！“零基础”终级教程～",
+            "note": "评论求安装包、能出一期安装教程吗、window系统怎么安装"
+          }
+        ]
+      },
+      {
+        "id": "cnt-agent-roadmap",
+        "title": "AI Agent 学习顺序 + 一个能跑的小项目",
+        "summary": "路线图帖过千赞过万赞，用户收藏但缺跟着做完的项目。",
+        "model": "traffic",
+        "audience": "想学 Agent 的小白",
+        "result": "按顺序做出第一个 Agent",
+        "offer": "系列笔记 + 代配置",
+        "start_cost": "low",
+        "delivery": "low",
+        "competition": "mid",
+        "index": 22,
+        "signal_strength": "mid",
+        "tags": ["content", "agent"],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a462ab00000000021018613?xsec_token=ABkIaelEmX1aPj4M8Uugn6aRgQV1n6P8tVHF2BhT1gAT8=",
+            "title": "学AI Agent的顺序一定要对，存一下吧",
+            "note": "1918赞"
+          }
+        ]
+      },
+      {
+        "id": "cnt-ecom-before-after",
+        "title": "电商 AI 出图前后对比",
+        "summary": "收藏导向，评论要代做。不要发工具箱软文。",
+        "model": "traffic",
+        "audience": "无美工商家",
+        "result": "看懂一套图怎么来的并下单",
+        "offer": "过程条接套图服务",
+        "start_cost": "low",
+        "delivery": "low",
+        "competition": "high",
+        "index": 23,
+        "signal_strength": "mid",
+        "tags": ["content", "ecommerce"],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a8e881b000000000b0279d5?xsec_token=AB7OQ98AQKz3mZBJfN6h-e3eEM0VHmJZYR6gaj_FdQZRQ=",
+            "title": "不是美工不会ps 也能用1张图做全套电商素材",
+            "note": "3130赞"
+          }
+        ]
+      },
+      {
+        "id": "cnt-ai-video-pricing",
+        "title": "AI 视频报价拆解系列",
+        "summary": "1.9 万赞说明创作者缺报价语言，评论区在吵 20 元还是 1200。",
+        "model": "traffic",
+        "audience": "AI 视频接单者",
+        "result": "学会按镜头报价并过滤白嫖甲方",
+        "offer": "内容 + 中端成片服务",
+        "start_cost": "low",
+        "delivery": "low",
+        "competition": "mid",
+        "index": 21,
+        "signal_strength": "strong",
+        "tags": ["content", "pricing"],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/69625a5700000000210309d2?xsec_token=AB3-_PGePdmUV3DX5HbfZm1b-o-KDEk1lj3PDne0jOT_g=",
+            "title": "我真的很想告诉你AI视频怎么报价！",
+            "note": "1.9万赞，评论区真成交和真砍价"
+          }
+        ]
+      },
+      {
+        "id": "cnt-resume-ai-taste",
+        "title": "AI 简历为什么一眼假 + 改稿对比",
+        "summary": "长期求职需求，变现走痛批而不是一键美化课。",
+        "model": "traffic",
+        "audience": "求职者",
+        "result": "看懂 AI 味并愿意付费痛批",
+        "offer": "对比笔记 + 痛批服务",
+        "start_cost": "low",
+        "delivery": "low",
+        "competition": "mid",
+        "index": 23,
+        "signal_strength": "mid",
+        "tags": ["content", "resume"],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a5774c60000000007011fb0?xsec_token=ABwMBYmlzzFF3J8YM8WVxu6A9Mr-cvUC6ZofOdNbndD6c=",
+            "title": "请带着你用 AI 写的烂简历，从我眼前消失",
+            "note": "打假 AI 简历"
+          }
+        ]
+      }
+    ],
+    "to_validate": [
+      {
+        "id": "val-codex-workflow",
+        "title": "验证：Codex 工作流代配置",
+        "summary": "选一个垂直（本地素材→每周 3 条口播），跑通后发案例，只接这一种，先看文件夹再报价。7 天内出现带预算的多少钱即过线；若只有求分享文件则改卖数字产品。",
+        "why": "唯一同时有有偿标题、问价评论、从业者报价讨论的新需求。",
+        "audience": "小商家和创作者",
+        "result": "一条能每天跑的垂直流水线",
+        "offer": "需求拆解 30 分钟 + 代配置 + 一周陪跑",
+        "model": "service",
+        "ai_help": "先自己用 Codex 跑通再接单",
+        "start_cost": "low",
+        "delivery": "high",
+        "competition": "low",
+        "index": 27,
+        "signal_strength": "strong",
+        "tags": ["validate"],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a474c6f000000000f01444d?xsec_token=ABK_nC72f29GHjoiQmkW7MLFM10TQSIPSL9cAaxLzFIAE=",
+            "title": "有偿求助！技术大佬帮忙写一个codex的skill",
+            "note": "最小测试应对准工作流而非一个 md"
+          }
+        ]
+      },
+      {
+        "id": "val-excel-monthly",
+        "title": "验证：Excel 月度经营表代做",
+        "summary": "做一份商品比价+月汇总样表，去同类求助帖回复样表在主页。48h 内收到真实数据表即过线。",
+        "why": "评论已有可付费完整需求，交付成本最低。",
+        "audience": "小商家",
+        "result": "填数即出的月表",
+        "offer": "单次 199 含两次修改；模板 49 元",
+        "model": "service",
+        "start_cost": "low",
+        "delivery": "low",
+        "competition": "mid",
+        "index": 26,
+        "signal_strength": "strong",
+        "tags": ["validate"],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a0e67f7000000003501f21c?xsec_token=AB89cO7Li7Hgw4u_Lv_rq-vzOlNRw_j1saKdkE2fs50SQ=",
+            "title": "为什么excel代做这么贵啊",
+            "note": "原话可付费月度表"
+          }
+        ]
+      },
+      {
+        "id": "val-ecom-sku-set",
+        "title": "验证：无美工店铺主图+详情套图",
+        "summary": "选美妆或食品白底图出 3 套风格。若有人发白底图求按这个风格做即过线；若只有求提示词则改卖 Prompt 包。",
+        "why": "教程高收藏 + 没请美工 + 主图可以做吗。",
+        "audience": "一人电商店",
+        "result": "单 SKU 可上架套图",
+        "offer": "单 SKU 套图；5 个 SKU 周套餐",
+        "model": "service",
+        "start_cost": "low",
+        "delivery": "mid",
+        "competition": "high",
+        "index": 25,
+        "signal_strength": "mid",
+        "tags": ["validate"],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a1ff3840000000038022eeb?xsec_token=ABfzf4APW5DBYlm7K6JajGhT3i31R6gPdaEvSxyhqkAbU=",
+            "title": "GPT-Image2直出电商详情页（附教程）",
+            "note": "评论主图可以做吗、没请美工"
+          }
+        ]
+      }
+    ]
+  }
+}
