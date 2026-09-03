@@ -16,3 +16,4 @@ created: 2026-07-10
 | F005 | 点亮知识总结 Tab（400知识库→网站时间线） | in-progress | Fable5(方案+执行)/墨墨(审查+数据清理支线) | docs/features/F005-knowledge-tab.md |
 | F006 | 点亮技能 Tab（Cola Skill SKILL.md 目录） | in-progress | Cloud Agent | docs/features/F006-skill-tab.md |
 | F007 | 点亮闲鱼 Tab（AI 需求雷达） | in-progress | Cloud Agent | docs/features/F007-xianyu-tab.md |
+| F008 | 点亮小红书 Tab（AI 用户雷达） | in-progress | Cloud Agent | docs/features/F008-xiaohongshu-tab.md |
