@@ -1,8 +1,8 @@
 {
   "source": "xiaoxiaodong01",
   "title": "xiaoxiaodong01 提示词",
-  "updated_at": "2026-09-02T13:10:16Z",
-  "count": 185,
+  "updated_at": "2026-09-03T13:32:08Z",
+  "count": 191,
   "items": [
     {
       "id": "2090817611953270966",
@@ -3867,6 +3867,146 @@
         {
           "url": "https://pbs.twimg.com/media/HQ3BuyoboAA_3Rt.jpg",
           "poster": "https://pbs.twimg.com/media/HQ3BuyoboAA_3Rt.jpg"
+        }
+      ]
+    },
+    {
+      "id": "2095498276388942044",
+      "author": "xiaoxiaodong01",
+      "url": "https://x.com/i/status/2095498276388942044",
+      "created_at": "2026-09-03T13:04:56+00:00",
+      "text": "GPT2 x 布艺 x 拼贴 x 美学提示词 x  VOL.111\n\n调试这个布料重构画面提示词1个小时了\n找到了不少这种提示词的诀窍\n\n财富不自由，提示词自由了\n中秋节，到时候得举杯恭喜下自己了\n\n预留GitHub项目地址：\nhttps://t.co/vg08fkRFnj\n\n完整提示词：\n\n```\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色，使其具有艺术杂志、独立出版物与展览图像质感。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分先理解原照片最值得被记住的**核心主题、主体关系、结构走势、情绪气氛与视觉隐喻**，再重构为**手工缝制纺织拼贴插画**。不要逐物复制照片，而是删去无关细节，只保留最能代表原物的结构、走势和视觉记忆点，通过贴布绣、布料拼贴、毛边贴布、层叠布片和少量刺绣重新概括，使画面经过理解与再创作后，仍能一眼识别与上方照片之间的对应关系。\n\n造型以**少量大布片、简洁剪影、正负形和显性针迹**为主。人物、建筑、动物、植物、器物或景观都可被概括、裁切、变形、合并或部分省略，保留棉麻纤维、毛边、抽丝、不规则剪裁、轻微错位与手工锁边针迹，呈现真实、温暖、有触觉感的 appliqué / textile collage 质感。\n\n构图保持**小尺度章印与大面积留白**的关系，根据主体自身的方向、比例和视觉重心自由安排位置，可偏心、贴边、悬置或局部裁切。主体与少量辅助布片集中形成清晰视觉落点，其余空间主动留空，让留白本身参与正负形、疏密、聚散和不对称平衡，形成呼吸感、空间感与高级编辑秩序。宁可删减，也不要填满。\n\n配色从上方照片中提取**最有生命力、最有生活温度、最能代表画面精神的2–4种颜色**重新调制，适度提亮、提纯、去灰，使布料颜色鲜活、柔软、亲切。可自然形成天空蓝、湖水青、草木绿、奶油黄、杏橙、珊瑚红、柔粉等清爽综合色，以大片浅色底布平衡少量鲜明色块。避免暗淡、灰脏、陈旧褐色、沉闷大地色和廉价高饱和感。\n\n文字只作极少量编辑性介入，不限制语种，也不预设固定标题或编号。可从主体、地点、动作、情绪、生活细节或隐喻中自由提炼少量字词或短句，安静地置于留白、主体边缘或布片关系之间，与图形共同形成精致的图文构成。\n\n整体呈现**选择性记忆、纺织拼贴、手工针迹、鲜活布料、小尺度章印、大面积艺术留白与编辑式排版**共同构成的高级视觉效果。避免逐物转绘、画面填满、复杂背景、暗淡旧布色、卡通感、3D感、廉价手作感和模板化拼贴。\n\n```",
+      "prompt": "请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色，使其具有艺术杂志、独立出版物与展览图像质感。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分先理解原照片最值得被记住的**核心主题、主体关系、结构走势、情绪气氛与视觉隐喻**，再重构为**手工缝制纺织拼贴插画**。不要逐物复制照片，而是删去无关细节，只保留最能代表原物的结构、走势和视觉记忆点，通过贴布绣、布料拼贴、毛边贴布、层叠布片和少量刺绣重新概括，使画面经过理解与再创作后，仍能一眼识别与上方照片之间的对应关系。\n\n造型以**少量大布片、简洁剪影、正负形和显性针迹**为主。人物、建筑、动物、植物、器物或景观都可被概括、裁切、变形、合并或部分省略，保留棉麻纤维、毛边、抽丝、不规则剪裁、轻微错位与手工锁边针迹，呈现真实、温暖、有触觉感的 appliqué / textile collage 质感。\n\n构图保持**小尺度章印与大面积留白**的关系，根据主体自身的方向、比例和视觉重心自由安排位置，可偏心、贴边、悬置或局部裁切。主体与少量辅助布片集中形成清晰视觉落点，其余空间主动留空，让留白本身参与正负形、疏密、聚散和不对称平衡，形成呼吸感、空间感与高级编辑秩序。宁可删减，也不要填满。\n\n配色从上方照片中提取**最有生命力、最有生活温度、最能代表画面精神的2–4种颜色**重新调制，适度提亮、提纯、去灰，使布料颜色鲜活、柔软、亲切。可自然形成天空蓝、湖水青、草木绿、奶油黄、杏橙、珊瑚红、柔粉等清爽综合色，以大片浅色底布平衡少量鲜明色块。避免暗淡、灰脏、陈旧褐色、沉闷大地色和廉价高饱和感。\n\n文字只作极少量编辑性介入，不限制语种，也不预设固定标题或编号。可从主体、地点、动作、情绪、生活细节或隐喻中自由提炼少量字词或短句，安静地置于留白、主体边缘或布片关系之间，与图形共同形成精致的图文构成。\n\n整体呈现**选择性记忆、纺织拼贴、手工针迹、鲜活布料、小尺度章印、大面积艺术留白与编辑式排版**共同构成的高级视觉效果。避免逐物转绘、画面填满、复杂背景、暗淡旧布色、卡通感、3D感、廉价手作感和模板化拼贴。",
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRSz4wFbQAEF6bx.jpg",
+          "poster": "https://pbs.twimg.com/media/HRSz4wFbQAEF6bx.jpg"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRSz5m-bIAATHff.jpg",
+          "poster": "https://pbs.twimg.com/media/HRSz5m-bIAATHff.jpg"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRSz6qNakAA_oRg.jpg",
+          "poster": "https://pbs.twimg.com/media/HRSz6qNakAA_oRg.jpg"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRSz7k1bsAA0mXr.jpg",
+          "poster": "https://pbs.twimg.com/media/HRSz7k1bsAA0mXr.jpg"
+        }
+      ]
+    },
+    {
+      "id": "2095450464225800281",
+      "author": "xiaoxiaodong01",
+      "url": "https://x.com/i/status/2095450464225800281",
+      "created_at": "2026-09-03T09:54:56+00:00",
+      "text": "GPT2 x 亚克力 x 小清新 x 元素 x 美学提示词 x VOL.110\n\n风格灵感来自于小红书：贝赫拉Béril， 谢谢\n\n主要优化了动态排版逻辑，还有元素显示效果\n\n完整提示词：\n```\n😼☺️😍\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色，使其具有艺术杂志、独立出版物与生活方式视觉质感。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分提取照片中最具识别性的**主体关系、物件特征、生活细节与叙事记忆点**，重构为一张「日系生活碎片 Scene Map / 亚克力收藏图鉴」。不要完整复制照片，而是根据原图自由挑选约4–7个最值得记住的元素，可以是人物局部、食物、饮料、器物、植物、动物、建筑特征、交通工具或某个具有情绪价值的小细节。\n\n每个元素保持**真实、清晰、可触摸的物件质感**，不做扁平卡通化，并统一处理成更有 INS 生活方式感的视觉色调：柔和自然光、干净高光、奶油感亮部、轻微柔雾、清透阴影与舒适冷暖关系，适度降低生硬对比并提亮颜色，使物件显得温柔、精致、干净、治愈，但仍然像真实拍摄。外围加入透明圆润的亚克力 / 树脂包边、轻微厚度、细腻高光和柔和接触阴影，像真实的小型收藏物，而不是塑料3D玩具。\n\n多物件排版不要固定四宫格、等距横排或统一尺寸，而要根据元素自身的**大小、方向、形状与视觉重量动态组织**。可采用斜向流动、S形路线、环形围合、上下错落、阶梯节奏、中心辐射、双组聚类、边缘切入或不对称漂浮等不同构图；元素允许大小反差、轻微旋转、局部遮挡、贴边或裁切，让每张图都拥有不同的视觉节奏。始终保持一个清晰阅读路径和足够留白，做到活泼但不凌乱、松弛但有秩序。\n\n元素之间可自由加入**细虚线、弧形箭头、路线节点、定位符号、圆点、括号、手绘小线条或轻巧标记**，根据构图走势自然连接，不要求所有元素全部串联。线条可以绕行、跳接、断开或形成局部回路，使版面更像一张被精心整理的私人 memory map，而不是流程图或复杂信息图。\n\n背景颜色不预设浅色模板，应根据上方照片的**主导色相、综合色温、光线与情绪智能匹配**。可以是奶油色、雾蓝、鼠尾草绿、蜜桃粉，也可以是砖红、焦糖棕、暖橙、灰蓝、深绿等更有重量的综合色；重点是与真实物件形成漂亮的色彩对比和统一的 INS 氛围。整体颜色可适度提亮、提纯、柔化，使画面温暖、清透、有生活感，避免脏灰、死黑、荧光色、高饱和撞色和廉价滤镜。\n\n文字与路线共同参与构图。根据每个物件的身份、动作、情绪或生活联想，自由生成短小可爱的标签、词语、小句或符号，不固定词库、不限制语种，也不要求每个物件使用相同格式。字体使用**轻巧、圆润、略带自然手写偏差与日系手帐气质的生活记录字体**，可搭配少量细体小字、便签感文字或微型符号，与物件和路线形成灵活的图文混排。\n\n整体呈现**真实物件 × INS柔和色调 × 亚克力收藏质感 × 动态Scene Map × 可爱注释 × 大量合理留白**的视觉语言，兼具日系生活方式、小红书式治愈感与高级编辑排版。画面可以活泼、有变化、有收藏欲，但始终保持干净、温柔、真实和精致。避免固定四宫格、平均排布、统一尺寸、扁平卡通、复杂UI、过多箭头、廉价塑料感、电商素材感和模板化构图。\n😝🥲😙\n```",
+      "prompt": "😼☺️😍\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色，使其具有艺术杂志、独立出版物与生活方式视觉质感。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分提取照片中最具识别性的**主体关系、物件特征、生活细节与叙事记忆点**，重构为一张「日系生活碎片 Scene Map / 亚克力收藏图鉴」。不要完整复制照片，而是根据原图自由挑选约4–7个最值得记住的元素，可以是人物局部、食物、饮料、器物、植物、动物、建筑特征、交通工具或某个具有情绪价值的小细节。\n\n每个元素保持**真实、清晰、可触摸的物件质感**，不做扁平卡通化，并统一处理成更有 INS 生活方式感的视觉色调：柔和自然光、干净高光、奶油感亮部、轻微柔雾、清透阴影与舒适冷暖关系，适度降低生硬对比并提亮颜色，使物件显得温柔、精致、干净、治愈，但仍然像真实拍摄。外围加入透明圆润的亚克力 / 树脂包边、轻微厚度、细腻高光和柔和接触阴影，像真实的小型收藏物，而不是塑料3D玩具。\n\n多物件排版不要固定四宫格、等距横排或统一尺寸，而要根据元素自身的**大小、方向、形状与视觉重量动态组织**。可采用斜向流动、S形路线、环形围合、上下错落、阶梯节奏、中心辐射、双组聚类、边缘切入或不对称漂浮等不同构图；元素允许大小反差、轻微旋转、局部遮挡、贴边或裁切，让每张图都拥有不同的视觉节奏。始终保持一个清晰阅读路径和足够留白，做到活泼但不凌乱、松弛但有秩序。\n\n元素之间可自由加入**细虚线、弧形箭头、路线节点、定位符号、圆点、括号、手绘小线条或轻巧标记**，根据构图走势自然连接，不要求所有元素全部串联。线条可以绕行、跳接、断开或形成局部回路，使版面更像一张被精心整理的私人 memory map，而不是流程图或复杂信息图。\n\n背景颜色不预设浅色模板，应根据上方照片的**主导色相、综合色温、光线与情绪智能匹配**。可以是奶油色、雾蓝、鼠尾草绿、蜜桃粉，也可以是砖红、焦糖棕、暖橙、灰蓝、深绿等更有重量的综合色；重点是与真实物件形成漂亮的色彩对比和统一的 INS 氛围。整体颜色可适度提亮、提纯、柔化，使画面温暖、清透、有生活感，避免脏灰、死黑、荧光色、高饱和撞色和廉价滤镜。\n\n文字与路线共同参与构图。根据每个物件的身份、动作、情绪或生活联想，自由生成短小可爱的标签、词语、小句或符号，不固定词库、不限制语种，也不要求每个物件使用相同格式。字体使用**轻巧、圆润、略带自然手写偏差与日系手帐气质的生活记录字体**，可搭配少量细体小字、便签感文字或微型符号，与物件和路线形成灵活的图文混排。\n\n整体呈现**真实物件 × INS柔和色调 × 亚克力收藏质感 × 动态Scene Map × 可爱注释 × 大量合理留白**的视觉语言，兼具日系生活方式、小红书式治愈感与高级编辑排版。画面可以活泼、有变化、有收藏欲，但始终保持干净、温柔、真实和精致。避免固定四宫格、平均排布、统一尺寸、扁平卡通、复杂UI、过多箭头、廉价塑料感、电商素材感和模板化构图。\n😝🥲😙",
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRSITiKbIAENjls.jpg",
+          "poster": "https://pbs.twimg.com/media/HRSITiKbIAENjls.jpg"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRSIWdFb0AAqaRN.jpg",
+          "poster": "https://pbs.twimg.com/media/HRSIWdFb0AAqaRN.jpg"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRSIjlTboAAZDAx.jpg",
+          "poster": "https://pbs.twimg.com/media/HRSIjlTboAAZDAx.jpg"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRSIlp-bwAAiihP.jpg",
+          "poster": "https://pbs.twimg.com/media/HRSIlp-bwAAiihP.jpg"
+        }
+      ]
+    },
+    {
+      "id": "2095404598718857641",
+      "author": "xiaoxiaodong01",
+      "url": "https://x.com/i/status/2095404598718857641",
+      "created_at": "2026-09-03T06:52:41+00:00",
+      "text": "GPT2 x 抽象 x 几何块状 x  脸部 x 美学提示词 x VOL.109\n\n这组提示词\n特别适合有脸的生物，会处理成一种诡异的几何色块的感觉\n\n很俏皮幽默的一组提示词\n试试！\n\n完整提示词 如下：\n\n```\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色，使其具有艺术杂志、独立出版物与展览图像质感。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分提取照片中最具识别性的**主体、轮廓、结构、姿态与叙事关系**，重构为**方块化、模块化的几何解构插画**。不要完整复制照片，也不要写实描摹，而是删去无关细节，只保留最能代表原物身份与气质的视觉记忆点，通过几何概括、形状叠压与拼贴式重组重新建立形象，使人能够一眼识别它与上方照片之间的对应关系。\n\n整体造型强调**方块感、模块感、几何切分与完整大块面**。几何拆分不要过碎，不要切成大量零散小块，而应以更少、更大、更完整的矩形、方形、圆角方块、椭圆、三角形和不规则块面组织主体。人物可表现为方形面部、清晰下颌线与块面五官；建筑可转化为方整体量、立面分区、窗洞节奏与结构转折；动物、植物、器物和景观也应提炼为具有方块秩序与模块关系的几何形体。允许适度夸张与变形，但整体必须成熟、克制、简洁，避免琐碎化、幼稚化和拼得太散。\n\n整体造型采用**扁平色块 + 拼贴感构成 + 现代主义几何语言**。色块像纸片一样被重新拼接，形成鲜明但有秩序的剪贴感；复杂背景主动删除，只保留少量必要形状或辅助块面，不形成第二视觉中心。\n\n构图保持**小尺度主体 / 大面积留白**的关系，根据主体自身的方向、比例、视觉重心与结构走势自由安排位置，可偏心、贴边或局部裁切，但始终保持清晰主次、疏密节奏与编辑式平衡。画面整体重视正负形、块面轻重、留白呼吸与版式秩序，让下半部分既有艺术感，也有高级出版物气质。\n\n材质呈现**温和纸张颗粒与轻微版画印刷感**：在几何色块之上保留细腻纸感、柔和噪点与轻微印刷质感，使画面更接近纸本拼贴或艺术印刷作品。避免光滑矢量、3D渲染、照片滤镜和过度精修。\n\n配色从上方照片中提取 **2–4 种最有辨识度、最讨喜、最能体现主体气质的颜色** 重新整理为更高级的配色系统。整体可适度提亮、提纯、去灰，转化为**奶油白、杏色、蜜桃粉、珊瑚橙、雾蓝、灰绿、鼠尾草绿、暖棕、柔紫**等更轻盈、现代、耐看的色块关系。主色鲜明但不刺眼，辅助色温柔而有层次，整体气质干净、温暖、时髦、亲和，避免土黄、脏灰、暗褐、荧光色、廉价糖果感和杂乱配色。\n\n文字少量介入，不限制语种。可根据主体身份、地点、情绪、气质或象征意义，自由提炼简短标题、小字注释、编号或说明片段。文字应小、轻、克制，自然落在留白区域或版面边角，与图形共同形成精致的图文关系，不做商业标题堆砌。\n\n整体呈现**完整大块面的几何解构、克制拼贴、柔和高级配色、纸本颗粒、大面积留白与编辑式排版**共同构成的视觉效果。无论主体是人物、建筑、动物、植物、器物或自然景观，都应保持清晰身份、模块化几何秩序与统一的艺术语言。避免写实描摹、过碎切割、幼稚拼贴、复杂透视、过密细节、卡通感、3D感、模板化海报感和廉价文创感\n```",
+      "prompt": "请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色，使其具有艺术杂志、独立出版物与展览图像质感。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分提取照片中最具识别性的**主体、轮廓、结构、姿态与叙事关系**，重构为**方块化、模块化的几何解构插画**。不要完整复制照片，也不要写实描摹，而是删去无关细节，只保留最能代表原物身份与气质的视觉记忆点，通过几何概括、形状叠压与拼贴式重组重新建立形象，使人能够一眼识别它与上方照片之间的对应关系。\n\n整体造型强调**方块感、模块感、几何切分与完整大块面**。几何拆分不要过碎，不要切成大量零散小块，而应以更少、更大、更完整的矩形、方形、圆角方块、椭圆、三角形和不规则块面组织主体。人物可表现为方形面部、清晰下颌线与块面五官；建筑可转化为方整体量、立面分区、窗洞节奏与结构转折；动物、植物、器物和景观也应提炼为具有方块秩序与模块关系的几何形体。允许适度夸张与变形，但整体必须成熟、克制、简洁，避免琐碎化、幼稚化和拼得太散。\n\n整体造型采用**扁平色块 + 拼贴感构成 + 现代主义几何语言**。色块像纸片一样被重新拼接，形成鲜明但有秩序的剪贴感；复杂背景主动删除，只保留少量必要形状或辅助块面，不形成第二视觉中心。\n\n构图保持**小尺度主体 / 大面积留白**的关系，根据主体自身的方向、比例、视觉重心与结构走势自由安排位置，可偏心、贴边或局部裁切，但始终保持清晰主次、疏密节奏与编辑式平衡。画面整体重视正负形、块面轻重、留白呼吸与版式秩序，让下半部分既有艺术感，也有高级出版物气质。\n\n材质呈现**温和纸张颗粒与轻微版画印刷感**：在几何色块之上保留细腻纸感、柔和噪点与轻微印刷质感，使画面更接近纸本拼贴或艺术印刷作品。避免光滑矢量、3D渲染、照片滤镜和过度精修。\n\n配色从上方照片中提取 **2–4 种最有辨识度、最讨喜、最能体现主体气质的颜色** 重新整理为更高级的配色系统。整体可适度提亮、提纯、去灰，转化为**奶油白、杏色、蜜桃粉、珊瑚橙、雾蓝、灰绿、鼠尾草绿、暖棕、柔紫**等更轻盈、现代、耐看的色块关系。主色鲜明但不刺眼，辅助色温柔而有层次，整体气质干净、温暖、时髦、亲和，避免土黄、脏灰、暗褐、荧光色、廉价糖果感和杂乱配色。\n\n文字少量介入，不限制语种。可根据主体身份、地点、情绪、气质或象征意义，自由提炼简短标题、小字注释、编号或说明片段。文字应小、轻、克制，自然落在留白区域或版面边角，与图形共同形成精致的图文关系，不做商业标题堆砌。\n\n整体呈现**完整大块面的几何解构、克制拼贴、柔和高级配色、纸本颗粒、大面积留白与编辑式排版**共同构成的视觉效果。无论主体是人物、建筑、动物、植物、器物或自然景观，都应保持清晰身份、模块化几何秩序与统一的艺术语言。避免写实描摹、过碎切割、幼稚拼贴、复杂透视、过密细节、卡通感、3D感、模板化海报感和廉价文创感",
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRRaGprboAAxkTq.jpg",
+          "poster": "https://pbs.twimg.com/media/HRRaGprboAAxkTq.jpg"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRRaHeuaAAADxo_.jpg",
+          "poster": "https://pbs.twimg.com/media/HRRaHeuaAAADxo_.jpg"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRRch7tbwAAXY7R.jpg",
+          "poster": "https://pbs.twimg.com/media/HRRch7tbwAAXY7R.jpg"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRRfW2dbMAEx3BH.jpg",
+          "poster": "https://pbs.twimg.com/media/HRRfW2dbMAEx3BH.jpg"
+        }
+      ]
+    },
+    {
+      "id": "2095343081440911751",
+      "author": "xiaoxiaodong01",
+      "url": "https://x.com/i/status/2095343081440911751",
+      "created_at": "2026-09-03T02:48:14+00:00",
+      "text": "GPT2 x 扁平 x 印刷感 x 剪纸 x 美学提示词 x VOL.108\n\n好喜欢这组提示词， 尤其是对于建筑、对于旅拍的处理\n还喜欢对于美食的处理\n\n发明这组提示词的，一定不是天才，谢谢。\n\nGitHub skills 预留地址：\nhttps://t.co/8BCVNmNTns\n\nprompt by xiaoxiaodong:\n```\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色，使其具有艺术杂志、独立出版物与展览图像质感。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分提取照片中最具识别性的**主体、轮廓、姿态与叙事关系**，重构为**新民艺剪纸拼贴风的扁平化插画**。不要完整复制照片，而是删去无关细节，只保留最能代表原物的结构、走势与视觉记忆点，通过剪影、色块、刻线、正负形和少量层叠重新概括，使人能够一眼识别它与上方照片之间的对应关系。主体、植物、建筑、动物、器物或环境元素都应像一块块独立彩纸被重新组合，造型可适度稚拙、符号化、几何化，不追求写实透视和复杂细节，而强调文化感、手工感与当代设计感。\n\n构图保持**小尺度主体 / 章印感主视觉 + 大面积留白**的关系，根据主体自身的方向、比例和视觉重心自由安排位置，可偏心、贴边或局部裁切，但始终保持清晰主次、疏密节奏和编辑式平衡。主体可集中于一侧或下方形成视觉落点，周围只保留极少量辅助元素，不形成多个同等焦点。\n\n材质呈现**剪纸拼贴 + 版画印刷感**：色块边缘可略带手工剪切感、轻微套印偏差、掉墨感和温和颗粒，保留纸张纤维与艺术纸底的质感，避免光滑矢量、3D渲染、照片滤镜和过度精修。背景以米白、暖白或浅纸色为主，保留安静、充足的留白空间。\n\n配色从上方照片中提取 **2–4 种最具辨识度** 的颜色，转化为**鲜明但克制、明快但不刺眼**的扁平色块系统；可适度提纯、提亮与整理，形成主色、辅助色和少量点睛色的清晰层级，既保留原图的情绪与身份，又具有民艺拼贴的当代高级感，避免灰脏、沉闷、廉价糖果感和杂乱配色。\n\n文字少量介入，不限制语种。可根据照片的主体、地点、情绪、文化意象或象征意义，自由提炼简短标题、小字注释、编号、色值标注或说明片段。文字应小、轻、克制，自然落在留白区域或版面边角，与图形共同形成精致的图文关系，不做商业标题堆砌。\n\n整体呈现**新民艺、剪纸拼贴、符号化造型、版画肌理、大面积留白与编辑式排版**共同构成的高级视觉效果，参考 contemporary folk-art illustration with paper-cut collage aesthetics, symbolic geometric forms, screen-print texture and editorial layout。避免写实插画、复杂透视、过密细节、卡通感、3D感、模板化海报感和廉价文创感。\n```",
+      "prompt": "请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色，使其具有艺术杂志、独立出版物与展览图像质感。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分提取照片中最具识别性的**主体、轮廓、姿态与叙事关系**，重构为**新民艺剪纸拼贴风的扁平化插画**。不要完整复制照片，而是删去无关细节，只保留最能代表原物的结构、走势与视觉记忆点，通过剪影、色块、刻线、正负形和少量层叠重新概括，使人能够一眼识别它与上方照片之间的对应关系。主体、植物、建筑、动物、器物或环境元素都应像一块块独立彩纸被重新组合，造型可适度稚拙、符号化、几何化，不追求写实透视和复杂细节，而强调文化感、手工感与当代设计感。\n\n构图保持**小尺度主体 / 章印感主视觉 + 大面积留白**的关系，根据主体自身的方向、比例和视觉重心自由安排位置，可偏心、贴边或局部裁切，但始终保持清晰主次、疏密节奏和编辑式平衡。主体可集中于一侧或下方形成视觉落点，周围只保留极少量辅助元素，不形成多个同等焦点。\n\n材质呈现**剪纸拼贴 + 版画印刷感**：色块边缘可略带手工剪切感、轻微套印偏差、掉墨感和温和颗粒，保留纸张纤维与艺术纸底的质感，避免光滑矢量、3D渲染、照片滤镜和过度精修。背景以米白、暖白或浅纸色为主，保留安静、充足的留白空间。\n\n配色从上方照片中提取 **2–4 种最具辨识度** 的颜色，转化为**鲜明但克制、明快但不刺眼**的扁平色块系统；可适度提纯、提亮与整理，形成主色、辅助色和少量点睛色的清晰层级，既保留原图的情绪与身份，又具有民艺拼贴的当代高级感，避免灰脏、沉闷、廉价糖果感和杂乱配色。\n\n文字少量介入，不限制语种。可根据照片的主体、地点、情绪、文化意象或象征意义，自由提炼简短标题、小字注释、编号、色值标注或说明片段。文字应小、轻、克制，自然落在留白区域或版面边角，与图形共同形成精致的图文关系，不做商业标题堆砌。\n\n整体呈现**新民艺、剪纸拼贴、符号化造型、版画肌理、大面积留白与编辑式排版**共同构成的高级视觉效果，参考 contemporary folk-art illustration with paper-cut collage aesthetics, symbolic geometric forms, screen-print texture and editorial layout。避免写实插画、复杂透视、过密细节、卡通感、3D感、模板化海报感和廉价文创感。",
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRQk_WAaIAAO4jJ.jpg",
+          "poster": "https://pbs.twimg.com/media/HRQk_WAaIAAO4jJ.jpg"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRQl95vboAAR8Xt.jpg",
+          "poster": "https://pbs.twimg.com/media/HRQl95vboAAR8Xt.jpg"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRQmY6jbEAErbEI.jpg",
+          "poster": "https://pbs.twimg.com/media/HRQmY6jbEAErbEI.jpg"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRQmxY7a0AAGl_f.jpg",
+          "poster": "https://pbs.twimg.com/media/HRQmxY7a0AAGl_f.jpg"
+        }
+      ]
+    },
+    {
+      "id": "2095194084927525142",
+      "author": "xiaoxiaodong01",
+      "url": "https://x.com/i/status/2095194084927525142",
+      "created_at": "2026-09-02T16:56:11+00:00",
+      "text": "基于Buid in public\n逻辑进行了这次skills 创作\n\n终于可以拍着自己的胸肌自信地说：\n我做到了！\n\n不是大放厥词：这绝对是你经过，有点东西的作图skills\n\n自豪的点在于：它懂你的各种需求，你寥寥数语，它帮你轻松做到图片。 \n\n如下提示词，我只给skills指令：\n```\n电影：太阳照常升起， 电影海报，又有各种获奖图标和丰富的信息，演职人员之类的信息也要有。\n```\n\n它发动搜索功能，仔仔细细认认真真提前准备物料再设计。\n\n我测试了10来种用途，没有一次不稳的，优秀。\n更爱自己了，太有才华了。",
+      "prompt": "电影：太阳照常升起， 电影海报，又有各种获奖图标和丰富的信息，演职人员之类的信息也要有。",
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HROY7IGagAAUkCm.jpg",
+          "poster": "https://pbs.twimg.com/media/HROY7IGagAAUkCm.jpg"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HROa2pbacCAbWIU.jpg",
+          "poster": "https://pbs.twimg.com/media/HROa2pbacCAbWIU.jpg"
+        }
+      ]
+    },
+    {
+      "id": "2095139405979901958",
+      "author": "xiaoxiaodong01",
+      "url": "https://x.com/i/status/2095139405979901958",
+      "created_at": "2026-09-02T13:18:54+00:00",
+      "text": "GPT2 x 双重曝光 x 温柔 x 电影海报 x 美学提示词\n\n这组提示词，莫名其妙，居然让我想到了一句歌词：\n我想爱你浅浅不停息 🎵\n\n一个莫名的联想\n\n提示词：\n```\nA restrained narrative poster built around any chosen subject object, with the most recognizable core object of the theme extremely enlarged so its clear lateral silhouette occupies most of the frame, the top edge and one side naturally cropped, and the gaze or directional orientation leading toward a wide, bright empty area; retain realistic detail and soft gradation in the key parts of the silhouette while the other side is gradually washed out by high-key diffused light so the object and background blend smoothly together. Place a second narrative derived from the theme inside the outer silhouette: a markedly smaller scene with movement and spatial progression sweeps horizontally across the lower portion, entering from an edge and passing through the neck or supporting zone, while a distant horizon, motion blur, and pale scenery together form a continuous, memory-like band; only the lower part of this narrative stays clear, and upward it merges into the core object through transparent haziness, a soft-edged mask, and fading brightness, giving the double exposure a definite silhouette without hard collage seams. Embed typography in the subject rather than floating it outside: place one oversized, high-contrast serif headline horizontally across the lower-middle area, with thin horizontals, thick verticals, sharp serifs, and expansive letterforms, using highlighted lettering pressed over the soft imagery; place two lines of small, narrow byline text above the headline and one line of tiny, widely tracked information below it, creating a strong scale jump between the monumental headline and minuscule text. A delicate symbolic element derived from the theme may be embedded inside the enclosed space of a letter or glyph, kept understated, complete, and legible. In the bright negative space at the bottom, place a few fine-line emblems and short texts arranged in horizontal groups with generous spacing as a light concluding device. Derive color from the theme's own meaning: a high-key near-white background takes up the largest area; the core object uses soft midtones at low to medium saturation; the narrative band uses slightly higher-saturation adjacent colors for gentle vitality; only a very small amount of deeper, cooler, or neutral color stabilizes local areas; text switches between bright white and restrained dark depending on where it sits. Maintain an overall high-key, low-contrast, clear and clean tonal register with soft wrapping light, shallow shadows, and an intimate, tender mood carrying a trace of nostalgia. Keep fine, even film grain and slight print softening on the surface, with texture mainly in the photographic midtones, clean large blank areas, delicate exposure transitions, and no stains, creases, heavy fading, or over-sharpening. Finally, preserve the mutual pull among the huge silhouette, inner dynamic narrative, bright negative space, and image-spanning large headline, and avoid the double exposure collapsing into an ordinary overlay of two images averaged together.\n```",
+      "prompt": "A restrained narrative poster built around any chosen subject object, with the most recognizable core object of the theme extremely enlarged so its clear lateral silhouette occupies most of the frame, the top edge and one side naturally cropped, and the gaze or directional orientation leading toward a wide, bright empty area; retain realistic detail and soft gradation in the key parts of the silhouette while the other side is gradually washed out by high-key diffused light so the object and background blend smoothly together. Place a second narrative derived from the theme inside the outer silhouette: a markedly smaller scene with movement and spatial progression sweeps horizontally across the lower portion, entering from an edge and passing through the neck or supporting zone, while a distant horizon, motion blur, and pale scenery together form a continuous, memory-like band; only the lower part of this narrative stays clear, and upward it merges into the core object through transparent haziness, a soft-edged mask, and fading brightness, giving the double exposure a definite silhouette without hard collage seams. Embed typography in the subject rather than floating it outside: place one oversized, high-contrast serif headline horizontally across the lower-middle area, with thin horizontals, thick verticals, sharp serifs, and expansive letterforms, using highlighted lettering pressed over the soft imagery; place two lines of small, narrow byline text above the headline and one line of tiny, widely tracked information below it, creating a strong scale jump between the monumental headline and minuscule text. A delicate symbolic element derived from the theme may be embedded inside the enclosed space of a letter or glyph, kept understated, complete, and legible. In the bright negative space at the bottom, place a few fine-line emblems and short texts arranged in horizontal groups with generous spacing as a light concluding device. Derive color from the theme's own meaning: a high-key near-white background takes up the largest area; the core object uses soft midtones at low to medium saturation; the narrative band uses slightly higher-saturation adjacent colors for gentle vitality; only a very small amount of deeper, cooler, or neutral color stabilizes local areas; text switches between bright white and restrained dark depending on where it sits. Maintain an overall high-key, low-contrast, clear and clean tonal register with soft wrapping light, shallow shadows, and an intimate, tender mood carrying a trace of nostalgia. Keep fine, even film grain and slight print softening on the surface, with texture mainly in the photographic midtones, clean large blank areas, delicate exposure transitions, and no stains, creases, heavy fading, or over-sharpening. Finally, preserve the mutual pull among the huge silhouette, inner dynamic narrative, bright negative space, and image-spanning large headline, and avoid the double exposure collapsing into an ordinary overlay of two images averaged together.",
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HRNtroAagAAdezO.jpg",
+          "poster": "https://pbs.twimg.com/media/HRNtroAagAAdezO.jpg"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HRNtwPubgAE19Cm.jpg",
+          "poster": "https://pbs.twimg.com/media/HRNtwPubgAE19Cm.jpg"
         }
       ]
     }
