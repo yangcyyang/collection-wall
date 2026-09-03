@@ -1,26 +1,52 @@
 {
   "source": "ai-frontier-radar",
   "title": "观察名单",
-  "updated_at": "2026-09-02T08:20:00+08:00",
-  "count": 9,
+  "updated_at": "2026-09-03T08:15:00+08:00",
+  "count": 11,
   "items": [
+    {
+      "id": "muse-spark-max-reasoning",
+      "title": "Muse Spark max reasoning 安全测试后是否放出",
+      "why": "Meta 明确卡住；放出即 agent 能力台阶，继续卡则说明对齐门控也在开源侧",
+      "since": "2026-09-03T08:15:00+08:00",
+      "last_updated": "2026-09-03T08:15:00+08:00",
+      "status": "watching",
+      "confidence": "medium",
+      "related_signals": [
+        "recursive-alignment-loop"
+      ]
+    },
+    {
+      "id": "fairwind-codemender",
+      "title": "Fairwind / CodeMender 扩散形态",
+      "why": "非 Fairwind 客户能否用公开模型跑自动修补；可信名额扩到哪些行业",
+      "since": "2026-09-03T08:15:00+08:00",
+      "last_updated": "2026-09-03T08:15:00+08:00",
+      "status": "watching",
+      "confidence": "medium",
+      "related_signals": [
+        "critical-cyber-gated-deployment",
+        "harness-control-plane"
+      ]
+    },
     {
       "id": "cursor-openai-nov12",
       "title": "Cursor 与 OpenAI 11 月 12 日切断",
-      "why": "日期还在不在、Astra 会不会永远不进、用户默认模型会否被静默切换",
+      "why": "日期还在不在、Astra 是否永远不进；本窗 Cursor 上线 Gemini 3.8 Flash + 自托管执行面，模型与运行时多元化加速，用户默认模型会否被静默切换仍待观察",
       "since": "2026-08-28T00:00:00+08:00",
-      "last_updated": "2026-09-01T08:50:00+08:00",
+      "last_updated": "2026-09-03T08:15:00+08:00",
       "status": "watching",
       "related_signals": [
-        "coding-agent-supply-chain"
+        "coding-agent-supply-chain",
+        "harness-control-plane"
       ]
     },
     {
       "id": "agent-computer-category",
       "title": "beafk、useagent、vicoa 谁先做出离开后还在跑",
-      "why": "Murmell 加入同品类（共享画布+文件预留）；useagent 269★；与 beafk、Almanac、OpenTag、Naseem 一起决定长期电脑默认形态",
+      "why": "Claude Cowork/Code 已官方后台电脑操控（第一方）；Murmell/beafk/useagent/Almanac/Naseem 与 Cursor 自托管机一起决定长期电脑默认形态",
       "since": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-02T08:20:00+08:00",
+      "last_updated": "2026-09-03T08:15:00+08:00",
       "status": "watching",
       "related_signals": [
         "agent-persistent-computer"
@@ -40,9 +66,9 @@
     {
       "id": "apache-maka",
       "title": "apache/maka 会否成为本地执行记录标准",
-      "why": "Apache 基金会加星速；现 4438（+114/约24h），仍无 Linux 公告",
+      "why": "Apache 基金会加星速；现 4569（昨约 4438，+131/约24h），仍无 Linux 公告",
       "since": "2026-08-30T00:00:00+08:00",
-      "last_updated": "2026-09-02T08:20:00+08:00",
+      "last_updated": "2026-09-03T08:15:00+08:00",
       "status": "watching",
       "related_signals": [
         "apache-maka-durable-workspace"
@@ -51,9 +77,9 @@
     {
       "id": "meta-project-hatch",
       "title": "Meta Project Hatch 泄漏",
-      "why": "若属实：持久电脑操控 + 可分享智能体进 Messenger/WhatsApp。目前只有聚合号泄漏，无官方主帖",
+      "why": "Muse Spark 1.3 官方称即将有更大模型与 open weights；Hatch 泄漏（持久电脑+Messenger）仍无主帖。两条线一起看。",
       "since": "2026-08-31T08:45:00+08:00",
-      "last_updated": "2026-09-01T08:50:00+08:00",
+      "last_updated": "2026-09-03T08:15:00+08:00",
       "status": "watching",
       "confidence": "low",
       "related_signals": [

@@ -1,26 +1,29 @@
 {
   "source": "ai-frontier-radar",
   "title": "前沿信号",
-  "updated_at": "2026-09-02T08:20:00+08:00",
+  "updated_at": "2026-09-03T08:15:00+08:00",
   "count": 9,
   "items": [
     {
       "id": "critical-cyber-gated-deployment",
       "title": "前沿实验室把「Critical 级网络能力」做成门控发布，而不是全面开闸",
-      "type": "strong_signal",
-      "score": 87,
+      "type": "pattern",
+      "score": 91,
       "confidence": "high",
-      "status": "new",
+      "status": "strengthening",
       "first_detected": "2026-09-02T08:20:00+08:00",
-      "last_updated": "2026-09-02T08:20:00+08:00",
-      "summary": "同一窗口里，OpenAI 首次把 Astra 评估到 Preparedness Framework 的 Critical 网络阈值（可无逐步人工指导发现并利用未知漏洞；ExploitBench 满分；内部改版测试里挖出并利用两个 zero-day），但把最强网络能力限给 Daybreak / Daybreak Blue 伙伴，公开版「soon」且能力裁切。Anthropic 同日发 Claude Fable 5.1（全面可用，可发现漏洞但不能写利用）与 Mythos 5.1（仅可信访问，给网络防御与生命科学），并上线 Enterprise Frontier Safeguards（客户侧存储 + 自动滥用检测）。卖点不是又一个更强模型，是「能力与门控一起发货」。",
-      "why_it_matters": "双实验室在同一天把 Critical/Mythos 级网络能力做成可信/伙伴门控，而不是默认对所有人开。这会重写「模型越强越开放」的默认叙事，也让安全运维与产品发布绑在同一条发布线上。",
+      "last_updated": "2026-09-03T08:15:00+08:00",
+      "summary": "约 48 小时内，第三家前沿实验室跟上「高能力网络模型 = 可信门控」：OpenAI Astra Critical → Daybreak；Anthropic Mythos 5.1 可信访问；Google 发布 Gemini 3.8 Flash Cyber，经 Fairwind 仅给政府与关键基础设施可信防御方，并绑 CodeMender 自动发现+修补 harness。卖点不是又一个更强模型，是能力与门控一起发货，且已成跨实验室默认。",
+      "why_it_matters": "叙事从「单次 Critical 评级」变成「frontier cyber 默认走联盟/门禁部署」。OpenAI / Anthropic / Google 同构：能力越强，默认越不是全面开闸。",
       "tags": [
         "安全对齐",
         "网络能力",
         "OpenAI",
         "Anthropic",
-        "门控发布"
+        "门控发布",
+        "Google",
+        "Fairwind",
+        "Gemini"
       ],
       "evidence": [
         {
@@ -64,25 +67,54 @@
           "source": "official",
           "note": "Fable 全面可用；Mythos 仅可信访问",
           "date": "2026-09-02T02:03:19+08:00"
+        },
+        {
+          "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+          "source": "official",
+          "note": "Google Fairwind：3.8 Flash Cyber 仅可信防御方",
+          "date": "2026-09-02T00:00:00+08:00"
+        },
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+          "source": "official",
+          "note": "Gemini 3.8 Flash + 3.8 Flash Cyber 官方发布",
+          "date": "2026-09-02T00:00:00+08:00"
+        },
+        {
+          "url": "https://x.com/GoogleDeepMind/status/2095175498967949359",
+          "source": "official",
+          "note": "DeepMind：3.8 Flash + Flash Cyber；Fairwind 可信访问",
+          "date": "2026-09-02T23:42:20+08:00"
+        },
+        {
+          "url": "https://x.com/Google/status/2095212788251496479",
+          "source": "official",
+          "note": "CyberGym 86.2%、CWE-Bench 47.2%；Chrome 2.6x 有效修补",
+          "date": "2026-09-03T02:10:30+08:00"
         }
       ],
       "watch_next": [
-        "Astra 公开版裁切了哪些网络能力",
-        "Mythos 可信访问扩到哪些行业",
-        "其他实验室是否跟进 Critical/门控双轨"
+        "Fairwind 扩到哪些非国家客户",
+        "公开模型上跑 CodeMender 的扩散",
+        "其他实验室是否跟进门禁+防御 harness 双轨"
       ],
       "homepage": true,
-      "judgment_changes": []
+      "judgment_changes": [
+        {
+          "at": "2026-09-03T08:15:00+08:00",
+          "change": "Fairwind 使三家门控成立；score 87→91；status new→strengthening；type→pattern"
+        }
+      ]
     },
     {
       "id": "multi-agent-team-orchestration",
       "title": "多智能体对抗式协作正在变成可编程的运行时模式",
       "type": "strong_signal",
-      "score": 85,
+      "score": 86,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-09-01T08:50:00+08:00",
-      "last_updated": "2026-09-02T08:20:00+08:00",
+      "last_updated": "2026-09-03T08:15:00+08:00",
       "summary": "Google Antigravity 在 /teamwork-preview（小时到天）之外，又补了中等时域斜杠命令 /boost：编排器 → DeepCoder/DeepInvestigator → 隔离 worker，临时 worktree + 多轮校验，面向秒到小时的并发 bug / 算法 / 多文件重构。 工作单位从「单智能体加钩子」变成可调用的团队阶梯：默认交互 → /boost → /teamwork-preview。",
       "why_it_matters": "人开始把「一组会互相反驳的智能体」当成可调用原语，而不是再写一个 agent 循环。若 Cursor / Claude Code / Codex 也把 named team pattern 做成斜杠命令，这会从信号升成模式。",
       "tags": [
@@ -127,6 +159,12 @@
           "source": "community",
           "note": "HN 2026-09-01 讨论 /boost",
           "date": "2026-09-01T11:05:55+08:00"
+        },
+        {
+          "url": "https://antigravity.google/blog/gemini-3-8-flash-in-google-antigravity",
+          "source": "official",
+          "note": "Gemini 3.8 Flash 进 Antigravity：长程 agentic loops 工作马",
+          "date": "2026-09-02T23:48:00+08:00"
         }
       ],
       "watch_next": [
@@ -134,19 +172,19 @@
         "Lean 证明与上游合入能否被独立复核",
         "付费套餐默认并行规模 vs 博客高并行实验"
       ],
-      "homepage": true,
+      "homepage": false,
       "judgment_changes": []
     },
     {
       "id": "agent-persistent-computer",
       "title": "智能体正在拥有自己的长期计算环境",
       "type": "strong_signal",
-      "score": 90,
+      "score": 91,
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-02T08:20:00+08:00",
-      "summary": "实验室在囤 Mac 训练电脑操控，ChatGPT Work 自带可离开再续的云电脑（约 9 vCPU / 15GB），Slack/iMessage 同事产品（Almanac、OpenTag）把「机器+wiki」当成交付。加上 beafk、useagent、Maritime、Superagent Mac，智能体默认要有一台可离开的电脑，不再只是聊天框。",
+      "last_updated": "2026-09-03T08:15:00+08:00",
+      "summary": "实验室在囤 Mac 训练电脑操控，ChatGPT Work 自带可离开再续的云电脑（约 9 vCPU / 15GB），Slack/iMessage 同事产品（Almanac、OpenTag）把「机器+wiki」当成交付。加上 beafk、useagent、Maritime、Superagent Mac，智能体默认要有一台可离开的电脑，不再只是聊天框；本窗口 Claude Cowork/Claude Code 上线后台电脑操控（你做别的事时它点击打字开应用），Cursor 自托管机支持 Linux/Mac computer use——「离开后还在跑」从创业产品进第一方运行时。",
       "why_it_matters": "交互和商业模式同时在变：人从编辑器里盯着，变成留下一台电脑、偶尔回来检查。实验室侧在囤真实 Mac 做强化学习，产品侧把云电脑和工作区 wiki 做成默认交付。未来 3 到 12 个月，这可能成为智能体产品的默认形态。",
       "tags": [
         "智能体",
@@ -238,6 +276,18 @@
           "source": "github",
           "note": "useagent 151→269★（+118），云同事+沙箱叙事动量",
           "date": "2026-09-02T08:20:00+08:00"
+        },
+        {
+          "url": "https://x.com/claudeai/status/2095226833293685100",
+          "source": "official",
+          "note": "claudeai：Cowork/Claude Code 后台电脑操控（macOS 桌面 beta）",
+          "date": "2026-09-03T03:06:19+08:00"
+        },
+        {
+          "url": "https://x.com/claudeai/status/2095226835743158320",
+          "source": "official",
+          "note": "Pro/Max 桌面 beta；Settings → Computer use",
+          "date": "2026-09-03T03:06:19+08:00"
         }
       ],
       "watch_next": [
@@ -347,11 +397,11 @@
       "id": "recursive-alignment-loop",
       "title": "递归自我改进正在离开演示稿，变成可运行的研究循环",
       "type": "strong_signal",
-      "score": 86,
+      "score": 87,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-02T08:20:00+08:00",
+      "last_updated": "2026-09-03T08:15:00+08:00",
       "summary": "递归自我改进与安全运维同窗加速：Anthropic 发 Fable 5.1 / Mythos 5.1（同一底座、两套护栏信封；网络护栏误报约降 60%；约 25% 更低典型成本；Terminal-Bench 4.0 Mythos 60.9% / Fable 55.8%；CursorBench 73.4%），并上线 Enterprise Frontier Safeguards。 Claude Code 2.1.257 默认 Fable 5.1，并加 Containment Escape 规则。此前 Mythos 级对齐/安全叙事与 Hacker-Opus 仍在证据链上。OpenAI Astra Critical 同窗见独立信号 critical-cyber-gated-deployment。",
       "why_it_matters": "若对齐和训练优化成为智能体自己的工作，产品和安全的节奏都会变。不要把 Hy4 的递归自改进数字写成已经复现的事实。",
       "tags": [
@@ -432,6 +482,12 @@
           "source": "official",
           "note": "Claude Code 2.1.257：默认 Fable 5.1 + Containment Escape",
           "date": "2026-09-01T17:53:52+00:00"
+        },
+        {
+          "url": "https://x.com/AIatMeta/status/2095234387273269349",
+          "source": "official",
+          "note": "Muse Spark max reasoning 仍卡安全测试后放出",
+          "date": "2026-09-03T03:36:19+08:00"
         }
       ],
       "watch_next": [
@@ -451,19 +507,22 @@
       "id": "harness-control-plane",
       "title": "编程运行时在加控制面，不是发新模型",
       "type": "emerging_signal",
-      "score": 78,
+      "score": 83,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-28T00:00:00+08:00",
-      "last_updated": "2026-09-01T08:50:00+08:00",
-      "summary": "控制面从钩子升级成团队模式：Google 把 Teamwork 做成 /teamwork-preview 的 named orchestration（同时新开 multi-agent-team-orchestration）；Vercel 把 fx 接到 AI SDK HarnessAgent。Claude Code 稳定版现为 2.1.252（仅修 bug，不据此抬分），Codex 仍 0.151.0，Grok Build 板上仍 1.0.13（社区称 1.0.15 未核实）。Tibo 把 Codex 与 ChatGPT Work 额度重置（太平洋时间下午 6 点）和 /fast 当成产品循环本身。",
-      "why_it_matters": "长程智能体的产品化缺口是治理、可见性和续跑，不是更大的权重。",
+      "last_updated": "2026-09-03T08:15:00+08:00",
+      "summary": "Cursor 把云智能体执行面做成自托管：My Machines + team pools（可弹性/休眠），智能体循环留在 Cursor，工具与密钥留在客户机或 Cloudflare/AWS Lambda/Coder/Daytona/Modal/Vercel/E2B 等沙箱；支持 Linux/Mac computer use。Google CodeMender 则把防御侧 harness 绑进 Cyber 发布。运行时在加控制面与执行拓扑，不是只发新模型。",
+      "why_it_matters": "企业默认拓扑开始清晰：推理/编排在厂商云，手脚与 secrets 在客户机/池。这与「智能体自带电脑」并行，会决定谁控制工具面。",
       "tags": [
         "运行时",
         "MCP",
         "Claude Code",
         "Codex",
-        "Grok"
+        "Grok",
+        "Cursor",
+        "自托管",
+        "沙箱"
       ],
       "evidence": [
         {
@@ -513,10 +572,30 @@
           "source": "community",
           "date": "2026-08-31T00:00:00+08:00",
           "note": "Tibo：Codex 与 ChatGPT Work 额度重置在太平洋时间下午 6 点落地，并点名 /fast"
+        },
+        {
+          "url": "https://cursor.com/changelog",
+          "source": "official",
+          "note": "Cursor changelog Sep 2：self-hosted cloud agents / machine pools",
+          "date": "2026-09-02T00:00:00+08:00"
+        },
+        {
+          "url": "https://x.com/cursor_ai/status/2095257412781396114",
+          "source": "official",
+          "note": "cursor_ai：云智能体跑在你的基础设施；循环留在 Cursor",
+          "date": "2026-09-03T05:07:49+08:00"
+        },
+        {
+          "url": "https://x.com/cursor_ai/status/2095257414471655693",
+          "source": "official",
+          "note": "支持自管机与 AWS Lambda/Coder/Cloudflare/Daytona/E2B/Modal/Vercel 等",
+          "date": "2026-09-03T05:07:49+08:00"
         }
       ],
       "watch_next": [
-        "拦截和钩子会不会被其他运行时抄走"
+        "拦截和钩子会不会被其他运行时抄走",
+        "自托管池的企业采用信号",
+        "与 Claude/Codex 运行时控制面是否同构"
       ],
       "homepage": true,
       "judgment_changes": [
@@ -646,11 +725,11 @@
       "id": "apache-maka-durable-workspace",
       "title": "本地优先、可回放的智能体工作区开始有 Apache 级实现",
       "type": "emerging_signal",
-      "score": 80,
+      "score": 82,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-30T00:00:00+08:00",
-      "last_updated": "2026-09-02T08:20:00+08:00",
+      "last_updated": "2026-09-03T08:15:00+08:00",
       "summary": "apache/maka：只追加的执行记录（消息、工具、权限、终止），桌面、终端和评测共用运行时，可选电脑操控。现 4438 星（板上 4187，+137/24h）。窗口内仍在推 WebRTC peers / workhub。社区开始按执行记录和恢复来走读，而不只是当聊天框。",
       "why_it_matters": "跑几天的智能体需要证据链。和 pydantic-ai 的持久化操作、agent-loop-guard 指向同一缺口。",
       "tags": [
@@ -677,6 +756,12 @@
           "source": "github",
           "note": "星数核实 4438（先前 4324）；pushed_at 2026-09-02T00:13:34Z",
           "date": "2026-09-02T08:20:00+08:00"
+        },
+        {
+          "url": "https://github.com/apache/maka",
+          "source": "github",
+          "note": "stars 4569（昨约 4438，+131）；窗口内仍有 push",
+          "date": "2026-09-03T08:15:00+08:00"
         }
       ],
       "watch_next": [
@@ -684,7 +769,8 @@
         "会不会成为本地执行记录的标准"
       ],
       "homepage": false,
-      "judgment_changes": []
+      "judgment_changes": [],
+      "notes": "GitHub stars 4569 as of 2026-09-03 morning scan"
     }
   ]
 }

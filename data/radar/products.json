@@ -1,9 +1,153 @@
 {
   "source": "ai-frontier-radar",
   "title": "新产品",
-  "updated_at": "2026-09-02T08:20:00+08:00",
-  "count": 15,
+  "updated_at": "2026-09-03T08:15:00+08:00",
+  "count": 22,
   "items": [
+    {
+      "id": "monid",
+      "name": "Monid",
+      "score": 81,
+      "status": "new",
+      "first_detected": "2026-09-03T08:15:00+08:00",
+      "last_updated": "2026-09-03T08:15:00+08:00",
+      "summary": "一把密钥/余额，让智能体在运行时发现、调用并按次付费 1700+ 第三方 API（Skill / MCP / CLI）。按价格与可靠性路由，不是写死集成。",
+      "novelty": "智能体原生的运行时工具市场（发现+路由+按次付费），像 OpenRouter 但面向 agent tools",
+      "urls": {
+        "site": "https://monid.ai",
+        "ph": "https://www.producthunt.com/products/monid"
+      },
+      "tags": [
+        "MCP",
+        "工具市场",
+        "按次计费"
+      ],
+      "homepage": true,
+      "notes": "PH Sep 2 #1 · 356 score · 52 comments"
+    },
+    {
+      "id": "gemini-3-8-flash",
+      "name": "Gemini 3.8 Flash",
+      "score": 80,
+      "status": "new",
+      "first_detected": "2026-09-03T08:15:00+08:00",
+      "last_updated": "2026-09-03T08:15:00+08:00",
+      "summary": "六周内第三代 Flash；同价强化长程 coding / agent；进 Antigravity、AI Studio、Android Studio 与 Gemini App。另有门控版 3.8 Flash Cyber（见 Fairwind 信号）。",
+      "novelty": "工作马模型按周迭代，专打长程 agentic loops，而不是又一次参数秀",
+      "urls": {
+        "site": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+        "x": "https://x.com/GoogleDeepMind/status/2095175498967949359"
+      },
+      "tags": [
+        "Google",
+        "模型",
+        "Agent"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "dial",
+      "name": "Dial",
+      "score": 75,
+      "status": "new",
+      "first_detected": "2026-09-03T08:15:00+08:00",
+      "last_updated": "2026-09-03T08:15:00+08:00",
+      "summary": "几秒给智能体开真实电话号码：语音 + SMS + iMessage；REST/SDK/CLI/MCP；可收验证码，打通 agent 工作流里的 OTP 卡点。",
+      "novelty": "电话身份作为智能体基础设施，不是又一个语音 SaaS 壳",
+      "urls": {
+        "site": "https://getdial.ai",
+        "ph": "https://www.producthunt.com/products/dial-3"
+      },
+      "tags": [
+        "通讯",
+        "MCP",
+        "身份"
+      ],
+      "homepage": true,
+      "notes": "PH Sep 2 #6 · 176 score · 32 comments"
+    },
+    {
+      "id": "cursor-self-hosted",
+      "name": "Cursor Self-hosted Machines",
+      "score": 82,
+      "status": "new",
+      "first_detected": "2026-09-03T08:15:00+08:00",
+      "last_updated": "2026-09-03T08:15:00+08:00",
+      "summary": "云智能体跑在你的机池或沙箱供应商上：工具执行与内部服务留在客户网络；智能体循环仍在 Cursor。支持弹性/休眠池与 Linux/Mac computer use。",
+      "novelty": "把「大脑在云、手脚在自托管」产品化成一等公民执行拓扑",
+      "urls": {
+        "site": "https://cursor.com/changelog",
+        "x": "https://x.com/cursor_ai/status/2095257412781396114"
+      },
+      "tags": [
+        "Cursor",
+        "自托管",
+        "云智能体"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "muse-spark-1-3",
+      "name": "Muse Spark 1.3",
+      "score": 74,
+      "status": "new",
+      "first_detected": "2026-09-03T08:15:00+08:00",
+      "last_updated": "2026-09-03T08:15:00+08:00",
+      "summary": "Meta 编程/agent 模型：单线程撑更长多任务；更会澄清与卡点确认；不可逆动作前校准；约少 20% 工具调用与 25% token。进 Muse Code 与 Meta Model API；max reasoning 安全测试后放出。",
+      "novelty": "把协作校准（提问/卡住/确认）做成默认 agent UX，而不只是刷分",
+      "urls": {
+        "site": "https://research.meta.ai/blog/introducing-muse-spark-1-3",
+        "x": "https://x.com/AIatMeta/status/2095234385129963666"
+      },
+      "tags": [
+        "Meta",
+        "模型",
+        "Agent"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "doop",
+      "name": "Doop",
+      "score": 72,
+      "status": "watching",
+      "first_detected": "2026-09-03T08:15:00+08:00",
+      "last_updated": "2026-09-03T08:15:00+08:00",
+      "summary": "开源多人设计画布：Claude/Codex/任意 MCP 智能体实时画帧、读画布笔记、互评，共享设计记忆与品味；自带模型订阅。",
+      "novelty": "人↔多智能体设计共创 + 共享品味记忆；与 Murmell 画布同向但设计原生",
+      "urls": {
+        "site": "https://doop.design",
+        "ph": "https://www.producthunt.com/products/doop",
+        "github": "https://github.com/kgoedecke/doop"
+      },
+      "tags": [
+        "设计",
+        "MCP",
+        "多智能体"
+      ],
+      "homepage": false,
+      "notes": "PH Sep 2 #13 · 110 score · GitHub ~568★"
+    },
+    {
+      "id": "qwen3-8-max-0902",
+      "name": "Qwen3.8-Max-0902",
+      "score": 66,
+      "status": "watching",
+      "first_detected": "2026-09-03T08:15:00+08:00",
+      "last_updated": "2026-09-03T08:15:00+08:00",
+      "summary": "Qwen3.8-Max 编码/Cowork/长程 agent 快照升级；CodeArena WebDev 1691 #1；API alias qwen3.8-max-2026-09-02。非新一代架构。",
+      "novelty": "中文厂 coding agent 动量快照，机制上非新交互",
+      "urls": {
+        "site": "https://docs.qwencloud.com/changelog/models",
+        "x": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+      },
+      "tags": [
+        "Qwen",
+        "模型",
+        "编码"
+      ],
+      "homepage": false
+    },
     {
       "id": "murmell",
       "name": "Murmell",
@@ -22,7 +166,7 @@
         "AFK",
         "云电脑"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "almanac",
@@ -43,7 +187,7 @@
         "Slack",
         "wiki"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "beafk",
@@ -63,7 +207,7 @@
         "手机",
         "编排"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "omlx",
@@ -84,7 +228,7 @@
         "推理",
         "Mac"
       ],
-      "homepage": true,
+      "homepage": false,
       "notes": "GitHub 星已核实 21162（jundot/omlx）"
     },
     {
@@ -93,8 +237,8 @@
       "score": 85,
       "status": "new",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-02T08:20:00+08:00",
-      "summary": "把 Claude Code、Codex、OpenCode、Pi 包成引擎，隔离 Linux 沙箱，带事件溯源和人机确认。8 月 29 日新建，现 269 星（先前 151）。",
+      "last_updated": "2026-09-03T08:15:00+08:00",
+      "summary": "把 Claude Code、Codex、OpenCode、Pi 包成引擎，隔离 Linux 沙箱，带事件溯源和人机确认。8 月 29 日新建，现 274 星（先前 269 / 151）。",
       "novelty": "云电脑加任意运行时加事件日志，产品化成同事而不是又一个聊天框",
       "urls": {
         "github": "https://github.com/useagenthq/useagent",
@@ -104,8 +248,8 @@
         "编排",
         "沙箱"
       ],
-      "homepage": true,
-      "notes": "GitHub 星已核实 269（useagenthq/useagent；板上 151）"
+      "homepage": false,
+      "notes": "GitHub stars 274 as of 2026-09-03"
     },
     {
       "id": "staats",
