@@ -4,7 +4,7 @@ import { resolve } from "node:path";
 const defaultDemands = resolve(process.cwd(), "../data/xianyu/demands.json");
 
 function emptySummary() {
-  return { top_demands: [], price_bands: [], gaps: [] };
+  return { top_demands: [], price_bands: [], gaps: [], trend_highlights: [], hot_highlights: [] };
 }
 
 function emptyFeed() {
@@ -21,6 +21,8 @@ function normalizeSummary(raw) {
     top_demands: asList(summary.top_demands),
     price_bands: asList(summary.price_bands),
     gaps: asList(summary.gaps),
+    trend_highlights: asList(summary.trend_highlights),
+    hot_highlights: asList(summary.hot_highlights),
   };
 }
 
@@ -88,4 +90,21 @@ export function xianyuConfidenceLabel(confidence = "") {
 
 export function xianyuKindLabel(kind = "") {
   return KIND_LABELS[kind] ?? kind;
+}
+
+export function xianyuLane(item = {}) {
+  if (item.lane === "hot" || item.lane === "trend") return item.lane;
+  if (item.status === "emerging" || item.kind === "want") return "trend";
+  if (item.status === "hot") return "hot";
+  return "trend";
+}
+
+export function xianyuLaneLabel(lane = "") {
+  if (lane === "trend") return "趋势";
+  if (lane === "hot") return "热门";
+  return lane;
+}
+
+export function demandsByLane(items, lane) {
+  return asList(items).filter((item) => xianyuLane(item) === lane);
 }
