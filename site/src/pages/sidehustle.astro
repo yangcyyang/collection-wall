@@ -1,0 +1,174 @@
+---
+import "../styles/global.css";
+import LogoutControl from "../components/LogoutControl.astro";
+import SiteNav from "../components/SiteNav.astro";
+import SidehustleViewer from "../components/SidehustleViewer.astro";
+import { formatBeijingDateTime } from "../lib/news.mjs";
+import {
+  flattenSectionItems,
+  getRecentReportDates,
+  getSidehustleFeed,
+  hasReportContent,
+  SECTION_KEYS,
+  SECTION_LABELS,
+  sidehustleIndexLabel,
+  sidehustleLevelClass,
+  sidehustleLevelLabel,
+  sidehustleModelClass,
+  sidehustleModelLabel,
+  sidehustleSignalClass,
+  sidehustleSignalLabel,
+} from "../lib/sidehustle";
+
+const feed = await getSidehustleFeed();
+const items = flattenSectionItems(feed);
+const hasContent = hasReportContent(feed);
+const updated = formatBeijingDateTime(feed.updated_at);
+const recentDates = await getRecentReportDates();
+const judgements = feed.summary.today_judgement;
+const topSignals = feed.summary.top_signals;
+const sections = SECTION_KEYS.map((key) => ({
+  key,
+  title: SECTION_LABELS[key],
+  items: feed.sections[key],
+  modifier: key === "opportunities" ? "is-opportunity" : key === "to_validate" ? "is-validate" : "",
+}));
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={feed.title || "小红书副业机会雷达"} />
+    <title>副业 · 工具库</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#sidehustle-list">跳到列表</a>
+    <div class="page-shell">
+      <header class="site-header">
+        <div>
+          <p class="eyebrow">副业</p>
+          <h1>副业</h1>
+          {feed.title && <p class="intro">{feed.title}{updated ? ` · ${updated}` : ""}{feed.date ? ` · ${feed.date}` : ""}</p>}
+          {recentDates.length > 0 && (
+            <p class="intro history-dates">历史报告 · {recentDates.join(" · ")}（主视图始终读取 radar.json）</p>
+          )}
+        </div>
+        <div class="header-stats">
+          <p class="record-count">{feed.count} 条机会</p>
+          <LogoutControl />
+        </div>
+      </header>
+
+      <SiteNav current="sidehustle" />
+
+      {!hasContent ? (
+        <main id="sidehustle-list">
+          <section class="empty-state" aria-labelledby="empty-title">
+            <p class="empty-icon">✦</p>
+            <h2 id="empty-title">暂时没有副业雷达条目</h2>
+            <p>等待 data/sidehustle 写入 radar.json 后会出现在这里。</p>
+          </section>
+        </main>
+      ) : (
+        <main id="sidehustle-list">
+          <section class="tool-section" aria-labelledby="side-judgement-title">
+            <div class="section-heading">
+              <h2 id="side-judgement-title">今日判断</h2>
+              <p>{judgements.length} 条</p>
+            </div>
+            {judgements.length > 0 ? (
+              <ul class="judgement-list">{judgements.map((line) => <li>{line}</li>)}</ul>
+            ) : (
+              <p class="section-empty">今日暂无判断</p>
+            )}
+            {topSignals.length > 0 && (
+              <p class="intro"><strong>关键信号</strong> · {topSignals.join("、")}</p>
+            )}
+          </section>
+
+          {sections.map((section) => (
+            <section class:list={["tool-section", section.modifier]} aria-labelledby={`side-${section.key}-title`}>
+              <div class="section-heading">
+                <h2 id={`side-${section.key}-title`}>{section.title}</h2>
+                <p>{section.items.length} 条</p>
+              </div>
+              {section.items.length === 0 ? (
+                <p class="section-empty">暂时没有{section.title}条目</p>
+              ) : (
+                <div class="tool-grid">
+                  {section.items.map((item, index) => (
+                    <article class="tool-card">
+                      <button type="button" class="card-link" data-side-open data-side-key={`${section.key}:${item.id || index}`} aria-label={item.title}></button>
+                      <div class="card-content">
+                        <div class="card-meta">
+                          {item.signal_strength && (
+                            <span class:list={["status", sidehustleSignalClass(item.signal_strength)]}>
+                              {sidehustleSignalLabel(item.signal_strength)}
+                            </span>
+                          )}
+                          {item.model && (
+                            <span class:list={["status", sidehustleModelClass(item.model)]}>
+                              {sidehustleModelLabel(item.model)}
+                            </span>
+                          )}
+                          {sidehustleIndexLabel(item.index) && (
+                            <span class="category">{sidehustleIndexLabel(item.index)}</span>
+                          )}
+                          {item.start_cost && (
+                            <span class:list={["status", sidehustleLevelClass(item.start_cost)]}>
+                              成本{sidehustleLevelLabel(item.start_cost)}
+                            </span>
+                          )}
+                          {item.audience && <span class="category">{item.audience}</span>}
+                        </div>
+                        <h3>{item.title}</h3>
+                        <p>{item.summary}</p>
+                        <div class="tag-list">{(item.tags ?? []).slice(0, 8).map((tag) => <span>{tag}</span>)}</div>
+                      </div>
+                    </article>
+                  ))}
+                </div>
+              )}
+            </section>
+          ))}
+        </main>
+      )}
+    </div>
+    <SidehustleViewer items={items} />
+    <footer class="site-footer">
+      <p>数据来自 data/sidehustle JSON，构建时读取，不另存 HTML。</p>
+    </footer>
+  </body>
+</html>
+
+<style>
+  .tool-section.is-opportunity,
+  .tool-section.is-validate {
+    border-radius: var(--radius-card);
+    margin: var(--spacing-md) 0;
+    padding-left: var(--spacing-md);
+    padding-right: var(--spacing-md);
+  }
+  .tool-section.is-opportunity {
+    background: color-mix(in srgb, var(--color-badge-new) 10%, var(--color-surface));
+    border-left: 4px solid var(--color-badge-new);
+  }
+  .tool-section.is-validate {
+    background: color-mix(in srgb, var(--color-badge-frequent) 10%, var(--color-surface));
+    border-left: 4px solid var(--color-badge-frequent);
+  }
+  .section-empty {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-caption);
+    margin: 0;
+  }
+  .judgement-list {
+    color: var(--color-text-primary);
+    display: grid;
+    gap: var(--spacing-sm);
+    margin: 0;
+    padding-left: 1.2rem;
+  }
+  .history-dates { font-size: var(--font-size-caption); }
+</style>
