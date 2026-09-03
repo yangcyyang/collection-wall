@@ -2,27 +2,1892 @@
   "source": "xiaohongshu-ai-radar",
   "title": "小红书 AI 用户雷达",
   "date": "2026-09-03",
-  "updated_at": "2026-09-03T21:30:00+08:00",
-  "count": 0,
+  "updated_at": "2026-09-03T22:14:32+08:00",
+  "count": 86,
   "summary": {
-    "today_judgement": [],
-    "top_signals": []
+    "today_judgement": [
+      "【事实】今日搜索面里，Gemini 3.8 / Flash 发布相关帖集中出现（同日多条资讯），属于短期事件热。",
+      "【事实】评论区高频不是「模型更强」，而是：额度/价格、订阅怎么付、人物一致性、求提示词/工作流、副业买课又亏钱。",
+      "【推断】用户主战场仍在「把 AI 变成可交付结果」：PPT/主视觉/短视频/漫剧/零基础做 App；认知正在从 Prompt 词汇向 Skill / Agent 迁移，但多数仍停在 L1–L2。",
+      "【机会假设】真正赚钱的人在卖 SOP/Skill/代做/收徒，自己做账号变现仍难；内容与产品都该对准「任务闭环 + 成本可控」，而不是再讲模型榜单。"
+    ],
+    "top_signals": [
+      "AI短剧/漫剧变现祛魅：高赞失败帖+评论共识：先买课再充会员再放弃，真赚的是接单和卖课",
+      "生视频成本战争（即梦逆袭但排队/积分疼）：比价帖评论区密集吐槽价格偷袭、排队10小时、可灵积分贵",
+      "Skill 成为新通用词（PPT/自媒体/卖Skill）：Skill 搜索结果里 PPT Skill、自媒体 Skill、卖40万Skill、Prompt≠Skill 辨析同屏出现"
+    ]
   },
   "sections": {
-    "hot": [],
-    "trends": [],
-    "needs": [],
-    "pains": [],
-    "scenarios": [],
-    "products": [],
-    "content_opps": [],
-    "product_opps": [],
-    "biz_opps": [],
-    "quotes": []
+    "hot": [
+      {
+        "id": "hot-01",
+        "title": "Gemini 3.8 / Flash 发布",
+        "summary": "谷歌又发新模型、RSI/Flash 提升讨论",
+        "why": "官方发布日资讯跟风",
+        "audience": "关注大厂/模型资讯的用户",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "短期事件",
+          "高（同日多帖）",
+          "事实"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "大厂显微镜《姚顺宇发声：Gemini 3.8是RSI的一大步》等 2026-09-03 多条"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "hot-02",
+        "title": "Claude 账号稀缺/大厂扫号",
+        "summary": "散户无号、尽量少用、国内朋友怎么用",
+        "why": "供给紧张+封号焦虑",
+        "audience": "想用 Claude / Claude Code 的开发者与打工人",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "事件+长期获取痛点",
+          "中高",
+          "事实"
+        ],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "大厂AI情报处《大厂扫空几十万Claude账号》；超大型i人《虽然claude比gpt强但还是尽量少用它》"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "hot-03",
+        "title": "AI短剧/漫剧副业失败叙事",
+        "summary": "做一个月放弃；评论区共鸣买课充值没收益",
+        "why": "失败真实感>成功学",
+        "audience": "想靠AI搞钱的职场人",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "长期需求（变现）上的情绪热点",
+          "高互动",
+          "事实"
+        ],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "徐诗礼《做了一个月ai短剧，最终放弃了》4451赞369评"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "hot-04",
+        "title": "Skill 概念爆发",
+        "summary": "Prompt vs Skill vs Agent；PPT Skill；卖Skill",
+        "why": "新词+可变现叙事",
+        "audience": "进阶用户、创作者、面试/产品岗",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "长期需求萌芽",
+          "中高",
+          "事实"
+        ],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "别叫我潘老师《我说Skill就是Prompt…》；养一个AI帮我《一个Skill卖了40万》"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "hot-05",
+        "title": "Cursor 额度/涨价焦虑",
+        "summary": "还有人用吗；涨价；额度蹬完；Composer/Grok省额度",
+        "why": "付费体验恶化",
+        "audience": "程序员/Vibe Coding用户",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "产品事件",
+          "中",
+          "事实"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "Terrence曹《现在还有人用CURSOR吗？》评论；小豚凌波《Cursor官宣涨价》"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "hot-06",
+        "title": "即梦：片场/白模大赛 vs 吐槽",
+        "summary": "官方活动热 + 「最恶心/积分少/排队」吐槽并存",
+        "why": "产品功能更新+使用摩擦",
+        "audience": "AIGC视频创作者",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "产品热",
+          "中",
+          "事实"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "即梦AI《即梦片场正式上线》；笑颜《即梦会员积分真的很少》"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "hot-07",
+        "title": "零基础 AI 编程 / Vibe Coding",
+        "summary": "从0做App；vibecoding大赛；完整工作流",
+        "why": "门槛叙事+平台活动",
+        "audience": "非程序员、产品/设计",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "长期需求",
+          "高",
+          "事实"
+        ],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "木子不写代码《howto从0做出第一个App》2.1万赞；科技薯《小红书vibecoding大赛》"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "hot-08",
+        "title": "GPT Plus 自己订阅/拼车",
+        "summary": "不想代充；招行万事达；找拼车搭子",
+        "why": "支付与获取摩擦",
+        "audience": "想用国外模型的小白",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "长期获取痛点",
+          "中",
+          "事实"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "天天摸猫头《不想找代充了，自己跑通了订阅 GPT Plus》"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "hot-09",
+        "title": "Grok 人设：压抑/开车/人性",
+        "summary": "很少推荐但评论区刷车；Premium 墙",
+        "why": "差异化人设",
+        "audience": "猎奇与情绪用户",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "短期内容热，长期小众刚需",
+          "中（评论极热）",
+          "事实"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "Momo《为什么很少有人推荐Grok？》评论区"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "hot-10",
+        "title": "AI 做 PPT / NotebookLM 杀PPT",
+        "summary": "Skill做PPT、可编辑、源文件",
+        "why": "办公刚需常青",
+        "audience": "学生/职场",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "长期需求",
+          "中稳",
+          "事实"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "库森说AI《锐评AI做PPT的Skill》；两斤AI《NoteBookLM＋香蕉Pro正在杀死PPT》"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      }
+    ],
+    "trends": [
+      {
+        "id": "trend-01",
+        "title": "Skill 产品化（装Skill/卖Skill/锐评Skill）",
+        "summary": "从概念科普转向可交易资产",
+        "why": "7–30d",
+        "audience": "",
+        "direction": "up_fast",
+        "price": "",
+        "tags": [
+          "推断"
+        ],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "search-skill-ai / search-prompt 多帖"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "trend-02",
+        "title": "零代码搭 Agent / 从0到1 Agent 教程",
+        "summary": "教程帖持续，但普通人仍停在聊天",
+        "why": "30d",
+        "audience": "",
+        "direction": "up",
+        "price": "",
+        "tags": [
+          "事实"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "AlunTalk《从0到1搭建AI Agent》1万赞；Yunbow《普通人还在只用…》"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "trend-03",
+        "title": "AI视频工具比价与迁移（即梦↑可灵贵排队）",
+        "summary": "质量叙事反转+成本叙事升温",
+        "why": "30d",
+        "audience": "",
+        "direction": "up",
+        "price": "",
+        "tags": [
+          "事实"
+        ],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-video-price"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "trend-04",
+        "title": "编程工具三角：Cursor ↔ Claude Code ↔ Codex",
+        "summary": "物种辨析帖增加，迁移因额度/封号/价格",
+        "why": "7–30d",
+        "audience": "",
+        "direction": "up",
+        "price": "",
+        "tags": [
+          "推断"
+        ],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "AI小疯子《Cursor、Claude Cd、Codex原来是不同物种》；claude-code 搜索"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "trend-05",
+        "title": "AI副业成功学 → 失败复盘",
+        "summary": "放弃帖与「卖课的才赚」评论共识",
+        "why": "30d",
+        "audience": "",
+        "direction": "up",
+        "price": "",
+        "tags": [
+          "事实"
+        ],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "aishort-quit + 评论"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "trend-06",
+        "title": "人物一致性 / 固定角色工作流",
+        "summary": "绘本/漫剧评论高频求固定人物",
+        "why": "30d",
+        "audience": "",
+        "direction": "up",
+        "price": "",
+        "tags": [
+          "事实"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-picturebook"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "trend-07",
+        "title": "纯 Prompt 万能模板",
+        "summary": "仍有收藏帖，但话语权被 Skill/Agent 分流",
+        "why": "30d",
+        "audience": "",
+        "direction": "flat",
+        "price": "",
+        "tags": [
+          "推断"
+        ],
+        "signal_strength": "weak",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "search-prompt"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "trend-08",
+        "title": "DeepSeek 作为「免费神器」光环",
+        "summary": "涨价/调用崩/Agent成本讨论增多，梗图仍在",
+        "why": "7–30d",
+        "audience": "",
+        "direction": "down",
+        "price": "",
+        "tags": [
+          "推断"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "《DeepSeek涨价首日调用量崩了94%》"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "trend-09",
+        "title": "Gemini 3.8 发布讨论",
+        "summary": "事件型，需观察是否沉淀为使用迁移",
+        "why": "今日",
+        "audience": "",
+        "direction": "new",
+        "price": "",
+        "tags": [
+          "事实"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "search-gemini 2026-09-03"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      }
+    ],
+    "needs": [
+      {
+        "id": "need-01",
+        "title": "低成本稳定出可商用主视觉/海报",
+        "summary": "快速出图且可控 · 活动KV、品牌海报 · GPT Image / Banana Pro / LibTV",
+        "why": "噪点、不会选模型、不会画画难控",
+        "audience": "设计师/商业设计",
+        "direction": "",
+        "price": "",
+        "tags": [],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "主视觉AI流程分享｜美女豆 + comments-kv-workflow"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "need-02",
+        "title": "固定人物的 AI 绘本/漫画",
+        "summary": "角色一致+风格统一 · 连载内容 · 即梦+垫图",
+        "why": "每次人不像、油腻风、耗时",
+        "audience": "绘本初创/漫剧作者",
+        "direction": "",
+        "price": "",
+        "tags": [],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-picturebook"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "need-03",
+        "title": "草图→动画短片工作流",
+        "summary": "分镜草图直出视频 · 短片制作 · Shotlab 等",
+        "why": "求提示词、群满员、不知平台",
+        "audience": "AIGC创作者",
+        "direction": "",
+        "price": "",
+        "tags": [],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "一张草图直出动画短片｜小黄的AI日记"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "need-04",
+        "title": "办公室快速做可编辑PPT",
+        "summary": "小时级出几十页且能改 · 汇报/班会 · AI PPT Skill / NotebookLM+生图",
+        "why": "很多一键PPT不能改",
+        "audience": "学生/职场",
+        "direction": "",
+        "price": "",
+        "tags": [],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "search-ai-ppt"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "need-05",
+        "title": "零基础做出第一个 App/网站",
+        "summary": "Vibe Coding 闭环 · 副业/作品集 · Cursor / Claude Code / Codex",
+        "why": "工具物种不清、额度烧完、怕踩坑课",
+        "audience": "非程序员",
+        "direction": "",
+        "price": "",
+        "tags": [],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "howto从0做出第一个App；vibecoding大赛"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "need-06",
+        "title": "合法便宜订阅国外模型",
+        "summary": "自己订阅或拼车 · 日常使用 · 代充 / 招行万事达+Google Play",
+        "why": "科学上网、卡被拒、找搭子",
+        "audience": "学生党/打工人",
+        "direction": "",
+        "price": "",
+        "tags": [],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "不想找代充了…GPT Plus；拼车评论"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "need-07",
+        "title": "选最便宜的生视频工具",
+        "summary": "控成本出片 · 量产短视频/漫剧 · 可灵/即梦/Vidu/海螺",
+        "why": "价格偷袭、排队、抽卡成功率",
+        "audience": "视频创作者",
+        "direction": "",
+        "price": "",
+        "tags": [],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-video-price"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "need-08",
+        "title": "搞懂 Prompt / Skill / Agent 差在哪",
+        "summary": "认知升级 · 学习与面试 · 科普卡片帖",
+        "why": "名词爆炸听不懂",
+        "audience": "求职/进阶小白",
+        "direction": "",
+        "price": "",
+        "tags": [],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "Freda《1分钟搞懂Prompt、Skill和Agent》"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "need-09",
+        "title": "AI自媒体商单SOP",
+        "summary": "兼顾内容与效率 · 接商单 · 个人SOP+AI工具",
+        "why": "变现路径不透明",
+        "audience": "自媒体女生/自由职业",
+        "direction": "",
+        "price": "",
+        "tags": [],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "方方在路上商单SOP + 「收入都是哪些」评论"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "need-10",
+        "title": "国内模型当「能干活的Agent」而非网页聊天",
+        "summary": "稳定工作流 · 研究/编程 · Kimi网页会员 / Kimi Code / CC",
+        "why": "网页版算力不稳、套餐不适合Agent",
+        "audience": "已付费用户",
+        "direction": "",
+        "price": "",
+        "tags": [],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "亲身实例Kimi避雷贴 + 评论「网页版不该是沟通地方」"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      }
+    ],
+    "pains": [
+      {
+        "id": "pain-01",
+        "title": "AI短剧不赚钱",
+        "summary": "变现链路被课程/会员收割，缺少可控获客与交付",
+        "why": "外行学这个基本上就是先花一波钱学习，再花一波钱充值会员，然后花时间做几集，没收益然后放弃。最后发现还是卖教程的赚到了",
+        "audience": "",
+        "direction": "",
+        "price": "",
+        "tags": [],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-aishort-quit｜芝士甜甜嘎 450赞"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "pain-02",
+        "title": "出图不像",
+        "summary": "角色一致性工具链缺失",
+        "why": "怎么固定人物啊，每次都有瑕疵，每次人都不像",
+        "audience": "",
+        "direction": "",
+        "price": "",
+        "tags": [],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-picturebook"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "pain-03",
+        "title": "画质差",
+        "summary": "缺少排障与模型选型指导",
+        "why": "感谢分享，但是我用gpt老是遇见很多噪点的情况，不知道怎么解决",
+        "audience": "",
+        "direction": "",
+        "price": "",
+        "tags": [],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-kv-workflow"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "pain-04",
+        "title": "排队久",
+        "summary": "消费级产能被挤占，SLA不稳定",
+        "why": "即梦现在主要服务企业和第三方，我昨晚10点开始的，到现在还没好……噢又变还剩成10小时了",
+        "audience": "",
+        "direction": "",
+        "price": "",
+        "tags": [],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-video-price｜AIGC概率学"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "pain-05",
+        "title": "涨价",
+        "summary": "成本不可控打击量产意愿",
+        "why": "价格也很逆袭，严格说是偷袭",
+        "audience": "",
+        "direction": "",
+        "price": "",
+        "tags": [],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-video-price｜Sam Hui"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "pain-06",
+        "title": "贵",
+        "summary": "强模型成瘾 vs 预算墙",
+        "why": "赞同，对claude普通毒瘾难戒断。可是也太贵了啊。",
+        "audience": "",
+        "direction": "",
+        "price": "",
+        "tags": [],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-6a4a7578"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "pain-07",
+        "title": "额度玩法",
+        "summary": "用户在「省额度」而非「做好产品」上内卷",
+        "why": "用 cursor 自家的模型 composer 或 grok，腿蹬断了都用不完额度",
+        "audience": "",
+        "direction": "",
+        "price": "",
+        "tags": [],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-6a71b4a3"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "pain-08",
+        "title": "Kimi网页翻车",
+        "summary": "付费权益与产品形态错配",
+        "why": "如果你购买了会员，那么网页版就不应该再是你沟通的地方了",
+        "audience": "",
+        "direction": "",
+        "price": "",
+        "tags": [],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-6a44fc05｜猪怕壮"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "pain-09",
+        "title": "不会订阅",
+        "summary": "跨境支付与网络门槛",
+        "why": "请问操作这些之前是不是要在“科学上网”的网络环境下？",
+        "audience": "",
+        "direction": "",
+        "price": "",
+        "tags": [],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-6a49cfde"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "pain-10",
+        "title": "入门费",
+        "summary": "高客单课程劝退+不信任",
+        "why": "刚想入坑，要交个498",
+        "audience": "",
+        "direction": "",
+        "price": "",
+        "tags": [],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-aishort-quit｜大鱼！"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      }
+    ],
+    "scenarios": [
+      {
+        "id": "scene-01",
+        "title": "品牌活动主KV",
+        "summary": "商业设计师 · 出主视觉海报 · GPT Image / Banana Pro / LibTV · 流程可复用、高收藏",
+        "why": "噪点/选模型/不会画",
+        "audience": "商业设计师",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "GPT Image / Banana Pro / LibTV"
+        ],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "主视觉AI流程分享"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "scene-02",
+        "title": "非商用绘本",
+        "summary": "绘本初创者 · 固定角色连续出页 · 即梦+垫图 · 风格受赞",
+        "why": "人物不一致",
+        "audience": "绘本初创者",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "即梦+垫图"
+        ],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "挑战AI画绘本的第一天"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "scene-03",
+        "title": "动画短片",
+        "summary": "AIGC创作者 · 草图分镜直出三段视频 · Shotlab · 高赞教程",
+        "why": "提示词/平台门槛",
+        "audience": "AIGC创作者",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "Shotlab"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "一张草图直出动画短片"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "scene-04",
+        "title": "接商单",
+        "summary": "自媒体创作者 · 一个月10条商单内容 · AI创作SOP · 效率叙事",
+        "why": "收入结构不透明",
+        "audience": "自媒体创作者",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "AI创作SOP"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "howto 1个月10条商单"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "scene-05",
+        "title": "AI漫剧",
+        "summary": "副业试水者 · 做剧变现 · Sora/国内模型+付费课 · 放弃",
+        "why": "课+会员+无收益",
+        "audience": "副业试水者",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "Sora/国内模型+付费课"
+        ],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "做了一个月ai短剧最终放弃"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "scene-06",
+        "title": "日常写代码",
+        "summary": "开发者 · 在额度内尽量多用Agent · Cursor / CC / Codex / Kimi · 组合拳省钱",
+        "why": "额度焦虑与工具切换成本",
+        "audience": "开发者",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "Cursor / CC / Codex / Kimi"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "现在还有人用CURSOR吗评论区"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      }
+    ],
+    "products": [
+      {
+        "id": "prod-01",
+        "title": "即梦",
+        "summary": "质量逆袭叙事+官方片场/活动；同时排队与积分吐槽加剧",
+        "why": "",
+        "audience": "",
+        "direction": "up",
+        "price": "",
+        "tags": [],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-video-price；即梦片场上线"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "prod-02",
+        "title": "可灵",
+        "summary": "仍被比价，积分贵（评论：26000积分花500）",
+        "why": "",
+        "audience": "",
+        "direction": "flat_to_down",
+        "price": "",
+        "tags": [],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-video-price"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "prod-03",
+        "title": "Claude / Claude Code",
+        "summary": "需求强但账号/价格/封号限制供给",
+        "why": "",
+        "audience": "",
+        "direction": "up_demand_down_access",
+        "price": "",
+        "tags": [],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "扫号帖；毒瘾但太贵评论"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "prod-04",
+        "title": "Cursor",
+        "summary": "仍是入口级IDE，但涨价/额度促使对比 CC/Codex",
+        "why": "",
+        "audience": "",
+        "direction": "mixed",
+        "price": "",
+        "tags": [],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "search-cursor + comments-6a71b4a3"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "prod-05",
+        "title": "Codex",
+        "summary": "出现在编程三角对比与游戏Skill榜",
+        "why": "",
+        "audience": "",
+        "direction": "up",
+        "price": "",
+        "tags": [],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "search-claude-code / skill-ai"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "prod-06",
+        "title": "ChatGPT",
+        "summary": "作生图与订阅教程常青，对比帖仍在",
+        "why": "",
+        "audience": "",
+        "direction": "flat",
+        "price": "",
+        "tags": [],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "search-chatgpt"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "prod-07",
+        "title": "Kimi",
+        "summary": "有拥趸（可养/文献）也有避雷（网页翻车、套餐不适配Agent）",
+        "why": "",
+        "audience": "",
+        "direction": "mixed",
+        "price": "",
+        "tags": [],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "Kimi避雷贴"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "prod-08",
+        "title": "Grok",
+        "summary": "主流推荐少，垂直场景（人味/开车）评论极热",
+        "why": "",
+        "audience": "",
+        "direction": "niche_up",
+        "price": "",
+        "tags": [],
+        "signal_strength": "weak",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "为什么很少有人推荐Grok"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "prod-09",
+        "title": "DeepSeek",
+        "summary": "涨价冲击Agent成本叙事，梗图仍传播",
+        "why": "",
+        "audience": "",
+        "direction": "down_halo",
+        "price": "",
+        "tags": [],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "涨价崩量帖"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "prod-10",
+        "title": "Gemini",
+        "summary": "3.8发布日资讯尖峰，使用迁移待观察",
+        "why": "",
+        "audience": "",
+        "direction": "new_spike",
+        "price": "",
+        "tags": [],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "search-gemini"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      }
+    ],
+    "content_opps": [
+      {
+        "id": "copp-01",
+        "title": "AI短剧真实成本账：课+会员+积分+时间，到底谁赚了",
+        "summary": "复盘账本+可验证的接单路径，拒绝成功学",
+        "why": "失败帖高互动，评论共识强",
+        "audience": "想靠AI搞钱的职场人",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "P0",
+          "机会假设"
+        ],
+        "signal_strength": "strong",
+        "evidence": [],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "copp-02",
+        "title": "人物锁定从0到1：绘本/漫剧角色一致性实操",
+        "summary": "垫图/描述模板/失败案例对照",
+        "why": "评论原话高频",
+        "audience": "漫剧与绘本作者",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "P0",
+          "机会假设"
+        ],
+        "signal_strength": "strong",
+        "evidence": [],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "copp-03",
+        "title": "Cursor / Claude Code / Codex 一张表：别再问「哪个更好」",
+        "summary": "按任务入口选工具+额度省钱策略",
+        "why": "物种辨析帖与额度焦虑并存",
+        "audience": "零基础想做App的人",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "P1",
+          "机会假设"
+        ],
+        "signal_strength": "mid",
+        "evidence": [],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "copp-04",
+        "title": "即梦/可灵/Vidu 成本计算器（含排队隐形成本）",
+        "summary": "同任务出价+等待时间",
+        "why": "比价帖评论火药味足",
+        "audience": "视频创作者",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "P1",
+          "机会假设"
+        ],
+        "signal_strength": "strong",
+        "evidence": [],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "copp-05",
+        "title": "Prompt→Skill 迁移课：别再收藏100条万能提示词",
+        "summary": "把高频任务封装成Skill的最小例子",
+        "why": "Skill词爆发且可变现",
+        "audience": "L2用户",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "P1",
+          "机会假设"
+        ],
+        "signal_strength": "mid",
+        "evidence": [],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      }
+    ],
+    "product_opps": [
+      {
+        "id": "popp-01",
+        "title": "角色卡+自动一致性打分的生图工作台",
+        "summary": "角色不一致 · 垫图+口头描述 · 一键角色资产与一致性校验",
+        "why": "一键角色资产与一致性校验",
+        "audience": "漫剧/绘本创作者",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "高",
+          "机会假设",
+          "连载出图"
+        ],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-picturebook"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "popp-02",
+        "title": "AI视频成本雷达/预算告警",
+        "summary": "价格不透明+排队 · 各家官网积分 · 跨平台真实成本对比",
+        "why": "跨平台真实成本对比",
+        "audience": "视频创作者",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "高",
+          "机会假设",
+          "选工具量产"
+        ],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-video-price"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "popp-03",
+        "title": "带预算帽的 Vibe Coding 教练Agent",
+        "summary": "工具三角混乱+烧额度 · Cursor等 · 任务导向路由与成本帽",
+        "why": "任务导向路由与成本帽",
+        "audience": "非程序员",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "中高",
+          "机会假设",
+          "做第一个产品"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "search-vibe-coding + cursor评论"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "popp-04",
+        "title": "可商用模板约束的PPT Skill市场",
+        "summary": "一键PPT不能改/不好看 · 各类AI PPT · 可编辑+设计约束的Skill",
+        "why": "可编辑+设计约束的Skill",
+        "audience": "职场人",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "中",
+          "机会假设",
+          "PPT"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "search-ai-ppt"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "popp-05",
+        "title": "购买后场景路由器（网页/Code/API）",
+        "summary": "网页聊天≠Agent生产力 · Kimi等会员 · 套餐-场景匹配与桌面Agent引导",
+        "why": "套餐-场景匹配与桌面Agent引导",
+        "audience": "已付费国内模型用户",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "中",
+          "机会假设",
+          "研究/编程"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "Kimi避雷贴评论"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      }
+    ],
+    "biz_opps": [
+      {
+        "id": "bopp-01",
+        "title": "AI短剧/漫剧接单分发（而非卖梦想课）",
+        "summary": "服务/撮合",
+        "why": "强：评论区收徒/接单自述；同时对498课程反感",
+        "audience": "",
+        "direction": "",
+        "price": "强：评论区收徒/接单自述；同时对498课程反感",
+        "tags": [
+          "服务/撮合"
+        ],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "大大怪「接单和卖课盈利」"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "bopp-02",
+        "title": "可复制提示词/文档社群",
+        "summary": "社群/资料包",
+        "why": "强：求提示词、文档群满员",
+        "audience": "",
+        "direction": "",
+        "price": "强：求提示词、文档群满员",
+        "tags": [
+          "社群/资料包"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "sketch-to-anime 评论"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "bopp-03",
+        "title": "Skill 商品化",
+        "summary": "数字商品",
+        "why": "中强：出现「一个Skill卖了40万」叙事（需甄别夸张）",
+        "audience": "",
+        "direction": "",
+        "price": "中强：出现「一个Skill卖了40万」叙事（需甄别夸张）",
+        "tags": [
+          "数字商品"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "养一个AI帮我帖"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "bopp-04",
+        "title": "GPT/Claude 拼车与订阅陪跑",
+        "summary": "服务",
+        "why": "中：评论大量找搭子/咨询",
+        "audience": "",
+        "direction": "",
+        "price": "中：评论大量找搭子/咨询",
+        "tags": [
+          "服务"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "GPT Plus拼车评论"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "bopp-05",
+        "title": "主视觉/商单代做",
+        "summary": "代做服务",
+        "why": "中：商单SOP高收藏+咨询",
+        "audience": "",
+        "direction": "",
+        "price": "中：商单SOP高收藏+咨询",
+        "tags": [
+          "代做服务"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "方方商单SOP"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      }
+    ],
+    "quotes": [
+      {
+        "id": "quote-01",
+        "title": "外行学这个基本上就是先花一波钱学习，再花一波钱充值会员，然后花时间做几集，没收益然后放弃。最后发现还是卖教程的赚到了",
+        "summary": "AI短剧",
+        "why": "",
+        "audience": "",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "AI短剧"
+        ],
+        "signal_strength": "",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-aishort-quit"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "quote-02",
+        "title": "这种吗，我现在差不多跑通了，但是我现在主要不是自己做账号，是通过接单和卖课盈利，接的单子分给徒弟们做",
+        "summary": "变现",
+        "why": "",
+        "audience": "",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "变现"
+        ],
+        "signal_strength": "",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-aishort-quit"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "quote-03",
+        "title": "事实就是，AI现在能力完全不够……现在的AI在视频生成上还是很拉。",
+        "summary": "AI视频",
+        "why": "",
+        "audience": "",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "AI视频"
+        ],
+        "signal_strength": "",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-aishort-quit"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "quote-04",
+        "title": "怎么固定人物啊，每次都有瑕疵，每次人都不像",
+        "summary": "绘本",
+        "why": "",
+        "audience": "",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "绘本"
+        ],
+        "signal_strength": "",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-picturebook"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "quote-05",
+        "title": "为什么我尝试描述风格或者上传参考图都不行 只能生成那种特别油腻的风格",
+        "summary": "生图",
+        "why": "",
+        "audience": "",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "生图"
+        ],
+        "signal_strength": "",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-picturebook"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "quote-06",
+        "title": "感谢分享，但是我用gpt老是遇见很多噪点的情况，不知道怎么解决",
+        "summary": "主视觉",
+        "why": "",
+        "audience": "",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "主视觉"
+        ],
+        "signal_strength": "",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-kv-workflow"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "quote-07",
+        "title": "所以完全不会画画，靠自己的嘴是不是其实很难做到这么完美的效果",
+        "summary": "主视觉",
+        "why": "",
+        "audience": "",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "主视觉"
+        ],
+        "signal_strength": "",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-kv-workflow"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "quote-08",
+        "title": "价格也很逆袭，严格说是偷袭",
+        "summary": "即梦/视频价",
+        "why": "",
+        "audience": "",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "即梦/视频价"
+        ],
+        "signal_strength": "",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-video-price"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "quote-09",
+        "title": "即梦现在主要服务企业和第三方，我昨晚10点开始的，到现在还没好……噢又变还剩成10小时了",
+        "summary": "即梦排队",
+        "why": "",
+        "audience": "",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "即梦排队"
+        ],
+        "signal_strength": "",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-video-price"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "quote-10",
+        "title": "可灵我26000的积分花了500",
+        "summary": "可灵成本",
+        "why": "",
+        "audience": "",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "可灵成本"
+        ],
+        "signal_strength": "",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-video-price"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "quote-11",
+        "title": "赞同，对claude普通毒瘾难戒断。可是也太贵了啊。",
+        "summary": "Claude",
+        "why": "",
+        "audience": "",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "Claude"
+        ],
+        "signal_strength": "",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-6a4a7578"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "quote-12",
+        "title": "但claude 容易被封 咋整",
+        "summary": "Claude",
+        "why": "",
+        "audience": "",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "Claude"
+        ],
+        "signal_strength": "",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-6a4a7578"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "quote-13",
+        "title": "用 cursor 自家的模型 composer 或 grok，腿蹬断了都用不完额度",
+        "summary": "Cursor额度",
+        "why": "",
+        "audience": "",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "Cursor额度"
+        ],
+        "signal_strength": "",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-6a71b4a3"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "quote-14",
+        "title": "如果你购买了会员，那么网页版就不应该再是你沟通的地方了，LLM 最好搭配对应厂商的 Agent 工具使用。",
+        "summary": "Kimi",
+        "why": "",
+        "audience": "",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "Kimi"
+        ],
+        "signal_strength": "",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-6a44fc05"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "quote-15",
+        "title": "请问操作这些之前是不是要在“科学上网”的网络环境下？",
+        "summary": "GPT订阅",
+        "why": "",
+        "audience": "",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "GPT订阅"
+        ],
+        "signal_strength": "",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-6a49cfde"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      },
+      {
+        "id": "quote-16",
+        "title": "目前体验下来感觉唯一的优势就是开车，但是多开几次就会发现十分重复且低质",
+        "summary": "Grok",
+        "why": "",
+        "audience": "",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "Grok"
+        ],
+        "signal_strength": "",
+        "evidence": [
+          {
+            "url": "",
+            "title": "",
+            "note": "comments-6a4cd8db"
+          }
+        ],
+        "first_detected": "2026-09-03",
+        "last_updated": "2026-09-03T22:14:32+08:00"
+      }
+    ]
   },
   "awareness": {
-    "dominant_level": "",
-    "fastest_growing": "",
-    "note": ""
+    "dominant_level": "L2",
+    "fastest_growing": "L2→L3（求工作流/SOP）与口头L4（Agent/Skill词汇）",
+    "note": "【事实】大量「求提示词」「万能框架」= L2 【事实】工作流/草图直出/主视觉流程/商单SOP = L3 需求上升 【推断】Agent/MCP/Skill 帖增长快，但评论显示多数人仍不会落地，存在「词汇L4、行为L1」落差 【机会假设】内容体系应按 L1任务示范 → L3可抄工作流 → L4可组装Skill 分层，而不是一上来讲 Agent 架构"
+  },
+  "_meta": {
+    "profile": "pfzpdshj",
+    "method": "opencli xiaohongshu search/comments/note",
+    "caveats": [
+      "单日搜索排序≠全站热榜；部分评论拉取为空（token/explore路径问题）已跳过",
+      "趋势方向为基于标题日期分布与评论密度的推断，非官方热度曲线",
+      "只调研不发布"
+    ]
   }
 }
