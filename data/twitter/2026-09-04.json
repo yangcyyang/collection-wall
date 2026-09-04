@@ -9,6 +9,280 @@
   },
   "items": [
     {
+      "id": "2095901805569835424",
+      "author": "abskoop",
+      "bio": "",
+      "text": "想租 GPU 跑模型，看了几家平台，价格差得还不少，到底哪个价才算正常？\n\nComputable GPU Index 是一个开源的 GPU 价格指数工具，会把多家平台的公开报价整理成 GPU 云算力价格 参考指数。目前可以看 H100 SXM、H200 SXM、B200 和 B300，每 15 分钟更新一次。\n\n租 GPU 前可以先看看现在的市场价，拿到供应商报价后也能顺手对一下，做训练预算时心里更有数。\n\n它的计算方法、历史数据和代码都公开，还提供 REST API 和 MCP，Claude 这类支持 MCP 的 AI 客户端也能直接查最新价格。\n\n👉 https://t.co/Mx2qAmPJuw",
+      "likes": 3,
+      "retweets": 0,
+      "replies": 0,
+      "views": "3155",
+      "created_at": "Fri Sep 04 15:48:25 +0000 2026",
+      "url": "https://x.com/abskoop/status/2095901805569835424",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRYjQm9WYAEBKzl.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRYjQm9WYAEBKzl.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 56.683,
+      "summary": "Computable GPU Index 整理多家平台公开报价，覆盖 H100/H200/B200/B300 SXM，约每 15 分钟更新；方法、历史数据与代码公开，并提供 REST API 与 MCP，可在支持 MCP 的客户端直接查价，方便租卡前对报价、做训练预算。",
+      "recommend_reason": "训练/租卡前缺统一市价参照时很实用，还带 MCP，能直接喂给 Agent 查价。",
+      "tags": [
+        "GPU",
+        "算力",
+        "开源工具",
+        "MCP",
+        "成本"
+      ],
+      "title": "开源 Computable GPU Index：多云 GPU 报价参考指数",
+      "rank": 1
+    },
+    {
+      "id": "2095900045338165496",
+      "author": "wangzan101",
+      "bio": "",
+      "text": "？千问办公一个月用户数破三千万？？ https://t.co/4eaj8yjFjX",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "152",
+      "created_at": "Fri Sep 04 15:41:25 +0000 2026",
+      "url": "https://x.com/wangzan101/status/2095900045338165496",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRYh-gIa4AAe6yp.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRYh-gIa4AAe6yp.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 48.591,
+      "summary": "？千问办公一个月用户数破三千万？？",
+      "recommend_reason": "用截图抛出千问办公月活三千万的争议数字，适合跟进国内办公 Agent 增长叙事是否属实。",
+      "tags": [
+        "Qwen",
+        "千问办公",
+        "产业",
+        "产品"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2095898147189039420",
+      "author": "bindureddy",
+      "bio": "",
+      "text": "Everyone is raving about Astra but I want to rave about Luna!\n\n- extremely good small model\n- beats Deepseek on performance \n- perfect for personal agents \n\nThe fit, finish and up-time on this models beats all the open source variants",
+      "likes": 80,
+      "retweets": 0,
+      "replies": 0,
+      "views": "4337",
+      "created_at": "Fri Sep 04 15:33:52 +0000 2026",
+      "url": "https://x.com/bindureddy/status/2095898147189039420",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 64.809,
+      "summary": "bindureddy 认为 Luna 值得关注：极强小模型、性能可压 DeepSeek，很适合个人 Agent；成品完成度与在线稳定性也优于多数开源变体。",
+      "recommend_reason": "在 Astra 热度里给出可对比的小模型选型视角（性能/Agent 适配/稳定性），信息密度高。",
+      "tags": [
+        "Luna",
+        "小模型",
+        "Agent",
+        "开源模型"
+      ],
+      "title": "别只吹 Astra：Luna 小模型更适合个人 Agent",
+      "rank": 3
+    },
+    {
+      "id": "2095895049687249394",
+      "author": "xiaoxiaodong01",
+      "bio": "",
+      "text": "GPT2 x 每日提示词邮件 x 提示词库 x 小小东\n\n每天坚持给会员，发送3个提示词分享\n\n每天一看内容心情就好~\n\n各种应用角度，各种美学可能\n\n感觉自己做的这个功能，虽然小，真的很温柔\n又很实用。\n\n小小的自豪。\n\n图一有彩蛋。 https://t.co/EF9sbqG1j6",
+      "likes": 3,
+      "retweets": 0,
+      "replies": 0,
+      "views": "537",
+      "created_at": "Fri Sep 04 15:21:34 +0000 2026",
+      "url": "https://x.com/xiaoxiaodong01/status/2095895049687249394",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRYdb26acAA5oE9.jpg",
+        "https://pbs.twimg.com/media/HRYdb15asAEg8Z9.jpg",
+        "https://pbs.twimg.com/media/HRYdb16acAAHtjn.jpg",
+        "https://pbs.twimg.com/media/HRYdb2BaoAAf2sX.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRYdb26acAA5oE9.jpg",
+        "https://pbs.twimg.com/media/HRYdb15asAEg8Z9.jpg",
+        "https://pbs.twimg.com/media/HRYdb16acAAHtjn.jpg",
+        "https://pbs.twimg.com/media/HRYdb2BaoAAf2sX.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 57.603,
+      "summary": "GPT2 x 每日提示词邮件 x 提示词库 x 小小东\n\n每天坚持给会员，发送3个提示词分享\n\n每天一看内容心情就好~\n\n各种应用角度，各种美学可能\n\n感觉自己做的这个功能，虽然小，真的很温柔\n又很实用。\n\n小小的自豪。\n\n图一有彩蛋。",
+      "recommend_reason": "把提示词库做成每日轻量触达，是「小而稳」产品习惯的好样本，也方便跟进提示词应用灵感。",
+      "tags": [
+        "提示词",
+        "产品",
+        "GPT",
+        "内容运营"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2095892833177866690",
+      "author": "kevinma_dev_zh",
+      "bio": "",
+      "text": "我平时都没有觉得 Computer Use 好用的，觉得太慢。\n\n但今天让我感受到很方便是， Claude 给我做 LLC 州政府年审。我使用的 Claude Cowork，在一个专门管理公司的文件夹中运行，它就在 Claude 内置的浏览器中打开网站，自动填写和确认公司信息，只有最终写名字、勾选确认和付钱是我自己来，前面全程自动。",
+      "likes": 3,
+      "retweets": 0,
+      "replies": 0,
+      "views": "738",
+      "created_at": "Fri Sep 04 15:12:45 +0000 2026",
+      "url": "https://x.com/kevinma_dev_zh/status/2095892833177866690",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 52.138,
+      "summary": "我平时都没有觉得 Computer Use 好用的，觉得太慢。\n\n但今天让我感受到很方便是， Claude 给我做 LLC 州政府年审。我使用的 Claude Cowork，在一个专门管理公司的文件夹中运行，它就在 Claude 内置的浏览器中打开网站，自动填写和确认公司信息，只有最终写名字、勾选确认和付钱是我自己来，前面全程自动。",
+      "recommend_reason": "用真实 LLC 年审场景说明 Computer Use 何时值得用：慢可以接受，关键是替你跑完表单与确认链路。",
+      "tags": [
+        "Computer Use",
+        "Claude",
+        "Agent",
+        "自动化"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2095890651091275969",
+      "author": "kevinma_dev_zh",
+      "bio": "",
+      "text": "用 AI 最爽的时刻不是开发新功能，而是修 Bug 和做运维工作，尤其是运维是最方便的，以前是在 Dashboard 点来点去，现在只要有 API 或 CLI，都可以安排 Agent 去做。",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0,
+      "views": "377",
+      "created_at": "Fri Sep 04 15:04:05 +0000 2026",
+      "url": "https://x.com/kevinma_dev_zh/status/2095890651091275969",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 51.594,
+      "summary": "用 AI 最爽的时刻不是开发新功能，而是修 Bug 和做运维工作，尤其是运维是最方便的，以前是在 Dashboard 点来点去，现在只要有 API 或 CLI，都可以安排 Agent 去做。",
+      "recommend_reason": "一句话点出 Agent 高杠杆场景：有 API/CLI 的运维与修 Bug，比追新功能更立刻省时间。",
+      "tags": [
+        "Agent",
+        "运维",
+        "API",
+        "工程实践"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2095890279865721217",
+      "author": "AndrewYNg",
+      "bio": "",
+      "text": "The most important skills for using AI coding agents effectively. Presenting the AI Engineering Skills Map for using coding agents. https://t.co/GrEw7wG5Wz",
+      "likes": 1497,
+      "retweets": 0,
+      "replies": 0,
+      "views": "83999",
+      "created_at": "Fri Sep 04 15:02:37 +0000 2026",
+      "url": "https://x.com/AndrewYNg/status/2095890279865721217",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 70.439,
+      "summary": "高效使用 AI 编程代理最重要的技能：吴恩达发布「AI Engineering Skills Map」，专门讲 coding agents 的工程能力地图。",
+      "recommend_reason": "吴恩达直接给出 coding agents 技能地图入口，比零散技巧更适合系统补齐能力短板。",
+      "tags": [
+        "Agent",
+        "Coding",
+        "AndrewNg",
+        "工程实践"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2095887958981382612",
+      "author": "stevenbjohnson",
+      "bio": "",
+      "text": "Every Expert Intelligence notebook we feature includes a note from the author and extra sources curated by them. Here's @AnnieDuke explaining how exploring her fascinating book Thinking In Bets in @Gemini_Notebook can help you make smarter decisions. https://t.co/Q9qs3Uyt2o https://t.co/NEw8N1CsWN",
+      "likes": 16,
+      "retweets": 0,
+      "replies": 0,
+      "views": "2130",
+      "created_at": "Fri Sep 04 14:53:23 +0000 2026",
+      "url": "https://x.com/stevenbjohnson/status/2095887958981382612",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRYWNWoakAAqXgV.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRYWNWoakAAqXgV.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 62.415,
+      "summary": "每个 Expert Intelligence notebook 都含作者笔记与其精选额外来源。本期 Annie Duke 讲解如何在 Gemini Notebook 里探索《Thinking In Bets》，帮助做出更聪明的决策。",
+      "recommend_reason": "展示「作者亲注 + 外部资料」的专家笔记本形态，比单纯上传 PDF 更有决策训练价值。",
+      "tags": [
+        "Gemini",
+        "Gemini Notebook",
+        "决策",
+        "专家知识"
+      ],
+      "title": "Expert Intelligence：Annie Duke《Thinking In Bets》进 Gemini Notebook",
+      "rank": 8
+    },
+    {
+      "id": "2095886603311018143",
+      "author": "stevenbjohnson",
+      "bio": "",
+      "text": "This week at @Gemini_Notebook, we're featuring two notebooks built around a pair of recent popular advice books, starting with @ericries' instant classic, The Lean Startup. Add Eric's book to any notebook, and it's like having him as your personal coach. https://t.co/mCQDcoyL2g https://t.co/dC4DXEaO6X",
+      "likes": 42,
+      "retweets": 0,
+      "replies": 0,
+      "views": "3261",
+      "created_at": "Fri Sep 04 14:48:00 +0000 2026",
+      "url": "https://x.com/stevenbjohnson/status/2095886603311018143",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRYUy_sacAEhLCF.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRYUy_sacAEhLCF.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 66.6,
+      "summary": "Gemini Notebook 本周围绕两本热门建议类书做笔记本，先推 Eric Ries《精益创业》：把该书加入任意 notebook，就像有他本人当私人教练。配有作者说明与精选资料。",
+      "recommend_reason": "把经典创业书嵌进 Gemini Notebook 的工作流示例，适合看「书本知识如何变成可交互教练」。",
+      "tags": [
+        "Gemini",
+        "Gemini Notebook",
+        "精益创业",
+        "知识管理"
+      ],
+      "title": "Gemini Notebook 本周精选：把《精益创业》加成个人教练式笔记本",
+      "rank": 9
+    },
+    {
       "id": "2095723635038400960",
       "author": "dugujun12",
       "bio": "十年互联网运营，一人公司+AI 转型中。\n自研本地AI工作助手 DOWORK，欢迎使用：\nhttps://t.co/GvszyN3kBU",
@@ -35,7 +309,7 @@
         "豆包",
         "产业"
       ],
-      "rank": 1
+      "rank": 10
     },
     {
       "id": "2095680322272952448",
@@ -64,7 +338,7 @@
         "Token",
         "产品"
       ],
-      "rank": 2
+      "rank": 11
     },
     {
       "id": "2095678759651438887",
@@ -100,7 +374,7 @@
         "Sam Altman",
         "发布"
       ],
-      "rank": 3
+      "rank": 12
     },
     {
       "id": "2095657325671612679",
@@ -130,7 +404,7 @@
         "OpenAI",
         "产业"
       ],
-      "rank": 4
+      "rank": 13
     },
     {
       "id": "2095651088502591861",
@@ -158,7 +432,7 @@
         "额度",
         "ChatGPT"
       ],
-      "rank": 5
+      "rank": 14
     },
     {
       "id": "2095621571335655872",
@@ -190,7 +464,7 @@
         "企业版",
         "产品"
       ],
-      "rank": 6
+      "rank": 15
     },
     {
       "id": "2095620419906830788",
@@ -220,7 +494,7 @@
         "评测",
         "Fable 5"
       ],
-      "rank": 7
+      "rank": 16
     },
     {
       "id": "2095615392874123689",
@@ -250,7 +524,7 @@
         "Agent",
         "演示"
       ],
-      "rank": 8
+      "rank": 17
     },
     {
       "id": "2095605066116055060",
@@ -292,7 +566,7 @@
         "GPT-6 Astra",
         "发布"
       ],
-      "rank": 9
+      "rank": 18
     },
     {
       "id": "2095602995874410664",
@@ -321,7 +595,7 @@
         "本地模型",
         "产品"
       ],
-      "rank": 10
+      "rank": 19
     },
     {
       "id": "2095600005772104059",
@@ -348,7 +622,7 @@
         "评测",
         "安全对齐"
       ],
-      "rank": 11
+      "rank": 20
     },
     {
       "id": "2095598855073255644",
@@ -379,7 +653,7 @@
         "GPT-6 Astra",
         "发布"
       ],
-      "rank": 12
+      "rank": 21
     },
     {
       "id": "2095597264043717014",
@@ -405,7 +679,7 @@
         "故障",
         "基础设施"
       ],
-      "rank": 13
+      "rank": 22
     },
     {
       "id": "2095597168816226335",
@@ -438,7 +712,7 @@
         "发布",
         "ChatGPT Plus"
       ],
-      "rank": 14
+      "rank": 23
     },
     {
       "id": "2095595741528125780",
@@ -467,7 +741,7 @@
         "Agent",
         "产品"
       ],
-      "rank": 15
+      "rank": 24
     },
     {
       "id": "2095566278752977060",
@@ -521,7 +795,7 @@
         "GPT",
         "设计"
       ],
-      "rank": 16
+      "rank": 25
     },
     {
       "id": "2095561055682310638",
@@ -551,7 +825,7 @@
         "Agent",
         "折扣"
       ],
-      "rank": 17
+      "rank": 26
     },
     {
       "id": "2095512413663883348",
@@ -595,7 +869,7 @@
         "Skill",
         "Coding Agent"
       ],
-      "rank": 18
+      "rank": 27
     },
     {
       "id": "2095512141390561758",
@@ -630,7 +904,7 @@
         "提示词",
         "设计系统"
       ],
-      "rank": 19
+      "rank": 28
     },
     {
       "id": "2095477563825279147",
@@ -658,10 +932,10 @@
         "Agent",
         "工具"
       ],
-      "rank": 20
+      "rank": 29
     }
   ],
-  "generated_at": "2026-09-04T04:16:11Z",
+  "generated_at": "2026-09-04T16:56:48Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -669,11 +943,11 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 20,
-    "last_batch_added": 20,
+    "actual_count": 29,
+    "last_batch_added": 9,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
