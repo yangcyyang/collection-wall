@@ -28,5 +28,10 @@
     "date": "2026-09-03",
     "watch": "行业",
     "body": "今天主线是开源生态变天：英伟达官宣约 129.3 亿美元收购 Hugging Face（官方博客 + 黄仁勋 / Clément / Thomas Wolf 同日表态），承诺 Hub 继续开放、算力无关、团队留任——你盯开源模型和 Hub 的话，优先点开 NVIDIA Blog 与 HF 联创那条看边界承诺。贴身相关：Cursor 上线 Self-Hosted Machines（云 Agent 推理仍在云端、工具执行进自有机器），做墙/店若要控内网可直接看官方文；HF 新开源 funes 给 Claude Code / Codex 等编码 Agent 加本地可持有记忆层，和你日常 Cursor/CPA 编码流很贴。次看 Meta Muse Spark 1.3 评测逼近 Claude/GPT 一线，以及 Claude Cowork/Code 支持后台操作电脑。"
+  },
+  "2026-09-04": {
+    "date": "2026-09-04",
+    "watch": "模型",
+    "body": "今天主线是 GPT-6 Astra：OpenAI 自称最强、主打电脑/浏览器操作，网络安全摸到 Preparedness Critical（先限 Daybreak，再扩付费/API）；Chollet/ARC 标准 harness 约 66%、改装近满，半年就把 ARC-AGI-3 饱和。编码向优先看 Artificial Analysis（Coding Agent 追平 Fable 5、token 效率比 Sol 高约 70%）和 Rohan Paul 系统卡解读（思维链可控性大涨、可监控性下降）。贴身：xAI 给 Grok / Cursor Enterprise 客户两周免费开 Grok Bot 企业版——你正在用的产品线在扩组织席位；开源侧 IFM 放出 K2 Horizon 全家桶（0.9B–375B）带完整训练产物。技巧可点 Claude Code 把 93 年 Amiga 游戏搬进 Godot 的复盘。"
   }
 }
