@@ -1,0 +1,688 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-04",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2095723635038400960",
+      "author": "dugujun12",
+      "bio": "十年互联网运营，一人公司+AI 转型中。\n自研本地AI工作助手 DOWORK，欢迎使用：\nhttps://t.co/GvszyN3kBU",
+      "text": "虽然今天全网都在聊这个 ChatGPT 的新的模型，但我想讲一讲国内 Agent 的情况。\n我从昨天开始体验了千问客户端的“工作助理”模式，它让我挺惊喜的。\n它其实支持接入第三方大模型，但必须是它 API 订阅计划里接入的模型。我看了一下，基本上都是国内主流的大模型，没有国外的大模型。\n在这一点上，它其实要比豆包强得多，但是比 Workbuddy 差一点。\n1. Workbuddy：\n其实是允许自定义大模型的。也就是说，如果你能够搞定国外大模型的 API，你就可以去接入。因此，我之前对主流 Agent 的评价发生了变化，把 Workbuddy 提升到了顶级的程度（它原来在我心中是“人上人”，也就是弱一点）。\n2. 千问系：\n它还有一个叫做“Qwen Code”的产品，有点类似于 ZCode、Kimi Code 这样。但问了一下，它本身不支持接入第三方大模型，只适配千问模型。所以，如果是“Qwen Code”加上千问模型，其实是可以排到顶级的。目前我排到顶级的千问产品是 QODAR 加上千问模型，这其实等于说会有一些变化。\n\n以上就是我对目前国内主流 Agent 排序的大概变化情况。如果只针对国内的情况来说，目前我认为的排序是：Workbuddy > 千问系 > 豆包系。",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "views": 3,
+      "created_at": "Fri Sep 04 04:00:25 +0000 2026",
+      "url": "https://x.com/dugujun12/status/2095723635038400960",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 71.176,
+      "title": "国内 Agent 重排：Workbuddy > 千问系 > 豆包，基于第三方模型接入能力",
+      "summary": "dugujun12 在 Astra 热度里转向国内 Agent：实测千问客户端「工作助理」可接其 API 订阅计划内的国内主流模型（无外模），比豆包强、略逊 Workbuddy。关键变化是发现 Workbuddy 允许自定义大模型（能搞定外模 API 就能接），因此上调到顶级；Qwen Code 仅适配千问，需与「QODAR+千问」等组合看。当前国内排序：Workbuddy > 千问系 > 豆包系。",
+      "recommend_reason": "用「能否自定义/接入第三方模型」这一可验证标准重排国内 Agent，比跟风聊 Astra 更有选型价值。",
+      "tags": [
+        "Agent",
+        "Qwen",
+        "Workbuddy",
+        "豆包",
+        "产业"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2095680322272952448",
+      "author": "vista8",
+      "bio": "",
+      "text": "我去，著名产品人Lenny这篇文章的含金量太高了！\n\n从大模型原理出发，给出提示词示例，让你学会用AI给出真正有创意、有个人风格的 UI 设计。\n\n比如大模型只是下一个token预测，所以提示词中用shell脚本生成随机数。\n\n让模型基于随机数来定义创意方向！\n\n文中还有其他技巧，提示词价值还是被低估了。\n\n阅读地址见评论",
+      "created_at": "Fri Sep 04 01:08:19 +0000 2026",
+      "likes": 170,
+      "views": "12767",
+      "url": "https://x.com/i/status/2095680322272952448",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRVY-Q8aYAABUM6.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRVY-Q8aYAABUM6.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 68.964,
+      "summary": "我去，著名产品人Lenny这篇文章的含金量太高了！\n\n从大模型原理出发，给出提示词示例，让你学会用AI给出真正有创意、有个人风格的 UI 设计。\n\n比如大模型只是下一个token预测，所以提示词中用shell脚本生成随机数。\n\n让模型基于随机数来定义创意方向！\n\n文中还有其他技巧，提示词价值还是被低估了。\n\n阅读地址见评论",
+      "recommend_reason": "把「next-token 预测」直接变成 UI 创意提示技巧（shell 随机数定方向），提示词方法论可迁移。",
+      "tags": [
+        "提示词",
+        "UI设计",
+        "Token",
+        "产品"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2095678759651438887",
+      "author": "sama",
+      "bio": "",
+      "text": "first, sorry for the messy rollout.\n\nsecond, when we screw up, we try to make it right.\n\nthird, we should be able to begin broad rollout to API customers and chatgpt subscribers in the near future. as usual we will start with pro subscribers.",
+      "created_at": "Fri Sep 04 01:02:06 +0000 2026",
+      "likes": 9037,
+      "views": "796365",
+      "url": "https://x.com/i/status/2095678759651438887",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2095651088502591861",
+        "author": "thsottiaux",
+        "name": "Tibo",
+        "text": "We will give one banked reset for every day you don't have access to Astra on your paid ChatGPT plan, starting today.  Team is moving mountains to give access as fast as we can.\n\nFirst one will land in ~ 3 hours. There is still time to create your account if you don't have one.",
+        "created_at": "Thu Sep 03 23:12:09 +0000 2026",
+        "url": "https://x.com/thsottiaux/status/2095651088502591861",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 72.254,
+      "title": "Sam Altman 为 Astra 放量致歉：补偿后将先向 Pro 推开 API 与订阅",
+      "summary": "Sam Altman 引用补偿公告，连发三点：为混乱放量道歉；搞砸了会尽量补救；很快会开始向 API 客户和 ChatGPT 订阅者大范围放量，照例先从 Pro 订阅用户开始。",
+      "recommend_reason": "CEO 把补偿措施和下一阶段 API/订阅放量顺序钉死，是跟进开通节奏的权威信号。",
+      "tags": [
+        "OpenAI",
+        "GPT-6 Astra",
+        "Sam Altman",
+        "发布"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2095657325671612679",
+      "author": "oran_ge",
+      "bio": "",
+      "text": "OpenAI 今天凌晨公布了全新架构的 GPT-6 Astra 群星\n但最让人欣慰的是，人类终于不再卷 coding，去瞄准科学的星辰大海了\nOpenAI 内部将其视为第一个 AGI 时代的模型\n这个模型在科学研究和抽象推理方面大幅提升\n而且这个模型的智力模式非常特别\n相比其他模型，可以大幅减少推理步骤，以更少 Token 获得更高智能\n但这个模型在 coding 方面却进步很小，不如 Fable\n价格方面 10in 50out，也对齐 Fable/Mythos\n也许从外界看来，Mythos 可能是第一个 AGI 时代的模型吧，不过我们没资格用 Mythos，无法评价了\n\n科学\nTerminal-Bench Science 0.1（科研终端与管线自主操作）：从上一代 Sol 的22.4% 暴涨至 64.6%（大幅领先 Fable 5.1 的 52.6%）。\nFrontierMath Tier 4 (v2)（前沿科研级数学）：达到97.6%。\n真实数学发现：协助数学家 Julia Stadlmann 将素数间隔（prime number gaps）上界从 240 推进到 186；推动了一项维持 80 多年未动的数学界限。\n\n智能与效能\n动作与步数效率（ARC-AGI-3）：在96% 的关卡中，摸索并解出未知机制所用的动作步骤比人类中位数还要少，平均动作数减少 51.7%。它不再靠暴力穷举，而是在上下文里现场发明代数简记法（DSL）压缩状态。\n任务级能效比（Cost-per-task）：虽然每百万 token 单价更贵，但在 OSWorld 2.0 等长流程复杂任务上，单任务耗时从 75 分钟压到了 40 分钟左右，总消耗 token 显著减少。\n\n工程\n专业工业软件（BenchCAD）：达到95.9%（领先 Fable 5.1 的 84.3%），直接落地 KiCad（PCB 电路设计）、Unity 3D 排布和金融建模（Financial Modeling World Cup）。\n\n编程\nDeepSWE v1.1（真实软件工程能力）：Astra 得分为74.1%，对标 Claude Opus 5 的 74.0%、Gemini 3.8 Flash 的 73.7%，甚至低于 Meta Muse Spark 1.3 的 75.4%。基本和大家挤在同一个平台期，完全没有拉开代际差距。\nArtificial Analysis (AA) 综合智能与智能体指数：Astra 仅拿到了61.2 分，几乎与上一代 GPT-5.6 Sol（61分左右）持平，在 Coding Agent 指数上未见断层提升。\n\n完整模型介绍在官网，写的非常专业，直接看一首信息，不需要看三方解读，可以在此详细阅读\nhttps://t.co/u5ezSCSduE",
+      "created_at": "Thu Sep 03 23:36:56 +0000 2026",
+      "likes": 121,
+      "views": "31199",
+      "url": "https://x.com/i/status/2095657325671612679",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRU9CKma0AEQUea.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRU9CKma0AEQUea.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 64.123,
+      "title": "oran_ge 解读 Astra：科学与能效跃迁，编程几乎未拉开代差",
+      "summary": "oran_ge 梳理 GPT-6 Astra：OpenAI 内部视其为第一个 AGI 时代模型，科学与抽象推理大幅提升，可用更少推理步与 Token 拿到更高智能；编程进步很小、不如 Fable；价位 10in/50out 对齐 Fable/Mythos。科学：Terminal-Bench Science 0.1 从 Sol 的 22.4% 到 64.6%（超 Fable 5.1 的 52.6%），FrontierMath Tier4 97.6%，并协助推进素数间隔上界。效能：ARC-AGI-3 平均动作数比人类中位少 51.7%，OSWorld 等长任务单任务耗时约从 75 分钟压到 40 分钟。工程：BenchCAD 95.9%。编程：DeepSWE 74.1% 与 Opus5/Gemini 挤在平台期；AA 指数约 61.2 与上代持平。",
+      "recommend_reason": "把官方叙事拆成科学/效能/工程/编程四象限并给出可核对数字，是中文圈里最清晰的 Astra 能力边界图之一。",
+      "tags": [
+        "GPT-6 Astra",
+        "评测",
+        "OpenAI",
+        "产业"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2095651088502591861",
+      "author": "thsottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "text": "We will give one banked reset for every day you don't have access to Astra on your paid ChatGPT plan, starting today.  Team is moving mountains to give access as fast as we can.\n\nFirst one will land in ~ 3 hours. There is still time to create your account if you don't have one.",
+      "likes": 32053,
+      "retweets": 2624,
+      "replies": 3810,
+      "views": 3537253,
+      "created_at": "Thu Sep 03 23:12:09 +0000 2026",
+      "url": "https://x.com/thsottiaux/status/2095651088502591861",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 74.296,
+      "title": "Astra 放量延误：付费用户按日补偿一次 banked reset",
+      "summary": "thsottiaux 宣布：从今天起，付费 ChatGPT 计划里每有一天用不上 Astra，就补偿一次 banked reset；团队在全力加速开通。第一笔约三小时后到账，还没有账号的人现在注册也来得及。",
+      "recommend_reason": "官方把放量故障落成可量化补偿规则，比空口道歉更能判断权益与时间线。",
+      "tags": [
+        "OpenAI",
+        "GPT-6 Astra",
+        "额度",
+        "ChatGPT"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2095621571335655872",
+      "author": "bot",
+      "bio": "",
+      "text": "Grok Bot for Enterprise is available today.\n\nIt’s free for all Grok and Cursor enterprise customers for the next two weeks.\n\nhttps://t.co/rZPvHvfI5B",
+      "created_at": "Thu Sep 03 21:14:52 +0000 2026",
+      "likes": 2254,
+      "views": "2389986",
+      "url": "https://x.com/i/status/2095621571335655872",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "Grok Bot for Enterprise",
+        "description": "Grok Bot is now available for enterprises. Grok and Cursor Enterprise customers have free usage for the next two weeks, and can invite their whole organization, including people without an existing...",
+        "image_url": "https://pbs.twimg.com/card_img/2095620448499183616/oi_TZv9I?format=jpg&name=800x320_1",
+        "url": "https://x.ai/news/grok-bot-for-enterprise",
+        "domain": "x.ai"
+      },
+      "quoted_tweet": null,
+      "score": 64.535,
+      "summary": "Grok Bot for Enterprise 今日上线。\n\n未来两周对所有 Grok 与 Cursor 企业客户免费。",
+      "recommend_reason": "企业版 Grok Bot 两周免费窗口，对 Cursor/Grok 企业用户是可立即试用的产品窗口。",
+      "tags": [
+        "Grok Bot",
+        "Cursor",
+        "企业版",
+        "产品"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2095620419906830788",
+      "author": "perplexity_ai",
+      "bio": "",
+      "text": "We evaluated GPT-6 Astra on WANDR. It scored 0.682 at $11.98 per task, the highest score of any model we tested.\n\nGPT-6-Astra scored 13.5% higher than Fable 5.1 at 6.1% lower cost, and 27.0% higher than Opus 5 at 3.3% higher cost. https://t.co/SyYmD38qvq",
+      "created_at": "Thu Sep 03 21:10:17 +0000 2026",
+      "likes": 2376,
+      "views": "230401",
+      "url": "https://x.com/i/status/2095620419906830788",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRUjqpCaUAEHZdF.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRUjqpCaUAEHZdF.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 74.009,
+      "title": "Perplexity：Astra 在 WANDR 上 0.682、$11.98/任务，性价比压过 Fable 与 Opus",
+      "summary": "Perplexity 用 WANDR 评测 GPT-6 Astra：得分 0.682、每任务成本 $11.98，是他们测过的最高分。相对 Fable 5.1 高 13.5% 且成本低 6.1%；相对 Opus 5 高 27.0%、成本仅高 3.3%。",
+      "recommend_reason": "第三方用统一任务基准同时报分和成本，方便横向对比 Astra 与 Fable/Opus 的性价比。",
+      "tags": [
+        "GPT-6 Astra",
+        "Perplexity",
+        "评测",
+        "Fable 5"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2095615392874123689",
+      "author": "KinGao476942",
+      "bio": "",
+      "text": "GPT-6 Astra 官方宣布片的中文翻译字幕版来了！@OpenAI @sama \n\n你过去用电脑做的任何事情，Astra 都能帮助你自动化完成！\n\n在宣传片里，OpenAI 展示了人类语音控制它，Astra 独立操作 KiCad 画 PCB、在 Unity 搭 3D 城市、制作 3D 游戏，用 Blender 和 FreeCAD 制作机械结构、处理法律合同，以及用 3D 打印机打印 3D 模型的直观案例。\n\n本视频使用 Grok bot @bot 制作，仅用了数分钟完成的字幕烧录",
+      "created_at": "Thu Sep 03 20:50:18 +0000 2026",
+      "likes": 331,
+      "views": "60256",
+      "url": "https://x.com/i/status/2095615392874123689",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2095611958896832512/vid/avc1/480x270/n03glzWCeQsTn3TP.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2095611958896832512/img/lyOWHOdK53jzwoVZ.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 67.749,
+      "title": "Astra 官宣片中文字幕版：语音操控跨 KiCad/Unity/Blender 等演示",
+      "summary": "KinGao476942 放出 GPT-6 Astra 官方宣布片中文翻译字幕版：宣传片里用人声指挥 Astra，独立操 KiCad 画 PCB、在 Unity 搭 3D 城市与游戏、用 Blender/FreeCAD 做机械结构、处理法律合同，并用 3D 打印出模型。字幕由 Grok Bot 数分钟烧录完成。",
+      "recommend_reason": "把官宣片里的电脑使用场景清单化并配中文字幕，方便快速扫完 Astra 能力演示边界。",
+      "tags": [
+        "GPT-6 Astra",
+        "OpenAI",
+        "Agent",
+        "演示"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2095605066116055060",
+      "author": "gabriel1",
+      "bio": "",
+      "text": "openai is back, @danielfradin spotted https://t.co/9nAd7b5jIB",
+      "created_at": "Thu Sep 03 20:09:16 +0000 2026",
+      "likes": 186,
+      "views": "17576",
+      "url": "https://x.com/i/status/2095605066116055060",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRUVoKtaYAAwUoB.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRUVoKtaYAAwUoB.png"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2095595741528125780",
+        "author": "OpenAI",
+        "name": "OpenAI",
+        "text": "This is GPT-6 Astra.\n\nAnything you can do on a computer, Astra can do for you. Fast. https://t.co/gDd0IsewJw",
+        "created_at": "Thu Sep 03 19:32:13 +0000 2026",
+        "url": "https://x.com/OpenAI/status/2095595741528125780",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2095595661559574528/vid/avc1/480x270/CntmNmX2nKsH3Czk.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2095595661559574528/img/Vmb2pgEFJ6fpCUTD.jpg"
+        ]
+      },
+      "score": 66.071,
+      "summary": "openai 回来了，@danielfradin 发现了",
+      "recommend_reason": "社区第一时间转发官号 Astra 亮相，适合标记发布在时间线上的「回流」节点。",
+      "tags": [
+        "OpenAI",
+        "GPT-6 Astra",
+        "发布"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2095602995874410664",
+      "author": "NousResearch",
+      "bio": "",
+      "text": "Hermes Desktop now sets up local models in one click.\n\nIt automatically reads your hardware, picks the best model for you, then downloads it and configures the runtime. https://t.co/LDw5x9xL5U",
+      "created_at": "Thu Sep 03 20:01:03 +0000 2026",
+      "likes": 2861,
+      "views": "168066",
+      "url": "https://x.com/i/status/2095602995874410664",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2095601752061997057/vid/avc1/320x320/if6E_zin2tCXYQ0I.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2095601752061997057/img/NKIGNK6OWdg-szw-.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 76.739,
+      "summary": "Hermes Desktop 现在可以一键配置本地模型。\n\n它会自动读取你的硬件、为你挑选最合适的模型，再下载并配置运行时。",
+      "recommend_reason": "Nous 把本地模型选型+下载+运行时配置压成一键，降低桌面端本地 LLM 上手门槛。",
+      "tags": [
+        "Nous",
+        "Hermes",
+        "本地模型",
+        "产品"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2095600005772104059",
+      "author": "sama",
+      "bio": "",
+      "text": "GPT-6 Astra is here.\n\nWe hope it will begin to enable a new generation of entrepreneurship, scientific discovery, and building.\n\nWe believe it is the best model in the world for computer use, professional work, science, coding, cybersecurity, and more.\n\nIt took us some extra time to ensure that we could meet the safety and alignment standards required for this capability level, but we think you’ll find it worth the wait.\n\nIt scores 98% on FrontierMath Tier 4, 99.9% on ARC-AGI 3, and 100% on ExploitBench.",
+      "created_at": "Thu Sep 03 19:49:10 +0000 2026",
+      "likes": 38636,
+      "views": "2528226",
+      "url": "https://x.com/i/status/2095600005772104059",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 78.523,
+      "title": "Sam Altman：GPT-6 Astra 登场，对标电脑使用与科学前沿并给出安全对齐说明",
+      "summary": "Sam Altman 宣布 GPT-6 Astra 发布。他希望它开启新一代创业、科学发现与构建；并称它是目前在电脑使用、专业工作、科学、编程、网络安全等方面最强的模型。团队多花了时间以满足该能力等级所需的安全与对齐标准。成绩单：FrontierMath Tier 4 98%、ARC-AGI 3 99.9%、ExploitBench 100%。",
+      "recommend_reason": "CEO 亲口定调能力边界与安全取舍，并给出可核对的硬基准，是理解 Astra 定位的第一手材料。",
+      "tags": [
+        "OpenAI",
+        "GPT-6 Astra",
+        "Sam Altman",
+        "评测",
+        "安全对齐"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2095598855073255644",
+      "author": "gdb",
+      "bio": "",
+      "text": "Introducing GPT-6 Astra: https://t.co/0eb3Ek6Gl8",
+      "created_at": "Thu Sep 03 19:44:36 +0000 2026",
+      "likes": 4585,
+      "views": "191115",
+      "url": "https://x.com/i/status/2095598855073255644",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "GPT-6 Astra: A new generation of intelligence",
+        "description": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
+        "image_url": "https://pbs.twimg.com/card_img/2095583042190680064/ZFvVMVU6?format=jpg&name=800x320_1",
+        "url": "https://openai.com/index/gpt-6-astra/",
+        "domain": "openai.com"
+      },
+      "quoted_tweet": null,
+      "score": 72.199,
+      "summary": "正式介绍 GPT-6 Astra：",
+      "recommend_reason": "Greg Brockman 一句话官宣加链接，适合作为发布链路里的工程师侧确认节点。",
+      "tags": [
+        "OpenAI",
+        "GPT-6 Astra",
+        "发布"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2095597264043717014",
+      "author": "SpaceXAI",
+      "bio": "",
+      "text": "We are sorry for the issues you may have experienced with Grok following an outage at our Memphis compute center this morning. We’d also like to apologize to our impacted compute partners.\n\nAll systems have now been restored and are functioning nominally.",
+      "created_at": "Thu Sep 03 19:38:16 +0000 2026",
+      "likes": 14186,
+      "views": "3032054",
+      "url": "https://x.com/i/status/2095597264043717014",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 70.641,
+      "title": "xAI：Memphis 算力中心故障致 Grok 异常，系统已恢复",
+      "summary": "SpaceXAI（xAI）为今早 Memphis 算力中心故障导致的 Grok 异常向用户和受影响的算力合作伙伴道歉，并称所有系统已恢复正常运行。",
+      "recommend_reason": "与 Astra 放量故障同日出现的竞品侧算力事故通报，便于对照各家基础设施稳定性。",
+      "tags": [
+        "xAI",
+        "Grok",
+        "故障",
+        "基础设施"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2095597168816226335",
+      "author": "thsottiaux",
+      "bio": "",
+      "text": "We are starting to release GPT-6 Astra and we are doing it as carefully and quickly as possible. It was very important to us that we bring it to all Plus users and not only Pro, Business and Enterprise. \n\nIt will take a few days for the rollout to complete and behind the scenes many novel systems will operate at scale for the first time and we are bringing a lot of compute up.\n\nIt is pure magic.\n\nhttps://t.co/WUdXA3xSoh",
+      "created_at": "Thu Sep 03 19:37:54 +0000 2026",
+      "likes": 15466,
+      "views": "1063168",
+      "url": "https://x.com/i/status/2095597168816226335",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "GPT-6 Astra: A new generation of intelligence",
+        "description": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
+        "image_url": "https://pbs.twimg.com/card_img/2095583042190680064/ZFvVMVU6?format=jpg&name=800x320_1",
+        "url": "https://t.co/WUdXA3xSoh",
+        "domain": "openai.com"
+      },
+      "quoted_tweet": null,
+      "score": 75.745,
+      "title": "OpenAI 工程负责人：Astra 向所有 Plus 放开，滚动发布需数日",
+      "summary": "thsottiaux 称 GPT-6 Astra 已开始谨慎且尽快地放量，重点是覆盖全部 Plus 用户，而不只是 Pro/Business/Enterprise。完整 rollout 需要几天；背后有大量首次大规模运行的新系统和算力上线。他形容「纯魔法」。",
+      "recommend_reason": "把发布节奏、Plus 全覆盖承诺和算力扩容说清楚，适合对照自己账号何时能用上。",
+      "tags": [
+        "OpenAI",
+        "GPT-6 Astra",
+        "发布",
+        "ChatGPT Plus"
+      ],
+      "rank": 14
+    },
+    {
+      "id": "2095595741528125780",
+      "author": "OpenAI",
+      "bio": "",
+      "text": "This is GPT-6 Astra.\n\nAnything you can do on a computer, Astra can do for you. Fast. https://t.co/gDd0IsewJw",
+      "created_at": "Thu Sep 03 19:32:13 +0000 2026",
+      "likes": 152858,
+      "views": "32778373",
+      "url": "https://x.com/i/status/2095595741528125780",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2095595661559574528/vid/avc1/480x270/CntmNmX2nKsH3Czk.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2095595661559574528/img/Vmb2pgEFJ6fpCUTD.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 79.027,
+      "summary": "这是 GPT-6 Astra。\n\n你在电脑上能做的任何事，Astra 都能替你做，而且很快。",
+      "recommend_reason": "OpenAI 官号正式亮相 GPT-6 Astra，一句话把「电脑使用代理」定位说死，是当天发布的主视觉锚点。",
+      "tags": [
+        "OpenAI",
+        "GPT-6 Astra",
+        "Agent",
+        "产品"
+      ],
+      "rank": 15
+    },
+    {
+      "id": "2095566278752977060",
+      "author": "xiaoxiaodong01",
+      "bio": "",
+      "text": "GPT2 x 像素 x 贝壳 x 美学提示词 x VOL.113\n\n原图作品来自 德国摄影师Chris\n\n本次风格，我融合了像素， 但是是贝壳材质\n\n完整提示词：\n\n```\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色，使其具有艺术杂志、独立出版物与展览图像质感。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分先理解原照片最值得被记住的**主体、基本构图、透视关系、结构走势、视觉记忆点与整体气氛**，再重构为具有材料拼贴感的极简像素景观。不要完整复制照片，而是删去无关细节，只保留最能代表原物的结构、走势和视觉记忆点，通过规则方块的秩序与天然材料质感重新概括，使人能够一眼识别它与上方照片之间的对应关系。\n\n像素模块不是标准数字色块，而像由**粗粝贝壳、贝壳薄片或天然矿物壳层切割而成的小型方形与近方形碎片**。保持明确的几何网格秩序，但边缘可略有崩缺、不完全规整，表面带天然层理、粉质颗粒、轻微凹凸、磨损与不均匀色泽，以哑光、自然、温和的材料感为主。主体核心区域由相对密集的模块聚合成形，边缘逐步减少、缺失、断开和漂浮，让形态从清晰向留白中自然逸散。严格控制模块总量，整体不超过200块，单个模块大小统一或接近统一，避免细碎噪点、标准马赛克和游戏像素感。\n\n构图保持**小尺度章印与大面积留白**的关系，根据主体自身的方向、比例和视觉重心自由安排位置，可偏心、贴边、悬置或局部裁切。主体约占下半部分30%–45%，其余空间主动留空。留白不是空背景，而是与主体、模块密度和消隐边界同等重要的构成元素，通过正负形、疏密、聚散和不对称平衡建立呼吸感、空间感与停顿感。宁可删减信息，也不要填满画面，让主体像一枚被精心安放在大片纸面上的材料章印。\n\n配色从上方照片中提取**最明亮、最鲜活、最有生命力的颜色重新调制**，而不是平均取色或忠实复制原始色值。整体适度提高明度、纯净度与通透感，根据原图自然推导出清澈天空蓝、湖水青、嫩绿、暖黄、珊瑚橙、桃粉等明快综合色，通过清爽冷暖关系形成温暖而治愈的色彩节奏。以大量纯净暖白或与原图综合色温协调的极浅近白色作为呼吸空间，主色明亮、有精神但不刺眼，局部暖橙、金黄、珊瑚红或柔粉可作为阳光般的点睛色。保留贝壳材料自身轻微天然色差与层理，但避免因此变灰、变旧或变脏。避免灰脏、发旧、低沉莫兰迪化、暗褐滤镜、阴郁大地色、荧光色和廉价糖果感。\n\n文字只作极少量编辑性介入，不限制语种，也不预设固定标题或编号。可从照片的主体、地点、动作、情绪或隐喻中自由提炼少量字词或短句，安静地置于留白或主体边缘，与材料模块形成精致的图文关系，不喧宾夺主。\n\n整体呈现**天然材料拼贴、贝壳质感像素、规则几何秩序、渐进消隐、小尺度章印、大面积艺术留白与现代编辑排版**共同构成的高级视觉效果，更像当代材料艺术与设计工作室的重构海报，而不是普通数字像素画。避免完整复制照片、复杂背景、真实细节、标准纯色色块、光滑矢量、塑料马赛克、强珠光、游戏UI感、画面填满、过多文字和模板化效果。\n```",
+      "created_at": "Thu Sep 03 17:35:09 +0000 2026",
+      "likes": 166,
+      "views": "7595",
+      "url": "https://x.com/i/status/2095566278752977060",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRTx-VXbUAAxTn0.jpg",
+        "https://pbs.twimg.com/media/HRTx-6Ma4AA8DAV.jpg",
+        "https://pbs.twimg.com/media/HRTyANWbEAA0Ium.jpg",
+        "https://pbs.twimg.com/media/HRTyBQQa8AA8fZ2.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRTx-VXbUAAxTn0.jpg",
+        "https://pbs.twimg.com/media/HRTx-6Ma4AA8DAV.jpg",
+        "https://pbs.twimg.com/media/HRTyANWbEAA0Ium.jpg",
+        "https://pbs.twimg.com/media/HRTyBQQa8AA8fZ2.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2095552735374667869",
+        "author": "xiaoxiaodong01",
+        "name": "小小东",
+        "text": "GPT2 x 像素 x 感 x 美学提示词 x VOL.112\n\n原图来自柏林摄影师：\nThomas Kakareko ， 谢谢\n\n他的作品能我同时感觉到安静和生命力，冷静。\n\nGitHub skill 预留地址：\nhttps://t.co/5WsZ8ZW4j5\n\n本次完整提示词：\n\n```\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色，使其具有艺术杂志、独立出版物与展览图像质感。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分采用**双层纸张与材料拼贴质感**：外层为米白色、粗糙、带粗纤维感的手工纸底纹，画面中部设置一块**横向窄矩形的拼贴色块区域**，边缘随性、不规整，颜色根据上方照片自动匹配为低饱和但有生命力的综合色。不要完整复制照片，而是先理解原图最值得被记住的**结构、走势、视觉记忆点与气质**，删去无关细节，只保留最能代表原物的核心形态与关系，再通过纸面拼贴、层叠色块与手绘线条重新概括，使人能够一眼识别它与上方照片之间的对应关系。\n\n主体以**小尺度章印感**落在中部色块区域内，可根据自身方向、比例和视觉重心自由安排位置，允许偏心、贴边、悬置或局部裁切，不追求完整交代。构图必须保留**大量有意识的留白**：色块上方与下方留出充足空白，让留白本身成为画面的一部分，与主体、色块边缘和少量元素共同形成呼吸感、空间感与安静的编辑秩序。宁可删减，也不要填满。\n\n表现方式以**深色哑光蜡粉笔 / 粉蜡笔式手绘线条**为主，线条极简、松弛、稚拙、随性、不规整，带轻微粗糙笔触与自然手作误差；可辅以少量刻线、剪影、简洁色块和轻微层叠，不做写实转绘，不增加繁杂细节。**部分关键轮廓、刻线或局部细节可加入纤细的金线 / 金粉线条**，像淡淡金箔粉末附着在线路边缘，形成克制而精致的闪光感，点到为止，不可俗艳。\n\n画面中的**部分主体或关键形态可以自然越界出中部拼贴色块区域**，突破原有区域边界，延伸到留白之中，形成前后层次、空间停顿与更有意境的视觉关系；这种越界应克制而有设计感，让画面显得更灵动，而不是被整齐框死。\n\n文字少量介入，在大面积留白中点缀**随性、潦草、柔软的手写英文短句**，像私人笔记或独立出版物中的随手标注。文字应小而轻，与主体和留白形成自然节奏，不喧宾夺主。\n\n整体氛围应**安静、复古、治愈、简约、文艺**，像一张经过艺术重构的纸本卡片。纸面可带浅浅旧化肌理，并叠加 **Risograph 孔印般淡淡的细碎颗粒噪点**，增强纸本与印刷质感。整体避免厚重阴影、写实渲染、强烈立体感、复杂装饰、画面填满和模板化效果。\n```",
+        "created_at": "Thu Sep 03 16:41:20 +0000 2026",
+        "url": "https://x.com/xiaoxiaodong01/status/2095552735374667869",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HRTlsKpbwAERbnn.jpg",
+          "https://pbs.twimg.com/media/HRTltYbaAAI4xcw.jpg",
+          "https://pbs.twimg.com/media/HRTlxX-aAAQ-uKf.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HRTlsKpbwAERbnn.jpg",
+          "https://pbs.twimg.com/media/HRTltYbaAAI4xcw.jpg",
+          "https://pbs.twimg.com/media/HRTlxX-aAAQ-uKf.jpg"
+        ]
+      },
+      "score": 71.357,
+      "title": "GPT2 美学提示词 VOL.113：原图+贝壳质感像素下半屏重构海报",
+      "summary": "xiaoxiaodong01 发布 VOL.113 提示词：3:4 竖版上下 1:1 分区；上半保留原片轻微调色，下半把主体概括成不超过 200 块的贝壳/矿物壳层质感像素模块，强调章印感、大面积留白与从原图提亮的清爽配色，做成当代材料拼贴风海报。原图来自德国摄影师 Chris。",
+      "recommend_reason": "提示词把材质、留白和正负形写到可直接复用的粒度，是图像生成工作流里可落地的模板更新。",
+      "tags": [
+        "图像生成",
+        "提示词",
+        "GPT",
+        "设计"
+      ],
+      "rank": 16
+    },
+    {
+      "id": "2095561055682310638",
+      "author": "NousResearch",
+      "bio": "",
+      "text": "BREAKING: Nous Portal is still up\n\nSources report that it is still serving hundreds of models at 20% off, 80% off GPT-5.6 Luna and Luna Pro, exclusive free models, bundled tool usage, flexible team features, and powerful cloud agents\n\nhttps://t.co/RU76KTpAv4 https://t.co/XNBfjAG6vn",
+      "created_at": "Thu Sep 03 17:14:23 +0000 2026",
+      "likes": 836,
+      "views": "78736",
+      "url": "https://x.com/i/status/2095561055682310638",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRTtjq2boAAbArU.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRTtjq2boAAbArU.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 72.026,
+      "title": "Nous Portal 仍在线：模型折扣与云端 Agent 权益未断",
+      "summary": "NousResearch 用「突发」口吻确认 Nous Portal 仍在服务：数百个模型、最高 20% 折扣、GPT-5.6 Luna/Luna Pro 最高 80% 折扣、独家免费模型、捆绑工具用量、灵活团队功能与强力云端 Agent。",
+      "recommend_reason": "在 Astra 发布噪音里提醒本地/云端第三方模型入口仍可用，对需要备选推理通道的人有用。",
+      "tags": [
+        "Nous",
+        "产品",
+        "Agent",
+        "折扣"
+      ],
+      "rank": 17
+    },
+    {
+      "id": "2095512413663883348",
+      "author": "taiyo_ai_gakuse",
+      "bio": "",
+      "text": "これ、Claude CodeのFable 5.1をEffortをultracodeにして本気で作ったスライド。\n\nポイントは、https://t.co/sDjGT0MG2z Skillsを使うことで、高性能LLMが生成した複雑なグラフや図解も、そのままPowerPointに落とし込めること。\n\n実際に生成したHTML、Design.md、PPTXファイルはリプ👇🧵 https://t.co/KP35lAjvvU",
+      "created_at": "Thu Sep 03 14:01:06 +0000 2026",
+      "likes": 424,
+      "views": "69002",
+      "url": "https://x.com/i/status/2095512413663883348",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2095510683836411904/vid/avc1/480x270/fB9HNJm4-OiZhQWK.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2095510683836411904/img/msw_6qLZDyAf4NVs.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2095144150442360865",
+        "author": "taiyo_ai_gakuse",
+        "name": "Taiyo Kimura",
+        "text": "Claude CodeのFable５.1で一発出ししたスライド。\n\nAIが作ったと思えないくらいのデザインが作れた。  使ったのは、https://t.co/sDjGT0MG2z skills。  \n\n実際の成果物（HTML、Design.md、PPTXファイル）はリプに貼っとく。 https://t.co/z6w8oKCzHG",
+        "created_at": "Wed Sep 02 13:37:46 +0000 2026",
+        "url": "https://x.com/taiyo_ai_gakuse/status/2095144150442360865",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2095144038131470336/vid/avc1/480x270/X9MG_BPVEq6gyNnY.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2095144038131470336/img/Dr84XVJ7Xf8k4o-J.jpg"
+        ]
+      },
+      "score": 68.333,
+      "title": "Claude Code + Fable 5.1 ultracode：用 Skill 把复杂图表直接落进 PowerPoint",
+      "summary": "作者用 Claude Code 的 Fable 5.1，把 Effort 开到 ultracode 认真做了一套幻灯片。要点是借助 skill，把高性能 LLM 生成的复杂图表与图解原样落到 PowerPoint；生成的 HTML、Design.md、PPTX 放在回复线程里。",
+      "recommend_reason": "展示 Coding Agent + Skill 把研究级图表接到可交付 PPT 的完整链路，适合做演示自动化参考。",
+      "tags": [
+        "Claude",
+        "Fable 5",
+        "Skill",
+        "Coding Agent"
+      ],
+      "rank": 18
+    },
+    {
+      "id": "2095512141390561758",
+      "author": "VigoCreativeAI",
+      "bio": "",
+      "text": "VISUAL OS 036 — Letter Zoo\n\nThe alphabet is a zoo. Nine creatures so far.\n\nS — snake: one letter, a blue eye, a forked tongue\nOO — owl: two letters, ears cut from the counters\nZ — zebra: one letter, stripes on the diagonal\nPP — lovebirds: two letters, beak to beak, claws on the stems\n\nLocked:\n– 2:3 portrait, violet paper, three inks: lime, ultramarine, one yellow date\n– a cage of thin vertical bars from the top edge to two-thirds down\n– one giant lime letter, or a pair, behind the bars — the animal IS the letterform\n– the only additions are blue and small: eye, tongue, ear, stripe, claw\n– a blue offset shadow under the lime — misregistration is the only depth\n– the menagerie row below: the other eight creatures in small blue glyphs, identical every time\n– whoever is in the cage is missing from the line-up\n– ZOO in giant extended blue caps\n– one footer line: the count, the dates, the hall, free entry\n– no photo, no gradient, no grain beyond the paper\n\nSwaps: hero creature / its letter or pair / the one blue detail that makes it an animal\n\nTwenty-six letters. Nine turned out to be animals. Seventeen still under observation.\n\nPrompt ↓",
+      "created_at": "Thu Sep 03 14:00:01 +0000 2026",
+      "likes": 14,
+      "views": "662",
+      "url": "https://x.com/i/status/2095512141390561758",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRSdxGHaEAAWGok.jpg",
+        "https://pbs.twimg.com/media/HRSdxGTbQAA-R_M.jpg",
+        "https://pbs.twimg.com/media/HRSdxF7WcAM2yBZ.jpg",
+        "https://pbs.twimg.com/media/HRSdybmbYAA4DPH.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRSdxGHaEAAWGok.jpg",
+        "https://pbs.twimg.com/media/HRSdxGTbQAA-R_M.jpg",
+        "https://pbs.twimg.com/media/HRSdxF7WcAM2yBZ.jpg",
+        "https://pbs.twimg.com/media/HRSdybmbYAA4DPH.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 66.589,
+      "title": "VISUAL OS 036 Letter Zoo：字母即动物的固定版式图像系统",
+      "summary": "VigoCreativeAI 发布 Letter Zoo 视觉系统：字母本身就是动物（S 蛇、OO 猫头鹰、Z 斑马、PP 相思鸟等）。锁定 2:3 竖版、紫纸、三种油墨、顶部竖条「笼子」、巨大柠檬绿字母、蓝色小细节与错位阴影；下方一排其余动物字形，笼中那位从行列缺席。可替换：主角动物/字母、唯一蓝色细节。26 字母里已有 9 个成兽。",
+      "recommend_reason": "把图像生成做成可换变量的 OS 规格（锁定层+swap 层），比一次性提示词更可复用。",
+      "tags": [
+        "图像生成",
+        "提示词",
+        "设计系统"
+      ],
+      "rank": 19
+    },
+    {
+      "id": "2095477563825279147",
+      "author": "oran_ge",
+      "bio": "",
+      "text": "Cola Skill 收藏了超多实用的 Agent Skill\n全部是社区和创作者们精心挑选\n每天都有新的 skill 推送\n找不到想要的 skill 的时候\n就可以来搜搜看\nhttps://t.co/4DUTNb2Ulf https://t.co/rKUKNtCAUt",
+      "created_at": "Thu Sep 03 11:42:37 +0000 2026",
+      "likes": 270,
+      "views": "17898",
+      "url": "https://x.com/i/status/2095477563825279147",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRSgxsiaQAAOol-.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRSgxsiaQAAOol-.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 70.516,
+      "summary": "Cola Skill 收藏了超多实用的 Agent Skill\n全部是社区和创作者们精心挑选\n每天都有新的 skill 推送\n找不到想要的 skill 的时候\n就可以来搜搜看",
+      "recommend_reason": "社区精选 Agent Skill 聚合入口，适合缺 skill 时快速搜一轮。",
+      "tags": [
+        "Skill",
+        "Agent",
+        "工具"
+      ],
+      "rank": 20
+    }
+  ],
+  "generated_at": "2026-09-04T04:16:11Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 20,
+    "last_batch_added": 20,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
