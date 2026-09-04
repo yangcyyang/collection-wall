@@ -2,7 +2,7 @@
   "source": "xiaohongshu-ai-radar",
   "title": "小红书 AI 用户雷达",
   "date": "2026-09-04",
-  "updated_at": "2026-09-04T06:30:00+08:00",
+  "updated_at": "2026-09-04T09:11:48+08:00",
   "count": 81,
   "summary": {
     "today_judgement": [
@@ -2178,13 +2178,16 @@
     "caveats": [
       "单日搜索排序≠全站热榜",
       "趋势方向为基于标题日期分布与评论密度的推断",
-      "只调研不发布"
+      "只调研不发布",
+      "09:04 定时刷新：OpenCLI search 触发验证码返回空；feed/whoami/explore评论仍可用。本版主体基于同日 06:30 全量检索（23关键词/345笔记/16评论线程）+ explore 评论复核。"
     ],
     "collection_stats": {
       "keywords_searched": 23,
       "notes_sampled": 345,
       "unique_notes": 321,
       "comments_threads": 16
-    }
+    },
+    "routine_run_at": "2026-09-04T09:11:48+08:00",
+    "routine": "小红书 AI 用户雷达日报"
   }
 }
