@@ -1,14 +1,202 @@
 {
   "source": "ai-frontier-radar",
   "title": "新产品",
-  "updated_at": "2026-09-03T08:15:00+08:00",
-  "count": 22,
+  "updated_at": "2026-09-04T08:57:00+08:00",
+  "count": 31,
   "items": [
+    {
+      "id": "qwen-ecommerce-bench",
+      "name": "Qwen E-Commerce Bench",
+      "score": 72,
+      "status": "watching",
+      "first_detected": "2026-09-04T08:57:00+08:00",
+      "last_updated": "2026-09-04T08:57:00+08:00",
+      "summary": "长程经济智能体评测：用真实电商数据驱动的市场里，agent 拿 10 万元跑 365 天网店（采购/议价/定价/促销/库存/现金流）。",
+      "novelty": "开源长程经营 bench，不是又一个单轮购物问答集",
+      "urls": {
+        "x": "https://x.com/Alibaba_Qwen/status/2095476249556853100"
+      },
+      "tags": [
+        "Qwen",
+        "评测",
+        "Agent"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "arbr",
+      "name": "ARBR",
+      "score": 68,
+      "status": "watching",
+      "first_detected": "2026-09-04T08:57:00+08:00",
+      "last_updated": "2026-09-04T08:57:00+08:00",
+      "summary": "开源、OpenAI 兼容的多模型请求治理/路由/观测层（可叠 LiteLLM）。",
+      "novelty": "可审计的多模型控制面",
+      "urls": {
+        "site": "https://projectarbr.org",
+        "ph": "https://www.producthunt.com/products/arbr"
+      },
+      "tags": [
+        "路由",
+        "治理",
+        "OSS"
+      ],
+      "homepage": false,
+      "notes": "PH Sep 3 #16 · 88 votes · 用 projectarbr.org 非停放的 arbr.ai"
+    },
+    {
+      "id": "grove",
+      "name": "Grove",
+      "score": 74,
+      "status": "watching",
+      "first_detected": "2026-09-04T08:57:00+08:00",
+      "last_updated": "2026-09-04T08:57:00+08:00",
+      "summary": "macOS 人机共享真实终端进程（菜单栏+CLI+MCP），不是第二块聊天面板。",
+      "novelty": "共享 PTY/MCP 控制面",
+      "urls": {
+        "site": "https://grove.publishstudio.one",
+        "ph": "https://www.producthunt.com/products/grove-8"
+      },
+      "tags": [
+        "终端",
+        "MCP"
+      ],
+      "homepage": false,
+      "notes": "PH Sep 3 #13 · 95 votes · pool"
+    },
+    {
+      "id": "blume-codes",
+      "name": "Blume.codes",
+      "score": 79,
+      "status": "new",
+      "first_detected": "2026-09-04T08:57:00+08:00",
+      "last_updated": "2026-09-04T08:57:00+08:00",
+      "summary": "本地边车监听编码智能体会话，把反复纠正沉淀成 Cursor / Claude Code / Codex 共用的 rules 与 skills。",
+      "novelty": "teach-by-showing 的 harness 整理器：会话图→可分发规则资产",
+      "urls": {
+        "site": "https://blume.codes",
+        "ph": "https://www.producthunt.com/products/blume-codes"
+      },
+      "tags": [
+        "Skills",
+        "Harness",
+        "teach-by-showing"
+      ],
+      "homepage": true,
+      "notes": "PH Sep 3 #11 · 102 votes"
+    },
+    {
+      "id": "nex",
+      "name": "Nex",
+      "score": 81,
+      "status": "new",
+      "first_detected": "2026-09-04T08:57:00+08:00",
+      "last_updated": "2026-09-04T08:57:00+08:00",
+      "summary": "高量 GTM 工作流（CRM 清理、名单筛选、收入挽回）：目标+护栏+可审结果；专打通用 agent/Cowork 在周限额上烧掉的场景。",
+      "novelty": "把「高量生产型 GTM」从通用桌面 agent 里拆成专用 playbook",
+      "urls": {
+        "site": "https://nex.ai",
+        "ph": "https://www.producthunt.com/products/nex-4"
+      },
+      "tags": [
+        "GTM",
+        "Agent",
+        "YC"
+      ],
+      "homepage": true,
+      "notes": "PH Sep 3 #1 · 254 votes · 24 comments · YC"
+    },
+    {
+      "id": "airtop-agent-builder",
+      "name": "Agent Builder by Airtop",
+      "score": 83,
+      "status": "new",
+      "first_detected": "2026-09-04T08:57:00+08:00",
+      "last_updated": "2026-09-04T08:57:00+08:00",
+      "summary": "英语描述工作流→编译成确定性自动化；跑挂后自动调查、重建步骤并在真实测试上验证。",
+      "novelty": "自愈环：失败→调查→重建→验证，不是又一个聊天式网页代理",
+      "urls": {
+        "site": "https://www.airtop.ai/agent-builder",
+        "ph": "https://www.producthunt.com/products/airtop"
+      },
+      "tags": [
+        "自动化",
+        "自愈",
+        "Agent"
+      ],
+      "homepage": true,
+      "notes": "PH Sep 3 #2 · 252 votes · 13 comments"
+    },
+    {
+      "id": "grok-bot-enterprise",
+      "name": "Grok Bot for Enterprise",
+      "score": 83,
+      "status": "new",
+      "first_detected": "2026-09-04T08:57:00+08:00",
+      "last_updated": "2026-09-04T08:57:00+08:00",
+      "summary": "企业版 Grok Bot 今日可用；对 Grok 与 Cursor 企业客户免两周。定位组织内可邀请的持久队友（自有电脑 + Routines）。",
+      "novelty": "把「Bot 即队友」做成企业分发，并与 Cursor 企业账号打通试用",
+      "urls": {
+        "x": "https://x.com/bot/status/2095621571335655872",
+        "site": "https://x.ai/news/designing-grok-bot"
+      },
+      "tags": [
+        "xAI",
+        "Grok Bot",
+        "企业",
+        "Agent"
+      ],
+      "homepage": true,
+      "notes": "消费版 Bot Aug 11 已上；本窗是 Enterprise 档"
+    },
+    {
+      "id": "daybreak-frontline",
+      "name": "Daybreak for Frontline Defenders",
+      "score": 82,
+      "status": "new",
+      "first_detected": "2026-09-04T08:57:00+08:00",
+      "last_updated": "2026-09-04T08:57:00+08:00",
+      "summary": "OpenAI 约 10 亿美元补贴，把 Daybreak 网络 AI 交给水电/电网/银行/OSS 维护者等前线防御方；美国 MS-ISAC 试点。",
+      "novelty": "门控 cyber 能力的补贴式防御分发，而不是又一个红队工具包",
+      "urls": {
+        "site": "https://openai.com/index/daybreak-for-frontline-defenders/"
+      },
+      "tags": [
+        "OpenAI",
+        "安全",
+        "分发",
+        "Daybreak"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "gpt-6-astra",
+      "name": "GPT-6 Astra",
+      "score": 92,
+      "status": "new",
+      "first_detected": "2026-09-04T08:57:00+08:00",
+      "last_updated": "2026-09-04T08:57:00+08:00",
+      "summary": "OpenAI 新一代前沿模型分阶段发货：电脑操控/浏览/软件工程/网络/科学 SOTA；先限组织，数日内 Plus/Pro/Biz/Ent + API + AWS。Critical 网络能力与错位监控同捆。",
+      "novelty": "第一款带着 Critical cyber 门控真正开量的前沿模型，不是又一次参数秀",
+      "urls": {
+        "site": "https://openai.com/index/safety-overview-gpt-6-astra/",
+        "x": "https://x.com/OpenAI/status/2095595741528125780",
+        "system_card": "https://deploymentsafety.openai.com/gpt-6-astra",
+        "release_notes": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+      },
+      "tags": [
+        "OpenAI",
+        "模型",
+        "Computer Use",
+        "安全"
+      ],
+      "homepage": true
+    },
     {
       "id": "monid",
       "name": "Monid",
       "score": 81,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-03T08:15:00+08:00",
       "last_updated": "2026-09-03T08:15:00+08:00",
       "summary": "一把密钥/余额，让智能体在运行时发现、调用并按次付费 1700+ 第三方 API（Skill / MCP / CLI）。按价格与可靠性路由，不是写死集成。",
@@ -22,14 +210,14 @@
         "工具市场",
         "按次计费"
       ],
-      "homepage": true,
+      "homepage": false,
       "notes": "PH Sep 2 #1 · 356 score · 52 comments"
     },
     {
       "id": "gemini-3-8-flash",
       "name": "Gemini 3.8 Flash",
       "score": 80,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-03T08:15:00+08:00",
       "last_updated": "2026-09-03T08:15:00+08:00",
       "summary": "六周内第三代 Flash；同价强化长程 coding / agent；进 Antigravity、AI Studio、Android Studio 与 Gemini App。另有门控版 3.8 Flash Cyber（见 Fairwind 信号）。",
@@ -43,13 +231,13 @@
         "模型",
         "Agent"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "dial",
       "name": "Dial",
       "score": 75,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-03T08:15:00+08:00",
       "last_updated": "2026-09-03T08:15:00+08:00",
       "summary": "几秒给智能体开真实电话号码：语音 + SMS + iMessage；REST/SDK/CLI/MCP；可收验证码，打通 agent 工作流里的 OTP 卡点。",
@@ -63,34 +251,36 @@
         "MCP",
         "身份"
       ],
-      "homepage": true,
+      "homepage": false,
       "notes": "PH Sep 2 #6 · 176 score · 32 comments"
     },
     {
       "id": "cursor-self-hosted",
       "name": "Cursor Self-hosted Machines",
-      "score": 82,
-      "status": "new",
+      "score": 83,
+      "status": "watching",
       "first_detected": "2026-09-03T08:15:00+08:00",
-      "last_updated": "2026-09-03T08:15:00+08:00",
+      "last_updated": "2026-09-04T08:57:00+08:00",
       "summary": "云智能体跑在你的机池或沙箱供应商上：工具执行与内部服务留在客户网络；智能体循环仍在 Cursor。支持弹性/休眠池与 Linux/Mac computer use。",
       "novelty": "把「大脑在云、手脚在自托管」产品化成一等公民执行拓扑",
       "urls": {
         "site": "https://cursor.com/changelog",
-        "x": "https://x.com/cursor_ai/status/2095257412781396114"
+        "x": "https://x.com/cursor_ai/status/2095257412781396114",
+        "vercel": "https://vercel.com/changelog/run-cursor-cloud-agents-vercel-sandbox"
       },
       "tags": [
         "Cursor",
         "自托管",
         "云智能体"
       ],
-      "homepage": true
+      "homepage": false,
+      "notes": " | 2026-09-03 Vercel Sandbox 成为合作伙伴执行池（scale-to-zero Firecracker）"
     },
     {
       "id": "muse-spark-1-3",
       "name": "Muse Spark 1.3",
       "score": 74,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-03T08:15:00+08:00",
       "last_updated": "2026-09-03T08:15:00+08:00",
       "summary": "Meta 编程/agent 模型：单线程撑更长多任务；更会澄清与卡点确认；不可逆动作前校准；约少 20% 工具调用与 25% token。进 Muse Code 与 Meta Model API；max reasoning 安全测试后放出。",
@@ -104,7 +294,7 @@
         "模型",
         "Agent"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "doop",

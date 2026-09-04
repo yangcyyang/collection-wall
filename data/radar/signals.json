@@ -1,20 +1,20 @@
 {
   "source": "ai-frontier-radar",
   "title": "前沿信号",
-  "updated_at": "2026-09-03T08:15:00+08:00",
+  "updated_at": "2026-09-04T08:57:00+08:00",
   "count": 9,
   "items": [
     {
       "id": "critical-cyber-gated-deployment",
       "title": "前沿实验室把「Critical 级网络能力」做成门控发布，而不是全面开闸",
       "type": "pattern",
-      "score": 91,
+      "score": 94,
       "confidence": "high",
-      "status": "strengthening",
+      "status": "confirmed_trend",
       "first_detected": "2026-09-02T08:20:00+08:00",
-      "last_updated": "2026-09-03T08:15:00+08:00",
-      "summary": "约 48 小时内，第三家前沿实验室跟上「高能力网络模型 = 可信门控」：OpenAI Astra Critical → Daybreak；Anthropic Mythos 5.1 可信访问；Google 发布 Gemini 3.8 Flash Cyber，经 Fairwind 仅给政府与关键基础设施可信防御方，并绑 CodeMender 自动发现+修补 harness。卖点不是又一个更强模型，是能力与门控一起发货，且已成跨实验室默认。",
-      "why_it_matters": "叙事从「单次 Critical 评级」变成「frontier cyber 默认走联盟/门禁部署」。OpenAI / Anthropic / Google 同构：能力越强，默认越不是全面开闸。",
+      "last_updated": "2026-09-04T08:57:00+08:00",
+      "summary": "门控 Critical 网络能力从「即将发布」进入量产：OpenAI GPT-6 Astra 今日分阶段上线（先限组织→Plus/Pro/Biz/Ent + API + AWS），并配套 Daybreak for Frontline Defenders 约 10 亿美元补贴给水电/电网/银行等前线防御方。叠加已有的 Google Fairwind + Anthropic Mythos 可信访问，三家实验室同构已落地为可订阅产品与补贴分发，而不只是评级公告。",
+      "why_it_matters": "叙事闭环：高能力 cyber 默认 = 门控部署 + 防御侧优先供货。Astra 扩到普通付费档并不等于全面开闸——Critical 能力仍绑安全卡与 Daybreak 通道；补贴玩法说明「能力×门禁」开始有国家/关键基础设施分发层。",
       "tags": [
         "安全对齐",
         "网络能力",
@@ -23,7 +23,10 @@
         "门控发布",
         "Google",
         "Fairwind",
-        "Gemini"
+        "Gemini",
+        "Astra",
+        "GPT-6",
+        "Daybreak"
       ],
       "evidence": [
         {
@@ -91,18 +94,46 @@
           "source": "official",
           "note": "CyberGym 86.2%、CWE-Bench 47.2%；Chrome 2.6x 有效修补",
           "date": "2026-09-03T02:10:30+08:00"
+        },
+        {
+          "url": "https://x.com/OpenAI/status/2095595741528125780",
+          "source": "official",
+          "note": "OpenAI：GPT-6 Astra 发布；电脑操控/网络/对齐 SOTA",
+          "date": "2026-09-04T03:32:13+08:00"
+        },
+        {
+          "url": "https://openai.com/index/safety-overview-gpt-6-astra/",
+          "source": "official",
+          "note": "Astra 安全总览；Critical 网络指定在发货时重申",
+          "date": "2026-09-03T00:00:00+08:00"
+        },
+        {
+          "url": "https://openai.com/index/daybreak-for-frontline-defenders/",
+          "source": "official",
+          "note": "Daybreak for Frontline Defenders：约 $1B 补贴前线防御",
+          "date": "2026-09-03T00:00:00+08:00"
+        },
+        {
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "source": "official",
+          "note": "ChatGPT 发布说明：Introducing GPT-6 Astra",
+          "date": "2026-09-03T00:00:00+08:00"
         }
       ],
       "watch_next": [
-        "Fairwind 扩到哪些非国家客户",
-        "公开模型上跑 CodeMender 的扩散",
-        "其他实验室是否跟进门禁+防御 harness 双轨"
+        "Astra 对 Plus/Pro 默认开放哪些 cyber/CU 能力切片",
+        "Daybreak 美国试点扩到哪些非国家客户",
+        "Fairwind / Mythos 是否跟进补贴式防御分发"
       ],
       "homepage": true,
       "judgment_changes": [
         {
           "at": "2026-09-03T08:15:00+08:00",
           "change": "Fairwind 使三家门控成立；score 87→91；status new→strengthening；type→pattern"
+        },
+        {
+          "at": "2026-09-04T08:57:00+08:00",
+          "change": "Astra 分阶段发货 + Daybreak $1B；score 91→94；status strengthening→confirmed_trend"
         }
       ]
     },
@@ -110,12 +141,12 @@
       "id": "multi-agent-team-orchestration",
       "title": "多智能体对抗式协作正在变成可编程的运行时模式",
       "type": "strong_signal",
-      "score": 86,
+      "score": 87,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-09-01T08:50:00+08:00",
-      "last_updated": "2026-09-03T08:15:00+08:00",
-      "summary": "Google Antigravity 在 /teamwork-preview（小时到天）之外，又补了中等时域斜杠命令 /boost：编排器 → DeepCoder/DeepInvestigator → 隔离 worker，临时 worktree + 多轮校验，面向秒到小时的并发 bug / 算法 / 多文件重构。 工作单位从「单智能体加钩子」变成可调用的团队阶梯：默认交互 → /boost → /teamwork-preview。",
+      "last_updated": "2026-09-04T08:57:00+08:00",
+      "summary": "多智能体/团队编排补了 API 与企业层：Responses 异步工具 + 推理中途注入消息（可带工具结果）；Grok Bot Enterprise 被描述成「一次性 onboard 数千队友」。Qwen 放出 E-Commerce Bench（365 天网店长程经营）作为长程经济智能体评测，偏早期。",
       "why_it_matters": "人开始把「一组会互相反驳的智能体」当成可调用原语，而不是再写一个 agent 循环。若 Cursor / Claude Code / Codex 也把 named team pattern 做成斜杠命令，这会从信号升成模式。",
       "tags": [
         "多智能体",
@@ -165,6 +196,24 @@
           "source": "official",
           "note": "Gemini 3.8 Flash 进 Antigravity：长程 agentic loops 工作马",
           "date": "2026-09-02T23:48:00+08:00"
+        },
+        {
+          "url": "https://x.com/nikunjhanda/status/2095606297572073765",
+          "source": "official",
+          "note": "async tools + mid-turn steering 作为团队/编排控制原语",
+          "date": "2026-09-04T04:14:10+08:00"
+        },
+        {
+          "url": "https://x.com/mntruell/status/2095625771541008756",
+          "source": "official",
+          "note": "企业 Bot = 数千队友叙事",
+          "date": "2026-09-04T05:31:33+08:00"
+        },
+        {
+          "url": "https://x.com/Alibaba_Qwen/status/2095476249556853100",
+          "source": "official",
+          "note": "Qwen E-Commerce Bench：365 天网店长程自治评测",
+          "date": "2026-09-03T19:37:24+08:00"
         }
       ],
       "watch_next": [
@@ -172,19 +221,24 @@
         "Lean 证明与上游合入能否被独立复核",
         "付费套餐默认并行规模 vs 博客高并行实验"
       ],
-      "homepage": false,
-      "judgment_changes": []
+      "homepage": true,
+      "judgment_changes": [
+        {
+          "at": "2026-09-04T08:57:00+08:00",
+          "change": "Responses mid-turn + Bot enterprise teammates；score 86→87"
+        }
+      ]
     },
     {
       "id": "agent-persistent-computer",
       "title": "智能体正在拥有自己的长期计算环境",
       "type": "strong_signal",
-      "score": 91,
+      "score": 92,
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-03T08:15:00+08:00",
-      "summary": "实验室在囤 Mac 训练电脑操控，ChatGPT Work 自带可离开再续的云电脑（约 9 vCPU / 15GB），Slack/iMessage 同事产品（Almanac、OpenTag）把「机器+wiki」当成交付。加上 beafk、useagent、Maritime、Superagent Mac，智能体默认要有一台可离开的电脑，不再只是聊天框；本窗口 Claude Cowork/Claude Code 上线后台电脑操控（你做别的事时它点击打字开应用），Cursor 自托管机支持 Linux/Mac computer use——「离开后还在跑」从创业产品进第一方运行时。",
+      "last_updated": "2026-09-04T08:57:00+08:00",
+      "summary": "长期计算环境继续坐实：Astra 官方定位「你在电脑上能做的，它都能代做」并扩到付费档与 API；Grok Bot for Enterprise 今日对 Grok/Cursor 企业客户免费两周，Cursor CEO 称内部像 onboard 了数千队友。第一方（Claude 后台 CU、Astra CU）与企业 Bot 编队并行。",
       "why_it_matters": "交互和商业模式同时在变：人从编辑器里盯着，变成留下一台电脑、偶尔回来检查。实验室侧在囤真实 Mac 做强化学习，产品侧把云电脑和工作区 wiki 做成默认交付。未来 3 到 12 个月，这可能成为智能体产品的默认形态。",
       "tags": [
         "智能体",
@@ -288,6 +342,30 @@
           "source": "official",
           "note": "Pro/Max 桌面 beta；Settings → Computer use",
           "date": "2026-09-03T03:06:19+08:00"
+        },
+        {
+          "url": "https://x.com/OpenAI/status/2095595741528125780",
+          "source": "official",
+          "note": "Astra：Anything you can do on a computer, Astra can do for you",
+          "date": "2026-09-04T03:32:13+08:00"
+        },
+        {
+          "url": "https://x.com/bot/status/2095621571335655872",
+          "source": "official",
+          "note": "Grok Bot for Enterprise 上线；Grok+Cursor 企业免两周",
+          "date": "2026-09-04T05:14:52+08:00"
+        },
+        {
+          "url": "https://x.com/mntruell/status/2095625771541008756",
+          "source": "official",
+          "note": "Cursor CEO：Bot 是内部采用最深、最强的 AI 产品",
+          "date": "2026-09-04T05:31:33+08:00"
+        },
+        {
+          "url": "https://x.ai/news/designing-grok-bot",
+          "source": "official",
+          "note": "xAI 设计文：Bot 自有电脑 + Routines（产品 Aug 11 已上，文为回顾）",
+          "date": "2026-09-03T00:00:00+08:00"
         }
       ],
       "watch_next": [
@@ -299,6 +377,10 @@
         {
           "date": "2026-08-31T08:45:00+08:00",
           "change": "实验室囤 Mac + ChatGPT Work 云电脑 + Slack 同事自带机器同时出现，从加强中升为已确认趋势"
+        },
+        {
+          "at": "2026-09-04T08:57:00+08:00",
+          "change": "Astra CU 扩量 + Grok Bot Enterprise；score 91→92"
         }
       ]
     },
@@ -397,12 +479,12 @@
       "id": "recursive-alignment-loop",
       "title": "递归自我改进正在离开演示稿，变成可运行的研究循环",
       "type": "strong_signal",
-      "score": 87,
+      "score": 89,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-03T08:15:00+08:00",
-      "summary": "递归自我改进与安全运维同窗加速：Anthropic 发 Fable 5.1 / Mythos 5.1（同一底座、两套护栏信封；网络护栏误报约降 60%；约 25% 更低典型成本；Terminal-Bench 4.0 Mythos 60.9% / Fable 55.8%；CursorBench 73.4%），并上线 Enterprise Frontier Safeguards。 Claude Code 2.1.257 默认 Fable 5.1，并加 Containment Escape 规则。此前 Mythos 级对齐/安全叙事与 Hacker-Opus 仍在证据链上。OpenAI Astra Critical 同窗见独立信号 critical-cyber-gated-deployment。",
+      "last_updated": "2026-09-04T08:57:00+08:00",
+      "summary": "递归自我改进与运行时护栏继续拧在一起：GPT-6 Astra 系统卡强调错位监控可暂停/终止 agent 对话，并在有限编码智能体部署窗口后放量；sama 称该能力级对齐标准拖慢了发货。训练侧 RSI 传闻仍待第三方复现，但产品侧「评估→限制→放量」环已在 Critical 模型上跑通。",
       "why_it_matters": "若对齐和训练优化成为智能体自己的工作，产品和安全的节奏都会变。不要把 Hy4 的递归自改进数字写成已经复现的事实。",
       "tags": [
         "对齐",
@@ -488,6 +570,24 @@
           "source": "official",
           "note": "Muse Spark max reasoning 仍卡安全测试后放出",
           "date": "2026-09-03T03:36:19+08:00"
+        },
+        {
+          "url": "https://openai.com/index/safety-overview-gpt-6-astra/",
+          "source": "official",
+          "note": "Astra：错位监控可暂停/停止 agent 会话",
+          "date": "2026-09-03T00:00:00+08:00"
+        },
+        {
+          "url": "https://deploymentsafety.openai.com/gpt-6-astra",
+          "source": "official",
+          "note": "GPT-6 Astra system card / deployment safety",
+          "date": "2026-09-03T00:00:00+08:00"
+        },
+        {
+          "url": "https://x.com/sama/status/2095600005772104059",
+          "source": "official",
+          "note": "sama：为对齐标准多花时间；FrontierMath/ARC-AGI/ExploitBench",
+          "date": "2026-09-04T03:49:10+08:00"
         }
       ],
       "watch_next": [
@@ -495,25 +595,29 @@
         "有没有第三方复现 Hy4 的递归自改进",
         "OpenRouter 放量能否核对"
       ],
-      "homepage": false,
+      "homepage": true,
       "judgment_changes": [
         {
           "date": "2026-09-01T08:50:00+08:00",
           "change": "Anthropic 官方跟进评测出网与 Hacker-Opus；80→83，new→strengthening。仍无第三方 Hy4 RSI 复现。不上首页（安全运维，非产品主线）"
+        },
+        {
+          "at": "2026-09-04T08:57:00+08:00",
+          "change": "Astra 错位监控+系统卡；score 87→89"
         }
       ]
     },
     {
       "id": "harness-control-plane",
       "title": "编程运行时在加控制面，不是发新模型",
-      "type": "emerging_signal",
-      "score": 83,
+      "type": "strong_signal",
+      "score": 86,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-28T00:00:00+08:00",
-      "last_updated": "2026-09-03T08:15:00+08:00",
-      "summary": "Cursor 把云智能体执行面做成自托管：My Machines + team pools（可弹性/休眠），智能体循环留在 Cursor，工具与密钥留在客户机或 Cloudflare/AWS Lambda/Coder/Daytona/Modal/Vercel/E2B 等沙箱；支持 Linux/Mac computer use。Google CodeMender 则把防御侧 harness 绑进 Cyber 发布。运行时在加控制面与执行拓扑，不是只发新模型。",
-      "why_it_matters": "企业默认拓扑开始清晰：推理/编排在厂商云，手脚与 secrets 在客户机/池。这与「智能体自带电脑」并行，会决定谁控制工具面。",
+      "last_updated": "2026-09-04T08:57:00+08:00",
+      "summary": "编程/智能体运行时继续加控制面：Vercel Sandbox 成为 Cursor Self-Hosted Machines 的首个大规模合作伙伴执行池（Firecracker、按请求缩到零）；OpenAI Responses API 随 Astra 放出异步工具调用、中途转向、不破缓存改推理力度；PH 上 Blume.codes 把会话纠错沉淀成跨 Cursor/Claude Code/Codex 的 rules/skills 边车。",
+      "why_it_matters": "「大脑在哪、手脚在哪、人怎么打断」正在产品化：自托管执行拓扑有了可缩容的沙箱供应商，API 层有了中途转向，本地又有 teach-by-showing 的 harness 整理器。",
       "tags": [
         "运行时",
         "MCP",
@@ -590,6 +694,24 @@
           "source": "official",
           "note": "支持自管机与 AWS Lambda/Coder/Cloudflare/Daytona/E2B/Modal/Vercel 等",
           "date": "2026-09-03T05:07:49+08:00"
+        },
+        {
+          "url": "https://vercel.com/changelog/run-cursor-cloud-agents-vercel-sandbox",
+          "source": "official",
+          "note": "Vercel：Cursor Cloud Agents 跑在 Vercel Sandbox",
+          "date": "2026-09-03T00:00:00+08:00"
+        },
+        {
+          "url": "https://x.com/nikunjhanda/status/2095606297572073765",
+          "source": "official",
+          "note": "Responses API：异步 function calling + mid-turn steering（sama RT）",
+          "date": "2026-09-04T04:14:10+08:00"
+        },
+        {
+          "url": "https://www.producthunt.com/products/blume-codes",
+          "source": "community",
+          "note": "Blume.codes：会话→rules/skills 边车",
+          "date": "2026-09-03T00:00:00+08:00"
         }
       ],
       "watch_next": [
@@ -602,6 +724,10 @@
         {
           "date": "2026-09-01T08:50:00+08:00",
           "change": "Google Teamwork 把控制面从钩子升级成团队模式，同时新开 multi-agent-team-orchestration；Vercel fx 接到 HarnessAgent。72→78，watching→strengthening。不因 Claude Code 2.1.252 修 bug 抬分"
+        },
+        {
+          "at": "2026-09-04T08:57:00+08:00",
+          "change": "Vercel Sandbox + Responses 控制原语 + Blume；score 83→86；type emerging_signal→strong_signal"
         }
       ]
     },
@@ -659,12 +785,12 @@
       "id": "skills-as-distribution",
       "title": "技能正在变成智能体能力的分发层",
       "type": "pattern",
-      "score": 76,
+      "score": 78,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-01T08:50:00+08:00",
-      "summary": "周末 GitHub 新库仍被技能文件主导。ChatGPT 企业版可从 GitHub 导入插件市场并每日同步；Claude Design 的画板工作流被做成 /design 技能送进 Claude Code。forward-implementation-first 现 154 星（板上 125），lean-mode-skill 8 月 29 日新建现 56 星（板上 47）。第四个命令行不值钱，可安装技能和模板才是分发。",
+      "last_updated": "2026-09-04T08:57:00+08:00",
+      "summary": "技能分发层多了一条 teach-by-showing：Blume.codes 监听编码智能体会话，把反复纠正沉淀成跨 Cursor/Claude Code/Codex 的 rules/skills（人审后写入）。与「技能包市场」并行，补的是 harness 侧从会话到可分发资产。",
       "why_it_matters": "第四个命令行不值钱。可安装的技能和模板才是分发。企业插件市场把同一层做成了日常同步的软件包。",
       "tags": [
         "技能",
@@ -713,23 +839,34 @@
           "source": "official",
           "date": "2026-08-29T00:00:00+08:00",
           "note": "Grok Bot 可分享模板"
+        },
+        {
+          "url": "https://www.producthunt.com/products/blume-codes",
+          "source": "community",
+          "note": "Blume：session→rules/skills sidecar",
+          "date": "2026-09-03T00:00:00+08:00"
         }
       ],
       "watch_next": [
         "技能质量会不会被批量克隆淹没"
       ],
       "homepage": true,
-      "judgment_changes": []
+      "judgment_changes": [
+        {
+          "at": "2026-09-04T08:57:00+08:00",
+          "change": "Blume teach-by-showing；score 76→78"
+        }
+      ]
     },
     {
       "id": "apache-maka-durable-workspace",
       "title": "本地优先、可回放的智能体工作区开始有 Apache 级实现",
       "type": "emerging_signal",
-      "score": 82,
+      "score": 83,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-30T00:00:00+08:00",
-      "last_updated": "2026-09-03T08:15:00+08:00",
+      "last_updated": "2026-09-04T08:57:00+08:00",
       "summary": "apache/maka：只追加的执行记录（消息、工具、权限、终止），桌面、终端和评测共用运行时，可选电脑操控。现 4438 星（板上 4187，+137/24h）。窗口内仍在推 WebRTC peers / workhub。社区开始按执行记录和恢复来走读，而不只是当聊天框。",
       "why_it_matters": "跑几天的智能体需要证据链。和 pydantic-ai 的持久化操作、agent-loop-guard 指向同一缺口。",
       "tags": [
@@ -762,15 +899,26 @@
           "source": "github",
           "note": "stars 4569（昨约 4438，+131）；窗口内仍有 push",
           "date": "2026-09-03T08:15:00+08:00"
+        },
+        {
+          "url": "https://github.com/apache/maka",
+          "source": "official",
+          "note": "apache/maka ≈4649★（scan）；仍活跃推送",
+          "date": "2026-09-04T08:57:00+08:00"
         }
       ],
       "watch_next": [
         "是否支持 Linux",
         "会不会成为本地执行记录的标准"
       ],
-      "homepage": false,
-      "judgment_changes": [],
-      "notes": "GitHub stars 4569 as of 2026-09-03 morning scan"
+      "homepage": true,
+      "judgment_changes": [
+        {
+          "at": "2026-09-04T08:57:00+08:00",
+          "change": "星标 4569→4649；score 82→83"
+        }
+      ],
+      "notes": "Star count 2026-09-04 scan ≈4649★（昨 upsert ~4569，约 +80/24h）；仍无 Linux 基金会级公告。"
     }
   ]
 }

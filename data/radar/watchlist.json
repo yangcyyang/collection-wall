@@ -1,9 +1,34 @@
 {
   "source": "ai-frontier-radar",
   "title": "观察名单",
-  "updated_at": "2026-09-03T08:15:00+08:00",
-  "count": 11,
+  "updated_at": "2026-09-04T08:57:00+08:00",
+  "count": 13,
   "items": [
+    {
+      "id": "astra-plus-rollout",
+      "title": "Astra 对 Plus/Pro 默认开放的能力切片",
+      "why": "Critical cyber / 完整 CU 是否进大众付费档，决定门控叙事是「分级产品」还是「迟早全面开闸」",
+      "since": "2026-09-04T08:57:00+08:00",
+      "last_updated": "2026-09-04T08:57:00+08:00",
+      "status": "watching",
+      "confidence": "medium",
+      "related_signals": [
+        "critical-cyber-gated-deployment",
+        "agent-persistent-computer"
+      ]
+    },
+    {
+      "id": "grok-4-7",
+      "title": "Grok 4.7 是否按 Musk ~Sep 12 估计放出",
+      "why": "无官方模型卡/API；仅媒体估计。放出则供应连再洗一次牌",
+      "since": "2026-09-04T08:57:00+08:00",
+      "last_updated": "2026-09-04T08:57:00+08:00",
+      "status": "watching",
+      "confidence": "low",
+      "related_signals": [
+        "coding-agent-supply-chain"
+      ]
+    },
     {
       "id": "muse-spark-max-reasoning",
       "title": "Muse Spark max reasoning 安全测试后是否放出",
@@ -19,9 +44,9 @@
     {
       "id": "fairwind-codemender",
       "title": "Fairwind / CodeMender 扩散形态",
-      "why": "非 Fairwind 客户能否用公开模型跑自动修补；可信名额扩到哪些行业",
+      "why": "非 Fairwind 客户能否用公开模型跑自动修补；Daybreak $1B 前线补贴是否形成美欧对位分发",
       "since": "2026-09-03T08:15:00+08:00",
-      "last_updated": "2026-09-03T08:15:00+08:00",
+      "last_updated": "2026-09-04T08:57:00+08:00",
       "status": "watching",
       "confidence": "medium",
       "related_signals": [
@@ -32,9 +57,9 @@
     {
       "id": "cursor-openai-nov12",
       "title": "Cursor 与 OpenAI 11 月 12 日切断",
-      "why": "日期还在不在、Astra 是否永远不进；本窗 Cursor 上线 Gemini 3.8 Flash + 自托管执行面，模型与运行时多元化加速，用户默认模型会否被静默切换仍待观察",
+      "why": "日期还在不在；Astra 已 API+AWS，是否进 Cursor 仍未知；自托管+Vercel 沙箱让运行时更不绑单一模型供应商",
       "since": "2026-08-28T00:00:00+08:00",
-      "last_updated": "2026-09-03T08:15:00+08:00",
+      "last_updated": "2026-09-04T08:57:00+08:00",
       "status": "watching",
       "related_signals": [
         "coding-agent-supply-chain",
@@ -44,9 +69,9 @@
     {
       "id": "agent-computer-category",
       "title": "beafk、useagent、vicoa 谁先做出离开后还在跑",
-      "why": "Claude Cowork/Code 已官方后台电脑操控（第一方）；Murmell/beafk/useagent/Almanac/Naseem 与 Cursor 自托管机一起决定长期电脑默认形态",
+      "why": "Claude 后台 CU + Astra CU 扩量 + Grok Bot Enterprise；beafk/useagent/Murmell 与企业 Bot 谁定义默认长期电脑",
       "since": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-03T08:15:00+08:00",
+      "last_updated": "2026-09-04T08:57:00+08:00",
       "status": "watching",
       "related_signals": [
         "agent-persistent-computer"
@@ -66,9 +91,9 @@
     {
       "id": "apache-maka",
       "title": "apache/maka 会否成为本地执行记录标准",
-      "why": "Apache 基金会加星速；现 4569（昨约 4438，+131/约24h），仍无 Linux 公告",
+      "why": "Apache 基金会加星速；现 ≈4649★（昨约 4569，+~80/24h），仍无 Linux 公告",
       "since": "2026-08-30T00:00:00+08:00",
-      "last_updated": "2026-09-03T08:15:00+08:00",
+      "last_updated": "2026-09-04T08:57:00+08:00",
       "status": "watching",
       "related_signals": [
         "apache-maka-durable-workspace"
