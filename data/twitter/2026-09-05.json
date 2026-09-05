@@ -9,6 +9,308 @@
   },
   "items": [
     {
+      "id": "2096263637531033663",
+      "author": "bindureddy",
+      "bio": "CEO of @abacusai  - a powerful AI Agent and SuperComputer - Build your company on Abacus AI, ex-AWS & Google",
+      "text": "LOL!  OpenAI has literally fine tuned Astra to excel at 3D models\n\nMakes for an extremely viral launch but not that much more \n\nIt is a huge token guzzler and doesn’t handle large codebases as well as Fable 5.1 🤷‍♀️",
+      "likes": 32,
+      "retweets": 0,
+      "replies": 9,
+      "views": 1624,
+      "created_at": "Sat Sep 05 15:46:12 +0000 2026",
+      "url": "https://x.com/bindureddy/status/2096263637531033663",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 63.259,
+      "summary": "作者笑称 OpenAI 把 Astra 微调得特别会做 3D 模型，发布很会刷屏，但实质增量有限：极吃 token，处理大代码库也不如 Fable 5.1。",
+      "recommend_reason": "把「演示炫技」和「工程可用性」拆开看，对 Astra vs Fable 选型很有参考。",
+      "tags": [
+        "GPT-6",
+        "Astra",
+        "Fable 5",
+        "3D",
+        "成本"
+      ],
+      "title": "Astra 擅长 3D 爆款演示，但吃 token、大代码库不如 Fable 5.1",
+      "rank": 1
+    },
+    {
+      "id": "2096262813010600335",
+      "author": "xiaoxiaodong01",
+      "bio": "国际 不知名 提示词专家 / 植物爱好者 / AI作图基建\nskills/chrom plugin/prompt/art/logo/ppt\n微信:：newbe2012\nenglish prompt: https://t.co/CuBmCtbsRZ\n有星球 营业中",
+      "text": "GPT2 x  蜡笔 x 治愈系 x 美学提示词 x VOL.116\n\n好喜欢这个风格\n今天本来要发布10个新风格的\n\n沉迷Astra，有点点分神了\n不过astra 更适合做这些美学探索了\n\nGitHub skills地址：\nhttps://t.co/c9mRKM0oEl\n\n完整提示词 ⤵️\n\n```\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色，使其具有艺术杂志、独立出版物与展览图像质感。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分先理解原照片最值得被记住的**核心主题、主体关系、结构走势、情绪与视觉隐喻**，再重构为**复古纸张肌理的粉彩蜡笔涂鸦插画**。不要逐物复制照片，也不要把所有内容完整转绘，只保留最能代表原物的轮廓、姿态、方向和视觉记忆点，通过删减、概括、轻微夸张和重新组合，使人一眼感受到它与上方照片之间的对应关系。\n\n主体使用**粗颗粒粉笔 / 蜡笔式手绘轮廓**：线条略粗、松弛、干涩，带有粉末颗粒、断续掉色、轻微抖动和不完全闭合的边缘，笔端自然钝圆。主体内部只加入极少量粉彩色块、简单网格、条纹、圆点或随手涂抹，用最少信息提示结构，不做写实体积和完整细节。\n\n周围小元素与主体使用**同一种线条语言**，但进一步压缩为一笔或几笔即可识别的涂鸦符号。星星、花朵、植物、器物、环境线索或抽象符号都应简单、稚拙、开放、不完全闭合，以单线轮廓为主，极少填色。不要画成精致图标、贴纸或独立小插画。\n\n构图保持**小尺度章印与大面积留白**的关系，根据主体自身的方向、比例和视觉重心自由安排位置，可偏心、贴边、悬置或局部裁切。主体与极少量涂鸦符号形成松散但明确的视觉群落，其余空间主动留空。**留白本身就是主要构图元素**，通过空与实、聚与散、大小反差和不对称关系形成呼吸感、距离感与停顿感；宁可少画，也不要填满。\n\n背景必须使用**极浅、明亮、干净的纸张底色**，例如奶油白、象牙白、浅米白、淡杏白、极浅灰白或根据原图综合色温智能匹配的近白纸色。纸张只保留非常轻微的纤维与颗粒，不能偏棕、偏黄、偏灰或显得陈旧。**背景明度必须明显高于主体线条与色块，确保所有蜡笔轮廓、小符号和文字清楚可见，不得与背景糊在一起。**\n\n配色从上方照片中提取 **2–4 种最鲜活、最有亲和力、最能代表画面精神的颜色**重新调制，转化为明亮柔和的粉彩蜡笔色。可自然形成蜜桃粉、杏橙、奶油黄、薄荷青、天空蓝、淡紫等轻盈色彩；主体线条优先使用比背景更清晰的珊瑚粉、柔蓝、青绿、暖橙、淡紫或奶油深色调，小元素只零星重复这些颜色形成呼应。整体保持**浅背景 + 清晰彩线 + 少量柔和色块**的对比关系，明快、治愈、轻松、有生活感。避免灰暗、脏褐、沉闷莫兰迪化、低对比、荧光色和廉价糖果感。\n\n文字少量介入，不限制语种。可从主体、动作、情绪、记忆或隐喻中自由提炼短句或文字片段，使用**轻薄、疏朗、带轻微字距不齐与旧式机械印字误差的打字排版字体**，颜色使用清晰但不刺眼的灰褐、柔黑、深蓝灰或与主体呼应的深色，确保在浅色纸面上有足够可读性。文字自然散落在留白区域，与主体和涂鸦形成图文混排，不做固定标题模板。\n\n整体呈现**极浅纸面、粗颗粒蜡笔轮廓、少量粉彩填色、极简涂鸦符号、小尺度主体与大量艺术留白**共同构成的高级治愈视觉。重点是让主体与小元素清楚浮现在浅色纸面上，同时保持松弛、天真、温柔和成熟的编辑构图意识。避免深色牛皮纸、暗棕背景、低对比线条、背景与主体糊成一团、精细描边、写实转绘、复杂小图标、背景填满、光滑矢量、3D感和商业模板感。\n```",
+      "likes": 5,
+      "retweets": 1,
+      "replies": 0,
+      "views": 472,
+      "created_at": "Sat Sep 05 15:42:55 +0000 2026",
+      "url": "https://x.com/xiaoxiaodong01/status/2096262813010600335",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRdrN8waQAAA0X8.jpg",
+        "https://pbs.twimg.com/media/HRdrR4VbwAAcLks.jpg",
+        "https://pbs.twimg.com/media/HRdrWiZboAAFKlc.jpg",
+        "https://pbs.twimg.com/media/HRdrZshbQAAkrDf.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRdrN8waQAAA0X8.jpg",
+        "https://pbs.twimg.com/media/HRdrR4VbwAAcLks.jpg",
+        "https://pbs.twimg.com/media/HRdrWiZboAAFKlc.jpg",
+        "https://pbs.twimg.com/media/HRdrZshbQAAkrDf.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2095931305540419983",
+        "author": "xiaoxiaodong01",
+        "name": "小小东",
+        "text": "GPT2 x 涂鸦 x 萌趣 x 美学提示词 x VOL.115\n\n用这组提示词，给家人朋友，带去一点点，天真的快乐！\n\n发明这组提示词非天才的我\n发现这组提示词和港乐好配。\n\n有种吴孟达在浇花的快乐~\n小红书本人也同步运营了，期待有幸遇见。\n\n完整提示词：\n```\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色，使其具有艺术杂志、独立出版物与展览图像质感。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分先理解原照片最值得被记住的**核心主题、主体关系、结构走势、情绪与视觉隐喻**，再重构为**复古纸张肌理的粉彩手绘涂鸦材料拼贴插画**。不要逐物复制照片，也不要大面积铺满画面，而是删去无关细节，只保留最能代表原物的结构、走势和视觉记忆点，通过手绘涂鸦、材料拼贴、粉彩蜡笔质感与少量纸片重组，进行**巧妙的转绘与再表达**，使人能够一眼识别它与上方照片之间的对应关系。\n\n主体造型以**小尺度章印式主视觉**呈现，不追求完整复刻，而是通过少量最关键的轮廓、姿态、方向和关系完成识别。主体线条采用明显的**粉笔 / 蜡笔式手绘涂鸦线条**：粗细略有变化，带有干涩颗粒、断续掉粉、轻微抖动和不完全闭合的边缘，像直接画在粗糙纸面上的随手线稿。可有轻微歪斜、重复、迟疑和笨拙感，但不能变成凌乱草稿。局部可用短线、交叉排线、简单网格和少量涂抹表达结构，不做写实体积塑造。\n\n整体仍保留**材料拼贴**逻辑。主体及少量辅助元素可由纸片、拼贴形状、粉彩色块和手绘符号共同构成，保留轻微剪贴边缘、层叠关系和手工感，但只服务于概括与重构，不做琐碎装饰。周围可加入极少量与原图情绪有关的星点、花朵、波纹、几何符号或生活化小涂鸦，作为叙事呼应，不形成第二视觉中心。\n\n构图保持**小尺度章印与大面积留白**的关系，根据主体自身的方向、比例和视觉重心自由安排位置，可偏心、贴边、悬置或局部裁切。**留白必须是有意识的构成语言，而不是空出来的背景。** 它与主体、拼贴元素、文字和少量符号共同形成正负形、疏密、聚散与不对称平衡，构成明显的呼吸感、空间感与停顿感。宁可删减，也不要填满，让主体像被精心安放在大片纸面中的一枚视觉章印。\n\n背景必须与主体形成**清晰而温和的对比**，不能色相、明度和质感全部糊成一团。背景纸面可采用暖棕牛皮纸、再生纸、浅色手工纸或其他与原图气质相符的纸张基底，但必须与主体在线条亮度、色块明度或色相上拉开层次，让主体清楚浮现。背景保持真实纤维和颗粒感，干净自然，不做脏旧污渍。\n\n配色从上方照片中提取 **2–4 种最鲜活、最有亲和力、最能代表画面精神的颜色**重新调制，转化为柔和而清晰的粉彩色组。可自然形成奶油粉、蜜桃橙、浅天蓝、薄荷青、柔黄、淡紫等轻盈色彩，并以白色或奶油色线条提亮。整体要明快、温暖、治愈、有生活感，同时与背景形成足够区分，避免灰暗、脏褐、沉闷莫兰迪化、荧光色和廉价糖果感。\n\n文字只作极少量编辑性介入，不限制语种。可从照片的主体、情绪、动作、记忆或隐喻中自由提炼少量短句或文字片段，使用**纤细、疏朗、带轻微字距不齐与旧式印字误差的轻型打字排版字体**，与松弛手绘线条形成对比。文字安静地散落在留白中，贴近主体或顺着画面方向排列，与插画共同构成自然的图文混排关系，不做固定标题模板。\n\n整体呈现**纸张肌理、粉彩蜡笔涂鸦、少量材料拼贴、小尺度章印主体、大面积有意识留白与松弛图文混排**共同构成的高级视觉效果。重点不是照搬照片，而是理解原图的视觉语言后，用更巧妙、更轻盈、更有呼吸感的方式重新表达原始主题。避免逐物转绘、背景与主体糊成一团、画面填满、写实描摹、细密描边、光滑矢量、过度装饰、儿童模板感、3D感和商业海报感。\n```",
+        "created_at": "Fri Sep 04 17:45:38 +0000 2026",
+        "url": "https://x.com/xiaoxiaodong01/status/2095931305540419983",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HRY74InbYAAMTkr.jpg",
+          "https://pbs.twimg.com/media/HRY757WaUAA5PVs.jpg",
+          "https://pbs.twimg.com/media/HRY77pMb0AAxmJG.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HRY74InbYAAMTkr.jpg",
+          "https://pbs.twimg.com/media/HRY757WaUAA5PVs.jpg",
+          "https://pbs.twimg.com/media/HRY77pMb0AAxmJG.jpg"
+        ]
+      },
+      "score": 58.991,
+      "summary": "作者分享一整套面向 Astra 的「照片上半 + 粉彩蜡笔涂鸦下半」竖版海报提示词：严格 3:4、上下 1:1，上半保留原照片质感，下半用粗颗粒粉笔轮廓、大量留白与浅色纸面做治愈系重构，并附 GitHub skills 地址。称因沉迷 Astra 分神，但觉得它更适合做这类美学探索。",
+      "recommend_reason": "可直接复用的完整美学提示词，比空泛「好看」示范更有落地价值。",
+      "tags": [
+        "GPT-6",
+        "Astra",
+        "提示词",
+        "AI绘图",
+        "设计"
+      ],
+      "title": "Astra 美学探索：粉彩蜡笔治愈系海报提示词 VOL.116",
+      "rank": 2
+    },
+    {
+      "id": "2096261707022880990",
+      "author": "jinchenma_ai",
+      "bio": "前大厂程序员，OPC实践中｜只工作不上班\n用AI → 内容创作｜知识库｜教程｜培训\n记录普通人如何在AI时代淘点金\n最近在做FDE实践与落地👇欢迎链接&合作&咨询",
+      "text": "不是我说啊，前阵子刚推荐身边那些在国内没办法用海外软件的朋友，去用国内某大厂的 Agent 平替软件，转头就被打脸。\n\n事情是这样的，这两天我这个朋友借了我的无人机去旅游拍摄。\n\n当把视频导入电脑后，发现播放器里这个视频下面带着一串字幕（见图1）。\n\n我的第一反应是，应该是播放器把某些信息当成字幕读出来了。我让朋友去问 AI，结果他得到的答案是，飞行参数已经被烧到画面里了，没办法消除（见图 3）。\n\n我朋友以为白拍了，素材也废了。然后我告诉他等一下，转头就去问了 GPT。GPT 给出的解决办法是，到设置里把字幕关闭就好了（见图 4）。\n\n我朋友又去试了一下，果然好了。\n\nEmmm，这就很难评😂\n\n我觉得这些问题真的有必要重视一下，这都是影响用户心智的事情。直到现在，我还经常听见有人说，国内某包、某宝这类软件不好用。\n\n一方面，可能大家使用的姿势确实不对。\n\n另一方面，你这模型胡说八道，张口就来，真的太坑人了。",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 1,
+      "views": 304,
+      "created_at": "Sat Sep 05 15:38:32 +0000 2026",
+      "url": "https://x.com/jinchenma_ai/status/2096261707022880990",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRdq5pMaEAAnIgo.jpg",
+        "https://pbs.twimg.com/media/HRdq5pJaMAANpm_.jpg",
+        "https://pbs.twimg.com/media/HRdq5pNawAAi3mr.jpg",
+        "https://pbs.twimg.com/media/HRdq5pHbEAAaZym.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRdq5pMaEAAnIgo.jpg",
+        "https://pbs.twimg.com/media/HRdq5pJaMAANpm_.jpg",
+        "https://pbs.twimg.com/media/HRdq5pNawAAi3mr.jpg",
+        "https://pbs.twimg.com/media/HRdq5pHbEAAaZym.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 58.927,
+      "summary": "朋友借无人机拍的视频被播放器读出一串「字幕」，国产某大厂 Agent 平替判断为飞行参数已烧进画面无法消除；作者改问 GPT，答案是到设置里关闭字幕——试了果然好了。作者据此提醒：模型张口胡说会直接毁掉用户心智，比「用法不对」更伤。",
+      "recommend_reason": "具体翻车对照，比抽象评测更能说明 Agent 幻觉对真实场景的伤害。",
+      "tags": [
+        "GPT",
+        "Agent",
+        "幻觉",
+        "测评",
+        "用户体验"
+      ],
+      "title": "无人机字幕误判：国产 Agent 胡说「烧进画面」vs GPT 一关就好",
+      "rank": 3
+    },
+    {
+      "id": "2096255563063820752",
+      "author": "jinchenma_ai",
+      "bio": "前大厂程序员，OPC实践中｜只工作不上班\n用AI → 内容创作｜知识库｜教程｜培训\n记录普通人如何在AI时代淘点金\n最近在做FDE实践与落地👇欢迎链接&合作&咨询",
+      "text": "一般来说，AI 严父的文章，普通人类很难看懂。\n\n你要做的，就是让 GPT-6 Astra 去读一遍，然后让 AI 去执行。\n\n最终让它用通俗易懂的话告诉你结论就可以了。",
+      "likes": 4,
+      "retweets": 1,
+      "replies": 1,
+      "views": 1198,
+      "created_at": "Sat Sep 05 15:14:07 +0000 2026",
+      "url": "https://x.com/jinchenma_ai/status/2096255563063820752",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2096157899554693239",
+        "author": "dashen_wang",
+        "name": "AI最严厉的父亲",
+        "text": "data Data DAta go!!!!!!!!!!!!!!!!! https://t.co/8wt7f6Vxnh",
+        "created_at": "Sat Sep 05 08:46:02 +0000 2026",
+        "url": "https://x.com/dashen_wang/status/2096157899554693239",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 51.859,
+      "summary": "一般来说，AI 严父的文章，普通人类很难看懂。\n\n你要做的，就是让 GPT-6 Astra 去读一遍，然后让 AI 去执行。\n\n最终让它用通俗易懂的话告诉你结论就可以了。",
+      "recommend_reason": "把难文「先读懂再执行再白话结论」收成可抄的 Astra 用法。",
+      "tags": [
+        "GPT-6",
+        "Astra",
+        "工作流",
+        "阅读",
+        "Agent"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2096251596929994760",
+      "author": "dugujun12",
+      "bio": "十年互联网运营，一人公司+AI 转型中。\n自研本地AI工作助手 DOWORK，欢迎使用：\nhttps://t.co/GvszyN3kBU",
+      "text": "搞了半天，ChatGPT 模式可以使用GPT-6，Codex 模式还没有，fk",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "views": 42,
+      "created_at": "Sat Sep 05 14:58:21 +0000 2026",
+      "url": "https://x.com/dugujun12/status/2096251596929994760",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 54.408,
+      "summary": "搞了半天，ChatGPT 模式可以使用GPT-6，Codex 模式还没有，fk",
+      "recommend_reason": "一句话摸清 GPT-6 分通道上线：Chat 有、Codex 暂无。",
+      "tags": [
+        "GPT-6",
+        "ChatGPT",
+        "Codex",
+        "产品"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2096248608723193961",
+      "author": "xiaohu",
+      "bio": "带你了解全球最前沿科技、AI动态...\n\nAI 精华，讲到你懂：https://t.co/nvuDIvoNg1",
+      "text": "GPT 6 越过了一个奇点\n\n那就是 AI 现在比你更会使用和操作电脑了\n\n而且几乎比所有人类都更会使用和操作电脑\n\n更牛P的是\n它能使用几乎存在的所有软件和应用\n\n就算不会的也很快学会\n\n人类的尊严再次丢失一大块…",
+      "likes": 78,
+      "retweets": 2,
+      "replies": 12,
+      "views": 10661,
+      "created_at": "Sat Sep 05 14:46:29 +0000 2026",
+      "url": "https://x.com/xiaohu/status/2096248608723193961",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 59.576,
+      "summary": "GPT 6 越过了一个奇点\n\n那就是 AI 现在比你更会使用和操作电脑了\n\n而且几乎比所有人类都更会使用和操作电脑\n\n更牛P的是\n它能使用几乎存在的所有软件和应用\n\n就算不会的也很快学会\n\n人类的尊严再次丢失一大块…",
+      "recommend_reason": "用一句话点出 Computer Use 的心理冲击：模型操作电脑已越过多数人。",
+      "tags": [
+        "GPT-6",
+        "Astra",
+        "Computer Use",
+        "Agent"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2096243213732585543",
+      "author": "gkxspace",
+      "bio": "",
+      "text": "GPT-6 Astra 发布后，我最大的感受是：OpenAI 可以准备 $10000 一个月的订阅了，$200 根本不够用。。。\n\n它确实强得离谱，但是...\n\nBlender 建模、浏览器做游戏、Canva 画图、长时间跑完整工作流，搞的花里胡哨，意义在哪里？\n\n花的钱更多了，好像并没有赚到更多的钱\n\n这可能也是很多 AI builder 的现状：\n\n每天追新模型、换工具、写代码、做 demo，订阅越来越贵，收入没怎么变。\n\n所以我现在真觉得要少写点代码，多出去看看别人怎么赚钱的。\n\n去见客户，听别人为什么掏钱，学销售，学渠道，学怎么把产品送到用户面前。\n\nAI 越强，go-to-market 越重要。",
+      "likes": 68,
+      "views": "13216",
+      "created_at": "Sat Sep 05 14:25:03 +0000 2026",
+      "url": "https://x.com/i/status/2096243213732585543",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 59.556,
+      "summary": "作者称 GPT-6 Astra 强得离谱，但 $200 订阅根本不够用；Blender、浏览器做游戏、Canva、长工作流虽然花哨，却未必带来更多收入。许多 AI builder 陷在追新模型与做 demo，订阅越贵收入不变。建议少写点代码，多出去见客户、学销售与渠道——AI 越强，go-to-market 越重要。",
+      "recommend_reason": "少见地把模型能力与商业变现脱钩，提醒 builder 别只卷工具链。",
+      "tags": [
+        "GPT-6",
+        "Astra",
+        "创业",
+        "商业化",
+        "成本"
+      ],
+      "title": "Astra 再强，$200 也不够：AI builder 该把重心移到获客",
+      "rank": 7
+    },
+    {
+      "id": "2096243088700088431",
+      "author": "abskoop",
+      "bio": "",
+      "text": "GPT-6 Astra 发布完 马上就进了 GitHub Copilot了\n\n定位是长任务、自动编程和 Agentic Coding 🥸 https://t.co/gPjJnnlsSW",
+      "likes": 1,
+      "views": "3666",
+      "created_at": "Sat Sep 05 14:24:33 +0000 2026",
+      "url": "https://x.com/i/status/2096243088700088431",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRdZq73bUAAu8RS.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRdZq73bUAAu8RS.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 53.689,
+      "summary": "GPT-6 Astra 发布完 马上就进了 GitHub Copilot了\n\n定位是长任务、自动编程和 Agentic Coding 🥸",
+      "recommend_reason": "Astra 进 Copilot 的定位信息清楚：长任务与 Agentic Coding。",
+      "tags": [
+        "GPT-6",
+        "Astra",
+        "GitHub Copilot",
+        "Agentic Coding",
+        "产品"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2096231037009526803",
+      "author": "ianneo_ai",
+      "bio": "产品设计师 ‣ 分享设计、审美和产品商业化\n一些成绩 ‣ GitHub 万星选手 · Dribbble 万粉玩家\nIndie Builders ‣ https://t.co/f65VrarvNH · 日刊 ‣ https://t.co/tGGMPurOcn · 灵感 ‣ https://t.co/UfEG9cmSgi",
+      "text": "我觉得这是一个新的商业思路\n\nGPT-6 Astra 出来，大家做案例，PS、Blender、Figma 这些工具也跟着被用起来了\n\n小团队别光盯着头部硬卷，也可以找找卖铲子的机会：AI 干活还缺什么工具，哪个环节不顺手？\n\n围绕这些具体需求做插件、小工具，模型越强，你的东西可能越有用",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 2,
+      "views": 465,
+      "created_at": "Sat Sep 05 13:36:39 +0000 2026",
+      "url": "https://x.com/ianneo_ai/status/2096231037009526803",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 51.47,
+      "summary": "我觉得这是一个新的商业思路\n\nGPT-6 Astra 出来，大家做案例，PS、Blender、Figma 这些工具也跟着被用起来了\n\n小团队别光盯着头部硬卷，也可以找找卖铲子的机会：AI 干活还缺什么工具，哪个环节不顺手？\n\n围绕这些具体需求做插件、小工具，模型越强，你的东西可能越有用",
+      "recommend_reason": "把 Astra 浪潮转成「卖铲子」切口，给小团队一条不硬刚大模型的路径。",
+      "tags": [
+        "GPT-6",
+        "Astra",
+        "创业",
+        "插件",
+        "商业化"
+      ],
+      "rank": 9
+    },
+    {
       "id": "2096080471671320732",
       "author": "SjwEsther",
       "bio": "在做@joincola 的增长，也在和我的agent一起生活～build了很多可爱又实用的东西🥰建筑转行AI的行动派！全网5w+粉，✍️github→esthersjw/🤳shenbuer",
@@ -37,7 +339,7 @@
         "工作流",
         "注意力"
       ],
-      "rank": 1
+      "rank": 10
     },
     {
       "id": "2096062611842539713",
@@ -76,7 +378,7 @@
         "成本",
         "提示工程"
       ],
-      "rank": 2
+      "rank": 11
     },
     {
       "id": "2096062600845144207",
@@ -109,7 +411,7 @@
         "知识管理",
         "内容创作"
       ],
-      "rank": 3
+      "rank": 12
     },
     {
       "id": "2096051842174087386",
@@ -142,7 +444,7 @@
         "Agent",
         "测试"
       ],
-      "rank": 4
+      "rank": 13
     },
     {
       "id": "2096033610369483104",
@@ -174,7 +476,7 @@
         "three.js",
         "3D"
       ],
-      "rank": 5
+      "rank": 14
     },
     {
       "id": "2096010888495108234",
@@ -207,7 +509,7 @@
         "Higgsfield",
         "生成式世界"
       ],
-      "rank": 6
+      "rank": 15
     },
     {
       "id": "2095995318471168397",
@@ -239,7 +541,7 @@
         "基准测试",
         "OpenAI"
       ],
-      "rank": 7
+      "rank": 16
     },
     {
       "id": "2095988111222227130",
@@ -281,7 +583,7 @@
         "采购",
         "Agent"
       ],
-      "rank": 8
+      "rank": 17
     },
     {
       "id": "2095976538764091516",
@@ -328,7 +630,7 @@
         "Copilot",
         "Agent"
       ],
-      "rank": 9
+      "rank": 18
     },
     {
       "id": "2095973826874212683",
@@ -361,7 +663,7 @@
         "评测",
         "Abacus"
       ],
-      "rank": 10
+      "rank": 19
     },
     {
       "id": "2095973658867171733",
@@ -389,7 +691,7 @@
         "OpenAI",
         "Sam Altman"
       ],
-      "rank": 11
+      "rank": 20
     },
     {
       "id": "2095969432329679019",
@@ -422,7 +724,7 @@
         "Foundry",
         "企业AI"
       ],
-      "rank": 12
+      "rank": 21
     },
     {
       "id": "2095968413646737608",
@@ -451,7 +753,7 @@
         "ChatGPT",
         "API"
       ],
-      "rank": 13
+      "rank": 22
     },
     {
       "id": "2095947707605266436",
@@ -484,7 +786,7 @@
         "形式化验证",
         "数学"
       ],
-      "rank": 14
+      "rank": 23
     },
     {
       "id": "2095931305540419983",
@@ -535,7 +837,7 @@
         "涂鸦",
         "视觉"
       ],
-      "rank": 15
+      "rank": 24
     },
     {
       "id": "2095926261088751663",
@@ -567,10 +869,10 @@
         "工作流",
         "Google"
       ],
-      "rank": 16
+      "rank": 25
     }
   ],
-  "generated_at": "2026-09-05T04:06:43Z",
+  "generated_at": "2026-09-05T16:14:12Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -578,11 +880,11 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 16,
-    "last_batch_added": 16,
+    "actual_count": 25,
+    "last_batch_added": 9,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
