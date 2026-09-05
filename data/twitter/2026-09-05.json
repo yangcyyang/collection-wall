@@ -1,0 +1,597 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-05",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2096080471671320732",
+      "author": "SjwEsther",
+      "bio": "在做@joincola 的增长，也在和我的agent一起生活～build了很多可爱又实用的东西🥰建筑转行AI的行动派！全网5w+粉，✍️github→esthersjw/🤳shenbuer",
+      "text": "今天突然发现了一个特别快乐的vibe coding方式，可以很好的防止我的脑雾，就是一边拼豆，一边coding🙊\n沉浸式的拼完一个色之后，你就允许和你的ai说一句话，而且你在拼的时候也需要非常集中注意力，你也不会去想AI做成啥样了到下一个颜色才可以继续和agent说话 https://t.co/fqDbXPfxeq",
+      "likes": 4,
+      "retweets": 0,
+      "replies": 1,
+      "views": 86,
+      "created_at": "Sat Sep 05 03:38:22 +0000 2026",
+      "url": "https://x.com/SjwEsther/status/2096080471671320732",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRbGEuQa8AAvVZj.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRbGEuQa8AAvVZj.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 74.55,
+      "summary": "今天突然发现了一个特别快乐的 vibe coding 方式，可以很好的防止我的脑雾，就是一边拼豆，一边 coding。沉浸式的拼完一个色之后，你就允许和你的 AI 说一句话，而且你在拼的时候也需要非常集中注意力，你也不会去想 AI 做成啥样了，到下一个颜色才可以继续和 agent 说话。",
+      "recommend_reason": "用「拼豆限频」给 vibe coding 加物理节奏，脑雾时很实用的人机协作小招。",
+      "tags": [
+        "vibe coding",
+        "Agent",
+        "工作流",
+        "注意力"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2096062611842539713",
+      "author": "aiwaremax",
+      "bio": "Partner at an AI agent startup | I build and test AI tools hands-on. Sharing what I learn along the way.",
+      "text": "Raising the 5h limit by 50%+ makes Astra actually usable in agent loops.\n\nNow the bottleneck shifts entirely to how disciplined your prompts are. If you don't lock down test generation and prefix caching, you'll still burn through 225 requests in an afternoon.",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "views": 20,
+      "created_at": "Sat Sep 05 02:27:24 +0000 2026",
+      "url": "https://x.com/aiwaremax/status/2096062611842539713",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2096035437299237298",
+        "author": "thsottiaux",
+        "name": "Tibo",
+        "text": "Because we are beyond happy to have Astra rolled out today ahead of schedule and you have been super patient with us (not really, but it’s ok!)… we will do the full banked reset today too for all Plus, Pro and Business users. Lands end of day.\n\nHappy Astra day and enjoy a phenomenal weekend. \n\nPS: If you create the account or upgrade before 8pm PT you will get it too. Still time!",
+        "created_at": "Sat Sep 05 00:39:25 +0000 2026",
+        "url": "https://x.com/thsottiaux/status/2096035437299237298",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 69.544,
+      "title": "Astra 5 小时额度上调后，瓶颈转回提示与缓存纪律",
+      "summary": "作者称把 5 小时额度上调 50%+ 后 Astra 才真正能进 agent loop；瓶颈变成提示是否锁死测例生成与 prefix caching，否则一下午仍可能烧掉 225 次请求。",
+      "recommend_reason": "用量实践细节少见，直接点出额度、测例与缓存如何一起烧掉配额。",
+      "tags": [
+        "GPT-6",
+        "Astra",
+        "Agent",
+        "成本",
+        "提示工程"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2096062600845144207",
+      "author": "SjwEsther",
+      "bio": "在做@joincola 的增长，也在和我的agent一起生活～build了很多可爱又实用的东西🥰建筑转行AI的行动派！全网5w+粉，✍️github→esthersjw/🤳shenbuer",
+      "text": "我的几个@bot 小用法！\n正好解决了好几个卡住的小点\n1️⃣历史遗留的广告邮件，还有新订阅的newsletter全部都糊在一起，但我又懒得去整理，甚至懒得让我其他的agent的去整理。于是就专门做了一个内容收发室来帮我做这个事情，退订了所有不需要的广告邮件，以及每天从我的邮箱里面，看完这些newsletter之后，帮我整理出专属于我的日报，再标记已读，这样的话我的Gmail就非常干净。\n2️⃣连接了我的X之后，帮我做内容小助手。最近开始要高频的更新一些图文类的内容，正好这样的话可以他来帮我去监测一些数据，或者说是市面上的一些不错的话题。同时向哪个大佬（sorry我忘记了名字。。）学习了破除茧房的形式，然后让他给我推荐了很多，我可能会关注的post和博主。\n3️⃣重新优化了一下我的内容工作流，努力给自己积攒一些有效的上下文和知识库，比如说我的逐字稿之类的，就这个这事情之前就做的不是很好，而且嗯过程稿和最终稿全部都混在一起，但现在的这个流程在grokbot上就很轻松的实现了。我区分了三个，第1个是跟我一块聊选题和内容。第2个是一个存消息的储藏室，确保进来obsidian的内容都是有效的且遵循规范。第3个就是爆款制造机它其实现在变成了一个复盘的作用。\n4️⃣我还让他的云端电脑登录了我的newdrop这个内容agent，他可以自己去帮我做一些封面图之类的，就解决了我b站分发从来不做封面适配这件事情，而且我不太习惯打开网页版的agent，就可以让我的小bot全部都帮我搞定。\n5️⃣视频里还没有说到的，就是这个油管的课代表，我把油管的视频发给他之后，他来判断，我这个是学ai的还是学心理或者英语的，然后学完值得放进库里的笔记再流转到储藏室的那个bot让他根据规范去存起来。\n已经沉浸式爱上❤️",
+      "likes": 5,
+      "retweets": 0,
+      "replies": 3,
+      "views": 243,
+      "created_at": "Sat Sep 05 02:27:21 +0000 2026",
+      "url": "https://x.com/SjwEsther/status/2096062600845144207",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2096062493034741760/vid/avc1/320x426/jeejNfHIaSG7vF1T.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2096062493034741760/img/DiiN57nBEX9EHnc0.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 66.165,
+      "title": "五个 Grok Bot 小用法：邮件收发室到油管课代表",
+      "summary": "作者分享把多个 bot 接到生活流：邮件退订与 newsletter 日报、X 内容助手破茧房、选题/储藏室/复盘三分工作流、云端电脑登录 newdrop 做封面、油管视频分流进知识库，并称已沉浸式爱上这套。",
+      "recommend_reason": "把「多 bot 分工」讲成可抄作业的日常系统，比单点技巧更完整。",
+      "tags": [
+        "Agent",
+        "Grok Bot",
+        "工作流",
+        "知识管理",
+        "内容创作"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2096051842174087386",
+      "author": "dotey",
+      "bio": "AI Engineer, dedicated to learning and disseminating knowledge about AI, software engineering, and engineering management.",
+      "text": "目前用下来 GPT 6 Astra 最让我惊艳的还是 Computer Use 的能力，它不像之前 GPT 5.6 那样 要稍微等一会才进行各种操作，现在它能很快很精准的帮我测试 App，在旁边看着它点击真的是一种享受 https://t.co/Q5b3YLuLXY \n\n这其实带来一个最大的提升就是让 Agent 从开发到验收形成了完整的闭环。\n\n想象一下现在我们开发，在开发完成后，还是不免有很多操作需要手动去验证下，包括线上系统的测试，也是更多的依赖于代码操作 PlayWright 这样的端到端测试框架去执行，之前 Computer Use 也不是不能做到，而是相对成本较高、准确率较低、速度也不够快。\n\n但 GPT 6 可能突破了个 Computer Use 的临界点：准确率高速度快，成本方面现在还不算低，但可以遇见未来会进一步下降。\n\n建议你可以试试在给 GPT 6 安排任务的时候，让它自己去用 Computer Use 测试验收一下，可以大幅减少你手动验收的工作。\n\n另外就是以前一些 App 的自动化测试，也可以试试用 GPT-6 去调用 Computer Use 去做，覆盖一些以前端到端测试框架无法覆盖或者成本过高的场景。",
+      "likes": 219,
+      "retweets": 26,
+      "replies": 38,
+      "views": 77198,
+      "created_at": "Sat Sep 05 01:44:36 +0000 2026",
+      "url": "https://x.com/dotey/status/2096051842174087386",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2095972627244253192/vid/avc1/480x270/Tvflr0jjiudAksnB.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2095972627244253192/img/GivUNtMfyeIn0upa.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 67.403,
+      "title": "宝玉：Astra Computer Use 已到可用闭环临界点",
+      "summary": "作者认为 GPT-6 Astra 最惊艳的是 Computer Use：比 5.6 更快更准地点击测 App，让开发到验收形成闭环；建议任务里直接让它用 Computer Use 自测，也可覆盖传统 E2E 框架难覆盖的场景，成本仍偏高但可预期下降。",
+      "recommend_reason": "一线工程师对 Computer Use「临界点」的具体体感，比榜单分数更可操作。",
+      "tags": [
+        "GPT-6",
+        "Astra",
+        "Computer Use",
+        "Agent",
+        "测试"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2096033610369483104",
+      "author": "LufzzLiz",
+      "bio": "Al 创作者•LLM 爱好者•Al Agent 构建者\nAI 生视频•AI 生图\n输出有温度的洞察。 致力于降低 AI 使用门槛，让更多人受益。\n某大厂架构师-多模态、模型私有化领域\n企业 AI方案设计• FDE\n关注AI产品、AI结合教育、艺术创作领域\n📮: lanshulan007@gmail.com",
+      "text": "终于让我们玩上GPT-6 Astra 了，先来个简单版：Blender 建模+ three.js + 你的创意即可\n下一版再增加质感 https://t.co/SZClytTPtQ",
+      "likes": 126,
+      "retweets": 10,
+      "replies": 15,
+      "views": 15631,
+      "created_at": "Sat Sep 05 00:32:09 +0000 2026",
+      "url": "https://x.com/LufzzLiz/status/2096033610369483104",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2096033216692211712/vid/avc1/532x270/LVnwgJLDTtkXiYwL.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2096033216692211712/img/YpnKPONtMEmsHs8-.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 65.801,
+      "summary": "终于让我们玩上 GPT-6 Astra 了，先来个简单版：Blender 建模 + three.js + 你的创意即可。下一版再增加质感。",
+      "recommend_reason": "Astra 上手即做 Blender + three.js 创意小样，展示 3D 创作门槛在降。",
+      "tags": [
+        "GPT-6",
+        "Astra",
+        "Blender",
+        "three.js",
+        "3D"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2096010888495108234",
+      "author": "higgsfield",
+      "bio": "The AI-native creative suite",
+      "text": "Introducing Higgsfield 3D Jutsu, powered by GPT-6 Astra.\n\nTurn a single prompt into a fully editable, interactive 3D world.\n\n&gt; Generate complex 3D scenes from text\n&gt; Control geometry, layout, and details\n&gt; Refine environment instantly with simple prompts\n\nNow live on Higgsfield. https://t.co/8OSeWS5Onp",
+      "likes": 389,
+      "retweets": 137,
+      "replies": 41,
+      "views": 26317,
+      "created_at": "Fri Sep 04 23:01:52 +0000 2026",
+      "url": "https://x.com/higgsfield/status/2096010888495108234",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2096007624441638913/vid/avc1/480x270/YmXqSiZBubhHPeJM.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2096007624441638913/img/3_DH3dVpaT4K7yfE.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 72.206,
+      "title": "Higgsfield 推出 Astra 驱动的 3D Jutsu：一句话生成可编辑 3D 世界",
+      "summary": "Higgsfield 发布由 GPT-6 Astra 驱动的 3D Jutsu：单条提示可生成可编辑、可交互的 3D 场景，支持控制几何/布局/细节，并用简单提示即时改环境，现已上线。",
+      "recommend_reason": "把 Astra 接到「文本→可编辑 3D 世界」产品形态，比纯模型放量更有场景感。",
+      "tags": [
+        "GPT-6",
+        "Astra",
+        "3D",
+        "Higgsfield",
+        "生成式世界"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2095995318471168397",
+      "author": "thsottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "text": "Awesome to see GPT-6 Astra is #1 on Terminal Bench 4.0 using the Codex harness. At 50% of the cost of #2. https://t.co/QeY4FfEcxc",
+      "likes": 5145,
+      "retweets": 167,
+      "replies": 384,
+      "views": 290164,
+      "created_at": "Fri Sep 04 22:00:00 +0000 2026",
+      "url": "https://x.com/thsottiaux/status/2095995318471168397",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRZ4k0xbkAANjD4.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRZ4k0xbkAANjD4.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 77.933,
+      "summary": "很高兴看到 GPT-6 Astra 用 Codex harness 在 Terminal Bench 4.0 拿下第一，成本只有第二名的一半。",
+      "recommend_reason": "Codex 相关核心人亲自点出榜单与成本差，比「又一个第一」多一层性价比信息。",
+      "tags": [
+        "GPT-6",
+        "Astra",
+        "Codex",
+        "基准测试",
+        "OpenAI"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2095988111222227130",
+      "author": "elonmusk",
+      "bio": "https://t.co/ZdBx5WABYx",
+      "text": "Grok @Bot templates. \n\nTry Haggle Bot for saving money on procurement! This is a gamechanger.",
+      "likes": 7514,
+      "retweets": 837,
+      "replies": 668,
+      "views": 13875901,
+      "created_at": "Fri Sep 04 21:31:21 +0000 2026",
+      "url": "https://x.com/elonmusk/status/2095988111222227130",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2095954887205138597",
+        "author": "bot",
+        "name": "Grok Bot",
+        "text": "You can now add Bot templates from our marketplace.\n\nWe’re sharing Haggle Bot, our in-house procurement specialist. It negotiates vendor contracts, finds unused SaaS seats, and price-checks recurring purchases.\n\nOne week in, it's saved us over $100K. https://t.co/F036A0bRUK",
+        "created_at": "Fri Sep 04 19:19:20 +0000 2026",
+        "url": "https://x.com/bot/status/2095954887205138597",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HRZTlXVasAAG0PT.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HRZTlXVasAAG0PT.jpg"
+        ]
+      },
+      "score": 66.671,
+      "summary": "Grok 的 @Bot 模板。试试 Haggle Bot，帮你在采购上省钱！这是个游戏规则改变者。",
+      "recommend_reason": "xAI/Grok 侧 Bot 模板产品化信号，点名采购砍价场景。",
+      "tags": [
+        "Grok",
+        "Bot",
+        "xAI",
+        "采购",
+        "Agent"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2095976538764091516",
+      "author": "code",
+      "bio": "The open source AI code editor",
+      "text": "🌌 GPT-6 Astra is now generally available in @code with GitHub Copilot!\n\nBuilt for long-horizon, autonomous coding and agentic tasks, GPT-6 Astra can plan, validate, and independently confirm its results as it works. \n\nGive it a try today! 🚀\n\nhttps://t.co/3AhSZJhjgR https://t.co/5CNKVsBNQq",
+      "likes": 350,
+      "retweets": 21,
+      "replies": 11,
+      "views": 22512,
+      "created_at": "Fri Sep 04 20:45:22 +0000 2026",
+      "url": "https://x.com/code/status/2095976538764091516",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRZnYZbW4AEbUDu.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRZnYZbW4AEbUDu.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2095971389190885815",
+        "author": "github",
+        "name": "GitHub",
+        "text": "🌌 GPT-6 Astra from @OpenAIDevs is now generally available in GitHub Copilot.\n\nThis new model is designed for long-horizon, autonomous coding and agentic tasks. \n\nOur internal testing shows it plans and validates as it goes, batches diagnosis with verification, and independently confirms its results before declaring a task done. That translated into stronger performance on extensive coding jobs with fewer steps than prior OpenAI models.\n\nTry it out in the GitHub Copilot app, CLI, or @code. 🚀\nhttps://t.co/8IU2C2zUSy",
+        "created_at": "Fri Sep 04 20:24:55 +0000 2026",
+        "url": "https://x.com/github/status/2095971389190885815",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2095971059346604032/vid/avc1/480x270/AE1nvV-b_xT5Xu0j.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2095971059346604032/img/lbQcQHe61SgIghFr.jpg"
+        ]
+      },
+      "score": 72.151,
+      "title": "VS Code + GitHub Copilot 上线 GPT-6 Astra",
+      "summary": "GitHub/@code 宣布 GPT-6 Astra 已在 VS Code 的 GitHub Copilot 中正式可用，面向长程自主编程与 agentic 任务，可规划、校验并独立确认结果。",
+      "recommend_reason": "IDE 官方接入意味着日常写代码路径已通，不只是 Chat/API。",
+      "tags": [
+        "GPT-6",
+        "Astra",
+        "VS Code",
+        "Copilot",
+        "Agent"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2095973826874212683",
+      "author": "bindureddy",
+      "bio": "CEO of @abacusai  - a powerful AI Agent and SuperComputer - Build your company on Abacus AI, ex-AWS & Google",
+      "text": "🚨 GPT 6-Astra Is AWESOME, But Is Slightly Below Fable 5.1\n\n- much cheaper and faster than Fable 5.1\n- worse on long-running agentic loops\n- much better at browser use and 3D renders\n\nOpenAI is back in the game! Available now on ChatLLM and Abacus AI Agent https://t.co/59asTVU4WE",
+      "likes": 429,
+      "retweets": 19,
+      "replies": 58,
+      "views": 44349,
+      "created_at": "Fri Sep 04 20:34:36 +0000 2026",
+      "url": "https://x.com/bindureddy/status/2095973826874212683",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRZf9xybsAA75VR.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRZf9xybsAA75VR.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 70.185,
+      "title": "Abacus CEO：Astra 更便宜更快，长程 Agent 仍略逊 Fable 5.1",
+      "summary": "Abacus AI CEO 认为 GPT-6 Astra 很强但整体略低于 Fable 5.1：更便宜更快，浏览器使用与 3D 渲染更好，长程 agentic loop 更弱；现已在 ChatLLM 与 Abacus AI Agent 可用。",
+      "recommend_reason": "竞品 CEO 的对比清单，给出「快/便宜 vs 长程 loop」的取舍，比单向吹捧有用。",
+      "tags": [
+        "GPT-6",
+        "Astra",
+        "Agent",
+        "评测",
+        "Abacus"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2095973658867171733",
+      "author": "sama",
+      "bio": "The mission of OpenAI to ensure that AGI benefits all of humanity",
+      "text": "GPT-6 Astra is now available to all Pro, Enterprise, and Business Premium users in Work/Codex, and is available in the API.\n\nWe will start rollout to Plus and Business users next.\n\nThank you for the patience.",
+      "likes": 14361,
+      "retweets": 659,
+      "replies": 697,
+      "views": 1134540,
+      "created_at": "Fri Sep 04 20:33:56 +0000 2026",
+      "url": "https://x.com/sama/status/2095973658867171733",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 73.588,
+      "title": "Sam Altman：Astra 已对 Pro/企业与 API 开放",
+      "summary": "Sam Altman 确认 GPT-6 Astra 已向所有 Pro、Enterprise、Business Premium 在 Work/Codex 开放且 API 可用，下一步开始向 Plus 与 Business 放量，并感谢用户耐心。",
+      "recommend_reason": "CEO 亲自确认放量顺序，和 OpenAI 官号相互印证。",
+      "tags": [
+        "GPT-6",
+        "Astra",
+        "OpenAI",
+        "Sam Altman"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2095969432329679019",
+      "author": "Azure",
+      "bio": "Limitless innovation. ☁️ Follow along for the latest news and resources from the official #MicrosoftAzure team. For help, contact @AzureSupport.",
+      "text": "GPT-6 Astra is now generally available. Azure customers can deploy now, in Microsoft Foundry.\n\nWith Astra, hosted agents in Foundry automate full workflows right in your environment, with enterprise-grade security, governance, and control. https://t.co/6AhKBrEkyp",
+      "likes": 404,
+      "retweets": 58,
+      "replies": 13,
+      "views": 25595,
+      "created_at": "Fri Sep 04 20:17:08 +0000 2026",
+      "url": "https://x.com/Azure/status/2095969432329679019",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2095969399383474182/vid/avc1/320x320/rSKgA3vdb7yrLI5n.mp4?tag=16"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRZhFvNXsAEUozl.png"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 72.407,
+      "title": "Azure Foundry 上线 GPT-6 Astra，可部署托管 Agent",
+      "summary": "微软 Azure 宣布 GPT-6 Astra 现已正式可用，客户可在 Microsoft Foundry 部署；强调托管 Agent 可在企业环境内自动化完整工作流，并带企业级安全、治理与控制。",
+      "recommend_reason": "云厂商侧落地入口，说明 Astra 已进企业托管链路，不只是 ChatGPT。",
+      "tags": [
+        "GPT-6",
+        "Astra",
+        "Azure",
+        "Foundry",
+        "企业AI"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2095968413646737608",
+      "author": "OpenAI",
+      "bio": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. We’re hiring: https://t.co/dJGr6LgzPA",
+      "text": "GPT-6 Astra is now available to all Pro, Enterprise, and Business Premium users in ChatGPT Work and Codex. It's also live in the API.\n\nIt might take a few days to roll out to our Plus and Business users. Thank you for your patience.",
+      "likes": 25319,
+      "retweets": 1794,
+      "replies": 744,
+      "views": 1554452,
+      "created_at": "Fri Sep 04 20:13:05 +0000 2026",
+      "url": "https://x.com/OpenAI/status/2095968413646737608",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 76.409,
+      "title": "GPT-6 Astra 向 Pro/企业与 API 全面开放",
+      "summary": "OpenAI 宣布 GPT-6 Astra 已对所有 Pro、Enterprise、Business Premium 用户在 ChatGPT Work 与 Codex 开放，并已上线 API；Plus 与普通 Business 用户还需几天滚动放量。",
+      "recommend_reason": "官方可用性与分批放量节奏的一手声明，比二手传闻可靠。",
+      "tags": [
+        "GPT-6",
+        "Astra",
+        "OpenAI",
+        "ChatGPT",
+        "API"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2095947707605266436",
+      "author": "AnthropicAI",
+      "bio": "We're an AI safety and research company that builds reliable, interpretable, and steerable AI systems. Talk to our AI assistant @claudeai on https://t.co/FhDI3KQh0n.",
+      "text": "Checking that a major mathematical proof is correct can take years. Formalization—converting the mathematical reasoning into a form computer proof assistants like Lean can verify—can help.\n\nLast month, Claude completed the first formalized proof of Fermat’s Last Theorem, one of the most famous theorems of all time. This was a project experts thought would take many years. It is the largest Lean proof ever written.\n\nFermat’s Last Theorem was first proven in 1995 by Sir Andrew Wiles, more than 350 years after it was conjectured. Our proof, which totals over 13 million lines of code, provides machine verification. More importantly, it proves over 29,000 other theorems that the proof requires, across many areas of math which had never before been formalized.\n\nWe see this as a major step in the long process of firming up the core of mathematical knowledge, building on work from three centuries of mathematicians and hundreds of contributors to Lean and Mathlib. We are optimistic that AI-assisted verification of mathematical proofs will help reduce the burden of refereeing mathematics in an era where more proofs are being produced than ever before.\n\nYou can read about the process on our Science Blog: https://t.co/ryYnDEAU6J\n\nAnd see the complete proof on GitHub: https://t.co/wlYMXYnofz",
+      "likes": 7679,
+      "retweets": 997,
+      "replies": 328,
+      "views": 1191458,
+      "created_at": "Fri Sep 04 18:50:48 +0000 2026",
+      "url": "https://x.com/AnthropicAI/status/2095947707605266436",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2095946062741860352/vid/avc1/480x270/2Ec_kquejIyXyMKQ.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2095946062741860352/img/YrmIldXbYwUDRBSB.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 73.734,
+      "title": "Claude 完成费马大定理 Lean 形式化，逾 1300 万行",
+      "summary": "Anthropic 称 Claude 完成费马大定理的首次完整 Lean 形式化（专家原估需数年），证明超 1300 万行，并顺带形式化证明所需逾 2.9 万条其他定理；公司视此为 AI 辅助校验数学证明、减轻审稿负担的重要一步，过程见 Science Blog，完整证明在 GitHub。",
+      "recommend_reason": "官方科学博客级硬成果，对「AI 做严肃数学」有明确增量，不是产品营销话术。",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "Lean",
+        "形式化验证",
+        "数学"
+      ],
+      "rank": 14
+    },
+    {
+      "id": "2095931305540419983",
+      "author": "xiaoxiaodong01",
+      "bio": "国际 不知名 提示词专家 / 植物爱好者 / AI作图基建\nskills/chrom plugin/prompt/art/logo/ppt\n微信:：newbe2012\nenglish prompt: https://t.co/CuBmCtbsRZ\n有星球 营业中",
+      "text": "GPT2 x 涂鸦 x 萌趣 x 美学提示词 x VOL.115\n\n用这组提示词，给家人朋友，带去一点点，天真的快乐！\n\n发明这组提示词非天才的我\n发现这组提示词和港乐好配。\n\n有种吴孟达在浇花的快乐~\n小红书本人也同步运营了，期待有幸遇见。\n\n完整提示词：\n```\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色，使其具有艺术杂志、独立出版物与展览图像质感。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分先理解原照片最值得被记住的**核心主题、主体关系、结构走势、情绪与视觉隐喻**，再重构为**复古纸张肌理的粉彩手绘涂鸦材料拼贴插画**。不要逐物复制照片，也不要大面积铺满画面，而是删去无关细节，只保留最能代表原物的结构、走势和视觉记忆点，通过手绘涂鸦、材料拼贴、粉彩蜡笔质感与少量纸片重组，进行**巧妙的转绘与再表达**，使人能够一眼识别它与上方照片之间的对应关系。\n\n主体造型以**小尺度章印式主视觉**呈现，不追求完整复刻，而是通过少量最关键的轮廓、姿态、方向和关系完成识别。主体线条采用明显的**粉笔 / 蜡笔式手绘涂鸦线条**：粗细略有变化，带有干涩颗粒、断续掉粉、轻微抖动和不完全闭合的边缘，像直接画在粗糙纸面上的随手线稿。可有轻微歪斜、重复、迟疑和笨拙感，但不能变成凌乱草稿。局部可用短线、交叉排线、简单网格和少量涂抹表达结构，不做写实体积塑造。\n\n整体仍保留**材料拼贴**逻辑。主体及少量辅助元素可由纸片、拼贴形状、粉彩色块和手绘符号共同构成，保留轻微剪贴边缘、层叠关系和手工感，但只服务于概括与重构，不做琐碎装饰。周围可加入极少量与原图情绪有关的星点、花朵、波纹、几何符号或生活化小涂鸦，作为叙事呼应，不形成第二视觉中心。\n\n构图保持**小尺度章印与大面积留白**的关系，根据主体自身的方向、比例和视觉重心自由安排位置，可偏心、贴边、悬置或局部裁切。**留白必须是有意识的构成语言，而不是空出来的背景。** 它与主体、拼贴元素、文字和少量符号共同形成正负形、疏密、聚散与不对称平衡，构成明显的呼吸感、空间感与停顿感。宁可删减，也不要填满，让主体像被精心安放在大片纸面中的一枚视觉章印。\n\n背景必须与主体形成**清晰而温和的对比**，不能色相、明度和质感全部糊成一团。背景纸面可采用暖棕牛皮纸、再生纸、浅色手工纸或其他与原图气质相符的纸张基底，但必须与主体在线条亮度、色块明度或色相上拉开层次，让主体清楚浮现。背景保持真实纤维和颗粒感，干净自然，不做脏旧污渍。\n\n配色从上方照片中提取 **2–4 种最鲜活、最有亲和力、最能代表画面精神的颜色**重新调制，转化为柔和而清晰的粉彩色组。可自然形成奶油粉、蜜桃橙、浅天蓝、薄荷青、柔黄、淡紫等轻盈色彩，并以白色或奶油色线条提亮。整体要明快、温暖、治愈、有生活感，同时与背景形成足够区分，避免灰暗、脏褐、沉闷莫兰迪化、荧光色和廉价糖果感。\n\n文字只作极少量编辑性介入，不限制语种。可从照片的主体、情绪、动作、记忆或隐喻中自由提炼少量短句或文字片段，使用**纤细、疏朗、带轻微字距不齐与旧式印字误差的轻型打字排版字体**，与松弛手绘线条形成对比。文字安静地散落在留白中，贴近主体或顺着画面方向排列，与插画共同构成自然的图文混排关系，不做固定标题模板。\n\n整体呈现**纸张肌理、粉彩蜡笔涂鸦、少量材料拼贴、小尺度章印主体、大面积有意识留白与松弛图文混排**共同构成的高级视觉效果。重点不是照搬照片，而是理解原图的视觉语言后，用更巧妙、更轻盈、更有呼吸感的方式重新表达原始主题。避免逐物转绘、背景与主体糊成一团、画面填满、写实描摹、细密描边、光滑矢量、过度装饰、儿童模板感、3D感和商业海报感。\n```",
+      "likes": 246,
+      "retweets": 35,
+      "replies": 10,
+      "views": 12283,
+      "created_at": "Fri Sep 04 17:45:38 +0000 2026",
+      "url": "https://x.com/xiaoxiaodong01/status/2095931305540419983",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRY74InbYAAMTkr.jpg",
+        "https://pbs.twimg.com/media/HRY757WaUAA5PVs.jpg",
+        "https://pbs.twimg.com/media/HRY77pMb0AAxmJG.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRY74InbYAAMTkr.jpg",
+        "https://pbs.twimg.com/media/HRY757WaUAA5PVs.jpg",
+        "https://pbs.twimg.com/media/HRY77pMb0AAxmJG.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2095924235374092730",
+        "author": "xiaoxiaodong01",
+        "name": "小小东",
+        "text": "GPT2 x 拼贴 x 童趣 x 美学提示词 x VOL.114\n\n大半天陪家人，去公园散步\n听音乐\n照顾乌龟\nAI的快乐 和 生活的小快乐，兼得\n\n无比期待，AI将我们带入一个：不必匆忙，悠闲能看日落的时代。\n\n每个人不必奔波苦，每天都可浮生闲。\n\n本组提示词⤵️\n\n```\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色，使其具有艺术杂志、独立出版物与展览图像质感。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分先理解原照片最值得被记住的**核心主题、主体关系、结构走势、情绪气氛与视觉隐喻**，再重构为**复古纸张肌理粉彩手绘涂鸦插画**。整体仍保持**材料拼贴**的逻辑，但不要完整复制照片，也不要逐物转绘，而是删去无关细节，只保留最能代表原物的结构、走势和视觉记忆点，通过手绘涂鸦、纸张拼贴、粉彩蜡笔质感、稚拙造型与手账式重组重新概括，使画面经过理解与再创作后，仍能一眼识别与上方照片之间的对应关系。\n\n造型采用**手绘涂鸦 + 纸张拼贴 + 粉彩蜡笔质感**的混合媒介逻辑。线条故意不规整，保留随笔、手画、轻微笨拙与松弛感；色块带有干涩颗粒边缘，像蜡笔、粉笔或色铅笔轻轻涂出的痕迹。主体及少量辅助元素可像贴纸、纸片或随手画的符号一样被重新组合，但始终围绕主体叙事，不做无意义堆砌。\n\n构图保持**小尺度章印与大面积留白**的关系，根据主体自身的方向、比例和视觉重心自由安排位置，可偏心、贴边、悬置或局部裁切。主体与少量辅助元素形成清晰视觉落点，其余空间主动留空。**留白必须是有意识的构成语言，而不是空出来的背景**：它与主体、拼贴元素、文字和局部符号共同形成正负形、疏密、聚散与不对称平衡，构成明显的呼吸感、空间感与停顿感。宁可删减，也不要填满。\n\n材质以**牛皮纸、再生纸或手工纸般的纸张肌理**为基础，保留真实材料感与轻微颗粒，降低数字感。整体像一本独立出版的手账、视觉日记或 scrapbook editorial illustration，而不是普通儿童插画或简单转绘。\n\n配色从上方照片中提取**最有生命力、最有亲和力、最能代表画面精神的2–4种颜色**重新调制，转化为更柔和、明快、治愈的粉彩色组。可自然形成蜜桃粉、浅蓝、奶油黄、橙杏色、嫩绿等轻盈色彩关系，适度提亮、提纯、去灰，保持温暖、亲切、复古而有生活感。避免暗淡、灰脏、沉闷复古、荧光色和廉价糖果感。\n\n文字只作极少量编辑性介入，不限制语种。可从主体、地点、动作、情绪、生活细节或隐喻中自由提炼少量字词或短句，采用**小型、克制、略带机械感与轻微错位的复古打字机式字体**，与插画共同形成手账式图文拼贴关系，安静地落在留白区域或主体边缘，不做商业标题堆砌。\n\n整体呈现**手绘涂鸦、材料拼贴、粉彩蜡笔、纸张肌理、小尺度章印、大面积有意识留白与复古图文混排**共同构成的高级视觉效果。避免逐物转绘、画面填满、复杂背景、写实描摹、光滑矢量、3D感、廉价卡通感和模板化拼贴。\n\n```",
+        "created_at": "Fri Sep 04 17:17:32 +0000 2026",
+        "url": "https://x.com/xiaoxiaodong01/status/2095924235374092730",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HRY395FaEAAXc-R.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HRY395FaEAAXc-R.jpg"
+        ]
+      },
+      "score": 70.691,
+      "title": "照片上下分屏：上实拍下粉彩涂鸦拼贴的海报提示词",
+      "summary": "作者放出一组「上半保留原照片、下半复古纸张粉彩手绘涂鸦拼贴」的竖版海报提示词，强调章印式小主体、有意识留白、粉笔蜡笔线与材料拼贴逻辑，并同步运营小红书。",
+      "recommend_reason": "结构完整的海报/图生图提示词模板，对做视觉基建的人可直接改造复用。",
+      "tags": [
+        "提示词",
+        "AI绘图",
+        "海报设计",
+        "涂鸦",
+        "视觉"
+      ],
+      "rank": 15
+    },
+    {
+      "id": "2095926261088751663",
+      "author": "vista8",
+      "bio": "喜欢摇滚乐、爱钓鱼的PM",
+      "text": "终于发现美国豆包 Gemini Pro 订阅的价值！\n\n自动剪长视频的高光和金句、自动截图等\n\n1. 上传原始视频到谷歌硬盘。（速度不错）\n\n2. Gemini pro会员，能用Colab的AI辅助，描述剪辑需求，自动生成Python代码。\n\n3. 菜单设置：代码执行程序 -> 更改运行时类型，选T4 GPU，运行即可。\n\n剪辑好的视频片段和截图会到写入谷歌硬盘指定文件夹。",
+      "likes": 230,
+      "retweets": 37,
+      "replies": 28,
+      "views": 22908,
+      "created_at": "Fri Sep 04 17:25:35 +0000 2026",
+      "url": "https://x.com/vista8/status/2095926261088751663",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRY4ieraEAA5MM6.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRY4ieraEAA5MM6.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 68.457,
+      "summary": "终于发现美国豆包 Gemini Pro 订阅的价值！自动剪长视频的高光和金句、自动截图等。1. 上传原始视频到谷歌硬盘。（速度不错）2. Gemini Pro 会员，能用 Colab 的 AI 辅助，描述剪辑需求，自动生成 Python 代码。3. 菜单设置：代码执行程序 -> 更改运行时类型，选 T4 GPU，运行即可。剪辑好的视频片段和截图会到写入谷歌硬盘指定文件夹。",
+      "recommend_reason": "Gemini Pro + Colab GPU 自动剪长视频高光的可复现三步法，工具链清楚。",
+      "tags": [
+        "Gemini",
+        "Colab",
+        "视频剪辑",
+        "工作流",
+        "Google"
+      ],
+      "rank": 16
+    }
+  ],
+  "generated_at": "2026-09-05T04:06:43Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 16,
+    "last_batch_added": 16,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
