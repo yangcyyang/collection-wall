@@ -1,0 +1,1086 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-06",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2096624567829889159",
+      "author": "levie",
+      "bio": "",
+      "text": "If agents produce the vast majority of software in the future, and they’re most trained on open source software, they will inevitably do their best work with those tools. \n\nIf you cycle this enough times, it means that open source effectively becomes the dominant software in the future as it’s what everything important gets built with. \n\nThis was already the trend in many critical domains, but agents will accelerate this far faster than humans ever could have.",
+      "created_at": "Sun Sep 06 15:40:25 +0000 2026",
+      "likes": 293,
+      "views": "105935",
+      "url": "https://x.com/i/status/2096624567829889159",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2096307407039426619",
+        "author": "MillionInt",
+        "name": "Jerry Tworek",
+        "text": "The unexpected benefit of open source is that it allows model training companies to train on using your software (and optimizing it) for free.\n\nBlender may have just won as a 3D asset creation software because the models will be better at using it than any proprietary ones",
+        "created_at": "Sat Sep 05 18:40:08 +0000 2026",
+        "url": "https://x.com/MillionInt/status/2096307407039426619",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 62.663,
+      "title": "Agent 若在开源软件上训练，开源会更快变成默认栈",
+      "summary": "Levie 认为：未来大部分软件若由 Agent 生产，而它们主要在开源上训练，就会在这些工具上表现最好；循环下去开源会成为关键领域的主导。这本已是趋势，Agent 会比人类更快加速。引用观点：Blender 可能因此赢下 3D 资产工具。",
+      "recommend_reason": "把「模型更会用 Blender」从彩蛋收成生态结论，能解释为什么今天全是 Astra+Blender 演示。",
+      "tags": [
+        "Agent",
+        "开源",
+        "Blender",
+        "产业"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2096605334651728200",
+      "author": "op7418",
+      "bio": "",
+      "text": "用我的 Windows 给这个用 GPT-6 Astra 做的 3D 游戏录了一个纯粹的演示\n\n在 5070 Ti 的加持下，整个环境更加真实了，细节更多，而且超级流畅 https://t.co/YsvhUTaMW7",
+      "created_at": "Sun Sep 06 14:23:59 +0000 2026",
+      "likes": 80,
+      "views": "26973",
+      "url": "https://x.com/i/status/2096605334651728200",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2096604766826795008/vid/avc1/428x270/7jkWXo4WegqZoyJw.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2096604766826795008/img/NQmfdzBaNu6MKc8P.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2096494840431386950",
+        "author": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "text": "GPT-6 Astra + Blender + Godot Engine\n\nGPT-6 仅用 20X 3% 的额度，帮我做出了一个完整的 3D Roguelike 游戏关卡\n\n昼夜循环、天气系统、3D 建模、贴图、武器切换、技能系统，以及近战和远程的小怪 https://t.co/me2MyX4sRv",
+        "created_at": "Sun Sep 06 07:04:55 +0000 2026",
+        "url": "https://x.com/op7418/status/2096494840431386950",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2096494188548550656/vid/avc1/478x270/Mxi4b8CHvS2UeH0E.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2096494188548550656/img/uCmzr3Tx-OpNUE5c.jpg"
+        ]
+      },
+      "score": 62.89,
+      "summary": "用我的 Windows 给这个用 GPT-6 Astra 做的 3D 游戏录了一个纯粹的演示\n\n在 5070 Ti 的加持下，整个环境更加真实了，细节更多，而且超级流畅 https://t.co/YsvhUTaMW7",
+      "recommend_reason": "同一款 Astra 做的 3D 关卡上到 5070 Ti 后能看清流畅度和场景密度，补了「能做」之后「能跑」的一截。",
+      "tags": [
+        "GPT",
+        "Astra",
+        "游戏",
+        "3D"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2096580352865341756",
+      "author": "YuLin807",
+      "bio": "",
+      "text": "泪目！终于使用 Tailcat 打通了本地 Mac 和 grok bot ！终于可以开始在Mac 上安装 Omarchy for Mac！\n\n这里的问题是啥呢？！\n\n1. 我在外边，可以科学的路由器没办法WI-FI 自然也没有办法从 Github 下载任务\n2. 我的Tailscale 使用Github 账号完成的同步，没有外网环境也没办法完成同步。\n3. 基于上述两步，我想到了 Tailcat 这个东西不需要账号同步登陆这种事情，方便接方便在这里。\n4. 但是 Tailcat 的下载也需要外网环境，怎么办呢？！我想到自己还购买了域名这个东西，那正好，通过国内可以访问的域名直接搞定 Tailcat 的下载。\n5. Tailcat 同步要输超级长的地址串，我居然手打了六七回，后来受不了，改成域名短链：本机一行命令安装并启动，地址自动推到 grok bot，云电脑侧直接连。 \n\n最后！我终于打通了 grok bot 和本地Mac的linux环境🎉！\n\n现在要干啥就干啥！想装啥就装啥。",
+      "created_at": "Sun Sep 06 12:44:43 +0000 2026",
+      "likes": 29,
+      "views": "8356",
+      "url": "https://x.com/i/status/2096580352865341756",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRiMtV0agAAeX71.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRiMtV0agAAeX71.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2096570639641653454",
+        "author": "YuLin807",
+        "name": "QingYue",
+        "text": "我孤陋寡闻了！原来 Tailcat 自带中继\n\n还有纽约、法兰克福、旧金山、东京这么多几个选择。 https://t.co/XXby2ZlLRM",
+        "created_at": "Sun Sep 06 12:06:07 +0000 2026",
+        "url": "https://x.com/YuLin807/status/2096570639641653454",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HRiD3y4akAA-P3c.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HRiD3y4akAA-P3c.jpg"
+        ]
+      },
+      "score": 62.885,
+      "title": "用 Tailcat 打通外出网络和家里 Mac 上的 Grok bot",
+      "summary": "作者在外没有科学上网、Tailscale 又绑 GitHub 登录，改用 Tailcat 做中继；用国内可访问域名解决安装包，再用短链避免手打超长地址，终于让 grok bot 连上家里 Mac 的 Linux 环境装 Omarchy。",
+      "recommend_reason": "把远程开发的真实网络坑写成可跟做的绕行：域名分发、短链、中继，不是又一条「我打通了」而已。",
+      "tags": [
+        "Grok",
+        "远程开发",
+        "工作流",
+        "工具"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2096572868507177381",
+      "author": "gkxspace",
+      "bio": "",
+      "text": "兄弟们，遇到这种项目别犹豫，第一件事先 fork，晚了可能就没了！！！\n\n微信相关的开源工具指不定哪天就 404 了......而且这个真的很实用了。\n\n它把我很多头疼的微信问题解决了：\n1、上百个免打扰群不用一个个看，每天自动帮你把商单、合作线索全捞出来\n2、自动扫描待回复和未兑现承诺，不用担心漏回消息（我就经常漏消息，被我漏过的兄弟，抱歉了🥹）\n3、本地秒级检索历史记录，比微信自带的搜索好用太多\n纯本地只读！\n数据不出电脑，不 Hook 不代发，不用担惊受怕被封号\n\nMac 和 Windows 都能跑，可以直接丢给 Codex 配置。\n\n早 fork 早安心：\nhttps://t.co/1puN1I2r1o",
+      "created_at": "Sun Sep 06 12:14:58 +0000 2026",
+      "likes": 445,
+      "views": "107299",
+      "url": "https://x.com/i/status/2096572868507177381",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRiE8wibwAAglwX.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRiE8wibwAAglwX.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2096086762258846033",
+        "author": "rionaifantasy",
+        "name": "Rion Wu",
+        "text": "大的来了，大的来了，家人们！！！今天正式开源全网最强的微信个人情报库🫡  \n\n我终于把几万条微信聊天记录，变成了一个每天帮我列出todo事项、洽谈合作、总结群聊、发现赚钱机会、查找商单、建联品牌方、实时检索所有历史聊天记录的全自动超级微信小助理😤。  \n\n我用 Codex 把它做成了一个本地只读系统：  \n\n1、总结过去任何时间（默认24小时）的重要群聊和私聊 2、找出待回复、待兑现承诺和临近截止的事项 \n3、识别商单、培训、咨询、项目合作和复联等线索 \n4、按联系人、标签、具体事物、主题和日期检索历史聊天 \n5、生成 Markdown 和可交互的 HTML 报告  \n6、持久化机会管道：识别出的机会不会只存在于一份日报里，还可以进入长期机会库：\n7、个人背景与当前计划适配：首次使用时可以建立用户自己的本地画像\n8、个性化回复建议：系统只生成建议，不会替用户发送消息。\n9、重点联系人管理：可以针对个人微信关系生成情报\n10、本地索引和维护\n\n这次不只是一个 Skill。我把自己的只读 rion-wechat-cli、微信个人情报库 Skill、本地引擎、虚构 Demo、安装脚本、隐私边界和 162 项自动化测试放进了同一个独立仓库：wechat-intelligence-hub。  \n\n真实聊天和联系人留在本机；系统不会替你发微信，也不做重签名、注入或 Hook。（保证你的使用安全）  \n\n快来畅玩吧，仓库地址在这👇（觉得不错的朋友，麻烦给个star）：\nhttps://t.co/VMQdeerY7Y",
+        "created_at": "Sat Sep 05 04:03:22 +0000 2026",
+        "url": "https://x.com/rionaifantasy/status/2096086762258846033",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HRbI1WYbkAA5a3e.jpg",
+          "https://pbs.twimg.com/media/HRbI8r8WUAAEroT.jpg",
+          "https://pbs.twimg.com/media/HRbJBjvbwAAonce.jpg",
+          "https://pbs.twimg.com/media/HRbJDtLW8AMSGnW.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HRbI1WYbkAA5a3e.jpg",
+          "https://pbs.twimg.com/media/HRbI8r8WUAAEroT.jpg",
+          "https://pbs.twimg.com/media/HRbJBjvbwAAonce.jpg",
+          "https://pbs.twimg.com/media/HRbJDtLW8AMSGnW.jpg"
+        ]
+      },
+      "score": 68.227,
+      "title": "本地只读的微信情报库，先 fork 再怕 404",
+      "summary": "作者转开源微信个人情报工具：本地只读、不 Hook 不代发，可从免打扰群捞商单线索、扫待回复和未兑现承诺、秒级检索历史。Mac/Windows 都能跑，可丢给 Codex 配置。强调微信相关开源工具可能随时 404，先 fork。",
+      "recommend_reason": "把「微信搜索不好用 / 漏回复」收成可自托管的只读方案，还写清封号风险边界。",
+      "tags": [
+        "开源",
+        "微信",
+        "Codex",
+        "工具"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2096572692954751162",
+      "author": "fhwofjow51260",
+      "bio": "",
+      "text": "推荐一个很适合拿 YouTube 学东西的开源项目：YouTube Digest。\n\n很多 YouTube 视频明明内容很好，但几十分钟甚至几个小时，看起来太费时间。这个插件直接把视频变成一份可以“阅读和学习”的资料。 \n\n打开视频后，侧边栏直接显示完整字幕，支持原文、中文翻译、中英双语对照，还能搜索字幕里的关键词。AI 会自动生成视频概览、章节和重点内容，看到哪里不懂，选中文字还能直接让 AI 解释。 \n\n最爽的是所有内容都带时间戳：看到重点一点就能跳回视频对应位置，还能随手保存成笔记。\n\n特别适合拿来看国外课程、技术教程、访谈和播客。\n\n目前是开源 Chrome 扩展，需要自己配置 Supadata 和 DeepSeek API Key。 \n\nhttps://t.co/OTvxibSkii",
+      "created_at": "Sun Sep 06 12:14:17 +0000 2026",
+      "likes": 67,
+      "views": "7008",
+      "url": "https://x.com/i/status/2096572692954751162",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRiFvrcagAAqHiw.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRiFvrcagAAqHiw.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 66.55,
+      "title": "YouTube Digest：把长视频变成带时间戳的可读笔记",
+      "summary": "开源 Chrome 插件 YouTube Digest 把长视频变成可读材料：侧栏字幕支持原文/中文/双语和检索，AI 出概览、章节和重点，选中即可解释，全部带时间戳可跳回。适合课程、教程、访谈。需自配 Supadata 和 DeepSeek Key。",
+      "recommend_reason": "场景清楚、功能清单完整，还写明要自备 Key，是能马上装的学习工具而不是空安利。",
+      "tags": [
+        "开源",
+        "YouTube",
+        "DeepSeek",
+        "工具"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2096572238359085432",
+      "author": "AI_Jasonyu",
+      "bio": "",
+      "text": "2 月我发过一条推，说 Opus 4.6 以后就是我 Obsidian 里的常驻写作模型。\n\n7 个月了。中间 Claude 出了 4.7、4.8、Opus 5、Fable 5，这周又来了个 Fable 5.1。\n\n我写稿用的，还是 4.6。\n\n不是懒得换。是每次换完，写出来的东西自己读着别扭。前两天拿 Sonnet 5 改一篇文章，改完一读，MD，AI 味重得我自己都看不下去，又切回去了。\n\n这周干脆认真查了一轮。拿几个 AI 交叉验证，翻了 Arena 真人盲选投票榜（9 月 2 日数据），又把中推上几十条写作讨论扒了一遍。\n\n结论比我想的还统一：\n\n1/ 写中文正文，Opus 4.6 还是第一档。Arena 创意写作榜排第 2，仅次于 Fable 5。宝玉老师直接说写作还是 4.6 最好用，歸藏老师说 4.7、4.8、5 一代比一代不说人话。\n\n2/ Gemini 3.7 Flash 是这半年最大的意外。Arena 排第 3，中推一堆人说它写中文第一次有强过 4.6 的感觉。AI 味轻，还便宜，还快。刚出的 3.8 Flash 口碑也接住了。\n\n3/ Sonnet 4.6 是 AI 痕迹最少的。有个专门数 AI 痕迹的测试，Sonnet 4.6 只有 6 处，Opus 4.8 是 13，GPT-5.5 是 21，Opus 4.7 是 25。要日更、要像人写的，它最稳。\n\n4/ Opus 4.7、4.8、Opus 5，别拿来写正文。更聪明是真的，干活更强也是真的，但写出来的东西不像人说话了。Anthropic 自己都在 Fable 5.1 文档里承认了：模型写得太密、爱堆修辞。还专门给了一句去味提示词：Please remove all mannered prose。\n\n5/ 国产的：Kimi K3 整理长材料、改稿顺手；豆包写短文案和口播最像人；DeepSeek V4 文学初稿可以，但文笔跟 4.6 差得远。\n\n所以我现在就三个搭配： 正文 → Opus 4.6 短稿润色 → Gemini 3.7 Flash 日更去味 → Sonnet 4.6\n\n大家目前写内容主要用的什么模型？",
+      "created_at": "Sun Sep 06 12:12:28 +0000 2026",
+      "likes": 97,
+      "views": "14035",
+      "url": "https://x.com/i/status/2096572238359085432",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRiFRbFa0AAt_1a.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRiFRbFa0AAt_1a.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 65.966,
+      "title": "中文写作仍用 Opus 4.6：换新模型容易更 AI 味",
+      "summary": "作者从 2 月起写稿一直用 Opus 4.6，换 4.7/4.8/Opus 5/Fable 5.1 都觉得别扭。结合 Arena 和中推讨论：正文仍是 4.6；Gemini 3.7 Flash 是意外黑马；Sonnet 4.6 的 AI 痕迹最少；更新的 Opus 更聪明但不像人话。他的搭配是正文 4.6、短稿 Flash、日更去味 Sonnet 4.6。",
+      "recommend_reason": "少见地把「更新不等于更好写」写成可核对的搭配，对写中文的人比再安利新模型有用。",
+      "tags": [
+        "Claude",
+        "写作",
+        "评测",
+        "Fable 5"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2096568602308857956",
+      "author": "dingyi",
+      "bio": "",
+      "text": "这个做得真好，一个 Grok Bot 的 logo 动画制作工具。\n\nhttps://t.co/vDqi3gH6FF https://t.co/qAqsrFvCsf",
+      "created_at": "Sun Sep 06 11:58:01 +0000 2026",
+      "likes": 105,
+      "views": "10124",
+      "url": "https://x.com/i/status/2096568602308857956",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRiCCGZaoAAPj1R.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRiCCGZaoAAPj1R.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 66.287,
+      "summary": "这个做得真好，一个 Grok Bot 的 logo 动画制作工具。\n\nhttps://t.co/vDqi3gH6FF https://t.co/qAqsrFvCsf",
+      "recommend_reason": "直接丢了 Grok Bot logo 动画生成器链接，短但可点、可试。",
+      "tags": [
+        "Grok",
+        "AI视频",
+        "工具"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2096567918859354155",
+      "author": "DeRonin_",
+      "bio": "",
+      "text": "everyone is using GPT-6 Astra to make games... i had it build me a robot prototyper\n\ni type what robot i want, and it builds the whole thing and tells me how to make it real\n\none prompt: \"prototype me a full Microduck\"\n\nit designed every part, checked nothing crashes into itself when it moves, did the motor maths so the thing can actually stand up, and handed me the parts list with prices and the step by step assembly\n\nnot a render, a robot i can build this weekend\n\nevery piece is ready to send straight to a 3D printer, and the motors and screws come with prices and where to buy them\n\ntook me 45 minutes and 5 prompts to build (burnt all my limits)\n\nprocess below",
+      "created_at": "Sun Sep 06 11:55:18 +0000 2026",
+      "likes": 376,
+      "views": "22322",
+      "url": "https://x.com/i/status/2096567918859354155",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2096567835569053696/vid/avc1/480x270/84b2u0paoCfrODm0.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2096567835569053696/img/HRjmvb9ZAkTklImX.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 74.152,
+      "title": "不拿 Astra 做游戏，而是做可 3D 打印的机器人原型机",
+      "summary": "作者让 GPT-6 Astra 做机器人原型器：一句话「prototype me a full Microduck」，它设计全部零件、检查运动干涉、算电机，并给出带价格的采购清单和组装步骤。强调不是效果图，而是周末能真做的机器人；45 分钟、5 次提示就把额度烧完。",
+      "recommend_reason": "从零件干涉到采购价都给到可下手，比满屏 Astra 做游戏更少见，也更能检验工程向能力。",
+      "tags": [
+        "GPT",
+        "Astra",
+        "机器人",
+        "3D打印"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2096565621874209132",
+      "author": "gkxspace",
+      "bio": "",
+      "text": "很推荐把这篇 Codex 团队的长文给你的 Codex 看一看！\n\n刷到很多朋友切到 GPT-6 Astra，都在吐槽它变犹豫了，动不动就请示，或者改个小 typo 都要把整个仓库扫一遍。。。\n\nAstra 的自主规划和上下文理解比以前强太多了，过去我们为了管住老模型加的条条框框就成了约束。\n\n我把 4 个关键点整理出来了，大家可以对一遍：\n\n1、Skills 描述全部大瘦身\n很多人的 Skill 描述写得太贪，恨不得什么词都匹配。Codex 技能一多就会自动截断描述，导致 Astra 抓瞎选错 Skill。描述越短越好，一句话讲清具体触发场景。\n\n2、主 Skill 只做路由（Router）\n别把几十页的 SOP、规范和文档全塞进一个 SKILL.md。每次加载都在疯狂吃 context，不仅费钱还容易提前触发 compaction。主文件只做极简目录分发，让它按需去读子文档和执行脚本。\n\n3、删掉强制全仓扫描和强制全量测试\n以前为了防模型瞎改，经常加\"修改前通读全仓、改完必须跑全量测试\"。\nAstra 自己就会精准定位和针对性验证，留着这些老规矩，改一行代码都得等半天。\n\n4、把\"每步确认\"改成\"明确放权与完成标准\"\n以前怕模型越界到处写\"修改前必须询问\"。Astra 对规则边界执行极严，那现在确实可以给安全操作放权。\n\n直接把下面这段 Prompt 复制丢给 Codex，让它自己把配置全盘重构一遍：\n阅读：\nhttps://t.co/ZeBh2TkGV7\n针对 GPT-6 Astra 的特性，全面审查并重构我项目中的 AGENTS.md 和所有 Skill 文件：\n1、精简 Skill 描述，消除贪婪匹配和误触发；\n2、将臃肿的 SKILL.md 改为轻量 Router，按需索引子文档；\n3、移除强制全库扫描、过度的全量测试等过时约束；\n4、明确放权安全的本地工作流，定义清晰的完成标准。",
+      "created_at": "Sun Sep 06 11:46:11 +0000 2026",
+      "likes": 140,
+      "views": "42885",
+      "url": "https://x.com/i/status/2096565621874209132",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2095991462416490862",
+        "author": "pvncher",
+        "name": "eric provencher",
+        "text": "https://t.co/iDl6I25AQu",
+        "created_at": "Fri Sep 04 21:44:40 +0000 2026",
+        "url": "https://x.com/pvncher/status/2095991462416490862",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "title": "Astra 变犹豫多半是旧 Skill 在绑它，Codex 长文可拿来重构",
+      "summary": "归藏整理 Codex 团队长文的四个点：Skill 描述大幅瘦身，避免贪婪匹配被截断；主 Skill 只做路由、按需读子文档；删掉强制全仓扫描和全量测试；把「每步确认」改成明确放权与完成标准。并给出可直接丢给 Codex、针对 GPT-6 Astra 重构 AGENTS.md 和 Skill 的提示词。",
+      "recommend_reason": "把「Astra 又请示又扫全仓」收成可执行的配置清理清单，比再发一条吐槽有用。",
+      "tags": [
+        "GPT",
+        "Astra",
+        "Skill",
+        "Codex"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2096550735395848332",
+      "author": "marclou",
+      "bio": "",
+      "text": "I updated DataFast MCP so you can ask your AI agent about Bot traffic.\n\n- “Which AI bots crawled my website this week?”\n- “Is ChatGPT fetching my pages to answer users?”\n- “Has my /llms.txt file been fetched, and by which companies?”\n\nEvery DataFast feature is now usable with API/MCP.",
+      "created_at": "Sun Sep 06 10:47:02 +0000 2026",
+      "likes": 113,
+      "views": "17760",
+      "url": "https://x.com/i/status/2096550735395848332",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRhxyDLaIAAhVhr.jpg",
+        "https://pbs.twimg.com/media/HRhxyK4bQAA3zzn.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRhxyDLaIAAhVhr.jpg",
+        "https://pbs.twimg.com/media/HRhxyK4bQAA3zzn.png"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 66.012,
+      "title": "DataFast MCP 能查哪些 AI 爬虫光顾了你的站",
+      "summary": "DataFast 更新 MCP，可用自然语言问：本周哪些 AI bot 爬了网站、ChatGPT 有没有抓页面回答用户、/llms.txt 被哪些公司拉取。所有功能都走 API/MCP。",
+      "recommend_reason": "把 GEO/bot 抓取从后台报表变成 Agent 可问的问题，对做站点的人当天就能用。",
+      "tags": [
+        "MCP",
+        "ChatGPT",
+        "Agent",
+        "产品"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2096549670696915076",
+      "author": "KinGao476942",
+      "bio": "",
+      "text": "分享节约 Grok bot @bot 额度的终极邪修大法：将你的 Codex/Claude Code/DeepSeek Harness 通通都接入 Grok bot，所有重度的执行任务都交给它们完成，额度走的就是你的订阅消耗，Grok bot 作为你的董秘和指挥中台，负责上传下达，居中协调……你就再也不会缺 bot 额度啦！ https://t.co/QR2wYQbMC7",
+      "created_at": "Sun Sep 06 10:42:48 +0000 2026",
+      "likes": 34,
+      "views": "9302",
+      "url": "https://x.com/i/status/2096549670696915076",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRhwdUDboAAnawk.jpg",
+        "https://pbs.twimg.com/media/HRhwdUDa4AAEc7p.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRhwdUDboAAnawk.jpg",
+        "https://pbs.twimg.com/media/HRhwdUDa4AAEc7p.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 61.8,
+      "summary": "分享节约 Grok bot @bot 额度的终极邪修大法：将你的 Codex/Claude Code/DeepSeek Harness 通通都接入 Grok bot，所有重度的执行任务都交给它们完成，额度走的就是你的订阅消耗，Grok bot 作为你的董秘和指挥中台，负责上传下达，居中协调……你就再也不会缺 bot 额度啦！ https://t.co/QR2wYQbMC7",
+      "recommend_reason": "把 Codex/Claude Code/DeepSeek 接到 Grok bot 当执行层、bot 只做调度，是针对额度见底的具体接法。",
+      "tags": [
+        "Grok",
+        "Codex",
+        "额度",
+        "工作流"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2096494840431386950",
+      "author": "op7418",
+      "bio": "",
+      "text": "GPT-6 Astra + Blender + Godot Engine\n\nGPT-6 仅用 20X 3% 的额度，帮我做出了一个完整的 3D Roguelike 游戏关卡\n\n昼夜循环、天气系统、3D 建模、贴图、武器切换、技能系统，以及近战和远程的小怪 https://t.co/me2MyX4sRv",
+      "created_at": "Sun Sep 06 07:04:55 +0000 2026",
+      "likes": 840,
+      "views": "168877",
+      "url": "https://x.com/i/status/2096494840431386950",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2096494188548550656/vid/avc1/478x270/Mxi4b8CHvS2UeH0E.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2096494188548550656/img/uCmzr3Tx-OpNUE5c.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 69.023,
+      "summary": "GPT-6 Astra + Blender + Godot Engine\n\nGPT-6 仅用 20X 3% 的额度，帮我做出了一个完整的 3D Roguelike 游戏关卡\n\n昼夜循环、天气系统、3D 建模、贴图、武器切换、技能系统，以及近战和远程的小怪 https://t.co/me2MyX4sRv",
+      "recommend_reason": "20X 只用 3% 额度做出带昼夜、天气、武器和怪的 3D Roguelike，是当天最完整的游戏向成品之一。",
+      "tags": [
+        "GPT",
+        "Astra",
+        "Blender",
+        "游戏"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2096479349591654558",
+      "author": "KinGao476942",
+      "bio": "",
+      "text": "🙋分享我的 Grok bot @bot 玩法：成立一个军团司令部，无缝打通 GitHub 和我的 Notion，时刻追踪所有 ai 开发项目状态，24 小时里多个 ai agent 并发工作，我在一个 all in one 的看板里，就可以追踪所有 agent 的任务状态，哪些已完成、哪些需要我审核、哪些还在执行中。 https://t.co/SDTYoPm7Bp",
+      "created_at": "Sun Sep 06 06:03:22 +0000 2026",
+      "likes": 33,
+      "views": "4069",
+      "url": "https://x.com/i/status/2096479349591654558",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRgwuPsbwAACwEp.jpg",
+        "https://pbs.twimg.com/media/HRgwuPhaQAAjmtM.jpg",
+        "https://pbs.twimg.com/media/HRgwuPhaoAAuVl6.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRgwuPsbwAACwEp.jpg",
+        "https://pbs.twimg.com/media/HRgwuPhaQAAjmtM.jpg",
+        "https://pbs.twimg.com/media/HRgwuPhaoAAuVl6.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 63.496,
+      "summary": "🙋分享我的 Grok bot @bot 玩法：成立一个军团司令部，无缝打通 GitHub 和我的 Notion，时刻追踪所有 ai 开发项目状态，24 小时里多个 ai agent 并发工作，我在一个 all in one 的看板里，就可以追踪所有 agent 的任务状态，哪些已完成、哪些需要我审核、哪些还在执行中。 https://t.co/SDTYoPm7Bp",
+      "recommend_reason": "用 Grok bot 当司令部打通 GitHub 和 Notion，看板追踪多 agent，是可复制的指挥中台玩法。",
+      "tags": [
+        "Grok",
+        "Agent",
+        "GitHub",
+        "Notion"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2096464665220092314",
+      "author": "python_xxt",
+      "bio": "",
+      "text": "OpenAI 的 Reset 卡并非额外叠加一周额度，而是刷新额度并顺延自然重置日。按长期额度折算，新重置日相比原重置日每顺延 1 天，就相当于吃掉约 1/7 张 Reset 卡的实际价值。\n\nReset 卡越接近自然重置日使用，价值越趋近于零。\n\n如果目标是最大化 reset 卡的额度价值，原则上应该在刚自然重置的时候，立刻用完额度，然后立刻重置，以此类推循环往复…",
+      "created_at": "Sun Sep 06 05:05:01 +0000 2026",
+      "likes": 209,
+      "views": "79917",
+      "url": "https://x.com/i/status/2096464665220092314",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2096450149471969592",
+        "author": "dotey",
+        "name": "宝玉",
+        "text": "同感，昨天我还剩两天自然重置，纠结了下还是用了，结果发现是顺延，感觉有点亏😅",
+        "created_at": "Sun Sep 06 04:07:20 +0000 2026",
+        "url": "https://x.com/dotey/status/2096450149471969592",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "summary": "OpenAI 的 Reset 卡并非额外叠加一周额度，而是刷新额度并顺延自然重置日。按长期额度折算，新重置日相比原重置日每顺延 1 天，就相当于吃掉约 1/7 张 Reset 卡的实际价值。\n\nReset 卡越接近自然重置日使用，价值越趋近于零。\n\n如果目标是最大化 reset 卡的额度价值，原则上应该在刚自然重置的时候，立刻用完额度，然后立刻重置，以此类推循环往复…",
+      "recommend_reason": "把 Reset 卡从「多一周额度」纠正成「刷新并顺延」，还给出越靠近重置日越亏的算法。",
+      "tags": [
+        "OpenAI",
+        "额度",
+        "产品"
+      ],
+      "rank": 14
+    },
+    {
+      "id": "2096445044643271105",
+      "author": "xiaoerzhan",
+      "bio": "",
+      "text": "我天这些人动作太快了\n70个 GPT 6-Astra 使用案例\n还带提示词的\n\n直接打开看效果\n看提示词\n去获得灵感\n这个赛道开启了\n\n堪比当年提示词啊\n赶快收藏这个网址吧\n评论区拿 https://t.co/Q1K5KqtzaE",
+      "created_at": "Sun Sep 06 03:47:03 +0000 2026",
+      "likes": 429,
+      "views": "29382",
+      "url": "https://x.com/i/status/2096445044643271105",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRgHSmSXsAMebN6.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRgHSmSXsAMebN6.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 71.21,
+      "summary": "我天这些人动作太快了\n70个 GPT 6-Astra 使用案例\n还带提示词的\n\n直接打开看效果\n看提示词\n去获得灵感\n这个赛道开启了\n\n堪比当年提示词啊\n赶快收藏这个网址吧\n评论区拿 https://t.co/Q1K5KqtzaE",
+      "recommend_reason": "直接指向带提示词的 Astra 案例墙，比单条演示更适合当当天的入口收藏。",
+      "tags": [
+        "GPT",
+        "Astra",
+        "提示词",
+        "案例"
+      ],
+      "rank": 15
+    },
+    {
+      "id": "2096431604054839309",
+      "author": "xiaoerzhan",
+      "bio": "",
+      "text": "我天～\nGPT Astra也太猛了\n我只是想起来把我相机拆一下\n这也太狠了，把人体骨骼给拆了\n所以要学会凡事都再多要个七八九十步\n \n大模型的能力不是问题\n我们提的要求不够难才是问题啊\n\n这个看起来也头皮发麻了\n下面的代码高低要拿去玩一下\n\ndemo: https://t.co/oLJwQtiuG9  \n代码： https://t.co/gblavXE72f\n\n我这个徕卡M6的相机，不知道花了多少token\n探索了很久才做出来，现在是不是一句话就能搞定啊\n真的是搞不定的事情放一放\n模型很快就行了",
+      "created_at": "Sun Sep 06 02:53:38 +0000 2026",
+      "likes": 69,
+      "views": "8380",
+      "url": "https://x.com/i/status/2096431604054839309",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2096431291021639680/vid/avc1/492x270/7UKSr2zB0nrICZg-.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2096431291021639680/img/LABNu9-GWuqklbW8.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2096221988763173186",
+        "author": "ashebytes",
+        "name": "ashe",
+        "text": "since you guys loved the exploding tesla.. \n\nI used GPT-6 Astra to create a 3D website that pulls apart the male anatomy into 2,234 modeled pieces!\n\nwe are in a renaissance of learning https://t.co/9CGmHcdhnk",
+        "created_at": "Sat Sep 05 13:00:42 +0000 2026",
+        "url": "https://x.com/ashebytes/status/2096221988763173186",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2096218474930405376/vid/avc1/494x270/gaXpw0Cka4zMHF02.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2096218474930405376/img/3zH8etf7LevKQRr2.jpg"
+        ]
+      },
+      "score": 65.5,
+      "title": "Astra 把人体骨骼拆成两千多件，关键是把需求问难",
+      "summary": "小二沾用 GPT-6 Astra 做徕卡 M6 拆解后，看到有人把男性解剖拆成 2234 个部件的 3D 网站。他的判断是：模型能力不是瓶颈，提问不够难才是；并丢了 demo 和代码。",
+      "recommend_reason": "把「再多要七八九十步」说成可操作的用法，附可玩代码，比只惊叹画面更值得收。",
+      "tags": [
+        "GPT",
+        "Astra",
+        "3D",
+        "提示词"
+      ],
+      "rank": 16
+    },
+    {
+      "id": "2096427200555917808",
+      "author": "taiyo_ai_gakuse",
+      "bio": "",
+      "text": "霞ヶ関の伝統芸能ポンチ絵スライドをGPT 6 Astraがどこまで再現できるのか試してみた件。 https://t.co/Hzfs8NXBAO",
+      "created_at": "Sun Sep 06 02:36:09 +0000 2026",
+      "likes": 1227,
+      "views": "236651",
+      "url": "https://x.com/i/status/2096427200555917808",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2096426424982962176/vid/avc1/480x270/GZMuOyPEZvfsCJpz.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2096426424982962176/img/k62p-g6ykXdG1MD4.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 68.825,
+      "summary": "试了一下，霞关那种传统艺能式的官厅庞奇图幻灯片，GPT-6 Astra 能复现到什么程度。",
+      "recommend_reason": "用官厅风幻灯片压测版式复现，比通用「会做 PPT」更看得出模型对格式包袱的理解。",
+      "tags": [
+        "GPT",
+        "Astra",
+        "PPT",
+        "设计"
+      ],
+      "rank": 17
+    },
+    {
+      "id": "2096420622989672761",
+      "author": "wshuyi",
+      "bio": "",
+      "text": "早上我搞定了 Codex + GPT 6 在 Obsidian 的 Excalidraw 里面一边绘制一边讲解、自动配音。进一步「丧心病狂」地向前推进，直接在手机上 Grokbot 操控 mac的 Codex，把这个 skill 打磨法做视频讲一遍。以后我人在外面散步有了灵感，就可以下令家里电脑操作、录屏、合成视频，手机里第一时间看结果🤭 https://t.co/sCkV7jJQ0f",
+      "created_at": "Sun Sep 06 02:10:00 +0000 2026",
+      "likes": 77,
+      "views": "10714",
+      "url": "https://x.com/i/status/2096420622989672761",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRf665nbsAA3SPL.jpg",
+        "https://pbs.twimg.com/media/HRf665lacAA4tGG.jpg",
+        "https://pbs.twimg.com/media/HRf665laMAA_jmP.jpg",
+        "https://video.twimg.com/amplify_video/2096420323424112640/vid/avc1/470x270/uetUQoc7uVcXaHY3.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRf665nbsAA3SPL.jpg",
+        "https://pbs.twimg.com/media/HRf665lacAA4tGG.jpg",
+        "https://pbs.twimg.com/media/HRf665laMAA_jmP.jpg",
+        "https://pbs.twimg.com/amplify_video_thumb/2096420323424112640/img/0aSzYx6zv0m61M0w.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2096393490439749875",
+        "author": "wshuyi",
+        "name": "Wang Shuyi",
+        "text": "这个视频，从调研、规划，到操作、录制、声音合成、剪辑、组装、交付……甚至是自动归纳成为 Skill，全都是 GPT-6 Astra 自己完成的。以前羡慕别人勤快，用 Excalidraw 就能做个讲解视频。如今只是咱和「六子」一句话的事儿了😜 https://t.co/13SQlRREkn",
+        "created_at": "Sun Sep 06 00:22:11 +0000 2026",
+        "url": "https://x.com/wshuyi/status/2096393490439749875",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2096393339696562178/vid/avc1/470x270/hKqT_lfHV96eAlDY.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2096393339696562178/img/fb4biyDI3druax1b.jpg"
+        ]
+      },
+      "score": 64.993,
+      "summary": "早上我搞定了 Codex + GPT 6 在 Obsidian 的 Excalidraw 里面一边绘制一边讲解、自动配音。进一步「丧心病狂」地向前推进，直接在手机上 Grokbot 操控 mac的 Codex，把这个 skill 打磨法做视频讲一遍。以后我人在外面散步有了灵感，就可以下令家里电脑操作、录屏、合成视频，手机里第一时间看结果🤭 https://t.co/sCkV7jJQ0f",
+      "recommend_reason": "Codex、Excalidraw 讲解视频，再接到手机 Grokbot 遥控家里 Mac，是完整的「人在外面、家里出片」链路。",
+      "tags": [
+        "Codex",
+        "Grok",
+        "Obsidian",
+        "工作流"
+      ],
+      "rank": 18
+    },
+    {
+      "id": "2096415566341001361",
+      "author": "lifesinger",
+      "bio": "",
+      "text": "不会 3D 也没兴趣。于是在 YouMind 里跟 GPT-6 Astra 说：搜索下我的 X 动态，画一张图，能体现我的心情。\n\n居然得到了下面这图。细思，AGI 真的来了。 https://t.co/1Ww0NCt891",
+      "created_at": "Sun Sep 06 01:49:55 +0000 2026",
+      "likes": 48,
+      "views": "9117",
+      "url": "https://x.com/i/status/2096415566341001361",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRf212YagAAtbYZ.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRf212YagAAtbYZ.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 62.742,
+      "summary": "不会 3D 也没兴趣。于是在 YouMind 里跟 GPT-6 Astra 说：搜索下我的 X 动态，画一张图，能体现我的心情。\n\n居然得到了下面这图。细思，AGI 真的来了。 https://t.co/1Ww0NCt891",
+      "recommend_reason": "不会 3D 也能让 YouMind 里的 Astra 根据自己的 X 动态画心情图，是非专家向的个人语境生成。",
+      "tags": [
+        "GPT",
+        "Astra",
+        "图像生成",
+        "YouMind"
+      ],
+      "rank": 19
+    },
+    {
+      "id": "2096374001119744190",
+      "author": "ollama",
+      "bio": "",
+      "text": "Introducing off-peak hour token rates.\n\nDeepSeek-V4-Flash and Pro are now half price outside of 12:00 to 18:00 UTC on weekdays (5am-11am pacific), and all day on weekends!\n\nOff-peak pricing will be available soon for more models.\n\nDeepSeek models on Ollama's cloud are hosted in the US & Europe with ZDR and fast performance.",
+      "created_at": "Sat Sep 05 23:04:45 +0000 2026",
+      "likes": 956,
+      "views": "93961",
+      "url": "https://x.com/i/status/2096374001119744190",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 67.388,
+      "title": "Ollama 云端 DeepSeek V4 错峰半价",
+      "summary": "Ollama 推出错峰 token 价：DeepSeek-V4-Flash 和 Pro 在工作日 12:00–18:00 UTC 之外、以及整个周末半价；更多模型稍后跟进。云端 DeepSeek 部署在美欧，带 ZDR。",
+      "recommend_reason": "有明确时段和半价规则，是能改调用策略的产品信息，不是又一条模型发布。",
+      "tags": [
+        "Ollama",
+        "DeepSeek",
+        "产品",
+        "Token"
+      ],
+      "rank": 20
+    },
+    {
+      "id": "2096370002849120468",
+      "author": "higgsfield",
+      "bio": "",
+      "text": "GPT-6 Astra vibe-coded New York City in Minecraft using the Higgsfield MCP.\n\nAGI is finally here. https://t.co/BjgKjHVqc0",
+      "created_at": "Sat Sep 05 22:48:52 +0000 2026",
+      "likes": 3377,
+      "views": "417381",
+      "url": "https://x.com/i/status/2096370002849120468",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2096369416959307776/vid/avc1/480x270/BFyhbZBqszFBl1e-.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2096369416959307776/img/3xk8ayI67CTVmVDt.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 73.116,
+      "summary": "GPT-6 Astra 用 Higgsfield MCP 在 Minecraft 里氛围编程搭出了纽约。AGI 终于来了。",
+      "recommend_reason": "MCP 驱动 Minecraft 重建城市，是 Astra 发布后很快出现的可看成品，不是口头 AGI。",
+      "tags": [
+        "GPT",
+        "Astra",
+        "MCP",
+        "Minecraft"
+      ],
+      "rank": 21
+    },
+    {
+      "id": "2096367800633921699",
+      "author": "higgsfield",
+      "bio": "",
+      "text": "We live in a Singularity.\n\nGPT-6 Astra took over our PC and rebuilt our own launch video in After Effects down to the tiniest details. https://t.co/wy8zRXS0Jv",
+      "created_at": "Sat Sep 05 22:40:06 +0000 2026",
+      "likes": 683,
+      "views": "47554",
+      "url": "https://x.com/i/status/2096367800633921699",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2096367700406890496/vid/avc1/320x360/P8xDKx9bYHlahuGd.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2096367700406890496/img/NIRYBsuiVj_JE3lq.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 72.37,
+      "summary": "我们活在奇点里。GPT-6 Astra 接管了我们的电脑，用 After Effects 把自家发布视频细到最小细节全部重建了一遍。",
+      "recommend_reason": "不是口嗨会用 AE，而是把发布片级运动设计回炉，能看出 Astra 对时间线软件的控制粒度。",
+      "tags": [
+        "GPT",
+        "Astra",
+        "AI视频",
+        "运动设计"
+      ],
+      "rank": 22
+    },
+    {
+      "id": "2096344663904891115",
+      "author": "dotey",
+      "bio": "",
+      "text": "《Reverse Engineering Linear's Sync Engine: A Detailed Study》这篇文章写的很好，但有些难懂，突然想到一个使用 GPT-6 Astra 的案例：\n让它把这篇文章做成一个循序渐进的互动式教学网页，一步步把内容由浅入深分解，帮我搞懂文章内容。\n\n还别说，跟着网页内容一节一节学习，好懂多了。\n\n提示词：\n\n> 帮我把这篇文章的内容，做成一个互动的循序渐进的教学网页，一步步通过互动的方式让初学者理解这篇文章中的核心概念  https://t.co/EYElCkfmnJ\n\n网页地址：https://t.co/CCfTykxWxx",
+      "created_at": "Sat Sep 05 21:08:10 +0000 2026",
+      "likes": 783,
+      "views": "94273",
+      "url": "https://x.com/i/status/2096344663904891115",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRe1fmea0AAkc6x.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRe1fmea0AAkc6x.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2096236875661053983",
+        "author": "vikingmute",
+        "name": "Viking",
+        "text": "好久没看到这么精彩的和 AI 无关的技术文章了：《Reverse Engineering Linear's Sync Engine: A Detailed Study》\nhttps://t.co/WsIxp72wv2\n\n讲的是 Linear 客户端同步方案（Linear Sync Engine） 的逆向讲解，如果体验过 LInear 的就能感受到它的操作非常丝滑。这篇文章把模型怎么定义 怎么进 IndexedDB 事务怎么上报 服务端怎么回 delta 怎么做部分加载和 undo讲的非常清楚 还对技术细节感兴趣的朋友可以收藏好好读读。\n\nLinear CTO 也称赞过这篇文章。我觉得整体读的体感非常好，学到了很多，同时也很赞同乐观更新这种做法。",
+        "created_at": "Sat Sep 05 13:59:52 +0000 2026",
+        "url": "https://x.com/vikingmute/status/2096236875661053983",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": [],
+        "card": {
+          "name": "summary_large_image",
+          "title": "GitHub - wzhudev/reverse-linear-sync-engine: A reverse engineering of Linear's sync engine....",
+          "description": "A reverse engineering of Linear's sync engine. Endorsed by Linear CTO. - wzhudev/reverse-linear-sync-engine",
+          "image_url": "https://pbs.twimg.com/card_img/2096855843333611520/by5PR4Ox?format=jpg&name=600x600",
+          "url": "https://github.com/wzhudev/reverse-linear-sync-engine",
+          "domain": "github.com"
+        }
+      },
+      "score": 71.005,
+      "title": "用 Astra 把 Linear 同步引擎论文做成互动教学页",
+      "summary": "宝玉拿《Reverse Engineering Linear's Sync Engine》试 GPT-6 Astra：让它把难读长文做成由浅入深的互动教学网页。附提示词「做成互动的循序渐进教学网页」，并给出生成页链接。",
+      "recommend_reason": "把硬核工程文转成可点的教程，是 Astra 很具体的学习向用法，不是又一个画图 demo。",
+      "tags": [
+        "GPT",
+        "Astra",
+        "教程",
+        "工程"
+      ],
+      "rank": 23
+    },
+    {
+      "id": "2096330318751973544",
+      "author": "bindureddy",
+      "bio": "",
+      "text": "No, Astra is not AGI!\n\nAnthropic uses Model 2 internally which is supposed to be the next generation model. They say they won’t release it \n\nOpenAI themselves just trained an even larger model code named Bel \n\nSo yeah, we aren’t there yet",
+      "created_at": "Sat Sep 05 20:11:10 +0000 2026",
+      "likes": 793,
+      "views": "56862",
+      "url": "https://x.com/i/status/2096330318751973544",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 67.989,
+      "title": "Astra 还不是 AGI：Anthropic 内部 Model 2 与 OpenAI 的 Bel",
+      "summary": "Abacus 的 Bindu Reddy 明确说 Astra 不是 AGI。Anthropic 内部在用下一代 Model 2 且宣称不发布；OpenAI 自己刚训了更大的代号 Bel。结论是现在还没到。",
+      "recommend_reason": "在满屏 AGI 口号里给出两条可核对的下一代模型线索，比表态更有用。",
+      "tags": [
+        "AGI",
+        "OpenAI",
+        "Anthropic",
+        "Astra"
+      ],
+      "rank": 24
+    },
+    {
+      "id": "2096314340244894026",
+      "author": "CuiMao",
+      "bio": "",
+      "text": "🤣🤣GPT 6 彻底赢了，感觉是 OpenAI 走上了一条邪修道路，大语言模型用来指挥 blender 做 3d\n，这对吗，这很对，至少对于山姆来说，GPT 6 整个大版本可以在“玩家”心中完全明领先 Claude 了，这是一场 针对 anthropic 上市的阻击战。下半年 Claude 危险了",
+      "created_at": "Sat Sep 05 19:07:41 +0000 2026",
+      "likes": 285,
+      "views": "41500",
+      "url": "https://x.com/i/status/2096314340244894026",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 62.427,
+      "summary": "🤣🤣GPT 6 彻底赢了，感觉是 OpenAI 走上了一条邪修道路，大语言模型用来指挥 blender 做 3d\n，这对吗，这很对，至少对于山姆来说，GPT 6 整个大版本可以在“玩家”心中完全明领先 Claude 了，这是一场 针对 anthropic 上市的阻击战。下半年 Claude 危险了",
+      "recommend_reason": "把 GPT-6 指挥 Blender 看成对 Anthropic 上市窗口的产品阻击，点出「玩家心智」比基准更先被带跑。",
+      "tags": [
+        "GPT",
+        "Blender",
+        "OpenAI",
+        "产业"
+      ],
+      "rank": 25
+    },
+    {
+      "id": "2096298280619745661",
+      "author": "xiaoxiaodong01",
+      "bio": "",
+      "text": "GPT2 x 马克笔+蜡笔+油画棒 x 美学提示词 x VOL.121\n\n其实这组提示词，不管适合，把你的生活照，转换出有趣的画面\n\n风景图片的转换，也不在话下\n\n提示词：\n\n```\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用 3:4 竖版构图，上下两个区域高度严格 1:1，各占画面 50%。\n\n上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色，使其具有艺术杂志与展览图像质感。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分重新做美术判断，**只提取照片中最具识别性的主体、轮廓、结构、姿态与叙事关系**，重构为 Hand-drawn Doodle Lifestyle Illustration / Naïve Illustration / Marker Drawing。不要保留所有对象，不要复制原场景；主动删除绝大多数背景和无关信息，通过删减、重组、裁切、尺度变化重新导演画面，使原图即使构图普通，也能转化成一张成立的作品。\n\n造型简化、符号化、松弛而有个性，使用轻微抖动、断续、不完全规整的手绘线条，以及马克笔、蜡笔、油画棒般的自然涂色。允许轻微越线、露白和手工误差，不追求写实比例、完整透视和精细描绘。\n\n下半部分必须以**超大量有意识的留白**为核心，实体图形只占较小比例，其余空间主动留空。主体可偏心、贴边、悬置或局部裁切，根据姿态方向和视觉重心决定位置。留白与主体共同形成正负形、距离、停顿和呼吸感，宁可少画，也绝不填满画面。\n\n**图形与文字必须作为一个整体重新排版，而不是“上面一句话、下面一个人物”。** 先建立隐形网格、视觉轴线和阅读路径，再决定文字位置；文字可贴近主体轮廓、顺着动作方向、与头部或肩线对齐、落在大块负空间中，或与图形形成错位、穿插和不对称呼应。避免机械居中、上下堆叠和固定模板，让图形负责情绪，文字负责节奏，两者共同完成构图。\n\n文字不限制语种，只保留极少量真正有意义的字词或短句。使用**轻巧、自然、略带字宽差异与笔压变化的手写字体**，保留一点随手书写感，但字距、行距和整体落点必须经过编辑设计控制。可用一个稍明显的短句配合极小辅助文字形成层级，但不要菜单式标题、长段文案或满版文字。\n\n配色采用柔和、明快、治愈的限定色系，从原图中提取最有生命力的颜色重新调制，可形成奶油黄、蜜桃粉、珊瑚红、天空蓝、湖水青、嫩绿、薰衣草紫等清爽色彩；鲜活但不刺眼，柔和但不灰脏，以暖白或极浅综合色作为大面积呼吸空间。\n\n整体追求**稚拙的画、成熟的构图、聪明的图文关系、超大量留白**，像高级独立杂志、生活方式 editorial illustration 或艺术出版物，而不是儿童手帐。避免主体居中 + 文案居中的固定结构、随机小图标撒满四周、复杂背景、信息堆积、画面填满、廉价卡通感和模板化排版\n```",
+      "created_at": "Sat Sep 05 18:03:52 +0000 2026",
+      "likes": 618,
+      "views": "35136",
+      "url": "https://x.com/i/status/2096298280619745661",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HReKyLLasAAUWk3.jpg",
+        "https://pbs.twimg.com/media/HReK3r2aUAAa62C.jpg",
+        "https://pbs.twimg.com/media/HReL88CaEAARbBU.jpg",
+        "https://pbs.twimg.com/media/HReL_9magAAdrc7.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HReKyLLasAAUWk3.jpg",
+        "https://pbs.twimg.com/media/HReK3r2aUAAa62C.jpg",
+        "https://pbs.twimg.com/media/HReL88CaEAARbBU.jpg",
+        "https://pbs.twimg.com/media/HReL_9magAAdrc7.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2096290195792642498",
+        "author": "xiaoxiaodong01",
+        "name": "小小东",
+        "text": "GPT2 x 建筑概念 x 手绘 x 美学提示词 x  VOL.120\n\n从建筑概念透视草图中得到的这组提示词灵感\n\n做完这组就睡觉去了\n大家晚安\n早点起来，还要起来继续和ASTRA各种聊天，尝试各种创意\n\n好期待\n\nprompt by xiaoxiaodong ⤵️\n\n```\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用 3:4 竖版构图，上下两个区域高度严格 1:1，各占画面 50%。\n\n上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色，使其具有艺术杂志与展览图像质感。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分只提取照片中最具识别性的主体、轮廓、结构、姿态与叙事关系，重构为建筑概念透视草图 / 建筑方案表现手绘。不要完整保留场景，不要逐物复制照片；主动删去大部分背景、配景和无关细节，只留下最能代表原始主题的核心形体、空间关系与视觉记忆点。\n\n下半部分重新做美术判断。哪怕原图构图差、背景乱、主体小，也要通过删减、重组、裁切、尺度变化和留白，把它救成一张成立的作品，真正赋予模型重新导演画面的权力。\n\n画风采用自由徒手透视线稿 + 少量选择性色块。线条松弛、克制、略带重复与停顿感，可保留少量辅助线、延长线、构造线与建筑手绘的几何参考线，形成明确的设计推敲感。色彩只在少数关键部位轻微铺陈，用于强调主体、结构层次、局部阴影或空间重点，其余区域尽量不画。\n\n画面必须以大量有意识的留白为核心。主体应更小、更精炼，其余空间大面积留空。留白不是空背景，而是构图的一部分，要与主体、线稿、参考线、阴影和少量色块共同形成呼吸感、空间感与节奏感。主体可偏心、贴边、局部裁切或缩小尺度；宁可少画，也不要填满。\n\n可加入少量几何阴影色块强化体量、进深与空间层次，但避免厚重渲染、复杂环境和写实效果图感。背景保持极简，只保留极少量必要的场地暗示。\n\n配色从上方照片中提取 2–4 种最具识别度和生命力的颜色，重新整理为更干净、克制、耐看的草图色系。整体可适度提亮、提纯、去灰，以米白、浅灰、暖灰、柔和绿色、淡木色、浅蓝灰等为主，局部保留少量更鲜明但不刺眼的点睛色。避免脏灰、暗沉、过度复古和廉价高饱和感。\n\n文字只作极少量编辑性介入，不限制语种。可根据主体、地点、动作或情绪生成少量字词、短句或注记，安静地落在留白区域，与画面形成克制的图文关系。\n\n整体呈现建筑概念手绘、自由线稿、几何参考线、少量色块、几何阴影、超大量留白与编辑式排版共同构成的高级视觉效果。避免完整场景保留、逐物复制、复杂背景、满幅上色、写实效果图、粗重描边、卡通感、3D感和模板化表现。\n```",
+        "created_at": "Sat Sep 05 17:31:44 +0000 2026",
+        "url": "https://x.com/xiaoxiaodong01/status/2096290195792642498",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HReDxvSaUAAv7IE.jpg",
+          "https://pbs.twimg.com/media/HReEBGaa8AA7orq.jpg",
+          "https://pbs.twimg.com/media/HReEEfQaAAAfxRL.jpg",
+          "https://pbs.twimg.com/media/HReEfb9bkAAWmBs.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HReDxvSaUAAv7IE.jpg",
+          "https://pbs.twimg.com/media/HReEBGaa8AA7orq.jpg",
+          "https://pbs.twimg.com/media/HReEEfQaAAAfxRL.jpg",
+          "https://pbs.twimg.com/media/HReEfb9bkAAWmBs.jpg"
+        ]
+      },
+      "score": 72.944,
+      "title": "马克笔蜡笔油画棒风：照片上半写实、下半留白手绘的海报提示词",
+      "summary": "小小东 VOL.121：3:4 竖版上下对半，上半保留原片只做高级调色，下半改成马克笔/蜡笔/油画棒的稚拙生活插画，强调大量留白、图文一体排版，以及从原图提取的治愈配色，适合把生活照转成杂志感海报。",
+      "recommend_reason": "提示词把「删减导演」和「留白呼吸」写死了，比只丢风格词更能直接套到生活照上。",
+      "tags": [
+        "提示词",
+        "图像生成",
+        "美学",
+        "GPT"
+      ],
+      "rank": 26
+    },
+    {
+      "id": "2096280244663775423",
+      "author": "DilumSanjaya",
+      "bio": "",
+      "text": "Asked GPT-6 Astra to create a highly detailed, interactive visualization of a V8 engine\n\nThe result is pretty impressive https://t.co/NAEl71ZLns",
+      "created_at": "Sat Sep 05 16:52:11 +0000 2026",
+      "likes": 12400,
+      "views": "3379448",
+      "url": "https://x.com/i/status/2096280244663775423",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2096278610743304192/vid/avc1/468x270/mcnUjOIInsG7UFGN.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2096278610743304192/img/jZDskFFb29_SDdCk.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 74.304,
+      "summary": "让 GPT-6 Astra 做了一个高度细节、可交互的 V8 发动机可视化。结果相当惊人。",
+      "recommend_reason": "Astra 交互可视化的高传播样本，适合直接打开看发动机拆解做到哪一步。",
+      "tags": [
+        "GPT",
+        "Astra",
+        "可视化",
+        "3D"
+      ],
+      "rank": 27
+    },
+    {
+      "id": "2096279756925026733",
+      "author": "levie",
+      "bio": "",
+      "text": "Good post on how to think about process redesign in an enterprise with AI Agents. \n\nUnfortunately for most workflows, there’s no “easy” button. The best way to get real efficiency gains is you have to actually reengineer the process to take advantage of what agents are actually good at and can do differently and faster than people. \n\nOne of the challenges of course is that the most important workflows actually space many functions at once, so someone needs to be able to go in and retool how work happens.\n\n“Nobody in that chain is empowered to walk into finance, for example, and say that their 14 step process should actually only be 5 steps. So nobody does it. Instead, you 'apply AI' on what you currently have, and you end up with faster sh*t.”\n\nThis is the road ahead for AI diffusion in enterprises. This also presents the clear opportunity for companies - both at the applied AI layer (regardless of the article’s title) and teams or companies that can go and implement transformation into the enterprises. And all roads lead to FDEs one way or another.",
+      "created_at": "Sat Sep 05 16:50:15 +0000 2026",
+      "likes": 883,
+      "views": "249971",
+      "url": "https://x.com/i/status/2096279756925026733",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2095999742031675738",
+        "author": "vasuman",
+        "name": "vas",
+        "text": "https://t.co/oxa2EB0xtY",
+        "created_at": "Fri Sep 04 22:17:34 +0000 2026",
+        "url": "https://x.com/vasuman/status/2095999742031675738",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 63.716,
+      "title": "企业上 Agent 没有轻松按钮，得先改流程",
+      "summary": "Levie 转发一篇企业流程再造文：多数工作流没有「一键上 AI」。要真提效，必须按 Agent 能做、能更快的方式重做流程；跨部门链条里没人有权把 14 步改成 5 步，结果就变成给现有流程加速。他认为这会把机会推向应用层和实施/FDE。",
+      "recommend_reason": "把「AI 用不上」归因到无人有权改跨部门流程，比空谈落地更接近真实组织瓶颈。",
+      "tags": [
+        "Agent",
+        "产业",
+        "工作流",
+        "产品"
+      ],
+      "rank": 28
+    },
+    {
+      "id": "2096274580558217295",
+      "author": "xiaoxiaodong01",
+      "bio": "",
+      "text": "GPT2 x 淡彩 + 拼贴 x 美学提示词 x VOL.117\n\n现在做这种提示词\n我要求：真正赋予模型重新导演画面的权力\n\n而不是自己蹦蹦跳跳的各种限制\n\n提示词文字数量，我有要求不啰唆了\n\n本次提示词：\n\n```\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分不要照着照片转绘，而是先判断原图**真正值得保留的一个核心主题、一个视觉锚点和一种情绪关系**，其余信息大胆删除。即使原照片构图普通、杂乱或像废片，也要重新设计主体尺度、位置、裁切、方向和元素关系，把原始素材重构成一张独立成立的艺术画面。只保留最能代表原物的轮廓、走势、姿态和视觉记忆点，使人一眼感受到与上方照片的联系，但下半部分拥有比原图更好的构图和美术表达。\n\n画风采用**细线手绘 + 淡彩平涂 + 纸张肌理 + 轻拼贴**。主体以少量简洁轮廓完成识别，内部只留极少必要线条；颜色用轻薄、平静的大色块概括，不画写实细节。可加入一块极浅的主题基色色块承托主体，并允许主体穿出、越过或切断色块边缘，形成自然的 editorial collage 关系。\n\n构图强调**小尺度章印 + 大面积有意识留白**。主体可偏心、贴边、悬置、局部裁切或改变原照片中的位置，不追求完整呈现。留白面积明显大于绘制面积，并作为真正的图形参与构图，与主体形成正负形、距离、方向、聚散和不对称平衡。宁可删掉环境，也不要填满版面；让空白负责空气、空间、停顿和情绪。\n\n配色从上方照片中提取2–4种最有生命力、最有辨识度的颜色重新调制为**高明度、清透、柔和的粉彩体系**，如薄荷绿、嫩叶绿、雾粉、浅紫、奶油黄、柔蓝、杏色等，根据原图自然变化。背景保持极浅、近白的纸色，主体与基色色块必须清晰可见，不灰、不脏、不糊。\n\n周围只允许极少量从原图情绪或主题中衍生出的符号化小元素，用一两笔即可表达，不复制真实物件，也不为了填空而装饰。文字同样极少，不限制语种，可从主体、动作、情绪、记忆或隐喻中自由生成少量词句，以纤细、自然、略带手写感的字体进入留白，与主体共同构成版面。\n\n整体重点不是“把照片画出来”，而是**提炼原图灵魂后重新导演画面**：少元素、强主题、小主体、大留白、轻线条、浅色块、聪明重构。避免逐物转绘、完整背景、细节堆积、主体过大、画面填满、写实描摹、光滑矢量和模板化排版。\n```",
+      "created_at": "Sat Sep 05 16:29:41 +0000 2026",
+      "likes": 243,
+      "views": "21634",
+      "url": "https://x.com/i/status/2096274580558217295",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRd2Rf2aQAATz3t.jpg",
+        "https://pbs.twimg.com/media/HRd2SqKaoAApVtO.jpg",
+        "https://pbs.twimg.com/media/HRd2U1fasAATwjs.jpg",
+        "https://pbs.twimg.com/media/HRd2W0hbUAAgyCQ.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRd2Rf2aQAATz3t.jpg",
+        "https://pbs.twimg.com/media/HRd2SqKaoAApVtO.jpg",
+        "https://pbs.twimg.com/media/HRd2U1fasAATwjs.jpg",
+        "https://pbs.twimg.com/media/HRd2W0hbUAAgyCQ.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2096262813010600335",
+        "author": "xiaoxiaodong01",
+        "name": "小小东",
+        "text": "GPT2 x  蜡笔 x 治愈系 x 美学提示词 x VOL.116\n\n好喜欢这个风格\n今天本来要发布10个新风格的\n\n沉迷Astra，有点点分神了\n不过astra 更适合做这些美学探索了\n\nGitHub skills地址：\nhttps://t.co/c9mRKM0oEl\n\n完整提示词 ⤵️\n\n```\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色，使其具有艺术杂志、独立出版物与展览图像质感。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分先理解原照片最值得被记住的**核心主题、主体关系、结构走势、情绪与视觉隐喻**，再重构为**复古纸张肌理的粉彩蜡笔涂鸦插画**。不要逐物复制照片，也不要把所有内容完整转绘，只保留最能代表原物的轮廓、姿态、方向和视觉记忆点，通过删减、概括、轻微夸张和重新组合，使人一眼感受到它与上方照片之间的对应关系。\n\n主体使用**粗颗粒粉笔 / 蜡笔式手绘轮廓**：线条略粗、松弛、干涩，带有粉末颗粒、断续掉色、轻微抖动和不完全闭合的边缘，笔端自然钝圆。主体内部只加入极少量粉彩色块、简单网格、条纹、圆点或随手涂抹，用最少信息提示结构，不做写实体积和完整细节。\n\n周围小元素与主体使用**同一种线条语言**，但进一步压缩为一笔或几笔即可识别的涂鸦符号。星星、花朵、植物、器物、环境线索或抽象符号都应简单、稚拙、开放、不完全闭合，以单线轮廓为主，极少填色。不要画成精致图标、贴纸或独立小插画。\n\n构图保持**小尺度章印与大面积留白**的关系，根据主体自身的方向、比例和视觉重心自由安排位置，可偏心、贴边、悬置或局部裁切。主体与极少量涂鸦符号形成松散但明确的视觉群落，其余空间主动留空。**留白本身就是主要构图元素**，通过空与实、聚与散、大小反差和不对称关系形成呼吸感、距离感与停顿感；宁可少画，也不要填满。\n\n背景必须使用**极浅、明亮、干净的纸张底色**，例如奶油白、象牙白、浅米白、淡杏白、极浅灰白或根据原图综合色温智能匹配的近白纸色。纸张只保留非常轻微的纤维与颗粒，不能偏棕、偏黄、偏灰或显得陈旧。**背景明度必须明显高于主体线条与色块，确保所有蜡笔轮廓、小符号和文字清楚可见，不得与背景糊在一起。**\n\n配色从上方照片中提取 **2–4 种最鲜活、最有亲和力、最能代表画面精神的颜色**重新调制，转化为明亮柔和的粉彩蜡笔色。可自然形成蜜桃粉、杏橙、奶油黄、薄荷青、天空蓝、淡紫等轻盈色彩；主体线条优先使用比背景更清晰的珊瑚粉、柔蓝、青绿、暖橙、淡紫或奶油深色调，小元素只零星重复这些颜色形成呼应。整体保持**浅背景 + 清晰彩线 + 少量柔和色块**的对比关系，明快、治愈、轻松、有生活感。避免灰暗、脏褐、沉闷莫兰迪化、低对比、荧光色和廉价糖果感。\n\n文字少量介入，不限制语种。可从主体、动作、情绪、记忆或隐喻中自由提炼短句或文字片段，使用**轻薄、疏朗、带轻微字距不齐与旧式机械印字误差的打字排版字体**，颜色使用清晰但不刺眼的灰褐、柔黑、深蓝灰或与主体呼应的深色，确保在浅色纸面上有足够可读性。文字自然散落在留白区域，与主体和涂鸦形成图文混排，不做固定标题模板。\n\n整体呈现**极浅纸面、粗颗粒蜡笔轮廓、少量粉彩填色、极简涂鸦符号、小尺度主体与大量艺术留白**共同构成的高级治愈视觉。重点是让主体与小元素清楚浮现在浅色纸面上，同时保持松弛、天真、温柔和成熟的编辑构图意识。避免深色牛皮纸、暗棕背景、低对比线条、背景与主体糊成一团、精细描边、写实转绘、复杂小图标、背景填满、光滑矢量、3D感和商业模板感。\n```",
+        "created_at": "Sat Sep 05 15:42:55 +0000 2026",
+        "url": "https://x.com/xiaoxiaodong01/status/2096262813010600335",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HRdrN8waQAAA0X8.jpg",
+          "https://pbs.twimg.com/media/HRdrR4VbwAAcLks.jpg",
+          "https://pbs.twimg.com/media/HRdrWiZboAAFKlc.jpg",
+          "https://pbs.twimg.com/media/HRdrZshbQAAkrDf.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HRdrN8waQAAA0X8.jpg",
+          "https://pbs.twimg.com/media/HRdrR4VbwAAcLks.jpg",
+          "https://pbs.twimg.com/media/HRdrWiZboAAFKlc.jpg",
+          "https://pbs.twimg.com/media/HRdrZshbQAAkrDf.jpg"
+        ]
+      },
+      "score": 68.821,
+      "title": "淡彩拼贴风：给模型重新导演画面权的少元素海报提示词",
+      "summary": "VOL.117 同样是上下对半海报，但下半要求先抓住一个主题、一个视觉锚点和一种情绪，再做成细线手绘+淡彩平涂+轻拼贴；强调小主体、大留白、粉彩配色，明确反对逐物转绘。",
+      "recommend_reason": "作者把「少限制、让模型导演」写成可执行约束，和只堆风格词的提示词不是一类东西。",
+      "tags": [
+        "提示词",
+        "图像生成",
+        "美学",
+        "GPT"
+      ],
+      "rank": 29
+    },
+    {
+      "id": "2096272897916768274",
+      "author": "gabriel1",
+      "bio": "",
+      "text": "feels cool to be in the right generation for GTA 6, the last mega game not to be made with AI\n\nGPT 7 running for long enough can probably one shot aesthetics &amp; physics of a GTA\n\nstoryline, probably not yet. i think storylines are agi. the models cant extrapolate that well yet",
+      "created_at": "Sat Sep 05 16:23:00 +0000 2026",
+      "likes": 1037,
+      "views": "32833",
+      "url": "https://x.com/i/status/2096272897916768274",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 75.868,
+      "title": "GTA 6 或是最后一款非 AI 打造的超级大作，故事力仍像 AGI 门槛",
+      "summary": "作者觉得自己赶上了对的世代：GTA 6 可能是最后一款不是用 AI 做出来的超级大作。他认为 GPT 7 如果跑得够久，或许能一锅端美学和物理；但故事线还不行——故事力更像 AGI，现有模型外推还不够。",
+      "recommend_reason": "把「能生成世界」和「能写故事」拆开，对着满屏 Astra 即 AGI 的口号是个清醒锚点。",
+      "tags": [
+        "GPT",
+        "AGI",
+        "游戏",
+        "生成式AI"
+      ],
+      "rank": 30
+    }
+  ],
+  "generated_at": "2026-09-07T18:11:20Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "midnight",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 30,
+    "last_batch_added": 2,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
