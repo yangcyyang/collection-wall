@@ -1,0 +1,521 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-07",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2096998395332428188",
+      "author": "xiaoxiaodong01",
+      "bio": "",
+      "text": "GPT2 x  文物 x 拓印 x 美学提示词 x VOL.157\n\n先上提示词和skills地址：\nhttps://t.co/ixcWSR5098\n\n从中国传统墨拓艺术中，联想出来创意\n\n感觉还可以做得更好，更像那种文物拓印\n\n不过这种提示词，超级适合有意境的金色画面\n\n去试试吧 https://t.co/EmMlezfkQI",
+      "created_at": "Mon Sep 07 16:25:52 +0000 2026",
+      "likes": 1,
+      "views": "80",
+      "url": "https://x.com/i/status/2096998395332428188",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRoIWyPaMAk4opj.jpg",
+        "https://pbs.twimg.com/media/HRoIYgTaMAETla7.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRoIWyPaMAk4opj.jpg",
+        "https://pbs.twimg.com/media/HRoIYgTaMAETla7.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2096997196524826632",
+        "author": "xiaoxiaodong01",
+        "name": "小小东",
+        "text": "GPT2 x  错版 x 双色印刷 x 美学提示词 x VOL.156\n\n其实，所有这种风格系列，已经做完200期了\n\n很多风格和提示词，并没有更新到x上，但已同步到GitHub\n\n还有，这些风格的提示词和skills的使用逻辑\n值得很多人了解\n\n不管上下结构\n还可以左右结构\n\n也可以各种终端的壁纸，比如ipad 壁纸，电脑壁纸，手机壁纸，电子手表壁纸\n\n解锁这个风格的各种应用方式，skills中都支持\n\n本次风格Skills Github地址：\nhttps://t.co/iD6ZGpI8aE",
+        "created_at": "Mon Sep 07 16:21:06 +0000 2026",
+        "url": "https://x.com/xiaoxiaodong01/status/2096997196524826632",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HRoHLbQaMAEzBR1.jpg",
+          "https://pbs.twimg.com/media/HRoHMo2awAAuT0R.jpg",
+          "https://pbs.twimg.com/media/HRoHOCraMAEQmwl.jpg",
+          "https://pbs.twimg.com/media/HRoHPRFagAAqmv7.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HRoHLbQaMAEzBR1.jpg",
+          "https://pbs.twimg.com/media/HRoHMo2awAAuT0R.jpg",
+          "https://pbs.twimg.com/media/HRoHOCraMAEQmwl.jpg",
+          "https://pbs.twimg.com/media/HRoHPRFagAAqmv7.jpg"
+        ]
+      },
+      "score": 58.996,
+      "summary": "GPT2 x  文物 x 拓印 x 美学提示词 x VOL.157\n\n先上提示词和skills地址：\nhttps://t.co/ixcWSR5098\n\n从中国传统墨拓艺术中，联想出来创意\n\n感觉还可以做得更好，更像那种文物拓印\n\n不过这种提示词，超级适合有意境的金色画面\n\n去试试吧 https://t.co/EmMlezfkQI",
+      "recommend_reason": "拓印风提示词可直接拿去试，金色意境画面有明确风格锚。",
+      "tags": [
+        "提示词",
+        "AI绘图",
+        "美学",
+        "GPT"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2096997196524826632",
+      "author": "xiaoxiaodong01",
+      "bio": "",
+      "text": "GPT2 x  错版 x 双色印刷 x 美学提示词 x VOL.156\n\n其实，所有这种风格系列，已经做完200期了\n\n很多风格和提示词，并没有更新到x上，但已同步到GitHub\n\n还有，这些风格的提示词和skills的使用逻辑\n值得很多人了解\n\n不管上下结构\n还可以左右结构\n\n也可以各种终端的壁纸，比如ipad 壁纸，电脑壁纸，手机壁纸，电子手表壁纸\n\n解锁这个风格的各种应用方式，skills中都支持\n\n本次风格Skills Github地址：\nhttps://t.co/iD6ZGpI8aE",
+      "created_at": "Mon Sep 07 16:21:06 +0000 2026",
+      "likes": 0,
+      "views": "205",
+      "url": "https://x.com/i/status/2096997196524826632",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRoHLbQaMAEzBR1.jpg",
+        "https://pbs.twimg.com/media/HRoHMo2awAAuT0R.jpg",
+        "https://pbs.twimg.com/media/HRoHOCraMAEQmwl.jpg",
+        "https://pbs.twimg.com/media/HRoHPRFagAAqmv7.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRoHLbQaMAEzBR1.jpg",
+        "https://pbs.twimg.com/media/HRoHMo2awAAuT0R.jpg",
+        "https://pbs.twimg.com/media/HRoHOCraMAEQmwl.jpg",
+        "https://pbs.twimg.com/media/HRoHPRFagAAqmv7.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2096995555625091326",
+        "author": "xiaoxiaodong01",
+        "name": "小小东",
+        "text": "GPT2 x  炭笔 x 美学提示词 x VOL.170\n\n看到很多类似咖啡店，汽车店的老板\n用最近这些提示词，获得了不错的传播\n\n很是高兴\n话说，这些风格好适合展示店铺和产品\n在小红书上尤其受到欢迎\n\n提示词和skills地址：\nhttps://t.co/EbxVE3Xj17 https://t.co/2Yjjc2HyDl",
+        "created_at": "Mon Sep 07 16:14:35 +0000 2026",
+        "url": "https://x.com/xiaoxiaodong01/status/2096995555625091326",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HRoFyBqaAAAItWC.jpg",
+          "https://pbs.twimg.com/media/HRoF02Oa4AAfPaX.jpg",
+          "https://pbs.twimg.com/media/HRoF5CvagAALqei.jpg",
+          "https://pbs.twimg.com/media/HRoGIQEa8AAzIzN.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HRoFyBqaAAAItWC.jpg",
+          "https://pbs.twimg.com/media/HRoF02Oa4AAfPaX.jpg",
+          "https://pbs.twimg.com/media/HRoF5CvagAALqei.jpg",
+          "https://pbs.twimg.com/media/HRoGIQEa8AAzIzN.jpg"
+        ]
+      },
+      "score": 52.975,
+      "title": "错版双色印刷风已做满 200 期，Skills 支持多终端壁纸",
+      "summary": "作者称该美学风格系列已完成 200 期，很多提示词只在 GitHub 不在 X；Skills 支持上下/左右结构，以及 iPad、电脑、手机、手表壁纸等终端。",
+      "recommend_reason": "把「提示词系列」做成可复用 Skills 和多终端输出，比单条海报更有基建价值。",
+      "tags": [
+        "提示词",
+        "Skill",
+        "AI绘图",
+        "设计"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2096995036563144899",
+      "author": "vista8",
+      "bio": "",
+      "text": "把Obsidian变成你的最佳AI资讯阅读 + 学习笔记工具。\n\n打开网址一键安装：\nhttps://t.co/xKlv5LjJWd\n\n特色功能：\n1. 收录46个精选 AI Newsletter，AI自动翻译改写，一手海外资讯不错过。\n\n2. 收录1000+ 独立博客RSS，任意订阅获取他人新知。比如tw93的潮流周刊，阮一峰的博客等。\n\n3. 选中任意文本/图片，添加当天或指定笔记，契合GTD标准用法，阅读+学习一体。\n\n4. 内置朱雀仿宋字体、行距、字体设置，显著提升阅读愉悦度。\n\n甚至支持添加本地文件夹为阅读源。\n\n如Obsidian剪藏公众号文章，让你的收藏不吃灰。\n\n乔木 AI RSS 阅读器还在内测，预计明天上架，再抽空录一个演示视频。",
+      "created_at": "Mon Sep 07 16:12:31 +0000 2026",
+      "likes": 2,
+      "views": "650",
+      "url": "https://x.com/i/status/2096995036563144899",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRoFqolaEAAlFgo.jpg",
+        "https://pbs.twimg.com/media/HRoFw7Aa4AAGKco.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRoFqolaEAAlFgo.jpg",
+        "https://pbs.twimg.com/media/HRoFw7Aa4AAGKco.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 57.053,
+      "title": "把 Obsidian 做成 AI 资讯阅读和学习笔记",
+      "summary": "作者介绍一款 Obsidian 向的 AI RSS 阅读器：46 个精选 Newsletter 自动翻译改写、1000+ 独立博客可订、选中文本/图片进当天或指定笔记、内置字体排版，还支持本地文件夹当阅读源。乔木 AI RSS 阅读器仍在内测。",
+      "recommend_reason": "把「刷资讯」和「写进笔记」接成一条，对已经用 Obsidian 的人可直接装。",
+      "tags": [
+        "Obsidian",
+        "RSS",
+        "资讯",
+        "笔记",
+        "工具"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2096991294329590100",
+      "author": "jinchenma_ai",
+      "bio": "",
+      "text": "有了这个，给自己配一个专门记录灵感的 Agent。\n\n每天任何想法，琐碎都丢进去就完了。\n\n自动同步到电脑端 Obsidian 仓库，还能自动分类整理。 https://t.co/glxudIvrzV",
+      "created_at": "Mon Sep 07 15:57:39 +0000 2026",
+      "likes": 2,
+      "views": "324",
+      "url": "https://x.com/i/status/2096991294329590100",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRoCCCbbwAAF0pm.jpg",
+        "https://pbs.twimg.com/media/HRoCC8ta0AA9-hi.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRoCCCbbwAAF0pm.jpg",
+        "https://pbs.twimg.com/media/HRoCC8ta0AA9-hi.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2096933821061190098",
+        "author": "AdrianPunk115",
+        "name": "Adrian Punk",
+        "text": "https://t.co/WlYtqDm1sc",
+        "created_at": "Mon Sep 07 12:09:16 +0000 2026",
+        "url": "https://x.com/AdrianPunk115/status/2096933821061190098",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 56.97,
+      "summary": "有了这个，给自己配一个专门记录灵感的 Agent。\n\n每天任何想法，琐碎都丢进去就完了。\n\n自动同步到电脑端 Obsidian 仓库，还能自动分类整理。 https://t.co/glxudIvrzV",
+      "recommend_reason": "灵感碎片进 Agent、自动进 Obsidian 分类，是最低摩擦的个人知识入口。",
+      "tags": [
+        "Agent",
+        "Obsidian",
+        "知识管理",
+        "灵感"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2096991084459024524",
+      "author": "AI_Jasonyu",
+      "bio": "",
+      "text": "我靠，对于 AI，甚至对于人类 最难的验证码，被 GPT 6 Astra 搞定了，那意味着以后 AI Computer  Use 已经没有阻碍了？",
+      "created_at": "Mon Sep 07 15:56:49 +0000 2026",
+      "likes": 1,
+      "views": "650",
+      "url": "https://x.com/i/status/2096991084459024524",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2096949627966931186",
+        "author": "xiaohu",
+        "name": "小互",
+        "text": "GPT 6 Astra 成功通关了“我不是机器人”游戏的所有 48 个关卡\n\n所有网站的验证码防护都失效了...😄\n\nhttps://t.co/uTjhLR3DFS",
+        "created_at": "Mon Sep 07 13:12:05 +0000 2026",
+        "url": "https://x.com/xiaohu/status/2096949627966931186",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2096847594026917888/vid/avc1/480x270/fqQO8vbs3hkdbgdb.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2096847594026917888/img/YmtNxA8APFxvGKVP.jpg"
+        ]
+      },
+      "score": 48.584,
+      "summary": "我靠，对于 AI，甚至对于人类 最难的验证码，被 GPT 6 Astra 搞定了，那意味着以后 AI Computer  Use 已经没有阻碍了？",
+      "recommend_reason": "用验证码被 Astra 解开，引出 Computer Use 障碍可能消失的判断，适合当信号而不是结论。",
+      "tags": [
+        "GPT-6",
+        "Astra",
+        "Computer Use",
+        "验证码"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2096987779326775449",
+      "author": "vista8",
+      "bio": "",
+      "text": "今天一整天都在开发Obsidian插件，几个经验分享：\n\n1. 在GPT-6 Astra 帮助下，开发和上架难度远比想像的低。\n\n2. 插件要传 Github，官方有自动扫描工具检查代码，main.js 不能超过5m，提示影响插件同步。\n\n扫描通过后，会出现在官网社区。但 Obsidian 内置社区插件商店不会立即显示，有审核延迟。\n\n插件不允许上传图片Logo，只能管理后台选 SVG icon加背景色。\n\n3. 插件最好设计成移动端友好，这样手机Obsidian也能用。\n\n4. 建议弄一个新 Github仓库，如果你fork一个基础代码改造，上架时会要求证明上游同意你发布。\n\n最后，产品要充分利用Obsidian 已有能力和组件。\n\n比如插件需要用户设文件夹，浏览选择比让用户手输入靠谱和简单。",
+      "created_at": "Mon Sep 07 15:43:41 +0000 2026",
+      "likes": 1,
+      "views": "1708",
+      "url": "https://x.com/i/status/2096987779326775449",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRn-7-qbkAAtybd.jpg",
+        "https://pbs.twimg.com/media/HRn_HXeasAAs_SN.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRn-7-qbkAAtybd.jpg",
+        "https://pbs.twimg.com/media/HRn_HXeasAAs_SN.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 55.309,
+      "title": "Astra 写 Obsidian 插件：上架比想象容易，但有审核坑",
+      "summary": "作者用 GPT-6 Astra 一天开发并尝试上架 Obsidian 插件：main.js 不能超 5MB、GitHub 自动扫描、社区商店有审核延迟、不能传图片 Logo 只能选 SVG、移动端要友好、fork 仓库上架需上游授权。建议复用 Obsidian 现有组件，文件夹用浏览选择而不是手填。",
+      "recommend_reason": "少见的「Astra 真实上架 Obsidian 插件」经验，比空谈 vibe coding 有检查清单。",
+      "tags": [
+        "GPT-6",
+        "Astra",
+        "Obsidian",
+        "插件",
+        "工程实践"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2096979319666901264",
+      "author": "abskoop",
+      "bio": "",
+      "text": "Claude Code 写到一半想换 Codex，项目怎么做的、哪些办法试过没用、接下来还有什么，又得重新讲一遍。\n\n发现一个 开源项目 ai-memory ，会把这些内容整理成 Git 管理的 Markdown Wiki，让 Claude Code、Codex、Cursor 等 20+ AI 编程工具共用项目记忆，不过不同客户端的接入方式不完全一样。\n\n可以自托管在本机、Homelab 或 VPS；远程访问记得配置认证和 HTTPS。不接云端模型也能记录和搜索。\n\n👉 https://t.co/3JCzatIwQx\n\n#ClaudeCode #Codex #AICoding",
+      "created_at": "Mon Sep 07 15:10:04 +0000 2026",
+      "likes": 9,
+      "views": "4195",
+      "url": "https://x.com/i/status/2096979319666901264",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRn3Jf8XoAAmpVs.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRn3Jf8XoAAmpVs.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 59.075,
+      "title": "ai-memory：换编程工具不用重讲项目上下文",
+      "summary": "Claude Code 写到一半换 Codex 要重讲项目。开源 ai-memory 把过程整理成 Git 管理的 Markdown Wiki，让 Claude Code、Codex、Cursor 等 20+ 工具共用项目记忆；可自托管，不接云端模型也能记和搜，远程需认证和 HTTPS。",
+      "recommend_reason": "直接对准「换 Agent 就要重讲一遍」的痛点，还给出可自托管的落地仓库。",
+      "tags": [
+        "Claude",
+        "Codex",
+        "记忆",
+        "开源",
+        "Agent"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2096973653938417781",
+      "author": "python_xxt",
+      "bio": "",
+      "text": "一般情况下 GPT-6 Astra 用 Medium 就够了\n\nmedium 和 xhigh 只有 1%的 performance差别，\n成本差 25% ？\n\n不对吧，（6.52−4.38）/ 6.52 ​= 32.82%\n\n明明是 约 33% cheaper 啊",
+      "created_at": "Mon Sep 07 14:47:33 +0000 2026",
+      "likes": 3,
+      "views": "1147",
+      "url": "https://x.com/i/status/2096973653938417781",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2096026080922771767",
+        "author": "JinjingLiang",
+        "name": "jinjingliang",
+        "text": "🧠💰GPT-6 Astra Money Tip:\n'Medium Effort'\n\n1% less intelligence for 25% cost savings https://t.co/2cf0vmmxXn",
+        "created_at": "Sat Sep 05 00:02:14 +0000 2026",
+        "url": "https://x.com/JinjingLiang/status/2096026080922771767",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HRaUcdRbAAAIW_H.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HRaUcdRbAAAIW_H.jpg"
+        ]
+      },
+      "score": 51.356,
+      "summary": "一般情况下 GPT-6 Astra 用 Medium 就够了\n\nmedium 和 xhigh 只有 1%的 performance差别，\n成本差 25% ？\n\n不对吧，（6.52−4.38）/ 6.52 = 32.82%\n\n明明是 约 33% cheaper 啊",
+      "recommend_reason": "用具体价差纠正 Astra Medium vs xhigh：性能只差 1%，成本其实便宜约 33%。",
+      "tags": [
+        "GPT-6",
+        "Astra",
+        "成本",
+        "评测"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2096973042375414082",
+      "author": "yangyi",
+      "bio": "",
+      "text": "我最近在重新看一些易学的书籍\n然后突然想搞一个软件\n就是拍书  --> OCR --> AI直接帮我出题 -->然后费曼学习让我给它讲解某个概念\n\n然后我想到这个东西要用AI能力\n我又不想额外付API的钱\n\n于是就准备让NewMax自己给它自己搞一套应用系统\n让他自己做系统的独立应用程序\n然后接自己的NewMax网关去调用我的这些AI厂商的订阅服务\n而且学习内容还都能留存到本地上\n如果你需要发布，还可以发布成应用给别人用\n\n我觉得这东西应该挺刚需的\n现在Codex已经在Goal了\n\n如果有这个东西，你希望做个啥？\n或者你希望这个应用能支持什么？",
+      "created_at": "Mon Sep 07 14:45:07 +0000 2026",
+      "likes": 3,
+      "views": "2060",
+      "url": "https://x.com/i/status/2096973042375414082",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 51.718,
+      "title": "拍书 OCR + 费曼讲解：想让 NewMax 自建本地学习应用",
+      "summary": "作者想做拍书→OCR→AI出题→费曼讲解的学习软件，又不想另付 API，计划让 NewMax 自己做独立应用、走已有订阅网关、内容留在本地，需要的话还能发布给别人。Codex 已在 Goal 里，并向读者征集功能。",
+      "recommend_reason": "把「订阅已付、别再付 API」和本地留存学练闭环说清楚，是个人 Agent 应用的典型切口。",
+      "tags": [
+        "NewMax",
+        "Codex",
+        "学习",
+        "OCR",
+        "本地"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2096968390409949488",
+      "author": "AlchainHust",
+      "bio": "",
+      "text": "其实现在很多agent都自带了操控浏览器的能力。但是测下来确实没有比我的huashu-chrome更好用的。\n\n一是大多数环境下可以不干扰你正常的浏览操作；\n二是操作能力会持续进化，比如我测试里有个例子原本填写一个飞书多维表格需要200多部试错，学会后只需要10步就快速完成了；\n三是会根据不同的网站架构选取不同的操控方案，不是简单的通过截屏理解图片再做对应的坐标操控。\n\n以及，你可以在任何agent中用，不需要claude code、codex的订阅！\nhttps://t.co/LZKc3QZ6J7",
+      "created_at": "Mon Sep 07 14:26:38 +0000 2026",
+      "likes": 9,
+      "views": "2227",
+      "url": "https://x.com/i/status/2096968390409949488",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "GitHub - alchaincyf/huashu-chrome: 让任何 AI agent 操控你自己的 Chrome——带着全部登录态。MCP + Chrome 扩展，Claude Code...",
+        "description": "让任何 AI agent 操控你自己的 Chrome——带着全部登录态。MCP + Chrome 扩展，Claude Code / Codex / Cursor / Gemini CLI 通用。 - alchaincyf/huashu-chrome",
+        "image_url": "https://pbs.twimg.com/card_img/2096968393425649664/5o8_DbS2?format=jpg&name=600x600",
+        "url": "https://t.co/LZKc3QZ6J7",
+        "domain": "github.com"
+      },
+      "quoted_tweet": {
+        "id": "2096935977222840421",
+        "author": "AlchainHust",
+        "name": "花叔",
+        "text": "https://t.co/WLyauZkx4Q",
+        "created_at": "Mon Sep 07 12:17:50 +0000 2026",
+        "url": "https://x.com/AlchainHust/status/2096935977222840421",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 54.609,
+      "title": "huashu-chrome：不抢焦点的浏览器操控，比自带 Computer Use 更稳",
+      "summary": "作者对比多数 Agent 自带浏览器能力后认为 huashu-chrome 更好用：不打断正常浏览、操作会进化（飞书多维表从 200 多步试错降到 10 步）、按网站架构选方案而不是纯截图像素点击，且不绑定 Claude Code/Codex 订阅。",
+      "recommend_reason": "用可核对的步骤数对比，说明「会点浏览器」和「能稳定填复杂表」不是一回事。",
+      "tags": [
+        "Agent",
+        "浏览器",
+        "Computer Use",
+        "工具"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2096964706099700065",
+      "author": "sairahul1",
+      "bio": "",
+      "text": "OPENAI JUST DROPPED THE OFFICIAL GUIDE TO PROMPTING GPT-6 ASTRA\n\nThis is the most important prompting update for anyone using Astra.\n\nBookmark this before your next build.\n\nMost people are still prompting Astra like GPT-5. That's the mistake.\n\n→ audit your AGENTS.md — old instructions now fight the model\n→ define autonomy explicitly — Astra pauses when you expect it to continue\n→ cut skill descriptions to one line — too many skills and Astra sees none of them clearly\n→ stop telling it to run tests — it does this automatically, repeating it causes overtesting\n→ define stop conditions — Astra needs to know what \"done\" means\n\nAstra is at its best when you stop micromanaging and let it own the work.\n\nRead the full guide before writing your next prompt.\n\nGPT-6 Astra → Clean System Prompt → Autonomous Execution → Production-Ready Output → Ship faster",
+      "created_at": "Mon Sep 07 14:12:00 +0000 2026",
+      "likes": 14,
+      "views": "3910",
+      "url": "https://x.com/i/status/2096964706099700065",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2096904420571414528/vid/avc1/320x554/Ewzs0x-85A5PHV_9.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2096904420571414528/img/ekUmdyhWuPyYSNx7.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2096902575035683147",
+        "author": "sairahul1",
+        "name": "Rahul",
+        "text": "GPT-6 Astra is insanely powerful.\n\nBut most people will barely use 10% of it.\n\nThe difference is knowing how to prompt it properly.\n\nI put together the complete GPT-6 Astra Prompting Masterclass so you can get dramatically better results from day one. https://t.co/54IBpo9Ya8",
+        "created_at": "Mon Sep 07 10:05:07 +0000 2026",
+        "url": "https://x.com/sairahul1/status/2096902575035683147",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 60.808,
+      "title": "官方 Astra 提示指南：别再按 GPT-5 方式管它",
+      "summary": "作者称 OpenAI 放出 GPT-6 Astra 官方提示指南，核心是别再用 GPT-5 那套去管 Astra：审计 AGENTS.md（旧指令会打架）、明确自主权（否则它该继续时会停）、技能描述压成一行、不要反复叫它跑测试（会过度测试）、定义完成条件。结论是少微观管理、让它拥有任务。",
+      "recommend_reason": "把 Astra 和 GPT-5 的提示差异收成可执行清单，对刚换模型的人最有用。",
+      "tags": [
+        "GPT-6",
+        "Astra",
+        "提示词",
+        "Agent",
+        "OpenAI"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2096964657277960429",
+      "author": "lifesinger",
+      "bio": "",
+      "text": "现有的各种 AI 应用产品\n一定程序上只有两种：\n\n一种是百度，比如豆包\n另一种是 Sora2，比如 L...\n\nCodex 都不是 AI 应用\n而是做 AI 应用的模型工具",
+      "created_at": "Mon Sep 07 14:11:48 +0000 2026",
+      "likes": 7,
+      "views": "2515",
+      "url": "https://x.com/i/status/2096964657277960429",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 52.669,
+      "summary": "现有的各种 AI 应用产品\n一定程序上只有两种：\n\n一种是百度，比如豆包\n另一种是 Sora2，比如 L...\n\nCodex 都不是 AI 应用\n而是做 AI 应用的模型工具",
+      "recommend_reason": "用「百度 vs Sora2」给 AI 应用分类，并点明 Codex 是做应用的模型工具不是应用本身。",
+      "tags": [
+        "AI应用",
+        "Codex",
+        "产品",
+        "观点"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2096962266197619005",
+      "author": "aiwaremax",
+      "bio": "",
+      "text": "The internet rewards obsession, not versatility.\n\nA generalist writer is easily replaced by five lines of prompt text.\n\nAn engineer who obsesses over one narrow, painful domain - like local-first database sync or deterministic agent safety - becomes an irreplaceable monopoly.\n\nPick a problem so specific that generic models fail on the edge cases. That is where all the margin lives.",
+      "created_at": "Mon Sep 07 14:02:18 +0000 2026",
+      "likes": 0,
+      "views": "11",
+      "url": "https://x.com/i/status/2096962266197619005",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 48.754,
+      "title": "通用写手会被提示词替代，利润在模型做不好的窄问题上",
+      "summary": "作者认为互联网奖赏痴迷而非全能：通用写手几行提示词就能替；死磕本地优先数据库同步或确定性 Agent 安全这种窄而痛的领域，才会变成不可替代的垄断。要选通用模型在边角会失败的问题，利润在那里。",
+      "recommend_reason": "把「别做全能内容」收到工程切口：专门打模型搞不定的边角。",
+      "tags": [
+        "Agent",
+        "创业",
+        "工程",
+        "观点"
+      ],
+      "rank": 13
+    }
+  ],
+  "generated_at": "2026-09-07T16:35:30Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "midnight",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 13,
+    "last_batch_added": 13,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
