@@ -2,7 +2,6 @@
 import "../styles/global.css";
 import LogoutControl from "../components/LogoutControl.astro";
 import SiteNav from "../components/SiteNav.astro";
-import ThemeInit from "../components/ThemeInit.astro";
 import SidehustleViewer from "../components/SidehustleViewer.astro";
 import { formatBeijingDateTime } from "../lib/news.mjs";
 import {
@@ -24,7 +23,6 @@ const updated = formatBeijingDateTime(feed.updated_at);
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <ThemeInit />
     <meta name="description" content={feed.title || "AI 副业机会雷达"} />
     <title>副业 · 工具库</title>
   </head>
