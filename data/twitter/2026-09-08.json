@@ -1,0 +1,428 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-08",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2097174249333219551",
+      "author": "op7418",
+      "bio": "",
+      "text": "Codex 支持查看所有内容并帮你整理左边的聊天记录：\n\n不只可以按项目划分、把不用的归档，还能重新进行分组。\n\n比如原来上面只有一个项目，它现在帮我分成了\"持续迭代\"、\"待跟进\"和\"最近\"里的东西，原来的项目里就清空了。\n\n你只要告诉它你的分组逻辑就行，也可以在分组文案前面加上 emoji，展示起来更清晰",
+      "created_at": "Tue Sep 08 04:04:39 +0000 2026",
+      "likes": 2,
+      "views": "385",
+      "url": "https://x.com/i/status/2097174249333219551",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRqoqgjbQAAjFql.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRqoqgjbQAAjFql.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 56.89,
+      "summary": "Codex 支持查看所有内容并帮你整理左边的聊天记录：\n\n不只可以按项目划分、把不用的归档，还能重新进行分组。\n\n比如原来上面只有一个项目，它现在帮我分成了\"持续迭代\"、\"待跟进\"和\"最近\"里的东西，原来的项目里就清空了。\n\n你只要告诉它你的分组逻辑就行，也可以在分组文案前面加上 emoji，展示起来更清晰",
+      "recommend_reason": "Codex 按自定义逻辑给聊天记录分组归档，是日常工作台整理里立刻能抄的一步。",
+      "tags": [
+        "Codex",
+        "工作流",
+        "产品"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2097173331380470022",
+      "author": "dingyi",
+      "bio": "",
+      "text": "最近有个产品在硅谷圈特别火，也是个人 AI 助理的方向，可能类似 Grok Bot 吧，好像创始人是华人还是华裔的。拿到邀请码刚想注册，结果就中国的手机号不行。。。\n\nhttps://t.co/KH3ZCWZLXc",
+      "created_at": "Tue Sep 08 04:01:00 +0000 2026",
+      "likes": 1,
+      "views": "265",
+      "url": "https://x.com/i/status/2097173331380470022",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "Instinct",
+        "description": "Instinct is a personal assistant that understands your work and takes action across your applications and devices.",
+        "image_url": "https://pbs.twimg.com/card_img/2095402633758478337/wGrJTX4L?format=png&name=600x600",
+        "url": "https://instinct.com/",
+        "domain": "instinct.com"
+      },
+      "quoted_tweet": null,
+      "score": 50.17,
+      "summary": "最近有个产品在硅谷圈特别火，也是个人 AI 助理的方向，可能类似 Grok Bot 吧，好像创始人是华人还是华裔的。拿到邀请码刚想注册，结果就中国的手机号不行。。。\n\nhttps://t.co/KH3ZCWZLXc",
+      "recommend_reason": "个人助理 Instinct 对中国手机号关闭注册，是对照 Grok Bot 类产品可得性的一手信号。",
+      "tags": [
+        "Instinct",
+        "Agent",
+        "产品",
+        "个人助理"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2097172818697830406",
+      "author": "bindureddy",
+      "bio": "",
+      "text": "The biggest issue with cybersecurity is cyber criminals rarely go to jail \n\nHackers keep trying to break into systems with out any consequences\n\nWith AI, they will 100x their attacks unless they are hunted down and given big jail sentences \n\nThis is also the most effective way to minimize the dangers of AI",
+      "created_at": "Tue Sep 08 03:58:58 +0000 2026",
+      "likes": 11,
+      "views": "802",
+      "url": "https://x.com/i/status/2097172818697830406",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 41.692,
+      "title": "网络安全的缺口：AI 会把黑客攻击放大 100 倍，除非真去坐牢",
+      "summary": "bindureddy 认为网络安全最大的问题是网络罪犯很少入狱，黑客可以几乎无后果地反复试探系统。有了 AI 之后，攻击会放大约 100 倍，除非他们被追捕并判重刑。他也把这视为降低 AI 危险的最有效办法。",
+      "recommend_reason": "把 AI 安全从模型对齐拉到「攻击者不受惩罚」这条执法缺口，视角少见但具体。",
+      "tags": [
+        "AI安全",
+        "网络安全",
+        "观点"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2097166818683338760",
+      "author": "aiwaremax",
+      "bio": "",
+      "text": "The traditional agency model is experiencing a quiet extinction event.\n\nA 15-person agency carries 15 payrolls, 8 weekly alignment calls, 4 layers of client handoffs, and endless margin compression.\n\nA single sovereign operator with three locked-down AI pipelines, deterministic review gates, and deep domain taste runs at 90% net margins.\n\nThe agency sells billable hours to justify their overhead.\nThe operator sells definitive outcomes and charges for the judgment.\n\nClients are figuring out the difference remarkably fast.",
+      "created_at": "Tue Sep 08 03:35:07 +0000 2026",
+      "likes": 1,
+      "views": "6",
+      "url": "https://x.com/i/status/2097166818683338760",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 53.578,
+      "title": "一人带三条锁定流水线，正在替代按小时卖的传统 agency",
+      "summary": "作者认为传统 agency 正在静默消亡：15 人团队背着 15 份工资、每周一堆对齐会和多层交接，利润不断被压缩。而一个带三条锁定 AI 流水线、确定性验收门和领域品味的独立操盘手可以做到约 90% 净利率。agency 卖工时证明开销，操盘手卖确定结果和判断力，客户正在很快分清两者。",
+      "recommend_reason": "把 AI 操盘手和传统 agency 的收费对象拆开（工时 vs 判断），对要不要组团队很有对照。",
+      "tags": [
+        "Agent",
+        "创业",
+        "工作流"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2097164935017177438",
+      "author": "higgsfield",
+      "bio": "",
+      "text": "core memory unlocked.\n\nGPT-6 Astra just made a new racing game for an old Atari console:\n\n&gt; connected the console to a laptop\n&gt; wrote the game for the original hardware\n&gt; mapped the controls to the joystick\n&gt; launched it on an old TV https://t.co/xclvtmrBQs",
+      "created_at": "Tue Sep 08 03:27:38 +0000 2026",
+      "likes": 13,
+      "views": "2284",
+      "url": "https://x.com/i/status/2097164935017177438",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2097161215126753280/vid/avc1/320x320/55_PrXYyN2YKcDN_.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2097161215126753280/img/FVAuKvk7EpVxSypc.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 61.098,
+      "title": "Astra 给老 Atari 写赛车游戏并接到摇杆和旧电视",
+      "summary": "Higgsfield 展示 GPT-6 Astra 为旧 Atari 主机新写了一款赛车游戏：把主机连到笔记本，针对原硬件写游戏、把控制映射到摇杆，并在老电视上跑起来。",
+      "recommend_reason": "Computer Use 落到真旧硬件和摇杆映射，比「又能做 3D」更说明它能闭环到实体设备。",
+      "tags": [
+        "GPT-6 Astra",
+        "Atari",
+        "游戏",
+        "Computer Use"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2097163122855543194",
+      "author": "aiwaremax",
+      "bio": "",
+      "text": "How to build an agent workflow that actually runs unattended:\n\n- Never pass open-ended briefs into a single prompt. Split research, drafting, and quality review into separate runs.\n- Lock your file scopes. If an agent has broad write access, it will eventually rewrite things it should never touch.\n- Enforce negative gates. It is twice as important to specify what the output cannot contain than what it should.\n- Output deterministic artifacts to local disk, not ephemeral chat state.\n\nFragile agents produce vanity demos. Bulletproof constraints produce daily cash flow.",
+      "created_at": "Tue Sep 08 03:20:26 +0000 2026",
+      "likes": 1,
+      "views": "5",
+      "url": "https://x.com/i/status/2097163122855543194",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 71.349,
+      "title": "无人值守 Agent 工作流：拆任务、锁文件、负向门禁",
+      "summary": "作者给出能真正无人值守跑起来的 Agent 工作流要点：不要把开放式 brief 塞进单次提示，把研究、起草、质检拆成独立 run；锁死文件写入范围，避免 Agent 改不该动的东西；负向门禁（禁止输出什么）比正向要求更重要；产物落到本地磁盘而不是聊天状态。结论是脆弱 Agent 只会出虚荣 demo，硬约束才能变成日常现金流。",
+      "recommend_reason": "把无人值守从口号拆成四条可检查约束，比再讲一遍「让 Agent 自己跑」更可落地。",
+      "tags": [
+        "Agent",
+        "工作流",
+        "工程实践"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2097161914598199381",
+      "author": "dugujun12",
+      "bio": "",
+      "text": "Grok 提示词：\n不使用参考图。人物以如下真人描述为唯一标准，四段必须是同一个人，禁止中途换脸、换五官比例、换成精修网红脸。\n一个真实存在的东亚年轻女人，大约二十二岁，不是网红精修脸，不是电脑生成的完美脸。瓜子脸但不是标准锥子脸，中庭略长，下巴尖但有软肉，左右脸不是完全对称，右眼尾比左眼尾略挑一点。皮肤是真人皮肤：能看见毛孔，两颊有一点薄红和细小色差，鼻翼旁边有很浅的毛孔，眼下有一点青影，不是磨皮，不是瓷器。眉骨不高。眼睛大，棕色瞳孔，双眼皮，眼白干净，但不是漫画圆眼；眼妆是日常偏浓的假睫毛和细眼线，有一点晕开。鼻子小而挺，不是垫过的那种过高鼻梁。嘴唇偏厚，唇峰清楚，口红是湿润的玫红，唇线不是刀刻一样齐。神态像在用自己手机拍照：看镜头时眼睛定住，嘴巴轻轻闭着或微微张开一点，不是营业假笑，也不是无表情模特。\n深棕近黑色长发，高盘成有点乱的丸子头，不是丝滑假发。额前碎刘海被汗或静电贴在额头上，耳侧有几缕不服帖的碎发。身材是真人丰满，胸大，锁骨清楚，腰细，不是健身模特。左手腕一块普通的黑表带方表。\n衣服像一套被穿过的空乘制服，不是新品展示：白色短袖衬衫皱过，领口扣子开得很低，能看到乳沟；深蓝马甲略紧，左胸一枚金色飞翼徽章；淡黄底白花丝巾打结有点松；蓝底金细条纹超短裙；黑丝有真实反光和细褶皱；黑色浅口高跟鞋。\n这是普通人用手机在机舱过道里拍了四段，再按顺序硬切拼成的竖屏视频，大约 10 秒。像微信或小红书里随手拼的素材，不是电影，不是棚拍，不是一条长镜头，不是动作融化过渡。每一段内部是连续动作，带手机手持微晃和一点噪点；段与段之间只有硬切。禁止变形、溶解、背景扭动。\n四段都在同一个窄机舱厨房过道，禁止换景：冷白荧光灯，灯下皮肤偏青白，白色应急舱门，红字「開 OPEN」和红色弯箭头，红色 REMOVE BEFORE FLIGHT 飘带，灰色设备板，黑色螺旋电话线，地面是旧的深色防滑毯。机位是一个站在过道里的人举着手机拍，略广角，边缘有一点点变形。门和设备板的左右位置四段保持一致。\n第一段约 0-2.5 秒：她站在台前弯腰，双手在打开的黑色手提包里翻东西，低头。手机中近景，手持微晃。硬切。\n第二段约 2.5-5 秒：硬切到她已经坐在跳座上，双手举起抓住门框拉伸，闭眼，像下班后松一口气。同一扇门。硬切。\n第三段约 5-7.5 秒：硬切到她还坐在同一张跳座上，一只手插进头发里理乱掉的丸子头，低头，腿交叉。硬切。\n第四段约 7.5-10 秒：硬切到她端着手机自拍的距离，双手整理丝巾，身体往镜头这边倾一点，眼睛看着镜头停住。半身。\n画质就是手机夜景或舱内拍照：轻微噪点，没有棚灯，没有美颜磨皮，没有塑料皮肤，没有动漫，没有路人，没有手部畸形。",
+      "created_at": "Tue Sep 08 03:15:38 +0000 2026",
+      "likes": 1,
+      "views": "7",
+      "url": "https://x.com/i/status/2097161914598199381",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2097161588835061761/vid/avc1/320x568/fM49SAGjBpYZzcTW.mp4?tag=25"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2097161588835061761/img/aoBacRJHRnl4a97G.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 73.821,
+      "title": "空乘舱内四段硬切竖屏：Grok 真人一致性提示词",
+      "summary": "作者放出一套不使用参考图的 Grok 视频提示词：以同一名约二十二岁东亚女性为唯一标准，禁止中途换脸或改成精修网红脸，并写死皮肤毛孔、不对称五官、乱丸子头和穿过的空乘制服细节。成片设定为机舱过道里用手机拍的四段硬切竖屏（约 10 秒），场景、灯光和门板位置四段保持一致，动作为翻包、拉伸、理头发、整理丝巾看镜头，强调手持微晃与噪点、禁止溶解变形。",
+      "recommend_reason": "把「同一真人、同一过道、硬切四段」写成可执行约束，比空泛「像随手拍」更能稳住视频生成一致性。",
+      "tags": [
+        "Grok",
+        "提示词",
+        "AI视频",
+        "一致性"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2097158809571545260",
+      "author": "VigoCreativeAI",
+      "bio": "",
+      "text": "I gave GPT-6 Astra the messiest client brief I could write.\n\nIt found 30 missing decisions before I did.\n\nThe brief (voice memo, verbatim): \"premium but not cold\", \"Japanese feeling but no Japanese text\", \"warmer but not orange\", \"autumn but NO maple leaves\", \"sizes later\", \"copy later\", \"direction by Wednesday\".\n\nOne pass through ZenMux, no follow-up questions allowed. Output:\n\n1. 30 open decisions, each with an assumed default + a one-line question to send back (launch date, print specs, who signs off, whether AI renders can go public…)\n\n2. Every negative turned into a positive rule: \"not orange\" → warmth carried by cream #F3E9D8 + wine #6C2839\n\n3. A reusable style.json (Cookbook format)\n\n4. Three render-ready prompts\n\nThe part that surprised me: its three prompts were almost identical. Only the location line changed.\n\nI thought that was lazy. Then I rendered them. Same title corner, same wine dot, same cup position, same 40% empty space. Three posters, one brand, exactly what the client meant by \"you can tell it's us in one glance.\"\n\nThe most careful model turned out to be the most consistent one.\n\nRan it on ZenMux, which has GPT-6 Astra live now. If you want to throw your own brief at it, they're running a top-up promo this week: $50 → $70 credit, $100 → $150. 7 days, once per account.\n\nhttps://t.co/vtIaJmbm4A\n\nSame brief through 3 other models for comparison 👇",
+      "created_at": "Tue Sep 08 03:03:18 +0000 2026",
+      "likes": 2,
+      "views": "336",
+      "url": "https://x.com/i/status/2097158809571545260",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRqazm-WcAAfOiT.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRqazm-WcAAfOiT.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2096035457956286737",
+        "author": "ZenMuxAI",
+        "name": "ZenMux",
+        "text": "🚀 OpenAI: GPT-6 Astra is now live on ZenMux!\n\n@OpenAI 's most capable model for teams running complex agent workflows across code, browsers, research, and document work.\n\n- Strong on reasoning, coding, computer use, research, and document creation\n- Built for multistep workflows across code, browsers, and professional software\n- Often uses fewer output tokens for lower estimated cost per task than earlier models\n\nUse it for repo-wide debugging, browser-driven research, or turning a messy brief into a finished doc.\n\nPut it in your agent workflow 👉 https://t.co/cmp3qRdUu2\n\n#ZenMux #Agents #GPT6 #AGI #ASTRA",
+        "created_at": "Sat Sep 05 00:39:30 +0000 2026",
+        "url": "https://x.com/ZenMuxAI/status/2096035457956286737",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HRadEv7aEAAlH1a.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HRadEv7aEAAlH1a.jpg"
+        ]
+      },
+      "score": 56.218,
+      "title": "一团乱的客户 brief，Astra 一次补出 30 个缺口和可复用品牌规则",
+      "summary": "作者把一段口述式烂 brief（「高级但不冷」「日式但不要日文」「秋天但不要枫叶」等）一次性丢给 GPT-6 Astra，禁止追问。模型列出 30 个待决事项（各带默认假设和一句回问），把负向约束转成正向规则（如「不要橙色」变成奶油色+酒红），并产出 Cookbook 格式 style.json 和三条成图提示词。三条提示词几乎只改地点句，渲染后标题角、酒红点、杯子位置和约 40% 留白一致，作者认为这才是客户要的「一眼认出是我们」。测试在已上线 Astra 的 ZenMux 上完成。",
+      "recommend_reason": "把乱 brief 收成决策清单和可复用 style.json，还用「三条提示词几乎一样」证明品牌一致性，比再吹会做海报更可迁移。",
+      "tags": [
+        "GPT-6 Astra",
+        "提示词",
+        "品牌设计",
+        "工作流"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2097157545093902509",
+      "author": "higgsfield",
+      "bio": "",
+      "text": "Zephyr, our viral K-pop action series, is now a 3D game!\n\nGPT-6 Astra + Blender + Higgsfield = made it possible.\n\nPlay as one of your favorite characters and fight monsters alongside your favorite teammates. https://t.co/KbewZSrfAX",
+      "created_at": "Tue Sep 08 02:58:16 +0000 2026",
+      "likes": 28,
+      "views": "3585",
+      "url": "https://x.com/i/status/2097157545093902509",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2097157361177935872/vid/avc1/480x270/4G4qhDYFJ1M2y0pc.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2097157361177935872/img/0XKKRxrPdcq4hK3S.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2085407156741021996",
+        "author": "higgsfield",
+        "name": "Higgsfield AI 🧩",
+        "text": "Our viral K-pop action series Zephyr, breaking 1.3 million views in just hours, is officially open sourced for the Higgsfield Global Film Festival.\n\nEvery prompt and asset is now public.\n\nNow you can use Zephyr characters to create new episodes or your own worlds – using Unlimited Seedance on Higgsfield.",
+        "created_at": "Thu Aug 06 16:46:25 +0000 2026",
+        "url": "https://x.com/higgsfield/status/2085407156741021996",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2085404461607137283/vid/avc1/480x270/Zg3shiFX52jDf6j0.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2085404461607137283/img/JGi-DVdoZQzhGm8e.jpg"
+        ]
+      },
+      "score": 63.307,
+      "title": "爆款 K-pop 系列 Zephyr 被做成 Astra+Blender 的 3D 游戏",
+      "summary": "Higgsfield 宣布病毒式 K-pop 动作系列 Zephyr 已做成 3D 游戏，称 GPT-6 Astra + Blender + Higgsfield 使其成为可能，玩家可扮演角色与队友打怪。引用里还提到该系列数小时破 130 万播放，提示词与资产已为电影节开源。",
+      "recommend_reason": "把 Astra 接到「爆款系列→可玩 3D 游戏」的产品形态，比再发一条建模演示更有场景。",
+      "tags": [
+        "GPT-6 Astra",
+        "Higgsfield",
+        "3D",
+        "游戏"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2097157208975036507",
+      "author": "dingyi",
+      "bio": "",
+      "text": "Motion 正式支持 @threejs 动画！不仅能搞定物体和材质，还能对 shader uniforms 和 TSL 节点进行弹簧动画，并且统一 batch 在 Motion 的渲染循环里与 HTML/SVG 元素同步序列化。\n\n很多年前尝试了很多次学习 WebGL、threejs、shader，但是学习过程太痛苦了，结果现在人人都能用 AI 做出非常华丽的 3D 设计了。所以说，只要一直拖延，后面就不用学了！",
+      "created_at": "Tue Sep 08 02:56:56 +0000 2026",
+      "likes": 10,
+      "views": "2516",
+      "url": "https://x.com/i/status/2097157208975036507",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2096956712062255282",
+        "author": "motiondotdev",
+        "name": "Motion",
+        "text": "Introducing Motion for @threejs \n\nAnimate Three.js objects, materials, shader uniforms, TSL nodes and more, sequenced alongside HTML &amp; SVG elements, batched on Motion's render loop.\n\nNow in Motion+ Early Access. https://t.co/Rbn5T1edT5",
+        "created_at": "Mon Sep 07 13:40:14 +0000 2026",
+        "url": "https://x.com/motiondotdev/status/2096956712062255282",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2096956367349391360/vid/avc1/358x270/idCj__ux3Z6veCjg.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2096956367349391360/img/HIKo8dkLE-D0p9XX.jpg"
+        ]
+      },
+      "score": 37.041,
+      "title": "Motion 正式支持 Three.js，shader 和 TSL 也能做弹簧动画",
+      "summary": "dingyi 转发 Motion 现已支持 Three.js 动画：不仅能做物体和材质，还能对 shader uniforms 和 TSL 节点做弹簧动画，并统一 batch 进 Motion 渲染循环，与 HTML/SVG 同步。他感慨多年学 WebGL/three.js/shader 很痛苦，现在人人都能用 AI 做出华丽 3D，拖延到最后反而可能不用学了。",
+      "recommend_reason": "Three.js 动画接到 Motion 的渲染循环，是 3D 网页动效工具链的具体产品更新，不是空泛「AI 会做 3D」。",
+      "tags": [
+        "Three.js",
+        "Motion",
+        "3D",
+        "动画"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2097154422476349563",
+      "author": "bindureddy",
+      "bio": "",
+      "text": "Gemini is extremely under hyped\n\nFlash 3.7 is a very good model and that’s just their Flash version \n\nThe bigger Pro 4.0 version is a full retrain and will be as good as Astra / Fable \n\nAt 50% of Astra’s price, Gemini 4.0 will quickly catch up",
+      "created_at": "Tue Sep 08 02:45:52 +0000 2026",
+      "likes": 155,
+      "views": "7090",
+      "url": "https://x.com/i/status/2097154422476349563",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 67.651,
+      "title": "Gemini Flash 3.7 被低估，Pro 4.0 对标 Astra 且约半价",
+      "summary": "bindureddy 认为 Gemini 被严重低估：Flash 3.7 已经很好，而这只是 Flash 档；更大的 Pro 4.0 是完整重训，能力将接近 Astra / Fable，价格大约只有 Astra 的一半，因此会很快追上。",
+      "recommend_reason": "用「Flash 已能打、Pro 4.0 半价对标 Astra」给出可核对的选型预期，比单向吹 Astra 有对照。",
+      "tags": [
+        "Gemini",
+        "GPT-6 Astra",
+        "模型评测",
+        "价格"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2097152855526576253",
+      "author": "dashiAIxz",
+      "bio": "",
+      "text": "这下 Rive 也不用学了，GPT 6 Astra 在借助 Computer Use 制作 @rive_app  动画方面也很惊艳\n\n刚开始让他自己发挥，他直接拿脚本实现了一个效果\n\n二次纠正后它自己绘制静态样式，自己用状态机实现了这套效果。耗时差不多 40 分钟\n\n这个效果复杂度不算高，如果刨去元素绘制，纯让他自己实现动画状态机的控制，想象空间还是非常大的",
+      "created_at": "Tue Sep 08 02:39:38 +0000 2026",
+      "likes": 0,
+      "views": "63",
+      "url": "https://x.com/i/status/2097152855526576253",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2097150918450110464/vid/avc1/340x270/N-NWcCF8xSCs4Lvo.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2097150918450110464/img/n68ZxuzL1IglPPaG.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2096923991059612090",
+        "author": "dashiAIxz",
+        "name": "大师的AI小灶",
+        "text": "复杂效果测试效果也非常不错，Astra 你这家伙，还有什么是我不知道的 https://t.co/cXB9Ja0ptt",
+        "created_at": "Mon Sep 07 11:30:13 +0000 2026",
+        "url": "https://x.com/dashiAIxz/status/2096923991059612090",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2096923911774760960/vid/avc1/480x270/J312g-IZM1_y0H4f.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2096923911774760960/img/_Hw_GzLKxsKAJJlC.jpg"
+        ]
+      },
+      "score": 52.577,
+      "summary": "这下 Rive 也不用学了，GPT 6 Astra 在借助 Computer Use 制作 @rive_app  动画方面也很惊艳\n\n刚开始让他自己发挥，他直接拿脚本实现了一个效果\n\n二次纠正后它自己绘制静态样式，自己用状态机实现了这套效果。耗时差不多 40 分钟\n\n这个效果复杂度不算高，如果刨去元素绘制，纯让他自己实现动画状态机的控制，想象空间还是非常大的",
+      "recommend_reason": "Astra Computer Use 在 Rive 上从脚本到状态机的 40 分钟体感，能看清动画工具链里哪些可委托。",
+      "tags": [
+        "GPT-6 Astra",
+        "Rive",
+        "Computer Use",
+        "动画"
+      ],
+      "rank": 12
+    }
+  ],
+  "generated_at": "2026-09-08T04:38:49Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 12,
+    "last_batch_added": 12,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
