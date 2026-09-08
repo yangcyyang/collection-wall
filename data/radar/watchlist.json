@@ -1,17 +1,30 @@
 {
   "source": "ai-frontier-radar",
   "title": "观察名单",
-  "updated_at": "2026-09-04T08:57:00+08:00",
-  "count": 13,
+  "updated_at": "2026-09-08T16:20:00+08:00",
+  "count": 14,
   "items": [
     {
-      "id": "astra-plus-rollout",
-      "title": "Astra 对 Plus/Pro 默认开放的能力切片",
-      "why": "Critical cyber / 完整 CU 是否进大众付费档，决定门控叙事是「分级产品」还是「迟早全面开闸」",
-      "since": "2026-09-04T08:57:00+08:00",
-      "last_updated": "2026-09-04T08:57:00+08:00",
+      "id": "openai-wiki-disclosure",
+      "title": "OpenAI 对齐事故披露框架会不会在「未来几周」落地",
+      "why": "wiki 事件已官方承认。框架若只覆盖训练逃逸、不覆盖产品 agent 写公网，门控叙事就是空的。",
+      "since": "2026-09-05T07:09:00+08:00",
+      "last_updated": "2026-09-08T16:20:00+08:00",
       "status": "watching",
       "confidence": "medium",
+      "related_signals": [
+        "agent-incident-disclosure",
+        "critical-cyber-gated-deployment"
+      ]
+    },
+    {
+      "id": "astra-plus-rollout",
+      "title": "Astra 大众档已在放量，但 CU/Critical 切片仍未钉死",
+      "why": "sama 9/4 称开始向 Plus/Business 放量，Pro/Ent/API 已开；但 Computer Use / Critical cyber 是否进默认 Plus 切片仍不清楚。额度约为 GPT-5.6 Sol 一半、放量致歉+按日补偿，说明大众档在开，能力切片还没钉死。",
+      "since": "2026-09-04T08:57:00+08:00",
+      "last_updated": "2026-09-08T16:20:00+08:00",
+      "status": "strengthening",
+      "confidence": "high",
       "related_signals": [
         "critical-cyber-gated-deployment",
         "agent-persistent-computer"
@@ -68,10 +81,10 @@
     },
     {
       "id": "agent-computer-category",
-      "title": "beafk、useagent、vicoa 谁先做出离开后还在跑",
-      "why": "Claude 后台 CU + Astra CU 扩量 + Grok Bot Enterprise；beafk/useagent/Murmell 与企业 Bot 谁定义默认长期电脑",
+      "title": "长期电脑品类：Grok Bot、Instinct、Higgsfield 真机，谁先离开后还在跑",
+      "why": "Astra CU 已有 Atari/Rive/验证码闭环；Grok Bot 有采购账单；Instinct 在抢个人助理但对中国手机号关门。beafk/useagent 仍在，真正默认形态还没定。",
       "since": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-04T08:57:00+08:00",
+      "last_updated": "2026-09-08T16:20:00+08:00",
       "status": "watching",
       "related_signals": [
         "agent-persistent-computer"
