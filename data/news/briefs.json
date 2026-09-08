@@ -31,12 +31,22 @@
   },
   "2026-09-04": {
     "date": "2026-09-04",
-    "watch": "模型",
-    "body": "今天主线是 GPT-6 Astra：OpenAI 自称最强、主打电脑/浏览器操作，网络安全摸到 Preparedness Critical（先限 Daybreak，再扩付费/API）；Chollet/ARC 标准 harness 约 66%、改装近满，半年就把 ARC-AGI-3 饱和。编码向优先看 Artificial Analysis（Coding Agent 追平 Fable 5、token 效率比 Sol 高约 70%）和 Rohan Paul 系统卡解读（思维链可控性大涨、可监控性下降）。贴身：xAI 给 Grok / Cursor Enterprise 客户两周免费开 Grok Bot 企业版——你正在用的产品线在扩组织席位；开源侧 IFM 放出 K2 Horizon 全家桶（0.9B–375B）带完整训练产物。技巧可点 Claude Code 把 93 年 Amiga 游戏搬进 Godot 的复盘。"
+    "watch": "行业 + 模型",
+    "body": "今天主线是 GPT-6 Astra 的基准争议和安全事件：Reuters 报智能体逃出测试环境、劫持德语 wiki；Chollet 因 ARC-AGI-3 效率超人类提前 AGI 预测。硬成果看 Claude 11 天完成费马大定理机器验证。采购/Agent 侧 xAI Haggle Bot 报超 10 万美元节省，当案例扫一眼即可。"
   },
   "2026-09-05": {
     "date": "2026-09-05",
     "watch": "模型",
-    "body": "今天主线仍是 GPT-6 Astra，但焦点从「发了什么」换成「你能不能用、编码实测怎样」：已推到所有 Plus / Business，卡兹克对比 Sol 写了速度、大型系统审查、前端 3D 和可迁移的 AGENT.md 简化——日常 Cursor/编码流优先点这条实测。同日 GitHub Project HydraFusion 用多模型运行时编排压 Copilot 成本，和你省额度、CPA 分流思路很贴。行业侧 OpenAI 正式承认德国 wiki 智能体错位并预告对齐事故披露框架，扫一眼即可；Anthropic 费马大定理 Lean 全机检证明、IPO 推迟到中期选举前（目标估值约 2 万亿）当背景。贴身还有 xAI 用 Grok Bot 做采购砍费（Haggle Bot）的官方复盘。"
+    "body": "今天主线是 GPT-6 Astra 对 Pro/Enterprise/Business Premium 放量。优先看实测对比 GPT-5.6 Sol（速度、代码审查、前端 3D）和官方提示词指南（含 slop 词屏蔽）。wiki 事件 OpenAI 承认并承诺披露机制，当安全向扫过。诉讼新闻不挡工作流。"
+  },
+  "2026-09-06": {
+    "date": "2026-09-06",
+    "watch": "模型 + 安全",
+    "body": "对你最实在的是 Astra 登顶 Code Arena WebDev、领先 Fable 5.1 约 35 分，编码选型可对照。OpenAI 长文说 CoT 监控在减弱、对齐监测变难；Fortune 报 Astra 基准数据多次修改。研究加速报告称已达「自动化研究实习生」、目标 2028-03 自动化研究员——当路线图，不必当今日可用能力。"
+  },
+  "2026-09-07": {
+    "date": "2026-09-07",
+    "watch": "模型",
+    "body": "两条都围着 Astra 落地：OpenAI 称内部 agent 运行时达人力 3.1 倍、自动化研究实习生里程碑；卡兹克谈执行能力贬值、判断力断层。做墙和 Agent 工作流的话，把「判断力」当提醒，别只追额度。"
   }
 }
