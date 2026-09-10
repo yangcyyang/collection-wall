@@ -1,0 +1,999 @@
+{
+  "source": "xiaohongshu-sidehustle",
+  "title": "小红书副业机会雷达",
+  "date": "2026-09-11",
+  "updated_at": "2026-09-11T02:41:56+08:00",
+  "count": 46,
+  "summary": {
+    "today_judgement": [
+      "Box pfzpdshj（瑶姐的潮玩店）www搜索遇「电脑设备登录超限」+官方search空；已停硬刷。改在用户机OpenCLI（alias pfzpdshj→byct8zta / 瑶姐的三丽鸥潮玩周边）官方search 18/18全通。",
+      "本轮最硬付费信号仍在Codex：有偿求Skill评论给出企业5-50万 vs 个人几百；代做帖「同求/自带价位协商」。",
+      "搜索层：美工包月询价、剪辑包月套餐、小程序求开发、数字人可月付求推荐、垂直求代做（数据报告/园林）清晰；PPT/简历/Prompt偏供给或收藏。品类评论因Mac桌面离线未全部回传，非Codex信号标 mid。"
+    ],
+    "top_signals": [
+      "有偿求写codex skill｜评论：企业工作流5-50w；个人有偿几百；直接开价",
+      "有没有老师接codex代做｜评论：同求；自带理想价位再协商",
+      "找美工兼职，包月的多少钱一个月｜需求询价标题",
+      "求推荐，便宜，可月付的数字人供应商｜新需求句式",
+      "求一个数据分析与可视化实训报告代做｜明确求代做"
+    ]
+  },
+  "sections": {
+    "opportunities": [
+      {
+        "id": "opp-codex-workflow",
+        "title": "Codex/Agent 工作流代配置与有偿代做（非卖Skill清单）",
+        "summary": "【事实】本轮「有偿求助写codex skill」评论原话：企业工作流搭建5-50万；个人「有偿」常几百；「直接开价」。「有没有老师接codex代做」评论「同求」「自带理想价位再协商」。Skill安利帖评论过百（安装/收藏）。【机会假设】缺口在调通流水线+需求澄清，不是再发Skill清单。",
+        "why": "真求助+价位分层评论复现，供给侧代跑/陪跑帖也在抢低价。",
+        "audience": "想自动化出片/接单但配不通的创作者与小商家",
+        "result": "可跑通的日更/接单流水线+失败重试",
+        "offer": "代配置单次+垂直Skill包+一周陪跑；代装低价引流",
+        "model": "service",
+        "ai_help": "用Codex生成并自测Skill，沉淀垂直模板",
+        "start_cost": "low",
+        "delivery": "high",
+        "competition": "mid",
+        "index": 28,
+        "tags": [
+          "codex",
+          "workflow",
+          "代做"
+        ],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a474c6f000000000f01444d?xsec_token=ABK_nC72f29GHjoiQmkW7MLKoOCUi0vfaFKtc7N-9iCS8=&xsec_source=",
+            "title": "有偿求助！技术大佬帮忙写一个codex的skill",
+            "note": "评论：企业5-50w；有偿几百；直接开价"
+          },
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a89cfbe000000001600977f?xsec_token=AB-FJCztwrSp9kmOA7UVQitkKTRmieYUbbv5nByCFiGa0=&xsec_source=",
+            "title": "有没有老师接codex代做？",
+            "note": "评论：同求；自带价位协商"
+          }
+        ]
+      },
+      {
+        "id": "opp-jianji-baoyue",
+        "title": "短视频包月剪辑 / 试剪漏斗",
+        "summary": "【事实】搜索「剪辑 包月」见「视频剪辑省心包月/先试剪满意再合作」「自媒体博主必备｜单次/包月套餐」「TK代拍剪报价～个人接单」及多份报价单。【推断】供给侧报价单密集，甲方「包月」词仍在标题出现；本轮品类评论因Mac离线未全部回传，强度标 mid-strong。【机会假设】做试剪+垂直行业包月匹配仍优于再发接单帖。",
+        "why": "包月=持续付费；AI粗剪可提人效。",
+        "audience": "日更口播/电商信息流/跨境TK账号",
+        "result": "稳定交片的口播或产品成片",
+        "offer": "试剪1条+包月N条分层（口播/信息流/宣传片）",
+        "model": "service",
+        "ai_help": "AI粗剪+字幕初稿，人工精修节奏",
+        "start_cost": "low",
+        "delivery": "mid",
+        "competition": "high",
+        "index": 26,
+        "tags": [
+          "剪辑",
+          "包月"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a602b6d000000001c012ef9?xsec_token=ABg0G_NAy_xjGhcwsvJaJo",
+            "title": "TK代拍剪报价～个人接单，真诚报价",
+            "note": "搜索标题含报价+个人接单"
+          },
+          {
+            "url": "",
+            "title": "视频剪辑省心包月/先试剪满意再合作",
+            "note": "搜索命中；完整token URL待Mac raw回传"
+          }
+        ]
+      },
+      {
+        "id": "opp-meigong-baoyue",
+        "title": "电商美工包月 / AI美工分层报价",
+        "summary": "【事实】「找美工兼职，包月的多少钱一个月」「按月算的电商项目，急急急」属需求侧标题；「【ai美工接单】报价表」属供给。【机会假设】包月询价仍在，AI生图+精修可做中档交付，避开纯接单刷屏。",
+        "why": "包月词+急=付费意愿；AI降本。",
+        "audience": "无专职美工的电商店铺",
+        "result": "可上架主图/详情/SKU套图",
+        "offer": "单套199-799；包月出图",
+        "model": "service",
+        "ai_help": "AI批量生图+人工选图精修",
+        "start_cost": "low",
+        "delivery": "mid",
+        "competition": "mid",
+        "index": 25,
+        "tags": [
+          "美工",
+          "包月",
+          "AI生图"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a6ecef6000000003302d6ca?xsec_token=ABnZ7MU-g1aJrF1sjhXls9",
+            "title": "找美工兼职，包月的多少钱一个月",
+            "note": "需求侧询价标题"
+          },
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a9971b1000000000d0269d7?xsec_token=ABPoKXEHj5QGUSxF6kWWt1",
+            "title": "按月算的电商项目，急急急",
+            "note": "急+按月"
+          }
+        ]
+      },
+      {
+        "id": "opp-xiaochengxu",
+        "title": "小程序代做 / 报价透明化接单",
+        "summary": "【事实】搜索见「求🙏小程序开发」与「2026做个小程序多少钱？报价一目了然」并存。【推断】需求与报价科普同时出现，适合做范围清晰的MVP档（展示/预约/商城轻量）。",
+        "why": "求开发=明确交付；报价帖教育市场。",
+        "audience": "小商家/活动方/个体经营者",
+        "result": "可上线的轻量小程序",
+        "offer": "MVP套餐分层报价+改2次",
+        "model": "service",
+        "ai_help": "AI辅助页面文案与低代码配置",
+        "start_cost": "mid",
+        "delivery": "high",
+        "competition": "mid",
+        "index": 23,
+        "tags": [
+          "小程序",
+          "代做"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a7696ee00000000280057b2?xsec_token=ABWenMdV2YVjMB2PqkFddW",
+            "title": "2026做个小程序多少💰？报价一目了然",
+            "note": "报价科普帖"
+          },
+          {
+            "url": "",
+            "title": "求🙏小程序开发",
+            "note": "需求标题；URL待raw回传"
+          }
+        ]
+      },
+      {
+        "id": "opp-shuziren-yuefu",
+        "title": "数字人可月付供应商选型 / 轻交付",
+        "summary": "【事实】搜索「数字人 月付」命中「求推荐，便宜，可月付的数字人供应商」。【机会假设】用户要的是可控月付成本的成片，不是工具本身；可做选型咨询+代出片。",
+        "why": "求推荐+可月付=付费框架清晰。",
+        "audience": "要口播/带货镜但嫌年费的中小商家",
+        "result": "月付额度内的数字人口播成片",
+        "offer": "选型清单+代做月付套餐",
+        "model": "service",
+        "ai_help": "数字人成片流水线",
+        "start_cost": "low",
+        "delivery": "mid",
+        "competition": "mid",
+        "index": 22,
+        "tags": [
+          "数字人",
+          "月付"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "求推荐，便宜，可月付的数字人供应商",
+            "note": "搜索命中标题；评论待补"
+          }
+        ]
+      },
+      {
+        "id": "opp-excel-biaoge",
+        "title": "Excel/经营表代做（避开作业地板）",
+        "summary": "【事实】「Excel 代做」搜索见「excel接单」供给帖。【推断】延续前几日信号：经营表/可视化有付费空间，作业类卷价。【机会假设】上移到经营看板+可复用模板。",
+        "why": "代做词仍在；需评论确认价位。",
+        "audience": "小商家/运营",
+        "result": "可复用经营表或一次交付表",
+        "offer": "单次199+；模板29-99",
+        "model": "service",
+        "ai_help": "AI生成公式与结构，人工校验",
+        "start_cost": "low",
+        "delivery": "low",
+        "competition": "high",
+        "index": 21,
+        "tags": [
+          "Excel",
+          "模板"
+        ],
+        "signal_strength": "weak",
+        "evidence": [
+          {
+            "url": "",
+            "title": "excel接单",
+            "note": "搜索标题命中"
+          }
+        ]
+      },
+      {
+        "id": "opp-ai-shipin",
+        "title": "AI视频分层报价（避开漫剧白菜价）",
+        "summary": "【事实】「AI 视频 多少钱」见「ai视频制作｜有需求的老板看过来」及云端模型报价科普。【降权】低端漫剧成本卷。【机会假设】接垂直成片（口播/产品解说）而非通用漫剧。",
+        "why": "老板向需求帖存在；需分层报价。",
+        "audience": "要短视频但不会做的老板",
+        "result": "可发布的AI辅助成片",
+        "offer": "试片+按分钟/按条分层",
+        "model": "service",
+        "ai_help": "AI分镜+配音+粗剪",
+        "start_cost": "low",
+        "delivery": "mid",
+        "competition": "high",
+        "index": 20,
+        "tags": [
+          "AI视频",
+          "报价"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/69fd54c1000000003601f4a3?xsec_token=AByErNHOmJXuzU2C9UXCOM",
+            "title": "ai视频制作｜有需求的老板看过来",
+            "note": "供给触达老板"
+          }
+        ]
+      },
+      {
+        "id": "opp-daizuo-chuizhi",
+        "title": "垂直代做撮合（数据报告/设计急单）",
+        "summary": "【事实】「求一个数据分析与可视化实训报告代做」「求园林设计代做」「急急急！」等真实求助标题出现在「求代做」结果。【降权】PPT大学生秒接供给多。【机会假设】做垂直品类急单撮合或自己接高确定范围单。",
+        "why": "求代做=最强需求句式。",
+        "audience": "学生实训/设计急单甲方",
+        "result": "按brief交付的报告或设计稿",
+        "offer": "定金+改N次；不做无brief单",
+        "model": "service",
+        "ai_help": "AI出初稿+人工质检",
+        "start_cost": "low",
+        "delivery": "mid",
+        "competition": "high",
+        "index": 19,
+        "tags": [
+          "求代做",
+          "垂直"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a9a586300000000260141e4?xsec_token=ABXFpol3gVqMuSPUzfRnMReGyLzigyMiiILBbpEvhF9NE=&xsec_source=",
+            "title": "求一个数据分析与可视化实训报告代做！",
+            "note": "明确求代做"
+          },
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a9e26c100000000120348b5?xsec_token=AB_hByYvnNUqoYqRRykYAGy0aIk-npS2ZWH4QOFDlbEMo=&xsec_source=",
+            "title": "求园林设计代做",
+            "note": "垂直设计求代做"
+          }
+        ]
+      },
+      {
+        "id": "opp-agent-dajian",
+        "title": "智能体/工作流代搭建接单",
+        "summary": "【事实】「工作流 代配置」搜索见「接智能体搭建订单」。【推断】与Codex代配置同构，面向不会配Agent的商家。【机会假设】按场景报价（客服/内容/获客）比卖课更硬。",
+        "why": "接单帖存在说明有人在卖；需更多求助评论验证。",
+        "audience": "想上Agent但配不通的小团队",
+        "result": "可演示的智能体+文档",
+        "offer": "场景套餐+一周陪跑",
+        "model": "service",
+        "ai_help": "Agent编排本身即AI",
+        "start_cost": "low",
+        "delivery": "high",
+        "competition": "mid",
+        "index": 18,
+        "tags": [
+          "智能体",
+          "工作流"
+        ],
+        "signal_strength": "weak",
+        "evidence": [
+          {
+            "url": "",
+            "title": "接智能体搭建订单",
+            "note": "供给标题"
+          }
+        ]
+      }
+    ],
+    "new_demands": [
+      {
+        "id": "nd-shuziren-yuefu",
+        "title": "便宜可月付数字人供应商求推荐",
+        "summary": "【事实】标题直求「便宜，可月付」。【机会假设】月付选型+代出片。",
+        "why": "月付约束清晰",
+        "index": 22,
+        "tags": [
+          "数字人"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "求推荐，便宜，可月付的数字人供应商",
+            "note": "搜索标题"
+          }
+        ]
+      },
+      {
+        "id": "nd-shuju-baogao",
+        "title": "数据分析与可视化实训报告代做",
+        "summary": "【事实】9/4附近仍有明确求代做。【推断】实训季需求。",
+        "why": "交付物清晰",
+        "index": 17,
+        "tags": [
+          "代做",
+          "数据"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a9a586300000000260141e4?xsec_token=ABXFpol3gVqMuSPUzfRnMReGyLzigyMiiILBbpEvhF9NE=&xsec_source=",
+            "title": "求一个数据分析与可视化实训报告代做！",
+            "note": "求代做"
+          }
+        ]
+      },
+      {
+        "id": "nd-yuanlin",
+        "title": "园林设计代做急单",
+        "summary": "【事实】「求园林设计代做」标题。【机会假设】垂直设计急单。",
+        "why": "垂直+求",
+        "index": 16,
+        "tags": [
+          "设计",
+          "代做"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a9e26c100000000120348b5?xsec_token=AB_hByYvnNUqoYqRRykYAGy0aIk-npS2ZWH4QOFDlbEMo=&xsec_source=",
+            "title": "求园林设计代做",
+            "note": "求代做"
+          }
+        ]
+      },
+      {
+        "id": "nd-meigong-baoyue-xunjia",
+        "title": "美工包月价位询价",
+        "summary": "【事实】「包月的多少钱一个月」。",
+        "why": "询价句式",
+        "index": 24,
+        "tags": [
+          "美工"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a6ecef6000000003302d6ca?xsec_token=ABnZ7MU-g1aJrF1sjhXls9",
+            "title": "找美工兼职，包月的多少钱一个月",
+            "note": "询价"
+          }
+        ]
+      }
+    ],
+    "pay_signals": [
+      {
+        "id": "pay-codex-5-50w",
+        "title": "企业工作流搭建报价分层",
+        "summary": "【事实】评论原话：企业搭建这么一套工作流收费是5-50w不等。",
+        "index": 28,
+        "signal_strength": "strong",
+        "tags": [
+          "codex",
+          "报价"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a474c6f000000000f01444d?xsec_token=ABK_nC72f29GHjoiQmkW7MLKoOCUi0vfaFKtc7N-9iCS8=&xsec_source=",
+            "title": "有偿求助写codex skill",
+            "note": "评论：5-50w"
+          }
+        ]
+      },
+      {
+        "id": "pay-codex-jibai",
+        "title": "个人有偿常几百",
+        "summary": "【事实】评论：有偿的意思应该到不了一千块的，一般也就几百块，甚至更低。",
+        "index": 27,
+        "signal_strength": "strong",
+        "tags": [
+          "有偿"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a474c6f000000000f01444d?xsec_token=ABK_nC72f29GHjoiQmkW7MLKoOCUi0vfaFKtc7N-9iCS8=&xsec_source=",
+            "title": "有偿求助写codex skill",
+            "note": "评论：几百块"
+          }
+        ]
+      },
+      {
+        "id": "pay-codex-kaojia",
+        "title": "直接开价",
+        "summary": "【事实】评论原话「直接开价」。",
+        "index": 26,
+        "signal_strength": "strong",
+        "tags": [
+          "议价"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a474c6f000000000f01444d?xsec_token=ABK_nC72f29GHjoiQmkW7MLKoOCUi0vfaFKtc7N-9iCS8=&xsec_source=",
+            "title": "有偿求助写codex skill",
+            "note": "直接开价"
+          }
+        ]
+      },
+      {
+        "id": "pay-codex-tongqiu",
+        "title": "同求Codex代做",
+        "summary": "【事实】「有没有老师接codex代做」评论「同求」。",
+        "index": 26,
+        "signal_strength": "strong",
+        "tags": [
+          "同求"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a89cfbe000000001600977f?xsec_token=AB-FJCztwrSp9kmOA7UVQitkKTRmieYUbbv5nByCFiGa0=&xsec_source=",
+            "title": "有没有老师接codex代做？",
+            "note": "同求"
+          }
+        ]
+      },
+      {
+        "id": "pay-codex-zidaijiage",
+        "title": "自带理想价位再协商",
+        "summary": "【事实】评论：您可以自带理想价位咱们再协商，可以私聊一下。",
+        "index": 25,
+        "signal_strength": "strong",
+        "tags": [
+          "私聊",
+          "议价"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a89cfbe000000001600977f?xsec_token=AB-FJCztwrSp9kmOA7UVQitkKTRmieYUbbv5nByCFiGa0=&xsec_source=",
+            "title": "有没有老师接codex代做？",
+            "note": "自带价位"
+          }
+        ]
+      },
+      {
+        "id": "pay-meigong-xunjia",
+        "title": "美工包月多少钱一个月",
+        "summary": "【事实】需求标题询价。",
+        "index": 24,
+        "signal_strength": "mid",
+        "tags": [
+          "美工",
+          "包月"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a6ecef6000000003302d6ca?xsec_token=ABnZ7MU-g1aJrF1sjhXls9",
+            "title": "找美工兼职，包月的多少钱一个月",
+            "note": "询价标题"
+          }
+        ]
+      },
+      {
+        "id": "pay-xiaochengxu-baojia",
+        "title": "小程序多少钱报价帖",
+        "summary": "【事实】报价一目了然类科普帖。",
+        "index": 20,
+        "signal_strength": "mid",
+        "tags": [
+          "小程序"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a7696ee00000000280057b2?xsec_token=ABWenMdV2YVjMB2PqkFddW",
+            "title": "2026做个小程序多少💰？报价一目了然",
+            "note": "报价"
+          }
+        ]
+      },
+      {
+        "id": "pay-jianji-baojia",
+        "title": "剪辑个人接单报价",
+        "summary": "【事实】TK代拍剪报价～个人接单。",
+        "index": 22,
+        "signal_strength": "mid",
+        "tags": [
+          "剪辑"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a602b6d000000001c012ef9?xsec_token=ABg0G_NAy_xjGhcwsvJaJo",
+            "title": "TK代拍剪报价～个人接单，真诚报价",
+            "note": "报价标题"
+          }
+        ]
+      },
+      {
+        "id": "pay-codex-daipao",
+        "title": "Codex低价代跑额度售卖",
+        "summary": "【事实】代跑帖「先到先得」——属供给侧低价卷。",
+        "index": 15,
+        "signal_strength": "weak",
+        "tags": [
+          "代跑",
+          "降权"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a7811a700000000280330bf?xsec_token=ABk7HfCF6_5ELaoJW0t_hZN6_5WikzGZWYQG9GSWLSWNU=&xsec_source=",
+            "title": "Codex低价帮代跑项目",
+            "note": "低价代跑"
+          }
+        ]
+      },
+      {
+        "id": "pay-ai-meigong-biaojia",
+        "title": "AI美工接单报价表",
+        "summary": "【事实】供给报价表帖。",
+        "index": 18,
+        "signal_strength": "mid",
+        "tags": [
+          "美工"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a9ab076000000000b00d330?xsec_token=ABXFpol3gVqMuSPUzfRnMR",
+            "title": "【ai美工接单】报价表！快来看！",
+            "note": "供给报价"
+          }
+        ]
+      }
+    ],
+    "ai_leverage": [
+      {
+        "id": "ai-jianji",
+        "title": "剪辑：AI粗剪+人工网感",
+        "summary": "包月场景下AI字幕/粗剪可提人效。",
+        "model": "service",
+        "ai_help": "粗剪+字幕",
+        "index": 26,
+        "tags": [
+          "剪辑"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "视频剪辑省心包月",
+            "note": "包月供给"
+          }
+        ]
+      },
+      {
+        "id": "ai-meigong",
+        "title": "美工：AI生图+精修",
+        "summary": "包月询价在，AI可降本。",
+        "model": "service",
+        "ai_help": "批量生图",
+        "index": 25,
+        "tags": [
+          "美工"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a6ecef6000000003302d6ca?xsec_token=ABnZ7MU-g1aJrF1sjhXls9",
+            "title": "找美工兼职包月多少钱",
+            "note": "询价"
+          }
+        ]
+      },
+      {
+        "id": "ai-codex-wf",
+        "title": "内容流水线：多Skill组装",
+        "summary": "评论强调工作流非单Skill。",
+        "model": "service",
+        "ai_help": "Codex编排",
+        "index": 28,
+        "tags": [
+          "codex"
+        ],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a474c6f000000000f01444d?xsec_token=ABK_nC72f29GHjoiQmkW7MLKoOCUi0vfaFKtc7N-9iCS8=&xsec_source=",
+            "title": "有偿求写skill",
+            "note": "工作流价位"
+          }
+        ]
+      },
+      {
+        "id": "ai-ppt",
+        "title": "PPT：AI出稿+加急人工",
+        "summary": "【降权】供给「接单神器」叙事强，优先加急/品牌档。",
+        "model": "service",
+        "ai_help": "AI大纲+版式",
+        "index": 14,
+        "tags": [
+          "PPT"
+        ],
+        "signal_strength": "weak",
+        "evidence": [
+          {
+            "url": "",
+            "title": "AI 帮你做 PPT！接单神器",
+            "note": "供给叙事"
+          }
+        ]
+      },
+      {
+        "id": "ai-shipin",
+        "title": "AI视频成片分层",
+        "summary": "避开漫剧白菜，做垂直成片。",
+        "model": "service",
+        "ai_help": "分镜+配音",
+        "index": 20,
+        "tags": [
+          "AI视频"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/69fd54c1000000003601f4a3?xsec_token=AByErNHOmJXuzU2C9UXCOM",
+            "title": "ai视频制作｜有需求的老板看过来",
+            "note": "老板向"
+          }
+        ]
+      }
+    ],
+    "digital_products": [
+      {
+        "id": "dig-prompt",
+        "title": "Prompt万能框架/垂直模板包",
+        "summary": "【事实】「不会写Prompt？先收藏这8个万能框架」。【机会假设】收藏≠付费，需做成垂直可交付包。",
+        "model": "digital",
+        "index": 16,
+        "tags": [
+          "Prompt"
+        ],
+        "signal_strength": "weak",
+        "start_cost": "low",
+        "delivery": "low",
+        "competition": "high",
+        "evidence": [
+          {
+            "url": "",
+            "title": "不会写Prompt？先收藏这8个万能框架",
+            "note": "收藏向"
+          }
+        ]
+      },
+      {
+        "id": "dig-notion",
+        "title": "Notion年度/效率体系模板",
+        "summary": "搜索见Notion年度体系帖。【推断】可卖垂直模板，避月入课。",
+        "model": "digital",
+        "index": 15,
+        "tags": [
+          "Notion"
+        ],
+        "signal_strength": "weak",
+        "start_cost": "low",
+        "delivery": "low",
+        "competition": "high",
+        "evidence": [
+          {
+            "url": "",
+            "title": "用Notion年度体系锁定高效率",
+            "note": "模板向"
+          }
+        ]
+      },
+      {
+        "id": "dig-codex-skillpack",
+        "title": "垂直场景Codex Skill包（附安装陪跑）",
+        "summary": "Skill安利帖高互动；付费点在陪跑不是清单。",
+        "model": "digital",
+        "index": 21,
+        "tags": [
+          "Skill"
+        ],
+        "signal_strength": "mid",
+        "start_cost": "low",
+        "delivery": "mid",
+        "competition": "mid",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a20c1c60000000038021c54?xsec_token=ABNOaEf2ylKg8VTdEiyOWTNU7sobbnaKFQT_OQmpkupr4=&xsec_source=",
+            "title": "Codex千万别裸装",
+            "note": "131评高互动"
+          }
+        ]
+      },
+      {
+        "id": "dig-excel-tpl",
+        "title": "行业经营Excel模板",
+        "summary": "与代做上移配套的数字产品。",
+        "model": "digital",
+        "index": 18,
+        "tags": [
+          "Excel"
+        ],
+        "signal_strength": "weak",
+        "start_cost": "low",
+        "delivery": "low",
+        "competition": "mid",
+        "evidence": [
+          {
+            "url": "",
+            "title": "excel接单",
+            "note": "代做侧旁证"
+          }
+        ]
+      },
+      {
+        "id": "dig-jianji-sop",
+        "title": "剪辑包月SOP/报价卡",
+        "summary": "报价单刷屏→可卖标准化SOP给新手接单者（伪副业风险，降权卖「月入」）。",
+        "model": "digital",
+        "index": 12,
+        "tags": [
+          "SOP"
+        ],
+        "signal_strength": "weak",
+        "start_cost": "low",
+        "delivery": "low",
+        "competition": "high",
+        "evidence": [
+          {
+            "url": "",
+            "title": "剪辑报价单来啦",
+            "note": "供给刷屏"
+          }
+        ]
+      }
+    ],
+    "services": [
+      {
+        "id": "svc-codex",
+        "title": "Codex代做/代配置",
+        "summary": "同求+议价评论确认。",
+        "model": "service",
+        "index": 28,
+        "signal_strength": "strong",
+        "tags": [
+          "codex"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a89cfbe000000001600977f?xsec_token=AB-FJCztwrSp9kmOA7UVQitkKTRmieYUbbv5nByCFiGa0=&xsec_source=",
+            "title": "有没有老师接codex代做？",
+            "note": "同求"
+          }
+        ]
+      },
+      {
+        "id": "svc-jianji",
+        "title": "包月剪辑",
+        "summary": "包月套餐帖密集。",
+        "model": "service",
+        "index": 26,
+        "signal_strength": "mid",
+        "tags": [
+          "剪辑"
+        ],
+        "evidence": [
+          {
+            "url": "",
+            "title": "视频剪辑省心包月",
+            "note": "供给"
+          }
+        ]
+      },
+      {
+        "id": "svc-meigong",
+        "title": "美工包月",
+        "summary": "询价标题明确。",
+        "model": "service",
+        "index": 25,
+        "signal_strength": "mid",
+        "tags": [
+          "美工"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a6ecef6000000003302d6ca?xsec_token=ABnZ7MU-g1aJrF1sjhXls9",
+            "title": "找美工兼职包月多少钱",
+            "note": "询价"
+          }
+        ]
+      },
+      {
+        "id": "svc-xcx",
+        "title": "小程序代做",
+        "summary": "求开发+报价帖。",
+        "model": "service",
+        "index": 23,
+        "signal_strength": "mid",
+        "tags": [
+          "小程序"
+        ],
+        "evidence": [
+          {
+            "url": "",
+            "title": "求🙏小程序开发",
+            "note": "求"
+          }
+        ]
+      },
+      {
+        "id": "svc-shuziren",
+        "title": "数字人代出片",
+        "summary": "求可月付供应商。",
+        "model": "service",
+        "index": 22,
+        "signal_strength": "mid",
+        "tags": [
+          "数字人"
+        ],
+        "evidence": [
+          {
+            "url": "",
+            "title": "求推荐可月付数字人",
+            "note": "求推荐"
+          }
+        ]
+      }
+    ],
+    "content": [
+      {
+        "id": "ct-codex-skill",
+        "title": "Codex Skill安装/避坑内容矩阵",
+        "summary": "裸装/必装帖高评，可持续做安装避坑+案例。",
+        "model": "traffic",
+        "index": 20,
+        "signal_strength": "mid",
+        "tags": [
+          "内容",
+          "codex"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a20c1c60000000038021c54?xsec_token=ABNOaEf2ylKg8VTdEiyOWTNU7sobbnaKFQT_OQmpkupr4=&xsec_source=",
+            "title": "Codex千万别裸装",
+            "note": "131评"
+          }
+        ]
+      },
+      {
+        "id": "ct-baojia-touming",
+        "title": "服务报价透明化内容",
+        "summary": "小程序/剪辑/美工报价科普帖吸收藏。",
+        "model": "traffic",
+        "index": 17,
+        "signal_strength": "mid",
+        "tags": [
+          "报价"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a7696ee00000000280057b2?xsec_token=ABWenMdV2YVjMB2PqkFddW",
+            "title": "小程序多少钱报价",
+            "note": "科普"
+          }
+        ]
+      },
+      {
+        "id": "ct-prompt",
+        "title": "Prompt框架收藏流",
+        "summary": "收藏强、付费弱，作引流。",
+        "model": "traffic",
+        "index": 14,
+        "signal_strength": "weak",
+        "tags": [
+          "Prompt"
+        ],
+        "evidence": [
+          {
+            "url": "",
+            "title": "不会写Prompt？先收藏",
+            "note": "收藏"
+          }
+        ]
+      },
+      {
+        "id": "ct-jianli-tongpi",
+        "title": "简历痛批互动流",
+        "summary": "「依然求痛批」高赞互动，获客易、变现卷。",
+        "model": "traffic",
+        "index": 13,
+        "signal_strength": "weak",
+        "tags": [
+          "简历"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/69d65b3700000000210387bd?xsec_token=AB_t2KNARiVXF4eS1OndIu",
+            "title": "改到第3版…求痛批",
+            "note": "高赞求痛批"
+          }
+        ]
+      },
+      {
+        "id": "ct-anti-weifuye",
+        "title": "拆伪副业：代跑/月入Skill课",
+        "summary": "代跑额度帖与「接单赚钱」教程并存，内容可做避坑。",
+        "model": "traffic",
+        "index": 12,
+        "signal_strength": "weak",
+        "tags": [
+          "避坑"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a7811a700000000280330bf?xsec_token=ABk7HfCF6_5ELaoJW0t_hZN6_5WikzGZWYQG9GSWLSWNU=&xsec_source=",
+            "title": "Codex低价代跑",
+            "note": "低价供给"
+          }
+        ]
+      }
+    ],
+    "to_validate": [
+      {
+        "id": "tv-jianji-comments",
+        "title": "剪辑包月帖评论询盘密度",
+        "summary": "【待验证】省心包月/套餐帖评论是否仍大量「怎么联系」——本轮Mac离线未回传。",
+        "index": 26,
+        "signal_strength": "weak",
+        "tags": [
+          "待验证"
+        ],
+        "evidence": [
+          {
+            "url": "",
+            "title": "视频剪辑省心包月",
+            "note": "待补评论"
+          }
+        ]
+      },
+      {
+        "id": "tv-shuziren-yuefu",
+        "title": "数字人月付真实价位带",
+        "summary": "【待验证】求推荐帖评论里的价位与供应商质量。",
+        "index": 22,
+        "signal_strength": "weak",
+        "tags": [
+          "待验证"
+        ],
+        "evidence": [
+          {
+            "url": "",
+            "title": "求推荐可月付数字人",
+            "note": "待补评论"
+          }
+        ]
+      },
+      {
+        "id": "tv-jijiji-note",
+        "title": "「急急急！」帖真实需求内容",
+        "summary": "【待验证】高赞急帖正文是否仍是可接副业单（抑或生活求助）。",
+        "index": 10,
+        "signal_strength": "weak",
+        "tags": [
+          "待验证"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a6b550d000000002c007539?xsec_token=ABDGD4BX5EDNi2AgBmhL41uwd4ecyx6pc6exqVccIfzUw=&xsec_source=",
+            "title": "急急急！",
+            "note": "待打开正文"
+          }
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "collection": {
+      "box_profile": "pfzpdshj/86qbuypd 瑶姐的潮玩店 — search空+设备超限",
+      "mac_profile": "pfzpdshj alias→byct8zta 瑶姐的三丽鸥潮玩周边 — search 18/18",
+      "keywords": 18,
+      "comments_threads_ok_partial": 12,
+      "mac_raw_pending": "/Users/cy/xhs-radar-2026-09-11/raw/",
+      "note": "只调研不发布"
+    }
+  }
+}
