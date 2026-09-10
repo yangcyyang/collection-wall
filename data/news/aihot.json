@@ -1,9 +1,37 @@
 {
   "source": "aihot",
   "title": "AIHOT 精选资讯",
-  "updated_at": "2026-09-10T10:39:30.227Z",
-  "count": 229,
+  "updated_at": "2026-09-10T12:17:09.157Z",
+  "count": 231,
   "items": [
+    {
+      "id": "cmtvh5qcn05vfronbsu51vfic",
+      "title": "Hugging Face 用 Gradio Workflow 重建 Workflow1111，复刻 AUTOMATIC1111 主要功能",
+      "category": "ai-products",
+      "source": "Hugging Face：Blog（RSS）",
+      "published_at": "2026-09-10T00:00:00.000Z",
+      "discovered_at": "2026-09-10T11:59:27.962Z",
+      "summary": "Hugging Face 发布 Workflow1111，用 gr.Workflow 以 73 个节点、11 条媒体管线重建 AUTOMATIC1111 的大部分功能，覆盖文本生成图像、高清修复、图生图、prompt matrix、VLM 反推提示词、检测生成 inpaint 蒙版、ControlNet 式预处理器、背景移除、PNG Info 和图生视频。",
+      "reason": "原文展示用 Gradio Workflow 重建 AUTOMATIC1111 主要功能的具体做法，并给出 REST 与 MCP 入口，读者可评估它与 ComfyUI 的取舍。",
+      "links": {
+        "aihot": "https://aihot.news/items/cmtvh5qcn05vfronbsu51vfic",
+        "original": "https://huggingface.co/blog/gradio-workflow-1111"
+      }
+    },
+    {
+      "id": "cmtveyrm2000mronbnrnl0gez",
+      "title": "Cognition 工程师用 Devin 智能体完成 RSA-260 因式分解，刷新公开纪录",
+      "category": "tip",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-09-10T10:50:45.032Z",
+      "discovered_at": "2026-09-10T10:58:04.656Z",
+      "summary": "Cognition 员工 samyok 率团队驱动多个 Devin 智能体构建了高性能 GPU 格子筛，对 260 位的 RSA-260 完成因式分解，刷新此前 RSA-250（2020 年 2 月）保持的公开 RSA 挑战纪录。",
+      "reason": "作者亲历了用 Devin 智能体在约三周内分解 RSA-260 的全过程，给出成本明细和人类介入的具体环节，可帮助读者判断智能体承担大规模科研计算的真实边界。",
+      "links": {
+        "aihot": "https://aihot.news/items/cmtveyrm2000mronbnrnl0gez",
+        "original": "https://cognition.com/blog/factoring-rsa-260"
+      }
+    },
     {
       "id": "cmtvb4b5s085erok9gose1mcf",
       "title": "DeepSeek 发布 V4.1-Flash：新架构带来原生视觉理解与大幅降价",
