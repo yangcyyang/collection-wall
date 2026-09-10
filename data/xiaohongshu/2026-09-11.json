@@ -2,337 +2,411 @@
   "source": "xiaohongshu-ai-radar",
   "title": "小红书 AI 用户雷达",
   "date": "2026-09-11",
-  "updated_at": "2026-09-11T01:55:02+08:00",
-  "count": 34,
+  "updated_at": "2026-09-11T06:35:00+08:00",
+  "count": 31,
   "summary": {
     "today_judgement": [
-      "【事实】OpenCLI `--profile pfzpdshj` 登录正常；拉feed约150条，强AI相关仅2条。search首词Skill返回空数组，按规则停搜；ask也跳验证码，未硬刷。",
-      "【事实】今日可见的最强AI信号不是模型发布，而是「AI出图省设计费→矢量外包承压」：高赞帖+评论区讨论描摹工序、解剖错误、手工修细节。",
-      "【推断】在搜索不可用时，首页推荐几乎不给垂直AI货架；产品向（Cursor/Claude/Skill/即梦）信号缺失应视为采集缺口，不作趋势下降判断。",
-      "【机会假设】内容/产品先打「AI图→可生产矢量/质检」这条被验证的半自动流水线；等search恢复再补模型与Skill线。"
+      "【事实】早报 OpenCLI pfzpdshj 登录正常（瑶姐的潮玩店，followers=647）；feed≈210条/约7页，强AI相关极少；23关键词search全空，ask跳转captcha验证码；早间comments对新URL空，复用同日凌晨3条成功评论线程。",
+      "【事实】今日可见最硬信号仍是「AI出图省设计费→矢量外包承压」：工序=出图→描摹→手修；握姿反了等常理错误强化质检需求。",
+      "【推断】产品向（Cursor/Claude/Skill/即梦等）缺失应视为搜索风控缺口，不能解读为热度下降。",
+      "【机会假设】内容/产品先打「成本迁移账 + 可生产矢量质检清单 + 代修」；等验证码解除后补全量关键词。"
     ],
     "top_signals": [
-      "AI生图把成本压力转移到矢量外包：「廉价牛马」原话高共鸣",
-      "工序未消失：扁平矢量风 + Illustrator描摹 + 手修细节仍是默认闭环",
-      "质量不信任：握姿反了等常理错误，逼出人工质检需求"
+      "AI生图把成本压到矢量外包：「廉价牛马」原话高共鸣",
+      "半自动流水线默认闭环：出图→Illustrator描摹→手修细节",
+      "搜索验证码导致产品向信号全盲——优先修会话/验证码再谈趋势升降"
     ]
+  },
+  "awareness": {
+    "dominant_level": "L2–L3",
+    "fastest_growing": "L3 半自动流水线/质检讨论（样本内）",
+    "note": "【事实】可见评论已谈生产工序与常理错误，不只是「帮我画」。【事实】未见Skill/Agent安装行为——受search风控限制。【推断】主体仍在工具使用与交付质检，未进入封装层。【机会假设】用质检清单与代修服务比讲Agent架构更贴今日样本。"
   },
   "sections": {
     "hot": [
       {
         "id": "H1",
-        "title": "AI生图压低设计费→矢量外包承压",
-        "summary": "【事实】首页高赞帖直言：很多人用AI出图省设计费，再找「廉价牛马」画矢量；1142赞/139评。",
-        "why": "把AI从「酷工具」拉到真实分工与收入结构，评论区围绕工序而非模型榜。",
-        "audience": "矢量设计师、平面/雕模供应链、AIGC使用者",
+        "title": "AI生图省设计费 → 矢量外包成「廉价牛马」",
+        "summary": "首页罕见强AI帖：创作者吐槽客户用AI出图省设计费后，把廉价矢量活压给外包；1142赞级共鸣。",
+        "why": "在search全空背景下，仍是feed内最硬AI劳动市场信号。",
+        "audience": "设计师、矢量外包、电商美工",
+        "direction": "",
+        "price": "",
         "tags": [
           "AI生图",
           "矢量",
           "外包",
-          "成本"
+          "成本迁移"
         ],
         "signal_strength": "strong",
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
-            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
-            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量，我就是那",
+            "note": "feed高赞；评论谈描摹工序与解剖错误"
           }
-        ]
+        ],
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T06:35:00+08:00"
       },
       {
         "id": "H2",
-        "title": "AI出图仍要描摹/修手：工序未消失",
-        "summary": "【事实】高赞评论给出「AI转扁平矢量风 + 滚滚长江(Illustrator谐音)一键描摹」链路；作者承认「终究难逃要描」。",
-        "why": "热点不在新模型，而在生产闭环仍卡人工。",
-        "audience": "设计师、AIGC兼职",
+        "title": "工序未消失：AI出图仍要描摹/手修",
+        "summary": "评论默认闭环：AI转扁平矢量风 →「滚滚长江」(Illustrator谐音)一键描摹 → 手修细节；作者承认难逃要描。",
+        "why": "说明生图没有消灭专业软件工序，只是前移了入口。",
+        "audience": "美工、外包、AI绘图用户",
+        "direction": "",
+        "price": "",
         "tags": [
           "Illustrator",
           "描摹",
-          "工作流"
+          "半自动"
         ],
         "signal_strength": "strong",
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
-            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
-            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
-          },
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
-            "title": "评论：滚滚长江一键图像描摹",
-            "note": "单条约1000赞"
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量，我就是那",
+            "note": "评论原话工序链"
           }
-        ]
+        ],
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T06:35:00+08:00"
       },
       {
         "id": "H3",
-        "title": "解剖/常理错误成为拒信点",
-        "summary": "【事实】评论指出「手是反的握不上」；作者亲手试后承认「AI很多不符合常理」。",
-        "why": "质量不信任直接转化为「必须人工质检」。",
-        "audience": "设计交付方、甲方",
+        "title": "解剖/常理错误触发不信任",
+        "summary": "用户亲手试握姿发现AI图「手是反的」，评论强调不符合常理、仍需人眼质检。",
+        "why": "质量不信任直接转化为人工质检需求。",
+        "audience": "接单美工、电商主图制作",
+        "direction": "",
+        "price": "",
         "tags": [
-          "质量",
-          "解剖错误",
-          "质检"
+          "质检",
+          "幻觉",
+          "解剖错误"
         ],
         "signal_strength": "strong",
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
-            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
-            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量，我就是那",
+            "note": "评论：用手试了确实反的"
           }
-        ]
+        ],
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T06:35:00+08:00"
       },
       {
         "id": "H4",
-        "title": "评论把AI与知识付费生死挂钩",
-        "summary": "【事实】非AI主帖评论出现「ai不是把知识付费摧毁了吗」（样本单薄）。",
-        "why": "属旁支情绪信号，需恢复search后再验。",
-        "audience": "知识付费从业者、副业党",
+        "title": "自媒体能不能赚：首页对照热帖",
+        "summary": "「普通人做自媒体真的能赚到钱么」高赞出现在feed；与AI副业叙事同场但今日无search补强。",
+        "why": "弱AI相关对照：变现焦虑仍在，但缺评论证据（早间comments空）。",
+        "audience": "想做自媒体的普通人",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "自媒体",
+          "变现"
+        ],
+        "signal_strength": "weak",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/explore/6a7e6b13000000002202ce00?xsec_token=AB7TvoSRr_Whnoc0QzIOtVQ0Fd8ths041uvots16KYJl0%3D&xsec_source=",
+            "title": "普通人现在开始做自媒体真的能赚到钱么？",
+            "note": "feed高赞；comments早间空"
+          }
+        ],
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T06:35:00+08:00"
+      },
+      {
+        "id": "H5",
+        "title": "行业帖旁支：AI vs 知识付费",
+        "summary": "经济下行行业帖评论出现「ai不是把知识付费摧毁了吗」，属旁支信号。",
+        "why": "非主帖主题，但反映认知层面对AI替代付费课的争论。",
+        "audience": "知识付费从业者、副业观察者",
+        "direction": "",
+        "price": "",
         "tags": [
           "知识付费",
-          "AI冲击"
+          "AI替代"
         ],
         "signal_strength": "weak",
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/explore/6a7d192d000000003300f242?xsec_token=ABGx9lnl2PMr-tDqthmds9fFF5T1AhpLEAegiF8DdZvBI%3D&xsec_source=",
             "title": "越是经济下行，这些行业反而越好",
-            "note": "评论出现「ai不是把知识付费摧毁了吗」"
+            "note": "评论旁支"
           }
-        ]
-      },
-      {
-        "id": "H5",
-        "title": "剪映工具帖高热但AI信号噪声大",
-        "summary": "【事实】剪映合集4680赞；评论多为转行报班互关领资料，缺真实AI工具讨论。",
-        "why": "高赞≠AI需求；今日仅作噪声对照。",
-        "audience": "剪辑转行者",
-        "tags": [
-          "剪映",
-          "卖课噪音"
         ],
-        "signal_strength": "weak",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a7d28e500000000050223bf?xsec_token=ABGx9lnl2PMr-tDqthmds9fHZaKDNn0HqajrvsBXVbug4%3D&xsec_source=",
-            "title": "用剪映的妹妹，存一下吧很难找全的",
-            "note": "4680赞；评论区转行报班卖课噪音高，AI直接证据弱"
-          }
-        ]
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T06:35:00+08:00"
       }
     ],
     "trends": [
       {
         "id": "T1",
-        "title": "AI出图→人工矢量/修细节的「半自动流水线」",
-        "summary": "【推断】相对此前模型/Skill热，今日feed可见的是设计生产链上的AI嵌入与劳动再分配。",
+        "title": "半自动设计流水线（出图→描摹→修）",
+        "summary": "样本内反复出现：AI只负责出图入口，可生产矢量/雕模仍靠描摹+手修。",
+        "why": "评论区把工序说完整，不是单次炫技。",
+        "audience": "",
         "direction": "up",
+        "price": "",
         "tags": [
           "工作流",
           "矢量",
-          "半自动"
+          "AI生图"
         ],
-        "signal_strength": "mid",
+        "signal_strength": "strong",
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
-            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
-            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量，我就是那",
+            "note": "工序评论密集"
           }
-        ]
+        ],
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T06:35:00+08:00"
       },
       {
         "id": "T2",
-        "title": "专业软件讨论平台规避（谐音化）",
-        "summary": "【事实】Illustrator被说成「滚滚长江」，说明用户已习惯在站内规避词讨论生产工具。",
+        "title": "专业软件谐音化讨论（滚滚长江=Illustrator）",
+        "summary": "评论用谐音指代描摹工具，显示圈内默契与平台敏感词规避并存。",
+        "why": "",
+        "audience": "",
         "direction": "up",
+        "price": "",
         "tags": [
-          "谐音",
-          "Illustrator"
+          "Illustrator",
+          "谐音"
         ],
         "signal_strength": "mid",
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
-            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
-            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量，我就是那",
+            "note": "「滚滚长江」评论"
           }
-        ]
+        ],
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T06:35:00+08:00"
       },
       {
         "id": "T3",
-        "title": "Cursor/Claude/Skill/即梦等产品向讨论本日不可见",
-        "summary": "【事实】search首词Skill返回空数组已停；5+轮feed约150条仅2条强AI相关。属采集缺口，不作下降结论。",
+        "title": "产品向AI话题（Cursor/Claude/Skill/即梦）— 数据缺口",
+        "summary": "23词search全空+验证码，无法观察产品热度升降；明确标记为采集缺口，不作降温。",
+        "why": "空搜≠降温。",
+        "audience": "",
         "direction": "flat",
+        "price": "",
         "tags": [
           "采集缺口",
-          "验证码"
+          "风控"
         ],
         "signal_strength": "weak",
-        "evidence": [
-          {
-            "url": "",
-            "title": "search-stopped.txt",
-            "note": "Skill search=[]后停止；ask也跳验证码"
-          }
-        ]
+        "evidence": [],
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T06:35:00+08:00"
       }
     ],
     "needs": [
       {
         "id": "N1",
-        "title": "AI出图后的可靠矢量化/可生产线条图",
-        "summary": "设计师需要能进雕模/生产的线条图，不只是好看的视觉效果。",
-        "why": "作者强调「不是做视觉效果，是做线条图给生产」",
-        "audience": "矢量/雕模设计师",
+        "title": "可生产矢量 / 雕模线条图",
+        "summary": "需求从「好看图」落到「能生产的线条图/雕模图」。",
+        "why": "",
+        "audience": "电商/潮玩生产链",
+        "direction": "",
+        "price": "",
         "tags": [
           "矢量",
-          "生产",
           "雕模"
         ],
         "signal_strength": "strong",
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
-            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
-            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量，我就是那",
+            "note": "作者强调线条图给生产雕模"
           }
-        ]
+        ],
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T06:35:00+08:00"
       },
       {
         "id": "N2",
-        "title": "AI生图质检：解剖/透视/常理错误扫描",
-        "summary": "用户会用手试握姿等方式抓错；需要更系统的质检。",
-        "audience": "接单设计师、甲方",
+        "title": "AI图结构/常理质检",
+        "summary": "用户需要检出握姿反了等常理错误，再进入描摹。",
+        "why": "",
+        "audience": "接单美工",
+        "direction": "",
+        "price": "",
         "tags": [
-          "质检",
-          "解剖"
+          "质检"
         ],
         "signal_strength": "strong",
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
-            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
-            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量，我就是那",
+            "note": "握姿反了评论"
           }
-        ]
+        ],
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T06:35:00+08:00"
       },
       {
         "id": "N3",
-        "title": "会修细节的人（AI用户常「看不出细节」）",
-        "summary": "【事实】评论：转矢量也可用AI，但做完要手工修；很多会用的不具备看细节能力。",
-        "audience": "外包市场",
+        "title": "会看细节并手修的人",
+        "summary": "评论认为很多人会用工具但看不出细节问题。",
+        "why": "",
+        "audience": "外包买家/卖家",
+        "direction": "",
+        "price": "",
         "tags": [
-          "修图",
-          "技能鸿沟"
+          "手修",
+          "审美"
         ],
         "signal_strength": "mid",
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
-            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
-            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量，我就是那",
+            "note": "看细节能力稀缺相关评论"
           }
-        ]
+        ],
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T06:35:00+08:00"
       }
     ],
     "pains": [
       {
         "id": "P1",
-        "title": "省了设计费，压力落到廉价矢量外包",
-        "summary": "原话（作者）：「省了设计费，然后找我们这些廉价牛马画矢量，我就是那个牛马。」",
-        "why": "表面省钱→真实是分工下沉与议价权变差",
-        "audience": "矢量师",
+        "title": "成本迁移到矢量外包",
+        "summary": "原话共鸣：省了设计费，廉价牛马画矢量。",
+        "why": "",
+        "audience": "",
+        "direction": "",
+        "price": "",
         "tags": [
-          "收入",
+          "成本",
           "外包"
         ],
         "signal_strength": "strong",
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
-            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
-            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量，我就是那",
+            "note": "标题即痛点"
           }
-        ]
+        ],
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T06:35:00+08:00"
       },
       {
         "id": "P2",
-        "title": "AI生成结构反常识",
-        "summary": "原话：「我刚刚用手试了一下，确实是反的，所以AI生成的东西很多都不符合常理。」",
-        "tags": [
-          "质量"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
-            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
-            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
-          }
-        ]
-      },
-      {
-        "id": "P3",
         "title": "终究难逃要描",
-        "summary": "原话链路：AI出图→仍要Illustrator描摹/描边；「终究是难逃要描的命运。」",
+        "summary": "AI出图后仍要描摹，工序压力未消失。",
+        "why": "",
+        "audience": "",
+        "direction": "",
+        "price": "",
         "tags": [
+          "描摹",
           "工序"
         ],
         "signal_strength": "strong",
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
-            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
-            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量，我就是那",
+            "note": "作者/评论承认要描"
           }
-        ]
+        ],
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T06:35:00+08:00"
       },
       {
-        "id": "P4",
-        "title": "扫描出来，手搓",
-        "summary": "被问「如何应付」复杂细节时，作者答「扫描出来，手搓」。",
+        "id": "P3",
+        "title": "AI图不符合常理",
+        "summary": "解剖错误导致返工与不信任。",
+        "why": "",
+        "audience": "",
+        "direction": "",
+        "price": "",
         "tags": [
-          "手工"
+          "幻觉"
         ],
-        "signal_strength": "mid",
+        "signal_strength": "strong",
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
-            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
-            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量，我就是那",
+            "note": "手反了"
           }
-        ]
+        ],
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T06:35:00+08:00"
+      },
+      {
+        "id": "P4",
+        "title": "剪映资源帖评论区卖课噪音",
+        "summary": "高赞剪映资源帖评论大量「已关」引流，信号被噪声淹没。",
+        "why": "",
+        "audience": "",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "剪映",
+          "引流"
+        ],
+        "signal_strength": "weak",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/explore/6a7d28e500000000050223bf?xsec_token=ABGx9lnl2PMr-tDqthmds9fHZaKDNn0HqajrvsBXVbug4%3D&xsec_source=",
+            "title": "用剪映的妹妹，存一下吧很难找全的",
+            "note": "评论区引流"
+          }
+        ],
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T06:35:00+08:00"
       }
     ],
     "scenarios": [
       {
         "id": "S1",
-        "title": "商业设计：AI出图→扁平矢量风→Illustrator描摹→人工修细节→交雕模线条图",
-        "summary": "用户：矢量外包；场景：客户用AI省设计费后仍要可生产矢量；工具：AI生图+Illustrator；痛点：结构错+必须手修。",
-        "audience": "矢量设计师",
+        "title": "矢量外包承接AI下游",
+        "summary": "客户AI出图省设计费 → 甩给矢量外包 → AI扁平化+Illustrator描摹+手修 → 交雕模线条图；卡点是结构错与必须手搓。",
+        "why": "",
+        "audience": "矢量外包/电商美工",
+        "direction": "",
+        "price": "",
         "tags": [
+          "场景",
           "流水线"
         ],
         "signal_strength": "strong",
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
-            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
-            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量，我就是那",
+            "note": "主场景闭环"
           }
-        ]
+        ],
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T06:35:00+08:00"
       }
     ],
     "products": [
       {
         "id": "PR1",
-        "title": "通用AI生图（未点名具体品牌）",
-        "summary": "作为「省设计费」入口出现；质量与常理问题被吐槽。",
+        "title": "生图工具：入口在，品牌未点名",
+        "summary": "帖中泛称AI生成图，未点名即梦/可灵等；今日search无法补品牌分布。",
+        "why": "",
+        "audience": "",
         "direction": "flat",
+        "price": "",
         "tags": [
           "生图"
         ],
@@ -340,33 +414,43 @@
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
-            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
-            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量，我就是那",
+            "note": "泛称AI生成图"
           }
-        ]
+        ],
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T06:35:00+08:00"
       },
       {
         "id": "PR2",
-        "title": "Adobe Illustrator（谐音「滚滚长江」）",
-        "summary": "仍是矢量描摹关键步骤；讨论活跃说明不可替代性仍在。",
+        "title": "Illustrator：描摹关键步仍在",
+        "summary": "谐音讨论显示专业矢量软件仍是默认后处理。",
+        "why": "",
+        "audience": "",
         "direction": "flat",
+        "price": "",
         "tags": [
           "Illustrator"
         ],
-        "signal_strength": "mid",
+        "signal_strength": "strong",
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
-            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
-            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量，我就是那",
+            "note": "描摹评论"
           }
-        ]
+        ],
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T06:35:00+08:00"
       },
       {
         "id": "PR3",
-        "title": "剪映",
-        "summary": "高赞工具合集，但评论被卖课占据，今日难判产品迁移。",
+        "title": "剪映：剪辑资源高赞但噪声大",
+        "summary": "工具热在剪辑资源存档，评论区被卖课占领。",
+        "why": "",
+        "audience": "",
         "direction": "flat",
+        "price": "",
         "tags": [
           "剪映"
         ],
@@ -375,148 +459,194 @@
           {
             "url": "https://www.xiaohongshu.com/explore/6a7d28e500000000050223bf?xsec_token=ABGx9lnl2PMr-tDqthmds9fHZaKDNn0HqajrvsBXVbug4%3D&xsec_source=",
             "title": "用剪映的妹妹，存一下吧很难找全的",
-            "note": "4680赞；评论区转行报班卖课噪音高，AI直接证据弱"
+            "note": "对照"
           }
-        ]
+        ],
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T06:35:00+08:00"
       }
     ],
     "content_opps": [
       {
         "id": "C1",
-        "title": "「AI出图省钱了吗」真实账：设计费→矢量外包→修图工时",
-        "summary": "目标：设计师与接单者；角度：用原话拆成本迁移，不做鸡汤。",
-        "why": "高赞共鸣强",
-        "audience": "设计师",
+        "title": "AI出图省钱了吗：成本迁移账",
+        "summary": "把「省设计费」拆成客户省多少、外包赚多少、返工成本多少。",
+        "why": "",
+        "audience": "",
+        "direction": "new",
+        "price": "",
         "tags": [
-          "成本账"
+          "内容",
+          "账本"
         ],
         "signal_strength": "strong",
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
-            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
-            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量，我就是那",
+            "note": "痛点原话可做成封面"
           }
-        ]
+        ],
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T06:35:00+08:00"
       },
       {
         "id": "C2",
-        "title": "AI生图质检清单：手/透视/对称/可生产线条",
-        "summary": "把评论里的「手反了」「缺线」做成可勾选清单。",
-        "audience": "接单新人",
+        "title": "AI生图交货质检清单",
+        "summary": "握姿/透视/左右/可生产线条等检查表，贴合评论区真实踩坑。",
+        "why": "",
+        "audience": "",
+        "direction": "new",
+        "price": "",
         "tags": [
-          "质检"
+          "质检",
+          "清单"
         ],
         "signal_strength": "strong",
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
-            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
-            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量，我就是那",
+            "note": "手反了案例"
           }
-        ]
+        ],
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T06:35:00+08:00"
       },
       {
         "id": "C3",
-        "title": "从效果图到雕模线条图：半自动工作流拆解",
-        "summary": "明示AI能省哪步、不能省哪步。",
-        "audience": "AIGC兼职",
+        "title": "效果图→雕模线条图工作流教程",
+        "summary": "半自动流水线教学，强调描摹与手修，而非暴富。",
+        "why": "",
+        "audience": "",
+        "direction": "up",
+        "price": "",
         "tags": [
+          "教程",
           "工作流"
         ],
         "signal_strength": "mid",
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
-            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
-            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量，我就是那",
+            "note": "工序评论"
           }
-        ]
+        ],
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T06:35:00+08:00"
       }
     ],
     "product_opps": [
       {
         "id": "PO1",
-        "title": "可生产矢量自动描摹+缺陷标注工具",
-        "summary": "现有：AI出图+Illustrator手描；未满足：自动标解剖/封闭路径错误。",
-        "audience": "矢量师",
+        "title": "可生产矢量描摹 + 缺陷标注工具",
+        "summary": "自动描摹后标注疑似解剖/结构错误，再交给人修。",
+        "why": "",
+        "audience": "",
+        "direction": "new",
+        "price": "可按张/包月试",
         "tags": [
-          "工具"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
-            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
-            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
-          }
-        ]
-      },
-      {
-        "id": "PO2",
-        "title": "AI图→生产件质检Agent（结构/常理）",
-        "summary": "证据：用户需「用手试」才发现握姿反了。",
-        "audience": "外包与甲方",
-        "tags": [
-          "质检Agent"
+          "产品",
+          "质检"
         ],
         "signal_strength": "mid",
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
-            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
-            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量，我就是那",
+            "note": "痛点+工序"
           }
-        ]
+        ],
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T06:35:00+08:00"
+      },
+      {
+        "id": "PO2",
+        "title": "结构/常理质检 Agent（窄场景）",
+        "summary": "不做通用Agent神话，只做「出图后能不能交生产」质检。",
+        "why": "",
+        "audience": "",
+        "direction": "new",
+        "price": "",
+        "tags": [
+          "Agent",
+          "质检"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量，我就是那",
+            "note": "常理错误"
+          }
+        ],
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T06:35:00+08:00"
       }
     ],
     "biz_opps": [
       {
         "id": "B1",
-        "title": "矢量精修/雕模线条代做（承接AI出图下游）",
-        "summary": "付费信号：岗位本身就是付费外包；AI普及可能增加「修」的单量、压低「创」的单价。",
-        "audience": "设计师",
-        "price": "按件外包",
+        "title": "矢量精修 / 雕模线条代做",
+        "summary": "承接AI下游：客户有图不会修，按张收费精修。",
+        "why": "",
+        "audience": "",
+        "direction": "up",
+        "price": "按张/按项目",
         "tags": [
-          "代做"
+          "代做",
+          "外包"
+        ],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量，我就是那",
+            "note": "外包承接叙事"
+          }
+        ],
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T06:35:00+08:00"
+      },
+      {
+        "id": "B2",
+        "title": "小而具体的质检课（避开转行暴富课）",
+        "summary": "对比剪映帖卖课噪声，更干净的是「如何一眼看出AI图不能交生产」。",
+        "why": "",
+        "audience": "",
+        "direction": "new",
+        "price": "低价单课/社群",
+        "tags": [
+          "课程",
+          "质检"
         ],
         "signal_strength": "mid",
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
-            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
-            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
-          }
-        ]
-      },
-      {
-        "id": "B2",
-        "title": "质检培训/清单课（小而具体，拒绝转行暴富课）",
-        "summary": "对照剪映帖卖课噪音：用户反感空洞报班，更吃「如何看出AI图哪里不能交货」。",
-        "audience": "新人接单",
-        "tags": [
-          "培训"
-        ],
-        "signal_strength": "weak",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
-            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
-            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量，我就是那",
+            "note": "看细节稀缺"
           },
           {
             "url": "https://www.xiaohongshu.com/explore/6a7d28e500000000050223bf?xsec_token=ABGx9lnl2PMr-tDqthmds9fHZaKDNn0HqajrvsBXVbug4%3D&xsec_source=",
             "title": "用剪映的妹妹，存一下吧很难找全的",
-            "note": "4680赞；评论区转行报班卖课噪音高，AI直接证据弱"
+            "note": "对照噪声卖课"
           }
-        ]
+        ],
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T06:35:00+08:00"
       }
     ],
     "quotes": [
       {
         "id": "Q1",
-        "title": "省了设计费，然后找我们这些廉价牛马画矢量，我就是那个牛马。",
-        "summary": "主题：劳动再分配",
+        "title": "廉价牛马原话",
+        "summary": "「省了设计费……廉价牛马画矢量，我就是那个牛马。」",
+        "why": "",
+        "audience": "",
+        "direction": "",
+        "price": "",
         "tags": [
           "原话"
         ],
@@ -524,15 +654,21 @@
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
-            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
-            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量，我就是那",
+            "note": "标题"
           }
-        ]
+        ],
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T06:35:00+08:00"
       },
       {
         "id": "Q2",
-        "title": "其实只要用AI把图片转成“扁平的矢量风格”，然后再用AI（滚滚长江）进行一键图像描摹就可以了。",
-        "summary": "主题：工作流（约1000赞）",
+        "title": "描摹工序",
+        "summary": "评论：AI转扁平矢量风 +「滚滚长江」一键描摹。",
+        "why": "",
+        "audience": "",
+        "direction": "",
+        "price": "",
         "tags": [
           "原话"
         ],
@@ -540,95 +676,67 @@
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
-            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
-            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量，我就是那",
+            "note": "高赞评"
           }
-        ]
+        ],
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T06:35:00+08:00"
       },
       {
         "id": "Q3",
-        "title": "已经进化到需要注明滚滚长江了吗",
-        "summary": "主题：平台规避词",
+        "title": "谐音进化",
+        "summary": "「已经进化到需要注明滚滚长江了吗」",
+        "why": "",
+        "audience": "",
+        "direction": "",
+        "price": "",
         "tags": [
-          "原话"
+          "原话",
+          "谐音"
         ],
         "signal_strength": "mid",
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
-            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
-            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量，我就是那",
+            "note": "回复"
           }
-        ]
+        ],
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T06:35:00+08:00"
       },
       {
         "id": "Q4",
-        "title": "我刚刚用手试了一下，确实是反的，所以AI生成的东西很多都不符合常理。",
-        "summary": "主题：质量不信任",
+        "title": "手反了",
+        "summary": "「用手试了一下，确实是反的……不符合常理。」",
+        "why": "",
+        "audience": "",
+        "direction": "",
+        "price": "",
         "tags": [
-          "原话"
+          "原话",
+          "质检"
         ],
         "signal_strength": "strong",
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
-            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
-            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量，我就是那",
+            "note": "评论"
           }
-        ]
+        ],
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T06:35:00+08:00"
       },
       {
         "id": "Q5",
-        "title": "终究是难逃要描的命运。",
-        "summary": "主题：工序残留",
-        "tags": [
-          "原话"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
-            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
-            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
-          }
-        ]
-      },
-      {
-        "id": "Q6",
-        "title": "实际上转矢量也可以用ai，但做完以后要手工修下细节，不过很多会用的并不具备看细节得能力",
-        "summary": "主题：技能鸿沟",
-        "tags": [
-          "原话"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
-            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
-            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
-          }
-        ]
-      },
-      {
-        "id": "Q7",
-        "title": "扫描出来，手搓",
-        "summary": "主题：复杂细节兜底",
-        "tags": [
-          "原话"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
-            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
-            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
-          }
-        ]
-      },
-      {
-        "id": "Q8",
-        "title": "ai不是把知识付费摧毁了吗",
-        "summary": "主题：知识付费（单样本）",
+        "title": "知识付费旁支",
+        "summary": "「ai不是把知识付费摧毁了吗」",
+        "why": "",
+        "audience": "",
+        "direction": "",
+        "price": "",
         "tags": [
           "原话"
         ],
@@ -637,26 +745,80 @@
           {
             "url": "https://www.xiaohongshu.com/explore/6a7d192d000000003300f242?xsec_token=ABGx9lnl2PMr-tDqthmds9fFF5T1AhpLEAegiF8DdZvBI%3D&xsec_source=",
             "title": "越是经济下行，这些行业反而越好",
-            "note": "评论出现「ai不是把知识付费摧毁了吗」"
+            "note": "旁支评"
           }
-        ]
+        ],
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T06:35:00+08:00"
       }
     ]
   },
-  "awareness": {
-    "dominant_level": "L2–L3",
-    "fastest_growing": "L3（半自动生产工作流：出图→描摹→修细节）",
-    "note": "【事实】评论已在谈可生产线条图与质检，不是停留在「帮我画张图」。【事实】未见Agent/Skill安装向讨论（采集缺口）。【推断】设计生产用户比聊天用户更快碰到L3工序问题。【机会假设】用质检清单与半自动矢量工具把L2使用者拉到可交货。"
-  },
   "_meta": {
-    "profile": "pfzpdshj",
-    "account": "瑶姐的潮玩店",
-    "method": "feed×6 + explore comments; search stopped after Skill=[]; ask hit captcha",
-    "data_quality": "thin_feed_only",
-    "caveats": [
-      "垂直AI产品信号今日几乎不可见，因search/ask触发验证码或空结果",
-      "报告为可看版，偏设计生产链；非完整八方向饱和扫描",
-      "只调研不发布"
-    ]
+    "collection": {
+      "date": "2026-09-11",
+      "profile": "pfzpdshj",
+      "whoami": {
+        "logged_in": true,
+        "username": "瑶姐的潮玩店",
+        "followers": 647,
+        "profile": "pfzpdshj"
+      },
+      "keywords_planned": 23,
+      "keywords_nonempty": 0,
+      "keywords_failed": [
+        "Skill",
+        "Claude",
+        "Claude-Code",
+        "Cursor",
+        "ChatGPT",
+        "DeepSeek",
+        "Gemini",
+        "Grok",
+        "Kimi",
+        "doubao",
+        "jimeng",
+        "keling",
+        "MCP",
+        "Prompt",
+        "Vibe-Coding",
+        "AI-Agent",
+        "AI-biancheng",
+        "AI-shengtu",
+        "AI-shipin",
+        "AI-gongzuoliu",
+        "AI-PPT",
+        "AI-zimeiti",
+        "AI-fuye"
+      ],
+      "notes_sampled": 210,
+      "unique_notes": 210,
+      "feed_pages": 7,
+      "ai_related_in_feed": 1,
+      "comments_threads": 3,
+      "comments_failed": [
+        "6a7e6b13000000002202ce00"
+      ],
+      "comments_success_ids": [
+        "6a7d192d000000003300f242",
+        "6a7d28e500000000050223bf",
+        "6a7d4aa80000000025004d18"
+      ],
+      "started_at": "2026-09-11T06:07:05+0800",
+      "ended_at": "2026-09-11T06:30:53+0800",
+      "timezone": "Asia/Shanghai",
+      "caveats": [
+        "早报全量：whoami logged_in=true（瑶姐的潮玩店 followers=647）",
+        "feed 拉取 6 页可用；首页几乎无垂直 AI，强相关约 2–3 条",
+        "23 关键词 search 全部返回空数组；ask 明确跳转 website-login/captcha（verifyType=124）→ 判定搜索风控/验证码，非「无热度」",
+        "早间 comments 对新 URL 均返回空；user/liked 报 AUTH_REQUIRED（部分页面会话不足）",
+        "评论证据复用同日凌晨成功线程：AI生图矢量帖、剪映帖、行业帖旁支「ai摧毁知识付费」",
+        "CPA http://127.0.0.1:8317 不可用 → 本地证据合成",
+        "本版为风控降级可看版：count 显著低于完整日；产品向（Cursor/Claude/Skill/即梦）信号缺失不作降温判断",
+        "单日首页推荐≠全站热榜；search 恢复后需补采"
+      ]
+    },
+    "synthesis": "local-evidence",
+    "degraded": true,
+    "degraded_reason": "search captcha + morning comments empty; feed-sparse AI"
   }
 }
