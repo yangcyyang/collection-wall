@@ -9,6 +9,346 @@
   },
   "items": [
     {
+      "id": "2098079031791096310",
+      "author": "vista8",
+      "bio": "",
+      "text": "用最新的GPT image 2.5 生成了三张图。\n\n如果打印的话分辨率还是不够，然后发现了一个免费的放大网站，不过免费只能处理3张。\n\n换浏览器或清cookie后可以处理更多张。\n\n拉到10倍放大，图片会从20多m升到100m一张，像素过万。\n\n图片放大工具见评论区 https://t.co/2yfnWKw3UF",
+      "created_at": "Thu Sep 10 15:59:56 +0000 2026",
+      "likes": 0,
+      "views": "450",
+      "url": "https://x.com/i/status/2098079031791096310",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HR3fE7AaQAElI8n.jpg",
+        "https://pbs.twimg.com/media/HR3fGP-aYAAPZ9a.jpg",
+        "https://pbs.twimg.com/media/HR3fHsKbcAAb7OK.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HR3fE7AaQAElI8n.jpg",
+        "https://pbs.twimg.com/media/HR3fGP-aYAAPZ9a.jpg",
+        "https://pbs.twimg.com/media/HR3fHsKbcAAb7OK.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 52.45,
+      "summary": "用最新的GPT image 2.5 生成了三张图。\n\n如果打印的话分辨率还是不够，然后发现了一个免费的放大网站，不过免费只能处理3张。\n\n换浏览器或清cookie后可以处理更多张。\n\n拉到10倍放大，图片会从20多m升到100m一张，像素过万。\n\n图片放大工具见评论区",
+      "recommend_reason": "实测 GPT image 出图打印不够清，并给出免费放大站的额度绕过与 10 倍体积变化，对出图打印工作流有直接参考。",
+      "tags": [
+        "GPT Image",
+        "超分",
+        "工作流"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2098074995079672177",
+      "author": "KinGao476942",
+      "bio": "",
+      "text": "用上了 Grok bot @bot 后，终于有了可以随时记账的个人财务知识库 （打通了飞书）🙋每天有哪些支出和收入，只需要随时打开 App，语音告诉财务 bot 就好，太智能了 https://t.co/e1PNaTYcDW",
+      "created_at": "Thu Sep 10 15:43:53 +0000 2026",
+      "likes": 4,
+      "views": "143",
+      "url": "https://x.com/i/status/2098074995079672177",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HR3cFRnbQAA-KUy.jpg",
+        "https://pbs.twimg.com/media/HR3cFRubsAEX-Jg.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HR3cFRnbQAA-KUy.jpg",
+        "https://pbs.twimg.com/media/HR3cFRubsAEX-Jg.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 66.868,
+      "summary": "用上了 Grok bot @bot 后，终于有了可以随时记账的个人财务知识库 （打通了飞书）🙋每天有哪些支出和收入，只需要随时打开 App，语音告诉财务 bot 就好，太智能了",
+      "recommend_reason": "一手使用反馈：Grok bot 接飞书做语音记账/财务知识库，说明个人 Agent 正在往日常账本场景落地。",
+      "tags": [
+        "Grok Bot",
+        "飞书",
+        "记账",
+        "知识库"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2098072879480947085",
+      "author": "GoogleAI",
+      "bio": "",
+      "text": "Bring your imagination to life with Google Pics.\n\nBuilt with Nano Banana, Pics makes it easy to generate, refine, and co-create images with unparalleled precision. You can:\n\n— Isolate and edit specific objects without altering the rest of your image\n— Modify or translate text directly inside an image\n— Share and collaborate with friends and teammates on the same creation\n— Generate multiple options from a single prompt\n\nGoogle Pics is now available to Google AI Pro and Ultra subscribers, and most @GoogleWorkspace business customers. Google Pics is also integrated into @googledocs and Slides, and will roll out to @googledrive in the coming weeks.\n\nTry it now at https://t.co/4ZLfftKTty",
+      "created_at": "Thu Sep 10 15:35:29 +0000 2026",
+      "likes": 85,
+      "views": "11531",
+      "url": "https://x.com/i/status/2098072879480947085",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2098070947366588416/vid/avc1/480x270/rV236y4EsM6Oxu7Z.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2098070947366588416/img/kanlhWqkZlcyA_Fa.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 67.017,
+      "title": "Google Pics 上线：Nano Banana 驱动的协作修图",
+      "summary": "Google 发布 Pics，基于 Nano Banana，支持精准生成与共创：可隔离编辑局部物体、在图内改写或翻译文字、多人协作同一作品、单提示出多方案。面向 Google AI Pro/Ultra 与多数 Workspace 企业客户，已接入 Docs/Slides，Drive 随后跟进。",
+      "recommend_reason": "官方新品把局部编辑、图内文字和协作写进订阅档位，是图像产品能力边界的一手确认。",
+      "tags": [
+        "Google",
+        "Pics",
+        "Nano Banana",
+        "图像生成"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2098071687145365632",
+      "author": "NousResearch",
+      "bio": "",
+      "text": "Hermes Agent now displays detailed information on all subagent activities live, and you can steer and stop them manually from the CLI and Desktop Application. https://t.co/GMAIML26Bu",
+      "created_at": "Thu Sep 10 15:30:45 +0000 2026",
+      "likes": 499,
+      "views": "22064",
+      "url": "https://x.com/i/status/2098071687145365632",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2098070183361544192/vid/avc1/480x270/1srJeuiIkX9BMFDW.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2098070183361544192/img/eRRBrmBLWAeZ8lIb.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 75.13,
+      "summary": "Hermes Agent 现在会实时展示所有子代理活动的详细信息，你还可以在 CLI 和桌面应用里手动引导或停止它们。",
+      "recommend_reason": "官方把多子代理编排的可视化和人手干预做进 CLI/桌面，说明 Agent 产品开始认真对待并行任务可控性。",
+      "tags": [
+        "Hermes",
+        "Agent",
+        "子代理",
+        "NousResearch"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2098070517198807247",
+      "author": "taiyo_ai_gakuse",
+      "bio": "",
+      "text": "やっぱりDevinしか勝たん。SWE-2がFable 5.1とほぼ同等で値段が安い。\n\nこのベンチマークが正しいのか検証します🫡",
+      "created_at": "Thu Sep 10 15:26:06 +0000 2026",
+      "likes": 4,
+      "views": "789",
+      "url": "https://x.com/i/status/2098070517198807247",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2098069235733823965",
+        "author": "cognition",
+        "name": "Cognition",
+        "text": "Introducing SWE-2, our closest model yet to the frontier.\n\nOn leading evals, it scores on par with recent frontier models – at up to 70% lower cost.\n\nWe scaled RL to multiple trillions of parameters, with a refined recipe that pushes the Pareto curve on both capabilities &amp; cost. https://t.co/FjBxrikExs",
+        "created_at": "Thu Sep 10 15:21:00 +0000 2026",
+        "url": "https://x.com/cognition/status/2098069235733823965",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HR3TvRPaIAAVHKR.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HR3TvRPaIAAVHKR.jpg"
+        ]
+      },
+      "score": 51.256,
+      "summary": "果然还是 Devin 更强。SWE-2 和 Fable 5.1 几乎同级，但更便宜。接下来会验证这个基准是否靠谱。",
+      "recommend_reason": "把 Devin / SWE-2 / Fable 5.1 放在同一价格与基准维度比较，并声明会复核，比单吹榜单更可跟。",
+      "tags": [
+        "Devin",
+        "SWE-bench",
+        "编程Agent",
+        "评测"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2098064044167225730",
+      "author": "huggingface",
+      "bio": "",
+      "text": "Training Agents 4: From reward functions to environments. https://t.co/9VSrFcBiPU",
+      "created_at": "Thu Sep 10 15:00:22 +0000 2026",
+      "likes": 67,
+      "views": "10215",
+      "url": "https://x.com/i/status/2098064044167225730",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "745291183405076480:broadcast",
+        "url": "https://x.com/i/broadcasts/1OxwbngOoXEJB",
+        "domain": "x.com"
+      },
+      "quoted_tweet": null,
+      "score": 58.792,
+      "summary": "训练智能体系列第 4 篇：从奖励函数走向环境。",
+      "recommend_reason": "Hugging Face 官方系列把 Agent 训练焦点从奖励函数推进到环境设计，适合跟进评测与训练范式。",
+      "tags": [
+        "Hugging Face",
+        "Agent",
+        "强化学习",
+        "训练"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2098062103060029568",
+      "author": "jinchenma_ai",
+      "bio": "",
+      "text": "昨天晚上在微信公众号发布的这篇文章，对于我的号来讲算是突破了最近的平均记录。\n\n不到24小时浏览量就跑了1000多，这里面没有做任何的转发推广。\n\n虽然我的号有大几千粉丝，但是根据一般文章被我粉丝阅读的体量来看，这 1000 多的浏览应该大部分都是来自于系统推荐，明天可以看到详细的来源数据了。\n\n所以这也验证了我最近观察国内公众号平台的热点情况，像 Obsidian 这样的关键词，包括像“内附提示词”这样的关键词，都是热点词汇。",
+      "created_at": "Thu Sep 10 14:52:40 +0000 2026",
+      "likes": 1,
+      "views": "301",
+      "url": "https://x.com/i/status/2098062103060029568",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HR3PmfAaMAAxMbs.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HR3PmfAaMAAxMbs.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 55.619,
+      "title": "公众号靠 Obsidian 与「内附提示词」吃到系统推荐",
+      "summary": "作者称公众号文章不到 24 小时破千阅、未做转发推广，推测多为系统推荐。结合账号体量判断，这验证了近期观察：Obsidian、「内附提示词」等词在国内公众号仍是热点关键词。",
+      "recommend_reason": "把流量归因到平台推荐词，比空晒阅读数更有用，能侧面看清国内 AI 内容分发在吃什么词。",
+      "tags": [
+        "公众号",
+        "Obsidian",
+        "提示词",
+        "内容分发"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2098056651907518667",
+      "author": "sairahul1",
+      "bio": "",
+      "text": "Sam Altman: \"in the next 6 months, we're close to a world where a descendant of ChatGPT can watch your screen, record every meeting and call, and have perfect context of your whole life.\"\n\nhe says we're only one model generation away from this being incredibly useful.\n\nthink about what that actually means.\n\nan assistant that never needs you to re-explain anything.\n\nit already knows the project, the client, the last conversation, the thing you said three weeks ago.\n\nyou just ask, and it picks up mid-thought.\n\nthis is the shift from a chatbot you prompt to an assistant that already has the context.\n\nand when you combine that level of intelligence + context with the money-making opportunities, it gets very interesting.\n\nI put together an article breaking down ideas I think have the biggest potential to actually make money using GPT-6 Astra.\n\nDon't just bookmark. Paste it in Codex.",
+      "created_at": "Thu Sep 10 14:31:00 +0000 2026",
+      "likes": 11,
+      "views": "4300",
+      "url": "https://x.com/i/status/2098056651907518667",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2097965715735425024/vid/avc1/480x270/jsBhK6D9E0sAfVYJ.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2097965715735425024/img/QP_HfXcvYduRmCAc.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2097628279381581989",
+        "author": "sairahul1",
+        "name": "Rahul",
+        "text": "GPT-6 Astra isn’t just for chatting.\n\nPeople are using it to build games, automate trading, create content and make real money.\n\n10 ways you can use Astra to start making money today. https://t.co/57O2UF2Wqc",
+        "created_at": "Wed Sep 09 10:08:48 +0000 2026",
+        "url": "https://x.com/sairahul1/status/2097628279381581989",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 59.75,
+      "title": "Altman：下一代助手会盯屏、录会、吃满人生上下文",
+      "summary": "转述 Sam Altman：未来约六个月，ChatGPT 的后代有望盯着你的屏幕、录下每次会议和通话，并拥有近乎完整的人生上下文；他认为再隔一代模型就会非常有用。作者据此讨论从「要你复述」的聊天机器人，转向「已接上项目与旧对话」的助手，并夹带 GPT-6 Astra 变现文推广。",
+      "recommend_reason": "Altman 把屏幕/通话级持续上下文说成近在眼前，是助手形态从对话转向常驻记忆的强官方信号（文末软广可忽略）。",
+      "tags": [
+        "Sam Altman",
+        "ChatGPT",
+        "上下文",
+        "助手"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2098052625141031205",
+      "author": "VigoCreativeAI",
+      "bio": "",
+      "text": "Where should the eye land first?\n\nIn these AI editorial posters, I used color to pick the focal point: a rider’s eyes, a potter’s hands, a dancer’s gesture.\n\nOversized black-and-white halftones carry the image. Sharp color fragments bring selected details forward.\n\nFour subjects, each with its own composition.\n\nPrompt + settings below ↓",
+      "created_at": "Thu Sep 10 14:15:00 +0000 2026",
+      "likes": 9,
+      "views": "382",
+      "url": "https://x.com/i/status/2098052625141031205",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HR2e8wyaUAA0RQi.jpg",
+        "https://pbs.twimg.com/media/HR2e8waXABAX2-I.jpg",
+        "https://pbs.twimg.com/media/HR2e8wWWoAAKWkB.jpg",
+        "https://pbs.twimg.com/media/HR2e8w8bQAE5fSl.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HR2e8wyaUAA0RQi.jpg",
+        "https://pbs.twimg.com/media/HR2e8waXABAX2-I.jpg",
+        "https://pbs.twimg.com/media/HR2e8wWWoAAKWkB.jpg",
+        "https://pbs.twimg.com/media/HR2e8w8bQAE5fSl.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 67.913,
+      "title": "用彩色碎块在黑白网纹海报里指定第一落点",
+      "summary": "作者用 AI 做编辑海报：大面积黑白半调承载主体，再用尖锐色块把视线推到骑手眼神、陶匠双手、舞者手势等焦点。四组题材各有构图，并附提示词与参数。",
+      "recommend_reason": "不是空喊 AI 出图，而是把「第一落点」拆成半调底图+局部上色的可复用视觉手法。",
+      "tags": [
+        "AI绘图",
+        "图像生成",
+        "构图",
+        "提示词"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2098047446110843333",
+      "author": "justinsuntron",
+      "bio": "",
+      "text": "DeepSeek-V4.1-Flash Is Now Live on https://t.co/Id9VsXTy4C",
+      "created_at": "Thu Sep 10 13:54:25 +0000 2026",
+      "likes": 33,
+      "views": "42730",
+      "url": "https://x.com/i/status/2098047446110843333",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "b.ai",
+        "description": "B.AI is the foundational economic infrastructure for AI Agents. Access global top-tier AI models anonymously via our borderless payment system. We provide a unified API and settlement network,...",
+        "image_url": "https://pbs.twimg.com/card_img/2096410461734567936/YIb_BZhS?format=png&name=600x600",
+        "url": "https://B.AI",
+        "domain": "b.ai"
+      },
+      "quoted_tweet": {
+        "id": "2098047076043288952",
+        "author": "BAI_AGI",
+        "name": "B.AI",
+        "text": "📢 DeepSeek-V4.1-Flash Is Now Live on https://t.co/mTw8ldBplF\n\nDeepSeek’s newly released native multimodal MoE model, DeepSeek-V4.1-Flash, features a 552B parameter backbone and a pioneering Causal Encoder-Decoder architecture. Supporting a 1M context window and up to 384K output, it is engineered for long-horizon coding agents, multimodal software workflows, and high-concurrency agentic systems.\n\nWeb Chat and API access are now live. Stay tuned, even bigger perks are coming soon!\n\n👉 Try now: https://t.co/vi1PDjFZn0\n🔗 Learn more: https://t.co/fBbfQHzwrT",
+        "created_at": "Thu Sep 10 13:52:57 +0000 2026",
+        "url": "https://x.com/BAI_AGI/status/2098047076043288952",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HR3CsTwa8AAN1z0.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HR3CsTwa8AAN1z0.jpg"
+        ]
+      },
+      "score": 53.184,
+      "summary": "DeepSeek-V4.1-Flash 现已上线。",
+      "recommend_reason": "短讯但指向具体型号上线，适合作为 DeepSeek 产品线节奏的一条节点记录。",
+      "tags": [
+        "DeepSeek",
+        "模型发布"
+      ],
+      "rank": 10
+    },
+    {
       "id": "2097890067998232902",
       "author": "gkxspace",
       "bio": "",
@@ -42,7 +382,7 @@
         "工作流",
         "Skill"
       ],
-      "rank": 1
+      "rank": 11
     },
     {
       "id": "2097884753903128616",
@@ -66,7 +406,7 @@
         "安全",
         "产品"
       ],
-      "rank": 2
+      "rank": 12
     },
     {
       "id": "2097884271780466940",
@@ -122,7 +462,7 @@
         "图像生成",
         "拼贴"
       ],
-      "rank": 3
+      "rank": 13
     },
     {
       "id": "2097878840655626568",
@@ -146,7 +486,7 @@
         "代码审查",
         "提示词"
       ],
-      "rank": 4
+      "rank": 14
     },
     {
       "id": "2097878411108913316",
@@ -176,7 +516,7 @@
         "3D",
         "Computer Use"
       ],
-      "rank": 5
+      "rank": 15
     },
     {
       "id": "2097875223827857528",
@@ -220,7 +560,7 @@
         "一致性",
         "音效"
       ],
-      "rank": 6
+      "rank": 16
     },
     {
       "id": "2097873076847264184",
@@ -266,7 +606,7 @@
         "Codex",
         "桌面宠物"
       ],
-      "rank": 7
+      "rank": 17
     },
     {
       "id": "2097871189058462013",
@@ -291,10 +631,10 @@
         "工作流",
         "模型选型"
       ],
-      "rank": 8
+      "rank": 18
     }
   ],
-  "generated_at": "2026-09-10T04:04:46Z",
+  "generated_at": "2026-09-10T16:12:22Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -302,11 +642,11 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 8,
-    "last_batch_added": 8,
+    "actual_count": 18,
+    "last_batch_added": 10,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
