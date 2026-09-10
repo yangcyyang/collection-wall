@@ -1,8 +1,8 @@
 {
   "source": "xiaoxiaodong01",
   "title": "xiaoxiaodong01 提示词",
-  "updated_at": "2026-09-10T10:38:37Z",
-  "count": 210,
+  "updated_at": "2026-09-10T13:35:41Z",
+  "count": 211,
   "items": [
     {
       "id": "2090817611953270966",
@@ -4437,6 +4437,32 @@
         {
           "url": "https://pbs.twimg.com/media/HRq1ctNbMAALIpJ.jpg",
           "poster": "https://pbs.twimg.com/media/HRq1ctNbMAALIpJ.jpg"
+        }
+      ]
+    },
+    {
+      "id": "2098023931357835269",
+      "author": "xiaoxiaodong01",
+      "url": "https://x.com/i/status/2098023931357835269",
+      "created_at": "2026-09-10T12:20:59+00:00",
+      "text": "GPT2 x 蹭热点 x 折叠 x 万物 x 美学提示词 x 创意\n\n在国际大厂的启发下， 发明了这个提示词\n默默许愿：希望送我折叠屏手机的朋友，换成苹果电脑，那个我更需要...\n\n完整提示词，真是简洁优雅：\n```\n🤠🧐🥸\n苹果官网产品发布会首屏风格横版海报，16:9，纯白色极简背景，大量留白，垂直居中流式排布。\n\n从上到下依次为：\n1. 顶部超大号黑色粗体无衬线主标题（SF Pro Display Bold / Helvetica Neue Bold 量级），中西文混排，i小写、英文后缀首字母大写；\n2. 主标题下方两行中灰色中文副标题，常规字重无衬线，行高1.5，居中，语气冷静克制，像科技公司发布会通稿；\n3. 再往下两行更小的中灰色居中发售信息；\n4. 中下部左右并排两个胶囊形大圆角按钮：左侧为黑底白字实心主按钮，右侧为白底、1px细黑描边、黑字的次按钮，两按钮等宽对齐；\n5. 画面下半部，一双真实质感的人手从画面下方伸入，左右对称地托举产品，手腕以下裁切在画面底边；产品沿中缝对折/翻开成\"可折叠设备\"形态，居中放置，产品下方有柔和淡灰色接触阴影。\n\n全局除产品本身的品牌色外，全部为黑白灰配色；影棚柔光，无硬阴影；皮肤、塑料包装、印刷文字均写实高清；画面干净通透，无任何装饰元素。\n整体气质：用旗舰数码新品的视觉语言，一本正经地呈现一个廉价/日常消费品，制造严肃与市井之间的反差幽默感。\n\n产品：泡菜\n😑🙄😌\n```",
+      "prompt": "🤠🧐🥸\n苹果官网产品发布会首屏风格横版海报，16:9，纯白色极简背景，大量留白，垂直居中流式排布。\n\n从上到下依次为：\n1. 顶部超大号黑色粗体无衬线主标题（SF Pro Display Bold / Helvetica Neue Bold 量级），中西文混排，i小写、英文后缀首字母大写；\n2. 主标题下方两行中灰色中文副标题，常规字重无衬线，行高1.5，居中，语气冷静克制，像科技公司发布会通稿；\n3. 再往下两行更小的中灰色居中发售信息；\n4. 中下部左右并排两个胶囊形大圆角按钮：左侧为黑底白字实心主按钮，右侧为白底、1px细黑描边、黑字的次按钮，两按钮等宽对齐；\n5. 画面下半部，一双真实质感的人手从画面下方伸入，左右对称地托举产品，手腕以下裁切在画面底边；产品沿中缝对折/翻开成\"可折叠设备\"形态，居中放置，产品下方有柔和淡灰色接触阴影。\n\n全局除产品本身的品牌色外，全部为黑白灰配色；影棚柔光，无硬阴影；皮肤、塑料包装、印刷文字均写实高清；画面干净通透，无任何装饰元素。\n整体气质：用旗舰数码新品的视觉语言，一本正经地呈现一个廉价/日常消费品，制造严肃与市井之间的反差幽默感。\n\n产品：泡菜\n😑🙄😌",
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HR2tIu6bsAARgF4.jpg",
+          "poster": "https://pbs.twimg.com/media/HR2tIu6bsAARgF4.jpg"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HR2tKRGaMAAL22n.jpg",
+          "poster": "https://pbs.twimg.com/media/HR2tKRGaMAAL22n.jpg"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HR2tMbea0AAfdD_.jpg",
+          "poster": "https://pbs.twimg.com/media/HR2tMbea0AAfdD_.jpg"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HR2tOmpbAAALBjg.jpg",
+          "poster": "https://pbs.twimg.com/media/HR2tOmpbAAALBjg.jpg"
         }
       ]
     }
