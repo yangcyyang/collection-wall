@@ -1,21 +1,20 @@
 {
   "source": "xiaohongshu-sidehustle",
   "title": "小红书副业机会雷达",
-  "date": "2026-09-05",
-  "updated_at": "2026-09-05T07:10:00+08:00",
+  "date": "2026-09-10",
+  "updated_at": "2026-09-10T18:35:00+08:00",
   "count": 47,
   "summary": {
     "today_judgement": [
-      "今日官方 search 全通（26/26）：最硬付费仍是「交付结果」——包月剪辑匹配、Codex工作流/代配置、电商美工主图详情；相对昨日，剪辑包月从甲方招人帖与「怎么联系」询盘两侧同时加分。",
-      "新增亮点：AI生图报价帖评论出现「愿意有偿」拜师；有偿求「AI项目改造前后对比视频」成垂直缺口；详情页3100合理性讨论确认中档设计仍有人付钱。",
-      "降权：简历区「宝私私」获客刷屏；PPT求代做帖供给洪水+AI自助叙事；经营表免费求分享仍多于付费；低端AI漫剧成本卷、伪副业月入模板文。"
+      "【采集受阻】今日 OpenCLI whoami=瑶姐的潮玩店 OK，但 www 搜索触发「电脑设备登录超限」+验证码：30 词有效非空搜索=0，评论刷新成功=0。",
+      "【延续判断·非今日新证】在无法刷新前提下，仍优先关注可交付结果的 A 服务：包月剪辑匹配、Codex工作流/代配置、电商美工主图详情；指数较 09-05 略下调并标 signal mid/weak。",
+      "【降权不变】简历获客话术、PPT供给洪水、伪副业月入模板；数字人继续偏弱。恢复登录后需重跑 search+comments 再升格为 strong。"
     ],
     "top_signals": [
-      "寻找多个包月剪辑师：评论「借楼求代剪包月」「招电商剪辑长期」「满意可包月」。",
-      "剪辑省心包月帖：多条「怎么联系」「礼貌问价」「我需要」。",
-      "有偿求写Codex skill：评论纠正为工作流；企业5-50万、个人有偿常几百。",
-      "详情页3100贵吗：评论称AI流水线一天3-5套；另有「一百块一套」地板价对比。",
-      "AI生图报价单：评论「愿意有偿」找师傅；200/张 vs 1元体验套装争论。"
+      "（09-05未刷新）包月剪辑：满意可包月 / 借楼求代剪 / 怎么联系·礼貌问价",
+      "（09-05未刷新）Codex：工作流非单Skill；企业5-50万、个人有偿几百；同求·问价",
+      "（09-05未刷新）AI生图：愿意有偿拜师；200/张良心价讨论",
+      "（今日事实）搜索墙截图 raw/_search_wall.png：电脑设备登录超限，请重新登录"
     ]
   },
   "sections": {
@@ -23,8 +22,8 @@
       {
         "id": "opp-jianji-baoyue",
         "title": "短视频包月剪辑 / 长期代剪匹配",
-        "summary": "【事实】本轮「寻找多个包月剪辑师」评论区甲方与借楼需求密集：长期稳定、提供素材、满意可包月、电商/汽车/动漫切片；「视频剪辑省心包月」帖下大量「怎么联系」「礼貌问价」。报价帖评论出现「一分钟5元」地板与「宣传片不低于800-1000/分钟」分层。【机会】缺口在试剪漏斗+垂直行业包月，而非再发接单帖。",
-        "why": "需求侧包月/长期词清晰，供给嘈杂——做筛选与分层报价可切入。",
+        "summary": "【推断·延续】09-05 最硬付费信号：甲方「满意可包月」+借楼求代剪，与供给帖「怎么联系/礼貌问价」双侧。今日 www 登录超限未能刷新评论。【机会假设】缺口仍在试剪漏斗+垂直行业包月匹配，而非再发接单帖。",
+        "why": "需求侧包月/长期词清晰；今日无法验证是否仍升温。",
         "audience": "日更口播/电商信息流/垂直账号",
         "result": "稳定交片的口播或产品成片（包月N条）",
         "offer": "试剪1条+包月套餐；按口播/信息流/宣传片分层",
@@ -33,38 +32,38 @@
         "start_cost": "low",
         "delivery": "mid",
         "competition": "high",
-        "index": 28,
+        "index": 27,
         "tags": [
           "剪辑",
           "包月",
           "长期合作"
         ],
-        "signal_strength": "strong",
+        "signal_strength": "mid",
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/search_result/6a4d5b440000000011011aaf?xsec_token=ABG9dWI8KnpNgSVjiByUGzHZR0IX5JgvSDe2oBuXSz&xsec_source=",
             "title": "寻找多个包月剪辑师",
-            "note": "评论：满意可包月；借楼求代剪包月；招电商长期剪辑"
+            "note": "【09-05评论·今日未刷新】招剪辑满意可包月；借楼求代剪包月"
           },
           {
             "url": "https://www.xiaohongshu.com/search_result/6a438b19000000001c026188?xsec_token=AByoA8T2NJQGftOfu7_AZyiyd-Uzc3dwEU4Ye36UQR&xsec_source=",
             "title": "视频剪辑省心包月/先试剪满意再合作",
-            "note": "多条怎么联系/礼貌问价/我需要"
+            "note": "【09-05评论·今日未刷新】多条怎么联系/礼貌问价/我需要"
           },
           {
             "url": "https://www.xiaohongshu.com/search_result/69fdf673000000001f003b0f?xsec_token=AByErNHOmJXuzU2C9UXCOMV5RIVMCXGwlb66ZUH0osQQY=&xsec_source=",
             "title": "大家觉得这个剪辑报价合理吗？",
-            "note": "一分钟5元地板；宣传片同行称不低于800-1000/分"
+            "note": "【09-05】一分钟5元地板；宣传片分层讨论"
           }
         ],
         "first_detected": "2026-09-04",
-        "last_updated": "2026-09-05"
+        "last_updated": "2026-09-10"
       },
       {
         "id": "opp-codex-workflow",
         "title": "Codex / Agent 工作流与代配置（非卖Skill清单）",
-        "summary": "【事实】「有偿求写codex skill」评论再次强调：文案-素材-配音-剪辑日更=工作流非单Skill；企业搭建5-50万、个人有偿常几百且要调通。「有没有老师接codex代做」仍有同求/礼貌问价；「代装也能赚」评论承认信息差、奶茶价代装覆盖token。【降权】Skill安装搜索多为教程安利。",
-        "why": "真缺口在调通流水线与需求澄清，不是再发Skill清单。",
+        "summary": "【事实·09-05】有偿求写skill评论纠正为工作流；企业5-50万、个人几百；代做帖同求/问价。【今日】未能拉取新评论。【机会假设】真缺口仍在调通流水线与需求澄清。",
+        "why": "信息差+明确有偿求助结构仍在历史证据中。",
         "audience": "想自动化内容/出片但配不通的创作者与小商家",
         "result": "可日更跑通的流水线+失败重试",
         "offer": "代配置单次+垂直Skill包+一周陪跑；代装低价引流",
@@ -73,812 +72,564 @@
         "start_cost": "low",
         "delivery": "high",
         "competition": "mid",
-        "index": 27,
+        "index": 26,
         "tags": [
           "codex",
           "workflow",
           "skill"
         ],
-        "signal_strength": "strong",
+        "signal_strength": "mid",
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/search_result/6a474c6f000000000f01444d?xsec_token=ABK_nC72f29GHjoiQmkW7MLIE1Uw3U3diNHm1TeBLE&xsec_source=",
             "title": "有偿求助！技术大佬帮忙写一个codex的skill",
-            "note": "评论：工作流；企业5-50万；个人有偿几百"
+            "note": "【09-05评论】工作流非单Skill；企业5-50万；个人有偿常几百"
           },
           {
             "url": "https://www.xiaohongshu.com/search_result/6a89cfbe000000001600977f?xsec_token=AB-FJCztwrSp9kmOA7UVQitm4m2vV3srHXVy_fZ5x5&xsec_source=",
             "title": "有没有老师接codex代做？",
-            "note": "同求；礼貌问价；需具体聊无法笼统报价"
+            "note": "【09-05评论】同求；礼貌问价"
           },
           {
             "url": "https://www.xiaohongshu.com/search_result/6a711901000000002102192b?xsec_token=ABFA3e-YMBnvD-H-voBzxqJDZ_bUBGNIU50JNCyppY&xsec_source=",
             "title": "代装也能赚？",
-            "note": "评论：信息差；奶茶价代装覆盖token"
+            "note": "【09-05】信息差；奶茶价代装"
           }
         ],
         "first_detected": "2026-09-04",
-        "last_updated": "2026-09-05"
+        "last_updated": "2026-09-10"
       },
       {
         "id": "opp-ecommerce-design-monthly",
         "title": "电商美工包月 / 主图详情SKU套图",
-        "summary": "【事实】搜索见「急急急、美工包月有人接单吗？」（评论遇SECURITY_BLOCK）；「一星期详情页3100贵吗」评论讨论AI流水线一天3-5套、一百块一套地板对比；平面/美工接单帖下「电商主图可以接不」「急召美工兼职一单一结」；设计师报价单评论「详情有的收1200」。【推断】包月与中档套图仍有人付钱，AI降本后要守交付标准。",
-        "why": "包月询价=持续付费；AI生图+精修可提人效。",
-        "audience": "无专职美工或预算紧的电商店铺",
-        "result": "可上架的主图/详情/SKU套图",
-        "offer": "单套199-799；包月出图；白底+场景模板",
+        "summary": "【延续09-05】美工包月接单问句、详情中档价讨论、AI流水线冲击手搓溢价。【今日未刷新】。",
+        "why": "商家持续要出图产能；A服务可沉淀为模板/价目数字产品。",
+        "audience": "电商商家/新店主",
+        "result": "主图+详情+SKU套图按时交付",
+        "offer": "单套199-799；包月出图",
         "model": "service",
-        "ai_help": "AI批量生图+人工选图精修",
+        "ai_help": "AI出图+人工精修与品牌一致性",
         "start_cost": "low",
         "delivery": "mid",
-        "competition": "mid",
-        "index": 26,
+        "competition": "high",
+        "index": 25,
         "tags": [
           "美工",
           "详情页",
           "包月"
         ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/search_result/6a4cac9f000000001101abbe?xsec_token=ABNynQV5nEG9peUQVEmHiY6MAjONZaMXkxWoGLyVbT&xsec_source=",
-            "title": "求助！一星期做的详情页3100贵吗？",
-            "note": "AI流水线3-5套/天；一百块一套对比"
-          },
-          {
-            "url": "https://www.xiaohongshu.com/search_result/6a7493b200000000220169c9?xsec_token=ABHsj4_-YLNeY6D-RuOqpCiud1ZE-B4j-Wxa0XPdJgPFc=&xsec_source=",
-            "title": "急急急、美工包月有人接单吗？",
-            "note": "标题即包月需求（本轮评论SECURITY_BLOCK）"
-          },
-          {
-            "url": "https://www.xiaohongshu.com/search_result/69d46ecf0000000021005d94?xsec_token=AB_dxkKR6UR1Niyd2IeXDbxPrtgyV8XwBYUeOr5CeF&xsec_source=",
-            "title": "平面设计接单啦",
-            "note": "评论：电商主图可以接不；合作嘛"
-          }
-        ],
-        "first_detected": "2026-09-04",
-        "last_updated": "2026-09-05"
-      },
-      {
-        "id": "opp-excel-ops-template",
-        "title": "Excel / 经营表格代做与可复用模板",
-        "summary": "【事实】昨日强信号帖「excel代做这么贵」本轮评论SECURITY_BLOCK；新供给帖「Word/Excel代做」评论出现「怎么收费」「还接吗」。经营表/损益表帖评论仍以「求分享」「已私」免费导向为主。【推断】中档经营表199+需求仍在，但需用案例帖验证，避开作业/3元地板。",
-        "why": "付费词历史清晰、AI可降本；今日证据偏供给询价与免费求表——定位要上移。",
-        "audience": "小商家、做月报职场人",
-        "result": "可用的对账/比价/损益表（含2次修改）",
-        "offer": "单次199；行业模板29-99；包月维护",
-        "model": "service",
-        "ai_help": "GPT澄清需求+公式/看板生成",
-        "start_cost": "low",
-        "delivery": "low",
-        "competition": "mid",
-        "index": 25,
-        "tags": [
-          "excel",
-          "template",
-          "ops"
-        ],
         "signal_strength": "mid",
         "evidence": [
           {
-            "url": "https://www.xiaohongshu.com/search_result/6a97d2a5000000002803b496?xsec_token=ABPvcokCxuvFLcIrJgTikvuPTJRETdk9gOUinzpeSp&xsec_source=",
-            "title": "代做Word/Excel/pdf各类文档，包售后",
-            "note": "评论：怎么收费；还接吗；现在能做不"
-          },
-          {
-            "url": "https://www.xiaohongshu.com/search_result/6a0e67f7000000003501f21c?xsec_token=AB89cO7Li7Hgw4u_Lv_rq-v_HEttxLj3_WYDITefLr&xsec_source=",
-            "title": "为什么excel代做这么贵啊🥲",
-            "note": "昨日有「可付费做模板」；本轮评论SECURITY_BLOCK"
-          },
-          {
-            "url": "https://www.xiaohongshu.com/search_result/69169288000000000d03c4cc?xsec_token=ABttG1WDRvJn4jbJq4sPvqr8pTTvF7JqZFxy7aR4Kv&xsec_source=",
-            "title": "餐饮人必存！月度损益表，直接拿去用",
-            "note": "求分享/已私为主——付费转化待验证"
+            "url": "https://www.xiaohongshu.com/search_result/6a4cac9f000000001101abbe?xsec_token=",
+            "title": "详情页相关讨论（3100/一百块一套）",
+            "note": "【09-05评论】愿意一百块一套详情吗"
           }
         ],
         "first_detected": "2026-09-04",
-        "last_updated": "2026-09-05"
+        "last_updated": "2026-09-10"
       },
       {
-        "id": "opp-ai-product-image",
+        "id": "opp-excel-ops",
+        "title": "Excel / 经营表格代做与可复用模板",
+        "summary": "【延续】供给侧「怎么收费」曾出现；免费求分享仍多——定位上移经营表，避开作业。【今日搜索空】。",
+        "why": "可A→B：代做验证需求后卖行业模板。",
+        "audience": "小商家/餐饮/宝妈店主",
+        "result": "可直接用的经营/损益/进销存表",
+        "offer": "单次199含2改；模板29-99",
+        "model": "service",
+        "ai_help": "需求澄清+公式生成",
+        "start_cost": "low",
+        "delivery": "low",
+        "competition": "mid",
+        "index": 24,
+        "tags": [
+          "Excel",
+          "经营表",
+          "模板"
+        ],
+        "signal_strength": "weak",
+        "evidence": [
+          {
+            "url": "",
+            "title": "Excel代做/经营表主题（09-05）",
+            "note": "今日关键词搜索返回空；沿用09-05判断"
+          }
+        ],
+        "first_detected": "2026-09-04",
+        "last_updated": "2026-09-10"
+      },
+      {
+        "id": "opp-aigen-retouch",
         "title": "AI商品图/商业修图分层接单",
-        "summary": "【事实】「AI生图报价单」评论：有人「愿意有偿」找师傅学；讨论200/张良心价 vs 1元体验一套；商业修图从业者称可先免费试做加水印满意付款。【机会】按基础修图/精修/批量出图三档报价，避开纯低价卷。",
-        "why": "询价与有偿学习并存，说明市场认交付差异。",
-        "audience": "电商卖家、需要场景图的品牌方",
-        "result": "可上架商品图/场景精修",
+        "summary": "【事实·09-05评论】「想学AI生图…愿意有偿」；「报价200一张真的良心价」。【机会】三档+试修水印后付款。",
+        "why": "有偿拜师+明确单价讨论。",
+        "audience": "电商/个人品牌",
+        "result": "可上架的商品场景图",
         "offer": "三档套餐+试修1张",
         "model": "service",
-        "ai_help": "AI出图+人工精修与选图",
+        "ai_help": "AI生图批量+人工商业精修",
         "start_cost": "low",
         "delivery": "mid",
         "competition": "high",
-        "index": 24,
+        "index": 23,
         "tags": [
           "AI生图",
           "商品图",
-          "修图"
+          "拜师"
         ],
-        "signal_strength": "strong",
+        "signal_strength": "mid",
         "evidence": [
           {
-            "url": "https://www.xiaohongshu.com/search_result/69e191b5000000002200fab5?xsec_token=ABYtQoIjN9sPDmhYkYP2mfjnxMCnSLU6XrrF4tP7kz&xsec_source=",
-            "title": "AI代出图｜AI绘图｜AI制图｜AI生图报价单",
-            "note": "愿意有偿拜师；200/张 vs 1元体验；试修满意付款"
+            "url": "https://www.xiaohongshu.com/search_result/69e191b5000000002200fab5?xsec_token=",
+            "title": "AI生图报价相关帖",
+            "note": "【09-05评论原话】想学AI生图…愿意有偿；报价200一张真的良心价"
           }
         ],
         "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05"
+        "last_updated": "2026-09-10"
       },
       {
-        "id": "opp-ai-video-tiered",
-        "title": "AI视频分层报价（避开漫剧白菜价）",
-        "summary": "【事实】「35秒漫剧多少钱」爆帖评论：个人可压到约8元/3小时，但也有公司年费约4000、上月烧1.6万；「做AI视频半年花多少」总花费约6437元讨论回本。【推断】低端漫剧卷死，中档企业宣传/电商短视频/改造前后对比仍有定制空间。",
-        "why": "成本透明化后，只有分层交付能活。",
-        "audience": "企业宣传、电商短视频、项目展示账号",
-        "result": "可投放成片",
-        "offer": "分档套餐+试剪15s",
+        "id": "opp-ai-video-vertical",
+        "title": "AI视频分层报价（垂直对比视频优先）",
+        "summary": "【延续】避开漫剧白菜价；09-05出现「有偿求改造前后对比视频」垂直缺口。【今日】「对比视频 有偿」「改造前后 对比」搜索均空，无法确认是否仍在发帖。",
+        "why": "具体交付物+有偿词强于泛AI视频。",
+        "audience": "家装/改造/项目展示账号",
+        "result": "改造前后对比成片",
+        "offer": "单条对比视频报价；包月系列",
         "model": "service",
-        "ai_help": "脚本AI+生成+人工精剪",
+        "ai_help": "AI生成转场/字幕+人工节奏",
         "start_cost": "low",
         "delivery": "mid",
-        "competition": "high",
-        "index": 22,
+        "competition": "mid",
+        "index": 21,
         "tags": [
           "AI视频",
-          "报价",
-          "分层"
+          "对比视频",
+          "有偿"
         ],
-        "signal_strength": "mid",
+        "signal_strength": "weak",
         "evidence": [
           {
-            "url": "https://www.xiaohongshu.com/search_result/6a7ad236000000002402f17b?xsec_token=ABAECAcx6I35xaUzBQdl07&xsec_source=",
-            "title": "用AI做一条35秒漫剧，到底要花多少钱？",
-            "note": "约8元成本叙事；公司年费/烧钱讨论"
-          },
-          {
-            "url": "https://www.xiaohongshu.com/search_result/69dd0980000000001d01bfab?xsec_token=ABRx0L-9LGqBG8U3nHbCdDeT-0jwk5Q5eHUcHWH6b5WjM=&xsec_source=",
-            "title": "做AI视频半年，花了多少钱？",
-            "note": "约6437元工具费；回本质疑"
-          },
-          {
-            "url": "https://www.xiaohongshu.com/search_result/6a9a93650000000028029439?xsec_token=ABXFpol3gVqMuSPUzfRnMReJBWWj49TOJxzQXVUDr_JDo=&xsec_source=",
-            "title": "有偿求会AI制作项目改造前后变化的视频",
-            "note": "垂直有偿需求标题"
-          }
-        ],
-        "first_detected": "2026-09-04",
-        "last_updated": "2026-09-05"
-      },
-      {
-        "id": "opp-notion-template",
-        "title": "Notion/生产力模板（卖时间差不是卖课）",
-        "summary": "【事实】「为什么有人花钱买Notion模板」评论：有人花15u买合辑；类比PPT模板省时间；也有人认为自定义需求模板无意义。【机会】垂直场景成品模板（项目经理看板/内容日历）比泛「月入」教程真。",
-        "why": "付费逻辑是省时间，伪副业是教卖模板赚钱。",
-        "audience": "知识工作者、小型团队",
-        "result": "开箱即用的Notion工作区",
-        "offer": "单模板29-99；合辑149；含一次定制改",
-        "model": "digital",
-        "ai_help": "AI生成结构+人工打磨字段与视图",
-        "start_cost": "low",
-        "delivery": "low",
-        "competition": "mid",
-        "index": 20,
-        "tags": [
-          "notion",
-          "模板",
-          "数字产品"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/search_result/674bc9f8000000000202dcd7?xsec_token=ABnOhzJcH0qKTh8uW3jYuG9W2auXEOacovspc5JDxQ&xsec_source=",
-            "title": "我不李姐为什么会有人花钱去买Notion模板？",
-            "note": "15u买合辑；省时间成本争论"
+            "url": "",
+            "title": "有偿求改造前后对比视频（09-05标题信号）",
+            "note": "今日未能检索到新帖"
           }
         ],
         "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05"
+        "last_updated": "2026-09-10"
       },
       {
-        "id": "opp-digital-human-light",
-        "title": "数字人轻交付 / 选型代配置",
-        "summary": "【事实】搜索仍有数字人报价参考与「多少钱一条」讨论；本轮报价参考帖评论仅「护肤讲解可以吗」「怎么弄」——信号弱于昨日「可月付供应商」帖。【机会假设】帮选型+出第一条口播仍可能，但今日证据降温。",
-        "why": "需求在，但本轮评论薄——保持观察。",
-        "audience": "不想露脸的商家/创作者",
-        "result": "第一条可发布口播+可月付方案",
-        "offer": "选型咨询+代配置+包月出片",
-        "model": "service",
-        "ai_help": "数字人生成+脚本润色",
-        "start_cost": "low",
-        "delivery": "mid",
-        "competition": "mid",
-        "index": 18,
-        "tags": [
-          "数字人",
-          "口播"
-        ],
-        "signal_strength": "weak",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/search_result/693fa350000000001b026317?xsec_token=ABhyQKWkKbfu3Km7dbDl9cW2RPWOaOeQ6F4XWaM2K1EnU=&xsec_source=",
-            "title": "AI 数字人 / AI 视频 接单报价参考",
-            "note": "评论薄：护肤讲解可以吗；怎么弄"
-          }
-        ],
-        "first_detected": "2026-09-04",
-        "last_updated": "2026-09-05"
-      },
-      {
-        "id": "opp-ppt-premium-only",
-        "title": "PPT仅做加急/比赛/品牌档（降权纯代做）",
-        "summary": "【事实】「如图求ppt代做」评论区供给刷屏：3元/页起、手搓无AI、团队定制；同时搜索侧大量AI一键生成PPT教程。【降权】纯代做红海，只留加急/赛事/品牌叙事。",
-        "why": "供给过剩+AI自助，溢价只在场景与审美。",
-        "audience": "比赛/商务汇报加急需求方",
-        "result": "可上台的定制PPT",
-        "offer": "加急档/赛事档，不做低价页数战",
-        "model": "service",
-        "ai_help": "AI出骨架+人工版式",
-        "start_cost": "low",
-        "delivery": "mid",
-        "competition": "high",
-        "index": 15,
-        "tags": [
-          "ppt",
-          "加急"
-        ],
-        "signal_strength": "weak",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/search_result/6a98dbea0000000012036804?xsec_token=ABVJx25F1I6PjMJNShuNG89QjlJC6vASYESrdvyYet&xsec_source=",
-            "title": "如图求ppt代做！！",
-            "note": "供给洪水；楼主要20页+带案例"
-          }
-        ],
-        "first_detected": "2026-09-04",
-        "last_updated": "2026-09-05"
-      },
-      {
-        "id": "opp-resume-demote",
-        "title": "简历优化（降权：私信获客刷屏）",
-        "summary": "【事实】「付费改简历后续」评论几乎全是「问价」+从业者「宝私私/丝丝」获客模板，缺乏具体价位与交付标准讨论。【降权】今日不作为主攻，除非能做出垂直行业案例。",
-        "why": "看起来热、实际是获客话术战。",
-        "audience": "应届/转行求职者",
-        "result": "可投递简历+修改说明",
-        "offer": "AI初稿+人工痛点批改（若做）",
-        "model": "service",
-        "ai_help": "AI初稿结构化",
+        "id": "opp-notion-tpl",
+        "title": "Notion/生产力垂直模板",
+        "summary": "【延续09-05】有人为省时间付费买合辑；卖垂直模板不卖月入课。",
+        "why": "B模式边际成本低。",
+        "audience": "知识工作者/学生",
+        "result": "开箱即用的垂直工作区",
+        "offer": "单模板29-99或合辑",
+        "model": "digital",
+        "ai_help": "AI辅助生成结构后人工打磨",
         "start_cost": "low",
         "delivery": "low",
         "competition": "high",
-        "index": 12,
+        "index": 19,
         "tags": [
-          "简历",
+          "Notion",
+          "模板"
+        ],
+        "signal_strength": "weak",
+        "evidence": [
+          {
+            "url": "",
+            "title": "Notion模板讨论（09-05）",
+            "note": "花15u买模版合辑——今日未刷新"
+          }
+        ],
+        "first_detected": "2026-09-05",
+        "last_updated": "2026-09-10"
+      },
+      {
+        "id": "opp-digital-human",
+        "title": "数字人轻交付/选型咨询",
+        "summary": "【降温延续】09-05已弱；今日「数字人 报价」搜索空。",
+        "why": "供给叙事多、硬付费原话少。",
+        "audience": "想做口播但不露脸的创作者",
+        "result": "可用的数字人口播成片或选型方案",
+        "offer": "单条试做+包月",
+        "model": "service",
+        "ai_help": "数字人工具链批量出片",
+        "start_cost": "mid",
+        "delivery": "mid",
+        "competition": "high",
+        "index": 16,
+        "tags": [
+          "数字人"
+        ],
+        "signal_strength": "weak",
+        "evidence": [
+          {
+            "url": "",
+            "title": "数字人报价关键词（今日空）",
+            "note": "无新证据"
+          }
+        ],
+        "first_detected": "2026-09-04",
+        "last_updated": "2026-09-10"
+      },
+      {
+        "id": "opp-ppt-urgent-only",
+        "title": "PPT仅加急/赛事/品牌档",
+        "summary": "【降权】供给洪水+AI自助；仅加急/比赛档可试。",
+        "why": "泛代做竞争极高。",
+        "audience": "参赛学生/商务加急",
+        "result": "限时可用的演示稿",
+        "offer": "加急档溢价",
+        "model": "service",
+        "ai_help": "AI生成初稿+人工版式",
+        "start_cost": "low",
+        "delivery": "low",
+        "competition": "high",
+        "index": 14,
+        "tags": [
+          "PPT",
           "降权"
         ],
         "signal_strength": "weak",
         "evidence": [
           {
-            "url": "https://www.xiaohongshu.com/search_result/69c30ff3000000001a03613f?xsec_token=ABSp9Hloil9pbohynrPEa2LXuwnaytUDAQhHZp03I1&xsec_source=",
-            "title": "付费改简历后续‼️",
-            "note": "问价+宝私私刷屏"
+            "url": "",
+            "title": "AI PPT 代做（今日AUTH/空）",
+            "note": "伪需求与供给刷屏风险高"
           }
         ],
         "first_detected": "2026-09-04",
-        "last_updated": "2026-09-05"
+        "last_updated": "2026-09-10"
+      },
+      {
+        "id": "opp-resume-demote",
+        "title": "简历优化（继续降权）",
+        "summary": "【降权】「问价+宝私私」获客话术多，缺真实价位讨论；今日未刷新。",
+        "why": "难回答谁付/为何付/买到什么。",
+        "audience": "求职者",
+        "result": "可投递简历",
+        "offer": "优化单次",
+        "model": "service",
+        "ai_help": "AI改写+人工定位",
+        "start_cost": "low",
+        "delivery": "low",
+        "competition": "high",
+        "index": 11,
+        "tags": [
+          "简历",
+          "降权",
+          "伪副业风险"
+        ],
+        "signal_strength": "weak",
+        "evidence": [
+          {
+            "url": "",
+            "title": "简历 代做（今日空）",
+            "note": "沿用降权判断"
+          }
+        ],
+        "first_detected": "2026-09-04",
+        "last_updated": "2026-09-10"
       }
     ],
     "new_demands": [
       {
-        "id": "nd-ai-before-after-video",
-        "title": "有偿求：AI项目改造前后对比视频",
-        "summary": "【事实】搜索「有偿求」出现「有偿求会AI制作项目改造前后变化的视频」。【机会假设】装修/工地/品牌改造类甲方要前后对比短片，可用AI辅助做转场与补帧。",
-        "why": "标题含有偿+具体交付物，供给尚未成海。",
-        "audience": "装修/工程/品牌改造展示方",
-        "result": "前后对比短视频",
-        "offer": "单条报价+素材清单",
+        "id": "nd-login-block-caveat",
+        "title": "【采集异常】今日无法确认新增需求",
+        "summary": "【事实】www 端「电脑设备登录超限」导致 30 词搜索有效非空=0、评论刷新=0。以下三条为 09-05 新增需求的延续待核项，非今日新发现。",
+        "why": "避免把旧信号写成今日新增。",
+        "audience": "研究员",
+        "result": "待重新登录后复核",
+        "offer": null,
         "model": "service",
-        "signal_strength": "mid",
+        "ai_help": null,
+        "start_cost": "low",
+        "delivery": "low",
+        "competition": "low",
+        "index": null,
         "tags": [
-          "AI视频",
-          "改造前后",
-          "有偿"
+          "采集受阻"
         ],
+        "signal_strength": "weak",
         "evidence": [
           {
-            "url": "https://www.xiaohongshu.com/search_result/6a9a93650000000028029439?xsec_token=ABXFpol3gVqMuSPUzfRnMReJBWWj49TOJxzQXVUDr_JDo=&xsec_source=",
-            "title": "有偿求会AI制作项目改造前后变化的视频",
-            "note": "标题即有偿需求"
+            "url": "",
+            "title": "search wall screenshot",
+            "note": "raw/_search_wall.png 显示电脑设备登录超限"
+          }
+        ],
+        "first_detected": "2026-09-10",
+        "last_updated": "2026-09-10"
+      },
+      {
+        "id": "nd-ai-before-after-video",
+        "title": "待核：有偿求改造前后对比视频",
+        "summary": "【09-05事实标题】含有偿+具体交付物；今日关键词空，状态=待核。",
+        "signal_strength": "weak",
+        "tags": [
+          "对比视频",
+          "待核"
+        ],
+        "model": "service",
+        "index": null,
+        "evidence": [
+          {
+            "url": "",
+            "title": "有偿求改造前后对比视频",
+            "note": "first_detected 2026-09-05"
           }
         ],
         "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05"
+        "last_updated": "2026-09-10"
+      },
+      {
+        "id": "nd-aigen-paid-mentor",
+        "title": "待核：AI生图有偿拜师",
+        "summary": "【09-05评论原话】愿意有偿；今日未刷新。",
+        "signal_strength": "weak",
+        "tags": [
+          "生图拜师",
+          "待核"
+        ],
+        "model": "service",
+        "index": null,
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/69e191b5000000002200fab5?xsec_token=",
+            "title": "AI生图报价相关帖",
+            "note": "【09-05评论原话】想学AI生图…愿意有偿；报价200一张真的良心价"
+          }
+        ],
+        "first_detected": "2026-09-05",
+        "last_updated": "2026-09-10"
       },
       {
         "id": "nd-jianji-batch-hire",
-        "title": "批量招聘包月剪辑师（甲方侧）",
-        "summary": "【事实】「寻找多个包月剪辑师」及借楼评论显示甲方一次招多人、要长期稳定。【相对昨日】从单条「每天都有活」升级为批量包月招人叙事。",
-        "why": "批量+包月=更高客单匹配空间（撮合/工作室）。",
-        "model": "service",
-        "signal_strength": "strong",
+        "title": "待核：批量招聘包月剪辑师",
+        "summary": "【09-05】甲方批量包月招人；今日评论 SECURITY_BLOCK。",
+        "signal_strength": "weak",
         "tags": [
-          "剪辑",
-          "包月",
-          "招聘"
+          "包月剪辑",
+          "待核"
         ],
+        "model": "service",
+        "index": null,
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/search_result/6a4d5b440000000011011aaf?xsec_token=ABG9dWI8KnpNgSVjiByUGzHZR0IX5JgvSDe2oBuXSz&xsec_source=",
             "title": "寻找多个包月剪辑师",
-            "note": "招多个；满意可包月；借楼需求"
+            "note": "【09-05评论·今日未刷新】招剪辑满意可包月；借楼求代剪包月"
           }
         ],
         "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05"
-      },
-      {
-        "id": "nd-aigen-paid-mentor",
-        "title": "AI生图有偿拜师 / 带教",
-        "summary": "【事实】AI生图报价帖评论原话「想学AI生图，有没有师傅愿意带带，愿意有偿」。",
-        "why": "信息差变现：工具会≠商业接单会。",
-        "model": "service",
-        "signal_strength": "mid",
-        "tags": [
-          "AI生图",
-          "带教"
-        ],
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/search_result/69e191b5000000002200fab5?xsec_token=ABYtQoIjN9sPDmhYkYP2mfjnxMCnSLU6XrrF4tP7kz&xsec_source=",
-            "title": "AI代出图｜AI绘图｜AI制图｜AI生图报价单",
-            "note": "评论：愿意有偿找师傅"
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05"
-      },
-      {
-        "id": "nd-detail-midprice",
-        "title": "中档详情页（千元级）仍有人讨论值不值",
-        "summary": "【事实】「一星期详情3100贵吗」引发价格与AI降本讨论；设计师报价单下有人抱怨「详情收我1200」。说明中档并未消失，只是被低价AI供给冲击。",
-        "model": "service",
-        "signal_strength": "mid",
-        "tags": [
-          "详情页",
-          "中档"
-        ],
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/search_result/6a4cac9f000000001101abbe?xsec_token=ABNynQV5nEG9peUQVEmHiY6MAjONZaMXkxWoGLyVbT&xsec_source=",
-            "title": "求助！一星期做的详情页3100贵吗？",
-            "note": "价格合理性讨论"
-          },
-          {
-            "url": "https://www.xiaohongshu.com/search_result/69d8cd510000000023015206?xsec_token=ABIIzTiXj2klwlfXgF8g_utykrFF-ukYyodv_MBoGf&xsec_source=",
-            "title": "设计师报价单，大家看看合理吗？",
-            "note": "评论：为什么详情有的收我1200"
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05"
+        "last_updated": "2026-09-10"
       }
     ],
     "pay_signals": [
       {
-        "id": "pay-jianji-baoyue-hire",
-        "title": "招剪辑：满意可包月 / 借楼求代剪包月",
-        "summary": "【原话级】「招剪辑，合适的话长期稳定…满意可包月」；「借楼 有代剪的吗 包月 提供素材脚本」。",
-        "signal_strength": "strong",
-        "model": "service",
+        "id": "pay-jianji-hire",
+        "title": "「招剪辑…满意可包月」「借楼 有代剪的吗 包月」",
+        "summary": "【事实·09-05评论·今日未刷新】甲方长期稳定+包月意向。",
+        "signal_strength": "mid",
         "tags": [
-          "剪辑",
-          "包月"
+          "包月",
+          "原话"
         ],
+        "model": "service",
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/search_result/6a4d5b440000000011011aaf?xsec_token=ABG9dWI8KnpNgSVjiByUGzHZR0IX5JgvSDe2oBuXSz&xsec_source=",
             "title": "寻找多个包月剪辑师",
-            "note": "长期稳定；满意可包月；借楼包月"
+            "note": "【09-05评论·今日未刷新】招剪辑满意可包月；借楼求代剪包月"
           }
         ],
         "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05"
+        "last_updated": "2026-09-10"
       },
       {
         "id": "pay-jianji-contact",
-        "title": "剪辑包月帖：怎么联系 / 礼貌问价",
-        "summary": "供给帖下多条「怎么联系」「礼貌问价」「我需要」——询盘密集。",
-        "signal_strength": "strong",
+        "title": "「怎么联系」「礼貌问价」「我需要」",
+        "summary": "【事实·09-05】包月供给帖询盘密集。",
+        "signal_strength": "mid",
+        "tags": [
+          "问价"
+        ],
         "model": "service",
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/search_result/6a438b19000000001c026188?xsec_token=AByoA8T2NJQGftOfu7_AZyiyd-Uzc3dwEU4Ye36UQR&xsec_source=",
             "title": "视频剪辑省心包月/先试剪满意再合作",
-            "note": "怎么联系×多；礼貌问价"
+            "note": "【09-05评论·今日未刷新】多条怎么联系/礼貌问价/我需要"
           }
         ],
         "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05"
+        "last_updated": "2026-09-10"
       },
       {
-        "id": "pay-codex-workflow-price",
-        "title": "Codex：企业5-50万 / 个人有偿几百",
-        "summary": "评论：「一般给企业搭建这么一套工作流收费是5-50w」；「有偿的意思…一般也就几百块」。",
-        "signal_strength": "strong",
+        "id": "pay-codex-price",
+        "title": "「企业搭建…5-50w」「有偿…一般也就几百块」",
+        "summary": "【事实·09-05】分层报价原话。",
+        "signal_strength": "mid",
+        "tags": [
+          "Codex",
+          "报价"
+        ],
         "model": "service",
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/search_result/6a474c6f000000000f01444d?xsec_token=ABK_nC72f29GHjoiQmkW7MLIE1Uw3U3diNHm1TeBLE&xsec_source=",
             "title": "有偿求助！技术大佬帮忙写一个codex的skill",
-            "note": "企业5-50万；个人几百"
+            "note": "【09-05评论】工作流非单Skill；企业5-50万；个人有偿常几百"
           }
         ],
-        "first_detected": "2026-09-04",
-        "last_updated": "2026-09-05"
+        "first_detected": "2026-09-05",
+        "last_updated": "2026-09-10"
       },
       {
-        "id": "pay-codex-daizuo-ask",
-        "title": "有没有老师接codex代做：同求/问价",
-        "summary": "评论「同求」「礼貌问价」「自带理想价位再协商」。",
-        "signal_strength": "strong",
+        "id": "pay-codex-tongqiu",
+        "title": "「同求」「礼貌问价」",
+        "summary": "【事实·09-05】Codex代做帖。",
+        "signal_strength": "mid",
+        "tags": [
+          "同求"
+        ],
         "model": "service",
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/search_result/6a89cfbe000000001600977f?xsec_token=AB-FJCztwrSp9kmOA7UVQitm4m2vV3srHXVy_fZ5x5&xsec_source=",
             "title": "有没有老师接codex代做？",
-            "note": "同求；礼貌问价"
-          }
-        ],
-        "first_detected": "2026-09-04",
-        "last_updated": "2026-09-05"
-      },
-      {
-        "id": "pay-detail-3100",
-        "title": "详情页3100贵吗 / 一百块一套对比",
-        "summary": "帖主问3100是否贵；评论「那你愿意一百块一套详情吗」；另有人说AI一天3-5套。",
-        "signal_strength": "strong",
-        "model": "service",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/search_result/6a4cac9f000000001101abbe?xsec_token=ABNynQV5nEG9peUQVEmHiY6MAjONZaMXkxWoGLyVbT&xsec_source=",
-            "title": "求助！一星期做的详情页3100贵吗？",
-            "note": "3100 vs 一百块一套"
+            "note": "【09-05评论】同求；礼貌问价"
           }
         ],
         "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05"
+        "last_updated": "2026-09-10"
+      },
+      {
+        "id": "pay-detail-100",
+        "title": "「愿意一百块一套详情吗」",
+        "summary": "【事实·09-05】详情地板价试探。",
+        "signal_strength": "mid",
+        "tags": [
+          "详情页"
+        ],
+        "model": "service",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a4cac9f000000001101abbe?xsec_token=",
+            "title": "详情页相关讨论（3100/一百块一套）",
+            "note": "【09-05评论】愿意一百块一套详情吗"
+          }
+        ],
+        "first_detected": "2026-09-05",
+        "last_updated": "2026-09-10"
       },
       {
         "id": "pay-aigen-mentor",
-        "title": "AI生图：愿意有偿找师傅",
-        "summary": "原话：「想学AI生图，有没有师傅愿意带带，愿意有偿」。",
-        "signal_strength": "strong",
+        "title": "「想学AI生图…愿意有偿」",
+        "summary": "【事实·09-05评论原话】。",
+        "signal_strength": "mid",
+        "tags": [
+          "有偿拜师"
+        ],
         "model": "service",
         "evidence": [
           {
-            "url": "https://www.xiaohongshu.com/search_result/69e191b5000000002200fab5?xsec_token=ABYtQoIjN9sPDmhYkYP2mfjnxMCnSLU6XrrF4tP7kz&xsec_source=",
-            "title": "AI代出图｜AI绘图｜AI制图｜AI生图报价单",
-            "note": "愿意有偿"
+            "url": "https://www.xiaohongshu.com/search_result/69e191b5000000002200fab5?xsec_token=",
+            "title": "AI生图报价相关帖",
+            "note": "【09-05评论原话】想学AI生图…愿意有偿；报价200一张真的良心价"
           }
         ],
         "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05"
+        "last_updated": "2026-09-10"
       },
       {
         "id": "pay-aigen-200",
-        "title": "AI出图：200一张 vs 低价全套",
-        "summary": "「有些一问报价200一张真的良心价」；「报价一百块钱全套…下半年会不会饿死」。",
+        "title": "「报价200一张真的良心价」",
+        "summary": "【事实·09-05】单价锚点。",
         "signal_strength": "mid",
+        "tags": [
+          "单价"
+        ],
         "model": "service",
         "evidence": [
           {
-            "url": "https://www.xiaohongshu.com/search_result/69e191b5000000002200fab5?xsec_token=ABYtQoIjN9sPDmhYkYP2mfjnxMCnSLU6XrrF4tP7kz&xsec_source=",
-            "title": "AI代出图｜AI绘图｜AI制图｜AI生图报价单",
-            "note": "200/张；一百全套不可持续"
+            "url": "https://www.xiaohongshu.com/search_result/69e191b5000000002200fab5?xsec_token=",
+            "title": "AI生图报价相关帖",
+            "note": "【09-05评论原话】想学AI生图…愿意有偿；报价200一张真的良心价"
           }
         ],
         "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05"
+        "last_updated": "2026-09-10"
       },
       {
-        "id": "pay-jianji-floor",
-        "title": "剪辑地板价：一分钟5元 / 宣传片≥800-1000",
-        "summary": "「一分钟5元的都有」；同行「没有低于1000一分钟」「熟人最少800」。",
-        "signal_strength": "mid",
+        "id": "pay-jianji-5yuan",
+        "title": "剪辑报价分层讨论（地板 vs 宣传片）",
+        "summary": "【事实·09-05】一分钟5元地板与高档分层。",
+        "signal_strength": "weak",
+        "tags": [
+          "报价分层"
+        ],
         "model": "service",
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/search_result/69fdf673000000001f003b0f?xsec_token=AByErNHOmJXuzU2C9UXCOMV5RIVMCXGwlb66ZUH0osQQY=&xsec_source=",
             "title": "大家觉得这个剪辑报价合理吗？",
-            "note": "地板价与专业价分层"
+            "note": "【09-05】一分钟5元地板；宣传片分层讨论"
           }
         ],
         "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05"
+        "last_updated": "2026-09-10"
       },
       {
-        "id": "pay-excel-howmuch",
-        "title": "Excel代做帖：怎么收费 / 还接吗",
-        "summary": "供给帖评论反复「怎么收费」「还接吗」「现在能做不」。",
-        "signal_strength": "mid",
+        "id": "pay-stale-caveat",
+        "title": "【警告】今日零条新原话",
+        "summary": "【事实】因登录超限，本轮付费信号全部来自09-05已存评论，不是今日新抓取。",
+        "signal_strength": "weak",
+        "tags": [
+          "caveat"
+        ],
         "model": "service",
         "evidence": [
           {
-            "url": "https://www.xiaohongshu.com/search_result/6a97d2a5000000002803b496?xsec_token=ABPvcokCxuvFLcIrJgTikvuPTJRETdk9gOUinzpeSp&xsec_source=",
-            "title": "代做Word/Excel/pdf各类文档，包售后",
-            "note": "怎么收费×2；还接吗"
+            "url": "",
+            "title": "_search_summary",
+            "note": "comments_ok=0"
           }
         ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05"
+        "first_detected": "2026-09-10",
+        "last_updated": "2026-09-10"
       },
       {
-        "id": "pay-notion-15u",
-        "title": "Notion：花15u买模板合辑",
-        "summary": "评论：「花15u买了一个生产力youtuber模版合辑」。",
-        "signal_strength": "mid",
-        "model": "digital",
+        "id": "pay-resume-demote",
+        "title": "简历区「问价」刷屏（降权示例）",
+        "summary": "【推断】多为获客话术，缺交付与价位深度；继续降权。",
+        "signal_strength": "weak",
+        "tags": [
+          "降权"
+        ],
+        "model": "service",
         "evidence": [
           {
-            "url": "https://www.xiaohongshu.com/search_result/674bc9f8000000000202dcd7?xsec_token=ABnOhzJcH0qKTh8uW3jYuG9W2auXEOacovspc5JDxQ&xsec_source=",
-            "title": "我不李姐为什么会有人花钱去买Notion模板？",
-            "note": "15u合辑"
+            "url": "",
+            "title": "简历代做",
+            "note": "伪付费信号风险"
           }
         ],
         "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05"
+        "last_updated": "2026-09-10"
       }
     ],
     "ai_leverage": [
       {
         "id": "ai-jianji",
         "title": "剪辑：AI粗剪+字幕 → 人工网感",
-        "summary": "包月场景下AI可抬人效，但评论显示甲方要网感/垂直品类，不能全自动。",
-        "model": "service",
-        "ai_help": "粗剪字幕",
-        "start_cost": "low",
-        "delivery": "mid",
-        "competition": "high",
-        "tags": [
-          "剪辑",
-          "AI"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/search_result/6a4d5b440000000011011aaf?xsec_token=ABG9dWI8KnpNgSVjiByUGzHZR0IX5JgvSDe2oBuXSz&xsec_source=",
-            "title": "寻找多个包月剪辑师",
-            "note": "长期包月需求"
-          }
-        ],
-        "first_detected": "2026-09-04",
-        "last_updated": "2026-09-05"
-      },
-      {
-        "id": "ai-product-image",
-        "title": "商品图：AI出图+商业精修",
-        "summary": "从业者称PS结合AI跑场景；可试做水印后付款。",
-        "model": "service",
-        "ai_help": "批量出图",
-        "start_cost": "low",
-        "delivery": "mid",
-        "competition": "high",
-        "tags": [
-          "商品图"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/search_result/69e191b5000000002200fab5?xsec_token=ABYtQoIjN9sPDmhYkYP2mfjnxMCnSLU6XrrF4tP7kz&xsec_source=",
-            "title": "AI代出图｜AI绘图｜AI制图｜AI生图报价单",
-            "note": "试做水印；商业修图"
-          }
-        ],
-        "first_detected": "2026-09-04",
-        "last_updated": "2026-09-05"
-      },
-      {
-        "id": "ai-detail-pipeline",
-        "title": "详情页：AI流水线一天多套 vs 手搓溢价",
-        "summary": "评论称很多「手搓」实为AI，一天3-5套；中档千元单仍需审美与结构。",
-        "model": "service",
-        "ai_help": "套图流水线",
-        "start_cost": "low",
-        "delivery": "mid",
-        "competition": "mid",
-        "tags": [
-          "详情页"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/search_result/6a4cac9f000000001101abbe?xsec_token=ABNynQV5nEG9peUQVEmHiY6MAjONZaMXkxWoGLyVbT&xsec_source=",
-            "title": "求助！一星期做的详情页3100贵吗？",
-            "note": "一天三到五套"
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05"
-      },
-      {
-        "id": "ai-excel",
-        "title": "Excel：需求澄清+公式生成",
-        "summary": "经营表/代做可用AI加速，溢价在需求澄清与售后。",
-        "model": "service",
-        "ai_help": "公式/看板",
-        "start_cost": "low",
-        "delivery": "low",
-        "competition": "mid",
-        "tags": [
-          "excel"
-        ],
+        "summary": "包月场景人效关键。",
         "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/search_result/6a97d2a5000000002803b496?xsec_token=ABPvcokCxuvFLcIrJgTikvuPTJRETdk9gOUinzpeSp&xsec_source=",
-            "title": "代做Word/Excel/pdf各类文档，包售后",
-            "note": "怎么收费"
-          }
-        ],
-        "first_detected": "2026-09-04",
-        "last_updated": "2026-09-05"
-      },
-      {
-        "id": "ai-codex-wf",
-        "title": "内容流水线：多Skill组装+失败重试",
-        "summary": "评论明确单Skill不够，要素材库/配音/队列/重试。",
         "model": "service",
-        "ai_help": "Codex搭工作流",
-        "start_cost": "low",
-        "delivery": "high",
-        "competition": "mid",
-        "tags": [
-          "codex"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/search_result/6a474c6f000000000f01444d?xsec_token=ABK_nC72f29GHjoiQmkW7MLIE1Uw3U3diNHm1TeBLE&xsec_source=",
-            "title": "有偿求助！技术大佬帮忙写一个codex的skill",
-            "note": "多skill组装；失败重试"
-          }
-        ],
-        "first_detected": "2026-09-04",
-        "last_updated": "2026-09-05"
-      }
-    ],
-    "digital_products": [
-      {
-        "id": "dig-excel-tpl",
-        "title": "行业经营表模板（餐饮损益等）",
-        "summary": "损益表帖求分享极热——可转化为付费精简版+讲解视频，而非纯免费引流。",
-        "model": "digital",
-        "start_cost": "low",
-        "delivery": "low",
-        "competition": "mid",
-        "index": 22,
-        "tags": [
-          "excel",
-          "模板"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/search_result/69169288000000000d03c4cc?xsec_token=ABttG1WDRvJn4jbJq4sPvqr8pTTvF7JqZFxy7aR4Kv&xsec_source=",
-            "title": "餐饮人必存！月度损益表，直接拿去用",
-            "note": "求分享密集"
-          }
-        ],
-        "first_detected": "2026-09-04",
-        "last_updated": "2026-09-05"
-      },
-      {
-        "id": "dig-vertical-skill",
-        "title": "垂直场景Codex Skill包（非清单安利）",
-        "summary": "需求是可跑通的步骤规则+验收标准，可产品化为垂直Skill包。",
-        "model": "digital",
-        "start_cost": "low",
-        "delivery": "mid",
-        "competition": "mid",
-        "index": 24,
-        "tags": [
-          "skill",
-          "codex"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/search_result/6a474c6f000000000f01444d?xsec_token=ABK_nC72f29GHjoiQmkW7MLIE1Uw3U3diNHm1TeBLE&xsec_source=",
-            "title": "有偿求助！技术大佬帮忙写一个codex的skill",
-            "note": "规则写死+组装"
-          }
-        ],
-        "first_detected": "2026-09-04",
-        "last_updated": "2026-09-05"
-      },
-      {
-        "id": "dig-notion",
-        "title": "Notion垂直模板合辑",
-        "summary": "已有人付15u买合辑；避开「卖模板月入」伪副业文。",
-        "model": "digital",
-        "start_cost": "low",
-        "delivery": "low",
-        "competition": "mid",
-        "index": 20,
-        "tags": [
-          "notion"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/search_result/674bc9f8000000000202dcd7?xsec_token=ABnOhzJcH0qKTh8uW3jYuG9W2auXEOacovspc5JDxQ&xsec_source=",
-            "title": "我不李姐为什么会有人花钱去买Notion模板？",
-            "note": "15u合辑"
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05"
-      },
-      {
-        "id": "dig-aivideo-price",
-        "title": "AI视频成本/报价对照表（引流用）",
-        "summary": "成本帖互动高，可做透明报价表引流中档定制，不靠卖课。",
-        "model": "digital",
-        "start_cost": "low",
-        "delivery": "low",
-        "competition": "high",
-        "index": 16,
-        "tags": [
-          "AI视频",
-          "报价表"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/search_result/6a7ad236000000002402f17b?xsec_token=ABAECAcx6I35xaUzBQdl07&xsec_source=",
-            "title": "用AI做一条35秒漫剧，到底要花多少钱？",
-            "note": "成本讨论热"
-          }
-        ],
-        "first_detected": "2026-09-04",
-        "last_updated": "2026-09-05"
-      },
-      {
-        "id": "dig-meigong-ratecard",
-        "title": "美工/生图三档价目+交付清单",
-        "summary": "市场吵价格——标准化价目+交付物清单本身可作数字产品/获客页。",
-        "model": "digital",
-        "start_cost": "low",
-        "delivery": "low",
-        "competition": "mid",
-        "index": 18,
-        "tags": [
-          "报价单"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/search_result/69e191b5000000002200fab5?xsec_token=ABYtQoIjN9sPDmhYkYP2mfjnxMCnSLU6XrrF4tP7kz&xsec_source=",
-            "title": "AI代出图｜AI绘图｜AI制图｜AI生图报价单",
-            "note": "三档整理建议出现在评论"
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05"
-      }
-    ],
-    "services": [
-      {
-        "id": "svc-jianji",
-        "title": "包月代剪（试剪漏斗）",
-        "summary": "先试剪1条再包月；垂直电商/汽车优先。",
-        "model": "service",
-        "offer": "试剪+包月N条",
-        "start_cost": "low",
-        "delivery": "mid",
-        "competition": "high",
-        "index": 28,
-        "signal_strength": "strong",
         "tags": [
           "剪辑"
         ],
@@ -886,278 +637,461 @@
           {
             "url": "https://www.xiaohongshu.com/search_result/6a438b19000000001c026188?xsec_token=AByoA8T2NJQGftOfu7_AZyiyd-Uzc3dwEU4Ye36UQR&xsec_source=",
             "title": "视频剪辑省心包月/先试剪满意再合作",
-            "note": "先试剪叙事+询盘"
+            "note": "【09-05评论·今日未刷新】多条怎么联系/礼貌问价/我需要"
+          }
+        ],
+        "first_detected": "2026-09-05",
+        "last_updated": "2026-09-10"
+      },
+      {
+        "id": "ai-product-image",
+        "title": "商品图：AI出图+商业精修",
+        "summary": "保留溢价在精修与审美。",
+        "signal_strength": "mid",
+        "model": "service",
+        "tags": [
+          "商品图"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/69e191b5000000002200fab5?xsec_token=",
+            "title": "AI生图报价相关帖",
+            "note": "【09-05评论原话】想学AI生图…愿意有偿；报价200一张真的良心价"
+          }
+        ],
+        "first_detected": "2026-09-05",
+        "last_updated": "2026-09-10"
+      },
+      {
+        "id": "ai-detail-pipeline",
+        "title": "详情页：AI流水线一天多套 vs 手搓溢价",
+        "summary": "中档价需证明差异化。",
+        "signal_strength": "mid",
+        "model": "service",
+        "tags": [
+          "详情页"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a4cac9f000000001101abbe?xsec_token=",
+            "title": "详情页相关讨论（3100/一百块一套）",
+            "note": "【09-05评论】愿意一百块一套详情吗"
+          }
+        ],
+        "first_detected": "2026-09-05",
+        "last_updated": "2026-09-10"
+      },
+      {
+        "id": "ai-excel",
+        "title": "Excel：需求澄清+公式生成",
+        "summary": "代做转模板。",
+        "signal_strength": "weak",
+        "model": "service",
+        "tags": [
+          "Excel"
+        ],
+        "evidence": [],
+        "first_detected": "2026-09-05",
+        "last_updated": "2026-09-10"
+      },
+      {
+        "id": "ai-codex-wf",
+        "title": "内容流水线：多Skill组装+失败重试",
+        "summary": "Codex工作流核心杠杆。",
+        "signal_strength": "mid",
+        "model": "service",
+        "tags": [
+          "Codex"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a474c6f000000000f01444d?xsec_token=ABK_nC72f29GHjoiQmkW7MLIE1Uw3U3diNHm1TeBLE&xsec_source=",
+            "title": "有偿求助！技术大佬帮忙写一个codex的skill",
+            "note": "【09-05评论】工作流非单Skill；企业5-50万；个人有偿常几百"
+          }
+        ],
+        "first_detected": "2026-09-05",
+        "last_updated": "2026-09-10"
+      }
+    ],
+    "digital_products": [
+      {
+        "id": "dig-vertical-skill",
+        "title": "垂直场景Codex Skill包（非清单安利）",
+        "summary": "从代配置沉淀可售包。",
+        "index": 23,
+        "model": "digital",
+        "signal_strength": "mid",
+        "tags": [
+          "Skill"
+        ],
+        "start_cost": "low",
+        "delivery": "mid",
+        "competition": "mid",
+        "offer": "垂直Skill包+说明",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a474c6f000000000f01444d?xsec_token=ABK_nC72f29GHjoiQmkW7MLIE1Uw3U3diNHm1TeBLE&xsec_source=",
+            "title": "有偿求助！技术大佬帮忙写一个codex的skill",
+            "note": "【09-05评论】工作流非单Skill；企业5-50万；个人有偿常几百"
           }
         ],
         "first_detected": "2026-09-04",
-        "last_updated": "2026-09-05"
+        "last_updated": "2026-09-10"
+      },
+      {
+        "id": "dig-excel-tpl",
+        "title": "行业经营表模板",
+        "summary": "把求分享转化付费精简版。",
+        "index": 21,
+        "model": "digital",
+        "signal_strength": "weak",
+        "tags": [
+          "Excel模板"
+        ],
+        "start_cost": "low",
+        "delivery": "low",
+        "competition": "mid",
+        "evidence": [],
+        "first_detected": "2026-09-05",
+        "last_updated": "2026-09-10"
+      },
+      {
+        "id": "dig-notion",
+        "title": "Notion垂直模板合辑",
+        "summary": "卖省时间。",
+        "index": 18,
+        "model": "digital",
+        "signal_strength": "weak",
+        "tags": [
+          "Notion"
+        ],
+        "start_cost": "low",
+        "delivery": "low",
+        "competition": "high",
+        "evidence": [],
+        "first_detected": "2026-09-05",
+        "last_updated": "2026-09-10"
+      },
+      {
+        "id": "dig-price-card",
+        "title": "美工/生图三档价目+交付清单",
+        "summary": "引流+锚定中档。",
+        "index": 20,
+        "model": "digital",
+        "signal_strength": "mid",
+        "tags": [
+          "价目表"
+        ],
+        "start_cost": "low",
+        "delivery": "low",
+        "competition": "low",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/69e191b5000000002200fab5?xsec_token=",
+            "title": "AI生图报价相关帖",
+            "note": "【09-05评论原话】想学AI生图…愿意有偿；报价200一张真的良心价"
+          }
+        ],
+        "first_detected": "2026-09-05",
+        "last_updated": "2026-09-10"
+      },
+      {
+        "id": "dig-ai-video-cost",
+        "title": "AI视频成本/报价对照表",
+        "summary": "引流中档垂直单。",
+        "index": 17,
+        "model": "digital",
+        "signal_strength": "weak",
+        "tags": [
+          "AI视频"
+        ],
+        "start_cost": "low",
+        "delivery": "low",
+        "competition": "mid",
+        "evidence": [],
+        "first_detected": "2026-09-05",
+        "last_updated": "2026-09-10"
+      }
+    ],
+    "services": [
+      {
+        "id": "svc-jianji",
+        "title": "包月代剪（试剪漏斗）",
+        "summary": "最快验证路径之一。",
+        "index": 27,
+        "model": "service",
+        "signal_strength": "mid",
+        "tags": [
+          "接单"
+        ],
+        "start_cost": "low",
+        "delivery": "mid",
+        "competition": "high",
+        "offer": "试剪1条→包月",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a4d5b440000000011011aaf?xsec_token=ABG9dWI8KnpNgSVjiByUGzHZR0IX5JgvSDe2oBuXSz&xsec_source=",
+            "title": "寻找多个包月剪辑师",
+            "note": "【09-05评论·今日未刷新】招剪辑满意可包月；借楼求代剪包月"
+          }
+        ],
+        "first_detected": "2026-09-04",
+        "last_updated": "2026-09-10"
       },
       {
         "id": "svc-codex",
         "title": "Codex代配置/代做（范围写清）",
-        "summary": "自带理想价位协商；交付=可跑通工作流非空Skill。",
+        "summary": "写清交付边界防扯皮。",
+        "index": 26,
         "model": "service",
-        "offer": "代装引流+工作流499起",
+        "signal_strength": "mid",
+        "tags": [
+          "接单"
+        ],
         "start_cost": "low",
         "delivery": "high",
         "competition": "mid",
-        "index": 27,
-        "signal_strength": "strong",
-        "tags": [
-          "codex"
-        ],
+        "offer": "代装29引流+工作流体验499",
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/search_result/6a89cfbe000000001600977f?xsec_token=AB-FJCztwrSp9kmOA7UVQitm4m2vV3srHXVy_fZ5x5&xsec_source=",
             "title": "有没有老师接codex代做？",
-            "note": "需具体聊"
+            "note": "【09-05评论】同求；礼貌问价"
           }
         ],
         "first_detected": "2026-09-04",
-        "last_updated": "2026-09-05"
+        "last_updated": "2026-09-10"
       },
       {
         "id": "svc-meigong",
         "title": "美工包月/主图详情套图",
-        "summary": "响应「美工包月有人接单吗」类需求；明码套餐。",
+        "summary": "A可转B价目与模板。",
+        "index": 25,
         "model": "service",
-        "offer": "包月出图+单套价",
+        "signal_strength": "mid",
+        "tags": [
+          "接单"
+        ],
         "start_cost": "low",
         "delivery": "mid",
-        "competition": "mid",
-        "index": 26,
-        "signal_strength": "strong",
-        "tags": [
-          "美工"
-        ],
+        "competition": "high",
         "evidence": [
           {
-            "url": "https://www.xiaohongshu.com/search_result/6a7493b200000000220169c9?xsec_token=ABHsj4_-YLNeY6D-RuOqpCiud1ZE-B4j-Wxa0XPdJgPFc=&xsec_source=",
-            "title": "急急急、美工包月有人接单吗？",
-            "note": "标题需求"
+            "url": "https://www.xiaohongshu.com/search_result/6a4cac9f000000001101abbe?xsec_token=",
+            "title": "详情页相关讨论（3100/一百块一套）",
+            "note": "【09-05评论】愿意一百块一套详情吗"
           }
         ],
         "first_detected": "2026-09-04",
-        "last_updated": "2026-09-05"
+        "last_updated": "2026-09-10"
       },
       {
         "id": "svc-excel",
         "title": "经营表代做199含2改",
-        "summary": "避开作业代做；对标中档经营表。",
+        "summary": "避开作业词。",
+        "index": 24,
         "model": "service",
-        "offer": "199含2改",
+        "signal_strength": "weak",
+        "tags": [
+          "接单"
+        ],
         "start_cost": "low",
         "delivery": "low",
         "competition": "mid",
-        "index": 25,
-        "signal_strength": "mid",
-        "tags": [
-          "excel"
-        ],
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/search_result/6a97d2a5000000002803b496?xsec_token=ABPvcokCxuvFLcIrJgTikvuPTJRETdk9gOUinzpeSp&xsec_source=",
-            "title": "代做Word/Excel/pdf各类文档，包售后",
-            "note": "怎么收费"
-          }
-        ],
-        "first_detected": "2026-09-04",
-        "last_updated": "2026-09-05"
+        "evidence": [],
+        "first_detected": "2026-09-05",
+        "last_updated": "2026-09-10"
       },
       {
         "id": "svc-aigen",
         "title": "AI商品图三档+试修",
-        "summary": "免费试做水印→满意付款；或有偿带教。",
+        "summary": "水印试修后付款。",
+        "index": 23,
         "model": "service",
-        "offer": "三档+试修1张",
+        "signal_strength": "mid",
+        "tags": [
+          "接单"
+        ],
         "start_cost": "low",
         "delivery": "mid",
         "competition": "high",
-        "index": 24,
-        "signal_strength": "strong",
-        "tags": [
-          "AI生图"
-        ],
         "evidence": [
           {
-            "url": "https://www.xiaohongshu.com/search_result/69e191b5000000002200fab5?xsec_token=ABYtQoIjN9sPDmhYkYP2mfjnxMCnSLU6XrrF4tP7kz&xsec_source=",
-            "title": "AI代出图｜AI绘图｜AI制图｜AI生图报价单",
-            "note": "试修；有偿拜师"
+            "url": "https://www.xiaohongshu.com/search_result/69e191b5000000002200fab5?xsec_token=",
+            "title": "AI生图报价相关帖",
+            "note": "【09-05评论原话】想学AI生图…愿意有偿；报价200一张真的良心价"
           }
         ],
         "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05"
+        "last_updated": "2026-09-10"
       }
     ],
     "content": [
       {
-        "id": "ct-jianji-price-layer",
-        "title": "账号：剪辑报价分层避坑（5元/分 vs 千元宣传片）",
-        "summary": "用真实评论对比做内容，引流试剪。",
+        "id": "ct-jianji-price",
+        "title": "账号：剪辑报价分层避坑",
+        "summary": "5元/分 vs 千元宣传片。",
+        "signal_strength": "mid",
         "model": "traffic",
-        "signal_strength": "strong",
         "tags": [
-          "内容",
-          "剪辑"
+          "内容"
         ],
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/search_result/69fdf673000000001f003b0f?xsec_token=AByErNHOmJXuzU2C9UXCOMV5RIVMCXGwlb66ZUH0osQQY=&xsec_source=",
             "title": "大家觉得这个剪辑报价合理吗？",
-            "note": "地板价讨论"
+            "note": "【09-05】一分钟5元地板；宣传片分层讨论"
           }
         ],
         "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05"
+        "last_updated": "2026-09-10"
       },
       {
-        "id": "ct-codex-wf-vs-skill",
-        "title": "账号：Skill≠工作流（拆有偿求助）",
-        "summary": "继续教育市场，导流代配置。",
+        "id": "ct-codex-wf",
+        "title": "账号：Skill≠工作流",
+        "summary": "拆有偿求助真实需求。",
+        "signal_strength": "mid",
         "model": "traffic",
-        "signal_strength": "strong",
         "tags": [
-          "内容",
-          "codex"
+          "内容"
         ],
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/search_result/6a474c6f000000000f01444d?xsec_token=ABK_nC72f29GHjoiQmkW7MLIE1Uw3U3diNHm1TeBLE&xsec_source=",
             "title": "有偿求助！技术大佬帮忙写一个codex的skill",
-            "note": "工作流纠正"
-          }
-        ],
-        "first_detected": "2026-09-04",
-        "last_updated": "2026-09-05"
-      },
-      {
-        "id": "ct-detail-ai-cost",
-        "title": "账号：详情页3100 vs AI一天五套",
-        "summary": "讲清手搓溢价与AI交付标准，接中档单。",
-        "model": "traffic",
-        "signal_strength": "mid",
-        "tags": [
-          "内容",
-          "详情页"
-        ],
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/search_result/6a4cac9f000000001101abbe?xsec_token=ABNynQV5nEG9peUQVEmHiY6MAjONZaMXkxWoGLyVbT&xsec_source=",
-            "title": "求助！一星期做的详情页3100贵吗？",
-            "note": "AI流水线讨论"
+            "note": "【09-05评论】工作流非单Skill；企业5-50万；个人有偿常几百"
           }
         ],
         "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05"
+        "last_updated": "2026-09-10"
       },
       {
-        "id": "ct-aivideo-cost",
-        "title": "账号：AI视频真实烧钱账",
-        "summary": "工具费复盘内容热，可引流中档定制。",
+        "id": "ct-detail-ai",
+        "title": "账号：详情页中档价 vs AI一天多套",
+        "summary": "解释溢价来源。",
+        "signal_strength": "weak",
         "model": "traffic",
-        "signal_strength": "mid",
         "tags": [
-          "内容",
-          "AI视频"
+          "内容"
         ],
         "evidence": [
           {
-            "url": "https://www.xiaohongshu.com/search_result/69dd0980000000001d01bfab?xsec_token=ABRx0L-9LGqBG8U3nHbCdDeT-0jwk5Q5eHUcHWH6b5WjM=&xsec_source=",
-            "title": "做AI视频半年，花了多少钱？",
-            "note": "6437元讨论"
-          }
-        ],
-        "first_detected": "2026-09-04",
-        "last_updated": "2026-09-05"
-      },
-      {
-        "id": "ct-notion-why-pay",
-        "title": "账号：为什么有人买模板（省时间）",
-        "summary": "讲清时间差，卖垂直模板而非月入神话。",
-        "model": "traffic",
-        "signal_strength": "mid",
-        "tags": [
-          "内容",
-          "notion"
-        ],
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/search_result/674bc9f8000000000202dcd7?xsec_token=ABnOhzJcH0qKTh8uW3jYuG9W2auXEOacovspc5JDxQ&xsec_source=",
-            "title": "我不李姐为什么会有人花钱去买Notion模板？",
-            "note": "省时间争论"
+            "url": "https://www.xiaohongshu.com/search_result/6a4cac9f000000001101abbe?xsec_token=",
+            "title": "详情页相关讨论（3100/一百块一套）",
+            "note": "【09-05评论】愿意一百块一套详情吗"
           }
         ],
         "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05"
+        "last_updated": "2026-09-10"
+      },
+      {
+        "id": "ct-aigen-mentor",
+        "title": "账号：AI生图有偿带教边界",
+        "summary": "带教 vs 代做分层。",
+        "signal_strength": "mid",
+        "model": "traffic",
+        "tags": [
+          "内容"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/69e191b5000000002200fab5?xsec_token=",
+            "title": "AI生图报价相关帖",
+            "note": "【09-05评论原话】想学AI生图…愿意有偿；报价200一张真的良心价"
+          }
+        ],
+        "first_detected": "2026-09-05",
+        "last_updated": "2026-09-10"
+      },
+      {
+        "id": "ct-login-ops",
+        "title": "账号：不适合今日新开（采集受阻提示）",
+        "summary": "运营侧：多设备登录会触发超限——研究账号需控设备数。",
+        "signal_strength": "weak",
+        "model": "traffic",
+        "tags": [
+          "caveat"
+        ],
+        "evidence": [
+          {
+            "url": "",
+            "title": "登录超限",
+            "note": "raw/_search_wall.png"
+          }
+        ],
+        "first_detected": "2026-09-10",
+        "last_updated": "2026-09-10"
       }
     ],
     "to_validate": [
       {
         "id": "val-jianji-vertical",
-        "title": "垂直行业包月剪辑：发1条试剪案例+报价卡",
-        "summary": "最小测试：选电商或汽车，发试剪前后对比+包月价；看私信询价数与是否愿付定金。",
-        "offer": "试剪1条99 + 包月套餐",
+        "title": "垂直行业包月剪辑：试剪案例+报价卡",
+        "summary": "【为何】历史双侧询盘强。【最小测试】发1条垂直试剪前后对比+价目。【判断付钱】定金或包月意向私信≥3。",
+        "signal_strength": "mid",
         "model": "service",
-        "signal_strength": "strong",
         "tags": [
-          "验证",
-          "剪辑"
+          "验证"
         ],
+        "offer": "试剪漏斗",
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/search_result/6a4d5b440000000011011aaf?xsec_token=ABG9dWI8KnpNgSVjiByUGzHZR0IX5JgvSDe2oBuXSz&xsec_source=",
             "title": "寻找多个包月剪辑师",
-            "note": "甲方批量招包月"
+            "note": "【09-05评论·今日未刷新】招剪辑满意可包月；借楼求代剪包月"
           }
         ],
         "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05",
-        "why": "如何判断有人付钱：收到定金或明确包月意向私信≥3"
+        "last_updated": "2026-09-10"
       },
       {
         "id": "val-codex-wf499",
-        "title": "上架「Codex代装29+内容日更工作流体验499」",
-        "summary": "用代装引流，主卖可跑通的日更流水线体验周。",
-        "offer": "29代装 / 499体验周",
+        "title": "Codex代装29+内容日更工作流体验499",
+        "summary": "【为何】有偿/同求/分层价仍在历史证据。【最小测试】上架两个SKU写清范围。【判断付钱】是否有人付体验周/定金。",
+        "signal_strength": "mid",
         "model": "service",
-        "signal_strength": "strong",
         "tags": [
-          "验证",
-          "codex"
+          "验证"
         ],
         "evidence": [
           {
             "url": "https://www.xiaohongshu.com/search_result/6a474c6f000000000f01444d?xsec_token=ABK_nC72f29GHjoiQmkW7MLIE1Uw3U3diNHm1TeBLE&xsec_source=",
             "title": "有偿求助！技术大佬帮忙写一个codex的skill",
-            "note": "个人有偿几百量级"
+            "note": "【09-05评论】工作流非单Skill；企业5-50万；个人有偿常几百"
           }
         ],
-        "first_detected": "2026-09-04",
-        "last_updated": "2026-09-05",
-        "why": "如何判断：有人付499或付定金让你按其素材跑通1天"
+        "first_detected": "2026-09-05",
+        "last_updated": "2026-09-10"
       },
       {
         "id": "val-excel199",
-        "title": "发1条经营表案例，标199含2改",
-        "summary": "避开作业词；用餐饮/电商对账案例验证中档。",
-        "offer": "199含2改",
+        "title": "经营表案例标199含2改",
+        "summary": "【为何】可A→B。【最小测试】发1条行业案例。【判断付钱】是否有人付199/定金。",
+        "signal_strength": "weak",
         "model": "service",
-        "signal_strength": "mid",
         "tags": [
-          "验证",
-          "excel"
+          "验证"
         ],
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/search_result/6a97d2a5000000002803b496?xsec_token=ABPvcokCxuvFLcIrJgTikvuPTJRETdk9gOUinzpeSp&xsec_source=",
-            "title": "代做Word/Excel/pdf各类文档，包售后",
-            "note": "怎么收费"
-          }
-        ],
-        "first_detected": "2026-09-04",
-        "last_updated": "2026-09-05",
-        "why": "如何判断：私信愿付199或先付定金≥1单"
+        "evidence": [],
+        "first_detected": "2026-09-05",
+        "last_updated": "2026-09-10"
       }
     ]
+  },
+  "collection_meta": {
+    "whoami_ok": true,
+    "whoami_user": "瑶姐的潮玩店",
+    "search_ok_nonempty": 0,
+    "search_empty_or_auth": 30,
+    "comments_ok": 0,
+    "comments_fail": 3,
+    "evidence_basis": "continuity_from_2026-09-05_plus_block_documentation",
+    "blocker": "电脑设备登录超限 / AUTH_REQUIRED / SECURITY_BLOCK on www"
+  },
+  "_meta": {
+    "evidence_basis": "continuity_from_2026-09-05",
+    "blocker": "电脑设备登录超限；search 非空=0；comments SECURITY_BLOCK",
+    "profile": "pfzpdshj"
   }
 }
