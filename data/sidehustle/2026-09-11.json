@@ -2,13 +2,13 @@
   "source": "xiaohongshu-sidehustle",
   "title": "小红书副业机会雷达",
   "date": "2026-09-11",
-  "updated_at": "2026-09-11T07:09:38+08:00",
-  "count": 46,
+  "updated_at": "2026-09-11T07:15:00+08:00",
+  "count": 47,
   "summary": {
     "today_judgement": [
-      "【事实】AM Box OpenCLI pfzpdshj（瑶姐的潮玩店，followers≈647）whoami正常；官方 search 求代做/有偿求/剪辑包月 均返回[]（与今日AI雷达同风控）；feed×6可用但几乎全是生活方式流，关键词硬命中≈0；comments 7线程全空/登录墙；note 打开跳「手机号登录」。CPA http://127.0.0.1:8317 Connection refused，本地证据合成。",
-      "【事实】最硬付费仍在 Codex：Mac 早盘有偿求 Skill 评论原话（Sep5 raw 交叉核实）企业工作流5-50w vs 个人有偿常几百、「直接开价」；代做帖「同求」「自带理想价位再协商」。并行搜索层（早盘 Mac 18/18）美工包月询价、剪辑包月套餐、小程序求开发、数字人可月付求推荐、垂直求代做仍成立。",
-      "【机会假设】别追 Skill 月入神话；优先 A 卖服务：Codex/Agent 代配置与陪跑、美工包月分层、剪辑试剪漏斗。AM 无法新拉评论加固品类，非 Codex 信号维持 mid；Mac raw 仍待同步。"
+      "07:00 定时跑：Box `--profile pfzpdshj`（瑶姐的潮玩店）whoami/feed 可用，但官方 search/ask/comments 仍遇验证码墙（webpack_runtime_missing / website-login/captcha）；晨间 feed×5≈65 条无需求关键词命中。用户机未在线，沿用昨夜 Mac OpenCLI（alias pfzpdshj）search 18/18 + Codex 评论线程证据。",
+      "最硬付费仍在 Codex/Agent「调通结果」：有偿求 Skill 评论分层——企业工作流 5–50 万 vs 个人有偿常几百；代做帖「同求」「自带理想价位再协商」。",
+      "搜索层并行：美工包月询价、剪辑包月套餐、小程序求开发、数字人可月付求推荐、垂直求代做（数据报告/园林）。PPT/简历/Prompt 偏供给或收藏，降权。品类评论因 Mac 桌面离线未全回传，非 Codex 信号标 mid。"
     ],
     "top_signals": [
       "有偿求写codex skill｜评论：企业工作流5-50w；个人有偿几百；直接开价",
@@ -52,7 +52,7 @@
             "note": "评论：同求；自带价位协商"
           }
         ],
-        "last_updated": "2026-09-11T07:09:38+08:00",
+        "last_updated": "2026-09-11",
         "first_detected": "2026-09-11"
       },
       {
@@ -86,7 +86,7 @@
             "note": "搜索命中；完整token URL待Mac raw回传"
           }
         ],
-        "last_updated": "2026-09-11T07:09:38+08:00",
+        "last_updated": "2026-09-11",
         "first_detected": "2026-09-11"
       },
       {
@@ -121,7 +121,7 @@
             "note": "急+按月"
           }
         ],
-        "last_updated": "2026-09-11T07:09:38+08:00",
+        "last_updated": "2026-09-11",
         "first_detected": "2026-09-11"
       },
       {
@@ -155,7 +155,7 @@
             "note": "需求标题；URL待raw回传"
           }
         ],
-        "last_updated": "2026-09-11T07:09:38+08:00",
+        "last_updated": "2026-09-11",
         "first_detected": "2026-09-11"
       },
       {
@@ -184,7 +184,7 @@
             "note": "搜索命中标题；评论待补"
           }
         ],
-        "last_updated": "2026-09-11T07:09:38+08:00",
+        "last_updated": "2026-09-11",
         "first_detected": "2026-09-11"
       },
       {
@@ -213,7 +213,7 @@
             "note": "搜索标题命中"
           }
         ],
-        "last_updated": "2026-09-11T07:09:38+08:00",
+        "last_updated": "2026-09-11",
         "first_detected": "2026-09-11"
       },
       {
@@ -242,7 +242,7 @@
             "note": "供给触达老板"
           }
         ],
-        "last_updated": "2026-09-11T07:09:38+08:00",
+        "last_updated": "2026-09-11",
         "first_detected": "2026-09-11"
       },
       {
@@ -276,7 +276,7 @@
             "note": "垂直设计求代做"
           }
         ],
-        "last_updated": "2026-09-11T07:09:38+08:00",
+        "last_updated": "2026-09-11",
         "first_detected": "2026-09-11"
       },
       {
@@ -305,8 +305,43 @@
             "note": "供给标题"
           }
         ],
-        "last_updated": "2026-09-11T07:09:38+08:00",
+        "last_updated": "2026-09-11",
         "first_detected": "2026-09-11"
+      },
+      {
+        "id": "opp-ppt-urgent-only",
+        "title": "PPT仅加急/赛事/品牌档（降权）",
+        "summary": "【事实】搜索层多见「AI帮你做PPT｜接单神器」「大学生代做PPT加急秒接」。【推断】供给洪水+AI自助叙事强。【机会假设】只接加急/赛事/品牌控质量档，不做通用代做地板。",
+        "why": "需求在但红海，个人切入需垂直溢价。",
+        "audience": "加急答辩/赛事/品牌提案甲方",
+        "result": "可控质量的加急成稿",
+        "offer": "加急档定价+改至满意条款；拒绝作业地板",
+        "model": "service",
+        "ai_help": "AI出稿+人工版式与叙事控质量",
+        "start_cost": "low",
+        "delivery": "mid",
+        "competition": "high",
+        "index": 14,
+        "tags": [
+          "PPT",
+          "降权",
+          "加急"
+        ],
+        "signal_strength": "weak",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a89cfbe000000001600977f?xsec_token=AB-FJCztwrSp9kmOA7UVQitkKTRmieYUbbv5nByCFiGa0=&xsec_source=",
+            "title": "大学生代做PPT｜加急秒接（求代做搜索层）",
+            "note": "【事实】Mac search「求代做」结果出现大学生PPT供给帖，作红海旁证"
+          },
+          {
+            "url": "https://www.xiaohongshu.com/search_result/6a474c6f000000000f01444d?xsec_token=ABK_nC72f29GHjoiQmkW7MLKoOCUi0vfaFKtc7N-9iCS8=&xsec_source=",
+            "title": "AI PPT 接单神器类供给（搜索层标题）",
+            "note": "【事实】Mac search「AI PPT 代做」多见接单神器叙事，降权通用代做"
+          }
+        ],
+        "first_detected": "2026-09-05",
+        "last_updated": "2026-09-11"
       }
     ],
     "new_demands": [
@@ -1102,18 +1137,17 @@
   },
   "meta": {
     "collection": {
+      "routine": "每日副业机会雷达 automation-1788486679698",
       "profile": "pfzpdshj",
-      "whoami": "瑶姐的潮玩店 logged_in=true followers≈647",
-      "am_search": "3/3 empty [] wind-control",
-      "am_feed_pages": 6,
-      "am_feed_notes": "~114 (feed6 truncated 14)",
-      "am_comment_threads_attempted": 7,
-      "am_comment_threads_ok": 0,
-      "am_comment_note": "all [] or empty/login-wall; note detail → 手机号登录",
-      "cpa": "http://127.0.0.1:8317 Connection refused — local synthesis",
-      "evidence_base": "Mac early search 18/18 titles+Codex comments; Sep5 raw cross-check for Codex quotes; AM feed degraded",
+      "whoami": "瑶姐的潮玩店 logged_in=true followers=647",
+      "am_search": "[] + captcha (ask/comments also blocked)",
+      "am_feed_pages": 5,
+      "am_feed_items": 65,
+      "am_feed_demand_hits": 0,
+      "evidence_base": "Mac early search 18/18 titles + Codex comment quotes; overnight synthesis refreshed at 07:15+08",
       "mac_raw_pending": "/Users/cy/xhs-radar-2026-09-11/raw/",
-      "note": "只调研不发布；未 git push / 未改 collection-wall"
+      "machines_registered": 0,
+      "note": "只调研不发布；未 git push；交 cy sync 墙"
     }
   }
 }
