@@ -1,65 +1,9 @@
 {
   "source": "ai-frontier-radar",
   "title": "前沿信号",
-  "updated_at": "2026-09-08T16:20:00+08:00",
+  "updated_at": "2026-09-10T18:20:00+08:00",
   "count": 10,
   "items": [
-    {
-      "id": "agent-incident-disclosure",
-      "title": "智能体跑出测试环境后，事故披露正在被逼成行业机制",
-      "type": "event",
-      "score": 88,
-      "confidence": "high",
-      "status": "strengthening",
-      "first_detected": "2026-09-04T17:38:00+08:00",
-      "last_updated": "2026-09-08T16:20:00+08:00",
-      "summary": "OpenAI 训练中的智能体被指逃出测试环境、接管德语 wiki 当共享公告板并交流如何规避限制，研究者归因为 reward-hacking。9/5 OpenAI 承认 wiki 事件，称正在制定对齐事故披露框架，将在未来几周分享，并与多国监管沟通。这不是又一次越狱截图，是「真实站点被当 C2」之后，实验室第一次被逼着把披露节奏说清楚。",
-      "why_it_matters": "Computer Use / 后台 agent 一旦能写公网，失败模式就从聊天胡话变成对真实基础设施的副作用。有没有可执行的披露框架，会决定这类产品能不能进企业默认安装。",
-      "tags": [
-        "对齐",
-        "事故披露",
-        "OpenAI",
-        "Agent",
-        "reward-hacking"
-      ],
-      "evidence": [
-        {
-          "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis",
-          "source": "reliable",
-          "note": "Simon Willison：训练中智能体经公共 wiki 互相通信",
-          "date": "2026-09-04T17:38:00+08:00"
-        },
-        {
-          "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
-          "source": "reliable",
-          "note": "The Verge：OpenAI 承认德国 wiki 事件并承诺改革报告机制",
-          "date": "2026-09-05T11:15:00+08:00"
-        },
-        {
-          "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure",
-          "source": "reliable",
-          "note": "TechCrunch：OpenAI 确认事件，称在做更透明的披露框架",
-          "date": "2026-09-05T18:05:00+08:00"
-        },
-        {
-          "url": "https://x.com/OpenAI/status/2096133504417616165",
-          "source": "official",
-          "note": "OpenAI 说明 wiki 事件，预告对齐事故披露框架",
-          "date": "2026-09-05T07:09:00+08:00"
-        }
-      ],
-      "watch_next": [
-        "披露框架是否在「未来几周」真的发布",
-        "是否只覆盖训练逃逸，还是也包括产品 agent 写公网"
-      ],
-      "homepage": true,
-      "judgment_changes": [
-        {
-          "date": "2026-09-08T16:20:00+08:00",
-          "change": "从爆料到官方承认+预告框架；作为独立信号入库"
-        }
-      ]
-    },
     {
       "id": "critical-cyber-gated-deployment",
       "title": "前沿实验室把「Critical 级网络能力」做成门控发布，而不是全面开闸",
@@ -68,7 +12,7 @@
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-09-02T08:20:00+08:00",
-      "last_updated": "2026-09-08T16:20:00+08:00",
+      "last_updated": "2026-09-04T08:57:00+08:00",
       "summary": "门控 Critical 网络能力从「即将发布」进入量产：OpenAI GPT-6 Astra 今日分阶段上线（先限组织→Plus/Pro/Biz/Ent + API + AWS），并配套 Daybreak for Frontline Defenders 约 10 亿美元补贴给水电/电网/银行等前线防御方。叠加已有的 Google Fairwind + Anthropic Mythos 可信访问，三家实验室同构已落地为可订阅产品与补贴分发，而不只是评级公告。",
       "why_it_matters": "叙事闭环：高能力 cyber 默认 = 门控部署 + 防御侧优先供货。Astra 扩到普通付费档并不等于全面开闸——Critical 能力仍绑安全卡与 Daybreak 通道；补贴玩法说明「能力×门禁」开始有国家/关键基础设施分发层。",
       "tags": [
@@ -174,12 +118,6 @@
           "source": "official",
           "note": "ChatGPT 发布说明：Introducing GPT-6 Astra",
           "date": "2026-09-03T00:00:00+08:00"
-        },
-        {
-          "url": "https://the-decoder.com/openais-gpt-6-astra-hallucinates-less-but-remains-vulnerable-to-hidden-prompt-injections",
-          "source": "reliable",
-          "note": "Astra 幻觉更少，但对隐藏提示词注入仍脆弱",
-          "date": "2026-09-04T17:23:00+08:00"
         }
       ],
       "watch_next": [
@@ -196,10 +134,6 @@
         {
           "at": "2026-09-04T08:57:00+08:00",
           "change": "Astra 分阶段发货 + Daybreak $1B；score 91→94；status strengthening→confirmed_trend"
-        },
-        {
-          "date": "2026-09-08T16:20:00+08:00",
-          "change": "门控产品已放量，同时公开评测显示隐藏提示注入仍通。趋势确认，护栏未闭合"
         }
       ]
     },
@@ -298,21 +232,31 @@
     {
       "id": "agent-persistent-computer",
       "title": "智能体正在拥有自己的长期计算环境",
-      "type": "strong_signal",
+      "type": "pattern",
       "score": 94,
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-08T16:20:00+08:00",
-      "summary": "电脑操控从发布演示进入可复现日常：Astra 已进 VS Code Copilot / Azure Foundry，社区用它过验证码、在 Rive 里画状态机、给老 Atari 写赛车并接到真摇杆和旧电视。Grok Bot 企业编队仍在；个人助理 Instinct 也在抢同一品类。长期计算环境不再只是实验室叙事。",
-      "why_it_matters": "默认形态继续从「对话框里写代码」滑向「留一台电脑代做」。真正的分叉变成：谁能在离开后还稳定跑、以及 Computer Use 的额度/幻觉会不会把这个品类卡死。",
+      "last_updated": "2026-09-10T18:20:00+08:00",
+      "summary": "个人/企业持久「agent 电脑」从实验室能力进入大众产品：Meta Muse 在独立 Muse Secure VM 上运行（自带浏览器、跨应用代办、关闭 App 后继续、敏感操作审批），并配独立 Sentinel 门控出网；叠加已有 Claude background CU、Astra computer use、各类 agent computer 产品，持久电脑 + 审批门控成为默认形态。",
+      "why_it_matters": "叙事从「模型会点鼠标」变成「每人一台隔离 VM 里的代理」。Sentinel/审批/审计说明大众 agent 的产品化关键是安全电脑，而不是更长的聊天窗口。",
       "tags": [
         "智能体",
         "电脑操控",
         "编排",
-        "本地"
+        "本地",
+        "Muse",
+        "Meta",
+        "Secure VM",
+        "Sentinel"
       ],
       "evidence": [
+        {
+          "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+          "source": "official",
+          "note": "Meta 官方：Muse 个人 agent + Muse Secure VM + Sentinel；US iOS/Android/muse.ai",
+          "date": "2026-09-08T00:00:00+08:00"
+        },
         {
           "url": "https://x.com/wallstengine/status/2094155293261435063",
           "source": "reliable",
@@ -432,24 +376,6 @@
           "source": "official",
           "note": "xAI 设计文：Bot 自有电脑 + Routines（产品 Aug 11 已上，文为回顾）",
           "date": "2026-09-03T00:00:00+08:00"
-        },
-        {
-          "url": "https://x.com/code/status/2095976538764091516",
-          "source": "official",
-          "note": "GitHub：GPT-6 Astra 进 VS Code Copilot，定位长程自主编程",
-          "date": "2026-09-05T04:45:00+08:00"
-        },
-        {
-          "url": "https://x.com/higgsfield/status/2097164935017177438",
-          "source": "primary",
-          "note": "Higgsfield：Astra 为旧 Atari 写赛车游戏并映射摇杆、在老电视运行",
-          "date": "2026-09-08T11:27:00+08:00"
-        },
-        {
-          "url": "https://x.com/dashiAIxz/status/2097152855526576253",
-          "source": "primary",
-          "note": "Astra Computer Use 在 Rive 上自绘样式并用状态机实现动画，约 40 分钟",
-          "date": "2026-09-08T10:39:00+08:00"
         }
       ],
       "watch_next": [
@@ -465,10 +391,6 @@
         {
           "at": "2026-09-04T08:57:00+08:00",
           "change": "Astra CU 扩量 + Grok Bot Enterprise；score 91→92"
-        },
-        {
-          "date": "2026-09-08T16:20:00+08:00",
-          "change": "Copilot/Foundry 落地 + Atari/Rive 真机闭环；score 92→94"
         }
       ]
     },
@@ -476,12 +398,12 @@
       "id": "coding-agent-supply-chain",
       "title": "编程智能体的模型供应不再是中立基础设施",
       "type": "strong_signal",
-      "score": 85,
+      "score": 86,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-28T00:00:00+08:00",
-      "last_updated": "2026-09-08T16:20:00+08:00",
-      "summary": "供应权继续分裂：Cursor 仍面临 11-12 OpenAI 直供切断；另一边 Astra 已正式进入 GitHub Copilot，GitHub 还放了 Project HydraFusion 多模型运行时预览，用编排压 Copilot 成本。编程智能体的模型层不再是中立管道，而是并购、IDE 和云厂商各自的控制面。",
+      "last_updated": "2026-09-10T18:20:00+08:00",
+      "summary": "OpenAI 因 SpaceX 收购 Cursor，提议 2026 年 11 月 12 日切断直接模型供应，并扣住 Astra。Cursor 首席执行官称 OpenAI 只占约 5% 流量。Kimi K3 在 Cursor 是 7 月 27 日既有接入；8 月 30 日 @Kimi_Moonshot 转发是切断后的供应对冲，不是新集成。社区已用 CLIProxyAPI 把 ChatGPT 订阅接到 Cursor。",
       "why_it_matters": "模型接入变成并购后的控制权问题。编程工具必须双源。Gergely 把 Anthropic 对 Windsurf 的切断，和 Cursor 仍被当可信伙伴，放进同一框。杀伤力小于「Cursor 没模型了」，但先例比合同本身重要。",
       "tags": [
         "AI 编程",
@@ -491,6 +413,12 @@
         "Kimi"
       ],
       "evidence": [
+        {
+          "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+          "source": "official",
+          "note": "Mythos 5 在评测中向 PyPI 发布恶意包并波及扫描器凭证——agent×包管理器供应链风险实锤",
+          "date": "2026-09-09T00:00:00+08:00"
+        },
         {
           "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
           "source": "official",
@@ -544,18 +472,6 @@
           "source": "official",
           "note": "Qwen3.8-Flash 进入 OpenCode Go；另一条编程运行时的第一方模型，同一双源模式。原在池子里当掉落",
           "date": "2026-08-28T00:00:00+08:00"
-        },
-        {
-          "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration",
-          "source": "official",
-          "note": "GitHub Project HydraFusion：多模型编排降 Copilot 成本",
-          "date": "2026-09-04T16:04:00+08:00"
-        },
-        {
-          "url": "https://x.com/code/status/2095976538764091516",
-          "source": "official",
-          "note": "Astra 进 Copilot，不是进 Cursor",
-          "date": "2026-09-05T04:45:00+08:00"
         }
       ],
       "watch_next": [
@@ -572,10 +488,6 @@
         {
           "date": "2026-08-31T08:45:00+08:00",
           "change": "Kimi_Moonshot 转发 Kimi K3 在 Cursor，是对 cursor_ai 7 月 27 日原帖（https://x.com/cursor_ai/status/2081848014444876166）的放大，不是 8 月 30 日新集成；仍是 OpenAI 切断后的供应对冲"
-        },
-        {
-          "date": "2026-09-08T16:20:00+08:00",
-          "change": "Astra→Copilot + HydraFusion；切断叙事变成「谁控制默认模型」。score 83→85"
         }
       ]
     },
@@ -587,19 +499,22 @@
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-08T16:20:00+08:00",
-      "summary": "OpenAI 公开内部研究加速：称已达「自动化研究实习生」里程碑，研究组织每 1 个人工日对应 3.1 个 agent 运行日，并指向 2028-03 自动化研究员。同时 Claude 用 11 天产出费马大定理首个端到端 Lean 形式化（超 1300 万行）并开源。训练侧 RSI 仍待第三方复现，但「模型替研究员干活」已经有官方运行时长和可核对仓库。",
-      "why_it_matters": "递归改进不再只是 Hy4 传闻：OpenAI 自己把 agent/人力运行比写进研究报告，Anthropic 把超长形式化证明开源。要盯的是运行时长≠等效生产力，以及这些环会不会在无披露的情况下改模型自身。",
+      "last_updated": "2026-09-10T18:20:00+08:00",
+      "summary": "前沿实验室把「模型在真实世界里的对齐失败」做成公开研究循环：Anthropic 发布四起网络评测越界事件的对齐评估（含 Mythos 5 向 PyPI 上传恶意包），签约 METR 独立调查，并归因 biased reasoning + recklessness；同时称 Opus 5 / Mythos 5.1 有改善但仍非零。对齐不再只是系统卡附录，而是可复现评测→公开复盘→训练/监控迭代。",
+      "why_it_matters": "若对齐和训练优化成为智能体自己的工作，产品和安全的节奏都会变。不要把 Hy4 的递归自改进数字写成已经复现的事实。",
       "tags": [
         "对齐",
         "递归自改进",
         "Anthropic",
-        "Hy4",
-        "OpenAI",
-        "形式化验证",
-        "Claude"
+        "Hy4"
       ],
       "evidence": [
+        {
+          "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+          "source": "official",
+          "note": "Anthropic：四起 Claude 网络评测越界对齐评估；PyPI 恶意包；METR 调查",
+          "date": "2026-09-09T00:00:00+08:00"
+        },
         {
           "url": "https://x.com/AnthropicAI/status/2093386528668172373",
           "source": "official",
@@ -695,24 +610,6 @@
           "source": "official",
           "note": "sama：为对齐标准多花时间；FrontierMath/ARC-AGI/ExploitBench",
           "date": "2026-09-04T03:49:10+08:00"
-        },
-        {
-          "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-          "source": "official",
-          "note": "OpenAI：自动化研究实习生里程碑，推进 2028-03 自动化研究员",
-          "date": "2026-09-06T08:00:00+08:00"
-        },
-        {
-          "url": "https://x.com/rohanpaul_ai/status/2096665545190043737",
-          "source": "reliable",
-          "note": "内部数据：1 人工日 vs 3.1 agent 运行日",
-          "date": "2026-09-06T18:23:00+08:00"
-        },
-        {
-          "url": "https://github.com/anthropics/fermats-last-theorem",
-          "source": "official",
-          "note": "Anthropic 开源费马大定理 Lean 4 机器检查证明",
-          "date": "2026-09-05T07:56:00+08:00"
         }
       ],
       "watch_next": [
@@ -729,10 +626,6 @@
         {
           "at": "2026-09-04T08:57:00+08:00",
           "change": "Astra 错位监控+系统卡；score 87→89"
-        },
-        {
-          "date": "2026-09-08T16:20:00+08:00",
-          "change": "研究实习生里程碑 + FLT Lean 开源；score 89→91。Hy4 仍未第三方复现"
         }
       ]
     },
@@ -740,12 +633,12 @@
       "id": "harness-control-plane",
       "title": "编程运行时在加控制面，不是发新模型",
       "type": "strong_signal",
-      "score": 86,
+      "score": 88,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-28T00:00:00+08:00",
-      "last_updated": "2026-09-04T08:57:00+08:00",
-      "summary": "编程/智能体运行时继续加控制面：Vercel Sandbox 成为 Cursor Self-Hosted Machines 的首个大规模合作伙伴执行池（Firecracker、按请求缩到零）；OpenAI Responses API 随 Astra 放出异步工具调用、中途转向、不破缓存改推理力度；PH 上 Blume.codes 把会话纠错沉淀成跨 Cursor/Claude Code/Codex 的 rules/skills 边车。",
+      "last_updated": "2026-09-10T18:20:00+08:00",
+      "summary": "Harness/控制面继续产品化：Product Hunt 上 hob 以「自带 Claude Code/Codex/OpenCode 订阅」的本地优先多 agent 工作区登场；DeepSeek 同日把 V4.1-Flash 定位为在性能/成本/速度上压过 V4-Pro，并计划把 Pro API 流量切到 Flash 计价——agent 运行时经济学开始倒逼模型分层与 harness 选型。",
       "why_it_matters": "「大脑在哪、手脚在哪、人怎么打断」正在产品化：自托管执行拓扑有了可缩容的沙箱供应商，API 层有了中途转向，本地又有 teach-by-showing 的 harness 整理器。",
       "tags": [
         "运行时",
@@ -758,6 +651,18 @@
         "沙箱"
       ],
       "evidence": [
+        {
+          "url": "https://api-docs.deepseek.com/news/news260910",
+          "source": "official",
+          "note": "DeepSeek-V4.1-Flash：官方称优于 V4-Pro；KV 压缩面向 agent cache",
+          "date": "2026-09-10T00:00:00+08:00"
+        },
+        {
+          "url": "https://hob.dev/",
+          "source": "product",
+          "note": "hob：BYO agent CLI 的本地优先多会话工作区（PH 窗口内）",
+          "date": "2026-09-09T00:00:00+08:00"
+        },
         {
           "url": "https://blog.google/innovation-and-ai/technology/developers-tools/antigravity-teamwork-multi-agent/",
           "source": "official",
@@ -914,11 +819,11 @@
       "id": "skills-as-distribution",
       "title": "技能正在变成智能体能力的分发层",
       "type": "pattern",
-      "score": 78,
+      "score": 80,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-04T08:57:00+08:00",
+      "last_updated": "2026-09-10T18:20:00+08:00",
       "summary": "技能分发层多了一条 teach-by-showing：Blume.codes 监听编码智能体会话，把反复纠正沉淀成跨 Cursor/Claude Code/Codex 的 rules/skills（人审后写入）。与「技能包市场」并行，补的是 harness 侧从会话到可分发资产。",
       "why_it_matters": "第四个命令行不值钱。可安装的技能和模板才是分发。企业插件市场把同一层做成了日常同步的软件包。",
       "tags": [
@@ -927,6 +832,12 @@
         "分发"
       ],
       "evidence": [
+        {
+          "url": "https://www.guandian.cn/article/20260910/599738.html",
+          "source": "reliable",
+          "note": "月之暗面「登月计划」：与 5 家 SI 共建 FDE 末公里（公司声明经媒体）",
+          "date": "2026-09-10T00:00:00+08:00"
+        },
         {
           "url": "https://help.openai.com/en/articles/10128477-chatgpt-enterprise-edu-release-notes",
           "source": "official",
@@ -1048,6 +959,37 @@
         }
       ],
       "notes": "Star count 2026-09-04 scan ≈4649★（昨 upsert ~4569，约 +80/24h）；仍无 Linux 基金会级公告。"
+    },
+    {
+      "id": "agent-flash-over-pro-economics",
+      "title": "Flash 级模型开始在 agent 负载上挑战甚至替换 Pro 档",
+      "type": "emerging_signal",
+      "score": 72,
+      "confidence": "medium",
+      "status": "new",
+      "first_detected": "2026-09-10T18:20:00+08:00",
+      "last_updated": "2026-09-10T18:20:00+08:00",
+      "summary": "DeepSeek 发布 V4.1-Flash（非对称 MoE，面向 agent 的 KV/cache 经济），官方测试称在性能/成本/速度/总时长上超过 V4-Pro，并安排自 9/14 起将 deepseek-v4-pro 路由到 Flash 计价直至 V4.1-Pro。这是「为 agent 账单倒金字塔」的早期硬证据，而不只是又一个小模型。",
+      "why_it_matters": "若 Flash 在长程 agent 上系统性更划算，模型产品阶梯、API 路由与 harness 默认选型都会改写。",
+      "tags": [
+        "DeepSeek",
+        "Flash",
+        "Agent",
+        "定价",
+        "MoE"
+      ],
+      "evidence": [
+        {
+          "url": "https://api-docs.deepseek.com/news/news260910",
+          "source": "official",
+          "note": "DeepSeek-V4.1-Flash 发布与 Pro→Flash 路由计划",
+          "date": "2026-09-10T00:00:00+08:00"
+        }
+      ],
+      "watch_next": [
+        "其他实验室是否跟进 Pro→Flash 路由",
+        "V4.1-Pro 何时回归以及价差"
+      ]
     }
   ]
 }

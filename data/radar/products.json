@@ -1,66 +1,69 @@
 {
   "source": "ai-frontier-radar",
   "title": "新产品",
-  "updated_at": "2026-09-08T16:20:00+08:00",
+  "updated_at": "2026-09-10T18:20:00+08:00",
   "count": 34,
   "items": [
     {
-      "id": "instinct",
-      "name": "Instinct",
-      "score": 78,
+      "id": "hob",
+      "first_detected": "2026-09-10T18:20:00+08:00",
+      "last_updated": "2026-09-10T18:20:00+08:00",
+      "name": "hob",
+      "score": 82,
       "status": "new",
-      "first_detected": "2026-09-08T16:20:00+08:00",
-      "last_updated": "2026-09-08T16:20:00+08:00",
-      "summary": "硅谷个人 AI 助理：宣称理解你的工作并跨应用/设备采取行动。华人圈在传邀请码，中国手机号目前无法注册。",
-      "novelty": "Grok Bot 之外又一个「跨应用代办」个人助理，可用性被地理/手机号卡住",
+      "summary": "本地优先的独立工作区：编排你已有的 agent CLI（Claude Code / Codex / OpenCode 等）做并行会话、终端、worktree 与远程访问；不转售模型。",
+      "novelty": "Provider-agnostic harness：订阅留在各家，hob 只做多 agent 编码工作的持久工作区。",
       "urls": {
-        "site": "https://instinct.com/",
-        "x": "https://x.com/dingyi/status/2097173331380470022"
+        "ph": "https://www.producthunt.com/products/hob-2",
+        "site": "https://hob.dev/"
       },
       "tags": [
+        "Harness",
         "Agent",
-        "个人助理",
-        "产品"
+        "CLI",
+        "Product Hunt"
       ],
-      "homepage": false
+      "homepage": true
     },
     {
-      "id": "motion-threejs",
-      "name": "Motion for Three.js",
-      "score": 73,
+      "id": "deepseek-v4-1-flash",
+      "first_detected": "2026-09-10T18:20:00+08:00",
+      "last_updated": "2026-09-10T18:20:00+08:00",
+      "name": "DeepSeek-V4.1-Flash",
+      "score": 84,
       "status": "new",
-      "first_detected": "2026-09-08T16:20:00+08:00",
-      "last_updated": "2026-09-08T16:20:00+08:00",
-      "summary": "Motion 现可动画 Three.js 物体、材质、shader uniforms 与 TSL 节点，并 batch 进同一渲染循环与 HTML/SVG 同步。Motion+ Early Access。",
-      "novelty": "WebGL 动效从手写 shader 时间线，收成和前端同一套弹簧/编排 API",
+      "summary": "DeepSeek 发布 V4.1-Flash（非对称 MoE，API deepseek-flash + 开源权重）；官方称在性能/成本/速度上压过 V4-Pro，并计划把 Pro 流量切到 Flash 计价。",
+      "novelty": "用 Flash 档正面替代 Pro 做 agent 负载，并把 KV 压缩明确卖成 agent cache 经济。",
       "urls": {
-        "x": "https://x.com/dingyi/status/2097157208975036507"
+        "official": "https://api-docs.deepseek.com/news/news260910",
+        "changelog": "https://api-docs.deepseek.com/updates"
       },
       "tags": [
-        "Three.js",
-        "动效",
-        "3D"
+        "DeepSeek",
+        "Flash",
+        "MoE",
+        "Agent"
       ],
-      "homepage": false
+      "homepage": true
     },
     {
-      "id": "anthropic-flt-lean",
-      "name": "Fermat Last Theorem Lean proof",
-      "score": 86,
+      "id": "meta-muse-personal-agent",
+      "first_detected": "2026-09-10T18:20:00+08:00",
+      "last_updated": "2026-09-10T18:20:00+08:00",
+      "name": "Meta Muse",
+      "score": 90,
       "status": "new",
-      "first_detected": "2026-09-04T18:50:00+08:00",
-      "last_updated": "2026-09-08T16:20:00+08:00",
-      "summary": "Anthropic 称 Claude 11 天完成费马大定理首个端到端形式化，生成超 1300 万行 Lean，并顺带形式化约 2.9 万条所需定理。Apache-2.0 仓库可独立机器检查。",
-      "novelty": "不是解题截图，是可复现的超长形式化证明仓库",
+      "summary": "面向大众的个人 AI agent：在独立 Muse Secure VM 上跨应用代办（关 App 后继续），敏感操作需确认；Sentinel 门控出网；US iOS/Android/muse.ai + WhatsApp。",
+      "novelty": "把「个人持久电脑」做成带 Sentinel/审计/审批的消费级 Secure VM，而不是又一个聊天助手。",
       "urls": {
-        "github": "https://github.com/anthropics/fermats-last-theorem",
-        "x": "https://x.com/AnthropicAI/status/2095947707605266436"
+        "official": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+        "site": "https://muse.ai"
       },
       "tags": [
-        "Anthropic",
-        "Claude",
-        "形式化验证",
-        "数学"
+        "Meta",
+        "Muse",
+        "Agent",
+        "Secure VM"
       ],
       "homepage": true
     },
@@ -142,7 +145,7 @@
         "Harness",
         "teach-by-showing"
       ],
-      "homepage": true,
+      "homepage": false,
       "notes": "PH Sep 3 #11 · 102 votes"
     },
     {
@@ -163,7 +166,7 @@
         "Agent",
         "YC"
       ],
-      "homepage": true,
+      "homepage": false,
       "notes": "PH Sep 3 #1 · 254 votes · 24 comments · YC"
     },
     {
@@ -184,22 +187,21 @@
         "自愈",
         "Agent"
       ],
-      "homepage": true,
+      "homepage": false,
       "notes": "PH Sep 3 #2 · 252 votes · 13 comments"
     },
     {
       "id": "grok-bot-enterprise",
       "name": "Grok Bot for Enterprise",
-      "score": 84,
-      "status": "watching",
+      "score": 83,
+      "status": "new",
       "first_detected": "2026-09-04T08:57:00+08:00",
-      "last_updated": "2026-09-08T16:20:00+08:00",
-      "summary": "企业 Grok Bot 继续产品化：采购向 Haggle Bot 被 xAI 写成可量化节省（官方称找出超 10 万美元直接节省）。与 Cursor 企业两周免费窗口叠在同一周，个人助理品类开始有「能办事」的账单故事。",
+      "last_updated": "2026-09-04T08:57:00+08:00",
+      "summary": "企业版 Grok Bot 今日可用；对 Grok 与 Cursor 企业客户免两周。定位组织内可邀请的持久队友（自有电脑 + Routines）。",
       "novelty": "把「Bot 即队友」做成企业分发，并与 Cursor 企业账号打通试用",
       "urls": {
         "x": "https://x.com/bot/status/2095621571335655872",
-        "site": "https://x.ai/news/designing-grok-bot",
-        "procurement": "https://x.ai/news/grok-bot-procurement"
+        "site": "https://x.ai/news/designing-grok-bot"
       },
       "tags": [
         "xAI",
@@ -207,7 +209,7 @@
         "企业",
         "Agent"
       ],
-      "homepage": true,
+      "homepage": false,
       "notes": "消费版 Bot Aug 11 已上；本窗是 Enterprise 档"
     },
     {
@@ -228,25 +230,22 @@
         "分发",
         "Daybreak"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "gpt-6-astra",
       "name": "GPT-6 Astra",
-      "score": 95,
-      "status": "strengthening",
+      "score": 92,
+      "status": "watching",
       "first_detected": "2026-09-04T08:57:00+08:00",
-      "last_updated": "2026-09-08T16:20:00+08:00",
-      "summary": "Astra 已从「分阶段预告」变成多通道在卖：ChatGPT Pro/Ent/Biz Premium 与 API、Azure Foundry、VS Code Copilot。Plus/Business 滚动放量；官方致歉放量混乱并按日补偿额度。Computer Use 有真机闭环，也有额度砍半和基准被改的争议。",
-      "novelty": "带 Critical 门控开量的同时，Computer Use 开始进 IDE/云，不只是 Chat 模型换代",
+      "last_updated": "2026-09-04T08:57:00+08:00",
+      "summary": "OpenAI 新一代前沿模型分阶段发货：电脑操控/浏览/软件工程/网络/科学 SOTA；先限组织，数日内 Plus/Pro/Biz/Ent + API + AWS。Critical 网络能力与错位监控同捆。",
+      "novelty": "第一款带着 Critical cyber 门控真正开量的前沿模型，不是又一次参数秀",
       "urls": {
         "site": "https://openai.com/index/safety-overview-gpt-6-astra/",
         "x": "https://x.com/OpenAI/status/2095595741528125780",
         "system_card": "https://deploymentsafety.openai.com/gpt-6-astra",
-        "release_notes": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
-        "azure": "https://x.com/satyanadella/status/2095713765446840591",
-        "copilot": "https://x.com/code/status/2095976538764091516",
-        "rollout": "https://x.com/sama/status/2096008528834244741"
+        "release_notes": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
       },
       "tags": [
         "OpenAI",
@@ -254,7 +253,7 @@
         "Computer Use",
         "安全"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "monid",
