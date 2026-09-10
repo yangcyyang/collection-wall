@@ -1,2149 +1,662 @@
 {
   "source": "xiaohongshu-ai-radar",
   "title": "小红书 AI 用户雷达",
-  "date": "2026-09-05",
-  "updated_at": "2026-09-05T06:40:00+08:00",
-  "count": 82,
+  "date": "2026-09-11",
+  "updated_at": "2026-09-11T01:55:02+08:00",
+  "count": 34,
   "summary": {
     "today_judgement": [
-      "【事实】今日 OpenCLI 全量：23 关键词非空、约 430 条采样/403 去重、21 条评论线程；登录「瑶姐的潮玩店」正常。高互动落在宠物 Vlog 教程、HTML/Vibe 场景、Claude 扫号、Gemini 余热、WorkBuddy 求分享、Skill 必装与 Prompt 争论。",
-      "【事实】评论区最密的动作是：求分享/求下载 Skill 与项目清单、问国内 Claude 怎么用/魔法、问视频脚本提示词与便宜会员、辩论 Skill≠纯 Prompt、企业侧用多 Skill 按 SOP 出报告。",
-      "【推断】相对昨日，事件热从「发布日」滑向「余热+教程爆款」；真实需求轴更清晰——安装化清单、可交付小成品、成本可控；Agent 同时出现祛魅与 SOP 正例。",
-      "【机会假设】内容押「可安装清单 + 国内路径 + 脚本/成本表」；产品/商业押「代装 Skill、行业 SOP 代做、视频脚本套餐」，少卖暴富故事。"
+      "【事实】OpenCLI `--profile pfzpdshj` 登录正常；拉feed约150条，强AI相关仅2条。search首词Skill返回空数组，按规则停搜；ask也跳验证码，未硬刷。",
+      "【事实】今日可见的最强AI信号不是模型发布，而是「AI出图省设计费→矢量外包承压」：高赞帖+评论区讨论描摹工序、解剖错误、手工修细节。",
+      "【推断】在搜索不可用时，首页推荐几乎不给垂直AI货架；产品向（Cursor/Claude/Skill/即梦）信号缺失应视为采集缺口，不作趋势下降判断。",
+      "【机会假设】内容/产品先打「AI图→可生产矢量/质检」这条被验证的半自动流水线；等search恢复再补模型与Skill线。"
     ],
     "top_signals": [
-      "Skill/项目清单「求分享·求下载」成为默认互动：WorkBuddy 连刷求分享，Claude/Codex Skills 求获取与国内路径",
-      "交付教程爆款化：宠物 Vlog、HTML 四件事把 Vibe/视频拉到「交作业」；评论立刻要脚本提示词与成本真相",
-      "供给与概念双线：Claude 扫号/卖号 + Cursor 断供余波仍在；Skill=Prompt 高赞辩论显示认知从 L2 词藻向 L3/L4 封装升级"
+      "AI生图把成本压力转移到矢量外包：「廉价牛马」原话高共鸣",
+      "工序未消失：扁平矢量风 + Illustrator描摹 + 手修细节仍是默认闭环",
+      "质量不信任：握姿反了等常理错误，逼出人工质检需求"
     ]
   },
   "sections": {
     "hot": [
       {
         "id": "H1",
-        "title": "Gemini 3.8 / Flash 仍在发酵",
-        "summary": "昨日发布叙事延续到今日：姚顺宇 RSI 表态、Flash 霸榜对比帖同屏，形成跨日事件热。",
-        "why": "发布后 48h 仍有高赞资讯帖与评论区模型对比，属于短期事件热而非新需求。",
-        "audience": "模型党、产品经理、AI 爱好者",
-        "direction": "",
+        "title": "AI生图压低设计费→矢量外包承压",
+        "summary": "【事实】首页高赞帖直言：很多人用AI出图省设计费，再找「廉价牛马」画矢量；1142赞/139评。",
+        "why": "把AI从「酷工具」拉到真实分工与收入结构，评论区围绕工序而非模型榜。",
+        "audience": "矢量设计师、平面/雕模供应链、AIGC使用者",
         "tags": [
-          "Gemini",
-          "Flash",
-          "RSI",
-          "发布"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a98a9e1000000001203e03f?xsec_token=ABVJx25F1I6PjMJNShuNG89ViTTQzjJ8Q2rSDPa60wJcY=",
-            "title": "姚顺宇发声：Gemini 3.8是RSI的一大步",
-            "note": "RSI 叙事主帖，评论活跃"
-          },
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a98a5dd0000000011033e73?xsec_token=ABVJx25F1I6PjMJNShuNG89YYrUSYWHPLLClpzMMuQsyI=",
-            "title": "Gemini 3.8 flash击败了fable5霸榜第一😂",
-            "note": "同日对比热帖"
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "H2",
-        "title": "Claude 账号稀缺 / 扫号与卖号",
-        "summary": "「大厂扫空几十万 Claude 账号」评论区从抱怨无号转向怎么卖号、怎么对齐额度，稀缺感仍强。",
-        "why": "供给焦虑直接变成交易讨论，说明可用性门槛本身就是热点。",
-        "audience": "重度用户、开发者、号贩关注者",
-        "direction": "",
-        "tags": [
-          "Claude",
-          "扫号",
-          "账号稀缺",
-          "卖号"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a9687fc0000000011033570?xsec_token=AB4KFRnpLgMCGLgVFm3G9ii-v2HYyvvMP7h0kKOvZnDaE=",
-            "title": "大厂扫空几十万Claude账号，散户直接无号",
-            "note": "评论高频：怎么卖号/为什么囤号砸手里"
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "H3",
-        "title": "多模型宕机余波（ChatGPT/Claude/Grok）",
-        "summary": "「官方实锤宕机」帖评论仍在问「好了吗」，可用性焦虑跨日持续。",
-        "why": "故障天然高传播，并触发替代工具讨论。",
-        "audience": "日常使用者、创作者、开发者",
-        "direction": "",
-        "tags": [
-          "宕机",
-          "ChatGPT",
-          "Claude",
-          "Grok"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a96b3c70000000026019b73?xsec_token=AB4KFRnpLgMCGLgVFm3G9ii_lrbyhH9h_kgUOEP3-XYVA=",
-            "title": "崩了！ChatGPT官方实锤宕机，彻底罢工",
-            "note": "评论区持续追问恢复状态"
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "H4",
-        "title": "AI 宠物 Vlog / 普通人做视频教程爆款",
-        "summary": "「2分钟学会 AI 做宠物 vlog」当日高赞，评论求提示词/脚本/GPT 怎么用，同时吐槽成本不便宜。",
-        "why": "教程入口强，但评论立刻落到成本与脚本写法，需求比炫技更实。",
-        "audience": "宠物博主、短视频新手、AI 视频玩家",
-        "direction": "",
-        "tags": [
-          "AI视频",
-          "宠物vlog",
-          "提示词",
-          "教程"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a9a9e76000000002b011989?xsec_token=ABXFpol3gVqMuSPUzfRnMReP0zTcJnGN_lfbwgNuAdBAM=",
-            "title": "2分钟，普通人也能学会用AI做宠物vlog",
-            "note": "求提示词/脚本；成本吐槽并存"
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "H5",
-        "title": "普通人 HTML / Vibe Coding 实用场景",
-        "summary": "「普通人用 HTML 做的 4 件事」高赞，评论把自然语言→网页落到做 PPT/素材收集等具体任务。",
-        "why": "Vibe Coding 从大赛口号落到可抄场景清单。",
-        "audience": "零基础、职场人、个人站玩家",
-        "direction": "",
-        "tags": [
-          "Vibe Coding",
-          "HTML",
-          "自然语言",
-          "场景"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a983cdf0000000025036fae?xsec_token=ABVJx25F1I6PjMJNShuNG89TBG2oANZdCRYmOocfhSjF0=",
-            "title": "AI 时代，普通人可以用HTML做的4件事🤔？",
-            "note": "评论对接 PPT/素材工作流"
-          },
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a83207d000000002702267a?xsec_token=ABVi1SZFkkHre6v4vTBnCpu6_pGuNgeyzOng4f4GzgyxU=",
-            "title": "小红书vibecoding大赛启动！",
-            "note": "大赛仍在收作品"
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "H6",
-        "title": "Codex / Skill 必装清单",
-        "summary": "「Codex 必装高级设计感 Skill」「Claude Skills 必装」持续：评论求下载、国内怎么用、魔法。",
-        "why": "安装化动作成为默认互动，而非再问「Skill 是什么」。",
-        "audience": "Claude/Codex 用户、设计师向开发者",
-        "direction": "",
-        "tags": [
-          "Skill",
-          "Codex",
-          "必装",
-          "清单"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a96594000000000260185bf?xsec_token=AB4KFRnpLgMCGLgVFm3G9ii7zvQ6ykLqHNn8orBQd2xgg=",
-            "title": "Codex 必装高级设计感Skill",
-            "note": "评论：怎么下载"
-          },
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a255ee8000000001c02788b?xsec_token=ABgS8gjNAa0M8St43JvMbcSr7qCQviANi7wG_U_dWzK1Y=",
-            "title": "Claude千万别裸装，这几个skills必须装上！",
-            "note": "求国内用法/skill 获取"
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "H7",
-        "title": "WorkBuddy / 项目清单求分享潮",
-        "summary": "「15 个项目吃透 WorkBuddy」评论区连续「求分享」，清单帖直接变成资源索取场。",
-        "why": "说明用户要的是可复制项目包，不是概念介绍。",
-        "audience": "工作流用户、效率工具党",
-        "direction": "",
-        "tags": [
-          "WorkBuddy",
-          "项目清单",
-          "求分享",
-          "工作流"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a96389c0000000012036351?xsec_token=AB4KFRnpLgMCGLgVFm3G9ii-n6rJYD1gehPZiJ3hIuLKs=",
-            "title": "这15个项目吃透，你的workbuddy就很牛了",
-            "note": "多条求分享"
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "H8",
-        "title": "OpenAI 断供 Cursor 讨论延续",
-        "summary": "断供叙事帖评论认为对主力用户影响有限（额度本就低、可切 Grok/Composer），但供给不确定性仍在。",
-        "why": "工具栈迁移焦虑从「断没断」转向「额度与主力模型怎么配」。",
-        "audience": "AI 编程用户、Cursor 用户",
-        "direction": "",
-        "tags": [
-          "Cursor",
-          "断供",
-          "OpenAI",
-          "额度"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a9298d1000000002303d201?xsec_token=ABoIHAMoEG3K_jmHiCJHpOIH135CKtpZNkDszEEpZqwWo=",
-            "title": "OpenAI官宣断供Cursor，马斯克激情开喷",
-            "note": "评论：第三方额度低、主力不在 GPT"
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "H9",
-        "title": "DeepSeek 可视化工作台 Howto",
-        "summary": "建筑设计师用大白话+迭代做出可视化工作台，今日仍有互动，强调「十几轮修改」。",
-        "why": "国产模型场景从聊天走向可交付工作台，叙事偏 L3。",
-        "audience": "设计师、职场人、DeepSeek 用户",
-        "direction": "",
-        "tags": [
-          "DeepSeek",
-          "工作台",
-          "可视化",
-          "迭代"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a9a9cd5000000001103754d?xsec_token=ABXFpol3gVqMuSPUzfRnMReBZoARFrv82gdGAv8BXe6MU=",
-            "title": "Howto｜打造DeepSeek可视化工作台！",
-            "note": "大白话提需求+案例迭代"
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "H10",
-        "title": "Skill=Prompt 概念大战续热",
-        "summary": "「Skill 就是 Prompt」帖评论高赞辩论：scripts/工具/渐进披露 vs 动态提示词，抽象分层成为焦点。",
-        "why": "不是单日新闻，而是认知升级拉锯；为内容科普提供持续素材。",
-        "audience": "产品经理、面试/求职者、重度用户",
-        "direction": "",
-        "tags": [
-          "Skill",
-          "Prompt",
-          "概念",
-          "抽象"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a8eb0ea0000000003028a5f?xsec_token=AB7OQ98AQKz3mZBJfN6h-e3XHyVcDqAN1nL_brlyigJjc=",
-            "title": "我说Skill就是Prompt，把面试官整破防了",
-            "note": "高赞评论争论 Skill≠纯 Prompt"
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      }
-    ],
-    "trends": [
-      {
-        "id": "T1",
-        "title": "Skill 安装化 / 可执行封装 ↑↑",
-        "summary": "必装清单、手搓 Skill、卖 Skill、DeepSeek 推荐自写 Skill 同屏；评论要下载与国内路径。",
-        "why": "连续多日从概念争论走向「装上就能用」。",
-        "audience": "重度用户、教程作者",
-        "direction": "up_fast",
-        "tags": [
-          "Skill",
-          "安装",
-          "封装"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a255ee8000000001c02788b?xsec_token=ABgS8gjNAa0M8St43JvMbcSr7qCQviANi7wG_U_dWzK1Y=",
-            "title": "Claude千万别裸装，这几个skills必须装上！",
-            "note": ""
-          },
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a69e063000000002201b73c?xsec_token=ABx9jZ-xwqj6xZIrf-M0KS3unkFvbj9SchbJ4nSOgtFRQ=",
-            "title": "一个Skill卖了40万",
-            "note": ""
-          },
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a9a65f60000000012034e39?xsec_token=ABXFpol3gVqMuSPUzfRnMReIStgBr-m39e21sgWgHQTKE=",
-            "title": "我写的 skill 被 deepseek 推荐了！",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "T2",
-        "title": "Vibe Coding：场景清单化 ↑↑",
-        "summary": "从大赛启动到「HTML 四件事」「Codex 动效站」教程，用户互动落在可交付小成品。",
-        "why": "平台活动+教程供给把编程需求从工具安利推向作品交付。",
-        "audience": "零基础、创作者",
-        "direction": "up_fast",
-        "tags": [
-          "Vibe Coding",
-          "HTML",
-          "交付"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a983cdf0000000025036fae?xsec_token=ABVJx25F1I6PjMJNShuNG89TBG2oANZdCRYmOocfhSjF0=",
-            "title": "AI 时代，普通人可以用HTML做的4件事🤔？",
-            "note": ""
-          },
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a96d874000000002900e5cf?xsec_token=AB4KFRnpLgMCGLgVFm3G9ii9PXsI1v1IlPQQnbIHzl_i4=",
-            "title": "6分钟带你用Codex玩转高级感动效网站",
-            "note": ""
-          },
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a83207d000000002702267a?xsec_token=ABVi1SZFkkHre6v4vTBnCpu6_pGuNgeyzOng4f4GzgyxU=",
-            "title": "小红书vibecoding大赛启动！",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "T3",
-        "title": "Agent：祛魅与 SOP 落地并行 ↑",
-        "summary": "「普通人为什么还在只用聊天」与「从0到1搭 Agent」并存；评论强调有需求才用、跨境电商 100+ skill 按 SOP 出报告。",
-        "why": "口头 L4 与行为 L2/L3 落差仍在，但企业 SOP 证据变强。",
-        "audience": "中小团队、产品、运营",
-        "direction": "up",
-        "tags": [
-          "Agent",
-          "SOP",
-          "祛魅"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a52508800000000210237ce?xsec_token=ABjrX3lDGdDlllix1q5ZZFQqHYqatNUNVpow45jM4lb2k=",
-            "title": "AI Agent吹了这么久，为什么普通人还在只用",
-            "note": ""
-          },
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a48e816000000001702a292?xsec_token=AByR1aO9REMEwGqoG1fM6qbu8gMvkELsMGEkXL-TRRo1A=",
-            "title": "从0到1搭建AI Agent｜不会代码也能做",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "T4",
-        "title": "生视频成本战争 → 持续",
-        "summary": "比价帖评论仍问便宜会员、降价退款、变现路径；宠物 vlog 教程同步爆但吐槽不便宜。",
-        "why": "价格/积分/排队是跨周稳定痛点，非单日热点。",
-        "audience": "AI 视频创作者",
-        "direction": "stable",
-        "tags": [
-          "可灵",
-          "即梦",
-          "价格",
-          "积分"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/69e0aea00000000023021607?xsec_token=ABo3MhsLFd1vjKG0HKAz0EHMENum6BDbAXI2tnxTeo0LQ=",
-            "title": "AI生视频哪家最便宜？ 可灵、即梦、vidu、",
-            "note": ""
-          },
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a9a9e76000000002b011989?xsec_token=ABXFpol3gVqMuSPUzfRnMReP0zTcJnGN_lfbwgNuAdBAM=",
-            "title": "2分钟，普通人也能学会用AI做宠物vlog",
-            "note": ""
-          },
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a96932f000000002802d0a0?xsec_token=AB4KFRnpLgMCGLgVFm3G9ii9GFdULYTbCKCEWyYaboBRY=",
-            "title": "即梦 全世界最恶心的平台没有之一",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "T5",
-        "title": "账号/额度/断供供给焦虑 →",
-        "summary": "Claude 扫号、Cursor 断供、多模型宕机同屏，用户评估工具时优先问「能不能稳定用」。",
-        "why": "可用性成为选型第一维度。",
-        "audience": "开发者、订阅用户",
-        "direction": "stable",
-        "tags": [
-          "扫号",
-          "断供",
-          "宕机",
-          "额度"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a9687fc0000000011033570?xsec_token=AB4KFRnpLgMCGLgVFm3G9ii-v2HYyvvMP7h0kKOvZnDaE=",
-            "title": "大厂扫空几十万Claude账号，散户直接无号",
-            "note": ""
-          },
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a9298d1000000002303d201?xsec_token=ABoIHAMoEG3K_jmHiCJHpOIH135CKtpZNkDszEEpZqwWo=",
-            "title": "OpenAI官宣断供Cursor，马斯克激情开喷",
-            "note": ""
-          },
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a96b3c70000000026019b73?xsec_token=AB4KFRnpLgMCGLgVFm3G9ii_lrbyhH9h_kgUOEP3-XYVA=",
-            "title": "崩了！ChatGPT官方实锤宕机，彻底罢工",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "T6",
-        "title": "PPT / 办公交付长需求 →",
-        "summary": "80 页 PPT 帖评论仍求去水印、文字版、NotebookLM 打不开。",
-        "why": "内容热度中等，真实办公需求稳定。",
-        "audience": "职场人、学生",
-        "direction": "stable",
-        "tags": [
-          "PPT",
-          "NotebookLM",
-          "办公"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/69db720e000000002301f2b1?xsec_token=ABGik6wfB1bIGbT1Kg-ZUMC_GAdEXdwehYHmDbGqOMCI0=",
-            "title": "10分钟快速做80页高质量PPT～",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "T7",
-        "title": "国产模型工作台化 ↑",
-        "summary": "DeepSeek 可视化工作台、豆包开发体验（检索面仍有）指向「用国产模型搭应用」。",
-        "why": "从问答助手向搭建入口迁移的早期信号。",
-        "audience": "设计师、轻开发",
-        "direction": "up",
-        "tags": [
-          "DeepSeek",
-          "豆包",
-          "工作台"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a9a9cd5000000001103754d?xsec_token=ABXFpol3gVqMuSPUzfRnMReBZoARFrv82gdGAv8BXe6MU=",
-            "title": "Howto｜打造DeepSeek可视化工作台！",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "T8",
-        "title": "Skill 商业化叙事（卖 Skill）↑",
-        "summary": "「一个 Skill 卖了 40 万」评论质疑真假、问怎么手搓；付费信号与祛魅并存。",
-        "why": "商业故事传播强，但信任校验同步变强。",
-        "audience": "副业党、创作者",
-        "direction": "up",
-        "tags": [
-          "Skill",
-          "卖课",
-          "副业"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a69e063000000002201b73c?xsec_token=ABx9jZ-xwqj6xZIrf-M0KS3unkFvbj9SchbJ4nSOgtFRQ=",
-            "title": "一个Skill卖了40万",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      }
-    ],
-    "needs": [
-      {
-        "id": "need-01",
-        "title": "可安装的 Skill / 项目清单",
-        "summary": "用户反复求分享、求下载、求必装清单，要把能力「插上就用」。",
-        "why": "WorkBuddy/Claude Skills/Codex Skill 评论同构。",
-        "audience": "效率用户、开发者、创作者",
-        "direction": "",
-        "tags": [
-          "Skill",
-          "清单",
-          "求分享"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a96389c0000000012036351?xsec_token=AB4KFRnpLgMCGLgVFm3G9ii-n6rJYD1gehPZiJ3hIuLKs=",
-            "title": "这15个项目吃透，你的workbuddy就很牛了",
-            "note": "连续求分享"
-          },
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a255ee8000000001c02788b?xsec_token=ABgS8gjNAa0M8St43JvMbcSr7qCQviANi7wG_U_dWzK1Y=",
-            "title": "Claude千万别裸装，这几个skills必须装上！",
-            "note": "求获取路径"
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": "¥0-¥199"
-      },
-      {
-        "id": "need-02",
-        "title": "自然语言→可交付成品（网页/PPT/视频）",
-        "summary": "HTML 四场景、PPT 80 页、宠物 vlog 都指向「说人话出成品」。",
-        "why": "评论落到具体任务而不是模型参数。",
-        "audience": "零基础、职场、宠物博主",
-        "direction": "",
-        "tags": [
-          "交付",
-          "自然语言",
-          "成品"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a983cdf0000000025036fae?xsec_token=ABVJx25F1I6PjMJNShuNG89TBG2oANZdCRYmOocfhSjF0=",
-            "title": "AI 时代，普通人可以用HTML做的4件事🤔？",
-            "note": ""
-          },
-          {
-            "url": "https://www.xiaohongshu.com/explore/69db720e000000002301f2b1?xsec_token=ABGik6wfB1bIGbT1Kg-ZUMC_GAdEXdwehYHmDbGqOMCI0=",
-            "title": "10分钟快速做80页高质量PPT～",
-            "note": ""
-          },
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a9a9e76000000002b011989?xsec_token=ABXFpol3gVqMuSPUzfRnMReP0zTcJnGN_lfbwgNuAdBAM=",
-            "title": "2分钟，普通人也能学会用AI做宠物vlog",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": "¥0-¥99"
-      },
-      {
-        "id": "need-03",
-        "title": "国内可用的 Claude / 魔法稳定路径",
-        "summary": "Skills 帖评论「国内怎么用」「求靠谱魔法上家跑路了」。",
-        "why": "能力讨论被接入路径打断。",
-        "audience": "国内 Claude 用户",
-        "direction": "",
-        "tags": [
-          "Claude",
-          "魔法",
-          "接入"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a255ee8000000001c02788b?xsec_token=ABgS8gjNAa0M8St43JvMbcSr7qCQviANi7wG_U_dWzK1Y=",
-            "title": "Claude千万别裸装，这几个skills必须装上！",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": "¥0-¥300/月"
-      },
-      {
-        "id": "need-04",
-        "title": "生视频提示词与脚本写法",
-        "summary": "宠物 vlog 评论明确问「提示词怎么写尤其是脚本」。",
-        "why": "工具入口之后的第二课是叙事脚本。",
-        "audience": "短视频创作者",
-        "direction": "",
-        "tags": [
-          "提示词",
-          "脚本",
-          "AI视频"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a9a9e76000000002b011989?xsec_token=ABXFpol3gVqMuSPUzfRnMReP0zTcJnGN_lfbwgNuAdBAM=",
-            "title": "2分钟，普通人也能学会用AI做宠物vlog",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": "¥0-¥99"
-      },
-      {
-        "id": "need-05",
-        "title": "生视频性价比与便宜会员",
-        "summary": "比价帖仍问便宜会员、降价退款、哪家变现。",
-        "why": "成本可控是持续使用前提。",
-        "audience": "AI 视频创作者",
-        "direction": "",
-        "tags": [
-          "比价",
-          "会员",
-          "可灵",
-          "即梦"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/69e0aea00000000023021607?xsec_token=ABo3MhsLFd1vjKG0HKAz0EHMENum6BDbAXI2tnxTeo0LQ=",
-            "title": "AI生视频哪家最便宜？ 可灵、即梦、vidu、",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": "按条/会员"
-      },
-      {
-        "id": "need-06",
-        "title": "按 SOP 输出的业务 Agent",
-        "summary": "实习评论：跨境电商 100+ skill，按 SOP 出选品调研报告可用性高。",
-        "why": "企业要的是标准化报告，不是聊天。",
-        "audience": "电商/运营团队",
-        "direction": "",
-        "tags": [
-          "Agent",
-          "SOP",
-          "报告"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a52508800000000210237ce?xsec_token=ABjrX3lDGdDlllix1q5ZZFQqHYqatNUNVpow45jM4lb2k=",
-            "title": "AI Agent吹了这么久，为什么普通人还在只用",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": "代做/订阅"
-      },
-      {
-        "id": "need-07",
-        "title": "零代码搭最小 Agent",
-        "summary": "从0到1帖评论问后端用什么模型、Coze/Dify/本地部署推荐。",
-        "why": "选型问题集中在低门槛平台。",
-        "audience": "普通人、轻开发",
-        "direction": "",
-        "tags": [
-          "Agent",
-          "Coze",
-          "Dify"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a48e816000000001702a292?xsec_token=AByR1aO9REMEwGqoG1fM6qbu8gMvkELsMGEkXL-TRRo1A=",
-            "title": "从0到1搭建AI Agent｜不会代码也能做",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": "¥0-¥200/月"
-      },
-      {
-        "id": "need-08",
-        "title": "手搓 / 自定义 Skill",
-        "summary": "卖 40 万帖评论问怎么手搓；同时承认有些步骤还得人来选。",
-        "why": "从购买清单走向自建能力包。",
-        "audience": "进阶用户",
-        "direction": "",
-        "tags": [
-          "手搓",
-          "Skill"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a69e063000000002201b73c?xsec_token=ABx9jZ-xwqj6xZIrf-M0KS3unkFvbj9SchbJ4nSOgtFRQ=",
-            "title": "一个Skill卖了40万",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": "¥0"
-      },
-      {
-        "id": "need-09",
-        "title": "DeepSeek 任务迭代工作法",
-        "summary": "工作台帖强调大白话+找案例+十几轮迭代。",
-        "why": "用户需要的是过程方法而非单次神提示词。",
-        "audience": "设计师、职场",
-        "direction": "",
-        "tags": [
-          "DeepSeek",
-          "迭代",
-          "方法"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a9a9cd5000000001103754d?xsec_token=ABXFpol3gVqMuSPUzfRnMReBZoARFrv82gdGAv8BXe6MU=",
-            "title": "Howto｜打造DeepSeek可视化工作台！",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": "¥0"
-      },
-      {
-        "id": "need-10",
-        "title": "稳定在线的主力模型栈",
-        "summary": "宕机帖追问恢复；Cursor 用户讨论主力模型切换。",
-        "why": "「别断」本身就是需求。",
-        "audience": "订阅用户、开发者",
-        "direction": "",
-        "tags": [
-          "稳定性",
-          "多模型"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a96b3c70000000026019b73?xsec_token=AB4KFRnpLgMCGLgVFm3G9ii_lrbyhH9h_kgUOEP3-XYVA=",
-            "title": "崩了！ChatGPT官方实锤宕机，彻底罢工",
-            "note": ""
-          },
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a9298d1000000002303d201?xsec_token=ABoIHAMoEG3K_jmHiCJHpOIH135CKtpZNkDszEEpZqwWo=",
-            "title": "OpenAI官宣断供Cursor，马斯克激情开喷",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": "订阅"
-      }
-    ],
-    "pains": [
-      {
-        "id": "pain-01",
-        "title": "Claude 无号 / 扫号导致用不了",
-        "summary": "散户无号、卖号讨论升温，能力再强也进不去。",
-        "why": "供给中断=功能归零。",
-        "audience": "Claude 用户",
-        "direction": "",
-        "tags": [
-          "扫号",
-          "无号"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a9687fc0000000011033570?xsec_token=AB4KFRnpLgMCGLgVFm3G9ii-v2HYyvvMP7h0kKOvZnDaE=",
-            "title": "大厂扫空几十万Claude账号，散户直接无号",
-            "note": "怎么卖号/囤号砸手里"
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "pain-02",
-        "title": "国内接入不稳定（魔法跑路）",
-        "summary": "评论「上家跑路了求靠谱」。",
-        "why": "接入层比模型层更脆。",
-        "audience": "国内用户",
-        "direction": "",
-        "tags": [
-          "魔法",
-          "跑路"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a255ee8000000001c02788b?xsec_token=ABgS8gjNAa0M8St43JvMbcSr7qCQviANi7wG_U_dWzK1Y=",
-            "title": "Claude千万别裸装，这几个skills必须装上！",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "pain-03",
-        "title": "生视频贵 / 会员降价陷阱",
-        "summary": "海螺年费买完降价想退；评论说真要做好的 AI 视频都在伸手要钱。",
-        "why": "价格波动摧毁信任。",
-        "audience": "视频创作者",
-        "direction": "",
-        "tags": [
-          "价格",
-          "会员",
-          "退款"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/69e0aea00000000023021607?xsec_token=ABo3MhsLFd1vjKG0HKAz0EHMENum6BDbAXI2tnxTeo0LQ=",
-            "title": "AI生视频哪家最便宜？ 可灵、即梦、vidu、",
-            "note": ""
-          },
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a9a9e76000000002b011989?xsec_token=ABXFpol3gVqMuSPUzfRnMReP0zTcJnGN_lfbwgNuAdBAM=",
-            "title": "2分钟，普通人也能学会用AI做宠物vlog",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "pain-04",
-        "title": "即梦体验恶心 / 排队积分",
-        "summary": "「全世界最恶心平台」类帖仍在；比价帖延续排队积分疼。",
-        "why": "情绪吐槽=留存风险。",
-        "audience": "即梦用户",
-        "direction": "",
-        "tags": [
-          "即梦",
-          "排队",
-          "积分"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a96932f000000002802d0a0?xsec_token=AB4KFRnpLgMCGLgVFm3G9ii9GFdULYTbCKCEWyYaboBRY=",
-            "title": "即梦 全世界最恶心的平台没有之一",
-            "note": ""
-          },
-          {
-            "url": "https://www.xiaohongshu.com/explore/69e0aea00000000023021607?xsec_token=ABo3MhsLFd1vjKG0HKAz0EHMENum6BDbAXI2tnxTeo0LQ=",
-            "title": "AI生视频哪家最便宜？ 可灵、即梦、vidu、",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "pain-05",
-        "title": "NotebookLM / 工具打不开",
-        "summary": "PPT 帖评论：网页版一直点不进去。",
-        "why": "入口故障直接卡交付。",
-        "audience": "办公用户",
-        "direction": "",
-        "tags": [
-          "NotebookLM",
-          "打不开"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/69db720e000000002301f2b1?xsec_token=ABGik6wfB1bIGbT1Kg-ZUMC_GAdEXdwehYHmDbGqOMCI0=",
-            "title": "10分钟快速做80页高质量PPT～",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "pain-06",
-        "title": "Skill 概念混乱消耗沟通成本",
-        "summary": "面试/评论里为 Skill vs Prompt 撕很久；有人厌恶造词。",
-        "why": "词汇通胀让新人更懵。",
-        "audience": "求职者、新人",
-        "direction": "",
-        "tags": [
-          "概念混乱",
-          "Skill",
-          "Prompt"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a8eb0ea0000000003028a5f?xsec_token=AB7OQ98AQKz3mZBJfN6h-e3XHyVcDqAN1nL_brlyigJjc=",
-            "title": "我说Skill就是Prompt，把面试官整破防了",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "pain-07",
-        "title": "Agent 对普通人用不上",
-        "summary": "评论：没需求硬想需求没意思；非标准化流程不适合。",
-        "why": "工具过剩 vs 真实任务稀缺。",
-        "audience": "普通职场人",
-        "direction": "",
-        "tags": [
-          "Agent",
-          "祛魅"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a52508800000000210237ce?xsec_token=ABjrX3lDGdDlllix1q5ZZFQqHYqatNUNVpow45jM4lb2k=",
-            "title": "AI Agent吹了这么久，为什么普通人还在只用",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "pain-08",
-        "title": "断供/额度配置不透明",
-        "summary": "Cursor 用户吐槽第三方额度低、谁想用 GPT。",
-        "why": "计费规则不清晰削弱安全感。",
-        "audience": "编程用户",
-        "direction": "",
-        "tags": [
-          "额度",
-          "断供"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a9298d1000000002303d201?xsec_token=ABoIHAMoEG3K_jmHiCJHpOIH135CKtpZNkDszEEpZqwWo=",
-            "title": "OpenAI官宣断供Cursor，马斯克激情开喷",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "pain-09",
-        "title": "卖 Skill 叙事可信度低",
-        "summary": "「假的，免费 PPT skill 就有」高赞。",
-        "why": "暴富叙事引发反向审查。",
-        "audience": "副业观望者",
-        "direction": "",
-        "tags": [
-          "信任",
-          "卖Skill"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a69e063000000002201b73c?xsec_token=ABx9jZ-xwqj6xZIrf-M0KS3unkFvbj9SchbJ4nSOgtFRQ=",
-            "title": "一个Skill卖了40万",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "pain-10",
-        "title": "宕机后无法确认恢复",
-        "summary": "多条「好了吗」说明状态透明差。",
-        "why": "故障沟通本身是痛点。",
-        "audience": "全体用户",
-        "direction": "",
-        "tags": [
-          "宕机",
-          "状态"
-        ],
-        "signal_strength": "weak",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a96b3c70000000026019b73?xsec_token=AB4KFRnpLgMCGLgVFm3G9ii_lrbyhH9h_kgUOEP3-XYVA=",
-            "title": "崩了！ChatGPT官方实锤宕机，彻底罢工",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      }
-    ],
-    "scenarios": [
-      {
-        "id": "sc-01",
-        "title": "职场人：自然语言生成 HTML 辅助做 PPT/可视化",
-        "summary": "用户→头疼做 PPT→把概念丢给 AI 生成 HTML 结构→再收集素材。",
-        "why": "Vibe 场景贴进办公交付。",
-        "audience": "职场人",
-        "direction": "",
-        "tags": [
-          "PPT",
-          "HTML",
-          "办公"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a983cdf0000000025036fae?xsec_token=ABVJx25F1I6PjMJNShuNG89TBG2oANZdCRYmOocfhSjF0=",
-            "title": "AI 时代，普通人可以用HTML做的4件事🤔？",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "sc-02",
-        "title": "宠物博主：2 分钟流程出宠物 Vlog",
-        "summary": "用户→拍素材→AI 写脚本/提示词→生成视频；卡点是成本和脚本质量。",
-        "why": "低门槛教程+强评论需求。",
-        "audience": "宠物博主",
-        "direction": "",
-        "tags": [
-          "vlog",
-          "脚本"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a9a9e76000000002b011989?xsec_token=ABXFpol3gVqMuSPUzfRnMReP0zTcJnGN_lfbwgNuAdBAM=",
-            "title": "2分钟，普通人也能学会用AI做宠物vlog",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "sc-03",
-        "title": "跨境电商实习：多 Skill Agent 出选品报告",
-        "summary": "公司 Agent 含 100+ skill，按 SOP 输出选品调研。",
-        "why": "真实商业场景证据。",
-        "audience": "电商运营",
-        "direction": "",
-        "tags": [
-          "电商",
-          "SOP",
-          "Agent"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a52508800000000210237ce?xsec_token=ABjrX3lDGdDlllix1q5ZZFQqHYqatNUNVpow45jM4lb2k=",
-            "title": "AI Agent吹了这么久，为什么普通人还在只用",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "sc-04",
-        "title": "建筑师：DeepSeek 迭代可视化工作台",
-        "summary": "大白话提需求→找案例→十几轮改到可用。",
-        "why": "国产模型深度使用范例。",
-        "audience": "设计师",
-        "direction": "",
-        "tags": [
-          "DeepSeek",
-          "工作台"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a9a9cd5000000001103754d?xsec_token=ABXFpol3gVqMuSPUzfRnMReBZoARFrv82gdGAv8BXe6MU=",
-            "title": "Howto｜打造DeepSeek可视化工作台！",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "sc-05",
-        "title": "零基础：Coze/Dify 搭最小 Agent",
-        "summary": "不会代码→选低门槛平台→跑通输入-推理-行动循环。",
-        "why": "入门路径清晰。",
-        "audience": "普通人",
-        "direction": "",
-        "tags": [
-          "Coze",
-          "Agent"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a48e816000000001702a292?xsec_token=AByR1aO9REMEwGqoG1fM6qbu8gMvkELsMGEkXL-TRRo1A=",
-            "title": "从0到1搭建AI Agent｜不会代码也能做",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "sc-06",
-        "title": "创作者：比价后选可灵/即梦出 15 秒视频",
-        "summary": "按条算成本→选平台→抱怨排队/降价。",
-        "why": "成本决策场景稳定。",
-        "audience": "视频创作者",
-        "direction": "",
-        "tags": [
-          "比价",
-          "可灵",
-          "即梦"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/69e0aea00000000023021607?xsec_token=ABo3MhsLFd1vjKG0HKAz0EHMENum6BDbAXI2tnxTeo0LQ=",
-            "title": "AI生视频哪家最便宜？ 可灵、即梦、vidu、",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      }
-    ],
-    "products": [
-      {
-        "id": "prod-01",
-        "title": "Claude / Claude Code：强但难进",
-        "summary": "能力口碑高，账号扫号与国内接入主导讨论。",
-        "why": "迁移阻力在供给不在功能。",
-        "audience": "开发者",
-        "direction": "",
-        "tags": [
-          "Claude",
-          "供给"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a9687fc0000000011033570?xsec_token=AB4KFRnpLgMCGLgVFm3G9ii-v2HYyvvMP7h0kKOvZnDaE=",
-            "title": "大厂扫空几十万Claude账号，散户直接无号",
-            "note": ""
-          },
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a255ee8000000001c02788b?xsec_token=ABgS8gjNAa0M8St43JvMbcSr7qCQviANi7wG_U_dWzK1Y=",
-            "title": "Claude千万别裸装，这几个skills必须装上！",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "prod-02",
-        "title": "Cursor：断供冲击有限但信任受损",
-        "summary": "评论认为主力不在 GPT 额度，冲击被稀释，却强化多模型备份意识。",
-        "why": "用户开始显式比较 Cursor/Claude Code/Codex。",
-        "audience": "编程用户",
-        "direction": "",
-        "tags": [
-          "Cursor",
-          "断供"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a9298d1000000002303d201?xsec_token=ABoIHAMoEG3K_jmHiCJHpOIH135CKtpZNkDszEEpZqwWo=",
-            "title": "OpenAI官宣断供Cursor，马斯克激情开喷",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "prod-03",
-        "title": "Codex：设计感 Skill + 动效站教程升温",
-        "summary": "必装设计 Skill、6 分钟动效站，Codex 作为「出漂亮前端」入口。",
-        "why": "与 Cursor 形成场景分工叙事。",
-        "audience": "前端/设计向",
-        "direction": "",
-        "tags": [
-          "Codex",
-          "Skill"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a96594000000000260185bf?xsec_token=AB4KFRnpLgMCGLgVFm3G9ii7zvQ6ykLqHNn8orBQd2xgg=",
-            "title": "Codex 必装高级设计感Skill",
-            "note": ""
-          },
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a96d874000000002900e5cf?xsec_token=AB4KFRnpLgMCGLgVFm3G9ii9PXsI1v1IlPQQnbIHzl_i4=",
-            "title": "6分钟带你用Codex玩转高级感动效网站",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "prod-04",
-        "title": "Gemini 3.8：事件热 / 研究叙事",
-        "summary": "RSI 与霸榜对比带来关注，评论有「话术像智谱」祛魅。",
-        "why": "高内容热度，需求转化待观察。",
-        "audience": "模型党",
-        "direction": "",
-        "tags": [
-          "Gemini"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a98a9e1000000001203e03f?xsec_token=ABVJx25F1I6PjMJNShuNG89ViTTQzjJ8Q2rSDPa60wJcY=",
-            "title": "姚顺宇发声：Gemini 3.8是RSI的一大步",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "prod-05",
-        "title": "DeepSeek：工作台/可视化实用向",
-        "summary": "Howto 工作台强调迭代交付。",
-        "why": "国产实用路线。",
-        "audience": "职场/设计",
-        "direction": "",
-        "tags": [
-          "DeepSeek"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a9a9cd5000000001103754d?xsec_token=ABXFpol3gVqMuSPUzfRnMReBZoARFrv82gdGAv8BXe6MU=",
-            "title": "Howto｜打造DeepSeek可视化工作台！",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "prod-06",
-        "title": "可灵 vs 即梦：性价比与体验对撕",
-        "summary": "比价认可灵便宜、即梦能力/Seedance；体验吐槽集中在即梦。",
-        "why": "迁移看价格+排队。",
-        "audience": "视频创作者",
-        "direction": "",
-        "tags": [
-          "可灵",
-          "即梦"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/69e0aea00000000023021607?xsec_token=ABo3MhsLFd1vjKG0HKAz0EHMENum6BDbAXI2tnxTeo0LQ=",
-            "title": "AI生视频哪家最便宜？ 可灵、即梦、vidu、",
-            "note": ""
-          },
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a96932f000000002802d0a0?xsec_token=AB4KFRnpLgMCGLgVFm3G9ii9GFdULYTbCKCEWyYaboBRY=",
-            "title": "即梦 全世界最恶心的平台没有之一",
-            "note": ""
-          },
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a980aa5000000002502f85b?xsec_token=ABVJx25F1I6PjMJNShuNG89YGqVDs00LwYq3w9TCx0B7M=",
-            "title": "谁允许AI把角色一致性做得这么省事！",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "prod-07",
-        "title": "ChatGPT：宕机冲击日常依赖",
-        "summary": "罢工/宕机帖互动高，说明仍是默认入口之一。",
-        "why": "稳定性影响心智。",
-        "audience": "大众用户",
-        "direction": "",
-        "tags": [
-          "ChatGPT",
-          "宕机"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a96b3c70000000026019b73?xsec_token=AB4KFRnpLgMCGLgVFm3G9ii_lrbyhH9h_kgUOEP3-XYVA=",
-            "title": "崩了！ChatGPT官方实锤宕机，彻底罢工",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "prod-08",
-        "title": "Coze / Dify / 本地 Agent：入门三叉",
-        "summary": "0到1 评论给出平台分层推荐。",
-        "why": "Agent 产品选择开始结构化。",
-        "audience": "新手",
-        "direction": "",
-        "tags": [
-          "Coze",
-          "Dify",
-          "本地"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a48e816000000001702a292?xsec_token=AByR1aO9REMEwGqoG1fM6qbu8gMvkELsMGEkXL-TRRo1A=",
-            "title": "从0到1搭建AI Agent｜不会代码也能做",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      }
-    ],
-    "content_opps": [
-      {
-        "id": "content-01",
-        "title": "「今天只装这 7 个 Skill」可复制清单（含国内获取）",
-        "summary": "把必装清单+国内路径+验证步骤做成一篇。",
-        "why": "求下载/求魔法是最强评论信号。",
-        "audience": "Claude/Codex 用户",
-        "direction": "",
-        "tags": [
-          "Skill",
-          "清单",
-          "国内"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a255ee8000000001c02788b?xsec_token=ABgS8gjNAa0M8St43JvMbcSr7qCQviANi7wG_U_dWzK1Y=",
-            "title": "Claude千万别裸装，这几个skills必须装上！",
-            "note": ""
-          },
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a96594000000000260185bf?xsec_token=AB4KFRnpLgMCGLgVFm3G9ii7zvQ6ykLqHNn8orBQd2xgg=",
-            "title": "Codex 必装高级设计感Skill",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": "立即做"
-      },
-      {
-        "id": "content-02",
-        "title": "Prompt vs Skill vs Agent 一图流（带反例）",
-        "summary": "用高赞争论评论做对照，讲清 scripts/工具/渐进披露。",
-        "why": "概念撕逼热度高，科普有流量。",
-        "audience": "新人、产品经理",
-        "direction": "",
-        "tags": [
-          "科普",
-          "对比"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a8eb0ea0000000003028a5f?xsec_token=AB7OQ98AQKz3mZBJfN6h-e3XHyVcDqAN1nL_brlyigJjc=",
-            "title": "我说Skill就是Prompt，把面试官整破防了",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": "立即做"
-      },
-      {
-        "id": "content-03",
-        "title": "普通人 HTML 四件事：从聊天到交作业模板",
-        "summary": "把四场景做成可复制提示词+前后对比。",
-        "why": "高赞+评论已对接 PPT 痛点。",
-        "audience": "职场零基础",
-        "direction": "",
-        "tags": [
-          "Vibe",
-          "模板"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a983cdf0000000025036fae?xsec_token=ABVJx25F1I6PjMJNShuNG89TBG2oANZdCRYmOocfhSjF0=",
-            "title": "AI 时代，普通人可以用HTML做的4件事🤔？",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": "立即做"
-      },
-      {
-        "id": "content-04",
-        "title": "AI 宠物 Vlog：脚本提示词包 + 成本表",
-        "summary": "教脚本写法并附可灵/即梦成本表。",
-        "why": "评论同时要教程和成本真相。",
-        "audience": "宠物博主",
-        "direction": "",
-        "tags": [
-          "视频",
-          "脚本",
+          "AI生图",
+          "矢量",
+          "外包",
           "成本"
         ],
         "signal_strength": "strong",
         "evidence": [
           {
-            "url": "https://www.xiaohongshu.com/explore/6a9a9e76000000002b011989?xsec_token=ABXFpol3gVqMuSPUzfRnMReP0zTcJnGN_lfbwgNuAdBAM=",
-            "title": "2分钟，普通人也能学会用AI做宠物vlog",
-            "note": ""
-          },
-          {
-            "url": "https://www.xiaohongshu.com/explore/69e0aea00000000023021607?xsec_token=ABo3MhsLFd1vjKG0HKAz0EHMENum6BDbAXI2tnxTeo0LQ=",
-            "title": "AI生视频哪家最便宜？ 可灵、即梦、vidu、",
-            "note": ""
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
+            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
           }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": "可规划"
+        ]
       },
       {
-        "id": "content-05",
-        "title": "Agent 祛魅：什么时候不该做 Agent",
-        "summary": "用「没需求硬做」评论做反清单，再给 SOP 正例。",
-        "why": "防止内容只吹概念。",
-        "audience": "中小团队",
-        "direction": "",
+        "id": "H2",
+        "title": "AI出图仍要描摹/修手：工序未消失",
+        "summary": "【事实】高赞评论给出「AI转扁平矢量风 + 滚滚长江(Illustrator谐音)一键描摹」链路；作者承认「终究难逃要描」。",
+        "why": "热点不在新模型，而在生产闭环仍卡人工。",
+        "audience": "设计师、AIGC兼职",
         "tags": [
-          "Agent",
-          "祛魅"
+          "Illustrator",
+          "描摹",
+          "工作流"
+        ],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
+            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+          },
+          {
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "评论：滚滚长江一键图像描摹",
+            "note": "单条约1000赞"
+          }
+        ]
+      },
+      {
+        "id": "H3",
+        "title": "解剖/常理错误成为拒信点",
+        "summary": "【事实】评论指出「手是反的握不上」；作者亲手试后承认「AI很多不符合常理」。",
+        "why": "质量不信任直接转化为「必须人工质检」。",
+        "audience": "设计交付方、甲方",
+        "tags": [
+          "质量",
+          "解剖错误",
+          "质检"
+        ],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
+            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+          }
+        ]
+      },
+      {
+        "id": "H4",
+        "title": "评论把AI与知识付费生死挂钩",
+        "summary": "【事实】非AI主帖评论出现「ai不是把知识付费摧毁了吗」（样本单薄）。",
+        "why": "属旁支情绪信号，需恢复search后再验。",
+        "audience": "知识付费从业者、副业党",
+        "tags": [
+          "知识付费",
+          "AI冲击"
+        ],
+        "signal_strength": "weak",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/explore/6a7d192d000000003300f242?xsec_token=ABGx9lnl2PMr-tDqthmds9fFF5T1AhpLEAegiF8DdZvBI%3D&xsec_source=",
+            "title": "越是经济下行，这些行业反而越好",
+            "note": "评论出现「ai不是把知识付费摧毁了吗」"
+          }
+        ]
+      },
+      {
+        "id": "H5",
+        "title": "剪映工具帖高热但AI信号噪声大",
+        "summary": "【事实】剪映合集4680赞；评论多为转行报班互关领资料，缺真实AI工具讨论。",
+        "why": "高赞≠AI需求；今日仅作噪声对照。",
+        "audience": "剪辑转行者",
+        "tags": [
+          "剪映",
+          "卖课噪音"
+        ],
+        "signal_strength": "weak",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/explore/6a7d28e500000000050223bf?xsec_token=ABGx9lnl2PMr-tDqthmds9fHZaKDNn0HqajrvsBXVbug4%3D&xsec_source=",
+            "title": "用剪映的妹妹，存一下吧很难找全的",
+            "note": "4680赞；评论区转行报班卖课噪音高，AI直接证据弱"
+          }
+        ]
+      }
+    ],
+    "trends": [
+      {
+        "id": "T1",
+        "title": "AI出图→人工矢量/修细节的「半自动流水线」",
+        "summary": "【推断】相对此前模型/Skill热，今日feed可见的是设计生产链上的AI嵌入与劳动再分配。",
+        "direction": "up",
+        "tags": [
+          "工作流",
+          "矢量",
+          "半自动"
         ],
         "signal_strength": "mid",
         "evidence": [
           {
-            "url": "https://www.xiaohongshu.com/explore/6a52508800000000210237ce?xsec_token=ABjrX3lDGdDlllix1q5ZZFQqHYqatNUNVpow45jM4lb2k=",
-            "title": "AI Agent吹了这么久，为什么普通人还在只用",
-            "note": ""
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
+            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
           }
+        ]
+      },
+      {
+        "id": "T2",
+        "title": "专业软件讨论平台规避（谐音化）",
+        "summary": "【事实】Illustrator被说成「滚滚长江」，说明用户已习惯在站内规避词讨论生产工具。",
+        "direction": "up",
+        "tags": [
+          "谐音",
+          "Illustrator"
         ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": "可规划"
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
+            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+          }
+        ]
+      },
+      {
+        "id": "T3",
+        "title": "Cursor/Claude/Skill/即梦等产品向讨论本日不可见",
+        "summary": "【事实】search首词Skill返回空数组已停；5+轮feed约150条仅2条强AI相关。属采集缺口，不作下降结论。",
+        "direction": "flat",
+        "tags": [
+          "采集缺口",
+          "验证码"
+        ],
+        "signal_strength": "weak",
+        "evidence": [
+          {
+            "url": "",
+            "title": "search-stopped.txt",
+            "note": "Skill search=[]后停止；ask也跳验证码"
+          }
+        ]
+      }
+    ],
+    "needs": [
+      {
+        "id": "N1",
+        "title": "AI出图后的可靠矢量化/可生产线条图",
+        "summary": "设计师需要能进雕模/生产的线条图，不只是好看的视觉效果。",
+        "why": "作者强调「不是做视觉效果，是做线条图给生产」",
+        "audience": "矢量/雕模设计师",
+        "tags": [
+          "矢量",
+          "生产",
+          "雕模"
+        ],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
+            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+          }
+        ]
+      },
+      {
+        "id": "N2",
+        "title": "AI生图质检：解剖/透视/常理错误扫描",
+        "summary": "用户会用手试握姿等方式抓错；需要更系统的质检。",
+        "audience": "接单设计师、甲方",
+        "tags": [
+          "质检",
+          "解剖"
+        ],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
+            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+          }
+        ]
+      },
+      {
+        "id": "N3",
+        "title": "会修细节的人（AI用户常「看不出细节」）",
+        "summary": "【事实】评论：转矢量也可用AI，但做完要手工修；很多会用的不具备看细节能力。",
+        "audience": "外包市场",
+        "tags": [
+          "修图",
+          "技能鸿沟"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
+            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+          }
+        ]
+      }
+    ],
+    "pains": [
+      {
+        "id": "P1",
+        "title": "省了设计费，压力落到廉价矢量外包",
+        "summary": "原话（作者）：「省了设计费，然后找我们这些廉价牛马画矢量，我就是那个牛马。」",
+        "why": "表面省钱→真实是分工下沉与议价权变差",
+        "audience": "矢量师",
+        "tags": [
+          "收入",
+          "外包"
+        ],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
+            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+          }
+        ]
+      },
+      {
+        "id": "P2",
+        "title": "AI生成结构反常识",
+        "summary": "原话：「我刚刚用手试了一下，确实是反的，所以AI生成的东西很多都不符合常理。」",
+        "tags": [
+          "质量"
+        ],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
+            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+          }
+        ]
+      },
+      {
+        "id": "P3",
+        "title": "终究难逃要描",
+        "summary": "原话链路：AI出图→仍要Illustrator描摹/描边；「终究是难逃要描的命运。」",
+        "tags": [
+          "工序"
+        ],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
+            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+          }
+        ]
+      },
+      {
+        "id": "P4",
+        "title": "扫描出来，手搓",
+        "summary": "被问「如何应付」复杂细节时，作者答「扫描出来，手搓」。",
+        "tags": [
+          "手工"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
+            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+          }
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "id": "S1",
+        "title": "商业设计：AI出图→扁平矢量风→Illustrator描摹→人工修细节→交雕模线条图",
+        "summary": "用户：矢量外包；场景：客户用AI省设计费后仍要可生产矢量；工具：AI生图+Illustrator；痛点：结构错+必须手修。",
+        "audience": "矢量设计师",
+        "tags": [
+          "流水线"
+        ],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
+            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+          }
+        ]
+      }
+    ],
+    "products": [
+      {
+        "id": "PR1",
+        "title": "通用AI生图（未点名具体品牌）",
+        "summary": "作为「省设计费」入口出现；质量与常理问题被吐槽。",
+        "direction": "flat",
+        "tags": [
+          "生图"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
+            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+          }
+        ]
+      },
+      {
+        "id": "PR2",
+        "title": "Adobe Illustrator（谐音「滚滚长江」）",
+        "summary": "仍是矢量描摹关键步骤；讨论活跃说明不可替代性仍在。",
+        "direction": "flat",
+        "tags": [
+          "Illustrator"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
+            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+          }
+        ]
+      },
+      {
+        "id": "PR3",
+        "title": "剪映",
+        "summary": "高赞工具合集，但评论被卖课占据，今日难判产品迁移。",
+        "direction": "flat",
+        "tags": [
+          "剪映"
+        ],
+        "signal_strength": "weak",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/explore/6a7d28e500000000050223bf?xsec_token=ABGx9lnl2PMr-tDqthmds9fHZaKDNn0HqajrvsBXVbug4%3D&xsec_source=",
+            "title": "用剪映的妹妹，存一下吧很难找全的",
+            "note": "4680赞；评论区转行报班卖课噪音高，AI直接证据弱"
+          }
+        ]
+      }
+    ],
+    "content_opps": [
+      {
+        "id": "C1",
+        "title": "「AI出图省钱了吗」真实账：设计费→矢量外包→修图工时",
+        "summary": "目标：设计师与接单者；角度：用原话拆成本迁移，不做鸡汤。",
+        "why": "高赞共鸣强",
+        "audience": "设计师",
+        "tags": [
+          "成本账"
+        ],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
+            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+          }
+        ]
+      },
+      {
+        "id": "C2",
+        "title": "AI生图质检清单：手/透视/对称/可生产线条",
+        "summary": "把评论里的「手反了」「缺线」做成可勾选清单。",
+        "audience": "接单新人",
+        "tags": [
+          "质检"
+        ],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
+            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+          }
+        ]
+      },
+      {
+        "id": "C3",
+        "title": "从效果图到雕模线条图：半自动工作流拆解",
+        "summary": "明示AI能省哪步、不能省哪步。",
+        "audience": "AIGC兼职",
+        "tags": [
+          "工作流"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
+            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
+          }
+        ]
       }
     ],
     "product_opps": [
       {
-        "id": "prodopp-01",
-        "title": "一键 Skill 安装器（带国内镜像/校验）",
-        "summary": "用户→想装 Skills→卡在获取与魔法→需要可信分发与健康检查。",
-        "why": "评论直接求获取与靠谱通道。",
-        "audience": "Claude 用户",
-        "direction": "",
+        "id": "PO1",
+        "title": "可生产矢量自动描摹+缺陷标注工具",
+        "summary": "现有：AI出图+Illustrator手描；未满足：自动标解剖/封闭路径错误。",
+        "audience": "矢量师",
         "tags": [
-          "安装器",
-          "分发"
+          "工具"
         ],
         "signal_strength": "strong",
         "evidence": [
           {
-            "url": "https://www.xiaohongshu.com/explore/6a255ee8000000001c02788b?xsec_token=ABgS8gjNAa0M8St43JvMbcSr7qCQviANi7wG_U_dWzK1Y=",
-            "title": "Claude千万别裸装，这几个skills必须装上！",
-            "note": ""
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
+            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
           }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": "机会高"
+        ]
       },
       {
-        "id": "prodopp-02",
-        "title": "任务闭环工作台：输入目标→多步迭代→导出成品",
-        "summary": "DeepSeek 工作台叙事证明用户接受「多轮改到能用」。",
-        "why": "现有聊天 UI 不展示进度与版本。",
-        "audience": "职场/设计",
-        "direction": "",
+        "id": "PO2",
+        "title": "AI图→生产件质检Agent（结构/常理）",
+        "summary": "证据：用户需「用手试」才发现握姿反了。",
+        "audience": "外包与甲方",
         "tags": [
-          "工作台",
-          "迭代"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a9a9cd5000000001103754d?xsec_token=ABXFpol3gVqMuSPUzfRnMReBZoARFrv82gdGAv8BXe6MU=",
-            "title": "Howto｜打造DeepSeek可视化工作台！",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": "机会高"
-      },
-      {
-        "id": "prodopp-03",
-        "title": "生视频成本计算器 + 平台路由",
-        "summary": "按秒/条估算可灵/即梦/海螺，并提示排队风险。",
-        "why": "比价与退款吐槽反复出现。",
-        "audience": "视频创作者",
-        "direction": "",
-        "tags": [
-          "比价",
-          "路由"
+          "质检Agent"
         ],
         "signal_strength": "mid",
         "evidence": [
           {
-            "url": "https://www.xiaohongshu.com/explore/69e0aea00000000023021607?xsec_token=ABo3MhsLFd1vjKG0HKAz0EHMENum6BDbAXI2tnxTeo0LQ=",
-            "title": "AI生视频哪家最便宜？ 可灵、即梦、vidu、",
-            "note": ""
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
+            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
           }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": "中"
-      },
-      {
-        "id": "prodopp-04",
-        "title": "行业 SOP Agent 模板市场（电商选品等）",
-        "summary": "真实评论证明 SOP 报告有可用性；模板可售。",
-        "why": "通用 Agent 对普通人太虚。",
-        "audience": "电商/运营",
-        "direction": "",
-        "tags": [
-          "SOP",
-          "模板市场"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a52508800000000210237ce?xsec_token=ABjrX3lDGdDlllix1q5ZZFQqHYqatNUNVpow45jM4lb2k=",
-            "title": "AI Agent吹了这么久，为什么普通人还在只用",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": "机会高"
-      },
-      {
-        "id": "prodopp-05",
-        "title": "账号/额度健康面板（多工具统一）",
-        "summary": "扫号、断供、宕机信息碎片化，需要状态聚合。",
-        "why": "用户反复问好了吗/还有没有号。",
-        "audience": "重度用户",
-        "direction": "",
-        "tags": [
-          "监控",
-          "供给"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a9687fc0000000011033570?xsec_token=AB4KFRnpLgMCGLgVFm3G9ii-v2HYyvvMP7h0kKOvZnDaE=",
-            "title": "大厂扫空几十万Claude账号，散户直接无号",
-            "note": ""
-          },
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a96b3c70000000026019b73?xsec_token=AB4KFRnpLgMCGLgVFm3G9ii_lrbyhH9h_kgUOEP3-XYVA=",
-            "title": "崩了！ChatGPT官方实锤宕机，彻底罢工",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": "中"
+        ]
       }
     ],
     "biz_opps": [
       {
-        "id": "biz-01",
-        "title": "Skill / 工作流安装代配服务",
-        "summary": "代装 Claude/Codex Skills、验通国内路径，按次或包月。",
-        "why": "求魔法/求下载是明确付费前置。",
-        "audience": "不会配环境的用户",
-        "direction": "",
+        "id": "B1",
+        "title": "矢量精修/雕模线条代做（承接AI出图下游）",
+        "summary": "付费信号：岗位本身就是付费外包；AI普及可能增加「修」的单量、压低「创」的单价。",
+        "audience": "设计师",
+        "price": "按件外包",
         "tags": [
-          "代装",
-          "包月"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a255ee8000000001c02788b?xsec_token=ABgS8gjNAa0M8St43JvMbcSr7qCQviANi7wG_U_dWzK1Y=",
-            "title": "Claude千万别裸装，这几个skills必须装上！",
-            "note": ""
-          },
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a96594000000000260185bf?xsec_token=AB4KFRnpLgMCGLgVFm3G9ii7zvQ6ykLqHNn8orBQd2xgg=",
-            "title": "Codex 必装高级设计感Skill",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": "¥99-¥499/次"
-      },
-      {
-        "id": "biz-02",
-        "title": "行业 SOP 报告代做（选品/经营表）",
-        "summary": "按企业 SOP 出可交差报告；评论已有可用性背书。",
-        "why": "买结果强于买课。",
-        "audience": "电商/中小老板",
-        "direction": "",
-        "tags": [
-          "代做",
-          "SOP"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a52508800000000210237ce?xsec_token=ABjrX3lDGdDlllix1q5ZZFQqHYqatNUNVpow45jM4lb2k=",
-            "title": "AI Agent吹了这么久，为什么普通人还在只用",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": "¥199-¥5000/单"
-      },
-      {
-        "id": "biz-03",
-        "title": "AI 视频脚本+出片套餐（含成本透明）",
-        "summary": "宠物/短视频脚本包+平台选择建议，避免会员陷阱。",
-        "why": "教程爆款下的服务延伸。",
-        "audience": "博主",
-        "direction": "",
-        "tags": [
-          "脚本",
-          "套餐"
+          "代做"
         ],
         "signal_strength": "mid",
         "evidence": [
           {
-            "url": "https://www.xiaohongshu.com/explore/6a9a9e76000000002b011989?xsec_token=ABXFpol3gVqMuSPUzfRnMReP0zTcJnGN_lfbwgNuAdBAM=",
-            "title": "2分钟，普通人也能学会用AI做宠物vlog",
-            "note": ""
-          },
-          {
-            "url": "https://www.xiaohongshu.com/explore/69e0aea00000000023021607?xsec_token=ABo3MhsLFd1vjKG0HKAz0EHMENum6BDbAXI2tnxTeo0LQ=",
-            "title": "AI生视频哪家最便宜？ 可灵、即梦、vidu、",
-            "note": ""
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
+            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
           }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": "¥99-¥999"
+        ]
       },
       {
-        "id": "biz-04",
-        "title": "Vibe Coding 作品集陪跑 / 大赛辅导",
-        "summary": "大赛仍在收作品；HTML/动效教程有转化土壤。",
-        "why": "从内容到陪跑。",
-        "audience": "零基础参赛者",
-        "direction": "",
+        "id": "B2",
+        "title": "质检培训/清单课（小而具体，拒绝转行暴富课）",
+        "summary": "对照剪映帖卖课噪音：用户反感空洞报班，更吃「如何看出AI图哪里不能交货」。",
+        "audience": "新人接单",
         "tags": [
-          "陪跑",
-          "大赛"
+          "培训"
         ],
-        "signal_strength": "mid",
+        "signal_strength": "weak",
         "evidence": [
           {
-            "url": "https://www.xiaohongshu.com/explore/6a83207d000000002702267a?xsec_token=ABVi1SZFkkHre6v4vTBnCpu6_pGuNgeyzOng4f4GzgyxU=",
-            "title": "小红书vibecoding大赛启动！",
-            "note": ""
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
+            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
           },
           {
-            "url": "https://www.xiaohongshu.com/explore/6a983cdf0000000025036fae?xsec_token=ABVJx25F1I6PjMJNShuNG89TBG2oANZdCRYmOocfhSjF0=",
-            "title": "AI 时代，普通人可以用HTML做的4件事🤔？",
-            "note": ""
+            "url": "https://www.xiaohongshu.com/explore/6a7d28e500000000050223bf?xsec_token=ABGx9lnl2PMr-tDqthmds9fHZaKDNn0HqajrvsBXVbug4%3D&xsec_source=",
+            "title": "用剪映的妹妹，存一下吧很难找全的",
+            "note": "4680赞；评论区转行报班卖课噪音高，AI直接证据弱"
           }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": "¥299-¥1999"
-      },
-      {
-        "id": "biz-05",
-        "title": "可售 Skill 需附可验证案例（反收智商税）",
-        "summary": "40 万叙事遇「假的」；正路是开源案例+付费进阶。",
-        "why": "信任是成交瓶颈。",
-        "audience": "卖家/买家",
-        "direction": "",
-        "tags": [
-          "Skill商品",
-          "信任"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a69e063000000002201b73c?xsec_token=ABx9jZ-xwqj6xZIrf-M0KS3unkFvbj9SchbJ4nSOgtFRQ=",
-            "title": "一个Skill卖了40万",
-            "note": ""
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": "¥29-¥299"
+        ]
       }
     ],
     "quotes": [
       {
         "id": "Q1",
-        "title": "怎么下载",
-        "summary": "来自今日评论区的真实用户表达。",
-        "why": "保留原话以支撑需求/痛点判断。",
-        "audience": "小红书 AI 用户",
-        "direction": "",
+        "title": "省了设计费，然后找我们这些廉价牛马画矢量，我就是那个牛马。",
+        "summary": "主题：劳动再分配",
         "tags": [
-          "Skill",
-          "下载"
+          "原话"
         ],
         "signal_strength": "strong",
         "evidence": [
           {
-            "url": "https://www.xiaohongshu.com/explore/6a96594000000000260185bf?xsec_token=AB4KFRnpLgMCGLgVFm3G9ii7zvQ6ykLqHNn8orBQd2xgg=",
-            "title": "Codex 必装高级设计感Skill",
-            "note": "原话出自该帖评论区"
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
+            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
           }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
+        ]
       },
       {
         "id": "Q2",
-        "title": "你们都是怎么在国内用claude的",
-        "summary": "来自今日评论区的真实用户表达。",
-        "why": "保留原话以支撑需求/痛点判断。",
-        "audience": "小红书 AI 用户",
-        "direction": "",
+        "title": "其实只要用AI把图片转成“扁平的矢量风格”，然后再用AI（滚滚长江）进行一键图像描摹就可以了。",
+        "summary": "主题：工作流（约1000赞）",
         "tags": [
-          "Claude",
-          "国内"
+          "原话"
         ],
         "signal_strength": "strong",
         "evidence": [
           {
-            "url": "https://www.xiaohongshu.com/explore/6a255ee8000000001c02788b?xsec_token=ABgS8gjNAa0M8St43JvMbcSr7qCQviANi7wG_U_dWzK1Y=",
-            "title": "Claude千万别裸装，这几个skills必须装上！",
-            "note": "原话出自该帖评论区"
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
+            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
           }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
+        ]
       },
       {
         "id": "Q3",
-        "title": "求个靠谱的魔法 上家跑路了",
-        "summary": "来自今日评论区的真实用户表达。",
-        "why": "保留原话以支撑需求/痛点判断。",
-        "audience": "小红书 AI 用户",
-        "direction": "",
+        "title": "已经进化到需要注明滚滚长江了吗",
+        "summary": "主题：平台规避词",
         "tags": [
-          "魔法",
-          "跑路"
+          "原话"
         ],
-        "signal_strength": "strong",
+        "signal_strength": "mid",
         "evidence": [
           {
-            "url": "https://www.xiaohongshu.com/explore/6a255ee8000000001c02788b?xsec_token=ABgS8gjNAa0M8St43JvMbcSr7qCQviANi7wG_U_dWzK1Y=",
-            "title": "Claude千万别裸装，这几个skills必须装上！",
-            "note": "原话出自该帖评论区"
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
+            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
           }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
+        ]
       },
       {
         "id": "Q4",
-        "title": "求分享",
-        "summary": "来自今日评论区的真实用户表达。",
-        "why": "保留原话以支撑需求/痛点判断。",
-        "audience": "小红书 AI 用户",
-        "direction": "",
+        "title": "我刚刚用手试了一下，确实是反的，所以AI生成的东西很多都不符合常理。",
+        "summary": "主题：质量不信任",
         "tags": [
-          "求分享",
-          "清单"
+          "原话"
         ],
         "signal_strength": "strong",
         "evidence": [
           {
-            "url": "https://www.xiaohongshu.com/explore/6a96389c0000000012036351?xsec_token=AB4KFRnpLgMCGLgVFm3G9ii-n6rJYD1gehPZiJ3hIuLKs=",
-            "title": "这15个项目吃透，你的workbuddy就很牛了",
-            "note": "原话出自该帖评论区"
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
+            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
           }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
+        ]
       },
       {
         "id": "Q5",
-        "title": "提示词应该怎么写呀？特别是脚本那一块",
-        "summary": "来自今日评论区的真实用户表达。",
-        "why": "保留原话以支撑需求/痛点判断。",
-        "audience": "小红书 AI 用户",
-        "direction": "",
+        "title": "终究是难逃要描的命运。",
+        "summary": "主题：工序残留",
         "tags": [
-          "提示词",
-          "脚本"
+          "原话"
         ],
         "signal_strength": "strong",
         "evidence": [
           {
-            "url": "https://www.xiaohongshu.com/explore/6a9a9e76000000002b011989?xsec_token=ABXFpol3gVqMuSPUzfRnMReP0zTcJnGN_lfbwgNuAdBAM=",
-            "title": "2分钟，普通人也能学会用AI做宠物vlog",
-            "note": "原话出自该帖评论区"
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
+            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
           }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
+        ]
       },
       {
         "id": "Q6",
-        "title": "现在真要做一条AI视频，都是ai跟人伸手要钱的",
-        "summary": "来自今日评论区的真实用户表达。",
-        "why": "保留原话以支撑需求/痛点判断。",
-        "audience": "小红书 AI 用户",
-        "direction": "",
+        "title": "实际上转矢量也可以用ai，但做完以后要手工修下细节，不过很多会用的并不具备看细节得能力",
+        "summary": "主题：技能鸿沟",
         "tags": [
-          "成本",
-          "视频"
+          "原话"
         ],
-        "signal_strength": "strong",
+        "signal_strength": "mid",
         "evidence": [
           {
-            "url": "https://www.xiaohongshu.com/explore/6a9a9e76000000002b011989?xsec_token=ABXFpol3gVqMuSPUzfRnMReP0zTcJnGN_lfbwgNuAdBAM=",
-            "title": "2分钟，普通人也能学会用AI做宠物vlog",
-            "note": "原话出自该帖评论区"
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
+            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
           }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
+        ]
       },
       {
         "id": "Q7",
-        "title": "有没有便宜点的会员",
-        "summary": "来自今日评论区的真实用户表达。",
-        "why": "保留原话以支撑需求/痛点判断。",
-        "audience": "小红书 AI 用户",
-        "direction": "",
+        "title": "扫描出来，手搓",
+        "summary": "主题：复杂细节兜底",
         "tags": [
-          "会员",
-          "比价"
+          "原话"
         ],
-        "signal_strength": "strong",
+        "signal_strength": "mid",
         "evidence": [
           {
-            "url": "https://www.xiaohongshu.com/explore/69e0aea00000000023021607?xsec_token=ABo3MhsLFd1vjKG0HKAz0EHMENum6BDbAXI2tnxTeo0LQ=",
-            "title": "AI生视频哪家最便宜？ 可灵、即梦、vidu、",
-            "note": "原话出自该帖评论区"
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量",
+            "note": "1142赞/347藏/139评；作者画矢量；评论区高赞工作流与解剖错误讨论"
           }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
+        ]
       },
       {
         "id": "Q8",
-        "title": "上个月当日买的海螺年度会员，没几天就降价了……想退款，怎么办",
-        "summary": "来自今日评论区的真实用户表达。",
-        "why": "保留原话以支撑需求/痛点判断。",
-        "audience": "小红书 AI 用户",
-        "direction": "",
+        "title": "ai不是把知识付费摧毁了吗",
+        "summary": "主题：知识付费（单样本）",
         "tags": [
-          "降价",
-          "退款"
+          "原话"
         ],
-        "signal_strength": "strong",
+        "signal_strength": "weak",
         "evidence": [
           {
-            "url": "https://www.xiaohongshu.com/explore/69e0aea00000000023021607?xsec_token=ABo3MhsLFd1vjKG0HKAz0EHMENum6BDbAXI2tnxTeo0LQ=",
-            "title": "AI生视频哪家最便宜？ 可灵、即梦、vidu、",
-            "note": "原话出自该帖评论区"
+            "url": "https://www.xiaohongshu.com/explore/6a7d192d000000003300f242?xsec_token=ABGx9lnl2PMr-tDqthmds9fFF5T1AhpLEAegiF8DdZvBI%3D&xsec_source=",
+            "title": "越是经济下行，这些行业反而越好",
+            "note": "评论出现「ai不是把知识付费摧毁了吗」"
           }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "Q9",
-        "title": "这账号能卖？怎么卖啊",
-        "summary": "来自今日评论区的真实用户表达。",
-        "why": "保留原话以支撑需求/痛点判断。",
-        "audience": "小红书 AI 用户",
-        "direction": "",
-        "tags": [
-          "卖号",
-          "扫号"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a9687fc0000000011033570?xsec_token=AB4KFRnpLgMCGLgVFm3G9ii-v2HYyvvMP7h0kKOvZnDaE=",
-            "title": "大厂扫空几十万Claude账号，散户直接无号",
-            "note": "原话出自该帖评论区"
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "Q10",
-        "title": "Skill 是增强版Prompt、可带工具逻辑的封装能力",
-        "summary": "来自今日评论区的真实用户表达。",
-        "why": "保留原话以支撑需求/痛点判断。",
-        "audience": "小红书 AI 用户",
-        "direction": "",
-        "tags": [
-          "Skill",
-          "Prompt"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a8eb0ea0000000003028a5f?xsec_token=AB7OQ98AQKz3mZBJfN6h-e3XHyVcDqAN1nL_brlyigJjc=",
-            "title": "我说Skill就是Prompt，把面试官整破防了",
-            "note": "原话出自该帖评论区"
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "Q11",
-        "title": "公司的agent有100多个skill……按sop输出成的选品调研分析报告啥的可用性很高",
-        "summary": "来自今日评论区的真实用户表达。",
-        "why": "保留原话以支撑需求/痛点判断。",
-        "audience": "小红书 AI 用户",
-        "direction": "",
-        "tags": [
-          "SOP",
-          "Agent"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a52508800000000210237ce?xsec_token=ABjrX3lDGdDlllix1q5ZZFQqHYqatNUNVpow45jM4lb2k=",
-            "title": "AI Agent吹了这么久，为什么普通人还在只用",
-            "note": "原话出自该帖评论区"
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "Q12",
-        "title": "有需求才去用，很多人是没需求也硬去想需求，那就没意思了",
-        "summary": "来自今日评论区的真实用户表达。",
-        "why": "保留原话以支撑需求/痛点判断。",
-        "audience": "小红书 AI 用户",
-        "direction": "",
-        "tags": [
-          "祛魅",
-          "需求"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a52508800000000210237ce?xsec_token=ABjrX3lDGdDlllix1q5ZZFQqHYqatNUNVpow45jM4lb2k=",
-            "title": "AI Agent吹了这么久，为什么普通人还在只用",
-            "note": "原话出自该帖评论区"
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "Q13",
-        "title": "假的，ppt skill免费的就有",
-        "summary": "来自今日评论区的真实用户表达。",
-        "why": "保留原话以支撑需求/痛点判断。",
-        "audience": "小红书 AI 用户",
-        "direction": "",
-        "tags": [
-          "信任",
-          "Skill"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a69e063000000002201b73c?xsec_token=ABx9jZ-xwqj6xZIrf-M0KS3unkFvbj9SchbJ4nSOgtFRQ=",
-            "title": "一个Skill卖了40万",
-            "note": "原话出自该帖评论区"
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "Q14",
-        "title": "对cursor影响没那么大,因为curosr第三方模型额度很低",
-        "summary": "来自今日评论区的真实用户表达。",
-        "why": "保留原话以支撑需求/痛点判断。",
-        "audience": "小红书 AI 用户",
-        "direction": "",
-        "tags": [
-          "Cursor",
-          "额度"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a9298d1000000002303d201?xsec_token=ABoIHAMoEG3K_jmHiCJHpOIH135CKtpZNkDszEEpZqwWo=",
-            "title": "OpenAI官宣断供Cursor，马斯克激情开喷",
-            "note": "原话出自该帖评论区"
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
-      },
-      {
-        "id": "Q15",
-        "title": "好了吗？？！",
-        "summary": "来自今日评论区的真实用户表达。",
-        "why": "保留原话以支撑需求/痛点判断。",
-        "audience": "小红书 AI 用户",
-        "direction": "",
-        "tags": [
-          "宕机"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a96b3c70000000026019b73?xsec_token=AB4KFRnpLgMCGLgVFm3G9ii_lrbyhH9h_kgUOEP3-XYVA=",
-            "title": "崩了！ChatGPT官方实锤宕机，彻底罢工",
-            "note": "原话出自该帖评论区"
-          }
-        ],
-        "first_detected": "2026-09-05",
-        "last_updated": "2026-09-05T06:40:00+08:00",
-        "price": ""
+        ]
       }
     ]
   },
   "awareness": {
-    "dominant_level": "L2",
-    "fastest_growing": "L2→L3（求清单/交作业/工作台迭代）与口头 L4（Skill/Agent/SOP）",
-    "note": "【事实】求分享/求下载/求提示词脚本占评论主音= L2→L3。【事实】Skill 封装争论、100+ skill SOP 报告= L4 词汇与局部行为。【推断】多数人仍停在安装与单次生成，少数团队已跑 SOP Agent。【机会假设】用可安装清单+国内路径+任务模板拉人进 L3，比再讲 Agent 架构更贴评论区。"
+    "dominant_level": "L2–L3",
+    "fastest_growing": "L3（半自动生产工作流：出图→描摹→修细节）",
+    "note": "【事实】评论已在谈可生产线条图与质检，不是停留在「帮我画张图」。【事实】未见Agent/Skill安装向讨论（采集缺口）。【推断】设计生产用户比聊天用户更快碰到L3工序问题。【机会假设】用质检清单与半自动矢量工具把L2使用者拉到可交货。"
   },
   "_meta": {
     "profile": "pfzpdshj",
-    "method": "opencli xiaohongshu search/comments + local-evidence synthesis (CPA 127.0.0.1:8317 unavailable)",
+    "account": "瑶姐的潮玩店",
+    "method": "feed×6 + explore comments; search stopped after Skill=[]; ask hit captcha",
+    "data_quality": "thin_feed_only",
     "caveats": [
-      "Skill 首次 search 超时后重试成功",
-      "部分新帖 comments 返回空（claude-code-7skills/claude-install-7min/jimeng-seedance/prompt-vs-skill-agent）",
-      "video-price 首次 SECURITY_BLOCK，search_url 重试成功",
-      "CPA http://127.0.0.1:8317 未监听，本版为本地证据合成",
-      "单日搜索排序≠全站热榜",
-      "单日搜索排序≠全站热榜",
-      "趋势方向基于标题日期分布与评论密度推断",
-      "只调研不发布",
-      "基于今日 raw 证据合成，未捏造帖子/评论"
-    ],
-    "collection_stats": {
-      "keywords_searched": 23,
-      "notes_sampled": 430,
-      "unique_notes": 403,
-      "comments_threads": 21,
-      "started_at": "2026-09-05T06:14:16+0800",
-      "ended_at": "2026-09-05T06:32:40+0800",
-      "whoami": {
-        "logged_in": true,
-        "username": "瑶姐的潮玩店",
-        "followers": 646,
-        "profile": "pfzpdshj"
-      }
-    },
-    "routine_run_at": "2026-09-05T06:40:00+08:00",
-    "routine": "小红书 AI 用户雷达日报"
+      "垂直AI产品信号今日几乎不可见，因search/ask触发验证码或空结果",
+      "报告为可看版，偏设计生产链；非完整八方向饱和扫描",
+      "只调研不发布"
+    ]
   }
 }
