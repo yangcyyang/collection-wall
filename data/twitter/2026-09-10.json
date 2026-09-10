@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-10",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2097890067998232902",
+      "author": "gkxspace",
+      "bio": "",
+      "text": "我承认，我之前真的太太太小看豆包工作了。\n\n本以为它只是字节版 Codex，真正用了才发现，字节太懂普通人用 AI 了，国内下一波赚钱风口或许就在这里。\n\n以前企业培训教 Office，接下来一定会有人专门教员工用 Skills、连接器、录制回放和云电脑，把每天重复的活交给 Agent。\n\n它的内置Skill，几乎覆盖了所有行业：金融、开发、法律、新媒体创作、办公协作、电商营销、医疗、学术......\n\n而且他的浏览器录制与回放，可以把重复的工作流沉淀为专属技能，随时取用。\n本地 Office 也进行了集成，可以原生操作 PPT、Excel等。并且，它还做了云电脑、手机遥控！！！\n\n豆包把这些能力做顺以后，国内公司一定会需要大量懂得怎么搭工作流、做培训和帮企业落地的人。\n\n下面我开个thread，给大家详细演示一下吧👇：",
+      "created_at": "Thu Sep 10 03:29:03 +0000 2026",
+      "likes": 24,
+      "views": "1109",
+      "url": "https://x.com/i/status/2097890067998232902",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HR0zSRnaAAEjlD7.jpg",
+        "https://pbs.twimg.com/media/HR0zS8gawAA6YSt.jpg",
+        "https://pbs.twimg.com/media/HR0zU7PacAEIxkt.jpg",
+        "https://pbs.twimg.com/media/HR0zWJMbgAAXVkX.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HR0zSRnaAAEjlD7.jpg",
+        "https://pbs.twimg.com/media/HR0zS8gawAA6YSt.jpg",
+        "https://pbs.twimg.com/media/HR0zU7PacAEIxkt.jpg",
+        "https://pbs.twimg.com/media/HR0zWJMbgAAXVkX.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 69.29,
+      "title": "豆包工作不是字节版 Codex，企业落地会缺会搭 Agent 的人",
+      "summary": "作者原以为豆包工作只是字节版 Codex，用过之后觉得它更懂普通人用 AI：内置 Skill 覆盖金融、开发、法律、新媒体、办公、电商、医疗、学术等行业；浏览器录制回放能把重复流程沉淀成技能；还接了本地 Office、云电脑和手机遥控。判断下一波机会会在企业培训和 Agent 落地，而不只是模型本身。",
+      "recommend_reason": "把豆包工作从「对标 Codex」拆成 Skill、录制回放、Office 和云电脑这套普通人能用的组合，对国内 Agent 落地比再吹模型更有信号。",
+      "tags": [
+        "豆包",
+        "Agent",
+        "工作流",
+        "Skill"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2097884753903128616",
+      "author": "imwsl90",
+      "bio": "",
+      "text": "第一次遇到使用codex写代码 \n\n触发cyber security的问题 \n\n需要提交美国驾照认证.....",
+      "created_at": "Thu Sep 10 03:07:56 +0000 2026",
+      "likes": 1,
+      "views": "720",
+      "url": "https://x.com/i/status/2097884753903128616",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 47.011,
+      "summary": "第一次遇到使用codex写代码 \n\n触发cyber security的问题 \n\n需要提交美国驾照认证.....",
+      "recommend_reason": "Codex 写代码触发网络安全校验、要交美国驾照，是工具可用性上的一手摩擦，不是空泛吐槽。",
+      "tags": [
+        "Codex",
+        "安全",
+        "产品"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2097884271780466940",
+      "author": "xiaoxiaodong01",
+      "bio": "",
+      "text": "GPT2 x  趣味 x 拼贴 x 轮廓 x 美学提示词 x VOL.131\n\n好喜欢库存这组提示词\n它——超级智能，而且很有趣\n是我今天最推荐的了\n\n图片来源于小红书 用户：IAMNNnnnn\n\n太有趣了，萌化帅我的心了\n\n生活中有趣的照片\n\nskills 和提示词对应项目地址：\nhttps://t.co/DKwvFEEf8V\n\n还是省去麻烦，我也把提示词放在下面吧：\n\n```\n🫤😆😗\n\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用 3:4 竖版构图，上下两个区域高度严格 1:1，各占画面 50%。\n\n上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色，使其具有艺术杂志与展览图像质感。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分只提取照片中最具识别性的主体、轮廓、结构、姿态与叙事关系，重构为 手绘涂鸦式摄影拼贴 / Hand-drawn Doodle Photo Collage。不要完整复制照片，不要保留全部对象和背景，而是删去无关细节，只选取最能代表原图主题与视觉记忆点的少量照片碎片，通过裁切、缩放、重组与留白重新表达，使人一眼识别它与上方照片之间的对应关系。\n\n下半部分需重新做美术判断。哪怕原图构图差、背景乱、主体小，也要主动通过删减、重组、裁切、尺度变化和留白把它救成一张成立的作品，真正赋予模型重新导演画面的权力。\n\n构图采用小尺度拼贴群组 + 大片空场的方法。下半部分只保留一组较小的照片拼贴单元，像被安放在白纸上的一簇视觉笔记，可偏心、贴边、悬置或局部裁切；整体不铺满，不做大场景复刻。留白不是空背景，而是画面的一部分，要与照片碎片、手绘线条、符号和文字共同形成呼吸感、空间感、停顿感与非对称平衡。宁可少，也不要满。\n\n画面语言采用摄影拼贴 + 手绘涂鸦 + 平面版式设计的混合媒介方式。照片碎片可按不规则网格、错位模块或松散编排组织；边缘可带有粗糙、随手画出的黑色手绘边框。可加入少量自由手绘的太阳、星星、笑脸、括号、箭头、杯子、线条、符号或涂鸦式注记，增强 scrapbook / zine / editorial collage 的私人记录感与杂志感，但必须克制，不可喧宾夺主。\n\n背景保持干净白底或极浅暖白底，大面积空白，像速写本、剪贴簿或独立杂志页面。整体气质轻松、日常、聪明、松弛，但版式要精致、平衡、耐看。\n\n配色从上方照片中提取 2–4 种最具辨识度、最有情绪价值的颜色，用于下半部分照片碎片、手绘元素和少量点缀，使整体色彩统一、柔和、自然，不杂乱、不脏灰。\n\n文字只作极少量编辑性介入，不限制语种。可根据主体、地点、动作、情绪或隐喻生成少量字词或短句，像手帐、独立杂志或 zine 中的随手注记一样，轻巧地分布在留白区域，与照片碎片和涂鸦共同形成精致图文关系。\n\n整体呈现白底大片空场、小尺度摄影拼贴、黑色手绘涂鸦线条、杂志感版式与私人记录气质共同构成的高级视觉效果。避免完整复刻原图、背景保留过多、画面填满、复杂场景、厚重装饰、商业模板感、廉价手帐感和过度花哨。\n🥲🙂🫥\n```",
+      "created_at": "Thu Sep 10 03:06:01 +0000 2026",
+      "likes": 8,
+      "views": "692",
+      "url": "https://x.com/i/status/2097884271780466940",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HR0uWDxbUAAANgC.jpg",
+        "https://pbs.twimg.com/media/HR0uXOYbcAALUL8.jpg",
+        "https://pbs.twimg.com/media/HR0uYaVaQAANSIF.jpg",
+        "https://pbs.twimg.com/media/HR0uagpaAAEI865.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HR0uWDxbUAAANgC.jpg",
+        "https://pbs.twimg.com/media/HR0uXOYbcAALUL8.jpg",
+        "https://pbs.twimg.com/media/HR0uYaVaQAANSIF.jpg",
+        "https://pbs.twimg.com/media/HR0uagpaAAEI865.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2097814496119312580",
+        "author": "xiaoxiaodong01",
+        "name": "小小东",
+        "text": "GPT2 x  炭笔 x 红黑 x 美学提示词 x VOL.170\n还是好喜欢这个提示词效果\n一大早， 被这种平静的感觉，戳到了\n\n其实所有提示词，skills都可以直接变成壁纸逻辑\n而不是一定左右，或者上下逻辑\n\n去试试这个风格的skills就知道了\n\nskills 项目地址\nhttps://t.co/rTjVoDIGHi\n\n每个skills项目，我也在references 项目包含了原始提示词\n\n聪明美丽会暴富的你，一定会找到规律的，💪",
+        "created_at": "Wed Sep 09 22:28:46 +0000 2026",
+        "url": "https://x.com/xiaoxiaodong01/status/2097814496119312580",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HRzuXo8bcAA4Hna.jpg",
+          "https://pbs.twimg.com/media/HRzuX7hb0AAag6C.jpg",
+          "https://pbs.twimg.com/media/HRzuZt-bwAA3e2D.jpg",
+          "https://pbs.twimg.com/media/HRzubQDawAAwEOo.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HRzuXo8bcAA4Hna.jpg",
+          "https://pbs.twimg.com/media/HRzuX7hb0AAag6C.jpg",
+          "https://pbs.twimg.com/media/HRzuZt-bwAA3e2D.jpg",
+          "https://pbs.twimg.com/media/HRzubQDawAAwEOo.jpg"
+        ]
+      },
+      "score": 61.031,
+      "title": "上半原片、下半涂鸦拼贴：一张照片拆成杂志海报",
+      "summary": "小小东放出一组 3:4 竖版海报提示词：上半保留原照片只做轻调色，下半只抽主体轮廓做成手绘涂鸦摄影拼贴，强调留白、小尺度碎片和克制涂鸦，而不是铺满复刻。提示词要求模型主动「救」构图差的原图，并配了 skills 项目地址。",
+      "recommend_reason": "把「原片+涂鸦拼贴」写成可执行的上下 1:1 版式约束，比只丢风格词更能直接拿去跑图。",
+      "tags": [
+        "提示词",
+        "GPT Image",
+        "图像生成",
+        "拼贴"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2097878840655626568",
+      "author": "dotey",
+      "bio": "",
+      "text": "我让 Agent Review 代码时是这么写提示词的：\n1. 先搞清楚这个 PR 解决的问题是什么\n2. 如果不看这个 PR 的实现，要解决这个问题你会怎么实现？\n3. review 代码后对比你自己的方案给出审查结果",
+      "created_at": "Thu Sep 10 02:44:26 +0000 2026",
+      "likes": 84,
+      "views": "7056",
+      "url": "https://x.com/i/status/2097878840655626568",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 61.582,
+      "summary": "我让 Agent Review 代码时是这么写提示词的：\n1. 先搞清楚这个 PR 解决的问题是什么\n2. 如果不看这个 PR 的实现，要解决这个问题你会怎么实现？\n3. review 代码后对比你自己的方案给出审查结果",
+      "recommend_reason": "代码审查提示词先让 Agent 自己重做一遍再对照 PR，比「帮我看看有没有 bug」更能压住橡皮图章式 review。",
+      "tags": [
+        "Agent",
+        "代码审查",
+        "提示词"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2097878411108913316",
+      "author": "xiaohu",
+      "bio": "",
+      "text": "OpenAI官方案例：如何从一句简单描述出发\n\n通过GPT-6 Astra 逐步完成一座现代住宅的设计、3D建模、材质光影优化，以及进行实时交互\n\n整个过程中，人类作者负责持续定方向、审阅平面图、查看渲染预览并提出下一轮要求；Astra 则负责编写脚本生成几何体、配置材质、架设灯光，并通过渲染预览和界面检查自主纠错。\n\n随后，模型资产被进一步迁移至虚幻引擎 5（UE5），转化为支持第一人称漫游、开门与开关灯等操作的可交互空间。",
+      "created_at": "Thu Sep 10 02:42:44 +0000 2026",
+      "likes": 11,
+      "views": "2156",
+      "url": "https://x.com/i/status/2097878411108913316",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HR0pCBvasAAVIQd.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HR0pCBvasAAVIQd.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 60.216,
+      "title": "Astra 从一句话盖出现代住宅，再迁进 UE5 可漫游",
+      "summary": "OpenAI 官方案例：从一句简单描述出发，GPT-6 Astra 逐步完成现代住宅设计、3D 建模、材质光影，并做实时交互。人类负责定方向、审平面图和提下一轮要求；Astra 写脚本生成几何、配材质、架灯并靠预览纠错。资产再迁到虚幻引擎 5，变成可第一人称漫游、开门开关灯的空间。",
+      "recommend_reason": "把 Astra 接到「设计→建模→UE5 可交互」整条链，比再看一张建筑渲染更能判断 Computer Use 能走到哪一步。",
+      "tags": [
+        "GPT-6 Astra",
+        "UE5",
+        "3D",
+        "Computer Use"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2097875223827857528",
+      "author": "MANISH1027512",
+      "bio": "",
+      "text": "新成员申请加入旗袍女团！🫡\n\n提示词（三张资产图自行替换）：\n生成一段约11秒、9:16竖屏真人电影感短视频。\n\n参考素材\n\n人物变身前的五官、发型、身材比例、服装造型严格参考 @变身前角色图。\n\n人物变身后的五官、发型、身材比例、服装造型严格参考 @变身后角色图。\n\n人物前后必须明确为同一个人，只是处于完全不同的两个造型状态。保持核心五官、脸型、年龄和身份一致。\n\n变身后使用的剑、剑柄、剑鞘、剑身长度、材质、纹样、结构严格参考 @剑参考图。\n\n剑在整个后半段保持完全一致，不允许长度改变、剑柄变化、剑鞘消失、剑身弯曲或重新生成不同造型。\n\n不要生成背景音乐。\n\n所有环境声、动作声和兵器声必须与人物动作严格同步。\n\n整体导演要求\n\n视频采用：\n\n生活化人物动作\n→ 扫帚舞动\n→ 动作逐渐收束\n→ 姿势匹配\n→ 瞬间变身\n→ 拔剑\n→ 英雄式人物展示\n\n的连续结构。\n前半段是真实、随意、略带玩心的生活化手机视频质感。\n后半段变成具有电影感、武侠感和人物压迫感的角色展示。\n整个变化的高潮来自：\n同一人物动作姿态连续 + 瞬间换装 + 拔剑声音爆点。\n变身采用明确的动作匹配式硬切 Match Cut。\n不要使用身体融化、服装生长、粒子包裹、闪电、魔法光效、渐变换装或长时间Morph。\n\n0.0–0.7秒\n\n画面\n\n镜头从很低的位置开始。\n\n最开始不要立刻完整展示人物。\n\n首先看到：\n\n地面\n人物小腿\n鞋子\n长柄扫帚\n\n扫帚刷头位于画面较近的位置，占据明显前景。\n\n人物一只手已经自然握住扫帚杆。\n\n人物严格保持 @变身前角色图 的完整造型。\n\n动作\n\n人物开始将扫帚从地面自然提起来。\n\n扫帚杆原本斜向地面。\n\n随着手臂抬起，杆身逐渐向上旋转。\n\n身体开始准备向前移动。\n动作有真实重量。\n手掌必须真实抓握杆身。\n运镜\n\n低机位。\n\n摄影机缓慢：\n\ntilt up 向上抬镜 + slight pull back 轻微后退。\n\n像摄影师拿手机站在人物正前方拍摄。\n\n带非常轻微真实手持晃动。\n\n不要稳定器式机械移动。\n\n声音\n\n自然户外环境底噪。\n\n轻微风声。\n\n远处鸟鸣。\n\n树叶或环境摩擦声。\n\n扫帚刷毛擦过碎石或地面：\n\n沙沙——\n\n扫帚离开地面时加入轻微刷毛拖动声以及木杆晃动声。\n\n不要BGM。\n\n0.7–1.4秒\n\n动作\n\n镜头逐渐展示人物全身。\n\n人物向前迈出一小步。\n\n主手控制扫帚杆。\n\n另一只手顺势接住杆身中段。\n\n人物把扫帚从身体侧面向前带起。\n\n扫帚刷头从画面下部快速划出一条弧线。\n\n动作感觉像：\n\n普通人突然兴起，把长柄扫帚当作长棍随意耍一下。\n\n不是专业武术套路。\n\n运镜\n\n镜头继续略微后退。\n\n逐渐稳定在略低于腰部的观察高度。\n\n人物完整全身保持在画面内。\n\n不变焦。\n\n声音\n\n扫帚第一次快速划过空气：\n\nwhoosh——\n\n同时保留脚步踩地声。\n\n鞋底落地声音需要对应步伐。\n\n1.4–2.1秒\n\n动作\n\n人物开始第一次明显旋转扫帚。\n\n双手自然交替换位。\n\n扫帚从身体一侧：\n\n抬向胸前\n→ 从身体前方经过\n→ 绕向另一侧。\n\n刷头快速经过人物头部附近。\n\n人物视线自然跟随扫帚运动。\n\n肩膀转动。\n\n腰部跟随。\n\n身体重心随扫帚方向自然转移。\n\n禁止只有手臂机械转动而躯干完全不动。\n\n运镜\n\n摄影师继续非常缓慢后退。\n\n轻微左右调整镜头，以确保扫帚和人物始终完整处于构图中。\n\n声音\n\n每一次明显挥动同步出现空气风切：\n\nwhoosh\n\n第二次略强：\nfwoosh\n扫帚刷头靠近镜头快速经过时：\n\nWHOOOSH——\n\n声音比之前更厚、更近。\n\n2.1–2.9秒\n\n动作\n\n进入前半段最明显的一次扫帚运动。\n\n人物将扫帚杆抬高。\n\n扫帚刷头经过肩部以上甚至头顶附近。\n\n杆身在画面中形成明显斜线。\n\n人物双手沿杆身自然调整握位。\n\n身体随惯性旋转约30–60度。\n\n扫帚从高处快速绕向身体另一侧。\n\n随后逐渐向下落。\n\n动作过程中保持真实人体惯性。\n\n扫帚不能：\n\n穿过人物身体\n穿过手掌\n突然缩短\n突然变长\n刷头朝向错误。\n\n运镜\n\n摄影机做很轻的横向跟随。\n\n整体仍然位于人物前方。\n\n不要360度绕拍。\n\n不要突然推近。\n\n声音\n\n扫帚上扬：\n\nwhoosh——\n\n快速从头部上方经过：\n\nFWOOSH——\n\n扫帚方向快速改变时增加一次短促风切。\n\n声音空间位置跟随扫帚移动。\n\n2.9–3.7秒\n\n动作\n\n人物开始结束舞扫帚动作。\n\n扫帚运动幅度明显降低。\n人物逐渐把扫帚带到身体侧面。\n同时抬起一条腿。\n动作顺序必须明确：\n支撑腿站稳\n→ 另一条腿抬膝\n→ 身体轻微倾斜保持平衡。\n\n不能突然把腿瞬移到高处。\n\n扫帚逐渐成为身体构图的一部分。\n\n声音\n\n风切声明显减少。\n\n增加：\n\n衣料摩擦\n鞋底调整\n双手在扫帚杆上滑动的细小摩擦。\n\n环境声逐渐变得更清楚。\n\n3.7–4.7秒\n\n动作\n\n人物抬起的腿由屈膝逐渐向身体侧方展开。\n\n动作：\n\n抬膝\n→ 小腿打开\n→ 脚向侧面伸展。\n\n不是武术高踢。\n\n更像自然、有一点顽皮感的侧抬腿姿态。\n\n人物上身略微向另一方向倾斜维持平衡。\n\n头部稍微转向侧面。\n\n扫帚保持在身体一侧。\n\n杆身接近竖直或略微倾斜。\n\n运镜\n\n镜头运动明显减少。\n\n保持人物全身。\n只有轻微真实手持漂移。\n声音\n\n衣物自然摩擦声。\n\n扫帚杆被重新握稳的轻微：\n\n咯 / creak\n\n脚步调整声。\n\n没有明显风切。\n\n4.7–5.6秒\n动作\n人物完成最终变身前的姿态。\n\n一条腿支撑。\n\n另一条腿打开。\n\n身体约3/4侧向镜头。\n\n一只手控制扫帚。\n\n另一只手自然形成平衡动作。\n\n人物姿态逐渐稳定。\n\n重点建立一个非常清晰的人体轮廓。\n这个姿态将成为后面变身镜头的Match Cut基础。\n运镜\n\n接近固定镜头。\n\n只有非常轻微手持呼吸感。\n\n声音\n\n环境风声。\n\n衣料声。\n\n人物非常轻的呼吸。\n\n扫帚已经基本停止产生风切。\n\n5.6–6.30秒\n\n动作\n\n人物进一步稳定。\n\n扫帚停止高速运动。\n\n人物保持侧腿打开的姿势。\n\n身体仍然存在极小的自然惯性。\n\n头部转向侧面或略微看向镜头方向。\n\n绝对不要提前出现任何变身迹象。\n\n此时必须仍然100%保持：\n\n@变身前角色图\n\n的服装、发型、身体造型。\n\n声音\n\n声音空间开始明显收紧。\n\n环境声逐渐降低。\n\n风声减弱。\n\n最后约0.15–0.2秒进入近似短暂静音。\n\n只保留极弱环境底噪。\n\n形成爆点前的声音留白。\n\n6.30–6.45秒\n\n变身瞬间\n\n人物刚刚形成最稳定、最清晰姿态的一刻：\n\n执行一次明确的：\n\nHARD CUT / MATCH CUT。\n\n下一帧直接切换为：\n\n@变身后角色图\n\n的完整角色状态。\n\n不要渐变。\n\n不要叠化。\n\n不要中间形态。\n\n不要一半原服装一半新服装。\n\n不要头发先变、衣服后变。\n\n不要五官Morph。\n\n整个角色造型必须在一个明确剪辑点瞬间完成切换。\n\n场景变化\n\n与此同时，环境允许同步从普通生活户外场景变成更具有电影感的森林 / 山林 / 古道 / 浓密绿色植物环境。\n\n但人物在画面中的：\n\n位置\n身体大小\n重心\n身体朝向\n腿部姿态\n\n与上一帧保持视觉对应。\n\n使观众首先感受到：\n\n同一个动作没有断，但人已经完全变了。\n\n声音\n\n变身瞬间加入一次短促电影级低频冲击：\n\nTHUMP / BOOM\n\n不是爆炸。\n\n更像非常短的低频电影冲击。\n\n同时叠加：\n\nWHOOMP\n\n短促空气冲击声。\n\n以及服装瞬间展开：\n\nFLAP\n\n如果角色存在金属饰品：\n\n加入极轻的：\n\nCLINK\n\n低频冲击只出现一次。\n\n不要持续轰鸣。\n\n6.45–6.65秒\n\n动作\n\n变身已经完全结束。\n\n人物此时严格是 @变身后角色图。\n\n剑和剑鞘严格参考：\n\n@剑参考图\n\n人物顺着变身前的身体惯性自然调整重心。\n\n抬起的腿开始回落。\n\n身体逐渐进入更稳定、更有力量的站姿。\n\n人物的一只手自然接近剑柄。\n\n另一只手稳定剑鞘或自然控制身体平衡。\n\n不能突然瞬移手掌到剑柄。\n\n必须看到手掌自然完成：\n\n靠近\n→ 接触\n→ 握住\n三个动作阶段。\n6.65–7.35秒\n拔剑核心动作\n这是整条视频最重要的动作和声音爆点。\n\n人物动作\n\n人物手指先抓紧剑柄。\n\n另一只手稳定剑鞘。\n\n剑的造型严格参考：\n\n@剑参考图\n\n随后连续完成一次真实拔剑：\n\n握紧剑柄\n→ 手腕发力\n→ 剑刃开始离开剑鞘\n→ 手臂向外拉开\n→ 剑刃沿剑鞘真实轴线滑出\n→ 剑完全离鞘。\n\n必须是一把真实剑从一个真实剑鞘里被拔出来。\n\n剑身必须从剑鞘内部连续出现。\n\n禁止：\n\n剑直接凭空出现在手里\n剑鞘自动消失\n剑瞬间变长\n拔出两把剑\n剑刃穿过剑鞘\n剑柄与剑身方向错误\n剑身从剑鞘侧面穿出。\n\n身体动作\n\n拔剑过程中肩部、肘部、手腕和腰部共同参与。\n\n身体略微转向拔剑方向。\n\n重心下沉一点。\n\n拔剑具有重量和阻力。\n\n不要像抽出一根没有重量的塑料棒。\n\n运镜\n\n变身完成后镜头重新稳定。\n\n拔剑时允许摄影机产生一次极其轻微的向人物靠近。\n\n不要切特写。\n\n仍然保持人物大部分身体可见。\n\n拔剑声音\n\n手指抓紧剑柄：\n\n非常轻微的皮革或缠柄摩擦：\n\ncreak\n\n剑刃开始移动：\n\nshrrrk——\n\n声音由偏厚的金属摩擦开始。\n\n随着剑身越来越多离开剑鞘，声音逐渐变得更明亮、更锋利：\n\nSHHHHHK——\n\n剑刃完全脱离剑鞘的那一帧：\n\nSHING！\n\n清脆、短促、高频明确的真人电影金属鸣响。\n声音结构：\ncreak → shrrrk—— → SHHHHK—— → SHING！\n\n整个拔剑声音与实际动作逐帧同步。\n\n剑身完全离开剑鞘的瞬间必须正好对应：\n\nSHING！\n\n禁止拔剑完成后才响。\n\n禁止提前响。\n\n禁止使用动漫夸张刀剑声。\n\n禁止雷电声。\n\n禁止魔法音。\n\n7.35–7.60秒\n\n声音留白\n\n剑完全出鞘后不要立刻加入其他大声音。\n\n保留：\nSHING——\n约0.15–0.25秒非常短的自然金属余韵。\n环境声在这一瞬间保持克制。\n让拔剑成为整条视频最清晰的听觉记忆点。\n7.6–8.3秒\n\n动作\n\n人物把拔出的剑带向最终展示位置。\n\n剑刃在空气中划过一个简洁、利落的弧线。\n\n不是复杂剑法。\n不是连续挥砍。\n只需要一次非常自然的：\n拔剑后调整剑势。\n人物身体完全稳定下来。\n一条腿略向前。\n另一条腿支撑。\n\n肩部打开。\n\n人物抬头。\n\n视线从侧方逐渐转向镜头。\n\n如果衣服存在：\n\n披风\n长袖\n长裙\n飘带\n\n随着刚才动作产生一次自然惯性摆动。\n\n声音\n\n剑刃快速划过空气：\n\nSWISH——\n\n注意这里的剑风和前半段扫帚完全不同。\n\n扫帚声音厚、钝。\n\n剑风声音：\n\n薄\n锐利\n快速\n高频更多。\n\n衣摆同时产生轻微：\n\nflap / rustle\n\n森林环境声音逐渐恢复。\n\n8.3–9.3秒\n\n动作\n\n进入人物展示阶段。\n\n人物不再做大型动作。\n\n保持充满力量的站姿。\n\n剑稳定握在手中。\n\n剑和剑鞘继续严格参考：\n\n@剑参考图\n\n人物肩膀做极小调整。\n\n下巴略微抬起。\n\n眼神逐渐变冷。\n\n呼吸自然。\n\n头发和衣摆受到非常轻微自然风影响。\n\n运镜\n\n摄影机开始：\n\nvery slow push-in\n\n缓慢向人物推进。\n\n从完整全身逐渐接近七分身。\n\n推进非常克制。\n\n不要突然变焦。\n\n不要突然切脸部特写。\n\n声音\n\n森林自然环境：\n\n轻风\n树叶摩擦\n远处鸟鸣\n\n极轻人物呼吸。\n\n偶尔存在极弱金属结构细响。\n\n不要为了强调剑不断加入金属声音。\n\n9.3–10.2秒\n\n动作\n\n人物进入最终英雄姿态。\n\n眼神：\n\n冷静\n坚定\n具有压迫感。\n\n人物可以直视镜头，也可以略微越过镜头看向远方。\n\n剑保持稳定。\n\n不要继续舞剑。\n\n不要走很多步。\n\n不要改变握剑手。\n\n不要把剑突然换到另一侧。\n\n运镜\n\n继续very slow push-in。\n\n人物逐渐成为画面绝对视觉中心。\n\n保持真实手机/电影摄影的轻微手持呼吸感。\n\n10.2–10.93秒\n\n最终镜头\n人物形成最终定格姿态。\n剑保持稳定。\n衣摆、发丝、附近植物受到极轻微自然风影响。\n\n人物存在真实呼吸。\n\n镜头仍有极微弱向前推进，但速度逐渐降低。\n\n最后0.3秒接近稳定。\n\n直接结束画面。\n\n不要淡出。\n\n不要黑场。\n\n不要做结束Logo。\n\n声音\n风声略微增加一点。\n树叶轻微摇动。\n可保留几乎不可察觉的金属余震质感。\n\n随后自然结束。\n\n不要添加结尾音效。\n\n运镜总纲\n\n0–1.4秒\n\n低机位近景起手\n\n→ tilt up\n\n→ slight pull back\n\n→ 从扫帚和腿部逐渐展示人物全身。\n\n1.4–3秒\n\n轻手持全身跟拍。\n\n摄影师非常轻微后退和横向修正。\n\n主要让人物动作推动画面。\n\n镜头本身不要抢戏。\n\n3–6.3秒\n\n摄影机运动逐渐减弱。\n\n基本稳定在全身构图。\n\n人物动作从快速变慢。\n\n为Match Cut建立稳定pose。\n\n6.3秒\n\n瞬间Match Cut完成变身。\n\n不使用复杂转场。\n\n6.4–7.4秒\n\n保持中远景/全身构图完成拔剑。\n\n可以有极其轻微push-in。\n\n绝对不要突然切到手部特写。\n\n7.5–10.93秒\n\nvery slow push-in。\n\n从全身逐渐接近七分身。\n最终形成英雄人物展示镜头。\n人物与动作一致性强约束\n\n0–6.3秒只允许出现 @变身前角色图 的造型。\n\n6.4秒以后只允许出现 @变身后角色图 的造型。\n\n两个造型之间只允许存在一个明确的切换点。\n\n前后必须是同一个人物。\n\n禁止变身过程中出现第三张脸。\n\n禁止年龄改变。\n\n禁止人物身高明显变化。\n\n禁止体型突然改变。\n\n禁止肢体增生。\n扫帚物理连续性\n扫帚必须由人物双手真实握持。\n\n每一次旋转都必须遵循真实杆状物体运动。\n\n上一帧与下一帧之间：\n\n手部位置\n杆身角度\n肩部方向\n身体重心\n\n必须连续。\n\n禁止扫帚瞬移。\n\n禁止刷头翻转。\n\n禁止杆身穿过身体。\n\n剑物理连续性\n\n变身后的剑严格参考 @剑参考图。\n\n剑、剑柄和剑鞘必须属于同一套兵器。\n\n拔剑前，剑必须真实存在于剑鞘中。\n\n拔剑过程中剑刃连续从剑鞘中出现。\n\n剑拔出后剑鞘仍然存在。\n\n剑刃的长度、宽度、造型和材质全程一致。\n\n剑不能在镜头中不断自行变化。\n\n声音总原则\n\n不要背景音乐。\n\n声音全部来自真实场景和人物动作。\n\n前半段声音生活化：\n\n扫帚擦地\n扫帚风切\n脚步\n衣服摩擦\n自然环境。\n\n6.3秒之前逐渐降低声音复杂度。\n\n变身前制造约0.2秒短暂声音留白。\n\n变身瞬间：\n\nTHUMP + WHOOMP + FLAP + very subtle CLINK\n\n拔剑：\n\ncreak → shrrrk—— → SHHHHK—— → SHING！\n\n拔剑声音必须成为全片最大的声音记忆点。\n\n拔剑后短暂保留金属余韵。\n\n随后恢复自然森林环境声。\n\n全程声音必须与实际动作严格同步。\n\n不使用：\n\nBGM\n电子音乐\n玄幻魔法音\n雷电\n爆炸\n动漫式夸张刀剑音。\n\n整体保持真实真人武侠电影的声音质感。",
+      "created_at": "Thu Sep 10 02:30:04 +0000 2026",
+      "likes": 10,
+      "views": "1776",
+      "url": "https://x.com/i/status/2097875223827857528",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2097875036015304704/vid/avc1/320x568/2m6V6CqfOgBKK3tc.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2097875036015304704/img/PmGkesdMm5p3G4s-.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2097278359390880054",
+        "author": "MANISH1027512",
+        "name": "古一",
+        "text": "总觉得今天少了点什么，原来是没发旗袍女团！\n\n这组也类似，要给人物编号，按序登场。 https://t.co/73aqh1nPtW",
+        "created_at": "Tue Sep 08 10:58:21 +0000 2026",
+        "url": "https://x.com/MANISH1027512/status/2097278359390880054",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2097278246090084352/vid/avc1/480x270/V3SeJp4A9ifaiI6X.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2097278246090084352/img/UncPaIq6pCHOUaCq.jpg"
+        ]
+      },
+      "score": 52.709,
+      "title": "扫帚舞到拔剑：旗袍变身用 Match Cut 而不是特效融化",
+      "summary": "古一给出约 11 秒竖屏变身提示词：前半生活化耍扫帚、收束成稳定姿态，6.3 秒用动作匹配硬切换成旗袍持剑造型，再按真实物理拔剑。强调不要融化、粒子、魔法光效；扫帚和剑的握持、长度、出鞘必须连续；无 BGM，声音跟动作同步，拔剑的金属鸣响作为全片听觉爆点。",
+      "recommend_reason": "把变身写成「姿态匹配硬切 + 兵器物理连续 + 声音逐帧对齐」，比堆特效词更能稳住视频生成的剪辑和声画。",
+      "tags": [
+        "提示词",
+        "AI视频",
+        "一致性",
+        "音效"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2097873076847264184",
+      "author": "VigoCreativeAI",
+      "bio": "",
+      "text": "Midjourney + GPT Image 2.5 + Codex.\n\nFrom a character concept to stickers and a working desktop pet.\n\nMeet the Daydream Archivist: cloud hair, a yellow raincoat, and a permanently sleepy face.\n\nIt lives on my desktop now. Here’s how we made it. 🧵 https://t.co/PxRU8wG6q0",
+      "created_at": "Thu Sep 10 02:21:32 +0000 2026",
+      "likes": 14,
+      "views": "922",
+      "url": "https://x.com/i/status/2097873076847264184",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HR0kXZqaAAAiUFa.jpg",
+        "https://video.twimg.com/tweet_video/HR0kbUsWcAQzCNk.mp4"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HR0kXZqaAAAiUFa.jpg",
+        "https://pbs.twimg.com/tweet_video_thumb/HR0kbUsWcAQzCNk.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2097624928690270339",
+        "author": "VigoCreativeAI",
+        "name": "Vigo Zhao",
+        "text": "GPT Image 2.5 — Precision Editing https://t.co/JxdJcTTejm",
+        "created_at": "Wed Sep 09 09:55:29 +0000 2026",
+        "url": "https://x.com/VigoCreativeAI/status/2097624928690270339",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HRxCvzebsAACrUN.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HRxCvzebsAACrUN.jpg"
+        ]
+      },
+      "score": 65.05,
+      "title": "Midjourney 出角色，GPT Image 2.5 和 Codex 把它做成桌宠",
+      "summary": "作者用 Midjourney、GPT Image 2.5 和 Codex，把一个角色概念做成贴纸和可运行桌面宠物。角色叫 Daydream Archivist：云朵头发、黄雨衣、永远犯困的脸，现在已经住在桌面上。引用了前一条 GPT Image 2.5 精细编辑帖，并表示会开 thread 讲制作过程。",
+      "recommend_reason": "把生图、精修和 Codex 串成「角色→贴纸→真能跑的桌宠」，比单发一张概念图更能看清图像模型怎么进桌面产品。",
+      "tags": [
+        "GPT Image 2.5",
+        "Midjourney",
+        "Codex",
+        "桌面宠物"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2097871189058462013",
+      "author": "ianneo_ai",
+      "bio": "",
+      "text": "看到句大实话：都出 GPT6 了，我依旧只敢用 5.6 luna 干活\n\n日常搬砖改个样式，最怕顶级模型停下来深思熟虑憋大招\n\nLuna 回车秒出、不瞎加戏，跑偏了重来也不心疼\n\n真干活，手感和即时反馈比满分答案好用",
+      "created_at": "Thu Sep 10 02:14:02 +0000 2026",
+      "likes": 1,
+      "views": "239",
+      "url": "https://x.com/i/status/2097871189058462013",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 50.34,
+      "summary": "看到句大实话：都出 GPT6 了，我依旧只敢用 5.6 luna 干活\n\n日常搬砖改个样式，最怕顶级模型停下来深思熟虑憋大招\n\nLuna 回车秒出、不瞎加戏，跑偏了重来也不心疼\n\n真干活，手感和即时反馈比满分答案好用",
+      "recommend_reason": "日常改样式宁愿用秒回的 5.6 Luna，也不要顶级模型停下来「憋大招」，是很具体的干活手感，不是空泛评测。",
+      "tags": [
+        "GPT-6",
+        "Luna",
+        "工作流",
+        "模型选型"
+      ],
+      "rank": 8
+    }
+  ],
+  "generated_at": "2026-09-10T04:04:46Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 8,
+    "last_batch_added": 8,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
