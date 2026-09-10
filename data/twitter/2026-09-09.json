@@ -1,0 +1,646 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-09",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2097706541566886090",
+      "author": "ianneo_ai",
+      "text": "以前用 Image 2.0 拆解 Photoshop 分层，分出的图层离真正能干活的 PSD 差口气\n\n今天看到有人聊起这茬，ChatGPT Images 2.5 出来后，有做设计的朋友深度测过它的图层拆分了吗？\n\n真能直接拖进设计稿改了吗？",
+      "created_at": "Wed Sep 09 15:19:47 +0000 2026",
+      "likes": 8,
+      "views": 5110,
+      "url": "https://x.com/ianneo_ai/status/2097706541566886090",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "quoted_tweet": null,
+      "score": 52.634,
+      "summary": "以前用 Image 2.0 拆解 Photoshop 分层，分出的图层离真正能干活的 PSD 差口气\n\n今天看到有人聊起这茬，ChatGPT Images 2.5 出来后，有做设计的朋友深度测过它的图层拆分了吗？\n\n真能直接拖进设计稿改了吗？",
+      "recommend_reason": "把 Images 2.5 的评价锚到「图层是否真能进 PSD 改」这个硬指标，比空夸清晰。",
+      "tags": [
+        "Images2.5",
+        "图层",
+        "设计",
+        "PSD"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2097703661195640889",
+      "author": "ianneo_ai",
+      "text": "现在不少人做 Agent，流程熟练得像流水线：\n\n挑个新模型，起个威风的名字，再往提示词里贴两段你是有十年经验的资深架构师/顶尖文案，再加各种巴拉巴拉描述，转头就宣布自己打造了一个新 Agent\n\n这充其量只是给一个聊天框换了身衣服\n\n好比在商场塑料假人身上套了一套西装，就宣称自己招聘了一位能带队打硬仗的高管\n\n真正能跑在业务里的 Agent，跟它自称是谁好像毫无关系\n\n它得在复杂环境里摸爬滚打：\n\n给它一个脏乱差的项目，它能不能自己翻目录查关联？\n\n调接口失败了，会不会看报错自己换姿势重试？\n\n跑完长任务，知不知道把中间决策沉淀成稳定的本地记忆，而不是下次一开机就患失忆症？\n\n给一段角色扮演是演戏，能在没有人工盯梢的情况下，把一个有脏活、有变数的任务有始有终交割出来，才算跨过了 Agent 的门槛",
+      "created_at": "Wed Sep 09 15:08:20 +0000 2026",
+      "likes": 3,
+      "views": 1124,
+      "url": "https://x.com/ianneo_ai/status/2097703661195640889",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "quoted_tweet": null,
+      "score": 52.659,
+      "title": "真 Agent 门槛：脏活自愈与本地记忆，不是换皮人设",
+      "summary": "作者批评只换模型名+资深人设提示词就自称 Agent：真正能进业务的 Agent 要能在脏项目里自查目录、接口失败自换姿势重试，并把长任务中间决策沉淀为本地记忆，而不是开机失忆。",
+      "recommend_reason": "用可检验行为定义 Agent 门槛，专门打掉「提示词换皮」泡沫。",
+      "tags": [
+        "Agent",
+        "工程化",
+        "记忆",
+        "评测"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2097681428490133731",
+      "author": "VigoCreativeAI",
+      "text": "What if a sports campaign made starting feel easier?\nFour everyday moments about showing up, starting again, and moving at your own pace.\nA personal Nike concept series, created with AI.\nWhich one feels most familiar?\nUnofficial / not affiliated with Nike. https://t.co/iuzAZJZ214",
+      "created_at": "Wed Sep 09 13:40:00 +0000 2026",
+      "likes": 4,
+      "views": 435,
+      "url": "https://x.com/VigoCreativeAI/status/2097681428490133731",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRxad7sXsAAfJ58.jpg",
+        "https://pbs.twimg.com/media/HRxad8WbkAA0rl_.jpg",
+        "https://pbs.twimg.com/media/HRxafvea4AA4soh.jpg",
+        "https://pbs.twimg.com/media/HRxafv7a8AEgfPv.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRxad7sXsAAfJ58.jpg",
+        "https://pbs.twimg.com/media/HRxad8WbkAA0rl_.jpg",
+        "https://pbs.twimg.com/media/HRxafvea4AA4soh.jpg",
+        "https://pbs.twimg.com/media/HRxafv7a8AEgfPv.jpg"
+      ],
+      "quoted_tweet": null,
+      "score": 42.827,
+      "title": "用 AI 做 Nike 风格「开始运动」概念四连海报",
+      "summary": "作者用 AI 做了一组非官方 Nike 概念运动海报，围绕日常出场、重新开始、按自己节奏移动四个时刻，讨论怎样让「开始」变得更容易，并征求哪张最有共鸣。",
+      "recommend_reason": "把品牌调性落到可共鸣的行为叙事，而不是堆运动鞋产品图。",
+      "tags": [
+        "AI绘图",
+        "运动",
+        "品牌概念",
+        "图像生成"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2097632312305619334",
+      "author": "jinchenma_ai",
+      "text": "GPT Image 2.5 有点牛啊。\n\n本来是让他帮我出一个视觉设计方案的，结果人家一步到位了，直接把整套视觉风格全案都给我生成好了。这也太屌了，我靠。\n\n不过为了工程化一下，我得把这些东西沉淀下来。今晚又有的肝了😂 https://t.co/q1U0Qvo6OA",
+      "created_at": "Wed Sep 09 10:24:50 +0000 2026",
+      "likes": 31,
+      "views": 10565,
+      "url": "https://x.com/jinchenma_ai/status/2097632312305619334",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRxJAB-a0AA7dZL.jpg",
+        "https://pbs.twimg.com/media/HRxJB3FbkAA3JHS.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRxJAB-a0AA7dZL.jpg",
+        "https://pbs.twimg.com/media/HRxJB3FbkAA3JHS.jpg"
+      ],
+      "quoted_tweet": null,
+      "score": 61.005,
+      "summary": "GPT Image 2.5 有点牛啊。\n\n本来是让他帮我出一个视觉设计方案的，结果人家一步到位了，直接把整套视觉风格全案都给我生成好了。这也太屌了，我靠。\n\n不过为了工程化一下，我得把这些东西沉淀下来。今晚又有的肝了😂",
+      "recommend_reason": "一线创作者反馈 Image 2.5 能从「方案讨论」直接跳到整套视觉全案，并点出下一步要工程化沉淀。",
+      "tags": [
+        "GPT-Image-2.5",
+        "视觉设计",
+        "全案"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2097604146597945782",
+      "author": "vista8",
+      "text": "姚老师经常把能收钱的产品直接开源，哈哈哈。\n\n如果你想搞活动，缺官网、缺会员报名和支付管理系统。\n\n拿过去交给AI Agent改改就能用。",
+      "created_at": "Wed Sep 09 08:32:54 +0000 2026",
+      "likes": 64,
+      "views": 18223,
+      "url": "https://x.com/vista8/status/2097604146597945782",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "quoted_tweet": {
+        "id": "2097541878522814664",
+        "author": "yaojingang",
+        "name": "姚金刚",
+        "text": "为了让第二届GEO大会的报名体验更好，写了一套大会系统：TokEMS\n近期迭代了 140 次，已达到初步可用的状态，正式开源给大家，GitHub仓库地址详见评论区\n\n系统的定位：开源、自托管的一体化大会运营平台，覆盖大会官网、报名、票务、订单、发票、通知和现场签到\n\n1、已实现的能力包括大会官网、报名交易、支付入口、候补队列、运营后台、模板系统、发票管理、现场运营、平台基建与Agent管理\n2、配套CLI，打通飞书机器人，自动同步每天大会官网的所有数据\n3、支持私有化部署、复用大会模板，也可以按自己的活动需求继续开发\n\n部分示例截图详见图片",
+        "created_at": "Wed Sep 09 04:25:28 +0000 2026",
+        "url": "https://x.com/yaojingang/status/2097541878522814664",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HRv2RHqa4AA1pS-.jpg",
+          "https://pbs.twimg.com/media/HRv2Xi4b0AAVrEy.jpg",
+          "https://pbs.twimg.com/media/HRv22oBaUAAO2JJ.jpg",
+          "https://pbs.twimg.com/media/HRv3A1OaoAAmXPJ.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HRv2RHqa4AA1pS-.jpg",
+          "https://pbs.twimg.com/media/HRv2Xi4b0AAVrEy.jpg",
+          "https://pbs.twimg.com/media/HRv22oBaUAAO2JJ.jpg",
+          "https://pbs.twimg.com/media/HRv3A1OaoAAmXPJ.jpg"
+        ]
+      },
+      "score": 56.614,
+      "summary": "姚老师经常把能收钱的产品直接开源，哈哈哈。\n\n如果你想搞活动，缺官网、缺会员报名和支付管理系统。\n\n拿过去交给AI Agent改改就能用。",
+      "recommend_reason": "指向可自托管的大会报名/票务开源系统，并暗示丢给 AI Agent 改就能落地，很适合活动承办场景。",
+      "tags": [
+        "开源",
+        "Agent",
+        "活动系统",
+        "TokEMS"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2097566409329131897",
+      "author": "xiaohu",
+      "text": "OpenAI 算力告急\n\n很多人这几天在Codex工作过程中都收到算力不足的提示\n\nTibo称他们正在加紧算力的调配来满足Astra的消耗\n\n如果无法解决可能考虑\n暂停新的 Pro 订阅",
+      "created_at": "Wed Sep 09 06:02:57 +0000 2026",
+      "likes": 60,
+      "views": 25642,
+      "url": "https://x.com/xiaohu/status/2097566409329131897",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "quoted_tweet": {
+        "id": "2097559315150426222",
+        "author": "thsottiaux",
+        "name": "Tibo",
+        "text": "Demand for Astra is really unprecedented. We're pulling all the levers possible to sustain the demand, but I've not seen anything like it until now and we went through very steep growth before. Priority will always be to keep excellent service for existing users, but we might have to pause new Pro subscriptions for a bit if this continues.",
+        "created_at": "Wed Sep 09 05:34:46 +0000 2026",
+        "url": "https://x.com/thsottiaux/status/2097559315150426222",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 56.938,
+      "summary": "OpenAI 算力告急\n\n很多人这几天在Codex工作过程中都收到算力不足的提示\n\nTibo称他们正在加紧算力的调配来满足Astra的消耗\n\n如果无法解决可能考虑\n暂停新的 Pro 订阅",
+      "recommend_reason": "把 Codex 侧「算力不足」提示和官方可能停增 Pro 的说法对上了，便于判断产能压力是否已传导到开发者工具。",
+      "tags": [
+        "OpenAI",
+        "Codex",
+        "Astra",
+        "算力"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2097549973667872772",
+      "author": "op7418",
+      "text": "GPT-6 Astra + GPT-image-2.5 + JavaScript\n\nGPT-6 不只做 3D 游戏很厉害，做 2D 游戏也厉害\n\nGPT-image-2.5 现在做游戏素材牛皮啊！\n\n角色的动作是用 GPT-image-2.5 生成的精灵图，然后做成的关键帧动作。\n\n他自己做了：背景图、跳跃的平台、怪物、人物和怪物动作的精灵图、技能音效 https://t.co/XsKBnLUzbH",
+      "created_at": "Wed Sep 09 04:57:38 +0000 2026",
+      "likes": 287,
+      "views": 58561,
+      "url": "https://x.com/op7418/status/2097549973667872772",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2097549090192338944/vid/avc1/482x270/rHghc22SZ9YJVr7K.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2097549090192338944/img/6ra4DXWOSJMJ2pUy.jpg"
+      ],
+      "quoted_tweet": {
+        "id": "2097513510414827775",
+        "author": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "text": "GPT-image-2.5 图像生成模型果然发布了。官方说明的优化点主要有这几个新特性：\n\n更快的图像生成速度，更高的参考图一致性，多次编辑中的一致性保持，基于评论的编辑\n\n目前已全量在 GPT 和 Codex 推出。但图像元数据里标注的依然是 2.0，所以无法通过元数据判断模型版本；\n\n神奇的是，GPT-image-2.5 这两个版本的 API 价格跟 GPT-image-2 相比没有任何差异。\n\n实际体验下来，破碎感和涂抹感的问题确实变好了一些，不过提升不算太大；\n\n但一致性确实明显变强了，尤其是连续多次编辑的一致性。",
+        "created_at": "Wed Sep 09 02:32:45 +0000 2026",
+        "url": "https://x.com/op7418/status/2097513510414827775",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HRvdMkybwAAL9po.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HRvdMkybwAAL9po.jpg"
+        ]
+      },
+      "score": 66.955,
+      "title": "GPT-6 Astra + Image 2.5 做出完整 2D 游戏素材",
+      "summary": "橙皮展示用 GPT-6 Astra 写 JS 游戏逻辑，并用 GPT-image-2.5 生成角色精灵图关键帧动作，以及背景、平台、怪物、技能音效等一整套素材，说明新图模不只会做静帧更能撑游戏生产。",
+      "recommend_reason": "把文生图直接接到可玩的 2D 游戏管线，比单张样张更能说明 Images 2.5 的一致性价值。",
+      "tags": [
+        "GPT-6",
+        "GPT-image-2.5",
+        "游戏",
+        "精灵图"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2097531049458769924",
+      "author": "VigoCreativeAI",
+      "text": "One rough sketch → six material realities with GPT Image 2.5.\nCeramic, chrome, stone, glass, textile, and wood.\nSame shape. Completely different character.\nWhich one would you make real?\nPrompt ↓ https://t.co/J1HUaBSdKR",
+      "created_at": "Wed Sep 09 03:42:27 +0000 2026",
+      "likes": 23,
+      "views": 4455,
+      "url": "https://x.com/VigoCreativeAI/status/2097531049458769924",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2097527682422513664/vid/avc1/480x270/g4rJ65MdRi0DhLDz.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2097527682422513664/img/nxDHoHxYtmeSJ06I.jpg"
+      ],
+      "quoted_tweet": null,
+      "score": 61.768,
+      "title": "一张草图用 GPT Image 2.5 渲成六种材质",
+      "summary": "作者用 GPT Image 2.5 把同一粗略草图分别渲染成陶瓷、铬、石、玻璃、织物与木六种材质现实，形状不变、气质全变，并附提示词。",
+      "recommend_reason": "用可控对比展示材质迁移能力，比单张炫图更有方法示范价值。",
+      "tags": [
+        "GPT-Image-2.5",
+        "材质",
+        "提示词",
+        "设计"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2097530072236204086",
+      "author": "bindureddy",
+      "text": "Super excited for our open-weights release on Thursday... \n\nA new LLM that is almost FREE but massively improves on long-running personal agentic loops\n\nYes, it will be available via the API and be better than DeepSeek Flash. \n\nSneak peek at our NYC conference tomorrow!  🚀 https://t.co/2ErdysFNLK",
+      "created_at": "Wed Sep 09 03:38:34 +0000 2026",
+      "likes": 2780,
+      "views": 3997347,
+      "url": "https://x.com/bindureddy/status/2097530072236204086",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/tweet_video/HRvse00bIAAz-kx.mp4"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/tweet_video_thumb/HRvse00bIAAz-kx.jpg"
+      ],
+      "quoted_tweet": null,
+      "score": 70.751,
+      "title": "Abacus 预告几乎免费的开源权重个人 Agent 模型",
+      "summary": "Abacus 预告周四开源权重发布：新 LLM 面向长跑个人 Agent 循环，宣称几乎免费且强于 DeepSeek Flash，将提供 API，并在纽约会议放出预览。",
+      "recommend_reason": "开源权重+低价 Agent 循环是当前成本敏感用户最关心的组合，预告本身也点名对标 DeepSeek Flash。",
+      "tags": [
+        "开源权重",
+        "Agent",
+        "Abacus",
+        "DeepSeek"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2097523331046232219",
+      "author": "xiaohu",
+      "text": "Meta 推出个人 AI Agent Muse：\n每人一台云端电脑，可持续在后台推进任务\n\n听起来是不是很熟悉？？？\n\n显然就是manus的翻版😂\n\nMuse 有哪些核心能力？\n\n拥有自己的云端电脑：每位用户都有专属 Linux 虚拟机，里面包含文件系统、终端和 Chromium 浏览器。Muse 可以写代码、调用命令行工具，也能通过浏览器搜集信息和操作网页。\n\n持续在后台推进任务：它可以并行处理事项，根据日程、邮件和网页变化继续工作，不要求用户一直守着聊天窗口。\n\n主动发现并提醒：在获得相应权限后，它能发现截止日期、日程冲突和重要更新；需要用户关注或决策时，再主动发来消息。\n\n跨应用完成连续操作：信息搜集、填写表单、加入购物车、预订和日程安排可以连成一条任务链，而不只是给出操作建议。\n\n交付可用成果：除了文字回答，Muse 还能生成清单、PDF、Markdown 文件和可交互的 Artifacts，例如旅行计划、采购表或国际象棋分析仪表盘。",
+      "created_at": "Wed Sep 09 03:11:46 +0000 2026",
+      "likes": 46,
+      "views": 14053,
+      "url": "https://x.com/xiaohu/status/2097523331046232219",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2097522703364423680/vid/avc1/480x270/FBRUnK6QB4zNOPpG.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2097522703364423680/img/NmMjnGLfwb4Uez0k.jpg"
+      ],
+      "quoted_tweet": null,
+      "score": 63.672,
+      "title": "Meta 推个人 Agent Muse：云端电脑后台连续干活",
+      "summary": "Meta 发布个人 AI Agent Muse：每用户一台含文件系统/终端/Chromium 的 Linux 云电脑，可后台并行推进任务、按权限主动提醒，并能跨应用串起搜集、填表、购物车、预订与日程，交付清单/PDF/Artifacts。作者指其形态类似 Manus。",
+      "recommend_reason": "把 Muse 的云电脑+主动提醒+可交付产物讲具体了，方便和 Manus 类 Agent 对照。",
+      "tags": [
+        "Meta",
+        "Muse",
+        "Agent",
+        "云端电脑"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2097513510414827775",
+      "author": "op7418",
+      "text": "GPT-image-2.5 图像生成模型果然发布了。官方说明的优化点主要有这几个新特性：\n\n更快的图像生成速度，更高的参考图一致性，多次编辑中的一致性保持，基于评论的编辑\n\n目前已全量在 GPT 和 Codex 推出。但图像元数据里标注的依然是 2.0，所以无法通过元数据判断模型版本；\n\n神奇的是，GPT-image-2.5 这两个版本的 API 价格跟 GPT-image-2 相比没有任何差异。\n\n实际体验下来，破碎感和涂抹感的问题确实变好了一些，不过提升不算太大；\n\n但一致性确实明显变强了，尤其是连续多次编辑的一致性。",
+      "created_at": "Wed Sep 09 02:32:45 +0000 2026",
+      "likes": 39,
+      "views": 78332,
+      "url": "https://x.com/op7418/status/2097513510414827775",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRvdMkybwAAL9po.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRvdMkybwAAL9po.jpg"
+      ],
+      "quoted_tweet": null,
+      "score": 61.271,
+      "title": "实测 GPT-image-2.5：一致性明显，画质提升有限",
+      "summary": "橙皮实测：官方强调更快、参考图与多轮编辑一致性、评论式编辑；已全量进 GPT/Codex，但元数据仍标 2.0，API 价与 2.0 持平。体感破碎/涂抹感略好、提升不大，连续编辑一致性则明显变强。",
+      "recommend_reason": "补上官方通稿之外的价格、元数据坑和真实体感，适合准备迁移工作流的人。",
+      "tags": [
+        "GPT-image-2.5",
+        "实测",
+        "一致性",
+        "OpenAI"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2097511396854608267",
+      "author": "dugujun12",
+      "text": "Codex 桌面把并行任务摊开，跑没跑完一眼能看见。Claude 那个桌面，看起来还是聊天窗。\n\n差的不是模型名字。是它敢不敢把确认键替你按下去，让文件自己改完。\n\n我选窗，先看桌面上能不能看见活，不看对话框漂不漂亮。",
+      "created_at": "Wed Sep 09 02:24:21 +0000 2026",
+      "likes": 1,
+      "views": 752,
+      "url": "https://x.com/dugujun12/status/2097511396854608267",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "quoted_tweet": null,
+      "score": 49.204,
+      "summary": "Codex 桌面把并行任务摊开，跑没跑完一眼能看见。Claude 那个桌面，看起来还是聊天窗。\n\n差的不是模型名字。是它敢不敢把确认键替你按下去，让文件自己改完。\n\n我选窗，先看桌面上能不能看见活，不看对话框漂不漂亮。",
+      "recommend_reason": "用桌面信息架构对比点出 Agent 产品关键：可见并行任务与能否替你确认改文件。",
+      "tags": [
+        "Codex",
+        "Claude",
+        "桌面",
+        "Agent"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2097504211357626379",
+      "author": "dugujun12",
+      "text": "Claude Code 格子用完，子任务直接被掐掉。下次重开，文件夹又要从头认。\n\nCodex 额度没了，这截活它还会尽量干完。两个窗都开着，死法不一样。\n\n我现在看额度，先看它会不会把活掐死，不先看哪家名字响。",
+      "created_at": "Wed Sep 09 01:55:48 +0000 2026",
+      "likes": 1,
+      "views": 394,
+      "url": "https://x.com/dugujun12/status/2097504211357626379",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "quoted_tweet": null,
+      "score": 49.67,
+      "summary": "Claude Code 格子用完，子任务直接被掐掉。下次重开，文件夹又要从头认。\n\nCodex 额度没了，这截活它还会尽量干完。两个窗都开着，死法不一样。\n\n我现在看额度，先看它会不会把活掐死，不先看哪家名字响。",
+      "recommend_reason": "把额度耗尽时的产品行为差说清楚：掐任务 vs 尽量收尾，比空比模型智商更实用。",
+      "tags": [
+        "ClaudeCode",
+        "Codex",
+        "额度",
+        "Agent"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2097460221526593597",
+      "author": "gkxspace",
+      "text": "翻了一圈 Images 2.5 的讨论，最核心的变化，就是 AI 图像生成终于能跑通商业工作流了！\n\n它能够真正帮我们赚钱，帮我们省钱，落到业务中去。\n\n以前的 AI 生图不稳定，需要大量的抽卡：\n运气好出一张惊艳的图，但很难真正进业务，因为没办法基于它做第二张、第三张系列资产。\n\n比如，电商需要同模特换 10 套衣服、品牌需要统一风格做延展，但是之前的 AI 做不到。\n\n这次 OpenAI 算是把这个卡点解决了：\n1、GPT-Image-2.5 Flare：生成延迟直接砍掉 50%，速度极快，适合做实时交互和高频批量出图\n2、GPT-Image-2.5 Sunburst：主打极致精度和多轮精细编辑，保真度和风格锁定拉满\n\n再加上界面端支持局部划选精修和手绘草图输入：\n现在做电商批量上新、品牌周边延展、连续故事插画，都能工业化跑起来了。\n\n兄弟们，现在可以去把图片工作流重构一遍了，效率提升拉满！\nhttps://t.co/PU3lJFcNXN",
+      "created_at": "Tue Sep 08 23:01:00 +0000 2026",
+      "likes": 83,
+      "views": 25356,
+      "url": "https://x.com/gkxspace/status/2097460221526593597",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2097404575687081984/vid/avc1/366x270/Mu4NO7YoocrhI7vO.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2097404575687081984/img/JrZr8uEePuWu39dj.jpg"
+      ],
+      "quoted_tweet": {
+        "id": "2097394956457623964",
+        "author": "OpenAI",
+        "name": "OpenAI",
+        "text": "ChatGPT Images 2.5—faster, sharper, smarter, with better tools for creating whatever you can dream of.\n\n- Faster image generation to keep your ideas flowing\n\n- Improved fidelity for more natural, recognizable images\n\n- Consistent details across multiple edits\n\n- Comment-based edits to change only what you want",
+        "created_at": "Tue Sep 08 18:41:39 +0000 2026",
+        "url": "https://x.com/OpenAI/status/2097394956457623964",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2097390126577893376/vid/avc1/480x270/MhN5_BJZM4Q2tJo8.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2097390126577893376/img/mmRUE0c57MKr8qDk.jpg"
+        ]
+      },
+      "score": 64.933,
+      "title": "Images 2.5 让电商/品牌生图工作流能工业化",
+      "summary": "作者认为 Images 2.5 的关键是稳定性够进业务：Flare 延迟约降半适合批量，Sunburst 主打精度与风格锁定，再加局部精修和草图输入，同模特换装、品牌延展、连续插画可系列化生产。",
+      "recommend_reason": "从「抽卡出一张」推进到「能做第二张系列资产」，抓住了商业生图真正卡点。",
+      "tags": [
+        "GPT-Image-2.5",
+        "电商",
+        "工作流",
+        "OpenAI"
+      ],
+      "rank": 14
+    },
+    {
+      "id": "2097455439365714125",
+      "author": "gkxspace",
+      "text": "蛙趣，Images 2.5 这个手绘涂鸦生图太特么离谱了！！！\n\n以后再也不用写大段 Prompt 跟 AI 描述构图了。\n\n之前用 AI 生图最烦的就是文字根本说不清画面位置，Prompt 写得跟论文一样长，效果还很烂......\n\n现在 ChatGPT 直接内置了一个画板（Sketchpad）：\n在聊天框打 @ Sketch，直接弹出一个画板。\n\n哪怕完全零绘画基础，拿鼠标或者手指随便涂鸦两笔：\n1、左边画个圈，标上咖啡\n2、右边画个火柴人，标上看书\n3、中间画个方框当展台\n\n画完一回车，它直接根据你的草图位置和空间构图，原地渲染出一张光影质感拉满的大片！\n\n平时做产品原型、包装草图、海报排版用这个太爽了啊\n\nhttps://t.co/zqt9Vg8yQL",
+      "created_at": "Tue Sep 08 22:42:00 +0000 2026",
+      "likes": 91,
+      "views": 13750,
+      "url": "https://x.com/gkxspace/status/2097455439365714125",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2097391104819605504/vid/avc1/480x270/UripaEML24fnKNpf.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2097391104819605504/img/8OOEVd-h7ZO9O4DC.jpg"
+      ],
+      "quoted_tweet": {
+        "id": "2097394958516781301",
+        "author": "OpenAI",
+        "name": "OpenAI",
+        "text": "Some ideas are easier to draw than describe.\n\nUse Sketch to draw right in ChatGPT and show it exactly what you have in mind.\n\nJust type “@ Sketch” in ChatGPT. https://t.co/gx6fw0xy3K",
+        "created_at": "Tue Sep 08 18:41:40 +0000 2026",
+        "url": "https://x.com/OpenAI/status/2097394958516781301",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2097391104819605504/vid/avc1/480x270/UripaEML24fnKNpf.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2097391104819605504/img/8OOEVd-h7ZO9O4DC.jpg"
+        ]
+      },
+      "score": 65.932,
+      "title": "ChatGPT Images 2.5 内置 Sketch：涂鸦即构图",
+      "summary": "作者实测 Images 2.5：在聊天框 @ Sketch 弹出画板，零基础涂鸦标出位置后即可按草图空间关系渲染成片，适合产品原型、包装与海报排版，少写长 Prompt。",
+      "recommend_reason": "把「说不清位置」的生图痛点直接换成手绘输入，比空喊模型变强更可复用。",
+      "tags": [
+        "ChatGPT",
+        "Images2.5",
+        "Sketch",
+        "生图"
+      ],
+      "rank": 15
+    },
+    {
+      "id": "2097436643963842954",
+      "author": "dotey",
+      "text": "OpenAI 发布了 ChatGPT Images 2.5，对其图像生成能力做了一次全面升级。核心改进有三个方向：速度更快（延迟比上一代降低约 50%），画面更逼真（光影和纹理更自然，人物面部特征保持得更好），以及编辑更精准（能只改你指定的部分，其余细节不动）。\n\n目前 ChatGPT 每周的图像生成量已经超过 30 亿张，这次升级直接影响的就是这个庞大的用户群体。\n\n除了模型本身的提升，OpenAI 还上线了几个实用功能。一个叫 Sketch，可以直接在 ChatGPT 里画草图，比如你画个大致的布局或轮廓，ChatGPT 会把它变成完整的图像。有时候画比说更快，这个功能就解决了\"想法在脑子里但描述不出来\"的问题。在对话框输入 @Sketch 就能用。\n\n另一个是模板功能，提供了海报、商品图等常见格式的模板，不用每次都从零开始描述。还有一个图片评论编辑功能，可以直接在图上标注你想修改的地方，比反复用文字描述\"把左上角那个东西改一下\"要直观得多。\n\n对开发者来说，API 端同步推出了两个新模型。GPT-Image-2.5 Flare 和 ChatGPT 里的体验一致，速度快、质量好，适合大多数场景。GPT-Image-2.5 Sunburst 则是面向高端创意工作的，生成时间更长但精度更高，适合做需要精细控制的品牌素材或产品图。\n\nChatGPT Images 2.5 今天起向所有 ChatGPT、ChatGPT Work 和 Codex 用户开放，覆盖桌面端、移动端和网页端。",
+      "created_at": "Tue Sep 08 21:27:19 +0000 2026",
+      "likes": 413,
+      "views": 140891,
+      "url": "https://x.com/dotey/status/2097436643963842954",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "quoted_tweet": {
+        "id": "2097394958516781301",
+        "author": "OpenAI",
+        "name": "OpenAI",
+        "text": "Some ideas are easier to draw than describe.\n\nUse Sketch to draw right in ChatGPT and show it exactly what you have in mind.\n\nJust type “@ Sketch” in ChatGPT. https://t.co/gx6fw0xy3K",
+        "created_at": "Tue Sep 08 18:41:40 +0000 2026",
+        "url": "https://x.com/OpenAI/status/2097394958516781301",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2097391104819605504/vid/avc1/480x270/UripaEML24fnKNpf.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2097391104819605504/img/8OOEVd-h7ZO9O4DC.jpg"
+        ]
+      },
+      "score": 63.925,
+      "title": "OpenAI 发布 ChatGPT Images 2.5：更快更真更好改",
+      "summary": "宝玉梳理 Images 2.5：延迟约降 50%、光影纹理与面部更稳、可局部精修；新增 Sketch 草图、模板与图上批注编辑。API 分 Flare（快）与 Sunburst（高精度）两档，已向 ChatGPT/Work/Codex 全端开放。",
+      "recommend_reason": "把官方升级点、新交互和双 API 档位一次讲清，适合当 Images 2.5 速查摘要。",
+      "tags": [
+        "ChatGPT",
+        "Images2.5",
+        "OpenAI",
+        "API"
+      ],
+      "rank": 16
+    },
+    {
+      "id": "2097383059679060353",
+      "author": "dotey",
+      "text": "OpenAI 正式宣布：其内部模型解决了 Navier-Stokes 千禧年难题。论文和 Lean 形式化证明已公开。\n\n这是 Buckmaster 声明 https://t.co/BwkY0K4CLg 发出后数小时内的回应，但 OpenAI 的说法远不止辩解，他们声称拿到了更强的成果。\n\n【OpenAI 称证明了什么】\n\nOpenAI 称，其尚未发布的内部模型（比 GPT-6 Astra 强得多）生成了一个解析证明：三维不可压缩流体在光滑外力作用下，可以在有限时间内从光滑初始状态发展出奇点（即速度趋向无穷大），同时能量保持有限。这对应 Clay 千禧年问题中 Fefferman 表述的 C 和 D 项。\n\n此外，OpenAI 还声称顺带解决了无外力 Euler 方程的正则性问题。注意“无外力”三个字，Buckmaster 和 Alpöge 证明的是带光滑外力的 Euler 爆破，而 OpenAI 声称做到了不加外力。如果成立，这是一个严格更强的结果。\n\n两项成果均配有 Lean 形式化验证，代码已发布在 GitHub 上。\n\n【怎么做到的：上万个 Agent 军团】\n\nOpenAI 描述的方法相当有冲击力。他们使用了一套由内部模型驱动的多 Agent 协作系统。Agent 被分成若干组，组内可以通信，每组尝试不同的进攻方向。处理 Navier-Stokes 的那组涉及约一万个并发 Agent。\n\n整个过程中，Agent 发送了 270 万条消息，消耗约 1300 亿输出 token。Navier-Stokes 的解在首批 Agent 启动约 88 小时后到达。随后 GPT-6 Astra 用 17 小时完成 Lean 形式化。\n\n无外力 Euler 方程的解是意外收获——约 100 个 Agent 工作了大约 50 小时，把它当作较容易的\"热身题\"时解决的。\n\nOpenAI 表示，他们在过程中让不同组交叉借鉴彼此的中间成果，并用 Codex 汇总各组最有用的洞见。找到 Navier-Stokes 解的那个组就是在这种引导下工作的。\n\n【两边叙事的关键分歧】\n\nOpenAI 的时间线与 Buckmaster 声明的时间线有重叠但有微妙差异。\n\n关于动机：OpenAI 说他们是 9 月 1 日听到“有两个千禧年问题被解决了”的传言后启动评估，传言并非专门针对 Buckmaster 的工作。而 Buckmaster 的声明描述的是：他的工作信息传到 OpenAI 后，OpenAI 才开始在同一条极冷门的技术路线上发力。\n\n关于交涉：OpenAI 说他们 9 月 6 日完成全部证明和 Lean 验证后，“相信对方也有 Navier-Stokes 的解”，于是主动联系，提出联合发布并承认对方的优先权。但通话后发现 Buckmaster 和 Alpöge 的成果是带外力的 Euler，而非 Navier-Stokes。而 Buckmaster 描述的通话场景是 OpenAI 在信息不对等的情况下施压、要求移除合作者。\n\n关于数据：OpenAI 在博客和推文中都明确否认访问过用户数据，但加了一句值得注意的话：“虽然可能性不大，但我们无法排除基于他们产品使用而生成的去标识化数据帮助改进了我们的模型”。Buckmaster 在声明中问过这个问题，没得到回答。\n\n关于学术功劳：OpenAI 推文祝贺 Buckmaster 和 Alpöge 取得了\"remarkable mathematical work\"，并承认对方在 Euler 问题上的优先权。但声明中没有任何文字提及 Córdoba 和 Martínez-Zoroa 的开创性工作——要知道整个受迫爆破研究计划是他们建立的。\n\n【Bubeck 回应：指控不实】\n\nBubeck 在 X 上发帖，称关于他的指控“虚假且具煽动性”（false and inflammatory），表示自己是按照学术规范参与讨论的，对事态发展表示失望，并承诺次日将给出更详细回应。\n\n截至目前，Bubeck 尚未对 Buckmaster 声明中的任何具体细节——Codex 数据问题、署名施压、“毁掉你的职业生涯”的说法——作出逐条回应。\n\n【数学界在等什么】\n\nScientific American 的报道标题：“OpenAI 声称数学重大突破，争议缠身。”\n\n多位数学家指出，虽然 OpenAI 已发布 Lean 代码，但社区尚未完成独立验证。Lean 形式化本身具有极高的可信度，如果代码能通过编译，证明在逻辑上就是正确的，但这仍然需要外部数学家实际运行和检查。\n\n陶哲轩此前评价 Buckmaster/Alpöge 的工作时说，这些方法“没有原理上的障碍”推进到 Navier-Stokes，但他同时也说，他“不会对有人靠堆大量算力和 AI 来暴力推进这一步感到意外”，只是这种做法并不特别吸引我。在 OpenAI 宣布上万个 Agent 88 小时拿下成果后，回过头来读陶哲轩的话别有深意。\n\nClay 数学研究所的规则也值得提醒：即使证明成立，还必须在公认的数学期刊正式发表，并在至少两年的社区审查后才有可能获得千禧年奖。OpenAI 在博客中也表示不打算领取该奖金。\n\nOpenAI 博客：https://t.co/kzle78SIyl",
+      "created_at": "Tue Sep 08 17:54:23 +0000 2026",
+      "likes": 148,
+      "views": 51875,
+      "url": "https://x.com/dotey/status/2097383059679060353",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRtmxa2X0AAWB9C.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRtmxa2X0AAWB9C.jpg"
+      ],
+      "quoted_tweet": {
+        "id": "2097223647068836166",
+        "author": "dotey",
+        "name": "宝玉",
+        "text": "纽约大学数学家 Tristan Buckmaster 今天发表公开声明，披露了两件事：一是他和合作者借助大语言模型在一个月内攻破了流体力学领域多个重要难题，二是他指控 OpenAI 在得知他的进展后试图抢先发布成果，并要求将他的合作者从署名中移除，理由是对方在 Anthropic 工作。\n\n这份声明目前正在数学界和 AI 圈快速传播，涉及学术伦理、AI 能力边界和公司竞争等多个层面。以下是这件事的来龙去脉。\n\n【数学成果：证明了什么】\n\nBuckmaster 与合作者 Levent Alpöge 公开了三项证明：不可压缩多孔介质方程、Boussinesq 方程以及三维不可压缩 Euler 方程的有限时间爆破（blowup），均使用了光滑外力（smooth forcing）。他们还认为自己得到了 Navier-Stokes 方程的爆破结果，但该部分的 Lean 形式化验证尚未完成，论文暂不公开。\n\n翻译成大白话：这些方程描述的是水、空气等流体如何运动。数学家想知道的是，在光滑的初始条件下，流体的速度会不会在有限时间内变成无穷大，也就是\"爆破\"。这个问题的终极版本就是 Navier-Stokes 存在性与光滑性问题，Clay 数学研究所在 2000 年把它列为七大千禧年难题之一，悬赏一百万美元。\n\n需要说清楚的是，Buckmaster 和 Alpöge 并没有直接解决那个百万美元的问题。他们证明的是一个相关但限制更多的版本：在加入光滑外力的条件下，方程的解可以爆破。这对应 Clay 问题中 Fefferman 表述的 c 和 d 选项。但这条路径是通向无外力 Euler 方程的重要一步，而无外力版本才是最终目标。\n\n这项工作并非凭空而来。基础思路来自西班牙数学家 Diego Córdoba 和 Luis Martínez-Zoroa，他们多年来一直在研究带外力的爆破构造，已经在\"粗糙外力\"条件下取得了成果。Buckmaster 和 Alpöge 所做的是在此基础上推进到光滑外力和 Euler 方程。Buckmaster 在声明中直言：鉴于这一系列工作，他认为 Martínez-Zoroa 配得上 Fields 奖。\n\n关键结果在 8 月 15 日获得，8 月 22 日通过 Lean（一种形式化证明验证系统）的机器检查。Lean 验证意味着证明没有逻辑漏洞，这不是\"信我就行\"，而是有机器背书。\n\n陶哲轩在成果公开后不久就在 Mastodon 上发表评价，称这是\"a remarkable achievement\"（了不起的成就）。他确认了 Lean 形式化验证的存在，也指出论文确实包含大量 AI 生成的内容，但作者过去几周一直在努力将其改写为可接受的形式。他提到一个关键细节：作者被迫提前发布，原因是\"外部事件\"，也就是声明中记录的与 OpenAI 的冲突。\n\n在技术层面，陶哲轩对这条研究路径给出了乐观判断：他认为没有什么原理上的障碍阻止这些方法一路推进到 Navier-Stokes，甚至有\"不可忽视的可能性\"完全消除外力项。如果后者成立，那就是 Clay 千禧年问题的完整解答。但陶哲轩随即加了一句耐人寻味的话：他不会对有人靠堆算力和 AI 来暴力推进这一步感到意外，但这种做法\"并不特别吸引我\"——他更感兴趣的是消化证明方法，提取其中的新数学洞见。\n\n这基本上可以理解为：数学界最具权威的声音认可了成果的实质性，同时含蓄地为\"人类+AI 合作\"中什么才真正有价值画了一条线。\n\n【AI 扮演了什么角色】\n\nBuckmaster 和 Alpöge 在整个过程中大量使用了大语言模型，包括 Anthropic 的 Claude、OpenAI 的 Codex 以及 GPT-5.6 Sol，最近还用了 Astra（后者仅用于论文写作和论证审计）。\n\n过去一年进展缓慢，两人一直在消化文献、逐步升级前置结果。真正的突破发生在大约一个月前。Buckmaster 坦言，Alpöge 发给他的第一个 LLM 生成的证明是他\"读过的最恐怖的东西\"。他们花了两周多时间去理解这个证明，并试图将其改写成人类可读的形式。他承认 Euler 方程的论文写作质量很差，甚至用了\"AI slop\"（AI 生成的垃圾内容）来形容。\n\nBuckmaster 把这一刻比作国际象棋领域的\"深蓝对卡斯帕罗夫\"时刻：一个数学家配合 LLM，一个月内完成了原本可能需要数年的工作。他认为这对数学界如何培养学生、分配学术功劳、审稿以及决定什么值得一个人投入毕生精力，都有深远影响。\n\n【与 OpenAI 的冲突】\n\n事情从 9 月 3 日开始变味。当时网上已经有传言称\"Anthropic 解决了一个重大数学难题\"，Alpöge 也收到线报说他们的进展信息已传到 OpenAI 内部。Buckmaster 主动写信给 OpenAI 的一位知名数学家，说明情况并强调这是个人合作，与任何机构无关。\n\n对方当天回复，表示如果 Buckmaster 愿意透露细节会很有帮助，并提出可以提供算力支持。Buckmaster 提议下周通话，但 OpenAI 方面连续催促提前见面。9 月 6 日（周日），OpenAI 的 Sébastien Bubeck 加入，三人当天下午通了两次电话。\n\n通话中，Buckmaster 被告知 OpenAI 的一个内部模型已经生成了一份大约 100 页的受迫 Navier-Stokes 方程有限时间爆破证明。Buckmaster 注意到，OpenAI 的技术路线与他和 Alpöge 秘密采用的路线高度重合，而这条路线几乎没有其他人在走。\n\n声明中描述的通话过程暴露了几个问题。OpenAI 最初声称\"极少人工参与\"，但随着对话推进（Bubeck 不断收到同事在内部聊天中发来的修正和补充），事实逐渐浮出水面：这是一整个团队在操作，投入了大量算力，先从较容易的问题（包括 Euler）入手，甚至展示给 Buckmaster 的提示词本身也是用 Codex 生成的。\n\nBuckmaster 追问 OpenAI 是何时开始处理这个问题的。这个问题没有被直接回答，但最终双方确认：第一个提示词是在过去几天内发出的，也就是在 Buckmaster 的工作信息传到 OpenAI 之后。\n\nBuckmaster 还问了一个关键问题：OpenAI 的模型是否被训练过他们在 Codex 中的会话数据——他和 Alpöge 整个项目期间一直把草稿放在 Codex 里。他被告知模型不会查看用户数据。他再次追问是否用于训练，没有得到回答。\n\n随后 OpenAI 提出了两个方案：一是 Buckmaster 先发 Euler 结果，OpenAI 第二天发 Navier-Stokes 结果；二是 Buckmaster 独自撰写一篇论文发布 Navier-Stokes 成果，注明系 OpenAI 内部模型所得。Bubeck 两次明确要求将 Alpöge 从署名中移除，说如果不是因为 Alpöge 在 Anthropic 工作，一切会简单得多，还说他在 Anthropic 工作\"太烦人了\"。OpenAI 还表示，如果他们在 Buckmaster 之后发表，会公开说 Buckmaster 和 Alpöge 配得上 Clay 奖金，称他们是\"最接近这个问题的人类\"。\n\nBuckmaster 拒绝了两个方案，并表示如果 OpenAI 按计划发布，他会公开所有经过。对方回应：\"你为什么要毁掉自己的职业生涯？\" Buckmaster 说自己是学术界的人，反问为什么公开会毁掉职业。回答是：\"如果你不希望我友善，那我也可以不友善。\"\n\n之后 Bubeck 给 Alpöge 发短信，提议两人单独谈，并说\"我不确定 Tristan 现在是否完全理性\"。Alpöge 拒绝并表示应与 Buckmaster 沟通。\n\n【Buckmaster 自己的界定】\n\nBuckmaster 在声明末尾明确划了线：他没有看过 OpenAI 的证明，不知道 OpenAI 的模型做了什么或怎么做的，不知道他们的数据是否被使用，也没有指控任何人任何事。他说自己只是在陈述被告知了什么、何时被告知、以及被提议了什么。他这样做是因为\"另一种选择是让一连串公告讲述他知道并非事实的故事\"。\n\n他说，如果 OpenAI 的模型确实弥合了通向 Navier-Stokes 的差距，那是一件了不起的事，应该被大声说出来，但要带上完整的历史。\n\nPDF 地址：https://t.co/jS6A5ZZarS",
+        "created_at": "Tue Sep 08 07:20:56 +0000 2026",
+        "url": "https://x.com/dotey/status/2097223647068836166",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HRrVpROWAAAfXWM.jpg",
+          "https://pbs.twimg.com/media/HRrVx5pXkAA8yrn.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HRrVpROWAAAfXWM.jpg",
+          "https://pbs.twimg.com/media/HRrVx5pXkAA8yrn.jpg"
+        ]
+      },
+      "score": 61.484,
+      "title": "OpenAI 称内部模型攻克 Navier-Stokes 并公开 Lean 证明",
+      "summary": "宝玉对照 OpenAI 与 Buckmaster 两边叙事：OpenAI 称上万 Agent、约 88 小时拿到三维 Navier-Stokes 奇点解析证明，并意外解决无外力 Euler，均配 Lean 形式化；同时梳理优先权、数据访问与学术署名争议，以及社区仍待独立核验、期刊发表与两年审查才能谈千禧年奖。",
+      "recommend_reason": "把「AI 证明千禧年难题」热搜拆成数学主张、算力方法与伦理争议三层，信息密度很高。",
+      "tags": [
+        "OpenAI",
+        "Navier-Stokes",
+        "Lean",
+        "数学"
+      ],
+      "rank": 17
+    },
+    {
+      "id": "2097367072158458168",
+      "author": "jinchenma_ai",
+      "text": "升级到 GPT-6 Astra 的朋友需要注意下，\n\n可能以前你的提示词已经不适用了。\n\nAstra 更加智能，有些没必要的限制加了反而束缚模型能力。\n\n官方推荐的提示词你值得拥有",
+      "created_at": "Tue Sep 08 16:50:51 +0000 2026",
+      "likes": 151,
+      "views": 78985,
+      "url": "https://x.com/jinchenma_ai/status/2097367072158458168",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "quoted_tweet": {
+        "id": "2097294635785916817",
+        "author": "ai_suxiaole",
+        "name": "苏乐",
+        "text": "https://t.co/PshPi7Q1YY",
+        "created_at": "Tue Sep 08 12:03:01 +0000 2026",
+        "url": "https://x.com/ai_suxiaole/status/2097294635785916817",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 58.732,
+      "summary": "升级到 GPT-6 Astra 的朋友需要注意下，\n\n可能以前你的提示词已经不适用了。\n\nAstra 更加智能，有些没必要的限制加了反而束缚模型能力。\n\n官方推荐的提示词你值得拥有",
+      "recommend_reason": "提醒强模型时代「过约束提示词」会反噬，换 Astra 后应先减负再套旧模板。",
+      "tags": [
+        "GPT-6",
+        "Astra",
+        "提示词"
+      ],
+      "rank": 18
+    },
+    {
+      "id": "2097360970247282843",
+      "author": "vista8",
+      "text": "目前 GUI 做的最好的Coding Agent：\n\n国外是 Codex，国内是 ZCode\n\n能看出来都花了不少心思打磨细节。\n\n正在开发一个通用的 Obsidian AI助手插件有感。",
+      "created_at": "Tue Sep 08 16:26:37 +0000 2026",
+      "likes": 47,
+      "views": 17944,
+      "url": "https://x.com/vista8/status/2097360970247282843",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HRtSrmpbYAAlGc6.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HRtSrmpbYAAlGc6.jpg"
+      ],
+      "quoted_tweet": null,
+      "score": 61.535,
+      "summary": "目前 GUI 做的最好的Coding Agent：\n\n国外是 Codex，国内是 ZCode\n\n能看出来都花了不少心思打磨细节。\n\n正在开发一个通用的 Obsidian AI助手插件有感。",
+      "recommend_reason": "一线开发者从做 Obsidian 插件的体感，点名 Codex/ZCode 的 GUI 打磨差距。",
+      "tags": [
+        "Codex",
+        "ZCode",
+        "Coding Agent",
+        "GUI"
+      ],
+      "rank": 19
+    }
+  ],
+  "generated_at": "2026-09-10T16:49:10Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "midnight",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 19,
+    "last_batch_added": 7,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 2,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
