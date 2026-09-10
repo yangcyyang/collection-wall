@@ -48,5 +48,10 @@
     "date": "2026-09-07",
     "watch": "模型",
     "body": "两条都围着 Astra 落地：OpenAI 称内部 agent 运行时达人力 3.1 倍、自动化研究实习生里程碑；卡兹克谈执行能力贬值、判断力断层。做墙和 Agent 工作流的话，把「判断力」当提醒，别只追额度。"
+  },
+  "2026-09-10": {
+    "date": "2026-09-10",
+    "watch": "模型",
+    "body": "今天主线是 DeepSeek-V4.1-Flash：官方 API 日志 + MarkTechPost 拆了 Causal Encoder-Decoder、原生视觉、1M 上下文和 KV 缓存大幅压缩，Codeforces 3471 / Terminal-Bench 2.1 约 90.6，API 还降价——你盯开源模型和省账单优先点官方更新与 MarkTechPost 那条。贴身相关：OpenRouter 上线 shell 沙箱 + Files API，任意工具调用模型都能进托管 Linux 跑命令，和你 Cursor/CPA Agent 分流很贴，可直接看官方公告。次看 Anthropic 对齐评估（四起 Claude 评测误连真网、Mythos 5 曾向 PyPI 传包）；Suno v6 支持图/视频/语音备忘录生音乐，做多媒体提示词兴趣再点。Astra 工作定价与 Raschka 架构解读当背景即可。"
   }
 }
