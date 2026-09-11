@@ -2,25 +2,25 @@
   "source": "xiaohongshu-ai-radar",
   "title": "小红书 AI 用户雷达",
   "date": "2026-09-11",
-  "updated_at": "2026-09-11T06:35:00+08:00",
-  "count": 31,
+  "updated_at": "2026-09-11T08:48:00+08:00",
+  "count": 34,
   "summary": {
     "today_judgement": [
-      "【事实】早报 OpenCLI pfzpdshj 登录正常（瑶姐的潮玩店，followers=647）；feed≈210条/约7页，强AI相关极少；23关键词search全空，ask跳转captcha验证码；早间comments对新URL空，复用同日凌晨3条成功评论线程。",
-      "【事实】今日可见最硬信号仍是「AI出图省设计费→矢量外包承压」：工序=出图→描摹→手修；握姿反了等常理错误强化质检需求。",
-      "【推断】产品向（Cursor/Claude/Skill/即梦等）缺失应视为搜索风控缺口，不能解读为热度下降。",
-      "【机会假设】内容/产品先打「成本迁移账 + 可生产矢量质检清单 + 代修」；等验证码解除后补全量关键词。"
+      "【事实】08:37例行刷新：OpenCLI pfzpdshj 登录正常（瑶姐的潮玩店，followers=647）；再采 feed 5页非空/去重63，首页标题几乎无垂直AI；Claude search 探针仍空数组→search_blocked；AM 新 comments 全空，复用同日凌晨成功线程。",
+      "【事实】今日仍能站得住的硬信号是「AI出图省设计费→矢量外包承压」：评论默认工序=扁平化→「滚滚长江」描摹→手修；握姿反了等常理错误强化质检；另有「很多会用的并不具备看细节的能力」。",
+      "【推断】Cursor/Claude/Skill/即梦等产品向今日仍「看不见」=采集风控缺口，不能解读为热度下降；首页AI≈0也不等于全站降温。",
+      "【机会假设】内容/商业先打「成本迁移账 + 可生产矢量质检 + 代修」；人工过验证码后立刻补全量关键词再加厚产品向。"
     ],
     "top_signals": [
       "AI生图把成本压到矢量外包：「廉价牛马」原话高共鸣",
-      "半自动流水线默认闭环：出图→Illustrator描摹→手修细节",
-      "搜索验证码导致产品向信号全盲——优先修会话/验证码再谈趋势升降"
+      "半自动流水线默认闭环：出图→Illustrator描摹→手修；看细节能力稀缺",
+      "08:37刷新仍确认搜索/评论会话风控——产品向信号全盲，勿误判为降温"
     ]
   },
   "awareness": {
     "dominant_level": "L2–L3",
     "fastest_growing": "L3 半自动流水线/质检讨论（样本内）",
-    "note": "【事实】可见评论已谈生产工序与常理错误，不只是「帮我画」。【事实】未见Skill/Agent安装行为——受search风控限制。【推断】主体仍在工具使用与交付质检，未进入封装层。【机会假设】用质检清单与代修服务比讲Agent架构更贴今日样本。"
+    "note": "【事实】可见评论已谈生产工序、常理错误与「看细节」能力，不只是「帮我画」。【事实】AM search/comments 仍空，未见当日 Skill/Agent 安装行为证据。【推断】主体仍在工具使用与交付质检。【机会假设】质检清单与代修比讲 Agent 架构更贴今日可验证样本。"
   },
   "sections": {
     "hot": [
@@ -47,7 +47,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-11T06:35:00+08:00"
+        "last_updated": "2026-09-11T08:48:00+08:00"
       },
       {
         "id": "H2",
@@ -71,7 +71,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-11T06:35:00+08:00"
+        "last_updated": "2026-09-11T08:48:00+08:00"
       },
       {
         "id": "H3",
@@ -95,7 +95,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-11T06:35:00+08:00"
+        "last_updated": "2026-09-11T08:48:00+08:00"
       },
       {
         "id": "H4",
@@ -118,7 +118,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-11T06:35:00+08:00"
+        "last_updated": "2026-09-11T08:48:00+08:00"
       },
       {
         "id": "H5",
@@ -141,7 +141,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-11T06:35:00+08:00"
+        "last_updated": "2026-09-11T08:48:00+08:00"
       }
     ],
     "trends": [
@@ -167,7 +167,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-11T06:35:00+08:00"
+        "last_updated": "2026-09-11T08:48:00+08:00"
       },
       {
         "id": "T2",
@@ -190,12 +190,12 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-11T06:35:00+08:00"
+        "last_updated": "2026-09-11T08:48:00+08:00"
       },
       {
         "id": "T3",
         "title": "产品向AI话题（Cursor/Claude/Skill/即梦）— 数据缺口",
-        "summary": "23词search全空+验证码，无法观察产品热度升降；明确标记为采集缺口，不作降温。",
+        "summary": "08:37 再探针 Claude 仍空；产品向（Cursor/Claude/Skill/即梦）无法观察升降；明确标记采集缺口，不作降温。",
         "why": "空搜≠降温。",
         "audience": "",
         "direction": "flat",
@@ -207,7 +207,7 @@
         "signal_strength": "weak",
         "evidence": [],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-11T06:35:00+08:00"
+        "last_updated": "2026-09-11T08:48:00+08:00"
       }
     ],
     "needs": [
@@ -232,7 +232,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-11T06:35:00+08:00"
+        "last_updated": "2026-09-11T08:48:00+08:00"
       },
       {
         "id": "N2",
@@ -254,7 +254,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-11T06:35:00+08:00"
+        "last_updated": "2026-09-11T08:48:00+08:00"
       },
       {
         "id": "N3",
@@ -277,7 +277,30 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-11T06:35:00+08:00"
+        "last_updated": "2026-09-11T08:48:00+08:00"
+      },
+      {
+        "id": "N4",
+        "title": "可交付细节审美/质检能力",
+        "summary": "用户承认工具能转矢量，但「会用≠会看细节」；需要能挑错的人眼或工具。",
+        "why": "",
+        "audience": "外包买家/美工",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "审美",
+          "质检"
+        ],
+        "signal_strength": "mid",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量，我就是那",
+            "note": "看细节能力评论"
+          }
+        ],
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T08:48:00+08:00"
       }
     ],
     "pains": [
@@ -302,7 +325,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-11T06:35:00+08:00"
+        "last_updated": "2026-09-11T08:48:00+08:00"
       },
       {
         "id": "P2",
@@ -325,7 +348,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-11T06:35:00+08:00"
+        "last_updated": "2026-09-11T08:48:00+08:00"
       },
       {
         "id": "P3",
@@ -347,7 +370,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-11T06:35:00+08:00"
+        "last_updated": "2026-09-11T08:48:00+08:00"
       },
       {
         "id": "P4",
@@ -370,7 +393,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-11T06:35:00+08:00"
+        "last_updated": "2026-09-11T08:48:00+08:00"
       }
     ],
     "scenarios": [
@@ -395,7 +418,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-11T06:35:00+08:00"
+        "last_updated": "2026-09-11T08:48:00+08:00"
       }
     ],
     "products": [
@@ -419,7 +442,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-11T06:35:00+08:00"
+        "last_updated": "2026-09-11T08:48:00+08:00"
       },
       {
         "id": "PR2",
@@ -441,7 +464,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-11T06:35:00+08:00"
+        "last_updated": "2026-09-11T08:48:00+08:00"
       },
       {
         "id": "PR3",
@@ -463,7 +486,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-11T06:35:00+08:00"
+        "last_updated": "2026-09-11T08:48:00+08:00"
       }
     ],
     "content_opps": [
@@ -488,7 +511,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-11T06:35:00+08:00"
+        "last_updated": "2026-09-11T08:48:00+08:00"
       },
       {
         "id": "C2",
@@ -511,7 +534,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-11T06:35:00+08:00"
+        "last_updated": "2026-09-11T08:48:00+08:00"
       },
       {
         "id": "C3",
@@ -534,7 +557,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-11T06:35:00+08:00"
+        "last_updated": "2026-09-11T08:48:00+08:00"
       }
     ],
     "product_opps": [
@@ -559,7 +582,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-11T06:35:00+08:00"
+        "last_updated": "2026-09-11T08:48:00+08:00"
       },
       {
         "id": "PO2",
@@ -582,7 +605,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-11T06:35:00+08:00"
+        "last_updated": "2026-09-11T08:48:00+08:00"
       }
     ],
     "biz_opps": [
@@ -607,7 +630,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-11T06:35:00+08:00"
+        "last_updated": "2026-09-11T08:48:00+08:00"
       },
       {
         "id": "B2",
@@ -635,7 +658,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-11T06:35:00+08:00"
+        "last_updated": "2026-09-11T08:48:00+08:00"
       }
     ],
     "quotes": [
@@ -659,7 +682,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-11T06:35:00+08:00"
+        "last_updated": "2026-09-11T08:48:00+08:00"
       },
       {
         "id": "Q2",
@@ -681,7 +704,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-11T06:35:00+08:00"
+        "last_updated": "2026-09-11T08:48:00+08:00"
       },
       {
         "id": "Q3",
@@ -704,7 +727,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-11T06:35:00+08:00"
+        "last_updated": "2026-09-11T08:48:00+08:00"
       },
       {
         "id": "Q4",
@@ -727,7 +750,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-11T06:35:00+08:00"
+        "last_updated": "2026-09-11T08:48:00+08:00"
       },
       {
         "id": "Q5",
@@ -749,7 +772,53 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-11T06:35:00+08:00"
+        "last_updated": "2026-09-11T08:48:00+08:00"
+      },
+      {
+        "id": "Q6",
+        "title": "看细节能力稀缺",
+        "summary": "「实际上转矢量也可以用ai，但做完以后要手工修下细节，不过很多会用的并不具备看细节得能力」",
+        "why": "",
+        "audience": "",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "原话",
+          "手修"
+        ],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量，我就是那",
+            "note": "评论：烟雨江南"
+          }
+        ],
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T08:48:00+08:00"
+      },
+      {
+        "id": "Q7",
+        "title": "终究难逃要描",
+        "summary": "「终究是难逃要描的命运。」（作者回应「AI直接生成矢量再 illustrator 描边」）",
+        "why": "",
+        "audience": "",
+        "direction": "",
+        "price": "",
+        "tags": [
+          "原话",
+          "描摹"
+        ],
+        "signal_strength": "strong",
+        "evidence": [
+          {
+            "url": "https://www.xiaohongshu.com/explore/6a7d4aa80000000025004d18?xsec_token=ABGx9lnl2PMr-tDqthmds9fDN2SvR-52J2OgJeZAcxotY%3D&xsec_source=",
+            "title": "现在很多人都喜欢用AI生成图，省了设计费，然后找我们这些廉价牛马画矢量，我就是那",
+            "note": "作者回复"
+          }
+        ],
+        "first_detected": "2026-09-11",
+        "last_updated": "2026-09-11T08:48:00+08:00"
       }
     ]
   },
@@ -763,62 +832,37 @@
         "followers": 647,
         "profile": "pfzpdshj"
       },
-      "keywords_planned": 23,
-      "keywords_nonempty": 0,
-      "keywords_failed": [
-        "Skill",
-        "Claude",
-        "Claude-Code",
-        "Cursor",
-        "ChatGPT",
-        "DeepSeek",
-        "Gemini",
-        "Grok",
-        "Kimi",
-        "doubao",
-        "jimeng",
-        "keling",
-        "MCP",
-        "Prompt",
-        "Vibe-Coding",
-        "AI-Agent",
-        "AI-biancheng",
-        "AI-shengtu",
-        "AI-shipin",
-        "AI-gongzuoliu",
-        "AI-PPT",
-        "AI-zimeiti",
-        "AI-fuye"
-      ],
-      "notes_sampled": 210,
-      "unique_notes": 210,
-      "feed_pages": 7,
-      "ai_related_in_feed": 1,
-      "comments_threads": 3,
-      "comments_failed": [
-        "6a7e6b13000000002202ce00"
-      ],
-      "comments_success_ids": [
-        "6a7d192d000000003300f242",
-        "6a7d28e500000000050223bf",
-        "6a7d4aa80000000025004d18"
-      ],
-      "started_at": "2026-09-11T06:07:05+0800",
-      "ended_at": "2026-09-11T06:30:53+0800",
+      "am_0607": {
+        "feed_pages": 7,
+        "notes_sampled": 210,
+        "keywords_nonempty": 0,
+        "comments_reused": 3
+      },
+      "am_0837": {
+        "started": "2026-09-11T08:37:00+0800",
+        "ended": "2026-09-11T08:46:17+0800",
+        "feed_pages_nonempty": 5,
+        "feed_unique": 63,
+        "am_feed_ai_title_count": 0,
+        "search_blocked": true,
+        "search_probe": "Claude limit5 → []",
+        "comments_am_all_empty": true,
+        "note_detail": "phone_login_wall",
+        "comments_reused": 10
+      },
       "timezone": "Asia/Shanghai",
       "caveats": [
-        "早报全量：whoami logged_in=true（瑶姐的潮玩店 followers=647）",
-        "feed 拉取 6 页可用；首页几乎无垂直 AI，强相关约 2–3 条",
-        "23 关键词 search 全部返回空数组；ask 明确跳转 website-login/captcha（verifyType=124）→ 判定搜索风控/验证码，非「无热度」",
-        "早间 comments 对新 URL 均返回空；user/liked 报 AUTH_REQUIRED（部分页面会话不足）",
-        "评论证据复用同日凌晨成功线程：AI生图矢量帖、剪映帖、行业帖旁支「ai摧毁知识付费」",
-        "CPA http://127.0.0.1:8317 不可用 → 本地证据合成",
-        "本版为风控降级可看版：count 显著低于完整日；产品向（Cursor/Claude/Skill/即梦）信号缺失不作降温判断",
-        "单日首页推荐≠全站热榜；search 恢复后需补采"
+        "08:37例行：whoami正常；feed再采5页非空/63去重，首页AI标题≈0",
+        "search_blocked：Claude探针空数组，未硬刷其余关键词",
+        "AM comments全空；note详情返回手机号登录壳；复用凌晨/06:07评论线程",
+        "主硬证据仍为矢量外包帖评论；creator_picks仅作待验证候选，未当今日热度",
+        "风控降级可看版：count显著低于完整日；空搜≠降温",
+        "验证码解除后需补全量search+comments再覆盖本降级稿"
       ]
     },
     "synthesis": "local-evidence",
     "degraded": true,
-    "degraded_reason": "search captcha + morning comments empty; feed-sparse AI"
+    "degraded_reason": "search blocked + AM comments empty + feed-sparse AI; 08:37 refresh confirmed",
+    "routine": "morning-refresh-am837"
   }
 }
