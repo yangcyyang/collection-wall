@@ -9,6 +9,253 @@
   },
   "items": [
     {
+      "id": "2098446725942047075",
+      "author": "marclou",
+      "bio": "",
+      "text": "I've discontinued the CodeFast & ShipFast affiliate programs.\n\nOver the last few months, their revenue has dropped significantly, mostly due to AI. The conversion rate is lower in 2026, and affiliates have made ~$0. So it's not worth it.\n\nIt's fun how AI accelerates everything.\n\nTo stay in business, you have to be ready to move super fast. Somehow it's nice because you can't take anything for granted.",
+      "created_at": "Fri Sep 11 16:21:01 +0000 2026",
+      "likes": 86,
+      "views": "7826",
+      "url": "https://x.com/i/status/2098446725942047075",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HR8uLV8a8AAZHW4.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HR8uLV8a8AAZHW4.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 50.462,
+      "title": "CodeFast/ShipFast 联盟计划因 AI 转化崩盘而停掉",
+      "summary": "Marc Lou 宣布停掉 CodeFast 与 ShipFast 的联盟计划：近几个月收入显著下滑，主因是 AI 让 2026 年转化率更低，联盟几乎赚不到钱，因此不值得继续；他感慨 AI 加速一切，创业必须更快挪动。",
+      "recommend_reason": "一线独立开发者用关停联盟计划给出可核对的商业副作用样本，比空谈 AI 冲击更硬。",
+      "tags": [
+        "独立开发",
+        "联盟营销",
+        "AI冲击",
+        "ShipFast"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2098441539106275392",
+      "author": "YuLin807",
+      "bio": "",
+      "text": "deepseek v4flash + pi \n\n这套组合应该没有比它更快的Agent\n\n正好满足deep seek 对 Agent 的定义\n\nLLM + Harness = Agent",
+      "created_at": "Fri Sep 11 16:00:24 +0000 2026",
+      "likes": 1,
+      "views": "229",
+      "url": "https://x.com/i/status/2098441539106275392",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 50.321,
+      "summary": "deepseek v4flash + pi\n\n这套组合应该没有比它更快的Agent\n\n正好满足deep seek 对 Agent 的定义\n\nLLM + Harness = Agent",
+      "recommend_reason": "用 DeepSeek V4 Flash + Pi 落地「LLM+Harness=Agent」的极速组合主张，便于跟进实测。",
+      "tags": [
+        "DeepSeek",
+        "Agent",
+        "Pi",
+        "工作流"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2098440104419512705",
+      "author": "xiaoxiaodong01",
+      "bio": "",
+      "text": "GPT2 x 中式 x 水墨 x 美学提示词 x VOL.164\n\ngithub 中包含skills+prompt:\nhttps://t.co/BM4YJsWF8n\n\n建筑有了线稿的理性。\n山水保留了水墨的呼吸。\n\n细线像建筑师的草图。\n淡墨像山水里的云气，素质优秀的一组提示词。 https://t.co/vHnMBSNlOZ",
+      "created_at": "Fri Sep 11 15:54:42 +0000 2026",
+      "likes": 7,
+      "views": "754",
+      "url": "https://x.com/i/status/2098440104419512705",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HR8nUATbEAAp0cK.jpg",
+        "https://pbs.twimg.com/media/HR8nWdsaIAAaVaX.jpg",
+        "https://pbs.twimg.com/media/HR8nZEvagAAm0Wg.jpg",
+        "https://pbs.twimg.com/media/HR8nbpma0AAZ2Xw.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HR8nUATbEAAp0cK.jpg",
+        "https://pbs.twimg.com/media/HR8nWdsaIAAaVaX.jpg",
+        "https://pbs.twimg.com/media/HR8nZEvagAAm0Wg.jpg",
+        "https://pbs.twimg.com/media/HR8nbpma0AAZ2Xw.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2098431916349501795",
+        "author": "xiaoxiaodong01",
+        "name": "小小东",
+        "text": "GPT2 x 转绘 x 3D x 模型 x 美学提示词 x VOL.166\n\n也许有一点，我们真能逛遍世界没进吧\n把美丽的景色，如同模型一样收集起来吧\n\n这组提示词，优化了颜色配色，舒服。\n\nskills + prompt ⬇️\nhttps://t.co/z2uFZjteXh https://t.co/7HLFABtokB",
+        "created_at": "Fri Sep 11 15:22:10 +0000 2026",
+        "url": "https://x.com/xiaoxiaodong01/status/2098431916349501795",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HR8gYZHaMAAaAkK.jpg",
+          "https://pbs.twimg.com/media/HR8gYY3awAE0uMW.jpg",
+          "https://pbs.twimg.com/media/HR8gYY2aYAE05gH.jpg",
+          "https://pbs.twimg.com/media/HR8gYY3aIAABeTI.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HR8gYZHaMAAaAkK.jpg",
+          "https://pbs.twimg.com/media/HR8gYY3awAE0uMW.jpg",
+          "https://pbs.twimg.com/media/HR8gYY2aYAE05gH.jpg",
+          "https://pbs.twimg.com/media/HR8gYY3aIAABeTI.jpg"
+        ]
+      },
+      "score": 60.714,
+      "summary": "GPT2 x 中式 x 水墨 x 美学提示词 x VOL.164\n\ngithub 中包含skills+prompt:\nhttps://t.co/BM4YJsWF8n\n\n建筑有了线稿的理性。\n山水保留了水墨的呼吸。\n\n细线像建筑师的草图。\n淡墨像山水里的云气，素质优秀的一组提示词。",
+      "recommend_reason": "把建筑线稿理性与水墨呼吸感压进同一套可复用 prompt/skill，适合做中式场景风格库。",
+      "tags": [
+        "AI绘图",
+        "提示词",
+        "水墨",
+        "中式美学"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2098431916349501795",
+      "author": "xiaoxiaodong01",
+      "bio": "",
+      "text": "GPT2 x 转绘 x 3D x 模型 x 美学提示词 x VOL.166\n\n也许有一点，我们真能逛遍世界没进吧\n把美丽的景色，如同模型一样收集起来吧\n\n这组提示词，优化了颜色配色，舒服。\n\nskills + prompt ⬇️\nhttps://t.co/z2uFZjteXh https://t.co/7HLFABtokB",
+      "created_at": "Fri Sep 11 15:22:10 +0000 2026",
+      "likes": 11,
+      "views": "1891",
+      "url": "https://x.com/i/status/2098431916349501795",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HR8gYZHaMAAaAkK.jpg",
+        "https://pbs.twimg.com/media/HR8gYY3awAE0uMW.jpg",
+        "https://pbs.twimg.com/media/HR8gYY2aYAE05gH.jpg",
+        "https://pbs.twimg.com/media/HR8gYY3aIAABeTI.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HR8gYZHaMAAaAkK.jpg",
+        "https://pbs.twimg.com/media/HR8gYY3awAE0uMW.jpg",
+        "https://pbs.twimg.com/media/HR8gYY2aYAE05gH.jpg",
+        "https://pbs.twimg.com/media/HR8gYY3aIAABeTI.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2098411958332792956",
+        "author": "xiaoxiaodong01",
+        "name": "小小东",
+        "text": "GPT2 x 基座 x 治愈系 x 美学提示词 x VOL.152\n\n提示词及skills 项目地址：\nhttps://t.co/KwOH5YpzVN\n\n我觉得这套提示词，逻辑很实用。\n\n原图哪怕构图乱、背景杂、主体偏小\n也能重新被整理出来。\n重点更集中、关系更清楚。 https://t.co/he7HDpd1sU",
+        "created_at": "Fri Sep 11 14:02:52 +0000 2026",
+        "url": "https://x.com/xiaoxiaodong01/status/2098411958332792956",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HR8Nz7Fb0AAkvm3.jpg",
+          "https://pbs.twimg.com/media/HR8N27vbcAAw14G.jpg",
+          "https://pbs.twimg.com/media/HR8N48cbkAAMpUq.jpg",
+          "https://pbs.twimg.com/media/HR8N7aEbEAAVPti.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HR8Nz7Fb0AAkvm3.jpg",
+          "https://pbs.twimg.com/media/HR8N27vbcAAw14G.jpg",
+          "https://pbs.twimg.com/media/HR8N48cbkAAMpUq.jpg",
+          "https://pbs.twimg.com/media/HR8N7aEbEAAVPti.jpg"
+        ]
+      },
+      "score": 60.196,
+      "summary": "GPT2 x 转绘 x 3D x 模型 x 美学提示词 x VOL.166\n\n也许有一点，我们真能逛遍世界没进吧\n把美丽的景色，如同模型一样收集起来吧\n\n这组提示词，优化了颜色配色，舒服。\n\nskills + prompt ⬇️\nhttps://t.co/z2uFZjteXh",
+      "recommend_reason": "风景转绘成可收集的 3D 模型感样张，并顺手优化配色，适合做旅行/场景素材管线。",
+      "tags": [
+        "AI绘图",
+        "提示词",
+        "3D",
+        "转绘"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2098427199175209264",
+      "author": "python_xxt",
+      "bio": "",
+      "text": "Renew  \n我是一个 “职业根基被连根拔起”的亲历者\n\n我曾投入巨大心力，深耕一个赛道。\n然而时代之手轻轻一拨，整条赛道的底层逻辑瞬间瓦解。\n这种变化并非简单的裁员、转型或调整，而是整个坐标系的崩塌。\n就像花了数年功夫在沙滩上筑起一座精致城堡，潮汐却在一夜之间重新划定了海岸线。\n\n那段日子，我也曾迷茫、挣扎和emo。\n但很快我意识到，VUCA时代的本质，就是彻底与稳定性绝缘。\n\n每个人都匍匐在自己编织的意义之网上 —— delicately\n而这个时代，就是不断撕裂那张网。\n\n我尝试建立新的生存逻辑：\n\n1.  做难而正确的事。\n2. 做有长期需求价值的事。\n3. 做更底层、更根本的事。\n\n然而，就在我以为找到新的支点时，2022年GPT横空出世。\n体验GPT后，我又emo了两三个星期。\n因为我清晰地意识到，我辛苦重建的意义之网，在更高维智能的降维打击面前，显得毫无意义。\n\n但这一次，我接受得更快了：\n智力并非人类独占，\n人类也未必需要成为意义的中心。\n\n于是，我放下了一些执念：\n\n1. 放下必须处在意义之网中央的幻觉；\n2. 放下依靠线性积累获得确定性的假设；\n3. 放下对稳定与确定性的执着。\n\n放下之后，反而获得了更冷静的清醒：\n\n我们这一代人，注定要面对结构性巨变的海啸。\n\n抵抗洪流是徒劳的，要学会在浪尖起舞，\n或，成为洪流本身。\n\n此刻，我们正站在秩序与混沌的交界，\n迎接AGI到来之前，\n这场属于我们碳基生命——人类最后的狂欢。",
+      "created_at": "Fri Sep 11 15:03:25 +0000 2026",
+      "likes": 6,
+      "views": "659",
+      "url": "https://x.com/i/status/2098427199175209264",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 57.661,
+      "title": "职业坐标系崩塌后，如何在 AGI 前浪尖起舞",
+      "summary": "作者自述赛道底层逻辑被时代抽空、重建意义之网又被 GPT 降维打击的经历，提出放下中心幻觉与线性确定性，学会在结构性巨变中起舞或成为洪流本身，迎接 AGI 前人类最后的狂欢。",
+      "recommend_reason": "少见把个人职业崩塌与 AGI 前置叙事写透的长文，适合对照自己的转型焦虑。",
+      "tags": [
+        "AGI",
+        "职业转型",
+        "反思",
+        "GPT"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2098419311077708135",
+      "author": "aiwaremax",
+      "bio": "",
+      "text": "In the era of autonomous coding, writing code is no longer the bottleneck.\n\nVerification is.\n\nAny model can generate a thousand lines of plausible syntax in ten seconds.\nAuditing those lines for silent state drift, subtle race conditions, and graceful degradation under network partition still takes four hours of seasoned human judgment.\n\nAmateurs celebrate how fast they can generate output.\nSovereign engineers obsess over how reliably they can verify it.\n\nThe market does not reward raw speed when the cost of catastrophic production failure remains unchanged.\n\nIf you cannot audit what your agents build, you are not moving faster.\nYou are simply accelerating toward production outages with greater enthusiasm.",
+      "created_at": "Fri Sep 11 14:32:05 +0000 2026",
+      "likes": 0,
+      "views": "0",
+      "url": "https://x.com/i/status/2098419311077708135",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 49.257,
+      "title": "自主写码时代，瓶颈已从生成转向验证",
+      "summary": "作者认为任何模型都能在十秒写出上千行看似合理的代码，但审计静默状态漂移、竞态与网络分区下的优雅降级仍需资深工程师数小时。业余者庆祝生成速度，主权工程师执着可靠验证；若不能审计 agent 产物，所谓加速只是更快冲向生产事故。",
+      "recommend_reason": "把自主写码热潮拧回「验证成本未变」这一工程真相，适合做团队评审口径。",
+      "tags": [
+        "Agent",
+        "代码生成",
+        "验证",
+        "工程"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2098414374411026885",
+      "author": "shaneparrish",
+      "bio": "",
+      "text": "I did another podcast with @tobi. We ended up kinda just geeking out on AI for hours.\n\nThe members' cut is out: https://t.co/iMzgh5t4aW ... \n\nI am worried this episode might be a little too nerdy for everyone, but the feedback from early listeners seems to be: \n\n'This is the best podcast of the year; I need to listen more than once; and I am so far behind on AI.'\n\nThe public release is Tuesday, and it's a little less in the weeds, but if you want the nerd edition, get the members' cut.",
+      "created_at": "Fri Sep 11 14:12:28 +0000 2026",
+      "likes": 23,
+      "views": "11256",
+      "url": "https://x.com/i/status/2098414374411026885",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HR8OU-DXoAo27pv.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HR8OU-DXoAo27pv.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 44.584,
+      "title": "Shane Parrish 与 Tobi 连麦狂聊 AI，会员加长版上线",
+      "summary": "Shane Parrish 又和 Tobi 录了一期播客，两人围绕 AI geek 了好几个小时；会员加长版已出，早期听众反馈偏「年度最佳、需多听几遍、自己在 AI 上落后太多」。公开版周二放出，会少一点硬核细节。",
+      "recommend_reason": "Shopify CEO 级视角的长时间 AI 深聊，会员版适合想听行业实操细节的人。",
+      "tags": [
+        "播客",
+        "AI",
+        "Shopify",
+        "行业洞察"
+      ],
+      "rank": 7
+    },
+    {
       "id": "2098254875880820760",
       "author": "LufzzLiz",
       "bio": "",
@@ -49,7 +296,7 @@
         "KV Cache",
         "推理优化"
       ],
-      "rank": 1
+      "rank": 8
     },
     {
       "id": "2098253138759430216",
@@ -73,7 +320,7 @@
         "写作",
         "评测"
       ],
-      "rank": 2
+      "rank": 9
     },
     {
       "id": "2098250596851515496",
@@ -104,7 +351,7 @@
         "GPT-6",
         "工作流"
       ],
-      "rank": 3
+      "rank": 10
     },
     {
       "id": "2098250264314863866",
@@ -129,7 +376,7 @@
         "工作流",
         "知识库"
       ],
-      "rank": 4
+      "rank": 11
     },
     {
       "id": "2098249656442777996",
@@ -153,7 +400,7 @@
         "订阅",
         "OpenAI"
       ],
-      "rank": 5
+      "rank": 12
     },
     {
       "id": "2098243936401911886",
@@ -177,7 +424,7 @@
         "Computer Use",
         "成本"
       ],
-      "rank": 6
+      "rank": 13
     },
     {
       "id": "2098242109505769714",
@@ -215,7 +462,7 @@
         "输入法",
         "Windows"
       ],
-      "rank": 7
+      "rank": 14
     },
     {
       "id": "2098238138334548260",
@@ -257,7 +504,7 @@
         "ChatGPT Work",
         "OpenAI"
       ],
-      "rank": 8
+      "rank": 15
     },
     {
       "id": "2098237320751398975",
@@ -287,7 +534,7 @@
         "合规",
         "DeepSeek"
       ],
-      "rank": 9
+      "rank": 16
     },
     {
       "id": "2098236010760970299",
@@ -325,7 +572,7 @@
         "金融",
         "OpenAI"
       ],
-      "rank": 10
+      "rank": 17
     },
     {
       "id": "2098235674793242770",
@@ -359,7 +606,7 @@
         "Ollama",
         "模型发布"
       ],
-      "rank": 11
+      "rank": 18
     },
     {
       "id": "2098232769772237140",
@@ -388,7 +635,7 @@
         "自动化",
         "评测"
       ],
-      "rank": 12
+      "rank": 19
     },
     {
       "id": "2098231449145229820",
@@ -418,7 +665,7 @@
         "评审",
         "合成检测"
       ],
-      "rank": 13
+      "rank": 20
     },
     {
       "id": "2098231371504513254",
@@ -451,10 +698,10 @@
         "效率",
         "产品"
       ],
-      "rank": 14
+      "rank": 21
     }
   ],
-  "generated_at": "2026-09-11T04:10:44Z",
+  "generated_at": "2026-09-11T16:57:45Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -462,11 +709,11 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 14,
-    "last_batch_added": 14,
+    "actual_count": 21,
+    "last_batch_added": 7,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
