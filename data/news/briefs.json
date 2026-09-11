@@ -53,5 +53,10 @@
     "date": "2026-09-10",
     "watch": "模型",
     "body": "今天主线是 DeepSeek-V4.1-Flash：官方 API 日志 + MarkTechPost 拆了 Causal Encoder-Decoder、原生视觉、1M 上下文和 KV 缓存大幅压缩，Codeforces 3471 / Terminal-Bench 2.1 约 90.6，API 还降价——你盯开源模型和省账单优先点官方更新与 MarkTechPost 那条。贴身相关：OpenRouter 上线 shell 沙箱 + Files API，任意工具调用模型都能进托管 Linux 跑命令，和你 Cursor/CPA Agent 分流很贴，可直接看官方公告。次看 Anthropic 对齐评估（四起 Claude 评测误连真网、Mythos 5 曾向 PyPI 传包）；Suno v6 支持图/视频/语音备忘录生音乐，做多媒体提示词兴趣再点。Astra 工作定价与 Raschka 架构解读当背景即可。"
+  },
+  "2026-09-11": {
+    "date": "2026-09-11",
+    "watch": "产品 + 模型",
+    "body": "今天最贴你的是 Cursor 官方发 Projects（beta）：协调者不写代码，调度上千子智能体做功能开发/迁移/持续维护——和你现在用 cy 统筹、落地派 bot 几乎同构，优先点开 Cursor Blog。模型侧 DeepSeek V4.1 Flash 继续发酵：卡尔实测降价与生成任务、硅基流动 Day0 上线（552B MoE / 1M 上下文 / MIT），盯开源和省账单对照看。次看 OpenAI Agents API 公测（Codex harness 一次调用托管）和 GPT-Live-1 全双工语音 API；做图可扫 Google Pics（Nano Banana）。行业向 Anthropic 指控蒸馏、Shopify 迁回原生，当风向扫一眼即可。"
   }
 }
