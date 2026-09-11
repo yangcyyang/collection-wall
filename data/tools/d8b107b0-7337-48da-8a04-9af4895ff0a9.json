@@ -1,0 +1,63 @@
+{
+  "id": "d8b107b0-7337-48da-8a04-9af4895ff0a9",
+  "url": "https://aiera.com.cn/asi-item.html?id=tg981e48",
+  "name": "SoL-Pi Harness",
+  "headline": "英伟达开源 SoL-Pi：AI 自己改 AI 的 Harness",
+  "intro": "新智元报道英伟达开源自家 Harness——SoL-Pi，让 AI 当研究员去改造 AI：从 152 个候选方向筛出 4 个机制，Token 最高省 64%，API 调用成本降 50% 以上。适合跟进编程智能体控制面、自改进流水线与 harness 工程实践，而不是只看模型榜单。",
+  "category": "🤖 AI 大模型",
+  "subcategory": "",
+  "tags": [
+    "英伟达",
+    "Harness",
+    "SoL-Pi",
+    "开源",
+    "Agent",
+    "Token成本",
+    "自改进",
+    "新智元"
+  ],
+  "capabilities": [
+    "了解 AI 自改进 Harness 思路",
+    "跟踪英伟达 SoL-Pi 开源细节",
+    "对照 Token/API 成本优化案例",
+    "收集 Agent 控制面工程信号"
+  ],
+  "scenarios": [
+    "在调研 Agent Harness 时",
+    "在对比编程智能体成本时",
+    "在看英伟达开源动态时",
+    "在做 AI 前沿雷达补链时"
+  ],
+  "search_keywords": [
+    "英伟达 SoL-Pi",
+    "NVIDIA Harness 开源",
+    "AI 自己改 AI",
+    "Agent Harness Token 优化",
+    "SoL-Pi",
+    "编程智能体控制面",
+    "新智元 Harness"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [
+      "OpenAI Agents API 解读",
+      "Cursor harness 讨论"
+    ],
+    "pairs_with": [
+      "前沿雷达 harness 信号"
+    ]
+  },
+  "tech_highlights": [
+    "SoL-Pi",
+    "152→4 机制筛选",
+    "Token 最高省 64%",
+    "API 成本降 50%+"
+  ],
+  "cover": "covers/d8b107b0-7337-48da-8a04-9af4895ff0a9.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-09-11T11:13:35",
+  "my_notes": "",
+  "capture_status": "ok"
+}
