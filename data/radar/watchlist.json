@@ -1,57 +1,155 @@
 {
   "source": "ai-frontier-radar",
   "title": "观察名单",
-  "updated_at": "2026-09-10T18:20:00+08:00",
-  "count": 15,
+  "updated_at": "2026-09-11T08:20:00+08:00",
+  "count": 18,
   "items": [
     {
-      "id": "muse-confidential-vm",
-      "title": "Muse Confidential VM（用户持钥）何时上线",
-      "why": "官方预告年内推出；若落地，消费级 agent 电脑的隐私叙事会上一个台阶",
-      "since": "2026-09-10T18:20:00+08:00",
-      "last_updated": "2026-09-10T18:20:00+08:00",
+      "id": "agent-computer-category",
+      "title": "beafk、useagent、vicoa 谁先做出离开后还在跑",
+      "why": "Claude 后台 CU + Astra CU 扩量 + Grok Bot Enterprise；beafk/useagent/Murmell 与企业 Bot 谁定义默认长期电脑",
+      "since": "2026-08-29T00:00:00+08:00",
+      "last_updated": "2026-09-11T08:20:00+08:00",
       "status": "watching",
-      "confidence": "medium",
       "related_signals": [
         "agent-persistent-computer"
       ]
     },
     {
-      "id": "deepseek-pro-flash-routing",
-      "title": "DeepSeek Pro→Flash 路由与 V4.1-Pro 回归",
-      "why": "9/14 起 Pro 切 Flash 计价是否长期化，决定 Flash-over-Pro 叙事是战术促销还是产品阶梯重写",
-      "since": "2026-09-10T18:20:00+08:00",
-      "last_updated": "2026-09-10T18:20:00+08:00",
+      "id": "agents-api-ga",
+      "since": "2026-09-11T08:20:00+08:00",
+      "title": "OpenAI Agents API 出公测",
       "status": "watching",
       "confidence": "medium",
+      "why": "托管 harness+sandbox 已公测；关注 GA、配额、合作伙伴沙箱名单与第三方采用。",
       "related_signals": [
-        "agent-flash-over-pro-economics",
-        "harness-control-plane"
+        "harness-control-plane",
+        "multi-agent-team-orchestration"
+      ],
+      "last_updated": "2026-09-11T08:20:00+08:00"
+    },
+    {
+      "id": "anthropic-limits-sep14",
+      "title": "Claude Code 9 月 14 日限额落地与用量可见性",
+      "why": "产能在给编程智能体定价",
+      "since": "2026-08-29T00:00:00+08:00",
+      "last_updated": "2026-09-01T08:50:00+08:00",
+      "status": "watching"
+    },
+    {
+      "id": "apache-maka",
+      "title": "apache/maka 会否成为本地执行记录标准",
+      "why": "Apache 基金会加星速；现 ≈4649★（昨约 4569，+~80/24h），仍无 Linux 公告",
+      "since": "2026-08-30T00:00:00+08:00",
+      "last_updated": "2026-09-11T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "apache-maka-durable-workspace"
       ]
     },
     {
       "id": "astra-plus-rollout",
-      "title": "Astra 对 Plus/Pro 默认开放的能力切片",
-      "why": "Plus/大众档仍分阶段；窗口内无新的官方能力切片变更，继续盯 Critical/CU 是否进默认付费档。",
+      "title": "Astra 扩量/产能与订阅门控",
+      "why": "窗口内出现「为保障现有用户 Astra 体验将暂停订阅」类转发（文本截断）；需对照官方全文，观察 Plus 扩量是否放缓。",
       "since": "2026-09-04T08:57:00+08:00",
-      "last_updated": "2026-09-10T18:20:00+08:00",
+      "last_updated": "2026-09-11T08:20:00+08:00",
+      "status": "watching",
+      "confidence": "low",
+      "related_signals": [
+        "critical-cyber-gated-deployment"
+      ]
+    },
+    {
+      "id": "cursor-openai-nov12",
+      "title": "Cursor 与 OpenAI 11 月 12 日切断",
+      "why": "日期还在不在；Astra 已 API+AWS，是否进 Cursor 仍未知；自托管+Vercel 沙箱让运行时更不绑单一模型供应商",
+      "since": "2026-08-28T00:00:00+08:00",
+      "last_updated": "2026-09-11T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "coding-agent-supply-chain",
+        "harness-control-plane"
+      ]
+    },
+    {
+      "id": "deepseek-pro-flash-routing",
+      "title": "DeepSeek Pro→Flash 路由（约 9/14）",
+      "why": "官方安排将 deepseek-v4-pro 流量切到 Flash 计价直至 V4.1-Pro；验证 Flash-over-Pro 是否成为默认。",
+      "since": "2026-09-10T18:20:00+08:00",
+      "last_updated": "2026-09-11T08:20:00+08:00",
+      "status": "watching",
+      "confidence": "medium",
+      "related_signals": [
+        "agent-flash-over-pro-economics"
+      ]
+    },
+    {
+      "id": "fairwind-codemender",
+      "title": "Fairwind / CodeMender 扩散形态",
+      "why": "非 Fairwind 客户能否用公开模型跑自动修补；Daybreak $1B 前线补贴是否形成美欧对位分发",
+      "since": "2026-09-03T08:15:00+08:00",
+      "last_updated": "2026-09-11T08:20:00+08:00",
       "status": "watching",
       "confidence": "medium",
       "related_signals": [
         "critical-cyber-gated-deployment",
-        "agent-persistent-computer"
+        "harness-control-plane"
       ]
+    },
+    {
+      "id": "gpt-live-adoption",
+      "since": "2026-09-11T08:20:00+08:00",
+      "title": "GPT-Live-1 生产 harness 接入面",
+      "status": "watching",
+      "confidence": "medium",
+      "why": "Devin Voice/LiveKit 等首发之后，看哪些 agent 运行时把全双工语音做成默认入口。",
+      "related_signals": [
+        "voice-first-agent-interface",
+        "harness-control-plane"
+      ],
+      "last_updated": "2026-09-11T08:20:00+08:00"
     },
     {
       "id": "grok-4-7",
       "title": "Grok 4.7 是否按 Musk ~Sep 12 估计放出",
       "why": "窗口内仍无 x.ai 正式卡/API；维持观察约 Sep 12 目标，未证实不升级。",
       "since": "2026-09-04T08:57:00+08:00",
-      "last_updated": "2026-09-10T18:20:00+08:00",
+      "last_updated": "2026-09-11T08:20:00+08:00",
       "status": "watching",
       "confidence": "low",
       "related_signals": [
         "coding-agent-supply-chain"
+      ]
+    },
+    {
+      "id": "hy4-rsi-verify",
+      "title": "Hy4 递归自改进声明能否被第三方复现",
+      "why": "训练侧自我改进若成立，会改变开源模型叙事。PH 第三次以 hunyuan-a13b 上架只是分发，仍无第三方 RSI 复现",
+      "since": "2026-08-28T00:00:00+08:00",
+      "last_updated": "2026-09-01T08:50:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "recursive-alignment-loop"
+      ]
+    },
+    {
+      "id": "maritime-wake-cost",
+      "title": "Maritime 每月 1 美元虚拟机醒来后的真实成本",
+      "why": "商业模式是否只在休眠时成立",
+      "since": "2026-08-30T00:00:00+08:00",
+      "last_updated": "2026-09-01T08:50:00+08:00",
+      "status": "watching"
+    },
+    {
+      "id": "muse-confidential-vm",
+      "title": "Muse Confidential VM（用户持钥）何时上线",
+      "why": "官方预告年内推出；若落地，消费级 agent 电脑的隐私叙事会上一个台阶",
+      "since": "2026-09-10T18:20:00+08:00",
+      "last_updated": "2026-09-11T08:20:00+08:00",
+      "status": "watching",
+      "confidence": "medium",
+      "related_signals": [
+        "agent-persistent-computer"
       ]
     },
     {
@@ -67,74 +165,26 @@
       ]
     },
     {
-      "id": "fairwind-codemender",
-      "title": "Fairwind / CodeMender 扩散形态",
-      "why": "非 Fairwind 客户能否用公开模型跑自动修补；Daybreak $1B 前线补贴是否形成美欧对位分发",
-      "since": "2026-09-03T08:15:00+08:00",
-      "last_updated": "2026-09-04T08:57:00+08:00",
-      "status": "watching",
-      "confidence": "medium",
-      "related_signals": [
-        "critical-cyber-gated-deployment",
-        "harness-control-plane"
-      ]
-    },
-    {
-      "id": "cursor-openai-nov12",
-      "title": "Cursor 与 OpenAI 11 月 12 日切断",
-      "why": "日期还在不在；Astra 已 API+AWS，是否进 Cursor 仍未知；自托管+Vercel 沙箱让运行时更不绑单一模型供应商",
-      "since": "2026-08-28T00:00:00+08:00",
-      "last_updated": "2026-09-04T08:57:00+08:00",
-      "status": "watching",
-      "related_signals": [
-        "coding-agent-supply-chain",
-        "harness-control-plane"
-      ]
-    },
-    {
-      "id": "agent-computer-category",
-      "title": "beafk、useagent、vicoa 谁先做出离开后还在跑",
-      "why": "Claude 后台 CU + Astra CU 扩量 + Grok Bot Enterprise；beafk/useagent/Murmell 与企业 Bot 谁定义默认长期电脑",
-      "since": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-04T08:57:00+08:00",
-      "status": "watching",
-      "related_signals": [
-        "agent-persistent-computer"
-      ]
-    },
-    {
-      "id": "hy4-rsi-verify",
-      "title": "Hy4 递归自改进声明能否被第三方复现",
-      "why": "训练侧自我改进若成立，会改变开源模型叙事。PH 第三次以 hunyuan-a13b 上架只是分发，仍无第三方 RSI 复现",
-      "since": "2026-08-28T00:00:00+08:00",
+      "id": "outcome-priced-agents",
+      "title": "OpenAI 企业智能体按结果付费传闻",
+      "why": "聚合号称企业成功才付费、失败由 OpenAI 吃算力；无官方确认。若属实会改商业模式。",
+      "since": "2026-09-01T08:50:00+08:00",
       "last_updated": "2026-09-01T08:50:00+08:00",
       "status": "watching",
-      "related_signals": [
-        "recursive-alignment-loop"
-      ]
-    },
-    {
-      "id": "apache-maka",
-      "title": "apache/maka 会否成为本地执行记录标准",
-      "why": "Apache 基金会加星速；现 ≈4649★（昨约 4569，+~80/24h），仍无 Linux 公告",
-      "since": "2026-08-30T00:00:00+08:00",
-      "last_updated": "2026-09-04T08:57:00+08:00",
-      "status": "watching",
-      "related_signals": [
-        "apache-maka-durable-workspace"
-      ]
-    },
-    {
-      "id": "meta-project-hatch",
-      "title": "Meta Project Hatch → Muse 已正式发布",
-      "why": "2026-09-08 Meta 官方发布 Muse（Secure VM），Hatch 泄漏线关闭；后续看 Confidential VM 与全球扩量。",
-      "since": "2026-08-31T08:45:00+08:00",
-      "last_updated": "2026-09-10T18:20:00+08:00",
-      "status": "closed",
       "confidence": "low",
+      "related_signals": []
+    },
+    {
+      "id": "swe-2-evals",
+      "since": "2026-09-11T08:20:00+08:00",
+      "title": "SWE-2 独立评测与定价是否站得住",
+      "status": "watching",
+      "confidence": "medium",
+      "why": "官方称贴近 frontier、成本低约 70% 且订阅档免费月；需要第三方 eval/复现。",
       "related_signals": [
-        "agent-persistent-computer"
-      ]
+        "agent-flash-over-pro-economics"
+      ],
+      "last_updated": "2026-09-11T08:20:00+08:00"
     },
     {
       "id": "astra-checkpoint",
@@ -150,30 +200,16 @@
       ]
     },
     {
-      "id": "anthropic-limits-sep14",
-      "title": "Claude Code 9 月 14 日限额落地与用量可见性",
-      "why": "产能在给编程智能体定价",
-      "since": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-01T08:50:00+08:00",
-      "status": "watching"
-    },
-    {
-      "id": "maritime-wake-cost",
-      "title": "Maritime 每月 1 美元虚拟机醒来后的真实成本",
-      "why": "商业模式是否只在休眠时成立",
-      "since": "2026-08-30T00:00:00+08:00",
-      "last_updated": "2026-09-01T08:50:00+08:00",
-      "status": "watching"
-    },
-    {
-      "id": "outcome-priced-agents",
-      "title": "OpenAI 企业智能体按结果付费传闻",
-      "why": "聚合号称企业成功才付费、失败由 OpenAI 吃算力；无官方确认。若属实会改商业模式。",
-      "since": "2026-09-01T08:50:00+08:00",
-      "last_updated": "2026-09-01T08:50:00+08:00",
-      "status": "watching",
+      "id": "meta-project-hatch",
+      "title": "Meta Project Hatch → Muse 已正式发布",
+      "why": "2026-09-08 Meta 官方发布 Muse（Secure VM），Hatch 泄漏线关闭；后续看 Confidential VM 与全球扩量。",
+      "since": "2026-08-31T08:45:00+08:00",
+      "last_updated": "2026-09-10T18:20:00+08:00",
+      "status": "closed",
       "confidence": "low",
-      "related_signals": []
+      "related_signals": [
+        "agent-persistent-computer"
+      ]
     }
   ]
 }
