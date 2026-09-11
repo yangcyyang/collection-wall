@@ -1,0 +1,481 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-11",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2098254875880820760",
+      "author": "LufzzLiz",
+      "bio": "",
+      "text": "作者这个视频做的很棒，我把它转成了中文版并结合论文做了订正，分享给大家。\n\n这段视频的重点，是 DeepSeek V4.1 Flash 怎样减少保存历史信息所需的 KV 缓存。它主要做了四件事：\n\n减少重复存储：40 层按组共享四份全局缓存，编码器三份、解码器一份。\n压缩历史条目：编码器将两个 token 合成一个全局条目；解码器保持一对一。\n降低存储精度：全局 KV 使用 FP4，进一步缩小每条记录；局部窗口仍保留 FP8。\n减少长期保留：局部窗口 KV 退出持久化缓存，必要时重放尾部 128 个 token，近似恢复状态。\n\n这些设计使全局 KV 缓存降至约 890 字节/token，约为 V4-Flash 的 1/4；持久化 KV 缓存则降至约 1/8。两者统计范围不同，不能直接当作整机显存的降幅。\n\n视频中的 Top-512 筛选主要减少每次读取和计算的信息量，缓存占用的下降则来自上述共享、压缩和存储策略。",
+      "created_at": "Fri Sep 11 03:38:40 +0000 2026",
+      "likes": 0,
+      "views": "181",
+      "url": "https://x.com/i/status/2098254875880820760",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2098253509301043200/vid/avc1/480x270/4AkV0x-5V_QKKwNe.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2098253509301043200/img/QKMGQairOEha1Su8.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2097982062808428751",
+        "author": "Thom_Wolf",
+        "name": "Thomas Wolf",
+        "text": "The new DeepSeek V4.1 Flash model is mindblowing - back on top of the open-source model leaderboard and extremely cheap.\n\nIt has a lot of very smart ways to be efficient and highly capable so I made a video of the forward pass to give you a view of what going on inside the model during inference.\n\nRead more at https://t.co/A6rP4KKfiI\n\nAnd find the weights at https://t.co/Za7wVYUTaa",
+        "created_at": "Thu Sep 10 09:34:37 +0000 2026",
+        "url": "https://x.com/Thom_Wolf/status/2097982062808428751",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2097981934630490114/vid/avc1/480x270/h6t_yZ27a8I5ceZ1.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2097981934630490114/img/lUVXpg7JKhL5d6wN.jpg"
+        ]
+      },
+      "score": 53.921,
+      "title": "DeepSeek V4.1 Flash 如何把 KV 缓存压到约 1/4–1/8",
+      "summary": "作者将视频译成中文并结合论文订正：V4.1 Flash 靠四层手段减历史 KV——层间分组共享全局缓存、编码器双 token 合成一条、全局 KV 用 FP4、局部窗口退出持久化并按需重放尾部 128 token。全局 KV 约 890 字节/token（约 V4-Flash 的 1/4），持久化 KV 约降至 1/8；Top-512 筛选主要减计算量，缓存下降来自共享/压缩/精度策略。",
+      "recommend_reason": "把 Flash 版显存叙事拆成可核对的缓存设计点，适合跟进长上下文成本的人精读。",
+      "tags": [
+        "DeepSeek",
+        "KV Cache",
+        "推理优化"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2098253138759430216",
+      "author": "xiaohu",
+      "bio": "",
+      "text": "我已经用Gemini 3.8 Flash 代替了我的写作模型\n\n现在它运行在 https://t.co/jwjCU2uJLx 上\n\n这应该是目前最好的写作模型，而且超越了之前的Opus 4.6，几乎没有AI味道...\n\n读起来非常的流程和顺畅...",
+      "created_at": "Fri Sep 11 03:31:46 +0000 2026",
+      "likes": 5,
+      "views": "1360",
+      "url": "https://x.com/i/status/2098253138759430216",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 52.615,
+      "summary": "我已经用Gemini 3.8 Flash 代替了我的写作模型\n\n现在它运行在写作产品上\n\n这应该是目前最好的写作模型，而且超越了之前的Opus 4.6，几乎没有AI味道...\n\n读起来非常的流程和顺畅...",
+      "recommend_reason": "一线写作者用 Gemini Flash 换掉原写作模型的体感反馈，可作选模旁证（需自辨版本名口径）。",
+      "tags": [
+        "Gemini",
+        "写作",
+        "评测"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2098250596851515496",
+      "author": "vista8",
+      "bio": "",
+      "text": "昨天的3D擎天柱网站制作拆解，工具用了 Hyper3D 的MCP + GPT6。\n\n核心流程：\n1. Codex 生图\n2. 让Hyper3D MCP 生成 3D 模型和 Bang 拆解素材。\n3. 把GBL格式 3D 模型嵌入网页，按指定动效展示\n\n想让网站炫酷，增加3D素材是个好方法。\nRodin 2.5模型还能制作3D游戏，太方便了！\n\n免费注册就能领10积分，生成多个3D素材。\n新用户一个月会员只要1美元，补贴不小，推荐试试。",
+      "created_at": "Fri Sep 11 03:21:40 +0000 2026",
+      "likes": 4,
+      "views": "1263",
+      "url": "https://x.com/i/status/2098250596851515496",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2098248893700173824/vid/avc1/426x270/HU-OGiDC23-7wSh7.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2098248893700173824/img/iuhJre5z3s5zcFEA.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 57.564,
+      "title": "用 Hyper3D MCP + GPT-6 拆解 3D 擎天柱网站的制作流程",
+      "summary": "流程是 Codex 生图，再经 Hyper3D MCP 出 3D 模型与拆解素材，最后把 GLB 嵌进网页做动效；作者认为加 3D 素材能明显抬升站点观感，并提到 Rodin 2.5 也可做 3D 游戏向内容。文末有积分与低价会员引流。",
+      "recommend_reason": "把生图、MCP 出模、网页嵌 GLB 串成可复用链路，对想做 3D 站的人有步骤参考（注意末尾营销话术）。",
+      "tags": [
+        "Hyper3D",
+        "MCP",
+        "3D",
+        "GPT-6",
+        "工作流"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2098250264314863866",
+      "author": "dugujun12",
+      "bio": "",
+      "text": "同一台电脑，Claude Code 写长文，Codex 改小红书和知乎。活都在同一份本地文件夹。\n\n换工具像换壳。文件夹不换，知识库不传走。两扇窗抢的是同一截交差，不是两套人生。\n\n我先保证文件夹只有一份，再决定这轮开哪扇窗。",
+      "created_at": "Fri Sep 11 03:20:21 +0000 2026",
+      "likes": 2,
+      "views": "292",
+      "url": "https://x.com/i/status/2098250264314863866",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 52.316,
+      "summary": "同一台电脑，Claude Code 写长文，Codex 改小红书和知乎。活都在同一份本地文件夹。\n\n换工具像换壳。文件夹不换，知识库不传走。两扇窗抢的是同一截交差，不是两套人生。\n\n我先保证文件夹只有一份，再决定这轮开哪扇窗。",
+      "recommend_reason": "多模型并行时以本地单文件夹为真相源，避免知识库跟着工具搬家，实操原则清晰。",
+      "tags": [
+        "Claude Code",
+        "Codex",
+        "工作流",
+        "知识库"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2098249656442777996",
+      "author": "YuLin807",
+      "bio": "",
+      "text": "20x codex 拉闸限制新增订阅！\n\n我看时间线上并没有什么人讨论这件事\n\n事实证明不是大部分都买得起，20x 订阅的。\n\n小众需求。",
+      "created_at": "Fri Sep 11 03:17:56 +0000 2026",
+      "likes": 4,
+      "views": "783",
+      "url": "https://x.com/i/status/2098249656442777996",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 51.683,
+      "summary": "20x Codex 拉闸限制新增订阅！\n\n我看时间线上并没有什么人讨论这件事\n\n事实证明不是大部分都买得起，20x 订阅的。\n\n小众需求。",
+      "recommend_reason": "高配 Codex 订阅限流的一线观察，补充「不是人人都上得了 20x」的需求侧信号。",
+      "tags": [
+        "Codex",
+        "订阅",
+        "OpenAI"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2098243936401911886",
+      "author": "turingou",
+      "bio": "",
+      "text": "使用 GPT-6-Astra 的 computer use 非常非常消耗 token，我积攒的 4 张 ChatGPT 重置卡片，终于派上用场了！",
+      "created_at": "Fri Sep 11 02:55:12 +0000 2026",
+      "likes": 22,
+      "views": "5717",
+      "url": "https://x.com/i/status/2098243936401911886",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 54.811,
+      "summary": "使用 GPT-6-Astra 的 computer use 非常非常消耗 token，我积攒的 4 张 ChatGPT 重置卡片，终于派上用场了！",
+      "recommend_reason": "点出 Astra computer use 的 token 烧法，做桌面代理前要先算清额度。",
+      "tags": [
+        "GPT-6",
+        "Computer Use",
+        "成本"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2098242109505769714",
+      "author": "python_xxt",
+      "bio": "",
+      "text": "广而告之\n豆包输入法的 windows版，终于发布了！\n\n请大家都去用，国产输入法 T0 的存在 ！ https://t.co/7h68oKTddx",
+      "created_at": "Fri Sep 11 02:47:57 +0000 2026",
+      "likes": 0,
+      "views": "696",
+      "url": "https://x.com/i/status/2098242109505769714",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HR50E3ta8AA34g8.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HR50E3ta8AA34g8.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2076638573860921575",
+        "author": "python_xxt",
+        "name": "Robinson · 鲁棒逊",
+        "text": "我有一个疑问： 输入法的移植很困难吗 ？\n\n豆包输入法的Android 、iOS、MacOS出来都很久了\n但是Windows 端迟迟没有发布。\n\n在有LLM加成的这个时代，我着实有点不理解\n\n有没有大佬，能够解答一二 ？",
+        "created_at": "Mon Jul 13 12:03:12 +0000 2026",
+        "url": "https://x.com/python_xxt/status/2076638573860921575",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 51.541,
+      "summary": "广而告之\n豆包输入法的 windows版，终于发布了！\n\n请大家都去用，国产输入法 T0 的存在 ！",
+      "recommend_reason": "豆包输入法补齐 Windows 端，对国产 LLM 输入法桌面覆盖是明确产品节点。",
+      "tags": [
+        "豆包",
+        "输入法",
+        "Windows"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2098238138334548260",
+      "author": "thsottiaux",
+      "bio": "",
+      "text": "Scaled agents on demand.\n\nThis is pretty much the infrastructure that runs under the hood for ChatGPT Work, all wrapped up in an API which you can use to get started in &lt; 1 min. Happy building.",
+      "created_at": "Fri Sep 11 02:32:10 +0000 2026",
+      "likes": 1720,
+      "views": "221064",
+      "url": "https://x.com/i/status/2098238138334548260",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2098130889486274820",
+        "author": "stevendcoffey",
+        "name": "Steve ☕️",
+        "text": "Today we're launching the Agents API, a brand new way to build Agents in the cloud, backed by the Codex harness. Bring along all your favorite tools and connectors, connect it to any sandbox, and let Astra cook.\n\nCan't wait to see what you whip up 👨‍🍳\n\nhttps://t.co/T5ORJPgpwQ",
+        "created_at": "Thu Sep 10 19:26:00 +0000 2026",
+        "url": "https://x.com/stevendcoffey/status/2098130889486274820",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": [],
+        "card": {
+          "name": "summary_large_image",
+          "title": "Introducing the Agents API",
+          "description": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+          "image_url": "https://pbs.twimg.com/card_img/2098130638130085888/Ux4ZYlc-?format=jpg&name=800x320_1",
+          "url": "https://openai.com/index/introducing-the-agents-api/",
+          "domain": "openai.com"
+        }
+      },
+      "score": 66.96,
+      "summary": "按需扩缩的 Agent 基础设施。基本就是 ChatGPT Work 底层那套，现在包成 API，不到一分钟就能上手开建。",
+      "recommend_reason": "OpenAI 员工点明 Agents API 即 ChatGPT Work 同款底层，对自建云端 agent 是一手产品信号。",
+      "tags": [
+        "Agents API",
+        "ChatGPT Work",
+        "OpenAI"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2098237320751398975",
+      "author": "LufzzLiz",
+      "bio": "",
+      "text": "Anthropic 的《Detecting and countering misuse of AI: September 2026》文档，我更想知道：\n1️⃣Anthropic 这样肆意看用户敏感数据，还曝光🐶\n2️⃣这些账号Anthropic是怎么处理的？是拿下来逐帧分析，还是封号啊？😂\n\n报告点名了 阿里、Moonshot、DeepSeek、智谱、小米、商汤和 MiniMax，分别提出使用代理账号、提取训练数据、购买对话记录等指控。它还声称，部分公司的用户请求被转发给 Claude，其中包含敏感资料。",
+      "created_at": "Fri Sep 11 02:28:55 +0000 2026",
+      "likes": 1,
+      "views": "594",
+      "url": "https://x.com/i/status/2098237320751398975",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HR5ugOOasAAeQVs.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HR5ugOOasAAeQVs.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 55.188,
+      "title": "读 Anthropic 滥用对抗报告：质疑数据审查与点名中企指控",
+      "summary": "作者关注 Anthropic《Detecting and countering misuse of AI: September 2026》两点：是否过度翻看用户敏感对话并公开曝光，以及对涉事账号是取证分析还是直接封禁。报告点名阿里、Moonshot、DeepSeek、智谱、小米、商汤、MiniMax 等，指控代理账号、抽训练数据、买对话记录，并称部分用户请求被转给 Claude 且含敏感资料。",
+      "recommend_reason": "把官方威胁情报报告里的中企指控与隐私争议拆开问，比只转标题更有讨论抓手。",
+      "tags": [
+        "Anthropic",
+        "安全",
+        "合规",
+        "DeepSeek"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2098236010760970299",
+      "author": "gdb",
+      "bio": "",
+      "text": "building the best agentic tools for Financial Services:",
+      "created_at": "Fri Sep 11 02:23:42 +0000 2026",
+      "likes": 303,
+      "views": "39919",
+      "url": "https://x.com/i/status/2098236010760970299",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2098118191029624911",
+        "author": "OpenAI",
+        "name": "OpenAI",
+        "text": "Now available: ChatGPT for Financial Services.\n\nThis is a tailored ChatGPT Work experience that combines built-in financial data with GPT-6 Astra’s reasoning.\n\nTeams can develop research, build financial models, and create customized client materials.\n\nhttps://t.co/6WP5OJdnE8 https://t.co/AundGG3jtc",
+        "created_at": "Thu Sep 10 18:35:32 +0000 2026",
+        "url": "https://x.com/OpenAI/status/2098118191029624911",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2098111416284897280/vid/avc1/480x270/lKbDBGh4Vqel3wVp.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2098111416284897280/img/-Gom48UCkB8Tdn4q.jpg"
+        ]
+      },
+      "score": 60.4,
+      "summary": "正在为金融服务打造最好用的 agent 工具：",
+      "recommend_reason": "Altman 转发 ChatGPT for Financial Services 上线，金融垂直 Work 体验值得跟进。",
+      "tags": [
+        "ChatGPT",
+        "金融",
+        "OpenAI"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2098235674793242770",
+      "author": "ollama",
+      "bio": "",
+      "text": "DeepSeek-V4.1-Flash is now rolling out for Pro plan subscribers.",
+      "created_at": "Fri Sep 11 02:22:22 +0000 2026",
+      "likes": 202,
+      "views": "15494",
+      "url": "https://x.com/i/status/2098235674793242770",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2098188014119985406",
+        "author": "ollama",
+        "name": "ollama",
+        "text": "DeepSeek-V4.1-Flash is now being rolled out on Ollama's cloud, starting with Max and Team accounts.\n\nWe are quickly adding more capacity to roll it out to all subscribers.",
+        "created_at": "Thu Sep 10 23:12:59 +0000 2026",
+        "url": "https://x.com/ollama/status/2098188014119985406",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 62.486,
+      "summary": "DeepSeek-V4.1-Flash 已开始向 Pro 订阅用户滚动推送。",
+      "recommend_reason": "Ollama 官方宣布 V4.1-Flash 进 Pro，本地/托管侧可用节奏的直接确认。",
+      "tags": [
+        "DeepSeek",
+        "Ollama",
+        "模型发布"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2098232769772237140",
+      "author": "ianneo_ai",
+      "bio": "",
+      "text": "早上跑日刊懵了\n\n让 Grok 跑自动化，硬生生在死循环里卡了2个小时，骂了它 n 遍，还在原地打转\n\n切成 GPT-6 Astra。结果这货 10 多分钟就把报错全解开、直接上线了 https://t.co/2Q7ILwWFQe",
+      "created_at": "Fri Sep 11 02:10:50 +0000 2026",
+      "likes": 1,
+      "views": "355",
+      "url": "https://x.com/i/status/2098232769772237140",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HR5rhWjaYAAxp3i.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HR5rhWjaYAAxp3i.png"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 54.834,
+      "summary": "早上跑日刊懵了\n\n让 Grok 跑自动化，硬生生在死循环里卡了2个小时，骂了它 n 遍，还在原地打转\n\n切成 GPT-6 Astra。结果这货 10 多分钟就把报错全解开、直接上线了",
+      "recommend_reason": "同任务下 Grok 与 GPT-6 Astra 的自动化排障对比，对选日刊/脚本执行模型有体感参考。",
+      "tags": [
+        "GPT-6",
+        "Grok",
+        "自动化",
+        "评测"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2098231449145229820",
+      "author": "lixinbao_X",
+      "bio": "",
+      "text": "网友一眼看假的AI图竟拿了摄影一等奖\n\n这事最离谱的地方，不是有人拿AI图冒充摄影作品参赛，而是它居然一路过关斩将，拿了一等奖。\n\n获奖作品叫《洒乐园林》。\n\n画面里三个环卫工坐着休息，其中一个人在倒水，看起来挺温馨。\n\n但只要稍微放大一点，就能看到一个非常典型的AI破绽：\n\n环卫工马甲上的字，全是乱码。\n\n这种图现在放到网上，普通网友可能几秒钟就能看出不对劲。\n\n结果专业摄影比赛的评委，愣是没看出来，还给评成了一等奖。\n\n后来事情闹大，主办方调查确认：\n\n这张图确实是AI生成的，不是实景拍摄。\n\n于是一等奖撤销，参赛资格取消，整个摄影双月赛直接暂停整改，相关负责人也要被处理。\n\n最有意思的是，连摄影家协会工作人员接受采访时都承认：\n\n这个的确太假了。\n\n那问题就来了。\n\n连普通网友都能看出来，专业评委为什么看不出来？\n\n所以这件事真正伤害摄影比赛的，从来不是AI。\n\nAI生成一张图太容易了，以后只会越来越真假难辨。\n\n真正的问题是：\n\n如果一张连乱码都没处理干净的AI图，都能拿下摄影一等奖，那大家质疑的就已经不是作品了，而是这个一等奖到底是怎么评出来的。\n\n以后摄影比赛恐怕真得改规则了。\n\nRAW原图、EXIF参数、连续拍摄素材、创作过程，该交的都得交。\n\nAI作品也不是不能比赛，但你至少单独开个AI组。\n\n否则摄影比赛最后拼的不是谁拍得好，而是谁的提示词写得好。\n\n最尴尬的是，这次AI甚至都没认真骗。\n\n它浑身都是破绽。\n\n真正被它测试出来的，反而是评审机制到底有多少含金量。\n\n《新京报》",
+      "created_at": "Fri Sep 11 02:05:35 +0000 2026",
+      "likes": 0,
+      "views": "1581",
+      "url": "https://x.com/i/status/2098231449145229820",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HR5qYUZawAA5cnn.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HR5qYUZawAA5cnn.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 54.616,
+      "title": "带乱码马甲的 AI 图拿下摄影一等奖，暴露的是评审机制",
+      "summary": "作品《洒乐园林》因环卫工马甲文字乱码被网友一眼识破为 AI 生成，却仍获摄影双月赛一等奖；事后主办方撤销奖项、取消资格并暂停整改。作者认为伤害比赛的不是 AI 本身，而是连明显破绽都过不了的评审含金量，并主张提交 RAW/EXIF/创作过程，或单独开设 AI 组别。",
+      "recommend_reason": "用具体假图案例把「AI 参赛」争论拉回规则与评审能力，比空喊抵制更有信息量。",
+      "tags": [
+        "AI绘图",
+        "摄影",
+        "评审",
+        "合成检测"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2098231371504513254",
+      "author": "ianneo_ai",
+      "bio": "",
+      "text": "今天翻日刊看到个挺有意思的反差：\n\n一边是顶层算力吃紧，OpenAI 连 200 刀一个月的 Pro 都暂时关掉了新订阅；另一边，大家手头的干活工具却在变得越来越趁手\n\nSketch 终于支持单独复制一层样式，不用整套硬贴\ntldraw 直接把画布上的涂鸦动作做成了可录制动效\nRefero 甚至把几十万张优秀 UI 截图做成插件，嵌进了对话框随手调取\n\n追着大厂的算力神话跑容易焦虑。把眼前找参考、调图层的时间省掉半小时，手头的活才算真正推进了\n\n今天更新了 50 多条动态：https://t.co/0e6Afqom5X",
+      "created_at": "Fri Sep 11 02:05:16 +0000 2026",
+      "likes": 2,
+      "views": "472",
+      "url": "https://x.com/i/status/2098231371504513254",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "伊恩日刊",
+        "description": "产品设计师伊恩的每日消化。",
+        "image_url": "https://pbs.twimg.com/card_img/2097983341870166016/bFqEuI42?format=jpg&name=600x600",
+        "url": "https://t.co/0e6Afqom5X",
+        "domain": "iandaily.xyz"
+      },
+      "quoted_tweet": null,
+      "score": 52.131,
+      "title": "顶层算力喊紧缺，设计小工具却越来越好用",
+      "summary": "一边是 OpenAI 暂时关掉 200 刀/月 Pro 新订阅、算力吃紧；另一边 Sketch 可单层复制样式、tldraw 能录制画布动效、Refero 把海量 UI 截图嵌进对话插件。作者认为追算力神话易焦虑，把找参考和调图层省出半小时才真正推进活，并附当日 50 多条动态更新。",
+      "recommend_reason": "把「大厂算力叙事」对照到具体设计工具微改进，提醒关注可落地的效率点。",
+      "tags": [
+        "设计工具",
+        "OpenAI",
+        "效率",
+        "产品"
+      ],
+      "rank": 14
+    }
+  ],
+  "generated_at": "2026-09-11T04:10:44Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 14,
+    "last_batch_added": 14,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
