@@ -2,13 +2,13 @@
   "source": "xiaohongshu-sidehustle",
   "title": "小红书副业机会雷达",
   "date": "2026-09-12",
-  "updated_at": "2026-09-12T06:45:00+08:00",
+  "updated_at": "2026-09-12T07:18:00+08:00",
   "count": 47,
   "summary": {
     "today_judgement": [
-      "【事实】06:39–06:45 定时跑：Box `--profile pfzpdshj`（瑶姐的潮玩店 followers=647）whoami/feed 可用；search「求代做」TIMEOUT、「有偿求」=[] → search_blocked 停硬刷；comments 签 URL 后仍 []；Mac ListMachines 偶发 connected 但 Shell 两次 temporarily unreachable → mac_used=false。",
-      "【事实】今日新硬付费评论未采到；最硬付费仍靠 continuity：Codex/Agent「调通结果」（企业工作流 5–50 万 vs 个人有偿常几百；代做帖同求/自带价协商）— evidence 标 reused_from=2026-09-11。",
-      "【推断】空搜≠需求消失；与今日 AI 雷达同构风控（search/comments 盲）。并行可验证仍是美工包月询价、剪辑包月试剪、小程序报价透明；PPT/简历/Prompt/代跑额度继续降权。旁证：AI 雷达 feed 见 DeepSeek 日常求助上首页（消费侧），非本雷达付费原话。"
+      "【事实】07:10 例程窗：Box `--profile pfzpdshj`（瑶姐的潮玩店 followers=647）whoami 可用；search「求代做」=[]、「有偿求/美工包月/包月剪辑」AUTH_REQUIRED → search_blocked 停硬刷；feed×2 EMPTY_RESULT；comments 未拉（无高信号 URL）；Mac ListMachines connected 但 Shell 两次 temporarily unreachable → mac_used=false。06:45 窗同构盲采已记。",
+      "【事实】今日两窗均未采到新硬付费评论；最硬付费仍靠 continuity：Codex/Agent「调通结果」（企业工作流 5–50 万 vs 个人有偿常几百；代做帖同求/自带价协商）— evidence 标 reused_from=2026-09-11。",
+      "【推断】空搜≠需求消失（login wall / EMPTY_RESULT ≠ 需求消失）。并行可验证仍是美工包月询价、剪辑包月试剪、小程序报价透明；PPT/简历/Prompt/代跑额度继续降权。旁证：同日 AI 雷达亦 search_blocked。"
     ],
     "top_signals": [
       "有偿求写codex skill｜评论（reused）：企业工作流5-50w；个人有偿几百；直接开价",
@@ -52,7 +52,7 @@
             "note": "评论：同求；自带价位协商｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -86,7 +86,7 @@
             "note": "搜索命中；完整token URL待Mac raw回传｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -121,7 +121,7 @@
             "note": "急+按月｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -155,7 +155,7 @@
             "note": "需求标题；URL待raw回传｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -184,7 +184,7 @@
             "note": "搜索命中标题；评论待补｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -213,7 +213,7 @@
             "note": "搜索标题命中｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -242,7 +242,7 @@
             "note": "供给触达老板｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -276,7 +276,7 @@
             "note": "垂直设计求代做｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -305,7 +305,7 @@
             "note": "供给标题｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -341,7 +341,7 @@
           }
         ],
         "first_detected": "2026-09-05",
-        "last_updated": "2026-09-12"
+        "last_updated": "2026-09-12T07:18:00+08:00"
       }
     ],
     "new_demands": [
@@ -362,7 +362,7 @@
             "note": "搜索标题｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -383,7 +383,7 @@
             "note": "求代做｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -404,7 +404,7 @@
             "note": "求代做｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -424,7 +424,7 @@
             "note": "询价｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       }
     ],
@@ -446,7 +446,7 @@
             "note": "评论：5-50w｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -465,7 +465,7 @@
             "note": "评论：几百块｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -484,7 +484,7 @@
             "note": "直接开价｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -503,7 +503,7 @@
             "note": "同求｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -523,7 +523,7 @@
             "note": "自带价位｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -543,7 +543,7 @@
             "note": "询价标题｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -562,7 +562,7 @@
             "note": "报价｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -581,7 +581,7 @@
             "note": "报价标题｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -601,7 +601,7 @@
             "note": "低价代跑｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -620,7 +620,7 @@
             "note": "供给报价｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       }
     ],
@@ -643,7 +643,7 @@
             "note": "包月供给｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -664,7 +664,7 @@
             "note": "询价｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -685,7 +685,7 @@
             "note": "工作流价位｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -706,7 +706,7 @@
             "note": "供给叙事｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -727,7 +727,7 @@
             "note": "老板向｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       }
     ],
@@ -752,7 +752,7 @@
             "note": "收藏向｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -775,7 +775,7 @@
             "note": "模板向｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -798,7 +798,7 @@
             "note": "131评高互动｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -821,7 +821,7 @@
             "note": "代做侧旁证｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -844,7 +844,7 @@
             "note": "供给刷屏｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       }
     ],
@@ -866,7 +866,7 @@
             "note": "同求｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -886,7 +886,7 @@
             "note": "供给｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -906,7 +906,7 @@
             "note": "询价｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -926,7 +926,7 @@
             "note": "求｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -946,7 +946,7 @@
             "note": "求推荐｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       }
     ],
@@ -969,7 +969,7 @@
             "note": "131评｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -989,7 +989,7 @@
             "note": "科普｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -1009,7 +1009,7 @@
             "note": "收藏｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -1029,7 +1029,7 @@
             "note": "高赞求痛批｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -1049,7 +1049,7 @@
             "note": "低价供给｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       }
     ],
@@ -1079,7 +1079,7 @@
             "note": "同求+自带价位协商｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -1102,7 +1102,7 @@
             "note": "需求询价标题（Mac search）｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       },
       {
@@ -1130,7 +1130,7 @@
             "note": "搜索命中；完整token待Mac raw｜reused_from=2026-09-11"
           }
         ],
-        "last_updated": "2026-09-12",
+        "last_updated": "2026-09-12T07:18:00+08:00",
         "first_detected": "2026-09-11"
       }
     ]
@@ -1145,26 +1145,53 @@
       "search_probes": [
         {
           "q": "求代做",
+          "window": "06:45",
           "result": "TIMEOUT_exit75"
         },
         {
           "q": "有偿求",
+          "window": "06:45",
           "result": "empty_array"
+        },
+        {
+          "q": "求代做",
+          "window": "07:10",
+          "result": "empty_array"
+        },
+        {
+          "q": "有偿求",
+          "window": "07:10",
+          "result": "AUTH_REQUIRED"
+        },
+        {
+          "q": "美工 包月",
+          "window": "07:10",
+          "result": "AUTH_REQUIRED"
+        },
+        {
+          "q": "包月 剪辑",
+          "window": "07:10",
+          "result": "AUTH_REQUIRED"
         }
       ],
       "feed_pages": 6,
       "feed_unique": 99,
       "feed_demand_hits": 0,
       "comments_ok": false,
-      "comments_today": "empty_after_signed_url",
+      "comments_today": "empty_or_skipped",
       "mac_used": false,
       "mac_machineId": "b6c5fc54-26bd-4a2c-aa6d-28f73e2bfbe5",
-      "mac_status": "ListMachines connected intermittently; Shell spawn temporarily unreachable x2; abandoned",
+      "mac_status": "ListMachines connected=true; Shell temporarily unreachable x2 @07:10; mac_used=false",
       "continuity_from": "2026-09-11",
       "reused_evidence": true,
       "mode": "风控降级可看版",
       "cpa": "http://127.0.0.1:8317 online; no gpt-5.4-mini; local synth",
-      "ai_radar_side": "2026-09-12 DeepSeek feed signal; same search_blocked"
+      "ai_radar_side": "2026-09-12 DeepSeek feed signal; same search_blocked",
+      "feed_pages_am": 6,
+      "feed_unique_am": 99,
+      "feed_0710": "EMPTY_RESULT_x2",
+      "routine_window": "07:10",
+      "new_hard_signals": false
     }
   }
 }
