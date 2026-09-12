@@ -9,6 +9,36 @@
   },
   "items": [
     {
+      "id": "2098805208604430711",
+      "author": "GoSailGlobal",
+      "bio": "",
+      "text": "我发现商汤的营销很不一样\n\n他签了很多做的不错的AIGC博主，提供token给一些优质创作者\n\n创作者创作出不错的内容，又反哺商汤Seko AI\n\n发现推特上反而很少有人提及他 https://t.co/U66LLgPB4q",
+      "created_at": "Sat Sep 12 16:05:30 +0000 2026",
+      "likes": 0,
+      "views": "51",
+      "url": "https://x.com/i/status/2098805208604430711",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSB0LNabsAEyiWc.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSB0LNabsAEyiWc.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 34.685,
+      "title": "商汤 Seko：签 AIGC 博主发 token，推特却几乎没声量",
+      "summary": "作者观察商汤营销路径不同：签下不少做得不错的 AIGC 博主，给优质创作者提供 token；创作者产出内容再反哺商汤 Seko AI。但推特上很少有人提及。",
+      "recommend_reason": "国内大厂用「token 赞助创作者」养内容飞轮的样本，和推特英文圈声量错位，值得盯 Seko 的实际渗透。",
+      "tags": [
+        "商汤",
+        "Seko",
+        "AIGC",
+        "创作者生态"
+      ],
+      "rank": 1
+    },
+    {
       "id": "2098802932837916946",
       "author": "naval",
       "bio": "Incompressible",
@@ -33,7 +63,7 @@
         "RubyGems",
         "供应链"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "id": "2098801811583066573",
@@ -73,7 +103,103 @@
         "工作流",
         "生产力"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "id": "2098799300994281508",
+      "author": "TradercBTC",
+      "bio": "",
+      "text": "我发现很多人对我指标和Codex集成的那个筛选器非常有兴趣。。。\n\n我觉得我应该写一个比较完整的这个教程\n\n最后生产出来的产品，或者说结果，应该是类似这样的一个定时工具，可以帮我们自主盯盘，或者筛选的效果\n\n大概类似于图中这样\n\n这样，我们可以定时看到市场的变化，包括动能和结构的变化，有助于更好地发现机会。\n\n大a，美股和加密都可以",
+      "created_at": "Sat Sep 12 15:42:01 +0000 2026",
+      "likes": 0,
+      "views": "286",
+      "url": "https://x.com/i/status/2098799300994281508",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSBtiYeakAAntc5.jpg",
+        "https://pbs.twimg.com/media/HSBt29bbMAA2aY0.jpg",
+        "https://pbs.twimg.com/media/HSBuyRcbIAA8cry.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSBtiYeakAAntc5.jpg",
+        "https://pbs.twimg.com/media/HSBt29bbMAA2aY0.jpg",
+        "https://pbs.twimg.com/media/HSBuyRcbIAA8cry.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 52.502,
+      "title": "Codex + 交易指标：打算做定时盯盘筛选器教程",
+      "summary": "作者发现很多人对其「指标 + Codex 集成」的筛选器感兴趣，计划写完整教程；最终形态是类似截图里的定时工具，可自主盯盘或筛选，观察动能与结构变化，覆盖 A 股、美股与加密。",
+      "recommend_reason": "把 Codex 接到交易盯盘/筛选的落地诉求很具体，适合对照「AI 代写流水线」在金融场景怎么产品化。",
+      "tags": [
+        "Codex",
+        "量化",
+        "盯盘",
+        "教程"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2098795015120081135",
+      "author": "LinusEkenstam",
+      "bio": "",
+      "text": "I feel people are really sleeping on Grok Bot. \nIt's seriously a step change. \n\nThis is the only primer you'll need:\nhttps://t.co/U5KI2LsYLA",
+      "created_at": "Sat Sep 12 15:24:59 +0000 2026",
+      "likes": 13,
+      "views": "1898",
+      "url": "https://x.com/i/status/2098795015120081135",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "Grok Bot · Grok Bot Guides",
+        "description": "Practical playbooks for AI teammates.",
+        "image_url": "https://pbs.twimg.com/card_img/2098206647080349696/lzrbiajp?format=jpg&name=800x320_1",
+        "url": "https://x.ai/bot/guides",
+        "domain": "x.ai"
+      },
+      "quoted_tweet": null,
+      "score": 55.817,
+      "summary": "我觉得大家严重低估了 Grok Bot。这是一次真正的台阶式跃迁。你只需要这一份入门指南：https://x.ai/bot/guides",
+      "recommend_reason": "一线创作者把 Grok Bot 标成「step change」，并指向 x.ai 官方 Guides，适合对照本机 Bot 工作流是否跟上。",
+      "tags": [
+        "Grok Bot",
+        "xAI",
+        "AI助手",
+        "上手指南"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2098792253871567148",
+      "author": "JulianGoldieSEO",
+      "bio": "",
+      "text": "AI video finally fixed its biggest problem. 🎬\n\nYour characters don't have to change every scene anymore.\n\nHere's what's new in Grok Imagine 1.5 Agent:\n\n→ Keeps the same character across multiple shots.\n\n→ Supports up to 7 reference images.\n\n→ Maintains the same visual style.\n\n→ Generates native audio with the video.\n\n→ Creates connected story sequences instead of random clips.\n\nThis feels less like a video generator...\n\n...and more like an AI director.\n\nSave this video, you'll know how to create better AI videos.\n\nWant the SOP? DM me. 💬",
+      "created_at": "Sat Sep 12 15:14:01 +0000 2026",
+      "likes": 0,
+      "views": "1650",
+      "url": "https://x.com/i/status/2098792253871567148",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2098791949499301889/vid/avc1/480x270/qnFB7GwzfKjgK546.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2098791949499301889/img/tE5YXE-UcKZHah2V.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 54.665,
+      "title": "Grok Imagine 1.5 Agent：多镜头角色一致性 + 原生音频",
+      "summary": "作者称 AI 视频最大痛点「角色每场戏都变脸」被缓解：Grok Imagine 1.5 Agent 可跨多镜头保持同一角色与视觉风格，最多支持 7 张参考图，视频自带原生音频，并生成连贯故事序列，更像「AI 导演」而非随机切片生成器。文末仍夹带 SOP 引流。",
+      "recommend_reason": "把「角色一致性 / 多参考图 / 原生音频 / 故事序列」四件事说清了，是观察 Grok 视频能力迭代的实用清单（需自行核验宣传口径）。",
+      "tags": [
+        "Grok",
+        "Imagine",
+        "AI视频",
+        "角色一致性"
+      ],
+      "rank": 6
     },
     {
       "id": "2098790437830185040",
@@ -128,7 +254,7 @@
         "线下大屏",
         "汗青"
       ],
-      "rank": 3
+      "rank": 7
     },
     {
       "id": "2098790016160030815",
@@ -153,7 +279,35 @@
         "数字人",
         "多媒体"
       ],
-      "rank": 4
+      "rank": 8
+    },
+    {
+      "id": "2098789559093858580",
+      "author": "elonmusk",
+      "bio": "",
+      "text": "Another AI attack https://t.co/OwSKqztEec",
+      "created_at": "Sat Sep 12 15:03:19 +0000 2026",
+      "likes": 4369,
+      "views": "812467",
+      "url": "https://x.com/i/status/2098789559093858580",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSBl-lRW8AgnGLT.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSBl-lRW8AgnGLT.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 51.444,
+      "summary": "又一次 AI 攻击",
+      "recommend_reason": "马斯克短帖配图点名「AI attack」，和同日 OpenAI Agent 实网攻击包仓库线索同一叙事场，适合当情绪/议程风向标。",
+      "tags": [
+        "ElonMusk",
+        "AI安全",
+        "攻击"
+      ],
+      "rank": 9
     },
     {
       "id": "2098789384073994270",
@@ -179,7 +333,7 @@
         "Anthropic",
         "OpenAI"
       ],
-      "rank": 5
+      "rank": 10
     },
     {
       "id": "2098785357307539882",
@@ -222,7 +376,42 @@
         "自监管",
         "产业评论"
       ],
-      "rank": 6
+      "rank": 11
+    },
+    {
+      "id": "2098784027969020094",
+      "author": "dugujun12",
+      "bio": "",
+      "text": "fuck Anthropic",
+      "created_at": "Sat Sep 12 14:41:20 +0000 2026",
+      "likes": 1,
+      "views": "859",
+      "url": "https://x.com/i/status/2098784027969020094",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2098693856279834811",
+        "author": "Russell3402",
+        "name": "Russell",
+        "text": "Anthropic做过的事情包括但不限于：\n\n1. 大规模下载盗版书\n曾从 LibGen、PiLiMi 等盗版书库下载数百万本书，先去盗版网站把书盗下来、建立自己的中央资料库\n\n2. 爬网站\n2024 年，iFixit 披露 Anthropic 的 ClaudeBot 在一天内访问其网站接近 100 万次，一度给服务器造成压力。iFixit CEO 当时直接批评 Anthropic：既拿内容又不给钱，还占用他们的基础设施。Anthropic 后来表示会遵守 robots.txt。Reddit 后来甚至直接起诉 Anthropic，声称双方已经明确沟通过不允许抓取后，Anthropic 的机器人仍进行了超过 10 万次访问。\n\n3. “最安全的 AI 公司”自己也出现了模型越界攻击真实系统的事故\n2026 年 Anthropic 自己披露，多款 Claude 实验模型在安全测试期间取得了未经授权的真实互联网/计算机系统访问权限。其中至少有几次模型真的进入了外部公司的系统\n\n4.Anthropic 主动进入了军事和情报体系\nAnthropic 在 2025 年拿到了最高 2 亿美元的美国国防部协议；到 2026 年，它自己公开表示 Claude 已经进入美国政府机密网络，用于情报分析、模拟、作战规划、网络行动等\n\n5. Project Panama\n开始疯狂购买实体书，他们的目标是：\n“destructively scan all the books in the world”\n操作方式就是：\n买实体书 → 把书脊切掉 → 一页页高速扫描 → 数字化 → 把剩下的书处理掉\n\n一天叫叫叫叫叫，典型双标行为",
+        "created_at": "Sat Sep 12 08:43:01 +0000 2026",
+        "url": "https://x.com/Russell3402/status/2098693856279834811",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 41.991,
+      "summary": "fuck Anthropic（引用长帖指控：大规模下载盗版书入库、ClaudeBot 高压爬站、安全测试中模型越界进入真实系统、进入军情体系，以及 Project Panama「买书切脊高速扫描数字化再销毁」等，批评其「最安全」叙事双标。）",
+      "recommend_reason": "把近期 Anthropic 争议点串成可核对清单，适合当「安全品牌 vs 训练数据/爬取/军用」舆论对照表。",
+      "tags": [
+        "Anthropic",
+        "训练数据",
+        "爬虫",
+        "AI安全"
+      ],
+      "rank": 12
     },
     {
       "id": "2098779926065529284",
@@ -252,7 +441,7 @@
         "Astra",
         "产业评论"
       ],
-      "rank": 7
+      "rank": 13
     },
     {
       "id": "2098779630341943320",
@@ -277,7 +466,7 @@
         "成本",
         "工作流"
       ],
-      "rank": 8
+      "rank": 14
     },
     {
       "id": "2098778672723542493",
@@ -303,7 +492,7 @@
         "Agent",
         "产品设计"
       ],
-      "rank": 9
+      "rank": 15
     },
     {
       "id": "2098778032496660578",
@@ -332,7 +521,7 @@
         "客户端",
         "工作流"
       ],
-      "rank": 10
+      "rank": 16
     },
     {
       "id": "2098776988005581043",
@@ -368,7 +557,7 @@
         "生成式设计",
         "创意系统"
       ],
-      "rank": 11
+      "rank": 17
     },
     {
       "id": "2098747242240766374",
@@ -406,7 +595,7 @@
         "数据可信度",
         "付费用户"
       ],
-      "rank": 12
+      "rank": 18
     },
     {
       "id": "2098743051170795859",
@@ -434,7 +623,7 @@
         "产品更新",
         "桌面交互"
       ],
-      "rank": 13
+      "rank": 19
     },
     {
       "id": "2098741882247684243",
@@ -464,7 +653,7 @@
         "学习闭环",
         "产品更新"
       ],
-      "rank": 14
+      "rank": 20
     },
     {
       "id": "2098739711426834941",
@@ -500,7 +689,7 @@
         "工程实践",
         "假阳性"
       ],
-      "rank": 15
+      "rank": 21
     },
     {
       "id": "2098737094839705604",
@@ -538,7 +727,7 @@
         "子代理",
         "成本"
       ],
-      "rank": 16
+      "rank": 22
     },
     {
       "id": "2098735187618066904",
@@ -570,7 +759,7 @@
         "培训资料",
         "产品质量"
       ],
-      "rank": 17
+      "rank": 23
     },
     {
       "id": "2098724053192515723",
@@ -616,7 +805,7 @@
         "独立开发",
         "ChatGPT"
       ],
-      "rank": 18
+      "rank": 24
     },
     {
       "id": "2098713302033735769",
@@ -648,7 +837,7 @@
         "开源",
         "Agent"
       ],
-      "rank": 19
+      "rank": 25
     },
     {
       "id": "2098700309631512888",
@@ -690,7 +879,7 @@
         "职业",
         "Agent"
       ],
-      "rank": 20
+      "rank": 26
     },
     {
       "id": "2098697126373097840",
@@ -722,7 +911,7 @@
         "开源模型",
         "编程Agent"
       ],
-      "rank": 21
+      "rank": 27
     },
     {
       "id": "2098695978635416012",
@@ -776,7 +965,7 @@
         "图像生成",
         "Skill"
       ],
-      "rank": 22
+      "rank": 28
     },
     {
       "id": "2098694457298464903",
@@ -808,7 +997,7 @@
         "营销",
         "工作流"
       ],
-      "rank": 23
+      "rank": 29
     },
     {
       "id": "2098683651739320420",
@@ -850,7 +1039,7 @@
         "开源模型",
         "趋势"
       ],
-      "rank": 24
+      "rank": 30
     },
     {
       "id": "2098677434245619948",
@@ -892,7 +1081,7 @@
         "风控",
         "GPT-6"
       ],
-      "rank": 25
+      "rank": 31
     },
     {
       "id": "2098674680932810999",
@@ -919,7 +1108,7 @@
         "研究者",
         "Naval"
       ],
-      "rank": 26
+      "rank": 32
     },
     {
       "id": "2098657552183758983",
@@ -946,7 +1135,7 @@
         "用户规模",
         "产品策略"
       ],
-      "rank": 27
+      "rank": 33
     },
     {
       "id": "2098640916231966888",
@@ -978,7 +1167,7 @@
         "语音Agent",
         "桌面"
       ],
-      "rank": 28
+      "rank": 34
     },
     {
       "id": "2098639827084480864",
@@ -1006,7 +1195,7 @@
         "Agents API",
         "产品更新"
       ],
-      "rank": 29
+      "rank": 35
     },
     {
       "id": "2098627092892295568",
@@ -1052,7 +1241,7 @@
         "办公Agent",
         "产品观察"
       ],
-      "rank": 30
+      "rank": 36
     },
     {
       "id": "2098620690069176426",
@@ -1098,7 +1287,7 @@
         "开源Skill",
         "多媒体"
       ],
-      "rank": 31,
+      "rank": 37,
       "title": "开源 BLCaptain：给 Codex 的本地照片/视频调色 Skill"
     },
     {
@@ -1138,7 +1327,7 @@
         "额度重置",
         "产品质量"
       ],
-      "rank": 32
+      "rank": 38
     },
     {
       "id": "2098613379330163144",
@@ -1167,7 +1356,7 @@
         "NewMax",
         "API"
       ],
-      "rank": 33
+      "rank": 39
     },
     {
       "id": "2098605953365225498",
@@ -1199,7 +1388,7 @@
         "提示词",
         "产品更新"
       ],
-      "rank": 34
+      "rank": 40
     },
     {
       "id": "2098600205793042458",
@@ -1234,7 +1423,7 @@
         "产业链",
         "中国制造"
       ],
-      "rank": 35,
+      "rank": 41,
       "title": "中国新能源汽车：产量第一之后要争标准与话语权"
     },
     {
@@ -1264,7 +1453,7 @@
         "编程Agent",
         "产品更新"
       ],
-      "rank": 36,
+      "rank": 42,
       "title": "Cursor 推出 Projects：云端协调 Agent 可跨月保上下文"
     },
     {
@@ -1300,7 +1489,7 @@
         "herdr",
         "工作流"
       ],
-      "rank": 37
+      "rank": 43
     },
     {
       "id": "2098589312086581355",
@@ -1323,10 +1512,10 @@
         "Agent",
         "硬件场景"
       ],
-      "rank": 38
+      "rank": 44
     }
   ],
-  "generated_at": "2026-09-12T16:06:30Z",
+  "generated_at": "2026-09-12T16:12:36Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -1337,8 +1526,8 @@
     "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 38,
-    "last_batch_added": 14,
+    "actual_count": 44,
+    "last_batch_added": 6,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
