@@ -1,0 +1,307 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-12",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2098620690069176426",
+      "author": "thinkszyg",
+      "bio": "",
+      "text": "调色不只是把颜色变浓，也不是给所有画面套同一种氛围。\n\n我做了 BLCaptain 调色 Skill：一套给 Codex 使用的开源照片与视频调色流程。\n\n它先看曝光、白平衡、主体和画面情绪，最多推荐3个适合的方向；也可以直接点名目录中的公式。先做基础校正，再加入风格。你看过方案并确认后，它才在本地生成新成片和前后对比，不覆盖原片。\n\n照片31个公式、普通SDR视频31个公式；两类合计32个独立公式，包含21个通用方向和11个原创作者风格。不是62个互不重复的滤镜。\n\n想试的话：\n① 打开仓库，下载最新Release并解压。\n② 把文件夹交给Codex，请它检查Python和FFmpeg，再运行安装器。\n③ 重新打开Codex，附上照片，说：“用BLCaptain调色公式处理这张照片，先推荐方向，等我确认后再生成，不要覆盖原图。”\n\n项目、安装说明、公式目录：\nhttps://t.co/y7YsakJ1DQ\n\n当前为公开测试版。支持常规sRGB／Display P3照片和普通SDR视频，RAW、未识别Log、HDR不在本版保证范围。它能减少盲试，不能替代拍摄质量，也不保证每张素材适合每个风格。",
+      "created_at": "Sat Sep 12 03:52:17 +0000 2026",
+      "likes": 0,
+      "views": "20",
+      "url": "https://x.com/i/status/2098620690069176426",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "GitHub - dososo/blcaptain-color-formula: 32 个本地调色公式：照片 31 个、视频 31 个，确认后生成且不覆盖原片。32 local-first...",
+        "description": "32 个本地调色公式：照片 31 个、视频 31 个，确认后生成且不覆盖原片。32 local-first formulas for photos and SDR video. - dososo/blcaptain-color-formula",
+        "image_url": "https://pbs.twimg.com/card_img/2098620384493092864/JcIN8Cyn?format=jpg&name=600x600",
+        "url": "https://t.co/y7YsakJ1DQ",
+        "domain": "github.com"
+      },
+      "quoted_tweet": {
+        "id": "2090655161568072052",
+        "author": "thinkszyg",
+        "name": "爆裂队长NEXT",
+        "text": "这是一套摄影视觉调色公式，支持照片和视频。前期研究整理了60套公开调色样本，并从中归纳出52套研究风格。\n经过执行能力、版权边界和真实素材验证后，目前形成了：\n· 32套正式可执行视觉配方\n· 31套照片配方、30套视频配方\n· 11套BLCaptain Signature独家作者风格\n· 156组照片软件参数起点\n· 156组视频软件参数起点\n上传照片或视频后，BLCaptain 会先分析主体、空间、曝光、影调、色彩、光线、构图、观看路径和情绪表达，再推荐3个适合当前素材的视觉方向。用户也可以展开全部风格，或者同时选择2～3种方案独立比较。",
+        "created_at": "Fri Aug 21 04:20:07 +0000 2026",
+        "url": "https://x.com/thinkszyg/status/2090655161568072052",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HQN_wfcawAAIeUv.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HQN_wfcawAAIeUv.jpg"
+        ]
+      },
+      "score": 49.446,
+      "summary": "爆裂队长发布面向 Codex 的开源调色 Skill「BLCaptain」：先分析曝光、白平衡、主体与情绪，最多推荐 3 个方向或点名公式；确认后才在本地生成新成片和前后对比，不覆盖原片。照片与 SDR 视频各 31 个公式（合计 32 个独立公式，含 21 通用+11 作者风格）。安装需 Python/FFmpeg；公开测试版不保证 RAW/未识别 Log/HDR。",
+      "recommend_reason": "把「先提案再动手、不覆盖原片」写进 Agent 调色流程，是多媒体方向可复用的本地 Skill 样板。",
+      "tags": [
+        "Codex",
+        "调色",
+        "开源Skill",
+        "多媒体"
+      ],
+      "rank": 1,
+      "title": "开源 BLCaptain：给 Codex 的本地照片/视频调色 Skill"
+    },
+    {
+      "id": "2098616691416813840",
+      "author": "LufzzLiz",
+      "bio": "",
+      "text": "Tibo 要开启周末重置了，兄弟们加速蹬起来吧。目前看轨迹预测额度，还是要比之前少一半，GPT-6还是不耐用，希望加大剂量～ https://t.co/Lvv62ZCu3O",
+      "created_at": "Sat Sep 12 03:36:24 +0000 2026",
+      "likes": 0,
+      "views": "177",
+      "url": "https://x.com/i/status/2098616691416813840",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HR_IfcEboAAfLu6.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HR_IfcEboAAfLu6.png"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2098612714704891959",
+        "author": "thsottiaux",
+        "name": "Tibo",
+        "text": "Hi Astra users. A reset and a quick update on quality issues that have been posted around.\n\nWorking with some of you, we have found and fixed the following issues:\n- Some skills written for previous models were triggering too often or preventing the model from checking its work.\n- An opt-in context management experiment that could cause early stops or replies to older messages. We've disabled it. Our rough estimate is that 4-5k users were affected by this experiment.\n- We've also removed some badly configured engines that resulted in a measured quality degradation for a long tail of traffic flowing through them.\n\nWe’ve also made some more minor improvements and things should feel significantly better across the board. More consistent follow-through, better tracking of your latest message, and better checks on the work as it’s going through the motions.\n\nThe examples posted and all the users who worked directly with us were incredibly useful in helping fix things quickly. Always grateful for this incredible community.\n\nAnd of course, a reset is also landing by midnight today.",
+        "created_at": "Sat Sep 12 03:20:36 +0000 2026",
+        "url": "https://x.com/thsottiaux/status/2098612714704891959",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 52.035,
+      "summary": "Tibo 宣布 Astra/Codex 周末额度重置，并修复：旧模型 Skill 触发过频、可导致早停/回旧消息的上下文实验（约影响 4–5k 用户，已关）、以及配置不当引擎带来的长尾质量下降。岚叔补充：轨迹预测额度仍约比之前少一半，GPT-6 仍不耐用，希望加量。",
+      "recommend_reason": "官方质量修复清单叠用户侧额度体感，比单独喊「又要重置」更有决策价值。",
+      "tags": [
+        "Codex",
+        "Astra",
+        "额度重置",
+        "产品质量"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2098613379330163144",
+      "author": "yangyi",
+      "bio": "",
+      "text": "NewMax的用户真的可太行了\n直接把Workbuddy国际版的Deepseek API反代出来\n接到NewMax里用……\n\n不赚钱是非常合理的😁 https://t.co/Mgzjn36SAa",
+      "created_at": "Sat Sep 12 03:23:14 +0000 2026",
+      "likes": 5,
+      "views": "789",
+      "url": "https://x.com/i/status/2098613379330163144",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HR_FJPobIAAQboL.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HR_FJPobIAAQboL.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 58.524,
+      "summary": "NewMax 的用户真的可太行了：直接把 Workbuddy 国际版的 Deepseek API 反代出来接到 NewMax 里用……不赚钱是非常合理的😁",
+      "recommend_reason": "侧面暴露 WorkBuddy 国际版 DeepSeek 接口可被用户侧拼进其它客户端，渠道套利信号明确。",
+      "tags": [
+        "WorkBuddy",
+        "DeepSeek",
+        "NewMax",
+        "API"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2098605953365225498",
+      "author": "elle_elle_e",
+      "bio": "",
+      "text": "ほーーー！！！\nChatGPTプロンプト共有できるようになったのね_φ(･_･\nhttps://t.co/NQy0wKo4zs https://t.co/tndZg1bEgp",
+      "created_at": "Sat Sep 12 02:53:44 +0000 2026",
+      "likes": 11,
+      "views": "694",
+      "url": "https://x.com/i/status/2098605953365225498",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HR--_KibMAAkFYT.jpg",
+        "https://pbs.twimg.com/media/HR--_K1bQAAjGIA.jpg",
+        "https://pbs.twimg.com/media/HR--_KqaMAAD9kD.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HR--_KibMAAkFYT.jpg",
+        "https://pbs.twimg.com/media/HR--_K1bQAAjGIA.jpg",
+        "https://pbs.twimg.com/media/HR--_KqaMAAD9kD.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 63.776,
+      "summary": "喔——！！！ChatGPT 已经可以分享提示词了呢。（配截图）",
+      "recommend_reason": "提示词可分享是 ChatGPT 协作链路的小但实用产品点，截图可核对。",
+      "tags": [
+        "ChatGPT",
+        "提示词",
+        "产品更新"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2098600205793042458",
+      "author": "lixinbao_X",
+      "bio": "",
+      "text": "中国汽车真正的翻身仗才刚开始\n\n过去几十年，中国是全球最大的汽车市场，却一直算不上汽车强国。\n\n新能源把牌桌直接掀了。\n\n2025年中国新能源汽车产量1662.6万辆，连续11年全球第一；今年前8个月销量1065万辆，新车渗透率已经达到52.4%。\n\n更关键的是，中国不只是卖车。\n\n全球近75%的电动车在中国生产，全球每3块动力电池，就有2块来自中国。智能驾驶、大模型、动力电池、充电网络、智能工厂，一整条产业链都在中国快速成熟。\n\n燃油车时代，我们追赶了几十年。\n\n到了智能电动车时代，中国第一次有机会参与定义汽车应该长什么样、技术标准怎么定、产业规则怎么玩。\n\n真正的汽车强国，不只是产量世界第一。\n\n而是技术、品牌、标准和规则，都开始拥有话语权。\n\n这可能才是新能源汽车对中国最大的意义。",
+      "created_at": "Sat Sep 12 02:30:53 +0000 2026",
+      "likes": 2,
+      "views": "1153",
+      "url": "https://x.com/i/status/2098600205793042458",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HR-5wxxaQAAyHf1.jpg",
+        "https://pbs.twimg.com/media/HR-5wx0aEAAzu9B.jpg",
+        "https://pbs.twimg.com/media/HR-5wytawAAnGwv.jpg",
+        "https://pbs.twimg.com/media/HR-5wyuagAAqHfo.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HR-5wxxaQAAyHf1.jpg",
+        "https://pbs.twimg.com/media/HR-5wx0aEAAzu9B.jpg",
+        "https://pbs.twimg.com/media/HR-5wytawAAnGwv.jpg",
+        "https://pbs.twimg.com/media/HR-5wyuagAAqHfo.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 56.626,
+      "summary": "作者认为中国汽车翻身仗刚开始：2025 年新能源汽车产量 1662.6 万辆、连续 11 年全球第一；今年前 8 月销量 1065 万、新车渗透率 52.4%。全球近 75% 电动车在中国生产，动力电池约 2/3 来自中国；智驾、大模型、电池、充电与智能工厂整条链在成熟。燃油车时代长期追赶，智能电动车时代才第一次有机会参与定义产品形态与产业规则。",
+      "recommend_reason": "用可核对产销与渗透率数据，把「智驾+大模型」放进中国车业话语权叙事，适合产业侧对照。",
+      "tags": [
+        "新能源汽车",
+        "智能驾驶",
+        "产业链",
+        "中国制造"
+      ],
+      "rank": 5,
+      "title": "中国新能源汽车：产量第一之后要争标准与话语权"
+    },
+    {
+      "id": "2098599010852544953",
+      "author": "xiaohu",
+      "bio": "",
+      "text": "这个有点牛P\n\nCursor 推出「Projects」功能 \n\n它能在几个月的工作里一直保有上下文，把任务委派给上千个子 Agent，而且不用提示也能执行周期性工作。\n\n在演示视频中，Cursor 员工 Fredrika Lindh 提到，以前她的工作散在好几个对话（threads）里，现在只有这一个对话，由协调 Agent 来管理这些。\n\n告别了一问一答式对话，不用再盯着每个 Agent 逐个指挥，更像和一位自主的同事合作。\n\nProjects 通过云端 Agent（Cloud Agents）运行：每个 Projects 在云端有一台属于它自己的电脑，所以合上笔记本也不会停。\n\n当某项任务需要在你的机器上测试时，协调 Agent 会启动一个本地 Agent 在你的电脑上执行。",
+      "created_at": "Sat Sep 12 02:26:08 +0000 2026",
+      "likes": 10,
+      "views": "3323",
+      "url": "https://x.com/i/status/2098599010852544953",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2098598491761389569/vid/avc1/480x270/s2z62AmDS4sd2yeF.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2098598491761389569/img/3wIdY4vzezG0UFDR.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 59.928,
+      "summary": "Cursor 新功能 Projects 能在数月工作中持续保有上下文，把任务委派给上千个子 Agent，并可无提示执行周期性工作。演示中员工 Fredrika Lindh 说以前工作散在多个对话里，现在由协调 Agent 统一管理，更像和自主同事合作。Projects 走云端 Agent：每个项目有自己的云电脑，合上笔记本也不停；需要本机测试时再拉起本地 Agent。",
+      "recommend_reason": "把 Cursor 从「多线程对话」推到「长期项目+云电脑协调」的产品形态，是编程 Agent 工作流的硬信号。",
+      "tags": [
+        "Cursor",
+        "Cloud Agents",
+        "编程Agent",
+        "产品更新"
+      ],
+      "rank": 6,
+      "title": "Cursor 推出 Projects：云端协调 Agent 可跨月保上下文"
+    },
+    {
+      "id": "2098590333970100719",
+      "author": "YuLin807",
+      "bio": "",
+      "text": "天下武功唯快不破！\n\n我用 pi 就是看重了他的简单和快速！\n\n我也不用什么插件，就搭配 herdr 去用，做一个协调者的角色，检索不行，那就通过 herdr 调用 codex/Gemini，没有 subagent，那就开多个 tab 统筹调用。\n\n毕竟 Agent 这个领域只要你学得慢就不用学了！只有辞职才能学完一堆新名词。",
+      "created_at": "Sat Sep 12 01:51:40 +0000 2026",
+      "likes": 5,
+      "views": "1559",
+      "url": "https://x.com/i/status/2098590333970100719",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2098441539106275392",
+        "author": "YuLin807",
+        "name": "QingYue",
+        "text": "deepseek v4flash + pi \n\n这套组合应该没有比它更快的Agent\n\n正好满足deep seek 对 Agent 的定义\n\nLLM + Harness = Agent",
+        "created_at": "Fri Sep 11 16:00:24 +0000 2026",
+        "url": "https://x.com/YuLin807/status/2098441539106275392",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 52.658,
+      "summary": "天下武功唯快不破！我用 pi 就是看重了他的简单和快速！我也不用什么插件，就搭配 herdr 去用，做一个协调者的角色，检索不行，那就通过 herdr 调用 codex/Gemini，没有 subagent，那就开多个 tab 统筹调用。毕竟 Agent 这个领域只要你学得慢就不用学了！只有辞职才能学完一堆新名词。",
+      "recommend_reason": "真实 harness 用法：pi 求快 + herdr 当协调器调 Codex/Gemini，比堆插件名词更可抄。",
+      "tags": [
+        "Agent",
+        "pi",
+        "herdr",
+        "工作流"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2098589312086581355",
+      "author": "gabriel1",
+      "bio": "",
+      "text": "\"your backpack is open\"\n\nyes im running 100 agents by sharing internet from my phone to the macbook max in my backpack, i can't let it run hot",
+      "created_at": "Sat Sep 12 01:47:36 +0000 2026",
+      "likes": 187,
+      "views": "7153",
+      "url": "https://x.com/i/status/2098589312086581355",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 69.186,
+      "summary": "「你的背包开着哦」——对，我正用手机给背包里的 MacBook Max 共享网络，跑着 100 个 Agent；不能让它过热。",
+      "recommend_reason": "把「百 Agent 常开」落到背包里的 Mac + 手机热点，是极端 Agent 使用场景的鲜活切片。",
+      "tags": [
+        "Agent",
+        "硬件场景"
+      ],
+      "rank": 8
+    }
+  ],
+  "generated_at": "2026-09-12T04:06:00Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 8,
+    "last_batch_added": 8,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
