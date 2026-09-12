@@ -2,20 +2,20 @@
   "source": "xiaohongshu-sidehustle",
   "title": "小红书副业机会雷达",
   "date": "2026-09-13",
-  "updated_at": "2026-09-13T06:40:00+08:00",
+  "updated_at": "2026-09-13T07:18:00+08:00",
   "count": 47,
   "summary": {
     "today_judgement": [
-      "【事实】OpenCLI `--profile pfzpdshj`（瑶姐的潮玩店 followers=647）whoami 可用；search「求代做」「有偿求」均 `[]` → search_blocked 停硬刷；feed×6 unique=72，需求词硬命中 0（仅软命中「Codex 3个模型这样分工」）；Mac 未依赖。",
-      "【事实】今日 comments 新拉成功 7 线程（含 Codex 有偿求 Skill、Codex 代做、Skill 安装帖、无偿代做、代跑、数据报告代做、园林代做）+ feed Codex 1 线程；美工/剪辑/小程序旧 token 重拉失败（exit1/`[]`）→ 该三品类仍标 continuity/reused_from=2026-09-11。",
-      "【推断】空搜≠需求消失。最硬付费仍在 Codex/Agent「调通结果」：今日新采到「礼貌问价」「薪酬怎么说」「无法报价需具体聊」「别按一个skill报价…已是工作流」；Skill 安装摩擦（「一天没装好」「token爆炸」）强化代配置缺口。垂直代做评论供给「白菜价」涌入，合规谨慎、勿追地板价。"
+      "【事实】07:10 例程窗：whoami=瑶姐的潮玩店 followers=647 logged_in=true；search「求代做」「有偿求」AUTH_REQUIRED → search_blocked；feed×3 unique=40 需求词硬命中0；comments 仅 Codex 有偿帖 6a474c6f 回传成功（5-50w/直接开价/别按skill报价），其余多 AUTH_REQUIRED/空。mac_used=false。",
+      "【事实】06:40 窗已 comments 打穿 8 线程：代做帖「礼貌问价/薪酬怎么说/无法报价需具体聊/同求」、安装帖「一天没装好/token爆炸」、垂直代做白菜价供给。今日硬付费仍是 Codex/Agent「调通结果」。",
+      "【推断】空搜≠需求消失。并行可验证：美工包月报价卡、剪辑试剪漏斗（今日两窗 comments 失败→continuity）；实训/毕设代做合规谨慎；代跑/借额度降权。"
     ],
     "top_signals": [
-      "有偿求写codex skill｜今日新采评论：企业工作流5-50w；直接开价；别按skill报价要做工作流",
-      "有没有老师接codex代做｜今日新采：同求；礼貌问价；薪酬怎么说；无法报价需具体聊",
-      "Codex Skill安装帖｜今日新采：一天没装好；装完不会用/token爆炸；求github",
-      "求数据分析实训报告代做｜今日新采：还需要吗/找到了吗 + 供给白菜价涌入（合规谨慎）",
-      "美工包月/剪辑包月｜今日comments失败，标题询价仍 continuity（reused_from=2026-09-11）"
+      "有偿求写codex skill｜今日两窗均采到：企业工作流5-50w；直接开价；别按skill报价要做工作流",
+      "有没有老师接codex代做｜06:40 fresh：礼貌问价；薪酬怎么说；同求；无法报价需具体聊",
+      "Skill安装摩擦｜06:40：一天没装好；token爆炸；能否需要时再调取",
+      "美工包月/剪辑包月｜continuity（07:10 comments AUTH_REQUIRED）",
+      "07:10 feed×3≈40 需求词硬命中0｜采集缺口，勿误判降温"
     ]
   },
   "sections": {
@@ -23,7 +23,7 @@
       {
         "id": "opp-codex-workflow",
         "title": "Codex/Agent 工作流代配置与有偿代做（非卖Skill清单）",
-        "summary": "【事实·今日新采】「有偿求助写codex skill」评论：企业工作流搭建5-50万；「直接开价」；长评明确「别按一个skill报价…已是一条工作流」。代做帖评论：「同求」「礼貌问价」「薪酬怎么说」「不是带价问题…无法报价，需要具体聊」。Skill安利帖：「一天时间都没装好」「装完也不会用/token爆炸」。【机会假设】缺口在调通流水线+需求澄清+安装陪跑，不是再发Skill清单。",
+        "summary": "【07:10】comments 再次拉通有偿求写skill帖：企业工作流5-50w、直接开价、别按skill报价要做工作流。【06:40】代做帖礼貌问价/薪酬怎么说/无法报价需具体聊；安装帖一天装不好/token爆炸。【机会假设】卖代配置+垂直陪跑+代装，不卖Skill清单课。",
         "why": "今日新采到问价/同求/工作流澄清，付费分层仍在。",
         "audience": "想自动化出片/接单但配不通的创作者与小商家",
         "result": "可跑通的日更/接单流水线+失败重试",
@@ -44,21 +44,16 @@
           {
             "url": "https://www.xiaohongshu.com/explore/6a474c6f000000000f01444d?xsec_token=ABK_nC72f29GHjoiQmkW7MLKoOCUi0vfaFKtc7N-9iCS8=&xsec_source=",
             "title": "有偿求助！技术大佬帮忙写一个codex的skill",
-            "note": "今日新采评论：5-50w；直接开价；别按skill报价要做工作流｜fresh=2026-09-13"
+            "note": "07:10+06:40 新采：5-50w；直接开价；别按skill报价要做工作流｜fresh=2026-09-13"
           },
           {
             "url": "https://www.xiaohongshu.com/explore/6a89cfbe000000001600977f?xsec_token=AB-FJCztwrSp9kmOA7UVQitkKTRmieYUbbv5nByCFiGa0=&xsec_source=",
             "title": "有没有老师接codex代做？",
-            "note": "今日新采：同求；礼貌问价；薪酬怎么说；无法报价需具体聊｜fresh=2026-09-13"
-          },
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a20c1c60000000038021c54?xsec_token=ABNOaEf2ylKg8VTdEiyOWTNU7sobbnaKFQT_OQmpkupr4=&xsec_source=",
-            "title": "Codex千万别裸装，这几个skills必须装上！",
-            "note": "今日新采：一天没装好；token爆炸；求github｜fresh=2026-09-13"
+            "note": "06:40 fresh：同求；礼貌问价；薪酬怎么说；无法报价需具体聊｜07:10 AUTH_REQUIRED"
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "opp-jianji-baoyue",
@@ -92,7 +87,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "opp-meigong-baoyue",
@@ -127,7 +122,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "opp-xiaochengxu",
@@ -156,7 +151,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "opp-shuziren-yuefu",
@@ -185,7 +180,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "opp-excel-biaoge",
@@ -214,7 +209,7 @@
           }
         ],
         "first_detected": "2026-09-05",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "opp-ai-shipin",
@@ -243,7 +238,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "opp-daizuo-chuizhi",
@@ -278,7 +273,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "opp-agent-dajian",
@@ -307,7 +302,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "opp-ppt-urgent-only",
@@ -336,7 +331,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       }
     ],
     "new_demands": [
@@ -357,7 +352,7 @@
           }
         ],
         "first_detected": "2026-09-13",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "nd-skill-install-friction",
@@ -376,7 +371,7 @@
           }
         ],
         "first_detected": "2026-09-13",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "nd-shuju-baogao",
@@ -395,7 +390,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "nd-meigong-baoyue-xunjia",
@@ -414,7 +409,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       }
     ],
     "pay_signals": [
@@ -435,7 +430,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "pay-codex-kaojia",
@@ -454,7 +449,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "pay-codex-wenli-wenjia",
@@ -473,7 +468,7 @@
           }
         ],
         "first_detected": "2026-09-13",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "pay-codex-wufabaojia",
@@ -492,7 +487,7 @@
           }
         ],
         "first_detected": "2026-09-13",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "pay-codex-tongqiu",
@@ -511,7 +506,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "pay-codex-workflow-clarify",
@@ -529,7 +524,7 @@
           }
         ],
         "first_detected": "2026-09-13",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "pay-meigong-xunjia",
@@ -547,7 +542,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "pay-jianji-baojia",
@@ -565,7 +560,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "pay-codex-daipao",
@@ -584,7 +579,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "pay-baicai-supply",
@@ -603,7 +598,7 @@
           }
         ],
         "first_detected": "2026-09-13",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       }
     ],
     "ai_leverage": [
@@ -624,7 +619,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "ai-jianji",
@@ -643,7 +638,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "ai-meigong",
@@ -662,7 +657,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "ai-vector-design",
@@ -682,7 +677,7 @@
           }
         ],
         "first_detected": "2026-09-13",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "ai-ppt",
@@ -702,7 +697,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       }
     ],
     "digital_products": [
@@ -724,7 +719,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "dig-workflow-sop",
@@ -744,7 +739,7 @@
           }
         ],
         "first_detected": "2026-09-13",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "dig-prompt",
@@ -763,7 +758,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "dig-excel-tpl",
@@ -782,7 +777,7 @@
           }
         ],
         "first_detected": "2026-09-05",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "dig-jianji-sop",
@@ -801,7 +796,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       }
     ],
     "services": [
@@ -824,7 +819,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "svc-codex-install",
@@ -844,7 +839,7 @@
           }
         ],
         "first_detected": "2026-09-13",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "svc-jianji",
@@ -863,7 +858,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "svc-meigong",
@@ -882,7 +877,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "svc-xcx",
@@ -901,7 +896,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       }
     ],
     "content": [
@@ -923,7 +918,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "ct-workflow-vs-skill",
@@ -943,7 +938,7 @@
           }
         ],
         "first_detected": "2026-09-13",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "ct-baojia-touming",
@@ -962,7 +957,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "ct-anti-weifuye",
@@ -981,7 +976,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "ct-model-cost",
@@ -1001,7 +996,7 @@
           }
         ],
         "first_detected": "2026-09-13",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       }
     ],
     "to_validate": [
@@ -1020,7 +1015,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "tv-skill-install-card",
@@ -1037,7 +1032,7 @@
           }
         ],
         "first_detected": "2026-09-13",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       },
       {
         "id": "tv-meigong-baoyue-card",
@@ -1054,7 +1049,7 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:40:00+08:00"
+        "last_updated": "2026-09-13T07:18:00+08:00"
       }
     ]
   },
