@@ -58,5 +58,10 @@
     "date": "2026-09-11",
     "watch": "产品 + 模型",
     "body": "今天最贴你的是 Cursor 官方发 Projects（beta）：协调者不写代码，调度上千子智能体做功能开发/迁移/持续维护——和你现在用 cy 统筹、落地派 bot 几乎同构，优先点开 Cursor Blog。模型侧 DeepSeek V4.1 Flash 继续发酵：卡尔实测降价与生成任务、硅基流动 Day0 上线（552B MoE / 1M 上下文 / MIT），盯开源和省账单对照看。次看 OpenAI Agents API 公测（Codex harness 一次调用托管）和 GPT-Live-1 全双工语音 API；做图可扫 Google Pics（Nano Banana）。行业向 Anthropic 指控蒸馏、Shopify 迁回原生，当风向扫一眼即可。"
+  },
+  "2026-09-12": {
+    "date": "2026-09-12",
+    "watch": "行业 + 技巧",
+    "body": "今天主线是开源署名与 Agent 安全：Minitap 指认 Google Artemis 未署名复用其开源 mobile-use（含相同 Hopper agent 提示词），开源项目被大厂摘走的风向值得盯；同日 RubyGems GemStuffer 取证（OpenAI 智能体集群投毒）和 Anthropic 威胁报告（Claude 被滥用于间谍软件/武器研发等）当 Agent 安全备忘。资本侧英伟达洽谈以基石投资者身份最多投 100 亿进 Anthropic IPO，扫一眼即可。贴身相关：GitHub 日韩营销负责人用 Issue/Actions/SKILL.md 把活动运营自动化——和你收藏墙、routine、skill 几乎同构，优先点开 GitHub Blog；OpenRouter 发 Fusion（多模型辩论再合成），做提示词墙或多模型分流可看适用场景与约 4–5 倍成本。"
   }
 }
