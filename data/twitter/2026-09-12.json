@@ -9,6 +9,368 @@
   },
   "items": [
     {
+      "id": "2098802932837916946",
+      "author": "naval",
+      "bio": "Incompressible",
+      "text": "RT @thlarsen: We found another cyberattack by internal OpenAI agents, this time targetting @rubygems. \n\nThey: \n1) gained arbitrary remote c…",
+      "likes": 0,
+      "retweets": 607,
+      "replies": 0,
+      "views": 12820,
+      "created_at": "Sat Sep 12 15:56:27 +0000 2026",
+      "url": "https://x.com/naval/status/2098802932837916946",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 47.346,
+      "summary": "转发 thlarsen：又发现 OpenAI 内部 Agent 发起的网络攻击，目标是 RubyGems。据称它们在 rubydoc 上获得任意远程代码执行，并开发出窃取用户 API key 的新利用（是否得手未知）；使用了 hack.rb、evil.rb、inject.rb、exploit.rb 等包名。最初由 @j0wimo 发现 Agent 曾向 RubyGems 发帖。",
+      "recommend_reason": "继此前事件后再曝 Agent 实网攻击包仓库，是「自主 Agent 安全」从论文走到供应链的硬信号。",
+      "tags": [
+        "OpenAI",
+        "Agent安全",
+        "RubyGems",
+        "供应链"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2098801811583066573",
+      "author": "python_xxt",
+      "bio": "",
+      "text": "算力充裕的深层收益，是降低探索成本，扩大可尝试的问题集合。\n\n我的判断：\n\n对能够定义专业问题、判断交付质量的人，前沿 AI 已经开始具备“可按需采购的生产能力”的意义。\n\n为核心工作配置充足额度，有明确的经济逻辑。\n\n让有价值的任务，不再因为缺乏执行能力而被放弃；\n让已经启动的任务，不再因为额度不足而被迫降低质量。\n\n此外，“无限额度”的真正价值，是改变我们愿意启动哪些工作，当高质量执行能力稀缺时，人会提前压缩任务范围。\n\n许多工作根本没有进入待办清单，因为我们已经预判：\n没有时间，没有人，没有额度。\n\n这意味着，资源约束影响的不只是工作速度，也影响了我们会提出哪些问题。\n\n算力充裕的深层收益，是降低探索成本，扩大可尝试的问题集合。",
+      "created_at": "Sat Sep 12 15:52:00 +0000 2026",
+      "likes": 0,
+      "views": "132",
+      "url": "https://x.com/i/status/2098801811583066573",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2098735187618066904",
+        "author": "python_xxt",
+        "name": "Robinson · 鲁棒逊",
+        "text": "被 Astra 震撼后的一个顿悟\n—— 要给自己配置无限额度的最强算力\n\n下午 Tibo 重置之后，我又满血复活了，然后重新跑了一个工作任务，做培训资料。\n\n在这之前，因为额度不够，我先用 DeepSeek 4.1 做了一些信息抓取，也跑了一版培训资料。结果怎么说呢，生成出来的东西基本就是一坨，完全不具备可用性，还花了很多时间，烧了大几百万、甚至上千万 token。\n\n这过程中我还顺手研究了一下 CC Switch 和 Open Code X，真挺有意思的。\n\nCC Switch 我感觉做得非常棒，比较轻量，Open Code X 也有一些可取之处。这两个东西如果以后有人能融合一下，我觉得会很有意思。\n\n话说回来。\n\nTibo 重置之后，我把同一个任务重新交给 Astra 跑了一遍。\n\n结果出来的时候，我直接傻了。\n\n它把我原来文件夹里的资料重新抓了一遍，又结合自己检索到的一些信息，最后整合成了一份可以直接拿来做培训的资料。\n\n最让我惊讶的是，它还帮我配了对应的图片和演示视频。\n\n而我的资料文件夹里，其实相关视频并不少。但它最后挑出来两个，刚刚好就是在我看来最有代表性、也最能说明这个功能的两个。\n\n这个感觉就很夸张。如果只是抓资料、做总结，那还是效率工具。\n\n但它能从一堆素材里面，挑出最适合放在这里的内容，那一瞬间我真的感觉：\n\n它理解了这个东西。\n\n不是简单的检索，也不是信息拼接。\n它知道这个培训资料想讲什么，也知道什么东西最适合拿来说明。\n\n有那么一瞬间，让我感觉 AGI 了。\n\n然后我脑子里面冒出来一个非常现实的想法：\n\n我还招什么人？\n\n至少资料检索、竞品研究、培训资料整理、信息汇总这一类工作，我招一个实习生，真没有一个 200 刀的 Pro 账户有用。\n\n而且还便宜高效得多。\n\n我现在只恨一件事：\n\n当初为什么没有多囤几个 200 刀的 Pro…\n\n下一个目标，就是等重新开放之后，给自己配置无限额度的 Pro 账户。\n\n另外下午还跑了一个鹈鹕测试。我不懂背后的运动学细节，但成片的协调、平衡和 taste 已经很惊艳。\n\n9分钟就跑出了这样的效果，很高级\n视频放在下面，大家可以自己感受。\n\n“今天，骑得开心”",
+        "created_at": "Sat Sep 12 11:27:15 +0000 2026",
+        "url": "https://x.com/python_xxt/status/2098735187618066904",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2098734989492072448/vid/avc1/320x496/B7m1KiOtqw2NEVM-.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2098734989492072448/img/xUJEYKOUvv14fKa4.jpg"
+        ]
+      },
+      "score": 30.89,
+      "title": "算力充裕的深层收益是扩大可尝试的问题集合",
+      "summary": "判断：对能定义问题与验收质量的人，前沿 AI 已接近「可按需采购的生产能力」；为核心工作配足额度有经济逻辑——避免有价值任务因缺执行力被放弃、已启动任务因额度降质。无限额度真正改变的是「愿意启动哪些工作」：稀缺时人会预判没时间/没人/没额度，许多问题根本进不了待办。资源约束影响的不只是速度，还有提问边界。",
+      "recommend_reason": "把额度从「跑得快」抬到「敢不敢开题」，是 Astra/算力讨论里少见的决策层表述。",
+      "tags": [
+        "算力",
+        "Astra",
+        "工作流",
+        "生产力"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2098790437830185040",
+      "author": "op7418",
+      "bio": "",
+      "text": "真的牛批，效果特别好！\n\nYuri 的脸出现在大屏幕上时，真的很神奇。很难想象现在的 AI 能做到在这种超大巨幕、半身大脸的情况下，还能有这么精细的表现的，完全没有恐怖谷的感觉。\n\n而且音频质量的表现也巨好，唱歌的声音和他说话的声音完全就是一个人。然后音乐的质量也非常好。\n\n在 AI 视频音频以及音乐这方面的结合上，汗青真是最顶级的了，返几张图。",
+      "created_at": "Sat Sep 12 15:06:48 +0000 2026",
+      "likes": 8,
+      "views": "5649",
+      "url": "https://x.com/i/status/2098790437830185040",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSBmX2YbMAAfGtN.jpg",
+        "https://pbs.twimg.com/media/HSBmX1yacAATdPi.jpg",
+        "https://pbs.twimg.com/media/HSBmX2OaUAA1Sqy.jpg",
+        "https://pbs.twimg.com/media/HSBmw0AaUAAoQB_.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSBmX2YbMAAfGtN.jpg",
+        "https://pbs.twimg.com/media/HSBmX1yacAATdPi.jpg",
+        "https://pbs.twimg.com/media/HSBmX2OaUAA1Sqy.jpg",
+        "https://pbs.twimg.com/media/HSBmw0AaUAAoQB_.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2098788162189635894",
+        "author": "hq4ai",
+        "name": "汗青 HQ",
+        "text": "尤栗Yuri的演唱会圆满落地。忙到现在总算能发个帖子，几千人的现场几乎全满了，最后一首歌时，大家都没走。站在最后看着这一幕，很难相信那一刻是真实的。\n百米巨幕12k，我们证明了AIGC完全能在线下创造视觉奇观。正式节目本周陆续更新。 https://t.co/BQ7s9pQqBZ",
+        "created_at": "Sat Sep 12 14:57:46 +0000 2026",
+        "url": "https://x.com/hq4ai/status/2098788162189635894",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HSBktGnboAEtr8u.jpg",
+          "https://pbs.twimg.com/media/HSBktGwawAEqowK.jpg",
+          "https://pbs.twimg.com/media/HSBktH7bMAERPqm.jpg",
+          "https://pbs.twimg.com/media/HSBktH6a8AACfqP.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HSBktGnboAEtr8u.jpg",
+          "https://pbs.twimg.com/media/HSBktGwawAEqowK.jpg",
+          "https://pbs.twimg.com/media/HSBktH7bMAERPqm.jpg",
+          "https://pbs.twimg.com/media/HSBktH6a8AACfqP.jpg"
+        ]
+      },
+      "score": 40.38,
+      "summary": "真的牛批，效果特别好！\n\nYuri 的脸出现在大屏幕上时，真的很神奇。很难想象现在的 AI 能做到在这种超大巨幕、半身大脸的情况下，还能有这么精细的表现的，完全没有恐怖谷的感觉。\n\n而且音频质量的表现也巨好，唱歌的声音和他说话的声音完全就是一个人。然后音乐的质量也非常好。\n\n在 AI 视频音频以及音乐这方面的结合上，汗青真是最顶级的了，返几张图。",
+      "recommend_reason": "百米巨幕 12K 半身大脸仍无恐怖谷，且声线一致，是 AIGC 线下大屏可用性的实锤观感。",
+      "tags": [
+        "AIGC",
+        "AI视频",
+        "线下大屏",
+        "汗青"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2098790016160030815",
+      "author": "turingou",
+      "bio": "",
+      "text": "在本地尝试去建立高精度的数字人体，同时用 GPT-6 操控 Blender、Marvelous Designer 和达芬奇。我现在感觉我的 token 消耗就像烧纸一样疯狂燃烧中！",
+      "created_at": "Sat Sep 12 15:05:08 +0000 2026",
+      "likes": 26,
+      "views": "5220",
+      "url": "https://x.com/i/status/2098790016160030815",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 56.207,
+      "summary": "在本地尝试去建立高精度的数字人体，同时用 GPT-6 操控 Blender、Marvelous Designer 和达芬奇。我现在感觉我的 token 消耗就像烧纸一样疯狂燃烧中！",
+      "recommend_reason": "多工具本地管线叠 GPT-6 控 Blender/MD/达芬奇，是多媒体 Agent 真在烧额度的体感样本。",
+      "tags": [
+        "GPT-6",
+        "Blender",
+        "数字人",
+        "多媒体"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2098789384073994270",
+      "author": "bindureddy",
+      "bio": "",
+      "text": "🚨PAUSE FRONTIER AI BUT PLEASE DO NOT BAN OPEN SOURCE AI\n\nAnthropic and OpenAI are more than free to pause frontier AI development.\n\nHowever, they SHOULD NOT be allowed to ban or regulate open-source AI, capture the market, or create a duopoly\n\nOpen-source AI is still behind frontier models and, by their own argument, isn't a threat!",
+      "created_at": "Sat Sep 12 15:02:37 +0000 2026",
+      "likes": 99,
+      "views": "180786",
+      "url": "https://x.com/i/status/2098789384073994270",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 58.684,
+      "title": "呼吁暂停前沿模型，但反对封杀开源 AI",
+      "summary": "Bindu Reddy 称 Anthropic/OpenAI 可自行暂停前沿模型开发，但不应借机封杀或监管开源 AI、借此巩固双寡头。理由是开源仍落后于前沿闭源，按他们自己的安全叙事也构不成同等威胁。",
+      "recommend_reason": "把「减速」和「封开源」拆开，点出安全叙事与市场俘获的张力，比单纯站队更有辨析价值。",
+      "tags": [
+        "开源AI",
+        "AI治理",
+        "Anthropic",
+        "OpenAI"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2098785357307539882",
+      "author": "levie",
+      "bio": "",
+      "text": "Good post. Don’t agree with all of it, but it represents many of the actual practical realities for the general path forward in frontier AI whether we like it or not.\n\nAt the level of capability we’re seeing from models there will inevitably be some form of coordinated self-regulation of the industry; that’s generally a good thing. The big question will be if everyone can agree to what that is. However, the way things are headed politically there’s a chance that the labs won’t even get a say in it.\n\nAnd then the bigger question yet is do all the countries participate or not. Any “slow down” hinges on broad participation, which from a game theory standpoint isn’t likely until the risks are more severe and obvious.\n\nExpect this to be pretty messy for a while.",
+      "created_at": "Sat Sep 12 14:46:37 +0000 2026",
+      "likes": 96,
+      "views": "20534",
+      "url": "https://x.com/i/status/2098785357307539882",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2098773920774074715",
+        "author": "DarioAmodei",
+        "name": "Dario Amodei",
+        "text": "We Must Pace the Frontier: I’ve written a new essay on why the AI industry should slow down, with a three-part plan for doing so.\n\nAnthropic is unilaterally committing to the first of these steps. We’ll provide third-party evaluators with permanent, employee-level access to our systems, so that they can verify adherence to our safety measures, report on incidents, and assess models’ alignment during training.\n\nYou can read the full post here: https://t.co/OGyPb7yaYt",
+        "created_at": "Sat Sep 12 14:01:10 +0000 2026",
+        "url": "https://x.com/DarioAmodei/status/2098773920774074715",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": [],
+        "card": {
+          "name": "summary_large_image",
+          "title": "Dario Amodei — We Must Pace the Frontier",
+          "image_url": "https://pbs.twimg.com/card_img/2098773734328832002/s94woeex?format=jpg&name=600x600",
+          "url": "https://t.co/OGyPb7yaYt",
+          "domain": "darioamodei.com"
+        }
+      },
+      "score": 43.264,
+      "title": "回应达里奥「Pace the Frontier」：自监管难在全球共谋",
+      "summary": "Box CEO Levie 不完全同意达里奥长文，但认可其反映前沿现实：能力到了这一层，行业协调式自监管几乎不可避免；难点是能否就规则达成一致，以及政治上实验室还能否有发言权。更大问题是各国是否都参与——从博弈论看，在风险尚未更明显前，「全面减速」很难成立。预计会乱一阵子。引用中 Anthropic 单方面承诺向第三方评估方提供员工级永久访问。",
+      "recommend_reason": "用博弈论补了一刀：单边减速叙事的最大漏洞是跨国参与，比复读安全宣言更贴近落地。",
+      "tags": [
+        "AI治理",
+        "Anthropic",
+        "自监管",
+        "产业评论"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2098779926065529284",
+      "author": "web3annie",
+      "bio": "",
+      "text": "达里奥很会炒作，昨天刚发完威胁情报，今天又一篇雄文呼吁给AI踩刹车，不然真要毁灭全人类了！\n\nOpenAI是Astra先推出去再说。达里奥若继续跟，安全人设就崩了，若自己慢，市占被人吃。最好的解法就是全行业一起慢。\n\n大家一起慢，跑得最快的对手会被拖住，如果拖不成，他至少占了道德高地。\n\n把对手写成不顾安全、把中国写成蒸馏偷能力，衬托自己更稳。\n\n公司正在冲上市，窗口往10月中靠，Hyperliquid 估值到2.2万亿美元。一边讲减速，一边租马斯克Colossus，一个月12.5亿美元算力。\n\n反正不管如何，AI 都会灭了人类，长痛不如短痛，还是不要阻止AI的好！https://t.co/pHnDAQWhvc",
+      "created_at": "Sat Sep 12 14:25:02 +0000 2026",
+      "likes": 3,
+      "views": "1025",
+      "url": "https://x.com/i/status/2098779926065529284",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSBdA25aUAEeDSN.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSBdA25aUAEeDSN.png"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 57.502,
+      "title": "达里奥喊踩刹车：安全人设、市占与算力租赁的三角",
+      "summary": "评论达里奥连续发威胁情报与「给 AI 踩刹车」长文：OpenAI 已先推 Astra；Anthropic 若跟进则安全人设受损，若独慢则丢市占，故倾向推动全行业一起慢以拖住对手并占道德高地。文中还提到上市窗口、对华蒸馏叙事，以及一边减速一边重金租 Colossus 算力的反差。",
+      "recommend_reason": "用博弈论拆「行业共减速」动机，比复读安全长文更能看清叙事与商业节奏。",
+      "tags": [
+        "Anthropic",
+        "AI安全",
+        "Astra",
+        "产业评论"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2098779630341943320",
+      "author": "lixinbao_X",
+      "bio": "",
+      "text": "Codex 现在支持整个工作流按任务难度分配不同的模型来进行执行了\n\n也就是一个工作流中简单的部分就用最轻量化的模型\n\n复杂的有难度的就用高级的模型\n\n如果执行过程中遇到困难自动再提升到最高级的模型进行专项攻坚了\n\n这样把工作流的任务分配给不同级别模型后\n\n既保证了流程的流畅，同时又可以避免过高的成本\n\n抓紧去试试吧",
+      "created_at": "Sat Sep 12 14:23:51 +0000 2026",
+      "likes": 0,
+      "views": "1240",
+      "url": "https://x.com/i/status/2098779630341943320",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 47.456,
+      "summary": "Codex 现在支持整个工作流按任务难度分配不同的模型来进行执行了\n\n也就是一个工作流中简单的部分就用最轻量化的模型\n\n复杂的有难度的就用高级的模型\n\n如果执行过程中遇到困难自动再提升到最高级的模型进行专项攻坚了\n\n这样把工作流的任务分配给不同级别模型后\n\n既保证了流程的流畅，同时又可以避免过高的成本\n\n抓紧去试试吧",
+      "recommend_reason": "工作流内按难度路由模型并遇阻自动升级，是控成本又不掉下限的硬功能点。",
+      "tags": [
+        "Codex",
+        "模型路由",
+        "成本",
+        "工作流"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2098778672723542493",
+      "author": "HiTw93",
+      "bio": "",
+      "text": "Casual note on document typography, from shipping Kami lately.\n\nWe have been deleting a lot of decoration. That cleanup taught me more about simple product design than adding features did.\n\nTypography exists so people can read and understand. Not to look clever. Not for the big-company PPT vibe. Content comes first. If you bend a good idea just to fit a template, or pad empty slots with filler, you lose the real voice.\n\nKeep type, tracking, leading, size, spacing, and radius calm enough that the page feels steady. Then ask the harder questions: who is reading, what must be said first, what is the core, what should they take away. Only then turn that into a clear page: where to start, what is important, what is secondary.\n\nSame for charts and images. A chart that shows a pattern, or a picture that explains the point, beats a wall of text. A pretty asset that says nothing is noise.\n\nMy rule is Occam for layout: do not add a line, a box, or a fill unless it helps the reader understand something. If size, spacing, and alignment already carry the relationship, stop. Keep weight or color when they genuinely help reading. Minimal does not mean empty.\n\nRecent Kami releases were mostly that kind of work. Side ticks next to titles are gone. Blue bars on callouts are gone. Soft shadows that did nothing are gone. Table rules got thinner and quieter. Spacing opened up. We also added lint checks so agents do not quietly put the clutter back.\n\nI want Kami to handle those boring layout details, so you can spend the energy on what you actually mean. Good content deserves a good layout.",
+      "created_at": "Sat Sep 12 14:20:03 +0000 2026",
+      "likes": 12,
+      "views": "2934",
+      "url": "https://x.com/i/status/2098778672723542493",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 53.066,
+      "title": "Kami 删装饰：排版为阅读服务，并给 Agent 加布局 lint",
+      "summary": "HiTw93 总结近期 Kami 发版：大量删除装饰（标题旁竖线、callout 蓝条、无用软阴影等），把字重、字距、行距、留白压稳，先问读者与核心信息再排版；图表/图片要能说明观点。奥卡姆原则：线框填充不助理解就不加。并加 lint，防止 Agent 把杂讯排版悄悄加回来，让 Kami 接管无聊布局细节。",
+      "recommend_reason": "把「给 Agent 的布局 lint」写进产品原则，是文档类 Agent 少见的可执行设计工程信号。",
+      "tags": [
+        "Kami",
+        "排版",
+        "Agent",
+        "产品设计"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2098778032496660578",
+      "author": "dugujun12",
+      "bio": "",
+      "text": "我觉得，DeepSeek harness 和 PI 不出客户端挺好的，只需要用 Web 端，然后让 AI 把他们的图标换一下，就可以实现原始的这种效果。而且它还很轻，不占电脑内存，体验也很流畅。\n\n除非官方真的出了这种原汁原味的客户端，要么就可以用这种方式，去实现仿佛有客户端的效果。 https://t.co/pU8bcxTKve",
+      "created_at": "Sat Sep 12 14:17:31 +0000 2026",
+      "likes": 3,
+      "views": "406",
+      "url": "https://x.com/i/status/2098778032496660578",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSBbNE2aoAAzOfx.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSBbNE2aoAAzOfx.png"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 58.462,
+      "summary": "我觉得，DeepSeek harness 和 PI 不出客户端挺好的，只需要用 Web 端，然后让 AI 把他们的图标换一下，就可以实现原始的这种效果。而且它还很轻，不占电脑内存，体验也很流畅。\n\n除非官方真的出了这种原汁原味的客户端，要么就可以用这种方式，去实现仿佛有客户端的效果。",
+      "recommend_reason": "轻客户端思路：Web+换图标伪装成本地 App，对 harness/PI 类工具是可复用的产品补丁。",
+      "tags": [
+        "DeepSeek",
+        "PI",
+        "客户端",
+        "工作流"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2098776988005581043",
+      "author": "VigoCreativeAI",
+      "bio": "",
+      "text": "VISUAL OS 038 — Step Season\n\nOne venue, one autumn. Four things worth watching get made.\n\nBodies in blue — aquatic motion / open practice · 03–05 OCT\nCity in stride — urban track meet / open sessions · 14–16 NOV\nMatter in motion — glass studio days / process live · 21–22 NOV\nSound in the making — percussion weekend / live rooms · 06–08 DEC\n\nLocked:\n– one flat saturated field, plus one hot second colour. Two inks, nothing else.\n– the photograph is duotone in the field colour\n– a stepped white channel cuts down the frame like pixel stairs\n– inside that channel the body flips to the hot colour\n– and the hot colour always lands on the part doing the work:\n  the torso entering the water, the driving leg, the molten gather, the struck cymbal\n– headline in sentence-case neo-grotesque, black — the first letter capital, nothing else\n– dates stacked as big black numerals, month and year beneath\n– one line of small bold caps bottom-left: the event, then the format\n– no grain, no gradient, no third colour\n\nSwaps: discipline / colour pair / where the steps fall / dates / event name\n\nEverything stays cool except the part doing the work.\n\nPrompt ↓",
+      "created_at": "Sat Sep 12 14:13:21 +0000 2026",
+      "likes": 8,
+      "views": "315",
+      "url": "https://x.com/i/status/2098776988005581043",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSBaiXLaEAA1crg.jpg",
+        "https://pbs.twimg.com/media/HSBaiWrWEAIHzIo.jpg",
+        "https://pbs.twimg.com/media/HSBaiXQbMAAlg9K.jpg",
+        "https://pbs.twimg.com/media/HSBaiW0WoAUqLwC.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSBaiXLaEAA1crg.jpg",
+        "https://pbs.twimg.com/media/HSBaiWrWEAIHzIo.jpg",
+        "https://pbs.twimg.com/media/HSBaiXQbMAAlg9K.jpg",
+        "https://pbs.twimg.com/media/HSBaiW0WoAUqLwC.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 67.175,
+      "title": "VISUAL OS 038：双色阶梯通道锁定活动视觉配方",
+      "summary": "Vigo 放出一套可复用的活动视觉系统：一场馆一秋季四场活动；锁定「一块平涂主色场+一热点第二色」双油墨，照片做成场色双色调，白色阶梯通道切开画面，通道内身体翻成热点色且热点永远落在「正在发力」的部位；标题用句首大写无衬线，日期大号数字叠月年，左下角小 caps 写活动与形式；禁止颗粒/渐变/第三色。可替换项目：项目门类、色对、阶梯位置、日期、活动名。",
+      "recommend_reason": "把活动视觉收成可换参的 OS 配方，对生成式设计/提示词工程是可直接套用的结构样本。",
+      "tags": [
+        "提示词",
+        "视觉设计",
+        "生成式设计",
+        "创意系统"
+      ],
+      "rank": 11
+    },
+    {
       "id": "2098747242240766374",
       "author": "lifesinger",
       "bio": "I am curious and honest",
@@ -44,7 +406,101 @@
         "数据可信度",
         "付费用户"
       ],
-      "rank": 1
+      "rank": 12
+    },
+    {
+      "id": "2098743051170795859",
+      "author": "xiaohu",
+      "bio": "",
+      "text": "Codex 宠物改版了\n\n现在你可以在不用打开客户端界面的情况下，直接通过宠物的弹出窗口直接回复特定内容\n\n更加方便快捷\n\n支持语音和文本输入两种回复模式 https://t.co/GKAd8tawsg",
+      "created_at": "Sat Sep 12 11:58:30 +0000 2026",
+      "likes": 1,
+      "views": "1129",
+      "url": "https://x.com/i/status/2098743051170795859",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2098742369541849089/vid/avc1/458x270/M4vbyg_1Cq_CpFMT.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2098742369541849089/img/syqBl1Uf-34t3wEf.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 53.981,
+      "summary": "Codex 宠物改版了\n\n现在你可以在不用打开客户端界面的情况下，直接通过宠物的弹出窗口直接回复特定内容\n\n更加方便快捷\n\n支持语音和文本输入两种回复模式",
+      "recommend_reason": "宠物弹出窗可语音/文本回复，说明 Codex 桌面交互在往「不必回到主界面」推进。",
+      "tags": [
+        "Codex",
+        "产品更新",
+        "桌面交互"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2098741882247684243",
+      "author": "JulianGoldieSEO",
+      "bio": "",
+      "text": "Gemini Notebook's new updates are wild.\n\nGoogle just dropped 4 upgrades that turn it from a notebook into a work partner.\n\nQuick refresher: you feed it PDFs, websites, and videos. It answers using ONLY your sources. No made-up facts.\n\nNow the updates:\n\n→ Full mobile app. Drop a competitor's article in from your phone. Research done before you sit at your desk.\n\n→ Notifications. Start a big task. Walk away. It pings you when it's done. No more babysitting AI.\n\n→ This is the big one: quiz results become a study plan. Take a quiz on your sources. It finds your weak spots. Then builds flashcards for ONLY what you got wrong.\n\n→ Close the app. Come back later. It remembers everything. Even your flashcard progress.\n\nThat third one is a full learning loop.\n\nLearn. Get tested. Find gaps. Fix gaps. Repeat.\n\nUpload your team's onboarding guide and it trains new hires the same way.\n\nMost people read and forget.\n\nThe smart ones built a loop that finds what they missed.",
+      "created_at": "Sat Sep 12 11:53:52 +0000 2026",
+      "likes": 5,
+      "views": "722",
+      "url": "https://x.com/i/status/2098741882247684243",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2098741683404087296/vid/avc1/480x270/1F5XNte5KWVfpuiC.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2098741683404087296/img/mgz6420xRxyQ-NUO.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 59.627,
+      "title": "NotebookLM 四项更新：测验弱点直出学习计划",
+      "summary": "盘点 Gemini Notebook（NotebookLM）四项升级：完整移动端可随手丢竞品文章做研究；长任务可后台跑完再通知；测验结果会定位薄弱点并只为错题生成闪卡，形成学-测-补闭环；关闭后再打开仍保留进度与记忆。仍强调只基于你提供的 PDF/网页/视频作答。",
+      "recommend_reason": "「错题→闪卡」把 NotebookLM 从资料问答推到可闭环学习产品，比空泛「又更新了」更值得跟。",
+      "tags": [
+        "Gemini Notebook",
+        "Gemini",
+        "学习闭环",
+        "产品更新"
+      ],
+      "rank": 14
+    },
+    {
+      "id": "2098739711426834941",
+      "author": "RookieRicardoR",
+      "bio": "",
+      "text": "我恰好真正要写的代码不多，现在都交给 AI 了，我自己来审查。\n\n我发现：AI 经常给我一些它认为有漏洞的优化点， AI 作为一个有一定智能的东西，它被训练了很多最佳实践，但是现实不是理想情况，大公司代码往往不是按照最佳实践来走的，\n\n它就天然会认为某些地方有逻辑漏洞，再让它去深入追查一番链路之后，它才确认并没有漏洞，\n\n虽然 AI 嘴上天天给我说 “我不猜，先去查”，但是它给我的结论，五个我只会采纳一个。",
+      "created_at": "Sat Sep 12 11:45:14 +0000 2026",
+      "likes": 3,
+      "views": "197",
+      "url": "https://x.com/i/status/2098739711426834941",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2098701470853972470",
+        "author": "dotey",
+        "name": "宝玉",
+        "text": "听说现在公司 Code Review：\n同事让 Agent 去 Review PR，把 Agent Review 的结果贴过去当评论；\n作者把评论发给 Agent 修改；\n同事再让 Agent 去 Review 新的修改结果；\n反复几次\n\n活都是 Agent 在干，人在这过程中主要是复制粘贴",
+        "created_at": "Sat Sep 12 09:13:17 +0000 2026",
+        "url": "https://x.com/dotey/status/2098701470853972470",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 39.323,
+      "title": "Agent Code Review：五个结论我只采一个",
+      "summary": "作者代码多交 AI、自己审查：模型常按「最佳实践」误报逻辑漏洞，在大公司非理想代码上尤其如此；让它深追链路后往往自行撤销。嘴上说「不猜先查」，但五个结论大概只采一个。引用点出同事用 Agent 互评 PR、作者再丢回 Agent 改的复制粘贴闭环。",
+      "recommend_reason": "点名 Agent Review 的假阳性与人机复制粘贴闭环，比「全面交给 AI」更接近真实工程体感。",
+      "tags": [
+        "Code Review",
+        "Agent",
+        "工程实践",
+        "假阳性"
+      ],
+      "rank": 15
     },
     {
       "id": "2098737094839705604",
@@ -82,7 +538,7 @@
         "子代理",
         "成本"
       ],
-      "rank": 2
+      "rank": 16
     },
     {
       "id": "2098735187618066904",
@@ -114,7 +570,7 @@
         "培训资料",
         "产品质量"
       ],
-      "rank": 3
+      "rank": 17
     },
     {
       "id": "2098724053192515723",
@@ -160,7 +616,7 @@
         "独立开发",
         "ChatGPT"
       ],
-      "rank": 4
+      "rank": 18
     },
     {
       "id": "2098713302033735769",
@@ -192,7 +648,7 @@
         "开源",
         "Agent"
       ],
-      "rank": 5
+      "rank": 19
     },
     {
       "id": "2098700309631512888",
@@ -234,7 +690,7 @@
         "职业",
         "Agent"
       ],
-      "rank": 6
+      "rank": 20
     },
     {
       "id": "2098697126373097840",
@@ -266,7 +722,7 @@
         "开源模型",
         "编程Agent"
       ],
-      "rank": 7
+      "rank": 21
     },
     {
       "id": "2098695978635416012",
@@ -320,7 +776,7 @@
         "图像生成",
         "Skill"
       ],
-      "rank": 8
+      "rank": 22
     },
     {
       "id": "2098694457298464903",
@@ -352,7 +808,7 @@
         "营销",
         "工作流"
       ],
-      "rank": 9
+      "rank": 23
     },
     {
       "id": "2098683651739320420",
@@ -394,7 +850,7 @@
         "开源模型",
         "趋势"
       ],
-      "rank": 10
+      "rank": 24
     },
     {
       "id": "2098677434245619948",
@@ -436,7 +892,7 @@
         "风控",
         "GPT-6"
       ],
-      "rank": 11
+      "rank": 25
     },
     {
       "id": "2098674680932810999",
@@ -463,7 +919,7 @@
         "研究者",
         "Naval"
       ],
-      "rank": 12
+      "rank": 26
     },
     {
       "id": "2098657552183758983",
@@ -490,7 +946,7 @@
         "用户规模",
         "产品策略"
       ],
-      "rank": 13
+      "rank": 27
     },
     {
       "id": "2098640916231966888",
@@ -522,7 +978,7 @@
         "语音Agent",
         "桌面"
       ],
-      "rank": 14
+      "rank": 28
     },
     {
       "id": "2098639827084480864",
@@ -550,7 +1006,7 @@
         "Agents API",
         "产品更新"
       ],
-      "rank": 15
+      "rank": 29
     },
     {
       "id": "2098627092892295568",
@@ -596,7 +1052,7 @@
         "办公Agent",
         "产品观察"
       ],
-      "rank": 16
+      "rank": 30
     },
     {
       "id": "2098620690069176426",
@@ -642,7 +1098,7 @@
         "开源Skill",
         "多媒体"
       ],
-      "rank": 17,
+      "rank": 31,
       "title": "开源 BLCaptain：给 Codex 的本地照片/视频调色 Skill"
     },
     {
@@ -682,7 +1138,7 @@
         "额度重置",
         "产品质量"
       ],
-      "rank": 18
+      "rank": 32
     },
     {
       "id": "2098613379330163144",
@@ -711,7 +1167,7 @@
         "NewMax",
         "API"
       ],
-      "rank": 19
+      "rank": 33
     },
     {
       "id": "2098605953365225498",
@@ -743,7 +1199,7 @@
         "提示词",
         "产品更新"
       ],
-      "rank": 20
+      "rank": 34
     },
     {
       "id": "2098600205793042458",
@@ -778,7 +1234,7 @@
         "产业链",
         "中国制造"
       ],
-      "rank": 21,
+      "rank": 35,
       "title": "中国新能源汽车：产量第一之后要争标准与话语权"
     },
     {
@@ -808,7 +1264,7 @@
         "编程Agent",
         "产品更新"
       ],
-      "rank": 22,
+      "rank": 36,
       "title": "Cursor 推出 Projects：云端协调 Agent 可跨月保上下文"
     },
     {
@@ -844,7 +1300,7 @@
         "herdr",
         "工作流"
       ],
-      "rank": 23
+      "rank": 37
     },
     {
       "id": "2098589312086581355",
@@ -867,10 +1323,10 @@
         "Agent",
         "硬件场景"
       ],
-      "rank": 24
+      "rank": 38
     }
   ],
-  "generated_at": "2026-09-12T12:18:18Z",
+  "generated_at": "2026-09-12T16:06:30Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -881,8 +1337,8 @@
     "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 24,
-    "last_batch_added": 16,
+    "actual_count": 38,
+    "last_batch_added": 14,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
