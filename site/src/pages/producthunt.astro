@@ -1,0 +1,126 @@
+---
+import "../styles/global.css";
+import LogoutControl from "../components/LogoutControl.astro";
+import SiteNav from "../components/SiteNav.astro";
+import ProducthuntViewer from "../components/ProducthuntViewer.astro";
+import { formatBeijingDateTime } from "../lib/news.mjs";
+import {
+  getDigestFeed,
+  getRecentReportDates,
+  hasDigestContent,
+  producthuntVotesLabel,
+  topProducts,
+} from "../lib/producthunt.mjs";
+
+const feed = await getDigestFeed();
+const products = topProducts(feed.products);
+const hasContent = hasDigestContent(feed);
+const updated = formatBeijingDateTime(feed.updated_at);
+const recentDates = await getRecentReportDates();
+const takeaways = feed.takeaways;
+const recommend = feed.recommend;
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={feed.title || "Product Hunt 点子日报"} />
+    <title>Product Hunt · 工具库</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#producthunt-list">跳到列表</a>
+    <div class="page-shell">
+      <header class="site-header">
+        <div>
+          <p class="eyebrow">Product Hunt</p>
+          <h1>Product Hunt</h1>
+          {feed.title && (
+            <p class="intro">
+              {feed.title}
+              {feed.date ? ` · ${feed.date}` : ""}
+              {updated ? ` · ${updated}` : ""}
+            </p>
+          )}
+          {recentDates.length > 0 && (
+            <p class="intro history-dates">历史报告 · {recentDates.join(" · ")}（主视图始终读取 digest.json）</p>
+          )}
+        </div>
+        <div class="header-stats">
+          <p class="record-count">{feed.count} 个产品</p>
+          <LogoutControl />
+        </div>
+      </header>
+
+      <SiteNav current="producthunt" />
+
+      {!hasContent ? (
+        <main id="producthunt-list">
+          <section class="empty-state" aria-labelledby="empty-title">
+            <p class="empty-icon">✦</p>
+            <h2 id="empty-title">暂时没有 Product Hunt 点子</h2>
+            <p>等待 data/producthunt 写入 digest.json 后会出现在这里。</p>
+          </section>
+        </main>
+      ) : (
+        <main id="producthunt-list">
+          <section class="tool-section" aria-labelledby="ph-takeaways-title">
+            <div class="section-heading">
+              <h2 id="ph-takeaways-title">今日要点</h2>
+              <p>{takeaways.length} 条</p>
+            </div>
+            {takeaways.length > 0 ? (
+              <ul class="judgement-list">{takeaways.map((line) => <li>{line}</li>)}</ul>
+            ) : (
+              <p class="section-empty">今日暂无要点</p>
+            )}
+            {recommend && <p class="intro"><strong>推荐</strong> · {recommend}</p>}
+          </section>
+          <section class="tool-section" aria-labelledby="ph-top10-title">
+            <div class="section-heading">
+              <h2 id="ph-top10-title">Top10</h2>
+              <p>{products.length} 个</p>
+            </div>
+            <div class="tool-grid">
+              {products.map((item) => (
+                <article class="tool-card">
+                  <button type="button" class="card-link" data-ph-open data-ph-key={item.id} aria-label={item.name}></button>
+                  <div class="card-content">
+                    <div class="card-meta">
+                      {item.rank !== "" && <span class="tweet-score">{item.rank}</span>}
+                      {producthuntVotesLabel(item.votes) && (
+                        <span class="category">{producthuntVotesLabel(item.votes)}</span>
+                      )}
+                    </div>
+                    <h3>{item.name}</h3>
+                    <p>{item.tagline}</p>
+                  </div>
+                </article>
+              ))}
+            </div>
+          </section>
+        </main>
+      )}
+    </div>
+    <ProducthuntViewer items={products} />
+    <footer class="site-footer">
+      <p>数据来自 data/producthunt JSON，构建时读取，不另存 HTML。</p>
+    </footer>
+  </body>
+</html>
+
+<style>
+  .section-empty {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-caption);
+    margin: 0;
+  }
+  .judgement-list {
+    color: var(--color-text-primary);
+    display: grid;
+    gap: var(--spacing-sm);
+    margin: 0;
+    padding-left: 1.2rem;
+  }
+  .history-dates { font-size: var(--font-size-caption); }
+</style>

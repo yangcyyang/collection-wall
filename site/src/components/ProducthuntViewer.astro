@@ -1,0 +1,122 @@
+---
+import { producthuntVotesLabel } from "../lib/producthunt.mjs";
+
+const { items = [] } = Astro.props;
+---
+
+<div class="radar-viewer" hidden data-ph-viewer>
+  <button type="button" class="radar-viewer-backdrop" data-ph-close aria-label="关闭详情" tabindex="-1"></button>
+  <div class="radar-viewer-dialog" role="dialog" aria-modal="true" aria-labelledby="ph-viewer-title">
+    <button type="button" class="radar-viewer-close" data-ph-close>关闭</button>
+    <div class="radar-viewer-body" data-ph-body></div>
+  </div>
+</div>
+
+{items.map((item) => {
+  const votes = producthuntVotesLabel(item.votes);
+  return (
+    <template data-ph-template={item.id}>
+      <header class="radar-viewer-header">
+        <div>
+          <h2 id="ph-viewer-title">{item.name}</h2>
+          {item.tagline && <p class="radar-viewer-summary">{item.tagline}</p>}
+        </div>
+        <div class="radar-viewer-meta">
+          {item.rank !== "" && <span class="tweet-score">{item.rank}</span>}
+          {votes && <span class="category">{votes}</span>}
+        </div>
+      </header>
+      {item.intro && (
+        <section class="radar-viewer-section">
+          <h3>介绍</h3>
+          <p>{item.intro}</p>
+        </section>
+      )}
+      {(item.producthunt_url || item.website) && (
+        <section class="radar-viewer-section">
+          <h3>链接</h3>
+          <p class="news-links">
+            {item.producthunt_url && (
+              <a class="tweet-link" href={item.producthunt_url} target="_blank" rel="noreferrer">Product Hunt →</a>
+            )}
+            {item.website && (
+              <a class="tweet-link" href={item.website} target="_blank" rel="noreferrer">官网 →</a>
+            )}
+          </p>
+        </section>
+      )}
+    </template>
+  );
+})}
+
+<script>
+  const viewer = document.querySelector("[data-ph-viewer]");
+  const body = viewer?.querySelector("[data-ph-body]");
+  const dialog = viewer?.querySelector(".radar-viewer-dialog");
+  const closeBtn = viewer?.querySelector(".radar-viewer-close");
+  let lastTrigger = null;
+
+  function setBackgroundInert(on) {
+    if (!viewer) return;
+    for (const child of document.body.children) {
+      if (child === viewer || child.tagName === "SCRIPT") continue;
+      child.toggleAttribute("inert", on);
+    }
+  }
+
+  function trapFocusables() {
+    if (!dialog) return [];
+    return [closeBtn, ...dialog.querySelectorAll("a[href], button")].filter((el, index, list) => {
+      return el && !el.hidden && list.indexOf(el) === index;
+    });
+  }
+
+  function open(key, trigger) {
+    const template = document.querySelector(`[data-ph-template="${CSS.escape(key)}"]`);
+    if (!template || !viewer || !body) return;
+    lastTrigger = trigger ?? null;
+    body.replaceChildren(template.content.cloneNode(true));
+    viewer.hidden = false;
+    document.body.classList.add("radar-viewer-open");
+    setBackgroundInert(true);
+    closeBtn?.focus();
+  }
+
+  function close() {
+    if (!viewer || viewer.hidden) return;
+    viewer.hidden = true;
+    document.body.classList.remove("radar-viewer-open");
+    setBackgroundInert(false);
+    body?.replaceChildren();
+    lastTrigger?.focus();
+    lastTrigger = null;
+  }
+
+  document.querySelectorAll("[data-ph-open]").forEach((button) => {
+    button.addEventListener("click", () => {
+      open(button.getAttribute("data-ph-key") ?? "", button);
+    });
+  });
+
+  viewer?.querySelectorAll("[data-ph-close]").forEach((button) => {
+    button.addEventListener("click", close);
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (!viewer || viewer.hidden) return;
+    if (event.key === "Escape") {
+      close();
+      return;
+    }
+    if (event.key !== "Tab") return;
+    const list = trapFocusables();
+    if (!list.length) return;
+    const first = list[0];
+    const last = list[list.length - 1];
+    const outside = !list.includes(document.activeElement);
+    if (list.length === 1 || outside || (event.shiftKey && document.activeElement === first) || (!event.shiftKey && document.activeElement === last)) {
+      event.preventDefault();
+      (event.shiftKey ? last : first).focus();
+    }
+  });
+</script>
