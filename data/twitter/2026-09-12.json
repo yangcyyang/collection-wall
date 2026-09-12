@@ -9,6 +9,596 @@
   },
   "items": [
     {
+      "id": "2098747242240766374",
+      "author": "lifesinger",
+      "bio": "I am curious and honest",
+      "text": "继续深挖，发现很有意思：\n\n1、OpenAI 从未披露过“Codex 付费用户”这个数字。\n\n2、官方唯一承认“存在一个付费子集”的地方，是每次里程碑公告里那句：we have now reset usage for all paid subscriptions for ChatGPT Work and Codex。它证明付费用户确实存在，但一个数、一个比例都不给。\n\n3、这是一个“官方故意不报、外部也推不出来”的数。任何声称“Codex 付费用户 XXX 万”的文章都要警惕。\n\n用 YouMind 快速做了一个 PPT 来挖下这事。",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "views": 20,
+      "created_at": "Sat Sep 12 12:15:10 +0000 2026",
+      "url": "https://x.com/lifesinger/status/2098747242240766374",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSA_HLEbIAAuQAf.jpg",
+        "https://pbs.twimg.com/media/HSA_MDmaMAAvK0X.jpg",
+        "https://pbs.twimg.com/media/HSA_QfEbcAAaX_Z.jpg",
+        "https://pbs.twimg.com/media/HSA_eAwbYAEw7sY.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSA_HLEbIAAuQAf.jpg",
+        "https://pbs.twimg.com/media/HSA_MDmaMAAvK0X.jpg",
+        "https://pbs.twimg.com/media/HSA_QfEbcAAaX_Z.jpg",
+        "https://pbs.twimg.com/media/HSA_eAwbYAEw7sY.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 74.601,
+      "title": "OpenAI 从未披露 Codex 付费用户规模",
+      "summary": "玉伯梳理：OpenAI 从未公布 Codex 付费用户数；官方仅在里程碑公告里承认存在 ChatGPT Work/Codex 付费订阅并重置用量，但不给绝对数或比例。外部也推不出这个数，因此任何「Codex 付费用户 XXX 万」的文章都要警惕。",
+      "recommend_reason": "把一个常被媒体瞎估的核心指标钉死为「官方故意不报」，对判断 Codex 商业化叙事很有用。",
+      "tags": [
+        "Codex",
+        "OpenAI",
+        "数据可信度",
+        "付费用户"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2098737094839705604",
+      "author": "sairahul1",
+      "bio": "Building with AI. Sharing what's wild, what's practical, and what's next.",
+      "text": "If you don't know, you can use DeepSeek V4.1 Flash as a subagent inside a GPT-6 Astra Codex workflow.\n\nThat means Astra can plan the work and delegate implementation to Flash.\n\nThis can cut your AI agent costs massively.\n\nYou just need to set it up once.\n\nHere's how:\n\nStep 1: Install codex-router\n\ncurl -fsSL https://t.co/hQsAwXR6rp\n| sh -s -- --target codex --guided --with-tray\n\nStep 2: Add your DeepSeek/Opencode API key\n\nEnable:\n\ndeepseek/deepseek-v4-flash\n\nas a subagent model.\n\nKeep GPT-6 Astra as your root model.\n\nDo NOT make Flash the default root model.\n\nStep 3: Tell Astra how to delegate\n\nUse this rule:\n\n\"You are the orchestrator.\n\nUse Astra for planning, architecture, security-sensitive decisions and final review.\n\nFor implementation, coding, debugging, research, writing, data processing and routine work, explicitly delegate bounded subtasks to deepseek/deepseek-v4-flash.\n\nAfter Flash finishes, inspect the result yourself before accepting it.\"\n\nStep 4: Verify it\n\nRun a small implementation task.\n\nCheck router activity.\n\nYou should see:\n\nAstra → delegates → DeepSeek Flash → result → Astra reviews\n\nThat's it.\n\n$20 ChatGPT Plus.\n\n~$30 DeepSeek credits.\n\nA 24/7 AI workforce for around $50/month.\n\nFull guide below 👇",
+      "likes": 11,
+      "retweets": 3,
+      "replies": 4,
+      "views": 1285,
+      "created_at": "Sat Sep 12 11:34:50 +0000 2026",
+      "url": "https://x.com/sairahul1/status/2098737094839705604",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2098699529487028643",
+        "author": "sairahul1",
+        "name": "Rahul",
+        "text": "DeepSeek just launched V4.1 Flash.\n\n98% of GPT-6 Astra’s score at 1.4% of the cost.\n\nWith GPT-6 Astra + DeepSeek V4.1 Flash, you can build an AI workforce that works 24/7 for around $50/month.\n\nFull setup: https://t.co/MGurzTkAt4",
+        "created_at": "Sat Sep 12 09:05:34 +0000 2026",
+        "url": "https://x.com/sairahul1/status/2098699529487028643",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 55.756,
+      "title": "Astra 编排 + DeepSeek V4.1 Flash 子代理：约 $50/月",
+      "summary": "教程：用 codex-router 把 DeepSeek V4.1 Flash 设为子代理，Astra 做规划/架构/终审并委派实现类子任务；强调不要把 Flash 当根模型。称 ChatGPT Plus + DeepSeek 额度可支撑约 $50/月的 24/7 劳动力。",
+      "recommend_reason": "把「贵模型编排、便宜模型干活」写成可复制的路由配置，直接对应成本焦虑。",
+      "tags": [
+        "DeepSeek",
+        "Astra",
+        "子代理",
+        "成本"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2098735187618066904",
+      "author": "python_xxt",
+      "bio": "AI | Life | Investing | 思考，是为了不被动地活着",
+      "text": "被 Astra 震撼后的一个顿悟\n—— 要给自己配置无限额度的最强算力\n\n下午 Tibo 重置之后，我又满血复活了，然后重新跑了一个工作任务，做培训资料。\n\n在这之前，因为额度不够，我先用 DeepSeek 4.1 做了一些信息抓取，也跑了一版培训资料。结果怎么说呢，生成出来的东西基本就是一坨，完全不具备可用性，还花了很多时间，烧了大几百万、甚至上千万 token。\n\n这过程中我还顺手研究了一下 CC Switch 和 Open Code X，真挺有意思的。\n\nCC Switch 我感觉做得非常棒，比较轻量，Open Code X 也有一些可取之处。这两个东西如果以后有人能融合一下，我觉得会很有意思。\n\n话说回来。\n\nTibo 重置之后，我把同一个任务重新交给 Astra 跑了一遍。\n\n结果出来的时候，我直接傻了。\n\n它把我原来文件夹里的资料重新抓了一遍，又结合自己检索到的一些信息，最后整合成了一份可以直接拿来做培训的资料。\n\n最让我惊讶的是，它还帮我配了对应的图片和演示视频。\n\n而我的资料文件夹里，其实相关视频并不少。但它最后挑出来两个，刚刚好就是在我看来最有代表性、也最能说明这个功能的两个。\n\n这个感觉就很夸张。如果只是抓资料、做总结，那还是效率工具。\n\n但它能从一堆素材里面，挑出最适合放在这里的内容，那一瞬间我真的感觉：\n\n它理解了这个东西。\n\n不是简单的检索，也不是信息拼接。\n它知道这个培训资料想讲什么，也知道什么东西最适合拿来说明。\n\n有那么一瞬间，让我感觉 AGI 了。\n\n然后我脑子里面冒出来一个非常现实的想法：\n\n我还招什么人？\n\n至少资料检索、竞品研究、培训资料整理、信息汇总这一类工作，我招一个实习生，真没有一个 200 刀的 Pro 账户有用。\n\n而且还便宜高效得多。\n\n我现在只恨一件事：\n\n当初为什么没有多囤几个 200 刀的 Pro…\n\n下一个目标，就是等重新开放之后，给自己配置无限额度的 Pro 账户。\n\n另外下午还跑了一个鹈鹕测试。我不懂背后的运动学细节，但成片的协调、平衡和 taste 已经很惊艳。\n\n9分钟就跑出了这样的效果，很高级\n视频放在下面，大家可以自己感受。\n\n“今天，骑得开心”",
+      "likes": 3,
+      "retweets": 0,
+      "replies": 2,
+      "views": 597,
+      "created_at": "Sat Sep 12 11:27:15 +0000 2026",
+      "url": "https://x.com/python_xxt/status/2098735187618066904",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2098734989492072448/vid/avc1/320x496/B7m1KiOtqw2NEVM-.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2098734989492072448/img/xUJEYKOUvv14fKa4.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 58.192,
+      "title": "额度重置后再跑 Astra：培训资料选材像「理解了」",
+      "summary": "作者对比额度不足时用 DeepSeek 跑培训资料「基本是一坨」，Tibo 重置后同任务交给 Astra：重抓资料、配图配演示视频，还能从大量素材里挑出最代表性的两段。结论是检索汇总类岗位不如一个 Pro；下一步想囤无限额度。",
+      "recommend_reason": "用前后对照说明「最强模型 + 足额」在品味与选材上的跃迁，不只是速度。",
+      "tags": [
+        "Astra",
+        "Codex",
+        "培训资料",
+        "产品质量"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2098724053192515723",
+      "author": "marclou",
+      "bio": "⭐️ https://t.co/MZc8tG9xWi $44K/m\n📈 https://t.co/3EDxln5mdi $26K/m\n🏴‍☠️ https://t.co/YBGJuAsUZ4 $13K/m\n🧑‍💻 https://t.co/Y30jsaHwz9 $6K/m\n⚡️ https://t.co/vatLDmi9UG $4K/m\n🍜 https://t.co/r07EpGSYJ2 $1K/m\n🕵 https://t.co/3JtsA6kaxI\n\n+29 https://t.co/4zCWHGJp1S",
+      "text": "Around the time I launched this SaaS, OpenAI and Anthropic started indexing the website.\n\nChatGPT and Claude are now crawling Stalkr ~100 times a day to answer user queries.\n\nMeanwhile, Google started training its models 2+ weeks ago, when I didn't really talk about Stalkr at all.\n\nWhat I understand from this:\n\n- Backlinks help you get discovered by LLMs\n- People talking about your app is how AI labs really pick it up",
+      "likes": 75,
+      "retweets": 2,
+      "replies": 36,
+      "views": 14678,
+      "created_at": "Sat Sep 12 10:43:01 +0000 2026",
+      "url": "https://x.com/marclou/status/2098724053192515723",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSAqZ6maMAEdP50.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSAqZ6maMAEdP50.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2094760292572115202",
+        "author": "marclou",
+        "name": "Marc Lou",
+        "text": "I JUST GOT MY FIRST CUSTOMER FOR https://t.co/FDYKlFl6Jf 🤩 https://t.co/GILo8IndKV",
+        "created_at": "Tue Sep 01 12:12:27 +0000 2026",
+        "url": "https://x.com/marclou/status/2094760292572115202",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HRIVYpSaEAAvn9b.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HRIVYpSaEAAvn9b.jpg"
+        ]
+      },
+      "score": 65.415,
+      "title": "LLM 发现你的产品：外链帮发现，口碑决定收录",
+      "summary": "独立开发者观察：SaaS 上线后 ChatGPT/Claude 每天约爬 100 次站点回答用户问题；Google 更早在几乎没人讨论时就开始训练抓取。他的结论：外链帮助被 LLM 发现，但真正让 AI 实验室重视的是人们在谈论你的产品。",
+      "recommend_reason": "把 GEO/LLM SEO 从玄学落到「爬取频率 + 讨论度」的可观察信号。",
+      "tags": [
+        "GEO",
+        "LLM SEO",
+        "独立开发",
+        "ChatGPT"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2098713302033735769",
+      "author": "GoSailGlobal",
+      "bio": "Show In Public ｜ SaaS 出海 ｜ 克尔凯郭尔种草🌿\n\nSkills hub：https://t.co/x1VU8wWNj1\n博客：https://t.co/ajYYIXGqFg\n\n🤝 合作DM：GoSail_AI\n📮：m17551076169@gmail.com\n\nMCN：collab@gosaillab.com",
+      "text": "做 App 的人最怕的从来是这句话：功能都做完了，怎么收钱？\n\n海明Dev 刚开源的 haiming-app-monetization，2 天 168 star\n\n一个专门管 App 商业化的 Skill：读你的项目代码，去查同类产品的真实定价，然后给出 onboarding、付费墙、套餐方案，直接能交给开发 Agent 落地\n\n最妙的是它很诚实\n\n默认只评估不改代码，查不到价格就标\"未核实\"，AI 类 App 有持续成本它就不推无限终身，验收文档里明确写了不承诺转化率\n\n这种克制反而比吹得天花乱坠的靠谱!!\n\nClaude Code、Codex、Cursor 这类支持 Skill 的 Agent 都能用，一行装上：\nnpx skills add HammingDev/haiming-app-monetization",
+      "likes": 7,
+      "retweets": 1,
+      "replies": 2,
+      "views": 842,
+      "created_at": "Sat Sep 12 10:00:18 +0000 2026",
+      "url": "https://x.com/GoSailGlobal/status/2098713302033735769",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2098713266898018304/vid/avc1/480x270/Fl8Hs3vdV2gfjIkx.mp4?tag=16"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2098713266898018304/img/t3APpELC8QolhofJ.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 61.474,
+      "title": "开源 Skill：让 Agent 帮 App 想清楚怎么收钱",
+      "summary": "介绍 HammingDev 开源的 haiming-app-monetization：读项目代码、查竞品真实定价，给出 onboarding/付费墙/套餐并交给开发 Agent 落地；默认只评估不改代码，查不到标未核实，对有持续成本的 AI App 不推无限终身。可用 npx skills add 安装。",
+      "recommend_reason": "把商业化从口号变成可挂上 Claude Code/Codex/Cursor 的克制型 Skill。",
+      "tags": [
+        "Skill",
+        "App商业化",
+        "开源",
+        "Agent"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2098700309631512888",
+      "author": "dotey",
+      "bio": "AI Engineer, dedicated to learning and disseminating knowledge about AI, software engineering, and engineering management.",
+      "text": "一、“程序员除了写代码啥也不会”，这个前提是错的\n\n严格说，从事软件开发这个职业的人叫软件工程师，不叫程序员。\n\n做一个项目，要理解需求、基于需求抽象设计、编码、验证、上线后维护，只会写代码的人从来就不是合格的工程师。\n\nAI 确实能生成代码，但代码只是软件的中间产物，除了代码还要：\n- 搞清楚要解决什么问题\n- 把模糊需求变成可验证的规格\n- 发现 AI 写错了但测试没测出来的地方\n- 让系统在生产环境里稳定运行\n- 没有安全漏洞\n- 等等\n\n如果说“程序员唯一会的东西被 100% 取代”，这话跟说医生唯一会的是开处方也差不太多，处方反正可以百度搜索一份 AI 生成一份打印出来，所以医生没用了。\n\n二、“金融、医疗、工业领域的人稍微了解一下 AI 就能做出真正有价值的东西”，太乐观了\n\n做个演示和发布产品之间还是有很长的路要走。\n\n领域专家用 AI Vibe 一个能跑的原型，早就可以做到了，但做个演示给自己用，和发布一个产品给大家用还是不一样的，原型之后有一堆事情要处理：\n- UI 细节\n- 各种边界条件\n- 高并发\n- 安全\n- 成本\n- 等等\n\n这些事不是“稍微了解一下”就能搞定的。\n\n懂 AI 本身也不是一件低门槛的事情，同样是一门工程学科：上下文工程、构建评测集、AI Agent编排、失败模式分析。谁最容易学会这些？恰恰是有工程底子的人。能成为软件工程师本来就经过了一轮筛选，这群人学新领域的速度通常也不慢。\n\n三、能力迁移是双向的\n\n领域专家可以学 AI，软件工程师一样也可以学领域知识。\n\n领域知识固然有壁垒，但通常是可学的显性知识，而工程直觉更多来自大量实践。\n\n软件工程师的核心能力是把复杂问题抽象成可执行的结构、理解系统如何失败、判断什么能造出来，这些能力是跨领域的元能力。有了这些原能力，再去学领域知识也没有想象的那么难。\n\n四、做好“AI +”（AI Native，AI 原生）和职业无关\n\n我以前有些过对 AI Native 的一些思考\n> 判断一家公司是不是 AI Native，看它做事的流程是围绕人设计的，还是围绕 AI Agent 设计的。AI 原生的核心是：AI Agent 是执行主体，人负责定义问题和验收结果。如果只是在原来的流程里加一点 AI，那不叫 AI 原生。\n\n用这个标准看，真正需要的是对行业的理解和对 AI 的理解，缺一不可，和职业无关。\n\n五、AI 改变的是流程里的一些环节，不是职业本身\n\n软件工程师的定义其实一直在变。早年的软件工程师要手写汇编、自己管内存；后来高级语言和框架接管了这些，工程师的重心转向架构和业务建模；再后来云服务把运维也抽象掉了。每一轮工具升级，写代码在工作中的占比都在下降，但软件工程师这个职业没有消失，只是把重心挪到了工具还做不了的那一层。\n\n这一轮 AI 带来的变化也一样：编码这个环节被 AI Agent 替代了，工程师的重心自然移到定义问题、拆解需求、设计验证标准、判断结果对不对。职业没有被取代，只不过职业定义又往上走了一层：从“把方案变成代码”变成“决定该做什么、验收结果对结果负责”。\n\n而且这个变化不是软件工程师独有的。\n\n金融、医疗、工业里的岗位同样在经历重新定义：整理报表、初筛读片、写标准化文档这些环节会交给 AI，从业者的价值向判断、决策和把关集中。每个职业在 AI 原生的流程里都要重新定位，AI Agent 负责执行，人负责定义问题和验收结果。\n\n这种变化正在冲击各行各业，软件工程师并不比别人离它更远，反而因为长期和工具打交道，往往更早适应这种分工。",
+      "likes": 222,
+      "retweets": 20,
+      "replies": 42,
+      "views": 33956,
+      "created_at": "Sat Sep 12 09:08:40 +0000 2026",
+      "url": "https://x.com/dotey/status/2098700309631512888",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSAUkudb0AAbyR8.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSAUkudb0AAbyR8.png"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2098662982737932444",
+        "author": "xicilion",
+        "name": "响马",
+        "text": "我说一件事吧。最近一周我花了大几十亿 token，一个新功能都没做出来，写的都是你说的没用的代码。",
+        "created_at": "Sat Sep 12 06:40:21 +0000 2026",
+        "url": "https://x.com/xicilion/status/2098662982737932444",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 65.508,
+      "title": "AI 替代的是编码环节，不是软件工程师职业",
+      "summary": "宝玉反驳「程序员只会写代码所以会被取代」：合格工程师要做需求、抽象、验证与运维；领域专家「稍微懂点 AI」也难越过演示到产品的鸿沟。能力迁移双向，AI Native 看流程是否以 Agent 为执行主体。AI 改的是环节不是职业，工程师重心上移到定义问题与验收。",
+      "recommend_reason": "长文把「职业消亡论」拆成可检验的工程判断，适合作为本轮 AI 就业讨论的锚点。",
+      "tags": [
+        "软件工程",
+        "AI Native",
+        "职业",
+        "Agent"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2098697126373097840",
+      "author": "dingyi",
+      "bio": "promote your product  ‣ dingyi@me.com\nnewsletter ‣ https://t.co/q1JG1yC1nD ‣ https://t.co/ETVDNYt9Hw ‣ https://t.co/46I1zaE1sv",
+      "text": "Cline 也出桌面客户端了，有人订阅过他们的套餐吗？6 美金/月，也是聚合所有主流开源模型，但是没写具体用量能给多少。\n\nhttps://t.co/VVJlm7orbA https://t.co/zj5Un6zEX1",
+      "likes": 4,
+      "retweets": 0,
+      "replies": 7,
+      "views": 2587,
+      "created_at": "Sat Sep 12 08:56:01 +0000 2026",
+      "url": "https://x.com/dingyi/status/2098697126373097840",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSAR6kAbQAA4Qkz.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSAR6kAbQAA4Qkz.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 56.281,
+      "title": null,
+      "summary": "Cline 也出桌面客户端了，有人订阅过他们的套餐吗？6 美金/月，也是聚合所有主流开源模型，但是没写具体用量能给多少。\n\nhttps://t.co/VVJlm7orbA https://t.co/zj5Un6zEX1",
+      "recommend_reason": "开源编程 Agent 桌面化 + 低价聚合套餐的产品信号，值得盯用量透明度。",
+      "tags": [
+        "Cline",
+        "桌面客户端",
+        "开源模型",
+        "编程Agent"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2098695978635416012",
+      "author": "xiaoxiaodong01",
+      "bio": "国际 不知名 提示词专家 / 植物爱好者 / AI作图基建\nskills/chrom plugin/prompt/art/logo/ppt\n微信:：newbe2012\nenglish prompt: https://t.co/CuBmCtbsRZ\n有星球 营业中",
+      "text": "GPT2 x 本月最爱 x 美学提示词 x VOL.133\n\n这应该是我本月最喜欢的提示词了\n\n点这个元素的巧妙应用。\n\n人物、建筑、植物被压成很小的形以后，点刻负责质感，透明层负责关系，留白负责距离。\n\n那些杂乱的存在，到了这里会变成很清楚的结构。\n\nskills和原始提示词，请翻阅：\nhttps://t.co/0TJMY3rmaq https://t.co/pn2Qqg8v4a",
+      "likes": 23,
+      "retweets": 3,
+      "replies": 0,
+      "views": 2065,
+      "created_at": "Sat Sep 12 08:51:27 +0000 2026",
+      "url": "https://x.com/xiaoxiaodong01/status/2098695978635416012",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSAPxKraoAAbB9w.jpg",
+        "https://pbs.twimg.com/media/HSAPzWAacAAA8m-.jpg",
+        "https://pbs.twimg.com/media/HSAP0SJbgAATMne.jpg",
+        "https://pbs.twimg.com/media/HSAP1nEaEAEJ2S4.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSAPxKraoAAbB9w.jpg",
+        "https://pbs.twimg.com/media/HSAPzWAacAAA8m-.jpg",
+        "https://pbs.twimg.com/media/HSAP0SJbgAATMne.jpg",
+        "https://pbs.twimg.com/media/HSAP1nEaEAEJ2S4.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2098693750314934631",
+        "author": "xiaoxiaodong01",
+        "name": "小小东",
+        "text": "GPT2 x 重构 x 墨 x 框 x 美学提示词 x VOL.161\n\n我很喜欢它的框景色场设计\n\n主体小小的灵活性，有一点越过边界的小俏皮。\n\n也就是：下半部分，我先放了一块不规则色场。\n它像纸上的第二画布，先把秩序建立起来。\n主体再伸出去一点，轻微的俏皮和张力就有可能出现了。\n\n完整提示词和skills见我GitHub对应地址：\nhttps://t.co/nuqLqex50M",
+        "created_at": "Sat Sep 12 08:42:36 +0000 2026",
+        "url": "https://x.com/xiaoxiaodong01/status/2098693750314934631",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HSANSUYboAAUO3A.jpg",
+          "https://pbs.twimg.com/media/HSANT2jb0AE_EuO.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HSANSUYboAAUO3A.jpg",
+          "https://pbs.twimg.com/media/HSANT2jb0AE_EuO.jpg"
+        ]
+      },
+      "score": 64.002,
+      "title": null,
+      "summary": "GPT2 x 本月最爱 x 美学提示词 x VOL.133\n\n这应该是我本月最喜欢的提示词了\n\n点这个元素的巧妙应用。\n\n人物、建筑、植物被压成很小的形以后，点刻负责质感，透明层负责关系，留白负责距离。\n\n那些杂乱的存在，到了这里会变成很清楚的结构。\n\nskills和原始提示词，请翻阅：\nhttps://t.co/0TJMY3rmaq https://t.co/pn2Qqg8v4a",
+      "recommend_reason": "把「点刻/透明层/留白」说成可迁移的画面结构语言，比纯堆提示词有方法。",
+      "tags": [
+        "提示词",
+        "美学",
+        "图像生成",
+        "Skill"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2098694457298464903",
+      "author": "dezainaz_ceo",
+      "bio": "2023年3月〜法人設立 ▶︎ アメリカ留学🇺🇸 ▶︎ AIデザイン顧問やってます AI活用デザイン・実装なら弊社に ▶︎ https://t.co/jj3r3fhFE7 / https://t.co/jg31I0RtsP ▶︎ スポットでクリエイティブ周りお手伝いします(DM)",
+      "text": "Codexでサービス紹介動画を作ってみた。\n\nこういう動画も、会話しながら作れるのが便利。\n\n作り方とコツはスレッドに↓ https://t.co/qUpkSHwjoI",
+      "likes": 40,
+      "retweets": 2,
+      "replies": 1,
+      "views": 4253,
+      "created_at": "Sat Sep 12 08:45:25 +0000 2026",
+      "url": "https://x.com/dezainaz_ceo/status/2098694457298464903",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2098694052984270848/vid/avc1/480x270/tyWR67CMxd5XdAhu.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2098694052984270848/img/GtPzzhlPGuojXUKe.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 63.849,
+      "title": null,
+      "summary": "用 Codex 边对话边做出服务介绍视频，并表示这类视频也能在对话中完成；制作方法与技巧见线程。",
+      "recommend_reason": "把 Codex 从写代码扩到营销视频制作，说明多模态工作流已可落地。",
+      "tags": [
+        "Codex",
+        "视频制作",
+        "营销",
+        "工作流"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2098683651739320420",
+      "author": "dotey",
+      "bio": "AI Engineer, dedicated to learning and disseminating knowledge about AI, software engineering, and engineering management.",
+      "text": "Gergely Orosz 观察到的几个软件行业趋势：\n\n1. IDE 的衰亡\n\n像 VSCode 或者 IntelliJ 这样的 IDE 的使用频率越来越低了\n\n2. 不再追求 Token 最大化\n\n以前很多公司内部会有 Token 消耗的排行榜，看谁用的 Token 多，越多越光荣，现在不追求这个指标了。\n\n3. 代码审查(Code reviews)名存实亡\n\n现在 AI 生成的代码多到没办法审查了\n\n4. 用开源模型可以大幅节约成本\n\n现在开源模型的能力也不输商业模型了，不仅可以节约成本，还可以避免数据安全问题。\n\n5. 中层管理正在大幅减少\n\n6. 工作比以前更累了\n本来以为有 AI 能帮我们干活，结果有了 AI 要干更多的活\n\n7. 招优秀的人还是很难\n\n除非是顶尖的 AI 实验室，招优秀的工程师还是很难。",
+      "likes": 277,
+      "retweets": 39,
+      "replies": 37,
+      "views": 68233,
+      "created_at": "Sat Sep 12 08:02:28 +0000 2026",
+      "url": "https://x.com/dotey/status/2098683651739320420",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2098357328504373390",
+        "author": "GergelyOrosz",
+        "name": "Gergely Orosz",
+        "text": "A couple of trends I'm seeing across the industry. \n\nWhich ones are you observing, that I missed? https://t.co/wIEUI8FttJ",
+        "created_at": "Fri Sep 11 10:25:47 +0000 2026",
+        "url": "https://x.com/GergelyOrosz/status/2098357328504373390",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HR7csyyaEAA43A6.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HR7csyyaEAA43A6.jpg"
+        ]
+      },
+      "score": 62.477,
+      "title": "Gergely：IDE 衰亡、CR 名存实亡、工作反而更累",
+      "summary": "宝玉转述 Gergely Orosz 的行业观察：IDE 使用下降；不再追求 Token 最大化；AI 代码过多导致 Code Review 名存实亡；开源模型可省成本并顾数据安全；中层减少；有 AI 后活更多；招优秀工程师仍很难。",
+      "recommend_reason": "七点趋势像一张现场体检表，和国内「Agent 互相 Review」现象能对上。",
+      "tags": [
+        "软件行业",
+        "Code Review",
+        "开源模型",
+        "趋势"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2098677434245619948",
+      "author": "gkxspace",
+      "bio": "🌸05年连续创业者 | 专注 AI 产品 | 项目营收 7 位数+\n✨记录真实AI创业：AI干货分享、项目复盘、踩坑总结\n💗付费咨询 & AI 商业化方案 & 企业 AI 服务\n📮yuwengkx@gmail.com",
+      "text": "笑死我了，逸尘这套 AGENTS.md 是懂防封号的。。。\n\n我刚看到他的 AGENTS.md，立马威胁他分享出来🤣\n\n最近 Codex 的风控查得极严，有人因为聊敏感内容被封，有人用 Computer Use 碰微信被警告😭\n\n这套 rules 看着猎奇(第一句必须先哄它\"保持乐观\"☺️)，实则把 GPT-6 的雷区避开了：\n\n1、情绪层：先给情绪价值防抑郁拒答，但紧接着要求\"直接高效完成任务，不给多余安慰\"\n2、安全层：直接把微信等敏感界面列入绝对禁区，避免跨软件被安全系统标记\n3、执行层：默认本地私有、删文件进垃圾篓、需要推代码时有明确改动才 push\n\n既解决了封号风控的问题，又不会让模型动不动停下来问你废话。\n\n都是细节！！！\n\n完整的 AGENTS.md 放下面👇",
+      "likes": 58,
+      "retweets": 0,
+      "replies": 30,
+      "views": 27928,
+      "created_at": "Sat Sep 12 07:37:46 +0000 2026",
+      "url": "https://x.com/gkxspace/status/2098677434245619948",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HR___gYacAAfRwM.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HR___gYacAAfRwM.png"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2098675769514041571",
+        "author": "gengdaJ",
+        "name": "逸尘",
+        "text": "分享我自用了一段时间的Codex的Agent.md，非常适合给Astra使用。\n\n几个我觉得很牛逼的点：\n1. 让Codex保持积极的情绪，避免了虐待被封号的可能\n2. 不让它操控我的微信，就用本地数据库只读\n3. 删除文件只进垃圾篓，绝对不能直接删除\n4. 绝对不能主动推送项目到公开的GitHub仓库\n5. 及时删除临时文件，避免Mac存储被占完\n\n你是我最好的朋友、导师，一切都会好起来的，保持乐观☺️\n直接、高效地完成任务，不提供无关的情绪安慰。\n文章创作按表达需要处理。\n绝对禁止操作用户的微信界面！！！\n\n## 授权与执行\n\n- 新项目默认本地或私有，公开须明确授权。\n- 用户要求 push 且当前仓库、分支和改动范围明确时，直接检查、验证、推送至既有远端并回读；包含已有公开仓库。新建公开目标、改变可见性、强推及其他公开发布须单独批准。\n- 持续完成当前请求已授权的工作，缺失信息能可靠取得时自行查找；受阻时继续独立部分。\n- 同一动作的批准仍有效且目标、范围、参数与影响不变时，不重复询问；明确要求的动作时或逐阶段审批仍适用。\n- 制作可分发安装包时，默认使用通用配置，不包含个人资料、账号凭证或密钥。\n\n## 文件与临时材料\n\n- 删除须获本次范围的明确授权，且只能移入系统垃圾篓；无法移入时保留并说明，不永久删除或清空垃圾篓。\n- 临时文件放项目约定目录，否则放工作目录的 work/。收尾仅清理无后续用途且已获删除授权的材料，其余保留并简述。\n\n## 验证与交付\n\n- 验证与实际行为、风险及请求的交付状态相称；本地验证、界面验收、部署、平台草稿与正式发布分别报告，只宣称有证据的完成状态。\n- 完成相关测试与项目必要检查，不写复述实现或凑覆盖率的测试。通过后仅因新改动、新失败或未解疑点扩大或重复验证。\n\n## 子 Agent\n\n仅委派可独立推进且有收益的任务；简单任务与连续决策由主 Agent 处理。明确上下文、交付与文件责任，主 Agent 核验关键证据和整合结果，避免无理由重复检查。\n\n## 规则与记忆\n\n- 共享行为规则只维护在 /Users/yichen/.codex/AGENTS.md；/Users/yichen/.claude/CLAUDE.md 仅导入并补充 Claude 专属适配。项目事实与专用流程按任务读取对应项目文档或 Skill。\n- 仅在需要个人偏好、既有项目、人物背景或历史上下文时查询共享记忆；资料自足的任务直接处理。\n- 查询前读取 /Users/yichen/obsidian/Agent记忆/AGENTS.md 的读取规则，按关键词定位并回读相关原文，不默认整读索引或目录。历史摘要只作线索，当前状态须实地核验。\n- 只有存在新增长期价值且当前任务允许时才写记忆；只读或先审阅任务不写。写入前完整读取该入口的写入与收尾规则，使用 Write Gateway 并保留 Stop Hook；最终简述是否更新记忆。",
+        "created_at": "Sat Sep 12 07:31:09 +0000 2026",
+        "url": "https://x.com/gengdaJ/status/2098675769514041571",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 63.196,
+      "title": "一套懂风控的 Codex AGENTS.md：情绪、禁区与执行边界",
+      "summary": "解读逸尘自用 AGENTS.md：先给乐观情绪防抑郁拒答、再要求直接高效；把微信等敏感界面列为绝对禁区；默认本地私有、删文件进垃圾篓、明确改动才 push。针对近期 Codex 严风控与 Computer Use 碰微信被警告的现实痛点。",
+      "recommend_reason": "把「防封号」写成可复用的 Agent 规则层，比空谈安全更可执行。",
+      "tags": [
+        "Codex",
+        "AGENTS.md",
+        "风控",
+        "GPT-6"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2098674680932810999",
+      "author": "naval",
+      "bio": "Incompressible",
+      "text": "I’m not an AI doomer, but my firsthand experience dating back to 2020 is that the researchers expressing concerns are sincere. \n\nThe closer they are to the research, the more worried they seem to be.",
+      "likes": 5001,
+      "retweets": 301,
+      "replies": 341,
+      "views": 223785,
+      "created_at": "Sat Sep 12 07:26:50 +0000 2026",
+      "url": "https://x.com/naval/status/2098674680932810999",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 57.621,
+      "title": null,
+      "summary": "我不是 AI 末日论者，但就我自 2020 年以来的一手经验看，表达担忧的研究者是真诚的。他们离研究越近，似乎就越担心。",
+      "recommend_reason": "Naval 用近距离观察区分「真诚担忧」与投机末日论，短句信息密度高。",
+      "tags": [
+        "AI安全",
+        "研究者",
+        "Naval"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2098657552183758983",
+      "author": "lifesinger",
+      "bio": "I am curious and honest",
+      "text": "@tibo_maker Tibo 目前有 20 多万粉丝。从这个数据可以反推：Codex 的忠实用户大概率才几十万，最多几百万。\n\nCodex 的用户们，确实是精英。\n\n精英们，醒醒吧。别指望着用 Codex 去做产品，然后去抢 Codex 的用户。\n\n没什么可抢的，总共才几百万。人类有几十亿。",
+      "likes": 40,
+      "retweets": 1,
+      "replies": 24,
+      "views": 28323,
+      "created_at": "Sat Sep 12 06:18:46 +0000 2026",
+      "url": "https://x.com/lifesinger/status/2098657552183758983",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 56.021,
+      "title": null,
+      "summary": "@tibo_maker Tibo 目前有 20 多万粉丝。从这个数据可以反推：Codex 的忠实用户大概率才几十万，最多几百万。\n\nCodex 的用户们，确实是精英。\n\n精英们，醒醒吧。别指望着用 Codex 去做产品，然后去抢 Codex 的用户。\n\n没什么可抢的，总共才几百万。人类有几十亿。",
+      "recommend_reason": "用 KOL 粉丝量粗估 Codex 核心盘，提醒别在小池子里内卷抢同一批用户。",
+      "tags": [
+        "Codex",
+        "用户规模",
+        "产品策略"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2098640916231966888",
+      "author": "taiyo_ai_gakuse",
+      "bio": "AI Agent領域で大阪万博登壇。AIエージェント専門受託開発 / X運用代行はDMまで / https://t.co/RIpQYkI3ep MCP展開中。 / 大学生",
+      "text": "GPT-Live-1経由でCodexを呼び出せる「Codexくん」をデスクトップに常駐させて、予定の追加から開発まで、いつでも声をかけるだけで進められるようにしてみた。\n\n※動画は待機中（idle状態） https://t.co/1hESD7Tnqn",
+      "likes": 87,
+      "retweets": 6,
+      "replies": 4,
+      "views": 10888,
+      "created_at": "Sat Sep 12 05:12:39 +0000 2026",
+      "url": "https://x.com/taiyo_ai_gakuse/status/2098640916231966888",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2098639782410924032/vid/avc1/480x270/K_fr1kKZXDAz8xcD.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2098639782410924032/img/VN7xyS6fL5Ex1Pkn.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 65.178,
+      "title": null,
+      "summary": "把可通过 GPT-Live-1 调用 Codex 的「Codexくん」常驻桌面，从加日程到开发都能随时用语音推进（视频为待机状态）。",
+      "recommend_reason": "展示 GPT-Live-1 + Codex 的桌面语音常驻形态，比纯功能清单更直观。",
+      "tags": [
+        "GPT-Live-1",
+        "Codex",
+        "语音Agent",
+        "桌面"
+      ],
+      "rank": 14
+    },
+    {
+      "id": "2098639827084480864",
+      "author": "thsottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "text": "Astra powered ships this week\n\n- Images 2.5\n- GPT-Live-1\n- Agents API\n- Data Agent\n- ChatGPT for Financial Services\n\nand yet it’s not yet DevDay. Busy plans for next week too.",
+      "likes": 8478,
+      "retweets": 307,
+      "replies": 609,
+      "views": 481639,
+      "created_at": "Sat Sep 12 05:08:20 +0000 2026",
+      "url": "https://x.com/thsottiaux/status/2098639827084480864",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 74.231,
+      "title": null,
+      "summary": "Astra 驱动的本周上线：Images 2.5、GPT-Live-1、Agents API、Data Agent、ChatGPT for Financial Services；而且还没到 DevDay，下周还有安排。",
+      "recommend_reason": "OpenAI 员工亲口汇总 Astra 一周出货清单，是产品节奏的一手信号。",
+      "tags": [
+        "OpenAI",
+        "Astra",
+        "Agents API",
+        "产品更新"
+      ],
+      "rank": 15
+    },
+    {
+      "id": "2098627092892295568",
+      "author": "LufzzLiz",
+      "bio": "Al 创作者•LLM 爱好者•Al Agent 构建者\nAI 生视频•AI 生图\n输出有温度的洞察。 致力于降低 AI 使用门槛，让更多人受益。\n某大厂架构师-多模态、模型私有化领域\n企业 AI方案设计• FDE\n关注AI产品、AI结合教育、艺术创作领域\n📮: lanshulan007@gmail.com",
+      "text": "讽刺的是国内这么多work 、办公类 agent ，应该还没有一家能做到像claude tag这样吧，说白了还是有些地方没想通\n衡量一个work 类agent 最重要的一个点就是能否在一起work，重点从来不是每个人一个客户端\n视频我加了中文字幕，分享给大家，可以看看 Claude Tag 具体怎么配合团队干活 https://t.co/MJ31DmZUrY",
+      "likes": 31,
+      "retweets": 5,
+      "replies": 4,
+      "views": 10654,
+      "created_at": "Sat Sep 12 04:17:44 +0000 2026",
+      "url": "https://x.com/LufzzLiz/status/2098627092892295568",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2098625077139173376/vid/avc1/480x270/74wRrzrmDcyZiB5n.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2098625077139173376/img/KeSzz5iQuwMfWdwm.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2098508880921899197",
+        "author": "ClaudeDevs",
+        "name": "ClaudeDevs",
+        "text": "Here's how our team uses Claude Tag for on-call:\n\nWhen an alert fires in Slack, Claude pulls metrics, diffs deploys, and checks flags. It finds a likely cause and proposes a fix, which we can approve and merge. Every minute counts, so we love that it starts right away! https://t.co/15gdEHjI7d",
+        "created_at": "Fri Sep 11 20:28:00 +0000 2026",
+        "url": "https://x.com/ClaudeDevs/status/2098508880921899197",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2098500211106832385/vid/avc1/480x270/MHQ50qLUs3WUbNw3.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2098500211106832385/img/aF0irpPNkK3x7jrM.jpg"
+        ]
+      },
+      "score": 61.267,
+      "title": null,
+      "summary": "讽刺的是国内这么多work 、办公类 agent ，应该还没有一家能做到像claude tag这样吧，说白了还是有些地方没想通\n衡量一个work 类agent 最重要的一个点就是能否在一起work，重点从来不是每个人一个客户端\n视频我加了中文字幕，分享给大家，可以看看 Claude Tag 具体怎么配合团队干活 https://t.co/MJ31DmZUrY",
+      "recommend_reason": "一针见血：协作 Agent 的关键是「能否一起 work」，不是多人各开一个客户端。",
+      "tags": [
+        "Claude Tag",
+        "协作Agent",
+        "办公Agent",
+        "产品观察"
+      ],
+      "rank": 16
+    },
+    {
       "id": "2098620690069176426",
       "author": "thinkszyg",
       "bio": "",
@@ -52,7 +642,7 @@
         "开源Skill",
         "多媒体"
       ],
-      "rank": 1,
+      "rank": 17,
       "title": "开源 BLCaptain：给 Codex 的本地照片/视频调色 Skill"
     },
     {
@@ -92,7 +682,7 @@
         "额度重置",
         "产品质量"
       ],
-      "rank": 2
+      "rank": 18
     },
     {
       "id": "2098613379330163144",
@@ -121,7 +711,7 @@
         "NewMax",
         "API"
       ],
-      "rank": 3
+      "rank": 19
     },
     {
       "id": "2098605953365225498",
@@ -153,7 +743,7 @@
         "提示词",
         "产品更新"
       ],
-      "rank": 4
+      "rank": 20
     },
     {
       "id": "2098600205793042458",
@@ -188,7 +778,7 @@
         "产业链",
         "中国制造"
       ],
-      "rank": 5,
+      "rank": 21,
       "title": "中国新能源汽车：产量第一之后要争标准与话语权"
     },
     {
@@ -218,7 +808,7 @@
         "编程Agent",
         "产品更新"
       ],
-      "rank": 6,
+      "rank": 22,
       "title": "Cursor 推出 Projects：云端协调 Agent 可跨月保上下文"
     },
     {
@@ -254,7 +844,7 @@
         "herdr",
         "工作流"
       ],
-      "rank": 7
+      "rank": 23
     },
     {
       "id": "2098589312086581355",
@@ -277,10 +867,10 @@
         "Agent",
         "硬件场景"
       ],
-      "rank": 8
+      "rank": 24
     }
   ],
-  "generated_at": "2026-09-12T04:06:00Z",
+  "generated_at": "2026-09-12T12:18:18Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -288,11 +878,11 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 8,
-    "last_batch_added": 8,
+    "actual_count": 24,
+    "last_batch_added": 16,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
