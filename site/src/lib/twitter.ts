@@ -1,5 +1,7 @@
-import { readdir, readFile } from "node:fs/promises";
+import { readFile } from "node:fs/promises";
 import { resolve } from "node:path";
+
+import { loadTwitterDays, twitterDirectory } from "./twitter.mjs";
 
 export type Tweet = {
   rank: number;
@@ -22,7 +24,6 @@ export type Tweet = {
 
 const SHORT_TWEET_THRESHOLD = 200;
 const RECENT_DAYS = 7;
-const twitterDirectory = resolve(process.cwd(), "../data/twitter");
 const tagAliasesPath = resolve(process.cwd(), "../pipeline/tag_aliases.json");
 
 type AliasFile = { map?: Record<string, string> };
@@ -83,18 +84,9 @@ export type TwitterDay = {
   items: Tweet[];
 };
 
-export async function getTwitterDays(): Promise<TwitterDay[]> {
-  let files: string[] = [];
-  try {
-    files = await readdir(twitterDirectory);
-  } catch {
-    return [];
-  }
-
+export async function getTwitterDays(directory = twitterDirectory): Promise<TwitterDay[]> {
+  const days = (await loadTwitterDays(directory)) as TwitterDay[];
   const table = await loadAliasTable();
-  const days = await Promise.all(files
-    .filter((file) => file.endsWith(".json"))
-    .map(async (file) => JSON.parse(await readFile(resolve(twitterDirectory, file), "utf8")) as TwitterDay));
 
   for (const day of days) {
     for (const item of day.items) {
