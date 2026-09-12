@@ -74,10 +74,10 @@ product: id, rank, name, tagline, intro, votes, producthunt_url, website
 ```
 
 ## Acceptance Criteria
-- [ ] AC-1：SiteNav 出现「Product Hunt」，`/producthunt/` 可构建并产出 `index.html`。
-- [ ] AC-2：JSON 在 `data/producthunt/digest.json`，空 `products` 显示整页空状态。
-- [ ] AC-3：详情用弹层，不生成 `/producthunt/{id}/` 或 `/producthunt/[date]/`。
-- [ ] AC-4：未登录访问 `/producthunt/` 与雷达 / 小红书 / 副业一样跳登录。
-- [ ] AC-5：有数据时页头展示 title + date + updated_at；上部 takeaways + recommend；下部 Top10 卡片。
-- [ ] AC-6：弹层展示 intro 与两条外链；votes 为 null 时不崩。
-- [ ] AC-7：不改 sticker-shop 或其他无关 Tab。不改 DNS。
+- [x] AC-1：SiteNav 出现「Product Hunt」，`/producthunt/` 可构建并产出 `index.html`。
+- [x] AC-2：JSON 在 `data/producthunt/digest.json`，空 `products` 显示整页空状态。
+- [x] AC-3：详情用弹层，不生成 `/producthunt/{id}/` 或 `/producthunt/[date]/`。
+- [x] AC-4：未登录访问 `/producthunt/` 与雷达 / 小红书 / 副业一样跳登录。
+- [x] AC-5：有数据时页头展示 title + date + updated_at；上部 takeaways + recommend；下部 Top10 卡片。
+- [x] AC-6：弹层展示 intro 与两条外链；votes 为 null 时不崩。
+- [x] AC-7：不改 sticker-shop 或其他无关 Tab。不改 DNS。
