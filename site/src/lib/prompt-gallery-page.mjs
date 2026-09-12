@@ -86,7 +86,8 @@ export function initPromptGallery(root = document) {
   let index = [];
   try {
     index = JSON.parse(indexEl.textContent || "[]");
-  } catch {
+  } catch (error) {
+    console.error("prompt gallery index is not valid JSON", error);
     index = [];
   }
 
@@ -118,7 +119,7 @@ export function initPromptGallery(root = document) {
     if (filterEmpty) filterEmpty.hidden = paged.total !== 0;
     if (pager) {
       pager.hidden = paged.total === 0 || paged.pages <= 1;
-      if (pagerStatus) pagerStatus.textContent = `第 ${paged.page} / ${paged.pages} 页`;
+      if (pagerStatus) pagerStatus.textContent = `第 ${paged.page}/${paged.pages} 页`;
       if (pagerPrev) pagerPrev.disabled = paged.page <= 1;
       if (pagerNext) pagerNext.disabled = paged.page >= paged.pages;
     }
