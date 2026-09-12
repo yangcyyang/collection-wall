@@ -9,7 +9,7 @@ import {
   isTwitterDayFilename,
   isTwitterDayPayload,
   loadTwitterDays,
-} from "../src/lib/twitter.mjs";
+} from "../src/lib/twitter-days.mjs";
 
 const realTwitterDir = resolve(dirname(fileURLToPath(import.meta.url)), "../../data/twitter");
 

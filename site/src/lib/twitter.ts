@@ -1,7 +1,7 @@
 import { readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
-import { loadTwitterDays, twitterDirectory } from "./twitter.mjs";
+import { loadTwitterDays, twitterDirectory } from "./twitter-days.mjs";
 
 export type Tweet = {
   rank: number;
