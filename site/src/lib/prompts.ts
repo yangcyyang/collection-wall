@@ -3,7 +3,14 @@ import { resolve } from "node:path";
 
 import { inferPromptType } from "./prompt-type.mjs";
 
-export { formatPromptEyebrow } from "./prompt-gallery.mjs";
+export {
+  formatPromptEyebrow,
+  formatPromptGalleryCount,
+  PROMPT_PAGE_SIZE,
+  encodePromptGalleryIndex,
+  pagePromptSlice,
+  toPromptGalleryIndex,
+} from "./prompt-gallery.mjs";
 export { inferPromptType, promptTypeFilters, sourceLinkLabel, promptFacets, promptFacetFilters } from "./prompt-type.mjs";
 
 export type PromptImage = {

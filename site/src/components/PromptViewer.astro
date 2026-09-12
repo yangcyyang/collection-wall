@@ -129,12 +129,12 @@
     render();
   }
 
-  document.querySelectorAll("[data-open-viewer]").forEach((button) => {
-    button.addEventListener("click", () => {
-      const card = button.closest("[data-prompt-card]");
-      if (!card) return;
-      open(card, button);
-    });
+  document.addEventListener("click", (event) => {
+    const button = event.target instanceof Element ? event.target.closest("[data-open-viewer]") : null;
+    if (!button || viewer?.contains(button)) return;
+    const card = button.closest("[data-prompt-card]");
+    if (!card) return;
+    open(card, button);
   });
 
   viewer?.querySelectorAll("[data-viewer-close]").forEach((button) => {
