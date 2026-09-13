@@ -3,18 +3,18 @@
   "title": "小红书 AI 用户雷达",
   "date": "2026-09-13",
   "updated_at": "2026-09-13T06:10:30+08:00",
-  "count": 46,
+  "count": 37,
   "summary": {
     "today_judgement": [
       "【事实】OpenCLI pfzpdshj 登录正常（瑶姐的潮玩店，followers=647）；feed 5页去重100，标题级AI候选1条：#ai 餐桌礼仪故事视频（6275赞/1400藏/429评）；Claude search 探针返回 AUTH_REQUIRED 登录墙→search_blocked，未硬刷其余词；note 详情仍见「手机号登录」壳。",
       "【事实】相对昨日 comments 全空，今日用完整 xsec_token URL 成功拉到 3 条评论线程（AI餐桌故事/DeepSeek求助帖/矢量外包帖各10条）——评论通道阶段性恢复。",
-      "【推断】首页新硬信号从「DeepSeek当情绪顾问」切到「AI短视频被识破」：口型撅嘴、融贾玲脸、模板套路被评论点名；DeepSeek 帖评论则暴露审核/破甲/API涨价与向 Grok·Gemini 迁移。",
+      "【推断】首页新硬信号从「DeepSeek当情绪顾问」切到「AI短视频被识破」：口型撅嘴、融贾玲脸、模板套路被评论点名。",
       "【机会假设】内容可打「一眼识破AI口型」清单与「AI故事模板疲劳」；产品向可做口型/融脸质检；商业侧矢量精修仍可验证；Cursor/Claude/Skill 仍因 search 盲区不可见，勿误判降温。"
     ],
     "top_signals": [
       "AI短视频被识破：口型撅嘴/融脸/模板套路——今日首页#ai硬帖评论强信号",
       "评论通道恢复：3线程新采成功（对比昨日全空）；search仍登录墙，产品向话题继续盲",
-      "DeepSeek用法两极：情绪/游戏求助标题 + 评论区审核破甲与迁往Grok/Gemini；矢量半自动流水线评论今日新拉实锤"
+      "DeepSeek 情绪/游戏求助仍在；矢量半自动流水线评论今日新拉实锤"
     ]
   },
   "awareness": {
@@ -47,31 +47,6 @@
           }
         ],
         "first_detected": "2026-09-13",
-        "last_updated": "2026-09-13T06:10:30+08:00"
-      },
-      {
-        "id": "H2",
-        "title": "DeepSeek求助帖评论爆发：审核/破甲/迁模型",
-        "summary": "昨日首页DeepSeek游戏不安求助帖，今日评论可采：后台审核、破甲技巧、DS API涨价、改用Grok/Gemini。",
-        "why": "从「求助标题」补全到「真实用法与迁移动机」。",
-        "audience": "DeepSeek用户、想绕审核的用户",
-        "direction": "",
-        "price": "",
-        "tags": [
-          "DeepSeek",
-          "审核",
-          "迁移",
-          "API"
-        ],
-        "signal_strength": "strong",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a7caaff00000000050290a4?xsec_token=ABV_z9wRGc1an6RQFbOcPuW2cSYZN64xbYIHo28619KJI%3D&xsec_source=",
-            "title": "我特别担心 每次都玩不安稳求助 deepseek ai",
-            "note": "今日comments新采10条；帖本身昨日feed"
-          }
-        ],
-        "first_detected": "2026-09-12",
         "last_updated": "2026-09-13T06:10:30+08:00"
       },
       {
@@ -194,31 +169,6 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:10:30+08:00"
-      },
-      {
-        "id": "T3",
-        "title": "大模型「破甲/审核博弈」与跨模型迁移",
-        "summary": "DeepSeek评论出现Chatbox接API、敏感词技巧、以及「找Grok/Gemini有距离感」。",
-        "why": "",
-        "audience": "",
-        "direction": "up",
-        "price": "",
-        "tags": [
-          "DeepSeek",
-          "Grok",
-          "Gemini",
-          "迁移"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a7caaff00000000050290a4?xsec_token=ABV_z9wRGc1an6RQFbOcPuW2cSYZN64xbYIHo28619KJI%3D&xsec_source=",
-            "title": "我特别担心 每次都玩不安稳求助 deepseek ai",
-            "note": "今日comments"
-          }
-        ],
-        "first_detected": "2026-09-13",
         "last_updated": "2026-09-13T06:10:30+08:00"
       },
       {
@@ -426,30 +376,6 @@
         "last_updated": "2026-09-13T06:10:30+08:00"
       },
       {
-        "id": "P4",
-        "title": "DeepSeek审核/破甲拉扯与API涨价",
-        "summary": "想开车被审核打断；破甲教程流传；API涨价推动换客户端或换模型。",
-        "why": "",
-        "audience": "",
-        "direction": "",
-        "price": "",
-        "tags": [
-          "审核",
-          "价格",
-          "DeepSeek"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a7caaff00000000050290a4?xsec_token=ABV_z9wRGc1an6RQFbOcPuW2cSYZN64xbYIHo28619KJI%3D&xsec_source=",
-            "title": "我特别担心 每次都玩不安稳求助 deepseek ai",
-            "note": "今日comments多条"
-          }
-        ],
-        "first_detected": "2026-09-13",
-        "last_updated": "2026-09-13T06:10:30+08:00"
-      },
-      {
         "id": "P5",
         "title": "握姿/结构不符合常理仍流入下游",
         "summary": "「不是这图手是反的握不上吧」——质检缺失。",
@@ -495,29 +421,6 @@
           }
         ],
         "first_detected": "2026-09-13",
-        "last_updated": "2026-09-13T06:10:30+08:00"
-      },
-      {
-        "id": "S2",
-        "title": "游戏/情绪不安 → 问DeepSeek → 评论区讨论审核边界",
-        "summary": "标题自述求助；评论扩展到xp/审核/破甲与换Grok。",
-        "why": "",
-        "audience": "游戏/情绪用户",
-        "direction": "",
-        "price": "",
-        "tags": [
-          "DeepSeek",
-          "求助"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a7caaff00000000050290a4?xsec_token=ABV_z9wRGc1an6RQFbOcPuW2cSYZN64xbYIHo28619KJI%3D&xsec_source=",
-            "title": "我特别担心 每次都玩不安稳求助 deepseek ai",
-            "note": "昨日feed标题+今日comments"
-          }
-        ],
-        "first_detected": "2026-09-12",
         "last_updated": "2026-09-13T06:10:30+08:00"
       },
       {
@@ -612,53 +515,6 @@
         ],
         "first_detected": "2026-09-11",
         "last_updated": "2026-09-13T06:10:30+08:00"
-      },
-      {
-        "id": "PR4",
-        "title": "Grok / Gemini：DeepSeek用户迁移备选",
-        "summary": "原话：「我想开🚗都不好意思找ds…我一般找grok或者Gemini，有点距离感」。",
-        "why": "",
-        "audience": "",
-        "direction": "",
-        "price": "",
-        "tags": [
-          "Grok",
-          "Gemini",
-          "迁移"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a7caaff00000000050290a4?xsec_token=ABV_z9wRGc1an6RQFbOcPuW2cSYZN64xbYIHo28619KJI%3D&xsec_source=",
-            "title": "我特别担心 每次都玩不安稳求助 deepseek ai",
-            "note": "今日评论：油炸电饭煲"
-          }
-        ],
-        "first_detected": "2026-09-13",
-        "last_updated": "2026-09-13T06:10:30+08:00"
-      },
-      {
-        "id": "PR5",
-        "title": "Chatbox：接API破甲客户端",
-        "summary": "评论教程级提及。",
-        "why": "",
-        "audience": "",
-        "direction": "",
-        "price": "",
-        "tags": [
-          "Chatbox",
-          "API"
-        ],
-        "signal_strength": "weak",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a7caaff00000000050290a4?xsec_token=ABV_z9wRGc1an6RQFbOcPuW2cSYZN64xbYIHo28619KJI%3D&xsec_source=",
-            "title": "我特别担心 每次都玩不安稳求助 deepseek ai",
-            "note": "猫一杯评论"
-          }
-        ],
-        "first_detected": "2026-09-13",
-        "last_updated": "2026-09-13T06:10:30+08:00"
       }
     ],
     "content_opps": [
@@ -706,29 +562,6 @@
           }
         ],
         "first_detected": "2026-09-11",
-        "last_updated": "2026-09-13T06:10:30+08:00"
-      },
-      {
-        "id": "C3",
-        "title": "DeepSeek vs Grok/Gemini：什么场景换模型",
-        "summary": "用「距离感/审核疲劳/API涨价」做迁移决策内容（注意合规，不教破甲细节）。",
-        "why": "今日评论新出现迁移动机。",
-        "audience": "",
-        "direction": "",
-        "price": "",
-        "tags": [
-          "模型对比",
-          "迁移"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a7caaff00000000050290a4?xsec_token=ABV_z9wRGc1an6RQFbOcPuW2cSYZN64xbYIHo28619KJI%3D&xsec_source=",
-            "title": "我特别担心 每次都玩不安稳求助 deepseek ai",
-            "note": "今日comments"
-          }
-        ],
-        "first_detected": "2026-09-13",
         "last_updated": "2026-09-13T06:10:30+08:00"
       }
     ],
@@ -846,29 +679,6 @@
             "url": "https://www.xiaohongshu.com/explore/6a810dc30000000006004093?xsec_token=AB7PKIq_H4c9KOMAUH6qgMgK1ozsRhwAMR_4YlsMruXwo%3D&xsec_source=",
             "title": "吃饭爱抢食的代价#餐桌礼仪#人物故事#听别人的故事悟自己的人生#ai",
             "note": "玉米侠～评论"
-          }
-        ],
-        "first_detected": "2026-09-13",
-        "last_updated": "2026-09-13T06:10:30+08:00"
-      },
-      {
-        "id": "B3",
-        "title": "合规向：模型选型与客户端配置咨询（不含破甲）",
-        "summary": "用户已在讨论Chatbox/API涨价/换Grok；可做合法配置与场景选型服务。",
-        "why": "",
-        "audience": "",
-        "direction": "",
-        "price": "",
-        "tags": [
-          "咨询",
-          "配置"
-        ],
-        "signal_strength": "weak",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a7caaff00000000050290a4?xsec_token=ABV_z9wRGc1an6RQFbOcPuW2cSYZN64xbYIHo28619KJI%3D&xsec_source=",
-            "title": "我特别担心 每次都玩不安稳求助 deepseek ai",
-            "note": "今日comments"
           }
         ],
         "first_detected": "2026-09-13",
@@ -1055,29 +865,6 @@
             "url": "https://www.xiaohongshu.com/explore/6a7caaff00000000050290a4?xsec_token=ABV_z9wRGc1an6RQFbOcPuW2cSYZN64xbYIHo28619KJI%3D&xsec_source=",
             "title": "我特别担心 每次都玩不安稳求助 deepseek ai",
             "note": "猫一杯"
-          }
-        ],
-        "first_detected": "2026-09-13",
-        "last_updated": "2026-09-13T06:10:30+08:00"
-      },
-      {
-        "id": "Q9",
-        "title": "我想开🚗都不好意思找ds…我一般找grok或者Gemini，有点距离感好很多",
-        "summary": "迁移动机原话。",
-        "why": "",
-        "audience": "",
-        "direction": "",
-        "price": "",
-        "tags": [
-          "原话",
-          "迁移"
-        ],
-        "signal_strength": "mid",
-        "evidence": [
-          {
-            "url": "https://www.xiaohongshu.com/explore/6a7caaff00000000050290a4?xsec_token=ABV_z9wRGc1an6RQFbOcPuW2cSYZN64xbYIHo28619KJI%3D&xsec_source=",
-            "title": "我特别担心 每次都玩不安稳求助 deepseek ai",
-            "note": "油炸电饭煲"
           }
         ],
         "first_detected": "2026-09-13",
