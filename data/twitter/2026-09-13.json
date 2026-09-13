@@ -9,6 +9,31 @@
   },
   "items": [
     {
+      "id": "2098988781592547683",
+      "author": "naval",
+      "bio": "",
+      "text": "On the way to killing all of us, AI will likely kill some of us. \n\nIn that case, who’s liable?",
+      "created_at": "Sun Sep 13 04:14:57 +0000 2026",
+      "likes": 79,
+      "views": "11537",
+      "url": "https://x.com/i/status/2098988781592547683",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 41.835,
+      "summary": "在杀死我们所有人之前，AI 很可能会先杀死我们当中的一些人。\n\n那样的话，谁来负责？",
+      "recommend_reason": "Naval 把 AI 风险从抽象末日落到「部分伤亡 + 责任归属」，一句问出产品责任与监管真空。",
+      "tags": [
+        "AI安全",
+        "责任",
+        "Naval",
+        "治理"
+      ],
+      "rank": 1
+    },
+    {
       "id": "2098985038381813984",
       "author": "GoSailGlobal",
       "bio": "",
@@ -49,7 +74,67 @@
         "开源",
         "开发者社区"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "id": "2098985018106196084",
+      "author": "JulianGoldieSEO",
+      "bio": "",
+      "text": "RUN YOUR AI AGENTS WITH A FREE DEEPSEEK BRAIN.\n\nMy setup is simple:\n\nDeepSeek V4.1 Flash → Token Harbor → Agent OS.\n\nI added it as a provider, tested it, and started coding with it directly.\n\nYou can plug the same API into Hermes or another agent harness too.\n\nWant the SOP? DM me.",
+      "created_at": "Sun Sep 13 04:00:00 +0000 2026",
+      "likes": 1,
+      "views": "644",
+      "url": "https://x.com/i/status/2098985018106196084",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2098836856515534848/vid/avc1/480x270/U_sL5qIcoAK6pyPw.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2098836856515534848/img/lQQSn9Bi2Fsdf1yH.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 55.286,
+      "title": "免费 DeepSeek 当 Agent 脑：V4.1 Flash → Token Harbor → Agent OS",
+      "summary": "作者把 DeepSeek V4.1 Flash 接到 Token Harbor，再进 Agent OS 当 provider，实测可直接写代码；同一 API 也可接到 Hermes 等 agent harness。结尾引流要 SOP。",
+      "recommend_reason": "给出一条可复用的「廉价模型当 agent 大脑」接线路径，适合想降成本又不想换整套 harness 的人。",
+      "tags": [
+        "DeepSeek",
+        "Agent",
+        "Token Harbor",
+        "成本"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2098974326204793150",
+      "author": "dugujun12",
+      "bio": "",
+      "text": "Grok 提示词：\n\n竖屏9:16真人实拍手机自拍短视频，分辨率720×1290，时长正好10秒，全程一段到底、中间不切镜不停顿不转场。手持智能手机拍摄，轻微手抖、轻微跟焦起伏和室内自动曝光，24到30帧。画质必须像真实生活自拍，不要电影质感，不要广告大片，不要CG，不要3D渲染，不要动漫。皮肤有毛孔、细纹和自然反光，头发有真实物理摆动和轻微运动模糊，比基尼布料有抽褶和褶皱，身体随弹跳有真实惯性。画面里不要出现任何文字、字幕、水印、logo、贴纸、滤镜边框、二维码、其他人物或宠物。\n\n主体是一名东亚年轻女性，年龄约二十出头到二十五岁。肤色白皙偏暖，皮肤真实不塑料。脸型偏圆润小脸，额头有稀疏碎刘海，其余头发是又长又直的纯黑色长发，长度过胸接近腰，发质顺滑；跳舞时长发会大幅甩动，扫过脸颊、肩膀和后背。眉毛自然浓黑，眼睛大而明亮，眼妆很淡，睫毛自然。鼻子小巧。嘴唇饱满，涂着水润红粉色唇釉，微笑和大笑时露出牙齿。表情全程活泼、甜、俏皮，时而对着镜头笑，时而仰头享受音乐，时而低头看自己的衣服，不要冷脸，不要凶，不要魅惑到演电影。\n\n身材固定为细腰、宽胯、大腿肉感的沙漏型，锁骨清晰，手臂纤细，小腹平坦微软，不是健美肌肉型。胸部非常丰满、体积大、形状圆润，被抹胸紧紧托住；随着踮脚弹跳，胸部和髋部有明显但真实的上下起伏，衣服始终穿在身上。全程不穿鞋，脚在画面外或只露出一点点，不戴项链、耳环、戒指、手链、手表，唯一金属是比基尼上的金色圆环和金球坠。\n\n服装必须精确且全程不变：深巧克力棕色、可可棕色分体比基尼，不要黑、不要红、不要白。上衣是无肩带抹胸，布料有抽褶，中央有一枚金色金属圆环扣住左右两片，圆环下方垂着两根细棕色绑带，绑带末端是小金球坠；抹胸位置偏低，中间有明显乳沟，但始终是完整穿好的抹胸，绝不滑落、绝不变成裸体、绝不透明。下衣是同色棕色侧绑带高开叉泳裤，胯骨两侧各有细绳系结，绳头同样有小金球坠，绳子会随摆胯轻轻甩动。布料质感是哑光针织或罗纹泳布，不是亮面漆皮，不是丝绸。10秒内禁止换装、禁止脱衣、禁止手伸进衣服里。\n\n场景必须和房间自拍一致：狭窄的小型公寓卧室。墙壁是暖米色、奶茶色旧乳胶漆。画面左侧有深棕色厚窗帘，窗帘旁立着一面几乎到顶的深色框落地镜，镜子里能隐约照到房间和对面墙。地面是木色复合地板。镜子附近地上放着两个小纸箱、一叠书或杂志、一个小蓝瓶子。右侧白墙上有一个方形白色开关。画面最底部前景始终有一块虚化的棕色家具边缘，像床沿或沙发沿，轻轻挡住镜头下方。空间拥挤，人站在房间中央偏镜子前方。不要窗户大光斑，不要室外，不要海滩，不要泳池，不要影棚，不要第二个人。\n\n光线是室内暖黄顶灯为主，左侧有柔和散射日光，色温偏暖。脸上、肩膀、锁骨有自然高光，但不是轮廓光，不是丁达尔，不是霓虹，不是专业布光。镜头是手机竖拍，机位大约在腰到胸口的高度，略微仰拍。人物占满画面主体，大多数时候从大腿中段拍到头顶，中段会推近到胸口以上半身，再拉回全身中景。焦点在脸和身体上，前景床沿虚化，背景墙壁比较清楚。不要稳定器那种过度丝滑，不要超广角把腿拉变形。\n\n表演是社交软件那种跟着鼓点原地跳舞，不是专业编舞，也不是走秀。基本动作循环：踮脚、膝盖微屈、胯左右摆、上身随节奏弹跳、长发甩动、双手自然挥动。节奏大约每拍弹一次，每两拍甩一次头发或摆一次手。表情一直在笑。动作幅度中等偏大，重点落在头发甩动、胯摆和身体弹跳上，但不要夸张到漫画，不要故意用镜头死盯局部。衣服必须一直穿好。\n\n按10秒完整演出，时间轴必须按下面走：\n\n0.0到1.0秒：全身中景。她站在房间中央，身体略转向画面左侧，头看向镜头，嘴微张微笑。双臂自然垂在身侧，开始小幅度踮脚、左右晃胯。长发还贴在肩膀上。左侧镜子、纸箱和底部虚化床沿都要看见。\n\n1.0到2.2秒：双手抬到腰两侧，手掌摊开向外，跟着节拍轻轻甩手。头微低，眼神看镜头，笑意更明显。身体继续弹跳，长发开始离开肩膀甩起来。\n\n2.2到3.5秒：头向后仰，眼睛微闭或看天花板，长发大幅度向后飞。双臂在身侧自然摆动，表情放松享受。镜头略向前跟近，仍要看到腰和棕色泳裤。\n\n3.5到5.0秒：镜头推到半身。她略侧身，低头看自己的胯侧，双手快速拨弄比基尼两侧细绑带，动作有点忙乱。随即抬头看镜头，嘴角上扬。右后方白墙上的方形开关必须能看见。\n\n5.0到6.5秒：镜头拉回全身。右手抬到肩高轻轻挥一下，左手在身侧松松握拳。对着镜头大笑，牙齿露出。继续踮脚弹跳，头发左右甩，绑带末端金球跟着晃。\n\n6.5到8.0秒：身体转正对镜头，双臂打开再收回。突然笑得更大，头微侧，长发扫过脸。上身弹跳更明显。镜头可以略推近到胸部以上，但必须看到抹胸上的金色圆环，随即再稍拉回。\n\n8.0到9.0秒：双手抬到锁骨和胸口高度，手指微蜷，在胸前做很小的上下点拍，像打拍子。歪头看镜头，闭唇甜笑，胯继续左右摆。画面回到大腿以上的全身中景。\n\n9.0到10.0秒：头再轻轻后仰一下，眯眼笑，长发扬起；紧接着低头看自己的腰和绑带，头发垂到脸前，双手同时去拉、整理两侧比基尼绳结，像跳完一段后下意识整理衣服。停在整理绑带这个动作上结束。不要淡出，不要定格特效，不要结尾字幕。\n\n背景音乐只要节奏对上，不需要复刻原曲：轻快流行电音舞曲，约122拍每分钟，四四拍，底鼓每一拍一下，第二拍和第四拍有清脆拍手或军鼓，旋律简单好听，无歌词或只有很轻的女声气音。不要钢琴抒情，不要摇滚，不要戏曲。她每一次踮脚弹跳对准底鼓，甩发和摆手对准小节重音。\n\n必须避免：换脸、第二个人、儿童、裸体、脱掉比基尼、透明衣服、走光、胸部夸张变形、假脸塑料感、过度磨皮、电影级灯光、影棚、户外海滩、泳池、文字、字幕、水印、logo、贴纸、分镜切片、慢动作、抽帧卡顿、五官模糊、把黑发改成棕发或金发、把棕色比基尼改成黑色或红色、添加首饰、稳定器过滑、广角畸变把腿拉超长、动漫、CG、3D渲染感、镜头乱切、场景换成别的房间。",
+      "created_at": "Sun Sep 13 03:17:31 +0000 2026",
+      "likes": 6,
+      "views": "541",
+      "url": "https://x.com/i/status/2098974326204793150",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2098974194692493312/vid/avc1/320x568/Aiit9RHZsb1qfo7m.mp4?tag=25"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2098974194692493312/img/0IUJzW1kXwzcgWz_.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 57.708,
+      "title": "Grok 竖屏 10 秒自拍跳舞提示词：房间实拍约束写到时间轴",
+      "summary": "一条超长 Grok 视频提示词：固定 9:16、10 秒一段到底、手机手持实拍质感，并细化人物、棕色比基尼、卧室场景、暖黄灯光，以及按秒拆开的跳舞动作与鼓点对齐。重点是用大量「必须/禁止」把生活自拍感锁死，避免广告片、CG、换装走光。",
+      "recommend_reason": "可直接当「约束密集型」视频提示词范本：时间轴+场景道具+负面清单写全，比空喊 cinematic 有用。",
+      "tags": [
+        "Grok",
+        "视频提示词",
+        "竖屏",
+        "实拍约束"
+      ],
+      "rank": 4
     },
     {
       "id": "2098971144061886851",
@@ -75,7 +160,62 @@
         "Agent",
         "AI转型"
       ],
-      "rank": 2
+      "rank": 5
+    },
+    {
+      "id": "2098970013768278498",
+      "author": "dugujun12",
+      "bio": "",
+      "text": "ChatGPT、Claude Code、Codex、Grok，最后要读同一份本地知识。账号不是资产。\n\n以前每个窗一份导出，对不齐。后来规定：真源只有一处，窗只是入口。\n\n换客户端可以。换库等于重干。",
+      "created_at": "Sun Sep 13 03:00:22 +0000 2026",
+      "likes": 1,
+      "views": "172",
+      "url": "https://x.com/i/status/2098970013768278498",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 50.946,
+      "summary": "ChatGPT、Claude Code、Codex、Grok，最后要读同一份本地知识。账号不是资产。\n\n以前每个窗一份导出，对不齐。后来规定：真源只有一处，窗只是入口。\n\n换客户端可以。换库等于重干。",
+      "recommend_reason": "多客户端时代最实用的知识库原则：真源唯一，窗只是入口；换模型可以，换库等于重来。",
+      "tags": [
+        "本地知识库",
+        "多模型",
+        "工作流",
+        "真源"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2098968361581600858",
+      "author": "KinGao476942",
+      "bio": "",
+      "text": "Grok 4.7 模型，听说很快会与大家见面。在马斯克拥有超级算力中心、又大力出奇迹花 600 亿美金收购 Cursor 团队，获取了大量高质量的编程数据后，可以预想这一代新模型，在 AI 编程、Agent 长程任务等诸多能力上，比 Grok 4.6 会有非常大的提升。@grok https://t.co/0x6ASXDkR5",
+      "created_at": "Sun Sep 13 02:53:49 +0000 2026",
+      "likes": 1,
+      "views": "449",
+      "url": "https://x.com/i/status/2098968361581600858",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSEHnlXagAA8vAO.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSEHnlXagAA8vAO.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 54.881,
+      "title": "传闻 Grok 4.7：算力中心 + 重金挖编程数据后的能力预期",
+      "summary": "作者称 Grok 4.7 即将见面，并联想马斯克侧超级算力与传花费巨资获取 Cursor 团队/高质量编程数据后，新一代在 AI 编程与 Agent 长程任务上相对 4.6 会大幅提升。属传闻推演，非官方发布。",
+      "recommend_reason": "把「下一代 Grok 编程/Agent 能力」预期写得很具体，便于对照后续官方发布是否兑现。",
+      "tags": [
+        "Grok",
+        "Grok4.7",
+        "AI编程",
+        "传闻"
+      ],
+      "rank": 7
     },
     {
       "id": "2098967840308990228",
@@ -104,7 +244,7 @@
         "夺舍",
         "工具链"
       ],
-      "rank": 3
+      "rank": 8
     },
     {
       "id": "2098965901567778877",
@@ -134,7 +274,7 @@
         "关注清单",
         "Agent"
       ],
-      "rank": 4
+      "rank": 9
     },
     {
       "id": "2098965751264870593",
@@ -159,7 +299,51 @@
         "权限",
         "工作流"
       ],
-      "rank": 5
+      "rank": 10
+    },
+    {
+      "id": "2098964728005734812",
+      "author": "YuLin807",
+      "bio": "",
+      "text": "中国人会怎么讲？！\n\n我们会讲 “哦！去他妈的 AI 减速，我们就是要毁灭世界”！\n\n我们不关心这些。",
+      "created_at": "Sun Sep 13 02:39:22 +0000 2026",
+      "likes": 2,
+      "views": "281",
+      "url": "https://x.com/i/status/2098964728005734812",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2098829977986744356",
+        "author": "OrlvndoA",
+        "name": "Orlando Avendaño",
+        "text": "Los tres grandes titanes de la IA, @DarioAmodei (Anthropic), @sama (OpenAI) y @elonmusk (SpaceXAI) coincidieron hoy, por primera vez en años, en que es urgente desacelerar el ritmo de la IA hasta que se establezcan garantías de seguridad y control. \n\nLo hicieron en posts en X, que probablemente signifiquen uno de los días más importantes de los últimos años.\n\nUn día determinante para el futuro de la humanidad.\n\nPero falta una pata de la mesa: los chinos.",
+        "created_at": "Sat Sep 12 17:43:55 +0000 2026",
+        "url": "https://x.com/OrlvndoA/status/2098829977986744356",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HSCKu9fWwAEkVnf.jpg",
+          "https://pbs.twimg.com/media/HSCKu9aXgAsWkaK.jpg",
+          "https://pbs.twimg.com/media/HSCKu-FaoAAX6NT.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HSCKu9fWwAEkVnf.jpg",
+          "https://pbs.twimg.com/media/HSCKu9aXgAsWkaK.jpg",
+          "https://pbs.twimg.com/media/HSCKu-FaoAAX6NT.jpg"
+        ]
+      },
+      "score": 32.314,
+      "title": "西方喊 AI 减速，作者调侃中国回应会是「管你减速」",
+      "summary": "引用称 Anthropic、OpenAI、xAI 头头罕见同日呼吁放缓 AI 直至安全可控，并点出缺中国这一脚。作者用夸张口吻说中国人会回「去他的减速，我们就是要往前冲」，并不关心这套叙事。",
+      "recommend_reason": "把「中美 AI 安全话语错位」用极短对比钉住：同一天西方减速共识 vs 中国圈冷感/加速感。",
+      "tags": [
+        "AI安全",
+        "减速",
+        "中美",
+        "舆论"
+      ],
+      "rank": 11
     },
     {
       "id": "2098955913239412937",
@@ -185,10 +369,10 @@
         "机器人",
         "具身智能"
       ],
-      "rank": 6
+      "rank": 12
     }
   ],
-  "generated_at": "2026-09-13T04:09:01Z",
+  "generated_at": "2026-09-13T04:19:19Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -199,7 +383,7 @@
     "slot": "noon",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 6,
+    "actual_count": 12,
     "last_batch_added": 6,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
