@@ -127,7 +127,10 @@ test("小红书列表页用按钮打开弹层，不链到 /xiaohongshu/{id}/", a
   assert.match(page, /data-xhs-open/);
   assert.match(page, /暂时没有小红书雷达条目/);
   assert.match(page, /data\/xiaohongshu/);
-  assert.match(page, /今日判断/);
+  assert.doesNotMatch(page, /今日判断/);
+  assert.doesNotMatch(page, /关键信号/);
+  assert.doesNotMatch(page, /xhs-judgement-title/);
+  assert.doesNotMatch(page, /judgement-list/);
   assert.match(page, /认知层级/);
   assert.match(page, /SECTION_LABELS/);
   assert.match(page, /\{section\.title\}/);
@@ -202,7 +205,7 @@ test("可选按日归档文件按日期倒序列出，不影响主报告", async
   assert.deepEqual(missing, []);
 });
 
-test("构建产物 /xiaohongshu/ 空状态可用，详情走弹层", async (t) => {
+test("构建产物 /xiaohongshu/ 不渲染今日判断，详情走弹层", async (t) => {
   const distFile = new URL("../dist/xiaohongshu/index.html", import.meta.url);
   let html;
   try {
@@ -212,7 +215,12 @@ test("构建产物 /xiaohongshu/ 空状态可用，详情走弹层", async (t) =
     return;
   }
   assert.match(html, /小红书/);
-  assert.match(html, /暂时没有小红书雷达条目/);
   assert.match(html, /data-xhs-viewer/);
+  assert.doesNotMatch(html, /今日判断/);
+  assert.doesNotMatch(html, /关键信号/);
   assert.doesNotMatch(html, /href="\/xiaohongshu\/[^"/]+\/"/);
+  if (html.includes("暂时没有小红书雷达条目")) return;
+  assert.match(html, /id="xhs-hot-title"/);
+  assert.match(html, /id="xhs-trends-title"/);
+  assert.match(html, /认知层级/);
 });

@@ -24,8 +24,6 @@ const updated = formatBeijingDateTime(feed.updated_at);
 const recentDates = await getRecentReportDates();
 const awareness = feed.awareness;
 const hasAwareness = Boolean(awareness.dominant_level || awareness.fastest_growing || awareness.note);
-const judgements = feed.summary.today_judgement;
-const topSignals = feed.summary.top_signals;
 const sections = SECTION_KEYS.map((key) => ({
   key,
   title: SECTION_LABELS[key],
@@ -71,21 +69,6 @@ const sections = SECTION_KEYS.map((key) => ({
         </main>
       ) : (
         <main id="xiaohongshu-list">
-          <section class="tool-section" aria-labelledby="xhs-judgement-title">
-            <div class="section-heading">
-              <h2 id="xhs-judgement-title">今日判断</h2>
-              <p>{judgements.length} 条</p>
-            </div>
-            {judgements.length > 0 ? (
-              <ul class="judgement-list">{judgements.map((line) => <li>{line}</li>)}</ul>
-            ) : (
-              <p class="section-empty">今日暂无判断</p>
-            )}
-            {topSignals.length > 0 && (
-              <p class="intro"><strong>关键信号</strong> · {topSignals.join("、")}</p>
-            )}
-          </section>
-
           {sections.map((section) => (
             <section class:list={["tool-section", section.modifier]} aria-labelledby={`xhs-${section.key}-title`}>
               <div class="section-heading">
@@ -169,14 +152,12 @@ const sections = SECTION_KEYS.map((key) => ({
     font-size: var(--font-size-caption);
     margin: 0;
   }
-  .judgement-list,
   .awareness-block {
     color: var(--color-text-primary);
     display: grid;
     gap: var(--spacing-sm);
     margin: 0;
-    padding-left: 1.2rem;
+    padding-left: 0;
   }
-  .awareness-block { padding-left: 0; }
   .history-dates { font-size: var(--font-size-caption); }
 </style>
