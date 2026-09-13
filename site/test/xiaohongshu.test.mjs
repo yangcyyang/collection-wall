@@ -205,7 +205,7 @@ test("可选按日归档文件按日期倒序列出，不影响主报告", async
   assert.deepEqual(missing, []);
 });
 
-test("构建产物 /xiaohongshu/ 空状态可用，详情走弹层", async (t) => {
+test("构建产物 /xiaohongshu/ 不渲染今日判断，详情走弹层", async (t) => {
   const distFile = new URL("../dist/xiaohongshu/index.html", import.meta.url);
   let html;
   try {
@@ -215,9 +215,12 @@ test("构建产物 /xiaohongshu/ 空状态可用，详情走弹层", async (t) =
     return;
   }
   assert.match(html, /小红书/);
-  assert.match(html, /暂时没有小红书雷达条目/);
   assert.match(html, /data-xhs-viewer/);
   assert.doesNotMatch(html, /今日判断/);
   assert.doesNotMatch(html, /关键信号/);
   assert.doesNotMatch(html, /href="\/xiaohongshu\/[^"/]+\/"/);
+  if (html.includes("暂时没有小红书雷达条目")) return;
+  assert.match(html, /id="xhs-hot-title"/);
+  assert.match(html, /id="xhs-trends-title"/);
+  assert.match(html, /认知层级/);
 });
