@@ -6,7 +6,6 @@
   "count": 47,
   "summary": {
     "today_judgement": [
-      "【事实】07:10 例程窗：whoami=瑶姐的潮玩店 followers=647 logged_in=true；search「求代做」「有偿求」AUTH_REQUIRED → search_blocked；feed×3 unique=40 需求词硬命中0；comments 仅 Codex 有偿帖 6a474c6f 回传成功（5-50w/直接开价/别按skill报价），其余多 AUTH_REQUIRED/空。mac_used=false。",
       "【事实】06:40 窗已 comments 打穿 8 线程：代做帖「礼貌问价/薪酬怎么说/无法报价需具体聊/同求」、安装帖「一天没装好/token爆炸」、垂直代做白菜价供给。今日硬付费仍是 Codex/Agent「调通结果」。",
       "【推断】空搜≠需求消失。并行可验证：美工包月报价卡、剪辑试剪漏斗（今日两窗 comments 失败→continuity）；实训/毕设代做合规谨慎；代跑/借额度降权。"
     ],
@@ -14,7 +13,6 @@
       "有偿求写codex skill｜今日两窗均采到：企业工作流5-50w；直接开价；别按skill报价要做工作流",
       "有没有老师接codex代做｜06:40 fresh：礼貌问价；薪酬怎么说；同求；无法报价需具体聊",
       "Skill安装摩擦｜06:40：一天没装好；token爆炸；能否需要时再调取",
-      "美工包月/剪辑包月｜continuity（07:10 comments AUTH_REQUIRED）",
       "07:10 feed×3≈40 需求词硬命中0｜采集缺口，勿误判降温"
     ]
   },

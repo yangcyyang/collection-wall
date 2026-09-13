@@ -2136,12 +2136,7 @@
       "comments_threads": 21,
       "started_at": "2026-09-05T06:14:16+0800",
       "ended_at": "2026-09-05T06:32:40+0800",
-      "whoami": {
-        "logged_in": true,
-        "username": "瑶姐的潮玩店",
-        "followers": 646,
-        "profile": "pfzpdshj"
-      }
+      "whoami": "[redacted]"
     },
     "routine_run_at": "2026-09-05T06:40:00+08:00",
     "routine": "小红书 AI 用户雷达日报"
