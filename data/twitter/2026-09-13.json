@@ -1,0 +1,215 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-13",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2098985038381813984",
+      "author": "GoSailGlobal",
+      "bio": "",
+      "text": "😆哈哈 群含金量太高了\n\nhaiming这个skill App开发者真的很受用\n\n还有agent-reach、dbskill作者\n\n我有https://t.co/gTyDaDiPhN👀 https://t.co/ADtoYchzyK",
+      "created_at": "Sun Sep 13 04:00:05 +0000 2026",
+      "likes": 0,
+      "views": "70",
+      "url": "https://x.com/i/status/2098985038381813984",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSEXw3mbQAATH2N.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSEXw3mbQAATH2N.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2098713302033735769",
+        "author": "GoSailGlobal",
+        "name": "Jason Zhu",
+        "text": "做 App 的人最怕的从来是这句话：功能都做完了，怎么收钱？\n\n海明Dev 刚开源的 haiming-app-monetization，2 天 168 star\n\n一个专门管 App 商业化的 Skill：读你的项目代码，去查同类产品的真实定价，然后给出 onboarding、付费墙、套餐方案，直接能交给开发 Agent 落地\n\n最妙的是它很诚实\n\n默认只评估不改代码，查不到价格就标\"未核实\"，AI 类 App 有持续成本它就不推无限终身，验收文档里明确写了不承诺转化率\n\n这种克制反而比吹得天花乱坠的靠谱!!\n\nClaude Code、Codex、Cursor 这类支持 Skill 的 Agent 都能用，一行装上：\nnpx skills add HammingDev/haiming-app-monetization",
+        "created_at": "Sat Sep 12 10:00:18 +0000 2026",
+        "url": "https://x.com/GoSailGlobal/status/2098713302033735769",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2098713266898018304/vid/avc1/480x270/Fl8Hs3vdV2gfjIkx.mp4?tag=16"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2098713266898018304/img/t3APpELC8QolhofJ.jpg"
+        ]
+      },
+      "score": 52.208,
+      "summary": "😆哈哈 群含金量太高了\n\nhaiming这个skill App开发者真的很受用\n\n还有agent-reach、dbskill作者\n\n我有https://t.co/gTyDaDiPhN👀",
+      "recommend_reason": "点名 haiming App 商业化 Skill，以及 agent-reach、dbskill 作者同场，说明中文圈 Agent Skill 创作者网络在加速互荐。",
+      "tags": [
+        "Agent Skill",
+        "App商业化",
+        "开源",
+        "开发者社区"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2098971144061886851",
+      "author": "lixinbao_X",
+      "bio": "",
+      "text": "华为真正的隐患，可能不是技术落后，而是成功太久了\n\n一家大公司最危险的时候，往往不是没人，而是高手太多。\n\n尤其是一群打过硬仗、立过大功、经历过巅峰的人，坐到了最高决策层。\n\n他们当然有经验，也有判断力。\n\n但AI时代有个很残酷的地方：很多过去值钱的经验，正在快速贬值。\n\n你可以不写代码，可以不亲自训练模型，但如果连Agent怎么跑、AI怎么改流程、一个人怎么顶过去一个小团队都没真正体验过，那对新一轮生产力革命的理解，很可能还停留在汇报材料里。\n\n更麻烦的是，大公司里最贵的从来不只是工资，而是“旧成功模式”。\n\n高薪、高奖金、高分红、高层级，再叠加庞大的组织成本，只要新业务增长跟不上，最后一定会有人开始算账。\n\n所以真正的问题不是：\n\n华为还有没有希望？\n\n而是——\n\n过去那批把华为送上山顶的人，能不能接受下一座山，可能要换一群打法完全不同的人来爬。\n\n很多巨头不是输给竞争对手。\n\n而是输给了自己最辉煌的那段历史。",
+      "created_at": "Sun Sep 13 03:04:52 +0000 2026",
+      "likes": 2,
+      "views": "455",
+      "url": "https://x.com/i/status/2098971144061886851",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 53.065,
+      "title": "华为隐患或许不是技术，而是旧成功模式拴住了决策层",
+      "summary": "作者认为华为真正风险不是技术落后，而是巅峰期功臣占据最高决策层：AI 时代经验贬值快，若决策层未亲自体验 Agent 改流程、一人顶小团队，理解会停在汇报材料。大公司最贵的是旧成功模式（高薪奖金编制），新业务跟不上就会算账；关键不是有没有希望，而是能否接受下一座山要换打法完全不同的人来爬。",
+      "recommend_reason": "把「AI 生产力革命」落到大厂组织与决策层体验缺口，比空谈技术代差更刺痛，适合对照国内巨头转型。",
+      "tags": [
+        "华为",
+        "组织变革",
+        "Agent",
+        "AI转型"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2098967840308990228",
+      "author": "SjwEsther",
+      "bio": "",
+      "text": "上架了不二的发疯表情包！ 用的是 @everettfish0408 的表情包夺舍skill！安装给agent然后把自己的形象和喜欢的抽象表情发给他就可以了！\nhttps://t.co/ctia9zIX6g https://t.co/Yz7X7WA0SL",
+      "created_at": "Sun Sep 13 02:51:44 +0000 2026",
+      "likes": 1,
+      "views": "184",
+      "url": "https://x.com/i/status/2098967840308990228",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSEIHz4bEAABjgy.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSEIHz4bEAABjgy.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 55.944,
+      "summary": "上架了不二的发疯表情包！用的是 @everettfish0408 的表情包夺舍 skill！安装给 agent 然后把自己的形象和喜欢的抽象表情发给他就可以了！",
+      "recommend_reason": "Agent Skill 直接落地到表情包生产：装上就能用自己形象夺舍抽象表情，是「Skill 消费侧」的轻量样本。",
+      "tags": [
+        "Agent Skill",
+        "表情包",
+        "夺舍",
+        "工具链"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2098965901567778877",
+      "author": "baozong_facai",
+      "bio": "",
+      "text": "中推 AI 博主必看榜单（AI 老玩家真心推荐）\n\n停止去信息排泄链下游学习。\n\n下面这些人，有的站在 AI 资讯源头，有的做技术，有的研究创业和赚钱，有的把新工具测完之后整理成人能看懂的东西。\n\n建议一个个关注。\n\n---\n\n路飞｜AI 工具 / 提示词 / 实测\n\n🔗 公众号：https://t.co/eYQC2abbfq\n\n如果你没时间每天刷 X、GitHub、各种 AI 群，可以看路飞。\n\n新模型、新工具、新玩法出来后，他会做测试、筛选，再整理成普通人能看懂、能复制、能上手的内容。\n\n提示词、AI 生图、Agent、实用工具这些方向更新比较勤。\n\n---\n\n@dotey｜AI 技术 / 资讯\n\n宝玉老师，理论和实战兼备。\n\n除了 AI 资讯，也会开源代码，偶尔还能看到不少 AI 圈里的故事。\n\n属于技术深度和信息密度都在线的一位。\n\n---\n\n@oran_ge｜AI 创业\n\n橘子老师。\n\n如果你关心 AI 创业、Agent、产品机会，可以关注他。\n\n接触创业一线比较多，经常能看到一些产品还没火起来之前的判断。Agent 系列文章值得看。\n\n---\n\n@op7418｜AI 生图 / 提示词\n\n歸藏老师。\n\n生图领域绕不开的人之一。\n\n不少在小红书、抖音流传的 AI 生图玩法和提示词，往前追源头，经常能追到他这里。\n\n做 AI 生图的人建议关注。\n\n---\n\n@vista8｜AI 趋势 / Agent\n\n向阳老师。\n\n对新趋势的嗅觉敏锐。\n\nOpenClaw、Agent Skills 这些东西，中推大规模讨论之前，他就在持续输出。\n\n而且愿意分享，信息源质量高。\n\n---\n\n@xiaohu｜AI 资讯\n\n互总。\n\n如果你想追 AI 行业资讯，这个账号值得长期看。\n\n模型发布、产品更新、行业动态覆盖得比较全，有时候模型还没发布，时间线里已经能看到他的消息。\n\n微博也是大 V。\n\n---\n\n@yangyi｜AI 落地 / 赚钱\n\n曾经 3 个月突破 10 万粉丝，接触过大量 AI 落地业务。\n\n最近在做牛马 AI。\n\n我自己做独立开发，所以比较喜欢看他聊产品、商业和赚钱这类东西。\n\n很多内容不是“AI 能干什么”，而是“这东西怎么变成业务”。\n\n---\n\n@lxfater｜AI 技术 / 营销\n\n铁锤人。\n\n1200 万浏览 OpenClaw 技术文章作者，做过陪跑、卖过课，也做过 GitHub 1W+ Star 项目。\n\n属于 AI 技术和营销交叉地带的人。\n\n技术能写，流量能做，产品也做过。",
+      "created_at": "Sun Sep 13 02:44:02 +0000 2026",
+      "likes": 0,
+      "views": "514",
+      "url": "https://x.com/i/status/2098965901567778877",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSEGW-gbQAAdOIG.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSEGW-gbQAAdOIG.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 52.566,
+      "title": "中推 AI 博主必看榜：源头资讯、技术、创业与工具实测",
+      "summary": "作者整理中文推特 AI 关注名单，强调少刷下游排泄链：路飞（工具/提示词/实测）、@dotey（技术资讯）、@oran_ge（AI 创业/Agent）、@op7418（生图提示词）、@vista8（趋势/Agent Skills）、@xiaohu（行业资讯）、@yangyi（落地赚钱）、@lxfater（技术×营销）。覆盖资讯源头、工具测评、创业判断与生图玩法。",
+      "recommend_reason": "可直接当中推 AI 关注清单用，把「看谁」从随机刷时间线改成源头与实战作者矩阵。",
+      "tags": [
+        "中推",
+        "AI资讯",
+        "关注清单",
+        "Agent"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2098965751264870593",
+      "author": "YuLin807",
+      "bio": "",
+      "text": "我已经完全放弃看板、放弃检查、放弃看模型的思考过程这些事情。\n\n因为我已经完全跟不上他们的速度了！\n\nby pass permission run 已经成为我人生的第一选择。\n\n看看 AI 会不会把我送到河里去。",
+      "created_at": "Sun Sep 13 02:43:26 +0000 2026",
+      "likes": 3,
+      "views": "373",
+      "url": "https://x.com/i/status/2098965751264870593",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 35.877,
+      "summary": "我已经完全放弃看板、放弃检查、放弃看模型的思考过程这些事情。\n\n因为我已经完全跟不上他们的速度了！\n\nby pass permission run 已经成为我人生的第一选择。\n\n看看 AI 会不会把我送到河里去。",
+      "recommend_reason": "开发者工作流正在从「人审每步」滑向默认 bypass permission，是 Agent 编码日常化后的真实风险态度样本。",
+      "tags": [
+        "AI编程",
+        "Agent",
+        "权限",
+        "工作流"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2098955913239412937",
+      "author": "bindureddy",
+      "bio": "",
+      "text": "There is close to 0% chance of digital AI destroying humanity \n\nIt’s more likely that we get destroyed by a meteor than by a digital entity.\n\nOf course, robots are far more risky and we should worry about them if they are ever get close to mass market adoption",
+      "created_at": "Sun Sep 13 02:04:21 +0000 2026",
+      "likes": 101,
+      "views": "5415",
+      "url": "https://x.com/i/status/2098955913239412937",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 48.042,
+      "title": "数字 AI 几乎不可能毁灭人类，机器人量产才更该担心",
+      "summary": "作者认为数字形态的 AI 毁灭人类概率接近 0%，被陨石毁灭的可能性都更高；真正更危险的是机器人，一旦接近大规模市场普及就该严肃担忧。",
+      "recommend_reason": "创始人视角把 x-risk 从「纯数字超级智能」拆到「具身机器人量产」，和主流对齐叙事形成对照。",
+      "tags": [
+        "AI安全",
+        "x-risk",
+        "机器人",
+        "具身智能"
+      ],
+      "rank": 6
+    }
+  ],
+  "generated_at": "2026-09-13T04:09:01Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 6,
+    "last_batch_added": 6,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
