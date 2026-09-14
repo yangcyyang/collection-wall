@@ -9,6 +9,107 @@
   },
   "items": [
     {
+      "id": "2099525632778789224",
+      "author": "huangyun_122",
+      "bio": "",
+      "text": "怎么，现在 O 记家的 GPT 除 Astra 外，全部降智的感觉\n\n开了 Sol - High ，连程序逻辑都理不顺，非得 Astra - Extra High 上，才能一击命中。逼着多耗 Token 上 20x，对吧 https://t.co/bXDmJT5CAN",
+      "created_at": "Mon Sep 14 15:48:12 +0000 2026",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0,
+      "views": "1137",
+      "url": "https://x.com/i/status/2099525632778789224",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSMCshpbcAApz8v.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSMCshpbcAApz8v.png"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 55.401,
+      "summary": "怎么，现在 O 记家的 GPT 除 Astra 外，全部降智的感觉\n\n开了 Sol - High ，连程序逻辑都理不顺，非得 Astra - Extra High 上，才能一击命中。逼着多耗 Token 上 20x，对吧",
+      "recommend_reason": "watchlist 作者吐槽非 Astra 档位降智、被迫加档耗 Token，是 GPT 产品分层与成本体感的即时反馈。",
+      "tags": [
+        "GPT",
+        "Astra",
+        "Token",
+        "体感"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2099515680953712968",
+      "author": "cellier_",
+      "bio": "",
+      "text": "Codex 以任务为中心，Grok Bot 和 Muse 以 Bot 为中心，都是错误的产品范式。\n\n它们看起来是两种不同的产品范式，但本质上犯了同一个错误：把 AI 的组织工作交给了用户。\n\nBot-centered 产品沿用了人类社会的组织方式：不同的人有不同的职业、角色和分工，于是 AI 也被拆成不同的 Bot、Expert、Agent。用户在开始工作之前，首先要判断：这件事应该找哪个 Bot？\n\nTask-centered 产品则沿用了传统软件的信息组织方式：不同的事情属于不同的 Task、Chat、Project。于是用户又需要先创建一个 Task、开启一个 Chat、选择一个 Project，然后记住之后应该回到哪里继续这件事。\n\n两种范式看似不同，本质上都要求用户分类。\n\n这些产品的错误本质在于，把 AI 当作人，认为 AI 和人一样，要么要按职业、角色划分其功能性，用户使用 AI 时，也需要像在社会上招工一样，按照一定分工角色查找和使用 AI。\n\n这些产品没有理解 AI 的本质 —— AI 不是人类，它是全知全能的「唯一神」，它不需要人类这一套社会分工。\n\n用户不用关心这件事应该交给哪个 AI Bot，也不应该先判断它属于哪个 Chat、Task 或 Project。\n\n用户只需要向“神”表达自己的意图。\n\n“帮我看看昨天客户提到的问题。”\n“把它整理成下周的产品计划。”\n“顺便更新那个 presentation。”\n“下周一提醒我跟进。”\n“以后类似的客户反馈都自动放进去。”\n\n对用户来说，这些应该发生在同一个持续存在的 AI relationship 中，而不是五个不同的 Bot、Task 或 Chat。\n\nAI 作为「神」可以在后台理解：这是哪个 Intent，属于哪个 Episode，与哪个 Project、Task、Artifact、Object 有关，又应该写入什么 Memory、继承什么 Scope。",
+      "created_at": "Mon Sep 14 15:08:40 +0000 2026",
+      "likes": 3,
+      "retweets": 0,
+      "replies": 0,
+      "views": "873",
+      "url": "https://x.com/i/status/2099515680953712968",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 53.016,
+      "title": "Task/Bot 中心范式都错了：AI 不该让用户先分类",
+      "summary": "作者认为 Codex 的任务中心与 Grok Bot/Muse 的 Bot 中心看似不同，本质都把「组织工作」甩给用户——先选 Bot 或先建 Task/Chat/Project。AI 更该是持续关系里的「唯一神」：用户只表达意图，由系统在后台理解 Intent、Episode、Project 与 Memory，而不是逼人先分类。",
+      "recommend_reason": "对 Agent 产品信息架构的尖锐批评，把「让用户选 Bot/开 Task」上升成范式误区，适合做日报观点条。",
+      "tags": [
+        "Agent",
+        "产品范式",
+        "Grok Bot",
+        "Codex",
+        "UX"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2099515451801776283",
+      "author": "nvidia",
+      "bio": "",
+      "text": "Powerful AI agents are becoming easier to run right on your PC. ⚡\n\nTogether with @Perplexity_AI, we’re making local AI more private, accessible and useful on @Windows NVIDIA RTX PCs.\n\n👇",
+      "created_at": "Mon Sep 14 15:07:45 +0000 2026",
+      "likes": 242,
+      "retweets": 0,
+      "replies": 0,
+      "views": "41972",
+      "url": "https://x.com/i/status/2099515451801776283",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2099514386193027201",
+        "author": "perplexity_ai",
+        "name": "Perplexity",
+        "text": "Portable Computer is now available on Windows PCs with @NVIDIA RTX GPUs.\n\nRun the harness, agents, and models locally on your PC.\n\nWork with local files and connected apps without sending tasks to the cloud. Use frontier cloud models when needed. https://t.co/Htu1WAYwVT",
+        "created_at": "Mon Sep 14 15:03:31 +0000 2026",
+        "url": "https://x.com/perplexity_ai/status/2099514386193027201",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2099514343813738497/vid/avc1/480x270/eQvYIscbk5wUtRE9.mp4?tag=16"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2099514343813738497/img/Ni_N3Gc9x2YURttF.jpg"
+        ]
+      },
+      "score": 61.84,
+      "summary": "强大的 AI Agent 正变得更容易直接在你的 PC 上运行。NVIDIA 与 Perplexity 合作，让本地 AI 在搭载 NVIDIA RTX 的 Windows PC 上更私密、更易用、更有用。",
+      "recommend_reason": "NVIDIA 官号背书与 Perplexity 联推本地 AI，补强「RTX PC 跑 Agent」叙事的芯片侧官方立场。",
+      "tags": [
+        "NVIDIA",
+        "本地AI",
+        "RTX",
+        "Perplexity"
+      ],
+      "rank": 3
+    },
+    {
       "id": "2099514386193027201",
       "author": "perplexity_ai",
       "bio": "",
@@ -36,7 +137,81 @@
         "NVIDIA",
         "Windows"
       ],
-      "rank": 1
+      "rank": 4
+    },
+    {
+      "id": "2099511225550057886",
+      "author": "jinchenma_ai",
+      "bio": "",
+      "text": "多 Agent 并不是银弹。结合我自己的实际体验来看，有两个心得。\n\n1. 重复的事情可以并行，可以开多个线程做。\n\n2. 那些虽然在主流程里，但有点像灵光一闪，或者说我只需要某一环节的结果、不在乎过程的场景，可以开子线程，让它把结果处理完，返回给主线程就可以了。\n\n无脑开多 Agent，效果不见得好，而且还会浪费 Token，产生更大的幻觉。",
+      "created_at": "Mon Sep 14 14:50:57 +0000 2026",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0,
+      "views": "433",
+      "url": "https://x.com/i/status/2099511225550057886",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2098241919843484128",
+        "author": "ClorisSignal",
+        "name": "Cloris 🌱",
+        "text": "Multi-Agent正在成为智能体系统的热门解法，但Agent越多不代表系统越强。这里我会用一个可运行的demo，从0到1搭一套Multi-Agent Eval System，测清成果准不准、协作值不值、最终决策能不能用。否则所谓“Agent 团队”，很可能只是更贵、更慢，也更难排查的工作流。 https://t.co/ec9DCNthB7",
+        "created_at": "Fri Sep 11 02:47:11 +0000 2026",
+        "url": "https://x.com/ClorisSignal/status/2098241919843484128",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 51.77,
+      "summary": "多 Agent 并不是银弹。结合我自己的实际体验来看，有两个心得。\n\n1. 重复的事情可以并行，可以开多个线程做。\n\n2. 那些虽然在主流程里，但有点像灵光一闪，或者说我只需要某一环节的结果、不在乎过程的场景，可以开子线程，让它把结果处理完，返回给主线程就可以了。\n\n无脑开多 Agent，效果不见得好，而且还会浪费 Token，产生更大的幻觉。",
+      "recommend_reason": "watchlist 作者用可落地的两条规则纠正「无脑堆 Multi-Agent」：并行只适合重复活，子线程只取结果，否则更贵更幻。",
+      "tags": [
+        "Multi-Agent",
+        "工程实践",
+        "Token",
+        "幻觉"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2099510712368513124",
+      "author": "python_xxt",
+      "bio": "",
+      "text": "巧了，今天刚给 CodeX 加了这个特性，要求它给自己配了一个FFmpeg ，方便做视频分析，然后再问它类似的环境和工具还缺哪些，它给自己下了一堆…\n\nprompt :\n\n基于日常各类工作分析的需求，穷举需要安装配置的工具和环境，先列个清单出来，我确定后你再安装。\n\n然后蹦出来一大堆工具…",
+      "created_at": "Mon Sep 14 14:48:55 +0000 2026",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 0,
+      "views": "1431",
+      "url": "https://x.com/i/status/2099510712368513124",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2099394533817782493",
+        "author": "LinearUncle",
+        "name": "LinearUncle",
+        "text": "上周和另一家公司交流，我给了对方测试团队一个小建议：\n\n测试必须录屏，提 bug 时附上录像、问题时间区间，以及传统的少量文字和截图（截图其实都可以省了）。\n\nAI 就能用 ffmpeg 截取片段、抽帧分析图像，大幅提高修复成功率。",
+        "created_at": "Mon Sep 14 07:07:16 +0000 2026",
+        "url": "https://x.com/LinearUncle/status/2099394533817782493",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 50.32,
+      "summary": "巧了，今天刚给 CodeX 加了这个特性，要求它给自己配了一个FFmpeg ，方便做视频分析，然后再问它类似的环境和工具还缺哪些，它给自己下了一堆…\n\nprompt :\n\n基于日常各类工作分析的需求，穷举需要安装配置的工具和环境，先列个清单出来，我确定后你再安装。\n\n然后蹦出来一大堆工具…",
+      "recommend_reason": "把「让 Codex 先列工具清单再自装」的可复用 prompt 摊开，对接测试录屏+ffmpeg 分析的工作流，实操价值高。",
+      "tags": [
+        "Codex",
+        "FFmpeg",
+        "工具链",
+        "Prompt"
+      ],
+      "rank": 6
     },
     {
       "id": "2099505020416733627",
@@ -62,7 +237,7 @@
         "基础设施",
         "产品"
       ],
-      "rank": 2
+      "rank": 7
     },
     {
       "id": "2099493368610906613",
@@ -96,7 +271,7 @@
         "视觉设计",
         "创意"
       ],
-      "rank": 3
+      "rank": 8
     },
     {
       "id": "2099481487301324977",
@@ -126,7 +301,7 @@
         "开源",
         "本地AI"
       ],
-      "rank": 4
+      "rank": 9
     },
     {
       "id": "2099475957560087029",
@@ -166,7 +341,7 @@
         "治理",
         "Naval"
       ],
-      "rank": 5
+      "rank": 10
     },
     {
       "id": "2099468318394728499",
@@ -199,7 +374,7 @@
         "隐私",
         "Agent"
       ],
-      "rank": 6
+      "rank": 11
     },
     {
       "id": "2099466952309903560",
@@ -245,7 +420,7 @@
         "GPT-6",
         "工作流"
       ],
-      "rank": 7
+      "rank": 12
     },
     {
       "id": "2099454874958348516",
@@ -277,7 +452,7 @@
         "降智",
         "风控"
       ],
-      "rank": 8
+      "rank": 13
     },
     {
       "id": "2099450564698423732",
@@ -317,7 +492,7 @@
         "本地",
         "xAI"
       ],
-      "rank": 9
+      "rank": 14
     },
     {
       "id": "2099448903733322158",
@@ -348,7 +523,7 @@
         "协作",
         "创业"
       ],
-      "rank": 10
+      "rank": 15
     },
     {
       "id": "2099434295869808676",
@@ -376,7 +551,7 @@
         "AI冷战",
         "Anthropic"
       ],
-      "rank": 11
+      "rank": 16
     },
     {
       "id": "2099433692083212573",
@@ -409,7 +584,7 @@
         "Claude",
         "开源"
       ],
-      "rank": 12
+      "rank": 17
     },
     {
       "id": "2099429238633820207",
@@ -437,7 +612,7 @@
         "OpenAI",
         "政策"
       ],
-      "rank": 13
+      "rank": 18
     },
     {
       "id": "2099409569843933364",
@@ -476,7 +651,7 @@
         "Agent",
         "工程"
       ],
-      "rank": 14
+      "rank": 19
     },
     {
       "id": "2099390058067280383",
@@ -513,7 +688,7 @@
         "Fable 5",
         "AppKit"
       ],
-      "rank": 15
+      "rank": 20
     },
     {
       "id": "2099346742936539240",
@@ -539,7 +714,7 @@
         "多端",
         "生产力"
       ],
-      "rank": 16
+      "rank": 21
     },
     {
       "id": "2099346124960366884",
@@ -576,7 +751,7 @@
         "开发者",
         "观点"
       ],
-      "rank": 17
+      "rank": 22
     },
     {
       "id": "2099339053976129861",
@@ -614,7 +789,7 @@
         "订阅",
         "评测"
       ],
-      "rank": 18
+      "rank": 23
     },
     {
       "id": "2099333899923107906",
@@ -642,7 +817,7 @@
         "人机协作",
         "内容"
       ],
-      "rank": 19
+      "rank": 24
     },
     {
       "id": "2099332314136199353",
@@ -673,7 +848,7 @@
         "大模型",
         "产业"
       ],
-      "rank": 20
+      "rank": 25
     },
     {
       "id": "2099332158322270685",
@@ -704,7 +879,7 @@
         "视觉",
         "社区"
       ],
-      "rank": 21
+      "rank": 26
     },
     {
       "id": "2099329383106596975",
@@ -736,7 +911,7 @@
         "社区",
         "活动"
       ],
-      "rank": 22
+      "rank": 27
     },
     {
       "id": "2099310113580576802",
@@ -768,7 +943,7 @@
         "大模型",
         "传闻"
       ],
-      "rank": 23
+      "rank": 28
     },
     {
       "id": "2099269957498679349",
@@ -799,7 +974,7 @@
         "Computer Use",
         "演示"
       ],
-      "rank": 24
+      "rank": 29
     },
     {
       "id": "2099218552683221067",
@@ -831,26 +1006,26 @@
         "MiniMax",
         "算力"
       ],
-      "rank": 25
+      "rank": 30
     }
   ],
-  "generated_at": "2026-09-14T16:07:43Z",
+  "generated_at": "2026-09-14T16:50:57Z",
   "selection": {
     "target_count": 30,
     "max_count": 30,
-    "per_run_max": 15,
+    "per_run_max": 20,
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
     "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 25,
-    "last_batch_added": 15,
+    "actual_count": 30,
+    "last_batch_added": 5,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
-    "last_batch_skipped_day_cap": 0,
-    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤15；单日≤30不保底；追加按id去重。",
+    "last_batch_skipped_day_cap": 1,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤30不保底；追加按id去重。",
     "short_tweet": {
       "threshold_chars": 200,
       "title_optional": true,
