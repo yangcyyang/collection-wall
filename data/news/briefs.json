@@ -68,5 +68,10 @@
     "date": "2026-09-13",
     "watch": "技巧 + 行业",
     "body": "今天更值得盯「技巧 + 行业」。贴身优先点 MarkTechPost 那篇 Agent 长任务上下文工程：harness 层用预算控制、压缩、todo-state 和跨会话记忆对抗溢出与目标丢失——和你 cy 统筹、routine/skill、多 bot 长跑几乎同构。行业主线是 Dario《We Must Pace the Frontier》：Anthropic 承诺给第三方评估者永久员工级访问，Sam 公开附和说 OpenAI 也会跟，两大实验室难得同向，扫一眼原文和 Sam 那条即可。次看 OpenAI 汇总的 GPT-6 Astra 社区案例；英伟达「AI 中央银行」融资兜底当背景；Suno v6 三档本周已提过，创作用再点官方博客。"
+  },
+  "2026-09-14": {
+    "date": "2026-09-14",
+    "watch": "模型 + 行业",
+    "body": "今天更值得盯「模型 + 行业」。头一条是小红书 AllSpark 开源 Search Agent Iris（35B/397B 同量级领先），权重和评测已公开、训练配方陆续放——你跟开源模型和 agent 流水线时优先点这篇，看数据构造与 SFT-RL 路径能不能迁到自己的检索/工具调用 agent。行业侧 Anthropic 威胁报告称胡塞相关小组用 Claude Code 做导弹制导软件，Agent 编码被滥用又进一档，日常用 Cursor/Claude Code 的话扫一眼当安全备忘即可。次看 Gary Marcus 对 Dario「放慢前沿」的三赞两疑，接昨天那条节奏辩论。"
   }
 }
