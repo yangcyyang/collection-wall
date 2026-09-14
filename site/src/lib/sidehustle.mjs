@@ -3,6 +3,9 @@ import { resolve } from "node:path";
 
 const defaultFile = resolve(process.cwd(), "../data/sidehustle/ideas.json");
 
+/** TEMPORARY: flip to false after the demo to restore the 副业 tab and opportunity list. */
+export const HIDE_SIDEHUSTLE_FOR_DEMO = true;
+
 function emptySummary() {
   return { top_plays: [], price_bands: [], gaps: [] };
 }

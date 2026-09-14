@@ -1,4 +1,6 @@
 ---
+import { HIDE_SIDEHUSTLE_FOR_DEMO } from "../lib/sidehustle.mjs";
+
 type Props = { current: "wall" | "news" | "twitter" | "knowledge" | "prompts" | "skills" | "radar" | "xianyu" | "xiaohongshu" | "sidehustle" | "producthunt" | "login" };
 const { current } = Astro.props;
 const items = [
@@ -13,7 +15,7 @@ const items = [
   { id: "xiaohongshu", href: "/xiaohongshu/", label: "小红书" },
   { id: "sidehustle", href: "/sidehustle/", label: "副业" },
   { id: "producthunt", href: "/producthunt/", label: "Product Hunt" },
-] as const;
+].filter((item) => !HIDE_SIDEHUSTLE_FOR_DEMO || item.id !== "sidehustle");
 ---
 
 <nav class="tabs" aria-label="站点栏目">

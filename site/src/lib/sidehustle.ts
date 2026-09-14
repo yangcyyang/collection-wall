@@ -1,4 +1,5 @@
 export {
+  HIDE_SIDEHUSTLE_FOR_DEMO,
   flattenSectionItems,
   getRecentReportDates,
   getSectionItems,
