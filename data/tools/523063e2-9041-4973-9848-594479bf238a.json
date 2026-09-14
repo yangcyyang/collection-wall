@@ -1,0 +1,58 @@
+{
+  "id": "523063e2-9041-4973-9848-594479bf238a",
+  "url": "https://www.producthunt.com/products/resurf-2",
+  "name": "Resurf（待核实）",
+  "headline": "Product Hunt 上的 Resurf 产品页,遭 Cloudflare 拦截,信息待核实",
+  "intro": "Resurf 是收录在 Product Hunt 上的一个产品(对应页面 producthunt.com/products/resurf-2)。本次抓取时该页面被 Cloudflare 的人机校验中间页挡住,只返回「Performing security verification / Just a moment...」与一个 Ray ID,产品的定位、所属品类、核心功能均未能取得可验证文本。因此本条目为占位记录:不做功能臆测,仅保留可确认的线索(slug resurf-2、来源 Product Hunt、拦截原因),并列出用户未来可能用来找它的多种检索假设,待人工打开页面或换用可绕过校验的抓取方式后再补全。",
+  "category": "🔬 其他",
+  "subcategory": "",
+  "tags": [
+    "Product Hunt",
+    "产品发现",
+    "Cloudflare 拦截",
+    "信息待核实",
+    "Resurf",
+    "resurf-2",
+    "占位条目"
+  ],
+  "capabilities": [
+    "访问 Product Hunt 上的 Resurf 产品页",
+    "追踪 Resurf 的产品发布与更新动态",
+    "人工通过 Cloudflare 人机校验后查看内容",
+    "用 Ray ID 定位一次被拦截的访问",
+    "按 slug resurf-2 反查同名产品"
+  ],
+  "scenarios": [
+    "在做 AI 工具选型、需要确认 Resurf 到底是什么时",
+    "在整理 Product Hunt 产品库、需要补全 resurf-2 条目时",
+    "在抓取资料被 Cloudflare 拦截、要定位拦截原因时",
+    "在比对同类工具、想找 Resurf 的官方定位时"
+  ],
+  "search_keywords": [
+    "Resurf",
+    "Resurf 是什么",
+    "resurf-2",
+    "Product Hunt Resurf",
+    "Resurf AI 工具",
+    "Resurf 替代品",
+    "Resurf 图片修复",
+    "Resurf 视频工具",
+    "Resurf 笔记 回顾",
+    "Cloudflare 拦截 产品页"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [],
+    "pairs_with": []
+  },
+  "tech_highlights": [
+    "页面由 Cloudflare 托管人机校验,Ray ID: a3b0b755bad72b58"
+  ],
+  "cover": "covers/523063e2-9041-4973-9848-594479bf238a.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-09-15T00:20:29",
+  "my_notes": "",
+  "capture_status": "ok"
+}
