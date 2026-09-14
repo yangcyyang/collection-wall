@@ -9,6 +9,513 @@
   },
   "items": [
     {
+      "id": "2099514386193027201",
+      "author": "perplexity_ai",
+      "bio": "",
+      "text": "Portable Computer is now available on Windows PCs with @NVIDIA RTX GPUs.\n\nRun the harness, agents, and models locally on your PC.\n\nWork with local files and connected apps without sending tasks to the cloud. Use frontier cloud models when needed. https://t.co/Htu1WAYwVT",
+      "created_at": "Mon Sep 14 15:03:31 +0000 2026",
+      "likes": 171,
+      "views": "61173",
+      "url": "https://x.com/i/status/2099514386193027201",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2099514343813738497/vid/avc1/480x270/eQvYIscbk5wUtRE9.mp4?tag=16"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2099514343813738497/img/Ni_N3Gc9x2YURttF.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 65.392,
+      "title": "Perplexity Portable Computer 上线 Windows RTX 本地端",
+      "summary": "Perplexity 宣布 Portable Computer 已可在搭载 NVIDIA RTX 的 Windows PC 上使用：在本地跑 harness、agents 和模型，处理本地文件与已连接应用，不必把任务送上云；需要时仍可调用前沿云端模型。",
+      "recommend_reason": "官方把「本地 Agent 运行时 + 按需上云」产品化到 Windows RTX，是本地化 harness 的明确信号。",
+      "tags": [
+        "Perplexity",
+        "本地Agent",
+        "NVIDIA",
+        "Windows"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2099505020416733627",
+      "author": "DeRonin_",
+      "bio": "",
+      "text": "after 5 days of total lock in, i realized ONE thing\n\npeople are not ready anymore to buy saas which help them to close their \"PAIN\"\n\ninstead, they're buying tools for the agent that already does their job, not for themselves\n\nbuild agentic infrastructure as the next product...",
+      "created_at": "Mon Sep 14 14:26:18 +0000 2026",
+      "likes": 60,
+      "views": "4484",
+      "url": "https://x.com/i/status/2099505020416733627",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 62.416,
+      "title": "买家在买给 Agent 用的基础设施，不再只买止痛 SaaS",
+      "summary": "作者封闭五天后的判断：人们不再愿意买帮自己消除「痛点」的 SaaS，而是在为已经代劳工作的 Agent 购买工具；下一步产品应做成 agentic infrastructure。",
+      "recommend_reason": "把销售对象从「人」切到「Agent」——这是包装词变化，也是采购决策单位在变。",
+      "tags": [
+        "Agent",
+        "SaaS",
+        "基础设施",
+        "产品"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2099493368610906613",
+      "author": "VigoCreativeAI",
+      "bio": "",
+      "text": "VISUAL OS 039\n\nFour sports, one rule:\nthe headline moves with the athlete, not over the photo.\n\nCourt. Water. Rally. Street.\nPrompt below ↓ https://t.co/6CY74bmA9b",
+      "created_at": "Mon Sep 14 13:40:00 +0000 2026",
+      "likes": 14,
+      "views": "338",
+      "url": "https://x.com/i/status/2099493368610906613",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSLF872XEAEpEmg.jpg",
+        "https://pbs.twimg.com/media/HSLF87_WIAIESm9.jpg",
+        "https://pbs.twimg.com/media/HSLGF_1WwAI8nqi.jpg",
+        "https://pbs.twimg.com/media/HSLGF_uXEAUA2pz.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSLF872XEAEpEmg.jpg",
+        "https://pbs.twimg.com/media/HSLF87_WIAIESm9.jpg",
+        "https://pbs.twimg.com/media/HSLGF_1WwAI8nqi.jpg",
+        "https://pbs.twimg.com/media/HSLGF_uXEAUA2pz.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 74.927,
+      "summary": "VISUAL OS 039\n\n四项运动，一条规则：标题跟着运动员动，而不是盖在照片上。\n\n球场。水面。拉力。街头。\n提示词见下方 ↓",
+      "recommend_reason": "创意提示词把排版规则写死成「标题随主体运动」，比普通海报模板更有可迁移的设计约束。",
+      "tags": [
+        "提示词",
+        "视觉设计",
+        "创意"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2099481487301324977",
+      "author": "fhwofjow51260",
+      "bio": "",
+      "text": "推荐一个非常实用的开源字幕工具：WhisperSubTranslate。\n\n很多国外课程、访谈、纪录片没有中文字幕，手动听写又太费时间。这个工具可以直接在本地把视频语音识别成字幕，再继续翻译成中文。\n\n它基于 whisper.cpp 做语音识别，可以 100% 本地运行并导出 SRT；翻译这块既能用内置的 Hy-MT2 模型离线处理，也能接 DeepL、OpenAI、Gemini 等在线 API。\n\nhttps://t.co/3J3LuMxuXD",
+      "created_at": "Mon Sep 14 12:52:47 +0000 2026",
+      "likes": 23,
+      "views": "2696",
+      "url": "https://x.com/i/status/2099481487301324977",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSLbR4JbEAAHSyr.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSLbR4JbEAAHSyr.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 63.15,
+      "title": "开源 WhisperSubTranslate：本地语音转字幕再译中文",
+      "summary": "推荐开源工具 WhisperSubTranslate：基于 whisper.cpp 本地语音识别并导出 SRT，翻译可用内置 Hy-MT2 离线，或接 DeepL/OpenAI/Gemini 等 API，适合给无中文字幕的课程、访谈和纪录片补字幕。",
+      "recommend_reason": "本地 ASR + 可选在线翻译的字幕链路完整，解决「外语长视频没有中文字幕」的刚需。",
+      "tags": [
+        "whisper",
+        "字幕",
+        "开源",
+        "本地AI"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2099475957560087029",
+      "author": "naval",
+      "bio": "",
+      "text": "\"When liability exposure approaches 0—when no one pays the price for unverified failures—verification budgets collapse...Deployers flood the Runaway Risk Zone with unmonitored agents, capturing the gains of automation while socializing catastrophic risks.\"",
+      "created_at": "Mon Sep 14 12:30:49 +0000 2026",
+      "likes": 723,
+      "views": "133426",
+      "url": "https://x.com/i/status/2099475957560087029",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2099167910862483917",
+        "author": "ccatalini",
+        "name": "Christian Catalini",
+        "text": "1/ When we looked at the economics of AGI, the key policy challenge was immediately clear:\n\nAI drastically lowers the cost of execution for anything easy to verify. \n\nFor everything else, verification is the bottleneck. https://t.co/m5Sex8WQ2V",
+        "created_at": "Sun Sep 13 16:06:45 +0000 2026",
+        "url": "https://x.com/ccatalini/status/2099167910862483917",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HSG95xjbMAAJ8qo.png"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HSG95xjbMAAJ8qo.png"
+        ]
+      },
+      "score": 64.482,
+      "title": "Naval 引文：无人担责时，未监控 Agent 会涌进失控风险区",
+      "summary": "Naval 转述观点：当责任敞口趋近于零、没人为未验证的失败买单时，验证预算会崩塌；部署方会把未监控的 Agent 涌进失控风险区，私吞自动化收益却把灾难风险社会化。",
+      "recommend_reason": "把 Agent 治理从道德口号压成激励结构：谁承担失败成本，谁才会真的做验证。",
+      "tags": [
+        "Agent",
+        "风险",
+        "治理",
+        "Naval"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2099468318394728499",
+      "author": "GoSailGlobal",
+      "bio": "Show In Public ｜ SaaS 出海 ｜ 克尔凯郭尔种草🌿\n\nSkills hub：https://t.co/x1VU8wWNj1\n博客：https://t.co/ajYYIXGqFg\n\n🤝 合作DM：GoSail_AI\n📮：m17551076169@gmail.com\n\nMCN：collab@gosaillab.com",
+      "text": "做浏览器 Agent 出名的 browser-use，这次开源了一个跟浏览器没关系的东西\n\nlife-recorder，上线两天 204 star，MIT\n\n一句话：把你的一整天录下来，变成一份本地的 Markdown 人生日志\n\niPhone 端锁屏也在录，每分钟切一段 AAC 传到你自己的 Mac，Mac 用 whisper.cpp 本地转写，拼成一份连续文档，每小时打一个时间标记\n\n最妙的是隐私设计得很死：音频转完即删，没有云端，没有付费转写，局域网 HTTPS 加证书锁定加 256 位随机 token，出门要传得自己开 VPN\n\n它还附了一份 SKILL.md，让 Codex 帮你从 Xcode 编译到装机配置全程走完，你只负责点确认\n\n门槛不低，要 Xcode、开发者账号、whisper-cli 和一台常开的 Mac\n\n但有一个 Agent 把你一天说过的话都记住了，这事想想还是有点上头!!",
+      "likes": 16,
+      "retweets": 2,
+      "replies": 1,
+      "views": 2529,
+      "created_at": "Mon Sep 14 12:00:27 +0000 2026",
+      "url": "https://x.com/GoSailGlobal/status/2099468318394728499",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2099468291530231808/vid/avc1/480x270/2-K9yoPfsSCPhX1d.mp4?tag=16"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2099468291530231808/img/AYxPo_yFhX2VK4j2.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 62.564,
+      "title": "browser-use 开源 life-recorder：全天录音变本地 Markdown 日志",
+      "summary": "browser-use 团队开源 life-recorder（MIT，两天 204 star）：iPhone 锁屏也录，每分钟 AAC 传到自己的 Mac，用 whisper.cpp 本地转写拼成带小时时间戳的 Markdown。音频转完即删、无云端；局域网 HTTPS + 证书锁定 + 256 位 token。附 SKILL.md 让 Codex 协助从 Xcode 编译到装机，但门槛需要开发者账号和常开 Mac。",
+      "recommend_reason": "把「全天语音记忆」做成强隐私本地管线，还附 Agent 安装 Skill，是个人 Agent 记忆层的新样本。",
+      "tags": [
+        "life-recorder",
+        "browser-use",
+        "whisper",
+        "隐私",
+        "Agent"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2099466952309903560",
+      "author": "LufzzLiz",
+      "bio": "Al 创作者•LLM 爱好者•Al Agent 构建者\nAI 生视频•AI 生图\n输出有温度的洞察。 致力于降低 AI 使用门槛，让更多人受益。\n某大厂架构师-多模态、模型私有化领域\n企业 AI方案设计• FDE\n关注AI产品、AI结合教育、艺术创作领域\n📮: lanshulan007@gmail.com",
+      "text": "兄弟们教程来了！我们周末分享的：这个敦煌群舞火了！\n推友问怎么生成的，今天我们就通过录屏公开整个制作过程和提示词：如何用白膜生成精美的视频\n通过MiniMax Design 的GPT-6 Astra 视频理解、实现图片生成，视频拆分\n\n最终使用H3 全能参考实现最终的视频生成以及视频2k超分，\n全程仅需要与MiniMax Design 对话即可，不需要自己做画面资源的编辑和规划，非常方便。甚至这个视频的配音也是用MMD 来生成的\n\n顺便补充下：需要用的是海外版本的MiniMax Design，且他家的astra现在是GPT的92折扣\n生图片、生视频详细提示词见评论👇",
+      "likes": 52,
+      "retweets": 8,
+      "replies": 5,
+      "views": 5862,
+      "created_at": "Mon Sep 14 11:55:02 +0000 2026",
+      "url": "https://x.com/LufzzLiz/status/2099466952309903560",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2099464812464078848/vid/avc1/480x270/nAO-A-xeSICalqO-.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2099464812464078848/img/jR9r8DkrXINut8Y1.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2098923089816060177",
+        "author": "LufzzLiz",
+        "name": "岚叔",
+        "text": "用梦老湿分享的白膜生成的，好看！！\n图片用的是GPT image 2.5 https://t.co/1jDtq4Klbc",
+        "created_at": "Sat Sep 12 23:53:55 +0000 2026",
+        "url": "https://x.com/LufzzLiz/status/2098923089816060177",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2098920249034977280/vid/avc1/480x270/9OTGZiPnYRMiMppj.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2098920249034977280/img/wi72V5nVtLfWOp6w.jpg"
+        ]
+      },
+      "score": 65.358,
+      "title": "MiniMax Design 录屏复盘：白膜到敦煌群舞视频全流程",
+      "summary": "作者公开周末爆火敦煌群舞的制作过程：用 MiniMax Design 的 GPT-6 Astra 做视频理解与出图、视频拆分，再用 H3 全能参考生成成片并 2K 超分，配音也在 MMD 内完成，强调主要靠对话而非手搓素材。并注明需海外版 MiniMax Design，Astra 相对 GPT 有折扣。",
+      "recommend_reason": "少见的完整视频 Agent 工作流实录，能看出「理解→拆分→参考生成→超分」怎么串起来。",
+      "tags": [
+        "MiniMax",
+        "AI视频",
+        "GPT-6",
+        "工作流"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2099454874958348516",
+      "author": "gkxspace",
+      "bio": "🌸05年连续创业者 | 专注 AI 产品 | 项目营收 7 位数+\n✨记录真实AI创业：AI干货分享、项目复盘、踩坑总结\n💗付费咨询 & AI 商业化方案 & 企业 AI 服务\n📮yuwengkx@gmail.com",
+      "text": "最近很多人骂 GPT-6 降智，我去研究了一下，发现这事是真的，而且比 Claude 封号恶心多了😅\n\nClaude 封号好歹是明着来，OpenAI 现在搞的软性风控，搞静默降级。\n\n选的 GPT-6 Astra，结果因为网络环境被系统判定为高风险，或者碰到算力高峰，把请求路由到 5.5-mini 等。\n\n扣最贵的额度，吐最弱智的代码，连个弹窗提示都没有。\n\n而且，很多人好奇，为什么海外用户都在吐槽额度消耗快，国内用户却全在吐槽降智？\n\n国内大部分人用的机场节点基本都是机房 IP，几百上千人共用，再加上很多人用中转跑并发触发 OpenAI 的防蒸馏和反爬。\n\n说实话，这种偷降智降额度真不如直接封号😅",
+      "likes": 114,
+      "retweets": 8,
+      "replies": 45,
+      "views": 46272,
+      "created_at": "Mon Sep 14 11:07:02 +0000 2026",
+      "url": "https://x.com/gkxspace/status/2099454874958348516",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSLCJNFbEAAONmL.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSLCJNFbEAAONmL.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 64.576,
+      "title": "GPT-6 被指静默降级：扣贵额度却路由到弱模型",
+      "summary": "作者核查「GPT-6 降智」后认为属实，且比 Claude 明着封号更糟：OpenAI 用软性风控做静默降级，选 GPT-6 Astra 却因机房 IP/算力高峰被路由到 5.5-mini 等，扣最贵额度、吐弱代码且无提示。并解释海外吐槽额度快、国内吐槽降智，多与共享机场 IP 和中转并发触发防蒸馏有关。",
+      "recommend_reason": "把「降智」落成可复述的路由机制与中外体感差异，比纯情绪骂街更有信息量。",
+      "tags": [
+        "GPT-6",
+        "OpenAI",
+        "降智",
+        "风控"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2099450564698423732",
+      "author": "elonmusk",
+      "bio": "https://t.co/ZdBx5WABYx",
+      "text": "Grok Bot now lets your route through your local machine",
+      "likes": 5359,
+      "retweets": 549,
+      "replies": 606,
+      "views": 1785855,
+      "created_at": "Mon Sep 14 10:49:55 +0000 2026",
+      "url": "https://x.com/elonmusk/status/2099450564698423732",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2099227681925771699",
+        "author": "blankspeaker",
+        "name": "️",
+        "text": "SpaceXAI: Grok Bot now lets you route egress through your local machine.\n(It means Grok Bot's VM will connect to things from your IP address, not the datacenter's.)\n\nThis will be great to access picky sites and services that may block connections  from  datacenter IPs or access other services  that need to come from your IP.\n\nJust go to  Settings > Computer >  Route egress  to enable it.  ( you may need to update Grok Bot's computer first  )",
+        "created_at": "Sun Sep 13 20:04:15 +0000 2026",
+        "url": "https://x.com/blankspeaker/status/2099227681925771699",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HSHzJ4xaYAEIZS5.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HSHzJ4xaYAEIZS5.jpg"
+        ]
+      },
+      "score": 64.796,
+      "summary": "Grok Bot 现在可以让你经由本地机器进行路由。",
+      "recommend_reason": "Elon 一句话确认 Grok Bot 支持走本地机路由，和白天多端打通叙事连成一条产品线。",
+      "tags": [
+        "Grok Bot",
+        "本地",
+        "xAI"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2099448903733322158",
+      "author": "Khazix0918",
+      "bio": "愿我们永远对世界保持好奇。\n公众号：数字生命卡兹克",
+      "text": "公司的一个小小的里程碑。\n终于全面从微信切换到飞书了。\n\n这一年跑的太快，很多基石还没做好，沿着惯性在走，今天想了想，还是下定决心了。\n\n虽说只是办公方式的一个小小的变化，但是也意味着，面向未来。\n\n体验完了一些还没有面世的东西，我相信未来的飞书，是会为Agent而生，我也相信，飞书永远不会让我失望。",
+      "likes": 191,
+      "retweets": 4,
+      "replies": 72,
+      "views": 55485,
+      "created_at": "Mon Sep 14 10:43:19 +0000 2026",
+      "url": "https://x.com/Khazix0918/status/2099448903733322158",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSK9o_jb0AAvVcz.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSK9o_jb0AAvVcz.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 65.203,
+      "summary": "公司的一个小小的里程碑。\n终于全面从微信切换到飞书了。\n\n这一年跑的太快，很多基石还没做好，沿着惯性在走，今天想了想，还是下定决心了。\n\n虽说只是办公方式的一个小小的变化，但是也意味着，面向未来。\n\n体验完了一些还没有面世的东西，我相信未来的飞书，是会为Agent而生，我也相信，飞书永远不会让我失望。",
+      "recommend_reason": "一线创业团队把办公底座切到飞书，理由直接指向「为 Agent 而生」，是协作套件 Agent 化的现场信号。",
+      "tags": [
+        "飞书",
+        "Agent",
+        "协作",
+        "创业"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2099434295869808676",
+      "author": "bindureddy",
+      "bio": "CEO of @abacusai  - a powerful AI Agent and SuperComputer - Build your company on Abacus AI, ex-AWS & Google",
+      "text": "China responded to Dario saying that US is trying to cut off China and they are in a AI Cold War! \n\nThe last thing we want to do is antagonize China who is responsible for open source and decentralized AI \n\nWithout them OpenAI and Anthropic would have a authoritarian effect of a duopoly on AI",
+      "likes": 335,
+      "retweets": 22,
+      "replies": 31,
+      "views": 23751,
+      "created_at": "Mon Sep 14 09:45:16 +0000 2026",
+      "url": "https://x.com/bindureddy/status/2099434295869808676",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 66.502,
+      "title": "中国回应 AI 冷战：开源阵营被当成对抗对象很危险",
+      "summary": "中国方面回应 Dario，称美国在试图切断中国、双方已陷入 AI 冷战。作者认为最不该做的是把负责开源与去中心化 AI 的中国推向对立面，否则 OpenAI 与 Anthropic 更容易形成威权式双寡头。",
+      "recommend_reason": "把地缘叙事拉回开源供给：没有中国开源，闭源双寡头会更难被制衡。",
+      "tags": [
+        "开源",
+        "中国",
+        "AI冷战",
+        "Anthropic"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2099433692083212573",
+      "author": "vista8",
+      "bio": "喜欢摇滚乐、爱钓鱼的PM\n第二届GEO大会报名-11-21/22日-深圳南山\nhttps://t.co/N75cblhK9R",
+      "text": "微信读书很棒，但有些书没有，且AI辅助只能用内置模型。\n\n消耗一周时间，开发了个Obsidian电子书阅读器。\n\n① 支持几乎所有电子书格式，比如 EPUB、PDF、MOBI、AZW3、FB2等。\n\n② 用你Codex、Claude Code、Zcode、Kimi订阅来辅助读书，不用额外花钱，也支持DeepSeek等API。\n\n③ 随时划线笔记，自动生成Markdown文件，让你的思考保存下来。\n\nObsidian官方插件市场搜索：“qiaomu”安装。\n\n代码也已开源到Github，欢迎Star改造。",
+      "likes": 218,
+      "retweets": 43,
+      "replies": 30,
+      "views": 26284,
+      "created_at": "Mon Sep 14 09:42:52 +0000 2026",
+      "url": "https://x.com/vista8/status/2099433692083212573",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2099429445153234944/vid/avc1/436x270/nu0mXDlcEERVVXmF.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2099429445153234944/img/TN_WdLGLe8ZivTmW.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 68.024,
+      "title": "Obsidian 电子书阅读器：接 Codex/Claude 订阅做划线笔记",
+      "summary": "作者嫌微信读书缺书且只能用内置模型，花一周做了 Obsidian 电子书阅读器：支持 EPUB/PDF/MOBI/AZW3/FB2 等格式；可用已有 Codex、Claude Code、Zcode、Kimi 订阅或 DeepSeek API 辅助阅读；划线笔记自动落成 Markdown。插件市场搜「qiaomu」安装，代码已开源。",
+      "recommend_reason": "把读书场景直接接到现有 Coding/Claude 订阅上，是「已有额度复用」而不是再买一个阅读 AI。",
+      "tags": [
+        "Obsidian",
+        "电子书",
+        "Codex",
+        "Claude",
+        "开源"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2099429238633820207",
+      "author": "bindureddy",
+      "bio": "CEO of @abacusai  - a powerful AI Agent and SuperComputer - Build your company on Abacus AI, ex-AWS & Google",
+      "text": "Wow! Dario went on TV and literally pleaded to be regulated by a bunch of governments 😳\n\nImagine the UN or EU regulating AI. They have zero clue about AI and It will be a huge disaster exactly like Europe! \n\nTBH, Anthropic and OpenAI can pace, slow down or do whatever they want - just leave the rest of the AI world alone 🙏",
+      "likes": 385,
+      "retweets": 30,
+      "replies": 76,
+      "views": 15653,
+      "created_at": "Mon Sep 14 09:25:10 +0000 2026",
+      "url": "https://x.com/bindureddy/status/2099429238633820207",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 71.179,
+      "title": "Dario 上电视求监管，被批别拖累整个 AI 圈",
+      "summary": "作者吐槽 Dario 上电视恳求多国政府监管 AI，认为让联合国或欧盟来管会是灾难；Anthropic 和 OpenAI 自己可以放慢节奏，但别把监管枷锁套到其余 AI 世界头上。",
+      "recommend_reason": "把「头部实验室求监管」和「别连坐整个生态」拆开，是当日政策争论里最清楚的反对意见之一。",
+      "tags": [
+        "Anthropic",
+        "监管",
+        "OpenAI",
+        "政策"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2099409569843933364",
+      "author": "yetone",
+      "bio": "Built: avante.nvim\n\nBuilding:\n\nhttps://t.co/pfq9srNgsd\n\nhttps://t.co/fpGnPR5t9C\n\nhttps://t.co/cBN1yzJPIG\n\nhttps://t.co/6ERz2HMx0f\n\nhttps://t.co/QhQRLD4zQo\n\nhttps://t.co/ln9CVeagWC",
+      "text": "发这个不是为了装逼，是因为前几天偶然看到了 Aider 之前写的几篇关于如何让大模型输出正确和高效的 diff 格式的文章，感慨万千。想起了 cursor 当年也写过一系列的文章讲自己如何调教大模型，让大模型可以正确地编辑文件，甚至 Anthropic 在 2024 年还把 str_replace_editor 工具专门训练进了 Claude ，更甚至的是还有新成立的公司专门训练 edit 模型来解决这一难题，可见这件事情在当时的确是难倒了很多人，不管是 agent 团队还是大模型公司，一群人绞尽脑汁解决同一个问题的盛状至今记忆犹新",
+      "likes": 228,
+      "retweets": 9,
+      "replies": 47,
+      "views": 34021,
+      "created_at": "Mon Sep 14 08:07:01 +0000 2026",
+      "url": "https://x.com/yetone/status/2099409569843933364",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2098829025380835626",
+        "author": "yetone",
+        "name": "yetone",
+        "text": "看一个 Harness 的开发者是不是所谓的 Harness 开发「老资历」，就看他怎么实现 Edit tool，我一般看 Edit tool 的实现逻辑就能推测出这个人是从哪一年开始开发 Harness 的了",
+        "created_at": "Sat Sep 12 17:40:08 +0000 2026",
+        "url": "https://x.com/yetone/status/2098829025380835626",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 62.57,
+      "title": "回看 Aider/Cursor 时代：正确 diff 曾是全行业难题",
+      "summary": "作者重读 Aider 关于让大模型输出正确高效 diff 的文章后感慨：Cursor 也曾公开讲如何调教模型编辑文件，Anthropic 在 2024 把 str_replace_editor 训进 Claude，甚至有公司专训 edit 模型。说明当年「正确改文件」难倒过 agent 团队和模型公司。",
+      "recommend_reason": "用行业史提醒：今天顺手的文件编辑能力，曾是需要专文、专工具甚至专模型硬啃的瓶颈。",
+      "tags": [
+        "Aider",
+        "Cursor",
+        "diff",
+        "Agent",
+        "工程"
+      ],
+      "rank": 14
+    },
+    {
+      "id": "2099390058067280383",
+      "author": "dotey",
+      "bio": "AI Engineer, dedicated to learning and disseminating knowledge about AI, software engineering, and engineering management.",
+      "text": "个人建议 iOS 开发最佳组合：\n技术栈选 AppKit，不要选 SwiftUI\n先将 Figma 导入 Claude Design（Opus 5 就够了）\n然后用 Fable 照着 Claude Design 结果开发，会还原的非常好\n\n第一版做好了，后续修改，只要用 GPT 或者 Opus 5 就够了",
+      "likes": 604,
+      "retweets": 74,
+      "replies": 50,
+      "views": 91377,
+      "created_at": "Mon Sep 14 06:49:29 +0000 2026",
+      "url": "https://x.com/dotey/status/2099390058067280383",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2099378360644452705",
+        "author": "dingyi",
+        "name": "Ding",
+        "text": "现在写 iOS 最好的模型是哪个？Grok 简直是智障了，GPT-6 太费钱了，我仅仅让它把所有界面导入 Figma，还是开的 Astra Medium，竟然都没导完就限额了。。。",
+        "created_at": "Mon Sep 14 06:03:00 +0000 2026",
+        "url": "https://x.com/dingyi/status/2099378360644452705",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 63.974,
+      "summary": "个人建议 iOS 开发最佳组合：\n技术栈选 AppKit，不要选 SwiftUI\n先将 Figma 导入 Claude Design（Opus 5 就够了）\n然后用 Fable 照着 Claude Design 结果开发，会还原的非常好\n\n第一版做好了，后续修改，只要用 GPT 或者 Opus 5 就够了",
+      "recommend_reason": "给出可照做的 iOS Agent 工作流：AppKit + Claude Design + Fable，比空谈「用 AI 写 App」具体。",
+      "tags": [
+        "iOS",
+        "Claude Design",
+        "Fable 5",
+        "AppKit"
+      ],
+      "rank": 15
+    },
+    {
       "id": "2099346742936539240",
       "author": "YuLin807",
       "bio": "",
@@ -32,7 +539,7 @@
         "多端",
         "生产力"
       ],
-      "rank": 1
+      "rank": 16
     },
     {
       "id": "2099346124960366884",
@@ -69,7 +576,7 @@
         "开发者",
         "观点"
       ],
-      "rank": 2
+      "rank": 17
     },
     {
       "id": "2099339053976129861",
@@ -107,7 +614,7 @@
         "订阅",
         "评测"
       ],
-      "rank": 3
+      "rank": 18
     },
     {
       "id": "2099333899923107906",
@@ -135,7 +642,7 @@
         "人机协作",
         "内容"
       ],
-      "rank": 4
+      "rank": 19
     },
     {
       "id": "2099332314136199353",
@@ -166,7 +673,7 @@
         "大模型",
         "产业"
       ],
-      "rank": 5
+      "rank": 20
     },
     {
       "id": "2099332158322270685",
@@ -197,7 +704,7 @@
         "视觉",
         "社区"
       ],
-      "rank": 6
+      "rank": 21
     },
     {
       "id": "2099329383106596975",
@@ -229,7 +736,7 @@
         "社区",
         "活动"
       ],
-      "rank": 7
+      "rank": 22
     },
     {
       "id": "2099310113580576802",
@@ -261,7 +768,7 @@
         "大模型",
         "传闻"
       ],
-      "rank": 8
+      "rank": 23
     },
     {
       "id": "2099269957498679349",
@@ -292,7 +799,7 @@
         "Computer Use",
         "演示"
       ],
-      "rank": 9
+      "rank": 24
     },
     {
       "id": "2099218552683221067",
@@ -324,26 +831,26 @@
         "MiniMax",
         "算力"
       ],
-      "rank": 10
+      "rank": 25
     }
   ],
-  "generated_at": "2026-09-14T04:11:22Z",
+  "generated_at": "2026-09-14T16:07:43Z",
   "selection": {
-    "target_count": 60,
-    "max_count": 60,
-    "per_run_max": 20,
+    "target_count": 30,
+    "max_count": 30,
+    "per_run_max": 15,
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 10,
-    "last_batch_added": 10,
+    "actual_count": 25,
+    "last_batch_added": 15,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
-    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤15；单日≤30不保底；追加按id去重。",
     "short_tweet": {
       "threshold_chars": 200,
       "title_optional": true,
