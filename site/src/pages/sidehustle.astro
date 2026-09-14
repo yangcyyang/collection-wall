@@ -17,6 +17,8 @@ const summary = feed.summary;
 const hasContent = items.length > 0;
 const hasSummary = summary.top_plays.length + summary.price_bands.length + summary.gaps.length > 0;
 const updated = formatBeijingDateTime(feed.updated_at);
+// TEMPORARY: flip to false after the demo to restore the opportunity list.
+const HIDE_SIDEHUSTLE_LIST_FOR_DEMO = true;
 ---
 
 <html lang="zh-CN">
@@ -36,14 +38,22 @@ const updated = formatBeijingDateTime(feed.updated_at);
           {feed.title && <p class="intro">{feed.title}{updated ? ` · ${updated}` : ""}</p>}
         </div>
         <div class="header-stats">
-          <p class="record-count">{items.length} 条机会</p>
+          {!HIDE_SIDEHUSTLE_LIST_FOR_DEMO && <p class="record-count">{items.length} 条机会</p>}
           <LogoutControl />
         </div>
       </header>
 
       <SiteNav current="sidehustle" />
 
-      {!hasContent ? (
+      {HIDE_SIDEHUSTLE_LIST_FOR_DEMO ? (
+        <main id="sidehustle-list">
+          <section class="empty-state" aria-labelledby="sidehustle-demo-title">
+            <p class="empty-icon">✦</p>
+            <h2 id="sidehustle-demo-title">内容暂未开放</h2>
+            <p>该列表演示期间暂不展示。</p>
+          </section>
+        </main>
+      ) : !hasContent ? (
         <main id="sidehustle-list">
           <section class="empty-state" aria-labelledby="empty-title">
             <p class="empty-icon">✦</p>
@@ -96,7 +106,7 @@ const updated = formatBeijingDateTime(feed.updated_at);
         </main>
       )}
     </div>
-    <SidehustleViewer items={items} />
+    {!HIDE_SIDEHUSTLE_LIST_FOR_DEMO && <SidehustleViewer items={items} />}
     <footer class="site-footer">
       <p>数据来自 data/sidehustle JSON，构建时读取，不另存 HTML。</p>
     </footer>
