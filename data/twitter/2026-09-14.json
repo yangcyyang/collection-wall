@@ -1,0 +1,354 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-14",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2099346742936539240",
+      "author": "YuLin807",
+      "bio": "",
+      "text": "以后也不用折腾什么远程操控了！尤其是你有多个终端、多台设备的情况下。\n\n直接用 grok bot 登录，Mac/Linux 一个账号全部打通。",
+      "created_at": "Mon Sep 14 03:57:22 +0000 2026",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "61",
+      "url": "https://x.com/i/status/2099346742936539240",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 46.305,
+      "summary": "以后也不用折腾什么远程操控了！尤其是你有多个终端、多台设备的情况下。\n\n直接用 grok bot 登录，Mac/Linux 一个账号全部打通。",
+      "recommend_reason": "点出 Grok Bot 多端同账号打通的实用卖点，对跨 Mac/Linux 工作流的人是具体场景提醒。",
+      "tags": [
+        "Grok Bot",
+        "多端",
+        "生产力"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2099346124960366884",
+      "author": "imwsl90",
+      "bio": "",
+      "text": "我一点都不怀念\n\n以前就觉得手写代码过于繁琐，需要各种背景知识，还需要理解各种细节\n\n有时候头发抓没了只是解决一个bug\n\n眼睛废了，腰也废了\n\n古法编程堪比刀耕火种，现在有了agent，我们操作agent就能写出软件来了，大大的解放了我们的肉体\n\n如果你有很多idea，你会爱上现在AI写代码的时代",
+      "created_at": "Mon Sep 14 03:54:54 +0000 2026",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "187",
+      "url": "https://x.com/i/status/2099346124960366884",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2099132756584472942",
+        "author": "kevinma_dev_zh",
+        "name": "Kevin Ma",
+        "text": "特别怀念手写代码的那些年，那大概是我做产品开发最快乐的时候。\n\n我想以后还是会慢慢回到「古法编程」。\n\n当然，也不会说完全回到过去什么都自己手写的状态。更像是一种半自动化：那些重复、琐碎、自己不想做的事情，可以交给 Agent；真正喜欢的部分，还是留给自己。\n\n现在大家都在追求更自动化的流水线，希望一个人可以同时指挥很多 Agent，把软件开发变成一座高效运转的软件工厂。\n\n但我越来越觉得，自己真正想要的，可能只是一个小小的工作间。\n\n像一个木匠一样，亲手做一些自己喜欢的东西。也会用电动工具和各种设备来提高效率、节省体力，但从最开始的构思，到制作，再到一点点打磨，想有更多的掌控感，尤其对程序、对代码。\n\n对我来说，写代码本身就是做产品乐趣的一部分。",
+        "created_at": "Sun Sep 13 13:47:03 +0000 2026",
+        "url": "https://x.com/kevinma_dev_zh/status/2099132756584472942",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 47.404,
+      "summary": "我一点都不怀念\n\n以前就觉得手写代码过于繁琐，需要各种背景知识，还需要理解各种细节\n\n有时候头发抓没了只是解决一个bug\n\n眼睛废了，腰也废了\n\n古法编程堪比刀耕火种，现在有了agent，我们操作agent就能写出软件来了，大大的解放了我们的肉体\n\n如果你有很多idea，你会爱上现在AI写代码的时代",
+      "recommend_reason": "watchlist 作者对「Agent 写软件」时代感的直白表态，代表一批从手工调试转到调度 Agent 的开发者心态。",
+      "tags": [
+        "Agent",
+        "编程",
+        "开发者",
+        "观点"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2099339053976129861",
+      "author": "RookieRicardoR",
+      "bio": "",
+      "text": "市面上所有 Coding 套餐我都开了，性价比首推 Kimi 的 199 套餐，\n\n它的用量可以对标 GLM 的 538 套餐，智能程度又比 DeepSeek 高一些，\n\n而且还是多模态，各方面都很均衡，我在公司天天用，\n\nClaude 的 20 刀套餐只用 Opus5 的话用量也挺充足的，\n\nGPT 的 20 刀套餐用 GPT6 已经拉完了，无论做啥都很快把 5h 消耗空，体验堪比 GLM 的 lite 套餐。",
+      "created_at": "Mon Sep 14 03:26:48 +0000 2026",
+      "likes": 7,
+      "retweets": 0,
+      "replies": 0,
+      "views": "546",
+      "url": "https://x.com/i/status/2099339053976129861",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2099289779213066408",
+        "author": "MinLiBuilds",
+        "name": "实践哥 Li",
+        "text": "结合手上的订阅，给$20的进行耐用排名，如果你的预算是 $20，请看：\n\n1. Claude $20\n2. ChatGPT，带重置\n3. ChatGPT $20不带重置，Gemini Pro $20，并列第三\n4. Deepseek Flash，150块钱\n\n使用的模型是：Opus 5 Medium、GPT5.6 Sol Medium、Gemini Flash、Deepseek Flash。",
+        "created_at": "Mon Sep 14 00:11:00 +0000 2026",
+        "url": "https://x.com/MinLiBuilds/status/2099289779213066408",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 57.382,
+      "title": "实测对比：Kimi 199 套餐性价比压过多家 Coding 订阅",
+      "summary": "作者开遍市面 Coding 套餐后首推 Kimi 199：用量可对标 GLM 538、智能高于 DeepSeek 且多模态均衡；Claude 20 刀若只用 Opus5 仍够用；GPT 20 刀跑 GPT6 极易把 5 小时额度打空，体验接近 GLM lite。",
+      "recommend_reason": "watchlist 作者的一线套餐横评，直接给价位与体感对照，写日报时很有参考价值。",
+      "tags": [
+        "Kimi",
+        "Coding",
+        "订阅",
+        "评测"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2099333899923107906",
+      "author": "dugujun12",
+      "bio": "",
+      "text": "有人问我，AI 化这个趋势说了两三年，是不是伪命题？其实我觉得趋势是没毛病的，但是 AI 化的程度是不是要考虑的一个问题？另外，自动化是不是意味着一定纯自动化？还是说关键环节需要人来把关，比如 10% 是人把关，90% 是 AI 自动化。\n\n以流量为例，像内容、策略，以及基于用户反馈的提炼判断等，这些影响流量的关键环节其实应该还是由人来做。所以，纯靠 AI 其实也不对。\n\n我自己做自媒体的体验就是，我不会把内容完全交给 AI，也不会把全流程交给 AI。关键环节还是由人来做，比如：\n1. 选题的判断；\n2. 内容的观点或逻辑；\n3. 通过内容去转化产品的链路设计；\n4. 底层逻辑的策略制定。\n\nAI 其实就是把其余部分，那些过去重复人类做的事情给替换掉就 OK 了。\n\n反正目前我的认知可能就是这样一个感觉，不知道是深还是浅。",
+      "created_at": "Mon Sep 14 03:06:20 +0000 2026",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "views": "175",
+      "url": "https://x.com/i/status/2099333899923107906",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": null,
+      "title": "AI 化不是伪命题，关键是自动化深度与人机分工",
+      "summary": "作者认为 AI 化趋势成立，但要问清自动化到什么程度：关键环节（选题判断、观点逻辑、转化链路、底层策略）仍应由人把关，例如约 10% 人审、90% AI 执行；纯交全流程给 AI 不对，自媒体实践也如此。",
+      "recommend_reason": "少见的「AI 化程度」拆解，比空喊全面自动化更贴近真实内容业务，适合当产品/运营分工参考。",
+      "tags": [
+        "AI化",
+        "自动化",
+        "人机协作",
+        "内容"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2099332314136199353",
+      "author": "PDChinese",
+      "bio": "",
+      "text": "【中國實現一體化算力統籌監測】據工業和信息化部消息，中國算力平台已實現全國一體化算力統籌監測，中國算力“一張網、一盤棋、一體化”發展格局基本形成。\n\n中國算力平台是國家級綜合性算力服務平台，目前已經匯聚了超萬家註冊企業用戶，上架2000多項優質算力產品，接入各類大模型超300個，為廣大開發者提供算力調用服務，累計沉澱數十億條算力監測大數據。",
+      "created_at": "Mon Sep 14 03:00:02 +0000 2026",
+      "likes": 12,
+      "retweets": 0,
+      "replies": 0,
+      "views": "1357",
+      "url": "https://x.com/i/status/2099332314136199353",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSJNbK7bkAADRqr.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSJNbK7bkAADRqr.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 61.632,
+      "summary": "【中國實現一體化算力統籌監測】據工業和信息化部消息，中國算力平台已實現全國一體化算力統籌監測，中國算力“一張網、一盤棋、一體化”發展格局基本形成。\n\n中國算力平台是國家級綜合性算力服務平台，目前已經匯聚了超萬家註冊企業用戶，上架2000多項優質算力產品，接入各類大模型超300個，為廣大開發者提供算力調用服務，累計沉澱數十億條算力監測大數據。",
+      "recommend_reason": "工信部口径的全国算力「一张网」进展，数字具体（上万企业、2000+产品、300+模型），是产业侧硬新闻。",
+      "tags": [
+        "算力",
+        "中国",
+        "大模型",
+        "产业"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2099332158322270685",
+      "author": "Jackywine",
+      "bio": "Obsidian VIP | PromptEngineer | 深入学习 OpenAI Anthropic 以及国产大模型\n其实不过 是工作之余分享 AI、设计、产品的普通纯小白网友罢了\n\n✈️ https://t.co/HRpOru3LUj\n\n列表https://t.co/Jyj3HMNTsZ",
+      "text": "有些时候，我们刷推，都是无意义的滑，推几个我觉得很顶的 AIGC 领域优秀的创作者，他们有一个共同点，都来自 @vibeshotclub  VSC 目前 X 上最大的 AI 视觉创作社区，古一大师是发起人\n\n我之前也说过，如果你想看优质内容，我建议你直接关注对应的创作者 \n@nanyuan0412 @Magncsans @zhngwibn284976 https://t.co/pLLImxhcFz",
+      "created_at": "Mon Sep 14 02:59:24 +0000 2026",
+      "likes": 16,
+      "retweets": 1,
+      "replies": 9,
+      "views": 2738,
+      "url": "https://x.com/Jackywine/status/2099332158322270685",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2099329823848235008/vid/avc1/480x270/c4-iwCIR4fdQPwts.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2099329823848235008/img/ZjGitPEu4WioXESV.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 43.682,
+      "summary": "有些时候，我们刷推，都是无意义的滑，推几个我觉得很顶的 AIGC 领域优秀的创作者，他们有一个共同点，都来自 @vibeshotclub  VSC 目前 X 上最大的 AI 视觉创作社区，古一大师是发起人\n\n我之前也说过，如果你想看优质内容，我建议你直接关注对应的创作者 \n@nanyuan0412 @Magncsans @zhngwibn284976 https://t.co/pLLImxhcFz",
+      "recommend_reason": "把刷时间线换成跟创作者：点名 VSC 社区与几位高信号 AIGC 视觉作者，跟名单维护直接相关。",
+      "tags": [
+        "AIGC",
+        "VSC",
+        "视觉",
+        "社区"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2099329383106596975",
+      "author": "sunrao",
+      "bio": "community @spacexai from @cursor_ai | Former @a16z @unfoundation",
+      "text": "Grok Bot is coming to a city near you this month! \n\nwe're doing a roadshow in five cities for five community Grok @bot build nights 💛\n\nsep 17: nyc, marketing\nsep 22: la, design\nsep 24: seattle, eng\nsep 29: sf, product\nsep 30: chicago, recruiting\n\ndemos from the SpaceXAI team + hands-on build time + free @bot credits. sign up for each in the thread below",
+      "created_at": "Mon Sep 14 02:48:23 +0000 2026",
+      "likes": 77,
+      "retweets": 5,
+      "replies": 14,
+      "views": 3178,
+      "url": "https://x.com/sunrao/status/2099329383106596975",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSJNkotbwAEiMnQ.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSJNkotbwAEiMnQ.png"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 72.739,
+      "title": "Grok Bot 本月五城社区 Build Night 路演日程出炉",
+      "summary": "Grok Bot 本月将在纽约、洛杉矶、西雅图、旧金山、芝加哥连办五场社区 Build Night，主题覆盖营销、设计、工程、产品与招聘；含 SpaceXAI 团队演示、动手搭建和免费 bot credits。",
+      "recommend_reason": "官方社区侧给出明确城市与日期，是想线下碰 Grok Bot / Agent 的人最实用的报名线索。",
+      "tags": [
+        "Grok Bot",
+        "SpaceXAI",
+        "社区",
+        "活动"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2099310113580576802",
+      "author": "cb_doge",
+      "bio": "",
+      "text": "BREAKING: Elon Musk has just announced Grok 4.8, a massive 2.5 trillion-parameter model trained using SpaceXAI’s new C++ software stack.\n\nThe model will begin reinforcement learning after training is complete. https://t.co/FYYkO6a9CF",
+      "created_at": "Mon Sep 14 01:31:49 +0000 2026",
+      "likes": 1412,
+      "retweets": 151,
+      "replies": 105,
+      "views": 40642,
+      "url": "https://x.com/cb_doge/status/2099310113580576802",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSI_SsMbcAEB7KJ.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSI_SsMbcAEB7KJ.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 82.53,
+      "title": "流传：马斯克宣布 Grok 4.8，约 2.5T 参数并用新 C++ 栈训练",
+      "summary": "cb_doge 称马斯克刚宣布 Grok 4.8，约 2.5 万亿参数，基于 SpaceXAI 新的 C++ 软件栈训练，训练完成后将进入强化学习。属二手传闻，尚未见官方证实。",
+      "recommend_reason": "午间扩散最快的 Grok 4.8 规格传闻，参数量与训练栈说法具体，适合当线索跟踪，不宜当官宣。",
+      "tags": [
+        "Grok",
+        "xAI",
+        "大模型",
+        "传闻"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2099269957498679349",
+      "author": "_ryu15_",
+      "bio": "Local LLMを中心に、AI技術系の投稿とネタ\nTesla v100 32GB×2枚と共に生きる。\n最近はQwenちゃん(27B)と遊んでいます\nアイコンは羊野郎さん@maton_3110",
+      "text": "Astra はAGIです\ncomputer useでサイトの動作確認中 https://t.co/gcEHI3m3RY",
+      "created_at": "Sun Sep 13 22:52:15 +0000 2026",
+      "likes": 963,
+      "retweets": 90,
+      "replies": 32,
+      "views": 249766,
+      "url": "https://x.com/_ryu15_/status/2099269957498679349",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2099269904210038784/vid/avc1/480x270/cchiL7299UZh7s_D.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2099269904210038784/img/rTSkZQUMLFuMK6PQ.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 49.268,
+      "summary": "Astra 就是 AGI。\n正在用 computer use 做网站的动作确认。",
+      "recommend_reason": "带画面的 Astra computer-use 实操短证，比口号式「Agent OS」更直观。",
+      "tags": [
+        "Astra",
+        "GPT-6",
+        "Computer Use",
+        "演示"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2099218552683221067",
+      "author": "StephanieLEE_30",
+      "bio": "IRL @ AGI Bar🍻\nVibe Builder｜Podcaster｜Host",
+      "text": "AGI Bar上海也提供【免费】【不限量】Token了！🍻\n\n目前提供：\n-Deepseek v4 flash\n-Minimax h3\n\n欢迎来玩！\n\nFree, unlimited tokens are now available at AGI Bar Shanghai.\n\nCurrently serving:\n— DeepSeek V4 Flash\n— MiniMax H3\n\nCome grab a drink, open your laptop, and build something.\n\nFree tokens. No limits. See you at the bar.",
+      "created_at": "Sun Sep 13 19:27:59 +0000 2026",
+      "likes": 10,
+      "retweets": 1,
+      "replies": 3,
+      "views": 887,
+      "url": "https://x.com/StephanieLEE_30/status/2099218552683221067",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSHsCj4W4AIOMk-.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSHsCj4W4AIOMk-.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 62.951,
+      "title": "AGI Bar 上海开放免费不限量 Token：DeepSeek V4 Flash 与 MiniMax H3",
+      "summary": "AGI Bar 上海现提供免费、不限量 Token，目前可调用 DeepSeek V4 Flash 与 MiniMax H3，欢迎带电脑去现场边喝边写。",
+      "recommend_reason": "本地可落地的算力福利，模型名单具体，对上海开发者比空泛「开源福利」有用得多。",
+      "tags": [
+        "AGI Bar",
+        "DeepSeek",
+        "MiniMax",
+        "算力"
+      ],
+      "rank": 10
+    }
+  ],
+  "generated_at": "2026-09-14T04:11:22Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 10,
+    "last_batch_added": 10,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
