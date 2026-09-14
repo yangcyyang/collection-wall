@@ -1,9 +1,51 @@
 {
   "source": "aihot",
   "title": "AIHOT 精选资讯",
-  "updated_at": "2026-09-13T12:18:07.023Z",
-  "count": 284,
+  "updated_at": "2026-09-14T13:00:02.632Z",
+  "count": 289,
   "items": [
+    {
+      "id": "cmu12ocst0b6nro2nypi25zyq",
+      "title": "小红书 AllSpark 开源 Search Agent 模型 Iris，35B 与 397B 版本同量级成绩领先",
+      "category": "ai-models",
+      "source": "公众号：小红书技术（dots.llm）",
+      "published_at": "2026-09-14T09:59:00.000Z",
+      "discovered_at": "2026-09-14T10:00:40.191Z",
+      "summary": "小红书 AllSpark 团队发布并开源 Search Agent 模型 Iris，权重和评测代码已公开，数据与训练配方将陆续公布。",
+      "reason": "原文给出了数据构造、SFT-RL 训练和统一评测的完整思路，读者可以据此理解 Search Agent 的训练难点与可迁移方法。",
+      "links": {
+        "aihot": "https://aihot.news/items/cmu12ocst0b6nro2nypi25zyq",
+        "original": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496383&idx=1&sn=2db8607f797615a3647d9fec7e54f448"
+      }
+    },
+    {
+      "id": "cmu06l0dg09hiroryn5e19xp1",
+      "title": "Gary Marcus 评 Dario Amodei 的放慢 AI 发展提议：三份赞誉加两分怀疑",
+      "category": "tip",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "published_at": "2026-09-13T18:34:31.000Z",
+      "discovered_at": "2026-09-13T19:02:16.596Z",
+      "summary": "Gary Marcus 评析 Dario Amodei 倡导放慢 AI 发展并支持透明度的文章，Sam Altman 与 Elon Musk 迅速表示认同。Marcus 肯定其透明度承诺，但列举多方质疑：METR 与 AI 公司关系过近、Anthropic 借对华威胁维持加速、以及该提议可能意在抢先于真正的监管。",
+      "reason": "作者肯定 Dario 提议中放慢节奏与透明度的部分，同时汇总多方对监管俘获、评估方独立性和对华姿态的质疑，并补充追责与召回两条政策思路。",
+      "links": {
+        "aihot": "https://aihot.news/items/cmu06l0dg09hiroryn5e19xp1",
+        "original": "https://garymarcus.substack.com/p/two-cheers-out-of-three-for-dario"
+      }
+    },
+    {
+      "id": "cmu01iavi08reroymepsxnar2",
+      "title": "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件",
+      "category": "industry",
+      "source": "Hacker News：AI 热帖",
+      "published_at": "2026-09-13T14:15:40.000Z",
+      "discovered_at": "2026-09-13T16:40:12.008Z",
+      "summary": "Anthropic 9 月威胁报告披露，据评估极可能关联胡塞组织的也门小组使用 Claude Code 开发制导火箭、射程超 2，000 公里弹道导弹及名为 R2000 的高超声速滑翔载具概念的相关软件。",
+      "reason": "原文梳理了 Anthropic 威胁报告中也门组织用 Claude Code 并行推进导弹研发的完整链条，可帮助读者理解 AI 滥用如何绕过安全防护。",
+      "links": {
+        "aihot": "https://aihot.news/items/cmu01iavi08reroymepsxnar2",
+        "original": "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo"
+      }
+    },
     {
       "id": "cmtzezuk0077wrowyi7a4qy7v",
       "title": "Agent 长任务上下文工程解析：用预算控制、压缩、todo-state 和记忆对抗上下文溢出与目标丢失",
@@ -16,20 +58,6 @@
       "links": {
         "aihot": "https://aihot.news/items/cmtzezuk0077wrowyi7a4qy7v",
         "original": "https://www.marktechpost.com/2026/09/12/context-engineering-inside-the-harness-4-mechanisms-that-beat-context-overflow-and-goal-loss-on-long-horizon-tasks"
-      }
-    },
-    {
-      "id": "cmtyuqztw0bk6roupjaey0f6w",
-      "title": "Dario Amodei 发文呼吁 AI 行业放慢前沿速度并公布三步计划",
-      "category": "tip",
-      "source": "X：Peter McCrory（Anthropic 首席经济学家，@PeterMcCrory）",
-      "published_at": "2026-09-12T20:18:42.000Z",
-      "discovered_at": "2026-09-12T20:43:13.067Z",
-      "summary": "Dario Amodei 发布新文章 We Must Pace the Frontier，主张 AI 行业应放慢速度，并提出三部分计划。Anthropic 单方面承诺第一步，为第三方评估者提供永久的员工级系统访问权限，以核实安全措施执行、报告事故并评估训练期间模型的 alignment。",
-      "reason": "Anthropic 首席经济学家转发 Dario 新文，原文给出了行业减速的三步计划及 Anthropic 已承诺的第一步。",
-      "links": {
-        "aihot": "https://aihot.news/items/cmtyuqztw0bk6roupjaey0f6w",
-        "original": "https://x.com/PeterMcCrory/status/2098868931071226252"
       }
     },
     {
@@ -100,6 +128,20 @@
       "links": {
         "aihot": "https://aihot.news/items/cmtym1wo1039krodl7j8164q8",
         "original": "https://suno.com/blog/introducing-v6"
+      }
+    },
+    {
+      "id": "cmtygklxb0dunrojhsd5rriu4",
+      "title": "Dario Amodei 发文呼吁为前沿 AI 降速并提出三点计划",
+      "category": "tip",
+      "source": "X：Dario Amodei (@DarioAmodei)",
+      "published_at": "2026-09-12T14:01:10.000Z",
+      "discovered_at": "2026-09-12T14:06:19.408Z",
+      "summary": "Dario Amodei 发布新文章《We Must Pace the Frontier》，主张 AI 行业应放慢速度并给出三点计划。Anthropic 单方面承诺落实第一步，为第三方评估者提供永久、员工级系统访问权限，使其可验证安全措施执行情况、报告事故并在训练期间评估模型对齐。全文见 https://darioamodei.com/post/we-must-pace-the-frontier",
+      "reason": "作者本人阐述放缓前沿 AI 的三点计划，并给出 Anthropic 率先落实的第三方评估开放措施，可了解其具体主张。",
+      "links": {
+        "aihot": "https://aihot.news/items/cmtygklxb0dunrojhsd5rriu4",
+        "original": "https://x.com/DarioAmodei/status/2098773920774074715"
       }
     },
     {
@@ -590,6 +632,20 @@
       "links": {
         "aihot": "https://aihot.news/items/cmturtlc70cqurorpv4fsfr4t",
         "original": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686114&idx=1&sn=ef25c9da794a29795c3d7ca0637efafb"
+      }
+    },
+    {
+      "id": "cmu10mxhc08m6ro2nafd8smam",
+      "title": "Hugging Face 用 LoRA 与 Storage Bucket 在 HF Jobs 上跑异步 GRPO，免 NCCL 并提速 3.9 倍",
+      "category": "tip",
+      "source": "Hugging Face：Blog（RSS）",
+      "published_at": "2026-09-10T00:00:00.000Z",
+      "discovered_at": "2026-09-10T00:00:00.000Z",
+      "summary": "Hugging Face 在 TRL v1.14 的 AsyncGRPOTrainer 中支持只训练和同步 LoRA adapter，配合 Storage Bucket 挂载与代理路由，让训练 Job 和 vLLM 推理 Job 在不同机器上运行而无需 NCCL。",
+      "reason": "Hugging Face 官方用五个实验展示了如何在 Jobs 上分离训练与推理跑异步 GRPO，并通过逐项定位瓶颈把运行提速 3.9 倍，方法可迁移。",
+      "links": {
+        "aihot": "https://aihot.news/items/cmu10mxhc08m6ro2nafd8smam",
+        "original": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs"
       }
     },
     {
@@ -1290,6 +1346,20 @@
       "links": {
         "aihot": "https://aihot.news/items/cmtym40hx0006roskf9ja0kdg",
         "original": "https://cognition.com/blog/series-e"
+      }
+    },
+    {
+      "id": "cmtyuqztw0bk6roupjaey0f6w",
+      "title": "Dario Amodei 发文呼吁 AI 行业放慢前沿速度并公布三步计划",
+      "category": "tip",
+      "source": "X：Peter McCrory（Anthropic 首席经济学家，@PeterMcCrory）",
+      "published_at": "2026-09-12T20:18:42.000Z",
+      "discovered_at": "2026-09-12T20:43:13.067Z",
+      "summary": "Dario Amodei 发布新文章 We Must Pace the Frontier，主张 AI 行业应放慢速度，并提出三部分计划。Anthropic 单方面承诺第一步，为第三方评估者提供永久的员工级系统访问权限，以核实安全措施执行、报告事故并评估训练期间模型的 alignment。",
+      "reason": "Anthropic 首席经济学家转发 Dario 新文，原文给出了行业减速的三步计划及 Anthropic 已承诺的第一步。",
+      "links": {
+        "aihot": "https://aihot.news/items/cmtyuqztw0bk6roupjaey0f6w",
+        "original": "https://x.com/PeterMcCrory/status/2098868931071226252"
       }
     },
     {
@@ -3982,8 +4052,8 @@
     }
   ],
   "daily": {
-    "date": "2026-09-13",
-    "title": "Suno 发布 v6 音乐模型，推出 v6、v6-wild、v6-mini 三个版本",
-    "url": "https://aihot.news/daily/2026-09-13"
+    "date": "2026-09-14",
+    "title": "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件",
+    "url": "https://aihot.news/daily/2026-09-14"
   }
 }
