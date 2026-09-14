@@ -1,15 +1,38 @@
 {
   "source": "ai-frontier-radar",
   "title": "新产品",
-  "updated_at": "2026-09-11T08:20:00+08:00",
-  "count": 41,
+  "updated_at": "2026-09-14T08:20:00+08:00",
+  "count": 49,
   "items": [
+    {
+      "id": "gpt-6-astra",
+      "name": "GPT-6 Astra",
+      "score": 92,
+      "status": "watching",
+      "first_detected": "2026-09-04T08:57:00+08:00",
+      "last_updated": "2026-09-04T08:57:00+08:00",
+      "summary": "OpenAI 新一代前沿模型分阶段发货：电脑操控/浏览/软件工程/网络/科学 SOTA；先限组织，数日内 Plus/Pro/Biz/Ent + API + AWS。Critical 网络能力与错位监控同捆。",
+      "novelty": "第一款带着 Critical cyber 门控真正开量的前沿模型，不是又一次参数秀",
+      "urls": {
+        "site": "https://openai.com/index/safety-overview-gpt-6-astra/",
+        "x": "https://x.com/OpenAI/status/2095595741528125780",
+        "system_card": "https://deploymentsafety.openai.com/gpt-6-astra",
+        "release_notes": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+      },
+      "tags": [
+        "OpenAI",
+        "模型",
+        "Computer Use",
+        "安全"
+      ],
+      "homepage": false
+    },
     {
       "id": "openai-agents-api",
       "first_detected": "2026-09-11T08:20:00+08:00",
       "name": "OpenAI Agents API",
       "score": 91,
-      "status": "new",
+      "status": "watching",
       "summary": "公测：用托管 Codex harness 构建/运行 cloud agents（编排、长会话、上下文、子 agent、MCP），提供 OpenAI 托管或 BYO sandbox；按模型/工具/容器计费、无额外 Agents API 费。",
       "novelty": "把内部 Codex harness 直接产品化为第三方可嵌入的控制面 + 托管沙箱，而不是又一个 agent 框架。",
       "urls": {
@@ -24,15 +47,15 @@
         "Harness",
         "Sandbox"
       ],
-      "homepage": true,
-      "last_updated": "2026-09-11T08:20:00+08:00"
+      "homepage": false,
+      "last_updated": "2026-09-14T08:20:00+08:00"
     },
     {
       "id": "cursor-projects",
       "first_detected": "2026-09-11T08:20:00+08:00",
       "name": "Cursor Projects",
       "score": 90,
-      "status": "new",
+      "status": "watching",
       "summary": "编辑器新工作方式：在单一持久线程与常驻 coordinator agent 协作，主动用 subagents 管活；项目内共享 memory 与 plans/demos，并在本机与 agents 电脑间同步。Beta 起 rollout。",
       "novelty": "把「每任务新 chat」换成项目级常驻 agent 团队 + 共享记忆，是 IDE 信息架构升级而不只是功能开关。",
       "urls": {
@@ -45,15 +68,36 @@
         "Multi-agent",
         "Persistent"
       ],
-      "homepage": true,
-      "last_updated": "2026-09-11T08:20:00+08:00"
+      "homepage": false,
+      "last_updated": "2026-09-14T08:20:00+08:00"
+    },
+    {
+      "id": "meta-muse-personal-agent",
+      "first_detected": "2026-09-10T18:20:00+08:00",
+      "last_updated": "2026-09-11T08:20:00+08:00",
+      "name": "Meta Muse",
+      "score": 90,
+      "status": "watching",
+      "summary": "面向大众的个人 AI agent：在独立 Muse Secure VM 上跨应用代办（关 App 后继续），敏感操作需确认；Sentinel 门控出网；US iOS/Android/muse.ai + WhatsApp。",
+      "novelty": "把「个人持久电脑」做成带 Sentinel/审计/审批的消费级 Secure VM，而不是又一个聊天助手。",
+      "urls": {
+        "official": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+        "site": "https://muse.ai"
+      },
+      "tags": [
+        "Meta",
+        "Muse",
+        "Agent",
+        "Secure VM"
+      ],
+      "homepage": false
     },
     {
       "id": "gpt-live-1",
       "first_detected": "2026-09-11T08:20:00+08:00",
       "name": "GPT-Live-1",
       "score": 89,
-      "status": "new",
+      "status": "watching",
       "summary": "OpenAI API 上的全双工语音 agent 模型：边听边说，并可与所选模型/harness 协作；配套生产向全双工基准。",
       "novelty": "把 ChatGPT 式自然来回对话做成可接 harness 的语音 agent 原语，而不是单向 TTS。",
       "urls": {
@@ -67,20 +111,42 @@
         "GPT-Live",
         "API"
       ],
-      "homepage": true,
-      "last_updated": "2026-09-11T08:20:00+08:00"
+      "homepage": false,
+      "last_updated": "2026-09-14T08:20:00+08:00"
+    },
+    {
+      "id": "deepseek-v4-1-flash",
+      "first_detected": "2026-09-10T18:20:00+08:00",
+      "last_updated": "2026-09-11T08:20:00+08:00",
+      "name": "DeepSeek-V4.1-Flash",
+      "score": 86,
+      "status": "watching",
+      "summary": "DeepSeek 发布 V4.1-Flash（非对称 MoE，API deepseek-flash + 开源权重）；官方称在性能/成本/速度上压过 V4-Pro，并计划把 Pro 流量切到 Flash 计价。",
+      "novelty": "用 Flash 档正面替代 Pro 做 agent 负载，并把 KV 压缩明确卖成 agent cache 经济。",
+      "urls": {
+        "official": "https://api-docs.deepseek.com/news/news260910",
+        "changelog": "https://api-docs.deepseek.com/updates"
+      },
+      "tags": [
+        "DeepSeek",
+        "Flash",
+        "MoE",
+        "Agent"
+      ],
+      "homepage": false
     },
     {
       "id": "cognition-swe-2",
       "first_detected": "2026-09-11T08:20:00+08:00",
       "name": "Cognition SWE-2",
       "score": 85,
-      "status": "new",
-      "summary": "Cognition 新 SWE 模型：称在领先 eval 上贴近近期 frontier，成本最多低约 70%；Devin Desktop/CLI 可用，Pro/Max/Teams 未来一个月免费。",
+      "status": "watching",
+      "summary": "Cognition 新 SWE 模型：称在领先 eval 上贴近近期 frontier，成本最多低约 70%；Devin Desktop/CLI 可用，Pro/Max/Teams 未来一个月免费。 PH（Sep 13）二次分发：强调从 Kimi K3 后训练、相对 Fable 5.1 约 64% 成本。",
       "novelty": "专用软件工程模型打成本 Pareto，而不是只堆通用旗舰。",
       "urls": {
-        "official": "https://cognition.ai/blog/swe-2",
-        "x": "https://x.com/cognition/status/2098069235733823965"
+        "official": "https://cognition.com/blog/swe-2",
+        "x": "https://x.com/cognition/status/2098069235733823965",
+        "producthunt": "https://www.producthunt.com/products/cognition-s-swe-2"
       },
       "tags": [
         "Cognition",
@@ -88,50 +154,29 @@
         "Devin",
         "Pricing"
       ],
-      "homepage": true,
-      "last_updated": "2026-09-11T08:20:00+08:00"
+      "homepage": false,
+      "last_updated": "2026-09-14T08:20:00+08:00"
     },
     {
-      "id": "chatgpt-work-data-agent",
-      "first_detected": "2026-09-11T08:20:00+08:00",
-      "name": "ChatGPT Work Data agent",
-      "score": 84,
+      "id": "cortex",
+      "first_detected": "2026-09-14T08:20:00+08:00",
+      "last_updated": "2026-09-14T08:20:00+08:00",
+      "name": "Cortex",
+      "score": 85,
       "status": "new",
-      "summary": "ChatGPT Work 新 Data agent：连接已批准的公司数据源与语义层，用自然语言做调查、交互仪表盘与后续动作。",
-      "novelty": "把治理过的仓内分析 agent 做成 Work 一等插件（连接器+语义+仪表盘产物），不是又一个 BI 聊天框。",
+      "summary": "把 OpenAPI/AsyncAPI/GraphQL/gRPC/OpenRPC 规格生成文档、类型化 SDK 与面向 agent 的 MCP server。",
+      "novelty": "API 规格 → MCP 工具面一键生成，给 agent 接企业 API 一条清晰 playbook。",
       "urls": {
-        "official": "https://openai.com/index/put-data-to-work/",
-        "x": "https://x.com/ChatGPT/status/2098065296968011853"
+        "producthunt": "https://www.producthunt.com/products/cortex-25",
+        "site": "https://cortexdocs.dev"
       },
       "tags": [
-        "OpenAI",
-        "ChatGPT Work",
-        "Data agent",
-        "Enterprise"
+        "MCP",
+        "OpenAPI",
+        "Agent tools",
+        "PH"
       ],
-      "homepage": true,
-      "last_updated": "2026-09-11T08:20:00+08:00"
-    },
-    {
-      "id": "chatgpt-financial-services",
-      "first_detected": "2026-09-11T08:20:00+08:00",
-      "name": "ChatGPT for Financial Services",
-      "score": 82,
-      "status": "new",
-      "summary": "面向金融的 ChatGPT Work 体验：内置/托管市场与投研数据 + GPT-6 Astra，设计伙伴含 Morgan Stanley、Evercore。",
-      "novelty": "垂直打包前沿模型 + 付费金融数据 + 企业控件，把 MCP/数据连接摩擦收成行业工作台。",
-      "urls": {
-        "official": "https://openai.com/index/introducing-chatgpt-financial-services/",
-        "x": "https://x.com/OpenAI/status/2098118191029624911"
-      },
-      "tags": [
-        "OpenAI",
-        "Vertical",
-        "Financial Services",
-        "Astra"
-      ],
-      "homepage": true,
-      "last_updated": "2026-09-11T08:20:00+08:00"
+      "homepage": true
     },
     {
       "id": "useagent",
@@ -152,6 +197,52 @@
       ],
       "homepage": false,
       "notes": "GitHub stars 274 as of 2026-09-03"
+    },
+    {
+      "id": "chatgpt-work-data-agent",
+      "first_detected": "2026-09-11T08:20:00+08:00",
+      "name": "ChatGPT Work Data agent",
+      "score": 84,
+      "status": "watching",
+      "summary": "ChatGPT Work 新 Data agent：连接已批准的公司数据源与语义层，用自然语言做调查、交互仪表盘与后续动作。",
+      "novelty": "把治理过的仓内分析 agent 做成 Work 一等插件（连接器+语义+仪表盘产物），不是又一个 BI 聊天框。",
+      "urls": {
+        "official": "https://openai.com/index/put-data-to-work/",
+        "x": "https://x.com/ChatGPT/status/2098065296968011853"
+      },
+      "tags": [
+        "OpenAI",
+        "ChatGPT Work",
+        "Data agent",
+        "Enterprise"
+      ],
+      "homepage": false,
+      "last_updated": "2026-09-14T08:20:00+08:00"
+    },
+    {
+      "id": "grok-bot-enterprise",
+      "name": "Grok Bot for Enterprise",
+      "score": 84,
+      "status": "watching",
+      "first_detected": "2026-09-04T08:57:00+08:00",
+      "last_updated": "2026-09-14T08:20:00+08:00",
+      "summary": "企业向 Grok Bot；窗口内新增 Microsoft Teams 连接器，可在 agent 工作流内搜索/读取/发送 Teams 消息。",
+      "novelty": "持久工作区 agent 进入协作层读写——同一 agent-computer 模式，新的分发面。",
+      "urls": {
+        "x": "https://x.com/bot/status/2098481256417866145",
+        "site": "https://x.ai/news/designing-grok-bot",
+        "teams_plugin": "https://x.ai/bot/plugin/63354504"
+      },
+      "tags": [
+        "xAI",
+        "Grok Bot",
+        "企业",
+        "Agent",
+        "Teams",
+        "Enterprise"
+      ],
+      "homepage": false,
+      "notes": "消费版 Bot Aug 11 已上；本窗是 Enterprise 档"
     },
     {
       "id": "airtop-agent-builder",
@@ -175,26 +266,69 @@
       "notes": "PH Sep 3 #2 · 252 votes · 13 comments"
     },
     {
-      "id": "grok-bot-enterprise",
-      "name": "Grok Bot for Enterprise",
+      "id": "cursor-self-hosted",
+      "name": "Cursor Self-hosted Machines",
       "score": 83,
-      "status": "new",
-      "first_detected": "2026-09-04T08:57:00+08:00",
+      "status": "watching",
+      "first_detected": "2026-09-03T08:15:00+08:00",
       "last_updated": "2026-09-04T08:57:00+08:00",
-      "summary": "企业版 Grok Bot 今日可用；对 Grok 与 Cursor 企业客户免两周。定位组织内可邀请的持久队友（自有电脑 + Routines）。",
-      "novelty": "把「Bot 即队友」做成企业分发，并与 Cursor 企业账号打通试用",
+      "summary": "云智能体跑在你的机池或沙箱供应商上：工具执行与内部服务留在客户网络；智能体循环仍在 Cursor。支持弹性/休眠池与 Linux/Mac computer use。",
+      "novelty": "把「大脑在云、手脚在自托管」产品化成一等公民执行拓扑",
       "urls": {
-        "x": "https://x.com/bot/status/2095621571335655872",
-        "site": "https://x.ai/news/designing-grok-bot"
+        "site": "https://cursor.com/changelog",
+        "x": "https://x.com/cursor_ai/status/2095257412781396114",
+        "vercel": "https://vercel.com/changelog/run-cursor-cloud-agents-vercel-sandbox"
       },
       "tags": [
-        "xAI",
-        "Grok Bot",
-        "企业",
-        "Agent"
+        "Cursor",
+        "自托管",
+        "云智能体"
       ],
       "homepage": false,
-      "notes": "消费版 Bot Aug 11 已上；本窗是 Enterprise 档"
+      "notes": " | 2026-09-03 Vercel Sandbox 成为合作伙伴执行池（scale-to-zero Firecracker）"
+    },
+    {
+      "id": "qapilot-mcp-android",
+      "first_detected": "2026-09-14T08:20:00+08:00",
+      "last_updated": "2026-09-14T08:20:00+08:00",
+      "name": "QApilot MCP for Android",
+      "score": 83,
+      "status": "new",
+      "summary": "通过 MCP 把 Android 真机/应用测试嵌进编码智能体循环。",
+      "novelty": "移动端 QA 成为 coding agent 的一等工具面，而不是独立测试 SaaS。",
+      "urls": {
+        "producthunt": "https://www.producthunt.com/products/qapilot",
+        "site": "https://qapilot.io/mcp/guide"
+      },
+      "tags": [
+        "MCP",
+        "Android",
+        "QA",
+        "Coding agent",
+        "PH"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "chatgpt-financial-services",
+      "first_detected": "2026-09-11T08:20:00+08:00",
+      "name": "ChatGPT for Financial Services",
+      "score": 82,
+      "status": "watching",
+      "summary": "面向金融的 ChatGPT Work 体验：内置/托管市场与投研数据 + GPT-6 Astra，设计伙伴含 Morgan Stanley、Evercore。",
+      "novelty": "垂直打包前沿模型 + 付费金融数据 + 企业控件，把 MCP/数据连接摩擦收成行业工作台。",
+      "urls": {
+        "official": "https://openai.com/index/introducing-chatgpt-financial-services/",
+        "x": "https://x.com/OpenAI/status/2098118191029624911"
+      },
+      "tags": [
+        "OpenAI",
+        "Vertical",
+        "Financial Services",
+        "Astra"
+      ],
+      "homepage": false,
+      "last_updated": "2026-09-14T08:20:00+08:00"
     },
     {
       "id": "daybreak-frontline",
@@ -215,6 +349,70 @@
         "Daybreak"
       ],
       "homepage": false
+    },
+    {
+      "id": "hob",
+      "first_detected": "2026-09-10T18:20:00+08:00",
+      "last_updated": "2026-09-11T08:20:00+08:00",
+      "name": "hob",
+      "score": 82,
+      "status": "watching",
+      "summary": "本地优先的独立工作区：编排你已有的 agent CLI（Claude Code / Codex / OpenCode 等）做并行会话、终端、worktree 与远程访问；不转售模型。",
+      "novelty": "Provider-agnostic harness：订阅留在各家，hob 只做多 agent 编码工作的持久工作区。",
+      "urls": {
+        "ph": "https://www.producthunt.com/products/hob-2",
+        "site": "https://hob.dev/"
+      },
+      "tags": [
+        "Harness",
+        "Agent",
+        "CLI",
+        "Product Hunt"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "claude-code-2-1-269",
+      "first_detected": "2026-09-14T08:20:00+08:00",
+      "last_updated": "2026-09-14T08:20:00+08:00",
+      "name": "Claude Code 2.1.269",
+      "score": 81,
+      "status": "new",
+      "summary": "官方发布：`claude plugin eval` 跑插件评测出 JSON/HTML；`CLAUDE_CODE_WORKFLOW_MAX_CONCURRENT_AGENTS` 把 Workflow 并发调到 1–256；附带 headless output-style 与 VS Code agent map/hooks 修复。",
+      "novelty": "把技能/插件变成可 CI 评分的分发单元，并把多智能体 fan-out 做成组织可调的控制面。",
+      "urls": {
+        "official": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
+        "followup": "https://github.com/anthropics/claude-code/releases/tag/v2.1.270"
+      },
+      "tags": [
+        "Anthropic",
+        "Claude Code",
+        "Skills",
+        "Multi-agent",
+        "Harness"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "monid",
+      "name": "Monid",
+      "score": 81,
+      "status": "watching",
+      "first_detected": "2026-09-03T08:15:00+08:00",
+      "last_updated": "2026-09-03T08:15:00+08:00",
+      "summary": "一把密钥/余额，让智能体在运行时发现、调用并按次付费 1700+ 第三方 API（Skill / MCP / CLI）。按价格与可靠性路由，不是写死集成。",
+      "novelty": "智能体原生的运行时工具市场（发现+路由+按次付费），像 OpenRouter 但面向 agent tools",
+      "urls": {
+        "site": "https://monid.ai",
+        "ph": "https://www.producthunt.com/products/monid"
+      },
+      "tags": [
+        "MCP",
+        "工具市场",
+        "按次计费"
+      ],
+      "homepage": false,
+      "notes": "PH Sep 2 #1 · 356 score · 52 comments"
     },
     {
       "id": "nex",
@@ -238,15 +436,38 @@
       "notes": "PH Sep 3 #1 · 254 votes · 24 comments · YC"
     },
     {
+      "id": "resurf",
+      "first_detected": "2026-09-14T08:20:00+08:00",
+      "last_updated": "2026-09-14T08:20:00+08:00",
+      "name": "Resurf",
+      "score": 81,
+      "status": "new",
+      "summary": "Mac 上的个人上下文库，经 MCP/CLI 把笔记、链接、PDF 交给 AI agent。",
+      "novelty": "本地个人上下文金库专为 agent 交接设计，不是又一个笔记 App。",
+      "urls": {
+        "producthunt": "https://www.producthunt.com/products/resurf-2",
+        "site": "https://resurf.so"
+      },
+      "tags": [
+        "MCP",
+        "Context",
+        "Local",
+        "Mac",
+        "PH"
+      ],
+      "homepage": true
+    },
+    {
       "id": "cognition-devin-voice",
       "first_detected": "2026-09-11T08:20:00+08:00",
       "name": "Devin Voice",
       "score": 80,
-      "status": "new",
+      "status": "watching",
       "summary": "语音指挥 Devin 交付代码，由 GPT-Live 与 SWE-2 驱动——GPT-Live 生态里最清晰的「语音→工程 agent」形态。",
       "novelty": "全双工语音直接下发到软件工程 agent loop。",
       "urls": {
-        "x": "https://x.com/cognition/status/2098142686486356185"
+        "x": "https://x.com/cognition/status/2098142686486356185",
+        "producthunt": "https://www.producthunt.com/products/devin-voice"
       },
       "tags": [
         "Devin",
@@ -255,7 +476,27 @@
         "SWE-2"
       ],
       "homepage": false,
-      "last_updated": "2026-09-11T08:20:00+08:00"
+      "last_updated": "2026-09-14T08:20:00+08:00"
+    },
+    {
+      "id": "gemini-3-8-flash",
+      "name": "Gemini 3.8 Flash",
+      "score": 80,
+      "status": "watching",
+      "first_detected": "2026-09-03T08:15:00+08:00",
+      "last_updated": "2026-09-03T08:15:00+08:00",
+      "summary": "六周内第三代 Flash；同价强化长程 coding / agent；进 Antigravity、AI Studio、Android Studio 与 Gemini App。另有门控版 3.8 Flash Cyber（见 Fairwind 信号）。",
+      "novelty": "工作马模型按周迭代，专打长程 agentic loops，而不是又一次参数秀",
+      "urls": {
+        "site": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+        "x": "https://x.com/GoogleDeepMind/status/2095175498967949359"
+      },
+      "tags": [
+        "Google",
+        "模型",
+        "Agent"
+      ],
+      "homepage": false
     },
     {
       "id": "blume-codes",
@@ -279,6 +520,27 @@
       "notes": "PH Sep 3 #11 · 102 votes"
     },
     {
+      "id": "jackalope",
+      "first_detected": "2026-09-14T08:20:00+08:00",
+      "last_updated": "2026-09-14T08:20:00+08:00",
+      "name": "Jackalope",
+      "score": 79,
+      "status": "new",
+      "summary": "一个工作区并行跑 Codex / Claude Code / Grok / OpenCode，配合 git worktree 与应用前人工审阅。",
+      "novelty": "多厂商编码智能体 harness + 并行 worktree + human checkpoint。",
+      "urls": {
+        "producthunt": "https://www.producthunt.com/products/jackalope",
+        "site": "https://jackalope.dev"
+      },
+      "tags": [
+        "Harness",
+        "Multi-agent",
+        "Git worktree",
+        "PH"
+      ],
+      "homepage": false
+    },
+    {
       "id": "beafk",
       "name": "beafk",
       "score": 78,
@@ -295,6 +557,48 @@
         "智能体",
         "手机",
         "编排"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "cadenya",
+      "first_detected": "2026-09-14T08:20:00+08:00",
+      "last_updated": "2026-09-14T08:20:00+08:00",
+      "name": "Cadenya",
+      "score": 78,
+      "status": "new",
+      "summary": "托管 agentic loop：接上 OpenAPI/MCP 工具，由他们代跑 agent。",
+      "novelty": "卖的是托管运行时本身，而不是 DIY 框架。",
+      "urls": {
+        "producthunt": "https://www.producthunt.com/products/cadenya-the-agent-runtime",
+        "site": "https://www.cadenya.com"
+      },
+      "tags": [
+        "Agent runtime",
+        "MCP",
+        "OpenAPI",
+        "PH"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "easyspecs-ai",
+      "first_detected": "2026-09-14T08:20:00+08:00",
+      "last_updated": "2026-09-14T08:20:00+08:00",
+      "name": "easyspecs.ai",
+      "score": 77,
+      "status": "new",
+      "summary": "规格评审平台，让团队能信任自己审不过来的 agent 生成代码。",
+      "novelty": "面向 agent 速度 codegen 的人工检查点 / 信任层。",
+      "urls": {
+        "producthunt": "https://www.producthunt.com/products/easyspecs-ai",
+        "site": "https://easyspecs.ai"
+      },
+      "tags": [
+        "Human checkpoint",
+        "Specs",
+        "Trust",
+        "PH"
       ],
       "homepage": false
     },
@@ -341,6 +645,48 @@
       "homepage": false
     },
     {
+      "id": "perplexity-hybrid-compute",
+      "first_detected": "2026-09-14T08:20:00+08:00",
+      "last_updated": "2026-09-14T08:20:00+08:00",
+      "name": "Perplexity Hybrid Compute",
+      "score": 76,
+      "status": "new",
+      "summary": "任务拆分：云端做研究，Mac 本地保隐私。",
+      "novelty": "把本地/云混合路由产品化成助手的隐私架构。",
+      "urls": {
+        "producthunt": "https://www.producthunt.com/products/perplexity-ai",
+        "site": "https://www.perplexity.ai/hub/products/hybrid-compute"
+      },
+      "tags": [
+        "Hybrid compute",
+        "Privacy",
+        "Perplexity",
+        "PH"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "dial",
+      "name": "Dial",
+      "score": 75,
+      "status": "watching",
+      "first_detected": "2026-09-03T08:15:00+08:00",
+      "last_updated": "2026-09-03T08:15:00+08:00",
+      "summary": "几秒给智能体开真实电话号码：语音 + SMS + iMessage；REST/SDK/CLI/MCP；可收验证码，打通 agent 工作流里的 OTP 卡点。",
+      "novelty": "电话身份作为智能体基础设施，不是又一个语音 SaaS 壳",
+      "urls": {
+        "site": "https://getdial.ai",
+        "ph": "https://www.producthunt.com/products/dial-3"
+      },
+      "tags": [
+        "通讯",
+        "MCP",
+        "身份"
+      ],
+      "homepage": false,
+      "notes": "PH Sep 2 #6 · 176 score · 32 comments"
+    },
+    {
       "id": "seendiff",
       "name": "seendiff",
       "score": 75,
@@ -382,239 +728,6 @@
       "homepage": false
     },
     {
-      "id": "trustedrouter",
-      "name": "TrustedRouter",
-      "score": 73,
-      "status": "new",
-      "first_detected": "2026-09-02T08:20:00+08:00",
-      "last_updated": "2026-09-02T08:20:00+08:00",
-      "summary": "OpenAI 兼容的多模型网关，走硬件证明的 TEE 隐私路径（ZDR / 机密端到端 / fail-closed）。",
-      "novelty": "带硬件证明的隐私网关，不是普通 OpenRouter 克隆",
-      "urls": {
-        "site": "https://trustedrouter.com/",
-        "ph": "https://www.producthunt.com/products/trustedrouter",
-        "trust": "https://trust.trustedrouter.com/"
-      },
-      "tags": [
-        "网关",
-        "隐私",
-        "TEE"
-      ],
-      "homepage": false
-    },
-    {
-      "id": "superagent-mac",
-      "name": "Superagent（Mac）",
-      "score": 71,
-      "status": "new",
-      "first_detected": "2026-08-30T00:00:00+08:00",
-      "last_updated": "2026-08-31T08:45:00+08:00",
-      "summary": "给不会用终端的人用的 Claude Code：本机已登录的浏览器、iOS 模拟器、独立工作树、iPhone 配对。不是 Airtable 的 Superagent，也不是安全产品 superagent.sh。周日 Product Hunt 榜仍靠前。",
-      "novelty": "命令行智能体得到一台持久的本地电脑",
-      "urls": {
-        "ph": "https://www.producthunt.com/products/superagent-a-home-for-your-ai-agents"
-      },
-      "tags": [
-        "智能体",
-        "Mac",
-        "本地"
-      ],
-      "homepage": false,
-      "unverified": [
-        "本次未确认官方域名"
-      ]
-    },
-    {
-      "id": "staats",
-      "name": "Staats",
-      "score": 69,
-      "status": "new",
-      "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-08-31T08:45:00+08:00",
-      "summary": "没有仪表盘的网站分析。真正用户是编程智能体：同一智能体写功能、装追踪、给部署打标签、量前后差异，再带着证据建议下一步。网页只用来管账单和密钥。",
-      "novelty": "分析产品的界面是 MCP，不是图表",
-      "urls": {
-        "site": "https://www.staats.ai/",
-        "ph": "https://www.producthunt.com/products/staats-3"
-      },
-      "tags": [
-        "分析",
-        "MCP",
-        "编程智能体"
-      ],
-      "homepage": false
-    },
-    {
-      "id": "gpt-6-astra",
-      "name": "GPT-6 Astra",
-      "score": 92,
-      "status": "watching",
-      "first_detected": "2026-09-04T08:57:00+08:00",
-      "last_updated": "2026-09-04T08:57:00+08:00",
-      "summary": "OpenAI 新一代前沿模型分阶段发货：电脑操控/浏览/软件工程/网络/科学 SOTA；先限组织，数日内 Plus/Pro/Biz/Ent + API + AWS。Critical 网络能力与错位监控同捆。",
-      "novelty": "第一款带着 Critical cyber 门控真正开量的前沿模型，不是又一次参数秀",
-      "urls": {
-        "site": "https://openai.com/index/safety-overview-gpt-6-astra/",
-        "x": "https://x.com/OpenAI/status/2095595741528125780",
-        "system_card": "https://deploymentsafety.openai.com/gpt-6-astra",
-        "release_notes": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
-      },
-      "tags": [
-        "OpenAI",
-        "模型",
-        "Computer Use",
-        "安全"
-      ],
-      "homepage": false
-    },
-    {
-      "id": "meta-muse-personal-agent",
-      "first_detected": "2026-09-10T18:20:00+08:00",
-      "last_updated": "2026-09-11T08:20:00+08:00",
-      "name": "Meta Muse",
-      "score": 90,
-      "status": "watching",
-      "summary": "面向大众的个人 AI agent：在独立 Muse Secure VM 上跨应用代办（关 App 后继续），敏感操作需确认；Sentinel 门控出网；US iOS/Android/muse.ai + WhatsApp。",
-      "novelty": "把「个人持久电脑」做成带 Sentinel/审计/审批的消费级 Secure VM，而不是又一个聊天助手。",
-      "urls": {
-        "official": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
-        "site": "https://muse.ai"
-      },
-      "tags": [
-        "Meta",
-        "Muse",
-        "Agent",
-        "Secure VM"
-      ],
-      "homepage": false
-    },
-    {
-      "id": "deepseek-v4-1-flash",
-      "first_detected": "2026-09-10T18:20:00+08:00",
-      "last_updated": "2026-09-11T08:20:00+08:00",
-      "name": "DeepSeek-V4.1-Flash",
-      "score": 86,
-      "status": "watching",
-      "summary": "DeepSeek 发布 V4.1-Flash（非对称 MoE，API deepseek-flash + 开源权重）；官方称在性能/成本/速度上压过 V4-Pro，并计划把 Pro 流量切到 Flash 计价。",
-      "novelty": "用 Flash 档正面替代 Pro 做 agent 负载，并把 KV 压缩明确卖成 agent cache 经济。",
-      "urls": {
-        "official": "https://api-docs.deepseek.com/news/news260910",
-        "changelog": "https://api-docs.deepseek.com/updates"
-      },
-      "tags": [
-        "DeepSeek",
-        "Flash",
-        "MoE",
-        "Agent"
-      ],
-      "homepage": false
-    },
-    {
-      "id": "cursor-self-hosted",
-      "name": "Cursor Self-hosted Machines",
-      "score": 83,
-      "status": "watching",
-      "first_detected": "2026-09-03T08:15:00+08:00",
-      "last_updated": "2026-09-04T08:57:00+08:00",
-      "summary": "云智能体跑在你的机池或沙箱供应商上：工具执行与内部服务留在客户网络；智能体循环仍在 Cursor。支持弹性/休眠池与 Linux/Mac computer use。",
-      "novelty": "把「大脑在云、手脚在自托管」产品化成一等公民执行拓扑",
-      "urls": {
-        "site": "https://cursor.com/changelog",
-        "x": "https://x.com/cursor_ai/status/2095257412781396114",
-        "vercel": "https://vercel.com/changelog/run-cursor-cloud-agents-vercel-sandbox"
-      },
-      "tags": [
-        "Cursor",
-        "自托管",
-        "云智能体"
-      ],
-      "homepage": false,
-      "notes": " | 2026-09-03 Vercel Sandbox 成为合作伙伴执行池（scale-to-zero Firecracker）"
-    },
-    {
-      "id": "hob",
-      "first_detected": "2026-09-10T18:20:00+08:00",
-      "last_updated": "2026-09-11T08:20:00+08:00",
-      "name": "hob",
-      "score": 82,
-      "status": "watching",
-      "summary": "本地优先的独立工作区：编排你已有的 agent CLI（Claude Code / Codex / OpenCode 等）做并行会话、终端、worktree 与远程访问；不转售模型。",
-      "novelty": "Provider-agnostic harness：订阅留在各家，hob 只做多 agent 编码工作的持久工作区。",
-      "urls": {
-        "ph": "https://www.producthunt.com/products/hob-2",
-        "site": "https://hob.dev/"
-      },
-      "tags": [
-        "Harness",
-        "Agent",
-        "CLI",
-        "Product Hunt"
-      ],
-      "homepage": false
-    },
-    {
-      "id": "monid",
-      "name": "Monid",
-      "score": 81,
-      "status": "watching",
-      "first_detected": "2026-09-03T08:15:00+08:00",
-      "last_updated": "2026-09-03T08:15:00+08:00",
-      "summary": "一把密钥/余额，让智能体在运行时发现、调用并按次付费 1700+ 第三方 API（Skill / MCP / CLI）。按价格与可靠性路由，不是写死集成。",
-      "novelty": "智能体原生的运行时工具市场（发现+路由+按次付费），像 OpenRouter 但面向 agent tools",
-      "urls": {
-        "site": "https://monid.ai",
-        "ph": "https://www.producthunt.com/products/monid"
-      },
-      "tags": [
-        "MCP",
-        "工具市场",
-        "按次计费"
-      ],
-      "homepage": false,
-      "notes": "PH Sep 2 #1 · 356 score · 52 comments"
-    },
-    {
-      "id": "gemini-3-8-flash",
-      "name": "Gemini 3.8 Flash",
-      "score": 80,
-      "status": "watching",
-      "first_detected": "2026-09-03T08:15:00+08:00",
-      "last_updated": "2026-09-03T08:15:00+08:00",
-      "summary": "六周内第三代 Flash；同价强化长程 coding / agent；进 Antigravity、AI Studio、Android Studio 与 Gemini App。另有门控版 3.8 Flash Cyber（见 Fairwind 信号）。",
-      "novelty": "工作马模型按周迭代，专打长程 agentic loops，而不是又一次参数秀",
-      "urls": {
-        "site": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-        "x": "https://x.com/GoogleDeepMind/status/2095175498967949359"
-      },
-      "tags": [
-        "Google",
-        "模型",
-        "Agent"
-      ],
-      "homepage": false
-    },
-    {
-      "id": "dial",
-      "name": "Dial",
-      "score": 75,
-      "status": "watching",
-      "first_detected": "2026-09-03T08:15:00+08:00",
-      "last_updated": "2026-09-03T08:15:00+08:00",
-      "summary": "几秒给智能体开真实电话号码：语音 + SMS + iMessage；REST/SDK/CLI/MCP；可收验证码，打通 agent 工作流里的 OTP 卡点。",
-      "novelty": "电话身份作为智能体基础设施，不是又一个语音 SaaS 壳",
-      "urls": {
-        "site": "https://getdial.ai",
-        "ph": "https://www.producthunt.com/products/dial-3"
-      },
-      "tags": [
-        "通讯",
-        "MCP",
-        "身份"
-      ],
-      "homepage": false,
-      "notes": "PH Sep 2 #6 · 176 score · 32 comments"
-    },
-    {
       "id": "grove",
       "name": "Grove",
       "score": 74,
@@ -651,6 +764,27 @@
         "Meta",
         "模型",
         "Agent"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "trustedrouter",
+      "name": "TrustedRouter",
+      "score": 73,
+      "status": "new",
+      "first_detected": "2026-09-02T08:20:00+08:00",
+      "last_updated": "2026-09-02T08:20:00+08:00",
+      "summary": "OpenAI 兼容的多模型网关，走硬件证明的 TEE 隐私路径（ZDR / 机密端到端 / fail-closed）。",
+      "novelty": "带硬件证明的隐私网关，不是普通 OpenRouter 克隆",
+      "urls": {
+        "site": "https://trustedrouter.com/",
+        "ph": "https://www.producthunt.com/products/trustedrouter",
+        "trust": "https://trust.trustedrouter.com/"
+      },
+      "tags": [
+        "网关",
+        "隐私",
+        "TEE"
       ],
       "homepage": false
     },
@@ -734,6 +868,48 @@
       ],
       "homepage": false,
       "notes": "不要和 amplifthq/opentag（本地 ACP 网关）搞混"
+    },
+    {
+      "id": "superagent-mac",
+      "name": "Superagent（Mac）",
+      "score": 71,
+      "status": "new",
+      "first_detected": "2026-08-30T00:00:00+08:00",
+      "last_updated": "2026-08-31T08:45:00+08:00",
+      "summary": "给不会用终端的人用的 Claude Code：本机已登录的浏览器、iOS 模拟器、独立工作树、iPhone 配对。不是 Airtable 的 Superagent，也不是安全产品 superagent.sh。周日 Product Hunt 榜仍靠前。",
+      "novelty": "命令行智能体得到一台持久的本地电脑",
+      "urls": {
+        "ph": "https://www.producthunt.com/products/superagent-a-home-for-your-ai-agents"
+      },
+      "tags": [
+        "智能体",
+        "Mac",
+        "本地"
+      ],
+      "homepage": false,
+      "unverified": [
+        "本次未确认官方域名"
+      ]
+    },
+    {
+      "id": "staats",
+      "name": "Staats",
+      "score": 69,
+      "status": "new",
+      "first_detected": "2026-08-29T00:00:00+08:00",
+      "last_updated": "2026-08-31T08:45:00+08:00",
+      "summary": "没有仪表盘的网站分析。真正用户是编程智能体：同一智能体写功能、装追踪、给部署打标签、量前后差异，再带着证据建议下一步。网页只用来管账单和密钥。",
+      "novelty": "分析产品的界面是 MCP，不是图表",
+      "urls": {
+        "site": "https://www.staats.ai/",
+        "ph": "https://www.producthunt.com/products/staats-3"
+      },
+      "tags": [
+        "分析",
+        "MCP",
+        "编程智能体"
+      ],
+      "homepage": false
     },
     {
       "id": "arbr",

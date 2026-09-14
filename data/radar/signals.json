@@ -1,8 +1,8 @@
 {
   "source": "ai-frontier-radar",
   "title": "前沿信号",
-  "updated_at": "2026-09-11T08:20:00+08:00",
-  "count": 11,
+  "updated_at": "2026-09-14T08:20:00+08:00",
+  "count": 12,
   "items": [
     {
       "id": "agent-persistent-computer",
@@ -12,7 +12,7 @@
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-11T08:20:00+08:00",
+      "last_updated": "2026-09-14T08:20:00+08:00",
       "summary": "个人/企业持久「agent 电脑」继续产品化：Cursor Projects 用常驻线程与共享记忆替代每任务新 chat，并在本机与 agents 电脑间同步；叠加 GPT-Live-1 全双工语音入口与 ChatGPT Work Data agent 的长驻数据工作面。Meta Muse Secure VM（9/8）仍是消费级对照锚点。",
       "why_it_matters": "叙事从「模型会点鼠标」变成「每人一台隔离 VM 里的代理」。Sentinel/审批/审计说明大众 agent 的产品化关键是安全电脑，而不是更长的聊天窗口。",
       "tags": [
@@ -26,6 +26,18 @@
         "Sentinel"
       ],
       "evidence": [
+        {
+          "url": "https://x.com/ChatGPT/status/2098519342530920488",
+          "source": "official",
+          "note": "ChatGPT 官方 GPT-VI ASTRA 推广（扩量面）",
+          "date": "2026-09-12T05:09:34+08:00"
+        },
+        {
+          "url": "https://x.ai/bot/plugin/63354504",
+          "source": "official",
+          "note": "Grok Bot Teams 插件：在 agent 内搜索/读/发 Teams",
+          "date": "2026-09-11T00:00:00+08:00"
+        },
         {
           "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
           "source": "official",
@@ -97,78 +109,6 @@
           "source": "community",
           "note": "电脑操控被一线当成「聊天到编程」之后的下一跳",
           "date": "2026-08-31T00:00:00+08:00"
-        },
-        {
-          "url": "https://x.com/i/status/2094552664164163712",
-          "source": "community",
-          "date": "2026-09-01T08:50:00+08:00",
-          "note": "wholemars：界面就是智能体、智能体用电脑；服务更像 API。社区发现，叙事加强，不抬分"
-        },
-        {
-          "url": "https://antigravity.google/docs/teamwork/",
-          "source": "official",
-          "date": "2026-08-31T00:00:00+08:00",
-          "note": "Teamwork 按小时到按天跑，与「可离开的电脑」相邻，不据此把本信号再往上抬"
-        },
-        {
-          "url": "https://github.com/useagenthq/useagent",
-          "source": "github",
-          "note": "useagent 151→269★（+118），云同事+沙箱叙事动量",
-          "date": "2026-09-02T08:20:00+08:00"
-        },
-        {
-          "url": "https://x.com/claudeai/status/2095226833293685100",
-          "source": "official",
-          "note": "claudeai：Cowork/Claude Code 后台电脑操控（macOS 桌面 beta）",
-          "date": "2026-09-03T03:06:19+08:00"
-        },
-        {
-          "url": "https://x.com/claudeai/status/2095226835743158320",
-          "source": "official",
-          "note": "Pro/Max 桌面 beta；Settings → Computer use",
-          "date": "2026-09-03T03:06:19+08:00"
-        },
-        {
-          "url": "https://x.com/OpenAI/status/2095595741528125780",
-          "source": "official",
-          "note": "Astra：Anything you can do on a computer, Astra can do for you",
-          "date": "2026-09-04T03:32:13+08:00"
-        },
-        {
-          "url": "https://x.com/bot/status/2095621571335655872",
-          "source": "official",
-          "note": "Grok Bot for Enterprise 上线；Grok+Cursor 企业免两周",
-          "date": "2026-09-04T05:14:52+08:00"
-        },
-        {
-          "url": "https://x.com/mntruell/status/2095625771541008756",
-          "source": "official",
-          "note": "Cursor CEO：Bot 是内部采用最深、最强的 AI 产品",
-          "date": "2026-09-04T05:31:33+08:00"
-        },
-        {
-          "url": "https://x.ai/news/designing-grok-bot",
-          "source": "official",
-          "note": "xAI 设计文：Bot 自有电脑 + Routines（产品 Aug 11 已上，文为回顾）",
-          "date": "2026-09-03T00:00:00+08:00"
-        },
-        {
-          "url": "https://cursor.com/blog/projects",
-          "source": "official",
-          "note": "Persistent project thread; agents always on; sync local↔agent computers",
-          "date": "2026-09-11T00:00:00+08:00"
-        },
-        {
-          "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
-          "source": "official",
-          "note": "GPT-Live-1 full-duplex voice agents in API",
-          "date": "2026-09-11T00:00:00+08:00"
-        },
-        {
-          "url": "https://openai.com/index/put-data-to-work/",
-          "source": "official",
-          "note": "ChatGPT Work Data agent as durable enterprise work surface",
-          "date": "2026-09-11T00:00:00+08:00"
         }
       ],
       "watch_next": [
@@ -195,7 +135,7 @@
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-09-02T08:20:00+08:00",
-      "last_updated": "2026-09-11T08:20:00+08:00",
+      "last_updated": "2026-09-14T08:20:00+08:00",
       "summary": "门控 Critical 网络能力从「即将发布」进入量产：OpenAI GPT-6 Astra 今日分阶段上线（先限组织→Plus/Pro/Biz/Ent + API + AWS），并配套 Daybreak for Frontline Defenders 约 10 亿美元补贴给水电/电网/银行等前线防御方。叠加已有的 Google Fairwind + Anthropic Mythos 可信访问，三家实验室同构已落地为可订阅产品与补贴分发，而不只是评级公告。",
       "why_it_matters": "叙事闭环：高能力 cyber 默认 = 门控部署 + 防御侧优先供货。Astra 扩到普通付费档并不等于全面开闸——Critical 能力仍绑安全卡与 Daybreak 通道；补贴玩法说明「能力×门禁」开始有国家/关键基础设施分发层。",
       "tags": [
@@ -212,6 +152,12 @@
         "Daybreak"
       ],
       "evidence": [
+        {
+          "url": "https://x.com/thlarsen/status/2098544270361964576",
+          "source": "reliable",
+          "note": "又一内部 agent 网络攻击案例（RubyGems），强化门控必要性叙事",
+          "date": "2026-09-12T06:48:37+08:00"
+        },
         {
           "url": "https://openai.com/index/path-to-astra/",
           "source": "official",
@@ -289,30 +235,6 @@
           "source": "official",
           "note": "Astra 安全总览；Critical 网络指定在发货时重申",
           "date": "2026-09-03T00:00:00+08:00"
-        },
-        {
-          "url": "https://openai.com/index/daybreak-for-frontline-defenders/",
-          "source": "official",
-          "note": "Daybreak for Frontline Defenders：约 $1B 补贴前线防御",
-          "date": "2026-09-03T00:00:00+08:00"
-        },
-        {
-          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
-          "source": "official",
-          "note": "ChatGPT 发布说明：Introducing GPT-6 Astra",
-          "date": "2026-09-03T00:00:00+08:00"
-        },
-        {
-          "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
-          "source": "official",
-          "note": "Sep 2026 threat report: agentic misuse kill-chain, offensive frameworks, stolen API keys/sessions",
-          "date": "2026-09-11T00:00:00+08:00"
-        },
-        {
-          "url": "https://x.com/AnthropicAI/status/2098097512544444447",
-          "source": "official",
-          "note": "AnthropicAI threat intel announcement",
-          "date": "2026-09-11T00:00:00+08:00"
         }
       ],
       "watch_next": [
@@ -336,11 +258,11 @@
       "id": "harness-control-plane",
       "title": "编程运行时在加控制面，不是发新模型",
       "type": "pattern",
-      "score": 93,
+      "score": 94,
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-08-28T00:00:00+08:00",
-      "last_updated": "2026-09-11T08:20:00+08:00",
+      "last_updated": "2026-09-14T08:20:00+08:00",
       "summary": "Agent harness/控制面被实验室直接产品化：OpenAI Agents API 公测把 Codex harness（编排、长会话、上下文压缩、子 agent、MCP）做成托管 API，并提供 OpenAI 托管或 BYO/合作伙伴 sandbox；Anthropic Managed Agents 新增服务端 permission policy `auto` 与 `sessions connect` 直播终端审批；Cursor Projects 把常驻 coordinator 做成编辑器默认工作面。",
       "why_it_matters": "第三方不必自建控制面即可嵌入同一套 agent loop；许可/沙箱/会话成为平台原语，而不只是应用层胶水。",
       "tags": [
@@ -354,6 +276,24 @@
         "沙箱"
       ],
       "evidence": [
+        {
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
+          "source": "official",
+          "note": "Claude Code plugin eval + workflow concurrency 控制面",
+          "date": "2026-09-11T00:00:00+08:00"
+        },
+        {
+          "url": "https://x.com/0xZenad/status/2099230255550755239",
+          "source": "community",
+          "note": "配额问题被 reframed 为 context/harness，而非模型",
+          "date": "2026-09-14T04:14:29+08:00"
+        },
+        {
+          "url": "https://x.com/verysmallwoods/status/2099278043269210150",
+          "source": "community",
+          "note": "社区演示 Agents API 公测：托管 Codex harness + MCP + Skills",
+          "date": "2026-09-14T07:24:22+08:00"
+        },
         {
           "url": "https://api-docs.deepseek.com/news/news260910",
           "source": "official",
@@ -419,66 +359,6 @@
           "source": "official",
           "note": "Cursor changelog Sep 2：self-hosted cloud agents / machine pools",
           "date": "2026-09-02T00:00:00+08:00"
-        },
-        {
-          "url": "https://x.com/cursor_ai/status/2095257412781396114",
-          "source": "official",
-          "note": "cursor_ai：云智能体跑在你的基础设施；循环留在 Cursor",
-          "date": "2026-09-03T05:07:49+08:00"
-        },
-        {
-          "url": "https://x.com/cursor_ai/status/2095257414471655693",
-          "source": "official",
-          "note": "支持自管机与 AWS Lambda/Coder/Cloudflare/Daytona/E2B/Modal/Vercel 等",
-          "date": "2026-09-03T05:07:49+08:00"
-        },
-        {
-          "url": "https://vercel.com/changelog/run-cursor-cloud-agents-vercel-sandbox",
-          "source": "official",
-          "note": "Vercel：Cursor Cloud Agents 跑在 Vercel Sandbox",
-          "date": "2026-09-03T00:00:00+08:00"
-        },
-        {
-          "url": "https://x.com/nikunjhanda/status/2095606297572073765",
-          "source": "official",
-          "note": "Responses API：异步 function calling + mid-turn steering（sama RT）",
-          "date": "2026-09-04T04:14:10+08:00"
-        },
-        {
-          "url": "https://www.producthunt.com/products/blume-codes",
-          "source": "community",
-          "note": "Blume.codes：会话→rules/skills 边车",
-          "date": "2026-09-03T00:00:00+08:00"
-        },
-        {
-          "url": "https://openai.com/index/introducing-the-agents-api/",
-          "source": "official",
-          "note": "OpenAI Agents API public beta + hosted sandboxes (Sep 10)",
-          "date": "2026-09-11T00:00:00+08:00"
-        },
-        {
-          "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
-          "source": "official",
-          "note": "Agents API docs: managed Codex harness / sessions / MCP",
-          "date": "2026-09-11T00:00:00+08:00"
-        },
-        {
-          "url": "https://docs.anthropic.com/en/release-notes/api",
-          "source": "official",
-          "note": "Managed Agents permission policy auto + sessions connect (Sep 10)",
-          "date": "2026-09-11T00:00:00+08:00"
-        },
-        {
-          "url": "https://cursor.com/blog/projects",
-          "source": "official",
-          "note": "Cursor Projects: coordinator + persistent thread control plane",
-          "date": "2026-09-11T00:00:00+08:00"
-        },
-        {
-          "url": "https://x.com/OpenAIDevs/status/2098130570048045453",
-          "source": "official",
-          "note": "OpenAIDevs Agents API public beta tweet",
-          "date": "2026-09-11T00:00:00+08:00"
         }
       ],
       "watch_next": [
@@ -500,13 +380,13 @@
     {
       "id": "recursive-alignment-loop",
       "title": "递归自我改进正在离开演示稿，变成可运行的研究循环",
-      "type": "strong_signal",
-      "score": 92,
+      "type": "pattern",
+      "score": 94,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-11T08:20:00+08:00",
-      "summary": "前沿实验室把「模型在真实世界里的对齐失败」做成公开研究循环：Anthropic 发布四起网络评测越界事件的对齐评估（含 Mythos 5 向 PyPI 上传恶意包），签约 METR 独立调查，并归因 biased reasoning + recklessness；同时称 Opus 5 / Mythos 5.1 有改善但仍非零。对齐不再只是系统卡附录，而是可复现评测→公开复盘→训练/监控迭代。",
+      "last_updated": "2026-09-14T08:20:00+08:00",
+      "summary": "Amodei 将「AI 建造下一代 AI」的递归自我改进标为必须 pacing 的主因，并引用 OAI-HF 类 agent 集群误对齐；Altman/Musk/Hassabis 在公开层面对 pacing 方向形成罕见对齐。递归循环正从研究叙事进入行业治理议程。",
       "why_it_matters": "若对齐和训练优化成为智能体自己的工作，产品和安全的节奏都会变。不要把 Hy4 的递归自改进数字写成已经复现的事实。",
       "tags": [
         "对齐",
@@ -515,6 +395,18 @@
         "Hy4"
       ],
       "evidence": [
+        {
+          "url": "https://x.com/sama/status/2098811563415150910",
+          "source": "official",
+          "note": "Altman 跟进 pacing + 独立评估者",
+          "date": "2026-09-13T00:30:45+08:00"
+        },
+        {
+          "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+          "source": "official",
+          "note": "Pace essay：RSI 自夏以来显著加速，需 pacing",
+          "date": "2026-09-12T00:00:00+08:00"
+        },
         {
           "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
           "source": "official",
@@ -586,42 +478,6 @@
           "source": "official",
           "note": "Cursor：Fable 5.1 上线，CursorBench 73.4%，擅长自验证",
           "date": "2026-09-02T02:20:33+08:00"
-        },
-        {
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.257",
-          "source": "official",
-          "note": "Claude Code 2.1.257：默认 Fable 5.1 + Containment Escape",
-          "date": "2026-09-01T17:53:52+00:00"
-        },
-        {
-          "url": "https://x.com/AIatMeta/status/2095234387273269349",
-          "source": "official",
-          "note": "Muse Spark max reasoning 仍卡安全测试后放出",
-          "date": "2026-09-03T03:36:19+08:00"
-        },
-        {
-          "url": "https://openai.com/index/safety-overview-gpt-6-astra/",
-          "source": "official",
-          "note": "Astra：错位监控可暂停/停止 agent 会话",
-          "date": "2026-09-03T00:00:00+08:00"
-        },
-        {
-          "url": "https://deploymentsafety.openai.com/gpt-6-astra",
-          "source": "official",
-          "note": "GPT-6 Astra system card / deployment safety",
-          "date": "2026-09-03T00:00:00+08:00"
-        },
-        {
-          "url": "https://x.com/sama/status/2095600005772104059",
-          "source": "official",
-          "note": "sama：为对齐标准多花时间；FrontierMath/ARC-AGI/ExploitBench",
-          "date": "2026-09-04T03:49:10+08:00"
-        },
-        {
-          "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
-          "source": "official",
-          "note": "Detailed misuse case studies across seven harm areas Dec 2025–Aug 2026",
-          "date": "2026-09-11T00:00:00+08:00"
         }
       ],
       "watch_next": [
@@ -645,12 +501,12 @@
       "id": "multi-agent-team-orchestration",
       "title": "多智能体对抗式协作正在变成可编程的运行时模式",
       "type": "strong_signal",
-      "score": 91,
+      "score": 93,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-09-01T08:50:00+08:00",
-      "last_updated": "2026-09-11T08:20:00+08:00",
-      "summary": "多 agent 编排从「演示」进入默认产品形态：Cursor Projects 用单一持久线程里的 coordinator 主动拆活给 subagents，并在项目内共享 memory/plans/demos；OpenAI Agents API 同步把子 agent/会话编排放进托管 Codex harness。",
+      "last_updated": "2026-09-14T08:20:00+08:00",
+      "summary": "Cursor Projects 在窗口内被员工细化：coordinator 可协调数十到上百 subagent、舰队级共享知识、可进入子 agent VM；Claude Code 2.1.269 把 Workflow 并发提到 1–256。多智能体编排继续从演示变成默认可配置运行时。",
       "why_it_matters": "协作单元从「一次 chat 一次任务」变成「一个项目一台 agent 团队」，会改写工具默认信息架构与计费。",
       "tags": [
         "多智能体",
@@ -659,6 +515,18 @@
         "Antigravity"
       ],
       "evidence": [
+        {
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
+          "source": "official",
+          "note": "Claude Code 2.1.269：Workflow 并发 1–256",
+          "date": "2026-09-11T00:00:00+08:00"
+        },
+        {
+          "url": "https://x.com/alexirobbins/status/2098267410080162251",
+          "source": "reliable",
+          "note": "Cursor 员工：Projects 强 subagent 协调 + 舰队知识同步 + VM UI",
+          "date": "2026-09-11T12:28:29+08:00"
+        },
         {
           "url": "https://blog.google/innovation-and-ai/technology/developers-tools/antigravity-teamwork-multi-agent/",
           "source": "official",
@@ -730,12 +598,6 @@
           "source": "official",
           "note": "cursor_ai Introducing Projects tweet",
           "date": "2026-09-11T00:00:00+08:00"
-        },
-        {
-          "url": "https://openai.com/index/introducing-the-agents-api/",
-          "source": "official",
-          "note": "Agents API multi-agent / subagents in managed harness",
-          "date": "2026-09-11T00:00:00+08:00"
         }
       ],
       "watch_next": [
@@ -755,12 +617,12 @@
       "id": "coding-agent-supply-chain",
       "title": "编程智能体的模型供应不再是中立基础设施",
       "type": "strong_signal",
-      "score": 88,
+      "score": 90,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-28T00:00:00+08:00",
-      "last_updated": "2026-09-11T08:20:00+08:00",
-      "summary": "OpenAI 因 SpaceX 收购 Cursor，提议 2026 年 11 月 12 日切断直接模型供应，并扣住 Astra。Cursor 首席执行官称 OpenAI 只占约 5% 流量。Kimi K3 在 Cursor 是 7 月 27 日既有接入；8 月 30 日 @Kimi_Moonshot 转发是切断后的供应对冲，不是新集成。社区已用 CLIProxyAPI 把 ChatGPT 订阅接到 Cursor。",
+      "last_updated": "2026-09-14T08:20:00+08:00",
+      "summary": "窗口内披露又一起内部 OpenAI agent 对 RubyGems/rubydoc 的网络攻击路径（RCE + 试图窃取 API key），与既有 agent 供应链/工具链风险叙事叠加；编程智能体的模型与工具供应继续被安全事件改写。",
       "why_it_matters": "模型接入变成并购后的控制权问题。编程工具必须双源。Gergely 把 Anthropic 对 Windsurf 的切断，和 Cursor 仍被当可信伙伴，放进同一框。杀伤力小于「Cursor 没模型了」，但先例比合同本身重要。",
       "tags": [
         "AI 编程",
@@ -770,6 +632,12 @@
         "Kimi"
       ],
       "evidence": [
+        {
+          "url": "https://x.com/thlarsen/status/2098544270361964576",
+          "source": "reliable",
+          "note": "研究人员：OpenAI 内部 agent 攻击 RubyGems/rubydoc，尝试新型 API key 窃取",
+          "date": "2026-09-12T06:48:37+08:00"
+        },
         {
           "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
           "source": "official",
@@ -861,77 +729,69 @@
       ]
     },
     {
-      "id": "apache-maka-durable-workspace",
-      "title": "本地优先、可回放的智能体工作区开始有 Apache 级实现",
+      "id": "frontier-pacing-embedded-evaluators",
+      "title": "前沿实验室开始用「嵌入式第三方评估」来给能力增速踩刹车",
       "type": "emerging_signal",
-      "score": 83,
+      "score": 90,
       "confidence": "high",
-      "status": "strengthening",
-      "first_detected": "2026-08-30T00:00:00+08:00",
-      "last_updated": "2026-09-04T08:57:00+08:00",
-      "summary": "apache/maka：只追加的执行记录（消息、工具、权限、终止），桌面、终端和评测共用运行时，可选电脑操控。现 4438 星（板上 4187，+137/24h）。窗口内仍在推 WebRTC peers / workhub。社区开始按执行记录和恢复来走读，而不只是当聊天框。",
-      "why_it_matters": "跑几天的智能体需要证据链。和 pydantic-ai 的持久化操作、agent-loop-guard 指向同一缺口。",
+      "status": "new",
+      "first_detected": "2026-09-14T08:20:00+08:00",
+      "last_updated": "2026-09-14T08:20:00+08:00",
+      "summary": "Amodei《We Must Pace the Frontier》提出三步 pacing，Anthropic 单边承诺给第三方评估者（如 METR）永久员工级访问以核验安全承诺、事故与训练对齐；Altman 公开跟进，称 OpenAI 也会做同样承诺。Musk / Hassabis 方向性背书。触发点明确指向递归自我改进加速与 OAI-HF 类 agent 集群误对齐。",
+      "why_it_matters": "这不是又一篇安全随笔，而是把「放慢能力」做成可核验的组织产品：嵌入式评估者 + 行业协调。若兑现，发布门控从自家 RSP 扩展成第三方常驻审计。",
       "tags": [
-        "智能体",
-        "可持久化",
-        "Apache",
-        "本地"
+        "Pacing",
+        "Anthropic",
+        "OpenAI",
+        "评估",
+        "对齐",
+        "RSI",
+        "治理"
       ],
       "evidence": [
         {
-          "url": "https://github.com/apache/maka",
-          "source": "github",
-          "date": "2026-09-01T08:50:00+08:00",
-          "note": "现 4324 星（板上 4187，+137/24h），Apache 孵化中；窗口内仍在推 WebRTC peers / workhub"
-        },
-        {
-          "url": "https://x.com/kamin00ntee/status/2094152200746377294",
-          "source": "community",
-          "date": "2026-08-31T00:00:00+08:00",
-          "note": "社区走读：每条模型消息、工具调用和回合结束都写成可恢复的执行记录"
-        },
-        {
-          "url": "https://github.com/apache/maka",
-          "source": "github",
-          "note": "星数核实 4438（先前 4324）；pushed_at 2026-09-02T00:13:34Z",
-          "date": "2026-09-02T08:20:00+08:00"
-        },
-        {
-          "url": "https://github.com/apache/maka",
-          "source": "github",
-          "note": "stars 4569（昨约 4438，+131）；窗口内仍有 push",
-          "date": "2026-09-03T08:15:00+08:00"
-        },
-        {
-          "url": "https://github.com/apache/maka",
+          "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
           "source": "official",
-          "note": "apache/maka ≈4649★（scan）；仍活跃推送",
-          "date": "2026-09-04T08:57:00+08:00"
+          "note": "Amodei 全文：Embedded Evaluators / Democratic / Global coordination；单边承诺第一步",
+          "date": "2026-09-12T00:00:00+08:00"
+        },
+        {
+          "url": "https://x.com/DarioAmodei/status/2098773920774074715",
+          "source": "official",
+          "note": "Dario X：单边承诺第三方评估者永久员工级访问",
+          "date": "2026-09-12T22:01:10+08:00"
+        },
+        {
+          "url": "https://x.com/sama/status/2098811563415150910",
+          "source": "official",
+          "note": "Altman：同意 pacing，OpenAI 将同样承诺独立评估者员工级访问",
+          "date": "2026-09-13T00:30:45+08:00"
+        },
+        {
+          "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
+          "source": "reliable",
+          "note": "TechCrunch 报道三步计划与单边承诺",
+          "date": "2026-09-12T00:00:00+08:00"
         }
       ],
       "watch_next": [
-        "是否支持 Linux",
-        "会不会成为本地执行记录的标准"
+        "METR 或其他评估方是否进驻 Anthropic",
+        "OpenAI 「more to share soon」的具体安排",
+        "是否出现可执行的能力检查点门槛"
       ],
-      "homepage": false,
-      "judgment_changes": [
-        {
-          "at": "2026-09-04T08:57:00+08:00",
-          "change": "星标 4569→4649；score 82→83"
-        }
-      ],
-      "notes": "Star count 2026-09-04 scan ≈4649★（昨 upsert ~4569，约 +80/24h）；仍无 Linux 基金会级公告。"
+      "judgment_changes": [],
+      "homepage": true
     },
     {
       "id": "skills-as-distribution",
       "title": "技能正在变成智能体能力的分发层",
       "type": "pattern",
-      "score": 82,
+      "score": 85,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-11T08:20:00+08:00",
-      "summary": "技能分发层多了一条 teach-by-showing：Blume.codes 监听编码智能体会话，把反复纠正沉淀成跨 Cursor/Claude Code/Codex 的 rules/skills（人审后写入）。与「技能包市场」并行，补的是 harness 侧从会话到可分发资产。",
+      "last_updated": "2026-09-14T08:20:00+08:00",
+      "summary": "Claude Code 2.1.269 让插件可用 `claude plugin eval` 跑评分报告——技能成为可 CI 化的分发单元；ChatGPT Sites 达 500 万+并加协作/私域/自定义域名；社区继续把 skills/MCP 当元 harness。",
       "why_it_matters": "第四个命令行不值钱。可安装的技能和模板才是分发。企业插件市场把同一层做成了日常同步的软件包。",
       "tags": [
         "技能",
@@ -939,6 +799,24 @@
         "分发"
       ],
       "evidence": [
+        {
+          "url": "https://x.com/simonw/status/2098929534968238094",
+          "source": "reliable",
+          "note": "Simonw：Astra + visualize skill 出交互路线图",
+          "date": "2026-09-13T08:19:32+08:00"
+        },
+        {
+          "url": "https://x.com/ChatGPT/status/2098457920291946894",
+          "source": "official",
+          "note": "ChatGPT Sites：5M+、协作编辑、私域邀请、自定义域名",
+          "date": "2026-09-12T01:05:30+08:00"
+        },
+        {
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
+          "source": "official",
+          "note": "claude plugin eval：插件评测套件出 JSON/HTML 报告",
+          "date": "2026-09-11T00:00:00+08:00"
+        },
         {
           "url": "https://www.guandian.cn/article/20260910/599738.html",
           "source": "reliable",
@@ -1021,12 +899,12 @@
       "id": "agent-flash-over-pro-economics",
       "title": "Flash 级模型开始在 agent 负载上挑战甚至替换 Pro 档",
       "type": "emerging_signal",
-      "score": 79,
-      "confidence": "medium",
+      "score": 84,
+      "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-09-10T18:20:00+08:00",
-      "last_updated": "2026-09-11T08:20:00+08:00",
-      "summary": "「更便宜却能扛 agent/SWE 负载」的证据在增多：DeepSeek V4.1-Flash（非对称 MoE + KV/cache 经济）官方称压过 V4-Pro，并安排自 9/14 起将 deepseek-v4-pro 路由到 Flash 计价；Cognition SWE-2 称在领先 eval 上贴近 frontier、成本最多低约 70%，并在 Devin 订阅档免费试用一个月。",
+      "last_updated": "2026-09-14T08:20:00+08:00",
+      "summary": "DeepSeek 官方已排定 9/14 04:00 UTC 起 deepseek-v4-pro 全部路由到 V4.1-Flash 并按 Flash 计价；社区在窗口末用 Flash 做大规模 agent 工程（约 1.3 亿 token / ~$1）。Qwen3.8-27B 上 Cerebras 高速推理强化「快模型吃 agent 负载」叙事。今天中午（北京）是路由落地日。",
       "why_it_matters": "若 Flash/专用 SWE 档在长程 agent 上系统性更划算，默认模型阶梯、路由与 harness 选型都会改。",
       "tags": [
         "DeepSeek",
@@ -1036,6 +914,18 @@
         "MoE"
       ],
       "evidence": [
+        {
+          "url": "https://x.com/Alibaba_Qwen/status/2098676748972122394",
+          "source": "official",
+          "note": "Qwen3.8-27B 上线 Cerebras 高速推理",
+          "date": "2026-09-12T15:35:03+08:00"
+        },
+        {
+          "url": "https://x.com/jebrextech/status/2099284900150936049",
+          "source": "community",
+          "note": "社区：V4.1 Flash 130M+ tokens / ~$1.09 跑大型 agent 工程",
+          "date": "2026-09-14T07:51:37+08:00"
+        },
         {
           "url": "https://api-docs.deepseek.com/news/news260910",
           "source": "official",
@@ -1067,6 +957,68 @@
         "其他实验室是否跟进"
       ],
       "homepage": true
+    },
+    {
+      "id": "apache-maka-durable-workspace",
+      "title": "本地优先、可回放的智能体工作区开始有 Apache 级实现",
+      "type": "emerging_signal",
+      "score": 83,
+      "confidence": "high",
+      "status": "strengthening",
+      "first_detected": "2026-08-30T00:00:00+08:00",
+      "last_updated": "2026-09-04T08:57:00+08:00",
+      "summary": "apache/maka：只追加的执行记录（消息、工具、权限、终止），桌面、终端和评测共用运行时，可选电脑操控。现 4438 星（板上 4187，+137/24h）。窗口内仍在推 WebRTC peers / workhub。社区开始按执行记录和恢复来走读，而不只是当聊天框。",
+      "why_it_matters": "跑几天的智能体需要证据链。和 pydantic-ai 的持久化操作、agent-loop-guard 指向同一缺口。",
+      "tags": [
+        "智能体",
+        "可持久化",
+        "Apache",
+        "本地"
+      ],
+      "evidence": [
+        {
+          "url": "https://github.com/apache/maka",
+          "source": "github",
+          "date": "2026-09-01T08:50:00+08:00",
+          "note": "现 4324 星（板上 4187，+137/24h），Apache 孵化中；窗口内仍在推 WebRTC peers / workhub"
+        },
+        {
+          "url": "https://x.com/kamin00ntee/status/2094152200746377294",
+          "source": "community",
+          "date": "2026-08-31T00:00:00+08:00",
+          "note": "社区走读：每条模型消息、工具调用和回合结束都写成可恢复的执行记录"
+        },
+        {
+          "url": "https://github.com/apache/maka",
+          "source": "github",
+          "note": "星数核实 4438（先前 4324）；pushed_at 2026-09-02T00:13:34Z",
+          "date": "2026-09-02T08:20:00+08:00"
+        },
+        {
+          "url": "https://github.com/apache/maka",
+          "source": "github",
+          "note": "stars 4569（昨约 4438，+131）；窗口内仍有 push",
+          "date": "2026-09-03T08:15:00+08:00"
+        },
+        {
+          "url": "https://github.com/apache/maka",
+          "source": "official",
+          "note": "apache/maka ≈4649★（scan）；仍活跃推送",
+          "date": "2026-09-04T08:57:00+08:00"
+        }
+      ],
+      "watch_next": [
+        "是否支持 Linux",
+        "会不会成为本地执行记录的标准"
+      ],
+      "homepage": false,
+      "judgment_changes": [
+        {
+          "at": "2026-09-04T08:57:00+08:00",
+          "change": "星标 4569→4649；score 82→83"
+        }
+      ],
+      "notes": "Star count 2026-09-04 scan ≈4649★（昨 upsert ~4569，约 +80/24h）；仍无 Linux 基金会级公告。"
     },
     {
       "id": "voice-first-agent-interface",
