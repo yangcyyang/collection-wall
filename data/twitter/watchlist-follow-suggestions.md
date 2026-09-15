@@ -1,88 +1,72 @@
 # Twitter watchlist follow suggestions
 
-- Generated: 2026-09-12T06:16:15+08:00
+- Generated: 2026-09-16T06:06:04+08:00
 - Account: @yangcyyang1
 - Watchlist handles: 174 (skipped: bot, code)
-- Following: 456
-- Already following: 116
-- Not following: 58
+- Following: 473
+- Already following: 131
+- Not following: 41
 - Unavailable (excluded): 2
-- Suggest batch follow: 56
+- Suggest follow priority: 40 (≤40)
 
-## Suggest follow (priority order)
+## Suggest follow priority (≤40)
 
-### labs_official (13)
+### labs_official (1)
 
-- aiatmeta
-- claudeai
-- cursor_ai
-- deepseek_ai
-- googlelabs
-- grok
-- lmsysorg
-- midjourney
-- mistralai
-- openaidevs
-- runwayml
-- stabilityai
 - xai
 
-### china_labs (8)
+### china_labs (5)
 
-- baichuanai
-- hailuo_ai
-- kimi_moonshot
-- kling_ai
-- minimax_ai
-- stepfun_ai
-- waytoagi
 - zai_org
-
-### coding_agents (11)
-
-- ampcode
-- cline
-- cognition
-- factoryai
-- githubcopilot
-- langchain
-- lmstudio
-- lovable
-- openrouter
-- replit
-- vllm_project
+- stepfun_ai
+- baichuanai
+- waytoagi
+- kling_ai
 
 ### research_eng (12)
 
-- _akhaliq
-- ch402
 - darioamodei
+- ilyasutskever
+- fchollet
 - drfeifei
 - drjimfan
-- emollick
-- fchollet
-- ilyasutskever
+- ch402
 - janleike
 - lateinteraction
-- simonw
 - swyx
+- simonw
+- emollick
+- _akhaliq
+
+### coding_agents (11)
+
+- cognition
+- factoryai
+- cline
+- githubcopilot
+- lovable
+- ampcode
+- langchain
+- openrouter
+- lmstudio
+- vllm_project
+- replit
 
 ### media_av (6)
 
-- elevenlabs
 - ideogram_ai
 - krea_ai
 - pika_labs
-- suno_ai_
+- elevenlabs
 - udiomusic
+- suno_ai_
 
-### news (6)
+### news (5)
 
 - artificialanlys
-- deeplearningai
 - epochairesearch
+- deeplearningai
 - latentspacepod
-- nopriorspod
 - theturingpost
 
 ### core (0)
@@ -91,8 +75,8 @@
 
 ## Unavailable (do not follow)
 
-- `indiedevhailey` — message: Twitter profile response for @indiedevhailey is missing profile fields
-- `wareai996` — help: User @wareai996 not found
+- `indiedevhailey` — unavailable
+- `wareai996` — unavailable
 
 ## Pipeline note
 
