@@ -270,6 +270,39 @@
       "rank": 8
     },
     {
+      "id": "2099711802972278784",
+      "author": "GoSailGlobal",
+      "bio": "",
+      "text": "一条防窥膜带货视频爆了百万播放。我用 Hypit Clone 出 3 个变种：\n\nClone 1：三个角色全换，6 个切点误差 0.2 秒以内，平台不判重\nClone 2：产品不变，场景换成宿舍直播客偷窥，打年轻用户\nClone 3：强化\"看与挡\"实物演示，反派左右找角度看不到，天然喜剧\n\n同一个爆款骨架，三条完全不同的病毒视频。总成本：几美金。\n\nHypit 不是视频模型——是给 AI Agent（Claude Code、Codex）Clone 视频的开源语言。\n\n官网：https://t.co/uVlRxbzQlX\n\n⭐ 开源，免费，收藏仓库 🔗 https://t.co/xSC0ff3PBJ",
+      "created_at": "Tue Sep 15 04:07:59 +0000 2026",
+      "likes": 0,
+      "retweets": 0,
+      "replies": 0,
+      "views": "43",
+      "url": "https://x.com/i/status/2099711802972278784",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2099711768675409920/vid/avc1/320x568/jHrqZMBNzb91Stjm.mp4?tag=16"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2099711768675409920/img/61ZB6tiyDgjFcxsW.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 53.281,
+      "title": "Hypit：用开源语言让 Agent Clone 爆款视频变种",
+      "summary": "作者用 Hypit Clone 把一条防窥膜爆款带货视频拆成 3 个变种（全角色替换、场景换宿舍、强化实物演示），切点误差约 0.2 秒、平台不判重，成本约几美金；强调 Hypit 不是视频模型，而是给 Claude Code/Codex 用的开源 Clone 语言。",
+      "recommend_reason": "把「爆款骨架 + Agent Clone」讲成可复用管线，比单纯晒生成视频更有产品信息量。",
+      "tags": [
+        "Hypit",
+        "视频Clone",
+        "Agent",
+        "开源",
+        "带货"
+      ],
+      "rank": 9
+    },
+    {
       "id": "2099706954818220351",
       "author": "dashiAIxz",
       "bio": "",
@@ -296,7 +329,7 @@
         "体感",
         "评测"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "id": "2099701340641345828",
@@ -322,7 +355,7 @@
         "AGENTS.md",
         "工程纪律"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "id": "2099699506971599195",
@@ -354,7 +387,7 @@
         "法律AI",
         "获客"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "id": "2099696610620166366",
@@ -386,7 +419,49 @@
         "Codex",
         "插件开发"
       ],
-      "rank": 12
+      "rank": 13
+    },
+    {
+      "id": "2099694812454904006",
+      "author": "imwsl90",
+      "bio": "",
+      "text": "Build(Beg) in Public \n\n很多人很好奇我9月份(8.21 ~ 9-20)赚了多少钱?\n\n截至今天，我9月份赚了43336元 \n\n这个月有个外包，还可以，下个月就没了，运气的成分很大，感谢AI，感谢Claude，让我如此水的人还能做外包\n\n如果有金主爸爸需要外包，可以找我...\n\n自己赚钱很大一个缺点就是不够稳定，这个月还行，下个月不知道在哪里赚，最近一直在苦恼这个事情\n\n最近几天比较放松，开始思考十月份做什么，感觉还是要去做产品，搞商单，搞X分佣，搞社群，搞外包都不持久\n\n我应该去做些持续盈利的事情，不然要累死\n\n最近也开始发视频，争取每天发个3个\n\n发收益，主要是想做一些透明化的事情，比如一个接近10W粉丝的账号到底可以赚多少钱\n\n当然，我赚的还是辛苦钱，相比X上一晚上几十万的X友还是不值一提....",
+      "created_at": "Tue Sep 15 03:00:28 +0000 2026",
+      "likes": 16,
+      "retweets": 0,
+      "replies": 0,
+      "views": "2170",
+      "url": "https://x.com/i/status/2099694812454904006",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSObGAnaUAAyKn5.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSObGAnaUAAyKn5.png"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2099362529747382402",
+        "author": "imwsl90",
+        "name": "卫斯理",
+        "text": "看了一下个人中心\n\n截止今天基本完成了这个月收入目标\n\n可以放松一下了🎉🎉🎉",
+        "created_at": "Mon Sep 14 05:00:06 +0000 2026",
+        "url": "https://x.com/imwsl90/status/2099362529747382402",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 62.752,
+      "title": "9 月至今赚 4.3 万：外包运气大、想转持续盈利产品",
+      "summary": "作者公开 8.21–9.20 窗口截至当日收入 43336 元，承认外包运气成分大、下月不稳定，并感谢 Claude；近期在思考十月转产品/商单/分佣/社群都不持久，想做持续盈利，同时每天发视频做收益透明化。",
+      "recommend_reason": "watchlist 作者 Build in Public 晒真实月入与路径焦虑，对独立开发变现节奏有参考价值。",
+      "tags": [
+        "独立开发",
+        "BuildInPublic",
+        "Claude",
+        "变现"
+      ],
+      "rank": 14
     },
     {
       "id": "2099694617138524472",
@@ -421,7 +496,7 @@
         "Agent办公",
         "字节"
       ],
-      "rank": 13
+      "rank": 15
     },
     {
       "id": "2099694578723078633",
@@ -472,7 +547,7 @@
         "SaaS",
         "算力"
       ],
-      "rank": 14
+      "rank": 16
     },
     {
       "id": "2099688734128267673",
@@ -507,7 +582,7 @@
         "豆包",
         "Agent办公"
       ],
-      "rank": 15
+      "rank": 17
     },
     {
       "id": "2099687415879458988",
@@ -541,7 +616,34 @@
         "DeepSeek",
         "工具栈"
       ],
-      "rank": 16
+      "rank": 18
+    },
+    {
+      "id": "2099687395247755593",
+      "author": "Jiaxi_Cui",
+      "bio": "",
+      "text": "互联网上很少能看到从理性分析对各家自动驾驶模型的看法，讨论太流于表面\n\n所以本周计划写一篇文章分析各家车企是什么路线，Tesla 所谓的纯视觉是什么意思，他们与 World Model 以及 Latent Reasoning 是什么关系",
+      "created_at": "Tue Sep 15 02:30:59 +0000 2026",
+      "likes": 5,
+      "retweets": 0,
+      "replies": 0,
+      "views": "709",
+      "url": "https://x.com/i/status/2099687395247755593",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 36.431,
+      "summary": "互联网上很少能看到从理性分析对各家自动驾驶模型的看法，讨论太流于表面\n\n所以本周计划写一篇文章分析各家车企是什么路线，Tesla 所谓的纯视觉是什么意思，他们与 World Model 以及 Latent Reasoning 是什么关系",
+      "recommend_reason": "预告从 World Model / Latent Reasoning 角度拆各家智驾路线，比口号式纯视觉讨论更深一层。",
+      "tags": [
+        "自动驾驶",
+        "Tesla",
+        "WorldModel",
+        "LatentReasoning"
+      ],
+      "rank": 19
     },
     {
       "id": "2099685439720587407",
@@ -577,7 +679,7 @@
         "可控性",
         "教程"
       ],
-      "rank": 17
+      "rank": 20
     },
     {
       "id": "2099683779316973754",
@@ -620,10 +722,10 @@
         "灰度",
         "评测"
       ],
-      "rank": 18
+      "rank": 21
     }
   ],
-  "generated_at": "2026-09-15T16:07:27Z",
+  "generated_at": "2026-09-15T16:07:58Z",
   "selection": {
     "target_count": 30,
     "max_count": 30,
@@ -634,12 +736,12 @@
     "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 18,
-    "last_batch_added": 0,
-    "last_batch_skipped_dup": 8,
+    "actual_count": 21,
+    "last_batch_added": 3,
+    "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
-    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤15；单日≤30不保底；追加按id去重。",
+    "note": "midnight 追加后补回 rebase 误丢的 noon +3（GoSailGlobal/imwsl90/Jiaxi_Cui）；单日≤30不保底。",
     "short_tweet": {
       "threshold_chars": 200,
       "title_optional": true,
