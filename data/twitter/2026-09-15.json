@@ -1,0 +1,389 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-15",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2099706954818220351",
+      "author": "dashiAIxz",
+      "bio": "",
+      "text": "这就是 GPT 6 Astra 跑测试的速度，之前遇到过几次，画面快的根本没机会录屏 https://t.co/cLOsDEHMBl",
+      "created_at": "Tue Sep 15 03:48:43 +0000 2026",
+      "likes": 1,
+      "views": "22",
+      "url": "https://x.com/i/status/2099706954818220351",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2099269904210038784/vid/avc1/480x270/cchiL7299UZh7s_D.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2099269904210038784/img/rTSkZQUMLFuMK6PQ.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 70.587,
+      "summary": "这就是 GPT 6 Astra 跑测试的速度，之前遇到过几次，画面快的根本没机会录屏",
+      "recommend_reason": "用短视频直接展示 GPT-6 Astra 响应极快的体感，是新产品档位性能的一手观感证据。",
+      "tags": [
+        "GPT-6",
+        "Astra",
+        "体感",
+        "评测"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2099701340641345828",
+      "author": "dotey",
+      "bio": "",
+      "text": "最近 vibe coding 很多，尤其是额度快要重置那会，会扔一堆任务给 Agent 做，有些任务显示任务已经完成就没管了，但是隔天测试的时候发现任务没完成，回去一检查，原来给开了个 worktree，不是在 main 修改的，压根就没合并。\n\n再让 Agent 帮我集中检查了一下，还有不少这样的 worktree，让它清理了一下。\n\n最后让它在 Agents.md 加了个规则，不是说不能创建 worktree，但是不能遗漏在那里。\n\n--- 参考审查 worktree 提示词 ---\n\n帮我看看哪些worktree还没有同步到main，同步好了的直接删除，没同步的列出来：分支、修改内容摘要（含最近几次 commit）、对应 session 会话\n\n--- 参考清理 worktree 提示词 ---\n帮我看看这些worktree的内容，明确值得合并的帮我合并并清理worktree，不确认的给我确认，但是要给我清晰的建议\n\n--- 参考 AGENTS.md 规则 ---\n\n- worktree 不遗留：在 worktree 里做的任务，完成时必须删除该 worktree 及其分支。删除前二选一：合并进 `main`；或不合并时先把未提交改动提交到该分支，打 `archive/<worktree 名>` tag 存档，再 `git worktree remove` + `git branch -D`。编排 subagent 的会话负责收尾它派生的 worktree。确需保留的（待用户裁决、有冲突待解）在最终回复里点名路径与原因，不得默默留下。",
+      "created_at": "Tue Sep 15 03:26:24 +0000 2026",
+      "likes": 25,
+      "views": "6167",
+      "url": "https://x.com/i/status/2099701340641345828",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 58.16,
+      "title": "Vibe coding 别把完成态留在 worktree：补审查提示词与 AGENTS.md 规则",
+      "summary": "作者发现多任务丢给 Agent 后，不少「已完成」其实落在未合并的 worktree。他让 Agent 集中审查/清理，并在 AGENTS.md 加规则：worktree 任务收尾必须合并进 main 或打 archive tag 后删除，不得默默遗留。文中附审查、清理提示词模板。",
+      "recommend_reason": "踩过真实坑后沉淀成可复制的 Agent 工程纪律，对多 worktree/subagent 协作极有用。",
+      "tags": [
+        "vibe coding",
+        "worktree",
+        "AGENTS.md",
+        "工程纪律"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2099699506971599195",
+      "author": "jinchenma_ai",
+      "bio": "",
+      "text": "最近帮一个在律所工作的律师姐姐跑了一个 demo。\n\n她之前就找过我，说想学 AI、想提效。最近她带着一个具体需求来找我，她平时需要在大量判决书中精准找到目标案件，每次都要耗费很多时间。\n\n在我看来，这就是一个知识库加上工作流就能搞定的事情。我把这个 demo 演示给她看，她说这就是她想要的东西。\n\n所以我觉得，大家如果想用 AI 赚点小钱，真的可以从你周围那些不太懂 AI 的朋友身上，找到一些切入点。\n\n经常跟同行交流，你会有一种错觉，以为世界上大部分人都会用 AI 了。\n\n但现实恰恰相反。",
+      "created_at": "Tue Sep 15 03:19:07 +0000 2026",
+      "likes": 5,
+      "views": "320",
+      "url": "https://x.com/i/status/2099699506971599195",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSOaXzbbQAAi3s4.jpg",
+        "https://pbs.twimg.com/media/HSOgGssbwAAstdx.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSOaXzbbQAAi3s4.jpg",
+        "https://pbs.twimg.com/media/HSOgGssbwAAstdx.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 45.616,
+      "title": "律师判决书检索：知识库+工作流 demo 比「先学 AI」更有效",
+      "summary": "作者帮律所律师做判决书精准检索 demo：对方原想学 AI，带着具体需求后用知识库+工作流很快对齐预期。结论是想用 AI 赚钱，可从身边不懂 AI 的人找具体切入点；同行交流会误判「大家都已会用 AI」。",
+      "recommend_reason": "把「教 AI」换成「解具体工作流痛点」的落地案例，对垂直场景获客有启发。",
+      "tags": [
+        "知识库",
+        "工作流",
+        "法律AI",
+        "获客"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2099696610620166366",
+      "author": "vista8",
+      "bio": "",
+      "text": "把近两周开发Obsidian插件的经验写成了一个Skill。\n\n开发新插件前，会先查官方 API，再研究 GitHub同类开源项目。\n\n从开发、测试到自动上架，只需说想要什么插件，发给Codex就能完成。\n\nSkill安装指令：\nnpx skills add joeseesun/qiaomu-obsidian-dev\n\n欢迎用它开发你的第一个OB插件并上架。 https://t.co/eljfNrYUGj",
+      "created_at": "Tue Sep 15 03:07:37 +0000 2026",
+      "likes": 9,
+      "views": "1621",
+      "url": "https://x.com/i/status/2099696610620166366",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSOezYTagAAiUlk.jpg",
+        "https://pbs.twimg.com/media/HSOe7PEakAAydM_.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSOezYTagAAiUlk.jpg",
+        "https://pbs.twimg.com/media/HSOe7PEakAAydM_.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 59.936,
+      "title": "把 Obsidian 插件开发经验做成 Skill，Codex 可一路做到上架",
+      "summary": "作者将近两周 Obsidian 插件开发经验写成 Skill：先查官方 API、再研究 GitHub 同类项目，从开发、测试到自动上架，描述需求后交给 Codex 即可完成。安装：npx skills add joeseesun/qiaomu-obsidian-dev。",
+      "recommend_reason": "把可复用工程经验封装成可安装 Skill，是 Agent 时代「能力资产化」的具体例子。",
+      "tags": [
+        "Obsidian",
+        "Skill",
+        "Codex",
+        "插件开发"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2099694617138524472",
+      "author": "AlchainHust",
+      "bio": "",
+      "text": "来飞书x豆包工作大会转转...感觉梁汝波和谢欣都还挺产品/技术思维的，而不是那种市场销售型的一号位，能听到他们怎么看待agent时代办公方式的有价值的思考 https://t.co/Zvav6ilBne",
+      "created_at": "Tue Sep 15 02:59:41 +0000 2026",
+      "likes": 1,
+      "views": "699",
+      "url": "https://x.com/i/status/2099694617138524472",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSOdC8rXYAArkmC.jpg",
+        "https://pbs.twimg.com/media/HSOdC8jWcAE7OQs.jpg",
+        "https://pbs.twimg.com/media/HSOdC8rWMAA9nH9.jpg",
+        "https://pbs.twimg.com/media/HSOdC8sWAAA4Lao.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSOdC8rXYAArkmC.jpg",
+        "https://pbs.twimg.com/media/HSOdC8jWcAE7OQs.jpg",
+        "https://pbs.twimg.com/media/HSOdC8rWMAA9nH9.jpg",
+        "https://pbs.twimg.com/media/HSOdC8sWAAA4Lao.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 54.199,
+      "summary": "来飞书x豆包工作大会转转...感觉梁汝波和谢欣都还挺产品/技术思维的，而不是那种市场销售型的一号位，能听到他们怎么看待agent时代办公方式的有价值的思考",
+      "recommend_reason": "一线参会者对字节高管产品/技术取向的观察，可与梁汝波现身同一事件交叉阅读。",
+      "tags": [
+        "飞书",
+        "豆包",
+        "Agent办公",
+        "字节"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2099694578723078633",
+      "author": "yijiangren",
+      "bio": "",
+      "text": "AI 三巨头一起踩刹车，造就了软件股的机会\n\n周末 AI 圈发生了一件事。\n\nAnthropic CEO Dario Amodei 公开发表《We Must Pace the Frontier》，提出应该主动降低前沿 AI 能力提升的速度。\n随后，Sam Altman 与 Elon Musk 都公开表达了赞同。\n\n三个长期互相竞争的 AI 阵营，突然同时开始讨论“踩刹车”。\n市场周一立刻给出了自己的理解：芯片跌，软件涨。\n\n这个交易方向，其实有很清楚的逻辑。\n过去几年 AI 最大的一笔钱，都花在了“让模型变得更强”上。\n更大的集群、更先进的 GPU、更多 HBM、更高速的光模块和网络设备，再往下延伸到服务器、电力、散热。\n整个 AI 硬件牛市，本质上都建立在一个预期上：下一代模型需要更多算力，下一代之后还需要更多。\n\n现在，这个预期第一次出现了一条裂缝。\nAmodei 提出的“pacing”，核心是让模型能力提升的速度慢下来，给安全、对齐、评估留下更多时间。\n\n所以市场自然会继续往后推演\n\n模型迭代如果变慢\n训练需求的增长斜率就可能下降\n训练需求下降\nGPU、HBM、光互联和数据中心的远期需求，也要重新估值\nReuters 对周一市场的描述已经非常直接：资金正在从芯片板块向软件板块轮动。\n但这里有一个非常重要的细节。\n\nAmodei 原文明确解释，所谓 pacing，并不意味着停止模型训练或者停止技术进步，更多是降低前沿能力推进的速度，并增加安全验证环节。\n所以不能理解成“AI 硬件周期结束”。\n更准确的变化，是市场开始重新审视一个过去很少有人敢问的问题：这么多算力，最后到底怎么赚钱？\n\n这也是为什么轮到软件了。\n过去一年，SaaS 最大的阴影恰恰来自 AI。\n\n大家担心 Agent 越来越强以后，Salesforce、ServiceNow、Adobe 这些传统软件的工作流会被模型直接吞掉。\n所以很多 SaaS 公司利润还在增长，估值却一直被压着。\n现在情况出现了微妙变化。\n如果前沿模型进入一个相对克制的阶段，模型能力快速跃迁带来的“软件淘汰速度”也会放缓。\n与此同时，已经训练出来的 AI 仍然需要真正进入企业。\n\n客服、销售、设计、代码、安全、数据分析、办公流程\n接下来资本市场关注的重点，很可能逐渐从谁能训练出更大的模型\n转向谁能把现在的模型变成收入。\n\n这一阶段的软件、网络安全、企业服务，反而可能成为最大的受益者。\n周一的盘面已经有一点这种味道。\n\n半导体承压的同时， $CRWD 、 $PANW  等网络安全公司大涨，软件板块相对半导体的单日超额表现达到非常罕见的水平。\n所以接下来我会把 AI 分成两条线看。\n\n过去几年最强的是\n模型 → 算力 → GPU → HBM → 光模块 → 数据中心\n\n未来一段时间，市场可能慢慢开始交易\n模型 → Agent → 软件 → 安全 → 企业生产力 → 现金流\n\n这并不意味着 NVDA、 $MU 、 $MRVL  这些公司的需求会突然消失。\n真正发生变化的是它们身上的估值逻辑。\n\n以前市场愿意相信算力需求可以无限向上外推。\n以后市场会问增长还能维持多久？\n\n而软件公司面对的问题恰好反了过来。\n\n过去市场一直在问AI 会不会把你干掉？\n接下来可能开始问AI 能不能帮你多赚钱？\n\n如果这个叙事真的完成切换，2026 年下半年的 AI 行情，可能会和过去三年很不一样。\n\n硬件负责把 AI 建起来\n接下来，轮到应用层证明这几万亿美元的基础设施，究竟值不值这么多钱",
+      "created_at": "Tue Sep 15 02:59:32 +0000 2026",
+      "likes": 10,
+      "views": "957",
+      "url": "https://x.com/i/status/2099694578723078633",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSOcoYQbsAEKs4T.jpg",
+        "https://pbs.twimg.com/media/HSOdEhpaIAALE_3.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSOcoYQbsAEKs4T.jpg",
+        "https://pbs.twimg.com/media/HSOdEhpaIAALE_3.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2099682269342626249",
+        "author": "yijiangren",
+        "name": "Metamental | 方外之域",
+        "text": "大压抑时代下的男性四大理论\n\n@justinsuntron 新孙学理论\n黄毛 薄肌 孙学\n\n@AlanShao111 薄肌理论\n薄肌 薄肌 还是薄肌\n\n抖音 Vittorioo V哥的帅哥理论\n1.身高180以上\n2.香水\n3.独自出国旅游\n4.用英语流利表达自己的想法\n\n我的三建理论\n 今年三四月提出来 在墙内的社交媒体上已经被抄疯了\n建模 健身 建仓",
+        "created_at": "Tue Sep 15 02:10:37 +0000 2026",
+        "url": "https://x.com/yijiangren/status/2099682269342626249",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HSOReqJaYAAJ8rW.png",
+          "https://pbs.twimg.com/media/HSORhNybUAAZR7U.png",
+          "https://pbs.twimg.com/media/HSORqsGbgAAqqJD.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HSOReqJaYAAJ8rW.png",
+          "https://pbs.twimg.com/media/HSORhNybUAAZR7U.png",
+          "https://pbs.twimg.com/media/HSORqsGbgAAqqJD.jpg"
+        ]
+      },
+      "score": 60.578,
+      "title": "Anthropic 提 pacing，三巨头同调踩刹车，市场叙事转向应用与现金流",
+      "summary": "Anthropic CEO Amodei 发文主张放缓前沿能力推进；Altman、Musk 公开赞同。市场周一解读为芯片承压、软件与网络安全走强。作者强调 pacing 不是停训，而是降速并加强安全验证；未来交易逻辑可能从「模型→算力→硬件」切到「Agent→软件→企业收入」。",
+      "recommend_reason": "把周末安全叙事与周一资金轮动串成清晰产业框架，适合理解「踩刹车」后 AI 行情重心是否下移到应用层。",
+      "tags": [
+        "Anthropic",
+        "AI安全",
+        "产业",
+        "SaaS",
+        "算力"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2099688734128267673",
+      "author": "xiaohu",
+      "bio": "",
+      "text": "字节CEO突然出现在飞书X豆包工作大会\n\n客串了十分钟🙂\n\n重点说了飞书的对字节重要性和在AI时代的不可替代性，似乎是回应了外界对飞书在字节地位下降的猜测\n\n地位并没有下降而且更重要了… https://t.co/fhzVvnq3Wt",
+      "created_at": "Tue Sep 15 02:36:19 +0000 2026",
+      "likes": 14,
+      "views": "10660",
+      "url": "https://x.com/i/status/2099688734128267673",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSOXwS6aUAA7zJq.jpg",
+        "https://pbs.twimg.com/media/HSOXwSuaQAAh5tp.jpg",
+        "https://pbs.twimg.com/media/HSOXwSvaAAACf_j.jpg",
+        "https://pbs.twimg.com/media/HSOXwSxbMAAb_cS.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSOXwS6aUAA7zJq.jpg",
+        "https://pbs.twimg.com/media/HSOXwSuaQAAh5tp.jpg",
+        "https://pbs.twimg.com/media/HSOXwSvaAAACf_j.jpg",
+        "https://pbs.twimg.com/media/HSOXwSxbMAAb_cS.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 58.619,
+      "summary": "字节CEO突然出现在飞书X豆包工作大会\n\n客串了十分钟🙂\n\n重点说了飞书的对字节重要性和在AI时代的不可替代性，似乎是回应了外界对飞书在字节地位下降的猜测\n\n地位并没有下降而且更重要了…",
+      "recommend_reason": "梁汝波现身飞书×豆包大会并强调飞书在 AI 时代的战略地位，是字节内部产品叙事的一手信号。",
+      "tags": [
+        "字节",
+        "飞书",
+        "豆包",
+        "Agent办公"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2099687415879458988",
+      "author": "imwsl90",
+      "bio": "",
+      "text": "计划后续使用opencode + deepseek \n\n我感觉我那点三脚猫的需求，deepseek v4.1 pro都能轻松应付",
+      "created_at": "Tue Sep 15 02:31:04 +0000 2026",
+      "likes": 4,
+      "views": "2251",
+      "url": "https://x.com/i/status/2099687415879458988",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2099681924059128090",
+        "author": "imwsl90",
+        "name": "卫斯理",
+        "text": "早上出现一个操作失误\n\n可能会导致我无法使用claude \n\n唉....",
+        "created_at": "Tue Sep 15 02:09:15 +0000 2026",
+        "url": "https://x.com/imwsl90/status/2099681924059128090",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 49.939,
+      "summary": "计划后续使用opencode + deepseek\n\n我感觉我那点三脚猫的需求，deepseek v4.1 pro都能轻松应付",
+      "recommend_reason": "个人工具栈切换意向：opencode + DeepSeek，反映国产模型在轻量本地/CLI 场景的性价比叙事。",
+      "tags": [
+        "OpenCode",
+        "DeepSeek",
+        "工具栈"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2099685439720587407",
+      "author": "YangGuangAI",
+      "bio": "",
+      "text": "这是一篇用 GPT6来提高AI 视频可控性的教程，核心思路是通过 GPT+blender 构建白模视频，然后提供给 sd2.5.\n\n提高AI 视频的可控性是创作者领域一直在探索尝试的痛点，相信以后还会有更多实用的教程玩法，而最终AI视频将会是创作领域的必备技能之一。",
+      "created_at": "Tue Sep 15 02:23:13 +0000 2026",
+      "likes": 6,
+      "views": "272",
+      "url": "https://x.com/i/status/2099685439720587407",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2099124935285461329",
+        "author": "TanLuAI",
+        "name": "探路AI",
+        "text": "https://t.co/8ZZof8Ewie",
+        "created_at": "Sun Sep 13 13:15:59 +0000 2026",
+        "url": "https://x.com/TanLuAI/status/2099124935285461329",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 60.355,
+      "summary": "这是一篇用 GPT6来提高AI 视频可控性的教程，核心思路是通过 GPT+blender 构建白模视频，然后提供给 sd2.5。\n\n提高AI 视频的可控性是创作者领域一直在探索尝试的痛点，相信以后还会有更多实用的教程玩法，而最终AI视频将会是创作领域的必备技能之一。",
+      "recommend_reason": "给出 GPT-6 + Blender 白模再喂视频模型的可控性路径，直击创作者痛点，可操作性强。",
+      "tags": [
+        "GPT-6",
+        "AI视频",
+        "Blender",
+        "可控性",
+        "教程"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2099683779316973754",
+      "author": "dotey",
+      "bio": "",
+      "text": "有传闻说 Opus 5.2 在灰度，我测试了一下，似乎并没有\n\n提示词：\nCreate an HTML file with an animated 2D SVG of a pelican riding a bicycle. https://t.co/y3cTSM8nC2",
+      "created_at": "Tue Sep 15 02:16:37 +0000 2026",
+      "likes": 6,
+      "views": "10000",
+      "url": "https://x.com/i/status/2099683779316973754",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/tweet_video/HSOTPTmWUAIhGr4.mp4"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/tweet_video_thumb/HSOTPTmWUAIhGr4.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2099568130037350647",
+        "author": "chetaslua",
+        "name": "Chetaslua",
+        "text": "🚨 Claude Opus 5.2 currently being tested inside claude code \n\n&gt; opus 5 is routing to new opus 5.2 \n&gt; this one shot &lt; but opus was re iterating like it was trained on @mattshumer_ gauntlet loop without even asking it was looping &gt; https://t.co/6M2JhtSuVv",
+        "created_at": "Mon Sep 14 18:37:04 +0000 2026",
+        "url": "https://x.com/chetaslua/status/2099568130037350647",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2099567613479419904/vid/avc1/386x270/M-aZRCnnaJEE6TaL.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2099567613479419904/img/3ChtORGnjst1SlCD.jpg"
+        ]
+      },
+      "score": 56.783,
+      "summary": "有传闻说 Opus 5.2 在灰度，我测试了一下，似乎并没有\n\n提示词：\nCreate an HTML file with an animated 2D SVG of a pelican riding a bicycle.",
+      "recommend_reason": "用经典 pelican 自行车题做灰度探测，结论「似乎没有」，是模型版本传闻的低成本证伪样本。",
+      "tags": [
+        "Claude",
+        "Opus",
+        "灰度",
+        "评测"
+      ],
+      "rank": 10
+    }
+  ],
+  "generated_at": "2026-09-15T04:04:32Z",
+  "selection": {
+    "target_count": 30,
+    "max_count": 30,
+    "per_run_max": 15,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 10,
+    "last_batch_added": 10,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤15；单日≤30不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
