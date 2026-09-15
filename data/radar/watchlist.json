@@ -1,18 +1,19 @@
 {
   "source": "ai-frontier-radar",
   "title": "观察名单",
-  "updated_at": "2026-09-14T08:20:00+08:00",
-  "count": 19,
+  "updated_at": "2026-09-15T08:20:00+08:00",
+  "count": 23,
   "items": [
     {
       "id": "agent-computer-category",
       "title": "beafk、useagent、vicoa 谁先做出离开后还在跑",
-      "why": "Claude 后台 CU + Astra CU 扩量 + Grok Bot Enterprise；beafk/useagent/Murmell 与企业 Bot 谁定义默认长期电脑",
+      "why": "Aside（本地 agent 浏览器+AFK）加入竞争面；叠加豆包手机助手/SAEP 与既有 beafk/useagent。",
       "since": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-11T08:20:00+08:00",
+      "last_updated": "2026-09-15T08:20:00+08:00",
       "status": "watching",
       "related_signals": [
-        "agent-persistent-computer"
+        "agent-persistent-computer",
+        "physical-mcp-mhs"
       ]
     },
     {
@@ -29,11 +30,11 @@
     },
     {
       "id": "anthropic-limits-sep14",
-      "title": "Claude Code 9 月 14 日限额落地与用量可见性",
-      "why": "产能在给编程智能体定价；今天为生效日：临时 +50% 周限额结束，改为相对原标准永久 +25%（相对当前约 −17%）",
+      "title": "Claude Code 限额落地后的用量可见性与团队配额",
+      "why": "9/14 节点已过；继续观察限额是否引发 harness/多账号绕过与官方用量面板改进。",
       "since": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-14T08:20:00+08:00",
-      "status": "due_today",
+      "last_updated": "2026-09-15T08:20:00+08:00",
+      "status": "watching",
       "related_signals": [
         "coding-agent-supply-chain",
         "harness-control-plane"
@@ -51,16 +52,15 @@
       ]
     },
     {
-      "id": "astra-checkpoint",
-      "title": "Astra 内部检查点传闻",
-      "why": "已官方确认：Astra 达 Critical 并准备发布（见信号 critical-cyber-gated-deployment）。观察名单关闭。",
-      "since": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-02T08:20:00+08:00",
-      "status": "closed",
-      "confidence": "high",
+      "id": "aside-agent-browser",
+      "title": "Aside 能否从 PH 热度变成默认可信 agent 浏览器",
+      "why": "passkey 隔离 + AFK + MCP 交接叙事完整，需看留存与企业采用",
+      "since": "2026-09-15T08:20:00+08:00",
+      "last_updated": "2026-09-15T08:20:00+08:00",
+      "status": "watching",
       "related_signals": [
-        "critical-cyber-gated-deployment",
-        "recursive-alignment-loop"
+        "agent-persistent-computer",
+        "harness-control-plane"
       ]
     },
     {
@@ -76,6 +76,17 @@
       ]
     },
     {
+      "id": "claude-ria-skills-uptake",
+      "title": "Claude for Financial Advisors 在 RIA 栈的真实接入",
+      "why": "垂直 skills 分发是否打穿托管/CRM；对照 OpenAI Financial Services",
+      "since": "2026-09-15T08:20:00+08:00",
+      "last_updated": "2026-09-15T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "skills-as-distribution"
+      ]
+    },
+    {
       "id": "cursor-openai-nov12",
       "title": "Cursor 与 OpenAI 11 月 12 日切断",
       "why": "日期还在不在；Astra 已 API+AWS，是否进 Cursor 仍未知；自托管+Vercel 沙箱让运行时更不绑单一模型供应商",
@@ -85,18 +96,6 @@
       "related_signals": [
         "coding-agent-supply-chain",
         "harness-control-plane"
-      ]
-    },
-    {
-      "id": "deepseek-pro-flash-routing",
-      "title": "DeepSeek Pro→Flash 路由（今日 12:00 北京 / 04:00 UTC）",
-      "why": "官方排定今日切流；扫描时（08:00 CST）尚未执行，中午前验证是否默认 Flash-over-Pro",
-      "since": "2026-09-10T18:20:00+08:00",
-      "last_updated": "2026-09-14T08:20:00+08:00",
-      "status": "due_today",
-      "confidence": "high",
-      "related_signals": [
-        "agent-flash-over-pro-economics"
       ]
     },
     {
@@ -126,18 +125,6 @@
       "last_updated": "2026-09-11T08:20:00+08:00"
     },
     {
-      "id": "grok-4-7",
-      "title": "Grok 4.7 延期：Musk「再煮几天」（RL 长度惩罚）",
-      "why": "错过约 Sep 12 估计；9/11 称需更多 RL 调参（过早放弃难题 / 自检不足）；x.ai 仍无 4.7 正式卡",
-      "since": "2026-09-04T08:57:00+08:00",
-      "last_updated": "2026-09-14T08:20:00+08:00",
-      "status": "slipped",
-      "confidence": "medium",
-      "related_signals": [
-        "coding-agent-supply-chain"
-      ]
-    },
-    {
       "id": "hy4-rsi-verify",
       "title": "Hy4 递归自改进声明能否被第三方复现",
       "why": "训练侧自我改进若成立，会改变开源模型叙事。PH 第三次以 hunyuan-a13b 上架只是分发，仍无第三方 RSI 复现",
@@ -155,18 +142,6 @@
       "since": "2026-08-30T00:00:00+08:00",
       "last_updated": "2026-09-01T08:50:00+08:00",
       "status": "watching"
-    },
-    {
-      "id": "meta-project-hatch",
-      "title": "Meta Project Hatch → Muse 已正式发布",
-      "why": "2026-09-08 Meta 官方发布 Muse（Secure VM），Hatch 泄漏线关闭；后续看 Confidential VM 与全球扩量。",
-      "since": "2026-08-31T08:45:00+08:00",
-      "last_updated": "2026-09-10T18:20:00+08:00",
-      "status": "closed",
-      "confidence": "low",
-      "related_signals": [
-        "agent-persistent-computer"
-      ]
     },
     {
       "id": "muse-confidential-vm",
@@ -193,6 +168,18 @@
       ]
     },
     {
+      "id": "openai-safety-cases-public",
+      "title": "OpenAI frontier RL safety cases 是否公开或第三方复审",
+      "why": "Altman 已确认写 safety cases；缺模板/审计可见性则仍是口头门控",
+      "since": "2026-09-15T08:20:00+08:00",
+      "last_updated": "2026-09-15T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "frontier-pacing-embedded-evaluators",
+        "recursive-alignment-loop"
+      ]
+    },
+    {
       "id": "outcome-priced-agents",
       "title": "OpenAI 企业智能体按结果付费传闻",
       "why": "聚合号称企业成功才付费、失败由 OpenAI 吃算力；无官方确认。若属实会改商业模式。",
@@ -205,13 +192,25 @@
     {
       "id": "pace-embedded-evaluators",
       "since": "2026-09-14T08:20:00+08:00",
-      "last_updated": "2026-09-14T08:20:00+08:00",
+      "last_updated": "2026-09-15T08:20:00+08:00",
       "title": "Anthropic/OpenAI 嵌入式第三方评估者何时真正进驻",
-      "why": "Pace 承诺的可核验性取决于 METR 类评估方是否获得员工级常驻访问",
+      "why": "Altman 已披露 frontier RL 前写 safety cases；仍待第三方评估者真正进驻与可公开模板。",
       "status": "watching",
       "related_signals": [
         "frontier-pacing-embedded-evaluators",
         "recursive-alignment-loop"
+      ]
+    },
+    {
+      "id": "saep-app-adoption",
+      "title": "主流 App 是否接入豆包 SAEP 声明",
+      "why": "SAEP 若只有 ROM 侧而无 App 声明，手机 GUI agent 边界仍难规模化",
+      "since": "2026-09-15T08:20:00+08:00",
+      "last_updated": "2026-09-15T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "physical-mcp-mhs",
+        "agent-persistent-computer"
       ]
     },
     {
@@ -225,6 +224,55 @@
         "agent-flash-over-pro-economics"
       ],
       "last_updated": "2026-09-11T08:20:00+08:00"
+    },
+    {
+      "id": "astra-checkpoint",
+      "title": "Astra 内部检查点传闻",
+      "why": "已官方确认：Astra 达 Critical 并准备发布（见信号 critical-cyber-gated-deployment）。观察名单关闭。",
+      "since": "2026-08-29T00:00:00+08:00",
+      "last_updated": "2026-09-02T08:20:00+08:00",
+      "status": "closed",
+      "confidence": "high",
+      "related_signals": [
+        "critical-cyber-gated-deployment",
+        "recursive-alignment-loop"
+      ]
+    },
+    {
+      "id": "deepseek-pro-flash-routing",
+      "title": "DeepSeek Pro→Flash 路由（今日 12:00 北京 / 04:00 UTC）",
+      "why": "已于 2026-09-14 04:00 UTC 切流：deepseek-v4-pro → V4.1-Flash 全量路由并按 Flash 计价。",
+      "since": "2026-09-10T18:20:00+08:00",
+      "last_updated": "2026-09-15T08:20:00+08:00",
+      "status": "closed",
+      "confidence": "high",
+      "related_signals": [
+        "agent-flash-over-pro-economics"
+      ]
+    },
+    {
+      "id": "grok-4-7",
+      "title": "Grok 4.7 延期：Musk「再煮几天」（RL 长度惩罚）",
+      "why": "错过约 Sep 12 估计；9/11 称需更多 RL 调参（过早放弃难题 / 自检不足）；x.ai 仍无 4.7 正式卡",
+      "since": "2026-09-04T08:57:00+08:00",
+      "last_updated": "2026-09-14T08:20:00+08:00",
+      "status": "slipped",
+      "confidence": "medium",
+      "related_signals": [
+        "coding-agent-supply-chain"
+      ]
+    },
+    {
+      "id": "meta-project-hatch",
+      "title": "Meta Project Hatch → Muse 已正式发布",
+      "why": "2026-09-08 Meta 官方发布 Muse（Secure VM），Hatch 泄漏线关闭；后续看 Confidential VM 与全球扩量。",
+      "since": "2026-08-31T08:45:00+08:00",
+      "last_updated": "2026-09-10T18:20:00+08:00",
+      "status": "closed",
+      "confidence": "low",
+      "related_signals": [
+        "agent-persistent-computer"
+      ]
     }
   ]
 }

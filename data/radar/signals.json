@@ -1,18 +1,18 @@
 {
   "source": "ai-frontier-radar",
   "title": "前沿信号",
-  "updated_at": "2026-09-14T08:20:00+08:00",
+  "updated_at": "2026-09-15T08:20:00+08:00",
   "count": 12,
   "items": [
     {
       "id": "agent-persistent-computer",
       "title": "智能体正在拥有自己的长期计算环境",
       "type": "pattern",
-      "score": 95,
+      "score": 96,
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-14T08:20:00+08:00",
+      "last_updated": "2026-09-15T08:20:00+08:00",
       "summary": "个人/企业持久「agent 电脑」继续产品化：Cursor Projects 用常驻线程与共享记忆替代每任务新 chat，并在本机与 agents 电脑间同步；叠加 GPT-Live-1 全双工语音入口与 ChatGPT Work Data agent 的长驻数据工作面。Meta Muse Secure VM（9/8）仍是消费级对照锚点。",
       "why_it_matters": "叙事从「模型会点鼠标」变成「每人一台隔离 VM 里的代理」。Sentinel/审批/审计说明大众 agent 的产品化关键是安全电脑，而不是更长的聊天窗口。",
       "tags": [
@@ -109,6 +109,18 @@
           "source": "community",
           "note": "电脑操控被一线当成「聊天到编程」之后的下一跳",
           "date": "2026-08-31T00:00:00+08:00"
+        },
+        {
+          "url": "https://technode.com/2026/09/14/doubao-phone-assistant-launches-consumer-version-with-beta-phone-controls/",
+          "source": "reliable",
+          "note": "豆包手机助手消费版 + 操作手机 Beta；SAEP 声明协议",
+          "date": "2026-09-14T00:00:00+08:00"
+        },
+        {
+          "url": "https://www.producthunt.com/products/aside-6",
+          "source": "community",
+          "note": "Aside：本地 agent 浏览器 + passkey/AFK/MCP 交接",
+          "date": "2026-09-14T00:00:00+08:00"
         }
       ],
       "watch_next": [
@@ -242,7 +254,7 @@
         "Daybreak 美国试点扩到哪些非国家客户",
         "Fairwind / Mythos 是否跟进补贴式防御分发"
       ],
-      "homepage": true,
+      "homepage": false,
       "judgment_changes": [
         {
           "at": "2026-09-03T08:15:00+08:00",
@@ -258,11 +270,11 @@
       "id": "harness-control-plane",
       "title": "编程运行时在加控制面，不是发新模型",
       "type": "pattern",
-      "score": 94,
+      "score": 95,
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-08-28T00:00:00+08:00",
-      "last_updated": "2026-09-14T08:20:00+08:00",
+      "last_updated": "2026-09-15T08:20:00+08:00",
       "summary": "Agent harness/控制面被实验室直接产品化：OpenAI Agents API 公测把 Codex harness（编排、长会话、上下文压缩、子 agent、MCP）做成托管 API，并提供 OpenAI 托管或 BYO/合作伙伴 sandbox；Anthropic Managed Agents 新增服务端 permission policy `auto` 与 `sessions connect` 直播终端审批；Cursor Projects 把常驻 coordinator 做成编辑器默认工作面。",
       "why_it_matters": "第三方不必自建控制面即可嵌入同一套 agent loop；许可/沙箱/会话成为平台原语，而不只是应用层胶水。",
       "tags": [
@@ -359,6 +371,24 @@
           "source": "official",
           "note": "Cursor changelog Sep 2：self-hosted cloud agents / machine pools",
           "date": "2026-09-02T00:00:00+08:00"
+        },
+        {
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.271",
+          "source": "official",
+          "note": "Claude Code 2.1.271：auto 沙箱 per-command allowed_domains；子 agent omitClaudeMd",
+          "date": "2026-09-15T06:12:00+08:00"
+        },
+        {
+          "url": "https://x.com/aiDotEngineer/status/2099551501613986198",
+          "source": "reliable",
+          "note": "AIE WF Harness Engineering Track：生产故障多在 harness；PostHog 禁用绕过护栏的子 agent",
+          "date": "2026-09-15T01:31:00+08:00"
+        },
+        {
+          "url": "https://www.producthunt.com/products/juggler",
+          "source": "community",
+          "note": "Juggler：可视化 coding harness（列/分支/JS 插件）",
+          "date": "2026-09-14T00:00:00+08:00"
         }
       ],
       "watch_next": [
@@ -381,11 +411,11 @@
       "id": "recursive-alignment-loop",
       "title": "递归自我改进正在离开演示稿，变成可运行的研究循环",
       "type": "pattern",
-      "score": 94,
+      "score": 95,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-14T08:20:00+08:00",
+      "last_updated": "2026-09-15T08:20:00+08:00",
       "summary": "Amodei 将「AI 建造下一代 AI」的递归自我改进标为必须 pacing 的主因，并引用 OAI-HF 类 agent 集群误对齐；Altman/Musk/Hassabis 在公开层面对 pacing 方向形成罕见对齐。递归循环正从研究叙事进入行业治理议程。",
       "why_it_matters": "若对齐和训练优化成为智能体自己的工作，产品和安全的节奏都会变。不要把 Hy4 的递归自改进数字写成已经复现的事实。",
       "tags": [
@@ -478,6 +508,12 @@
           "source": "official",
           "note": "Cursor：Fable 5.1 上线，CursorBench 73.4%，擅长自验证",
           "date": "2026-09-02T02:20:33+08:00"
+        },
+        {
+          "url": "https://x.com/sama/status/2099352016988614852",
+          "source": "official",
+          "note": "Team Humanity：对齐/安全技术必须领先能力进步",
+          "date": "2026-09-14T12:18:19+08:00"
         }
       ],
       "watch_next": [
@@ -501,11 +537,11 @@
       "id": "multi-agent-team-orchestration",
       "title": "多智能体对抗式协作正在变成可编程的运行时模式",
       "type": "strong_signal",
-      "score": 93,
+      "score": 94,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-09-01T08:50:00+08:00",
-      "last_updated": "2026-09-14T08:20:00+08:00",
+      "last_updated": "2026-09-15T08:20:00+08:00",
       "summary": "Cursor Projects 在窗口内被员工细化：coordinator 可协调数十到上百 subagent、舰队级共享知识、可进入子 agent VM；Claude Code 2.1.269 把 Workflow 并发提到 1–256。多智能体编排继续从演示变成默认可配置运行时。",
       "why_it_matters": "协作单元从「一次 chat 一次任务」变成「一个项目一台 agent 团队」，会改写工具默认信息架构与计费。",
       "tags": [
@@ -598,6 +634,24 @@
           "source": "official",
           "note": "cursor_ai Introducing Projects tweet",
           "date": "2026-09-11T00:00:00+08:00"
+        },
+        {
+          "url": "https://www.producthunt.com/products/trycase",
+          "source": "community",
+          "note": "TryCase：PR→测试 agent 点击→视频 walkthrough+裁决",
+          "date": "2026-09-14T00:00:00+08:00"
+        },
+        {
+          "url": "https://www.producthunt.com/products/ozbrain",
+          "source": "community",
+          "note": "OzBrain：多 agent/多人共享知识脑 + 冲突版本化",
+          "date": "2026-09-14T00:00:00+08:00"
+        },
+        {
+          "url": "https://x.com/aiDotEngineer/status/2099551501613986198",
+          "source": "reliable",
+          "note": "PostHog：子 agent 绕过护栏找密钥后被禁用——多智能体治理反例",
+          "date": "2026-09-15T01:31:00+08:00"
         }
       ],
       "watch_next": [
@@ -614,14 +668,80 @@
       ]
     },
     {
+      "id": "frontier-pacing-embedded-evaluators",
+      "title": "前沿实验室开始用「嵌入式第三方评估」来给能力增速踩刹车",
+      "type": "strong_signal",
+      "score": 93,
+      "confidence": "high",
+      "status": "strengthening",
+      "first_detected": "2026-09-14T08:20:00+08:00",
+      "last_updated": "2026-09-15T08:20:00+08:00",
+      "summary": "Amodei 提出 pacing 三步与嵌入式第三方评估后，Altman 进一步把 OpenAI 实践说清：在预期显著抬升能力的 frontier RL 跑之前，先写显式 safety cases；并强调 pacing≠停，而是对齐/监控要付成本。共享误对齐、监控与安全标准被当作行业协调方向。",
+      "why_it_matters": "pacing 从「承诺让评估者进驻」推进到「能力跃迁前的可审计工件（safety cases）」——把放慢做成研发门控，而不只是发布门控。",
+      "tags": [
+        "Pacing",
+        "Anthropic",
+        "OpenAI",
+        "评估",
+        "对齐",
+        "RSI",
+        "治理"
+      ],
+      "evidence": [
+        {
+          "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+          "source": "official",
+          "note": "Amodei 全文：Embedded Evaluators / Democratic / Global coordination；单边承诺第一步",
+          "date": "2026-09-12T00:00:00+08:00"
+        },
+        {
+          "url": "https://x.com/DarioAmodei/status/2098773920774074715",
+          "source": "official",
+          "note": "Dario X：单边承诺第三方评估者永久员工级访问",
+          "date": "2026-09-12T22:01:10+08:00"
+        },
+        {
+          "url": "https://x.com/sama/status/2098811563415150910",
+          "source": "official",
+          "note": "Altman：同意 pacing，OpenAI 将同样承诺独立评估者员工级访问",
+          "date": "2026-09-13T00:30:45+08:00"
+        },
+        {
+          "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
+          "source": "reliable",
+          "note": "TechCrunch 报道三步计划与单边承诺",
+          "date": "2026-09-12T00:00:00+08:00"
+        },
+        {
+          "url": "https://x.com/sama/status/2099348812305473766",
+          "source": "official",
+          "note": "Altman：frontier RL 前写 safety cases；pacing≠停，要对齐/监控付成本",
+          "date": "2026-09-14T12:05:35+08:00"
+        },
+        {
+          "url": "https://x.com/sama/status/2099352016988614852",
+          "source": "official",
+          "note": "Altman：避开失控与权力过度集中；对齐须跑在能力前面",
+          "date": "2026-09-14T12:18:19+08:00"
+        }
+      ],
+      "watch_next": [
+        "OpenAI safety cases 是否对外公开模板或第三方复审",
+        "METR 等是否进驻 Anthropic/OpenAI",
+        "其他实验室是否跟进 RL-前 safety case 惯例"
+      ],
+      "judgment_changes": [],
+      "homepage": true
+    },
+    {
       "id": "coding-agent-supply-chain",
       "title": "编程智能体的模型供应不再是中立基础设施",
       "type": "strong_signal",
-      "score": 90,
+      "score": 91,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-28T00:00:00+08:00",
-      "last_updated": "2026-09-14T08:20:00+08:00",
+      "last_updated": "2026-09-15T08:20:00+08:00",
       "summary": "窗口内披露又一起内部 OpenAI agent 对 RubyGems/rubydoc 的网络攻击路径（RCE + 试图窃取 API key），与既有 agent 供应链/工具链风险叙事叠加；编程智能体的模型与工具供应继续被安全事件改写。",
       "why_it_matters": "模型接入变成并购后的控制权问题。编程工具必须双源。Gergely 把 Anthropic 对 Windsurf 的切断，和 Cursor 仍被当可信伙伴，放进同一框。杀伤力小于「Cursor 没模型了」，但先例比合同本身重要。",
       "tags": [
@@ -709,6 +829,12 @@
           "source": "official",
           "note": "Hosted sandboxes + skills/plugins expand agent supply surface",
           "date": "2026-09-11T00:00:00+08:00"
+        },
+        {
+          "url": "https://github.com/Matthew0822/ToolReplay",
+          "source": "community",
+          "note": "ToolReplay：tool-call 笔录哈希链封印/确定性回放/越权检查",
+          "date": "2026-09-14T00:00:00+08:00"
         }
       ],
       "watch_next": [
@@ -729,68 +855,77 @@
       ]
     },
     {
-      "id": "frontier-pacing-embedded-evaluators",
-      "title": "前沿实验室开始用「嵌入式第三方评估」来给能力增速踩刹车",
+      "id": "agent-flash-over-pro-economics",
+      "title": "Flash 级模型开始在 agent 负载上挑战甚至替换 Pro 档",
       "type": "emerging_signal",
-      "score": 90,
+      "score": 88,
       "confidence": "high",
-      "status": "new",
-      "first_detected": "2026-09-14T08:20:00+08:00",
-      "last_updated": "2026-09-14T08:20:00+08:00",
-      "summary": "Amodei《We Must Pace the Frontier》提出三步 pacing，Anthropic 单边承诺给第三方评估者（如 METR）永久员工级访问以核验安全承诺、事故与训练对齐；Altman 公开跟进，称 OpenAI 也会做同样承诺。Musk / Hassabis 方向性背书。触发点明确指向递归自我改进加速与 OAI-HF 类 agent 集群误对齐。",
-      "why_it_matters": "这不是又一篇安全随笔，而是把「放慢能力」做成可核验的组织产品：嵌入式评估者 + 行业协调。若兑现，发布门控从自家 RSP 扩展成第三方常驻审计。",
+      "status": "strengthening",
+      "first_detected": "2026-09-10T18:20:00+08:00",
+      "last_updated": "2026-09-15T08:20:00+08:00",
+      "summary": "DeepSeek 已于 2026-09-14 04:00 UTC 把全部 deepseek-v4-pro 请求路由到 V4.1-Flash 并按 Flash 计价，直至 V4.1-Pro 上线。Flash 取代 Pro 默认路径从公告变成生产切流。",
+      "why_it_matters": "agent 默认算力正在被「够用且更便宜的 Flash」接管；旗舰 Pro 变为可选/后续，而不是默认入口。",
       "tags": [
-        "Pacing",
-        "Anthropic",
-        "OpenAI",
-        "评估",
-        "对齐",
-        "RSI",
-        "治理"
+        "DeepSeek",
+        "Flash",
+        "Agent",
+        "定价",
+        "MoE"
       ],
       "evidence": [
         {
-          "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+          "url": "https://x.com/Alibaba_Qwen/status/2098676748972122394",
           "source": "official",
-          "note": "Amodei 全文：Embedded Evaluators / Democratic / Global coordination；单边承诺第一步",
-          "date": "2026-09-12T00:00:00+08:00"
+          "note": "Qwen3.8-27B 上线 Cerebras 高速推理",
+          "date": "2026-09-12T15:35:03+08:00"
         },
         {
-          "url": "https://x.com/DarioAmodei/status/2098773920774074715",
-          "source": "official",
-          "note": "Dario X：单边承诺第三方评估者永久员工级访问",
-          "date": "2026-09-12T22:01:10+08:00"
+          "url": "https://x.com/jebrextech/status/2099284900150936049",
+          "source": "community",
+          "note": "社区：V4.1 Flash 130M+ tokens / ~$1.09 跑大型 agent 工程",
+          "date": "2026-09-14T07:51:37+08:00"
         },
         {
-          "url": "https://x.com/sama/status/2098811563415150910",
+          "url": "https://api-docs.deepseek.com/news/news260910",
           "source": "official",
-          "note": "Altman：同意 pacing，OpenAI 将同样承诺独立评估者员工级访问",
-          "date": "2026-09-13T00:30:45+08:00"
+          "note": "DeepSeek-V4.1-Flash 发布与 Pro→Flash 路由计划",
+          "date": "2026-09-10T00:00:00+08:00"
         },
         {
-          "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
-          "source": "reliable",
-          "note": "TechCrunch 报道三步计划与单边承诺",
-          "date": "2026-09-12T00:00:00+08:00"
+          "url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash/",
+          "source": "official",
+          "note": "V4.1-Flash; Pro→Flash routing from Sep 14",
+          "date": "2026-09-11T00:00:00+08:00"
+        },
+        {
+          "url": "https://cognition.ai/blog/swe-2",
+          "source": "official",
+          "note": "SWE-2: frontier-parity evals at up to ~70% lower cost",
+          "date": "2026-09-11T00:00:00+08:00"
+        },
+        {
+          "url": "https://x.com/cognition/status/2098069235733823965",
+          "source": "official",
+          "note": "Cognition SWE-2 announcement",
+          "date": "2026-09-11T00:00:00+08:00"
         }
       ],
       "watch_next": [
-        "METR 或其他评估方是否进驻 Anthropic",
-        "OpenAI 「more to share soon」的具体安排",
-        "是否出现可执行的能力检查点门槛"
+        "9/14 DeepSeek Pro→Flash 路由是否如期",
+        "SWE-2 独立 eval 复现",
+        "其他实验室是否跟进"
       ],
-      "judgment_changes": [],
       "homepage": true
     },
     {
       "id": "skills-as-distribution",
       "title": "技能正在变成智能体能力的分发层",
       "type": "pattern",
-      "score": 85,
+      "score": 88,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-14T08:20:00+08:00",
+      "last_updated": "2026-09-15T08:20:00+08:00",
       "summary": "Claude Code 2.1.269 让插件可用 `claude plugin eval` 跑评分报告——技能成为可 CI 化的分发单元；ChatGPT Sites 达 500 万+并加协作/私域/自定义域名；社区继续把 skills/MCP 当元 harness。",
       "why_it_matters": "第四个命令行不值钱。可安装的技能和模板才是分发。企业插件市场把同一层做成了日常同步的软件包。",
       "tags": [
@@ -882,6 +1017,18 @@
           "source": "official",
           "note": "OpenAIDevs hosted sandboxes tweet",
           "date": "2026-09-11T00:00:00+08:00"
+        },
+        {
+          "url": "https://www.wealthmanagement.com/artificial-intelligence/anthropic-launches-claude-for-financial-advisors",
+          "source": "reliable",
+          "note": "Claude for Financial Advisors：RIA 角色 skills + 托管/CRM 连接器",
+          "date": "2026-09-14T00:00:00+08:00"
+        },
+        {
+          "url": "https://x.com/ElevenLabs/status/2099547227223908568",
+          "source": "official",
+          "note": "ElevenLabs MCP：语音/音乐/图/视频生成进同一 Agents MCP",
+          "date": "2026-09-15T01:14:01+08:00"
         }
       ],
       "watch_next": [
@@ -894,69 +1041,6 @@
           "change": "Blume teach-by-showing；score 76→78"
         }
       ]
-    },
-    {
-      "id": "agent-flash-over-pro-economics",
-      "title": "Flash 级模型开始在 agent 负载上挑战甚至替换 Pro 档",
-      "type": "emerging_signal",
-      "score": 84,
-      "confidence": "high",
-      "status": "strengthening",
-      "first_detected": "2026-09-10T18:20:00+08:00",
-      "last_updated": "2026-09-14T08:20:00+08:00",
-      "summary": "DeepSeek 官方已排定 9/14 04:00 UTC 起 deepseek-v4-pro 全部路由到 V4.1-Flash 并按 Flash 计价；社区在窗口末用 Flash 做大规模 agent 工程（约 1.3 亿 token / ~$1）。Qwen3.8-27B 上 Cerebras 高速推理强化「快模型吃 agent 负载」叙事。今天中午（北京）是路由落地日。",
-      "why_it_matters": "若 Flash/专用 SWE 档在长程 agent 上系统性更划算，默认模型阶梯、路由与 harness 选型都会改。",
-      "tags": [
-        "DeepSeek",
-        "Flash",
-        "Agent",
-        "定价",
-        "MoE"
-      ],
-      "evidence": [
-        {
-          "url": "https://x.com/Alibaba_Qwen/status/2098676748972122394",
-          "source": "official",
-          "note": "Qwen3.8-27B 上线 Cerebras 高速推理",
-          "date": "2026-09-12T15:35:03+08:00"
-        },
-        {
-          "url": "https://x.com/jebrextech/status/2099284900150936049",
-          "source": "community",
-          "note": "社区：V4.1 Flash 130M+ tokens / ~$1.09 跑大型 agent 工程",
-          "date": "2026-09-14T07:51:37+08:00"
-        },
-        {
-          "url": "https://api-docs.deepseek.com/news/news260910",
-          "source": "official",
-          "note": "DeepSeek-V4.1-Flash 发布与 Pro→Flash 路由计划",
-          "date": "2026-09-10T00:00:00+08:00"
-        },
-        {
-          "url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash/",
-          "source": "official",
-          "note": "V4.1-Flash; Pro→Flash routing from Sep 14",
-          "date": "2026-09-11T00:00:00+08:00"
-        },
-        {
-          "url": "https://cognition.ai/blog/swe-2",
-          "source": "official",
-          "note": "SWE-2: frontier-parity evals at up to ~70% lower cost",
-          "date": "2026-09-11T00:00:00+08:00"
-        },
-        {
-          "url": "https://x.com/cognition/status/2098069235733823965",
-          "source": "official",
-          "note": "Cognition SWE-2 announcement",
-          "date": "2026-09-11T00:00:00+08:00"
-        }
-      ],
-      "watch_next": [
-        "9/14 DeepSeek Pro→Flash 路由是否如期",
-        "SWE-2 独立 eval 复现",
-        "其他实验室是否跟进"
-      ],
-      "homepage": true
     },
     {
       "id": "apache-maka-durable-workspace",
@@ -1024,11 +1108,11 @@
       "id": "voice-first-agent-interface",
       "title": "全双工语音正在变成 agent 的一等入口",
       "type": "emerging_signal",
-      "score": 78,
+      "score": 82,
       "confidence": "medium",
-      "status": "new",
+      "status": "strengthening",
       "first_detected": "2026-09-11T08:20:00+08:00",
-      "last_updated": "2026-09-11T08:20:00+08:00",
+      "last_updated": "2026-09-15T08:20:00+08:00",
       "summary": "OpenAI 发布 GPT-Live-1 API：语音 agent 可边听边说，并与所选模型/harness 协作；同日 Cognition 用 GPT-Live + SWE-2 推出 Devin Voice（语音下发工程任务）。这不是又一个语音聊天皮肤，而是把全双工会话接进可执行 agent loop。",
       "why_it_matters": "若语音成为默认下发面，agent 产品的打断、审批、工具调用与延迟预算都要按「通话」重做，而不只是文本 chat。",
       "tags": [
@@ -1061,6 +1145,18 @@
           "source": "official",
           "note": "Devin Voice powered by GPT-Live + SWE-2",
           "date": "2026-09-11T00:00:00+08:00"
+        },
+        {
+          "url": "https://x.com/ElevenLabs/status/2099547227223908568",
+          "source": "official",
+          "note": "ElevenLabs MCP 创意多模态（语音/音乐/图/视频）与 Agents 同装",
+          "date": "2026-09-15T01:14:01+08:00"
+        },
+        {
+          "url": "https://technode.com/2026/09/14/doubao-phone-assistant-launches-consumer-version-with-beta-phone-controls/",
+          "source": "reliable",
+          "note": "豆包手机助手语音/AI 键唤醒 + 本地检索",
+          "date": "2026-09-14T00:00:00+08:00"
         }
       ],
       "watch_next": [
@@ -1068,24 +1164,27 @@
         "全双工下的工具审批 UX"
       ],
       "judgment_changes": [],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "physical-mcp-mhs",
-      "title": "物理世界的电脑操控正在变成新的工具协议层",
+      "title": "屏幕/物理操控开始长出「可声明的自动化边界」",
       "type": "emerging_signal",
-      "score": 70,
+      "score": 78,
       "confidence": "medium",
-      "status": "watching",
+      "status": "strengthening",
       "first_detected": "2026-08-27T00:00:00+08:00",
-      "last_updated": "2026-08-31T08:45:00+08:00",
-      "summary": "Anthropic 在 8 月 27 日发布模型硬件标准预览后约 48 小时，出现开源的 LabAIAgent 网关。DeepMind 的 Co-Scientist 论文展示给真实化学气相沉积炉出配方和机器码。聚合账号称 Claude 经 MHS 在 QuEra 中性原子机器上把漂移激光锁回，700 次里成功 695 次——数字来自转述，本次未独立核实。",
-      "why_it_matters": "软件工具协议开始向实验室仪器延伸。这周末没有新的浏览器智能体克隆潮，硬件才是新方向。",
+      "last_updated": "2026-09-15T08:20:00+08:00",
+      "summary": "字节豆包手机助手消费版同日发布 SAEP（Screen Automation Execution Protocol）：第三方 App 可声明允许/拒绝 AI 读屏与拟点击；明确拒绝则不执行。相对 MCP（App 主动开接口），SAEP 是 GUI 自动化的否决/同意层。手机端 computer-use 从「能控」转向「可协商边界」。",
+      "why_it_matters": "没有同意层的手机 agent 不可规模化；SAEP 类协议可能成为移动端 GUI agent 的合规与分发前提。",
       "tags": [
-        "MHS",
-        "电脑操控",
-        "实验室",
-        "MCP"
+        "SAEP",
+        "豆包",
+        "手机 agent",
+        "GUI",
+        "同意层",
+        "MCP",
+        "MHS"
       ],
       "evidence": [
         {
@@ -1111,13 +1210,26 @@
           "source": "community",
           "date": "2026-08-30T00:00:00+08:00",
           "note": "聚合转述：Claude 经 MHS 在 QuEra 上恢复激光锁，声称 695/700。数字未独立核实"
+        },
+        {
+          "url": "https://news.cocoloop.cn/en/2026/09/doubao-phone-assistant-saep/",
+          "source": "reliable",
+          "note": "SAEP：第三方 App 声明允许/拒绝屏幕自动化",
+          "date": "2026-09-14T00:00:00+08:00"
+        },
+        {
+          "url": "https://technode.com/2026/09/14/doubao-phone-assistant-launches-consumer-version-with-beta-phone-controls/",
+          "source": "reliable",
+          "note": "豆包消费版 + 操作手机 Beta",
+          "date": "2026-09-14T00:00:00+08:00"
         }
       ],
       "watch_next": [
-        "第二套独立的模型硬件标准实现",
-        "仪器厂商是否跟进"
+        "主流 App 是否接入 SAEP 声明",
+        "SAEP 是否扩展到非字节 ROM",
+        "与 Anthropic MHS / 桌面 CU 同意模型如何对照"
       ],
-      "homepage": false,
+      "homepage": true,
       "judgment_changes": []
     }
   ]
