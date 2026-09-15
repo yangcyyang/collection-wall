@@ -14,8 +14,8 @@
       "bio": "",
       "text": "Three SpaceXAI employees are building a company in 3 days with Grok Bot. This is Day 1.\n\nMatt Palmer (@mattyp), Lauren Tan (@poteto), and Roshan Sadanani (@roshan_s) start with research, a plan, and a product.\n\nLive now, plus sessions for engineering, product, and founders.\n\nhttps://t.co/eV3Tfd5Bf2",
       "created_at": "Tue Sep 15 15:57:10 +0000 2026",
-      "likes": 277,
-      "views": "6388",
+      "likes": 1256,
+      "views": "76601",
       "url": "https://x.com/i/status/2099890276315848743",
       "has_media": false,
       "media_urls": [],
@@ -26,15 +26,16 @@
         "domain": "t.co"
       },
       "quoted_tweet": null,
-      "score": 77.829,
-      "title": "SpaceXAI 三人用 Grok Bot 三天造公司：Day 1 已开播",
-      "summary": "SpaceXAI 员工 Matt Palmer、Lauren Tan、Roshan Sadanani 正用 Grok Bot 在三天内从调研、计划到产品落地创业；Day 1 已上线，并开放工程、产品与创始人专场。",
-      "recommend_reason": "官方账号直播「用自家 Bot 真开公司」的过程，比空谈 vibe coding 更有现场感和可观察性。",
+      "score": 70.319,
+      "title": "三名 SpaceXAI 员工用 Grok Bot 三天速建公司，Day 1 直播开播",
+      "summary": "Grok Bot 官方称三名 SpaceXAI 员工 Matt Palmer、Lauren Tan、Roshan Sadanani 用 Grok Bot 三天建公司，Day 1 从研究、计划到产品开干，直播进行中并设工程/产品/创始人专场。",
+      "recommend_reason": "官方活动把「用 Bot 从零搭公司」做成可围观的公开实验，比空喊 vibe coding 更有观察价值。",
       "tags": [
-        "Grok Bot",
+        "Grok",
+        "Bot",
         "SpaceXAI",
-        "创业",
-        "直播"
+        "直播",
+        "创业"
       ],
       "rank": 1
     },
@@ -45,7 +46,7 @@
       "text": "我从社区版 Omarchy 切换到了官方版本的 M系列。\n\n主要原因还是为更方便的追官方的更新。\n\n与此同时我还发现 omarchy 居然已经预先安装了pi agent。\n\n意外之喜！不然我又要思考如何在无法连接 Github 的情况下安装下载 pi agent。",
       "created_at": "Tue Sep 15 15:53:34 +0000 2026",
       "likes": 2,
-      "views": "103",
+      "views": "450",
       "url": "https://x.com/i/status/2099889370677575881",
       "has_media": false,
       "media_urls": [],
@@ -66,13 +67,14 @@
           "https://pbs.twimg.com/media/HRkk9x0agAAmo90.jpg"
         ]
       },
-      "score": 57.453,
+      "score": 51.463,
       "summary": "我从社区版 Omarchy 切换到了官方版本的 M系列。\n\n主要原因还是为更方便的追官方的更新。\n\n与此同时我还发现 omarchy 居然已经预先安装了pi agent。\n\n意外之喜！不然我又要思考如何在无法连接 Github 的情况下安装下载 pi agent。",
-      "recommend_reason": "Omarchy 官方版预装 pi agent，对网络受限环境是很实际的安装捷径。",
+      "recommend_reason": "点出 Omarchy 官方版预装 pi agent，对网络受限环境下装 Agent 工具链有实用信息。",
       "tags": [
         "Omarchy",
-        "pi agent",
-        "本地工具"
+        "pi-agent",
+        "本地环境",
+        "工具链"
       ],
       "rank": 2
     },
@@ -82,8 +84,8 @@
       "bio": "",
       "text": "Salesforce in Claude is now available in beta.\n\nIt brings your accounts, opportunities, and pipeline into Claude, with 37 pre-built sales skills. Prep a call, review a deal, create a pipeline dashboard, or send your forecast without leaving the conversation. https://t.co/juvI0sU3mX",
       "created_at": "Tue Sep 15 15:02:29 +0000 2026",
-      "likes": 1726,
-      "views": "157327",
+      "likes": 2582,
+      "views": "253155",
       "url": "https://x.com/i/status/2099876514330206578",
       "has_media": true,
       "media_urls": [
@@ -94,15 +96,16 @@
       ],
       "card": null,
       "quoted_tweet": null,
-      "score": 73.74,
-      "title": "Claude 接入 Salesforce 进入 beta：37 个销售技能开箱可用",
-      "summary": "Claude 现可直接读取 Salesforce 账户、商机与管道，并内置 37 个预置销售技能，支持会前准备、交易复盘、管道看板与预测发送，无需离开对话。",
-      "recommend_reason": "把 CRM 数据与销售动作嵌进对话，是企业 Agent 从聊天走向业务闭环的清晰一步。",
+      "score": 74.306,
+      "title": "Claude 上线 Salesforce 集成测试版，内置 37 个销售技能",
+      "summary": "Anthropic 宣布 Salesforce 已可在 Claude 中以测试版使用：把客户账户、商机与销售管道拉进对话，并提供 37 个预置销售技能，可在对话内完成通话准备、复盘交易、做管道看板与发送预测，无需离开 Claude。",
+      "recommend_reason": "官方产品落地：把 CRM 工作流嵌进 Claude，是 Agent/对话式办公从聊天走向成交链路的明确信号。",
       "tags": [
         "Claude",
         "Salesforce",
         "销售Agent",
-        "企业AI"
+        "CRM",
+        "Anthropic"
       ],
       "rank": 3
     },
@@ -112,8 +115,8 @@
       "bio": "",
       "text": "Perplexity Computer will now come pre-installed on HP ZBook Ultra G3a. .\n\nUse Computer to run complex multi-step work from a simple interface. Computer agents are grounded in accurate deep research and connected to hundreds of tools, now including Autodesk. https://t.co/tyRz2394jH",
       "created_at": "Tue Sep 15 15:02:18 +0000 2026",
-      "likes": 96,
-      "views": "10693",
+      "likes": 112,
+      "views": "12635",
       "url": "https://x.com/i/status/2099876468872638717",
       "has_media": true,
       "media_urls": [
@@ -124,15 +127,16 @@
       ],
       "card": null,
       "quoted_tweet": null,
-      "score": 66.685,
-      "title": "Perplexity Computer 预装进 HP ZBook Ultra G3a",
-      "summary": "Perplexity Computer 将预装于 HP ZBook Ultra G3a，可在简洁界面跑多步复杂工作；其 Agent 依托深度研究能力，并已接入含 Autodesk 在内的数百工具。",
-      "recommend_reason": "Agent 产品开始进入专业本预装渠道，说明「研究+工具调用」工作流正在从网页走向硬件分发。",
+      "score": 66.971,
+      "title": "Perplexity Computer 预装进惠普 ZBook Ultra G3a",
+      "summary": "Perplexity 宣布 Computer 将预装于 HP ZBook Ultra G3a：用简单界面跑多步复杂任务，Agent 基于深度研究并连接上百工具，现已加入 Autodesk。",
+      "recommend_reason": "Agent 产品走硬件预装渠道，说明 Computer 从网页工具向工作站默认生产力层推进。",
       "tags": [
         "Perplexity",
         "Computer",
         "HP",
-        "Agent"
+        "Agent",
+        "Autodesk"
       ],
       "rank": 4
     },
@@ -185,8 +189,8 @@
       "bio": "",
       "text": "网页聊天版的GPT-6 Pro在规划层面还是太强了，而且不消耗Codex额度，于是为了榨干200刀的ChatGPT额度，还有这个神级模型GPT-6 Pro，我想了一个办法。\n\n我直接把我服务器的所有的日志、事件记录，还有所有的数据表等等的只读权限，封装成了一个用我自己飞书进行登录验证的MCP，然后再封装成了插件，上传到了ChatGPT上。\n\n于是我就可以实现，在网页版聊天里面的GPT-6 Pro，通过这个服务器的MCP只读插件，来读取我服务器上面的所有的历史数据，通过Github的插件，还可以读取我GitHub上所有的PR记录和代码。\n\n于是，我们就可以用这种方式来让网页版的GPT-6 Pro拿到最全面的数据，来对于我的功能和我的项目进行全方位的思考和规划。\n讲道理，这个质量实在是太高了，而且还不消耗Codex的额度，我但凡用GPT 6 Ultra来一次，Codex额度在我200刀的情况下，能直接干没10%。\n\n然后得到答案以后，还可以直接把它的结果的那个聊天添加到CodeX里面，然后用GPT-6 Astra high来帮我开发。。。\n\n这好像是我觉得我买200刀最能把这个性能榨干的方式了。。。",
       "created_at": "Tue Sep 15 14:51:58 +0000 2026",
-      "likes": 355,
-      "views": "29705",
+      "likes": 539,
+      "views": "46447",
       "url": "https://x.com/i/status/2099873865988247870",
       "has_media": true,
       "media_urls": [
@@ -197,15 +201,16 @@
       ],
       "card": null,
       "quoted_tweet": null,
-      "score": 71.99,
-      "title": "用飞书登录 MCP 把服务器只读数据灌进网页版 GPT-6 Pro 做规划",
-      "summary": "作者把服务器日志、事件与数据表的只读权限封装成飞书登录验证的 MCP 插件挂到 ChatGPT，让网页版 GPT-6 Pro 可结合 GitHub PR/代码做全量规划，又不消耗 Codex 额度；规划结果再转 Codex 用 GPT-6 Astra high 落地开发，以此榨干 200 刀订阅。",
-      "recommend_reason": "把「贵模型做规划、执行模型写代码」拆开，并用 MCP 补齐网页端上下文，是很可复制的额度编排法。",
+      "score": 72.756,
+      "title": "用飞书鉴权 MCP 把服务器只读数据塞进网页版 GPT-6 Pro 做规划",
+      "summary": "作者把服务器日志、事件与数据表做成经飞书登录鉴权的只读 MCP，再封装成 ChatGPT 插件，让网页聊天版 GPT-6 Pro（不耗 Codex 额度）结合 GitHub 插件读代码与 PR，做全量项目规划；规划结果再丢进 Codex，用 GPT-6 Astra high 开发，用来榨干 200 刀订阅。",
+      "recommend_reason": "可复用的「网页强规划模型 + 自建只读 MCP + Codex 落地」额度分配打法，信息密度高。",
       "tags": [
-        "GPT-6 Pro",
+        "GPT-6",
         "MCP",
         "Codex",
-        "额度编排"
+        "工作流",
+        "ChatGPT"
       ],
       "rank": 6
     },
@@ -216,7 +221,7 @@
       "text": "iOS 27这次最该升级的理由，可能根本不是新功能\n\n苹果刚发布iOS 27，一口气修了100多个安全漏洞。\n\n里面有些还挺吓人：\n\n一个能让恶意App拿到更高系统权限，甚至触及root级别；\n\n另一个涉及蓝牙，在特定条件下可能被远程执行恶意代码。\n\n如果暂时不想升iOS 27，苹果还给iOS 26用户留了条后路：iOS 26.7也修了80多个漏洞，其中75项和iOS 27相同。\n\n但这次最有意思的其实不是漏洞数量。\n\n苹果的致谢名单里，至少有3个安全问题明确归功于Anthropic的Claude，另外还提到了OpenAI的Codex Security。\n\n以前找系统漏洞，主要靠安全研究员一行行审代码。\n\n现在AI已经开始帮苹果找Bug了。\n\n换句话说，我们天天拿AI写代码的时候，AI已经开始反过来给全世界最复杂的操作系统挑漏洞了。\n\n所以这次iOS 27真正值得关注的，可能不是Liquid Glass，也不是新版Siri。\n\n而是AI正在进入软件安全最核心的战场。",
       "created_at": "Tue Sep 15 14:47:44 +0000 2026",
       "likes": 2,
-      "views": "1710",
+      "views": "1952",
       "url": "https://x.com/i/status/2099872800815435782",
       "has_media": true,
       "media_urls": [
@@ -227,15 +232,16 @@
       ],
       "card": null,
       "quoted_tweet": null,
-      "score": 56.925,
+      "score": 56.867,
       "title": "iOS 27 修百余漏洞，致谢名单出现 Claude 与 Codex Security",
-      "summary": "苹果发布 iOS 27 一口气修了 100 多个安全漏洞，并给 iOS 26 用户留了 26.7 补丁。致谢名单里至少 3 个问题归功于 Anthropic 的 Claude，并提到 OpenAI 的 Codex Security——AI 已开始参与给复杂操作系统挑漏洞。",
-      "recommend_reason": "把「AI 写代码」叙事翻到「AI 找系统漏洞」，是软件安全战场变化的一手信号。",
+      "summary": "苹果发布 iOS 27 修复 100 多个安全漏洞（含提权至 root、蓝牙远程执行等）；不愿升级者可用 iOS 26.7 补 80 余个同类洞。致谢名单里至少 3 个问题归功于 Anthropic 的 Claude，并提到 OpenAI Codex Security——AI 已开始帮苹果挑系统级漏洞。",
+      "recommend_reason": "把安全公告读成「AI 进入操作系统漏洞狩猎」叙事，比罗列新功能更有行业信号。",
       "tags": [
-        "iOS",
+        "iOS27",
+        "安全",
         "Claude",
-        "Codex Security",
-        "安全"
+        "Codex",
+        "漏洞"
       ],
       "rank": 7
     },
@@ -246,7 +252,7 @@
       "text": "其实我一直在实践自己的认知，有的时候成功，有的时候失败，这都是很正常的事，只不过因为一些限制，不太分享出来。\n\n「认知」的隐性内涵太多，一旦用言语发表出来，受众必然是各有各的理解。\n\n我的想法也很简单，能给部分人带来正向启发就好了，至于其他人负面的理解，我也没有精力去在意，因为大部分「其他人」只会说你错了，不会费很多精力真正证明你错了。\n\n最近假期中，一直在和我 $100 刀/月的 ChatGPT 聊单会话流如何保障 Context 管理的问题，有了一定进展，在尝试实现到一个新的「玩具」里，这个新玩具有几个特性：\n\n1. 单会话流：让用户不用管组织整理会话的事。\n\n2. Local first：Qwen 3.8 27B, Ollama, OpenAI Agents SDK，有较为完整的 Harness。\n\n3. 完全免费：看前面的选型就知道，这是一个完全免费的解决方案（依赖用户自己的设备性能），针对的是日常工作里的简单任务（目前能多轮记忆任务、联网查询、生成 office、md、html...）\n\n3. 快捷指令：支持快捷键直接抓桌面/应用窗口截图 + 抓鼠标指针对应位置 + OCR 抓取消息全文 + 自定义 Prompt，实现一键「帮我拟回复」「翻译+校对」之类的操作。\n\n4. 极简主义：设计极致克制，专注呈现有效内容。\n\n5. ...\n\n附上录屏，展示了部分效果，感兴趣也可以留言，后续有时间打包给大家试玩。",
       "created_at": "Tue Sep 15 14:41:09 +0000 2026",
       "likes": 4,
-      "views": "1569",
+      "views": "1772",
       "url": "https://x.com/i/status/2099871144299954293",
       "has_media": true,
       "media_urls": [
@@ -257,17 +263,74 @@
       ],
       "card": null,
       "quoted_tweet": null,
-      "score": 59.41,
-      "title": "本地优先单会话 Agent 玩具：Ollama + Agents SDK + 截图快捷指令",
-      "summary": "作者基于与 ChatGPT 讨论的单会话 Context 管理，做了一个本地优先玩具：单会话流免整理、Qwen 3.8 27B/Ollama/OpenAI Agents SDK 完整 harness、完全免费、支持快捷键抓窗口截图/指针位置/OCR+自定义 Prompt，面向日常拟回复与翻译校对等轻任务。",
-      "recommend_reason": "把 Context 管理、本地模型和桌面快捷指令收成可玩原型，对想自建轻量 Harness 的人很有参考。",
+      "score": 59.293,
+      "title": "用 Qwen 本地 Harness 做单会话流免费桌面 Agent 玩具",
+      "summary": "作者分享自研本地优先「玩具」：单会话流免整理多会话；栈为 Qwen 3.8 27B + Ollama + OpenAI Agents SDK；完全免费、面向日常简单任务（多轮记忆、联网、生成 office/md/html）；支持快捷键抓桌面/窗口截图、鼠标位置与 OCR 全文后一键拟回复/翻译校对，并附录屏。",
+      "recommend_reason": "把 Context 管理、本地模型与桌面快捷操作合成可试用产品形态，比空谈认知更有落地参考。",
       "tags": [
         "本地Agent",
+        "Qwen",
         "Ollama",
-        "Harness",
-        "快捷指令"
+        "单会话",
+        "Harness"
       ],
       "rank": 8
+    },
+    {
+      "id": "2099867787149943085",
+      "author": "xiaoxiaodong01",
+      "bio": "",
+      "text": "chatGPT GPT-image2.5\n还是进步了，美学素质进步了\n\n理解力也进步了\n\n文字的成功率，更是进步了。\n\n如下是我中秋节的一次习作。 https://t.co/i5P19yvo99",
+      "created_at": "Tue Sep 15 14:27:48 +0000 2026",
+      "likes": 11,
+      "views": "1432",
+      "url": "https://x.com/i/status/2099867787149943085",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSQ6YJSboAADcK3.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSQ6YJSboAADcK3.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 60.567,
+      "summary": "chatGPT GPT-image2.5\n还是进步了，美学素质进步了\n\n理解力也进步了\n\n文字的成功率，更是进步了。\n\n如下是我中秋节的一次习作。",
+      "recommend_reason": "一线创作者对 GPT-image 2.5 美学、理解力与文字成功率的短评+成片，适合快速感知图像模型代际变化。",
+      "tags": [
+        "GPT-image",
+        "图像生成",
+        "中秋",
+        "评测"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2099866832932909248",
+      "author": "bindureddy",
+      "bio": "",
+      "text": "Arguing for an AI ban is NONSENSICAL AND WILL KILL the US economy\n\nAI is currently creating millions of jobs across all sectors. Data center spending is creating mini-economic booms in blue-collar work.\n\nThe US is #1, and AI companies have already generated hundreds of billions in revenue. It's the fastest-growing sector in HISTORY\n\nOpen-source AI will further SUPERCHARGE AI adoption. By every measure, the benefits of AI overwhelmingly outweigh any perceived risks",
+      "created_at": "Tue Sep 15 14:24:01 +0000 2026",
+      "likes": 64,
+      "views": "3344",
+      "url": "https://x.com/i/status/2099866832932909248",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 48.459,
+      "title": "反对全面禁止 AI：就业、基建与开源正在放大美国经济收益",
+      "summary": "Bindu Reddy 认为鼓吹全面禁 AI 荒谬且会伤害美国经济：AI 正在各行业创造大量岗位，数据中心开支带动蓝领繁荣；美国居首、AI 公司已产生数千亿美元营收且增长极快；开源会进一步加速普及，收益远大于感知风险。",
+      "recommend_reason": "把「禁令 vs 就业/基建/开源」压缩成可引用的产业立场，适合对照监管叙事。",
+      "tags": [
+        "AI政策",
+        "就业",
+        "开源",
+        "数据中心",
+        "美国"
+      ],
+      "rank": 10
     },
     {
       "id": "2099711802972278784",
@@ -300,7 +363,7 @@
         "开源",
         "带货"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "id": "2099706954818220351",
@@ -329,7 +392,7 @@
         "体感",
         "评测"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "id": "2099701340641345828",
@@ -355,7 +418,7 @@
         "AGENTS.md",
         "工程纪律"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "id": "2099699506971599195",
@@ -387,7 +450,7 @@
         "法律AI",
         "获客"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "id": "2099696610620166366",
@@ -419,7 +482,7 @@
         "Codex",
         "插件开发"
       ],
-      "rank": 13
+      "rank": 15
     },
     {
       "id": "2099694812454904006",
@@ -461,7 +524,7 @@
         "Claude",
         "变现"
       ],
-      "rank": 14
+      "rank": 16
     },
     {
       "id": "2099694617138524472",
@@ -496,7 +559,7 @@
         "Agent办公",
         "字节"
       ],
-      "rank": 15
+      "rank": 17
     },
     {
       "id": "2099694578723078633",
@@ -547,7 +610,7 @@
         "SaaS",
         "算力"
       ],
-      "rank": 16
+      "rank": 18
     },
     {
       "id": "2099688734128267673",
@@ -582,7 +645,7 @@
         "豆包",
         "Agent办公"
       ],
-      "rank": 17
+      "rank": 19
     },
     {
       "id": "2099687415879458988",
@@ -616,7 +679,7 @@
         "DeepSeek",
         "工具栈"
       ],
-      "rank": 18
+      "rank": 20
     },
     {
       "id": "2099687395247755593",
@@ -643,7 +706,7 @@
         "WorldModel",
         "LatentReasoning"
       ],
-      "rank": 19
+      "rank": 21
     },
     {
       "id": "2099685439720587407",
@@ -679,7 +742,7 @@
         "可控性",
         "教程"
       ],
-      "rank": 20
+      "rank": 22
     },
     {
       "id": "2099683779316973754",
@@ -722,23 +785,23 @@
         "灰度",
         "评测"
       ],
-      "rank": 21
+      "rank": 23
     }
   ],
-  "generated_at": "2026-09-15T16:07:58Z",
+  "generated_at": "2026-09-15T16:43:09Z",
   "selection": {
-    "target_count": 30,
-    "max_count": 30,
-    "per_run_max": 15,
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
     "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 21,
-    "last_batch_added": 3,
-    "last_batch_skipped_dup": 0,
+    "actual_count": 23,
+    "last_batch_added": 2,
+    "last_batch_skipped_dup": 20,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
     "note": "midnight 追加后补回 rebase 误丢的 noon +3（GoSailGlobal/imwsl90/Jiaxi_Cui）；单日≤30不保底。",
