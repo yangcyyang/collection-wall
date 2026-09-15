@@ -73,5 +73,10 @@
     "date": "2026-09-14",
     "watch": "模型 + 行业",
     "body": "今天更值得盯「模型 + 行业」。头一条是小红书 AllSpark 开源 Search Agent Iris（35B/397B 同量级领先），权重和评测已公开、训练配方陆续放——你跟开源模型和 agent 流水线时优先点这篇，看数据构造与 SFT-RL 路径能不能迁到自己的检索/工具调用 agent。行业侧 Anthropic 威胁报告称胡塞相关小组用 Claude Code 做导弹制导软件，Agent 编码被滥用又进一档，日常用 Cursor/Claude Code 的话扫一眼当安全备忘即可。次看 Gary Marcus 对 Dario「放慢前沿」的三赞两疑，接昨天那条节奏辩论。"
+  },
+  "2026-09-15": {
+    "date": "2026-09-15",
+    "watch": "模型 + 技巧",
+    "body": "今天更值得盯「模型 + 技巧」。开源侧两条贴身：DeepSeek-V4.1-Flash 在 Fireworks 上 DeepSWE 摸到 GPT-6 Astra 同档、成本约 1/15，Agent Arena 开源榜也冲到第 3——你省配额、跑 Cursor/CPA 编码 agent 时优先点这两条看能不能替掉贵模型；硅基流动上线 Hy4 preview（770B/49B 激活、1M 上下文、Apache 2.0），宣称可直接接 Cursor/Codex/Claude Code，扫一眼定价和接入方式即可。技巧向 Anthropic 工程博客讲 agentic coding 把 CI 打爆后怎么扩 test impact analysis——和你多 bot 长跑、routine 压测同源，值得收藏。语音旁线 StepAudio 3 与 GPT-Live-1 登顶 Speech-to-Speech，创作用再点；行业放缓辩论和 Anthropic IPO 当背景扫过。"
   }
 }
