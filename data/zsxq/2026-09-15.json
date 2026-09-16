@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "source": "zsxq-changgong",
+  "title": "长弓小子设计思享 · 问答",
+  "planet": "长弓小子设计思享",
+  "group_url": "https://wx.zsxq.com/group/88511822141542",
+  "date": "2026-09-15",
+  "updated_at": "2026-09-15T20:00:00+08:00",
+  "count": 1,
+  "items": [
+    {
+      "id": "zsxq-20260915-1",
+      "date": "2026-09-15",
+      "question": "做设计评审时，怎样把讨论从「好不好看」拉回到「解决什么问题」？",
+      "answer_summary": "先写清这次评审要验证的用户问题与成功标准，再对照方案讲取舍；视觉意见放到最后，并标成可选。这样评审有共同标尺，而不是审美投票。",
+      "tags": ["设计思维"],
+      "url": "https://wx.zsxq.com/group/88511822141542",
+      "rank": 1
+    }
+  ]
+}

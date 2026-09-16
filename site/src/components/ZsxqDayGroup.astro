@@ -1,0 +1,38 @@
+---
+import { formatDayLabel } from "../lib/twitter";
+import type { ZsxqDay } from "../lib/zsxq";
+
+type Props = { day: ZsxqDay; defaultOpen?: boolean };
+const { day, defaultOpen = false } = Astro.props;
+const [dateLabel, weekdayLabel] = formatDayLabel(day.date).split(" ");
+---
+
+<details class="day-group" data-day open={defaultOpen}>
+  <summary class="day-heading">
+    <span class="day-toggle-icon" aria-hidden="true">▾</span>
+    <h2>{dateLabel}</h2>
+    <p>{weekdayLabel} · {day.items.length} 条</p>
+  </summary>
+  <div class="timeline-items">
+    {day.items.map((item) => (
+      <article class="timeline-item" data-zsxq data-tags={(item.tags ?? []).join(",")}>
+        <span class="timeline-time">{typeof item.rank === "number" ? `#${item.rank}` : ""}</span>
+        <span class="timeline-rail"><i class="timeline-dot"></i></span>
+        <div class="tweet-card">
+          <div class="tweet-body">
+            <div class="tweet-meta">
+              {item.url && (
+                <a class="tweet-link" href={item.url} target="_blank" rel="noreferrer">查看原帖 →</a>
+              )}
+            </div>
+            {item.question && <h3 class="tweet-title">{item.question}</h3>}
+            {item.answer_summary && <p class="tweet-summary">{item.answer_summary}</p>}
+            {(item.tags ?? []).length > 0 && (
+              <div class="tag-list">{(item.tags ?? []).map((tag) => <span>{tag}</span>)}</div>
+            )}
+          </div>
+        </div>
+      </article>
+    ))}
+  </div>
+</details>
