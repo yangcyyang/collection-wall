@@ -1,13 +1,14 @@
 ---
 import { HIDE_SIDEHUSTLE_FOR_DEMO } from "../lib/sidehustle.mjs";
 
-type Props = { current: "wall" | "news" | "twitter" | "knowledge" | "prompts" | "skills" | "radar" | "xianyu" | "xiaohongshu" | "sidehustle" | "producthunt" | "login" };
+type Props = { current: "wall" | "news" | "twitter" | "knowledge" | "zsxq" | "prompts" | "skills" | "radar" | "xianyu" | "xiaohongshu" | "sidehustle" | "producthunt" | "login" };
 const { current } = Astro.props;
 const items = [
   { id: "wall", href: "/", label: "收藏墙" },
   { id: "news", href: "/news/", label: "资讯" },
   { id: "twitter", href: "/twitter/", label: "推特日报" },
   { id: "knowledge", href: "/knowledge/", label: "知识总结" },
+  { id: "zsxq", href: "/zsxq/", label: "知识星球" },
   { id: "prompts", href: "/prompts/", label: "提示词" },
   { id: "skills", href: "/skills/", label: "技能" },
   { id: "radar", href: "/radar/", label: "雷达" },

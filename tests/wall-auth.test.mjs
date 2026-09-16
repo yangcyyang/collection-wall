@@ -103,6 +103,7 @@ test("收藏墙与技能未带 cookie 时重定向到登录并带上返回地址
   assert.equal(isPublicPath("/xiaohongshu/"), false);
   assert.equal(isPublicPath("/sidehustle/"), false);
   assert.equal(isPublicPath("/producthunt/"), false);
+  assert.equal(isPublicPath("/zsxq/"), false);
   assert.equal(isPublicPath("/api/ask-ai"), false);
 
   const home = await dispatch("/");
@@ -121,6 +122,10 @@ test("收藏墙与技能未带 cookie 时重定向到登录并带上返回地址
   const producthunt = await dispatch("/producthunt/");
   assert.equal(producthunt.status, 302);
   assert.equal(producthunt.headers.get("Location"), "https://wall.yangcyyang.cn/login/?next=%2Fproducthunt%2F");
+
+  const zsxq = await dispatch("/zsxq/");
+  assert.equal(zsxq.status, 302);
+  assert.equal(zsxq.headers.get("Location"), "https://wall.yangcyyang.cn/login/?next=%2Fzsxq%2F");
 });
 
 test("正确登录写入 httpOnly Secure 签名 cookie，而不是明文密码", async () => {
@@ -394,6 +399,7 @@ test("私有静态资源不能未登录直链绕过", async () => {
     "/xiaohongshu/",
     "/sidehustle/",
     "/producthunt/",
+    "/zsxq/",
     "/api/ask-ai",
   ]) {
     const response = await dispatch(path);

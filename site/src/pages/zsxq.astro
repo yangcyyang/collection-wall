@@ -1,0 +1,67 @@
+---
+import "../styles/global.css";
+import LogoutControl from "../components/LogoutControl.astro";
+import SiteNav from "../components/SiteNav.astro";
+import ZsxqDayGroup from "../components/ZsxqDayGroup.astro";
+import { getZsxqDays, splitRecentAndArchive } from "../lib/zsxq";
+
+const days = (await getZsxqDays()).filter((day) => day.items.length > 0);
+const { recent, archive } = splitRecentAndArchive(days);
+const totalItems = days.reduce((sum, day) => sum + day.items.length, 0);
+const planet = days[0]?.planet || "长弓小子设计思享";
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="长弓小子设计思享问答精选" />
+    <title>知识星球 · 工具库</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#zsxq-timeline">跳到列表</a>
+    <div class="page-shell">
+      <header class="site-header">
+        <div>
+          <p class="eyebrow">{planet} · 问答精选</p>
+          <h1>知识星球</h1>
+          <p class="intro">精选「长弓小子设计思享」星球里的问答，按日浏览，方便回看设计思路与判断。</p>
+        </div>
+        <div class="header-stats">
+          <p class="record-count">{totalItems} 条已收录</p>
+          <LogoutControl />
+        </div>
+      </header>
+
+      <SiteNav current="zsxq" />
+
+      {days.length === 0 ? (
+        <main id="zsxq-timeline">
+          <section class="empty-state" aria-labelledby="empty-title">
+            <p class="empty-icon">✦</p>
+            <h2 id="empty-title">还没有问答</h2>
+            <p>等待第一次采集任务写入 data/zsxq/ 后会出现在这里。</p>
+          </section>
+        </main>
+      ) : (
+        <main id="zsxq-timeline">
+          <section class="twitter-timeline" aria-label="最近问答">
+            {recent.map((day, index) => <ZsxqDayGroup day={day} defaultOpen={index === 0} />)}
+          </section>
+
+          {archive.length > 0 && (
+            <details class="archive-section">
+              <summary>更早归档（{archive.length} 天）</summary>
+              <section class="twitter-timeline">
+                {archive.map((day) => <ZsxqDayGroup day={day} />)}
+              </section>
+            </details>
+          )}
+        </main>
+      )}
+    </div>
+    <footer class="site-footer">
+      <p><strong>数据来源说明</strong>：内容来自「长弓小子设计思享」知识星球问答精选，构建时读取 data/zsxq，不另存 HTML。</p>
+    </footer>
+  </body>
+</html>
