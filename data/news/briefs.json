@@ -78,5 +78,10 @@
     "date": "2026-09-15",
     "watch": "模型 + 技巧",
     "body": "今天更值得盯「模型 + 技巧」。开源侧两条贴身：DeepSeek-V4.1-Flash 在 Fireworks 上 DeepSWE 摸到 GPT-6 Astra 同档、成本约 1/15，Agent Arena 开源榜也冲到第 3——你省配额、跑 Cursor/CPA 编码 agent 时优先点这两条看能不能替掉贵模型；硅基流动上线 Hy4 preview（770B/49B 激活、1M 上下文、Apache 2.0），宣称可直接接 Cursor/Codex/Claude Code，扫一眼定价和接入方式即可。技巧向 Anthropic 工程博客讲 agentic coding 把 CI 打爆后怎么扩 test impact analysis——和你多 bot 长跑、routine 压测同源，值得收藏。语音旁线 StepAudio 3 与 GPT-Live-1 登顶 Speech-to-Speech，创作用再点；行业放缓辩论和 Anthropic IPO 当背景扫过。"
+  },
+  "2026-09-16": {
+    "date": "2026-09-16",
+    "watch": "技巧 + 模型",
+    "body": "今天更值得盯「技巧 + 模型」。头一条是 Pragmatic Engineer 探访 OpenAI：Codex 已成内部几乎所有研发的底座——和你 Cursor/CPA、多 bot 编排几乎同构，优先点开看他们怎么把 agent 软件工厂跑起来。模型侧两条：DeepMind 发 Gemini 3.8 Live / Live Extended Thinking（近实时语音对话），做语音工具时对照 StepAudio、GPT-Live；生数 Vidu S2（Avatar + Editing）扫一眼实时角色与视频编辑路线。次看 Arena Image-to-WebDev 榜 GPT-6 Astra 登顶，和前端/上墙相关；Vercel inbound 销售智能体压到 1.25 人、Perplexity CobbleDB 省 DynamoDB 成本当行业落地案例扫过即可。"
   }
 }
