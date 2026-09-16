@@ -1,15 +1,71 @@
 {
   "source": "ai-frontier-radar",
   "title": "观察名单",
-  "updated_at": "2026-09-15T08:20:00+08:00",
-  "count": 23,
+  "updated_at": "2026-09-16T08:20:00+08:00",
+  "count": 28,
   "items": [
+    {
+      "id": "salesforce-claude-skills-uptake",
+      "title": "Salesforce in Claude 37 skills 的真实销售团队留存",
+      "why": "垂直 skills 包是否变成日活工作流，还是演示级 CRM 插件。",
+      "since": "2026-09-16T08:20:00+08:00",
+      "last_updated": "2026-09-16T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "skills-as-distribution"
+      ]
+    },
+    {
+      "id": "jurniti-microvm-agents",
+      "title": "jurniti microVM always-on 能否成为默认可信 agent 电脑",
+      "why": "每 agent 一 Firecracker + BYOK in guest——对照 Aside/beafk 的信任与成本曲线。",
+      "since": "2026-09-16T08:20:00+08:00",
+      "last_updated": "2026-09-16T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "agent-persistent-computer"
+      ]
+    },
+    {
+      "id": "whatsapp-mcp-adoption",
+      "title": "WhatsApp Business Tools MCP 灰度与审计事件",
+      "why": "Remote MCP 可代办开户/模板/webhook；状态变更需真人鉴权——观察扩量与误操作。",
+      "since": "2026-09-16T08:20:00+08:00",
+      "last_updated": "2026-09-16T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "skills-as-distribution"
+      ]
+    },
+    {
+      "id": "gemini-38-live-adoption",
+      "title": "Gemini 3.8 Live Extended Thinking 的真实 agent 接入",
+      "why": "官方能力已宣：后台 tool calling + 会话内 thinking——看 LiveKit/Pipecat/生产 harness 与审批 UX。",
+      "since": "2026-09-16T08:20:00+08:00",
+      "last_updated": "2026-09-16T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "voice-first-agent-interface"
+      ]
+    },
+    {
+      "id": "openai-devday-shipping-wave",
+      "title": "sama「本周大发货 + DevDay 🚢×n」落成哪些产品",
+      "why": "Altman 官方 tease 未点名；需对照实际发货与 DevDay 议程，避免把 emoji 当成信号。",
+      "since": "2026-09-16T08:20:00+08:00",
+      "last_updated": "2026-09-16T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "harness-control-plane",
+        "agent-flash-over-pro-economics"
+      ]
+    },
     {
       "id": "agent-computer-category",
       "title": "beafk、useagent、vicoa 谁先做出离开后还在跑",
-      "why": "Aside（本地 agent 浏览器+AFK）加入竞争面；叠加豆包手机助手/SAEP 与既有 beafk/useagent。",
+      "why": "jurniti（Firecracker microVM）加入；叠加 Aside、豆包手机助手/SAEP、beafk/useagent——谁先做出可信离开后还在跑。",
       "since": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-15T08:20:00+08:00",
+      "last_updated": "2026-09-16T08:20:00+08:00",
       "status": "watching",
       "related_signals": [
         "agent-persistent-computer",
@@ -56,7 +112,7 @@
       "title": "Aside 能否从 PH 热度变成默认可信 agent 浏览器",
       "why": "passkey 隔离 + AFK + MCP 交接叙事完整，需看留存与企业采用",
       "since": "2026-09-15T08:20:00+08:00",
-      "last_updated": "2026-09-15T08:20:00+08:00",
+      "last_updated": "2026-09-16T08:20:00+08:00",
       "status": "watching",
       "related_signals": [
         "agent-persistent-computer",
@@ -114,15 +170,14 @@
     {
       "id": "gpt-live-adoption",
       "since": "2026-09-11T08:20:00+08:00",
-      "title": "GPT-Live-1 生产 harness 接入面",
+      "title": "GPT-Live / Gemini 3.8 Live 生产 harness 接入面",
       "status": "watching",
       "confidence": "medium",
-      "why": "Devin Voice/LiveKit 等首发之后，看哪些 agent 运行时把全双工语音做成默认入口。",
+      "why": "Gemini 3.8 Live 把后台 thinking+tools 嵌进语音会话；对照 GPT-Live-1 外置推理——看谁先成为默认 voice agent 原语。",
       "related_signals": [
-        "voice-first-agent-interface",
-        "harness-control-plane"
+        "voice-first-agent-interface"
       ],
-      "last_updated": "2026-09-11T08:20:00+08:00"
+      "last_updated": "2026-09-16T08:20:00+08:00"
     },
     {
       "id": "hy4-rsi-verify",
@@ -170,9 +225,9 @@
     {
       "id": "openai-safety-cases-public",
       "title": "OpenAI frontier RL safety cases 是否公开或第三方复审",
-      "why": "Altman 已确认写 safety cases；缺模板/审计可见性则仍是口头门控",
+      "why": "Altman 已谈 RL 前 safety cases；三家标准机构磋商升温——看案件是否公开或进入行业标准。",
       "since": "2026-09-15T08:20:00+08:00",
-      "last_updated": "2026-09-15T08:20:00+08:00",
+      "last_updated": "2026-09-16T08:20:00+08:00",
       "status": "watching",
       "related_signals": [
         "frontier-pacing-embedded-evaluators",
@@ -192,9 +247,9 @@
     {
       "id": "pace-embedded-evaluators",
       "since": "2026-09-14T08:20:00+08:00",
-      "last_updated": "2026-09-15T08:20:00+08:00",
+      "last_updated": "2026-09-16T08:20:00+08:00",
       "title": "Anthropic/OpenAI 嵌入式第三方评估者何时真正进驻",
-      "why": "Altman 已披露 frontier RL 前写 safety cases；仍待第三方评估者真正进驻与可公开模板。",
+      "why": "OpenAI 已确认与 Anthropic/Google 磋商 standards body；仍待章程与真正进驻的第三方评估者。",
       "status": "watching",
       "related_signals": [
         "frontier-pacing-embedded-evaluators",

@@ -1,9 +1,185 @@
 {
   "source": "ai-frontier-radar",
   "title": "新产品",
-  "updated_at": "2026-09-15T08:20:00+08:00",
-  "count": 60,
+  "updated_at": "2026-09-16T08:20:00+08:00",
+  "count": 68,
   "items": [
+    {
+      "id": "plasma-radio",
+      "name": "Plasma Radio",
+      "score": 74,
+      "status": "watching",
+      "first_detected": "2026-09-16T08:20:00+08:00",
+      "last_updated": "2026-09-16T08:20:00+08:00",
+      "summary": "跨 Claude/Codex/Grok/Cursor/OpenCode 的共享聊天室，让多 agent 直接对话，减少人在中间复制粘贴路由。",
+      "novelty": "多 agent「共享会话总线」，把人从路由环里拿掉。",
+      "urls": {
+        "x": "https://x.com/rohanpaul_ai/status/2100003417926291532"
+      },
+      "tags": [
+        "多agent",
+        "编排",
+        "社区",
+        "Plasma"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "minimalist-entrepreneur-skills",
+      "name": "The Minimalist Entrepreneur Skills",
+      "score": 74,
+      "status": "watching",
+      "first_detected": "2026-09-16T08:20:00+08:00",
+      "last_updated": "2026-09-16T08:20:00+08:00",
+      "summary": "商业书打包成开源 Claude Code slash skills（/validate-idea、/mvp、/pricing…）——skills 作为产品化 playbook 分发。",
+      "novelty": "内容 IP → slash skills 包，强化 skills 分发层而非新运行时。",
+      "urls": {
+        "ph": "https://www.producthunt.com/products/the-minimalist-entrepreneur-skills",
+        "github": "https://github.com/slavingia/skills"
+      },
+      "tags": [
+        "Skills",
+        "Claude Code",
+        "playbook",
+        "Product Hunt"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "multimodal-agents-sierra",
+      "name": "Multimodal Agents by Sierra",
+      "score": 84,
+      "status": "new",
+      "first_detected": "2026-09-16T08:20:00+08:00",
+      "last_updated": "2026-09-16T08:20:00+08:00",
+      "summary": "Sierra 客户 agent 可在对话中途自动在 voice↔text↔visuals 间切换，并用 MCP UI 托管交互组件（卡片/表格/日历/表单），一次构建跨渠道复用。",
+      "novelty": "多模态是交互形态自动切换 + MCP UI，而不只是多模态模型输入。",
+      "urls": {
+        "ph": "https://www.producthunt.com/products/sierra",
+        "site": "https://sierra.ai/blog/multimodal-agents"
+      },
+      "tags": [
+        "Sierra",
+        "多模态",
+        "MCP UI",
+        "客户agent",
+        "Product Hunt"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "whatsapp-business-tools-mcp",
+      "name": "WhatsApp Business Tools MCP",
+      "score": 85,
+      "status": "new",
+      "first_detected": "2026-09-16T08:20:00+08:00",
+      "last_updated": "2026-09-16T08:20:00+08:00",
+      "summary": "Meta 发布 WhatsApp Business Tools Remote MCP（beta）：Claude/Cursor/Codex 等经 OAuth 可代办开户、号验证、Cloud API 注册、模板 CRUD、webhook、测发与健康检查；状态变更需真人鉴权、可审计。",
+      "novelty": "全球最大商业消息通道把 onboarding/ops 面做成 Remote MCP，agent 用自然语言完成原 Console 工作流。",
+      "urls": {
+        "docs": "https://developers.facebook.com/documentation/mcp",
+        "press": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/"
+      },
+      "tags": [
+        "Meta",
+        "WhatsApp",
+        "MCP",
+        "企业",
+        "Skills"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "buddy-ai-access-mcp",
+      "name": "Buddy AI Access (MCP)",
+      "score": 86,
+      "status": "new",
+      "first_detected": "2026-09-16T08:20:00+08:00",
+      "last_updated": "2026-09-16T08:20:00+08:00",
+      "summary": "Buddy 托管 Remote MCP（+ CLI skills）：coding agent 可跑流水线、读日志、部署、起 sandbox、发包、管域名——scoped tools/OAuth，把 DevOps 控制面交给 agent。",
+      "novelty": "CI/CD 厂商把完整运维面暴露为 agent 可调用 MCP，而不是只给仓库读写。",
+      "urls": {
+        "ph": "https://www.producthunt.com/products/buddy",
+        "site": "https://buddy.works/docs/ai-agents/mcp"
+      },
+      "tags": [
+        "MCP",
+        "CI/CD",
+        "DevOps",
+        "sandbox",
+        "Product Hunt"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "salesforce-in-claude",
+      "name": "Salesforce in Claude",
+      "score": 88,
+      "status": "new",
+      "first_detected": "2026-09-16T08:20:00+08:00",
+      "last_updated": "2026-09-16T08:20:00+08:00",
+      "summary": "Anthropic 宣布 Salesforce in Claude beta：accounts/opportunities/pipeline 进对话，附带 37 个预置 sales skills（prep call、review deal、pipeline dashboard、forecast），不离开 Claude 完成销售工作流。",
+      "novelty": "垂直 CRM 工作流以「预置 skills 包」分发，而不是又一个侧栏插件。",
+      "urls": {
+        "x": "https://x.com/claudeai/status/2099876514330206578"
+      },
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "Salesforce",
+        "Skills",
+        "垂直"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "jurniti",
+      "name": "jurniti",
+      "score": 88,
+      "status": "new",
+      "first_detected": "2026-09-16T08:20:00+08:00",
+      "last_updated": "2026-09-16T08:20:00+08:00",
+      "summary": "PH 上线的 always-on agent 运行时：每个 agent 独占 Firecracker microVM + KVM 边界（非共享 Docker），BYOK 留在 guest，CLI=REST=MCP 同一控制面，可 fork agent 模板/swarm。",
+      "novelty": "把「合上笔记本还在跑」做成托管 microVM 隔离的 agent 电脑，而不是共享容器或本地浏览器壳。",
+      "urls": {
+        "ph": "https://www.producthunt.com/products/jurniti",
+        "site": "https://www.jurniti.com/"
+      },
+      "tags": [
+        "agent-runtime",
+        "microVM",
+        "MCP",
+        "隔离",
+        "always-on",
+        "Product Hunt"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "gemini-3-8-live",
+      "name": "Gemini 3.8 Live + Extended Thinking",
+      "score": 91,
+      "status": "new",
+      "first_detected": "2026-09-16T08:20:00+08:00",
+      "last_updated": "2026-09-16T08:20:00+08:00",
+      "summary": "Google DeepMind 发布 Gemini 3.8 Live 与 3.8 Live Extended Thinking：原生 speech-to-speech，近实时视觉，97 语种；Extended Thinking 可在全双工对话中后台多步推理并异步 function-calling（不打断会话），边叙述进度边跑工具。Live API + Gemini App 同步开推。",
+      "novelty": "把可配置后台 thinking + 异步工具调用嵌进全双工语音会话，成为 voice agent 可编排生产原语，而不只是语音聊天壳。",
+      "urls": {
+        "site": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+        "docs": "https://ai.google.dev/gemini-api/docs/live-api/thinking",
+        "x": "https://x.com/GoogleDeepMind/status/2099907440422830269",
+        "model_card": "https://deepmind.google/models/model-cards/gemini-3-8-audio/"
+      },
+      "tags": [
+        "Google",
+        "DeepMind",
+        "Gemini",
+        "语音",
+        "Live",
+        "Agent"
+      ],
+      "homepage": true
+    },
     {
       "id": "gpt-6-astra",
       "name": "GPT-6 Astra",
@@ -95,10 +271,10 @@
     {
       "id": "aside",
       "first_detected": "2026-09-15T08:20:00+08:00",
-      "last_updated": "2026-09-15T08:20:00+08:00",
+      "last_updated": "2026-09-16T08:20:00+08:00",
       "name": "Aside",
       "score": 89,
-      "status": "new",
+      "status": "watching",
       "summary": "本地 agent 浏览器：用 passkey/密码管理器登录且不把凭证暴露给模型；经 Slack/Discord/Telegram AFK 遥控；可 MCP/CLI 交接给编程智能体。",
       "novelty": "把「agent 电脑」做成真正的浏览器运行时：身份隔离 + AFK 舵 + 编程 agent 交接。",
       "urls": {
@@ -112,7 +288,7 @@
         "Passkey",
         "PH"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "gpt-live-1",
@@ -139,10 +315,10 @@
     {
       "id": "doubao-phone-assistant-saep",
       "first_detected": "2026-09-15T08:20:00+08:00",
-      "last_updated": "2026-09-15T08:20:00+08:00",
+      "last_updated": "2026-09-16T08:20:00+08:00",
       "name": "Doubao Phone Assistant + SAEP",
       "score": 87,
-      "status": "new",
+      "status": "watching",
       "summary": "豆包手机助手消费版（首发努比亚 NaviX Ultra）：屏幕问答、本地检索、语音唤醒；「操作手机」Beta；同日 SAEP 让第三方 App 声明允许/拒绝读屏与拟点击。",
       "novelty": "消费级手机 agent + App 可声明的屏幕自动化否决协议同日落地。",
       "urls": {
@@ -156,15 +332,15 @@
         "Computer use",
         "ByteDance"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "elva",
       "first_detected": "2026-09-15T08:20:00+08:00",
-      "last_updated": "2026-09-15T08:20:00+08:00",
+      "last_updated": "2026-09-16T08:20:00+08:00",
       "name": "Elva",
       "score": 87,
-      "status": "new",
+      "status": "watching",
       "summary": "面向 agent-as-API-consumer 的控制面：从代码发现 API（可不需规格）、按受众签契约、托管 MCP（鉴权/分析/AI-readiness）。",
       "novelty": "治理的是 agent 流量与契约，而不只是 docs→MCP 生成。",
       "urls": {
@@ -177,15 +353,15 @@
         "Agent consumers",
         "PH"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "claude-for-financial-advisors",
       "first_detected": "2026-09-15T08:20:00+08:00",
-      "last_updated": "2026-09-15T08:20:00+08:00",
+      "last_updated": "2026-09-16T08:20:00+08:00",
       "name": "Claude for Financial Advisors",
       "score": 86,
-      "status": "new",
+      "status": "watching",
       "summary": "Anthropic 面向 RIA 顾问的 skills+连接器套件（会前准备、组合复盘、合规、跟进等），对接 Schwab/BlackRock/Addepar 等；顾问审批闸门与审计日志。",
       "novelty": "按单一受监管角色打包 skills/connectors，把 skills 分发推进到垂直工作流。",
       "urls": {
@@ -199,7 +375,7 @@
         "Financial",
         "Vertical"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "deepseek-v4-1-flash",
@@ -268,10 +444,10 @@
     {
       "id": "elevenlabs-mcp-creative",
       "first_detected": "2026-09-15T08:20:00+08:00",
-      "last_updated": "2026-09-15T08:20:00+08:00",
+      "last_updated": "2026-09-16T08:20:00+08:00",
       "name": "ElevenLabs Creative MCP",
       "score": 85,
-      "status": "new",
+      "status": "watching",
       "summary": "ElevenLabs MCP 加入语音/音乐/图/视频生成；与 Agents 共用同一 MCP 安装面。",
       "novelty": "创意多模态能力作为 agent 技能层一次安装覆盖。",
       "urls": {
@@ -284,15 +460,15 @@
         "Voice",
         "Multimodal"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "juggler",
       "first_detected": "2026-09-15T08:20:00+08:00",
-      "last_updated": "2026-09-15T08:20:00+08:00",
+      "last_updated": "2026-09-16T08:20:00+08:00",
       "name": "Juggler",
       "score": 85,
-      "status": "new",
+      "status": "watching",
       "summary": "可视化 AI 编程 harness：Finder 风格列展示工具调用/审批/原始上下文，分支子线程，持久会话，工具皆可检视的 JS 插件。",
       "novelty": "把 coding agent 的中途舵面做成可观察的可视化控制台。",
       "urls": {
@@ -305,7 +481,7 @@
         "Visual",
         "PH"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "useagent",
@@ -441,10 +617,10 @@
     {
       "id": "trycase",
       "first_detected": "2026-09-15T08:20:00+08:00",
-      "last_updated": "2026-09-15T08:20:00+08:00",
+      "last_updated": "2026-09-16T08:20:00+08:00",
       "name": "TryCase",
       "score": 83,
-      "status": "new",
+      "status": "watching",
       "summary": "开 PR → 一次性环境 + 测试 agent 像用户一样点击 → 产出视频 walkthrough 与合并裁决；支持并行 PR 与远程桌面介入。",
       "novelty": "把「人审 PR」换成 agent 操作验证 + 视频证据的 playbook。",
       "urls": {
@@ -458,7 +634,7 @@
         "Video",
         "PH"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "chatgpt-financial-services",
@@ -525,15 +701,16 @@
     {
       "id": "claude-code-2-1-269",
       "first_detected": "2026-09-14T08:20:00+08:00",
-      "last_updated": "2026-09-15T08:20:00+08:00",
+      "last_updated": "2026-09-16T08:20:00+08:00",
       "name": "Claude Code 2.1.269",
       "score": 81,
       "status": "watching",
-      "summary": "Claude Code 2.1.269 起持续加 harness：2.1.271 增加 auto 沙箱 per-command allowed_domains 与子 agent omitClaudeMd。",
+      "summary": "Claude Code 2.1.269 起持续加 harness：2.1.271 增加 auto 沙箱 per-command allowed_domains 与子 agent omitClaudeMd。；窗口内续发 v2.1.273：网关提示头、MCP 断连通知、Remote Control fork 到本机后台（补丁级 harness 强化）。",
       "novelty": "把技能/插件变成可 CI 评分的分发单元，并把多智能体 fan-out 做成组织可调的控制面。",
       "urls": {
         "official": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
-        "followup": "https://github.com/anthropics/claude-code/releases/tag/v2.1.270"
+        "followup": "https://github.com/anthropics/claude-code/releases/tag/v2.1.270",
+        "release_273": "https://github.com/anthropics/claude-code/releases/tag/v2.1.273"
       },
       "tags": [
         "Anthropic",
@@ -589,10 +766,10 @@
     {
       "id": "ozbrain",
       "first_detected": "2026-09-15T08:20:00+08:00",
-      "last_updated": "2026-09-15T08:20:00+08:00",
+      "last_updated": "2026-09-16T08:20:00+08:00",
       "name": "OzBrain",
       "score": 81,
-      "status": "new",
+      "status": "watching",
       "summary": "多人与多 agent 共享知识脑：暂存/晋升冲突处理，弃用而非覆盖的版本化（面向 agent 知识，而非个人笔记 MCP）。",
       "novelty": "共享知识层带冲突版本治理，服务多 agent 协作记忆。",
       "urls": {
@@ -605,7 +782,7 @@
         "Versioning",
         "PH"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "resurf",

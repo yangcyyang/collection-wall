@@ -1,19 +1,19 @@
 {
   "source": "ai-frontier-radar",
   "title": "前沿信号",
-  "updated_at": "2026-09-15T08:20:00+08:00",
+  "updated_at": "2026-09-16T08:20:00+08:00",
   "count": 12,
   "items": [
     {
       "id": "agent-persistent-computer",
       "title": "智能体正在拥有自己的长期计算环境",
       "type": "pattern",
-      "score": 96,
+      "score": 97,
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-15T08:20:00+08:00",
-      "summary": "个人/企业持久「agent 电脑」继续产品化：Cursor Projects 用常驻线程与共享记忆替代每任务新 chat，并在本机与 agents 电脑间同步；叠加 GPT-Live-1 全双工语音入口与 ChatGPT Work Data agent 的长驻数据工作面。Meta Muse Secure VM（9/8）仍是消费级对照锚点。",
+      "last_updated": "2026-09-16T08:20:00+08:00",
+      "summary": "持久 agent 电脑品类继续扩：jurniti 用每 agent 一 Firecracker microVM（KVM 边界、BYOK 在 guest、CLI=REST=MCP）做 always-on；叠加既有 Cursor Projects、Muse Secure VM、Aside 本地 agent 浏览器。隔离边界从「共享容器」明确走向「微虚拟机」。",
       "why_it_matters": "叙事从「模型会点鼠标」变成「每人一台隔离 VM 里的代理」。Sentinel/审批/审计说明大众 agent 的产品化关键是安全电脑，而不是更长的聊天窗口。",
       "tags": [
         "智能体",
@@ -26,6 +26,18 @@
         "Sentinel"
       ],
       "evidence": [
+        {
+          "url": "https://www.producthunt.com/products/jurniti",
+          "source": "producthunt",
+          "note": "jurniti PH 发布",
+          "date": "2026-09-15"
+        },
+        {
+          "url": "https://www.jurniti.com/",
+          "source": "product",
+          "note": "jurniti：Firecracker microVM always-on agents",
+          "date": "2026-09-15"
+        },
         {
           "url": "https://x.com/ChatGPT/status/2098519342530920488",
           "source": "official",
@@ -124,7 +136,7 @@
         }
       ],
       "watch_next": [
-        "Almanac、OpenTag 对 beafk、useagent、vicoa：谁先做出离开后还在跑",
+        "jurniti vs beafk/useagent/Aside：谁先做出可信离开后还在跑",
         "Maritime 每月 1 美元醒来后的真实成本"
       ],
       "homepage": true,
@@ -136,6 +148,10 @@
         {
           "at": "2026-09-04T08:57:00+08:00",
           "change": "Astra CU 扩量 + Grok Bot Enterprise；score 91→92"
+        },
+        {
+          "at": "2026-09-16T08:20:00+08:00",
+          "change": "jurniti microVM always-on：score 96→97"
         }
       ]
     },
@@ -270,12 +286,12 @@
       "id": "harness-control-plane",
       "title": "编程运行时在加控制面，不是发新模型",
       "type": "pattern",
-      "score": 95,
+      "score": 96,
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-08-28T00:00:00+08:00",
-      "last_updated": "2026-09-15T08:20:00+08:00",
-      "summary": "Agent harness/控制面被实验室直接产品化：OpenAI Agents API 公测把 Codex harness（编排、长会话、上下文压缩、子 agent、MCP）做成托管 API，并提供 OpenAI 托管或 BYO/合作伙伴 sandbox；Anthropic Managed Agents 新增服务端 permission policy `auto` 与 `sessions connect` 直播终端审批；Cursor Projects 把常驻 coordinator 做成编辑器默认工作面。",
+      "last_updated": "2026-09-16T08:20:00+08:00",
+      "summary": "控制面继续下沉到运维可观测：Claude Code v2.1.273 加 LLM gateway 提示头、MCP 断连通知、Remote Control→本机后台 fork；Buddy 把流水线/部署/sandbox 做成 Remote MCP。Harness 不只编排模型，还要管 agent 的 DevOps 面。",
       "why_it_matters": "第三方不必自建控制面即可嵌入同一套 agent loop；许可/沙箱/会话成为平台原语，而不只是应用层胶水。",
       "tags": [
         "运行时",
@@ -288,6 +304,18 @@
         "沙箱"
       ],
       "evidence": [
+        {
+          "url": "https://buddy.works/docs/ai-agents/mcp",
+          "source": "official",
+          "note": "Buddy MCP：CI/CD 控制面交给 agent",
+          "date": "2026-09-15"
+        },
+        {
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.273",
+          "source": "official",
+          "note": "Claude Code 2.1.273 gateway headers + MCP disconnect + RC fork",
+          "date": "2026-09-16"
+        },
         {
           "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
           "source": "official",
@@ -404,6 +432,10 @@
         {
           "at": "2026-09-04T08:57:00+08:00",
           "change": "Vercel Sandbox + Responses 控制原语 + Blume；score 83→86；type emerging_signal→strong_signal"
+        },
+        {
+          "at": "2026-09-16T08:20:00+08:00",
+          "change": "Buddy MCP + Claude Code 2.1.273：score 95→96"
         }
       ]
     },
@@ -411,11 +443,11 @@
       "id": "recursive-alignment-loop",
       "title": "递归自我改进正在离开演示稿，变成可运行的研究循环",
       "type": "pattern",
-      "score": 95,
+      "score": 96,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-15T08:20:00+08:00",
+      "last_updated": "2026-09-16T08:20:00+08:00",
       "summary": "Amodei 将「AI 建造下一代 AI」的递归自我改进标为必须 pacing 的主因，并引用 OAI-HF 类 agent 集群误对齐；Altman/Musk/Hassabis 在公开层面对 pacing 方向形成罕见对齐。递归循环正从研究叙事进入行业治理议程。",
       "why_it_matters": "若对齐和训练优化成为智能体自己的工作，产品和安全的节奏都会变。不要把 Hy4 的递归自改进数字写成已经复现的事实。",
       "tags": [
@@ -425,6 +457,12 @@
         "Hy4"
       ],
       "evidence": [
+        {
+          "url": "https://www.cnbc.com/2026/09/15/open-ai-google-anthropic-safety.html",
+          "source": "press",
+          "note": "三家谈 standards body——递归风险进入治理外交",
+          "date": "2026-09-15"
+        },
         {
           "url": "https://x.com/sama/status/2098811563415150910",
           "source": "official",
@@ -530,6 +568,10 @@
         {
           "at": "2026-09-04T08:57:00+08:00",
           "change": "Astra 错位监控+系统卡；score 87→89"
+        },
+        {
+          "at": "2026-09-16T08:20:00+08:00",
+          "change": "standards body 磋商：score 95→96"
         }
       ]
     },
@@ -537,12 +579,12 @@
       "id": "multi-agent-team-orchestration",
       "title": "多智能体对抗式协作正在变成可编程的运行时模式",
       "type": "strong_signal",
-      "score": 94,
+      "score": 95,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-09-01T08:50:00+08:00",
-      "last_updated": "2026-09-15T08:20:00+08:00",
-      "summary": "Cursor Projects 在窗口内被员工细化：coordinator 可协调数十到上百 subagent、舰队级共享知识、可进入子 agent VM；Claude Code 2.1.269 把 Workflow 并发提到 1–256。多智能体编排继续从演示变成默认可配置运行时。",
+      "last_updated": "2026-09-16T08:20:00+08:00",
+      "summary": "Cursor Projects / Claude 高并发之外，社区出现 Plasma Radio：跨 Claude/Codex/Grok/Cursor 的共享房间，让多 agent 直接对话、减少人复制粘贴路由——编排从「单 runtime 舰队」扩到「跨提供商会话总线」。",
       "why_it_matters": "协作单元从「一次 chat 一次任务」变成「一个项目一台 agent 团队」，会改写工具默认信息架构与计费。",
       "tags": [
         "多智能体",
@@ -551,6 +593,12 @@
         "Antigravity"
       ],
       "evidence": [
+        {
+          "url": "https://x.com/rohanpaul_ai/status/2100003417926291532",
+          "source": "community",
+          "note": "Plasma Radio：跨提供商共享 agent 房间",
+          "date": "2026-09-16T07:26:45+08:00"
+        },
         {
           "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
           "source": "official",
@@ -664,6 +712,10 @@
         {
           "at": "2026-09-04T08:57:00+08:00",
           "change": "Responses mid-turn + Bot enterprise teammates；score 86→87"
+        },
+        {
+          "at": "2026-09-16T08:20:00+08:00",
+          "change": "Plasma Radio 跨提供商房间：score 94→95"
         }
       ]
     },
@@ -671,12 +723,12 @@
       "id": "frontier-pacing-embedded-evaluators",
       "title": "前沿实验室开始用「嵌入式第三方评估」来给能力增速踩刹车",
       "type": "strong_signal",
-      "score": 93,
+      "score": 95,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-09-14T08:20:00+08:00",
-      "last_updated": "2026-09-15T08:20:00+08:00",
-      "summary": "Amodei 提出 pacing 三步与嵌入式第三方评估后，Altman 进一步把 OpenAI 实践说清：在预期显著抬升能力的 frontier RL 跑之前，先写显式 safety cases；并强调 pacing≠停，而是对齐/监控要付成本。共享误对齐、监控与安全标准被当作行业协调方向。",
+      "last_updated": "2026-09-16T08:20:00+08:00",
+      "summary": "在 Amodei pacing / Altman safety cases 之后，OpenAI 发言人确认正与 Anthropic、Google 磋商行业 AI 标准机构（承接 Hassabis FINRA 式提案）。三大前沿实验室从口头踩刹车走向制度性协调——仍是谈、未落章程。",
       "why_it_matters": "pacing 从「承诺让评估者进驻」推进到「能力跃迁前的可审计工件（safety cases）」——把放慢做成研发门控，而不只是发布门控。",
       "tags": [
         "Pacing",
@@ -688,6 +740,18 @@
         "治理"
       ],
       "evidence": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-09-15/openai-says-it-s-working-with-anthropic-google-on-ai-safety",
+          "source": "press",
+          "note": "Bloomberg：三家安全协作与标准机构磋商",
+          "date": "2026-09-15"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/09/15/open-ai-google-anthropic-safety.html",
+          "source": "press",
+          "note": "OpenAI 确认与 Anthropic、Google 谈 AI standards body",
+          "date": "2026-09-15"
+        },
         {
           "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
           "source": "official",
@@ -726,11 +790,16 @@
         }
       ],
       "watch_next": [
-        "OpenAI safety cases 是否对外公开模板或第三方复审",
-        "METR 等是否进驻 Anthropic/OpenAI",
-        "其他实验室是否跟进 RL-前 safety case 惯例"
+        "标准机构是否落章程/成员/执法力",
+        "OpenAI safety cases 是否公开",
+        "METR 等是否进驻"
       ],
-      "judgment_changes": [],
+      "judgment_changes": [
+        {
+          "at": "2026-09-16T08:20:00+08:00",
+          "change": "三家 standards body 磋商确认：score 93→95"
+        }
+      ],
       "homepage": true
     },
     {
@@ -857,13 +926,13 @@
     {
       "id": "agent-flash-over-pro-economics",
       "title": "Flash 级模型开始在 agent 负载上挑战甚至替换 Pro 档",
-      "type": "emerging_signal",
-      "score": 88,
+      "type": "strong_signal",
+      "score": 90,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-09-10T18:20:00+08:00",
-      "last_updated": "2026-09-15T08:20:00+08:00",
-      "summary": "DeepSeek 已于 2026-09-14 04:00 UTC 把全部 deepseek-v4-pro 请求路由到 V4.1-Flash 并按 Flash 计价，直至 V4.1-Pro 上线。Flash 取代 Pro 默认路径从公告变成生产切流。",
+      "last_updated": "2026-09-16T08:20:00+08:00",
+      "summary": "DeepSeek Pro→Flash 切流之后，ChatGPT 官方宣布 2026-10-14 起 GPT-5.5 从 ChatGPT/Work/Codex 全计划退役，Codex 用户改用 GPT-5.6 Sol 或 GPT-6 Astra——公开点名「经济/快档 Sol vs 前沿档 Astra」梯子，模型分层切流成为默认产品语言。",
       "why_it_matters": "agent 默认算力正在被「够用且更便宜的 Flash」接管；旗舰 Pro 变为可选/后续，而不是默认入口。",
       "tags": [
         "DeepSeek",
@@ -873,6 +942,12 @@
         "MoE"
       ],
       "evidence": [
+        {
+          "url": "https://x.com/ChatGPT/status/2099954190600876533",
+          "source": "official",
+          "note": "GPT-5.5 sunset → Sol / Astra ladder",
+          "date": "2026-09-16T04:11:08+08:00"
+        },
         {
           "url": "https://x.com/Alibaba_Qwen/status/2098676748972122394",
           "source": "official",
@@ -911,22 +986,28 @@
         }
       ],
       "watch_next": [
-        "9/14 DeepSeek Pro→Flash 路由是否如期",
-        "SWE-2 独立 eval 复现",
-        "其他实验室是否跟进"
+        "10/14 GPT-5.5 退役后的默认路由",
+        "Sol vs Astra 在 agent 负载上的真实占比",
+        "其他实验室是否跟进显式双档梯子"
       ],
-      "homepage": true
+      "homepage": true,
+      "judgment_changes": [
+        {
+          "at": "2026-09-16T08:20:00+08:00",
+          "change": "GPT-5.5→Sol/Astra 公开梯子：score 88→90，emerging→strong_signal"
+        }
+      ]
     },
     {
       "id": "skills-as-distribution",
       "title": "技能正在变成智能体能力的分发层",
       "type": "pattern",
-      "score": 88,
+      "score": 92,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-15T08:20:00+08:00",
-      "summary": "Claude Code 2.1.269 让插件可用 `claude plugin eval` 跑评分报告——技能成为可 CI 化的分发单元；ChatGPT Sites 达 500 万+并加协作/私域/自定义域名；社区继续把 skills/MCP 当元 harness。",
+      "last_updated": "2026-09-16T08:20:00+08:00",
+      "summary": "分发面继续扩：Claude×Salesforce beta 带来 37 个预置 sales skills；Meta WhatsApp Business Tools MCP 把企业开户/模板/ops 交给 coding agent；Buddy 把 CI/CD 做成 Remote MCP；PH 上出现书→Claude slash skills 打包。Skills/MCP 同时覆盖垂直工作流与平台运营面。",
       "why_it_matters": "第四个命令行不值钱。可安装的技能和模板才是分发。企业插件市场把同一层做成了日常同步的软件包。",
       "tags": [
         "技能",
@@ -934,6 +1015,30 @@
         "分发"
       ],
       "evidence": [
+        {
+          "url": "https://github.com/slavingia/skills",
+          "source": "community",
+          "note": "Minimalist Entrepreneur → Claude Code skills",
+          "date": "2026-09-15"
+        },
+        {
+          "url": "https://buddy.works/docs/ai-agents/mcp",
+          "source": "official",
+          "note": "Buddy AI Access MCP：agent DevOps 控制面",
+          "date": "2026-09-15"
+        },
+        {
+          "url": "https://developers.facebook.com/documentation/mcp",
+          "source": "official",
+          "note": "WhatsApp Business Tools MCP 文档上线",
+          "date": "2026-09-15"
+        },
+        {
+          "url": "https://x.com/claudeai/status/2099876514330206578",
+          "source": "official",
+          "note": "Salesforce in Claude + 37 sales skills beta",
+          "date": "2026-09-15T23:02:29+08:00"
+        },
         {
           "url": "https://x.com/simonw/status/2098929534968238094",
           "source": "reliable",
@@ -1032,6 +1137,8 @@
         }
       ],
       "watch_next": [
+        "Salesforce skills 真实 RIA/销售团队留存",
+        "WhatsApp MCP 灰度扩量与审计事件",
         "技能质量会不会被批量克隆淹没"
       ],
       "homepage": true,
@@ -1039,6 +1146,10 @@
         {
           "at": "2026-09-04T08:57:00+08:00",
           "change": "Blume teach-by-showing；score 76→78"
+        },
+        {
+          "at": "2026-09-16T08:20:00+08:00",
+          "change": "Salesforce skills + WhatsApp/Buddy MCP：score 88→92"
         }
       ]
     },
@@ -1107,14 +1218,14 @@
     {
       "id": "voice-first-agent-interface",
       "title": "全双工语音正在变成 agent 的一等入口",
-      "type": "emerging_signal",
-      "score": 82,
-      "confidence": "medium",
+      "type": "strong_signal",
+      "score": 91,
+      "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-09-11T08:20:00+08:00",
-      "last_updated": "2026-09-15T08:20:00+08:00",
-      "summary": "OpenAI 发布 GPT-Live-1 API：语音 agent 可边听边说，并与所选模型/harness 协作；同日 Cognition 用 GPT-Live + SWE-2 推出 Devin Voice（语音下发工程任务）。这不是又一个语音聊天皮肤，而是把全双工会话接进可执行 agent loop。",
-      "why_it_matters": "若语音成为默认下发面，agent 产品的打断、审批、工具调用与延迟预算都要按「通话」重做，而不只是文本 chat。",
+      "last_updated": "2026-09-16T08:20:00+08:00",
+      "summary": "Google DeepMind 发布 Gemini 3.8 Live / Extended Thinking：全双工语音会话内可持续推理、近实时视觉、后台异步 tool calling（不打断对话）。叠加既有 GPT-Live-1 + Devin Voice，语音优先从「可通话」升级为「会话内常驻 agent loop」。架构上出现分叉：Gemini 把 reasoning 留在同一语音会话，OpenAI GPT-Live-1 倾向外置推理。",
+      "why_it_matters": "Voice 不再是聊天皮肤，而是可编排的生产入口：后台工具 + 会话内 thinking 决定谁能做真 agent，而不只是语音助手。",
       "tags": [
         "GPT-Live-1",
         "Voice",
@@ -1122,6 +1233,36 @@
         "Agent"
       ],
       "evidence": [
+        {
+          "url": "https://sierra.ai/blog/multimodal-agents",
+          "source": "official",
+          "note": "Sierra Multimodal Agents：voice↔text↔visuals + MCP UI",
+          "date": "2026-09-15"
+        },
+        {
+          "url": "https://x.com/thenewstack/status/2100011904320057538",
+          "source": "press",
+          "note": "Gemini 会话内推理 vs GPT-Live 外置推理架构对比",
+          "date": "2026-09-16T08:00:28+08:00"
+        },
+        {
+          "url": "https://x.com/GoogleDeepMind/status/2099907447313899684",
+          "source": "official",
+          "note": "Background tool calling + Extended Thinking 叙述进度",
+          "date": "2026-09-16T01:05:24+08:00"
+        },
+        {
+          "url": "https://x.com/GoogleDeepMind/status/2099907440422830269",
+          "source": "official",
+          "note": "DeepMind 官方：talk, think, background tasks without breaking flow",
+          "date": "2026-09-16T01:05:22+08:00"
+        },
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+          "source": "official",
+          "note": "Gemini 3.8 Live + Extended Thinking 正式发布",
+          "date": "2026-09-15"
+        },
         {
           "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
           "source": "official",
@@ -1160,11 +1301,17 @@
         }
       ],
       "watch_next": [
-        "更多生产 harness 接入 GPT-Live",
-        "全双工下的工具审批 UX"
+        "Gemini Live vs GPT-Live 生产 harness 接入面",
+        "全双工下的工具审批 UX",
+        "Sierra 多模态切换是否成客户 agent 默认"
       ],
-      "judgment_changes": [],
-      "homepage": false
+      "judgment_changes": [
+        {
+          "at": "2026-09-16T08:20:00+08:00",
+          "change": "Gemini 3.8 Live 落地：score 82→91，emerging→strong_signal，homepage true"
+        }
+      ],
+      "homepage": true
     },
     {
       "id": "physical-mcp-mhs",
