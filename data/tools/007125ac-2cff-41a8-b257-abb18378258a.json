@@ -1,0 +1,64 @@
+{
+  "id": "007125ac-2cff-41a8-b257-abb18378258a",
+  "url": "https://mp.weixin.qq.com/s/zk0KxuLzhmMJ4LPYW_OHMA",
+  "name": "才华埋葬昨天",
+  "headline": "DeepSeek 算子作者谈 AI 逼人转业的随笔",
+  "intro": "DeepSeek 工程师 intlsy 的公众号长文：从 DeepSeek v4.1 与自研 Attention 算子写起，写 AI 从助手变成算子大师后，写算子的人如何从「亲手优化」被迫转向「开 AI 的机甲驾驶员」。文中谈转业而非失业、学生工程能力、以及开源普惠智能对抗赛博朋克集中化，适合想理解一线算子工程师心态与 AI 替代焦虑的人。",
+  "category": "✍️ 文字写作",
+  "subcategory": "内容平台",
+  "tags": [
+    "DeepSeek",
+    "算子优化",
+    "AI替代",
+    "工程师随笔",
+    "开源AI",
+    "职业转型",
+    "CUDA",
+    "微信公众号"
+  ],
+  "capabilities": [
+    "阅读一线算子工程师视角",
+    "理解 AI 对算子岗位冲击",
+    "对照转业与失业判断",
+    "思考开源普惠 vs 封闭 AGI",
+    "获取 Attention 算子作者自述"
+  ],
+  "scenarios": [
+    "在关心 AI 会不会取代工程师时",
+    "在了解 DeepSeek 工程文化时",
+    "在思考自己要不要转 Agent 驾驭时",
+    "在找高质量中文 AI 职业随笔时"
+  ],
+  "search_keywords": [
+    "DeepSeek 算子作者",
+    "才华埋葬昨天",
+    "intlsy",
+    "AI 转业",
+    "算子被 AI 取代",
+    "机甲驾驶员 Agent",
+    "DeepSeek Attention 算子",
+    "AI 工程师随笔",
+    "开源普惠智能"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [
+      "其他 AI 工程师公开信",
+      "半佛仙人科技随笔"
+    ],
+    "pairs_with": [
+      "DeepSeek 技术报告"
+    ]
+  },
+  "tech_highlights": [
+    "作者参与 DeepSeek 主 Attention（head dim=512 MQA）算子",
+    "讨论 harness / Agent 对工程岗位的重塑"
+  ],
+  "cover": "covers/007125ac-2cff-41a8-b257-abb18378258a.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-09-16T02:37:54",
+  "my_notes": "",
+  "capture_status": "ok"
+}
