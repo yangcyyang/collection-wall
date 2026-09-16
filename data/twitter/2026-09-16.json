@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-16",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2100071835480269280",
+      "author": "dashiAIxz",
+      "bio": "将复杂技术转化为可复用流程！\n开发了一个PPT skill：chuspeeism/dashiAI-ppt-skill\n抖音/小红书/B站：大师的AI小灶",
+      "text": "昨天的 飞书未来无限大会 看完感触还是很深的，我们团队从年初 Openclaw 流行起来就一直在结合飞书CLI 在使用各种 Agent，到现在用了也有半年多了。加上最近也在深度体验豆包办公，看到了很多很惊艳的功能\n\n不得不说飞书在 AI 生态上的开放程度远远超过其他办公产品，基本上可以非常无痛的跟飞书已有的 能力无缝结合，用起来非常的原生。用过飞书和 Agent 结合的人应该都知道我在说什么\n\n办公、文档、权限系统、飞书妙搭这些产品的设计都像是为了 Agent 而设计的。尤其飞书的多维表格，我觉得是一个前瞻性非常强的项目，我现在很多内部项目都是直接拿多维表格来作为项目后端/后台来使用的。用起来稳定性和体验都非常好\n\n最近我们团队也有很多项目都是在通过豆包工作来完成，很多功能和细节做的还是很用心的。举几个例子吧\n\n团队里，很多人平时会有一些提效的工具和项目，但是因为没有开发基础，对打包、部署、上线这些步骤都无从下手，很多有效的经验和能力很难复用给其他人。豆包工作提供了一套服务，开发一个网页，前端、后端、部署、发布、权限管理都可以在一个窗口下完成。这些是 Codex、Claude 这些产品很难做到的\n\n过去用 Openclaw、hremes 想要读取飞书上的内容，要配置各种权限，创建机器人，还有加上各种中间件才能让它读到我的工作内容。但如果换做是豆包工作，Agent 对话窗口内可以直接拉同事、文档、对话，基本上你在飞书里掌握的所有权限，可以查看的信息，它跟你是完全同步的，而且不需要任何的额外配置\n\n还有个很好用的，豆包的角色可以像 Grok bot 一样定义成多个，还能根据能力类型直接拉进群，根据会话上下文直接指派任务，这跟个人 Agent 的差别是非常巨大的。为了稳定性，你还可以定义它运行在本地还是运行在分配给你的免费服务器上",
+      "created_at": "Wed Sep 16 03:58:37 +0000 2026",
+      "likes": 1,
+      "views": 25,
+      "url": "https://x.com/dashiAIxz/status/2100071835480269280",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2100071405643829248/vid/avc1/480x270/W_OtO6fYfoCZvT3a.mp4?tag=29",
+        "https://pbs.twimg.com/media/HSTz1pNacAAl6aS.jpg",
+        "https://pbs.twimg.com/media/HSTz1pfbEAAfD3P.jpg",
+        "https://pbs.twimg.com/media/HSTz1pQacAAkCS8.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2100071405643829248/img/xmsfHpYz5-xZzaJS.jpg",
+        "https://pbs.twimg.com/media/HSTz1pNacAAl6aS.jpg",
+        "https://pbs.twimg.com/media/HSTz1pfbEAAfD3P.jpg",
+        "https://pbs.twimg.com/media/HSTz1pQacAAkCS8.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 71.421,
+      "title": "飞书大会后感：Openclaw/飞书 CLI 到豆包办公，Agent 原生办公栈",
+      "summary": "大师回顾飞书未来无限大会：团队半年用飞书 CLI+Agent，并深度体验豆包办公；强调飞书开放度与多维表格适合当轻量后端，豆包可在窗口内完成网页前后端部署与权限，且 Agent 权限与飞书账号同步、可多角色拉群派活。",
+      "recommend_reason": "一线团队对「办公产品为 Agent 而设计」的具体体感，比口号更有信息量。",
+      "tags": [
+        "飞书",
+        "豆包",
+        "Agent",
+        "办公AI",
+        "Openclaw"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2100067495235420356",
+      "author": "YuLin807",
+      "bio": "Agent 玩家｜偏爱 pi + herdr \n我的个人项目见⬇️Github｜自由，希望与爱",
+      "text": "codex 重新开启开发者赞助计划！\n\n100 刀免费额度！为期 6 个月。\n\n冲！",
+      "created_at": "Wed Sep 16 03:41:22 +0000 2026",
+      "likes": 1,
+      "views": 133,
+      "url": "https://x.com/YuLin807/status/2100067495235420356",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2099965140233847246",
+        "author": "charliermarsh",
+        "name": "Charlie Marsh",
+        "text": "We started Codex for OSS six months ago.\n\nToday, we’re renewing the program with $100 Pro plans and doubling the number of grants (from 5,000 to 10,000) to reach more maintainers.\n\n(If you received a grant previously, we encourage you to re-apply!)\n\nhttps://t.co/PiUy7vNFZo",
+        "created_at": "Tue Sep 15 20:54:39 +0000 2026",
+        "url": "https://x.com/charliermarsh/status/2099965140233847246",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": [],
+        "card": {
+          "name": "summary_large_image",
+          "title": "Codex for Open Source",
+          "description": "Open-source maintainers can apply to Codex for Open Source, including ChatGPT Pro, AI-powered code review, and security tools for critical projects.",
+          "image_url": "https://pbs.twimg.com/card_img/2099163782815834112/akUkqRyR?format=jpg&name=800x320_1",
+          "url": "https://openai.com/form/codex-for-oss/",
+          "domain": "openai.com"
+        }
+      },
+      "score": 48.207,
+      "summary": "codex 重新开启开发者赞助计划！\n\n100 刀免费额度！为期 6 个月。\n\n冲！",
+      "recommend_reason": "有明确额度与申请窗口的官方福利，对开源维护者与重度 Codex 用户直接有用。",
+      "tags": [
+        "Codex",
+        "开源",
+        "赞助",
+        "OpenAI",
+        "开发者"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2100062416679944198",
+      "author": "taiyo_ai_gakuse",
+      "bio": "AI Agent領域で大阪万博登壇。AIエージェント専門受託開発 / X運用代行はDMまで / https://t.co/RIpQYkI3ep MCP展開中。 / 大学生",
+      "text": "DevinがOSSで公開している「/handoff」を使うと、ローカルで進めていた開発をクラウド上のDevinに引き継げる。\n\nCodexやClaude Codeにも対応しているので、手元で作業して、続きをいつでもDevinに任せられる。これはもう、Devinへの課金が必須になりそう",
+      "created_at": "Wed Sep 16 03:21:12 +0000 2026",
+      "likes": 2,
+      "views": 789,
+      "url": "https://x.com/taiyo_ai_gakuse/status/2100062416679944198",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2100029806196969677",
+        "author": "taiyo_ai_gakuse",
+        "name": "Taiyo Kimura",
+        "text": "本当に開発はDevin一択になったかも。最近クラウド環境上でもAstra 6とFable 5.1使えるようになったので本格的にクラウド環境でなんでもできるようになった。神",
+        "created_at": "Wed Sep 16 01:11:37 +0000 2026",
+        "url": "https://x.com/taiyo_ai_gakuse/status/2100029806196969677",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 50.757,
+      "summary": "用 Devin 开源的 /handoff，可以把本地已推进的开发交接给云端 Devin；也兼容 Codex 和 Claude Code，因此可以先在手头做一段，再随时把后续交给 Devin。作者觉得这几乎让 Devin 订阅变成刚需。",
+      "recommend_reason": "本地 IDE agent 与云端 Devin 的交接能力，是混合开发工作流的关键拼图。",
+      "tags": [
+        "Devin",
+        "handoff",
+        "Codex",
+        "Claude Code",
+        "云端开发"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2100059716282167605",
+      "author": "imwsl90",
+      "bio": "前程序员/产品经理/中年已婚带2娃\n\n- AI一人公司赚钱实践、互联网历史八卦\n\n👨‍💻日本乐天卡(接码/外网)：https://t.co/RkXP4NgyDP\n📱中港澳esim(新加坡IP/外网): https://t.co/HeUhDeX9MO\n🤖核心群: https://t.co/4XzSRPqKCK",
+      "text": "herdr + claude code 真的很不错\n\n我现在基本都是在herdr里面使用claude code, 系统设置了auto start, 进入系统后在一个工作空间里面打开terminal然后打开herdr\n\n由于herdr有非常不错的存档功能，打开后就可以直接工作了\n\n我现在一次开5-8个项目vibe coding，目前并没有感到什么瓶颈，应该是我的项目太简单了，我经常是在不同的项目之间切换\n\n我也不会检查claude code写的代码，测试没问题基本就可以上线了，我只抓几个关键节点就好了 \n\n计划后续探索一些更难的事情，现在事情还是太简单了\n\n不过herdr真的很好用 哈哈哈\n\n我还没用其他高级功能，计划有时间探索下",
+      "created_at": "Wed Sep 16 03:10:28 +0000 2026",
+      "likes": 0,
+      "views": 330,
+      "url": "https://x.com/imwsl90/status/2100059716282167605",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSToXbxbUAAcEDf.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSToXbxbUAAcEDf.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 53.373,
+      "title": "imwsl：herdr + Claude Code 多开 5–8 项目的日常 vibe 工作流",
+      "summary": "作者把 Claude Code 放进 herdr 使用，依赖 auto start 与存档，一次开 5–8 个项目切换；测试通过即上线、只盯关键节点，并计划探索更难任务与高级功能。",
+      "recommend_reason": "真实多项目并行的 coding agent 工作台体感，适合对照自己的环境与存档习惯。",
+      "tags": [
+        "herdr",
+        "Claude Code",
+        "VibeCoding",
+        "工作流",
+        "编程Agent"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2100057838915813419",
+      "author": "lxfater",
+      "bio": "",
+      "text": "装完这几个Skill，今天上班直接快一倍\n\n如果你在用 AI办公，这 6 个 Skill 很适合上班直接装：\n\n1. document-skills\nWord / Excel / PPT / PDF，一句话处理办公文件\n\n2. agent-browser\n让 AI 自动打开网页、搜索、点击、填表\n\n3. summarize\nPDF、网页、长文章、视频链接，直接提炼重点\n\n4. local-whisper\n会议录音本地转文字，再直接生成纪要和待办\n\n5. tavily-search\n查最新新闻、数据和资料，而且会附来源\n\n6. skill-creator\n把你每天重复的工作流程，直接封装成一个 Skill\n\n巧用Skill，让AI替你上班！！",
+      "created_at": "Wed Sep 16 03:03:00 +0000 2026",
+      "likes": 7,
+      "views": "1857",
+      "url": "https://x.com/i/status/2100057838915813419",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSTnYJvbgAAQwGn.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSTnYJvbgAAQwGn.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2099743616914845741",
+        "author": "lxfater",
+        "name": "铁锤人",
+        "text": "AI 最大的机会，根本不在 Coding Agent \n\n而是Working Agent！！\n\n为什么呢？  \n\n从用户总体数量来说，办公人群是编程人群的25倍以上！！  \n\n但这还不是最关键的因素，下面播客里面\n\n刘聪NLP说出了赤裸裸的真相：  \n就是程序员付费意愿不高\n\n他们倾向于从成本，而不是产品交付的价值，来衡量一个产品的价值。  \n\n但Working Agent的用户大多数都是老板，普通人。\n\n我的观点和 @Baidu_Inc 百度搭子产品架构师，李景秋的很类似。\n\n老板判断标准很清楚，这个东西能不能让我赚更多？ \n\n假如是，就可以购买。  \n\n而普通人在老板的带动下，他们一旦发现类似DuMate这种真正能交付产物的Agent。 \n\n他们也很愿意为这种像魔法一样的产品买单。  \n\n这就是为什么AI 最大的机会是Working Agent！！ \n\n它的受众广，付费意愿高。  \n\n仅仅上面这两条，就会让一个产品增长从困难模式到简单模式。  \n\n注：这个切片的出处是《深度进化》：  这是一档讲 AI 怎么落地的播客，主要请实验室、创业公司和产线一线的人。  \n\n最近挺火的，喜欢的可以关注一下！！",
+        "created_at": "Tue Sep 15 06:14:24 +0000 2026",
+        "url": "https://x.com/lxfater/status/2099743616914845741",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2099743446189985792/vid/avc1/480x270/a-IqO6ofkbH8Vpot.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2099743446189985792/img/TUlDzIefMTz1734V.jpg"
+        ]
+      },
+      "score": 59.431,
+      "title": "铁锤人推荐 6 个 AI 办公 Skill：文档/浏览器/纪要/搜索一站装",
+      "summary": "列出适合上班即装的 6 个 Skill：document-skills、agent-browser、summarize、local-whisper、tavily-search、skill-creator，覆盖办公文件处理、网页自动操作、长文提炼、本地会议转写与封装重复流程。",
+      "recommend_reason": "可直接照单安装的 Working Agent 技能包，比空谈 Coding Agent 更贴日常提效。",
+      "tags": [
+        "Skill",
+        "AI办公",
+        "Agent",
+        "提效",
+        "工作流"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2100056847420174482",
+      "author": "GoSailGlobal",
+      "bio": "",
+      "text": "发现AI Lab有了第二春，但背后是不同的故事\n\n2015 到 2018：AI Lab 是“技术前沿部门”。\n\n公司怕错过 AI，所以先养起来\n\n2019 到 2022：AI Lab 被业务吞掉。\n\nAI 开始工程化，独立 Lab 的价值下降\n\n2023 到 2026：AI Lab 重新出现\n\n因为大模型、Reasoning、Agent、World Model、Robotics 又把 AI 推回了技术前沿。\n\n但这次有一个巨大区别：\n\n以前 Lab 研究的是“AI 能不能做”\n\n现在 Lab 研究的是“AI 能做到什么程度”",
+      "created_at": "Wed Sep 16 02:59:04 +0000 2026",
+      "likes": 1,
+      "views": "939",
+      "url": "https://x.com/i/status/2100056847420174482",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2099771911475716196",
+        "author": "GoSailGlobal",
+        "name": "Jason Zhu",
+        "text": "有个问题 不懂就问\n\n上海人工智能实验室，之江实验室\n\n不是很长时间没声音了嘛\n\n最近怎么还能火起来👀 是国家又拨经费了嘛",
+        "created_at": "Tue Sep 15 08:06:50 +0000 2026",
+        "url": "https://x.com/GoSailGlobal/status/2099771911475716196",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 49.998,
+      "title": "AI Lab「第二春」：从能不能做，变成能做到什么程度",
+      "summary": "Jason 梳理 AI Lab 三阶段：2015–18 养前沿、2019–22 被业务吞并、2023–26 因大模型/Agent/机器人再起；指出新旧差异在于研究问题从「AI 能不能做」转向「能做到什么程度」。",
+      "recommend_reason": "把国内实验室再热议放进产业周期框架，便于理解为何 Lab 叙事回潮。",
+      "tags": [
+        "AI Lab",
+        "产业",
+        "大模型",
+        "研究院",
+        "组织"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2100056042294165835",
+      "author": "dashiAIxz",
+      "bio": "",
+      "text": "网页版的 Pro 模型一直都是要比 Codex 内的要好用的，单任务经常能跑两小时以上，结合着用，其实每周 GPT6 用量还是非常够用的\n\n顺便再分享一个我自己的用法，对大部分人来说可能适用性更强，我平时有一些比较复杂的需求，都是让 Codex 打开侧边浏览器，然后把完整代码和需求自己整理发给 Pro 模型，完成后 Codex 再自己合入代码，能得到非常好的效果\n\n6 Pro 感觉很多时候比 Fable 5.1 还要聪明，20x 账号下每周的额度加起来感觉比 Claude Max 20x Fable 额度还要多\n\n5x 一周能用 30 条，20x 能用 100 条，一次需求长的时候能跑两个小时以上，基本上也非常够用了。除了强依赖本地环境的测试没办法让 Pro 模型跑之外，基本上都可以交给他来做",
+      "created_at": "Wed Sep 16 02:55:52 +0000 2026",
+      "likes": 0,
+      "views": "128",
+      "url": "https://x.com/i/status/2100056042294165835",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2099873865988247870",
+        "author": "Khazix0918",
+        "name": "数字生命卡兹克",
+        "text": "网页聊天版的GPT-6 Pro在规划层面还是太强了，而且不消耗Codex额度，于是为了榨干200刀的ChatGPT额度，还有这个神级模型GPT-6 Pro，我想了一个办法。\n\n我直接把我服务器的所有的日志、事件记录，还有所有的数据表等等的只读权限，封装成了一个用我自己飞书进行登录验证的MCP，然后再封装成了插件，上传到了ChatGPT上。\n\n于是我就可以实现，在网页版聊天里面的GPT-6 Pro，通过这个服务器的MCP只读插件，来读取我服务器上面的所有的历史数据，通过Github的插件，还可以读取我GitHub上所有的PR记录和代码。\n\n于是，我们就可以用这种方式来让网页版的GPT-6 Pro拿到最全面的数据，来对于我的功能和我的项目进行全方位的思考和规划。\n讲道理，这个质量实在是太高了，而且还不消耗Codex的额度，我但凡用GPT 6 Ultra来一次，Codex额度在我200刀的情况下，能直接干没10%。\n\n然后得到答案以后，还可以直接把它的结果的那个聊天添加到CodeX里面，然后用GPT-6 Astra high来帮我开发。。。\n\n这好像是我觉得我买200刀最能把这个性能榨干的方式了。。。",
+        "created_at": "Tue Sep 15 14:51:58 +0000 2026",
+        "url": "https://x.com/Khazix0918/status/2099873865988247870",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HSQ-2ObbEAAudWE.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HSQ-2ObbEAAudWE.jpg"
+        ]
+      },
+      "score": 48.563,
+      "title": "大师用法：Codex 整理需求交给网页 GPT-6 Pro，再合回代码",
+      "summary": "对比网页 Pro 与 Codex 内模型：Pro 单任务可跑两小时以上且不耗 Codex 额度；复杂需求让 Codex 开侧边浏览器整理代码/需求发给 Pro，完成后再由 Codex 合入。并给出 5x/20x 每周条数体感。",
+      "recommend_reason": "把「网页强规划 + 本地合码」拆成可复制流水线，适合想榨干 ChatGPT 额度的人。",
+      "tags": [
+        "GPT",
+        "Codex",
+        "工作流",
+        "Pro",
+        "编程Agent"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2100055819652038936",
+      "author": "xin_pai88825",
+      "bio": "",
+      "text": "挖到一个夯爆的 Codex 插件，如果在用 codex 开发 iOS APP，请安装 Build iOS APPS 这个插件，用了就回不去了！ https://t.co/qJ1MSk9ShD",
+      "created_at": "Wed Sep 16 02:54:59 +0000 2026",
+      "likes": 50,
+      "views": "2899",
+      "url": "https://x.com/i/status/2100055819652038936",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2100053668641075200/vid/avc1/320x426/tNwHU8P4X1CR3kjM.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2100053668641075200/img/vLOj58CY_RiumDvM.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 67.523,
+      "summary": "挖到一个夯爆的 Codex 插件，如果在用 codex 开发 iOS APP，请安装 Build iOS APPS 这个插件，用了就回不去了！ https://t.co/qJ1MSk9ShD",
+      "recommend_reason": "针对 Codex×iOS 的具体插件线索，对移动端 vibe coding 有实操参考价值。",
+      "tags": [
+        "Codex",
+        "iOS",
+        "插件",
+        "编程Agent",
+        "开发工具"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2100051348725354576",
+      "author": "KinGao476942",
+      "bio": "",
+      "text": "有大神 @MaiYangAI 完整总结了 Grok bot Galaxy 的第一天回顾 👍 八小时的官方直播，全程看肯定看不完，还是需要这类的精华总结啊！",
+      "created_at": "Wed Sep 16 02:37:13 +0000 2026",
+      "likes": 9,
+      "views": "1351",
+      "url": "https://x.com/i/status/2100051348725354576",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2100039483131637915",
+        "author": "MaiYangAI",
+        "name": "Mai Yang",
+        "text": "Grok Bot Galaxy Day1 完整回顾，原视频总时长约 8 小时 45 分；\n\n1. 心智：岗位 bot + 自有电脑 + 长期记忆 + 合上电脑仍跑。\n2. 组织：CoS / ops / eng / data / design 分工；bot 互传 playbook；人类尽量只对一个 CoS。\n3. 工程：编排云 agents，PR 要 proof，夜间清理，紧急也走步骤。\n4. 产品：问数据 → 纠错 → PRD → 设计 → 工程，全链可在 chat 里跑。\n5. 创始人：先卸注意力税，再谈速度；demo 前先让 bot 做 what-shipped。\n6. 主线：公开 messy middle——拉 idea、pivot、真 PR、收尾出现 GrokPot。\n\n详细展开：\n\nGrok Bot Galaxy Day 1\n\n全球 X 直播Matt Palmer、Lauren Tan、Roshan Sadanani 用 Grok Bot 从零现场搭公司\n与此同时，穿插的四个职能专场——101、Engineering、Product Managers、Founders\n\n核心主张贯穿全天：别把 AI 当「任务盒子」，当成有电脑、能拥有结果、合上笔记本还在干活的同事。\n\n| 回放 | 大约对应 | 内容 |\n| --- | --- | --- |\n| 00:00–00:30 | 开场 | 三人圆桌；中间有 Be right back |\n| 00:40–01:30 | 101 | Meet the team：Data Dan / Slide Sonya / Email Ethan；Coffee habits 表单演示 |\n| 01:30–03:45 | 间歇 + build | 拉观众 idea、早期原型 |\n| 04:10–05:50 | Engineering | 讲者 + agent 工作台、PR 审阅 |\n| 06:00–06:30 | PM | 幻灯片 Agents as colleagues + 桌面演示 |\n| 06:30–07:20 | 间歇 + build | 线框、指标 overlay |\n| 07:30–08:20 | Founders | There has never been a better time to build；收尾 Steal Stalk Bot |\n| 08:30–08:45 | 收尾 | 聊天旁证公司名 GrokPot |\n\n---\n\n1）Grok Bot 101（约 00:40–01:30）\n\n回放可见：Meet the team 把 bot 做成岗位角色——Data Dan、Slide Sonya、Email Ethan；随后是聊天工作台，以及 Coffee habits 表单/资料整理演示。\n\n现场ChrisSimpson / Kisalay_：Roman Ugarte 主讲；Kisalay_ 还提到 Amrita Venkatraman 站台。要点是按岗位职责建 bot，不要每个任务新开 chat；给 bot 独立电脑；用 Routines 做摘要、提醒、跟进。messy ask 现场：建 Google Form（每日咖啡杯数、SF 咖啡店偏好），bot 当场适应并产出 Drive 材料。\n\n---\n\n2）Grok Bot for Engineering（约 04:10–05:50）\n\nLingxi：多会话 agent 工作台；管理界面出现 steve、dr eggbot、x、hashbrown 等；recurring routines；admin mock；event 需求草稿；hashbrown 区出现 PR #16 verification-media policy review、#13 re-review、对 409/缓存与 cleanup/launch 脚本的担忧。\n\n现场：\n\nLingxi 讲 autocomplete → agentic coding → 并行云 agents → Grok Bot 当编排者。\n\n关键机制包括：CoS 在 Notion onboard Jenny（ops）拥有 engineering playbook（agent-to-agent handshake）；舰队可并行大量云 agents；PR 要带 proof（截图/指标）；夜间清理 AI slop；CI 约 10 分钟内 auto-fix。三条 takeaway：把 bot 当有才华的实习生谈；每次重复自己就再沉一层 playbook/memory；闭环要有明确成功/失败信号。\n\n---\n\n3）Grok Bot for Product Managers（约 06:00–06:30）\n\n回放Agents as colleagues 四支柱：\n\n把工具拼成结果（含 MCP）；长期上下文；独立 computer；异步消息（No more “wait, your turn” in the chat）。\n\n现场：Kevin 与 Roshan 同台。花名册例：Cora（CoS）、Ashley（数据）、Pete（产品）、Pixel（设计）、Emily（工程经理）。演示链 Flylo Airlines：问 Ashley 昨日票量 → 约 1400 张、约 58% web / 42% mobile → bot 纠正人类漏斗误读（真漏在搜索→选价，不是选座）→ Pete 写 Notion PRD → Pixel 出方案 → Emily 拆给工程云 agents。内部自述：Grok Bot 已占合并 PR 两位数百分比。注意：Flylo 是工作坊演示，不是三人公司最终产品。\n\n---\n\n4）Grok Bot for Founders（约 07:30–08:20）\n\n现场：Shub 强调减 mental load 可能比后面任何一点都重要。创始人三件事：保住焦点、维持 shipping velocity、保护高质量决策。四类该交 bot：成交客户、跟踪产品变更、适应竞品、快速消化反馈。自嘲曾 demo 已 unship 的功能。销售开场：bot 常能在对方网站找出问题（如 cookie banner 挡住 submit），可从那个 bug 开场。 https://t.co/WEqaFvsQuc",
+        "created_at": "Wed Sep 16 01:50:04 +0000 2026",
+        "url": "https://x.com/MaiYangAI/status/2100039483131637915",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": [],
+        "card": {
+          "name": "745291183405076480:broadcast",
+          "url": "https://t.co/WEqaFvsQuc",
+          "domain": "t.co"
+        }
+      },
+      "score": 54.438,
+      "summary": "有大神 @MaiYangAI 完整总结了 Grok bot Galaxy 的第一天回顾 👍 八小时的官方直播，全程看肯定看不完，还是需要这类的精华总结啊！",
+      "recommend_reason": "官方马拉松直播难啃完，这份结构化摘要是跟上 Grok Bot 实验的高效入口。",
+      "tags": [
+        "Grok",
+        "Bot",
+        "Galaxy",
+        "直播",
+        "Agent"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2100046089214709979",
+      "author": "dotey",
+      "bio": "",
+      "text": "Thariq 说：“对于大多数集成来说，MCP 比 CLI 更好”，这显然有点夹带私货了，MCP 是比以前好了，但不代表大多数情况下就比 CLI 好。\n\n他大概给了三点理由：\n\n第一，MCP 已经变成无状态协议。\n\n这一点不是 MCP 比 CLI 好的理由，只能说 MCP 终于不再比 CLI 差了。\n\n典型一次性 CLI 调用在调用层面天然是短生命周期的。你执行 gh pr list --json，它跑完返回结果，进程退出，没有会话、没有握手、没有需要维护的连接。你可以在任意机器上跑，负载均衡随便做，横向扩展没有任何协议层面的阻碍。\n\n第二点：Deferred Tools（延迟加载工具）\n\nCLI 的 token 成本模型： 模型已经从训练数据中学会了 gh、aws、kubectl 等命令的用法。当 Agent 要调用 gh pr list --json 的时候，上下文里不需要注入任何 schema。成本只有命令本身的几十个 token，加上返回结果的 token。所以对模型熟悉的 CLI，额外的 CLI-specific schema 成本接近于零。\n\n就算没有被训练过的 cli，也有 cli --help，还可以配合 skill。\n\n有了 deferred tools 之后的 MCP： 工具被标记为 defer_loading: true 后，初始上下文里只放工具名和简短描述，完整 schema 在模型需要时按需搜索加载。Anthropic 官方数据是特定大型工具集场景下的工具定义/上下文占用降低约 85%。\n\n所以 deferred tools 把 MCP 和 CLI 之间的差距缩小了，但很难说比 CLI 的 token 效率更高。\n\n第三点：模型的 tool calling 能力提升\n\n对 CLI 的影响： 模型变强了，构造 CLI 命令更准确了，解析非结构化输出也更可靠了。CLI 从中受益。\n\n对 MCP 的影响： 模型变强了，处理结构化 schema 更准确了，多步骤工具调用链的可靠性提高了。MCP 从中受益，而且受益程度可能更大。\n\n之所以说 MCP 受益更大，是因为 CLI 的主要优势之一就是模型天然就已经会了大部分 cli，tool calling 能力弱的时候，这个先验知识优势很大。\n\n当模型的 tool calling 能力提升到足够强的时候，从 schema 中学习新工具也会更容易。\n\n综合来看，MCP 比以前强太多了这个没啥争议，但要说大多数场景比 CLI 强，我还是不太认同。\n\n最后，简单总结下\n\n适合 CLI 的场景：\n1. 模型已经训练过的 cli，都不用教，直接说用某个 cli\n\n2. 本地运行，直接跑 cli 最简单\n\n3. 管道组合任务，cli 可以 pipe\n\n4. 省 token，相对来说 cli 耗费 token 要少\n\n5. CI/CD、脚本自动化 ，大部分时候 CLI 更合适，如果 CI pipeline 里调用的是已知工具、固定命令，CLI 毫无疑问更合适；但如果 CI 里需要动态发现工具或跨多个 SaaS 服务做编排（比如跑完测试自动更新 Jira 再通知 Slack），MCP 在这种链路上其实更有优势。\n\n6. 调试和快速验证，如果只是要排查个问题，命令行里面调用下 cli 最简单方便。\n\n适合 MCP 的场景\n\n1. 没有终端访问权限的环境，比如你在浏览器环境、移动客户端，没办法直接访问 cli，但是访问 MCP 是可以的\n\n2. 需要权限认证和权限管理的多用户环境，MCP 可以集成 OAuth 等协议，可以方便的给特定用户授权，CLI 就会麻烦很多\n\n3. 模型没有训练过的工具，虽然说 cli 也可以配合 skill，但是 MCP 有个优势，就是工具的参数是提供结构化、可机器校验的 JSON Schema\n\n4. 需要审计和合规的场景，金融、医疗、政府这类受监管行业，每次工具调用需要有日志、可追溯、可审计。MCP 提供标准化结构、trace 和 header，使审计更容易实现，网关可以基于新增的 Mcp-Method 和 Mcp-Name 头部做路由、限流、计量，不需要解析请求体。CLI 的调用日志要自己在 shell 层面做，格式不统一，分析起来更麻烦。\n\n5. 工具发现（tool discovery），MCP 有标准化的 tools/list 接口，Agent 可以自己发现可用工具。对于工具集不固定、会随时间增长的平台型产品来说，这种可发现性很有价值。搭配 deferred tools 之后更是如此，Agent 不需要提前加载所有工具，可以按需搜索。\n\n当然我只是就常见的场景列了一些，不是完整的，仅供参考。",
+      "created_at": "Wed Sep 16 02:16:19 +0000 2026",
+      "likes": 66,
+      "views": "17183",
+      "url": "https://x.com/i/status/2100046089214709979",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2099958388230873165",
+        "author": "trq212",
+        "name": "Thariq",
+        "text": "I was not expecting things to go this way, but I think MCPs are better than CLIs for most integrations. \n\nThe models have gotten much better at tool calling, we can defer tools &amp; MCP is now stateless.\n\nIf you need to compose/filter data, add params like query to your MCP tools.",
+        "created_at": "Tue Sep 15 20:27:49 +0000 2026",
+        "url": "https://x.com/trq212/status/2099958388230873165",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 55.633,
+      "title": "宝玉反驳「MCP 普遍优于 CLI」：多数场景 CLI 仍更合适",
+      "summary": "宝玉逐条拆 Thariq 三点论据（无状态、Deferred Tools、模型 tool calling 变强），指出 MCP 确有进步但未必全面碾压 CLI；并给出适合 CLI（本地/管道/省 token/CI）与适合 MCP（无终端、鉴权多用户、审计、工具发现）的场景清单。",
+      "recommend_reason": "高互动深度长文，帮你在 MCP 热潮里校准工具选型，避免一刀切。",
+      "tags": [
+        "MCP",
+        "CLI",
+        "Agent",
+        "工具链",
+        "工程"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2100045819676340327",
+      "author": "xiaohu",
+      "bio": "",
+      "text": "边想边说的实时语音大模型：\n\nGoogle 发布 Gemini 3.8 Live 与 Extended Thinking\n把实时语音推向多步骤推理\n\n基础版本 Gemini 3.8 Live 专注于大规模部署的高性价比。面向高并发、低延迟的日常助理与检索服务。支持在97种语言对话中自动识别并平滑过渡...\n\n兼顾流畅的多模态实时互动（视觉+语音）与极具竞争力的运行成本。\n\nGemini 3.8 Live Extended Thinking 则主打企业级复杂任务执行。它重点强化了多步骤逻辑推理与规划能力，主要面向客户服务、专业排障、多系统协调等需要深度思考的生产环境\n\nThinking 版本实现了“实时思考与发音同步”。面对复杂问题时，它会自然地说出“让我查一下…”作为过渡，并在后台执行多步骤任务时同步向用户汇报进度，交流体验就像在与真人通电话。\n\n后台异步工具调用：在调用外部 API、检索数据或订座的同时，前端的语音闲聊完全不中断，实现了真正的并发协作。\n\n近实时多模态视觉理解：模型能一边看着画面一边聊天，例如实时根据员工入职环境答疑、看棋盘下棋，甚至看着草图直接用语音沟通并生成 React 代码。",
+      "created_at": "Wed Sep 16 02:15:15 +0000 2026",
+      "likes": 5,
+      "views": "2647",
+      "url": "https://x.com/i/status/2100045819676340327",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2100042581048717312/vid/avc1/474x270/z5N2os0f7clJGo8A.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2100042581048717312/img/CJq89AbDnP4rNabW.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 59.11,
+      "title": "Google 推 Gemini 3.8 Live：实时语音可边想边说，并加 Extended Thinking",
+      "summary": "小虎介绍 Google 发布 Gemini 3.8 Live 与 Extended Thinking：基础版主打高并发低延迟多语实时语音与多模态；Thinking 版强化多步骤推理，可边说边后台调工具/检索，并支持近实时看画面协作甚至对着草图生成 React 代码。",
+      "recommend_reason": "实时语音从「能聊」升级到「边推理边汇报进度」，是语音 Agent 产品形态的重要节点。",
+      "tags": [
+        "Gemini",
+        "实时语音",
+        "Google",
+        "多模态",
+        "Agent"
+      ],
+      "rank": 11
+    }
+  ],
+  "generated_at": "2026-09-16T04:06:28Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 11,
+    "last_batch_added": 11,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
