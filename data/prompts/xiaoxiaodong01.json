@@ -1,8 +1,8 @@
 {
   "source": "xiaoxiaodong01",
   "title": "xiaoxiaodong01 提示词",
-  "updated_at": "2026-09-15T13:35:36Z",
-  "count": 216,
+  "updated_at": "2026-09-17T13:38:36Z",
+  "count": 217,
   "items": [
     {
       "id": "2090817611953270966",
@@ -4553,6 +4553,32 @@
         {
           "url": "https://pbs.twimg.com/media/HSPWs47bYAArT_M.jpg",
           "poster": "https://pbs.twimg.com/media/HSPWs47bYAArT_M.jpg"
+        }
+      ]
+    },
+    {
+      "id": "2100526246707024323",
+      "author": "xiaoxiaodong01",
+      "url": "https://x.com/i/status/2100526246707024323",
+      "created_at": "2026-09-17T10:04:17+00:00",
+      "text": "GPT2 x 中秋 x 字 x 海报 x 美学提示词\n\n借助这组纯字体提示词\n\n祝大家中秋节快乐\n\n有一点小巧思：每个颜色都是一个奢侈品用色\n\n内含财气~ dddd\n\nprompt by xiaoxiaodong:\n\n```\n由任意未来主题提供核心概念、短句信息和少量辅助说明，将主题转译为一个极端放大的文字或符号主体：第一眼必须是几乎撑满画面的粗重无衬线字形横向压入版面，字身像结构梁一样占据中心，局部被裁切或越界，使阅读先成为强烈的形体事件，再在其边缘读到副标题。背景保持大面积冷白留空，叠加极细、浅暖色的构图线、基准线和竖向分栏线，线条像设计稿未隐藏的骨架而非装饰。主色只用高饱和橙红承担全部视觉重量，灰色用于小段说明文字，避免多彩和渐变。信息模块稀疏地贴在网格交点和边缘：小图标由简单几何角、点、短横构成，标题短促加粗，正文窄列轻灰，整体呈现精确、克制、实验性的版式教学感。字形构造要求低对比、厚笔画、大开放内白、平直端点、紧密字距，标点和附属符号也服从网格节奏；若换成其他文字系统，保持同等的粗块量、内外空间关系、裁切压力和横向阅读动势。禁止插画化背景、阴影、纹理纸感、居中卡片、圆润可爱化、商业海报光效和过度排满信息。\n\n——————\n主题：乐\n比例：9:16\n注意：适当的中秋元素\n字体颜色：古驰安可拉红\n```",
+      "prompt": "由任意未来主题提供核心概念、短句信息和少量辅助说明，将主题转译为一个极端放大的文字或符号主体：第一眼必须是几乎撑满画面的粗重无衬线字形横向压入版面，字身像结构梁一样占据中心，局部被裁切或越界，使阅读先成为强烈的形体事件，再在其边缘读到副标题。背景保持大面积冷白留空，叠加极细、浅暖色的构图线、基准线和竖向分栏线，线条像设计稿未隐藏的骨架而非装饰。主色只用高饱和橙红承担全部视觉重量，灰色用于小段说明文字，避免多彩和渐变。信息模块稀疏地贴在网格交点和边缘：小图标由简单几何角、点、短横构成，标题短促加粗，正文窄列轻灰，整体呈现精确、克制、实验性的版式教学感。字形构造要求低对比、厚笔画、大开放内白、平直端点、紧密字距，标点和附属符号也服从网格节奏；若换成其他文字系统，保持同等的粗块量、内外空间关系、裁切压力和横向阅读动势。禁止插画化背景、阴影、纹理纸感、居中卡片、圆润可爱化、商业海报光效和过度排满信息。\n\n——————\n主题：乐\n比例：9:16\n注意：适当的中秋元素\n字体颜色：古驰安可拉红",
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HSaRCE7aEAARvTd.jpg",
+          "poster": "https://pbs.twimg.com/media/HSaRCE7aEAARvTd.jpg"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HSaRC59bYAAXf7B.jpg",
+          "poster": "https://pbs.twimg.com/media/HSaRC59bYAAXf7B.jpg"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HSaREJmaYAAuJbb.jpg",
+          "poster": "https://pbs.twimg.com/media/HSaREJmaYAAuJbb.jpg"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HSaRFJ4bcAATWUq.jpg",
+          "poster": "https://pbs.twimg.com/media/HSaRFJ4bcAATWUq.jpg"
         }
       ]
     }
