@@ -9,6 +9,551 @@
   },
   "items": [
     {
+      "id": "2100252099342995966",
+      "author": "dingyi",
+      "bio": "",
+      "text": "看到 Typeless 今天下午把免费额度从每周 8000 字 降到 2000，于是我去下载了最近很火的网易语音输入产品，叭哥说。没想到速度和准确度非常好！因为产品形态上跟 Typeless 一样都是纯语音输入，迁移成本最低。\n\nTypeless 和叭哥说走的是「说完再出成稿」：去语气词、口头禅、自动更正、去重，再分段。而且叭哥说的翻译宣称支持 100+ 语种，中文方言也行。这跟微信、豆包这种传统输入法产品定位完全不同，它们是加语音功能：流式上屏、方言还行，但口语整理弱，豆包甚至偏原句转写。\n\n录了个视频测试一下它的去口头禅等功能，效果非常好。最关键的是，终身免费！\n\n官网：https://t.co/jTdcV6LAnC",
+      "created_at": "Wed Sep 16 15:54:55 +0000 2026",
+      "likes": 32,
+      "views": "10950",
+      "url": "https://x.com/i/status/2100252099342995966",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSWYHbXbIAAbQSh.jpg",
+        "https://video.twimg.com/amplify_video/2100252059845148672/vid/avc1/404x270/yVa5YGduuUpD5Ewk.mp4?tag=16"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSWYHbXbIAAbQSh.jpg",
+        "https://pbs.twimg.com/amplify_video_thumb/2100252059845148672/img/J6TelbH7koSyLSvS.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "title": "Typeless 砍免费额度后，试网易「叭哥说」",
+      "summary": "Typeless 免费额度从每周 8000 字砍到 2000 后，作者试用网易「叭哥说」：同为说完再出成稿（去语气词/口头禅、自动更正、去重分段），速度准确度好，翻译宣称 100+ 语种含方言；对比微信/豆包偏流式上屏、口语整理弱。录了去口头禅测试，效果好且终身免费。",
+      "recommend_reason": "把「语音成稿」与「输入法加语音」产品定位拆开，并给出可迁移替代选项。",
+      "tags": [
+        "Typeless",
+        "叭哥说",
+        "语音输入",
+        "产品对比"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2100246135420199140",
+      "author": "bot",
+      "bio": "",
+      "text": "Three SpaceXAI employees are building a company in 3 days with Grok Bot. This is Day 2.\n\nLive now, plus sessions for GTM and customer support.\n\nhttps://t.co/D3ZD2DftVi",
+      "created_at": "Wed Sep 16 15:31:14 +0000 2026",
+      "likes": 3187,
+      "views": "3575649",
+      "url": "https://x.com/i/status/2100246135420199140",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "745291183405076480:broadcast",
+        "url": "https://x.com/i/broadcasts/1PKqrNyvmYwGb",
+        "domain": "x.com"
+      },
+      "quoted_tweet": null,
+      "title": null,
+      "summary": "三名 SpaceXAI 员工正用 Grok Bot 在 3 天内组建公司，这是第 2 天；正在直播，另有 GTM 与客户支持专场。",
+      "recommend_reason": "官方账号的现场造司直播，是观察 Grok Bot 端到端创业能力的高曝光样本。",
+      "tags": [
+        "Grok Bot",
+        "SpaceXAI",
+        "创业",
+        "直播"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2100237404347240542",
+      "author": "ianneo_ai",
+      "bio": "产品设计师 ‣ 分享设计、审美和产品商业化\n一些成绩 ‣ GitHub 万星选手 · Dribbble 万粉玩家\nIndie Builders ‣ https://t.co/f65VrarvNH · 日刊 ‣ https://t.co/tGGMPurOcn · 灵感 ‣ https://t.co/UfEG9cmSgi",
+      "text": "很多人喜欢吹自己多懂 AI，他直接把自己的 Codex Token 消耗的热力图嵌在页面里。累计烧了 26B+ tokens，哪天肝了多少代码一清二楚\n\n比起堆大词，这实打实的深蓝格子有说服力多了\n\nhttps://t.co/BitVcNqOin https://t.co/HU16IGAIeS",
+      "likes": 7,
+      "retweets": 0,
+      "replies": 5,
+      "views": 2171,
+      "created_at": "Wed Sep 16 14:56:32 +0000 2026",
+      "url": "https://x.com/ianneo_ai/status/2100237404347240542",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSWKvyjagAAhe8h.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSWKvyjagAAhe8h.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "title": null,
+      "summary": "很多人喜欢吹自己多懂 AI，他直接把自己的 Codex Token 消耗的热力图嵌在页面里。累计烧了 26B+ tokens，哪天肝了多少代码一清二楚\n\n比起堆大词，这实打实的深蓝格子有说服力多了",
+      "recommend_reason": "用公开 Token 热力图替代空谈，是「真实用量可验证」的有趣社区信号。",
+      "tags": [
+        "Codex",
+        "Token",
+        "开发者",
+        "透明度"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2100234987702243409",
+      "author": "bindureddy",
+      "bio": "",
+      "text": "Haha... Literally no one is pacing the frontier \n\n- Opus 5.2 in testing\n- Grok 4.8 ships in a couple of weeks\n- Jev is a new ultra fast classifier\n- OpenAI already has Astra+ in testing\n\nWe continue to accelerate",
+      "created_at": "Wed Sep 16 14:46:56 +0000 2026",
+      "likes": 271,
+      "views": "12089",
+      "url": "https://x.com/i/status/2100234987702243409",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "title": "前沿模型仍在加速：Opus 5.2 / Grok 4.8 / Astra+",
+      "summary": "Bindu 称没人能跟上前沿节奏：Opus 5.2 在测、Grok 4.8 数周内发布、Jev 为新的超快分类器、OpenAI 已有 Astra+ 在测，整体仍在加速。",
+      "recommend_reason": "从业者对多厂商并行测试/发布节奏的一手信号，便于对齐「现在该押哪条线」。",
+      "tags": [
+        "前沿模型",
+        "Opus",
+        "Grok",
+        "OpenAI",
+        "Astra"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2100228123556208708",
+      "author": "jiamu_future",
+      "bio": "",
+      "text": "继workbuddy蓝皮书、豆包工作蓝皮书之后，我们又整了个硬活儿，联合魔搭开源「开源模型紫皮书」~\n\n从开源模型的选型、部署、微调、评测这些，带你从0到1打造自己的专属 AI 模型~！\n\n欢迎star⭐和参与共建！\n\nGitHub地址： https://t.co/3tbxoI0O05\n在线阅读：https://t.co/0xqvr6H0Vy",
+      "created_at": "Wed Sep 16 14:19:39 +0000 2026",
+      "likes": 26,
+      "views": "3378",
+      "url": "https://x.com/i/status/2100228123556208708",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "GitHub - modelscope/ms-cookbook: 魔搭紫皮书｜ModelScope Cookbook：面向开发者的开源模型应用实战指南，覆盖模型选型、推理、微调、评测、RAG、A...",
+        "description": "魔搭紫皮书｜ModelScope Cookbook：面向开发者的开源模型应用实战指南，覆盖模型选型、推理、微调、评测、RAG、Agent 与 AIGC，从跑通第一个模型到构建实际应用。 - modelscope/ms-cookbook",
+        "image_url": "https://pbs.twimg.com/card_img/2100160841446518784/SGQ0IUhe?format=jpg&name=600x600",
+        "url": "https://github.com/modelscope/ms-cookbook",
+        "domain": "github.com"
+      },
+      "quoted_tweet": null,
+      "title": null,
+      "summary": "继workbuddy蓝皮书、豆包工作蓝皮书之后，我们又整了个硬活儿，联合魔搭开源「开源模型紫皮书」~\n\n从开源模型的选型、部署、微调、评测这些，带你从0到1打造自己的专属 AI 模型~！\n\n欢迎star⭐和参与共建！\n\nGitHub地址： https://t.co/3tbxoI0O05\n在线阅读：https://t.co/0xqvr6H0Vy",
+      "recommend_reason": "魔搭联合开源的模型实操手册，覆盖选型到评测，适合当开源落地清单。",
+      "tags": [
+        "开源模型",
+        "魔搭",
+        "微调",
+        "部署",
+        "紫皮书"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2100227001819029905",
+      "author": "xiaohu",
+      "bio": "",
+      "text": "Typeless 的用户被背刺了\n\nTypeless 今天宣布降低免费用户的额度，一周免费额度从8K砍到2K，引发大量用户吐槽...\n\n不知道他们怎么想，目前基本模型厂商都有自己的语言输入了，包括Codex和Claude...\n\n国内的有微信输入法、豆包语音输入、千问输入法、网易叭哥说...都是可替代的产品，而且都是免费的\n\n网易叭哥说更是宣称终身免费！",
+      "created_at": "Wed Sep 16 14:15:12 +0000 2026",
+      "likes": 41,
+      "views": "19120",
+      "url": "https://x.com/i/status/2100227001819029905",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSVv8-rbgAEWa4q.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSVv8-rbgAEWa4q.png"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "title": null,
+      "summary": "Typeless 的用户被背刺了\n\nTypeless 今天宣布降低免费用户的额度，一周免费额度从8K砍到2K，引发大量用户吐槽...\n\n不知道他们怎么想，目前基本模型厂商都有自己的语言输入了，包括Codex和Claude...\n\n国内的有微信输入法、豆包语音输入、千问输入法、网易叭哥说...都是可替代的产品，而且都是免费的\n\n网易叭哥说更是宣称终身免费！",
+      "recommend_reason": "同步记录 Typeless 砍额度事件与国内免费替代清单，和实测帖形成互补。",
+      "tags": [
+        "Typeless",
+        "语音输入",
+        "免费额度",
+        "替代方案"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2100198975722623265",
+      "author": "DeRonin_",
+      "bio": "",
+      "text": "here's how i auto-edit video with the DaVinci MCP and GPT-6 Astra:\n\nthe trick is that the model never watches the footage\n\n1. import the raw files into the media pool\none call, the MCP handles the pool and the folders\n\n2. transcribe locally with whisper\nthis is the whole thing, you now have every spoken word with a timecode attached\n\n3. hand Astra the transcript, not the video\nit returns which timecodes to keep and which to kill, because models are hopeless at watching footage and very good at reading a transcript\n\n4. ripple delete everything else\nthe MCP applies the cut list to the timeline, dead air and blown takes gone in one pass\n\n5. drop markers with notes on every keeper\nso when you open the timeline you can see why each cut survived instead of trusting it blindly\n\n6. pull Text+ captions from the same transcript\nno second transcription, one source of truth\n\n7. render queue, quick export\n\nand the part nobody mentions: 155 of the 162 tools run on the FREE version of Resolve\n\nlocal whisper replaces Studio auto-subtitles, demucs handles voice isolation, rembg does background removal\n\nonly Smart Reframe and stabilization still need the paid license\n\nhttps://t.co/WzKPf72BUC\n\ni want to be honest, five days ago i've been an absolute zero at video editing\n\nand even i can edit the videos now at mid-level...",
+      "created_at": "Wed Sep 16 12:23:50 +0000 2026",
+      "likes": 52,
+      "views": "7317",
+      "url": "https://x.com/i/status/2100198975722623265",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSVnY3oXkAA6aDK.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSVnY3oXkAA6aDK.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2098347425828073546",
+        "author": "DeRonin_",
+        "name": "Ronin",
+        "text": "this guy has literally shared full workflow of auto video editing\n\nit was extremely useful to me as for youtuber beginner, READ THIS:",
+        "created_at": "Fri Sep 11 09:46:26 +0000 2026",
+        "url": "https://x.com/DeRonin_/status/2098347425828073546",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "title": "DaVinci MCP + Astra：别让模型看片，喂字幕时间码",
+      "summary": "Ronin 分享用 DaVinci MCP 与 GPT-6 Astra 自动剪辑：本地 Whisper 转写→把带时间码的字幕交给 Astra 决定去留→MCP  ripple 删除废片→打标记与 Text+ 字幕；162 个工具里 155 个可在免费版 Resolve 跑，仅 Smart Reframe/防抖需付费。作者称五天前零基础，现已能中级剪辑。",
+      "recommend_reason": "关键洞见是「模型不擅长看视频、擅长读转写」，把 MCP 剪辑工作流讲到可复现。",
+      "tags": [
+        "DaVinci",
+        "MCP",
+        "Astra",
+        "视频剪辑",
+        "Whisper"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2100197764550574256",
+      "author": "marclou",
+      "bio": "",
+      "text": "I added MCP/API support for DataFast mentions & notes.\n\nYour AI agent can now read your website’s X and Reddit mentions and add, find, edit, or delete manual chart notes.\n\n- “Who mentioned my website on social media in the last 30 days?”\n- “Add a note that we launched the new landing page today.”\n- “Find our landing page notes from last month.”",
+      "created_at": "Wed Sep 16 12:19:01 +0000 2026",
+      "likes": 77,
+      "views": "13060",
+      "url": "https://x.com/i/status/2100197764550574256",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSVmvM1bwAAoFRN.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSVmvM1bwAAoFRN.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "title": "DataFast 为提及与备注上线 MCP/API",
+      "summary": "Marclou 为 DataFast 的 mentions 与 notes 加了 MCP/API：Agent 可读取站点在 X/Reddit 的提及，并增删改查图表备注（如近 30 天谁提到我、给上线落地页加备注、查找上月备注）。",
+      "recommend_reason": "把社媒提及与运营备注变成 Agent 可调用工具，是分析产品走向「可代理化」的具体一步。",
+      "tags": [
+        "MCP",
+        "DataFast",
+        "Agent",
+        "社媒监听",
+        "API"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2100194324503986331",
+      "author": "lixinbao_X",
+      "bio": "",
+      "text": "周鸿祎：新能源汽车这坑，我不跳第二次了\n\n9月15日，周鸿祎参加北斗规模应用国际峰会，被问到以后还会不会投资新能源汽车。\n\n他回答得相当干脆：\n\n“已经吃过一次亏，肯定不会再投资。”\n\n然后话锋一转：\n\n现在真正值得看的，是人工智能和具身智能。\n\n这句话其实挺有意思。\n\n当年新能源最火的时候，一堆互联网大佬往里冲；现在风口开始往AI、机器人迁移，周鸿祎已经明确换赛道了。\n\n而且他给创业者的建议也很直接：\n\n以后光会用ChatGPT可能都不够，你得学会操作Agent、打造Agent，还得会给企业搭知识库。\n\n他把这种能力叫“硅基领导力”。\n\n未来一个人手下可能不是几个员工，而是一群AI Agent。\n\n你负责定目标、拆任务、验结果，它们负责执行。\n\n至于新能源汽车？\n\n周鸿祎的态度已经很清楚：\n\n亏吃一次就够了，下一把押AI。",
+      "created_at": "Wed Sep 16 12:05:21 +0000 2026",
+      "likes": 10,
+      "views": "11874",
+      "url": "https://x.com/i/status/2100194324503986331",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSVjmkQbIAE3yzf.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSVjmkQbIAE3yzf.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "title": "周鸿祎：新能源不二投，押 AI/具身与「硅基领导力」",
+      "summary": "周鸿祎在北斗峰会称新能源已吃过亏不会再投，真正值得看的是人工智能与具身智能；建议创业者学会操作/打造 Agent、为企业搭知识库，称之为「硅基领导力」——未来一人带一群 AI Agent 定目标、拆任务、验结果。",
+      "recommend_reason": "互联网大佬明确换赛道表述 + Agent 能力框架，适合当产业风向样本。",
+      "tags": [
+        "周鸿祎",
+        "具身智能",
+        "Agent",
+        "硅基领导力"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2100183010570309806",
+      "author": "yetone",
+      "bio": "",
+      "text": "作为一个 Agent 的用户，发一次请求真的不容易，因为一个请求至少会遭遇三个 Model Routing：\n\n1. Agent 服务端的 Model Routing。\n2. Agent 服务端发到的中转站里的 Model Routing。\n3. 一个好的中转站上游可能用的是真正的大模型 Provider，但是大模型服务端那边也可能有 Model Routing。",
+      "created_at": "Wed Sep 16 11:20:23 +0000 2026",
+      "likes": 81,
+      "views": "15978",
+      "url": "https://x.com/i/status/2100183010570309806",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "title": null,
+      "summary": "作为一个 Agent 的用户，发一次请求真的不容易，因为一个请求至少会遭遇三个 Model Routing：\n\n1. Agent 服务端的 Model Routing。\n2. Agent 服务端发到的中转站里的 Model Routing。\n3. 一个好的中转站上游可能用的是真正的大模型 Provider，但是大模型服务端那边也可能有 Model Routing。",
+      "recommend_reason": "把「一次请求为什么飘」拆成三层 Model Routing，对排障与选中转很有解释力。",
+      "tags": [
+        "Agent",
+        "Model Routing",
+        "中转",
+        "稳定性"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2100170834077708428",
+      "author": "gkxspace",
+      "bio": "🌸05年连续创业者 | 专注 AI 产品 | 项目营收 7 位数+\n✨记录真实AI创业：AI干货分享、项目复盘、踩坑总结\n💗付费咨询 & AI 商业化方案 & 企业 AI 服务\n📮yuwengkx@gmail.com",
+      "text": "把 微信 接入 Codex 后真是太爽了啊，要是早这么搞，得多赚多少钱啊😭\n\n我直接让 Codex 读各种私聊、群聊、朋友圈，批量读取本后给我结果，根本不用我苦逼的翻了🥺\n\n我微信光置顶就两百个，每次翻看信息都是一种折磨。\n\n还有一堆没时间看的高质量群，朋友圈更是没看过，不知道为此错过多少机会了。\n\n全都扔给 AI 之后，极大提高了我的效率，谁用谁爽啊！！！",
+      "likes": 841,
+      "retweets": 154,
+      "replies": 150,
+      "views": 360827,
+      "created_at": "Wed Sep 16 10:32:00 +0000 2026",
+      "url": "https://x.com/gkxspace/status/2100170834077708428",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSVKZ59bUAAkvuD.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSVKZ59bUAAkvuD.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2097989784379785419",
+        "author": "gkxspace",
+        "name": "余温",
+        "text": "wok，微信被彻底打通了，逸尘这个 Skills 只怪我发现太晚，立马 Fork 防被 404🥹\n\n用 Codex 直接读取你微信的本地数据，而且纯本地解密、纯只读，完全不影响微信正常用！\n\n聊天记录、联系人、群聊、朋友圈、收藏夹，居然全都能被 AI 直接读取。。。\n\n我来给大家详细讲一讲它有多香：\n\n1、聊业务或跟客户沟通前，让 AI 直接检索历史记录：\"分析我和某总过去半年的合作痛点，然后......\"。\n\n2、几百个的行业大群，上万条消息根本看不过来。直接跑一条命令，自动生成群聊精华日报、核心话题梳理，甚至群友画像。\n\n3、在微信收藏的几千篇好文章、群里发过的文件资料，一句话就能精准检索出来。\n\n4、把你和朋友聊过的好想法、朋友圈发过的碎碎念一键提取，直接沉淀成内容素材。\n\n数据留在 Mac 本地、不上传，绝对丝滑。\n\n🔗：https://t.co/0eM1OkwiGH",
+        "created_at": "Thu Sep 10 10:05:18 +0000 2026",
+        "url": "https://x.com/gkxspace/status/2097989784379785419",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HR2OljEakAAdCnG.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HR2OljEakAAdCnG.jpg"
+        ]
+      },
+      "title": null,
+      "summary": "把 微信 接入 Codex 后真是太爽了啊，要是早这么搞，得多赚多少钱啊😭\n\n我直接让 Codex 读各种私聊、群聊、朋友圈，批量读取本后给我结果，根本不用我苦逼的翻了🥺\n\n我微信光置顶就两百个，每次翻看信息都是一种折磨。\n\n还有一堆没时间看的高质量群，朋友圈更是没看过，不知道为此错过多少机会了。\n\n全都扔给 AI 之后，极大提高了我的效率，谁用谁爽啊！！！",
+      "recommend_reason": "本地只读打通微信→Codex 的真实效率场景（群精华、客户历史、收藏检索），比空谈 Agent 更落地。",
+      "tags": [
+        "Codex",
+        "微信",
+        "Agent",
+        "本地数据",
+        "效率"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2100165248816922868",
+      "author": "yaojingang",
+      "bio": "",
+      "text": "最近两周又迭代了多版，同步下GEOFlow v3.2.0的相关更新\nGitHub开源地址详见文末\n\n这轮升级覆盖AI工作流、站点主题、内容分发、远程运维和安全恢复，Codex / AI可以通过独立CLI连接GEOFlow，管理多实例、任务和主题草稿\n\n更新主要包括：\n• 独立远程 CLI 与全局 GEOFlow Skill\n• 主题文件读取、增量修改和真实内容预览\n• 操作收据、请求幂等与断网续接\n• Core × Updater 恢复代次、凭据失效和任务隔离\n• 签名蓝绿升级与 amd64 / arm64 双架构验收\n\n产品能力也在同步完善：\n• 自定义文章永久链接与历史地址跳转\n• WordPress 幂等分发与异常对账\n• AI 工作台全局管理开关\n• 主题包导入与导出\n• 多语言后台与界面优化\n\n欢迎更新和体验\n\n1、GEOFlow GitHub主仓库\nhttps://t.co/UHwRimsUsZ\n\n2、GEOFlow配套升级工具\nhttps://t.co/reRAfFTMEd",
+      "created_at": "Wed Sep 16 10:09:49 +0000 2026",
+      "likes": 19,
+      "views": "1945",
+      "url": "https://x.com/i/status/2100165248816922868",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "GitHub - yaojingang/GEOFlow: Open-source GEO content engineering and multi-site distribution...",
+        "description": "Open-source GEO content engineering and multi-site distribution platform with AI quality inspection, illustrated admin help, hosted sites, browser-assisted publishing, and signed updates. - yaojing...",
+        "image_url": "https://pbs.twimg.com/card_img/2098678854785155080/qTz1vXhx?format=jpg&name=600x600",
+        "url": "https://t.co/UHwRimsUsZ",
+        "domain": "github.com"
+      },
+      "quoted_tweet": null,
+      "title": "GEOFlow v3.2：Codex 可经独立 CLI 管多实例",
+      "summary": "GEOFlow v3.2.0 更新：独立远程 CLI/全局 Skill，Codex 可连 GEOFlow 管多实例与主题草稿；含主题增量改、操作收据与幂等、断网续接、签名蓝绿升级与双架构验收，以及 WP 幂等分发、主题包导入导出等。附 GitHub 与升级工具链接。",
+      "recommend_reason": "把站点 CMS/分发栈做成 Agent 可远程运维的具体版本说明，信息密度高。",
+      "tags": [
+        "GEOFlow",
+        "Codex",
+        "CLI",
+        "开源",
+        "运维"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2100161104890741109",
+      "author": "xiaoxiaodong01",
+      "bio": "",
+      "text": "作图的朋友， 这个时间节点记住一点：\n\n有条件要用GPT-image2.5\n没条件抢用朋友的GPT-image2.5\n\n目前图文混排美学理解力，确实是TOP 0的模型\n\n它能节省你很多工作\n从3小时到30秒，就这点，继续为它鼓掌。 https://t.co/THXxmE8v0B",
+      "created_at": "Wed Sep 16 09:53:21 +0000 2026",
+      "likes": 97,
+      "views": "6537",
+      "url": "https://x.com/i/status/2100161104890741109",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSVE25DacAAjSM6.jpg",
+        "https://pbs.twimg.com/media/HSVE4G1aoAASooL.jpg",
+        "https://pbs.twimg.com/media/HSVE52abMAA1gSR.jpg",
+        "https://pbs.twimg.com/media/HSVE7wibMAARe4T.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSVE25DacAAjSM6.jpg",
+        "https://pbs.twimg.com/media/HSVE4G1aoAASooL.jpg",
+        "https://pbs.twimg.com/media/HSVE52abMAA1gSR.jpg",
+        "https://pbs.twimg.com/media/HSVE7wibMAARe4T.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "title": null,
+      "summary": "作图的朋友， 这个时间节点记住一点：\n\n有条件要用GPT-image2.5\n没条件抢用朋友的GPT-image2.5\n\n目前图文混排美学理解力，确实是TOP 0的模型\n\n它能节省你很多工作\n从3小时到30秒，就这点，继续为它鼓掌。",
+      "recommend_reason": "把「图文混排美学」点成当前 TOP 模型能力，对选型有明确行动建议。",
+      "tags": [
+        "GPT-image",
+        "图文混排",
+        "效率",
+        "图像生成"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2100159517208219900",
+      "author": "xiaoxiaodong01",
+      "bio": "",
+      "text": "GPT-image2的进步确实大不少了\n\n之前是我吐槽声音太大了\n\n今天测试了几千组提示词\n\n只能说GPT-image2.5 审美能力实在是上来了\n\n评论区还有我不少习作 https://t.co/fSYjJ1SDOE",
+      "created_at": "Wed Sep 16 09:47:02 +0000 2026",
+      "likes": 283,
+      "views": "20308",
+      "url": "https://x.com/i/status/2100159517208219900",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSVDlT1a0AENttQ.jpg",
+        "https://pbs.twimg.com/media/HSVDmeTaQAAzLaW.jpg",
+        "https://pbs.twimg.com/media/HSVDn6zawAATl0b.jpg",
+        "https://pbs.twimg.com/media/HSVDplkbIAA6pNW.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSVDlT1a0AENttQ.jpg",
+        "https://pbs.twimg.com/media/HSVDmeTaQAAzLaW.jpg",
+        "https://pbs.twimg.com/media/HSVDn6zawAATl0b.jpg",
+        "https://pbs.twimg.com/media/HSVDplkbIAA6pNW.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "title": null,
+      "summary": "GPT-image2的进步确实大不少了\n\n之前是我吐槽声音太大了\n\n今天测试了几千组提示词\n\n只能说GPT-image2.5 审美能力实在是上来了\n\n评论区还有我不少习作",
+      "recommend_reason": "作者实测数千提示词后改口，是 GPT-image2.5 审美跃迁的一线体感。",
+      "tags": [
+        "GPT-image",
+        "图像生成",
+        "审美",
+        "提示词"
+      ],
+      "rank": 14
+    },
+    {
+      "id": "2100159437742965090",
+      "author": "dingyi",
+      "bio": "",
+      "text": "你还真别说，https://t.co/M9kzJTamEC 做得还真不错！甚至觉得比 Grok Bot 更好，不过云主机配置不高。我喜欢它可以链接苹果健康和很多苹果自带的工具，其他方面和 Grok Bot 基本一致。\n\n云 Linux 产品太多了，根本用不过来了😂 https://t.co/x0Gv18jIqH",
+      "created_at": "Wed Sep 16 09:46:43 +0000 2026",
+      "likes": 89,
+      "views": "24582",
+      "url": "https://x.com/i/status/2100159437742965090",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSVDVLTbsAAXTNJ.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSVDVLTbsAAXTNJ.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "title": null,
+      "summary": "你还真别说，https://t.co/M9kzJTamEC 做得还真不错！甚至觉得比 Grok Bot 更好，不过云主机配置不高。我喜欢它可以链接苹果健康和很多苹果自带的工具，其他方面和 Grok Bot 基本一致。\n\n云 Linux 产品太多了，根本用不过来了😂",
+      "recommend_reason": "一线用户对云端 Agent/Linux 产品的对比点（苹果健康打通 vs 配置），对选型有参考。",
+      "tags": [
+        "Grok Bot",
+        "云主机",
+        "Agent",
+        "苹果生态"
+      ],
+      "rank": 15
+    },
+    {
+      "id": "2100159368335425671",
+      "author": "VigoCreativeAI",
+      "bio": "",
+      "text": "VISUAL OS 041\n\nThe headline isn't on top of the photo.\nIt's behind the athlete — and the body eats half of it.\n\nYou should still be able to read every word.\nPrompt below ↓ https://t.co/p8ii0bwvjD",
+      "created_at": "Wed Sep 16 09:46:27 +0000 2026",
+      "likes": 87,
+      "views": "2385",
+      "url": "https://x.com/i/status/2100159368335425671",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSVDxhnWkAALRnk.jpg",
+        "https://pbs.twimg.com/media/HSVDxhfWUAABw7w.jpg",
+        "https://pbs.twimg.com/media/HSVDzNTWwAAjK4Z.jpg",
+        "https://pbs.twimg.com/media/HSVDzNRXYAAXfLO.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSVDxhnWkAALRnk.jpg",
+        "https://pbs.twimg.com/media/HSVDxhfWUAABw7w.jpg",
+        "https://pbs.twimg.com/media/HSVDzNTWwAAjK4Z.jpg",
+        "https://pbs.twimg.com/media/HSVDzNRXYAAXfLO.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "title": null,
+      "summary": "VISUAL OS 041：标题不在照片上方，而在运动员身后，身体挡住一半；但仍应能读完每个字。提示词见楼下。",
+      "recommend_reason": "把「正文可读性 vs 遮挡构图」写成可复现的视觉提示约束，对 AI 出图排版有用。",
+      "tags": [
+        "提示词",
+        "视觉设计",
+        "图像生成",
+        "排版"
+      ],
+      "rank": 16
+    },
+    {
+      "id": "2100153489787633694",
+      "author": "MistralAI",
+      "bio": "",
+      "text": "Today, we are announcing a partnership with @mozilla  to bring privacy, control and choice to people using AI to browse online. 🦊🐈\n\nhttps://t.co/Bsd6N4jNdV https://t.co/OczDk9utfL",
+      "created_at": "Wed Sep 16 09:23:05 +0000 2026",
+      "likes": 3175,
+      "views": "143846",
+      "url": "https://x.com/i/status/2100153489787633694",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSU-cliWsAAt8Pk.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSU-cliWsAAt8Pk.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "title": null,
+      "summary": "今天我们宣布与 Mozilla 达成合作，为使用 AI 浏览网页的用户带来隐私、控制权与选择权。",
+      "recommend_reason": "Mistral × Mozilla 官方合作公告，关系到浏览器侧 AI 的隐私叙事。",
+      "tags": [
+        "Mistral",
+        "Mozilla",
+        "隐私",
+        "浏览器AI"
+      ],
+      "rank": 17
+    },
+    {
       "id": "2100071835480269280",
       "author": "dashiAIxz",
       "bio": "将复杂技术转化为可复用流程！\n开发了一个PPT skill：chuspeeism/dashiAI-ppt-skill\n抖音/小红书/B站：大师的AI小灶",
@@ -43,7 +588,7 @@
         "办公AI",
         "Openclaw"
       ],
-      "rank": 1
+      "rank": 18
     },
     {
       "id": "2100067495235420356",
@@ -87,7 +632,7 @@
         "OpenAI",
         "开发者"
       ],
-      "rank": 2
+      "rank": 19
     },
     {
       "id": "2100062416679944198",
@@ -123,7 +668,7 @@
         "Claude Code",
         "云端开发"
       ],
-      "rank": 3
+      "rank": 20
     },
     {
       "id": "2100059716282167605",
@@ -154,7 +699,7 @@
         "工作流",
         "编程Agent"
       ],
-      "rank": 4
+      "rank": 21
     },
     {
       "id": "2100057838915813419",
@@ -199,7 +744,7 @@
         "提效",
         "工作流"
       ],
-      "rank": 5
+      "rank": 22
     },
     {
       "id": "2100056847420174482",
@@ -236,7 +781,7 @@
         "研究院",
         "组织"
       ],
-      "rank": 6
+      "rank": 23
     },
     {
       "id": "2100056042294165835",
@@ -277,7 +822,7 @@
         "Pro",
         "编程Agent"
       ],
-      "rank": 7
+      "rank": 24
     },
     {
       "id": "2100055819652038936",
@@ -307,7 +852,7 @@
         "编程Agent",
         "开发工具"
       ],
-      "rank": 8
+      "rank": 25
     },
     {
       "id": "2100051348725354576",
@@ -348,7 +893,7 @@
         "直播",
         "Agent"
       ],
-      "rank": 9
+      "rank": 26
     },
     {
       "id": "2100046089214709979",
@@ -385,7 +930,7 @@
         "工具链",
         "工程"
       ],
-      "rank": 10
+      "rank": 27
     },
     {
       "id": "2100045819676340327",
@@ -416,10 +961,10 @@
         "多模态",
         "Agent"
       ],
-      "rank": 11
+      "rank": 28
     }
   ],
-  "generated_at": "2026-09-16T04:06:28Z",
+  "generated_at": "2026-09-17T04:16:55Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -427,11 +972,11 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 11,
-    "last_batch_added": 11,
+    "actual_count": 28,
+    "last_batch_added": 17,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
