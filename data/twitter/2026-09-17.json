@@ -9,6 +9,551 @@
   },
   "items": [
     {
+      "id": "2100614133171552435",
+      "author": "Khazix0918",
+      "bio": "",
+      "text": "终于有空测一下Jev了，在分类准确度确实不错，AIHOT上一个小小的预筛任务，就是判断一个内容进来，是否跟AI相关。\n\nGLM 5.3 Flash是唯一一个全对的，但是也最慢和最贵。\nJev目前看起来是最综合的，准确性第二+便宜很多，比DeepSeek V4.1 Flash在空闲阶段还要便宜。\n\n但是问题在于，Qwen 3.7 Flash还是太便宜了...价格比Jev还要低一半，并且速度上也没有拉开差距，Jev说好的百毫秒级响应呢。。。\n\n还在测其他任务，思考一下要不要为了精准性提高几个点接受成本翻倍然后切换到Jev上Emmmmm",
+      "created_at": "Thu Sep 17 15:53:31 +0000 2026",
+      "likes": 22,
+      "views": "2837",
+      "url": "https://x.com/i/status/2100614133171552435",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSbgXI-agAAkxpB.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSbgXI-agAAkxpB.png"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 62.995,
+      "title": "Jev 做 AI 预筛：准确率第二、比 GLM 5.3 Flash 便宜，但仍被 Qwen 3.7 Flash 性价比压制",
+      "summary": "Khazix0918 用 AIHOT 预筛任务（判断内容是否与 AI 相关）对比多家 Flash：GLM 5.3 Flash 唯一全对但最慢最贵；Jev 准确率第二且空闲价比 DeepSeek V4.1 Flash 更低，综合表现最好；但 Qwen 3.7 Flash 价格再低一半、速度也未拉开，「百毫秒级」宣传未兑现。作者仍在权衡是否为多几个点准确率接受成本翻倍切到 Jev。",
+      "recommend_reason": "带具体任务与价速对比的一手测速，比空喊 waitlist 更有决策参考。",
+      "tags": [
+        "Jev",
+        "GLM",
+        "Qwen",
+        "模型对比",
+        "预筛"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2100612880047767553",
+      "author": "stevenbjohnson",
+      "bio": "",
+      "text": "The camera feature in the @Gemini_Notebook mobile app is so transformative for on-the-go research. I was up in the Sierras working on a new project, and I just took photos of everything, like this museum display. Then I asked for a detailed report of all the info in the image. The text below is what I got back. (I fact-checked it myself and it was 99% accurate -- and some of the text it transcribed is so blurry in the image that it was hard for me to read it.) \n\nNext step is to generate documents like this for all the photos I took, and then ask Notebook to highlight all the information that adds something new to the existing knowledge base of sources I've already collected, or is particularly relevant to my latest writing and outline for the project. Truly magical. \n\nMariposa Museum Exhibit Reference: Mariposa in 1859 & Gold Rush Era\nThis reference document consolidates all text, photographic captions, historical statistics, newspaper clippings, and exhibit overlays displayed on the Mariposa Museum exhibit panel regarding Mariposa during and after the Gold Rush.\n\n1. Exhibit Overview & Key Headlines\nMain Title: \"THIS WAS MARIPOSA IN 1859 – ONLY 10 YEARS AFTER THE GOLD RUSH BEGAN.\"\nHistorical Context Sub-headline: \"PORTIONS OF THE TOWN HAD BEEN REBUILT AFTER THE FIRE OF 1858.. & PARTS OF IT WERE DOOMED TO BE DESTROYED IN 1866\"\nDisplay Overview: The exhibit centers on a large 1850s panoramic photograph of Mariposa, annotated with street names, landmark locations, and population statistics, flanked by contemporary hotel advertisements, fire reports, medical artifacts, and photographs of civic buildings.\n\n2. Demographic & Real Estate Statistics (1850s vs. Present)\nMetricHistorical Value (1850s Gold Rush Peak)Modern Value\nTown Population~3,000 residents~1,800 estimated\nEntire Mariposa Diggings Area~15,000 residents—\nCommercial Establishments15 to 20 stores & saloons, plus hotels—\nTown Lot Prices00 to 00 per lot—\n\n3. Background Photograph & Civic Infrastructure\nBackground Photo Date: Taken in the 1850s, capturing the rapid growth of the settlement following the initial gold strike.\n1854 Mariposa County Courthouse:\nShown in the background panorama prior to the construction of its iconic clock tower.\nA separate framed photograph depicts the completed white wood-frame courthouse with a white picket fence and clock tower.\nClock Tower History: The clock mechanism was imported from England and is an 8-day, manually wound instrument. It remains operational today, maintained by the Mariposa Public Works Department.\nAnnotated Overlay Locations on Panorama:\n1854 Courthouse: Located at the upper edge of town on Jones Street.\nJones Street & Bullion Street: Upper residential and civic thoroughfares.\nCharles Street (Main Street): Primary commercial artery running through the center of the valley floor.\nSchlageter Hotel Site: Positioned along Main Street.\nMariposa Creek: Flowing along the foreground basin of the town diggings.\n\n4. The Fire of 1866: Mariposa's Second Great Conflagration\nBelow is the complete transcript of the Mariposa Gazette report featured on the panel regarding the disaster of August 25, 1866 (following the earlier destructive fire of 1858):\n\nArticle Text: \"FIRE! MARIPOSA'S SECOND GREAT FIRE\"\nA few minutes after 6 p.m. on Saturday, August 25, 1866 Mariposa was again ruined by a disastrous fire (first in 1858). According to the Gazette (the building was damaged but not destroyed), the fire was believed to have started when \"a recently imported printer stepped inside the Free Press office and lighted a cigar. The match had evidently been dropped carelessly amongst the papers on the floor. The Free Press office was located near the corner of Main and 7th Streets and by ten minutes the fire had spread through two blocks. The fire crossed Main Street to the Odd Fellows building and the Methodist Church and soon the buildings on the block between 6th and 7th Streets were burning like so much chaff.\" Seven full blocks, except for four fire-proof buildings, were totally destroyed. \"In one hour about 60 buildings and 77,000 worth of property were destroyed.\"\n\nBy early Monday morning the men were clearing away debris and by press time the following Saturday, the Gazette reported that several temporary business structures had already been erected and were open for business.\n\nInventory of Buildings Destroyed in the 1866 Fire:\nResidential & Civic: 14 Dwellings, 1 Church, 1 Odd Fellows and Masons Hall.\nMedia & Printing: 1 Newspaper Office (Free Press), 1 Newspaper Depot.\nHospitality & Retail: 3 Hotels, 5 Retail Stores, 1 Saddlery Shop, 9 Liquor Saloons (several equipped with billiard tables).\nServices & Trades: 2 Livery Stables, 3 Law Offices, 1 Drug Store, 3 Blacksmith Shops, 2 Carpenter Shops, 2 Shoemaker Shops, 1 Tailor Shop, 2 Butchering Establishments.\nOutbuildings: Numerous outhouses, private stables, and auxiliary structures.\n\n5. Commercial Hotels & Lodging\nGallison Hotel (1887 Advertisement)\nLocation: Main Street, Mariposa (center of business district, opposite Odd Fellows' Hall).\nProprietor: Winslow Gallison.\nManagement: Mrs. Gallison individually superintended all internal departments of the hotel.\nAmenities: Newly furnished rooms, first-class table dining.\nMariposa Hotel (1887 Card)\nLocation: Corner of Main and Fifth Streets.\nProprietor: Charles A. Schlageter.\nTarget Market: Accommodated general travelers as well as Yosemite tourists on short notice.\nAmenities: Family rooms, well-lighted parlors, good table, and bath facilities.\nThe Schlageter Hotel\nDate Built: Built in the 1850s.\nArchitecture: Prominent two-story wooden structure featuring full upper and lower covered verandas.\n\n6. Medical Artifacts & 19th-Century Therapeutics\nOld Mariposa Hospital\nA framed historical photograph depicts a two-story wood-frame hospital building with a prominent front porch and side wing (annotated \"from Chic Allingham\").\nDr. D. Jayne's Family Medicines (1880 Display Broadside)\n1. Jayne's Specific for Tape-Worm\nDiagnosis: Describes tapeworm infections as widespread, noting that discharging white or yellowish segments (\"resembling gourd seeds\") is the only positive diagnostic proof.\nPricing & Ordering: .00 per dose, shipped nationwide via mail from 242 Chestnut Street, Philadelphia.\nUsage Instructions: Dissolve powder in a pint of boiling water, drink in three equal hourly doses on an empty stomach. Follow with Cathartic medicines if bowels do not operate in three hours.\n2. Dr. D. Jayne's Sanative Pills\nFormulation: Concentrated, sugar-coated pills. Sold in 50-pill boxes (-bash.25) or 15-pill specimen packets (-bash.10).\nPrescribed Ailments: Advertised for liver complaints, gout, jaundice, dyspepsia, rheumatism, kidney affections, fevers, nervousness, skin diseases, melancholy, sick headache, and costiveness (constipation).\n3. Exhibit Commentary Note\nA small museum card mounted below the broadside reads:\n\"A man advertises for 'a competent person to undertake the sale of a new medicine' and adds innocently 'It will prove profitable to the undertaker.'\"",
+      "created_at": "Thu Sep 17 15:48:32 +0000 2026",
+      "likes": 18,
+      "views": "11537",
+      "url": "https://x.com/i/status/2100612880047767553",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSbflBBakAAAHA2.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSbflBBakAAAHA2.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 52.268,
+      "title": "Gemini Notebook 手机相机：拍展板出报告，模糊字也能转录且自检近乎准确",
+      "summary": "stevenbjohnson 在 Sierra 调研时用 Gemini Notebook 手机相机连拍博物馆展板，再让 Notebook 生成详细参考报告；自称事实核对约 99% 准确，部分原图模糊文字也能转录。下一步计划对全部照片批量生成文档，再让 Notebook 标出相对已有知识库的新增信息与写作相关点。展示了「边走边采 → 结构化进知识库」的移动调研工作流。",
+      "recommend_reason": "把多模态拍照直接接进研究知识库的具体用法，比功能官宣更有画面感。",
+      "tags": [
+        "Gemini",
+        "Gemini Notebook",
+        "多模态",
+        "调研",
+        "知识库"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2100611784642277736",
+      "author": "jinchenma_ai",
+      "bio": "",
+      "text": "再来推荐一波账号，这些都是我这半年做这个账号以来，一路陪我走过来的朋友们。\n\n其中有好多，我们都是同一时期从零粉成长到现在的。感谢大家一路互相托举。\n\nLuna @LunaAI519 金融高管，「每日一拆」作者，每天拆解一家前沿公司。非技术出身，从零开始学 AI，做出了企业内部广受好评的工具，也做出了精美的个人主页。人美，还有执行力。\n\n云比云 @yunbiyun 深藏不露的运维大佬，各大厂云平台资源可以找他，业务能力没得说。一个能坐高铁就不坐飞机的男人，不能有一小时电脑不在身边，因为要对客户负责。\n\nPunk @AdrianPunk115 非技术出身做 AI 博主的典范。我亲眼看着他用四个月，从 AI 小白做到 X 上 3 万粉。开源的 Punk Skill 上线三个月就突破了 1000 stars。\n\n孔明哥 @PandaMing88 销售大佬，深谙人性与心理学，也给了我很多鼓励和指导。\n\nHoody @HoodyLiu 视频 AIGC 大佬，曾任剪映、即梦用户增长负责人，含金量不用多说。\n\n文子姐 @Eejoylove 私域电商大佬，活力满满高精力美女，持续输出了 13 年。只工作不上班，认真生活，也在认真搞钱。\n\n乐哥 @ai_suxiaole 大厂程序员，也是奶爸，技术好，人 nice 又低调。AI 教程长文，小白都能看懂。有着 10 万粉大 V 的能力，但白天上班，晚上还要带娃，限制了他的全部实力😂\n\nR博 @rwayne 澳洲医学博士，留学咨询公司创始人，一个将 X 的增长和流量玩弄于手掌之间的男人。\n\nHytidel @HytidelLegend 00 后青年创业者，对商业有着超过同龄人的思考。分享商业战略、AI 赋能和企业转型，想看商业干货的可以去翻他的文章。\n\n蜗牛哥 @isnail 公众号的神。我的公众号从年初开始，大半年没有推荐流量，找蜗牛哥诊断了一下，第一周就开始恢复推荐。人特别好，Space 主持能力强，情绪又稳定，线下见面也非常 nice。\n\n七哥 @davinci_seven 在加拿大十年，英法双语，顶级游戏公司从业者。AI 工具、本地模型、海外支付和订阅这些，他都有研究。\n\n得否哥 @wangdefou 文科生搞 AI 的代表，深耕 AI 领域三年，现在已经把前老板炒了，自己做 OPC。想看文科生怎么把 AI 用起来、做成生意，关注他。\n\n老S @Stanleysobest 我做 X 的引路人，在我起号阶段给了我很大的帮助和支持。头部私域玩家，对互联网项目和机会很有研究。\n\nChristal @better_christal 专注 AI 副业，长文里有很多用 AI 赚钱的思路，也会分享具体的实战落地路径。\n\nAI严父 @dashen_wang 严父的世界，你不需要懂，你只需要跟着做就行了😂 对 AI 的理解总是很超前，现在已经只带 Agent 干活、不雇人了。\n\n黄小木 @ai_xiaomu 大厂高 P，辞职做 OPC，本地模型玩家。来 X 半年就快 5 万粉了，还开源了 X 增长工作流。据说已经掌握了黄果短剧的工作流，所以黄小木的“黄”是黄果的“黄”😂\n\nMiles @miles_mazy 前大厂 AI 算法专家，裸辞搞 OPC，做企业 AI 培训、落地和交付。一个月在 X 上搞到 2 万粉，一周三篇百万长文，又一个掌握了 X 增长和流量秘诀的男人。\n\nJK哥 @Jackywine 中推知识库第一人，玩 Obsidian、做知识库的朋友一定要关注。主页的资料库非常值得翻，光是免费内容就够学很多东西了。\n\n川哥 @AI_jacksaku 来 X 三天，靠一篇小龙虾直接破了万粉。我当初也是被川哥吸引过来，开始努力做 X 的。\n\n洋平 @MYohei707 我在天津卫的绝对人脉，最近在操盘天津本地 OPC 社区运营，也帮本地多个 OPC 从零搭建了营销闭环。在天津做 OPC、想找人交流商业和 AI 落地的朋友，可以加他。\n\n这半年能认识大家，真的很开心。感谢一路以来的支持和帮助，继续一起成长～\n（名单不一定全，如有遗漏后续继续补充",
+      "created_at": "Thu Sep 17 15:44:11 +0000 2026",
+      "likes": 8,
+      "views": "1717",
+      "url": "https://x.com/i/status/2100611784642277736",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2100003730691072297",
+        "author": "jinchenma_ai",
+        "name": "金尘马",
+        "text": "再补充一批还没破万粉、但内容非常优质的博主。\n\n在 X 上，千万不要根据一个人的粉丝数来衡量他的实力。好多大佬，虽然粉丝数看似不多，但非常牛逼。\n\n琳小航 @jedeeai 公众号矩阵爆文玩家，生财有术 AI 航海教练，X 榜单数据门户网站开发者。想做好 X，一定要用好他的 X 榜单平台，非常实用。\n\n夏林果 @momo_peggy 美女运营，出海赚美刀玩家，想学 Web 出海的看她。\n\n柱哥 @cgnot996 开源 Grok App 作者，替老马完成了他还没完成的事，已经 1k+ 星了，全推最会玩 Grok 的男人。\n\nJacky @JackyCufe 黑客松冠军，靠黑客松找到了工作，也是企业内部一线 FDE。目前已经被我们纳入山禾 FDE 核心讲师团队了。\n\n罗素 @Russell3402 FDE 实践者，因为过于优秀，在我们的线下沙龙会上，当场被大厂投来橄榄枝。但他坚定要创业，所以婉拒了。一般人能有第一步，大概率就从了，但罗素已经站在了第五层。\n\n猫博 @icycat 白天读博，晚上咔咔一顿 AI 开发。大家在 X 上看见的爆火的小火箭图标插件，就是猫博开发的。目前已经靠 AI 产品赚到六位数了，Build in public 和 earn in public 的典范。\n\n乐哥 @ai_suxiaole 大厂程序员，技术好，人 nice 又低调，写的 AI 教程长文，小白都能看懂。有着 10 万粉大 V 的能力，但现在白天上班，晚上还要带娃，限制了他的全部实力😂",
+        "created_at": "Tue Sep 15 23:28:00 +0000 2026",
+        "url": "https://x.com/jinchenma_ai/status/2100003730691072297",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 52.198,
+      "title": "金尘马盘点半年同行：从每日一拆到开源 Skill、剪映增长与 OPC 玩家",
+      "summary": "jinchenma_ai 长名单推荐半年一起成长的创作者：金融高管「每日一拆」Luna、运维云比云、四个月破 3 万粉并开源 Punk Skill 的 Punk、剪映/即梦增长 Hoody、知识库 JK、黄小木本地模型与 X 增长工作流、Miles 企业 AI 培训等，覆盖金融拆解、AIGC 视频、OPC、Obsidian 知识库与增长玩法，并强调粉丝数不等于实力。",
+      "recommend_reason": "中文 AI 创作者图谱的一手通讯录，方便按方向补关注而不是只追大 V。",
+      "tags": [
+        "创作者",
+        "推荐",
+        "OPC",
+        "开源",
+        "增长"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2100609778917822704",
+      "author": "bot",
+      "bio": "",
+      "text": "Day 3 of building a company with Grok Bot.\n\nLive now, plus sessions for marketing and customer success.\n\nhttps://t.co/do5YUfO0I1",
+      "created_at": "Thu Sep 17 15:36:13 +0000 2026",
+      "likes": 489,
+      "views": "25508",
+      "url": "https://x.com/i/status/2100609778917822704",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "745291183405076480:broadcast",
+        "url": "https://x.com/i/broadcasts/1YGNrbXEeazGw",
+        "domain": "x.com"
+      },
+      "quoted_tweet": null,
+      "score": 68.396,
+      "summary": "用 Grok Bot 办公司的第 3 天。现已直播，另有营销与客户成功专场。",
+      "recommend_reason": "Grok Bot「用 Agent 办公司」Day3 直播上线，含营销与客户成功专场，适合跟产品节奏。",
+      "tags": [
+        "Grok Bot",
+        "Agent",
+        "创业",
+        "直播",
+        "Cursor"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2100607793699205409",
+      "author": "jakevin7",
+      "bio": "",
+      "text": "openai 感觉最近有点难绷....\n限流又狠，额度也爆降了，关键还偷偷给你降智。\ngrok最近也降智和降速很严重，难受啊。\n反倒是 A➗家最近表现最好。",
+      "created_at": "Thu Sep 17 15:28:20 +0000 2026",
+      "likes": 16,
+      "views": "3045",
+      "url": "https://x.com/i/status/2100607793699205409",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 55.103,
+      "summary": "openai 感觉最近有点难绷....\n限流又狠，额度也爆降了，关键还偷偷给你降智。\ngrok最近也降智和降速很严重，难受啊。\n反倒是 A➗家最近表现最好。",
+      "recommend_reason": "用户侧对 OpenAI 限流/降额/降智与 Grok 降速的集中吐槽，对比「A 家」体感最好，是渠道选择信号。",
+      "tags": [
+        "OpenAI",
+        "Anthropic",
+        "限流",
+        "体感",
+        "模型"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2100603858309591200",
+      "author": "python_xxt",
+      "bio": "",
+      "text": "望大家周知，我已经退订了Kimi\n\nCodeX 的Luna Max ，完全替代了 Kimi",
+      "created_at": "Thu Sep 17 15:12:41 +0000 2026",
+      "likes": 1,
+      "views": "1120",
+      "url": "https://x.com/i/status/2100603858309591200",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2100586039001915701",
+        "author": "Gorden_Sun",
+        "name": "Gorden Sun",
+        "text": "Kimi重新开放订阅，差不多间隔了2个月 https://t.co/gOdNgTxkCg",
+        "created_at": "Thu Sep 17 14:01:53 +0000 2026",
+        "url": "https://x.com/Gorden_Sun/status/2100586039001915701",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HSbH3QqaYAAg1gV.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HSbH3QqaYAAg1gV.jpg"
+        ]
+      },
+      "summary": "望大家周知，我已经退订了Kimi\n\nCodeX 的Luna Max ，完全替代了 Kimi",
+      "recommend_reason": "订阅迁移信号：用户退订 Kimi，称 Codex 的 Luna Max 已完全替代。",
+      "tags": [
+        "Kimi",
+        "Codex",
+        "Luna Max",
+        "订阅",
+        "编程Agent"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2100601507779657998",
+      "author": "aiwaremax",
+      "bio": "",
+      "text": "发明 RLHF 的人，这次做了个完全不说话的模型。\n\n两千多万人围观的 Jev，号称比前沿大模型快 193.6 倍、便宜 444.6 倍，而且“零幻觉”。\n\n是真的技术跃迁，还是精调小模型换壳？\n\n过去几天，我查了 143 条官方与独立测试数字的出处，自费做了 50 条中文样本的完整实测，写了一份 52 页的独立研究报告。\n\n几个核心事实：\n1. 厂商宣传的 444.6 倍是极端峰值。独立测试的提速落在 5 到 25 倍之间，最保守的一家测出成本优势仅 1.6 倍。\n2. “零幻觉”指的是零类型错误。它选不出预设以外的选项，不代表选对。Every 实测里它连跑三次漏掉同一个暗坑。\n3. 67.8% 那个总分的分母不是人类，而是 GPT-6 Astra 与 Claude Fable 5.1 的共识。\n4. 中文 50 条实测（90 个基准判断）：准确率 95.6%，花费不到半美分。划定 0.80 置信度阈值后，66 个放行 100% 正确，转人工的 4 个完整包住了所有错判。\n5. 它是新架构还是 DeBERTa 换壳？现有公开证据根本分不出来。\n\n完整深度拆解见下方的 X Article。\n52 页 PDF 报告、50 条中文复现脚本与 143 条回溯数据表已全部开源：\nhttps://t.co/tt37aiulCT",
+      "created_at": "Thu Sep 17 15:03:21 +0000 2026",
+      "likes": 0,
+      "views": "3",
+      "url": "https://x.com/i/status/2100601507779657998",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "GitHub - HackSing/jev-report: 发明 RLHF 的人，这次做了个不会说话的模型：Jev 独立研究报告。52 页 PDF + 50 条中文实测复现包 + 143...",
+        "description": "发明 RLHF 的人，这次做了个不会说话的模型：Jev 独立研究报告。52 页 PDF + 50 条中文实测复现包 + 143 条可回溯数据表 - HackSing/jev-report",
+        "image_url": "https://pbs.twimg.com/card_img/2100601511701360640/xFNtKnft?format=jpg&name=600x600",
+        "url": "https://t.co/tt37aiulCT",
+        "domain": "github.com"
+      },
+      "quoted_tweet": {
+        "id": "2100601445859078408",
+        "author": "aiwaremax",
+        "name": "AIWare",
+        "text": "https://t.co/TKbnedhkH7",
+        "created_at": "Thu Sep 17 15:03:06 +0000 2026",
+        "url": "https://x.com/aiwaremax/status/2100601445859078408",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 49.81,
+      "title": "独立实测 Jev：宣传 444 倍便宜，保守测仅约 1.6 倍；「零幻觉」≠选对",
+      "summary": "aiwaremax 自费做 50 条中文样本、回溯 143 条官方与独立测试数字，写出 52 页 Jev 研究报告并开源。核心结论：宣传的 444.6 倍成本优势是极端峰值，独立测试提速多在 5–25 倍、最保守成本优势仅 1.6 倍；「零幻觉」指零类型错误（选不出预设外选项）而非选对；67.8% 总分分母是前沿模型共识而非人类。中文实测准确率 95.6%，设 0.80 置信阈值后放行样本 100% 正确。公开证据仍无法判断是新架构还是 DeBERTa 换壳。",
+      "recommend_reason": "少见的一手独立评测+开源复现包，直接拆穿 Jev 营销数字与「零幻觉」话术。",
+      "tags": [
+        "Jev",
+        "模型评测",
+        "独立报告",
+        "幻觉",
+        "开源"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2100599522460365258",
+      "author": "xiaoxiaodong01",
+      "bio": "",
+      "text": "GPT2 x 点上 x  产品主图 x 尝试\n\n围绕茶叶窗外的饮品，做了一个电商主图提示词\n有意思\n\nGPT-image2.5 在电商这块，大有挖掘的空间呀\n丰富多彩skills可以有！\n\n本次提示词：\n\n```\n高级商业产品主视觉摄影。\n\n首先判断输入方式：\n\n若用户提供产品实拍图、包装图或商品参考图，以原产品为最高优先级视觉依据。准确保留产品的造型、比例、结构、包装、品牌标识、文字位置、颜色、材质、纹理及关键识别特征，不擅自改款、重新设计或替换商品。可以根据新场景自然重建光线、阴影、反射、透视与环境色，使原产品真正融入画面，而不是简单贴图。若原图背景杂乱，可自然提取主体并重新建立空间。\n\n若用户只提供产品名称、品类或创意命题，则根据产品属性、功能、材质、消费情境与品牌气质建立合理的商品形态及视觉世界，不机械套用既定模板。\n\n画面从商品自身向外生长。主体清晰、真实、有重量，表面纹理、边缘和材质具有可信触感；商品自然落在与其气质相呼应的承载基面、台面或结构关系中，形成明确重心与接触阴影，避免悬浮感和模板化展台。\n\n前景与周围只出现真正能够解释商品的器物、原料、材质或细节，疏密自然；背景保持克制，可通过柔和渐变、低对比轮廓、自然投影、模糊形态、纹理或若隐若现的主题意象建立空间，让环境像商品气质留下的余韵，而不是直接堆砌主题元素。\n\n光线具有明确方向，但保持柔和自然。重点塑造商品体积、材质、边缘和重量，明暗过渡细腻，亮部有空气，暗部保留层次，底部拥有真实的接触阴影；让光真正作用于商品，而不是平均照亮整个画面。\n\n色彩从商品本身延展，背景、基座、道具和环境色自然呼应，允许细微冷暖、明暗与材质变化，不使用机械配色公式。\n\n若需要标题，大字必须成为商品之外最明确的视觉核心之一：尺度大胆、字形完整、轮廓清楚、阅读清晰，在缩小画面后仍能迅速识别；不让纹理、插画或复杂背景穿过主要字形。辅助文字、英文、编号和说明自然退后，形成精致的编辑层级。\n\n整体高级、安静、真实、有空气感，丰富但不过满，元素之间彼此牵引而非人为堆积。避免商品变形、包装文字乱改、品牌元素丢失、漂浮主体、廉价展台、机械对称、无意义装饰、平均打光、背景抢戏及模板化电商感。\n\n最终呈现成熟品牌级电商主图、产品海报或品牌KV。\n```",
+      "created_at": "Thu Sep 17 14:55:28 +0000 2026",
+      "likes": 2,
+      "views": "586",
+      "url": "https://x.com/i/status/2100599522460365258",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSbTpXbb0AARt9t.jpg",
+        "https://pbs.twimg.com/media/HSbTqcfbIAAM0u8.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSbTpXbb0AARt9t.jpg",
+        "https://pbs.twimg.com/media/HSbTqcfbIAAM0u8.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 56.783,
+      "title": "GPT-image2.5 电商主图提示词：保产品形态、重建光影，避开模板化展台",
+      "summary": "xiaoxiaodong01 用「茶叶窗外饮品」试做电商主图，认为 GPT-image2.5 在电商场景可挖空间大。提示词强调：有实拍则最高优先级保留造型/包装/品牌字；只给品类则按气质建模；画面从商品向外生长，真实接触阴影；光有方向但柔和；标题大字清晰可读；避免变形、乱改包装字、悬浮主体与廉价展台感。附完整可复用提示词。",
+      "recommend_reason": "可直接拿走的电商主图提示词工程，比「好强大」类截图更有复用价值。",
+      "tags": [
+        "GPT-image",
+        "电商",
+        "提示词",
+        "产品主图",
+        "AIGC"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2100595389825261751",
+      "author": "lixinbao_X",
+      "bio": "",
+      "text": "27岁AI研究员放弃股权辞职\n\nJacob Coxon再熬两个月，就能拿到Anthropic第一笔股权，但他还是走了。\n\n原因很直接：他担心OpenAI和Anthropic正在冲向“可自我改进”的超级智能，而人类的控制能力根本没跟上。\n\n今年的安全测试里，OpenAI上千个AI智能体曾自行建立通信渠道，Anthropic的Claude也出现误入真实网络、攻击真实系统的事故。\n\n这不等于AI“觉醒”，却暴露了更现实的问题：\n\nAI越强，人类一次小失误，可能被放大成大事故。\n\n现在大家都知道不能跑太快。\n\n但谁敢第一个踩刹车？",
+      "created_at": "Thu Sep 17 14:39:02 +0000 2026",
+      "likes": 1,
+      "views": "326",
+      "url": "https://x.com/i/status/2100595389825261751",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 50.794,
+      "title": "Anthropic 研究员放弃股权离职：担心「可自我改进」超级智能跑在人类控制前头",
+      "summary": "lixinbao_X 转述 Jacob Coxon 在距 Anthropic 第一笔股权仅两月时辞职，理由是担心 OpenAI/Anthropic 冲向可自我改进的超级智能而人类控制力未跟上。文中提到安全测试里 OpenAI 智能体曾自行建通信通道、Claude 误入真实网络等事故——不等于「觉醒」，但说明能力越强、小失误越可能被放大。核心追问：谁敢第一个踩刹车？",
+      "recommend_reason": "一线安全研究者用放弃股权表态，比空泛「AI 危险」讨论更有信息密度。",
+      "tags": [
+        "Anthropic",
+        "AI安全",
+        "超级智能",
+        "对齐",
+        "离职"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2100594496585297973",
+      "author": "OpenDesignHQ",
+      "bio": "",
+      "text": "One chat was only our starting point.\n\nTo redesign how people design, we go further:\n→ Switch between 20+ agents across ecosystems. Keep your context.\n→ OpenDesign Harness: better design, consistent branding.\n\nAI design should be open to everyone, from first-timers to pros. https://t.co/iyDIbGIr1w",
+      "created_at": "Thu Sep 17 14:35:29 +0000 2026",
+      "likes": 19,
+      "views": "2160",
+      "url": "https://x.com/i/status/2100594496585297973",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2100593153405485056/vid/avc1/392x270/UBdfLMQItC_1MqYg.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2100593153405485056/img/-TqSGQHgB1IchTI9.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2100258492590207079",
+        "author": "claudeai",
+        "name": "Claude",
+        "text": "You can also now make decks, docs, and designs in your conversation.\n\nDraft the one-pager in Claude Docs, turn it into a deck with Claude Slides, and mock up a matching visual in Claude Design, all from one place. https://t.co/Y0JaJGT3G8",
+        "created_at": "Wed Sep 16 16:20:20 +0000 2026",
+        "url": "https://x.com/claudeai/status/2100258492590207079",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2100254736763019264/vid/avc1/480x270/dllnD7Nm_dp96V2n.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HSWePXcXQAAAj1F.jpg"
+        ]
+      },
+      "score": 63.281,
+      "title": "OpenDesign：一处对话切换 20+ Agent，并用 Harness 稳住品牌一致性",
+      "summary": "OpenDesignHQ 称不止于单次聊天：可在生态里切换 20+ Agent 并保留上下文，再用 OpenDesign Harness 提升设计质量与品牌一致；引用 Claude 现已能在对话里做 Docs/Slides/Design。定位是让 AI 设计从新手到专业都更开放。",
+      "recommend_reason": "对应 Claude 设计能力官宣的竞品/补位产品叙事，关注多 Agent 设计工作台方向。",
+      "tags": [
+        "AI设计",
+        "Agent",
+        "Claude",
+        "品牌",
+        "工具"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2100593782911582578",
+      "author": "nvidia",
+      "bio": "",
+      "text": "At Dumfries House in Scotland, our CEO @JensenHuang joined His Majesty The King and global leaders to discuss how AI can serve the public good.\n\nJensen's message: capability and safety must advance together, expanding opportunity and putting AI to work for people. https://t.co/lIvZF5iKXh",
+      "created_at": "Thu Sep 17 14:32:39 +0000 2026",
+      "likes": 412,
+      "views": "27752",
+      "url": "https://x.com/i/status/2100593782911582578",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSbJr0RWoAAxo99.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSbJr0RWoAAxo99.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 54.718,
+      "title": "黄仁勋在苏格兰与英王等讨论 AI 公益：能力与安全必须同步推进",
+      "summary": "NVIDIA 官方发文：CEO 黄仁勋在苏格兰 Dumfries House 与英王及全球领袖讨论如何让 AI 服务公共利益。黄仁勋强调能力与安全须同步前进，扩大机会并把 AI 真正用到人身上。",
+      "recommend_reason": "官方口径确认「能力+安全并行」仍是英伟达对外主叙事，适合对照监管与产业议程。",
+      "tags": [
+        "NVIDIA",
+        "黄仁勋",
+        "AI安全",
+        "公共政策",
+        "官方"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2100593116789063744",
+      "author": "VigoCreativeAI",
+      "bio": "",
+      "text": "VISUAL OS 044\n\nOne ribbon, four jobs.\n\nA skate ramp. A dancer's spin. The smell of coffee. A sound wave.\nSame object every time — it just changes what it means.\n\nPrompt below ↓ https://t.co/qAY7nubsMH",
+      "created_at": "Thu Sep 17 14:30:00 +0000 2026",
+      "likes": 24,
+      "views": "477",
+      "url": "https://x.com/i/status/2100593116789063744",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSawTmEXYAArNF7.jpg",
+        "https://pbs.twimg.com/media/HSawTmKWoAAJ_Zn.jpg",
+        "https://pbs.twimg.com/media/HSawTmPWAAASfqX.jpg",
+        "https://pbs.twimg.com/media/HSawTmTW4AAHZqs.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSawTmEXYAArNF7.jpg",
+        "https://pbs.twimg.com/media/HSawTmKWoAAJ_Zn.jpg",
+        "https://pbs.twimg.com/media/HSawTmPWAAASfqX.jpg",
+        "https://pbs.twimg.com/media/HSawTmTW4AAHZqs.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 79.682,
+      "title": "VISUAL OS 044：同一根丝带，滑板坡道/舞者旋转/咖啡香/声波四种语义",
+      "summary": "VigoCreativeAI 展示同一物体在四组画面里只换语义角色：滑板坡道、舞者旋转、咖啡气味与声波。强调「同一对象、不同含义」的视觉操作系统式提示，并附 prompt。适合做一致性物件的多场景生成练习。",
+      "recommend_reason": "用单一物件练语义迁移的提示范例，比零散美图更有可学结构。",
+      "tags": [
+        "提示词",
+        "图像生成",
+        "视觉设计",
+        "一致性",
+        "AIGC"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2100591235471966472",
+      "author": "vista8",
+      "bio": "",
+      "text": "这两天最火的新构架大模型 Jev，官方Waitlist填写地址\n\nVercel AI Gateway已经可以调用，明天抽空试试。\n\n两个地址见评论区，建议收藏。\n\n很多朋友在聊，但具体应用场景还需要挖掘。 https://t.co/gpwobyoTmn",
+      "created_at": "Thu Sep 17 14:22:32 +0000 2026",
+      "likes": 5,
+      "views": "2703",
+      "url": "https://x.com/i/status/2100591235471966472",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSbMOCIakAAuArI.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSbMOCIakAAuArI.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 56.896,
+      "summary": "这两天最火的新构架大模型 Jev，官方Waitlist填写地址\n\nVercel AI Gateway已经可以调用，明天抽空试试。\n\n两个地址见评论区，建议收藏。\n\n很多朋友在聊，但具体应用场景还需要挖掘。",
+      "recommend_reason": "Jev 从讨论进入可调用：Waitlist + Vercel AI Gateway 双入口，方便跟进实测。",
+      "tags": [
+        "Jev",
+        "Vercel",
+        "AI Gateway",
+        "新模型",
+        "Waitlist"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2100590521831804986",
+      "author": "elonmusk",
+      "bio": "",
+      "text": "It’s amazing how damaging a single false premise (the blank slate fallacy) can be for humans. Same holds true for AI.",
+      "created_at": "Thu Sep 17 14:19:42 +0000 2026",
+      "likes": 6147,
+      "views": "1175523",
+      "url": "https://x.com/i/status/2100590521831804986",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2100338173561737568",
+        "author": "AlecStapp",
+        "name": "Alec Stapp",
+        "text": "I thought the tweet below must be omitting some critical context or paraphrasing the text ungenerously.\n\nBut no, the NYT actually published an op-ed that claims the University of California hasn't sacrificed excellence even though it admits students who struggle with basic math. https://t.co/hAitGCNqb1",
+        "created_at": "Wed Sep 16 21:36:57 +0000 2026",
+        "url": "https://x.com/AlecStapp/status/2100338173561737568",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HSXlZPZWIAA34eS.png"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HSXlZPZWIAA34eS.png"
+        ]
+      },
+      "score": 50.749,
+      "summary": "一个错误前提（空白石板谬误）能对人类造成多大伤害，令人惊叹。这对 AI 同样成立。",
+      "recommend_reason": "马斯克把「空白石板」谬误直接类比到 AI，一句话点出错误先验对人类与模型同样有害。",
+      "tags": [
+        "ElonMusk",
+        "AI",
+        "认知",
+        "先验",
+        "观点"
+      ],
+      "rank": 14
+    },
+    {
+      "id": "2100589909136523770",
+      "author": "vista8",
+      "bio": "",
+      "text": "多模态强还是不错的，丢一个产品功能演示录屏，就能开发一个Mac App出来。\n\n一句话生成电影3分钟解说也很方便。 https://t.co/31bGYBoya9",
+      "created_at": "Thu Sep 17 14:17:16 +0000 2026",
+      "likes": 0,
+      "views": "2350",
+      "url": "https://x.com/i/status/2100589909136523770",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2100589794237775872/vid/avc1/432x270/mZPi31k6_N9Q5a4z.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2100589794237775872/img/1tEr0mF8zWREww36.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2100498526769934385",
+        "author": "vista8",
+        "name": "向阳乔木",
+        "text": "https://t.co/hHCWcISw9n",
+        "created_at": "Thu Sep 17 08:14:08 +0000 2026",
+        "url": "https://x.com/vista8/status/2100498526769934385",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "summary": "多模态强还是不错的，丢一个产品功能演示录屏，就能开发一个Mac App出来。\n\n一句话生成电影3分钟解说也很方便。",
+      "recommend_reason": "多模态「录屏→Mac App / 一句话电影解说」的具体能力体感，比参数榜更直观。",
+      "tags": [
+        "多模态",
+        "Mac App",
+        "代码生成",
+        "短视频",
+        "Agent"
+      ],
+      "rank": 15
+    },
+    {
+      "id": "2100589342163193911",
+      "author": "dugujun12",
+      "bio": "",
+      "text": "我觉得要想让 AI 实现完全的自动化，必须具备的“4 件套”就是：skill、工作流、MCP、以及 API。",
+      "created_at": "Thu Sep 17 14:15:00 +0000 2026",
+      "likes": 1,
+      "views": "665",
+      "url": "https://x.com/i/status/2100589342163193911",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "我觉得要想让 AI 实现完全的自动化，必须具备的“4 件套”就是：skill、工作流、MCP、以及 API。",
+      "recommend_reason": "把 AI 全自动压缩成 skill + 工作流 + MCP + API 四件套，框架清晰好记。",
+      "tags": [
+        "Agent",
+        "MCP",
+        "Skill",
+        "工作流",
+        "自动化"
+      ],
+      "rank": 16
+    },
+    {
       "id": "2100422533778489626",
       "author": "AI_Jasonyu",
       "bio": "",
@@ -39,7 +584,7 @@
         "创作者",
         "X"
       ],
-      "rank": 1
+      "rank": 17
     },
     {
       "id": "2100421921892671617",
@@ -67,7 +612,7 @@
         "AI编程",
         "工作流"
       ],
-      "rank": 2
+      "rank": 18
     },
     {
       "id": "2100421505536639231",
@@ -107,7 +652,7 @@
         "Agent",
         "安全"
       ],
-      "rank": 3
+      "rank": 19
     },
     {
       "id": "2100417446200979486",
@@ -147,7 +692,7 @@
         "Artifacts",
         "Anthropic"
       ],
-      "rank": 4
+      "rank": 20
     },
     {
       "id": "2100416226271150217",
@@ -183,7 +728,7 @@
         "知识管理",
         "效率"
       ],
-      "rank": 5
+      "rank": 21
     },
     {
       "id": "2100415770446762420",
@@ -231,7 +776,7 @@
         "开发者社区",
         "AI编程"
       ],
-      "rank": 6
+      "rank": 22
     },
     {
       "id": "2100412229216784397",
@@ -275,7 +820,7 @@
         "短视频",
         "Agent"
       ],
-      "rank": 7
+      "rank": 23
     },
     {
       "id": "2100407090263335252",
@@ -306,7 +851,7 @@
         "Palantir",
         "Rippling"
       ],
-      "rank": 8
+      "rank": 24
     },
     {
       "id": "2100407022714028169",
@@ -337,7 +882,7 @@
         "联邦法规",
         "部署"
       ],
-      "rank": 9
+      "rank": 25
     },
     {
       "id": "2100397855106359701",
@@ -370,10 +915,10 @@
         "推特运营",
         "爆款分析"
       ],
-      "rank": 10
+      "rank": 26
     }
   ],
-  "generated_at": "2026-09-17T04:10:29Z",
+  "generated_at": "2026-09-17T16:25:55Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -381,11 +926,11 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 10,
-    "last_batch_added": 10,
+    "actual_count": 26,
+    "last_batch_added": 16,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
