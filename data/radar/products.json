@@ -1,9 +1,159 @@
 {
-  "source": "ai-frontier-radar",
+  "source": "AI Frontier Radar",
   "title": "新产品",
-  "updated_at": "2026-09-16T08:20:00+08:00",
-  "count": 68,
+  "updated_at": "2026-09-17T08:20:00+08:00",
+  "count": 75,
   "items": [
+    {
+      "id": "claude-cowork-chat-merge",
+      "name": "Claude Cowork × Chat 合并",
+      "score": 92,
+      "status": "new",
+      "first_detected": "2026-09-17T08:20:00+08:00",
+      "last_updated": "2026-09-17T08:20:00+08:00",
+      "summary": "Anthropic 将 Claude Cowork 与 chat 合并为单一 Claude：随问随办、关电脑后仍继续执行；不确定时追问并由用户拍板。Design/Slides/Docs 对付费计划进 beta，Pro/Max 数周 rollout。",
+      "novelty": "把持久后台执行与日常对话收成同一入口，关盖续跑成为默认产品语言。",
+      "urls": {
+        "x": "https://x.com/claudeai/status/2100258490740539730"
+      },
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "Cowork",
+        "持久执行",
+        "Agent"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "openai-chatgpt-sponsored-agents",
+      "name": "ChatGPT Sponsored Agents",
+      "score": 91,
+      "status": "new",
+      "first_detected": "2026-09-17T08:20:00+08:00",
+      "last_updated": "2026-09-17T08:20:00+08:00",
+      "summary": "OpenAI 测试 Sponsored Agents：用户点击广告后进入商家赞助、明确标注的独立 agent 对话，追问适配性后再跳转官网；同步 ChatGPT Work 自然语言建广告，首批接入 HubSpot 与 Shopify。",
+      "novelty": "广告点击 → 赞助 agent 会话成为 ChatGPT 内转化表面，agent 变成可投放商务界面。",
+      "urls": {
+        "site": "https://openai.com/index/reimagining-advertising-with-ai/"
+      },
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "Ads",
+        "Sponsored Agents",
+        "商业"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "grok-build-memory",
+      "name": "Grok Build Memory",
+      "score": 88,
+      "status": "new",
+      "first_detected": "2026-09-17T08:20:00+08:00",
+      "last_updated": "2026-09-17T08:20:00+08:00",
+      "summary": "xAI 为 Grok Build 发布跨会话 Memory：后台抽取约定/决策/项目事实为 markdown 主题；/dream 合并观测，/memory 浏览；后续会话动手前读取相关主题。",
+      "novelty": "官方 coding harness 默认写入跨会话记忆，而不是只靠用户规则文件。",
+      "urls": {
+        "site": "https://x.ai/news/grok-build-memory"
+      },
+      "tags": [
+        "xAI",
+        "Grok",
+        "Memory",
+        "harness",
+        "markdown"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "zeroclick",
+      "name": "ZeroClick",
+      "score": 87,
+      "status": "new",
+      "first_detected": "2026-09-17T08:20:00+08:00",
+      "last_updated": "2026-09-17T08:20:00+08:00",
+      "summary": "把任意 API/商品包成面向 AI agents 的可发现服务（x402 & MPP），含机器可读发现、Stripe/USDC 结算、agent ID 与交易分析——卖给 agent 的店面。",
+      "novelty": "Agent-commerce storefront：对人店面之外，直接向 agent 售卖与结算。",
+      "urls": {
+        "ph": "https://www.producthunt.com/products/zeroclick",
+        "site": "https://zeroclick.ai"
+      },
+      "tags": [
+        "Product Hunt",
+        "agent-commerce",
+        "x402",
+        "MPP",
+        "结算"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "doubao-seed-2-1-pro-0915",
+      "name": "Doubao-Seed-2.1-pro 0915",
+      "score": 84,
+      "status": "new",
+      "first_detected": "2026-09-17T08:20:00+08:00",
+      "last_updated": "2026-09-17T08:20:00+08:00",
+      "summary": "火山引擎将 Doubao-Seed-2.1-pro 更新至 0915：Agent 任务证据溯源/权威检索/核验、幻觉下降；多模态 Coding 与长报告自拆解；火山方舟/豆包工作/TRAE 同步，Evolving 同接入点。",
+      "novelty": "同接入点把 Pro 迭代压到 Agent 交付可靠 + 多模态 Coding 生产指标。",
+      "urls": {
+        "site": "https://research.doubao.com/zh/seed2_1",
+        "press": "https://www.ithome.com/1/003/012.htm"
+      },
+      "tags": [
+        "字节",
+        "豆包",
+        "Seed",
+        "Agent",
+        "Coding"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "muse-code-windows",
+      "name": "Muse Code for Windows",
+      "score": 81,
+      "status": "new",
+      "first_detected": "2026-09-17T08:20:00+08:00",
+      "last_updated": "2026-09-17T08:20:00+08:00",
+      "summary": "Meta Muse Code 原生上 Windows（无需 WSL）：PowerShell 友好、默认沙箱、x64/ARM64、零管理员安装；即将支持 intersession messaging。同期 Plugins marketplace 上线。",
+      "novelty": "编码 agent 客户端走向桌面原生 + 会话间消息 + 插件市场，而不是只挂在 Web/WSL。",
+      "urls": {
+        "x": "https://x.com/MetaforDevs/status/2100268678583566691",
+        "plugins": "https://x.com/claireszhou/status/2100088731189616884"
+      },
+      "tags": [
+        "Meta",
+        "Muse Code",
+        "Windows",
+        "Plugins",
+        "sandbox"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "twigg",
+      "name": "Twigg",
+      "score": 79,
+      "status": "watching",
+      "first_detected": "2026-09-17T08:20:00+08:00",
+      "last_updated": "2026-09-17T08:20:00+08:00",
+      "summary": "Stateful 跨模型 chat API：创建一次会话后只发下一事件；托管上下文组装/压缩并路由 Anthropic/OpenAI/Google/xAI/Fireworks/OpenRouter。",
+      "novelty": "把上下文层做成 provider-agnostic 托管 API，而不是应用内自建 memory。",
+      "urls": {
+        "ph": "https://www.producthunt.com/products/twigg",
+        "site": "https://twigg.ai"
+      },
+      "tags": [
+        "Product Hunt",
+        "context-layer",
+        "API",
+        "router"
+      ],
+      "homepage": false
+    },
     {
       "id": "plasma-radio",
       "name": "Plasma Radio",
@@ -49,7 +199,7 @@
       "id": "multimodal-agents-sierra",
       "name": "Multimodal Agents by Sierra",
       "score": 84,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-16T08:20:00+08:00",
       "last_updated": "2026-09-16T08:20:00+08:00",
       "summary": "Sierra 客户 agent 可在对话中途自动在 voice↔text↔visuals 间切换，并用 MCP UI 托管交互组件（卡片/表格/日历/表单），一次构建跨渠道复用。",
@@ -65,13 +215,13 @@
         "客户agent",
         "Product Hunt"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "whatsapp-business-tools-mcp",
       "name": "WhatsApp Business Tools MCP",
       "score": 85,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-16T08:20:00+08:00",
       "last_updated": "2026-09-16T08:20:00+08:00",
       "summary": "Meta 发布 WhatsApp Business Tools Remote MCP（beta）：Claude/Cursor/Codex 等经 OAuth 可代办开户、号验证、Cloud API 注册、模板 CRUD、webhook、测发与健康检查；状态变更需真人鉴权、可审计。",
@@ -87,13 +237,13 @@
         "企业",
         "Skills"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "buddy-ai-access-mcp",
       "name": "Buddy AI Access (MCP)",
       "score": 86,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-16T08:20:00+08:00",
       "last_updated": "2026-09-16T08:20:00+08:00",
       "summary": "Buddy 托管 Remote MCP（+ CLI skills）：coding agent 可跑流水线、读日志、部署、起 sandbox、发包、管域名——scoped tools/OAuth，把 DevOps 控制面交给 agent。",
@@ -109,13 +259,13 @@
         "sandbox",
         "Product Hunt"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "salesforce-in-claude",
       "name": "Salesforce in Claude",
       "score": 88,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-16T08:20:00+08:00",
       "last_updated": "2026-09-16T08:20:00+08:00",
       "summary": "Anthropic 宣布 Salesforce in Claude beta：accounts/opportunities/pipeline 进对话，附带 37 个预置 sales skills（prep call、review deal、pipeline dashboard、forecast），不离开 Claude 完成销售工作流。",
@@ -130,13 +280,13 @@
         "Skills",
         "垂直"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "jurniti",
       "name": "jurniti",
       "score": 88,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-16T08:20:00+08:00",
       "last_updated": "2026-09-16T08:20:00+08:00",
       "summary": "PH 上线的 always-on agent 运行时：每个 agent 独占 Firecracker microVM + KVM 边界（非共享 Docker），BYOK 留在 guest，CLI=REST=MCP 同一控制面，可 fork agent 模板/swarm。",
@@ -153,13 +303,13 @@
         "always-on",
         "Product Hunt"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "gemini-3-8-live",
       "name": "Gemini 3.8 Live + Extended Thinking",
       "score": 91,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-16T08:20:00+08:00",
       "last_updated": "2026-09-16T08:20:00+08:00",
       "summary": "Google DeepMind 发布 Gemini 3.8 Live 与 3.8 Live Extended Thinking：原生 speech-to-speech，近实时视觉，97 语种；Extended Thinking 可在全双工对话中后台多步推理并异步 function-calling（不打断会话），边叙述进度边跑工具。Live API + Gemini App 同步开推。",
@@ -178,7 +328,7 @@
         "Live",
         "Agent"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "gpt-6-astra",

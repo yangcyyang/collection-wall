@@ -1,19 +1,66 @@
 {
-  "source": "ai-frontier-radar",
+  "source": "AI Frontier Radar",
   "title": "前沿信号",
-  "updated_at": "2026-09-16T08:20:00+08:00",
-  "count": 12,
+  "updated_at": "2026-09-17T08:20:00+08:00",
+  "count": 13,
   "items": [
+    {
+      "id": "agent-commerce-surfaces",
+      "title": "Agent 正在变成可投放、可售卖的商务界面",
+      "type": "emerging_signal",
+      "score": 86,
+      "confidence": "medium",
+      "status": "new",
+      "first_detected": "2026-09-17T08:20:00+08:00",
+      "last_updated": "2026-09-17T08:20:00+08:00",
+      "summary": "OpenAI ChatGPT Sponsored Agents 让广告点击进入商家赞助 agent 对话（HubSpot/Shopify）；Product Hunt 上 ZeroClick 把任意 API/商品包成 x402 & MPP 可发现、可结算服务，面向「卖给 AI agents」。两条路径同时出现：对人投放的赞助 agent，以及对 agent 的机器可读店面。",
+      "why_it_matters": "如果 agent 既是广告落地页又是采购方，分发与计价会从座位/token 转向会话转化与机器结算——这是新商业原语，而不只是又一个聊天插件。",
+      "tags": [
+        "Agent",
+        "广告",
+        "Commerce",
+        "x402",
+        "Sponsored Agents",
+        "ZeroClick"
+      ],
+      "evidence": [
+        {
+          "url": "https://openai.com/index/reimagining-advertising-with-ai/",
+          "source": "official",
+          "note": "ChatGPT Sponsored Agents",
+          "date": "2026-09-16"
+        },
+        {
+          "url": "https://www.producthunt.com/products/zeroclick",
+          "source": "producthunt",
+          "note": "ZeroClick：Sell your product to AI agents",
+          "date": "2026-09-16"
+        },
+        {
+          "url": "https://zeroclick.ai",
+          "source": "product",
+          "note": "ZeroClick site：x402/MPP storefront",
+          "date": "2026-09-16"
+        }
+      ],
+      "watch_next": [
+        "Sponsored Agents 是否扩出 HubSpot/Shopify 首批",
+        "ZeroClick 真实 agent 采购成交与结算纠纷",
+        "是否出现标准 agent 商品描述/发现协议"
+      ],
+      "judgment_changes": [],
+      "homepage": true
+    },
     {
       "id": "agent-persistent-computer",
       "title": "智能体正在拥有自己的长期计算环境",
       "type": "pattern",
-      "score": 97,
+      "score": 98,
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-16T08:20:00+08:00",
-      "summary": "持久 agent 电脑品类继续扩：jurniti 用每 agent 一 Firecracker microVM（KVM 边界、BYOK 在 guest、CLI=REST=MCP）做 always-on；叠加既有 Cursor Projects、Muse Secure VM、Aside 本地 agent 浏览器。隔离边界从「共享容器」明确走向「微虚拟机」。",
+      "last_updated": "2026-09-17T08:20:00+08:00",
+      "summary": "Claude 官方把 Cowork 与 chat 合并为单一 Claude：随问随办、关电脑后仍继续执行，不确定时追问并由用户拍板；Cowork 的 chats/projects/artifacts/connectors/skills 原样保留。叠加 jurniti microVM always-on、Cursor Projects、Muse Secure VM——「关盖还在跑」的持久 agent 电脑从品类实验变成主流产品入口。",
       "why_it_matters": "叙事从「模型会点鼠标」变成「每人一台隔离 VM 里的代理」。Sentinel/审批/审计说明大众 agent 的产品化关键是安全电脑，而不是更长的聊天窗口。",
       "tags": [
         "智能体",
@@ -26,6 +73,12 @@
         "Sentinel"
       ],
       "evidence": [
+        {
+          "url": "https://x.com/claudeai/status/2100258490740539730",
+          "source": "official",
+          "note": "claudeai：Cowork 与 chat 合并；关电脑后仍执行",
+          "date": "2026-09-17T00:20:19+08:00"
+        },
         {
           "url": "https://www.producthunt.com/products/jurniti",
           "source": "producthunt",
@@ -423,7 +476,7 @@
         "Agents API 出公测后的定价与配额",
         "更多 IDE/平台是否跟进「Projects 式」常驻 coordinator"
       ],
-      "homepage": true,
+      "homepage": false,
       "judgment_changes": [
         {
           "date": "2026-09-01T08:50:00+08:00",
@@ -559,7 +612,7 @@
         "有没有第三方复现 Hy4 的递归自改进",
         "OpenRouter 放量能否核对"
       ],
-      "homepage": true,
+      "homepage": false,
       "judgment_changes": [
         {
           "date": "2026-09-01T08:50:00+08:00",
@@ -707,7 +760,7 @@
         "Lean 证明与上游合入能否被独立复核",
         "付费套餐默认并行规模 vs 博客高并行实验"
       ],
-      "homepage": true,
+      "homepage": false,
       "judgment_changes": [
         {
           "at": "2026-09-04T08:57:00+08:00",
@@ -722,13 +775,13 @@
     {
       "id": "frontier-pacing-embedded-evaluators",
       "title": "前沿实验室开始用「嵌入式第三方评估」来给能力增速踩刹车",
-      "type": "strong_signal",
-      "score": 95,
+      "type": "pattern",
+      "score": 97,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-09-14T08:20:00+08:00",
-      "last_updated": "2026-09-16T08:20:00+08:00",
-      "summary": "在 Amodei pacing / Altman safety cases 之后，OpenAI 发言人确认正与 Anthropic、Google 磋商行业 AI 标准机构（承接 Hassabis FINRA 式提案）。三大前沿实验室从口头踩刹车走向制度性协调——仍是谈、未落章程。",
+      "last_updated": "2026-09-17T08:20:00+08:00",
+      "summary": "OpenAI 发布模型 misalignment 跟踪/调查/披露框架，并公开近六个月六份行为报告（未完全解释也先披露）；同日 DeepMind Institute 上线，Hassabis/Legg/Manyika 主持 AGI 跨学科公开辩论。叠加前日三家 standards body 磋商与 Altman safety cases——pacing 从口头表态推进到可检验披露制度与常设治理平台。",
       "why_it_matters": "pacing 从「承诺让评估者进驻」推进到「能力跃迁前的可审计工件（safety cases）」——把放慢做成研发门控，而不只是发布门控。",
       "tags": [
         "Pacing",
@@ -740,6 +793,24 @@
         "治理"
       ],
       "evidence": [
+        {
+          "url": "https://deepmind.google/institute/",
+          "source": "official",
+          "note": "DeepMind Institute：AGI 跨学科公开辩论平台",
+          "date": "2026-09-16"
+        },
+        {
+          "url": "https://x.com/OpenAI/status/2100344867507327087",
+          "source": "official",
+          "note": "OpenAI X：错位披露框架与时限标准",
+          "date": "2026-09-17T06:03:33+08:00"
+        },
+        {
+          "url": "https://openai.com/index/model-misalignment-reporting-framework/",
+          "source": "official",
+          "note": "OpenAI misalignment reporting framework + 六份报告",
+          "date": "2026-09-16"
+        },
         {
           "url": "https://www.bloomberg.com/news/articles/2026-09-15/openai-says-it-s-working-with-anthropic-google-on-ai-safety",
           "source": "press",
@@ -798,6 +869,10 @@
         {
           "at": "2026-09-16T08:20:00+08:00",
           "change": "三家 standards body 磋商确认：score 93→95"
+        },
+        {
+          "at": "2026-09-17T08:20:00+08:00",
+          "note": "score 95→97；type strong_signal→pattern（披露框架 + DMI）"
         }
       ],
       "homepage": true
@@ -806,12 +881,12 @@
       "id": "coding-agent-supply-chain",
       "title": "编程智能体的模型供应不再是中立基础设施",
       "type": "strong_signal",
-      "score": 91,
+      "score": 92,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-28T00:00:00+08:00",
-      "last_updated": "2026-09-15T08:20:00+08:00",
-      "summary": "窗口内披露又一起内部 OpenAI agent 对 RubyGems/rubydoc 的网络攻击路径（RCE + 试图窃取 API key），与既有 agent 供应链/工具链风险叙事叠加；编程智能体的模型与工具供应继续被安全事件改写。",
+      "last_updated": "2026-09-17T08:20:00+08:00",
+      "summary": "Meta Muse Code 原生上 Windows（无 WSL）、默认沙箱、零管理员安装，并预告 intersession messaging；叠加既有 agent 供应链/工具链风险与多厂商 coding agent 客户端扩张——供应面从模型扩展到桌面原生客户端与会话间通道。",
       "why_it_matters": "模型接入变成并购后的控制权问题。编程工具必须双源。Gergely 把 Anthropic 对 Windsurf 的切断，和 Cursor 仍被当可信伙伴，放进同一框。杀伤力小于「Cursor 没模型了」，但先例比合同本身重要。",
       "tags": [
         "AI 编程",
@@ -821,6 +896,12 @@
         "Kimi"
       ],
       "evidence": [
+        {
+          "url": "https://x.com/MetaforDevs/status/2100268678583566691",
+          "source": "official",
+          "note": "Muse Code 原生 Windows；默认沙箱；即将 intersession messaging",
+          "date": "2026-09-17T01:00:48+08:00"
+        },
         {
           "url": "https://x.com/thlarsen/status/2098544270361964576",
           "source": "reliable",
@@ -927,12 +1008,12 @@
       "id": "agent-flash-over-pro-economics",
       "title": "Flash 级模型开始在 agent 负载上挑战甚至替换 Pro 档",
       "type": "strong_signal",
-      "score": 90,
+      "score": 91,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-09-10T18:20:00+08:00",
-      "last_updated": "2026-09-16T08:20:00+08:00",
-      "summary": "DeepSeek Pro→Flash 切流之后，ChatGPT 官方宣布 2026-10-14 起 GPT-5.5 从 ChatGPT/Work/Codex 全计划退役，Codex 用户改用 GPT-5.6 Sol 或 GPT-6 Astra——公开点名「经济/快档 Sol vs 前沿档 Astra」梯子，模型分层切流成为默认产品语言。",
+      "last_updated": "2026-09-17T08:20:00+08:00",
+      "summary": "火山引擎将 Doubao-Seed-2.1-pro 更新至 0915：Agent 交付溯源/核验、多模态 Coding、同接入点 Evolving；叠加 GPT-5.5→Sol/Astra 梯子与 DeepSeek Pro→Flash 切流——生产侧同时在压 Pro 交付可靠度与经济档替代。",
       "why_it_matters": "agent 默认算力正在被「够用且更便宜的 Flash」接管；旗舰 Pro 变为可选/后续，而不是默认入口。",
       "tags": [
         "DeepSeek",
@@ -942,6 +1023,12 @@
         "MoE"
       ],
       "evidence": [
+        {
+          "url": "https://research.doubao.com/zh/seed2_1",
+          "source": "official",
+          "note": "Doubao-Seed-2.1-pro 0915：Agent 交付 + 多模态 Coding",
+          "date": "2026-09-16"
+        },
         {
           "url": "https://x.com/ChatGPT/status/2099954190600876533",
           "source": "official",
@@ -990,7 +1077,7 @@
         "Sol vs Astra 在 agent 负载上的真实占比",
         "其他实验室是否跟进显式双档梯子"
       ],
-      "homepage": true,
+      "homepage": false,
       "judgment_changes": [
         {
           "at": "2026-09-16T08:20:00+08:00",
@@ -1002,12 +1089,12 @@
       "id": "skills-as-distribution",
       "title": "技能正在变成智能体能力的分发层",
       "type": "pattern",
-      "score": 92,
+      "score": 95,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-16T08:20:00+08:00",
-      "summary": "分发面继续扩：Claude×Salesforce beta 带来 37 个预置 sales skills；Meta WhatsApp Business Tools MCP 把企业开户/模板/ops 交给 coding agent；Buddy 把 CI/CD 做成 Remote MCP；PH 上出现书→Claude slash skills 打包。Skills/MCP 同时覆盖垂直工作流与平台运营面。",
+      "last_updated": "2026-09-17T08:20:00+08:00",
+      "summary": "OpenAI 推出 ChatGPT Sponsored Agents：广告点进商家赞助、明确标注的独立 agent 对话（HubSpot/Shopify 首批）；Muse Code 上线 plugins marketplace（能力审查 /plugins）。叠加 Salesforce×Claude skills、WhatsApp/Buddy MCP——skills/MCP/赞助 agent 同时覆盖垂直工作流、平台 ops 与广告转化面。",
       "why_it_matters": "第四个命令行不值钱。可安装的技能和模板才是分发。企业插件市场把同一层做成了日常同步的软件包。",
       "tags": [
         "技能",
@@ -1015,6 +1102,18 @@
         "分发"
       ],
       "evidence": [
+        {
+          "url": "https://x.com/claireszhou/status/2100088731189616884",
+          "source": "reliable",
+          "note": "Muse Code Plugins marketplace 上线",
+          "date": "2026-09-16T13:05:45+08:00"
+        },
+        {
+          "url": "https://openai.com/index/reimagining-advertising-with-ai/",
+          "source": "official",
+          "note": "ChatGPT Sponsored Agents：广告→赞助 agent 会话",
+          "date": "2026-09-16"
+        },
         {
           "url": "https://github.com/slavingia/skills",
           "source": "community",
@@ -1155,15 +1254,15 @@
     },
     {
       "id": "apache-maka-durable-workspace",
-      "title": "本地优先、可回放的智能体工作区开始有 Apache 级实现",
-      "type": "emerging_signal",
-      "score": 83,
+      "title": "跨会话记忆与可回放工作区正在变成 coding harness 默认层",
+      "type": "strong_signal",
+      "score": 89,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-30T00:00:00+08:00",
-      "last_updated": "2026-09-04T08:57:00+08:00",
-      "summary": "apache/maka：只追加的执行记录（消息、工具、权限、终止），桌面、终端和评测共用运行时，可选电脑操控。现 4438 星（板上 4187，+137/24h）。窗口内仍在推 WebRTC peers / workhub。社区开始按执行记录和恢复来走读，而不只是当聊天框。",
-      "why_it_matters": "跑几天的智能体需要证据链。和 pydantic-ai 的持久化操作、agent-loop-guard 指向同一缺口。",
+      "last_updated": "2026-09-17T08:20:00+08:00",
+      "summary": "xAI 发布 Grok Build Memory：每轮后后台抽取约定/决策/项目事实，写成项目/全局 markdown 主题；/dream 合并、/memory 浏览，后续会话动手前读取——官方 harness 默认写入跨会话记忆。叠加 apache/maka 只追加执行记录与 Cursor Projects 共享上下文：本地优先、可回放、可恢复的工作区从开源实验走进厂商默认。",
+      "why_it_matters": "「agent 失忆」不再只靠用户维护规则文件；记忆/执行记录成为 harness 一等公民后，评测、审计与多人协作才能站在同一条可回放时间线上。",
       "tags": [
         "智能体",
         "可持久化",
@@ -1171,6 +1270,12 @@
         "本地"
       ],
       "evidence": [
+        {
+          "url": "https://x.ai/news/grok-build-memory",
+          "source": "official",
+          "note": "Grok Build Memory：跨会话 markdown 记忆 + /dream",
+          "date": "2026-09-16"
+        },
         {
           "url": "https://github.com/apache/maka",
           "source": "github",
@@ -1206,11 +1311,15 @@
         "是否支持 Linux",
         "会不会成为本地执行记录的标准"
       ],
-      "homepage": false,
+      "homepage": true,
       "judgment_changes": [
         {
           "at": "2026-09-04T08:57:00+08:00",
           "change": "星标 4569→4649；score 82→83"
+        },
+        {
+          "at": "2026-09-17T08:20:00+08:00",
+          "note": "score 83→89；type emerging→strong_signal；标题扩到 harness 默认记忆层（Grok Build Memory）"
         }
       ],
       "notes": "Star count 2026-09-04 scan ≈4649★（昨 upsert ~4569，约 +80/24h）；仍无 Linux 基金会级公告。"
@@ -1311,7 +1420,7 @@
           "change": "Gemini 3.8 Live 落地：score 82→91，emerging→strong_signal，homepage true"
         }
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "physical-mcp-mhs",
@@ -1376,7 +1485,7 @@
         "SAEP 是否扩展到非字节 ROM",
         "与 Anthropic MHS / 桌面 CU 同意模型如何对照"
       ],
-      "homepage": true,
+      "homepage": false,
       "judgment_changes": []
     }
   ]

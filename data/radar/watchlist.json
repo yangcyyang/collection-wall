@@ -1,9 +1,66 @@
 {
-  "source": "ai-frontier-radar",
+  "source": "AI Frontier Radar",
   "title": "观察名单",
-  "updated_at": "2026-09-16T08:20:00+08:00",
-  "count": 28,
+  "updated_at": "2026-09-17T08:20:00+08:00",
+  "count": 33,
   "items": [
+    {
+      "id": "claude-cowork-merge-rollout",
+      "title": "Claude Cowork×chat 合并在 Pro/Max 的真实 rollout 与关盖续跑可靠性",
+      "why": "官方已宣布合并；需看后台执行失败率、用户拍板频率是否真成默认习惯。",
+      "since": "2026-09-17T08:20:00+08:00",
+      "last_updated": "2026-09-17T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "agent-persistent-computer"
+      ]
+    },
+    {
+      "id": "sponsored-agents-uptake",
+      "title": "ChatGPT Sponsored Agents 出首批后的商家接入与用户接受度",
+      "why": "广告→赞助 agent 是否变成可持续转化，还是实验级广告位。",
+      "since": "2026-09-17T08:20:00+08:00",
+      "last_updated": "2026-09-17T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "skills-as-distribution",
+        "agent-commerce-surfaces"
+      ]
+    },
+    {
+      "id": "grok-build-memory-adoption",
+      "title": "Grok Build Memory 是否成为默认 harness 记忆层被他厂跟进",
+      "why": "官方 markdown 记忆若被 Cursor/Claude Code 同类默认化，durable workspace 就从开源叙事变标配。",
+      "since": "2026-09-17T08:20:00+08:00",
+      "last_updated": "2026-09-17T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "apache-maka-durable-workspace"
+      ]
+    },
+    {
+      "id": "zeroclick-agent-commerce",
+      "title": "ZeroClick / x402 agent 店面是否出现真实机器采购成交",
+      "why": "卖给 agent 需要发现、鉴权、结算与纠纷；PH 热度≠协议成立。",
+      "since": "2026-09-17T08:20:00+08:00",
+      "last_updated": "2026-09-17T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "agent-commerce-surfaces"
+      ]
+    },
+    {
+      "id": "deepmind-institute-agenda",
+      "title": "DeepMind Institute 首批文章是否影响三方 standards body 议程",
+      "why": "公开辩论平台与 OpenAI 披露框架、三家磋商是否汇流成可执行准则。",
+      "since": "2026-09-17T08:20:00+08:00",
+      "last_updated": "2026-09-17T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "frontier-pacing-embedded-evaluators",
+        "recursive-alignment-loop"
+      ]
+    },
     {
       "id": "salesforce-claude-skills-uptake",
       "title": "Salesforce in Claude 37 skills 的真实销售团队留存",
@@ -50,14 +107,17 @@
     },
     {
       "id": "openai-devday-shipping-wave",
-      "title": "sama「本周大发货 + DevDay 🚢×n」落成哪些产品",
-      "why": "Altman 官方 tease 未点名；需对照实际发货与 DevDay 议程，避免把 emoji 当成信号。",
+      "title": "sama 主菜改到下周：本周 Sponsored Agents 是否算波次？DevDay 还剩什么",
+      "why": "Altman 称「this week 最想发的主菜」改到下周；同窗口 OpenAI 已发 Sponsored Agents 与错位披露框架。需分清波次里的已发货 vs 延期主菜，并对照 DevDay 议程。",
       "since": "2026-09-16T08:20:00+08:00",
-      "last_updated": "2026-09-16T08:20:00+08:00",
+      "last_updated": "2026-09-17T08:20:00+08:00",
       "status": "watching",
       "related_signals": [
         "harness-control-plane",
-        "agent-flash-over-pro-economics"
+        "agent-flash-over-pro-economics",
+        "skills-as-distribution",
+        "frontier-pacing-embedded-evaluators",
+        "agent-commerce-surfaces"
       ]
     },
     {
