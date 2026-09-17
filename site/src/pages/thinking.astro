@@ -1,0 +1,166 @@
+---
+import "../styles/global.css";
+import LogoutControl from "../components/LogoutControl.astro";
+import SiteNav from "../components/SiteNav.astro";
+import { categoryFilters, getThinkingFeed, thinkingSearchBlob } from "../lib/thinking";
+
+const feed = await getThinkingFeed();
+const methods = feed.items;
+const filters = categoryFilters(methods, feed.categories);
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={feed.description || "可检索的思维方法目录"} />
+    <title>思维方法 · 工具库</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#thinking-grid">跳到列表</a>
+    <div class="page-shell">
+      <header class="site-header">
+        <div>
+          <p class="eyebrow">思维方法目录</p>
+          <h1>思维方法</h1>
+          <p class="intro">{feed.description || "按分类浏览可展开的思维方法：中英名称、一句话、用法与例子。"}</p>
+        </div>
+        <div class="header-stats">
+          <p class="record-count" data-record-count data-total={methods.length}>
+            {methods.length} 种思维方法
+          </p>
+          <LogoutControl />
+        </div>
+      </header>
+
+      <SiteNav current="thinking" />
+
+      {methods.length === 0 ? (
+        <main id="thinking-grid">
+          <section class="empty-state" aria-labelledby="empty-title">
+            <p class="empty-icon">✦</p>
+            <h2 id="empty-title">还没有思维方法</h2>
+            <p>把目录 JSON 放到 data/thinking/catalog.json 后会出现在这里。</p>
+          </section>
+        </main>
+      ) : (
+        <>
+          <div class="prompt-toolbar">
+            <label class="prompt-search">
+              <span class="visually-hidden">搜索名称、英文、一句话、用法、例子或标签</span>
+              <input type="search" data-thinking-search placeholder="搜索名称、英文、一句话、用法、例子或标签" />
+            </label>
+          </div>
+          <div class="tag-filter-row" aria-label="按分类筛选">
+            <button class="tag-filter is-selected" type="button" data-category-filter="" aria-pressed="true">全部<em>{methods.length}</em></button>
+            {filters.map(({ category, count }) => (
+              <button class="tag-filter" type="button" data-category-filter={category} aria-pressed="false">{category}<em>{count}</em></button>
+            ))}
+          </div>
+          <p class="prompt-empty-filter" data-filter-empty hidden>没有符合筛选的思维方法 <button type="button" data-clear-filters>清除筛选</button></p>
+
+          <main id="thinking-grid" class="tool-grid skill-grid" aria-label="思维方法卡片">
+            {methods.map((item) => (
+              <article
+                class="tool-card thinking-card"
+                data-thinking
+                data-category={item.category ?? ""}
+                data-search={thinkingSearchBlob(item)}
+              >
+                <div class="card-content">
+                  <div class="card-meta">
+                    {item.category && <span class="category">{item.category}</span>}
+                  </div>
+                  <h3>
+                    {item.name}
+                    {item.name_en && <span class="thinking-name-en">{item.name_en}</span>}
+                  </h3>
+                  <p title={item.one_liner || ""}>{item.one_liner || "尚待补充一句话"}</p>
+                  {(item.tags?.length ?? 0) > 0 && (
+                    <div class="tag-list">
+                      {item.tags.slice(0, 3).map((tag) => <span>{tag}</span>)}
+                    </div>
+                  )}
+                  {(item.how || item.example) && (
+                    <details class="thinking-expand">
+                      <summary>展开用法与例子</summary>
+                      <dl class="thinking-body">
+                        {item.how && (
+                          <>
+                            <dt>怎么用</dt>
+                            <dd>{item.how}</dd>
+                          </>
+                        )}
+                        {item.example && (
+                          <>
+                            <dt>例子</dt>
+                            <dd>{item.example}</dd>
+                          </>
+                        )}
+                      </dl>
+                    </details>
+                  )}
+                </div>
+              </article>
+            ))}
+          </main>
+        </>
+      )}
+    </div>
+    <footer class="site-footer">
+      <p>
+        <strong>数据来源说明</strong>：条目来自
+        {feed.source || "data/thinking/catalog.json"}
+        ，构建时原样读取，不改写条目原文。
+      </p>
+    </footer>
+    <script>
+      const searchInput = document.querySelector("[data-thinking-search]");
+      const categoryButtons = document.querySelectorAll("[data-category-filter]");
+      const cards = document.querySelectorAll("[data-thinking]");
+      const countEl = document.querySelector("[data-record-count]");
+      const filterEmpty = document.querySelector("[data-filter-empty]");
+      let activeCategory = "";
+
+      function refresh() {
+        const query = (searchInput?.value ?? "").trim().toLowerCase();
+        const keys = query.split(/\s+/).filter(Boolean);
+        let visible = 0;
+        cards.forEach((card) => {
+          const category = card.getAttribute("data-category") ?? "";
+          const search = card.getAttribute("data-search") ?? "";
+          const categoryOk = !activeCategory || category === activeCategory;
+          const searchOk = keys.length === 0 || keys.some((key) => search.includes(key));
+          const hide = !(categoryOk && searchOk);
+          card.hidden = hide;
+          if (!hide) visible += 1;
+        });
+        if (countEl) countEl.textContent = `${visible} 种思维方法`;
+        if (filterEmpty) filterEmpty.hidden = visible !== 0;
+      }
+
+      categoryButtons.forEach((button) => button.addEventListener("click", () => {
+        const next = button.getAttribute("data-category-filter") ?? "";
+        activeCategory = activeCategory === next ? "" : next;
+        categoryButtons.forEach((item) => {
+          const selected = (item.getAttribute("data-category-filter") ?? "") === activeCategory;
+          item.classList.toggle("is-selected", selected);
+          item.setAttribute("aria-pressed", selected ? "true" : "false");
+        });
+        refresh();
+      }));
+
+      searchInput?.addEventListener("input", refresh);
+      document.querySelector("[data-clear-filters]")?.addEventListener("click", () => {
+        activeCategory = "";
+        if (searchInput) searchInput.value = "";
+        categoryButtons.forEach((item) => {
+          const selected = (item.getAttribute("data-category-filter") ?? "") === "";
+          item.classList.toggle("is-selected", selected);
+          item.setAttribute("aria-pressed", selected ? "true" : "false");
+        });
+        refresh();
+      });
+    </script>
+  </body>
+</html>
