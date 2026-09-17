@@ -1,0 +1,1741 @@
+{
+  "source": "thinking-methods",
+  "title": "思维方法库",
+  "description": "辅助思考的思维方式与方法论：本体论、第一性原理、系统思维、决策与认知校准等。每条含一句话、怎么用、小例子。",
+  "updated_at": "2026-09-17T09:27:07+08:00",
+  "count": 132,
+  "categories": [
+    "个人效能",
+    "互动与协作",
+    "产品与创新",
+    "优先与聚焦",
+    "决策与风险",
+    "哲学基础",
+    "复杂情境",
+    "学习与表达",
+    "思辨",
+    "战略与商业",
+    "科学与推理",
+    "系统与反馈",
+    "结构思维",
+    "认知校准"
+  ],
+  "items": [
+    {
+      "id": "ontology",
+      "name": "本体论",
+      "name_en": "Ontology",
+      "category": "哲学基础",
+      "one_liner": "先问：世界里到底有哪些「东西」、它们如何分类与存在。",
+      "how": "做产品/知识库前先列实体与关系：有什么对象、属性、边界。",
+      "example": "做收藏墙前先定义「工具 / 信号 / 待办」各是什么实体。",
+      "tags": [
+        "哲学基础",
+        "本体论"
+      ]
+    },
+    {
+      "id": "epistemology",
+      "name": "认识论",
+      "name_en": "Epistemology",
+      "category": "哲学基础",
+      "one_liner": "区分「我知道什么」和「我如何知道」。",
+      "how": "每个结论旁标注证据来源与置信度。",
+      "example": "「用户要X」是观察还是推断？写明。",
+      "tags": [
+        "哲学基础",
+        "认识论"
+      ]
+    },
+    {
+      "id": "first-principles",
+      "name": "第一性原理",
+      "name_en": "First Principles",
+      "category": "科学与推理",
+      "one_liner": "拆到不可再拆的事实，再往上重建，不靠类比凑合。",
+      "how": "问三次「为什么必须如此」，去掉行业惯例后重推方案。",
+      "example": "火箭成本：不从「行业均价」出发，从材料与物理约束重算。",
+      "tags": [
+        "科学与推理",
+        "第一性原理"
+      ]
+    },
+    {
+      "id": "deduction",
+      "name": "演绎法",
+      "name_en": "Deduction",
+      "category": "科学与推理",
+      "one_liner": "从一般前提推出特殊结论；前提真则结论必真。",
+      "how": "先写公理/约束，再推设计必满足的性质。",
+      "example": "若「所有登录页需HTTPS」，则本站登录必上证书。",
+      "tags": [
+        "科学与推理",
+        "演绎法"
+      ]
+    },
+    {
+      "id": "induction",
+      "name": "归纳法",
+      "name_en": "Induction",
+      "category": "科学与推理",
+      "one_liner": "从多个观察概括规律；有用但可错。",
+      "how": "凑够样本再下结论，并保留反例位。",
+      "example": "连看 5 个用户要「带价来」→ 推断定价透明是卖点。",
+      "tags": [
+        "科学与推理",
+        "归纳法"
+      ]
+    },
+    {
+      "id": "abduction",
+      "name": "溯因推理",
+      "name_en": "Abduction",
+      "category": "科学与推理",
+      "one_liner": "找「最能解释观察」的假设，不是证明唯一真理。",
+      "how": "列出 2–3 个假说，设计最小实验区分它们。",
+      "example": "转化率掉了：是渠道差、文案差还是支付故障？各做一个探针。",
+      "tags": [
+        "科学与推理",
+        "溯因推理"
+      ]
+    },
+    {
+      "id": "falsifiability",
+      "name": "可证伪性",
+      "name_en": "Falsifiability",
+      "category": "科学与推理",
+      "one_liner": "好理论要说清「什么情况下算我错了」。",
+      "how": "给策略写失败条件与复盘触发器。",
+      "example": "「两周内获客成本不降 20% 就停投」。",
+      "tags": [
+        "科学与推理",
+        "可证伪性"
+      ]
+    },
+    {
+      "id": "occams-razor",
+      "name": "奥卡姆剃刀",
+      "name_en": "Occam's Razor",
+      "category": "科学与推理",
+      "one_liner": "在同等解释力下，选更简单的假设。",
+      "how": "优先测简单解释，复杂故事后置。",
+      "example": "站点挂了先查部署，再怀疑「被攻击」。",
+      "tags": [
+        "科学与推理",
+        "奥卡姆剃刀"
+      ]
+    },
+    {
+      "id": "hanlons-razor",
+      "name": "汉隆剃刀",
+      "name_en": "Hanlon's Razor",
+      "category": "科学与推理",
+      "one_liner": "能用愚蠢/失误解释时，别先用恶意。",
+      "how": "协作摩擦先澄清流程，再升级对人。",
+      "example": "同事漏回消息，先问是否没看到通知。",
+      "tags": [
+        "科学与推理",
+        "汉隆剃刀"
+      ]
+    },
+    {
+      "id": "bayesian",
+      "name": "贝叶斯更新",
+      "name_en": "Bayesian Updating",
+      "category": "科学与推理",
+      "one_liner": "先验 + 新证据 → 后验；信念可连续调。",
+      "how": "每个新数据只「挪动」置信，不甩饼重来。",
+      "example": "首版差评后，把「产品PMF」置信从 70% 降到 40%，再测。",
+      "tags": [
+        "科学与推理",
+        "贝叶斯更新"
+      ]
+    },
+    {
+      "id": "mece",
+      "name": "MECE",
+      "name_en": "MECE",
+      "category": "结构思维",
+      "one_liner": "相互独立、完全穷尽地拆问题。",
+      "how": "拆目录时检查有无重叠与遗漏。",
+      "example": "收入=付费+广告，不要又单列「会员」造成重叠。",
+      "tags": [
+        "结构思维",
+        "MECE"
+      ]
+    },
+    {
+      "id": "issue-tree",
+      "name": "问题树",
+      "name_en": "Issue Tree",
+      "category": "结构思维",
+      "one_liner": "把大问题拆成可回答的子问题树。",
+      "how": "顶层一问，每层问「要回答它需要先回答什么」。",
+      "example": "「要不要做副业Tab」→ 需求强度 / 展示风险 / 工程成本。",
+      "tags": [
+        "结构思维",
+        "问题树"
+      ]
+    },
+    {
+      "id": "5w2h",
+      "name": "5W2H",
+      "name_en": "5W2H",
+      "category": "结构思维",
+      "one_liner": "What/Why/Who/When/Where/How/How much 扫盲。",
+      "how": "开题前快速填七格，缺格就补调研。",
+      "example": "活动早报：谁办、何时何地、怎么报名、费用。",
+      "tags": [
+        "结构思维",
+        "5W2H"
+      ]
+    },
+    {
+      "id": "socratic",
+      "name": "苏格拉底提问",
+      "name_en": "Socratic Method",
+      "category": "结构思维",
+      "one_liner": "用连环追问暴露隐含假设。",
+      "how": "对方案连问「你怎么知道」「还有呢」。",
+      "example": "「用户喜欢极简」→ 证据是什么？反例？",
+      "tags": [
+        "结构思维",
+        "苏格拉底提问"
+      ]
+    },
+    {
+      "id": "steelman",
+      "name": "钢人论证",
+      "name_en": "Steelman",
+      "category": "结构思维",
+      "one_liner": "先把对方观点说到最强，再反驳。",
+      "how": "批评前用一句话复述对方最有力版本。",
+      "example": "反驳「要上日历」前，先承认「避冲突确实省心」。",
+      "tags": [
+        "结构思维",
+        "钢人论证"
+      ]
+    },
+    {
+      "id": "inversion",
+      "name": "逆向思维",
+      "name_en": "Inversion",
+      "category": "结构思维",
+      "one_liner": "先想如何失败，再避免那些路径。",
+      "how": "写「怎样搞砸」，反向变检查清单。",
+      "example": "上线翻车清单：无回滚、无监控、无权限。",
+      "tags": [
+        "结构思维",
+        "逆向思维"
+      ]
+    },
+    {
+      "id": "second-order",
+      "name": "二阶后果",
+      "name_en": "Second-Order Thinking",
+      "category": "结构思维",
+      "one_liner": "问「然后呢」：直接结果之后的连锁反应。",
+      "how": "每个决策写一阶/二阶/三阶影响。",
+      "example": "公开副业Tab→演示尴尬→客户误判产品成熟度。",
+      "tags": [
+        "结构思维",
+        "二阶后果"
+      ]
+    },
+    {
+      "id": "systems",
+      "name": "系统思维",
+      "name_en": "Systems Thinking",
+      "category": "系统与反馈",
+      "one_liner": "看要素、连接、反馈与延迟，不看单点。",
+      "how": "画因果回路：增强环与平衡环。",
+      "example": "内容越多→维护越重→质量掉→信任掉→更不愿写。",
+      "tags": [
+        "系统与反馈",
+        "系统思维"
+      ]
+    },
+    {
+      "id": "feedback-loops",
+      "name": "反馈环",
+      "name_en": "Feedback Loops",
+      "category": "系统与反馈",
+      "one_liner": "输出又成为输入，形成自我强化或抑制。",
+      "how": "设计时显式加入负反馈（刹车）。",
+      "example": "点赞算法无纠偏会强化同质内容。",
+      "tags": [
+        "系统与反馈",
+        "反馈环"
+      ]
+    },
+    {
+      "id": "leverage-points",
+      "name": "杠杆点",
+      "name_en": "Leverage Points",
+      "category": "系统与反馈",
+      "one_liner": "改系统结构比拧末端旋钮更有效。",
+      "how": "优先改规则/目标/信息流，少改表面参数。",
+      "example": "与其多催更帖，不如改「完成定义」与激励。",
+      "tags": [
+        "系统与反馈",
+        "杠杆点"
+      ]
+    },
+    {
+      "id": "bottleneck",
+      "name": "瓶颈理论",
+      "name_en": "Theory of Constraints",
+      "category": "系统与反馈",
+      "one_liner": "系统吞吐由最慢环节决定。",
+      "how": "先找约束资源，把优化火力集中那里。",
+      "example": "采集已通、上墙卡在人工 scrub——瓶颈在 scrub。",
+      "tags": [
+        "系统与反馈",
+        "瓶颈理论"
+      ]
+    },
+    {
+      "id": "stocks-flows",
+      "name": "存量流量",
+      "name_en": "Stocks and Flows",
+      "category": "系统与反馈",
+      "one_liner": "存量靠流量累积；别只盯瞬时。",
+      "how": "分清水位（未读邮件）与流速（每日新增）。",
+      "example": "201 封未读是存量；早报处理的是流量。",
+      "tags": [
+        "系统与反馈",
+        "存量流量"
+      ]
+    },
+    {
+      "id": "margin-safety",
+      "name": "安全边际",
+      "name_en": "Margin of Safety",
+      "category": "决策与风险",
+      "one_liner": "在不确定下预留缓冲。",
+      "how": "估时加 20–40%；容量只排 70–80%。",
+      "example": "待办今晚偏满时砍 TAPD/蒸馏。",
+      "tags": [
+        "决策与风险",
+        "安全边际"
+      ]
+    },
+    {
+      "id": "expected-value",
+      "name": "期望值",
+      "name_en": "Expected Value",
+      "category": "决策与风险",
+      "one_liner": "概率 × 收益，比较选项。",
+      "how": "不确定决策列出情景与概率粗算。",
+      "example": "花 2h 投活动：30% 拿到线索值 10h。",
+      "tags": [
+        "决策与风险",
+        "期望值"
+      ]
+    },
+    {
+      "id": "opportunity-cost",
+      "name": "机会成本",
+      "name_en": "Opportunity Cost",
+      "category": "决策与风险",
+      "one_liner": "选择 A 等于放弃 B 的价值。",
+      "how": "排期时写「若不做可做什么」。",
+      "example": "今天改后台 = 放弃写协作档案。",
+      "tags": [
+        "决策与风险",
+        "机会成本"
+      ]
+    },
+    {
+      "id": "regret-minimization",
+      "name": "后悔最小化",
+      "name_en": "Regret Minimization",
+      "category": "决策与风险",
+      "one_liner": "选未来自己更不可能后悔的路。",
+      "how": "想象 5/10 年后回看会悔哪条。",
+      "example": "要不要花一晚学第一性原理工具。",
+      "tags": [
+        "决策与风险",
+        "后悔最小化"
+      ]
+    },
+    {
+      "id": "premortem",
+      "name": "事前验尸",
+      "name_en": "Pre-Mortem",
+      "category": "决策与风险",
+      "one_liner": "假设项目已失败，倒推原因。",
+      "how": "开工前开 10 分钟「我们已经挂了因为…」。",
+      "example": "雷达上墙失败：因未 scrub / CF 未过。",
+      "tags": [
+        "决策与风险",
+        "事前验尸"
+      ]
+    },
+    {
+      "id": "antifragile",
+      "name": "反脆弱",
+      "name_en": "Antifragile",
+      "category": "决策与风险",
+      "one_liner": "从波动中变强，不只是抗住。",
+      "how": "设计小冲击实验，让系统学习。",
+      "example": "每周故意断一次依赖，练降级路径。",
+      "tags": [
+        "决策与风险",
+        "反脆弱"
+      ]
+    },
+    {
+      "id": "black-swan",
+      "name": "黑天鹅意识",
+      "name_en": "Black Swan Awareness",
+      "category": "决策与风险",
+      "one_liner": "极端罕见事件影响巨大且事后可被合理化。",
+      "how": "对尾部风险买保险/留冗余，不靠预测。",
+      "example": "账号被封、云账单暴涨的预案。",
+      "tags": [
+        "决策与风险",
+        "黑天鹅意识"
+      ]
+    },
+    {
+      "id": "map-territory",
+      "name": "地图不是疆域",
+      "name_en": "Map–Territory",
+      "category": "认知校准",
+      "one_liner": "模型/文档≠现实本身。",
+      "how": "用实地数据校正仪表盘。",
+      "example": "雷达 JSON 干净≠用户真在讨论降温。",
+      "tags": [
+        "认知校准",
+        "地图不是疆域"
+      ]
+    },
+    {
+      "id": "circle-competence",
+      "name": "能力圈",
+      "name_en": "Circle of Competence",
+      "category": "认知校准",
+      "one_liner": "清楚自己懂与不懂的边界。",
+      "how": "圈外决策降杠杆或请外援。",
+      "example": "法律红线问题转专业，不硬答。",
+      "tags": [
+        "认知校准",
+        "能力圈"
+      ]
+    },
+    {
+      "id": "unknown-unknowns",
+      "name": "未知的未知",
+      "name_en": "Unknown Unknowns",
+      "category": "认知校准",
+      "one_liner": "你甚至不知道自己缺哪块信息。",
+      "how": "用探索预算专门挖盲区。",
+      "example": "广深活动早报补小红书 search 盲区。",
+      "tags": [
+        "认知校准",
+        "未知的未知"
+      ]
+    },
+    {
+      "id": "base-rate",
+      "name": "基础比率",
+      "name_en": "Base Rate",
+      "category": "认知校准",
+      "one_liner": "先看同类事件的普遍概率。",
+      "how": "个案故事前先查行业基准。",
+      "example": "「AI 创业年入百万」要对照失败基数。",
+      "tags": [
+        "认知校准",
+        "基础比率"
+      ]
+    },
+    {
+      "id": "inside-outside",
+      "name": "内外视角",
+      "name_en": "Inside/Outside View",
+      "category": "认知校准",
+      "one_liner": "内部细节 vs 外部类比基准。",
+      "how": "计划时同时写内外两套工期。",
+      "example": "内视「我们很熟」3 天；外视同类 Tab 要 1 周。",
+      "tags": [
+        "认知校准",
+        "内外视角"
+      ]
+    },
+    {
+      "id": "confirmation-bias",
+      "name": "确认偏误对抗",
+      "name_en": "Anti-Confirmation Bias",
+      "category": "认知校准",
+      "one_liner": "人会偏爱支持己见的证据。",
+      "how": "强制找一条反证再拍板。",
+      "example": "觉得副业机会「很硬」时去找「无人问价」帖。",
+      "tags": [
+        "认知校准",
+        "确认偏误对抗"
+      ]
+    },
+    {
+      "id": "survivorship",
+      "name": "幸存者偏差对抗",
+      "name_en": "Anti-Survivorship Bias",
+      "category": "认知校准",
+      "one_liner": "只看见活下来的样本。",
+      "how": "主动找失败与沉默的大多数。",
+      "example": "看成功 AI 产品时也列关停名单。",
+      "tags": [
+        "认知校准",
+        "幸存者偏差对抗"
+      ]
+    },
+    {
+      "id": "availability",
+      "name": "可得性启发对抗",
+      "name_en": "Anti-Availability",
+      "category": "认知校准",
+      "one_liner": "易想起的不等于更常见。",
+      "how": "用统计替代「最近刷到」。",
+      "example": "刚看完裁员帖≠行业全面崩。",
+      "tags": [
+        "认知校准",
+        "可得性启发对抗"
+      ]
+    },
+    {
+      "id": "anchoring",
+      "name": "锚定效应对抗",
+      "name_en": "Anti-Anchoring",
+      "category": "认知校准",
+      "one_liner": "第一口数字会绑架判断。",
+      "how": "出价/估时前先独立写一个数。",
+      "example": "对方先报 50 万时，你先写自己的区间。",
+      "tags": [
+        "认知校准",
+        "锚定效应对抗"
+      ]
+    },
+    {
+      "id": "sunk-cost",
+      "name": "沉没成本忽略",
+      "name_en": "Ignore Sunk Cost",
+      "category": "认知校准",
+      "one_liner": "已花掉的不应决定未来。",
+      "how": "只问「从现在起哪条 EV 更高」。",
+      "example": "旧采集脚本已投入一周，仍可换路径。",
+      "tags": [
+        "认知校准",
+        "沉没成本忽略"
+      ]
+    },
+    {
+      "id": "ikea-effect",
+      "name": "宜家效应警惕",
+      "name_en": "Ikea Effect Caution",
+      "category": "认知校准",
+      "one_liner": "自己做的会高估价值。",
+      "how": "请无关的人盲评产出。",
+      "example": "自己写的 100 条方法论请人删掉弱项。",
+      "tags": [
+        "认知校准",
+        "宜家效应警惕"
+      ]
+    },
+    {
+      "id": "pareto",
+      "name": "帕累托 80/20",
+      "name_en": "Pareto Principle",
+      "category": "优先与聚焦",
+      "one_liner": "少数因素造成多数结果。",
+      "how": "找贡献 80% 结果的 20% 动作。",
+      "example": "早报里 20% 邮件值得处理。",
+      "tags": [
+        "优先与聚焦",
+        "帕累托 80/20"
+      ]
+    },
+    {
+      "id": "eisenhower",
+      "name": "艾森豪威尔矩阵",
+      "name_en": "Eisenhower Matrix",
+      "category": "优先与聚焦",
+      "one_liner": "紧急/重要四象限。",
+      "how": "每日只保重要不紧急的深工作块。",
+      "example": "把「情报浏览」从紧急挪到固定浅块。",
+      "tags": [
+        "优先与聚焦",
+        "艾森豪威尔矩阵"
+      ]
+    },
+    {
+      "id": "eat-frog",
+      "name": "吃青蛙",
+      "name_en": "Eat the Frog",
+      "category": "优先与聚焦",
+      "one_liner": "最难最重要的事先做。",
+      "how": "上午第一件事做后台收尾。",
+      "example": "已超时的后台改点先清。",
+      "tags": [
+        "优先与聚焦",
+        "吃青蛙"
+      ]
+    },
+    {
+      "id": "one-thing",
+      "name": "只要一件事",
+      "name_en": "The One Thing",
+      "category": "优先与聚焦",
+      "one_liner": "问：做什么能让其他事更容易或不必做。",
+      "how": "每天定 1 个必赢项。",
+      "example": "今晚必赢=跨 Agent 边界文档。",
+      "tags": [
+        "优先与聚焦",
+        "只要一件事"
+      ]
+    },
+    {
+      "id": "timeboxing",
+      "name": "时间盒",
+      "name_en": "Timeboxing",
+      "category": "优先与聚焦",
+      "one_liner": "给任务固定时长盒子，到点就停。",
+      "how": "深工作 60–90 分钟一盒。",
+      "example": "书籍蒸馏只开 70 分钟探针。",
+      "tags": [
+        "优先与聚焦",
+        "时间盒"
+      ]
+    },
+    {
+      "id": "deep-work",
+      "name": "深度工作",
+      "name_en": "Deep Work",
+      "category": "优先与聚焦",
+      "one_liner": "无干扰高强度认知工作。",
+      "how": "屏蔽通知，单任务。",
+      "example": "写思维库时不开聊天。",
+      "tags": [
+        "优先与聚焦",
+        "深度工作"
+      ]
+    },
+    {
+      "id": "batching",
+      "name": "批处理",
+      "name_en": "Batching",
+      "category": "优先与聚焦",
+      "one_liner": "同类浅事捆绑处理。",
+      "how": "邮件/审批集中一个窗口。",
+      "example": "午间一次处理情报订阅。",
+      "tags": [
+        "优先与聚焦",
+        "批处理"
+      ]
+    },
+    {
+      "id": "two-minute",
+      "name": "两分钟规则",
+      "name_en": "Two-Minute Rule",
+      "category": "优先与聚焦",
+      "one_liner": "≤2 分钟立刻做完。",
+      "how": "捕获时顺手清掉小任务。",
+      "example": "回一个确认「CF已刷完」。",
+      "tags": [
+        "优先与聚焦",
+        "两分钟规则"
+      ]
+    },
+    {
+      "id": "jobs-to-be-done",
+      "name": "待办任务理论",
+      "name_en": "Jobs to be Done",
+      "category": "产品与创新",
+      "one_liner": "用户「雇」产品完成进步。",
+      "how": "访谈问情境与挣扎，不问功能喜好。",
+      "example": "雇收藏墙「快速找回可复用方法」。",
+      "tags": [
+        "产品与创新",
+        "待办任务理论"
+      ]
+    },
+    {
+      "id": "mvp",
+      "name": "最小可行产品",
+      "name_en": "MVP",
+      "category": "产品与创新",
+      "one_liner": "用最小实现验证最险假设。",
+      "how": "先验证学习，不先做完整。",
+      "example": "思维 Tab 先上目录+搜索，不做复杂图谱。",
+      "tags": [
+        "产品与创新",
+        "最小可行产品"
+      ]
+    },
+    {
+      "id": "build-measure-learn",
+      "name": "构建-测量-学习",
+      "name_en": "Build-Measure-Learn",
+      "category": "产品与创新",
+      "one_liner": "闭环缩短学习周期。",
+      "how": "每迭代只测一个关键指标。",
+      "example": "Tab 上线后看周活打开率。",
+      "tags": [
+        "产品与创新",
+        "构建-测量-学习"
+      ]
+    },
+    {
+      "id": "design-thinking",
+      "name": "设计思维",
+      "name_en": "Design Thinking",
+      "category": "产品与创新",
+      "one_liner": "共情→定义→构思→原型→测试。",
+      "how": "先用户故事再界面。",
+      "example": "为「凌晨想找第一性原理」做检索原型。",
+      "tags": [
+        "产品与创新",
+        "设计思维"
+      ]
+    },
+    {
+      "id": "double-diamond",
+      "name": "双钻模型",
+      "name_en": "Double Diamond",
+      "category": "产品与创新",
+      "one_liner": "发散-收敛各两次：发现与交付。",
+      "how": "先拓宽问题再定方案。",
+      "example": "100 条先发散，再收敛成分类导航。",
+      "tags": [
+        "产品与创新",
+        "双钻模型"
+      ]
+    },
+    {
+      "id": "lateral",
+      "name": "横向思维",
+      "name_en": "Lateral Thinking",
+      "category": "产品与创新",
+      "one_liner": "跳脱线性逻辑找旁路。",
+      "how": "故意用不相关刺激物强制联想。",
+      "example": "用「菜谱步骤」比喻 Agent 工作流。",
+      "tags": [
+        "产品与创新",
+        "横向思维"
+      ]
+    },
+    {
+      "id": "scamper",
+      "name": "SCAMPER",
+      "name_en": "SCAMPER",
+      "category": "产品与创新",
+      "one_liner": "替代/合并/改造/修改/他用/消除/重排。",
+      "how": "对现有功能逐项过七问。",
+      "example": "把雷达「消除」运维字段做公开版。",
+      "tags": [
+        "产品与创新",
+        "SCAMPER"
+      ]
+    },
+    {
+      "id": "triz",
+      "name": "TRIZ 矛盾矩阵直觉",
+      "name_en": "TRIZ (lite)",
+      "category": "产品与创新",
+      "one_liner": "创新常是解决技术矛盾。",
+      "how": "写清要改善 A 又不想牺牲 B。",
+      "example": "又要全量采集又要零风控——拆成代理与缓存。",
+      "tags": [
+        "产品与创新",
+        "TRIZ 矛盾矩阵直觉"
+      ]
+    },
+    {
+      "id": "blue-ocean",
+      "name": "蓝海战略直觉",
+      "name_en": "Blue Ocean (lite)",
+      "category": "产品与创新",
+      "one_liner": "少在红海厮杀，重划价值曲线。",
+      "how": "找「剔除-减少-增加-创造」四动作。",
+      "example": "思维库强调可检索+可执行，而非长文堆砌。",
+      "tags": [
+        "产品与创新",
+        "蓝海战略直觉"
+      ]
+    },
+    {
+      "id": "porters-five",
+      "name": "五力分析（轻量）",
+      "name_en": "Porter's Five Forces",
+      "category": "战略与商业",
+      "one_liner": "看供应商/买家/替代/进入/竞争强度。",
+      "how": "进赛道前画五力一页纸。",
+      "example": "AI 贴图店：替代多、买家议价强。",
+      "tags": [
+        "战略与商业",
+        "五力分析（轻量）"
+      ]
+    },
+    {
+      "id": "swot",
+      "name": "SWOT",
+      "name_en": "SWOT",
+      "category": "战略与商业",
+      "one_liner": "优势劣势机会威胁。",
+      "how": "内部优劣势 × 外部机会威胁。",
+      "example": "有 bot 舰队=优；登录易掉=劣。",
+      "tags": [
+        "战略与商业",
+        "SWOT"
+      ]
+    },
+    {
+      "id": "pestle",
+      "name": "PESTLE",
+      "name_en": "PESTLE",
+      "category": "战略与商业",
+      "one_liner": "政治/经济/社会/技术/法律/环境外扫描。",
+      "how": "季度扫一眼宏观对业务的冲击。",
+      "example": "内容合规收紧→公开页 scrub 更严。",
+      "tags": [
+        "战略与商业",
+        "PESTLE"
+      ]
+    },
+    {
+      "id": "war-gaming",
+      "name": "兵棋推演",
+      "name_en": "War Gaming",
+      "category": "战略与商业",
+      "one_liner": "扮演对手与监管推演反应。",
+      "how": "关键发布前开一轮红蓝。",
+      "example": "副业 Tab 公开后客户会怎么误解。",
+      "tags": [
+        "战略与商业",
+        "兵棋推演"
+      ]
+    },
+    {
+      "id": "okrs",
+      "name": "OKR 思维",
+      "name_en": "OKRs",
+      "category": "战略与商业",
+      "one_liner": "目标定性 + 关键结果可测。",
+      "how": "少定产出 KPI，多定结果。",
+      "example": "O：决策更快；KR：周均用方法库≥3 次。",
+      "tags": [
+        "战略与商业",
+        "OKR 思维"
+      ]
+    },
+    {
+      "id": "north-star",
+      "name": "北极星指标",
+      "name_en": "North Star Metric",
+      "category": "战略与商业",
+      "one_liner": "一个最能代表价值创造的指标。",
+      "how": "选滞后与行为之间的桥梁指标。",
+      "example": "收藏墙北极星=「周找回并采取行动次数」。",
+      "tags": [
+        "战略与商业",
+        "北极星指标"
+      ]
+    },
+    {
+      "id": "unit-economics",
+      "name": "单位经济",
+      "name_en": "Unit Economics",
+      "category": "战略与商业",
+      "one_liner": "看单客/单次是否算得过来。",
+      "how": "算 CAC、毛利、回收期。",
+      "example": "LINE 贴图：制作成本 vs 售价 vs 退款。",
+      "tags": [
+        "战略与商业",
+        "单位经济"
+      ]
+    },
+    {
+      "id": "flywheel",
+      "name": "飞轮",
+      "name_en": "Flywheel",
+      "category": "战略与商业",
+      "one_liner": "增长动作互相加速。",
+      "how": "画飞轮，找最弱一环加力。",
+      "example": "内容→信任→线索→更多内容预算。",
+      "tags": [
+        "战略与商业",
+        "飞轮"
+      ]
+    },
+    {
+      "id": "moat",
+      "name": "护城河意识",
+      "name_en": "Moat Thinking",
+      "category": "战略与商业",
+      "one_liner": "什么让优势可持续。",
+      "how": "问复制难度与网络效应。",
+      "example": "私有已 scrub 的雷达数据与工作流。",
+      "tags": [
+        "战略与商业",
+        "护城河意识"
+      ]
+    },
+    {
+      "id": "gtd",
+      "name": "GTD",
+      "name_en": "Getting Things Done",
+      "category": "个人效能",
+      "one_liner": "收集→澄清→组织→回顾→执行。",
+      "how": "口语入收集箱，再变 next action。",
+      "example": "待办安排 bot 的核心循环。",
+      "tags": [
+        "个人效能",
+        "GTD"
+      ]
+    },
+    {
+      "id": "next-action",
+      "name": "下一步行动",
+      "name_en": "Next Action",
+      "category": "个人效能",
+      "one_liner": "只写具体可动手的下一步。",
+      "how": "模糊项先改写成动词句。",
+      "example": "「知识库」→「列出待补的 10 个词条」。",
+      "tags": [
+        "个人效能",
+        "下一步行动"
+      ]
+    },
+    {
+      "id": "weekly-review",
+      "name": "每周回顾",
+      "name_en": "Weekly Review",
+      "category": "个人效能",
+      "one_liner": "清空、校准、重排的仪式。",
+      "how": "固定周复盘块。",
+      "example": "周日 30 分钟清等待与本周必赢。",
+      "tags": [
+        "个人效能",
+        "每周回顾"
+      ]
+    },
+    {
+      "id": "habit-loop",
+      "name": "习惯回路",
+      "name_en": "Habit Loop",
+      "category": "个人效能",
+      "one_liner": "提示-惯常行为-奖励。",
+      "how": "给新习惯设计明显提示与即时奖励。",
+      "example": "打开墙=提示；读 1 条方法=行为；打勾=奖励。",
+      "tags": [
+        "个人效能",
+        "习惯回路"
+      ]
+    },
+    {
+      "id": "implementation-intention",
+      "name": "执行意图",
+      "name_en": "Implementation Intention",
+      "category": "个人效能",
+      "one_liner": "若情境 X 则做行为 Y。",
+      "how": "写成「当…我就…」。",
+      "example": "当打开早报，我就先处理安全类邮件。",
+      "tags": [
+        "个人效能",
+        "执行意图"
+      ]
+    },
+    {
+      "id": "atomic-habits",
+      "name": "原子习惯",
+      "name_en": "Atomic Habits",
+      "category": "个人效能",
+      "one_liner": "身份→过程→结果；1% 改进。",
+      "how": "先改身份叙事再堆意志力。",
+      "example": "「我是用框架思考的人」→每天用一条。",
+      "tags": [
+        "个人效能",
+        "原子习惯"
+      ]
+    },
+    {
+      "id": "pomodoro",
+      "name": "番茄钟",
+      "name_en": "Pomodoro",
+      "category": "个人效能",
+      "one_liner": "短冲刺+休息维持节奏。",
+      "how": "25/5 或 50/10。",
+      "example": "写条目时 2 个番茄。",
+      "tags": [
+        "个人效能",
+        "番茄钟"
+      ]
+    },
+    {
+      "id": "energy-management",
+      "name": "精力管理",
+      "name_en": "Energy Management",
+      "category": "个人效能",
+      "one_liner": "按精力高低匹配任务类型。",
+      "how": "深活放高峰，浅活放低谷。",
+      "example": "上午写方法论，晚上只分类。",
+      "tags": [
+        "个人效能",
+        "精力管理"
+      ]
+    },
+    {
+      "id": "rubber-duck",
+      "name": "小黄鸭调试",
+      "name_en": "Rubber Ducking",
+      "category": "学习与表达",
+      "one_liner": "讲出来才能想清楚。",
+      "how": "对空椅子讲方案卡点。",
+      "example": "把 A2UI 解释讲给自己听。",
+      "tags": [
+        "学习与表达",
+        "小黄鸭调试"
+      ]
+    },
+    {
+      "id": "feynman",
+      "name": "费曼技巧",
+      "name_en": "Feynman Technique",
+      "category": "学习与表达",
+      "one_liner": "用简单话教别人，卡壳处即盲点。",
+      "how": "写「13 岁能懂」版。",
+      "example": "用织毛衣比喻讲 AI 取代手艺。",
+      "tags": [
+        "学习与表达",
+        "费曼技巧"
+      ]
+    },
+    {
+      "id": "spaced-repetition",
+      "name": "间隔重复",
+      "name_en": "Spaced Repetition",
+      "category": "学习与表达",
+      "one_liner": "在遗忘边缘复习。",
+      "how": "对关键概念设回顾间隔。",
+      "example": "第一性原理/贝叶斯隔周回看。",
+      "tags": [
+        "学习与表达",
+        "间隔重复"
+      ]
+    },
+    {
+      "id": "deliberate-practice",
+      "name": "刻意练习",
+      "name_en": "Deliberate Practice",
+      "category": "学习与表达",
+      "one_liner": "针对弱项、有反馈、在舒适区外。",
+      "how": "每次只练一个子技能。",
+      "example": "专门练「钢人对方观点」10 分钟。",
+      "tags": [
+        "学习与表达",
+        "刻意练习"
+      ]
+    },
+    {
+      "id": "chunking",
+      "name": "组块化",
+      "name_en": "Chunking",
+      "category": "学习与表达",
+      "one_liner": "把信息编成更大意义单元。",
+      "how": "用分类与模板压缩记忆负担。",
+      "example": "100 条方法按 8 类组块。",
+      "tags": [
+        "学习与表达",
+        "组块化"
+      ]
+    },
+    {
+      "id": "mental-model-lattice",
+      "name": "心智模型网格",
+      "name_en": "Latticework of Mental Models",
+      "category": "学习与表达",
+      "one_liner": "多学科模型交叉比单模型强。",
+      "how": "同一问题强制用 3 个模型看。",
+      "example": "用瓶颈+期望值+二阶后果看排期。",
+      "tags": [
+        "学习与表达",
+        "心智模型网格"
+      ]
+    },
+    {
+      "id": "storytelling-arc",
+      "name": "叙事弧",
+      "name_en": "Story Arc",
+      "category": "学习与表达",
+      "one_liner": "情境-冲突-转折-结果更易记。",
+      "how": "汇报用故事而非只有表格。",
+      "example": "早报用「冲突时段四选一」开场。",
+      "tags": [
+        "学习与表达",
+        "叙事弧"
+      ]
+    },
+    {
+      "id": "pyramid",
+      "name": "金字塔原理",
+      "name_en": "Pyramid Principle",
+      "category": "学习与表达",
+      "one_liner": "结论先行，再支撑论据。",
+      "how": "邮件首句给答案。",
+      "example": "「建议去 NVIDIA 场，因…」",
+      "tags": [
+        "学习与表达",
+        "金字塔原理"
+      ]
+    },
+    {
+      "id": "ele",
+      "name": "电梯演讲",
+      "name_en": "Elevator Pitch",
+      "category": "学习与表达",
+      "one_liner": "30 秒说清价值。",
+      "how": "练习一句话定位。",
+      "example": "「给决策用的 100 个思维积木库」。",
+      "tags": [
+        "学习与表达",
+        "电梯演讲"
+      ]
+    },
+    {
+      "id": "dialectic",
+      "name": "辩证法",
+      "name_en": "Dialectic",
+      "category": "思辨",
+      "one_liner": "正题-反题-合题推进理解。",
+      "how": "刻意写对立观点再综合。",
+      "example": "「公开副业」正反合→灰度放行。",
+      "tags": [
+        "思辨",
+        "辩证法"
+      ]
+    },
+    {
+      "id": "phenomenology",
+      "name": "现象学直觉",
+      "name_en": "Phenomenology (lite)",
+      "category": "思辨",
+      "one_liner": "回到事物如何向意识显现。",
+      "how": "先描述体验再解释理论。",
+      "example": "用户打开墙时的第一眼感受。",
+      "tags": [
+        "思辨",
+        "现象学直觉"
+      ]
+    },
+    {
+      "id": "pragmatism",
+      "name": "实用主义",
+      "name_en": "Pragmatism",
+      "category": "思辨",
+      "one_liner": "以实际效果检验观念。",
+      "how": "争论停在「做什么会改变结果」。",
+      "example": "方法论是否让你本周少踩坑。",
+      "tags": [
+        "思辨",
+        "实用主义"
+      ]
+    },
+    {
+      "id": "stoicism",
+      "name": "斯多葛二分",
+      "name_en": "Dichotomy of Control",
+      "category": "思辨",
+      "one_liner": "只全力于可控，接纳不可控。",
+      "how": "列表拆可控/不可控。",
+      "example": "可控：scrub；不可控：平台风控。",
+      "tags": [
+        "思辨",
+        "斯多葛二分"
+      ]
+    },
+    {
+      "id": "utilitarianism-lite",
+      "name": "结果伦理直觉",
+      "name_en": "Utilitarian Lite",
+      "category": "思辨",
+      "one_liner": "看总体苦乐/福祉后果。",
+      "how": "政策选择粗算净影响。",
+      "example": "公开敏感数据的伤害 vs 便利。",
+      "tags": [
+        "思辨",
+        "结果伦理直觉"
+      ]
+    },
+    {
+      "id": "deontology-lite",
+      "name": "义务伦理直觉",
+      "name_en": "Deontology Lite",
+      "category": "思辨",
+      "one_liner": "有些规则不论结果都要守。",
+      "how": "定红线清单不可破。",
+      "example": "不把用户抱怨原文传给其他 bot。",
+      "tags": [
+        "思辨",
+        "义务伦理直觉"
+      ]
+    },
+    {
+      "id": "game-theory",
+      "name": "博弈论直觉",
+      "name_en": "Game Theory Lite",
+      "category": "互动与协作",
+      "one_liner": "策略相互依赖。",
+      "how": "想对方最优反应再行动。",
+      "example": "定价公开后竞争对手跟价。",
+      "tags": [
+        "互动与协作",
+        "博弈论直觉"
+      ]
+    },
+    {
+      "id": "nash",
+      "name": "纳什均衡直觉",
+      "name_en": "Nash Equilibrium Lite",
+      "category": "互动与协作",
+      "one_liner": "无人愿单方面偏离的状态。",
+      "how": "识别僵局是否均衡。",
+      "example": "都不愿先报价的僵持。",
+      "tags": [
+        "互动与协作",
+        "纳什均衡直觉"
+      ]
+    },
+    {
+      "id": "principal-agent",
+      "name": "委托代理",
+      "name_en": "Principal–Agent",
+      "category": "互动与协作",
+      "one_liner": "代理人目标可能偏离主人。",
+      "how": "对齐激励与可观测指标。",
+      "example": "bot 优化「发得勤」而非「有用」。",
+      "tags": [
+        "互动与协作",
+        "委托代理"
+      ]
+    },
+    {
+      "id": "incentive",
+      "name": "激励设计",
+      "name_en": "Incentive Design",
+      "category": "互动与协作",
+      "one_liner": "行为跟激励走。",
+      "how": "改行为前先改得分规则。",
+      "example": "以「采用次数」而非「条目数」考核。",
+      "tags": [
+        "互动与协作",
+        "激励设计"
+      ]
+    },
+    {
+      "id": "common-knowledge",
+      "name": "共同知识",
+      "name_en": "Common Knowledge",
+      "category": "互动与协作",
+      "one_liner": "大家都知道且知道大家都知道。",
+      "how": "关键约定要广播到显式共同知识。",
+      "example": "全舰队都知道勿派 yyy。",
+      "tags": [
+        "互动与协作",
+        "共同知识"
+      ]
+    },
+    {
+      "id": "psychological-safety",
+      "name": "心理安全",
+      "name_en": "Psychological Safety",
+      "category": "互动与协作",
+      "one_liner": "敢暴露问题才有学习。",
+      "how": "复盘责机制不责人。",
+      "example": "采集失败允许直说 AUTH。",
+      "tags": [
+        "互动与协作",
+        "心理安全"
+      ]
+    },
+    {
+      "id": "radical-candor",
+      "name": "激烈坦诚",
+      "name_en": "Radical Candor",
+      "category": "互动与协作",
+      "one_liner": "关心个人 + 直接挑战。",
+      "how": "反馈又硬又暖。",
+      "example": "「这段 summary 有运维词，影响公开页」。",
+      "tags": [
+        "互动与协作",
+        "激烈坦诚"
+      ]
+    },
+    {
+      "id": "nonviolent-comm",
+      "name": "非暴力沟通",
+      "name_en": "NVC",
+      "category": "互动与协作",
+      "one_liner": "观察-感受-需要-请求。",
+      "how": "冲突时按四步说。",
+      "example": "观察：Tab 仍隐藏；需要：演示清晰；请求：确认是否公开。",
+      "tags": [
+        "互动与协作",
+        "非暴力沟通"
+      ]
+    },
+    {
+      "id": "cynefin",
+      "name": "Cynefin",
+      "name_en": "Cynefin",
+      "category": "复杂情境",
+      "one_liner": "简单/繁杂/复杂/混乱域用不同方法。",
+      "how": "先判断域再选探针或最佳实践。",
+      "example": "平台风控=复杂域，先探针非抄流程。",
+      "tags": [
+        "复杂情境",
+        "Cynefin"
+      ]
+    },
+    {
+      "id": "ooda",
+      "name": "OODA 环",
+      "name_en": "OODA Loop",
+      "category": "复杂情境",
+      "one_liner": "观察-调整-决策-行动，比对手更快闭环。",
+      "how": "缩短每环时间。",
+      "example": "早报→决策→报名，当天下午就闭环。",
+      "tags": [
+        "复杂情境",
+        "OODA 环"
+      ]
+    },
+    {
+      "id": "probe-sense-respond",
+      "name": "探针-感知-响应",
+      "name_en": "Probe-Sense-Respond",
+      "category": "复杂情境",
+      "one_liner": "复杂域用安全失败实验。",
+      "how": "小步探针，放大有效信号。",
+      "example": "先上 20 条方法测是否有人用。",
+      "tags": [
+        "复杂情境",
+        "探针-感知-响应"
+      ]
+    },
+    {
+      "id": "red-team",
+      "name": "红队思维",
+      "name_en": "Red Teaming",
+      "category": "复杂情境",
+      "one_liner": "专职攻击自己的计划。",
+      "how": "发布前指定唱反调的人/bot。",
+      "example": "让人专门找思维条目的重复与错分。",
+      "tags": [
+        "复杂情境",
+        "红队思维"
+      ]
+    },
+    {
+      "id": "scenario",
+      "name": "情景规划",
+      "name_en": "Scenario Planning",
+      "category": "复杂情境",
+      "one_liner": "准备多种未来，不赌单点预测。",
+      "how": "写 2×2 驱动情景。",
+      "example": "登录态稳/不稳 × 内容风控松/紧。",
+      "tags": [
+        "复杂情境",
+        "情景规划"
+      ]
+    },
+    {
+      "id": "optionality",
+      "name": "期权思维",
+      "name_en": "Optionality",
+      "category": "复杂情境",
+      "one_liner": "保留不对称上行、有限下行的选择权。",
+      "how": "小成本买入多种可能性。",
+      "example": "先做可开关的 Tab，而不是写死信息架构。",
+      "tags": [
+        "复杂情境",
+        "期权思维"
+      ]
+    },
+    {
+      "id": "skin-in-game",
+      "name": "利益攸关",
+      "name_en": "Skin in the Game",
+      "category": "复杂情境",
+      "one_liner": "决策者应承担后果。",
+      "how": "谁拍板谁背指标。",
+      "example": "公开副业 Tab 由你确认，不由 bot 自作主张。",
+      "tags": [
+        "复杂情境",
+        "利益攸关"
+      ]
+    },
+    {
+      "id": "via-negativa",
+      "name": "否定路径",
+      "name_en": "Via Negativa",
+      "category": "复杂情境",
+      "one_liner": "通过去掉有害物前进。",
+      "how": "先减负再加功能。",
+      "example": "先去掉公开页运维噪音再加分析。",
+      "tags": [
+        "复杂情境",
+        "否定路径"
+      ]
+    },
+    {
+      "id": "lindy",
+      "name": "林迪效应",
+      "name_en": "Lindy Effect",
+      "category": "复杂情境",
+      "one_liner": "非易腐事物存在越久，预期剩余寿命越长。",
+      "how": "优先学经久模型，少追周刊黑话。",
+      "example": "第一性原理/贝叶斯比今年新词更优先。",
+      "tags": [
+        "复杂情境",
+        "林迪效应"
+      ]
+    },
+    {
+      "id": "chestertons-fence",
+      "name": "切斯特顿围栏",
+      "name_en": "Chesterton's Fence",
+      "category": "复杂情境",
+      "one_liner": "不懂为何存在前别拆。",
+      "how": "改规则前先写「它当初解决什么」。",
+      "example": "副业隐藏旗标：先确认演示原因再开。",
+      "tags": [
+        "复杂情境",
+        "切斯特顿围栏"
+      ]
+    },
+    {
+      "id": "goodhart",
+      "name": "古德哈特定律",
+      "name_en": "Goodhart's Law",
+      "category": "复杂情境",
+      "one_liner": "一指标成目标就不再是好指标。",
+      "how": "多指标+定期换测。",
+      "example": "别只追「条目数=100」。",
+      "tags": [
+        "复杂情境",
+        "古德哈特定律"
+      ]
+    },
+    {
+      "id": "campbell",
+      "name": "坎贝尔定律",
+      "name_en": "Campbell's Law",
+      "category": "复杂情境",
+      "one_liner": "量化社会指标会扭曲与腐败。",
+      "how": "对考核留定性复核。",
+      "example": "bot 别为凑日报质量注水。",
+      "tags": [
+        "复杂情境",
+        "坎贝尔定律"
+      ]
+    },
+    {
+      "id": "local-vs-global",
+      "name": "局部最优警惕",
+      "name_en": "Local vs Global Optima",
+      "category": "复杂情境",
+      "one_liner": "爬山可能困在小山丘。",
+      "how": "偶尔随机跳跃/重估目标函数。",
+      "example": "优化采集速度却牺牲证据质量。",
+      "tags": [
+        "复杂情境",
+        "局部最优警惕"
+      ]
+    },
+    {
+      "id": "tradeoff",
+      "name": "权衡显式化",
+      "name_en": "Explicit Tradeoffs",
+      "category": "复杂情境",
+      "one_liner": "几乎总有取舍，藏着更危险。",
+      "how": "写清放弃了什么。",
+      "example": "要速度就接受今日不扫小红书。",
+      "tags": [
+        "复杂情境",
+        "权衡显式化"
+      ]
+    },
+    {
+      "id": "constraint-reframing",
+      "name": "约束重框",
+      "name_en": "Constraint Reframing",
+      "category": "复杂情境",
+      "one_liner": "约束可变成设计材料。",
+      "how": "问「若必须在约束下，最优是什么」。",
+      "example": "只有登录墙：做成沉淀型工具库而非公域媒体。",
+      "tags": [
+        "复杂情境",
+        "约束重框"
+      ]
+    },
+    {
+      "id": "analogy",
+      "name": "审慎类比",
+      "name_en": "Cautious Analogy",
+      "category": "科学与推理",
+      "one_liner": "类比启发强但易误导。",
+      "how": "类比后回到第一性原理核验。",
+      "example": "「人肉织毛衣」类比 AI，核验边界在哪。",
+      "tags": [
+        "科学与推理",
+        "审慎类比"
+      ]
+    },
+    {
+      "id": "causal-vs-corr",
+      "name": "因果vs相关",
+      "name_en": "Causal vs Correlation",
+      "category": "科学与推理",
+      "one_liner": "一起变≠谁导致谁。",
+      "how": "要因果就做对照/工具变量/随机。",
+      "example": "雷达热度与销量需更多证据。",
+      "tags": [
+        "科学与推理",
+        "因果vs相关"
+      ]
+    },
+    {
+      "id": "counterfactual",
+      "name": "反事实",
+      "name_en": "Counterfactual",
+      "category": "科学与推理",
+      "one_liner": "问「若当初不同会怎样」。",
+      "how": "复盘写反事实对照。",
+      "example": "若昨天 resume 前沿例程，是否已有补跑。",
+      "tags": [
+        "科学与推理",
+        "反事实"
+      ]
+    },
+    {
+      "id": "decomposition",
+      "name": "问题分解",
+      "name_en": "Decomposition",
+      "category": "结构思维",
+      "one_liner": "大问题切成可并行/可测小块。",
+      "how": "竖切用户价值薄片。",
+      "example": "思维库：数据→导航→检索→详情。",
+      "tags": [
+        "结构思维",
+        "问题分解"
+      ]
+    },
+    {
+      "id": "abstraction-ladder",
+      "name": "抽象阶梯",
+      "name_en": "Abstraction Ladder",
+      "category": "结构思维",
+      "one_liner": "上移看目的，下移看实例。",
+      "how": "卡住时上下各走两级。",
+      "example": "「要 Tab」上移到「要可检索决策积木」。",
+      "tags": [
+        "结构思维",
+        "抽象阶梯"
+      ]
+    },
+    {
+      "id": "boundary-critique",
+      "name": "边界批判",
+      "name_en": "Boundary Critique",
+      "category": "系统与反馈",
+      "one_liner": "谁被算进系统、谁的利益被排除。",
+      "how": "画边界时问谁受益谁买单。",
+      "example": "公开页不展示采集账号是保护边界。",
+      "tags": [
+        "系统与反馈",
+        "边界批判"
+      ]
+    },
+    {
+      "id": "slack",
+      "name": "松弛度",
+      "name_en": "Slack",
+      "category": "决策与风险",
+      "one_liner": "系统需要空闲才能应变。",
+      "how": "日历与人力留白。",
+      "example": "待办容量 70–80%。",
+      "tags": [
+        "决策与风险",
+        "松弛度"
+      ]
+    },
+    {
+      "id": "reversibility",
+      "name": "可逆性优先",
+      "name_en": "Reversibility",
+      "category": "决策与风险",
+      "one_liner": "可逆决策快，不可逆决策慢。",
+      "how": "一分型：单程门 vs 双扇门。",
+      "example": "加 Tab 可逆；删用户数据不可逆。",
+      "tags": [
+        "决策与风险",
+        "可逆性优先"
+      ]
+    },
+    {
+      "id": "default-effect",
+      "name": "默认效应利用",
+      "name_en": "Default Effect",
+      "category": "认知校准",
+      "one_liner": "默认选项极强。",
+      "how": "把好行为设为默认。",
+      "example": "新条目默认要有「怎么用」。",
+      "tags": [
+        "认知校准",
+        "默认效应利用"
+      ]
+    },
+    {
+      "id": "implementation-gap",
+      "name": "知行鸿沟",
+      "name_en": "Knowing-Doing Gap",
+      "category": "个人效能",
+      "one_liner": "知道却不做是常态。",
+      "how": "为每个认知配触发与环境设计。",
+      "example": "方法库旁放「今日用一条」按钮。",
+      "tags": [
+        "个人效能",
+        "知行鸿沟"
+      ]
+    },
+    {
+      "id": "morphological",
+      "name": "形态分析法",
+      "name_en": "Morphological Analysis",
+      "category": "产品与创新",
+      "one_liner": "把问题拆成维度，穷举组合找新解。",
+      "how": "列 3–5 维，交叉出非常规组合。",
+      "example": "渠道×定价×交付方式矩阵找副业形态。",
+      "tags": [
+        "产品与创新",
+        "形态分析法"
+      ]
+    },
+    {
+      "id": "six-hats",
+      "name": "六顶思考帽",
+      "name_en": "Six Thinking Hats",
+      "category": "思辨",
+      "one_liner": "白事实/红情绪/黑风险/黄利益/绿创意/蓝过程分帽思考。",
+      "how": "会议按帽子切换，避免混战。",
+      "example": "上新 Tab：先白帽数据，再黑帽风险。",
+      "tags": [
+        "思辨",
+        "六顶思考帽"
+      ]
+    },
+    {
+      "id": "five-whys",
+      "name": "五个为什么",
+      "name_en": "Five Whys",
+      "category": "科学与推理",
+      "one_liner": "连续问为什么逼近根因。",
+      "how": "停在可行动根因，避免无限玄学。",
+      "example": "CF 失败←构建错←依赖没锁←流程缺校验。",
+      "tags": [
+        "科学与推理",
+        "五个为什么"
+      ]
+    },
+    {
+      "id": "force-field",
+      "name": "力场分析",
+      "name_en": "Force Field Analysis",
+      "category": "决策与风险",
+      "one_liner": "列出推动与阻碍力量并加减分。",
+      "how": "增强推力或削弱阻力。",
+      "example": "公开副业：推力=信息价值；阻力=演示误读。",
+      "tags": [
+        "决策与风险",
+        "力场分析"
+      ]
+    },
+    {
+      "id": "kpi-tree",
+      "name": "指标树",
+      "name_en": "Metric Tree",
+      "category": "战略与商业",
+      "one_liner": "顶层指标分解为可操作驱动因子。",
+      "how": "每个叶子指标要有负责人。",
+      "example": "周活→打开次数×次均使用方法数。",
+      "tags": [
+        "战略与商业",
+        "指标树"
+      ]
+    },
+    {
+      "id": "raci",
+      "name": "RACI",
+      "name_en": "RACI",
+      "category": "互动与协作",
+      "one_liner": "Responsible/Accountable/Consulted/Informed。",
+      "how": "跨 bot 任务写清四格。",
+      "example": "上墙：R=雷达 bot，A=cy，C=code Bot。",
+      "tags": [
+        "互动与协作",
+        "RACI"
+      ]
+    },
+    {
+      "id": "dacii",
+      "name": "DACI",
+      "name_en": "DACI",
+      "category": "互动与协作",
+      "one_liner": "Driver/Approver/Contributors/Informed。",
+      "how": "复杂决策指定唯一 Driver。",
+      "example": "思维 Tab：Driver=cy，Approver=你。",
+      "tags": [
+        "互动与协作",
+        "DACI"
+      ]
+    },
+    {
+      "id": "working-backwards",
+      "name": "逆向工作法",
+      "name_en": "Working Backwards",
+      "category": "产品与创新",
+      "one_liner": "先写新闻稿/FAQ 再做产品。",
+      "how": "用未来发布稿倒逼范围。",
+      "example": "「用户在墙里 30 秒找到第一性原理」。",
+      "tags": [
+        "产品与创新",
+        "逆向工作法"
+      ]
+    },
+    {
+      "id": "jobs-map",
+      "name": "任务地图",
+      "name_en": "Job Map",
+      "category": "产品与创新",
+      "one_liner": "执行任务的阶段步骤图。",
+      "how": "找哪里卡顿就在哪做功能。",
+      "example": "发现方法→理解→选用→回顾。",
+      "tags": [
+        "产品与创新",
+        "任务地图"
+      ]
+    },
+    {
+      "id": "jtbd-forces",
+      "name": "四力模型",
+      "name_en": "Switch Forces",
+      "category": "产品与创新",
+      "one_liner": "推/拉/焦虑/习惯惯性决定是否切换。",
+      "how": "加强拉力、降低焦虑。",
+      "example": "从笔记切到思维库的焦虑=迁移成本。",
+      "tags": [
+        "产品与创新",
+        "四力模型"
+      ]
+    }
+  ]
+}
