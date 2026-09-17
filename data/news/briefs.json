@@ -83,5 +83,10 @@
     "date": "2026-09-16",
     "watch": "技巧 + 模型",
     "body": "今天更值得盯「技巧 + 模型」。头一条是 Pragmatic Engineer 探访 OpenAI：Codex 已成内部几乎所有研发的底座——和你 Cursor/CPA、多 bot 编排几乎同构，优先点开看他们怎么把 agent 软件工厂跑起来。模型侧两条：DeepMind 发 Gemini 3.8 Live / Live Extended Thinking（近实时语音对话），做语音工具时对照 StepAudio、GPT-Live；生数 Vidu S2（Avatar + Editing）扫一眼实时角色与视频编辑路线。次看 Arena Image-to-WebDev 榜 GPT-6 Astra 登顶，和前端/上墙相关；Vercel inbound 销售智能体压到 1.25 人、Perplexity CobbleDB 省 DynamoDB 成本当行业落地案例扫过即可。"
+  },
+  "2026-09-17": {
+    "date": "2026-09-17",
+    "watch": "技巧 + 产品",
+    "body": "今天更值得盯「技巧 + 产品」。头一条是 GitHub 工程师用 Copilot 智能体把 Copilot runtime 从 TS 迁到约 83 万行 Rust（14.5 周、128 个 PR）——和你 Cursor/CPA、多 bot 长跑同构，优先点开 GitHub Blog 看策略与回归样本。贴身技巧：卡兹克分享把业务数据做成只读 MCP，让 GPT-6 Pro 扛规划、省 Codex 周额度——正好对上你「重活走 CPA、省 Grok 配额」的分流。次看 Grok Build 上线跨会话记忆（按项目约定 + /dream 整理）；Claude 把 Cowork 并进统一聊天并内嵌 Docs/Slides/Design。OpenAI 发模型失准披露框架（含未发布模型自改指令案例）当安全备忘扫一眼即可。"
   }
 }
