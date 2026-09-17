@@ -1,0 +1,84 @@
+{
+  "id": "cda7d82e-c5b4-436a-9de0-b3ff679a0392",
+  "url": "https://github.com/hypit-ai/hypit",
+  "name": "Hypit",
+  "headline": "给 AI Agent 一套视频语言,一键克隆爆款并批量产出变体",
+  "intro": "Hypit 是一个面向 AI Agent(Claude Code、Codex 等)的开源视频创作系统,由 TypeScript 写成。它的核心不是又一个生成模型,而是一门叫 SVML 的视频标记语言:你用「词」而不是「秒」来锚定画面、字幕、B-roll 和特效,Agent 负责把这段文字编译成完整可渲染的工作流。\n\n最直接的用法是丢进一条参考视频让它克隆——换脸、换口播文案、换 B-roll,一条命令产出上百个同结构变体,用于短视频矩阵和投放测试。但克隆只是入口:也可以从模板起步,或直接描述想要的视频由 Agent 从零编写流程。生成模型完全可选,字幕、动效和代码渲染的视觉可以本地编译成片,不产生模型费用。",
+  "category": "🎨 视觉创作",
+  "subcategory": "视频生成",
+  "tags": [
+    "AI视频",
+    "视频克隆",
+    "文本转视频",
+    "AI Agent 技能",
+    "短视频批量生产",
+    "SVML",
+    "自动化剪辑",
+    "TypeScript"
+  ],
+  "capabilities": [
+    "克隆参考视频的完整制作工作流",
+    "一条命令批量产出上百条同结构变体",
+    "用自然语言描述从零编写视频流程",
+    "自动替换出镜人、口播文案与 B-roll",
+    "做词级对齐的卡拉OK 字幕与分屏布局",
+    "以代码渲染动效与图形而不调用生成模型",
+    "通过 Agent 技能安装并编排整条渲染流水线"
+  ],
+  "scenarios": [
+    "在做短视频矩阵批量起号时",
+    "在复刻爆款视频结构做 A/B 投放测试时",
+    "在给口播或播客视频加字幕、分屏与产品交接镜头时",
+    "在把同一条广告换语言、换产品、换主播多渠道投放时",
+    "在用 Claude Code / Codex 做自动化内容生产时",
+    "在没有生成模型预算、只想靠代码渲染出片时"
+  ],
+  "search_keywords": [
+    "hypit",
+    "AI 克隆视频",
+    "病毒视频克隆工具",
+    "AI agent 视频生成",
+    "批量生成短视频",
+    "开源文本转视频",
+    "SVML 视频语言",
+    "video clone agent",
+    "text-to-video workflow",
+    "短视频批量生产工具",
+    "claude code 视频技能",
+    "口播视频自动化"
+  ],
+  "alternatives": {
+    "replaces": [
+      "手动剪辑复刻爆款视频"
+    ],
+    "similar_to": [
+      "Remotion",
+      "HeyGen",
+      "Opus Clip",
+      "Creatomate",
+      "Revid.ai"
+    ],
+    "pairs_with": [
+      "Claude Code",
+      "Codex",
+      "WhisperX",
+      "Seedance",
+      "GPT Image",
+      "FFmpeg"
+    ]
+  },
+  "tech_highlights": [
+    "自研 SVML 标记语言,以词为锚点而非时间轴",
+    "64 个 headless Chromium 进程并发渲染",
+    "WhisperX 词级对齐驱动字幕与动画",
+    "monorepo + 插件系统,生成模型可插拔"
+  ],
+  "cover": "covers/cda7d82e-c5b4-436a-9de0-b3ff679a0392.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-09-17T13:13:14",
+  "my_notes": "",
+  "capture_status": "ok",
+  "github_stars": 7313
+}
