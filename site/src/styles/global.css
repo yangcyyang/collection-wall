@@ -321,6 +321,14 @@ body.radar-viewer-open { overflow: hidden; }
 .skill-github { color: var(--color-brand); position: relative; text-decoration: none; z-index: 2; }
 .skill-github:hover { text-decoration: underline; }
 .skill-grid { padding: var(--spacing-lg) 0; }
+.thinking-name-en { color: var(--color-text-secondary); font-size: var(--font-size-caption); font-weight: 400; margin-left: 0.4em; }
+.thinking-expand { margin-top: var(--spacing-sm); }
+.thinking-expand summary { color: var(--color-brand); cursor: pointer; font-size: var(--font-size-caption); list-style: none; }
+.thinking-expand summary::-webkit-details-marker { display: none; }
+.thinking-expand summary:focus-visible { outline: var(--outline-width) solid var(--color-brand); outline-offset: var(--outline-width); }
+.thinking-body { display: grid; gap: var(--spacing-sm); margin: var(--spacing-sm) 0 0; }
+.thinking-body dt { color: var(--color-text-primary); font-size: var(--font-size-caption); font-weight: 600; }
+.thinking-body dd { color: var(--color-text-secondary); font-size: var(--font-size-caption); margin: 0; overflow-wrap: anywhere; white-space: pre-wrap; }
 .prompt-toolbar { padding: var(--spacing-lg) 0 0; }
 .prompt-search input { background: var(--color-surface); border: var(--border-width) solid var(--color-border); border-radius: var(--radius-card); color: var(--color-text-primary); font-size: var(--font-size-body); padding: var(--spacing-sm) var(--spacing-md); width: min(32rem, 100%); }
 .prompt-search input:focus-visible { outline: var(--outline-width) solid var(--color-brand); outline-offset: var(--outline-width); }

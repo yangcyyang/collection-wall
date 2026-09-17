@@ -104,6 +104,7 @@ test("收藏墙与技能未带 cookie 时重定向到登录并带上返回地址
   assert.equal(isPublicPath("/sidehustle/"), false);
   assert.equal(isPublicPath("/producthunt/"), false);
   assert.equal(isPublicPath("/zsxq/"), false);
+  assert.equal(isPublicPath("/thinking/"), false);
   assert.equal(isPublicPath("/api/ask-ai"), false);
 
   const home = await dispatch("/");
@@ -126,6 +127,10 @@ test("收藏墙与技能未带 cookie 时重定向到登录并带上返回地址
   const zsxq = await dispatch("/zsxq/");
   assert.equal(zsxq.status, 302);
   assert.equal(zsxq.headers.get("Location"), "https://wall.yangcyyang.cn/login/?next=%2Fzsxq%2F");
+
+  const thinking = await dispatch("/thinking/");
+  assert.equal(thinking.status, 302);
+  assert.equal(thinking.headers.get("Location"), "https://wall.yangcyyang.cn/login/?next=%2Fthinking%2F");
 });
 
 test("正确登录写入 httpOnly Secure 签名 cookie，而不是明文密码", async () => {
@@ -207,7 +212,7 @@ test("_routes.json 不得把锁定静态资源排除出 Functions", async () => 
   for (const rule of routes.exclude) {
     assert.ok(allowed.has(rule), `意外的 exclude: ${rule}`);
   }
-  assert.ok(!routes.exclude.some((rule) => rule.includes("login") || rule.includes("covers") || rule.includes("skills")));
+  assert.ok(!routes.exclude.some((rule) => rule.includes("login") || rule.includes("covers") || rule.includes("skills") || rule.includes("thinking")));
 });
 
 test("错误恢复邮箱也返回通用成功且不发信", async () => {
