@@ -1,0 +1,72 @@
+{
+  "id": "07a191d9-02be-4cf3-aac4-e929146d4fe8",
+  "url": "https://connect.linux.do/oauth2/authorize?client_id=bSXYjtgcgPyke1pmtDUZ5srrSaw8u4bh&redirect_uri=https%3A%2F%2Fapi.ldspro.qzz.io%2Fapi%2Fauth%2Fcallback&response_type=code&scope=openid+profile&state=linux.do%3A1789670209308%3A6cdbb643ce93ad596b3d9bf540843be1%3Asame%3AaHR0cHMlM0ElMkYlMkZsZGNzdG9yZS5jb20lMkZhdXRoJTJGY2FsbGJhY2slM0ZyZWRpcmVjdCUzRCUyNTJG%3A5f5d413ea857d12328b24421e636a71bce903b88d2ae24d1a5d4ffb5941f7f6f",
+  "name": "LINUX DO Connect",
+  "headline": "Linux.do 社区的 OAuth2 授权登录与第三方账号打通服务",
+  "intro": "LINUX DO Connect 是 Linux.do 社区对外提供的 OAuth2 / OpenID Connect 授权登录入口。第三方站点（如 ldcstore.com、api.ldspro.qzz.io 等）通过跳转到 connect.linux.do/oauth2/authorize，携带 client_id、redirect_uri、scope=openid profile 与 state，由用户在 Linux.do 侧确认授权后带 code 回调，从而把社区身份作为站点的免注册登录方式。开发者只需申请一对 client_id / client_secret 并实现标准回调，即可让用户「用 LINUX DO 登录」，省去自建账号体系。该入口位于 Cloudflare 防护之后，未登录或风控触发时会先看到校验页。",
+  "category": "🌐 网页与代码",
+  "subcategory": "开发工具",
+  "tags": [
+    "OAuth2",
+    "OpenID Connect",
+    "单点登录",
+    "第三方登录",
+    "Linux.do",
+    "身份认证",
+    "开发者接入",
+    "SSO"
+  ],
+  "capabilities": [
+    "授权第三方应用访问 Linux.do 账号",
+    "通过 code 换取 access_token 与用户信息",
+    "读取 openid / profile 基础资料",
+    "回调 redirect_uri 并校验 state 防 CSRF",
+    "为自建站点提供免注册登录入口",
+    "绑定并打通社区身份与站内账号"
+  ],
+  "scenarios": [
+    "在做自建工具站/论坛接入社区登录时",
+    "在给站点加「用 LINUX DO 登录」按钮时",
+    "在调试 OAuth2 回调、state 与 scope 参数时",
+    "在做多站点账号体系打通时",
+    "在排查授权页被 Cloudflare 拦截时"
+  ],
+  "search_keywords": [
+    "linux.do 登录",
+    "LinuxDo OAuth",
+    "linux do oauth2 接入",
+    "linux.do connect 授权",
+    "第三方登录 linux.do",
+    "ldcstore 登录",
+    "linuxdo sso",
+    "oidc linux.do",
+    "client_id redirect_uri oauth authorize",
+    "linux.do openid profile"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [
+      "GitHub OAuth Apps",
+      "Google 登录",
+      "通用 OpenID Connect 登录"
+    ],
+    "pairs_with": [
+      "ldcstore.com",
+      "api.ldspro.qzz.io",
+      "Cloudflare"
+    ]
+  },
+  "tech_highlights": [
+    "OAuth2 授权码模式（response_type=code）",
+    "OpenID Connect scope: openid profile",
+    "state 参数做 CSRF / 跳转来源校验",
+    "Cloudflare 前置人机校验"
+  ],
+  "cover": "covers/07a191d9-02be-4cf3-aac4-e929146d4fe8.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-09-18T02:37:22",
+  "my_notes": "",
+  "capture_status": "ok"
+}
