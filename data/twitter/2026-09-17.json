@@ -1,0 +1,400 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-17",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2100422533778489626",
+      "author": "AI_Jasonyu",
+      "bio": "",
+      "text": "说 7 类私信里让我超级无语的人！！\n虽然我很宠粉，但我也真有忍不了的时候啊。😡\n\n1、上来就说：我想赚钱，能不能带带我？\n\n我带你啥？别说我不想带人，先说我凭啥带你，我收你几千几万的你能接受吗？你什么背景，你做啥的你也不介绍，我带你做啥东东呢？\n\n2、上来就问：鱼总，做这个难吗？\n\n压根儿没有任何上下文，我都不知道他在讲什么。很多粉丝是看了我某一篇文章，直接拿文章里的某一个细节就来私信了。我一天发好几条，谁知道你说的是哪一篇哪一段。。。无从回答。\n\n3、上来就一句：在吗？然后没了。\n\n等我回了个「在」，他才开始打字，这一打又是十分钟。有事直接说事啊兄弟，我T喵又不会跑。\n\n4、鱼总，这个方向还能做吗？\n\n其实他根本不是想听我分析，他只想听我说一句「能」。我说能，下一句马上就是「那具体怎么做」；我说不太好做，他转头就去问下一个博主，问到有人说能为止。\n\n5、教程发我一份 / 提示词发我一份。\n\n发过去之后，人没了，连个谢谢都没有。更绝的是过两个月又来问一模一样的问题，我往上一翻，资料明明还在聊天记录里挂着呢。\n\n6、我认真打了 20 分钟，他回我一个「哦」。\n\n有时候我是真的在认真答，把我踩过的坑全给他讲了一遍。他回一个「哦」，或者「好的」。。。兄弟，这些坑是我亏了两年钱换来的啊，白嫖就算了，还如此敷衍吗？\n\n7、不回就翻脸。\n\n我没来得及回，或者确实不想回，他来一句：“牛了就不理人了？你讲不清楚就不要发教程啊，搞到这里了就不知道咋进行了”，满心的责怪，我发的内容全是免费的，回不回私信真不是义务啊。\n\n而且X得私信功能难用的一批，你私信不回复的时候，去评论区评论一波，回复的也许更快\n\n同时做博主的兄弟们，不知道还遇到过哪几类？？\n\n另外，给其他的粉丝宝宝们提个醒，聊天和私信讲求点方式好吗？上下文至少得有啊~~~",
+      "created_at": "Thu Sep 17 03:12:10 +0000 2026",
+      "likes": 6,
+      "views": "956",
+      "url": "https://x.com/i/status/2100422533778489626",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSYt1QBXMAA4rc3.png",
+        "https://pbs.twimg.com/media/HSYzJdEWUAARv3t.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSYt1QBXMAA4rc3.png",
+        "https://pbs.twimg.com/media/HSYzJdEWUAARv3t.png"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 60.691,
+      "title": "鱼总盘点七类超级无语的私信：从「带带我」到不回就翻脸",
+      "summary": "AI_Jasonyu 列举做博主最烦的七类私信：空手求带货、无上下文提问、「在吗」开场、只想听「能做」、白嫖教程后失联、认真答完只回「哦」、以及不回就翻脸；并提醒粉丝私信要给上下文，也吐槽 X 私信难用、不如评论区。",
+      "recommend_reason": "创作者侧对无效私信的具体分类，对做内容/社群的人比鸡汤更有操作性。",
+      "tags": [
+        "内容创作",
+        "私信",
+        "社群",
+        "创作者",
+        "X"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2100421921892671617",
+      "author": "taiyo_ai_gakuse",
+      "bio": "AI Agent領域で大阪万博登壇。AIエージェント専門受託開発 / X運用代行はDMまで / https://t.co/RIpQYkI3ep MCP展開中。 / 大学生",
+      "text": "正直、開発の中心が今DevinなのでcodexとかClaudeCodeをサブとして使ってる。",
+      "created_at": "Thu Sep 17 03:09:44 +0000 2026",
+      "likes": 1,
+      "views": 245,
+      "url": "https://x.com/taiyo_ai_gakuse/status/2100421921892671617",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 47.237,
+      "retweets": 0,
+      "replies": 0,
+      "summary": "说实话，现在开发的中心已经是 Devin，Codex 和 Claude Code 我都当副手在用。",
+      "recommend_reason": "重度用户把 Devin 抬到主工作流、把 Codex/Claude Code 降为副手，是工具格局的一手体感。",
+      "tags": [
+        "Devin",
+        "Codex",
+        "Claude Code",
+        "AI编程",
+        "工作流"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2100421505536639231",
+      "author": "op7418",
+      "bio": "",
+      "text": "🐂🍺 Grok Bot 可以用你的 1Password 来登录你的网页和软件了，这样既不用输密码也可以避免泄露",
+      "created_at": "Thu Sep 17 03:08:05 +0000 2026",
+      "likes": 12,
+      "views": "3393",
+      "url": "https://x.com/i/status/2100421505536639231",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2100335532597502311",
+        "author": "bot",
+        "name": "Grok Bot",
+        "text": "Grok Bot can now use 1Password.\n\nShare items in a vault, approve each fill, and the secrets stay in your password manager. https://t.co/2NFlwq6hkv",
+        "created_at": "Wed Sep 16 21:26:27 +0000 2026",
+        "url": "https://x.com/bot/status/2100335532597502311",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HSXiSghaMAAHZKS.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HSXiSghaMAAHZKS.jpg"
+        ]
+      },
+      "score": 51.934,
+      "summary": "🐂🍺 Grok Bot 可以用你的 1Password 来登录你的网页和软件了，这样既不用输密码也可以避免泄露",
+      "recommend_reason": "Agent 填密走 1Password 审批流，是「能代操作又不裸奔密钥」的关键能力。",
+      "tags": [
+        "Grok Bot",
+        "1Password",
+        "密码管理",
+        "Agent",
+        "安全"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2100417446200979486",
+      "author": "dotey",
+      "bio": "",
+      "text": "Claude 新出的 Claude Docs、Claude Slides  还挺好用的，不过入口不是在普通聊天那里，要从 Artifacts 那里进去。https://t.co/cvbBI536hl",
+      "created_at": "Thu Sep 17 02:51:57 +0000 2026",
+      "likes": 14,
+      "views": "7427",
+      "url": "https://x.com/i/status/2100417446200979486",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2100278916204118219",
+        "author": "dotey",
+        "name": "宝玉",
+        "text": "Anthropic 把 Claude 的后台任务模式 Cowork 和日常聊天合并成了一个入口，今天开始向 Pro 和 Max 用户逐步推送。https://t.co/4PYyAe3Dvx\n\n之前 Claude 有两个工作模式：聊天处理快问快答，Cowork 处理需要跑一阵子的大活儿——写报告、做调研、整理数据。问题是用户经常拿不准一个任务该丢到哪边，而且两边的上下文不互通。现在不用选了，所有对话都在同一个地方，Claude 自己判断任务需要什么能力。\n\n同时上线的还有三个内容创作工具：Claude Docs（文档协作）、Claude Slides（幻灯片）和 Claude Design（设计，之前是独立产品，现在也嵌进了对话）。在聊天里说一句\"帮我写个周报\"，Claude 直接生成文档，你可以在里面改、加批注、让 Claude 继续调整；说\"做五页幻灯片给领导汇报\"，slides 就出来了，改完可以直接下载成 PowerPoint 或 PDF。文档和幻灯片共享同一个对话上下文，所以内容天然一致，不用来回复制粘贴。\n\n实际使用场景大概是这样：出门前让 Claude 查上周项目进展、写周报、顺便做个汇报用的幻灯片，路上用手机看进度，到办公室直接改两笔就能发。还能设成定时任务，比如每周一自动开始写周报。Claude 默认每一步都会征求你确认，如果嫌烦也可以切成\"有问题再找我\"模式。\n\n三个创作工具目前都是 beta 状态，面向付费用户开放，企业版由管理员决定何时开启。Cowork 老用户不受影响，之前的对话、项目、连接器都还在。Team 和免费用户后续跟进，企业用户会提前 30 天收到通知。 \n\nhttps://t.co/Gwywb6Cg0u",
+        "created_at": "Wed Sep 16 17:41:29 +0000 2026",
+        "url": "https://x.com/dotey/status/2100278916204118219",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2100254736763019264/vid/avc1/480x270/dllnD7Nm_dp96V2n.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HSWePXcXQAAAj1F.jpg"
+        ]
+      },
+      "score": 53.744,
+      "summary": "Claude 新出的 Claude Docs、Claude Slides 还挺好用的，不过入口不是在普通聊天那里，要从 Artifacts 那里进去。",
+      "recommend_reason": "点出 Docs/Slides 入口在 Artifacts 而非普通聊天，能直接省掉一顿找功能的时间。",
+      "tags": [
+        "Claude",
+        "Claude Docs",
+        "Claude Slides",
+        "Artifacts",
+        "Anthropic"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2100416226271150217",
+      "author": "huangyun_122",
+      "bio": "",
+      "text": "再三考虑，我把我的 obsidian 装的满满效率插件，全都删了\n\n笑来老师那场 12万人听过的人生操作系统公开课，再一次触动我：量子读书是自欺欺人。看上去我处理的 MD，PDF 更多了，但入脑入心的寥寥\n\n线性文字看上去与认知的快速习得，充满了摩擦。试图把摩擦拿掉是对的。但仅以此为目的，就进入了另一种岐途\n\n看推，也一样。看更多，不如看得慢。看得慢，不如动手的多",
+      "created_at": "Thu Sep 17 02:47:06 +0000 2026",
+      "likes": 6,
+      "views": "2044",
+      "url": "https://x.com/i/status/2100416226271150217",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2093748235362078722",
+        "author": "huangyun_122",
+        "name": "黄赟",
+        "text": "嗯，中国比特币之父李笑来老师曾在知乎开过一堂 1元的公开课，有 12万人听过。\n\n他在课里面曾透露他被母亲斥责的一个读书方法 —— 如清风般翻书，和前几年的量子读书有的比，即目光停留在一页书上的时间不会超过 2秒，大概就这么个意思\n\n后来他改变了这样的读书方法，读到一个技巧就想着能不能用在平时的场景里，于是收获了很多，颅内高潮翻倍\n\n最近看推也有类似收获，看的越慢，收获越大，推友们分享的技巧和 GitHub 工具，都尝试去用起来，找到最合适的场景，反而收获很多意外之喜\n\n眼看的越多越焦虑，手动的越快越兴奋",
+        "created_at": "Sat Aug 29 17:10:53 +0000 2026",
+        "url": "https://x.com/huangyun_122/status/2093748235362078722",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 52.994,
+      "summary": "再三考虑，我把我的 obsidian 装的满满效率插件，全都删了\n\n笑来老师那场 12万人听过的人生操作系统公开课，再一次触动我：量子读书是自欺欺人。看上去我处理的 MD，PDF 更多了，但入脑入心的寥寥\n\n线性文字看上去与认知的快速习得，充满了摩擦。试图把摩擦拿掉是对的。但仅以此为目的，就进入了另一种岐途\n\n看推，也一样。看更多，不如看得慢。看得慢，不如动手的多",
+      "recommend_reason": "对「效率插件堆满却不入脑」的反思，提醒信息摄入要以动手验证为准。",
+      "tags": [
+        "Obsidian",
+        "认知",
+        "学习方法",
+        "知识管理",
+        "效率"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2100415770446762420",
+      "author": "taiyo_ai_gakuse",
+      "bio": "",
+      "text": "Devin Ambassadorになりました！！\n\n開発者として長期的にDevinの成長に貢献したく、応募しました！数年後には世界一の開発インフラになると本気で信じているのでこれからも全ベットしていきます💪\n\n繋いでくださった @dabit3 さん、@kinopee_ai さん、本当にありがとうございます！！ https://t.co/0HVy3of4Tp",
+      "created_at": "Thu Sep 17 02:45:18 +0000 2026",
+      "likes": 40,
+      "views": "3738",
+      "url": "https://x.com/i/status/2100415770446762420",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSYs3jJa8AAs7lR.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSYs3jJa8AAs7lR.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2099267322783424868",
+        "author": "dabit3",
+        "name": "nader dabit",
+        "text": "The Devin Ambassador Program is looking for members in these cities:\n\nSeoul\nSan Francisco\nHong Kong\nNYC\nBangalore\nSeattle\nSingapore\nBerlin\nParis\nLos Angeles\nZurich\nBoston\nAustin\nAmsterdam\nMiami\nSydney\nHyderabad\nStockholm\nDublin\nDenver-Boulder\nChicago\nWashington DC\nMunich\nTaipei\nMumbai\nDelhi \nJakarta\nHo Chi Minh City\nMadrid\nBarcelona\nLisbon\nWarsaw\nTallinn\nCopenhagen\nMexico City\nBuenos Aires\nSalt Lake City\nAtlanta\n\nThat being said, if you're exceptional and AI-pilled location doesn't matter all that much!\n\nAmbassadors get perks like free Devin plans and credits, direct event support, support from the Cognition team,+ more. \n\nApplications open here:\nhttps://t.co/l01mwaNogK",
+        "created_at": "Sun Sep 13 22:41:46 +0000 2026",
+        "url": "https://x.com/dabit3/status/2099267322783424868",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": [],
+        "card": {
+          "name": "summary_large_image",
+          "title": "Community | Devin",
+          "description": "Programs and resources for builders, organizers, and educators who want to be part of the Devin community.",
+          "image_url": "https://pbs.twimg.com/card_img/2098123360529969156/X00oWSte?format=png&name=600x600",
+          "url": "https://t.co/l01mwaNogK",
+          "domain": "devin.ai"
+        }
+      },
+      "score": 47.415,
+      "summary": "我成为 Devin Ambassador 了！！\n\n想作为开发者长期为 Devin 的成长做贡献才去应募的！真心相信几年后它会成为世界第一的开发基础设施，所以会继续全押💪\n\n感谢牵线的 @dabit3 和 @kinopee_ai！！",
+      "recommend_reason": "一线重度用户拿到官方大使身份，侧面说明 Cognition 在扩社区与城市大使网络。",
+      "tags": [
+        "Devin",
+        "Cognition",
+        "Ambassador",
+        "开发者社区",
+        "AI编程"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2100412229216784397",
+      "author": "songguoxiansen",
+      "bio": "",
+      "text": "这视频发抖音应该能火吧 被我复刻成功了\n\n很简单，给原视频的人物换脸、服装\n\n人物使用Codex内置的图片生成 https://t.co/nDSJOUEC0V",
+      "created_at": "Thu Sep 17 02:31:13 +0000 2026",
+      "likes": 15,
+      "views": "1222",
+      "url": "https://x.com/i/status/2100412229216784397",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2100410706646663168/vid/avc1/360x270/h1IcofPOZtvFIkUE.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2100410706646663168/img/p1WYeZLKry-brqOM.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2100406693612126664",
+        "author": "songguoxiansen",
+        "name": "松果先森",
+        "text": "兄弟们，有了这套开源技术，我可以批量跑出100个爆款视频，可以起号了。\n\n我在油管找了一条百万播放的爆款知识短视频，把两个文件丢给 Codex：第一个是参考视频，第二个是对应的音频。\n\n调用了一个Skill，只给了它一个提示词：\n\n复刻这个视频，第一个是视频，第二个视频对应的音频，人物更换一个18岁马尾辫中国女生，语言换成中文  最简单的Clone可能换个人物就可以了。\n\n这里说的Clone，不是简单生成几个相似镜头，还可以更换人物、文案和素材等等。\n\n旁白说到哪个词时出现对应的字幕，哪句话应该切换B-roll，字幕如何配合人物的语气镜头之间怎样承接，这些都要能被AI理解和重新组织。\n\n整个过程使用的是开源的Hypit @hypitai 。这是一套给Codex、Claude Code这类Agent使用的视频工程系统， 可以把脚本、镜头、素材、字幕、配音和时间线变成可以统一控制、持续修改的工程。\n\n下面是参考视频和最终复刻的视频",
+        "created_at": "Thu Sep 17 02:09:14 +0000 2026",
+        "url": "https://x.com/songguoxiansen/status/2100406693612126664",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2100403303146496000/vid/avc1/300x270/Hr_rEbWjoZilQpCx.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2100403303146496000/img/kWgSRxiEuXAzX8fy.jpg"
+        ]
+      },
+      "score": 62.855,
+      "summary": "这视频发抖音应该能火吧 被我复刻成功了\n\n很简单，给原视频的人物换脸、服装\n\n人物使用Codex内置的图片生成",
+      "recommend_reason": "用开源 Hypit + Codex 复刻爆款知识短视频并换脸换装，是可复用的 Agent 视频工程案例。",
+      "tags": [
+        "Hypit",
+        "Codex",
+        "AI视频",
+        "短视频",
+        "Agent"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2100407090263335252",
+      "author": "xiaohu",
+      "bio": "",
+      "text": "推荐阅读和观看，FDE讲的最好的内容\n\n企业什么时候才真的需要 FDE？\n组建 FDE 团队前，需要先通过两道闸门...\n\nKevin Bai 现任职于 Anthropic 的FDE团队，他在 AI Engineer World's Fair 的《FDE 101》演讲中，围绕什么是 FDE、企业为什么需要它，以及为什么他判断 AI 时代会让更多公司采用它展开。\n\n此前他曾在 Palantir 从事相关工作，并作为首位成员加入 Rippling 的 FDE 团队，帮助团队在一年内扩展至约 25 人。",
+      "created_at": "Thu Sep 17 02:10:48 +0000 2026",
+      "likes": 26,
+      "views": "3774",
+      "url": "https://x.com/i/status/2100407090263335252",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2100405172824571904/vid/avc1/480x270/NprxgRsMZXwLiQYd.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2100405172824571904/img/EZd7vhA5MvJIVeyq.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 62.899,
+      "title": "Anthropic FDE Kevin Bai：企业何时真需要 FDE，以及 AI 时代为何会普及",
+      "summary": "小互推荐 AI Engineer World's Fair 上 Anthropic FDE Kevin Bai 的《FDE 101》：讲清 FDE 是什么、企业为何需要，以及为何判断 AI 时代更多公司会采用；Bai 曾在 Palantir、并作为首员把 Rippling FDE 做到约 25 人。文中强调组建 FDE 前要先过两道闸门。",
+      "recommend_reason": "一线 FDE 从业者把「什么时候真需要 FDE」讲清楚，比空喊 Agent 落地更有参考价值。",
+      "tags": [
+        "FDE",
+        "Anthropic",
+        "企业AI",
+        "Palantir",
+        "Rippling"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2100407022714028169",
+      "author": "LufzzLiz",
+      "bio": "",
+      "text": "美国政府网站上居然也用Qwen 了，但随后又从搜索菜单里消失了。\n据相关报道，9 月 16 日，https://t.co/JDi5kQkZgG 的文档搜索页面有五种模式，其中两项直接写着 Qwen3:0.6B 和 Hybrid Qwen3:0.6B。这个网站供公众检索美国联邦法规、公告和总统文件。\n到 9 月 17 日，页面只剩 Keyword Only 和 Semantic，也就是关键词搜索和语义搜索。两个 Qwen 选项都消失了。\n\n哈哈，笑死。难道是一不小心暴露了，改偷偷用？",
+      "created_at": "Thu Sep 17 02:10:32 +0000 2026",
+      "likes": 0,
+      "views": "853",
+      "url": "https://x.com/i/status/2100407022714028169",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSYjInObUAAHLOS.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSYjInObUAAHLOS.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 52.94,
+      "title": "美国联邦文件搜索站一度露出 Qwen3:0.6B 选项，次日又从菜单消失",
+      "summary": "据报道 9 月 16 日 federalregister.gov 文档搜索曾出现 Keyword/Semantic 之外的 Qwen3:0.6B 与 Hybrid Qwen3:0.6B 模式；9 月 17 日页面只剩 Keyword Only 与 Semantic，两个 Qwen 选项消失。作者调侃是否「暴露了又改偷偷用」。",
+      "recommend_reason": "开源模型现身美国政府站点菜单又迅速撤回，是值得记一笔的部署侧信号。",
+      "tags": [
+        "Qwen",
+        "美国政府",
+        "开源模型",
+        "联邦法规",
+        "部署"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2100397855106359701",
+      "author": "KinGao476942",
+      "bio": "",
+      "text": "有很多朋友的推特，爆了一条或者两条帖子之后，并不知道怎么去分析爆款的原因、并作出类似爆款。其实这个时候，可以让 ChatGPT/Codex 或接入 Codex 后的 Grok bot 来帮忙。\n\n比如，你可以把我这张爆款分析图喂给他，再附上你自己的爆款推特帖子截图，告诉他：请你按照参考图帮我进行一个分析，并制成类似的拆解效果。获得的一张结果剖析图之后，你还可以二次发推特，形成二次传播。\n\n这个方法来源于超级峰老师 @Mileson07 ，赶紧去试试吧！大家感兴趣推特涨粉也可以多关注他",
+      "created_at": "Thu Sep 17 01:34:06 +0000 2026",
+      "likes": 3,
+      "views": "538",
+      "url": "https://x.com/i/status/2100397855106359701",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSYcXF2bsAAx1gm.jpg",
+        "https://pbs.twimg.com/media/HSYcXF3a8AAA3tW.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSYcXF2bsAAx1gm.jpg",
+        "https://pbs.twimg.com/media/HSYcXF3a8AAA3tW.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 58.187,
+      "title": "用 ChatGPT/Codex/Grok bot 对照爆款拆解图，复盘自己的爆帖并二次传播",
+      "summary": "作者建议爆过一两帖后，把参考爆款分析图和自己的爆帖截图喂给 ChatGPT、Codex 或接入 Codex 的 Grok bot，按同样结构出拆解图，再二次发推形成传播；方法来自超级峰 @Mileson07。",
+      "recommend_reason": "把「爆款复盘」变成可复用的图示工作流，比只晒数据更可迁移。",
+      "tags": [
+        "Codex",
+        "ChatGPT",
+        "Grok",
+        "推特运营",
+        "爆款分析"
+      ],
+      "rank": 10
+    }
+  ],
+  "generated_at": "2026-09-17T04:10:29Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 10,
+    "last_batch_added": 10,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
