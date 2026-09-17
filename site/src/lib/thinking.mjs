@@ -58,8 +58,6 @@ export function thinkingSearchBlob(item) {
     item?.one_liner,
     item?.how,
     item?.example,
-    item?.category,
-    item?.id,
     ...(item?.tags ?? []),
   ]
     .filter(Boolean)

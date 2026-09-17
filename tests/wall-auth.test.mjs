@@ -212,7 +212,7 @@ test("_routes.json 不得把锁定静态资源排除出 Functions", async () => 
   for (const rule of routes.exclude) {
     assert.ok(allowed.has(rule), `意外的 exclude: ${rule}`);
   }
-  assert.ok(!routes.exclude.some((rule) => rule.includes("login") || rule.includes("covers") || rule.includes("skills")));
+  assert.ok(!routes.exclude.some((rule) => rule.includes("login") || rule.includes("covers") || rule.includes("skills") || rule.includes("thinking")));
 });
 
 test("错误恢复邮箱也返回通用成功且不发信", async () => {
