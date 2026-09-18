@@ -1,14 +1,271 @@
 {
   "source": "AI Frontier Radar",
   "title": "新产品",
-  "updated_at": "2026-09-17T08:20:00+08:00",
-  "count": 75,
+  "updated_at": "2026-09-18T08:20:00+08:00",
+  "count": 87,
   "items": [
+    {
+      "id": "mcpjam",
+      "name": "MCPJam",
+      "score": 74,
+      "status": "new",
+      "first_detected": "2026-09-18T08:20:00+08:00",
+      "last_updated": "2026-09-18T08:20:00+08:00",
+      "summary": "跨 ChatGPT/Claude/Copilot 的 MCP user-testing / evals / CI 门禁。",
+      "novelty": "MCP 出货 playbook：工具在真实客户端里是否真能成功。",
+      "urls": {
+        "producthunt": "https://www.producthunt.com/products/mcpjam-inspector",
+        "site": "https://www.mcpjam.com/"
+      },
+      "tags": [
+        "MCP",
+        "Evals",
+        "CI",
+        "Product Hunt"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "text-agent-store",
+      "name": "Text Agent Store",
+      "score": 78,
+      "status": "new",
+      "first_detected": "2026-09-18T08:20:00+08:00",
+      "last_updated": "2026-09-18T08:20:00+08:00",
+      "summary": "SMS/iMessage agent 市集，一键 sms: 深链——零安装 agent 发现面。",
+      "novelty": "对人的 agent commerce/发现，与 ZeroClick「卖给 agent」互补。",
+      "urls": {
+        "producthunt": "https://www.producthunt.com/products/text-agent-store"
+      },
+      "tags": [
+        "Agent Commerce",
+        "SMS",
+        "Marketplace",
+        "Product Hunt"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "opyt",
+      "name": "Opyt",
+      "score": 81,
+      "status": "new",
+      "first_detected": "2026-09-18T08:20:00+08:00",
+      "last_updated": "2026-09-18T08:20:00+08:00",
+      "summary": "MIT MCP：把关注流变成本地 SQLite KB，自主发现循环持续追问与扩面。",
+      "novelty": "attention-as-context：从已有关注教 agent，而非另开聊天壳。",
+      "urls": {
+        "producthunt": "https://www.producthunt.com/products/opyt",
+        "site": "https://pypi.org/project/opyt/"
+      },
+      "tags": [
+        "MCP",
+        "OSS",
+        "Context",
+        "Product Hunt"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "openai-astra-clinicians",
+      "name": "ChatGPT for Clinicians",
+      "score": 81,
+      "status": "new",
+      "first_detected": "2026-09-18T08:20:00+08:00",
+      "last_updated": "2026-09-18T08:20:00+08:00",
+      "summary": "认证美国临床医生可通过 ChatGPT for Clinicians 免费获得 GPT-6 Astra (Pro)。",
+      "novelty": "医疗垂直免费 Astra Pro 准入，与 Astra for Law 形成双行业 SKU 证据。",
+      "urls": {
+        "x": "https://x.com/sama/status/2100448739328487452"
+      },
+      "tags": [
+        "OpenAI",
+        "Astra",
+        "医疗",
+        "Clinicians"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "anthropic-lsvp-mythos",
+      "name": "Anthropic LSVP + Mythos",
+      "score": 84,
+      "status": "new",
+      "first_detected": "2026-09-18T08:20:00+08:00",
+      "last_updated": "2026-09-18T08:20:00+08:00",
+      "summary": "Life Sciences Verification Program：生命科学团队在新护栏下使用模型——首次包括 Mythos；beta 面向学术/初创/药企，后续扩 Pro/Max。",
+      "novelty": "高能力模型以受控验证计划放进生命科学工作流。",
+      "urls": {
+        "x": "https://x.com/AnthropicAI/status/2100646837799834096"
+      },
+      "tags": [
+        "Anthropic",
+        "Mythos",
+        "生命科学",
+        "LSVP",
+        "门控"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "browserskill",
+      "name": "BrowserSkill",
+      "score": 85,
+      "status": "new",
+      "first_detected": "2026-09-18T08:20:00+08:00",
+      "last_updated": "2026-09-18T08:20:00+08:00",
+      "summary": "腾讯开源：CLI+扩展让 Cursor/Claude Code/Codex 等复用已登录浏览器，独立 Agent Window、标签借还、验证码 HITL；PH Sep17 约 64 票。",
+      "novelty": "真实会话上的 agent computer + 显式人机检查点，而非无头浏览器。",
+      "urls": {
+        "producthunt": "https://www.producthunt.com/products/browserskill",
+        "github": "https://github.com/Tencent/BrowserSkill"
+      },
+      "tags": [
+        "Tencent",
+        "Browser",
+        "HITL",
+        "Agent",
+        "OSS"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "bitrise-remote-dev-environments",
+      "name": "Bitrise Remote Dev Environments",
+      "score": 86,
+      "status": "new",
+      "first_detected": "2026-09-18T08:20:00+08:00",
+      "last_updated": "2026-09-18T08:20:00+08:00",
+      "summary": "与 Bitrise CI 同构的云 Mac/Linux，coding agents 经开源 MCP 并行拉起，可归档/恢复磁盘状态——生产同构的 agent 电脑舰队。",
+      "novelty": "CI 同构 + MCP + 状态归档，而不是通用 Codespace。",
+      "urls": {
+        "producthunt": "https://www.producthunt.com/products/bitrise",
+        "site": "https://bitrise.io/platform/remote-dev-environments"
+      },
+      "tags": [
+        "Bitrise",
+        "MCP",
+        "Agent Computer",
+        "CI",
+        "云Mac"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "kimi-financial-industry-ai-solution",
+      "name": "Kimi 金融行业 AI 解决方案",
+      "score": 86,
+      "status": "new",
+      "first_detected": "2026-09-18T08:20:00+08:00",
+      "last_updated": "2026-09-18T08:20:00+08:00",
+      "summary": "Moonshot/Kimi：10+ 权威数据源经 MCP 接入，9 项金融 Skill，与中信建投共建风险评估/合规网关；个人可装技能，机构侧 Hosted Agents。",
+      "novelty": "强监管垂直：权威数据 MCP + 可安装 Skill + 可审计合规网关一体交付。",
+      "urls": {
+        "official": "https://www.kimi.com/news/kimi-financial-industry-ai-solution",
+        "site": "https://www.kimi.com/solutions/financial-services"
+      },
+      "tags": [
+        "Kimi",
+        "Moonshot",
+        "金融",
+        "Skills",
+        "MCP",
+        "合规"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "chatgpt-microsoft-office-integration",
+      "name": "ChatGPT in Microsoft Word",
+      "score": 87,
+      "status": "new",
+      "first_detected": "2026-09-18T08:20:00+08:00",
+      "last_updated": "2026-09-18T08:20:00+08:00",
+      "summary": "ChatGPT 嵌入 Word（PPT/Excel 同步），全套餐含 Free 有限额；Business/Enterprise 两周 GPT-5.6 Sol in Word 免费预览且不计用量。",
+      "novelty": "办公套件内嵌成为默认分发面，并露出 GPT-5.6 Sol 命名。",
+      "urls": {
+        "x": "https://x.com/ChatGPT/status/2100661995762798916"
+      },
+      "tags": [
+        "ChatGPT",
+        "Microsoft",
+        "Office",
+        "分发",
+        "GPT-5.6 Sol"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "weave-router-2-0",
+      "name": "Weave Router 2.0",
+      "score": 91,
+      "status": "new",
+      "first_detected": "2026-09-18T08:20:00+08:00",
+      "last_updated": "2026-09-18T08:20:00+08:00",
+      "summary": "开源订阅/配额感知 coding-agent 路由器：按复杂度与缓存在 Claude Code/Codex/Cursor 间切换，跨 Claude↔GPT harness；PH Sep16 #1（约 321 票）。",
+      "novelty": "把「机器/订阅定价 + 跨 harness 路由」做成可插拔控制面，而非又一个聊天壳。",
+      "urls": {
+        "producthunt": "https://www.producthunt.com/products/weave",
+        "site": "https://weaveos.com/products/router"
+      },
+      "tags": [
+        "Product Hunt",
+        "Router",
+        "Harness",
+        "订阅",
+        "Coding Agent"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "claude-code-projects-redesigned",
+      "name": "Claude Code Projects（重设计）",
+      "score": 92,
+      "status": "new",
+      "first_detected": "2026-09-18T08:20:00+08:00",
+      "last_updated": "2026-09-18T08:20:00+08:00",
+      "summary": "Anthropic 把 Projects 做成协调器：一会话拆目标、开并行云端 threads、共享 memory/artifacts，关电脑后仍继续；部分 Pro/Max 云会话 beta，本周扩量，本地工具随后。",
+      "novelty": "官方 coding agent 把多会话/多分支升级为带共享记忆的项目协调器原语。",
+      "urls": {
+        "official": "https://claude.com/blog/projects-redesigned",
+        "x": "https://x.com/claudeai/status/2100632677904744716"
+      },
+      "tags": [
+        "Anthropic",
+        "Claude Code",
+        "Projects",
+        "多Agent",
+        "持久执行"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "openai-astra-for-law",
+      "name": "Astra for Law",
+      "score": 93,
+      "status": "new",
+      "first_detected": "2026-09-18T08:20:00+08:00",
+      "last_updated": "2026-09-18T08:20:00+08:00",
+      "summary": "OpenAI 以 GPT-6 Astra 打包法律垂直：2.3亿+判例/法规检索索引、法律分析指令、律所 Trusted Access/ZDR，以及 26 个合作方 + 社区插件；API gpt-6-astra-law 跟进。",
+      "novelty": "前沿模型按行业做成可治理 foundation（索引+指令+插件+保密），而不只卖通用 Astra。",
+      "urls": {
+        "official": "https://openai.com/index/astra-for-law/",
+        "x": "https://x.com/OpenAI/status/2100679992720142459"
+      },
+      "tags": [
+        "OpenAI",
+        "Astra",
+        "法律",
+        "Skills",
+        "垂直SKU"
+      ],
+      "homepage": true
+    },
     {
       "id": "claude-cowork-chat-merge",
       "name": "Claude Cowork × Chat 合并",
       "score": 92,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-17T08:20:00+08:00",
       "last_updated": "2026-09-17T08:20:00+08:00",
       "summary": "Anthropic 将 Claude Cowork 与 chat 合并为单一 Claude：随问随办、关电脑后仍继续执行；不确定时追问并由用户拍板。Design/Slides/Docs 对付费计划进 beta，Pro/Max 数周 rollout。",
@@ -23,13 +280,13 @@
         "持久执行",
         "Agent"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "openai-chatgpt-sponsored-agents",
       "name": "ChatGPT Sponsored Agents",
       "score": 91,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-17T08:20:00+08:00",
       "last_updated": "2026-09-17T08:20:00+08:00",
       "summary": "OpenAI 测试 Sponsored Agents：用户点击广告后进入商家赞助、明确标注的独立 agent 对话，追问适配性后再跳转官网；同步 ChatGPT Work 自然语言建广告，首批接入 HubSpot 与 Shopify。",
@@ -44,13 +301,13 @@
         "Sponsored Agents",
         "商业"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "grok-build-memory",
       "name": "Grok Build Memory",
       "score": 88,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-17T08:20:00+08:00",
       "last_updated": "2026-09-17T08:20:00+08:00",
       "summary": "xAI 为 Grok Build 发布跨会话 Memory：后台抽取约定/决策/项目事实为 markdown 主题；/dream 合并观测，/memory 浏览；后续会话动手前读取相关主题。",
@@ -65,13 +322,13 @@
         "harness",
         "markdown"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "zeroclick",
       "name": "ZeroClick",
       "score": 87,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-17T08:20:00+08:00",
       "last_updated": "2026-09-17T08:20:00+08:00",
       "summary": "把任意 API/商品包成面向 AI agents 的可发现服务（x402 & MPP），含机器可读发现、Stripe/USDC 结算、agent ID 与交易分析——卖给 agent 的店面。",
@@ -87,13 +344,13 @@
         "MPP",
         "结算"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "doubao-seed-2-1-pro-0915",
       "name": "Doubao-Seed-2.1-pro 0915",
       "score": 84,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-17T08:20:00+08:00",
       "last_updated": "2026-09-17T08:20:00+08:00",
       "summary": "火山引擎将 Doubao-Seed-2.1-pro 更新至 0915：Agent 任务证据溯源/权威检索/核验、幻觉下降；多模态 Coding 与长报告自拆解；火山方舟/豆包工作/TRAE 同步，Evolving 同接入点。",
@@ -109,13 +366,13 @@
         "Agent",
         "Coding"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "muse-code-windows",
       "name": "Muse Code for Windows",
       "score": 81,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-17T08:20:00+08:00",
       "last_updated": "2026-09-17T08:20:00+08:00",
       "summary": "Meta Muse Code 原生上 Windows（无需 WSL）：PowerShell 友好、默认沙箱、x64/ARM64、零管理员安装；即将支持 intersession messaging。同期 Plugins marketplace 上线。",
@@ -131,7 +388,7 @@
         "Plugins",
         "sandbox"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "twigg",
@@ -333,11 +590,11 @@
     {
       "id": "gpt-6-astra",
       "name": "GPT-6 Astra",
-      "score": 92,
+      "score": 93,
       "status": "watching",
       "first_detected": "2026-09-04T08:57:00+08:00",
-      "last_updated": "2026-09-04T08:57:00+08:00",
-      "summary": "OpenAI 新一代前沿模型分阶段发货：电脑操控/浏览/软件工程/网络/科学 SOTA；先限组织，数日内 Plus/Pro/Biz/Ent + API + AWS。Critical 网络能力与错位监控同捆。",
+      "last_updated": "2026-09-18T08:20:00+08:00",
+      "summary": "GPT-6 Astra 继续分阶段发货；同窗落下 Astra for Law 垂直 SKU 与 Clinicians 免费 Pro 通道——前沿模型开始按行业配置发货，而不只是通用档位扩量。",
       "novelty": "第一款带着 Critical cyber 门控真正开量的前沿模型，不是又一次参数秀",
       "urls": {
         "site": "https://openai.com/index/safety-overview-gpt-6-astra/",

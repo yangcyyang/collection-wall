@@ -1,9 +1,79 @@
 {
   "source": "AI Frontier Radar",
   "title": "观察名单",
-  "updated_at": "2026-09-17T08:20:00+08:00",
-  "count": 33,
+  "updated_at": "2026-09-18T08:20:00+08:00",
+  "count": 39,
   "items": [
+    {
+      "id": "kimi-finance-compliance-gateway",
+      "title": "Kimi 金融合规网关与 Hosted Agents 的机构留存",
+      "why": "中国侧 skills×合规交付能否在券商/资管站住。",
+      "since": "2026-09-18T08:20:00+08:00",
+      "last_updated": "2026-09-18T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "skills-as-distribution",
+        "frontier-vertical-model-skus"
+      ]
+    },
+    {
+      "id": "astra-clinicians-expansion",
+      "title": "ChatGPT for Clinicians 是否扩国别/专科并产品化",
+      "why": "与 Law 并列的医疗 SKU 证据；需看是否从免费通道变成正式产品线。",
+      "since": "2026-09-18T08:20:00+08:00",
+      "last_updated": "2026-09-18T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "frontier-vertical-model-skus"
+      ]
+    },
+    {
+      "id": "anthropic-pace-peer-lab-metrics",
+      "title": "其他前沿实验室是否跟发 Anthropic 式公开节奏三指标",
+      "why": "单方仪表不够；跨实验室可对标才会真正缩小信息差。",
+      "since": "2026-09-18T08:20:00+08:00",
+      "last_updated": "2026-09-18T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "frontier-pacing-embedded-evaluators"
+      ]
+    },
+    {
+      "id": "weave-router-adoption",
+      "title": "Weave Router 2.0 是否成为默认跨订阅 harness 路由",
+      "why": "PH #1 热度之后，要看真实 Claude↔Codex 切换留存与配额节省证据。",
+      "since": "2026-09-18T08:20:00+08:00",
+      "last_updated": "2026-09-18T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "harness-control-plane",
+        "coding-agent-supply-chain"
+      ]
+    },
+    {
+      "id": "claude-projects-local-rollout",
+      "title": "Claude Projects 本地工具与 Team/Enterprise 何时普开",
+      "why": "云端 threads 已宣布；本机文件/内网可达才是持久电脑闭环。",
+      "since": "2026-09-18T08:20:00+08:00",
+      "last_updated": "2026-09-18T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "agent-persistent-computer",
+        "multi-agent-team-orchestration"
+      ]
+    },
+    {
+      "id": "astra-for-law-uptake",
+      "title": "Astra for Law Trusted Access / API 是否走出首批律所",
+      "why": "垂直 SKU 模板能否变成可复制的专业交付，取决于律所采纳与 API GA。",
+      "since": "2026-09-18T08:20:00+08:00",
+      "last_updated": "2026-09-18T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "frontier-vertical-model-skus",
+        "skills-as-distribution"
+      ]
+    },
     {
       "id": "claude-cowork-merge-rollout",
       "title": "Claude Cowork×chat 合并在 Pro/Max 的真实 rollout 与关盖续跑可靠性",
@@ -108,16 +178,17 @@
     {
       "id": "openai-devday-shipping-wave",
       "title": "sama 主菜改到下周：本周 Sponsored Agents 是否算波次？DevDay 还剩什么",
-      "why": "Altman 称「this week 最想发的主菜」改到下周；同窗口 OpenAI 已发 Sponsored Agents 与错位披露框架。需分清波次里的已发货 vs 延期主菜，并对照 DevDay 议程。",
+      "why": "sama 称主菜改到下周后，本窗又发 Astra for Law / Clinicians / Word 内嵌——需继续分清垂直 SKU 波次 vs 延期「主菜」与 DevDay 议程。",
       "since": "2026-09-16T08:20:00+08:00",
-      "last_updated": "2026-09-17T08:20:00+08:00",
+      "last_updated": "2026-09-18T08:20:00+08:00",
       "status": "watching",
       "related_signals": [
         "harness-control-plane",
         "agent-flash-over-pro-economics",
         "skills-as-distribution",
         "frontier-pacing-embedded-evaluators",
-        "agent-commerce-surfaces"
+        "agent-commerce-surfaces",
+        "frontier-vertical-model-skus"
       ]
     },
     {
@@ -307,9 +378,9 @@
     {
       "id": "pace-embedded-evaluators",
       "since": "2026-09-14T08:20:00+08:00",
-      "last_updated": "2026-09-16T08:20:00+08:00",
+      "last_updated": "2026-09-18T08:20:00+08:00",
       "title": "Anthropic/OpenAI 嵌入式第三方评估者何时真正进驻",
-      "why": "OpenAI 已确认与 Anthropic/Google 磋商 standards body；仍待章程与真正进驻的第三方评估者。",
+      "why": "Anthropic 已公开内部节奏三指标并承诺第三方嵌入；仍需看 OpenAI/Google 是否同发可对标仪表，以及评估员是否真正进驻流程。",
       "status": "watching",
       "related_signals": [
         "frontier-pacing-embedded-evaluators",

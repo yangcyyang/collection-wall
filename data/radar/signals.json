@@ -1,19 +1,74 @@
 {
   "source": "AI Frontier Radar",
   "title": "前沿信号",
-  "updated_at": "2026-09-17T08:20:00+08:00",
-  "count": 13,
+  "updated_at": "2026-09-18T08:20:00+08:00",
+  "count": 14,
   "items": [
+    {
+      "id": "frontier-vertical-model-skus",
+      "title": "前沿模型开始按行业打成可治理的垂直 SKU",
+      "type": "emerging_signal",
+      "score": 88,
+      "confidence": "medium",
+      "status": "new",
+      "first_detected": "2026-09-18T08:20:00+08:00",
+      "last_updated": "2026-09-18T08:20:00+08:00",
+      "summary": "OpenAI 发布 Astra for Law：GPT-6 Astra + 2.3亿+法律检索索引 + 律所 Trusted Access/ZDR +插件生态；同窗 ChatGPT for Clinicians 向认证美国临床医生免费开放 Astra Pro。Kimi 金融方案则以 Skill+MCP+合规网关交付强监管垂直。前沿模型不再只卖通用档位，而是按行业打包成可审计的 foundation。",
+      "why_it_matters": "若「模型×权威数据×插件×治理」成为默认交付单元，分发与合规会从通用 API 转向垂直 SKU——这是专业市场的新产品形态，而不只是又一份行业 prompt。",
+      "tags": [
+        "OpenAI",
+        "Astra",
+        "垂直SKU",
+        "法律",
+        "医疗",
+        "金融",
+        "Kimi",
+        "Skills"
+      ],
+      "evidence": [
+        {
+          "url": "https://openai.com/index/astra-for-law/",
+          "source": "official",
+          "note": "Astra for Law 官方发布",
+          "date": "2026-09-17"
+        },
+        {
+          "url": "https://x.com/OpenAI/status/2100679992720142459",
+          "source": "official",
+          "note": "OpenAI：Astra for Law + 插件生态",
+          "date": "2026-09-18T04:15:13+08:00"
+        },
+        {
+          "url": "https://x.com/sama/status/2100448739328487452",
+          "source": "reliable",
+          "note": "ChatGPT for Clinicians：认证医生免费 Astra Pro",
+          "date": "2026-09-17T12:56:18+08:00"
+        },
+        {
+          "url": "https://www.kimi.com/news/kimi-financial-industry-ai-solution",
+          "source": "official",
+          "note": "Kimi 金融行业 AI 解决方案",
+          "date": "2026-09-17"
+        }
+      ],
+      "watch_next": [
+        "Astra for Law 是否扩出 Trusted Access 首批律所与 API GA",
+        "Clinicians 通道是否扩到更多国家/专科",
+        "其他实验室是否跟进「前沿模型×行业 SKU」模板"
+      ],
+      "judgment_changes": [],
+      "homepage": true
+    },
     {
       "id": "agent-commerce-surfaces",
       "title": "Agent 正在变成可投放、可售卖的商务界面",
       "type": "emerging_signal",
-      "score": 86,
+      "score": 88,
       "confidence": "medium",
-      "status": "new",
+      "status": "strengthening",
       "first_detected": "2026-09-17T08:20:00+08:00",
-      "last_updated": "2026-09-17T08:20:00+08:00",
-      "summary": "OpenAI ChatGPT Sponsored Agents 让广告点击进入商家赞助 agent 对话（HubSpot/Shopify）；Product Hunt 上 ZeroClick 把任意 API/商品包成 x402 & MPP 可发现、可结算服务，面向「卖给 AI agents」。两条路径同时出现：对人投放的赞助 agent，以及对 agent 的机器可读店面。",
+      "last_updated": "2026-09-18T08:20:00+08:00",
+      "summary": "Sponsored Agents（对人投放的赞助 agent）与 ZeroClick（卖给 agent 的 x402 店面）之外，PH 上 Text Agent Store 试探 SMS/iMessage 零安装 agent 市集——agent 既是广告落地页、采购方，也开始有面向人的发现/交易面。",
       "why_it_matters": "如果 agent 既是广告落地页又是采购方，分发与计价会从座位/token 转向会话转化与机器结算——这是新商业原语，而不只是又一个聊天插件。",
       "tags": [
         "Agent",
@@ -24,6 +79,12 @@
         "ZeroClick"
       ],
       "evidence": [
+        {
+          "url": "https://www.producthunt.com/products/text-agent-store",
+          "source": "producthunt",
+          "note": "Text Agent Store：可短信触达的 agent 市集",
+          "date": "2026-09-15"
+        },
         {
           "url": "https://openai.com/index/reimagining-advertising-with-ai/",
           "source": "official",
@@ -49,18 +110,18 @@
         "是否出现标准 agent 商品描述/发现协议"
       ],
       "judgment_changes": [],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "agent-persistent-computer",
       "title": "智能体正在拥有自己的长期计算环境",
       "type": "pattern",
-      "score": 98,
+      "score": 99,
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-17T08:20:00+08:00",
-      "summary": "Claude 官方把 Cowork 与 chat 合并为单一 Claude：随问随办、关电脑后仍继续执行，不确定时追问并由用户拍板；Cowork 的 chats/projects/artifacts/connectors/skills 原样保留。叠加 jurniti microVM always-on、Cursor Projects、Muse Secure VM——「关盖还在跑」的持久 agent 电脑从品类实验变成主流产品入口。",
+      "last_updated": "2026-09-18T08:20:00+08:00",
+      "summary": "Claude Code Projects 重设计：从一会话调度并行云端 threads（各为独立会话/分支），共享 memory 与 artifact library，关电脑后仍继续，可从手机督导；本周对部分 Pro/Max 云会话扩量，本地工具随后。叠加前日 Cowork×chat 合并、jurniti / Cursor Projects / Muse Secure VM——「关盖还在跑」的持久 agent 电脑已成主流产品原语。",
       "why_it_matters": "叙事从「模型会点鼠标」变成「每人一台隔离 VM 里的代理」。Sentinel/审批/审计说明大众 agent 的产品化关键是安全电脑，而不是更长的聊天窗口。",
       "tags": [
         "智能体",
@@ -73,6 +134,18 @@
         "Sentinel"
       ],
       "evidence": [
+        {
+          "url": "https://x.com/claudeai/status/2100632677904744716",
+          "source": "official",
+          "note": "claudeai：Projects 关电脑后并行 threads 继续跑",
+          "date": "2026-09-18T01:07:12+08:00"
+        },
+        {
+          "url": "https://claude.com/blog/projects-redesigned",
+          "source": "official",
+          "note": "Claude Code Projects 重做：协调器+并行云线程+共享记忆",
+          "date": "2026-09-17"
+        },
         {
           "url": "https://x.com/claudeai/status/2100258490740539730",
           "source": "official",
@@ -339,12 +412,12 @@
       "id": "harness-control-plane",
       "title": "编程运行时在加控制面，不是发新模型",
       "type": "pattern",
-      "score": 96,
+      "score": 97,
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-08-28T00:00:00+08:00",
-      "last_updated": "2026-09-16T08:20:00+08:00",
-      "summary": "控制面继续下沉到运维可观测：Claude Code v2.1.273 加 LLM gateway 提示头、MCP 断连通知、Remote Control→本机后台 fork；Buddy 把流水线/部署/sandbox 做成 Remote MCP。Harness 不只编排模型，还要管 agent 的 DevOps 面。",
+      "last_updated": "2026-09-18T08:20:00+08:00",
+      "summary": "Weave Router 2.0 按复杂度/配额/缓存在 Claude↔Codex/Cursor 间路由；Bitrise Remote Dev Environments 用 MCP 拉起与 CI 同构的云 Mac/Linux；Claude Projects 把协调器做成产品原语。控制面继续从「编排模型」扩到「路由订阅 + 生产同构电脑」。",
       "why_it_matters": "第三方不必自建控制面即可嵌入同一套 agent loop；许可/沙箱/会话成为平台原语，而不只是应用层胶水。",
       "tags": [
         "运行时",
@@ -357,6 +430,18 @@
         "沙箱"
       ],
       "evidence": [
+        {
+          "url": "https://bitrise.io/platform/remote-dev-environments",
+          "source": "product",
+          "note": "Bitrise RDE：CI 同构云电脑 + MCP 给 agents",
+          "date": "2026-09-17"
+        },
+        {
+          "url": "https://weaveos.com/products/router",
+          "source": "product",
+          "note": "Weave Router 2.0：订阅/配额感知 coding-agent 路由",
+          "date": "2026-09-16"
+        },
         {
           "url": "https://buddy.works/docs/ai-agents/mcp",
           "source": "official",
@@ -476,7 +561,7 @@
         "Agents API 出公测后的定价与配额",
         "更多 IDE/平台是否跟进「Projects 式」常驻 coordinator"
       ],
-      "homepage": false,
+      "homepage": true,
       "judgment_changes": [
         {
           "date": "2026-09-01T08:50:00+08:00",
@@ -776,12 +861,12 @@
       "id": "frontier-pacing-embedded-evaluators",
       "title": "前沿实验室开始用「嵌入式第三方评估」来给能力增速踩刹车",
       "type": "pattern",
-      "score": 97,
+      "score": 98,
       "confidence": "high",
-      "status": "strengthening",
+      "status": "confirmed_trend",
       "first_detected": "2026-09-14T08:20:00+08:00",
-      "last_updated": "2026-09-17T08:20:00+08:00",
-      "summary": "OpenAI 发布模型 misalignment 跟踪/调查/披露框架，并公开近六个月六份行为报告（未完全解释也先披露）；同日 DeepMind Institute 上线，Hassabis/Legg/Manyika 主持 AGI 跨学科公开辩论。叠加前日三家 standards body 磋商与 Altman safety cases——pacing 从口头表态推进到可检验披露制度与常设治理平台。",
+      "last_updated": "2026-09-18T08:20:00+08:00",
+      "summary": "Anthropic 公开三项可对标的实验室节奏度量：AI 完成多少 AI R&D、agent 被监管得如何、算力如何分配，并承诺嵌入多组织第三方评估员；叠加 OpenAI misalignment 披露框架与 DeepMind Institute——pacing 从口头表态推进到可复述的生产过程指标与常设治理平台。",
       "why_it_matters": "pacing 从「承诺让评估者进驻」推进到「能力跃迁前的可审计工件（safety cases）」——把放慢做成研发门控，而不只是发布门控。",
       "tags": [
         "Pacing",
@@ -793,6 +878,18 @@
         "治理"
       ],
       "evidence": [
+        {
+          "url": "https://x.com/AnthropicAI/status/2100684274114699295",
+          "source": "official",
+          "note": "AnthropicAI 公开三项前沿进度度量",
+          "date": "2026-09-18T04:32:14+08:00"
+        },
+        {
+          "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
+          "source": "official",
+          "note": "Anthropic：R&D 自动化 / agent 监督 / 算力分配三指标",
+          "date": "2026-09-17"
+        },
         {
           "url": "https://deepmind.google/institute/",
           "source": "official",
@@ -1089,12 +1186,12 @@
       "id": "skills-as-distribution",
       "title": "技能正在变成智能体能力的分发层",
       "type": "pattern",
-      "score": 95,
+      "score": 97,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-17T08:20:00+08:00",
-      "summary": "OpenAI 推出 ChatGPT Sponsored Agents：广告点进商家赞助、明确标注的独立 agent 对话（HubSpot/Shopify 首批）；Muse Code 上线 plugins marketplace（能力审查 /plugins）。叠加 Salesforce×Claude skills、WhatsApp/Buddy MCP——skills/MCP/赞助 agent 同时覆盖垂直工作流、平台 ops 与广告转化面。",
+      "last_updated": "2026-09-18T08:20:00+08:00",
+      "summary": "OpenAI Astra for Law 以 26 个合作方 + 47 个社区插件把法律工作流当分发面；Kimi 金融方案上线 9 项 Skill + 10+ 数据源 MCP + 合规网关。叠加 Sponsored Agents、Muse plugins、Salesforce×Claude——技能/插件正在成为垂直能力的默认分发层。",
       "why_it_matters": "第四个命令行不值钱。可安装的技能和模板才是分发。企业插件市场把同一层做成了日常同步的软件包。",
       "tags": [
         "技能",
@@ -1102,6 +1199,18 @@
         "分发"
       ],
       "evidence": [
+        {
+          "url": "https://www.kimi.com/news/kimi-financial-industry-ai-solution",
+          "source": "official",
+          "note": "Kimi 金融：9 Skill + MCP 数据源 + 合规网关",
+          "date": "2026-09-17"
+        },
+        {
+          "url": "https://openai.com/index/astra-for-law/",
+          "source": "official",
+          "note": "Astra for Law：法律插件生态 + Trusted Access",
+          "date": "2026-09-17"
+        },
         {
           "url": "https://x.com/claireszhou/status/2100088731189616884",
           "source": "reliable",
@@ -1311,7 +1420,7 @@
         "是否支持 Linux",
         "会不会成为本地执行记录的标准"
       ],
-      "homepage": true,
+      "homepage": false,
       "judgment_changes": [
         {
           "at": "2026-09-04T08:57:00+08:00",
@@ -1426,12 +1535,12 @@
       "id": "physical-mcp-mhs",
       "title": "屏幕/物理操控开始长出「可声明的自动化边界」",
       "type": "emerging_signal",
-      "score": 78,
+      "score": 83,
       "confidence": "medium",
       "status": "strengthening",
       "first_detected": "2026-08-27T00:00:00+08:00",
-      "last_updated": "2026-09-15T08:20:00+08:00",
-      "summary": "字节豆包手机助手消费版同日发布 SAEP（Screen Automation Execution Protocol）：第三方 App 可声明允许/拒绝 AI 读屏与拟点击；明确拒绝则不执行。相对 MCP（App 主动开接口），SAEP 是 GUI 自动化的否决/同意层。手机端 computer-use 从「能控」转向「可协商边界」。",
+      "last_updated": "2026-09-18T08:20:00+08:00",
+      "summary": "腾讯开源 BrowserSkill：CLI+扩展让 shell agent 复用已登录 Chrome/Edge，独立 Agent Window、显式借还标签页、验证码/登录 HITL——与豆包 SAEP 的「可声明自动化边界」同向：真实 GUI 会话开始长出可协商的人机检查点。",
       "why_it_matters": "没有同意层的手机 agent 不可规模化；SAEP 类协议可能成为移动端 GUI agent 的合规与分发前提。",
       "tags": [
         "SAEP",
@@ -1443,6 +1552,12 @@
         "MHS"
       ],
       "evidence": [
+        {
+          "url": "https://github.com/Tencent/BrowserSkill",
+          "source": "oss",
+          "note": "BrowserSkill：真实已登录浏览器借给 agents + HITL",
+          "date": "2026-09-17"
+        },
         {
           "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
           "source": "official",
