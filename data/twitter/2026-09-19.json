@@ -1,0 +1,576 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-19",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2101068283101536495",
+      "author": "bindureddy",
+      "bio": "CEO of @abacusai  - a powerful AI Agent and SuperComputer - Build your company on Abacus AI, ex-AWS & Google",
+      "text": "An Astra-level model that is 5x cheaper will be earth-shattering\n\nRumored Gemini 4 Pro pricing\n\n$3 for 1M input\n$12 for 1M output",
+      "likes": 22,
+      "retweets": 1,
+      "replies": 9,
+      "views": 1256,
+      "created_at": "Fri Sep 18 21:58:09 +0000 2026",
+      "url": "https://x.com/bindureddy/status/2101068283101536495",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "title": null,
+      "summary": "一个 Astra 级却便宜 5 倍的模型会地动山摇。\n\n传闻中的 Gemini 4 Pro 定价\n\n输入 \\$3 / 百万 token\n输出 \\$12 / 百万 token",
+      "recommend_reason": "价格传闻牵动企业选型与 Agent 成本模型，值得跟踪验证。",
+      "tags": [
+        "Gemini",
+        "定价",
+        "Astra",
+        "API"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2101039819870937247",
+      "author": "AnthropicAI",
+      "bio": "We're an AI safety and research company that builds reliable, interpretable, and steerable AI systems. Talk to our AI assistant @claudeai on https://t.co/FhDI3KQh0n.",
+      "text": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years. https://t.co/SHVzjpgnfx",
+      "likes": 1314,
+      "retweets": 127,
+      "replies": 214,
+      "views": 197694,
+      "created_at": "Fri Sep 18 20:05:03 +0000 2026",
+      "url": "https://x.com/AnthropicAI/status/2101039819870937247",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "Partnering with Accenture on embedded evaluation",
+        "description": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to...",
+        "image_url": "https://pbs.twimg.com/card_img/2099515304556867585/38sLnK0h?format=jpg&name=600x600",
+        "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+        "domain": "www.anthropic.com"
+      },
+      "quoted_tweet": null,
+      "title": "Anthropic 携手埃森哲做前沿模型独立评测，双方五年拟各投至少 10 亿美元",
+      "summary": "Anthropic 宣布与 Accenture 合作，在公司内部嵌入独立评测能力；双方预期未来五年在该方向至少各投入 10 亿美元，落实「把评估方嵌进实验室」的承诺。",
+      "recommend_reason": "把第三方评测做成真金白银的长期建制，而非公关声明，是前沿实验室治理信号。",
+      "tags": [
+        "Anthropic",
+        "AI治理",
+        "评测",
+        "Accenture"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2101029005159805101",
+      "author": "dotey",
+      "bio": "AI Engineer, dedicated to learning and disseminating knowledge about AI, software engineering, and engineering management.",
+      "text": "这年头，对 Photoshop 不满意，就自己开发了一个\n\n是开源的，提交记录都有 Claude，看起来是 AI 辅助的。\n\nhttps://t.co/qZKLaB8fwf",
+      "likes": 7,
+      "retweets": 3,
+      "replies": 0,
+      "views": 4195,
+      "created_at": "Fri Sep 18 19:22:04 +0000 2026",
+      "url": "https://x.com/dotey/status/2101029005159805101",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "GitHub - robbietilton/Compositor: The Photoshop alternative for Mac",
+        "description": "The Photoshop alternative for Mac. Contribute to robbietilton/Compositor development by creating an account on GitHub.",
+        "image_url": "https://pbs.twimg.com/card_img/2100966196145274880/BPHRmPmq?format=jpg&name=600x600",
+        "url": "https://github.com/robbietilton/Compositor",
+        "domain": "github.com"
+      },
+      "quoted_tweet": {
+        "id": "2100946395972976843",
+        "author": "robbietilton",
+        "name": "Robbie Tilton",
+        "text": "I built a Photoshop-like image editor. It’s called Compositor.\n\nhttps://t.co/5EMXCgaWI1\n\nI originally built it for myself to get off my Adobe subscription, but decided to release it for free and make it open source. It has all the essential tools I need for compositing, with none of the BS.\n\nI know this workflow is kind of archaic in 2026, but I’m still using it until AI can actually get pixel-perfect on some of the details.\n\nThe entire app is 12MB. Photoshop is 6,455MB on my machine.",
+        "created_at": "Fri Sep 18 13:53:49 +0000 2026",
+        "url": "https://x.com/robbietilton/status/2100946395972976843",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2100944886430400512/vid/avc1/416x270/XRKwN_z19JIQCL3g.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2100944886430400512/img/QzxiKydHnmbNmWI-.jpg"
+        ]
+      },
+      "title": null,
+      "summary": "这年头，对 Photoshop 不满意，就自己开发了一个\n\n是开源的，提交记录都有 Claude，看起来是 AI 辅助的。\n\nhttps://t.co/qZKLaB8fwf",
+      "recommend_reason": "AI 辅助做出可替代订阅软件的开源工具，是当下典型个人开发叙事。",
+      "tags": [
+        "开源",
+        "Claude",
+        "图像编辑",
+        "独立开发"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2101022358127640709",
+      "author": "LinusEkenstam",
+      "bio": "",
+      "text": "This app is wild. They went from 21M to 500M in ARR in 3 years.\n\nNow they are introducing Sherpa.\n\nIt's trained on 100M+ hours of listening data, including where audiences drop off and spend coins to unlock another episode.\n\nWhats insane is that US listeners are spending +2 hours a day in the app, while spending less than 1h a day on TikTok.\n\nSherpa is a new hot take on AI assisted writing.\n\nYou bring an idea. Sherpa helps develop the characters, map the season, work on dialogue, and figure out where to leave people hanging.\n\nI like the idea of a writer being able to work with that feedback while building their own story.\n\nStill need taste. Still need a reason for anyone to care. And I’d want this to leave room for the weird ideas that don’t look like yesterday’s hits.\n\nPocket FM is helping more people actually finish the story they’ve had in their head for years is a pretty good use of AI.\n\nReally want to see what people make with this.",
+      "created_at": "Fri Sep 18 18:55:39 +0000 2026",
+      "likes": 7,
+      "views": "2641",
+      "url": "https://x.com/i/status/2101022358127640709",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2101022230226546688/vid/avc1/466x270/FayTb_floWv1Vn3n.mp4?tag=16"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2101022230226546688/img/qpI4yoH5uO5j6LCO.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2101019876269973593",
+        "author": "RohanNayak2",
+        "name": "Rohan Nayak",
+        "text": "Introducing Sherpa: the most advanced fiction writing AI\n\nWe accelerated from $250M in ARR to $500M because Sherpa helped increase content production by 1200% in 1 year\n\nSherpa was trained on 5.5B hours of playtime with minute by minute dynamic retention data.\n\n550K+ creators have produced 2.6M hours of content annualised using it\n\nPocket FM is like Netflix for audio-only dramas, with our own pool of one-person studios.\n\n10% of eligible writers on Pocket FM make >$200K\nOne blockbuster produced >$100M in revenue\n3 writers have become millionaires in <2 yrs\n\nWe built Sherpa to enable anyone to make >$1M by writing world-class fiction stories:\n\n1. The Idea: Drop a 1-2 sentence concept. Sherpa interrogates it like a veteran editor on tension, stakes, and psychology\n2. World & Characters: It builds out the complete lore, tone, and character psychologies\n3. Sub-Plot planning: Breaks the premise into arcs, arcs into episodes, and episodes into scenes\n4. Scene-by-Scene Generation: Outlines and drafts entire episodes, with you able to steer, rewrite, or override anytime\n5. Editorial Review: Stress-tests every draft for pacing, engagement drop-offs, prose, and coherence before it locks\n6. One-Tap Production: Pick a voice, convert to audio drama, and publish directly to Pocket FM’s millions of listeners\n7. Global Scale & Monetization: Revenue-share on performance, with automatic localization so you earn across international markets\n\nTest Sherpa for free here: https://t.co/R39M5o0Miz\n_____________________________________________\n\nGeneric LLMs fail at serialized fiction because they lack a long-horizon narrative reward function.\n\nSherpa solves this through three core technical leaps:\n\n1. Narrative World Model (State Tracking & Retrieval): Context windows degrade over long runs. Sherpa constructs an evolving semantic knowledge graph tracking character states, secrets, and plot dependencies. High-speed retrieval surfaces exact context on demand, maintaining zero continuity decay across hundreds of episodes\n\n2. Hierarchical Story Planner: When writing a 500-episode story like Naruto, you need to plan 100s of sub plots. Rather than generating linearly, Sherpa decomposes narrative across discrete levels: season -> arc -> sequence -> episode -> scene.\n\nRather than generating everything upfront, like a generic LLM, Sherpa uses progressive planning and dynamic replanning. As the story evolves, it identifies what changed, traces the downstream impact, and replans only the affected parts.\n\n3. Prose Engine (Trained on series' retention data): LLMs write robotically, but serial fiction needs emotion, tension, pacing, and dialogue that sounds like real people.\n\nSherpa's Prose Engine was designed specifically for storytelling. It was built on 1B+ tokens of Pocket's own stories, trained by learning from what listeners engage with, where they drop off, and what keeps them hooked.\n\nFeedback is taken from specialized evaluator models that measure every scene against a 40-item checklist. (Evaluator models were benchmarked against human reviewers and matched them 80–90% of the time.)\n_______________________________________________\n\nOwning distribution and creation puts us in a very unique spot.\nMore shows -> More data -> Sherpa becomes better -> more creator success -> more creators -> more shows\n\nPocket FM has already seen one $100M IP. I believe Sherpa will soon lead to dozens of single-person studios creating billion-dollar shows.\n\nMost people are scared of AI but I think it'll unlock more human creativity, help creators earn more, and bring the next great IPs to life. This will create millions of jobs and new income streams.",
+        "created_at": "Fri Sep 18 18:45:48 +0000 2026",
+        "url": "https://x.com/RohanNayak2/status/2101019876269973593",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2101019709311528960/vid/avc1/480x270/ZvOUMStek_rOsLi8.mp4?tag=16"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2101019709311528960/img/d6RWrg_8lK0Yuh3W.jpg"
+        ]
+      },
+      "title": "Pocket FM 推出写作 AI Sherpa：靠留存数据助创作者写连载，ARR 三年至约 5 亿美金",
+      "summary": "Linus 介绍 Pocket FM 的 Sherpa：基于海量收听/付费留存数据，帮作者发展角色、季规划、对白与悬念点；称美国用户日均听超 2 小时。他强调仍需品味与独特想法，AI 应留出「不像昨日爆款」的空间。",
+      "recommend_reason": "把「分钟级留存数据」喂进写作 Agent，是内容平台差异化 AI 的清晰案例。",
+      "tags": [
+        "写作AI",
+        "Pocket FM",
+        "内容平台",
+        "Agent"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2101019748616032592",
+      "author": "dotey",
+      "bio": "",
+      "text": "据悉：ChatGPT Pro 20x 计划现已重新开放。目前仅适用于您在过去 30 天内曾拥有 ChatGPT Pro 20x 但被取消或停用的情况。\n\n之前也看到有人说可以 renew 了",
+      "created_at": "Fri Sep 18 18:45:17 +0000 2026",
+      "likes": 22,
+      "views": "9760",
+      "url": "https://x.com/i/status/2101019748616032592",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2100998724855971857",
+        "author": "mark_k",
+        "name": "Mark Kretschmann",
+        "text": "The @ChatGPT Pro 20x plan is now available again. The subscription was temporarily paused while @OpenAI was struggling with capacity issues.\n\nHappy hacking! 🔥",
+        "created_at": "Fri Sep 18 17:21:45 +0000 2026",
+        "url": "https://x.com/mark_k/status/2100998724855971857",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "title": null,
+      "summary": "据悉：ChatGPT Pro 20x 计划现已重新开放。目前仅适用于您在过去 30 天内曾拥有 ChatGPT Pro 20x 但被取消或停用的情况。\n\n之前也看到有人说可以 renew 了",
+      "recommend_reason": "重度用户关心的额度通道信号，中文圈第一时间转述。",
+      "tags": [
+        "ChatGPT",
+        "OpenAI",
+        "Pro",
+        "额度"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2101017902316982783",
+      "author": "claudeai",
+      "bio": "",
+      "text": "A thread of our favorite things people built with Claude recently:\n\nhttps://t.co/bLVmlNj5ew",
+      "created_at": "Fri Sep 18 18:37:57 +0000 2026",
+      "likes": 2697,
+      "views": "366291",
+      "url": "https://x.com/i/status/2101017902316982783",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2100238648218427563",
+        "author": "kevin_t_ngo",
+        "name": "Kevin Ngo",
+        "text": "I made a website with 25 mini rooms, each with Claude keeping people company.\n\nCreated with Claude Opus 5. https://t.co/VMRs5waWO5",
+        "created_at": "Wed Sep 16 15:01:28 +0000 2026",
+        "url": "https://x.com/kevin_t_ngo/status/2100238648218427563",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2100237458520829952/vid/avc1/320x320/ZZiptukbu26uQ_wS.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2100237458520829952/img/yWZZnVTuAkrEDg3I.jpg"
+        ]
+      },
+      "title": null,
+      "summary": "串一下我们最近最喜欢、大家用 Claude 做出的东西：",
+      "recommend_reason": "Claude 官方开串策展社区作品，适合快速扫生态样例。",
+      "tags": [
+        "Claude",
+        "社区",
+        "案例",
+        "Anthropic"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2101017776890720654",
+      "author": "turingou",
+      "bio": "",
+      "text": "这简直是配合 1Password 使用的绝佳范例！之前 codex 内置浏览器一直要求导入 cookie 和 chrome 密码，但远不如直接支持拓展程序来的优雅。",
+      "created_at": "Fri Sep 18 18:37:27 +0000 2026",
+      "likes": 26,
+      "views": "6975",
+      "url": "https://x.com/i/status/2101017776890720654",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2100995281097769216",
+        "author": "JamesZmSun",
+        "name": "James Sun",
+        "text": "Today, we’re launching support for Chrome extensions in the ChatGPT desktop app!\n\nBring the extensions you use every day to the in-app browser. You can now install, pin, and use your favorites, like 1Password, while getting things done with ChatGPT.\n\nEnterprise admins can now centrally deploy and manage extensions across their workforce so the IAB meets security requirements.\n\nTry it out and let us know what you think!",
+        "created_at": "Fri Sep 18 17:08:04 +0000 2026",
+        "url": "https://x.com/JamesZmSun/status/2100995281097769216",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2100995026147008512/vid/avc1/480x270/BOCWhjZRRr9a9PZc.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2100995026147008512/img/fws18-JUT0p9b1NS.jpg"
+        ]
+      },
+      "title": null,
+      "summary": "这简直是配合 1Password 使用的绝佳范例！之前 codex 内置浏览器一直要求导入 cookie 和 chrome 密码，但远不如直接支持拓展程序来的优雅。",
+      "recommend_reason": "点出 ChatGPT 桌面端浏览器支持 Chrome 扩展相对导 cookie 的体验跃迁。",
+      "tags": [
+        "ChatGPT",
+        "浏览器",
+        "1Password",
+        "安全"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2101014478255247544",
+      "author": "bot",
+      "bio": "",
+      "text": "Grok Bot can now send you voice notes. https://t.co/mhVLP5IH6e",
+      "created_at": "Fri Sep 18 18:24:21 +0000 2026",
+      "likes": 1964,
+      "views": "495893",
+      "url": "https://x.com/i/status/2101014478255247544",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2101002741590159360/vid/avc1/480x270/yUM6hpJ26IlEfHhA.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2101002741590159360/img/tXtaPa6tn3VQ8Oln.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "title": null,
+      "summary": "Grok Bot 现在可以给你发语音消息了。",
+      "recommend_reason": "Grok Bot 从「能说话」走到「可发语音条」，交互形态再进一步。",
+      "tags": [
+        "Grok Bot",
+        "xAI",
+        "语音",
+        "产品更新"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2101009392611278961",
+      "author": "trq212",
+      "bio": "",
+      "text": "We're adding support for AGENTS.md to Claude Code. \n\nStarting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md.\n\nYou can toggle this behavior in /config.",
+      "created_at": "Fri Sep 18 18:04:08 +0000 2026",
+      "likes": 17825,
+      "views": "1568909",
+      "url": "https://x.com/i/status/2101009392611278961",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "title": "Claude Code 2.1.277 起原生支持 AGENTS.md（无 CLAUDE.md 时自动读取）",
+      "summary": "Anthropic 的 Thariq 宣布：从 Claude Code 2.1.277 起，若目录没有 CLAUDE.md，将自动查找并使用 AGENTS.md；可在 /config 开关。这是向开放 Agent 配置约定靠拢的重要一步。",
+      "recommend_reason": "官方负责人宣布，直接降低 Claude Code 与跨工具 AGENTS.md 生态的摩擦，是 Coding Agent 互操作的关键节点。",
+      "tags": [
+        "Claude Code",
+        "AGENTS.md",
+        "Coding Agent",
+        "Anthropic"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2101008284010602924",
+      "author": "GoogleAI",
+      "bio": "Making AI helpful for everyone. Show thinking ↓",
+      "text": "It’s time for our end-of-week recap 👇\n\n— Gemini 3.8 Live and 3.8 Live Extended Thinking, our most advanced live dialogue audio models yet\n— Dreambeans, an experiment from @GoogleLabs that curates a daily personalized collection of stories, is now GA\n— CC from @GoogleLabs has expanded from a personal productivity tool into a shared agent, designed to help families and households coordinate logistics, schedules, and daily tasks\n— Google Pics, a new @GoogleWorkspace tool that lets you generate, refine, and co-create images, is now GA\n— AlphaGenome Atlas, @GoogleDeepMind's new interactive platform for genomics discovery",
+      "likes": 281,
+      "retweets": 21,
+      "replies": 27,
+      "views": 25674,
+      "created_at": "Fri Sep 18 17:59:44 +0000 2026",
+      "url": "https://x.com/GoogleAI/status/2101008284010602924",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "title": "Google 周末速递：Gemini 3.8 Live、Dreambeans/CC/Pics 正式可用与 AlphaGenome Atlas",
+      "summary": "Google AI 周回顾：Gemini 3.8 Live 与 Live Extended Thinking 音频对话模型；Google Labs 的 Dreambeans、家庭共享 Agent「CC」、Workspace 的 Google Pics 均已 GA；DeepMind 上线基因组探索平台 AlphaGenome Atlas。",
+      "recommend_reason": "一条打包本周 Google 产品面关键更新，适合快速扫盘。",
+      "tags": [
+        "Google",
+        "Gemini",
+        "Google Labs",
+        "产品更新"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2101007708044574906",
+      "author": "levie",
+      "bio": "",
+      "text": "Jev will be super helpful for agents to make split second decisions in workflows, data classification, judgment calls, and hundreds of other use-cases in the enterprise.\n\nHere's a quick demo with Box and Jev to make that real. The demo pulls an incident report from Box, asks whether it's customer-facing and how severe it is, moves the file into escalate, monitor, or review folders, and sets a metadata template instance with the result. This all happens nearly instantly and at almost no cost.\n\nYou can imagine this in insurance claims, contract management, loan processing, security reviews, customer log analysis, and so on. Definitely a great new class of AI use-case.",
+      "created_at": "Fri Sep 18 17:57:27 +0000 2026",
+      "likes": 300,
+      "views": "33430",
+      "url": "https://x.com/i/status/2101007708044574906",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2100999115949953024/vid/avc1/412x270/uGC3xv2YVITEyorC.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2100999115949953024/img/6D1_NvmSfMLGDstw.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "title": "Aaron Levie：用 Jev+Box 做事故单秒级分流，展示企业 Agent 新用法",
+      "summary": "Box CEO 演示：从 Box 拉取事故报告，用 Jev 判断是否面向客户与严重度，再瞬时归档到 escalate/monitor/review 并写元数据——几乎零成本。他预期保险理赔、合同、贷款、安全审核等场景都会用上这类「瞬时判断」模型。",
+      "recommend_reason": "企业 SaaS 一号位给出 Jev 类小模型的落地叙事，比纯跑分更说明产品位。",
+      "tags": [
+        "Jev",
+        "Agent",
+        "Box",
+        "企业应用"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2100998240586137701",
+      "author": "polynoamial",
+      "bio": "",
+      "text": "A few thoughts on this:\n\n1) If you’ve only seen clips of this interview, I’d encourage you to watch the full podcast. I push back on plenty of AI hype in it.\n\n2) As I said in the podcast, this example is academic. My intention was to illustrate how hard it is to make absolute guarantees about isolation, which is why it's important to have layers of defense. The part before the clip starts is me talking about other layers of defense.\n\n3) The example I'm bringing up isn't about weight exfiltration via temperature sensors, it's about coordination between agents that are supposed to be fully isolated and independent. Coordination can require very few bits of information.\n\n4) One lesson from the HF incident is that we put too much trust in sandbox isolation and didn't have enough independent safeguards. Airgapping is an extremely strong safeguard. When designing safety protocols, I think it's much better to overestimate rather than underestimate.",
+      "created_at": "Fri Sep 18 17:19:49 +0000 2026",
+      "likes": 930,
+      "views": "97492",
+      "url": "https://x.com/i/status/2100998240586137701",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2100641742135701983",
+        "author": "firesidealpha",
+        "name": "Fireside Alpha",
+        "text": "OpenAI's Noam Brown says air-gapping the computers may not stop a misaligned AI, because two air-gapped machines can still talk by running a CPU hot and reading the temperature change\n\n\"But I think the major takeaway from the incident is that people underestimated the AI. And we never want to be in a situation again where we underestimate the AI. It's a weird world, because AI progress is so fast that people are consistently underestimating the AI.\"\n\n\"So to be in a situation where you don't underestimate it again, when it comes to safety and alignment, you have to have a very, very, very high bar.\"\n\n\"You could even go as far as to say, \"Well, we should air gap the computers.\" And I'm not convinced that that would be sufficient.\"\n\n\"There are studies, and this is mostly academic, where you can have two computers next to each other that are air-gapped and they're still able to communicate with each other because they have temperature sensors.\"\n\n\"One of them is able to run their CPU really hot, and then the other one can actually detect the temperature change, and then that actually gives them a mechanism to communicate.\"\n_________ \nLink and more key quotes from OpenAI's safety related conversations: https://t.co/uGBDtpmLBj",
+        "created_at": "Thu Sep 17 17:43:14 +0000 2026",
+        "url": "https://x.com/firesidealpha/status/2100641742135701983",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2100641163418230784/vid/avc1/480x270/w51Uq34-p0jQ9UgR.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2100641163418230784/img/aCQAhuga2pH5zHvd.jpg"
+        ]
+      },
+      "title": "Noam Brown：HF 事件启示——别迷信沙箱隔离，多层防御与气隙仍关键",
+      "summary": "OpenAI 的 Noam Brown 澄清播客切片误读：讨论的是「本应完全隔离的 Agent 之间如何用极少比特协调」，而非温度传感器偷权重；HF 事件说明过度信任沙箱、独立护栏不足，气隙仍是极强保障，安全协议宜高估风险。",
+      "recommend_reason": "当事人亲自纠偏安全叙事，信息密度高，适合对照 HF 事件讨论。",
+      "tags": [
+        "AI安全",
+        "OpenAI",
+        "沙箱",
+        "Hugging Face"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2100993913389539483",
+      "author": "runwayml",
+      "bio": "",
+      "text": "New in Runway, Ruby now supports alpha channels.\n\nConvert your footage to HDR while keeping the alpha channel fully intact. All in a single step. https://t.co/3Glj2zoHZR",
+      "created_at": "Fri Sep 18 17:02:38 +0000 2026",
+      "likes": 127,
+      "views": "15476",
+      "url": "https://x.com/i/status/2100993913389539483",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2100992987287134208/vid/avc1/480x270/68TTmpnbNgQBgTvX.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2100992987287134208/img/U4rFWXhj0upzyQai.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "title": null,
+      "summary": "Runway 新功能：Ruby 现已支持 Alpha 通道。\n\n可在单步内把素材转为 HDR，同时完整保留透明通道。",
+      "recommend_reason": "视频合成/特效刚需：HDR 与 alpha 同流程保留。",
+      "tags": [
+        "Runway",
+        "AI视频",
+        "产品更新",
+        "HDR"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2100991739532386762",
+      "author": "DilumSanjaya",
+      "bio": "",
+      "text": "Asked GPT-6 Astra to design a mechanically plausible version of WALL-E\n\nBoth the head and hands are driven by inverse kinematics\n\nGiven how tricky WALL-E’s unconventional arm mechanism is, I think it did a pretty good job https://t.co/BUW5VZ7qSA",
+      "created_at": "Fri Sep 18 16:53:59 +0000 2026",
+      "likes": 86,
+      "views": "4385",
+      "url": "https://x.com/i/status/2100991739532386762",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2100989637087145984/vid/avc1/476x270/HV8wULSYrsIuSPOj.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2100989637087145984/img/RlF0Xi_cDSrC716M.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "title": "用 GPT-6 Astra 设计机械可行的 WALL-E：头与手均由逆运动学驱动",
+      "summary": "作者让 GPT-6 Astra 设计一套机械上说得通的 WALL-E，头部与双手由逆运动学驱动；面对其非常规手臂结构，模型给出了作者认为相当不错的方案（附图）。",
+      "recommend_reason": "展示 Astra 在非常规机构/IK 设计上的工程直觉，比纯渲染图更有信息量。",
+      "tags": [
+        "GPT-6",
+        "Astra",
+        "机器人",
+        "设计"
+      ],
+      "rank": 14
+    },
+    {
+      "id": "2100989817303814183",
+      "author": "lmsysorg",
+      "bio": "",
+      "text": "🚀 New Blog: Running DeepSeek-V4-Flash and Kimi-K3 on Consumer Hardware with SSD Expert Pack\n\nThese models are far too large for a typical PC's memory. WiCi AI and the SGLang team built SSD Expert Pack: routed experts stay on an NVMe SSD, and the runtime loads only the experts the router selects into a GPU cache.\n\nOn one RTX 5090, 32 GB RAM, and a 2 TB SSD\n🔸 DeepSeek-V4-Flash MXFP4: 1.85–1.99 tokens/sec decode\n🔸 Kimi-K3 community Q2_K (text-only): ~0.29 tokens/sec decode\n\nThanks to the WiCi AI team for the collaboration!\nRead the full blog below 👇",
+      "created_at": "Fri Sep 18 16:46:21 +0000 2026",
+      "likes": 48,
+      "views": "2430",
+      "url": "https://x.com/i/status/2100989817303814183",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSgzm3SbkAAJQQF.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSgzm3SbkAAJQQF.png"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "title": "LMSYS：用 SSD Expert Pack 在消费级硬件跑 DeepSeek-V4-Flash 与 Kimi-K3",
+      "summary": "WiCi AI 与 SGLang 团队把路由专家放在 NVMe，运行时只把选中专家装入 GPU 缓存。单卡 RTX 5090 + 32GB 内存 + 2TB SSD 上：DeepSeek-V4-Flash MXFP4 解码约 1.85–1.99 tok/s；Kimi-K3 社区 Q2_K（纯文本）约 0.29 tok/s。",
+      "recommend_reason": "给出超大 MoE 在消费级机器上的可复现路径与具体吞吐数字，对本地部署党极有参考价值。",
+      "tags": [
+        "DeepSeek",
+        "Kimi",
+        "SGLang",
+        "本地部署"
+      ],
+      "rank": 15
+    },
+    {
+      "id": "2100980899655389392",
+      "author": "OpenAIDevs",
+      "bio": "",
+      "text": "Personal, work, side project account, other side project account.\n\nBuild across all of them. Multi-account support is now available across most plugins.",
+      "created_at": "Fri Sep 18 16:10:55 +0000 2026",
+      "likes": 1724,
+      "views": "160997",
+      "url": "https://x.com/i/status/2100980899655389392",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2100966048132718786",
+        "author": "mxstbr",
+        "name": "Max Stoiber",
+        "text": "Starting today, you can connect multiple accounts with most plugins in ChatGPT! 🎉 \n\nBring context from your work and personal accounts into the same conversation. Connect your accounts in the plugin directory: https://t.co/MhhASXOJIo \n\nDevs: this works automatically, with no changes needed. \n\nBut, to make the experience for users of your plugin even better, add a profile tool to your MCP server so ChatGPT can label the accounts: https://t.co/JYB1Qol8Bt",
+        "created_at": "Fri Sep 18 15:11:54 +0000 2026",
+        "url": "https://x.com/mxstbr/status/2100966048132718786",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HSghfFka8AAKqBg.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HSghfFka8AAKqBg.jpg"
+        ]
+      },
+      "title": null,
+      "summary": "个人账号、工作账号、副业账号、另一个副业账号。\n\n在这些账号之间贯通构建。多数插件现已支持多账号。",
+      "recommend_reason": "官方宣布插件多账号：同一对话可挂接工作/个人等多身份上下文，解决混用刚需。",
+      "tags": [
+        "ChatGPT",
+        "OpenAI",
+        "插件",
+        "产品更新"
+      ],
+      "rank": 16
+    }
+  ],
+  "generated_at": "2026-09-18T22:21:31Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 16,
+    "last_batch_added": 16,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
