@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "source": "zsxq-changgong",
+  "title": "长弓小子设计思享 · 问答",
+  "planet": "长弓小子设计思享",
+  "group_url": "https://wx.zsxq.com/group/88511822141542",
+  "date": "2026-09-17",
+  "updated_at": "2026-09-18T09:45:36+08:00",
+  "count": 1,
+  "items": [
+    {
+      "id": "zsxq-ea9c24a7000a",
+      "date": "2026-09-17",
+      "question": "你好，元大大，我最近要做海外——美国那边的全英文业务，包含PC和移动端，有什么可以参考的规范，类似于国内的ele和ant之类的规范和案例吗？之前确实没有任何海外业务的案例和参考，无所适从，感谢🙏🏻",
+      "answer_summary": "① 先看星球内多语言设计基础指南、自查手册及组件多语言方案。② Ant Design、Semi 可直接用于海外产品，需按当地调整圆角/间距/字体等；也可参考 Material Design、Apple HIG、Fluent Design。③ 美国市场重点：WCAG AA 无障碍、键盘/读屏、隐私与 Cookie/数据授权提示，并与市场法务确认行业规范。④ 本地化细节：日期 MM/DD/YYYY、货币 $、英制单位。⑤ 案例渠道：Mobbin、Maze；Pinterest/Dribbble/Behance 偏创意参考。",
+      "tags": [
+        "国际化设计",
+        "美国市场",
+        "Ant Design",
+        "Semi Design",
+        "无障碍",
+        "WCAG",
+        "隐私合规",
+        "本地化",
+        "竞品研究"
+      ],
+      "url": "https://wx.zsxq.com/group/88511822141542",
+      "rank": 1
+    }
+  ]
+}
