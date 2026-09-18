@@ -9,6 +9,273 @@
   },
   "items": [
     {
+      "id": "2100960612243157009",
+      "author": "bentossell",
+      "bio": "",
+      "text": "built myself a harness + token usage tracker\n\nsplits by agent/model, copy instructions for your own\n\nhttps://t.co/VwIUQsHHY6 https://t.co/4htHQteXTl",
+      "created_at": "Fri Sep 18 14:50:18 +0000 2026",
+      "likes": 15,
+      "views": "1813",
+      "url": "https://x.com/i/status/2100960612243157009",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2100960573684879360/vid/avc1/340x270/MNLlvtlpdx0hMWXg.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2100960573684879360/img/Xhq1wyfj19NUN39R.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 61.722,
+      "title": null,
+      "summary": "给自己做了一套 harness + token 用量追踪器\n\n可按 agent/model 拆分，并复制说明用于搭建你自己的版本",
+      "recommend_reason": "独立开发者开源了按 agent/模型拆分的 token 用量看板，对多 Agent 成本可见性很实用。",
+      "tags": [
+        "Agent",
+        "Token",
+        "成本追踪",
+        "工具"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2100948707747443037",
+      "author": "code",
+      "bio": "",
+      "text": "🎨 Customize your agents window with new background support! https://t.co/tysY6ggJto",
+      "created_at": "Fri Sep 18 14:03:00 +0000 2026",
+      "likes": 64,
+      "views": "7953",
+      "url": "https://x.com/i/status/2100948707747443037",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2100315000774795264/vid/avc1/320x568/r5aMyEA-sbKFiz3M.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2100315000774795264/img/ziwUPbpjYxkdPhQe.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 64.301,
+      "title": null,
+      "summary": "🎨 可用新的背景支持自定义 agents 窗口！",
+      "recommend_reason": "官方 coding agent 产品小更新，窗口可换背景，体验向个性化再进一步。",
+      "tags": [
+        "VSCode",
+        "Agent",
+        "IDE",
+        "产品更新"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2100947964197765538",
+      "author": "bindureddy",
+      "bio": "",
+      "text": "New Open Weights Model Dropping On Tuesday\n\n- 3x cheaper than DeepSeek Flash\n- 15% better on long agentic loops\n- will be available on the RouteLLM API and on the coding agent\n- perfect for 90% of coding tasks https://t.co/dc8YRGh6bO",
+      "created_at": "Fri Sep 18 14:00:03 +0000 2026",
+      "likes": 122,
+      "views": "18709",
+      "url": "https://x.com/i/status/2100947964197765538",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/tweet_video/HSgRCfFWEAA90Rv.mp4"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/tweet_video_thumb/HSgRCfFWEAA90Rv.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 65.941,
+      "title": "Bindu 预告周二开源权重模型：号称比 DeepSeek Flash 便宜约 3 倍、长 Agent 循环强 15%",
+      "summary": "Abacus/RouteLLM 侧预告周二将放出新开源权重模型：相对 DeepSeek Flash 约便宜 3 倍，长 Agent 循环提升约 15%，将上 RouteLLM API 与 coding agent，定位覆盖约九成编码任务。",
+      "recommend_reason": "开源权重+价格与 Agent 性能承诺同框，是夜场值得跟进的模型供给信号。",
+      "tags": [
+        "开源模型",
+        "DeepSeek",
+        "Agent",
+        "编码",
+        "RouteLLM"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2100877682972258619",
+      "author": "GoSailGlobal",
+      "bio": "",
+      "text": "拿 Jev 做搜索重排，我先泼一盆冷水：单独用，它没打赢向量检索\n\nTypeSafe 的 Jev 这阵子很火，一堆项目拿它做重排。我们在 Agent Skills Hub 的 33,047 条目录上认真测了一次，164 条中英文真实查询，9,831 对分级标注，整套只花了 2.6 美元\n\n三个结论\n\n01｜单独重排，约等于没赢\n\nJev 重排 bge-m3 的前 30 条，NDCG@10 只多了 0.012，置信区间跨过零。MRR 和前三命中率倒是涨得明显，它很会把最强的那一条顶到第一，后面几条基本是重新洗牌\n\n02｜裁判偏差，被我们量出来了\n\nJev 自己也参与了打标注，这就是循环\n\n只用 Jev 当裁判，它领先 0.053\n两个裁判合并，领先 0.012\n只用 Haiku 当裁判，反而落后 0.028\n\n同一组比较，换个裁判结论直接翻面。所有涉及 Jev 的结论，我们只认 Haiku 那一列\n\n03｜真正稳赢的是融合\n\n把 Jev 和 bge-m3 的排序做 RRF 融合，NDCG@10 到 0.864，比纯向量高 0.064 到 0.116，三种裁判下都成立。代价是每次查询多一次 API 调用，约 0.0002 美元\n\n顺便暴露了我们自己的问题：Hub 线上 CLI 用的关键词排序只有 0.609，短板是召回。相关结果有一半压根没进候选，后面怎么重排都救不回来\n\n数据、标注、每条查询的得分全部开源，不用 API key 就能复现打分",
+      "created_at": "Fri Sep 18 09:20:46 +0000 2026",
+      "likes": 39,
+      "views": "8738",
+      "url": "https://x.com/i/status/2100877682972258619",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2100877620292583424/vid/avc1/480x270/QL_6uGJWqu7BcZBV.mp4?tag=16"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2100877620292583424/img/7Ztuku-R01C1GvlU.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2100858336547852360",
+        "author": "GoSailGlobal",
+        "name": "Jason Zhu",
+        "text": "有美团、阿里的老哥嘛？\n\n试试加一路召回、重排（离线、近实时实现），我觉得有奇效\n\n他在文本理解上 跟之前机器学习、llm很不一样\n\n还能自动打标签做特征",
+        "created_at": "Fri Sep 18 08:03:54 +0000 2026",
+        "url": "https://x.com/GoSailGlobal/status/2100858336547852360",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 64.596,
+      "title": "实测 Jev 做搜索重排：单用几乎打不平向量，RRF 融合才稳赢",
+      "summary": "在 Agent Skills Hub 3.3 万条目录、164 条中英查询上评测 TypeSafe Jev：单独重排 NDCG@10 仅 +0.012 且置信跨零；裁判偏差明显（Jev 自裁领先、Haiku 裁判反而落后）；与 bge-m3 做 RRF 融合后 NDCG@10 达 0.864，三种裁判均成立。同时暴露 Hub 线上关键词召回短板。",
+      "recommend_reason": "少见的带裁判偏差消融与融合结论的重排评测，对 Agent 检索栈选型有直接参考价值。",
+      "tags": [
+        "Jev",
+        "重排",
+        "检索",
+        "RRF",
+        "评测"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2100866290697064460",
+      "author": "VigoCreativeAI",
+      "bio": "",
+      "text": "VISUAL OS 045\n\nNo shirt. No torso.\nThe body is built out of the words.\n\nFour people, four sentences, each shaped by how they move.\n\nPrompt below ↓ https://t.co/YKSWI2B7fs",
+      "created_at": "Fri Sep 18 08:35:30 +0000 2026",
+      "likes": 56,
+      "views": "1761",
+      "url": "https://x.com/i/status/2100866290697064460",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSfGdfyXwAALB3x.jpg",
+        "https://pbs.twimg.com/media/HSfGdf7W4AAoSve.jpg",
+        "https://pbs.twimg.com/media/HSfGdf5X0AAXUVB.jpg",
+        "https://pbs.twimg.com/media/HSfGdf3XYAEalsm.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSfGdfyXwAALB3x.jpg",
+        "https://pbs.twimg.com/media/HSfGdf7W4AAoSve.jpg",
+        "https://pbs.twimg.com/media/HSfGdf5X0AAXUVB.jpg",
+        "https://pbs.twimg.com/media/HSfGdf3XYAEalsm.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 74.019,
+      "title": null,
+      "summary": "VISUAL OS 045\n\n没有衬衫，没有躯干。\n身体由文字本身构成。\n\n四个人，四句话，各自被动作塑形。\n\n提示词见下方 ↓",
+      "recommend_reason": "把文案直接嵌进身体造型的视觉实验，展示文字即形体的生成思路，适合跟进创意提示词玩法。",
+      "tags": [
+        "AI绘画",
+        "提示词",
+        "视觉设计",
+        "生成艺术"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2100860468583682322",
+      "author": "xiaoxiaodong01",
+      "bio": "",
+      "text": "语文老师问我要国风提示词\n\n我一查，好家伙，我超多精品\n\n随便晒一套，汤底提示词：\n\n```\n以负空间叙事和纸面影像感建立克制PPT视觉系统，主导理论为格式塔连续性、动态平衡、模块网格与基线节奏：用连续性组织细线、投影与文字的缓慢阅读，用不等量配重让大片空场与一侧高密结构互相牵制，用网格约束信息栏、标题、注释与页脚的对齐。借鉴穆勒-布罗克曼的理性网格控制边距、栏宽和小字号秩序，借鉴布罗多维奇的编辑留白与图文呼吸制造停顿，借鉴田中一光的文化符号几何化方法把装饰转成平面结构，借鉴阿尔伯斯的邻接感知维持低彩度层次。配色只定义角色：背景为最高面积的低彩度高明度承载层，结构线和正文为低明度信息层，半透明影像为中明度氛围层，少量强调信息以更强明度差出现，面积约7:2:1；未来主题配色按角色一键映射，必须保留明度顺序、低彩度、透明叠压和投影可读性。版式采用偏轴模块网格，空场占主导，内容叙事决定标题靠空场内侧、信息列表沿安静轴线排列、焦点图形贴边或越界，唯一破格是细线或影像穿越栏线形成牵引。背景以纤维底材、淡化墨洗和摄影转印的层叠工艺构成，先铺吸收纹理，再叠模糊有机方向影、线性框架和细枝状引导线，边缘虚化、局部残旧、光照漫射。字体采用高反差显示字与低反差小字的对照配对，标题保留修长骨架、开放字腔、细锐收笔和宽松字距，正文以窄行距小字号形成精密注释，任意文字系统都按自身合法笔画、字腔、连结、标记和阅读方向重建同等密度与气息。情绪为含蓄、疏朗、静默、书卷、温润、秩序、余韵。   \n\n```",
+      "created_at": "Fri Sep 18 08:12:22 +0000 2026",
+      "likes": 15,
+      "views": "6042",
+      "url": "https://x.com/i/status/2100860468583682322",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSfBC-pbAAIDkQd.jpg",
+        "https://pbs.twimg.com/media/HSfBEODboAAbsbS.jpg",
+        "https://pbs.twimg.com/media/HSfBFdkaEAA9cij.jpg",
+        "https://pbs.twimg.com/media/HSfBGl8a4AAsiB8.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSfBC-pbAAIDkQd.jpg",
+        "https://pbs.twimg.com/media/HSfBEODboAAbsbS.jpg",
+        "https://pbs.twimg.com/media/HSfBFdkaEAA9cij.jpg",
+        "https://pbs.twimg.com/media/HSfBGl8a4AAsiB8.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 61.707,
+      "title": "小小东晒国风克制风 PPT 提示词汤底：负空间、网格与低彩度角色配色",
+      "summary": "面向语文课件/国风 PPT 的长提示词体系：以格式塔连续性、动态平衡与模块网格组织细线/投影/文字；配色按背景/结构/影像/强调角色分配面积约 7:2:1；版式偏轴留白主导，字体用高反差标题+低反差注释对照，强调纸面影像感与可读投影。",
+      "recommend_reason": "少见的把设计理论写进可复用汤底的中文提示词，对 AI 做课件/品牌 PPT 有直接搬运价值。",
+      "tags": [
+        "提示词",
+        "PPT",
+        "国风",
+        "设计系统",
+        "图像生成"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2100859307671855113",
+      "author": "GoSailGlobal",
+      "bio": "",
+      "text": "一个只会做选择题的小模型，能长出多少玩法？\n\nTypeSafe 的 Jev 就是这么个东西：给它最多 255 个选项，几百毫秒挑一个，再附一个校准过的置信度，输出 token 免费\n\n结果开发者们已经拿它做出了 19 个开源项目，加起来 6800 多星\n\n挑几个最有意思的\n\njev-ultrafast，browser-use 出品，2700 星，一句 slogan：i. am. speed.\n\nopenjev，想在家里一张 3090 上跑出类似 Jev 的东西，925 星\n\nfast-jev-compaction，替换 Claude Code 的上下文压缩，每次工具调用逐条打分，过期的丢，留下的原文保留\n\ntypesafe-computer-use，操控 Mac 每一步只要 0.0002 美元\n\njev-router，在 Claude Code 里按任务自动路由到最便宜的模型\n\npg-jev，Postgres 扩展，用大白话查表\n\n还有人拿它打超级马里奥、在 MuJoCo 里以 2.5Hz 开无人机\n\n我们在 Agent Skills Hub 把这 19 个放进了一张对比页，星数、语言、协议、质量分一张表看完，每 8 小时按 GitHub 实时数据重算\n\n两个提醒：\n1️⃣ 19 个都过了 Hub 的基础规则扫描，但那是规则扫描不是人工审计，装之前还是看一眼代码\n2️⃣ 另外有 4 个项目没写开源协议，拿去商用前先确认",
+      "created_at": "Fri Sep 18 08:07:45 +0000 2026",
+      "likes": 23,
+      "views": "4180",
+      "url": "https://x.com/i/status/2100859307671855113",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2100859271961583616/vid/avc1/480x270/jXy6snkeu3lY-87i.mp4?tag=16"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2100859271961583616/img/c3dp_afY11zXvZ69.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 63.97,
+      "title": "选择题小模型 Jev 的生态盘点：19 个开源项目、合计六千多星",
+      "summary": "TypeSafe Jev（最多 255 选项、毫秒级选择+校准置信度）已被做成约 19 个开源项目、合计 6800+ star，涵盖 browser-use 超快版、本地 3090 复刻、Claude Code 压缩/路由、Postgres 扩展与 computer-use 等；Hub 提供对比页并提醒规则扫描≠人工审计。",
+      "recommend_reason": "把「只会做选择题」的小模型生态摊开成可扫的项目地图，方便判断 Jev 适用边界。",
+      "tags": [
+        "Jev",
+        "开源",
+        "Agent",
+        "ClaudeCode",
+        "生态"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2100843347107893622",
+      "author": "xiaohu",
+      "bio": "",
+      "text": "Google Research 公布了一项名为「学习互动练习（learning interactives）」的研究实验，试图用大模型改变这一现状：\n\n老师只需输入学科、年级和教学主题，Gemini自动生成带 5 个递进关卡、分层提示、解法和反馈的网页互动模拟。\n\n为了让生成的界面具备教学价值，研究团队将构建流程拆解为四个前后衔接的阶段，在文本规划、关卡设计、代码实现与教学辅导之间筑起一道道防护栏。\n\n在整套流程中，教师始终处于主导与把关的核心位置：\n\n流程由老师发起请求（包含学科、年级、主题，并可附加额外要求）；\n\n随后，AI 生成具体的学习目标，交由老师审核并可自由修改；针对通过的目标，系统为每个请求生成 5 个候选模拟，按报告的设计由老师挑出最符合教学意图的一个（在 12 位教师的实测研究中，则先由内部评审挑出最佳版本再呈现给老师）；\n\n新生成的练习最终必须经老师审核通过后，才能正式进入公开库。",
+      "created_at": "Fri Sep 18 07:04:20 +0000 2026",
+      "likes": 35,
+      "views": "6299",
+      "url": "https://x.com/i/status/2100843347107893622",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2100842998229876736/vid/avc1/320x320/iAglYf0MWMrTQXXj.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2100842998229876736/img/hiI1HjvdRDjxEKwI.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 63.879,
+      "title": "Google Research：用 Gemini 为老师生成带关卡与提示的互动练习网页",
+      "summary": "Google Research 实验「learning interactives」：教师输入学科/年级/主题后，Gemini 经文本规划、关卡设计、代码实现与辅导四阶段生成含 5 个递进关卡的网页模拟；教师审核学习目标并在候选中选型，通过后才入库，强调教师主导把关。",
+      "recommend_reason": "把生成式 AI 嵌进可审核的教学工作流，比单纯「一键出课件」更接近可落地的教育产品形态。",
+      "tags": [
+        "Google",
+        "Gemini",
+        "教育",
+        "互动练习",
+        "研究"
+      ],
+      "rank": 8
+    },
+    {
       "id": "2100785962414702599",
       "author": "Alibaba_Qwen",
       "bio": "",
@@ -37,7 +304,7 @@
         "Agent",
         "开源"
       ],
-      "rank": 1
+      "rank": 9
     },
     {
       "id": "2100782711732621337",
@@ -88,7 +355,7 @@
         "视频剪辑",
         "ASR"
       ],
-      "rank": 2
+      "rank": 10
     },
     {
       "id": "2100726653366534560",
@@ -119,7 +386,7 @@
         "OpenAI",
         "上下文"
       ],
-      "rank": 3
+      "rank": 11
     },
     {
       "id": "2100701581109072332",
@@ -150,7 +417,7 @@
         "推理优化",
         "开源"
       ],
-      "rank": 4
+      "rank": 12
     },
     {
       "id": "2100699190448042165",
@@ -191,7 +458,7 @@
         "插件",
         "隐私"
       ],
-      "rank": 5
+      "rank": 13
     },
     {
       "id": "2100696009282080778",
@@ -240,7 +507,7 @@
         "dotey",
         "深度解读"
       ],
-      "rank": 6
+      "rank": 14
     },
     {
       "id": "2100684274114699295",
@@ -274,7 +541,7 @@
         "Agent",
         "算力"
       ],
-      "rank": 7
+      "rank": 15
     },
     {
       "id": "2100679992720142459",
@@ -305,7 +572,7 @@
         "GPT-6",
         "垂直应用"
       ],
-      "rank": 8
+      "rank": 16
     },
     {
       "id": "2100677280297324759",
@@ -346,7 +613,7 @@
         "OpenAI",
         "编程Agent"
       ],
-      "rank": 9
+      "rank": 17
     },
     {
       "id": "2100669598995816511",
@@ -391,7 +658,7 @@
         "开发者体验",
         "Agent"
       ],
-      "rank": 10
+      "rank": 18
     },
     {
       "id": "2100659463569170779",
@@ -421,7 +688,7 @@
         "xAI",
         "Agent"
       ],
-      "rank": 11
+      "rank": 19
     },
     {
       "id": "2100653821907366366",
@@ -452,7 +719,7 @@
         "日历",
         "Google"
       ],
-      "rank": 12
+      "rank": 20
     },
     {
       "id": "2100638355872706571",
@@ -493,7 +760,7 @@
         "Agent",
         "Anthropic"
       ],
-      "rank": 13
+      "rank": 21
     },
     {
       "id": "2100632677904744716",
@@ -524,10 +791,10 @@
         "Anthropic",
         "云端"
       ],
-      "rank": 14
+      "rank": 22
     }
   ],
-  "generated_at": "2026-09-18T04:18:31Z",
+  "generated_at": "2026-09-18T16:29:20Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -535,11 +802,11 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 14,
-    "last_batch_added": 14,
+    "actual_count": 22,
+    "last_batch_added": 8,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
