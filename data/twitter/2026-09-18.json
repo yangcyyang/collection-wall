@@ -1,0 +1,554 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-18",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2100785962414702599",
+      "author": "Alibaba_Qwen",
+      "bio": "",
+      "text": "🚀 Meet Qwen3.8-Omni-Flash, Qwen's first omni-modal model built around agentic capabilities!\n\nNative audio-video understanding, reasoning, and tool use come together in one model: understand the content, plan the task, execute with tools, and deliver the result.\n\nHighlights: 🥳\n- Audio-video intelligence that gets things done: jointly reason over what's seen and heard, and orchestrate tools across long workflows to auto-edit vlogs, translate short videos, and turn movies into recaps.\n- A major leap: approaching Gemini 3.8 Flash in audio-video capabilities; +19.5 points on average in agent performance across WildClawBench-MM & UniClawBench.\n- 1M-token context with agentic perception: actively explore long videos and locate key moments with higher accuracy, using 51.8% fewer tokens than static understanding on OmniVideoBench.\n\nVideo input costs are reduced by about 89% compared with Qwen3.5-Omni-Plus, making long-form audio-video understanding and agentic workflows more affordable than ever.\n\nTo help you build apps around Omni, we're also open-sourcing Qwen-MM-Plugins and Qwen-Live Harness! 🛠️\n\nWe can't wait to see what you build with Qwen3.8-Omni-Flash! 👀\n\n- Blog: https://t.co/oM9V1TkqYF\n- Qwencloud: https://t.co/Cc2I8ELAnD\n- Qwen Studio: https://t.co/V7RmqMaVNZ\n- API: https://t.co/lNE7fH5YUt\n- Qwen-MM-Plugins: https://t.co/SnM27dDP3d\n- Qwen-Live Harness: coming soon\nhttps://t.co/iVYlGjIbdy",
+      "created_at": "Fri Sep 18 03:16:18 +0000 2026",
+      "likes": 596,
+      "views": "21378",
+      "url": "https://x.com/i/status/2100785962414702599",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSd5lKybIAA0Nhb.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSd5lKybIAA0Nhb.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 76.414,
+      "title": "通义发布 Qwen3.8-Omni-Flash：首个面向 Agent 的原生音视频全模态模型",
+      "summary": "阿里通义发布 Qwen3.8-Omni-Flash，强调原生音视频理解、推理与工具调用一体：可自动剪 vlog、翻译短视频、电影浓缩；宣称音视频能力逼近 Gemini 3.8 Flash，在 WildClawBench-MM 与 UniClawBench 上 Agent 均分 +19.5；支持 1M 上下文且相对静态理解少用约 51.8% token；视频输入成本较 Qwen3.5-Omni-Plus 降约 89%，并开源 Qwen-MM-Plugins，Qwen-Live Harness 即将推出。",
+      "recommend_reason": "官方首发全模态 Agent 模型，带基准提升与成本数据，适合跟进音视频 Agent 路线。",
+      "tags": [
+        "Qwen",
+        "Omni",
+        "多模态",
+        "Agent",
+        "开源"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2100782711732621337",
+      "author": "gkxspace",
+      "bio": "",
+      "text": "wtf，这神人居然把剪映给逆向了？？？\n\n直接 Codex 无界面操作剪映，这是真不怕收到律师函啊😂\n\n笑死我了，前几天还私聊跟我说至少卖 888 一份。\n\n结果转头给全开源了，哈哈哈！\n\n不过这个项目是真的牛逼，完全干翻了之前那种靠 Computer Use 模拟鼠标点剪映的笨方法。\n\n1、直接生成剪映原生草稿：多轨、画中画、字幕、音量全支持，不抢屏幕不乱点。\n2、调用豆包 ASR 毫秒级对齐：自动识别人声、切除气口和废话。\n3、可人工兜底：在剪映里直接打开草稿，AI 剪完你能秒级人工微调。\n4、直接后台调用原生引擎无界面导出 MP4。\n\n比如 10 分钟的口播视频，丢给 Codex 一句提示词，直接全自动剪成 3 分钟成品。\n\n直接省下几千块请剪辑师的钱，开源地址放评论区👇",
+      "created_at": "Fri Sep 18 03:03:23 +0000 2026",
+      "likes": 80,
+      "views": "13371",
+      "url": "https://x.com/i/status/2100782711732621337",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSd6sqob0AArpAg.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSd6sqob0AArpAg.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2100748639228367257",
+        "author": "gengdaJ",
+        "name": "逸尘",
+        "text": "把我珍藏已久的好东西分享给家人们，剪映11.4.2开源！！！🥳🥳🥳https://t.co/CGXDq1tcIh\n\n配套神级Skill：https://t.co/QQ5XDF75mw\n\n只需要简单提示词，口播类视频，全程托管给Codex，不需要任何人类操作。\n\n即使略微失误，由于调用豆包ASR，片段被切割到毫秒级别，导入剪映草稿也可以人工丝滑调整😋\n\n放一个原本8分钟，剪辑后3分钟，完全由Codex+yichen-jianying-edit Skill自动剪辑完成的，前后视频对照，以及提示词截图👇\n\n整个剪辑流程可能需要花费的地方：\n1.Codex Token费用，可以用别的便宜模型平替，比如Workbuddy免费的hy3和DeepSeek-V4.1-Flash。https://t.co/DhhbXesth0\n2.豆包ASR，一小时八毛钱，说实话，不能再便宜了。。。\nhttps://t.co/VlZSRt7Ak6",
+        "created_at": "Fri Sep 18 00:48:00 +0000 2026",
+        "url": "https://x.com/gengdaJ/status/2100748639228367257",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HSdZEzraQAE9opd.jpg",
+          "https://pbs.twimg.com/media/HSdZEzpawAAlnJJ.jpg",
+          "https://video.twimg.com/amplify_video/2100745690322493440/vid/avc1/458x270/PG5Dhu8fF1g_qMiz.mp4?tag=29",
+          "https://video.twimg.com/amplify_video/2100745690326679552/vid/avc1/458x270/iak0VB8bhwJ7CQQO.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HSdZEzraQAE9opd.jpg",
+          "https://pbs.twimg.com/media/HSdZEzpawAAlnJJ.jpg",
+          "https://pbs.twimg.com/amplify_video_thumb/2100745690322493440/img/_lKluCzu_JZoNrCF.jpg",
+          "https://pbs.twimg.com/amplify_video_thumb/2100745690326679552/img/pbOV0Ci0PJ9lOFSj.jpg"
+        ]
+      },
+      "score": 65.453,
+      "title": "剪映草稿逆向开源：Codex 无界面生成原生多轨草稿，可对接豆包 ASR 与人工微调",
+      "summary": "作者转发并解读一项剪映相关开源：不再用 Computer Use 模拟鼠标，而是直接生成剪映原生草稿（多轨/画中画/字幕/音量），调用豆包 ASR 做毫秒级气口切除，可在剪映里打开草稿人工微调，并后台调原生引擎导出 MP4；例称 10 分钟口播一句提示可剪成约 3 分钟。配套 Skill 与开源地址见评论/引用。",
+      "recommend_reason": "国内多媒体自动化高信号案例：原生草稿链路比屏幕点击 Agent 更稳，适合口播剪辑党。",
+      "tags": [
+        "剪映",
+        "Codex",
+        "开源",
+        "视频剪辑",
+        "ASR"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2100726653366534560",
+      "author": "OpenAIDevs",
+      "bio": "",
+      "text": "Appshots 🤝 Windows\n\nGive ChatGPT context from the apps you’re working in and spend less time getting it up to speed.\n\nDebug an issue, grab a UI you want to recreate, pull in data from another app, and more. A lot less copying and pasting.\n https://t.co/zEbJIR5Q0L",
+      "created_at": "Thu Sep 17 23:20:38 +0000 2026",
+      "likes": 701,
+      "views": "63632",
+      "url": "https://x.com/i/status/2100726653366534560",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2100725748252459008/vid/avc1/480x270/vfkVFYLgXT2qhmpS.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2100725748252459008/img/f4Y8POYTkZTBTMaY.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 71.694,
+      "title": "ChatGPT Appshots 登陆 Windows：直接抓取当前应用界面作上下文",
+      "summary": "OpenAI 开发者账号宣布 Appshots 支持 Windows：可从正在使用的应用抓取界面/上下文给 ChatGPT，减少复制粘贴，用于调试、复刻 UI、跨应用取数等。",
+      "recommend_reason": "桌面端上下文获取能力扩展到 Windows，对本地工作流集成有实质增量。",
+      "tags": [
+        "ChatGPT",
+        "Appshots",
+        "Windows",
+        "OpenAI",
+        "上下文"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2100701581109072332",
+      "author": "AnthropicAI",
+      "bio": "",
+      "text": "Biologists use specialized open-source models for tasks like modeling the structure of molecular systems, designing drug-like molecules, and predicting the effects of genetic mutations. But these models are often expensive to run, potentially limiting their impact.\n\nIn our latest Science Blog, we share how Claude was able to optimize inference for more than 30 open-source models, making them 4x faster on average, partly by writing custom software for GPUs. We’re open sourcing all of the optimization code.\n\nRead more: https://t.co/qiuN1jpgpA",
+      "created_at": "Thu Sep 17 21:41:00 +0000 2026",
+      "likes": 2199,
+      "views": "182433",
+      "url": "https://x.com/i/status/2100701581109072332",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2100698843335831552/vid/avc1/674x270/HKmhzut0cZkCWZqY.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2100698843335831552/img/8wF4fz_kMUYpF-YP.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 76.222,
+      "title": "Anthropic：Claude 为 30+ 开源生物模型写 GPU 定制软件，推理平均提速 4 倍并开源",
+      "summary": "Anthropic 科学博客称，生物学常用开源模型做分子结构、类药分子设计与突变效应预测，但推理昂贵。Claude 优化了 30 多个开源模型的推理，平均提速约 4 倍，部分通过编写 GPU 定制软件实现，并开源全部优化代码。",
+      "recommend_reason": "科学+工程双线：AI 优化科学模型推理并开源代码，对科研算力与 AI4Science 有参考。",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "生物信息",
+        "推理优化",
+        "开源"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2100699190448042165",
+      "author": "gdb",
+      "bio": "",
+      "text": "Astra for Law — tools and skills to radically accelerate law firms.\n\nIncludes data privacy as a core feature, and 26 partner-built plugins and 47 community plugins for legal work in ChatGPT.",
+      "created_at": "Thu Sep 17 21:31:30 +0000 2026",
+      "likes": 1461,
+      "views": "255918",
+      "url": "https://x.com/i/status/2100699190448042165",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2100679992720142459",
+        "author": "OpenAI",
+        "name": "OpenAI",
+        "text": "Astra for Law: Frontier intelligence built for your practice.\n\nA new offering powered by GPT-6 Astra with tools, settings, and context to support the expertise and judgment of lawyers and legal technology firms. https://t.co/qxVRXkvp4o",
+        "created_at": "Thu Sep 17 20:15:13 +0000 2026",
+        "url": "https://x.com/OpenAI/status/2100679992720142459",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2100676124544290816/vid/avc1/480x270/TSavq7qh9bJNFWtp.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2100676124544290816/img/gglnVPdOvZOY65g_.jpg"
+        ]
+      },
+      "score": 65.743,
+      "title": null,
+      "summary": "Astra for Law：为律所大幅提速的工具与技能；以数据隐私为核心，并含 26 个合作方插件与 47 个社区法律插件（用于 ChatGPT）。",
+      "recommend_reason": "Greg Brockman 补充了官宣未写明的插件生态与隐私卖点，信息密度高于转发本身。",
+      "tags": [
+        "OpenAI",
+        "Astra",
+        "法律AI",
+        "插件",
+        "隐私"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2100696009282080778",
+      "author": "dotey",
+      "bio": "",
+      "text": "Claude Code 的 Projects 改版：Claude Tag 的架构 + Slack 的 Thread 功能\n\n以前就有人说现在 ChatBot、Agent 的交互就是借鉴自 Slack 的，现在看起来一点不假，Anthropic 今天重做了 Claude 的 Projects 功能，先在 Claude Code 里上线测试版，终于把我最喜欢的 Thread 功能也抄进来了。\n\n以前的 Project 是个文件夹，放资料和指令，对话还是一个个分开的。新版变成一个持续的主对话：你在里面说要做什么，Claude 自己拆任务，分给多个并行的 Thread 去干，检查结果后汇总给你。关掉电脑，活儿还在云端继续跑。\n\n【用 Slack 的 Thread 来理解】\n\n用过 Slack 或飞书的人都熟悉 Thread（飞书里叫“话题”），有时候在频道里要就某一个话题深入讨论，就可以在某个消息下评论开个 Thread，相关讨论都收在这个 Thread 下面的回复里。主频道保持干净，想看细节再点进去。\n\n新版 Projects 就是这个形态。\n\n我还没资格使用这个新功能，看了一些视频和介绍，Boris Cherny 晒了自己项目的截图：他在主对话里丢了一张截图，说“启动 cc cli 总弹这个提示”。Claude 回了句“在查了”，随即在这条消息下面开出一个 Thread，标题是“iTerm 启动时的配置变更警告”。\n\n点开 Thread，右侧面板里是完整过程：查出是 5 月加的一个 iTerm2 功能每次启动都去改终端配置，提了修复 PR（代码合并请求）#69807，PR 已合并，Thread 标记为“已解决”，需要时可以重新打开。这件事在主对话里只占一张卡片，下面写着“11 条回复”。\n\n接着他又发了句“unship this”（把这个功能撤掉），Claude 再开一个 Thread 去办。Boris 说他已经不再管理会话了，想到什么就发什么，拆分交给 Claude。\n\n【背后是多智能体】\n\n结构上是一个协调者加一群干活的。主对话里的 Claude 是协调者，负责理解需求、派活、跟进和验收。每个 Thread 是一个独立的 Claude Code 云端会话，有自己的代码分支和仓库副本，互不干扰。两个 Thread 改到同一段代码时，按普通的合并冲突处理。单个 Thread 内部还能继续拆，调用子智能体（subagent）并行处理，让大任务更快完成。\n\n过去想让几个 Claude Code 同时干活，得自己开多个终端或云端会话，自己分工，最后自己把结果拼起来。现在这层调度交给了协调者。官方的说法是，像给幕僚长交代工作一样跟它说话，几件事一起说、顺序随意都行。\n\n【和 Claude Tag 什么关系】\n\nClaude Tag 是 Anthropic 6 月 23 日推出的产品，面向 Enterprise 和 Team 客户测试。它让 Claude 作为团队成员加入 Slack 频道，频道里任何人都可以 @Claude 派活，它把任务分阶段做完，在 Thread 里回复结果，还会记住频道里的相关信息。Anthropic 当时就说，Claude Tag 是 Claude Code 演进的开端。\n\nThariq 也有推文解释：Projects 把 Claude Tag 的架构带进了 Claude Code，每个项目有一个智能体管理记忆，再按任务派出子智能体，还可以让它主动做事、定时做事。\n\n所以两者是同一套架构装在不同的地方。Claude Tag 住在 Slack 里，面向团队，一个频道所有人共用一个 Claude。\n\n新版 Projects 在 Claude 自己的产品里，面向个人，Pro 和 Max 订阅就能用，不需要公司买企业版，也不需要 Slack。\n\n【记忆和资料库】\n\n项目里所有 Thread 共享一份记忆，干活时既读也写。官方举的例子：发布日期改到了周五，导出功能为什么砍掉，动计费服务之前要先问谁。这些事说过一次，后面新开的 Thread 都知道，不用每次在提示词里重新交代。多久汇报一次、汇报写多细，也可以直接跟它说，它会记住。\n\n另有一个资料库（library），收着你上传的文件和 Claude 产出的文件。顶部的 Overview 面板列出哪些事在等你拍板，手机上也能查看和指挥任何一个 Thread。\n\n【适合什么场景】\n\n适合一次回复搞不定、又能拆成几块并行的活。官方给了两个例子。\n\n一是给项目定个目标“降低结账环节的 p75 延迟”（75% 的请求能在这个时间内完成），让 Claude 在并行的 Thread 里逐个接口做性能分析、试优化方案、提 PR。\n\n二是同时连上 API、网页端、移动端三个仓库，目标是下线一个废弃的 v1 接口。Claude 给每个仓库开一个 Thread，迁移调用方、跑测试、提 PR，最后告诉你哪个要先合并。\n\nBoris 截图里的用法也很典型：日常维护一个代码库，bug、小需求、临时想法随手丢进去，每件事自动变成一个可追踪的 Thread。改一行代码、问一个问题这类小事，开普通会话就够了。\n\n【限制和上手】\n\n每个 Thread 都是一个完整的 Claude Code 会话，几个同时跑，用量额度消耗得更快。项目里可以查看用量，也可以给协调者和干活的 Thread 分别选模型和推理强度。Boris 截图里主对话用的是 Fable 5.1，强度设为 Low。\n\nThread 目前只在云端运行，碰不到你电脑上的文件、本地工具和公司内网。Anthropic 说本地运行很快会支持。\n\n测试版今天起开放给部分 Pro 和 Max 用户，条件是在 Claude Code 里使用云端会话，且网页和桌面端没有已建的旧项目。未来一周扩大到更多 Claude Code 用户，之后才轮到聊天、Cowork 以及 Team、Enterprise 套餐。旧项目照常可用，后续统一升级。没拿到资格的可以去 https://t.co/5MmQZJA55N 排队。",
+      "created_at": "Thu Sep 17 21:18:52 +0000 2026",
+      "likes": 92,
+      "views": "22840",
+      "url": "https://x.com/i/status/2100696009282080778",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HScrNKIWUAEawNT.jpg",
+        "https://pbs.twimg.com/media/HScrkGcXEAAsY1e.jpg",
+        "https://pbs.twimg.com/media/HScrl2rXQAAB6Oe.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HScrNKIWUAEawNT.jpg",
+        "https://pbs.twimg.com/media/HScrkGcXEAAsY1e.jpg",
+        "https://pbs.twimg.com/media/HScrl2rXQAAB6Oe.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2100633571543367691",
+        "author": "ClaudeDevs",
+        "name": "ClaudeDevs",
+        "text": "Today we're rolling out Projects in Claude Code on desktop and web.\n\nA project is one conversation with Claude. It splits the work into threads itself, runs them as parallel cloud sessions, passes context between them, and keeps going when you leave.\n\nIn beta for select users. https://t.co/j4k7rludhV",
+        "created_at": "Thu Sep 17 17:10:45 +0000 2026",
+        "url": "https://x.com/ClaudeDevs/status/2100633571543367691",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2100633402152206336/vid/avc1/480x270/MhuHesOIBAAm328q.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2100633402152206336/img/oGsNsOgm7hbm2jvS.jpg"
+        ]
+      },
+      "score": 60.36,
+      "title": "宝玉详解 Claude Code Projects：Slack Thread 形态 + Claude Tag 同架构的多智能体调度",
+      "summary": "dotey 长文梳理新版 Projects：主对话变持续协调者，按需开并行云端 Thread（各有分支/副本），冲突按合并处理；共享项目记忆与资料库；对标 Claude Tag 架构但面向个人 Pro/Max；适合可并行拆分的大任务，额度消耗更快，Thread 暂仅云端。并引用 Boris 真实截图与官方场景（降延迟、跨仓下线 API）。",
+      "recommend_reason": "目前中文侧最完整的 Projects 机制解读，把交互隐喻、多智能体与限制一次讲清。",
+      "tags": [
+        "Claude Code",
+        "Projects",
+        "多智能体",
+        "dotey",
+        "深度解读"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2100684274114699295",
+      "author": "AnthropicAI",
+      "bio": "",
+      "text": "AI systems are getting more powerful, and they're increasingly being used to build the next version of themselves. We want to illuminate that progress for the public.\n\nToday, we're sharing three measurements that help track AI development:\n1. How much AI R&D is done by AI.\n2. How well AI agents are overseen.\n3. How compute is allocated.\n\nWe provide a snapshot of these metrics from inside Anthropic. Any frontier developer could publish the same measures, and third parties could verify them.\n\nAs the world considers pacing the frontier, we should do everything possible to minimize the gap between what frontier labs know and what the public knows. This means better measuring the development of AI, publishing our findings, and giving society an opportunity to decide how to use this information.\n\nRead the full post and methodology: https://t.co/iPFz8Z4ugE",
+      "created_at": "Thu Sep 17 20:32:14 +0000 2026",
+      "likes": 2749,
+      "views": "666790",
+      "url": "https://x.com/i/status/2100684274114699295",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "Measurements for understanding the pace of AI development inside frontier labs",
+        "description": "Today, the world can’t see what’s going on inside AI labs. Anthropic is proposing new metrics that would give the public visibility into frontier AI development.",
+        "image_url": "https://pbs.twimg.com/card_img/2100683677076164608/sgRTcHQh?format=jpg&name=600x600",
+        "url": "https://t.co/iPFz8Z4ugE",
+        "domain": "www.anthropic.com"
+      },
+      "quoted_tweet": null,
+      "score": 67.316,
+      "title": "Anthropic 公开三项「前沿实验室进度」指标：AI 研发占比、Agent 监管与算力分配",
+      "summary": "Anthropic 提出并公布三项可对外度量的内部指标：AI 自身承担多少 AI 研发、Agent 被监管得如何、算力如何分配；并给出 Anthropic 快照与方法论文，呼吁其他前沿实验室同口径发布并由第三方核验，缩小实验室与公众信息差。",
+      "recommend_reason": "少见的实验室自我透明化框架，对治理讨论与横向对比有方法论价值。",
+      "tags": [
+        "Anthropic",
+        "AI治理",
+        "透明度",
+        "Agent",
+        "算力"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2100679992720142459",
+      "author": "OpenAI",
+      "bio": "",
+      "text": "Astra for Law: Frontier intelligence built for your practice.\n\nA new offering powered by GPT-6 Astra with tools, settings, and context to support the expertise and judgment of lawyers and legal technology firms. https://t.co/qxVRXkvp4o",
+      "created_at": "Thu Sep 17 20:15:13 +0000 2026",
+      "likes": 12021,
+      "views": "4224568",
+      "url": "https://x.com/i/status/2100679992720142459",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2100676124544290816/vid/avc1/480x270/TSavq7qh9bJNFWtp.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2100676124544290816/img/gglnVPdOvZOY65g_.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 74.432,
+      "title": "OpenAI 推出 Astra for Law：面向律所与法律科技的 GPT-6 Astra 垂直方案",
+      "summary": "OpenAI 发布 Astra for Law，基于 GPT-6 Astra，提供面向律师与法律科技公司的工具、设置与上下文，强调辅助专业判断而非替代。",
+      "recommend_reason": "OpenAI 垂直行业落地新动作，法律场景产品化信号明确。",
+      "tags": [
+        "OpenAI",
+        "Astra",
+        "法律AI",
+        "GPT-6",
+        "垂直应用"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2100677280297324759",
+      "author": "OpenAIDevs",
+      "bio": "",
+      "text": "You handle the reps. Codex handles the repo.\n\nTalk to the voice agent in Codex, powered by GPT-Live-1.",
+      "created_at": "Thu Sep 17 20:04:26 +0000 2026",
+      "likes": 980,
+      "views": "122143",
+      "url": "https://x.com/i/status/2100677280297324759",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2100665093784563865",
+        "author": "cdngdev",
+        "name": "thijs",
+        "text": "you can use codex voice from your phone now, connecting to your computer from anywhere!!\n\n@axbehr and i got to star in this new codex ad, showing how much you can get done while working out.\n\nbtw, this is powered by the new gpt-live-1 https://t.co/EAn5ubiODW",
+        "created_at": "Thu Sep 17 19:16:01 +0000 2026",
+        "url": "https://x.com/cdngdev/status/2100665093784563865",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2100549848806178816/vid/avc1/480x270/RRMjxWdJXsE9uVde.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2100549848806178816/img/O_j8aUc6skicwpoY.jpg"
+        ]
+      },
+      "score": 65.295,
+      "title": null,
+      "summary": "你练力量，Codex 管仓库：在 Codex 里与由 GPT-Live-1 驱动的语音 Agent 对话。",
+      "recommend_reason": "Codex 语音 Agent（GPT-Live-1）官方短宣，指向「边活动边改代码」的新交互。",
+      "tags": [
+        "Codex",
+        "语音Agent",
+        "GPT-Live",
+        "OpenAI",
+        "编程Agent"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2100669598995816511",
+      "author": "bcherny",
+      "bio": "",
+      "text": "Projects have changed not only how I interact with Claude but how I code.\n\nI stopped managing sessions. I just send thoughts as they come, Claude splits them into threads, and the project remembers how I work. It's where I do a ton of my coding now.\n\n[screenshot: my actual prompts for claude code cli yesterday]",
+      "created_at": "Thu Sep 17 19:33:55 +0000 2026",
+      "likes": 2124,
+      "views": "324203",
+      "url": "https://x.com/i/status/2100669598995816511",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HScTlXvbIAAXOLB.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HScTlXvbIAAXOLB.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2100633571543367691",
+        "author": "ClaudeDevs",
+        "name": "ClaudeDevs",
+        "text": "Today we're rolling out Projects in Claude Code on desktop and web.\n\nA project is one conversation with Claude. It splits the work into threads itself, runs them as parallel cloud sessions, passes context between them, and keeps going when you leave.\n\nIn beta for select users. https://t.co/j4k7rludhV",
+        "created_at": "Thu Sep 17 17:10:45 +0000 2026",
+        "url": "https://x.com/ClaudeDevs/status/2100633571543367691",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2100633402152206336/vid/avc1/480x270/MhuHesOIBAAm328q.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2100633402152206336/img/oGsNsOgm7hbm2jvS.jpg"
+        ]
+      },
+      "score": 72.596,
+      "title": "Claude Code 负责人 Boris：不再管会话，想到就发，Projects 自动拆线程并记住习惯",
+      "summary": "Claude Code 负责人 Boris Cherny 称 Projects 改变了他与 Claude 及写代码的方式：不再管理多个会话，想到什么就发，Claude 自行拆成线程，项目会记住工作习惯；并晒出真实 CLI 提示截图。",
+      "recommend_reason": "产品负责人一手用法，比官宣更能说明 Projects 对日常编码节奏的改变。",
+      "tags": [
+        "Claude Code",
+        "Projects",
+        "Boris Cherny",
+        "开发者体验",
+        "Agent"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2100659463569170779",
+      "author": "bot",
+      "bio": "",
+      "text": "Grok Bot can talk now. https://t.co/PWE1BufrZh",
+      "created_at": "Thu Sep 17 18:53:39 +0000 2026",
+      "likes": 6748,
+      "views": "3248206",
+      "url": "https://x.com/i/status/2100659463569170779",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2100659428618129408/vid/avc1/480x270/bvXr61Gan-ftiCq6.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2100659428618129408/img/fJHirGDJLv-9it-8.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 69.077,
+      "title": null,
+      "summary": "Grok Bot 现已支持语音对话。",
+      "recommend_reason": "xAI/Grok 官方 Bot 语音能力上线的一手短讯，后续转发热度高。",
+      "tags": [
+        "Grok Bot",
+        "语音",
+        "xAI",
+        "Agent"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2100653821907366366",
+      "author": "GoogleLabs",
+      "bio": "",
+      "text": "CC the entire fam 🤝!\n\nToday, we’re announcing the new CC – an AI agent built for families to spend less time on logistics and more time together.\n\nYou can now:\n\n👤 Add up to 5 members to your CC agent\n☀️ Start mornings aligned with a shared \"Your Day Ahead\" brief email\n🗓️ Autosync schedules & to-dos with a shared Google Calendar and Tasks\n💬 Coordinate in Google Chat with CC to offload relevant tasks (ie., crafting weekly meal plans, school supply shopping lists, etc)\n📝 Delegate paperwork (ie., permission slips, forms, and more) for CC to complete under your direction\n📌 Keep tabs on the details – CC remembers what applies to everyone (ie., family grocery lists, favorite restaurants) versus what applies to one person (ie., dietary restrictions, local timezones)\n\nReady to keep everybody on the same page? Join the waitlist or upgrade your existing CC (US only, 18+): https://t.co/6Id5GRBrVc",
+      "created_at": "Thu Sep 17 18:31:14 +0000 2026",
+      "likes": 483,
+      "views": "107310",
+      "url": "https://x.com/i/status/2100653821907366366",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2100648456348200960/vid/avc1/480x270/uEgVGIpCMoX5Xmdg.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2100648456348200960/img/SX-ko4uDqWE8XSL-.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 68.522,
+      "title": "Google Labs 发布家庭版 CC：最多 5 人共享日程、购物与表单代办 Agent",
+      "summary": "Google Labs 宣布面向家庭的 CC Agent：最多加 5 名成员；早间共享「今日概览」邮件；自动同步共享日历与任务；可在 Google Chat 协调餐计划与采购清单；可在指导下代填许可条等文书；区分家庭共用记忆与个人偏好。美国 18+ 可候补或升级现有 CC。",
+      "recommend_reason": "Google 把 Agent 推向家庭协作场景，功能清单具体，值得对照消费级 Agent 产品形态。",
+      "tags": [
+        "Google Labs",
+        "CC",
+        "家庭Agent",
+        "日历",
+        "Google"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2100638355872706571",
+      "author": "trq212",
+      "bio": "",
+      "text": "Projects brings the architecture of Claude Tag to Claude Code.\n\nIt has one agent per project that manages memory and spins off subagents for tasks. \n\nYou can ask it to be proactive, to do things on a schedule, etc.\n\nIt feels a lot nicer than a bunch of sessions, try it out!",
+      "created_at": "Thu Sep 17 17:29:46 +0000 2026",
+      "likes": 965,
+      "views": "102225",
+      "url": "https://x.com/i/status/2100638355872706571",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2100632677904744716",
+        "author": "claudeai",
+        "name": "Claude",
+        "text": "Projects now run from one conversation, starting in Claude Code. You describe what needs doing, and Claude directs parallel threads that keep working after you close your laptop.\n\nIn beta today for select Pro and Max users in cloud sessions; coming to all Claude users soon. https://t.co/GYzoKbxS23",
+        "created_at": "Thu Sep 17 17:07:12 +0000 2026",
+        "url": "https://x.com/claudeai/status/2100632677904744716",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2100630446509813760/vid/avc1/480x270/gO0G0oIIqBwVSxpe.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HSbyf9bWAAAV6Bd.jpg"
+        ]
+      },
+      "score": 66.82,
+      "title": "Thariq：Projects 把 Claude Tag 架构带进 Claude Code，可主动/定时派生子 Agent",
+      "summary": "Anthropic 的 Thariq 解释：Projects 将 Claude Tag 的架构引入 Claude Code——每项目一个主 Agent 管记忆并派生子 Agent；可要求它主动行动、按日程执行，体感优于一堆零散会话。",
+      "recommend_reason": "把 Projects 与 Claude Tag 架构关系说清，补齐官宣未展开的产品谱系。",
+      "tags": [
+        "Claude Code",
+        "Projects",
+        "Claude Tag",
+        "Agent",
+        "Anthropic"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2100632677904744716",
+      "author": "claudeai",
+      "bio": "",
+      "text": "Projects now run from one conversation, starting in Claude Code. You describe what needs doing, and Claude directs parallel threads that keep working after you close your laptop.\n\nIn beta today for select Pro and Max users in cloud sessions; coming to all Claude users soon. https://t.co/GYzoKbxS23",
+      "created_at": "Thu Sep 17 17:07:12 +0000 2026",
+      "likes": 8565,
+      "views": "1884534",
+      "url": "https://x.com/i/status/2100632677904744716",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2100630446509813760/vid/avc1/480x270/gO0G0oIIqBwVSxpe.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSbyf9bWAAAV6Bd.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 74.74,
+      "title": "Claude Code Projects 上线：一会话拆并行线程，关电脑后云端继续跑",
+      "summary": "Anthropic 宣布 Claude Code 的 Projects：在一次对话里描述任务，Claude 指挥多条并行线程，关掉笔记本后仍可在云端继续。目前对部分 Pro/Max 用户在云会话中公测，之后将推向全部 Claude 用户。",
+      "recommend_reason": "Claude Code 工作流重大改版官宣，定义「主会话+并行云线程」新品类交互。",
+      "tags": [
+        "Claude Code",
+        "Projects",
+        "Agent",
+        "Anthropic",
+        "云端"
+      ],
+      "rank": 14
+    }
+  ],
+  "generated_at": "2026-09-18T04:18:31Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 14,
+    "last_batch_added": 14,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
