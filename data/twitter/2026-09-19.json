@@ -9,6 +9,337 @@
   },
   "items": [
     {
+      "id": "2101158425057022176",
+      "author": "MaiYangAI",
+      "bio": "SpaceXAI Ambassador｜业余 Builder（ContextEcho）\n带领 50+ 团队，企业内 AI Native 转型，接AI咨询/顾问\n分享 Grok Bot 可复用模板 + 使用场景/实战复盘\n全国各大城市线下 Meetup / Go夜读创始人\nGrok Bot 怎么省额度？ → 看置顶",
+      "text": "这篇把 Jev 网上那股虚火剔得比较干净。真跑过用例、也写了四次失败。结论我认：它不是更便宜的大模型，是生产里的判断零件；更值得盯的是「高把握自动过，低把握再问大模型」。关心 agent 编排的，值得读完。",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "views": 27,
+      "created_at": "Sat Sep 19 03:56:20 +0000 2026",
+      "url": "https://x.com/MaiYangAI/status/2101158425057022176",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2101132667056185544",
+        "author": "servasyy_ai",
+        "name": "huangserva",
+        "text": "https://t.co/voVFizy0kN",
+        "created_at": "Sat Sep 19 02:13:59 +0000 2026",
+        "url": "https://x.com/servasyy_ai/status/2101132667056185544",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "title": "Jev 不是更便宜的大模型，是生产里的「判断零件」",
+      "summary": "MaiYangAI 点评一篇去虚火的 Jev 实测文：作者真跑用例并写了四次失败。共识是——别把它当廉价大模型，而应看成生产链路里的判断组件；更值得盯「高把握自动过、低把握再问大模型」的编排。",
+      "recommend_reason": "把 Jev 从「又一个模型」重新定位成 agent 编排里的置信度闸门，比参数大战有用。",
+      "tags": [
+        "Jev",
+        "Agent",
+        "编排",
+        "评测"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2101155855580185083",
+      "author": "jinchenma_ai",
+      "bio": "前大厂程序员，OPC实践中｜只工作不上班\n用AI → 内容创作｜知识库｜教程｜培训\n记录普通人如何在AI时代淘点金\n最近在做FDE实践与落地👇欢迎链接&合作&咨询",
+      "text": "最近通过一些观察，以及和一些做企业的朋友交流，我们都发现了一个问题：\n\n员工用 AI 提效了，为什么整个公司的效率却不一定有明显提升？\n\n比如一些职能人员，每天要填各种报表，在几张 Excel 之间找到对应的行、列、单元格，再把数据填进去。过去可能需要两三个小时，现在交给 AI，只要要求说清楚，可能十分钟就能做完。\n\n但回到企业里，我觉得影响整体效率的，还有下面这些问题。\n\n第一，人与人之间的协作。\n\n这里包括沟通的效率，也包括一项工作从一个节点交到下一个节点的效率。信息没说清楚、理解不到位，来回确认、相互扯皮，都会产生损耗。\n\n还有一种情况，事情已经说清楚了，个人的活也干完了，但等审批还要等几个小时，甚至几天。你做报表的速度快了，后面的等待却没有缩短，整件事仍然卡在那里。\n\n第二，个人沉淀了工作流，组织却没有把完整的业务链路串起来。\n\n一个员工把自己的能力沉淀进工作流、Agent、Skill 里，自己用起来很快。但站在企业层面，不同部门、不同人之间的工作，怎么协同起来？\n\n就像做自媒体，从选题、找素材，到写内容、发布，一共四个环节。如果只优化找素材，其他环节都没变，整体效率未必会有很明显的提升。\n\n把一个组织看成一个大 Agent，也是这个道理。每个人有自己的 Skill，还需要把交接标准、上下游的协作、谁来拍板这些事情打通。\n\n第三，人的意愿和利益。\n\n大家可以站在员工的角度想想：我把两个小时的活变成了十分钟，换来的是更多收益、更多休息时间，还是更多任务？\n\n公司希望员工在单位时间内产出更多，但员工不一定心甘情愿地把效率拉满。有的人想保持原来的节奏，有的人希望晋升、表现自己，愿意承担更多的事。部门之间也可能有利益冲突，有办公室政治，有各自的山头。\n\n这些组织层面的摩擦，是但靠一个人把活干快了是解决不了的。\n\n所以我觉得，企业想要把 AI 落地，需要站在更高维度的全局视角，沿着完整的业务流程去看一遍，时间到底花在执行上，还是等人、等审批，或者来回返工上？\n\n先要看清楚整条流程，再挑一个最痛的也最容易让AI去提效的卡点去改，效果要比一上来就想重构整条链路要更有效。",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "views": 125,
+      "created_at": "Sat Sep 19 03:46:08 +0000 2026",
+      "url": "https://x.com/jinchenma_ai/status/2101155855580185083",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "title": "员工 AI 提效了，公司整体效率为何没起来？",
+      "summary": "jinchenma_ai 从企业观察拆三层：①协作与审批等待没缩短，个人十分钟出的表仍卡在下游；②个人沉淀了 Agent/Skill，组织却没把跨部门业务链路串起来；③意愿与利益——提效换来的是休息、加薪还是更多任务，决定员工会不会把效率拉满。结论：落地要站在「组织大 Agent」视角打通交接与拍板。",
+      "recommend_reason": "少见把 AI 提效从个人工具问题抬到组织摩擦与利益结构，对企业落地比又一个 demo 更刺痛。",
+      "tags": [
+        "企业AI",
+        "组织",
+        "Agent",
+        "提效"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2101154217151049923",
+      "author": "wshuyi",
+      "bio": "Teach AI for Science on https://t.co/EjMt9Lde9B\n\nYoutube: https://t.co/OofaON17z1\n\nSubstack: https://t.co/IIleagZfwW\n\n知识星球：https://t.co/kyzMiDmFWb",
+      "text": "做了一早晨的测试，从 GrokBot 控制 Workbuddy，到 Codex 控制 NetLogo，Jev 这玩意儿真有意思啊。关键是，便宜🤭 https://t.co/jfow513OBZ",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 0,
+      "views": 179,
+      "created_at": "Sat Sep 19 03:39:37 +0000 2026",
+      "url": "https://x.com/wshuyi/status/2101154217151049923",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSjMm_BaQAAdJLy.jpg",
+        "https://pbs.twimg.com/media/HSjMm--awAEUXf-.jpg",
+        "https://pbs.twimg.com/media/HSjMm-6bcAAOzkj.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSjMm_BaQAAdJLy.jpg",
+        "https://pbs.twimg.com/media/HSjMm--awAEUXf-.jpg",
+        "https://pbs.twimg.com/media/HSjMm-6bcAAOzkj.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "title": null,
+      "summary": "做了一早晨的测试，从 GrokBot 控制 Workbuddy，到 Codex 控制 NetLogo，Jev 这玩意儿真有意思啊。关键是，便宜。",
+      "recommend_reason": "一线使用者把 Jev 放进多 agent 控制链里试，便宜是它现在最强的采用理由。",
+      "tags": [
+        "Jev",
+        "GrokBot",
+        "Codex",
+        "实测"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2101153085997633873",
+      "author": "op7418",
+      "bio": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design）\n\n歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "text": "这是我把 Craft Agent 的代码拉下来，让他基于代码库做的近期更新内容的宣传视频，一次搞定。\n\n我没有写让他做什么，我也不知道他更新了什么，是他自己扫代码库看到并做出来的 https://t.co/pkQyvyrawN",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "views": 637,
+      "created_at": "Sat Sep 19 03:35:07 +0000 2026",
+      "url": "https://x.com/op7418/status/2101153085997633873",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2101152991722283009/vid/avc1/480x270/NFZjno7NfskVK-s_.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2101152991722283009/img/VmwJpCUcBGJwnZPw.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "title": "把 Craft Agent 代码拉下来，不问需求也能扫出更新宣传片",
+      "summary": "同一系列实测：歸藏把 Craft Agent 仓库拉到本地，不写「做什么、更新了什么」，模型自己扫代码库识别近期改动并生成宣传视频，一次出片。",
+      "recommend_reason": "和「按需求做片」互补——证明代码库本身已是足够强的产品叙事源。",
+      "tags": [
+        "Craft Agent",
+        "代码库",
+        "Agent",
+        "宣传视频"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2101152767863849401",
+      "author": "op7418",
+      "bio": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design）\n\n歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "text": "用 GPT 做了个可以基于你的代码库生成产品更新宣传片的 skill（guizang-product-video-skill）\n\n它可以直接读你的代码库，把你的组件、配色、logo 和其他素材拿来用，自动写文案、做动效。\n\n最屌的是它的音乐居然是 GPT 用 Python 生成的，直接用代码写音乐，太厉害了！\n\n视频是纯前端生成的，不依赖生成模型，所以成本很低。\n\n感兴趣可以试试，下面还有几个其他代码库的案例可以看看",
+      "likes": 14,
+      "retweets": 1,
+      "replies": 1,
+      "views": 2519,
+      "created_at": "Sat Sep 19 03:33:52 +0000 2026",
+      "url": "https://x.com/op7418/status/2101152767863849401",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2101149399426678784/vid/avc1/480x270/c2de_jpzpXl1dtbs.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2101149399426678784/img/VHd8duA8zM5Q4zL7.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2100500580573827529",
+        "author": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "text": "GPT-6 Astra 做软件宣传视频实在是太强了！\n\n这个视频从配乐到音效到组件，全部都是 GPT-6 Astra 自己处理的。\n\n没有用任何生成模型，纯代码，而且它是基于我的 Codepilot 组件和设计语言做的。\n\n跟软件本身的风格和效果都非常搭配。\n\n如果有人需要的话，我看要不要打包个 skill 给大家用。 https://t.co/kaXus6puTi",
+        "created_at": "Thu Sep 17 08:22:18 +0000 2026",
+        "url": "https://x.com/op7418/status/2100500580573827529",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2100500125034672128/vid/avc1/480x270/C3JG2BYSX4haoFUM.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2100500125034672128/img/jRZOoCSm8XFT2sh1.jpg"
+        ]
+      },
+      "title": "歸藏开源：读代码库自动生成产品更新宣传片的 GPT Skill",
+      "summary": "歸藏（op7418）发布 guizang-product-video-skill：用 GPT 直接读你的代码库，复用组件、配色、logo 等素材自动写文案、做动效；配乐也由 GPT 用 Python 生成。视频走纯前端渲染、不依赖生成模型，成本低。并附多个代码库案例。",
+      "recommend_reason": "Agent/Skill 从「写代码」扩到「读仓库做营销物料」，而且成本路径清晰，可复用。",
+      "tags": [
+        "Skill",
+        "GPT",
+        "产品视频",
+        "歸藏"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2101143105067995184",
+      "author": "MANISH1027512",
+      "bio": "",
+      "text": "✅一个COS还原角色服化道的小技巧：\n角色名定整体，关键特征纠偏。\n\n比如纲手，只写名字，服化道就可能还原得不错。但生成罗将神水姬时，我只写“保留原作额饰”，模型画成了金属头链；补上“金边红色额饰”，结果就更接近原作。\n\n为什么会这样？\n\n角色名能调用模型学到的一整套视觉关联，包括发型、配色、服装和道具。但不同角色的关联可能有强有弱：传播广、造型稳定的角色，仅靠名字就可能还原；冷门、版本较多或容易混淆的角色，部分细节则更容易被通用设计补齐。\n\n我们无法直接知道模型对某个角色见过多少训练素材，得试。\n\n“额饰”可以对应头链、金属片或宝石吊坠，而“金边红色”补上了有辨识度的视觉特征，缩小了模型自由发挥的范围。\n\n所以，不用一开始写得特别细，先用角色名和版本出图，哪里还原得不对，再补哪里的颜色、形状或结构。\n\n这是提示词的调试过程，要控制变量，有针对性。",
+      "likes": 13,
+      "retweets": null,
+      "replies": null,
+      "views": "741",
+      "created_at": "Sat Sep 19 02:55:28 +0000 2026",
+      "url": "https://x.com/i/status/2101143105067995184",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSjCD1NbsAAAmaZ.jpg",
+        "https://pbs.twimg.com/media/HSjCGqNbkAAO6Oz.jpg",
+        "https://pbs.twimg.com/media/HSjCWWwa4AA_gQ9.jpg",
+        "https://pbs.twimg.com/media/HSjCWWyaAAAIoyd.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSjCD1NbsAAAmaZ.jpg",
+        "https://pbs.twimg.com/media/HSjCGqNbkAAO6Oz.jpg",
+        "https://pbs.twimg.com/media/HSjCWWwa4AA_gQ9.jpg",
+        "https://pbs.twimg.com/media/HSjCWWyaAAAIoyd.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2100900144149598566",
+        "author": "MANISH1027512",
+        "name": "古一",
+        "text": "I'm a rose. With thorns!\n\n                          ----Charlotte\n\n#SNK #侍魂 #SamuraiSpirits https://t.co/zSD3tcqgRG",
+        "created_at": "Fri Sep 18 10:50:01 +0000 2026",
+        "url": "https://x.com/MANISH1027512/status/2100900144149598566",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HSfkb8sasAAi6Q8.jpg",
+          "https://pbs.twimg.com/media/HSfkttFbwAA_jv2.jpg",
+          "https://pbs.twimg.com/media/HSfkwGcbIAAToLT.jpg",
+          "https://pbs.twimg.com/media/HSfk13KasAAeN7g.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HSfkb8sasAAi6Q8.jpg",
+          "https://pbs.twimg.com/media/HSfkttFbwAA_jv2.jpg",
+          "https://pbs.twimg.com/media/HSfkwGcbIAAToLT.jpg",
+          "https://pbs.twimg.com/media/HSfk13KasAAeN7g.jpg"
+        ]
+      },
+      "title": "COS 提示词：角色名定整体，关键特征再纠偏",
+      "summary": "古一分享出图经验：先用角色名调用模型学过的整套视觉关联（发型/配色/服装），哪里不像再补有辨识度的颜色、形状或结构。例：纲手只写名字往往够用；冷门角色「额饰」太泛会画成金属头链，改成「金边红色额饰」才贴近原作。强调控制变量、针对性调试。",
+      "recommend_reason": "把提示词当成可复现的调试流程，而不是一次写满形容词，对图像模型用户很实用。",
+      "tags": [
+        "提示词",
+        "图像生成",
+        "COS",
+        "调试"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2101092040666661234",
+      "author": "GoSailGlobal",
+      "bio": "",
+      "text": "即使Jev没有眼睛👀 也能实现机械手抓取\n\n只要问题定义足够可以\n\nFirst call → choose an intent\n\n例如：\n\ngrasp / carry / release\n\n也就是先决定：“现在要做什么？”\n\n第二层：\n\nSecond call → choose the concrete action\n\n例如：\n\nx / y / z movement + finger commands\n\n也就是决定：“具体怎么做？”\n\n而且关键点在于，intents 以及每个 intent 的触发条件，都已经定义在 prompt 里\n\nJev 并不是让模型自由生成一个动作，而是在一个预先定义好的有限动作空间里选择",
+      "likes": 6,
+      "retweets": null,
+      "replies": null,
+      "views": "1362",
+      "created_at": "Fri Sep 18 23:32:33 +0000 2026",
+      "url": "https://x.com/i/status/2101092040666661234",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2101018760371171420",
+        "author": "dimentary",
+        "name": "Dmytro Hrybov",
+        "text": "tested Jev as a real-time robotics policy in MuJoCo\n\nit struggled at first, so i split each update into two calls: decide what to do next, then decide how to move the arm and gripper\n\nJev doesn’t accept images, it gets simplified geometry and contacts as text here https://t.co/iKK7jcrrpO",
+        "created_at": "Fri Sep 18 18:41:22 +0000 2026",
+        "url": "https://x.com/dimentary/status/2101018760371171420",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2101017646154366976/vid/avc1/480x270/BX0YGPHq-2kzXI56.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2101017646154366976/img/02bH3Hxy9l0qEffS.jpg"
+        ]
+      },
+      "title": "Jev 控机械臂：先选意图，再选具体动作",
+      "summary": "GoSailGlobal 转述 MuJoCo 实测：Jev 无视觉也能抓取，关键是把每步拆成两次调用——First call 在 grasp/carry/release 等有限意图里选「现在做什么」；Second call 再出 xyz 与手指指令「具体怎么做」。意图与触发条件写死在 prompt，模型是在预定义动作空间里选择，而非自由生成动作。",
+      "recommend_reason": "有限动作空间 + 分层决策，是把小模型塞进实时机器人策略的可复用套路。",
+      "tags": [
+        "Jev",
+        "机器人",
+        "MuJoCo",
+        "Agent"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "2101087584583913702",
+      "author": "imwsl90",
+      "bio": "",
+      "text": "OpenAI支持“人民币支付 ”\n\n早上起来小伙伴给我发了这条消息，X 上搜了一下发现很多人又想搞个“大新闻”\n\n仔细思考一下，支持人民币支付和支持国内人民币支付是两码事\n\n首先OpenAI并不支持国内使用，看官方支持的国家列表，如下：\n\nhttps://t.co/0Q6mRcgPWr\n\n个人觉得OpenAI支持的人民币只是一种计费模式，就算真的支持人民币支付，估计也只有离岸人民币\n\n所以期待短期内用国内信用卡支付购买chatgpt的朋友，还是洗洗睡了吧\n\n以上是我的个人观点",
+      "likes": 0,
+      "retweets": null,
+      "replies": null,
+      "views": "1447",
+      "created_at": "Fri Sep 18 23:14:51 +0000 2026",
+      "url": "https://x.com/i/status/2101087584583913702",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSiPa4KbYAAGGE-.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSiPa4KbYAAGGE-.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "title": "OpenAI「支持人民币」≠ 国内能直接付",
+      "summary": "imwsl90 澄清：支持人民币计价/支付与支持中国内地用人民币买 ChatGPT 是两回事。OpenAI 官方支持国家列表仍不含国内使用；即便有人民币选项，更可能是离岸人民币计费。短期内别指望国内信用卡直付。",
+      "recommend_reason": "帮国内读者拆穿标题党，避免「大新闻」误导充值预期。",
+      "tags": [
+        "OpenAI",
+        "支付",
+        "人民币",
+        "澄清"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2101071929612361926",
+      "author": "bindureddy",
+      "bio": "",
+      "text": "Astra is the fastest-growing \"expensive\" model on the platform\n\n- blown past Fable 5.1\n- normal people-friendly\n- beast Fable on research, data analysis, and browser use\n\nWith no zero-data retention issues, Enterprises are loving it.  The only ask - can it be cheaper 😂",
+      "likes": 4,
+      "retweets": null,
+      "replies": null,
+      "views": "389",
+      "created_at": "Fri Sep 18 22:12:38 +0000 2026",
+      "url": "https://x.com/i/status/2101071929612361926",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "title": "Abacus：Astra 成平台上增长最快的「贵模型」",
+      "summary": "Abacus AI CEO Bindu Reddy：Astra 已超过 Fable 5.1，偏普通人友好；Fable 仍擅研究、数据分析与浏览器使用。企业端喜欢其无 zero-data-retention 顾虑，唯一诉求是再便宜一点。",
+      "recommend_reason": "贵模型增长与企业合规（数据留存）诉求同时出现，比单纯跑分更接近采购真实权重。",
+      "tags": [
+        "Astra",
+        "Abacus",
+        "企业",
+        "模型"
+      ],
+      "rank": 9
+    },
+    {
       "id": "2101068283101536495",
       "author": "bindureddy",
       "bio": "CEO of @abacusai  - a powerful AI Agent and SuperComputer - Build your company on Abacus AI, ex-AWS & Google",
@@ -33,7 +364,7 @@
         "Astra",
         "API"
       ],
-      "rank": 1
+      "rank": 10
     },
     {
       "id": "2101039819870937247",
@@ -67,7 +398,48 @@
         "评测",
         "Accenture"
       ],
-      "rank": 2
+      "rank": 11
+    },
+    {
+      "id": "2101036303597044101",
+      "author": "gdb",
+      "bio": "",
+      "text": "seemingly small feature but makes a huge difference in connecting all the context you want to ChatGPT:",
+      "likes": 874,
+      "retweets": null,
+      "replies": null,
+      "views": "113408",
+      "created_at": "Fri Sep 18 19:51:04 +0000 2026",
+      "url": "https://x.com/i/status/2101036303597044101",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2100966048132718786",
+        "author": "mxstbr",
+        "name": "Max Stoiber",
+        "text": "Starting today, you can connect multiple accounts with most plugins in ChatGPT! 🎉 \n\nBring context from your work and personal accounts into the same conversation. Connect your accounts in the plugin directory: https://t.co/MhhASXOJIo \n\nDevs: this works automatically, with no changes needed. \n\nBut, to make the experience for users of your plugin even better, add a profile tool to your MCP server so ChatGPT can label the accounts: https://t.co/JYB1Qol8Bt",
+        "created_at": "Fri Sep 18 15:11:54 +0000 2026",
+        "url": "https://x.com/mxstbr/status/2100966048132718786",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HSghfFka8AAKqBg.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HSghfFka8AAKqBg.jpg"
+        ]
+      },
+      "title": "ChatGPT 插件现支持同一对话里连多个账号",
+      "summary": "OpenAI 的 Greg Brockman 转发：ChatGPT 多数插件即日起可连接多个账号，把工作号与个人号的上下文放进同一会话。开发者侧自动生效；若要体验更好，可在 MCP server 加 profile tool。看似小功能，却直接解决「上下文割裂」。",
+      "recommend_reason": "插件多账号是把个人/工作语境真正拼进一条对话，比再堆模型更能提升日常可用性。",
+      "tags": [
+        "ChatGPT",
+        "插件",
+        "MCP",
+        "OpenAI"
+      ],
+      "rank": 12
     },
     {
       "id": "2101029005159805101",
@@ -115,7 +487,7 @@
         "图像编辑",
         "独立开发"
       ],
-      "rank": 3
+      "rank": 13
     },
     {
       "id": "2101022358127640709",
@@ -158,7 +530,7 @@
         "内容平台",
         "Agent"
       ],
-      "rank": 4
+      "rank": 14
     },
     {
       "id": "2101019748616032592",
@@ -193,7 +565,48 @@
         "Pro",
         "额度"
       ],
-      "rank": 5
+      "rank": 15
+    },
+    {
+      "id": "2101018857246994526",
+      "author": "turingou",
+      "bio": "",
+      "text": "以前我在单向街的分享还需要将远程任务中的会话整理成一份文本文件，开一个新的 realtime voice session 来进行语音对谈，现在可以直接使用远程会话了（尽管我对 codex 组织语音 session 和真正的任务 session 的方式还是不太满意）",
+      "likes": 5,
+      "retweets": null,
+      "replies": null,
+      "views": "9191",
+      "created_at": "Fri Sep 18 18:41:45 +0000 2026",
+      "url": "https://x.com/i/status/2101018857246994526",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2100665093784563865",
+        "author": "cdngdev",
+        "name": "thijs",
+        "text": "you can use codex voice from your phone now, connecting to your computer from anywhere!!\n\n@axbehr and i got to star in this new codex ad, showing how much you can get done while working out.\n\nbtw, this is powered by the new gpt-live-1 https://t.co/EAn5ubiODW",
+        "created_at": "Thu Sep 17 19:16:01 +0000 2026",
+        "url": "https://x.com/cdngdev/status/2100665093784563865",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2100549848806178816/vid/avc1/480x270/RRMjxWdJXsE9uVde.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2100549848806178816/img/O_j8aUc6skicwpoY.jpg"
+        ]
+      },
+      "title": "Codex 语音可连远程电脑会话，手机也能干",
+      "summary": "途灵（turingou）：以前单向街分享要把远程任务会话整理成文本再开 realtime voice；现在可直接使用远程会话（仍嫌 Codex 把语音 session 与任务 session 的组织方式不够好）。呼应 Codex 广告里「手机连电脑干活」。",
+      "recommend_reason": "编码 agent 的语音入口开始打通远程会话，移动端协作轮廓更清晰。",
+      "tags": [
+        "Codex",
+        "语音",
+        "远程",
+        "Agent"
+      ],
+      "rank": 16
     },
     {
       "id": "2101017902316982783",
@@ -232,7 +645,7 @@
         "案例",
         "Anthropic"
       ],
-      "rank": 6
+      "rank": 17
     },
     {
       "id": "2101017776890720654",
@@ -271,7 +684,7 @@
         "1Password",
         "安全"
       ],
-      "rank": 7
+      "rank": 18
     },
     {
       "id": "2101014478255247544",
@@ -300,7 +713,34 @@
         "语音",
         "产品更新"
       ],
-      "rank": 8
+      "rank": 19
+    },
+    {
+      "id": "2101011740574052697",
+      "author": "elonmusk",
+      "bio": "",
+      "text": "My guess is that AI roughly doubles US GDP growth next year from ~2% to ~4%. Maybe even more.",
+      "likes": 57688,
+      "retweets": null,
+      "replies": null,
+      "views": "4750679",
+      "created_at": "Fri Sep 18 18:13:28 +0000 2026",
+      "url": "https://x.com/i/status/2101011740574052697",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "title": null,
+      "summary": "我的猜测是：AI 大概会把美国明年的 GDP 增速从约 2% 提到约 4%，甚至更高。",
+      "recommend_reason": "马斯克对宏观增速的口头锚点，不管信不信，都会被市场与媒体反复引用。",
+      "tags": [
+        "ElonMusk",
+        "GDP",
+        "宏观",
+        "AI"
+      ],
+      "rank": 20
     },
     {
       "id": "2101009392611278961",
@@ -325,7 +765,38 @@
         "Coding Agent",
         "Anthropic"
       ],
-      "rank": 9
+      "rank": 21
+    },
+    {
+      "id": "2101008354298470718",
+      "author": "Azure",
+      "bio": "",
+      "text": "What if AI could help modernize integration workloads? In this episode of #AzureFriday, @shanselman sits down with Harold Campos to show how the Logic Apps Migration Agent uses agentic refactoring to transform BizTalk and legacy workloads. Watch the full episode: https://t.co/k1Ij9YiFKh",
+      "likes": 38,
+      "retweets": null,
+      "replies": null,
+      "views": "12745",
+      "created_at": "Fri Sep 18 18:00:01 +0000 2026",
+      "url": "https://x.com/i/status/2101008354298470718",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2100827714798198784/vid/avc1/480x270/uDlUa3iKSMqUJh9c.mp4?tag=16"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2100827714798198784/img/QcTuTv7f0FzHmt0o.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "title": "Azure：Logic Apps Migration Agent 用智能体重构老集成",
+      "summary": "Azure Friday：Scott Hanselman 对话 Harold Campos，演示 Logic Apps Migration Agent 如何以 agentic refactoring 把 BizTalk 与遗留集成工作负载迁到现代 Logic Apps。",
+      "recommend_reason": "大厂把「迁移」做成可操作的 agent 产品，说明企业遗留系统是 agent 落地的真金场景。",
+      "tags": [
+        "Azure",
+        "LogicApps",
+        "Agent",
+        "迁移"
+      ],
+      "rank": 22
     },
     {
       "id": "2101008284010602924",
@@ -352,7 +823,7 @@
         "Google Labs",
         "产品更新"
       ],
-      "rank": 10
+      "rank": 23
     },
     {
       "id": "2101007708044574906",
@@ -381,7 +852,7 @@
         "Box",
         "企业应用"
       ],
-      "rank": 11
+      "rank": 24
     },
     {
       "id": "2100998240586137701",
@@ -420,7 +891,34 @@
         "沙箱",
         "Hugging Face"
       ],
-      "rank": 12
+      "rank": 25
+    },
+    {
+      "id": "2100995626309661057",
+      "author": "KatieBoLillis",
+      "bio": "",
+      "text": "NEW: An AI-assisted intel report sent the military scrambling to intercept a Chinese ship in the Middle East it believed was transporting components of a nuclear weapons program.\n\nIt turned out to be a hallucination. And it \"almost started a war.\" https://t.co/xXZHEE64M6",
+      "likes": 2666,
+      "retweets": 1088,
+      "replies": 151,
+      "views": 656747,
+      "created_at": "Fri Sep 18 17:09:26 +0000 2026",
+      "url": "https://x.com/KatieBoLillis/status/2100995626309661057",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "title": "CNN：美军差点因 AI 幻觉情报拦截中国货船，「险些开战」",
+      "summary": "CNN 记者 Katie Bo Lillis 独家：一份 AI 辅助的情报报告称中东某艘中国船只运载核武器部件，美军一度准备拦截；事后确认是幻觉，知情人士称「差点引发一场战争」。后续披露显示，分析员用聊天机器人混合公开与机密情报并写成标准格式报告，在军内流转，格式像真情报才没人立刻质疑。",
+      "recommend_reason": "不是科幻段子：幻觉一旦套上正式情报模板，就能推动真实军事行动——人工核查没跟上 AI 加速，是硬新闻。",
+      "tags": [
+        "AI安全",
+        "情报",
+        "幻觉",
+        "CNN"
+      ],
+      "rank": 26
     },
     {
       "id": "2100993913389539483",
@@ -449,7 +947,7 @@
         "产品更新",
         "HDR"
       ],
-      "rank": 13
+      "rank": 27
     },
     {
       "id": "2100991739532386762",
@@ -478,7 +976,7 @@
         "机器人",
         "设计"
       ],
-      "rank": 14
+      "rank": 28
     },
     {
       "id": "2100989817303814183",
@@ -507,7 +1005,7 @@
         "SGLang",
         "本地部署"
       ],
-      "rank": 15
+      "rank": 29
     },
     {
       "id": "2100980899655389392",
@@ -546,10 +1044,10 @@
         "插件",
         "产品更新"
       ],
-      "rank": 16
+      "rank": 30
     }
   ],
-  "generated_at": "2026-09-18T22:21:31Z",
+  "generated_at": "2026-09-19T04:13:51Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -560,8 +1058,8 @@
     "slot": "noon",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 16,
-    "last_batch_added": 16,
+    "actual_count": 30,
+    "last_batch_added": 14,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
