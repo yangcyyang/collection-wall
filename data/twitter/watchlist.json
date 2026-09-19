@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-19T06:15:15+08:00",
+  "updated_at": "2026-09-20T06:05:00+08:00",
   "source": "user-ricard-2026-09-12",
   "policy": {
     "include_retweets": true,
@@ -9,7 +9,12 @@
     "max_per_author": 2,
     "hard_filter": true,
     "search_query_hint": "filter:follows -filter:replies since:YYYY-MM-DD",
-    "search_note": "现行 SOP 带 -filter:nativeretweets；下一场去掉 nativeretweets，发布+转发都看，精选时降权淘汰垃圾转推/纯营销。"
+    "search_note": "现行 SOP 带 -filter:nativeretweets；下一场去掉 nativeretweets，发布+转发都看，精选时降权淘汰垃圾转推/纯营销。",
+    "named_section": "指定AI名单",
+    "named_section_max": 20,
+    "named_section_max_per_author": 2,
+    "hard_collect_missing": true,
+    "hard_collect_note": "未关注账号用 opencli twitter tweets <user> 硬采；已关注走 Following search/timeline"
   },
   "categories": {
     "core": [
@@ -377,7 +382,7 @@
     "yushanshan1123",
     "zai_org"
   ],
-  "notes": "转发也看；垃圾转推/纯营销降权淘汰。采集仍走 Following 时间线+硬筛+精选。 skipped: bot, code（太泛/非账号）。 下一场采集 search 应变更为：filter:follows -filter:replies since:...（去掉 -filter:nativeretweets）；本体精选时对垃圾转推/纯营销降权淘汰。硬过滤/≤20/作者≤2/亲自写字段不变。",
+  "notes": "转发也看；垃圾转推/纯营销降权淘汰。采集仍走 Following 时间线+硬筛+精选。 skipped: bot, code（太泛/非账号）。 下一场采集 search 应变更为：filter:follows -filter:replies since:...（去掉 -filter:nativeretweets）；本体精选时对垃圾转推/纯营销降权淘汰。硬过滤/≤20/作者≤2/亲自写字段不变。 | 午/夜场成品需单独标出「指定AI名单」专节（tags 含 指定AI名单，或 item.section=指定AI名单）。未关注可硬采。",
   "skipped": [
     "bot",
     "code"
