@@ -147,6 +147,27 @@ test("真实 archive.local.json 是 493 条顶层数组", async () => {
   assert.equal(filterArchive(items, { filter: "all" }).length, 474);
 });
 
+test("getArchive 默认按 site cwd 读 archive.local.json，对齐 Astro build", async () => {
+  const lib = await readFile(new URL("../src/lib/nvpusa.mjs", import.meta.url), "utf8");
+  assert.match(lib, /resolve\(process\.cwd\(\), "\.\.\/data\/nvpusa\/archive\.local\.json"\)/);
+});
+
+test("构建产物 /nvpusa/ 读入 493 条且不用远程封面", async (t) => {
+  let html;
+  try {
+    html = await readFile(new URL("../dist/nvpusa/index.html", import.meta.url), "utf8");
+  } catch {
+    t.skip("尚未执行 site build");
+    return;
+  }
+  assert.equal((html.match(/data-nvpusa /g) ?? []).length, 493);
+  assert.match(html, /data-total="493"/);
+  assert.match(html, /data-nvpusa-search/);
+  assert.match(html, /data-nvpusa-random/);
+  assert.doesNotMatch(html, /pbs\.twimg\.com/);
+  assert.match(html, /https:\/\/x\.com\//);
+});
+
 test("导航、登录文案与页面约定", async () => {
   const nav = await readFile(new URL("../src/components/SiteNav.astro", import.meta.url), "utf8");
   const page = await readFile(new URL("../src/pages/nvpusa.astro", import.meta.url), "utf8");

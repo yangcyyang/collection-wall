@@ -1,5 +1,5 @@
 import { readFile } from "node:fs/promises";
-import { fileURLToPath } from "node:url";
+import { resolve } from "node:path";
 
 import {
   avatarSrc,
@@ -20,9 +20,7 @@ import {
   sortItems,
 } from "./nvpusa-filter.mjs";
 
-const defaultArchive = fileURLToPath(new URL("../../../data/nvpusa/archive.local.json", import.meta.url));
-
-export async function getArchive(target = defaultArchive) {
+export async function getArchive(target = resolve(process.cwd(), "../data/nvpusa/archive.local.json")) {
   try {
     const raw = JSON.parse(await readFile(target, "utf8"));
     return Array.isArray(raw) ? raw : [];
