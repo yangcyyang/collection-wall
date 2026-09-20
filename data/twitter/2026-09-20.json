@@ -1,0 +1,662 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-20",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2101517626954436623",
+      "author": "emollick",
+      "bio": null,
+      "text": "Same question to Astra, slick results.\n\nIt was notable that there was less simulated curiosity here. Like Astra ran the numbers (everything it shows come from its actual simulations), but didn't seem to be \"interested\" in the results the way Fable did, for better or worse. https://t.co/VibvCg6zz3",
+      "likes": 12,
+      "retweets": 0,
+      "replies": 4,
+      "views": 5348,
+      "created_at": "Sun Sep 20 03:43:41 +0000 2026",
+      "url": "https://x.com/emollick/status/2101517626954436623",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2101516792313028608/vid/avc1/320x568/CmRyFBQUh8BTqRQA.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2101516792313028608/img/hkGBE0LrN1IilvII.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2100767116819325141",
+        "author": "emollick",
+        "name": "Ethan Mollick",
+        "text": "Hey Claude, \"Pick a problem or mystery that obsesses you and solve it as best you can &amp; make a movie we can share on social media about it\"\n\nSo it took a crack at the Voynich Manuscript &amp; failed. Then it made this movie, which is pretty interesting to watch and a good explainer. https://t.co/CLhT0BbXcu",
+        "created_at": "Fri Sep 18 02:01:25 +0000 2026",
+        "url": "https://x.com/emollick/status/2100767116819325141",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2100766551670398976/vid/avc1/480x270/9LwWF4qs1cicphto.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2100766551670398976/img/n31lXicRCH9Pw3VV.jpg"
+        ]
+      },
+      "score": 59.719,
+      "summary": "Ethan Mollick 把同一问题交给 Astra，界面与结果更干净利落。他注意到 Astra 更少「假装好奇」：数字都来自真实模拟，却不像 Fable 那样显得对结果本身兴致勃勃——好坏另说，气质差异很明显。",
+      "recommend_reason": "同一作者、同一任务下的模型气质对比，补充「能算对」之外的交互风格差异。",
+      "tags": [
+        "指定AI名单",
+        "Astra",
+        "Fable 5",
+        "模型对比",
+        "AI评测"
+      ],
+      "section": "指定AI名单",
+      "title": "同题对比 Astra：结果更利落，但少了 Fable 那种「好奇感」",
+      "rank": 1
+    },
+    {
+      "id": "2101514542887076045",
+      "author": "vista8",
+      "bio": "",
+      "text": "随着大模型能力提升，作为 AI 自媒体，现在很头疼如何评测模型。\n\n为了能让普通人看懂，大家只能选鹈鹕骑自行车、Threejs 3D游戏、Fancy的前端效果、各种精美PPT来告诉大家：这个模型不错。\n\n另一方面，看起来专业的大模型 Benchmark 也开始失效，各种刷榜、刷Openrouter用量。\n\n加上题目污染和大模型自身的奖励黑客，从这些数据也很难看出哪个模型真能干活儿。\n\n个人觉得比较好的方式是真实场景实测，而不是炫技、刷分。\n\n最好一镜到底，直接看用什么Harness，用什么模型，写了什么Prompt，OneShot 输出质量，几轮迭代后的效果。\n\n最近看B站搞的评测活动就很好，叫「AI无限竞技场」。\n别看榜单，也别刷题，直接让UP主用真实任务测试。\n\nB站可以说是中国的Youtube，且用户更年轻，更有活力，更有脑洞。\n\n有次天津 AI 圈聚会，知名 大V 丁师傅（@dingyi）跟我说，X上那些玩AIGC的作品，跟B站完全没法比...\n\n想开眼界，多刷刷B站，高手如云。\n\n果然，我看了下B站的『AI无限竞技场』上的投稿作品，不得不佩服大家的思路和想象力。\n\n从代码编程、游戏竞技、知识问答，再到空间建模、网文写作、生活决策，各个方向角度都有up主评测。\n\n比如给一个牛x的屎山代码项目，让各 AI 模型 PK，看哪个模型最适合干这种脏活儿。\n\n还有让不同 AI 做量化交易，看哪个真能替你赚钱，哪个让你亏到没裤衩。\n\n让不同 AI 玩狼人杀，看哪个先出局，哪个能挺到最后。\n\n让不同 AI 生成 3D 白模，看哪个模型又好又便宜。\n...\n\n看了下投稿的up主，有X上大家耳熟能详广受好评的牙医老师（@karminski3）、还有我线下刚见过的oil欧呦（@I_am_oil_oil）同学，都是模型评测圈的一线高手。\n\nB站果然权威，能号召这么多牛逼 up 主开脑洞、做评测。也方便大家了解不同场景中，哪个模型才是SOTA。\n\n忍不住写了个爬虫，把目前所有参赛项目都抓了下，放到了我的Github仓库。\n\n共收录了40个主题、 190 个视频、33 位 UP 主的作品。\n总共参赛模型有100多个（我咋没用过这么多？）\n\n不过榜单前几名和我个人使用体感一致：\n当下排名第一的模型是GPT6-Astra、第二是Fable 5.1 、第三是GLM-5.3。\n\n不知道过段时间会有什么变化，听说Gemini4、Grok4.7 都快出了。\n\nGithub地址见评论区，内容相当精彩，建议收藏。\n\n#AI无限竞技场 #B站 #AI",
+      "likes": 10,
+      "retweets": null,
+      "replies": null,
+      "views": "1631",
+      "created_at": "Sun Sep 20 03:31:25 +0000 2026",
+      "url": "https://x.com/i/status/2101514542887076045",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSoUU9kbsAAokDD.jpg",
+        "https://pbs.twimg.com/media/HSoSF2LacAA2QV2.jpg",
+        "https://pbs.twimg.com/media/HSoSHE0a4AE8mwK.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSoUU9kbsAAokDD.jpg",
+        "https://pbs.twimg.com/media/HSoSF2LacAA2QV2.jpg",
+        "https://pbs.twimg.com/media/HSoSHE0a4AE8mwK.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 60.186,
+      "summary": "vista8 作为 AI 自媒体吐槽：模型变强后，鹈鹕骑车、Three.js 小游戏、花哨前端和精美 PPT 只能糊弄外行；专业 Benchmark 又因刷榜、刷 OpenRouter 用量、题目污染和奖励黑客而失真。他更认可真实场景实测——一镜到底看 Harness、模型、Prompt、OneShot 与多轮迭代。他点名 B 站「AI无限竞技场」：不看死榜、不刷题，让 UP 用真任务 PK（屎山重构、量化交易、狼人杀、3D 白模等）。他爬取并整理了约 40 主题、190 视频、33 位 UP、100+ 参赛模型到 GitHub；观感榜前列是 GPT6-Astra、Fable 5.1、GLM-5.3，并提到 Gemini4、Grok4.7 将近。",
+      "recommend_reason": "把「炫技评测 vs 真任务评测」讲透，并给出可跟进的中文社区赛制与初步观感榜。",
+      "tags": [
+        "指定AI名单",
+        "模型评测",
+        "B站",
+        "Benchmark",
+        "Astra"
+      ],
+      "section": "指定AI名单",
+      "title": "模型越强越难评：vista8 推荐 B 站「AI无限竞技场」真任务对打",
+      "rank": 2
+    },
+    {
+      "id": "2101510462685003786",
+      "author": "StepFun_ai",
+      "bio": null,
+      "text": "Introducing Step 5 Preview: Advancing the Pareto Frontier.\n\nStep 5 Preview is our new flagship model for agentic work, delivering frontier-level performance across software engineering and professional knowledge work, with particular strength in finance.\n\n- 600B total / 27B active MoE, with 1M context + Vision\n- Substantially lower task cost at comparable intelligence\n- Broad software engineering capabilities with sustained execution over long horizons\n\nTry Step 5 Preview: https://t.co/fC7HHlWKFn\nModel page: https://t.co/4caJR2YGD3\n\nOpen weights on Oct 15.",
+      "likes": 389,
+      "retweets": 83,
+      "replies": 35,
+      "views": 15747,
+      "created_at": "Sun Sep 20 03:15:13 +0000 2026",
+      "url": "https://x.com/StepFun_ai/status/2101510462685003786",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSoQn-1bQAAtzol.jpg",
+        "https://pbs.twimg.com/media/HSoQn-1boAA9r0Z.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSoQn-1bQAAtzol.jpg",
+        "https://pbs.twimg.com/media/HSoQn-1boAA9r0Z.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 77.617,
+      "summary": "阶跃星辰推出旗舰模型 Step 5 Preview，主打 agentic 工作流，在软件工程与专业知识任务上冲击前沿水平，金融场景尤为突出。规格为总参 600B、激活 27B 的 MoE，支持 100 万上下文与视觉；在相近智力水平下任务成本更低，并强调长程持续执行。现已可试用，计划 10 月 15 日开源权重。",
+      "recommend_reason": "国内厂正式放出面向 Agent 的新旗舰预览，规格与开源时间线都清楚，适合跟进开源与工程实测。",
+      "tags": [
+        "指定AI名单",
+        "StepFun",
+        "MoE",
+        "Agent",
+        "开源"
+      ],
+      "section": "指定AI名单",
+      "title": "阶跃星辰发布 Step 5 Preview：面向 Agent 的旗舰 MoE",
+      "rank": 3
+    },
+    {
+      "id": "2101506818740769093",
+      "author": "canghe",
+      "bio": "",
+      "text": "剪映终于出手了。\n\n发布剪映AI助手和创作Hub，可用Agent 智能剪辑，批量混剪，视频扩写，调用seedance2.5，模版替换。\n\n剪映hub，可打通视频创作全流程，从灵感到创作到发布，支持自定义skill及沉淀skill。\n\n这下舒服了。 https://t.co/wx03Lulust",
+      "likes": 9,
+      "retweets": null,
+      "replies": null,
+      "views": "1558",
+      "created_at": "Sun Sep 20 03:00:44 +0000 2026",
+      "url": "https://x.com/i/status/2101506818740769093",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSoNTcMbAAAThhz.jpg",
+        "https://pbs.twimg.com/media/HSoNTdCbIAAe43K.jpg",
+        "https://pbs.twimg.com/media/HSoNTdAa8AA0T-p.jpg",
+        "https://pbs.twimg.com/media/HSoNTcNa4AAfpmu.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSoNTcMbAAAThhz.jpg",
+        "https://pbs.twimg.com/media/HSoNTdCbIAAe43K.jpg",
+        "https://pbs.twimg.com/media/HSoNTdAa8AA0T-p.jpg",
+        "https://pbs.twimg.com/media/HSoNTcNa4AAfpmu.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 59.697,
+      "summary": "剪映终于出手了。\n\n发布剪映AI助手和创作Hub，可用Agent 智能剪辑，批量混剪，视频扩写，调用seedance2.5，模版替换。\n\n剪映hub，可打通视频创作全流程，从灵感到创作到发布，支持自定义skill及沉淀skill。\n\n这下舒服了。 https://t.co/wx03Lulust",
+      "recommend_reason": "国民级剪辑工具把 Agent/技能沉淀做进创作链路，对短视频生产侧影响面大。",
+      "tags": [
+        "指定AI名单",
+        "剪映",
+        "Agent",
+        "AI视频",
+        "Seedance"
+      ],
+      "section": "指定AI名单",
+      "rank": 4
+    },
+    {
+      "id": "2101456447615926553",
+      "author": "yangyi",
+      "bio": "",
+      "text": "Oppenheimer 预计 $META 旗下 Muse 到 2027 年将实现 280 亿美元的 AI 智能体收入，shou'ru来自 1.15 亿付费用户，转化率与 ChatGPT 相同，均为 6%。\n\n80% 的 Agentic AI 运营利润率着实有些高了，这看起来 Muse 比 Meta 的核心广告盈利能力还强。\n\n按理说Agentic AI应该没有这么高的利润率啊 https://t.co/MxRWSPC4IB",
+      "likes": 2,
+      "retweets": null,
+      "replies": null,
+      "views": "1454",
+      "created_at": "Sat Sep 19 23:40:34 +0000 2026",
+      "url": "https://x.com/i/status/2101456447615926553",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSnfX57bIAE-CKY.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSnfX57bIAE-CKY.png"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 55.703,
+      "summary": "yangyi 转述 Oppenheimer 预测：Meta 旗下 Muse 到 2027 年或达 280 亿美元 AI 智能体收入，假设约 1.15 亿付费用户、转化率与 ChatGPT 同为 6%。同时给出约 80% 的 Agentic AI 运营利润率——作者觉得偏高，甚至看起来强过 Meta 核心广告盈利能力，并质疑 Agent 业务按理不该有这么夸张的利润率。",
+      "recommend_reason": "把 Muse 从产品叙事拉到卖方数字与利润率常识检验，适合跟进 Meta Agent 商业化预期。",
+      "tags": [
+        "指定AI名单",
+        "Muse",
+        "Meta",
+        "商业化",
+        "Agent"
+      ],
+      "section": "指定AI名单",
+      "title": "卖方喊 Muse 2027 年 280 亿美元 Agent 收入，利润率质疑拉满",
+      "rank": 5
+    },
+    {
+      "id": "2101454284927959080",
+      "author": "LangChain",
+      "bio": null,
+      "text": "We tested Jev against LLM judges on accuracy, repeatability, latency, and cost to see whether System One models could offer a new approach to agent evaluation. https://t.co/hrqdNpm0g8",
+      "likes": 604,
+      "retweets": 84,
+      "replies": 63,
+      "views": 59040,
+      "created_at": "Sat Sep 19 23:31:59 +0000 2026",
+      "url": "https://x.com/LangChain/status/2101454284927959080",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 65.595,
+      "summary": "我们把 Jev 与 LLM 评委在准确率、可重复性、延迟和成本上做了对比，想看 System One 模型能否给 Agent 评测带来新思路。",
+      "recommend_reason": "Jev 热度下的框架方实测，直接回答「小而快的决策模型能不能当评委」。",
+      "tags": [
+        "指定AI名单",
+        "LangChain",
+        "Jev",
+        "Agent评测"
+      ],
+      "section": "指定AI名单",
+      "rank": 6
+    },
+    {
+      "id": "2101427997597446636",
+      "author": "levie",
+      "bio": "",
+      "text": "Personal agents are the ultimate manifestation of “build something that agents want”.\n\nThe form factor of a product like Muse is you want to be able to hand off a task to the agent and ensure that it is fully completed end to end. To do this, the agent must be able to successfully operate with your tools or use its own to complete the task. Use your MCP or CLI, easily navigate your site, be able to transact, and more.\n\nThe new attention you need to compete for is not from the user itself but instead for the agent. This means that the tools that allow agents to order food, handle ecommerce transactions, book flights, work with the local economy, and interact with our data and information best, are the ones that will get used the most.\n\nThis will ultimately be the biggest opportunity and shakeup in consumer tech since the App Store itself.",
+      "likes": 297,
+      "retweets": null,
+      "replies": null,
+      "views": "65435",
+      "created_at": "Sat Sep 19 21:47:31 +0000 2026",
+      "url": "https://x.com/i/status/2101427997597446636",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2101152998894313557",
+        "author": "cryptopunk7213",
+        "name": "Ejaaz",
+        "text": "zuck essentially launched a new app store for agents today and Meta’s perfectly placed to crush it, you’re looking at a multi-trillion dollar opp if they pull it off:\n\n- instead of apps, agents get equipped with connectors i.e. plugins to any app, service or software tool.\n\n- suddenly your agent goes from a useless chatbot to an action-oriented helper that gets shit done for you\n\nbut it gets even better - meta has collected ALL the data about you. they know what you want, when you want it which means they know exactly WHICH connectors to list in a marketplace and HOW MUCH to charge because they know customers will pay.\n\nit’s a masterclass. muse isn’t just some generic agent, it’s sitting on a treasure trove of data and meta can build a trillion dollar business on top of it.",
+        "created_at": "Sat Sep 19 03:34:47 +0000 2026",
+        "url": "https://x.com/cryptopunk7213/status/2101152998894313557",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HSjLhIUXwAAhXzk.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HSjLhIUXwAAhXzk.jpg"
+        ]
+      },
+      "score": 62.717,
+      "summary": "Box CEO Aaron Levie 认为个人 Agent 是「为 Agent 而建」的极致形态。以 Meta Muse 这类产品为例，目标是把任务端到端交出去并确保做完：Agent 必须能用你的工具或自带工具，走 MCP/CLI、逛站点、完成交易。下一轮竞争争夺的不再主要是用户注意力，而是 Agent 会优先调用谁的能力——点外卖、电商下单、订机票、对接本地经济与个人数据的工具会吃到最多用量。他判断这将是自 App Store 以来消费科技最大的机会与洗牌。",
+      "recommend_reason": "把 Muse/个人 Agent 上升到「Agent 注意力经济」与新分发层，框架清晰可跟进行业叙事。",
+      "tags": [
+        "指定AI名单",
+        "Agent",
+        "Muse",
+        "Meta",
+        "产品形态"
+      ],
+      "section": "指定AI名单",
+      "title": "个人 Agent 时代：要抢的注意力从用户转向 Agent",
+      "rank": 7
+    },
+    {
+      "id": "2101421292390154373",
+      "author": "lateinteraction",
+      "bio": null,
+      "text": "think if you’re particular at whatever it is you want from the models in a high-dimensional way, you will quickly lose your mind over how brittle and autocomplete-like even 8 continuous hours of Astra or Fable work is like\n\ndon’t be distracted by the sparse cases of unimodal verifiable success; i predict lots more of those and yet it tells me almost nothing by itself about the seemingly inherent (so far!) brittleness/collapse above",
+      "likes": 51,
+      "retweets": 2,
+      "replies": 3,
+      "views": 2736,
+      "created_at": "Sat Sep 19 21:20:53 +0000 2026",
+      "url": "https://x.com/lateinteraction/status/2101421292390154373",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 65.084,
+      "summary": "lateinteraction 认为：如果你对模型输出有高维、很挑剔的偏好，连续用 Astra 或 Fable 八小时后，会明显感到它们仍像脆弱的自动补全。不要被少数可验证的单模态成功案例带偏——这类案例会越来越多，但几乎说明不了更高层任务上似乎固有的脆性与塌缩。",
+      "recommend_reason": "一线重度用户的反直觉判断：演示级成功≠高维需求下的可靠工作流。",
+      "tags": [
+        "指定AI名单",
+        "Agent",
+        "Astra",
+        "Fable 5",
+        "模型局限"
+      ],
+      "section": "指定AI名单",
+      "title": "对模型要求越高维，越容易看见 Astra/Fable 的脆性",
+      "rank": 8
+    },
+    {
+      "id": "2101412965765529853",
+      "author": "OpenRouter",
+      "bio": null,
+      "text": "1/ Jev, a decision model by @typesafeai, sparked a burst of projects and discussion. We tested it using Ori Eval against popular LLMs on OpenRouter at judging.\n\nJev was &gt;5x faster than the next fastest model, and even its slowest requests beat every other model's median. https://t.co/PeSgbMOX5a",
+      "likes": 382,
+      "retweets": 20,
+      "replies": 35,
+      "views": 21486,
+      "created_at": "Sat Sep 19 20:47:48 +0000 2026",
+      "url": "https://x.com/OpenRouter/status/2101412965765529853",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSm39ISbsAAEPfg.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSm39ISbsAAEPfg.png"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 55.785,
+      "summary": "OpenRouter 用自家 Ori Eval，把 typesafeai 的决策模型 Jev 与站内热门 LLM 在评判任务上对比。结果显示 Jev 比第二快的模型快 5 倍以上，且其最慢请求仍快过其他模型的中位数延迟。",
+      "recommend_reason": "路由平台用统一评测把 Jev「又快又便宜当评委」的主张量化出来，便于对照 LangChain 侧结论。",
+      "tags": [
+        "指定AI名单",
+        "OpenRouter",
+        "Jev",
+        "评测",
+        "延迟"
+      ],
+      "section": "指定AI名单",
+      "title": "OpenRouter Ori Eval：Jev 判题速度领先一截",
+      "rank": 9
+    },
+    {
+      "id": "2101394716310815143",
+      "author": "emollick",
+      "bio": null,
+      "text": "I think there are lots of good reasons to worry about whether AI is giving correct answers (especially free models), but, given the contradiction with other recent research suggesting AI is now doing well at financial advice, I was curious about what the methodology was here. I downloaded the report, which is from a company selling different AI financial services products.\n\nGiven the limited information in the report, it is impossible to judge it's accuracy, since there are only limited examples of questions. However, I am curious if anyone familiar with UK tax law knows whether GPT-6 Pro's defense of Haiku's answer is right, or if Saturn's critique is.",
+      "likes": 121,
+      "retweets": 7,
+      "replies": 18,
+      "views": 28242,
+      "created_at": "Sat Sep 19 19:35:17 +0000 2026",
+      "url": "https://x.com/emollick/status/2101394716310815143",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSmnPoTWgAAPG_I.png",
+        "https://pbs.twimg.com/media/HSmnUudXYAAhbd8.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSmnPoTWgAAPG_I.png",
+        "https://pbs.twimg.com/media/HSmnUudXYAAhbd8.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2101176347750023261",
+        "author": "FT",
+        "name": "Financial Times",
+        "text": "AI chatbots give wrong answers to financial queries ‘most of the time’ https://t.co/JfRqlXOMKs",
+        "created_at": "Sat Sep 19 05:07:33 +0000 2026",
+        "url": "https://x.com/FT/status/2101176347750023261",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": [],
+        "card": {
+          "name": "summary_large_image",
+          "title": "AI chatbots give wrong answers to financial queries ‘most of the time’",
+          "description": "Report finds some chatbots ignored upcoming tax changes and hallucinated rules",
+          "image_url": "https://pbs.twimg.com/card_img/2101176350228779009/DA7O4CAL?format=jpg&name=800x320_1",
+          "url": "https://ft.trib.al/KxRXFO6",
+          "domain": "www.ft.com"
+        }
+      },
+      "score": 66.736,
+      "summary": "Ethan Mollick 引用《金融时报》称聊天机器人多数时候答错理财问题，但他提醒要警惕结论与近期「AI 理财表现不错」研究的矛盾。他下载了报告后发现出品方本身在卖 AI 理财产品，且公开信息很少、样例有限，几乎无法独立核验准确性；他进一步追问熟悉英国税法的人，GPT-6 Pro 为 Haiku 辩护是否站得住、Saturn 的批评是否正确。",
+      "recommend_reason": "把「AI 靠不靠谱」拉回方法论与利益冲突：媒体结论也要看谁做的评测、证据够不够。",
+      "tags": [
+        "指定AI名单",
+        "AI评测",
+        "金融AI",
+        "研究方法"
+      ],
+      "section": "指定AI名单",
+      "title": "Mollick 拆 FT「AI 理财答错大半」：先看报告是谁卖的",
+      "rank": 10
+    },
+    {
+      "id": "2101388607147880680",
+      "author": "LinusEkenstam",
+      "bio": "",
+      "text": "Stop giving your real name, address and other sensitive data to your AI\n\n@agentcloakai uses Rampart, the 14.7MB model from National Design Studio. To detect personal details locally in your browser.\n\n14.7MB. I love seeing tiny models doing useful things like this.\n\nThe extension swaps the details it catches for realistic stand-ins before sending your prompt, then puts the originals back into the answer.\n\nWorks with ChatGPT, Claude, Gemini, Grok and DeepSeek. Free.\n\nI think this should be built into every AI chat box. Manually removing personal details from every prompt is a ridiculous thing to still be doing.",
+      "likes": 27,
+      "retweets": null,
+      "replies": null,
+      "views": "6081",
+      "created_at": "Sat Sep 19 19:11:00 +0000 2026",
+      "url": "https://x.com/i/status/2101388607147880680",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2100960005289807961",
+        "author": "peteryared",
+        "name": "Peter Yared",
+        "text": "Introducing AgentCloak: Use any AI without sharing your real data.\n\nChinese AI services, ChatGPT, Claude, doesn't matter.\n\nYou probably try to hide details before asking: different names, fake numbers, no address.\n\nBut then the answer's useless because the AI is missing actual context.\n\nAgentCloak runs in your browser.\n\nIt swaps your sensitive info for realistic fakes before sending anything, then swaps your real info back into the response.\n\nYou get what you need.\n\nThe AI gets nothing about you.\n\nWorks entirely in-browser.\n\nAlready trusted by some of the biggest companies in the world.\n\nNow free to use.\n\nhttps://t.co/hioia521QQ",
+        "created_at": "Fri Sep 18 14:47:53 +0000 2026",
+        "url": "https://x.com/peteryared/status/2100960005289807961",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2100957439264980992/vid/avc1/480x270/dQef_0UqZDDhwdDo.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2100957439264980992/img/iP7HeVLgX70tzR8D.jpg"
+        ]
+      },
+      "score": 58.9,
+      "summary": "Linus Ekenstam 介绍 AgentCloak：用 National Design Studio 的 14.7MB Rampart 模型在浏览器本地检测姓名、地址等敏感信息，发送前提换成逼真占位符，回答后再还原。扩展免费，支持 ChatGPT、Claude、Gemini、Grok、DeepSeek。他认为这类能力本该内建进每个 AI 对话框，而不是继续靠人手洗敏感字段。",
+      "recommend_reason": "把「别把真名真地址喂给模型」落成可装的本地小模型方案，隐私与产品形态都值得记一笔。",
+      "tags": [
+        "指定AI名单",
+        "隐私",
+        "本地模型",
+        "Agent",
+        "安全"
+      ],
+      "section": "指定AI名单",
+      "title": "14.7MB 本地小模型先打码再问大模型：AgentCloak 做隐私前置",
+      "rank": 11
+    },
+    {
+      "id": "2101366706308341900",
+      "author": "bindureddy",
+      "bio": "",
+      "text": "The world is rapidly dividing into these two classes of people \n\nClass A - AI savvy, building stuff, up leveling themselves by 2-10x\n\nClass B - afraid AI will take their jobs, fear mongering and trying to cancel AI",
+      "likes": 325,
+      "retweets": null,
+      "replies": null,
+      "views": "10033",
+      "created_at": "Sat Sep 19 17:43:58 +0000 2026",
+      "url": "https://x.com/i/status/2101366706308341900",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 55.796,
+      "summary": "世界正迅速分裂成两类人：A 类懂 AI、在做事、把自己放大 2–10 倍；B 类害怕 AI 抢饭碗、制造恐慌并试图取消 AI。",
+      "recommend_reason": "一句 bilibili 式分层，概括当下 AI 采纳鸿沟，适合当社会情绪快照。",
+      "tags": [
+        "指定AI名单",
+        "AI采纳",
+        "社会观察"
+      ],
+      "section": "指定AI名单",
+      "title": "AI 把人分成两类：会用它放大自己的，和怕它取消它的",
+      "rank": 12
+    },
+    {
+      "id": "2101357364171731349",
+      "author": "YuLin807",
+      "bio": "",
+      "text": "所以！Jev 之于deepseek 的痛苦面具COT！解法有2\n\n1.当你输入问题，通过pi 的 input 事件hook激活 Jev 进行判断，判断这个问题到底要维持哪个挡位的思考等级，是 high还是 low。\n2.当 pi 开始怀疑人生的时候，“我是对的吗？！”这种时候同样使用 hook Jev 进行界定。\n\n不过deepseek 自己也说，其实比较好的办法是把思维强度调整到 medium ，并且 Jev 对中文的判断是比较弱的，官方讲的 \"other languages, including CJK scripts, are handled but not equally well\"。你还得特意使用英文和deepseek 对话。\n\n综上最好的解法不是引入 Jev 而是直接把 思维等级调整到 medium！",
+      "likes": 0,
+      "retweets": null,
+      "replies": null,
+      "views": "766",
+      "created_at": "Sat Sep 19 17:06:51 +0000 2026",
+      "url": "https://x.com/i/status/2101357364171731349",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSmDXpxbYAADreb.jpg",
+        "https://pbs.twimg.com/media/HSmFFfcbEAAJ8Dx.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSmDXpxbYAADreb.jpg",
+        "https://pbs.twimg.com/media/HSmFFfcbEAAJ8Dx.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2101352587014615065",
+        "author": "YuLin807",
+        "name": "QingYue",
+        "text": "苦笑不得！刚刚让 AI 深挖了一下，我的感觉不是错觉！deepseek 花了大量的思考链来确认一件事“我的判断是不是对的”！😵\n\n统计最近的13个session，一条消息在思维链中消耗4972 Tokens，最多的一条消耗10万Token，有次我说了一句“重启”然后这家伙消耗2万+Token进行30+工具调用！何意味？！\n\n所以主要是两个病灶：\n1.推理能力high被调整的太高，我真的好奇没有一个自适应的选项吗？！\n2.同一件事想69遍来确认一件事“我有没有真的做对”\n\n@tianyi 这个结论直接给我看痛苦了！这不就是我吗？！\n\n每次在工作中调一个参数要想很久，然后调整完成之后，下班回家躺在床上也在想“到底有没有调对？！”时候过于焦虑打个车去公司看看自己调整的到底对不对？！",
+        "created_at": "Sat Sep 19 16:47:52 +0000 2026",
+        "url": "https://x.com/YuLin807/status/2101352587014615065",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HSl_e2KbcAAeoam.jpg",
+          "https://pbs.twimg.com/media/HSl_9rDaYAAUaav.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HSl_e2KbcAAeoam.jpg",
+          "https://pbs.twimg.com/media/HSl_9rDaYAAUaav.jpg"
+        ]
+      },
+      "score": 53.621,
+      "summary": "承接上文 DeepSeek 过度确认的问题，YuLin807 给出两条用 Jev 做闸门的思路：在输入 hook 时先让 Jev 决定思考档位高低；或在模型开始「我是对的吗」自我怀疑时再 hook 一次。但他也引用官方说法：Jev 对中文等 CJK 脚本支持较弱，最好用英文对话；综合判断，更简单有效的做法其实是直接把思维强度调到 medium，而不是先上 Jev。",
+      "recommend_reason": "同一作者给出可操作止血方案，并点出 Jev 中文短板，避免为了用新模型而用新模型。",
+      "tags": [
+        "指定AI名单",
+        "DeepSeek",
+        "Jev",
+        "Agent",
+        "工程实践"
+      ],
+      "section": "指定AI名单",
+      "title": "DeepSeek 狂烧思维链：与其接 Jev，不如先把档位调到 medium",
+      "rank": 13
+    },
+    {
+      "id": "2101356931118162334",
+      "author": "lixinbao_X",
+      "bio": "",
+      "text": "Anthropic 大瓜被扒出：AI 灭世背后，居然是一门生意？\n\nAI 到底会不会毁灭人类，还在争论。\n\n但当“危险”意味着更多预算、更高门槛和更大的监管权，另一个问题就躲不开了：\n\n谁在定义危险，谁又能从中获益？\n\n博主 Kevin Bass 梳理了 Anthropic 投资人与 AI 安全圈的资金、机构关系，把一个尖锐的问题摆上桌：\n\n投资 AI 的人，和支持评估 AI 的人，如果有利益关联，所谓“独立第三方”，究竟独立在哪里？\n\n这种结构值得警惕的，不是“收过捐款就一定有鬼”，而是一条可能形成的利益循环：\n\n技术越强，风险越受关注。\n风险越受关注，评估越重要。\n评估越重要，制定标准的人就越有话语权。\n\n到这一步，大家争的就不只是技术安不安全，还包括谁能坐上裁判席，谁必须拿到裁判的许可。\n\n但先别急着喊“阴谋实锤”。\n\n这瓜最有意思的反转是：Bass 自己后续公布的调查库，也没能补上那条关键资金链的交易证据。\n\nMETR 官网则表示，不接受 AI 公司资金，但使用这些公司提供的免费模型访问和 tokens。\n\n这几件事得分开。\n\n有利益关联，不等于被收买。\n接受研究资源，不等于评估造假。\n资金来源值得查，更不等于 AI 风险全是编的。\n\n不能因为消防设备能赚钱，就证明火灾不存在。\n\n但同样，也不能因为有人说自己在救火，就免查他的账本。\n\n真正该追问的是：\n\n资助附带什么条件？评估方法能不能复核？不利于资助者的报告，能不能照常发表？说了不好听的话，下一笔经费会不会受影响？\n\n“第三方”不能只是个名字，“保护人类”也不该成为免检标签。\n\n这件事最值得留下的，不是“AI 灭世都是骗局”，而是一个更现实的提醒：\n\n风险是否真实，要看证据。\n裁判是否独立，要看制度。\n\n别让“拯救人类”免于审计，也别让“揭露阴谋”免于举证。\n\nAI 要被评估，评估 AI 的人，又由谁来评估？",
+      "likes": 3,
+      "retweets": null,
+      "replies": null,
+      "views": "933",
+      "created_at": "Sat Sep 19 17:05:08 +0000 2026",
+      "url": "https://x.com/i/status/2101356931118162334",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSmE_LAa8AAIZeb.jpg",
+        "https://pbs.twimg.com/media/HSmE_KTbwAACurQ.jpg",
+        "https://pbs.twimg.com/media/HSmE_KObYAAiv85.jpg",
+        "https://pbs.twimg.com/media/HSmE_LEbYAEcgU_.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSmE_LAa8AAIZeb.jpg",
+        "https://pbs.twimg.com/media/HSmE_KTbwAACurQ.jpg",
+        "https://pbs.twimg.com/media/HSmE_KObYAAiv85.jpg",
+        "https://pbs.twimg.com/media/HSmE_LEbYAEcgU_.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 58.089,
+      "summary": "lixinbao_X 梳理博主 Kevin Bass 对 Anthropic 投资人与 AI 安全圈资金关系的质疑：当「危险」意味着预算、门槛与监管权，谁定义危险、谁从中获益就绕不开。文章提醒可能存在「技术更强→风险更受关注→评估更重要→标准制定者话语权更大」的利益循环，但也不该直接喊阴谋——Bass 后续库也未补上关键交易证据；METR 称不收 AI 公司现金但使用免费模型访问。结论是：有利益关联≠被收买；风险要看证据，裁判独立要看制度；AI 要被评估，评估者又由谁评估。",
+      "recommend_reason": "把安全叙事从情绪拉回治理结构：既不否认风险，也不放过「谁当裁判」的审计问题。",
+      "tags": [
+        "指定AI名单",
+        "Anthropic",
+        "AI安全",
+        "治理",
+        "利益冲突"
+      ],
+      "section": "指定AI名单",
+      "title": "Anthropic「灭世叙事」被追问：风险真实与裁判独立要分开审",
+      "rank": 14
+    },
+    {
+      "id": "2101352587014615065",
+      "author": "YuLin807",
+      "bio": "",
+      "text": "苦笑不得！刚刚让 AI 深挖了一下，我的感觉不是错觉！deepseek 花了大量的思考链来确认一件事“我的判断是不是对的”！😵\n\n统计最近的13个session，一条消息在思维链中消耗4972 Tokens，最多的一条消耗10万Token，有次我说了一句“重启”然后这家伙消耗2万+Token进行30+工具调用！何意味？！\n\n所以主要是两个病灶：\n1.推理能力high被调整的太高，我真的好奇没有一个自适应的选项吗？！\n2.同一件事想69遍来确认一件事“我有没有真的做对”\n\n@tianyi 这个结论直接给我看痛苦了！这不就是我吗？！\n\n每次在工作中调一个参数要想很久，然后调整完成之后，下班回家躺在床上也在想“到底有没有调对？！”时候过于焦虑打个车去公司看看自己调整的到底对不对？！",
+      "likes": 14,
+      "retweets": null,
+      "replies": null,
+      "views": "8991",
+      "created_at": "Sat Sep 19 16:47:52 +0000 2026",
+      "url": "https://x.com/i/status/2101352587014615065",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSl_e2KbcAAeoam.jpg",
+        "https://pbs.twimg.com/media/HSl_9rDaYAAUaav.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSl_e2KbcAAeoam.jpg",
+        "https://pbs.twimg.com/media/HSl_9rDaYAAUaav.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2100752629022532090",
+        "author": "YuLin807",
+        "name": "QingYue",
+        "text": "这两天强度使用 deepseek v4.1 flash，发现这模型有点子问题啊！\n\n快倒是挺快的，呼呼刷屏，但是一个小问题想的巨全面，导致我只想让他蒸个馒头，最后他给你整个雕花的馒头。\n\n而且快是很快，但是单个任务完成的速度是真的慢！\n\n这到底是官方 deepseek api 的问题还是 command code 的问题！\n\n大家有感受到没？！",
+        "created_at": "Fri Sep 18 01:03:51 +0000 2026",
+        "url": "https://x.com/YuLin807/status/2100752629022532090",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 60.015,
+      "summary": "YuLin807 统计近 13 个 session：DeepSeek 平均每条消息仅思维链就消耗约 4972 tokens，最高一条到 10 万；有次只说「重启」就触发 2 万+ tokens 与 30+ 工具调用。他归结两个病灶：推理档位被调得过高、缺少自适应；以及同一件事反复确认「我有没有做对」。对照自己调参焦虑的工作习惯，直呼这不就是本人。",
+      "recommend_reason": "非常具体的 token/工具调用账单，提醒高强度推理档位的成本与「过度确认」失败模式。",
+      "tags": [
+        "指定AI名单",
+        "DeepSeek",
+        "思维链",
+        "Token成本",
+        "Agent"
+      ],
+      "section": "指定AI名单",
+      "title": "DeepSeek 思维链太「自我确认」：一条消息可烧掉近五千 Token",
+      "rank": 15
+    },
+    {
+      "id": "2101343337026359475",
+      "author": "AI_Jasonyu",
+      "bio": "",
+      "text": "玛德， 最近Agent泛滥了啊。到底什么时候该用哪个Agent？我电脑1TB的，软件也根本装不下了~\n\n到底哪个最好用，到处都是教程，还学的过来吗？\n\nClaude、ChatGPT、MuseAI、GrokBot、Workbuddy、豆包工作~~~\n\n混蛋，真让人纠结啊 https://t.co/zon18Zk7DL",
+      "likes": 30,
+      "retweets": null,
+      "replies": null,
+      "views": "21383",
+      "created_at": "Sat Sep 19 16:11:07 +0000 2026",
+      "url": "https://x.com/i/status/2101343337026359475",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSl4mBqWwAAVEFn.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSl4mBqWwAAVEFn.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 60.468,
+      "summary": "玛德， 最近Agent泛滥了啊。到底什么时候该用哪个Agent？我电脑1TB的，软件也根本装不下了~\n\n到底哪个最好用，到处都是教程，还学的过来吗？\n\nClaude、ChatGPT、MuseAI、GrokBot、Workbuddy、豆包工作~~~\n\n混蛋，真让人纠结啊 https://t.co/zon18Zk7DL",
+      "recommend_reason": "中文圈真实吐槽：Agent 产品爆炸后的选型焦虑，代表很多用户的当下痛点。",
+      "tags": [
+        "指定AI名单",
+        "Agent",
+        "工具",
+        "中文圈"
+      ],
+      "section": "指定AI名单",
+      "rank": 16
+    }
+  ],
+  "generated_at": "2026-09-20T04:25:49Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 16,
+    "last_batch_added": 16,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
