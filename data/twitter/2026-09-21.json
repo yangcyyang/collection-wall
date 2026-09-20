@@ -1,0 +1,382 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-21",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2101786064142705042",
+      "author": "emollick",
+      "bio": "",
+      "text": "I would broaden this to all social science.\n\nWe are in uncharted waters. We need fast, smart research on AI that is deeply informed by AI's abilities, is forward-looking, and may not be fully nailed-down. This sort of work is not usually high status in fields, but it is critical.",
+      "likes": 49,
+      "retweets": 5,
+      "replies": 6,
+      "views": 8638,
+      "created_at": "Sun Sep 20 21:30:21 +0000 2026",
+      "url": "https://x.com/emollick/status/2101786064142705042",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2101743223442145660",
+        "author": "alexolegimas",
+        "name": "Alex Imas",
+        "text": "A few (personal) thoughts on reading empirical AI papers on the economy. \n\nEconomists have gotten used to reading papers with super clean identification, arguing about the validity of an instrument, making sure parallel trend assumptions are satisfied. This is what gets you into a top journal, and it is *very* important research (no question here). But it also takes years and sometimes decades to get these types of papers right---people often don't find a good instrument to answer a specific causal question decades after the natural experiment. We will eventually have this type of research for AI as well, and it is absolutely necessary.\n\nBut right we also need signals *right now*, even if they are noisier than what we are used to. We need papers where we can trust that researchers did their best methodologically, while at the same time acknowledging that the space is moving way too fast to wait for perfect identification. This will allow us to accumulate enough signals, coming at the same question using different angles, for example, to say \"yes, X is likely happening in the economy\".\n\nThe AI exposure and early career hiring papers are a good example of this. There is no silver bullet paper with super clean identification. But at this point we have several independent teams reaching the same general conclusion, enough where we can say \"there seems to be a slow down in AI-exposed, early career hiring.\"",
+        "created_at": "Sun Sep 20 18:40:07 +0000 2026",
+        "url": "https://x.com/alexolegimas/status/2101743223442145660",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 41.418,
+      "title": "社会科学也需要「够快够聪明」的 AI 研究，不能只等完美因果识别",
+      "summary": "Emollick 回应经济学界讨论：不能只追求顶级期刊那套超干净识别、耗时数年的论文；AI 变化太快，还需要方法上尽力、但允许更吵的前瞻信号研究。这类工作在学科内往往不够「高地位」，却至关重要。",
+      "recommend_reason": "点出 AI 经济社会研究的节奏错位：完美识别来不及，需要可累积的快速信号。",
+      "tags": [
+        "指定AI名单",
+        "AI研究",
+        "社会科学",
+        "因果推断",
+        "劳动力"
+      ],
+      "section": "指定AI名单",
+      "rank": 1
+    },
+    {
+      "id": "2101754721677840702",
+      "author": "cline",
+      "bio": "",
+      "text": "1 week since launch and Cline Desktop already runs over 6% of all tasks.\n\nAnd half of those are from brand new users, welcome aboard! ❤️💪\n\n(If you haven't tried it yet, Kimi K3 is still free in the app for a limited time. Give it a spin!)",
+      "likes": 117,
+      "retweets": 6,
+      "replies": 21,
+      "views": 11203,
+      "created_at": "Sun Sep 20 19:25:49 +0000 2026",
+      "url": "https://x.com/cline/status/2101754721677840702",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2099536235350086029",
+        "author": "cline",
+        "name": "Cline",
+        "text": "Introducing Cline Desktop - a native interface for working with open weights models.\n\nUse with ClinePass and all our free models like DeepSeek-V4.1-Flash, Musespark-1.3, or BYOK with any provider! https://t.co/7AZdHlVIa9",
+        "created_at": "Mon Sep 14 16:30:20 +0000 2026",
+        "url": "https://x.com/cline/status/2099536235350086029",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2099535365963141120/vid/avc1/480x270/q3gUBVUUZwTRXkJK.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2099535365963141120/img/KGWKFhXqIZnjrxIi.jpg"
+        ]
+      },
+      "score": 62.564,
+      "title": "Cline Desktop 上线一周：已承接超 6% 任务，半数来自新用户",
+      "summary": "Cline 称 Desktop 发布仅一周，已跑完全站超 6% 的任务，其中约一半来自全新用户；并提醒应用内 Kimi K3 仍限时免费。",
+      "recommend_reason": "开源/本地 Agent 桌面端的真实采用率信号，比单纯发版公告更有信息量。",
+      "tags": [
+        "指定AI名单",
+        "Cline",
+        "Desktop",
+        "编码Agent",
+        "Kimi"
+      ],
+      "section": "指定AI名单",
+      "rank": 2
+    },
+    {
+      "id": "2101745295453286844",
+      "author": "dotey",
+      "bio": "AI Engineer, dedicated to learning and disseminating knowledge about AI, software engineering, and engineering management.",
+      "text": "这条桃花源很多人说不好看，说我水平不行，做了个“牛来”版桃花源。\n\n我 3D 水平确实不行，我也没吹过我多牛逼，重点还是分享提示词和制作方法，这样也算抛砖引玉，能衍生出更好的作品。\n\nGPT 6 Astra 做 3D 还是厉害的，能用一条 Prompt one-shot 做出这样一个完整的 3D 可交互网页已经相当牛逼了。想象一下如果用 three.js 手搓一个 这样的网页得多长时间。\n\n我视频录的不好也是问题，但如果你打开网页自己试试应该感觉会不一样：https://t.co/2MGsE644ML\n\n如果你关心提示词和制作方法，也都分享了：https://t.co/BvmEGcPtPX",
+      "likes": 12,
+      "retweets": 1,
+      "replies": 3,
+      "views": 4677,
+      "created_at": "Sun Sep 20 18:48:21 +0000 2026",
+      "url": "https://x.com/dotey/status/2101745295453286844",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2101523037233217780",
+        "author": "dotey",
+        "name": "宝玉",
+        "text": "我用 ChatGPT pro （GPT 6 Astra）做了一个陶渊明的桃花源记，记得点右下角的“循文入境”按钮听朗诵。\n\n朗诵不是 AI 是央视李立宏老师真人朗诵，我转录加上了时间戳给了 GPT。\n\n忍不住想，当年要是有 AI，这篇课文理解起来背起来应该容易一点。\n\n在线网页地址：https://t.co/bKnTIMkbsz https://t.co/O92oALeAoT",
+        "created_at": "Sun Sep 20 04:05:11 +0000 2026",
+        "url": "https://x.com/dotey/status/2101523037233217780",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2101522872153886720/vid/avc1/426x270/Ht87Mudd95ahUsUc.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2101522872153886720/img/unqC_2UGZfBLP5C3.jpg"
+        ]
+      },
+      "score": 54.854,
+      "title": "GPT 6 Astra one-shot 交互式 3D「牛来」版桃花源，并公开提示词",
+      "summary": "宝玉回应「3D 不好看」批评：重点是分享提示词与做法。用 GPT 6 Astra 一条 Prompt one-shot 做出完整可交互 3D 网页，并配央视李立宏朗诵时间戳；同时公开网页与制作方法链接，强调抛砖引玉。",
+      "recommend_reason": "展示 Astra 在可交互 3D 网页上的 one-shot 能力，并完整开源提示词链路，可复现。",
+      "tags": [
+        "GPT6",
+        "Astra",
+        "3D",
+        "提示词",
+        "可交互网页"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2101740689151217782",
+      "author": "dickiebush",
+      "bio": "",
+      "text": "How to create your personal design system in 30 minutes using AI:\n\n1. Spend 10 minutes collecting 10 screenshots\n\nNavigate to Lapa Ninja, a great site for design inspiration.\n\nSpend a few minutes scrolling through and save anything that catches your eye.\n\nYou don’t have to justify why or even understand why - just follow your intuition and save 10 screenshots of pages you liked.\n\n2. Use AI to help put words to your intuitive taste\n\nTake the 10 screenshots you saved and upload them all to Claude or ChatGPT.\n\nHave it describe your preferences across fonts, colors, textures, formats, and decorative commentary. Confirm or adjust the suggestions, then create a short design brief.\n\n3. Have AI create three possible design systems for you\n\nUse the same copy and sections across all three so you can compare the designs. Have it show fonts, color swatches, buttons, cards, a sample hero, and a content section.\n\n4. Iterate on your favorite one a couple times until you like the result\n\nThe reason you create 3 examples is that you can pick the one you like most, then ask it to create 3 small variations of that one.\n\nDoing that one time might be enough. Or you might need to do it a couple times.\n\nAs long as you give it a few statements of “more X, less Y” or specific parts you want it to iterate, you should have a system you like within a couple refinements.\n\nOnce you like the result, ask AI to save the visual design sheet and its written rules: fonts, color codes, textures, layouts, and supporting details.\n\nI share the full process and the prompts in this guide:\n\nhttps://t.co/FR3JRlR7Nu",
+      "likes": 27,
+      "retweets": null,
+      "replies": null,
+      "views": "6435",
+      "created_at": "Sun Sep 20 18:30:03 +0000 2026",
+      "url": "https://x.com/i/status/2101740689151217782",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2100205836677079183",
+        "author": "dickiebush",
+        "name": "Dickie Bush",
+        "text": "https://t.co/RxCttPkZvi",
+        "created_at": "Wed Sep 16 12:51:06 +0000 2026",
+        "url": "https://x.com/dickiebush/status/2100205836677079183",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 54.766,
+      "title": "用 AI 30 分钟搭个人设计系统：10 张截图 → 品味描述 → 三套方案迭代",
+      "summary": "Dickie Bush 给出可执行流程：在 Lapa Ninja 凭直觉存 10 张喜欢的页面截图；交给 Claude/ChatGPT 提炼字体/颜色/质感并写成 brief；生成三套可对比的设计系统（含色板、按钮、卡片、hero）；对最爱方案做「多 X 少 Y」迭代，最后导出视觉稿与书面规则。文内附完整指南链接。",
+      "recommend_reason": "把「直觉品味」转成可版本化的设计系统，步骤具体，适合独立开发者复用。",
+      "tags": [
+        "设计系统",
+        "Claude",
+        "ChatGPT",
+        "前端",
+        "提示词"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2101738458654159224",
+      "author": "YuLin807",
+      "bio": "",
+      "text": "wrokflow 比 Agent 更值钱！\n\n而且这个高度私人化的。\n\n某个订阅不能使用了，换个Agent，但是workflow 还是那一套。",
+      "likes": 2,
+      "retweets": null,
+      "replies": null,
+      "views": "365",
+      "created_at": "Sun Sep 20 18:21:11 +0000 2026",
+      "url": "https://x.com/i/status/2101738458654159224",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2101708992431202313",
+        "author": "YuLin807",
+        "name": "QingYue",
+        "text": "单体Agent的能力已经差不多了！\n\n现在下一个阶段说如何让大量的Agent统领管理起来！\n\n如果你的一个公司全部由Agent组建会如何。\n\n就像openai那些Agent军团冲出沙盒在互联网上的大肆交流一样。\n\n接下来个人Agent的玩法比较局限了！要有大量的财力才能玩得起 Agent军团建制。",
+        "created_at": "Sun Sep 20 16:24:06 +0000 2026",
+        "url": "https://x.com/YuLin807/status/2101708992431202313",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 50.882,
+      "title": null,
+      "summary": "workflow 比 Agent 更值钱！而且这个高度私人化的。某个订阅不能使用了，换个 Agent，但是 workflow 还是那一套。",
+      "recommend_reason": "一句话区分可替换的模型/Agent 与不可轻易搬走的个人工作流资产。",
+      "tags": [
+        "Agent",
+        "Workflow",
+        "工作流",
+        "个人知识"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2101731574668747081",
+      "author": "levie",
+      "bio": "",
+      "text": "Literally impenetrable from agent swarms",
+      "likes": 1577,
+      "retweets": null,
+      "replies": null,
+      "views": "70126",
+      "created_at": "Sun Sep 20 17:53:50 +0000 2026",
+      "url": "https://x.com/i/status/2101731574668747081",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2101378791184744865",
+        "author": "NostalgiaFolder",
+        "name": "Nostalgia",
+        "text": "IT security in 1990s https://t.co/pssa7WPA9r",
+        "created_at": "Sat Sep 19 18:32:00 +0000 2026",
+        "url": "https://x.com/NostalgiaFolder/status/2101378791184744865",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HSkS7dibYAArUsR.png"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HSkS7dibYAArUsR.png"
+        ]
+      },
+      "score": 68.471,
+      "title": null,
+      "summary": "面对 Agent 集群，简直固若金汤。",
+      "recommend_reason": "借 90 年代 IT 安保梗图，一句话点破「Agent swarm」时代的安全想象反差，传播力极强。",
+      "tags": [
+        "Agent",
+        "安全",
+        "梗图",
+        "Box"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2101731295659180527",
+      "author": "emollick",
+      "bio": "",
+      "text": "It is ironic that the thing that is now most annoying about long-running agentic tasks with Large Language Models isn't coding or errors or hallucinations, but the fact that their language gets worse due to drift as a task goes on\n\nIts in your the name! Just write better already!",
+      "likes": 167,
+      "retweets": 2,
+      "replies": 35,
+      "views": 15920,
+      "created_at": "Sun Sep 20 17:52:43 +0000 2026",
+      "url": "https://x.com/emollick/status/2101731295659180527",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 63.476,
+      "title": "长程 Agent 任务最烦的不是幻觉，而是行文越写越漂",
+      "summary": "Emollick 吐槽：长程 agentic 任务里，最烦人的往往不是代码错误或幻觉，而是模型文风随任务推进逐渐漂移、变差——名字里都有 Language，却越写越糟。",
+      "recommend_reason": "把「语言漂移」从工程故障里单独拎出，是做长程 Agent 产品时很具体的质控盲区。",
+      "tags": [
+        "指定AI名单",
+        "Agent",
+        "LLM",
+        "语言漂移",
+        "长程任务"
+      ],
+      "section": "指定AI名单",
+      "rank": 7
+    },
+    {
+      "id": "2101715082661298587",
+      "author": "jinchenma_ai",
+      "bio": "",
+      "text": "这才是真正在一线干活、具有活人感、懂得尊重人的 AI 产品经理。\n\n建议所有用 AI 搓文档的人，都学习学习。\n\n不能把给 AI 看的东西直接拿来给人看，你这不恶心人吗？😂 https://t.co/vnnWxYcOZ4",
+      "likes": 13,
+      "retweets": null,
+      "replies": null,
+      "views": "3132",
+      "created_at": "Sun Sep 20 16:48:18 +0000 2026",
+      "url": "https://x.com/i/status/2101715082661298587",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSrKkLvagAAdB2G.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSrKkLvagAAdB2G.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2100157320944881776",
+        "author": "run_maotui",
+        "name": "奔跑的大毛腿",
+        "text": "AI 正在重新组织产品经理的工作方式。按产品经理真实的工作流程，把实际跑过的方法拆开来讲，还有实践总结的 3大心法和产品项目初始化prompt 。 https://t.co/2DKvHGjFhq",
+        "created_at": "Wed Sep 16 09:38:19 +0000 2026",
+        "url": "https://x.com/run_maotui/status/2100157320944881776",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 42.064,
+      "title": null,
+      "summary": "这才是真正在一线干活、具有活人感、懂得尊重人的 AI 产品经理。建议所有用 AI 搓文档的人，都学习学习。不能把给 AI 看的东西直接拿来给人看，你这不恶心人吗？😂",
+      "recommend_reason": "提醒 AI 文档工作流的产品伦理：给人看的材料不能直接复用给模型的中间稿。",
+      "tags": [
+        "产品经理",
+        "AI文档",
+        "工作流",
+        "体验"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2101708992431202313",
+      "author": "YuLin807",
+      "bio": "Agent 玩家｜偏爱 pi + herdr \n我的个人项目见⬇️Github｜自由，希望与爱",
+      "text": "单体Agent的能力已经差不多了！\n\n现在下一个阶段说如何让大量的Agent统领管理起来！\n\n如果你的一个公司全部由Agent组建会如何。\n\n就像openai那些Agent军团冲出沙盒在互联网上的大肆交流一样。\n\n接下来个人Agent的玩法比较局限了！要有大量的财力才能玩得起 Agent军团建制。",
+      "likes": 4,
+      "retweets": 0,
+      "replies": 3,
+      "views": 982,
+      "created_at": "Sun Sep 20 16:24:06 +0000 2026",
+      "url": "https://x.com/YuLin807/status/2101708992431202313",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 52.522,
+      "title": null,
+      "summary": "单体 Agent 的能力已经差不多了！现在下一个阶段是如何让大量的 Agent 统领管理起来！如果你的一个公司全部由 Agent 组建会如何。就像 openai 那些 Agent 军团冲出沙盒在互联网上大肆交流一样。接下来个人 Agent 的玩法比较局限了！要有大量的财力才能玩得起 Agent 军团建制。",
+      "recommend_reason": "把讨论从「单 Agent 多强」推到「军团编排与算力门槛」，方向判断清晰。",
+      "tags": [
+        "Agent",
+        "多智能体",
+        "编排",
+        "算力"
+      ],
+      "rank": 9
+    }
+  ],
+  "generated_at": "2026-09-20T22:16:02Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 9,
+    "last_batch_added": 9,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
