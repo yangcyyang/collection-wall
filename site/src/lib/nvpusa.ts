@@ -14,12 +14,13 @@ export {
   matchesFilter,
   matchesSearch,
   profileUrl,
+  shuffleItems,
   snippet,
   sortItems,
 } from "./nvpusa.mjs";
 
 export type NvpusaFilterId = "all" | "hot" | "verified" | "top" | "100k" | "recent" | "lost";
-export type NvpusaSortId = "followers" | "clicks" | "recent" | "name";
+export type NvpusaSortId = "random" | "followers" | "clicks" | "recent" | "name";
 
 export type NvpusaItem = {
   id: string;

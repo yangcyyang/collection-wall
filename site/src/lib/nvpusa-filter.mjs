@@ -53,7 +53,29 @@ export function defaultSortForFilter(filter) {
   return "followers";
 }
 
-export function sortItems(items, sort = "followers") {
+export function shuffleItems(items, random = Math.random) {
+  const list = [...items];
+  for (let i = list.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(random() * (i + 1));
+    [list[i], list[j]] = [list[j], list[i]];
+  }
+  return list;
+}
+
+function orderItems(items, order) {
+  const rank = new Map(order.map((name, index) => [name, index]));
+  return [...items].sort((left, right) => {
+    const leftRank = rank.has(left?.screen_name) ? rank.get(left.screen_name) : Number.POSITIVE_INFINITY;
+    const rightRank = rank.has(right?.screen_name) ? rank.get(right.screen_name) : Number.POSITIVE_INFINITY;
+    return leftRank - rightRank;
+  });
+}
+
+export function sortItems(items, sort = "followers", { random = Math.random, order } = {}) {
+  if (sort === "random") {
+    if (Array.isArray(order) && order.length) return orderItems(items, order);
+    return shuffleItems(items, random);
+  }
   const list = [...items];
   const numeric = (key) => (left, right) => (Number(right?.[key]) || 0) - (Number(left?.[key]) || 0);
   if (sort === "clicks") return list.sort(numeric("total_clicks"));
@@ -66,11 +88,12 @@ export function sortItems(items, sort = "followers") {
   return list.sort(numeric("followers_count"));
 }
 
-export function filterArchive(items, { filter = "all", query = "", sort } = {}) {
+export function filterArchive(items, { filter = "all", query = "", sort, random, order } = {}) {
   const resolvedSort = sort ?? defaultSortForFilter(filter);
   return sortItems(
     items.filter((item) => matchesFilter(item, filter) && matchesSearch(item, query)),
     resolvedSort,
+    { random, order },
   );
 }
 
