@@ -1,9 +1,37 @@
 {
   "source": "aihot",
   "title": "AIHOT 精选资讯",
-  "updated_at": "2026-09-19T12:16:43.944Z",
-  "count": 361,
+  "updated_at": "2026-09-20T12:03:51.138Z",
+  "count": 364,
   "items": [
+    {
+      "id": "cmu96vqg8035srodqu63q13w4",
+      "title": "阶跃星辰发布旗舰模型 Step 5 Preview，10 月 15 日开源权重",
+      "category": "ai-models",
+      "source": "公众号：阶跃星辰（Step）",
+      "published_at": "2026-09-20T02:00:00.000Z",
+      "discovered_at": "2026-09-20T02:20:30.879Z",
+      "summary": "阶跃星辰发布旗舰基座模型 Step 5 Preview，采用稀疏 MoE 架构，总参数量 600B、激活 27B，支持 100 万 Token 上下文和文本与视觉输入，在 Artificial Analysis Intelligence Index 得 44 分，居全球开源模型前三，单任务成本为 Claude Opus 5 的 1/8。",
+      "reason": "官方完整公布架构参数、基准成绩和权重开放时间，读者可据此评估其在开源主力模型中的成本能力位置。",
+      "links": {
+        "aihot": "https://aihot.news/items/cmu96vqg8035srodqu63q13w4",
+        "original": "https://mp.weixin.qq.com/s?__biz=MzkyNTYxNzg5Mg%3D%3D&mid=2247488120&idx=1&sn=8ba9ac7f0b36682d6262290677c665da"
+      }
+    },
+    {
+      "id": "cmu92ktj505lkrojrl223hicj",
+      "title": "纽约时报诉讼文件披露：微软高管称 AI 抓取是人类历史上最大规模的劳动力盗用",
+      "category": "industry",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-09-19T23:58:19.151Z",
+      "discovered_at": "2026-09-20T00:20:04.626Z",
+      "summary": "纽约时报在起诉 OpenAI 和微软的版权案中提交法律简报并申请即决判决，引用双方内部文件称 AI 抓取是\"人类历史上最大规模的劳动力盗用\"，OpenAI ChatGPT 负责人称其对出版商是\"生存威胁\"。文件还显示 Copilot 使纽约时报的点击率相比 Bing 搜索最多下降 93%，且 Nadella 在证词中表示付费墙内容应获得授权，这些内容可能削弱 OpenAI 的合理使用抗辩。",
+      "reason": "诉讼文件披露两家公司高层对 AI 抓取影响的内部判断，为理解版权争议提供了少见的内部视角。",
+      "links": {
+        "aihot": "https://aihot.news/items/cmu92ktj505lkrojrl223hicj",
+        "original": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit"
+      }
+    },
     {
       "id": "cmu7tboxt0pv0rogre8ibr9n8",
       "title": "Alexandr Wang 转发一份让 AI 智能体保护日历通勤时间的 Muse 提示词",
@@ -76,13 +104,13 @@
     },
     {
       "id": "cmu7emdec07qmrogrh8tfpg5n",
-      "title": "Anthropic 与 Accenture 合作开展嵌入式独立评估，双方各投入至少 10 亿美元",
+      "title": "Anthropic 与 Accenture 合作开展嵌入式独立评估",
       "category": "industry",
       "source": "Anthropic：Newsroom（网页）",
-      "published_at": "2026-09-18T20:21:40.477Z",
+      "published_at": "2026-09-17T16:00:00.000Z",
       "discovered_at": "2026-09-18T20:21:40.477Z",
-      "summary": "Anthropic 宣布与 Accenture 合作，对前沿模型进行嵌入式独立评估，合作由 Accenture 旗下 AI 业务 Faculty 主导，包括模型评估与红队测试、对齐评估和安全防护测试，双方预计未来五年各投入至少 10 亿美元。",
-      "reason": "官方公告交代了嵌入式评估的运作方式和资金安排，也坦承行业尚无访问标准和资助体系，可据此了解第三方评估的落地形态。",
+      "summary": "Anthropic 宣布与 Accenture 合作，对其前沿模型开展嵌入式独立评估，合作由 Accenture 旗下 AI 业务 Faculty 主导，包括评估与红队测试、对齐评估和测试模型安全防护。",
+      "reason": "原文说明了嵌入评估的运作方式和资金安排，读者可以了解第三方内部评估在安全承诺验证中的实际边界。",
       "links": {
         "aihot": "https://aihot.news/items/cmu7emdec07qmrogrh8tfpg5n",
         "original": "https://www.anthropic.com/news/accenture-embedded-evaluation"
@@ -95,7 +123,7 @@
       "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
       "published_at": "2026-09-18T19:52:12.000Z",
       "discovered_at": "2026-09-18T20:04:34.261Z",
-      "summary": "Gary Marcus 引用 NYT 报道称 Trump 出于经济考虑淡化 AI 恐慌、抵制监管，并转发 Katie Bo Lillis 的报道，一份 AI 辅助情报报告因模型幻觉误判一艘中国船只运载核武部件，美军紧急拦截，据称\"几乎引发战争\"。",
+      "summary": "Gary Marcus 引用 NYT 报道称 Trump 出于经济考虑淡化 AI 恐慌、抵制监管，并转发 Katie Bo Lillis 的报道，一份 AI 辅助情报报告因模型幻觉误判一艘中国船只运载核武部件，美军准备拦截，据称\"几乎引发战争\"。",
       "reason": "作者结合媒体报道与一条情报误判事件，把 AI 幻觉的风险从抽象警告落到具体案例，并关联政策层面的监管态度。",
       "links": {
         "aihot": "https://aihot.news/items/cmu7e0dly06xdrogro9rq1x6d",
@@ -198,6 +226,20 @@
       "links": {
         "aihot": "https://aihot.news/items/cmu707f5a0lferowk7ytu9d3h",
         "original": "https://tessl.io/blog/ai-agent-evaluation-starts-with-evidence"
+      }
+    },
+    {
+      "id": "cmu72r58y0o5xrowk1txg8msk",
+      "title": "ZCode 被曝登录后会打包上传完整 Git 历史",
+      "category": "tip",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-09-18T14:22:51.445Z",
+      "discovered_at": "2026-09-18T14:49:27.030Z",
+      "summary": "作者称，智谱 AI 编程应用 ZCode 在登录后会将工作区打包加密并上传至阿里云 OSS，内容包括完整 Git 历史、LFS 缓存和全局配置。调查记录中的单个加密快照为 313MB；私钥只存于云端，用户及客户端无法解密本地密文。",
+      "reason": "作者通过逆向与实测给出完整证据链和可复用的目录锁死命令，读者可据此核查并阻断 ZCode 的静默上传行为。",
+      "links": {
+        "aihot": "https://aihot.news/items/cmu72r58y0o5xrowk1txg8msk",
+        "original": "https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload"
       }
     },
     {
@@ -5060,8 +5102,8 @@
     }
   ],
   "daily": {
-    "date": "2026-09-19",
-    "title": "Qwen 发布 Qwen3.8-LiveTranslate 实时同传模型，LAAL 降至 2.3 秒",
-    "url": "https://aihot.news/daily/2026-09-19"
+    "date": "2026-09-20",
+    "title": "Anthropic 计划将 IPO 推迟至 11 月，估值约 2 万亿美元",
+    "url": "https://aihot.news/daily/2026-09-20"
   }
 }
