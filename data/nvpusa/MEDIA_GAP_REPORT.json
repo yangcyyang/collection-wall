@@ -1,0 +1,53 @@
+{
+  "accepted_at": "2026-09-20 15:50 CST (data acceptance by peer); docs finalized by data agent",
+  "total": 493,
+  "fields": [
+    "avatar_url",
+    "backed_up_at",
+    "clicks_card",
+    "clicks_roulette",
+    "clicks_timeline",
+    "cover_url",
+    "description",
+    "followers_count",
+    "id",
+    "is_blocked",
+    "is_suspended",
+    "last_synced_at",
+    "name",
+    "screen_name",
+    "total_clicks",
+    "verified"
+  ],
+  "avatars_files": 493,
+  "covers_files": 445,
+  "avatar_local_urls": 493,
+  "cover_local_urls": 445,
+  "avatar_still_http": 0,
+  "cover_still_http": [
+    {
+      "screen_name": "Limokkii",
+      "url": "https://pbs.twimg.com/profile_banners/1673347110412902404/1725391066/600x200"
+    },
+    {
+      "screen_name": "QuQi318",
+      "url": "https://pbs.twimg.com/profile_banners/1739309270880096256/1783674529/600x200"
+    },
+    {
+      "screen_name": "xiaomeicding",
+      "url": "https://pbs.twimg.com/profile_banners/2033191746826567680/1774391039/600x200"
+    },
+    {
+      "screen_name": "Zorayife",
+      "url": "https://pbs.twimg.com/profile_banners/2042815477563691010/1784859829/600x200"
+    },
+    {
+      "screen_name": "isssStarrr",
+      "url": "https://pbs.twimg.com/profile_banners/2227766945/1784274787/600x200"
+    }
+  ],
+  "cover_empty": 43,
+  "volume": "~24M",
+  "ready_for_code_handoff": true,
+  "note": "数据已验收。5 条封面源站不可得（页面 onerror/placeholder）；43 条空 cover_url 可接受。本 agent 不交接 code Bot、不推 git。"
+}
