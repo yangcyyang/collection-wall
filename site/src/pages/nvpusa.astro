@@ -1,0 +1,264 @@
+---
+import "../styles/global.css";
+import LogoutControl from "../components/LogoutControl.astro";
+import SiteNav from "../components/SiteNav.astro";
+import {
+  avatarSrc,
+  coverSrc,
+  filterCounts,
+  formatFollowers,
+  getArchive,
+  isLost,
+  isVerified,
+  profileUrl,
+  snippet,
+} from "../lib/nvpusa";
+
+const items = await getArchive();
+const filters = filterCounts(items);
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="X 博主精选画廊，按粉丝、认证和归档状态浏览" />
+    <title>nvpusa · 工具库</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#nvpusa-grid">跳到列表</a>
+    <div class="page-shell">
+      <header class="site-header">
+        <div>
+          <p class="eyebrow">X 博主精选画廊</p>
+          <h1>nvpusa</h1>
+          <p class="intro">从 archive.local.json 读取去重备份，可搜索、筛选、排序或随机探索。卡片外链打开 X。</p>
+        </div>
+        <div class="header-stats">
+          <p class="record-count" data-record-count data-total={items.length}>
+            {items.length} 位博主
+          </p>
+          <LogoutControl />
+        </div>
+      </header>
+
+      <SiteNav current="nvpusa" />
+
+      {items.length === 0 ? (
+        <main id="nvpusa-grid">
+          <section class="empty-state" aria-labelledby="empty-title">
+            <p class="empty-icon">✦</p>
+            <h2 id="empty-title">还没有 nvpusa 条目</h2>
+            <p>把归档放到 data/nvpusa/archive.local.json 后会出现在这里。</p>
+          </section>
+        </main>
+      ) : (
+        <>
+          <div class="prompt-toolbar nvpusa-toolbar">
+            <label class="prompt-search">
+              <span class="visually-hidden">搜索 handle、昵称或简介</span>
+              <input type="search" data-nvpusa-search placeholder="搜索 handle、昵称或简介" />
+            </label>
+            <label class="nvpusa-sort">
+              <span class="visually-hidden">排序</span>
+              <select data-nvpusa-sort>
+                <option value="followers">按粉丝数</option>
+                <option value="clicks">按热门点击</option>
+                <option value="recent">按归档时间</option>
+                <option value="name">按名称</option>
+              </select>
+            </label>
+            <button class="tag-filter" type="button" data-nvpusa-random>随机探索</button>
+          </div>
+          <div class="tag-filter-row" aria-label="按状态筛选">
+            {filters.map(({ id, label, count }, index) => (
+              <button
+                class:list={["tag-filter", { "is-selected": index === 0 }]}
+                type="button"
+                data-nvpusa-filter={id}
+                aria-pressed={index === 0 ? "true" : "false"}
+              >{label}<em>{count}</em></button>
+            ))}
+          </div>
+          <p class="prompt-empty-filter" data-filter-empty hidden>没有符合筛选的博主 <button type="button" data-clear-filters>清除筛选</button></p>
+
+          <main id="nvpusa-grid" class="tool-grid skill-grid" aria-label="nvpusa 卡片">
+            {items.map((item) => {
+              const cover = coverSrc(item);
+              const avatar = avatarSrc(item);
+              const href = profileUrl(item);
+              const lost = isLost(item);
+              return (
+                <article
+                  class="tool-card nvpusa-card"
+                  data-nvpusa
+                  data-screen-name={item.screen_name}
+                  data-name={item.name}
+                  data-description={item.description ?? ""}
+                  data-followers={item.followers_count ?? 0}
+                  data-clicks={item.total_clicks ?? 0}
+                  data-backed-up={item.backed_up_at ?? ""}
+                  data-verified={isVerified(item) ? "1" : "0"}
+                  data-suspended={item.is_suspended ?? 0}
+                >
+                  <a class="card-link" href={href} target="_blank" rel="noreferrer" aria-label={`${item.name} @${item.screen_name}`}></a>
+                  <div class="cover-wrap">
+                    {cover ? (
+                      <>
+                        <img src={cover} alt="" loading="lazy" data-nvpusa-media />
+                        <div class="cover-fallback" hidden aria-hidden="true">✦</div>
+                      </>
+                    ) : (
+                      <div class="cover-fallback" aria-hidden="true">✦</div>
+                    )}
+                  </div>
+                  <div class="card-content">
+                    <div class="nvpusa-identity">
+                      {avatar ? (
+                        <>
+                          <img class="nvpusa-avatar" src={avatar} alt="" loading="lazy" data-nvpusa-avatar />
+                          <span class="nvpusa-avatar nvpusa-avatar-fallback" hidden aria-hidden="true">{(item.name || item.screen_name || "?").slice(0, 1)}</span>
+                        </>
+                      ) : (
+                        <span class="nvpusa-avatar nvpusa-avatar-fallback" aria-hidden="true">{(item.name || item.screen_name || "?").slice(0, 1)}</span>
+                      )}
+                      <div class="nvpusa-names">
+                        <h3>
+                          {item.name}
+                          {isVerified(item) && <span class="status common">认证</span>}
+                        </h3>
+                        <p class="nvpusa-handle">@{item.screen_name}</p>
+                      </div>
+                    </div>
+                    <div class="card-meta">
+                      <span class="category">{formatFollowers(item.followers_count)} 粉丝</span>
+                      {lost && <span class="status new">流失</span>}
+                    </div>
+                    <p title={item.description || ""}>{snippet(item.description) || "暂无简介"}</p>
+                  </div>
+                </article>
+              );
+            })}
+          </main>
+        </>
+      )}
+    </div>
+    <footer class="site-footer">
+      <p>
+        <strong>数据来源说明</strong>：条目来自 data/nvpusa/archive.local.json，构建时原样读取，不改写条目原文。头像与封面由 prebuild 同步到站点静态目录。
+      </p>
+    </footer>
+    <script>
+      import { defaultSortForFilter, filterArchive, itemFromCard } from "../lib/nvpusa-filter.mjs";
+
+      const searchInput = document.querySelector("[data-nvpusa-search]");
+      const sortSelect = document.querySelector("[data-nvpusa-sort]");
+      const filterButtons = document.querySelectorAll("[data-nvpusa-filter]");
+      const cards = [...document.querySelectorAll("[data-nvpusa]")];
+      const countEl = document.querySelector("[data-record-count]");
+      const filterEmpty = document.querySelector("[data-filter-empty]");
+      const grid = document.querySelector("#nvpusa-grid");
+      let activeFilter = "all";
+
+      function currentQuery() {
+        return searchInput instanceof HTMLInputElement ? searchInput.value : "";
+      }
+
+      function currentSort() {
+        return sortSelect instanceof HTMLSelectElement ? sortSelect.value : "followers";
+      }
+
+      function visibleCards() {
+        const ranked = filterArchive(cards.map(itemFromCard), {
+          filter: activeFilter,
+          query: currentQuery(),
+          sort: currentSort(),
+        });
+        const order = new Map(ranked.map((item, index) => [item.screen_name, index]));
+        return cards.filter((card) => {
+          const index = order.get(card.getAttribute("data-screen-name") ?? "");
+          card.hidden = index === undefined;
+          if (index !== undefined) card.style.order = String(index);
+          return index !== undefined;
+        });
+      }
+
+      function refresh() {
+        const visible = visibleCards();
+        if (countEl) countEl.textContent = `${visible.length} 位博主`;
+        if (filterEmpty) filterEmpty.hidden = visible.length !== 0;
+      }
+
+      function selectFilter(next) {
+        activeFilter = next || "all";
+        if (sortSelect instanceof HTMLSelectElement) sortSelect.value = defaultSortForFilter(activeFilter);
+        filterButtons.forEach((item) => {
+          const selected = (item.getAttribute("data-nvpusa-filter") ?? "") === activeFilter;
+          item.classList.toggle("is-selected", selected);
+          item.setAttribute("aria-pressed", selected ? "true" : "false");
+        });
+        refresh();
+      }
+
+      filterButtons.forEach((button) => button.addEventListener("click", () => {
+        selectFilter(button.getAttribute("data-nvpusa-filter") ?? "all");
+      }));
+      searchInput?.addEventListener("input", refresh);
+      sortSelect?.addEventListener("change", refresh);
+      document.querySelector("[data-clear-filters]")?.addEventListener("click", () => {
+        if (searchInput instanceof HTMLInputElement) searchInput.value = "";
+        selectFilter("all");
+      });
+      document.querySelector("[data-nvpusa-random]")?.addEventListener("click", () => {
+        const pool = visibleCards();
+        if (!pool.length) return;
+        const pick = pool[Math.floor(Math.random() * pool.length)];
+        cards.forEach((card) => card.classList.remove("is-ask-hit"));
+        pick.classList.add("is-ask-hit");
+        pick.scrollIntoView({ block: "center", behavior: "smooth" });
+      });
+      document.querySelectorAll("[data-nvpusa-media], [data-nvpusa-avatar]").forEach((node) => {
+        node.addEventListener("error", () => {
+          if (!(node instanceof HTMLImageElement)) return;
+          node.hidden = true;
+          const fallback = node.nextElementSibling;
+          if (fallback instanceof HTMLElement) fallback.hidden = false;
+        });
+      });
+      if (grid instanceof HTMLElement) grid.style.display = "grid";
+      refresh();
+    </script>
+  </body>
+</html>
+
+<style>
+  .nvpusa-toolbar { align-items: center; display: flex; flex-wrap: wrap; gap: var(--spacing-sm); }
+  .nvpusa-sort select {
+    background: var(--color-surface);
+    border: var(--border-width) solid var(--color-border);
+    border-radius: var(--radius-card);
+    color: var(--color-text-primary);
+    padding: var(--spacing-sm) var(--spacing-md);
+  }
+  .nvpusa-sort select:focus-visible { outline: var(--outline-width) solid var(--color-brand); outline-offset: var(--outline-width); }
+  .nvpusa-identity { align-items: center; display: flex; gap: var(--spacing-sm); margin-bottom: var(--spacing-sm); }
+  .nvpusa-avatar {
+    background: var(--color-bg);
+    border: var(--border-width) solid var(--color-border);
+    border-radius: 999px;
+    flex-shrink: 0;
+    height: 2.75rem;
+    object-fit: cover;
+    width: 2.75rem;
+  }
+  .nvpusa-avatar-fallback {
+    align-items: center;
+    color: var(--color-text-secondary);
+    display: inline-flex;
+    font-size: var(--font-size-caption);
+    justify-content: center;
+  }
+  .nvpusa-names { min-width: 0; }
+  .nvpusa-names h3 { align-items: center; display: flex; flex-wrap: wrap; gap: var(--spacing-xs); margin-bottom: 0; }
+  .nvpusa-handle { color: var(--color-text-secondary); font-size: var(--font-size-caption); margin: var(--spacing-xs) 0 0; }
+</style>

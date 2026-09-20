@@ -16,3 +16,5 @@ async function syncCovers(from, to) {
 
 await syncCovers(join(repoRoot, "data/tools/covers"), join(repoRoot, "site/public/covers"));
 await syncCovers(join(repoRoot, "data/skills/covers"), join(repoRoot, "site/public/skills/covers"));
+await syncCovers(join(repoRoot, "data/nvpusa/avatars"), join(repoRoot, "site/public/nvpusa/avatars"));
+await syncCovers(join(repoRoot, "data/nvpusa/covers"), join(repoRoot, "site/public/nvpusa/covers"));

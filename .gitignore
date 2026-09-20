@@ -4,6 +4,7 @@ site/dist/
 .wrangler/
 site/public/covers/
 site/public/skills/covers/
+site/public/nvpusa/
 .astro/
 .DS_Store
 .cat-cafe/
