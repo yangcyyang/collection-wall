@@ -235,6 +235,13 @@ test("导航、登录文案与页面约定", async () => {
   assert.match(page, /userChoseSort/);
   assert.match(page, /rebuildRandomOrder|randomOrder/);
   assert.doesNotMatch(page, /sortSelect\.value = defaultSortForFilter/);
+  assert.doesNotMatch(page, /sessionStorage|localStorage/);
+  assert.match(page, /rebuildRandomOrder\(\);\s*refresh\(\)/);
+  const randomClick = page.match(/querySelector\("\[data-nvpusa-random\]"\)[\s\S]*?addEventListener\("click", \(\) => \{[\s\S]*?\}\);/);
+  assert.ok(randomClick, "随机探索按钮应绑定 click");
+  assert.match(randomClick[0], /rebuildRandomOrder/);
+  assert.match(randomClick[0], /userChoseSort = false/);
+  assert.match(page, /currentSort\(\) === "random"[\s\S]*appendChild/);
   const filterLib = await readFile(new URL("../src/lib/nvpusa-filter.mjs", import.meta.url), "utf8");
   assert.match(filterLib, /https:\/\/x\.com\//);
   assert.doesNotMatch(auth, /PUBLIC_EXACT[\s\S]*nvpusa/);

@@ -184,6 +184,13 @@ const filters = filterCounts(items);
           order: randomOrder,
         });
         const order = new Map(ranked.map((item, index) => [item.screen_name, index]));
+        const byName = new Map(cards.map((card) => [card.getAttribute("data-screen-name") ?? "", card]));
+        if (currentSort() === "random" && grid instanceof HTMLElement) {
+          ranked.forEach((item) => {
+            const card = byName.get(item.screen_name);
+            if (card) grid.appendChild(card);
+          });
+        }
         return cards.filter((card) => {
           const index = order.get(card.getAttribute("data-screen-name") ?? "");
           card.hidden = index === undefined;
@@ -223,6 +230,10 @@ const filters = filterCounts(items);
         selectFilter("all");
       });
       document.querySelector("[data-nvpusa-random]")?.addEventListener("click", () => {
+        userChoseSort = false;
+        if (sortSelect instanceof HTMLSelectElement) sortSelect.value = "random";
+        rebuildRandomOrder();
+        refresh();
         const pool = visibleCards();
         if (!pool.length) return;
         const pick = pool[Math.floor(Math.random() * pool.length)];
