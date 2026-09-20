@@ -62,6 +62,7 @@ const filters = filterCounts(items);
             <label class="nvpusa-sort">
               <span class="visually-hidden">排序</span>
               <select data-nvpusa-sort>
+                <option value="random">随机</option>
                 <option value="followers">按粉丝数</option>
                 <option value="clicks">按热门点击</option>
                 <option value="recent">按归档时间</option>
@@ -149,7 +150,7 @@ const filters = filterCounts(items);
       </p>
     </footer>
     <script>
-      import { defaultSortForFilter, filterArchive, itemFromCard } from "../lib/nvpusa-filter.mjs";
+      import { filterArchive, itemFromCard, shuffleItems } from "../lib/nvpusa-filter.mjs";
 
       const searchInput = document.querySelector("[data-nvpusa-search]");
       const sortSelect = document.querySelector("[data-nvpusa-sort]");
@@ -159,13 +160,20 @@ const filters = filterCounts(items);
       const filterEmpty = document.querySelector("[data-filter-empty]");
       const grid = document.querySelector("#nvpusa-grid");
       let activeFilter = "all";
+      let userChoseSort = false;
+      let randomOrder = [];
 
       function currentQuery() {
         return searchInput instanceof HTMLInputElement ? searchInput.value : "";
       }
 
       function currentSort() {
-        return sortSelect instanceof HTMLSelectElement ? sortSelect.value : "followers";
+        if (userChoseSort && sortSelect instanceof HTMLSelectElement) return sortSelect.value;
+        return "random";
+      }
+
+      function rebuildRandomOrder() {
+        randomOrder = shuffleItems(cards.map((card) => card.getAttribute("data-screen-name") ?? ""));
       }
 
       function visibleCards() {
@@ -173,6 +181,7 @@ const filters = filterCounts(items);
           filter: activeFilter,
           query: currentQuery(),
           sort: currentSort(),
+          order: randomOrder,
         });
         const order = new Map(ranked.map((item, index) => [item.screen_name, index]));
         return cards.filter((card) => {
@@ -191,7 +200,7 @@ const filters = filterCounts(items);
 
       function selectFilter(next) {
         activeFilter = next || "all";
-        if (sortSelect instanceof HTMLSelectElement) sortSelect.value = defaultSortForFilter(activeFilter);
+        if (!userChoseSort && sortSelect instanceof HTMLSelectElement) sortSelect.value = "random";
         filterButtons.forEach((item) => {
           const selected = (item.getAttribute("data-nvpusa-filter") ?? "") === activeFilter;
           item.classList.toggle("is-selected", selected);
@@ -204,7 +213,11 @@ const filters = filterCounts(items);
         selectFilter(button.getAttribute("data-nvpusa-filter") ?? "all");
       }));
       searchInput?.addEventListener("input", refresh);
-      sortSelect?.addEventListener("change", refresh);
+      sortSelect?.addEventListener("change", () => {
+        userChoseSort = true;
+        if (sortSelect instanceof HTMLSelectElement && sortSelect.value === "random") rebuildRandomOrder();
+        refresh();
+      });
       document.querySelector("[data-clear-filters]")?.addEventListener("click", () => {
         if (searchInput instanceof HTMLInputElement) searchInput.value = "";
         selectFilter("all");
@@ -226,6 +239,7 @@ const filters = filterCounts(items);
         });
       });
       if (grid instanceof HTMLElement) grid.style.display = "grid";
+      rebuildRandomOrder();
       refresh();
     </script>
   </body>

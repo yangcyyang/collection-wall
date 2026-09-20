@@ -16,6 +16,7 @@ import {
   matchesFilter,
   matchesSearch,
   profileUrl,
+  shuffleItems,
   snippet,
   sortItems,
 } from "./nvpusa-filter.mjs";
@@ -44,6 +45,7 @@ export {
   matchesFilter,
   matchesSearch,
   profileUrl,
+  shuffleItems,
   snippet,
   sortItems,
 };
