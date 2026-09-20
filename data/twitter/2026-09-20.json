@@ -9,6 +9,692 @@
   },
   "items": [
     {
+      "id": "2101701427626410239",
+      "author": "lmsysorg",
+      "bio": "Large Model Systems Organization: We developed SGLang @sgl_project (https://t.co/OjwQadINKU), Chatbot Arena (now @arena), and Vicuna!",
+      "text": "🚀 New blog: Cosmos3 in RLinf: 3.33× End-to-End Evaluation Throughput with SGLang\n\nRLinf is an open-source framework designed for embodied intelligence & AI agents. It now supports Cosmos3 from fine-tuning to robot evaluation. With SGLang inference support, we deliver 3.33× end-to-end evaluation throughput\n\nHighlights:\n- SGLang batches inference for 128 parallel environments on 8 GPUs. Covering 500 episodes of the full LIBERO-10 evaluation.\n- RLinf overlaps CPU simulation with GPU inference to reduce waiting between stages.\n\nThanks to the RLinf team for the integration!\nRead the full blog below 👇",
+      "likes": 5,
+      "retweets": 0,
+      "replies": 1,
+      "views": 372,
+      "created_at": "Sun Sep 20 15:54:02 +0000 2026",
+      "url": "https://x.com/lmsysorg/status/2101701427626410239",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSq-NjfbgAIzZWd.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSq-NjfbgAIzZWd.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 64.253,
+      "title": "RLinf×Cosmos3：SGLang 加持端到端评测吞吐提升 3.33×",
+      "summary": "LMSYS 介绍开源具身/Agent 框架 RLinf 已支持 Cosmos3（微调到机器人评测）。接入 SGLang 后，端到端评测吞吐提升 3.33×：可在 8 GPU 上批处理 128 并行环境、覆盖 LIBERO-10 全量 500 episode，并让 CPU 仿真与 GPU 推理重叠以减少阶段等待。",
+      "recommend_reason": "具身评测常被推理调度拖慢；把 SGLang 批推理写进 RLinf 是可复现的工程增益。",
+      "tags": [
+        "指定AI名单",
+        "RLinf",
+        "Cosmos3",
+        "SGLang",
+        "具身智能"
+      ],
+      "section": "指定AI名单",
+      "rank": 1
+    },
+    {
+      "id": "2101687015389683904",
+      "author": "vista8",
+      "bio": "",
+      "text": "发现写文章，跟别人沟通协作，还是飞书体验好。\n\n无论点评修改，还是版本控制，都是一流。\n\nObsidian 因为本地化，在线沟通协作还是障碍。\n\n好在有了飞书Cli，能方便的把本地 Markdown 和资源转成飞书文档。\n\n飞书文档也能下载为Markdown+资源文件。\n\n写了个Skill把飞书图文、视频发布到自己的博客。\n\n再同步到公众号（发草稿） 和 X文章（Chrome插件同步）",
+      "created_at": "Sun Sep 20 14:56:46 +0000 2026",
+      "likes": 13,
+      "views": "3839",
+      "url": "https://x.com/i/status/2101687015389683904",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSqxBWCbIAANQj2.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSqxBWCbIAANQj2.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 59.743,
+      "title": null,
+      "summary": "发现写文章、跟别人沟通协作，还是飞书体验好。无论点评修改还是版本控制都是一流。Obsidian 因为本地化，在线协作仍有障碍。好在有了飞书 CLI，能方便把本地 Markdown 和资源转成飞书文档，飞书文档也能下载为 Markdown+资源。写了个 Skill 把飞书图文、视频发到自己的博客，再同步到公众号（发草稿）和 X 文章（Chrome 插件同步）。",
+      "recommend_reason": "本地 Markdown ↔ 飞书 ↔ 博客/公号/X 的 Skill 闭环，写作者协作栈很务实。",
+      "tags": [
+        "指定AI名单",
+        "飞书",
+        "Skill",
+        "内容工作流",
+        "Obsidian"
+      ],
+      "section": "指定AI名单",
+      "rank": 2
+    },
+    {
+      "id": "2101674340676710709",
+      "author": "LufzzLiz",
+      "bio": "",
+      "text": "Qwen-Image 2.1 发布，这个图有意思，直观看到性能已经超越Nano banana 了，而且是7B 开源\n但开源协议从Apache 2.0 退到 research--任何商业用途，需要单独授权\n\nalpha 通道是亮点：可以直接出透明图，alpha做进了 VAE，64 通道、16 倍空间压缩，贴纸、图标、UI 素材不用生成完再抠一刀，模型直接吐 RGBA。\n\n\"7B\" 只指 32 层单流 DiT；文本编码器是 Qwen3-VL 8B，加 RGBA VAE，整包 33.13 GB",
+      "created_at": "Sun Sep 20 14:06:24 +0000 2026",
+      "likes": 1,
+      "views": "581",
+      "url": "https://x.com/i/status/2101674340676710709",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSqj819a0AA_EzO.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSqj819a0AA_EzO.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 55.151,
+      "title": "Qwen-Image-2.1：跑分超 Nano Banana，但协议从 Apache 退到 research",
+      "summary": "作者对照跑分图指出 Qwen-Image-2.1 已直观超过 Nano Banana，且 7B 开源；但许可证从 Apache 2.0 退到 research——任何商业用途需单独授权。技术上 alpha 通道写进 VAE（64 通道、16× 空间压缩），可直接出透明图；所谓「7B」只指 32 层单流 DiT，文本编码器是 Qwen3-VL-8B，整包约 33.13GB。",
+      "recommend_reason": "官方发布之外的关键信息：性能与协议/体积要一起看，避免「开源=可商用」误判。",
+      "tags": [
+        "指定AI名单",
+        "Qwen-Image-2.1",
+        "开源协议",
+        "VAE",
+        "透明图"
+      ],
+      "section": "指定AI名单",
+      "rank": 3
+    },
+    {
+      "id": "2101670814953455780",
+      "author": "Alibaba_Qwen",
+      "bio": "",
+      "text": "Qwen-Image-2.1 is now supported in ComfyUI! Try it now and share your creations! 🖼️",
+      "created_at": "Sun Sep 20 13:52:24 +0000 2026",
+      "likes": 416,
+      "views": "31717",
+      "url": "https://x.com/i/status/2101670814953455780",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2101662316051997092",
+        "author": "ComfyUI",
+        "name": "ComfyUI",
+        "text": "Qwen-Image-2.1 is now supported in ComfyUI!\n\nOpen weights. One 7B checkpoint that generates and edits.\n\n→ Image generation at native 2K\n→ Instruction editing from up to 10 reference images in a single pass\n→ RGBA output, alpha included https://t.co/6kYI0ofeQ3",
+        "created_at": "Sun Sep 20 13:18:37 +0000 2026",
+        "url": "https://x.com/ComfyUI/status/2101662316051997092",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2101662293155340289/vid/avc1/480x270/kd4si1neYIOHq278.mp4?tag=16"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2101662293155340289/img/oUYluQwxQfS_7a0K.jpg"
+        ]
+      },
+      "score": 65.364,
+      "title": null,
+      "summary": "Qwen-Image-2.1 现已支持 ComfyUI！现在就去试试，并分享你的作品吧。🖼️",
+      "recommend_reason": "官方权重刚放就进节点工作流，降低创作者试玩门槛。",
+      "tags": [
+        "指定AI名单",
+        "Qwen-Image-2.1",
+        "ComfyUI",
+        "工作流",
+        "图像生成"
+      ],
+      "section": "指定AI名单",
+      "rank": 4
+    },
+    {
+      "id": "2101665925137379695",
+      "author": "vllm_project",
+      "name": "vLLM",
+      "text": "Under the hood, vLLM-Omni brings:\n\n- Cross-step prefix KV reuse to avoid recomputing text and reference-image prefixes.\n- Dedicated CUDA Graphs to cut launch overhead for fixed-shape decode.\n- Request and step level continuous batching with phase-aware prefill/decode scheduling.\n- Tensor and Ulysses sequence parallelism.\n- Distributed VAE decoding with adaptive OOM recovery.\n- FP8 weights, FP8 prefix KV storage, and CPU offloading for different memory budgets.\n\nThanks to @Alibaba_Qwen for the collaboration! 🙌",
+      "likes": 9,
+      "retweets": 1,
+      "replies": 0,
+      "views": 1195,
+      "is_retweet": false,
+      "created_at": "Sun Sep 20 13:32:58 +0000 2026",
+      "url": "https://x.com/vllm_project/status/2101665925137379695",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "quoted_tweet": null,
+      "score": 57.516,
+      "title": "vLLM-Omni 底层：跨步 KV 复用、CUDA Graph、阶段感知连续批处理",
+      "summary": "vLLM 补充 Omni 侧优化：跨步复用文本与参考图 prefix 的 KV，避免重算；为固定 shape decode 上专用 CUDA Graph 降启动开销；请求级与 step 级连续批处理，并按 prefill/decode 阶段感知调度；还有 Tensor 与 Ulysses 序列并行等组合。",
+      "recommend_reason": "day-0 接入之外把 serving 细节写清，方便评估多模态吞吐能不能打满。",
+      "tags": [
+        "指定AI名单",
+        "vLLM",
+        "Omni",
+        "KV cache",
+        "批处理"
+      ],
+      "section": "指定AI名单",
+      "rank": 5
+    },
+    {
+      "id": "2101665920565629318",
+      "author": "vllm_project",
+      "name": "vLLM",
+      "text": "Qwen-Image-2.1 from @Alibaba_Qwen has day-0 support in vLLM-Omni. 🎉\n\nGenerate, edit, and create transparent images with one model: a 7.1B DiT paired with Qwen3-VL-8B.\n\nSetup and supported combinations 👇\nhttps://t.co/T8Q8ZmO0Rp https://t.co/9t35OhUMNX",
+      "likes": 133,
+      "retweets": 13,
+      "replies": 10,
+      "views": 31046,
+      "is_retweet": false,
+      "created_at": "Sun Sep 20 13:32:57 +0000 2026",
+      "url": "https://x.com/vllm_project/status/2101665920565629318",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSqdjndbcAEl4dU.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSqdjndbcAEl4dU.jpg"
+      ],
+      "quoted_tweet": {
+        "id": "2101659302792679789",
+        "author": "Alibaba_Qwen",
+        "name": "Qwen",
+        "text": "Meet Qwen-Image-2.1, the most balanced and cost-effective image generation model in the Qwen-Image series! Now open weights! 🎨\n\nA unified model for both generation and editing, delivering top-tier quality in a lightweight package.\n\nHighlights: 👀\n- Compact & exceptionally fast: A lightweight 7B architecture that outperforms most closed-source models, with drastically accelerated inference for multi-image inputs.\n- Native transparency: Natively generates and edits RGBA layers, enabling seamless compositing and text editing within transparent images.\n- Versatile, high-fidelity editing: Supports up to 10 reference images and precise local control while preserving strict fidelity for portraits and products.\n- Broad coverage & stunning aesthetics: Excels at panoramas, infographics, and virtual try-ons, delivering realistic textures and elegant typography.\n\nStart to create your next masterpiece with Qwen-Image-2.1! 🖼️\n\n- Blog: https://t.co/tVntKOi7jy\n- GitHub: https://t.co/cRj66wCrWr\n- Model Scope: https://t.co/64d7Ix6YFR\n- Hugging Face: https://t.co/njHSBXUbVS",
+        "created_at": "Sun Sep 20 13:06:39 +0000 2026",
+        "url": "https://x.com/Alibaba_Qwen/status/2101659302792679789",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HSqWS--aYAAi5G0.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HSqWS--aYAAi5G0.jpg"
+        ]
+      },
+      "score": 65.33,
+      "title": "vLLM-Omni 日级接入 Qwen-Image-2.1：7.1B DiT + Qwen3-VL-8B",
+      "summary": "vLLM 团队宣布 Qwen-Image-2.1 在 vLLM-Omni 获得 day-0 支持：同一模型可生成、编辑并产出透明图，结构为 7.1B DiT 搭配 Qwen3-VL-8B，并给出安装与支持组合说明。",
+      "recommend_reason": "官方权重刚出就有推理栈 day-0，说明多模态 serving 生态跟进速度。",
+      "tags": [
+        "指定AI名单",
+        "vLLM",
+        "Qwen-Image-2.1",
+        "推理",
+        "Omni"
+      ],
+      "section": "指定AI名单",
+      "rank": 6
+    },
+    {
+      "id": "2101659302792679789",
+      "author": "Alibaba_Qwen",
+      "bio": "",
+      "text": "Meet Qwen-Image-2.1, the most balanced and cost-effective image generation model in the Qwen-Image series! Now open weights! 🎨\n\nA unified model for both generation and editing, delivering top-tier quality in a lightweight package.\n\nHighlights: 👀\n- Compact & exceptionally fast: A lightweight 7B architecture that outperforms most closed-source models, with drastically accelerated inference for multi-image inputs.\n- Native transparency: Natively generates and edits RGBA layers, enabling seamless compositing and text editing within transparent images.\n- Versatile, high-fidelity editing: Supports up to 10 reference images and precise local control while preserving strict fidelity for portraits and products.\n- Broad coverage & stunning aesthetics: Excels at panoramas, infographics, and virtual try-ons, delivering realistic textures and elegant typography.\n\nStart to create your next masterpiece with Qwen-Image-2.1! 🖼️\n\n- Blog: https://t.co/tVntKOi7jy\n- GitHub: https://t.co/cRj66wCrWr\n- Model Scope: https://t.co/64d7Ix6YFR\n- Hugging Face: https://t.co/njHSBXUbVS",
+      "created_at": "Sun Sep 20 13:06:39 +0000 2026",
+      "likes": 3179,
+      "views": "401846",
+      "url": "https://x.com/i/status/2101659302792679789",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSqWS--aYAAi5G0.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSqWS--aYAAi5G0.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 73.227,
+      "title": "通义开源 Qwen-Image-2.1：7B 统一生成/编辑，原生 RGBA 透明层",
+      "summary": "阿里通义发布 Qwen-Image 系列里「最均衡、性价比最高」的开源权重模型 Qwen-Image-2.1：统一做生成与编辑。亮点包括轻量 7B、多图输入推理加速、原生 RGBA 透明层生成/编辑、最多 10 张参考图的局部精修，以及全景/信息图/虚拟试穿等场景。配套放出 Blog、GitHub、ModelScope 与 Hugging Face。",
+      "recommend_reason": "开源图像模型里少见的「生成+编辑+原生透明通道」一体包，适合跟进贴纸/UI/合成链路。",
+      "tags": [
+        "指定AI名单",
+        "Qwen-Image-2.1",
+        "开源",
+        "图像生成",
+        "RGBA"
+      ],
+      "section": "指定AI名单",
+      "rank": 7
+    },
+    {
+      "id": "2101651707176579163",
+      "author": "gkxspace",
+      "bio": "",
+      "text": "剪映今天出了 Agent，但我劝大家赶紧去把逸尘这个逆向项目 Fork 一下，随时 404😂\n\n因为这个项目和剪映想走的路完全是反着来的。\n\n剪映这个摆明了是做封闭全家桶，所有能力在软件内，卖 AI 会员，没打算给任何第三方调用。\n\n开源的这套方案牛逼在：它把剪辑软件的控制权交还给了外部 Agent。\n\n1、完全可编排：Codex 一个指令，自动把几十条视频批量粗剪、加字幕、配 BGM。\n2、成本极低：几分钱的 DeepSeek 配合豆包 ASR，一小时视频成本不到一块钱。\n3、可随时人工兜底：生成的依然是剪映原生工程，打开就能微调。\n\n如果你日常短视频、批量口播，或者想把剪辑接进自己的AI，这方案依然是目前最自由、成本最低的，没有之一。\n\n链接放评论区了👇",
+      "created_at": "Sun Sep 20 12:36:28 +0000 2026",
+      "likes": 181,
+      "views": "31220",
+      "url": "https://x.com/i/status/2101651707176579163",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSqQ9QnbYAAGsyM.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSqQ9QnbYAAGsyM.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2100782711732621337",
+        "author": "gkxspace",
+        "name": "余温",
+        "text": "wtf，这神人居然把剪映给逆向了？？？\n\n直接 Codex 无界面操作剪映，这是真不怕收到律师函啊😂\n\n笑死我了，前几天还私聊跟我说至少卖 888 一份。\n\n结果转头给全开源了，哈哈哈！\n\n不过这个项目是真的牛逼，完全干翻了之前那种靠 Computer Use 模拟鼠标点剪映的笨方法。\n\n1、直接生成剪映原生草稿：多轨、画中画、字幕、音量全支持，不抢屏幕不乱点。\n2、调用豆包 ASR 毫秒级对齐：自动识别人声、切除气口和废话。\n3、可人工兜底：在剪映里直接打开草稿，AI 剪完你能秒级人工微调。\n4、直接后台调用原生引擎无界面导出 MP4。\n\n比如 10 分钟的口播视频，丢给 Codex 一句提示词，直接全自动剪成 3 分钟成品。\n\n直接省下几千块请剪辑师的钱，开源地址放评论区👇",
+        "created_at": "Fri Sep 18 03:03:23 +0000 2026",
+        "url": "https://x.com/gkxspace/status/2100782711732621337",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HSd6sqob0AArpAg.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HSd6sqob0AArpAg.jpg"
+        ]
+      },
+      "score": 67.079,
+      "title": "剪映出 Agent 全家桶 vs 开源逆向：把剪辑控制权交回外部 Agent",
+      "summary": "作者对比剪映新上的封闭 Agent（能力锁在软件内卖会员）与逸尘开源逆向方案：后者让外部 Agent（如 Codex）编排批量粗剪、字幕与 BGM，用廉价 ASR/模型控成本，并仍输出可人工微调的剪映原生工程——路径完全相反。",
+      "recommend_reason": "同一天「官方封闭助手」与「外部可编排」两条路线对照，短视频自动化选型有用。",
+      "tags": [
+        "指定AI名单",
+        "剪映",
+        "Agent",
+        "开源",
+        "视频剪辑"
+      ],
+      "section": "指定AI名单",
+      "rank": 8
+    },
+    {
+      "id": "2101650079572488461",
+      "author": "DeepLearningAI",
+      "name": "DeepLearning.AI",
+      "text": "Massive agent swarms define this week in AI.\n\nHere is what we covered in our twice-weekly shortform newsletter Data Points:\n\n🧮 OpenAI used 10,000 agents to show that the Navier-Stokes equations break down, sparking a debate on prompt data privacy and the role of AI in mathematics.\n\n📉 DeepSeek V4.1 Flash introduced a brand-new architecture for cheaper long-context workloads.\n\nSubscribe to Data Points to get technical insights delivered twice a week: https://t.co/rlAGxt31Tz\n\n#DeepLearningAI #MachineLearning #AIAgents",
+      "likes": 36,
+      "retweets": 3,
+      "replies": 6,
+      "views": 3347,
+      "is_retweet": false,
+      "created_at": "Sun Sep 20 12:30:00 +0000 2026",
+      "url": "https://x.com/DeepLearningAI/status/2101650079572488461",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSqPnAJXoAAPUem.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSqPnAJXoAAPUem.jpg"
+      ],
+      "quoted_tweet": null,
+      "score": 66.682,
+      "title": "本周 Data Points：万人 Agent 攻 NS 方程 + DeepSeek V4.1 Flash 新架构",
+      "summary": "DeepLearningAI 短讯：OpenAI 用约 1 万个 Agent 展示 Navier-Stokes 方程可被「打穿」，引发提示数据隐私与 AI 入数学的讨论；DeepSeek V4.1 Flash 则推出面向更便宜长上下文负载的新架构。",
+      "recommend_reason": "把「Agent 蜂群做科学」和「长上下文降本架构」放进同一周简报，信息密度高。",
+      "tags": [
+        "指定AI名单",
+        "Agent Swarm",
+        "DeepSeek",
+        "数学",
+        "长上下文"
+      ],
+      "section": "指定AI名单",
+      "rank": 9
+    },
+    {
+      "id": "2101645327442813015",
+      "author": "LufzzLiz",
+      "bio": "",
+      "text": "卧槽，居然都有十个叫 awesome-jev 的清单仓库，claude认为是在抢关键词，没有收录价值。以下十个推荐的项目，希望对大家有所启发：\n\njaredpalmer/kev · 728★ — Jev 的开源复刻，在 Qwen 小模型上加 LoRA 和一个读出头，让你在自己 Mac 上跑一个本地 Jev。接口和官方一致，不用 key，改 base_url 就能接进 Switchboard，顺带免费测中文。\n\ntamaratran/fast-jev-compaction · 4,622★ — Claude Code 插件。上下文满了要压缩时，不再让大模型写摘要，而是用 Jev 逐条判断每个工具调用该删、该缩、还是原样留着。保留下来的对话不被改写，这是它比摘要强的地方。\n\ntamaratran/jev-pruner · 120★ — 同作者的另一个插件。Bash 命令跑完后、输出回传给模型之前，用 Jev 逐块问\"这块还有需要保留的行吗\"，裁掉其余。一万 token 以下直接放行，报错和代码不碰，所以比上一个安全得多。\n\ndbreunig/building-with-jev-skill · 122★ — 一个 agent skill，教 Claude Code 怎么写调用 Jev 的程序：问题怎么设计、state 怎么组织、置信度阈值怎么定、答错了怎么排查。装上不花钱，而你接下来要写很多问题定义。\n\ngargpratyush/jev-router · 232★ — Claude Code 插件。每轮先用 Jev 判断这个任务有多难，再自动切到能胜任的最便宜的模型。和 Switchboard 是同一道题的另一个解法。\n\nsutro-sh/jev-align · 197★ — 一个命令行。它跑你的数据集，挑出 Jev 最没把握的样本让你人工标注，再用 GEPA 自动改写问题描述，每轮给你看 diff，你决定收不收。这是阈值调参缺的那一半。\n\nuehaj/jev-semgrep · 107★ — 一个 grep，但匹配的是意思不是正则。你写\"客户在生气\"，它逐行问 Jev 要概率，过阈值就算命中。零依赖单文件，而且英文查询能命中日文行。\n\nkyotofin/tax-doc-classifier · 286★ — 把 PDF 每一页的文字丢给 Jev，从 261 种 IRS 表格里选出是哪一种。不训练任何模型，分类标准就是一个从 IRS 官方 PDF 生成的 JSON。全生态唯一给出真实生产成本的项目。\n\nbrowser-use/jev-ultrafast · 10,410★ — 浏览器自动化。Jev 从页面上所有可点元素里选该点哪个，只有需要输入文字时才叫 LLM。生态里星数第一，也是最能看懂\"Jev 该摆在流程哪个位置\"的样本。\n\nstandardagents/jevpilot · 104★ — Three.js 写的驾驶模拟器，每个决策点给 Jev 几条路线和几档速度让它选一个。你上次问 Three.js 能不能结合 Jev，这是现存最接近的实现。",
+      "created_at": "Sun Sep 20 12:11:07 +0000 2026",
+      "likes": 4,
+      "views": "794",
+      "url": "https://x.com/i/status/2101645327442813015",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSqIo05bwAAbvZY.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSqIo05bwAAbvZY.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 57.252,
+      "title": "十个 awesome-jev 仓库速览：本地复刻、压缩、路由到浏览器自动化",
+      "summary": "作者吐槽同名清单泛滥后，精选十个 Jev 生态项目：本地 kev 复刻、上下文压缩/剪枝插件、写 Jev 程序的 skill、按难度切模型的 router、GEPA 对齐、语义 grep、IRS 表格分类、browser-use 超快点击选择，以及 Three.js 驾驶模拟 jevpilot——覆盖「Jev 该放在流水线哪一层」的样本。",
+      "recommend_reason": "比空洞安利更有用的生态地图，方便按本地/插件/路由/浏览器场景选型。",
+      "tags": [
+        "指定AI名单",
+        "Jev",
+        "开源生态",
+        "Claude Code",
+        "工具链"
+      ],
+      "section": "指定AI名单",
+      "rank": 10
+    },
+    {
+      "id": "2101637654630764973",
+      "author": "LawrenceW_Zen",
+      "bio": "",
+      "text": "我很好奇有多少人会认真写 AGENT.md ？\n\n在我最近的工作中，AGENTS.md 我融入了很多规则都是基于个人思考以及工作经验。这放以前，我其实没有很认真的手写过全局 AGENTS.md 以及项目级的 AGENTS.md。\n\n所以，我得到了一个很懂我的Pi Agent （DeepSeek V4 Flash 128k）。\n\n我给它上了很多特殊工具，已经几乎可以 在有 plan 的情况下，直接打开 goal 完成企业级的开发，以及完成对应的测试。\n\n当然，代码还是要审核。但这节省了我很多时间，我可以用来刷红果了。\n\n现在基本就是 短剧 coding 了。边刷边看我的 Pi 写代码哈哈哈哈哈",
+      "created_at": "Sun Sep 20 11:40:38 +0000 2026",
+      "likes": 5,
+      "views": "985",
+      "url": "https://x.com/i/status/2101637654630764973",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 54.185,
+      "title": "认真写 AGENTS.md 之后：Pi Agent + DeepSeek 几乎可按 goal 交付",
+      "summary": "作者反思过去很少认真维护全局/项目级 AGENTS.md，近来把个人经验写进规则后，搭出更懂自己的 Pi Agent（DeepSeek V4 Flash 128k），叠加工具后在有 plan 时可直接冲 goal 做企业级开发与测试；代码仍需审核，但省下大量时间。",
+      "recommend_reason": "把「Agent 记性」从口头习惯落实成可版本管理的 AGENTS.md，是可复制的个人工程实践。",
+      "tags": [
+        "指定AI名单",
+        "AGENTS.md",
+        "DeepSeek",
+        "Pi Agent",
+        "工程实践"
+      ],
+      "section": "指定AI名单",
+      "rank": 11
+    },
+    {
+      "id": "2101629087521382433",
+      "author": "VigoCreativeAI",
+      "bio": "",
+      "text": "VISUAL OS 049\n\nThe letters are the frame.\nThe frame is the photo.\n\nRIDE stretches into a skate bank.\nCOURT bows into a jump shot.\nMOVE and FREE pull two dancers apart.\n\nTwo words, one window, no rectangle.\n\nPrompt below ↓ https://t.co/YIpkb8PkFx",
+      "created_at": "Sun Sep 20 11:06:35 +0000 2026",
+      "likes": 42,
+      "views": "1042",
+      "url": "https://x.com/i/status/2101629087521382433",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSp8gahXgAA1QZS.jpg",
+        "https://pbs.twimg.com/media/HSp8gadXMAAnal5.jpg",
+        "https://pbs.twimg.com/media/HSp8garWIAEl-AS.jpg",
+        "https://pbs.twimg.com/media/HSp8gakWgAAKQEC.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSp8gahXgAA1QZS.jpg",
+        "https://pbs.twimg.com/media/HSp8gadXMAAnal5.jpg",
+        "https://pbs.twimg.com/media/HSp8garWIAEl-AS.jpg",
+        "https://pbs.twimg.com/media/HSp8gakWgAAKQEC.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 77.242,
+      "title": "VISUAL OS 049：字母即画框，两词一窗不要矩形",
+      "summary": "生成实验系列 VISUAL OS 049：字母本身成为画框、画框即照片——RIDE 拉成滑板坡道，COURT 弯成跳投，MOVE 与 FREE 把两名舞者拉开。强调「两个词、一扇窗、不要矩形」的构图语法，并附提示词。",
+      "recommend_reason": "字形即画框的生成实验，展示文字排版与摄影构图如何被同一套 prompt 语法绑在一起。",
+      "tags": [
+        "指定AI名单",
+        "提示词",
+        "视觉设计",
+        "生成艺术",
+        "排版"
+      ],
+      "section": "指定AI名单",
+      "rank": 12
+    },
+    {
+      "id": "2101627520051548418",
+      "author": "bindureddy",
+      "bio": "",
+      "text": "It’s not about open or closed but it’s about using the right model for your task\n\nhard coding- Fable 5.1\n3D - Astra\npersonal agents - Deepseek \nimage - GPT-image 2.5\nresearch - Flash 3.8\nvideo - SeeDance 2.5\nbrowser use - Sol\npoor - GLM / Deepseek\nrole play - Grok",
+      "created_at": "Sun Sep 20 11:00:21 +0000 2026",
+      "likes": 163,
+      "views": "10271",
+      "url": "https://x.com/i/status/2101627520051548418",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 65.484,
+      "title": "别争开闭源：按任务选模型的一张速查表",
+      "summary": "重点不在开源还是闭源，而在按任务选对模型：硬编码用 Fable 5.1；3D 用 Astra；个人 Agent 用 DeepSeek；图像用 GPT-image 2.5；研究用 Flash 3.8；视频用 SeeDance 2.5；浏览器操控用 Sol；预算紧用 GLM/DeepSeek；角色扮演用 Grok。",
+      "recommend_reason": "用任务类型直接点名模型（写码 Fable、3D Astra、图/视频/浏览器各归其位），比空喊开闭源更可执行。",
+      "tags": [
+        "指定AI名单",
+        "模型路由",
+        "Fable 5",
+        "Astra",
+        "多模型"
+      ],
+      "section": "指定AI名单",
+      "rank": 13
+    },
+    {
+      "id": "2101562648152478079",
+      "author": "ianneo_ai",
+      "bio": "",
+      "text": "我发现一个bug：\n\n很多人写 Prompt 或者做 Skill，喜欢在最后加一段极其严密的自检清单\n\n但是现在模型各种幻觉+偷懒，怎么可能还按清单自查\n\n还有人做个监督员Agent 来审查，但是AI偷懒，它调得起来监督员吗？\n\n靠在上下文里套娃防幻觉，算不算一种心理安慰\n\n有什么更好的方式吗？🤔",
+      "created_at": "Sun Sep 20 06:42:35 +0000 2026",
+      "likes": 15,
+      "views": "5726",
+      "url": "https://x.com/i/status/2101562648152478079",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 54.467,
+      "title": null,
+      "summary": "我发现一个 bug：很多人写 Prompt 或做 Skill，喜欢在最后加一段极其严密的自检清单；但现在模型各种幻觉+偷懒，怎么可能还按清单自查。还有人做个监督员 Agent 来审查，可 AI 偷懒，它调得起来监督员吗？靠在上下文里套娃防幻觉，算不算一种心理安慰？有什么更好的方式吗？",
+      "recommend_reason": "戳破「清单自检 / 监督员 Agent」防幻觉套路：模型偷懒时套娃审查可能只是心理安慰。",
+      "tags": [
+        "指定AI名单",
+        "Prompt",
+        "Skill",
+        "幻觉",
+        "Agent"
+      ],
+      "section": "指定AI名单",
+      "rank": 14
+    },
+    {
+      "id": "2101547335432147039",
+      "author": "GoSailGlobal",
+      "bio": "",
+      "text": "TypeSafe 这场演讲的核心论点\n\nLLM 被优化成\"辅助\"（assistance），所以不能做有后果的决策；他们押的是 type-safe language models → 真正的自动化\n\n1️⃣ 今天的 LLM 是为\"辅助\"优化的。 RLHF 的目标函数是\"人类评分员喜欢哪个回答\"，产出的是聊天和文书\n\n2️⃣ 它做不了有后果的决策。 官方博客那句话最到位：\"如果一个模型 95% 的情况能做对，却不告诉你什么时候落在那 5% 里，它就没法自动化这件事。\" 问题不在准确率，在于不知道自己什么时候不知道——即使你要求它给置信度，它也普遍过度自信且前后不一致。\n\n3️⃣ 所以现在只能人盯着。 那张 \"Too good to be true / Too bad to be useful\" 的表，右边全是\"没有人在环里就不能用\"的场景：客服、保险、报税、数据录入\n\n4️⃣ 他们的解法：换目标函数。 不再优化字符串，而是优化\"带类型的决策 + 诚实的概率\"，这就是 RLCD\n（Reinforcement Learning for Calibrated Decisions）。\n\nautomation is coming soon，这个才是他们想要的终局\n\n关于 automation 最核心的那个主张，我们有别人还没公开的独立证据\n\n1. \"置信度能当门控\"——成立，而且是同场最好的\n\nJev 第一，而且档位细（42 档，阈值能切得动）。反过来看，本地小模型六个里四个出现倒挂——错的时候更自信。拿那种置信度做门控，等于把最该弹确认卡的那批直接静默执行了。TypeSafe 论证链里\"RLHF 模型过度自信\"这一环，我们的数据支持它\n\n2. 但\"高置信度 = 高准确\"是分任务的，automation 不能按模型切，要按问题切\n\n最后的架构不是\"用 Jev 替代 LLM\"，而是一条流水线：Jev 守门（这是什么、几件事、多确定）→ 代码算日期 → 置信度低的交给 GPT-6 兜底。大部分请求在第一层就走完，整体成本贴着 Jev 的价位（每千张 $0.184 vs GPT-6 的 $8.27）。这就是 automation 真正落地的形状\n\n3. 能不能自动化，还取决于你的流程速度，不只取决于模型\n\n4. 还有一条边界他们没强调：信号必须在语义里\n\nautomation 的瓶颈从来不是\"模型会不会说话\"，而是三件事：\n1️⃣ 置信度可不可信\n2️⃣ 错了代价多大\n3️⃣ 你的流程比信号快还是慢\n\nTypeSafe 解决的是第一件的一部分，这一部分我们的数据证实了，它确实是同场最好的\n\n第二件要你自己按动作分层设阈值\n\n第三件跟模型无关\n\nhttps://t.co/ea6U8oQ3AH",
+      "created_at": "Sun Sep 20 05:41:44 +0000 2026",
+      "likes": 11,
+      "views": "1786",
+      "url": "https://x.com/i/status/2101547335432147039",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2101293440843591680/vid/avc1/480x270/w8h1BjoKNyLcM0qk.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2101293440843591680/img/3BtdoFBd-JH1wJc6.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 60.086,
+      "title": "TypeSafe 论点：辅助型 LLM 难自动化，要用校准置信度做门控",
+      "summary": "总结 TypeSafe 演讲：今日 LLM 被 RLHF 优化成「辅助」，无法在不知自己何时错的情况下做有后果决策。解法是换目标函数到带类型决策+诚实概率（RLCD）。作者用自有评测呼应：Jev 置信度可做门控且档位细，但高置信≠高准确要按任务切；落地形态是 Jev 守门→代码算→低置信交前沿模型兜底，并强调信号须在语义里、流程速度也是瓶颈。",
+      "recommend_reason": "把「能不能自动化」拆成置信度可信、出错代价、流程快慢三问，比单模型崇拜更接近工程现实。",
+      "tags": [
+        "指定AI名单",
+        "TypeSafe",
+        "Jev",
+        "自动化",
+        "置信度"
+      ],
+      "section": "指定AI名单",
+      "rank": 15
+    },
+    {
+      "id": "2101542506110349668",
+      "author": "dotey",
+      "bio": "",
+      "text": "Anthropic 悄悄建了一个生物实验室\n\n据路透社独家报道，Anthropic 已在旧金山湾区建成了一间湿实验室（wet lab，即可以进行真实生化实验的物理实验室），正式把 AI 的触角从软件延伸到药物研发。\n\nAnthropic 生命科学负责人 Eric Kauderer-Abrams 在采访中证实了这件事。他的说法是：要做生物学研究，最终的检验标准仍然是真实的实验室工作，光靠计算机模拟不够。一部分实验自己做，一部分和外部合作伙伴做——这和大多数生物技术公司的做法一样。\n\n这不是心血来潮。过去几个月，Anthropic 动作密集：花约 4 亿美元股票收购了一家叫 Coefficient Bio 的初创公司，用于构建药物研发工具；把诺华 CEO Vas Narasimhan 拉进了董事会；发布了名为 Claude Science 的软件；6 月在旧金山公开宣布要启动药物研发项目。LinkedIn 上也在招采购运营负责人、蛋白质和核酸表征方面的专家，招聘帖里写的目标是\"把生命科学的进展速度提高一个数量级\"。Kauderer-Abrams 说，生命科学已经是 Anthropic 在人力和资源投入上最大的方向之一。\n\nAnthropic 瞄准的是传统药企觉得\"不可成药\"（undruggable）的领域——那些因为靶点太难、商业回报不高而被忽视的罕见病。他们认为 AI 可以加速发现双特异性甚至三特异性抗体这类复杂分子，这类药物可以同时攻击多个靶点，设计难度极高，但 AI 擅长处理这种复杂度。CEO Dario Amodei 对此有切身之痛——他的父亲因一种疾病去世，而治愈方法在几年后才出现。\n\n不过，Anthropic 目前画了一条明确的线：只做临床前研究，不做临床试验，不跟药企抢生意。这也是为了缓解一个现实的信任问题——那些使用 Claude 的大药企（基因泰克、百时美施贵宝、诺和诺德都在列）会担心 Anthropic 从它们的数据中学到什么。\n\n值得注意的时间节点：这一切发生在 Anthropic 准备以约 2 万亿美元估值 IPO 的前夕，也正值 AI 安全争议白热化——就在最近两周，Anthropic 自己的研究人员警告 AI 可能导致人类灭绝，公司还发现其系统存在被用于生物武器开发的风险。一边踩油门，一边拉手刹，这种张力是 Anthropic 当下最真实的写照。\n\n作为对比，Google 旗下的 Isomorphic Labs 做 AI 药物发现已经好几年了，原计划 2026 年底进入临床，但之前已经推迟过一次。药物研发的现实就是这样：从发现一个分子到药物上市，通常要好多年，而且大多数药物在临床试验中会失败。Anthropic 的野心很大，但路还很长。",
+      "created_at": "Sun Sep 20 05:22:32 +0000 2026",
+      "likes": 97,
+      "views": "20530",
+      "url": "https://x.com/i/status/2101542506110349668",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSotxOJXEAIAL4v.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSotxOJXEAIAL4v.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 64.091,
+      "title": "路透：Anthropic 湾区建湿实验室，AI 触角伸向临床前药物研发",
+      "summary": "据路透独家，Anthropic 已在湾区建成可做真实生化实验的湿实验室，生命科学负责人证实「最终检验仍是实验室而非纯模拟」。配套动作包括约 4 亿美元股票收购 Coefficient Bio、诺华 CEO 入董、Claude Science、招蛋白质/核酸表征人才，目标瞄准「不可成药」靶点与多特异性抗体；目前划线只做临床前、不做临床，以安抚使用 Claude 的大药企。节点正值约 2 万亿美元估值 IPO 前夕，与近期 AI 安全/生物风险争议形成张力。",
+      "recommend_reason": "少见的「模型公司亲自建 wet lab」一手信息，比口头「AI+制药」口号硬得多。",
+      "tags": [
+        "指定AI名单",
+        "Anthropic",
+        "药物研发",
+        "湿实验室",
+        "路透"
+      ],
+      "section": "指定AI名单",
+      "rank": 16
+    },
+    {
+      "id": "2101541262071562723",
+      "author": "GoSailGlobal",
+      "bio": "",
+      "text": "Jev 做封闭判断和置信度 → 要算的交给代码规则 → 少数置信度低或解析失败的才升级到前沿模型\n\n能做的五类，每条都挂着三篇文章里的实测数字：\n\n1️⃣ 分类、路由、分诊，也就是问「这是什么」\n2️⃣ 零样本冷启动，没有标注的第一天\n3️⃣ 当特征，给已有模型补世界知识\n4️⃣ 置信度可以拿来做门控\n5️⃣ 从噪声里筛出真事件\n\n不能做的五类：\n\n1️⃣ 信号只存在你的数据统计里（Avazu 0.46）\n2️⃣ 读懂之后还要再算一步（日期 43/49）\n3️⃣ 生成内容与长推理，以及无状态导致的记忆和规划\n4️⃣ 汇总预警，当组织比客户还快时（claude-code 7 个坏版本 0 个提前抓到）\n5️⃣ 当你的模型已经超过它（Banking77 加特征反而掉 0.044）",
+      "created_at": "Sun Sep 20 05:17:36 +0000 2026",
+      "likes": 5,
+      "views": "1736",
+      "url": "https://x.com/i/status/2101541262071562723",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSosZamagAAzvGc.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSosZamagAAzvGc.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2101200316590940251",
+        "author": "GoSailGlobal",
+        "name": "Jason Zhu",
+        "text": "Group Notice\nJev学习\n\n1.Jev介绍：https://t.co/4SWKE9aAde\n\n2.怎么用上？\n（1）官网排队，送5$\nhttps://t.co/pEQokxZBUd → Join Waitlist  \n通过后到 https://t.co/WLiKu06oGV 建 API Key  \n文档： https://t.co/JupnXUXmAj\n\n（2）https://t.co/KG4OoqEW2w直接使用\nhttps://t.co/eLqdBBOA6p \n\n（3）vercel免费用\nhttps://t.co/LTp4p7RtkM\n\n2、Jev 使用能力网站汇总：https://t.co/HntXYwGq42\n\n3、Jev用于codex案例\nhttps://t.co/RDkjS0m8jF\n\n4、Jev 相关github项目\nhttps://t.co/xCCatao02g\nAwesome-Jev 资源汇总：https://t.co/BGPHj2ciIi\n\n欢迎补充👏",
+        "created_at": "Sat Sep 19 06:42:48 +0000 2026",
+        "url": "https://x.com/GoSailGlobal/status/2101200316590940251",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 58.554,
+      "title": "Jev 能做/不能做的十类：守门分类可以，统计信号与长推理不行",
+      "summary": "梳理 Jev 适合的五类（分类路由分诊、零样本冷启动、当特征补世界知识、置信度门控、从噪声筛真事件）与不适合的五类（信号只在你方统计里、读懂后还要再算一步、生成与长推理/无状态记忆规划、汇总预警快于客户、以及组织流程问题）。主张：封闭判断和置信度交给 Jev，要算的交给代码，少数低置信或解析失败再升级前沿模型。",
+      "recommend_reason": "把「小判别模型」边界写清楚，避免用 Jev 硬扛生成与长链推理。",
+      "tags": [
+        "指定AI名单",
+        "Jev",
+        "模型边界",
+        "路由",
+        "自动化"
+      ],
+      "section": "指定AI名单",
+      "rank": 17
+    },
+    {
+      "id": "2101536330018918793",
+      "author": "op7418",
+      "bio": "",
+      "text": "我用 @typesafeai  JEV 模型做了一个实时 3D 场景生成器。\n\n这个速度实在太夸张了！\n\n从预制的几十上百种 3D 模型里，根据输入的文案，进行并发几百次的判断。\n\n同时对这些素材的着色、光照、位置以及状态进行处理，一秒完成符合要求的室内场景搭建。 https://t.co/0oy1HBLVWX",
+      "created_at": "Sun Sep 20 04:58:00 +0000 2026",
+      "likes": 429,
+      "views": "52109",
+      "url": "https://x.com/i/status/2101536330018918793",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2101535990846509056/vid/avc1/480x270/LB0bwjK9frx_O-tV.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2101535990846509056/img/hoBZPL8d08Ba7aPw.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 51.399,
+      "title": null,
+      "summary": "作者用 TypeSafe 的 Jev 模型做实时 3D 场景生成器：从预制几十上百种 3D 素材里，按文案并发数百次判断，同时处理着色、光照、位置与状态，约一秒搭出符合要求的室内场景，演示「分类/路由型小模型」驱动内容组装的速度。",
+      "recommend_reason": "把 Jev 从评测叙事拉到可见交互 Demo，说明低延迟判别模型能吃哪些创意工作负载。",
+      "tags": [
+        "指定AI名单",
+        "Jev",
+        "3D",
+        "实时生成",
+        "TypeSafe"
+      ],
+      "section": "指定AI名单",
+      "rank": 18
+    },
+    {
+      "id": "2101523037233217780",
+      "author": "dotey",
+      "bio": "",
+      "text": "我用 ChatGPT pro （GPT 6 Astra）做了一个陶渊明的桃花源记，记得点右下角的“循文入境”按钮听朗诵。\n\n朗诵不是 AI 是央视李立宏老师真人朗诵，我转录加上了时间戳给了 GPT。\n\n忍不住想，当年要是有 AI，这篇课文理解起来背起来应该容易一点。\n\n在线网页地址：https://t.co/bKnTIMkbsz https://t.co/O92oALeAoT",
+      "created_at": "Sun Sep 20 04:05:11 +0000 2026",
+      "likes": 164,
+      "views": "39473",
+      "url": "https://x.com/i/status/2101523037233217780",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2101522872153886720/vid/avc1/426x270/Ht87Mudd95ahUsUc.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2101522872153886720/img/unqC_2UGZfBLP5C3.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 65.378,
+      "title": null,
+      "summary": "宝玉用 ChatGPT Pro（GPT-6 Astra）做了陶渊明《桃花源记》互动页，右下角「循文入境」可听央视李立宏老师真人朗诵；朗诵经转录打时间戳后再交给 GPT 编排，感叹若当年有 AI，课文理解与背诵或会轻松些。",
+      "recommend_reason": "把经典文本、真人音频时间轴与前沿对话模型拼成教学向体验，示范「内容×模型」而不是纯玩具 Demo。",
+      "tags": [
+        "指定AI名单",
+        "GPT-6 Astra",
+        "教育",
+        "交互叙事",
+        "朗诵"
+      ],
+      "section": "指定AI名单",
+      "rank": 19
+    },
+    {
+      "id": "2101522946246537536",
+      "author": "ianneo_ai",
+      "bio": "",
+      "text": "Beautiful UI 这个库太懂 Agent 时代需要什么交互了：\n\n把 AI-native 界面缺的成套组件做齐了\n\n从思考与推理过程、人机确认卡片、工具调用，到任务状态行等，调成了极细腻的开箱即用组件\n\n做 AI 界面建议存一下：\nhttps://t.co/Hd7dLLFCX1 https://t.co/NsaHlu0NlQ",
+      "created_at": "Sun Sep 20 04:04:49 +0000 2026",
+      "likes": 334,
+      "views": "26301",
+      "url": "https://x.com/i/status/2101522946246537536",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSoaOsmaEAApW2x.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSoaOsmaEAApW2x.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 70.207,
+      "title": null,
+      "summary": "作者推荐 Beautiful UI 组件库：针对 AI-native 界面缺件，把思考与推理过程、人机确认卡片、工具调用、任务状态行等调成细腻的开箱组件，适合做 Agent 产品界面时直接复用。",
+      "recommend_reason": "少见把 Agent 交互范式拆成成套 UI 原语的推荐，比「又一个聊天框」更可落地。",
+      "tags": [
+        "指定AI名单",
+        "Agent UI",
+        "组件库",
+        "人机确认",
+        "工具调用"
+      ],
+      "section": "指定AI名单",
+      "rank": 20
+    },
+    {
       "id": "2101517626954436623",
       "author": "emollick",
       "bio": null,
@@ -54,7 +740,7 @@
       ],
       "section": "指定AI名单",
       "title": "同题对比 Astra：结果更利落，但少了 Fable 那种「好奇感」",
-      "rank": 1
+      "rank": 21
     },
     {
       "id": "2101514542887076045",
@@ -92,7 +778,7 @@
       ],
       "section": "指定AI名单",
       "title": "模型越强越难评：vista8 推荐 B 站「AI无限竞技场」真任务对打",
-      "rank": 2
+      "rank": 22
     },
     {
       "id": "2101510462685003786",
@@ -128,7 +814,7 @@
       ],
       "section": "指定AI名单",
       "title": "阶跃星辰发布 Step 5 Preview：面向 Agent 的旗舰 MoE",
-      "rank": 3
+      "rank": 23
     },
     {
       "id": "2101506818740769093",
@@ -167,7 +853,7 @@
         "Seedance"
       ],
       "section": "指定AI名单",
-      "rank": 4
+      "rank": 24
     },
     {
       "id": "2101456447615926553",
@@ -201,7 +887,7 @@
       ],
       "section": "指定AI名单",
       "title": "卖方喊 Muse 2027 年 280 亿美元 Agent 收入，利润率质疑拉满",
-      "rank": 5
+      "rank": 25
     },
     {
       "id": "2101454284927959080",
@@ -229,7 +915,7 @@
         "Agent评测"
       ],
       "section": "指定AI名单",
-      "rank": 6
+      "rank": 26
     },
     {
       "id": "2101427997597446636",
@@ -273,7 +959,7 @@
       ],
       "section": "指定AI名单",
       "title": "个人 Agent 时代：要抢的注意力从用户转向 Agent",
-      "rank": 7
+      "rank": 27
     },
     {
       "id": "2101421292390154373",
@@ -303,7 +989,7 @@
       ],
       "section": "指定AI名单",
       "title": "对模型要求越高维，越容易看见 Astra/Fable 的脆性",
-      "rank": 8
+      "rank": 28
     },
     {
       "id": "2101412965765529853",
@@ -337,7 +1023,7 @@
       ],
       "section": "指定AI名单",
       "title": "OpenRouter Ori Eval：Jev 判题速度领先一截",
-      "rank": 9
+      "rank": 29
     },
     {
       "id": "2101394716310815143",
@@ -390,7 +1076,7 @@
       ],
       "section": "指定AI名单",
       "title": "Mollick 拆 FT「AI 理财答错大半」：先看报告是谁卖的",
-      "rank": 10
+      "rank": 30
     },
     {
       "id": "2101388607147880680",
@@ -434,7 +1120,7 @@
       ],
       "section": "指定AI名单",
       "title": "14.7MB 本地小模型先打码再问大模型：AgentCloak 做隐私前置",
-      "rank": 11
+      "rank": 31
     },
     {
       "id": "2101366706308341900",
@@ -462,7 +1148,7 @@
       ],
       "section": "指定AI名单",
       "title": "AI 把人分成两类：会用它放大自己的，和怕它取消它的",
-      "rank": 12
+      "rank": 32
     },
     {
       "id": "2101357364171731349",
@@ -514,7 +1200,7 @@
       ],
       "section": "指定AI名单",
       "title": "DeepSeek 狂烧思维链：与其接 Jev，不如先把档位调到 medium",
-      "rank": 13
+      "rank": 33
     },
     {
       "id": "2101356931118162334",
@@ -554,7 +1240,7 @@
       ],
       "section": "指定AI名单",
       "title": "Anthropic「灭世叙事」被追问：风险真实与裁判独立要分开审",
-      "rank": 14
+      "rank": 34
     },
     {
       "id": "2101352587014615065",
@@ -600,7 +1286,7 @@
       ],
       "section": "指定AI名单",
       "title": "DeepSeek 思维链太「自我确认」：一条消息可烧掉近五千 Token",
-      "rank": 15
+      "rank": 35
     },
     {
       "id": "2101343337026359475",
@@ -632,10 +1318,10 @@
         "中文圈"
       ],
       "section": "指定AI名单",
-      "rank": 16
+      "rank": 36
     }
   ],
-  "generated_at": "2026-09-20T04:25:49Z",
+  "generated_at": "2026-09-20T16:58:44Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -643,11 +1329,11 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 16,
-    "last_batch_added": 16,
+    "actual_count": 36,
+    "last_batch_added": 3,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
