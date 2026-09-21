@@ -1,55 +1,86 @@
-# Watchlist follow suggestions (2026-09-21)
+# Watchlist follow suggestions (2026-09-22)
 
-- following: 477
-- already on watchlist (excl skip): 131
-- missing: 41
-- skipped: bot, code, IndieDevHailey, WareAi996
+- whoami: @yangcyyang1 (profile pfzpdshj / bridge 2hfk5bw3)
+- following: 478
+- watchlist handles (excl skip): 172
+- already_following (watchlist): 131
+- not_following (watchlist): 41
+- priority_core: followed 23 / missing 24
+- skipped: bot, code, indiedevhailey, wareai996
 
-Priority: labs_official → research_eng → china_labs → coding_agents; news/media later.
+Priority order: priority_core → labs_official → research_eng → china_labs → coding_agents → news → media_av → core.
 
-## Suggest follow (≤40)
+## Priority core NOT following (suggest follow / hard_collect)
 
 1. [labs_official] @xai
-2. [research_eng] @darioamodei
-3. [research_eng] @ilyasutskever
-4. [research_eng] @fchollet
-5. [research_eng] @drfeifei
-6. [research_eng] @drjimfan
-7. [research_eng] @ch402
-8. [research_eng] @janleike
-9. [research_eng] @lateinteraction
-10. [research_eng] @swyx
+2. [china_labs] @zai_org
+3. [china_labs] @stepfun_ai
+4. [china_labs] @kling_ai
+5. [research_eng] @darioamodei
+6. [research_eng] @ilyasutskever
+7. [research_eng] @fchollet
+8. [research_eng] @drfeifei
+9. [research_eng] @drjimfan
+10. [research_eng] @ch402
 11. [research_eng] @simonw
-12. [research_eng] @emollick
-13. [research_eng] @_akhaliq
-14. [china_labs] @zai_org
-15. [china_labs] @stepfun_ai
-16. [china_labs] @baichuanai
-17. [china_labs] @waytoagi
-18. [china_labs] @kling_ai
-19. [coding_agents] @cognition
-20. [coding_agents] @factoryai
-21. [coding_agents] @cline
-22. [coding_agents] @githubcopilot
-23. [coding_agents] @lovable
-24. [coding_agents] @ampcode
-25. [coding_agents] @langchain
-26. [coding_agents] @openrouter
-27. [coding_agents] @lmstudio
-28. [coding_agents] @vllm_project
-29. [coding_agents] @replit
-30. [news] @artificialanlys
-31. [news] @epochairesearch
-32. [news] @deeplearningai
-33. [news] @latentspacepod
-34. [news] @theturingpost
-35. [news] @nopriorspod
-36. [media_av] @ideogram_ai
-37. [media_av] @krea_ai
-38. [media_av] @pika_labs
-39. [media_av] @elevenlabs
-40. [media_av] @udiomusic
+12. [research_eng] @swyx
+13. [research_eng] @emollick
+14. [coding_agents] @cognition
+15. [coding_agents] @githubcopilot
+16. [coding_agents] @langchain
+17. [coding_agents] @openrouter
+18. [coding_agents] @vllm_project
+19. [media_av] @elevenlabs
+20. [media_av] @suno_ai_
+21. [media_av] @ideogram_ai
+22. [news] @artificialanlys
+23. [news] @epochairesearch
+24. [news] @latentspacepod
 
-## Overflow (not in top 40)
+## All not_following (priority first)
 
-- [media_av] @suno_ai_
+1. [labs_official] @xai
+2. [china_labs] @zai_org
+3. [china_labs] @stepfun_ai
+4. [china_labs] @kling_ai
+5. [research_eng] @darioamodei
+6. [research_eng] @ilyasutskever
+7. [research_eng] @fchollet
+8. [research_eng] @drfeifei
+9. [research_eng] @drjimfan
+10. [research_eng] @ch402
+11. [research_eng] @simonw
+12. [research_eng] @swyx
+13. [research_eng] @emollick
+14. [coding_agents] @cognition
+15. [coding_agents] @githubcopilot
+16. [coding_agents] @langchain
+17. [coding_agents] @openrouter
+18. [coding_agents] @vllm_project
+19. [media_av] @elevenlabs
+20. [media_av] @suno_ai_
+21. [media_av] @ideogram_ai
+22. [news] @artificialanlys
+23. [news] @epochairesearch
+24. [news] @latentspacepod
+25. [research_eng] @_akhaliq
+26. [research_eng] @janleike
+27. [research_eng] @lateinteraction
+28. [china_labs] @baichuanai
+29. [china_labs] @waytoagi
+30. [coding_agents] @ampcode
+31. [coding_agents] @cline
+32. [coding_agents] @factoryai
+33. [coding_agents] @lmstudio
+34. [coding_agents] @lovable
+35. [coding_agents] @replit
+36. [news] @deeplearningai
+37. [news] @nopriorspod
+38. [news] @theturingpost
+39. [media_av] @krea_ai
+40. [media_av] @pika_labs
+41. [media_av] @udiomusic
+
+## Note
+
+Existing routine 「指定AI名单」 + `hard_collect_missing: true` still applies: unfollowed accounts are hard-collected via `opencli twitter tweets <user>`; followed accounts via Following search/timeline.
