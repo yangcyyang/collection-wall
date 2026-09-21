@@ -1,0 +1,229 @@
+{
+  "source": "linuxdo-frontier",
+  "title": "linux.do 热门前沿分享",
+  "date": "2026-09-21",
+  "updated_at": "2026-09-21T10:43:00+08:00",
+  "count": 12,
+  "hot": [
+    {
+      "id": 2928990,
+      "group": "hot",
+      "title": "ZCode已在Github开源",
+      "likes": 492,
+      "views": 4426,
+      "why": "智谱 ZCode 已上 GitHub 开源，隐私风波落地关键节点。",
+      "url": "https://linux.do/t/topic/2928990"
+    },
+    {
+      "id": 2925970,
+      "group": "hot",
+      "title": "一觉醒来，Jev被开源模型爆了",
+      "likes": 583,
+      "views": 12612,
+      "why": "Jev 被开源模型「爆」的热议，决策引擎体感续篇。",
+      "url": "https://linux.do/t/topic/2925970"
+    },
+    {
+      "id": 2927016,
+      "group": "hot",
+      "title": "CometixCode・作为核心要件的悄然起始",
+      "likes": 476,
+      "views": 4042,
+      "why": "CometixCode 作为核心件的产品叙事，观察新 Agent 栈。",
+      "url": "https://linux.do/t/topic/2927016"
+    },
+    {
+      "id": 2925213,
+      "group": "hot",
+      "title": "智谱被国内公司公开发函",
+      "likes": 123,
+      "views": 3081,
+      "why": "国内公司对智谱公开发函，合规/证据链跟进。",
+      "url": "https://linux.do/t/topic/2925213"
+    },
+    {
+      "id": 2929258,
+      "group": "hot",
+      "title": "Zcode开源版阉割权益",
+      "likes": 128,
+      "views": 1552,
+      "why": "开源版权益对比阉割点，实用向拆解。",
+      "url": "https://linux.do/t/topic/2929258"
+    },
+    {
+      "id": 2928957,
+      "group": "hot",
+      "title": "Gemini 4可能正在角逐 AI 王座",
+      "likes": 62,
+      "views": 1318,
+      "why": "Gemini 4 角逐王座的站内讨论，前沿产品风向。",
+      "url": "https://linux.do/t/topic/2928957"
+    }
+  ],
+  "share": [
+    {
+      "id": 2928903,
+      "group": "share",
+      "title": "加州理工团队把Qwen3.8 从 54GB 暴力压至仅 5.9GB，性能保留98.2%",
+      "likes": 77,
+      "views": 3237,
+      "why": "Qwen3.8 暴力压缩 54GB→5.9GB 且保性能，端侧信号。",
+      "url": "https://linux.do/t/topic/2928903"
+    },
+    {
+      "id": 2929284,
+      "group": "share",
+      "title": "GPT-Load 接入 Jev：模型及思考强度的自动挡功能",
+      "likes": 96,
+      "views": 820,
+      "why": "GPT-Load 接 Jev：模型与思考强度自动挡，工程向。",
+      "url": "https://linux.do/t/topic/2929284"
+    },
+    {
+      "id": 2926423,
+      "group": "share",
+      "title": "【开源】Droid ASC：面向 AI Agent 时代的极速 Android 反编译引擎",
+      "likes": 60,
+      "views": 531,
+      "why": "开源 Droid ASC：面向 Agent 的极速 Android 反编译。",
+      "url": "https://linux.do/t/topic/2926423"
+    },
+    {
+      "id": 2926433,
+      "group": "share",
+      "title": "佬友们 Agent必用神技Jev-skill 快装上吧",
+      "likes": 47,
+      "views": 2368,
+      "why": "站内推 Jev-skill：Agent 工作流安装向分享。",
+      "url": "https://linux.do/t/topic/2926433"
+    },
+    {
+      "id": 2928890,
+      "group": "share",
+      "title": "智谱回应数据隐私争议：ZCode 即将正式开源",
+      "likes": 46,
+      "views": 1719,
+      "why": "智谱官方回应隐私争议，并预告正式开源。",
+      "url": "https://linux.do/t/topic/2928890"
+    },
+    {
+      "id": 2928250,
+      "group": "share",
+      "title": "【开源推广】更实用的Cursor API反代项目（支持接入 Codex/OpenClaw 作为 SubAgent）",
+      "likes": 3,
+      "views": 194,
+      "why": "Cursor API 反代开源，可接 Codex/OpenClaw 做 SubAgent。",
+      "url": "https://linux.do/t/topic/2928250"
+    }
+  ],
+  "items": [
+    {
+      "id": 2928990,
+      "group": "hot",
+      "title": "ZCode已在Github开源",
+      "likes": 492,
+      "views": 4426,
+      "why": "智谱 ZCode 已上 GitHub 开源，隐私风波落地关键节点。",
+      "url": "https://linux.do/t/topic/2928990"
+    },
+    {
+      "id": 2925970,
+      "group": "hot",
+      "title": "一觉醒来，Jev被开源模型爆了",
+      "likes": 583,
+      "views": 12612,
+      "why": "Jev 被开源模型「爆」的热议，决策引擎体感续篇。",
+      "url": "https://linux.do/t/topic/2925970"
+    },
+    {
+      "id": 2927016,
+      "group": "hot",
+      "title": "CometixCode・作为核心要件的悄然起始",
+      "likes": 476,
+      "views": 4042,
+      "why": "CometixCode 作为核心件的产品叙事，观察新 Agent 栈。",
+      "url": "https://linux.do/t/topic/2927016"
+    },
+    {
+      "id": 2925213,
+      "group": "hot",
+      "title": "智谱被国内公司公开发函",
+      "likes": 123,
+      "views": 3081,
+      "why": "国内公司对智谱公开发函，合规/证据链跟进。",
+      "url": "https://linux.do/t/topic/2925213"
+    },
+    {
+      "id": 2929258,
+      "group": "hot",
+      "title": "Zcode开源版阉割权益",
+      "likes": 128,
+      "views": 1552,
+      "why": "开源版权益对比阉割点，实用向拆解。",
+      "url": "https://linux.do/t/topic/2929258"
+    },
+    {
+      "id": 2928957,
+      "group": "hot",
+      "title": "Gemini 4可能正在角逐 AI 王座",
+      "likes": 62,
+      "views": 1318,
+      "why": "Gemini 4 角逐王座的站内讨论，前沿产品风向。",
+      "url": "https://linux.do/t/topic/2928957"
+    },
+    {
+      "id": 2928903,
+      "group": "share",
+      "title": "加州理工团队把Qwen3.8 从 54GB 暴力压至仅 5.9GB，性能保留98.2%",
+      "likes": 77,
+      "views": 3237,
+      "why": "Qwen3.8 暴力压缩 54GB→5.9GB 且保性能，端侧信号。",
+      "url": "https://linux.do/t/topic/2928903"
+    },
+    {
+      "id": 2929284,
+      "group": "share",
+      "title": "GPT-Load 接入 Jev：模型及思考强度的自动挡功能",
+      "likes": 96,
+      "views": 820,
+      "why": "GPT-Load 接 Jev：模型与思考强度自动挡，工程向。",
+      "url": "https://linux.do/t/topic/2929284"
+    },
+    {
+      "id": 2926423,
+      "group": "share",
+      "title": "【开源】Droid ASC：面向 AI Agent 时代的极速 Android 反编译引擎",
+      "likes": 60,
+      "views": 531,
+      "why": "开源 Droid ASC：面向 Agent 的极速 Android 反编译。",
+      "url": "https://linux.do/t/topic/2926423"
+    },
+    {
+      "id": 2926433,
+      "group": "share",
+      "title": "佬友们 Agent必用神技Jev-skill 快装上吧",
+      "likes": 47,
+      "views": 2368,
+      "why": "站内推 Jev-skill：Agent 工作流安装向分享。",
+      "url": "https://linux.do/t/topic/2926433"
+    },
+    {
+      "id": 2928890,
+      "group": "share",
+      "title": "智谱回应数据隐私争议：ZCode 即将正式开源",
+      "likes": 46,
+      "views": 1719,
+      "why": "智谱官方回应隐私争议，并预告正式开源。",
+      "url": "https://linux.do/t/topic/2928890"
+    },
+    {
+      "id": 2928250,
+      "group": "share",
+      "title": "【开源推广】更实用的Cursor API反代项目（支持接入 Codex/OpenClaw 作为 SubAgent）",
+      "likes": 3,
+      "views": 194,
+      "why": "Cursor API 反代开源，可接 Codex/OpenClaw 做 SubAgent。",
+      "url": "https://linux.do/t/topic/2928250"
+    }
+  ]
+}

@@ -103,6 +103,7 @@ test("收藏墙与技能未带 cookie 时重定向到登录并带上返回地址
   assert.equal(isPublicPath("/xiaohongshu/"), false);
   assert.equal(isPublicPath("/sidehustle/"), false);
   assert.equal(isPublicPath("/producthunt/"), false);
+  assert.equal(isPublicPath("/linuxdo/"), false);
   assert.equal(isPublicPath("/zsxq/"), false);
   assert.equal(isPublicPath("/thinking/"), false);
   assert.equal(isPublicPath("/nvpusa/"), false);
@@ -124,6 +125,10 @@ test("收藏墙与技能未带 cookie 时重定向到登录并带上返回地址
   const producthunt = await dispatch("/producthunt/");
   assert.equal(producthunt.status, 302);
   assert.equal(producthunt.headers.get("Location"), "https://wall.yangcyyang.cn/login/?next=%2Fproducthunt%2F");
+
+  const linuxdo = await dispatch("/linuxdo/");
+  assert.equal(linuxdo.status, 302);
+  assert.equal(linuxdo.headers.get("Location"), "https://wall.yangcyyang.cn/login/?next=%2Flinuxdo%2F");
 
   const zsxq = await dispatch("/zsxq/");
   assert.equal(zsxq.status, 302);
@@ -409,6 +414,7 @@ test("私有静态资源不能未登录直链绕过", async () => {
     "/xiaohongshu/",
     "/sidehustle/",
     "/producthunt/",
+    "/linuxdo/",
     "/zsxq/",
     "/nvpusa/",
     "/nvpusa/avatars/Anaimiya_400x400.jpg",

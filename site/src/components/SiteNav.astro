@@ -1,7 +1,7 @@
 ---
 import { HIDE_SIDEHUSTLE_FOR_DEMO } from "../lib/sidehustle.mjs";
 
-type Props = { current: "wall" | "news" | "twitter" | "knowledge" | "zsxq" | "prompts" | "skills" | "thinking" | "nvpusa" | "radar" | "xianyu" | "xiaohongshu" | "sidehustle" | "producthunt" | "login" };
+type Props = { current: "wall" | "news" | "twitter" | "knowledge" | "zsxq" | "prompts" | "skills" | "thinking" | "nvpusa" | "radar" | "xianyu" | "xiaohongshu" | "sidehustle" | "producthunt" | "linuxdo" | "login" };
 const { current } = Astro.props;
 const items = [
   { id: "wall", href: "/", label: "收藏墙" },
@@ -18,6 +18,7 @@ const items = [
   { id: "xiaohongshu", href: "/xiaohongshu/", label: "小红书" },
   { id: "sidehustle", href: "/sidehustle/", label: "副业" },
   { id: "producthunt", href: "/producthunt/", label: "Product Hunt" },
+  { id: "linuxdo", href: "/linuxdo/", label: "linux.do" },
 ].filter((item) => !HIDE_SIDEHUSTLE_FOR_DEMO || item.id !== "sidehustle");
 ---
 
