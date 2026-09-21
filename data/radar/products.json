@@ -1,9 +1,219 @@
 {
   "source": "AI Frontier Radar",
   "title": "新产品",
-  "updated_at": "2026-09-18T08:20:00+08:00",
-  "count": 87,
+  "updated_at": "2026-09-21T08:35:00+08:00",
+  "count": 97,
   "items": [
+    {
+      "id": "productbridge",
+      "name": "ProductBridge",
+      "score": 74,
+      "status": "new",
+      "first_detected": "2026-09-21T08:35:00+08:00",
+      "last_updated": "2026-09-21T08:35:00+08:00",
+      "summary": "支持 agent + 反馈/路线图闭环，MCP 36 tools 给 Claude/ChatGPT/Cursor。PH Sep18 约 462 票。",
+      "novelty": "support→feedback→roadmap→回告提问者，产品运营 harness。",
+      "urls": {
+        "producthunt": "https://www.producthunt.com/products/productbridge",
+        "site": "https://productbridge.io"
+      },
+      "tags": [
+        "Product Hunt",
+        "MCP",
+        "Support",
+        "Feedback"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "answers-by-context-dev",
+      "name": "Answers by Context.dev",
+      "score": 83,
+      "status": "new",
+      "first_detected": "2026-09-21T08:35:00+08:00",
+      "last_updated": "2026-09-21T08:35:00+08:00",
+      "summary": "一次 API：研究任务 + 目标 JSON 形状 → 带源 URL 的结构化网页答案（Fast/Ultra）。PH Sep20 约 170 票。",
+      "novelty": "Agent 侧 research→schema 合约，免拼 search+scrape+LLM。",
+      "urls": {
+        "producthunt": "https://www.producthunt.com/products/context-dev",
+        "site": "https://context.dev"
+      },
+      "tags": [
+        "Product Hunt",
+        "Agent API",
+        "Structured Research",
+        "MCP"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "claude-code-auto-mode-server-classifier",
+      "name": "Claude Code Auto Mode Server Classifier",
+      "score": 84,
+      "status": "new",
+      "first_detected": "2026-09-21T08:35:00+08:00",
+      "last_updated": "2026-09-21T08:35:00+08:00",
+      "summary": "Claude Code 2.1.278：Enterprise/API/Bedrock/Vertex 等路径上 Auto mode 默认服务端安全分类器且不计费（可 CLAUDE_CODE_AUTO_MODE_SERVER=0 退出）。",
+      "novelty": "自治执行前门禁变成平台默认基础设施，而不是客户端二次计费。",
+      "urls": {
+        "official": "https://code.claude.com/docs/en/changelog"
+      },
+      "tags": [
+        "Anthropic",
+        "Claude Code",
+        "Auto Mode",
+        "Safety",
+        "Gated Deployment"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "qwen38-live-translate",
+      "name": "Qwen3.8-LiveTranslate",
+      "score": 87,
+      "status": "new",
+      "first_detected": "2026-09-21T08:35:00+08:00",
+      "last_updated": "2026-09-21T08:35:00+08:00",
+      "summary": "实时同传专用：Interleave 架构，约 60 语种，平均延迟 2.8s→2.3s，含说话人分离与双语同步显示。09-19 官方 X。",
+      "novelty": "专用同传能力包（diarization + 双语同步 + 长上下文消歧），不是通用聊天更新。",
+      "urls": {
+        "x": "https://x.com/Alibaba_Qwen/status/2101206705111757253"
+      },
+      "tags": [
+        "Qwen",
+        "Realtime",
+        "Translation",
+        "Speech"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "mycel",
+      "name": "Mycel",
+      "score": 87,
+      "status": "new",
+      "first_detected": "2026-09-21T08:35:00+08:00",
+      "last_updated": "2026-09-21T08:35:00+08:00",
+      "summary": "上传一份历史客户交付物作风格/结构先验，后续草稿等人批准再发；可自托管 Apache-2.0。PH Sep20 约 264 票。",
+      "novelty": "面向服务公司的 teach-by-showing + 发送前人工闸门。",
+      "urls": {
+        "producthunt": "https://www.producthunt.com/products/mycel",
+        "site": "https://mycelai.dev/"
+      },
+      "tags": [
+        "Product Hunt",
+        "Teach-by-showing",
+        "HITL",
+        "Services"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "qwen-image-2-1",
+      "name": "Qwen-Image-2.1",
+      "score": 91,
+      "status": "new",
+      "first_detected": "2026-09-21T08:35:00+08:00",
+      "last_updated": "2026-09-21T08:35:00+08:00",
+      "summary": "阿里开源 7B 统一生图+编辑：原生 RGBA、最多 10 张参考图，ComfyUI / vLLM-Omni day-0。09-20 官方 X。",
+      "novelty": "开源权重的统一 gen+edit，强调成本与速度对封闭模型的优势。",
+      "urls": {
+        "x": "https://x.com/Alibaba_Qwen/status/2101659302792679789"
+      },
+      "tags": [
+        "Qwen",
+        "Image",
+        "Open Weights",
+        "ComfyUI"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "qwen38-omni-flash",
+      "name": "Qwen3.8-Omni-Flash",
+      "score": 90,
+      "status": "new",
+      "first_detected": "2026-09-21T08:35:00+08:00",
+      "last_updated": "2026-09-21T08:35:00+08:00",
+      "summary": "Qwen 首个围绕 agent 能力的全模态模型：原生音视频理解+推理+工具调用，并开源 Qwen-MM-Plugins / Live Harness。（窗口边缘 09-18 11:16 CST，上轮未覆盖）",
+      "novelty": "全模态从「理解」走向「感知→规划→工具执行」一体，开源插件/harness。",
+      "urls": {
+        "x": "https://x.com/Alibaba_Qwen/status/2100785962414702599"
+      },
+      "tags": [
+        "Qwen",
+        "Omni",
+        "Agentic",
+        "Multimodal",
+        "Open Weights"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "sider-omni",
+      "name": "Sider Omni",
+      "score": 89,
+      "status": "new",
+      "first_detected": "2026-09-21T08:35:00+08:00",
+      "last_updated": "2026-09-21T08:35:00+08:00",
+      "summary": "Mac 侧栏：每只 app 窗口一只 Omni，读屏上下文、原地操作、跟窗进全屏；Accessibility/Screen Recording 按工具按需启用。PH Sep18 约 375 票。",
+      "novelty": "Per-window agent computer，而不是独立聊天桌面。",
+      "urls": {
+        "producthunt": "https://www.producthunt.com/products/sider-omni",
+        "site": "https://sider.ai/lab/sider-omni"
+      },
+      "tags": [
+        "Product Hunt",
+        "Mac",
+        "Agent Computer",
+        "Screen Context"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "pushary",
+      "name": "Pushary",
+      "score": 91,
+      "status": "new",
+      "first_detected": "2026-09-21T08:35:00+08:00",
+      "last_updated": "2026-09-21T08:35:00+08:00",
+      "summary": "Agent HITL 控制面：权限请求落到手机/锁屏/Mac notch，跨 Claude Code/Codex/Cursor/Gemini CLI/MCP 统一策略与审计；本版加原生 iOS/Android + QR pairing。PH Sep18 约 184 票。",
+      "novelty": "AFK steering 产品化：decisions.ask() 阻塞直至真人批准（fail-closed），审批离开终端。",
+      "urls": {
+        "producthunt": "https://www.producthunt.com/products/pushary",
+        "site": "https://pushary.com"
+      },
+      "tags": [
+        "Product Hunt",
+        "HITL",
+        "AFK",
+        "Harness",
+        "Mobile"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "google-ax-v0-3",
+      "name": "Google AX v0.3",
+      "score": 92,
+      "status": "new",
+      "first_detected": "2026-09-21T08:35:00+08:00",
+      "last_updated": "2026-09-21T08:35:00+08:00",
+      "summary": "google/ax 从嵌入式单 CLI harness 重构为通用 agent 编排层：ax-server（gRPC Task manifests）+ 水平扩展 ax-controller（Redis Streams）+ 沙箱 ax-task-runner；面向百万级短生命周期任务。",
+      "novelty": "开源 harness 控制面以 Redis-stream 多二进制架构落地，Google 内部 runtime 经验外溢。",
+      "urls": {
+        "github": "https://github.com/google/ax/releases/tag/v0.3.0",
+        "site": "https://agentexecutor.io/"
+      },
+      "tags": [
+        "Google",
+        "AX",
+        "Harness",
+        "Orchestration",
+        "OSS"
+      ],
+      "homepage": true
+    },
     {
       "id": "mcpjam",
       "name": "MCPJam",
@@ -90,7 +300,7 @@
       "id": "anthropic-lsvp-mythos",
       "name": "Anthropic LSVP + Mythos",
       "score": 84,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-18T08:20:00+08:00",
       "last_updated": "2026-09-18T08:20:00+08:00",
       "summary": "Life Sciences Verification Program：生命科学团队在新护栏下使用模型——首次包括 Mythos；beta 面向学术/初创/药企，后续扩 Pro/Max。",
@@ -105,13 +315,13 @@
         "LSVP",
         "门控"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "browserskill",
       "name": "BrowserSkill",
       "score": 85,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-18T08:20:00+08:00",
       "last_updated": "2026-09-18T08:20:00+08:00",
       "summary": "腾讯开源：CLI+扩展让 Cursor/Claude Code/Codex 等复用已登录浏览器，独立 Agent Window、标签借还、验证码 HITL；PH Sep17 约 64 票。",
@@ -127,13 +337,13 @@
         "Agent",
         "OSS"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "bitrise-remote-dev-environments",
       "name": "Bitrise Remote Dev Environments",
       "score": 86,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-18T08:20:00+08:00",
       "last_updated": "2026-09-18T08:20:00+08:00",
       "summary": "与 Bitrise CI 同构的云 Mac/Linux，coding agents 经开源 MCP 并行拉起，可归档/恢复磁盘状态——生产同构的 agent 电脑舰队。",
@@ -149,13 +359,13 @@
         "CI",
         "云Mac"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "kimi-financial-industry-ai-solution",
       "name": "Kimi 金融行业 AI 解决方案",
       "score": 86,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-18T08:20:00+08:00",
       "last_updated": "2026-09-18T08:20:00+08:00",
       "summary": "Moonshot/Kimi：10+ 权威数据源经 MCP 接入，9 项金融 Skill，与中信建投共建风险评估/合规网关；个人可装技能，机构侧 Hosted Agents。",
@@ -172,13 +382,13 @@
         "MCP",
         "合规"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "chatgpt-microsoft-office-integration",
       "name": "ChatGPT in Microsoft Word",
       "score": 87,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-18T08:20:00+08:00",
       "last_updated": "2026-09-18T08:20:00+08:00",
       "summary": "ChatGPT 嵌入 Word（PPT/Excel 同步），全套餐含 Free 有限额；Business/Enterprise 两周 GPT-5.6 Sol in Word 免费预览且不计用量。",
@@ -193,13 +403,13 @@
         "分发",
         "GPT-5.6 Sol"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "weave-router-2-0",
       "name": "Weave Router 2.0",
       "score": 91,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-18T08:20:00+08:00",
       "last_updated": "2026-09-18T08:20:00+08:00",
       "summary": "开源订阅/配额感知 coding-agent 路由器：按复杂度与缓存在 Claude Code/Codex/Cursor 间切换，跨 Claude↔GPT harness；PH Sep16 #1（约 321 票）。",
@@ -215,13 +425,13 @@
         "订阅",
         "Coding Agent"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "claude-code-projects-redesigned",
       "name": "Claude Code Projects（重设计）",
       "score": 92,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-18T08:20:00+08:00",
       "last_updated": "2026-09-18T08:20:00+08:00",
       "summary": "Anthropic 把 Projects 做成协调器：一会话拆目标、开并行云端 threads、共享 memory/artifacts，关电脑后仍继续；部分 Pro/Max 云会话 beta，本周扩量，本地工具随后。",
@@ -237,13 +447,13 @@
         "多Agent",
         "持久执行"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "openai-astra-for-law",
       "name": "Astra for Law",
       "score": 93,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-18T08:20:00+08:00",
       "last_updated": "2026-09-18T08:20:00+08:00",
       "summary": "OpenAI 以 GPT-6 Astra 打包法律垂直：2.3亿+判例/法规检索索引、法律分析指令、律所 Trusted Access/ZDR，以及 26 个合作方 + 社区插件；API gpt-6-astra-law 跟进。",
@@ -259,7 +469,7 @@
         "Skills",
         "垂直SKU"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "claude-cowork-chat-merge",

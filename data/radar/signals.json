@@ -1,9 +1,54 @@
 {
   "source": "AI Frontier Radar",
   "title": "前沿信号",
-  "updated_at": "2026-09-18T08:20:00+08:00",
-  "count": 14,
+  "updated_at": "2026-09-21T08:35:00+08:00",
+  "count": 15,
   "items": [
+    {
+      "id": "open-weight-agentic-multimodal",
+      "title": "开源权重的 Agentic 全模态栈",
+      "type": "pattern",
+      "score": 88,
+      "confidence": "medium",
+      "status": "new",
+      "first_detected": "2026-09-21T08:35:00+08:00",
+      "last_updated": "2026-09-21T08:35:00+08:00",
+      "summary": "Qwen 同窗连发 Omni-Flash（感知→规划→工具）、Image-2.1（统一生图+编辑开源）与 LiveTranslate，并把 MM-Plugins / Live Harness 开源——开源实验室开始整包交付「可执行的全模态 agent」，而不只是多模态理解模型。",
+      "why_it_matters": "封闭 lab 的 omni/agent 叙事正被开源权重+插件/harness 追平分发面；下一问是谁先把这套栈接到企业工作流与本地部署。",
+      "tags": [
+        "Qwen",
+        "Omni",
+        "Open Weights",
+        "Agentic",
+        "Multimodal"
+      ],
+      "evidence": [
+        {
+          "url": "https://x.com/Alibaba_Qwen/status/2100785962414702599",
+          "source": "x",
+          "note": "Qwen3.8-Omni-Flash + MM-Plugins / Live Harness",
+          "date": "2026-09-18"
+        },
+        {
+          "url": "https://x.com/Alibaba_Qwen/status/2101659302792679789",
+          "source": "x",
+          "note": "Qwen-Image-2.1 开源统一 gen+edit",
+          "date": "2026-09-20"
+        },
+        {
+          "url": "https://x.com/Alibaba_Qwen/status/2101206705111757253",
+          "source": "x",
+          "note": "Qwen3.8-LiveTranslate 实时同传",
+          "date": "2026-09-19"
+        }
+      ],
+      "watch_next": [
+        "Qwen MM-Plugins 是否被第三方 coding/agent 产品默认接入",
+        "同档开源 omni（DeepSeek/GLM 等）是否跟进工具执行环"
+      ],
+      "judgment_changes": [],
+      "homepage": true
+    },
     {
       "id": "frontier-vertical-model-skus",
       "title": "前沿模型开始按行业打成可治理的垂直 SKU",
@@ -57,7 +102,7 @@
         "其他实验室是否跟进「前沿模型×行业 SKU」模板"
       ],
       "judgment_changes": [],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "agent-commerce-surfaces",
@@ -120,7 +165,7 @@
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-18T08:20:00+08:00",
+      "last_updated": "2026-09-21T08:35:00+08:00",
       "summary": "Claude Code Projects 重设计：从一会话调度并行云端 threads（各为独立会话/分支），共享 memory 与 artifact library，关电脑后仍继续，可从手机督导；本周对部分 Pro/Max 云会话扩量，本地工具随后。叠加前日 Cowork×chat 合并、jurniti / Cursor Projects / Muse Secure VM——「关盖还在跑」的持久 agent 电脑已成主流产品原语。",
       "why_it_matters": "叙事从「模型会点鼠标」变成「每人一台隔离 VM 里的代理」。Sentinel/审批/审计说明大众 agent 的产品化关键是安全电脑，而不是更长的聊天窗口。",
       "tags": [
@@ -134,6 +179,18 @@
         "Sentinel"
       ],
       "evidence": [
+        {
+          "url": "https://x.com/simonw/status/2101025043098812807",
+          "source": "x",
+          "note": "simonw：Claude Code mods / AGENTS.md 对齐，少写 CLAUDE.md 壳",
+          "date": "2026-09-19"
+        },
+        {
+          "url": "https://sider.ai/lab/sider-omni",
+          "source": "product",
+          "note": "Sider Omni：每窗口一只 agent，跟窗进全屏，屏幕上下文原地操作",
+          "date": "2026-09-18"
+        },
         {
           "url": "https://x.com/claudeai/status/2100632677904744716",
           "source": "official",
@@ -285,11 +342,11 @@
       "id": "critical-cyber-gated-deployment",
       "title": "前沿实验室把「Critical 级网络能力」做成门控发布，而不是全面开闸",
       "type": "pattern",
-      "score": 95,
+      "score": 96,
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-09-02T08:20:00+08:00",
-      "last_updated": "2026-09-14T08:20:00+08:00",
+      "last_updated": "2026-09-21T08:35:00+08:00",
       "summary": "门控 Critical 网络能力从「即将发布」进入量产：OpenAI GPT-6 Astra 今日分阶段上线（先限组织→Plus/Pro/Biz/Ent + API + AWS），并配套 Daybreak for Frontline Defenders 约 10 亿美元补贴给水电/电网/银行等前线防御方。叠加已有的 Google Fairwind + Anthropic Mythos 可信访问，三家实验室同构已落地为可订阅产品与补贴分发，而不只是评级公告。",
       "why_it_matters": "叙事闭环：高能力 cyber 默认 = 门控部署 + 防御侧优先供货。Astra 扩到普通付费档并不等于全面开闸——Critical 能力仍绑安全卡与 Daybreak 通道；补贴玩法说明「能力×门禁」开始有国家/关键基础设施分发层。",
       "tags": [
@@ -306,6 +363,12 @@
         "Daybreak"
       ],
       "evidence": [
+        {
+          "url": "https://code.claude.com/docs/en/changelog",
+          "source": "official",
+          "note": "Claude Code 2.1.278：Auto mode 默认服务端安全分类器且不计费",
+          "date": "2026-09-19"
+        },
         {
           "url": "https://x.com/thlarsen/status/2098544270361964576",
           "source": "reliable",
@@ -396,7 +459,7 @@
         "Daybreak 美国试点扩到哪些非国家客户",
         "Fairwind / Mythos 是否跟进补贴式防御分发"
       ],
-      "homepage": false,
+      "homepage": true,
       "judgment_changes": [
         {
           "at": "2026-09-03T08:15:00+08:00",
@@ -412,11 +475,11 @@
       "id": "harness-control-plane",
       "title": "编程运行时在加控制面，不是发新模型",
       "type": "pattern",
-      "score": 97,
+      "score": 98,
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-08-28T00:00:00+08:00",
-      "last_updated": "2026-09-18T08:20:00+08:00",
+      "last_updated": "2026-09-21T08:35:00+08:00",
       "summary": "Weave Router 2.0 按复杂度/配额/缓存在 Claude↔Codex/Cursor 间路由；Bitrise Remote Dev Environments 用 MCP 拉起与 CI 同构的云 Mac/Linux；Claude Projects 把协调器做成产品原语。控制面继续从「编排模型」扩到「路由订阅 + 生产同构电脑」。",
       "why_it_matters": "第三方不必自建控制面即可嵌入同一套 agent loop；许可/沙箱/会话成为平台原语，而不只是应用层胶水。",
       "tags": [
@@ -430,6 +493,18 @@
         "沙箱"
       ],
       "evidence": [
+        {
+          "url": "https://pushary.com",
+          "source": "product",
+          "note": "Pushary：agent 权限请求落到手机/锁屏，fail-closed HITL 控制面",
+          "date": "2026-09-18"
+        },
+        {
+          "url": "https://github.com/google/ax/releases/tag/v0.3.0",
+          "source": "github",
+          "note": "google/ax v0.3.0：单 CLI harness → Redis Streams 多二进制编排控制面",
+          "date": "2026-09-20"
+        },
         {
           "url": "https://bitrise.io/platform/remote-dev-environments",
           "source": "product",
@@ -558,6 +633,7 @@
         }
       ],
       "watch_next": [
+        "google/ax 是否被 Cursor/Claude Projects 类产品引用为底座",
         "Agents API 出公测后的定价与配额",
         "更多 IDE/平台是否跟进「Projects 式」常驻 coordinator"
       ],
@@ -861,11 +937,11 @@
       "id": "frontier-pacing-embedded-evaluators",
       "title": "前沿实验室开始用「嵌入式第三方评估」来给能力增速踩刹车",
       "type": "pattern",
-      "score": 98,
+      "score": 99,
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-09-14T08:20:00+08:00",
-      "last_updated": "2026-09-18T08:20:00+08:00",
+      "last_updated": "2026-09-21T08:35:00+08:00",
       "summary": "Anthropic 公开三项可对标的实验室节奏度量：AI 完成多少 AI R&D、agent 被监管得如何、算力如何分配，并承诺嵌入多组织第三方评估员；叠加 OpenAI misalignment 披露框架与 DeepMind Institute——pacing 从口头表态推进到可复述的生产过程指标与常设治理平台。",
       "why_it_matters": "pacing 从「承诺让评估者进驻」推进到「能力跃迁前的可审计工件（safety cases）」——把放慢做成研发门控，而不只是发布门控。",
       "tags": [
@@ -878,6 +954,18 @@
         "治理"
       ],
       "evidence": [
+        {
+          "url": "https://x.com/AnthropicAI/status/2101039819870937247",
+          "source": "x",
+          "note": "@AnthropicAI 官宣独立前沿评测伙伴",
+          "date": "2026-09-19"
+        },
+        {
+          "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+          "source": "official",
+          "note": "Anthropic×Accenture：嵌入式评估方获近员工访问，双方五年各≥$1B",
+          "date": "2026-09-18"
+        },
         {
           "url": "https://x.com/AnthropicAI/status/2100684274114699295",
           "source": "official",
@@ -958,6 +1046,7 @@
         }
       ],
       "watch_next": [
+        "嵌入式评估独立性争议与对外报告首发",
         "标准机构是否落章程/成员/执法力",
         "OpenAI safety cases 是否公开",
         "METR 等是否进驻"
@@ -1186,11 +1275,11 @@
       "id": "skills-as-distribution",
       "title": "技能正在变成智能体能力的分发层",
       "type": "pattern",
-      "score": 97,
+      "score": 98,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-18T08:20:00+08:00",
+      "last_updated": "2026-09-21T08:35:00+08:00",
       "summary": "OpenAI Astra for Law 以 26 个合作方 + 47 个社区插件把法律工作流当分发面；Kimi 金融方案上线 9 项 Skill + 10+ 数据源 MCP + 合规网关。叠加 Sponsored Agents、Muse plugins、Salesforce×Claude——技能/插件正在成为垂直能力的默认分发层。",
       "why_it_matters": "第四个命令行不值钱。可安装的技能和模板才是分发。企业插件市场把同一层做成了日常同步的软件包。",
       "tags": [
@@ -1199,6 +1288,12 @@
         "分发"
       ],
       "evidence": [
+        {
+          "url": "https://mycelai.dev/",
+          "source": "product",
+          "note": "Mycel：一份历史交付物作先验，后续草稿等人批准再发",
+          "date": "2026-09-20"
+        },
         {
           "url": "https://www.kimi.com/news/kimi-financial-industry-ai-solution",
           "source": "official",
@@ -1336,12 +1431,6 @@
           "source": "reliable",
           "note": "Claude for Financial Advisors：RIA 角色 skills + 托管/CRM 连接器",
           "date": "2026-09-14T00:00:00+08:00"
-        },
-        {
-          "url": "https://x.com/ElevenLabs/status/2099547227223908568",
-          "source": "official",
-          "note": "ElevenLabs MCP：语音/音乐/图/视频生成进同一 Agents MCP",
-          "date": "2026-09-15T01:14:01+08:00"
         }
       ],
       "watch_next": [
@@ -1349,7 +1438,7 @@
         "WhatsApp MCP 灰度扩量与审计事件",
         "技能质量会不会被批量克隆淹没"
       ],
-      "homepage": true,
+      "homepage": false,
       "judgment_changes": [
         {
           "at": "2026-09-04T08:57:00+08:00",
@@ -1437,11 +1526,11 @@
       "id": "voice-first-agent-interface",
       "title": "全双工语音正在变成 agent 的一等入口",
       "type": "strong_signal",
-      "score": 91,
+      "score": 93,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-09-11T08:20:00+08:00",
-      "last_updated": "2026-09-16T08:20:00+08:00",
+      "last_updated": "2026-09-21T08:35:00+08:00",
       "summary": "Google DeepMind 发布 Gemini 3.8 Live / Extended Thinking：全双工语音会话内可持续推理、近实时视觉、后台异步 tool calling（不打断对话）。叠加既有 GPT-Live-1 + Devin Voice，语音优先从「可通话」升级为「会话内常驻 agent loop」。架构上出现分叉：Gemini 把 reasoning 留在同一语音会话，OpenAI GPT-Live-1 倾向外置推理。",
       "why_it_matters": "Voice 不再是聊天皮肤，而是可编排的生产入口：后台工具 + 会话内 thinking 决定谁能做真 agent，而不只是语音助手。",
       "tags": [
@@ -1451,6 +1540,18 @@
         "Agent"
       ],
       "evidence": [
+        {
+          "url": "https://x.com/Alibaba_Qwen/status/2100785962414702599",
+          "source": "x",
+          "note": "Qwen3.8-Omni-Flash：音视频理解+推理+工具调用 agentic omni",
+          "date": "2026-09-18"
+        },
+        {
+          "url": "https://x.com/Alibaba_Qwen/status/2101206705111757253",
+          "source": "x",
+          "note": "Qwen3.8-LiveTranslate：实时同传 Interleave，diarization+双语同步",
+          "date": "2026-09-19"
+        },
         {
           "url": "https://sierra.ai/blog/multimodal-agents",
           "source": "official",
@@ -1535,11 +1636,11 @@
       "id": "physical-mcp-mhs",
       "title": "屏幕/物理操控开始长出「可声明的自动化边界」",
       "type": "emerging_signal",
-      "score": 83,
+      "score": 86,
       "confidence": "medium",
       "status": "strengthening",
       "first_detected": "2026-08-27T00:00:00+08:00",
-      "last_updated": "2026-09-18T08:20:00+08:00",
+      "last_updated": "2026-09-21T08:35:00+08:00",
       "summary": "腾讯开源 BrowserSkill：CLI+扩展让 shell agent 复用已登录 Chrome/Edge，独立 Agent Window、显式借还标签页、验证码/登录 HITL——与豆包 SAEP 的「可声明自动化边界」同向：真实 GUI 会话开始长出可协商的人机检查点。",
       "why_it_matters": "没有同意层的手机 agent 不可规模化；SAEP 类协议可能成为移动端 GUI agent 的合规与分发前提。",
       "tags": [
@@ -1552,6 +1653,12 @@
         "MHS"
       ],
       "evidence": [
+        {
+          "url": "https://www.producthunt.com/products/pushary",
+          "source": "producthunt",
+          "note": "Pushary PH：iOS/Android + QR pairing，审批离开终端",
+          "date": "2026-09-18"
+        },
         {
           "url": "https://github.com/Tencent/BrowserSkill",
           "source": "oss",

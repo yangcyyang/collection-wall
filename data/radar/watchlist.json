@@ -1,9 +1,88 @@
 {
   "source": "AI Frontier Radar",
   "title": "观察名单",
-  "updated_at": "2026-09-18T08:20:00+08:00",
-  "count": 39,
+  "updated_at": "2026-09-21T08:35:00+08:00",
+  "count": 46,
   "items": [
+    {
+      "id": "claude-auto-mode-server-rollout",
+      "title": "Claude Code Auto mode 服务端分类器企业默认渗透",
+      "why": "不计费云端门禁是否显著提高 auto mode 开启率。",
+      "since": "2026-09-21T08:35:00+08:00",
+      "last_updated": "2026-09-21T08:35:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "critical-cyber-gated-deployment"
+      ]
+    },
+    {
+      "id": "mycel-teach-by-showing",
+      "title": "Mycel teach-by-showing 在服务交付的复购",
+      "why": "一份 exemplar → 持续草稿的模式是否可复制到更多专业服务。",
+      "since": "2026-09-21T08:35:00+08:00",
+      "last_updated": "2026-09-21T08:35:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "skills-as-distribution"
+      ]
+    },
+    {
+      "id": "accenture-eval-independence",
+      "title": "Accenture 嵌入式评估的独立性与首份对外报告",
+      "why": "lab 直付资金下，嵌入评估能否被外界当作独立 pace 证据。",
+      "since": "2026-09-21T08:35:00+08:00",
+      "last_updated": "2026-09-21T08:35:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "frontier-pacing-embedded-evaluators"
+      ]
+    },
+    {
+      "id": "qwen-omni-agentic-uptake",
+      "title": "Qwen Omni / MM-Plugins 被第三方接入情况",
+      "why": "开源 agentic 全模态栈能否走出官方 demo。",
+      "since": "2026-09-21T08:35:00+08:00",
+      "last_updated": "2026-09-21T08:35:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "open-weight-agentic-multimodal",
+        "voice-first-agent-interface"
+      ]
+    },
+    {
+      "id": "sider-omni-per-window-uptake",
+      "title": "Sider Omni 每窗口 agent 的日常使用密度",
+      "why": "per-window computer 是否比独立 agent 桌面更能站住。",
+      "since": "2026-09-21T08:35:00+08:00",
+      "last_updated": "2026-09-21T08:35:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "agent-persistent-computer"
+      ]
+    },
+    {
+      "id": "pushary-afk-hitl-uptake",
+      "title": "Pushary AFK HITL 在 coding-agent 团队的留存",
+      "why": "锁屏审批能否变成默认权限路径，还是停留在演示。",
+      "since": "2026-09-21T08:35:00+08:00",
+      "last_updated": "2026-09-21T08:35:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "harness-control-plane",
+        "physical-mcp-mhs"
+      ]
+    },
+    {
+      "id": "google-ax-substrate-adoption",
+      "title": "Google AX 是否成为第三方 agent 运行时底座",
+      "why": "v0.3 编排层能否被 Cursor/Claude/开源 harness 实际引用，而不只是 Google 内部外溢。",
+      "since": "2026-09-21T08:35:00+08:00",
+      "last_updated": "2026-09-21T08:35:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "harness-control-plane"
+      ]
+    },
     {
       "id": "kimi-finance-compliance-gateway",
       "title": "Kimi 金融合规网关与 Hosted Agents 的机构留存",
