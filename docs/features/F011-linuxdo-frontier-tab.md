@@ -43,10 +43,10 @@ item: id, group, title, likes, views, why, url
 - 工具条：全选 / 取消 / 移除所选 / 恢复已移除 / 已隐藏 N 条
 
 ## Acceptance Criteria
-- [ ] AC-1：SiteNav 出现「linux.do」，`/linuxdo/` 可构建并产出 `index.html`。
-- [ ] AC-2：JSON 在 `data/linuxdo/digest.json`，空 `items` 显示整页空状态。
-- [ ] AC-3：页面分【今日热门】与【值得看的分享】；标题链到 linux.do；展示赞/浏览/why。
-- [ ] AC-4：未登录访问 `/linuxdo/` 与 Product Hunt 一样跳登录。
-- [ ] AC-5：勾选若干卡片后点「移除所选」，条目消失；刷新后仍隐藏。
-- [ ] AC-6：「恢复已移除」清空当日 dismissed，条目重新出现。
-- [ ] AC-7：不改其他无关 Tab。不写 GitHub API。
+- [x] AC-1：SiteNav 出现「linux.do」，`/linuxdo/` 可构建并产出 `index.html`。
+- [x] AC-2：JSON 在 `data/linuxdo/digest.json`，空 `items` 显示整页空状态。
+- [x] AC-3：页面分【今日热门】与【值得看的分享】；标题链到 linux.do；展示赞/浏览/why。
+- [x] AC-4：未登录访问 `/linuxdo/` 与 Product Hunt 一样跳登录。
+- [x] AC-5：勾选若干卡片后点「移除所选」，条目消失；刷新后仍隐藏。
+- [x] AC-6：「恢复已移除」清空当日 dismissed，条目重新出现。
+- [x] AC-7：不改其他无关 Tab。不写 GitHub API。

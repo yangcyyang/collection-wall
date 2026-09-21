@@ -34,7 +34,7 @@ const sections = [
       <header class="site-header">
         <div>
           <p class="eyebrow">linux.do</p>
-          <h1>前沿</h1>
+          <h1>linux.do</h1>
           {feed.title && (
             <p class="intro">
               {feed.title}
@@ -98,7 +98,7 @@ const sections = [
                       return (
                         <article class="tool-card" data-linuxdo-card data-linuxdo-id={item.id} data-linuxdo-group={item.group}>
                           <div class="card-content">
-                            <div class="card-meta">
+                            <div class="card-meta linuxdo-card-meta">
                               <label class="linuxdo-check">
                                 <input type="checkbox" data-linuxdo-check value={item.id} />
                                 <span class="visually-hidden">选择 {item.title}</span>
@@ -131,7 +131,7 @@ const sections = [
       import { bindLinuxdoWorkbench } from "../lib/linuxdo-dismiss.mjs";
 
       const root = document.querySelector("[data-linuxdo-root]");
-      if (root) bindLinuxdoWorkbench(root);
+      if (root instanceof HTMLElement) bindLinuxdoWorkbench(root);
     </script>
   </body>
 </html>
@@ -139,7 +139,7 @@ const sections = [
 <style>
   .linuxdo-toolbar { align-items: center; }
   .linuxdo-remove {
-    background: #9b3a4a;
+    background: var(--color-badge-new);
     border: 0;
     border-radius: var(--radius-card);
     color: var(--color-surface);
@@ -148,7 +148,8 @@ const sections = [
   }
   .linuxdo-remove:disabled,
   .tag-filter:disabled { cursor: not-allowed; opacity: 0.45; }
-  .linuxdo-remove:focus-visible { outline: var(--outline-width) solid #9b3a4a; outline-offset: var(--outline-width); }
+  .linuxdo-remove:focus-visible { outline: var(--outline-width) solid var(--color-badge-new); outline-offset: var(--outline-width); }
+  .linuxdo-card-meta { justify-content: flex-start; gap: var(--spacing-sm); }
   .linuxdo-hidden { color: var(--color-text-secondary); font-size: var(--font-size-caption); margin: 0; }
   .linuxdo-check { align-items: center; display: inline-flex; position: relative; z-index: 2; }
   .tool-section.is-hot,

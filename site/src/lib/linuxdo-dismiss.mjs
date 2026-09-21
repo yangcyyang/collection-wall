@@ -1,7 +1,7 @@
 export const DISMISS_KEY_PREFIX = "linuxdo-frontier-dismissed";
 
-export function dismissedStorageKey(date) {
-  return `${DISMISS_KEY_PREFIX}:${date}`;
+export function dismissedStorageKey(date, prefix = DISMISS_KEY_PREFIX) {
+  return `${prefix}:${date}`;
 }
 
 export function hiddenCountLabel(count) {
@@ -22,26 +22,34 @@ export function parseDismissedIds(raw) {
   }
 }
 
-export function readDismissedIds(storage, date) {
+export function readDismissedIds(storage, date, prefix = DISMISS_KEY_PREFIX) {
   try {
-    return parseDismissedIds(storage?.getItem(dismissedStorageKey(date)));
+    return parseDismissedIds(storage?.getItem(dismissedStorageKey(date, prefix)));
   } catch {
     return [];
   }
 }
 
-export function writeDismissedIds(storage, date, ids) {
+export function writeDismissedIds(storage, date, ids, prefix = DISMISS_KEY_PREFIX) {
   const unique = uniqueIds(ids);
-  storage?.setItem(dismissedStorageKey(date), JSON.stringify(unique));
+  try {
+    storage?.setItem(dismissedStorageKey(date, prefix), JSON.stringify(unique));
+  } catch {
+    return unique;
+  }
   return unique;
 }
 
-export function dismissSelected(storage, date, selectedIds) {
-  return writeDismissedIds(storage, date, [...readDismissedIds(storage, date), ...uniqueIds(selectedIds)]);
+export function dismissSelected(storage, date, selectedIds, prefix = DISMISS_KEY_PREFIX) {
+  return writeDismissedIds(storage, date, [...readDismissedIds(storage, date, prefix), ...uniqueIds(selectedIds)], prefix);
 }
 
-export function restoreDismissed(storage, date) {
-  storage?.removeItem(dismissedStorageKey(date));
+export function restoreDismissed(storage, date, prefix = DISMISS_KEY_PREFIX) {
+  try {
+    storage?.removeItem(dismissedStorageKey(date, prefix));
+  } catch {
+    return [];
+  }
   return [];
 }
 
@@ -58,8 +66,8 @@ function selectedIds(root) {
   });
 }
 
-function applyWorkbench(root, storage, date) {
-  const dismissed = readDismissedIds(storage, date);
+function applyWorkbench(root, storage, date, prefix) {
+  const dismissed = readDismissedIds(storage, date, prefix);
   const hidden = new Set(dismissed);
   root.querySelectorAll("[data-linuxdo-card]").forEach((card) => {
     const gone = hidden.has(card.getAttribute("data-linuxdo-id") ?? "");
@@ -76,8 +84,9 @@ function applyWorkbench(root, storage, date) {
     const countEl = section.querySelector("[data-linuxdo-section-count]");
     if (countEl) countEl.textContent = `${visible} 条`;
   });
+  const hiddenOnPage = [...root.querySelectorAll("[data-linuxdo-card]")].filter((card) => card.hidden).length;
   const hiddenCountEl = root.querySelector("[data-linuxdo-hidden-count]");
-  if (hiddenCountEl) hiddenCountEl.textContent = hiddenCountLabel(dismissed.length);
+  if (hiddenCountEl) hiddenCountEl.textContent = hiddenCountLabel(hiddenOnPage);
   const removeBtn = root.querySelector("[data-linuxdo-remove]");
   if (removeBtn) removeBtn.disabled = selectedIds(root).length === 0;
   const restoreBtn = root.querySelector("[data-linuxdo-restore]");
@@ -91,17 +100,20 @@ export function bindLinuxdoWorkbench(root, options = {}) {
     ?? root.getAttribute("data-linuxdo-date")
     ?? root.querySelector("[data-linuxdo-date]")?.getAttribute("data-linuxdo-date")
     ?? "";
+  const prefix = options.prefix
+    ?? root.getAttribute("data-linuxdo-dismiss-prefix")
+    ?? DISMISS_KEY_PREFIX;
 
-  const refresh = () => applyWorkbench(root, storage, date);
+  const refresh = () => applyWorkbench(root, storage, date, prefix);
   root.querySelectorAll("[data-linuxdo-check]").forEach((input) => {
     input.addEventListener("change", refresh);
   });
   root.querySelector("[data-linuxdo-remove]")?.addEventListener("click", () => {
-    dismissSelected(storage, date, selectedIds(root));
+    dismissSelected(storage, date, selectedIds(root), prefix);
     refresh();
   });
   root.querySelector("[data-linuxdo-restore]")?.addEventListener("click", () => {
-    restoreDismissed(storage, date);
+    restoreDismissed(storage, date, prefix);
     refresh();
   });
   root.querySelector("[data-linuxdo-select-all]")?.addEventListener("click", () => {

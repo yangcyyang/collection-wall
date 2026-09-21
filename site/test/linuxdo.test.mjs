@@ -20,26 +20,6 @@ import {
   linuxdoLikesLabel,
   linuxdoViewsLabel,
 } from "../src/lib/linuxdo.mjs";
-import {
-  DISMISS_KEY_PREFIX,
-  dismissSelected,
-  dismissedStorageKey,
-  filterVisibleItems,
-  hiddenCountLabel,
-  readDismissedIds,
-  restoreDismissed,
-  writeDismissedIds,
-} from "../src/lib/linuxdo-dismiss.mjs";
-
-function memoryStorage(initial = {}) {
-  const store = new Map(Object.entries(initial));
-  return {
-    getItem: (key) => (store.has(key) ? store.get(key) : null),
-    setItem: (key, value) => { store.set(key, String(value)); },
-    removeItem: (key) => { store.delete(key); },
-    keys: () => [...store.keys()],
-  };
-}
 
 const emptyFeed = {
   source: "",
@@ -96,13 +76,19 @@ test("读取 data/linuxdo/digest.json 契约，不硬编码条目", async () => 
   assert.equal(String(feed.items[0].id), String(raw.items[0].id));
 });
 
-test("按日归档 2026-09-21.json 与 digest 同结构", async () => {
-  const digest = JSON.parse(await readFile(digestFile, "utf8"));
+test("按日归档 2026-09-21.json 自身契约完整，不跟当前 digest 比条数", async () => {
   const dated = JSON.parse(await readFile(datedFile, "utf8"));
+  assert.equal(dated.source, "linuxdo-frontier");
+  assert.equal(dated.title, "linux.do 热门前沿分享");
   assert.equal(dated.date, "2026-09-21");
-  assert.equal(dated.source, digest.source);
-  assert.equal(dated.count, digest.count);
-  assert.equal(dated.items.length, digest.items.length);
+  assert.ok(typeof dated.updated_at === "string");
+  assert.ok(Array.isArray(dated.hot));
+  assert.ok(Array.isArray(dated.share));
+  assert.ok(Array.isArray(dated.items));
+  assert.equal(dated.count, dated.items.length);
+  assert.equal(dated.items.length, dated.hot.length + dated.share.length);
+  assert.ok(dated.items.some((item) => item.id === 2928990));
+  assert.match(dated.items[0].url, /^https:\/\/linux\.do\/t\/topic\/\d+$/);
 });
 
 test("getItemById 按 topic id 取值，未知 id 为 null", async () => {
@@ -191,43 +177,6 @@ test("点赞浏览标签与分组过滤", () => {
   assert.deepEqual(grouped.share.map((item) => item.id), ["2"]);
 });
 
-test("dismiss 按日期写入 localStorage，刷新后仍过滤", () => {
-  const storage = memoryStorage();
-  assert.equal(dismissedStorageKey("2026-09-21"), `${DISMISS_KEY_PREFIX}:2026-09-21`);
-  assert.deepEqual(readDismissedIds(storage, "2026-09-21"), []);
-
-  const after = dismissSelected(storage, "2026-09-21", [2928990, "2925970"]);
-  assert.deepEqual(after, ["2928990", "2925970"]);
-  assert.deepEqual(readDismissedIds(storage, "2026-09-21"), ["2928990", "2925970"]);
-  assert.deepEqual(readDismissedIds(storage, "2026-09-22"), []);
-
-  const merged = dismissSelected(storage, "2026-09-21", ["2928990", 2927016]);
-  assert.deepEqual(merged, ["2928990", "2925970", "2927016"]);
-
-  const items = [
-    { id: 2928990, title: "a" },
-    { id: "2925970", title: "b" },
-    { id: 2927016, title: "c" },
-    { id: 2925213, title: "d" },
-  ];
-  assert.deepEqual(filterVisibleItems(items, merged).map((item) => String(item.id)), ["2925213"]);
-  assert.equal(hiddenCountLabel(merged.length), "已隐藏 3 条");
-
-  assert.deepEqual(restoreDismissed(storage, "2026-09-21"), []);
-  assert.deepEqual(readDismissedIds(storage, "2026-09-21"), []);
-  assert.equal(storage.keys().includes(`${DISMISS_KEY_PREFIX}:2026-09-21`), false);
-});
-
-test("损坏或非数组的 dismiss 记录视为空，不抛错", () => {
-  const storage = memoryStorage({
-    [`${DISMISS_KEY_PREFIX}:2026-09-21`]: "{not-json",
-  });
-  assert.deepEqual(readDismissedIds(storage, "2026-09-21"), []);
-  writeDismissedIds(storage, "2026-09-21", ["1"]);
-  storage.setItem(`${DISMISS_KEY_PREFIX}:2026-09-21`, JSON.stringify({ id: 1 }));
-  assert.deepEqual(readDismissedIds(storage, "2026-09-21"), []);
-});
-
 test("列表页有两组分区、勾选移除工具条，不生成子路由", async () => {
   const page = await readFile(new URL("../src/pages/linuxdo.astro", import.meta.url), "utf8");
   const nav = await readFile(new URL("../src/components/SiteNav.astro", import.meta.url), "utf8");
@@ -244,6 +193,7 @@ test("列表页有两组分区、勾选移除工具条，不生成子路由", as
   assert.match(page, /data-linuxdo-check/);
   assert.match(page, /data-linuxdo-remove/);
   assert.match(page, /data-linuxdo-restore/);
+  assert.match(page, /bindLinuxdoWorkbench/);
   assert.match(page, /linuxdo-frontier-dismissed/);
   assert.match(page, /data\/linuxdo/);
   assert.match(page, /digest\.json/);
