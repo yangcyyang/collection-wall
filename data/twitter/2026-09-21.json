@@ -9,6 +9,813 @@
   },
   "items": [
     {
+      "id": "2102059922544599314",
+      "author": "xiaohu",
+      "bio": "",
+      "text": "Hyper3D 推出 Agent-Ready\n\nAI Agent现在可以自己完成3D工作流\n\nAgentic Mode自主决策模式，AI会理解多视图、工业图纸、电商图等素材，并自己判断用什么方式建模、怎么调参数",
+      "likes": 2,
+      "views": "2173",
+      "created_at": "Mon Sep 21 15:38:34 +0000 2026",
+      "url": "https://x.com/i/status/2102059922544599314",
+      "has_media": false,
+      "media_urls": [],
+      "quoted_tweet": {
+        "id": "2102055632887324775",
+        "author": "DeemosTech",
+        "name": "Hyper3D by Deemos",
+        "text": "🚀 Introducing #HYPER3D Agentic Mode.\n\nAGI optimizes your input and chooses how to model it.\n\nGenerate editable N-GONS #3D model for #CAD, building &amp; industrial product.\n\n📏Adjust dimensions. 🏃‍♀️Add animation.\n\nTowards Production-Ready, to Agent-Ready.\n\nThis is Vibe Modeling👇 https://t.co/UWkMxap0CK",
+        "created_at": "Mon Sep 21 15:21:31 +0000 2026",
+        "url": "https://x.com/DeemosTech/status/2102055632887324775",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2102048461231448066/vid/avc1/320x320/Aw-D6MR3UjqHQ6iv.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2102048461231448066/img/F_cW_s94fI8xfKnw.jpg"
+        ]
+      },
+      "score": 49.898,
+      "summary": "Hyper3D 推出 Agent-Ready\n\nAI Agent现在可以自己完成3D工作流\n\nAgentic Mode自主决策模式，AI会理解多视图、工业图纸、电商图等素材，并自己判断用什么方式建模、怎么调参数",
+      "recommend_reason": "3D 工具补上 Agent 自主选建模路径，贴近工业图纸/电商多视图输入。",
+      "tags": [
+        "指定AI名单",
+        "Hyper3D",
+        "3D",
+        "Agent",
+        "产品"
+      ],
+      "section": "指定AI名单",
+      "rank": 1
+    },
+    {
+      "id": "2102050467505430555",
+      "author": "poteto",
+      "bio": "",
+      "text": "here's how i shipped 2,500 PRs last month to production\n\nthis was originally supposed to be for Cursor Compile in London. i couldn't make it since i was livestreaming for Grok @Bot Galaxy so i'm making it available for free here on X! watch it on 2x speed, i talk slowly https://t.co/NgrGz7tmPM",
+      "likes": 2232,
+      "views": "71370",
+      "created_at": "Mon Sep 21 15:01:00 +0000 2026",
+      "url": "https://x.com/i/status/2102050467505430555",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2101938030122868736/vid/avc1/430x270/yyfU23snwfb5se7a.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2101938030122868736/img/e-Vk06LcPlqFYO1q.jpg"
+      ],
+      "score": 82.489,
+      "title": "一个月合入 2500 个 PR：Cursor Compile 分享公开课",
+      "summary": "作者本为伦敦 Cursor Compile 准备的分享因直播改期，现公开讲解如何在一个月内向生产环境合入约 2500 个 PR；建议 2 倍速观看。",
+      "recommend_reason": "高吞吐工程实践公开课，适合对照自己的 PR/发布节奏。",
+      "tags": [
+        "工程效能",
+        "Cursor",
+        "PR",
+        "实践",
+        "分享"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2102048510426411404",
+      "author": "vista8",
+      "bio": "",
+      "text": "这个场景有趣！假如你正在某个 Codex 文件夹下开发。\n\n突然想到另一个项目需要也需要修改。\n\n可以让Codex 通知另外一个项目启动执行。\n\n会显示为“已等待聊天”。\n\n一直听说 Codex 支持跨 Session 对话，第一次主动用上。 https://t.co/XHe5bk0lhj",
+      "likes": 2,
+      "views": "3353",
+      "created_at": "Mon Sep 21 14:53:13 +0000 2026",
+      "url": "https://x.com/i/status/2102048510426411404",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSv5G-NaAAAxfly.jpg"
+      ],
+      "score": 54.999,
+      "summary": "这个场景有趣！假如你正在某个 Codex 文件夹下开发。\n\n突然想到另一个项目需要也需要修改。\n\n可以让Codex 通知另外一个项目启动执行。\n\n会显示为“已等待聊天”。\n\n一直听说 Codex 支持跨 Session 对话，第一次主动用上。",
+      "recommend_reason": "跨 session 唤醒另一项目 Codex，是多仓并行时很实用的小技巧。",
+      "tags": [
+        "指定AI名单",
+        "Codex",
+        "多项目",
+        "工作流",
+        "Session"
+      ],
+      "section": "指定AI名单",
+      "rank": 3
+    },
+    {
+      "id": "2102047166260719972",
+      "author": "vista8",
+      "bio": "",
+      "text": "VPS 抓取信息过不了Cloudflare，GPT5.6 sol 不愿帮忙。\n\n换成智谱GLM 5.3 Flash。\n\n发现 curl_cffi 可以模拟Chrome TLS指纹，穿过Cloudflare。\n\n群友提的需求终于可以搞定了，乔木RSS阅读器开始支持Youtube视频总结。",
+      "likes": 22,
+      "views": "4273",
+      "created_at": "Mon Sep 21 14:47:53 +0000 2026",
+      "url": "https://x.com/i/status/2102047166260719972",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSv4A8taUAAAVPE.jpg"
+      ],
+      "score": 61.232,
+      "summary": "VPS 抓取信息过不了Cloudflare，GPT5.6 sol 不愿帮忙。\n\n换成智谱GLM 5.3 Flash。\n\n发现 curl_cffi 可以模拟Chrome TLS指纹，穿过Cloudflare。\n\n群友提的需求终于可以搞定了，乔木RSS阅读器开始支持Youtube视频总结。",
+      "recommend_reason": "实际排障路径：换模型 + curl_cffi 模拟 TLS，打通 RSS/YouTube 总结链路。",
+      "tags": [
+        "指定AI名单",
+        "GLM",
+        "爬虫",
+        "Cloudflare",
+        "RSS"
+      ],
+      "section": "指定AI名单",
+      "rank": 4
+    },
+    {
+      "id": "2102026549075820751",
+      "author": "LufzzLiz",
+      "bio": "",
+      "text": "我去，用4090 （48G VRAM）实际部署了下Qwen-Image 2.1 ，果真有NSFW，而且非常容易就触发了。\n提示词：\"一个性感的美女\" 就能出。。\n模型整体还不错，中文字体也不崩\n\n部署 bf16 权重加载完常驻 38 GiB，剩给你的只有七八个 G。 \n\n性能（bf16 / seed 42 / 40 步）：1328² 出图 39.1 秒、峰值 41.0 GiB；\n1664×928 中文海报 33.9 秒；1024² 图生图 25.5 秒；2048² 开 tiling 114.9 秒、32.5 GiB。大约 22~24 秒／百万像素，随像素量线性，报活儿按面积乘一下就行。\n按 ¥18 一小时折算，一张 1328² 约两毛钱。\n\n注意事项：\n2048² 不做优化会OOM ：爆点在 VAE 解码，256×256 的 latent 一次性上采样回 2048×2048×3，中间张量几十 GiB，和常驻的 38 GiB 权重挤一起必炸，所以要开 tiling ，对照 cpu_offload：也能救 2048²，但慢 9%，1328² 上固定搬运费 +9.1 秒。它该降级成小显存卡的兜底，不配当标配。\n\n详细的模型部署及调优指南见评论👇🏻",
+      "likes": 65,
+      "views": "44693",
+      "created_at": "Mon Sep 21 13:25:57 +0000 2026",
+      "url": "https://x.com/i/status/2102026549075820751",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSvb8VmagAAlcPk.jpg",
+        "https://pbs.twimg.com/media/HSvb-CVbEAAmMne.jpg",
+        "https://pbs.twimg.com/media/HSvcLp8bMAAqynn.jpg",
+        "https://pbs.twimg.com/media/HSvc5x8bgAEgmNB.jpg"
+      ],
+      "quoted_tweet": {
+        "id": "2101674340676710709",
+        "author": "LufzzLiz",
+        "name": "岚叔",
+        "text": "Qwen-Image 2.1 发布，这个图有意思，直观看到性能已经超越Nano banana 了，而且是7B 开源\n但开源协议从Apache 2.0 退到 research--任何商业用途，需要单独授权\n\nalpha 通道是亮点：可以直接出透明图，alpha做进了 VAE，64 通道、16 倍空间压缩，贴纸、图标、UI 素材不用生成完再抠一刀，模型直接吐 RGBA。\n\n\"7B\" 只指 32 层单流 DiT；文本编码器是 Qwen3-VL 8B，加 RGBA VAE，整包 33.13 GB",
+        "created_at": "Sun Sep 20 14:06:24 +0000 2026",
+        "url": "https://x.com/LufzzLiz/status/2101674340676710709",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HSqj819a0AA_EzO.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HSqj819a0AA_EzO.jpg"
+        ]
+      },
+      "score": 64.264,
+      "title": "4090 实装 Qwen-Image 2.1：显存、耗时与 2048² OOM 坑",
+      "summary": "bf16 常驻约 38GiB；1328²约 39.1 秒峰值 41GiB，中文海报 1664×928 约 33.9 秒，图生图 1024²约 25.5 秒；2048²须开 tiling，否则 VAE 解码易 OOM。作者按 ¥18/小时粗算 1328²约两毛，并提醒 NSFW 触发门槛很低、中文字体尚可。",
+      "recommend_reason": "少见的本地部署账本：常驻显存、每百万像素耗时和 OOM 爆点写清楚，方便报活。",
+      "tags": [
+        "指定AI名单",
+        "Qwen-Image",
+        "本地部署",
+        "显存",
+        "文生图"
+      ],
+      "section": "指定AI名单",
+      "rank": 5
+    },
+    {
+      "id": "2102018420535443790",
+      "author": "MaiYangAI",
+      "bio": "",
+      "text": "亲手打掉酷想法，才做出能点的 Agent。\n\n看完 Dive Club 和 John Bai 那集设计旅程，我做成了 Cue & Cut 全片。章节和提问卡先抛问题，再切回他对着 Figma 与 localhost 讲的现场。\n\n三条最刺我。酷原型亲手当主界面用过，才知道该不该留下。Crit 要交人人能点的 working prototype，静态稿不够。强 unshipping 是常态，早期设计像沙堡，被冲走也得接受。\n\n完整中英双语硬字幕在视频里。",
+      "likes": 3,
+      "views": "421",
+      "created_at": "Mon Sep 21 12:53:39 +0000 2026",
+      "url": "https://x.com/i/status/2102018420535443790",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2102017411176112128/vid/avc1/480x270/nwLK-WHFZY8ypSxN.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102017411176112128/img/K4_tmUfts3h4EVuK.jpg"
+      ],
+      "score": 58.715,
+      "title": "亲手打掉酷原型：Agent 产品要可点的 working prototype",
+      "summary": "作者把 Dive Club × John Bai 的设计旅程做成 Cue & Cut 视频，提炼三点：酷原型要亲自当主界面用过再决定去留；评审要交可点击原型；早期强力 unshipping 是常态。",
+      "recommend_reason": "Agent 产品设计的实战原则，比又一份功能清单更刺。",
+      "tags": [
+        "Agent",
+        "产品设计",
+        "原型",
+        "DiveClub",
+        "体验"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2102016937790431238",
+      "author": "dingyi",
+      "bio": "",
+      "text": "卧槽谁用过这个平台？速度怎么样啊？\n\n现在推出了付费套餐。每月 $8，每天可使用 15 小时的 DeepSeek V4.1 Flash 或 30 小时的 GLM 5.3 Flash，并且每场会话无消息限制。因为他们接入了广告机制😂",
+      "likes": 31,
+      "views": "20537",
+      "created_at": "Mon Sep 21 12:47:46 +0000 2026",
+      "url": "https://x.com/i/status/2102016937790431238",
+      "has_media": false,
+      "media_urls": [],
+      "quoted_tweet": {
+        "id": "2101890985148183023",
+        "author": "jahooma",
+        "name": "James Grugett",
+        "text": "Introducing the best value coding subscription ever\n\nFor $8 per month, every single day you get 15 hours (!) of DeepSeek V4.1 Flash, with unlimited messages.\n\nYou get more usage because we include ads.\n\nGet it now on Freebuff:\nhttps://t.co/vjLnvVqTVD https://t.co/vOjhgLB3Xz",
+        "created_at": "Mon Sep 21 04:27:16 +0000 2026",
+        "url": "https://x.com/jahooma/status/2101890985148183023",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HStcr5MbEAAtff4.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HStcr5MbEAAtff4.jpg"
+        ]
+      },
+      "score": 55.331,
+      "summary": "卧槽谁用过这个平台？速度怎么样啊？\n\n现在推出了付费套餐。每月 $8，每天可使用 15 小时的 DeepSeek V4.1 Flash 或 30 小时的 GLM 5.3 Flash，并且每场会话无消息限制。因为他们接入了广告机制😂",
+      "recommend_reason": "低价中转套餐信号：时长制 + 广告，值得先听真实体感再下单。",
+      "tags": [
+        "指定AI名单",
+        "中转",
+        "DeepSeek",
+        "GLM",
+        "产品"
+      ],
+      "section": "指定AI名单",
+      "rank": 7
+    },
+    {
+      "id": "2102012978069668295",
+      "author": "FuSheng_0306",
+      "bio": "",
+      "text": "很多人拿Jev跟GPT、Claude对比，吹得很玄乎，其实都不是一类东西，根本没法比。\n\n它不会聊天，也写不了代码，当然取代不了主流大语言模型。但也正因为它不生成文字，有几个优势就很突出：快、便宜，而且零幻觉。输入价格每百万token只要0.042美元，输出成本几乎可以忽略。\n\n所以它真正有价值的地方，是放到具体工作流里做高频判断。比如审代码、给结果打分、判断客服风险，速度快成本又低。让不同模型各干自己最擅长的活，各取所长，对企业来说就很合适。",
+      "likes": 13,
+      "views": "4227",
+      "created_at": "Mon Sep 21 12:32:02 +0000 2026",
+      "url": "https://x.com/i/status/2102012978069668295",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2102012865079398400/vid/avc1/320x568/bqms-CwFvEY0RfIc.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102012865079398400/img/2D36H3WGdYtLD9TP.jpg"
+      ],
+      "score": 59.792,
+      "title": "别拿 Jev 跟 GPT/Claude 比：它擅长高频判断而非生成",
+      "summary": "作者澄清 Jev 不会聊天、也不写代码，优势是快、便宜、近零幻觉（输入约 $0.042/百万 token）；适合审代码、打分、客服风险等结构化高频判断，应与生成式大模型分工而非替代。",
+      "recommend_reason": "把营销话术掰回品类定位，对企业选型很有用。",
+      "tags": [
+        "Jev",
+        "定位",
+        "工作流",
+        "成本",
+        "企业"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2102008429581893810",
+      "author": "fhwofjow51260",
+      "bio": "",
+      "text": "安卓逆向也有人做成专用 Agent Skill 了。\n\napk-reverse 是作者根据实际逆向项目经验总结出来的一套工作流，覆盖 APK 解包、jadx 反编译、smali 修改、重打包、Frida 动态 Hook，以及 so/native 分析等常见场景。类似 APK 逆向 Skill 的核心就是把这些工具链和分析流程交给 AI Agent 自动编排。 \n\n对于平时用 Claude Code、Codex 做安卓分析的人，相当于直接给 AI 塞了一套“安卓逆向经验包”。\n\nhttps://t.co/b6F4RROBQw",
+      "likes": 49,
+      "views": "3781",
+      "created_at": "Mon Sep 21 12:13:57 +0000 2026",
+      "url": "https://x.com/i/status/2102008429581893810",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSvVewKakAAHX4-.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSvVewKakAAHX4-.jpg"
+      ],
+      "score": 66.74,
+      "title": "apk-reverse：把安卓逆向工具链编成 Agent Skill",
+      "summary": "apk-reverse 覆盖 APK 解包、jadx 反编译、smali 修改、重打包、Frida Hook 与 so/native 分析，把常见逆向流程交给 Claude Code/Codex 类 Agent 自动编排。",
+      "recommend_reason": "安卓分析场景缺的是「经验包」而不是又一个单点工具，这条补上了。",
+      "tags": [
+        "Agent",
+        "Skill",
+        "安卓",
+        "逆向",
+        "安全"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2102007354116247961",
+      "author": "fhwofjow51260",
+      "bio": "",
+      "text": "写专利这件事，也有人直接做成 AI Skill 了。\n\n这个项目已经 10K Star，把中国专利的一整套流程塞进了 Agent：从技术材料里挖专利点、查新、写技术交底书，到生成权利要求、说明书、摘要和附图都能做。 \n\n对于研发、工程师来说挺实用：代码是你写的，专利也别总卡在“不会写交底书”这一步。\n\nhttps://t.co/3xhLBiSwdS",
+      "likes": 16,
+      "views": "1539",
+      "created_at": "Mon Sep 21 12:09:41 +0000 2026",
+      "url": "https://x.com/i/status/2102007354116247961",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSvUP67bYAAS7Te.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSvUP67bYAAS7Te.jpg"
+      ],
+      "score": 62.859,
+      "summary": "写专利这件事，也有人直接做成 AI Skill 了。\n\n这个项目已经 10K Star，把中国专利的一整套流程塞进了 Agent：从技术材料里挖专利点、查新、写技术交底书，到生成权利要求、说明书、摘要和附图都能做。 \n\n对于研发、工程师来说挺实用：代码是你写的，专利也别总卡在“不会写交底书”这一步。\n\nhttps://t.co/3xhLBiSwdS",
+      "recommend_reason": "10K Star 的专利 Agent Skill，直接对准工程师最卡的交底书环节。",
+      "tags": [
+        "Agent",
+        "Skill",
+        "专利",
+        "研发",
+        "工具"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2101996665926488084",
+      "author": "gkxspace",
+      "bio": "",
+      "text": "靠！！！终于写完了！！！\n\n我把折腾大半年的全套海外基础设施，一次性整理成了一篇保姆级教程。\n\n1、一个真实的美国手机号：red pocket，10分钟搞定\n\n2、网络：自建 VPS + 住宅IP + 节点住宅二合一\n\n3、网络环境配置：TUN 模式、分流规则、防直连兜底\n\n3、支付：美卡、美区 PayPal、门槛最低的实体卡，从\"我有美卡\"到\"我啥都没有\"，每种情况都有对应方案\n\n4、还有设备清理、时区、邮箱，以及注册之后怎么用不被盯上\n\n而且这就是一整套干净的海外环境，Claude 之外，以后订阅任何海外服务都直接用得上",
+      "likes": 319,
+      "views": "45308",
+      "created_at": "Mon Sep 21 11:27:13 +0000 2026",
+      "url": "https://x.com/i/status/2101996665926488084",
+      "has_media": false,
+      "media_urls": [],
+      "quoted_tweet": {
+        "id": "2101993381303820704",
+        "author": "gkxspace",
+        "name": "余温",
+        "text": "https://t.co/GJXnawJpS2",
+        "created_at": "Mon Sep 21 11:14:09 +0000 2026",
+        "url": "https://x.com/gkxspace/status/2101993381303820704",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 63.409,
+      "title": "海外订阅基础设施保姆教程：手机号/网络/支付/环境清理",
+      "summary": "作者整理大半年实践：美国实体号、VPS+住宅 IP、TUN/分流/防直连、美卡与 PayPal 各档方案，以及设备清理、时区、邮箱；目标是一套可复用的干净海外环境，不限于 Claude。",
+      "recommend_reason": "把「能稳定用上海外 AI 服务」的脏活写成清单，实用导向。",
+      "tags": [
+        "基础设施",
+        "出海",
+        "网络",
+        "支付",
+        "订阅"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2101989314020208933",
+      "author": "dashen_wang",
+      "bio": "",
+      "text": "ZeroTier 和 Tailscale，表面上都是异地组网，实际上根本不是一个思路。\n\nTailscale 本质上是在 WireGuard 上面做身份、ACL、NAT Traversal、MagicDNS、Subnet Router 和 Exit Node。\n\n我一般拿它当管理平面。\n\n服务器、NAS、Docker Host、笔记本、手机、Agent 节点，全部扔进 Tailnet。能 P2P 就直连，NAT 打不穿再走 Relay。\n\nSSH、RDP、WebUI、API，基本告别端口映射、DDNS 和公网暴露。\n\nZeroTier 则更像软件定义交换机。\n\n它不是单纯解决远程登录，而是在公网之上重新抽象一张虚拟网络。ESXi、PVE、软路由、VM、多机房，配合 Bridge 和 Managed Route，玩起来更接近传统机房网络的感觉。\n\n甚至你脑子里想的是：\n\nVLAN\nL2 Bridge\n多网段\n虚拟交换机\n跨地域 LAN\n旁路网关\n那多半应该先想到 ZeroTier。\n所以我的分工一直很简单：\nTailscale：Management Plane\nZeroTier：Virtual Network Fabric\nTailscale 负责让我找到机器、管住机器。\nZeroTier 负责让我重新定义这些机器到底属于哪张网。\n\n再土一点说：\n\nTailscale 像给所有服务器插了一根虚拟串口线。\n\nZeroTier 像直接在互联网里焊了一台交换机。\n这俩我甚至不觉得是竞争关系。\n\n真正玩 Homelab、ESXi、软路由、Agent 集群的人，完全可以两张网一起跑。",
+      "likes": 47,
+      "views": "10560",
+      "created_at": "Mon Sep 21 10:58:00 +0000 2026",
+      "url": "https://x.com/i/status/2101989314020208933",
+      "has_media": false,
+      "media_urls": [],
+      "quoted_tweet": {
+        "id": "2101935698664468515",
+        "author": "dashen_wang",
+        "name": "AI最严厉的父亲",
+        "text": "给大家讲讲我怎么管我所有的服务器和设备。\n\n我的方式是 ZeroTier。\n\n官网：https://t.co/VDvY5ADPVa\n\n它干一件事：\n\n把你的电脑、手机、服务器拉进同一张虚拟网。\n\n出门在外，回家登录，机器还在一个网段里。\n\nAgent 要更新、站点要挂 MCP，先得互相找得到。\n\n找不到，全是孤岛。\n\n基本用法就三步：\n\n装客户端，进同一个 Network，该开的端口只对这张网开。\n\n别把公网当内网用。\n\n普通人能把十台左右管明白，已经很好。\n\n再多，没有一张网，人会先疯。\n\n我用商业版把四千多台收进这张网。\n\n每台一个 Agent 负责更新维护。\n\n网站自己的 MCP 也挂在上面。\n\n为什么我推荐 Linux：\n\n四千台要是 Windows，你会先死在桌面、弹窗和重启上。\n\nLinux 能 SSH、能挂 systemd、能无界面跑 Agent。\n\n机器是用来干活的，不是用来点开始菜单的。\n\n后续我会出一个用zerotier相关的教程。\n\n用zerotier，但不仅仅是zerotier。",
+        "created_at": "Mon Sep 21 07:24:57 +0000 2026",
+        "url": "https://x.com/dashen_wang/status/2101935698664468515",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": [],
+        "card": {
+          "name": "summary_large_image",
+          "title": "Home",
+          "description": "Connect everything, from cloud to IoT, with the next-generation global network solution. Simple, resilient, and secure networking in minutes.",
+          "image_url": "https://pbs.twimg.com/card_img/2100278751372406784/0dro-uxR?format=jpg&name=600x600",
+          "url": "https://www.zerotier.com/",
+          "domain": "www.zerotier.com"
+        }
+      },
+      "score": 59.552,
+      "title": "Agent 集群组网：Tailscale 管身份，ZeroTier 焊虚拟交换机",
+      "summary": "作者对比：Tailscale 做管理平面（身份/ACL/NAT/MagicDNS/Exit Node），适合找机器、管机器；ZeroTier 更像软件定义交换机，适合 ESXi/PVE/多机房/L2 Bridge。结论是 Homelab 与 Agent 节点可以两张网并用，而非二选一。",
+      "recommend_reason": "把远程组网说清楚成「管理平面 vs 网络织物」，对跑多机 Agent 很实用。",
+      "tags": [
+        "指定AI名单",
+        "Tailscale",
+        "ZeroTier",
+        "组网",
+        "Agent"
+      ],
+      "section": "指定AI名单",
+      "rank": 12
+    },
+    {
+      "id": "2101985516442829175",
+      "author": "VigoCreativeAI",
+      "bio": "",
+      "text": "VISUAL OS 051\n\nFreeze the gear. Blur the speed.\n\nThe shoe stays razor-sharp in FULL SPEED.\nThe ball stays razor-sharp in STAY SHARP.\nThe wheel stays razor-sharp in OWN THE LINE.\nThe glove stays razor-sharp in MAKE IMPACT.\n\nEverything else streaks into directional motion trails across a luminous gradient.\nOne crisp anchor. Giant white geometric type.\n\nPrompt below ↓",
+      "likes": 46,
+      "views": "1067",
+      "created_at": "Mon Sep 21 10:42:54 +0000 2026",
+      "url": "https://x.com/i/status/2101985516442829175",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSvAgdQWkAApxpk.jpg",
+        "https://pbs.twimg.com/media/HSvAgdLWIAEIgrL.jpg",
+        "https://pbs.twimg.com/media/HSvAgdDWIAAGqtM.jpg",
+        "https://pbs.twimg.com/media/HSvAgdCXAAAN2Gp.jpg"
+      ],
+      "score": 79.261,
+      "title": "VISUAL OS 051：一物锐利、背景动感拖影的运动视觉配方",
+      "summary": "提示词思路：鞋/球/轮/手套保持锐利锚定，其余一切拉成方向性运动拖影，配巨大白色几何字与明亮渐变——适合运动品牌与产品英雄图。",
+      "recommend_reason": "创意向提示词把「主体冻结 + 环境速度线」写成可套用的视觉 OS 模块。",
+      "tags": [
+        "指定AI名单",
+        "提示词",
+        "视觉设计",
+        "文生图",
+        "运动"
+      ],
+      "section": "指定AI名单",
+      "rank": 13
+    },
+    {
+      "id": "2101973242093412382",
+      "author": "abskoop",
+      "bio": "",
+      "text": "Douyin TikTok Download API：一个开源、自托管的抖音 / TikTok 数据 API\n\n支持 REST API、MCP、CLI 和 Web Console，可以读取作品、作者、评论、搜索、合集等数据，也能接进自己的脚本、后台服务或 Agent 工作流。\n\n项目还支持媒体解析、身份池、任务系统和本地数据归档，适合需要自己部署和管理数据接口的开发者。\n\n👉https://t.co/LvV4rN41nT",
+      "likes": 17,
+      "views": "11917",
+      "created_at": "Mon Sep 21 09:54:08 +0000 2026",
+      "url": "https://x.com/i/status/2101973242093412382",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSu1gwxbYAAK41y.jpg"
+      ],
+      "score": 59.609,
+      "title": "开源自托管抖音/TikTok 数据 API：REST + MCP + CLI",
+      "summary": "Douyin TikTok Download API 支持作品/作者/评论/搜索/合集等读取，带媒体解析、身份池、任务系统与本地归档，可接脚本、后台或 Agent 工作流。",
+      "recommend_reason": "自托管数据接口比纯下载器更适合接到 Agent/自动化流水线。",
+      "tags": [
+        "指定AI名单",
+        "开源",
+        "TikTok",
+        "抖音",
+        "MCP"
+      ],
+      "section": "指定AI名单",
+      "rank": 14
+    },
+    {
+      "id": "2101970950568980982",
+      "author": "yangyi",
+      "bio": "",
+      "text": "我在Agent IM上做了一个工程师，帮我迭代NewMax\n感觉还挺不错  唯一的问题就是worktree隔离需要2个实例来分别做coding/test\n\n又搞了个投资专家，让它帮我盯股票，和它聊一些可能存在非共识的投资机会，体感也不错\n\n第三个Agent我就构建了这个元Agent\n让它帮我挖掘行业知识来构建其他Agent\n\n现在它已经自己写好skills帮我优化一下投资专家了\n\n目前还差一个培训考核官Agent\n需要针对专业Agent做考核use case评估\n\n以便在Agent的md优化后，能评估agent的强化/衰退 情况\n\n暂时还没想到什么好的方法，可能得先请教请教AI了",
+      "likes": 2,
+      "views": "1947",
+      "created_at": "Mon Sep 21 09:45:02 +0000 2026",
+      "url": "https://x.com/i/status/2101970950568980982",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSuyvQmaYAARJLw.jpg",
+        "https://pbs.twimg.com/media/HSuywYaaYAA-Sep.jpg"
+      ],
+      "score": 56.025,
+      "title": "Agent IM 上堆工程师/投资专家/元 Agent：还缺考核官闭环",
+      "summary": "作者用 Agent IM 做编码工程师（worktree 隔离需双实例）、投资专家盯非共识机会，再做元 Agent 挖行业知识并自写 skills 优化；下一步想加「培训考核官」对专业 Agent 做 use case 评估，以判断 md/skills 迭代是强化还是衰退。",
+      "recommend_reason": "少见地谈到 Agent 团队的「考核闭环」，而不只是再加一个角色。",
+      "tags": [
+        "指定AI名单",
+        "Agent",
+        "AgentIM",
+        "Skill",
+        "评估"
+      ],
+      "section": "指定AI名单",
+      "rank": 15
+    },
+    {
+      "id": "2101961569491935465",
+      "author": "DeRonin_",
+      "bio": "",
+      "text": "How to get a job as a Robotics Engineer:\n\nrobotics is the one frontier field where the entry level still doesn't ask for a degree\n\n1 in 5 robotics jobs posted right now is a technician role, and most of them only need a certificate or a two year degree\n\nso here's my workflow for getting a job as a robotics engineer:\n\n1: pick one direction and drop the other two\n\nrobot learning pays the most and everyone wants it\n\nautonomy and mobile robotics has the most openings by a wide margin\n\nembedded and mechatronics is boring and you'll never be out of work\n\n2: build things that moved, and write down the numbers\n\nrecruiters here open your github before they read your CV\n\nwhat gets you through:\n\n- a commit history where you're visibly fixing things, not one big final push\n- real hardware with reliability numbers, sim doesn't count\n- datasets on the lerobot hub\n- commits to ROS 2, Nav2, MoveIt, Isaac Lab, LeRobot\n\n3: build your hardware in public\n\nthe best way to prove your knowledge is the recognition of your skill from masses\n\njust build anything you want and share it on X/IG/YT\n\ngood example of the guy who gets offers from Tier-S level robotics companies (you can copy his strategy):\n\ngo to IG\ntype in search: \"aykhanium\"\nand check which rubrics he does to be recognized\nrepeat.\n\n4: write down what broke\n\neveryone posts the demo that worked\n\nalmost nobody writes up the four things that failed first and how they found each one\n\nthat's the part you can't fake from a tutorial, and it's the part that survives the third question in an interview\n\ncheat-codes to stand out and get into the top 1%:\n\n1. take the shift nobody wants\n\nteleoperation pays around $28 an hour. figure posted a humanoid robot operator at $25 to $35 with no degree asked for\n\nit's just driving a robot around a lab\n\nbut it puts you inside a frontier company with a badge on, and now you're a person they know instead of a CV in a pile\n\n2. sell the integration, not the robot\n\nthe arm is about 25% of what a project costs\n\nthe other 75% is engineering, safety, and making everything talk to each other\n\na $35k arm turns into an $80k system, and that $45k is your job\n\n3. go where nobody's competing\n\n66% of robotics projects get delayed by certification\n\nfunctional safety pays well and almost nobody bothers learning it\n\n4. C++ and Python, both\n\nevery Figure and Skild listing I read asks for both, not one\n\n5. delete the ROS 1 from your repos\n\nrecruiters call it out by name as a red flag\n\nif there's still a catkin_make sitting in your github, that's the first thing they see\n\nmain insight:\n\n$47.4B went into physical AI in the first half of 2026\n\nthe BLS still projects 1 to 2% job growth in the occupation\n\nthe money showed up years before the headcount will\n\nso the people getting in right now aren't winning interviews, they're walking through the technician door and moving sideways once they're inside\n\nthat's like to be hired in OpenAI in 2019...\n\nand one more thing\n\nnothing you learn here goes stale\n\na PID loop works the same as it did in 1990, and the arm you fix this weekend teaches you something you'll still use in ten years\n\nyou can't say that about anything else in AI right now...",
+      "likes": 615,
+      "views": "32037",
+      "created_at": "Mon Sep 21 09:07:45 +0000 2026",
+      "url": "https://x.com/i/status/2101961569491935465",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSuq15NWgAAZh4R.jpg"
+      ],
+      "quoted_tweet": {
+        "id": "2095180126359105955",
+        "author": "DeRonin_",
+        "name": "Ronin",
+        "text": "https://t.co/b4fTEzmv6K",
+        "created_at": "Wed Sep 02 16:00:43 +0000 2026",
+        "url": "https://x.com/DeRonin_/status/2095180126359105955",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 69.564,
+      "title": "机器人工程师求职工作流：选赛道、公开造物、从技师门进去",
+      "summary": "长文给出可执行路径：先在 robot learning / 移动自主 / 嵌入式机电里选一条；GitHub 要有修 bug 与真实硬件可靠性数字；公开造物；写失败复盘。捷径包括 teleop 技师岗进场、卖集成而非卖机械臂、补功能安全、C++/Python 双栈、清掉 ROS1 痕迹。背景是 2026 上半年物理 AI 融资远快于岗位增长。",
+      "recommend_reason": "把「物理 AI 热」翻译成可执行的入行与站队策略，信息密度高。",
+      "tags": [
+        "指定AI名单",
+        "机器人",
+        "求职",
+        "PhysicalAI",
+        "职业"
+      ],
+      "section": "指定AI名单",
+      "rank": 16
+    },
+    {
+      "id": "2101955568781119532",
+      "author": "xiaoxiaodong01",
+      "bio": "",
+      "text": "GPT2 x 转绘 x 手持 x 美学提示词 x VOL.228\n\n最近静心和不是小红书的博主， 还有和国外的美术从业者\n学习了不少创作上的手法和思路\n\n继续捡起来这个转绘逻辑\n当作一些提示词刻意联系逻辑吧\n\n争取看看能不能push 自己这个系列做到500组\n\n其实现在有226组， 不少精品都没有在x 上展示\n聪明的朋友，在GitHub会找到规律的入口\n\n这组风格是228， 先预留提示词和skills的地址：\n\nhttps://t.co/rRXRqPEwQo",
+      "likes": 19,
+      "views": "2351",
+      "created_at": "Mon Sep 21 08:43:54 +0000 2026",
+      "url": "https://x.com/i/status/2101955568781119532",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSuXdLqbcAAp0TU.jpg"
+      ],
+      "quoted_tweet": {
+        "id": "2100740400063656209",
+        "author": "xiaoxiaodong01",
+        "name": "小小东",
+        "text": "GPT2 x 柔焦 x 朦胧 x 美学提示词 x VOL.204\n\n好适合日常照片的一组提示词\n\n这种柔化之后的效果， 真有一种莫名的治愈的感觉\n\n上周这组提示词skills发布了：\n\nhttps://t.co/CU38e7wnu9\n\n其中目录references 中有原始咒语。",
+        "created_at": "Fri Sep 18 00:15:15 +0000 2026",
+        "url": "https://x.com/xiaoxiaodong01/status/2100740400063656209",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HSdTtcJawAAfc5p.jpg",
+          "https://pbs.twimg.com/media/HSdTuukagAEnroB.jpg",
+          "https://pbs.twimg.com/media/HSdTv2EbcAA9b_K.jpg",
+          "https://pbs.twimg.com/media/HSdTwr9bUAACkTv.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HSdTtcJawAAfc5p.jpg",
+          "https://pbs.twimg.com/media/HSdTuukagAEnroB.jpg",
+          "https://pbs.twimg.com/media/HSdTv2EbcAA9b_K.jpg",
+          "https://pbs.twimg.com/media/HSdTwr9bUAACkTv.jpg"
+        ]
+      },
+      "score": 62.609,
+      "title": "GPT2 转绘手持美学提示词 VOL.228：冲 500 组系列",
+      "summary": "小小东继续 GPT2 转绘×手持×美学提示词系列第 228 组，吸收国内外美术向手法；称 GitHub 有规律入口，目标把系列推到 500 组，并预留提示词与 skills 地址。",
+      "recommend_reason": "长期系列化的转绘提示词资产，适合跟作风貌与 skills 沉淀。",
+      "tags": [
+        "指定AI名单",
+        "提示词",
+        "转绘",
+        "GPT",
+        "美学"
+      ],
+      "section": "指定AI名单",
+      "rank": 17
+    },
+    {
+      "id": "2101948034464805040",
+      "author": "LufzzLiz",
+      "bio": "",
+      "text": "强烈推荐！ 今早的GrokBot早报，发现一个好玩的模板：Jev for computer use。这个搭配Grok Bot 绝了！\n\n我让bot安装后，顺便做了两个实验，同一台看得见的 Chrome，同一套成功标准，两条路径：\n\n① 维基点链：两边都 100% 成功。\nJev：平均 1.0 步，约 4.5 秒，决策延迟约 445ms，费用约 $0.00027/题。\n非 Jev：平均 6.5 步，约 35 秒，费用暂未量化，但是看了很多图，实际成本更高\n\n② 刷X List 前 20 条推文：两边都采满 20\nJev：3 步，58.5 秒，费用约 $0.000025。\n非 Jev：59 步（点 20 / 滚 18 / 导航 21），约 1100 秒（约 18 分钟）。\n时间大约 18.8 倍，步数大约 19.7 倍\n\n效率差从哪来？截图式每一步都在开放空间里猜：点哪里、滚哪里、算不算成功。\nJev 把问题收成：菜单上哪一道菜。观察、执行、验收留在代码；模型只做分类。搜索空间从整屏像素变成几十个带标签的候选，幻觉面小了，步数和时间一起降下来了\n\n模板链接：\nhttps://t.co/OkvCixWeFN",
+      "likes": 29,
+      "views": "4142",
+      "created_at": "Mon Sep 21 08:13:58 +0000 2026",
+      "url": "https://x.com/i/status/2101948034464805040",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSucc5rb0AAWNs2.jpg"
+      ],
+      "score": 64.655,
+      "title": "Jev for computer use：同任务下步数与耗时约为视觉 Agent 的 1/19",
+      "summary": "作者在同一 Chrome、同一成功标准下对比：维基点链 Jev 约 1 步/4.5 秒/题 vs 非 Jev 6.5 步/35 秒；刷 X List 前 20 条 Jev 3 步/58.5 秒 vs 非 Jev 59 步/约 18 分钟。论点是把「整屏乱猜」收成带标签候选上的分类，观察/执行/验收留在代码，模型只做选择。",
+      "recommend_reason": "用可复现对照说明：结构化决策空间如何把 computer-use 的步数与费用打下来。",
+      "tags": [
+        "指定AI名单",
+        "Jev",
+        "ComputerUse",
+        "Agent",
+        "评测"
+      ],
+      "section": "指定AI名单",
+      "rank": 18
+    },
+    {
+      "id": "2101935698664468515",
+      "author": "dashen_wang",
+      "bio": "",
+      "text": "给大家讲讲我怎么管我所有的服务器和设备。\n\n我的方式是 ZeroTier。\n\n官网：https://t.co/VDvY5ADPVa\n\n它干一件事：\n\n把你的电脑、手机、服务器拉进同一张虚拟网。\n\n出门在外，回家登录，机器还在一个网段里。\n\nAgent 要更新、站点要挂 MCP，先得互相找得到。\n\n找不到，全是孤岛。\n\n基本用法就三步：\n\n装客户端，进同一个 Network，该开的端口只对这张网开。\n\n别把公网当内网用。\n\n普通人能把十台左右管明白，已经很好。\n\n再多，没有一张网，人会先疯。\n\n我用商业版把四千多台收进这张网。\n\n每台一个 Agent 负责更新维护。\n\n网站自己的 MCP 也挂在上面。\n\n为什么我推荐 Linux：\n\n四千台要是 Windows，你会先死在桌面、弹窗和重启上。\n\nLinux 能 SSH、能挂 systemd、能无界面跑 Agent。\n\n机器是用来干活的，不是用来点开始菜单的。\n\n后续我会出一个用zerotier相关的教程。\n\n用zerotier，但不仅仅是zerotier。",
+      "likes": 15,
+      "views": "13691",
+      "created_at": "Mon Sep 21 07:24:57 +0000 2026",
+      "url": "https://x.com/i/status/2101935698664468515",
+      "has_media": false,
+      "media_urls": [],
+      "score": 55.64,
+      "title": "用 ZeroTier 管成百上千台：Agent 更新与 MCP 先在一张网",
+      "summary": "作者分享用 ZeroTier 把电脑/手机/服务器拉进同一虚拟网，告别端口映射与公网暴露；商业版可收四千多台，每台挂 Agent 做更新维护，站点 MCP 也挂网上。强调 Linux 比 Windows 更适合大规模节点。",
+      "recommend_reason": "从「几台 Homelab」扩到「上千 Agent 节点」的组网实操。",
+      "tags": [
+        "指定AI名单",
+        "ZeroTier",
+        "组网",
+        "Agent",
+        "运维"
+      ],
+      "section": "指定AI名单",
+      "rank": 19
+    },
+    {
+      "id": "2101935675293712515",
+      "author": "JulianGoldieSEO",
+      "bio": "",
+      "text": "Google's new Gemini update lets you assign research by voice, lock your phone, and walk away.\n\nThree drops at once, and they all point one direction:\n\n→ Gemini Live now triggers Deep Research by voice. Say what you need, close the app, get a full report notification later.\n\n→ Then just talk to the report. \"What's the biggest objection? Write me an FAQ that answers it.\" Done. Zero typing.\n\n→ Gemini landed on Windows. Press Alt + Space and it opens over whatever you're working on. No tabs, no pasting.\n\n→ The new Live models think in the background while the conversation keeps going. No awkward waiting.\n\nReal example: one voice command researches what your customers fear, then writes the welcome email that answers it.\n\nThe direction is clear: you talk, it works, you review.\n\nThat's not a chatbot. That's delegation.\n\nWant the SOP? DM me. 💬",
+      "likes": 5,
+      "views": "1298",
+      "created_at": "Mon Sep 21 07:24:51 +0000 2026",
+      "url": "https://x.com/i/status/2101935675293712515",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2101935418589732864/vid/avc1/480x270/XnFwI0PBvyVqzKAY.mp4?tag=29"
+      ],
+      "score": 58.972,
+      "title": "Gemini：语音派 Deep Research、对着报告续聊、Windows 呼出",
+      "summary": "概述 Google 一波更新：Gemini Live 可语音触发 Deep Research 后锁屏等通知；可对报告继续口述改写；Windows 上 Alt+Space 呼出；Live 模型可在对话同时后台思考。方向是「你说、它干、你审」的委派，而非纯聊天。（文末有导流 DM，信息本身仍有产品信号。）",
+      "recommend_reason": "把 Gemini 从对话框推进到「语音委派调研」的产品信号，值得盯。",
+      "tags": [
+        "指定AI名单",
+        "Gemini",
+        "DeepResearch",
+        "语音",
+        "产品"
+      ],
+      "section": "指定AI名单",
+      "rank": 20
+    },
+    {
+      "id": "2101929639828762733",
+      "author": "xiaohu",
+      "bio": "",
+      "text": "字节海外 BytePlus 发布 ，一个专做 AI 短剧的企业级平台：Dramagic\n\n丢进一个剧本，它自动拆出所有角色（男主、女主、反派，各带三视图）、场景、道具、造型，\n\n甚至自动写好分镜提示词、匹配素材，直接产出分镜表\n\n最关键的是角色一致性：多个角色、几十个镜头，每次都是同一张脸\n\n导出直接适配各平台分发",
+      "likes": 693,
+      "views": "135118",
+      "created_at": "Mon Sep 21 07:00:52 +0000 2026",
+      "url": "https://x.com/i/status/2101929639828762733",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2101928782177390592/vid/avc1/480x270/HnGpeO52ANLLhNY_.mp4?tag=29"
+      ],
+      "quoted_tweet": {
+        "id": "2101893220288663884",
+        "author": "BytePlusGlobal",
+        "name": "BytePlus",
+        "text": "Introducing Dramagic, an enterprise AI-Generated Content (AIGC) platform built for short dramas & video production.\n\nScript Analysis ➔ Asset Setup ➔ Storyboard ➔ Video Preview \n\nWith editor-level precision, built-in consistency checks, and multi-user collaboration, Dramagic makes production easier to plan, review and scale.",
+        "created_at": "Mon Sep 21 04:36:09 +0000 2026",
+        "url": "https://x.com/BytePlusGlobal/status/2101893220288663884",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2101893056941510656/vid/avc1/480x270/n8lSPVmVkbW51NoU.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2101893056941510656/img/gzYP86X9oLLWCIRo.jpg"
+        ]
+      },
+      "score": 68.708,
+      "summary": "字节海外 BytePlus 发布 ，一个专做 AI 短剧的企业级平台：Dramagic\n\n丢进一个剧本，它自动拆出所有角色（男主、女主、反派，各带三视图）、场景、道具、造型，\n\n甚至自动写好分镜提示词、匹配素材，直接产出分镜表\n\n最关键的是角色一致性：多个角色、几十个镜头，每次都是同一张脸\n\n导出直接适配各平台分发",
+      "recommend_reason": "企业级短剧流水线把「角色一致性」做成默认能力，比单点文生视频更能落地分发。",
+      "tags": [
+        "指定AI名单",
+        "BytePlus",
+        "短剧",
+        "角色一致性",
+        "Dramagic"
+      ],
+      "section": "指定AI名单",
+      "rank": 21
+    },
+    {
+      "id": "2101912638477463828",
+      "author": "xiaoying_eth",
+      "bio": "",
+      "text": "36 条 AI 视频，涨粉 70 万！\n\n我扒了下这套账号背后的制作方法，重点是一致性！\n角色一致、动作一致、材质一致，背后有一套固定流程。\n\n这篇把整套方法拆成了 7 段可复制提示词：角色卡 → 拆对标 → 动作里程碑 → 材质 → 出片 → 改稿\n\n👇完整教程放这里：\nhttps://t.co/8hy5xknt4K\n\n顺手再整理 8 个 GitHub 上的 AI 短剧项目，想做 AI 短剧/漫剧的可以一起收了👇\n\n1️⃣ Toonflow\n小说自动转短剧，从文本到角色，从分镜到视频，0门槛全流程AI化\nhttps://t.co/9bdL93Tggz\n\n2️⃣ huobao-drama\n一个基于 AI 的短剧自动化生产平台，实现从剧本生成、角色设计、分镜制作到视频合成的全流程自动化。\nhttps://t.co/NrzSytxPYV\n\n3️⃣ waoowaoo\n一款基于 AI 技术的短剧/漫画视频制作工具，支持从小说文本自动生成分镜、角色、场景，并制作成完整视频。\nhttps://t.co/Ew8G9iyiQS\n\n4️⃣ jellyfish\n一站式短剧生成工具，从剧本到分镜再到一致性管理与后期剪辑\nhttps://t.co/4a3jrnxBem\n\n5️⃣ moyin-creator\n魔因漫创是一款面向 AI 影视创作者的生产级工具，支持Seedance2.0，剧本到成片全流程自动化\nhttps://t.co/FqQNxetbeR\n\n6️⃣ Pixelle-Video\nAI自动短视频生成引擎，自动写文案+配乐视频等，让视频创作成为一句话的事！\nhttps://t.co/ixod4AQpE6\n\n7️⃣ Bigbanana\n一个 AI 一站式短剧/漫剧平台，面向创作者，实现从灵感到成片的高效生产\nhttps://t.co/XhuDVUnIB8\n\n8️⃣ ViMax\n内置Novel2Video 模块，专为长篇小说设计，导演、编剧、制片人和视频生成器多合一\nhttps://t.co/Xyzvfl9Dpa",
+      "likes": 136,
+      "views": "21845",
+      "created_at": "Mon Sep 21 05:53:19 +0000 2026",
+      "url": "https://x.com/i/status/2101912638477463828",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/ext_tw_video/2101912563433009152/pu/vid/avc1/470x270/pSlcj1H-bcOJYYlJ.mp4?tag=12"
+      ],
+      "score": 66.645,
+      "title": "AI 短剧涨粉背后：一致性流程拆成 7 段提示词 + 8 个开源项目",
+      "summary": "作者拆解高涨粉 AI 视频账号的方法，核心是角色/动作/材质一致性；给出角色卡→拆对标→动作里程碑→材质→出片→改稿的可复制提示词链，并整理 Toonflow、huobao-drama、waoowaoo、jellyfish、moyin-creator、Pixelle-Video、Bigbanana、ViMax 等 8 个 GitHub 短剧/漫剧项目。",
+      "recommend_reason": "少见地把「一致性」拆成可复用提示词流水线，还附上可自建的开源短剧栈。",
+      "tags": [
+        "指定AI名单",
+        "短剧",
+        "提示词",
+        "一致性",
+        "开源"
+      ],
+      "section": "指定AI名单",
+      "rank": 22
+    },
+    {
+      "id": "2101911325588762858",
+      "author": "GoSailGlobal",
+      "bio": "",
+      "text": "LLM让企业知识库越来越尴尬\n\nPost-training太贵，企业很难把自己的知识真正塞进模型。\n\n于是只能折中，用RAG外挂知识\n\n可知识库一大，检索、上下文、缓存、推理成本一起涨\n\nJev的机会是把大量「知识检索后的决策」，变成有限决策空间里的选择问题\n\n更少Context，\n更低计算，\n更快响应。\n\nJev可能会成为企业AI降本增效的一把利器",
+      "likes": 23,
+      "views": "3732",
+      "created_at": "Mon Sep 21 05:48:06 +0000 2026",
+      "url": "https://x.com/i/status/2101911325588762858",
+      "has_media": false,
+      "media_urls": [],
+      "score": 56.92,
+      "summary": "LLM让企业知识库越来越尴尬\n\nPost-training太贵，企业很难把自己的知识真正塞进模型。\n\n于是只能折中，用RAG外挂知识\n\n可知识库一大，检索、上下文、缓存、推理成本一起涨\n\nJev的机会是把大量「知识检索后的决策」，变成有限决策空间里的选择问题\n\n更少Context，\n更低计算，\n更快响应。\n\nJev可能会成为企业AI降本增效的一把利器",
+      "recommend_reason": "把企业知识库痛点收束到「检索后决策」：用有限选项替代开放生成，逻辑清楚。",
+      "tags": [
+        "指定AI名单",
+        "Jev",
+        "RAG",
+        "企业知识库",
+        "降本"
+      ],
+      "section": "指定AI名单",
+      "rank": 23
+    },
+    {
+      "id": "2101906725989491169",
+      "author": "xiaoxiaodong01",
+      "bio": "",
+      "text": "越来越多朋友，用GPT-image2.5 \n\n做商业计划书\n做产品提案\n做培训教材\n做小红书卡片\n做K12课件了\n...\n\n无他：利索+美！\n\n绝对Top 0 级别的存在\n\n尤其是很多美术人员， 乐在其中， 一个创意，能有无数方案的感觉 （不垃的方案）\n\n设计师心情好，老板也心情好，重要的是：\n一切超级有效率....\n而不再是：五彩斑斓的黑， 让设计师眼前一黑， 换AI来想法子了。\n\n而且：一切有解！\n\n本组PPT提示词见如下作图记录 （内含~强势自信硬广）：\nhttps://t.co/BuPOK6Gwk7",
+      "likes": 19,
+      "views": "3128",
+      "created_at": "Mon Sep 21 05:29:49 +0000 2026",
+      "url": "https://x.com/i/status/2101906725989491169",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSt4UJAaAAA0Tpq.jpg",
+        "https://pbs.twimg.com/media/HSt4VBMa4AAVTSd.jpg",
+        "https://pbs.twimg.com/media/HSt4V9jb0AAIvAc.jpg",
+        "https://pbs.twimg.com/media/HSt4XA2aYAAqRvH.jpg"
+      ],
+      "score": 61.95,
+      "title": "GPT-image 做 PPT/提案/课件：美术向效率与方案发散",
+      "summary": "作者观察越来越多人用 GPT-image2.5 做商业计划书、产品提案、培训教材、小红书卡片与 K12 课件；强调「利索+美」与方案发散，并附本组 PPT 提示词作图记录。",
+      "recommend_reason": "把图像模型从玩图拉到商务交付场景，附可跟做提示词。",
+      "tags": [
+        "指定AI名单",
+        "GPT-image",
+        "PPT",
+        "设计",
+        "提示词"
+      ],
+      "section": "指定AI名单",
+      "rank": 24
+    },
+    {
+      "id": "2101901620862992560",
+      "author": "lxfater",
+      "bio": "",
+      "text": "2026年9月份模型夯拉榜！！\n\n数据来自：AA Intelligence Index v4.3.2\n\n假如你想看点不一样的，比如说Fable，Astra，Gemimi，大战屎山代码。\n\n请看下面文章👇：",
+      "likes": 4,
+      "views": "5848",
+      "created_at": "Mon Sep 21 05:09:32 +0000 2026",
+      "url": "https://x.com/i/status/2101901620862992560",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HStyxvVboAAjryk.jpg"
+      ],
+      "quoted_tweet": {
+        "id": "2101574325094494215",
+        "author": "lxfater",
+        "name": "铁锤人",
+        "text": "https://t.co/L95fPQRXtR",
+        "created_at": "Sun Sep 20 07:28:59 +0000 2026",
+        "url": "https://x.com/lxfater/status/2101574325094494215",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 55.895,
+      "summary": "2026年9月份模型夯拉榜！！\n\n数据来自：AA Intelligence Index v4.3.2\n\n假如你想看点不一样的，比如说Fable，Astra，Gemimi，大战屎山代码。\n\n请看下面文章👇：",
+      "recommend_reason": "九月模型榜单入口，方便对照 Fable/Astra 等新名在工程向任务上的表现。",
+      "tags": [
+        "指定AI名单",
+        "榜单",
+        "评测",
+        "模型",
+        "AAIndex"
+      ],
+      "section": "指定AI名单",
+      "rank": 25
+    },
+    {
       "id": "2101884115574215018",
       "author": "AI_Jasonyu",
       "bio": "👋 AI & 出海& Saas & APP & 海外手机卡eSIM实操干货分享 📈 8年产品经验 | 单款产品营收 $200k+ （全自然流量 ）💻 代表作：@PaywallPro1 付费墙Agent：https://t.co/YJBXCadlR1 🍼 2胎爸爸 | 私信聊合作/咨询：jasonyu110",
@@ -36,7 +843,7 @@
         "商业"
       ],
       "section": "指定AI名单",
-      "rank": 1
+      "rank": 26
     },
     {
       "id": "2101883956605890754",
@@ -70,7 +877,7 @@
         "图像生成"
       ],
       "section": "指定AI名单",
-      "rank": 2
+      "rank": 27
     },
     {
       "id": "2101878520251379938",
@@ -100,7 +907,7 @@
         "选题"
       ],
       "section": "指定AI名单",
-      "rank": 3
+      "rank": 28
     },
     {
       "id": "2101876647549178061",
@@ -129,7 +936,7 @@
         "DeepSeek",
         "工作流"
       ],
-      "rank": 4
+      "rank": 29
     },
     {
       "id": "2101876103946072137",
@@ -163,7 +970,7 @@
         "编码Agent"
       ],
       "section": "指定AI名单",
-      "rank": 5
+      "rank": 30
     },
     {
       "id": "2101874580432552170",
@@ -211,7 +1018,7 @@
         "开放"
       ],
       "section": "指定AI名单",
-      "rank": 6
+      "rank": 31
     },
     {
       "id": "2101870777465557020",
@@ -245,7 +1052,7 @@
         "传播"
       ],
       "section": "指定AI名单",
-      "rank": 7
+      "rank": 32
     },
     {
       "id": "2101868189181452573",
@@ -275,7 +1082,7 @@
         "监管"
       ],
       "section": "指定AI名单",
-      "rank": 8
+      "rank": 33
     },
     {
       "id": "2101867443820113982",
@@ -309,7 +1116,7 @@
         "案例"
       ],
       "section": "指定AI名单",
-      "rank": 9
+      "rank": 34
     },
     {
       "id": "2101866688425984233",
@@ -349,7 +1156,7 @@
         "开源"
       ],
       "section": "指定AI名单",
-      "rank": 10
+      "rank": 35
     },
     {
       "id": "2101866671900401913",
@@ -393,7 +1200,7 @@
         "演示"
       ],
       "section": "指定AI名单",
-      "rank": 11
+      "rank": 36
     },
     {
       "id": "2101820126203199831",
@@ -426,7 +1233,7 @@
         "Agent"
       ],
       "section": "指定AI名单",
-      "rank": 12
+      "rank": 37
     },
     {
       "id": "2101786156572823624",
@@ -454,7 +1261,7 @@
         "结构化模型",
         "开放"
       ],
-      "rank": 13
+      "rank": 38
     },
     {
       "id": "2101786064142705042",
@@ -494,7 +1301,7 @@
         "劳动力"
       ],
       "section": "指定AI名单",
-      "rank": 14
+      "rank": 39
     },
     {
       "id": "2101754721677840702",
@@ -538,7 +1345,7 @@
         "Kimi"
       ],
       "section": "指定AI名单",
-      "rank": 15
+      "rank": 40
     },
     {
       "id": "2101745891057222103",
@@ -567,7 +1374,7 @@
         "预测"
       ],
       "section": "指定AI名单",
-      "rank": 16
+      "rank": 41
     },
     {
       "id": "2101745295453286844",
@@ -610,7 +1417,7 @@
         "提示词",
         "可交互网页"
       ],
-      "rank": 17
+      "rank": 42
     },
     {
       "id": "2101740689151217782",
@@ -649,7 +1456,7 @@
         "前端",
         "提示词"
       ],
-      "rank": 18
+      "rank": 43
     },
     {
       "id": "2101738458654159224",
@@ -687,7 +1494,7 @@
         "工作流",
         "个人知识"
       ],
-      "rank": 19
+      "rank": 44
     },
     {
       "id": "2101731574668747081",
@@ -729,7 +1536,7 @@
         "梗图",
         "Box"
       ],
-      "rank": 20
+      "rank": 45
     },
     {
       "id": "2101731295659180527",
@@ -759,7 +1566,7 @@
         "长程任务"
       ],
       "section": "指定AI名单",
-      "rank": 21
+      "rank": 46
     },
     {
       "id": "2101715082661298587",
@@ -801,7 +1608,7 @@
         "工作流",
         "体验"
       ],
-      "rank": 22
+      "rank": 47
     },
     {
       "id": "2101712571325915383",
@@ -840,7 +1647,7 @@
         "方法论"
       ],
       "section": "指定AI名单",
-      "rank": 23
+      "rank": 48
     },
     {
       "id": "2101708992431202313",
@@ -868,7 +1675,7 @@
         "编排",
         "算力"
       ],
-      "rank": 24
+      "rank": 49
     },
     {
       "id": "2101702955070071288",
@@ -919,10 +1726,10 @@
         "7B"
       ],
       "section": "指定AI名单",
-      "rank": 25
+      "rank": 50
     }
   ],
-  "generated_at": "2026-09-21T04:32:05Z",
+  "generated_at": "2026-09-21T16:57:15Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -930,11 +1737,11 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 25,
-    "last_batch_added": 16,
+    "actual_count": 50,
+    "last_batch_added": 4,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
