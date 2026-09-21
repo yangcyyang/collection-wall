@@ -1,8 +1,8 @@
 {
   "source": "xiaoxiaodong01",
   "title": "xiaoxiaodong01 提示词",
-  "updated_at": "2026-09-18T13:40:16Z",
-  "count": 219,
+  "updated_at": "2026-09-21T13:57:53Z",
+  "count": 220,
   "items": [
     {
       "id": "2090817611953270966",
@@ -4623,6 +4623,24 @@
         {
           "url": "https://pbs.twimg.com/media/HSbTqcfbIAAM0u8.jpg",
           "poster": "https://pbs.twimg.com/media/HSbTqcfbIAAM0u8.jpg"
+        }
+      ]
+    },
+    {
+      "id": "2102004959395094862",
+      "author": "xiaoxiaodong01",
+      "url": "https://x.com/i/status/2102004959395094862",
+      "created_at": "2026-09-21T12:00:10+00:00",
+      "text": "保持注意力的最佳方式\n\n1. 减少对妖魔鬼怪模型的关注\n2. 不停精进自己提示词技术\n\n自勉~\n\n本次提示词，图二的提示词：\n\n```\nA conceptual editorial specimen study of {SUBJECT}, presented as a poetic visual taxonomy. Only part of the subject is shown as highly detailed monochrome photography, while the missing portion is reconstructed through large untouched negative space and a fragile imperfect hand-drawn contour. Treat the object as both physical matter and an abstract idea. Sparse sensory words quietly annotate intangible qualities rather than literal anatomy. A few isolated square texture samples act as material evidence. Extreme white space, restrained asymmetrical composition, Swiss-inspired editorial typography, small bold lowercase grotesk labels, a thin marginal rule, tactile black-and-white photographic grain, subtle analog print imperfections. Scientific observation meets intimate poetry, precision meets human imperfection, presence meets absence. Quiet, cerebral, tender, archival, tactile, understated, museum-publication quality.\n```",
+      "prompt": "A conceptual editorial specimen study of {SUBJECT}, presented as a poetic visual taxonomy. Only part of the subject is shown as highly detailed monochrome photography, while the missing portion is reconstructed through large untouched negative space and a fragile imperfect hand-drawn contour. Treat the object as both physical matter and an abstract idea. Sparse sensory words quietly annotate intangible qualities rather than literal anatomy. A few isolated square texture samples act as material evidence. Extreme white space, restrained asymmetrical composition, Swiss-inspired editorial typography, small bold lowercase grotesk labels, a thin marginal rule, tactile black-and-white photographic grain, subtle analog print imperfections. Scientific observation meets intimate poetry, precision meets human imperfection, presence meets absence. Quiet, cerebral, tender, archival, tactile, understated, museum-publication quality.",
+      "images": [
+        {
+          "url": "https://pbs.twimg.com/media/HSvSBWPakAET4d0.png",
+          "poster": "https://pbs.twimg.com/media/HSvSBWPakAET4d0.png"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HSvSBZoacAAvBcY.jpg",
+          "poster": "https://pbs.twimg.com/media/HSvSBZoacAAvBcY.jpg"
         }
       ]
     }
