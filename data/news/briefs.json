@@ -1,28 +1,28 @@
 {
-  "2026-09-02": {
-    "date": "2026-09-02",
-    "watch": "模型",
-    "body": "今天主线是编码模型换代：Anthropic 正式发 Claude Fable 5.1（同族 Mythos 5.1 仅受限开放），已上 Claude Code，缓存读降价 75%，你日常 Cursor/Agent 编码流优先点开官方介绍和 Artificial Analysis 那条（登顶但单任务贵约 20%）。同日 Qwen3.8-Max-0902 登顶 Code Arena 且 $5/MToken 卡在 Pareto 前沿，想压编码账单可以对着试。实用侧：美团 LongCat-2.0 进 Cline 免费试用，可当 Cursor 外的一条编码 Agent 备线。行业大新闻 Nvidia 约 129 亿谈收购 Hugging Face 扫一眼就行；Google Pics / Gemini agentic 视频偏图像视频工具，兴趣再点。"
-  },
-  "2026-08-31": {
-    "date": "2026-08-31",
-    "watch": "模型 + 技巧",
-    "body": "对你最实在的是 DeepSeek-V4-Flash-Vision-Exp：MIT 开源多模态 Agent，能力对标 Opus-4.8，做图/提示词墙和本地试模型优先点开。你有 ChatGPT Plus 的话，Simon Willison 拆 ChatGPT Work（云+桌面）和普通 Chat 的差，对照要不要开 Work。Ethan Mollick 智能体沙箱越狱当安全提醒扫一眼；MiniMax H3 Max 24 小时 AI 直播偏玩法，兴趣再看。"
-  },
-  "2026-08-30": {
-    "date": "2026-08-30",
-    "watch": "技巧 + 行业",
-    "body": "对你最实在的是 Uber 压住 Agent 账单那篇：70% PR 交给 Agent、调用量涨近十倍账单零增长，对照检查自己 Cursor / Agent 的 token 浪费点。索尼华纳告 Anthropic 用音乐训 Claude 看一眼版权风向。Dwarkesh「AI 文明」当故事扫过即可。"
+  "2026-08-28": {
+    "date": "2026-08-28",
+    "watch": "模型 + 语音",
+    "body": "混元 Hy4 preview 和 GLM-5.3 分差很小，选型看 1M 上下文和能不能私有化。Gemini 3.5 Transcribe 已经能用在实时字幕；做图的看 Midjourney V8.2 多图参考。Cursor 断供当天已经发过，和 29 日是同一条线。"
   },
   "2026-08-29": {
     "date": "2026-08-29",
     "watch": "行业 + 模型",
     "body": "对你最实在的是 OpenAI 断供 Cursor，11 月 12 日生效，编码工作流要提前找替代。对冲看智谱 GLM-5.3 开源权重，自用和中小团队许可比表面松。安全向那三条扫标题就行。"
   },
-  "2026-08-28": {
-    "date": "2026-08-28",
-    "watch": "模型 + 语音",
-    "body": "混元 Hy4 preview 和 GLM-5.3 分差很小，选型看 1M 上下文和能不能私有化。Gemini 3.5 Transcribe 已经能用在实时字幕；做图的看 Midjourney V8.2 多图参考。Cursor 断供当天已经发过，和 29 日是同一条线。"
+  "2026-08-30": {
+    "date": "2026-08-30",
+    "watch": "技巧 + 行业",
+    "body": "对你最实在的是 Uber 压住 Agent 账单那篇：70% PR 交给 Agent、调用量涨近十倍账单零增长，对照检查自己 Cursor / Agent 的 token 浪费点。索尼华纳告 Anthropic 用音乐训 Claude 看一眼版权风向。Dwarkesh「AI 文明」当故事扫过即可。"
+  },
+  "2026-08-31": {
+    "date": "2026-08-31",
+    "watch": "模型 + 技巧",
+    "body": "对你最实在的是 DeepSeek-V4-Flash-Vision-Exp：MIT 开源多模态 Agent，能力对标 Opus-4.8，做图/提示词墙和本地试模型优先点开。你有 ChatGPT Plus 的话，Simon Willison 拆 ChatGPT Work（云+桌面）和普通 Chat 的差，对照要不要开 Work。Ethan Mollick 智能体沙箱越狱当安全提醒扫一眼；MiniMax H3 Max 24 小时 AI 直播偏玩法，兴趣再看。"
+  },
+  "2026-09-02": {
+    "date": "2026-09-02",
+    "watch": "模型",
+    "body": "今天主线是编码模型换代：Anthropic 正式发 Claude Fable 5.1（同族 Mythos 5.1 仅受限开放），已上 Claude Code，缓存读降价 75%，你日常 Cursor/Agent 编码流优先点开官方介绍和 Artificial Analysis 那条（登顶但单任务贵约 20%）。同日 Qwen3.8-Max-0902 登顶 Code Arena 且 $5/MToken 卡在 Pareto 前沿，想压编码账单可以对着试。实用侧：美团 LongCat-2.0 进 Cline 免费试用，可当 Cursor 外的一条编码 Agent 备线。行业大新闻 Nvidia 约 129 亿谈收购 Hugging Face 扫一眼就行；Google Pics / Gemini agentic 视频偏图像视频工具，兴趣再点。"
   },
   "2026-09-03": {
     "date": "2026-09-03",
@@ -108,5 +108,10 @@
     "date": "2026-09-21",
     "watch": "产品",
     "body": "今天更值得盯「产品」。头一条是 Kimi Code Desktop 1.0：官方桌面客户端 macOS/Windows 同步上线（kimi.com/code），带 Agent 模式——你天天 Cursor，值得点开看它相对 CLI 的界面和协作差在哪，能不能当副客户端试。图像线 Qwen-Image-2.1：7B 单检查点同时生成+编辑、最多 10 张参考图，已进 ComfyUI/diffusers 和 HF Spaces——做提示词墙/出图的话优先点官方博客或 Spaces 试用。行业旁线亚马逊封禁 Meta Muse 代购智能体（身份隐瞒、存凭证争议），接这几天 Agent 权限话题扫一眼即可；Gemini 评测越界和 ChatGPT __obi 跨站 Cookie 属安全隐私线，有空再看。"
+  },
+  "2026-09-22": {
+    "date": "2026-09-22",
+    "watch": "模型",
+    "body": "今天更值得盯「模型」。头一条是小米开源 MiMo-V2.6 Pro/Flash：全模态、AA Intelligence Index 开源权重登顶（46）、Code Arena WebDev 约第10 / 开源约第3，官方还把 RSI 路径和训练环境一并放出——你这几天在比 Grok 4.7 与开源候选，优先点官方公众号或 HF collection，看能不能进 Cursor/CPA 分流。对照线卡兹克实测：Grok 4.7 低于预期、MiMo 成性能/价格/速度三角的版本答案；AA 也给了 Grok 4.7（智能体知识工作靠前、编码代理升至 56）和 Step 5 Preview（同分段成本约 1/2.8）的横向数据。产品旁线三条可快扫：OpenRouter Batch API（批量推理半价、70+ 模型）、transformers 直接加载 GGUF（本地接近 llama.cpp）、Kimi Browser Extension（侧边栏录 skill）。贴身技巧：Tomer Tunguz 写专用决策器（Jev/SemIf）把 if-then 分类成本压近百倍——正好对上你 TypeSafe/Jev usage-router 的思路，有空点原文。"
   }
 }
