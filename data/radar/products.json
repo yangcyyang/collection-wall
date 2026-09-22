@@ -1,9 +1,240 @@
 {
   "source": "AI Frontier Radar",
   "title": "新产品",
-  "updated_at": "2026-09-21T08:35:00+08:00",
-  "count": 97,
+  "updated_at": "2026-09-22T08:20:00+08:00",
+  "count": 108,
   "items": [
+    {
+      "id": "chatgpt-experian-credit-score",
+      "name": "ChatGPT × Experian Credit Score",
+      "score": 72,
+      "status": "new",
+      "first_detected": "2026-09-22T08:20:00+08:00",
+      "last_updated": "2026-09-22T08:20:00+08:00",
+      "summary": "ChatGPT Finances 可安全连接 Experian 信用报告与 VantageScore 3.0（美 Plus/Pro）。",
+      "novelty": "垂直 Finances 从洞察走向受监管信用报告连接器。",
+      "urls": {
+        "x": "https://x.com/ChatGPT/status/2102085785839427792"
+      },
+      "tags": [
+        "ChatGPT",
+        "Finances",
+        "Experian",
+        "Vertical"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "secaiq-watch",
+      "name": "SecAIQ Watch",
+      "score": 80,
+      "status": "new",
+      "first_detected": "2026-09-22T08:20:00+08:00",
+      "last_updated": "2026-09-22T08:20:00+08:00",
+      "summary": "本地优先开源面板：看清本机 Claude Code/Cursor/本地 LLM/MCP 在跑什么、连哪、用多少 token；只读、不上云。PH 约 70 票。",
+      "novelty": "Agent computer 的本地可观测层。",
+      "urls": {
+        "site": "https://github.com/Spaksu/secaiq-watch",
+        "producthunt": "https://www.producthunt.com/products/secaiq-watch"
+      },
+      "tags": [
+        "Observability",
+        "Local",
+        "MCP",
+        "Security"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "cc-google-labs-shared-agent",
+      "name": "CC (Google Labs)",
+      "score": 81,
+      "status": "new",
+      "first_detected": "2026-09-22T08:20:00+08:00",
+      "last_updated": "2026-09-22T08:20:00+08:00",
+      "summary": "Google Labs 家庭共享 agent（最多 6 人，各自选择分享范围），对齐日程后勤。PH 约 115 票。",
+      "novelty": "多用户共享 agent 作为一等产品，而非单人聊天。",
+      "urls": {
+        "site": "https://labs.google",
+        "producthunt": "https://www.producthunt.com/products/google-labs"
+      },
+      "tags": [
+        "Google Labs",
+        "Shared Agent",
+        "Household"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "epismo-os",
+      "name": "Epismo OS",
+      "score": 85,
+      "status": "new",
+      "first_detected": "2026-09-22T08:20:00+08:00",
+      "last_updated": "2026-09-22T08:20:00+08:00",
+      "summary": "Case 作为跨工具持久工作态（结果/决策/评审/下一步）+ MCP Cases/Playbooks，切换 Claude Code/Codex 等无需重 brief。PH 约 94 票（09-20）。",
+      "novelty": "可移植的 agent 工作态，而不是又一份聊天记录。",
+      "urls": {
+        "site": "https://about.epismo.ai",
+        "producthunt": "https://www.producthunt.com/products/epismo"
+      },
+      "tags": [
+        "MCP",
+        "Case",
+        "Portable Work",
+        "Harness"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "superset-mobile",
+      "name": "Superset Mobile",
+      "score": 87,
+      "status": "new",
+      "first_detected": "2026-09-22T08:20:00+08:00",
+      "last_updated": "2026-09-22T08:20:00+08:00",
+      "summary": "iPhone 上接管桌面同一套 coding-agent 工作区：看 diff、合 PR，对接 Claude Code / Codex / 终端 agent。PH 约 411 票。",
+      "novelty": "把 AFK HITL 从审批推到「口袋里的 coding 控制面」。",
+      "urls": {
+        "site": "https://superset.sh",
+        "producthunt": "https://www.producthunt.com/products/superset-5"
+      },
+      "tags": [
+        "Mobile",
+        "AFK",
+        "Coding Agent",
+        "HITL"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "googlebook-on-device-gemini-agent-laptop",
+      "name": "Googlebook",
+      "score": 87,
+      "status": "new",
+      "first_detected": "2026-09-22T08:20:00+08:00",
+      "last_updated": "2026-09-22T08:20:00+08:00",
+      "summary": "Google 开预购 Googlebook（$899 起）：Magic Pointer 屏幕上下文 agent、Gemini Spark 合盖长任务、完整 Linux 终端可跑 Claude Code / Antigravity——laptop 被定位为本地 agent 壳。",
+      "novelty": "AI-native PC 进入可预购零售：交互层 + 后台 agent + 本地 coding harness 捆成硬件 SKU。",
+      "urls": {
+        "official": "https://blog.google/products-and-platforms/devices/googlebook/googlebook-built-in-intelligence/"
+      },
+      "tags": [
+        "Google",
+        "Googlebook",
+        "On-device",
+        "Gemini",
+        "Hardware"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "arcjet-agent-runtime-security",
+      "name": "Arcjet",
+      "score": 89,
+      "status": "new",
+      "first_detected": "2026-09-22T08:20:00+08:00",
+      "last_updated": "2026-09-22T08:20:00+08:00",
+      "summary": "Agent 运行时安全库：检测 prompt injection、授权 tool call、脱敏、配额与审计——嵌在 agent 路径里，而不是外挂 WAF。PH 约 336 票。",
+      "novelty": "把门禁从「部署前检查」推进到「每次 tool call 运行时 enforce」。",
+      "urls": {
+        "site": "https://arcjet.com",
+        "producthunt": "https://www.producthunt.com/products/arcjet"
+      },
+      "tags": [
+        "Security",
+        "Agent Runtime",
+        "Tool Calls"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "jev-decision-only",
+      "name": "Jev",
+      "score": 91,
+      "status": "new",
+      "first_detected": "2026-09-22T08:20:00+08:00",
+      "last_updated": "2026-09-22T08:20:00+08:00",
+      "summary": "TypeSafe System One：非结构化状态进 → typed 概率决策（Choice/Score/Noul）出，亚秒决策 API，面向路由/分流/门禁。PH 约 397 票。",
+      "novelty": "把「决策机」做成产品面，而不是又一个聊天模型。",
+      "urls": {
+        "site": "https://console.typesafe.ai",
+        "producthunt": "https://www.producthunt.com/products/jev-2"
+      },
+      "tags": [
+        "Jev",
+        "TypeSafe",
+        "System One",
+        "Decision"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "xiaomi-mimo-v2-6",
+      "name": "Xiaomi MiMo-V2.6",
+      "score": 91,
+      "status": "new",
+      "first_detected": "2026-09-22T08:20:00+08:00",
+      "last_updated": "2026-09-22T08:20:00+08:00",
+      "summary": "小米开源 MiMo-V2.6 Pro/Flash 双 omnimodal；官方称 Pro 在多数 agent 基准对齐 Opus 5 / GPT-5.6 Sol；同步开源报告、7K+ RL 环境、端到端 RL 框架、mini-harnesses，并推 MiMo Desktop。",
+      "novelty": "开源 lab 用「前沿 agent 基准叙事 + 可复现 RL 资产 + Desktop 产品」整包追赶闭源前沿。",
+      "urls": {
+        "x": "https://x.com/XiaomiMiMo/status/2102138559952290106"
+      },
+      "tags": [
+        "Xiaomi",
+        "MiMo",
+        "Open Weights",
+        "Omnimodal",
+        "RL"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "sai-simular-fleet",
+      "name": "Sai (Simular)",
+      "score": 93,
+      "status": "new",
+      "first_detected": "2026-09-22T08:20:00+08:00",
+      "last_updated": "2026-09-22T08:20:00+08:00",
+      "summary": "Robosecretary 编排一支自主电脑舰队：按需唤醒、任务中恢复、mutex 防抢机；每台用 Smart Snapshot 读屏操作 GUI。PH 约 305 票。",
+      "novelty": "Agent computer 从「一台 demo 机」升级到可运维的舰队控制面。",
+      "urls": {
+        "site": "https://sai.simular.ai",
+        "producthunt": "https://www.producthunt.com/products/simular"
+      },
+      "tags": [
+        "Agent Computer",
+        "Fleet",
+        "Simular",
+        "GUI"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "grok-4-7",
+      "name": "Grok 4.7",
+      "score": 93,
+      "status": "new",
+      "first_detected": "2026-09-22T08:20:00+08:00",
+      "last_updated": "2026-09-22T08:20:00+08:00",
+      "summary": "xAI 发布 Grok 4.7：相对 4.6 明显更强的长程任务与自检，同价同速（$2/$6）；原生吃 Grok Bot harness；Cursor / Grok Build / API / GitHub Copilot 同日可用。",
+      "novelty": "Frontier 模型以「同价升级 + harness-native」抢日常 coding workhorse，分发层与模型层同步商品化。",
+      "urls": {
+        "official": "https://x.ai/news/grok-4-7",
+        "model_card": "https://media.x.ai/v1/website/4p7card-5eccc980.pdf",
+        "github": "https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot/",
+        "x": "https://x.com/SpaceXAI/status/2102069815225586149"
+      },
+      "tags": [
+        "xAI",
+        "Grok",
+        "Coding",
+        "Harness",
+        "Cursor"
+      ],
+      "homepage": true
+    },
     {
       "id": "productbridge",
       "name": "ProductBridge",
@@ -50,7 +281,7 @@
       "id": "claude-code-auto-mode-server-classifier",
       "name": "Claude Code Auto Mode Server Classifier",
       "score": 84,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-21T08:35:00+08:00",
       "last_updated": "2026-09-21T08:35:00+08:00",
       "summary": "Claude Code 2.1.278：Enterprise/API/Bedrock/Vertex 等路径上 Auto mode 默认服务端安全分类器且不计费（可 CLAUDE_CODE_AUTO_MODE_SERVER=0 退出）。",
@@ -65,13 +296,13 @@
         "Safety",
         "Gated Deployment"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "qwen38-live-translate",
       "name": "Qwen3.8-LiveTranslate",
       "score": 87,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-21T08:35:00+08:00",
       "last_updated": "2026-09-21T08:35:00+08:00",
       "summary": "实时同传专用：Interleave 架构，约 60 语种，平均延迟 2.8s→2.3s，含说话人分离与双语同步显示。09-19 官方 X。",
@@ -85,13 +316,13 @@
         "Translation",
         "Speech"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "mycel",
       "name": "Mycel",
       "score": 87,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-21T08:35:00+08:00",
       "last_updated": "2026-09-21T08:35:00+08:00",
       "summary": "上传一份历史客户交付物作风格/结构先验，后续草稿等人批准再发；可自托管 Apache-2.0。PH Sep20 约 264 票。",
@@ -106,13 +337,13 @@
         "HITL",
         "Services"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "qwen-image-2-1",
       "name": "Qwen-Image-2.1",
       "score": 91,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-21T08:35:00+08:00",
       "last_updated": "2026-09-21T08:35:00+08:00",
       "summary": "阿里开源 7B 统一生图+编辑：原生 RGBA、最多 10 张参考图，ComfyUI / vLLM-Omni day-0。09-20 官方 X。",
@@ -126,13 +357,13 @@
         "Open Weights",
         "ComfyUI"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "qwen38-omni-flash",
       "name": "Qwen3.8-Omni-Flash",
       "score": 90,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-21T08:35:00+08:00",
       "last_updated": "2026-09-21T08:35:00+08:00",
       "summary": "Qwen 首个围绕 agent 能力的全模态模型：原生音视频理解+推理+工具调用，并开源 Qwen-MM-Plugins / Live Harness。（窗口边缘 09-18 11:16 CST，上轮未覆盖）",
@@ -147,13 +378,13 @@
         "Multimodal",
         "Open Weights"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "sider-omni",
       "name": "Sider Omni",
       "score": 89,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-21T08:35:00+08:00",
       "last_updated": "2026-09-21T08:35:00+08:00",
       "summary": "Mac 侧栏：每只 app 窗口一只 Omni，读屏上下文、原地操作、跟窗进全屏；Accessibility/Screen Recording 按工具按需启用。PH Sep18 约 375 票。",
@@ -168,13 +399,13 @@
         "Agent Computer",
         "Screen Context"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "pushary",
       "name": "Pushary",
       "score": 91,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-21T08:35:00+08:00",
       "last_updated": "2026-09-21T08:35:00+08:00",
       "summary": "Agent HITL 控制面：权限请求落到手机/锁屏/Mac notch，跨 Claude Code/Codex/Cursor/Gemini CLI/MCP 统一策略与审计；本版加原生 iOS/Android + QR pairing。PH Sep18 约 184 票。",
@@ -190,13 +421,13 @@
         "Harness",
         "Mobile"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "google-ax-v0-3",
       "name": "Google AX v0.3",
       "score": 92,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-21T08:35:00+08:00",
       "last_updated": "2026-09-21T08:35:00+08:00",
       "summary": "google/ax 从嵌入式单 CLI harness 重构为通用 agent 编排层：ax-server（gRPC Task manifests）+ 水平扩展 ax-controller（Redis Streams）+ 沙箱 ax-task-runner；面向百万级短生命周期任务。",
@@ -212,7 +443,7 @@
         "Orchestration",
         "OSS"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "mcpjam",

@@ -1,9 +1,89 @@
 {
   "source": "AI Frontier Radar",
   "title": "观察名单",
-  "updated_at": "2026-09-21T08:35:00+08:00",
-  "count": 46,
+  "updated_at": "2026-09-22T08:20:00+08:00",
+  "count": 53,
   "items": [
+    {
+      "id": "superset-mobile-afk-uptake",
+      "title": "Superset Mobile AFK coding 控制面采用",
+      "why": "与 Pushary 审批流并行，手机是否成为并行 agent 舰队的主 HITL。",
+      "since": "2026-09-22T08:20:00+08:00",
+      "last_updated": "2026-09-22T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "agent-persistent-computer",
+        "harness-control-plane"
+      ]
+    },
+    {
+      "id": "googlebook-agent-shell-sales",
+      "title": "Googlebook 作为 agent 壳的预购与开发者采用",
+      "why": "用户是否真为 Magic Pointer / Spark / 本地 Claude Code 换机。",
+      "since": "2026-09-22T08:20:00+08:00",
+      "last_updated": "2026-09-22T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "agent-persistent-computer"
+      ]
+    },
+    {
+      "id": "arcjet-agent-runtime-adoption",
+      "title": "Arcjet 类运行时门禁是否成 agent 默认依赖",
+      "why": "tool-call 授权库是否从可选安全件变成脚手架默认。",
+      "since": "2026-09-22T08:20:00+08:00",
+      "last_updated": "2026-09-22T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "critical-cyber-gated-deployment"
+      ]
+    },
+    {
+      "id": "jev-system-one-uptake",
+      "title": "Jev / System One 决策层被 harness 默认接入",
+      "why": "主流 agent 产品是否把 decision API 做成路由/门禁原语。",
+      "since": "2026-09-22T08:20:00+08:00",
+      "last_updated": "2026-09-22T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "system-one-decision-models",
+        "harness-control-plane"
+      ]
+    },
+    {
+      "id": "mimo-v2-6-reproduce-verify",
+      "title": "MiMo-V2.6 开源 RL 资产与基准可复现性",
+      "why": "7K+ RL 环境与「对齐 Opus 5」主张能否被第三方验证。",
+      "since": "2026-09-22T08:20:00+08:00",
+      "last_updated": "2026-09-22T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "open-weight-agentic-multimodal"
+      ]
+    },
+    {
+      "id": "sai-fleet-adoption",
+      "title": "Sai 舰队级 agent computer 真实渗透",
+      "why": "mutex/recovery 叙事是否落到付费多机部署，而不只是 demo。",
+      "since": "2026-09-22T08:20:00+08:00",
+      "last_updated": "2026-09-22T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "agent-persistent-computer"
+      ]
+    },
+    {
+      "id": "grok-4-7-workhorse-uptake",
+      "title": "Grok 4.7 是否成为日常 coding workhorse",
+      "why": "同价进 Cursor/Copilot 后，实际路由份额是否从 Claude/GPT 切走。",
+      "since": "2026-09-22T08:20:00+08:00",
+      "last_updated": "2026-09-22T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "harness-control-plane",
+        "agent-flash-over-pro-economics"
+      ]
+    },
     {
       "id": "claude-auto-mode-server-rollout",
       "title": "Claude Code Auto mode 服务端分类器企业默认渗透",

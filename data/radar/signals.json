@@ -1,18 +1,63 @@
 {
   "source": "AI Frontier Radar",
   "title": "前沿信号",
-  "updated_at": "2026-09-21T08:35:00+08:00",
-  "count": 15,
+  "updated_at": "2026-09-22T08:20:00+08:00",
+  "count": 16,
   "items": [
+    {
+      "id": "system-one-decision-models",
+      "title": "System One 决策模型：跳过生成、直接输出结构化判断",
+      "type": "emerging_signal",
+      "score": 88,
+      "confidence": "medium",
+      "status": "new",
+      "first_detected": "2026-09-22T08:20:00+08:00",
+      "last_updated": "2026-09-22T08:20:00+08:00",
+      "summary": "TypeSafe Jev 在 PH 以「状态进→typed Choice/Score/Noul 出」成产品面；simonw/swyx/Latent Space 同窗把「system one aka decision models」立成品类叙事——agent 外环需要廉价、可类型化、可重复的决策层，而不是又一个 chat-first 模型。",
+      "why_it_matters": "若决策外环商品化，harness 路由/门禁/triage 可从「再跑一遍 LLM 再解析」降到亚秒结构化 API；下一问是主流 coding/agent 产品是否默认接入。",
+      "tags": [
+        "Jev",
+        "TypeSafe",
+        "System One",
+        "Decision Models",
+        "Harness"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.producthunt.com/products/jev-2",
+          "source": "producthunt",
+          "note": "Jev PH：Fast structured AI decisions（约 397 票）",
+          "date": "2026-09-21"
+        },
+        {
+          "url": "https://x.com/simonw/status/2102175146740232238",
+          "source": "x",
+          "note": "simonw：notes on Jev and system one aka decision models",
+          "date": "2026-09-22"
+        },
+        {
+          "url": "https://x.com/swyx/status/2102161399925571921",
+          "source": "x",
+          "note": "Latent Space：Jev and the System One Model / end of chat-first AI",
+          "date": "2026-09-22"
+        }
+      ],
+      "watch_next": [
+        "Cursor/Claude Code/OpenAI Agents 是否接入 decision API",
+        "同类 decision-only 产品是否形成可互换标准"
+      ],
+      "judgment_changes": [],
+      "homepage": true
+    },
     {
       "id": "open-weight-agentic-multimodal",
       "title": "开源权重的 Agentic 全模态栈",
       "type": "pattern",
-      "score": 88,
-      "confidence": "medium",
-      "status": "new",
+      "score": 92,
+      "confidence": "high",
+      "status": "strengthening",
       "first_detected": "2026-09-21T08:35:00+08:00",
-      "last_updated": "2026-09-21T08:35:00+08:00",
+      "last_updated": "2026-09-22T08:20:00+08:00",
       "summary": "Qwen 同窗连发 Omni-Flash（感知→规划→工具）、Image-2.1（统一生图+编辑开源）与 LiveTranslate，并把 MM-Plugins / Live Harness 开源——开源实验室开始整包交付「可执行的全模态 agent」，而不只是多模态理解模型。",
       "why_it_matters": "封闭 lab 的 omni/agent 叙事正被开源权重+插件/harness 追平分发面；下一问是谁先把这套栈接到企业工作流与本地部署。",
       "tags": [
@@ -23,6 +68,18 @@
         "Multimodal"
       ],
       "evidence": [
+        {
+          "url": "https://x.com/XiaomiMiMo/status/2102138582324625780",
+          "source": "x",
+          "note": "开源 Pro/Flash、报告、7K+ RL 环境、端到端 RL 框架与 mini-harnesses",
+          "date": "2026-09-22"
+        },
+        {
+          "url": "https://x.com/XiaomiMiMo/status/2102138559952290106",
+          "source": "x",
+          "note": "MiMo-V2.6 Pro/Flash：omnimodal + 声称对齐 Opus 5 / GPT-5.6 Sol agent 基准",
+          "date": "2026-09-22"
+        },
         {
           "url": "https://x.com/Alibaba_Qwen/status/2100785962414702599",
           "source": "x",
@@ -43,6 +100,7 @@
         }
       ],
       "watch_next": [
+        "第三方独立复现 MiMo agent 基准与 RL 环境可用性",
         "Qwen MM-Plugins 是否被第三方 coding/agent 产品默认接入",
         "同档开源 omni（DeepSeek/GLM 等）是否跟进工具执行环"
       ],
@@ -53,11 +111,11 @@
       "id": "frontier-vertical-model-skus",
       "title": "前沿模型开始按行业打成可治理的垂直 SKU",
       "type": "emerging_signal",
-      "score": 88,
+      "score": 89,
       "confidence": "medium",
-      "status": "new",
+      "status": "strengthening",
       "first_detected": "2026-09-18T08:20:00+08:00",
-      "last_updated": "2026-09-18T08:20:00+08:00",
+      "last_updated": "2026-09-22T08:20:00+08:00",
       "summary": "OpenAI 发布 Astra for Law：GPT-6 Astra + 2.3亿+法律检索索引 + 律所 Trusted Access/ZDR +插件生态；同窗 ChatGPT for Clinicians 向认证美国临床医生免费开放 Astra Pro。Kimi 金融方案则以 Skill+MCP+合规网关交付强监管垂直。前沿模型不再只卖通用档位，而是按行业打包成可审计的 foundation。",
       "why_it_matters": "若「模型×权威数据×插件×治理」成为默认交付单元，分发与合规会从通用 API 转向垂直 SKU——这是专业市场的新产品形态，而不只是又一份行业 prompt。",
       "tags": [
@@ -71,6 +129,12 @@
         "Skills"
       ],
       "evidence": [
+        {
+          "url": "https://x.com/ChatGPT/status/2102085785839427792",
+          "source": "x",
+          "note": "ChatGPT Finances 接 Experian 信用分（美 Plus/Pro）",
+          "date": "2026-09-22"
+        },
         {
           "url": "https://openai.com/index/astra-for-law/",
           "source": "official",
@@ -165,7 +229,7 @@
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-21T08:35:00+08:00",
+      "last_updated": "2026-09-22T08:20:00+08:00",
       "summary": "Claude Code Projects 重设计：从一会话调度并行云端 threads（各为独立会话/分支），共享 memory 与 artifact library，关电脑后仍继续，可从手机督导；本周对部分 Pro/Max 云会话扩量，本地工具随后。叠加前日 Cowork×chat 合并、jurniti / Cursor Projects / Muse Secure VM——「关盖还在跑」的持久 agent 电脑已成主流产品原语。",
       "why_it_matters": "叙事从「模型会点鼠标」变成「每人一台隔离 VM 里的代理」。Sentinel/审批/审计说明大众 agent 的产品化关键是安全电脑，而不是更长的聊天窗口。",
       "tags": [
@@ -179,6 +243,24 @@
         "Sentinel"
       ],
       "evidence": [
+        {
+          "url": "https://x.com/XiaomiMiMo/status/2102138585491361942",
+          "source": "x",
+          "note": "MiMo Desktop 随 V2.6 上线，订阅或 BYOK",
+          "date": "2026-09-22"
+        },
+        {
+          "url": "https://blog.google/products-and-platforms/devices/googlebook/googlebook-built-in-intelligence/",
+          "source": "official",
+          "note": "Googlebook：Magic Pointer + Gemini Spark + Linux 上 Claude Code/Antigravity",
+          "date": "2026-09-21"
+        },
+        {
+          "url": "https://sai.simular.ai",
+          "source": "product",
+          "note": "Sai：robosecretary 编排多台自主电脑，wake/recovery/mutex",
+          "date": "2026-09-21"
+        },
         {
           "url": "https://x.com/simonw/status/2101025043098812807",
           "source": "x",
@@ -304,18 +386,6 @@
           "source": "community",
           "note": "电脑操控被一线当成「聊天到编程」之后的下一跳",
           "date": "2026-08-31T00:00:00+08:00"
-        },
-        {
-          "url": "https://technode.com/2026/09/14/doubao-phone-assistant-launches-consumer-version-with-beta-phone-controls/",
-          "source": "reliable",
-          "note": "豆包手机助手消费版 + 操作手机 Beta；SAEP 声明协议",
-          "date": "2026-09-14T00:00:00+08:00"
-        },
-        {
-          "url": "https://www.producthunt.com/products/aside-6",
-          "source": "community",
-          "note": "Aside：本地 agent 浏览器 + passkey/AFK/MCP 交接",
-          "date": "2026-09-14T00:00:00+08:00"
         }
       ],
       "watch_next": [
@@ -342,11 +412,11 @@
       "id": "critical-cyber-gated-deployment",
       "title": "前沿实验室把「Critical 级网络能力」做成门控发布，而不是全面开闸",
       "type": "pattern",
-      "score": 96,
+      "score": 97,
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-09-02T08:20:00+08:00",
-      "last_updated": "2026-09-21T08:35:00+08:00",
+      "last_updated": "2026-09-22T08:20:00+08:00",
       "summary": "门控 Critical 网络能力从「即将发布」进入量产：OpenAI GPT-6 Astra 今日分阶段上线（先限组织→Plus/Pro/Biz/Ent + API + AWS），并配套 Daybreak for Frontline Defenders 约 10 亿美元补贴给水电/电网/银行等前线防御方。叠加已有的 Google Fairwind + Anthropic Mythos 可信访问，三家实验室同构已落地为可订阅产品与补贴分发，而不只是评级公告。",
       "why_it_matters": "叙事闭环：高能力 cyber 默认 = 门控部署 + 防御侧优先供货。Astra 扩到普通付费档并不等于全面开闸——Critical 能力仍绑安全卡与 Daybreak 通道；补贴玩法说明「能力×门禁」开始有国家/关键基础设施分发层。",
       "tags": [
@@ -363,6 +433,18 @@
         "Daybreak"
       ],
       "evidence": [
+        {
+          "url": "https://openclaw.ai/blog/openclaw-trail-of-bits-engagement-recap",
+          "source": "official",
+          "note": "OpenClaw×Trail of Bits：权限必须随请求跨步传递，丢上下文不得提权",
+          "date": "2026-09-21"
+        },
+        {
+          "url": "https://www.producthunt.com/products/arcjet",
+          "source": "producthunt",
+          "note": "Arcjet：agent 路径内检测注入、授权 tool call、脱敏与配额审计",
+          "date": "2026-09-21"
+        },
         {
           "url": "https://code.claude.com/docs/en/changelog",
           "source": "official",
@@ -475,11 +557,11 @@
       "id": "harness-control-plane",
       "title": "编程运行时在加控制面，不是发新模型",
       "type": "pattern",
-      "score": 98,
+      "score": 99,
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-08-28T00:00:00+08:00",
-      "last_updated": "2026-09-21T08:35:00+08:00",
+      "last_updated": "2026-09-22T08:20:00+08:00",
       "summary": "Weave Router 2.0 按复杂度/配额/缓存在 Claude↔Codex/Cursor 间路由；Bitrise Remote Dev Environments 用 MCP 拉起与 CI 同构的云 Mac/Linux；Claude Projects 把协调器做成产品原语。控制面继续从「编排模型」扩到「路由订阅 + 生产同构电脑」。",
       "why_it_matters": "第三方不必自建控制面即可嵌入同一套 agent loop；许可/沙箱/会话成为平台原语，而不只是应用层胶水。",
       "tags": [
@@ -493,6 +575,24 @@
         "沙箱"
       ],
       "evidence": [
+        {
+          "url": "https://www.producthunt.com/products/superset-5",
+          "source": "producthunt",
+          "note": "Superset Mobile：手机 AFK 接管 coding agent 工作区/diff/PR",
+          "date": "2026-09-21"
+        },
+        {
+          "url": "https://www.producthunt.com/products/jev-2",
+          "source": "producthunt",
+          "note": "Jev：状态进→typed Choice/Score/Noul 决策出，嵌入路由/门禁",
+          "date": "2026-09-21"
+        },
+        {
+          "url": "https://x.ai/news/grok-4-7",
+          "source": "official",
+          "note": "Grok 4.7：原生理解 Grok Bot harness，Cursor/Grok Build/API 同日可用",
+          "date": "2026-09-21"
+        },
         {
           "url": "https://pushary.com",
           "source": "product",
@@ -618,21 +718,10 @@
           "source": "official",
           "note": "Claude Code 2.1.271：auto 沙箱 per-command allowed_domains；子 agent omitClaudeMd",
           "date": "2026-09-15T06:12:00+08:00"
-        },
-        {
-          "url": "https://x.com/aiDotEngineer/status/2099551501613986198",
-          "source": "reliable",
-          "note": "AIE WF Harness Engineering Track：生产故障多在 harness；PostHog 禁用绕过护栏的子 agent",
-          "date": "2026-09-15T01:31:00+08:00"
-        },
-        {
-          "url": "https://www.producthunt.com/products/juggler",
-          "source": "community",
-          "note": "Juggler：可视化 coding harness（列/分支/JS 插件）",
-          "date": "2026-09-14T00:00:00+08:00"
         }
       ],
       "watch_next": [
+        "Jev 是否被主流 harness 默认接入为外环决策层",
         "google/ax 是否被 Cursor/Claude Projects 类产品引用为底座",
         "Agents API 出公测后的定价与配额",
         "更多 IDE/平台是否跟进「Projects 式」常驻 coordinator"
@@ -941,7 +1030,7 @@
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-09-14T08:20:00+08:00",
-      "last_updated": "2026-09-21T08:35:00+08:00",
+      "last_updated": "2026-09-22T08:20:00+08:00",
       "summary": "Anthropic 公开三项可对标的实验室节奏度量：AI 完成多少 AI R&D、agent 被监管得如何、算力如何分配，并承诺嵌入多组织第三方评估员；叠加 OpenAI misalignment 披露框架与 DeepMind Institute——pacing 从口头表态推进到可复述的生产过程指标与常设治理平台。",
       "why_it_matters": "pacing 从「承诺让评估者进驻」推进到「能力跃迁前的可审计工件（safety cases）」——把放慢做成研发门控，而不只是发布门控。",
       "tags": [
@@ -954,6 +1043,12 @@
         "治理"
       ],
       "evidence": [
+        {
+          "url": "https://media.x.ai/v1/website/4p7card-5eccc980.pdf",
+          "source": "official",
+          "note": "Grok 4.7 model card（2026-09-21）：500k context、reasoning 至 xhigh；防御红队邀请通道",
+          "date": "2026-09-21"
+        },
         {
           "url": "https://x.com/AnthropicAI/status/2101039819870937247",
           "source": "x",
@@ -1061,7 +1156,7 @@
           "note": "score 95→97；type strong_signal→pattern（披露框架 + DMI）"
         }
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "coding-agent-supply-chain",
