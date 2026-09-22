@@ -9,6 +9,536 @@
   },
   "items": [
     {
+      "id": "2102427209269191017",
+      "author": "jinchenma_ai",
+      "bio": "",
+      "text": "我现在每天最常用的几个软件就是微信、Codex 和 Chrome，就这仨。\n\n好多东西我都直接让 Codex 帮我去干这个干那个，帮我去找材料，其他软件也不怎么打开了。\n\n跟我身边接触到的一些人聊，他们大多还在讨论豆包好不好用，说这个不准确、那个不准确的。感觉这里面的 gap 非常大，我们现在所说的 AI 工具，跟过去那种聊天软件已经完全不是一个概念了。\n\n我推荐大家优先去使用 Codex、Claude Code 或者 Cursor Build 这样的工具。如果不方便使用海外的这些前沿产品，那至少用一下国内workbuddy，豆包工作（注意，是豆包工作，一个新的桌面软件，不是豆包 APP），或者千问办公。\n\n我们之前一直在讨论 AI 什么时候能够真正地帮我们上手干活呢？其实这件事情在今天已经实现了。\n\n你不需要跟 AI 聊完后，再去从它的返回结构里面手动复制、下载到其他的地方，等等这样的人为操作。\n\n现在的 AI 其实已经能直接住在你的电脑里，作为你的私人助理直接帮你干活，操控各种各样的软件。\n\n所以大家一定要去用、去试，你才知道 AI 现在的能力边界已经到什么程度了。\n\n而且相信我，这个东西一旦你用顺了，它就是不可逆的，因为你再也回不去以前那种传统的工作方式了。",
+      "likes": 4,
+      "views": 311,
+      "created_at": "Tue Sep 22 15:58:02 +0000 2026",
+      "url": "https://x.com/jinchenma_ai/status/2102427209269191017",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS1RSFAbMAAuX4X.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS1RSFAbMAAuX4X.png"
+      ],
+      "score": 63.293,
+      "title": "日常三件套只剩微信、Codex、Chrome：Agent 已能住进电脑干活",
+      "summary": "作者称每天最常用只剩微信、Codex 与 Chrome，材料搜集与杂活直接交给 Codex；身边许多人仍在争论豆包准不准，差距很大。他推荐优先试 Codex/Claude Code/Cursor Build，不便出海则至少用国内工作态产品；强调 AI 已能住在电脑里操控软件，用顺之后很难回到旧工作流。",
+      "recommend_reason": "从真实日活习惯说明“聊天机器人 vs 电脑驻留 Agent”的体感鸿沟。",
+      "tags": [
+        "指定AI名单",
+        "Codex",
+        "Agent",
+        "工作流",
+        "Claude Code"
+      ],
+      "section": "指定AI名单",
+      "rank": 1
+    },
+    {
+      "id": "2102418847303385304",
+      "author": "lxfater",
+      "bio": "",
+      "text": "作为程序员，说说我看法\n\n代码索引是一个基本功能，Cursor、Copilot 都有这个功能\n\nTRAE文档写的是：传上去算向量，算完就删明文\n而且他们默认.gitignore 里的东西不传\n如果你还想排除什么文件，在trae/.ignore 里写一行\n\n但他们做错了一点：只把这些写在文档里，可惜没人看文档\n\n不过想想挺有意思哈：\n代码索引本来是 AI 编程工具的底层能力，放云端算，主要是因为本地算向量又慢又吃内存。\n但一个正经功能，现在被当成“偷代码“”\n\n所以呀，产品设计不能偷懒，否则功能会被当成 bug",
+      "likes": 5,
+      "views": 3324,
+      "created_at": "Tue Sep 22 15:24:48 +0000 2026",
+      "url": "https://x.com/lxfater/status/2102418847303385304",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "score": 52.514,
+      "title": "代码索引被当成“偷代码”：云端向量化本是工程常态",
+      "summary": "作者指出 Cursor、Copilot 都有代码索引；TRAE 文档写明上传算向量后删明文、默认不传 .gitignore，额外排除可写 trae/.ignore，但只写在文档里少人看。云端算向量是因为本地又慢又吃内存；正经能力因产品沟通不到位被误解为偷代码。",
+      "recommend_reason": "把 IDE 代码索引的隐私争议拆回工程事实与产品沟通问题。",
+      "tags": [
+        "指定AI名单",
+        "代码索引",
+        "Cursor",
+        "TRAE",
+        "隐私"
+      ],
+      "section": "指定AI名单",
+      "rank": 2
+    },
+    {
+      "id": "2102417027013149016",
+      "author": "vista8",
+      "bio": "",
+      "text": "帮大家总结下要点：\n\n1. 国内预训练架构创新全球领先，但后训练数据积累落后海外约半年。\n\n因为国内模型厂算力只有海外头部的十分之一左右，被逼出架构创新。\n\n2. 后训练门槛比预训练低得多，核心竞争在数据质量，不在 infra。\n\n3. 组织架构重要性超过算力储备。混元案例说明，拆掉部门墙比单纯堆人更有效。\n\n腾讯把多模态模块从独立部门拆出来，和预训练体系合并，整体研发效率提上去了。\n\n4. RSI 是下一个共识方向，做好 RSI 的前提是自己能训模型，现在训模型约等于造数据。\n\n一个判断 AGI 的角度：模型能不能从零复刻自己。\n\n如果能复刻一个超越自己的版本，RSI 就算实现了。\n\nhttps://t.co/iCCSiXu6w0",
+      "likes": 70,
+      "views": 11380,
+      "created_at": "Tue Sep 22 15:17:34 +0000 2026",
+      "url": "https://x.com/vista8/status/2102417027013149016",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "score": 60.101,
+      "title": "国内预训练架构领先、后训练落后约半年：RSI 成下一共识",
+      "summary": "要点：国内预训练架构创新领先，但后训练数据约落后海外半年（算力约十分之一倒逼架构）；后训练门槛更低、比拼数据质量；组织拆墙比堆算力更关键（混元案例）；RSI 成下一共识，前提是自己能训模型≈造数据，判断 AGI 可看模型能否从零复刻并超越自己。",
+      "recommend_reason": "把中国模型厂的架构/数据/组织与 RSI 方向收成可核对的四条判断。",
+      "tags": [
+        "指定AI名单",
+        "后训练",
+        "RSI",
+        "国产模型",
+        "产业分析"
+      ],
+      "section": "指定AI名单",
+      "rank": 3
+    },
+    {
+      "id": "2102416630307516581",
+      "author": "ElevenLabs",
+      "bio": "",
+      "text": "We’re releasing Scribe v2 Medical, our speech-to-text model fine-tuned for clinical audio.\n\nScribe v2 Medical reduces word error rate (WER) on clinical audio by 18% compared to our base Scribe v2 model, improving recognition of medication names, anatomy, and pathology. https://t.co/W5XPVlvLsa",
+      "likes": 108,
+      "views": 8267,
+      "created_at": "Tue Sep 22 15:16:00 +0000 2026",
+      "url": "https://x.com/ElevenLabs/status/2102416630307516581",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS1HoMZbMAA1lOK.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS1HoMZbMAA1lOK.jpg"
+      ],
+      "title": "ElevenLabs 发布 Scribe v2 Medical：面向临床音频的转写",
+      "summary": "ElevenLabs 发布面向临床音频微调的语音转写模型 Scribe v2 Medical，称可降低临床场景下的转写工作量，并面向受保护健康信息场景设计。",
+      "recommend_reason": "语音大厂把 ASR 推进到 HIPAA 向的临床垂直场景，医疗语音链路值得跟。",
+      "tags": [
+        "指定AI名单",
+        "ElevenLabs",
+        "医疗",
+        "语音转写",
+        "Scribe"
+      ],
+      "section": "指定AI名单",
+      "rank": 4
+    },
+    {
+      "id": "2102414347364335917",
+      "author": "sama",
+      "bio": "",
+      "text": "People outside the AI labs should have a real say in how this technology develops, and a clear way to judge if it's happening safely.\n\nStandards should help prevent the concentration of power, including by making sure new companies and open-model companies can compete.\n\nThey should also help countries and companies compare evidence and learn from failures.\n\nWe think the US should lead this effort. Here is our proposal:\n\nhttps://t.co/2FT9a2m4l0",
+      "likes": 3694,
+      "views": 285969,
+      "created_at": "Tue Sep 22 15:06:56 +0000 2026",
+      "url": "https://x.com/sama/status/2102414347364335917",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "score": 54.622,
+      "title": "Altman：外部应参与 AI 发展标准，防权力集中",
+      "summary": "萨姆·奥特曼称实验室外的人应有真实话语权，并能判断 AI 是否安全推进；标准应防止权力过度集中、让新公司与开源模型公司可竞争，并帮助各国对照证据、从失败中学习。他主张美国牵头，并附上 OpenAI 提案链接。",
+      "recommend_reason": "OpenAI CEO 亲自抛出“外部治理+开源可竞争”标准提案，是夜场治理议题的一手信号。",
+      "tags": [
+        "指定AI名单",
+        "OpenAI",
+        "sama",
+        "安全治理",
+        "标准"
+      ],
+      "section": "指定AI名单",
+      "rank": 5
+    },
+    {
+      "id": "2102414040178036740",
+      "author": "emollick",
+      "bio": "",
+      "text": "For all the tension between AI &amp; the arts, I have received enthusiastic receptions from the William Carlos Williams Society, the TS Eliot Society &amp; others about the AI interpretations of their work that I have posted here. It is possible to use AI as a bridge to arts appreciation",
+      "likes": 52,
+      "views": 7149,
+      "created_at": "Tue Sep 22 15:05:42 +0000 2026",
+      "url": "https://x.com/emollick/status/2102414040178036740",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "score": 42.231,
+      "title": "Mollick：文学社团欢迎 AI 解读，可作通往艺术的桥",
+      "summary": "面对 AI 与艺术的紧张关系，Ethan Mollick 称威廉·卡洛斯·威廉斯学会、T.S.艾略特学会等对其发布的 AI 文学解读反响热烈，说明 AI 有可能成为通往艺术欣赏的桥梁。",
+      "recommend_reason": "教育研究者给出反直觉观察：专业文学社群可以正向接纳 AI 阐释。",
+      "tags": [
+        "指定AI名单",
+        "emollick",
+        "AI艺术",
+        "教育",
+        "人文"
+      ],
+      "section": "指定AI名单",
+      "rank": 6
+    },
+    {
+      "id": "2102409468269232415",
+      "author": "LangChain",
+      "bio": "",
+      "text": ".@Clay evaluates every agent on three things:\n✅ Quality\n✅ Throughput\n✅ Cost\n\n@jeffbarg on how LangSmith's evals measure quality and benchmark it against cost and throughput. https://t.co/pV96OINUXj",
+      "likes": 9,
+      "views": 2969,
+      "created_at": "Tue Sep 22 14:47:32 +0000 2026",
+      "url": "https://x.com/LangChain/status/2102409468269232415",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2102409289222463488/vid/avc1/320x568/AhNx6_W-UvVDnkv_.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102409289222463488/img/Z3Fmlox49rzqFkcE.jpg"
+      ],
+      "score": 58.888,
+      "summary": "Clay 用三件事评估每个 agent：质量、吞吐、成本。Jeff Barg 讲解 LangSmith 的评测如何衡量质量，并对照成本与吞吐做基准。",
+      "recommend_reason": "把 agent 评测从“好不好用”落到质量/吞吐/成本三维，可直接借鉴到自家评测板。",
+      "tags": [
+        "指定AI名单",
+        "LangChain",
+        "LangSmith",
+        "评测",
+        "Agent"
+      ],
+      "section": "指定AI名单",
+      "rank": 7
+    },
+    {
+      "id": "2102389976663023900",
+      "author": "DeepLearningAI",
+      "bio": "",
+      "text": "10,000 AI agents spent 88 hours tackling Navier-Stokes equations in Lean. The resulting controversy teaches vital lessons to AI developers.\n\n🧩 Agents can formalize complex mathematical proofs at massive scale\n🧠 Human evaluation remains essential to interpret why proofs work\n🔒 Enterprise data privacy and zero-data retention settings are mandatory\n\nRead our full technical analysis: https://t.co/nXzdHQR9DN\n\n#DeepLearningAI #AIAgents #AISecurity",
+      "likes": 101,
+      "views": 5907,
+      "created_at": "Tue Sep 22 13:30:05 +0000 2026",
+      "url": "https://x.com/DeepLearningAI/status/2102389976663023900",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS0wioxWkAAiv8v.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS0wioxWkAAiv8v.jpg"
+      ],
+      "score": 70.988,
+      "title": "万级 Agent 用 Lean 啃纳维-斯托克斯：规模证明仍需人审",
+      "summary": "约 1 万个 AI agent 花费 88 小时在 Lean 中冲击纳维-斯托克斯方程形式化；争议提醒：agent 可大规模形式化复杂证明，但人类评估仍关键，且企业侧零数据留存与隐私设置是硬门槛。文末附 DeepLearning.AI 技术分析。",
+      "recommend_reason": "把大规模形式化证明的能力边界、人审必要性与隐私约束一次讲清。",
+      "tags": [
+        "指定AI名单",
+        "DeepLearningAI",
+        "Agent",
+        "Lean",
+        "形式化验证"
+      ],
+      "section": "指定AI名单",
+      "rank": 8
+    },
+    {
+      "id": "2102364788302971029",
+      "author": "sairahul1",
+      "bio": "",
+      "text": "This is what a one-person AI Agent run company looks like in 2026.\n\n6 AI agents. 20 cron jobs. 0 human employees.\n\nEvery role is a folder. Every job description is a md file. No standups. No Slack. No payroll.\n\nJust a directory on a Mac that runs the whole thing.\n\nMore on this below.",
+      "likes": 171,
+      "views": "26440",
+      "created_at": "Tue Sep 22 11:50:00 +0000 2026",
+      "url": "https://x.com/i/status/2102364788302971029",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSvSUjEagAAbqbq.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSvSUjEagAAbqbq.jpg"
+      ],
+      "score": 66.942,
+      "title": "一人公司画像：6 个 AI Agent、20 个 cron、0 名员工",
+      "summary": "作者描述 2026 年一人 AI Agent 公司形态：6 个 agent、20 个定时任务、零雇员；每个角色是一个文件夹，岗位说明是 markdown，没有站会、Slack 与工资单，整家公司跑在 Mac 上的一个目录里。",
+      "recommend_reason": "把“Agent 组织成公司”的最小可运行结构说得很具体，便于对照自己的自动化栈。",
+      "tags": [
+        "指定AI名单",
+        "Agent",
+        "一人公司",
+        "自动化",
+        "组织"
+      ],
+      "section": "指定AI名单",
+      "rank": 9
+    },
+    {
+      "id": "2102357321557094557",
+      "author": "OpenDesignHQ",
+      "bio": "",
+      "text": "Grok 4.7 is now officially available in Open Design.\n\nIt brings stronger coding capabilities, better long-context handling, and more thorough self-checking for complex tasks.\n\nFull Benchmark is coming soon. https://t.co/l2SXR6GKzI",
+      "likes": 13,
+      "views": "2072",
+      "created_at": "Tue Sep 22 11:20:20 +0000 2026",
+      "url": "https://x.com/i/status/2102357321557094557",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS0SvlPacAAKQPq.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS0SvlPacAAKQPq.jpg"
+      ],
+      "score": 61.106,
+      "title": "Open Design 上线 Grok 4.7：加强编码与长上下文",
+      "summary": "Grok 4.7 已正式登陆 Open Design，官方称编码能力更强、长上下文更好，复杂任务的自检也更充分；完整基准测试即将发布。",
+      "recommend_reason": "设计/前端工作台第一时间接入 Grok 4.7，方便对照编码与长上下文体感。",
+      "tags": [
+        "指定AI名单",
+        "Grok",
+        "OpenDesign",
+        "编码",
+        "模型上新"
+      ],
+      "section": "指定AI名单",
+      "rank": 10
+    },
+    {
+      "id": "2102348337886478568",
+      "author": "OpenDesignHQ",
+      "bio": "",
+      "text": "We tested GLM 5.3 and Grok 4.7 with the same prompts to build immersive 3D temple websites. Here’s what each built ⬇️\n\nFull benchmark is coming soon to OpenDesign. https://t.co/NG6sMhQMoy",
+      "likes": 45,
+      "views": "7619",
+      "created_at": "Tue Sep 22 10:44:38 +0000 2026",
+      "url": "https://x.com/i/status/2102348337886478568",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2102344990487875584/vid/avc1/320x320/gfP6jjBp_Dl_m4tv.mp4?tag=29",
+        "https://video.twimg.com/amplify_video/2102345011321036800/vid/avc1/320x320/GXVAV19Ogh2DgPcn.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102344990487875584/img/gg1JdtT58t3_P2v3.jpg",
+        "https://pbs.twimg.com/amplify_video_thumb/2102345011321036800/img/mB0f9dW_pwZ6BGfr.jpg"
+      ],
+      "score": 63.294,
+      "summary": "我们用同一组提示词分别测试 GLM 5.3 与 Grok 4.7，让它们构建沉浸式 3D 寺庙网站，下方是各自成果。完整基准测试即将放到 Open Design。",
+      "recommend_reason": "同题对比 GLM 与 Grok 的前端/3D 生成差距，比单纯跑分更直观。",
+      "tags": [
+        "指定AI名单",
+        "GLM",
+        "Grok",
+        "评测",
+        "前端"
+      ],
+      "section": "指定AI名单",
+      "rank": 11
+    },
+    {
+      "id": "2102347353625612555",
+      "author": "emilkowalski",
+      "bio": "",
+      "text": "Interesting to see how the AI companies are trying to make their apps feel more human, less alien. \n\nMuse has this cute little animated guy smiling all the time, ready to help you with anything. It feels friendlier and more relatable than a blank, sterile screen with an input.\n\nChatGPT Computer Use shows a moving cursor as it’s working. It’s not technically required, but it makes the whole process less scary and easier to follow.\n\nIt’s like the early iPhone days when things used to immitate real world objects so that an unfamiliar technology felt more intuitive and relatable. \n\nIn this case we imitate presence, trying to give the AI a more human feel.",
+      "likes": 648,
+      "views": "28583",
+      "created_at": "Tue Sep 22 10:40:43 +0000 2026",
+      "url": "https://x.com/i/status/2102347353625612555",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "score": 72.732,
+      "title": "AI 产品在学“拟人在场”：Muse 笑脸与 ChatGPT 光标",
+      "summary": "作者观察 AI 公司正让应用更有人味：Muse 用常笑的小动画角色降低疏离感；ChatGPT Computer Use 展示移动光标，虽非技术必需，却让过程更好跟随。类比早期 iPhone 拟物化，如今模仿的是“在场感”。",
+      "recommend_reason": "从交互设计角度点出 Agent 产品的拟人化趋势，而不只是模型能力叙事。",
+      "tags": [
+        "产品设计",
+        "Agent",
+        "ChatGPT",
+        "Muse",
+        "交互"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2102344659276099794",
+      "author": "MaiYangAI",
+      "bio": "",
+      "text": "又看了一遍 Lauren（@poteto）讲她过去一个月怎么合进约 2000 个 PR。这本来是给 Cursor Compile in London 的分享，内容很干。她反复讲的那个比喻，我挺喜欢。\n\n她不太爱「软件工厂」这个词，更爱「米其林厨房」。我们是在做有创意的事，在打磨带点艺术性的产品。有了 agent，可以不用自己炒每一个料，但最后那盘菜还是我们的责任。\n\n厨房怎么摆、线厨和帮厨怎么配、洗碗的人多还是炒菜的人多，都会进到成品里。\n\n我把完整中文字幕配进视频里。她说可以 2 倍速看，我这边给大家压的是 1.5 倍速。\n\n原视频 https://t.co/DmnYUrEbk9",
+      "likes": 63,
+      "views": "12178",
+      "created_at": "Tue Sep 22 10:30:01 +0000 2026",
+      "url": "https://x.com/i/status/2102344659276099794",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2102299487825805312/vid/avc1/480x270/lS8SQ9elu7OWYTAe.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102299487825805312/img/sbFNsz2DUOQ1xGfJ.jpg"
+      ],
+      "score": 64.335,
+      "title": "Lauren：Agent 时代更像米其林厨房而非软件工厂",
+      "summary": "作者重温 Lauren（@poteto）在 Cursor Compile London 的分享：过去一个月合入约 2000 个 PR；她更爱“米其林厨房”比喻而非“软件工厂”——有了 agent 不必亲自炒每一道料，但成品仍是主厨责任；厨房布局与人员配比都会进入最终菜品。作者为其视频配了中文字幕。",
+      "recommend_reason": "用厨房编制隐喻讲清 Agent 协作里“人仍对成品负责”的组织含义。",
+      "tags": [
+        "Cursor",
+        "Agent",
+        "工程组织",
+        "PR",
+        "开发者"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2102336602551075271",
+      "author": "sairahul1",
+      "bio": "",
+      "text": "this is f**king insane.\n\nJack Dorsey just open sourced a free tool for running a one-person business.\n\nthe GitHub repo already has 33.8K stars.\n\nIt lets you:\n\n→ run your own server, automations\n→ keep chat, search, Git, everything in one place\n→ add AI agents that work like teammates\n→ decide exactly what each agent can do\n\nno monthly subscriptions.\n\njust you, your AI agents, and full control.\n\nthis is where one-person businesses are headed.\n\nsave this for later.\n\ni just published an article below regarding the same.",
+      "likes": 211,
+      "views": "67257",
+      "created_at": "Tue Sep 22 09:58:00 +0000 2026",
+      "url": "https://x.com/i/status/2102336602551075271",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HSvSDTzbMAASnvY.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HSvSDTzbMAASnvY.jpg"
+      ],
+      "score": 67.437,
+      "title": "Jack Dorsey 开源一人公司工具：自托管服务器+AI 队友",
+      "summary": "作者介绍 Jack Dorsey 开源的一人公司工具（GitHub 已约 3.38 万星）：可自托管服务器与自动化，把聊天、搜索、Git 放一处，并添加权限可控的 AI agent 队友，无订阅费，强调个人对 agent 的完全控制。",
+      "recommend_reason": "把“自托管一人公司栈 + 可控 AI 队友”这条开源路线推到聚光灯下。",
+      "tags": [
+        "指定AI名单",
+        "开源",
+        "一人公司",
+        "Agent",
+        "自托管"
+      ],
+      "section": "指定AI名单",
+      "rank": 14
+    },
+    {
+      "id": "2102271183332733144",
+      "author": "dotey",
+      "bio": "",
+      "text": "英伟达 CEO 黄仁勋在 CBS 采访中公开炮轰 AI 实验室呼吁监管的做法，称它们真正想要的是逃避现行法律。\n\n他的逻辑很直接：非法入侵系统？已经违法。产品造成伤害？产品责任法管着。违反服务合同？现有法律覆盖了。美国不需要给 AI 专门设一个\"FDA\"，先把现有法律用起来。\n\n这番话的背景是 Anthropic CEO Dario Amodei 一周前发起的\"放缓前沿\"倡议。Amodei 呼吁行业主动减速，引入第三方评估员常驻公司做安全审查，并承诺 Anthropic 将率先执行。Sam Altman 随后跟进同意，马斯克也公开支持，三家头部 AI 实验室罕见地在安全议题上站到了一起。\n\n黄仁勋的解读恰好相反。他在采访中说，那些呼吁监管的 AI 实验室领导者可能有\"政治\"或其他\"不可告人\"的动机，并直言他们要的是被从现有法律中豁免出来。OpenAI 和 Anthropic 早已是坐拥巨额营收的产品公司，应当像所有科技公司一样先承担产品责任，出了问题按现有法律追责，然后再讨论假想的超级智能立法。\n\n这一周他密集输出了同一观点。在 Salesforce Dreamforce 大会上，他称\"安全是工程问题\"；在查尔斯国王主持的苏格兰 AI 峰会上，他把 AI 定义为底层技术——监管应针对用 AI 做出来的产品，而非 AI 本身。\n\n两条路线的核心差异在于：按黄仁勋的思路，AI 公司在现有法律框架内自行发布产品，事后追责；按 Amodei 的方案，发布新模型前需先通过独立评估。对开发者和用户来说，这直接决定了拿到新工具的速度。",
+      "likes": 32,
+      "views": "18841",
+      "created_at": "Tue Sep 22 05:38:03 +0000 2026",
+      "url": "https://x.com/i/status/2102271183332733144",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2102270694562091008/vid/avc1/480x270/kul6C2f69-7FYZg5.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102270694562091008/img/49e1aXtQw4SRbLo5.jpg"
+      ],
+      "score": 62.798,
+      "title": "黄仁勋炮轰实验室“求监管”：要先扛现有产品责任",
+      "summary": "英伟达 CEO 黄仁勋在 CBS 采访中批评 AI 实验室呼吁专门监管，称现行法律已覆盖入侵、产品伤害与合同违约，不必另设“AI 版 FDA”。背景是 Anthropic 放缓倡议及 Altman、马斯克跟进；黄认为动机或含政治考量，主张先按现有法律追责产品，并重申安全是工程问题、应监管产品而非底层技术。",
+      "recommend_reason": "“减速联盟 vs 现有法律追责”两条路线对照清晰，关系到新模型上市节奏。",
+      "tags": [
+        "指定AI名单",
+        "英伟达",
+        "监管",
+        "Anthropic",
+        "产业"
+      ],
+      "section": "指定AI名单",
+      "rank": 15
+    },
+    {
+      "id": "2102268230052274300",
+      "author": "ollama",
+      "bio": "",
+      "text": "Over the last few hours, some requests to the deepseek-v4.1-flash model on Ollama were charged at an incorrect rate, leading to higher usage consumption than expected for certain users. Sorry about this.\n\nFor anyone effected:\n- Usage (monthly, or weekly + session on previous plans) has been reset\n- If extra usage amounts were consumed due to this model, these extra usage amounts have been restored to your account.",
+      "likes": 440,
+      "views": "41070",
+      "created_at": "Tue Sep 22 05:26:18 +0000 2026",
+      "url": "https://x.com/i/status/2102268230052274300",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "score": 66.452,
+      "title": "Ollama 误计费 deepseek-v4.1-flash，已重置并补回额度",
+      "summary": "过去数小时，Ollama 上 deepseek-v4.1-flash 部分请求按错误费率计费，导致部分用户用量偏高。官方致歉：相关月/周/会话用量已重置；因此多扣的额度也已补回账户。",
+      "recommend_reason": "托管推理平台的计费事故与补救措施，直接关系到重度用户可用额度。",
+      "tags": [
+        "指定AI名单",
+        "Ollama",
+        "DeepSeek",
+        "计费",
+        "托管"
+      ],
+      "section": "指定AI名单",
+      "rank": 16
+    },
+    {
+      "id": "2102264807630180468",
+      "author": "vllm_project",
+      "bio": "",
+      "text": "Excited to see @peano_ai run full-parameter RL for @XiaomiMiMo 310B MiMo-V2.6 on TPUs, across 1,000+ TPUs. 🚀🚀\n\nvLLM drives the rollouts, bitwise-matched with the trainer in validation. All 310B params move across the ICI fabric in under 2s.\n\n🔗 https://t.co/9sN8fdlIx1",
+      "likes": 82,
+      "views": 8298,
+      "created_at": "Tue Sep 22 05:12:42 +0000 2026",
+      "url": "https://x.com/vllm_project/status/2102264807630180468",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "score": 44.127,
+      "title": "vLLM 支撑千卡 TPU 上 MiMo-V2.6 310B 全参 RL",
+      "summary": "Peano 在 1000+ TPU 上对小米 MiMo-V2.6（310B）做全参数强化学习；vLLM 负责 rollout，并与 trainer 在校验中按位对齐，310B 参数经 ICI 互联在 2 秒内搬完。",
+      "recommend_reason": "超大模型全参 RL 的基础设施实锤：vLLM 与 TPU 互联带宽成为关键路径。",
+      "tags": [
+        "指定AI名单",
+        "vLLM",
+        "TPU",
+        "强化学习",
+        "MiMo"
+      ],
+      "section": "指定AI名单",
+      "rank": 17
+    },
+    {
+      "id": "2102253246807261579",
+      "author": "levie",
+      "bio": "",
+      "text": "The monetization potential of personal agents that are transacting on your behalf you is quite significant.\n\nIf you imagine agents that are perfectly capable of handling an arbitrarily complex task end to end, then eventually a substantial amount of commerce inevitably goes through them. \n\nYou’ll start by slinging your daily simple and annoying tasks at the agent. Then as people get used to it, they’ll just start to throw more complex tasks at the agent, ultimately leading to even more spend through these systems than what they were doing before. If you can bring down the friction for commerce and services, then you end up spending even more. \n\nThis thus creates a ton of opportunity for the agent providers (Muse, etc.), but also completely new opportunities to build the layer that the agents want to interact with (commerce, local, b2b services, etc.). Win/win for multiple layers.",
+      "likes": 184,
+      "views": "77911",
+      "created_at": "Tue Sep 22 04:26:46 +0000 2026",
+      "url": "https://x.com/i/status/2102253246807261579",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "score": 60.601,
+      "title": "Levie：个人 Agent 代下单将重塑商业与服务层",
+      "summary": "Box CEO Aaron Levie 认为，能端到端处理任意复杂任务的个人 Agent，最终会承接大量交易与服务；摩擦下降反而推高消费。这不仅利好 Muse 等 Agent 提供商，也催生面向 Agent 的商务、本地与 B2B 服务新层。",
+      "recommend_reason": "从商业化角度推演个人 Agent 如何改写交易入口，而不仅是产品演示。",
+      "tags": [
+        "指定AI名单",
+        "Agent",
+        "商业化",
+        "Muse",
+        "平台"
+      ],
+      "section": "指定AI名单",
+      "rank": 18
+    },
+    {
+      "id": "2102248609106514355",
+      "author": "Alibaba_Qwen",
+      "bio": "",
+      "text": "Day-0 OpenVINO support from @inteldevs! 🥳 Qwen-Image-2.1 is ready to run optimized on Intel hardware. One open-weight checkpoint for both generation and editing. 👇",
+      "likes": 227,
+      "views": "34008",
+      "created_at": "Tue Sep 22 04:08:20 +0000 2026",
+      "url": "https://x.com/i/status/2102248609106514355",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "score": 61.938,
+      "summary": "来自 @inteldevs 的 Day-0 OpenVINO 支持！Qwen-Image-2.1 已可在英特尔硬件上优化运行。单一开源权重检查点同时覆盖生成与编辑。",
+      "recommend_reason": "通义图像新版首日接入 OpenVINO，国产开源多模态落地 Intel 硬件。",
+      "tags": [
+        "指定AI名单",
+        "Qwen",
+        "OpenVINO",
+        "图像生成",
+        "Intel"
+      ],
+      "section": "指定AI名单",
+      "rank": 19
+    },
+    {
       "id": "2102244258531213596",
       "author": "Kimi_Moonshot",
       "bio": "Built by Moonshot AI to empower everyone to be superhuman. \nPR: globalpr@moonshot.ai\nDC: https://t.co/wBsBTn6fmE",
@@ -36,7 +566,7 @@
       "recommend_reason": "国产旗舰进企业云市场：Kimi K3 上 Bedrock，带缓存与审计能力。",
       "title": "Kimi K3 登陆 Amazon Bedrock，支持缓存与审计",
       "summary": "Kimi K3 已上线 Amazon Bedrock，可在 Bedrock 的访问控制、加密与审计下运行编程、文档分析与长程 Agent 工作流，并支持显式 prompt caching。",
-      "rank": 1
+      "rank": 20
     },
     {
       "id": "2102231405606625507",
@@ -75,7 +605,7 @@
       "recommend_reason": "StepFun 新旗舰 Preview 在 AA 上打出高性价比点，补齐国内厂动态。",
       "title": "Step 5 Preview：AA 指数 44，约 $0.71/任务",
       "summary": "StepFun 称 Step 5 Preview 将智能–成本帕累托前沿外推：Artificial Analysis Intelligence Index 44 分、约每任务 $0.71。",
-      "rank": 2
+      "rank": 21
     },
     {
       "id": "2102230173982851349",
@@ -105,7 +635,7 @@
       "recommend_reason": "用具体人民币单价把「同分不同价」说清楚，选型决策直接可用。",
       "title": "枫影：Grok 4.7 与 MiMo-V2.6 同分，但价格差一个数量级",
       "summary": "作者对比同日发布的 Grok 4.7 与 MiMo-V2.6：第三方能力接近，但价差巨大——举例 MiMo V2.6 Pro 缓存命中时输入约 ¥0.025/输出 ¥6，而 Grok 4.7 换算后输入约 ¥3.35、输出约 ¥40；并观察到推特反馈吐槽 Grok 贵、慢或不稳。结论倾向：要么最便宜里最强，要么直接做前沿，中间档难有声量。",
-      "rank": 3
+      "rank": 22
     },
     {
       "id": "2102221618042769776",
@@ -152,7 +682,7 @@
       "recommend_reason": "把英文发布翻译成可对照的中文技术叙事，方便国内读者抓住 RL 规模要点。",
       "title": "宝玉：解读小米 MiMo-V2.6——AA 46 并列 Grok，RL 规模是关键",
       "summary": "中文解读小米正式开源 MiMo-V2.6 Pro/Flash：Pro 在 Artificial Analysis 综合智能指数 46 分，超过 Kimi K3 与 Qwen3.8 Max，与同日 Grok 4.7 并列；仍落后 Claude Fable 5.1、GPT-6 Astra。重点转述负责人 Fuli Luo 说法：单次 RL 规模极大（约 30 大步、75 万轨迹），是理解此次跃迁的关键。",
-      "rank": 4
+      "rank": 23
     },
     {
       "id": "2102189582901195256",
@@ -196,7 +726,7 @@
       "recommend_reason": "真实 computer use 工程案例，把无障碍做成 Agent 可操作性的基础设施。",
       "title": "HiTw93：用 Computer Use 把 Mac 卸软测试扩到 549 款，无障碍属性成关键",
       "summary": "作者继续「蠢事情」：把 Mac 卸载/残余清理验证软件从 300 扩到 549（含 App Store 与插件）。借助 computer use 与更强模型批量安装检查；并指出早期为视障做的 VoiceOver/无障碍属性，反而让 AI 能准确定位控件，使自动化更稳——建议独立开发者为 App/网页补无障碍属性，既惠及用户也反哺 AI 测试。",
-      "rank": 5
+      "rank": 24
     },
     {
       "id": "2102179283737158019",
@@ -232,7 +762,7 @@
       "recommend_reason": "展示非编程场景：用前沿模型做学术向诗歌导读，扩展 Agent/长文用途想象。",
       "title": "用 Claude Fable 5.1 做《荒原》多路径注释导读",
       "summary": "AI 也很适合探索远离编程的主题。作者让 Claude Fable 5.1 为艾略特诗作《荒原》做了一份带注释的导读：多条阅读路径、录音与学术资料等，效果令他印象深刻。",
-      "rank": 6
+      "rank": 25
     },
     {
       "id": "2102175146740232238",
@@ -255,7 +785,7 @@
       "section": "指定AI名单",
       "recommend_reason": "Simon Willison 整理 Jev/System One「决策模型」笔记，便于跟读新范式。",
       "summary": "整理了一些关于 Jev 以及新的 system one（决策模型）品类的笔记。",
-      "rank": 7
+      "rank": 26
     },
     {
       "id": "2102166631439053014",
@@ -290,7 +820,7 @@
       "recommend_reason": "一线研究者提醒：可委派写代码，不可委派理解——Agent 时代的工程心智模型。",
       "title": "Chollet：可委派编码，不可委派理解",
       "summary": "可以委派写代码，永远不要委派理解。如果代码曾是你管理理解的真相来源，那你需要一套新的、人工制品级的真相来源。",
-      "rank": 8
+      "rank": 27
     },
     {
       "id": "2102159548366881196",
@@ -335,7 +865,7 @@
       "recommend_reason": "把「对话模型」与「系统内决策模型」分开讨论，契合企业落地痛点。",
       "title": "Latent Space：Jev 与 System One——可靠决策取代 chat-first",
       "summary": "播客邀请 TypeSafe/Jev 团队讲解 RLCD、intelligence/$、可靠 AI，以及为何从「聊天优先」转向软件内部可靠决策；讨论公开基准的局限与产品取舍。",
-      "rank": 9
+      "rank": 28
     },
     {
       "id": "2102147831519666639",
@@ -365,7 +895,7 @@
       "recommend_reason": "Devin 官方评测口径：Grok 4.7 在硬后端工程任务表现突出。",
       "title": "Devin 接入 Grok 4.7，FrontierCode Extended 59.4%",
       "summary": "Cognition 宣布 Devin 已支持 Grok 4.7。在 FrontierCode 1.1 Extended 上得分 59.4%；其评测认为该模型在困难后端工程任务上表现很好。",
-      "rank": 10
+      "rank": 29
     },
     {
       "id": "2102138582324625780",
@@ -395,7 +925,7 @@
       "recommend_reason": "不只发模型，还把 RL 环境与框架一并交出，复现门槛明显降低。",
       "title": "MiMo-V2.6 同步开源蒸馏版、报告、7K+ RL 环境与训练框架",
       "summary": "小米进一步说明开源包：Pro/Flash 权重、MiMo-V2.6-Distill-Qwen-9B、技术报告、7000+ RL 任务环境、端到端 RL 框架与可组合 mini-harness，方便复现与二次开发。",
-      "rank": 11
+      "rank": 30
     },
     {
       "id": "2102138559952290106",
@@ -426,7 +956,7 @@
       "recommend_reason": "当日最重要的开源模型发布之一，AA 开源榜首且全模态+大规模 RL 可复现。",
       "title": "小米开源 MiMo-V2.6：Pro/Flash 全模态，AA 指数 46 登顶开源",
       "summary": "小米发布并开源 MiMo-V2.6 Pro 与 Flash 两款全模态模型：强调规模化强化学习；称 Pro 在多数 Agent 基准上可比 Claude Opus 5 与 GPT-5.6 Sol，Artificial Analysis Intelligence Index 得 46（开源最高）；同步强化编程、计算机使用、3D 推理与创意能力，并开放权重、技术报告、RL 环境与训练代码。",
-      "rank": 12
+      "rank": 31
     },
     {
       "id": "2102093145051943229",
@@ -451,7 +981,7 @@
       "recommend_reason": "闭源实验室开始把「证明如何发布」当成治理问题，影响后续科研协作节奏。",
       "title": "OpenAI 成立独立数学顾问组，规范 AI 数学成果披露",
       "summary": "OpenAI 宣布与独立数学家顾问组合作，指导如何评估与沟通新的数学成果、维护学术标准，并打造支持数学研究与学习的工具，希望数学家参与塑造 AI 如何服务数学理解与社区。",
-      "rank": 13
+      "rank": 32
     },
     {
       "id": "2102076478183907705",
@@ -481,7 +1011,7 @@
       "recommend_reason": "长上下文与 Agent 推理的系统层加速，直接影响百万级上下文可服务性。",
       "title": "LMSYS：SGLang 上 NVFP4 KV Cache，长上下文解码最高+78%",
       "summary": "LMSYS 与阿里 Qwen、NVIDIA 合作，在 Blackwell 上为 SGLang 引入 NVFP4（约 4bit）KV Cache：每 token 显存约 FP8 的 56%，在 32K/160K/1M 上下文解码吞吐分别约 +37%/+58%/+78%，GPQA/AIME 精度接近 FP8，并改善 Agent 场景缓存命中。",
-      "rank": 14
+      "rank": 33
     },
     {
       "id": "2102074909623271513",
@@ -511,7 +1041,7 @@
       "recommend_reason": "把「模型+官方 Agent 套件」的编码能力拆开看，避免和统一评测混谈。",
       "title": "AA Coding Agent：Grok Build+4.7 升至 56，三子项全面提升",
       "summary": "Grok Build 搭配 Grok 4.7（xhigh）在 Artificial Analysis Coding Agent Index 得 56（4.6 为 47）。DeepSWE v1.1 65%→73%，Terminal-Bench 4.0 18%→33%，SWE-Atlas-QnA 58%→63%。作者强调这是官方 harness 结果，与统一 harness 的 Intelligence Index 分开解读。",
-      "rank": 15
+      "rank": 34
     },
     {
       "id": "2102074898327932987",
@@ -541,7 +1071,7 @@
       "recommend_reason": "第三方榜单给 Grok 4.7 定调，便于对照同日 MiMo 开源 46 分并列叙事。",
       "title": "AA：Grok 4.7 Intelligence Index 46，xAI 进入前四实验室",
       "summary": "Artificial Analysis 评测显示 Grok 4.7 在 Intelligence Index 得到 46 分，使 SpaceXAI/xAI 进入前四 AI 实验室；Coding Agent Index 亦提升并超过 GPT-5.6 Sol。文中说明以 xhigh 推理档评估，并强调在 agentic knowledge work 上的表现。",
-      "rank": 16
+      "rank": 35
     },
     {
       "id": "2102073752142090367",
@@ -571,7 +1101,7 @@
       "recommend_reason": "创意工具链通过 MCP 接入 Agent 工作流，资产生成与视频管线可编排。",
       "title": "Krea Agent 支持 MCP：资产生成与视频管线可编排",
       "summary": "Krea Agent 现已通过 MCP 提供：可在 Agent 工作流中直接生成资产、自动化视频管线并做创意迭代。",
-      "rank": 17
+      "rank": 36
     },
     {
       "id": "2102073186330578989",
@@ -601,7 +1131,7 @@
       "recommend_reason": "聚合路由侧第一时间上线 Grok 4.7，方便对比 CursorBench/性价比入口。",
       "title": "OpenRouter 上线 Grok 4.7：编程与知识工作性价比前沿",
       "summary": "OpenRouter 上线 SpaceXAI 的 Grok 4.7：称其在编程与知识工作上最强，更能在难题上坚持并自检，并在 CursorBench 4.0 性价比前沿。现已可调用。",
-      "rank": 18
+      "rank": 37
     },
     {
       "id": "2102070383398502862",
@@ -631,7 +1161,7 @@
       "recommend_reason": "Agent 安全从「模型更听话」转向「系统默认不可信」，工程落地参考价值高。",
       "title": "DeepLearning.AI：Meta Muse 把 Agent 安全做在操作系统层",
       "summary": "文章强调防 prompt injection 不能只靠模型训练。Meta 的 Muse Agent 假设模型会被骗，改为 OS 级安全：模型不接触真实凭证、工具跑在隔离 Linux 容器、独立门卫校验出站调用。",
-      "rank": 19
+      "rank": 38
     },
     {
       "id": "2102069815225586149",
@@ -658,10 +1188,10 @@
       ],
       "recommend_reason": "xAI 官方宣告 Grok 4.7：同价同速相对 4.6 的代际升级起点。",
       "summary": "Grok 4.7 发布。相对 Grok 4.6，在同价同速下有明显提升。",
-      "rank": 20
+      "rank": 39
     }
   ],
-  "generated_at": "2026-09-22T04:53:43Z",
+  "generated_at": "2026-09-22T17:50:00Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -669,13 +1199,13 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 20,
-    "last_batch_added": 20,
+    "actual_count": 39,
+    "last_batch_added": 19,
     "last_batch_skipped_dup": 0,
-    "last_batch_skipped_author": 0,
+    "last_batch_skipped_author": 1,
     "last_batch_skipped_day_cap": 0,
     "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
     "short_tweet": {
