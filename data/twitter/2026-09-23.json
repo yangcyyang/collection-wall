@@ -1,0 +1,997 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-23",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2102598421106286704",
+      "author": "dugujun12",
+      "bio": "10年大厂运营，教育电商实战，出过畅销书。\n现在用 AI 做内容和本地工作流。\n这里公开提示词、起号复盘和失败案例。\n公众号/小红书/知乎/抖音/视频号账号：搜索“独孤菌”。\n自研 DOWORK：本地AI工作助手\nhttps://t.co/GvszyN3kBU",
+      "text": "先问号还在不在。再问订谁。\n\n1. 能订 Claude，号不封：规划 Fable 5.1，执行 Opus 5.5。讨厌它也可以订，号得留得住。\n2. Claude 封了，还能订海外：订 GPT。模型比 Claude 短一截。C 端、聊天额度、Codex 还在。规划 Astra，或邪修 Pro。执行 Astra high，或 5.6 Sol xhigh。批量用 Luna。\n3. 只能国产：Qwen、Kimi、GLM、MiMo、DeepSeek，没有断代。规划 Kimi K3、Qwen 3.8 Max。执行 GLM-5.3、MiMo v2.6 Pro、DeepSeek V4.1 Flash。\n\n我的窗不变：决策 Claude，开发 Codex，写作 Kimi，兜底 GLM。没招了才 DeepSeek。\n\n三档是能订上谁。分窗是订上之后活怎么分。",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 1,
+      "views": 126,
+      "created_at": "Wed Sep 23 03:18:22 +0000 2026",
+      "url": "https://x.com/dugujun12/status/2102598421106286704",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "给出订购约束下的选型：能稳定订 Claude 则规划 Fable、执行 Opus 5.5；Claude 不稳则走 GPT（规划 Astra/邪修 Pro，执行 Astra high 或 5.6 Sol xhigh，批量 Luna）；只能国产则规划 Kimi K3/Qwen 3.8 Max，执行 GLM-5.3、MiMo v2.6 Pro、DeepSeek V4.1 Flash。作者自身仍是决策 Claude、开发 Codex、写作 Kimi、兜底 GLM。",
+      "recommend_reason": "把选型从「谁最强」改成「你账号还在不在」，对国内用户更可执行。",
+      "tags": [
+        "选型",
+        "Claude",
+        "GPT",
+        "国产模型"
+      ],
+      "score": 53.382,
+      "title": "按「能订上谁」分三档选模型：Claude / 海外 GPT / 国产组合",
+      "rank": 1
+    },
+    {
+      "id": "2102596393332576667",
+      "author": "lxfater",
+      "bio": "我在用 AI 协助我创业， 维护 3w star 项目，写过 1200w 浏览文章，商务联系： 微信：tiechuiren101，邮件：lxfater@gmail.com",
+      "text": "Codex 做游戏，现在真的有点离谱了。\n\n我整理了 8 个游戏开发方向的 Agent Skill。生成素材、写玩法、做界面、调手感，再到多人联机，基本把一个游戏开发团队的分工凑齐了！！\n\n1. higgsfield-websites：生成游戏素材，搭建和部署浏览器游戏。\n\n2. game-engine：搞定游戏循环、物理碰撞和 2D / 3D 渲染。\n\n3. game-developer：负责 Unity / Unreal 玩法开发和性能优化。\n\n4. game-ui-design：设计菜单、血条、背包，让游戏界面像点样子。\n\n5. game-design-theory：设计玩法、难度和奖励，解决“能跑但不好玩”。\n\n6. game-feel：加上打击反馈、屏幕震动和音效，让游戏玩起来更爽。\n\n7. multiplayer-game（历史版）：处理玩家匹配、房间和实时状态同步。\n\n8. develop-web-game（OpenAI 历史版）：让 Codex 边写边测试，看截图、查报错、修 Bug。\n\n假如你觉得用这些 Skill 做游戏还是太麻烦，可以看看下面这个产品👇🏻",
+      "likes": 17,
+      "retweets": 4,
+      "replies": 7,
+      "views": 1823,
+      "created_at": "Wed Sep 23 03:10:19 +0000 2026",
+      "url": "https://x.com/lxfater/status/2102596393332576667",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS3rYyCbEAAknR1.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS3rYyCbEAAknR1.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2102574153341825275",
+        "author": "lxfater",
+        "name": "铁锤人",
+        "text": "用 GPT-6 Sol 生成了一个 3D 滑雪小游戏，我感觉自己能玩一天。\n\n这个游戏麻雀虽小，但五脏俱全：\n1. 七八种道具和多种坐骑，每局都能收集、升级和组合\n2. 滑雪、跳跃、空翻、加速一气呵成，操作简单但很上头\n3. 雪山场景会不断变化，还有障碍、追逐和随机事件\n4. 不仅能单人无限挑战，还支持在线双人实时竞速\n\n当然，我技术没有这么牛逼，又会建模，又会写联机服务和部署。\n\n3D 模型、音效 BGM、联机服务、部署，全是 @CombosFun_AI 的 Combos CLI 帮忙做的！！\n\n现在，任何人都能做出一款游戏，并把它发布到网上的时代真的来了！！\n\n不多说了，直接看成品吧👇🏻  游戏链接和 Combos CLI 安装地址我放评论区了。",
+        "created_at": "Wed Sep 23 01:41:56 +0000 2026",
+        "url": "https://x.com/lxfater/status/2102574153341825275",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2102573973531992064/vid/avc1/416x270/8DTG86xUnm37j8t5.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2102573973531992064/img/RE6EFuZQaPHNsnip.jpg"
+        ]
+      },
+      "summary": "整理面向 Codex 的 8 个游戏向 Skill：素材/网页部署、引擎循环与渲染、Unity/Unreal 玩法、UI、数值与难度、手感反馈、联机同步、边写边测修 bug，意图用 Skill 拼齐小型游戏团队分工。",
+      "recommend_reason": "具体可检索的 Skill 清单，比空泛「AI 能做游戏」更利于立刻试用。",
+      "tags": [
+        "指定AI名单",
+        "Codex",
+        "AgentSkill",
+        "游戏开发",
+        "工具链"
+      ],
+      "section": "指定AI名单",
+      "score": 64.401,
+      "title": "用 8 个 Agent Skill 拼出 Codex「游戏开发小队」：素材到联机全覆盖",
+      "rank": 2
+    },
+    {
+      "id": "2102582933148356780",
+      "author": "MaiYangAI",
+      "bio": "@SpaceXAI Ambassador｜Grok @bot 重度患者\nBuild in Public ｜ContextEcho iOS 作者\n播客重度听众｜Grok Bot 中文社区 ｜Go 夜读",
+      "text": "昨晚两大巨头 Anthropic 和 OpenAI 几乎同时把 API token 降价一半。\n\nClaude Opus 5.5，输入从 $5 到 $4，输出从 $25 到 $20，缓存读从 $0.50 到 $0.20。官方说典型负载比 Opus 5 大概省四成，输出也更快。\n\nGPT-6 Sol / Luna，相对 GPT-5.6 促销价再砍一半左右。Sol 从 $4/$20 到 $2/$10；Luna 从 $0.20/$1.20 到 $0.10/$0.50。\n\n肯定又要重置了！\n\n同一晚两家都在打「更便宜也能干活」这一仗。刚刚才说要慢下来，反手就发大招，而且还降价。\n\n配图是前后价对照。\n\n原文在这里 https://t.co/jVsZABV8lc https://t.co/auzoRgmQ0X",
+      "likes": 1,
+      "retweets": 0,
+      "replies": 2,
+      "views": 112,
+      "created_at": "Wed Sep 23 02:16:50 +0000 2026",
+      "url": "https://x.com/MaiYangAI/status/2102582933148356780",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS3f929bsAALutC.jpg",
+        "https://pbs.twimg.com/media/HS3f-oVasAALC8U.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS3f929bsAALutC.jpg",
+        "https://pbs.twimg.com/media/HS3f-oVasAALC8U.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "整理 Anthropic 与 OpenAI 几乎同时大幅下调 API token 价：Opus 5.5 输入/输出/缓存读分别调至约 $4/$20/$0.20，官方称典型负载较 Opus 5 约省四成；GPT-6 Sol/Luna 相对 5.6 促销价再砍约一半。配图为前后价对照。",
+      "recommend_reason": "把官宣拆成可粘贴的价目卡，方便立刻改预算表；也点出「刚说放缓又发大招」的节奏。",
+      "tags": [
+        "定价",
+        "Opus5.5",
+        "GPT-6",
+        "API"
+      ],
+      "score": 58.657,
+      "title": "同晚双巨头砍价：Opus 5.5 与 GPT-6 Sol/Luna 价目对照",
+      "rank": 3
+    },
+    {
+      "id": "2102569821997346912",
+      "author": "Alibaba_Qwen",
+      "bio": "Open foundation models for AGI.",
+      "text": "Thanks @arena for the recognition! 🏆 Qwen-Image-2.1 is now the #1 open-source model in both the Image Edit and Text-to-Image Arenas. Try it now and show us what you create! 🎨",
+      "likes": 173,
+      "retweets": 9,
+      "replies": 17,
+      "views": 16596,
+      "created_at": "Wed Sep 23 01:24:44 +0000 2026",
+      "url": "https://x.com/Alibaba_Qwen/status/2102569821997346912",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2102416020678008986",
+        "author": "arena",
+        "name": "Arena.ai",
+        "text": "Qwen-Image-2.1 by @Alibaba_Qwen just landed as the #1 open source model in the Image Edit Arena and Text-to-Image Arena!\n\nWith 1367 pts in the Image Edit Arena, Qwen-Image-2.1 took the #1 spot among open. It landed #16 overall, just 3 pts from GPT-Image-1.5-high-fidelity at #15.\n\nSee the leaderboard for the Text-to-Image arena below.\n\nCongrats to the @Alibaba_Qwen team on this contribution to the open source ecosystem!",
+        "created_at": "Tue Sep 22 15:13:34 +0000 2026",
+        "url": "https://x.com/arena/status/2102416020678008986",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HS1G--pbsAAgJiy.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HS1G--pbsAAgJiy.jpg"
+        ]
+      },
+      "summary": "感谢 @arena 的认可！🏆 Qwen-Image-2.1 现已成为 Image Edit 与 Text-to-Image 两大 Arena 的开源第一。快来试试并展示你的作品！🎨",
+      "recommend_reason": "官方确认 Arena 双榜开源第一，给本场生图话题一个权威结果锚点。",
+      "tags": [
+        "指定AI名单",
+        "Qwen",
+        "Qwen-Image",
+        "Arena",
+        "开源"
+      ],
+      "section": "指定AI名单",
+      "score": 62.915,
+      "rank": 4
+    },
+    {
+      "id": "2102566868028686799",
+      "author": "taiyo_ai_gakuse",
+      "bio": "AI Agent領域で大阪万博登壇。AIエージェント専門受託開発 / X運用代行はDMまで / https://t.co/RIpQYkI3ep MCP展開中。 / 大学生",
+      "text": "Opus 5.5がワンショットでブレイクダンスしながら他のAIモデルを煽り倒すというアニメーションを作ったきたw\n\n全てJavascript。動画生成AIなし。プロンプト？はリプに貼っとく https://t.co/HVijV4rypV",
+      "likes": 30,
+      "retweets": 2,
+      "replies": 1,
+      "views": 5374,
+      "created_at": "Wed Sep 23 01:12:59 +0000 2026",
+      "url": "https://x.com/taiyo_ai_gakuse/status/2102566868028686799",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2102566330511847424/vid/avc1/480x270/RdG_eVJZwoYtGMe7.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102566330511847424/img/ExJJm9u7GYLMjV54.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "用 Opus 5.5 一镜做出了边跳霹雳舞边狂嘲其他 AI 模型的动画 w\n\n全部是 JavaScript。没有用视频生成 AI。提示词？我贴在回复里。",
+      "recommend_reason": "展示 Opus 5.5 在创意前端/动画代码上的 one-shot 能力，比纯文字吹捧更直观。",
+      "tags": [
+        "指定AI名单",
+        "Opus5.5",
+        "JavaScript",
+        "创意编程",
+        "演示"
+      ],
+      "section": "指定AI名单",
+      "score": 61.909,
+      "rank": 5
+    },
+    {
+      "id": "2102546962809528325",
+      "author": "MaiYangAI",
+      "bio": "@SpaceXAI Ambassador｜Grok @bot 重度患者\nBuild in Public ｜ContextEcho iOS 作者\n播客重度听众｜Grok Bot 中文社区 ｜Go 夜读",
+      "text": "又一条能直接拿走的 Grok Bot 现场。\n\n@mattyp 让 @bot 管他的 YouTube。从草稿里把 MP4 拉下来，用 AssemblyAI 转录，再按他自己的品牌声线填标题、描述和时间戳，连 Figma 里的缩略图也能管。他把流程做成了模板，方便别人一键加进自己的 Bot。\n\n做视频的人如果还在手填这些收尾，这条值得看完。中英双语硬字幕。\n\n我后面也会继续把这类能落地的 Grok Bot 现场经验找出来，分享给大家。\n\n原帖：https://t.co/014uhhoFn0\nBot template：https://t.co/yCEKZ7nrSb",
+      "likes": 3,
+      "retweets": 0,
+      "replies": 0,
+      "views": 475,
+      "created_at": "Tue Sep 22 23:53:54 +0000 2026",
+      "url": "https://x.com/MaiYangAI/status/2102546962809528325",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2102546784882991104/vid/avc1/480x270/gLWdYaXejWYaR_z1.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102546784882991104/img/RgA2tW47VUCzcAUq.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2102399632559177874",
+        "author": "mattyp",
+        "name": "matt palmer",
+        "text": "@bot Here's the template: https://t.co/oAjoUvBLzW",
+        "created_at": "Tue Sep 22 14:08:27 +0000 2026",
+        "url": "https://x.com/mattyp/status/2102399632559177874",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": [],
+        "card": {
+          "name": "summary_large_image",
+          "title": "Media Manager by Matt",
+          "description": "Owns a YouTube channel's post-upload work: transcribe, captions, chapter timestamps, titles, descriptions, and thumbnails so you never open YouTube...",
+          "image_url": "https://pbs.twimg.com/card_img/2102399674997235712/OLYzg4fa?format=jpg&name=600x600",
+          "url": "https://x.ai/bot/qG_ZROllzSSRGKx_iIbsQ?utm_source=youtube&utm_medium=video&utm_campaign=media_manager",
+          "domain": "x.ai"
+        }
+      },
+      "summary": "转述 mattyp 演示：让 Grok Bot 从草稿拉 MP4、用 AssemblyAI 转录，再按品牌声线填标题/描述/时间戳，并可管 Figma 缩略图；流程已做成模板方便一键加入自己的 Bot。",
+      "recommend_reason": "内容创作者可直接套用的 Bot 工作流，比单纯晒模型发布更贴近落地。",
+      "tags": [
+        "GrokBot",
+        "YouTube",
+        "自动化",
+        "模板"
+      ],
+      "score": 58.708,
+      "title": "可拿走的 Grok Bot 模板：自动管 YouTube 标题、字幕时间戳与缩略图",
+      "rank": 6
+    },
+    {
+      "id": "2102546341067190513",
+      "author": "LufzzLiz",
+      "bio": "Al 创作者•LLM 爱好者•Al Agent 构建者\nAI 生视频•AI 生图\n输出有温度的洞察。 致力于降低 AI 使用门槛，让更多人受益。\n某大厂架构师-多模态、模型私有化领域\n企业 AI方案设计• FDE\n关注AI产品、AI结合教育、艺术创作领域\n📮: lanshulan007@gmail.com",
+      "text": "卧槽，Unsloth 把 Qwen-Image-2.1 的显存门槛打下来了，主流电脑基本都能跑。按 Unsloth 的估算，N 卡 12GB、Apple Silicon 12–16GB 统一内存就能起步。\n\n不同机器怎么选，我整理在图里。\n\n最容易白折腾的几个坑：\n\n1. 只下了 GGUF，跑不起来\nGGUF 只是去噪器，还得配两个文件，三件套合计约 10GB：\n- 去噪器 qwen-image-2.1-Q4_K_M.gguf（4.20GB）\n- VAE qwen_image_2.1_vae_bf16.safetensors（0.68GB）\n- 文本编码器 Qwen3-VL-8B-Instruct-UD-Q4_K_XL.gguf（5.15GB）\nVAE 必须用 2.1 这版，旧版 Qwen-Image、Wan 2.2 的都不通用。\n\n2. 按文件格式配参数，出图很烂，还以为模型不行\n参数看你用什么软件跑，不看文件后缀：\n- Unsloth（N 卡）/ diffusers：40 步，CFG 1.0（等于关掉），采样器用模型自带的\n- stable-diffusion.cpp：20 步，CFG 6.0，Euler\n\n3. 以为 FP8 更先进，结果画质更差（N 卡用户看这条）\nUnsloth 自己测的 LPIPS（越低越好）：INT8 均值 0.064，FP8 是 0.112；最差的一张 0.167 对 0.329。体积只差 0.14GB，所以 Unsloth 默认用 INT8。\n\n4. 按下载量挑仓库\nHF 上搜 Qwen-Image-2.1 GGUF，下载量靠前的多是第三方，还有去审查改版，没人背书。认准 unsloth、leejet（sd.cpp 作者）、Qwen 官方、Comfy-Org。\n\n另外：\n- Unsloth Desktop 目前只开放文生图。要编辑、多图参考、透明图，用 stable-diffusion.cpp，文档里有现成用法。\n- 长宽都要能被 32 整除，Unsloth 每边最大 2048，先从 1024×1024 起步。\n- 许可证是 Qwen Research License，只允许研究和评估用，商用得单独向官方申请授权。",
+      "likes": 48,
+      "retweets": 4,
+      "replies": 7,
+      "views": 6561,
+      "created_at": "Tue Sep 22 23:51:25 +0000 2026",
+      "url": "https://x.com/LufzzLiz/status/2102546341067190513",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS28b4ka8AALYg8.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS28b4ka8AALYg8.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2102431304591761728",
+        "author": "UnslothAI",
+        "name": "Unsloth AI",
+        "text": "Qwen-Image-2.1 can now run locally on 12GB VRAM with Unsloth GGUFs! 🖼️\n\nThe 7B model performs on par with Nano Banana 2.0.\n\nFor higher quality, you can also run Dynamic FP8 on just 6GB of VRAM via offloading.\n\nGGUF: https://t.co/gRDt6cJWfe\nGuide: https://t.co/Xijw16FKqd https://t.co/NlGHvVf8Cx",
+        "created_at": "Tue Sep 22 16:14:18 +0000 2026",
+        "url": "https://x.com/UnslothAI/status/2102431304591761728",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HS1Vuh3bMAEBC4A.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HS1Vuh3bMAEBC4A.jpg"
+        ]
+      },
+      "summary": "介绍 Unsloth 估算下 Qwen-Image-2.1 可在约 12GB 显存/Apple 12–16GB 统一内存起步；强调 GGUF 需配齐去噪器+VAE+文本编码器约 10GB、参数按运行器而非后缀设置、N 卡优先 INT8 而非 FP8，并提醒认准可靠仓库。",
+      "recommend_reason": "开源生图落地帖：门槛数字 + 可复现踩坑清单，比单纯「模型登顶」更有操作价值。",
+      "tags": [
+        "指定AI名单",
+        "Qwen-Image",
+        "Unsloth",
+        "本地部署",
+        "显存"
+      ],
+      "section": "指定AI名单",
+      "score": 64.476,
+      "title": "Unsloth 拉低 Qwen-Image-2.1 门槛：12GB 级显存可起步，附常见踩坑",
+      "rank": 7
+    },
+    {
+      "id": "2102543349102338309",
+      "author": "bcherny",
+      "bio": "Claude Code @anthropicai",
+      "text": "I used Opus 5.5 to formally verify the Claude Agent SDK using Lean. A couple short prompts = 16 PRs fixing various bugs and race conditions. Video attached.\n\nTLA+ also works well. I sometimes combine Lean and TLA+ to look for issues around data flow, concurrency, and state mgmt.\n\nI don't know either language well, but Claude is excellent at both. This approach is super useful for formally modeling your code and finding bugs that a human probably wouldn't have spotted.\n\nIs formal verification the future of coding (or at least, bug finding)?",
+      "likes": 2555,
+      "retweets": 114,
+      "replies": 220,
+      "views": 305882,
+      "created_at": "Tue Sep 22 23:39:32 +0000 2026",
+      "url": "https://x.com/bcherny/status/2102543349102338309",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2102541708466769920/vid/avc1/356x270/QNaZcGfqcOKQN872.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102541708466769920/img/ABKuuvJapKhLmPNe.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "Claude Code 负责人分享：用 Opus 5.5 以 Lean 形式化验证 Claude Agent SDK，少量提示即生成约 16 个修复竞态与各类 bug 的 PR；也可结合 TLA+ 查数据流/并发/状态问题，认为形式化验证或成找 bug 新常态。",
+      "recommend_reason": "不是又一次「模型很强」口号，而是可复现的工程路径：LLM + 形式化方法扫 Agent SDK 缺陷。",
+      "tags": [
+        "指定AI名单",
+        "Claude",
+        "形式化验证",
+        "Lean",
+        "AgentSDK"
+      ],
+      "section": "指定AI名单",
+      "score": 75.062,
+      "title": "用 Opus 5.5 + Lean 形式化验证 Claude Agent SDK，短提示产出 16 个修 bug PR",
+      "rank": 8
+    },
+    {
+      "id": "2102543174992527674",
+      "author": "KinGao476942",
+      "bio": "SpaceXAI 官方认证大使；Grok bot 重度患者，专注研究AI 和自媒体；接AI企业培训/顾问，199 进答疑群➕V：15917166191",
+      "text": "卧槽！AI 成精了！！昨晚睡觉前让几个 Grok bot （产品经理 bot、Claude code 开发 bot、测试工程师 bot、数据 bot）组队，开发一个 Reddit 舆情系统 mvp，醒来后发现他们干了一夜，还在框框干呢，已经开始验收和测试了！然后早上测试工程师 bot 发现有一项验收不通过后报告给产品，然后产品经理就推动 Claude code 马上修改！！长程任务的自动化和多 Agent 协作能力好像提升不少！",
+      "likes": 26,
+      "retweets": 2,
+      "replies": 11,
+      "views": 8380,
+      "created_at": "Tue Sep 22 23:38:50 +0000 2026",
+      "url": "https://x.com/KinGao476942/status/2102543174992527674",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS27oqDbIAArw0B.jpg",
+        "https://pbs.twimg.com/media/HS27oqFaQAAQUcU.jpg",
+        "https://pbs.twimg.com/media/HS27oqPakAA7OX7.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS27oqDbIAArw0B.jpg",
+        "https://pbs.twimg.com/media/HS27oqFaQAAQUcU.jpg",
+        "https://pbs.twimg.com/media/HS27oqPakAA7OX7.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "作者睡前让产品经理/Claude Code 开发/测试/数据等多个 Grok Bot 组队开发 Reddit 舆情系统 MVP，醒来仍在推进；测试 Bot 发现验收项不过后报给产品，产品再推动开发 Bot 立刻修改，体现长程任务与多 Agent 协作提升。",
+      "recommend_reason": "少见的「真实通宵协作」现场，比空谈多 Agent 更能看出 Bot 编排是否真能闭环。",
+      "tags": [
+        "GrokBot",
+        "Agent",
+        "长程任务",
+        "MVP"
+      ],
+      "score": 61.183,
+      "title": "多 Grok Bot 组队通宵做 Reddit 舆情 MVP：验收不通过还能自动回流修改",
+      "rank": 9
+    },
+    {
+      "id": "2102533109778718759",
+      "author": "oran_ge",
+      "bio": "Cola/ListenHub 创始人 & CEO | ex MiniMax 海螺 AI PM",
+      "text": "GPT 6 全系列更新，Sol 和 Luna 价格下降 50%，并且学会了说人话，而 Terra 消失了。\n\nGPT 6 Sol 和 Luna 使用了与 Astra 类似的训练方法，能力更强，对齐更好，价格更低。\n在 AutomationBench中，GPT 6 Sol 的表现超越了 Opus 5 的同时，只用了其 9% 的成本，便宜10倍。\n\nGPT 6 Sol 和 Luna 的语言风格和 Astra 相同，表达更清晰，黑话更少，言简意赅，减少不必要的细节。\n\nGPT 6 Sol 在 OSWorld 2.0 等某些指标上不如 GPT 5.6 Sol，这是需要注意的。\n\nOpenAI 这次还特别改进了缓存机制，实现了更高的缓存命中率（他们终于学会了ds的技术）\n\n同时 A 社也在今天发布了 Opus 5.5，象征性地降价了 20%，缓存降价了 60%，在 Agent 任务中，综合下降约 40% 。 \n\n我们终于迎来了大模型的大降价时代，感谢竞争，感谢 DeepSeek 和 GLM，请不要停，请继续降。",
+      "likes": 125,
+      "retweets": 6,
+      "replies": 39,
+      "views": 37329,
+      "created_at": "Tue Sep 22 22:58:51 +0000 2026",
+      "url": "https://x.com/oran_ge/status/2102533109778718759",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS2vzdgasAATca7.jpg",
+        "https://pbs.twimg.com/media/HS2we5UaMAABuPI.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS2vzdgasAATca7.jpg",
+        "https://pbs.twimg.com/media/HS2we5UaMAABuPI.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "整理同日更新：GPT-6 Sol/Luna 降价 50%、文风更像 Astra、AutomationBench 上 Sol 超 Opus 5 且成本约其 9%；Terra 退场；OpenAI 强化缓存。Anthropic Opus 5.5 标价约降 20%、缓存降约 60%，Agent 任务综合约省 40%。作者认为大模型已进入持续降价周期。",
+      "recommend_reason": "中文圈少见的双边对照与关键 caveat（如 Sol 在 OSWorld 2.0 部分指标不及 5.6 Sol），适合一次读懂当晚全局。",
+      "tags": [
+        "指定AI名单",
+        "GPT-6",
+        "Opus5.5",
+        "降价",
+        "评测"
+      ],
+      "section": "指定AI名单",
+      "score": 66.016,
+      "title": "同日双发：GPT-6 Sol/Luna 降价 50% + Opus 5.5 综合约省 40%，大模型进入降价年",
+      "rank": 10
+    },
+    {
+      "id": "2102520283618017355",
+      "author": "elonmusk",
+      "bio": "https://t.co/ZdBx5WABYx",
+      "text": "Interesting. Grok 4.7 is performing fairly well for a smallish model.",
+      "likes": 6668,
+      "retweets": 700,
+      "replies": 1058,
+      "views": 2350340,
+      "created_at": "Tue Sep 22 22:07:53 +0000 2026",
+      "url": "https://x.com/elonmusk/status/2102520283618017355",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2102519097770885231",
+        "author": "rauchg",
+        "name": "Guillermo Rauch",
+        "text": "We ran fresh Next.js evals. The tally:\n① Opus 5.5    [𝟿𝟽%]\n② GPT 6 Sol   [𝟿𝟽%]\n③ Fable 5.1     [𝟿𝟽%]\n④ Grok 4.7     [𝟿𝟺%]\n\nNotably, Grok is 2x-7x cheaper",
+        "created_at": "Tue Sep 22 22:03:10 +0000 2026",
+        "url": "https://x.com/rauchg/status/2102519097770885231",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "summary": "有意思。Grok 4.7 作为一个偏小的模型，表现还算不错。",
+      "recommend_reason": "马斯克对本轮小尺寸 Grok 4.7 的公开表态，可与同日两家大模型发布对照阅读。",
+      "tags": [
+        "Grok",
+        "Grok4.7",
+        "xAI",
+        "马斯克"
+      ],
+      "score": 66.4,
+      "rank": 11
+    },
+    {
+      "id": "2102506476401258678",
+      "author": "OpenAIDevs",
+      "bio": "Official updates for developers building with Codex & the OpenAI Platform • Service status: https://t.co/kZwnwdYYEq",
+      "text": "We’ve improved prompt caching in the API for GPT-6, helping agents run faster and cost less.\n\nHigher cache-hit rates by default mean more input tokens benefit from cached-input discounts of up to 90%.\n https://t.co/NZse8QKr8G",
+      "likes": 1134,
+      "retweets": 44,
+      "replies": 55,
+      "views": 55440,
+      "created_at": "Tue Sep 22 21:13:01 +0000 2026",
+      "url": "https://x.com/OpenAIDevs/status/2102506476401258678",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2102461494151852032/vid/avc1/320x320/5vHxPIY5G4GtNT8M.mp4?tag=16"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS1yBjvaYAAyI5C.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "OpenAI 开发者账号称改进 GPT-6 API 的 prompt caching：默认更高缓存命中，使更多输入 token 享受最高约 90% 的缓存输入折扣，利于 Agent 更快更便宜。",
+      "recommend_reason": "降价之外的第二条成本线——缓存命中提升，对长上下文 Agent 账单影响更大。",
+      "tags": [
+        "指定AI名单",
+        "OpenAI",
+        "PromptCaching",
+        "GPT-6",
+        "API"
+      ],
+      "section": "指定AI名单",
+      "score": 76.293,
+      "title": "GPT-6 API 默认提高 prompt cache 命中，缓存输入最高可省约 90%",
+      "rank": 12
+    },
+    {
+      "id": "2102506477764436191",
+      "author": "OpenAIDevs",
+      "bio": "Official updates for developers building with Codex & the OpenAI Platform • Service status: https://t.co/kZwnwdYYEq",
+      "text": "See what’s being reused and what’s preventing cache hits.\n\nTrack cache-hit rates in the new Prompt Caching Dashboard on https://t.co/9eDbe9PbGF. \n\nUse the diagnostics API to identify changes that prevented reuse and estimate how many tokens were affected. https://t.co/M16n4rG1Cl",
+      "likes": 116,
+      "retweets": 4,
+      "replies": 2,
+      "views": 14677,
+      "created_at": "Tue Sep 22 21:13:01 +0000 2026",
+      "url": "https://x.com/OpenAIDevs/status/2102506477764436191",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS2RumpaEAALVgK.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS2RumpaEAALVgK.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "OpenAI 上线 Prompt Caching 仪表盘，可追踪缓存命中率；并提供诊断 API，识别阻止复用的改动及受影响 token 量。",
+      "recommend_reason": "把「会缓存」变成可观测：排查未命中原因对生产 Agent 很关键。",
+      "tags": [
+        "指定AI名单",
+        "OpenAI",
+        "PromptCaching",
+        "可观测性",
+        "API"
+      ],
+      "section": "指定AI名单",
+      "score": 66.65,
+      "title": "Prompt Caching Dashboard：看清复用了什么、为何未命中",
+      "rank": 13
+    },
+    {
+      "id": "2102504221648339170",
+      "author": "poteto",
+      "bio": "Grok @Bot at @SpaceXAI. Shipping with https://t.co/WDB4U1rwmu. React compiler core team, prev cursor, meta, netflix",
+      "text": "the Grok @Bot desktop app just got even faster! we shipped 53 perf fixes over the past few days:  \n\n• reconnecting after a flaky connection: 60s → 0.7s \n• waking your laptop: 23s → 1s \n• switching back to a bot's Computer view: 868ms → 27ms\n• opening a chat with a long code block: 954ms → 228ms\n• the Media tab no longer re-downloads every time: 137MB → 0.7MB\n\nplus smoother sidebar animations, no more jumpy screenshot-heavy chats, and much lower memory usage while idle.\n\nstill more to improve!",
+      "likes": 1611,
+      "retweets": 65,
+      "replies": 130,
+      "views": 72403,
+      "created_at": "Tue Sep 22 21:04:03 +0000 2026",
+      "url": "https://x.com/poteto/status/2102504221648339170",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "Grok Bot 桌面端近几日合并 53 项性能修复：弱网重连由约 60s 到 0.7s，唤醒由 23s 到 1s，切回 Computer 视图与长代码块打开显著加快，Media 标签不再反复下载（约 137MB→0.7MB），并降低空闲内存、平滑侧边栏动画。",
+      "recommend_reason": "官方给出可核对的前后耗时，是本场非模型发布里最扎实的产品工程更新。",
+      "tags": [
+        "GrokBot",
+        "性能",
+        "桌面端",
+        "xAI"
+      ],
+      "score": 74.343,
+      "title": "Grok Bot 桌面端合入 53 项性能修复：重连/唤醒/切视图大幅提速",
+      "rank": 14
+    },
+    {
+      "id": "2102500688047825354",
+      "author": "bindureddy",
+      "bio": "CEO of @abacusai  - a powerful AI Agent and SuperComputer - Build your company on Abacus AI, ex-AWS & Google",
+      "text": "I am sorry, Opus 5.5 is nowhere near Fable 5.1\n\nPlanning to stick with Fable 5.1 for all hard-coding problems.\n\nIt continues to be brilliant 🤷‍♀️",
+      "likes": 297,
+      "retweets": 5,
+      "replies": 37,
+      "views": 29477,
+      "created_at": "Tue Sep 22 20:50:01 +0000 2026",
+      "url": "https://x.com/bindureddy/status/2102500688047825354",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "抱歉，Opus 5.5 离 Fable 5.1 还差得远。\n\n所有硬核编程问题我仍打算继续用 Fable 5.1。\n\n它依旧非常出色 🤷‍♀️",
+      "recommend_reason": "发布日少见的「仍留在 Fable」反方证词，避免只听官宣与一方 bench。",
+      "tags": [
+        "指定AI名单",
+        "Fable 5",
+        "Opus5.5",
+        "评测",
+        "编程"
+      ],
+      "section": "指定AI名单",
+      "score": 63.776,
+      "rank": 15
+    },
+    {
+      "id": "2102466603111551187",
+      "author": "sama",
+      "bio": "The mission of OpenAI is to ensure that AGI benefits all of humanity",
+      "text": "We want the OpenAI API to feature the best model at every price point and to be the best at every modality (text, code, image, video, etc).\n\nAnd then we want you all to come up with great ideas and build them and to get to be happy users. The best ideas will come from you all.",
+      "likes": 7609,
+      "retweets": 272,
+      "replies": 600,
+      "views": 487713,
+      "created_at": "Tue Sep 22 18:34:34 +0000 2026",
+      "url": "https://x.com/sama/status/2102466603111551187",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "我们希望 OpenAI API 在每个价位都有最佳模型，并在文本、代码、图像、视频等每一种模态上都做到最好。然后希望大家想出伟大的点子去实现，并成为开心的用户——最好的点子将来自你们。",
+      "recommend_reason": "Sam 在 GPT-6 发布窗口重申「全价位×全模态最佳」产品哲学，方便对照本轮 Sol/Luna 降价叙事。",
+      "tags": [
+        "指定AI名单",
+        "OpenAI",
+        "SamAltman",
+        "API",
+        "战略"
+      ],
+      "section": "指定AI名单",
+      "score": 73.784,
+      "title": "Sam：OpenAI API 要在每一价位、每一种模态都做到最好",
+      "rank": 16
+    },
+    {
+      "id": "2102463847714247142",
+      "author": "thsottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "text": "GPT-6 Sol and Luna are out. Not only are they a very significant improvement across the board, but also in writing and general \"you know when you try it\" quality. \n\nWe are also permanently reducing the API price by 50% making both of them viable for a ton of new usecases and making your usage go further too, even on the subscriptions.\n\nAnd one more thing. We are loading a banked reset into all accounts of our Plus, Pro and Business users. Let's go!\n\nhttps://t.co/00DRh1sRrO",
+      "likes": 22477,
+      "retweets": 1469,
+      "replies": 2734,
+      "views": 2211040,
+      "created_at": "Tue Sep 22 18:23:37 +0000 2026",
+      "url": "https://x.com/thsottiaux/status/2102463847714247142",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "Introducing GPT-6 Sol and Luna",
+        "description": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+        "image_url": "https://pbs.twimg.com/card_img/2102532885429596160/bVBep6k-?format=jpg&name=800x320_1",
+        "url": "https://t.co/00DRh1sRrO",
+        "domain": "openai.com"
+      },
+      "quoted_tweet": {
+        "id": "2102440619616682120",
+        "author": "thsottiaux",
+        "name": "Tibo",
+        "text": "We have been focusing on efficiency and intelligence for all. \n\nVery proud of the team. Only possible when you have incredible models at the top end of the capability that you can then use to make a big difference in everything else.",
+        "created_at": "Tue Sep 22 16:51:19 +0000 2026",
+        "url": "https://x.com/thsottiaux/status/2102440619616682120",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "summary": "OpenAI 侧宣布 GPT-6 Sol 与 Luna 发布：写作与整体「上手质感」明显提升；API 价格永久下调 50%，并给 Plus/Pro/Business 账户加载 banked reset。",
+      "recommend_reason": "与 Opus 5.5 同日的 OpenAI 主线发布，降价幅度与模型命名变动都值得记一笔。",
+      "tags": [
+        "指定AI名单",
+        "OpenAI",
+        "GPT-6",
+        "GPT-5.6 Sol",
+        "Luna",
+        "降价"
+      ],
+      "section": "指定AI名单",
+      "score": 75.115,
+      "title": "GPT-6 Sol / Luna 上线：全面变强且 API 永久降价 50%，并赠送额度重置",
+      "rank": 17
+    },
+    {
+      "id": "2102448392773435706",
+      "author": "cursor_ai",
+      "bio": "",
+      "text": "Claude Opus 5.5 is now available in Cursor!\n\nIt's the new top model on CursorBench at 57.8% (Max) and costs 40% less per task than Opus 5. https://t.co/TMeNqjClCo",
+      "created_at": "Tue Sep 22 17:22:13 +0000 2026",
+      "likes": 3859,
+      "views": "365406",
+      "url": "https://x.com/i/status/2102448392773435706",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS1lolyaYAApgWP.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS1lolyaYAApgWP.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "Claude Opus 5.5 现已可在 Cursor 中使用！\n\n它以 57.8%（Max）成为 CursorBench 新榜首，且单任务成本比 Opus 5 低约 40%。",
+      "recommend_reason": "编辑器侧第一时间接入并给出自家 bench 数字，方便决定要不要立刻切换默认模型。",
+      "tags": [
+        "指定AI名单",
+        "Cursor",
+        "Opus5.5",
+        "评测",
+        "IDE"
+      ],
+      "section": "指定AI名单",
+      "score": 74.63,
+      "rank": 18
+    },
+    {
+      "id": "2102439872485355547",
+      "author": "perplexity_ai",
+      "bio": "",
+      "text": "Claude Opus 5.5 is now available as the Standard effort level in Perplexity Computer.\n\nOn our WANDR benchmark, it scored 0.610 at $4.13 per task, slightly outperforming Claude Fable 5.1 while costing 67.6% less per task. https://t.co/CHufg6UYYe",
+      "created_at": "Tue Sep 22 16:48:21 +0000 2026",
+      "likes": 354,
+      "views": "25846",
+      "url": "https://x.com/i/status/2102439872485355547",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS1d7AnawAAGl38.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS1d7AnawAAGl38.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "Perplexity 将 Claude Opus 5.5 作为 Computer 的 Standard effort：WANDR 得分 0.610、每任务约 $4.13，略优于 Fable 5.1 且单任务成本低约 67.6%。",
+      "recommend_reason": "第三方产品给出可对比的任务单价与基准，补全「官方降价」之外的真实落地账。",
+      "tags": [
+        "指定AI名单",
+        "Perplexity",
+        "Opus5.5",
+        "WANDR",
+        "评测"
+      ],
+      "section": "指定AI名单",
+      "score": 71.176,
+      "title": "Perplexity Computer 接入 Opus 5.5：WANDR 0.610，单价约 $4.13 更省",
+      "rank": 19
+    },
+    {
+      "id": "2102439069053747549",
+      "author": "bcherny",
+      "bio": "",
+      "text": "Opus 5.5 is a really good model. It's been my daily driver the last few weeks.\n\nWe had Opus 5.5 and Fable 5.1 each port HAProxy from C to Rust. Both passed nearly all of HAProxy's tests, but Opus 5.5 finished in 9.5 hours compared to Fable 5.1's 12 hours, and for 51% less cost.",
+      "created_at": "Tue Sep 22 16:45:10 +0000 2026",
+      "likes": 6552,
+      "views": "399585",
+      "url": "https://x.com/i/status/2102439069053747549",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2102435511222890900",
+        "author": "claudeai",
+        "name": "Claude",
+        "text": "Introducing Claude Opus 5.5, the first model in our new Claude 5.5 family.\n\nIt performs at the level of Claude Fable 5.1 for most tasks, and costs 40% less to run than Opus 5. https://t.co/Q9C2VKQ79f",
+        "created_at": "Tue Sep 22 16:31:01 +0000 2026",
+        "url": "https://x.com/claudeai/status/2102435511222890900",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2102432417352929280/vid/avc1/480x270/9Jdezx-xlIAcbMHK.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HS1aPgYWMAAP9sw.jpg"
+        ]
+      },
+      "summary": "作者让 Opus 5.5 与 Fable 5.1 各自把 HAProxy 从 C 迁到 Rust：两者几乎都通过测试，但 Opus 5.5 用时 9.5 小时对 Fable 的 12 小时，且成本低约 51%；称近期日常主力已是 Opus 5.5。",
+      "recommend_reason": "少见的同任务头对头：速度与成本同时优于 Fable，比口号评测更有说服力。",
+      "tags": [
+        "指定AI名单",
+        "Opus5.5",
+        "Fable 5",
+        "评测",
+        "编程Agent"
+      ],
+      "section": "指定AI名单",
+      "score": 73.783,
+      "title": "Opus 5.5 vs Fable 5.1：同迁 HAProxy 到 Rust，更快且成本约省一半",
+      "rank": 20
+    },
+    {
+      "id": "2102438056293003424",
+      "author": "op7418",
+      "bio": "",
+      "text": "Opus 5.5 来了，他们说这次 Opus 5.5 的大部分能力达到了 Fable 5.1 的水平。\n\n这次居然降价了，比原来的 Opus 5.0 降了一点点，平均任务消耗的金额也降了 40%。\n\n同时增加了 5 小时的使用额度并且重置了。\n\n最重要的是，优化了它的写作和回复问题。\n\n到时候试试看是不是开始说人话了 https://t.co/59QNpoK9nP",
+      "created_at": "Tue Sep 22 16:41:08 +0000 2026",
+      "likes": 51,
+      "views": "22496",
+      "url": "https://x.com/i/status/2102438056293003424",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS1cQTuaQAANCUX.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS1cQTuaQAANCUX.png"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2102435511222890900",
+        "author": "claudeai",
+        "name": "Claude",
+        "text": "Introducing Claude Opus 5.5, the first model in our new Claude 5.5 family.\n\nIt performs at the level of Claude Fable 5.1 for most tasks, and costs 40% less to run than Opus 5. https://t.co/Q9C2VKQ79f",
+        "created_at": "Tue Sep 22 16:31:01 +0000 2026",
+        "url": "https://x.com/claudeai/status/2102435511222890900",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2102432417352929280/vid/avc1/480x270/9Jdezx-xlIAcbMHK.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HS1aPgYWMAAP9sw.jpg"
+        ]
+      },
+      "summary": "Opus 5.5 来了，他们说这次 Opus 5.5 的大部分能力达到了 Fable 5.1 的水平。\n\n这次居然降价了，比原来的 Opus 5.0 降了一点点，平均任务消耗的金额也降了 40%。\n\n同时增加了 5 小时的使用额度并且重置了。\n\n最重要的是，优化了它的写作和回复问题。\n\n到时候试试看是不是开始说人话了",
+      "recommend_reason": "给中文读者的官方信息压缩版，适合快速决定要不要换默认模型。",
+      "tags": [
+        "指定AI名单",
+        "Opus5.5",
+        "Claude",
+        "中文速览",
+        "定价"
+      ],
+      "section": "指定AI名单",
+      "score": 62.081,
+      "rank": 21
+    },
+    {
+      "id": "2102437686967738431",
+      "author": "trq212",
+      "bio": "",
+      "text": "Opus 5.5 is the result of your feedback.  \n\nIt communicates clearly, it's cheaper per token than Opus 5.0 with the intelligence of Fable 5.1, it’s very token efficient and works across every effort level.  \n\nWe're also increasing 5h rate limits &amp; giving you a banked reset.",
+      "created_at": "Tue Sep 22 16:39:40 +0000 2026",
+      "likes": 9822,
+      "views": "520947",
+      "url": "https://x.com/i/status/2102437686967738431",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2102435511222890900",
+        "author": "claudeai",
+        "name": "Claude",
+        "text": "Introducing Claude Opus 5.5, the first model in our new Claude 5.5 family.\n\nIt performs at the level of Claude Fable 5.1 for most tasks, and costs 40% less to run than Opus 5. https://t.co/Q9C2VKQ79f",
+        "created_at": "Tue Sep 22 16:31:01 +0000 2026",
+        "url": "https://x.com/claudeai/status/2102435511222890900",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2102432417352929280/vid/avc1/480x270/9Jdezx-xlIAcbMHK.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HS1aPgYWMAAP9sw.jpg"
+        ]
+      },
+      "summary": "Anthropic 产品侧称 Opus 5.5 吸收用户反馈：表达更清晰、单 token 比 Opus 5.0 更便宜且智能接近 Fable 5.1、token 效率高且适配各 effort；同步提高 5 小时速率限额并赠送 banked reset。",
+      "recommend_reason": "补充官方发布帖未写清的产品细节：限额、重置与「更省 token」卖点，对订阅用户立刻有用。",
+      "tags": [
+        "指定AI名单",
+        "Anthropic",
+        "Opus5.5",
+        "限速",
+        "定价"
+      ],
+      "section": "指定AI名单",
+      "score": 75.639,
+      "title": "Opus 5.5：更便宜、更省 token，并上调 5 小时限额与赠送 banked reset",
+      "rank": 22
+    },
+    {
+      "id": "2102437396663111969",
+      "author": "jinchenma_ai",
+      "bio": "",
+      "text": "做技术的人，从职场出来，无论是干自媒体，还是自己做产品，最忌讳的就是总想着把东西做完美，要不就不敢往外推。\n\n尤其是从大厂出来的同学，因为大厂规训的就是这种标准化、严丝合缝，就是让你不能出错。一旦出错了，人家就有把柄，各种 diss 你。\n\n但到了市场里，运行逻辑完全不一样。\n\n比如你们看 Punk @AdrianPunk115  做她的那个 Skill 的过程。\n\n她一开始应该还没形成体系，也没做成 Skill，就是分享一些长文，里面带着这些内容。后来试了很多方向，发现写图片封面提示词这些内容会火。于是大家建议她，要不要搞个 Skill？她才去做。\n\n所以你看，她是先用长文的形式去验证流量、验证需求，发现能跑通之后，再把它做成产品。\n\n如果她一上来就坐在那儿，自己先弄出十个风格的封面图，做成一个 Skill，然后再去宣传，我觉得 99% 的概率，她不会有现在这样的影响力和曝光。\n\n前面这些小成本的、一点点的试错，以及内容的积累，才是她能做到现在这个程度的关键。做成 Skill，是在这个基础上进一步扩大影响力的一个杠杆。\n\n再举个例子，如果你想做一门付费课程，其实也是一样的。\n\n好多人觉得，所有内容、流程都应该全部准备好了再开始。但其实你只要有一小部分内容，就可以先去宣传。\n\n这个过程中，可以跟感兴趣的人聊一聊，收集一下大家的需求，再不断完善后面的课程内容，甚至可以和学员一起共创。\n\n看到没？这种做事的思路，跟在职场里完完全全是两种行为模式。\n\n这年头，如果你闷在那儿做一个产品、搞点什么技术，你大概率会死得很难看。因为最终你会发现，辛辛苦苦做完，根本就没有流量，扔到公域的汪洋大海里，连个水花都没有。",
+      "created_at": "Tue Sep 22 16:38:31 +0000 2026",
+      "likes": 24,
+      "views": "2575",
+      "url": "https://x.com/i/status/2102437396663111969",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "讨论技术人离开职场后做自媒体/产品常犯的完美主义：以 Punk 做 Skill 为例，先用长文验证流量与需求，跑通后再产品化，而不是一上来打磨十套风格再发布。",
+      "recommend_reason": "发布日喧嚣里难得的「怎么做出东西」方法论，对做 AI 内容/工具的人更有长期价值。",
+      "tags": [
+        "指定AI名单",
+        "产品方法论",
+        "Skill",
+        "内容验证",
+        "创业"
+      ],
+      "section": "指定AI名单",
+      "score": 59.999,
+      "title": "技术人做产品别追求一次完美：先长文验证需求，再沉淀成 Skill",
+      "rank": 23
+    },
+    {
+      "id": "2102435511222890900",
+      "author": "claudeai",
+      "bio": "",
+      "text": "Introducing Claude Opus 5.5, the first model in our new Claude 5.5 family.\n\nIt performs at the level of Claude Fable 5.1 for most tasks, and costs 40% less to run than Opus 5. https://t.co/Q9C2VKQ79f",
+      "created_at": "Tue Sep 22 16:31:01 +0000 2026",
+      "likes": 82628,
+      "views": "15782326",
+      "url": "https://x.com/i/status/2102435511222890900",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2102432417352929280/vid/avc1/480x270/9Jdezx-xlIAcbMHK.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS1aPgYWMAAP9sw.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "推出 Claude Opus 5.5，这是我们新 Claude 5.5 系列的首款模型。\n\n多数任务表现达到 Claude Fable 5.1 水平，运行成本比 Opus 5 低约 40%。",
+      "recommend_reason": "当日 Anthropic 官方首发，定调 Opus 5.5 的能力定位与降价幅度，是后续评测与接入的锚点。",
+      "tags": [
+        "指定AI名单",
+        "Anthropic",
+        "Claude",
+        "Opus5.5",
+        "模型发布"
+      ],
+      "section": "指定AI名单",
+      "score": 79.366,
+      "rank": 24
+    },
+    {
+      "id": "2102433483834503425",
+      "author": "dotey",
+      "bio": "",
+      "text": "最近摸索了一种新的节约 Token 但是效果不错的模式（都是被逼的，Token 太贵）：\n\nFable 写设计方案 -> \n（Loop 开始）\nOpus 执行 -> Advisor（Fable） 验收\n（Loop 结束）\n\n步骤是这样的：\n\n1. 先 Claude 里面设置一下 advisor 为 Fable\n> /advisor fable\n\n这样在使用 Opus，Sonnet 模型的时候，遇事不决它会请教 Fable，可能会有无谓的 Fable 消耗，但还是可以接受也值得\n\n就好比请了个高级工程师当顾问\n\n2. 复杂一点的问题先让 Fable 出方案，最大化利用 Fable 的能力。\n\n就好比你让一个高级工程师写一个技术方案，让普通工程师去执行\n\n3. 方案写好了确认了，让 Opus 去执行，但是执行的时候，加一句提示词：\n\n> 完成后让你的 advisor 验收一下，如果验收有问题就按 advisor 的反馈修复，修复完成后再让 advisor 验收，直到通过 advisor 的验收为止\n\n可以配合 /goal 使用效果更佳\n\n这样 Opus 在实施完成后就会找 Advisor 验收，通过 Advisor 就会给出反馈，然后 Opus 继续修改。\n\n这样的好处就是整个过程你不需要人工去用 Fable 确认—— 以前我就是这么干的，Opus 执行完，我得回到之前 Fable 的会话去让它验收，或者新开一个会话，把文档发给 Fable 验收。\n\n现在 Agent 自己就能形成闭环，不用你自己参与。\n\n就好比你请了个高级顾问，复杂问题找顾问出方案，执行让你的工程师去按照方案执行，每次工程师做完自己去找顾问验收，顾问不仅验收还会告诉工程师哪里不对，然后工程师自己改，不用说每次做完找你，你再找顾问。",
+      "created_at": "Tue Sep 22 16:22:58 +0000 2026",
+      "likes": 441,
+      "views": "50111",
+      "url": "https://x.com/i/status/2102433483834503425",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2084361778377404715",
+        "author": "dotey",
+        "name": "宝玉",
+        "text": "现在我很多复杂一点的任务都是 Fable 5 写方案，Codex 去执行，Fable 5 验收，相对来说可以做出比较靠谱的方案，以及兼顾性价比。具体是这么做的：\n\n1. Fable 5 的产出是技术方案文档（图1）\n\n一方面文档方便批注修改，另一方面文档方便其他 Agent 快速上手\n\n2. 文档确认后在当前先 /compact 一次\n\n这一步不是必要的，但是有好处，因为后续还要在同一会话去验证，/compact 压缩后，节约后续的上下文空间，之所以讨论方案就马上发送 /compact，因为这时候 Prompt Caching 还在，成本低，后面缓存过期了 compact 要贵一点。\n\n3. 把文档交给 Codex （GPT-5.6 Sol xhigh）去执行（图2）\n\n如果任务明显比较复杂，我一般会加上 /goal，这样中间就不需要反复去 continue，一次性把任务完成\n\n4. Codex 完成后让 Fable 验证（图3）\n\n直接告诉 Fable 其他 Agent 已经实施了，让它确认有没有遗漏，或者方向有无偏离。\n\n如果有些遗漏之类的，把 Fable 的反馈发回给 Codex（图4），不需要新开会话，在同一个 Codex 会话，Codex 会根据反馈继续完善。\n\n---\n\n如果用 Opus 5 替代 GPT 5.6 也可以，做法上可以跟上面一样新开会话，用文档传递上下文。\n\n也可以直接让 Fable 5 开 SubAgent 并指定用 Opus 5 模型，并且要求在 SubAgent 完成任务后验证。\n\n但是我执行下来 Opus 5 不如 GPT 5.6 Sol 稳定，也不如 GPT 5.6 Token 耐用，所以宁愿麻烦一点。",
+        "created_at": "Mon Aug 03 19:32:28 +0000 2026",
+        "url": "https://x.com/dotey/status/2084361778377404715",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HO0heGBXYAAFkQf.jpg",
+          "https://pbs.twimg.com/media/HO0iS1bXUAAuWW_.jpg",
+          "https://pbs.twimg.com/media/HO0icJ0WQAAoS_k.jpg",
+          "https://pbs.twimg.com/media/HO0i-FvWsAAt42o.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HO0heGBXYAAFkQf.jpg",
+          "https://pbs.twimg.com/media/HO0iS1bXUAAuWW_.jpg",
+          "https://pbs.twimg.com/media/HO0icJ0WQAAoS_k.jpg",
+          "https://pbs.twimg.com/media/HO0i-FvWsAAt42o.jpg"
+        ]
+      },
+      "summary": "分享省 Token 工作流：设 /advisor fable；复杂事先让 Fable 出方案；再让 Opus 执行并提示「做完让 advisor 验收，不过就按反馈修到过」。配合 /goal 可形成无需人工来回贴会话的闭环。",
+      "recommend_reason": "可直接照做的 Claude 多模型协作配方，切中「模型变强但仍贵」的现实痛点。",
+      "tags": [
+        "指定AI名单",
+        "Claude",
+        "工作流",
+        "Advisor",
+        "省Token"
+      ],
+      "section": "指定AI名单",
+      "score": 65.746,
+      "title": "省 Token 闭环：Fable 出方案 → Opus 执行 → Advisor(Fable) 自动验收",
+      "rank": 25
+    },
+    {
+      "id": "2102427852386054221",
+      "author": "vincemask",
+      "bio": "",
+      "text": "做 Agent 平台的，可以看看 Google 开源的 AX。\n\nAgent 跑起来之后，麻烦才刚开始：代码在哪执行、仓库和工具怎么准备、能访问哪些网络、暂停后怎么接着跑。AX 把这些事情做成了声明式配置，操作方式很有 kubectl 的味道。\n\n四个核心概念很好理解：Task 管沙箱任务，Workspace 准备 Git、MCP 和 Skills，Gateway 限定网络访问，Model 集中管理模型配置。任务还支持 suspend / resume，方便暂停和恢复。\n\n我最关注的是 Workspace：把 Agent 开工前的环境准备写成可复用配置，能少掉很多重复的部署工作。\n\n正在研究 Agent 基础设施，值得读读它的设计。目前部署需要 Kubernetes 和 Agent Substrate，项目也明确提示稳定版前可能有重大破坏性变更，适合先研究、试验。\n\nGitHub 链接放评论区。",
+      "created_at": "Tue Sep 22 16:00:35 +0000 2026",
+      "likes": 7,
+      "views": "359",
+      "url": "https://x.com/i/status/2102427852386054221",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS1Sr4dbcAAQqXK.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS1Sr4dbcAAQqXK.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "summary": "介绍 Google 开源的 Agent 平台 AX：以类似 kubectl 的声明式配置处理执行位置、仓库/工具准备、网络访问与暂停恢复。核心概念含 Task、Workspace（Git/MCP/Skills）、Gateway、Model；目前依赖 Kubernetes 与 Agent Substrate，稳定版前可能有破坏性变更，适合先研究试验。",
+      "recommend_reason": "把视线从「又一个模型」拉回 Agent 基础设施：沙箱与可复用 Workspace 正是平台方真正难的部分。",
+      "tags": [
+        "指定AI名单",
+        "Google",
+        "AX",
+        "Agent基础设施",
+        "开源"
+      ],
+      "section": "指定AI名单",
+      "score": 66.178,
+      "title": "Google 开源 AX：用声明式配置管 Agent 沙箱、Workspace、网关与模型",
+      "rank": 26
+    }
+  ],
+  "generated_at": "2026-09-23T04:41:36Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 26,
+    "last_batch_added": 0,
+    "last_batch_skipped_dup": 20,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
