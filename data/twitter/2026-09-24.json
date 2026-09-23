@@ -1,0 +1,651 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-24",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows -filter:replies (no -filter:nativeretweets) + timeline following + hard_collect watchlist missing",
+    "account": "yangcyyang1",
+    "window_hours": 12,
+    "named_section": "指定AI名单",
+    "hard_collect_empty": [
+      "xai",
+      "ilyasutskever",
+      "suno_ai_"
+    ]
+  },
+  "items": [
+    {
+      "id": "2102884238576296179",
+      "author": "goodside",
+      "bio": "Mostly screenshots of chatbots since 2022.\nFormerly: Google DeepMind, Scale.",
+      "text": "Claude Opus 5.5 (Medium) creates 30s of found footage from someone lost in the part of the Backrooms dedicated to past misshapen results of standard AI art test prompt subjects https://t.co/hOHZTs24Vf",
+      "likes": 17,
+      "retweets": 1,
+      "replies": 3,
+      "views": 886,
+      "created_at": "Wed Sep 23 22:14:06 +0000 2026",
+      "url": "https://x.com/goodside/status/2102884238576296179",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2102883865547231232/vid/avc1/360x270/BcWaHDeVW09pUBYS.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102883865547231232/img/ZfzrrEZjefyNIZ9B.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 66.644,
+      "summary": "Claude Opus 5.5（Medium）生成一段约 30 秒伪纪录片：主角迷失在「Backrooms」里专给历代畸形 AI 绘图测试主题开设的分区。",
+      "recommend_reason": "把模型自我指涉做成短视频实验，直观展示 Opus 5.5 的视频叙事与审美控制力。",
+      "tags": [
+        "指定AI名单",
+        "Claude",
+        "Opus",
+        "AI视频",
+        "提示词"
+      ],
+      "section": "指定AI名单",
+      "rank": 1
+    },
+    {
+      "id": "2102875655004385401",
+      "author": "OpenRouter",
+      "name": "OpenRouter",
+      "text": "Qwen3.8 Max Prime from @Alibaba_Qwen is live on OpenRouter.\n\nA higher-throughput variant of Qwen3.8 Max with the same 2.4T-parameter flagship capabilities: 1M context, text, image, and video input, reasoning with adjustable effort, tool calling, and structured outputs.\n\nUse it here: https://t.co/d5h6rxH0IU",
+      "likes": 45,
+      "retweets": 0,
+      "replies": 3,
+      "views": 3257,
+      "is_retweet": false,
+      "created_at": "Wed Sep 23 21:40:00 +0000 2026",
+      "url": "https://x.com/OpenRouter/status/2102875655004385401",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "quoted_tweet": null,
+      "title": "OpenRouter 上线 Qwen3.8 Max Prime：同能力更高吞吐",
+      "summary": "OpenRouter 宣布 Alibaba Qwen3.8 Max Prime 上线：作为 Qwen3.8 Max 的高吞吐变体，同为约 2.4T 旗舰能力，支持 1M 上下文、图文视频输入、可调推理力度、工具调用与结构化输出。",
+      "recommend_reason": "国产旗舰经由聚合路由立刻可调，关注吞吐变体对成本/延迟敏感场景有用。",
+      "tags": [
+        "指定AI名单",
+        "OpenRouter",
+        "Qwen",
+        "模型上新",
+        "推理"
+      ],
+      "section": "指定AI名单",
+      "rank": 2
+    },
+    {
+      "id": "2102873234819698877",
+      "author": "NousResearch",
+      "bio": "A bunch of nerds making progress\n\nhttps://t.co/vrD0aDIGDQ",
+      "text": "You can now watch your agents work live as Hermes Desktop streams the screen of any bot's screen or session in real time. \n\nWatch it drive a browser, type into a terminal, or open a window. Take over anytime to interact with the Bot Screen or type credentials and seamlessly hand back off when you're done.",
+      "likes": 463,
+      "retweets": 30,
+      "replies": 30,
+      "views": 25917,
+      "created_at": "Wed Sep 23 21:30:23 +0000 2026",
+      "url": "https://x.com/NousResearch/status/2102873234819698877",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2102867916236472320/vid/avc1/320x320/V8xNAkDW3EedBJZO.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102867916236472320/img/S_HPa2X3tjA9ATyA.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 73.782,
+      "title": "Hermes Desktop 支持实时投屏 Bot 屏幕，可随时接管再交还",
+      "summary": "NousResearch 宣布 Hermes Desktop 可实时串流任意 bot 的屏幕/会话：看着它开浏览器、敲终端或窗口操作；需要时可接管输入凭据或手动操作，完成后再无缝交还自动化。",
+      "recommend_reason": "把 agent 可视化与人机接力做成产品能力，对本地/桌面 agent 可观测性很有参考价值。",
+      "tags": [
+        "指定AI名单",
+        "NousResearch",
+        "Hermes",
+        "Agent",
+        "桌面"
+      ],
+      "section": "指定AI名单",
+      "rank": 3
+    },
+    {
+      "id": "2102865595675050010",
+      "author": "ring_hyacinth",
+      "bio": "Artist working with @simonxxoo and #AI\n📮ringhyacinth@gmail.com | DM open.",
+      "text": "Opus 5.5 真的太厉害了！\n\n我将一年前做的《像素上海》的小短片，发给了 Opus 5.5，请他将这个视频制作成一个关于上海的像素游戏，主角小满将在这座城市收集关于 42 段关于上海的记忆。\n\n场景用的是我原片里的像素动画，角色和地图由 Opus 调用 Nano Banana Pro 生成，音乐音效也是他在网页里实时合成的。\n\n试玩：https://t.co/DpESlr0zU7\n\n因为是 one shot, 所以还有许多细节可以优化，但目前我也已经很满意了。\n\n😭太感动了！我还有好多以前做过的短片想做成游戏！",
+      "likes": 18,
+      "retweets": 0,
+      "replies": 2,
+      "views": 870,
+      "created_at": "Wed Sep 23 21:00:02 +0000 2026",
+      "url": "https://x.com/ring_hyacinth/status/2102865595675050010",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2102828439841779712/vid/avc1/480x270/0ywTXn_3v4bJ0efn.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102828439841779712/img/BY2BULPMzQzSA7fT.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 67.714,
+      "title": "用 Opus 5.5 把旧作《像素上海》一键做成可玩像素游戏",
+      "summary": "作者把一年前的《像素上海》短片交给 Opus 5.5，要求做成可玩像素游戏：主角小满在城中收集 42 段上海记忆。场景复用原片像素动画，角色与地图由 Opus 调用 Nano Banana Pro 生成，音乐音效也在网页里实时合成；提供试玩链接，并称 one-shot 仍有细节可打磨。",
+      "recommend_reason": "中文创作者给出可点击试玩的「短片→游戏」闭环，比纯截图更有说服力。",
+      "tags": [
+        "指定AI名单",
+        "Claude",
+        "Opus",
+        "游戏",
+        "创作"
+      ],
+      "section": "指定AI名单",
+      "rank": 4
+    },
+    {
+      "id": "2102861892549279922",
+      "author": "simonw",
+      "name": "Simon Willison",
+      "text": "The new Gemini 3.8 TTS models are super-cheap and can generate conversations between multiple voices (from 2,000+, or you can clone your own) - I built a little UI for it, then had Claude knock up a script where two pelicans debate moving to Pacifica Pier https://t.co/7PFM1ASAOl",
+      "likes": 148,
+      "retweets": 8,
+      "replies": 25,
+      "views": 11918,
+      "is_retweet": false,
+      "created_at": "Wed Sep 23 20:45:19 +0000 2026",
+      "url": "https://x.com/simonw/status/2102861892549279922",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "quoted_tweet": null,
+      "title": "Simon Willison：Gemini 3.8 TTS 便宜还能多角色对话，顺手做了个 UI",
+      "summary": "simonw 实测新 Gemini 3.8 TTS：价格很低，可在 2000+ 音色（或自克隆）间生成多角色对话；他先搭了个小 UI，再让 Claude 写脚本，生成两只鹈鹕辩论是否搬去 Pacifica Pier 的音频。",
+      "recommend_reason": "实用主义评测+可复现小工具，补齐官方/榜单之外的开发者体感。",
+      "tags": [
+        "指定AI名单",
+        "Gemini",
+        "TTS",
+        "simonw",
+        "工具"
+      ],
+      "section": "指定AI名单",
+      "rank": 5
+    },
+    {
+      "id": "2102845044743082216",
+      "author": "ElevenLabs",
+      "name": "ElevenLabs",
+      "text": "ElevenLabs is coming to @Muse.\n\nVoiceovers, soundtracks, and videos are just a message away inside Meta's personal AI agent. https://t.co/qzCSqEGXYx",
+      "likes": 557,
+      "retweets": 38,
+      "replies": 33,
+      "views": 22436,
+      "is_retweet": false,
+      "created_at": "Wed Sep 23 19:38:22 +0000 2026",
+      "url": "https://x.com/ElevenLabs/status/2102845044743082216",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS662ckakAAbd0X.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS662ckakAAbd0X.jpg"
+      ],
+      "quoted_tweet": null,
+      "score": 76.056,
+      "summary": "ElevenLabs 宣布进入 Meta 的个人 AI 代理 Muse：配音、原声与视频可在 Muse 里直接用一句话生成。",
+      "recommend_reason": "语音厂商正式嵌进超级应用代理，说明「对话即多媒体制作」在消费端加速落地。",
+      "tags": [
+        "指定AI名单",
+        "ElevenLabs",
+        "Muse",
+        "语音",
+        "多模态"
+      ],
+      "section": "指定AI名单",
+      "rank": 6
+    },
+    {
+      "id": "2102840851538080172",
+      "author": "claudeai",
+      "bio": "",
+      "text": "You can now discover tools, agents and expert partners on Claude Marketplace. Use it to:\n\n- Add connectors and plugins like Slack and Notion\n- Buy agents and products from companies like Cursor and CrowdStrike\n- Scale with service partners like Accenture and Deloitte https://t.co/S5DrmdUkXu",
+      "created_at": "Wed Sep 23 19:21:42 +0000 2026",
+      "likes": 2693,
+      "views": "264867",
+      "url": "https://x.com/i/status/2102840851538080172",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS7KXGZWYAABcx9.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS7KXGZWYAABcx9.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 74.436,
+      "title": "Claude Marketplace 上线：连接器、第三方 Agent 与交付伙伴一站可发现",
+      "summary": "Anthropic 推出 Claude Marketplace：可添加 Slack/Notion 等连接器与插件；购买 Cursor、CrowdStrike 等公司的 agent/产品；并对接 Accenture、Deloitte 等服务伙伴做规模化落地。",
+      "recommend_reason": "官方把「插件 + 商业 Agent + 咨询交付」做成货架，生态分发路径比散落的 MCP 目录更清晰。",
+      "tags": [
+        "指定AI名单",
+        "Claude",
+        "Marketplace",
+        "生态",
+        "Agent"
+      ],
+      "section": "指定AI名单",
+      "rank": 7
+    },
+    {
+      "id": "2102834402908582112",
+      "author": "emollick",
+      "name": "Ethan Mollick",
+      "text": "There is an abandonware game I loved as a kid called Rescue Raiders.\n\nI asked Claude to create a modern & updated version of the game with new graphics, goals, tech trees, etc. It iterated back-and-forth with critic & art agents until I got this. Its fun! https://t.co/wsXWkQSRkj https://t.co/sA1psJOJMu",
+      "likes": 115,
+      "retweets": 6,
+      "replies": 11,
+      "views": 11664,
+      "is_retweet": false,
+      "created_at": "Wed Sep 23 18:56:05 +0000 2026",
+      "url": "https://x.com/emollick/status/2102834402908582112",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2102833889295097856/vid/avc1/398x270/ZXk49R8p2_2e_0MG.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102833889295097856/img/EuACKIZyX95lVhKM.jpg"
+      ],
+      "quoted_tweet": null,
+      "score": 67.599,
+      "title": "用 Claude 多智能体把童年 abandonware《Rescue Raiders》重做成可玩新版",
+      "summary": "Ethan Mollick 让 Claude 重做儿时喜爱的 abandonware 游戏 Rescue Raiders：更新画面、目标与科技树等，并与 critic/art agents 来回迭代，最终得到可玩版本并分享试玩。",
+      "recommend_reason": "教育/研究向大牛用多智能体做完整游戏重制，展示「长期迭代 + 审美批评环」的用法。",
+      "tags": [
+        "指定AI名单",
+        "Claude",
+        "游戏",
+        "多智能体",
+        "教育"
+      ],
+      "section": "指定AI名单",
+      "rank": 8
+    },
+    {
+      "id": "2102833926788288704",
+      "author": "ArtificialAnlys",
+      "name": "Artificial Analysis",
+      "text": "The Intelligence Index vs Cost per Task Pareto frontier shifted this week with the releases of MiMo-V2.6-Pro, Claude Opus 5.5, GPT-6 Luna, and GPT-6 Sol\n\nTogether they have established eleven new points on the Pareto frontier (driven by different reasoning efforts): five from GPT-6 Luna, one each from MiMo-V2.6-Pro and GPT-6 Sol, and four from Claude Opus 5.5.\n\nGPT-6 Luna (max) scores 37 at $0.068 per task, MiMo-V2.6-Pro scores 46 at $0.13, GPT-6 Sol (max) scores 48 at $1.06, and Claude Opus 5.5 (max with fallback) is the new highest-scoring model at 58 at $5.98.",
+      "likes": 526,
+      "retweets": 33,
+      "replies": 32,
+      "views": 23983,
+      "is_retweet": false,
+      "created_at": "Wed Sep 23 18:54:11 +0000 2026",
+      "url": "https://x.com/ArtificialAnlys/status/2102833926788288704",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/tweet_video/HS7DqXOaoAEvTE3.mp4"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/tweet_video_thumb/HS7DqXOaoAEvTE3.jpg"
+      ],
+      "quoted_tweet": null,
+      "score": 77.203,
+      "title": "智能指数×任务成本帕累托前沿本周被 GPT-6 / Opus 5.5 / MiMo 再次改写",
+      "summary": "Artificial Analysis 指出，本周 MiMo-V2.6-Pro、Claude Opus 5.5、GPT-6 Luna/Sol 共在「智能指数 vs 单任务成本」帕累托前沿上新增 11 个点：Luna 占 5、MiMo 与 Sol 各 1、Opus 5.5 占 4。最高分仍是 Opus 5.5（max+fallback）58 分、约 $5.98/任务；Luna(max) 37 分仅约 $0.068。",
+      "recommend_reason": "用可核对的前沿点位把「谁更强、谁更便宜」钉死，比单看榜单分数更利于选型。",
+      "tags": [
+        "指定AI名单",
+        "评测",
+        "定价",
+        "GPT-6",
+        "Claude",
+        "MiMo"
+      ],
+      "section": "指定AI名单",
+      "rank": 9
+    },
+    {
+      "id": "2102831170299834652",
+      "author": "DarioAmodei",
+      "name": "Dario Amodei",
+      "text": "Today we announced the Claude-led discovery of a molecular machine that we suspect could represent a new gene editing mechanism. Its precise function, biotechnological utility (if any), or level of significance is not yet clear, but at minimum it is work I would have been proud to do as a PhD student. The work was done mostly, though not entirely, by Claude: our life sciences team suggested a broad area of research, Claude read through the literature and a bunch of genome data and discovered something interesting, then Claude proposed experiments to verify the discovery and our team carried them out.\n\nIt’s easy to dismiss this as a one-off or curiosity, but we’ve repeatedly seen a pattern where AI performance in new intellectual domains goes from weak to superhuman in a matter of a few years. In 2023 models struggled to do math at the level of an average high-school student. In 2024 they started to do well on math competitions for the best high-schoolers in the country, in 2025 they started to solve minor open problems, in early 2026 more significant open problems, and in late 2026 they are beginning to solve the top few open problems in all of mathematics. We believe AI for biology is on a similar exponential trend.\n\nThe main difference between biology and mathematics, of course, is that math can be done purely theoretically, while biology requires experimentation. Some have used this to draw the conclusion that AI’s utility in biology will be limited. We think this is wrong. As we’ve demonstrated today, humans can collaborate with AI to perform the experiments, validate key results in a few weeks and, if necessary, work with the AI to iterate on what they find. Eventually it may even be possible for Claude itself to safely perform the experiments by autonomously controlling lab equipment, with appropriate safeguards in place, but we aren’t doing that today (our lab is also a BSL1/BSL2 facility that doesn't handle materials dangerous to humans).\n\nMore broadly, biomedical advancement has many stages — from fundamental biology discoveries, to translational research, to drug discovery, clinical trials, and finally the actual delivery of medicines and health care to patients. We are also interested in these later stages, but even simply accelerating the first stage of fundamental biological discoveries has the potential to speed up and broaden the entire pipeline. Improving our understanding of biology and sharpening biologists’ tools can drive forward all of the later stages, for example by identifying new drug targets, finding new therapeutic modalities, allowing for more precise measurement, and speeding up the experimental loop which itself further accelerates our understanding of biology. This will not in itself speed up clinical trial times, but if it succeeds it could greatly increase the number of promising candidates that go into the pipeline — an increase in throughput even though latency remains.\n\nIn Machines of Loving Grace, I wrote about AI’s potential to “cure most diseases in 5-10 years” — a goal that sounds impossible, but one I believe is just barely possible if AI is applied to every stage of the pipeline. The first step is showing that AI can first help with, and then drive, biological discoveries.\n\nClaude’s discovery is the latest in a line of related prior work that goes back decades, beginning with systems like CRISPR, and continuing with discoveries like the bridge recombinase and VIPR in the past few years. Recently, there has been heightened interest in systems based on reverse transcriptase (RT) enzymes, the enzyme underlying the system Claude identified. And most recently, a Stanford team working independently described a novel RT system with an associated non-coding array that is in some ways similar to the one Claude found, though they are distinct systems that evolved independently from each other. I believe that we’re at the very beginning of finding such systems and developing them into powerful tools for biotechnology.\n\nI’m proud of the resources Anthropic has invested in accelerating the public benefits of AI through the life sciences, and we’re aiming both to grow our life sciences team and to work with other scientists to extend this approach to a broad range of problems. If you have a proposal for a research collaboration or are interested in joining our life sciences team, please reach out.",
+      "likes": 17473,
+      "retweets": 1844,
+      "replies": 843,
+      "views": 2296347,
+      "is_retweet": false,
+      "created_at": "Wed Sep 23 18:43:14 +0000 2026",
+      "url": "https://x.com/DarioAmodei/status/2102831170299834652",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "quoted_tweet": {
+        "id": "2102824959827742916",
+        "author": "AnthropicAI",
+        "name": "Anthropic",
+        "text": "Claude has discovered a previously unknown enzyme system hidden in the DNA of bacteriophages. Beside the enzyme’s gene sits a long array of repeating DNA—a structure that looks somewhat similar to CRISPR.\n\nWe don’t yet understand what this system does, but only a handful of known systems share its features, and all of them are able to cut, copy, and paste DNA. Historically, the discovery of such programmable systems has helped revolutionize medicine. CRISPR, for instance, is now the foundation of genetic medicines. But it will take much more work to learn what this system does, and whether it can be put to similar use.\n\nRead more: https://t.co/RuEosScSMb",
+        "created_at": "Wed Sep 23 18:18:33 +0000 2026",
+        "url": "https://x.com/AnthropicAI/status/2102824959827742916",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": [],
+        "card": {
+          "name": "summary_large_image",
+          "title": "Claude discovers a novel enzyme system",
+          "description": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.",
+          "image_url": "https://pbs.twimg.com/card_img/2102821533777547264/13ZVqt-P?format=jpg&name=800x320_1",
+          "url": "https://t.co/RuEosScSMb",
+          "domain": "www.anthropic.com"
+        }
+      },
+      "title": "Dario：Claude 主导发现疑似新基因编辑分子机器，意义仍待验证",
+      "summary": "Dario Amodei 详述今日官宣：Claude 主导发现一个疑似新的基因编辑分子机器；精确功能与产业价值未明，但他认为至少达到「自己当年读博也会自豪」的工作量。流程大致是生命科学团队给定宽研究方向，Claude 读文献与基因组数据并发现候选，人类再跟进。长文强调谦逊与后续实验必要。",
+      "recommend_reason": "CEO 亲自交代 AI 科研分工边界，比口号式「AI 发现」更值得读。",
+      "tags": [
+        "指定AI名单",
+        "DarioAmodei",
+        "Anthropic",
+        "生命科学",
+        "科研"
+      ],
+      "section": "指定AI名单",
+      "rank": 10
+    },
+    {
+      "id": "2102827887732932956",
+      "author": "AxtonLiu",
+      "bio": "",
+      "text": "Claude Opus 5.5 能把一条真人口播直接改成动画讲解了，效果非常不错。\n\n原片是我 83 秒的纯人像口播。现在主画面换成了线稿动画，我缩到右下角的圆形画中画，原声、字幕、时长一点没动。\n\n条件：干净的 Claude Code，safe mode，effort high，不加载我的任何 Skill，也没给它任何外部素材。线稿是它自己写 Python 一帧帧画的，按字幕切了大约 30 个镜头，用时 28 分 53 秒，全程人工介入 0 次。\n\nPrompt 很简单：\n\n把 short-1.mp4 做成一条新的竖屏短片 short-1-v5.mp4：\n\n1. 我的人像缩小成右下角的圆形画中画，能看清我在讲话，不遮字幕。\n2. 主画面换成一段动画 B-roll，跟着我讲的内容走：我说到哪个概念，画面就画哪个概念。风格轻松有趣，线稿动画就可以，不要写实。\n3. 原声、原字幕、时长都不变。\n\n完整实测视频正在制作中。",
+      "created_at": "Wed Sep 23 18:30:11 +0000 2026",
+      "likes": 30,
+      "views": "1914",
+      "url": "https://x.com/i/status/2102827887732932956",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2102827850864934912/vid/avc1/320x568/7ImeYEF97Q2cVC_o.mp4?tag=16"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102827850864934912/img/gvpyuocSy0AV1hip.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 67.653,
+      "title": "Opus 5.5 零人工介入：口播片自动改成线稿动画讲解",
+      "summary": "作者用干净 Claude Code（safe mode、effort high、无 Skill/无外部素材）把 83 秒纯人像口播改成竖屏动画：人像缩到右下角画中画，主画面按字幕切约 30 个镜头的线稿 B-roll，原声字幕时长不变；模型自写 Python 逐帧绘制，耗时 28 分 53 秒，人工介入 0 次。并公开了简短 prompt。",
+      "recommend_reason": "条件写清楚、prompt 可复用、耗时可核对，是今天最有工程参考价值的 Opus 实操帖。",
+      "tags": [
+        "指定AI名单",
+        "Claude",
+        "Opus",
+        "AI视频",
+        "Claude Code"
+      ],
+      "section": "指定AI名单",
+      "rank": 11
+    },
+    {
+      "id": "2102824959827742916",
+      "author": "AnthropicAI",
+      "bio": "",
+      "text": "Claude has discovered a previously unknown enzyme system hidden in the DNA of bacteriophages. Beside the enzyme’s gene sits a long array of repeating DNA—a structure that looks somewhat similar to CRISPR.\n\nWe don’t yet understand what this system does, but only a handful of known systems share its features, and all of them are able to cut, copy, and paste DNA. Historically, the discovery of such programmable systems has helped revolutionize medicine. CRISPR, for instance, is now the foundation of genetic medicines. But it will take much more work to learn what this system does, and whether it can be put to similar use.\n\nRead more: https://t.co/RuEosScSMb",
+      "created_at": "Wed Sep 23 18:18:33 +0000 2026",
+      "likes": 24505,
+      "views": "10855371",
+      "url": "https://x.com/i/status/2102824959827742916",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "Claude discovers a novel enzyme system",
+        "description": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.",
+        "image_url": "https://pbs.twimg.com/card_img/2102821533777547264/13ZVqt-P?format=jpg&name=800x320_1",
+        "url": "https://t.co/RuEosScSMb",
+        "domain": "www.anthropic.com"
+      },
+      "quoted_tweet": null,
+      "score": 72.433,
+      "title": "Claude 在噬菌体基因组中发现疑似可编程的新酶系统",
+      "summary": "Anthropic 称 Claude 在噬菌体 DNA 中发现一个此前未知的酶系统：酶基因旁有一长段重复 DNA，形态有点像 CRISPR。功能尚未弄清，但已知少数同类系统都能剪切/复制/粘贴 DNA；历史上这类可编程系统曾推动基因药革命。团队强调还需大量后续工作验证是否可用。",
+      "recommend_reason": "实验室级「AI 科学发现」官宣，附谨慎边界，是今天最重磅的研究叙事。",
+      "tags": [
+        "指定AI名单",
+        "Anthropic",
+        "Claude",
+        "生命科学",
+        "科研"
+      ],
+      "section": "指定AI名单",
+      "rank": 12
+    },
+    {
+      "id": "2102819834790908072",
+      "author": "OpenAIDevs",
+      "bio": "",
+      "text": "From figuring out the wiring to debugging “show that on the wall,” @sidrampally shares how he used Codex to turn an LED display into a voice-controlled assistant.\n\nPowered by GPT-Live-1 and a Raspberry Pi, it shows weather, subway arrivals, and more: https://t.co/d6wv1qNHzc",
+      "created_at": "Wed Sep 23 17:58:11 +0000 2026",
+      "likes": 419,
+      "views": "33134",
+      "url": "https://x.com/i/status/2102819834790908072",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2102819806571536384/vid/avc1/480x270/S5ORonbvxu63gFDh.mp4?tag=16"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102819806571536384/img/rUxhsLcrhW5ujP2P.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 71.294,
+      "title": "开发者用 Codex + GPT-Live-1 把 LED 屏做成树莓派语音助手",
+      "summary": "OpenAI DevRel 分享 @sidrampally 案例：借助 Codex，把一块 LED 显示屏做成语音控制助手，跑在树莓派上，由 GPT-Live-1 驱动，可显示天气、地铁到站等信息；从接线到调试「显示到墙上」都靠 agent 协助完成。",
+      "recommend_reason": "具体端到端硬件+语音 demo，比空泛「agent 能做事」更有可复现细节。",
+      "tags": [
+        "指定AI名单",
+        "Codex",
+        "OpenAI",
+        "硬件",
+        "Voice"
+      ],
+      "section": "指定AI名单",
+      "rank": 13
+    },
+    {
+      "id": "2102812473816723826",
+      "author": "ArtificialAnlys",
+      "name": "Artificial Analysis",
+      "text": "Gemini 3.8 Flash TTS takes the #1 spot on the Artificial Analysis Pronunciation Robustness benchmark at 89.5%, ahead of Gemini 3.1 Flash TTS at 88.2%, SpaceXAI TTS at 87.6%, and Gemini 3.8 Flash-Lite TTS at 87.4%.\n\nGemini 3.8 Flash TTS leads on Contextually Appropriate pronunciation at 97.9% and Expanding Shorthand at 86.1%, while SpaceXAI TTS leads on Preserving Exact Sequences at 85.7% and Qwen-Audio-3.0-TTS-Plus leads on Standalone Terms at 95.5%.\n\nListen to examples from our Pronunciation Robustness benchmark below ⬇️",
+      "likes": 153,
+      "retweets": 11,
+      "replies": 11,
+      "views": 11488,
+      "is_retweet": false,
+      "created_at": "Wed Sep 23 17:28:56 +0000 2026",
+      "url": "https://x.com/ArtificialAnlys/status/2102812473816723826",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS6wDbzacAAtReX.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS6wDbzacAAtReX.jpg"
+      ],
+      "quoted_tweet": null,
+      "score": 70.844,
+      "title": "Gemini 3.8 Flash TTS 登顶发音鲁棒性榜，多项子项领先",
+      "summary": "Artificial Analysis 发音鲁棒性基准：Gemini 3.8 Flash TTS 以 89.5% 排名第一，高于 Gemini 3.1 Flash TTS（88.2%）、SpaceXAI TTS（87.6%）等。它在语境适宜发音（97.9%）与缩写展开（86.1%）领先；精确序列保留由 SpaceXAI 领先，独立术语由 Qwen-Audio-3.0-TTS-Plus 领先。",
+      "recommend_reason": "TTS 评测拆到子能力，选型时可对症看「发音稳不稳」而不是只看主观听感。",
+      "tags": [
+        "指定AI名单",
+        "评测",
+        "TTS",
+        "Gemini",
+        "语音"
+      ],
+      "section": "指定AI名单",
+      "rank": 14
+    },
+    {
+      "id": "2102810709868617731",
+      "author": "EpochAIResearch",
+      "name": "Epoch AI",
+      "text": "Can AI tell if you've built your IKEA furniture wrong? Our new benchmark, the Furniture Assembly Benchmark (FAB), gives models the manual and a photo of a half-completed piece of furniture and asks them to spot the mistake.\n\nThe top score has gone from 28% to 80% in just 10 months.",
+      "likes": 732,
+      "retweets": 54,
+      "replies": 32,
+      "views": 65805,
+      "is_retweet": false,
+      "created_at": "Wed Sep 23 17:21:56 +0000 2026",
+      "url": "https://x.com/EpochAIResearch/status/2102810709868617731",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS6vMnOaIAASZ-A.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS6vMnOaIAASZ-A.jpg"
+      ],
+      "quoted_tweet": null,
+      "title": "Epoch 发布家具组装基准 FAB：10 个月正确率从 28% 拉到 80%",
+      "summary": "Epoch AI 新基准 Furniture Assembly Benchmark（FAB）：给模型说明书与半成品家具照片，让其找出装配错误。顶级分数在约 10 个月内从 28% 提升到 80%。他们视之为汽车维修、家电修理等视觉推理经济任务的代理指标。",
+      "recommend_reason": "新基准瞄准「看图找错」类经济任务，比纯考试榜更能跟踪现实技能。",
+      "tags": [
+        "指定AI名单",
+        "Epoch",
+        "评测",
+        "多模态",
+        "具身/视觉"
+      ],
+      "section": "指定AI名单",
+      "rank": 15
+    },
+    {
+      "id": "2102808325742322002",
+      "author": "OpenAI",
+      "bio": "",
+      "text": "We heard you loud and clear. ChatGPT Voice can now:\n\n- Use plugins like your email, calendar, and Slack.\n\n- Be powered by GPT-6 Astra, Sol, and Luna.\n\n- Be used in ChatGPT Work on web and mobile, so you can create docs, decks, sites, and spreadsheets or tackle complex tasks in the browser, just by talking.\n\nRolling out globally today in the latest version of the app.",
+      "created_at": "Wed Sep 23 17:12:27 +0000 2026",
+      "likes": 8440,
+      "views": "1235100",
+      "url": "https://x.com/i/status/2102808325742322002",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2102802303325732865/vid/avc1/480x270/1oFNz94QUagjizn3.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS6thMWXwAAILwF.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 76.033,
+      "title": "ChatGPT Voice 可调插件与 GPT-6，并进入 Work 用说话办文档与浏览器任务",
+      "summary": "OpenAI 宣布 ChatGPT Voice 重大升级：可调用邮件/日历/Slack 等插件；可由 GPT-6 Astra/Sol/Luna 驱动；并在 ChatGPT Work（网页与移动端）里用语音创建文档、幻灯片、站点、表格，或处理复杂浏览器任务。全球随最新版 App 推送。",
+      "recommend_reason": "语音从「聊天」升级到「带工具的工作流入口」，是今天最硬的产品更新。",
+      "tags": [
+        "指定AI名单",
+        "OpenAI",
+        "Voice",
+        "GPT-6",
+        "Agent",
+        "生产力"
+      ],
+      "section": "指定AI名单",
+      "rank": 16
+    },
+    {
+      "id": "2102806161728885145",
+      "author": "DilumSanjaya",
+      "bio": "",
+      "text": "Two robot arms collaboratively assembling an engine part\n\nHad Opus 5.5 figure out the planning and coordination\n\nI think this is a promising direction for fully automated robotic systems, even if some steps still require more capable hardware https://t.co/Ch3kcO5sjg",
+      "created_at": "Wed Sep 23 17:03:51 +0000 2026",
+      "likes": 21,
+      "views": "2089",
+      "url": "https://x.com/i/status/2102806161728885145",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2102801003066327046/vid/avc1/468x270/ZbPoVdm8K6TzAoT-.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102801003066327046/img/OCseWA36pIu8WlMo.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "title": "双机械臂协作装发动机零件：规划协调交给 Opus 5.5",
+      "summary": "作者展示两台机械臂协作组装发动机部件，规划与协调由 Claude Opus 5.5 完成；认为这是全自动机器人系统的有希望方向，尽管部分步骤仍受硬件能力限制。",
+      "recommend_reason": "把前沿模型接到真实双臂协作，是具身智能+LLM 规划的可感案例。",
+      "tags": [
+        "指定AI名单",
+        "Claude",
+        "Opus",
+        "机器人",
+        "具身智能"
+      ],
+      "section": "指定AI名单",
+      "rank": 17
+    },
+    {
+      "id": "2102797779563094362",
+      "author": "LangChain",
+      "name": "LangChain",
+      "text": "You can add schedules to Managed Deep Agents.\n\n1️⃣ Add a schedule file to schedules/ with a cron expression + a prompt\n2️⃣ Deploy\n...And the agent runs itself\n\n💻 Docs: https://t.co/VokMXaiV6M\n\n⏯️ Demo from @ndrezn ⤵️ https://t.co/2I5co1lAN0",
+      "likes": 35,
+      "retweets": 4,
+      "replies": 11,
+      "views": 9488,
+      "is_retweet": false,
+      "created_at": "Wed Sep 23 16:30:33 +0000 2026",
+      "url": "https://x.com/LangChain/status/2102797779563094362",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2102794411079786496/vid/avc1/480x270/cFMulzk4i-laC8FI.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102794411079786496/img/lDt_I4w39aD5lWmf.jpg"
+      ],
+      "quoted_tweet": null,
+      "title": "LangChain Managed Deep Agents 支持 cron 调度文件自动跑起来",
+      "summary": "LangChain 介绍：给 Managed Deep Agents 在 schedules/ 下放带 cron 表达式与 prompt 的调度文件，部署后 agent 即可按计划自行运行；附文档与演示。",
+      "recommend_reason": "把「定时自治 agent」产品化，对运维向 agent 很有直接参考。",
+      "tags": [
+        "指定AI名单",
+        "LangChain",
+        "Deep Agents",
+        "调度",
+        "工程"
+      ],
+      "section": "指定AI名单",
+      "rank": 18
+    }
+  ],
+  "generated_at": "2026-09-23T22:31:32Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 18,
+    "last_batch_added": 18,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    },
+    "slot_note": "early/noon-partial：北京 00:00–采集时刻（约 06:30），非完整午场 00:00–12:00；夜场/完整午场可再追加。",
+    "early_window": {
+      "start": "2026-09-24T00:00:00+08:00",
+      "end_approx": "2026-09-24T06:31:45+08:00",
+      "label": "early-noon-partial"
+    }
+  }
+}

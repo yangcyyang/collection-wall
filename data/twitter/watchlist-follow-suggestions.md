@@ -86,3 +86,15 @@ Priority order: priority_core → labs_official → research_eng → china_labs 
 
 Existing routine 「指定AI名单」 + `hard_collect_missing: true` still applies: unfollowed accounts are hard-collected via `opencli twitter tweets <user>`; followed accounts via Following search/timeline.
 Do NOT bulk-follow; suggestions only.
+
+## 疑似取不到 / 空推 / 低质量抽检（2026-09-24 early）
+
+| handle | 证据 |
+|--------|------|
+| @xai | `twitter profile` 能解析为 xAI；`twitter tweets` → EMPTY_RESULT（Account may be private or suspended） |
+| @ilyasutskever | profile 解析为 Ilya Sutskever；tweets → EMPTY_RESULT（长期空时间线/不可读） |
+| @suno_ai_ | profile 解析为 Suno；tweets → EMPTY_RESULT |
+| @georgesttock | 账号存在，但近期内容为联盟营销/affiliate 话术，非 AI 研究信号 |
+| @HomIsoMor | 账号存在，但时间线为成人 NSFW 转发，与 AI 名单意图不符（疑似错号或已变质） |
+
+其余抽检（polynoamial=Noam Brown、etoNdesreveR、realhoimusk、ArtificialAnlys、EpochAIResearch、zai_org、stepfun_ai、kling_ai、darioamodei、ch402、lateinteraction、ampcode）profile 均可解析，未见「不存在」。
