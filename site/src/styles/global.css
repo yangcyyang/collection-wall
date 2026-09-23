@@ -142,8 +142,7 @@ h3 { font-size: var(--font-size-card-title); margin-bottom: var(--spacing-sm); o
 .card-link:focus-visible, .category-button:focus-visible, .search-box:focus-within, .retry-button:focus-visible { outline: var(--outline-width) solid var(--color-brand); outline-offset: var(--outline-width); }
 .card-content > p { color: var(--color-text-secondary); display: -webkit-box; font-size: var(--font-size-caption); -webkit-box-orient: vertical; -webkit-line-clamp: 2; min-height: var(--card-copy-min-height); overflow: hidden; }
 .bilingual-copy { display: grid; gap: 0.15rem; }
-.bilingual-copy p { color: var(--color-text-secondary); font-size: var(--font-size-caption); line-height: 1.45; margin: 0; }
-.bilingual-copy .zh-gloss, .radar-viewer-summary.zh-gloss { color: var(--color-text-primary); }
+.bilingual-copy p, .tagline-zh { color: var(--color-text-secondary); font-size: var(--font-size-caption); line-height: 1.45; margin: 0; }
 .is-failed { border-color: var(--color-badge-new); }
 .retry-button { color: var(--color-brand); }
 .empty-state { background: var(--color-surface); border: var(--border-width) solid var(--color-border); border-radius: var(--radius-card); margin-top: var(--spacing-xl); padding: var(--spacing-xl); text-align: center; }

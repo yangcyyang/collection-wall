@@ -1,5 +1,4 @@
 ---
-import { translateTagline } from "../lib/en-zh.mjs";
 import { producthuntVotesLabel } from "../lib/producthunt.mjs";
 
 const { items = [] } = Astro.props;
@@ -15,14 +14,13 @@ const { items = [] } = Astro.props;
 
 {items.map((item) => {
   const votes = producthuntVotesLabel(item.votes);
-  const taglineZh = translateTagline(item.tagline, item.tagline_zh);
   return (
     <template data-ph-template={item.id}>
       <header class="radar-viewer-header">
         <div>
           <h2 id="ph-viewer-title">{item.name}</h2>
           {item.tagline && <p class="radar-viewer-summary">{item.tagline}</p>}
-          {taglineZh && <p class="radar-viewer-summary zh-gloss">{taglineZh}</p>}
+          {item.tagline_zh && <p class="radar-viewer-summary tagline-zh">{item.tagline_zh}</p>}
         </div>
         <div class="radar-viewer-meta">
           {item.rank !== "" && <span class="tweet-score">{item.rank}</span>}

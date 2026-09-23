@@ -14,6 +14,8 @@ export {
   radarConfidenceLabel,
   radarStatusClass,
   radarStatusLabel,
+  radarTagLabel,
+  TAG_LABELS,
   relatedSignalLabels,
   sortEvidenceByDate,
 } from "./radar.mjs";
