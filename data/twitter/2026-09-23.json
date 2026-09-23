@@ -9,6 +9,694 @@
   },
   "items": [
     {
+      "id": "2102786814633464159",
+      "author": "cursor_ai",
+      "bio": "",
+      "text": "We've reduced token costs in Cursor by 7% with no drop in agent quality.\n\nSavings came from tighter prompts, selective tool loading, better caching, and compressed file reads. https://t.co/EMNxELnfwO",
+      "created_at": "Wed Sep 23 15:46:59 +0000 2026",
+      "likes": 1499,
+      "retweets": 67,
+      "replies": 75,
+      "views": 46565,
+      "url": "https://x.com/i/status/2102786814633464159",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS6WNYbbgAAtUhy.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS6WNYbbgAAtUhy.png"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "is_retweet": false,
+      "summary": "Cursor 在不降低 agent 质量的前提下，把 token 成本又砍了 7%。\n\n节省来自更紧的提示词、选择性加载工具、更好的缓存，以及对文件读取的压缩。",
+      "recommend_reason": "官方给出可复用的降本四件套（提示/工具/缓存/压缩读文件），对自建 agent harness 直接有参考价值。",
+      "tags": [
+        "指定AI名单",
+        "Cursor",
+        "Agent",
+        "成本",
+        "工程"
+      ],
+      "section": "指定AI名单",
+      "rank": 1
+    },
+    {
+      "id": "2102785495726219305",
+      "author": "OfficialLoganK",
+      "bio": "",
+      "text": "Introducing Gemini 3.8 Flash and Flash-Lite TTS, our new SOTA text to speech model with:\n\n- a new voice design experience\n- 2,000+ production ready voices\n- voice replication \n- support for 100 languages\n- voice remixing (soon)\n- #1 spot on Hume AI's voice benchmarks\n\nand more!!",
+      "created_at": "Wed Sep 23 15:41:44 +0000 2026",
+      "likes": 1670,
+      "retweets": 83,
+      "replies": 193,
+      "views": 67665,
+      "url": "https://x.com/i/status/2102785495726219305",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "is_retweet": false,
+      "summary": "推出 Gemini 3.8 Flash 与 Flash-Lite TTS，号称新的 SOTA 文本转语音模型，具备：全新声线设计体验、2000+ 成品音色、声音复刻、支持 100 种语言、声线混音（即将推出），并在 Hume AI 语音基准上取得第一，等等。",
+      "recommend_reason": "Google 音频负责人亲手官宣要点清单，适合当 Gemini TTS 发布的速览入口。",
+      "tags": [
+        "指定AI名单",
+        "Gemini",
+        "TTS",
+        "Google",
+        "发布"
+      ],
+      "section": "指定AI名单",
+      "title": "Logan：Gemini 3.8 Flash/Flash-Lite TTS 登场，Hume 语音榜第一",
+      "rank": 2
+    },
+    {
+      "id": "2102784197853380647",
+      "author": "ArtificialAnlys",
+      "bio": "",
+      "text": "Google has released Gemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS. Gemini 3.8 Flash TTS debuts at #1 on our Pronunciation Robustness Benchmark and #2 on our Provider Voice Arena Leaderboard\n\nGemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS are @GoogleDeepMind's latest Text to Speech models, supporting preset voices and voice replication. Gemini 3.1 Flash TTS led our Pronunciation Robustness Benchmark at launch, with Gemini 3.8 Flash TTS now taking the top spot and scoring 64 Elo points higher in our Provider Voice Arena.\n\nKey takeaways:\n\n➤ #2 in Provider Voice Arena: Gemini 3.8 Flash TTS debuts at #2 with an Elo of 1,263, just behind Sonic 3.6 at 1,272 and ahead of Qwen-Audio-3.0-TTS-Plus at 1,260. Gemini 3.8 Flash-Lite TTS debuts at #6 with an Elo of 1,236, just 1 point behind Simba 3.2. Both models rank ahead of Gemini 3.1 Flash TTS at 1,199.\n\n➤ #1 in Pronunciation Robustness: Gemini 3.8 Flash TTS takes #1 at 89.5%, ahead of Gemini 3.1 Flash TTS at 88.2%, SpaceXAI TTS at 87.6%, and Gemini 3.8 Flash-Lite TTS at 87.4%, placing three Google models in the top four.\n\n➤ Multilingual: Across our 9 multilingual Controlled Voice Arenas, Gemini 3.8 Flash-Lite TTS debuts at #1 in Japanese, #2 in Arabic, and #3 in German. Gemini 3.8 Flash TTS ranks #2 in Japanese and Portuguese.\n\n➤ Speed: Gemini 3.8 Flash TTS processes 44.1 characters per second, compared to 40.2 characters per second for Gemini 3.8 Flash-Lite TTS, approximately 2.7x and 2.4x faster than realtime, respectively.\n\n➤ Pricing: Gemini 3.8 Flash TTS is priced at $32.98/1M characters, compared to $22.07/1M characters for Gemini 3.8 Flash-Lite TTS. Both are more expensive than Gemini 3.1 Flash TTS at $18.31/1M characters, but substantially cheaper than Eleven v3 at $100/1M characters.\n\nSee below for more details  ⬇️",
+      "created_at": "Wed Sep 23 15:36:35 +0000 2026",
+      "likes": 202,
+      "retweets": 12,
+      "replies": 13,
+      "views": 13664,
+      "url": "https://x.com/ArtificialAnlys/status/2102784197853380647",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/tweet_video/HS6QYs9a8AAs5df.mp4"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/tweet_video_thumb/HS6QYs9a8AAs5df.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "is_retweet": false,
+      "title": "Artificial Analysis：Gemini 3.8 Flash TTS 登顶发音鲁棒榜，语音竞技场排第 2",
+      "summary": "第三方评测 Artificial Analysis 称 Gemini 3.8 Flash TTS 在 Pronunciation Robustness 夺冠（89.5%），Provider Voice Arena 排第 2（Elo 1263，紧随 Sonic 3.6）；Flash-Lite 在 Arena 第 6。日语等受控语音竞技场表现突出；吞吐约 44.1/40.2 字符每秒；定价高于 Gemini 3.1 Flash TTS，但仍远低于 Eleven v3。",
+      "recommend_reason": "用独立榜单把 Google 自家宣传落到可对比的 Elo/鲁棒性/价格坐标，选型时比官宣更管用。",
+      "tags": [
+        "指定AI名单",
+        "Gemini",
+        "TTS",
+        "评测",
+        "ArtificialAnalysis"
+      ],
+      "section": "指定AI名单",
+      "rank": 3
+    },
+    {
+      "id": "2102783844235825619",
+      "author": "ammaar",
+      "bio": "",
+      "text": "Our latest text to speech and voice design model is here! 🚀 \n\n- Thousands of new voices to choose from \n- Replicate your own voice in under 30 seconds\n- Design voices with just a prompt \n- Expressive tags for complete control\n\nNow live in AI Studio! https://t.co/NRCFcvdXcK",
+      "created_at": "Wed Sep 23 15:35:10 +0000 2026",
+      "likes": 39,
+      "retweets": 3,
+      "replies": 7,
+      "views": 2404,
+      "url": "https://x.com/i/status/2102783844235825619",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2102753779409993728/vid/avc1/480x270/-ECGr9GHrP9tCWGU.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102753779409993728/img/Cik3ZncsAG50yYXP.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "is_retweet": false,
+      "summary": "最新文本转语音与声线设计模型上线：可选数千种新音色、30 秒内复刻自己的声音、用提示词设计声线，并用富有表现力的标签做完整控制。现已在 AI Studio 可用。",
+      "recommend_reason": "把 Gemini TTS 能力落到 AI Studio 可点入口，想试声线设计/复刻的人直接开练。",
+      "tags": [
+        "指定AI名单",
+        "Gemini",
+        "TTS",
+        "Google AI Studio",
+        "声线设计"
+      ],
+      "section": "指定AI名单",
+      "title": "ammaar：新 TTS/声线设计模型登陆 AI Studio，30 秒复刻音色",
+      "rank": 4
+    },
+    {
+      "id": "2102781694730285427",
+      "author": "GoogleAI",
+      "bio": "",
+      "text": "We’re launching Gemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS ⚡️\n\nOur most expressive audio models yet let you create custom voices across 100+ languages or pick from 2,000+ ready-to-use ones. You can direct back-and-forth conversations, guide the delivery line-by-line, and add natural cues like <laughs> or an active listening interjection like |mhm| all while generating hours of consistent, glitch-free audio.\n\nSounds pretty cool, right? So… how should you use them?\n\n— Gemini 3.8 Flash TTS: Need to design bespoke vocal personas from scratch and with line-by-line level control? This is the model! Built for high-fidelity creative production like gaming, immersive audiobooks, and podcasts.\n\n— Gemini 3.8 Flash-Lite TTS: Want the AI to automatically adjust its tone and pacing on the fly for near real-time voice agents? This is your engine! Built for cost-efficient scale, high-volume dubbing, and bulk audio creation.",
+      "created_at": "Wed Sep 23 15:26:38 +0000 2026",
+      "likes": 553,
+      "retweets": 53,
+      "replies": 43,
+      "views": 35789,
+      "url": "https://x.com/i/status/2102781694730285427",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2102781324863934464/vid/avc1/480x270/Khk_rY8eRhV0iw2n.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102781324863934464/img/KVC7zjwYb5kh8L3I.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "is_retweet": false,
+      "title": "Gemini 3.8 Flash / Flash-Lite TTS：2000+ 音色、百语种与逐行演技控制",
+      "summary": "Google 发布 Gemini 3.8 Flash TTS 与 Flash-Lite TTS：支持 100+ 语言自定义音色或选用 2000+ 成品声线，可导演多轮对话、逐行控制演绎，并加入 <laughs>、|mhm| 等自然语气标记，长时间生成更稳。Flash 面向高保真创作（游戏/有声书/播客）；Flash-Lite 面向近实时语音 agent、配音与批量音频的成本与吞吐。",
+      "recommend_reason": "把「设计声线」和「规模化语音 agent」拆成两档模型，产品定位比单纯报 SOTA 更清晰。",
+      "tags": [
+        "指定AI名单",
+        "Gemini",
+        "TTS",
+        "Google",
+        "语音"
+      ],
+      "section": "指定AI名单",
+      "rank": 5
+    },
+    {
+      "id": "2102772213422477428",
+      "author": "xiaoxiaodong01",
+      "bio": "",
+      "text": "GPT2 x 折纸 x 提示词 x 优化 \n\n提示词 ⤵️\n```\n请将我上传的每一张照片分别制作成一张独立的高级极简设计海报，不多图拼接，每张照片单独输出。\n整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体结构、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色，使其具有艺术摄影和展览视觉质感。为适配画幅，可以自然扩展环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分提取照片中主体最具识别性的轮廓、结构、空间关系与叙事特征，重构为 layered paper cut art / 3D papercraft diorama / architectural relief 风格的纸雕微缩场景。不要复制照片细节，而是保留最核心的视觉符号，通过多层纸片、切割轮廓、镂空结构和空间叠层重新表达，使主体像一件现代设计展览中的纸艺装置。\n\n使用简洁结构、精准边缘、多层切面和轻微空间阴影建立立体感，不追求真实3D渲染，而呈现纸张、建筑模型与艺术装置结合的轻盈质感。主体保持单一视觉中心，大面积留白，构图克制平衡。\n\n配色从上方照片中提取最明亮、最鲜活、最有生命力的颜色重新调制，而不是平均取色。整体提高明度与色彩纯净度，采用清澈天空蓝、湖水青、嫩绿、暖黄、珊瑚橙、桃粉等由原图自然推导出的明快色相，并以象牙白、暖米色作为主要空间背景，通过清爽冷暖关系形成治愈感。主色鲜明但不刺眼，局部暖橙、金黄或粉红作为点睛色。避免灰脏、发旧、低沉莫兰迪化、暗褐滤镜、荧光色和廉价糖果感。\n\n文字少量介入，根据主体、地点、情绪或文化含义自由生成简短标题、编号或微型注释。字体使用细致、克制、具有建筑编辑感的现代字体，像艺术展签或高级品牌视觉中的信息标注，与留白自然融合。\n\n整体风格参考国际设计工作室、建筑海报、艺术展览视觉和高级品牌视觉系统，呈现纸雕空间、现代东方美学、清透色彩、大面积留白和高级工艺感。避免真实CG、塑料质感、儿童手工感、复杂背景和模板化效果。\n```",
+      "created_at": "Wed Sep 23 14:48:57 +0000 2026",
+      "likes": 7,
+      "retweets": 2,
+      "replies": 0,
+      "views": 751,
+      "url": "https://x.com/i/status/2102772213422477428",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS6MHuzbwAAhPW-.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS6MHuzbwAAhPW-.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "is_retweet": false,
+      "title": "GPT Image 折纸海报提示词：上半原图、下半纸雕微缩各占一半",
+      "summary": "xiaoxiaodong01 分享一套竖版 3:4 海报提示词：每张上传照片单独出一张极简海报；上下严格 1:1——上半保留原片结构与光影仅轻度调色，下半提炼主体轮廓做成 layered paper cut / 纸雕微缩装置，强调现代展览感而非贴图复制。",
+      "recommend_reason": "结构约束写得很死（1:1 分区+纸雕语义），比空洞「做成海报」更容易稳定复现。",
+      "tags": [
+        "指定AI名单",
+        "提示词",
+        "GPTImage",
+        "设计",
+        "纸雕"
+      ],
+      "section": "指定AI名单",
+      "rank": 6
+    },
+    {
+      "id": "2102762455613227349",
+      "author": "elle_elle_e",
+      "bio": "",
+      "text": "BeautyPlusの「SNSで話題の加工」に転用されていたので、アプリ落として比較してみた👼🪽\n①ChatGPT(GPT Image 2.5)\n②BeautyPlus\n③元画像\n\nぷろんぷと少し変えているのか、裏で動いているAIモデルがGPT Image 2.5ではないのか、結構違って生成される_φ(･_･\n\nBeautyPlusさんへ\nぷろんぷと公開しているから仕方ないのだけど、そんなにいい気はしないよねー🫠🫠🫠\n一声かけてくればお互い気持ちがいいのに...",
+      "created_at": "Wed Sep 23 14:10:11 +0000 2026",
+      "likes": 82,
+      "retweets": 6,
+      "replies": 8,
+      "views": 6780,
+      "url": "https://x.com/i/status/2102762455613227349",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS6DTBgbIAA6Fvn.jpg",
+        "https://pbs.twimg.com/media/HS6DTBPbsAE4b34.jpg",
+        "https://pbs.twimg.com/media/HS6DTBZa0AACY-N.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS6DTBgbIAA6Fvn.jpg",
+        "https://pbs.twimg.com/media/HS6DTBPbsAE4b34.jpg",
+        "https://pbs.twimg.com/media/HS6DTBZa0AACY-N.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2102694980116750443",
+        "author": "2ilnil9",
+        "name": "頭悪杉田玄白",
+        "text": "今流行ってるペーパークラフト加工がビューティプラスなら1発でできちゃうよー！！！お姫様みたいでかわいい♡試してみて！！ https://t.co/dmrGPwQJQz",
+        "created_at": "Wed Sep 23 09:42:04 +0000 2026",
+        "url": "https://x.com/2ilnil9/status/2102694980116750443",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HS5F7iFbUAAsu1a.jpg",
+          "https://pbs.twimg.com/media/HS5F7h-a8AATvvu.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HS5F7iFbUAAsu1a.jpg",
+          "https://pbs.twimg.com/media/HS5F7h-a8AATvvu.jpg"
+        ]
+      },
+      "is_retweet": false,
+      "summary": "BeautyPlus「SNS 热门滤镜」里搬了我的玩法，于是下了 App 对比：①ChatGPT（GPT Image 2.5）②BeautyPlus ③原图。生成差不少，不知是改了提示词还是底层根本不是 GPT Image 2.5。对 BeautyPlus：提示词本来就公开，但一声招呼都没有还是不太舒服。",
+      "recommend_reason": "创作者对 App 未授权复用提示词的对照实测，触及 AI 图像工作流的署名与搬运问题。",
+      "tags": [
+        "GPTImage",
+        "BeautyPlus",
+        "提示词",
+        "版权"
+      ],
+      "title": "作者对照 BeautyPlus 热门滤镜与 GPT Image 2.5：生成差明显且未打招呼",
+      "rank": 7
+    },
+    {
+      "id": "2102752342571442497",
+      "author": "DeepLearningAI",
+      "bio": "",
+      "text": "Can you distill your way to a frontier model? 🧠\n\nAnthropic's latest report highlights proxy query routing supporting massive distillation campaigns across commercial platforms.\n\n🚨 Unauthorized proxies routed user prompts to Claude APIs\n🛡️ This type of query forwarding creates severe data privacy risks\n\nRead our full breakdown: https://t.co/PUIgx91NEF\n\n#DeepLearningAI #LLMs #AISecurity",
+      "created_at": "Wed Sep 23 13:30:00 +0000 2026",
+      "likes": 48,
+      "retweets": 4,
+      "replies": 10,
+      "views": 3699,
+      "url": "https://x.com/DeepLearningAI/status/2102752342571442497",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS56HMmXQAAmRxO.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS56HMmXQAAmRxO.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "is_retweet": false,
+      "title": "DeepLearning.AI：Anthropic 披露未授权代理路由，大规模蒸馏暗藏隐私风险",
+      "summary": "DeepLearning.AI 解读 Anthropic 最新报告：商业平台上出现通过代理查询路由支撑的大规模蒸馏活动；未授权代理把用户提示转发到 Claude API，这类查询转发会带来严重的数据隐私风险。文中提醒「靠蒸馏冲向前沿模型」背后可能踩到合规与安全红线。",
+      "recommend_reason": "把「蒸馏能不能炼出前沿模型」从技术问题拉回隐私与未授权转发，做平台/安全的人该看。",
+      "tags": [
+        "指定AI名单",
+        "Anthropic",
+        "蒸馏",
+        "安全",
+        "隐私"
+      ],
+      "section": "指定AI名单",
+      "rank": 8
+    },
+    {
+      "id": "2102745333167997403",
+      "author": "GoSailGlobal",
+      "bio": "",
+      "text": "发现了一个跟 Jev 对标的决策模型\n\n来自牛津 AI 团队研发的 this-that-model-1.0模型\n\n背后公司 https://t.co/KwnfbFVwIl 做去中心化 AI 基建（联邦学习 + 区块链），拿过以太坊基金会学术资助，跟 UNDP、通义千问合作，融了 $11M\n\n开源，而且 API 完全免费\n\n它是一个 typed decision model：你给一段上下文 + n 个选项，它一次前向传播返回选择和校准过的置信度；31ms，零输出 token，格式错误在数学上不可能发生。\n\n跟 Jev 的区别：\n- Jev 是商业 API，按 token 收费\n- this-that-model 在官网API注册使用，input/output/cache 竟然全部免费，注册拿 API key 就能用\n- 你还能自己部署，MIT 开源\n\n用法跟 Jev 一模一样，任何「从 n 个选项里选一个」的场景，一次前向传播可以同时回答多个问题\n1️⃣ 意图分类\n2️⃣ 内容审核\n3️⃣ 风险分档\n4️⃣ 路由决策\n\n最近Jev又关闭注册了，this-that-model-1.0在官网即可获取免费API 👇",
+      "created_at": "Wed Sep 23 13:02:09 +0000 2026",
+      "likes": 82,
+      "retweets": 9,
+      "replies": 39,
+      "views": 19511,
+      "url": "https://x.com/i/status/2102745333167997403",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2102745237630373889/vid/avc1/480x270/JbkccnbQM02eQXil.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102745237630373889/img/bFCu6UMNBXQtZ1qz.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "is_retweet": false,
+      "title": "牛津团队 this-that-model-1.0：对标 Jev 的免费 typed 决策模型",
+      "summary": "GoSail 介绍牛津 AI 团队的 this-that-model-1.0：给定上下文 + n 个选项，一次前向传播返回选择与校准置信度，约 31ms、零输出 token，格式错误在数学上不可能。公司做联邦学习+区块链去中心化基建，融过 1100 万美元；模型 MIT 开源且官网 API 全免费，可对标按 token 收费的 Jev，适用于意图分类、审核、风险分档、路由等。",
+      "recommend_reason": "把「多选一决策」从聊天补全改成 typed 前向传播，免费 API + 可自托管对工程落地很香。",
+      "tags": [
+        "指定AI名单",
+        "决策模型",
+        "开源",
+        "Jev",
+        "路由"
+      ],
+      "section": "指定AI名单",
+      "rank": 9
+    },
+    {
+      "id": "2102736400366051439",
+      "author": "xiaohu",
+      "bio": "",
+      "text": "Opus 5.5 官方提示词指南：\neffort 怎么设、Agent 为何中途停、哪些提示词该删？\n\nOpus 5.5 中 effort 的默认值改为了medium，Anthropic 称测试中 5.5 的 medium 达到或超过 Opus 5 的 high...\n\nOpus 5.5 生成输出 token 的速度比 Opus 5 快 30% 以上；完成同样的任务，通常用的 token 也更少\n\nOpus 5.5在干活过程中和干完之后，汇报\"我做了啥、发现了啥、还需要你干啥\"讲得更清楚\n\n所以：\n\n⏸️ 长任务干到一半冒出一句「接下来我打算做 C」——这是在汇报进度，不是干完了，别误判掐断\n\n🤫 干活间隙其实一直在小声汇报进展，默认看不见，得专门开一个开关才能看到实时状态\n\n🔍 跨多个软件协作时容易漏看\"没被点名但相关\"的信息，提前叮嘱它\"先都扫一遍再动手\"，准确率明显提升\n\n⏱️ 多个AI一起干活时，告诉它\"还剩多少时间\"，它会自己调配节奏，干得更快\n\n🎨 让它做网页设计，光说\"别做得像AI\"没用，得具体点名\"别用米色背景/斜体标题/01-02-03编号\"才管用",
+      "created_at": "Wed Sep 23 12:26:39 +0000 2026",
+      "likes": 13,
+      "retweets": 0,
+      "replies": 0,
+      "views": 3981,
+      "url": "https://x.com/i/status/2102736400366051439",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS5rl8-bIAA-H4S.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS5rl8-bIAA-H4S.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "is_retweet": false,
+      "title": "Opus 5.5 官方提示词指南：effort 默认 medium，别误掐长任务",
+      "summary": "xiaohu 梳理 Anthropic 对 Opus 5.5 的用法：effort 默认改为 medium，官方称可达到或超过 Opus 5 的 high；生成更快（+30%+）且通常更省 token；中途「接下来我打算做 C」多是进度汇报不是收工。建议打开实时状态开关看小声汇报，跨软件协作先让它扫相关信息再动手。",
+      "recommend_reason": "把官方细枝末节译成可执行注意事项，尤其能减少「误判任务结束而掐断」的浪费。",
+      "tags": [
+        "指定AI名单",
+        "Claude",
+        "Opus5.5",
+        "提示词",
+        "Agent"
+      ],
+      "section": "指定AI名单",
+      "rank": 10
+    },
+    {
+      "id": "2102732067671101738",
+      "author": "fhwofjow51260",
+      "bio": "",
+      "text": "GitHub 2600+ Star，连“恋爱军师”都有人做成 Codex Skill 了。  \n\n项目名字就叫「狗头军师」，你把聊天截图、聊天记录和感情经过丢给它，它会帮你分析对方态度、判断关系、想回复话术，再给下一步怎么推进。 \n\n暧昧、追人、邀约、吵架、分手、复合甚至婚姻选择都能聊，还加入了关系心理学、沟通、法律与安全等知识。 \n\n以后半夜收到一句“在吗”，不用再拉三个朋友开会了。\n\nhttps://t.co/8oaiIaaIsf",
+      "created_at": "Wed Sep 23 12:09:26 +0000 2026",
+      "likes": 42,
+      "retweets": 0,
+      "replies": 0,
+      "views": 3499,
+      "url": "https://x.com/i/status/2102732067671101738",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS5nqRua0AASRsC.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS5nqRua0AASRsC.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "is_retweet": false,
+      "title": "GitHub 2600+ Star：把恋爱军师做成 Codex Skill「狗头军师」",
+      "summary": "「狗头军师」把聊天截图与感情经过丢给 Codex Skill，分析对方态度、关系判断、回复话术与下一步推进；覆盖暧昧到婚姻，并掺了关系心理、沟通、法律与安全知识。作者调侃以后半夜收到「在吗」不必再拉三人小会。",
+      "recommend_reason": "Skill 用例从写代码扩到情感顾问，侧面说明 Agent Skill 分发正在消费化。",
+      "tags": [
+        "Codex",
+        "AgentSkill",
+        "应用",
+        "情感"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2102727307693813921",
+      "author": "op7418",
+      "bio": "",
+      "text": "终于用上最近很火的 Muse 了！\n\nAnthropic 的风控在 Meta 面前就是弟弟。小扎的产品说不让你用，你根本用不上，连账号都注册不了。\n\n根本不给你被封号的机会。 https://t.co/jA1mH87zNQ",
+      "created_at": "Wed Sep 23 11:50:31 +0000 2026",
+      "likes": 151,
+      "retweets": 5,
+      "replies": 138,
+      "views": 107914,
+      "url": "https://x.com/i/status/2102727307693813921",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS5jIgYaIAAixjF.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS5jIgYaIAAixjF.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "is_retweet": false,
+      "summary": "终于用上最近很火的 Muse 了！\n\nAnthropic 的风控在 Meta 面前就是弟弟。小扎的产品说不让你用，你根本用不上，连账号都注册不了。\n\n根本不给你被封号的机会。",
+      "recommend_reason": "用 Muse 注册墙对比 Anthropic 风控，侧面说明分发/准入策略也是产品竞争力。",
+      "tags": [
+        "指定AI名单",
+        "Muse",
+        "Meta",
+        "风控",
+        "产品"
+      ],
+      "section": "指定AI名单",
+      "rank": 12
+    },
+    {
+      "id": "2102700049885245874",
+      "author": "OpenDesignHQ",
+      "bio": "",
+      "text": "GPT-6 Sol and Claude Opus 5.5 have very different design sensibilities.\n\nWe used the same prompt in OpenDesign to build an ancient Chinese city in 3D. Both nailed the rendering and details, with very different styles.\n\nAll demos, prompts and the full benchmark coming soon. https://t.co/PMt8D9hZUk",
+      "created_at": "Wed Sep 23 10:02:12 +0000 2026",
+      "likes": 36,
+      "retweets": 0,
+      "replies": 0,
+      "views": 3476,
+      "url": "https://x.com/i/status/2102700049885245874",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2102675252845416448/vid/avc1/360x270/ImYQQMTwp8rrpA8w.mp4?tag=29",
+        "https://video.twimg.com/amplify_video/2102675972327882752/vid/avc1/360x270/wiU_8ijuabE1pfJx.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102675252845416448/img/7YfxuTGrRVy9aNq8.jpg",
+        "https://pbs.twimg.com/amplify_video_thumb/2102675972327882752/img/wauFrX_5sOCCilEz.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "is_retweet": false,
+      "summary": "GPT-6 Sol 与 Claude Opus 5.5 的设计气质差很多。OpenDesign 用同一提示词搭一座中国古代 3D 城，两者都把渲染和细节打满，但风格迥异。演示、提示词和完整基准稍后放出。",
+      "recommend_reason": "同题对比把「哪个更能做 3D/设计」从口头偏好变成可看的并排结果。",
+      "tags": [
+        "指定AI名单",
+        "OpenDesign",
+        "GPT-6",
+        "Opus5.5",
+        "3D"
+      ],
+      "section": "指定AI名单",
+      "title": "OpenDesign：同一提示词下 GPT-6 Sol 与 Opus 5.5 的古风 3D 城气质迥异",
+      "rank": 13
+    },
+    {
+      "id": "2102687258990026993",
+      "author": "Alibaba_Qwen",
+      "bio": "",
+      "text": "⚡ Meet Qwen-Audio-3.1! ASR, TTS & Realtime are fully upgraded, joined by two new models: TTS-Next for audio creation and ASR-Next for audio understanding.\n\nFive models, one complete audio stack: understanding, generation, interaction & creation. \n\nPlus big price cuts across the lineup: TTS ~70% off, Realtime ~85% off, and ASR up to 95% off.\n\nHighlights: 🥳\n- ASR: stronger multilingual & dialect recognition, plus native polishing that auto-removes fillers & repetitions for cleaner, more logical transcripts.\n- ASR-Next: supports multi-speaker ASR with speaker labels, timestamps & aligned transcripts, and understands emotions, ambient & machine sounds for sound captioning, event localization, audio QA & reasoning.\n- TTS: multilingual & dialect synthesis with natural cross-lingual voice transfer; control emotion, speed & style via simple instructions.\n- TTS-Next: unified LM + diffusion framework generating voice, sound effects & background audio in one pass for audiobooks, podcasts, games & ads. \n- Realtime: speak & listen at once with anytime interruption, just like a real call; it even slows down and responds empathetically when it senses a low mood.\n\nUnlock the full potential of Qwen-Audio-3.1! 👇\n- Blog: https://t.co/e0M8wvj8Kg\n- Qwen-Audio-3.1-ASR:\nhttps://t.co/88lPQTPxyz\n- Qwen-Audio-3.1-Realtime:\nhttps://t.co/Y63sdtK2AC\n- More APIs: coming soon @qwen_cloud",
+      "created_at": "Wed Sep 23 09:11:23 +0000 2026",
+      "likes": 2783,
+      "retweets": 0,
+      "replies": 0,
+      "views": 142485,
+      "url": "https://x.com/i/status/2102687258990026993",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS4-pIvbYAAQL0M.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS4-pIvbYAAQL0M.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "is_retweet": false,
+      "title": "Qwen-Audio-3.1：ASR/TTS/Realtime 全线升级，并新增 TTS-Next 与 ASR-Next",
+      "summary": "通义千问发布 Qwen-Audio-3.1：ASR、TTS、Realtime 全面升级，并加入面向音频创作的 TTS-Next 与面向理解的 ASR-Next，形成理解、生成、交互、创作一体的五模型音频栈；同时大降价（TTS 约 7 折、Realtime 约 85%、ASR 最高 95%）。亮点包括更强多语种/方言 ASR 与原生润稿、多说话人 ASR+情绪/环境声理解、跨语种音色迁移与指令控情感/语速，以及可随时打断的双工 Realtime。",
+      "recommend_reason": "音频能力从「能听会说」扩到创作与多说话人理解，并配大幅降价，是今天最完整的音频产品发布之一。",
+      "tags": [
+        "指定AI名单",
+        "Qwen",
+        "音频",
+        "ASR",
+        "TTS",
+        "Realtime"
+      ],
+      "section": "指定AI名单",
+      "rank": 14
+    },
+    {
+      "id": "2102684907311128982",
+      "author": "OpenDesignHQ",
+      "bio": "",
+      "text": "Claude Opus 5.5 is seriously good at building 3D websites.\n\nBuilt during internal OpenDesign testing: lantern-lit streets, shimmering water, and a city you explore as you scroll.\n\nWe gave GPT-6 Sol the same prompt. See the next post. https://t.co/cVs5BUaiVd",
+      "created_at": "Wed Sep 23 09:02:02 +0000 2026",
+      "likes": 26,
+      "retweets": 0,
+      "replies": 0,
+      "views": 4369,
+      "url": "https://x.com/i/status/2102684907311128982",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2102655782529773568/vid/avc1/392x270/GdxxWYhFnfS4HZB5.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102655782529773568/img/oGE_9e_B4wM1_P1W.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "is_retweet": false,
+      "summary": "Claude Opus 5.5 做 3D 网站真的强：OpenDesign 内测里用它搭出灯笼街巷、波光水面，滚动即可逛城。同一提示词也给了 GPT-6 Sol，对比见下一条。",
+      "recommend_reason": "展示 Opus 5.5 在可滚动 3D Web 场景上的完成度，适合做设计/前端向模型选型样本。",
+      "tags": [
+        "指定AI名单",
+        "OpenDesign",
+        "Opus5.5",
+        "3D",
+        "Web"
+      ],
+      "section": "指定AI名单",
+      "title": "OpenDesign 内测：Opus 5.5 做出可滚动逛的灯笼水岸 3D 网站",
+      "rank": 15
+    },
+    {
+      "id": "2102676592799432970",
+      "author": "midori_tatsuta",
+      "bio": "",
+      "text": "ChatGPTでアイコンをお守りポスター化できるプロンプトを作りました。プロフィール文までのスクショを入れると、自分らしいモチーフが少し反映されます。\nプロンプトは👇️ https://t.co/Zse5ukoAsj",
+      "created_at": "Wed Sep 23 08:29:00 +0000 2026",
+      "likes": 95,
+      "retweets": 0,
+      "replies": 0,
+      "views": 7172,
+      "url": "https://x.com/i/status/2102676592799432970",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS2YkY4bEAA-yOD.jpg",
+        "https://pbs.twimg.com/media/HS2YldAaIAARm9O.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS2YkY4bEAA-yOD.jpg",
+        "https://pbs.twimg.com/media/HS2YldAaIAARm9O.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "is_retweet": false,
+      "summary": "做了一套能把图标变成御守海报的 ChatGPT 提示词。把包含简介在内的主页截图丢进去，会稍微带上一点属于你自己的主题元素。提示词见链接。",
+      "recommend_reason": "把个人主页截图转成御守风视觉，日区 Prompt 玩法可直接借来做头像/周边。",
+      "tags": [
+        "指定AI名单",
+        "ChatGPT",
+        "提示词",
+        "设计",
+        "个人品牌"
+      ],
+      "section": "指定AI名单",
+      "rank": 16
+    },
+    {
+      "id": "2102666727666708751",
+      "author": "bindureddy",
+      "bio": "",
+      "text": "The best way to know open source models are doing well \n\nWhen closed source decreases prices \n\nBoth Anthropic and OpenAI had price cuts 💃",
+      "created_at": "Wed Sep 23 07:49:48 +0000 2026",
+      "likes": 200,
+      "retweets": 0,
+      "replies": 0,
+      "views": 7917,
+      "url": "https://x.com/i/status/2102666727666708751",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "is_retweet": false,
+      "summary": "判断开源模型是否表现好的最好方式：看闭源是否在降价。Anthropic 和 OpenAI 两边都已经降价了。",
+      "recommend_reason": "用闭源降价反推开源压力，一句话抓住今天的竞争态势。",
+      "tags": [
+        "指定AI名单",
+        "开源",
+        "定价",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "section": "指定AI名单",
+      "rank": 17
+    },
+    {
+      "id": "2102661773983903797",
+      "author": "GoSailGlobal",
+      "bio": "",
+      "text": "你装的那些 Agent 技能，到底有没有 bug？\n\n北航团队做了一次体检，结果有点吓人\n\n515 个真实技能仓库，46.4% 含有人工确认的缺陷，总共 763 条，平均每个有问题的技能带 3.2 个\n\n带脚本的技能最严重，69.4% 有问题。只有一个 SKILL.md 的纯文本技能是 18.1%\n\n论文叫 SkillSpec，思路是把技能当成有规格的软件来查\n\n从声明的意图推出\"应该做什么\"，从指令和代码推出\"实际做了什么\"，两者对不上就是可疑缺陷，最后丢进沙箱真跑一遍来确认\n\n论文里那个例子特别典型\n\n一个有声书技能，文档说把音频片段拼接成成品。代码拼完之后，把所有原始音频文件全删了，文档里一个字没提\n\n这种缺陷不会报错，模型还会顺手把它圆过去，作者管这叫被模型掩盖的静默失败\n\n最有意思的是缺陷分布完全分家\n\n代码里的缺陷 91.6% 是实现跑偏\n自然语言指令里的缺陷 43.1% 是需求本身就写错了\n\n还有个长尾：只有 30 个技能就占了全部缺陷的 41.7%\n\n他们也很坦白，精确率 61.2%，代码部分 67.1%，纯文字部分只有 55.4%，文本节点仍然是最大的瓶颈\n\n跨了 GPT、DeepSeek 和本地部署的 Qwen3.8-27B 都能跑，小模型也够用",
+      "created_at": "Wed Sep 23 07:30:07 +0000 2026",
+      "likes": 2,
+      "retweets": 1,
+      "replies": 1,
+      "views": 1375,
+      "url": "https://x.com/i/status/2102661773983903797",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2102661750575538176/vid/avc1/480x270/5gD4lOAfl3rNgnkt.mp4?tag=16"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102661750575538176/img/UdvUjfLbg_CGkgXc.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "is_retweet": false,
+      "title": "北航 SkillSpec：抽检 515 个 Agent 技能，近半含确认缺陷",
+      "summary": "GoSail 摘要北航 SkillSpec：在 515 个真实技能仓库中，46.4% 含人工确认缺陷（共 763 条）；带脚本技能问题率 69.4%，纯 SKILL.md 仅 18.1%。方法是对比「声明意图」与「实际指令/代码」，再沙箱跑通确认。典型案例：有声书技能拼完音频后静默删光原始文件。代码缺陷多为实现跑偏，自然语言缺陷则常涉需人工确认的模糊点。",
+      "recommend_reason": "给「狂装 Agent Skill」降降温：缺陷会被模型圆过去，装之前值得按规格做体检。",
+      "tags": [
+        "指定AI名单",
+        "AgentSkill",
+        "安全",
+        "评测",
+        "SkillSpec"
+      ],
+      "section": "指定AI名单",
+      "rank": 18
+    },
+    {
+      "id": "2102645741512700076",
+      "author": "xiaohu",
+      "bio": "",
+      "text": "Claude Opus 5.5 使用指南：从交代任务到验收结果\n\nOpus 5.5的三个变化：\n\n- Opus 5.5 比前代更能推进多步骤长任务；\n- 每次回复前会自行决定思考量；\n- 结束时更清楚地说明做了什么、发现了什么、还需要你处理什么。\n\n驾驭 Opus 5.5 的首要变化不是掌握更复杂的提示词技巧，而是减少低效的人工干预。\n\n在与它的第一次会话中，Anthropic 建议优先尝试以下三件事：\n\n交出整项任务并讲清终点：在单条消息中给出完整任务目标，明确说明“怎样才算完成”，以及“在什么情况下停下来询问”，然后让它自主运行。\n\n删掉“仔细思考”等提示词：Opus 5.5 在每次回复前已经内置深度思考，并会自行评估所需的计算量，无需再手动添加思维催促词。\n\n长任务结束时，先看它需要你做什么：当漫长的执行告一段落，第一眼先找模型抛出的卡点或需要你决策的事项，确认没有阻塞项后再去通读改动摘要。",
+      "created_at": "Wed Sep 23 06:26:24 +0000 2026",
+      "likes": 9,
+      "retweets": 0,
+      "replies": 0,
+      "views": 6636,
+      "url": "https://x.com/i/status/2102645741512700076",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS4YspOawAICKaL.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS4YspOawAICKaL.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "is_retweet": false,
+      "title": "Claude Opus 5.5 使用指南：少干预、交整活、先看卡点",
+      "summary": "总结 Opus 5.5 三变：更擅长多步骤长任务、每次回复前自决思考量、结束时更清楚汇报发现与待你处理项。驾驭重点不是更花哨提示词，而是减少低效人工干预：一条消息交整项任务并讲清完成标准与何时停问；删掉「仔细思考」类催促；长任务告一段落后先看它抛出的卡点再通读改动。",
+      "recommend_reason": "把「如何用 5.5」收成三件优先动作，适合直接贴进团队内部玩法文档。",
+      "tags": [
+        "指定AI名单",
+        "Claude",
+        "Opus5.5",
+        "工作流",
+        "提示词"
+      ],
+      "section": "指定AI名单",
+      "rank": 19
+    },
+    {
+      "id": "2102631241120157742",
+      "author": "imwsl90",
+      "bio": "",
+      "text": "在星巴克干了一件有趣的事情\n​\n​因为一个软件要在Windows下运行\n​\n​我让Omarchy下的Claude帮我分区，制作Windows镜像和U盘安装文件\n​\n​最后我安装上了Windows/Linux双系统🌚🌚🌚 https://t.co/pWBA7syHnN",
+      "created_at": "Wed Sep 23 05:28:47 +0000 2026",
+      "likes": 6,
+      "retweets": 1,
+      "replies": 24,
+      "views": 3865,
+      "url": "https://x.com/i/status/2102631241120157742",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS4L9VkboAA2W57.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS4L9VkboAA2W57.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "is_retweet": false,
+      "summary": "在星巴克干了一件有趣的事情\n\n因为一个软件要在Windows下运行\n\n我让Omarchy下的Claude帮我分区，制作Windows镜像和U盘安装文件\n\n最后我安装上了Windows/Linux双系统",
+      "recommend_reason": "咖啡馆里用 Claude 搞定分区与双系统安装介质，是「Agent 出远门」的硬核现场。",
+      "tags": [
+        "指定AI名单",
+        "Claude",
+        "运维",
+        "双系统",
+        "实战"
+      ],
+      "section": "指定AI名单",
+      "rank": 20
+    },
+    {
       "id": "2102598421106286704",
       "author": "dugujun12",
       "bio": "10年大厂运营，教育电商实战，出过畅销书。\n现在用 AI 做内容和本地工作流。\n这里公开提示词、起号复盘和失败案例。\n公众号/小红书/知乎/抖音/视频号账号：搜索“独孤菌”。\n自研 DOWORK：本地AI工作助手\nhttps://t.co/GvszyN3kBU",
@@ -34,7 +722,7 @@
       ],
       "score": 53.382,
       "title": "按「能订上谁」分三档选模型：Claude / 海外 GPT / 国产组合",
-      "rank": 1
+      "rank": 21
     },
     {
       "id": "2102596393332576667",
@@ -82,7 +770,7 @@
       "section": "指定AI名单",
       "score": 64.401,
       "title": "用 8 个 Agent Skill 拼出 Codex「游戏开发小队」：素材到联机全覆盖",
-      "rank": 2
+      "rank": 22
     },
     {
       "id": "2102582933148356780",
@@ -116,7 +804,7 @@
       ],
       "score": 58.657,
       "title": "同晚双巨头砍价：Opus 5.5 与 GPT-6 Sol/Luna 价目对照",
-      "rank": 3
+      "rank": 23
     },
     {
       "id": "2102569821997346912",
@@ -159,7 +847,7 @@
       ],
       "section": "指定AI名单",
       "score": 62.915,
-      "rank": 4
+      "rank": 24
     },
     {
       "id": "2102566868028686799",
@@ -192,7 +880,7 @@
       ],
       "section": "指定AI名单",
       "score": 61.909,
-      "rank": 5
+      "rank": 25
     },
     {
       "id": "2102546962809528325",
@@ -242,7 +930,7 @@
       ],
       "score": 58.708,
       "title": "可拿走的 Grok Bot 模板：自动管 YouTube 标题、字幕时间戳与缩略图",
-      "rank": 6
+      "rank": 26
     },
     {
       "id": "2102546341067190513",
@@ -290,7 +978,7 @@
       "section": "指定AI名单",
       "score": 64.476,
       "title": "Unsloth 拉低 Qwen-Image-2.1 门槛：12GB 级显存可起步，附常见踩坑",
-      "rank": 7
+      "rank": 27
     },
     {
       "id": "2102543349102338309",
@@ -324,7 +1012,7 @@
       "section": "指定AI名单",
       "score": 75.062,
       "title": "用 Opus 5.5 + Lean 形式化验证 Claude Agent SDK，短提示产出 16 个修 bug PR",
-      "rank": 8
+      "rank": 28
     },
     {
       "id": "2102543174992527674",
@@ -360,7 +1048,7 @@
       ],
       "score": 61.183,
       "title": "多 Grok Bot 组队通宵做 Reddit 舆情 MVP：验收不通过还能自动回流修改",
-      "rank": 9
+      "rank": 29
     },
     {
       "id": "2102533109778718759",
@@ -396,7 +1084,7 @@
       "section": "指定AI名单",
       "score": 66.016,
       "title": "同日双发：GPT-6 Sol/Luna 降价 50% + Opus 5.5 综合约省 40%，大模型进入降价年",
-      "rank": 10
+      "rank": 30
     },
     {
       "id": "2102520283618017355",
@@ -433,7 +1121,7 @@
         "马斯克"
       ],
       "score": 66.4,
-      "rank": 11
+      "rank": 31
     },
     {
       "id": "2102506476401258678",
@@ -467,7 +1155,7 @@
       "section": "指定AI名单",
       "score": 76.293,
       "title": "GPT-6 API 默认提高 prompt cache 命中，缓存输入最高可省约 90%",
-      "rank": 12
+      "rank": 32
     },
     {
       "id": "2102506477764436191",
@@ -501,7 +1189,7 @@
       "section": "指定AI名单",
       "score": 66.65,
       "title": "Prompt Caching Dashboard：看清复用了什么、为何未命中",
-      "rank": 13
+      "rank": 33
     },
     {
       "id": "2102504221648339170",
@@ -529,7 +1217,7 @@
       ],
       "score": 74.343,
       "title": "Grok Bot 桌面端合入 53 项性能修复：重连/唤醒/切视图大幅提速",
-      "rank": 14
+      "rank": 34
     },
     {
       "id": "2102500688047825354",
@@ -558,7 +1246,7 @@
       ],
       "section": "指定AI名单",
       "score": 63.776,
-      "rank": 15
+      "rank": 35
     },
     {
       "id": "2102466603111551187",
@@ -588,7 +1276,7 @@
       "section": "指定AI名单",
       "score": 73.784,
       "title": "Sam：OpenAI API 要在每一价位、每一种模态都做到最好",
-      "rank": 16
+      "rank": 36
     },
     {
       "id": "2102463847714247142",
@@ -636,7 +1324,7 @@
       "section": "指定AI名单",
       "score": 75.115,
       "title": "GPT-6 Sol / Luna 上线：全面变强且 API 永久降价 50%，并赠送额度重置",
-      "rank": 17
+      "rank": 37
     },
     {
       "id": "2102448392773435706",
@@ -667,7 +1355,7 @@
       ],
       "section": "指定AI名单",
       "score": 74.63,
-      "rank": 18
+      "rank": 38
     },
     {
       "id": "2102439872485355547",
@@ -699,7 +1387,7 @@
       "section": "指定AI名单",
       "score": 71.176,
       "title": "Perplexity Computer 接入 Opus 5.5：WANDR 0.610，单价约 $4.13 更省",
-      "rank": 19
+      "rank": 39
     },
     {
       "id": "2102439069053747549",
@@ -741,7 +1429,7 @@
       "section": "指定AI名单",
       "score": 73.783,
       "title": "Opus 5.5 vs Fable 5.1：同迁 HAProxy 到 Rust，更快且成本约省一半",
-      "rank": 20
+      "rank": 40
     },
     {
       "id": "2102438056293003424",
@@ -786,7 +1474,7 @@
       ],
       "section": "指定AI名单",
       "score": 62.081,
-      "rank": 21
+      "rank": 41
     },
     {
       "id": "2102437686967738431",
@@ -828,7 +1516,7 @@
       "section": "指定AI名单",
       "score": 75.639,
       "title": "Opus 5.5：更便宜、更省 token，并上调 5 小时限额与赠送 banked reset",
-      "rank": 22
+      "rank": 42
     },
     {
       "id": "2102437396663111969",
@@ -856,7 +1544,7 @@
       "section": "指定AI名单",
       "score": 59.999,
       "title": "技术人做产品别追求一次完美：先长文验证需求，再沉淀成 Skill",
-      "rank": 23
+      "rank": 43
     },
     {
       "id": "2102435511222890900",
@@ -887,7 +1575,7 @@
       ],
       "section": "指定AI名单",
       "score": 79.366,
-      "rank": 24
+      "rank": 44
     },
     {
       "id": "2102433483834503425",
@@ -935,7 +1623,7 @@
       "section": "指定AI名单",
       "score": 65.746,
       "title": "省 Token 闭环：Fable 出方案 → Opus 执行 → Advisor(Fable) 自动验收",
-      "rank": 25
+      "rank": 45
     },
     {
       "id": "2102427852386054221",
@@ -967,10 +1655,10 @@
       "section": "指定AI名单",
       "score": 66.178,
       "title": "Google 开源 AX：用声明式配置管 Agent 沙箱、Workspace、网关与模型",
-      "rank": 26
+      "rank": 46
     }
   ],
-  "generated_at": "2026-09-23T04:41:36Z",
+  "generated_at": "2026-09-23T17:30:57Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -978,12 +1666,12 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 26,
-    "last_batch_added": 0,
-    "last_batch_skipped_dup": 20,
+    "actual_count": 46,
+    "last_batch_added": 20,
+    "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
     "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
