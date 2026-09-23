@@ -1,12 +1,13 @@
-# Watchlist follow suggestions (2026-09-22)
+# Watchlist follow suggestions (2026-09-24)
 
 - whoami: @yangcyyang1 (profile pfzpdshj / bridge 2hfk5bw3)
-- following: 478
+- following: 479
 - watchlist handles (excl skip): 172
 - already_following (watchlist): 131
 - not_following (watchlist): 41
 - priority_core: followed 23 / missing 24
 - skipped: bot, code, indiedevhailey, wareai996
+- newly_added this merge: (none — already synced 2026-09-22)
 
 Priority order: priority_core → labs_official → research_eng → china_labs → coding_agents → news → media_av → core.
 
@@ -84,3 +85,4 @@ Priority order: priority_core → labs_official → research_eng → china_labs 
 ## Note
 
 Existing routine 「指定AI名单」 + `hard_collect_missing: true` still applies: unfollowed accounts are hard-collected via `opencli twitter tweets <user>`; followed accounts via Following search/timeline.
+Do NOT bulk-follow; suggestions only.
