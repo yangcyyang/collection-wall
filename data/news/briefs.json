@@ -113,5 +113,10 @@
     "date": "2026-09-22",
     "watch": "模型",
     "body": "今天更值得盯「模型」。头一条是小米开源 MiMo-V2.6 Pro/Flash：全模态、AA Intelligence Index 开源权重登顶（46）、Code Arena WebDev 约第10 / 开源约第3，官方还把 RSI 路径和训练环境一并放出——你这几天在比 Grok 4.7 与开源候选，优先点官方公众号或 HF collection，看能不能进 Cursor/CPA 分流。对照线卡兹克实测：Grok 4.7 低于预期、MiMo 成性能/价格/速度三角的版本答案；AA 也给了 Grok 4.7（智能体知识工作靠前、编码代理升至 56）和 Step 5 Preview（同分段成本约 1/2.8）的横向数据。产品旁线三条可快扫：OpenRouter Batch API（批量推理半价、70+ 模型）、transformers 直接加载 GGUF（本地接近 llama.cpp）、Kimi Browser Extension（侧边栏录 skill）。贴身技巧：Tomer Tunguz 写专用决策器（Jev/SemIf）把 if-then 分类成本压近百倍——正好对上你 TypeSafe/Jev usage-router 的思路，有空点原文。"
+  },
+  "2026-09-23": {
+    "date": "2026-09-23",
+    "watch": "模型",
+    "body": "今天更值得盯「模型」。主线是新一轮价格战：Anthropic 出 Claude Opus 5.5（约 Fable 5.1 级、较 Opus 5 明显降本提速，AA 指数登顶约 58），OpenAI 紧跟 GPT-6 Sol / Luna（相对 GPT-5.6 促销价约半价；Luna 低至约 $0.10/$0.50 per 1M）。Simon Willison 与 Artificial Analysis 的对照最省事；你 Anthropic 账号仍停用，优先看 Sol/Luna 能不能进 Cursor/CPA 分流，以及 OpenRouter 上的实测。贴身旁线：Qwen-Audio-3.1 全家桶（ASR/TTS/Realtime + Next，全线大幅降价）和 Qwen-Image-2.1 登顶 Arena 开源图编/文生图——语音与出图工具链值得点开；Epoch「同等性能成本每季约降 47%」和 OpenRouter「Jev vs Opus 分类」可对照你现在的廉价路由思路。"
   }
 }
