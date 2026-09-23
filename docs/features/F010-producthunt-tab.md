@@ -24,7 +24,7 @@ created: 2026-09-12
 ## Schema（`data/producthunt/digest.json`）
 ```
 source / title / date / updated_at / count / takeaways[] / recommend / products[]
-product: id, rank, name, tagline, intro, votes, producthunt_url, website
+product: id, rank, name, tagline, tagline_zh?, intro, votes, producthunt_url, website
 ```
 
 - `source` 固定 `producthunt-digest`，`title` 固定 `Product Hunt 点子日报`
@@ -33,6 +33,8 @@ product: id, rank, name, tagline, intro, votes, producthunt_url, website
 - `takeaways` 是中文字符串数组；没有就 `[]`
 - `recommend` 是字符串；没有就 `""`
 - `id` 用稳定 slug
+- `name` 保持英文产品名，v1 不写 `name_zh`
+- `tagline` 保留英文原文。若 tagline 是英文描述，另写可选 `tagline_zh`（准确中文，不译产品名）。已是中文、或没有把握时省略或 `""`，页面只显示原文
 - `intro` 约 200–300 字中文
 - `votes` 可以是数字或 `null`
 - `producthunt_url` 指向 Product Hunt 产品页；`website` 指向产品官网，没有就 `""`
@@ -48,24 +50,26 @@ product: id, rank, name, tagline, intro, votes, producthunt_url, website
 ## 页面结构
 1. 页头：栏目标题、日报 title、日期、更新时间、可选历史日期
 2. 上部：`takeaways` + `recommend`
-3. 下部：Top10 卡片（`rank` / `name` / `tagline` / `votes`）
-4. 点击卡片打开页内弹层：`intro` + 两个外链（`producthunt_url`、`website`）
+3. 下部：Top10 卡片（`rank` / `name` / `tagline` / 可选 `tagline_zh` / `votes`）。英文 tagline 下面用次要 caption 显示 `tagline_zh`；字段缺失时只显示英文，不崩
+4. 点击卡片打开页内弹层：同样的 tagline 行 + `intro` + 两个外链（`producthunt_url`、`website`）
 
 ## 研究 bot 怎么写 `digest.json`
 1. 覆盖写入 `data/producthunt/digest.json`，`source` / `title` 用上面的固定值。
 2. 把当日 Top10 放进 `products`，`id` 用稳定 slug。
 3. `takeaways` 用中文字符串数组；`recommend` 用一句话；没有就空。
-4. `count` 改成 `products.length`，刷新 `date` 与 `updated_at`。
-5. 可选：再写一份同结构的 `data/producthunt/YYYY-MM-DD.json` 做归档（页头列日期，不生成子路由）。
-6. 本地 `pnpm --dir site build` 后打开 `/producthunt/` 检查空状态、卡片和弹层。
-7. 不要把条目写进 `.astro`；JSON 是唯一真源。条目形状示例：
+4. 英文 `tagline` 同时写 `tagline_zh`。不要给 `name` 配 `name_zh`。没有合适中文就留空字符串，不要编造。
+5. `count` 改成 `products.length`，刷新 `date` 与 `updated_at`。
+6. 可选：再写一份同结构的 `data/producthunt/YYYY-MM-DD.json` 做归档（页头列日期，不生成子路由）。归档与 digest 都带上 `tagline_zh`。
+7. 本地 `pnpm --dir site build` 后打开 `/producthunt/` 检查空状态、卡片和弹层。
+8. 不要把条目写进 `.astro`；JSON 是唯一真源。条目形状示例：
 
 ```json
 {
   "id": "stable-slug",
   "rank": 1,
   "name": "Name",
-  "tagline": "",
+  "tagline": "English tagline",
+  "tagline_zh": "对应中文卖点，没有就省略或空字符串",
   "intro": "200-300字中文",
   "votes": null,
   "producthunt_url": "https://www.producthunt.com/...",

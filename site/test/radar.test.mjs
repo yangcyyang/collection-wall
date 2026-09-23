@@ -22,6 +22,7 @@ import {
   homepageSignals,
   radarConfidenceLabel,
   radarStatusLabel,
+  radarTagLabel,
   relatedSignalLabels,
   sortEvidenceByDate,
 } from "../src/lib/radar.mjs";
@@ -174,6 +175,32 @@ test("构建产物 /radar/ 用弹层展示详情，证据为外链", async (t) =
   assert.match(html, /新兴信号/);
   assert.match(html, /观察名单/);
   assert.doesNotMatch(html, /href="\/radar\/[^"]+"/);
+});
+
+test("radarTagLabel 已知标签中英并列，未知与已有中文原样返回", () => {
+  assert.equal(radarTagLabel("Pricing"), "Pricing（定价）");
+  assert.equal(radarTagLabel("MCP"), "MCP（模型上下文协议）");
+  assert.equal(radarTagLabel("Skills"), "Skills（技能）");
+  assert.equal(radarTagLabel("Harness"), "Harness（编排）");
+  assert.equal(radarTagLabel("harness"), "harness（编排）");
+  assert.equal(radarTagLabel("Agent Teammate"), "Agent Teammate（智能体队友）");
+  assert.equal(radarTagLabel("Coding agent"), "Coding agent（编码智能体）");
+  for (const tag of ["OpenAI", "Anthropic", "Kimi", "Cursor", "Claude Code", "GPT-6", "Work", "Zypher"]) {
+    assert.equal(radarTagLabel(tag), tag);
+  }
+  assert.equal(radarTagLabel("医疗"), "医疗");
+  assert.equal(radarTagLabel("手机 agent"), "手机 agent");
+  assert.equal(radarTagLabel(""), "");
+  assert.equal(radarTagLabel(null), "");
+});
+
+test("雷达卡片与详情弹层用 radarTagLabel，产品弹层也展示 tags", async () => {
+  const page = await readFile(new URL("../src/pages/radar.astro", import.meta.url), "utf8");
+  const viewer = await readFile(new URL("../src/components/RadarViewer.astro", import.meta.url), "utf8");
+  assert.match(page, /radarTagLabel/);
+  assert.equal(page.match(/radarTagLabel/g).length >= 3, true);
+  assert.match(viewer, /data-radar-template=\{`product:/);
+  assert.equal(viewer.match(/radarTagLabel/g).length >= 2, true);
 });
 
 test("损坏的 JSON 与空 items 不让站点崩", async () => {

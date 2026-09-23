@@ -13,6 +13,7 @@ export type ProducthuntProduct = {
   rank: number | "";
   name: string;
   tagline: string;
+  tagline_zh: string;
   intro: string;
   votes: number | null;
   producthunt_url: string;

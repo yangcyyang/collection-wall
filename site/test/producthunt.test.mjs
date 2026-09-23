@@ -78,6 +78,7 @@ test("getProductById 按 id 取产品，未知 id 为 null", async () => {
           rank: 1,
           name: "Name",
           tagline: "一行卖点",
+          tagline_zh: "预置中文卖点",
           intro: "中文介绍",
           votes: 128,
           producthunt_url: "https://www.producthunt.com/posts/name",
@@ -90,6 +91,7 @@ test("getProductById 按 id 取产品，未知 id 为 null", async () => {
   const item = await getProductById("stable-slug", file);
   assert.equal(item?.id, "stable-slug");
   assert.equal(item?.name, "Name");
+  assert.equal(item?.tagline_zh, "预置中文卖点");
   assert.equal(item?.rank, 1);
   assert.equal(item?.votes, 128);
   assert.equal(await getProductById("does-not-exist", file), null);
@@ -112,6 +114,7 @@ test("可选字段缺失时仍能规范化条目，不抛错", async () => {
   assert.equal(item?.id, "bare");
   assert.equal(item?.name, "只有名字");
   assert.equal(item?.tagline, "");
+  assert.equal(item?.tagline_zh, "");
   assert.equal(item?.intro, "");
   assert.equal(item?.rank, "");
   assert.equal(item?.votes, null);
@@ -120,6 +123,35 @@ test("可选字段缺失时仍能规范化条目，不抛错", async () => {
   const feed = await getDigestFeed(file);
   assert.deepEqual(feed.takeaways, []);
   assert.equal(feed.recommend, "");
+});
+
+test("当日 digest 与同日归档写入 tagline_zh，产品名保持英文", async () => {
+  const dated = JSON.parse(await readFile(resolve(producthuntDir, "2026-09-23.json"), "utf8"));
+  for (const raw of [JSON.parse(await readFile(digestFile, "utf8")), dated]) {
+    assert.equal(raw.date, "2026-09-23");
+    assert.equal(raw.products.length, 10);
+    for (const item of raw.products) {
+      assert.equal(typeof item.name, "string");
+      assert.equal(item.name_zh, undefined);
+      assert.equal(typeof item.tagline_zh, "string");
+      assert.ok(item.tagline_zh.length > 0, `${item.id} 缺少 tagline_zh`);
+      assert.notEqual(item.tagline_zh, item.tagline);
+    }
+  }
+  const feed = await getDigestFeed(digestFile);
+  assert.equal(feed.products[0].tagline_zh, "经 MCP 提供的本地 AI 智能体记忆");
+  assert.equal(feed.products[0].name, "Contextberg");
+});
+
+test("tagline_zh 缺失时列表和弹层仍只显示英文 tagline", async () => {
+  const page = await readFile(new URL("../src/pages/producthunt.astro", import.meta.url), "utf8");
+  const viewer = await readFile(new URL("../src/components/ProducthuntViewer.astro", import.meta.url), "utf8");
+  assert.match(page, /item\.tagline &&/);
+  assert.match(page, /item\.tagline_zh &&/);
+  assert.match(viewer, /item\.tagline &&/);
+  assert.match(viewer, /item\.tagline_zh &&/);
+  assert.doesNotMatch(page, /translateTagline|en-zh/);
+  assert.doesNotMatch(viewer, /translateTagline|en-zh/);
 });
 
 test("Product Hunt 列表页用按钮打开弹层，不生成按日或按 id 子路由", async () => {

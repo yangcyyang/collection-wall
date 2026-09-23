@@ -41,6 +41,7 @@ function normalizeProduct(raw) {
     rank: asRank(item.rank),
     name: asText(item.name),
     tagline: asText(item.tagline),
+    tagline_zh: asText(item.tagline_zh),
     intro: asText(item.intro),
     votes: asVotes(item.votes),
     producthunt_url: asText(item.producthunt_url),

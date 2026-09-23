@@ -20,6 +20,7 @@ const { items = [] } = Astro.props;
         <div>
           <h2 id="ph-viewer-title">{item.name}</h2>
           {item.tagline && <p class="radar-viewer-summary">{item.tagline}</p>}
+          {item.tagline_zh && <p class="radar-viewer-summary tagline-zh">{item.tagline_zh}</p>}
         </div>
         <div class="radar-viewer-meta">
           {item.rank !== "" && <span class="tweet-score">{item.rank}</span>}

@@ -93,7 +93,12 @@ const recommend = feed.recommend;
                       )}
                     </div>
                     <h3>{item.name}</h3>
-                    {item.tagline && <p>{item.tagline}</p>}
+                    {item.tagline && (
+                      <div class="bilingual-copy">
+                        <p>{item.tagline}</p>
+                        {item.tagline_zh && <p class="tagline-zh">{item.tagline_zh}</p>}
+                      </div>
+                    )}
                   </div>
                 </article>
               ))}
