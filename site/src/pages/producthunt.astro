@@ -3,6 +3,7 @@ import "../styles/global.css";
 import LogoutControl from "../components/LogoutControl.astro";
 import SiteNav from "../components/SiteNav.astro";
 import ProducthuntViewer from "../components/ProducthuntViewer.astro";
+import { translateTagline } from "../lib/en-zh.mjs";
 import { formatBeijingDateTime } from "../lib/news.mjs";
 import {
   getDigestFeed,
@@ -82,21 +83,29 @@ const recommend = feed.recommend;
               <p>{products.length} 个</p>
             </div>
             <div class="tool-grid">
-              {products.map((item) => (
-                <article class="tool-card">
-                  <button type="button" class="card-link" data-ph-open data-ph-key={item.id} aria-label={item.name}></button>
-                  <div class="card-content">
-                    <div class="card-meta">
-                      {item.rank !== "" && <span class="tweet-score">{item.rank}</span>}
-                      {producthuntVotesLabel(item.votes) && (
-                        <span class="category">{producthuntVotesLabel(item.votes)}</span>
+              {products.map((item) => {
+                const taglineZh = translateTagline(item.tagline, item.tagline_zh);
+                return (
+                  <article class="tool-card">
+                    <button type="button" class="card-link" data-ph-open data-ph-key={item.id} aria-label={item.name}></button>
+                    <div class="card-content">
+                      <div class="card-meta">
+                        {item.rank !== "" && <span class="tweet-score">{item.rank}</span>}
+                        {producthuntVotesLabel(item.votes) && (
+                          <span class="category">{producthuntVotesLabel(item.votes)}</span>
+                        )}
+                      </div>
+                      <h3>{item.name}</h3>
+                      {item.tagline && (
+                        <div class="bilingual-copy">
+                          <p>{item.tagline}</p>
+                          {taglineZh && <p class="zh-gloss">{taglineZh}</p>}
+                        </div>
                       )}
                     </div>
-                    <h3>{item.name}</h3>
-                    {item.tagline && <p>{item.tagline}</p>}
-                  </div>
-                </article>
-              ))}
+                  </article>
+                );
+              })}
             </div>
           </section>
         </main>

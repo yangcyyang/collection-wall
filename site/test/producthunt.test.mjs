@@ -78,6 +78,7 @@ test("getProductById 按 id 取产品，未知 id 为 null", async () => {
           rank: 1,
           name: "Name",
           tagline: "一行卖点",
+          tagline_zh: "预置中文卖点",
           intro: "中文介绍",
           votes: 128,
           producthunt_url: "https://www.producthunt.com/posts/name",
@@ -90,6 +91,7 @@ test("getProductById 按 id 取产品，未知 id 为 null", async () => {
   const item = await getProductById("stable-slug", file);
   assert.equal(item?.id, "stable-slug");
   assert.equal(item?.name, "Name");
+  assert.equal(item?.tagline_zh, "预置中文卖点");
   assert.equal(item?.rank, 1);
   assert.equal(item?.votes, 128);
   assert.equal(await getProductById("does-not-exist", file), null);
@@ -112,6 +114,7 @@ test("可选字段缺失时仍能规范化条目，不抛错", async () => {
   assert.equal(item?.id, "bare");
   assert.equal(item?.name, "只有名字");
   assert.equal(item?.tagline, "");
+  assert.equal(item?.tagline_zh, "");
   assert.equal(item?.intro, "");
   assert.equal(item?.rank, "");
   assert.equal(item?.votes, null);
