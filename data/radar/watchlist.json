@@ -1,9 +1,80 @@
 {
   "source": "AI Frontier Radar",
   "title": "观察名单",
-  "updated_at": "2026-09-22T08:20:00+08:00",
-  "count": 53,
+  "updated_at": "2026-09-23T08:25:00+08:00",
+  "count": 59,
   "items": [
+    {
+      "id": "freebuff-agentic-ads-reaction",
+      "title": "Freebuff agentic ads 开发者接受度",
+      "why": "agent 内赞助实现建议：看转化与反感，是否催生同类投放面。",
+      "since": "2026-09-23T08:25:00+08:00",
+      "last_updated": "2026-09-23T08:25:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "agent-commerce-surfaces"
+      ]
+    },
+    {
+      "id": "kimi-browser-skill-recording",
+      "title": "Kimi 浏览器录制 skill 是否形成习惯",
+      "why": "teach-by-showing → skill 是否从演示变成日常自动化。",
+      "since": "2026-09-23T08:25:00+08:00",
+      "last_updated": "2026-09-23T08:25:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "skills-as-distribution",
+        "agent-persistent-computer"
+      ]
+    },
+    {
+      "id": "resumecontext-shared-memory-uptake",
+      "title": "ResumeContext 跨 agent 共享记忆采用",
+      "why": "是否成为撞用量上限后换 agent 的默认恢复层。",
+      "since": "2026-09-23T08:25:00+08:00",
+      "last_updated": "2026-09-23T08:25:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "apache-maka-durable-workspace",
+        "harness-control-plane"
+      ]
+    },
+    {
+      "id": "plane-agents-teammate-adoption",
+      "title": "Plane Agents 真实渗透与审计采用",
+      "why": "agent-as-teammate 进 PM 工作图；看 credits 计费与审计轨迹是否被团队默认打开。",
+      "since": "2026-09-23T08:25:00+08:00",
+      "last_updated": "2026-09-23T08:25:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "multi-agent-team-orchestration",
+        "agent-persistent-computer"
+      ]
+    },
+    {
+      "id": "gpt6-sol-luna-default-uptake",
+      "title": "GPT-6 Sol/Luna 是否成为 Work/Codex 默认档",
+      "why": "半价 Astra 能力下沉；观察是否替换 5.6 促销档成为规模化默认。",
+      "since": "2026-09-23T08:25:00+08:00",
+      "last_updated": "2026-09-23T08:25:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "agent-flash-over-pro-economics",
+        "harness-control-plane"
+      ]
+    },
+    {
+      "id": "opus-5-5-workhorse-uptake",
+      "title": "Claude Opus 5.5 是否成为默认 coding workhorse",
+      "why": "近 Fable 级 + 降价 40% + Cursor 当日接入；看 Pro/Max 用量与 CursorBench 是否稳住。",
+      "since": "2026-09-23T08:25:00+08:00",
+      "last_updated": "2026-09-23T08:25:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "agent-flash-over-pro-economics",
+        "harness-control-plane"
+      ]
+    },
     {
       "id": "superset-mobile-afk-uptake",
       "title": "Superset Mobile AFK coding 控制面采用",

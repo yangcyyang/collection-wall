@@ -1,9 +1,200 @@
 {
   "source": "AI Frontier Radar",
   "title": "新产品",
-  "updated_at": "2026-09-22T08:20:00+08:00",
-  "count": 108,
+  "updated_at": "2026-09-23T08:25:00+08:00",
+  "count": 117,
   "items": [
+    {
+      "id": "kimi-k3-amazon-bedrock",
+      "name": "Kimi K3 on Amazon Bedrock",
+      "score": 74,
+      "status": "new",
+      "first_detected": "2026-09-23T08:25:00+08:00",
+      "last_updated": "2026-09-23T08:25:00+08:00",
+      "summary": "Kimi K3 上线 Amazon Bedrock：编码/文档/长程 agent + explicit prompt caching，带 Bedrock 访问/加密/审计。渠道扩展 → pool。",
+      "novelty": "分发渠道（Bedrock）扩展，非新模型首发。",
+      "urls": {
+        "x": "https://x.com/Kimi_Moonshot/status/2102244258531213596"
+      },
+      "tags": [
+        "Kimi",
+        "Bedrock",
+        "Distribution",
+        "AWS"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "openai-gpt6-prompt-caching",
+      "name": "GPT-6 Prompt Caching",
+      "score": 76,
+      "status": "new",
+      "first_detected": "2026-09-23T08:25:00+08:00",
+      "last_updated": "2026-09-23T08:25:00+08:00",
+      "summary": "更高命中率 + 诊断/监控 + 显式 breakpoint；同会话可改 reasoning effort 不打断 cache——面向长跑 coding/文档 agent。属 Sol/Luna 同日成本叙事的基础设施，进 pool。",
+      "novelty": "Agent 成本战从模型价延伸到可控缓存前缀。",
+      "urls": {
+        "official": "https://openai.com/index/better-prompt-caching-for-gpt-6"
+      },
+      "tags": [
+        "OpenAI",
+        "Caching",
+        "Harness",
+        "Cost"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "weweb-mcp",
+      "name": "WeWeb MCP",
+      "score": 82,
+      "status": "new",
+      "first_detected": "2026-09-23T08:25:00+08:00",
+      "last_updated": "2026-09-23T08:25:00+08:00",
+      "summary": "任意 MCP agent 指向 WeWeb 建页/工作流/数据/鉴权；变更进可视化编辑器，构建前范围防火墙 + 构建后人工审阅。PH ~105 票。第 4 次 WeWeb 发版，机制仍清晰 → pool。",
+      "novelty": "Agent 建生产应用的 HITL 沙箱，不是黑盒 vibe codegen。",
+      "urls": {
+        "site": "https://www.weweb.io",
+        "producthunt": "https://www.producthunt.com/products/weweb-io"
+      },
+      "tags": [
+        "MCP",
+        "HITL",
+        "No-code",
+        "Sandbox"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "freebuff-ads",
+      "name": "Freebuff Ads",
+      "score": 85,
+      "status": "new",
+      "first_detected": "2026-09-23T08:25:00+08:00",
+      "last_updated": "2026-09-23T08:25:00+08:00",
+      "summary": "免费 coding agent（CLI/桌面/Web）内的广告网：展示广告 + agentic ads（agent 建议在用户项目里实现广告主产品）。PH ~136 票（09-22）。注意公司另售社交互动加成——信号在 agentic-ad 机制。",
+      "novelty": "Agent 本身成为投放面：机器定价的分发，而不是博客横幅。",
+      "urls": {
+        "site": "https://freebuff.com/advertisers",
+        "producthunt": "https://www.producthunt.com/products/freebuff-2"
+      },
+      "tags": [
+        "Agent Commerce",
+        "Ads",
+        "Coding Agent",
+        "Distribution"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "kimi-browser-extension",
+      "name": "Kimi Browser Extension",
+      "score": 86,
+      "status": "new",
+      "first_detected": "2026-09-23T08:25:00+08:00",
+      "last_updated": "2026-09-23T08:25:00+08:00",
+      "summary": "原 WebBridge：浏览器侧边栏与 Kimi 对话即可导航/填表；重复任务可录制步骤存为 skill，下次自动执行。kimi.com + Chrome Web Store 可用。",
+      "novelty": "侧边栏 agent + 录制即 skill 的交互，而不是又一次模型发版。",
+      "urls": {
+        "x": "https://x.com/Kimi_Moonshot/status/2102372557190230244",
+        "site": "https://www.kimi.com"
+      },
+      "tags": [
+        "Kimi",
+        "Browser Agent",
+        "Skills",
+        "Teach-by-showing"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "resumecontext",
+      "name": "ResumeContext",
+      "score": 88,
+      "status": "new",
+      "first_detected": "2026-09-23T08:25:00+08:00",
+      "last_updated": "2026-09-23T08:25:00+08:00",
+      "summary": "项目级共享归档：daemon ~20s 同步 Claude Code/Cursor/Codex/opencode 磁盘 transcript，经 MCP 暴露；换 agent 或撞用量上限无需重 brief，引用到人/会话/行。PH ~71 票（未验证 LB）。",
+      "novelty": "跨 coding agent 的共享记忆层，上下文不再锁在单台笔记本。",
+      "urls": {
+        "site": "https://resumecontext.com",
+        "producthunt": "https://www.producthunt.com/products/resumecontext"
+      },
+      "tags": [
+        "Shared Memory",
+        "MCP",
+        "Coding Agent",
+        "Harness"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "plane-agents",
+      "name": "Plane Agents",
+      "score": 90,
+      "status": "new",
+      "first_detected": "2026-09-23T08:25:00+08:00",
+      "last_updated": "2026-09-23T08:25:00+08:00",
+      "summary": "在 Plane 工作图上把 agent 做成一等队友：playbook + 可复用 skills + MCP + 项目范围 + 指派/提及/日程触发 + run memory；动作进与人相同的审计轨迹；按 AI credits 而非 per-agent 席位计费。PH ~112 票（09-22）。",
+      "novelty": "Agent-as-teammate 进 PM 工作图，不是又一个聊天机器人。",
+      "urls": {
+        "site": "https://plane.so/agents",
+        "producthunt": "https://www.producthunt.com/products/planehq"
+      },
+      "tags": [
+        "Agent Teammate",
+        "PM",
+        "MCP",
+        "Skills",
+        "Credits"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "gpt-6-sol-luna",
+      "name": "GPT-6 Sol & Luna",
+      "score": 95,
+      "status": "new",
+      "first_detected": "2026-09-23T08:25:00+08:00",
+      "last_updated": "2026-09-23T08:25:00+08:00",
+      "summary": "OpenAI 将 Astra 代能力蒸馏进更快更便宜的 Sol/Luna；API 相对 GPT-5.6 促销价再降 50%；当日进 ChatGPT Work + Codex + API，Free/Go 桌面可试 Luna。",
+      "novelty": "旗舰下沉到工作流默认档，半价直接对撞同日 Opus 5.5。",
+      "urls": {
+        "official": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+        "x_openai": "https://x.com/OpenAI/status/2102460975790137662"
+      },
+      "tags": [
+        "OpenAI",
+        "GPT-6",
+        "Pricing",
+        "Work",
+        "Codex"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "claude-opus-5-5",
+      "name": "Claude Opus 5.5",
+      "score": 96,
+      "status": "new",
+      "first_detected": "2026-09-23T08:25:00+08:00",
+      "last_updated": "2026-09-23T08:25:00+08:00",
+      "summary": "Anthropic Claude 5.5 家族首模：多数任务对标 Fable 5.1，相对 Opus 5 约降 40% 成本；当日全平台可用，Cursor 接入并登顶 CursorBench Max 57.8%。",
+      "novelty": "近旗舰能力压进更低 Opus 价位，同日进 Cursor — 定价战 + harness 默认档切换。",
+      "urls": {
+        "official": "https://www.anthropic.com/news/claude-opus-5-5",
+        "x_claude": "https://x.com/claudeai/status/2102435511222890900",
+        "x_cursor": "https://x.com/cursor_ai/status/2102448392773435706"
+      },
+      "tags": [
+        "Anthropic",
+        "Opus",
+        "Pricing",
+        "Cursor",
+        "Frontier"
+      ],
+      "homepage": true
+    },
     {
       "id": "chatgpt-experian-credit-score",
       "name": "ChatGPT × Experian Credit Score",
@@ -51,7 +242,7 @@
       "score": 81,
       "status": "new",
       "first_detected": "2026-09-22T08:20:00+08:00",
-      "last_updated": "2026-09-22T08:20:00+08:00",
+      "last_updated": "2026-09-23T08:25:00+08:00",
       "summary": "Google Labs 家庭共享 agent（最多 6 人，各自选择分享范围），对齐日程后勤。PH 约 115 票。",
       "novelty": "多用户共享 agent 作为一等产品，而非单人聊天。",
       "urls": {
@@ -63,13 +254,14 @@
         "Shared Agent",
         "Household"
       ],
-      "homepage": false
+      "homepage": false,
+      "ph_votes_latest": 118
     },
     {
       "id": "epismo-os",
       "name": "Epismo OS",
       "score": 85,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-22T08:20:00+08:00",
       "last_updated": "2026-09-22T08:20:00+08:00",
       "summary": "Case 作为跨工具持久工作态（结果/决策/评审/下一步）+ MCP Cases/Playbooks，切换 Claude Code/Codex 等无需重 brief。PH 约 94 票（09-20）。",
@@ -84,15 +276,15 @@
         "Portable Work",
         "Harness"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "superset-mobile",
       "name": "Superset Mobile",
       "score": 87,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-22T08:20:00+08:00",
-      "last_updated": "2026-09-22T08:20:00+08:00",
+      "last_updated": "2026-09-23T08:25:00+08:00",
       "summary": "iPhone 上接管桌面同一套 coding-agent 工作区：看 diff、合 PR，对接 Claude Code / Codex / 终端 agent。PH 约 411 票。",
       "novelty": "把 AFK HITL 从审批推到「口袋里的 coding 控制面」。",
       "urls": {
@@ -105,13 +297,14 @@
         "Coding Agent",
         "HITL"
       ],
-      "homepage": true
+      "homepage": false,
+      "ph_votes_latest": 499
     },
     {
       "id": "googlebook-on-device-gemini-agent-laptop",
       "name": "Googlebook",
       "score": 87,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-22T08:20:00+08:00",
       "last_updated": "2026-09-22T08:20:00+08:00",
       "summary": "Google 开预购 Googlebook（$899 起）：Magic Pointer 屏幕上下文 agent、Gemini Spark 合盖长任务、完整 Linux 终端可跑 Claude Code / Antigravity——laptop 被定位为本地 agent 壳。",
@@ -126,15 +319,15 @@
         "Gemini",
         "Hardware"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "arcjet-agent-runtime-security",
       "name": "Arcjet",
       "score": 89,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-22T08:20:00+08:00",
-      "last_updated": "2026-09-22T08:20:00+08:00",
+      "last_updated": "2026-09-23T08:25:00+08:00",
       "summary": "Agent 运行时安全库：检测 prompt injection、授权 tool call、脱敏、配额与审计——嵌在 agent 路径里，而不是外挂 WAF。PH 约 336 票。",
       "novelty": "把门禁从「部署前检查」推进到「每次 tool call 运行时 enforce」。",
       "urls": {
@@ -146,15 +339,16 @@
         "Agent Runtime",
         "Tool Calls"
       ],
-      "homepage": true
+      "homepage": false,
+      "ph_votes_latest": 392
     },
     {
       "id": "jev-decision-only",
       "name": "Jev",
       "score": 91,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-22T08:20:00+08:00",
-      "last_updated": "2026-09-22T08:20:00+08:00",
+      "last_updated": "2026-09-23T08:25:00+08:00",
       "summary": "TypeSafe System One：非结构化状态进 → typed 概率决策（Choice/Score/Noul）出，亚秒决策 API，面向路由/分流/门禁。PH 约 397 票。",
       "novelty": "把「决策机」做成产品面，而不是又一个聊天模型。",
       "urls": {
@@ -167,13 +361,14 @@
         "System One",
         "Decision"
       ],
-      "homepage": true
+      "homepage": false,
+      "ph_votes_latest": 520
     },
     {
       "id": "xiaomi-mimo-v2-6",
       "name": "Xiaomi MiMo-V2.6",
       "score": 91,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-22T08:20:00+08:00",
       "last_updated": "2026-09-22T08:20:00+08:00",
       "summary": "小米开源 MiMo-V2.6 Pro/Flash 双 omnimodal；官方称 Pro 在多数 agent 基准对齐 Opus 5 / GPT-5.6 Sol；同步开源报告、7K+ RL 环境、端到端 RL 框架、mini-harnesses，并推 MiMo Desktop。",
@@ -188,15 +383,15 @@
         "Omnimodal",
         "RL"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "sai-simular-fleet",
       "name": "Sai (Simular)",
       "score": 93,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-22T08:20:00+08:00",
-      "last_updated": "2026-09-22T08:20:00+08:00",
+      "last_updated": "2026-09-23T08:25:00+08:00",
       "summary": "Robosecretary 编排一支自主电脑舰队：按需唤醒、任务中恢复、mutex 防抢机；每台用 Smart Snapshot 读屏操作 GUI。PH 约 305 票。",
       "novelty": "Agent computer 从「一台 demo 机」升级到可运维的舰队控制面。",
       "urls": {
@@ -209,13 +404,14 @@
         "Simular",
         "GUI"
       ],
-      "homepage": true
+      "homepage": false,
+      "ph_votes_latest": 417
     },
     {
       "id": "grok-4-7",
       "name": "Grok 4.7",
       "score": 93,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-22T08:20:00+08:00",
       "last_updated": "2026-09-22T08:20:00+08:00",
       "summary": "xAI 发布 Grok 4.7：相对 4.6 明显更强的长程任务与自检，同价同速（$2/$6）；原生吃 Grok Bot harness；Cursor / Grok Build / API / GitHub Copilot 同日可用。",
@@ -233,7 +429,7 @@
         "Harness",
         "Cursor"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "productbridge",

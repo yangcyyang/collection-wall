@@ -1,7 +1,7 @@
 {
   "source": "AI Frontier Radar",
   "title": "前沿信号",
-  "updated_at": "2026-09-22T08:20:00+08:00",
+  "updated_at": "2026-09-23T08:25:00+08:00",
   "count": 16,
   "items": [
     {
@@ -171,12 +171,12 @@
     {
       "id": "agent-commerce-surfaces",
       "title": "Agent 正在变成可投放、可售卖的商务界面",
-      "type": "emerging_signal",
-      "score": 88,
+      "type": "strong_signal",
+      "score": 92,
       "confidence": "medium",
       "status": "strengthening",
       "first_detected": "2026-09-17T08:20:00+08:00",
-      "last_updated": "2026-09-18T08:20:00+08:00",
+      "last_updated": "2026-09-23T08:25:00+08:00",
       "summary": "Sponsored Agents（对人投放的赞助 agent）与 ZeroClick（卖给 agent 的 x402 店面）之外，PH 上 Text Agent Store 试探 SMS/iMessage 零安装 agent 市集——agent 既是广告落地页、采购方，也开始有面向人的发现/交易面。",
       "why_it_matters": "如果 agent 既是广告落地页又是采购方，分发与计价会从座位/token 转向会话转化与机器结算——这是新商业原语，而不只是又一个聊天插件。",
       "tags": [
@@ -188,6 +188,12 @@
         "ZeroClick"
       ],
       "evidence": [
+        {
+          "url": "https://www.producthunt.com/products/freebuff-2",
+          "source": "producthunt",
+          "note": "Freebuff Ads：display + agentic ads 在免费 coding agent 内",
+          "date": "2026-09-22"
+        },
         {
           "url": "https://www.producthunt.com/products/text-agent-store",
           "source": "producthunt",
@@ -214,6 +220,7 @@
         }
       ],
       "watch_next": [
+        "agentic ads 真实转化与开发者反感阈值",
         "Sponsored Agents 是否扩出 HubSpot/Shopify 首批",
         "ZeroClick 真实 agent 采购成交与结算纠纷",
         "是否出现标准 agent 商品描述/发现协议"
@@ -229,7 +236,7 @@
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-22T08:20:00+08:00",
+      "last_updated": "2026-09-23T08:25:00+08:00",
       "summary": "Claude Code Projects 重设计：从一会话调度并行云端 threads（各为独立会话/分支），共享 memory 与 artifact library，关电脑后仍继续，可从手机督导；本周对部分 Pro/Max 云会话扩量，本地工具随后。叠加前日 Cowork×chat 合并、jurniti / Cursor Projects / Muse Secure VM——「关盖还在跑」的持久 agent 电脑已成主流产品原语。",
       "why_it_matters": "叙事从「模型会点鼠标」变成「每人一台隔离 VM 里的代理」。Sentinel/审批/审计说明大众 agent 的产品化关键是安全电脑，而不是更长的聊天窗口。",
       "tags": [
@@ -243,6 +250,24 @@
         "Sentinel"
       ],
       "evidence": [
+        {
+          "url": "https://x.ai/news/grok-bot-customer-support",
+          "source": "official",
+          "note": "xAI：Grok Bot 吃掉合并后客服负载（运营实证）",
+          "date": "2026-09-22"
+        },
+        {
+          "url": "https://plane.so/agents",
+          "source": "product",
+          "note": "Plane Agents：工作区一等 agent 队友",
+          "date": "2026-09-22"
+        },
+        {
+          "url": "https://x.com/Kimi_Moonshot/status/2102372557190230244",
+          "source": "official",
+          "note": "Kimi Browser Extension：侧边栏导航/填表 + 录制 skill",
+          "date": "2026-09-22T20:20:52+08:00"
+        },
         {
           "url": "https://x.com/XiaomiMiMo/status/2102138585491361942",
           "source": "x",
@@ -368,24 +393,6 @@
           "source": "official",
           "note": "Maritime：每个客户的智能体一台隔离电脑，每月 1 美元起",
           "date": "2026-08-30T00:00:00+08:00"
-        },
-        {
-          "url": "https://github.com/useagenthq/useagent",
-          "source": "github",
-          "note": "useagent 于 8 月 29 日创建，现 151 星（板上 129），沙箱同事",
-          "date": "2026-09-01T08:50:00+08:00"
-        },
-        {
-          "url": "https://omlx.ai",
-          "source": "official",
-          "note": "oMLX：给本地编程智能体做分页固态硬盘缓存",
-          "date": "2026-08-30T00:00:00+08:00"
-        },
-        {
-          "url": "https://x.com/i/status/2094109187903254553",
-          "source": "community",
-          "note": "电脑操控被一线当成「聊天到编程」之后的下一跳",
-          "date": "2026-08-31T00:00:00+08:00"
         }
       ],
       "watch_next": [
@@ -561,7 +568,7 @@
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-08-28T00:00:00+08:00",
-      "last_updated": "2026-09-22T08:20:00+08:00",
+      "last_updated": "2026-09-23T08:25:00+08:00",
       "summary": "Weave Router 2.0 按复杂度/配额/缓存在 Claude↔Codex/Cursor 间路由；Bitrise Remote Dev Environments 用 MCP 拉起与 CI 同构的云 Mac/Linux；Claude Projects 把协调器做成产品原语。控制面继续从「编排模型」扩到「路由订阅 + 生产同构电脑」。",
       "why_it_matters": "第三方不必自建控制面即可嵌入同一套 agent loop；许可/沙箱/会话成为平台原语，而不只是应用层胶水。",
       "tags": [
@@ -575,6 +582,24 @@
         "沙箱"
       ],
       "evidence": [
+        {
+          "url": "https://plane.so/agents",
+          "source": "product",
+          "note": "Plane Agents：指派/触发/审计轨迹进 PM 工作图",
+          "date": "2026-09-22"
+        },
+        {
+          "url": "https://resumecontext.com",
+          "source": "product",
+          "note": "ResumeContext：项目级共享 coding-agent transcript via MCP",
+          "date": "2026-09-22"
+        },
+        {
+          "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+          "source": "official",
+          "note": "GPT-6 更高命中率缓存 + 显式 breakpoint，服务长跑 agent",
+          "date": "2026-09-22T21:00:00Z"
+        },
         {
           "url": "https://www.producthunt.com/products/superset-5",
           "source": "producthunt",
@@ -700,24 +725,6 @@
           "source": "official",
           "date": "2026-08-29T00:00:00+08:00",
           "note": "Grok Bot 一等公民接上 X"
-        },
-        {
-          "url": "https://x.com/thsottiaux/status/2094144275957350900",
-          "source": "community",
-          "date": "2026-08-31T00:00:00+08:00",
-          "note": "Tibo：Codex 与 ChatGPT Work 额度重置在太平洋时间下午 6 点落地，并点名 /fast"
-        },
-        {
-          "url": "https://cursor.com/changelog",
-          "source": "official",
-          "note": "Cursor changelog Sep 2：self-hosted cloud agents / machine pools",
-          "date": "2026-09-02T00:00:00+08:00"
-        },
-        {
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.271",
-          "source": "official",
-          "note": "Claude Code 2.1.271：auto 沙箱 per-command allowed_domains；子 agent omitClaudeMd",
-          "date": "2026-09-15T06:12:00+08:00"
         }
       ],
       "watch_next": [
@@ -882,11 +889,11 @@
       "id": "multi-agent-team-orchestration",
       "title": "多智能体对抗式协作正在变成可编程的运行时模式",
       "type": "strong_signal",
-      "score": 95,
+      "score": 96,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-09-01T08:50:00+08:00",
-      "last_updated": "2026-09-16T08:20:00+08:00",
+      "last_updated": "2026-09-23T08:25:00+08:00",
       "summary": "Cursor Projects / Claude 高并发之外，社区出现 Plasma Radio：跨 Claude/Codex/Grok/Cursor 的共享房间，让多 agent 直接对话、减少人复制粘贴路由——编排从「单 runtime 舰队」扩到「跨提供商会话总线」。",
       "why_it_matters": "协作单元从「一次 chat 一次任务」变成「一个项目一台 agent 团队」，会改写工具默认信息架构与计费。",
       "tags": [
@@ -896,6 +903,12 @@
         "Antigravity"
       ],
       "evidence": [
+        {
+          "url": "https://plane.so/agents",
+          "source": "product",
+          "note": "Plane Agents：assign/mention/schedule + shared audit trail",
+          "date": "2026-09-22"
+        },
         {
           "url": "https://x.com/rohanpaul_ai/status/2100003417926291532",
           "source": "community",
@@ -1030,7 +1043,7 @@
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-09-14T08:20:00+08:00",
-      "last_updated": "2026-09-22T08:20:00+08:00",
+      "last_updated": "2026-09-23T08:25:00+08:00",
       "summary": "Anthropic 公开三项可对标的实验室节奏度量：AI 完成多少 AI R&D、agent 被监管得如何、算力如何分配，并承诺嵌入多组织第三方评估员；叠加 OpenAI misalignment 披露框架与 DeepMind Institute——pacing 从口头表态推进到可复述的生产过程指标与常设治理平台。",
       "why_it_matters": "pacing 从「承诺让评估者进驻」推进到「能力跃迁前的可审计工件（safety cases）」——把放慢做成研发门控，而不只是发布门控。",
       "tags": [
@@ -1043,6 +1056,18 @@
         "治理"
       ],
       "evidence": [
+        {
+          "url": "https://www.anthropic.com/news/claude-opus-5-5",
+          "source": "official",
+          "note": "Opus 5.5：METR/Frontier Design 预发布评测与 behavioral audit",
+          "date": "2026-09-22"
+        },
+        {
+          "url": "https://x.com/OpenAI/status/2102447425243828347",
+          "source": "official",
+          "note": "pace the frontier：独立评估更深访问 + 四优先领域",
+          "date": "2026-09-23T01:18:22+08:00"
+        },
         {
           "url": "https://media.x.ai/v1/website/4p7card-5eccc980.pdf",
           "source": "official",
@@ -1288,12 +1313,12 @@
     {
       "id": "agent-flash-over-pro-economics",
       "title": "Flash 级模型开始在 agent 负载上挑战甚至替换 Pro 档",
-      "type": "strong_signal",
-      "score": 91,
+      "type": "pattern",
+      "score": 97,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-09-10T18:20:00+08:00",
-      "last_updated": "2026-09-17T08:20:00+08:00",
+      "last_updated": "2026-09-23T08:25:00+08:00",
       "summary": "火山引擎将 Doubao-Seed-2.1-pro 更新至 0915：Agent 交付溯源/核验、多模态 Coding、同接入点 Evolving；叠加 GPT-5.5→Sol/Astra 梯子与 DeepSeek Pro→Flash 切流——生产侧同时在压 Pro 交付可靠度与经济档替代。",
       "why_it_matters": "agent 默认算力正在被「够用且更便宜的 Flash」接管；旗舰 Pro 变为可选/后续，而不是默认入口。",
       "tags": [
@@ -1304,6 +1329,24 @@
         "MoE"
       ],
       "evidence": [
+        {
+          "url": "https://x.com/cursor_ai/status/2102448392773435706",
+          "source": "official",
+          "note": "Cursor 当日上线 Opus 5.5，CursorBench Max 57.8% 且每任务成本 -40%",
+          "date": "2026-09-23T01:22:13+08:00"
+        },
+        {
+          "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+          "source": "official",
+          "note": "GPT-6 Sol/Luna：Astra 能力下沉，API 相对 5.6 促销 -50%",
+          "date": "2026-09-22T18:00:00Z"
+        },
+        {
+          "url": "https://www.anthropic.com/news/claude-opus-5-5",
+          "source": "official",
+          "note": "Claude Opus 5.5：近 Fable 级、相对 Opus 5 约 -40% 成本",
+          "date": "2026-09-22"
+        },
         {
           "url": "https://research.doubao.com/zh/seed2_1",
           "source": "official",
@@ -1354,6 +1397,8 @@
         }
       ],
       "watch_next": [
+        "Sonnet/Haiku 5.5 跟进节奏",
+        "Sol/Luna 是否成为 Work/Codex 默认",
         "10/14 GPT-5.5 退役后的默认路由",
         "Sol vs Astra 在 agent 负载上的真实占比",
         "其他实验室是否跟进显式双档梯子"
@@ -1370,11 +1415,11 @@
       "id": "skills-as-distribution",
       "title": "技能正在变成智能体能力的分发层",
       "type": "pattern",
-      "score": 98,
+      "score": 99,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-21T08:35:00+08:00",
+      "last_updated": "2026-09-23T08:25:00+08:00",
       "summary": "OpenAI Astra for Law 以 26 个合作方 + 47 个社区插件把法律工作流当分发面；Kimi 金融方案上线 9 项 Skill + 10+ 数据源 MCP + 合规网关。叠加 Sponsored Agents、Muse plugins、Salesforce×Claude——技能/插件正在成为垂直能力的默认分发层。",
       "why_it_matters": "第四个命令行不值钱。可安装的技能和模板才是分发。企业插件市场把同一层做成了日常同步的软件包。",
       "tags": [
@@ -1383,6 +1428,18 @@
         "分发"
       ],
       "evidence": [
+        {
+          "url": "https://plane.so/agents",
+          "source": "product",
+          "note": "Plane Agents：playbook + reusable skills",
+          "date": "2026-09-22"
+        },
+        {
+          "url": "https://x.com/Kimi_Moonshot/status/2102372557190230244",
+          "source": "official",
+          "note": "录制浏览器步骤 → skill，Kimi 下次自动跑",
+          "date": "2026-09-22T20:20:52+08:00"
+        },
         {
           "url": "https://mycelai.dev/",
           "source": "product",
@@ -1514,18 +1571,6 @@
           "source": "official",
           "note": "Hosted sandboxes can install packages/skills/plugins",
           "date": "2026-09-11T00:00:00+08:00"
-        },
-        {
-          "url": "https://x.com/OpenAIDevs/status/2098130625144451444",
-          "source": "official",
-          "note": "OpenAIDevs hosted sandboxes tweet",
-          "date": "2026-09-11T00:00:00+08:00"
-        },
-        {
-          "url": "https://www.wealthmanagement.com/artificial-intelligence/anthropic-launches-claude-for-financial-advisors",
-          "source": "reliable",
-          "note": "Claude for Financial Advisors：RIA 角色 skills + 托管/CRM 连接器",
-          "date": "2026-09-14T00:00:00+08:00"
         }
       ],
       "watch_next": [
@@ -1549,11 +1594,11 @@
       "id": "apache-maka-durable-workspace",
       "title": "跨会话记忆与可回放工作区正在变成 coding harness 默认层",
       "type": "strong_signal",
-      "score": 89,
+      "score": 92,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-30T00:00:00+08:00",
-      "last_updated": "2026-09-17T08:20:00+08:00",
+      "last_updated": "2026-09-23T08:25:00+08:00",
       "summary": "xAI 发布 Grok Build Memory：每轮后后台抽取约定/决策/项目事实，写成项目/全局 markdown 主题；/dream 合并、/memory 浏览，后续会话动手前读取——官方 harness 默认写入跨会话记忆。叠加 apache/maka 只追加执行记录与 Cursor Projects 共享上下文：本地优先、可回放、可恢复的工作区从开源实验走进厂商默认。",
       "why_it_matters": "「agent 失忆」不再只靠用户维护规则文件；记忆/执行记录成为 harness 一等公民后，评测、审计与多人协作才能站在同一条可回放时间线上。",
       "tags": [
@@ -1563,6 +1608,12 @@
         "本地"
       ],
       "evidence": [
+        {
+          "url": "https://resumecontext.com",
+          "source": "product",
+          "note": "共享 memory archive + MCP citations 到 session/line",
+          "date": "2026-09-22"
+        },
         {
           "url": "https://x.ai/news/grok-build-memory",
           "source": "official",
