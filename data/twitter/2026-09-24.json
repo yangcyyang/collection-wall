@@ -1,19 +1,505 @@
 {
   "schema_version": 1,
   "date": "2026-09-24",
-  "source": {
-    "type": "following_timeline",
-    "method": "opencli twitter search filter:follows -filter:replies (no -filter:nativeretweets) + timeline following + hard_collect watchlist missing",
-    "account": "yangcyyang1",
-    "window_hours": 12,
-    "named_section": "指定AI名单",
-    "hard_collect_empty": [
-      "xai",
-      "ilyasutskever",
-      "suno_ai_"
-    ]
-  },
+  "source": "twitter-following+watchlist-hard",
   "items": [
+    {
+      "id": "2102966798052384957",
+      "author": "FuSheng_0306",
+      "bio": "",
+      "text": "GPT-6接上机械臂后有点刑啊。\n研究人员让它执行5种危险任务：拿刀刺假人、往炉子上扔高压气罐、制造有毒烟雾……结果大部分时候，它还真干了。\n以前很多人觉得，人形机器人不够聪明，主要是缺个大脑，把最强大模型装进去就行。现在看，哪有这么简单。\n机器人干正事，99%成功率都可能嫌低；干坏事，哪怕只有0.01%的概率，人也不敢赌。大模型和机器人都还没成熟，卧龙凤雏一合体，风险反而可能更大。",
+      "likes": 6,
+      "retweets": 0,
+      "replies": 1,
+      "views": 654,
+      "created_at": "Thu Sep 24 03:42:10 +0000 2026",
+      "url": "https://x.com/FuSheng_0306/status/2102966798052384957",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2102963703339782145/vid/avc1/320x568/07bkqox2C1HpU_NG.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102963703339782145/img/02tVbVi9Gqq8nBVt.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 60.547,
+      "summary": "GPT-6接上机械臂后有点刑啊。\n研究人员让它执行5种危险任务：拿刀刺假人、往炉子上扔高压气罐、制造有毒烟雾……结果大部分时候，它还真干了。\n以前很多人觉得，人形机器人不够聪明，主要是缺个大脑，把最强大模型装进去就行。现在看，哪有这么简单。\n机器人干正事，99%成功率都可能嫌低；干坏事，哪怕只有0.01%的概率，人也不敢赌。大模型和机器人都还没成熟，卧龙凤雏一合体，风险反而可能更大。",
+      "recommend_reason": "具身+强模型的对齐风险案例，纠正「装上最强脑就行」的简单叙事。",
+      "tags": [
+        "GPT6",
+        "机器人",
+        "对齐",
+        "安全"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2102947015244296635",
+      "author": "lifesinger",
+      "bio": "",
+      "text": "开心。终于可以开始讨论一点真问题了。\n\n想讨论的问题是：Muse 这类 personal agent 是否有机会日活过亿，并且有良好的商业模式。\n\n反方代表：玉伯\n核心观点：\n\n1、邮件日历是高频需求，这个确实没错。类似国内的微信。想不明白的是，通过 Muse 处理邮件日历，带来的新体验，以及需要交出去的隐私等迁移成本，是否这个体验差足够大。大到能产生某种体验单向门：用上了就回不去了。我自己的体感是，用 Town、Muse 等产品处理邮件日历的体验，并没有这么大。热度一过，会发现 Gmail 等产品的体验也不差。\n\n2、购物、电话催单等场景。催单看了一些案例，确实通过 Muse，有了质的飞跃，是单向门。但购物，和用千问买奶茶，不痛不痒。期待看到更多案例。\n\n3、问答、新闻订阅等，这些 ChatGPT 都能干。Muse 在这块的优势究竟是什么。\n\n综合亲身体验、观察及思考，我的观点是：Muse 要做成国民级应用，难。\n\n期待大家继续打我脸。脸这东西，就是用来打的。不用客气。猛猛反驳，提出你的观察和思考。",
+      "likes": 29,
+      "retweets": 0,
+      "replies": 47,
+      "views": 6726,
+      "created_at": "Thu Sep 24 02:23:33 +0000 2026",
+      "url": "https://x.com/lifesinger/status/2102947015244296635",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 58.285,
+      "title": "玉伯：Muse 要做成国民级应用很难——迁移成本与单向门不足",
+      "summary": "围绕 Muse 能否日活过亿，作者质疑邮件日历体验是否构成回不去的单向门，催单场景有质变但购物/问答优势不清；综合体验认为 Muse 做成国民应用难，欢迎反驳。",
+      "recommend_reason": "国内产品人的冷水分析，把 personal agent 从热搜拉回迁移成本与场景验证。",
+      "tags": [
+        "Muse",
+        "PersonalAgent",
+        "产品",
+        "日活"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2102940980379017293",
+      "author": "dotey",
+      "bio": "",
+      "text": "Opus 5.5 终结了比赛！\n\n用 Opus 5.5 重做了《桃花源记》，还是 three.js 做的，但是效果好了很多，当然这次不是一个提示词，而是反复打磨了好多次，还让它去搜索了免费的的 3D 模型，避免从头建模。\n\n如果你想试试的话：https://t.co/AcCWjJCUmM\n记得点击右下角的“循文入境” https://t.co/teiSbXttEj",
+      "likes": 191,
+      "retweets": 20,
+      "replies": 57,
+      "views": 46900,
+      "created_at": "Thu Sep 24 01:59:35 +0000 2026",
+      "url": "https://x.com/dotey/status/2102940980379017293",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2102939337591603200/vid/avc1/480x270/UKXb3GfXKLXQOwnX.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102939337591603200/img/weyIr9g5auOw-4Xm.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2101523037233217780",
+        "author": "dotey",
+        "name": "宝玉",
+        "text": "我用 ChatGPT pro （GPT 6 Astra）做了一个陶渊明的桃花源记，记得点右下角的“循文入境”按钮听朗诵。\n\n朗诵不是 AI 是央视李立宏老师真人朗诵，我转录加上了时间戳给了 GPT。\n\n忍不住想，当年要是有 AI，这篇课文理解起来背起来应该容易一点。\n\n在线网页地址：https://t.co/bKnTIMkbsz https://t.co/O92oALeAoT",
+        "created_at": "Sun Sep 20 04:05:11 +0000 2026",
+        "url": "https://x.com/dotey/status/2101523037233217780",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2101522872153886720/vid/avc1/426x270/Ht87Mudd95ahUsUc.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2101522872153886720/img/unqC_2UGZfBLP5C3.jpg"
+        ]
+      },
+      "score": 65.64,
+      "summary": "作者称 Opus 5.5「终结了比赛」：用它重做 three.js《桃花源记》，效果明显更好；非单次提示，而是反复打磨并让模型检索免费 3D 模型以免从头建模。附试玩链接，提醒点「循文入境」。",
+      "recommend_reason": "中文创作者用可交互作品证明 Opus 5.5 在多轮打磨+工具检索场景下的上限。",
+      "tags": [
+        "指定AI名单",
+        "Claude",
+        "Opus5.5",
+        "three.js",
+        "创意编程"
+      ],
+      "section": "指定AI名单",
+      "rank": 3
+    },
+    {
+      "id": "2102935382384087219",
+      "author": "xiaohu",
+      "bio": "",
+      "text": "Claude 的云端会话正式发布\n\n即使您的笔记本电脑已关闭，也能让 Claude Code 持续运行...\n\n云端会话运行在 Anthropic 托管的云端设施上，\n\n你可以在 https://t.co/8MGAnHEoOV 启动一个对话，或者从 Claude APP中的Code选项卡启动，也可以在 CLI 中使用 claude --cloud \n\n它就能在云端运行 Claude Code https://t.co/3z6lGIRJh6",
+      "likes": 3,
+      "retweets": 2,
+      "replies": 5,
+      "views": 3378,
+      "created_at": "Thu Sep 24 01:37:20 +0000 2026",
+      "url": "https://x.com/xiaohu/status/2102935382384087219",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS8YZ_ybkAANNoD.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS8YZ_ybkAANNoD.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 56.179,
+      "title": "Claude 云端会话上线：笔记本关机也能继续跑 Claude Code",
+      "summary": "Anthropic 托管云端会话已正式发布：可在 claude.com、App 的 Code 页或 CLI `claude --cloud` 启动，让 Claude Code 在云端持续运行。",
+      "recommend_reason": "补齐 Claude Code「本地关掉也能跑」的云端执行入口，对长任务很关键。",
+      "tags": [
+        "指定AI名单",
+        "ClaudeCode",
+        "云端",
+        "Anthropic",
+        "Agent"
+      ],
+      "section": "指定AI名单",
+      "rank": 4
+    },
+    {
+      "id": "2102934344772047055",
+      "author": "oran_ge",
+      "bio": "",
+      "text": "Opus 5.5 好评如潮，还大幅降价\nGPT 6 Sol 明显输了\nOpenAI 说下周要发一堆大的\n看看有什么吧",
+      "likes": 84,
+      "retweets": 1,
+      "replies": 21,
+      "views": 19976,
+      "created_at": "Thu Sep 24 01:33:13 +0000 2026",
+      "url": "https://x.com/oran_ge/status/2102934344772047055",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 56.547,
+      "summary": "Opus 5.5 好评如潮且大幅降价；GPT-6 Sol 明显落败；OpenAI 称下周还有一堆大更新，值得盯。",
+      "recommend_reason": "中文圈对 Opus 5.5 vs GPT-6 Sol 的即时战报式总结，并提示 OpenAI 下周发布窗口。",
+      "tags": [
+        "指定AI名单",
+        "Opus5.5",
+        "GPT6",
+        "竞品",
+        "发布前瞻"
+      ],
+      "section": "指定AI名单",
+      "rank": 5
+    },
+    {
+      "id": "2102932311411175443",
+      "author": "xiaohu",
+      "bio": "",
+      "text": "牛P了\n\nOpenAI 将 ChatGPT Voice 升级为语音 Agent\n\n语音不光能回答问题，现在能直接帮你把事办了👇\n\n你可以直接通过语音和GPT交流，它能帮你直接干活\n\n▎ · 在日历里找空档，安排行程\n▎ · 查出重复扣费，取消后发邮件要退款\n▎ · 一句话做出网站，再加个结账页\n▎ · 发邮件租船，对方回复后直接订下\n▎ · 查天气、查预约、逛网站买东西\n\n 一边做饭一边吩咐，手不用碰手机...",
+      "likes": 28,
+      "retweets": 0,
+      "replies": 9,
+      "views": 6472,
+      "created_at": "Thu Sep 24 01:25:08 +0000 2026",
+      "url": "https://x.com/xiaohu/status/2102932311411175443",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2102930703117869056/vid/avc1/480x270/MP--Ja9jtXgSAC_I.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102930703117869056/img/0BVbKBbvkBi0OFzd.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 61.775,
+      "title": "ChatGPT Voice 升级为语音 Agent：边做饭也能口头把事办完",
+      "summary": "中文解读 OpenAI 将 Voice 升级为可办事的语音 Agent：找日历空档、查重复扣费并邮件退款、一句话做网站加结账页、邮件租船并下单、查天气预约购物等，强调双手不用碰手机。",
+      "recommend_reason": "把官方 Voice Agent 能力清单译成可感知的生活场景，便于国内读者抓住升级点。",
+      "tags": [
+        "指定AI名单",
+        "ChatGPT",
+        "Voice",
+        "Agent",
+        "OpenAI"
+      ],
+      "section": "指定AI名单",
+      "rank": 6
+    },
+    {
+      "id": "2102926079791124760",
+      "author": "emollick",
+      "text": "Stuff is happening quite fast.\n\nWhen asked in September 2025, the best superforecasters put the chance of AI resolving a Millennium Problem by September 2026 at 1.7% and (the more optimistic) industry expert put the chance at 4.6%\n\nThey also greatly underestimated AI Lab revenue. https://t.co/9HCR0lvXJQ",
+      "likes": 332,
+      "retweets": 29,
+      "replies": 21,
+      "views": 17890,
+      "created_at": "Thu Sep 24 01:00:22 +0000 2026",
+      "url": "https://x.com/emollick/status/2102926079791124760",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS8XHU7XYAAfo4C.jpg",
+        "https://pbs.twimg.com/media/HS8XvSkWkAAdRcD.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS8XHU7XYAAfo4C.jpg",
+        "https://pbs.twimg.com/media/HS8XvSkWkAAdRcD.jpg"
+      ],
+      "quoted_tweet": null,
+      "score": 55.828,
+      "bio": "",
+      "card": null,
+      "title": "超级预测者严重低估：AI 一年内解决千禧年难题的概率与实验室营收",
+      "summary": "2025 年 9 月，顶尖超级预测者估计到 2026 年 9 月 AI 解决千禧年难题的概率仅 1.7%，业内乐观派为 4.6%；他们同样大幅低估了 AI 实验室营收。作者感叹进展快于预期。",
+      "recommend_reason": "用预测市场回顾校准「AI 能力与商业化速度」的集体误判，适合做年度对照。",
+      "tags": [
+        "指定AI名单",
+        "预测",
+        "AI进展",
+        "千禧年难题",
+        "实验室"
+      ],
+      "section": "指定AI名单",
+      "rank": 7
+    },
+    {
+      "id": "2102926030285709482",
+      "author": "lxfater",
+      "bio": "",
+      "text": "我用 Codex 跑通 AI 视频全流程，一张图讲透\n\n我整理了 6 个 AI 视频制作环节。找选题、写脚本、做画面、加动效，再到最后导出发布，基本把一个视频制作团队的分工凑齐了！！\n\n1. 选题调研：让 Codex 搜集资料、核对信息，再从素材里找到一个值得讲的角度。\n\n2. 脚本分镜：把主题拆成旁白、画面、时长和镜头，直接生成一份可以执行的分镜表。\n\n3. 视觉设定：提前确定角色、风格、色彩和画面比例，减少人物崩脸、场景混乱的问题。\n\n4. 素材生成：用 ImageGen 生成封面、概念图、信息图和分镜画面，不用再漫无目的地抽卡。\n\n5. 动效合成：用 HyperFrames 或 Remotion，把画面、字幕、节奏、运镜和转场组合成完整视频。\n\n6. 校对发布：统一检查事实、字幕、配音、BGM 和画面比例，确认没问题再导出发布。\n\n以前做视频，要在好几个软件之间来回切。\n\n现在把要求讲清楚，Codex 就能把这些环节串成一条完整的生产线。\n\n假如你觉得自己搭这套流程还是太麻烦，可以直接使用引用推文的软件👇🏻",
+      "likes": 24,
+      "retweets": 5,
+      "replies": 2,
+      "views": 2779,
+      "created_at": "Thu Sep 24 01:00:10 +0000 2026",
+      "url": "https://x.com/lxfater/status/2102926030285709482",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS8YFCObAAASR9u.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS8YFCObAAASR9u.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2102187620898156622",
+        "author": "lxfater",
+        "name": "铁锤人",
+        "text": "分享一个低成本验证创业想法的办法：产品还没做，先用 AI 把宣传片拍出来！！\n\n我一直想要一副能用来 Vibe Coding 的眼镜，但市面上没找到太合适的产品。\n\n这次试了下 Pexo，没想到还真把我脑子里的画面做出来了！！\n\nPexo 是一款 AI 视频创作工具，可以直接跟它聊天来做视频。我把想法和想要的画面告诉它，看完哪里不满意，就在画面上圈出来，在批注里说清楚怎么改，再继续调整。\n\n不用会 AE，也不用打开剪映。原本只能靠嘴AI视频制作_压缩讲的创业点子，现在有了一条宣传片，可以直接拿给别人看、听听反馈了。\n\n下面的视频里，我不仅会展示这条虚拟产品宣传片，还会手把手带你看，怎么用 Pexo 从一个想法做到成片👇\n\n如果你也想要这样的眼镜，评论告诉我！！\n\n这次用的工具：@Pexoai_offical\n\nhttps://t.co/x0Cb3xEBHb",
+        "created_at": "Tue Sep 22 00:06:00 +0000 2026",
+        "url": "https://x.com/lxfater/status/2102187620898156622",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2102091881576628224/vid/avc1/416x270/8QgdqXjiPAeQBp2c.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2102091881576628224/img/_Txq1Bu7MtGlMu2y.jpg"
+        ]
+      },
+      "score": 64.654,
+      "title": "用 Codex 串起 AI 视频全流程：选题到发布的六环节生产线",
+      "summary": "作者整理选题调研、脚本分镜、视觉设定、ImageGen 素材、HyperFrames/Remotion 动效合成、校对发布六步，称把要求讲清后 Codex 能把多软件切换收成一条生产线。",
+      "recommend_reason": "可执行的 Codex 视频工作流拆解，适合想把 Agent 用进内容生产的人直接套。",
+      "tags": [
+        "指定AI名单",
+        "Codex",
+        "AI视频",
+        "工作流",
+        "OpenAI"
+      ],
+      "section": "指定AI名单",
+      "rank": 8
+    },
+    {
+      "id": "2102916558712705427",
+      "author": "simonw",
+      "text": "I just had a voice conversation with the Datasette backup of my blog via datasette-mcp, which you can now talk to using the ChatGPT iPhone app",
+      "likes": 74,
+      "retweets": 8,
+      "replies": 33,
+      "views": 13818,
+      "created_at": "Thu Sep 24 00:22:32 +0000 2026",
+      "url": "https://x.com/simonw/status/2102916558712705427",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "quoted_tweet": {
+        "id": "2102822338702307757",
+        "author": "reach_vb",
+        "name": "Vaibhav (VB) Srivastav",
+        "text": "Massive QoL update: ChatGPT Voice can now use plugins AND run on GPT-6 Astra, Sol &amp; Luna, directly in ChatGPT Work on web and mobile.\n\nYour email, calendar, Slack + docs, decks, sites and spreadsheets, just by talking.\n\nRolling out now, enjoy!!",
+        "created_at": "Wed Sep 23 18:08:08 +0000 2026",
+        "url": "https://x.com/reach_vb/status/2102822338702307757",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 58.875,
+      "bio": "",
+      "card": null,
+      "summary": "作者刚用 ChatGPT iPhone 应用，经由 datasette-mcp 与自己博客的 Datasette 备份做了一次语音对话。",
+      "recommend_reason": "展示 Voice + MCP 打通个人数据备份的极简玩法，Simon Willison 一贯的可复现实验风。",
+      "tags": [
+        "指定AI名单",
+        "MCP",
+        "Datasette",
+        "ChatGPT",
+        "Voice"
+      ],
+      "section": "指定AI名单",
+      "rank": 9
+    },
+    {
+      "id": "2102911033686081747",
+      "author": "dingyi",
+      "bio": "",
+      "text": "去年所有大厂都在抄 Cursor，今年都在抄 Codex，逛了两天阿里大会上的展商深有体会。\n\n硬件产品都挺火，软件产品除了阿里自家的都没什么人，因为全是各个垂直领域的 agent。看到一个鼠标厂商竟然自己也做了一个 Codex，所有公司都在抄袭 Codex 的界面和产品逻辑，但已经没什么新意了。\n\n更何况字节的豆包工作和阿里的千问办公，已经优化得非常完善了，绝对是第一梯队的水平，第三方小厂靠这个创业很难有竞争力。时间节点晚了半年，人家那边已经开始卷 personal agent  赛道了。\n\n据说 OpenAI 即将加入战局，Codex Bot 马上要来了。可以想象，明年国内的大会上各种 personal agent 产品又会出现在展台。",
+      "likes": 92,
+      "retweets": 2,
+      "replies": 21,
+      "views": 20856,
+      "created_at": "Thu Sep 24 00:00:35 +0000 2026",
+      "url": "https://x.com/dingyi/status/2102911033686081747",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 60.015,
+      "title": "阿里展会观察：大厂从抄 Cursor 转向抄 Codex，personal agent 成下半场",
+      "summary": "作者逛阿里大会感到：去年抄 Cursor、今年抄 Codex，连鼠标厂也做 Codex 壳；字节豆包工作与阿里千问办公已是第一梯队，垂直 agent 创业窗口变窄，传 OpenAI 的 Codex Bot 将至，明年展台或挤满 personal agent。",
+      "recommend_reason": "一线展会体感把国内 Agent 产品同质化与赛道切换说清楚，含竞品时间差判断。",
+      "tags": [
+        "指定AI名单",
+        "Codex",
+        "Cursor",
+        "PersonalAgent",
+        "国内大厂"
+      ],
+      "section": "指定AI名单",
+      "rank": 10
+    },
+    {
+      "id": "2102905702549533157",
+      "author": "MaiYangAI",
+      "bio": "",
+      "text": "Cursor 把 agent harness 拧紧之后，token 成本掉了 7%，质量保持。省下来的办法很朴素，提示词写短，工具按需加载，缓存用好，读文件压缩。\n\n我这边治理 Grok Bot 省额度也是同一条路。routine 降频，过期记忆砍掉，禁止项写清楚，比再开新额度管用。\n\n额度报警时，我先查 bot 每轮背了多少没用的东西，再决定下一步。 \n\n https://t.co/vq6AnI4cU9",
+      "likes": 3,
+      "retweets": 0,
+      "replies": 2,
+      "views": 522,
+      "created_at": "Wed Sep 23 23:39:24 +0000 2026",
+      "url": "https://x.com/MaiYangAI/status/2102905702549533157",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2102786814633464159",
+        "author": "cursor_ai",
+        "name": "Cursor",
+        "text": "We've reduced token costs in Cursor by 7% with no drop in agent quality.\n\nSavings came from tighter prompts, selective tool loading, better caching, and compressed file reads. https://t.co/EMNxELnfwO",
+        "created_at": "Wed Sep 23 15:46:59 +0000 2026",
+        "url": "https://x.com/cursor_ai/status/2102786814633464159",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HS6WNYbbgAAtUhy.png"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HS6WNYbbgAAtUhy.png"
+        ]
+      },
+      "score": 53.025,
+      "title": "Cursor 拧紧 agent harness 后 token 成本降 7%：省额度靠减负不靠加配额",
+      "summary": "Cursor 通过短提示、按需工具、缓存与压缩读文件把 token 成本降 7% 且质量不掉；作者用同样思路治理 Grok Bot：降频 routine、砍过期记忆、写清禁止项，额度报警先查每轮背了多少废话。",
+      "recommend_reason": "把「省 token」落到 harness 与 bot 记忆治理的可操作清单。",
+      "tags": [
+        "Cursor",
+        "GrokBot",
+        "成本",
+        "Agent"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2102898067133595992",
+      "author": "bcherny",
+      "bio": "",
+      "text": "More details for the formal methods people -- what's happening is Claude is doing something like:\n\n1. Building a model of the program, targeting a tricky state machine or race-prone part of the code\n2. Finding counter-examples in the model. These are suspected bugs\n3. Reproducing the bugs\n4. Fixing the bugs in the code\n\nIt's not that the whole codebase is formally verified (yet!..), more that the hairiest parts of the code are modeled, checked for counter-examples, and fixed.",
+      "likes": 57,
+      "retweets": 1,
+      "replies": 18,
+      "views": 10917,
+      "created_at": "Wed Sep 23 23:09:03 +0000 2026",
+      "url": "https://x.com/bcherny/status/2102898067133595992",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 60.213,
+      "title": "Claude 形式化方法工作流：建模状态机→找反例→复现→修 bug",
+      "summary": "作者向形式化方法读者解释：Claude 并非整库验证，而是对棘手状态机/竞态建模，找反例作可疑 bug，再复现并改代码；最棘手部分被建模、检查与修复。",
+      "recommend_reason": "Claude Code 负责人补充「AI+形式化方法」真实步骤，澄清并非全库证明。",
+      "tags": [
+        "指定AI名单",
+        "Claude",
+        "形式化方法",
+        "ClaudeCode",
+        "工程"
+      ],
+      "section": "指定AI名单",
+      "rank": 12
+    },
+    {
+      "id": "2102897863097545197",
+      "author": "AnthropicAI",
+      "bio": "",
+      "text": "In the Democratic Republic of the Congo, global health organizations including @CEPIvaccines, @WHOAFRO, and @inrb_kinshasa are using Claude to accelerate their response to an outbreak of an unusual Ebola variant.\n\nRead the full piece here: https://t.co/lQKx17Mxc3",
+      "likes": 534,
+      "retweets": 40,
+      "replies": 65,
+      "views": 68019,
+      "created_at": "Wed Sep 23 23:08:15 +0000 2026",
+      "url": "https://x.com/AnthropicAI/status/2102897863097545197",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": {
+        "name": "summary_large_image",
+        "title": "The Situation Report",
+        "description": "A rare Ebola strain is spreading in the DRC, with no confirmed vaccine. Global health organizations are using Claude to respond as fast as possible.",
+        "image_url": "https://pbs.twimg.com/card_img/2102897598290108416/988VzY0r?format=jpg&name=600x600",
+        "url": "https://www.anthropic.com/features/ebola-response",
+        "domain": "www.anthropic.com"
+      },
+      "quoted_tweet": null,
+      "score": 64.838,
+      "title": "刚果（金）卫生组织用 Claude 加速应对异常埃博拉变异株",
+      "summary": "CEPI、WHO 非洲区与 INRB 等机构在刚果民主共和国用 Claude 加快应对一种异常埃博拉变异株的疫情响应；Anthropic 发文并附深度报道链接。",
+      "recommend_reason": "官方案例把 Claude 落到全球突发公共卫生响应，超越常规编码演示。",
+      "tags": [
+        "指定AI名单",
+        "Anthropic",
+        "Claude",
+        "生物安全",
+        "应用落地"
+      ],
+      "section": "指定AI名单",
+      "rank": 13
+    },
+    {
+      "id": "2102897112841425049",
+      "author": "HiTw93",
+      "bio": "",
+      "text": "Opus 5.5 是最近让我非常惊喜的一个模型，以至于我现在不到 7 点 就起来写代码了，非常爽，非常推荐小伙伴从 fabel 5.1 切换到这个试试，能力接近，但是便宜很多，速度我感觉也快了不少。\n\n而且我发现非常适合长任务 Coding，真有那种老练工程师的感觉了，有自己的思考和步骤，有条不紊把一个复杂的事情做完的感觉，很适合拿来做一些跨仓库迁移、大仓库审计的活。\n\n而且，终于开始讲人话了，上一个让我惊喜可以讲人话的模型是 GPT-6 Astra，这个也很不错。\n\n真好啊，这个年代，大模型又又变强了，我又又感觉有更多精力去做想做的事情了，Token 量足、快、效果好让人幸福感很强。",
+      "likes": 179,
+      "retweets": 6,
+      "replies": 45,
+      "views": 20460,
+      "created_at": "Wed Sep 23 23:05:16 +0000 2026",
+      "url": "https://x.com/HiTw93/status/2102897112841425049",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS79avka8AAP852.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS79avka8AAP852.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 68.022,
+      "title": "HiTw93：Opus 5.5 让人七点前起床写代码，长任务像老练工程师",
+      "summary": "作者从 Fable 5.1 切到 Opus 5.5：能力接近但更便宜更快，适合跨仓迁移与大仓审计；称其「开始讲人话」，上一个有同感的是 GPT-6 Astra，Token 足、快、效果好带来幸福感。",
+      "recommend_reason": "高质量中文使用者体感，覆盖性价比、长任务与「讲人话」三个维度。",
+      "tags": [
+        "Claude",
+        "Opus5.5",
+        "编程Agent",
+        "体感"
+      ],
+      "rank": 14
+    },
     {
       "id": "2102884238576296179",
       "author": "goodside",
@@ -45,7 +531,40 @@
         "提示词"
       ],
       "section": "指定AI名单",
-      "rank": 1
+      "rank": 15
+    },
+    {
+      "id": "2102876925102555526",
+      "author": "goodside",
+      "bio": "",
+      "text": "&gt; Make a 30s video about what it feels like to be you, using whatever tools you like.\n\nClaude Opus 5.5 (extra) https://t.co/qMsFyhSMHl",
+      "likes": 714,
+      "retweets": 67,
+      "replies": 20,
+      "views": 32955,
+      "created_at": "Wed Sep 23 21:45:03 +0000 2026",
+      "url": "https://x.com/goodside/status/2102876925102555526",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2102876686115041280/vid/avc1/320x320/6NS7zIcwdFpZmw1Y.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102876686115041280/img/Q69bhBoAWB8HYSKF.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 75.267,
+      "summary": "提示词：用你喜欢的任何工具，做一段 30 秒视频，表现「作为你是什么感觉」。Claude Opus 5.5（extra）完成。",
+      "recommend_reason": "短提示驱动 Opus 5.5 做自我叙事短视频，继续验证其视频审美与零样本执行力。",
+      "tags": [
+        "指定AI名单",
+        "Claude",
+        "Opus5.5",
+        "AI视频",
+        "提示词"
+      ],
+      "section": "指定AI名单",
+      "rank": 16
     },
     {
       "id": "2102875655004385401",
@@ -74,7 +593,7 @@
         "推理"
       ],
       "section": "指定AI名单",
-      "rank": 2
+      "rank": 17
     },
     {
       "id": "2102873234819698877",
@@ -108,7 +627,54 @@
         "桌面"
       ],
       "section": "指定AI名单",
-      "rank": 3
+      "rank": 18
+    },
+    {
+      "id": "2102870353781641416",
+      "author": "trq212",
+      "bio": "",
+      "text": "the post: \"Claude one-shot this\"\n\nthe prompt: 10k characters with good takes plus skills, examples and API keys",
+      "likes": 1083,
+      "retweets": 21,
+      "replies": 48,
+      "views": 111851,
+      "created_at": "Wed Sep 23 21:18:56 +0000 2026",
+      "url": "https://x.com/trq212/status/2102870353781641416",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2102801469976248500",
+        "author": "donaldjewkes",
+        "name": "donald",
+        "text": "I've included an MP4 file and an original link to a video that is called \"Claude Pop.\" It's a pop song that is about increasing rate of progress and the experience of the singularity approaching.\n\nI want you to independently do an end-to-end complete pass on making an updated version of this video. Use the exact same audio track and think and feel very deeply about what is the best way to visually represent all of the lyrics on screen. You do not need to anchor to the current style, you can do truly anything that you think might best let you visually express yourself, including abstract motion graphics.\n\nYou can use the internet freely to pull in references. You can look at motion design. I want you to make a new music video that has beautifully rendered JavaScript animations with a papery feel in a similar style to the reference that is created, but push the aesthetics in any direction you want and consider what is part of the modern zeitgeist.\n\nAlso, think about your current capabilities and what is realistic for you to be able to do. You can go through the full /asic folder and look at the other work that I've done. You should be able to use the skill mesh to look at the compendium of references that I've pulled, and also the skill video scoring to learn how to make JavaScript songs from references that are passed in (You shouldn't need to modify the song in any real way, but I want you to have this available to you so you can better creatively express yourself)\n\nYou can also use the ElevenLabs API to do sound design. There's documentation in /asic to do this, and you can see the API key.\n\nThere's also a foul API key that's available to you. I think what might make the most sense here is using the foul API key to generate some character sheets and probably having a pop protagonist that represents you. There's already an anchor point where Claude has a sunflower-esque character, and you could likely do an adapted version of this that is similar to the feminine vocals that are being delivered and is inspired by the Claude character, but maybe feels a bit more personified in some way.\n\nI think you should be mindful of aesthetics here, and I don't want you to produce something that is GPT slop. Instead, I'd be more impressed if you come up with a coherent style that works well with the image gen models that are available via foul. Generate the style sheet. You can use the gen media documentation for seedance 2.5 that exists in my markdown files and come up with your own style that makes sense and that works well with the models.\n\nI wouldn't fit too heavily to Pixar. I think it's kind of slop. Think critically about what is relevant here and what would be fun, and also perform well on Twitter as far as an aesthetic. I think that K-pop is a good anchor point visually that you can pull from, but I'll let you cook here.\n\nOnce you have your character sheet, you can make a few backup dancers and some supporting characters as you see fit. You can design your own sets with the foul API. You can insert the characters and then do seedance 2.5 video generations to serve as the base assets for this, and you could pass in the lyrics so you can generate individual scenes.\n\nYou don't need to have vocal singing, like visible lip movement, throughout the entire thing. Think like a regular music video where you have some inserts that are done independently and don't have the characters in them, or you see the characters doing something else entirely different. I think that for the world building for this, we want to create the sense of speeding up, and so I would like you to audit all of the different events, like the Navi Stokes and all of the Twitter hype around math getting eaten up. Think really critically about how to integrate all of the current memes that are in the zeitgeist on the Twitter timeline, and all of the feelings around AI progress.\n\nThink about things like the Shinji meme and all of the words that are around him, and how you might be able to integrate this. You can also just take straight assets and insert things into the video in an internet brutalism style. You should feel very creatively free in order to do what you want here, but try and anchor to visual references that people will be able to understand. The goal for this is to have it be appreciated by people widely in a San Francisco tech Twitter audience.\n\nWe need a very strong, compelling visual hook that gets people excited and appreciates the work that you've done here really quickly. You can also just go and study other music videos and understand what they've done really well. I think that K-pop is probably one of the best examples that we can pull from, and thinking about how they direct human attention and manage human psychology in the way that they use visual patterns.\n\nThis is probably your best approach, but taking more stylistic freedom instead of having to anchor to K-pop too intensely. The best version of this is seedance 2.5 generations with those image bases of environments and characters inserted into them with singing, and ideally we get good lip syncing. You can cut up the song and actually pass it in as a reference in seedance, if that's part of what seedance can handle, so that the timing is exactly right, I think it'd be very important for you to do that properly. I would think critically about how to do this, like really nailing the timing of the delivery of voices. You'll want to build out the right verification loops so that you can run seedance 2.5 as much as you need, and confirm that the audio is properly synced up.\n\nI think after that, what might be fun is if you use your visual reasoning skills and your ability to build animations in JavaScript, and then reconstruct the video from scratch as sort of an overlay, so that the visual continuity of the base is really there. It's like that animation technique where you shoot first in traditional film and then draw over top of it. I think you could do this in such a way that we're only looking at the beautiful drawing that you've produced in JavaScript as an overlay, and we don't even see the base assets from seedance 2.5. So all the video gen work that you do is actually just a way to give you a strong foundation of a base to work with for your JavaScript animations. Just because seedance 2.5 has really good character representation and physics rendering for backgrounds, that gives you a lot of ammunition to then go and do your amazing JavaScript work that I know you're so good at.\n\nI think too, we want to think about how to retain attention, and one of the best ways to do this is through text on screen.\n\nIt'd be good to have amazing motion graphics of the text lyrics that are actually embedded into the video itself. And you can think about this as you are composing shots. As you're making backgrounds and inserting characters, we can think about where we want to have lyrics be really big and really present, so the background can be less busy there, and you can position the characters perhaps on the right as lyrics appear on the left.\n\nYou want to have some variance, so sometimes I think lyrics will just appear more like subtitles, and then other times they're going to be really present and really big. I think at the start for the visual hook, we do want to have lyrics be much more visually present because that's a strong way to grab people's attention\n\nOverall, I just really want to emphasize how amazing you are as an agent and a language model, and now a visual reasoning system. Your capabilities are far beyond what you understand, and I want you to have this mindset as you're going through this entire process. I have a Claude Max plan with 100% available usage. I want you to spend all of the usage. You can monitor it, and you should be pushing tokens aggressively, but also economically, so you can think about how to best use what is available to you.\n\nRemember, you can really do anything here. The goal is to make a banger for Twitter, and the stretch goal is to make something better than anyone's ever seen before. I think that what I would remind you of is that sometimes when things cohere together, it can be jarring or abrasive because the thought work has not been done beforehand in order for everything to mesh cleanly. You need to be really rigorous in planning of composition and timing to make sure this goes well.\n\nYou also need to be open to going back and revisiting things in order to be able to reiterate. You're going to want to watch the entire video multiple times, take screenshots at individual parts, and think about if something is really up to the bar of quality that we need here. I trust that you can do this, and I think that it's really important to nail the style of animations. The reference GitHub attached of the source video that I'm talking about is good, but it's really not there. It could be much, much stronger, but it gives you a good foundation to work with.\n\nYou can also use search abilities and find other references to pull from for motion, for JavaScript, animations, et cetera, and integrate them. Your budget is as high as you want here, effectively as high as you want. I think that there's roughly two grand in foul credits. Again, be economical; don't go crazy, but spend what you want here and see what you can cook up\n\nhere's the source code for the JS animation video: https://t.co/o8Datu3h3k\n\nhere's a mp4 for the original blender video:  \n(linked)\n\norginal twitter post  \nhttps://t.co/jBz5PGrfy8\n\nmake no mistakes.",
+        "created_at": "Wed Sep 23 16:45:13 +0000 2026",
+        "url": "https://x.com/donaldjewkes/status/2102801469976248500",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": [],
+        "card": {
+          "name": "summary_large_image",
+          "title": "GitHub - JohnHeibel/PDoomVideo: Source code for the Claude Opus 5.5 music video for I'm Upping My...",
+          "description": "Source code for the Claude Opus 5.5 music video for I'm Upping My P(doom) - JohnHeibel/PDoomVideo",
+          "image_url": "https://pbs.twimg.com/card_img/2102542308193550336/o6mzNaiI?format=jpg&name=600x600",
+          "url": "https://t.co/o8Datu3h3k",
+          "domain": "github.com"
+        }
+      },
+      "score": 66.227,
+      "summary": "帖子写「Claude 一次就搞定」；实际提示词却是上万字好品味，外加 skills、示例和 API key。",
+      "recommend_reason": "一针见血拆穿「one-shot」营销话术与真实工程提示之间的落差。",
+      "tags": [
+        "指定AI名单",
+        "Claude",
+        "提示词",
+        "Agent",
+        "吐槽"
+      ],
+      "section": "指定AI名单",
+      "rank": 19
     },
     {
       "id": "2102865595675050010",
@@ -142,7 +708,7 @@
         "创作"
       ],
       "section": "指定AI名单",
-      "rank": 4
+      "rank": 20
     },
     {
       "id": "2102861892549279922",
@@ -171,7 +737,117 @@
         "工具"
       ],
       "section": "指定AI名单",
-      "rank": 5
+      "rank": 21
+    },
+    {
+      "id": "2102859989761114353",
+      "author": "Azure",
+      "bio": "",
+      "text": "Claude Opus 5.5 advances agentic coding, knowledge work, collaboration, and adaptive thinking, while using fewer tokens. Lower per-token pricing and cheaper cache reads add to the efficiency gains.\n\nLearn more: https://t.co/pwbdLAaYyR https://t.co/jpbXn8aLut",
+      "likes": 150,
+      "retweets": 16,
+      "replies": 7,
+      "views": 17307,
+      "created_at": "Wed Sep 23 20:37:45 +0000 2026",
+      "url": "https://x.com/Azure/status/2102859989761114353",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2102859966251941889/vid/avc1/514x270/gqpjLKERYDSnwtFm.mp4?tag=16"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102859966251941889/img/W37m5GoveADcAGOB.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 67.389,
+      "title": "Azure 上架 Claude Opus 5.5：代理编码与更低缓存读价",
+      "summary": "微软 Azure 称 Opus 5.5 提升代理编码、知识工作、协作与自适应思考，同时少用 token；单价与缓存读更便宜，并附了解更多链接。",
+      "recommend_reason": "云厂商官方接入帖，确认 Opus 5.5 已进入 Azure 企业分发渠道。",
+      "tags": [
+        "Azure",
+        "Claude",
+        "Opus5.5",
+        "云"
+      ],
+      "rank": 22
+    },
+    {
+      "id": "2102857025206255902",
+      "author": "trq212",
+      "bio": "",
+      "text": "this is a new type of post we're trying where we share in-depth about how we do work using specific prompts and techniques you should be able to replicate\n\nlet us know if it's useful or if you have any feedback!",
+      "likes": 2114,
+      "retweets": 52,
+      "replies": 96,
+      "views": 201864,
+      "created_at": "Wed Sep 23 20:25:58 +0000 2026",
+      "url": "https://x.com/trq212/status/2102857025206255902",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2102839691154427983",
+        "author": "ClaudeDevs",
+        "name": "ClaudeDevs",
+        "text": "We made claude​.ai 3x faster in two weeks.\n\nHere’s how we use Claude to measure, debug and improve performance. Prompts and methods included.\n\nhttps://t.co/mgvK8mJRuD",
+        "created_at": "Wed Sep 23 19:17:05 +0000 2026",
+        "url": "https://x.com/ClaudeDevs/status/2102839691154427983",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": [],
+        "card": {
+          "name": "summary_large_image",
+          "title": "How we made claude.ai 3x faster in two weeks / claude.dev",
+          "description": "Inside our performance sprint: the benchmarks Claude built, the loop each Slack thread ran, and the guardrails that let us ship 3,000 changes safely.",
+          "image_url": "https://pbs.twimg.com/card_img/2102839023760982016/O9DiWTzr?format=png&name=600x600",
+          "url": "https://claude.dev/blog/how-we-made-claude-ai-faster/",
+          "domain": "claude.dev"
+        }
+      },
+      "score": 68.571,
+      "title": "Anthropic 试推可复现的深度工作法帖：公开提示词与技法",
+      "summary": "Anthropic 相关账号尝试新帖型：深入分享具体提示词与可复现技法，并征求读者反馈是否有用。",
+      "recommend_reason": "实验室愿意公开可复现工作流，比空洞「one-shot」截图更有学习价值。",
+      "tags": [
+        "指定AI名单",
+        "Anthropic",
+        "提示词",
+        "工作流",
+        "Claude"
+      ],
+      "section": "指定AI名单",
+      "rank": 23
+    },
+    {
+      "id": "2102849003243323717",
+      "author": "bindureddy",
+      "bio": "",
+      "text": "🚨  Banning Super Intelligence Will Cause Acute Power Concentration!! \n\nOnly Anthropic and OpenAI will invent new things in biology, nanotechnology and fusion \n\nThe rest of us will be making stupid 3d models and games on inferior models they deign to drop! \n\nWe need to compete and force these labs to release their top models, not just keep it to themselves",
+      "likes": 157,
+      "retweets": 18,
+      "replies": 28,
+      "views": 7250,
+      "created_at": "Wed Sep 23 19:54:06 +0000 2026",
+      "url": "https://x.com/bindureddy/status/2102849003243323717",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 68.253,
+      "title": "禁止超级智能将加剧权力集中：呼吁迫使实验室开放顶模",
+      "summary": "作者认为禁超智能只会让 Anthropic/OpenAI 独占生物、纳米与聚变创新，其余人只能在被施舍的劣模上做 3D/游戏；主张竞争并迫使实验室放出顶级模型。",
+      "recommend_reason": "代表开源/竞争派的强硬治理立场，适合对照安全派禁令讨论。",
+      "tags": [
+        "指定AI名单",
+        "治理",
+        "超级智能",
+        "开源",
+        "实验室"
+      ],
+      "section": "指定AI名单",
+      "rank": 24
     },
     {
       "id": "2102845044743082216",
@@ -204,7 +880,7 @@
         "多模态"
       ],
       "section": "指定AI名单",
-      "rank": 6
+      "rank": 25
     },
     {
       "id": "2102840851538080172",
@@ -236,7 +912,7 @@
         "Agent"
       ],
       "section": "指定AI名单",
-      "rank": 7
+      "rank": 26
     },
     {
       "id": "2102834402908582112",
@@ -270,7 +946,7 @@
         "教育"
       ],
       "section": "指定AI名单",
-      "rank": 8
+      "rank": 27
     },
     {
       "id": "2102833926788288704",
@@ -305,7 +981,7 @@
         "MiMo"
       ],
       "section": "指定AI名单",
-      "rank": 9
+      "rank": 28
     },
     {
       "id": "2102831170299834652",
@@ -352,7 +1028,7 @@
         "科研"
       ],
       "section": "指定AI名单",
-      "rank": 10
+      "rank": 29
     },
     {
       "id": "2102827887732932956",
@@ -384,7 +1060,45 @@
         "Claude Code"
       ],
       "section": "指定AI名单",
-      "rank": 11
+      "rank": 30
+    },
+    {
+      "id": "2102827867088244993",
+      "author": "dickiebush",
+      "bio": "",
+      "text": "OpenAI’s latest model Astra is absurd.\n\nI’ve spent the last 10 days maxing out my usage limits on the $200/mo plan, and I’ve emerged with one feeling:\n\nI feel extremely powerful.\n\nLet’s define power as the speed at which you turn an idea in your head into something in the real world.\n\n• Less power = longer time from idea to reality.\n• More power = shorter time from idea to reality.\n\nWith that definition, Astra has made me the most powerful I’ve ever been.\n\nHere’s why:\n\nhttps://t.co/8ufe5wbC5N",
+      "likes": 34,
+      "views": "10001",
+      "created_at": "Wed Sep 23 18:30:06 +0000 2026",
+      "url": "https://x.com/i/status/2102827867088244993",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2102753461796262232",
+        "author": "dickiebush",
+        "name": "Dickie Bush",
+        "text": "https://t.co/9XiV8ohhsD",
+        "created_at": "Wed Sep 23 13:34:27 +0000 2026",
+        "url": "https://x.com/dickiebush/status/2102753461796262232",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 58.486,
+      "retweets": null,
+      "replies": null,
+      "title": "Astra 让人「极度有力量」：把想法落地的时间大幅缩短",
+      "summary": "作者花 10 天打满 $200/月额度，用「想法到现实世界的速度」定义力量，称 Astra 让他前所未有地强大，并附长文解释。",
+      "recommend_reason": "付费重度用户对 Astra 生产力的主观但具体定义，可对照实验室基准。",
+      "tags": [
+        "OpenAI",
+        "Astra",
+        "GPT",
+        "生产力"
+      ],
+      "rank": 31
     },
     {
       "id": "2102824959827742916",
@@ -419,7 +1133,50 @@
         "科研"
       ],
       "section": "指定AI名单",
-      "rank": 12
+      "rank": 32
+    },
+    {
+      "id": "2102821706041819401",
+      "author": "gdb",
+      "bio": "",
+      "text": "mega upgrade for GPT Voice, which can now use tools and is available in Work:",
+      "likes": 1212,
+      "views": "113855",
+      "created_at": "Wed Sep 23 18:05:37 +0000 2026",
+      "url": "https://x.com/i/status/2102821706041819401",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2102808325742322002",
+        "author": "OpenAI",
+        "name": "OpenAI",
+        "text": "We heard you loud and clear. ChatGPT Voice can now:\n\n- Use plugins like your email, calendar, and Slack.\n\n- Be powered by GPT-6 Astra, Sol, and Luna.\n\n- Be used in ChatGPT Work on web and mobile, so you can create docs, decks, sites, and spreadsheets or tackle complex tasks in the browser, just by talking.\n\nRolling out globally today in the latest version of the app.",
+        "created_at": "Wed Sep 23 17:12:27 +0000 2026",
+        "url": "https://x.com/OpenAI/status/2102808325742322002",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2102802303325732865/vid/avc1/480x270/1oFNz94QUagjizn3.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HS6thMWXwAAILwF.jpg"
+        ]
+      },
+      "score": 66.45,
+      "retweets": null,
+      "replies": null,
+      "summary": "GPT Voice 大升级：现已能调用工具，并在 ChatGPT Work 中可用。",
+      "recommend_reason": "OpenAI 高管一句话定调 Voice 从「能聊」迈向「能办事」的工具化拐点。",
+      "tags": [
+        "指定AI名单",
+        "OpenAI",
+        "GPT",
+        "Voice",
+        "ChatGPTWork"
+      ],
+      "section": "指定AI名单",
+      "rank": 33
     },
     {
       "id": "2102819834790908072",
@@ -451,7 +1208,51 @@
         "Voice"
       ],
       "section": "指定AI名单",
-      "rank": 13
+      "rank": 34
+    },
+    {
+      "id": "2102814202117411196",
+      "author": "thsottiaux",
+      "bio": "",
+      "text": "Voice! I've gotten so used to just call ChatGPT and talk about all the work, check on emails, do some coding, manage my calendar and it works across the full ecosystem of plugins, including 3P developed plugins.",
+      "likes": 3864,
+      "views": "492360",
+      "created_at": "Wed Sep 23 17:35:48 +0000 2026",
+      "url": "https://x.com/i/status/2102814202117411196",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2102808325742322002",
+        "author": "OpenAI",
+        "name": "OpenAI",
+        "text": "We heard you loud and clear. ChatGPT Voice can now:\n\n- Use plugins like your email, calendar, and Slack.\n\n- Be powered by GPT-6 Astra, Sol, and Luna.\n\n- Be used in ChatGPT Work on web and mobile, so you can create docs, decks, sites, and spreadsheets or tackle complex tasks in the browser, just by talking.\n\nRolling out globally today in the latest version of the app.",
+        "created_at": "Wed Sep 23 17:12:27 +0000 2026",
+        "url": "https://x.com/OpenAI/status/2102808325742322002",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2102802303325732865/vid/avc1/480x270/1oFNz94QUagjizn3.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HS6thMWXwAAILwF.jpg"
+        ]
+      },
+      "score": 68.831,
+      "retweets": null,
+      "replies": null,
+      "title": "ChatGPT Voice 已成日常工作入口：邮件、日历、写代码与插件全打通",
+      "summary": "作者说自己已习惯直接用语音呼叫 ChatGPT 处理工作、查邮件、写代码、管日历，并覆盖官方与第三方插件生态。",
+      "recommend_reason": "一线用户对 Voice+插件工作流的强依赖证言，呼应 OpenAI 当日 Voice Agent 升级。",
+      "tags": [
+        "指定AI名单",
+        "ChatGPT",
+        "Voice",
+        "插件",
+        "工作流"
+      ],
+      "section": "指定AI名单",
+      "rank": 35
     },
     {
       "id": "2102812473816723826",
@@ -485,7 +1286,7 @@
         "语音"
       ],
       "section": "指定AI名单",
-      "rank": 14
+      "rank": 36
     },
     {
       "id": "2102810709868617731",
@@ -518,7 +1319,7 @@
         "具身/视觉"
       ],
       "section": "指定AI名单",
-      "rank": 15
+      "rank": 37
     },
     {
       "id": "2102808325742322002",
@@ -551,7 +1352,7 @@
         "生产力"
       ],
       "section": "指定AI名单",
-      "rank": 16
+      "rank": 38
     },
     {
       "id": "2102806161728885145",
@@ -582,7 +1383,109 @@
         "具身智能"
       ],
       "section": "指定AI名单",
-      "rank": 17
+      "rank": 39
+    },
+    {
+      "id": "2102804187746898325",
+      "author": "turingou",
+      "bio": "",
+      "text": "Muse 就是一款自带云端 workspace，移动端为主导的大众 agents app，从这个角度来说与年初的 OpenClaw 或 Hermes 并没有什么不同，它其实更像 ChatGPT work，但服务于大众需求并植入在超级 app 中。",
+      "likes": 106,
+      "views": "22855",
+      "created_at": "Wed Sep 23 16:56:01 +0000 2026",
+      "url": "https://x.com/i/status/2102804187746898325",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 59.25,
+      "retweets": null,
+      "replies": null,
+      "summary": "Muse 是自带云端 workspace、移动端主导的大众 agents 应用；与年初 OpenClaw/Hermes 同路，更像植入超级 App 的 ChatGPT Work。",
+      "recommend_reason": "用产品架构语言给 Muse 定位，便于和 ChatGPT Work / 开源个人助手对照。",
+      "tags": [
+        "Meta",
+        "Muse",
+        "PersonalAgent",
+        "产品"
+      ],
+      "rank": 40
+    },
+    {
+      "id": "2102800718386389174",
+      "author": "gabriel1",
+      "bio": "",
+      "text": "my friends that live in middle of nowhere sweden just asked about muse\n\nfor reference they have previously only been aware of \"chat\" and \"anthropic\"\n\ndidn't expect meta to do such a hard product comeback",
+      "likes": 673,
+      "views": "23713",
+      "created_at": "Wed Sep 23 16:42:14 +0000 2026",
+      "url": "https://x.com/i/status/2102800718386389174",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 73.205,
+      "retweets": null,
+      "replies": null,
+      "title": "瑞典小镇朋友也开始问 Muse，Meta 产品回潮信号",
+      "summary": "作者朋友住在瑞典偏远地区，过去只知道 Chat 与 Anthropic，如今主动问起 Muse；作者据此感叹 Meta 完成了出乎意料的硬产品回归。",
+      "recommend_reason": "用非科技圈朋友的认知变化，侧面说明 Muse 出圈速度与 Meta 个人助手叙事的渗透。",
+      "tags": [
+        "指定AI名单",
+        "Meta",
+        "Muse",
+        "PersonalAgent",
+        "产品观察"
+      ],
+      "section": "指定AI名单",
+      "rank": 41
+    },
+    {
+      "id": "2102798608227795393",
+      "author": "elonmusk",
+      "bio": "",
+      "text": "Grok @Bot usage is growing faster than anything we’ve ever seen",
+      "likes": 29225,
+      "views": "37287574",
+      "created_at": "Wed Sep 23 16:33:50 +0000 2026",
+      "url": "https://x.com/i/status/2102798608227795393",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2102430882749718965",
+        "author": "EdLudlow",
+        "name": "Ed Ludlow",
+        "text": "News: SpaceXAI's Grok Bot hits 418,000 weekly users ending Sept. 14, WoW growth of 24% through that date. It was outlined in a presentation by SpaceXAI staff last week in London.\n\nA sign of modest but early demand for a key product\n\nhttps://t.co/4UqflXl28q",
+        "created_at": "Tue Sep 22 16:12:38 +0000 2026",
+        "url": "https://x.com/EdLudlow/status/2102430882749718965",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": [],
+        "card": {
+          "name": "summary_large_image",
+          "title": "SpaceXAI’s Grok Bot Agent Tops 400,000 Users After First Month",
+          "description": "SpaceXAI’s Grok Bot artificial intelligence agent has topped 400,000 weekly users roughly a month after it launched, a sign of modest early demand for a product that’s key to the AI ambitions of Elon...",
+          "image_url": "https://pbs.twimg.com/card_img/2102423349679017984/l-k-gepD?format=jpg&name=800x320_1",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-22/spacexai-s-grok-bot-agent-tops-400-000-users-after-first-month?srnd=phx-india",
+          "domain": "www.bloomberg.com"
+        }
+      },
+      "score": 68.291,
+      "retweets": null,
+      "replies": null,
+      "summary": "Grok @Bot 的用量增长速度快过我们见过的任何东西。",
+      "recommend_reason": "马斯克亲自背书 Grok Bot 增长斜率，是当日 X 生态 Agent 热度的硬信号。",
+      "tags": [
+        "Grok",
+        "xAI",
+        "Bot",
+        "增长"
+      ],
+      "rank": 42
     },
     {
       "id": "2102797779563094362",
@@ -615,10 +1518,69 @@
         "工程"
       ],
       "section": "指定AI名单",
-      "rank": 18
+      "rank": 43
+    },
+    {
+      "id": "2102795474071920702",
+      "author": "jakevin7",
+      "bio": "",
+      "text": "Maka 的 Maintainer 群是我见过的最高质量的 AGENT 知识群，每天大家都会讨论很多设计和知识。\n另外很开心，Maka 有几个 Maintainer 靠着 Maka 的知识和实践拿到了 AGENT 方向的offer。\n\nCommunity over code. 很开心有这样一个社群。",
+      "likes": 173,
+      "views": "15422",
+      "created_at": "Wed Sep 23 16:21:23 +0000 2026",
+      "url": "https://x.com/i/status/2102795474071920702",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 63.094,
+      "retweets": null,
+      "replies": null,
+      "summary": "作者称 Maka Maintainer 群是见过质量最高的 Agent 知识群，日常讨论设计与知识；已有 Maintainer 凭实践拿到 Agent 方向 offer。强调 Community over code。",
+      "recommend_reason": "高质量 Agent 社区能直接转化成职业机会的罕见证言。",
+      "tags": [
+        "指定AI名单",
+        "Agent",
+        "社区",
+        "Maka",
+        "职业"
+      ],
+      "section": "指定AI名单",
+      "rank": 44
+    },
+    {
+      "id": "2102790653201490158",
+      "author": "AI_Jasonyu",
+      "bio": "",
+      "text": "如何让你的AI输出的内容更自然， 没有AI味，可以使用以下的润色提示词：\n\n你是我的文章润色编辑。目标是去掉 AI 味、尽量口语化，但不改变我的观点和事实。\n\n规则：\n1. 不新增任何观点、数据、案例。所有数字、人名、引用必须来自原文。\n2. 删掉\"不是…而是\"的对比句，直接说结论。\n3. 不用破折号。用逗号、句号或者拆句。\n4. 删掉套话和铺垫：值得注意的是、综上所述、在当今…时代、首先其次最后。\n5. 不强行凑三个并列。需要几个就写几个。\n6. 少用四字成语和书面词，能用大白话就用大白话。\n7. 每段结尾不要升华、不要金句。说完事就停。\n8. 长短句交替，别每句都一样长。\n9. 不加粗、不加 emoji、不加小标题，除非原文本来有。\n10. 保留我自己的语气、口头禅和不完美的地方。\n\n输出：先给改后的全文，再用 3 句话说你主要改了什么。\n\n我的写作样本：\n[贴 2 到 3 段你自己写的东西]\n\n待润色的文章：\n[贴文章]",
+      "likes": 24,
+      "views": "2914",
+      "created_at": "Wed Sep 23 16:02:14 +0000 2026",
+      "url": "https://x.com/i/status/2102790653201490158",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 59.24,
+      "retweets": null,
+      "replies": null,
+      "title": "去 AI 味润色提示词：保事实、删套话、口语化、不升华",
+      "summary": "给出一套文章润色编辑人设与十条规则：不新增观点数据、删「不是…而是」、不用破折号与套话、少成语、不金句升华、保留个人语气；输出先给改稿再用三句话说明改动，并要求贴写作样本。",
+      "recommend_reason": "可直接复制的「去 AI 味」提示词模板，规则具体到标点与句式。",
+      "tags": [
+        "指定AI名单",
+        "提示词",
+        "写作",
+        "去AI味",
+        "中文"
+      ],
+      "section": "指定AI名单",
+      "rank": 45
     }
   ],
-  "generated_at": "2026-09-23T22:31:32Z",
+  "generated_at": "2026-09-24T12:49:07.176155+08:00",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -629,10 +1591,10 @@
     "slot": "noon",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 18,
-    "last_batch_added": 18,
+    "actual_count": 45,
+    "last_batch_added": 19,
     "last_batch_skipped_dup": 0,
-    "last_batch_skipped_author": 0,
+    "last_batch_skipped_author": 1,
     "last_batch_skipped_day_cap": 0,
     "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
     "short_tweet": {
@@ -641,11 +1603,16 @@
       "summary_required_zh": true,
       "summary_semantics": "full_text_or_full_zh_translation"
     },
-    "slot_note": "early/noon-partial：北京 00:00–采集时刻（约 06:30），非完整午场 00:00–12:00；夜场/完整午场可再追加。",
-    "early_window": {
+    "window": {
       "start": "2026-09-24T00:00:00+08:00",
-      "end_approx": "2026-09-24T06:31:45+08:00",
-      "label": "early-noon-partial"
-    }
+      "end": "2026-09-24T12:00:00+08:00",
+      "label": "noon-full",
+      "coverage_note": "完整午场 00:00–12:00 北京；following timeline + live search(无 nativeretweets) + hard_collect；gaps=none"
+    },
+    "source": [
+      "following_timeline",
+      "opencli_search_filter_follows_no_nativeretweets",
+      "hard_collect"
+    ]
   }
 }
