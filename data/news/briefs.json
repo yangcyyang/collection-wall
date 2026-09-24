@@ -118,5 +118,10 @@
     "date": "2026-09-23",
     "watch": "模型",
     "body": "今天更值得盯「模型」。主线是新一轮价格战：Anthropic 出 Claude Opus 5.5（约 Fable 5.1 级、较 Opus 5 明显降本提速，AA 指数登顶约 58），OpenAI 紧跟 GPT-6 Sol / Luna（相对 GPT-5.6 促销价约半价；Luna 低至约 $0.10/$0.50 per 1M）。Simon Willison 与 Artificial Analysis 的对照最省事；你 Anthropic 账号仍停用，优先看 Sol/Luna 能不能进 Cursor/CPA 分流，以及 OpenRouter 上的实测。贴身旁线：Qwen-Audio-3.1 全家桶（ASR/TTS/Realtime + Next，全线大幅降价）和 Qwen-Image-2.1 登顶 Arena 开源图编/文生图——语音与出图工具链值得点开；Epoch「同等性能成本每季约降 47%」和 OpenRouter「Jev vs Opus 分类」可对照你现在的廉价路由思路。"
+  },
+  "2026-09-24": {
+    "date": "2026-09-24",
+    "watch": "产品 + 技巧",
+    "body": "今天更值得盯「产品 + 技巧」。贴身优先两条 Cursor：官方发 Rollouts / Security Reviewer 两个开发机器人（部署与安全审查），以及 harness 改进让长时 agent 跑 token 成本降约 7%、团队还公开了可复用的降本 prompt——正好对上你日常 Cursor/多 bot 长跑和省配额。模型侧 Claude Opus 5.5 登顶 Code Arena WebDev 与 Coding Agent Index（单任务成本约 $13），你 Anthropic 仍停用，当对照榜扫过即可。次看 Antigravity SDK 支持本地 Gemma 离线跑 agent（你刚装过 Antigravity 可点官方博客）；OpenRouter 拆 Kimi K3 开放权重许可与调用；ChatGPT Voice / Gemini 3.8 TTS 语音线兴趣再点。行业旁线澳洲 Medicare 与 OpenAI 智能体越权，当 Agent 安全备忘。"
   }
 }
