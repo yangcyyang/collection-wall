@@ -1,9 +1,323 @@
 {
   "source": "AI Frontier Radar",
   "title": "新产品",
-  "updated_at": "2026-09-23T08:25:00+08:00",
-  "count": 117,
+  "updated_at": "2026-09-24T08:35:00+08:00",
+  "count": 132,
   "items": [
+    {
+      "id": "jev-judge-mcp",
+      "name": "jev-judge-mcp",
+      "score": 58,
+      "status": "new",
+      "first_detected": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
+      "summary": "GitHub：把 Jev 判决模型封成 MCP 工具（verify/decide/gate…）；另有 jev-agent-authorization。→ pool。",
+      "novelty": "System-one 判决经 MCP 进入任意 agent 工具链。",
+      "urls": {
+        "github": "https://github.com/PyModel/jev-judge-mcp"
+      },
+      "tags": [
+        "Jev",
+        "MCP",
+        "Decision Models"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "openai-mentalhealthbench",
+      "name": "OpenAI MentalHealthBench",
+      "score": 72,
+      "status": "new",
+      "first_detected": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
+      "summary": "与 80+ 临床医生共建的开放心理健康对话评测，覆盖全急迫度谱系。→ pool（强化嵌入式评测）。",
+      "novelty": "安全/能力评测从考试题扩展到全谱心理健康对话并开源。",
+      "urls": {
+        "official": "https://openai.com/index/introducing-mentalhealthbench",
+        "x": "https://x.com/OpenAI/status/2102837574092161102"
+      },
+      "tags": [
+        "OpenAI",
+        "Eval",
+        "Safety",
+        "Mental Health"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "claude-art-enzyme-discovery",
+      "name": "Claude ART Enzyme Discovery",
+      "score": 90,
+      "status": "new",
+      "first_detected": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
+      "summary": "Anthropic 新湿实验室首果：约 950 agents / 21h / 2.1 亿 tokens 挖出噬菌体 ART（类 CRISPR 重复的逆转录酶系统）；人类审阅并做 BSL 实验，已发 preprint。",
+      "novelty": "Agent swarm × 基因组挖掘 × 湿实验闭环做出可引用生物学结果。",
+      "urls": {
+        "official": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+        "x": "https://x.com/AnthropicAI/status/2102824959827742916"
+      },
+      "tags": [
+        "Anthropic",
+        "Science",
+        "Agent Swarm",
+        "Biology",
+        "ART"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "koreshield",
+      "name": "Koreshield",
+      "score": 82,
+      "status": "new",
+      "first_detected": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
+      "summary": "支持客服 agent 的三类不信任输入（消息/检索文档/拟工具调用）筛查，决策留证。PH ~83。→ pool。",
+      "novelty": "Support-agent 信任边界 + 审计，区别于 Arcjet 运行时安全。",
+      "urls": {
+        "site": "https://koreshield.ai/",
+        "producthunt": "https://www.producthunt.com/posts/koreshield"
+      },
+      "tags": [
+        "Agent Security",
+        "Trust Boundary",
+        "Support"
+      ],
+      "homepage": false,
+      "ph_votes_latest": 83
+    },
+    {
+      "id": "jev-state",
+      "name": "Jev State",
+      "score": 84,
+      "status": "new",
+      "first_detected": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
+      "summary": "对话工作流逐步 why → 存为测试 → 导出可跑 TypeScript/workflow JSON + coding-agent skill。PH ~89。→ pool。",
+      "novelty": "conversation→eval artifact→agent skill 闭环；区别于 jev-decision-only。",
+      "urls": {
+        "site": "https://jev-state.vercel.app",
+        "producthunt": "https://www.producthunt.com/posts/jev-state"
+      },
+      "tags": [
+        "Jev",
+        "Eval",
+        "Skill Export",
+        "Open Source"
+      ],
+      "homepage": false,
+      "ph_votes_latest": 89
+    },
+    {
+      "id": "gemini-3-8-tts",
+      "name": "Gemini 3.8 Flash TTS",
+      "score": 85,
+      "status": "new",
+      "first_detected": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
+      "summary": "Flash TTS（造声/角色/方言）+ Flash-Lite TTS（高吞吐）；自然语言造声、声纹复刻、SynthID；API/AI Studio/Vids。→ pool。",
+      "novelty": "TTS 从库选音色升级为可提示造声 + 逐行导演，分成本档。",
+      "urls": {
+        "official": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+        "x": "https://x.com/GoogleDeepMind/status/2102781530867126505"
+      },
+      "tags": [
+        "Google",
+        "Gemini",
+        "TTS",
+        "Voice"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "agentscore",
+      "name": "AgentScore",
+      "score": 85,
+      "status": "new",
+      "first_detected": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
+      "summary": "Latitude：连接生产 agent → 每日 outcome/reliability/cost/speed/safety 分数；失败模式变带状态的 issues。PH ~147。→ pool（既有可观测产品上的机制层）。",
+      "novelty": "闭环「我的 agent 是否在变好」日评分，而非原始日志。",
+      "urls": {
+        "site": "https://latitude.so",
+        "producthunt": "https://www.producthunt.com/posts/agentscore"
+      },
+      "tags": [
+        "Agent Eval",
+        "Production Score",
+        "Latitude"
+      ],
+      "homepage": false,
+      "ph_votes_latest": 147
+    },
+    {
+      "id": "qwen-audio-3-1",
+      "name": "Qwen-Audio-3.1",
+      "score": 86,
+      "status": "new",
+      "first_detected": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
+      "summary": "五模型音频栈（ASR/TTS/Realtime + TTS-Next/ASR-Next），大幅降价（TTS~70%/Realtime~85%/ASR 最高 95%）。→ pool。",
+      "novelty": "开源阵营把理解-生成-实时-创作打成一条可商用音频产品线。",
+      "urls": {
+        "x": "https://x.com/Alibaba_Qwen/status/2102687258990026993"
+      },
+      "tags": [
+        "Qwen",
+        "Audio",
+        "TTS",
+        "ASR",
+        "Realtime"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "nous-hermes-bot-screen",
+      "name": "Nous Hermes Bot Screen",
+      "score": 88,
+      "status": "new",
+      "first_detected": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
+      "summary": "Hermes Desktop 实时串流任意 bot 屏幕（浏览器/终端/窗口），可随时接管输入凭据再交还。",
+      "novelty": "持久计算机 Agent 的可视化人机协作成为正式产品能力。",
+      "urls": {
+        "x": "https://x.com/NousResearch/status/2102873234819698877"
+      },
+      "tags": [
+        "Nous",
+        "Hermes",
+        "Computer-Use",
+        "HITL"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "gbrain",
+      "name": "GBrain",
+      "score": 88,
+      "status": "new",
+      "first_detected": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
+      "summary": "Garry Tan：可移植 markdown 记忆 + 已连账号/技能，任意 harness 可达（Claude Code 记一笔 → ChatGPT 知道）。PH ~111 票。",
+      "novelty": "跨 harness 记忆/账号层，不是单次 coding session 归档。",
+      "urls": {
+        "site": "https://gbrain.io",
+        "producthunt": "https://www.producthunt.com/posts/gbrain"
+      },
+      "tags": [
+        "Harness Memory",
+        "Skills",
+        "Cross-Agent",
+        "Open Source"
+      ],
+      "homepage": true,
+      "ph_votes_latest": 111
+    },
+    {
+      "id": "meta-muse-charm",
+      "name": "Meta Muse Charm",
+      "score": 90,
+      "status": "new",
+      "first_detected": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
+      "summary": "Connect：钥匙扣级 Muse 交互设备（12 月发货）；Muse 升级语音与实时视频、可后台办事，并将上眼镜。",
+      "novelty": "个人 Agent 首次有官方专用硬件形态，多入口（语音/视频/眼镜）。",
+      "urls": {
+        "x": "https://x.com/finkd/status/2102913016769732712"
+      },
+      "tags": [
+        "Meta",
+        "Muse",
+        "Hardware",
+        "Voice",
+        "Connect"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "qwen-intelligence",
+      "name": "Qwen Intelligence",
+      "score": 91,
+      "status": "new",
+      "first_detected": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
+      "summary": "阿里发布端侧个人智能：Mobile Planner / Mobile-Use / Mobile Creative 三 Agent，并开放 MobilePA-Bench、MobileWorld 等基准套件。",
+      "novelty": "端侧以多 Agent 编排 + 真实设备基准成套推出，而非单模型。",
+      "urls": {
+        "x": "https://x.com/Alibaba_Qwen/status/2102727405198876753"
+      },
+      "tags": [
+        "Qwen",
+        "Mobile Agent",
+        "Benchmark",
+        "Multi-Agent"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "cursor-rollouts",
+      "name": "Cursor Rollouts",
+      "score": 92,
+      "status": "new",
+      "first_detected": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
+      "summary": "PR 上写 monitoring plan，随部署对照日志/指标判定健康/回归/不确定；可通知、开 revert 或交 cloud agent。同日 Security Reviewer 均时 4.8→3.8 分钟。Teams/Enterprise；试用额度约 10 天。",
+      "novelty": "Coding harness 延伸到部署验证与安全 gate 最后一公里。",
+      "urls": {
+        "changelog": "https://cursor.com/changelog",
+        "x": "https://x.com/cursor_ai/status/2102861817160904808"
+      },
+      "tags": [
+        "Cursor",
+        "Deploy",
+        "Security Review",
+        "Harness"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "claude-marketplace",
+      "name": "Claude Marketplace",
+      "score": 94,
+      "status": "new",
+      "first_detected": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
+      "summary": "Claude 内可发现 connectors/plugins、购买 Cursor/CrowdStrike 等 agents，并接入 Accenture/Deloitte 等服务伙伴；建设者可上架。",
+      "novelty": "聊天产品正式变成 agent/工具分发与商务表面。",
+      "urls": {
+        "x": "https://x.com/claudeai/status/2102840851538080172"
+      },
+      "tags": [
+        "Anthropic",
+        "Marketplace",
+        "Agent Commerce",
+        "Distribution"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "solid",
+      "name": "Solid",
+      "score": 94,
+      "status": "new",
+      "first_detected": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
+      "summary": "Agent 自带真实电脑、账号与预算：经 API 或像人一样登录应用，可长时间 AFK 跑任务。PH ~402 票（09-23）。",
+      "novelty": "Agent-as-operator：机器所有权 + 支出权，而不只是个人桌面代理。",
+      "urls": {
+        "site": "https://solid.tech",
+        "producthunt": "https://www.producthunt.com/posts/solid-9"
+      },
+      "tags": [
+        "Agent Computer",
+        "AFK",
+        "Budgets",
+        "Accounts"
+      ],
+      "homepage": true,
+      "ph_votes_latest": 402
+    },
     {
       "id": "kimi-k3-amazon-bedrock",
       "name": "Kimi K3 on Amazon Bedrock",
@@ -50,7 +364,7 @@
       "score": 82,
       "status": "new",
       "first_detected": "2026-09-23T08:25:00+08:00",
-      "last_updated": "2026-09-23T08:25:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
       "summary": "任意 MCP agent 指向 WeWeb 建页/工作流/数据/鉴权；变更进可视化编辑器，构建前范围防火墙 + 构建后人工审阅。PH ~105 票。第 4 次 WeWeb 发版，机制仍清晰 → pool。",
       "novelty": "Agent 建生产应用的 HITL 沙箱，不是黑盒 vibe codegen。",
       "urls": {
@@ -63,15 +377,16 @@
         "No-code",
         "Sandbox"
       ],
-      "homepage": false
+      "homepage": false,
+      "ph_votes_latest": 107
     },
     {
       "id": "freebuff-ads",
       "name": "Freebuff Ads",
       "score": 85,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-23T08:25:00+08:00",
-      "last_updated": "2026-09-23T08:25:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
       "summary": "免费 coding agent（CLI/桌面/Web）内的广告网：展示广告 + agentic ads（agent 建议在用户项目里实现广告主产品）。PH ~136 票（09-22）。注意公司另售社交互动加成——信号在 agentic-ad 机制。",
       "novelty": "Agent 本身成为投放面：机器定价的分发，而不是博客横幅。",
       "urls": {
@@ -84,13 +399,14 @@
         "Coding Agent",
         "Distribution"
       ],
-      "homepage": true
+      "homepage": false,
+      "ph_votes_latest": 156
     },
     {
       "id": "kimi-browser-extension",
       "name": "Kimi Browser Extension",
       "score": 86,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-23T08:25:00+08:00",
       "last_updated": "2026-09-23T08:25:00+08:00",
       "summary": "原 WebBridge：浏览器侧边栏与 Kimi 对话即可导航/填表；重复任务可录制步骤存为 skill，下次自动执行。kimi.com + Chrome Web Store 可用。",
@@ -105,15 +421,15 @@
         "Skills",
         "Teach-by-showing"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "resumecontext",
       "name": "ResumeContext",
       "score": 88,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-23T08:25:00+08:00",
-      "last_updated": "2026-09-23T08:25:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
       "summary": "项目级共享归档：daemon ~20s 同步 Claude Code/Cursor/Codex/opencode 磁盘 transcript，经 MCP 暴露；换 agent 或撞用量上限无需重 brief，引用到人/会话/行。PH ~71 票（未验证 LB）。",
       "novelty": "跨 coding agent 的共享记忆层，上下文不再锁在单台笔记本。",
       "urls": {
@@ -126,15 +442,16 @@
         "Coding Agent",
         "Harness"
       ],
-      "homepage": true
+      "homepage": false,
+      "ph_votes_latest": 73
     },
     {
       "id": "plane-agents",
       "name": "Plane Agents",
       "score": 90,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-23T08:25:00+08:00",
-      "last_updated": "2026-09-23T08:25:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
       "summary": "在 Plane 工作图上把 agent 做成一等队友：playbook + 可复用 skills + MCP + 项目范围 + 指派/提及/日程触发 + run memory；动作进与人相同的审计轨迹；按 AI credits 而非 per-agent 席位计费。PH ~112 票（09-22）。",
       "novelty": "Agent-as-teammate 进 PM 工作图，不是又一个聊天机器人。",
       "urls": {
@@ -148,15 +465,16 @@
         "Skills",
         "Credits"
       ],
-      "homepage": true
+      "homepage": false,
+      "ph_votes_latest": 117
     },
     {
       "id": "gpt-6-sol-luna",
       "name": "GPT-6 Sol & Luna",
       "score": 95,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-23T08:25:00+08:00",
-      "last_updated": "2026-09-23T08:25:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
       "summary": "OpenAI 将 Astra 代能力蒸馏进更快更便宜的 Sol/Luna；API 相对 GPT-5.6 促销价再降 50%；当日进 ChatGPT Work + Codex + API，Free/Go 桌面可试 Luna。",
       "novelty": "旗舰下沉到工作流默认档，半价直接对撞同日 Opus 5.5。",
       "urls": {
@@ -170,15 +488,16 @@
         "Work",
         "Codex"
       ],
-      "homepage": true
+      "homepage": false,
+      "refresh_note": "2026-09-24: ChatGPT Voice 可用 plugins（email/calendar/Slack），由 GPT-6 Astra/Sol/Luna 驱动。"
     },
     {
       "id": "claude-opus-5-5",
       "name": "Claude Opus 5.5",
       "score": 96,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-23T08:25:00+08:00",
-      "last_updated": "2026-09-23T08:25:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
       "summary": "Anthropic Claude 5.5 家族首模：多数任务对标 Fable 5.1，相对 Opus 5 约降 40% 成本；当日全平台可用，Cursor 接入并登顶 CursorBench Max 57.8%。",
       "novelty": "近旗舰能力压进更低 Opus 价位，同日进 Cursor — 定价战 + harness 默认档切换。",
       "urls": {
@@ -193,7 +512,8 @@
         "Cursor",
         "Frontier"
       ],
-      "homepage": true
+      "homepage": false,
+      "ph_votes_latest": 266
     },
     {
       "id": "chatgpt-experian-credit-score",
@@ -306,7 +626,7 @@
       "score": 87,
       "status": "watching",
       "first_detected": "2026-09-22T08:20:00+08:00",
-      "last_updated": "2026-09-22T08:20:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
       "summary": "Google 开预购 Googlebook（$899 起）：Magic Pointer 屏幕上下文 agent、Gemini Spark 合盖长任务、完整 Linux 终端可跑 Claude Code / Antigravity——laptop 被定位为本地 agent 壳。",
       "novelty": "AI-native PC 进入可预购零售：交互层 + 后台 agent + 本地 coding harness 捆成硬件 SKU。",
       "urls": {
@@ -319,7 +639,8 @@
         "Gemini",
         "Hardware"
       ],
-      "homepage": false
+      "homepage": false,
+      "ph_votes_latest": 100
     },
     {
       "id": "arcjet-agent-runtime-security",
@@ -370,7 +691,7 @@
       "score": 91,
       "status": "watching",
       "first_detected": "2026-09-22T08:20:00+08:00",
-      "last_updated": "2026-09-22T08:20:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
       "summary": "小米开源 MiMo-V2.6 Pro/Flash 双 omnimodal；官方称 Pro 在多数 agent 基准对齐 Opus 5 / GPT-5.6 Sol；同步开源报告、7K+ RL 环境、端到端 RL 框架、mini-harnesses，并推 MiMo Desktop。",
       "novelty": "开源 lab 用「前沿 agent 基准叙事 + 可复现 RL 资产 + Desktop 产品」整包追赶闭源前沿。",
       "urls": {
@@ -383,7 +704,8 @@
         "Omnimodal",
         "RL"
       ],
-      "homepage": false
+      "homepage": false,
+      "ph_votes_latest": 118
     },
     {
       "id": "sai-simular-fleet",
@@ -413,7 +735,7 @@
       "score": 93,
       "status": "watching",
       "first_detected": "2026-09-22T08:20:00+08:00",
-      "last_updated": "2026-09-22T08:20:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
       "summary": "xAI 发布 Grok 4.7：相对 4.6 明显更强的长程任务与自检，同价同速（$2/$6）；原生吃 Grok Bot harness；Cursor / Grok Build / API / GitHub Copilot 同日可用。",
       "novelty": "Frontier 模型以「同价升级 + harness-native」抢日常 coding workhorse，分发层与模型层同步商品化。",
       "urls": {
@@ -429,7 +751,8 @@
         "Harness",
         "Cursor"
       ],
-      "homepage": false
+      "homepage": false,
+      "ph_votes_latest": 95
     },
     {
       "id": "productbridge",
