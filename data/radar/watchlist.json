@@ -1,15 +1,106 @@
 {
   "source": "AI Frontier Radar",
   "title": "观察名单",
-  "updated_at": "2026-09-23T08:25:00+08:00",
-  "count": 59,
+  "updated_at": "2026-09-24T08:35:00+08:00",
+  "count": 67,
   "items": [
+    {
+      "id": "art-enzyme-reproduce-verify",
+      "title": "ART 酶系统独立复现",
+      "why": "agent-science 闭环是否站住：函数未知，需同行验证。",
+      "since": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "agent-science-discovery-loops",
+        "multi-agent-team-orchestration"
+      ]
+    },
+    {
+      "id": "nous-bot-screen-hitl",
+      "title": "Nous Bot Screen HITL 是否成默认",
+      "why": "持久计算机可视化接管是否被竞品复制。",
+      "since": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "agent-persistent-computer"
+      ]
+    },
+    {
+      "id": "gbrain-cross-harness-uptake",
+      "title": "GBrain 跨 harness 记忆采用",
+      "why": "相对 ResumeContext：是否成为任意 harness 的便携记忆默认。",
+      "since": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "harness-control-plane",
+        "skills-as-distribution"
+      ]
+    },
+    {
+      "id": "muse-charm-preorder-ship",
+      "title": "Muse Charm 预售与 12 月发货",
+      "why": "个人 Agent 专用硬件是否打开语音/眼镜多入口。",
+      "since": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "voice-first-agent-interface"
+      ]
+    },
+    {
+      "id": "qwen-intelligence-mobile-uptake",
+      "title": "Qwen Intelligence 端侧三 Agent 落地",
+      "why": "基准套件开放后真实设备复现与消费端分发。",
+      "since": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "multi-agent-team-orchestration"
+      ]
+    },
+    {
+      "id": "cursor-rollouts-deploy-adoption",
+      "title": "Cursor Rollouts 部署拦截效果",
+      "why": "回归是否在用户看见前被抓住；Security Review 是否成 Teams 默认。",
+      "since": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "harness-control-plane"
+      ]
+    },
+    {
+      "id": "claude-marketplace-partner-uptake",
+      "title": "Claude Marketplace 伙伴上架与付费",
+      "why": "官方 agent 商务面：上架质量、成交与开发者反应。",
+      "since": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "skills-as-distribution",
+        "agent-commerce-surfaces"
+      ]
+    },
+    {
+      "id": "solid-agent-computer-adoption",
+      "title": "Solid agent 自带电脑/预算的真实采用",
+      "why": "看是否催生「机器所有权+支出权」类别，而非又一桌面 agent。",
+      "since": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "agent-persistent-computer"
+      ]
+    },
     {
       "id": "freebuff-agentic-ads-reaction",
       "title": "Freebuff agentic ads 开发者接受度",
       "why": "agent 内赞助实现建议：看转化与反感，是否催生同类投放面。",
       "since": "2026-09-23T08:25:00+08:00",
-      "last_updated": "2026-09-23T08:25:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
       "status": "watching",
       "related_signals": [
         "agent-commerce-surfaces"
@@ -20,7 +111,7 @@
       "title": "Kimi 浏览器录制 skill 是否形成习惯",
       "why": "teach-by-showing → skill 是否从演示变成日常自动化。",
       "since": "2026-09-23T08:25:00+08:00",
-      "last_updated": "2026-09-23T08:25:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
       "status": "watching",
       "related_signals": [
         "skills-as-distribution",
@@ -32,7 +123,7 @@
       "title": "ResumeContext 跨 agent 共享记忆采用",
       "why": "是否成为撞用量上限后换 agent 的默认恢复层。",
       "since": "2026-09-23T08:25:00+08:00",
-      "last_updated": "2026-09-23T08:25:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
       "status": "watching",
       "related_signals": [
         "apache-maka-durable-workspace",
@@ -44,7 +135,7 @@
       "title": "Plane Agents 真实渗透与审计采用",
       "why": "agent-as-teammate 进 PM 工作图；看 credits 计费与审计轨迹是否被团队默认打开。",
       "since": "2026-09-23T08:25:00+08:00",
-      "last_updated": "2026-09-23T08:25:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
       "status": "watching",
       "related_signals": [
         "multi-agent-team-orchestration",
@@ -56,7 +147,7 @@
       "title": "GPT-6 Sol/Luna 是否成为 Work/Codex 默认档",
       "why": "半价 Astra 能力下沉；观察是否替换 5.6 促销档成为规模化默认。",
       "since": "2026-09-23T08:25:00+08:00",
-      "last_updated": "2026-09-23T08:25:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
       "status": "watching",
       "related_signals": [
         "agent-flash-over-pro-economics",
@@ -68,7 +159,7 @@
       "title": "Claude Opus 5.5 是否成为默认 coding workhorse",
       "why": "近 Fable 级 + 降价 40% + Cursor 当日接入；看 Pro/Max 用量与 CursorBench 是否稳住。",
       "since": "2026-09-23T08:25:00+08:00",
-      "last_updated": "2026-09-23T08:25:00+08:00",
+      "last_updated": "2026-09-24T08:35:00+08:00",
       "status": "watching",
       "related_signals": [
         "agent-flash-over-pro-economics",
