@@ -1,8 +1,536 @@
 {
   "schema_version": 1,
   "date": "2026-09-24",
-  "source": "twitter-following+watchlist-hard",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12,
+    "label": "twitter-following+watchlist-hard"
+  },
   "items": [
+    {
+      "id": "2103151307486027850",
+      "author": "stitchbygoogle",
+      "bio": "Stitch by @GoogleLabs turns your ideas into beautiful interface designs, powered by some of the latest Gemini models. Try free of charge.",
+      "text": "Your brand assets, brought to life. ⚡️🖼️\n\nGemini 3.8 Flash excels at understanding visual context. Just drag your brand kit and product shots straight onto the Stitch prompt:\n\n✨ Automatically extracts design systems and styling\n✨ Generates cohesive layouts around your brand rules\n✨ Seamlessly weaves your product imagery into marketing & product pages\n\nCheck out the workflow in the video below! 👇",
+      "likes": 17,
+      "retweets": 1,
+      "replies": 2,
+      "views": 1767,
+      "created_at": "Thu Sep 24 15:55:21 +0000 2026",
+      "url": "https://x.com/stitchbygoogle/status/2103151307486027850",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2103151047867031553/vid/avc1/320x400/tBt2jpZ9zqQdo_dz.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2103151047867031553/img/OcfPyPT2RBvml9c6.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 63.959,
+      "title": "Google Stitch：把品牌套件与产品图拖进提示词，Gemini 自动抽设计系统并生成营销版式",
+      "summary": "Google Stitch 官方介绍：Gemini 3.8 Flash 擅长理解视觉上下文，可将品牌资产与产品图直接拖到提示区，自动提取设计系统与样式、按品牌规则生成统一版式，并把产品图无缝织入营销与落地页布局。",
+      "recommend_reason": "官方产品能力更新，聚焦「品牌资产→版式」的视觉上下文，对设计/增长工作流有直接触点。",
+      "tags": [
+        "指定AI名单",
+        "Google",
+        "Stitch",
+        "Gemini",
+        "设计系统",
+        "营销"
+      ],
+      "section": "指定AI名单",
+      "rank": 1
+    },
+    {
+      "id": "2103148288400924827",
+      "author": "op7418",
+      "bio": "关注人工智能、LLM 、 AI 图像视频和设计（Interested in AI, LLM, Stable Diffusion, and design）\n\n歸藏的 AIGC 周刊｜公众号：歸藏的AI工具箱",
+      "text": "我操，Opus 5.5 做这种前端的图像图形，做产品宣传视频太牛逼了！\n\n让他给我这个 CodePilot 产品做了个宣传片，太猛了，一键生成的。\n\n简直吊打前几天的 GPT-6 Astra。\n\n后面也会将这些经验用在我的这个 guizang-product-video-skilll 里面。\n\n然后一些比较差的模型也能得到比较好的效果。 https://t.co/BFWOOucbYk",
+      "likes": 37,
+      "retweets": 2,
+      "replies": 5,
+      "views": 5644,
+      "created_at": "Thu Sep 24 15:43:21 +0000 2026",
+      "url": "https://x.com/op7418/status/2103148288400924827",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2103148138681024512/vid/avc1/480x270/XwMfK11eSIS-WSNY.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2103148138681024512/img/knodmHP20IylJnAD.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2101152767863849401",
+        "author": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "text": "用 GPT 做了个可以基于你的代码库生成产品更新宣传片的 skill（guizang-product-video-skill）\n\n它可以直接读你的代码库，把你的组件、配色、logo 和其他素材拿来用，自动写文案、做动效。\n\n最屌的是它的音乐居然是 GPT 用 Python 生成的，直接用代码写音乐，太厉害了！\n\n视频是纯前端生成的，不依赖生成模型，所以成本很低。\n\n感兴趣可以试试，下面还有几个其他代码库的案例可以看看",
+        "created_at": "Sat Sep 19 03:33:52 +0000 2026",
+        "url": "https://x.com/op7418/status/2101152767863849401",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2101149399426678784/vid/avc1/480x270/c2de_jpzpXl1dtbs.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2101149399426678784/img/VHd8duA8zM5Q4zL7.jpg"
+        ]
+      },
+      "score": 63.173,
+      "summary": "我操，Opus 5.5 做这种前端的图像图形，做产品宣传视频太牛逼了！\n\n让他给我这个 CodePilot 产品做了个宣传片，太猛了，一键生成的。\n\n简直吊打前几天的 GPT-6 Astra。\n\n后面也会将这些经验用在我的这个 guizang-product-video-skilll 里面。\n\n然后一些比较差的模型也能得到比较好的效果。 https://t.co/BFWOOucbYk",
+      "recommend_reason": "用 Opus 5.5 一键生成 CodePilot 产品宣传片，并宣称相对 GPT-6 Astra 更强，还沉淀进 guizang-product-video-skill，属可迁移的前端/视频工作流经验。",
+      "tags": [
+        "指定AI名单",
+        "Opus5.5",
+        "产品视频",
+        "CodePilot",
+        "Skill"
+      ],
+      "section": "指定AI名单",
+      "rank": 2
+    },
+    {
+      "id": "2103141406583722375",
+      "author": "latentspacepod",
+      "name": "Latent.Space",
+      "text": "This is tracking to be the #1 podcast we've released in all of 2026.\n\nWe asked Jev's creator @CompleteSkeptic to explain Jev, and why he does NOT call it a \"Decision Model\" — why it's called Jev\n\navailable wherever the finest podcasts are sold! reviews help us a lot to keep us relevant in the rankings 🙏",
+      "likes": 11,
+      "retweets": 1,
+      "replies": 1,
+      "views": 1236,
+      "is_retweet": false,
+      "created_at": "Thu Sep 24 15:16:00 +0000 2026",
+      "url": "https://x.com/latentspacepod/status/2103141406583722375",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2103050827468570625/vid/avc1/320x568/iJaufEbT-7WxavH-.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2103050827468570625/img/-Jn2hxYIOkRbJPWS.jpg"
+      ],
+      "quoted_tweet": {
+        "id": "2102159548366881196",
+        "author": "latentspacepod",
+        "name": "Latent.Space",
+        "text": "Jev and the System One Model: RLCD, intelligence/$, reliable AI, & the end of chat-first AI https://t.co/H2bZXCENyW\n\n@typesafeai CEO @CompleteSkeptic explains why AI can solve extraordinarily hard problems yet still fail to automate basic work, why Jev is built for reliable decisions inside software instead of chat, why TypeSafe rejects public benchmarks and refusals at the API layer, why data and the right task matter more than brute-force compute, how System One Models could reshape coding agents and software, and why even with $1 billion he wouldn’t pre-train a model from scratch.",
+        "created_at": "Mon Sep 21 22:14:27 +0000 2026",
+        "url": "https://x.com/latentspacepod/status/2102159548366881196",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2102145639408922624/vid/avc1/480x270/NQk116DxpDEttBht.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2102145639408922624/img/L_QSEXe5fH8EkDkt.jpg"
+        ]
+      },
+      "score": 58.0,
+      "title": "Latent Space：Jev 访谈正冲 2026 年播客榜首，创作者解释为何不叫 Decision Model",
+      "summary": "Latent Space 称这期正追踪成为 2026 年发布的第一播客。他们请 Jev 创作者 CompleteSkeptic 解释 Jev，以及为什么不把它称为「Decision Model」、而坚持叫 Jev；节目已在各平台上线。",
+      "recommend_reason": "Latent Space 称 Jev 访谈正冲 2026 年播客榜首，并澄清为何不叫「Decision Model」——便于跟进该决策/世界模型讨论线。",
+      "tags": [
+        "指定AI名单",
+        "LatentSpace",
+        "Jev",
+        "播客",
+        "决策模型"
+      ],
+      "section": "指定AI名单",
+      "rank": 3
+    },
+    {
+      "id": "2103138911333798076",
+      "author": "vllm_project",
+      "name": "vLLM",
+      "text": "Training and rollout logprobs matched bit for bit on ROCm. The @RLKernel team integrated RL-Align/RL-Kernel with vllm-project/vime. A 200-step Qwen3-8B GRPO run on 8× @AMD MI300X recorded zero logprob mismatches between Megatron training and vLLM rollout.\n\nThe strict path aligns reduction order, intermediate precision, rounding points, and math primitives across both sides.\n\nDeep dive:\nhttps://t.co/FVJHoyoo3t",
+      "likes": 24,
+      "retweets": 4,
+      "replies": 1,
+      "views": 1854,
+      "is_retweet": false,
+      "created_at": "Thu Sep 24 15:06:05 +0000 2026",
+      "url": "https://x.com/vllm_project/status/2103138911333798076",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "quoted_tweet": null,
+      "score": 61.083,
+      "summary": "在 ROCm 上，训练与 rollout 的 logprob 已逐 bit 对齐。RLKernel 团队把 RL-Align/RL-Kernel 接到 vllm-project/vime；在 8× AMD MI300X 上跑 200 步 Qwen3-8B GRPO，Megatron 训练与 vLLM rollout 之间记录到零 logprob 不匹配。",
+      "recommend_reason": "vLLM 与 RL-Kernel 在 ROCm/MI300X 上做到训练与 rollout logprob 逐 bit 一致，对开源 RL 后训练可复现性是硬证据。",
+      "tags": [
+        "指定AI名单",
+        "vLLM",
+        "ROCm",
+        "RL",
+        "AMD",
+        "可复现"
+      ],
+      "section": "指定AI名单",
+      "title": "vLLM×RL-Kernel 在 ROCm/MI300X 上训练与 rollout logprob 逐 bit 一致",
+      "rank": 4
+    },
+    {
+      "id": "2103137351283409378",
+      "author": "Lovable",
+      "name": "Lovable",
+      "text": "You can now add AI features, powered by the latest @claudeai models, to your Lovable apps.\n\nHere's a favorite app from our team that uses Opus’ visual identification and deep reasoning skills + Sonnet’s fast web search, retrieval and synthesis. https://t.co/mRz0D5v6Ps",
+      "likes": 56,
+      "retweets": 7,
+      "replies": 5,
+      "views": 5540,
+      "is_retweet": false,
+      "created_at": "Thu Sep 24 14:59:53 +0000 2026",
+      "url": "https://x.com/Lovable/status/2103137351283409378",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2103136266825129984/vid/avc1/480x270/TR4wexHIPJ-dwpSw.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2103136266825129984/img/duUo2pZAWjzEtLfH.jpg"
+      ],
+      "quoted_tweet": null,
+      "score": 65.907,
+      "summary": "你现在可以在 Lovable 应用里加入由最新 Claude 模型驱动的 AI 功能。团队分享了一个范例应用：用 Opus 做视觉识别与深层推理，再用 Sonnet 做快速网页搜索、检索与综合。",
+      "recommend_reason": "Lovable 官方宣布应用内可嵌最新 Claude 能力，并用 Opus 视觉识别 + Sonnet 检索合成为团队范例，产品化信号清晰。",
+      "tags": [
+        "指定AI名单",
+        "Lovable",
+        "Claude",
+        "Opus",
+        "Sonnet",
+        "应用内AI"
+      ],
+      "section": "指定AI名单",
+      "title": "Lovable 应用可内嵌最新 Claude：Opus 做视觉推理，Sonnet 做检索综合",
+      "rank": 5
+    },
+    {
+      "id": "2103135612832547170",
+      "author": "LangChain",
+      "name": "LangChain",
+      "text": "Just announced at Interrupt: LangSmith Engine v2.\n\nWith Engine v2, you can proactively spot agent issues and resolve them before your users see them.\n\nYour agents get better. You get back to building.\n\nhttps://t.co/qCV4PV7C5l https://t.co/1DF66hoV1v",
+      "likes": 22,
+      "retweets": 4,
+      "replies": 2,
+      "views": 6192,
+      "is_retweet": false,
+      "created_at": "Thu Sep 24 14:52:59 +0000 2026",
+      "url": "https://x.com/LangChain/status/2103135612832547170",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2103135403129659392/vid/avc1/480x270/9NrFF-A4Xz7owF4Z.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2103135403129659392/img/-qRFkGTvXong-Hap.jpg"
+      ],
+      "quoted_tweet": null,
+      "score": 61.205,
+      "summary": "Interrupt 大会刚宣布 LangSmith Engine v2：可在用户察觉之前主动发现并解决 Agent 问题，让 Agent 更好、让你回到构建本身。",
+      "recommend_reason": "Interrupt 上 LangSmith Engine v2 官宣：强调上线前主动发现并修复 Agent 问题，是可观测/评测产品线的重要版本信号。",
+      "tags": [
+        "指定AI名单",
+        "LangChain",
+        "LangSmith",
+        "Engine",
+        "Agent评测"
+      ],
+      "section": "指定AI名单",
+      "title": "Interrupt 宣布 LangSmith Engine v2：上线前主动发现并修复 Agent 问题",
+      "rank": 6
+    },
+    {
+      "id": "2103135358024331396",
+      "author": "Replit",
+      "name": "Replit ⠕",
+      "text": "Muse can now make apps in Replit. 🚀 https://t.co/rl3T891XUe",
+      "likes": 172,
+      "retweets": 15,
+      "replies": 11,
+      "views": 8854,
+      "is_retweet": false,
+      "created_at": "Thu Sep 24 14:51:58 +0000 2026",
+      "url": "https://x.com/Replit/status/2103135358024331396",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS_Wdm5b0AAh_S3.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS_Wdm5b0AAh_S3.jpg"
+      ],
+      "quoted_tweet": null,
+      "score": 62.0,
+      "summary": "Muse 现在可以在 Replit 里直接做应用了。",
+      "recommend_reason": "Replit 官宣 Muse 可在平台内直接做应用，个人助手叙事接到可运行产物，值得记一笔分发入口。",
+      "tags": [
+        "指定AI名单",
+        "Replit",
+        "Muse",
+        "Meta",
+        "应用生成"
+      ],
+      "section": "指定AI名单",
+      "rank": 7
+    },
+    {
+      "id": "2103134192444064084",
+      "author": "jinchenma_ai",
+      "bio": "前大厂程序员，OPC实践中｜只工作不上班\n用AI → 内容创作｜知识库｜教程｜培训\nFIRST CHECK 发起人｜ 记录普通人如何在AI时代淘点金\n最近在做FDE实践与落地👇欢迎链接&合作&咨询",
+      "text": "真的有必要普及一下 AGENTS.md 和 SKILL.md 这种文件的基本原理了。\n\n现在都是渐进式披露，用到什么到时候就读什么，做好分层。\n\n该 references 就 references，该 scripts 就 scripts，该 config 就 config……\n\n虽然随着模型能力越来越强，这些或许不一定必要，但是梳理好数据分层，也是在考验一个人如何定义一个 Agent 的能力。",
+      "likes": 13,
+      "retweets": 3,
+      "replies": 2,
+      "views": 1398,
+      "created_at": "Thu Sep 24 14:47:20 +0000 2026",
+      "url": "https://x.com/jinchenma_ai/status/2103134192444064084",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS_UnSVbkAA7ftN.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS_UnSVbkAA7ftN.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2102732096909537515",
+        "author": "rwayne",
+        "name": "Roland.W",
+        "text": "《你对 AGENTS.md 的理解几乎为零》\n\n作者：@rwayne @onlookersh \n\n“公司变大之后，人和公司都会犯糊涂。他们想复制最初的成功，于是很多人以为：当初成功的过程里一定藏着某种魔力。于是他们开始把流程在全公司制度化。很快，大家就把流程当成了内容本身。” ———史蒂夫·乔布斯 《失落的访谈》\n\n过去的时候呢，各种的 AI 编程工具有各自的说明书。比如Anthropic 家的 Claude Code，开机默认只读一个叫 CLAUDE.md 的说明书。而 OpenAI 家的 Codex 和其他很多工具，默认读的是 AGENTS.md。我相信很多人都是跟我一样，不止用一个编程工具。那么这就会出现一个问题，我同一个项目里面，我必须放两份说明书。Claude Code 后来增加了一种处理方式，如果项目里没有 CLAUDE.md，它会检查有没有 AGENTS.md。\n\n那为什么说你对 AGENTS.md 的理解几乎为零？",
+        "created_at": "Wed Sep 23 12:09:33 +0000 2026",
+        "url": "https://x.com/rwayne/status/2102732096909537515",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 62.131,
+      "summary": "真的有必要普及一下 AGENTS.md 和 SKILL.md 这种文件的基本原理了。\n\n现在都是渐进式披露，用到什么到时候就读什么，做好分层。\n\n该 references 就 references，该 scripts 就 scripts，该 config 就 config……\n\n虽然随着模型能力越来越强，这些或许不一定必要，但是梳理好数据分层，也是在考验一个人如何定义一个 Agent 的能力。",
+      "recommend_reason": "把 AGENTS.md / SKILL.md 的渐进式披露与分层（references/scripts/config）讲成「定义 Agent」的基本功，对工程化 Agent 很实用。",
+      "tags": [
+        "指定AI名单",
+        "AGENTS.md",
+        "SKILL.md",
+        "Agent",
+        "工程化"
+      ],
+      "section": "指定AI名单",
+      "rank": 8
+    },
+    {
+      "id": "2103130895612026942",
+      "author": "vista8",
+      "bio": "喜欢摇滚乐、爱钓鱼的PM\n第二届GEO大会报名-11-21/22日-深圳南山\nhttps://t.co/N75cblhK9R",
+      "text": "啊！ DeepSeek Harness偷偷出了官方GUI客户端...\n\n刚装上，很简洁，启动引导也很清晰。\n\n消耗用的DeepSeek Platform充值的金额。\n\n同时提供Windows版和Mac版，下载地址见评论区。 https://t.co/epoyp1SVni",
+      "likes": 94,
+      "retweets": 8,
+      "replies": 14,
+      "views": 21335,
+      "created_at": "Thu Sep 24 14:34:14 +0000 2026",
+      "url": "https://x.com/vista8/status/2103130895612026942",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS_RbrhbEAEydfI.jpg",
+        "https://pbs.twimg.com/media/HS_RkCUbAAAeoPF.jpg",
+        "https://pbs.twimg.com/media/HS_Rooia4AAL3Pd.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS_RbrhbEAEydfI.jpg",
+        "https://pbs.twimg.com/media/HS_RkCUbAAAeoPF.jpg",
+        "https://pbs.twimg.com/media/HS_Rooia4AAL3Pd.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 63.968,
+      "summary": "啊！ DeepSeek Harness偷偷出了官方GUI客户端...\n\n刚装上，很简洁，启动引导也很清晰。\n\n消耗用的DeepSeek Platform充值的金额。\n\n同时提供Windows版和Mac版，下载地址见评论区。 https://t.co/epoyp1SVni",
+      "recommend_reason": "DeepSeek Harness 官方 GUI 客户端落地细节（Win/Mac、Platform 充值、安装引导），比一句话官宣更利于动手试用。",
+      "tags": [
+        "指定AI名单",
+        "DeepSeek",
+        "Harness",
+        "客户端",
+        "GUI"
+      ],
+      "section": "指定AI名单",
+      "rank": 9
+    },
+    {
+      "id": "2103126209597256076",
+      "author": "fchollet",
+      "name": "François Chollet",
+      "text": "At some point in evolutionary history, matter learned to feel. We don't know how. It wouldn't be scientific to dismiss the possibility that it could happen again.\n\n(I don't believe it happens in current AI systems, because they don't have the charactistics I would expect to see in a sentient agent)",
+      "likes": 294,
+      "retweets": 21,
+      "replies": 66,
+      "views": 17311,
+      "is_retweet": false,
+      "created_at": "Thu Sep 24 14:15:37 +0000 2026",
+      "url": "https://x.com/fchollet/status/2103126209597256076",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "quoted_tweet": null,
+      "score": 67.406,
+      "title": "Chollet：物质曾学会感受；不宜科学地排除再现可能，但也不认为当前 AI 已具备感知特征",
+      "summary": "François Chollet 写道：在进化史上的某一点，物质学会了感受，机制未知；因此不能从科学上排除它再次发生的可能。但他不认为当前 AI 系统已经出现感知，因为它们缺少他预期中有感知主体应具备的那些特征。",
+      "recommend_reason": "Chollet 对「物质如何学会感受」与当前 AI 是否具备感知特征的克制表态，适合对照炒作式 AGI 叙事。",
+      "tags": [
+        "指定AI名单",
+        "fchollet",
+        "感知",
+        "意识",
+        "对齐"
+      ],
+      "section": "指定AI名单",
+      "rank": 10
+    },
+    {
+      "id": "2103009665177305456",
+      "author": "bindureddy",
+      "bio": "",
+      "text": "🚨  3D Games With Opus 5.5 On The Abacus AI Supercomputer \n\n- text prompt to full games\n- build multiplayer games with different levels\n- create virtual goods, collect payments\n- add messaging and voice chat\n -backend fully free https://t.co/9u46ZC9fGF",
+      "created_at": "Thu Sep 24 06:32:30 +0000 2026",
+      "likes": 380,
+      "views": "1160539",
+      "url": "https://x.com/i/status/2103009665177305456",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2103009446490480641/vid/avc1/480x270/plDRMvQGXqVElPrf.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2103009446490480641/img/1g-ENxUFZK-gexYj.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 66.022,
+      "title": "Abacus 上用 Opus 5.5 从文本提示生成可多人关卡与付费虚拟物的 3D 游戏",
+      "summary": "Abacus AI 展示在其超算上用 Opus 5.5 做 3D 游戏：文本提示生成完整游戏、可搭多关卡多人玩法、创建虚拟商品并收款、加消息与语音聊天，并称后端完全免费。",
+      "recommend_reason": "把「模型写游戏」接到多人、虚拟商品与语音聊天的产品化清单，虽有营销口吻，但能力边界列得清楚。",
+      "tags": [
+        "指定AI名单",
+        "Abacus",
+        "Opus5.5",
+        "3D游戏",
+        "Agent"
+      ],
+      "section": "指定AI名单",
+      "rank": 11
+    },
+    {
+      "id": "2102995246745550926",
+      "author": "xiaoxiaodong01",
+      "bio": "",
+      "text": "咦？\nGPT-image2 可以话出这种线条和色彩？\n\n提示词：\n\n```\n让未来主题先提炼成一个可被阅读的强标题、少量信息行和一套可铺满画面的线性结构；画面第一眼必须是顶部极重、极黑、被裁切般逼近边缘的粗体字块压住下方大面积细线场，标题像建筑横梁而不是装饰字。主体图像不以写实物件出现，而被转译为多组横向、略起伏、手工错位的平行细线，线组之间有断裂、交叉、局部倾斜和不完全对齐，形成可读秩序与即兴失衡并存的底层网格。主题能量通过散落的颜料点、短擦痕和小色块介入线场，颜色采用少数高饱和原色与轻灰、浅粉、浅蓝、绿、橙并置，像印刷后被手工泼洒或误套色留下的痕迹；色点大小悬殊，既有针尖小点也有指腹般斑块，分布看似随机但围绕线的节奏产生停顿、重音和跳跃。文字系统采用极端压缩层级：主标题为厚重无衬线黑块，字形宽阔、笔画均匀、内白被压小、端点平直、连接紧密，任何书写系统都应保持块面优先和正字识别；辅助文字细窄、冷静、贴近标题或底边，作为制度化信息而非视觉主角。背景保持未装饰白纸，保留干净边界、轻微印刷生硬感和手工污点的不完美，不加渐变、阴影、摄影质感、精致插画、对称装饰或柔化美化，让黑色秩序与彩色事故共同构成主题。\n\n——————\n主题：中秋节海报\n\n一共10张\n每张都是不同的基于这个美学dna的不同创意\n```",
+      "created_at": "Thu Sep 24 05:35:13 +0000 2026",
+      "likes": 14,
+      "views": "2114",
+      "url": "https://x.com/i/status/2102995246745550926",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS9W3wTbsAAKIBF.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS9W3wTbsAAKIBF.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 63.281,
+      "title": "GPT-image2 线条色场面：重黑标题压细线场，颜料点像误套色的手工印刷感",
+      "summary": "作者展示 GPT-image2 提示词实验：先把未来主题压成强标题与少量信息行，顶部极重黑粗体字块压住横向手工错位细线网格；主题能量用高饱和色点、擦痕介入线场，模仿印刷误套色与手工泼洒；文字层级极度压缩，追求可读秩序与即兴失衡并存的视觉系统。",
+      "recommend_reason": "少见的「排版系统级」图像提示词，不只堆风格词，对做视觉实验的人可直接改写复用。",
+      "tags": [
+        "指定AI名单",
+        "GPT-image2",
+        "提示词",
+        "生成式艺术",
+        "排版"
+      ],
+      "section": "指定AI名单",
+      "rank": 12
+    },
+    {
+      "id": "2102986085328716066",
+      "author": "ring_hyacinth",
+      "bio": "",
+      "text": "用 Opus 5.5 制作的小动画。\n\n最近在做的一条中秋节片子，恰逢 Opus 5.5 发布，就在想是不是可以试试做拼贴风的动画。\n\n有点震惊了，效果竟然还不错。\n\n脚本和音乐是我给的；动画由 Opus 5.5 用 JavaScript 代码逐帧画出来，手绘纹理用的是 p5.js + p5.brush，背景底稿和纸张材质由 Nano Banana Pro 生成，音效也是它用 Node.js 程序合成的。\n\n前段时间 GPT 6 做 3D 游戏已经有点吃惊了，原来 LLM 都有做视频和 3D 的潜力，感觉看到了不同技术路径的未来。",
+      "created_at": "Thu Sep 24 04:58:48 +0000 2026",
+      "likes": 388,
+      "views": "18637",
+      "url": "https://x.com/i/status/2102986085328716066",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2102985762996379648/vid/avc1/480x270/m_Ic17BvE56VH4Oi.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102985762996379648/img/4iq_gKH56QOv4xbs.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 74.362,
+      "title": "Opus 5.5 用 p5.js 逐帧手绘拼贴动画，脚本音乐自制、音效也用代码合成",
+      "summary": "作者做中秋拼贴风短片：脚本与音乐自备，动画由 Claude Opus 5.5 写 JavaScript 逐帧绘制（p5.js + p5.brush），背景与纸张材质由 Nano Banana Pro 生成，音效再用 Node.js 合成。作者感叹 LLM 不止会做 3D 游戏，也在打开代码生成视频的另一条技术路径。",
+      "recommend_reason": "高质量中文实作复盘：把「模型写代码→逐帧渲染→成片」链路讲清楚，比单纯 demo 更有可复用信息。",
+      "tags": [
+        "指定AI名单",
+        "Claude",
+        "Opus5.5",
+        "p5js",
+        "AI视频",
+        "生成式艺术"
+      ],
+      "section": "指定AI名单",
+      "rank": 13
+    },
+    {
+      "id": "2102980783459778591",
+      "author": "Leobai825",
+      "bio": "",
+      "text": "卧槽，论文写不动的人，真的有救了\n而且这个工具现在还免费！可以用GPT6！！！\n\n最近试了一个专门给科研人员用的 AI：ScienceBuddy\n\n它可以把写论文中最折磨人的几件事先处理掉：\n看一堆文献、整理研究证据、分析公开数据、写代码画图\n\n我刚刚拿一个真实任务去测试：让他基于公开论文和 PubMed，分析生成式 AI 在生物医学科研工作流里的真实应用，并整理出带来源的证据表。\n\n然后我就看着它自己开始干活\n\n @PhAILabs  先去 PubMed 检索论文，又调用网页搜索核对来源，继续读取论文信息\n\n最后把结果整理成了一份结构化报告和 CSV 文件。\n整个过程一共跑了 63 步\n\n最爽的是，它调用了什么工具、跑了什么代码、每一步得到什么结果\n都能在「轨迹」里看到，生成的文件也可以直接下载\n\n从赚钱的角度看，时间就是成本\n\n你少在文献和代码上卡几个小时，就多出几个小时去做实验、写方案，或者干点真正能产生结果的事\n\n目前是 Preview 版本，结果还是要自己核验，不能直接拿去当最终研究结论\n\n但免费这一点，确实值得先去试一下\n真的是科研人的福音，码住了！\n\n🔗 https://t.co/zoH2L09BHM",
+      "created_at": "Thu Sep 24 04:37:44 +0000 2026",
+      "likes": 94,
+      "views": "16700",
+      "url": "https://x.com/i/status/2102980783459778591",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HS9JoAHWwAA8Gwu.jpg",
+        "https://pbs.twimg.com/media/HS9Jo-4WQAA4RSv.jpg",
+        "https://pbs.twimg.com/media/HS9JqyiW8AAXxQ3.png",
+        "https://pbs.twimg.com/media/HS9Jr4BXMAAa4J6.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HS9JoAHWwAA8Gwu.jpg",
+        "https://pbs.twimg.com/media/HS9Jo-4WQAA4RSv.jpg",
+        "https://pbs.twimg.com/media/HS9JqyiW8AAXxQ3.png",
+        "https://pbs.twimg.com/media/HS9Jr4BXMAAa4J6.png"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2102771468165906800",
+        "author": "PhAILabs",
+        "name": "PhAI Labs",
+        "text": "Introducing ScienceBuddy — a free workspace for scientific agents that improve through researcher collaboration. \n\nUse GPT-6 in ScienceBuddy at no cost. GPU-accelerated, and fused with the JEV framework.\n\n🧵 Two loops:\n🔹 Inner loop — refines the agent harness\n🔹 Outer loop — trains the model with rubric-guided RL  \nTogether: Recursive-in-Recursive Self-Improvement.\n\nScienceBuddy explores how scientific agents can improve through sustained collaboration with researchers.  \n\n🔬Try it free: https://t.co/lECPnbS28t \n\n#ScienceBuddy #PhAILabs #AI4Science",
+        "created_at": "Wed Sep 23 14:46:00 +0000 2026",
+        "url": "https://x.com/PhAILabs/status/2102771468165906800",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2102598429142925312/vid/avc1/480x270/P-DkxrUvOo1RNoV_.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2102598429142925312/img/9BURK_xfoE7rRUQb.jpg"
+        ]
+      },
+      "score": 66.65,
+      "title": "科研向 Agent ScienceBuddy：PubMed 检索到证据表一共跑了 63 步，还免费可接 GPT-6",
+      "summary": "作者实测面向科研人员的 AI 工具 ScienceBuddy：可代劳文献阅读、证据整理、公开数据分析与画图写代码。用真实任务让它基于公开论文与 PubMed 分析生成式 AI 在生物医学科研工作流中的应用，并输出带来源的证据表与 CSV；过程调用检索与网页核对，共 63 步，目前免费且可接 GPT-6。",
+      "recommend_reason": "少见的「科研工作流 Agent」真任务演示，步骤数与工具链透明，比空泛论文助手宣传更有参考价值。",
+      "tags": [
+        "指定AI名单",
+        "ScienceBuddy",
+        "科研Agent",
+        "PubMed",
+        "GPT6"
+      ],
+      "section": "指定AI名单",
+      "rank": 14
+    },
     {
       "id": "2102966798052384957",
       "author": "FuSheng_0306",
@@ -32,7 +560,7 @@
         "对齐",
         "安全"
       ],
-      "rank": 1
+      "rank": 15
     },
     {
       "id": "2102947015244296635",
@@ -60,7 +588,7 @@
         "产品",
         "日活"
       ],
-      "rank": 2
+      "rank": 16
     },
     {
       "id": "2102940980379017293",
@@ -107,7 +635,7 @@
         "创意编程"
       ],
       "section": "指定AI名单",
-      "rank": 3
+      "rank": 17
     },
     {
       "id": "2102935382384087219",
@@ -141,7 +669,7 @@
         "Agent"
       ],
       "section": "指定AI名单",
-      "rank": 4
+      "rank": 18
     },
     {
       "id": "2102934344772047055",
@@ -170,7 +698,7 @@
         "发布前瞻"
       ],
       "section": "指定AI名单",
-      "rank": 5
+      "rank": 19
     },
     {
       "id": "2102932311411175443",
@@ -204,7 +732,7 @@
         "OpenAI"
       ],
       "section": "指定AI名单",
-      "rank": 6
+      "rank": 20
     },
     {
       "id": "2102926079791124760",
@@ -240,7 +768,7 @@
         "实验室"
       ],
       "section": "指定AI名单",
-      "rank": 7
+      "rank": 21
     },
     {
       "id": "2102926030285709482",
@@ -288,7 +816,7 @@
         "OpenAI"
       ],
       "section": "指定AI名单",
-      "rank": 8
+      "rank": 22
     },
     {
       "id": "2102916558712705427",
@@ -327,7 +855,7 @@
         "Voice"
       ],
       "section": "指定AI名单",
-      "rank": 9
+      "rank": 23
     },
     {
       "id": "2102911033686081747",
@@ -357,7 +885,7 @@
         "国内大厂"
       ],
       "section": "指定AI名单",
-      "rank": 10
+      "rank": 24
     },
     {
       "id": "2102905702549533157",
@@ -399,7 +927,7 @@
         "成本",
         "Agent"
       ],
-      "rank": 11
+      "rank": 25
     },
     {
       "id": "2102898067133595992",
@@ -429,7 +957,7 @@
         "工程"
       ],
       "section": "指定AI名单",
-      "rank": 12
+      "rank": 26
     },
     {
       "id": "2102897863097545197",
@@ -466,7 +994,7 @@
         "应用落地"
       ],
       "section": "指定AI名单",
-      "rank": 13
+      "rank": 27
     },
     {
       "id": "2102897112841425049",
@@ -498,7 +1026,7 @@
         "编程Agent",
         "体感"
       ],
-      "rank": 14
+      "rank": 28
     },
     {
       "id": "2102884238576296179",
@@ -531,7 +1059,7 @@
         "提示词"
       ],
       "section": "指定AI名单",
-      "rank": 15
+      "rank": 29
     },
     {
       "id": "2102876925102555526",
@@ -564,7 +1092,7 @@
         "提示词"
       ],
       "section": "指定AI名单",
-      "rank": 16
+      "rank": 30
     },
     {
       "id": "2102875655004385401",
@@ -593,7 +1121,7 @@
         "推理"
       ],
       "section": "指定AI名单",
-      "rank": 17
+      "rank": 31
     },
     {
       "id": "2102873234819698877",
@@ -627,7 +1155,7 @@
         "桌面"
       ],
       "section": "指定AI名单",
-      "rank": 18
+      "rank": 32
     },
     {
       "id": "2102870353781641416",
@@ -674,7 +1202,7 @@
         "吐槽"
       ],
       "section": "指定AI名单",
-      "rank": 19
+      "rank": 33
     },
     {
       "id": "2102865595675050010",
@@ -708,7 +1236,7 @@
         "创作"
       ],
       "section": "指定AI名单",
-      "rank": 20
+      "rank": 34
     },
     {
       "id": "2102861892549279922",
@@ -737,7 +1265,7 @@
         "工具"
       ],
       "section": "指定AI名单",
-      "rank": 21
+      "rank": 35
     },
     {
       "id": "2102859989761114353",
@@ -769,7 +1297,7 @@
         "Opus5.5",
         "云"
       ],
-      "rank": 22
+      "rank": 36
     },
     {
       "id": "2102857025206255902",
@@ -817,7 +1345,7 @@
         "Claude"
       ],
       "section": "指定AI名单",
-      "rank": 23
+      "rank": 37
     },
     {
       "id": "2102849003243323717",
@@ -847,7 +1375,7 @@
         "实验室"
       ],
       "section": "指定AI名单",
-      "rank": 24
+      "rank": 38
     },
     {
       "id": "2102845044743082216",
@@ -880,7 +1408,7 @@
         "多模态"
       ],
       "section": "指定AI名单",
-      "rank": 25
+      "rank": 39
     },
     {
       "id": "2102840851538080172",
@@ -912,7 +1440,7 @@
         "Agent"
       ],
       "section": "指定AI名单",
-      "rank": 26
+      "rank": 40
     },
     {
       "id": "2102834402908582112",
@@ -946,7 +1474,7 @@
         "教育"
       ],
       "section": "指定AI名单",
-      "rank": 27
+      "rank": 41
     },
     {
       "id": "2102833926788288704",
@@ -981,7 +1509,7 @@
         "MiMo"
       ],
       "section": "指定AI名单",
-      "rank": 28
+      "rank": 42
     },
     {
       "id": "2102831170299834652",
@@ -1028,7 +1556,7 @@
         "科研"
       ],
       "section": "指定AI名单",
-      "rank": 29
+      "rank": 43
     },
     {
       "id": "2102827887732932956",
@@ -1060,7 +1588,7 @@
         "Claude Code"
       ],
       "section": "指定AI名单",
-      "rank": 30
+      "rank": 44
     },
     {
       "id": "2102827867088244993",
@@ -1098,7 +1626,7 @@
         "GPT",
         "生产力"
       ],
-      "rank": 31
+      "rank": 45
     },
     {
       "id": "2102824959827742916",
@@ -1133,7 +1661,7 @@
         "科研"
       ],
       "section": "指定AI名单",
-      "rank": 32
+      "rank": 46
     },
     {
       "id": "2102821706041819401",
@@ -1176,7 +1704,7 @@
         "ChatGPTWork"
       ],
       "section": "指定AI名单",
-      "rank": 33
+      "rank": 47
     },
     {
       "id": "2102819834790908072",
@@ -1208,7 +1736,7 @@
         "Voice"
       ],
       "section": "指定AI名单",
-      "rank": 34
+      "rank": 48
     },
     {
       "id": "2102814202117411196",
@@ -1252,7 +1780,7 @@
         "工作流"
       ],
       "section": "指定AI名单",
-      "rank": 35
+      "rank": 49
     },
     {
       "id": "2102812473816723826",
@@ -1286,7 +1814,7 @@
         "语音"
       ],
       "section": "指定AI名单",
-      "rank": 36
+      "rank": 50
     },
     {
       "id": "2102810709868617731",
@@ -1319,7 +1847,7 @@
         "具身/视觉"
       ],
       "section": "指定AI名单",
-      "rank": 37
+      "rank": 51
     },
     {
       "id": "2102808325742322002",
@@ -1352,7 +1880,7 @@
         "生产力"
       ],
       "section": "指定AI名单",
-      "rank": 38
+      "rank": 52
     },
     {
       "id": "2102806161728885145",
@@ -1383,7 +1911,7 @@
         "具身智能"
       ],
       "section": "指定AI名单",
-      "rank": 39
+      "rank": 53
     },
     {
       "id": "2102804187746898325",
@@ -1410,7 +1938,7 @@
         "PersonalAgent",
         "产品"
       ],
-      "rank": 40
+      "rank": 54
     },
     {
       "id": "2102800718386389174",
@@ -1440,7 +1968,7 @@
         "产品观察"
       ],
       "section": "指定AI名单",
-      "rank": 41
+      "rank": 55
     },
     {
       "id": "2102798608227795393",
@@ -1485,7 +2013,7 @@
         "Bot",
         "增长"
       ],
-      "rank": 42
+      "rank": 56
     },
     {
       "id": "2102797779563094362",
@@ -1518,7 +2046,7 @@
         "工程"
       ],
       "section": "指定AI名单",
-      "rank": 43
+      "rank": 57
     },
     {
       "id": "2102795474071920702",
@@ -1547,7 +2075,7 @@
         "职业"
       ],
       "section": "指定AI名单",
-      "rank": 44
+      "rank": 58
     },
     {
       "id": "2102790653201490158",
@@ -1577,26 +2105,26 @@
         "中文"
       ],
       "section": "指定AI名单",
-      "rank": 45
+      "rank": 59
     }
   ],
-  "generated_at": "2026-09-24T12:49:07.176155+08:00",
+  "generated_at": "2026-09-24T16:51:52Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
-    "per_run_max": 20,
+    "per_run_max": 15,
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 45,
-    "last_batch_added": 19,
+    "actual_count": 59,
+    "last_batch_added": 14,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 1,
     "last_batch_skipped_day_cap": 0,
-    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤15；单日≤60不保底；追加按id去重。",
     "short_tweet": {
       "threshold_chars": 200,
       "title_optional": true,
@@ -1604,14 +2132,15 @@
       "summary_semantics": "full_text_or_full_zh_translation"
     },
     "window": {
-      "start": "2026-09-24T00:00:00+08:00",
-      "end": "2026-09-24T12:00:00+08:00",
-      "label": "noon-full",
-      "coverage_note": "完整午场 00:00–12:00 北京；following timeline + live search(无 nativeretweets) + hard_collect；gaps=none"
+      "start": "2026-09-24T12:00:00+08:00",
+      "end": "2026-09-25T00:00:00+08:00",
+      "label": "midnight-full",
+      "coverage_note": "夜场 12:00–24:00 北京；timeline800+live search+slices+hard_collect；coverage=2026-09-24T12:00:01+08:00–2026-09-24T23:59:59+08:00 gaps=none"
     },
     "source": [
       "following_timeline",
       "opencli_search_filter_follows_no_nativeretweets",
+      "search_slices",
       "hard_collect"
     ]
   }
