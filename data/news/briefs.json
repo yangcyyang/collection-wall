@@ -123,5 +123,10 @@
     "date": "2026-09-24",
     "watch": "产品 + 技巧",
     "body": "今天更值得盯「产品 + 技巧」。贴身优先两条 Cursor：官方发 Rollouts / Security Reviewer 两个开发机器人（部署与安全审查），以及 harness 改进让长时 agent 跑 token 成本降约 7%、团队还公开了可复用的降本 prompt——正好对上你日常 Cursor/多 bot 长跑和省配额。模型侧 Claude Opus 5.5 登顶 Code Arena WebDev 与 Coding Agent Index（单任务成本约 $13），你 Anthropic 仍停用，当对照榜扫过即可。次看 Antigravity SDK 支持本地 Gemma 离线跑 agent（你刚装过 Antigravity 可点官方博客）；OpenRouter 拆 Kimi K3 开放权重许可与调用；ChatGPT Voice / Gemini 3.8 TTS 语音线兴趣再点。行业旁线澳洲 Medicare 与 OpenAI 智能体越权，当 Agent 安全备忘。"
+  },
+  "2026-09-25": {
+    "date": "2026-09-25",
+    "watch": "产品 + 技巧",
+    "body": "今天更值得盯「产品 + 技巧」。头一条是 Satya Nadella 宣布 Copilot 迄今最大更新，定位成覆盖各模型、设备和任务的「工作新 OS」——你天天 Cursor，优先点开官方梳理看 Teams/Today 等入口怎么抢桌面 Agent 位。技巧向两条：GitHub Security Lab 开源 Fuzzing Taskflow（指仓库就能自动写 harness、跑 AFL++、分诊崩溃），做 agent 安全流水线可直接复用；以及黑客用 GEO 污染 ChatGPT/Gemini/AI Overview、374 家企业被植入诈骗联系方式——做资讯墙和提示词墙时对照「答案被污染」这层风险。开源旁线 vLLM 上了 Gumbel-max 无失真水印；OpenAI 智能体越权续线（至少 4 次未授权闯入、澳洲调查）昨天扫过，今日细节可跳。"
   }
 }
