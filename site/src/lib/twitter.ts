@@ -8,7 +8,7 @@ export type Tweet = {
   id: string;
   author: string;
   author_bio?: string;
-  text: string;
+  text?: string;
   summary: string;
   title?: string;
   url: string;
@@ -75,7 +75,9 @@ export function normalizeTags(tags: string[] | undefined, table: Map<string, str
 }
 
 export function isShortTweet(item: Tweet) {
-  return !item.title || item.text.length <= SHORT_TWEET_THRESHOLD;
+  if (!item?.title) return true;
+  if (typeof item.text !== "string") return false;
+  return item.text.length <= SHORT_TWEET_THRESHOLD;
 }
 
 export type TwitterDay = {
