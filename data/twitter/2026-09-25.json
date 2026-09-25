@@ -1,0 +1,550 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-25",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2103318985882439705",
+      "author": "gkxspace",
+      "url": "https://x.com/gkxspace/status/2103318985882439705",
+      "created_at": "Fri Sep 25 03:01:38 +0000 2026",
+      "summary": "作者用 Mac 上的 iPhone 镜像配合 Codex Computer Use：让 Agent 对照电脑上的网络配置，到手机镜像里逐项点击改小火箭规则与 DNS。认为 Computer Use 被低估——电脑能干的事它基本都能干，现在连手机 App 操作也能交给它。",
+      "recommend_reason": "把 Computer Use 从桌面延伸到手机镜像，是很具体的「跨设备操控」玩法。",
+      "tags": [
+        "Codex",
+        "Computer Use",
+        "iPhone镜像",
+        "Agent"
+      ],
+      "title": "iPhone 镜像 + Codex Computer Use：把手机操作也交给 AI",
+      "rank": 1
+    },
+    {
+      "id": "2103308292613345504",
+      "author": "wshuyi",
+      "url": "https://x.com/i/status/2103308292613345504",
+      "created_at": "Fri Sep 25 02:19:09 +0000 2026",
+      "summary": "Opus 5.5 直出《崂山道士》3D 影片。不写分镜脚本、不套现成影片 Skill。这次用 Claude Code 挂 Opus 5.5，只用我的声音克隆，从零做出这部《崂山道士》三维讲解片。这是个测试，我想看现在的模型能不能端到端直接把故事「拍」出来。",
+      "recommend_reason": "端到端「故事→3D 讲解片」压力测试，附声音克隆，比单纯秀特效更有实验价值。",
+      "tags": [
+        "Opus",
+        "Claude Code",
+        "AI视频",
+        "声音克隆"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2103308028552343946",
+      "author": "emollick",
+      "url": "https://x.com/emollick/status/2103308028552343946",
+      "created_at": "Fri Sep 25 02:18:06 +0000 2026",
+      "summary": "Emollick 称 GPT-6 Astra 在第三次尝试打通 Nethack（经典极难 roguelike），并自嘲玩了很多也从未飞升；认为这是 Astra 的惊人成绩。",
+      "recommend_reason": "用「硬游戏通关」做能力锚点，比空泛跑分更有传播与直觉冲击。",
+      "tags": [
+        "指定AI名单",
+        "GPT-6",
+        "Astra",
+        "Agent",
+        "游戏"
+      ],
+      "title": "GPT-6 Astra 第三次尝试通关 Nethack：Emollick 称惊人",
+      "section": "指定AI名单",
+      "rank": 3
+    },
+    {
+      "id": "2103300490184564849",
+      "author": "op7418",
+      "url": "https://x.com/i/status/2103300490184564849",
+      "created_at": "Fri Sep 25 01:48:08 +0000 2026",
+      "summary": "迭代了一下 Skill，让 Opus 5.5 基于 Zed 的代码库做了一个宣传视频。\n\n我操，这个也很屌啊！\n\n一直在整个编辑器里运动，通过不同的编辑器运动介绍产品的各种功能，而且卡点卡得非常好，音乐和节奏也非常好，完美地展示了这个产品的风格和它的能力。\n\nOpus 5.5 太牛逼了！",
+      "recommend_reason": "具体案例：用 Skill+Opus 5.5 把 Zed 代码库拍成卡点宣传片，可复现的产品 demo 路径。",
+      "tags": [
+        "Opus",
+        "Zed",
+        "Skill",
+        "产品视频"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2103272686570918334",
+      "author": "emollick",
+      "url": "https://x.com/emollick/status/2103272686570918334",
+      "created_at": "Thu Sep 24 23:57:40 +0000 2026",
+      "summary": "呃，哇？\n\nOpus 5.5：「把同一条信息改得更有趣，面向爱动漫、短视频和压缩式学习的社交媒体观众。」\n\n一次生成。\n\n另外，请一定看到结尾曲。",
+      "recommend_reason": "一句话指令出完整社媒向短片（含片尾曲），直观展示 Opus 5.5 视频叙事能力。",
+      "tags": [
+        "指定AI名单",
+        "Opus",
+        "AI视频",
+        "演示"
+      ],
+      "section": "指定AI名单",
+      "title": "Opus 5.5 一句话：把信息改成动漫短视频风社媒片（含片尾曲）",
+      "rank": 5
+    },
+    {
+      "id": "2103270057057169799",
+      "author": "pika_labs",
+      "url": "https://x.com/pika_labs/status/2103270057057169799",
+      "created_at": "Thu Sep 24 23:47:13 +0000 2026",
+      "summary": "Pika 宣布 Grok Bots 可连接 Pika API，用一把 key 生成图像/视频/音频，覆盖 Seedance 2.5、Wan 3.0、GPT-image-2 等 120+ 模型。",
+      "recommend_reason": "把 Bot 生态接到统一媒资 API，是「Bot=制作室」的直接产品拼图。",
+      "tags": [
+        "指定AI名单",
+        "Pika",
+        "Grok",
+        "API",
+        "生成媒体"
+      ],
+      "title": "Pika API 接通 Grok Bots：一个 key 用上 120+ 图音视频模型",
+      "section": "指定AI名单",
+      "rank": 6
+    },
+    {
+      "id": "2103265961487093794",
+      "author": "ArtificialAnlys",
+      "url": "https://x.com/ArtificialAnlys/status/2103265961487093794",
+      "created_at": "Thu Sep 24 23:30:56 +0000 2026",
+      "summary": "同榜补充：GPT-6 Astra 与 Claude Opus 5.5 相对 Fable 5.1 约有 20 分领先；族外最佳如 Qwen3.8 Max 仅约 12%。同系列相对前代（GPT-5.6 Sol / Opus 5）在提升分的同时降低了每任务成本。",
+      "recommend_reason": "把「分差与成本」一起给出，避免只看榜一忽略单位成本进步。",
+      "tags": [
+        "指定AI名单",
+        "评测",
+        "模型对比",
+        "成本"
+      ],
+      "title": "Terminal-Bench-Science：OpenAI/Anthropic 甩开约 20 分，开源仍大幅落后",
+      "section": "指定AI名单",
+      "rank": 7
+    },
+    {
+      "id": "2103265956479070260",
+      "author": "ArtificialAnlys",
+      "url": "https://x.com/ArtificialAnlys/status/2103265956479070260",
+      "created_at": "Thu Sep 24 23:30:55 +0000 2026",
+      "summary": "AA 上线科学研究向 Agent 榜：70 个专家任务覆盖生命/物理/数学/工程/地球科学。GPT-6 Astra (max) 63%、Claude Opus 5.5 (xhigh) 62% 居首；开源权重最佳仅约 10%。生命科学多为多数模型短板；同用 mini-swe-agent 以保证可比。",
+      "recommend_reason": "新科学 Agent 基准开榜，数字与域差清晰，是看前沿模型「科研动手」能力的硬参考。",
+      "tags": [
+        "指定AI名单",
+        "评测",
+        "Terminal-Bench",
+        "GPT-6",
+        "Opus",
+        "Agent"
+      ],
+      "title": "Artificial Analysis 发布 Terminal-Bench-Science 0.1：Astra/Opus 领跑科学 Agent 评测",
+      "section": "指定AI名单",
+      "rank": 8
+    },
+    {
+      "id": "2103252563999232092",
+      "author": "poteto",
+      "url": "https://x.com/i/status/2103252563999232092",
+      "created_at": "Thu Sep 24 22:37:42 +0000 2026",
+      "summary": "作者用 Cursor Projects 配合 pstack，日常并行至少 10 个项目，覆盖性能、技术债、Bend2/Rust 实验、用户反馈、仪表盘甚至游戏；自我感觉像「1000x 工程师」。",
+      "recommend_reason": "一线工程实践对「多智能体/多项目并行」的真实反馈，比空谈 agent 更有体感。",
+      "tags": [
+        "Cursor",
+        "Projects",
+        "工程实践",
+        "多智能体"
+      ],
+      "title": "Cursor Projects + pstack：一人并行十个项目的工程体感",
+      "rank": 9
+    },
+    {
+      "id": "2103245206682505220",
+      "author": "oran_ge",
+      "url": "https://x.com/i/status/2103245206682505220",
+      "created_at": "Thu Sep 24 22:08:28 +0000 2026",
+      "summary": "大家都在盛赞 Opus 5.5 一句话出产品宣传片\n一个文本模型，直接用纯代码的方式来做视频\n这些产品宣传片以前在供应商那里的报价是上万的\n效果还没有 Opus 5.5 的好\n而很多视频 Skill 也完全没有存在的必要了\n都被一个模型直接吃掉\n\n让我感慨的是，把一个功夫用到极致竟可以触类旁通\n这真是有点武侠小说里打通任督二脉的味道了",
+      "recommend_reason": "用「报价上万的宣传片被一句话吃掉」点出 Opus 5.5 对视频 Skill 生态的冲击。",
+      "tags": [
+        "Opus",
+        "Claude",
+        "AI视频",
+        "Skill"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2103244070407802905",
+      "author": "NousResearch",
+      "url": "https://x.com/i/status/2103244070407802905",
+      "created_at": "Thu Sep 24 22:03:57 +0000 2026",
+      "summary": "Hermes Agent 里的网页搜索现在又快又免费。\n\n@perplexity_ai 为 Agent 打造了 Fast Search，并对所有 Nous Portal 档位免费开放。",
+      "recommend_reason": "开源 Agent 栈（Hermes）接到 Perplexity Fast Search 且全档免费，生态协作信号强。",
+      "tags": [
+        "指定AI名单",
+        "Nous",
+        "Hermes",
+        "Perplexity",
+        "Agent"
+      ],
+      "section": "指定AI名单",
+      "rank": 11
+    },
+    {
+      "id": "2103242504221212988",
+      "author": "LufzzLiz",
+      "url": "https://x.com/i/status/2103242504221212988",
+      "created_at": "Thu Sep 24 21:57:44 +0000 2026",
+      "summary": "作者统计：昨天 Opus 5.5 用了约 9.8 亿 token，按 tokei 轨迹 Claude Code 周额度约可到 26.4 亿（若一直村 Opus 或可超 30 亿）；Codex 周额度轨迹约 15 亿。结论是 100 刀 Claude 性价比远超 200 刀 Codex。",
+      "recommend_reason": "有具体 token/额度数字的订阅性价比对照，对选型有参考。",
+      "tags": [
+        "Claude",
+        "Codex",
+        "订阅",
+        "Token"
+      ],
+      "title": "Claude Code 周额度轨迹 vs Codex：100 刀档性价比对比",
+      "rank": 12
+    },
+    {
+      "id": "2103225342328766712",
+      "author": "goodside",
+      "url": "https://x.com/i/status/2103225342328766712",
+      "created_at": "Thu Sep 24 20:49:32 +0000 2026",
+      "summary": "有时会让我害怕：从现在到 AGI 只剩很少工作。所有路障都那么蠢、而且可修——这是 AI 刚到来的症状。一切都清楚只是时间问题。",
+      "recommend_reason": "资深提示工程师对「剩余路障」的尖锐判断，适合当午场情绪/方向锚点。",
+      "tags": [
+        "AGI",
+        "观点",
+        "goodside"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2103212249812721674",
+      "author": "bindureddy",
+      "url": "https://x.com/i/status/2103212249812721674",
+      "created_at": "Thu Sep 24 19:57:30 +0000 2026",
+      "summary": "作者认为 Fable 5.1 因太贵而被低估：在非常复杂的代码库上远优于 Opus 5.5，能少轮提示就一次修好难题与功能；并对比称 Opus 5.5 相对「糟糕又极贵」的 Opus 5 才显得出色。",
+      "recommend_reason": "来自重度用户的模型对比 anecdata，对「贵是否值得」讨论有信息增量。",
+      "tags": [
+        "Fable 5",
+        "Opus",
+        "编程",
+        "模型对比"
+      ],
+      "title": "Fable 5.1：贵但在超复杂代码库上被称碾压 Opus 5.5",
+      "rank": 14
+    },
+    {
+      "id": "2103212051065921632",
+      "author": "trq212",
+      "url": "https://x.com/i/status/2103212051065921632",
+      "created_at": "Thu Sep 24 19:56:43 +0000 2026",
+      "summary": "trq212 汇总反馈：许多人自己规划不需要 plan mode，也有人喜欢进入「Claude 只思考/脑暴」的 UX。其计划是把 plan mode 做成内置 mod，并允许 mods 新增模式或覆盖 shift+tab。",
+      "recommend_reason": "Anthropic 侧产品负责人对 Plan Mode 形态的明确路线，关乎日常 Claude 交互。",
+      "tags": [
+        "指定AI名单",
+        "Claude",
+        "Plan Mode",
+        "产品"
+      ],
+      "title": "Claude 计划模式或改内置 mod：按反馈兼容「自规划」与「共脑暴」",
+      "section": "指定AI名单",
+      "rank": 15
+    },
+    {
+      "id": "2103207376174325881",
+      "author": "FactoryAI",
+      "url": "https://x.com/FactoryAI/status/2103207376174325881",
+      "created_at": "Thu Sep 24 19:38:08 +0000 2026",
+      "summary": "Factory 的 Legacy-Bench 加入 Fireworks Specialized Intelligence Index，强调前沿模型在遗留代码上的盲区；该基准测调试、扩展与迁移历史系统的能力，以推动软件演进。",
+      "recommend_reason": "补上「遗留代码」评测缺口，比通用编程榜更贴近企业改造场景。",
+      "tags": [
+        "指定AI名单",
+        "Factory",
+        "评测",
+        "遗留代码"
+      ],
+      "title": "Factory Legacy-Bench 加入 Fireworks 专项智能指数：专测遗留系统改造",
+      "section": "指定AI名单",
+      "rank": 16
+    },
+    {
+      "id": "2103202967025549528",
+      "author": "midjourney",
+      "url": "https://x.com/i/status/2103202967025549528",
+      "created_at": "Thu Sep 24 19:20:37 +0000 2026",
+      "summary": "Midjourney 更新：v8.1/v8.2 新版 --tile 做无缝图案；新版 inpainting 只改选中像素；并在 alpha 站预览实时模型。",
+      "recommend_reason": "官方功能三连（无缝/局部重绘/实时预告），对设计工作流有直接触点。",
+      "tags": [
+        "指定AI名单",
+        "Midjourney",
+        "图像",
+        "更新"
+      ],
+      "title": "Midjourney：新版 --tile、可选区 inpainting，并预告实时模型",
+      "section": "指定AI名单",
+      "rank": 17
+    },
+    {
+      "id": "2103201617004949888",
+      "author": "_akhaliq",
+      "url": "https://x.com/_akhaliq/status/2103201617004949888",
+      "created_at": "Thu Sep 24 19:15:15 +0000 2026",
+      "summary": "_akhaliq 分享 Pruna 为 Qwen-Image-2.1 做的少步 LoRA：生成/编辑可从约 40 步降到 5 或 8 步，最高约 6.3× 加速；5 步极速、8 步更均衡，并给出 HF workflow。",
+      "recommend_reason": "开源图像模型加速的可下载适配器，速度数字清楚，适合本地/工作流玩家。",
+      "tags": [
+        "指定AI名单",
+        "Qwen",
+        "图像",
+        "LoRA",
+        "加速"
+      ],
+      "title": "Pruna-Qwen-Image-2.1：少步 LoRA 最高加速图像生成/编辑约 6.3×",
+      "section": "指定AI名单",
+      "rank": 18
+    },
+    {
+      "id": "2103185949341491513",
+      "author": "sairahul1",
+      "url": "https://x.com/i/status/2103185949341491513",
+      "created_at": "Thu Sep 24 18:13:00 +0000 2026",
+      "summary": "作者分享一套发给 Codex 的配置：搭好 Luna + Jev，自动给任务分类、找出算力与金钱浪费点，并声称能把编程 setup 提升到超过 95% 开发者。附「现在就复制」号召。",
+      "recommend_reason": "可直接试用的 Codex 路由/分类配置思路（Luna+Jev），偏实操。",
+      "tags": [
+        "Codex",
+        "Luna",
+        "Jev",
+        "工作流"
+      ],
+      "title": "给 Codex 的 Luna+Jev 分流配置：找算力浪费并升级工作流",
+      "rank": 19
+    },
+    {
+      "id": "2103184653373014509",
+      "author": "perplexity_ai",
+      "url": "https://x.com/i/status/2103184653373014509",
+      "created_at": "Thu Sep 24 18:07:51 +0000 2026",
+      "summary": "Perplexity 推出 Search API 的 Fast Search：基于自研 Rust 检索排序服务 Photon（小团队+大量 agent 建成），称 95% 搜索结果在 230ms 内返回。",
+      "recommend_reason": "给 Agent 用的低延迟搜索基建，有明确延迟分位数字。",
+      "tags": [
+        "指定AI名单",
+        "Perplexity",
+        "Search API",
+        "Agent"
+      ],
+      "title": "Perplexity Fast Search：Photon 检索引擎，95% 结果 ≤230ms",
+      "section": "指定AI名单",
+      "rank": 20
+    },
+    {
+      "id": "2103181273472852384",
+      "author": "krea_ai",
+      "url": "https://x.com/krea_ai/status/2103181273472852384",
+      "created_at": "Thu Sep 24 17:54:25 +0000 2026",
+      "summary": "Krea 介绍 Agent 内自定义应用：用自然语言描述即可搭建角色工作室、3D 查看器、动效等创意工具，并指向更多说明与示例。",
+      "recommend_reason": "创意侧「Agent 内建应用」产品化信号，不只是聊天生成。",
+      "tags": [
+        "指定AI名单",
+        "Krea",
+        "Agent",
+        "创意工具"
+      ],
+      "title": "Krea Agent 上线自定义 App：用描述搭角色工作室/3D/动效工具",
+      "section": "指定AI名单",
+      "rank": 21
+    },
+    {
+      "id": "2103180006935724482",
+      "author": "vista8",
+      "url": "https://x.com/i/status/2103180006935724482",
+      "created_at": "Thu Sep 24 17:49:23 +0000 2026",
+      "summary": "Together AI 写了一篇教程：教你花 25分钟、100人民币左右（17美元），训练一个类Jev模型。\n\n基于 Qwen3.5 4B 训练的。\n\n用的Huggingface上的8个公开数据集，3.8万条数据。\n\n像在推广他们的平台。\n\n但这么低的成本学习从0训模型，也想抽空试试。\n\n教程在评论区",
+      "recommend_reason": "低成本从零训小模型的可操作路径（Qwen3.5 4B / 公开数据），适合动手学习。",
+      "tags": [
+        "Together AI",
+        "Qwen",
+        "微调",
+        "Jev"
+      ],
+      "rank": 22
+    },
+    {
+      "id": "2103176153393758208",
+      "author": "OpenAIDevs",
+      "url": "https://x.com/i/status/2103176153393758208",
+      "created_at": "Thu Sep 24 17:34:04 +0000 2026",
+      "summary": "GPT-6 Astra 帮助 Harvey 把成堆文档变成结构化法律草稿，好让律师把更多精力放在策略上。",
+      "recommend_reason": "官方开发者叙事的垂直落地（法律草稿），说明 Astra 的文档结构化能力。",
+      "tags": [
+        "指定AI名单",
+        "OpenAI",
+        "GPT-6",
+        "法律",
+        "Harvey"
+      ],
+      "section": "指定AI名单",
+      "rank": 23
+    },
+    {
+      "id": "2103171088637419631",
+      "author": "goodside",
+      "url": "https://x.com/i/status/2103171088637419631",
+      "created_at": "Thu Sep 24 17:13:57 +0000 2026",
+      "summary": "Prompt：做 1 分钟视频，右半用旁白与视觉讲解 Black-Scholes 公式，左半放类 Subway Surfers 的通用杂耍画面。Claude Opus 5.5 (Extra) 出片。",
+      "recommend_reason": "经典「知识讲解+刷屏视觉」分屏梗用 Opus 一次做出来，展示可控分镜能力。",
+      "tags": [
+        "指定AI名单",
+        "Opus",
+        "AI视频",
+        "goodside"
+      ],
+      "title": "Opus 5.5：左半 Subway Surfers 式杂耍 + 右半讲解 Black-Scholes",
+      "section": "指定AI名单",
+      "rank": 24
+    },
+    {
+      "id": "2103170291103154460",
+      "author": "runwayml",
+      "url": "https://x.com/i/status/2103170291103154460",
+      "created_at": "Thu Sep 24 17:10:47 +0000 2026",
+      "summary": "Runway 新增 Seedance 2.5 的 Draft 模式：探索阶段更快、更省积分，看中的结果再增强到全质量。",
+      "recommend_reason": "视频工作流里「草稿→成片」分层计费，实用的成本与迭代设计。",
+      "tags": [
+        "指定AI名单",
+        "Runway",
+        "Seedance",
+        "AI视频"
+      ],
+      "title": "Runway 为 Seedance 2.5 上 Draft 模式：少积分快探，再增强到成片",
+      "section": "指定AI名单",
+      "rank": 25
+    },
+    {
+      "id": "2103168223340634577",
+      "author": "VigoCreativeAI",
+      "url": "https://x.com/i/status/2103168223340634577",
+      "created_at": "Thu Sep 24 17:02:34 +0000 2026",
+      "summary": "作者为开源「AI Visual Prompt Cookbook」（141 个 JSON 视觉风格模板）拍发布视频，素材风格即来自库本身。与 Pexo 对话中：先被故事板挑错、先改单帧再渲、像留评论一样框选修片。最终 38 秒成片含字幕/音乐/动效；并给出仓库与试用链接。",
+      "recommend_reason": "开源风格库 + 对话式视频工具的完整发布案例，模板化视觉可复用。",
+      "tags": [
+        "开源",
+        "视觉风格",
+        "AI视频",
+        "Prompt"
+      ],
+      "title": "开源视觉风格库用自身风格拍发布片：Pexo 对话式修片体验",
+      "rank": 26
+    },
+    {
+      "id": "2103167498216734786",
+      "author": "FactoryAI",
+      "url": "https://x.com/FactoryAI/status/2103167498216734786",
+      "created_at": "Thu Sep 24 16:59:41 +0000 2026",
+      "summary": "Factory Router 现已在生产环境把推理成本再砍 63%（六月底时为 42%），与此同时被路由的会话量大约增长了 4 倍。",
+      "recommend_reason": "有生产数字的路由省钱案例（成本↓ + 量↑），比概念介绍更硬。",
+      "tags": [
+        "指定AI名单",
+        "Factory",
+        "路由",
+        "成本"
+      ],
+      "section": "指定AI名单",
+      "rank": 27
+    },
+    {
+      "id": "2103165327815450815",
+      "author": "cline",
+      "url": "https://x.com/cline/status/2103165327815450815",
+      "created_at": "Thu Sep 24 16:51:03 +0000 2026",
+      "summary": "Cline 宣布 Gemini 3.8 Flash 免费可用：Artificial Analysis Intelligence Index 得分 41，称同价位最高；291 tok/s、1M 上下文，并称基准上超过 GPT-5.6 Luna、DeepSeek v4.1 Flash、Qwen3.8。",
+      "recommend_reason": "编码 Agent 产品侧的免费强模型接入，速度/上下文/基准信息齐全。",
+      "tags": [
+        "指定AI名单",
+        "Cline",
+        "Gemini",
+        "编码Agent"
+      ],
+      "title": "Cline 免费接入 Gemini 3.8 Flash：同价位 Intelligence Index 领先",
+      "section": "指定AI名单",
+      "rank": 28
+    },
+    {
+      "id": "2103164340941500466",
+      "author": "DeepLearningAI",
+      "url": "https://x.com/DeepLearningAI/status/2103164340941500466",
+      "created_at": "Thu Sep 24 16:47:08 +0000 2026",
+      "summary": "DeepLearningAI 介绍 Meta 做法：长上下文下 Agent 易忘早期错误。用主行动 Agent 搭配专用记忆 Agent——结构化记录工具与历史错误，并在关键时刻注入短提醒；称将 Claude Sonnet 4.5 相关基准从 37.6% 提到 45.9%。",
+      "recommend_reason": "针对 context rot 的可复述架构拆分，附具体涨分，对做 Agent 记忆有直接启发。",
+      "tags": [
+        "指定AI名单",
+        "Meta",
+        "Agent",
+        "记忆",
+        "长上下文"
+      ],
+      "title": "Meta：动作用主 Agent + 记忆 Agent 缓解长上下文「遗忘早期错误」",
+      "section": "指定AI名单",
+      "rank": 29
+    },
+    {
+      "id": "2103157620756668764",
+      "author": "OpenRouter",
+      "url": "https://x.com/OpenRouter/status/2103157620756668764",
+      "created_at": "Thu Sep 24 16:20:26 +0000 2026",
+      "summary": "把函数标成 defer_loading 后，模型按需搜索所需工具，而不必每轮为全部定义付输入 token；称无额外收费。",
+      "recommend_reason": "解决「工具一多就爆上下文」的具体机制，对工具型 Agent 很实用。",
+      "tags": [
+        "指定AI名单",
+        "OpenRouter",
+        "Tool search",
+        "Token"
+      ],
+      "title": "OpenRouter Tool search：大工具库可 defer_loading，按需检索不占每轮输入",
+      "section": "指定AI名单",
+      "rank": 30
+    },
+    {
+      "id": "2103157607762698444",
+      "author": "OpenRouter",
+      "url": "https://x.com/OpenRouter/status/2103157607762698444",
+      "created_at": "Thu Sep 24 16:20:23 +0000 2026",
+      "summary": "推出 Server Tools Marketplace\n\n一站式找更好的 Agent 接地方式，包括网页搜索 API、Shell、工具搜索等。",
+      "recommend_reason": "OpenRouter 把服务端工具市场化，是 Agent 基础设施层的重要入口更新。",
+      "tags": [
+        "指定AI名单",
+        "OpenRouter",
+        "Tools",
+        "Agent"
+      ],
+      "section": "指定AI名单",
+      "rank": 31
+    }
+  ],
+  "generated_at": "2026-09-25T04:30:35Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 40,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 31,
+    "last_batch_added": 31,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤40；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
