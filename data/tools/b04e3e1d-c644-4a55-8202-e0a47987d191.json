@@ -1,0 +1,66 @@
+{
+  "id": "b04e3e1d-c644-4a55-8202-e0a47987d191",
+  "url": "https://walkinglabs.github.io/learn-harness-engineering/zh/",
+  "name": "Harness工程课",
+  "headline": "一门让编程智能体可靠落地的开源课",
+  "intro": "这是一门面向真实工程任务的开源课程，讲解如何为 Codex、Claude Code 等编程智能体设计环境、状态、验证与控制，让它们可靠地完成功能开发、缺陷修复和自动化流程。课程含理论讲义、动手项目和可直接复制的资料库模板，并按同一框架拆解 Pi、Claude Code、Codex 与 DeepSeek 的真实驾驭设计，参考 OpenAI 与 Anthropic 关于长时智能体马具的文章。",
+  "category": "📚 知识与学习",
+  "subcategory": "学习平台",
+  "tags": [
+    "Harness工程",
+    "编程智能体",
+    "开源课程",
+    "Codex",
+    "Claude Code",
+    "资料库模板",
+    "讲义"
+  ],
+  "capabilities": [
+    "学习编程智能体驾驭理论",
+    "搭建可靠的智能体工作环境",
+    "复制资料库模板到代码仓库",
+    "拆解主流编程助手的驾驭设计",
+    "用规则和边界约束助手行为",
+    "设计长时任务的验证闭环"
+  ],
+  "scenarios": [
+    "在做真实工程又怕助手跑偏时",
+    "在做跨会话长任务需要保持上下文时",
+    "在做功能开发想套用最小模板时",
+    "在做编程助手可靠性改进时"
+  ],
+  "search_keywords": [
+    "Learn Harness Engineering",
+    "Harness 工程",
+    "编程智能体课程",
+    "Codex 可靠",
+    "Claude Code 驾驭",
+    "AGENTS.md 模板",
+    "feature_list.json",
+    "中文讲义"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [
+      "Awesome Harness Engineering",
+      "Anthropic 长时智能体文章"
+    ],
+    "pairs_with": [
+      "Codex",
+      "Claude Code",
+      "AGENTS.md"
+    ]
+  },
+  "tech_highlights": [
+    "讲义、项目、资料库模板与前沿拆解四条路径",
+    "模板含 AGENTS.md 与 feature_list.json",
+    "对照 OpenAI 与 Anthropic 的 Harness 文章"
+  ],
+  "cover": "covers/b04e3e1d-c644-4a55-8202-e0a47987d191.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-09-25T11:55:30",
+  "my_notes": "用户 2026-09-25 要记录的 Harness 工程学习站",
+  "capture_status": "ok"
+}
