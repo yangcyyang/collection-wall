@@ -9,6 +9,411 @@
   },
   "items": [
     {
+      "id": "2103505403363352952",
+      "author": "lateinteraction",
+      "url": "https://x.com/lateinteraction/status/2103505403363352952",
+      "created_at": "Fri Sep 25 15:22:24 +0000 2026",
+      "summary": "哇，好干净。世界变得越多，DSPy 在接口层越是长得一样，在表层之下却变得越来越不一样。",
+      "recommend_reason": "DSPy 作者对接口稳定、底层剧变的短评，点出框架在模型乱战期的价值。",
+      "tags": [
+        "指定AI名单",
+        "DSPy",
+        "Jev",
+        "框架"
+      ],
+      "section": "指定AI名单",
+      "rank": 1
+    },
+    {
+      "id": "2103504965763281185",
+      "author": "brian_armstrong",
+      "url": "https://x.com/i/status/2103504965763281185",
+      "created_at": "Fri Sep 25 15:20:39 +0000 2026",
+      "summary": "Armstrong 转发 Coinbase Dev 数据：在 Coinbase for Agents 上，Grok 占 agentic trading harness 约 59.5%，其后是 Custom CLI、Claude、Perplexity 等；现货/期货/股票成交量仍在增长。",
+      "recommend_reason": "少见的 Agent 交易客户端份额实盘数字，能直接看见 Grok 在该场景的领先程度。",
+      "tags": [
+        "Grok",
+        "Agent",
+        "Coinbase",
+        "交易"
+      ],
+      "title": "Coinbase：Grok 已占 Agent 交易客户端近六成",
+      "rank": 2
+    },
+    {
+      "id": "2103500168951955718",
+      "author": "cognition",
+      "url": "https://x.com/cognition/status/2103500168951955718",
+      "created_at": "Fri Sep 25 15:01:36 +0000 2026",
+      "summary": "Cognition 官方宣布年化经常性收入 run rate 已突破 10 亿美元，并展示部分客户如何用 Devin 构建；里程碑归功于客户。",
+      "recommend_reason": "Coding Agent 公司公开 ARR run rate 量级，是本场最硬的商业进展信号之一。",
+      "tags": [
+        "指定AI名单",
+        "Cognition",
+        "Devin",
+        "ARR"
+      ],
+      "title": "Cognition 宣称年化经常性收入 run rate 突破 10 亿美元",
+      "section": "指定AI名单",
+      "rank": 3
+    },
+    {
+      "id": "2103497000578908403",
+      "author": "MaiYangAI",
+      "url": "https://x.com/i/status/2103497000578908403",
+      "created_at": "Fri Sep 25 14:49:00 +0000 2026",
+      "summary": "转述 Fatih 对 Cursor Projects 的六条建议：用单一 Hub 当办公室经理；先少开几个项目；协调用合适模型、重活用 Opus/Fable；给协调员更多自主权并提前处理 MCP/登录；图标颜色辅助切换；启用远程工人让 localhost 任务可派本地代理。",
+      "recommend_reason": "把 Projects 从「知道有这个功能」落到可执行的协调习惯，含模型分工与本地/云分工。",
+      "tags": [
+        "Cursor",
+        "Projects",
+        "Cloud Agent",
+        "工程实践"
+      ],
+      "title": "Cursor Projects 实操六条：Hub 协调、少开项目、模型分工、放手与远程工人",
+      "rank": 4
+    },
+    {
+      "id": "2103489985861370313",
+      "author": "higgsfield",
+      "url": "https://x.com/i/status/2103489985861370313",
+      "created_at": "Fri Sep 25 14:21:08 +0000 2026",
+      "summary": "Higgsfield 推出 Claude Opus 5.5 的 Production Skills Bundle，解锁 Blender、After Effects、DaVinci Resolve、TouchDesigner 等技能，用于搭 3D、做 VFX、清理镜头与调色等。",
+      "recommend_reason": "把后期/三维工具链做成 Opus 可调用的 skills，是「模型 × 专业软件」产品化的具体一步。",
+      "tags": [
+        "指定AI名单",
+        "Higgsfield",
+        "Opus 5.5",
+        "Skill",
+        "VFX"
+      ],
+      "title": "Higgsfield：面向 Opus 5.5 的制作技能包（Blender/AE/达芬奇/TD）",
+      "section": "指定AI名单",
+      "rank": 5
+    },
+    {
+      "id": "2103488476591399234",
+      "author": "op7418",
+      "url": "https://x.com/i/status/2103488476591399234",
+      "created_at": "Fri Sep 25 14:15:08 +0000 2026",
+      "summary": "用 Opus 5.5 与 guizang-product-video-skill 为视频播客 Next Token 做宣传片：给官网地址后模型自行找素材与观点剪辑，作者觉得连自己说过的内容都被翻出来用上了。",
+      "recommend_reason": "展示「产品视频 skill + 官网上下文」的自动宣发管线，比纯一句话出片更贴近内容团队场景。",
+      "tags": [
+        "指定AI名单",
+        "Opus 5.5",
+        "Skill",
+        "AI视频",
+        "播客"
+      ],
+      "title": "Opus 5.5 + 产品视频 skill：给官网就能自采素材做 Next Token 宣传片",
+      "section": "指定AI名单",
+      "rank": 6
+    },
+    {
+      "id": "2103488379656785978",
+      "author": "xiaoxiaodong",
+      "url": "https://x.com/i/status/2103488379656785978",
+      "created_at": "Fri Sep 25 14:14:45 +0000 2026",
+      "summary": "作者整理适合博物馆场景的上千组海报美学提示词，并附做图记录与提示词 VCR，偏怀旧休闲审美。",
+      "recommend_reason": "垂直场景（博物馆）提示词合集，对做展览/文化类视觉的人有直接可抄价值。",
+      "tags": [
+        "提示词",
+        "做图",
+        "博物馆",
+        "美学"
+      ],
+      "title": "博物馆风海报：上千组美学提示词整理",
+      "rank": 7
+    },
+    {
+      "id": "2103484927320723684",
+      "author": "runwayml",
+      "url": "https://x.com/i/status/2103484927320723684",
+      "created_at": "Fri Sep 25 14:01:02 +0000 2026",
+      "summary": "Runway 发布 Layers：一键将任意图片拆成可编辑图层，可去背景、改文字、单独重做任一元素，全程不离开 Runway。",
+      "recommend_reason": "视频/图像工作流里「图层化编辑」是刚需能力，官方一键拆层降低修图门槛。",
+      "tags": [
+        "指定AI名单",
+        "Runway",
+        "Layers",
+        "图像编辑"
+      ],
+      "title": "Runway Layers：一键把图片拆成可编辑图层",
+      "section": "指定AI名单",
+      "rank": 8
+    },
+    {
+      "id": "2103483069990862863",
+      "author": "brian_armstrong",
+      "url": "https://x.com/i/status/2103483069990862863",
+      "created_at": "Fri Sep 25 13:53:39 +0000 2026",
+      "summary": "Coinbase CEO Brian Armstrong 附和 BlackRock 观点：Agent 会持续增多，需要交易的 Agent 随之增多，加密货币与稳定币将成为它们的默认支付轨道。",
+      "recommend_reason": "把 Agent 经济与稳定币需求直接串起来，是支付/加密侧对 Agent 基础设施的清晰叙事。",
+      "tags": [
+        "Agent",
+        "稳定币",
+        "Coinbase",
+        "BlackRock"
+      ],
+      "title": "Armstrong：Agent 数量↑ → 交易需求↑ → 稳定币成默认支付轨",
+      "rank": 9
+    },
+    {
+      "id": "2103476866917290441",
+      "author": "ring_hyacinth",
+      "url": "https://x.com/i/status/2103476866917290441",
+      "created_at": "Fri Sep 25 13:29:00 +0000 2026",
+      "summary": "发布 Opus 5.5 制作的中秋拼贴风动画正式版：脚本与音乐由作者给定，动画由 Opus 5.5 用 JavaScript 逐帧绘制（p5.js + p5.brush），背景与纸张材质由图像模型生成，音效用 Node.js 程序合成。",
+      "recommend_reason": "把「LLM 写代码做完整短片」的管线拆得很清楚，比纯炫技 Demo 更有可复现性。",
+      "tags": [
+        "指定AI名单",
+        "Claude",
+        "Opus 5.5",
+        "动画",
+        "中秋"
+      ],
+      "title": "Opus 5.5 中秋拼贴动画正式版：JS 逐帧 + p5.brush + 程序化音效",
+      "section": "指定AI名单",
+      "rank": 10
+    },
+    {
+      "id": "2103472531168698727",
+      "author": "pissang1",
+      "url": "https://x.com/i/status/2103472531168698727",
+      "created_at": "Fri Sep 25 13:11:46 +0000 2026",
+      "summary": "这是我第一次完全由 Agent、在应用里直接搭出来的场景。",
+      "recommend_reason": "一句话 + 成片，说明「应用内 Agent 直接搭场景」已从概念走到可发 Demo。",
+      "tags": [
+        "Agent",
+        "场景生成",
+        "Demo"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2103470566019911961",
+      "author": "LufzzLiz",
+      "url": "https://x.com/i/status/2103470566019911961",
+      "created_at": "Fri Sep 25 13:03:58 +0000 2026",
+      "summary": "给 Opus 5.5 提示「发挥最大想象力，用花来展示神经网络核心概念」，模型做出以花隐喻深度、生成、涌现、神经元的可视化，并开源项目、体验地址与讲解视频。",
+      "recommend_reason": "把抽象 ML 概念做成可逛的视觉装置，是教学向创意用法的好样本。",
+      "tags": [
+        "指定AI名单",
+        "Opus 5.5",
+        "神经网络",
+        "可视化",
+        "教育"
+      ],
+      "title": "Opus 5.5 用「花」讲神经网络：深度/生成/涌现/神经元",
+      "section": "指定AI名单",
+      "rank": 12
+    },
+    {
+      "id": "2103461544365638140",
+      "author": "ianneo_ai",
+      "url": "https://x.com/i/status/2103461544365638140",
+      "created_at": "Fri Sep 25 12:28:07 +0000 2026",
+      "summary": "最近都在刷 Claude Opus 5.5 一句话出神话、几分钟搞定炫酷视频；但做过项目的都知道：一具体就深刻。现在的 AI 极像会画概念飞机稿的设计师，自由发挥看着很牛，一旦加上真实的业务约束和具体修改要求，效果还会保持吗？",
+      "recommend_reason": "用「概念稿 vs 带约束改稿」比喻提醒：Demo 热度之后仍要接受业务约束检验。",
+      "tags": [
+        "指定AI名单",
+        "Opus 5.5",
+        "产品",
+        "约束"
+      ],
+      "section": "指定AI名单",
+      "rank": 13
+    },
+    {
+      "id": "2103459689271087165",
+      "author": "fhwofjow51260",
+      "url": "https://x.com/i/status/2103459689271087165",
+      "created_at": "Fri Sep 25 12:20:44 +0000 2026",
+      "summary": "推荐开源书《AI Agents - The Definitive Guide》：从 CoT/ToT/ReAct 到多 Agent、记忆、评测与成本核算，12 章配 35 个可跑 Jupyter Notebook，适合系统入门 Agent 开发。",
+      "recommend_reason": "带完整可跑代码的 Agent 教材入口，比散落教程更适合从头啃一遍。",
+      "tags": [
+        "Agent",
+        "开源",
+        "教程",
+        "Notebook"
+      ],
+      "title": "开源书《AI Agents - The Definitive Guide》：12 章 + 35 个 Notebook",
+      "rank": 14
+    },
+    {
+      "id": "2103459365361733861",
+      "author": "fhwofjow51260",
+      "url": "https://x.com/i/status/2103459365361733861",
+      "created_at": "Fri Sep 25 12:19:27 +0000 2026",
+      "summary": "分享 ComfyUI_MiniMaxH3_Director：把 MiniMax H3 常用玩法整理成可导入 ComfyUI 的现成工作流，方便直接抄作业开跑。",
+      "recommend_reason": "把模型能力封装成可复用 ComfyUI 工作流，对视频生成玩家是立刻能用的东西。",
+      "tags": [
+        "ComfyUI",
+        "MiniMax",
+        "H3",
+        "工作流"
+      ],
+      "title": "ComfyUI_MiniMaxH3_Director：把 MiniMax H3「导演台」做成现成工作流",
+      "rank": 15
+    },
+    {
+      "id": "2103455664035234093",
+      "author": "ElevenLabs",
+      "url": "https://x.com/ElevenLabs/status/2103455664035234093",
+      "created_at": "Fri Sep 25 12:04:45 +0000 2026",
+      "summary": "ElevenLabs 分享 microagi 早期案例：探索与人形机器人并肩工作时，直接开口说话即可下达任务，语音成为人机协作界面。",
+      "recommend_reason": "语音 API 接到物理机器人场景，比纯配音 demo 更接近「说话即操作」的 Agent 形态。",
+      "tags": [
+        "指定AI名单",
+        "ElevenLabs",
+        "机器人",
+        "语音",
+        "Agent"
+      ],
+      "title": "ElevenLabs × microagi：用说话指挥人形机器人协作",
+      "section": "指定AI名单",
+      "rank": 16
+    },
+    {
+      "id": "2103455315966795811",
+      "author": "AlchainHust",
+      "url": "https://x.com/i/status/2103455315966795811",
+      "created_at": "Fri Sep 25 12:03:22 +0000 2026",
+      "summary": "作者针对「Opus 在 Canva 画 Dario 远胜 GPT-6」的对比指出：GPT-6 本身可画出更好效果且更快更便宜，原对比差是因为 ego lite 浏览器操控能力太弱；改用 Codex + 华枢 Chrome 操控 Canva 后效果明显改善。",
+      "recommend_reason": "把「模型能力」和「Agent 操控/ harness」拆开批评，避免只看最终截图误判模型。",
+      "tags": [
+        "指定AI名单",
+        "GPT-6",
+        "Codex",
+        "浏览器操控",
+        "Agent"
+      ],
+      "title": "反例：GPT-6 慢/差往往是浏览器操控太弱，换 Codex+华枢 Chrome 可翻盘",
+      "section": "指定AI名单",
+      "rank": 17
+    },
+    {
+      "id": "2103453462096916984",
+      "author": "dingyi",
+      "url": "https://x.com/i/status/2103453462096916984",
+      "created_at": "Fri Sep 25 11:56:00 +0000 2026",
+      "summary": "几个月前就说过，随着大模型的能力不断加强，很多 skills 甚至 skills 本身这个机制，可能以后都是多余的。",
+      "recommend_reason": "短评点破 skills 机制的阶段性：模型变强后，大量手工 skill 可能被内化掉。",
+      "tags": [
+        "指定AI名单",
+        "Skill",
+        "Claude",
+        "Opus 5.5"
+      ],
+      "section": "指定AI名单",
+      "rank": 18
+    },
+    {
+      "id": "2103446065190223973",
+      "author": "xiaoxiaodong",
+      "url": "https://x.com/i/status/2103446065190223973",
+      "created_at": "Fri Sep 25 11:26:36 +0000 2026",
+      "summary": "作者用 GPT 做中秋赏月海报练习：认为 GPT 做图美学仍值得留念；代码侧已彻底转投 Claude Opus 5.5，理由是「量大管饱」、一次提示可出多款不同创意。",
+      "recommend_reason": "同一作者对「做图留 GPT、写码换 Opus」的分工很具体，反映多模型并用的真实取舍。",
+      "tags": [
+        "GPT",
+        "Claude",
+        "Opus 5.5",
+        "做图",
+        "中秋"
+      ],
+      "title": "中秋赏月海报：GPT 做图美学仍强，代码侧已转投 Opus 5.5",
+      "rank": 19
+    },
+    {
+      "id": "2103439834325094723",
+      "author": "taiyo_ai_gakuse",
+      "url": "https://x.com/i/status/2103439834325094723",
+      "created_at": "Fri Sep 25 11:01:51 +0000 2026",
+      "summary": "在 Devin 内的 macOS 环境启动 After Effects，再用 Claude 5.5 一发导出宣传片的尝试演示。",
+      "recommend_reason": "Coding Agent 环境里直接操专业剪辑软件出片，是「Agent 工作站」方向的具象例子。",
+      "tags": [
+        "指定AI名单",
+        "Devin",
+        "After Effects",
+        "Claude",
+        "AI视频"
+      ],
+      "title": "Devin 内置 macOS 开 AE，再用 Claude 5.5 一发导出宣传片",
+      "section": "指定AI名单",
+      "rank": 20
+    },
+    {
+      "id": "2103413577407517090",
+      "author": "AmpCode",
+      "url": "https://x.com/AmpCode/status/2103413577407517090",
+      "created_at": "Fri Sep 25 09:17:31 +0000 2026",
+      "summary": "Amp 新一期 Raising An Agent（sqs × Thorsten Ball）：讨论为何更便宜的模型总账单更高、不要干等 Agent 成熟、在 Orbs 里跑 eval、Agent 横向覆盖软件生命周期，以及语言/框架是否还重要等。",
+      "recommend_reason": "一线 Agent 产品团队的长播客提纲，覆盖成本、落地阻力与评测，信息密度高于普通官宣。",
+      "tags": [
+        "指定AI名单",
+        "Amp",
+        "Agent",
+        "评测",
+        "播客"
+      ],
+      "title": "Amp Raising An Agent：便宜模型更贵、别等 Agent、用 Orbs 做 eval",
+      "section": "指定AI名单",
+      "rank": 21
+    },
+    {
+      "id": "2103382786161741915",
+      "author": "AI_Jasonyu",
+      "url": "https://x.com/AI_Jasonyu/status/2103382786161741915",
+      "created_at": "Fri Sep 25 07:15:09 +0000 2026",
+      "summary": "作者用 Claude Cowork（称 Codex/Grokbot/Muse 理论上也可）自动搭建个人代理节点：买 VPS、开 Bypass Permissions、交密钥与套餐信息，让 Agent 写配置与规则，再导入 Clash Verge；也可生成 iPhone 扫码配置，称全程约十分钟。",
+      "recommend_reason": "完整可复现的「Agent 操终端+写配置」实操路径，展示权限放开后的运维自动化。",
+      "tags": [
+        "指定AI名单",
+        "Claude",
+        "Cowork",
+        "Agent",
+        "VPS"
+      ],
+      "title": "Agent 十分钟搭干净代理节点：VPS + Bypass Permissions + Clash 配置",
+      "section": "指定AI名单",
+      "rank": 22
+    },
+    {
+      "id": "2103361254433993165",
+      "author": "swyx",
+      "url": "https://x.com/swyx/status/2103361254433993165",
+      "created_at": "Fri Sep 25 05:49:36 +0000 2026",
+      "title": "swyx：内容策略 Scaling without Slop 见效——下一个 10 万粉只需 1.2 个月",
+      "summary": "swyx 回顾年初提出的 Scaling without Slop：YouTube 第一个 10 万粉花了三年，下一个 10 万只需 1.2 个月；AEO/SEO/订阅等指标同步改善，并预告 Latent Space、AINews 与 swyx inc 下一阶段。",
+      "recommend_reason": "AI 媒体「不降质扩规模」的实盘复盘，对内容与品牌增长都有参照。",
+      "tags": [
+        "指定AI名单",
+        "内容策略",
+        "Latent Space",
+        "增长"
+      ],
+      "section": "指定AI名单",
+      "rank": 23
+    },
+    {
+      "id": "2103338592672362566",
+      "author": "fchollet",
+      "url": "https://x.com/fchollet/status/2103338592672362566",
+      "created_at": "Fri Sep 25 04:19:33 +0000 2026",
+      "summary": "François Chollet 回应 coding agents 让工程更难的讨论：软件工程难度本质上近乎恒定，因为人类认知会适应新工具直到用满自己的能力；工具只是 affordance，不会让工作消失。过去很难，现在换了工作流也仍然很难。",
+      "recommend_reason": "对「Agent 让工程变简单」叙事的冷静纠偏，和 Simon Willison 的「需要非凡纪律」形成互文。",
+      "tags": [
+        "指定AI名单",
+        "软件工程",
+        "Coding Agent",
+        "Chollet"
+      ],
+      "title": "Chollet：软件工程难度几乎恒定——工具只是 affordance，不是魔杖",
+      "section": "指定AI名单",
+      "rank": 24
+    },
+    {
       "id": "2103318985882439705",
       "author": "gkxspace",
       "url": "https://x.com/gkxspace/status/2103318985882439705",
@@ -22,7 +427,7 @@
         "Agent"
       ],
       "title": "iPhone 镜像 + Codex Computer Use：把手机操作也交给 AI",
-      "rank": 1
+      "rank": 25
     },
     {
       "id": "2103308292613345504",
@@ -37,7 +442,7 @@
         "AI视频",
         "声音克隆"
       ],
-      "rank": 2
+      "rank": 26
     },
     {
       "id": "2103308028552343946",
@@ -55,7 +460,7 @@
       ],
       "title": "GPT-6 Astra 第三次尝试通关 Nethack：Emollick 称惊人",
       "section": "指定AI名单",
-      "rank": 3
+      "rank": 27
     },
     {
       "id": "2103300490184564849",
@@ -70,7 +475,7 @@
         "Skill",
         "产品视频"
       ],
-      "rank": 4
+      "rank": 28
     },
     {
       "id": "2103272686570918334",
@@ -87,7 +492,7 @@
       ],
       "section": "指定AI名单",
       "title": "Opus 5.5 一句话：把信息改成动漫短视频风社媒片（含片尾曲）",
-      "rank": 5
+      "rank": 29
     },
     {
       "id": "2103270057057169799",
@@ -105,7 +510,7 @@
       ],
       "title": "Pika API 接通 Grok Bots：一个 key 用上 120+ 图音视频模型",
       "section": "指定AI名单",
-      "rank": 6
+      "rank": 30
     },
     {
       "id": "2103265961487093794",
@@ -122,7 +527,7 @@
       ],
       "title": "Terminal-Bench-Science：OpenAI/Anthropic 甩开约 20 分，开源仍大幅落后",
       "section": "指定AI名单",
-      "rank": 7
+      "rank": 31
     },
     {
       "id": "2103265956479070260",
@@ -141,7 +546,7 @@
       ],
       "title": "Artificial Analysis 发布 Terminal-Bench-Science 0.1：Astra/Opus 领跑科学 Agent 评测",
       "section": "指定AI名单",
-      "rank": 8
+      "rank": 32
     },
     {
       "id": "2103252563999232092",
@@ -157,7 +562,7 @@
         "多智能体"
       ],
       "title": "Cursor Projects + pstack：一人并行十个项目的工程体感",
-      "rank": 9
+      "rank": 33
     },
     {
       "id": "2103245206682505220",
@@ -172,7 +577,7 @@
         "AI视频",
         "Skill"
       ],
-      "rank": 10
+      "rank": 34
     },
     {
       "id": "2103244070407802905",
@@ -189,7 +594,7 @@
         "Agent"
       ],
       "section": "指定AI名单",
-      "rank": 11
+      "rank": 35
     },
     {
       "id": "2103242504221212988",
@@ -205,7 +610,7 @@
         "Token"
       ],
       "title": "Claude Code 周额度轨迹 vs Codex：100 刀档性价比对比",
-      "rank": 12
+      "rank": 36
     },
     {
       "id": "2103225342328766712",
@@ -219,7 +624,7 @@
         "观点",
         "goodside"
       ],
-      "rank": 13
+      "rank": 37
     },
     {
       "id": "2103212249812721674",
@@ -235,7 +640,7 @@
         "模型对比"
       ],
       "title": "Fable 5.1：贵但在超复杂代码库上被称碾压 Opus 5.5",
-      "rank": 14
+      "rank": 38
     },
     {
       "id": "2103212051065921632",
@@ -252,7 +657,7 @@
       ],
       "title": "Claude 计划模式或改内置 mod：按反馈兼容「自规划」与「共脑暴」",
       "section": "指定AI名单",
-      "rank": 15
+      "rank": 39
     },
     {
       "id": "2103207376174325881",
@@ -269,7 +674,7 @@
       ],
       "title": "Factory Legacy-Bench 加入 Fireworks 专项智能指数：专测遗留系统改造",
       "section": "指定AI名单",
-      "rank": 16
+      "rank": 40
     },
     {
       "id": "2103202967025549528",
@@ -286,7 +691,7 @@
       ],
       "title": "Midjourney：新版 --tile、可选区 inpainting，并预告实时模型",
       "section": "指定AI名单",
-      "rank": 17
+      "rank": 41
     },
     {
       "id": "2103201617004949888",
@@ -304,7 +709,7 @@
       ],
       "title": "Pruna-Qwen-Image-2.1：少步 LoRA 最高加速图像生成/编辑约 6.3×",
       "section": "指定AI名单",
-      "rank": 18
+      "rank": 42
     },
     {
       "id": "2103185949341491513",
@@ -320,7 +725,7 @@
         "工作流"
       ],
       "title": "给 Codex 的 Luna+Jev 分流配置：找算力浪费并升级工作流",
-      "rank": 19
+      "rank": 43
     },
     {
       "id": "2103184653373014509",
@@ -337,7 +742,7 @@
       ],
       "title": "Perplexity Fast Search：Photon 检索引擎，95% 结果 ≤230ms",
       "section": "指定AI名单",
-      "rank": 20
+      "rank": 44
     },
     {
       "id": "2103181273472852384",
@@ -354,7 +759,7 @@
       ],
       "title": "Krea Agent 上线自定义 App：用描述搭角色工作室/3D/动效工具",
       "section": "指定AI名单",
-      "rank": 21
+      "rank": 45
     },
     {
       "id": "2103180006935724482",
@@ -369,7 +774,7 @@
         "微调",
         "Jev"
       ],
-      "rank": 22
+      "rank": 46
     },
     {
       "id": "2103176153393758208",
@@ -386,7 +791,7 @@
         "Harvey"
       ],
       "section": "指定AI名单",
-      "rank": 23
+      "rank": 47
     },
     {
       "id": "2103171088637419631",
@@ -403,7 +808,7 @@
       ],
       "title": "Opus 5.5：左半 Subway Surfers 式杂耍 + 右半讲解 Black-Scholes",
       "section": "指定AI名单",
-      "rank": 24
+      "rank": 48
     },
     {
       "id": "2103170291103154460",
@@ -420,7 +825,7 @@
       ],
       "title": "Runway 为 Seedance 2.5 上 Draft 模式：少积分快探，再增强到成片",
       "section": "指定AI名单",
-      "rank": 25
+      "rank": 49
     },
     {
       "id": "2103168223340634577",
@@ -436,7 +841,7 @@
         "Prompt"
       ],
       "title": "开源视觉风格库用自身风格拍发布片：Pexo 对话式修片体验",
-      "rank": 26
+      "rank": 50
     },
     {
       "id": "2103167498216734786",
@@ -452,7 +857,7 @@
         "成本"
       ],
       "section": "指定AI名单",
-      "rank": 27
+      "rank": 51
     },
     {
       "id": "2103165327815450815",
@@ -469,7 +874,7 @@
       ],
       "title": "Cline 免费接入 Gemini 3.8 Flash：同价位 Intelligence Index 领先",
       "section": "指定AI名单",
-      "rank": 28
+      "rank": 52
     },
     {
       "id": "2103164340941500466",
@@ -487,7 +892,7 @@
       ],
       "title": "Meta：动作用主 Agent + 记忆 Agent 缓解长上下文「遗忘早期错误」",
       "section": "指定AI名单",
-      "rank": 29
+      "rank": 53
     },
     {
       "id": "2103157620756668764",
@@ -504,7 +909,7 @@
       ],
       "title": "OpenRouter Tool search：大工具库可 defer_loading，按需检索不占每轮输入",
       "section": "指定AI名单",
-      "rank": 30
+      "rank": 54
     },
     {
       "id": "2103157607762698444",
@@ -520,26 +925,26 @@
         "Agent"
       ],
       "section": "指定AI名单",
-      "rank": 31
+      "rank": 55
     }
   ],
-  "generated_at": "2026-09-25T04:30:35Z",
+  "generated_at": "2026-09-25T16:45:58Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
-    "per_run_max": 40,
+    "per_run_max": 20,
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 31,
-    "last_batch_added": 31,
+    "actual_count": 55,
+    "last_batch_added": 16,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
-    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤40；单日≤60不保底；追加按id去重。",
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
     "short_tweet": {
       "threshold_chars": 200,
       "title_optional": true,
