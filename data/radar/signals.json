@@ -1,7 +1,7 @@
 {
   "source": "AI Frontier Radar",
   "title": "前沿信号",
-  "updated_at": "2026-09-24T08:35:00+08:00",
+  "updated_at": "2026-09-25T08:15:00+08:00",
   "count": 17,
   "items": [
     {
@@ -43,13 +43,13 @@
     {
       "id": "system-one-decision-models",
       "title": "System One 决策模型：跳过生成、直接输出结构化判断",
-      "type": "emerging_signal",
-      "score": 90,
-      "confidence": "medium",
+      "type": "strong_signal",
+      "score": 93,
+      "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-09-22T08:20:00+08:00",
-      "last_updated": "2026-09-24T08:35:00+08:00",
-      "summary": "TypeSafe Jev 在 PH 以「状态进→typed Choice/Score/Noul 出」成产品面；simonw/swyx/Latent Space 同窗把「system one aka decision models」立成品类叙事——agent 外环需要廉价、可类型化、可重复的决策层，而不是又一个 chat-first 模型。",
+      "last_updated": "2026-09-25T08:15:00+08:00",
+      "summary": "开放对比式 System One 决策层出现可复现配方：CLM-8B（Apache）把 state↔action 匹配从生成式 LLM 调用拆成可缓存投影头，相对闭源 Jev 提供开源对照；同窗还有桌面浏览器 agent jevry 扩散。",
       "why_it_matters": "若决策外环商品化，harness 路由/门禁/triage 可从「再跑一遍 LLM 再解析」降到亚秒结构化 API；下一问是主流 coding/agent 产品是否默认接入。",
       "tags": [
         "Jev",
@@ -59,6 +59,24 @@
         "Harness"
       ],
       "evidence": [
+        {
+          "url": "https://news.ycombinator.com/item?id=49826221",
+          "source": "hn",
+          "note": "HN 讨论 CLM-8B",
+          "date": "2026-09-24"
+        },
+        {
+          "url": "https://huggingface.co/Contrastive-LM/CLM-v0.1-8B",
+          "source": "huggingface",
+          "note": "CLM-v0.1-8B HF 权重",
+          "date": "2026-09-24"
+        },
+        {
+          "url": "https://github.com/Contrastive-LM/CLM",
+          "source": "github",
+          "note": "CLM-8B Apache open weights + verifier claims",
+          "date": "2026-09-24"
+        },
         {
           "url": "https://www.producthunt.com/posts/jev-state",
           "source": "product",
@@ -91,6 +109,7 @@
         }
       ],
       "watch_next": [
+        "CLM verifier 是否进入 harness 默认门控",
         "Jev MCP 在生产 agent 的 gate 采用",
         "Cursor/Claude Code/OpenAI Agents 是否接入 decision API",
         "同类 decision-only 产品是否形成可互换标准"
@@ -292,7 +311,7 @@
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-25T08:15:00+08:00",
       "summary": "Claude Code Projects 重设计：从一会话调度并行云端 threads（各为独立会话/分支），共享 memory 与 artifact library，关电脑后仍继续，可从手机督导；本周对部分 Pro/Max 云会话扩量，本地工具随后。叠加前日 Cowork×chat 合并、jurniti / Cursor Projects / Muse Secure VM——「关盖还在跑」的持久 agent 电脑已成主流产品原语。",
       "why_it_matters": "叙事从「模型会点鼠标」变成「每人一台隔离 VM 里的代理」。Sentinel/审批/审计说明大众 agent 的产品化关键是安全电脑，而不是更长的聊天窗口。",
       "tags": [
@@ -306,6 +325,18 @@
         "Sentinel"
       ],
       "evidence": [
+        {
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1000222/meta-muse-ai-filesystem",
+          "source": "news",
+          "note": "Muse VM filesystem export；intended free computer in the cloud",
+          "date": "2026-09-24"
+        },
+        {
+          "url": "https://x.com/perplexity_ai/status/2103161414919872628",
+          "source": "official",
+          "note": "Portable Computer for Windows / AMD Ryzen AI Max",
+          "date": "2026-09-25T00:35:30+08:00"
+        },
         {
           "url": "https://www.producthunt.com/posts/solid-9",
           "source": "product",
@@ -437,21 +468,10 @@
           "source": "community",
           "note": "dhh：把 Mac 放进 Tailscale，智能体走终端，其余走电脑操控",
           "date": "2026-08-31T00:00:00+08:00"
-        },
-        {
-          "url": "https://usealmanac.com",
-          "source": "official",
-          "note": "Almanac：Slack/iMessage 同事，wiki 预先编译，自带电脑/浏览器/终端。PH https://www.producthunt.com/products/almanac-5",
-          "date": "2026-08-28T00:00:00+08:00"
-        },
-        {
-          "url": "https://www.tryopentag.com/",
-          "source": "official",
-          "note": "OpenTag：模型无关的 Tag 同事，自带云电脑，按工作区而非座位收费",
-          "date": "2026-08-27T00:00:00+08:00"
         }
       ],
       "watch_next": [
+        "Windows on-device Portable Computer 采用",
         "Bot Screen HITL 是否成默认协作范式",
         "jurniti vs beafk/useagent/Aside：谁先做出可信离开后还在跑",
         "Maritime 每月 1 美元醒来后的真实成本"
@@ -480,7 +500,7 @@
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-09-02T08:20:00+08:00",
-      "last_updated": "2026-09-22T08:20:00+08:00",
+      "last_updated": "2026-09-25T08:15:00+08:00",
       "summary": "门控 Critical 网络能力从「即将发布」进入量产：OpenAI GPT-6 Astra 今日分阶段上线（先限组织→Plus/Pro/Biz/Ent + API + AWS），并配套 Daybreak for Frontline Defenders 约 10 亿美元补贴给水电/电网/银行等前线防御方。叠加已有的 Google Fairwind + Anthropic Mythos 可信访问，三家实验室同构已落地为可订阅产品与补贴分发，而不只是评级公告。",
       "why_it_matters": "叙事闭环：高能力 cyber 默认 = 门控部署 + 防御侧优先供货。Astra 扩到普通付费档并不等于全面开闸——Critical 能力仍绑安全卡与 Daybreak 通道；补贴玩法说明「能力×门禁」开始有国家/关键基础设施分发层。",
       "tags": [
@@ -497,6 +517,18 @@
         "Daybreak"
       ],
       "evidence": [
+        {
+          "url": "https://research.meta.ai/blog/security-and-safety-for-ai-agents-our-approach-with-muse",
+          "source": "official",
+          "note": "Meta Muse security & safety 背景帖",
+          "date": "2026-09-08"
+        },
+        {
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1000222/meta-muse-ai-filesystem",
+          "source": "news",
+          "note": "Muse VM filesystem export / safety tension",
+          "date": "2026-09-24"
+        },
         {
           "url": "https://openclaw.ai/blog/openclaw-trail-of-bits-engagement-recap",
           "source": "official",
@@ -625,7 +657,7 @@
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-08-28T00:00:00+08:00",
-      "last_updated": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-25T08:15:00+08:00",
       "summary": "Weave Router 2.0 按复杂度/配额/缓存在 Claude↔Codex/Cursor 间路由；Bitrise Remote Dev Environments 用 MCP 拉起与 CI 同构的云 Mac/Linux；Claude Projects 把协调器做成产品原语。控制面继续从「编排模型」扩到「路由订阅 + 生产同构电脑」。",
       "why_it_matters": "第三方不必自建控制面即可嵌入同一套 agent loop；许可/沙箱/会话成为平台原语，而不只是应用层胶水。",
       "tags": [
@@ -639,6 +671,30 @@
         "沙箱"
       ],
       "evidence": [
+        {
+          "url": "https://www.producthunt.com/products/rudel",
+          "source": "product",
+          "note": "Opaline：Claude Code/Codex session 分析",
+          "date": "2026-09-24"
+        },
+        {
+          "url": "https://www.producthunt.com/products/harness-manager",
+          "source": "product",
+          "note": "Harness Manager 本地控制中心",
+          "date": "2026-09-24"
+        },
+        {
+          "url": "https://www.producthunt.com/products/noan-2",
+          "source": "product",
+          "note": "NOAN 公司事实层 API+MCP",
+          "date": "2026-09-24"
+        },
+        {
+          "url": "https://www.producthunt.com/products/floot",
+          "source": "product",
+          "note": "Floot MCP：chat→多端上架",
+          "date": "2026-09-24"
+        },
         {
           "url": "https://x.com/cursor_ai/status/2102786814633464159",
           "source": "official",
@@ -758,30 +814,6 @@
           "source": "official",
           "date": "2026-08-31T00:00:00+08:00",
           "note": "Google Teamwork 做成 named orchestration（/teamwork-preview；亦见 https://antigravity.google/blog/teamwork-when-ai-becomes-a-research-partner 与 https://antigravity.google/docs/teamwork/）。控制面从钩子升级成团队模式，同时新开 multi-agent-team-orchestration"
-        },
-        {
-          "url": "https://x.com/i/status/2094561963133268378",
-          "source": "official",
-          "date": "2026-09-01T00:00:00+08:00",
-          "note": "Vercel：fx 接到 AI SDK HarnessAgent（HarnessAgent + ACP adapter）"
-        },
-        {
-          "url": "https://vercel.com/changelog/fx-ai-sdk-harness-adapter",
-          "source": "official",
-          "date": "2026-09-01T00:00:00+08:00",
-          "note": "Vercel changelog：fx + AI SDK harness adapter"
-        },
-        {
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.251",
-          "source": "official",
-          "date": "2026-08-28T00:00:00+08:00",
-          "note": "模型切换前后钩子，远程控制可看前台子智能体"
-        },
-        {
-          "url": "https://github.com/openai/codex/releases/tag/0.151.0",
-          "source": "official",
-          "date": "2026-08-29T00:00:00+08:00",
-          "note": "可拦截 MCP 结果，支持按仓库插件目录"
         }
       ],
       "watch_next": [
@@ -951,7 +983,7 @@
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-09-01T08:50:00+08:00",
-      "last_updated": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-25T08:15:00+08:00",
       "summary": "Cursor Projects / Claude 高并发之外，社区出现 Plasma Radio：跨 Claude/Codex/Grok/Cursor 的共享房间，让多 agent 直接对话、减少人复制粘贴路由——编排从「单 runtime 舰队」扩到「跨提供商会话总线」。",
       "why_it_matters": "协作单元从「一次 chat 一次任务」变成「一个项目一台 agent 团队」，会改写工具默认信息架构与计费。",
       "tags": [
@@ -961,6 +993,18 @@
         "Antigravity"
       ],
       "evidence": [
+        {
+          "url": "https://www.producthunt.com/products/noan-2",
+          "source": "product",
+          "note": "NOAN PH ~228",
+          "date": "2026-09-24"
+        },
+        {
+          "url": "https://www.getnoan.com",
+          "source": "product",
+          "note": "NOAN fact layer for AI agents",
+          "date": "2026-09-24"
+        },
         {
           "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
           "source": "official",
@@ -1391,11 +1435,11 @@
       "id": "agent-flash-over-pro-economics",
       "title": "Flash 级模型开始在 agent 负载上挑战甚至替换 Pro 档",
       "type": "pattern",
-      "score": 97,
+      "score": 98,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-09-10T18:20:00+08:00",
-      "last_updated": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-25T08:15:00+08:00",
       "summary": "火山引擎将 Doubao-Seed-2.1-pro 更新至 0915：Agent 交付溯源/核验、多模态 Coding、同接入点 Evolving；叠加 GPT-5.5→Sol/Astra 梯子与 DeepSeek Pro→Flash 切流——生产侧同时在压 Pro 交付可靠度与经济档替代。",
       "why_it_matters": "agent 默认算力正在被「够用且更便宜的 Flash」接管；旗舰 Pro 变为可选/后续，而不是默认入口。",
       "tags": [
@@ -1406,6 +1450,24 @@
         "MoE"
       ],
       "evidence": [
+        {
+          "url": "https://github.com/Contrastive-LM/CLM",
+          "source": "github",
+          "note": "CLM verifier 相对生成式判定更低延迟主张",
+          "date": "2026-09-24"
+        },
+        {
+          "url": "https://x.com/NousResearch/status/2103244070407802905",
+          "source": "official",
+          "note": "Hermes 全档默认 Fast Search",
+          "date": "2026-09-25T06:03:57+08:00"
+        },
+        {
+          "url": "https://x.com/perplexity_ai/status/2103184653373014509",
+          "source": "official",
+          "note": "Fast Search Photon：95% ≤230ms",
+          "date": "2026-09-25T02:07:51+08:00"
+        },
         {
           "url": "https://x.com/cursor_ai/status/2102786814633464159",
           "source": "official",
@@ -1502,7 +1564,7 @@
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-25T08:15:00+08:00",
       "summary": "Claude Marketplace 把 connectors、第三方 agents（Cursor/CrowdStrike）与 Accenture/Deloitte 等服务伙伴做成聊天内分发与购买面；叠加 Astra 插件、Kimi Skill、Plane playbook——技能/插件/agents 正在成为默认分发层。",
       "why_it_matters": "第四个命令行不值钱。可安装的技能和模板才是分发。企业插件市场把同一层做成了日常同步的软件包。",
       "tags": [
@@ -1511,6 +1573,18 @@
         "分发"
       ],
       "evidence": [
+        {
+          "url": "https://www.producthunt.com/products/floot",
+          "source": "product",
+          "note": "Floot PH ~297",
+          "date": "2026-09-24"
+        },
+        {
+          "url": "https://floot.com",
+          "source": "product",
+          "note": "Floot MCP chat→web+iOS+Android ship",
+          "date": "2026-09-24"
+        },
         {
           "url": "https://x.com/claudeai/status/2102840851538080172",
           "source": "official",
@@ -1642,18 +1716,6 @@
           "source": "official",
           "date": "2026-08-29T00:00:00+08:00",
           "note": "ChatGPT 工作区模板创建器"
-        },
-        {
-          "url": "https://x.com/mntruell/status/2093390312555393050",
-          "source": "official",
-          "date": "2026-08-29T00:00:00+08:00",
-          "note": "Grok Bot 可分享模板"
-        },
-        {
-          "url": "https://www.producthunt.com/products/blume-codes",
-          "source": "community",
-          "note": "Blume：session→rules/skills sidecar",
-          "date": "2026-09-03T00:00:00+08:00"
         }
       ],
       "watch_next": [
@@ -1756,12 +1818,12 @@
       "id": "voice-first-agent-interface",
       "title": "全双工语音正在变成 agent 的一等入口",
       "type": "pattern",
-      "score": 96,
+      "score": 98,
       "confidence": "high",
-      "status": "strengthening",
+      "status": "confirmed_trend",
       "first_detected": "2026-09-11T08:20:00+08:00",
-      "last_updated": "2026-09-24T08:35:00+08:00",
-      "summary": "个人 Agent 语音/视频入口密集落地：Meta Muse（含 Charm 硬件与眼镜）、Qwen-Audio-3.1 全栈降价、Gemini 3.8 可提示造声 TTS、ChatGPT Voice 接 plugins——语音优先从demo变成多入口产品线。",
+      "last_updated": "2026-09-25T08:15:00+08:00",
+      "summary": "个人 Agent 语音入口升级为实时可视化身：Meta Muse Realtime Avatar 与 Google Gemini Live Avatar Enterprise GA 同窗落地——voice-first 从听/说推进到可见人格 + 工具并行。",
       "why_it_matters": "Voice 不再是聊天皮肤，而是可编排的生产入口：后台工具 + 会话内 thinking 决定谁能做真 agent，而不只是语音助手。",
       "tags": [
         "GPT-Live-1",
@@ -1770,6 +1832,18 @@
         "Agent"
       ],
       "evidence": [
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/",
+          "source": "official",
+          "note": "Gemini 3.8 Live Avatar Enterprise GA",
+          "date": "2026-09-24"
+        },
+        {
+          "url": "https://x.com/AIatMeta/status/2102997291732766943",
+          "source": "official",
+          "note": "Meta Muse Realtime Avatar（AIatMeta / Connect）",
+          "date": "2026-09-24T13:43:20+08:00"
+        },
         {
           "url": "https://x.com/OpenAI/status/2102808325742322002",
           "source": "official",
@@ -1874,6 +1948,8 @@
         }
       ],
       "watch_next": [
+        "Enterprise Live Avatar 采用率",
+        "Muse Realtime Avatar 是否成个人 Agent 默认界面",
         "Muse Charm 预售与实际日活入口",
         "Gemini Live vs GPT-Live 生产 harness 接入面",
         "全双工下的工具审批 UX",
