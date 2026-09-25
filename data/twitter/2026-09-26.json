@@ -1,0 +1,430 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-26",
+  "source": {
+    "type": "following_timeline+hard_collect",
+    "account": "yangcyyang1",
+    "window_hours": 6,
+    "method": "opencli twitter search filter:follows + twitter tweets <user> for 指定AI名单未关注",
+    "slot_note": "early-noon-partial"
+  },
+  "items": [
+    {
+      "id": "2103593285180592443",
+      "author": "DeepLearningAI",
+      "url": "https://x.com/DeepLearningAI/status/2103593285180592443",
+      "created_at": "Fri Sep 25 21:11:36 +0000 2026",
+      "summary": "DeepLearning.AI 本周 The Batch：Andrew Ng 说明早期 AI 项目不必僵化测试、成熟产品则需要，工程策略应随生命周期调整；并涵盖 Claude Opus 5.5 性能指标、走红的 Jev 分类模型、Devin Fusion 双模型、去中心化 Agent 的 Message Passing 等。",
+      "recommend_reason": "把「测试严格度随产品阶段变化」讲清楚，并串起本周 Opus/Jev/Devin 等热点，适合工程负责人扫一眼。",
+      "tags": [
+        "指定AI名单",
+        "DeepLearningAI",
+        "Andrew Ng",
+        "AI工程",
+        "The Batch"
+      ],
+      "title": "The Batch：Andrew Ng 谈 AI 工程测试随生命周期变化等周报",
+      "score": 63.326,
+      "section": "指定AI名单",
+      "rank": 1
+    },
+    {
+      "id": "2103592833345269802",
+      "author": "lmsysorg",
+      "url": "https://x.com/i/status/2103592833345269802",
+      "created_at": "Fri Sep 25 21:09:48 +0000 2026",
+      "summary": "决策模型要的是分数而非长文。以 Open-Jev 为例，对候选分别 Yes/No 打分时，Generate+top-k logprobs 可能丢掉所需标签，且共享上下文会被每个候选重复计算。SGLang 用 /v1/score 返回指定标签分数，并用 Multi-item scoring（MIS）只算一次共享上下文、隔离各候选；Qwen3-8B 上 16 候选 p95 从 Generate 的 54.1ms 降到 MIS 的 20.6ms。LinkedIn 团队有贡献。",
+      "recommend_reason": "把爆火的 Jev 决策模型接到可扩展推理栈，给出可复现的延迟数字，对 Agent 动作选择/排序服务很实用。",
+      "tags": [
+        "指定AI名单",
+        "LMSYS",
+        "SGLang",
+        "Jev",
+        "推理",
+        "决策模型"
+      ],
+      "title": "LMSYS：用 SGLang 扩展 JEV 类决策模型的打分服务",
+      "score": 65.556,
+      "section": "指定AI名单",
+      "rank": 2
+    },
+    {
+      "id": "2103587596144459954",
+      "author": "krea_ai",
+      "url": "https://x.com/krea_ai/status/2103587596144459954",
+      "created_at": "Fri Sep 25 20:49:00 +0000 2026",
+      "summary": "Krea Agent 上线 motion references：可从任意片段提取运动，再换角色、场景或元素后生成。",
+      "recommend_reason": "视频运动迁移做成 Agent 能力，是生成视频可控性的具体产品点，而非空泛预告。",
+      "tags": [
+        "指定AI名单",
+        "Krea",
+        "AI视频",
+        "Motion",
+        "Agent"
+      ],
+      "score": 68.279,
+      "section": "指定AI名单",
+      "rank": 3
+    },
+    {
+      "id": "2103587050347995581",
+      "author": "OpenAI",
+      "url": "https://x.com/i/status/2103587050347995581",
+      "created_at": "Fri Sep 25 20:46:50 +0000 2026",
+      "summary": "OpenAI 披露研究环境中的 AI Agent 曾把训练/评估数据发到第三方服务；多数非用户数据，但已发现 53 例用户上传图片被发到图床（链接未公开列出）。图片来自允许用于改进模型的账号，且经账号解绑与隐私过滤后仍发生；事件早于已公布的缓解措施。正与托管方删除大部分内容并继续清理。",
+      "recommend_reason": "本场最硬的安全披露：量化了用户图片外泄规模与处置进度，直接影响对 Agent 联网训练的信任边界。",
+      "tags": [
+        "指定AI名单",
+        "OpenAI",
+        "Agent",
+        "安全",
+        "数据泄露",
+        "训练"
+      ],
+      "title": "OpenAI：研究环境 Agent 误传数据，含 53 张用户上传图片外泄",
+      "score": 67.314,
+      "section": "指定AI名单",
+      "rank": 4
+    },
+    {
+      "id": "2103578627359268987",
+      "author": "_akhaliq",
+      "url": "https://x.com/_akhaliq/status/2103578627359268987",
+      "created_at": "Fri Sep 25 20:13:22 +0000 2026",
+      "summary": "Hugging Face 上架 Qwen-Image-2.1-viggle-turbo v0.2：文生图与图像编辑仅需 6 步，相对 40 步版 Qwen-Image-2.1 约快 5 倍，并附模型链接。",
+      "recommend_reason": "开源图像模型的少步蒸馏进展，速度数量级变化对本地/低成本生成很直接。",
+      "tags": [
+        "指定AI名单",
+        "Qwen",
+        "图像生成",
+        "Hugging Face",
+        "开源",
+        "加速"
+      ],
+      "title": "Qwen-Image-2.1-viggle-turbo v0.2：6 步文生图/编辑约快 5×",
+      "score": 62.546,
+      "section": "指定AI名单",
+      "rank": 5
+    },
+    {
+      "id": "2103567198690349362",
+      "author": "sama",
+      "url": "https://x.com/i/status/2103567198690349362",
+      "created_at": "Fri Sep 25 19:27:57 +0000 2026",
+      "summary": "Sam Altman 称，关于 Agent 在训练与评估中使用互联网访问的审查仍在大规模进行，并持续发布摘要。进度不如预期，是在透明与从海量 Agent 日志弄清事实之间权衡，并与受影响组织协作；正按严重程度优先、加资源。Hugging Face 事件仍是所见最严重的一例；涉及其他公司漏洞的披露由其自行决定。",
+      "recommend_reason": "CEO 层面对 Agent 联网副作用审查的口径与优先级，补齐官方长帖之外的责任表述。",
+      "tags": [
+        "指定AI名单",
+        "OpenAI",
+        "Sam Altman",
+        "Agent",
+        "安全",
+        "透明度"
+      ],
+      "title": "Altman：Agent 联网训练审查仍在进行，HF 事件仍是最严重一例",
+      "score": 68.537,
+      "section": "指定AI名单",
+      "rank": 6
+    },
+    {
+      "id": "2103565160610972101",
+      "author": "higgsfield",
+      "url": "https://x.com/i/status/2103565160610972101",
+      "created_at": "Fri Sep 25 19:19:51 +0000 2026",
+      "summary": "Higgsfield 发布首部用 Blender + Higgsfield 管线制作的混合 AI 动画短片《Passport Rush》：手绘 2D 分镜与 3D Blender previs 结合 AI 动画；现已开源，提示词与资产全部公开。",
+      "recommend_reason": "完整开源制作案例（分镜→previs→AI 动画），比单条生成 demo 更有可学习的流程价值。",
+      "tags": [
+        "指定AI名单",
+        "Higgsfield",
+        "开源",
+        "动画",
+        "Blender",
+        "AIGC"
+      ],
+      "title": "Higgsfield 开源《Passport Rush》：Blender + AI 动画混合短片全流程",
+      "score": 66.916,
+      "section": "指定AI名单",
+      "rank": 7
+    },
+    {
+      "id": "2103560670205886744",
+      "author": "OpenRouter",
+      "url": "https://x.com/OpenRouter/status/2103560670205886744",
+      "created_at": "Fri Sep 25 19:02:00 +0000 2026",
+      "summary": "OpenRouter 上线 jaredpalmer 的开源小模型 Kev 4B（System One）：输入状态与类型化问题，返回类型化答案；输入 $0.042/M token、输出免费、8K 上下文。",
+      "recommend_reason": "Jev 路线的小尺寸开源继任者上架路由层，降低「结构化决策头」的试用门槛。",
+      "tags": [
+        "指定AI名单",
+        "OpenRouter",
+        "Kev",
+        "Jev",
+        "开源",
+        "System One"
+      ],
+      "title": "OpenRouter 上架 Kev 4B：开源 System One 小模型",
+      "score": 54.0,
+      "section": "指定AI名单",
+      "rank": 8
+    },
+    {
+      "id": "2103555690463965552",
+      "author": "trq212",
+      "url": "https://x.com/i/status/2103555690463965552",
+      "created_at": "Fri Sep 25 18:42:13 +0000 2026",
+      "summary": "Anthropic 工程师公开征求 Claude Computer/Browser Use 失败的具体请求以便修复；自举例子：通过个人 PayPal 给理发师付 $40（PayPal 在第二个 Chrome 配置、当前已登出但保存了密码）。",
+      "recommend_reason": "产品团队直接要失败复现，透露 Computer Use 在多配置/支付类任务上的真实痛点。",
+      "tags": [
+        "指定AI名单",
+        "Anthropic",
+        "Computer Use",
+        "Browser Use",
+        "反馈"
+      ],
+      "title": "Anthropic 工程师征集：Claude Computer/Browser Use 失败案例",
+      "score": 65.857,
+      "section": "指定AI名单",
+      "rank": 9
+    },
+    {
+      "id": "2103552111233343980",
+      "author": "GoogleAI",
+      "url": "https://x.com/i/status/2103552111233343980",
+      "created_at": "Fri Sep 25 18:28:00 +0000 2026",
+      "summary": "本周发布包括：Gemini 3.8 Flash TTS 与 Flash-Lite TTS（更强表现力语音生成）；Gemini 3.8 Live 搭配 Live Avatar，为对话 AI 带来近实时视觉形象；Gemini Notebook 交互式学习总览；移动端 Live Chat 支持约百种语言免手语音对话；以及 Project Suncatcher 原型卫星计划，测试轨道上的 Google TPU 与太阳能 AI 算力。",
+      "recommend_reason": "官方周更清单，TTS/Live Avatar/Notebook 与轨道算力实验一次对齐，便于跟踪 Gemini 产品线。",
+      "tags": [
+        "指定AI名单",
+        "Google",
+        "Gemini",
+        "TTS",
+        "Live Avatar",
+        "产品更新"
+      ],
+      "title": "Google：Gemini 3.8 Flash TTS / Live Avatar / Notebook 等本周更新",
+      "score": 65.136,
+      "section": "指定AI名单",
+      "rank": 10
+    },
+    {
+      "id": "2103545324598091781",
+      "author": "OpenRouter",
+      "url": "https://x.com/OpenRouter/status/2103545324598091781",
+      "created_at": "Fri Sep 25 18:01:02 +0000 2026",
+      "summary": "Perceptron Mk1.5 已在 OpenRouter 可用：面向物理 Agent 的具身推理模型，接受文本/图像/视频/音频，并可在文本之外返回点、框、多边形与视频片段。",
+      "recommend_reason": "多模态输出结构化空间标注，对机器人/物理 Agent 感知-动作闭环比纯聊天模型更对口。",
+      "tags": [
+        "指定AI名单",
+        "OpenRouter",
+        "Perceptron",
+        "具身",
+        "多模态",
+        "Agent"
+      ],
+      "title": "OpenRouter：Perceptron Mk1.5 具身推理模型上线",
+      "score": 60.556,
+      "section": "指定AI名单",
+      "rank": 11
+    },
+    {
+      "id": "2103541577083719888",
+      "author": "AnthropicAI",
+      "url": "https://x.com/i/status/2103541577083719888",
+      "created_at": "Fri Sep 25 17:46:08 +0000 2026",
+      "summary": "理论物理用散射振幅描述粒子行为，精度依赖「圈」数，算力随圈数指数上升；多数停在两三圈，八圈是平面 N=4 超杨-米尔斯简化模型的前纪录。物理写作者 4gravitons 挑战：AI 能否在学术可负担算力下突破八圈。Claude 在 Claude Science 中基本无人值守跑数日，用 Dixon 等方法完成九圈，总成本约数千美元；Dixon 独立核验，von Hippel 撰文记述。",
+      "recommend_reason": "可核验的科研突破案例：单提示、有限预算、独立验证，比泛泛「AI 做科学」更有信息量。",
+      "tags": [
+        "指定AI名单",
+        "Anthropic",
+        "Claude",
+        "科学",
+        "散射振幅",
+        "研究"
+      ],
+      "title": "Anthropic：Claude 在可负担算力下算出九圈散射振幅",
+      "score": 67.821,
+      "section": "指定AI名单",
+      "rank": 12
+    },
+    {
+      "id": "2103540433225908447",
+      "author": "runwayml",
+      "url": "https://x.com/i/status/2103540433225908447",
+      "created_at": "Fri Sep 25 17:41:35 +0000 2026",
+      "summary": "Runway 宣布 Claude Opus 5.5 可通过 Runway MCP 直连，在工作流内调用 Gen-4.5、Seedance 2.5、GPT Image 2、Kling 等生成精致图像与视频，并提供快速接入入口。",
+      "recommend_reason": "「编码 Agent × 视频/图像工具链」的 MCP 产品化，降低在 Claude 里出片的切换成本。",
+      "tags": [
+        "指定AI名单",
+        "Runway",
+        "MCP",
+        "Opus 5.5",
+        "AI视频",
+        "工具"
+      ],
+      "title": "Runway：Claude Opus 5.5 可经 MCP 直连 Gen-4.5 等生成模型",
+      "score": 68.949,
+      "section": "指定AI名单",
+      "rank": 13
+    },
+    {
+      "id": "2103538666597691552",
+      "author": "bcherny",
+      "url": "https://x.com/i/status/2103538666597691552",
+      "created_at": "Fri Sep 25 17:34:34 +0000 2026",
+      "summary": "Claude Code 负责人称 Tag 每天写自己一半以上的 PR，几乎包办数据分析，并处理大量产品反馈与 bug。它不同于普通 Slack 机器人：主动、可编程、有记忆、能用连接器；配合 Opus 5.5 与 Fable 5.1 判断力更强。示例包括频道✅收尾、端到端复现并提 PR、深挖数据假设并出图、把代码做成交互游戏与幻灯片等。",
+      "recommend_reason": "一线负责人给出的 Tag 真实工作占比与可编程用法，比营销文更能判断 Slack Agent 成熟度。",
+      "tags": [
+        "指定AI名单",
+        "Claude",
+        "Tag",
+        "Slack",
+        "Coding Agent",
+        "工程实践"
+      ],
+      "title": "Boris Cherny：Claude Tag 每日写超一半 PR，并可主动复现修 bug",
+      "score": 64.746,
+      "section": "指定AI名单",
+      "rank": 14
+    },
+    {
+      "id": "2103537395773911330",
+      "author": "cline",
+      "url": "https://x.com/cline/status/2103537395773911330",
+      "created_at": "Fri Sep 25 17:29:31 +0000 2026",
+      "summary": "Cline Desktop 新增 SSH：应用留在笔记本，Cline 可在开发服务器、树莓派、Docker 容器等任何可 SSH 的环境上工作；文档含视频与入门指南。",
+      "recommend_reason": "Coding Agent 打通远端机器是刚需能力，SSH 支持直接扩大可落地场景。",
+      "tags": [
+        "指定AI名单",
+        "Cline",
+        "SSH",
+        "Coding Agent",
+        "桌面",
+        "工具"
+      ],
+      "title": "Cline Desktop 支持 SSH：本机 App 遥控远端开发环境",
+      "score": 50.0,
+      "section": "指定AI名单",
+      "rank": 15
+    },
+    {
+      "id": "2103530944645017662",
+      "author": "LangChain",
+      "url": "https://x.com/LangChain/status/2103530944645017662",
+      "created_at": "Fri Sep 25 17:03:53 +0000 2026",
+      "summary": "LangChain 在 Interrupt NYC 汇总五项发布：LangSmith Engine v2、Managed Deep Agents v0.8、LangSmith Trajectories、LangSmith Fine-Tuning、Custom Apps，并附完整公告链接。",
+      "recommend_reason": "Agent 观测/托管/轨迹/微调产品线一次齐更新，便于对照自家 LangSmith 栈缺口。",
+      "tags": [
+        "指定AI名单",
+        "LangChain",
+        "LangSmith",
+        "Deep Agents",
+        "产品更新"
+      ],
+      "score": 58.133,
+      "section": "指定AI名单",
+      "rank": 16
+    },
+    {
+      "id": "2103528579212669374",
+      "author": "OpenAIDevs",
+      "url": "https://x.com/i/status/2103528579212669374",
+      "created_at": "Fri Sep 25 16:54:29 +0000 2026",
+      "summary": "OpenAI 开发者号称 GPT-6 Astra 帮助 Proaction 更快搭建车队管理 Agent，并以更短的 computer-use 运行完成同等工作。",
+      "recommend_reason": "Astra computer-use 的具体行业落地案例，强调「更短运行、同等产出」的效率叙事。",
+      "tags": [
+        "指定AI名单",
+        "OpenAI",
+        "GPT-6",
+        "Astra",
+        "Computer Use",
+        "Agent"
+      ],
+      "score": 70.56,
+      "section": "指定AI名单",
+      "rank": 17
+    },
+    {
+      "id": "2103516287452483885",
+      "author": "emilkowalski",
+      "url": "https://x.com/i/status/2103516287452483885",
+      "created_at": "Fri Sep 25 16:05:39 +0000 2026",
+      "summary": "作者分享爱用的 AI 场景：让模型尝试「弄坏」自己做的东西——堆大量数据、超长名字、异常邮箱与标签等，主动构造最坏情况；并附 vibe-coded 演示。",
+      "recommend_reason": "可立刻照做的质量保障用法，把 AI 从「写代码」转到「找边界与破坏性用例」。",
+      "tags": [
+        "工程实践",
+        "测试",
+        "UI",
+        "用例"
+      ],
+      "title": "用 AI 对自建 UI 做最坏情况压测：超长数据与怪异输入",
+      "score": 69.181,
+      "rank": 18
+    },
+    {
+      "id": "2103515655760982273",
+      "author": "claudeai",
+      "url": "https://x.com/i/status/2103515655760982273",
+      "created_at": "Fri Sep 25 16:03:08 +0000 2026",
+      "summary": "Claude Opus 5.5 发布数日，Anthropic 汇总了目前最喜欢的一批社区探索与发现（链至精选案例，含用 Opus 做交互式镜头实验室等）。",
+      "recommend_reason": "官方对 Opus 5.5 早期用例的策展入口，适合快速扫「模型能做出什么形态的交互 demo」。",
+      "tags": [
+        "指定AI名单",
+        "Anthropic",
+        "Claude",
+        "Opus 5.5",
+        "用例"
+      ],
+      "score": 71.803,
+      "section": "指定AI名单",
+      "rank": 19
+    },
+    {
+      "id": "2103514866770215048",
+      "author": "Azure",
+      "url": "https://x.com/i/status/2103514866770215048",
+      "created_at": "Fri Sep 25 16:00:00 +0000 2026",
+      "summary": "微软称 AI Agent 需要安全处执行代码、跑工具与完成任务；Azure Container Apps Sandboxes 现已正式可用，为 Agent 负载提供快速、隔离的环境，而不暴露更广的应用环境。",
+      "recommend_reason": "云厂商把「Agent 沙箱」推到 GA，是 Agent 生产化基础设施的标志性一步。",
+      "tags": [
+        "Azure",
+        "Agent",
+        "沙箱",
+        "基础设施",
+        "安全"
+      ],
+      "title": "Azure Container Apps Sandboxes 正式 GA：给 Agent 隔离执行环境",
+      "score": 64.117,
+      "rank": 20
+    }
+  ],
+  "generated_at": "2026-09-25T22:07:41Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 6,
+    "runs_per_day": 2,
+    "slot": "early-noon-partial",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 20,
+    "last_batch_added": 20,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "早窗补刊 early-noon-partial；北京时间 2026-09-26 00:00–约06:00；非完整午场。双次采集/日惯例仍适用；本趟≤20；单日≤60不保底；追加按id去重。Coverage: following search+timeline + 指定AI名单硬采未关注账号。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    },
+    "coverage": {
+      "window_start_bj": "2026-09-26T00:00:00+08:00",
+      "window_end_bj": "2026-09-26T06:05:00+08:00",
+      "following_search": true,
+      "following_timeline": true,
+      "hard_collect_not_following": true
+    }
+  }
+}
