@@ -1,9 +1,78 @@
 {
   "source": "AI Frontier Radar",
   "title": "观察名单",
-  "updated_at": "2026-09-24T08:35:00+08:00",
-  "count": 67,
+  "updated_at": "2026-09-25T08:15:00+08:00",
+  "count": 73,
   "items": [
+    {
+      "id": "perplexity-fast-search-default",
+      "title": "Agent runtime 默认搜索层扩散",
+      "why": "Fast Search 被 Hermes 默认后是否扩散到其他 agent runtime。",
+      "since": "2026-09-25T08:15:00+08:00",
+      "last_updated": "2026-09-25T08:15:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "agent-flash-over-pro-economics"
+      ]
+    },
+    {
+      "id": "noan-fact-layer-adoption",
+      "title": "公司事实层是否被多 agent 共用",
+      "why": "NOAN 式 approved facts 是否成为多 agent 治理默认。",
+      "since": "2026-09-25T08:15:00+08:00",
+      "last_updated": "2026-09-25T08:15:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "harness-control-plane",
+        "multi-agent-team-orchestration"
+      ]
+    },
+    {
+      "id": "clm-8b-verifier-uptake",
+      "title": "开放 System One 是否进入 harness 默认 verifier",
+      "why": "CLM-8B 相对 Jev 闭源对照：是否成为开源 verifier 默认。",
+      "since": "2026-09-25T08:15:00+08:00",
+      "last_updated": "2026-09-25T08:15:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "system-one-decision-models",
+        "agent-flash-over-pro-economics"
+      ]
+    },
+    {
+      "id": "floot-mcp-ship-adoption",
+      "title": "chat→多端上架是否成 MCP playbook",
+      "why": "Floot 是否被复制为聊天原生 full-stack ship 范式。",
+      "since": "2026-09-25T08:15:00+08:00",
+      "last_updated": "2026-09-25T08:15:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "skills-as-distribution",
+        "harness-control-plane"
+      ]
+    },
+    {
+      "id": "gemini-live-avatar-enterprise",
+      "title": "Enterprise Live Avatar 采用",
+      "why": "Gemini Live Avatar GA 后企业白名单形象与 tool-calling 真实用量。",
+      "since": "2026-09-25T08:15:00+08:00",
+      "last_updated": "2026-09-25T08:15:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "voice-first-agent-interface"
+      ]
+    },
+    {
+      "id": "muse-realtime-avatar-uptake",
+      "title": "Muse Realtime Avatar 是否成个人 Agent 默认界面",
+      "why": "Meta 实时化身是否从 Connect 演示进入日常入口。",
+      "since": "2026-09-25T08:15:00+08:00",
+      "last_updated": "2026-09-25T08:15:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "voice-first-agent-interface"
+      ]
+    },
     {
       "id": "art-enzyme-reproduce-verify",
       "title": "ART 酶系统独立复现",
