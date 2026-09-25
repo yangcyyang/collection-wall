@@ -1,9 +1,270 @@
 {
   "source": "AI Frontier Radar",
   "title": "新产品",
-  "updated_at": "2026-09-24T08:35:00+08:00",
-  "count": 132,
+  "updated_at": "2026-09-25T08:15:00+08:00",
+  "count": 144,
   "items": [
+    {
+      "id": "tencent-octop-harness",
+      "name": "TencentCloud Octop harness suite",
+      "score": 68,
+      "status": "new",
+      "first_detected": "2026-09-25T08:15:00+08:00",
+      "last_updated": "2026-09-25T08:15:00+08:00",
+      "summary": "腾讯云开源 octop-harness（生产级 agent runtime）、octop-browser（CDP 直连无 Playwright）、octop-memory、octop-gateway（多 IM 通道）。星数仍低（~9–10），属大厂 harness 开源信号。",
+      "novelty": "大厂把 harness/浏览器/记忆/通道拆成可自托管组件对外开源。",
+      "urls": {
+        "github": "https://github.com/TencentCloud/octop-harness"
+      },
+      "tags": [
+        "Tencent",
+        "Harness",
+        "Browser",
+        "Memory",
+        "Gateway"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "jevry-browser-agent",
+      "name": "jevry",
+      "score": 74,
+      "status": "new",
+      "first_detected": "2026-09-25T08:15:00+08:00",
+      "last_updated": "2026-09-25T08:15:00+08:00",
+      "summary": "GitHub MIT 桌面浏览器 agent（michaelswissa/jevry，同日创建 ~99★）：面向网站任务/研究引用/支持的游戏。落在 System One × computer-use 交叉带。",
+      "novelty": "同日开源桌面浏览器 agent，强化决策模型×浏览器执行的开源拼装面。",
+      "urls": {
+        "github": "https://github.com/michaelswissa/jevry"
+      },
+      "tags": [
+        "Browser Agent",
+        "Jev",
+        "MIT",
+        "Desktop"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "autonomous-product-delivery",
+      "name": "Autonomous Product Delivery",
+      "score": 84,
+      "status": "new",
+      "first_detected": "2026-09-25T08:15:00+08:00",
+      "last_updated": "2026-09-25T08:15:00+08:00",
+      "summary": "真实代码库上的端到端产品环：Discover Mode 研究 analytics/tickets/calls/code，再 plan→build→verify→可审 PR；每次 merge 改进系统。PH ~129 票。",
+      "novelty": "产品团队可跑的 agent playbook，超出 code-gen 座位。",
+      "urls": {
+        "site": "https://autonomyai.io",
+        "producthunt": "https://www.producthunt.com/products/autonomyai"
+      },
+      "tags": [
+        "Product Loop",
+        "Multi-agent",
+        "PR",
+        "Autonomy"
+      ],
+      "homepage": false,
+      "ph_votes_latest": 129
+    },
+    {
+      "id": "opaline",
+      "name": "Opaline",
+      "score": 85,
+      "status": "new",
+      "first_detected": "2026-09-25T08:15:00+08:00",
+      "last_updated": "2026-09-25T08:15:00+08:00",
+      "summary": "团队 Claude Code/Codex session 的消息级分析：跨会话看 token 成本、耗时、skill 使用——像 PostHog for coding harness。PH ~141 票。",
+      "novelty": "闭环 harness 可观测 playbook，不是通用 LLM 日志。",
+      "urls": {
+        "site": "https://opaline.so",
+        "producthunt": "https://www.producthunt.com/products/rudel"
+      },
+      "tags": [
+        "Observability",
+        "Claude Code",
+        "Codex",
+        "Harness"
+      ],
+      "homepage": false,
+      "ph_votes_latest": 141
+    },
+    {
+      "id": "harness-manager",
+      "name": "Harness Manager",
+      "score": 86,
+      "status": "new",
+      "first_detected": "2026-09-25T08:15:00+08:00",
+      "last_updated": "2026-09-25T08:15:00+08:00",
+      "summary": "Mac App Store 上的 coding harness 控制中心：安装/更新 Claude Code/Codex/OpenCode/Pi，检测已有安装，管理 MCP servers+skills，诊断坏配置。PH ~79 票。",
+      "novelty": "harness-control-plane 落成本地产品面：安装面 + MCP/skills 治理。",
+      "urls": {
+        "site": "https://harnessmanager.devmesh.xyz",
+        "producthunt": "https://www.producthunt.com/products/harness-manager"
+      },
+      "tags": [
+        "Harness",
+        "MCP",
+        "Mac",
+        "Claude Code",
+        "Codex"
+      ],
+      "homepage": false,
+      "ph_votes_latest": 79
+    },
+    {
+      "id": "perplexity-portable-computer-windows",
+      "name": "Perplexity Portable Computer for Windows",
+      "score": 84,
+      "status": "new",
+      "first_detected": "2026-09-25T08:15:00+08:00",
+      "last_updated": "2026-09-25T08:15:00+08:00",
+      "summary": "Perplexity 宣布 Portable Computer for Windows 登陆 AMD Ryzen AI Max：本地跑 AI agents，连接 Slack/Gmail/Drive 与本地文件，可调度周期性任务且不耗 Computer credits。面向 Consumer/Enterprise Pro+Max。",
+      "novelty": "把「Agent 自有电脑」推到 Windows + NPU 本机路径，强调 on-device 与零 Computer credit。",
+      "urls": {
+        "x": "https://x.com/perplexity_ai/status/2103161414919872628"
+      },
+      "tags": [
+        "Perplexity",
+        "PortableComputer",
+        "on-device",
+        "AMD",
+        "Windows"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "noan",
+      "name": "NOAN",
+      "score": 88,
+      "status": "new",
+      "first_detected": "2026-09-25T08:15:00+08:00",
+      "last_updated": "2026-09-25T08:15:00+08:00",
+      "summary": "公司事实层：经审批、可版本化的定价/政策/产品事实经 API+MCP 暴露，让每个 agent 共用同一真相源，而不是各自重解读文档。PH ~228 票（09-24）。",
+      "novelty": "Agent 知识治理机制（approved fact layer），不是又一层 RAG 记忆。",
+      "urls": {
+        "site": "https://www.getnoan.com",
+        "producthunt": "https://www.producthunt.com/products/noan-2"
+      },
+      "tags": [
+        "Fact Layer",
+        "MCP",
+        "Multi-agent",
+        "Governance"
+      ],
+      "homepage": true,
+      "ph_votes_latest": 228
+    },
+    {
+      "id": "perplexity-fast-search",
+      "name": "Perplexity Fast Search (Photon)",
+      "score": 88,
+      "status": "new",
+      "first_detected": "2026-09-25T08:15:00+08:00",
+      "last_updated": "2026-09-25T08:15:00+08:00",
+      "summary": "Perplexity Search API 推出 Fast Search（Photon，Rust 检索排序）：95% 结果 ≤230ms；devs 定价 $1/1k；同日成为 Nous Hermes Agent 在 Nous Portal 全档位默认免费搜索（p50 160ms / p95 230ms）。官方+Nous 交叉确认。",
+      "novelty": "Agent 专用低延迟网页搜索成可计价基础设施，并被开源 Hermes 默认绑定——搜索从工具可选变成 runtime 默认层。",
+      "urls": {
+        "x": "https://x.com/perplexity_ai/status/2103184653373014509"
+      },
+      "tags": [
+        "Perplexity",
+        "FastSearch",
+        "Photon",
+        "Hermes",
+        "agent-infra"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "clm-8b",
+      "name": "CLM-8B Contrastive Language Model",
+      "score": 91,
+      "status": "new",
+      "first_detected": "2026-09-25T08:15:00+08:00",
+      "last_updated": "2026-09-25T08:15:00+08:00",
+      "summary": "Contrastive-LM 开源 Apache 2.0 CLM-8B：冻结 Qwen3-8B 编码器 + 双向 InfoNCE 的 state/action 投影头；state/action 嵌入可独立缓存，对固定动作集相对 TypeSafe Jev 自报最高约 9× 更低延迟。微调作 verifier 后 DeepSWE 81.6% / Terminal-Bench 2.1 87.6%（best-of-N）。HF 权重 + GitHub + HN。",
+      "novelty": "首个大规模公开对比式 System One 配方（相对 Jev 闭源），把路由/验证拆成可缓存的 state↔action 匹配。",
+      "urls": {
+        "github": "https://github.com/Contrastive-LM/CLM",
+        "huggingface": "https://huggingface.co/Contrastive-LM/CLM-v0.1-8B",
+        "site": "https://contrastive-lm.notion.site"
+      },
+      "tags": [
+        "CLM",
+        "System One",
+        "Open Weights",
+        "Verifier",
+        "Apache"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "floot-mcp",
+      "name": "Floot MCP",
+      "score": 91,
+      "status": "new",
+      "first_detected": "2026-09-25T08:15:00+08:00",
+      "last_updated": "2026-09-25T08:15:00+08:00",
+      "summary": "在 Claude/ChatGPT 里直接构建并上架 web+iOS+Android：对话内自带 DB、auth、hosting 与 live URL，同会话持续迭代。PH ~297 票（09-24）。",
+      "novelty": "MCP 把聊天变成多端上架面——chat-native full-stack ship playbook，不是又一个 vibe-coding IDE。",
+      "urls": {
+        "site": "https://floot.com",
+        "producthunt": "https://www.producthunt.com/products/floot"
+      },
+      "tags": [
+        "MCP",
+        "Ship",
+        "Multiplatform",
+        "Claude",
+        "ChatGPT"
+      ],
+      "homepage": true,
+      "ph_votes_latest": 297
+    },
+    {
+      "id": "gemini-3-8-live-avatar",
+      "name": "Gemini 3.8 Live + Live Avatar (Enterprise GA)",
+      "score": 90,
+      "status": "new",
+      "first_detected": "2026-09-25T08:15:00+08:00",
+      "last_updated": "2026-09-25T08:15:00+08:00",
+      "summary": "Google 官方博客与 Cloud Tech：Gemini 3.8 Live with Live Avatar 在 Gemini Enterprise 正式 GA——近实时流式视频人格、唇形/表情同步、异步 tool calling、原生多语种 speech-to-speech；与 Meta Muse Realtime Avatar 同窗形成实时语音→可视化身双边落地。",
+      "novelty": "企业通道把 Live 语音 Agent 配上口型/表情同步 Live Avatar，并强调 tool calling——Enterprise GA，不是 demo。",
+      "urls": {
+        "official": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/",
+        "x": "https://x.com/GoogleCloudTech/status/2103157502988746877"
+      },
+      "tags": [
+        "Google",
+        "Gemini",
+        "LiveAvatar",
+        "Enterprise",
+        "GA"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "muse-realtime-avatar",
+      "name": "Muse Realtime Avatar",
+      "score": 93,
+      "status": "new",
+      "first_detected": "2026-09-25T08:15:00+08:00",
+      "last_updated": "2026-09-25T08:15:00+08:00",
+      "summary": "Meta Connect 正式发布 Muse Realtime Avatar：把 Muse Realtime Voice 做成可实时对话的表情/手势交互化身；官方称端到端人工评测整体偏好领先，研究侧称约 88% overall win rate，并指向实时交互 videogen 路线。",
+      "novelty": "个人 Agent 从实时语音跃迁到实时可视化身；官方明确是 realtime interactive videogen 第一步。",
+      "urls": {
+        "x": "https://x.com/AIatMeta/status/2102997291732766943"
+      },
+      "tags": [
+        "Meta",
+        "Muse",
+        "RealtimeAvatar",
+        "Connect2026",
+        "voice-first"
+      ],
+      "homepage": true
+    },
     {
       "id": "jev-judge-mcp",
       "name": "jev-judge-mcp",
@@ -72,7 +333,7 @@
       "score": 82,
       "status": "new",
       "first_detected": "2026-09-24T08:35:00+08:00",
-      "last_updated": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-25T08:15:00+08:00",
       "summary": "支持客服 agent 的三类不信任输入（消息/检索文档/拟工具调用）筛查，决策留证。PH ~83。→ pool。",
       "novelty": "Support-agent 信任边界 + 审计，区别于 Arcjet 运行时安全。",
       "urls": {
@@ -85,7 +346,7 @@
         "Support"
       ],
       "homepage": false,
-      "ph_votes_latest": 83
+      "ph_votes_latest": 91
     },
     {
       "id": "jev-state",
@@ -93,7 +354,7 @@
       "score": 84,
       "status": "new",
       "first_detected": "2026-09-24T08:35:00+08:00",
-      "last_updated": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-25T08:15:00+08:00",
       "summary": "对话工作流逐步 why → 存为测试 → 导出可跑 TypeScript/workflow JSON + coding-agent skill。PH ~89。→ pool。",
       "novelty": "conversation→eval artifact→agent skill 闭环；区别于 jev-decision-only。",
       "urls": {
@@ -107,7 +368,7 @@
         "Open Source"
       ],
       "homepage": false,
-      "ph_votes_latest": 89
+      "ph_votes_latest": 96
     },
     {
       "id": "gemini-3-8-tts",
@@ -136,7 +397,7 @@
       "score": 85,
       "status": "new",
       "first_detected": "2026-09-24T08:35:00+08:00",
-      "last_updated": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-25T08:15:00+08:00",
       "summary": "Latitude：连接生产 agent → 每日 outcome/reliability/cost/speed/safety 分数；失败模式变带状态的 issues。PH ~147。→ pool（既有可观测产品上的机制层）。",
       "novelty": "闭环「我的 agent 是否在变好」日评分，而非原始日志。",
       "urls": {
@@ -149,7 +410,7 @@
         "Latitude"
       ],
       "homepage": false,
-      "ph_votes_latest": 147
+      "ph_votes_latest": 157
     },
     {
       "id": "qwen-audio-3-1",
@@ -176,9 +437,9 @@
       "id": "nous-hermes-bot-screen",
       "name": "Nous Hermes Bot Screen",
       "score": 88,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-24T08:35:00+08:00",
-      "last_updated": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-25T08:15:00+08:00",
       "summary": "Hermes Desktop 实时串流任意 bot 屏幕（浏览器/终端/窗口），可随时接管输入凭据再交还。",
       "novelty": "持久计算机 Agent 的可视化人机协作成为正式产品能力。",
       "urls": {
@@ -190,15 +451,23 @@
         "Computer-Use",
         "HITL"
       ],
-      "homepage": true
+      "homepage": false,
+      "evidence": [
+        {
+          "url": "https://x.com/NousResearch/status/2103244070407802905",
+          "source": "official",
+          "note": "Hermes Agent 默认搜索切换为 Perplexity Fast Search；Nous Portal 全档免费。",
+          "date": "2026-09-25T06:03:57+08:00"
+        }
+      ]
     },
     {
       "id": "gbrain",
       "name": "GBrain",
       "score": 88,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-24T08:35:00+08:00",
-      "last_updated": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-25T08:15:00+08:00",
       "summary": "Garry Tan：可移植 markdown 记忆 + 已连账号/技能，任意 harness 可达（Claude Code 记一笔 → ChatGPT 知道）。PH ~111 票。",
       "novelty": "跨 harness 记忆/账号层，不是单次 coding session 归档。",
       "urls": {
@@ -211,14 +480,14 @@
         "Cross-Agent",
         "Open Source"
       ],
-      "homepage": true,
-      "ph_votes_latest": 111
+      "homepage": false,
+      "ph_votes_latest": 119
     },
     {
       "id": "meta-muse-charm",
       "name": "Meta Muse Charm",
       "score": 90,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-24T08:35:00+08:00",
       "last_updated": "2026-09-24T08:35:00+08:00",
       "summary": "Connect：钥匙扣级 Muse 交互设备（12 月发货）；Muse 升级语音与实时视频、可后台办事，并将上眼镜。",
@@ -233,13 +502,13 @@
         "Voice",
         "Connect"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "qwen-intelligence",
       "name": "Qwen Intelligence",
       "score": 91,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-24T08:35:00+08:00",
       "last_updated": "2026-09-24T08:35:00+08:00",
       "summary": "阿里发布端侧个人智能：Mobile Planner / Mobile-Use / Mobile Creative 三 Agent，并开放 MobilePA-Bench、MobileWorld 等基准套件。",
@@ -253,13 +522,13 @@
         "Benchmark",
         "Multi-Agent"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "cursor-rollouts",
       "name": "Cursor Rollouts",
       "score": 92,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-24T08:35:00+08:00",
       "last_updated": "2026-09-24T08:35:00+08:00",
       "summary": "PR 上写 monitoring plan，随部署对照日志/指标判定健康/回归/不确定；可通知、开 revert 或交 cloud agent。同日 Security Reviewer 均时 4.8→3.8 分钟。Teams/Enterprise；试用额度约 10 天。",
@@ -274,13 +543,13 @@
         "Security Review",
         "Harness"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "claude-marketplace",
       "name": "Claude Marketplace",
       "score": 94,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-24T08:35:00+08:00",
       "last_updated": "2026-09-24T08:35:00+08:00",
       "summary": "Claude 内可发现 connectors/plugins、购买 Cursor/CrowdStrike 等 agents，并接入 Accenture/Deloitte 等服务伙伴；建设者可上架。",
@@ -294,15 +563,15 @@
         "Agent Commerce",
         "Distribution"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "solid",
       "name": "Solid",
       "score": 94,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-24T08:35:00+08:00",
-      "last_updated": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-25T08:15:00+08:00",
       "summary": "Agent 自带真实电脑、账号与预算：经 API 或像人一样登录应用，可长时间 AFK 跑任务。PH ~402 票（09-23）。",
       "novelty": "Agent-as-operator：机器所有权 + 支出权，而不只是个人桌面代理。",
       "urls": {
@@ -315,8 +584,8 @@
         "Budgets",
         "Accounts"
       ],
-      "homepage": true,
-      "ph_votes_latest": 402
+      "homepage": false,
+      "ph_votes_latest": 457
     },
     {
       "id": "kimi-k3-amazon-bedrock",
@@ -429,7 +698,7 @@
       "score": 88,
       "status": "watching",
       "first_detected": "2026-09-23T08:25:00+08:00",
-      "last_updated": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-25T08:15:00+08:00",
       "summary": "项目级共享归档：daemon ~20s 同步 Claude Code/Cursor/Codex/opencode 磁盘 transcript，经 MCP 暴露；换 agent 或撞用量上限无需重 brief，引用到人/会话/行。PH ~71 票（未验证 LB）。",
       "novelty": "跨 coding agent 的共享记忆层，上下文不再锁在单台笔记本。",
       "urls": {
@@ -497,7 +766,7 @@
       "score": 96,
       "status": "watching",
       "first_detected": "2026-09-23T08:25:00+08:00",
-      "last_updated": "2026-09-24T08:35:00+08:00",
+      "last_updated": "2026-09-25T08:15:00+08:00",
       "summary": "Anthropic Claude 5.5 家族首模：多数任务对标 Fable 5.1，相对 Opus 5 约降 40% 成本；当日全平台可用，Cursor 接入并登顶 CursorBench Max 57.8%。",
       "novelty": "近旗舰能力压进更低 Opus 价位，同日进 Cursor — 定价战 + harness 默认档切换。",
       "urls": {
@@ -513,7 +782,7 @@
         "Frontier"
       ],
       "homepage": false,
-      "ph_votes_latest": 266
+      "ph_votes_latest": 344
     },
     {
       "id": "chatgpt-experian-credit-score",
@@ -1528,8 +1797,8 @@
       "score": 91,
       "status": "watching",
       "first_detected": "2026-09-16T08:20:00+08:00",
-      "last_updated": "2026-09-16T08:20:00+08:00",
-      "summary": "Google DeepMind 发布 Gemini 3.8 Live 与 3.8 Live Extended Thinking：原生 speech-to-speech，近实时视觉，97 语种；Extended Thinking 可在全双工对话中后台多步推理并异步 function-calling（不打断会话），边叙述进度边跑工具。Live API + Gemini App 同步开推。",
+      "last_updated": "2026-09-25T08:15:00+08:00",
+      "summary": "Google DeepMind 发布 Gemini 3.8 Live 与 3.8 Live Extended Thinking：原生 speech-to-speech，近实时视觉，97 语种；Extended Thinking 可在全双工对话中后台多步推理并异步 function-calling（不打断会话），边叙述进度边跑工具。Live API + Gemini App 同步开推；窗口内 Live Avatar Enterprise GA 落地。",
       "novelty": "把可配置后台 thinking + 异步工具调用嵌进全双工语音会话，成为 voice agent 可编排生产原语，而不只是语音聊天壳。",
       "urls": {
         "site": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
@@ -1545,7 +1814,15 @@
         "Live",
         "Agent"
       ],
-      "homepage": false
+      "homepage": false,
+      "evidence": [
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/",
+          "source": "official",
+          "note": "Live Avatar 随 Gemini 3.8 Live 在 Gemini Enterprise GA（另见新产品 gemini-3-8-live-avatar）。",
+          "date": "2026-09-24"
+        }
+      ]
     },
     {
       "id": "gpt-6-astra",
