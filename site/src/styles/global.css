@@ -353,6 +353,9 @@ body.radar-viewer-open { overflow: hidden; }
 .essay-prose ul { margin: 0; padding-left: 1.2rem; }
 .essay-prose blockquote { border-left: var(--border-width) solid var(--color-border); color: var(--color-text-secondary); margin: 0; padding-left: var(--spacing-md); }
 .essay-prose blockquote p { margin: 0; }
+.essay-prose figure { margin: 0; }
+.essay-prose img, .essay-prose video { background: var(--color-surface); border: var(--border-width) solid var(--color-border); border-radius: var(--radius-card); display: block; height: auto; max-width: 100%; width: 100%; }
+.essay-prose figcaption { color: var(--color-text-secondary); font-size: var(--font-size-caption); line-height: 1.5; margin-top: var(--spacing-sm); }
 .prompt-toolbar { padding: var(--spacing-lg) 0 0; }
 .prompt-search input { background: var(--color-surface); border: var(--border-width) solid var(--color-border); border-radius: var(--radius-card); color: var(--color-text-primary); font-size: var(--font-size-body); padding: var(--spacing-sm) var(--spacing-md); width: min(32rem, 100%); }
 .prompt-search input:focus-visible { outline: var(--outline-width) solid var(--color-brand); outline-offset: var(--outline-width); }

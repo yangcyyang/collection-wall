@@ -32,6 +32,14 @@ function httpUrl(value) {
   return url;
 }
 
+function safeMediaUrl(value) {
+  const url = text(value);
+  if (!url || url.length > 2000 || /[\s"'<>\\]/.test(url) || url.includes("..")) return "";
+  if (/^\/(?!\/)[A-Za-z0-9._~/-]+$/.test(url)) return url;
+  if (/^https:\/\/[A-Za-z0-9._~:/?#\[\]@!$&'()*+,;=%-]+$/.test(url)) return url;
+  return "";
+}
+
 function safeBodyFile(value, id) {
   const name = text(value) || `${id}.md`;
   return /^[a-z0-9]+(?:-[a-z0-9]+)*\.md$/.test(name) ? name : `${id}.md`;
@@ -147,6 +155,11 @@ function escapeHtml(value) {
 
 function renderInline(value) {
   let html = escapeHtml(value);
+  html = html.replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g, (match, alt, url) => {
+    const safe = safeMediaUrl(url);
+    if (!safe) return alt;
+    return `<img src="${escapeHtml(safe)}" alt="${alt}" />`;
+  });
   html = html.replace(/\[([^\]]+)\]\((?!https?:\/\/)[^)]*\)/g, "$1");
   html = html.replace(
     /\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g,
@@ -157,8 +170,66 @@ function renderInline(value) {
   return html;
 }
 
+const IMAGE_LINE = /^!\[([^\]]*)\]\(([^)\s]+)\)(.*)$/;
+const MEDIA_SIZE = /^\{(\d{1,4})x(\d{1,4})\}$/;
+
+function mediaSize(suffix) {
+  const match = MEDIA_SIZE.exec(suffix ?? "");
+  if (!match) return null;
+  const width = Number(match[1]);
+  const height = Number(match[2]);
+  if (!width || !height) return null;
+  return { width, height };
+}
+
+function sizeAttrs(size) {
+  return size ? ` width="${size.width}" height="${size.height}"` : "";
+}
+
+function parseVideoLine(line) {
+  let trimmed = line.trim();
+  if (!trimmed.startsWith("!video[")) return null;
+  const sizeMatch = /\{(\d{1,4})x(\d{1,4})\}$/.exec(trimmed);
+  const size = sizeMatch ? mediaSize(sizeMatch[0]) : null;
+  if (size) trimmed = trimmed.slice(0, -sizeMatch[0].length);
+  const captionEnd = trimmed.indexOf("](");
+  if (captionEnd < 7) return null;
+  const rest = trimmed.slice(captionEnd + 2);
+  const split = rest.lastIndexOf(")(");
+  if (split <= 0 || !rest.endsWith(")")) return null;
+  const src = rest.slice(0, split);
+  const poster = rest.slice(split + 2, -1);
+  if (!src || !poster || /\s/.test(src) || /\s/.test(poster)) return null;
+  return { caption: trimmed.slice(7, captionEnd), src, poster, size };
+}
+
+function isImageLine(line) {
+  return IMAGE_LINE.test(line.trim());
+}
+
+function isVideoLine(line) {
+  return parseVideoLine(line) !== null;
+}
+
 function isBlockStart(line) {
-  return /^(#{1,3} |> |[-*] )/.test(line);
+  return /^(#{1,3} |> |[-*] )/.test(line) || isImageLine(line) || isVideoLine(line);
+}
+
+function renderImageLine(line) {
+  const match = IMAGE_LINE.exec(line.trim());
+  const alt = match?.[1] ?? "";
+  const safe = safeMediaUrl(match?.[2] ?? "");
+  if (!safe) return `<p>${escapeHtml(alt)}</p>`;
+  return `<figure class="essay-figure"><img src="${escapeHtml(safe)}" alt="${escapeHtml(alt)}"${sizeAttrs(mediaSize(match?.[3] ?? ""))} /></figure>`;
+}
+
+function renderVideoLine(line) {
+  const parsed = parseVideoLine(line);
+  const caption = parsed?.caption ?? "";
+  const src = safeMediaUrl(parsed?.src ?? "");
+  const poster = safeMediaUrl(parsed?.poster ?? "");
+  if (!src || !poster) return `<p>${escapeHtml(caption)}</p>`;
+  return `<figure class="essay-figure"><video controls playsinline preload="metadata" poster="${escapeHtml(poster)}" src="${escapeHtml(src)}"${sizeAttrs(parsed?.size)}></video><figcaption>${escapeHtml(caption)}</figcaption></figure>`;
 }
 
 export function renderEssayMarkdown(markdown) {
@@ -194,6 +265,16 @@ export function renderEssayMarkdown(markdown) {
         index += 1;
       }
       html.push(`<ul>${items.join("")}</ul>`);
+      continue;
+    }
+    if (isImageLine(line)) {
+      html.push(renderImageLine(line));
+      index += 1;
+      continue;
+    }
+    if (isVideoLine(line)) {
+      html.push(renderVideoLine(line));
+      index += 1;
       continue;
     }
     const paragraph = [];

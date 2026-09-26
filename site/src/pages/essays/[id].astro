@@ -15,11 +15,16 @@ if (!essay) {
 }
 
 const originalUrl = essay.article_url || essay.source_url;
+const hostsMedia = /<(?:img|video)\b/.test(essay.html || "");
 const kindNote = essay.kind === "original"
   ? "这是我自己写的文章。"
   : essay.kind === "curated"
-    ? "这是精选收录的中文原文。文中提到的图在原文页面。"
-    : "这是中文译文。文中提到的图在原文页面。";
+    ? (hostsMedia
+      ? "这是精选收录的中文原文。"
+      : "这是精选收录的中文原文。文中提到的图在原文页面。")
+    : (hostsMedia
+      ? "这是中文译文。文中的封面和演示视频嵌在正文里。"
+      : "这是中文译文。文中提到的图在原文页面。");
 ---
 
 <html lang="zh-CN">
