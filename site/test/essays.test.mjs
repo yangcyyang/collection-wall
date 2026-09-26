@@ -173,20 +173,23 @@ test("精选活动实录在清单里，只归精选，正文可读且没有采�
   assert.equal(item.capture_status, "full");
   assert.equal(item.published_at, "2026-09-21");
   assert.equal(item.source_url, "https://mp.weixin.qq.com/s/iCDqmppdhos-Q5vfRzQtIw");
-  assert.equal(item.title_zh, "AGI HOUSE 硬核连线｜RSI 定义，评估，实践与未来演进");
-  assert.match(item.author, /AGI House Asia/);
-  assert.match(item.author, /姚顺宇/);
+  assert.equal(item.title_zh, "AGI HOUSE 硬核连线 ｜ RSI定义，评估，实践与未来演进");
+  assert.equal(item.author, "AGI House Asia");
   assert.ok(item.summary_zh.split("。").filter(Boolean).length >= 2);
   assert.ok(item.summary_zh.split("。").filter(Boolean).length <= 4);
+  assert.match(item.body_zh, /^# AGI HOUSE 硬核连线 ｜ RSI定义，评估，实践与未来演进/);
+  assert.match(item.body_zh, /来源：https:\/\/mp\.weixin\.qq\.com\/s\/iCDqmppdhos-Q5vfRzQtIw/);
   assert.match(item.body_zh, /RSI 和 RL 本质其实不一样/);
   assert.match(item.body_zh, /周煊赫：RSI 最终还是要落回模型上/);
-  assert.doesNotMatch(item.body_zh, /OpenCLI|抓取|采集|加入社群/);
+  assert.match(item.body_zh, /解锁独家闭门复盘资料与行业前沿洞察/);
+  assert.doesNotMatch(item.body_zh, /OpenCLI/);
 
   const essay = await getEssay("agi-house-rsi-202609", dirname(catalogFile));
+  assert.match(essay.html, /<h2>AGI HOUSE 硬核连线 ｜ RSI定义，评估，实践与未来演进<\/h2>/);
   assert.match(essay.html, /9月19日/);
   assert.match(essay.html, /姚顺宇/);
   assert.match(essay.html, /施天麟/);
-  assert.doesNotMatch(essay.html, /加入社群|OpenCLI|抓取过程/);
+  assert.doesNotMatch(essay.html, /OpenCLI|抓取过程/);
 });
 
 test("导航有文章 Tab，列表能按译文和我的文章筛选，详情链到原文", async () => {
@@ -241,5 +244,7 @@ test("构建产物能打开种子译文，原文链接还在", async (t) => {
   assert.match(curated, /https:\/\/mp.weixin.qq.com\/s\/iCDqmppdhos-Q5vfRzQtIw/);
   assert.match(curated, /RSI 和 RL 本质其实不一样/);
   assert.match(curated, /精选收录的中文原文/);
-  assert.doesNotMatch(curated, /这是中文译文|加入社群|OpenCLI|抓取|采集/);
+  assert.match(curated, /来源：https:\/\/mp\.weixin\.qq\.com\/s\/iCDqmppdhos-Q5vfRzQtIw/);
+  assert.match(curated, /解锁独家闭门复盘资料与行业前沿洞察/);
+  assert.doesNotMatch(curated, /这是中文译文|OpenCLI/);
 });
