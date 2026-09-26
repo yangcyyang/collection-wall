@@ -99,14 +99,36 @@ test("markdown 转义 HTML，只保留 http 链接、粗体和斜体", () => {
   assert.match(html, /<em>边界<\/em>/);
 });
 
-test("两类筛选始终都在，空类计数为 0", () => {
+test("三类筛选始终都在，空类计数为 0", () => {
   assert.deepEqual(essayKindFilters([
     normalizeEssay(sampleItem()),
     normalizeEssay(sampleItem({ id: "another", kind: "original" })),
   ]), [
     { id: "translation", label: "译文", count: 0 },
     { id: "original", label: "我的文章", count: 2 },
+    { id: "curated", label: "精选", count: 0 },
   ]);
+});
+
+test("精选认 curated 和「精选」文案，不会被当成译文或我的文章", () => {
+  const byId = normalizeEssay({
+    id: "agi-house-rsi-202609",
+    kind: "curated",
+    title_zh: "一场活动实录",
+  });
+  const byLabel = normalizeEssay({
+    id: "by-label",
+    category: "精选",
+    title: "另一篇实录",
+  });
+  assert.equal(byId.kind, "curated");
+  assert.equal(byId.category, "curated");
+  assert.equal(byId.kind_label, "精选");
+  assert.equal(byLabel.kind, "curated");
+  assert.equal(byLabel.kind_label, "精选");
+  assert.equal(normalizeEssay({ id: "unknown-kind", kind: "repost", title: "不收" }), null);
+  assert.equal(essayKindFilters([byId]).find((kind) => kind.id === "curated").count, 1);
+  assert.equal(essayKindFilters([byId]).find((kind) => kind.id === "translation").count, 0);
 });
 
 test("种子译文在清单里，原文链接和中文正文可读", async () => {
@@ -139,6 +161,37 @@ test("种子译文在清单里，原文链接和中文正文可读", async () =>
   assert.doesNotMatch(essay.html, /OpenCLI/);
 });
 
+test("精选活动实录在清单里，只归精选，正文可读且没有采集说明", async () => {
+  const feed = await getEssaysFeed(catalogFile);
+  const item = feed.items.find((entry) => entry.id === "agi-house-rsi-202609");
+  assert.ok(item);
+  assert.equal(item.kind, "curated");
+  assert.equal(item.category, "curated");
+  assert.equal(item.kind_label, "精选");
+  assert.notEqual(item.kind, "translation");
+  assert.notEqual(item.kind, "original");
+  assert.equal(item.capture_status, "full");
+  assert.equal(item.published_at, "2026-09-21");
+  assert.equal(item.source_url, "https://mp.weixin.qq.com/s/iCDqmppdhos-Q5vfRzQtIw");
+  assert.equal(item.title_zh, "AGI HOUSE 硬核连线 ｜ RSI定义，评估，实践与未来演进");
+  assert.equal(item.author, "AGI House Asia");
+  assert.ok(item.summary_zh.split("。").filter(Boolean).length >= 2);
+  assert.ok(item.summary_zh.split("。").filter(Boolean).length <= 4);
+  assert.match(item.body_zh, /^# AGI HOUSE 硬核连线 ｜ RSI定义，评估，实践与未来演进/);
+  assert.match(item.body_zh, /来源：https:\/\/mp\.weixin\.qq\.com\/s\/iCDqmppdhos-Q5vfRzQtIw/);
+  assert.match(item.body_zh, /RSI 和 RL 本质其实不一样/);
+  assert.match(item.body_zh, /周煊赫：RSI 最终还是要落回模型上/);
+  assert.match(item.body_zh, /解锁独家闭门复盘资料与行业前沿洞察/);
+  assert.doesNotMatch(item.body_zh, /OpenCLI/);
+
+  const essay = await getEssay("agi-house-rsi-202609", dirname(catalogFile));
+  assert.match(essay.html, /<h2>AGI HOUSE 硬核连线 ｜ RSI定义，评估，实践与未来演进<\/h2>/);
+  assert.match(essay.html, /9月19日/);
+  assert.match(essay.html, /姚顺宇/);
+  assert.match(essay.html, /施天麟/);
+  assert.doesNotMatch(essay.html, /OpenCLI|抓取过程/);
+});
+
 test("导航有文章 Tab，列表能按译文和我的文章筛选，详情链到原文", async () => {
   const nav = await readFile(new URL("../src/components/SiteNav.astro", import.meta.url), "utf8");
   const page = await readFile(new URL("../src/pages/essays/index.astro", import.meta.url), "utf8");
@@ -152,6 +205,8 @@ test("导航有文章 Tab，列表能按译文和我的文章筛选，详情链�
   assert.match(page, /essayKindFilters/);
   assert.match(lib, /译文/);
   assert.match(lib, /我的文章/);
+  assert.match(lib, /精选/);
+  assert.match(page, /译文、精选与原创/);
   assert.match(detail, /article_url/);
   assert.match(detail, /essay-prose/);
   assert.doesNotMatch(detail, /OpenCLI|抓取|采集/);
@@ -179,4 +234,17 @@ test("构建产物能打开种子译文，原文链接还在", async (t) => {
   assert.match(detail, /https:\/\/x.com\/trq212\/status\/2103576349499855160/);
   assert.match(detail, /https:\/\/x.com\/i\/article\/2103535187426709504/);
   assert.match(detail, /但不是每件事都需要这一档/);
+  assert.match(list, /AGI HOUSE 硬核连线/);
+  assert.match(list, /data-kind="curated"/);
+  assert.match(list, /data-kind-filter="curated"/);
+  assert.match(list, /href="\/essays\/agi-house-rsi-202609\/"/);
+  const curatedFile = new URL("../dist/essays/agi-house-rsi-202609/index.html", import.meta.url);
+  const curated = await readFile(curatedFile, "utf8");
+  assert.match(curated, /AGI HOUSE 硬核连线/);
+  assert.match(curated, /https:\/\/mp.weixin.qq.com\/s\/iCDqmppdhos-Q5vfRzQtIw/);
+  assert.match(curated, /RSI 和 RL 本质其实不一样/);
+  assert.match(curated, /精选收录的中文原文/);
+  assert.match(curated, /来源：https:\/\/mp\.weixin\.qq\.com\/s\/iCDqmppdhos-Q5vfRzQtIw/);
+  assert.match(curated, /解锁独家闭门复盘资料与行业前沿洞察/);
+  assert.doesNotMatch(curated, /这是中文译文|OpenCLI/);
 });

@@ -15,6 +15,11 @@ if (!essay) {
 }
 
 const originalUrl = essay.article_url || essay.source_url;
+const kindNote = essay.kind === "original"
+  ? "这是我自己写的文章。"
+  : essay.kind === "curated"
+    ? "这是精选收录的中文原文。文中提到的图在原文页面。"
+    : "这是中文译文。文中提到的图在原文页面。";
 ---
 
 <html lang="zh-CN">
@@ -42,8 +47,9 @@ const originalUrl = essay.article_url || essay.source_url;
             {essay.capture_status === "partial" && <span class="status occasional">正文未收全</span>}
           </p>
           <p class="essay-meta essay-source-links">
-            {essay.source_url && <a href={essay.source_url} rel="noopener noreferrer">原帖</a>}
+            {essay.article_url && essay.source_url && <a href={essay.source_url} rel="noopener noreferrer">原帖</a>}
             {essay.article_url && <a href={essay.article_url} rel="noopener noreferrer">原文长文</a>}
+            {!essay.article_url && essay.source_url && <a href={essay.source_url} rel="noopener noreferrer">原文</a>}
             {essay.blog_url && <a href={essay.blog_url} rel="noopener noreferrer">互动版</a>}
           </p>
         </div>
@@ -72,7 +78,7 @@ const originalUrl = essay.article_url || essay.source_url;
     </div>
     <footer class="site-footer">
       <p>
-        <strong>说明</strong>：这是中文译文。文中提到的图在原文页面。
+        <strong>说明</strong>：{kindNote}
         {originalUrl && <>原文：<a href={originalUrl} rel="noopener noreferrer">{originalUrl}</a></>}
       </p>
     </footer>
