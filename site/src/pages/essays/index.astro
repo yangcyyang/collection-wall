@@ -57,15 +57,18 @@ const filters = essayKindFilters(essays);
                 <div class="card-content">
                   <div class="card-meta">
                     <span class="category">{item.kind_label}</span>
-                    {item.capture_status === "partial" && <span class="status occasional">抓取不完整</span>}
+                    {item.capture_status === "partial" && <span class="status occasional">正文未收全</span>}
                     {item.published_at && <time datetime={item.published_at}>{item.published_at}</time>}
                   </div>
                   <h3><a href={`/essays/${item.id}/`}>{item.title}</a></h3>
                   {item.title_en && <p class="essay-title-en">{item.title_en}</p>}
                   <p class="essay-summary">{item.summary || "打开阅读全文"}</p>
                   <p class="essay-byline">
-                    {item.author || "未署名"}
-                    {item.author_handle && <span> · @{item.author_handle}</span>}
+                    {item.author_handle ? (
+                      <a href={`https://x.com/${item.author_handle}`} rel="noopener noreferrer">{item.author || `@${item.author_handle}`}</a>
+                    ) : (
+                      item.author || "未署名"
+                    )}
                   </p>
                   <div class="essay-card-links">
                     <a class="tweet-link" href={`/essays/${item.id}/`}>阅读</a>
@@ -81,7 +84,7 @@ const filters = essayKindFilters(essays);
     </div>
     <footer class="site-footer">
       <p>
-        <strong>数据来源说明</strong>：清单在 data/essays/index.json，正文是同目录的 markdown。译文保留原文链接。本页需要登录，和知识总结、思维方法一样。
+        <strong>说明</strong>：这里放外文长文的中文译文，以及我自己写的文章。译文保留原文链接。本页需要登录，和知识总结、思维方法一样。
       </p>
     </footer>
     <script>

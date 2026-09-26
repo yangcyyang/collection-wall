@@ -33,17 +33,18 @@ const originalUrl = essay.article_url || essay.source_url;
           <h1>{essay.title}</h1>
           {essay.title_en && <p class="intro">{essay.title_en}</p>}
           <p class="essay-meta">
-            {essay.author || "未署名"}
-            {essay.author_handle && (
-              <a href={`https://x.com/${essay.author_handle}`} rel="noopener noreferrer">{" · @"}{essay.author_handle}</a>
+            {essay.author_handle ? (
+              <a href={`https://x.com/${essay.author_handle}`} rel="noopener noreferrer">{essay.author || `@${essay.author_handle}`}</a>
+            ) : (
+              essay.author || "未署名"
             )}
             {essay.published_at && <time datetime={essay.published_at}>{essay.published_at}</time>}
-            {essay.capture_status === "partial" && <span class="status occasional">抓取不完整</span>}
+            {essay.capture_status === "partial" && <span class="status occasional">正文未收全</span>}
           </p>
           <p class="essay-meta essay-source-links">
             {essay.source_url && <a href={essay.source_url} rel="noopener noreferrer">原帖</a>}
             {essay.article_url && <a href={essay.article_url} rel="noopener noreferrer">原文长文</a>}
-            {essay.blog_url && <a href={essay.blog_url} rel="noopener noreferrer">作者博客</a>}
+            {essay.blog_url && <a href={essay.blog_url} rel="noopener noreferrer">互动版</a>}
           </p>
         </div>
         <div class="header-stats">
@@ -56,7 +57,7 @@ const originalUrl = essay.article_url || essay.source_url;
 
       <main id="essay-body">
         {essay.capture_status === "partial" && (
-          <p class="essay-partial">这篇还没有抓到全文，下面是现有摘要。原文链接仍可打开。</p>
+          <p class="essay-partial">这篇正文还不完整，下面是现有内容。原文仍可打开。</p>
         )}
         {essay.html ? (
           <article class="essay-prose" set:html={essay.html} />
@@ -71,7 +72,7 @@ const originalUrl = essay.article_url || essay.source_url;
     </div>
     <footer class="site-footer">
       <p>
-        <strong>数据来源说明</strong>：正文来自 data/essays/{essay.body_file}。译文是中文转写，配图仍在原文。
+        <strong>说明</strong>：这是中文译文。文中提到的图在原文页面。
         {originalUrl && <>原文：<a href={originalUrl} rel="noopener noreferrer">{originalUrl}</a></>}
       </p>
     </footer>

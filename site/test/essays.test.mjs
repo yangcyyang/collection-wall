@@ -114,20 +114,29 @@ test("种子译文在清单里，原文链接和中文正文可读", async () =>
   const item = feed.items.find((entry) => entry.id === "spending-your-effort");
   assert.ok(item);
   assert.equal(item.kind, "translation");
+  assert.equal(item.category, "translation");
   assert.equal(item.capture_status, "full");
-  assert.equal(item.author, "Thariq");
+  assert.equal(item.author, "Thariq (@trq212)");
   assert.equal(item.author_handle, "trq212");
+  assert.equal(item.published_at, "2026-09-25");
+  assert.equal(item.title_zh, item.title);
+  assert.equal(item.title_en, "Using Claude Code: Spending your effort");
   assert.equal(item.article_url, "https://x.com/i/article/2103535187426709504");
   assert.equal(item.source_url, "https://x.com/trq212/status/2103576349499855160");
-  assert.match(item.title, /推理努力/);
+  assert.match(item.title_zh, /effort/);
+  assert.ok(item.summary_zh.split("。").filter(Boolean).length >= 2);
+  assert.match(item.body_zh, /# effort 是什么/);
 
   const essay = await getEssay("spending-your-effort", dirname(catalogFile));
   assert.match(essay.html, /effort 到底是什么/);
-  assert.match(essay.html, /不必事事都需要这一档|但不是每件事都需要这一档/);
+  assert.match(essay.html, /但不是每件事都需要这一档/);
   assert.match(essay.html, /href="https:\/\/github.com\/harbor-framework\/terminal-bench\/releases\/tag\/v3.0.0"/);
-  assert.match(essay.html, /低档/);
-  assert.match(essay.html, /最大档/);
+  assert.match(essay.html, /<h2>effort 是什么？<\/h2>/);
+  assert.match(essay.html, /<h3>小结<\/h3>/);
+  assert.match(essay.html, /Low/);
+  assert.match(essay.html, /Max/);
   assert.doesNotMatch(essay.html, /<script>/);
+  assert.doesNotMatch(essay.html, /OpenCLI/);
 });
 
 test("导航有文章 Tab，列表能按译文和我的文章筛选，详情链到原文", async () => {
@@ -145,6 +154,7 @@ test("导航有文章 Tab，列表能按译文和我的文章筛选，详情链�
   assert.match(lib, /我的文章/);
   assert.match(detail, /article_url/);
   assert.match(detail, /essay-prose/);
+  assert.doesNotMatch(detail, /OpenCLI|抓取|采集/);
   assert.match(login, /文章/);
 });
 
@@ -160,12 +170,12 @@ test("构建产物能打开种子译文，原文链接还在", async (t) => {
     t.skip("尚未执行 site build");
     return;
   }
-  assert.match(list, /推理努力到底是什么/);
+  assert.match(list, /把 effort 花在该花的地方/);
   assert.match(list, /href="\/essays\/spending-your-effort\/"/);
   assert.match(list, /https:\/\/x.com\/i\/article\/2103535187426709504/);
   assert.match(list, /data-kind="translation"/);
   assert.match(list, /data-kind-filter="original"/);
-  assert.match(detail, /推理努力到底是什么/);
+  assert.match(detail, /把 effort 花在该花的地方/);
   assert.match(detail, /https:\/\/x.com\/trq212\/status\/2103576349499855160/);
   assert.match(detail, /https:\/\/x.com\/i\/article\/2103535187426709504/);
   assert.match(detail, /但不是每件事都需要这一档/);

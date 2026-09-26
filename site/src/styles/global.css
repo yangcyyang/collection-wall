@@ -337,6 +337,8 @@ body.radar-viewer-open { overflow: hidden; }
 .essay-card .card-content > p { -webkit-line-clamp: unset; display: block; min-height: 0; overflow: visible; }
 .essay-card .card-content > p.essay-summary { color: var(--color-text-secondary); display: -webkit-box; font-size: var(--font-size-caption); -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; }
 .essay-title-en, .essay-byline, .essay-meta { color: var(--color-text-secondary); font-size: var(--font-size-caption); }
+.essay-byline a { color: var(--color-brand); text-decoration: none; }
+.essay-byline a:hover { text-decoration: underline; }
 .essay-card-links { display: flex; flex-wrap: wrap; gap: var(--spacing-md); margin-top: var(--spacing-sm); }
 .essay-card .tweet-link { margin-left: 0; }
 .essay-meta { display: flex; flex-wrap: wrap; gap: var(--spacing-sm); margin: var(--spacing-sm) 0 0; }

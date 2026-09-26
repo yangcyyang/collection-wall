@@ -40,26 +40,46 @@ export function essayKindLabel(kind) {
   return KIND_LABEL[kind] ?? "";
 }
 
+function essayKind(raw) {
+  const value = text(raw.category) || text(raw.kind);
+  if (value === "translation" || value === "译文") return "translation";
+  if (value === "original" || value === "我的文章") return "original";
+  return "";
+}
+
+function authorHandle(raw) {
+  const explicit = text(raw.author_handle).replace(/^@/, "");
+  if (explicit) return explicit;
+  const match = /@([A-Za-z0-9_]+)/.exec(text(raw.author));
+  return match?.[1] ?? "";
+}
+
 export function normalizeEssay(raw) {
   if (!raw || typeof raw !== "object") return null;
   const id = text(raw.id);
-  const title = text(raw.title);
-  const kind = raw.kind === "translation" || raw.kind === "original" ? raw.kind : "";
+  const title = text(raw.title_zh) || text(raw.title);
+  const kind = essayKind(raw);
   if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(id) || !title || !kind) return null;
+  const summary = text(raw.summary_zh) || text(raw.summary);
+  const bodyZh = typeof raw.body_zh === "string" ? raw.body_zh.trim() : "";
   return {
     id,
     kind,
+    category: kind,
     kind_label: essayKindLabel(kind),
     title,
+    title_zh: title,
     title_en: text(raw.title_en),
     author: text(raw.author),
-    author_handle: text(raw.author_handle).replace(/^@/, ""),
+    author_handle: authorHandle(raw),
     published_at: text(raw.published_at),
     source_url: httpUrl(raw.source_url),
     article_url: httpUrl(raw.article_url),
     blog_url: httpUrl(raw.blog_url),
-    summary: text(raw.summary),
+    summary,
+    summary_zh: summary,
     body_file: safeBodyFile(raw.body_file, id),
+    body_zh: bodyZh,
     capture_status: raw.capture_status === "partial" ? "partial" : "full",
   };
 }
@@ -151,7 +171,7 @@ export function renderEssayMarkdown(markdown) {
     }
     const heading = /^(#{1,3}) (.+)$/.exec(line);
     if (heading) {
-      const level = heading[1].length >= 3 ? 3 : 2;
+      const level = Math.min(heading[1].length + 1, 3);
       html.push(`<h${level}>${renderInline(heading[2])}</h${level}>`);
       index += 1;
       continue;
@@ -199,7 +219,7 @@ export async function getEssay(id, target = essaysDirectory) {
   const feed = await getEssaysFeed(target);
   const item = feed.items.find((entry) => entry.id === id);
   if (!item) return null;
-  const markdown = await readBody(catalogDirectory(target), item.body_file);
+  const markdown = item.body_zh || await readBody(catalogDirectory(target), item.body_file);
   return {
     ...item,
     markdown,
