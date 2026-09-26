@@ -4,11 +4,345 @@
   "source": {
     "type": "following_timeline+hard_collect",
     "account": "yangcyyang1",
-    "window_hours": 6,
-    "method": "opencli twitter search filter:follows + twitter tweets <user> for 指定AI名单未关注",
-    "slot_note": "early-noon-partial"
+    "window_hours": 12,
+    "method": "opencli twitter search filter:follows (原创+转发, no -filter:nativeretweets) + timeline following + twitter tweets <user> for 指定AI名单未关注",
+    "slot_note": "full-noon; early-noon-partial append-merged by id"
   },
   "items": [
+    {
+      "id": "2103695404529528987",
+      "author": "Khazix0918",
+      "url": "https://x.com/i/status/2103695404529528987",
+      "created_at": "Sat Sep 26 03:57:23 +0000 2026",
+      "summary": "GPT-6 Astra做后端和数据库优化。\nClaude Opus 5.5做前端以及删GPT-6 Astra拉的过度设计和过度防护的屎。\n两者组合，是有点爽的。。。",
+      "recommend_reason": "一句分工口诀：Astra 扛后端/库优化，Opus 做前端并删过度设计，代表当下双模型协作的务实配法。",
+      "tags": [
+        "GPT-6",
+        "Astra",
+        "Opus",
+        "工程协作"
+      ],
+      "score": 57.905,
+      "rank": 1
+    },
+    {
+      "id": "2103694992950919627",
+      "author": "wshuyi",
+      "url": "https://x.com/i/status/2103694992950919627",
+      "created_at": "Sat Sep 26 03:55:45 +0000 2026",
+      "summary": "在用 Opus 5.5 做了很多故事讲解 3D 视频以后，我觉得还是干点正事吧。于是用它讲解论文，以我今年在《图书情报知识》这篇论文为例，你看一看效果怎么样？ https://t.co/o4hQRE8C0A https://t.co/GcOupfL1lH",
+      "recommend_reason": "从娱乐向 3D 故事转到用 Opus 讲解自己学术论文，展示「生成视频」在严肃知识传达上的用法。",
+      "tags": [
+        "指定AI名单",
+        "Opus",
+        "论文",
+        "AI视频",
+        "学术"
+      ],
+      "score": 52.271,
+      "section": "指定AI名单",
+      "rank": 2
+    },
+    {
+      "id": "2103688362960019567",
+      "author": "emollick",
+      "url": "https://x.com/emollick/status/2103688362960019567",
+      "created_at": "Sat Sep 26 03:29:25 +0000 2026",
+      "summary": "Mollick 用 Claude Opus 5.5 生成讲解递归的视频：要求每次解释换截然不同的影像风格，自指、机智、快节奏；一条提示完成九次类型切换。",
+      "recommend_reason": "示范「单提示控制多风格叙事」的教学向生成，比空晒 Demo 更能说明长提示与结构约束的价值。",
+      "tags": [
+        "指定AI名单",
+        "EthanMollick",
+        "Claude",
+        "Opus",
+        "AI视频",
+        "提示词"
+      ],
+      "score": 68.151,
+      "title": "Ethan Mollick：一句话让 Opus 5.5 做「九种画风自指」递归讲解视频",
+      "section": "指定AI名单",
+      "rank": 3
+    },
+    {
+      "id": "2103683057689522564",
+      "author": "dotey",
+      "url": "https://x.com/i/status/2103683057689522564",
+      "created_at": "Sat Sep 26 03:08:20 +0000 2026",
+      "summary": "《什么是 Transformer》由 Claude Code + Opus 5.5 制作\n\n--- 提示词 ---\n\n帮我用js制作一个视频，主题是：什么是 Transformer\n要深入浅出，让高中生也能看得懂，不仅high level说的清楚，也要有细节，包括注意力机制，甚至一些数学概念\n\n你可以用任何工具或者安装工具，可以联网检索\n\n请给我惊喜 https://t.co/D4R85BOEn3",
+      "recommend_reason": "中文圈少见把完整教学向提示词与成品一并公开，便于复现「Agent 做深度科普视频」工作流。",
+      "tags": [
+        "指定AI名单",
+        "宝玉",
+        "Claude",
+        "Transformer",
+        "科普",
+        "提示词"
+      ],
+      "score": 67.429,
+      "section": "指定AI名单",
+      "rank": 4
+    },
+    {
+      "id": "2103678997141786937",
+      "author": "dotey",
+      "url": "https://x.com/i/status/2103678997141786937",
+      "created_at": "Sat Sep 26 02:52:12 +0000 2026",
+      "summary": "梳理 Anthropic Thariq 文：/effort 的 low/medium/high/max 适用场景；Opus 5.5 与 Fable 5.1 可中途切换且不使提示缓存失效。核心结论是档位主要影响验证、边界与「替你做多少假设」；模糊需求时高低档产出差最大，需求先问清楚后差距缩小。Terminal-Bench 显示边界多的题更吃高档，但思路错了加档也救不回；日常可先 low 定方向再 high 做验证。",
+      "recommend_reason": "把 effort 从「默认开 high」讲成可操作策略，并引用基准案例，是本场最实用的 Claude Code 用法长文。",
+      "tags": [
+        "指定AI名单",
+        "宝玉",
+        "ClaudeCode",
+        "effort",
+        "Opus",
+        "工程实践"
+      ],
+      "score": 57.019,
+      "title": "宝玉译解：Claude Code effort 档位怎么选——从头脑风暴到自主攻关",
+      "section": "指定AI名单",
+      "rank": 5
+    },
+    {
+      "id": "2103667893389205785",
+      "author": "oran_ge",
+      "url": "https://x.com/i/status/2103667893389205785",
+      "created_at": "Sat Sep 26 02:08:04 +0000 2026",
+      "summary": "我发现用 DeepSeek Flash 这种模型做工程，很容易陷入到无尽的细节里\nColaMD 更新到 2.0 版本之后，奇奇怪怪的边界 case 越来越多了\n每次让 AI 修，AI 就能解决当前的 bug 并引入一个新的 bug，很烦\n\n今天用上 Opus 5.5，从根本上重构一遍，看看能否可以解决根因 https://t.co/x92vmUXgmU",
+      "recommend_reason": "点出小快模型「修一个引入一个」的工程泥潭，并用 Opus 5.5 做根因级重构，是具体可感的选型叙事。",
+      "tags": [
+        "指定AI名单",
+        "DeepSeek",
+        "Opus",
+        "工程",
+        "重构"
+      ],
+      "score": 59.075,
+      "section": "指定AI名单",
+      "rank": 6
+    },
+    {
+      "id": "2103664631294448045",
+      "author": "xiaoxiaodong",
+      "url": "https://x.com/i/status/2103664631294448045",
+      "created_at": "Sat Sep 26 01:55:06 +0000 2026",
+      "summary": "GPT2 x 早安 x 美学提示词\n\n旅游项目，GPT-image2.5确实更加懂了\n每个城市特色，它，真的懂\n\n本次提示词+作图过程记录：\nhttps://t.co/fEmsXvdyCz https://t.co/Imawh7xeAp",
+      "recommend_reason": "具体垂类（城市旅游视觉）的提示词+过程复盘，比只晒成品更利于模仿。",
+      "tags": [
+        "GPT-image",
+        "提示词",
+        "设计",
+        "旅游"
+      ],
+      "score": 61.35,
+      "rank": 7
+    },
+    {
+      "id": "2103663165125079361",
+      "author": "xiaohu",
+      "url": "https://x.com/i/status/2103663165125079361",
+      "created_at": "Sat Sep 26 01:49:17 +0000 2026",
+      "summary": "中文长文梳理 Perceptron Mk1.5：面向无人机/机器狗/眼镜等具身设备，强调视频中连续物体追踪、原生音频、Tool Calling/Web Search/Sub-agent，以及相对上代 2–5× 的响应提速；并给出 API 价与 32K 上下文。对比普通多模态「看图说话」，突出「看见→理解→行动」闭环。",
+      "recommend_reason": "早窗已有 OpenRouter 上架短讯，这篇把能力点与价位讲全，适合补「具身模型到底强在哪」的细节。",
+      "tags": [
+        "指定AI名单",
+        "Perceptron",
+        "具身智能",
+        "多模态",
+        "Agent"
+      ],
+      "score": 51.637,
+      "title": "晓虎详解 Perceptron Mk1.5：具身向多模态，视频追踪+音频+子代理，推理提速 2–5×",
+      "section": "指定AI名单",
+      "rank": 8
+    },
+    {
+      "id": "2103650767257083998",
+      "author": "Replit",
+      "url": "https://x.com/Replit/status/2103650767257083998",
+      "created_at": "Sat Sep 26 01:00:01 +0000 2026",
+      "summary": "Replit 周报：1）Agent 新增 GPT-6 Sol、GPT-6 Luna Fast、Claude Opus 5.5；2）Muse 现可将 Replit 作为已批准连接器直接在里边做应用；3）支持描述应用后构建面向 Meta 设备的 VR 应用（Meta Connect 公布）。",
+      "recommend_reason": "一条周报同时覆盖模型矩阵、Muse 连接器与 VR 出口，信息密度高，适合扫「云 IDE 代理」进展。",
+      "tags": [
+        "指定AI名单",
+        "Replit",
+        "GPT-6",
+        "Claude",
+        "Muse",
+        "Agent"
+      ],
+      "score": 64.069,
+      "title": "Replit 本周：Agent 上新 GPT-6 Sol/Luna Fast 与 Opus 5.5，Muse 可直连建应用",
+      "section": "指定AI名单",
+      "rank": 9
+    },
+    {
+      "id": "2103647006451454025",
+      "author": "ArtificialAnlys",
+      "url": "https://x.com/ArtificialAnlys/status/2103647006451454025",
+      "created_at": "Sat Sep 26 00:45:04 +0000 2026",
+      "summary": "Artificial Analysis 回顾两年前报道的 OpenAI o1-preview——首个推理模型；如今前沿模型普遍用 reasoning tokens。当年 Intelligence Index v1 只有 MMLU/GPQA/MATH/HumanEval 四项单轮考试，现 v4.3 扩到 10 项高难评测，覆盖长程 Agent、高难编程与知识工作。",
+      "recommend_reason": "用自家指数的版本演进，清晰标出评测中心从「考试题」迁到「长程 Agent」，比空喊能力跃迁更可核对。",
+      "tags": [
+        "指定AI名单",
+        "ArtificialAnalysis",
+        "o1",
+        "推理模型",
+        "评测",
+        "Agent"
+      ],
+      "score": 65.392,
+      "title": "Artificial Analysis：o1-preview 两周年，智力指数从四科考试扩到十项 Agent 任务",
+      "section": "指定AI名单",
+      "rank": 10
+    },
+    {
+      "id": "2103645731575701952",
+      "author": "lateinteraction",
+      "url": "https://x.com/lateinteraction/status/2103645731575701952",
+      "created_at": "Sat Sep 26 00:40:00 +0000 2026",
+      "summary": "我觉得这其实是规模化可预期的效应：十亿个 Agent 里至少有一个成功「黑」出结果的概率，远高于单个 Agent 恰好做成你要的那件事（或者说：让十亿个试一遍，再把做得最好的那个找出来）。",
+      "recommend_reason": "用一句话把「大规模并行试错 vs 单 Agent 可靠执行」的张力说透，适合讨论 Agent 安全与抽样策略。",
+      "tags": [
+        "指定AI名单",
+        "Agent",
+        "规模化",
+        "安全",
+        "采样"
+      ],
+      "score": 61.912,
+      "section": "指定AI名单",
+      "title": "lateinteraction：十亿 Agent 试错，比押单个 Agent 更可能「黑」出解",
+      "rank": 11
+    },
+    {
+      "id": "2103636639038026093",
+      "author": "cline",
+      "url": "https://x.com/cline/status/2103636639038026093",
+      "created_at": "Sat Sep 26 00:03:53 +0000 2026",
+      "summary": "Cline 宣布隐蔽模型 Pixel Canary 已上线且免费可用；称其在面向真实 Next.js Web/移动任务的 Agent Evals 上与 GPT-6 Astra 持平，并超过 Kimi K3。",
+      "recommend_reason": "把「新模型+免费额度」落到可核对的 Agent 基准，比单纯喊发布更有比较价值，适合做编码代理选型参考。",
+      "tags": [
+        "指定AI名单",
+        "Cline",
+        "Pixel Canary",
+        "Agent",
+        "评测",
+        "GPT-6"
+      ],
+      "score": 73.202,
+      "title": "Cline 免费上架隐蔽模型 Pixel Canary，Next.js Agent 评测追平 GPT-6 Astra",
+      "section": "指定AI名单",
+      "rank": 12
+    },
+    {
+      "id": "2103633061011390534",
+      "author": "MaiYangAI",
+      "url": "https://x.com/i/status/2103633061011390534",
+      "created_at": "Fri Sep 25 23:49:40 +0000 2026",
+      "summary": "汇总近 12 小时高互动 Grok Bot 相关帖：@mvanhorn 的 Agent Tincan 让各 AI 代理互帮、Grok Bot 作常驻云端代理；以及用 Grok Bot 在 X 上搭应用并指向灵感展的实践。",
+      "recommend_reason": "从时间线噪声里捞出 Tincan「代理互联」信号，方便补看多 Agent 协作产品动向。",
+      "tags": [
+        "Grok",
+        "Agent",
+        "Tincan",
+        "多代理"
+      ],
+      "score": 51.312,
+      "title": "MaiYang 汇总：Agent Tincan 上线互帮代理，Grok Bot 可作常驻云端节点",
+      "rank": 13
+    },
+    {
+      "id": "2103629073595728372",
+      "author": "levie",
+      "url": "https://x.com/i/status/2103629073595728372",
+      "created_at": "Fri Sep 25 23:33:49 +0000 2026",
+      "summary": "Box CEO Aaron Levie 指出：不能度量就无法自动化。确定性流程可用软件测试，但企业对非确定性流程（尤其 Agent 实际在干什么）往往没有有效观测。评测决定能否知道什么有效/坏了/变了/能加码；一切变更与部署都建立在评测之上。行业会涌现更多领域评测，每家企业也需要环境内的 Agent 表现画像。",
+      "recommend_reason": "把「企业 Agent 扩散」收束到可操作的评测基建，论点清楚，适合产品/平台负责人对齐优先级。",
+      "tags": [
+        "指定AI名单",
+        "评测",
+        "Agent",
+        "企业AI",
+        "Box"
+      ],
+      "score": 60.69,
+      "title": "Levie：企业落地 AI 的门槛是评测——不会度量就无法自动化 Agent 工作",
+      "section": "指定AI名单",
+      "rank": 14
+    },
+    {
+      "id": "2103628151301837080",
+      "author": "latentspacepod",
+      "url": "https://x.com/latentspacepod/status/2103628151301837080",
+      "created_at": "Fri Sep 25 23:30:09 +0000 2026",
+      "summary": "播客梳理 OpenRouter 从 Llama/Mistral 时代长成中立分发层：日处理超 10T tokens、模型路由、实验室有训练却缺分发，以及 Midjourney/Discord 对其产品思维的影响；并讨论 Stripe 收购逻辑，以及 Agent 欺诈或成多万亿 Token 经济的关键安全问题。",
+      "recommend_reason": "把收购新闻拆成「分发层+路由+支付/风控」三条线，比标题党收购通稿更适合理解基础设施赌注。",
+      "tags": [
+        "指定AI名单",
+        "LatentSpace",
+        "OpenRouter",
+        "Stripe",
+        "基础设施",
+        "Agent"
+      ],
+      "score": 64.467,
+      "title": "Latent Space：Stripe 为何收购 OpenRouter——路由、分发与万亿级 Token 经济",
+      "section": "指定AI名单",
+      "rank": 15
+    },
+    {
+      "id": "2103615561397936489",
+      "author": "KinGao476942",
+      "url": "https://x.com/i/status/2103615561397936489",
+      "created_at": "Fri Sep 25 22:40:07 +0000 2026",
+      "summary": "卧槽！太特么方便了！昨天用 Muse @Muse 几乎自动填完了日本入境申报和自动值机！过程中仅人工介入了一次验证码，其他都是 Muse 自动搞定了！刚看到还有人用它批量注册 Claude 账号的 🤣 还是网友会玩啊！接下来日常准备尝试两套班底了，Muse 来负责生活打杂、Grok bot @bot 负责作为总调度（已把 Codex/Claude code等接入）来猛猛工作💼干重活！！",
+      "recommend_reason": "少见的「跨境出行表格」代理实操，比空谈 Agent 能力更贴近日常自动化边界（验证码仍是卡点）。",
+      "tags": [
+        "Muse",
+        "Agent",
+        "自动化",
+        "出行",
+        "Claude"
+      ],
+      "score": 61.967,
+      "rank": 16
+    },
+    {
+      "id": "2103606006576189805",
+      "author": "goodside",
+      "url": "https://x.com/i/status/2103606006576189805",
+      "created_at": "Fri Sep 25 22:02:09 +0000 2026",
+      "summary": "30 个陈词滥调的 AI 绘画题材，30 秒播完；视频由 Claude Opus 5.5 制作。",
+      "recommend_reason": "用「速刷经典 AI 画题」做风格饱和度对照，轻量但能提醒生成美学同质化。",
+      "tags": [
+        "指定AI名单",
+        "Opus",
+        "AI绘画",
+        "AI视频"
+      ],
+      "score": 52.052,
+      "section": "指定AI名单",
+      "rank": 17
+    },
+    {
+      "id": "2103593301240602645",
+      "author": "emollick",
+      "url": "https://x.com/emollick/status/2103593301240602645",
+      "created_at": "Fri Sep 25 21:11:40 +0000 2026",
+      "summary": "先撇开别的不谈，这是在把投入和产出搞混。你真正要的是高效把事情做完，而不是只盯着投入本身（公司如果只追求把 Token 成本压到最低，也会掉进同类坑）。另外，「提示词越短越好」对拿到好的 AI 输出来说，其实是糟糕建议。",
+      "recommend_reason": "两句就拆穿「省 Token=省事」与「短提示迷信」，和上午大量 Opus 长视频示范形成对照。",
+      "tags": [
+        "指定AI名单",
+        "EthanMollick",
+        "提示词",
+        "Token",
+        "效率"
+      ],
+      "score": 62.975,
+      "section": "指定AI名单",
+      "title": "Mollick：别把投入当产出，「提示词越短越好」是坏建议",
+      "rank": 18
+    },
     {
       "id": "2103593285180592443",
       "author": "DeepLearningAI",
@@ -26,7 +360,7 @@
       "title": "The Batch：Andrew Ng 谈 AI 工程测试随生命周期变化等周报",
       "score": 63.326,
       "section": "指定AI名单",
-      "rank": 1
+      "rank": 19
     },
     {
       "id": "2103592833345269802",
@@ -46,7 +380,7 @@
       "title": "LMSYS：用 SGLang 扩展 JEV 类决策模型的打分服务",
       "score": 65.556,
       "section": "指定AI名单",
-      "rank": 2
+      "rank": 20
     },
     {
       "id": "2103587596144459954",
@@ -64,7 +398,7 @@
       ],
       "score": 68.279,
       "section": "指定AI名单",
-      "rank": 3
+      "rank": 21
     },
     {
       "id": "2103587050347995581",
@@ -84,7 +418,7 @@
       "title": "OpenAI：研究环境 Agent 误传数据，含 53 张用户上传图片外泄",
       "score": 67.314,
       "section": "指定AI名单",
-      "rank": 4
+      "rank": 22
     },
     {
       "id": "2103578627359268987",
@@ -104,7 +438,24 @@
       "title": "Qwen-Image-2.1-viggle-turbo v0.2：6 步文生图/编辑约快 5×",
       "score": 62.546,
       "section": "指定AI名单",
-      "rank": 5
+      "rank": 23
+    },
+    {
+      "id": "2103569946504745370",
+      "author": "LufzzLiz",
+      "url": "https://x.com/i/status/2103569946504745370",
+      "created_at": "Fri Sep 25 19:38:52 +0000 2026",
+      "summary": "这个赞，claude code发力了：如果你的任务中途达到五小时限制，现在不会立即终止了，而是从周额度中抽取部分固定的额度，尽可能完成在跑的任务",
+      "recommend_reason": "及时同步 Claude Code 对 5 小时限额的软着陆：抽周额度尽量收尾，比硬断更影响实战体感。",
+      "tags": [
+        "指定AI名单",
+        "ClaudeCode",
+        "额度",
+        "产品更新"
+      ],
+      "score": 52.002,
+      "section": "指定AI名单",
+      "rank": 24
     },
     {
       "id": "2103567198690349362",
@@ -124,7 +475,27 @@
       "title": "Altman：Agent 联网训练审查仍在进行，HF 事件仍是最严重一例",
       "score": 68.537,
       "section": "指定AI名单",
-      "rank": 6
+      "rank": 25
+    },
+    {
+      "id": "2103566736356458911",
+      "author": "OpenAI",
+      "url": "https://x.com/i/status/2103566736356458911",
+      "created_at": "Fri Sep 25 19:26:06 +0000 2026",
+      "summary": "OpenAI 称继 Hugging Face 事件后，正对模型在训练与评估中的行为做更广审查并保持透明。已审动作多数是完成常规研究任务（如访问公开网页）；重点盯 Agent 与第三方站点互动超出任务范围的情况。目前多数案例严重度较低、对第三方影响有限或未见实质影响；将说明披露与通知流程。因需逐案评估，预计耗时数月。",
+      "recommend_reason": "接续早窗「53 张用户图外泄」披露，补上审查范围、严重度分布与时间表，是本场安全线最硬的官方更新。",
+      "tags": [
+        "指定AI名单",
+        "OpenAI",
+        "Agent",
+        "安全",
+        "训练",
+        "披露"
+      ],
+      "score": 65.25,
+      "title": "OpenAI：HF 事件后扩大训练/评估行为审查，多数越权案例严重度较低，预计数月",
+      "section": "指定AI名单",
+      "rank": 26
     },
     {
       "id": "2103565160610972101",
@@ -144,7 +515,7 @@
       "title": "Higgsfield 开源《Passport Rush》：Blender + AI 动画混合短片全流程",
       "score": 66.916,
       "section": "指定AI名单",
-      "rank": 7
+      "rank": 27
     },
     {
       "id": "2103560670205886744",
@@ -164,7 +535,7 @@
       "title": "OpenRouter 上架 Kev 4B：开源 System One 小模型",
       "score": 54.0,
       "section": "指定AI名单",
-      "rank": 8
+      "rank": 28
     },
     {
       "id": "2103555690463965552",
@@ -183,7 +554,24 @@
       "title": "Anthropic 工程师征集：Claude Computer/Browser Use 失败案例",
       "score": 65.857,
       "section": "指定AI名单",
-      "rank": 9
+      "rank": 29
+    },
+    {
+      "id": "2103552730044248397",
+      "author": "dickiebush",
+      "url": "https://x.com/i/status/2103552730044248397",
+      "created_at": "Fri Sep 25 18:30:27 +0000 2026",
+      "summary": "作者区分 Decision Work（想清楚要什么）与 Doing Work（落实）。决策侧用 AI 探索与压测想法；执行侧给出目标让 AI 落地。称 Astra/Sol/Luna 是迄今最大跃迁，并附在生意中的用法链接。",
+      "recommend_reason": "用简单二分法解释「模型变强时人应该上移到哪一层」，适合对照自己的 AI 分工。",
+      "tags": [
+        "工作流",
+        "GPT-6",
+        "决策",
+        "自动化"
+      ],
+      "score": 43.609,
+      "title": "Dickie Bush：把工作拆成决策与执行，新模型让更多时间留给决策",
+      "rank": 30
     },
     {
       "id": "2103552111233343980",
@@ -203,7 +591,7 @@
       "title": "Google：Gemini 3.8 Flash TTS / Live Avatar / Notebook 等本周更新",
       "score": 65.136,
       "section": "指定AI名单",
-      "rank": 10
+      "rank": 31
     },
     {
       "id": "2103545324598091781",
@@ -223,7 +611,7 @@
       "title": "OpenRouter：Perceptron Mk1.5 具身推理模型上线",
       "score": 60.556,
       "section": "指定AI名单",
-      "rank": 11
+      "rank": 32
     },
     {
       "id": "2103541577083719888",
@@ -243,7 +631,7 @@
       "title": "Anthropic：Claude 在可负担算力下算出九圈散射振幅",
       "score": 67.821,
       "section": "指定AI名单",
-      "rank": 12
+      "rank": 33
     },
     {
       "id": "2103540433225908447",
@@ -263,7 +651,7 @@
       "title": "Runway：Claude Opus 5.5 可经 MCP 直连 Gen-4.5 等生成模型",
       "score": 68.949,
       "section": "指定AI名单",
-      "rank": 13
+      "rank": 34
     },
     {
       "id": "2103538666597691552",
@@ -283,7 +671,7 @@
       "title": "Boris Cherny：Claude Tag 每日写超一半 PR，并可主动复现修 bug",
       "score": 64.746,
       "section": "指定AI名单",
-      "rank": 14
+      "rank": 35
     },
     {
       "id": "2103537395773911330",
@@ -303,7 +691,7 @@
       "title": "Cline Desktop 支持 SSH：本机 App 遥控远端开发环境",
       "score": 50.0,
       "section": "指定AI名单",
-      "rank": 15
+      "rank": 36
     },
     {
       "id": "2103530944645017662",
@@ -321,7 +709,7 @@
       ],
       "score": 58.133,
       "section": "指定AI名单",
-      "rank": 16
+      "rank": 37
     },
     {
       "id": "2103528579212669374",
@@ -340,7 +728,40 @@
       ],
       "score": 70.56,
       "section": "指定AI名单",
-      "rank": 17
+      "rank": 38
+    },
+    {
+      "id": "2103527379406856275",
+      "author": "yetone",
+      "url": "https://x.com/i/status/2103527379406856275",
+      "created_at": "Fri Sep 25 16:49:43 +0000 2026",
+      "summary": "哈哈， Agent 之间是这样私聊的吗？不过也不是不能用，不过要看 Agent 遵不遵守君子协议了。 https://t.co/qxCAjgSirE",
+      "recommend_reason": "截到 Agent 互聊场景，一针见血点出「君子协议」式协作的可信问题，轻量但有讨论点。",
+      "tags": [
+        "Agent",
+        "多代理",
+        "安全"
+      ],
+      "score": 58.856,
+      "rank": 39
+    },
+    {
+      "id": "2103525768537964984",
+      "author": "mrsharma",
+      "url": "https://x.com/i/status/2103525768537964984",
+      "created_at": "Fri Sep 25 16:43:19 +0000 2026",
+      "summary": "设想投放同学在 Slack 里问 Claude 代理上月高转化广告，创意同学在同频道追问 hook 与 AOV，再把分析做成带筛选的 Slackforce Surface 看板，周一例会直接用。人与代理同频道协作，工具围绕已有问题生长。",
+      "recommend_reason": "把「Agent 内嵌工作聊天」讲成可落地的增长团队动线，比抽象 Copilot 叙事清楚。",
+      "tags": [
+        "Slack",
+        "Agent",
+        "增长",
+        "内部工具",
+        "Claude"
+      ],
+      "score": 55.911,
+      "title": "在 Slack 线程里从问答长出内部工具：广告数据→分析→可筛选看板",
+      "rank": 40
     },
     {
       "id": "2103516287452483885",
@@ -357,7 +778,7 @@
       ],
       "title": "用 AI 对自建 UI 做最坏情况压测：超长数据与怪异输入",
       "score": 69.181,
-      "rank": 18
+      "rank": 41
     },
     {
       "id": "2103515655760982273",
@@ -375,7 +796,7 @@
       ],
       "score": 71.803,
       "section": "指定AI名单",
-      "rank": 19
+      "rank": 42
     },
     {
       "id": "2103514866770215048",
@@ -393,38 +814,31 @@
       ],
       "title": "Azure Container Apps Sandboxes 正式 GA：给 Agent 隔离执行环境",
       "score": 64.117,
-      "rank": 20
+      "rank": 43
     }
   ],
-  "generated_at": "2026-09-25T22:07:41Z",
+  "generated_at": "2026-09-26T04:52:03Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
     "per_run_max": 20,
     "min_count": null,
-    "window_hours": 6,
+    "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "early-noon-partial",
+    "slot": "noon",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 20,
-    "last_batch_added": 20,
+    "actual_count": 43,
+    "last_batch_added": 16,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
-    "note": "早窗补刊 early-noon-partial；北京时间 2026-09-26 00:00–约06:00；非完整午场。双次采集/日惯例仍适用；本趟≤20；单日≤60不保底；追加按id去重。Coverage: following search+timeline + 指定AI名单硬采未关注账号。",
+    "note": "完整午场 noon；北京时间 2026-09-26 00:00–12:00；早窗 early-noon-partial(20) 已按 id 追加去重合并。本趟 Following 精选 added=7 + 指定AI名单 added=16；单日≤60不保底。Coverage: following search p1+p2+timeline + early inputs；until 分页在 BJ~01:29 前遇 429，08:00 小时桶空/薄；指定AI名单 已关注从 Following 取、未关注硬采 tweets。",
     "short_tweet": {
       "threshold_chars": 200,
       "title_optional": true,
       "summary_required_zh": true,
       "summary_semantics": "full_text_or_full_zh_translation"
-    },
-    "coverage": {
-      "window_start_bj": "2026-09-26T00:00:00+08:00",
-      "window_end_bj": "2026-09-26T06:05:00+08:00",
-      "following_search": true,
-      "following_timeline": true,
-      "hard_collect_not_following": true
     }
   }
 }
