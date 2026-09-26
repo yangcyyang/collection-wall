@@ -9,7 +9,7 @@ export {
   renderEssayMarkdown,
 } from "./essays.mjs";
 
-export type EssayKind = "translation" | "original";
+export type EssayKind = "translation" | "original" | "curated";
 
 export type EssayItem = {
   id: string;

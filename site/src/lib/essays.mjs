@@ -6,6 +6,7 @@ const essaysDirectory = resolve(process.cwd(), "../data/essays");
 export const ESSAY_KINDS = [
   { id: "translation", label: "译文" },
   { id: "original", label: "我的文章" },
+  { id: "curated", label: "精选" },
 ];
 
 const KIND_LABEL = Object.fromEntries(ESSAY_KINDS.map((kind) => [kind.id, kind.label]));
@@ -44,6 +45,7 @@ function essayKind(raw) {
   const value = text(raw.category) || text(raw.kind);
   if (value === "translation" || value === "译文") return "translation";
   if (value === "original" || value === "我的文章") return "original";
+  if (value === "curated" || value === "精选") return "curated";
   return "";
 }
 

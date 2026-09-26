@@ -13,7 +13,7 @@ const filters = essayKindFilters(essays);
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content={feed.description || "外文长文的中文译文，以及我自己写的文章"} />
+    <meta name="description" content={feed.description || "外文长文的中文译文、精选收录的中文原文，以及我自己写的文章"} />
     <title>文章 · 工具库</title>
   </head>
   <body>
@@ -21,9 +21,9 @@ const filters = essayKindFilters(essays);
     <div class="page-shell">
       <header class="site-header">
         <div>
-          <p class="eyebrow">译文与原创</p>
+          <p class="eyebrow">译文、精选与原创</p>
           <h1>文章</h1>
-          <p class="intro">{feed.description || "外文长文译成中文，也放我自己写的文章。"}</p>
+          <p class="intro">{feed.description || "外文长文译成中文，也放精选收录的中文原文，和我自己写的文章。"}</p>
         </div>
         <div class="header-stats">
           <p class="record-count" data-record-count data-total={essays.length}>{essays.length} 篇</p>
@@ -84,7 +84,7 @@ const filters = essayKindFilters(essays);
     </div>
     <footer class="site-footer">
       <p>
-        <strong>说明</strong>：这里放外文长文的中文译文，以及我自己写的文章。译文保留原文链接。本页需要登录，和知识总结、思维方法一样。
+        <strong>说明</strong>：这里放外文长文的中文译文、精选收录的中文原文，以及我自己写的文章。译文和精选都保留原文链接。本页需要登录，和知识总结、思维方法一样。
       </p>
     </footer>
     <script>
