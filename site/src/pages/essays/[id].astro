@@ -6,7 +6,7 @@ import { getEssay, getEssaysFeed } from "../../lib/essays";
 
 export async function getStaticPaths() {
   const feed = await getEssaysFeed();
-  return feed.items.map((item) => ({ params: { id: item.id } }));
+  return feed.items.filter((item) => !item.href).map((item) => ({ params: { id: item.id } }));
 }
 
 const essay = await getEssay(Astro.params.id);

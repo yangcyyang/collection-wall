@@ -2,6 +2,7 @@ export {
   ESSAY_KINDS,
   essayKindFilters,
   essayKindLabel,
+  essayReadHref,
   essaySearchBlob,
   getEssay,
   getEssaysFeed,
@@ -29,6 +30,7 @@ export type EssayItem = {
   summary_zh?: string;
   body_file: string;
   body_zh?: string;
+  href?: string;
   capture_status: "full" | "partial";
 };
 

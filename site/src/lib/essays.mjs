@@ -45,6 +45,14 @@ function safeBodyFile(value, id) {
   return /^[a-z0-9]+(?:-[a-z0-9]+)*\.md$/.test(name) ? name : `${id}.md`;
 }
 
+function staticEssayHref(raw, id) {
+  const url = text(raw.href);
+  if (!url) return "";
+  const canonical = `/essays/${id}/`;
+  if (url === canonical || url === `/essays/${id}` || url === `/essays/${id}/index.html`) return canonical;
+  return "";
+}
+
 export function essayKindLabel(kind) {
   return KIND_LABEL[kind] ?? "";
 }
@@ -90,8 +98,14 @@ export function normalizeEssay(raw) {
     summary_zh: summary,
     body_file: safeBodyFile(raw.body_file, id),
     body_zh: bodyZh,
+    href: staticEssayHref(raw, id),
     capture_status: raw.capture_status === "partial" ? "partial" : "full",
   };
+}
+
+export function essayReadHref(item) {
+  if (item?.href) return item.href;
+  return item?.id ? `/essays/${item.id}/` : "";
 }
 
 function asFeed(raw) {

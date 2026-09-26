@@ -2,9 +2,17 @@
   "source": "essays",
   "title": "文章",
   "description": "外文长文的中文译文、精选收录的中文原文，以及我自己写的文章。",
-  "updated_at": "2026-09-26T06:07:00Z",
+  "updated_at": "2026-09-26T16:50:00Z",
   "originals": [],
   "items": [
+    {
+      "id": "yue-yong-yue-congming",
+      "category": "original",
+      "title_zh": "越用越聪明",
+      "published_at": "2026-09-26",
+      "summary_zh": "一份自带配乐的互动演示，按章节走过开场、理智线、长活 Agent 和 AI 协作档案，最后看档案怎么守住理智线。封面即可播放，含配乐与音效，建议全屏。",
+      "href": "/essays/yue-yong-yue-congming/"
+    },
     {
       "id": "claude-ai-3x-faster",
       "category": "translation",
