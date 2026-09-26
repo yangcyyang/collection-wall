@@ -106,6 +106,7 @@ test("收藏墙与技能未带 cookie 时重定向到登录并带上返回地址
   assert.equal(isPublicPath("/linuxdo/"), false);
   assert.equal(isPublicPath("/zsxq/"), false);
   assert.equal(isPublicPath("/thinking/"), false);
+  assert.equal(isPublicPath("/essays/"), false);
   assert.equal(isPublicPath("/nvpusa/"), false);
   assert.equal(isPublicPath("/api/ask-ai"), false);
 
@@ -137,6 +138,14 @@ test("收藏墙与技能未带 cookie 时重定向到登录并带上返回地址
   const thinking = await dispatch("/thinking/");
   assert.equal(thinking.status, 302);
   assert.equal(thinking.headers.get("Location"), "https://wall.yangcyyang.cn/login/?next=%2Fthinking%2F");
+
+  const essays = await dispatch("/essays/");
+  assert.equal(essays.status, 302);
+  assert.equal(essays.headers.get("Location"), "https://wall.yangcyyang.cn/login/?next=%2Fessays%2F");
+
+  const essay = await dispatch("/essays/spending-your-effort/");
+  assert.equal(essay.status, 302);
+  assert.equal(essay.headers.get("Location"), "https://wall.yangcyyang.cn/login/?next=%2Fessays%2Fspending-your-effort%2F");
 
   const nvpusa = await dispatch("/nvpusa/");
   assert.equal(nvpusa.status, 302);
@@ -408,6 +417,8 @@ test("私有静态资源不能未登录直链绕过", async () => {
     "/covers/seed-01.jpg",
     "/skills/covers/mattpocock-skills.webp",
     "/knowledge/",
+    "/essays/",
+    "/essays/spending-your-effort/",
     "/prompts/",
     "/radar/",
     "/xianyu/",

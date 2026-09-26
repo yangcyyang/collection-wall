@@ -1,0 +1,128 @@
+---
+import "../../styles/global.css";
+import LogoutControl from "../../components/LogoutControl.astro";
+import SiteNav from "../../components/SiteNav.astro";
+import { essayKindFilters, essaySearchBlob, getEssaysFeed } from "../../lib/essays";
+
+const feed = await getEssaysFeed();
+const essays = feed.items;
+const filters = essayKindFilters(essays);
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={feed.description || "外文长文的中文译文，以及我自己写的文章"} />
+    <title>文章 · 工具库</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#essay-list">跳到列表</a>
+    <div class="page-shell">
+      <header class="site-header">
+        <div>
+          <p class="eyebrow">译文与原创</p>
+          <h1>文章</h1>
+          <p class="intro">{feed.description || "外文长文译成中文，也放我自己写的文章。"}</p>
+        </div>
+        <div class="header-stats">
+          <p class="record-count" data-record-count data-total={essays.length}>{essays.length} 篇</p>
+          <LogoutControl />
+        </div>
+      </header>
+
+      <SiteNav current="essays" />
+
+      {essays.length === 0 ? (
+        <main id="essay-list">
+          <section class="empty-state" aria-labelledby="empty-title">
+            <p class="empty-icon">✦</p>
+            <h2 id="empty-title">还没有文章</h2>
+            <p>把清单放到 data/essays/index.json，正文放到同目录的 markdown 后会出现在这里。</p>
+          </section>
+        </main>
+      ) : (
+        <>
+          <div class="tag-filter-row" aria-label="按文章类型筛选">
+            <button class="tag-filter is-selected" type="button" data-kind-filter="" aria-pressed="true">全部<em>{essays.length}</em></button>
+            {filters.map(({ id, label, count }) => (
+              <button class="tag-filter" type="button" data-kind-filter={id} aria-pressed="false">{label}<em>{count}</em></button>
+            ))}
+          </div>
+          <p class="prompt-empty-filter" data-filter-empty hidden>这一类还没有文章 <button type="button" data-clear-filters>看全部</button></p>
+
+          <main id="essay-list" class="tool-grid essay-grid" aria-label="文章列表">
+            {essays.map((item) => (
+              <article class="tool-card essay-card" data-essay data-kind={item.kind} data-search={essaySearchBlob(item)}>
+                <div class="card-content">
+                  <div class="card-meta">
+                    <span class="category">{item.kind_label}</span>
+                    {item.capture_status === "partial" && <span class="status occasional">抓取不完整</span>}
+                    {item.published_at && <time datetime={item.published_at}>{item.published_at}</time>}
+                  </div>
+                  <h3><a href={`/essays/${item.id}/`}>{item.title}</a></h3>
+                  {item.title_en && <p class="essay-title-en">{item.title_en}</p>}
+                  <p class="essay-summary">{item.summary || "打开阅读全文"}</p>
+                  <p class="essay-byline">
+                    {item.author || "未署名"}
+                    {item.author_handle && <span> · @{item.author_handle}</span>}
+                  </p>
+                  <div class="essay-card-links">
+                    <a class="tweet-link" href={`/essays/${item.id}/`}>阅读</a>
+                    {item.article_url && <a class="tweet-link" href={item.article_url} rel="noopener noreferrer">原文</a>}
+                    {!item.article_url && item.source_url && <a class="tweet-link" href={item.source_url} rel="noopener noreferrer">原文</a>}
+                  </div>
+                </div>
+              </article>
+            ))}
+          </main>
+        </>
+      )}
+    </div>
+    <footer class="site-footer">
+      <p>
+        <strong>数据来源说明</strong>：清单在 data/essays/index.json，正文是同目录的 markdown。译文保留原文链接。本页需要登录，和知识总结、思维方法一样。
+      </p>
+    </footer>
+    <script>
+      const kindButtons = document.querySelectorAll("[data-kind-filter]");
+      const cards = document.querySelectorAll("[data-essay]");
+      const countEl = document.querySelector("[data-record-count]");
+      const filterEmpty = document.querySelector("[data-filter-empty]");
+      let activeKind = "";
+
+      function refresh() {
+        let visible = 0;
+        cards.forEach((card) => {
+          const kind = card.getAttribute("data-kind") ?? "";
+          const hide = Boolean(activeKind) && kind !== activeKind;
+          card.hidden = hide;
+          if (!hide) visible += 1;
+        });
+        if (countEl) countEl.textContent = `${visible} 篇`;
+        if (filterEmpty) filterEmpty.hidden = visible !== 0;
+      }
+
+      kindButtons.forEach((button) => button.addEventListener("click", () => {
+        const next = button.getAttribute("data-kind-filter") ?? "";
+        activeKind = activeKind === next ? "" : next;
+        kindButtons.forEach((item) => {
+          const selected = (item.getAttribute("data-kind-filter") ?? "") === activeKind;
+          item.classList.toggle("is-selected", selected);
+          item.setAttribute("aria-pressed", selected ? "true" : "false");
+        });
+        refresh();
+      }));
+
+      document.querySelector("[data-clear-filters]")?.addEventListener("click", () => {
+        activeKind = "";
+        kindButtons.forEach((item) => {
+          const selected = (item.getAttribute("data-kind-filter") ?? "") === "";
+          item.classList.toggle("is-selected", selected);
+          item.setAttribute("aria-pressed", selected ? "true" : "false");
+        });
+        refresh();
+      });
+    </script>
+  </body>
+</html>

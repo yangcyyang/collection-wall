@@ -1,0 +1,79 @@
+---
+import "../../styles/global.css";
+import LogoutControl from "../../components/LogoutControl.astro";
+import SiteNav from "../../components/SiteNav.astro";
+import { getEssay, getEssaysFeed } from "../../lib/essays";
+
+export async function getStaticPaths() {
+  const feed = await getEssaysFeed();
+  return feed.items.map((item) => ({ params: { id: item.id } }));
+}
+
+const essay = await getEssay(Astro.params.id);
+if (!essay) {
+  throw new Error(`文章不存在：${Astro.params.id}`);
+}
+
+const originalUrl = essay.article_url || essay.source_url;
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={essay.summary || essay.title} />
+    <title>{essay.title} · 文章</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#essay-body">跳到正文</a>
+    <div class="page-shell">
+      <header class="site-header">
+        <div>
+          <p class="eyebrow">{essay.kind_label}</p>
+          <h1>{essay.title}</h1>
+          {essay.title_en && <p class="intro">{essay.title_en}</p>}
+          <p class="essay-meta">
+            {essay.author || "未署名"}
+            {essay.author_handle && (
+              <a href={`https://x.com/${essay.author_handle}`} rel="noopener noreferrer">{" · @"}{essay.author_handle}</a>
+            )}
+            {essay.published_at && <time datetime={essay.published_at}>{essay.published_at}</time>}
+            {essay.capture_status === "partial" && <span class="status occasional">抓取不完整</span>}
+          </p>
+          <p class="essay-meta essay-source-links">
+            {essay.source_url && <a href={essay.source_url} rel="noopener noreferrer">原帖</a>}
+            {essay.article_url && <a href={essay.article_url} rel="noopener noreferrer">原文长文</a>}
+            {essay.blog_url && <a href={essay.blog_url} rel="noopener noreferrer">作者博客</a>}
+          </p>
+        </div>
+        <div class="header-stats">
+          <a class="essay-back" href="/essays/">返回文章列表</a>
+          <LogoutControl />
+        </div>
+      </header>
+
+      <SiteNav current="essays" />
+
+      <main id="essay-body">
+        {essay.capture_status === "partial" && (
+          <p class="essay-partial">这篇还没有抓到全文，下面是现有摘要。原文链接仍可打开。</p>
+        )}
+        {essay.html ? (
+          <article class="essay-prose" set:html={essay.html} />
+        ) : (
+          <section class="empty-state" aria-labelledby="missing-body">
+            <h2 id="missing-body">正文还没写入</h2>
+            <p>{essay.summary || "markdown 文件缺失。"}</p>
+            {originalUrl && <p><a href={originalUrl} rel="noopener noreferrer">打开原文</a></p>}
+          </section>
+        )}
+      </main>
+    </div>
+    <footer class="site-footer">
+      <p>
+        <strong>数据来源说明</strong>：正文来自 data/essays/{essay.body_file}。译文是中文转写，配图仍在原文。
+        {originalUrl && <>原文：<a href={originalUrl} rel="noopener noreferrer">{originalUrl}</a></>}
+      </p>
+    </footer>
+  </body>
+</html>

@@ -331,6 +331,26 @@ body.radar-viewer-open { overflow: hidden; }
 .thinking-body { display: grid; gap: var(--spacing-sm); margin: var(--spacing-sm) 0 0; }
 .thinking-body dt { color: var(--color-text-primary); font-size: var(--font-size-caption); font-weight: 600; }
 .thinking-body dd { color: var(--color-text-secondary); font-size: var(--font-size-caption); margin: 0; overflow-wrap: anywhere; white-space: pre-wrap; }
+.essay-grid { grid-template-columns: minmax(0, 42rem); }
+.essay-card h3 a { color: inherit; text-decoration: none; }
+.essay-card h3 a:hover { color: var(--color-brand); }
+.essay-card .card-content > p { -webkit-line-clamp: unset; display: block; min-height: 0; overflow: visible; }
+.essay-card .card-content > p.essay-summary { color: var(--color-text-secondary); display: -webkit-box; font-size: var(--font-size-caption); -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; }
+.essay-title-en, .essay-byline, .essay-meta { color: var(--color-text-secondary); font-size: var(--font-size-caption); }
+.essay-card-links { display: flex; flex-wrap: wrap; gap: var(--spacing-md); margin-top: var(--spacing-sm); }
+.essay-card .tweet-link { margin-left: 0; }
+.essay-meta { display: flex; flex-wrap: wrap; gap: var(--spacing-sm); margin: var(--spacing-sm) 0 0; }
+.essay-meta a, .essay-back { color: var(--color-brand); text-decoration: none; }
+.essay-meta a:hover, .essay-back:hover { text-decoration: underline; }
+.essay-source-links { margin-bottom: 0; }
+.essay-partial { color: var(--color-text-secondary); font-size: var(--font-size-caption); margin-top: var(--spacing-lg); }
+.essay-prose { display: grid; gap: var(--spacing-md); max-width: 46rem; padding: var(--spacing-lg) 0 var(--spacing-xl); }
+.essay-prose h2, .essay-prose h3 { margin-bottom: 0; }
+.essay-prose p, .essay-prose li { line-height: 1.75; overflow-wrap: anywhere; }
+.essay-prose a { color: var(--color-brand); }
+.essay-prose ul { margin: 0; padding-left: 1.2rem; }
+.essay-prose blockquote { border-left: var(--border-width) solid var(--color-border); color: var(--color-text-secondary); margin: 0; padding-left: var(--spacing-md); }
+.essay-prose blockquote p { margin: 0; }
 .prompt-toolbar { padding: var(--spacing-lg) 0 0; }
 .prompt-search input { background: var(--color-surface); border: var(--border-width) solid var(--color-border); border-radius: var(--radius-card); color: var(--color-text-primary); font-size: var(--font-size-body); padding: var(--spacing-sm) var(--spacing-md); width: min(32rem, 100%); }
 .prompt-search input:focus-visible { outline: var(--outline-width) solid var(--color-brand); outline-offset: var(--outline-width); }

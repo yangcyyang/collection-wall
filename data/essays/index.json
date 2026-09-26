@@ -1,0 +1,23 @@
+{
+  "source": "essays",
+  "title": "文章",
+  "description": "外文长文的中文译文，以及我自己写的文章。",
+  "updated_at": "2026-09-26",
+  "items": [
+    {
+      "id": "spending-your-effort",
+      "kind": "translation",
+      "title": "推理努力到底是什么：不必事事拉满",
+      "title_en": "Using Claude Code: Spending your effort",
+      "author": "Thariq",
+      "author_handle": "trq212",
+      "published_at": "2026-09-25",
+      "source_url": "https://x.com/trq212/status/2103576349499855160",
+      "article_url": "https://x.com/i/article/2103535187426709504",
+      "blog_url": "https://claude.dev/blog/spending-your-effort/",
+      "summary": "effort（推理努力）不是越大越好。它大致是在告诉模型：这道题你打算花多少算力。低档适合快速开工、人留在回路里；高档适合边界情况多、需要自己验证的任务。",
+      "body_file": "spending-your-effort.md",
+      "capture_status": "full"
+    }
+  ]
+}
