@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { createHash } from "node:crypto";
 import { mkdtemp, readFile, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { dirname, join, resolve } from "node:path";
@@ -7,6 +8,7 @@ import test from "node:test";
 
 import {
   essayKindFilters,
+  essayReadHref,
   getEssay,
   getEssaysFeed,
   normalizeEssay,
@@ -153,6 +155,62 @@ test("三类筛选始终都在，空类计数为 0", () => {
     { id: "original", label: "我的文章", count: 2 },
     { id: "curated", label: "精选", count: 0 },
   ]);
+});
+
+test("互动页只接受自己的站内地址，危险 href 不会变成阅读链接", () => {
+  const linked = normalizeEssay(sampleItem({ href: "/essays/sample-note/index.html" }));
+  assert.equal(linked.href, "/essays/sample-note/");
+  assert.equal(essayReadHref(linked), "/essays/sample-note/");
+  for (const href of [
+    "javascript:alert(1)",
+    "https://evil.example/play",
+    "/essays/other-note/",
+    "/essays/../secret/",
+    "//evil.example/essays/sample-note/",
+  ]) {
+    const item = normalizeEssay(sampleItem({ href }));
+    assert.equal(item.href, "", href);
+    assert.equal(essayReadHref(item), "/essays/sample-note/");
+  }
+  assert.equal(essayReadHref(normalizeEssay(sampleItem())), "/essays/sample-note/");
+});
+
+test("越用越聪明挂在文章清单，类型是我的文章，并指向原样静态页", async () => {
+  const feed = await getEssaysFeed(catalogFile);
+  const item = feed.items.find((entry) => entry.id === "yue-yong-yue-congming");
+  assert.ok(item);
+  assert.equal(item.kind, "original");
+  assert.equal(item.category, "original");
+  assert.equal(item.kind_label, "我的文章");
+  assert.equal(item.title_zh, "越用越聪明");
+  assert.equal(item.title, "越用越聪明");
+  assert.equal(item.published_at, "2026-09-26");
+  assert.equal(item.href, "/essays/yue-yong-yue-congming/");
+  assert.equal(essayReadHref(item), "/essays/yue-yong-yue-congming/");
+  assert.match(item.summary_zh, /理智线/);
+  assert.match(item.summary_zh, /长活 Agent/);
+  assert.match(item.summary_zh, /AI 协作档案/);
+  assert.match(item.summary_zh, /配乐/);
+  assert.equal(item.source_url, "");
+  assert.equal(item.article_url, "");
+
+  const page = await readFile(new URL("../src/pages/essays/index.astro", import.meta.url), "utf8");
+  const detail = await readFile(new URL("../src/pages/essays/[id].astro", import.meta.url), "utf8");
+  assert.match(page, /essayReadHref/);
+  assert.match(page, /item\.href \? "播放" : "阅读"/);
+  assert.match(detail, /filter\(\(item\) => !item\.href\)/);
+
+  const bytes = await readFile(new URL("../public/essays/yue-yong-yue-congming/index.html", import.meta.url));
+  assert.equal(
+    createHash("sha256").update(bytes).digest("hex"),
+    "a92a8e17a56a0dad1cff8c9dbec556fa65f64f921912999787f850c5ca86e9ba",
+  );
+  const head = bytes.subarray(0, 12000).toString("utf8");
+  assert.match(head, /<title>越用越聪明<\/title>/);
+  assert.ok(bytes.includes(Buffer.from("播放 · 含配乐与音效 · 建议全屏")));
+  assert.ok(bytes.includes(Buffer.from('id="aud"')));
+  assert.ok(bytes.includes(Buffer.from("requestFullscreen")));
+  assert.doesNotMatch(head, /essay-prose|返回文章列表/);
 });
 
 test("精选认 curated 和「精选」文案，不会被当成译文或我的文章", () => {
@@ -362,6 +420,19 @@ test("构建产物能打开种子译文，原文链接还在", async (t) => {
   assert.match(list, /data-kind="curated"/);
   assert.match(list, /data-kind-filter="curated"/);
   assert.match(list, /href="\/essays\/agi-house-rsi-202609\/"/);
+  assert.match(list, /越用越聪明/);
+  assert.match(list, /data-kind="original"/);
+  assert.match(list, /href="\/essays\/yue-yong-yue-congming\/"/);
+  assert.match(list, />播放</);
+  const playFile = new URL("../dist/essays/yue-yong-yue-congming/index.html", import.meta.url);
+  const play = await readFile(playFile);
+  assert.equal(
+    createHash("sha256").update(play).digest("hex"),
+    "a92a8e17a56a0dad1cff8c9dbec556fa65f64f921912999787f850c5ca86e9ba",
+  );
+  assert.match(play.subarray(0, 12000).toString("utf8"), /<title>越用越聪明<\/title>/);
+  assert.ok(play.includes(Buffer.from("播放 · 含配乐与音效 · 建议全屏")));
+  assert.doesNotMatch(play.subarray(0, 12000).toString("utf8"), /essay-prose|返回文章列表/);
   const curatedFile = new URL("../dist/essays/agi-house-rsi-202609/index.html", import.meta.url);
   const curated = await readFile(curatedFile, "utf8");
   assert.match(curated, /AGI HOUSE 硬核连线/);

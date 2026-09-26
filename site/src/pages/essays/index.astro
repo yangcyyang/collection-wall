@@ -2,7 +2,7 @@
 import "../../styles/global.css";
 import LogoutControl from "../../components/LogoutControl.astro";
 import SiteNav from "../../components/SiteNav.astro";
-import { essayKindFilters, essaySearchBlob, getEssaysFeed } from "../../lib/essays";
+import { essayKindFilters, essayReadHref, essaySearchBlob, getEssaysFeed } from "../../lib/essays";
 
 const feed = await getEssaysFeed();
 const essays = feed.items;
@@ -60,18 +60,20 @@ const filters = essayKindFilters(essays);
                     {item.capture_status === "partial" && <span class="status occasional">正文未收全</span>}
                     {item.published_at && <time datetime={item.published_at}>{item.published_at}</time>}
                   </div>
-                  <h3><a href={`/essays/${item.id}/`}>{item.title}</a></h3>
+                  <h3><a href={essayReadHref(item)}>{item.title}</a></h3>
                   {item.title_en && <p class="essay-title-en">{item.title_en}</p>}
                   <p class="essay-summary">{item.summary || "打开阅读全文"}</p>
-                  <p class="essay-byline">
-                    {item.author_handle ? (
-                      <a href={`https://x.com/${item.author_handle}`} rel="noopener noreferrer">{item.author || `@${item.author_handle}`}</a>
-                    ) : (
-                      item.author || "未署名"
-                    )}
-                  </p>
+                  {(item.author || item.author_handle) && (
+                    <p class="essay-byline">
+                      {item.author_handle ? (
+                        <a href={`https://x.com/${item.author_handle}`} rel="noopener noreferrer">{item.author || `@${item.author_handle}`}</a>
+                      ) : (
+                        item.author
+                      )}
+                    </p>
+                  )}
                   <div class="essay-card-links">
-                    <a class="tweet-link" href={`/essays/${item.id}/`}>阅读</a>
+                    <a class="tweet-link" href={essayReadHref(item)}>{item.href ? "播放" : "阅读"}</a>
                     {item.article_url && <a class="tweet-link" href={item.article_url} rel="noopener noreferrer">原文</a>}
                     {!item.article_url && item.source_url && <a class="tweet-link" href={item.source_url} rel="noopener noreferrer">原文</a>}
                   </div>
