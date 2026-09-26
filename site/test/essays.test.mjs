@@ -81,6 +81,51 @@ test("正文按 markdown 读出，路径逃不出目录", async () => {
   assert.doesNotMatch(essay.markdown, /"items"/);
 });
 
+test("单独一行的图片渲染成 figure，危险地址不生成 img", () => {
+  const html = renderEssayMarkdown([
+    "![封面 <script>](/essays/claude-ai-3x-faster/cover.png)",
+    "",
+    "![坏脚本](javascript:alert(1))",
+    "",
+    "![协议相对](//evil.example/a.png)",
+    "",
+    "![路径穿越](/essays/../../etc/passwd.png)",
+    "",
+    "段中有 ![小图](https://example.com/a.png) 字",
+  ].join("\n"));
+  assert.match(html, /<figure class="essay-figure"><img src="\/essays\/claude-ai-3x-faster\/cover.png" alt="封面 &lt;script&gt;" \/><\/figure>/);
+  assert.doesNotMatch(html, /<img[^>]*javascript:/);
+  assert.doesNotMatch(html, /<img[^>]*\/\/evil/);
+  assert.doesNotMatch(html, /passwd/);
+  assert.match(html, /<p>段中有 <img src="https:\/\/example.com\/a.png" alt="小图" \/> 字<\/p>/);
+  const sized = renderEssayMarkdown("![封面](/essays/demo.png){1200x630}");
+  assert.match(sized, /<img src="\/essays\/demo.png" alt="封面" width="1200" height="630" \/>/);
+  const badSize = renderEssayMarkdown('![封面](/essays/demo.png){1200x630" onload="alert(1)}');
+  assert.doesNotMatch(badSize, /onload/);
+});
+
+test("视频行渲染成带海报和说明的 figure，危险地址不生成 video", () => {
+  const html = renderEssayMarkdown([
+    "!video[侧边栏卡顿：优化前后对比（节流 4G）](/essays/claude-ai-3x-faster/sidebar-jank.mp4)(/essays/claude-ai-3x-faster/sidebar-jank-poster.png)",
+    "",
+    "!video[静态 composer：优化前后对比（节流 4G）](/essays/claude-ai-3x-faster/static-composer.mp4)(/essays/claude-ai-3x-faster/static-composer-poster.png)",
+    "",
+    "!video[<script>](javascript:alert(1))(/ok.png)",
+    "",
+    "!video[坏海报](/essays/demo.mp4)(data:text/html,hi)",
+  ].join("\n"));
+  assert.match(html, /<figure class="essay-figure"><video controls playsinline preload="metadata" poster="\/essays\/claude-ai-3x-faster\/sidebar-jank-poster.png" src="\/essays\/claude-ai-3x-faster\/sidebar-jank.mp4"><\/video><figcaption>侧边栏卡顿：优化前后对比（节流 4G）<\/figcaption><\/figure>/);
+  assert.match(html, /poster="\/essays\/claude-ai-3x-faster\/static-composer-poster.png"/);
+  assert.match(html, /src="\/essays\/claude-ai-3x-faster\/static-composer.mp4"/);
+  assert.match(html, /<figcaption>静态 composer：优化前后对比（节流 4G）<\/figcaption>/);
+  assert.doesNotMatch(html, /<video[^>]*javascript:/);
+  assert.doesNotMatch(html, /data:text/);
+  assert.match(html, /<p>&lt;script&gt;<\/p>/);
+  assert.match(html, /<p>坏海报<\/p>/);
+  const sized = renderEssayMarkdown("!video[演示](/essays/demo.mp4)(/essays/demo.png){1320x900}");
+  assert.match(sized, /<video controls playsinline preload="metadata" poster="\/essays\/demo.png" src="\/essays\/demo.mp4" width="1320" height="900"><\/video>/);
+});
+
 test("markdown 转义 HTML，只保留 http 链接、粗体和斜体", () => {
   const html = renderEssayMarkdown([
     "# 标题",
@@ -192,6 +237,72 @@ test("精选活动实录在清单里，只归精选，正文可读且没有采�
   assert.doesNotMatch(essay.html, /OpenCLI|抓取过程/);
 });
 
+test("claude.ai 提速译文嵌了原文封面和两段对比视频", async () => {
+  const markdown = await readFile(new URL("../../data/essays/claude-ai-3x-faster.md", import.meta.url), "utf8");
+  const cover = "![原文封面：How we made claude.ai 3x faster in two weeks](/essays/claude-ai-3x-faster/cover.png){1200x630}";
+  const sidebar = "!video[侧边栏卡顿：优化前后对比（节流 4G）](/essays/claude-ai-3x-faster/sidebar-jank.mp4)(/essays/claude-ai-3x-faster/sidebar-jank-poster.png){1320x900}";
+  const composer = "!video[静态 composer：优化前后对比（节流 4G）](/essays/claude-ai-3x-faster/static-composer.mp4)(/essays/claude-ai-3x-faster/static-composer-poster.png){1920x600}";
+  const ledeAt = markdown.indexOf("Claude 一旦能量到某个东西");
+  const coverAt = markdown.indexOf(cover);
+  const briefingAt = markdown.indexOf("## 简报");
+  const sidebarStoryAt = markdown.indexOf("侧边栏的行才「蹦」出来");
+  const layoutAt = markdown.indexOf("Layout Instability API");
+  const sidebarAt = markdown.indexOf(sidebar);
+  const threadCountAt = markdown.indexOf("一百五十多个线程");
+  const guardAt = markdown.indexOf("## 护栏");
+  const composerStoryAt = markdown.indexOf("静态 composer 几乎立刻给用户展示一份 HTML 副本");
+  const composerAt = markdown.indexOf(composer);
+  const shiftAt = markdown.indexOf("15–20px");
+  const steerAt = markdown.indexOf("## 掌舵");
+  assert.ok(ledeAt >= 0 && coverAt > ledeAt && coverAt < briefingAt);
+  assert.ok(sidebarStoryAt >= 0 && layoutAt > sidebarStoryAt && sidebarAt > layoutAt && sidebarAt < threadCountAt);
+  assert.ok(guardAt >= 0 && composerStoryAt > guardAt && composerAt > composerStoryAt && composerAt < shiftAt && shiftAt < steerAt);
+
+  const html = renderEssayMarkdown(markdown);
+  assert.match(html, /<img src="\/essays\/claude-ai-3x-faster\/cover.png" alt="原文封面：How we made claude\.ai 3x faster in two weeks" width="1200" height="630" \/>/);
+  assert.match(html, /poster="\/essays\/claude-ai-3x-faster\/sidebar-jank-poster.png" src="\/essays\/claude-ai-3x-faster\/sidebar-jank.mp4" width="1320" height="900"/);
+  assert.match(html, /<figcaption>侧边栏卡顿：优化前后对比（节流 4G）<\/figcaption>/);
+  assert.match(html, /poster="\/essays\/claude-ai-3x-faster\/static-composer-poster.png" src="\/essays\/claude-ai-3x-faster\/static-composer.mp4" width="1920" height="600"/);
+  assert.match(html, /<figcaption>静态 composer：优化前后对比（节流 4G）<\/figcaption>/);
+  assert.equal((html.match(/<video /g) ?? []).length, 2);
+  assert.equal((html.match(/<img /g) ?? []).length, 1);
+  const coverHtml = html.indexOf("/essays/claude-ai-3x-faster/cover.png");
+  const briefingHtml = html.indexOf("简报");
+  const storyHtml = html.indexOf("侧边栏的行才");
+  const sidebarHtml = html.indexOf("sidebar-jank.mp4");
+  const threadsHtml = html.indexOf("一百五十多个线程");
+  const composerStoryHtml = html.indexOf("静态 composer 几乎立刻");
+  const composerHtml = html.indexOf("static-composer.mp4");
+  const shiftHtml = html.indexOf("15–20px");
+  assert.ok(coverHtml >= 0 && coverHtml < briefingHtml);
+  assert.ok(storyHtml < sidebarHtml && sidebarHtml < threadsHtml);
+  assert.ok(composerStoryHtml < composerHtml && composerHtml < shiftHtml);
+
+  const essay = await getEssay("claude-ai-3x-faster", dirname(catalogFile));
+  assert.equal(essay.html, html);
+  for (const name of [
+    "cover.png",
+    "sidebar-jank.mp4",
+    "sidebar-jank-poster.png",
+    "static-composer.mp4",
+    "static-composer-poster.png",
+  ]) {
+    const bytes = await readFile(new URL(`../public/essays/claude-ai-3x-faster/${name}`, import.meta.url));
+    assert.ok(bytes.length > 1000, name);
+  }
+});
+
+test("译文自带图或视频时，页脚不再说图只在原文", async () => {
+  const detail = await readFile(new URL("../src/pages/essays/[id].astro", import.meta.url), "utf8");
+  const css = await readFile(new URL("../src/styles/global.css", import.meta.url), "utf8");
+  assert.match(detail, /hostsMedia = \/<\(\?:img\|video\)\\b\/\.test\(essay\.html/);
+  assert.match(detail, /文中的封面和演示视频嵌在正文里/);
+  assert.match(detail, /文中提到的图在原文页面/);
+  assert.match(css, /\.essay-prose figure/);
+  assert.match(css, /\.essay-prose img, \.essay-prose video/);
+  assert.match(css, /\.essay-prose figcaption/);
+});
+
 test("导航有文章 Tab，列表能按译文和我的文章筛选，详情链到原文", async () => {
   const nav = await readFile(new URL("../src/components/SiteNav.astro", import.meta.url), "utf8");
   const page = await readFile(new URL("../src/pages/essays/index.astro", import.meta.url), "utf8");
@@ -234,6 +345,19 @@ test("构建产物能打开种子译文，原文链接还在", async (t) => {
   assert.match(detail, /https:\/\/x.com\/trq212\/status\/2103576349499855160/);
   assert.match(detail, /https:\/\/x.com\/i\/article\/2103535187426709504/);
   assert.match(detail, /但不是每件事都需要这一档/);
+  assert.match(detail, /文中提到的图在原文页面/);
+  assert.doesNotMatch(detail, /文中的封面和演示视频嵌在正文里/);
+  const claudeFile = new URL("../dist/essays/claude-ai-3x-faster/index.html", import.meta.url);
+  const claude = await readFile(claudeFile, "utf8");
+  assert.match(claude, /src="\/essays\/claude-ai-3x-faster\/cover.png"/);
+  assert.match(claude, /src="\/essays\/claude-ai-3x-faster\/sidebar-jank.mp4"/);
+  assert.match(claude, /poster="\/essays\/claude-ai-3x-faster\/sidebar-jank-poster.png"/);
+  assert.match(claude, /侧边栏卡顿：优化前后对比（节流 4G）/);
+  assert.match(claude, /src="\/essays\/claude-ai-3x-faster\/static-composer.mp4"/);
+  assert.match(claude, /poster="\/essays\/claude-ai-3x-faster\/static-composer-poster.png"/);
+  assert.match(claude, /静态 composer：优化前后对比（节流 4G）/);
+  assert.match(claude, /文中的封面和演示视频嵌在正文里/);
+  assert.doesNotMatch(claude, /文中提到的图在原文页面/);
   assert.match(list, /AGI HOUSE 硬核连线/);
   assert.match(list, /data-kind="curated"/);
   assert.match(list, /data-kind-filter="curated"/);
