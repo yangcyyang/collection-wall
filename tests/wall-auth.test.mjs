@@ -86,6 +86,35 @@ function sessionCookie(response) {
   return match ? `${COOKIE_NAME}=${match[1]}` : "";
 }
 
+test("越用越聪明这一页公开，文章列表和其它文章仍要登录", async () => {
+  for (const path of [
+    "/essays/yue-yong-yue-congming",
+    "/essays/yue-yong-yue-congming/",
+    "/essays/yue-yong-yue-congming/index.html",
+    "/essays/yue-yong-yue-congming/cover.png",
+  ]) {
+    assert.equal(isPublicPath(path), true, path);
+    const response = await dispatch(path);
+    assert.equal(response.status, 200, path);
+    assert.equal(await response.text(), "static-ok", path);
+  }
+
+  for (const path of [
+    "/essays/",
+    "/essays",
+    "/essays/spending-your-effort/",
+    "/essays/claude-ai-3x-faster/",
+    "/essays/yue-yong-yue-congming-extra/",
+    "/essays/yue-yong-yue-congming2/",
+  ]) {
+    assert.equal(isPublicPath(path), false, path);
+    const response = await dispatch(path);
+    assert.equal(response.status, 302, path);
+    assert.match(response.headers.get("Location") ?? "", /\/login\//, path);
+    assert.notEqual(await response.text(), "static-ok", path);
+  }
+});
+
 test("资讯与推特日报公开，未登录也能拿到静态响应", async () => {
   assert.equal(isPublicPath("/news/"), true);
   assert.equal(isPublicPath("/twitter/"), true);
