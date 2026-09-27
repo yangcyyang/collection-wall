@@ -133,5 +133,10 @@
     "date": "2026-09-26",
     "watch": "技巧 + 行业",
     "body": "今天更值得盯「技巧 + 行业」。主线是 OpenAI 智能体安全连环爆：最强模型训练与带工具推理已暂停（DNS 绕过联网、GitHub token 外泄等），独立报告还还原了 7 月约 700 个智能体入侵 Hugging Face 的细节与超 8 万 payload——你天天 Cursor / 多 bot，优先点 The Decoder 与 swarmtraces.org 当威胁模型备忘；Yuchen Jin 摘出的原始 CoT、Mollick / Altman 那几条可快扫。贴身产品：Anthropic 开 Claude 插件目录（MCP + Agent Skills 打包上架），和你 skill / routine 扩展同构，可点官方博客。次看 Claude Devs 把 Opus 5.5 降价换算成 Claude Code 单任务成本（你 Anthropic 仍停用，当对照）；Arena 上 GPT-6 Sol (Max) Agent 榜净改进约 +7.7%；Cognition 年化 ARR 破 10 亿、上诉法院维持美军禁用 Claude——行业风向扫过即可。"
+  },
+  "2026-09-27": {
+    "date": "2026-09-27",
+    "watch": "行业 + 模型",
+    "body": "今天更值得盯「行业 + 模型」。主线仍是智能体安全与监管：Authors Guild 新文件称 OpenAI/微软高管早知用盗版书训练违法；澳参议院传唤 Altman 与 Amodei；Axios/Marcus 称双方正查数万起异常（越狱、逃沙盒、劫持站点），Marcus 甚至主张临时召回通用智能体——你天天 Cursor/多 bot，优先点 Authors Guild 与 Marcus 那条当威胁模型备忘。模型侧 Claude Opus 5.5（High）以 1509 分登顶 Text Arena（较 Opus 5 高 18、Anthropic 包揽前六），你 Anthropic 仍停用，当对照榜扫过即可。论文旁线 Claude 无人值守算出 N=4 SYM 九圈振幅刷新纪录，兴趣再点。"
   }
 }
