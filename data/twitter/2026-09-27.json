@@ -9,6 +9,496 @@
   },
   "items": [
     {
+      "id": "2104237781312819244",
+      "author": "canghe",
+      "url": "https://x.com/i/status/2104237781312819244",
+      "created_at": "Sun Sep 27 15:52:36 +0000 2026",
+      "score": 54.803,
+      "summary": "太狠了，刚用 Grok Bot 分析了下 Gmail 邮件，提示Shopify 自动扣费风险，我靠，我根本不记得我有在Shopify 上开启什么套餐。感觉这种默认自动扣费的，绑上了信用卡的，都要格外小心，一不留神就在偷偷扣钱，太坑了。",
+      "recommend_reason": "Grok Bot 读邮发现隐性订阅的实拍，提醒 Agent 读邮箱的风险发现价值。",
+      "tags": [
+        "指定AI名单",
+        "Grok Bot",
+        "Gmail",
+        "订阅风险",
+        "Agent"
+      ],
+      "section": "指定AI名单",
+      "rank": 1
+    },
+    {
+      "id": "2104235371240595844",
+      "author": "GoSailGlobal",
+      "url": "https://x.com/i/status/2104235371240595844",
+      "created_at": "Sun Sep 27 15:43:01 +0000 2026",
+      "score": 60.791,
+      "summary": "作者用模型调用扫 180 个相关开源仓并按用途分十类（剪辑/科普/框架/宣传等），标安全评级与协议；提醒 CAUTION 与无协议仓商用风险；清单 CC0，页面临时刷新星数。",
+      "recommend_reason": "把散落的视频 Skill/仓库收成可检索分类清单，并带上安全与协议警示，省大量自行摸排时间。",
+      "tags": [
+        "指定AI名单",
+        "Claude Code",
+        "开源",
+        "AI视频",
+        "Skill"
+      ],
+      "title": "花 200 刀把 180 个「Claude Code 做视频」仓库分了十类",
+      "section": "指定AI名单",
+      "rank": 2
+    },
+    {
+      "id": "2104232636738588797",
+      "author": "lxfater",
+      "url": "https://x.com/i/status/2104232636738588797",
+      "created_at": "Sun Sep 27 15:32:10 +0000 2026",
+      "score": 60.856,
+      "summary": "从约 180 个开源 Skill 里挑四件套：cut-video 粗剪去语气词、AdobePremiereProMCP 接管 Premiere、faceless-shorts 字幕、vox-director 选题直出讲解片，称可顶初级剪辑师。",
+      "recommend_reason": "具体到工具名的剪辑 Skill 组合，比「AI 能剪视频」口号更可照做。",
+      "tags": [
+        "指定AI名单",
+        "Opus 5.5",
+        "Skill",
+        "视频剪辑",
+        "Premiere"
+      ],
+      "title": "Opus 5.5 + 四个开源 Skill：粗剪到 Vox 风出片",
+      "section": "指定AI名单",
+      "rank": 3
+    },
+    {
+      "id": "2104230631236587852",
+      "author": "bindureddy",
+      "url": "https://x.com/i/status/2104230631236587852",
+      "created_at": "Sun Sep 27 15:24:11 +0000 2026",
+      "score": 67.499,
+      "summary": "社区愿望单式点评 Dev Day：期待 Astra 6.1/6.5、更大模型 Bel 的发布承诺，以及 Astra/SOL 大幅降价，并猜测 Bel 可能已有但未就绪。",
+      "recommend_reason": "用半开玩笑的产品/定价愿望单折射社区对 OpenAI 发布节奏与价格的预期。",
+      "tags": [
+        "指定AI名单",
+        "OpenAI",
+        "Dev Day",
+        "Astra",
+        "产品策略"
+      ],
+      "title": "OpenAI Dev Day 愿望清单：Astra 升级、Bel 承诺与降价",
+      "section": "指定AI名单",
+      "rank": 4
+    },
+    {
+      "id": "2104220707479830865",
+      "author": "dontbesilent",
+      "url": "https://x.com/i/status/2104220707479830865",
+      "created_at": "Sun Sep 27 14:44:45 +0000 2026",
+      "score": 60.849,
+      "summary": "作者称用该 skill 写作几乎不用另捏文风；因其目标是让人学会看懂，少了常见 AI 写作背后的表演意图，文字反而干净，并举公众号被当成人工的例子。",
+      "recommend_reason": "从「意图」解释为何有的 AI 文不油腻，对写 skill/教学向内容有启发。",
+      "tags": [
+        "Skill",
+        "写作",
+        "Claude",
+        "提示词"
+      ],
+      "title": "/dbs-learning：目的是教会你，所以不像「AI 味」作文",
+      "rank": 5
+    },
+    {
+      "id": "2104216653060014246",
+      "author": "ianneo_ai",
+      "url": "https://x.com/i/status/2104216653060014246",
+      "created_at": "Sun Sep 27 14:28:39 +0000 2026",
+      "score": 66.192,
+      "summary": "从 Linear 搜索面板「横条变箭头+触感」讲到 GitHub/OpenAI 经历：保留可见按钮的同时用细节暗示更快手势；原型工具从 Origami/SwiftUI 扩展到 Codex，但取舍判断仍在设计师。",
+      "recommend_reason": "少见的交互设计深读，把 AI 原型能力与「教不教用户」的产品哲学绑在一起。",
+      "tags": [
+        "指定AI名单",
+        "Design Engineer",
+        "ChatGPT",
+        "Codex",
+        "交互设计",
+        "Linear"
+      ],
+      "title": "Design Engineer 人物志：Gavin Nelson 如何让手势「不用教也会」",
+      "section": "指定AI名单",
+      "rank": 6
+    },
+    {
+      "id": "2104193190345757005",
+      "author": "wangzan101",
+      "url": "https://x.com/i/status/2104193190345757005",
+      "created_at": "Sun Sep 27 12:55:25 +0000 2026",
+      "score": 56.516,
+      "summary": "深度用一天后结论：所谓 24h 云电脑是营销；电脑控制几乎不可用；浏览器控制只能读页；「懂我」靠全面隐私换取；能干活的路径多靠 MCP/CLI 且覆盖窄，呼吁补齐干活能力。",
+      "recommend_reason": "少见的点名差评，把 Personal Agent 产品话术拆成可核对的能力项。",
+      "tags": [
+        "指定AI名单",
+        "Today",
+        "Personal Agent",
+        "测评",
+        "Computer Use"
+      ],
+      "title": "测评 Today：懂我靠吃隐私，computer/browser use 基本残",
+      "section": "指定AI名单",
+      "rank": 7
+    },
+    {
+      "id": "2104193115079033052",
+      "author": "LufzzLiz",
+      "url": "https://x.com/i/status/2104193115079033052",
+      "created_at": "Sun Sep 27 12:55:07 +0000 2026",
+      "score": 56.864,
+      "summary": "Sonnet 5.5 要出了，看效果要比GPT-6 Sol 还要好些，据说是下周二出\n价格与GPT-6 Sol价格一致:\n输入: $2\n输出: $10\n缓存: $0.20/M",
+      "recommend_reason": "未证实的档期/定价传闻，但给出具体 $/M 数字，便于对照后续官宣。",
+      "tags": [
+        "指定AI名单",
+        "Sonnet 5.5",
+        "Claude",
+        "定价",
+        "传闻"
+      ],
+      "section": "指定AI名单",
+      "rank": 8
+    },
+    {
+      "id": "2104190342660510019",
+      "author": "DeRonin_",
+      "url": "https://x.com/i/status/2104190342660510019",
+      "created_at": "Sun Sep 27 12:44:06 +0000 2026",
+      "score": 55.801,
+      "summary": "作者罗列当前主力：规划用 Fable 5.1、日常 Opus 5.5；编码/Agent 多工具；视频图像含 Kling/Runway 等；声音 Suno/ElevenLabs；3D/数字人与 DaVinci+Claude Code；夜间 Hermes Agent；知识 Wispr/Granola/Obsidian/Notion；并附常用仓库与约 $1300/月体感花费，强调深用少数工具。",
+      "recommend_reason": "把「全家桶清单」收成可对照的分层栈，并给出月耗数量级，适合盘点自己的工具重叠。",
+      "tags": [
+        "指定AI名单",
+        "AI工具栈",
+        "Opus 5.5",
+        "Agent",
+        "工作流"
+      ],
+      "title": "一份重度用户的 AI 工具栈：从规划模型到睡觉也在跑的 Agent",
+      "section": "指定AI名单",
+      "rank": 9
+    },
+    {
+      "id": "2104184536682901940",
+      "author": "elle_elle_e",
+      "url": "https://x.com/i/status/2104184536682901940",
+      "created_at": "Sun Sep 27 12:21:02 +0000 2026",
+      "score": 66.428,
+      "summary": "受浮世绘多色套印启发，先用图像生成 AI 出完成像，再设计 12 张「一色一版」矢量版；单看是山/霞/扇等不同画，叠合才现人物细线，全部由 ChatGPT Astra 完成。",
+      "recommend_reason": "把生成图逆拆成套色版画流程，展示 Astra 在矢量分版上的可控玩法。",
+      "tags": [
+        "ChatGPT",
+        "Astra",
+        "AI绘画",
+        "版画",
+        "设计"
+      ],
+      "title": "ChatGPT Astra 做「十二单衣」：生成完稿再拆成 12 色矢量版",
+      "rank": 10
+    },
+    {
+      "id": "2104167996205986115",
+      "author": "wshuyi",
+      "url": "https://x.com/i/status/2104167996205986115",
+      "created_at": "Sun Sep 27 11:15:18 +0000 2026",
+      "score": 56.586,
+      "summary": "ChatGPT之后，AI热潮如何演进？用近10分钟动画，串起开放模型、算力、多模态、推理模型与智能体，看看AI如何从“会聊天”走向“会做事”，以及这场变化背后的角色与趋势。含AI辅助生成内容。",
+      "recommend_reason": "十分钟动画串起开放模型到智能体的主线，适合给非天天刷推的人补大图景。",
+      "tags": [
+        "指定AI名单",
+        "AI趋势",
+        "科普",
+        "智能体",
+        "多模态"
+      ],
+      "section": "指定AI名单",
+      "rank": 11
+    },
+    {
+      "id": "2104167845013967359",
+      "author": "AI_Jasonyu",
+      "url": "https://x.com/i/status/2104167845013967359",
+      "created_at": "Sun Sep 27 11:14:42 +0000 2026",
+      "score": 58.469,
+      "summary": "Yihui 老师太强了，Opus5.5 也太顶了，这在以前做这些视频可太特么难了，也太 TM 贵了，看看现在，几十秒，加上一句提示词就搞定了！！\n\nYihui 老师把提示词开源了👇👇👇",
+      "recommend_reason": "指向开源提示词的短评，适合想快速试 Opus 5.5 视频向提示的人跟进。",
+      "tags": [
+        "指定AI名单",
+        "Opus 5.5",
+        "提示词",
+        "AI视频"
+      ],
+      "section": "指定AI名单",
+      "rank": 12
+    },
+    {
+      "id": "2104155969752338520",
+      "author": "huangyun_122",
+      "url": "https://x.com/i/status/2104155969752338520",
+      "created_at": "Sun Sep 27 10:27:31 +0000 2026",
+      "score": 56.363,
+      "summary": "GPT Astra 的能力越来越强了\n\n像这种网页端实时优化 1330+ 个文本框的 CSS 布局，要是我这种前端菜鸟来调试，估计会薅掉无数个日日夜夜，和大把青丝\n\n现如今不到 3%的周额度就给我在 10分钟处理完了。\n\n前端已死这种大逆不道的话，我是不敢说的，但前端程序员的价值，肯定有新落脚点了",
+      "recommend_reason": "用「千级文本框 CSS」这种脏活量化 Astra 省时，讨论前端价值迁移比空喊取代更具体。",
+      "tags": [
+        "指定AI名单",
+        "GPT Astra",
+        "前端",
+        "CSS",
+        "效率"
+      ],
+      "section": "指定AI名单",
+      "rank": 13
+    },
+    {
+      "id": "2104152578032386276",
+      "author": "lxfater",
+      "url": "https://x.com/i/status/2104152578032386276",
+      "created_at": "Sun Sep 27 10:14:02 +0000 2026",
+      "score": 57.402,
+      "summary": "今天有个 App 帮我省了 100 刀。\n\nCodex 额度用光了，我正准备充 100 刀接着跑。\n\n然后，Today 先推来一条：Tibo 刚宣布额度重置，不用充了（下面）。\n\n这种事情不是第一次了👇",
+      "recommend_reason": "用「差点充 100 刀」说明信息流 Agent 的即时价值，比功能清单更有体感。",
+      "tags": [
+        "指定AI名单",
+        "Today",
+        "Codex",
+        "Agent",
+        "省钱"
+      ],
+      "section": "指定AI名单",
+      "rank": 14
+    },
+    {
+      "id": "2104146987331510461",
+      "author": "abskoop",
+      "url": "https://x.com/i/status/2104146987331510461",
+      "created_at": "Sun Sep 27 09:51:49 +0000 2026",
+      "score": 55.649,
+      "summary": "A new layout for Chatgpt Desktop\n\n桌面端的ChatGPT大改了 菜单入口位置也调整了",
+      "recommend_reason": "桌面端信息架构调整的快讯，改版日值得记一笔。",
+      "tags": [
+        "指定AI名单",
+        "ChatGPT",
+        "桌面端",
+        "产品更新"
+      ],
+      "section": "指定AI名单",
+      "rank": 15
+    },
+    {
+      "id": "2104146474594431223",
+      "author": "JulianGoldieSEO",
+      "url": "https://x.com/i/status/2104146474594431223",
+      "created_at": "Sun Sep 27 09:49:47 +0000 2026",
+      "score": 60.056,
+      "summary": "研究笔记可直接帮写 Google 文档：用资料建 Gemini Notebook，在 Docs 里 @ 该笔记本让 Gemini 起草段落，采用前先核对引用。",
+      "recommend_reason": "把 Notebook 研究流接到 Docs 起草，步骤清楚，适合办公向读者。",
+      "tags": [
+        "Gemini",
+        "Gemini Notebook",
+        "Google Docs",
+        "办公"
+      ],
+      "title": "Gemini Notebook 进 Docs：用 @ 笔记本起草并带引用",
+      "rank": 16
+    },
+    {
+      "id": "2104139379598123074",
+      "author": "JulianGoldieSEO",
+      "url": "https://x.com/i/status/2104139379598123074",
+      "created_at": "Sun Sep 27 09:21:35 +0000 2026",
+      "score": 58.557,
+      "summary": "Claude 大约两周内体感快了约 3 倍。Anthropic 聚焦打开应用、开新聊天、加载旧聊天、发消息、流式阅读等高频步骤，逐步测量并修慢点，发布后再验收。",
+      "recommend_reason": "把「变快了」落到可感知的路径优化，比笼统性能宣传更清楚。",
+      "tags": [
+        "Claude",
+        "性能",
+        "Anthropic",
+        "产品体验"
+      ],
+      "title": "Claude 两周体感快约 3 倍：Anthropic 盯死高频路径",
+      "rank": 17
+    },
+    {
+      "id": "2104135986733293900",
+      "author": "LufzzLiz",
+      "url": "https://x.com/i/status/2104135986733293900",
+      "created_at": "Sun Sep 27 09:08:06 +0000 2026",
+      "score": 55.353,
+      "summary": "卧槽，这个大家要关注：claude code  \nchat 模式，思考深度max 消耗是medium 的5.5倍了，\nCowork  直接是6倍了！\n常用的code 模式未公开，但估计也会要几倍的消耗，推荐大家日常用xhigh ，也足够了，而且很耐用",
+      "recommend_reason": "直接给出 chat/Cowork 不同思考深度的倍率，对控额度比模糊「更费」有用。",
+      "tags": [
+        "指定AI名单",
+        "Claude Code",
+        "用量",
+        "Cowork",
+        "成本"
+      ],
+      "section": "指定AI名单",
+      "rank": 18
+    },
+    {
+      "id": "2104135096274174032",
+      "author": "ring_hyacinth",
+      "url": "https://x.com/i/status/2104135096274174032",
+      "created_at": "Sun Sep 27 09:04:34 +0000 2026",
+      "score": 65.309,
+      "summary": "作者与 Opus 5.5 把上海短片做成可玩网页游戏：配音改上海话、老音乐 8-bit 化、中英字幕与更多彩蛋；Demo 约 20–30 分钟可通关，并谈跨媒介创作者趋势。",
+      "recommend_reason": "短片→可玩世界的完整更新清单，附可直接上手的 Demo，比空谈 AI 游戏更落地。",
+      "tags": [
+        "指定AI名单",
+        "Opus 5.5",
+        "AI游戏",
+        "像素上海",
+        "互动叙事"
+      ],
+      "title": "「像素上海」大更新：上海话配音、8-bit 老歌与网页可玩 Demo",
+      "section": "指定AI名单",
+      "rank": 19
+    },
+    {
+      "id": "2104118248631648360",
+      "author": "yetone",
+      "url": "https://x.com/i/status/2104118248631648360",
+      "created_at": "Sun Sep 27 07:57:37 +0000 2026",
+      "score": 59.023,
+      "summary": "v0.1.175 起 Devin 改为直调其 CLI 同款 API、复用登录；对话原样转发并支持工具/图片/thinking 流式回传；已测 Claude Code/OpenCode 搭配 Devin 的 Opus 5.5、SWE-2、GPT-6 Sol 多轮读写文件。",
+      "recommend_reason": "具体到接口切换与已测模型组合，对用 magpie 串 Agent 的人是可执行更新。",
+      "tags": [
+        "magpie",
+        "Devin",
+        "Claude Code",
+        "Agent",
+        "工程实践"
+      ],
+      "title": "magpie 接 Devin 原生 API：流式多轮，比 ACP 好用",
+      "rank": 20
+    },
+    {
+      "id": "2104116267862909390",
+      "author": "YuLin807",
+      "url": "https://x.com/i/status/2104116267862909390",
+      "created_at": "Sun Sep 27 07:49:45 +0000 2026",
+      "score": 59.563,
+      "summary": "作者让 Opus 读自身推文提炼主题「打工人就是被异化的 Agent」，管线为 seedream-5.0 图、F5-TTS 音、Playwright+ffmpeg 动效、numpy 合成 78BPM 分段配乐。",
+      "recommend_reason": "个人语料→主题片的完整生成栈公开，主题与技术栈都清楚，便于对照复现。",
+      "tags": [
+        "指定AI名单",
+        "Opus",
+        "AI视频",
+        "F5-TTS",
+        "个人品牌"
+      ],
+      "title": "用一万条推文生成自我介绍片：打工人=被异化的 Agent",
+      "section": "指定AI名单",
+      "rank": 21
+    },
+    {
+      "id": "2104115611723034947",
+      "author": "FuSheng_0306",
+      "url": "https://x.com/i/status/2104115611723034947",
+      "created_at": "Sun Sep 27 07:47:09 +0000 2026",
+      "score": 56.504,
+      "summary": "根据 Sources 播客逐字稿整理：把 Agent 定义为长时间执行项目；自用偏生活场景；用 Ideas 与群体学习解决「不知干什么」；每周大额免费 token+虚拟机；并强调安全与自训模型。主持人喻为「普通人版 OpenClaw」。",
+      "recommend_reason": "把 Muse 发布叙事收成可核对要点，比单条产品通稿更清楚 Meta 的 Agent 赌注。",
+      "tags": [
+        "Muse",
+        "Meta",
+        "Agent",
+        "扎克伯格",
+        "产品策略"
+      ],
+      "title": "扎克伯格谈 Muse：Agent=交目标让它干到完，押免费/安全/自研底座",
+      "rank": 22
+    },
+    {
+      "id": "2104114796048347647",
+      "author": "kevinma_dev_zh",
+      "url": "https://x.com/i/status/2104114796048347647",
+      "created_at": "Sun Sep 27 07:43:54 +0000 2026",
+      "score": 58.603,
+      "summary": "分享两年存活经验：专属代理、美区/公司卡订阅、Google 登录、从网页 Chat 迁到 Claude Code；强调稳定自然的使用行为优于钻研「防封」，并提及 KYC 个案。",
+      "recommend_reason": "少见的长周期账号与用量实践复盘，对担心风控的重度用户有对照价值。",
+      "tags": [
+        "指定AI名单",
+        "Claude",
+        "Claude Code",
+        "订阅",
+        "使用经验"
+      ],
+      "title": "Claude 用了两年还活着：稳定网络/支付/真实工作流四点习惯",
+      "section": "指定AI名单",
+      "rank": 23
+    },
+    {
+      "id": "2104108920620962139",
+      "author": "python_xxt",
+      "url": "https://x.com/i/status/2104108920620962139",
+      "created_at": "Sun Sep 27 07:20:33 +0000 2026",
+      "score": 62.661,
+      "summary": "Claude  → setting → privacy \n\n这两条：\n\n· Location metadata \n· Help inmprove our AI models\n\n注意关掉",
+      "recommend_reason": "隐私开关的两行清单，短但可立即照做。",
+      "tags": [
+        "Claude",
+        "隐私",
+        "设置"
+      ],
+      "rank": 24
+    },
+    {
+      "id": "2104107699583463686",
+      "author": "dotey",
+      "url": "https://x.com/i/status/2104107699583463686",
+      "created_at": "Sun Sep 27 07:15:42 +0000 2026",
+      "score": 70.707,
+      "summary": "宝玉用 Opus 5.5 以「js 绘制 canvas」一句话提示重做 BaoCut 图标：对比 Fable/ChatGPT 位图路，Canvas 方案首版即简洁可用，再按方案迭代；强调指定 Canvas 而非 SVG。",
+      "recommend_reason": "可复用的图标工作流：一句提示锁定可控绘制，并点明 Canvas 优于 SVG 的实操差异。",
+      "tags": [
+        "指定AI名单",
+        "Opus 5.5",
+        "Claude",
+        "App Icon",
+        "设计",
+        "工程实践"
+      ],
+      "title": "Opus 5.5 用 JS Canvas 画 App Icon：比 SVG/位图更可控",
+      "section": "指定AI名单",
+      "rank": 25
+    },
+    {
+      "id": "2104085484347818226",
+      "author": "op7418",
+      "url": "https://x.com/i/status/2104085484347818226",
+      "created_at": "Sun Sep 27 05:47:26 +0000 2026",
+      "score": 70.536,
+      "summary": "Opus 5.5 游戏动效制作提示词来了！\n\n昨天用 Opus 5.5 做的游戏结算动画，很多人都说做得不错，想要提示词。\n\n顺便还做了一个新的抽卡动画，提示词太长放下面了",
+      "recommend_reason": "把结算/抽卡动效提示词直接开出来，方便复现 Opus 5.5 的游戏 UI 动画路径。",
+      "tags": [
+        "指定AI名单",
+        "Opus 5.5",
+        "游戏动效",
+        "提示词"
+      ],
+      "section": "指定AI名单",
+      "rank": 26
+    },
+    {
+      "id": "2104076374281510985",
+      "author": "xiaoerzhan",
+      "url": "https://x.com/i/status/2104076374281510985",
+      "created_at": "Sun Sep 27 05:11:14 +0000 2026",
+      "score": 59.029,
+      "summary": "五步法：把 Omia 真界面嵌进网页替身后端；按秒写剧本；窗口 3D 摆拍；浏览器每 1/30 秒截帧（91 秒约 2730 张）；旁白与公式合成配乐同一时间表对齐。",
+      "recommend_reason": "把「代码渲染视频」拆成可执行五步，比只晒成片更能说明 Opus 5.5 的制作上限。",
+      "tags": [
+        "指定AI名单",
+        "Opus 5.5",
+        "AI视频",
+        "代码渲染",
+        "Omia"
+      ],
+      "title": "Opus 5.5「算」出片子：真软件进网页→时间表→逐帧拍照",
+      "section": "指定AI名单",
+      "rank": 27
+    },
+    {
       "id": "2104047133678821428",
       "author": "MaiYangAI",
       "url": "https://x.com/MaiYangAI/status/2104047133678821428",
@@ -22,7 +512,7 @@
         "Grok Bot",
         "对比"
       ],
-      "rank": 1
+      "rank": 28
     },
     {
       "id": "2104042148496842898",
@@ -38,7 +528,7 @@
         "jev",
         "产品"
       ],
-      "rank": 2
+      "rank": 29
     },
     {
       "id": "2104039050080342456",
@@ -57,7 +547,7 @@
         "产品手感"
       ],
       "section": "指定AI名单",
-      "rank": 3
+      "rank": 30
     },
     {
       "id": "2104037520858087738",
@@ -74,7 +564,7 @@
         "协作",
         "工程实践"
       ],
-      "rank": 4
+      "rank": 31
     },
     {
       "id": "2104032431212998998",
@@ -92,7 +582,7 @@
         "维护"
       ],
       "section": "指定AI名单",
-      "rank": 5
+      "rank": 32
     },
     {
       "id": "2104031446549790753",
@@ -110,7 +600,7 @@
         "提示建议"
       ],
       "section": "指定AI名单",
-      "rank": 6
+      "rank": 33
     },
     {
       "id": "2104028369688076457",
@@ -130,7 +620,7 @@
         "Agent"
       ],
       "section": "指定AI名单",
-      "rank": 7
+      "rank": 34
     },
     {
       "id": "2104025904653521363",
@@ -147,7 +637,7 @@
         "观点"
       ],
       "section": "指定AI名单",
-      "rank": 8
+      "rank": 35
     },
     {
       "id": "2104011286086631491",
@@ -165,7 +655,7 @@
         "产品"
       ],
       "section": "指定AI名单",
-      "rank": 9
+      "rank": 36
     },
     {
       "id": "2104006236454670732",
@@ -184,7 +674,7 @@
         "Agent"
       ],
       "section": "指定AI名单",
-      "rank": 10
+      "rank": 37
     },
     {
       "id": "2104003382776356937",
@@ -200,7 +690,7 @@
         "卸载清理",
         "发布"
       ],
-      "rank": 11
+      "rank": 38
     },
     {
       "id": "2104002636513206422",
@@ -219,7 +709,7 @@
       "recommend_reason": "Simon Willison 用 Opus 5.5 做像素动画给演讲配图，并附提示词/转录与可交互 HTML，示范「能玩又交代得清」。",
       "title": "用 Opus 5.5 做鸮鹦鹉繁殖季像素动画，并公开提示词与交互页",
       "summary": "Simon Willison 在演讲里提到创纪录的鸮鹦鹉（Kākāpō）繁殖季，并因 Claude Opus 5.5 擅长像素动画而让它生成相关短片；另帖给出提示词、转录与 Claude 生成的可交互 HTML。",
-      "rank": 12
+      "rank": 39
     },
     {
       "id": "2104002130231324749",
@@ -236,7 +726,7 @@
         "AI视频"
       ],
       "section": "指定AI名单",
-      "rank": 13
+      "rank": 40
     },
     {
       "id": "2103988841774452774",
@@ -254,7 +744,7 @@
         "协作"
       ],
       "section": "指定AI名单",
-      "rank": 14
+      "rank": 41
     },
     {
       "id": "2103983731526819988",
@@ -271,7 +761,7 @@
         "工具链"
       ],
       "section": "指定AI名单",
-      "rank": 15
+      "rank": 42
     },
     {
       "id": "2103982933375885435",
@@ -289,7 +779,7 @@
         "随机鹦鹉"
       ],
       "section": "指定AI名单",
-      "rank": 16
+      "rank": 43
     },
     {
       "id": "2103980011808260339",
@@ -307,7 +797,7 @@
         "产品"
       ],
       "section": "指定AI名单",
-      "rank": 17
+      "rank": 44
     },
     {
       "id": "2103936247995752705",
@@ -324,7 +814,7 @@
         "产品",
         "xAI"
       ],
-      "rank": 18
+      "rank": 45
     },
     {
       "id": "2103929727761137940",
@@ -341,7 +831,7 @@
         "发布"
       ],
       "section": "指定AI名单",
-      "rank": 19
+      "rank": 46
     },
     {
       "id": "2103928665591734355",
@@ -358,7 +848,7 @@
         "Flash"
       ],
       "section": "指定AI名单",
-      "rank": 20
+      "rank": 47
     },
     {
       "id": "2103915808019878108",
@@ -375,7 +865,7 @@
         "微信",
         "应用"
       ],
-      "rank": 21
+      "rank": 48
     },
     {
       "id": "2103915026205806610",
@@ -394,7 +884,7 @@
       "recommend_reason": "用周请求占比证明 Jev 在分类场景快速崛起（27%，近 2× DeepSeek V4 Flash），比口号更硬。",
       "title": "OpenRouter：Jev 已占分类请求周份额 27%，近两倍于 DeepSeek V4 Flash",
       "summary": "OpenRouter 称 Jev 正迅速成为平台上分类请求的首选：该品类周请求量占比达 27%，几乎是此前领先的 DeepSeek V4 Flash 的两倍。",
-      "rank": 22
+      "rank": 49
     },
     {
       "id": "2103915018831933779",
@@ -411,7 +901,7 @@
         "语音",
         "规划"
       ],
-      "rank": 23
+      "rank": 50
     },
     {
       "id": "2103914248107876827",
@@ -429,7 +919,7 @@
         "Anthropic"
       ],
       "section": "指定AI名单",
-      "rank": 24
+      "rank": 51
     },
     {
       "id": "2103911524394009074",
@@ -444,7 +934,7 @@
         "IoT",
         "产品线索"
       ],
-      "rank": 25
+      "rank": 52
     },
     {
       "id": "2103907235604955321",
@@ -462,7 +952,7 @@
         "长程任务",
         "工程"
       ],
-      "rank": 26
+      "rank": 53
     },
     {
       "id": "2103897226154328502",
@@ -480,7 +970,7 @@
         "回顾"
       ],
       "section": "指定AI名单",
-      "rank": 27
+      "rank": 54
     },
     {
       "id": "2103890533827621199",
@@ -497,7 +987,7 @@
         "开源"
       ],
       "section": "指定AI名单",
-      "rank": 28
+      "rank": 55
     },
     {
       "id": "2103880309247017445",
@@ -514,10 +1004,10 @@
         "提示词"
       ],
       "section": "指定AI名单",
-      "rank": 29
+      "rank": 56
     }
   ],
-  "generated_at": "2026-09-27T04:41:16Z",
+  "generated_at": "2026-09-27T16:35:22Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -525,11 +1015,11 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 29,
-    "last_batch_added": 2,
+    "actual_count": 56,
+    "last_batch_added": 7,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
