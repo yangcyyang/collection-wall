@@ -1,0 +1,544 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-27",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2104047133678821428",
+      "author": "MaiYangAI",
+      "url": "https://x.com/MaiYangAI/status/2104047133678821428",
+      "created_at": "Sun Sep 27 03:15:02 +0000 2026",
+      "score": 57.711,
+      "summary": "我刚刚用 Muse 给 ContextEcho 制作了一个宣传小视频：\n\n一句话+素材视频，即出片了！\n\n这个宣传视频值多少钱？反正是很让我惊喜了！\n\n与此同时，我也在用 Grok Bot 尝试，但是 iOS 版本不支持直接发视频（仅限图片、文件），而文件我一直上传不成功！\n\n这一场景和当前阶段，我不得不说 Grok Bot 还打不过 Muse ！",
+      "recommend_reason": "一句话+素材在 Muse 出宣传片的实操对照，同时点出 Grok Bot iOS 发视频/传文件的缺口。",
+      "tags": [
+        "Muse",
+        "AI视频",
+        "Grok Bot",
+        "对比"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2104042148496842898",
+      "author": "yetone",
+      "url": "https://x.com/yetone/status/2104042148496842898",
+      "created_at": "Sun Sep 27 02:55:14 +0000 2026",
+      "score": 57.692,
+      "summary": "虽然之前在公司内部测过 jev 用来做 semantic model routing 效果差，但是看到有很多用户还是一直在问能否把 jev 加上。现在最新版的 Magpie 已经支持使用 jev 来做 semantic model routing 了，其实还是微调了一下实现细节，比如把上一轮的决策加入决策链等等，我实测了一下，很神奇，效果其实比之前好太多了，大家可以试一下",
+      "recommend_reason": "把内部测过「效果差」的 jev 语义路由又加回 Magpie，并说明微调细节后仍上线——产品取舍比口号更真实。",
+      "tags": [
+        "Magpie",
+        "模型路由",
+        "jev",
+        "产品"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2104039050080342456",
+      "author": "emollick",
+      "url": "https://x.com/emollick/status/2104039050080342456",
+      "created_at": "Sun Sep 27 02:42:55 +0000 2026",
+      "score": 65.906,
+      "title": "模型「性格」比基准更难测：Opus 5.5 又像老 Claude 了",
+      "summary": "Ethan Mollick 认为模型性格是基准测不到的维度：Opus 从约 4.7 到 5 曾有一段不再「Claude 味」、更像稀释版 Fable（猜测教师模型影响）的低谷；Opus 5.5 用起来又像在和熟悉的 Claude 共事。",
+      "recommend_reason": "把难量化的「手感/性格」说清楚，解释为何有人宁可选更「像 Claude」的版本。",
+      "tags": [
+        "指定AI名单",
+        "Opus 5.5",
+        "Claude",
+        "评测",
+        "产品手感"
+      ],
+      "section": "指定AI名单",
+      "rank": 3
+    },
+    {
+      "id": "2104037520858087738",
+      "author": "dugujun12",
+      "url": "https://x.com/dugujun12/status/2104037520858087738",
+      "created_at": "Sun Sep 27 02:36:50 +0000 2026",
+      "score": 53.677,
+      "title": "把活交给 AI 却交不回来：错在交代方式，不在模型不行",
+      "summary": "作者反思：不是 AI 不行，是只说「帮我整理一下」等于让它猜材料、交付形态与缺信息时怎么办；猜错一件全是返工。主张把任务边界、输入材料、验收标准与异常处理说清楚，半小时的活才不会拖成四十分钟。",
+      "recommend_reason": "把 Agent 协作失败归因到「交代合约」而不是模型智商，可直接改日常提示习惯。",
+      "tags": [
+        "Agent",
+        "提示词",
+        "协作",
+        "工程实践"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2104032431212998998",
+      "author": "xiaohu",
+      "url": "https://x.com/xiaohu/status/2104032431212998998",
+      "created_at": "Sun Sep 27 02:16:37 +0000 2026",
+      "score": 60.753,
+      "summary": "使用这个命令\n\n可以修复和整理你的Claude.md和技能\n\n/checkup prompt-audit\n\n它会检查你的 CLAUDE.md、技能和Agent，找出你的当前模型不再需要的指令和阻碍它发挥能力的提示内容，还会修复你的技能...",
+      "recommend_reason": "给出可直接跑的 /checkup prompt-audit，专治 CLAUDE.md/技能里过时或碍事的提示堆积。",
+      "tags": [
+        "指定AI名单",
+        "Claude Code",
+        "CLAUDE.md",
+        "技能",
+        "维护"
+      ],
+      "section": "指定AI名单",
+      "rank": 5
+    },
+    {
+      "id": "2104031446549790753",
+      "author": "thinkszyg",
+      "url": "https://x.com/thinkszyg/status/2104031446549790753",
+      "created_at": "Sun Sep 27 02:12:42 +0000 2026",
+      "score": 61.654,
+      "title": "Claude Code 的 Prompt suggestions：补的是下一句任务，不是路径",
+      "summary": "介绍 Claude Code 的 Prompt suggestions：会根据上下文预填下一句可能指令（如「继续，把 iter4 变更集做完」），Tab 采纳后再改。适合项目里反复出现的衔接（改完→测、修完→补文档）。强调它不同于命令/路径自动补全，也不同于 Auto/Bypass permissions；采纳建议≠授权乱操作。",
+      "recommend_reason": "把一个易被忽略的小功能讲透边界，日常编码协作能立刻少打过渡指令。",
+      "tags": [
+        "指定AI名单",
+        "Claude Code",
+        "UX",
+        "提示建议"
+      ],
+      "section": "指定AI名单",
+      "rank": 6
+    },
+    {
+      "id": "2104028369688076457",
+      "author": "GoSailGlobal",
+      "url": "https://x.com/GoSailGlobal/status/2104028369688076457",
+      "created_at": "Sun Sep 27 02:00:28 +0000 2026",
+      "score": 64.861,
+      "title": "Lemo-Opuscar：39 种风格短片全靠代码渲染，一天 111★",
+      "summary": "介绍开源项目 Lemo-Opuscar：39 支短片无一帧来自视频模型，全由 AI 写代码经 Canvas/WebGL 逐帧渲染，配本地 TTS 与免费采样配乐；含水墨、皮影、浮世绘等风格，每风格附可复用提示词与 Opus 5.5 样片。用法是克隆后在 Claude Code 一句话点题，Agent 读三份指南并两次停顿确认。单片约 30–60 分钟、token 不小，依赖 Node/Chrome/ffmpeg/Python；代码 MIT，指南与样片 CC BY 4.0。",
+      "recommend_reason": "把「Agent 做片」落到可克隆仓库+风格包+成本预期，比只晒成片更可复用。",
+      "tags": [
+        "指定AI名单",
+        "Claude Code",
+        "Opus 5.5",
+        "开源",
+        "AI视频",
+        "Agent"
+      ],
+      "section": "指定AI名单",
+      "rank": 7
+    },
+    {
+      "id": "2104025904653521363",
+      "author": "emollick",
+      "url": "https://x.com/emollick/status/2104025904653521363",
+      "created_at": "Sun Sep 27 01:50:41 +0000 2026",
+      "score": 47.5,
+      "summary": "Mollick 感叹：许多起初看起来不像「人类语言建模」能解决的问题，最终却被大语言模型撬开；尽管存在纯 LLM / 多模态 / 工具调用等细分类争议，这一现象本身仍值得正视。",
+      "recommend_reason": "把「LLM 通用性」从口号拉回现象观察，适合做能力边界讨论的引子。",
+      "tags": [
+        "指定AI名单",
+        "LLM",
+        "通用性",
+        "观点"
+      ],
+      "section": "指定AI名单",
+      "rank": 8
+    },
+    {
+      "id": "2104011286086631491",
+      "author": "dingyi",
+      "url": "https://x.com/dingyi/status/2104011286086631491",
+      "created_at": "Sun Sep 27 00:52:35 +0000 2026",
+      "score": 55.352,
+      "summary": "几乎同一天，Claude 宣布将要杀死 plan 模式，Google 宣布 plan 才上线。\n\n这是多大的差距啊。。。",
+      "recommend_reason": "同一天「杀 plan / 上 plan」的产品节奏对仗，一眼看出两家 Agent 路线相位差。",
+      "tags": [
+        "指定AI名单",
+        "Claude",
+        "Google",
+        "Plan模式",
+        "产品"
+      ],
+      "section": "指定AI名单",
+      "rank": 9
+    },
+    {
+      "id": "2104006236454670732",
+      "author": "dotey",
+      "url": "https://x.com/dotey/status/2104006236454670732",
+      "created_at": "Sun Sep 27 00:32:31 +0000 2026",
+      "score": 61.733,
+      "title": "别给模板，给规范：Opus 5.5 有工具就能做视频",
+      "summary": "作者重申：与其塞模板，不如给目标与规范让模型自由发挥。Opus 5.5 进一步证明——做视频甚至未必需要 Skill，提供 TTS、画图、ffmpeg 与浏览器就够。摘录观点：模板是专家捷径，规范+模型能力是笨办法，但模型升级后产品可不改代码变强，即「搭架子等模型」。",
+      "recommend_reason": "把「模板 vs 设计系统/规范」上升到 Agent 产品哲学，对做 Skill/工作流的人很实用。",
+      "tags": [
+        "指定AI名单",
+        "Opus 5.5",
+        "Skill",
+        "设计规范",
+        "Agent"
+      ],
+      "section": "指定AI名单",
+      "rank": 10
+    },
+    {
+      "id": "2104003382776356937",
+      "author": "HiTw93",
+      "url": "https://x.com/HiTw93/status/2104003382776356937",
+      "created_at": "Sun Sep 27 00:21:11 +0000 2026",
+      "score": 43.597,
+      "summary": "收尾一下，最终 Mole 1.15 已上线，欢迎小伙伴去升级，最终测试了 709 款软件，包括特别难卸载的 Adobe 系列，以及各种带牛皮癣的 App，还有杀毒软件，以及我们工程师经常用的大部分软件，各种 AI 工具，也体验了一些值得学习的好软件，下一期我正确做到 1000 个自测软件。\nhttps://t.co/LpPnHDDwfc",
+      "recommend_reason": "Mole 1.15 清理工具更新到 709 款软件覆盖（含难卸的 Adobe/杀毒/AI 工具），工程师桌面卫生向实用发布。",
+      "tags": [
+        "Mole",
+        "工具",
+        "卸载清理",
+        "发布"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "2104002636513206422",
+      "author": "simonw",
+      "url": "https://x.com/simonw/status/2104002636513206422",
+      "created_at": "Sun Sep 27 00:18:13 +0000 2026",
+      "score": 63.54,
+      "section": "指定AI名单",
+      "tags": [
+        "指定AI名单",
+        "Opus 5.5",
+        "像素动画",
+        "Claude",
+        "演示"
+      ],
+      "recommend_reason": "Simon Willison 用 Opus 5.5 做像素动画给演讲配图，并附提示词/转录与可交互 HTML，示范「能玩又交代得清」。",
+      "title": "用 Opus 5.5 做鸮鹦鹉繁殖季像素动画，并公开提示词与交互页",
+      "summary": "Simon Willison 在演讲里提到创纪录的鸮鹦鹉（Kākāpō）繁殖季，并因 Claude Opus 5.5 擅长像素动画而让它生成相关短片；另帖给出提示词、转录与 Claude 生成的可交互 HTML。",
+      "rank": 12
+    },
+    {
+      "id": "2104002130231324749",
+      "author": "vista8",
+      "url": "https://x.com/vista8/status/2104002130231324749",
+      "created_at": "Sun Sep 27 00:16:12 +0000 2026",
+      "score": 63.472,
+      "summary": "Claude Opus5.5 生成视频效果相当牛逼。\n\n让AI调研整理一个文档和54个提示词，方便大家复制测试。\n\n地址见评论区",
+      "recommend_reason": "把 Opus 5.5 视频能力沉淀成可复制的文档+54 条提示词，降低跟风试错成本。",
+      "tags": [
+        "指定AI名单",
+        "Opus 5.5",
+        "提示词",
+        "AI视频"
+      ],
+      "section": "指定AI名单",
+      "rank": 13
+    },
+    {
+      "id": "2103988841774452774",
+      "author": "ianneo_ai",
+      "url": "https://x.com/ianneo_ai/status/2103988841774452774",
+      "created_at": "Sat Sep 26 23:23:24 +0000 2026",
+      "score": 54.863,
+      "title": "Opus 5.5 不太顺着说：敢泼冷水的模型更像靠谱同事",
+      "summary": "作者换用多模型后的感受：Claude Opus 5.5 不会一上来「对对对」，而会先指出想法没想清楚之处；其他工具更爱附和，听着舒服但问题还在。类比团队需要敢说真话的人，也提醒一味否定会泄气——分寸难，人和模型都一样。",
+      "recommend_reason": "把「附和 vs 诤言」变成选型标准，解释为何有人更吃 Opus 的协作风格。",
+      "tags": [
+        "指定AI名单",
+        "Opus 5.5",
+        "产品手感",
+        "协作"
+      ],
+      "section": "指定AI名单",
+      "rank": 14
+    },
+    {
+      "id": "2103983731526819988",
+      "author": "imwsl90",
+      "url": "https://x.com/imwsl90/status/2103983731526819988",
+      "created_at": "Sat Sep 26 23:03:06 +0000 2026",
+      "score": 53.796,
+      "summary": "我对claude的需求并不强烈\n\n我目前用的最多的是claude code，其他的系统都依赖deepseek api\n\n而我写的代码其他任意AI Code都能完成，因为并不复杂，因此我可以很容易的切换到其他AI工具上\n\n目前已经切到deepseek v4.1 flash上了\n\n计划把chatgpt 升级到pro, 作为主流桌面AI工具",
+      "recommend_reason": "一份务实的工具组合账：Claude Code 保留、其余切 DeepSeek Flash，并计划 ChatGPT Pro 做桌面主力。",
+      "tags": [
+        "指定AI名单",
+        "DeepSeek",
+        "Claude Code",
+        "工具链"
+      ],
+      "section": "指定AI名单",
+      "rank": 15
+    },
+    {
+      "id": "2103982933375885435",
+      "author": "lateinteraction",
+      "url": "https://x.com/lateinteraction/status/2103982933375885435",
+      "created_at": "Sat Sep 26 22:59:56 +0000 2026",
+      "score": 41.234,
+      "title": "随机鹦鹉类比没错，错的是由此否定 LLM 能力",
+      "summary": "作者认为：在类比层面，底层神经网络确实实质是「随机鹦鹉」；争论双方常错的是——由此推出 LLM 不可能极其强大。承认鹦鹉本质与承认强大能力可以并存。",
+      "recommend_reason": "澄清「随机鹦鹉」论战的常见偷换：机制隐喻≠能力上限判决。",
+      "tags": [
+        "指定AI名单",
+        "LLM",
+        "观点",
+        "随机鹦鹉"
+      ],
+      "section": "指定AI名单",
+      "rank": 16
+    },
+    {
+      "id": "2103980011808260339",
+      "author": "oran_ge",
+      "url": "https://x.com/oran_ge/status/2103980011808260339",
+      "created_at": "Sat Sep 26 22:48:19 +0000 2026",
+      "score": 53.948,
+      "summary": "OpenAI 的新产品 o 要来了\n应该是对抗 muse 的云端 Agent 产品\n人人都用自己的电脑已经不够了\n人人都还要有一台云电脑\n大家这要换电脑换手机的就赶紧吧\n涨价是必然",
+      "recommend_reason": "把传闻中的 OpenAI「o」放到与 Muse 对打的云端 Agent/云电脑叙事里，点出硬件换机与涨价预期。",
+      "tags": [
+        "指定AI名单",
+        "OpenAI",
+        "Muse",
+        "云端Agent",
+        "产品"
+      ],
+      "section": "指定AI名单",
+      "rank": 17
+    },
+    {
+      "id": "2103936247995752705",
+      "author": "bot",
+      "url": "https://x.com/bot/status/2103936247995752705",
+      "created_at": "Sat Sep 26 19:54:25 +0000 2026",
+      "score": 71.049,
+      "title": "Grok Bot 上线 Finance：可连银行/卡/投资账户做收支管理",
+      "summary": "Grok Bot 新增 Finance 集成，可关联银行、信用卡与投资账户，让 Bot 协助管理消费、投资等财务相关问题。",
+      "recommend_reason": "官方级产品能力扩展：把对话助手接到真实资金账户，比空谈「AI 理财」更可验证。",
+      "tags": [
+        "Grok Bot",
+        "Finance",
+        "产品",
+        "xAI"
+      ],
+      "rank": 18
+    },
+    {
+      "id": "2103929727761137940",
+      "author": "OpenAIDevs",
+      "url": "https://x.com/OpenAIDevs/status/2103929727761137940",
+      "created_at": "Sat Sep 26 19:28:30 +0000 2026",
+      "score": 75.954,
+      "summary": "距 OpenAI DevDay 还有 72 小时。\n\n我们一直在打磨。是时候展示成果了。",
+      "recommend_reason": "官方倒计时预热，标记本周开发者向发布窗口。",
+      "tags": [
+        "指定AI名单",
+        "OpenAI",
+        "DevDay",
+        "发布"
+      ],
+      "section": "指定AI名单",
+      "rank": 19
+    },
+    {
+      "id": "2103928665591734355",
+      "author": "bindureddy",
+      "url": "https://x.com/bindureddy/status/2103928665591734355",
+      "created_at": "Sat Sep 26 19:24:17 +0000 2026",
+      "score": 66.388,
+      "summary": "Deepseek 简直是刷榜之王。\n\n他们最新的 Flash 模型号称能打平 Fable 和 Astra。\n\n但真正用过两分钟的人都知道，这话不成立 🤣",
+      "recommend_reason": "用「两分钟真香/真不香」戳破刷榜叙事，提醒选型别只看官方对标声明。",
+      "tags": [
+        "指定AI名单",
+        "DeepSeek",
+        "评测",
+        "Flash"
+      ],
+      "section": "指定AI名单",
+      "rank": 20
+    },
+    {
+      "id": "2103915808019878108",
+      "author": "FuSheng_0306",
+      "url": "https://x.com/FuSheng_0306/status/2103915808019878108",
+      "created_at": "Sat Sep 26 18:33:12 +0000 2026",
+      "score": 60.29,
+      "summary": "这个中秋，我让GPT-6接管了我的微信。\n\n它连续干了几个小时，给50位公司骨干一人写了一段专属祝福，又把我收到的70多条祝福逐条回复。\n\n120多条消息，零失误。\n\n半年前，AI操作电脑两三步就会停下来或点错。这次跑了几千步。🧵",
+      "recommend_reason": "用真实社交场景量化 Agent 电脑操盘进步：半年前两三步就翻车，现在可连续几千步写/回百余条微信。",
+      "tags": [
+        "GPT-6",
+        "Agent",
+        "电脑操作",
+        "微信",
+        "应用"
+      ],
+      "rank": 21
+    },
+    {
+      "id": "2103915026205806610",
+      "author": "OpenRouter",
+      "url": "https://x.com/OpenRouter/status/2103915026205806610",
+      "created_at": "Sat Sep 26 18:30:05 +0000 2026",
+      "score": 69.755,
+      "section": "指定AI名单",
+      "tags": [
+        "指定AI名单",
+        "OpenRouter",
+        "Jev",
+        "分类",
+        "路由"
+      ],
+      "recommend_reason": "用周请求占比证明 Jev 在分类场景快速崛起（27%，近 2× DeepSeek V4 Flash），比口号更硬。",
+      "title": "OpenRouter：Jev 已占分类请求周份额 27%，近两倍于 DeepSeek V4 Flash",
+      "summary": "OpenRouter 称 Jev 正迅速成为平台上分类请求的首选：该品类周请求量占比达 27%，几乎是此前领先的 DeepSeek V4 Flash 的两倍。",
+      "rank": 22
+    },
+    {
+      "id": "2103915018831933779",
+      "author": "dickiebush",
+      "url": "https://x.com/dickiebush/status/2103915018831933779",
+      "created_at": "Sat Sep 26 18:30:03 +0000 2026",
+      "score": 60.623,
+      "title": "Codex 开工四步：语音脑暴→计划文档→拆任务→再动手",
+      "summary": "作者分享现在每件新工作都先在 Codex 里走同一套：打开语音模式脑暴目标；让 Codex 整理成计划文档；再拆成可执行任务；确认后再开始写代码。强调先对齐意图与结构，而不是一上来就改文件。",
+      "recommend_reason": "把「先规划再编码」落成可复制的 Codex 语音工作流，适合想降低返工的人直接套用。",
+      "tags": [
+        "Codex",
+        "工作流",
+        "语音",
+        "规划"
+      ],
+      "rank": 23
+    },
+    {
+      "id": "2103914248107876827",
+      "author": "sairahul1",
+      "url": "https://x.com/sairahul1/status/2103914248107876827",
+      "created_at": "Sat Sep 26 18:27:00 +0000 2026",
+      "score": 63.87,
+      "title": "把官方 Opus 5.5 提示指南压成 12 条可粘贴技巧",
+      "summary": "作者称 Anthropic 已公开 Opus 5.5 正确用法，但多数用户错过；强调其提示方式与以往模型根本不同，并把官方 prompting guide 翻译整理成 12 条可复制技巧。",
+      "recommend_reason": "官方指南→可执行 checklist，降低「换模型仍用旧提示习惯」的损耗。",
+      "tags": [
+        "指定AI名单",
+        "Opus 5.5",
+        "提示词",
+        "Anthropic"
+      ],
+      "section": "指定AI名单",
+      "rank": 24
+    },
+    {
+      "id": "2103911524394009074",
+      "author": "turingou",
+      "url": "https://x.com/turingou/status/2103911524394009074",
+      "created_at": "Sat Sep 26 18:16:10 +0000 2026",
+      "score": 55.76,
+      "summary": "ChatGPT 的 App 在远程设置当中，增加了一个使用二维码添加新设备连接的功能。\n\n但我没有在任何场合看到它是如何生成这个二维码的，我在想，也许这是 ChatGPT 在为连接 IoT 设备做准备。",
+      "recommend_reason": "捕捉到 ChatGPT App 远程设置里「扫码加设备」却未见公开生成入口，合理脑补 IoT 连接铺垫。",
+      "tags": [
+        "ChatGPT",
+        "IoT",
+        "产品线索"
+      ],
+      "rank": 25
+    },
+    {
+      "id": "2103907235604955321",
+      "author": "Khazix0918",
+      "url": "https://x.com/Khazix0918/status/2103907235604955321",
+      "created_at": "Sat Sep 26 17:59:08 +0000 2026",
+      "score": 66.642,
+      "title": "围观 Opus 5.5 六小时重写级任务：沟通与长程 Agent 仍是水桶 T0",
+      "summary": "作者让 Claude Opus 5.5 跑完全重写级别的大型任务逾六小时，全程阅读思考摘要后认为：即便不满 Anthropic 公司层面，Opus 5.5 在沟通理解、审美、开发与长程 Agent 上仍是综合最稳的 T0；科研与极致性能优化另当别论，并吐槽希望 OpenAI 加把劲。",
+      "recommend_reason": "长程实战观感比单点 demo 更有参考价值，把「稳」和「水桶能力」说清楚了。",
+      "tags": [
+        "Opus 5.5",
+        "Claude",
+        "Agent",
+        "长程任务",
+        "工程"
+      ],
+      "rank": 26
+    },
+    {
+      "id": "2103897226154328502",
+      "author": "trq212",
+      "url": "https://x.com/trq212/status/2103897226154328502",
+      "created_at": "Sat Sep 26 17:19:21 +0000 2026",
+      "score": 66.578,
+      "title": "一年前用 Claude Code 做视频还要反复抠细节，如今变化巨大",
+      "summary": "作者回忆约一年前发过最早一批用 Claude Code 做视频的帖子：当时每条都要与 Claude 长时间迭代、逐点指出错误；感慨如今进度已不可同日而语。",
+      "recommend_reason": "用一年跨度对照「代码生成视频」工作流成熟度，比单次 demo 更有时代感。",
+      "tags": [
+        "指定AI名单",
+        "Claude Code",
+        "AI视频",
+        "回顾"
+      ],
+      "section": "指定AI名单",
+      "rank": 27
+    },
+    {
+      "id": "2103890533827621199",
+      "author": "vista8",
+      "url": "https://x.com/vista8/status/2103890533827621199",
+      "created_at": "Sat Sep 26 16:52:46 +0000 2026",
+      "score": 66.836,
+      "summary": "把自己需要的功能都基于Obsidian重新都开发了一遍。\n\n顺带开源，帮助更多有类似需求的朋友。\n\n消耗20x Codex 3次重置，累计收到100多块赞赏。\n\n虽然入不敷出，但很开心，哈哈哈。",
+      "recommend_reason": "用 Codex 重写个人 Obsidian 工具链并开源的成本账（20x×3 重置 vs 百元赞赏），真实激励样本。",
+      "tags": [
+        "指定AI名单",
+        "Codex",
+        "Obsidian",
+        "开源"
+      ],
+      "section": "指定AI名单",
+      "rank": 28
+    },
+    {
+      "id": "2103880309247017445",
+      "author": "dingyi",
+      "url": "https://x.com/dingyi/status/2103880309247017445",
+      "created_at": "Sat Sep 26 16:12:08 +0000 2026",
+      "score": 66.727,
+      "summary": "Opus 5.5 做视频牛逼，那是人家的本事，跟你有什么关系？啊！look at my eyes，有什么关系！？\n\n不过有一说一，这个模型做的视频声音处理很好，和视频搭配踩点也很到位，动画创意也神了，最重要的几乎不用返工，一把梭就基本完成了。\n\n但你需要会写提示词和垫素材，不然我看不少人做出来的那个风格，就是 Claude 典型的 AI slop 动画版。",
+      "recommend_reason": "在夸能力的同时点出「提示词+垫素材」门槛，以及 AI slop 动画同质化风险。",
+      "tags": [
+        "指定AI名单",
+        "Opus 5.5",
+        "AI视频",
+        "提示词"
+      ],
+      "section": "指定AI名单",
+      "rank": 29
+    }
+  ],
+  "generated_at": "2026-09-27T04:41:16Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 29,
+    "last_batch_added": 2,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
