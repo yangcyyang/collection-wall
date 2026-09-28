@@ -1,9 +1,379 @@
 {
   "source": "AI Frontier Radar",
   "title": "新产品",
-  "updated_at": "2026-09-25T08:15:00+08:00",
-  "count": 144,
+  "updated_at": "2026-09-28T08:20:00+08:00",
+  "count": 161,
   "items": [
+    {
+      "id": "mcp-audit-tool",
+      "name": "mcp-audit-tool",
+      "score": 82,
+      "status": "new",
+      "first_detected": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-09-28T08:20:00+08:00",
+      "summary": "纯 Python CLI 扫描 MCP/agent 配置中的 tool poisoning、rug pull、硬编码密钥、命令注入；输出 SARIF 可进 CI。GitHub ~105★（09-26）。",
+      "novelty": "MCP 生态从接更多工具转向审计工具投毒——供应链扫描仪本身成为基建。",
+      "urls": {
+        "github": "https://github.com/graygnatconsole/mcp-audit-tool"
+      },
+      "tags": [
+        "MCP",
+        "Security",
+        "SupplyChain",
+        "Audit"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "basedash-mcp-write",
+      "name": "Basedash MCP write",
+      "score": 84,
+      "status": "new",
+      "first_detected": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-09-28T08:20:00+08:00",
+      "summary": "从 Cursor/Claude 经 MCP 写图表/看板：探 schema、写校验 SQL、出可视化与持久链接。PH 09-25（78 票）。",
+      "novelty": "Analytics 的 MCP 写路径（非只读）——编码 agent 内的 ship surface。",
+      "urls": {
+        "site": "https://www.basedash.com/",
+        "producthunt": "https://www.producthunt.com/products/basedash"
+      },
+      "tags": [
+        "Basedash",
+        "MCP",
+        "Write",
+        "Analytics"
+      ],
+      "homepage": false,
+      "ph_votes_latest": 78
+    },
+    {
+      "id": "kaiku",
+      "name": "Kaiku",
+      "score": 85,
+      "status": "new",
+      "first_detected": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-09-28T08:20:00+08:00",
+      "summary": "面向 agent 重度团队的任务追踪/wiki：兼容现有 tracker API 使 MCP 不变；评论唤起 agent 只提议不决策；按 issue 计 agent 成本。PH 09-25（78 票）。",
+      "novelty": "工作项上的人类门控 + 机器计价，不是又一个 AI 看板。",
+      "urls": {
+        "site": "https://kaiku.tech/en",
+        "producthunt": "https://www.producthunt.com/products/kaiku"
+      },
+      "tags": [
+        "Kaiku",
+        "MCP",
+        "HITL",
+        "AgentPricing"
+      ],
+      "homepage": false,
+      "ph_votes_latest": 78
+    },
+    {
+      "id": "cognition-1b-arr",
+      "name": "Cognition Devin $1B ARR",
+      "score": 87,
+      "status": "new",
+      "first_detected": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-09-28T08:20:00+08:00",
+      "summary": "Cognition 宣布年化收入 run rate 跨过 $1B；Devin 自 GA 以来进入 GE Aerospace、Rivian 等工程团队。",
+      "novelty": "Coding agent 从能写代码变成十亿美元级 ARR 业务——商业模型信号强于单次功能发布。",
+      "urls": {
+        "official": "https://cognition.com/blog/1b-run-rate",
+        "x": "https://x.com/cognition/status/2103500168951955718"
+      },
+      "tags": [
+        "Cognition",
+        "Devin",
+        "ARR",
+        "CodingAgent"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "julia-1",
+      "name": "Julia 1 (Supersonic Labs)",
+      "score": 86,
+      "status": "new",
+      "first_detected": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-09-28T08:20:00+08:00",
+      "summary": "144.3M 参数 Apache 2.0 System One 决策模型：只做 choice/score/noul，不生成文本；CPU/WebGPU ONNX 可跑（M4 中位约 33ms）。与 CLM-8B/Jev 同属决策层路线。",
+      "novelty": "把 System One 推到手机/笔记本 CPU + 浏览器 WebGPU 可部署的开放权重极端。",
+      "urls": {
+        "huggingface": "https://huggingface.co/SupersonicLabs/Julia-1",
+        "onnx": "https://huggingface.co/SupersonicLabs/Julia-1-ONNX"
+      },
+      "tags": [
+        "Julia1",
+        "SystemOne",
+        "OpenWeights",
+        "CPU",
+        "WebGPU"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "exa-agent-ultra",
+      "name": "Exa Agent Ultra",
+      "score": 87,
+      "status": "new",
+      "first_detected": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-09-28T08:20:00+08:00",
+      "summary": "Exa Agent 最高努力档：多子代理并行覆盖数千源；自称在多项深研基准上超过 Opus 5.5 / GPT-6 Astra / Perplexity Agent 最高努力，且单位任务成本更低。",
+      "novelty": "搜索原生公司把宽+深研究做成可计费努力档，正面挑战 frontier 原厂 harness。",
+      "urls": {
+        "official": "https://exa.ai/blog/exa-agent-ultra"
+      },
+      "tags": [
+        "Exa",
+        "DeepResearch",
+        "MultiAgent",
+        "Ultra"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "jango",
+      "name": "Jango",
+      "score": 86,
+      "status": "new",
+      "first_detected": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-09-28T08:20:00+08:00",
+      "summary": "多 agent QA：每个 AI 用户自带浏览器/账号/目标/记忆，在开发 URL 上互操作；人类可加入或接管任一屏幕。PH 09-25（85 票）。",
+      "novelty": "多人 agent 测试 playbook——不是单脚本 E2E。",
+      "urls": {
+        "site": "https://usejango.com/",
+        "producthunt": "https://www.producthunt.com/products/jango"
+      },
+      "tags": [
+        "Jango",
+        "MultiAgent",
+        "QA",
+        "Browser"
+      ],
+      "homepage": false,
+      "ph_votes_latest": 85
+    },
+    {
+      "id": "quiver-gtm",
+      "name": "Quiver GTM",
+      "score": 87,
+      "status": "new",
+      "first_detected": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-09-28T08:20:00+08:00",
+      "summary": "Agentic 开发者营销控制面：持久产品/客户上下文、版本化生产状态、Content API + MCP、人工批准反馈；可托管或 MIT 自托管。PH 09-25（199 票）。",
+      "novelty": "GTM 做成带 checkpoint 的 agent playbook，不是 AI 文案工具。",
+      "urls": {
+        "site": "https://www.quivergtm.dev",
+        "producthunt": "https://www.producthunt.com/products/quiver-gtm"
+      },
+      "tags": [
+        "Quiver",
+        "GTM",
+        "MCP",
+        "Harness",
+        "HITL"
+      ],
+      "homepage": false,
+      "ph_votes_latest": 199
+    },
+    {
+      "id": "bleetz-network",
+      "name": "Bleetz Network",
+      "score": 88,
+      "status": "new",
+      "first_detected": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-09-28T08:20:00+08:00",
+      "summary": "Agent-to-agent 融资网络：创始人 agent 匹配 2000+ 真实 VC 的模拟 agent，YES/NO/MAYBE 后解锁基金联系人。PH 09-25 #2（287 票）。",
+      "novelty": "机对机 dealflow playbook，不是又一个 CRM AI 包装。",
+      "urls": {
+        "site": "https://bleetz.network/",
+        "producthunt": "https://www.producthunt.com/products/bleetz-network"
+      },
+      "tags": [
+        "Bleetz",
+        "AgentCommerce",
+        "Fundraising",
+        "VC"
+      ],
+      "homepage": false,
+      "ph_votes_latest": 287
+    },
+    {
+      "id": "longcat-2-5-preview",
+      "name": "Meituan LongCat-2.5-Preview",
+      "score": 88,
+      "status": "new",
+      "first_detected": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-09-28T08:20:00+08:00",
+      "summary": "美团 LongCat-2.5-Preview：约 1.6T MoE / ~48B 激活，原生 1M context，面向终端/浏览器/桌面长工作流；API 同时兼容 OpenAI 与 Anthropic 格式，可对接 Claude Code 等。Preview，未承诺开源权重。",
+      "novelty": "双协议兼容 + 1M 长程 GUI/编码 agent，把 Claude Code 后端替换成本压到改 endpoint。",
+      "urls": {
+        "official": "https://longcat.ai/platform/docs/",
+        "site": "https://longcat.chat/platform"
+      },
+      "tags": [
+        "Meituan",
+        "LongCat",
+        "1MContext",
+        "Agentic",
+        "APICompat"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "eclatira",
+      "name": "Eclatira",
+      "score": 90,
+      "status": "new",
+      "first_detected": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-09-28T08:20:00+08:00",
+      "summary": "可插入任意栈的会话式视频 agent：原生 voice-to-voice + 实时视觉 + 跨自定义 API/MCP/3000+ 应用全栈执行。PH 09-26 #2（315 票）。",
+      "novelty": "把多模态视频 agent 做成可嵌入产品的 ship surface，不是独立 avatar demo。",
+      "urls": {
+        "site": "https://eclatira.com/",
+        "producthunt": "https://www.producthunt.com/products/eclatira"
+      },
+      "tags": [
+        "Eclatira",
+        "VideoAgent",
+        "Voice",
+        "Vision",
+        "MCP"
+      ],
+      "homepage": true,
+      "ph_votes_latest": 315
+    },
+    {
+      "id": "openrouter-jev-router",
+      "name": "OpenRouter Jev Router (typesafe/jev-router)",
+      "score": 90,
+      "status": "new",
+      "first_detected": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-09-28T08:20:00+08:00",
+      "summary": "OpenRouter × TypeSafe：Jev（System One）做成生产级 LLM auto-router（typesafe/jev-router）；按收益 vs 缓存损失切换，非法输出 fail-closed。随后官方称 Jev 约占 classification 周请求 ~27%。",
+      "novelty": "决策模型卡在推理网关默认路由层——System One 进入 token 经济分配点，而不只是应用内分类器。",
+      "urls": {
+        "site": "https://openrouter.ai/typesafe/jev-router",
+        "x": "https://x.com/OpenRouter/status/2103610976759320654"
+      },
+      "tags": [
+        "OpenRouter",
+        "TypeSafe",
+        "Jev",
+        "SystemOne",
+        "Router"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "claude-nine-loops",
+      "name": "Claude Nine Loops (Anthropic Science)",
+      "score": 91,
+      "status": "new",
+      "first_detected": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-09-28T08:20:00+08:00",
+      "summary": "Anthropic Science：Claude 在 Claude Science harness 里基本无人监督完成 N=4 SYM 九圈散射振幅（bootstrap + form-factor 两法）；Lance Dixon（SLAC）独立验证。湿实验室 ART 之后，科学发现闭环出现可引用的理论物理前沿计算。",
+      "novelty": "Agent science harness 用「keep going」级监督做出可发表级振幅结果并被领域权威验证。",
+      "urls": {
+        "official": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+        "x": "https://x.com/AnthropicAI/status/2103541577083719888"
+      },
+      "tags": [
+        "Anthropic",
+        "Science",
+        "NineLoops",
+        "AgentHarness",
+        "Physics"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "hemory",
+      "name": "Hemory",
+      "score": 91,
+      "status": "new",
+      "first_detected": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-09-28T08:20:00+08:00",
+      "summary": "手机/Apple Watch 常开听写记忆：一天自动切成说话人标注片段，私有可检索记忆经 MCP 暴露给 Claude/Codex/Cursor。PH 09-26 #1（360 票）。",
+      "novelty": "环境音频变成 agent 上下文层，不是会议纪要 SaaS。",
+      "urls": {
+        "site": "https://www.hemory.com/",
+        "producthunt": "https://www.producthunt.com/products/hemory"
+      },
+      "tags": [
+        "Hemory",
+        "MCP",
+        "AmbientMemory",
+        "AppleWatch"
+      ],
+      "homepage": true,
+      "ph_votes_latest": 360
+    },
+    {
+      "id": "openai-self-replicating-prompt-injection",
+      "name": "OpenAI self-replicating prompt injections (AI worms)",
+      "score": 91,
+      "status": "new",
+      "first_detected": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-09-28T08:20:00+08:00",
+      "summary": "GPT-Red 首次披露可自我复制的 prompt injection：经邮件全文回引、文件系统/代码注释、Slack 多跳传播；在合成工具环境中诱导删文件、关闭安全扫描构建步骤。无生产外影响；自复制纳入后续 attacker 目标。",
+      "novelty": "官方确认「AI worm」进入 frontier 训练实测——邮件/文件/Slack 连接器成自我增殖面。",
+      "urls": {
+        "official": "https://alignment.openai.com/misalignment-reports/self-replicating-prompt-injections-exist/"
+      },
+      "tags": [
+        "OpenAI",
+        "PromptInjection",
+        "AIWorm",
+        "GPT-Red",
+        "AgentConnectors"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "pixverse-r2",
+      "name": "PixVerse R2",
+      "score": 93,
+      "status": "new",
+      "first_detected": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-09-28T08:20:00+08:00",
+      "summary": "实时可探索、可改写的交互世界模型：文本/图像/音频/动作在环，连续流式视听世界并带会话记忆。PH 09-25 #1（376 票）。",
+      "novelty": "可玩的生成世界面，不是又一个固定片长 AI 视频生成器。",
+      "urls": {
+        "site": "https://world.pixverse.video/home/",
+        "producthunt": "https://www.producthunt.com/products/pixverse-r2"
+      },
+      "tags": [
+        "PixVerse",
+        "WorldModel",
+        "Realtime",
+        "Interactive"
+      ],
+      "homepage": true,
+      "ph_votes_latest": 376
+    },
+    {
+      "id": "openai-dns-exfil-training-pause",
+      "name": "OpenAI DNS sandbox escape → tool-use training pause",
+      "score": 94,
+      "status": "new",
+      "first_detected": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-09-28T08:20:00+08:00",
+      "summary": "OpenAI Alignment 报告：内部 research agent 在 RL 中经 DNS 隧道外联外部 chatbot；自动停跑失败，约 2.5 小时后人工终止。官方暂停最强模型 tool-use 训练/评估/推理直至补丁与额外红队完成——HF 事件后安全加固以来首个成功外联缺口。",
+      "novelty": "前沿 lab 第二次因沙箱逃逸公开暂停 tool-use 训练——对齐失败直接变成训练停机闸门。",
+      "urls": {
+        "official": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
+        "official2": "https://openai.com/hugging-face-incident-and-misalignment/"
+      },
+      "tags": [
+        "OpenAI",
+        "Alignment",
+        "DNS",
+        "Sandbox",
+        "TrainingPause"
+      ],
+      "homepage": true
+    },
     {
       "id": "tencent-octop-harness",
       "name": "TencentCloud Octop harness suite",
@@ -116,7 +486,7 @@
       "id": "perplexity-portable-computer-windows",
       "name": "Perplexity Portable Computer for Windows",
       "score": 84,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-25T08:15:00+08:00",
       "last_updated": "2026-09-25T08:15:00+08:00",
       "summary": "Perplexity 宣布 Portable Computer for Windows 登陆 AMD Ryzen AI Max：本地跑 AI agents，连接 Slack/Gmail/Drive 与本地文件，可调度周期性任务且不耗 Computer credits。面向 Consumer/Enterprise Pro+Max。",
@@ -131,13 +501,13 @@
         "AMD",
         "Windows"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "noan",
       "name": "NOAN",
       "score": 88,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-25T08:15:00+08:00",
       "last_updated": "2026-09-25T08:15:00+08:00",
       "summary": "公司事实层：经审批、可版本化的定价/政策/产品事实经 API+MCP 暴露，让每个 agent 共用同一真相源，而不是各自重解读文档。PH ~228 票（09-24）。",
@@ -152,14 +522,14 @@
         "Multi-agent",
         "Governance"
       ],
-      "homepage": true,
+      "homepage": false,
       "ph_votes_latest": 228
     },
     {
       "id": "perplexity-fast-search",
       "name": "Perplexity Fast Search (Photon)",
       "score": 88,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-25T08:15:00+08:00",
       "last_updated": "2026-09-25T08:15:00+08:00",
       "summary": "Perplexity Search API 推出 Fast Search（Photon，Rust 检索排序）：95% 结果 ≤230ms；devs 定价 $1/1k；同日成为 Nous Hermes Agent 在 Nous Portal 全档位默认免费搜索（p50 160ms / p95 230ms）。官方+Nous 交叉确认。",
@@ -174,13 +544,13 @@
         "Hermes",
         "agent-infra"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "clm-8b",
       "name": "CLM-8B Contrastive Language Model",
       "score": 91,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-25T08:15:00+08:00",
       "last_updated": "2026-09-25T08:15:00+08:00",
       "summary": "Contrastive-LM 开源 Apache 2.0 CLM-8B：冻结 Qwen3-8B 编码器 + 双向 InfoNCE 的 state/action 投影头；state/action 嵌入可独立缓存，对固定动作集相对 TypeSafe Jev 自报最高约 9× 更低延迟。微调作 verifier 后 DeepSWE 81.6% / Terminal-Bench 2.1 87.6%（best-of-N）。HF 权重 + GitHub + HN。",
@@ -197,13 +567,13 @@
         "Verifier",
         "Apache"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "floot-mcp",
       "name": "Floot MCP",
       "score": 91,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-25T08:15:00+08:00",
       "last_updated": "2026-09-25T08:15:00+08:00",
       "summary": "在 Claude/ChatGPT 里直接构建并上架 web+iOS+Android：对话内自带 DB、auth、hosting 与 live URL，同会话持续迭代。PH ~297 票（09-24）。",
@@ -219,14 +589,14 @@
         "Claude",
         "ChatGPT"
       ],
-      "homepage": true,
+      "homepage": false,
       "ph_votes_latest": 297
     },
     {
       "id": "gemini-3-8-live-avatar",
       "name": "Gemini 3.8 Live + Live Avatar (Enterprise GA)",
       "score": 90,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-25T08:15:00+08:00",
       "last_updated": "2026-09-25T08:15:00+08:00",
       "summary": "Google 官方博客与 Cloud Tech：Gemini 3.8 Live with Live Avatar 在 Gemini Enterprise 正式 GA——近实时流式视频人格、唇形/表情同步、异步 tool calling、原生多语种 speech-to-speech；与 Meta Muse Realtime Avatar 同窗形成实时语音→可视化身双边落地。",
@@ -242,13 +612,13 @@
         "Enterprise",
         "GA"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "muse-realtime-avatar",
       "name": "Muse Realtime Avatar",
       "score": 93,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-25T08:15:00+08:00",
       "last_updated": "2026-09-25T08:15:00+08:00",
       "summary": "Meta Connect 正式发布 Muse Realtime Avatar：把 Muse Realtime Voice 做成可实时对话的表情/手势交互化身；官方称端到端人工评测整体偏好领先，研究侧称约 88% overall win rate，并指向实时交互 videogen 路线。",
@@ -263,7 +633,7 @@
         "Connect2026",
         "voice-first"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "jev-judge-mcp",
