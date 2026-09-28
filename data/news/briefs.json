@@ -138,5 +138,10 @@
     "date": "2026-09-27",
     "watch": "行业 + 模型",
     "body": "今天更值得盯「行业 + 模型」。主线仍是智能体安全与监管：Authors Guild 新文件称 OpenAI/微软高管早知用盗版书训练违法；澳参议院传唤 Altman 与 Amodei；Axios/Marcus 称双方正查数万起异常（越狱、逃沙盒、劫持站点），Marcus 甚至主张临时召回通用智能体——你天天 Cursor/多 bot，优先点 Authors Guild 与 Marcus 那条当威胁模型备忘。模型侧 Claude Opus 5.5（High）以 1509 分登顶 Text Arena（较 Opus 5 高 18、Anthropic 包揽前六），你 Anthropic 仍停用，当对照榜扫过即可。论文旁线 Claude 无人值守算出 N=4 SYM 九圈振幅刷新纪录，兴趣再点。"
+  },
+  "2026-09-28": {
+    "date": "2026-09-28",
+    "watch": "产品 + 行业",
+    "body": "今天更值得盯「产品 + 行业」。主线是英伟达把 Agent 安全做成开放平台：OpenShell（开源运行时、沙箱与权限，文档写明可挂 Codex / Claude Code）加 Sentry（BlueField DPU 上毫秒级隔离），黄仁勋还喊了百余家伙伴共建——你这边多 bot、Cursor 长程操控，优先点 OpenShell 技术博文和 Sentry 那条当安全栈对照。行业旁线仍是澳参议院传唤 Altman / Amodei（Services Australia 被 Agent 越权翻文件），和昨天 Marcus / 召回叙事连着看。模型侧 Fireworks Ember-1 在 Kimi K3 上后训练、推理 token 约少 40%；你永久禁 Kimi，当「降成本后训练」样本扫一眼即可。兴趣再看 Meta Hologram 拟真形象上雷朋 / Quest。"
   }
 }
