@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>互动演示</title>
+<style>
+:root {
+  color-scheme: light dark;
+  --bg: #f5f6f7;
+  --surface: #ffffff;
+  --text: #17202a;
+  --muted: #607080;
+  --line: #d9dee3;
+  --link: #246b89;
+  --font: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #12161c;
+    --surface: #1b2129;
+    --text: #e8eef4;
+    --muted: #9aabba;
+    --line: #2c3642;
+    --link: #8ec4de;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  line-height: 1.6;
+}
+main {
+  width: min(42rem, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+h1 {
+  margin: 0 0 0.4rem;
+  font-size: 1.8rem;
+  letter-spacing: -0.03em;
+}
+p {
+  margin: 0 0 1.5rem;
+  color: var(--muted);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+th, td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--line);
+}
+tr:last-child td { border-bottom: 0; }
+th {
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+a { color: var(--link); }
+time { font-variant-numeric: tabular-nums; }
+</style>
+</head>
+<body>
+<main>
+  <h1>互动演示</h1>
+  <p>这两页可以直接打开，不需要登录。</p>
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">标题</th>
+        <th scope="col">日期</th>
+        <th scope="col">打开</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="/essays/yue-yong-yue-congming/">越用越聪明</a></td>
+        <td><time datetime="2026-09-26">2026-09-26</time></td>
+        <td><a href="/essays/yue-yong-yue-congming/">打开</a></td>
+      </tr>
+      <tr>
+        <td><a href="/essays/an-xia-hui-che-zhi-hou/">按下回车之后</a></td>
+        <td><time datetime="2026-09-29">2026-09-29</time></td>
+        <td><a href="/essays/an-xia-hui-che-zhi-hou/">打开</a></td>
+      </tr>
+    </tbody>
+  </table>
+</main>
+</body>
+</html>

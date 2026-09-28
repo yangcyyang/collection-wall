@@ -86,12 +86,19 @@ function sessionCookie(response) {
   return match ? `${COOKIE_NAME}=${match[1]}` : "";
 }
 
-test("越用越聪明这一页公开，文章列表和其它文章仍要登录", async () => {
+test("两篇互动演示和公开目录免登录，文章列表和其它文章仍要登录", async () => {
   for (const path of [
     "/essays/yue-yong-yue-congming",
     "/essays/yue-yong-yue-congming/",
     "/essays/yue-yong-yue-congming/index.html",
     "/essays/yue-yong-yue-congming/cover.png",
+    "/essays/an-xia-hui-che-zhi-hou",
+    "/essays/an-xia-hui-che-zhi-hou/",
+    "/essays/an-xia-hui-che-zhi-hou/index.html",
+    "/essays/an-xia-hui-che-zhi-hou/cover.png",
+    "/essays/demos",
+    "/essays/demos/",
+    "/essays/demos/index.html",
   ]) {
     assert.equal(isPublicPath(path), true, path);
     const response = await dispatch(path);
@@ -106,6 +113,9 @@ test("越用越聪明这一页公开，文章列表和其它文章仍要登录",
     "/essays/claude-ai-3x-faster/",
     "/essays/yue-yong-yue-congming-extra/",
     "/essays/yue-yong-yue-congming2/",
+    "/essays/an-xia-hui-che-zhi-hou-extra/",
+    "/essays/an-xia-hui-che-zhi-hou2/",
+    "/essays/demos-extra/",
   ]) {
     assert.equal(isPublicPath(path), false, path);
     const response = await dispatch(path);
