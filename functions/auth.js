@@ -8,12 +8,20 @@ const RESEND_ENDPOINT = "https://api.resend.com/emails";
 const DEFAULT_RESEND_FROM = "onboarding@resend.dev";
 
 const PUBLIC_EXACT = new Set(["/news", "/twitter", "/login", "/favicon.ico", "/favicon.svg", "/robots.txt"]);
-const PUBLIC_ESSAY = "/essays/yue-yong-yue-congming";
+const PUBLIC_ESSAYS = [
+  "/essays/yue-yong-yue-congming",
+  "/essays/an-xia-hui-che-zhi-hou",
+  "/essays/demos",
+];
+
+function isPublicEssayPath(path) {
+  return PUBLIC_ESSAYS.some((base) => path === base || path.startsWith(`${base}/`));
+}
 
 export function isPublicPath(pathname) {
   const path = pathname || "/";
   if (PUBLIC_EXACT.has(path)) return true;
-  if (path === PUBLIC_ESSAY || path.startsWith(`${PUBLIC_ESSAY}/`)) return true;
+  if (isPublicEssayPath(path)) return true;
   return (
     path.startsWith("/news/")
     || path.startsWith("/twitter/")
