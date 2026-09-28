@@ -1,0 +1,977 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-28",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2104409508470546503",
+      "author": "AI_Jasonyu",
+      "bio": "",
+      "text": "重新开始VibeCoding，先改造一个老项目，在后台直接接入了一个博客系统，根据谷歌的搜索热度来给出词，可以自动根据这些长尾词产出博客，我来点发布，也可以手动生成长尾的文章，接入了Claude的模型、DataforSEO~~ https://t.co/YMJNl4b1wa",
+      "created_at": "Mon Sep 28 03:14:59 +0000 2026",
+      "likes": 4,
+      "views": "755",
+      "url": "https://x.com/i/status/2104409508470546503",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HTRc-LwW8AApzdQ.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HTRc-LwW8AApzdQ.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 57.943,
+      "summary": "重新开始VibeCoding，先改造一个老项目，在后台直接接入了一个博客系统，根据谷歌的搜索热度来给出词，可以自动根据这些长尾词产出博客，我来点发布，也可以手动生成长尾的文章，接入了Claude的模型、DataforSEO~~ https://t.co/YMJNl4b1wa",
+      "recommend_reason": "VibeCoding 老项目接博客：按 Google 热度出长尾词、Claude+DataforSEO 自动起草，增长向实作。",
+      "tags": [
+        "指定AI名单",
+        "VibeCoding",
+        "SEO",
+        "Claude",
+        "博客"
+      ],
+      "section": "指定AI名单",
+      "rank": 1
+    },
+    {
+      "id": "2104406226100740227",
+      "author": "gkxspace",
+      "bio": "",
+      "text": "真香，最近满屏都是 Opus 5.5 动效视频，刚想研究怎么搞，喂饭级的清单就来了😋！！！\n\n180 个能让 Claude、Codex 直接做视频、剪视频的开源 skill，全部分好了类，做了安全评级。\n\n1、剪口播：cut-video 自动剪掉静音和嗯啊，还有个 Premiere 的 MCP 1027 个工具，agent 能直接在 PR 里剪时间线、调色、混音。\n\n2、做产品宣传片：video-shotcraft 带 152 张镜头配方卡，归藏的 skill 拿你产品真实的组件做更新宣传片，画面和产品一模一样。\n\n3、做科普号：vox-director 给一个选题，出一条 Vox 那种纸拼贴讲解视频。Paper-Cut 完全不用视频模型，图像模型出图后拆层、用代码做动画。\n\n4、不露脸账号：有现成的 Shorts 工厂，画面、配音、逐词字幕一条龙。\n\n5、中文内容：丢一首诗或一个成语，出国风纸片动画；丢一段中文故事，出手绘漫画风动画。\n\n6、做数据号：CSV 丢进去，出动态图表，每一帧的数字都是准的。\n\n......\n\n🔗：https://t.co/RuWSDWyURY",
+      "created_at": "Mon Sep 28 03:01:56 +0000 2026",
+      "likes": 18,
+      "views": "1733",
+      "url": "https://x.com/i/status/2104406226100740227",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HTRYkr0akAA8ZDy.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HTRYkr0akAA8ZDy.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2104215886429331580",
+        "author": "GoSailGlobal",
+        "name": "Jason Zhu",
+        "text": "https://t.co/1uURKVROBg",
+        "created_at": "Sun Sep 27 14:25:36 +0000 2026",
+        "url": "https://x.com/GoSailGlobal/status/2104215886429331580",
+        "has_media": false,
+        "media_urls": [],
+        "media_posters": []
+      },
+      "score": 64.931,
+      "title": "180 个 Claude/Codex 视频向开源 Skill 清单：剪口播、宣传片、Vox 风到数据动态图",
+      "summary": "作者整理约 180 个可让 Claude/Codex 做视频与剪辑的开源 skill，并分类与安全评级：cut-video 去静音语气词、Premiere MCP 可改时间线；video-shotcraft 带镜头配方做产品片；vox-director / Paper-Cut 做科普纸拼贴；另有 Shorts 工厂、国风纸片与 CSV 动态图表等入口链。",
+      "recommend_reason": "把近期刷屏的 Opus 动效从「看热闹」收成可检索的技能地图，信息密度高于单条 demo。",
+      "tags": [
+        "Claude",
+        "Opus5.5",
+        "Skill",
+        "AI视频",
+        "开源"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2104406001948754164",
+      "author": "xiaohu",
+      "bio": "",
+      "text": "被 Opus 5.5 生成的视频\n\n刷了好几天\n\n恰好证明证明了一点\n\n没有品味和缺乏相关专业经验，制作出来的东西确实是让人感到很不适...\n\n最终只能沦为自嗨...\n\n打铁还需自生硬，当下大家还是要在自己的专业能力和自己擅长领域搞事情，这样结合AI才能有所作为...\n\n不然就是自嗨和浪费时间，永远记住模型强不是你强，模型的能力不是你的能力，要有自知之明...(非贬义)",
+      "created_at": "Mon Sep 28 03:01:03 +0000 2026",
+      "likes": 32,
+      "views": "4546",
+      "url": "https://x.com/i/status/2104406001948754164",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 58.02,
+      "summary": "被 Opus 5.5 生成的视频\n\n刷了好几天\n\n恰好证明证明了一点\n\n没有品味和缺乏相关专业经验，制作出来的东西确实是让人感到很不适...\n\n最终只能沦为自嗨...\n\n打铁还需自生硬，当下大家还是要在自己的专业能力和自己擅长领域搞事情，这样结合AI才能有所作为...\n\n不然就是自嗨和浪费时间，永远记住模型强不是你强，模型的能力不是你的能力，要有自知之明...(非贬义)",
+      "recommend_reason": "对着刷屏的 Opus 视频泼冷水：缺品味与专业经验只会自嗨，模型强≠你强。",
+      "tags": [
+        "指定AI名单",
+        "Opus5.5",
+        "品味",
+        "创作"
+      ],
+      "section": "指定AI名单",
+      "rank": 3
+    },
+    {
+      "id": "2104402002868592659",
+      "author": "emollick",
+      "name": "Ethan Mollick",
+      "text": "I was reflecting on how many random contingencies went into creating the current accelerating AI moment and had Opus 5.5 put together a video, inspired by old science show Connections, to try and point out how a series of initially unrelated ideas led to the moment we are in now. https://t.co/PrjIADDPQh",
+      "likes": 159,
+      "retweets": 13,
+      "replies": 21,
+      "views": 11619,
+      "is_retweet": false,
+      "created_at": "Mon Sep 28 02:45:10 +0000 2026",
+      "url": "https://x.com/emollick/status/2104402002868592659",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2104400210608664576/vid/avc1/480x270/sOKVYHViXENt-XIX.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2104400210608664576/img/to5vIsHvglxQOh9a.jpg"
+      ],
+      "quoted_tweet": null,
+      "score": 69.787,
+      "title": "Emollick×Opus 5.5：用老科普片 Connections 风串起通向当下 AI 加速的偶然线索",
+      "summary": "Ethan Mollick 反思当下 AI 加速时刻背后有多少随机偶然，并让 Opus 5.5 做成类似老科学节目 Connections 风格的视频，串联起初看似无关的想法如何汇成此刻。",
+      "recommend_reason": "用视频叙事梳理「偶然拼出的 AI 时刻」，比单条观点帖更适合当作背景片收藏。",
+      "tags": [
+        "指定AI名单",
+        "emollick",
+        "Opus5.5",
+        "AI视频",
+        "科学史"
+      ],
+      "section": "指定AI名单",
+      "rank": 4
+    },
+    {
+      "id": "2104393370043105366",
+      "author": "xiaohu",
+      "bio": "",
+      "text": "Higgsfield 的 11 个制作技能：让 AI 交付还能继续改的工程\n\nHiggsfield 面向 Claude Opus 5.5 推出了一套制作技能：\n\n从搭建三维场景、制作视觉特效、清理镜头、给素材调色。\n\n套装包含了 11 个工作流，覆盖 Blender、Premiere Pro、After Effects、Illustrator、Photoshop、TouchDesigner 和  DaVinci Resolve Studio...",
+      "created_at": "Mon Sep 28 02:10:51 +0000 2026",
+      "likes": 3,
+      "views": "2102",
+      "url": "https://x.com/i/status/2104393370043105366",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HTRLCDfa8AA1hTM.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HTRLCDfa8AA1hTM.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 56.418,
+      "title": "Higgsfield 为 Opus 5.5 推 11 个制作技能：Blender 到达芬奇可继续改的工程链",
+      "summary": "Higgsfield 面向 Claude Opus 5.5 推出制作技能套装，覆盖搭三维、做特效、清镜头、调色等，串联 Blender、Premiere、AE、Illustrator、Photoshop、TouchDesigner 与 DaVinci Resolve 等，强调交付后仍可继续改。",
+      "recommend_reason": "把「AI 出片」接到主流后期/三维工具链，比只能看不能改的 demo 更贴近制作流程。",
+      "tags": [
+        "指定AI名单",
+        "Higgsfield",
+        "Opus5.5",
+        "影视制作",
+        "Skill"
+      ],
+      "section": "指定AI名单",
+      "rank": 5
+    },
+    {
+      "id": "2104388925712420968",
+      "author": "xiaoxiaodong",
+      "bio": "",
+      "text": "GPT-image2.5 API 还是这么喜欢生成透明度图片哦\n\n知道有个参数可以关闭， 我要去操作下：\n\n可以。GPT Image 2.5 API 可以关闭透明背景生成，只需要把 background 参数设置为 \"opaque\"。\n\n例如：\n```\nfrom openai import OpenAI\n\nclient = OpenAI()\n\nresult = client.images.generate(\nmodel=\"gpt-image-2.5-sunburst\",\nprompt=\"一只坐在草地上的猫\",\nsize=\"1024x1024\",\nquality=\"medium\",\nbackground=\"opaque\",   # 强制非透明背景\noutput_format=\"png\"\n)\n```",
+      "created_at": "Mon Sep 28 01:53:12 +0000 2026",
+      "likes": 11,
+      "views": "872",
+      "url": "https://x.com/i/status/2104388925712420968",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HTRJT7DbYAA6WqH.jpg",
+        "https://pbs.twimg.com/media/HTRJT7UagAAf2qq.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HTRJT7DbYAA6WqH.jpg",
+        "https://pbs.twimg.com/media/HTRJT7UagAAf2qq.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 64.011,
+      "title": "GPT Image 2.5：用 background=\"opaque\" 关掉默认透明底",
+      "summary": "作者指出 GPT-image2.5 API 很爱出透明图；可用 background 设为 \"opaque\" 强制非透明背景，并给出 Python 示例（模型名 gpt-image-2.5-sunburst、png 输出等）。",
+      "recommend_reason": "一条可复制的 API 参数技巧，立刻解决「图总是透明」的踩坑。",
+      "tags": [
+        "GPT-image",
+        "OpenAI",
+        "API",
+        "生图"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2104387777974370653",
+      "author": "VigoCreativeAI",
+      "bio": "Product designer exploring AI, visual culture and creative tools.\nSharing experiments, design thinking & reusable workflows.\n130+ styles ↓ hi@vigocreativeai.com",
+      "text": "Prompt ↓\n\nCreate a finished experimental editorial poster, 9:16, flat artwork with a thin cream paper edge. Ordered CMYK halftone photography, milky defocused white type, hot yellow-to-red print field.\n\nOne high-contrast photographic subject and the colored background are rebuilt from regular CMYK circular halftone dots: angled rows, visible rosettes, subtle cyan and magenta registration fringes. Near-black shadows and cream highlights keep the photo readable. Ordered print screening, not random grain.\n\nOne oversized title in bold grotesk, milky white, on a separate smooth layer with soft Gaussian blur and a broad airbrushed halo. No speckle or distress on the white letters. Small supporting copy and a tiny metadata line in razor-sharp black. The subject's shape guides where the title words sit.\n\nTitle: \"[MAIN_TEXT]\"\nSupporting copy: \"[SECONDARY_TEXT]\"\nMetadata: \"[META_TEXT]\"\nSubject: [ONE BOLD PHOTOGRAPHIC FORM + LIGHT]\nLayout: [HOW THE SUBJECT SPLITS OR CARRIES THE TITLE]\n\nNo extra text, no logos, no watermark, no random film grain, no vintage yellowing, no distressed or outlined white title, no mockup perspective.",
+      "likes": 2,
+      "retweets": 0,
+      "replies": 1,
+      "views": 75,
+      "created_at": "Mon Sep 28 01:48:38 +0000 2026",
+      "url": "https://x.com/VigoCreativeAI/status/2104387777974370653",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 60.357,
+      "title": "CMYK 半色调实验海报提示词：奶油纸边、乳白模糊大标题与锐利黑字层级",
+      "summary": "一则可填空的实验编辑海报提示词：9:16 平面、奶油纸边，主体与色场用有序 CMYK 圆形半色调重建；超大乳白 grotesk 标题单独柔焦层，辅文与元数据用锐利黑字；并明确排除胶片噪点、做旧与透视样机等。",
+      "recommend_reason": "少见把印刷半色调与标题层级写死的长提示词，做视觉实验可直接改占位符。",
+      "tags": [
+        "指定AI名单",
+        "提示词",
+        "图像生成",
+        "半色调",
+        "设计"
+      ],
+      "section": "指定AI名单",
+      "rank": 7
+    },
+    {
+      "id": "2104382239962546231",
+      "author": "imwsl90",
+      "bio": "",
+      "text": "AI创业的五个层次 \n\n基础模型层 -> 基础设施/工具链 -> 中间层/Agent框架->应用层 -> 服务/咨询层\n\n想了一下，最底层 - 服务/咨询层最适合我 https://t.co/QgAwIXyFaB",
+      "created_at": "Mon Sep 28 01:26:38 +0000 2026",
+      "likes": 2,
+      "views": "811",
+      "url": "https://x.com/i/status/2104382239962546231",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HTREJrub0AA1jW2.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HTREJrub0AA1jW2.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 55.591,
+      "summary": "AI创业的五个层次 \n\n基础模型层 -> 基础设施/工具链 -> 中间层/Agent框架->应用层 -> 服务/咨询层\n\n想了一下，最底层 - 服务/咨询层最适合我 https://t.co/QgAwIXyFaB",
+      "recommend_reason": "把 AI 创业拆成五层并自定位服务/咨询层，框架简单好记，适合对照自己卡在哪一层。",
+      "tags": [
+        "指定AI名单",
+        "AI创业",
+        "分层",
+        "咨询"
+      ],
+      "section": "指定AI名单",
+      "rank": 8
+    },
+    {
+      "id": "2104376897400623141",
+      "author": "wshuyi",
+      "bio": "",
+      "text": "星友问：历史研究有哪些数字工具，AI能怎样帮环境史研究？隔行如隔山，我没做过历史研究，便请GPT-6 Pro调研，再用Opus 5.5整理成视频。GIS、古籍文本挖掘、史料整理与学习渠道，希望给同样困惑的你一些参考，也欢迎同行指正。 https://t.co/gLTiHcSzjB",
+      "created_at": "Mon Sep 28 01:05:24 +0000 2026",
+      "likes": 3,
+      "views": "913",
+      "url": "https://x.com/i/status/2104376897400623141",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2104373202915151872/vid/avc1/480x270/wiy_vDVXrIm_nHgP.mp4?tag=29"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2104373202915151872/img/0_GkogTMaNhi_2rG.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 56.671,
+      "summary": "星友问：历史研究有哪些数字工具，AI能怎样帮环境史研究？隔行如隔山，我没做过历史研究，便请GPT-6 Pro调研，再用Opus 5.5整理成视频。GIS、古籍文本挖掘、史料整理与学习渠道，希望给同样困惑的你一些参考，也欢迎同行指正。 https://t.co/gLTiHcSzjB",
+      "recommend_reason": "用 GPT-6 Pro 调研 + Opus 5.5 做成环境史数字工具视频，跨学科「外行求助」工作流可复用。",
+      "tags": [
+        "指定AI名单",
+        "GPT-6",
+        "Opus5.5",
+        "数字人文",
+        "科研"
+      ],
+      "section": "指定AI名单",
+      "rank": 9
+    },
+    {
+      "id": "2104376298579923336",
+      "author": "TheTuringPost",
+      "name": "Turing Post",
+      "text": "AI agents can write working MongoDB code. But they still make mistakes in how they structure data or choose indexes.\n\nThat’s why @MongoDB introduced Agent Skills to give them more specific decision guidance.\n\n→ The idea:\nAgents get MongoDB patterns they can apply while writing code, so you don’t have to repeat the same rules in every prompt.\n\nHere’s what’s included:\n\n- Guidance on schema design, indexing, and queries to avoid mistakes\n\n- Database access through the MongoDB MCP Server\n\n- Plugins that bring both together\n\nYou can get started in Claude Code, Cursor, Gemini CLI, and VS Code. The article includes installation commands + links to setup instructions.\n\nYou can also create your own skills for team conventions and recurring workflows, so agents have your project’s rules to work from.\n\nIf you use AI agents to write MongoDB code, this is a helpful starting point to add context and avoid common mistakes.\n\nFor setup steps and an overview of how it works, check out the full article → https://t.co/9MENytA8bi",
+      "likes": 9,
+      "retweets": 2,
+      "replies": 7,
+      "views": 944,
+      "is_retweet": false,
+      "created_at": "Mon Sep 28 01:03:01 +0000 2026",
+      "url": "https://x.com/TheTuringPost/status/2104376298579923336",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HTQ_F3gakAA1510.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HTQ_F3gakAA1510.png"
+      ],
+      "quoted_tweet": null,
+      "score": 61.55,
+      "title": "MongoDB Agent Skills：给代理 schema/索引/查询决策指引，可接 Claude Code 与 Cursor",
+      "summary": "The Turing Post 介绍 MongoDB 推出的 Agent Skills：在写库代码时注入 schema 设计、索引与查询模式，经 MCP Server 访问数据库，并在 Claude Code、Cursor、Gemini CLI、VS Code 安装；也可自建团队约定 skill，减少每条提示词重复规则。",
+      "recommend_reason": "把「代理会写能跑的 Mongo 代码但仍选错索引」落到可安装的技能包，工程向可跟进。",
+      "tags": [
+        "指定AI名单",
+        "MongoDB",
+        "Agent",
+        "Skill",
+        "MCP"
+      ],
+      "section": "指定AI名单",
+      "rank": 10
+    },
+    {
+      "id": "2104375790733545701",
+      "author": "dingyi",
+      "bio": "",
+      "text": "卧槽 Muse 内置的语音也很好用啊！\n\n按住 Fn → 说话 →  右下角弹出可爱的 bot，\n\n当你在输入框时就转文字，当你在桌面上，自动保存一个 txt 文件到桌面。太 ™方便了。建议豆包/微信输入法都学一下。\n\n而且发现 Codex/Muse 这些国外产品的内置语音输入识别率都出奇的好，中英文混合也基本没有错，神了。",
+      "created_at": "Mon Sep 28 01:01:00 +0000 2026",
+      "likes": 18,
+      "views": "4160",
+      "url": "https://x.com/i/status/2104375790733545701",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 55.603,
+      "summary": "卧槽 Muse 内置的语音也很好用啊！\n\n按住 Fn → 说话 →  右下角弹出可爱的 bot，\n\n当你在输入框时就转文字，当你在桌面上，自动保存一个 txt 文件到桌面。太 ™方便了。建议豆包/微信输入法都学一下。\n\n而且发现 Codex/Muse 这些国外产品的内置语音输入识别率都出奇的好，中英文混合也基本没有错，神了。",
+      "recommend_reason": "Muse 系统级按键语音：输入框转写、桌面落 txt，并称中英混杂识别稳，产品细节可对照国内输入法。",
+      "tags": [
+        "指定AI名单",
+        "Muse",
+        "语音输入",
+        "生产力"
+      ],
+      "section": "指定AI名单",
+      "rank": 11
+    },
+    {
+      "id": "2104371367793844299",
+      "author": "TheTuringPost",
+      "name": "Turing Post",
+      "text": "A very interesting paper on long-term multimodal agent memory ↓\n\n@MemoraX_AI introduced open-source GraphMemix. It reframes long-term memory retrieval from ranking individual records to building a query-aware \"evidence forest.\"\n\nSince it's a graph, each memory is a node.\nAn edge links two memories when each adds context to the other.\n\n→ The system's core question is: does this memory add something useful beyond what we already found?\n\nHere’s how it works:\n\n1. After a question arrives, GraphMemix builds a graph around relevant memories.\n\n2. It checks individual memories and their connections, then selects a set that supports the answer together.\n\nThis helps recover useful details that similarity search often misses, reducing redundant context as well.\n\nAcross 4 multimodal memory benchmarks, average judge-rated accuracy reached:\n\n• 61.55% with Qwen3-VL-8B, +11.75 points over the strongest baseline on average.\n• 67.42% with Gemma 4 12B, showing gains with another model too.\n\nIn one example, GraphMemix had to identify two dogs described as smart and quick to learn. It connected clues that similarity search missed and correctly identified both: Lumi the Maltese and Coco the Toy Poodle.\n\nSo a memory that looks unimportant alone can become essential when connected to another.",
+      "likes": 10,
+      "retweets": 4,
+      "replies": 3,
+      "views": 966,
+      "is_retweet": false,
+      "created_at": "Mon Sep 28 00:43:26 +0000 2026",
+      "url": "https://x.com/TheTuringPost/status/2104371367793844299",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HTQ6m0tawAAdAh3.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HTQ6m0tawAAdAh3.jpg"
+      ],
+      "quoted_tweet": null,
+      "score": 61.11,
+      "title": "GraphMemix：长时多模态记忆从「单条排序」改为构建查询感知证据森林",
+      "summary": "MemoraX 开源 GraphMemix：记忆为图节点，互为上下文则连边；检索时围绕问题建图，判断新记忆是否相对已选集合带来增量，组成共同支撑答案的证据集。四项多模态记忆基准上，Qwen3-VL-8B 均分约 61.55%（较最强基线 +11.75），Gemma 4 12B 约 67.42%；示例里靠关联线索识别两只狗，而纯相似度检索会漏。",
+      "recommend_reason": "长时记忆从相似度 Top-K 升级到「证据森林」，论文+开源且有可感知的基准增益。",
+      "tags": [
+        "指定AI名单",
+        "GraphMemix",
+        "Agent记忆",
+        "多模态",
+        "开源"
+      ],
+      "section": "指定AI名单",
+      "rank": 12
+    },
+    {
+      "id": "2104365701410820363",
+      "author": "fchollet",
+      "name": "François Chollet",
+      "text": "The purpose of the AI industry should be to produce tools that, in the human hand, will improve human prosperity and welfare.\n\nIt should not be to create a \"successor species\" to the human race. Entertaining such a thought makes you, de facto, the enemy of all present and future humans.",
+      "likes": 1235,
+      "retweets": 152,
+      "replies": 117,
+      "views": 38346,
+      "is_retweet": false,
+      "created_at": "Mon Sep 28 00:20:55 +0000 2026",
+      "url": "https://x.com/fchollet/status/2104365701410820363",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "quoted_tweet": null,
+      "score": 59.037,
+      "title": "Chollet：AI 产业目标应是人手中的繁荣工具，而非打造人类「继任物种」",
+      "summary": "François Chollet 写道：AI 产业的目的应是造出在人手中能提升人类繁荣与福祉的工具，而不是创造人类的「继任物种」；抱持后者等于与所有现世及未来人类为敌。",
+      "recommend_reason": "Chollet 对产业目的论的强硬划线，适合对照「继任物种」叙事。",
+      "tags": [
+        "指定AI名单",
+        "fchollet",
+        "对齐",
+        "AI安全",
+        "价值观"
+      ],
+      "section": "指定AI名单",
+      "rank": 13
+    },
+    {
+      "id": "2104364838952808896",
+      "author": "ianneo_ai",
+      "bio": "",
+      "text": "不是吧 Claude 有个小细节\n\n我刚看完回答，手还没放上键盘，输入框里已经躺着一行灰字：可以，两页一起改\n\n这就是我要打的话，它已经进化成我的嘴替了，你们有被它预判过吗 https://t.co/AzCr4iBGWr",
+      "created_at": "Mon Sep 28 00:17:29 +0000 2026",
+      "likes": 8,
+      "views": "2137",
+      "url": "https://x.com/i/status/2104364838952808896",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HTQ0nSJa4AAvUph.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HTQ0nSJa4AAvUph.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 58.442,
+      "summary": "不是吧 Claude 有个小细节\n\n我刚看完回答，手还没放上键盘，输入框里已经躺着一行灰字：可以，两页一起改\n\n这就是我要打的话，它已经进化成我的嘴替了，你们有被它预判过吗 https://t.co/AzCr4iBGWr",
+      "recommend_reason": "Claude 输入框灰字预填下一句的交互细节，是「模型当嘴替」的可感 UX 信号。",
+      "tags": [
+        "指定AI名单",
+        "Claude",
+        "UX",
+        "自动完成"
+      ],
+      "section": "指定AI名单",
+      "rank": 14
+    },
+    {
+      "id": "2104362801099931791",
+      "author": "dingyi",
+      "bio": "",
+      "text": "提示词原作者：https://t.co/QyaWMzdzp9\n\n5.5 之所以爆火因为提示词极大降低了门槛，你只需要写「充分展现你作为动态设计师的卓越才能，就像制作简历中的作品集一样。全力以赴。」这种空洞的话，大模型就能生成超乎想象的动效视频。你都不需要写具体的每一个细节。\n\n我看了下评论区的那个 awesome 5.5 videos 仓库，其实都是拿别人的视频然后一句「你复刻一遍」，也根本没有什么提示词😅\n\nA\\ 这次太牛逼了，直接给你一个黑箱，用户也不用关心具体什么提示词了，让所有人都能参与进来。",
+      "created_at": "Mon Sep 28 00:09:23 +0000 2026",
+      "likes": 46,
+      "views": "8859",
+      "url": "https://x.com/i/status/2104362801099931791",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HTQxbkobsAAGDWS.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HTQxbkobsAAGDWS.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2104189317468069961",
+        "author": "servasyy_ai",
+        "name": "huangserva",
+        "text": "推荐一个，我目前遇到的，最好玩的\nopus5.5的开源视频提示词清单\n\n提示词原文：\nmake a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out.\n\n这 43 条是从 GitHub 上的 awesome-opus5-5-videos 清单里筛出来的。\n清单收了 282 条 X 上用 Opus 5.5 做的片子，其中 43 条用的是一字不差的这句提示词。\n\n项目链接放评论区👇🏻",
+        "created_at": "Sun Sep 27 12:40:01 +0000 2026",
+        "url": "https://x.com/servasyy_ai/status/2104189317468069961",
+        "has_media": true,
+        "media_urls": [
+          "https://video.twimg.com/amplify_video/2104185285844344832/vid/avc1/480x270/rmz7F4NC0c_wo23c.mp4?tag=29"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/amplify_video_thumb/2104185285844344832/img/TI0suORplttFfN35.jpg"
+        ]
+      },
+      "score": 63.436,
+      "title": "dingyi：Opus 5.5 动效爆火因空洞提示词也能出片，awesome 仓多是「复刻一遍」",
+      "summary": "作者认为 5.5 爆火是因为门槛被提示词抹平：写「充分展现动态设计师才能」这类空话也能出超预期动效；评论区 awesome 仓库其实多是拿别人视频让模型「复刻一遍」，并无精细提示词。他称这像给用户一个黑箱，让更多人能参与。",
+      "recommend_reason": "对「提示词神话」降温：点出复刻式工作流与黑箱化参与，有助于判断技能仓含金量。",
+      "tags": [
+        "指定AI名单",
+        "Opus5.5",
+        "提示词",
+        "AI视频",
+        "评论"
+      ],
+      "section": "指定AI名单",
+      "rank": 15
+    },
+    {
+      "id": "2104360473491861949",
+      "author": "GoSailGlobal",
+      "bio": "",
+      "text": "模型从空手开局，在《我的世界》里一路打到末影龙，8 分 43 秒通关\n\n零死亡，满血走出末地传送门\n\nminecraft-agent，一周 559 星\n\n分工是两个模型\n\nGPT-6 Astra 当规划者：定当前目标、要拿什么、往哪走\nTypeSafe 的 Jev 当控制器：从当前游戏状态里选下一个动作\n\n这一局 Jev 做了 131 次决策，Astra 调用 35 次。最后六张床炸死末影龙，一次落地解决\n\n比上一版录制快了 40%，屠龙那段从 332 秒压到 152 秒\n\n全程没有重开、没有改代码、没有人工接管\n\n这类演示最容易注水，所以作者自己划了几条线\n\n服务端那个读龙头坐标的观测接口是只读的，不发道具、不移动玩家、不改血量、不改龙的 AI\n所有动作走正常玩家协议，不改游戏规则\n模型拿到的是结构化游戏状态，不是截图也不是逐个按键，寻路交给 Mineflayer\ncombat-lab 那台测试服可以预置道具，作者写明：测试台结果不算完整生存通关，也绝不能说成模型控制的运行\n录制中途如果更新过代码，必须在视频里标出暂停点，不许说成无死亡不间断\n\n顺带一提，这个种子是选过的：有村庄、三个补给箱共 21 个黑曜石、天然已激活的末地传送门。作者也说了，这是一个好用的速通种子，不代表最简单\n\n一个提醒：仓库没有放开源协议，默认版权保留，想拿去改先问作者",
+      "created_at": "Mon Sep 28 00:00:08 +0000 2026",
+      "likes": 8,
+      "views": "1133",
+      "url": "https://x.com/i/status/2104360473491861949",
+      "has_media": true,
+      "media_urls": [
+        "https://video.twimg.com/amplify_video/2104360449802428416/vid/avc1/480x270/f1wvg8y4WrI5NXTz.mp4?tag=16"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/amplify_video_thumb/2104360449802428416/img/tO3N2u6qq3kpHeSE.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 62.492,
+      "title": "minecraft-agent：Astra 规划 + Jev 控制，选种速通末影龙 8 分 43 秒零死亡",
+      "summary": "演示里双模型分工：GPT-6 Astra 做规划，TypeSafe 的 Jev 做控制器，从结构化状态选动作；一局 Jev 决策 131 次、Astra 调用 35 次，末地六床炸龙，全程无重开无改码无接管。作者划清边界：龙头坐标观测只读、动作走玩家协议、截图/按键不喂模型，并写明种子偏好与「测试台≠完整生存」；仓库未开源协议需先问作者。",
+      "recommend_reason": "少见地把通关演示与防注水边界写清楚的 Minecraft Agent 复盘，比纯高光视频更值得存档。",
+      "tags": [
+        "Agent",
+        "Minecraft",
+        "GPT-6",
+        "Astra",
+        "Jev"
+      ],
+      "rank": 16
+    },
+    {
+      "id": "2104350592290406849",
+      "author": "levie",
+      "bio": "",
+      "text": "Interesting to think about all the implications in a world where agents begin to make the best or most efficient choice for their users.\n\nOn one hand, there is some subset of the economy that benefits from the friction customers traditionally have changing something about their habits. In those parts of the market, switching costs will come down and competition is going to increase dramatically until some equilibrium is reached between the disruptive alternatives and the incumbents.\n\nOn the other hand, there are lots of markets that are hurt by a significant amount of friction, where agents will begin to unlock all kinds of economic activity by making it far easier to buy products or services that were too frictionful before. Healthcare, travel, local services, certain information services, and other entirely new markets probably are net beneficiaries of agents as a result.\n\nNo matter what, a future meaningfully mediated by agents that work tirelessly for us and our goals can’t possibly function exactly the same as today. Going to be wild.",
+      "created_at": "Sun Sep 27 23:20:52 +0000 2026",
+      "likes": 124,
+      "views": "40112",
+      "url": "https://x.com/i/status/2104350592290406849",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": {
+        "id": "2104213040937812262",
+        "author": "JasonYanowitz",
+        "name": "Yano 🟪",
+        "text": "Fascinating.\n\nChief Economist at Apollo: agents could cause a bank run by sweeping household cash into accounts paying 3-5% instead of the 0.1% national average, causing banks to lose a large share of their cheap deposits. https://t.co/h9jo4cSXcB",
+        "created_at": "Sun Sep 27 14:14:18 +0000 2026",
+        "url": "https://x.com/JasonYanowitz/status/2104213040937812262",
+        "has_media": true,
+        "media_urls": [
+          "https://pbs.twimg.com/media/HTOpwRAWMAA9TeT.jpg"
+        ],
+        "media_posters": [
+          "https://pbs.twimg.com/media/HTOpwRAWMAA9TeT.jpg"
+        ]
+      },
+      "score": 59.331,
+      "title": "Levie：代理替用户做最优选择将压低切换成本，也解锁高摩擦行业需求",
+      "summary": "Box CEO Aaron Levie 讨论代理开始为用户做最高效选择时的经济含义：依赖习惯摩擦的市场切换成本下降、竞争加剧；医疗、旅行、本地服务等信息摩擦高的行业则可能被解锁。无论怎样，由代理深度中介的未来不会与今天相同。",
+      "recommend_reason": "从切换成本与摩擦行业两侧拆代理经济，比单边「颠覆一切」更完整。",
+      "tags": [
+        "指定AI名单",
+        "levie",
+        "Agent",
+        "切换成本",
+        "产业"
+      ],
+      "section": "指定AI名单",
+      "rank": 17
+    },
+    {
+      "id": "2104329978146115998",
+      "author": "cline",
+      "name": "Cline",
+      "text": "Ember-1 by the Fireworks Research team is built on Kimi K3, and uses ~40% fewer tokens while achieving the same performance on benchmarks.\n\nThis was accomplished by post-training K3 to think less repetitively.\n\nReasoning models spend most of their output tokens (sometimes 90%+) on thinking before they answer, which gets expensive in agentic loops where the model tends to re-think the same thoughts on every step.\n\nFireworks RL trained on real agentic coding task loops to teach the model which reasoning actually changes the answer vs which is just looping.\n\nIn a live A/B test on coding traffic, Ember-1 used 71% fewer reasoning tokens and 39% fewer total tokens than K3 at the same success rate.",
+      "likes": 432,
+      "retweets": 18,
+      "replies": 23,
+      "views": 19423,
+      "is_retweet": false,
+      "created_at": "Sun Sep 27 21:58:58 +0000 2026",
+      "url": "https://x.com/cline/status/2104329978146115998",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HTQTOboaEAAielD.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HTQTOboaEAAielD.jpg"
+      ],
+      "quoted_tweet": null,
+      "score": 76.426,
+      "title": "Fireworks Ember-1：在 Kimi K3 上后训练少复读，代理循环同成功率下总 token 约少 39%",
+      "summary": "Cline 介绍 Fireworks Research 的 Ember-1：基于 Kimi K3，经 RL 在真实代理编码循环中训练，让模型少做无效重复思考。基准上约少用 40% token 仍保持相近表现；线上 A/B 显示推理 token 少 71%、总 token 少 39%，成功率持平。推理模型输出常有 90%+ 花在思考上，代理每步重想会很贵，此工作针对这一点。",
+      "recommend_reason": "少见的「推理 token 浪费」产品化数据：同成功率下显著降本，对跑代理循环的人很实用。",
+      "tags": [
+        "Cline",
+        "Fireworks",
+        "Ember-1",
+        "Kimi",
+        "推理模型",
+        "Agent"
+      ],
+      "rank": 18
+    },
+    {
+      "id": "2104326478766952624",
+      "author": "emollick",
+      "name": "Ethan Mollick",
+      "text": "Qualitatively, there is now a larger gap between open & closed models than there has been in awhile. Fable/Astra class models are agentic in a way pre-Fable models are not, for better or worse. None of the open models have crossed that line, yet. When they do, it will be a jump.",
+      "likes": 451,
+      "retweets": 19,
+      "replies": 37,
+      "views": 22501,
+      "is_retweet": false,
+      "created_at": "Sun Sep 27 21:45:03 +0000 2026",
+      "url": "https://x.com/emollick/status/2104326478766952624",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "quoted_tweet": null,
+      "score": 69.464,
+      "title": "Emollick：开闭源模型质性差距又拉大，Fable/Astra 级代理感是分水岭",
+      "summary": "他观察开源与闭源模型的质性差距近来又变大：Fable/Astra 级模型具备前代所无的代理感（好坏另说），开源尚未跨过这条线；一旦跨过会是一次跃迁。",
+      "recommend_reason": "用「是否跨过代理感门槛」描述开闭源差距，比单纯榜单分数更利于判断下一跳。",
+      "tags": [
+        "指定AI名单",
+        "emollick",
+        "开源模型",
+        "Astra",
+        "Agent"
+      ],
+      "section": "指定AI名单",
+      "rank": 19
+    },
+    {
+      "id": "2104308596637061148",
+      "author": "brian_armstrong",
+      "bio": "",
+      "text": "Most companies would move faster if internal platforms had to win their internal customers the same way they win external ones.\n\nPublish your uptime, latency, and cost. Take feature requests in the open. And if you're a real product, it's fine to charge internal teams like any other customer.\n\nAgents make this practical. They can discover services, compare them, and route around the bad ones.",
+      "created_at": "Sun Sep 27 20:34:00 +0000 2026",
+      "likes": 665,
+      "views": "71719",
+      "url": "https://x.com/i/status/2104308596637061148",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 66.644,
+      "title": "Armstrong：内部平台也应公开可用性指标并向内部客户收费，代理会绕开差服务",
+      "summary": "他续论：公司若让内部平台像对外产品一样赢内部客户会更快——公开可用性、延迟与成本，公开收需求，必要时向内部团队收费。代理让这变得现实：它们能发现服务、比较并绕开差的那一侧。",
+      "recommend_reason": "把平台工程的「内部市场」叙事对齐代理时代的服务发现与路由，和上一则 /feedback 形成配套。",
+      "tags": [
+        "平台工程",
+        "Agent",
+        "内部平台",
+        "可观测性"
+      ],
+      "rank": 20
+    },
+    {
+      "id": "2104299116251541635",
+      "author": "brian_armstrong",
+      "bio": "",
+      "text": "Every backend service should have a /feedback endpoint.\n\nAgents are quickly becoming the heaviest users of most APIs. When one hits a missing feature or a bug, it should be able to say so right there, in a structured way. \n\nIf the request makes sense, another agent drafts the PR and a human approves it.  Software that improves itself based on what its users actually tried to do speeds up recursive self improvement.",
+      "created_at": "Sun Sep 27 19:56:19 +0000 2026",
+      "likes": 1283,
+      "views": "106206",
+      "url": "https://x.com/i/status/2104299116251541635",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HTP4ysxWEAARRQY.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HTP4ysxWEAARRQY.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 74.325,
+      "title": "Armstrong：后端该有 /feedback，好让代理以结构化方式报缺能力并触发自改进",
+      "summary": "Brian Armstrong 主张每个后端服务提供 /feedback：代理正成为多数 API 的最大用户，撞到缺功能或 bug 时应能当场结构化反馈；合理请求可由另一代理起草 PR、人类审批，让软件按真实用法递归自改进。",
+      "recommend_reason": "把「代理重度用 API」落到具体接口设计，比空谈自改进更可执行。",
+      "tags": [
+        "Agent",
+        "API",
+        "反馈闭环",
+        "Coinbase",
+        "工程"
+      ],
+      "rank": 21
+    },
+    {
+      "id": "2104273590879494473",
+      "author": "OfficialLoganK",
+      "bio": "",
+      "text": "2027 is the year we will see at scale autonomous revenue (profit?) generating agents / mini-companies\n\nalready happening at sub scale today with lots of rough edges",
+      "created_at": "Sun Sep 27 18:14:54 +0000 2026",
+      "likes": 2968,
+      "views": "161063",
+      "url": "https://x.com/i/status/2104273590879494473",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 72.219,
+      "summary": "2027 年我们将看到大规模自主创收（甚至盈利？）的代理 / 迷你公司；如今已在亚规模发生，只是毛边很多。",
+      "recommend_reason": "Logan 对「自主创收代理」时间表的短预测，便于对照今年亚规模实验是否在加厚。",
+      "tags": [
+        "Agent",
+        "自主公司",
+        "2027",
+        "预测"
+      ],
+      "rank": 22
+    },
+    {
+      "id": "2104273243599405395",
+      "author": "trq212",
+      "bio": "",
+      "text": "I am most afraid of us eating the productivity gains of agents by just becoming lazier.",
+      "created_at": "Sun Sep 27 18:13:31 +0000 2026",
+      "likes": 4004,
+      "views": "233967",
+      "url": "https://x.com/i/status/2104273243599405395",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 71.899,
+      "summary": "我最担心的是：我们把代理带来的生产率增益，又用变懒给吃掉了。",
+      "recommend_reason": "一句戳中「代理红利被行为抵消」的风险，适合当精选里的清醒剂。",
+      "tags": [
+        "Agent",
+        "生产率",
+        "行为"
+      ],
+      "rank": 23
+    },
+    {
+      "id": "2104259061172830555",
+      "author": "Jiaxi_Cui",
+      "bio": "",
+      "text": "Qwen image 2.1 的理解能力令人惊叹，事实上你可以用这个生图模型来做类似于标注这样的理解任务",
+      "created_at": "Sun Sep 27 17:17:10 +0000 2026",
+      "likes": 31,
+      "views": "4467",
+      "url": "https://x.com/i/status/2104259061172830555",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 54.976,
+      "summary": "Qwen image 2.1 的理解能力令人惊叹，事实上你可以用这个生图模型来做类似于标注这样的理解任务",
+      "recommend_reason": "指出 Qwen image 2.1 理解力强到能做类似标注的理解任务，拓展「生图模型当视觉理解器」用法。",
+      "tags": [
+        "指定AI名单",
+        "Qwen",
+        "生图",
+        "视觉理解"
+      ],
+      "section": "指定AI名单",
+      "rank": 24
+    },
+    {
+      "id": "2104257281936478641",
+      "author": "dontbesilent",
+      "bio": "",
+      "text": "dbskill 刚刚更新了 dbs-content-value，效果感动到哭\n\n它真的可以帮你预判一条内容有没有流量\n\n甚至还能告诉你，你把文章里面另外一句话提到开头，可以让你的流量更大\n\n（我本地用的是 gpt-5.6 sol，其他模型没来得及测试）\n\n整套框架也公开了（图 3）",
+      "created_at": "Sun Sep 27 17:10:05 +0000 2026",
+      "likes": 152,
+      "views": "10153",
+      "url": "https://x.com/i/status/2104257281936478641",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HTPR2mta0AABUID.jpg",
+        "https://pbs.twimg.com/media/HTPR3BGa4AAjoYP.jpg",
+        "https://pbs.twimg.com/media/HTPSuJFbsAAKbrj.png"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HTPR2mta0AABUID.jpg",
+        "https://pbs.twimg.com/media/HTPR3BGa4AAjoYP.jpg",
+        "https://pbs.twimg.com/media/HTPSuJFbsAAKbrj.png"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 69.264,
+      "summary": "dbskill 刚刚更新了 dbs-content-value，效果感动到哭\n\n它真的可以帮你预判一条内容有没有流量\n\n甚至还能告诉你，你把文章里面另外一句话提到开头，可以让你的流量更大\n\n（我本地用的是 gpt-5.6 sol，其他模型没来得及测试）\n\n整套框架也公开了（图 3）",
+      "recommend_reason": "dbskill 的内容价值预判技能更新，带公开框架图，对写作用 AI 做流量预判的人可直接试。",
+      "tags": [
+        "dbskill",
+        "内容",
+        "流量预判",
+        "Skill"
+      ],
+      "rank": 25
+    },
+    {
+      "id": "2104252306447544447",
+      "author": "OpenAIDevs",
+      "bio": "",
+      "text": "We’ve fixed a bug that was degrading image understanding in GPT-6 Sol and GPT-6 Luna. You should now see better results on visual tasks in the API and Codex, including computer use. https://t.co/Hkx6HT7z10",
+      "created_at": "Sun Sep 27 16:50:19 +0000 2026",
+      "likes": 4508,
+      "views": "383073",
+      "url": "https://x.com/i/status/2104252306447544447",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HTPOUmKa4AA702f.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HTPOUmKa4AA702f.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 75.699,
+      "title": "OpenAI：已修复 GPT-6 Sol/Luna 图像理解降级，视觉与 computer use 应恢复",
+      "summary": "OpenAI 开发者账号称，此前导致 GPT-6 Sol 与 GPT-6 Luna 图像理解变差的 bug 已修复；API 与 Codex 上的视觉任务（含 computer use）应能看到更好结果。",
+      "recommend_reason": "官方短讯直接关系到 Sol/Luna 视觉与 computer use 可用性，比 DevDay 互动帖更有信息增量。",
+      "tags": [
+        "OpenAI",
+        "GPT-6",
+        "GPT-5.6 Sol",
+        "Luna",
+        "视觉理解",
+        "Codex"
+      ],
+      "rank": 26
+    },
+    {
+      "id": "2104250405173834131",
+      "author": "vista8",
+      "bio": "",
+      "text": "VS Code 安装 Cline 插件后。\n\n可以免费用Gemini 3.8 Flash、DeepSeek V4.1 Flash、MiMo-V2.6-Flash、Muse Spark 1.3 Contributor 等模型。 https://t.co/7S4d4OCyWN",
+      "created_at": "Sun Sep 27 16:42:46 +0000 2026",
+      "likes": 67,
+      "views": "11044",
+      "url": "https://x.com/i/status/2104250405173834131",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HTPLpKraEAAW9Ze.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HTPLpKraEAAW9Ze.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 63.912,
+      "summary": "VS Code 安装 Cline 插件后。\n\n可以免费用Gemini 3.8 Flash、DeepSeek V4.1 Flash、MiMo-V2.6-Flash、Muse Spark 1.3 Contributor 等模型。 https://t.co/7S4d4OCyWN",
+      "recommend_reason": "VS Code + Cline 可免费用多款 Flash/Contributor 模型的速查，降低试代理编码门槛。",
+      "tags": [
+        "指定AI名单",
+        "Cline",
+        "VSCode",
+        "免费额度",
+        "模型"
+      ],
+      "section": "指定AI名单",
+      "rank": 27
+    },
+    {
+      "id": "2104243176672514237",
+      "author": "RookieRicardoR",
+      "bio": "",
+      "text": "Grok Bot 云主机的各项配置都远远超越 Muse，但是体验没有 Muse 好，我体验下来有两点 Muse 做的很好：\n\n1. Muse 的 Spark 模型智能程度更强，它在 AA Index 是仅次于 Claude 的存在，超越 GPT 和 Grok。\n\n2. Muse 的模型速度很快， 能比较顺畅的沟通，而 Grok Bot 的每次回答起码 5 秒钟，非常难受。 https://t.co/omhGg8unA3",
+      "created_at": "Sun Sep 27 16:14:02 +0000 2026",
+      "likes": 11,
+      "views": "4387",
+      "url": "https://x.com/i/status/2104243176672514237",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HTPFMUPasAAppWO.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HTPFMUPasAAppWO.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 59.155,
+      "title": "实测对比：Grok Bot 云配更高，但 Muse 在智能与响应速度上更顺手",
+      "summary": "作者称 Grok Bot 云主机配置远超 Muse，体验却不如：一是 Muse Spark 在 AA Index 仅次于 Claude、强过 GPT/Grok；二是 Muse 对话更顺，Grok Bot 每答常要约 5 秒。",
+      "recommend_reason": "同一批「个人 Agent 主机」用户的横向体感，配置≠体感的对照有参考价值。",
+      "tags": [
+        "指定AI名单",
+        "Grok Bot",
+        "Muse",
+        "Spark",
+        "评测"
+      ],
+      "section": "指定AI名单",
+      "rank": 28
+    },
+    {
+      "id": "2104241170864071091",
+      "author": "jakevin7",
+      "bio": "",
+      "text": "绝大部分人应该都不知道，Grok实际上是不能用来做 AGENT/AI model相关的产品/服务的。\nGrok 的2026 年 8 月 14 日的条款规定了：不能用服务或任何输出，去开发（或协助他人开发）与 SpaceXAI 直接或间接竞争的机器学习模型、或任何产品与服务。\n\nMaka的代码被最近就被 Apache基金会的人提醒了，导致我们必须revert 30几个PR...",
+      "created_at": "Sun Sep 27 16:06:04 +0000 2026",
+      "likes": 245,
+      "views": "48634",
+      "url": "https://x.com/i/status/2104241170864071091",
+      "has_media": false,
+      "media_urls": [],
+      "media_posters": [],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 61.599,
+      "summary": "绝大部分人应该都不知道，Grok实际上是不能用来做 AGENT/AI model相关的产品/服务的。\nGrok 的2026 年 8 月 14 日的条款规定了：不能用服务或任何输出，去开发（或协助他人开发）与 SpaceXAI 直接或间接竞争的机器学习模型、或任何产品与服务。\n\nMaka的代码被最近就被 Apache基金会的人提醒了，导致我们必须revert 30几个PR...",
+      "recommend_reason": "提醒 Grok 条款禁止用其输出做竞争 ML/产品，已导致 Maka 相关 PR 被 revert——做 Agent 产品选型时的硬约束。",
+      "tags": [
+        "指定AI名单",
+        "Grok",
+        "ToS",
+        "合规",
+        "Agent"
+      ],
+      "section": "指定AI名单",
+      "rank": 29
+    },
+    {
+      "id": "2104240783910170641",
+      "author": "vista8",
+      "bio": "",
+      "text": "OpenRouter现在每天消耗10万亿Token，服务1000万开发者。\n\n之前也不好融资，VC 觉得就是个“Wrapper（套壳）”\n\n有两波大的爆发点，一个是 Sonnet 3.7 发布，另外一个是 OpenClaw。\n\n创始人做这件事的判断：未来一定是多模型，没有哪个模型可以通吃一切。",
+      "created_at": "Sun Sep 27 16:04:32 +0000 2026",
+      "likes": 5,
+      "views": "3262",
+      "url": "https://x.com/i/status/2104240783910170641",
+      "has_media": true,
+      "media_urls": [
+        "https://pbs.twimg.com/media/HTPDFAybgAAeJj7.jpg"
+      ],
+      "media_posters": [
+        "https://pbs.twimg.com/media/HTPDFAybgAAeJj7.jpg"
+      ],
+      "card": null,
+      "quoted_tweet": null,
+      "score": 56.89,
+      "summary": "OpenRouter现在每天消耗10万亿Token，服务1000万开发者。\n\n之前也不好融资，VC 觉得就是个“Wrapper（套壳）”\n\n有两波大的爆发点，一个是 Sonnet 3.7 发布，另外一个是 OpenClaw。\n\n创始人做这件事的判断：未来一定是多模型，没有哪个模型可以通吃一切。",
+      "recommend_reason": "OpenRouter 日耗 10 万亿 token、服务千万开发者的量级，以及对「套壳」质疑与多模型判断的复盘，有产业体感。",
+      "tags": [
+        "指定AI名单",
+        "OpenRouter",
+        "基础设施",
+        "多模型"
+      ],
+      "section": "指定AI名单",
+      "rank": 30
+    }
+  ],
+  "generated_at": "2026-09-28T04:40:12Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 20,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 30,
+    "last_batch_added": 20,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
