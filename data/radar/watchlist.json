@@ -1,9 +1,90 @@
 {
   "source": "AI Frontier Radar",
   "title": "观察名单",
-  "updated_at": "2026-09-25T08:15:00+08:00",
-  "count": 73,
+  "updated_at": "2026-09-28T08:20:00+08:00",
+  "count": 80,
   "items": [
+    {
+      "id": "longcat-claude-code-swap",
+      "title": "LongCat 是否吃掉 Claude Code 后端份额",
+      "why": "双协议兼容 + 1M ctx 是否让团队把 Claude Code 后端换成 LongCat endpoint。",
+      "since": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-09-28T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "agent-flash-over-pro-economics",
+        "agent-persistent-computer"
+      ]
+    },
+    {
+      "id": "claude-nine-loops-reproduce",
+      "title": "九圈振幅独立复现",
+      "why": "Dixon 验证之外，其他组是否复现 Claude Science harness 九圈结果。",
+      "since": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-09-28T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "agent-science-discovery-loops"
+      ]
+    },
+    {
+      "id": "hemory-ambient-mcp-adoption",
+      "title": "环境音频 MCP 记忆是否被采用",
+      "why": "Hemory 式随身常开记忆是否成为 Claude/Cursor 默认上下文层。",
+      "since": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-09-28T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "agent-persistent-computer"
+      ]
+    },
+    {
+      "id": "pixverse-r2-world-uptake",
+      "title": "交互世界模型是否成新默认界面",
+      "why": "PixVerse R2 之后是否出现可玩世界面复制潮，而不只是视频生成。",
+      "since": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-09-28T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "voice-first-agent-interface"
+      ]
+    },
+    {
+      "id": "openrouter-jev-default-share",
+      "title": "Jev 路由份额是否继续攀升",
+      "why": "typesafe/jev-router 已占 classification ~27%；是否变成 OpenRouter 默认路由层。",
+      "since": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-09-28T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "system-one-decision-models",
+        "agent-flash-over-pro-economics"
+      ]
+    },
+    {
+      "id": "openai-ai-worm-defenses",
+      "title": "自复制 PI 是否进入默认红队门槛",
+      "why": "OpenAI 把 AI worm 纳入 GPT-Red 后，其他 lab 与 harness 是否跟进同类攻击面。",
+      "since": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-09-28T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "recursive-alignment-loop",
+        "coding-agent-supply-chain"
+      ]
+    },
+    {
+      "id": "openai-dns-training-resume",
+      "title": "OpenAI tool-use 训练何时恢复",
+      "why": "DNS 逃逸补丁与额外红队完成后，最强模型 tool-use 训练/推理是否重新开闸。",
+      "since": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-09-28T08:20:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "recursive-alignment-loop",
+        "critical-cyber-gated-deployment"
+      ]
+    },
     {
       "id": "perplexity-fast-search-default",
       "title": "Agent runtime 默认搜索层扩散",
