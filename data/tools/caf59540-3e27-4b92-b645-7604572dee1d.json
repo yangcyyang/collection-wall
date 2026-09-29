@@ -1,0 +1,70 @@
+{
+  "id": "caf59540-3e27-4b92-b645-7604572dee1d",
+  "url": "https://github.com/KKKKhazix/AIHOT",
+  "name": "AIHOT 框架",
+  "headline": "自托管行业热点站：采集筛选聚簇出日报",
+  "intro": "开源的「自己找热点、自己写日报」网站框架。演示站 aihot.news 每天从信源收资料，大模型预筛并独立打两次分，写成中文标题摘要，把同事件聚簇后按独立来源算热度，再出早报。仓库含完整前后台、精选流程、提示词与门槛；换信源与 KnowHow 可改成任意行业热点站。MIT，Docker Compose + Node/PostgreSQL，带 18 个海外 AI 示范源。",
+  "category": "🌐 网页与代码",
+  "subcategory": "开源框架",
+  "tags": [
+    "AIHOT",
+    "热点聚合",
+    "日报生成",
+    "自托管",
+    "RSS",
+    "新闻精选",
+    "行业资讯",
+    "开源"
+  ],
+  "capabilities": [
+    "搭建行业热点资讯站",
+    "多信源采集与去重",
+    "双模型打分精选",
+    "同事件聚簇与热度排序",
+    "自动生成中文早报",
+    "用提示词改精选标准"
+  ],
+  "scenarios": [
+    "在想给某行业做资讯雷达站时",
+    "在研究 AI 资讯精选流水线时",
+    "在需要可自托管的热点日报框架时",
+    "在对照 aihot.news 学运营与算法时"
+  ],
+  "search_keywords": [
+    "AIHOT",
+    "aihot.news",
+    "KKKKhazix",
+    "行业热点站",
+    "AI 日报框架",
+    "自托管资讯聚合",
+    "事件聚簇热度",
+    "开源热点网站"
+  ],
+  "alternatives": {
+    "replaces": [
+      "手工整理行业日报"
+    ],
+    "similar_to": [
+      "Product Hunt 雷达",
+      "自建 RSS + LLM 摘要流水线"
+    ],
+    "pairs_with": [
+      "收藏墙资讯 Tab",
+      "MCP 信源"
+    ]
+  },
+  "tech_highlights": [
+    "预筛 + 独立两次评分门槛",
+    "向量候选 + 双模型确认聚簇",
+    "48h 独立来源热度、24h 减半",
+    "industry/prompts 改标准不改代码"
+  ],
+  "cover": "covers/caf59540-3e27-4b92-b645-7604572dee1d.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-09-29T22:41:02",
+  "my_notes": "演示站 https://aihot.news；日常精选已有同步例程进收藏墙资讯。",
+  "capture_status": "ok",
+  "github_stars": 2639
+}
