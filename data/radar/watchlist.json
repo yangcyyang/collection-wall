@@ -1,9 +1,95 @@
 {
   "source": "AI Frontier Radar",
   "title": "观察名单",
-  "updated_at": "2026-09-28T08:20:00+08:00",
-  "count": 80,
+  "updated_at": "2026-09-29T08:25:00+08:00",
+  "count": 87,
   "items": [
+    {
+      "id": "openscience-autoresearch-uptake",
+      "title": "OpenScience Autoresearch 是否跑出可复现科学结果",
+      "why": "开源 workbench + 指标 hill-climb；观察是否有独立复现或论文产出。",
+      "since": "2026-09-29T08:25:00+08:00",
+      "last_updated": "2026-09-29T08:25:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "agent-science-discovery-loops"
+      ]
+    },
+    {
+      "id": "vibedefend-agent-loop-uptake",
+      "title": "VibeDefend 循环内安保采用",
+      "why": "CLI 嵌入 Claude Code/Cursor 后，是否出现真实 per-diff 拦截与规则沉淀。",
+      "since": "2026-09-29T08:25:00+08:00",
+      "last_updated": "2026-09-29T08:25:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "coding-agent-supply-chain",
+        "critical-cyber-gated-deployment"
+      ]
+    },
+    {
+      "id": "nvidia-space-adoption",
+      "title": "NVIDIA Open Agent Safety / SPACE 产业采用",
+      "why": "100+ 伙伴叙事之后，是否成为默认 agent 逃逸评测或部署门控基准。",
+      "since": "2026-09-29T08:25:00+08:00",
+      "last_updated": "2026-09-29T08:25:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "critical-cyber-gated-deployment"
+      ]
+    },
+    {
+      "id": "deepseek-dsec-opensource",
+      "title": "DSec / AgentENV 开源与外部可复现",
+      "why": "论文称部分 OverlayBD 开源；是否出现可独立跑的生产级 agent 训练沙箱栈。",
+      "since": "2026-09-29T08:25:00+08:00",
+      "last_updated": "2026-09-29T08:25:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "harness-control-plane",
+        "recursive-alignment-loop"
+      ]
+    },
+    {
+      "id": "xai-team-bots-uptake",
+      "title": "xAI Team Bots 团队真实采用",
+      "why": "共享角色 Bot + Slack 是否出现销售/EPD 外的稳定多玩家工作流。",
+      "since": "2026-09-29T08:25:00+08:00",
+      "last_updated": "2026-09-29T08:25:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "multi-agent-team-orchestration",
+        "agent-persistent-computer"
+      ]
+    },
+    {
+      "id": "sonnet-5-5-default-agent-loop",
+      "title": "Sonnet 5.5 是否成为默认 coding-agent 循环模型",
+      "why": "TB4/CursorBench 接近 Opus 且更便宜更快；观察 Cursor/Claude Code 默认与真实工单占比。",
+      "since": "2026-09-29T08:25:00+08:00",
+      "last_updated": "2026-09-29T08:25:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "agent-flash-over-pro-economics",
+        "coding-agent-supply-chain"
+      ]
+    },
+    {
+      "id": "openai-devday-new-thing",
+      "title": "OpenAI DevDay「new thing」是否兑现新品类",
+      "why": "sama「We have found a new thing」+ 官方 Get ready 同窗；keynote 后是否出现新品类交互/能力，而非增量 API。",
+      "since": "2026-09-29T08:25:00+08:00",
+      "last_updated": "2026-09-29T08:25:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "frontier-vertical-model-skus",
+        "agent-commerce-surfaces"
+      ],
+      "urls": [
+        "https://x.com/sama/status/2104661956879913457",
+        "https://x.com/OpenAI/status/2104651136699609518"
+      ]
+    },
     {
       "id": "longcat-claude-code-swap",
       "title": "LongCat 是否吃掉 Claude Code 后端份额",
