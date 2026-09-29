@@ -9,6 +9,637 @@
   },
   "items": [
     {
+      "id": "2104964210644181230",
+      "author": "emollick",
+      "url": "https://x.com/emollick/status/2104964210644181230",
+      "created_at": "Tue Sep 29 15:59:10 +0000 2026",
+      "text": "The impact of AI on jobs is still pretty unclear at this point. I don't find this very surprising, as employers are still figuring out individual adoption, let alone how you use AI in complex organizations. Things may start to happen faster as agents capable of real work spread.",
+      "likes": 34,
+      "views": 5316,
+      "score": 58.427,
+      "title": "Emollick：AI 对就业影响仍不清晰，Agent 能干活后或加速",
+      "summary": "作者认为 AI 对就业影响目前仍不清楚——企业还在摸个人采用，更别说复杂组织；等真正能干活的 Agent 铺开，事情可能会变快。",
+      "recommend_reason": "冷静的就业观察：把时间点押在“Agent 能做真工作”之后，而不是模型发布日。",
+      "tags": [
+        "指定AI名单",
+        "就业",
+        "Agent",
+        "社会影响",
+        "Emollick",
+        "观察"
+      ],
+      "section": "指定AI名单",
+      "rank": 1
+    },
+    {
+      "id": "2104962023830536674",
+      "author": "ianneo_ai",
+      "url": "https://x.com/i/status/2104962023830536674",
+      "created_at": "Tue Sep 29 15:50:29 +0000 2026",
+      "text": "Claude Sonnet 5.5 发布了，价格没变，速度快了三成多，干同样的活还更省 token，不过复杂的活还是 Opus 更稳\n\n日常的小活用 Sonnet 就够了，又快又省。 https://t.co/B9b1SO1RP6",
+      "likes": 1,
+      "views": "237",
+      "score": 55.395,
+      "summary": "Claude Sonnet 5.5 发布了，价格没变，速度快了三成多，干同样的活还更省 token，不过复杂的活还是 Opus 更稳\n\n日常的小活用 Sonnet 就够了，又快又省。 https://t.co/B9b1SO1RP6",
+      "recommend_reason": "一句话分层：日常 Sonnet、重活 Opus，比又一篇跑分长文更可执行。",
+      "tags": [
+        "指定AI名单",
+        "Sonnet 5.5",
+        "Claude",
+        "Opus",
+        "选型",
+        "实用"
+      ],
+      "section": "指定AI名单",
+      "rank": 2
+    },
+    {
+      "id": "2104952777063448803",
+      "author": "AI_Jasonyu",
+      "url": "https://x.com/i/status/2104952777063448803",
+      "created_at": "Tue Sep 29 15:13:44 +0000 2026",
+      "text": "兄弟们，分享 5 个找产品方向的 skill，全免费，我刚装完。\n\n先说个前提，这 5 个不在一个仓库里。\n\naddyosmani/agent-skills 里 25 个 skill，product-on-purpose/pm-skills 里 68 个，加起来 93 个。你要是图省事整个仓库装进去，skill 列表一下多出 93 条，平时压根用不上。\n\n我只挑了这 5 个，按用的顺序排。\n\n1、idea-refine，模糊想法进来，先发散再收敛，出一页能直接看的东西\n2、discover-competitive-analysis，3 到 5 个竞品对比，出 2x2 定位图和差异化建议\n3、discover-market-sizing，TAM SAM SOM，4 种算法交叉验证，每个数字都得有来源\n4、discover-interview-synthesis，访谈记录里提炼需求模式\n5、define-opportunity-tree，目标到机会点到方案，排成一棵树",
+      "likes": 18,
+      "views": "1417",
+      "score": 60.54,
+      "title": "5 个找产品方向的免费 Skill：从 idea-refine 到 opportunity-tree",
+      "summary": "作者不建议整仓塞进 93 个 skill，只挑 5 个按顺序用：idea-refine、竞品 2x2、TAM/SAM/SOM 交叉验证、访谈综合、机会树；分别来自 addyosmani/agent-skills 与 product-on-purpose/pm-skills。",
+      "recommend_reason": "把庞大 skill 仓库收敛成可执行的产品发现流水线，装完就能按步骤跑。",
+      "tags": [
+        "指定AI名单",
+        "Skill",
+        "产品",
+        "PM",
+        "Agent",
+        "工具"
+      ],
+      "section": "指定AI名单",
+      "rank": 3
+    },
+    {
+      "id": "2104952495147819431",
+      "author": "perplexity_ai",
+      "url": "https://x.com/i/status/2104952495147819431",
+      "created_at": "Tue Sep 29 15:12:37 +0000 2026",
+      "text": "Agent governance is an engineering problem.\n\nWe’ve built safeguards into Perplexity’s infrastructure, harnesses, and tools, and put them to work across our products.\n\nToday we're sharing how we engineer safer agents:\nhttps://t.co/1ZiIS0f35P",
+      "likes": 91,
+      "views": "25022",
+      "score": 59.197,
+      "title": "Perplexity：Agent 治理是工程问题，并公开其安全护栏做法",
+      "summary": "Perplexity 称 Agent governance 是工程问题，已把护栏做进基础设施、harness 与工具并落地到产品，并分享如何工程化更安全的 Agent。",
+      "recommend_reason": "大厂少见地公开 Agent 安全护栏工程化路径，而不只是原则宣言。",
+      "tags": [
+        "指定AI名单",
+        "Perplexity",
+        "Agent",
+        "安全",
+        "治理",
+        "工程"
+      ],
+      "section": "指定AI名单",
+      "rank": 4
+    },
+    {
+      "id": "2104947172404003294",
+      "author": "RookieRicardoR",
+      "url": "https://x.com/i/status/2104947172404003294",
+      "created_at": "Tue Sep 29 14:51:28 +0000 2026",
+      "text": "在无人问津的角落，Muse Spark 1.3 已经是除了 Claude 和 GPT 之外的最强模型了，\n\n对，就是 Muse 自带的那个，而且它们很快就要发 Muse Spark 1.4，\n\nPerson Agent 脱离了模型，根本不可能做好，\n\nPerson Agent 脱离了大厂烧钱支持，根本不可能做大。 https://t.co/yOFh99IOtT",
+      "likes": 3,
+      "views": "480",
+      "score": 58.093,
+      "summary": "在无人问津的角落，Muse Spark 1.3 已经是除了 Claude 和 GPT 之外的最强模型了，\n\n对，就是 Muse 自带的那个，而且它们很快就要发 Muse Spark 1.4，\n\nPerson Agent 脱离了模型，根本不可能做好，\n\nPerson Agent 脱离了大厂烧钱支持，根本不可能做大。 https://t.co/yOFh99IOtT",
+      "recommend_reason": "把个人 Agent 表现重新绑回底座模型与资本，而不是只谈产品壳。",
+      "tags": [
+        "指定AI名单",
+        "Muse",
+        "Muse Spark",
+        "Person Agent",
+        "模型",
+        "观察"
+      ],
+      "section": "指定AI名单",
+      "rank": 5
+    },
+    {
+      "id": "2104945497949848007",
+      "author": "KinGao476942",
+      "url": "https://x.com/i/status/2104945497949848007",
+      "created_at": "Tue Sep 29 14:44:49 +0000 2026",
+      "text": "卧槽！这是我把 Claude Code 接入到 Grok bot 里后，今晚用 Sonnet 5.5 做的视频！堪比AE的超丝滑动效！还自带 BGM卡点，全程只用了一句提示词，这效果太特么牛逼了吧！！ https://t.co/GNiSGWyP2b",
+      "likes": 9,
+      "views": "5980",
+      "score": 57.856,
+      "summary": "卧槽！这是我把 Claude Code 接入到 Grok bot 里后，今晚用 Sonnet 5.5 做的视频！堪比AE的超丝滑动效！还自带 BGM卡点，全程只用了一句提示词，这效果太特么牛逼了吧！！ https://t.co/GNiSGWyP2b",
+      "recommend_reason": "把 Claude Code 接进 Grok Bot、用 Sonnet 5.5 一句提示出丝滑卡点视频，是跨产品编排的直观样本。",
+      "tags": [
+        "Claude Code",
+        "Grok Bot",
+        "Sonnet 5.5",
+        "AI视频",
+        "工作流"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "2104939501508591710",
+      "author": "vista8",
+      "url": "https://x.com/vista8/status/2104939501508591710",
+      "created_at": "Tue Sep 29 14:20:59 +0000 2026",
+      "text": "如果想开发上架 Obsidian 插件，推荐安装这个Skill。\n\n安装指令：\n\nnpx skills add joeseesun/qiaomu-obsidian-dev\n\n基于最近自己开发 Obsidian 插件趟坑经验总结而成。\n\n开源地址见评论区",
+      "likes": 28,
+      "views": 3445,
+      "score": 62.828,
+      "summary": "如果想开发上架 Obsidian 插件，推荐安装这个Skill。\n\n安装指令：\n\nnpx skills add joeseesun/qiaomu-obsidian-dev\n\n基于最近自己开发 Obsidian 插件趟坑经验总结而成。\n\n开源地址见评论区",
+      "recommend_reason": "把 Obsidian 插件上架踩坑收成可安装 Skill，省去从零摸文档。",
+      "tags": [
+        "指定AI名单",
+        "Obsidian",
+        "Skill",
+        "插件",
+        "开发",
+        "工具"
+      ],
+      "section": "指定AI名单",
+      "rank": 7
+    },
+    {
+      "id": "2104919482447872118",
+      "author": "OpenRouter",
+      "url": "https://x.com/OpenRouter/status/2104919482447872118",
+      "created_at": "Tue Sep 29 13:01:26 +0000 2026",
+      "text": "New skill for coding agents: openrouter-decisions\n\nPoint your agent at a classification, routing, or moderation step and it rebuilds that step on a decision model through OpenRouter's Decisions API. https://t.co/mq9xz8CPK5",
+      "likes": 126,
+      "views": 16242,
+      "score": 66.441,
+      "title": "OpenRouter 推出 openrouter-decisions：把分类/路由/审核步骤迁到 Decisions API",
+      "summary": "OpenRouter 发布面向编码 Agent 的新 skill：把分类、路由或审核步骤指向后，可由 Decisions API 在决策模型上重建该步骤。",
+      "recommend_reason": "给 Agent 工作流补了一块可插拔的决策层，比又一个聊天封装更贴近工程。",
+      "tags": [
+        "指定AI名单",
+        "OpenRouter",
+        "Skill",
+        "Agent",
+        "Decisions API",
+        "工程"
+      ],
+      "section": "指定AI名单",
+      "rank": 8
+    },
+    {
+      "id": "2104915193155494259",
+      "author": "lifesinger",
+      "url": "https://x.com/i/status/2104915193155494259",
+      "created_at": "Tue Sep 29 12:44:24 +0000 2026",
+      "text": "to c 的 agent，没有垂类，只有 general agent。manus 是对的，各种 personal agent 也是对的。\n\nto b 的 agent 很像电脑，red 说 manus 像卖电脑，非常有洞见。to c 的 agent 很可能会像手机，有各种款式，没有哪一家能有超级市占率。\n\n也有同时卖电脑和手机的，比如 apple，比如 manus。这个角度看，最像 apple 的，是 manus。成为 agent 届的 apple，可能就是 red 心中的梦。\n\n向 manus 致敬。同时，坚定走 youmind 自己的路。",
+      "likes": 37,
+      "views": "5918",
+      "score": 63.513,
+      "title": "to C Agent 像手机、to B 像电脑：Manus 最像苹果的那条路",
+      "summary": "作者认为 to C 没有真正垂类、只有 general / personal agent；to B Agent 像卖电脑，to C 更像手机——款式多、难一家通吃。能同时做两边的像苹果，也像 Manus；成为 Agent 界的苹果或许就是红衫叙事，同时声明 youmind 走自己的路。",
+      "recommend_reason": "用电脑/手机类比把 Agent 的 B/C 产品形态讲清楚，比空喊 general agent 更有产品结构感。",
+      "tags": [
+        "Manus",
+        "Agent",
+        "toC",
+        "产品",
+        "洞察"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2104907449002287191",
+      "author": "wangzan101",
+      "url": "https://x.com/i/status/2104907449002287191",
+      "created_at": "Tue Sep 29 12:13:37 +0000 2026",
+      "text": "update：Muse 和 Cue 都有一台云电脑，Browser use 通过云电脑的浏览器实现，登录态长期保存。\n\n根据截图推测，Cue 给每个人配置的云电脑是 Linux 的发行版本 Ubuntu，Muse 不清楚。\n\nMuse 是通过 Cloudeflare提供网络服务，然后 Cue 这个看不懂是哪个野鸡服务商，难怪网络这么差。\n\n然后就是执行任务速度慢的问题，Cue不知道用的是哪个垃圾模型，差的要死，连 Meta 的比不上。\n\nPersonal Agent 看起来确实是个烧钱的游戏，小厂难以承担，至少目前来看，Cue 给我的体验是比不上 Muse 的。",
+      "likes": 1,
+      "views": "776",
+      "score": 55.198,
+      "title": "Muse/Cue 都靠云电脑 Browser use，Cue 疑似 Ubuntu 家宽 IP",
+      "summary": "补充：Muse 与 Cue 的 Browser use 都走云电脑浏览器并长期保存登录态；截图推测 Cue 云电脑为 Ubuntu，且可能是家宽 IP。",
+      "recommend_reason": "给昨晚横评补基础设施细节：卡顿与完成度之外，云电脑形态也很关键。",
+      "tags": [
+        "指定AI名单",
+        "Muse",
+        "Cue",
+        "云电脑",
+        "Browser use",
+        "评测"
+      ],
+      "section": "指定AI名单",
+      "rank": 10
+    },
+    {
+      "id": "2104904260509151539",
+      "author": "AxtonLiu",
+      "url": "https://x.com/i/status/2104904260509151539",
+      "created_at": "Tue Sep 29 12:00:57 +0000 2026",
+      "text": "我让 Opus 5.5 当导演，做了一支 MV。\n\n《九点整》，一首唱给打工人的歌：早上 08:47 挤上“打工人 1 号线”，倒计时走到 09:00，打卡机只显示一句：今日无需打卡。\n\nOpus 5.5 做的：\n- 先把那支 1700 多万播放的 Opus MV 逐镜拆了 159 个镜头\n- 出概念，写歌词初稿，画分镜\n- 全部画面用代码写出来，歌词逐字卡拍\n- 给 Suno 写歌，在即梦生成人物视频，渲染、质检\n\n我做的是制片人的活：挑歌，定主角，否掉不行的版本。",
+      "likes": 1,
+      "views": "750",
+      "score": 54.938,
+      "title": "让 Opus 5.5 当导演做打工人 MV《九点整》",
+      "summary": "作者用 Opus 5.5 当导演制作 MV《九点整》：08:47 挤上“打工人 1 号线”，倒计时到 09:00，打卡机显示今日无需打卡。",
+      "recommend_reason": "用模型扛导演/成片，题材又贴打工人，比纯特效秀更有记忆点。",
+      "tags": [
+        "指定AI名单",
+        "Opus 5.5",
+        "AI视频",
+        "MV",
+        "导演",
+        "创作"
+      ],
+      "section": "指定AI名单",
+      "rank": 11
+    },
+    {
+      "id": "2104894920482054379",
+      "author": "YuLin807",
+      "url": "https://x.com/i/status/2104894920482054379",
+      "created_at": "Tue Sep 29 11:23:50 +0000 2026",
+      "text": "如何节省 Claude 额度， 来自 Claude 的建议，让你 20 刀用的天长地久！\n\n1.控制多开长会话的数量！尽量执行短小快速的一次性任务！\n\n2.一个会话超过一小时之后不要再去使用，要用的话使用/compact 压缩之后再使用！\n\n3.保持会话上下文的大小，不要让他长到几十万 Token！\n\n上述一切都是来源于我在使用 Claude 快速撞墙的分析发现，其中最大的隐性浪费是缓存过期。 缓存 1 小时不用就会失效。停顿超过 1 小时的调用只占全部调用的 1.4%，却吃掉了大约 27% 的额度。\n\n想让你的缓存不失效，那么不要让你的对话 idle 超过一小时！否则，你再发个继续，他立马把上下文疯狂读取一遍，额度嘎嘎掉！\n\n另外还有还有两种情况也会导致缓存重建，和时间无关\n\n1. 切换模型：比如从 Opus 切到 Sonnet，每个模型的缓存是分开的，下一轮要整段重建。\n\n2. /compact 或者改了对话开头的内容：缓存是按前缀匹配的，前面一变，后面全部重建。不过压缩后的上下文小，这次重建比较便宜。\n\n现在来看，当初用 openclaw 疯狂烧额度都是吃了没知识的亏！\n\n而这一切，9 个月之后的我才宴请了一把 9 个月前的我！\n\n另外关于为啥缓存 1 小时失效这个问题我特意让 Claude 出一支视频给我方便理解，晚点发出来。",
+      "likes": 15,
+      "views": "3522",
+      "score": 62.586,
+      "title": "省 Claude 额度：缓存 1 小时失效可能吃掉约 27% 用量",
+      "summary": "作者归纳省额度要点：少开长会话、超一小时用 /compact、控制上下文别膨胀到几十万 token。最大隐性浪费是缓存过期——idle>1 小时的调用仅约 1.4% 却吃掉约 27% 额度；切模型或改前缀也会整段重建缓存。",
+      "recommend_reason": "把撞墙经验写成可执行规则，尤其点出缓存过期这个隐蔽烧钱点。",
+      "tags": [
+        "指定AI名单",
+        "Claude",
+        "额度",
+        "缓存",
+        "成本",
+        "实用"
+      ],
+      "section": "指定AI名单",
+      "rank": 12
+    },
+    {
+      "id": "2104894846343512199",
+      "author": "FuSheng_0306",
+      "url": "https://x.com/i/status/2104894846343512199",
+      "created_at": "Tue Sep 29 11:23:33 +0000 2026",
+      "text": "今天刷到李飞飞把World Labs卖给AMD，82亿美元，可以说意料之外情理之中。\n\n世界模型太烧钱了，没有足够的卡、数据和资本，很难一直打下去。更有意思的是，GPT-6已经开始把语言、视觉、空间理解往一个模型里揉，世界模型这条路也没那么确定了。\n\n对AMD来说，等于直接买进一支能看懂下一代模型的顶级团队；对李飞飞来说，也有了更充足的算力继续往下做。\n\n我看完还有一个挺深的感受：硅谷是真的愿意给好团队出高价。硅谷能一直出新东西，跟这套机制关系很大。",
+      "likes": 130,
+      "views": "17587",
+      "score": 66.391,
+      "title": "李飞飞 World Labs 作价约 82 亿美元卖给 AMD：烧钱世界模型碰上一体多模态",
+      "summary": "作者解读李飞飞将 World Labs 卖给 AMD（约 82 亿美元）：世界模型极耗卡与数据，独立很难长期硬扛；同时 GPT-6 已把语言/视觉/空间往单模型揉，路线不确定性上升。对 AMD 是买进懂下一代模型的团队，对李飞飞则换更充足算力；并感慨硅谷愿为好团队出高价的机制。",
+      "recommend_reason": "当晚少见的并购级解读：把世界模型成本、多模态收敛与 AMD 算力战略放到同一条因果链里。",
+      "tags": [
+        "World Labs",
+        "AMD",
+        "李飞飞",
+        "世界模型",
+        "并购"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "2104882453576102027",
+      "author": "YuLin807",
+      "url": "https://x.com/i/status/2104882453576102027",
+      "created_at": "Tue Sep 29 10:34:18 +0000 2026",
+      "text": "我已经即刻配置！\n\ncloudflare 最新推出的命令行工具 cf！全部 468 项权限到手！\n\n终于不用每次都让 Agent 打开浏览器去填内容了！ https://t.co/DFppLTFE23",
+      "likes": 28,
+      "views": "3758",
+      "score": 62.408,
+      "summary": "我已经即刻配置！\n\ncloudflare 最新推出的命令行工具 cf！全部 468 项权限到手！\n\n终于不用每次都让 Agent 打开浏览器去填内容了！ https://t.co/DFppLTFE23",
+      "recommend_reason": "Agent 操作 Cloudflare 从点网页变成 CLI，少一轮脆弱的浏览器自动化。",
+      "tags": [
+        "指定AI名单",
+        "Cloudflare",
+        "CLI",
+        "Agent",
+        "工具",
+        "自动化"
+      ],
+      "section": "指定AI名单",
+      "rank": 14
+    },
+    {
+      "id": "2104873363931906237",
+      "author": "abskoop",
+      "url": "https://x.com/i/status/2104873363931906237",
+      "created_at": "Tue Sep 29 09:58:11 +0000 2026",
+      "text": "Inpaint：专门用来清理照片里多余内容的图片修复工具\n\n圈出水印、日期、路人、电线、划痕，它会参考周围像素把缺口补上，不走提示词生成。\n\n桌面版有 Donor Area、Guide Lines 和批量处理，批量图片要同尺寸、同方向。\n\n支持 Windows / macOS，另外也有 iOS 版。\n\n只建议处理自己有权使用的图片哈\n\n👉 https://t.co/bA1nFvygg9",
+      "likes": 16,
+      "views": "11392",
+      "score": 59.372,
+      "summary": "Inpaint：专门用来清理照片里多余内容的图片修复工具\n\n圈出水印、日期、路人、电线、划痕，它会参考周围像素把缺口补上，不走提示词生成。\n\n桌面版有 Donor Area、Guide Lines 和批量处理，批量图片要同尺寸、同方向。\n\n支持 Windows / macOS，另外也有 iOS 版。\n\n只建议处理自己有权使用的图片哈\n\n👉 https://t.co/bA1nFvygg9",
+      "recommend_reason": "非扩散 inpaint、可批量清路人/水印，工具向日报里少见的实用条。",
+      "tags": [
+        "指定AI名单",
+        "Inpaint",
+        "图像",
+        "工具",
+        "修复",
+        "实用"
+      ],
+      "section": "指定AI名单",
+      "rank": 15
+    },
+    {
+      "id": "2104868788747329768",
+      "author": "sairahul1",
+      "url": "https://x.com/i/status/2104868788747329768",
+      "created_at": "Tue Sep 29 09:40:00 +0000 2026",
+      "text": "WALL STREET SPENT BILLIONS BUILDING THIS STACK.\n\nNow most of it is sitting on GitHub for free.\n\nJane Street. Goldman Sachs. BlackRock. Microsoft. QuantConnect.\n\nThe same kind of tooling used for market data, research, backtesting, portfolio optimization and execution is now available to anyone with a laptop.\n\nAnd the gap is getting even smaller with AI.\n\nHere are 10 repos worth knowing:\n\n1. OpenBB\nA free open-source investment research platform for stocks, options, crypto, forex and more.\nhttps://t.co/TtnZ9sHeW4\n\n2. Lean\nQuantConnect’s open-source algorithmic trading engine for research, backtesting and live execution.\nhttps://t.co/CRv0YUDWlu\n\n3. Qlib\nMicrosoft’s open-source quantitative investment platform for AI-driven research.\nhttps://t.co/qENX1Ef7XI\n\n4. AI Hedge Fund\nMultiple AI agents analyze the same investment from different perspectives before reaching a conclusion.\nhttps://t.co/RYhRMQ6o2d\n\n5. TradingAgents\nA simulated trading firm made of AI analysts, researchers, traders and risk managers.\nhttps://t.co/JAgNP6ONgh\n\n6. NautilusTrader\nResearch, backtesting and live trading infrastructure built for serious systematic strategies.\nhttps://t.co/qZbXY2joBe\n\n7. FinRL\nReinforcement learning frameworks and environments built specifically for financial trading research.\nhttps://t.co/TZcZCsdXj7\n\n8. Riskfolio-Lib\nPortfolio optimization including mean-variance, CVaR, risk parity and other allocation models.\nhttps://t.co/cmPnrReSKM\n\n9. vectorbt\nHigh-speed Python backtesting for testing huge numbers of strategy combinations quickly.\nhttps://t.co/Wd38X1JSYL\n\n10. CCXT\nOne API for connecting trading systems to dozens of crypto exchanges.\nhttps://t.co/JUb4rdK4Ya\n\nThe stack basically looks like:\n\ndata → research → strategy → backtest → risk → execution\n\nTen years ago, building something like this required an entire quant team and expensive infrastructure.\n\nNow the infrastructure is open source.\n\nAnd frontier models can increasingly handle parts of the research loop too.\n\nThat made me want to test the next obvious question:\n\nWhat happens if you give Claude Opus 5.5 market data and let it research, backtest, reject and refine trading ideas itself?\n\nI ran the experiment and wrote up exactly what happened:",
+      "likes": 16,
+      "views": "3523",
+      "score": 57.41,
+      "title": "华尔街同款量化栈大量开源：从 OpenBB、Lean 到 FinRL 的十条仓库",
+      "summary": "作者整理 10 个开源仓库，覆盖研究/回测/组合/执行：OpenBB、Lean、Qlib、AI Hedge Fund、TradingAgents、NautilusTrader、FinRL、Riskfolio-Lib、vectorbt、CCXT，并概括 data→research→strategy→backtest→risk→execution；强调基础设施已开源，前沿模型也在吃研究环。",
+      "recommend_reason": "一份能收藏的量化开源地图，比单条产品安利更耐读。",
+      "tags": [
+        "指定AI名单",
+        "量化",
+        "开源",
+        "Agent",
+        "回测",
+        "工具"
+      ],
+      "section": "指定AI名单",
+      "rank": 16
+    },
+    {
+      "id": "2104858851996774553",
+      "author": "GoSailGlobal",
+      "url": "https://x.com/i/status/2104858851996774553",
+      "created_at": "Tue Sep 29 09:00:31 +0000 2026",
+      "text": "看到一条好视频，想让 AI 反推出提示词\n\n最怕的不是它写得不好，是它根本没看懂就开始写\n\n这个 MiniMax H3 视频反推技能，一周 135 星，MIT\n\n它先让 AI 用中文把视频复述一遍：发生了什么、动作怎么衔接、最后停在哪、哪里拿不准。你确认或者纠正了，它才开始写提示词\n\n它追的是具体事实\n\n谁先动，碰到了哪里\n道具被挡住之后还在不在\n镜头是在移动还是切换\n最后那个动作到底有没有做完\n\nAI 反推视频最常犯的几种误读，它都专门写了规则\n\n把触碰、撤回、再次接触合成一个动作\n道具被遮住就写成消失\n连续拉远或环绕被误写成切镜\n片尾还在行驶，却补成停车到达\n\n交付有四种模式：文生视频一段完整描述；图生视频逐镜给首帧和动态提示词；两套都要；或者让它自己选\n\n声音也单独处理了：有原音轨默认保留原声，并说明具体怎么继承。它还特别提醒，文字 Prompt 本身不携带原始波形，后期铺回原声也不会自动对上口型\n\n作者很坦白\n\n它本身不含模型，不生成视频，不要 API Key\n当前是 0.4.0 候选版，结构和回归都有自动校验，但 H3 成片相似度和口型效果还没做对照\n\nCodex 等支持技能的 Agent 都能装",
+      "likes": 1,
+      "views": "1193",
+      "score": 56.327,
+      "title": "MiniMax H3 视频反推 Skill：先中文复述画面再写提示词",
+      "summary": "介绍一周约 135 星的 MIT 技能：用 AI 先中文复述视频内容，再反推提示词，避免没看懂就瞎写。",
+      "recommend_reason": "视频→提示词链路里“先看懂再写”这一步被做成 Skill，很实用。",
+      "tags": [
+        "指定AI名单",
+        "MiniMax",
+        "Skill",
+        "AI视频",
+        "提示词",
+        "工具"
+      ],
+      "section": "指定AI名单",
+      "rank": 17
+    },
+    {
+      "id": "2104851874708910136",
+      "author": "yangyi",
+      "url": "https://x.com/i/status/2104851874708910136",
+      "created_at": "Tue Sep 29 08:32:47 +0000 2026",
+      "text": "基于Agent的周边infra设施会很值钱\n钱包支付就不用说了\n单一个RBAC系统 只要聚合的足够多\n也是相当值钱的呢\n\n从前企业里管理人类的Human Resource\n未来会演化出Agent Resource角色\n\n本机权限 云端权限 Skill能力 Agent工具 以及记忆文件\n这些控制也需要非常多的管理\n\n我自己在NewMax里做了一些初步的尝试\n发现这些问题是非常通用的\n每个Agent都会遇到\n就意味着市场巨大\n\n而且随着未来机器人终端不断增加\n就会发现数据访问是一项频率指数级提升的问题",
+      "likes": 18,
+      "views": "3494",
+      "score": 61.441,
+      "title": "Agent 周边 infra 会很值钱：从支付到 RBAC 再到 Agent Resource",
+      "summary": "作者认为 Agent 周边基础设施会很值钱：支付之外，聚合够多的 RBAC 也可观；企业 Human Resource 可能演化出 Agent Resource，管理本机/云端权限、Skill、工具与记忆文件；并称在 NewMax 做了初步尝试，数据访问频率会随机器人终端指数上升。",
+      "recommend_reason": "把 Agent 治理从模型能力拉到权限与资源角色，指出一块更像平台的市场。",
+      "tags": [
+        "指定AI名单",
+        "Agent",
+        "RBAC",
+        "Infra",
+        "权限",
+        "平台"
+      ],
+      "section": "指定AI名单",
+      "rank": 18
+    },
+    {
+      "id": "2104846468897235229",
+      "author": "dashen_wang",
+      "url": "https://x.com/i/status/2104846468897235229",
+      "created_at": "Tue Sep 29 08:11:18 +0000 2026",
+      "text": "我最近几个项目跑下来\n\n开始干一件反常识的事\n\n别人都在研究怎么让 Agent 越来越聪明\n\n我反而在研究怎么让它越来越笨\n\n一个新任务第一次出现\n\n我会直接上最强的模型\n\n让它试错 找路 把流程跑通\n\n但只要跑通几次\n\n我就开始往下拆\n\n大模型能不能换小模型\n\n小模型能不能换 Skill\n\nSkill 能不能变成固定流程\n\n固定流程能不能最后直接变成普通程序\n\n最近几个项目我基本都在这么做\n\n而且越做越觉得这条路可能是对的\n\n一件事如果已经做对 100 次\n\n第 101 次还要重新调用最贵的模型思考\n\n这不是智能\n\n这是系统没有沉淀\n\n所以我现在看一个 Agent\n\n已经不太看它会多少东西了\n\n我看的是\n\n它有多少东西已经不用想了\n\n刚开始的时候 80% 靠模型很正常\n\n跑了半年还是 80% 靠模型\n\n那这半年其实啥也没留下\n\n真正成熟的 Agent\n\n应该是越跑越久\n\n需要大模型出手的地方越少\n\n推理变成经验\n\n经验变成 Skill\n\nSkill 变成流程\n\n流程最后变成程序\n\n所以我现在越来越觉得\n\n真正成熟的 AI 系统\n\n最后看起来可能反而没那么 AI\n\n大模型最值钱的地方是开荒\n\n不是每天陪你重复走老路\n\n路都修好了\n\n就别一直花钱请探险家了",
+      "likes": 32,
+      "views": "3276",
+      "score": 61.125,
+      "title": "别把 Agent 越做越聪明：成熟系统应把推理沉淀成程序",
+      "summary": "作者反常识地研究如何让 Agent「变笨」：新任务先上最强模型开荒，跑通后逐步大模型→小模型→Skill→固定流程→普通程序。若同一件事做对 100 次仍每次请最贵模型，那是系统没有沉淀；成熟 Agent 看起来可能反而不那么 AI。",
+      "recommend_reason": "少见的工程成熟度视角：用“还有多少必须想”衡量 Agent，而不是功能清单长度。",
+      "tags": [
+        "指定AI名单",
+        "Agent",
+        "工程",
+        "Skill",
+        "成本",
+        "方法论"
+      ],
+      "section": "指定AI名单",
+      "rank": 19
+    },
+    {
+      "id": "2104841437628293238",
+      "author": "wangzan101",
+      "url": "https://x.com/i/status/2104841437628293238",
+      "created_at": "Tue Sep 29 07:51:19 +0000 2026",
+      "text": "Meta 和 Manus 绝逼有一个被夺舍了。\n\n同样的一个任务，同样的云电脑 Browser use，同样的接管登录，同样的 Agent查看网页信息，结果相差太大。\n\nMuse 五分钟不到就做完了，回复也总结的很好；Cue 干了 25 分钟，最后还是个残缺的回复。\n\n两个的不足是都非常卡顿，接管使用云电脑浏览器的时候，卡的要死，基本上用不了。\n\n但是从任务完成度来说，Meta 的 Muse 比 Manus 的 Cue 好太多。",
+      "likes": 13,
+      "views": "13857",
+      "score": 58.891,
+      "title": "同任务对比：Meta Muse 约 5 分钟完成，Manus Cue 约 25 分钟仍残缺",
+      "summary": "作者用同一任务、同样云电脑 Browser use/接管登录对比：Muse 五分钟内完成且总结更好，Cue 跑约 25 分钟仍残缺；两者云电脑浏览器都极卡，但完成度上 Muse 明显更好。",
+      "recommend_reason": "个人 Agent 横评少不了实机同题；卡顿与完成度分开看，结论更可信。",
+      "tags": [
+        "指定AI名单",
+        "Muse",
+        "Cue",
+        "Manus",
+        "Meta",
+        "评测"
+      ],
+      "section": "指定AI名单",
+      "rank": 20
+    },
+    {
+      "id": "2104838727738511512",
+      "author": "lxfater",
+      "url": "https://x.com/i/status/2104838727738511512",
+      "created_at": "Tue Sep 29 07:40:33 +0000 2026",
+      "text": "天杀的，Codex 200 刀 Pro 的额度砍了一半🥲\n\nCodex 负责人 Tibo 刚发的\n明天 200 刀的 Pro 重新开放给新用户，额度改成按 API 美元价算\n按他自己的说法，算下来只值原来 Pro 的一半\n\n老用户会不会跟着变，他没说\n\n那他怎么圆？\n\n理由是这周 GPT-6 的 Sol 和 Luna，API 刚降了一半\n模型越来越便宜，同样的钱能干更多活\n\n但降价的只有这两个\n最贵的 Astra 一分没降，每百万输出还是 50 刀，是 Sol 的 5 倍\n\n想用最强的 Astra 干活，额度又是按美元扣\n那就是实打实少了一半\n\n说白了，降价是给 API 看的，砍的是订阅用户\n\n评论区基本一边倒，不少人已经说要回 Claude 了\n\n我之前还说 Codex 必须开 200 美金😅\n现在只能等明天，看他说的好消息能不能圆回来\n\n原推👇",
+      "likes": 25,
+      "views": "21514",
+      "score": 56.265,
+      "title": "Codex 200 刀 Pro 额度砍半：按 API 美元价重算，约只值以前一半",
+      "summary": "作者转述 Tibo：明日 200 刀 Pro 重开，额度改按 API 美元价计算，约只相当于旧方案一半；并提醒与官方长文对照理解。",
+      "recommend_reason": "中文圈对 Cursor/Codex 额度调整的即时转述，方便和官方英文长文对照。",
+      "tags": [
+        "指定AI名单",
+        "Codex",
+        "Cursor",
+        "额度",
+        "订阅",
+        "解读"
+      ],
+      "section": "指定AI名单",
+      "rank": 21
+    },
+    {
+      "id": "2104835134373716195",
+      "author": "op7418",
+      "url": "https://x.com/i/status/2104835134373716195",
+      "created_at": "Tue Sep 29 07:26:16 +0000 2026",
+      "text": "Tibo 宣布，明天 Codex 200 美元的会员按照 API 额度算的话，会开始减半，降低一半额度。\n\n这也就是为什么之前传言他们会出 500 美元，估计 500 美元的额度跟现在的 200 美元是一样的吧。\n\n他找补了一下，说 GPT-6 sol 和 Luna 的价格降了 50%，所以如果你用 o 和 Luna 的话，其实本质上没有降。\n\n这太扯淡了，等于你从明天开始，如果你是 200 美元的话，你的 GPT 6 Astra 额度会减半",
+      "likes": 163,
+      "views": "94373",
+      "score": 59.59,
+      "title": "Codex 200 美元档额度将减半：Astra 用户最疼，Sol/Luna 降价挡不住",
+      "summary": "Tibo 称 Codex/Cursor 200 美元档按 API 额度将减半；作者猜测这与传闻 500 美元档有关，并指出 Sol/Luna 降价 50% 的说辞挡不住 Astra 额度实打实腰斩。",
+      "recommend_reason": "把官方长文压成中文利害关系：Astra 用户明天起额度怎么变，一眼能懂。",
+      "tags": [
+        "指定AI名单",
+        "Cursor",
+        "Codex",
+        "额度",
+        "Astra",
+        "解读"
+      ],
+      "section": "指定AI名单",
+      "rank": 22
+    },
+    {
+      "id": "2104823812042940713",
+      "author": "thsottiaux",
+      "url": "https://x.com/i/status/2104823812042940713",
+      "created_at": "Tue Sep 29 06:41:17 +0000 2026",
+      "text": "Hi,\n\nTomorrow we are re-opening the Pro $200 subscriptions to new subscribers, but together with it we are also changing how we calculate the usage for it. In effect, if you do the math, it will net out at half the dollar in API spend compared to the old Pro $200 plan. \n\nNow that it's said, let me explain why this is happening and why you will still get more work done than if you were on the Pro $200 subscription one month ago.\n\n(a) We didn't want to compromise in other ways and are committing to not reintroducing the 5h limit, so that you can fully use the weekly usage when you want.\n(b) On the subscription, we guarantee that over time you always get more work done and with an increasing level of quality. This means that you will continue to get more value per dollar spent as a result of models getting more efficient and us passing down the improvements in the form of API price reductions.\n(c) We don't want to put an incentive on ourselves to artificially inflate the API list prices to make it look like you are getting a lot (and workaround it through discounts, etc). Instead we want to continue to both rapidly reduce prices and increase capabilities of models on the API. This week we introduced GPT-6 Sol and GPT-6 Luna at 50% of their previous price. Over time, we see prices go low enough that it makes sense for most to buy usage as needed without there being a significant gap between what you get in a subscription and what you get in the API for a dollar spent.\n(d) Tomorrow, we are adding more things to the subscription that won't draw on the usage, I won't reveal what that is yet.\n\nI wanted to be transparent before all the big announcements tomorrow. Lots of new exciting things are coming to the subscriptions that will make it super compelling, but I wanted to make sure to share this change ahead of time so you can all understand it before we shower you with good news.\n\nCodexingly,\nTibo",
+      "likes": 19973,
+      "views": "12247245",
+      "score": 67.223,
+      "title": "Cursor 重开 Pro $200：按 API 计价额度约砍半，但承诺不恢复 5 小时墙",
+      "summary": "Cursor 的 Tibo 宣布明日重开 Pro $200 给新订阅，同时改用量计算：折合 API 花费约为旧 Pro $200 的一半。他解释：不恢复 5 小时限额以便吃满周额度；订阅侧承诺随模型效率与 API 降价持续提升单位价值；本周 GPT-6 Sol/Luna 已降价 50%；明日还会加不吃额度的权益。希望在更大发布前先透明说明。",
+      "recommend_reason": "官方亲自拆解 Pro $200 重开与额度重算，是订阅用户今晚最需要先读的一条。",
+      "tags": [
+        "指定AI名单",
+        "Cursor",
+        "Codex",
+        "订阅",
+        "定价",
+        "Pro"
+      ],
+      "section": "指定AI名单",
+      "rank": 23
+    },
+    {
+      "id": "2104822521472426107",
+      "author": "vllm_project",
+      "url": "https://x.com/vllm_project/status/2104822521472426107",
+      "created_at": "Tue Sep 29 06:36:09 +0000 2026",
+      "text": "IQuest-Q1 by @IQuest_research has day-0 support in vLLM: a 320B MoE for agentic coding, 15B active per token, 256 experts with 8 live, 524,288 context. 🎉\n\nBuilt on pieces vLLM already has:\n🔹 The hybrid KV cache coordinator, for a 3 sliding to 1 full attention layer mix, so only 25 of the 88 layers grow a cache with the context\n🔹 A sinks path in the attention backends, for the sink attention the checkpoint asks for\n🔹 EAGLE speculative decoding with probabilistic draft sampling, which is how the recursive MTP head drafts",
+      "likes": 38,
+      "views": 5223,
+      "score": 65.427,
+      "title": "vLLM day-0 支持 IQuest-Q1：320B MoE、15B 激活、52 万上下文",
+      "summary": "IQuest-Q1（面向 agentic coding 的 320B MoE，每 token 约 15B 激活、256 专家中 8 个在线、524,288 上下文）在 vLLM 获 day-0 支持；复用混合 KV cache 协调、sink attention 路径与 EAGLE 投机解码等已有能力。",
+      "recommend_reason": "推理侧 day-0 往往决定新 MoE 能不能马上进生产，规格与依赖栈写得很清楚。",
+      "tags": [
+        "指定AI名单",
+        "vLLM",
+        "IQuest-Q1",
+        "MoE",
+        "推理",
+        "Agent编码"
+      ],
+      "section": "指定AI名单",
+      "rank": 24
+    },
+    {
+      "id": "2104819093392306418",
+      "author": "dingyi",
+      "url": "https://x.com/i/status/2104819093392306418",
+      "created_at": "Tue Sep 29 06:22:32 +0000 2026",
+      "text": "这个有点意思啊：EverMind 团队开源了 Raven 0.2.0，主打 Harness of Harnesses 架构，专门为 RSI（递归自我改进）打造。真正的 Multi-Agent 调度与自我进化框架来了！",
+      "likes": 53,
+      "views": "10264",
+      "score": 57.889,
+      "summary": "这个有点意思啊：EverMind 团队开源了 Raven 0.2.0，主打 Harness of Harnesses 架构，专门为 RSI（递归自我改进）打造。真正的 Multi-Agent 调度与自我进化框架来了！",
+      "recommend_reason": "开源 RSI/多 Agent 调度框架值得盯：名头大，适合进观察列表。",
+      "tags": [
+        "指定AI名单",
+        "Raven",
+        "RSI",
+        "Multi-Agent",
+        "开源",
+        "Harness"
+      ],
+      "section": "指定AI名单",
+      "rank": 25
+    },
+    {
+      "id": "2104788285180563967",
+      "author": "xiaoerzhan",
+      "url": "https://x.com/i/status/2104788285180563967",
+      "created_at": "Tue Sep 29 04:20:06 +0000 2026",
+      "text": "Opus 5.5 非常优质的卡点\n《凯尔经的秘密》原片配乐\n\n这套的逻辑是\n首先用MJ出图，把画风固定为凯尔经秘密风格\n\n然后出视频，\nseedance出视频（但是太他妈贵）\n\n先对整个画面的内容要有一个安排\n然后来计划出一些首尾帧\n\n然后有opus 5.5来控制整个节奏\n把音乐的音轨拆成函数\n\n再把对应的函数和视频拆开的每一帧\n按照音乐的函数来控制画面播放\n\n每一帧，都是时间的函数\n这个能力是opus特别厉害的一个能力",
+      "likes": 47,
+      "views": "4859",
+      "score": 65.037,
+      "title": "用 Opus 5.5 把音轨拆成函数，驱动《凯尔经的秘密》风格卡点视频",
+      "summary": "工作流：MJ 固定凯尔经秘密画风 → Seedance 出视频 → Opus 5.5 把音乐音轨拆成函数并对齐每帧播放节奏；强调「每一帧都是时间的函数」是 Opus 的强项。",
+      "recommend_reason": "把模型当节拍器/时间函数用，而不是只当文案机，卡点思路很具体。",
+      "tags": [
+        "指定AI名单",
+        "Opus 5.5",
+        "AI视频",
+        "卡点",
+        "Midjourney",
+        "工作流"
+      ],
+      "section": "指定AI名单",
+      "rank": 26
+    },
+    {
+      "id": "2104787162210435095",
+      "author": "emollick",
+      "url": "https://x.com/emollick/status/2104787162210435095",
+      "created_at": "Tue Sep 29 04:15:39 +0000 2026",
+      "text": "Hey, Claude: \"I asked an earlier Claude to Remove the Squid from All Quiet on the Western Front. Now you can make movies and such. I need you to show how far you have come\" &amp; I pasted in the tweet below\n\nThere is some clever stuff, models have a real sense of humor at this point https://t.co/xdqaBaj7AH",
+      "likes": 540,
+      "views": 97729,
+      "score": 69.186,
+      "title": "Emollick：让 Claude 续写“去掉鱿鱼的西线无战事”，模型幽默与视频能力都在露头",
+      "summary": "作者把早先 Claude「从《西线无战事》里去掉鱿鱼」的玩笑贴给现在的 Claude，要求展示进步并做影像；认为模型已有相当幽默感与视频相关能力。",
+      "recommend_reason": "用同一梗跨代追问，比参数表更能感觉到模型风格与多模态余力的变化。",
+      "tags": [
+        "指定AI名单",
+        "Claude",
+        "评测",
+        "幽默",
+        "AI视频",
+        "Emollick"
+      ],
+      "section": "指定AI名单",
+      "rank": 27
+    },
+    {
+      "id": "2104786941636124827",
+      "author": "xiaohu",
+      "url": "https://x.com/i/status/2104786941636124827",
+      "created_at": "Tue Sep 29 04:14:46 +0000 2026",
+      "text": "Elevenlab 发布两款新语音模型：Eleven v4 和 Eleven v4 Turbo \n\n能根据文本内容“按剧情表演”声音\n\nEleven v4 的主要功能特点：\n\n脚本可以直接控制表演： 在台词中写入情绪、停顿、笑声、耳语、动作和环境音效，也可以用自然语言说明一句话应该怎样说。\n\n声音克隆兼顾相似度和表现力： Instant Voice Clone 可用大约 10 秒录音创建声音，Professional Voice Clone 重新支持 v4 的完整情绪范围。\n\n长篇和重生成更连贯：context stitching 负责衔接不同生成片段的节奏与状态，speaker stability 尽量让角色在旁白、对话和返工片段里保持同一声线。\n\n支持多人对话和发音控制： 同一脚本可安排多个说话者、接话关系和音效，并通过 IPA 与发音词典固定姓名、缩写和专业词的读法。\n\n覆盖 90 多种语言： 官方点名支持粤语、蒙古语和奥里亚语，演示还展示了加泰罗尼亚语旁白与音效标签。\n\nTurbo 为实时对话降低等待：模型推理时间约为 100ms，中位首次出声约为 150ms，并支持双向流式生成。",
+      "likes": 16,
+      "views": "5006",
+      "score": 61.865,
+      "title": "ElevenLabs 发 Eleven v4 / v4 Turbo：脚本控表演，Turbo 约 150ms 首包",
+      "summary": "Eleven v4 支持在台词里写情绪/停顿/笑声等表演控制，约 10 秒即可 Instant Voice Clone，并强化长篇衔接与多人对话、90+ 语言；Turbo 推理约 100ms、中位首音约 150ms，面向实时对话。",
+      "recommend_reason": "语音模型更新写全了表演控制、克隆与实时指标，做 Agent 口播/客服可直接对表。",
+      "tags": [
+        "指定AI名单",
+        "ElevenLabs",
+        "语音",
+        "v4",
+        "TTS",
+        "实时"
+      ],
+      "section": "指定AI名单",
+      "rank": 28
+    },
+    {
       "id": "2104781153551179863",
       "author": "xiaohu",
       "url": "https://x.com/i/status/2104781153551179863",
@@ -28,7 +659,7 @@
         "产品"
       ],
       "section": "指定AI名单",
-      "rank": 1
+      "rank": 29
     },
     {
       "id": "2104779881708224936",
@@ -47,7 +678,7 @@
         "多模型",
         "内容生产"
       ],
-      "rank": 2
+      "rank": 30
     },
     {
       "id": "2104774965639950730",
@@ -67,7 +698,7 @@
         "产品",
         "Vibe Coding"
       ],
-      "rank": 3
+      "rank": 31
     },
     {
       "id": "2104774903383921045",
@@ -86,7 +717,7 @@
         "Grok Bot",
         "产品对比"
       ],
-      "rank": 4
+      "rank": 32
     },
     {
       "id": "2104758143423291407",
@@ -108,7 +739,7 @@
         "编码"
       ],
       "section": "指定AI名单",
-      "rank": 5
+      "rank": 33
     },
     {
       "id": "2104745477761913009",
@@ -130,7 +761,7 @@
         "安全"
       ],
       "section": "指定AI名单",
-      "rank": 6
+      "rank": 34
     },
     {
       "id": "2104721825918071197",
@@ -151,7 +782,7 @@
         "架构"
       ],
       "section": "指定AI名单",
-      "rank": 7
+      "rank": 35
     },
     {
       "id": "2104716874781167953",
@@ -171,7 +802,7 @@
         "工作流",
         "Agent"
       ],
-      "rank": 8
+      "rank": 36
     },
     {
       "id": "2104710467512058027",
@@ -190,7 +821,7 @@
         "分发",
         "xAI"
       ],
-      "rank": 9
+      "rank": 37
     },
     {
       "id": "2104688077625253934",
@@ -210,7 +841,7 @@
         "Grok Bot",
         "个人Agent"
       ],
-      "rank": 10
+      "rank": 38
     },
     {
       "id": "2104682232522944909",
@@ -232,7 +863,7 @@
         "产品策略"
       ],
       "section": "指定AI名单",
-      "rank": 11
+      "rank": 39
     },
     {
       "id": "2104680580063388078",
@@ -252,7 +883,7 @@
         "Agent",
         "Foundry"
       ],
-      "rank": 12
+      "rank": 40
     },
     {
       "id": "2104670026770919586",
@@ -274,7 +905,7 @@
         "编码"
       ],
       "section": "指定AI名单",
-      "rank": 13
+      "rank": 41
     },
     {
       "id": "2104666044220821594",
@@ -293,7 +924,7 @@
         "Sonnet 5.5"
       ],
       "section": "指定AI名单",
-      "rank": 14
+      "rank": 42
     },
     {
       "id": "2104664283808428165",
@@ -313,7 +944,7 @@
         "协作"
       ],
       "title": "Grok Bot 变多人：Team Bot 共享插件技能凭证并可一键进 Slack",
-      "rank": 15
+      "rank": 43
     },
     {
       "id": "2104660347730969087",
@@ -335,7 +966,7 @@
         "NVIDIA"
       ],
       "section": "指定AI名单",
-      "rank": 16
+      "rank": 44
     },
     {
       "id": "2104656716734570801",
@@ -353,7 +984,7 @@
         "General Agent",
         "产品定位"
       ],
-      "rank": 17
+      "rank": 45
     },
     {
       "id": "2104655162929545486",
@@ -371,7 +1002,7 @@
         "免费额度",
         "模型"
       ],
-      "rank": 18
+      "rank": 46
     },
     {
       "id": "2104654757508129113",
@@ -393,7 +1024,7 @@
         "编码Agent"
       ],
       "section": "指定AI名单",
-      "rank": 19
+      "rank": 47
     },
     {
       "id": "2104650629734178817",
@@ -414,7 +1045,7 @@
         "模型选择"
       ],
       "section": "指定AI名单",
-      "rank": 20
+      "rank": 48
     },
     {
       "id": "2104649934624735557",
@@ -435,7 +1066,7 @@
         "路由"
       ],
       "section": "指定AI名单",
-      "rank": 21
+      "rank": 49
     },
     {
       "id": "2104648654074343480",
@@ -457,7 +1088,7 @@
         "评测"
       ],
       "section": "指定AI名单",
-      "rank": 22
+      "rank": 50
     },
     {
       "id": "2104640328611639731",
@@ -478,7 +1109,7 @@
         "编码Agent"
       ],
       "section": "指定AI名单",
-      "rank": 23
+      "rank": 51
     },
     {
       "id": "2104640155843989864",
@@ -500,7 +1131,7 @@
         "Terminal-Bench"
       ],
       "section": "指定AI名单",
-      "rank": 24
+      "rank": 52
     },
     {
       "id": "2104638725317923228",
@@ -520,7 +1151,7 @@
         "bcherny"
       ],
       "section": "指定AI名单",
-      "rank": 25
+      "rank": 53
     },
     {
       "id": "2104633259925630995",
@@ -539,7 +1170,7 @@
         "Sonnet 5.5"
       ],
       "section": "指定AI名单",
-      "rank": 26
+      "rank": 54
     },
     {
       "id": "2104633115620823187",
@@ -561,7 +1192,7 @@
         "发布"
       ],
       "section": "指定AI名单",
-      "rank": 27
+      "rank": 55
     },
     {
       "id": "2104617295683424526",
@@ -583,7 +1214,7 @@
         "工具"
       ],
       "section": "指定AI名单",
-      "rank": 28
+      "rank": 56
     },
     {
       "id": "2104608785696440510",
@@ -605,7 +1236,7 @@
         "Agent"
       ],
       "section": "指定AI名单",
-      "rank": 29
+      "rank": 57
     },
     {
       "id": "2104606071428206993",
@@ -627,10 +1258,10 @@
         "产品"
       ],
       "section": "指定AI名单",
-      "rank": 30
+      "rank": 58
     }
   ],
-  "generated_at": "2026-09-29T04:59:29Z",
+  "generated_at": "2026-09-29T17:17:32Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -638,11 +1269,11 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 30,
-    "last_batch_added": 30,
+    "actual_count": 58,
+    "last_batch_added": 7,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
