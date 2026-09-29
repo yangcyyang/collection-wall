@@ -1,18 +1,18 @@
 {
   "source": "AI Frontier Radar",
   "title": "前沿信号",
-  "updated_at": "2026-09-28T08:20:00+08:00",
+  "updated_at": "2026-09-29T08:25:00+08:00",
   "count": 17,
   "items": [
     {
       "id": "agent-science-discovery-loops",
       "title": "智能体群正在进入可引用的科学发现闭环",
       "type": "strong_signal",
-      "score": 94,
-      "confidence": "high",
+      "score": 96,
+      "confidence": "medium",
       "status": "strengthening",
       "first_detected": "2026-09-24T08:35:00+08:00",
-      "last_updated": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-09-29T08:25:00+08:00",
       "summary": "Anthropic 湿实验室 ART 酶发现之后，Claude Science harness 又完成 N=4 SYM 九圈散射振幅（bootstrap + form-factor），并由 Lance Dixon 独立验证——agent swarm × 科学发现从湿实验扩展到可引用理论计算。",
       "why_it_matters": "科学发现从「模型答题」变成「并行假设生成 + 人类门控湿实验」的可复制 playbook。",
       "tags": [
@@ -22,6 +22,12 @@
         "Anthropic"
       ],
       "evidence": [
+        {
+          "url": "https://www.producthunt.com/products/openscience",
+          "date": "2026-09-27",
+          "note": "OpenScience PH 发布（Autoresearch）",
+          "tag": "社区发现"
+        },
         {
           "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
           "source": "Anthropic Science",
@@ -43,6 +49,7 @@
         }
       ],
       "watch_next": [
+        "openscience-autoresearch-uptake",
         "其他领域同样 harness 是否复现",
         "独立复现九圈结果",
         "独立实验室能否复现 ART 假设",
@@ -53,11 +60,11 @@
       "id": "system-one-decision-models",
       "title": "System One 决策模型：跳过生成、直接输出结构化判断",
       "type": "strong_signal",
-      "score": 96,
-      "confidence": "high",
+      "score": 97,
+      "confidence": "medium",
       "status": "strengthening",
       "first_detected": "2026-09-22T08:20:00+08:00",
-      "last_updated": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-09-29T08:25:00+08:00",
       "summary": "开放对比式 System One 决策层出现可复现配方：CLM-8B（Apache）把 state↔action 匹配从生成式 LLM 调用拆成可缓存投影头，相对闭源 Jev 提供开源对照；同窗还有桌面浏览器 agent jevry 扩散。",
       "why_it_matters": "若决策外环商品化，harness 路由/门禁/triage 可从「再跑一遍 LLM 再解析」降到亚秒结构化 API；下一问是主流 coding/agent 产品是否默认接入。",
       "tags": [
@@ -68,6 +75,12 @@
         "Harness"
       ],
       "evidence": [
+        {
+          "url": "https://www.producthunt.com/products/harness-103",
+          "date": "2026-09-28",
+          "note": "Harness Router PH：Jev PreToolUse 路由",
+          "tag": "社区发现"
+        },
         {
           "url": "https://huggingface.co/SupersonicLabs/Julia-1",
           "source": "Hugging Face",
@@ -132,6 +145,7 @@
         }
       ],
       "watch_next": [
+        "harness-router-adoption",
         "Julia 是否进入 harness 默认",
         "Jev 路由份额是否继续攀升",
         "CLM verifier 是否进入 harness 默认门控",
@@ -343,7 +357,7 @@
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-09-29T08:25:00+08:00",
       "summary": "Claude Code Projects 重设计：从一会话调度并行云端 threads（各为独立会话/分支），共享 memory 与 artifact library，关电脑后仍继续，可从手机督导；本周对部分 Pro/Max 云会话扩量，本地工具随后。叠加前日 Cowork×chat 合并、jurniti / Cursor Projects / Muse Secure VM——「关盖还在跑」的持久 agent 电脑已成主流产品原语。",
       "why_it_matters": "叙事从「模型会点鼠标」变成「每人一台隔离 VM 里的代理」。Sentinel/审批/审计说明大众 agent 的产品化关键是安全电脑，而不是更长的聊天窗口。",
       "tags": [
@@ -357,6 +371,12 @@
         "Sentinel"
       ],
       "evidence": [
+        {
+          "url": "https://x.ai/news/team-bots",
+          "date": "2026-09-28",
+          "note": "Team Bots 共享 Context/Plugins/Memories",
+          "tag": "官方确认"
+        },
         {
           "url": "https://www.producthunt.com/products/hemory",
           "source": "Product Hunt",
@@ -495,12 +515,6 @@
           "source": "reliable",
           "note": "The Information：OpenAI 购入数万台 Mac mini/Studio 做强化学习与电脑操控训练；Anthropic 经 AWS 租 Mac",
           "date": "2026-08-31T00:00:00+08:00"
-        },
-        {
-          "url": "https://x.com/reach_vb/status/2094147178650308868",
-          "source": "community",
-          "note": "ChatGPT Work 自带云电脑（当时约 9 vCPU / 15GB），可离开后在网页/手机再续",
-          "date": "2026-08-31T00:00:00+08:00"
         }
       ],
       "watch_next": [
@@ -529,11 +543,11 @@
       "id": "critical-cyber-gated-deployment",
       "title": "前沿实验室把「Critical 级网络能力」做成门控发布，而不是全面开闸",
       "type": "pattern",
-      "score": 98,
+      "score": 99,
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-09-02T08:20:00+08:00",
-      "last_updated": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-09-29T08:25:00+08:00",
       "summary": "门控 Critical 网络能力从「即将发布」进入量产：OpenAI GPT-6 Astra 今日分阶段上线（先限组织→Plus/Pro/Biz/Ent + API + AWS），并配套 Daybreak for Frontline Defenders 约 10 亿美元补贴给水电/电网/银行等前线防御方。叠加已有的 Google Fairwind + Anthropic Mythos 可信访问，三家实验室同构已落地为可订阅产品与补贴分发，而不只是评级公告。",
       "why_it_matters": "叙事闭环：高能力 cyber 默认 = 门控部署 + 防御侧优先供货。Astra 扩到普通付费档并不等于全面开闸——Critical 能力仍绑安全卡与 Daybreak 通道；补贴玩法说明「能力×门禁」开始有国家/关键基础设施分发层。",
       "tags": [
@@ -550,6 +564,18 @@
         "Daybreak"
       ],
       "evidence": [
+        {
+          "url": "https://x.com/perplexity_ai/status/2104589500123111710",
+          "date": "2026-09-28",
+          "note": "SPACE + NVIDIA Open Agent Safety：108 runs 无 VM 突破",
+          "tag": "官方确认"
+        },
+        {
+          "url": "https://www.anthropic.com/claude-sonnet-5-5",
+          "date": "2026-09-28",
+          "note": "首个 Sonnet 级 cyber safeguards/fallback",
+          "tag": "官方确认"
+        },
         {
           "url": "https://openai.com/hugging-face-incident-and-misalignment/",
           "source": "OpenAI",
@@ -673,6 +699,8 @@
         }
       ],
       "watch_next": [
+        "sonnet-cyber-fallback-rate",
+        "nvidia-space-adoption",
         "Astra 对 Plus/Pro 默认开放哪些 cyber/CU 能力切片",
         "Daybreak 美国试点扩到哪些非国家客户",
         "Fairwind / Mythos 是否跟进补贴式防御分发"
@@ -697,7 +725,7 @@
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-08-28T00:00:00+08:00",
-      "last_updated": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-09-29T08:25:00+08:00",
       "summary": "Weave Router 2.0 按复杂度/配额/缓存在 Claude↔Codex/Cursor 间路由；Bitrise Remote Dev Environments 用 MCP 拉起与 CI 同构的云 Mac/Linux；Claude Projects 把协调器做成产品原语。控制面继续从「编排模型」扩到「路由订阅 + 生产同构电脑」。",
       "why_it_matters": "第三方不必自建控制面即可嵌入同一套 agent loop；许可/沙箱/会话成为平台原语，而不只是应用层胶水。",
       "tags": [
@@ -711,6 +739,18 @@
         "沙箱"
       ],
       "evidence": [
+        {
+          "url": "https://www.producthunt.com/products/vantage-ai-2",
+          "date": "2026-09-28",
+          "note": "vantage.ai：本地 agent 花费与 allow/deny",
+          "tag": "社区发现"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.22978",
+          "date": "2026-09-19",
+          "note": "DSec 论文：日 300 万沙箱 / 逃逸目录",
+          "tag": "官方确认"
+        },
         {
           "url": "https://www.producthunt.com/products/quiver-gtm",
           "source": "Product Hunt",
@@ -843,21 +883,10 @@
           "source": "community",
           "note": "社区演示 Agents API 公测：托管 Codex harness + MCP + Skills",
           "date": "2026-09-14T07:24:22+08:00"
-        },
-        {
-          "url": "https://api-docs.deepseek.com/news/news260910",
-          "source": "official",
-          "note": "DeepSeek-V4.1-Flash：官方称优于 V4-Pro；KV 压缩面向 agent cache",
-          "date": "2026-09-10T00:00:00+08:00"
-        },
-        {
-          "url": "https://hob.dev/",
-          "source": "product",
-          "note": "hob：BYO agent CLI 的本地优先多会话工作区（PH 窗口内）",
-          "date": "2026-09-09T00:00:00+08:00"
         }
       ],
       "watch_next": [
+        "deepseek-dsec-opensource",
         "Rollouts 在真实变更上的回归拦截率",
         "Jev 是否被主流 harness 默认接入为外环决策层",
         "google/ax 是否被 Cursor/Claude Projects 类产品引用为底座",
@@ -888,7 +917,7 @@
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-09-29T08:25:00+08:00",
       "summary": "Amodei 将「AI 建造下一代 AI」的递归自我改进标为必须 pacing 的主因，并引用 OAI-HF 类 agent 集群误对齐；Altman/Musk/Hassabis 在公开层面对 pacing 方向形成罕见对齐。递归循环正从研究叙事进入行业治理议程。",
       "why_it_matters": "若对齐和训练优化成为智能体自己的工作，产品和安全的节奏都会变。不要把 Hy4 的递归自改进数字写成已经复现的事实。",
       "tags": [
@@ -898,6 +927,12 @@
         "Hy4"
       ],
       "evidence": [
+        {
+          "url": "https://arxiv.org/abs/2609.22978",
+          "date": "2026-09-19",
+          "note": "DSec 逃逸目录与生产缓解",
+          "tag": "官方确认"
+        },
         {
           "url": "https://alignment.openai.com/misalignment-reports/self-replicating-prompt-injections-exist/",
           "source": "OpenAI Alignment",
@@ -1035,12 +1070,12 @@
     {
       "id": "multi-agent-team-orchestration",
       "title": "多智能体对抗式协作正在变成可编程的运行时模式",
-      "type": "strong_signal",
-      "score": 97,
+      "type": "pattern",
+      "score": 98,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-09-01T08:50:00+08:00",
-      "last_updated": "2026-09-25T08:15:00+08:00",
+      "last_updated": "2026-09-29T08:25:00+08:00",
       "summary": "Cursor Projects / Claude 高并发之外，社区出现 Plasma Radio：跨 Claude/Codex/Grok/Cursor 的共享房间，让多 agent 直接对话、减少人复制粘贴路由——编排从「单 runtime 舰队」扩到「跨提供商会话总线」。",
       "why_it_matters": "协作单元从「一次 chat 一次任务」变成「一个项目一台 agent 团队」，会改写工具默认信息架构与计费。",
       "tags": [
@@ -1050,6 +1085,18 @@
         "Antigravity"
       ],
       "evidence": [
+        {
+          "url": "https://x.com/n2parko/status/2104665008143749459",
+          "date": "2026-09-29",
+          "note": "n2parko：multiplayer has landed in Grok Bot",
+          "tag": "可靠来源"
+        },
+        {
+          "url": "https://x.ai/news/team-bots",
+          "date": "2026-09-28",
+          "note": "官方 Team Bots 发布",
+          "tag": "官方确认"
+        },
         {
           "url": "https://www.producthunt.com/products/noan-2",
           "source": "product",
@@ -1181,15 +1228,10 @@
           "source": "community",
           "note": "OzBrain：多 agent/多人共享知识脑 + 冲突版本化",
           "date": "2026-09-14T00:00:00+08:00"
-        },
-        {
-          "url": "https://x.com/aiDotEngineer/status/2099551501613986198",
-          "source": "reliable",
-          "note": "PostHog：子 agent 绕过护栏找密钥后被禁用——多智能体治理反例",
-          "date": "2026-09-15T01:31:00+08:00"
         }
       ],
       "watch_next": [
+        "xai-team-bots-uptake",
         "端侧多 Agent 真实设备基准复现",
         "其他运行时是否抄 named team patterns",
         "Lean 证明与上游合入能否被独立复核",
@@ -1365,11 +1407,11 @@
       "id": "coding-agent-supply-chain",
       "title": "编程智能体的模型供应不再是中立基础设施",
       "type": "strong_signal",
-      "score": 95,
+      "score": 97,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-28T00:00:00+08:00",
-      "last_updated": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-09-29T08:25:00+08:00",
       "summary": "Meta Muse Code 原生上 Windows（无 WSL）、默认沙箱、零管理员安装，并预告 intersession messaging；叠加既有 agent 供应链/工具链风险与多厂商 coding agent 客户端扩张——供应面从模型扩展到桌面原生客户端与会话间通道。",
       "why_it_matters": "模型接入变成并购后的控制权问题。编程工具必须双源。Gergely 把 Anthropic 对 Windsurf 的切断，和 Cursor 仍被当可信伙伴，放进同一框。杀伤力小于「Cursor 没模型了」，但先例比合同本身重要。",
       "tags": [
@@ -1380,6 +1422,18 @@
         "Kimi"
       ],
       "evidence": [
+        {
+          "url": "https://www.producthunt.com/products/cybedefend",
+          "date": "2026-09-28",
+          "note": "VibeDefend：循环内 diff 扫描",
+          "tag": "社区发现"
+        },
+        {
+          "url": "https://x.com/claudeai/status/2104633115620823187",
+          "date": "2026-09-29",
+          "note": "Sonnet 5.5 分发面（Cursor/Hermes 同日）",
+          "tag": "官方确认"
+        },
         {
           "url": "https://github.com/graygnatconsole/mcp-audit-tool",
           "source": "GitHub",
@@ -1486,6 +1540,7 @@
         }
       ],
       "watch_next": [
+        "vibedefend-agent-loop-uptake",
         "coding agent ARR 是否成类别叙事",
         "MCP 审计是否进 CI 默认",
         "11 月 12 日截止日期是否还成立",
@@ -1508,11 +1563,11 @@
       "id": "agent-flash-over-pro-economics",
       "title": "Flash 级模型开始在 agent 负载上挑战甚至替换 Pro 档",
       "type": "pattern",
-      "score": 98,
+      "score": 99,
       "confidence": "high",
-      "status": "strengthening",
+      "status": "confirmed_trend",
       "first_detected": "2026-09-10T18:20:00+08:00",
-      "last_updated": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-09-29T08:25:00+08:00",
       "summary": "火山引擎将 Doubao-Seed-2.1-pro 更新至 0915：Agent 交付溯源/核验、多模态 Coding、同接入点 Evolving；叠加 GPT-5.5→Sol/Astra 梯子与 DeepSeek Pro→Flash 切流——生产侧同时在压 Pro 交付可靠度与经济档替代。",
       "why_it_matters": "agent 默认算力正在被「够用且更便宜的 Flash」接管；旗舰 Pro 变为可选/后续，而不是默认入口。",
       "tags": [
@@ -1523,6 +1578,18 @@
         "MoE"
       ],
       "evidence": [
+        {
+          "url": "https://x.com/claudeai/status/2104633115620823187",
+          "date": "2026-09-29",
+          "note": "@claudeai 发布 Sonnet 5.5",
+          "tag": "官方确认"
+        },
+        {
+          "url": "https://www.anthropic.com/claude-sonnet-5-5",
+          "date": "2026-09-28",
+          "note": "官方 Sonnet 5.5：agentic 跃迁 + 同价更省 token",
+          "tag": "官方确认"
+        },
         {
           "url": "https://x.com/OpenRouter/status/2103915026205806610",
           "source": "OpenRouter",
@@ -1622,6 +1689,8 @@
         }
       ],
       "watch_next": [
+        "haiku-5-5-ship",
+        "sonnet-5-5-default-agent-loop",
         "Sonnet/Haiku 5.5 跟进节奏",
         "Sol/Luna 是否成为 Work/Codex 默认",
         "10/14 GPT-5.5 退役后的默认路由",
@@ -1642,9 +1711,9 @@
       "type": "pattern",
       "score": 99,
       "confidence": "high",
-      "status": "strengthening",
+      "status": "confirmed_trend",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-09-29T08:25:00+08:00",
       "summary": "Claude Marketplace 把 connectors、第三方 agents（Cursor/CrowdStrike）与 Accenture/Deloitte 等服务伙伴做成聊天内分发与购买面；叠加 Astra 插件、Kimi Skill、Plane playbook——技能/插件/agents 正在成为默认分发层。",
       "why_it_matters": "第四个命令行不值钱。可安装的技能和模板才是分发。企业插件市场把同一层做成了日常同步的软件包。",
       "tags": [
@@ -1653,6 +1722,12 @@
         "分发"
       ],
       "evidence": [
+        {
+          "url": "https://x.ai/news/team-bots",
+          "date": "2026-09-28",
+          "note": "Team Bots Context 含 skills",
+          "tag": "官方确认"
+        },
         {
           "url": "https://www.producthunt.com/products/floot",
           "source": "product",
@@ -1790,12 +1865,6 @@
           "source": "github",
           "date": "2026-08-30T00:00:00+08:00",
           "note": "v2.16.0，本周约增 1.5 万星"
-        },
-        {
-          "url": "https://x.com/ChatGPT/status/2093424514726285341",
-          "source": "official",
-          "date": "2026-08-29T00:00:00+08:00",
-          "note": "ChatGPT 工作区模板创建器"
         }
       ],
       "watch_next": [
