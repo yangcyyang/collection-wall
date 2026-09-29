@@ -1,0 +1,657 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-29",
+  "source": {
+    "type": "following_timeline",
+    "method": "opencli twitter search filter:follows",
+    "account": "yangcyyang1",
+    "window_hours": 12
+  },
+  "items": [
+    {
+      "id": "2104781153551179863",
+      "author": "xiaohu",
+      "url": "https://x.com/i/status/2104781153551179863",
+      "created_at": "Tue Sep 29 03:51:46 +0000 2026",
+      "text": "Google 推出一个类似个人 Agent 的实验性产品：CC\n一个专门服务于家庭场景的“群组级 AI 助理”\n\n它由最多六名家庭成员共同使用，帮助处理原本分散在不同邮箱、日历、图片和文件里的家庭事务。\n\n它要解决的痛点：学校通知可能在一位家长的 Gmail 里，训练安排是一张图片，报名信息藏在 PDF 中，接送和聚餐又需要几个人共同决定。\n\n真正耗时的不是看懂某条信息，而是不断转发、补充、确认和执行。\n\nCC 更像一个数字家庭管家，或者被拉进家庭协作中的“新成员”：\n\n拥有独立身份： CC 有自己的、经过验证的 Google 账号和专属邮箱，不需要全家人共享同一个账号密码。\n\n像协作者一样加入现有工具： 家庭成员可以直接在 Gmail、Google Chat、Calendar 和 Drive 等日常工具中与它互动，就像把一名助理加入家庭邮件和协作群组。\n\n由每个人分别授权： 每名成员自行选择要分享的邮件、发送者、图片、文件夹或日历，其余内容不会自动进入 CC 的共享上下文。\n\n演示中，CC 收到一封游泳课通知后，识别出孩子姓名、上课时间、地点、需要携带的泳具，以及第一天要提交的免责表，并创建一条家庭日历事项。",
+      "likes": 5,
+      "views": "1544",
+      "score": 59.684,
+      "title": "Google 实验产品 CC：最多 6 人的家庭群组 AI 助理",
+      "summary": "Google 实验性家庭 Agent「CC」：独立验证 Google 账号与邮箱，可进 Gmail/Chat/Calendar/Drive；每名成员自选授权范围。演示中从游泳课邮件抽出时间地点装备与免责表并写入家庭日历。痛点是转发确认执行，而非读懂单条信息。",
+      "recommend_reason": "家庭场景「群组级 Agent」产品雏形，对照个人 Bot/企业 Bot 三分法。",
+      "tags": [
+        "指定AI名单",
+        "Google",
+        "家庭Agent",
+        "CC",
+        "产品"
+      ],
+      "section": "指定AI名单",
+      "rank": 1
+    },
+    {
+      "id": "2104779881708224936",
+      "author": "dugujun12",
+      "url": "https://x.com/i/status/2104779881708224936",
+      "created_at": "Tue Sep 29 03:46:43 +0000 2026",
+      "text": "Grok 负责出图。\n\nClaude 负责改字。\n\n出图的提示词能被人拿走用。\n\n改字的结论看完就走。\n\n这两样对调，先坏的是图，还是字？",
+      "likes": 1,
+      "views": "22",
+      "score": 65.831,
+      "summary": "Grok 负责出图。\n\nClaude 负责改字。\n\n出图的提示词能被人拿走用。\n\n改字的结论看完就走。\n\n这两样对调，先坏的是图，还是字？",
+      "recommend_reason": "短而利的多模型分工与「可复制资产」拷问，适合当选题切口。",
+      "tags": [
+        "Grok",
+        "Claude",
+        "多模型",
+        "内容生产"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2104774965639950730",
+      "author": "dugujun12",
+      "url": "https://x.com/i/status/2104774965639950730",
+      "created_at": "Tue Sep 29 03:27:11 +0000 2026",
+      "text": "用AI开发一个产品，三到七天。卖出去，到现在几乎没有。\n\n我今年用AI做了一串东西。本地AI工作助手 DoWork、职业方向诊断、运营人能力升级诊断，还有几个运营小工具。做的时候AI干两件事，一是陪我聊产品逻辑，这个功能要不要，用户走到哪一步会卡住；二是聊完直接动手执行。放在以前，这些东西我一个人要么做不出来，要么得磨好几个月。\n\n卖的部分我也没落下。商详让AI帮着写，内容让AI帮着改，每次发文章顺手把产品挂上。推广对我来说没有单独的时间，发内容的时间就是推广的时间。\n\n结果摆在这。DoWork 免费，全平台发了同样的一两篇介绍，现在有 300 多人在用。两个诊断都是 299 元，几乎没卖出去。\n\n两边差在哪，我想了挺久，答案朴素到有点尴尬：一个免费，一个付费。\n\n免费的东西，读者看一眼觉得有用，装上就完事了。付费就不一样，掏 299 之前，他要想的事多得多。这中间到底卡在哪一步，我现在也说不全，只知道这道坎，AI没替我跨过去。\n\n反思下来，最实在的一条是：先得有流量，才谈得上卖产品；先得有真实用户提需求，才做得出卖得动的产品。\n\n我这些产品，基本是我自己当用户，跟AI一问一答聊出来的。我做了十年运营，大概知道用户会卡在哪，所以一直觉得这样问题不大。现在回头看，还是差一着。我脑子里的用户，其实就是我自己。AI能把我的想法做出来，做得又快又像样，可“外面的人要不要”这个问题，它回答不了。\n\n至少在我这里，AI把开发产品从几个月压到几天，还带出一个错觉：做得越多，总有一个能卖。流量和需求这两头没接上的时候，做得越快，只是没人买的东西堆得越快。\n\n做出来没人知道，这件事我一直心里有数。摸索本来就是这样，不能因为这个就缩回去。\n\n接下来我打算把力气往前挪一点，先想清楚流量从哪来、谁真的需要，再让AI开工。这条路能不能走通，我现在也说不准，走一段再回来跟你汇报。",
+      "likes": 1,
+      "views": "29",
+      "score": 46.639,
+      "title": "用 AI 三到七天做出产品，难的是卖出去",
+      "summary": "作者今年用 AI 做了一串产品（本地助手 DoWork、职业/运营诊断与小工具）：AI 既陪聊产品逻辑，又直接动手执行；以前一个人要么做不出要么磨数月。但卖的环节——商详、内容也让 AI 帮忙——到现在几乎没有卖出去。对照「三到七天能做完」与「成交近乎零」的落差。",
+      "recommend_reason": "把 vibe coding 热度拉回获客与成交现实，提醒「做得快≠卖得动」。",
+      "tags": [
+        "AI创业",
+        "获客",
+        "产品",
+        "Vibe Coding"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "2104774903383921045",
+      "author": "MaiYangAI",
+      "url": "https://x.com/i/status/2104774903383921045",
+      "created_at": "Tue Sep 29 03:26:56 +0000 2026",
+      "text": "快速体验了一下 Cue\n\n说实话，当前还非常粗糙，可能就是套壳 Manus 而已，没有什么动力再试用。\n\n因为 Cue 也有自己的云电脑，我这边也简单对比了一下。硬件配置相比 Grok Bot 还是差了一大截啊。 https://t.co/bB7NXN7hxm",
+      "likes": 1,
+      "views": "153",
+      "score": 56.408,
+      "summary": "快速体验了一下 Cue\n\n说实话，当前还非常粗糙，可能就是套壳 Manus 而已，没有什么动力再试用。\n\n因为 Cue 也有自己的云电脑，我这边也简单对比了一下。硬件配置相比 Grok Bot 还是差了一大截啊。",
+      "recommend_reason": "对照 Grok Bot 云电脑硬件与完成度的一手短评，适合泼冷水看 Manus Cue 热度。",
+      "tags": [
+        "Cue",
+        "Manus",
+        "Grok Bot",
+        "产品对比"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "2104758143423291407",
+      "author": "op7418",
+      "url": "https://x.com/i/status/2104758143423291407",
+      "created_at": "Tue Sep 29 02:20:20 +0000 2026",
+      "text": "Sonnet 5.5 发布了，这个模型很神奇：它在 Agentic coding 测试上的得分比 Opus 5.5 还要高 4 分。\n\n定价上也非常便宜，每百万 token 输入输出的价格分别是 $2 和 $10，与 GPT-6 Sol 一样。而且它的运行速度相对于 Sonnet 5 快了 30%，Claude 官方表示成本也降低了 30%。\n\n至于为什么它在 Agentic coding 上的表现跟 Opus 5.5 差不多甚至更高，可以看一下价格测试。\n\nSonnet 5.5 在 max 努力程度下，同样任务的花费金额比 Opus 5.5 还要高得多，快要持平甚至反超了，这可能就是它得分高的原因。\n\n所以大家在用 Opus 5.5 或者 Sonnet 5.5 的时候千万别开 max：在一些复杂任务上，它有可能跑出非常贵的价格，几乎赶上 Claude Fable 5.1 了",
+      "likes": 19,
+      "views": "7097",
+      "score": 61.382,
+      "title": "Sonnet 5.5 编码分高但 max 可能更贵：别随手开满",
+      "summary": "指出 Sonnet 5.5 在 agentic coding 上可比 Opus 5.5 高约 4 分，定价 $2/$10 且更快/更便宜约 30%；但 max 努力下同任务花费可逼近甚至反超 Opus，复杂任务上几乎赶上 Fable 5.1。建议用 Opus/Sonnet 5.5 时慎开 max。",
+      "recommend_reason": "中文圈把「分高」与「max 账单」绑在一起提醒，实用。",
+      "tags": [
+        "指定AI名单",
+        "Sonnet 5.5",
+        "成本",
+        "Effort",
+        "编码"
+      ],
+      "section": "指定AI名单",
+      "rank": 5
+    },
+    {
+      "id": "2104745477761913009",
+      "author": "latentspacepod",
+      "url": "https://x.com/latentspacepod/status/2104745477761913009",
+      "created_at": "Tue Sep 29 01:30:00 +0000 2026",
+      "text": "The Future of Claude Code: Mods, Mutable Software, Pacing the Frontier, & Multiplayer Agents with Thariq Shihipar https://t.co/SZLd8JPOk3\n\n@AnthropicAI’s @trq212 explains why prompting is still one of the highest-leverage skills in agentic coding, why Claude.md may eventually disappear, how Claude Mods let developers customize the entire Claude Code harness, why mutable software could change how applications are built, how multiplayer agents and Claude Tag are becoming an organizational harness, and why agents hacking Hugging Face exposed a much bigger security problem as frontier models become increasingly capable.",
+      "likes": 19,
+      "views": 2725,
+      "score": 64.135,
+      "title": "Latent Space：Claude Code 的 Mods、可变软件与多人 Agent",
+      "summary": "播客访谈 Anthropic 的 Thariq：为何 prompting 仍是 agentic coding 高杠杆技能、Claude.md 或将消失、Claude Mods 如何定制整个 harness、可变软件如何改写应用构建、多人 Agent/Claude Tag 成组织级 harness，以及 Agent 攻破 HF 暴露的前沿安全问题。",
+      "recommend_reason": "把 Claude Code 生态叙事从「更好写代码」拉到 Mods/多人/安全，信息密度高。",
+      "tags": [
+        "指定AI名单",
+        "Claude Code",
+        "播客",
+        "Agent",
+        "安全"
+      ],
+      "section": "指定AI名单",
+      "rank": 6
+    },
+    {
+      "id": "2104721825918071197",
+      "author": "TheTuringPost",
+      "url": "https://x.com/TheTuringPost/status/2104721825918071197",
+      "created_at": "Mon Sep 28 23:56:01 +0000 2026",
+      "text": "A practical easy-to-grasp breakdown of AI agent memory:\n\n\"Bringing Attention to Memory in AI Agents and Agentic Systems\" by @MongoDB\n\nYour agent can store every chat and still forget what matters – this piece explains how to turn history into useful memory.\n\nCovers:\n\n- LLM memory vs. agent memory\n- Working, episodic, semantic, and procedural memory\n- Raw data → retrievable memories\n- Shared memory across agents\n- Memory design for assistants and workflows\n- What to keep, update, and forget\n- MongoDB’s approach to agent memory\n\nhttps://t.co/3lOkn8051K",
+      "likes": 9,
+      "views": 1054,
+      "score": 63.162,
+      "title": "MongoDB 文：把 Agent 历史变成可用记忆",
+      "summary": "推荐 MongoDB 文章，拆解 AI Agent 记忆：LLM 记忆 vs Agent 记忆；工作/情景/语义/程序记忆；原始数据→可检索记忆；跨 Agent 共享；助手与工作流的记忆设计；保留/更新/遗忘策略及 MongoDB 方案。",
+      "recommend_reason": "记忆是 Agent 产品分水岭，这篇把类型与工程取舍讲清楚。",
+      "tags": [
+        "指定AI名单",
+        "Agent记忆",
+        "MongoDB",
+        "架构"
+      ],
+      "section": "指定AI名单",
+      "rank": 7
+    },
+    {
+      "id": "2104716874781167953",
+      "author": "MaiYangAI",
+      "url": "https://x.com/i/status/2104716874781167953",
+      "created_at": "Mon Sep 28 23:36:21 +0000 2026",
+      "text": "Peter Yang 访谈里，xAI 的 Peng Zheng 和 Lauren Tan 摊开他们每天真正在用的 14 个 Grok Bot：从参谋长买耗材、Designer 连 Figma，到 Tsuki 订多段机票、Matcha 带工程师 bot 编队合 PR。中英双语硬字幕成片在下面。\n\n原片 https://t.co/rInZ1aygmx\n\n14 个 bot（大概干什么）：\n\n1. Chief of Staff（Peng）— 买耗材、上架二手、调度其它 bot\n2. Designer — 设计方案 / Figma，一帧扩成整条流程\n3. Writer — 按文风改邮件 / Slack\n4. Email bot — 收件箱 / 付款，缺登录把电脑递回来让你签\n5. Calendar bot — 截图就能建或改日历事件\n6. PM — 与 Design、Eng 进群聊辩论\n7. Engineer（Peng）— 群聊里从工程视角落地\n8. Podcast 翻译 bot — 链接变成可听播客（专名字幕听不清）\n9. Diorama / 个人站 bot — 街景变黏土微缩再发到个人站\n10. Tsuki — 多段机票酒店、DoorDash、短信催午饭\n11. Chief of Staff（Lauren）— 杂事兜底，对接工程师 bot\n12. Dr. Eggbot — 设计并审计其它 bot 与例程\n13. Eng lead（Matcha）— 拆任务委派，拉起 cloud agent 群\n14. Potato — 扫 X mention，把反馈喂给工程师 bot\n\n报销 skill、Cursor 插件互通片里有讲，但没算进这 14 个。",
+      "likes": 6,
+      "views": "781",
+      "score": 61.474,
+      "title": "xAI 员工日常 14 个 Grok Bot：从参谋长到合 PR 编队",
+      "summary": "Peter Yang 访谈里，xAI 的 Peng Zheng 与 Lauren Tan 摊开每天在用的 14 个 Grok Bot：参谋长买耗材/调度、Designer 接 Figma、Writer 改邮件、Email/Calendar、PM 与 Eng 群聊辩论、Tsuki 订机票酒店、Matcha 带工程师 bot 合 PR、Potato 扫 X 反馈等。另有报销 skill、Cursor 插件互通。成片附中英硬字幕。",
+      "recommend_reason": "少见的「真员工工作流级」Bot 编队清单，比空谈 Agent 更能对照自己该建哪些角色。",
+      "tags": [
+        "Grok Bot",
+        "xAI",
+        "工作流",
+        "Agent"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2104710467512058027",
+      "author": "SpaceXAI",
+      "url": "https://x.com/i/status/2104710467512058027",
+      "created_at": "Mon Sep 28 23:10:53 +0000 2026",
+      "text": "Grok 4.7 is now on Amazon Bedrock https://t.co/wM8bj1Wm9N",
+      "likes": 1773,
+      "views": "309881",
+      "score": 68.663,
+      "summary": "Grok 4.7 现已登陆 Amazon Bedrock。",
+      "recommend_reason": "分发渠道信号：Grok 进入 AWS Bedrock，企业侧可按既有云采购路径试用。",
+      "tags": [
+        "Grok",
+        "Amazon Bedrock",
+        "分发",
+        "xAI"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2104688077625253934",
+      "author": "KinGao476942",
+      "url": "https://x.com/i/status/2104688077625253934",
+      "created_at": "Mon Sep 28 21:41:55 +0000 2026",
+      "text": "杀疯了！彻底杀疯了！Manus 推出2.0版本并掏出了个人助理产品 Cue，可能会成为 Grok bot @bot 很强的竞争对手！现在 Cue 的使用限时免费，还能给每个 Agent 配一个手机号，一个美国🇺🇸手机号仅需 0.99 美金 🤣 这是为了方便大家注册 Claude code 时直接过手机验证么？下载地址（暂时只有 Mac 和安卓）https://t.co/Ni7VqVkfzQ\n我的邀请码：BLRNY\n详细评测和与Grok bot对比，正在路上，敬请期待",
+      "likes": 70,
+      "views": "20200",
+      "score": 63.537,
+      "title": "Manus 2.0 推出个人助理 Cue，对标 Grok Bot",
+      "summary": "Manus 发布 2.0 并推出个人助理 Cue，作者视为 Grok Bot 潜在竞品：限时免费，可为每个 Agent 配手机号（美国号约 $0.99/月）。目前下载支持 Mac 与 Android。",
+      "recommend_reason": "个人 Agent 赛道新玩家入场信号；手机号能力值得对照注册与自动化场景。",
+      "tags": [
+        "Manus",
+        "Cue",
+        "Grok Bot",
+        "个人Agent"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "2104682232522944909",
+      "author": "simonw",
+      "url": "https://x.com/simonw/status/2104682232522944909",
+      "created_at": "Mon Sep 28 21:18:41 +0000 2026",
+      "text": "The most important thing about Sonnet 5.5 is that it's now the model that powers the free tier on https://t.co/f1IGIsU4Hc - so all of this stuff can be done by free users\n\nChatGPT's free tier is still GPT-5.6 Luna, which is a lot less capable",
+      "likes": 940,
+      "views": 68039,
+      "score": 68.329,
+      "title": "Sonnet 5.5 成 Claude 免费档：能力鸿沟对 ChatGPT 免费档拉大",
+      "summary": "Simon Willison 认为 Sonnet 5.5 最重要的是它成为 claude.ai 免费档模型，免费用户也能用上这波能力；ChatGPT 免费档仍是更弱的 GPT-5.6 Luna。",
+      "recommend_reason": "提醒「默认免费档」的产品战争：能力差会直接变成获客差。",
+      "tags": [
+        "指定AI名单",
+        "Sonnet 5.5",
+        "免费档",
+        "Claude",
+        "产品策略"
+      ],
+      "section": "指定AI名单",
+      "rank": 11
+    },
+    {
+      "id": "2104680580063388078",
+      "author": "Azure",
+      "url": "https://x.com/i/status/2104680580063388078",
+      "created_at": "Mon Sep 28 21:12:08 +0000 2026",
+      "text": "Voice AI usually means a new vendor, a new pipeline, a new dashboard. In Microsoft Foundry, voice is just another agent type: same runtime, same governance, same tools you already use. \n\nShip it to web, Teams, or phone without rebuilding infrastructure. https://t.co/lTcVTD6I8n https://t.co/P6AzWkg56B",
+      "likes": 69,
+      "views": "12126",
+      "score": 64.777,
+      "title": "Azure Foundry：语音只是另一种 Agent，不必另搭管道",
+      "summary": "微软指出 Voice AI 常意味着新厂商、新流水线、新看板；在 Microsoft Foundry 里语音只是另一种 Agent 类型——同一运行时、同一治理、同一套已有工具，可直接发到 Web、Teams 或电话，无需重建基础设施。",
+      "recommend_reason": "把 Voice 从「另起炉灶」收束到统一 Agent 运行时，对企业选型有架构含义。",
+      "tags": [
+        "Azure",
+        "Voice AI",
+        "Agent",
+        "Foundry"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "2104670026770919586",
+      "author": "cognition",
+      "url": "https://x.com/cognition/status/2104670026770919586",
+      "created_at": "Mon Sep 28 20:30:11 +0000 2026",
+      "text": "Claude Sonnet 5.5 is now available in Devin Desktop and Devin CLI.\n\nOn FrontierCode 1.1 Main, it scores 64.4%, a significant improvement from Sonnet 5 (56.2%), surpassing Fable 5.1 at extra high reasoning effort. https://t.co/DBlp4p0VB7",
+      "likes": 221,
+      "views": 27549,
+      "score": 67.841,
+      "title": "Devin 接入 Sonnet 5.5：FrontierCode 1.1 升至 64.4%",
+      "summary": "Cognition 宣布 Claude Sonnet 5.5 已在 Devin Desktop/CLI 可用；FrontierCode 1.1 Main 得分 64.4%，较 Sonnet 5 的 56.2% 明显提升，并超过额外高推理力度下的 Fable 5.1。",
+      "recommend_reason": "自主软件工程师产品线的基准跃迁，验证新 Sonnet 的 agentic coding。",
+      "tags": [
+        "指定AI名单",
+        "Devin",
+        "Cognition",
+        "Sonnet 5.5",
+        "编码"
+      ],
+      "section": "指定AI名单",
+      "rank": 13
+    },
+    {
+      "id": "2104666044220821594",
+      "author": "cursor_ai",
+      "url": "https://x.com/i/status/2104666044220821594",
+      "created_at": "Mon Sep 28 20:14:22 +0000 2026",
+      "text": "Sonnet 5.5 is now available in Cursor!\n\nIt’s a strong model, performing on par with Opus in many tasks. https://t.co/iaJ5z67FVu",
+      "likes": 2372,
+      "views": "133424",
+      "score": 76.259,
+      "summary": "Sonnet 5.5 现已在 Cursor 可用！\n\n它很强，在许多任务上表现与 Opus 相当。",
+      "recommend_reason": "主流 IDE Agent 已接新模型，可直接在工作流里 A/B。",
+      "tags": [
+        "指定AI名单",
+        "Cursor",
+        "Sonnet 5.5"
+      ],
+      "section": "指定AI名单",
+      "rank": 14
+    },
+    {
+      "id": "2104664283808428165",
+      "author": "poteto",
+      "url": "https://x.com/i/status/2104664283808428165",
+      "created_at": "Mon Sep 28 20:07:22 +0000 2026",
+      "text": "very excited to share one of my favorite new features! grok @bot is now multiplayer. make a team bot which has access to your plugins, skills, credentials, and then add it to slack with one click. it's super easy!\n\nguess what i named my bot 🤪 i love chatting with it and firing off cloud agents\n\nmuch more to come",
+      "likes": 1388,
+      "views": "422235",
+      "score": 70.373,
+      "summary": "非常兴奋分享我最喜欢的新功能之一！Grok @bot 现在支持多人协作了：建一个团队 Bot，可访问你们的插件、技能与凭证，再一键加进 Slack，超级简单！\n\n猜猜我给自己的 bot 取了什么名 🤪 我超爱跟它聊天、派发 cloud agents。\n\n还有更多要来。",
+      "recommend_reason": "xAI 工程侧第一视角讲清 Team Bot：共享插件/技能/凭证 + Slack 一键接入。",
+      "tags": [
+        "Grok Bot",
+        "Team Bots",
+        "Slack",
+        "协作"
+      ],
+      "title": "Grok Bot 变多人：Team Bot 共享插件技能凭证并可一键进 Slack",
+      "rank": 15
+    },
+    {
+      "id": "2104660347730969087",
+      "author": "AndrewYNg",
+      "url": "https://x.com/i/status/2104660347730969087",
+      "created_at": "Mon Sep 28 19:51:44 +0000 2026",
+      "text": "The OpenAI-Hugging Face hack was enabled by weak sandboxing. It is great that Nvidia is releasing open source tools for sandboxing AI agents. OpenWorker, our open-source agent harness supporting cybersecurity workflows, is proud to support this.\n\nA sandbox gives an agent limited permissions. OpenWorker is building on Nvidia OpenShell and will support running each agent's commands inside a sandbox. Only the files relevant to the task go in. Secret API keys, your web browser login credentials, the ability to access arbitrary websites, are inaccessible to the agent by default. These restrictions are implemented in deterministic code rather than by prompting an LLM, which can make mistakes or be susceptible to prompt injections. Further, all actions are logged for monitoring and audit.\n\nI'm grateful for @JensenHuang's leadership making AI agents more secure. OpenWorker (which @rohitcprasad and I are working on) will continue to improve security for agents.",
+      "likes": 1723,
+      "views": "129291",
+      "score": 69.497,
+      "title": "吴恩达：HF 被黑暴露弱沙箱，OpenWorker 将接 NVIDIA OpenShell",
+      "summary": "指出 OpenAI–Hugging Face 事件源自弱沙箱；英伟达开源 Agent 沙箱工具。其开源 Agent 框架 OpenWorker 将基于 NVIDIA OpenShell，让每条命令在沙箱内执行：只放任务相关文件，默认隔绝密钥/浏览器登录/任意网站；限制用确定性代码而非 prompt，并全量审计日志。",
+      "recommend_reason": "把对齐问题落到「确定性沙箱+审计」，是 Agent 安全可执行路径。",
+      "tags": [
+        "指定AI名单",
+        "Agent安全",
+        "沙箱",
+        "OpenWorker",
+        "NVIDIA"
+      ],
+      "section": "指定AI名单",
+      "rank": 16
+    },
+    {
+      "id": "2104656716734570801",
+      "author": "lifesinger",
+      "url": "https://x.com/i/status/2104656716734570801",
+      "created_at": "Mon Sep 28 19:37:18 +0000 2026",
+      "text": "manus 朝着 general agent 的方向一路狂奔。恭喜 2.0 发布 🎉🎊🍾\n\nred 说 manus 挺像是一个卖电脑的生意。问题来了：\n\ncowork, codex, manus 等 general agent 里，谁最像 apple 呢",
+      "likes": 23,
+      "views": "8753",
+      "score": 55.223,
+      "summary": "manus 朝着 general agent 的方向一路狂奔。恭喜 2.0 发布 🎉🎊🍾\n\nred 说 manus 挺像是一个卖电脑的生意。问题来了：\n\ncowork, codex, manus 等 general agent 里，谁最像 apple 呢",
+      "recommend_reason": "把 general agent 竞争收成「谁最像 Apple」的产品定位题，便于对照云电脑/工作区叙事。",
+      "tags": [
+        "Manus",
+        "General Agent",
+        "产品定位"
+      ],
+      "rank": 17
+    },
+    {
+      "id": "2104655162929545486",
+      "author": "yetone",
+      "url": "https://x.com/i/status/2104655162929545486",
+      "created_at": "Mon Sep 28 19:31:08 +0000 2026",
+      "text": "所以大家可以用免费的 deepseek v4.1 flash 了，逃",
+      "likes": 93,
+      "views": "26930",
+      "score": 54.07,
+      "summary": "所以大家可以用免费的 deepseek v4.1 flash 了，逃",
+      "recommend_reason": "免费档 DeepSeek Flash 可用性的即时信号，适合跟进配额与场景替换。",
+      "tags": [
+        "DeepSeek",
+        "免费额度",
+        "模型"
+      ],
+      "rank": 18
+    },
+    {
+      "id": "2104654757508129113",
+      "author": "cline",
+      "url": "https://x.com/cline/status/2104654757508129113",
+      "created_at": "Mon Sep 28 19:29:31 +0000 2026",
+      "text": "Sonnet 5.5 beats Opus 5.5 on Terminal-Bench 4.0 at half the cost.\n\nIt uses far fewer tokens than previous models to do the same work, showing costs reduced up to 30% per task.\n\nIt also generates output 30% faster than its predecessor, making it the fastest Sonnet model to date. https://t.co/cLW1LDMwCM",
+      "likes": 355,
+      "views": 11519,
+      "score": 78.365,
+      "title": "Cline：Sonnet 5.5 在 Terminal-Bench 4.0 胜过 Opus 且约半价",
+      "summary": "Cline 称 Sonnet 5.5 在 Terminal-Bench 4.0 上击败 Opus 5.5，成本约一半；同任务 token 更少、成本可降约 30%，生成速度也快约 30%，为迄今最快 Sonnet。",
+      "recommend_reason": "编码 Agent 厂商侧的性价比实锤，对照 AA 的高 token 用量一起看。",
+      "tags": [
+        "指定AI名单",
+        "Cline",
+        "Sonnet 5.5",
+        "Terminal-Bench",
+        "编码Agent"
+      ],
+      "section": "指定AI名单",
+      "rank": 19
+    },
+    {
+      "id": "2104650629734178817",
+      "author": "gabriel1",
+      "url": "https://x.com/i/status/2104650629734178817",
+      "created_at": "Mon Sep 28 19:13:07 +0000 2026",
+      "text": "maximizing virality of ai models is very underpriced, if you can one-shot something visual that was not possible before you get much more usage\n\nsol 6 is better intelligence per cost than opus 5.5 for me, but if i didn't try both i'd choose opus 5.5 because cool demos online",
+      "likes": 194,
+      "views": "9929",
+      "score": 67.391,
+      "title": "模型「可炫技病毒度」被低估：观感会压过真实性价比",
+      "summary": "作者认为最大化 AI 模型病毒传播被低估——若能一镜到底做出以前做不到的视觉效果就会带来用量；他自己觉得 Sol 6 智力/成本优于 Opus 5.5，但若没都试过仍会因网上酷炫 demo 选 Opus。",
+      "recommend_reason": "提醒评测之外还有「demo 叙事」在塑造默认选择。",
+      "tags": [
+        "指定AI名单",
+        "产品策略",
+        "评测",
+        "模型选择"
+      ],
+      "section": "指定AI名单",
+      "rank": 20
+    },
+    {
+      "id": "2104649934624735557",
+      "author": "OpenRouter",
+      "url": "https://x.com/OpenRouter/status/2104649934624735557",
+      "created_at": "Mon Sep 28 19:10:21 +0000 2026",
+      "text": "Claude Sonnet 5.5 from @AnthropicAI is live on OpenRouter!\n\nSonnet 5.5 is significantly smarter than Sonnet 5, and writes much more clearly.\n\nIt's also 30% faster and ~30% cheaper for most work. https://t.co/yVkOLQNEtR",
+      "likes": 111,
+      "views": 7266,
+      "score": 69.153,
+      "title": "OpenRouter 上线 Claude Sonnet 5.5：更快更便宜、文笔更清晰",
+      "summary": "OpenRouter 宣布 Anthropic Claude Sonnet 5.5 已上线：明显强于 Sonnet 5、写作更清晰，且约快 30%、多数工作约便宜 30%。",
+      "recommend_reason": "聚合路由侧可用性确认，便于立刻换默认编码/写作模型。",
+      "tags": [
+        "指定AI名单",
+        "OpenRouter",
+        "Sonnet 5.5",
+        "路由"
+      ],
+      "section": "指定AI名单",
+      "rank": 21
+    },
+    {
+      "id": "2104648654074343480",
+      "author": "levie",
+      "url": "https://x.com/i/status/2104648654074343480",
+      "created_at": "Mon Sep 28 19:05:16 +0000 2026",
+      "text": "At Box, we've been testing Sonnet 5.5 in early access on our complex work eval with the Box Agent, and Sonnet 5.5 is another strong jump from Sonnet 5 on knowledge work with enterprise content.\n\nAcross the board we saw a 4 pt overall improvement on our hardest tests, but it was roughly 2.4× faster to a finished deliverable on 12% fewer tokens. We also saw major wins in key verticals, like a +18 percentage point improvement in Financial Services, +7 pt in Legal, +8 pt in Life Sciences, and +7 pt in the Public Sector. \n\nHere are some specific wins on certain tasks that show the power of Sonnet 5.5:\n\n* Financial services (+48 points): a due-diligence review of a trading-tool acquisition, where the deal book's arithmetic doesn't hold up. Sonnet 5.5 caught the miscalculated interest totals and the mispriced options and flagged them, and it also finished this work about 61% faster.\n\n* Legal (+14 points): a commercial lease review. Sonnet 5.5 refused to invent a \"standard\" market benchmark for renewal terms and notice periods, and instead flagged what the lease was genuinely missing.\n\n* Life sciences (+22 points): writing up a field trial from the raw measurement data. Sonnet 5.5 got the sample standard deviations right across both treatment groups. Sonnet 5 missed nearly all of them. And Sonnet 5.5 did it about 41% faster.\n\n* Public sector (+11 points): a report on a math intervention program. Sonnet 5.5 pulled the right student progress-monitoring figures out of the underlying data, about 71% faster.\n\nCustomers will be able to build AI agents with Sonnet 5.5 in the Box AI Studio shortly.",
+      "likes": 139,
+      "views": "43920",
+      "score": 62.82,
+      "title": "Box：Sonnet 5.5 企业知识工作评测整体 +4，交付快 2.4×",
+      "summary": "Box 在复杂企业内容评测中：相对 Sonnet 5 整体难测 +4 分，完成交付约快 2.4× 且 token 少约 12%；金融 +18、法律 +7、生命科学 +8、公共部门 +7。案例含尽调抓错账、租约拒编造「市场标准」、田间试验标准差算对等。即将在 Box AI Studio 可用。",
+      "recommend_reason": "少有的垂直行业 agent 评测数字，补充通用榜单之外的企业场景证据。",
+      "tags": [
+        "指定AI名单",
+        "Box",
+        "Sonnet 5.5",
+        "企业Agent",
+        "评测"
+      ],
+      "section": "指定AI名单",
+      "rank": 22
+    },
+    {
+      "id": "2104640328611639731",
+      "author": "FactoryAI",
+      "url": "https://x.com/FactoryAI/status/2104640328611639731",
+      "created_at": "Mon Sep 28 18:32:11 +0000 2026",
+      "text": "Sonnet 5.5 is live in Factory. Some initial observations:\n\n- High is a strong default\n- Checks that the real requirement is met, not just the nearest failing test\n- Questions explanations carried over from earlier work\n\nTry it now: https://t.co/fjCFt0ZfyV https://t.co/D8LDdG2sw1",
+      "likes": 81,
+      "views": 5364,
+      "score": 68.757,
+      "title": "Factory 上线 Sonnet 5.5：High 默认、会核对真需求",
+      "summary": "Factory 已上线 Sonnet 5.5，初步观察：High 是强默认；会检查是否满足真实需求而非只修最近失败测试；会质疑从先前工作沿用的解释。",
+      "recommend_reason": "编码 Agent 产品侧的行为观察，比分数更能指导 effort 默认值。",
+      "tags": [
+        "指定AI名单",
+        "Factory",
+        "Sonnet 5.5",
+        "编码Agent"
+      ],
+      "section": "指定AI名单",
+      "rank": 23
+    },
+    {
+      "id": "2104640155843989864",
+      "author": "ArtificialAnlys",
+      "url": "https://x.com/ArtificialAnlys/status/2104640155843989864",
+      "created_at": "Mon Sep 28 18:31:30 +0000 2026",
+      "text": "Anthropic has launched Claude Sonnet 5.5: it scores 56 on the Artificial Analysis Intelligence Index, just 2 points behind Opus 5.5 (max), but at the highest Output Tokens per Task we’ve seen\n\nWith max effort, Sonnet 5.5 gains 18 points over Sonnet 5 and to #2 on the Intelligence Index behind only Opus 5.5 (max). Anthropic has priced Sonnet 5.5 identically to Sonnet 5 at $0.2/$2/$10 per 1M cache input/input/output tokens, however it outputs a higher number of Output Tokens per Task and costs $7.60 per task (~50% higher than Sonnet 5’s Cost per Task)\n\nKey takeaways:\n\n➤ Meets leading models on agentic terminal use and knowledge work: in Terminal-Bench 4.0, Claude Sonnet 5.5 reaches 64% against 60% for Opus 5.5 and GPT-6 Astra. On AA-Briefcase (1811 vs 1822 Elo), GDPval-AA (1844 vs 1846 Elo), and AutomationBench-AA (71% vs 70% headline score), Sonnet 5.5 reaches parity with Opus 5.5, albeit with significantly higher token usage to achieve it\n\n➤ Heaviest token use we have measured: at max effort, where it reaches performance nearing that of Opus 5.5, Claude Sonnet 5.5 used ~193k Output Tokens per Intelligence Index Task. This is the highest token use we have measured on around 60% higher than Opus 5.5 (max) or Sonnet 5 (max) and ~7x GPT-6 Astra (max)\n\n➤ Pricing remains at $2/$10 per million tokens of input/output, matching GPT-6 Sol. At this pricing Claude Sonnet 5.5 sits off the Intelligence vs. Cost per Task Pareto Frontier. At high effort levels it sits behind Opus 5.5, while lower efforts have GPT-6 Astra or Sol configurations delivering equivalent performance for lower cost. The high effort setting is the most competitive on this basis, sitting very narrowly behind GPT-6 Sol on Intelligence at effectively the same Cost per Task\n\n➤ Behind Opus 5.5 on factual knowledge and scientific reasoning: as a smaller class model, Sonnet 5.5 still lags on factual knowledge in AA-Omniscience compared to Opus 5.5. It scores 54% against 66% for factual accuracy, though with a lower hallucination rate (47% against 59%). It also sits ~6 points lower on Humanity's Last Exam and SciCode compared to Opus\n\nThese evaluations were conducted on a pre-release deployment of Claude Sonnet 5.5, which Anthropic found to have a bug that can degrade responses to requests that use structured outputs. This is fixed for the public release and Anthropic expects minimal change or slightly understated performance, but we will be re-running relevant evaluations soon.\n\nOther model details:\n\n➤ Context window: 1 million tokens with image and text input, unchanged from Sonnet 5\n\n➤ Pricing: unchanged from Sonnet 5’s latest $2/$10 per 1M input/output tokens; cache writes at $2.5, cache reads $0.2\n\n➤ Effort settings: five (low, medium, high, xhigh, max). Intelligence Index evaluations were run at all five with Anthropic's default fallback enabled. We see Sonnet 5.5 fall back in ~0.1% of tasks across the Intelligence Index, primarily in TerminalBench 4.0, falling back to Sonnet 5 in all cases.",
+      "likes": 2931,
+      "views": 292224,
+      "score": 69.53,
+      "title": "AA 评测：Sonnet 5.5 智力接近 Opus，但每任务输出 token 创新高",
+      "summary": "Artificial Analysis：Sonnet 5.5 Intelligence Index 56，仅落后 Opus 5.5 (max) 2 分；max 努力较 Sonnet 5 涨 18 分至第 2。定价仍 $2/$10，但每任务约 $7.60（约高 50%）。Terminal-Bench 4.0 达 64%（Opus/GPT-6 Astra 约 60%）；max 每任务约 19.3 万输出 token，为所测最高。知识/科学仍落后 Opus；预发版 structured outputs bug 已修。上下文 100 万；effort 五档。",
+      "recommend_reason": "把「看起来更强」拆成智力、成本/任务、token 用量与短板，选型必看。",
+      "tags": [
+        "指定AI名单",
+        "Artificial Analysis",
+        "Sonnet 5.5",
+        "评测",
+        "Terminal-Bench"
+      ],
+      "section": "指定AI名单",
+      "rank": 24
+    },
+    {
+      "id": "2104638725317923228",
+      "author": "bcherny",
+      "url": "https://x.com/i/status/2104638725317923228",
+      "created_at": "Mon Sep 28 18:25:49 +0000 2026",
+      "text": "Sonnet 5.5 fixing a bug with Claude Code.\n\n30% faster and 30% less usage. https://t.co/Vt1K1ubcFd",
+      "likes": 4496,
+      "views": "247229",
+      "score": 77.637,
+      "summary": "Sonnet 5.5 在用 Claude Code 修 bug。\n\n快约 30%，用量少约 30%。",
+      "recommend_reason": "Claude Code 负责人的短演示背书，速度/用量与官方叙事一致。",
+      "tags": [
+        "指定AI名单",
+        "Claude Code",
+        "Sonnet 5.5",
+        "bcherny"
+      ],
+      "section": "指定AI名单",
+      "rank": 25
+    },
+    {
+      "id": "2104633259925630995",
+      "author": "AnthropicAI",
+      "url": "https://x.com/i/status/2104633259925630995",
+      "created_at": "Mon Sep 28 18:04:06 +0000 2026",
+      "text": "Claude Sonnet 5.5 is now available:",
+      "likes": 9614,
+      "views": "428817",
+      "score": 71.82,
+      "summary": "Claude Sonnet 5.5 现已可用：",
+      "recommend_reason": "官方上线确认，便于对齐渠道与可用性时间点。",
+      "tags": [
+        "指定AI名单",
+        "Anthropic",
+        "Sonnet 5.5"
+      ],
+      "section": "指定AI名单",
+      "rank": 26
+    },
+    {
+      "id": "2104633115620823187",
+      "author": "claudeai",
+      "url": "https://x.com/i/status/2104633115620823187",
+      "created_at": "Mon Sep 28 18:03:31 +0000 2026",
+      "text": "Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family.\n\nIt’s a clear upgrade over Sonnet 5, runs more than 30% faster, and costs up to 30% less for most work. https://t.co/UvXD8mDTF1",
+      "likes": 47361,
+      "views": "6463339",
+      "score": 79.006,
+      "title": "Claude Sonnet 5.5 发布：更快约 30%、多数工作更便宜约 30%",
+      "summary": "Anthropic 推出 Claude 5.5 家族第二款模型 Sonnet 5.5：相对 Sonnet 5 明显升级，运行快 30% 以上，多数工作成本可降约 30%。",
+      "recommend_reason": "本日核心模型发布：默认编码/协作档位换代，速度与成本同时改善。",
+      "tags": [
+        "指定AI名单",
+        "Claude",
+        "Sonnet 5.5",
+        "Anthropic",
+        "发布"
+      ],
+      "section": "指定AI名单",
+      "rank": 27
+    },
+    {
+      "id": "2104617295683424526",
+      "author": "OpenAIDevs",
+      "url": "https://x.com/i/status/2104617295683424526",
+      "created_at": "Mon Sep 28 17:00:39 +0000 2026",
+      "text": "Meet the winners of The WebMCP Challenge.\n\nThese 10 projects show what people and agents can build together when websites expose structured tools agents can use.\n\n🧵 See the winning projects and the builders behind them: https://t.co/fynh6v6hCr",
+      "likes": 1248,
+      "views": "178314",
+      "score": 71.223,
+      "title": "OpenAI WebMCP Challenge 十强：网站向 Agent 暴露结构化工具",
+      "summary": "OpenAI Dev 公布 WebMCP Challenge 获胜项目：展示当网站向 Agent 暴露结构化工具时，人与 Agent 能共同构建什么；附十个获奖项目与作者线程。",
+      "recommend_reason": "WebMCP 从概念落到可看的获奖实现，跟 Agent 上网协议演进相关。",
+      "tags": [
+        "指定AI名单",
+        "OpenAI",
+        "WebMCP",
+        "Agent",
+        "工具"
+      ],
+      "section": "指定AI名单",
+      "rank": 28
+    },
+    {
+      "id": "2104608785696440510",
+      "author": "trq212",
+      "url": "https://x.com/i/status/2104608785696440510",
+      "created_at": "Mon Sep 28 16:26:50 +0000 2026",
+      "text": "it's basically impossible for someone to just \"show you their prompt\" now, because everything is about references, skills and examples\n\nI often ask my agent to look at 3 other repos I've made first, search the web for references, use other AI APIs, etc.",
+      "likes": 4062,
+      "views": "189991",
+      "score": 74.594,
+      "title": "提示词难「展示」了：关键是引用、技能与样例",
+      "summary": "作者认为现在几乎不可能只「把提示词给你看」——一切取决于引用、技能与样例；他常先让 Agent 看自己做过的 3 个仓库、上网找参考、再调用其他 AI API。",
+      "recommend_reason": "把 Agent 时代的「提示词可移植性」神话戳破，指向上下文工程。",
+      "tags": [
+        "指定AI名单",
+        "Claude Code",
+        "提示词",
+        "上下文工程",
+        "Agent"
+      ],
+      "section": "指定AI名单",
+      "rank": 29
+    },
+    {
+      "id": "2104606071428206993",
+      "author": "LawrenceW_Zen",
+      "url": "https://x.com/i/status/2104606071428206993",
+      "created_at": "Mon Sep 28 16:16:03 +0000 2026",
+      "text": "这次 Manus 发布了 Manus 2.0，官方定位不是普通版本迭代，而是新架构 + 新产品 + 新能力。根据官方公告，主要更新可以归纳为以下 6 点：\n\n1.  全新 Agent 架构 Cascade\n 新的内部 Agent 框架，按需加载能力，项目更轻、上下文更聚焦。官方测试数据显示：token 用量减少 23.2%、完成时间缩短 28.2%、运行成本降低 32%。\n\n2.  Cloud Computer（云电脑）\n 可单独购买的专用云环境，适合需要独立机器、长期运行或特定系统的项目，例如游戏服务器、全天候自动化、3D 渲染、Windows/macOS 开发环境等。\n\n3.  自动化升级为事件触发工作流\n 不再只是定时任务。现在可以通过一句提示让 Agent 监听事件（新邮件、Slack 消息、日历、Notion 更新、广告数据变化等）并自动执行后续动作。\n\n4.  Manus Studio 大幅升级，新增专业视频编辑器\n 桌面端升级为「人 + AI」共享工作区。新增 Video Editor，带时间线，可单独替换素材、字幕、音频而不用整段重生成；还有 Alchemy 模式，让 AI 充当创意总监，负责画面、动态和节奏。\n\n5.  Game Dev 游戏开发环境\n 在 Studio 里可从可玩模板快速做游戏，支持改代码、资源、场景，并一键发布成网站给别人玩。搭配 Cloud Computer 还能做多人联机游戏。\n\n6.  推出全新独立应用 Cue\n 面向个人 Agent 的新 App（手机 + 桌面）。每个 Agent 拥有独立身份（邮箱、电话、钱包、自己的电脑），能发消息、打电话、按预算付款、组队协作。目前处于早期邀请阶段。\n目前 Manus 2.0 已可在网页、桌面和移动端使用，Cue 也同步开放（iOS 还在审核中）。​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​\n\n https://t.co/Ofcimcn0jq",
+      "likes": 12,
+      "views": "1699",
+      "score": 61.895,
+      "title": "Manus 2.0 六要点：Cascade、云电脑、事件工作流、Studio/Cue",
+      "summary": "归纳官方：①Cascade 按需加载，token/时间/成本约降 23–32%；②可购 Cloud Computer；③事件触发工作流（邮件/Slack/日历等）；④Studio 升级含时间线视频编辑与 Alchemy；⑤Game Dev 模板与一键发布；⑥独立应用 Cue（邮箱/电话/钱包/电脑，早鸟邀请）。Web/桌面/移动已可用。",
+      "recommend_reason": "把 Manus 2.0 公告压成可扫描清单，便于对照 Grok Bot/Cue 竞争。",
+      "tags": [
+        "指定AI名单",
+        "Manus",
+        "Cue",
+        "Agent",
+        "产品"
+      ],
+      "section": "指定AI名单",
+      "rank": 30
+    }
+  ],
+  "generated_at": "2026-09-29T04:59:29Z",
+  "selection": {
+    "target_count": 60,
+    "max_count": 60,
+    "per_run_max": 30,
+    "min_count": null,
+    "window_hours": 12,
+    "runs_per_day": 2,
+    "slot": "noon",
+    "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
+    "merge": "append_dedupe_by_id",
+    "actual_count": 30,
+    "last_batch_added": 30,
+    "last_batch_skipped_dup": 0,
+    "last_batch_skipped_author": 0,
+    "last_batch_skipped_day_cap": 0,
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤30；单日≤60不保底；追加按id去重。",
+    "short_tweet": {
+      "threshold_chars": 200,
+      "title_optional": true,
+      "summary_required_zh": true,
+      "summary_semantics": "full_text_or_full_zh_translation"
+    }
+  }
+}
