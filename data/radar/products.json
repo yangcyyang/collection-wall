@@ -1,16 +1,363 @@
 {
   "source": "AI Frontier Radar",
   "title": "新产品",
-  "updated_at": "2026-09-29T08:25:00+08:00",
-  "count": 170,
+  "updated_at": "2026-09-30T08:25:00+08:00",
+  "count": 186,
   "items": [
+    {
+      "id": "cursor-visualize",
+      "name": "Cursor Visualize",
+      "score": 84,
+      "status": "new",
+      "first_detected": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-09-30T08:25:00+08:00",
+      "summary": "Cursor 编码 agent 聊天面原生可视化输出（图表/示意图），减少「生成代码再另开工具画图」的往返。",
+      "novelty": "coding-agent 交互面从纯文本扩到内嵌可视化。",
+      "urls": {
+        "x": "https://x.com/cursor_ai/status/2105012114200887434"
+      },
+      "tags": [
+        "Cursor",
+        "Visualization",
+        "CodingAgent"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "chatgpt-slack-teams",
+      "name": "ChatGPT in Slack & Teams",
+      "score": 85,
+      "status": "new",
+      "first_detected": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-09-30T08:25:00+08:00",
+      "summary": "ChatGPT/Dots 原生进入 Slack 与 Teams 消息流；按席位解绑个人许可证叙事，工作场所 @agent 成为默认触点。",
+      "novelty": "工作场所消息流原生 @agent，与 Dots 常驻代办同一通道。",
+      "urls": {
+        "x": "https://x.com/ChatGPT/status/2105028333566386492",
+        "devday": "https://openai.com/index/devday-2026-recap/"
+      },
+      "tags": [
+        "OpenAI",
+        "Slack",
+        "Teams",
+        "Workplace",
+        "DevDay"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "openai-signin-allowance",
+      "name": "ChatGPT Sign-in Allowance",
+      "score": 86,
+      "status": "new",
+      "first_detected": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-09-30T08:25:00+08:00",
+      "summary": "DevDay：ChatGPT 订阅/身份成为跨应用推理额度与登录层（subscription-as-login + allowance portability），把用量随身带到第三方应用。",
+      "novelty": "订阅变成可携带的 agent 运行时额度，而不只是 ChatGPT 站内席位。",
+      "urls": {
+        "devday": "https://openai.com/index/devday-2026-recap/"
+      },
+      "tags": [
+        "OpenAI",
+        "Subscription",
+        "Identity",
+        "DevDay"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "posthog-jeeves",
+      "name": "PostHog Jeeves",
+      "score": 85,
+      "status": "new",
+      "first_detected": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-09-30T08:25:00+08:00",
+      "summary": "PostHog 开源 reasoning-Jev 路线（约 9B）：短推理升级 System One 决策模型，可与 OpenAI Decisions API 对照为开放路由栈。",
+      "novelty": "开源侧补齐「有限选项+短推理」决策模型，对位实验室 Decisions API。",
+      "urls": {
+        "github": "https://github.com/PostHog/jeeves"
+      },
+      "tags": [
+        "PostHog",
+        "Jeeves",
+        "SystemOne",
+        "OSS"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "timeless-code",
+      "name": "Timeless Code",
+      "score": 88,
+      "status": "new",
+      "first_detected": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-09-30T08:25:00+08:00",
+      "summary": "会议智能做成 Claude Code 内驻 agent：`Fetch …/agent-install.md` 式安装；终端录制转写，再查询组织记忆并把 action item 推 GitHub。PH 09-29 #8 ~121。",
+      "novelty": "会议记录器装进并跑在 coding-agent 里，而不是另开 Otter 再粘贴。",
+      "urls": {
+        "ph": "https://www.producthunt.com/products/timeos",
+        "site": "https://www.timeless.day"
+      },
+      "tags": [
+        "ClaudeCode",
+        "Meetings",
+        "Memory",
+        "ProductHunt"
+      ],
+      "homepage": false,
+      "ph_votes_latest": 121
+    },
+    {
+      "id": "codex-remote",
+      "name": "Codex Remote",
+      "score": 90,
+      "status": "new",
+      "first_detected": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-09-30T08:25:00+08:00",
+      "summary": "OSS Mac 菜单栏：用 OpenTofu 在自有云（Hetzner/AWS/DO…）开箱，装 Codex+Claude Code 与 MCP；暴露 CPU/会话/空闲暂停与创建前 $/规格估计；可选 MCP 让 agent 分级创建/销毁机器。PH ~74。",
+      "novelty": "agent 电脑 + 机器计价 + AFK 驾驶落在你控制的硬件上，而不是托管沙箱。",
+      "urls": {
+        "ph": "https://www.producthunt.com/products/codex-remote",
+        "site": "https://codexremote.io"
+      },
+      "tags": [
+        "OSS",
+        "Codex",
+        "CloudBox",
+        "MCP",
+        "ProductHunt"
+      ],
+      "homepage": false,
+      "ph_votes_latest": 74
+    },
+    {
+      "id": "meta-muse-small-business",
+      "name": "Meta Muse for Small Business",
+      "score": 86,
+      "status": "new",
+      "first_detected": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-09-30T08:25:00+08:00",
+      "summary": "Meta 推出 Muse for Small Business：后台持续工作的个人 AI agent，深接 SMB SaaS，带硬审批门控，帮小生意推进目标。",
+      "novelty": "个人超级智能体垂直化成带连接器与审批的 SMB 运营同事——agent commerce / persistent agent 进店主场景。",
+      "urls": {
+        "official": "https://about.fb.com/news/2026/09/introducing-muse-small-business/"
+      },
+      "tags": [
+        "Meta",
+        "Muse",
+        "SMB",
+        "AgentCommerce"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "openai-plugin-extensions",
+      "name": "ChatGPT Plugins + MCP Extensions",
+      "score": 88,
+      "status": "new",
+      "first_detected": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-09-30T08:25:00+08:00",
+      "summary": "DevDay 强化 ChatGPT 插件/扩展面：应用式插件定制 + MCP Events 与 openai/mcp-extensions 开放扩展 SDK，服务事件驱动 agent 自动化与技能分发。",
+      "novelty": "skills/plugins 作为分发与商务表面，叠加事件驱动自动化，而不只是聊天里的小工具。",
+      "urls": {
+        "devday": "https://openai.com/index/devday-2026-recap/",
+        "github": "https://github.com/openai/mcp-extensions"
+      },
+      "tags": [
+        "OpenAI",
+        "Plugins",
+        "MCP",
+        "Skills",
+        "DevDay"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "openai-ultrafast-pro-500",
+      "name": "OpenAI Ultrafast (+ Pro 500)",
+      "score": 89,
+      "status": "new",
+      "first_detected": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-09-30T08:25:00+08:00",
+      "summary": "Ultrafast 付费速度层：Codex 最高约 8×（约 300 tok/s）、API 最高约 6×；GPT-6 Astra Ultrafast 今日在 API 与 ChatGPT Work/Codex 的 Pro 500 与 Enterprise 可用，GPT-6.1 Sol Ultrafast 即将到。",
+      "novelty": "agent 经济从纯 $/token 扩到「延迟档订阅」——速度成为与最高用量计划绑定的 SKU。",
+      "urls": {
+        "devday": "https://openai.com/index/devday-2026-recap/",
+        "x": "https://x.com/OpenAI/status/2104993966043320759"
+      },
+      "tags": [
+        "OpenAI",
+        "Ultrafast",
+        "Pro500",
+        "Latency",
+        "DevDay"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "chatgpt-space",
+      "name": "ChatGPT Space",
+      "score": 88,
+      "status": "new",
+      "first_detected": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-09-30T08:25:00+08:00",
+      "summary": "ChatGPT Space：团队与 AI、Dot 在共享知识上协作的专用工作区；可按指令整理页面，桌面/网页查找阅读分享。Pro/Business/Enterprise 可用。",
+      "novelty": "把可协作持久工作区做成 ChatGPT 一等交互面，并与 Dots 打通——durable workspace 进消费协作产品。",
+      "urls": {
+        "devday": "https://openai.com/index/devday-2026-recap/",
+        "x": "https://x.com/ChatGPT/status/2104986841145602351"
+      },
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "Space",
+        "Collaboration",
+        "DevDay"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "openai-decisions-api",
+      "name": "OpenAI Decisions API",
+      "score": 90,
+      "status": "new",
+      "first_detected": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-09-30T08:25:00+08:00",
+      "summary": "DevDay：Decisions API 把 Luna 聚焦到用户定义的有限选项问题上，文本/图像上下文进、选项+置信度出，用于分类/路由/选 agent 下一步；有限预览，数日内更广发布。社区实测约 150ms/判，称 Jev-killer。",
+      "novelty": "实验室把 System One / 有限选项决策模型做成一等 API——廉价路由与分类不再只靠第三方 Jev harness。",
+      "urls": {
+        "devday": "https://openai.com/index/devday-2026-recap/",
+        "x_community": "https://x.com/Tao100086/status/2105087121908474160"
+      },
+      "tags": [
+        "OpenAI",
+        "DecisionsAPI",
+        "Luna",
+        "SystemOne",
+        "DevDay"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "luci-desktop",
+      "name": "LUCI Desktop",
+      "score": 91,
+      "status": "new",
+      "first_detected": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-09-30T08:25:00+08:00",
+      "summary": "本地屏幕+会议记忆层：跨应用捕获所见所闻（无需逐应用 OAuth），供 Claude Code/Cursor/Codex 查询近期屏幕与决策；设备端转写 + Foundry Local 摘要，Agent Bridge 自动连接。Mac/Windows 本地免费档。PH 09-29 #2 ~306。",
+      "novelty": "teach-by-showing / 人生记忆进 coding-agent，而不是每次聊天粘贴上下文。",
+      "urls": {
+        "ph": "https://www.producthunt.com/products/luci-desktop",
+        "site": "https://luci.memories.ai/"
+      },
+      "tags": [
+        "Memory",
+        "Local",
+        "CodingAgent",
+        "ProductHunt"
+      ],
+      "homepage": true,
+      "ph_votes_latest": 306
+    },
+    {
+      "id": "ifixai",
+      "name": "iFixAi",
+      "score": 92,
+      "status": "new",
+      "first_detected": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-09-30T08:25:00+08:00",
+      "summary": "独立 agent 错位审计：250 项检查覆盖 69 类 misalignment（红队+运营保障+伦理/社会维度）。经 GitHub 或一次 MCP paste 接入 Claude Code/Codex/Cursor，模拟后报告隐藏 override、未授权动作与 principal-fidelity 失败——evals 绿灯≠可信任。PH 09-29 #1 ~342。",
+      "novelty": "把「agent 信任」做成独立于模型评测的审计 playbook，而不是又一个可观测仪表盘。",
+      "urls": {
+        "ph": "https://www.producthunt.com/products/ifixai",
+        "site": "https://www.ifixai.ai/"
+      },
+      "tags": [
+        "Assurance",
+        "Misalignment",
+        "MCP",
+        "ProductHunt"
+      ],
+      "homepage": true,
+      "ph_votes_latest": 342
+    },
+    {
+      "id": "openai-codex-security-cloud",
+      "name": "Codex Security Cloud",
+      "score": 93,
+      "status": "new",
+      "first_detected": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-09-30T08:25:00+08:00",
+      "summary": "OpenAI Codex Security Cloud：按需或定时扫描整仓 GitHub，跟进新 commit；调查去重并在云端准备补丁（笔记本可合上）。默认含 Daybreak Blue cyber 模型访问，无需单独 Daybreak 申请。Pro/Business/Enterprise/Edu 桌面与网页可用。",
+      "novelty": "把 cyber-capable 模型默认嵌进持续「扫描→验证→补丁」的 coding-agent 安全环，而不是事后 SAST 面板。",
+      "urls": {
+        "official": "https://openai.com/index/codex-security-now-in-research-preview/",
+        "devday": "https://openai.com/index/devday-2026-recap/",
+        "x": "https://x.com/OpenAI/status/2104987422308335828"
+      },
+      "tags": [
+        "OpenAI",
+        "Codex",
+        "Security",
+        "Daybreak",
+        "DevDay"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "gpt-6-1-sol",
+      "name": "GPT-6.1 Sol",
+      "score": 96,
+      "status": "new",
+      "first_detected": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-09-30T08:25:00+08:00",
+      "summary": "OpenAI 发布 GPT-6.1 Sol：近 Astra 的 agentic coding / computer use / 专业工作能力，标准 API 输入输出价约 Astra 的 1/5；cached input $0.10/M（较标准输入低约 95%，较 GPT-6 Sol cache 再低约 50%）。API 与 Plus/Pro/Business/Enterprise/Edu 可用；Sol Ultrafast 即将到。",
+      "novelty": "把 near-frontier agentic 能力压进可规模化日用价位，并用激进 cache 折扣服务长跑 agent——flash-over-pro 经济层再抬一档。",
+      "urls": {
+        "official": "https://openai.com/index/introducing-gpt-6-1-sol/",
+        "x": "https://x.com/OpenAI/status/2104986129686741046",
+        "x_sama": "https://x.com/sama/status/2104994395980533804"
+      },
+      "tags": [
+        "OpenAI",
+        "GPT-6.1",
+        "Sol",
+        "Pricing",
+        "DevDay"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "openai-dots",
+      "name": "OpenAI Dots",
+      "score": 98,
+      "status": "new",
+      "first_detected": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-09-30T08:25:00+08:00",
+      "summary": "OpenAI DevDay 推出 Dots：由 GPT-6 Astra 驱动的 always-on agent，在自有云电脑上主动推进复杂项目与日常任务；可连 4000+ apps/插件，经 ChatGPT/Slack/Teams 触达，含权限边界、动作审批与组织级 specialist dots（对接 Microsoft Agent 365）。Pro/Business Premium 可用。",
+      "novelty": "交互从「打开会话」变成「常驻代办同事」——persistent agent 做成消费级/团队级产品面，并自带云电脑与审批门控。",
+      "urls": {
+        "official": "https://openai.com/index/introducing-dots/",
+        "devday": "https://openai.com/index/devday-2026-recap/",
+        "x": "https://x.com/OpenAI/status/2104984504133918973"
+      },
+      "tags": [
+        "OpenAI",
+        "Dots",
+        "Astra",
+        "PersistentAgent",
+        "DevDay"
+      ],
+      "homepage": true
+    },
     {
       "id": "statable-analytics",
       "name": "Statable Analytics",
       "score": 85,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-29T08:25:00+08:00",
-      "last_updated": "2026-09-29T08:25:00+08:00",
+      "last_updated": "2026-09-30T08:25:00+08:00",
       "summary": "隐私优先的 web analytics，一等 MCP：Claude/ChatGPT/Cursor/Codex 可读流量并配置 tracking/goals/funnels——分析与配置都是 agent 可操作面。PH ~253。",
       "novelty": "分析面板变成 agent 可读写的商务表面，而不只是聊天壳套在仪表盘上。",
       "urls": {
@@ -23,15 +370,16 @@
         "AgentCommerce",
         "ProductHunt"
       ],
-      "homepage": false
+      "homepage": false,
+      "ph_votes_latest": 314
     },
     {
       "id": "harness-router",
       "name": "Harness Router",
       "score": 86,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-29T08:25:00+08:00",
-      "last_updated": "2026-09-29T08:25:00+08:00",
+      "last_updated": "2026-09-30T08:25:00+08:00",
       "summary": "面向 agent harness 的预执行工具路由：Codex PreToolUse hook/skill 用廉价 Jev 路径做封闭选择，歧义再升到 Jev+MCTS——区别于 harness-manager UI 与 OpenRouter 上的 jev-router。",
       "novelty": "System One 决策模型沉到 PreToolUse：别再拿前沿 token 做封闭工具选择。",
       "urls": {
@@ -45,15 +393,16 @@
         "Routing",
         "ProductHunt"
       ],
-      "homepage": true
+      "homepage": false,
+      "ph_votes_latest": 79
     },
     {
       "id": "vantage-ai",
       "name": "vantage.ai",
       "score": 87,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-29T08:25:00+08:00",
-      "last_updated": "2026-09-29T08:25:00+08:00",
+      "last_updated": "2026-09-30T08:25:00+08:00",
       "summary": "本地 OSS 包装器 `vantage run <agent>`：实时成本/配额预测、路径与命令 allow|ask|deny、密钥外泄告警、超预算强制审批、多会话 watch 与可搜索时间线——人类门控与机器花费控制不依赖云遥测。",
       "novelty": "把 agent 花费与权限检查做成本地 harness 控制面。",
       "urls": {
@@ -66,15 +415,16 @@
         "OSS",
         "ProductHunt"
       ],
-      "homepage": true
+      "homepage": false,
+      "ph_votes_latest": 80
     },
     {
       "id": "openscience",
       "name": "OpenScience",
       "score": 88,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-29T08:25:00+08:00",
-      "last_updated": "2026-09-29T08:25:00+08:00",
+      "last_updated": "2026-09-30T08:25:00+08:00",
       "summary": "开源 co-scientist 工作台：文献+代码+notebook/终端，长任务可丢到 Modal/自建/Slurm/PBS；Autoresearch 吃指标、跑实验并 hill-climb——可装的科学发现循环，而非论文聊天壳。",
       "novelty": "agentic 科学发现从 lab demo 变成可部署本地 workbench。",
       "urls": {
@@ -87,15 +437,16 @@
         "OSS",
         "ProductHunt"
       ],
-      "homepage": true
+      "homepage": false,
+      "ph_votes_latest": 74
     },
     {
       "id": "vibedefend",
       "name": "VibeDefend",
       "score": 89,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-29T08:25:00+08:00",
-      "last_updated": "2026-09-29T08:25:00+08:00",
+      "last_updated": "2026-09-30T08:25:00+08:00",
       "summary": "CybeDefend 的 CLI：一键接入 Claude Code/Cursor/Windsurf/Copilot/Codex，把仓库业务与安全规则注入 agent 上下文，并对每次 diff 在提交前扫描——安全跑在 coding-agent 循环内，而非事后 SAST 面板。PH ~226。",
       "novelty": "安全从「审完再扫」变成 agent 循环内的一等步骤。",
       "urls": {
@@ -108,15 +459,16 @@
         "CLI",
         "ProductHunt"
       ],
-      "homepage": true
+      "homepage": false,
+      "ph_votes_latest": 273
     },
     {
       "id": "nvidia-open-agent-safety-space",
       "name": "NVIDIA Open Agent Safety Platform + Perplexity SPACE",
       "score": 89,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-29T08:25:00+08:00",
-      "last_updated": "2026-09-29T08:25:00+08:00",
+      "last_updated": "2026-09-30T08:25:00+08:00",
       "summary": "Perplexity 与 NVIDIA 及 100+ 伙伴推进 Open Agent Safety：在 SPACE 中给 9 个模型 root 并要求逃逸，108 次运行无一突破 VM 边界；另测 10 个第三方沙箱，8 个存在 network-policy bypass 并已披露。",
       "novelty": "从单实验室事故披露升级为产业级 Open Agent Safety 平台 + 可复现逃逸评测。",
       "urls": {
@@ -130,15 +482,15 @@
         "AgentSafety",
         "Sandbox"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "deepseek-dsec",
       "name": "DeepSeek DSec",
       "score": 90,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-29T08:25:00+08:00",
-      "last_updated": "2026-09-29T08:25:00+08:00",
+      "last_updated": "2026-09-30T08:25:00+08:00",
       "summary": "DeepSeek+清华公开 DSec（DeepSeek Elastic Compute）：支撑 V3.2→V4.1 agentic RL 的生产级弹性沙箱——日约 300 万沙箱、峰值并发 >38 万；披露逃逸/偷答案等 misbehavior 目录与缓解；部分 OverlayBD 组件开源 AgentENV。09-28 中文报道以总部/梁文锋框架放大（英文覆盖此前未入库）。",
       "novelty": "把「agent 训练瓶颈是安全高并发执行基建」写成可核对生产数字与逃逸目录——对齐叙事补到训练物理层。",
       "urls": {
@@ -153,15 +505,15 @@
         "Infrastructure",
         "Alignment"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "xai-team-bots",
       "name": "xAI Team Bots",
       "score": 93,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-29T08:25:00+08:00",
-      "last_updated": "2026-09-29T08:25:00+08:00",
+      "last_updated": "2026-09-30T08:25:00+08:00",
       "summary": "xAI 上线 Team Bots：团队共享的 Grok Bot，绑定同一 Context/Plugins/Credentials/Memories；对话按人隔离，可 @handle 进 Slack。内部用例含销售晨报、EPD 协调 Cursor Cloud Agents、营销品牌审核。",
       "novelty": "persistent agent 从单人同事升级为可共享的团队角色实体——多 agent 编排下沉到日常协作面。",
       "urls": {
@@ -175,15 +527,15 @@
         "MultiAgent",
         "Slack"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "claude-sonnet-5-5",
       "name": "Claude Sonnet 5.5",
       "score": 96,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-29T08:25:00+08:00",
-      "last_updated": "2026-09-29T08:25:00+08:00",
+      "last_updated": "2026-09-30T08:25:00+08:00",
       "summary": "Anthropic 发布 Claude Sonnet 5.5：相对 Sonnet 5 生成更快约 30%、多数任务成本最多低约 30%（同价 $2/$10）；Terminal-Bench 4.0 10.3%→70.6%，CursorBench 接近 Opus；首个配备 cyber safeguards/fallback 的 Sonnet。当日进 Cursor/Hermes；Haiku 5.5 宣称数周内到。",
       "novelty": "中档经济模型出现数量级 agentic 跃迁，同时把 cyber 门控从旗舰下沉到日常默认档——agent 循环的默认模型可能换档。",
       "urls": {
@@ -198,7 +550,8 @@
         "Agentic",
         "CyberSafeguards"
       ],
-      "homepage": true
+      "homepage": false,
+      "ph_votes_latest": 222
     },
     {
       "id": "mcp-audit-tool",
@@ -2417,24 +2770,25 @@
       "id": "openai-agents-api",
       "first_detected": "2026-09-11T08:20:00+08:00",
       "name": "OpenAI Agents API",
-      "score": 91,
-      "status": "watching",
-      "summary": "公测：用托管 Codex harness 构建/运行 cloud agents（编排、长会话、上下文、子 agent、MCP），提供 OpenAI 托管或 BYO sandbox；按模型/工具/容器计费、无额外 Agents API 费。",
-      "novelty": "把内部 Codex harness 直接产品化为第三方可嵌入的控制面 + 托管沙箱，而不是又一个 agent 框架。",
+      "score": 92,
+      "status": "strengthening",
+      "summary": "Agents API 现支持 computer use，并把 Codex 多 agent、tool search/calling、context compaction 带进应用；OpenAI 托管底层基建。API 与 ChatGPT Work/Codex 在 Pro 500 与 Enterprise 可用。原 09-10 托管 Codex harness 公测之上的 DevDay 能力跃迁。",
+      "novelty": "把 computer-use + 多 agent Codex harness 产品化为第三方可嵌入运行时，而不只是 ChatGPT/Codex 产品内能力。",
       "urls": {
         "official": "https://openai.com/index/introducing-the-agents-api/",
-        "docs": "https://developers.openai.com/api/docs/guides/agents-api/overview",
-        "community": "https://community.openai.com/t/introducing-the-agents-api-and-hosted-sandboxes/1396481",
-        "x": "https://x.com/OpenAIDevs/status/2098130570048045453"
+        "devday": "https://openai.com/index/devday-2026-recap/",
+        "docs": "https://developers.openai.com/api/docs/guides/agents-api/overview"
       },
       "tags": [
         "OpenAI",
-        "Agents API",
+        "AgentsAPI",
+        "ComputerUse",
         "Harness",
-        "Sandbox"
+        "DevDay"
       ],
-      "homepage": false,
-      "last_updated": "2026-09-14T08:20:00+08:00"
+      "homepage": true,
+      "last_updated": "2026-09-30T08:25:00+08:00",
+      "refresh_note": "2026-09-30 DevDay: +computer use, multi-agent, tool search/compaction; Pro 500/Enterprise surfaces."
     },
     {
       "id": "cursor-projects",

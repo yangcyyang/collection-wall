@@ -1,9 +1,81 @@
 {
   "source": "AI Frontier Radar",
   "title": "观察名单",
-  "updated_at": "2026-09-29T08:25:00+08:00",
-  "count": 87,
+  "updated_at": "2026-09-30T08:25:00+08:00",
+  "count": 93,
   "items": [
+    {
+      "id": "codex-security-cloud-default",
+      "title": "Codex Security Cloud 是否变成默认持续审仓",
+      "why": "Daybreak Blue 默认进环；观察误报率、自动补丁采纳与对第三方 SAST 的替代。",
+      "since": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-09-30T08:25:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "critical-cyber-gated-deployment",
+        "coding-agent-supply-chain"
+      ]
+    },
+    {
+      "id": "ifixai-assurance-uptake",
+      "title": "iFixAi 类独立 agent 审计是否进入采购清单",
+      "why": "evals≠trust 产品化；观察是否有企业/平台把 MCP 审计当上线门禁。",
+      "since": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-09-30T08:25:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "coding-agent-supply-chain",
+        "critical-cyber-gated-deployment"
+      ]
+    },
+    {
+      "id": "chatgpt-space-collab-uptake",
+      "title": "ChatGPT Space 是否吃掉团队文档/wiki 面",
+      "why": "与 Dot 共编的持久工作区；观察是否形成真实多人工作流而非演示页。",
+      "since": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-09-30T08:25:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "apache-maka-durable-workspace",
+        "multi-agent-team-orchestration"
+      ]
+    },
+    {
+      "id": "gpt-61-sol-default-agent-loop",
+      "title": "GPT-6.1 Sol 是否成为默认 agent 循环模型",
+      "why": "1/5 Astra + 激进 cache；观察 Cursor/Codex/自建 harness 默认档是否切换。",
+      "since": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-09-30T08:25:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "agent-flash-over-pro-economics",
+        "coding-agent-supply-chain"
+      ]
+    },
+    {
+      "id": "decisions-api-ga-share",
+      "title": "Decisions API 广发后对 Jev/路由 harness 的替代份额",
+      "why": "有限预览→广发；社区已称 Jev-killer。看延迟、定价与默认接入 Agents/Codex 的程度。",
+      "since": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-09-30T08:25:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "system-one-decision-models",
+        "agent-flash-over-pro-economics"
+      ]
+    },
+    {
+      "id": "openai-dots-uptake",
+      "title": "Dots 是否成为 Pro/Business 默认工作入口",
+      "why": "always-on + 云电脑 + Slack/Teams；观察是否替代「打开 ChatGPT 新会话」习惯，以及 specialist/Agent 365 落地。",
+      "since": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-09-30T08:25:00+08:00",
+      "status": "watching",
+      "related_signals": [
+        "agent-persistent-computer",
+        "multi-agent-team-orchestration"
+      ]
+    },
     {
       "id": "openscience-autoresearch-uptake",
       "title": "OpenScience Autoresearch 是否跑出可复现科学结果",
@@ -77,10 +149,10 @@
     {
       "id": "openai-devday-new-thing",
       "title": "OpenAI DevDay「new thing」是否兑现新品类",
-      "why": "sama「We have found a new thing」+ 官方 Get ready 同窗；keynote 后是否出现新品类交互/能力，而非增量 API。",
+      "why": "DevDay 2026 已发：Dots / GPT-6.1 Sol / Decisions API / Codex Security Cloud / Agents API CUA 等——改盯分项 uptake（openai-dots-uptake 等）。",
       "since": "2026-09-29T08:25:00+08:00",
-      "last_updated": "2026-09-29T08:25:00+08:00",
-      "status": "watching",
+      "last_updated": "2026-09-30T08:25:00+08:00",
+      "status": "closed",
       "related_signals": [
         "frontier-vertical-model-skus",
         "agent-commerce-surfaces"
