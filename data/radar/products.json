@@ -1,16 +1,277 @@
 {
   "source": "AI Frontier Radar",
   "title": "新产品",
-  "updated_at": "2026-09-30T08:25:00+08:00",
-  "count": 186,
+  "updated_at": "2026-10-01T08:20:00+08:00",
+  "count": 198,
   "items": [
+    {
+      "id": "qwen3-8-27b-nebius",
+      "name": "Qwen3.8-27B on Nebius Token Factory",
+      "score": 86,
+      "status": "new",
+      "first_detected": "2026-10-01T08:20:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
+      "summary": "Alibaba Qwen 官方确认 Qwen3.8-27B 已可经 Nebius Token Factory 访问：27B dense，面向 coding / research / 多步 agent 工作流。",
+      "novelty": "开放权重中档模型的云端 agent 供给面扩展（分发落地，非新架构）。",
+      "urls": {
+        "x": "https://x.com/Alibaba_Qwen/status/2105256053403508849",
+        "nebius": "https://x.com/nebiustf/status/2104595169614115013"
+      },
+      "tags": [
+        "Qwen",
+        "Nebius",
+        "OpenWeight",
+        "Agents"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "universal-modder",
+      "name": "universal-modder",
+      "score": 86,
+      "status": "new",
+      "first_detected": "2026-10-01T08:20:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
+      "summary": "Claude Code 插件/skills + fal MCP：对几乎任意自有 PC 游戏做侦察、逆向、生成美术/3D/音频、游戏内测试并产出展示视频。首日约 804★。",
+      "novelty": "垂直 skills+MCP 分发剧本：消费创意域上的 coding-agent 闭环。",
+      "urls": {
+        "github": "https://github.com/rehan-remade/universal-modder"
+      },
+      "tags": [
+        "GitHub",
+        "Skills",
+        "MCP",
+        "ClaudeCode",
+        "Modding"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "openai-adversarial-distillation",
+      "name": "OpenAI adversarial distillation disruption",
+      "score": 88,
+      "status": "new",
+      "first_detected": "2026-10-01T08:20:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
+      "summary": "OpenAI Security（9/30）披露并打断协同蒸馏活动：跨会话解密/转录抽取受保护推理；7/24–25 峰值约 1.6 万请求/4k+ 用户，相关集群 >1.5 万用户在 7/28 前被打断。核心集群归因与 Moonshot/Kimi 相关个人；经 Frontier Model Forum 共享攻击类。",
+      "novelty": "把「对抗蒸馏」从论文变成具名安全事件——抬高开源追赶成本，并强化行业门控与推理透明度赌注。",
+      "urls": {
+        "official": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/"
+      },
+      "tags": [
+        "OpenAI",
+        "Security",
+        "Distillation",
+        "Moonshot",
+        "Kimi"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "ferndesk",
+      "name": "Ferndesk",
+      "score": 87,
+      "status": "new",
+      "first_detected": "2026-10-01T08:20:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
+      "summary": "帮助中心产品：agent 把每篇文章与线上产品做 diff、抓漂移并起草修复——文档保鲜做成 check→draft 环，而不是人工 CMS 杂务或通用客服机器人。",
+      "novelty": "文档与产品真相的持续对齐 agent 环——垂直但机制清晰。",
+      "urls": {
+        "ph": "https://www.producthunt.com/products/ferndesk",
+        "site": "https://ferndesk.com"
+      },
+      "tags": [
+        "ProductHunt",
+        "Ferndesk",
+        "Docs",
+        "AgentLoop"
+      ],
+      "homepage": false
+    },
+    {
+      "id": "selfjev",
+      "name": "SelfJev",
+      "score": 86,
+      "status": "new",
+      "first_detected": "2026-10-01T08:20:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
+      "summary": "可自托管的 ~4B 决策模型：一次读文本/图像 → 多个带校准概率的类型化答案（是否/单选/多选/打分），零散文生成；Jev 兼容 API（TypeSafe SDK 两环境变量即可），可在自有数据上微调。",
+      "novelty": "开源/自托管 System One 决策层——把 Jev 式门控从云 API 拉回本地 GPU。",
+      "urls": {
+        "ph": "https://www.producthunt.com/products/selfjev-intelligence-decided",
+        "site": "https://www.selfjev.dev"
+      },
+      "tags": [
+        "ProductHunt",
+        "SelfJev",
+        "SystemOne",
+        "Jev",
+        "Decisions"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "campfire",
+      "name": "Campfire",
+      "score": 89,
+      "status": "new",
+      "first_detected": "2026-10-01T08:20:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
+      "summary": "与 harness 无关的共享工作区：人类与 coding agent 把目标、变更、发现与决策留在同一处，下一 agent/人无需重建三个孤儿会话。开源安装脚本。",
+      "novelty": "多智能体团队的共享记忆面——不是又一个聊天标签，而是可交接的目标/发现/决策层。",
+      "urls": {
+        "ph": "https://www.producthunt.com/products/campfire-12",
+        "site": "https://boringinfra.company/campfire"
+      },
+      "tags": [
+        "ProductHunt",
+        "Campfire",
+        "MultiAgent",
+        "Workspace"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "m-kay",
+      "name": "m’kay",
+      "score": 90,
+      "status": "new",
+      "first_detected": "2026-10-01T08:20:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
+      "summary": "手机/浏览器语音层驱动你 Mac 上真实的 Claude Code / Codex / Cursor（不是另开一个助手）：问谁做完了、听回复、远程下下一任务；读回确认前不发送。开源本地连接器或托管语音页。",
+      "novelty": "语音 AFK 操控已有桌面 coding agent——把 voice-first 接到真实 harness，而不是新聊天壳。",
+      "urls": {
+        "ph": "https://www.producthunt.com/products/m-kay",
+        "site": "https://mkay.ai"
+      },
+      "tags": [
+        "ProductHunt",
+        "Voice",
+        "AFK",
+        "ClaudeCode",
+        "Cursor"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "evlat",
+      "name": "Evlat",
+      "score": 91,
+      "status": "new",
+      "first_detected": "2026-10-01T08:20:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
+      "summary": "Mac 屏幕边缘条：每个 Claude Code/Codex/Antigravity 会话一环，agent 要权限或回答时变琥珀，一点开对应终端；也可 `evlat watch` 包长命令与 SSH 远端，让 GPU/编译机任务在同一条上脉冲。",
+      "novelty": "多 agent + 远端作业的人机检查点界面——不用轮询终端就能知道谁在等你。",
+      "urls": {
+        "ph": "https://www.producthunt.com/products/evlat",
+        "site": "https://evlat.kalaomer.com"
+      },
+      "tags": [
+        "ProductHunt",
+        "Evlat",
+        "AFK",
+        "HITL",
+        "Mac"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "github-hydrafusion-vscode",
+      "name": "HydraFusion in VS Code + Copilot app",
+      "score": 90,
+      "status": "new",
+      "first_detected": "2026-10-01T08:20:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
+      "summary": "GitHub 把 HydraFusion 研究预览从 Copilot CLI 扩到 VS Code 模型选择器与 Copilot app：用 Single / Cascade（廉价草稿→质量门升级）/ Critique（跨族只读批评+一次修订）编排多模型；步骤进度更透明。Pro/Pro+/Business/Enterprise（组织预览开关）。",
+      "novelty": "工作流级多模型编排（而不只是 Auto 选模）进入默认编程 IDE——harness 控制面 + flash-over-pro 经济做成一等路径。",
+      "urls": {
+        "official": "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app/"
+      },
+      "tags": [
+        "GitHub",
+        "HydraFusion",
+        "Copilot",
+        "VSCode",
+        "MultiModel"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "gitbot",
+      "name": "GitBot",
+      "score": 93,
+      "status": "new",
+      "first_detected": "2026-10-01T08:20:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
+      "summary": "把你反复交给 Claude Code/Codex/OpenCode 的工作做成可复用本地 bot：写一次指令、限定可触达范围，在任意仓库以可返回线程运行；可从 Library 安装他人 bot 或用分享码分发（如 ShipGuard 带行级证据的 merge/block）。复用现有 agent 登录，无 GitBot 账号/遥测。",
+      "novelty": "技能/playbook 分发落到「你已在跑的 harness」上——可复用 bot + 共享库，而不是又一个云端 agent 账号。",
+      "urls": {
+        "ph": "https://www.producthunt.com/products/gitbot-2",
+        "github": "https://github.com/gitbot-hq/GitBot"
+      },
+      "tags": [
+        "ProductHunt",
+        "GitBot",
+        "ClaudeCode",
+        "Codex",
+        "Skills"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "deepseek-ascend-tilelang",
+      "name": "DeepSeek Ascend TileLang stack",
+      "score": 94,
+      "status": "new",
+      "first_detected": "2026-10-01T08:20:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
+      "summary": "DeepSeek 开源华为昇腾对位栈：TileLang Ascend 后端（同 Python API，运行时选 NPU/GPU）、DeepGEMM-Ascend、DeepEP-Ascend，并在 TileKernels/FlashMLA/DeepSelect 加 Ascend 支持；与华为共推 Ascend 950 128 卡超节点。Dense GEMM 利用率可达 99.8%。",
+      "novelty": "完整 CUDA 对位的开源训练/推理内核栈落到 Ascend——非权重投放，而是非 Nvidia 技术路线的可复用基建。",
+      "urls": {
+        "deepep": "https://github.com/deepseek-ai/DeepEP-Ascend",
+        "deepgemm": "https://github.com/deepseek-ai/DeepGEMM-Ascend",
+        "reuters": "https://www.reuters.com/world/asia-pacific/deepseek-partners-with-huawei-develop-chip-programming-tools-reducing-reliance-2026-09-30/"
+      },
+      "tags": [
+        "DeepSeek",
+        "Ascend",
+        "TileLang",
+        "Huawei",
+        "CUDA-parity"
+      ],
+      "homepage": true
+    },
+    {
+      "id": "gemini-4-argon",
+      "name": "Gemini 4 Argon",
+      "score": 99,
+      "status": "new",
+      "first_detected": "2026-10-01T08:20:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
+      "summary": "Google DeepMind 新 frontier 模型：面向长程软件工程、法务/金融知识工作与网络安全防御。今日经 Fairwind Program 向可信网防方放量，并走美政府自愿预发布；输出上限升至 1M tokens（此前 64K）；DeepSWE v1.1 77.9% SOTA；可信防御方可去 cyber guardrails。引入 API 价 $2/$10 per 1M in/out（缓存输入 95% off），之后 $4/$20；广发顺序付费 API → Google AI Ultra。",
+      "novelty": "旗舰 frontier 回归，并以 Fairwind 网防优先分发 + 1M 输出长轨迹，把 Critical cyber 门控做成可订阅产品路径。",
+      "urls": {
+        "official": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+        "x": "https://x.com/GoogleDeepMind/status/2105388084154056939",
+        "reuters": "https://www.reuters.com/legal/litigation/google-announces-gemini-4-flagship-ai-model-after-months-delays-2026-09-30/"
+      },
+      "tags": [
+        "Google",
+        "DeepMind",
+        "Gemini4",
+        "Argon",
+        "Fairwind",
+        "Cyber"
+      ],
+      "homepage": true
+    },
     {
       "id": "cursor-visualize",
       "name": "Cursor Visualize",
       "score": 84,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-30T08:25:00+08:00",
-      "last_updated": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
       "summary": "Cursor 编码 agent 聊天面原生可视化输出（图表/示意图），减少「生成代码再另开工具画图」的往返。",
       "novelty": "coding-agent 交互面从纯文本扩到内嵌可视化。",
       "urls": {
@@ -27,9 +288,9 @@
       "id": "chatgpt-slack-teams",
       "name": "ChatGPT in Slack & Teams",
       "score": 85,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-30T08:25:00+08:00",
-      "last_updated": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
       "summary": "ChatGPT/Dots 原生进入 Slack 与 Teams 消息流；按席位解绑个人许可证叙事，工作场所 @agent 成为默认触点。",
       "novelty": "工作场所消息流原生 @agent，与 Dots 常驻代办同一通道。",
       "urls": {
@@ -49,9 +310,9 @@
       "id": "openai-signin-allowance",
       "name": "ChatGPT Sign-in Allowance",
       "score": 86,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-30T08:25:00+08:00",
-      "last_updated": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
       "summary": "DevDay：ChatGPT 订阅/身份成为跨应用推理额度与登录层（subscription-as-login + allowance portability），把用量随身带到第三方应用。",
       "novelty": "订阅变成可携带的 agent 运行时额度，而不只是 ChatGPT 站内席位。",
       "urls": {
@@ -69,9 +330,9 @@
       "id": "posthog-jeeves",
       "name": "PostHog Jeeves",
       "score": 85,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-30T08:25:00+08:00",
-      "last_updated": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
       "summary": "PostHog 开源 reasoning-Jev 路线（约 9B）：短推理升级 System One 决策模型，可与 OpenAI Decisions API 对照为开放路由栈。",
       "novelty": "开源侧补齐「有限选项+短推理」决策模型，对位实验室 Decisions API。",
       "urls": {
@@ -89,9 +350,9 @@
       "id": "timeless-code",
       "name": "Timeless Code",
       "score": 88,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-30T08:25:00+08:00",
-      "last_updated": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
       "summary": "会议智能做成 Claude Code 内驻 agent：`Fetch …/agent-install.md` 式安装；终端录制转写，再查询组织记忆并把 action item 推 GitHub。PH 09-29 #8 ~121。",
       "novelty": "会议记录器装进并跑在 coding-agent 里，而不是另开 Otter 再粘贴。",
       "urls": {
@@ -111,9 +372,9 @@
       "id": "codex-remote",
       "name": "Codex Remote",
       "score": 90,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-30T08:25:00+08:00",
-      "last_updated": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
       "summary": "OSS Mac 菜单栏：用 OpenTofu 在自有云（Hetzner/AWS/DO…）开箱，装 Codex+Claude Code 与 MCP；暴露 CPU/会话/空闲暂停与创建前 $/规格估计；可选 MCP 让 agent 分级创建/销毁机器。PH ~74。",
       "novelty": "agent 电脑 + 机器计价 + AFK 驾驶落在你控制的硬件上，而不是托管沙箱。",
       "urls": {
@@ -134,9 +395,9 @@
       "id": "meta-muse-small-business",
       "name": "Meta Muse for Small Business",
       "score": 86,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-30T08:25:00+08:00",
-      "last_updated": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
       "summary": "Meta 推出 Muse for Small Business：后台持续工作的个人 AI agent，深接 SMB SaaS，带硬审批门控，帮小生意推进目标。",
       "novelty": "个人超级智能体垂直化成带连接器与审批的 SMB 运营同事——agent commerce / persistent agent 进店主场景。",
       "urls": {
@@ -154,10 +415,10 @@
       "id": "openai-plugin-extensions",
       "name": "ChatGPT Plugins + MCP Extensions",
       "score": 88,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-30T08:25:00+08:00",
-      "last_updated": "2026-09-30T08:25:00+08:00",
-      "summary": "DevDay 强化 ChatGPT 插件/扩展面：应用式插件定制 + MCP Events 与 openai/mcp-extensions 开放扩展 SDK，服务事件驱动 agent 自动化与技能分发。",
+      "last_updated": "2026-10-01T08:20:00+08:00",
+      "summary": "ChatGPT Plugins + MCP Extensions；窗口内 shareable profiles 把 Sites/plugins/skills 做成可分享发现面，强化分发与复用。",
       "novelty": "skills/plugins 作为分发与商务表面，叠加事件驱动自动化，而不只是聊天里的小工具。",
       "urls": {
         "devday": "https://openai.com/index/devday-2026-recap/",
@@ -176,9 +437,9 @@
       "id": "openai-ultrafast-pro-500",
       "name": "OpenAI Ultrafast (+ Pro 500)",
       "score": 89,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-30T08:25:00+08:00",
-      "last_updated": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
       "summary": "Ultrafast 付费速度层：Codex 最高约 8×（约 300 tok/s）、API 最高约 6×；GPT-6 Astra Ultrafast 今日在 API 与 ChatGPT Work/Codex 的 Pro 500 与 Enterprise 可用，GPT-6.1 Sol Ultrafast 即将到。",
       "novelty": "agent 经济从纯 $/token 扩到「延迟档订阅」——速度成为与最高用量计划绑定的 SKU。",
       "urls": {
@@ -198,10 +459,10 @@
       "id": "chatgpt-space",
       "name": "ChatGPT Space",
       "score": 88,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-30T08:25:00+08:00",
-      "last_updated": "2026-09-30T08:25:00+08:00",
-      "summary": "ChatGPT Space：团队与 AI、Dot 在共享知识上协作的专用工作区；可按指令整理页面，桌面/网页查找阅读分享。Pro/Business/Enterprise 可用。",
+      "last_updated": "2026-10-01T08:20:00+08:00",
+      "summary": "ChatGPT Space 工作区协作面；窗口内补上 shareable profiles：把 Sites + plugins 聚合成可发现/可复用个人页，workspace 内可发现共享 skills（Free/Go/Plus/Pro/Business；Enterprise/Edu/Healthcare 即将跟进）。",
       "novelty": "把可协作持久工作区做成 ChatGPT 一等交互面，并与 Dots 打通——durable workspace 进消费协作产品。",
       "urls": {
         "devday": "https://openai.com/index/devday-2026-recap/",
@@ -214,15 +475,15 @@
         "Collaboration",
         "DevDay"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "openai-decisions-api",
       "name": "OpenAI Decisions API",
       "score": 90,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-30T08:25:00+08:00",
-      "last_updated": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
       "summary": "DevDay：Decisions API 把 Luna 聚焦到用户定义的有限选项问题上，文本/图像上下文进、选项+置信度出，用于分类/路由/选 agent 下一步；有限预览，数日内更广发布。社区实测约 150ms/判，称 Jev-killer。",
       "novelty": "实验室把 System One / 有限选项决策模型做成一等 API——廉价路由与分类不再只靠第三方 Jev harness。",
       "urls": {
@@ -236,15 +497,15 @@
         "SystemOne",
         "DevDay"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "luci-desktop",
       "name": "LUCI Desktop",
       "score": 91,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-30T08:25:00+08:00",
-      "last_updated": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
       "summary": "本地屏幕+会议记忆层：跨应用捕获所见所闻（无需逐应用 OAuth），供 Claude Code/Cursor/Codex 查询近期屏幕与决策；设备端转写 + Foundry Local 摘要，Agent Bridge 自动连接。Mac/Windows 本地免费档。PH 09-29 #2 ~306。",
       "novelty": "teach-by-showing / 人生记忆进 coding-agent，而不是每次聊天粘贴上下文。",
       "urls": {
@@ -257,16 +518,16 @@
         "CodingAgent",
         "ProductHunt"
       ],
-      "homepage": true,
+      "homepage": false,
       "ph_votes_latest": 306
     },
     {
       "id": "ifixai",
       "name": "iFixAi",
       "score": 92,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-30T08:25:00+08:00",
-      "last_updated": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
       "summary": "独立 agent 错位审计：250 项检查覆盖 69 类 misalignment（红队+运营保障+伦理/社会维度）。经 GitHub 或一次 MCP paste 接入 Claude Code/Codex/Cursor，模拟后报告隐藏 override、未授权动作与 principal-fidelity 失败——evals 绿灯≠可信任。PH 09-29 #1 ~342。",
       "novelty": "把「agent 信任」做成独立于模型评测的审计 playbook，而不是又一个可观测仪表盘。",
       "urls": {
@@ -279,16 +540,16 @@
         "MCP",
         "ProductHunt"
       ],
-      "homepage": true,
+      "homepage": false,
       "ph_votes_latest": 342
     },
     {
       "id": "openai-codex-security-cloud",
       "name": "Codex Security Cloud",
       "score": 93,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-30T08:25:00+08:00",
-      "last_updated": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
       "summary": "OpenAI Codex Security Cloud：按需或定时扫描整仓 GitHub，跟进新 commit；调查去重并在云端准备补丁（笔记本可合上）。默认含 Daybreak Blue cyber 模型访问，无需单独 Daybreak 申请。Pro/Business/Enterprise/Edu 桌面与网页可用。",
       "novelty": "把 cyber-capable 模型默认嵌进持续「扫描→验证→补丁」的 coding-agent 安全环，而不是事后 SAST 面板。",
       "urls": {
@@ -303,15 +564,15 @@
         "Daybreak",
         "DevDay"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "gpt-6-1-sol",
       "name": "GPT-6.1 Sol",
       "score": 96,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-30T08:25:00+08:00",
-      "last_updated": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
       "summary": "OpenAI 发布 GPT-6.1 Sol：近 Astra 的 agentic coding / computer use / 专业工作能力，标准 API 输入输出价约 Astra 的 1/5；cached input $0.10/M（较标准输入低约 95%，较 GPT-6 Sol cache 再低约 50%）。API 与 Plus/Pro/Business/Enterprise/Edu 可用；Sol Ultrafast 即将到。",
       "novelty": "把 near-frontier agentic 能力压进可规模化日用价位，并用激进 cache 折扣服务长跑 agent——flash-over-pro 经济层再抬一档。",
       "urls": {
@@ -326,15 +587,15 @@
         "Pricing",
         "DevDay"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "openai-dots",
       "name": "OpenAI Dots",
       "score": 98,
-      "status": "new",
+      "status": "watching",
       "first_detected": "2026-09-30T08:25:00+08:00",
-      "last_updated": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
       "summary": "OpenAI DevDay 推出 Dots：由 GPT-6 Astra 驱动的 always-on agent，在自有云电脑上主动推进复杂项目与日常任务；可连 4000+ apps/插件，经 ChatGPT/Slack/Teams 触达，含权限边界、动作审批与组织级 specialist dots（对接 Microsoft Agent 365）。Pro/Business Premium 可用。",
       "novelty": "交互从「打开会话」变成「常驻代办同事」——persistent agent 做成消费级/团队级产品面，并自带云电脑与审批门控。",
       "urls": {
@@ -349,7 +610,7 @@
         "PersistentAgent",
         "DevDay"
       ],
-      "homepage": true
+      "homepage": false
     },
     {
       "id": "statable-analytics",
@@ -513,8 +774,8 @@
       "score": 93,
       "status": "watching",
       "first_detected": "2026-09-29T08:25:00+08:00",
-      "last_updated": "2026-09-30T08:25:00+08:00",
-      "summary": "xAI 上线 Team Bots：团队共享的 Grok Bot，绑定同一 Context/Plugins/Credentials/Memories；对话按人隔离，可 @handle 进 Slack。内部用例含销售晨报、EPD 协调 Cursor Cloud Agents、营销品牌审核。",
+      "last_updated": "2026-10-01T08:20:00+08:00",
+      "summary": "xAI Team Bots；窗口无新 x.ai/news，但 X 放大 Grok Bot + Plaid 只读金融账户/卡/投资搜索与语音通话检索——软刷新商务/金融接入面。",
       "novelty": "persistent agent 从单人同事升级为可共享的团队角色实体——多 agent 编排下沉到日常协作面。",
       "urls": {
         "official": "https://x.ai/news/team-bots",
@@ -2786,8 +3047,8 @@
         "Harness",
         "DevDay"
       ],
-      "homepage": true,
-      "last_updated": "2026-09-30T08:25:00+08:00",
+      "homepage": false,
+      "last_updated": "2026-10-01T08:20:00+08:00",
       "refresh_note": "2026-09-30 DevDay: +computer use, multi-agent, tool search/compaction; Pro 500/Enterprise surfaces."
     },
     {
