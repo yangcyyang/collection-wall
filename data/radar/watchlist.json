@@ -1,9 +1,83 @@
 {
   "source": "AI Frontier Radar",
   "title": "观察名单",
-  "updated_at": "2026-09-30T08:25:00+08:00",
-  "count": 93,
+  "updated_at": "2026-10-01T08:20:00+08:00",
+  "count": 99,
   "items": [
+    {
+      "id": "openai-distillation-defense-norm",
+      "title": "对抗蒸馏缓解是否成 Frontier Model Forum 默认规范",
+      "why": "具名事件后，行业是否把推理保护写成共享门槛。",
+      "status": "watching",
+      "since": "2026-10-01T08:20:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
+      "related_signals": [
+        "critical-cyber-gated-deployment",
+        "open-weight-agentic-multimodal",
+        "frontier-pacing-embedded-evaluators"
+      ]
+    },
+    {
+      "id": "selfjev-harness-uptake",
+      "title": "SelfJev 是否被 TypeSafe/其他 harness 默认接入",
+      "why": "自托管 System One 若进入默认 verifier/router，决策层供应链会再分叉。",
+      "status": "watching",
+      "since": "2026-10-01T08:20:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
+      "related_signals": [
+        "system-one-decision-models"
+      ]
+    },
+    {
+      "id": "gitbot-library-uptake",
+      "title": "GitBot Library/分享码是否出现真实团队复用",
+      "why": "可复用 bot 分发是 skills-as-distribution 的本地 harness 形态。",
+      "status": "watching",
+      "since": "2026-10-01T08:20:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
+      "related_signals": [
+        "skills-as-distribution",
+        "multi-agent-team-orchestration"
+      ]
+    },
+    {
+      "id": "hydrafusion-default-workflow",
+      "title": "HydraFusion Cascade/Critique 是否成 Copilot 默认工作流",
+      "why": "多模型编排进 IDE 后，默认路径决定 harness 控制面是否真正产品化。",
+      "status": "watching",
+      "since": "2026-10-01T08:20:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
+      "related_signals": [
+        "multi-agent-team-orchestration",
+        "harness-control-plane",
+        "agent-flash-over-pro-economics"
+      ]
+    },
+    {
+      "id": "deepseek-ascend-reproduce",
+      "title": "DeepSeek Ascend TileLang/DeepEP 第三方可复现与吞吐",
+      "why": "CUDA 对位栈若可复现，开源 agent 训练/推理路线将实质分叉。",
+      "status": "watching",
+      "since": "2026-10-01T08:20:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
+      "related_signals": [
+        "open-weight-agentic-multimodal",
+        "coding-agent-supply-chain"
+      ]
+    },
+    {
+      "id": "gemini-4-argon-fairwind-ga",
+      "title": "Gemini 4 Argon 何时从 Fairwind 广发到付费 API / Ultra",
+      "why": "旗舰已网防优先放量；广发节奏决定 flash-over-pro 与 cyber 门控的真实供给。",
+      "status": "watching",
+      "since": "2026-10-01T08:20:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
+      "related_signals": [
+        "critical-cyber-gated-deployment",
+        "agent-flash-over-pro-economics",
+        "frontier-vertical-model-skus"
+      ]
+    },
     {
       "id": "codex-security-cloud-default",
       "title": "Codex Security Cloud 是否变成默认持续审仓",
