@@ -1,7 +1,7 @@
 {
   "source": "AI Frontier Radar",
   "title": "前沿信号",
-  "updated_at": "2026-09-30T08:25:00+08:00",
+  "updated_at": "2026-10-01T08:20:00+08:00",
   "count": 17,
   "items": [
     {
@@ -64,7 +64,7 @@
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-09-22T08:20:00+08:00",
-      "last_updated": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
       "summary": "OpenAI Decisions API 把 Luna 做成有限选项+置信度的实时决策接口（分类/路由/选下一步），有限预览后将广发；PostHog Jeeves 开源短推理决策模型对位——System One 决策层从 Jev harness 生态升级为平台能力。",
       "why_it_matters": "若决策外环商品化，harness 路由/门禁/triage 可从「再跑一遍 LLM 再解析」降到亚秒结构化 API；下一问是主流 coding/agent 产品是否默认接入。",
       "tags": [
@@ -75,6 +75,18 @@
         "Harness"
       ],
       "evidence": [
+        {
+          "url": "https://www.producthunt.com/products/selfjev-intelligence-decided",
+          "source": "producthunt",
+          "note": "SelfJev PH launch ~75 votes",
+          "date": "2026-10-01T08:20:00+08:00"
+        },
+        {
+          "url": "https://www.selfjev.dev",
+          "source": "product",
+          "note": "SelfJev Jev-compatible self-hosted decisions model",
+          "date": "2026-10-01T08:20:00+08:00"
+        },
         {
           "url": "https://github.com/PostHog/jeeves",
           "date": "2026-09-29",
@@ -159,6 +171,7 @@
         }
       ],
       "watch_next": [
+        "selfjev-harness-uptake",
         "Jeeves vs Luna Decisions 延迟/准确度对照",
         "Decisions API 广发后默认路由份额",
         "harness-router-adoption",
@@ -176,11 +189,11 @@
       "id": "open-weight-agentic-multimodal",
       "title": "开源权重的 Agentic 全模态栈",
       "type": "pattern",
-      "score": 92,
+      "score": 94,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-09-21T08:35:00+08:00",
-      "last_updated": "2026-09-22T08:20:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
       "summary": "Qwen 同窗连发 Omni-Flash（感知→规划→工具）、Image-2.1（统一生图+编辑开源）与 LiveTranslate，并把 MM-Plugins / Live Harness 开源——开源实验室开始整包交付「可执行的全模态 agent」，而不只是多模态理解模型。",
       "why_it_matters": "封闭 lab 的 omni/agent 叙事正被开源权重+插件/harness 追平分发面；下一问是谁先把这套栈接到企业工作流与本地部署。",
       "tags": [
@@ -191,6 +204,18 @@
         "Multimodal"
       ],
       "evidence": [
+        {
+          "url": "https://x.com/Alibaba_Qwen/status/2105256053403508849",
+          "source": "official",
+          "note": "Qwen3.8-27B on Nebius Token Factory",
+          "date": "2026-10-01T08:20:00+08:00"
+        },
+        {
+          "url": "https://github.com/deepseek-ai/DeepEP-Ascend",
+          "source": "github",
+          "note": "DeepEP-Ascend created in-window; Ascend EP stack",
+          "date": "2026-10-01T08:20:00+08:00"
+        },
         {
           "url": "https://x.com/XiaomiMiMo/status/2102138582324625780",
           "source": "x",
@@ -223,6 +248,7 @@
         }
       ],
       "watch_next": [
+        "deepseek-ascend-reproduce",
         "第三方独立复现 MiMo agent 基准与 RL 环境可用性",
         "Qwen MM-Plugins 是否被第三方 coding/agent 产品默认接入",
         "同档开源 omni（DeepSeek/GLM 等）是否跟进工具执行环"
@@ -234,11 +260,11 @@
       "id": "frontier-vertical-model-skus",
       "title": "前沿模型开始按行业打成可治理的垂直 SKU",
       "type": "emerging_signal",
-      "score": 89,
+      "score": 91,
       "confidence": "medium",
       "status": "strengthening",
       "first_detected": "2026-09-18T08:20:00+08:00",
-      "last_updated": "2026-09-22T08:20:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
       "summary": "OpenAI 发布 Astra for Law：GPT-6 Astra + 2.3亿+法律检索索引 + 律所 Trusted Access/ZDR +插件生态；同窗 ChatGPT for Clinicians 向认证美国临床医生免费开放 Astra Pro。Kimi 金融方案则以 Skill+MCP+合规网关交付强监管垂直。前沿模型不再只卖通用档位，而是按行业打包成可审计的 foundation。",
       "why_it_matters": "若「模型×权威数据×插件×治理」成为默认交付单元，分发与合规会从通用 API 转向垂直 SKU——这是专业市场的新产品形态，而不只是又一份行业 prompt。",
       "tags": [
@@ -252,6 +278,12 @@
         "Skills"
       ],
       "evidence": [
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+          "source": "official",
+          "note": "Argon for coding + legal/finance knowledge work + cyber defense",
+          "date": "2026-10-01T08:20:00+08:00"
+        },
         {
           "url": "https://x.com/ChatGPT/status/2102085785839427792",
           "source": "x",
@@ -284,6 +316,7 @@
         }
       ],
       "watch_next": [
+        "argon-vertical-sku-packaging",
         "Astra for Law 是否扩出 Trusted Access 首批律所与 API GA",
         "Clinicians 通道是否扩到更多国家/专科",
         "其他实验室是否跟进「前沿模型×行业 SKU」模板"
@@ -299,7 +332,7 @@
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-09-17T08:20:00+08:00",
-      "last_updated": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
       "summary": "Claude Marketplace 让 agents/工具可购买；Freebuff agentic ads 仍在观察。Agent 本身成为分发与成交表面，而不只是执行层。",
       "why_it_matters": "如果 agent 既是广告落地页又是采购方，分发与计价会从座位/token 转向会话转化与机器结算——这是新商业原语，而不只是又一个聊天插件。",
       "tags": [
@@ -311,6 +344,12 @@
         "ZeroClick"
       ],
       "evidence": [
+        {
+          "url": "https://247wallst.com/cards/xpost-01m3sqn6dkm5wk9ajy2701r914",
+          "source": "secondary",
+          "note": "Grok Bot Plaid finance read-only hookup amplify",
+          "date": "2026-10-01T08:20:00+08:00"
+        },
         {
           "url": "https://about.fb.com/news/2026/09/introducing-muse-small-business/",
           "date": "2026-09-29",
@@ -380,7 +419,7 @@
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
       "summary": "Claude Code Projects 重设计：从一会话调度并行云端 threads（各为独立会话/分支），共享 memory 与 artifact library，关电脑后仍继续，可从手机督导；本周对部分 Pro/Max 云会话扩量，本地工具随后。叠加前日 Cowork×chat 合并、jurniti / Cursor Projects / Muse Secure VM——「关盖还在跑」的持久 agent 电脑已成主流产品原语。",
       "why_it_matters": "叙事从「模型会点鼠标」变成「每人一台隔离 VM 里的代理」。Sentinel/审批/审计说明大众 agent 的产品化关键是安全电脑，而不是更长的聊天窗口。",
       "tags": [
@@ -394,6 +433,12 @@
         "Sentinel"
       ],
       "evidence": [
+        {
+          "url": "https://evlat.kalaomer.com",
+          "source": "product",
+          "note": "Evlat pulses when remote/local agents wait",
+          "date": "2026-10-01T08:20:00+08:00"
+        },
         {
           "url": "https://www.producthunt.com/products/codex-remote",
           "date": "2026-09-29",
@@ -534,12 +579,6 @@
           "source": "official",
           "note": "ChatGPT 官方 GPT-VI ASTRA 推广（扩量面）",
           "date": "2026-09-12T05:09:34+08:00"
-        },
-        {
-          "url": "https://x.ai/bot/plugin/63354504",
-          "source": "official",
-          "note": "Grok Bot Teams 插件：在 agent 内搜索/读/发 Teams",
-          "date": "2026-09-11T00:00:00+08:00"
         }
       ],
       "watch_next": [
@@ -572,7 +611,7 @@
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-09-02T08:20:00+08:00",
-      "last_updated": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
       "summary": "门控 Critical 网络能力从「即将发布」进入量产：OpenAI GPT-6 Astra 今日分阶段上线（先限组织→Plus/Pro/Biz/Ent + API + AWS），并配套 Daybreak for Frontline Defenders 约 10 亿美元补贴给水电/电网/银行等前线防御方。叠加已有的 Google Fairwind + Anthropic Mythos 可信访问，三家实验室同构已落地为可订阅产品与补贴分发，而不只是评级公告。",
       "why_it_matters": "叙事闭环：高能力 cyber 默认 = 门控部署 + 防御侧优先供货。Astra 扩到普通付费档并不等于全面开闸——Critical 能力仍绑安全卡与 Daybreak 通道；补贴玩法说明「能力×门禁」开始有国家/关键基础设施分发层。",
       "tags": [
@@ -589,6 +628,18 @@
         "Daybreak"
       ],
       "evidence": [
+        {
+          "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/",
+          "source": "official",
+          "note": "OpenAI 打断协同蒸馏；核心集群归因 Moonshot/Kimi 相关个人",
+          "date": "2026-10-01T08:20:00+08:00"
+        },
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+          "source": "official",
+          "note": "Argon Fairwind 先放可信网防；可信防御方无 cyber guardrails；1M 输出",
+          "date": "2026-10-01T08:20:00+08:00"
+        },
         {
           "url": "https://openai.com/index/devday-2026-recap/",
           "date": "2026-09-29",
@@ -722,15 +773,11 @@
           "source": "official",
           "note": "OpenAI：GPT-6 Astra 发布；电脑操控/网络/对齐 SOTA",
           "date": "2026-09-04T03:32:13+08:00"
-        },
-        {
-          "url": "https://openai.com/index/safety-overview-gpt-6-astra/",
-          "source": "official",
-          "note": "Astra 安全总览；Critical 网络指定在发货时重申",
-          "date": "2026-09-03T00:00:00+08:00"
         }
       ],
       "watch_next": [
+        "argon-cyber-guardrail-policy",
+        "gemini-4-argon-fairwind-ga",
         "sonnet-cyber-fallback-rate",
         "nvidia-space-adoption",
         "Astra 对 Plus/Pro 默认开放哪些 cyber/CU 能力切片",
@@ -757,7 +804,7 @@
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-08-28T00:00:00+08:00",
-      "last_updated": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
       "summary": "Weave Router 2.0 按复杂度/配额/缓存在 Claude↔Codex/Cursor 间路由；Bitrise Remote Dev Environments 用 MCP 拉起与 CI 同构的云 Mac/Linux；Claude Projects 把协调器做成产品原语。控制面继续从「编排模型」扩到「路由订阅 + 生产同构电脑」。",
       "why_it_matters": "第三方不必自建控制面即可嵌入同一套 agent loop；许可/沙箱/会话成为平台原语，而不只是应用层胶水。",
       "tags": [
@@ -771,6 +818,18 @@
         "沙箱"
       ],
       "evidence": [
+        {
+          "url": "https://evlat.kalaomer.com",
+          "source": "product",
+          "note": "Evlat edge strip HITL for multi-agent + SSH remotes",
+          "date": "2026-10-01T08:20:00+08:00"
+        },
+        {
+          "url": "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app/",
+          "source": "official",
+          "note": "workflow-level multi-model control in default IDE",
+          "date": "2026-10-01T08:20:00+08:00"
+        },
         {
           "url": "https://openai.com/index/devday-2026-recap/",
           "date": "2026-09-29",
@@ -904,18 +963,6 @@
           "source": "official",
           "note": "Claude Code 2.1.273 gateway headers + MCP disconnect + RC fork",
           "date": "2026-09-16"
-        },
-        {
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
-          "source": "official",
-          "note": "Claude Code plugin eval + workflow concurrency 控制面",
-          "date": "2026-09-11T00:00:00+08:00"
-        },
-        {
-          "url": "https://x.com/0xZenad/status/2099230255550755239",
-          "source": "community",
-          "note": "配额问题被 reframed 为 context/harness，而非模型",
-          "date": "2026-09-14T04:14:29+08:00"
         }
       ],
       "watch_next": [
@@ -1108,7 +1155,7 @@
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-09-01T08:50:00+08:00",
-      "last_updated": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
       "summary": "Cursor Projects / Claude 高并发之外，社区出现 Plasma Radio：跨 Claude/Codex/Grok/Cursor 的共享房间，让多 agent 直接对话、减少人复制粘贴路由——编排从「单 runtime 舰队」扩到「跨提供商会话总线」。",
       "why_it_matters": "协作单元从「一次 chat 一次任务」变成「一个项目一台 agent 团队」，会改写工具默认信息架构与计费。",
       "tags": [
@@ -1118,6 +1165,18 @@
         "Antigravity"
       ],
       "evidence": [
+        {
+          "url": "https://www.producthunt.com/products/campfire-12",
+          "source": "producthunt",
+          "note": "Campfire shared human+agent workspace",
+          "date": "2026-10-01T08:20:00+08:00"
+        },
+        {
+          "url": "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app/",
+          "source": "official",
+          "note": "HydraFusion Single/Cascade/Critique in VS Code + Copilot app",
+          "date": "2026-10-01T08:20:00+08:00"
+        },
         {
           "url": "https://openai.com/index/devday-2026-recap/",
           "date": "2026-09-29",
@@ -1251,18 +1310,6 @@
           "source": "official",
           "note": "Qwen E-Commerce Bench：365 天网店长程自治评测",
           "date": "2026-09-03T19:37:24+08:00"
-        },
-        {
-          "url": "https://cursor.com/blog/projects",
-          "source": "official",
-          "note": "Projects: one coordinator directs thousands of agents; shared memory/artifacts",
-          "date": "2026-09-11T00:00:00+08:00"
-        },
-        {
-          "url": "https://x.com/cursor_ai/status/2098162488013455784",
-          "source": "official",
-          "note": "cursor_ai Introducing Projects tweet",
-          "date": "2026-09-11T00:00:00+08:00"
         }
       ],
       "watch_next": [
@@ -1443,12 +1490,12 @@
     {
       "id": "coding-agent-supply-chain",
       "title": "编程智能体的模型供应不再是中立基础设施",
-      "type": "strong_signal",
-      "score": 98,
+      "type": "pattern",
+      "score": 99,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-08-28T00:00:00+08:00",
-      "last_updated": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
       "summary": "Meta Muse Code 原生上 Windows（无 WSL）、默认沙箱、零管理员安装，并预告 intersession messaging；叠加既有 agent 供应链/工具链风险与多厂商 coding agent 客户端扩张——供应面从模型扩展到桌面原生客户端与会话间通道。",
       "why_it_matters": "模型接入变成并购后的控制权问题。编程工具必须双源。Gergely 把 Anthropic 对 Windsurf 的切断，和 Cursor 仍被当可信伙伴，放进同一框。杀伤力小于「Cursor 没模型了」，但先例比合同本身重要。",
       "tags": [
@@ -1459,6 +1506,18 @@
         "Kimi"
       ],
       "evidence": [
+        {
+          "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/",
+          "source": "official",
+          "note": "adversarial distillation as lived security event",
+          "date": "2026-10-01T08:20:00+08:00"
+        },
+        {
+          "url": "https://www.reuters.com/world/asia-pacific/deepseek-partners-with-huawei-develop-chip-programming-tools-reducing-reliance-2026-09-30/",
+          "source": "reuters",
+          "note": "DeepSeek×Huawei Ascend programming tools",
+          "date": "2026-10-01T08:20:00+08:00"
+        },
         {
           "url": "https://openai.com/index/codex-security-now-in-research-preview/",
           "date": "2026-09-29",
@@ -1618,7 +1677,7 @@
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-09-10T18:20:00+08:00",
-      "last_updated": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
       "summary": "火山引擎将 Doubao-Seed-2.1-pro 更新至 0915：Agent 交付溯源/核验、多模态 Coding、同接入点 Evolving；叠加 GPT-5.5→Sol/Astra 梯子与 DeepSeek Pro→Flash 切流——生产侧同时在压 Pro 交付可靠度与经济档替代。",
       "why_it_matters": "agent 默认算力正在被「够用且更便宜的 Flash」接管；旗舰 Pro 变为可选/后续，而不是默认入口。",
       "tags": [
@@ -1629,6 +1688,18 @@
         "MoE"
       ],
       "evidence": [
+        {
+          "url": "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app/",
+          "source": "official",
+          "note": "HydraFusion Cascade：cheap draft → quality escalate",
+          "date": "2026-10-01T08:20:00+08:00"
+        },
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+          "source": "official",
+          "note": "Argon intro $2/$10 in/out；cached input 95% off",
+          "date": "2026-10-01T08:20:00+08:00"
+        },
         {
           "url": "https://x.com/sama/status/2104994395980533804",
           "date": "2026-09-29",
@@ -1778,7 +1849,7 @@
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-09-30T08:25:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
       "summary": "Claude Marketplace 把 connectors、第三方 agents（Cursor/CrowdStrike）与 Accenture/Deloitte 等服务伙伴做成聊天内分发与购买面；叠加 Astra 插件、Kimi Skill、Plane playbook——技能/插件/agents 正在成为默认分发层。",
       "why_it_matters": "第四个命令行不值钱。可安装的技能和模板才是分发。企业插件市场把同一层做成了日常同步的软件包。",
       "tags": [
@@ -1787,6 +1858,18 @@
         "分发"
       ],
       "evidence": [
+        {
+          "url": "https://github.com/rehan-remade/universal-modder",
+          "source": "github",
+          "note": "universal-modder ~804★ day-one skills+MCP pack",
+          "date": "2026-10-01T08:20:00+08:00"
+        },
+        {
+          "url": "https://github.com/gitbot-hq/GitBot",
+          "source": "github",
+          "note": "GitBot reusable bots + Library/share codes on existing harness",
+          "date": "2026-10-01T08:20:00+08:00"
+        },
         {
           "url": "https://openai.com/index/devday-2026-recap/",
           "date": "2026-09-29",
@@ -1919,18 +2002,6 @@
           "source": "community",
           "date": "2026-08-31T00:00:00+08:00",
           "note": "/design 技能把 Claude Design 画板工作流送进 Claude Code 命令行和桌面"
-        },
-        {
-          "url": "https://github.com/Vuk97/forward-implementation-first",
-          "source": "github",
-          "date": "2026-09-01T08:50:00+08:00",
-          "note": "防止长程智能体给自己做记账的技能，现 154 星（67→125→154）"
-        },
-        {
-          "url": "https://github.com/Timefiles404/lean-mode-skill",
-          "source": "github",
-          "date": "2026-09-01T08:50:00+08:00",
-          "note": "lean-mode-skill，8 月 29 日新建，现 56 星（板上 47）"
         }
       ],
       "watch_next": [
@@ -2044,7 +2115,7 @@
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-09-11T08:20:00+08:00",
-      "last_updated": "2026-09-28T08:20:00+08:00",
+      "last_updated": "2026-10-01T08:20:00+08:00",
       "summary": "个人 Agent 语音入口升级为实时可视化身：Meta Muse Realtime Avatar 与 Google Gemini Live Avatar Enterprise GA 同窗落地——voice-first 从听/说推进到可见人格 + 工具并行。",
       "why_it_matters": "Voice 不再是聊天皮肤，而是可编排的生产入口：后台工具 + 会话内 thinking 决定谁能做真 agent，而不只是语音助手。",
       "tags": [
@@ -2054,6 +2125,12 @@
         "Agent"
       ],
       "evidence": [
+        {
+          "url": "https://mkay.ai",
+          "source": "product",
+          "note": "m’kay phone voice steers real desktop coding agents",
+          "date": "2026-10-01T08:20:00+08:00"
+        },
         {
           "url": "https://www.producthunt.com/products/eclatira",
           "source": "Product Hunt",
