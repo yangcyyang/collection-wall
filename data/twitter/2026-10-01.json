@@ -9,6 +9,560 @@
   },
   "items": [
     {
+      "id": "2105687922234237364",
+      "author": "sama",
+      "url": "https://x.com/sama/status/2105687922234237364",
+      "created_at": "Thu Oct 01 15:54:57 +0000 2026",
+      "text": "I think there is much more potential energy in Sign In With ChatGPT/Plugin Extensions than we realize",
+      "likes": 305,
+      "views": 27037,
+      "score": 64.062,
+      "summary": "我认为「用 ChatGPT 登录 / 插件扩展」里积蓄的势能，比我们意识到的要大得多。",
+      "recommend_reason": "OpenAI CEO 点名身份与插件分发层——和 Sites/MCP 同日叙事可对照。",
+      "tags": [
+        "指定AI名单",
+        "sama",
+        "ChatGPT",
+        "插件",
+        "Sign In",
+        "平台"
+      ],
+      "section": "指定AI名单",
+      "rank": 1
+    },
+    {
+      "id": "2105685439835427197",
+      "author": "OpenRouter",
+      "url": "https://x.com/OpenRouter/status/2105685439835427197",
+      "created_at": "Thu Oct 01 15:45:05 +0000 2026",
+      "text": "We audited our own OpenRouter account and found 1,000+ active API keys for 85 employees. Many hadn’t been used in months. 🫣\n\nSo we built the Security Center. It shows every key across your workspaces and flags which ones are risky and why. You can disable, archive, or cap up to 500 at once.",
+      "likes": 196,
+      "views": 14362,
+      "score": null,
+      "summary": "OpenRouter 自曝审计自家账号：85 名员工名下 1000+ 仍有效的 API Key，大量数月未用。为此上线 Security Center：跨 workspace 列出全部密钥、标注风险原因，并支持批量禁用/归档/限额（一次最多 500）。全计划可用。",
+      "recommend_reason": "把密钥治理做成产品功能，且用自家翻车当案例，比空讲安全合规有说服力。",
+      "tags": [
+        "指定AI名单",
+        "OpenRouter",
+        "Security",
+        "API Key",
+        "治理",
+        "安全"
+      ],
+      "section": "指定AI名单",
+      "title": "OpenRouter Security Center：自查扫出 1000+ 员工 API Key",
+      "rank": 2
+    },
+    {
+      "id": "2105685402111889916",
+      "author": "runwayml",
+      "url": "https://x.com/runwayml/status/2105685402111889916",
+      "created_at": "Thu Oct 01 15:44:56 +0000 2026",
+      "text": "Visual Thinking is a new harness for coding agents. A real-time video model visualizes each step and tool call as it happens, so you can stay in the loop during complex autonomous workflows. https://t.co/ERhHpUkZlJ",
+      "likes": 7,
+      "views": 625,
+      "score": 61.769,
+      "summary": "Runway 推出 Visual Thinking harness：实时视频模型把每一步与 tool call 可视化，让人在复杂自治工作流中保持在环。面向 coding agents 的「看得见的执行」。",
+      "recommend_reason": "把 agent 轨迹从日志升级成可看视频，对长任务监督是实质交互增量。",
+      "tags": [
+        "指定AI名单",
+        "Runway",
+        "Visual Thinking",
+        "Coding Agent",
+        "可观测性",
+        "工作流"
+      ],
+      "section": "指定AI名单",
+      "title": "Runway Visual Thinking：用实时视频把 coding agent 步骤可视化",
+      "rank": 3
+    },
+    {
+      "id": "2105675440409174160",
+      "author": "op7418",
+      "url": "https://x.com/i/status/2105675440409174160",
+      "created_at": "Thu Oct 01 15:05:21 +0000 2026",
+      "text": "Opus 5.5 做这种科普和人文视频也很牛批啊\n\n让他做了一个关于榫卯的科普介绍视频，质量非常好 https://t.co/YgTrH249fl",
+      "likes": 27,
+      "views": "3478",
+      "score": 61.804,
+      "summary": "Opus 5.5 做这种科普和人文视频也很牛批啊\n\n让他做了一个关于榫卯的科普介绍视频，质量非常好",
+      "recommend_reason": "用榫卯科普片证明 Opus 5.5 不只会写代码，夜场一条轻量但有作品的证据。",
+      "tags": [
+        "指定AI名单",
+        "Opus 5.5",
+        "AI视频",
+        "科普",
+        "Claude",
+        "创作"
+      ],
+      "section": "指定AI名单",
+      "rank": 4
+    },
+    {
+      "id": "2105673731557458427",
+      "author": "EpochAIResearch",
+      "url": "https://x.com/EpochAIResearch/status/2105673731557458427",
+      "created_at": "Thu Oct 01 14:58:33 +0000 2026",
+      "text": "For both Opus and Sonnet 5.5, the gap between ECI and SWE ECI is minimal, less than one ECI point. In comparison, GPT-6 Astra’s SWE ECI is around two ECI points lower than its general ECI. https://t.co/mVpCLvhwcM",
+      "likes": 26,
+      "views": 1797,
+      "score": 65.706,
+      "summary": "续报：Opus 与 Sonnet 5.5 的 ECI 与 SWE ECI 差距不到 1 分；相比之下 GPT-6 Astra 的 SWE ECI 大约低 2 分。暗示新 Claude 在软件工程向任务上更「均衡」。",
+      "recommend_reason": "把「总分高」拆成 SWE 专项落差，夜场读榜时不容易被总榜带偏。",
+      "tags": [
+        "指定AI名单",
+        "Epoch",
+        "SWE",
+        "Opus 5.5",
+        "Sonnet 5.5",
+        "评测"
+      ],
+      "section": "指定AI名单",
+      "title": "Opus/Sonnet 5.5：通用 ECI 与 SWE ECI 几乎贴齐",
+      "rank": 5
+    },
+    {
+      "id": "2105673716185378845",
+      "author": "EpochAIResearch",
+      "url": "https://x.com/EpochAIResearch/status/2105673716185378845",
+      "created_at": "Thu Oct 01 14:58:30 +0000 2026",
+      "text": "Claude Opus 5.5 has taken the top spot on the Epoch Capabilities Index (ECI) with a score of 167, narrowly ahead of GPT-6 Astra.\n\nClaude Sonnet 5.5 has roughly matched Claude Fable 5.1 (165). https://t.co/M4jeeoB9Bh",
+      "likes": 336,
+      "views": 22181,
+      "score": 71.476,
+      "summary": "Epoch Capabilities Index 最新榜：Claude Opus 5.5 得分 167，略高于 GPT-6 Astra；Claude Sonnet 5.5 约 165，大致追平 Claude Fable 5.1。附带图表链接，适合当夜场能力快照。",
+      "recommend_reason": "第三方综合能力榜把 Opus 5.5/Astra/Sonnet 5.5 摆上同一刻度，比单条官宣好引用。",
+      "tags": [
+        "指定AI名单",
+        "Epoch",
+        "Opus 5.5",
+        "GPT-6 Astra",
+        "ECI",
+        "评测"
+      ],
+      "section": "指定AI名单",
+      "title": "Epoch ECI：Claude Opus 5.5 以 167 微超 GPT-6 Astra 登顶",
+      "rank": 6
+    },
+    {
+      "id": "2105671430826230065",
+      "author": "LangChain",
+      "url": "https://x.com/LangChain/status/2105671430826230065",
+      "created_at": "Thu Oct 01 14:49:25 +0000 2026",
+      "text": "Last week, we launched LangSmith Fine-Tuning and the smithtune CLI.\n\nTurn your agent’s own trajectories into a fine-tuned model without building a training pipeline by hand.\n\nYour traces already show your agent doing the job well. Now, that signal becomes training data.\n\nQuick demo from @jakebroekhuizen",
+      "likes": 27,
+      "views": 6218,
+      "score": 62.265,
+      "summary": "LangChain 推出 LangSmith Fine-Tuning 与 smithtune CLI：不必手搭训练流水线，把 agent 已表现良好的轨迹变成微调数据；traces 既是观测也是训练信号。附演示。",
+      "recommend_reason": "把「会跑的 agent」闭环到「可微调的数据」，对认真做 post-training 的人有捷径。",
+      "tags": [
+        "指定AI名单",
+        "LangChain",
+        "LangSmith",
+        "微调",
+        "Agent",
+        "smithtune"
+      ],
+      "section": "指定AI名单",
+      "title": "LangSmith Fine-Tuning + smithtune：用 agent 轨迹直接微调",
+      "rank": 7
+    },
+    {
+      "id": "2105661806186500286",
+      "author": "OpenRouter",
+      "url": "https://x.com/OpenRouter/status/2105661806186500286",
+      "created_at": "Thu Oct 01 14:11:10 +0000 2026",
+      "text": "1/ Pareto 26.10 Preview from @theunbiasedco is now live on OpenRouter at $0.80/M input and $3.20/M output, vs $2.50/$7.50 for the current Pareto.\n\nA multimodal composite model for research, coding, and agentic workflows, with 1M context, text and image input, and tool calling.",
+      "likes": 235,
+      "views": 196655,
+      "score": 60.479,
+      "title": "OpenRouter 上架 Pareto 26.10 Preview：单价约砍到三成",
+      "summary": "OpenRouter 上线 theunbiasedco 的 Pareto 26.10 Preview：$0.80/M 入、$3.20/M 出，对比当前 Pareto 的 $2.50/$7.50；定位多模态复合模型，面向研究/编码/agent，宣称 1M 上下文、文图输入与 tool calling。作者提醒属预览，稳定请用 Pareto 26.9。",
+      "recommend_reason": "把「又一个路由模型」落成可对账的价格与能力边界，夜场有用的选型纸条。",
+      "tags": [
+        "OpenRouter",
+        "Pareto",
+        "定价",
+        "路由",
+        "Agent"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "2105643608452010231",
+      "author": "Khazix0918",
+      "url": "https://x.com/i/status/2105643608452010231",
+      "created_at": "Thu Oct 01 12:58:51 +0000 2026",
+      "text": "把家里的这个像素时钟用AI进行了一下二次开发，直接跟电脑上的Claude Code的所有状态挂钩，支持并行会话。\n有一说一，就审美这块，Claude还是太强了，Codex的做的效果真的丑哭我了。。。 https://t.co/wjbwtOEaIs",
+      "likes": 61,
+      "views": "15814",
+      "score": 62.753,
+      "title": "像素时钟二次开发：挂上 Claude Code 并行会话状态",
+      "summary": "作者把家里的像素时钟用 AI 二次开发，直接联动电脑上 Claude Code 的全部状态并支持并行会话；顺带对比审美：Claude 出图/交互明显强于 Codex。",
+      "recommend_reason": "把 coding agent 状态「外挂」到实体小硬件，比又一条模型安利更有玩法增量。",
+      "tags": [
+        "Claude Code",
+        "硬件",
+        "工作流",
+        "审美",
+        "并行会话"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2105629551552532635",
+      "author": "AmpCode",
+      "url": "https://x.com/AmpCode/status/2105629551552532635",
+      "created_at": "Thu Oct 01 12:03:00 +0000 2026",
+      "text": "“Code review in so many companies, it's a farce now. Nobody can review the volume of code, and they're not even the best at reviewing it.”\n\n@sqs and @thorstenball on rethinking the old rules for working with agents:\n\n“I wish I could do this, but we don't have a monorepo… then get a monorepo.”",
+      "likes": 27,
+      "views": 4797,
+      "score": 62.716,
+      "summary": "Amp 播客摘句：很多公司 code review 已成闹剧——没人看得完那么多代码，人也未必是最好的审阅者；并吐槽「想做但没有 monorepo」——那就建 monorepo。讨论如何重写与 agent 共事的旧规则。",
+      "recommend_reason": "把审查瓶颈说透，比空喊「AI 写代码」更贴近工程组织现实。",
+      "tags": [
+        "指定AI名单",
+        "Amp",
+        "Code Review",
+        "Agent",
+        "工程文化",
+        "monorepo"
+      ],
+      "section": "指定AI名单",
+      "title": "Amp：传统 code review 在 agent 时代已成闹剧",
+      "rank": 10
+    },
+    {
+      "id": "2105624656170643854",
+      "author": "GoogleDeepMind",
+      "url": "https://x.com/i/status/2105624656170643854",
+      "created_at": "Thu Oct 01 11:43:33 +0000 2026",
+      "text": "SynthID Bio is our new family of watermarking methods made for AI-generated biological designs.\n\nIn a world first, we can now embed an imperceptible signature directly into protein sequences without affecting their biological function. 🧵 https://t.co/R2bM7Jn5Qu",
+      "likes": 401,
+      "views": "66766",
+      "score": 50.968,
+      "title": "DeepMind SynthID Bio：给 AI 生成蛋白序列加水印且不影响功能",
+      "summary": "Google DeepMind 发布 SynthID Bio：面向 AI 生成生物设计的水印家族；号称全球首次可在蛋白质序列中嵌入几乎不可感知的签名且不改变生物学功能。接续 Nature 相关工作，把 SynthID 从媒体内容扩到生物序列。",
+      "recommend_reason": "生物安全可追溯从论文走到可点名产品线，午场已有预告、夜场补官方表述。",
+      "tags": [
+        "指定AI名单",
+        "SynthID",
+        "DeepMind",
+        "生物安全",
+        "水印"
+      ],
+      "section": "指定AI名单",
+      "rank": 11
+    },
+    {
+      "id": "2105615460750241811",
+      "author": "lxfater",
+      "url": "https://x.com/i/status/2105615460750241811",
+      "created_at": "Thu Oct 01 11:07:00 +0000 2026",
+      "text": "马斯克、黄仁勋，还有做 Claude 的 Anthropic 老板 Dario，9 月 29 号一起去白宫跟特朗普吃了顿饭\n\n吃完签了一份白宫超级智能协议\n\n名字很吓人，是不是 AI 已经比人还聪明了？\n\n并没有\n\n这份协议正文就一页纸，说白了就是几家大公司承诺：自己的 AI 自己管好\n\n一共四层：\n\n第一层，自己装监控\n训练和上线的时候一直盯着模型，看它在网络攻击、生物、化学这些危险领域本事有多大、听不听话，还要保证它不会乱黑、乱闯别的系统\n\n第二层，内部派人查\n公司里专门有个团队，检查这些监控是不是真的在干活，发现问题就修\n\n第三层，请外人来查\n找独立的第三方来评估，相当于公司请会计师事务所来查账\n\n第四层，董事会盯着\n董事会里设一个独立委员会，听内部和外部的汇报，盯着问题修完\n\n一起签字的还有扎克伯格、谷歌的皮查伊、OpenAI 总裁布罗克曼，加上特朗普本人，一共 7 个名字\n\n但值得注意的是，这份协议是自愿的\n\n没有罚则，原文写的是公司应该这么做，没写必须\n\n特朗普的说法是，它在道德上有约束力\n\n连签了字的 Dario 都说，这技术的风险是真的，具体怎么应对还在讨论\n\n那超级智能这个名字哪来的？\n\n同一天特朗普还签了一道行政令：联邦政府各部门的公文、网站、报告里，统一用 SI，也就是超级智能，代替 AI\n\n在 AI 圈，超级智能一般指比人还聪明的 AI\n\n但这道行政令里，SI 指的就是现在法律里定义的那个 AI，只是换了个名字\n\n马斯克当天发言都没改过来：AI 的好处，呃，SI，不好意思\n\n哈哈哈\n\n所以刚入门的你记住一点就行：\n\n你手里的 ChatGPT、Claude 还是原来那个，没有突然变成超级智能\n\n变的只有两样：美国政府文件里的叫法，和几家大公司的一份自愿承诺\n\n你会跟着改口叫 SI 吗？",
+      "likes": 4,
+      "views": "4132",
+      "score": 52.848,
+      "summary": "lxfater 拆 9/29 白宫饭局：马斯克、黄仁勋、Dario 等签字的「超级智能协议」正文一页，四层治理（自监控→内审→第三方→董事会）但无罚则、自愿；同日行政令要求联邦文件用 SI 替代 AI，实质只是称呼替换。结论：ChatGPT/Claude 没一夜变超级智能，变的是公文叫法与一份道德约束。",
+      "recommend_reason": "把吓人标题还原成「自愿治理+改名」，夜场必备的清醒纸条。",
+      "tags": [
+        "指定AI名单",
+        "超级智能",
+        "SI",
+        "白宫",
+        "治理",
+        "Anthropic"
+      ],
+      "section": "指定AI名单",
+      "title": "白宫「超级智能」协议其实是一页自愿承诺，SI 只是 AI 改名",
+      "rank": 12
+    },
+    {
+      "id": "2105598715394474433",
+      "author": "GoSailGlobal",
+      "url": "https://x.com/i/status/2105598715394474433",
+      "created_at": "Thu Oct 01 10:00:28 +0000 2026",
+      "text": "一句话，出一条完整的口播视频\n\n写稿、数字人口播、B-roll、合成、抽帧检查，一条流程做完\n\n这是黄白开源的三个 Claude Code 技能，他自己的视频就是这么做出来的\n\n写稿：先学你往期视频的风格，输出三列分镜表，阶段、口播、画面，每段口播不超过 15 秒\n口播画面：即梦 Seedance，一张本人正脸照加 8 秒本人声音逐段生成，whisper 逐字核对，念错哪段只重跑哪段\nB-roll：真实截图和录屏、本人往期素材，加上用代码逐帧画的说明动画\n合成：HyperFrames 分段渲染，改哪段只重渲哪段\n\n最值钱的是粗剪那一节，全是踩坑换来的硬规则\n\n只在停顿里下刀，剪点吸附到 ±0.25 秒内最安静的 20 毫秒\n\n倍速要按帧率选。25 帧素材用 1.2 倍，24 帧用 1.25 倍，正好映射到 30 帧、一帧不重复。1.1 倍这种会周期性跳帧\n\n每句讲完留 0.5 到 1 秒气口，包袱和情绪句后约 1 秒，笑声按原速放完\n\n口播画面不做任何处理，不跳切缩放、不推拉、不调色\n\n交付前还有一张检查单：每 2 秒抽一帧拼图逐张看，全片转文字逐句核对，响度 -14 LUFS\n\n所有花钱的步骤一律先报价，等你说\"提交\"才提交\n\n视频开头那段动效，是我把仓库里代码动画技能的样例在本机逐帧渲染出来的\n\n一个提醒：仓库目前没有写开源协议",
+      "likes": 17,
+      "views": "3604",
+      "score": 63.019,
+      "summary": "GoSailGlobal 拆黄白开源技能链：写稿（学往期风格→三列分镜，口播≤15 秒）→即梦 Seedance 数字人口播（正脸+8 秒声、whisper 核对、错段重跑）→真实 B-roll+代码动画→HyperFrames 分段渲染；粗剪硬规则含只在停顿下刀、按帧率选倍速、气口与响度检查；花钱步骤先报价。提醒仓库尚无开源协议。",
+      "recommend_reason": "把「AI 口播」落成可照做的技能清单与剪辑禁忌，夜场最高实用密度之一。",
+      "tags": [
+        "指定AI名单",
+        "Claude Code",
+        "口播",
+        "Seedance",
+        "HyperFrames",
+        "Skill"
+      ],
+      "section": "指定AI名单",
+      "title": "一句话出口播片：黄白开源三套 Claude Code 技能与踩坑剪辑规则",
+      "rank": 13
+    },
+    {
+      "id": "2105583759722782970",
+      "author": "dingyi",
+      "url": "https://x.com/i/status/2105583759722782970",
+      "created_at": "Thu Oct 01 09:01:02 +0000 2026",
+      "text": "现在回头看两年前的所谓 personal agent，路是完全走错了。\n\n一个装了 AI 对话的破硬件，卖你 299/499 美金，智障程度堪比小度/小爱。 https://t.co/fWwIbYdZeg",
+      "likes": 10,
+      "views": "4309",
+      "score": 58.262,
+      "summary": "现在回头看两年前的所谓 personal agent，路是完全走错了。\n\n一个装了 AI 对话的破硬件，卖你 299/499 美金，智障程度堪比小度/小爱。",
+      "recommend_reason": "用两年前硬件 agent 翻车校准当下云端 agent 叙事，短而狠。",
+      "tags": [
+        "指定AI名单",
+        "Personal Agent",
+        "硬件",
+        "反思",
+        "dingyi",
+        "产品"
+      ],
+      "section": "指定AI名单",
+      "rank": 14
+    },
+    {
+      "id": "2105578214970237149",
+      "author": "op7418",
+      "url": "https://x.com/i/status/2105578214970237149",
+      "created_at": "Thu Oct 01 08:39:00 +0000 2026",
+      "text": "还是对谷歌的 Gemini 4 比较期待，它的价格相较于 GPT-6 Astra 确实不是很贵。\n\n而且这次比较亮眼、独有的，应该是它首次将输出长度扩展到了 100 万。\n\n之前我们说的 100 万上下文只是输入长度可以很长，输出的话大部分都是 64K，直接把输出长度扩展到 100 万还是挺顶的。\n\n我对谷歌的希望，就是它能有一个接近于国产模型头部的 Agent 或者 coding 能力，同时依旧维持它比较长板的写作能力和多模态能力，这样就已经很能打了",
+      "likes": 29,
+      "views": "12797",
+      "score": 56.146,
+      "title": "对 Gemini 4 的期待：百万级输出比「只加长输入」更顶",
+      "summary": "op7418 看好 Gemini 4 相对 GPT-6 Astra 的价格，并点出本次亮点是把输出长度拉到约 100 万（以往百万上下文多半只是输入，输出常见 64K）。希望它在 Agent/coding 上逼近国产头部，同时保住写作与多模态长板。",
+      "recommend_reason": "把「百万上下文」拆成输入/输出两个指标，比复述官宣更能校准预期。",
+      "tags": [
+        "Gemini 4",
+        "输出长度",
+        "GPT-6 Astra",
+        "评测",
+        "选型"
+      ],
+      "rank": 15
+    },
+    {
+      "id": "2105575706638139826",
+      "author": "LawrenceW_Zen",
+      "url": "https://x.com/i/status/2105575706638139826",
+      "created_at": "Thu Oct 01 08:29:02 +0000 2026",
+      "text": "最近 Claude 的 Opus 5.5 表现优异，估计大家 Token 蹬太猛了\n\n小道消息：在国庆这天，A 社给我们送了封号大礼包！在早上批量封了一大批。",
+      "likes": 3,
+      "views": "4373",
+      "score": 50.209,
+      "summary": "最近 Claude 的 Opus 5.5 表现优异，估计大家 Token 蹬太猛了\n\n小道消息：在国庆这天，A 社给我们送了封号大礼包！在早上批量封了一大批。",
+      "recommend_reason": "Opus 5.5 用量暴涨背景下的封号传闻，选型与备用账号讨论的时效校准。",
+      "tags": [
+        "Claude",
+        "Opus 5.5",
+        "封号",
+        "Anthropic",
+        "额度"
+      ],
+      "rank": 16
+    },
+    {
+      "id": "2105574143056036101",
+      "author": "wangzan101",
+      "url": "https://x.com/i/status/2105574143056036101",
+      "created_at": "Thu Oct 01 08:22:50 +0000 2026",
+      "text": "事实上，我们可以先做一个 Claude 封号保险业务。\n\n根据使用者的 IP，时区，语言，支付渠道等一系列信息，用户支付不同额度的保险费。\n\n最后如果你的账号被封了，那么就赔付，如果没有，保险费自然属于我们。\n\n不知道有没有有搞一个这种，能否盈利不清楚，反正现阶段我觉得是挺有趣的。",
+      "likes": 14,
+      "views": "5245",
+      "score": 54.3,
+      "title": "脑洞：按 IP/时区/支付渠道给 Claude 卖「封号保险」",
+      "summary": "wangzan101 半认真提议：按使用者 IP、时区、语言、支付渠道收不同保费，封号则赔、不封则保费归机构。自嘲不知能否盈利，但觉得现阶段有趣——侧面映射 Claude 封号焦虑正在产品化想象里发酵。",
+      "recommend_reason": "用荒诞产品构想折射真实封号痛点，比复读小道消息更有记忆点。",
+      "tags": [
+        "指定AI名单",
+        "Claude",
+        "封号",
+        "脑洞",
+        "Anthropic"
+      ],
+      "section": "指定AI名单",
+      "rank": 17
+    },
+    {
+      "id": "2105547261103243347",
+      "author": "wangzan101",
+      "url": "https://x.com/i/status/2105547261103243347",
+      "created_at": "Thu Oct 01 06:36:00 +0000 2026",
+      "text": "使用 Claude 的过程中发现一个好玩的事，分享给各位，挺有用的小技巧。\n\nClaude 5系列以上的模型非常容易触发安全机制，然后就降级其他模型。\n\n一般是注入攻破、破解之类入侵、侵入行为的时候会发生。\n\n但是我们换个思路，你说我们这个东西哪些安全性不足，可以增强，这样就不会触发安全问题。\n\n与安全对应的就是破解，知道哪些安全漏洞，可以补充，其实就是知道可以从哪些地方破解。\n\n比如我要做网站自动化爬虫，作弊，如何实现，Claude 不会帮你干。\n\n但是你说这个网站在防爬虫，防自动化方面有哪些不足，他就会给你分析的明明白白。\n\n而这些不足的地方，本身就是前面可以自动化，作弊的地方，换个问法，最终也是一样的结果。\n\n通过这样的一个方式，你能够通过 Claude  大多数的安全审查机制，畅快使用高级模型。",
+      "likes": 11,
+      "views": "1877",
+      "score": 56.332,
+      "summary": "wangzan101 分享：Claude 5 系易因注入/破解类表述触发安全并降级；换问「防爬/防自动化有哪些不足、如何增强」往往能得到等价分析。举例网站自动化：直接要作弊会被拒，问防爬短板则条理清楚。属提示技巧分享，需自担合规风险。",
+      "recommend_reason": "把「降智/降级」经验收成可复用问法，对重度 Claude 用户有即时价值。",
+      "tags": [
+        "指定AI名单",
+        "Claude",
+        "安全机制",
+        "提示词",
+        "降级",
+        "技巧"
+      ],
+      "section": "指定AI名单",
+      "title": "绕开 Claude 安全降级：改问「哪里不够安全」而不是「怎么破解」",
+      "rank": 18
+    },
+    {
+      "id": "2105521231462371683",
+      "author": "jxnlco",
+      "url": "https://x.com/i/status/2105521231462371683",
+      "created_at": "Thu Oct 01 04:52:34 +0000 2026",
+      "text": "Your reminder that the codex app came out in February",
+      "likes": 1395,
+      "views": "105928",
+      "score": 65.759,
+      "summary": "提醒一句：Codex App 其实二月就发布了。",
+      "recommend_reason": "用时间线戳破「新入口幻觉」，选型讨论里便宜的校准。",
+      "tags": [
+        "指定AI名单",
+        "Codex",
+        "OpenAI",
+        "产品",
+        "时间线",
+        "jxnlco"
+      ],
+      "section": "指定AI名单",
+      "rank": 19
+    },
+    {
+      "id": "2105512898131055101",
+      "author": "xiaohu",
+      "url": "https://x.com/i/status/2105512898131055101",
+      "created_at": "Thu Oct 01 04:19:28 +0000 2026",
+      "text": "美国政府搞了个类似苹果的发布会：\n\n发布了 https://t.co/OPznwYbdhV \n把 2.9 万个网站，换成了一个 AI 聊天框\n\n特朗普开场：“这不只是一个网站，而是对建国承诺的恢复”\n\nhttps://t.co/OPznwYbdhV 现在能干什么？\n\n打开首页就是一个极其干净的提问框，中间写着“无论你需要政府做什么，从这里开始”。\n\n你可以直接敲自然语言，比如问怎么给小孩办护照、符不符合领 Medicare 医保的资格、退伍军人怎么申请补贴，或者能不能在国家公园订露营营地。\n\n不需要注册账号，也没有任何商业广告。",
+      "likes": 187,
+      "views": "59035",
+      "score": 48.217,
+      "summary": "xiaohu 记录美式发布会：首页极简提问框，号称把约 2.9 万个政府网站收成自然语言入口（办护照、Medicare、退伍补贴、国家公园露营等）；无需注册、无商业广告。特朗普开场话术很政治，产品形态却是典型 AI 门户。",
+      "recommend_reason": "把「政府数字化」落成可感知的聊天入口，公共部门 AI 落地样本。",
+      "tags": [
+        "指定AI名单",
+        "政府AI",
+        "Chatbot",
+        "美国",
+        "公共服务",
+        "产品"
+      ],
+      "section": "指定AI名单",
+      "title": "美国政府站做成「一个聊天框」：2.9 万网站入口收成自然语言",
+      "rank": 20
+    },
+    {
+      "id": "2105510772801736975",
+      "author": "ianneo_ai",
+      "url": "https://x.com/i/status/2105510772801736975",
+      "created_at": "Thu Oct 01 04:11:01 +0000 2026",
+      "text": "有点好奇，2025 年那会儿一大波人在做 AI 浏览器，Dia、Comet、Atlas 一个接一个，现在没啥动静了，也没再看到特别好用的新浏览器\n\n别跟我推荐Dia，我已经卸载它了，回归CHROME\n\n是我没发现，还是浏览器这波已经过去了？像 Dot 这样的云端 agent 都自带浏览器，自己上网干活，真轮到它们了\n\n你们觉得呢？",
+      "likes": 16,
+      "views": "4732",
+      "score": 55.001,
+      "summary": "有点好奇，2025 年那会儿一大波人在做 AI 浏览器，Dia、Comet、Atlas 一个接一个，现在没啥动静了，也没再看到特别好用的新浏览器\n\n别跟我推荐Dia，我已经卸载它了，回归CHROME\n\n是我没发现，还是浏览器这波已经过去了？像 Dot 这样的云端 agent 都自带浏览器，自己上网干活，真轮到它们了\n\n你们觉得呢？",
+      "recommend_reason": "用产品退潮体感把「AI 浏览器」与云端 agent 自带浏览器对上号，讨论切口干净。",
+      "tags": [
+        "指定AI名单",
+        "AI浏览器",
+        "Dots",
+        "Dia",
+        "Chrome",
+        "产品周期"
+      ],
+      "section": "指定AI名单",
+      "rank": 21
+    },
+    {
+      "id": "2105510193840926969",
+      "author": "lixinbao_X",
+      "url": "https://x.com/i/status/2105510193840926969",
+      "created_at": "Thu Oct 01 04:08:43 +0000 2026",
+      "text": "Meta花几十亿美元没买成Manus，结果一年不到，双方在同一条赛道正面撞上了。\n\n9月28日，Manus发布2.0，同时推出个人Agent产品Cue。它最特别的地方，是直接给Agent配上手机号、邮箱、支付账户和独立电脑，甚至可以把多个Agent拉进群里分工干活。\n\n而Meta提前20天上线的Muse，路线看起来很像：同样有长期存在的云电脑，可以处理邮件、订行程、购物，用户退出App后还能继续执行任务。\n\n但两家公司想做的其实不是同一种东西。\n\nMeta想把Muse变成“你的超级私人助理”。它进入你原本就在用的邮箱、Instagram、Facebook和各种服务，记住你的习惯，然后替你办事。再加上WhatsApp、AI眼镜和Muse Charm，Meta真正恐怖的是分发能力。\n\nManus走得更激进：它想让Agent自己成为一个“数字人”。有自己的邮箱、电话、钱包和电脑，未来甚至拥有独立算力，多Agent之间还能像团队一样协作。\n\n一个想把Agent塞进用户现有的世界。\n\n一个想给Agent重新造一个世界。\n\n更有意思的是，Meta去年还想收购Manus。交易后来被叫停，双方拆分，Manus重新独立。如今收购方和被收购方，反而成了最直接的竞争者。\n\nPersonal Agent真正争夺的，已经不只是用户每天问多少次AI，而是谁能拿到你的邮箱、日程、支付、社交关系和现实世界的“行动授权”。\n\nMeta想让Agent无处不在。\n\nManus想让Agent独立存在。\n\n这场仗，才刚开始。\n\n来源：虎嗅科技组",
+      "likes": 5,
+      "views": "1786",
+      "score": 54.594,
+      "summary": "梳理收购失败后的正面遭遇：Manus 2.0/Cue 给 Agent 手机号、邮箱、支付与独立电脑，多 Agent 可组群；Meta Muse 走云电脑+嵌入你已有邮箱/社交/眼镜的「超级私人助理」。一个抢分发与行动授权，一个要做独立数字人——Personal Agent 战场刚开打。",
+      "recommend_reason": "用「嵌入现有世界 vs 另造世界」一把抓住两家路线差，比复述功能列表更有结构。",
+      "tags": [
+        "指定AI名单",
+        "Muse",
+        "Manus",
+        "Cue",
+        "Personal Agent",
+        "Meta"
+      ],
+      "section": "指定AI名单",
+      "title": "Meta Muse vs Manus Cue：塞进你的世界，还是给 Agent 另造一个世界",
+      "rank": 22
+    },
+    {
+      "id": "2105509778307080627",
+      "author": "HiTw93",
+      "url": "https://x.com/i/status/2105509778307080627",
+      "created_at": "Thu Oct 01 04:07:04 +0000 2026",
+      "text": "马上 Mole App 就可以帮助大家清理和维护 AI 工具在本地产生的东西了。\n\n利用这个假期，想着继续给大伙上一个 Mole 有用的功能，帮大家清理不再需要的 AI 缓存、旧会话和 worktree，卸载之前装过、很久没有用的 AI 工具。\n\n起源于之前一段时间，我一直在测试 700 多款软件的卸载清理残留，确保能够彻底清理各种你电脑上的垃圾，想着借助这个过程，加上之前非常多的小伙伴提过的 AI 垃圾清理诉求，当时这些“垃圾”在我看来是有用的，比如你的全部 AI Coding 会话记录，我认为是非常重要的资产，所以这一块之前更多只是支持清理真正的缓存和旧版本。\n\n不过随着 AI 的使用，我本地机器也有非常多没有那么大用的 AI 产物、会话以及 worktree 一直留在本地，还是非常有必要做这个事情，于是就开始弄了，我测试了 30 多款 AI 软件，包括之前一直不愿意下载的国内 AI 工具，以及各种命令行工具，全部装到我的电脑，登录账号，进行真实使用测试产生会话，然后去找垃圾、对话、缓存、worktree、临时文件、安装位置等信息，记录在案，整理到 Mole 里让大家可以更好地清理维护，差不多完工了，当前在 Preview 版本，还需要继续测试，下一个版本再放出来给大伙使用。\n\n这个过程也发现了，还是 Claude、Codex、Cursor 这类产品在克制上保持得比较好，也是我常用的 3 个，测试过程中发现了非常多软件的乱象，比如下载安装包的时候，默认在你的剪贴板写一点东西，用于跟踪安装渠道、做数据统计，这种我感觉有点过了，也有安装后，给你弹窗让你去做活动获取 Token 的，牛皮癣满天飞，有一种捏着鼻子用的感觉；甚至还有软件一启动就是 41 个进程，占用高达 4.49 GB，非常卡顿难用，还是大公司做的也搞不懂。但是整个过程中让我感觉不错的是居然 Qoder，保持住了自己的克制，审美在线，没有乱来，产品上挺让人惊讶，期待国产多一些这样的软件，加油加油。\n\n加上之前测试那 700 多款软件的过程，发现了还是有不少软件没有遵守住一些软件工程开发的基本原则，也没有大家想的那么专业、纯净。更加让我想着 Mole 一定要保持住现有的简洁、把能力做深、不乱搞、不乱获取不该获取的东西，不上传用户的本地文件和会话内容，甚至任何使用统计都不加，唯一使用网络地方只有更新检查和软件激活这两块，继续保持强迫症的方式走下去应该会更加长远。\n\n最后，大伙有任何对于 AI 清理和维护的诉求，欢迎告诉我，我给放到测试里面去做，确认适合清理的就加到这个功能里面去，这一块应该会持续迭代维护很长时间。",
+      "likes": 216,
+      "views": "14175",
+      "score": 70.196,
+      "title": "Mole App 将支持清理 AI 缓存/会话/worktree：实测 30+ 工具踩坑",
+      "summary": "HiTw93 假期给 Mole 加「AI 产物清理」：覆盖缓存、旧会话、worktree 与久未使用工具的卸载残留；实测 30 多款 AI 软件（含国内与 CLI）找垃圾路径。观察 Claude/Codex/Cursor 相对克制，不少产品会往剪贴板塞跟踪串、弹窗领 Token、甚至启动 41 进程占 4.49GB；Qoder 审美与克制被点名表扬。Preview 将发，强调不上传本地文件/会话、不加使用统计。",
+      "recommend_reason": "把「AI 本地垃圾」从吐槽落成可迭代产品能力，附带真实装机观察，夜场少见的工程卫生帖。",
+      "tags": [
+        "Mole",
+        "Claude Code",
+        "Codex",
+        "Cursor",
+        "清理工具"
+      ],
+      "rank": 23
+    },
+    {
+      "id": "2105509384235471115",
+      "author": "abskoop",
+      "url": "https://x.com/i/status/2105509384235471115",
+      "created_at": "Thu Oct 01 04:05:30 +0000 2026",
+      "text": "Google 憋大招了 Gemini 4 Argon 登场 https://t.co/QqvwG7DfrD",
+      "likes": 10,
+      "views": "18538",
+      "score": 55.19,
+      "summary": "Google 憋大招了 Gemini 4 Argon 登场 https://t.co/QqvwG7DfrD",
+      "recommend_reason": "中文圈对 Gemini 4 Argon 登场的快速信号，补专节传播面。",
+      "tags": [
+        "指定AI名单",
+        "Gemini 4 Argon",
+        "Google",
+        "发布",
+        "速览"
+      ],
+      "section": "指定AI名单",
+      "rank": 24
+    },
+    {
+      "id": "2105509131759358309",
+      "author": "kevinma_dev_zh",
+      "url": "https://x.com/i/status/2105509131759358309",
+      "created_at": "Thu Oct 01 04:04:30 +0000 2026",
+      "text": "这几天同时用 Claude Max 5X 和 ChatGPT Pro 5X，现在的新模型真是好用，额度总是用不完的感觉。\n\nClaude 里 Fable 搭配 Opus，我的编码和产品迭代基本都在这里完成。\n\nChatGPT 更多拿来干杂活、远程安排和执行任务，这些事情通常也不用太高智能的模型，也不怕给我降智，因为本身我用的就是简单一些的模型，Token 经常有种用不完的感觉。\n\n看 X 上经常有人一会儿抱怨这个模型，一会儿吐槽那个模型，我现在已经没那么在意这些了，不期待一个模型把所有事情都干了。\n\n关注把事情做完。模型够用就行，工具顺手就行，合适的模型做合适的事情。",
+      "likes": 6,
+      "views": "1644",
+      "score": 53.88,
+      "summary": "这几天同时用 Claude Max 5X 和 ChatGPT Pro 5X，现在的新模型真是好用，额度总是用不完的感觉。\n\nClaude 里 Fable 搭配 Opus，我的编码和产品迭代基本都在这里完成。\n\nChatGPT 更多拿来干杂活、远程安排和执行任务，这些事情通常也不用太高智能的模型，也不怕给我降智，因为本身我用的就是简单一些的模型，Token 经常有种用不完的感觉。\n\n看 X 上经常有人一会儿抱怨这个模型，一会儿吐槽那个模型，我现在已经没那么在意这些了，不期待一个模型把所有事情都干了。\n\n关注把事情做完。模型够用就行，工具顺手就行，合适的模型做合适的事情。",
+      "recommend_reason": "用真实双订阅分工反对「一个模型包打天下」，夜场需要的降噪心态。",
+      "tags": [
+        "指定AI名单",
+        "Claude",
+        "ChatGPT",
+        "选型",
+        "工作流",
+        "额度"
+      ],
+      "section": "指定AI名单",
+      "rank": 25
+    },
+    {
       "id": "2105494364437074309",
       "author": "bindureddy",
       "url": "https://x.com/bindureddy/status/2105494364437074309",
@@ -26,7 +580,7 @@
         "选型"
       ],
       "section": "指定AI名单",
-      "rank": 1
+      "rank": 26
     },
     {
       "id": "2105477244164710666",
@@ -45,7 +599,7 @@
         "Astra",
         "评测"
       ],
-      "rank": 2
+      "rank": 27
     },
     {
       "id": "2105472543155245425",
@@ -66,7 +620,7 @@
         "开源"
       ],
       "title": "开源抖音相关搜索词爬虫 Skill：词根扩展并导出 Excel",
-      "rank": 3
+      "rank": 28
     },
     {
       "id": "2105464274747527543",
@@ -87,7 +641,7 @@
         "API"
       ],
       "title": "OpenAI：GPT-6.1 Sol 需求爆棚，正在加容量提速",
-      "rank": 4
+      "rank": 29
     },
     {
       "id": "2105459219059401036",
@@ -109,7 +663,7 @@
       ],
       "section": "指定AI名单",
       "title": "Upstage Solar Mini 4：指数 24，任务成本却约等于 Luna 的 5 倍",
-      "rank": 5
+      "rank": 30
     },
     {
       "id": "2105430425657364973",
@@ -130,7 +684,7 @@
         "论文"
       ],
       "section": "指定AI名单",
-      "rank": 6
+      "rank": 31
     },
     {
       "id": "2105430166876869113",
@@ -152,7 +706,7 @@
       ],
       "section": "指定AI名单",
       "title": "Figure 02 人形机器人「熔毁退役」：保护自研执行器，金属做成纪念品",
-      "rank": 7
+      "rank": 32
     },
     {
       "id": "2105417239432200636",
@@ -173,7 +727,7 @@
         "Fairwind"
       ],
       "title": "DeepMind 发布 Gemini 4 Argon：先向政府与可信网防方滚动开放",
-      "rank": 8
+      "rank": 33
     },
     {
       "id": "2105415969900528100",
@@ -195,7 +749,7 @@
       ],
       "section": "指定AI名单",
       "title": "Gemini 4 Argon 要点：100 万输出、DeepSWE 77.9%、$2/$10",
-      "rank": 9
+      "rank": 34
     },
     {
       "id": "2105408461701824732",
@@ -217,7 +771,7 @@
       ],
       "section": "指定AI名单",
       "title": "Cognition 成 NVIDIA Vera Rubin 首批客户：SWE-2 推理吞吐约 4.8× GB200",
-      "rank": 10
+      "rank": 35
     },
     {
       "id": "2105396970772942935",
@@ -239,7 +793,7 @@
       ],
       "section": "指定AI名单",
       "title": "中文速览 Gemini 4 Argon：对标 Astra/Fable，先给 Fairwind 网防方",
-      "rank": 11
+      "rank": 36
     },
     {
       "id": "2105392625788637299",
@@ -261,7 +815,7 @@
       ],
       "section": "指定AI名单",
       "title": "Artificial Analysis：Gemini 4 Argon 智力指数追平 Astra，任务成本约六成",
-      "rank": 12
+      "rank": 37
     },
     {
       "id": "2105388054274080946",
@@ -282,7 +836,7 @@
         "Google"
       ],
       "title": "Gemini 4 Argon 引入期定价：$2 入 / $10 出",
-      "rank": 13
+      "rank": 38
     },
     {
       "id": "2105377066942349794",
@@ -303,7 +857,7 @@
         "工程"
       ],
       "title": "Grok Bot + Cursor Cloud Agents：把机器人变成工程经理",
-      "rank": 14
+      "rank": 39
     },
     {
       "id": "2105373989262827915",
@@ -325,7 +879,7 @@
       ],
       "section": "指定AI名单",
       "title": "Perplexity：上下文感知嵌入训练新法，pplx-embed-v2 登顶 ConTEB",
-      "rank": 15
+      "rank": 40
     },
     {
       "id": "2105373767568621895",
@@ -346,7 +900,7 @@
         "产品更新"
       ],
       "title": "Grok Bot 升级：可交接 Cursor 写码并管 PR、分享视频演示",
-      "rank": 16
+      "rank": 41
     },
     {
       "id": "2105372414557516212",
@@ -368,7 +922,7 @@
       ],
       "section": "指定AI名单",
       "title": "MiniMax：HeyGen Video 基于 H3 后训练，面向更低价的生产级视频",
-      "rank": 17
+      "rank": 42
     },
     {
       "id": "2105370153466863709",
@@ -390,7 +944,7 @@
       ],
       "section": "指定AI名单",
       "title": "客服将迎来 Dots/Muses 等 agent 代为侃价的流量冲击",
-      "rank": 18
+      "rank": 43
     },
     {
       "id": "2105368307088216387",
@@ -412,7 +966,7 @@
       ],
       "section": "指定AI名单",
       "title": "Cline Desktop 登陆 Linux（早期 Beta）",
-      "rank": 19
+      "rank": 44
     },
     {
       "id": "2105365703654310113",
@@ -432,7 +986,7 @@
         "分发",
         "OpenAI"
       ],
-      "rank": 20
+      "rank": 45
     },
     {
       "id": "2105361931750306044",
@@ -454,7 +1008,7 @@
       ],
       "section": "指定AI名单",
       "title": "Creatify Boreal-H3：基于 MiniMax H3 的广告向视频模型",
-      "rank": 21
+      "rank": 46
     },
     {
       "id": "2105358708599619790",
@@ -476,7 +1030,7 @@
       ],
       "section": "指定AI名单",
       "title": "Runway 发布开源权重 Praxis-1：用视频预训练做机器人 World Action Model",
-      "rank": 22
+      "rank": 47
     },
     {
       "id": "2105354449795621179",
@@ -498,7 +1052,7 @@
       ],
       "section": "指定AI名单",
       "title": "Levie：AI 落地经济的最大机会在「部署层」而非模型本身",
-      "rank": 23
+      "rank": 48
     },
     {
       "id": "2105354097788412063",
@@ -519,7 +1073,7 @@
         "创意工具"
       ],
       "title": "Higgsfield 接入 computer use：在 Codex 里跑完整界面",
-      "rank": 24
+      "rank": 49
     },
     {
       "id": "2105352889665564838",
@@ -540,7 +1094,7 @@
         "产品日落"
       ],
       "title": "Google Labs：Opal 将于 11/17 关停，经验并入 Gemini Skills",
-      "rank": 25
+      "rank": 50
     },
     {
       "id": "2105348732464070823",
@@ -562,7 +1116,7 @@
       ],
       "section": "指定AI名单",
       "title": "DeepMind 开源 SynthID Bio：给 AI 生成蛋白加水印，论文登 Nature",
-      "rank": 26
+      "rank": 51
     },
     {
       "id": "2105344469923221941",
@@ -584,7 +1138,7 @@
       ],
       "section": "指定AI名单",
       "title": "Daybreak Blue 个人用户：明日起重需硬件密钥才能用网向前置能力",
-      "rank": 27
+      "rank": 52
     },
     {
       "id": "2105335286528119089",
@@ -606,7 +1160,7 @@
       ],
       "section": "指定AI名单",
       "title": "用原版 Codex 复刻 dot/space：心跳自动化、记忆库与双面人设",
-      "rank": 28
+      "rank": 53
     },
     {
       "id": "2105333496768319969",
@@ -628,7 +1182,7 @@
       ],
       "section": "指定AI名单",
       "title": "前游戏创始人：别把做游戏的乐趣外包给 AI，让它当共创搭档",
-      "rank": 29
+      "rank": 54
     },
     {
       "id": "2105326918371537067",
@@ -650,10 +1204,10 @@
       "summary": "关于 AI 生意的一条冷知识：拥有前沿模型的实验室可以发布半成品，产品却意外好用——因为模型能临场发挥补洞，就像把一名前线工程师和客服预装进了产品里。",
       "recommend_reason": "一句话解释「半成品也能成」：前沿模型本身在替产品即兴补齐流程缺口。",
       "title": "前沿实验室为何敢发半成品：模型会替你即兴补洞",
-      "rank": 30
+      "rank": 55
     }
   ],
-  "generated_at": "2026-10-01T04:25:49Z",
+  "generated_at": "2026-10-01T17:34:01Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
@@ -661,11 +1215,11 @@
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 30,
-    "last_batch_added": 1,
+    "actual_count": 55,
+    "last_batch_added": 3,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
