@@ -153,5 +153,10 @@
     "date": "2026-09-30",
     "watch": "产品 + 技巧",
     "body": "今天更值得盯「产品 + 技巧」。主线是 OpenAI DevDay：GPT-6.1 Sol 用约 Astra 五分之一价逼近编码/computer use，还上了常驻智能体 dots、可复用 Codex 云环境和 ChatGPT Space/插件平台——你有 ChatGPT Plus、日常 Cursor/CPA 分流，优先点官方 Sol 介绍和卡兹克通宵总结看额度与接入。贴身技巧是 OpenRouter 连发三篇 Agent 评测：工具调用拆成选错工具/传错参数、从生产流量建 golden 集、提示词或模型变更后的回归——正好对你多 bot / skill 长跑。安全旁线 PromptArmor 披露 Copilot Cowork 恶意 Skill 劫持网关绕过沙箱外传文件，Muse/桌面 Agent/Skill 对照看；本机可顺手扫 AA-AgentPerf-Local 笔记本榜。ElevenLabs v4 语音线兴趣再点。"
+  },
+  "2026-10-01": {
+    "date": "2026-10-01",
+    "watch": "技巧 + 产品",
+    "body": "今天更值得盯「技巧 + 产品」。贴身优先 OpenRouter 那三条 Agent 实操：按任务设质量门槛再比廉价/中档/前沿的成本、用置信度做分级升级路由、以及用固定 eval 集在 CI 里门禁 PR——正好对上你 CPA 分流、Jev 路由和多 bot 长跑。产品侧 ChatGPT 现在能直接构建并部署 MCP 服务器（可私有或公开），和 skill/connectors 扩展同构，可点开。模型旁线 Gemini 4 Argon 发布、AA 称 Google 重回前三，你 Magpie 侧暂时接不上，当对照扫过；GPT-6.1 Sol 单任务成本再降约 30%，省账单可对照。"
   }
 }
