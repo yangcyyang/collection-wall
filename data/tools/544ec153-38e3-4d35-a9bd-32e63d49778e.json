@@ -1,0 +1,66 @@
+{
+  "id": "544ec153-38e3-4d35-a9bd-32e63d49778e",
+  "url": "https://x.com/karpathy/status/2105819303471976479",
+  "name": "LLM理解阶梯",
+  "headline": "ASD-STE100→图→网页→讲解视频，上移监督理解",
+  "intro": "Andrej Karpathy 谈如何理解 LLM 输出：用航空维修受控英语 ASD-STE100（或 80% 强度）逼出更干净可读的讲解；更好是让模型出图/示意；再好是要 HTML 交互页；他最看好定制讲解视频（如 3b1b 风格 + ElevenLabs 旁白）。核心是人上移到监督与理解，并用可弃置网页/视频制品辅助消化——适合改 Agent 解释层、而不只追答案的人。",
+  "category": "🤖 AI 大模型",
+  "subcategory": "提示词工程",
+  "tags": [
+    "Karpathy",
+    "ASD-STE100",
+    "LLM输出理解",
+    "可弃置制品",
+    "讲解视频",
+    "HTML制品",
+    "AI协作",
+    "示意图表"
+  ],
+  "capabilities": [
+    "用受控英语约束模型讲解",
+    "把复杂输出转成图表",
+    "让模型生成 HTML 讲解页",
+    "试验定制讲解视频工作流",
+    "把人的重心上移到监督理解"
+  ],
+  "scenarios": [
+    "在消化一段很长的模型推理时",
+    "在要给自己或团队做可扫一眼的解释时",
+    "在设计 Agent 的可弃置交付物时",
+    "在试验把答案做成网页或短视频时"
+  ],
+  "search_keywords": [
+    "Karpathy ASD-STE100",
+    "理解 LLM 输出",
+    "controlled language LLM",
+    "LLM explainer video",
+    "discardable software artifacts",
+    "Ask LLM in HTML",
+    "3b1b style explainer",
+    "AI 协作 监督理解",
+    "Karpathy tips tricks"
+  ],
+  "alternatives": {
+    "replaces": [],
+    "similar_to": [
+      "其他 LLM 可读性提示词技法",
+      "3Blue1Brown 风格讲解视频工作流"
+    ],
+    "pairs_with": [
+      "ElevenLabs",
+      "ChatGPT / Claude 前端生成"
+    ]
+  },
+  "tech_highlights": [
+    "ASD-STE100 受控英语作讲解约束",
+    "输出阶梯：写作 → 图 → HTML → 讲解视频",
+    "强调可弃置软件制品辅助理解"
+  ],
+  "cover": "covers/544ec153-38e3-4d35-a9bd-32e63d49778e.jpg",
+  "status": "🆕 待试",
+  "visit_count": 0,
+  "last_visited": null,
+  "added_at": "2026-10-02T16:33:59",
+  "my_notes": "用户确认上墙；主题：理解 LLM 输出的阶梯。",
+  "capture_status": "ok"
+}
