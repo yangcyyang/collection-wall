@@ -1,9 +1,49 @@
 {
   "source": "AI Frontier Radar",
   "title": "前沿信号",
-  "updated_at": "2026-10-01T08:20:00+08:00",
-  "count": 17,
+  "updated_at": "2026-10-02T08:20:00+08:00",
+  "count": 18,
   "items": [
+    {
+      "id": "ai-bio-design-provenance",
+      "title": "AI 设计生物分子开始带可验证水印与溯源",
+      "type": "emerging_signal",
+      "score": 88,
+      "confidence": "high",
+      "status": "new",
+      "first_detected": "2026-10-02T08:20:00+08:00",
+      "last_updated": "2026-10-02T08:20:00+08:00",
+      "summary": "DeepMind SynthID Bio 把不可感知签名嵌入蛋白质序列且不损功能，并以开放研究工具发布——数字 provenance 路线延伸到可合成生物分子，DNA 合成实验室可验源。",
+      "why_it_matters": "若合成商与序列库默认验水印，AI 生物设计的安全运营面会出现新的默认门槛，类似 cyber 门控之于代码智能体。",
+      "tags": [
+        "Biosecurity",
+        "SynthID",
+        "DeepMind",
+        "Provenance",
+        "Proteins"
+      ],
+      "evidence": [
+        {
+          "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+          "source": "official",
+          "note": "SynthID Bio blog / open research tools",
+          "date": "2026-09-30",
+          "tag": "官方确认"
+        },
+        {
+          "url": "https://x.com/GoogleDeepMind/status/2105624656170643854",
+          "source": "official",
+          "note": "DeepMind X thread in-window",
+          "date": "2026-10-02T08:20:00+08:00",
+          "tag": "官方确认"
+        }
+      ],
+      "watch_next": [
+        "synthid-bio-synthesis-labs",
+        "其他 lab 是否跟进生物水印",
+        "与 Evo 2 / 噬菌体基因组水印协作是否产品化"
+      ]
+    },
     {
       "id": "agent-science-discovery-loops",
       "title": "智能体群正在进入可引用的科学发现闭环",
@@ -189,11 +229,11 @@
       "id": "open-weight-agentic-multimodal",
       "title": "开源权重的 Agentic 全模态栈",
       "type": "pattern",
-      "score": 94,
+      "score": 95,
       "confidence": "high",
       "status": "strengthening",
       "first_detected": "2026-09-21T08:35:00+08:00",
-      "last_updated": "2026-10-01T08:20:00+08:00",
+      "last_updated": "2026-10-02T08:20:00+08:00",
       "summary": "Qwen 同窗连发 Omni-Flash（感知→规划→工具）、Image-2.1（统一生图+编辑开源）与 LiveTranslate，并把 MM-Plugins / Live Harness 开源——开源实验室开始整包交付「可执行的全模态 agent」，而不只是多模态理解模型。",
       "why_it_matters": "封闭 lab 的 omni/agent 叙事正被开源权重+插件/harness 追平分发面；下一问是谁先把这套栈接到企业工作流与本地部署。",
       "tags": [
@@ -204,6 +244,12 @@
         "Multimodal"
       ],
       "evidence": [
+        {
+          "url": "https://x.com/cursor_ai/status/2105787358557999585",
+          "source": "official",
+          "note": "GLM 5.3 Max best-scoring open-weight on CursorBench 4.0",
+          "date": "2026-10-02T08:20:00+08:00"
+        },
         {
           "url": "https://x.com/Alibaba_Qwen/status/2105256053403508849",
           "source": "official",
@@ -248,6 +294,7 @@
         }
       ],
       "watch_next": [
+        "cursor-glm-53-default-share",
         "deepseek-ascend-reproduce",
         "第三方独立复现 MiMo agent 基准与 RL 环境可用性",
         "Qwen MM-Plugins 是否被第三方 coding/agent 产品默认接入",
@@ -419,7 +466,7 @@
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-10-01T08:20:00+08:00",
+      "last_updated": "2026-10-02T08:20:00+08:00",
       "summary": "Claude Code Projects 重设计：从一会话调度并行云端 threads（各为独立会话/分支），共享 memory 与 artifact library，关电脑后仍继续，可从手机督导；本周对部分 Pro/Max 云会话扩量，本地工具随后。叠加前日 Cowork×chat 合并、jurniti / Cursor Projects / Muse Secure VM——「关盖还在跑」的持久 agent 电脑已成主流产品原语。",
       "why_it_matters": "叙事从「模型会点鼠标」变成「每人一台隔离 VM 里的代理」。Sentinel/审批/审计说明大众 agent 的产品化关键是安全电脑，而不是更长的聊天窗口。",
       "tags": [
@@ -433,6 +480,24 @@
         "Sentinel"
       ],
       "evidence": [
+        {
+          "url": "https://polylane.com",
+          "source": "product",
+          "note": "Polylane AFK prod investigate→PR",
+          "date": "2026-10-02T08:20:00+08:00"
+        },
+        {
+          "url": "https://usefiretower.com",
+          "source": "product",
+          "note": "Firetower self-host agents + mobile when session needs you",
+          "date": "2026-10-02T08:20:00+08:00"
+        },
+        {
+          "url": "https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps/",
+          "source": "official",
+          "note": "Copilot computer use public preview desktop apps",
+          "date": "2026-10-02T08:20:00+08:00"
+        },
         {
           "url": "https://evlat.kalaomer.com",
           "source": "product",
@@ -561,27 +626,12 @@
           "source": "official",
           "note": "claudeai：Cowork 与 chat 合并；关电脑后仍执行",
           "date": "2026-09-17T00:20:19+08:00"
-        },
-        {
-          "url": "https://www.producthunt.com/products/jurniti",
-          "source": "producthunt",
-          "note": "jurniti PH 发布",
-          "date": "2026-09-15"
-        },
-        {
-          "url": "https://www.jurniti.com/",
-          "source": "product",
-          "note": "jurniti：Firecracker microVM always-on agents",
-          "date": "2026-09-15"
-        },
-        {
-          "url": "https://x.com/ChatGPT/status/2098519342530920488",
-          "source": "official",
-          "note": "ChatGPT 官方 GPT-VI ASTRA 推广（扩量面）",
-          "date": "2026-09-12T05:09:34+08:00"
         }
       ],
       "watch_next": [
+        "polylane-prod-pr-uptake",
+        "firetower-selfhost-uptake",
+        "copilot-computer-use-default",
         "Windows on-device Portable Computer 采用",
         "Bot Screen HITL 是否成默认协作范式",
         "jurniti vs beafk/useagent/Aside：谁先做出可信离开后还在跑",
@@ -804,7 +854,7 @@
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-08-28T00:00:00+08:00",
-      "last_updated": "2026-10-01T08:20:00+08:00",
+      "last_updated": "2026-10-02T08:20:00+08:00",
       "summary": "Weave Router 2.0 按复杂度/配额/缓存在 Claude↔Codex/Cursor 间路由；Bitrise Remote Dev Environments 用 MCP 拉起与 CI 同构的云 Mac/Linux；Claude Projects 把协调器做成产品原语。控制面继续从「编排模型」扩到「路由订阅 + 生产同构电脑」。",
       "why_it_matters": "第三方不必自建控制面即可嵌入同一套 agent loop；许可/沙箱/会话成为平台原语，而不只是应用层胶水。",
       "tags": [
@@ -818,6 +868,18 @@
         "沙箱"
       ],
       "evidence": [
+        {
+          "url": "https://usefiretower.com",
+          "source": "product",
+          "note": "Firetower worktree/tmux control on your servers",
+          "date": "2026-10-02T08:20:00+08:00"
+        },
+        {
+          "url": "https://www.deepseek.com/en/harness/",
+          "source": "official",
+          "note": "DSH Desktop official harness surface",
+          "date": "2026-10-02T08:20:00+08:00"
+        },
         {
           "url": "https://evlat.kalaomer.com",
           "source": "product",
@@ -950,18 +1012,6 @@
           "url": "https://weaveos.com/products/router",
           "source": "product",
           "note": "Weave Router 2.0：订阅/配额感知 coding-agent 路由",
-          "date": "2026-09-16"
-        },
-        {
-          "url": "https://buddy.works/docs/ai-agents/mcp",
-          "source": "official",
-          "note": "Buddy MCP：CI/CD 控制面交给 agent",
-          "date": "2026-09-15"
-        },
-        {
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.273",
-          "source": "official",
-          "note": "Claude Code 2.1.273 gateway headers + MCP disconnect + RC fork",
           "date": "2026-09-16"
         }
       ],
@@ -1155,7 +1205,7 @@
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-09-01T08:50:00+08:00",
-      "last_updated": "2026-10-01T08:20:00+08:00",
+      "last_updated": "2026-10-02T08:20:00+08:00",
       "summary": "Cursor Projects / Claude 高并发之外，社区出现 Plasma Radio：跨 Claude/Codex/Grok/Cursor 的共享房间，让多 agent 直接对话、减少人复制粘贴路由——编排从「单 runtime 舰队」扩到「跨提供商会话总线」。",
       "why_it_matters": "协作单元从「一次 chat 一次任务」变成「一个项目一台 agent 团队」，会改写工具默认信息架构与计费。",
       "tags": [
@@ -1165,6 +1215,18 @@
         "Antigravity"
       ],
       "evidence": [
+        {
+          "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+          "source": "official",
+          "note": "You should know side agent watches session",
+          "date": "2026-10-02T08:20:00+08:00"
+        },
+        {
+          "url": "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app/",
+          "source": "official",
+          "note": "dynamic workflows public preview",
+          "date": "2026-10-02T08:20:00+08:00"
+        },
         {
           "url": "https://www.producthunt.com/products/campfire-12",
           "source": "producthunt",
@@ -1298,21 +1360,10 @@
           "source": "official",
           "note": "async tools + mid-turn steering 作为团队/编排控制原语",
           "date": "2026-09-04T04:14:10+08:00"
-        },
-        {
-          "url": "https://x.com/mntruell/status/2095625771541008756",
-          "source": "official",
-          "note": "企业 Bot = 数千队友叙事",
-          "date": "2026-09-04T05:31:33+08:00"
-        },
-        {
-          "url": "https://x.com/Alibaba_Qwen/status/2095476249556853100",
-          "source": "official",
-          "note": "Qwen E-Commerce Bench：365 天网店长程自治评测",
-          "date": "2026-09-03T19:37:24+08:00"
         }
       ],
       "watch_next": [
+        "copilot-dynamic-workflows-default",
         "Space 是否替代独立 wiki/文档面",
         "Dots vs xAI Team Bots 组织渗透",
         "xai-team-bots-uptake",
@@ -1493,9 +1544,9 @@
       "type": "pattern",
       "score": 99,
       "confidence": "high",
-      "status": "strengthening",
+      "status": "confirmed_trend",
       "first_detected": "2026-08-28T00:00:00+08:00",
-      "last_updated": "2026-10-01T08:20:00+08:00",
+      "last_updated": "2026-10-02T08:20:00+08:00",
       "summary": "Meta Muse Code 原生上 Windows（无 WSL）、默认沙箱、零管理员安装，并预告 intersession messaging；叠加既有 agent 供应链/工具链风险与多厂商 coding agent 客户端扩张——供应面从模型扩展到桌面原生客户端与会话间通道。",
       "why_it_matters": "模型接入变成并购后的控制权问题。编程工具必须双源。Gergely 把 Anthropic 对 Windsurf 的切断，和 Cursor 仍被当可信伙伴，放进同一框。杀伤力小于「Cursor 没模型了」，但先例比合同本身重要。",
       "tags": [
@@ -1506,6 +1557,18 @@
         "Kimi"
       ],
       "evidence": [
+        {
+          "url": "https://x.com/cursor_ai/status/2105787358557999585",
+          "source": "official",
+          "note": "Cursor ships GLM 5.3 / Flash; Max best open-weight CursorBench",
+          "date": "2026-10-02T08:20:00+08:00"
+        },
+        {
+          "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+          "source": "official",
+          "note": "Claude Code 2.1.287 Mods + You should know",
+          "date": "2026-10-02T08:20:00+08:00"
+        },
         {
           "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/",
           "source": "official",
@@ -1641,15 +1704,11 @@
           "source": "official",
           "note": "Hosted sandboxes + skills/plugins expand agent supply surface",
           "date": "2026-09-11T00:00:00+08:00"
-        },
-        {
-          "url": "https://github.com/Matthew0822/ToolReplay",
-          "source": "community",
-          "note": "ToolReplay：tool-call 笔录哈希链封印/确定性回放/越权检查",
-          "date": "2026-09-14T00:00:00+08:00"
         }
       ],
       "watch_next": [
+        "cursor-glm-53-default-share",
+        "claude-mods-marketplace-trust",
         "vibedefend-agent-loop-uptake",
         "coding agent ARR 是否成类别叙事",
         "MCP 审计是否进 CI 默认",
@@ -1677,7 +1736,7 @@
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-09-10T18:20:00+08:00",
-      "last_updated": "2026-10-01T08:20:00+08:00",
+      "last_updated": "2026-10-02T08:20:00+08:00",
       "summary": "火山引擎将 Doubao-Seed-2.1-pro 更新至 0915：Agent 交付溯源/核验、多模态 Coding、同接入点 Evolving；叠加 GPT-5.5→Sol/Astra 梯子与 DeepSeek Pro→Flash 切流——生产侧同时在压 Pro 交付可靠度与经济档替代。",
       "why_it_matters": "agent 默认算力正在被「够用且更便宜的 Flash」接管；旗舰 Pro 变为可选/后续，而不是默认入口。",
       "tags": [
@@ -1688,6 +1747,12 @@
         "MoE"
       ],
       "evidence": [
+        {
+          "url": "https://x.com/cursor_ai/status/2105787358557999585",
+          "source": "official",
+          "note": "GLM 5.3 Flash available in Cursor alongside Max",
+          "date": "2026-10-02T08:20:00+08:00"
+        },
         {
           "url": "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app/",
           "source": "official",
@@ -1849,7 +1914,7 @@
       "confidence": "high",
       "status": "confirmed_trend",
       "first_detected": "2026-08-29T00:00:00+08:00",
-      "last_updated": "2026-10-01T08:20:00+08:00",
+      "last_updated": "2026-10-02T08:20:00+08:00",
       "summary": "Claude Marketplace 把 connectors、第三方 agents（Cursor/CrowdStrike）与 Accenture/Deloitte 等服务伙伴做成聊天内分发与购买面；叠加 Astra 插件、Kimi Skill、Plane playbook——技能/插件/agents 正在成为默认分发层。",
       "why_it_matters": "第四个命令行不值钱。可安装的技能和模板才是分发。企业插件市场把同一层做成了日常同步的软件包。",
       "tags": [
@@ -1858,6 +1923,12 @@
         "分发"
       ],
       "evidence": [
+        {
+          "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+          "source": "official",
+          "note": "Mods on by default via plugin marketplaces",
+          "date": "2026-10-02T08:20:00+08:00"
+        },
         {
           "url": "https://github.com/rehan-remade/universal-modder",
           "source": "github",
@@ -1996,15 +2067,10 @@
           "source": "official",
           "date": "2026-08-28T00:00:00+08:00",
           "note": "ChatGPT 企业版：从 GitHub 导入插件市场并每日同步"
-        },
-        {
-          "url": "https://x.com/adocomplete/status/2094145795276873891",
-          "source": "community",
-          "date": "2026-08-31T00:00:00+08:00",
-          "note": "/design 技能把 Claude Design 画板工作流送进 Claude Code 命令行和桌面"
         }
       ],
       "watch_next": [
+        "claude-mods-marketplace-trust",
         "Claude Marketplace 上架速度与付费转化",
         "Salesforce skills 真实 RIA/销售团队留存",
         "WhatsApp MCP 灰度扩量与审计事件",
@@ -2272,12 +2338,12 @@
     {
       "id": "physical-mcp-mhs",
       "title": "屏幕/物理操控开始长出「可声明的自动化边界」",
-      "type": "emerging_signal",
-      "score": 86,
+      "type": "strong_signal",
+      "score": 90,
       "confidence": "medium",
       "status": "strengthening",
       "first_detected": "2026-08-27T00:00:00+08:00",
-      "last_updated": "2026-09-21T08:35:00+08:00",
+      "last_updated": "2026-10-02T08:20:00+08:00",
       "summary": "腾讯开源 BrowserSkill：CLI+扩展让 shell agent 复用已登录 Chrome/Edge，独立 Agent Window、显式借还标签页、验证码/登录 HITL——与豆包 SAEP 的「可声明自动化边界」同向：真实 GUI 会话开始长出可协商的人机检查点。",
       "why_it_matters": "没有同意层的手机 agent 不可规模化；SAEP 类协议可能成为移动端 GUI agent 的合规与分发前提。",
       "tags": [
@@ -2290,6 +2356,12 @@
         "MHS"
       ],
       "evidence": [
+        {
+          "url": "https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps/",
+          "source": "official",
+          "note": "OS-level click/type/scroll for GUI-only apps",
+          "date": "2026-10-02T08:20:00+08:00"
+        },
         {
           "url": "https://www.producthunt.com/products/pushary",
           "source": "producthunt",
@@ -2340,6 +2412,7 @@
         }
       ],
       "watch_next": [
+        "copilot-computer-use-default",
         "主流 App 是否接入 SAEP 声明",
         "SAEP 是否扩展到非字节 ROM",
         "与 Anthropic MHS / 桌面 CU 同意模型如何对照"

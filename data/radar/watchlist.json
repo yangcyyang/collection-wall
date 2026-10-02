@@ -1,9 +1,105 @@
 {
   "source": "AI Frontier Radar",
   "title": "观察名单",
-  "updated_at": "2026-10-01T08:20:00+08:00",
-  "count": 99,
+  "updated_at": "2026-10-02T08:20:00+08:00",
+  "count": 107,
   "items": [
+    {
+      "id": "dsh-desktop-plugin-ecosystem",
+      "title": "DeepSeek Harness Desktop 插件生态是否起来",
+      "why": "官方桌面若带起社区插件，开源 harness 分发面会实质变化。",
+      "status": "watching",
+      "since": "2026-10-02T08:20:00+08:00",
+      "last_updated": "2026-10-02T08:20:00+08:00",
+      "related_signals": [
+        "harness-control-plane",
+        "skills-as-distribution"
+      ]
+    },
+    {
+      "id": "copilot-dynamic-workflows-default",
+      "title": "Copilot dynamic workflows 是否替代 /fleet 临时委派",
+      "why": "可版本化 playbook 若成默认，多 agent 编排产品形态会固化。",
+      "status": "watching",
+      "since": "2026-10-02T08:20:00+08:00",
+      "last_updated": "2026-10-02T08:20:00+08:00",
+      "related_signals": [
+        "multi-agent-team-orchestration",
+        "harness-control-plane"
+      ]
+    },
+    {
+      "id": "synthid-bio-synthesis-labs",
+      "title": "DNA 合成实验室是否默认验 SynthID Bio",
+      "why": "水印只有进入合成商工作流才成为 biosecurity 门槛。",
+      "status": "watching",
+      "since": "2026-10-02T08:20:00+08:00",
+      "last_updated": "2026-10-02T08:20:00+08:00",
+      "related_signals": [
+        "ai-bio-design-provenance"
+      ]
+    },
+    {
+      "id": "cursor-glm-53-default-share",
+      "title": "GLM 5.3 在 Cursor 的默认/份额是否抬升",
+      "why": "bench 领导 + 一等公民上架后，开源权重日用占比是下一问。",
+      "status": "watching",
+      "since": "2026-10-02T08:20:00+08:00",
+      "last_updated": "2026-10-02T08:20:00+08:00",
+      "related_signals": [
+        "open-weight-agentic-multimodal",
+        "agent-flash-over-pro-economics"
+      ]
+    },
+    {
+      "id": "firetower-selfhost-uptake",
+      "title": "Firetower 自托管 AFK 是否挤占云 agent VM",
+      "why": "own-server + 手机遥控若扩散，persistent computer 供给面分叉。",
+      "status": "watching",
+      "since": "2026-10-02T08:20:00+08:00",
+      "last_updated": "2026-10-02T08:20:00+08:00",
+      "related_signals": [
+        "agent-persistent-computer",
+        "harness-control-plane"
+      ]
+    },
+    {
+      "id": "polylane-prod-pr-uptake",
+      "title": "Polylane AFK 产线修 PR 是否出现真实 on-call 替代",
+      "why": "调查→出处→PR 若被团队默认采用，SRE agent 闭环成立。",
+      "status": "watching",
+      "since": "2026-10-02T08:20:00+08:00",
+      "last_updated": "2026-10-02T08:20:00+08:00",
+      "related_signals": [
+        "agent-persistent-computer",
+        "harness-control-plane"
+      ]
+    },
+    {
+      "id": "claude-mods-marketplace-trust",
+      "title": "Claude Mods marketplace 信任与安全默认",
+      "why": "可改写内部行为的模组分发，信任模型决定供应链风险。",
+      "status": "watching",
+      "since": "2026-10-02T08:20:00+08:00",
+      "last_updated": "2026-10-02T08:20:00+08:00",
+      "related_signals": [
+        "skills-as-distribution",
+        "coding-agent-supply-chain"
+      ]
+    },
+    {
+      "id": "copilot-computer-use-default",
+      "title": "Copilot computer use 是否成默认桌面 agent 路径",
+      "why": "公测后若进默认/企业开箱，GUI-only 工作流会被 coding agent 吃掉。",
+      "status": "watching",
+      "since": "2026-10-02T08:20:00+08:00",
+      "last_updated": "2026-10-02T08:20:00+08:00",
+      "related_signals": [
+        "agent-persistent-computer",
+        "physical-mcp-mhs",
+        "coding-agent-supply-chain"
+      ]
+    },
     {
       "id": "openai-distillation-defense-norm",
       "title": "对抗蒸馏缓解是否成 Frontier Model Forum 默认规范",
@@ -71,7 +167,7 @@
       "why": "旗舰已网防优先放量；广发节奏决定 flash-over-pro 与 cyber 门控的真实供给。",
       "status": "watching",
       "since": "2026-10-01T08:20:00+08:00",
-      "last_updated": "2026-10-01T08:20:00+08:00",
+      "last_updated": "2026-10-02T08:20:00+08:00",
       "related_signals": [
         "critical-cyber-gated-deployment",
         "agent-flash-over-pro-economics",
