@@ -158,5 +158,10 @@
     "date": "2026-10-01",
     "watch": "技巧 + 产品",
     "body": "今天更值得盯「技巧 + 产品」。贴身优先 OpenRouter 那三条 Agent 实操：按任务设质量门槛再比廉价/中档/前沿的成本、用置信度做分级升级路由、以及用固定 eval 集在 CI 里门禁 PR——正好对上你 CPA 分流、Jev 路由和多 bot 长跑。产品侧 ChatGPT 现在能直接构建并部署 MCP 服务器（可私有或公开），和 skill/connectors 扩展同构，可点开。模型旁线 Gemini 4 Argon 发布、AA 称 Google 重回前三，你 Magpie 侧暂时接不上，当对照扫过；GPT-6.1 Sol 单任务成本再降约 30%，省账单可对照。"
+  },
+  "2026-10-02": {
+    "date": "2026-10-02",
+    "watch": "技巧 + 模型",
+    "body": "今天更值得盯「技巧 + 模型」。贴身优先两条降本与定制：LangChain 在 Open SWE 里做模型路由，中位成本从 $2.61 压到 $0.94（约降 64%）且合并率几乎不掉——正好对照你 CPA 分流和 Jev 路由；Claude Code 出 mods（TypeScript 挂事件流改提示词、拦工具、加 UI），和你 skill/routine 扩展同构，可点官方入门教程。模型侧 Artificial Analysis Coding Agent Index：Sonnet 5.5 / GPT-6.1 Sol / Gemini 4 Argon 都登顶附近，但单任务成本差很大（Sonnet max 可到约 $14）——选型看性价比别只看分。图像线 FLUX 3 Image 上 Krea/OpenRouter（多轮编辑、4K、最多 10 参考图），Qwen-Image-2.1 登顶 AA 开源文生图/编辑榜——做提示词墙和出图可对照。行业旁线 Anthropic 近 2 万亿 IPO 路演、加州检察长传讯 OpenAI 智能体安全，扫一眼即可。"
   }
 }
