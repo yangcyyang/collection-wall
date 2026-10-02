@@ -86,7 +86,7 @@ function sessionCookie(response) {
   return match ? `${COOKIE_NAME}=${match[1]}` : "";
 }
 
-test("两篇互动演示和公开目录免登录，文章列表和其它文章仍要登录", async () => {
+test("互动演示和公开目录免登录，文章列表和其它文章仍要登录", async () => {
   for (const path of [
     "/essays/yue-yong-yue-congming",
     "/essays/yue-yong-yue-congming/",
@@ -96,6 +96,10 @@ test("两篇互动演示和公开目录免登录，文章列表和其它文章�
     "/essays/an-xia-hui-che-zhi-hou/",
     "/essays/an-xia-hui-che-zhi-hou/index.html",
     "/essays/an-xia-hui-che-zhi-hou/cover.png",
+    "/essays/ai-bang-bu-shang-ni-de-shenghuo",
+    "/essays/ai-bang-bu-shang-ni-de-shenghuo/",
+    "/essays/ai-bang-bu-shang-ni-de-shenghuo/index.html",
+    "/essays/ai-bang-bu-shang-ni-de-shenghuo/cover.png",
     "/essays/demos",
     "/essays/demos/",
     "/essays/demos/index.html",
@@ -115,6 +119,8 @@ test("两篇互动演示和公开目录免登录，文章列表和其它文章�
     "/essays/yue-yong-yue-congming2/",
     "/essays/an-xia-hui-che-zhi-hou-extra/",
     "/essays/an-xia-hui-che-zhi-hou2/",
+    "/essays/ai-bang-bu-shang-ni-de-shenghuo-extra/",
+    "/essays/ai-bang-bu-shang-ni-de-shenghuo2/",
     "/essays/demos-extra/",
   ]) {
     assert.equal(isPublicPath(path), false, path);

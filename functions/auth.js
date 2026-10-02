@@ -11,6 +11,7 @@ const PUBLIC_EXACT = new Set(["/news", "/twitter", "/login", "/favicon.ico", "/f
 const PUBLIC_ESSAYS = [
   "/essays/yue-yong-yue-congming",
   "/essays/an-xia-hui-che-zhi-hou",
+  "/essays/ai-bang-bu-shang-ni-de-shenghuo",
   "/essays/demos",
 ];
 

@@ -2,9 +2,17 @@
   "source": "essays",
   "title": "文章",
   "description": "外文长文的中文译文、精选收录的中文原文，以及我自己写的文章。",
-  "updated_at": "2026-09-28T18:36:15Z",
+  "updated_at": "2026-10-02T15:00:00Z",
   "originals": [],
   "items": [
+    {
+      "id": "ai-bang-bu-shang-ni-de-shenghuo",
+      "category": "original",
+      "title_zh": "AI 帮不上你的生活？",
+      "published_at": "2026-10-02",
+      "summary_zh": "一份自带配乐的互动演示（开学篇上），从够不着、没用对、做不好讲到协作四级与判断，看 AI 为什么总觉得帮不上你的生活。封面即可播放，含配乐与音效，建议全屏。",
+      "href": "/essays/ai-bang-bu-shang-ni-de-shenghuo/"
+    },
     {
       "id": "an-xia-hui-che-zhi-hou",
       "category": "original",
