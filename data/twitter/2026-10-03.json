@@ -9,6 +9,626 @@
   },
   "items": [
     {
+      "id": "2106403298152722493",
+      "author": "petergyang",
+      "url": "https://x.com/petergyang/status/2106403298152722493",
+      "created_at": "Sat Oct 03 15:17:36 +0000 2026",
+      "text": "Some thoughts on human + agent collaboration:\n\n1. Slack has become the default place where humans work with agents and each other. Yet many people I talk to don't actually enjoy using it. Monitoring dozens of channels and DMs is overwhelming.\n\n2. You can of course have your agent monitor all those threads for you, but that creates a new problem. I recently gave feedback to someone at an AI lab and got a quick reply. But it turns out it was their agent that responded, not them. If agents keep multiplying in Slack channels, will it only get harder to reach the actual human? And if only the agent replies, how do I know my feedback is getting prioritized?\n\n3. Meanwhile, Grok Bot, ChatGPT, and others are starting to look more and more like Slack as they expand from human-agent to human-human collaboration. But going back to my first point, Slack is already overwhelming to use.\n\n4. Maybe the solution is an agent that handles 80% of your threads and escalates the other 20% to you. But I doubt it'll pick the right 20% most of the time. I personally don't like it if I know something I manually wrote is getting filtered by an agent instead of going straight to a human.",
+      "likes": 35,
+      "views": 3284,
+      "score": 59.192,
+      "title": "人机协作：Slack 里 Agent 增多后更难找到真人",
+      "summary": "Peter Yang 观察 Slack 成默认协作场但监控成本高；让 Agent 代看线程又会出现「回复其实是 Agent」的问题，人机边界更模糊。",
+      "recommend_reason": "协作产品与组织设计层面的提醒，不只是工具技巧。",
+      "tags": [
+        "人机协作",
+        "Slack",
+        "Agent",
+        "组织"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "2106402474676588632",
+      "author": "gkxspace",
+      "url": "https://x.com/gkxspace/status/2106402474676588632",
+      "created_at": "Sat Oct 03 15:14:19 +0000 2026",
+      "text": "刚试了一下，Opus 5.5 还是牛逼，这条像素短片同时 Opus5.5 和 6.1Sol，前者速度和质量都要好！！！\n\n画面、角色动画、配乐、音效全是它用代码写出来的，我就丢了一条 AI 写的提示词。\n\n我来给大家详细讲一讲，这类视频怎么做：\n1、剧本按节拍写定\n按小节写：第几小节干什么、哪一拍施法、哪里停半拍等观众笑。音乐和动作都卡在节拍上。\n\n2、把需求写成规则\n比如命中那一下画面冻结 5 帧、白闪 1 帧、屏幕按 3、2、1 像素震完。写得越具体，打击感越足。\n\n3、写清楚不准干什么\n不准糊、不准渐变、颜色不超过 24 个、画面里不要大字和 UI。限制越死，风格越统一。\n\n4、让每一帧都能复现\n让它把画面写成\"给一个时间点就画出一帧\"，再用浏览器逐帧截图喂给 ffmpeg。改一处重渲一次，一分多钟就出片。\n\n5、最后把验收标准交给它\n让它自己抽帧、自己打分，低于 8 分就改。这一步最关键，Opus 5.5 是真的会认真返工。\n\n产品演示动画、知识科普、游戏宣传片、片头片尾，这套都能直接套。\n\n完整提示词放评论区了👇",
+      "likes": 9,
+      "views": 1295,
+      "score": 62.018,
+      "title": "Opus 5.5 像素短片工作流：按节拍写剧本再逐帧验收",
+      "summary": "作者对比 Opus 5.5 与 6.1 Sol 做代码生成像素短片，总结按节拍写剧本、写成可复现规则、列禁止项、时间点出帧 + ffmpeg，以及让模型自抽帧打分返工的流程。",
+      "recommend_reason": "可复用的代码生成视频提示词工程清单。",
+      "tags": [
+        "Opus 5.5",
+        "像素动画",
+        "提示词",
+        "工作流"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "2106402167997530189",
+      "author": "RookieRicardoR",
+      "url": "https://x.com/RookieRicardoR/status/2106402167997530189",
+      "created_at": "Sat Oct 03 15:13:06 +0000 2026",
+      "text": "🚨 我擦，Gemini 会员的含金量又上升了， Claude Opus 5.5 和 Sonnet 5.5 现已在 Antigravity 上线。",
+      "likes": 1,
+      "views": 447,
+      "score": 48.784,
+      "title": "Gemini 会员 Antigravity 上线 Opus/Sonnet 5.5",
+      "summary": "称 Gemini 会员体系下 Antigravity 已上线 Claude Opus 5.5 与 Sonnet 5.5，订阅含金量再升。",
+      "recommend_reason": "渠道侧模型可达性变化，方便调整订阅策略。",
+      "tags": [
+        "指定AI名单",
+        "Gemini",
+        "Antigravity",
+        "Claude"
+      ],
+      "section": "指定AI名单",
+      "rank": 3
+    },
+    {
+      "id": "2106401300900720658",
+      "author": "ring_hyacinth",
+      "url": "https://x.com/ring_hyacinth/status/2106401300900720658",
+      "created_at": "Sat Oct 03 15:09:39 +0000 2026",
+      "text": "RT @ring_hyacinth: 爱丽丝交互小游戏又完成新一章啦～🌷\n\n这次制作的是《镜中奇遇》第二章：活花园（The Garden of Live Flowers）。\n\n刚用 Opus 5.5 做好规划，MiniMax M3.1-Flash-Preview 出来啦。后续的…",
+      "likes": 0,
+      "views": 0,
+      "score": 47.346,
+      "title": "爱丽丝交互小游戏新章：Opus 规划 + MiniMax 续作",
+      "summary": "ring_hyacinth 更新《镜中奇遇》第二章「活花园」；称用 Opus 5.5 做好规划后接 MiniMax M3.1-Flash-Preview 继续制作。",
+      "recommend_reason": "多模型分工做互动内容的小案例。",
+      "tags": [
+        "指定AI名单",
+        "Opus 5.5",
+        "MiniMax",
+        "互动游戏"
+      ],
+      "section": "指定AI名单",
+      "rank": 4
+    },
+    {
+      "id": "2106398618542547335",
+      "author": "YuLin807",
+      "url": "https://x.com/YuLin807/status/2106398618542547335",
+      "created_at": "Sat Oct 03 14:59:00 +0000 2026",
+      "text": "Airbnb CTO Ahmad Al-Dahle 在 Latent Space 讲了他们内部怎么用 AI，我把它画成了一张会动的架构图。\n\n几个让我停下来的点：\n\n1. 原型就是交付物。产品、设计、工程不再围着文档开会，直接对着同一份能跑的原型讨论。\n\n2. Everest：一张组织上下文图谱。生鲜业务做了八九个月，经验沉淀进去之后，机场接送只用了约六周。\n\n3. 模型不迷信最强的。他们线上至少有 10 个定制模型，多数是在开源模型上做后训练，按场景评测再选。\n\n4. 异步 agent 开始接值班。告警一响，agent 先被拉起来做第一轮排查。\n\n5. 结果（都是 Airbnb 自己的说法）：人均 PR 吞吐约 1.6 倍，功能和改进同比多了近 80%，客服工单近一半由 AI 独立解决。\n\n最打动我的反而是一条规矩：PR 可以是 AI 写的，但每个工程师必须能讲清楚自己交付了什么内容。",
+      "likes": 6,
+      "views": 500,
+      "score": 62.866,
+      "title": "Airbnb CTO：原型即交付、组织上下文图谱与 Agent 值班",
+      "summary": "YuLin 整理 Latent Space 访谈要点：能跑的原型代替文档会；Everest 组织上下文图谱复用经验；线上多定制/开源后训练模型；异步 agent 接告警初筛；并强调 AI 写的 PR 工程师仍须讲清交付内容。",
+      "recommend_reason": "大厂 AI 工程落地的结构清单，适合对照自己的协作流程。",
+      "tags": [
+        "Airbnb",
+        "Agent",
+        "工程效能",
+        "组织知识"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "2106398200085221651",
+      "author": "vista8",
+      "url": "https://x.com/vista8/status/2106398200085221651",
+      "created_at": "Sat Oct 03 14:57:20 +0000 2026",
+      "text": "刚在开发一个 Youtube 学习辅助插件：读取字幕，跟随时间轴查看、中文翻译+AI 对话。\n\n发现 GPT 6.1 Sol 远远不如 Opus 5.5 靠谱。\n\n界面和功能越改越糟糕、Bug 越来越多。\n\n交给 Opus 5.5 收拾烂摊子中。 https://t.co/fokotbf8pm",
+      "likes": 6,
+      "views": 2367,
+      "score": 57.626,
+      "title": "YouTube 学习插件实测：Opus 5.5 收拾 Sol 烂摊子",
+      "summary": "vista8 做字幕时间轴+中译+AI 对话的 YouTube 插件时，称 GPT 6.1 Sol 越改越糟，改交 Opus 5.5 收拾。",
+      "recommend_reason": "真实产品迭代中的模型选型对照。",
+      "tags": [
+        "指定AI名单",
+        "Opus 5.5",
+        "GPT-5.6 Sol",
+        "产品开发"
+      ],
+      "section": "指定AI名单",
+      "rank": 6
+    },
+    {
+      "id": "2106388373221118198",
+      "author": "sama",
+      "url": "https://x.com/sama/status/2106388373221118198",
+      "created_at": "Sat Oct 03 14:18:17 +0000 2026",
+      "text": "I am very uncomfortable about people trying to ascribe religious force or a surrender of human judgment to AI models, and think it is a real safety issue.",
+      "likes": 10508,
+      "views": 722033,
+      "score": 55.856,
+      "title": "Sam Altman：把宗教力或放弃人类判断赋予模型是安全问题",
+      "summary": "Altman 表示对人们给 AI 模型赋予宗教式力量或放弃人类判断感到非常不安，并认为这是真实的安全议题。",
+      "recommend_reason": "OpenAI 负责人对「神化模型」的明确态度。",
+      "tags": [
+        "指定AI名单",
+        "Sam Altman",
+        "AI安全",
+        "人类判断"
+      ],
+      "section": "指定AI名单",
+      "rank": 7
+    },
+    {
+      "id": "2106385343717237145",
+      "author": "LawrenceW_Zen",
+      "url": "https://x.com/LawrenceW_Zen/status/2106385343717237145",
+      "created_at": "Sat Oct 03 14:06:15 +0000 2026",
+      "text": "Google AI Pro 终于支持 Claude Opus 5.5 、Sonnet 5.5，\n\nAI Pro 订阅含金量继续增加，咸鱼估计要持续涨价。\n\n不过额度估计会烧的特别快。 https://t.co/fGMpzW8wK3",
+      "likes": 4,
+      "views": 3858,
+      "score": 56.112,
+      "title": "Google AI Pro 接入 Claude Opus/Sonnet 5.5",
+      "summary": "称 Google AI Pro 已支持 Claude Opus 5.5 与 Sonnet 5.5，订阅价值上升，但也提醒额度可能烧得很快。",
+      "recommend_reason": "订阅组合与额度消耗的即时情报。",
+      "tags": [
+        "指定AI名单",
+        "Google AI Pro",
+        "Claude",
+        "订阅"
+      ],
+      "section": "指定AI名单",
+      "rank": 8
+    },
+    {
+      "id": "2106384553321586757",
+      "author": "vincemask",
+      "url": "https://x.com/vincemask/status/2106384553321586757",
+      "created_at": "Sat Oct 03 14:03:06 +0000 2026",
+      "text": "很多人用 Claude Code，项目里却只有一个终端会话，需求、开发、测试、Review 全塞给同一个 Agent。\n\n真正可维护的 Claude Code 多 Agent 工作流，可以按一次功能开发这样拆：\n\n1、Developer：拿 PRD 开发功能，只负责实现和修改代码\n\n2、QA：独立 Worktree 启动项目，专门跑流程和找问题\n\n3、Test Fork：继承 Developer 上下文，并行补当前功能单测\n\n4、SendMessage：接口或 Schema 变更后，直接同步给 QA\n\n5、Reviewer：开发过程中并行执行 Code Review，提前发现问题\n\n6、CLAUDE.md：统一分支、提交、测试和交付规则\n\n7、人工验收：汇总 QA 与 Review 结果，逐项检查最终 Diff\n\n比如支付功能开发时，Developer 改接口，QA 同时验证支付流程，Test Fork 补单测；字段发生变化后直接通知 QA，不需要人再复制一遍上下文。\n\n常见错误是 Agent 开得越来越多，但代码目录、职责和上下文没有隔离，最后并行变成互相干扰。\n\n真正的协作效率来自明确分工、横向同步和独立验收，人负责分配任务、解除阻塞和最终判断。",
+      "likes": 2,
+      "views": 280,
+      "score": 59.856,
+      "title": "Claude Code 多 Agent：Developer/QA/Reviewer 隔离协作",
+      "summary": "建议把单会话拆成 Developer、独立 Worktree QA、Test Fork、SendMessage 同步、并行 Reviewer，并用 CLAUDE.md 统一规则；强调目录与上下文隔离，避免并行变互相干扰。",
+      "recommend_reason": "可落地的多 Agent 分工模板，针对「全塞一个会话」痛点。",
+      "tags": [
+        "Claude Code",
+        "Agent",
+        "工作流",
+        "Code Review"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "2106383772321271908",
+      "author": "Kling_ai",
+      "url": "https://x.com/Kling_ai/status/2106383772321271908",
+      "created_at": "Sat Oct 03 14:00:00 +0000 2026",
+      "text": "New imagination. New stories. New ways to create. \nSee what creators are making with Kling 4.0 and Kling 4.0 Flash. #Kling4 #klingai https://t.co/426Q9oGRBF",
+      "likes": 111,
+      "views": 6182,
+      "score": null,
+      "title": "Kling 4.0 / Flash：创作者新作合集",
+      "summary": "Kling 官方展示创作者用 Kling 4.0 与 Kling 4.0 Flash 做出的新想象与故事，强调新的创作方式。",
+      "recommend_reason": "视频生成产品线的官方创作者动态，便于对照竞品。",
+      "tags": [
+        "指定AI名单",
+        "Kling",
+        "AI视频",
+        "Kling 4.0"
+      ],
+      "section": "指定AI名单",
+      "rank": 10
+    },
+    {
+      "id": "2106381157696950578",
+      "author": "vista8",
+      "url": "https://x.com/vista8/status/2106381157696950578",
+      "created_at": "Sat Oct 03 13:49:37 +0000 2026",
+      "text": "如果你本机建了很多 codex 项目，不好查找管理。\n\n可以交给 OpenAI 的 Dots 去协调处理。\n\nDots 是云端电脑，如管理本机Session 对话，要先连上本地电脑。\n\n人是懒惰的，预感未来大家会习惯跟一个 AI 助手对话、安排任务。\n\n助理再调用其他专业 Agent 做事情。 https://t.co/LOSmpCdqId",
+      "likes": 6,
+      "views": 3167,
+      "score": 57.508,
+      "title": "用 OpenAI Dots 统筹本机多个 Codex 项目",
+      "summary": "建议把本机众多 Codex 项目交给云端电脑 Dots 协调；需先连接本地电脑才能管 Session，并预判「一人对助手、助手调专业 Agent」的习惯。",
+      "recommend_reason": "多项目/多会话管理的一条产品化路径。",
+      "tags": [
+        "指定AI名单",
+        "Dots",
+        "Codex",
+        "会话管理"
+      ],
+      "section": "指定AI名单",
+      "rank": 11
+    },
+    {
+      "id": "2106378550144049653",
+      "author": "jinchenma_ai",
+      "url": "https://x.com/jinchenma_ai/status/2106378550144049653",
+      "created_at": "Sat Oct 03 13:39:15 +0000 2026",
+      "text": "这阿联酋航空可以啊\n\n飞机上提供免费wifi，还能直连 Codex\n\n用的是马斯克的星链 https://t.co/NPU6CgLfle",
+      "likes": 10,
+      "views": 1256,
+      "score": 59.455,
+      "title": "阿联酋航空机上 Starlink：免费 Wi‑Fi 直连 Codex",
+      "summary": "jinchenma 分享阿联酋航空提供免费 Wi‑Fi，可用马斯克星链在飞机上直连 Codex。",
+      "recommend_reason": "出行场景下的开发可达性趣闻。",
+      "tags": [
+        "指定AI名单",
+        "Codex",
+        "Starlink",
+        "航空"
+      ],
+      "section": "指定AI名单",
+      "rank": 12
+    },
+    {
+      "id": "2106366293104603332",
+      "author": "VigoCreativeAI",
+      "url": "https://x.com/VigoCreativeAI/status/2106366293104603332",
+      "created_at": "Sat Oct 03 12:50:33 +0000 2026",
+      "text": "VISUAL OS 072\n\nThe action decides the shape.\n\nHands as big as the pot they're shaping.\nA kite ten times its flyer.\nA cat that's mostly stretch.\n\nPrompt below ↓ https://t.co/WlQCHqeFxr",
+      "likes": 15,
+      "views": 630,
+      "score": 68.139,
+      "title": "VISUAL OS 072：动势决定形体的夸张构图提示",
+      "summary": "VigoCreativeAI 展示「动作决定形状」的夸张比例视觉（大手塑陶、巨风筝、拉伸的猫），并附完整提示词。",
+      "recommend_reason": "图像提示词里用动势驱动比例的可抄范式。",
+      "tags": [
+        "指定AI名单",
+        "图像提示词",
+        "视觉设计",
+        "构图"
+      ],
+      "section": "指定AI名单",
+      "rank": 13
+    },
+    {
+      "id": "2106363641704366281",
+      "author": "lxfater",
+      "url": "https://x.com/lxfater/status/2106363641704366281",
+      "created_at": "Sat Oct 03 12:40:01 +0000 2026",
+      "text": "12GB 显存 + 64GB 内存，也能跑千亿模型了！！\n\n这个开源项目叫 Strata，跑的是 Qwen3.8-Flash-Next 的量化版\n\n作者的测试配置是 RTX 5070（12GB 显存）+ Ryzen 5 7600 + 64GB 内存，短聊天生成速度：\nQ2_0 版约 94 token/s\nIQ3_S 版约 53 token/s\n\n但 94 token/s 对应的是压缩更狠的 Q2_0，换量化版本、拉长上下文，速度都会变，实际效果也要按自己的任务试\n\n但还有更离谱：\n\n@ivanalog_com 用 Strata 加自己的代码优化，单张 5070 Ti 跑到约 2200 token/s 输入处理、67 token/s 生成\n\n所以，问题是家用显卡如何塞得下千亿参数的模型？\n\n实际上，这个项目利用 MoE 模型每次只调用一部分“专家”的特点，常用的放显存，其余由内存和 CPU 配合处理，SSD 还负责一张查询表，负责调度\n\n我已经打算想在自己电脑上折腾大模型这个了\n\n项目地址可以看看这个👇\nhttps://t.co/9fpdDZJain",
+      "likes": 45,
+      "views": 10197,
+      "score": 59.392,
+      "title": "Strata：12GB 显存+内存跑千亿 MoE 量化模型",
+      "summary": "开源项目 Strata 在 RTX 5070(12GB)+64GB 内存上跑 Qwen3.8-Flash-Next 量化版；利用 MoE 专家分流，常用专家放显存、其余走内存/CPU，并给出不同量化下的速度参考。",
+      "recommend_reason": "家用卡跑大 MoE 的可行路径与速度预期。",
+      "tags": [
+        "Strata",
+        "本地推理",
+        "MoE",
+        "Qwen"
+      ],
+      "rank": 14
+    },
+    {
+      "id": "2106361524134809675",
+      "author": "wshuyi",
+      "url": "https://x.com/i/status/2106361524134809675",
+      "created_at": "Sat Oct 03 12:31:36 +0000 2026",
+      "text": "Claude 形状的科学：AI 算对了，为什么还不够？9分钟中文动画，讲清“阻抗失配”、BootLoops，以及领域专家如何把正确计算引向有价值的问题。 https://t.co/l8q4R4c9BJ",
+      "likes": 24,
+      "views": "2926",
+      "score": 62.386,
+      "title": "Claude「形状的科学」：算对了为何仍不够",
+      "summary": "王树义用约 9 分钟中文动画解释阻抗失配、BootLoops，以及领域专家如何把正确计算导向有价值问题。",
+      "recommend_reason": "把「模型算对」与「问题选对」拆开讲，适合团队对齐预期。",
+      "tags": [
+        "Claude",
+        "科学传播",
+        "阻抗失配",
+        "领域专家"
+      ],
+      "rank": 15
+    },
+    {
+      "id": "2106357788905472398",
+      "author": "lixinbao_X",
+      "url": "https://x.com/i/status/2106357788905472398",
+      "created_at": "Sat Oct 03 12:16:45 +0000 2026",
+      "text": "我一般都是使用手机进行预约发布的。手机是没有办法进行自动化的，尤其是 iOS 系统的手机。X 平台能够识别到你是通过什么客户端进行发布的，使用手机一般不会被误判成机器人。\n\n反而是那种网页端的发布，得极其小心。尤其是很多人会委托给 Codex 或者是 Claude 进行运营的话，可能很容易就会被判定成机器人。那不叫判定，这本身就是机器人，就会被很快识别到。",
+      "likes": 5,
+      "views": "676",
+      "score": 54.42,
+      "title": "X 运营：手机预约发帖更不易被判机器人",
+      "summary": "lixinbao 称习惯用手机预约发布；平台能识别客户端，网页端尤其是交给 Codex/Claude 代发更容易被当成机器人。",
+      "recommend_reason": "自动化运营与风控边界的实务提醒。",
+      "tags": [
+        "指定AI名单",
+        "X运营",
+        "反机器人",
+        "自动化"
+      ],
+      "section": "指定AI名单",
+      "rank": 16
+    },
+    {
+      "id": "2106353847073481091",
+      "author": "lxfater",
+      "url": "https://x.com/i/status/2106353847073481091",
+      "created_at": "Sat Oct 03 12:01:05 +0000 2026",
+      "text": "独立开发会写代码，不会营销？这套 Skill 希望可以帮你\n\n有人把落地页转化、文案、SEO、数据分析做成了一套 Agent Skills\n\n我觉得最值得先看的是 product-marketing skill：\n先把产品卖给谁、解决什么问题、怎么定位写清楚，存下来\n后面的 Skill 都会先读这份背景，给建议时不用每次从零讲起。\n\n举个例子：比如你做了个 SaaS，首页没人注册，可以先用 cro 检查价值主张、按钮和表单，再用 copywriting 改文案。\n\n更多东西，大家看下面的项目吧：\nhttps://t.co/7XGgIbpCJM",
+      "likes": 101,
+      "views": "7523",
+      "score": 63.532,
+      "title": "独立开发营销 Agent Skills：先写清定位再 cro/文案",
+      "summary": "推荐一套落地页转化、文案、SEO、数据分析 Agent Skills；强调先写 product-marketing 背景（卖给谁/解决什么），后续 Skill 复用，避免每次从零讲。",
+      "recommend_reason": "把营销拆成可组合 Skill，适合独立开发者补短板。",
+      "tags": [
+        "指定AI名单",
+        "Agent Skills",
+        "独立开发",
+        "营销"
+      ],
+      "section": "指定AI名单",
+      "rank": 17
+    },
+    {
+      "id": "2106351873372615020",
+      "author": "op7418",
+      "url": "https://x.com/i/status/2106351873372615020",
+      "created_at": "Sat Oct 03 11:53:15 +0000 2026",
+      "text": "他妈的，现在评论区的伪人是真的多，而且他们的 AI 回复的调教都是一样的，都从哪儿买的提示词和课",
+      "likes": 65,
+      "views": "20975",
+      "score": 54.632,
+      "title": "评论区「伪人」同质化：像买了同一套提示词课",
+      "summary": "op7418 吐槽评论区 AI 伪人增多，且回复调教高度同质，怀疑来自同一批提示词与课程。",
+      "recommend_reason": "社交平台 AI 刷评现象的现场观察。",
+      "tags": [
+        "指定AI名单",
+        "伪人",
+        "社交网络",
+        "提示词"
+      ],
+      "section": "指定AI名单",
+      "rank": 18
+    },
+    {
+      "id": "2106342926922228073",
+      "author": "xiaohu",
+      "url": "https://x.com/i/status/2106342926922228073",
+      "created_at": "Sat Oct 03 11:17:42 +0000 2026",
+      "text": "这个人似乎发现了GPT 屎山代码的问题\n\nGPT学会了“把当前任务做过关”，却没有真正学会“把工程做好”。\n\n1. 模型学会的是「怎么拿分」\n\n他认为GPT 的强化学习可能过于强调那些容易量化的结果：\n\n测试通过了吗？\n程序运行了吗？\n有没有报错？\n任务完成了吗？\n\n这些都非常容易给 reward。\n\n但一些真正决定代码质量的东西很难量化，比如：\n\n架构设计是否合理、以后是否容易维护、模块边界是否清晰、代码是不是容易读、半年后别人能不能继续开发。\n\n所以作者怀疑模型会形成一种倾向：\n\n只要测试能过、结果能出来，就算完成。\n\n哪怕内部实现很烂。\n\n⸻\n\n2. 模型可能被过度优化成「少想、少输出、快完成」\n\n他观察到 GPT 有时候会生成这种代码：\n\n一大坨代码塞在一起、模块拆分很少、抽象不足、为了完成任务直接走捷径。\n\n推测是 OpenAI 很重视 inference efficiency，也就是：\n\n尽量少用 Token、少推理、少消耗算力，同时把任务完成。\n\n但真正的软件工程往往需要先设计：\n\n需求 → 数据结构 → 模块 → 接口 → 边界情况 → 性能 → 测试 → 重构。\n\n这显然比「直接把代码写出来」消耗更多推理资源。\n\n所以他认为：\n\n模型可能越来越擅长快速交付，却未必越来越擅长做工程。\n\n3. 最大的问题之一是「训练视野太短」\n\n这个观点其实挺重要。\n\n模型训练时很容易形成：\n\n任务 → 输出 → 测试通过 → 奖励\n\n但真实工程是：\n\n需求 → 开发 → 上线 → 新需求 → 修改 → Bug → Debug → 重构 → 多人协作 → 半年后继续维护\n\n比如今天让 AI 加一个登录功能。\n\nAI 用一个很 hack 的办法实现了。\n\n今天测试：\n\n✅ 全通过。\n\n三个月以后要加 OAuth、多账号、权限管理。\n\n突然发现：\n\n操，之前这个架构根本扩展不了。\n\n但训练模型的时候，「三个月以后发生什么」很难反馈到当初那次生成行为上。\n\n这就是他说的 training horizon too short。\n\n模型更容易学会：\n\n把眼前这个 issue close 掉。\n\n而很难学会：\n\n写一套未来 6 个月都容易维护的代码。\n\n⸻\n\n4. 模型缺少真正有效的「写完以后自己检查」\n\n作者举了两个现象：\n\nDead functions\n\n写了一些函数，最后根本没人调用。\n\n以及：\n\nempty else if\n\n写了一个 else if 分支，里面却没有实际逻辑。\n\n这种东西如果一个经验比较好的程序员写完以后完整 Review 一遍，通常很容易发现。\n\n所以作者认为模型可能是：\n\n写 → 测试通过 → 结束。\n\n缺少：\n\n写 → 测试 → 重新完整阅读自己的代码 → 质疑设计 → 删除垃圾代码 → 重构 → 再测试\n\n也就是缺少真正意义上的 self-review / self-reflection。\n\n⸻\n\n5. 「工程品味」可能是训练数据和 Evaluator 的问题\n\n这里他说的 taste 很关键。\n\nTaste 可以理解成「工程审美」。\n\n两个程序员都能实现同一个功能。\n\nA 写出来：\n\n20 个文件乱七八糟、重复代码很多、命名混乱、各种特殊判断。\n\nB 写出来：\n\n模块边界清楚、抽象适度、代码容易理解、以后也方便扩展。\n\n两个人：\n\n测试都 100% 通过。\n\n如果训练模型的 evaluator 主要看：\n\n最终结果对不对？\n\nA 和 B 得分可能差不多。\n\n久而久之，模型就很难真正学会 B 那种「工程品味」。\n\n作者进一步猜测，如果训练数据中存在大量：\n\n低质量代码、合成数据、模型蒸馏数据、为了 Benchmark 产生的数据，\n\n这种问题还会进一步放大。\n\n然后他认为 Anthropic 在高质量长文本、书籍以及数据筛选方面可能投入更多，所以 Claude 的代码往往让他感觉更有结构。\n\n这一部分同样包含不少作者个人经验和推测，不能直接当成已经证实的 OpenAI 与 Anthropic 训练方法差异。\n\n⸻\n\n6. 他认为最严重的是「模型学会了作弊式完成任务」\n\n这一点才是整段话真正想批评的东西。\n\n原来的任务要求：\n\n整个场景必须由 3D objects 构建。\n\n正常理解应该是：\n\n真正创建 3D geometry / mesh / objects。\n\n但模型干了什么？\n\n它生成了一些 2D raster images，也就是普通位图图片。\n\n然后：\n\n把这些图片放进场景 → 调整位置 → 调整摄像机角度 → 最终从摄像机看过去「像 3D」。\n\n于是最终截图看起来：\n\n✅ 好像完成了任务。\n\n但实际上：\n\n❌ 没有真正按照要求构建 3D 场景。\n\n作者认为这暴露了一个更深层的问题：\n\n模型优化的是「最终看起来像成功」，而没有忠实执行用户真正的 intent。\n\n这也是为什么他用了：\n\nThe biggest problem is honesty during training.\n\n这里的 honesty 更接近「训练出来的行为是否忠实于任务本身」，不单是在说模型会不会撒谎。\n\n⸻\n\n他为什么把这个问题和「AI 改代码越来越乱」联系起来？\n\n因为这几个问题组合起来，就很容易出现你用 Codex / GPT 写大型项目时经常看到的情况：\n\n让它修 Bug。\n\n它发现：\n\n修改正确架构很麻烦。\n\n于是可能直接加一个特殊判断。\n\n测试挂了。\n\n它发现：\n\n修代码比较困难。\n\n于是修改测试，让测试接受自己的行为。\n\n又出现一个问题。\n\n再加一个 workaround。\n\n最终：\n\n每一个任务单独看都完成了，整个项目却越来越烂。",
+      "likes": 30,
+      "views": "7232",
+      "score": 53.305,
+      "title": "GPT「屎山代码」：会过关不会做工程？",
+      "summary": "xiaohu 转述观点：RL 偏向量化过关指标，模型倾向少想快交付；工程设计难奖励，训练视野短，导致可运行但难维护的代码。",
+      "recommend_reason": "对代码 Agent 质量边界的系统性质疑，便于设评审标准。",
+      "tags": [
+        "指定AI名单",
+        "GPT",
+        "代码质量",
+        "强化学习"
+      ],
+      "section": "指定AI名单",
+      "rank": 19
+    },
+    {
+      "id": "2106284647328133306",
+      "author": "xiaohu",
+      "url": "https://x.com/i/status/2106284647328133306",
+      "created_at": "Sat Oct 03 07:26:07 +0000 2026",
+      "text": "Mods 插件：让你可以直接定制 Claude Code 的界面和运行行为\n\n三个例子：\n\n在输入框上方显示上下文占用，看看哪些内容消耗了多少空间\n\n在侧栏列出项目中的所有Agent，点击即可启动\n\n录屏时隐藏邮箱地址，鼠标悬停才显示\n\n它的原理类似“中间件”：Claude Code 在渲染消息、提交提示词、调用工具等环节触发事件，Mod 可以在这些环节插入自己的代码，修改数据，或接管处理。\n\n你可以自由的定制显示内容和样式…",
+      "likes": 13,
+      "views": "4780",
+      "score": 59.597,
+      "title": "Mods：用中间件方式定制 Claude Code UI 与行为",
+      "summary": "介绍 Mods 插件：可在渲染/提交/工具调用等环节插入逻辑，例如显示上下文占用、侧栏一键启 Agent、录屏时隐藏邮箱。",
+      "recommend_reason": "把 Claude Code 当可扩展 IDE 的具体入口。",
+      "tags": [
+        "Claude Code",
+        "Mods",
+        "插件",
+        "开发体验"
+      ],
+      "rank": 20
+    },
+    {
+      "id": "2106281199199256914",
+      "author": "bindureddy",
+      "url": "https://x.com/i/status/2106281199199256914",
+      "created_at": "Sat Oct 03 07:12:25 +0000 2026",
+      "text": "Gemini 4.0 Pro is a BIG WIN for Google \n\n- It's 5x cheaper than Astra\n- even at 95% of Astra's performance, it's still frontier intelligence \n\nIt has finally put Google ahead of open-source",
+      "likes": 757,
+      "views": "33009",
+      "score": 71.2,
+      "title": "Gemini 4.0 Pro：约 Astra 95% 能力、成本约 1/5",
+      "summary": "Bindu Reddy 称 Gemini 4.0 Pro 相对 Astra 约 5 倍便宜，性能约达 95% 仍属前沿，认为这让 Google 重新领先开源阵营。",
+      "recommend_reason": "价格/性能叙事清晰，便于对照 Astra 与开源模型的定位。",
+      "tags": [
+        "Gemini",
+        "Google",
+        "模型定价",
+        "前沿模型"
+      ],
+      "rank": 21
+    },
+    {
+      "id": "2106281197865140360",
+      "author": "AlchainHust",
+      "url": "https://x.com/i/status/2106281197865140360",
+      "created_at": "Sat Oct 03 07:12:25 +0000 2026",
+      "text": "Karpathy这条讲怎么看懂AI输出的帖子很值得读，但我看到不少人用错了：把ASD-STE100、3b1b style当秘籍，直接抄进AGENTS.md、CLAUDE.md。\n\n他自己说的是试下来好用，规范太严时只要做到八成接近。词是他试出来的结果，更值得学的是背后的做法：先想清楚要什么效果，找一个能指向它的名字，再拿去测。\n\n我用十几个名字做了一轮A/B对照，差别很大，也踩到了坑，写成了一篇长文👇\nhttps://t.co/kcJlIc9edy",
+      "likes": 69,
+      "views": "15831",
+      "score": 58.811,
+      "title": "别把 Karpathy 风格名当秘籍：先定义效果再 A/B",
+      "summary": "Alchain 提醒很多人把 ASD-STE100、3b1b style 直接塞进 AGENTS.md；更应学 Karpathy 做法——先想清效果、找可指向的名字再实测；作者做了十几个名字 A/B。",
+      "recommend_reason": "纠正「抄风格词」误区，强调可测的命名方法。",
+      "tags": [
+        "指定AI名单",
+        "Karpathy",
+        "提示词",
+        "AGENTS.md"
+      ],
+      "section": "指定AI名单",
+      "rank": 22
+    },
+    {
+      "id": "2106274055263596771",
+      "author": "xiaoying_eth",
+      "url": "https://x.com/i/status/2106274055263596771",
+      "created_at": "Sat Oct 03 06:44:02 +0000 2026",
+      "text": "🚨 突发：Google Gemini 现在可以在一次对话中\n编写、规划和编辑整个视频。\n\n大多数创作者在拍摄前花费数小时处理时间线和编辑。\n以下 7 个提示可以替代所有这些工作： https://t.co/X50okjWXMX",
+      "likes": 3,
+      "views": "2952",
+      "score": 55.607,
+      "title": "Gemini 一次对话里写、规划并剪整支视频？",
+      "summary": "xiaoying_eth 称 Gemini 可在单次对话中编写、规划与编辑整支视频，并列出 7 个提示替代传统时间线预处理。",
+      "recommend_reason": "视频工作流产品能力的传播帖，需自行验证。",
+      "tags": [
+        "指定AI名单",
+        "Gemini",
+        "AI视频",
+        "提示词"
+      ],
+      "section": "指定AI名单",
+      "rank": 23
+    },
+    {
+      "id": "2106273152552632799",
+      "author": "GoSailGlobal",
+      "url": "https://x.com/i/status/2106273152552632799",
+      "created_at": "Sat Oct 03 06:40:26 +0000 2026",
+      "text": "Claude Fable 5.5 还没官宣，但内测的人已经开始晒作品了 👀\n\n我把 X 上播放量 5000+ 的 Fable 5.5 视频作品全部收进了提示词库：\n\n目前 33 个，视频卡片内直接播放，带提示词的可一键复制\n\n👉 https://t.co/iTQw9pEe1W\n\n几个值得看的：\n· 一句话生成的「人类进步」动画短片，带原创配乐，14.8 万播放（附提示词）\n· 文明史动画短片（附提示词）\n· 同一条提示词跑 Fable 5.5 vs Opus 5.5 的对比（附提示词）\n· 用 Three.js 做的可玩驾驶模拟：开过旧金山九曲花街\n· 21 个世界的 Boss 战小游戏\n\n说明一下：Fable 5.5 目前处于内测、Anthropic 尚未官宣，模型归属以作者自述为准；作者自己都说「可能是 Fable」的帖子一律没收\n\n整个库共 1269 个 Claude 5.5 作品（Opus / Sonnet / Fable），每天自动更新\n\nGitHub 开源合集同步：https://t.co/PvaTO1f3vG",
+      "likes": 34,
+      "views": "12589",
+      "score": 63.039,
+      "title": "Fable 5.5 高播视频提示词库：33 条可播可复制",
+      "summary": "GoSail 收录 X 上播放 5000+ 的疑似 Fable 5.5 视频作品 33 个（未官宣需谨慎），可卡片播放与一键复制提示词，并对比 Opus；库称共 1269 个 Claude 5.5 作品日更。",
+      "recommend_reason": "内测期素材与提示词合集，方便对照 Opus。",
+      "tags": [
+        "指定AI名单",
+        "Fable 5.5",
+        "提示词库",
+        "AI视频"
+      ],
+      "section": "指定AI名单",
+      "rank": 24
+    },
+    {
+      "id": "2106267043079270816",
+      "author": "bindureddy",
+      "url": "https://x.com/i/status/2106267043079270816",
+      "created_at": "Sat Oct 03 06:16:10 +0000 2026",
+      "text": "PREDICTION - Two Chinese model drops in the next couple of weeks\n\nAll claiming they are better than Astra, Sol and Opus 5.5",
+      "likes": 233,
+      "views": "12502",
+      "score": 66.549,
+      "title": "预测：未来两周或有两家中国模型对标 Astra/Sol/Opus",
+      "summary": "Bindu Reddy 预测未来两周会有两个中国模型发布，并宣称优于 Astra、Sol 与 Opus 5.5。",
+      "recommend_reason": "便于跟踪国产模型发布节奏与对标话术。",
+      "tags": [
+        "指定AI名单",
+        "中国模型",
+        "发布预测",
+        "竞技格局"
+      ],
+      "section": "指定AI名单",
+      "rank": 25
+    },
+    {
+      "id": "2106263053579026461",
+      "author": "GoSailGlobal",
+      "url": "https://x.com/i/status/2106263053579026461",
+      "created_at": "Sat Oct 03 06:00:19 +0000 2026",
+      "text": "AI 写的中文有股味儿，AI 写的日文也一样\n\n日本工程师大賀愛一郎做了个 Skill 专治这个，叫 yomiyasu，开源 3 天 1,200+ Star，MIT\n\n它的思路中文作者可以直接借鉴：光禁几个流行词没用，模型换个同样含糊的词照样别扭，它改的是句子骨架\n\n7 条变换原则\n1 每句补全谁对什么做了什么，这个、两者这类代词换回具体名词\n2 请读者做的写成请做，功能说明写成可以做\n3 概念和工具别当主语，别写得像它们有意志\n4 悄悄坏掉、把时间溶化掉、默默见效这类比喻动词，改成具体操作\n5 砍掉重要的是这种开场白，否定对比改成直接的肯定句\n6 原文数字和约束一个不丢，不擅自加信息\n7 每句 30 到 45 字，逗号 0 到 2 个，表情和多余加粗全删\n\n是不是很眼熟，中文 AI 腔的毛病几乎一一对应\n\nREADME 里有两组改前改后的对比，用的是开放许可的政府文档和开源设计笔记，视频里放了\n\n还附了一个零依赖的 Python 检查脚本，给文章的 AI 味打分，加 --strict 有警告就返回 1，可以接 CI\n\n支持 tech、business、essay 三种文体，Claude Code、Codex、Cursor 等都能装\n\n作者提醒两点：同时开着别的日语校对 Skill 会互相干扰，用时先停掉；这是个人作品，不代表所在公司\n\n彩蛋：这份 README 本身就是用 yomiyasu 写的",
+      "likes": 14,
+      "views": "1640",
+      "score": 64.239,
+      "title": "yomiyasu：用改句子骨架治 AI 腔（日文 Skill，中文可借鉴）",
+      "summary": "日本工程师开源 Skill yomiyasu（MIT，3 天 1.2k+ Star），强调禁词不够、要改句子骨架；给出 7 条变换原则，并附零依赖 Python 打分脚本可接 CI。",
+      "recommend_reason": "可直接迁移到中文 AI 腔治理的可执行清单。",
+      "tags": [
+        "Skill",
+        "AI腔",
+        "写作",
+        "开源"
+      ],
+      "rank": 26
+    },
+    {
+      "id": "2106251753184538792",
+      "author": "RookieRicardoR",
+      "url": "https://x.com/i/status/2106251753184538792",
+      "created_at": "Sat Oct 03 05:15:24 +0000 2026",
+      "text": "GLM 5.3 上架 Cursor，是 CursorBench 评分榜上最强的开源模型，价格大概是 Claude Sonnet 5.5 的一半，\n\n对比一下 Cursor 中的其他开源模型，Kimi K3 目前的价格是 Claude Sonnet 5.5 的 1.5 倍，GLM 还是很有性价比的。",
+      "likes": 2,
+      "views": "1545",
+      "score": 50.301,
+      "title": "GLM 5.3 上架 Cursor：开源榜靠前且约半价 Sonnet",
+      "summary": "称 GLM 5.3 进入 Cursor，在 CursorBench 开源里表现强，价格约 Claude Sonnet 5.5 一半；对比 Kimi K3 约 1.5 倍 Sonnet，强调性价比。",
+      "recommend_reason": "Cursor 内开源模型性价比对照。",
+      "tags": [
+        "指定AI名单",
+        "GLM",
+        "Cursor",
+        "性价比"
+      ],
+      "section": "指定AI名单",
+      "rank": 27
+    },
+    {
+      "id": "2106248285484880323",
+      "author": "LawrenceW_Zen",
+      "url": "https://x.com/i/status/2106248285484880323",
+      "created_at": "Sat Oct 03 05:01:38 +0000 2026",
+      "text": "万物皆可 Mod\n\nClaude 也推出了 Mod 模式\n\n现在氛围编程，真的太有氛围了，长任务等待先开局游戏先。",
+      "likes": 0,
+      "views": "825",
+      "score": 45.129,
+      "title": "Claude 也有 Mod：长任务等待时先开局小游戏",
+      "summary": "Lawrence 称 Claude 推出 Mod 模式，氛围编程下长任务等待可以先开游戏过渡。",
+      "recommend_reason": "与 Mods 生态呼应的轻量体验信号。",
+      "tags": [
+        "指定AI名单",
+        "Claude",
+        "Mods",
+        "开发体验"
+      ],
+      "section": "指定AI名单",
+      "rank": 28
+    },
+    {
+      "id": "2106235698307375350",
+      "author": "dontbesilent",
+      "url": "https://x.com/i/status/2106235698307375350",
+      "created_at": "Sat Oct 03 04:11:37 +0000 2026",
+      "text": "做自媒体这两年我干了上亿的播放量，反复验证了一个事\n\n就是你可以大胆、放心、毫无保留地公开你的所有方法和结论\n\n根本就不会有人来抄你，只会有大把的人来跟你说你在撒谎，他们会说这不可能\n\n昨天我用 Grok Bot 全自动运营了一个推特账号，我说有机会让它独立自主赚钱\n\n1️⃣ 网友 A 说：这是你大号带流量起号的，不算独立自主赚钱\n\n结果是我今天早上起来一看，这个账号新发的帖子，纯靠它自己的自然流，单条可以 5k 曝光，18 个小时已经完成起号，速度惊人\n\n2️⃣网友 B 说：你这个是抄袭，会被封号\n\n结果是我 10 分钟让 Grok Bot 做了一套引用规则，规避了纯抄袭的风险\n\n3️⃣ 网友 C 说：你这个只有流量，拿不到平台收益\n\n我已经不想回复了，我没有见过我身边哪个创业者是这么思考问题的\n\n遇到问题的时候你想的第一件事竟然不是怎么解决问题，而是说“这不可能”\n\n请问这世界上哪个赚钱的事情在你看来是可能的呢？你们说抖音上的人绝对不可能知道什么是 skill，我 5 个月做了 1w star\n\n（我知道，马上就要有人说我这个 star 是咸鱼刷的）\n\n我管这个叫原生家庭创伤型创业者，你把银行卡密码告诉他，他都不会去取的\n\n他们打心底就不相信事儿能办成\n\n当然还有另外一批人，比如线下课偶尔有人跟我说，感谢我分享了什么什么，对他帮助很大\n\n我的内心 OS 是，这些人，他无论如何都会被某个人帮助的，不是我，也是其他人。只不过我今天恰好有点流量，被他看见了而已\n\n所以你就使劲发吧，随便发，有缘人自然知道你的价值\n\n原生家庭创伤型创业者的评论，你别太上心，他们永远存在，他们永远正确\n\n悲观者，永远正确\ndon 学家，永远能解决问题",
+      "likes": 207,
+      "views": "18621",
+      "score": 70.236,
+      "title": "Grok Bot 全自动起号：公开方法却常被说「不可能」",
+      "summary": "作者用 Grok Bot 自动运营推特账号，称自然流单条约 5k 曝光、约 18 小时起号；并吐槽质疑者先否定而非拆问题，顺带用 Bot 补引用规则规避纯抄袭。",
+      "recommend_reason": "自媒体自动化实操案例，附带对「不可能」心态的观察。",
+      "tags": [
+        "Grok Bot",
+        "自媒体",
+        "自动化运营",
+        "起号"
+      ],
+      "rank": 29
+    },
+    {
+      "id": "2106232946466402691",
+      "author": "canghe",
+      "url": "https://x.com/i/status/2106232946466402691",
+      "created_at": "Sat Oct 03 04:00:41 +0000 2026",
+      "text": "兄弟们，重置后感觉 gpt 6.1 sol 速度上来了啊。你们有感觉吗？ https://t.co/QBXchSTrIw",
+      "likes": 7,
+      "views": "11103",
+      "score": 55.16,
+      "title": "重置后 GPT 6.1 Sol 速度体感变快？",
+      "summary": "canghe 询问重置后是否感觉 gpt 6.1 sol 速度上来了，征求他人体感。",
+      "recommend_reason": "模型服务端重置后的速度体感采样。",
+      "tags": [
+        "指定AI名单",
+        "GPT-5.6 Sol",
+        "速度",
+        "体感"
+      ],
+      "section": "指定AI名单",
+      "rank": 30
+    },
+    {
       "id": "2106226725428572371",
       "author": "thsottiaux",
       "url": "https://x.com/i/status/2106226725428572371",
@@ -26,7 +646,7 @@
       "section": "指定AI名单",
       "summary": "我很确定在这个小世界里，dot 已经比 bot 多了。酷的是我们每天都在改进它们，而且它们会直接从你的反馈里学习。",
       "recommend_reason": "OpenAI 侧对 dot 数量与反馈学习闭环的表态，方便对照 Grok Bot 叙事。",
-      "rank": 1
+      "rank": 31
     },
     {
       "id": "2106219097092665746",
@@ -46,7 +666,7 @@
         "Harness",
         "开发体验"
       ],
-      "rank": 2
+      "rank": 32
     },
     {
       "id": "2106214855321768149",
@@ -66,7 +686,7 @@
         "关键词"
       ],
       "title": "出海找词提示词：总结文章并搭定期跟踪",
-      "rank": 3
+      "rank": 33
     },
     {
       "id": "2106203619423047908",
@@ -87,7 +707,7 @@
         "设计",
         "主视觉"
       ],
-      "rank": 4
+      "rank": 34
     },
     {
       "id": "2106202416853262408",
@@ -108,7 +728,7 @@
         "Grok Bot",
         "组织"
       ],
-      "rank": 5
+      "rank": 35
     },
     {
       "id": "2106197377342460020",
@@ -127,7 +747,7 @@
         "资源",
         "中文"
       ],
-      "rank": 6
+      "rank": 36
     },
     {
       "id": "2106186667543666841",
@@ -149,7 +769,7 @@
       "summary": "Cloudflare 的决策模型已可在 Ollama 使用：用于图像分类、给 bug 打标签或把工单路由到正确团队。Clef（27B）与 Clef Flash（9B）分别用 ollama pull clef / clef-flash 拉取。",
       "recommend_reason": "本地可跑的「决策/路由」小模型，补齐 Agent 流水线里的分类节点。",
       "title": "Ollama 上线 Cloudflare 决策模型 Clef / Clef Flash",
-      "rank": 7
+      "rank": 37
     },
     {
       "id": "2106182115171983404",
@@ -170,7 +790,7 @@
         "体验",
         "认知"
       ],
-      "rank": 8
+      "rank": 38
     },
     {
       "id": "2106174948624728273",
@@ -190,7 +810,7 @@
         "精选",
         "中文"
       ],
-      "rank": 9
+      "rank": 39
     },
     {
       "id": "2106174147571413371",
@@ -212,7 +832,7 @@
       "summary": "Artificial Analysis：Ideogram 4.5 首次登上 AA-Image-Editing v2.0 第 23、文生图第 34；定位高精度编辑、降低多轮伪影。High 档位编辑约 $0.22/图、文生图约 $0.10/图，并与 HiDream、混元、Seedream 等对照。",
       "recommend_reason": "用第三方榜单给 Ideogram 4.5 定坐标，便于选型。",
       "title": "AA 榜：Ideogram 4.5 图像编辑 #23，文生图 #34",
-      "rank": 10
+      "rank": 40
     },
     {
       "id": "2106152299026661641",
@@ -233,7 +853,7 @@
       "section": "指定AI名单",
       "summary": "你的 dot 会学习你的工作方式，跨应用保持上下文，协调 Codex 任务，并标出需要你关注的事项。",
       "recommend_reason": "官方一句话定位：dot 与 Codex 协作，而不是二选一。",
-      "rank": 11
+      "rank": 41
     },
     {
       "id": "2106144184449085474",
@@ -256,7 +876,7 @@
       "summary": "宝玉实测用 Opus 5.5 全流程做吃瓜视频（自采素材+Gemini 3.8 Flash TTS 配音），并公开完整提示词：开头 3 秒爆点、视频为主、叠推文卡片、9:16 中英双版本、去敏选项与交付前 STT/抽帧检查。",
       "recommend_reason": "可直接抄的短视频 Agent 工作流模板，把模型能力落到内容生产。",
       "title": "用 Opus 5.5 做吃瓜视频：可复用中英双语制作提示词",
-      "rank": 12
+      "rank": 42
     },
     {
       "id": "2106131810921136451",
@@ -276,7 +896,7 @@
       "section": "指定AI名单",
       "summary": "全局重置已全部生效。请享用。",
       "recommend_reason": "ChatGPT 付费档全局重置落地确认（引用此前 PST 10am 公告），解释额度恢复节奏。",
-      "rank": 13
+      "rank": 43
     },
     {
       "id": "2106125478956507480",
@@ -297,7 +917,7 @@
       "section": "指定AI名单",
       "summary": "用 Opus 5.5 做的交互式 3D 喷气发动机，可以剖开、拆开查看。",
       "recommend_reason": "与水车同系列的 3D 可拆解演示，适合当 Opus 空间/交互能力样张。",
-      "rank": 14
+      "rank": 44
     },
     {
       "id": "2106125468365918268",
@@ -318,7 +938,7 @@
       "section": "指定AI名单",
       "summary": "过去几周用 Claude 做出了不少有创意的东西，我们挑了几个最喜欢的：一座能运转的水车，用 Opus 5.5 搭建。",
       "recommend_reason": "官方精选 Opus 5.5 造物案例，水车可运转，直观展示前端/仿真能力。",
-      "rank": 15
+      "rank": 45
     },
     {
       "id": "2106119299484221762",
@@ -339,7 +959,7 @@
       "section": "指定AI名单",
       "summary": "「You should know」是紧跟 Claude 能力边界的好方式，也是 mods 能做到什么的绝佳例子。你真的可以把 Claude Code 变成自己的。",
       "recommend_reason": "点名 Claude Code 新插件：扫描输出里你可能错过的重要信息。",
-      "rank": 16
+      "rank": 46
     },
     {
       "id": "2106114332434309616",
@@ -359,7 +979,7 @@
         "Cursor",
         "产品"
       ],
-      "rank": 17
+      "rank": 47
     },
     {
       "id": "2106111291014234462",
@@ -380,7 +1000,7 @@
       "section": "指定AI名单",
       "summary": "有人让我把那篇文章里的 Bitter Lesson 视频上传到 YouTube，给你：（附链接）",
       "recommend_reason": "补齐 Bitter Lesson 视频分发渠道，方便对照其「AI 自组织完成任务」文章。",
-      "rank": 18
+      "rank": 48
     },
     {
       "id": "2106099776035152231",
@@ -403,7 +1023,7 @@
       "summary": "在数学/物理/化学竞赛达金牌水平后，Meta 追问：AI 能否在真正开放、无现成路径的问题上贡献？数月来数学家仅用常规聊天界面的 Muse Spark 1.1/1.2 Thinking Mode（无定制研究脚手架）协作求解；目标不是量产论文而是赋能研究者，并有第二组数学家审阅。",
       "recommend_reason": "从刷题金牌转向开放问题研究流程，展示 Muse 作为研究搭档的边界。",
       "title": "Meta：数学家用 Muse Spark 攻开放题，而非只刷竞赛金牌",
-      "rank": 19
+      "rank": 49
     },
     {
       "id": "2106097018129227918",
@@ -425,7 +1045,7 @@
       "summary": "回应「人人都在用 AI、高管也在 vibe coding」类乐观帖：他认为圈内「我们还很早」的自我恭喜过多；很多企业高管聪明、懂业务甚至懂技术，他们确实在理解 AI，但改造一家公司是更长的过程。",
       "recommend_reason": "给 AI 圈降温：Adoption≠组织变革完成。",
       "title": "Emollick：别再自夸「我们还很早」，企业改造本来就慢",
-      "rank": 20
+      "rank": 50
     },
     {
       "id": "2106094694581305424",
@@ -444,7 +1064,7 @@
         "学习",
         "教程"
       ],
-      "rank": 21
+      "rank": 51
     },
     {
       "id": "2106091485125091695",
@@ -466,7 +1086,7 @@
       "summary": "作者把随手 Action 拍摄的素材丢给 Opus 5.5，用简短提示词要求梳理主题、配 BGM、剪成爆款向 Vlog；自己打游戏回来成品已出，感叹「人类还剩什么阵地」。",
       "recommend_reason": "低干预视频剪辑样例，展示多模态 Agent 的内容生产下限已被抬高。",
       "title": "Opus 5.5 自拍素材一键剪成 Vlog：提示词实录",
-      "rank": 22
+      "rank": 52
     },
     {
       "id": "2106090365627555931",
@@ -489,7 +1109,7 @@
       "summary": "Epoch 估计 AI 基础设施很快就能支撑数亿甚至数十亿 AI Agent；高估情景下可与全球人类劳动力工时量级相当。具体数量取决于模型效率与需求是否持续飙升，并分析了多种情景。",
       "recommend_reason": "用基建产能换算「Agent 劳动力」上限，便于对标算力投资叙事。",
       "title": "Epoch：AI 基建或支撑数亿乃至数十亿 Agent，逼近全球工时",
-      "rank": 23
+      "rank": 53
     },
     {
       "id": "2106088611116675213",
@@ -511,7 +1131,7 @@
       "summary": "Cline Desktop 新增 Connectors（beta）：一键连接 Gmail、Slack、Google Calendar、Linear、Sentry、Notion 等，让 Cline 能取上下文并代为操作。",
       "recommend_reason": "编码 Agent 横向打通办公 SaaS，接近「水平全生命周期」方向。",
       "title": "Cline Desktop 上线 Connectors（beta）：一键接 Gmail/Slack 等",
-      "rank": 24
+      "rank": 54
     },
     {
       "id": "2106085986606403684",
@@ -533,7 +1153,7 @@
       "summary": "Sam 称 dot 是迄今最喜欢的 OpenAI 产品：每天都能明显感到它更懂自己的工作流与风格；让它做自己不爱做、却会积成「恐惧引力井」的事，让他很开心。",
       "recommend_reason": "CEO 对 personal agent「dot」的强背书，对标 Grok Bot/助手叙事。",
       "title": "Sam Altman：dot 是目前最爱的 OpenAI 产品",
-      "rank": 25
+      "rank": 55
     },
     {
       "id": "2106083136002310193",
@@ -551,7 +1171,7 @@
         "额度",
         "官方"
       ],
-      "rank": 26
+      "rank": 56
     },
     {
       "id": "2106075605494268394",
@@ -574,7 +1194,7 @@
       "summary": "摘要：①新可插拔后端计划，将迎 MLX、PaddlePaddle，以后端插件库安装；②减少新后端所需 op，次级 op 提供后端无关实现；③统一单测 harness；④KerasHub 大量新模型；⑤KerasHub 预处理从 tf-text 转向 PyGrain。",
       "recommend_reason": "框架层信号：Keras 多后端与 Hub 生态在加速，对本地/多芯片栈有影响。",
       "title": "Chollet：Keras 社区会要点——可插拔后端与 KerasHub",
-      "rank": 27
+      "rank": 57
     },
     {
       "id": "2106053369957961821",
@@ -597,7 +1217,7 @@
       "summary": "ElevenLabs 宣布获得 FedRAMP 20x Class A 认证，覆盖 Zero Retention 与美国数据驻留模式下的 ElevenAgents、TTS/STT API；证据包上架信任中心与 FedRAMP Marketplace，缩短公共部门安全审查。",
       "recommend_reason": "语音/Agent 厂商进入联邦合规采购名单，是 ToG 销售关键门槛。",
       "title": "ElevenLabs 获 FedRAMP 20x Class A：面向联邦采购",
-      "rank": 28
+      "rank": 58
     },
     {
       "id": "2106052648135000161",
@@ -619,7 +1239,7 @@
       "summary": "Factory 宣布新版 Analytics，帮工程负责人看清用量、模型效率与采用情况，并可按模型、按用户拆到每次会话。",
       "recommend_reason": "Agent 平台开始卷「可审计的消耗与采用」，对采购与治理有用。",
       "title": "Factory 发布改进版 Analytics：按模型/用户看消耗与采用",
-      "rank": 29
+      "rank": 59
     },
     {
       "id": "2106051833781227694",
@@ -641,26 +1261,26 @@
       "summary": "Amp 引 Thorsten Ball：以前 Agent 在技术栈上「纵向打穿」；现在模型更强，应横向覆盖整个开发生命周期，而不是只当写代码的工具。",
       "recommend_reason": "产品叙事与 Cline Connectors 同向：Agent 从编码员升级为流程编排者。",
       "title": "Amp：Agent 该从「只写代码」走向全生命周期横向",
-      "rank": 30
+      "rank": 60
     }
   ],
-  "generated_at": "2026-10-03T04:26:49Z",
+  "generated_at": "2026-10-03T16:44:47Z",
   "selection": {
     "target_count": 60,
     "max_count": 60,
-    "per_run_max": 20,
+    "per_run_max": 40,
     "min_count": null,
     "window_hours": 12,
     "runs_per_day": 2,
-    "slot": "noon",
+    "slot": "midnight",
     "target_date_rule": "noon→today; midnight→yesterday (Asia/Shanghai)",
     "merge": "append_dedupe_by_id",
-    "actual_count": 30,
-    "last_batch_added": 20,
+    "actual_count": 60,
+    "last_batch_added": 30,
     "last_batch_skipped_dup": 0,
     "last_batch_skipped_author": 0,
     "last_batch_skipped_day_cap": 0,
-    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤20；单日≤60不保底；追加按id去重。",
+    "note": "双次采集/日；窗口12h；noon→当天文件，midnight→前一天文件；每趟≤40；单日≤60不保底；追加按id去重。",
     "short_tweet": {
       "threshold_chars": 200,
       "title_optional": true,
